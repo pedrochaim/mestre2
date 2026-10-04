@@ -1,0 +1,2536 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Telescópio",
+        "descricao": "Instrumento óptico que usa lentes ou espelhos para ampliar objetos distantes, surgido no início do século dezessete.",
+        "variantes": [
+          "Luneta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "plutao",
+          "nome": "Plutão",
+          "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+          "variantes": [
+            "Pluto",
+            "134340 Plutão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pêndulo de Foucault",
+        "descricao": "Pêndulo longo e pesado usado pelo físico francês Léon Foucault, em 1851, para demonstrar a rotação da Terra.",
+        "variantes": [
+          "Foucault pendulum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pendulo_de_foucault",
+          "nome": "Pêndulo de Foucault",
+          "descricao": "Experimento com um longo pêndulo cujo plano de oscilação gira, demonstrando a rotação da Terra.",
+          "variantes": [
+            "Foucault pendulum",
+            "Pêndulo de Foucault no Panteão"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Irmãos Lumière",
+        "descricao": "Auguste e Louis Lumière, irmãos franceses que criaram o cinematógrafo e fizeram exibições pioneiras de cinema em 1895.",
+        "variantes": [
+          "Auguste e Louis Lumière",
+          "Lumière"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irmaos_lumiere",
+          "nome": "Irmãos Lumière",
+          "descricao": "Auguste e Louis Lumière, inventores franceses do cinematógrafo e pioneiros das exibições públicas de cinema em 1895.",
+          "variantes": [
+            "Auguste e Louis Lumière"
+          ]
+        },
+        {
+          "id": "moliere",
+          "nome": "Molière",
+          "descricao": "Dramaturgo e ator francês do século dezessete, autor de Tartufo e O Avarento.",
+          "variantes": [
+            "Jean-Baptiste Poquelin"
+          ]
+        },
+        {
+          "id": "irmaos_montgolfier",
+          "nome": "Irmãos Montgolfier",
+          "descricao": "Joseph-Michel e Jacques-Étienne Montgolfier, franceses que criaram o balão de ar quente em 1783.",
+          "variantes": [
+            "Montgolfier"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "sumerios",
+          "nome": "Sumérios",
+          "descricao": "Povo da Baixa Mesopotâmia que desenvolveu a escrita cuneiforme.",
+          "variantes": [
+            "Suméria",
+            "Sumer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Elisha Otis",
+        "descricao": "Industrial americano (1811–1861) que criou o freio de segurança para elevadores e fundou a empresa Otis.",
+        "variantes": [
+          "Elisha Graves Otis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "William Morton",
+        "descricao": "Dentista americano (1819–1868) que fez, em 1846, a célebre demonstração pública de anestesia com éter numa cirurgia.",
+        "variantes": [
+          "William T. G. Morton",
+          "William Thomas Green Morton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "william_g_morgan",
+          "nome": "William G. Morgan",
+          "descricao": "Professor de educação física americano que criou o vôlei em 1895.",
+          "variantes": [
+            "William George Morgan",
+            "William Morgan"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "william_moulton_marston",
+          "nome": "William Moulton Marston",
+          "descricao": "Psicólogo americano que criou a Mulher-Maravilha em 1941",
+          "variantes": [
+            "Charles Moulton"
+          ]
+        },
+        {
+          "id": "abertura_de_guilherme_tell",
+          "nome": "Abertura de Guilherme Tell",
+          "descricao": "Abertura da ópera Guilherme Tell, de Gioachino Rossini, de 1829.",
+          "variantes": [
+            "William Tell Overture",
+            "Guillaume Tell"
+          ]
+        },
+        {
+          "id": "bill_russell",
+          "nome": "Bill Russell",
+          "descricao": "Pivô americano do Boston Celtics, onze vezes campeão da NBA entre 1957 e 1969.",
+          "variantes": [
+            "William Felton Russell"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Semáforo",
+        "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres em cruzamentos.",
+        "variantes": [
+          "Sinal de trânsito",
+          "Farol",
+          "Sinaleira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "sinal_de_igual",
+          "nome": "Sinal de igual",
+          "descricao": "Símbolo matemático formado por dois traços paralelos, que indica igualdade.",
+          "variantes": [
+            "Sinal de igualdade",
+            "Equals sign"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Eclipse solar de 29 de maio de 1919",
+        "descricao": "Eclipse total do Sol cujas observações, feitas no Brasil e na África, confirmaram a deflexão da luz prevista pela relatividade geral.",
+        "variantes": [
+          "Experimento de Eddington",
+          "Eclipse de Sobral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eclipse_solar_de_29_de_maio_de_1919",
+          "nome": "Eclipse solar de 29 de maio de 1919",
+          "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+          "variantes": [
+            "Experimento de Eddington",
+            "Eclipse de Sobral"
+          ]
+        },
+        {
+          "id": "eclipse_solar",
+          "nome": "Eclipse solar",
+          "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+          "variantes": [
+            "Eclipse do Sol"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Leo Baekeland",
+        "descricao": "Químico (1863–1944) que criou a baquelite, um dos primeiros plásticos sintéticos, nos Estados Unidos.",
+        "variantes": [
+          "Leo Hendrik Baekeland"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lesbos",
+          "nome": "Lesbos",
+          "descricao": "Ilha grega no nordeste do mar Egeu, perto da costa da Turquia.",
+          "variantes": [
+            "Lesvos",
+            "Lesbos Island"
+          ]
+        },
+        {
+          "id": "henrik_ibsen",
+          "nome": "Henrik Ibsen",
+          "descricao": "Dramaturgo norueguês (1828–1906), chamado de pai do drama moderno, autor de Casa de Bonecas e Peer Gynt.",
+          "variantes": [
+            "Henrik Johan Ibsen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Eratóstenes",
+        "descricao": "Matemático e geógrafo grego do século três antes de Cristo, diretor da Biblioteca de Alexandria, que estimou a circunferência da Terra.",
+        "variantes": [
+          "Eratóstenes de Cirene",
+          "Eratosthenes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eratostenes",
+          "nome": "Eratóstenes",
+          "descricao": "Matemático e geógrafo grego do século três a.C. que estimou a circunferência da Terra.",
+          "variantes": [
+            "Eratosthenes",
+            "Eratóstenes de Cirene"
+          ]
+        },
+        {
+          "id": "clistenes",
+          "nome": "Clístenes",
+          "descricao": "Político ateniense cujas reformas, por volta de 508 a.C., deram origem à democracia ateniense.",
+          "variantes": [
+            "Cleisthenes",
+            "Clístenes de Atenas"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "aristoteles",
+          "nome": "Aristóteles",
+          "descricao": "Filósofo e polímata grego (384–322 a.C.), fundador da escola peripatética no Liceu de Atenas.",
+          "variantes": [
+            "Aristotle"
+          ]
+        },
+        {
+          "id": "cesar_lattes",
+          "nome": "César Lattes",
+          "descricao": "Físico brasileiro nascido em Curitiba (1924–2005), um dos descobridores do méson pi.",
+          "variantes": [
+            "Cesare Mansueto Giulio Lattes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Prêmio Nobel da Paz",
+        "descricao": "Um dos prêmios criados pelo testamento de Alfred Nobel, concedido a quem mais contribuiu pela fraternidade entre as nações.",
+        "variantes": [
+          "Nobel da Paz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        },
+        {
+          "id": "theatro_da_paz",
+          "nome": "Theatro da Paz",
+          "descricao": "Teatro histórico de Belém, no Pará, inaugurado em 1878 durante o ciclo da borracha.",
+          "variantes": [
+            "Teatro da Paz"
+          ]
+        },
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "bolo_da_lua",
+          "nome": "Bolo da lua",
+          "descricao": "Bolo chinês redondo e recheado, tradicionalmente oferecido e comido numa festa do calendário lunar",
+          "variantes": [
+            "Mooncake",
+            "Yuebing"
+          ]
+        },
+        {
+          "id": "premio_nobel_de_literatura_de_2016",
+          "nome": "Prêmio Nobel de Literatura de 2016",
+          "descricao": "Edição de 2016 do Prêmio Nobel de Literatura, concedida pela Academia Sueca",
+          "variantes": [
+            "Nobel de Literatura 2016"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Papel",
+        "descricao": "Material fino feito de fibras vegetais prensadas, usado para escrever e imprimir, surgido na China antiga.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "papel",
+          "nome": "Papel",
+          "descricao": "Material de escrita feito de fibras vegetais, desenvolvido na China da dinastia Han.",
+          "variantes": [
+            "Paper",
+            "Papel de fibra vegetal"
+          ]
+        },
+        {
+          "id": "folha_a4",
+          "nome": "Folha A4",
+          "descricao": "Formato de papel do padrão internacional ISO 216, obtido dividindo a folha A0 ao meio sucessivamente.",
+          "variantes": [
+            "ISO 216",
+            "Papel A4"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "papamovel",
+          "nome": "Papamóvel",
+          "descricao": "Veículo especial usado pelo papa em aparições públicas.",
+          "variantes": [
+            "Popemobile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Relógio de pêndulo",
+        "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656.",
+        "variantes": [
+          "Pendulum clock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "despertador",
+          "nome": "Despertador",
+          "descricao": "Relógio que emite um som num horário programado para acordar quem dorme.",
+          "variantes": [
+            "Relógio despertador",
+            "Alarm clock"
+          ]
+        },
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_cuco",
+          "nome": "Relógio cuco",
+          "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
+          "variantes": [
+            "Cuckoo clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Barômetro",
+        "descricao": "Instrumento que mede a pressão atmosférica, cuja versão de mercúrio foi criada em 1643.",
+        "variantes": [
+          "Barômetro de mercúrio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer"
+          ]
+        },
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro"
+          ]
+        },
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Termômetro de mercúrio",
+        "descricao": "Termômetro de vidro com mercúrio, criado em 1714, que se tornou o modelo padrão por quase três séculos.",
+        "variantes": [
+          "Termômetro de mercúrio em vidro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro"
+          ]
+        },
+        {
+          "id": "teatro_de_epidauro",
+          "nome": "Teatro de Epidauro",
+          "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+          "variantes": [
+            "Teatro de Epidaurus",
+            "Epidauro"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "homem_de_ferro",
+          "nome": "Homem de Ferro",
+          "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963",
+          "variantes": [
+            "Iron Man"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Kevlar",
+        "descricao": "Fibra sintética de altíssima resistência, criada em 1965, usada em coletes à prova de bala.",
+        "variantes": [
+          "Aramida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kevlar",
+          "nome": "Kevlar",
+          "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+          "variantes": []
+        },
+        {
+          "id": "ramada",
+          "nome": "Ramadã",
+          "descricao": "Nono mês do calendário islâmico, dedicado ao jejum",
+          "variantes": [
+            "Ramadão",
+            "Ramadan"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)"
+          ]
+        },
+        {
+          "id": "margarida",
+          "nome": "Margarida",
+          "descricao": "Leucanthemum vulgare, planta herbácea de flores brancas com miolo amarelo.",
+          "variantes": [
+            "Margarida-silvestre",
+            "Leucanthemum vulgare",
+            "Ox-eye daisy"
+          ]
+        },
+        {
+          "id": "aida",
+          "nome": "Aida",
+          "descricao": "Ópera de Giuseppe Verdi, ambientada no Egito antigo, estreada em 1871.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Água com gás",
+        "descricao": "Água com gás carbônico dissolvido, produzida artificialmente desde o século dezoito.",
+        "variantes": [
+          "Água gaseificada",
+          "Água carbonatada",
+          "Soda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "seda",
+          "nome": "Seda",
+          "descricao": "Fibra natural produzida a partir do casulo do bicho-da-seda, originária da China",
+          "variantes": [
+            "Silk"
+          ]
+        },
+        {
+          "id": "yoda",
+          "nome": "Yoda",
+          "descricao": "Mestre Jedi pequeno e de pele verde da saga Star Wars.",
+          "variantes": [
+            "Mestre Yoda"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Limpador de para-brisa",
+        "descricao": "Dispositivo com palhetas que remove chuva e neve do para-brisa dos veículos.",
+        "variantes": [
+          "Limpador de vidro",
+          "Windscreen wiper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "espelho",
+          "nome": "Espelho",
+          "descricao": "Superfície de vidro com fundo metálico que reflete imagens, usada no dia a dia para ver o próprio reflexo.",
+          "variantes": [
+            "Espelho de vidro"
+          ]
+        },
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro"
+          ]
+        },
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "armonica_de_vidro",
+          "nome": "Armônica de vidro",
+          "descricao": "Instrumento de tigelas de vidro giratórias, tocado com os dedos molhados, criado no século dezoito.",
+          "variantes": [
+            "Harmônica de vidro",
+            "Glass harmonica",
+            "Armonica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Instituto Butantan",
+        "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+        "variantes": [
+          "Butantan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Heliocentrismo",
+        "descricao": "Modelo astronômico em que a Terra e os planetas giram em torno do Sol.",
+        "variantes": [
+          "Modelo heliocêntrico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        },
+        {
+          "id": "helicoptero",
+          "nome": "Helicóptero",
+          "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+          "variantes": []
+        },
+        {
+          "id": "doenca_do_chapeleiro_louco",
+          "nome": "Doença do chapeleiro louco",
+          "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+          "variantes": [
+            "Eretismo",
+            "Mad hatter disease",
+            "Eretismo mercurial"
+          ]
+        },
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "maieutica",
+          "nome": "Maiêutica",
+          "descricao": "Método socrático de levar o interlocutor a descobrir verdades por meio de perguntas.",
+          "variantes": [
+            "Maieutics",
+            "Método socrático"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Laser",
+        "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+        "variantes": [
+          "Raio laser"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "los_angeles_lakers",
+          "nome": "Los Angeles Lakers",
+          "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947.",
+          "variantes": [
+            "Lakers",
+            "Minneapolis Lakers"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "melindrosa",
+          "nome": "Melindrosa",
+          "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+          "variantes": [
+            "Flapper"
+          ]
+        },
+        {
+          "id": "frasier",
+          "nome": "Frasier",
+          "descricao": "Sitcom americana exibida de 1993 a 2004, sobre o psiquiatra Frasier Crane, que vive em Seattle.",
+          "variantes": [
+            "Frasier Crane"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Vacina contra a varíola",
+        "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas.",
+        "variantes": [
+          "Vacina antivariólica",
+          "Vacina de Jenner"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "eolipila",
+          "nome": "Eolípila",
+          "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+          "variantes": [
+            "Máquina de Heron",
+            "Aeolipile",
+            "Eolípila de Heron"
+          ]
+        },
+        {
+          "id": "cortina_de_ferro",
+          "nome": "Cortina de Ferro",
+          "descricao": "Expressão que designou a fronteira política e militar que dividia a Europa entre o bloco soviético e o Ocidente na Guerra Fria.",
+          "variantes": [
+            "Iron Curtain"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Das revoluções das esferas celestes",
+        "descricao": "Livro de Nicolau Copérnico, publicado em 1543, que apresentou o modelo com o Sol no centro.",
+        "variantes": [
+          "De revolutionibus orbium coelestium",
+          "De revolutionibus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "revolucao_haitiana",
+          "nome": "Revolução Haitiana",
+          "descricao": "Revolta de escravizados na colônia francesa de Saint-Domingue, entre 1791 e 1804, que resultou na independência do Haiti.",
+          "variantes": [
+            "Haitian Revolution"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "14-Bis",
+        "descricao": "Avião construído por Alberto Santos-Dumont, que voou diante do público em Paris.",
+        "variantes": [
+          "Oiseau de Proie",
+          "14 Bis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "14_bis",
+          "nome": "14-bis",
+          "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+          "variantes": [
+            "Quatorze Bis",
+            "Oiseau de proie"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "odisseia",
+          "nome": "Odisseia",
+          "descricao": "Poema épico grego atribuído a Homero, sobre o retorno de Ulisses a Ítaca.",
+          "variantes": [
+            "Odyssey",
+            "Odisseia de Homero"
+          ]
+        },
+        {
+          "id": "vitoria_pirrica",
+          "nome": "Vitória pírrica",
+          "descricao": "Expressão para uma vitória obtida a um custo tão alto que equivale a uma derrota, inspirada em Pirro do Epiro.",
+          "variantes": [
+            "Vitória de Pirro",
+            "Pyrrhic victory"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Velcro",
+        "descricao": "Sistema de fecho com duas fitas, uma de ganchinhos e outra de laços, criado pelo engenheiro suíço George de Mestral.",
+        "variantes": [
+          "Fecho de contato",
+          "Hook-and-loop"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop"
+          ]
+        },
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        },
+        {
+          "id": "eletron",
+          "nome": "Elétron",
+          "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897.",
+          "variantes": [
+            "Electrão",
+            "Electron"
+          ]
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Post-it",
+        "descricao": "Bloco de notas adesivas reposicionáveis lançado pela empresa americana 3M.",
+        "variantes": [
+          "Post-it Note",
+          "Nota adesiva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo"
+          ]
+        },
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        },
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        },
+        {
+          "id": "sistema_de_pontuacao_por_rali",
+          "nome": "Sistema de pontuação por rali",
+          "descricao": "Regra do vôlei em que todo rali vale ponto, independentemente de quem sacou, adotada pela FIVB em 1999.",
+          "variantes": [
+            "Rally point",
+            "Rally scoring",
+            "Ponto direto"
+          ]
+        },
+        {
+          "id": "poutine",
+          "nome": "Poutine",
+          "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+          "variantes": [
+            "Poutine canadense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Tycho Brahe",
+        "descricao": "Astrônomo dinamarquês do século dezesseis, famoso por observações precisas feitas sem telescópio.",
+        "variantes": [
+          "Tyge Ottesen Brahe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sutia_em_cone_de_madonna",
+          "nome": "Sutiã em cone de Madonna",
+          "descricao": "Corpete cor-de-rosa com bojos pontudos em forma de cone usado por Madonna na turnê Blond Ambition, de 1990",
+          "variantes": [
+            "Cone bra"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator"
+          ]
+        },
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Ar-condicionado",
+        "descricao": "Sistema que resfria e controla a umidade do ar de ambientes fechados, desenvolvido no início do século vinte.",
+        "variantes": [
+          "Ar condicionado",
+          "Condicionador de ar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado",
+          "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
+          "variantes": [
+            "Air conditioning"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        },
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "commedia_dell_arte",
+          "nome": "Commedia dell'arte",
+          "descricao": "Forma de teatro popular italiano, surgida no século dezesseis, com personagens fixos e improvisação.",
+          "variantes": [
+            "Comédia dell'arte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Pasteurização",
+        "descricao": "Processo de aquecimento brando que elimina micro-organismos de alimentos e bebidas, desenvolvido por Louis Pasteur.",
+        "variantes": [
+          "Pasteurizar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pasteurizacao",
+          "nome": "Pasteurização",
+          "descricao": "Processo de aquecimento de alimentos, como o leite, para eliminar micro-organismos.",
+          "variantes": [
+            "Pasteurization"
+          ]
+        },
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bateria",
+          "nome": "Bateria",
+          "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+          "variantes": [
+            "Bateria acústica",
+            "Drum kit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Gás",
+        "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+        "variantes": [
+          "Estado gasoso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "vidro",
+          "nome": "Vidro",
+          "descricao": "Material sólido amorfo e transparente, feito principalmente de sílica, usado em janelas e garrafas.",
+          "variantes": [
+            "Glass"
+          ]
+        },
+        {
+          "id": "estados_gerais_de_1789",
+          "nome": "Estados Gerais de 1789",
+          "descricao": "Assembleia dos três estados da França convocada por Luís XVI em 1789, cuja reunião desencadeou a Revolução Francesa.",
+          "variantes": [
+            "Estates General of 1789",
+            "Estados Gerais"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Náilon",
+        "descricao": "Fibra sintética criada nos anos 1930 pela química americana, famosa nas meias femininas.",
+        "variantes": [
+          "Nylon",
+          "Nailon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nailon",
+          "nome": "Náilon",
+          "descricao": "Fibra sintética criada na empresa DuPont nos anos 1930, usada em meias, tecidos e cordas.",
+          "variantes": [
+            "Nylon"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        },
+        {
+          "id": "rio_nilo",
+          "nome": "Rio Nilo",
+          "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+          "variantes": [
+            "Nilo",
+            "Nile"
+          ]
+        },
+        {
+          "id": "nautilo",
+          "nome": "Náutilo",
+          "descricao": "Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius).",
+          "variantes": [
+            "Nautilus pompilius",
+            "Nautilus"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Código de barras",
+        "descricao": "Representação de dados em barras paralelas de larguras diferentes, lida por scanners óticos, usada em produtos à venda.",
+        "variantes": [
+          "Barcode"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        },
+        {
+          "id": "codigo_de_hamurabi",
+          "nome": "Código de Hamurábi",
+          "descricao": "Código de leis babilônico do século dezoito antes de Cristo, gravado numa estela de basalto.",
+          "variantes": [
+            "Código de Hammurabi",
+            "Code of Hammurabi"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "damas_brasileiras",
+          "nome": "Damas brasileiras",
+          "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+          "variantes": [
+            "Brazilian draughts",
+            "Jogo de damas"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro da aviação com o 14-Bis e os dirigíveis.",
+        "variantes": [
+          "Santos-Dumont",
+          "Santos Dumont"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alberto_santos_dumont",
+          "nome": "Alberto Santos-Dumont",
+          "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+          "variantes": [
+            "Santos Dumont",
+            "Pai da Aviação"
+          ]
+        },
+        {
+          "id": "sans_culottes",
+          "nome": "Sans-culottes",
+          "descricao": "Revolucionários das camadas populares de Paris durante a Revolução Francesa",
+          "variantes": [
+            "Sans-culotte"
+          ]
+        },
+        {
+          "id": "sudario_de_turim",
+          "nome": "Sudário de Turim",
+          "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+          "variantes": [
+            "Santo Sudário",
+            "Sindone di Torino"
+          ]
+        },
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos",
+            "Relógio Cartier Santos",
+            "Santos de Cartier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Nicolas Appert",
+        "descricao": "Confeiteiro francês (1749–1841) que criou o método de conservar alimentos cozidos em recipientes hermeticamente fechados.",
+        "variantes": [
+          "Nicolas François Appert"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nicolau_copernico",
+          "nome": "Nicolau Copérnico",
+          "descricao": "Astrônomo polonês do Renascimento que propôs o modelo heliocêntrico.",
+          "variantes": [
+            "Nicolaus Copernicus",
+            "Mikołaj Kopernik"
+          ]
+        },
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "jim_thorpe",
+          "nome": "Jim Thorpe",
+          "descricao": "Atleta americano, campeão do pentatlo e do decatlo nos Jogos de Estocolmo 1912.",
+          "variantes": [
+            "James Francis Thorpe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Vulcanização",
+        "descricao": "Processo químico que torna a borracha mais resistente e elástica, desenvolvido por Charles Goodyear em 1839.",
+        "variantes": [
+          "Borracha vulcanizada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vulcanizacao",
+          "nome": "Vulcanização",
+          "descricao": "Processo químico que aquece a borracha com enxofre, tornando-a resistente e elástica.",
+          "variantes": [
+            "Vulcanization",
+            "Vulcanização da borracha"
+          ]
+        },
+        {
+          "id": "abelha_africanizada",
+          "nome": "Abelha-africanizada",
+          "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia.",
+          "variantes": [
+            "abelha assassina",
+            "Africanized bee"
+          ]
+        },
+        {
+          "id": "borracha_natural",
+          "nome": "Borracha natural",
+          "descricao": "Material elástico obtido do látex de árvores como a seringueira.",
+          "variantes": [
+            "Látex",
+            "Rubber"
+          ]
+        },
+        {
+          "id": "marca_generica",
+          "nome": "Marca genérica",
+          "descricao": "Fenômeno em que o nome de uma marca passa a designar toda uma categoria de produtos.",
+          "variantes": [
+            "Vulgarização de marca",
+            "Generic trademark"
+          ]
+        },
+        {
+          "id": "amonia",
+          "nome": "Amônia",
+          "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+          "variantes": [
+            "Amoníaco",
+            "Ammonia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Concreto romano",
+        "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão.",
+        "variantes": [
+          "Opus caementicium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forum_romano",
+          "nome": "Fórum Romano",
+          "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+          "variantes": [
+            "Foro Romano",
+            "Forum Romanum"
+          ]
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "odete_roitman",
+          "nome": "Odete Roitman",
+          "descricao": "Vilã da telenovela Vale Tudo, de 1988, interpretada por Beatriz Segall.",
+          "variantes": []
+        },
+        {
+          "id": "mitsuyo_maeda",
+          "nome": "Mitsuyo Maeda",
+          "descricao": "Judoca japonês que se fixou em Belém do Pará e ensinou sua luta à família Gracie.",
+          "variantes": [
+            "Conde Koma",
+            "Count Koma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Sismoscópio de Zhang Heng",
+        "descricao": "Detector de terremotos criado pelo sábio chinês Zhang Heng no ano 132, com cabeças de dragão que soltavam bolinhas.",
+        "variantes": [
+          "Houfeng Didong Yi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sismoscopio_de_zhang_heng",
+          "nome": "Sismoscópio de Zhang Heng",
+          "descricao": "Instrumento de bronze criado na China da dinastia Han para indicar a direção de terremotos.",
+          "variantes": [
+            "Houfeng Didong Yi"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Calendário gregoriano",
+        "descricao": "Calendário instituído em 1582 pelo papa Gregório XIII, usado hoje em quase todo o mundo.",
+        "variantes": [
+          "Calendário cristão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calendario_gregoriano",
+          "nome": "Calendário gregoriano",
+          "descricao": "Calendário solar instituído pelo papa Gregório treze em 1582 e usado hoje na maior parte do mundo.",
+          "variantes": [
+            "Gregorian calendar"
+          ]
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "calendario_egipcio",
+          "nome": "Calendário egípcio",
+          "descricao": "Calendário civil solar do Egito Antigo, com doze meses de trinta dias e dias extras no fim do ano",
+          "variantes": [
+            "Egyptian calendar",
+            "Calendário civil egípcio"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Louis Braille",
+        "descricao": "Educador francês (1809–1852), cego desde a infância, criador do sistema de leitura e escrita com pontos em relevo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "braille",
+          "nome": "Braille",
+          "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+          "variantes": [
+            "Sistema braille",
+            "Braile"
+          ]
+        },
+        {
+          "id": "escola_do_teatro_bolshoi_no_brasil",
+          "nome": "Escola do Teatro Bolshoi no Brasil",
+          "descricao": "Escola de balé ligada ao Teatro Bolshoi de Moscou, instalada no Brasil em 2000.",
+          "variantes": [
+            "Bolshoi Brasil"
+          ]
+        },
+        {
+          "id": "louis_leakey",
+          "nome": "Louis Leakey",
+          "descricao": "Paleoantropólogo queniano de origem britânica, pioneiro das pesquisas sobre a origem humana na África Oriental.",
+          "variantes": [
+            "Louis Seymour Bazett Leakey"
+          ]
+        },
+        {
+          "id": "luis_xiv",
+          "nome": "Luís XIV",
+          "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+          "variantes": [
+            "Rei Sol",
+            "Louis XIV"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "proposta": {
+        "nome": "Play-Doh",
+        "descricao": "Massinha de modelar infantil lançada como brinquedo nos Estados Unidos nos anos 1950.",
+        "variantes": [
+          "Massinha Play-Doh"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "play_doh",
+          "nome": "Play-Doh",
+          "descricao": "Massa de modelar infantil criada nos Estados Unidos nos anos 1950.",
+          "variantes": [
+            "Massinha Play-Doh"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "proposta": {
+        "nome": "Concreto armado",
+        "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867.",
+        "variantes": [
+          "Betão armado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_bem_amado",
+          "nome": "O Bem-Amado",
+          "descricao": "Telenovela da Rede Globo de 1973, escrita por Dias Gomes, sobre o prefeito Odorico Paraguaçu.",
+          "variantes": []
+        },
+        {
+          "id": "o_bem_amado_2",
+          "nome": "O Bem-Amado",
+          "descricao": "Obra de Dias Gomes sobre o prefeito Odorico Paraguaçu, na cidade fictícia de Sucupira, levada ao teatro e à televisão.",
+          "variantes": [
+            "Odorico, o Bem-Amado"
+          ]
+        },
+        {
+          "id": "jorge_amado",
+          "nome": "Jorge Amado",
+          "descricao": "Escritor brasileiro baiano (1912–2001), autor de Gabriela, Cravo e Canela e Capitães da Areia.",
+          "variantes": [
+            "Jorge Leal Amado de Faria"
+          ]
+        },
+        {
+          "id": "daruma",
+          "nome": "Daruma",
+          "descricao": "Boneco japonês redondo e sem braços, usado como amuleto para fazer pedidos.",
+          "variantes": [
+            "Boneco Daruma",
+            "Daruma doll"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "proposta": {
+        "nome": "Johannes Kepler",
+        "descricao": "Astrônomo e matemático alemão (1571–1630), autor das leis do movimento planetário.",
+        "variantes": [
+          "Kepler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "johannes_gutenberg",
+          "nome": "Johannes Gutenberg",
+          "descricao": "Inventor e artesão alemão do século quinze, criador da prensa de tipos móveis na Europa.",
+          "variantes": [
+            "Gutenberg",
+            "Johannes Gensfleisch zur Laden zum Gutenberg"
+          ]
+        },
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "kevlar",
+          "nome": "Kevlar",
+          "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "proposta": {
+        "nome": "Francisco João de Azevedo",
+        "descricao": "Padre e inventor paraibano (1814–1880) que construiu uma máquina de escrever apresentada no Recife em 1861.",
+        "variantes": [
+          "Padre Azevedo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bartolomeu_de_gusmao",
+          "nome": "Bartolomeu de Gusmão",
+          "descricao": "Padre e inventor nascido em Santos, no Brasil colonial, que demonstrou um pequeno balão de ar quente em Lisboa em 1709.",
+          "variantes": [
+            "Bartolomeu Lourenço de Gusmão",
+            "Padre Voador"
+          ]
+        },
+        {
+          "id": "alvares_de_azevedo",
+          "nome": "Álvares de Azevedo",
+          "descricao": "Poeta ultrarromântico paulista (1831–1852), autor de Lira dos Vinte Anos e Noite na Taverna.",
+          "variantes": [
+            "Manuel Antônio Álvares de Azevedo"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "chico_buarque",
+          "nome": "Chico Buarque",
+          "descricao": "Francisco Buarque de Hollanda, cantor, compositor e escritor carioca.",
+          "variantes": [
+            "Francisco Buarque de Hollanda"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "proposta": {
+        "nome": "Hedy Lamarr",
+        "descricao": "Atriz austríaco-americana (1914–2000) de Hollywood que também patenteou um sistema de salto de frequência.",
+        "variantes": [
+          "Hedwig Kiesler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "neymar",
+          "nome": "Neymar",
+          "descricao": "Atacante brasileiro nascido em 1992, maior artilheiro da seleção brasileira, revelado pelo Santos.",
+          "variantes": [
+            "Neymar Jr.",
+            "Neymar da Silva Santos Júnior"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "proposta": {
+        "nome": "Fax",
+        "descricao": "Aparelho que transmite cópias de documentos e imagens por linha de comunicação, com origem em patente de 1843.",
+        "variantes": [
+          "Fac-símile",
+          "Telefax"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fax",
+          "nome": "Fax",
+          "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+          "variantes": [
+            "Fac-símile",
+            "Telefax"
+          ]
+        },
+        {
+          "id": "nikola_tesla",
+          "nome": "Nikola Tesla",
+          "descricao": "Engenheiro e inventor sérvio-americano (1856–1943), pioneiro da corrente alternada.",
+          "variantes": [
+            "Tesla"
+          ]
+        },
+        {
+          "id": "bicho_pau",
+          "nome": "Bicho-pau",
+          "descricao": "Insetos da ordem Phasmatodea, de corpo alongado e camuflado, que imitam galhos e folhas.",
+          "variantes": [
+            "Phasmatodea",
+            "fasmídeo",
+            "bicho-folha"
+          ]
+        },
+        {
+          "id": "tefal",
+          "nome": "Tefal",
+          "descricao": "Marca francesa de panelas e utensílios de cozinha, pioneira nas frigideiras antiaderentes.",
+          "variantes": [
+            "T-fal"
+          ]
+        },
+        {
+          "id": "smiley",
+          "nome": "Smiley",
+          "descricao": "Desenho de um rosto amarelo sorridente criado pelo artista americano Harvey Ball em 1963.",
+          "variantes": [
+            "Carinha sorridente",
+            "Smile",
+            "Smiley face"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "telescopio",
+      "motivo": "Mesmo instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pendulo_de_foucault",
+      "motivo": "Mesmo experimento."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "irmaos_lumiere",
+      "motivo": "Mesmos irmãos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Morton difere de Morgan, Marston e outros."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "semaforo",
+      "motivo": "Mesmo objeto."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "eclipse_solar_de_29_de_maio_de_1919",
+      "motivo": "Mesmo evento."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "eratostenes",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nobel da Paz não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "papel",
+      "motivo": "Mesmo material."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Relógio de pêndulo não está entre as candidatas."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "barometro",
+      "motivo": "Mesmo instrumento."
+    },
+    {
+      "caso": 14,
+      "decisao": "mesma",
+      "id_existente": "termometro_de_mercurio",
+      "motivo": "Mesmo objeto."
+    },
+    {
+      "caso": 15,
+      "decisao": "mesma",
+      "id_existente": "kevlar",
+      "motivo": "Mesma fibra."
+    },
+    {
+      "caso": 16,
+      "decisao": "mesma",
+      "id_existente": "agua_com_gas",
+      "motivo": "Mesma entidade."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 23,
+      "decisao": "mesma",
+      "id_existente": "14_bis",
+      "motivo": "Mesmo avião."
+    },
+    {
+      "caso": 24,
+      "decisao": "mesma",
+      "id_existente": "velcro",
+      "motivo": "Mesmo sistema de fecho."
+    },
+    {
+      "caso": 25,
+      "decisao": "mesma",
+      "id_existente": "post_it",
+      "motivo": "Mesmo produto."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 27,
+      "decisao": "mesma",
+      "id_existente": "ar_condicionado",
+      "motivo": "Mesmo sistema."
+    },
+    {
+      "caso": 28,
+      "decisao": "mesma",
+      "id_existente": "pasteurizacao",
+      "motivo": "Mesmo processo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 30,
+      "decisao": "mesma",
+      "id_existente": "nailon",
+      "motivo": "Mesma fibra; a meia é outra entidade."
+    },
+    {
+      "caso": 31,
+      "decisao": "mesma",
+      "id_existente": "codigo_de_barras",
+      "motivo": "Mesma entidade."
+    },
+    {
+      "caso": 32,
+      "decisao": "mesma",
+      "id_existente": "alberto_santos_dumont",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 34,
+      "decisao": "mesma",
+      "id_existente": "vulcanizacao",
+      "motivo": "Mesmo processo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 36,
+      "decisao": "mesma",
+      "id_existente": "sismoscopio_de_zhang_heng",
+      "motivo": "Mesmo instrumento."
+    },
+    {
+      "caso": 37,
+      "decisao": "mesma",
+      "id_existente": "calendario_gregoriano",
+      "motivo": "Mesmo calendário."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Pessoa difere do sistema braille."
+    },
+    {
+      "caso": 39,
+      "decisao": "mesma",
+      "id_existente": "play_doh",
+      "motivo": "Mesmo produto."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 44,
+      "decisao": "mesma",
+      "id_existente": "fax",
+      "motivo": "Mesmo sistema."
+    }
+  ]
+}

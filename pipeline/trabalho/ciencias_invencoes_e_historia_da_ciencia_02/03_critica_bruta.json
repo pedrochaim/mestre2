@@ -1,0 +1,428 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Panteão de Paris confirmado, enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira sessão paga em Paris, no Grand Café.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lumière significa luz em francês; pergunta de nome simpática e sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Demonstração no Crystal Palace de Nova York em 1854.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Demonstração no Massachusetts General Hospital, em Boston.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Semáforo de 1868 diante do Parlamento em Londres, a gás, com policial; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobral, no Ceará, confirmada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baekeland era belga; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Siena (atual Assuã) confirmada; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerimônia da Paz em Oslo, única fora de Estocolmo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Usa 'tradicionalmente apontado', preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huygens, 1656, inspirado em Galileu; distratores holandeses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torricelli, aluno de Galileu, barômetro de mercúrio em 1643.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fahrenheit e o termômetro de mercúrio de 1714 são bem documentados; trecho não contradiz.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kwolek, DuPont, 1965.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Priestley, 1767, água carbonatada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Patente de 1903 confirmada; a viagem de bonde sob neve em Nova York é a história conhecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vital Brazil fundou e dirigiu o Butantan; era mineiro de Campanha.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aristarco no século III a.C.; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês diz que foi o segundo processo disponível ao público, então 'primeiro' é impreciso.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O daguerreótipo, processo fotográfico criado por Louis Daguerre, foi apresentado ao público na França em que ano?",
+        "resposta": "1839",
+        "distratores": [
+          "1826",
+          "1851",
+          "1868"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Daguerreotype"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir a década é fraco e fácil; o ano é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano o físico americano Theodore Maiman fez funcionar o primeiro laser?",
+        "resposta": "1960",
+        "distratores": [
+          "1954",
+          "1957",
+          "1964"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Laser",
+          "https://en.wikipedia.org/wiki/Theodore_Maiman"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Revolução Francesa' vaza pelo 'França' do enunciado, e o fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir o século dá quase chute; o ano 1796 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o médico inglês Edward Jenner testou num menino de oito anos sua vacina contra a varíola?",
+        "resposta": "1796",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Edward_Jenner",
+          "https://en.wikipedia.org/wiki/Smallpox_vaccine"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vacina vem de vacca, vaca; ótima pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir o século é trivial; o ano 1543 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano foi publicado o livro de Copérnico que pôs o Sol no centro do seu modelo do universo, no mesmo ano da morte do autor?",
+        "resposta": "1543",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voo de 12 de novembro de 1906 em Paris diante de uma multidão.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carrapichos no pelo do cão, 1941, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Crochê' em português não é o mesmo que 'crochet' (gancho); o enunciado fica impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome velcro junta duas palavras francesas: crochet, que significa gancho, e velours. Que tecido macio velours designa?",
+        "resposta": "Veludo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Velcro"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hinário confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duelo de espadas em 1566, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gráfica Sackett-Wilhelms no Brooklyn.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pesquisa de Pasteur nos anos 1860 sobre o vinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Gravar imagens com a luz' entrega 'fotografia'; e a fonte em inglês é inexistente. Passa a perguntar quem foi.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Nos anos 1830, em Campinas, que inventor francês batizou de photographie seu processo de gravar imagens, antes de a técnica ser divulgada na Europa?",
+        "resposta": "Hercule Florence",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hercule_Florence"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gás derivado de chaos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três materiais vieram da DuPont, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Woodland e o código Morse na areia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cartier criou o relógio para Santos-Dumont em 1904.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Appert usava vidro, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borracha com enxofre, 1839.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinza vulcânica (pozolana) confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sapos confirmado na fonte em português; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Do dia 4 ao dia 15 de outubro de 1582 foram dez dias.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Braille tinha 15 anos em 1824, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Começou como limpador de papel de parede.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monier e os vasos de plantas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kepler defendeu a mãe Katharina da acusação de bruxaria.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado; distratores são inventores ou padres brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente concedida em 1942 a Lamarr e Antheil.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de ordem no tempo, então o ângulo é 'tempo'; 'patenteada' torna o enunciado literal.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Entre estas invenções de comunicação, qual foi patenteada primeiro?",
+        "resposta": "Fax",
+        "distratores": [
+          "Telefone",
+          "Rádio",
+          "Televisão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Fax",
+          "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
+        ]
+      }
+    }
+  ]
+}

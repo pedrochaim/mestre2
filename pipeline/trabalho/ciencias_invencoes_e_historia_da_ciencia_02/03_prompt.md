@@ -1,0 +1,1862 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Invenções e História da Ciência** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Telescópio",
+      "descricao": "Instrumento óptico que usa lentes ou espelhos para ampliar objetos distantes, surgido no início do século dezessete."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O registro mais antigo de um telescópio é um pedido de patente feito em 1608 por um fabricante de óculos. Em que país?",
+    "resposta": "Holanda (Países Baixos)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Telescope",
+      "https://en.wikipedia.org/wiki/Hans_Lipperhey"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Telescope",
+        "situacao": "ok",
+        "texto": "A telescope is a device used to observe distant objects by their emission, absorption, or reflection of electromagnetic radiation. Originally, it was an optical instrument using lenses, curved mirrors, or a combination of both to observe distant objects – an optical telescope. Nowadays, the word \"telescope\" is defined as a wide range of instruments capable of detecting different regions of the ele\n[…]\nThe earliest existing record of a telescope was a 1608 patent submitted to the government in the Netherlands by Middelburg spectacle maker Hans Lipperhey for a refracting telescope. The actual inventor is unknown but word of it spread through Europe. Galileo heard about it and, in 1609, built his own version, and made his telescopic observations of celestial objects.\n[…]\nThe refracting telescope which uses lenses to form an image.\n[…]\nA discovery in 2012 may allow focusing gamma-ray telescopes. At photon energies greater than 700 keV, the index of refraction starts to increase again.\n[…]\nKing, Henry C. (1979). The history of the telescope. H. Spencer Jones. New York: Dover Publications. ISBN 0-486-23893-8. OCLC 6025190.\n[…]\nWatson, Fred (2007). Stargazer : the life and times of the telescope. Crows Nest, New South Wales, Australia: Allen & Unwin. ISBN 978-1-74176-392-8. OCLC 173996168.\n[…]\nGalileo to Gamma Cephei – The History of the Telescope. Archived 8 May 2013 at the Wayback Machine\n[…]\nThe Galileo Project – The Telescope by Al Van Helden\n[…]\n\"The First Telescopes\". Part of an exhibit from Cosmic Journey: A History of Scientific Cosmology. Archived 9 April 2008 at the Wayback Machine by the American Institute of Physics\n[…]\nTaylor, Harold Dennis; Gill, David (1911). \"Telescope\" . Encyclopædia Britannica. Vol. 26 (11th ed.). pp. 557–573.\n[…]\nOutside the Optical: Other Kinds of Telescopes\n[…]\nGray, Meghan; Merrifield, Michael (2009). \"Telescope Diameter\". Sixty Symbols. Brady Haran for the University of Nottingham."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hans_Lipperhey",
+        "situacao": "ok",
+        "texto": "Hans Lipperhey (c. 1570 – buried 29 September 1619), also known as Johann Lippershey or simply Lippershey, was a German-Dutch spectacle-maker. He is commonly associated with the invention of the telescope, because he was the first one who tried to obtain a patent for it. It is, however, unclear if he was the first one to build a telescope.\n[…]\nHans Lipperhey is known for the earliest written record of a refracting telescope, a patent he filed in 1608. His work with optical devices grew out of his work as a spectacle maker, an industry that had started in Venice and Florence in the thirteenth century, and later expanded to the Netherlands and Germany.\n[…]\nLipperhey applied to the States General of the Netherlands on 2 October 1608 for a patent for his instrument \"for seeing things far away as if they were nearby\", a few weeks before another Dutch instrument-maker's patent, that of Jacob Metius. Lipperhey failed to receive a patent since the same claim for invention had also been made by other spectacle-makers, but he was handsomely rewarded by the Dutch government for copies of his design.\n[…]\nLipperhey's application for a patent was mentioned at the end of a diplomatic report on an embassy to Holland from the Kingdom of Siam sent by the Siamese king Ekathotsarot: Ambassades du Roy de Siam envoyé à l'Excellence du Prince Maurice, arrivé à La Haye le 10 Septemb. 1608 (Embassy of the King of Siam sent to his Excellency Prince Maurice, arrived at The Hague on 10 September 1608).\n[…]\nThis report was issued in October 1608 and distributed across Europe, leading to experiments by other scientists, such as the Italian Paolo Sarpi, who received the report in November, the Englishman Thomas Harriot, who was using a six-powered telescope by the summer of 1609, and Galileo Galilei, who improved the device."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio",
+        "situacao": "ok",
+        "texto": "Um telescópio é um dispositivo usado para observar objetos distantes por meio de sua emissão, absorção ou reflexão de radiação eletromagnética. Originalmente, era um instrumento óptico que usava lentes, espelhos curvos ou uma combinação de ambos para observar objetos distantes - um telescópio óptico. Hoje em dia, a palavra \"telescópio\" é definida como uma ampla gama de instrumentos capazes de dete\n[…]\nOs primeiros telescópios práticos conhecidos eram telescópios refratores com lentes de vidro e foram inventados nos Países Baixos no início do século XVII. Eles foram usados tanto para aplicações terrestres quanto para astronomia.\n[…]\nO registro mais antigo existente de um telescópio é uma patente de 1608 submetida ao governo dos Países Baixos pelo fabricante de óculos de Middelburg, Hans Lipperhey, para um telescópio refrator. O inventor real é desconhecido, mas a notícia se espalhou pela Europa. Galileu ouviu falar disso e, em 1609, construiu sua própria versão e fez suas observações telescópicas de objetos celestes.\n[…]\nA invenção da lente acromática em 1733 corrigiu parcialmente as aberrações cromáticas presentes na lente simples e permitiu a construção de telescópios refratores mais curtos e funcionais.\n[…]\nAo contrário de um telescópio óptico, que produz uma imagem ampliada da porção do céu observada, um disco de radiotelescópio tradicional contém um único receptor e registra um sinal variável no tempo característico da região observada; este sinal pode ser amostrado em várias frequências. Em alguns projetos mais recentes de radiotelescópios, um único disco contém uma matriz de vários receptores; isso é conhecido como matriz de plano focal.\n[…]\nTelescópios ópticos são usados para astronomia e em muitos instrumentos não astronômicos, incluindo: teodolitos (incluindo trânsitos), luneta terrestre, monóculos, binóculos, lentes de câmera e lunetas. Existem três tipos ópticos principais:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Pêndulo de Foucault",
+      "descricao": "Pêndulo longo e pesado usado pelo físico francês Léon Foucault, em 1851, para demonstrar a rotação da Terra."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1851, Léon Foucault mostrou ao público a rotação da Terra com um enorme pêndulo pendurado na cúpula de que monumento de Paris?",
+    "resposta": "Panteão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Foucault_pendulum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Foucault_pendulum",
+        "situacao": "ok",
+        "texto": "The Foucault pendulum or Foucault's pendulum is a simple device named after French physicist Léon Foucault, conceived as an experiment to demonstrate the Earth's rotation. If a long and heavy pendulum suspended from the high roof above a circular area is monitored over an extended period of time, its plane of oscillation appears to change spontaneously as the Earth makes its 24-hourly rotation.\n[…]\nFoucault introduced his pendulum in 1851 in the first experiment to give simple, direct evidence of the Earth's rotation, which he further demonstrated in 1852 with a gyroscope experiment. Foucault pendulums have become popular in science museums and universities.\n[…]\nThe first public exhibition of a Foucault pendulum took place in February 1851 in the Meridian of the Paris Observatory. A few weeks later, Foucault made his most famous pendulum when he suspended a 28-kilogram (62 lb) brass-coated lead bob with a 67-metre-long (220 ft) wire from the dome of the Panthéon, Paris.\n[…]\nFoucault explained his results in an 1851 paper entitled Physical demonstration of the Earth's rotational movement by means of the pendulum, published in the Comptes rendus de l'Académie des Sciences. He wrote that, at the North Pole:\n[…]\nMany physical systems precess in a similar manner to a Foucault pendulum. As early as 1836, the Scottish mathematician Edward Sang contrived and explained the precession of a spinning top. In 1851, Charles Wheatstone described an apparatus that consists of a vibrating spring that is mounted on top of a disk so that it makes a fixed angle φ with the disk. The spring is struck so that it oscillates in a plane.\n[…]\nPendolo nel Salone The Foucault Pendulum inside Palazzo della Ragione in Padova, Italy\n[…]\nde Icaza-Herrera, M.; Castano, V. M. (2011). \"Generalized Lagrangian of the parametric Foucault pendulum with dissipative forces\". Acta Mech. 218 (1–2): 45–64. doi:10.1007/s00707-010-0392-8."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%AAndulo_de_Foucault",
+        "situacao": "ok",
+        "texto": "O pêndulo de Foucault é um dispositivo batizado em homenagem ao físico francês Léon Foucault, concebido como um experimento para demonstrar a rotação da Terra. Consiste em um pêndulo cuja suspensão permite oscilações em qualquer direção horizontal. Quando seu movimento é acompanhado por um período prolongado, a direção de oscilação muda lentamente em relação ao solo.\n[…]\nFoucault apresentou seu pêndulo em 1851, numa demonstração direta da rotação terrestre realizada com um aparelho de laboratório. Em 1852, voltou a demonstrar a rotação da Terra com um experimento usando um giroscópio. Pêndulos de Foucault passaram a ser instalados em museus de ciência e universidades.\n[…]\nA primeira apresentação no Observatório de Paris ocorreu em fevereiro de 1851, na sala da Meridiana, atravessada pelo Meridiano de Paris. Com o apoio de François Arago, Foucault repetiu o experimento ali com um pêndulo de 11 m. Em março, montou seu pêndulo mais conhecido. Uma massa de chumbo revestida de latão, com 28 kg, foi suspensa por um fio de aço de 67 m sob a cúpula do Panteão de Paris.\n[…]\nA esfera de 28 kg usada no Panteão em 1851 passou às coleções do Conservatoire national des arts et métiers. O museu também recebeu o pêndulo empregado na Exposição Universal de 1855, que tinha um mecanismo eletromagnético para manter as oscilações. O catálogo distingue esses instrumentos, que não devem ser confundidos com uma única montagem transferida de um local para outro. Uma nova instalação temporária foi montada no Panteão em 1902, durante as comemorações do cinquentenário da experiência.\n[…]\nUm pêndulo voltou a ser instalado sob a cúpula do Panteão em 1995. Depois das obras realizadas nas partes superiores do edifício, concluídas em 2015, uma réplica passou novamente a integrar a visitação do monumento.\n[…]\nPara Paris, França, adotando\n[…]\nWilliam Tobin, The Life and Science of Léon Foucault.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Irmãos Lumière",
+      "descricao": "Auguste e Louis Lumière, irmãos franceses que criaram o cinematógrafo e fizeram exibições pioneiras de cinema em 1895."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1895, os irmãos Lumière fizeram sua célebre sessão pública e paga de cinema num café de que cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re",
+        "situacao": "ok",
+        "texto": "The Lumière brothers (UK: , US: ; French: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 October 1862 – 10 April 1954) and Louis Jean Lumière (5 October 1864 – 6 June 1948), were French manufacturers of photography equipment, best known for their Cinématographe motion picture system and the short films they produced between 1895 and 1905, which places them among the earliest filmmakers.\n[…]\nOn 22 March 1895, in Paris, at the Society for the Development of the National Industry, in front of a small audience, one of whom was said to be Léon Gaumont, then director of the company Comptoir Géneral de la Photographie, the Lumières privately screened a single film, Workers Leaving the Lumière Factory. The main focus of the conference by Louis concerned the recent developments in the photographic industry, mainly the research on polychromy (colour photography).\n[…]\nThe Lumières gave their first paid public screening on 28 December 1895, at Salon Indien du Grand Café in Paris. This presentation consisted of the following 10 short films:\n[…]\nMax and Emil Skladanowsky, inventors of the Bioscop, offered projected moving images to a paying public in Berlin from 1 November 1895 until the end of that month. Their machinery was relatively cumbersome and their films much shorter than those of the Lumière brothers. The Skladanowskys' screenings booked in Paris were cancelled after the news of the Lumière show. Nonetheless, they toured their films to other countries.\n[…]\nThis page lists the films produced by the Lumière company that were recorded in France between 1895 and 1905. During this period, the Lumière brothers and their camera operators created more than a thousand short actuality films documenting everyday life, industrial work, public events, and staged scenes. A substantial portion of this output was filmed in France, particularly in Lyon, Paris, and various regional locations."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auguste_e_Louis_Lumi%C3%A8re",
+        "situacao": "ok",
+        "texto": "Os irmãos Lumière (em francês: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 de outubro de 1862 – 10 de abril de 1954) e Louis Jean Lumière (5 de outubro de 1864 – 6 de junho de 1948), foram fabricantes franceses de equipamentos de fotografia, mais conhecidos por seu sistema de imagens em movimento Cinématographe e pelos curtas-metragens que produziram entre 1895 e 1905, o que os coloca entr\n[…]\nSua exibição de um único filme em 22 de março de 1895, para cerca de 200 membros da Société d'encouragement pour l'industrie nationale (Sociedade para o Desenvolvimento da Indústria Nacional) em Paris foi provavelmente a primeira apresentação de filme projetado. Sua primeira exibição pública comercial em 28 de dezembro de 1895, para cerca de 40 visitantes pagantes e parentes convidados tem sido tradicionalmente considerada como o nascimento do cinema.\n[…]\nOs Lumière fizeram sua primeira exibição pública paga em 28 de dezembro de 1895, no Salon Indien du Grand Café em Paris. Esta apresentação consistiu dos seguintes 10 curtas-metragens:\n[…]\nOs Lumière fizeram uma turnê com o Cinématographe em 1896, visitando lugares como Cidade do México, Bruxelas, Bombay, Londres, Montreal, Nova York, Palestina e Buenos Aires.\n[…]\nMax e Emil Skladanowsky, inventores do Bioscópio, ofereceram imagens em movimento projetadas a um público pagante em Berlim a partir de 1º de novembro de 1895, até o final do mês. Seu maquinário era relativamente pesado e seus filmes muito mais curtos do que os dos irmãos Lumière. As exibições reservadas dos Skladanowsky em Paris foram canceladas após a notícia do show Lumière. No entanto, eles levaram seus filmes em turnê para outros países.\n[…]\nChardère, B.; Borgé, G.; Borgé, M. (1985). Les Lumières (em francês). Paris: Bibliothèque des Arts. ISBN 2-85047-068-6\n[…]\nChardère, B. Les images des Lumière (em francês). Paris: Gallimard, 1995. ISBN 2-07-011462-7.\n[…]\nAuguste Lumière no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Irmãos Lumière",
+      "descricao": "Auguste e Louis Lumière, irmãos franceses que criaram o cinematógrafo e fizeram exibições pioneiras de cinema em 1895."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Bem apropriado para pioneiros do cinema, o sobrenome dos irmãos Lumière significa o quê em francês?",
+    "resposta": "Luz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re",
+      "https://en.wiktionary.org/wiki/lumi%C3%A8re"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re",
+        "situacao": "ok",
+        "texto": "The Lumière brothers (UK: , US: ; French: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 October 1862 – 10 April 1954) and Louis Jean Lumière (5 October 1864 – 6 June 1948), were French manufacturers of photography equipment, best known for their Cinématographe motion picture system and the short films they produced between 1895 and 1905, which places them among the earliest filmmakers.\n[…]\nThe Lumière brothers were born in Besançon, France, to Charles-Antoine Lumière (1840–1911) and Jeanne Joséphine Costille Lumière, who were married in 1861 and moved to Besançon, setting up a small photographic portrait studio. Here were born Auguste, Louis and their daughter Jeanne. They moved to Lyon in 1870, where their two other daughters were born: Mélina and Francine. Auguste and Louis both attended La Martiniere, the largest technical school in Lyon.\n[…]\nThey patented several significant processes leading up to their film camera, most notably film perforations (originally implemented by Émile Reynaud) as a means of advancing the film through the camera and projector. The original cinématographe had been patented by Léon Guillaume Bouly on 12 February 1892. The cinématographe—a three-in-one device that could record, copy, and project motion pictures—was further developed by the Lumières. The brothers patented their own version on 13 February 1895.\n[…]\nThe date of the recording of their first film is in dispute. In an interview with Georges Sadoul given in 1948, Louis claimed that he shot the film in August 1894—before the arrival of the kinetoscope in France. This is questioned by historians, who consider that a functional Lumière camera did not exist before the beginning of 1895.\n[…]\nLouis Lumière at IMDb\n[…]\nAuguste Lumière at IMDb\n[…]\nLouis Lumière at Who's Who of Victorian Cinema\n[…]\nAuguste Lumière at Who's Who of Victorian Cinema\n[…]\nLe musée Lumière – Lumière Museum"
+      },
+      {
+        "url": "https://en.wiktionary.org/wiki/lumi%C3%A8re",
+        "situacao": "ok",
+        "texto": "lumière - Wiktionary, the free dictionary\n[…]\nInherited from Middle French lumiere , from Old French lumiere , from Late Latin lūmināria , plural of neuter lūmināre reinterpreted as a feminine noun, ultimately from Latin lūmen . Doublet of luminaire .\n[…]\nAudio ( France ( Paris ) ) ; “ la lumière ” : ( file )\n[…]\n“ lumière ”, in Trésor de la langue française informatisé [ Digitized Treasury of the French Language ], 2012\n[…]\nRetrieved from \" https://en.wiktionary.org/w/index.php?title=lumière&oldid=92542039 \""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auguste_e_Louis_Lumi%C3%A8re",
+        "situacao": "ok",
+        "texto": "Os irmãos Lumière (em francês: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 de outubro de 1862 – 10 de abril de 1954) e Louis Jean Lumière (5 de outubro de 1864 – 6 de junho de 1948), foram fabricantes franceses de equipamentos de fotografia, mais conhecidos por seu sistema de imagens em movimento Cinématographe e pelos curtas-metragens que produziram entre 1895 e 1905, o que os coloca entr\n[…]\nOs irmãos Lumière nasceram em Besançon, França, filhos de Charles-Antoine Lumière (1840–1911) e Jeanne Joséphine Costille Lumière, que se casaram em 1861 e se mudaram para Besançon, estabelecendo um pequeno estúdio de retratos fotográficos. Ali nasceram Auguste, Louis e sua irmã Jeanne. Eles se mudaram para Lyon em 1870, onde nasceram suas outras duas filhas: Mélina e Francine. Auguste e Louis frequentaram La Martiniere, a maior escola técnica de Lyon.\n[…]\nEles patentearam vários processos significativos que levaram à sua câmera de filme, mais notavelmente as perfurações de filme (originalmente implementadas por Émile Reynaud) como meio de avançar o filme através da câmera e do projetor. O Cinématographe original havia sido patenteado por Léon Guillaume Bouly em 12 de fevereiro de 1892. O cinématographe — um dispositivo três em um que podia gravar, revelar e projetar imagens em movimento — foi posteriormente desenvolvido pelos Lumière.\n[…]\nOs irmãos Lumière viam o cinema como uma novidade e se retiraram do negócio cinematográfico em 1905. Eles passaram a desenvolver o primeiro processo fotográfico prático em cores, o Autocromo Lumière.\n[…]\nKardozi, Karzan (2019). 100 Years of Cinema, 100 Directors, Vol 1: The Lumière Brothers. [S.l.]: Xazalnus Publication  – via The Moving Silent\n[…]\nRittaud-Hutinet, Jacques. Le cinéma des origines (em francês). Seyssel, France: Champ Vallon, 1985. ISBN 2-903528-43-8.\n[…]\nLouis Lumière no IMDb\n[…]\nAuguste Lumière no IMDb\n[…]\nLe musée Lumière – Museu Lumière",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Elisha Otis",
+      "descricao": "Industrial americano (1811–1861) que criou o freio de segurança para elevadores e fundou a empresa Otis."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1854, numa exposição, Elisha Otis subiu numa plataforma e mandou cortar o cabo para provar seu freio de elevador. Em que cidade?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elisha_Otis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Elisha_Otis",
+        "situacao": "ok",
+        "texto": "Elisha Graves Otis (August 3, 1811 – April 8, 1861) was an American industrialist and founder of the Otis Elevator Company. In 1853, he invented a safety device that prevents elevators from falling if the hoisting cable fails. On March 23, 1857, he installed the first safety elevator for passenger service in the store of E.V. Haughwout & Co. in New York City.\n[…]\nIn 1845, Otis married Elizabeth Boyd and moved to Albany, New York. There, he worked as a master mechanic in a bedstead factory and invented an automatic turner to make bed posts four times faster than by hand. In 1848, Otis started his business, Hudson Manufactory, to produce and market his invention. During this period, he also invented a railway safety brake, however the business only lasted two years.\n[…]\nBy 1852, he had moved to Yonkers, New York to work at the Maize & Burns bedstead factory installing machinery. The factory needed a hoist to lift heavy equipment to the upper floor, but this posed serious safety issues. In response, Otis invented the safety elevator, which automatically comes to a halt if the hoisting rope breaks. The following year, he left the factory and started his own company, the Otis Elevator Company.\n[…]\nAfter giving a public demonstration of his new invention at the New York Crystal Palace in 1854, demand for the safety elevator began to rise. He installed the first safety elevator for passenger service at the E. V. Haughwout Building in New York City in 1857.\n[…]\nOtis contracted diphtheria and died on April 8, 1861; he was 49 years old. He was buried in Oakland Cemetery in Yonkers, New York.\n[…]\nThe World War II U.S. Liberty ship SS Elisha Graves Otis was named after him."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Elisha_Otis",
+        "situacao": "ok",
+        "texto": "Elisha Graves Otis (Halifax, 3 de agosto de 1811 – Yonkers, 8 de abril de 1861) foi um industrial norte-americano e fundador da Otis Elevator Company, em 1853, ele inventou um dispositivo de segurança que impede que os elevadores caiam se o cabo de içamento falhar.\n[…]\nOtis nasceu perto de Halifax, Vermont. Mudou-se para Troy, Nova Iorque aos 19, onde viveu por mais 5 anos. Em 1853 fundou uma empresa Otis Elevator Company.\n[…]\nElisha Otis impressionou multidões ao ordenar que cortassem a única corda que segurava a plataforma onde se encontrava com um machado. A plataforma caiu algumas polegadas, mas parou em seguida. O novo freio de segurança impediu que o elevador se chocasse com o chão, revolucionando toda a indústria.\n[…]\nSr. Otis vendeu os seus primeiros elevadores seguros em 1853. O primeiro elevador de pessoas foi instalado em Nova Iorque em 1857. Após a morte de Elisha, em 1861, seus filhos, Charles e Norton, construíram sua herança, criando a empresa Otis Brothers & Co. em 1867.\n[…]\nA invenção do Sr. Otis aumentou a confiança pública nos elevadores, que foi fundamental no crescimento da construção de arranha-céus. A companhia que ele fundou se tornou a maior companhia de elevadores do mundo. Hoje, é uma unidade da United Technologies Corporation.\n[…]\nOtis contraiu difteria e morreu em 8 de abril de 1861 aos 49 anos.\n[…]\nUm funcionário da Otis Elevator Company cunhou o termo \"escada rolante\" para se referir a escadas móveis em loop contínuo que podem subir ou descer. A empresa foi adquirida pela United Technologies em 1976. Novamente em abril de 2020, a Otis Elevator Company foi separada da United Technologies para se tornar uma empresa independente de elevadores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "William Morton",
+      "descricao": "Dentista americano (1819–1868) que fez, em 1846, a célebre demonstração pública de anestesia com éter numa cirurgia."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1846, o dentista William Morton fez uma famosa demonstração de cirurgia com anestesia por éter num hospital de que cidade americana?",
+    "resposta": "Boston",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/William_T._G._Morton",
+      "https://en.wikipedia.org/wiki/Ether_Dome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/William_T._G._Morton",
+        "situacao": "ok",
+        "texto": "William Thomas Green Morton (August 9, 1819 – July 15, 1868) was an American dentist who first publicly demonstrated the use of inhaled ether as a surgical anesthetic in 1846. He is credited with gaining the medical world’s acceptance of surgical anesthesia.\n[…]\nBorn in Charlton, Massachusetts, William T. G. Morton was the son of James Morton, a miner, and Rebecca (Needham) Morton. William found work as a clerk, printer, and salesman in Boston before entering Baltimore College of Dental Surgery in 1840. In 1841, he gained notoriety for developing a new process to solder false teeth onto gold plates. In 1842, he left college after graduating to study in Hartford, Connecticut with dentist Horace Wells and Dr. Nathan Cooley Keep.\n[…]\nOn September 30, 1846, Morton performed a painless tooth extraction after administering ether to Ebenezer Hopkins Frost (1824–1866). Upon reading a favorable newspaper account of this event, Boston surgeon Henry Jacob Bigelow arranged for a now-famous demonstration of ether on October 16, 1846, at the operating theatre of the Massachusetts General Hospital, or MGH. At this demonstration John Collins Warren painlessly removed a tumour from the neck of a Mr. Edward Gilbert Abbott.\n[…]\nIn December 1846, Morton applied to Congress for \"national recompense\" of $100,000, but this too was complicated by the claims of Jackson and Wells as discoverers of ether, and so Morton's application proved fruitless. Horace Wells even addressed a letter to the editor of the Hartford Daily Courant, outlining his experiments and experience with anesthesia. Wells stated that he had met with Morton and Jackson in Boston “both of whom admitted it to be entirely new to them.\n[…]\n\"William Thomas Morton\". Find a Grave. Retrieved 2008-12-02."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ether_Dome",
+        "situacao": "ok",
+        "texto": "The Ether Dome is a surgical operating amphitheater in the Bulfinch Building at Massachusetts General Hospital in Boston, Massachusetts, United States. It served as the hospital's operating room from its opening in 1821 until 1867. It was the site of the first public demonstration of the use of inhaled ether as a surgical anesthetic on October 16, 1846, otherwise known as Ether Day.\n[…]\nIn January 1845, Massachusetts General Hospital (MGH) in Boston allowed Wells to demonstrate the method of anesthesia. Unfortunately, the patient did not respond to the dose of nitrous oxide given, which resulted in Wells' endless contempt. Wells continued with extensive self-experimentation, such as repeated inhalation, with various chemicals. There is evidence that suggests a strong correlation between his inhalation of chemicals to a drastic change in personality.\n[…]\nThe Great Moment is a 1944 biographical film written and directed by Preston Sturges. It tells the story of Dr. William Thomas Green Morton, leading up to the dramatic demonstration in the Ether Dome.\n[…]\nThe mummy arrived in Boston on April 26, 1823, on the British ship the Sally Ann and was the first complete Egyptian burial ensemble in America. He was placed under the care of the ship's captain, Robert B. Edes, along with Bryant P. Tilden, Esq., who ultimately made the decision to give the mummy to Massachusetts General Hospital, whose trustees accepted the gift as \"an appropriate ornament of the operating room,\" while also hoping to exhibit the mummy to raise funds for the hospital.\n[…]\nIn 1823, John Collins Warren partially unwrapped and examined the mummy. He then published the first American treatise about mummies and mummification. The mummy spent much of the late 19th century at the Boston Museum of Fine Arts. The mummy's outer coffin has been at the George Walter Vincent Museum in Springfield, MA since 1932."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/William_Thomas_Green_Morton",
+        "situacao": "ok",
+        "texto": "William Thomas Green Morton (Charlton, 9 de agosto de 1819 – Nova Iorque, 15 de julho de 1868) foi um dentista americano responsável pela primeira demonstração pública com sucesso, de uma droga anestésica por inalação.\n[…]\nMorton nasceu em 1819 em Charlton, um vilarejo no Condado de Worcester, Massachusetts. Ele teve uma escolaridade comum na Northfield and Leicest Academies.\n[…]\nEm 1840, Morton entrou para a primeira escola de dentistas do mundo, a Baltimore College of Dental Surgery. Ele a abandonou sem se graduar. Ao invés disso, em 1842 Morton se tornou pupilo e depois sócio de Horace Wells, o cirurgião dentista de Hartford. Essa parceria não foi de grande sucesso e se dissolveu seis meses depois.\n[…]\nEntretanto, Morton compareceu à apresentação de Wells no Hospital Geral de Massachusetts e foi influenciado pelo insucesso do antigo mestre. No dia 16 de outubro de 1846 Morton voltou ao hospital e dessa vez mudou para sempre a cirurgia no mundo. Esse dia é o oficialmente aceito como aquele em que se realizou a primeira intervenção cirúrgica com anestesia geral.\n[…]\nMorton falou com muita determinação e confiança e apresentou um instrumento, um globo de vidro com duas cânulas que direcionava os vapores à boca do paciente, sendo que dentro havia éter no lugar do antes utilizado protóxido de azoto. O cirurgião presente, o renomado John Collins Warren, extraiu do paciente submetido ao experimento de Morton, um tumor que lhe tomava a glândula submandibular e uma parte da língua.\n[…]\n«William Thomas Morton». Find a Grave. Consultado em 2 de dezembro de 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Semáforo",
+      "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres em cruzamentos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1868, um semáforo movido a gás e operado por um policial foi instalado diante do Parlamento de que cidade?",
+    "resposta": "Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Traffic_light"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Traffic_light",
+        "situacao": "ok",
+        "texto": "Traffic lights, traffic signals, or stoplights – also known as robots in South Africa, Zambia, and Namibia – are signalling devices positioned at road intersections, pedestrian crossings, and other locations to control the flow of traffic.\n[…]\nIn December 1868, the first traffic signals showing a red or green light at night were installed outside the Houses of Parliament in London. They were invented by John Peake Knight. A police constable raised or lowered the semaphore arms and, at night, operated a lever to control the lights which drivers and pedestrians saw. This system exploded on 2 January 1869 and was taken down. This early traffic signal led to other parts of the world implementing similar traffic signal systems.\n[…]\nIn the US, an intersection is usually required to meet one or more of these warrants before a signal is installed. However, meeting one or more warrants does not require installing a traffic signal; it only suggests that a signal may be suitable. It could be that a roundabout would work better. There may be other unconsidered conditions that lead traffic engineers to conclude that a signal is undesirable.\n[…]\nFor example, it may be decided not to install a signal at an intersection if traffic stopped by it will back up and block another, more heavily trafficked intersection. Also, if a signal meets only the peak-hour warrant, the advantages during that time may not outweigh the disadvantages during the rest of the day.\n[…]\nIn China, the standards for setting traffic signals is defined in GB 14886-2016: Specifications for road traffic signal setting and installation, published in 2016 and implemented in 2017. A signal shall be placed at intersections that meet the following criteria:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sem%C3%A1foro",
+        "situacao": "ok",
+        "texto": "Semáforos, também conhecidos como robôs na África do Sul, Zâmbia e Namíbia – são dispositivos de sinalização posicionados em cruzamentos de estradas, passagens de pedestres e outros locais para controlar o fluxo de tráfego.\n[…]\nOs semáforos foram introduzidos pela primeira vez em dezembro de 1868 na Praça do Parlamento, em Londres, para reduzir a necessidade de policiais para controlar o tráfego. Desde então, a eletricidade e o controle computadorizado aprimoraram a tecnologia dos semáforos e aumentaram a capacidade dos cruzamentos.\n[…]\nEm dezembro de 1868, os primeiros semáforos que exibiam luz vermelha ou verde à noite foram instalados em frente ao Parlamento, em Londres. Eles foram inventados por John Peake Knight. Um policial levantava ou abaixava os braços do semáforo e, à noite, operava uma alavanca para controlar as luzes que motoristas e pedestres viam. Esse sistema explodiu em 2 de janeiro de 1869 e foi desmontado. Esse primeiro semáforo levou outras partes do mundo a implementarem sistemas de semáforos semelhantes.\n[…]\nNas duas primeiras décadas do século XX, semáforos como o de Londres eram usados em todos os Estados Unidos. Esses semáforos eram controlados por um agente de trânsito que ajustava os sinais para direcionar o tráfego.\n[…]\nPotts era Superintendente de Sinais do Departamento de Polícia de Detroit. Em 1921, ele instalou semáforos automáticos de quatro vias e três cores em 15 torres em Detroit.\n[…]\nAs três cores do semáforo são:\n[…]\nEm Portugal, o primeiro semáforo terá sido instalado em 1928, no cruzamento entre a Avenida da Liberdade e a Rua das Pretas, em Lisboa. O mesmo funcionava apenas com duas cores de luzes e era operado manualmente por um guarda sinaleiro da Polícia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Eclipse solar de 29 de maio de 1919",
+      "descricao": "Eclipse total do Sol cujas observações, feitas no Brasil e na África, confirmaram a deflexão da luz prevista pela relatividade geral."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1919, fotos de um eclipse solar tiradas numa cidade do Ceará ajudaram a confirmar a teoria da relatividade de Einstein. Que cidade?",
+    "resposta": "Sobral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eddington_experiment"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eddington_experiment",
+        "situacao": "ok",
+        "texto": "The Eddington experiment was an observational test of general relativity, organised by the British astronomers Frank Watson Dyson and Arthur Stanley Eddington in 1919. Observations of the total solar eclipse of 29 May 1919 were carried out by two expeditions, one to the West African island of Príncipe, and the other to the Brazilian town of Sobral. The aim of the expeditions was to measure the gra\n[…]\nIn mid-1918, researchers from the Brazilian National Observatory, determined that the city of Sobral, Ceará, was the best geographical position to observe the Solar Eclipse. Its director, Henrique Charles Morize, sent a report to worldwide scientific institutions on the subject, including the Royal Astronomical Society, London.\n[…]\nDaniel Kennefick defends that without the Sobral photographs, the results of the 1919 eclipse would have been inconclusive and that the expeditions during future eclipses failed to improve the data.\n[…]\nIt is notable that while the Eddington results were seen as a confirmation of Einstein's prediction, and in that capacity soon found their way into general relativity text books, among other astronomers there followed a decade-long discussion of the quantitative values of light deflection, with the precise results in contention even after several expeditions had repeated Eddington's observations on the occasion of subsequent eclipses.\n[…]\nPart of the vindication comes from a 1979 reanalysis of the plates from the two Sobral instruments, using a much more modern plate-measuring machine than was available in 1919, which supports Eddington's results.\n[…]\nKennefick, Daniel (2019). No Shadow of a Doubt: The 1919 Eclipse That Confirmed Einstein's Theory of Relativity. Princeton: Princeton University Press. ISBN 9780691183862.\n[…]\nSmall memorial in honour of the experiments carried out here in 1919 to find empirical evidence for the theory of relativity during a solar eclipse"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Experimento_de_Eddington",
+        "situacao": "ok",
+        "texto": "O experimento de Eddington foi um teste observacional da teoria da relatividade geral de Albert Einstein, organizado pelos astrônomos britânicos Frank Watson Dyson e Arthur Stanley Eddington em 1919. As observações foram do eclipse solar de 29 de maio de 1919 e foram realizadas por duas expedições, uma para a ilha africana de Príncipe e outra para a cidade brasileira de Sobral. O objetivo das expe\n[…]\nA ampla cobertura da imprensa dos resultados levou à fama mundial de Einstein e suas teorias.\n[…]\nNesse cenário, o experimento de Eddington foi uma oportunidade única de verificar uma das previsões mais surpreendentes da relatividade geral: o desvio da luz pela gravidade. O eclipse solar de 1919 oferecia a chance de observar as estrelas próximas ao disco solar e medir o quanto elas pareciam se deslocar de suas posições originais devido à curvatura do espaço-tempo causada pela massa do Sol. Esse efeito era muito pequeno e só podia ser detectado com instrumentos precisos e condições favoráveis.\n[…]\nO experimento de Eddington foi um marco na história da ciência, pois foi o primeiro a confirmar a relatividade geral e a dar visibilidade mundial a Einstein e sua teoria. O experimento também estimulou o desenvolvimento da astrofísica e da cosmologia modernas, que passaram a usar a relatividade geral como ferramenta para estudar os fenômenos mais extremos do universo.\n[…]\nA teoria do experimento de Eddington foi a teoria da relatividade geral de Albert Einstein. Essa teoria é uma generalização da teoria da relatividade especial, que trata dos fenômenos físicos envolvendo objetos que se movem com velocidades próximas à da luz. A relatividade geral incorpora a gravitação como uma propriedade do espaço-tempo, que é a estrutura geométrica que descreve o palco onde ocorrem os eventos físicos.\n[…]\nSobral\n[…]\nEinstein and Eddington – telefilme britânico de 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Leo Baekeland",
+      "descricao": "Químico (1863–1944) que criou a baquelite, um dos primeiros plásticos sintéticos, nos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Leo Baekeland, que criou a baquelite em 1907, um dos primeiros plásticos sintéticos, nasceu em que país europeu?",
+    "resposta": "Bélgica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leo_Baekeland",
+      "https://en.wikipedia.org/wiki/Bakelite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leo_Baekeland",
+        "situacao": "ok",
+        "texto": "Leo Hendrik Baekeland ( BAYK-land; Dutch: [ˈleːjoː ˈɦɛndrɪɡ ˈbaːkəlɑnt]; November 14, 1863 – February 23, 1944) was a Belgian chemist. Educated in Belgium and Germany, he spent most of his career in the United States. He is best known for the inventions of Velox photographic paper in 1893, and Bakelite in 1907.\n[…]\nBakelite was made from phenol, then known as carbolic acid, and formaldehyde. The chemical name of Bakelite is polyoxybenzylmethylenglycolanhydride. In compression molding, the resin is generally combined with fillers such as wood or asbestos, before pressing it directly into the final shape of the product. Baekeland's process patent for making insoluble products of phenol and formaldehyde was filed in July 1907, and granted on December 7, 1909.\n[…]\nBaekeland received many awards and honors, both during his lifetime and beyond, including the Perkin Medal in 1916 and the Franklin Medal in 1940. In 1974 he was posthumously inducted into the Plastics Hall of Fame and in 1978 he was likewise inducted into the National Inventors Hall of Fame in Akron, Ohio.\n[…]\nKauffman, Carl (1968). Grand Duke, Wizard and Bohemian: A Biographical Profile of Leo Hendrik Baekeland (1863–1944). Google Books\n[…]\nBaekeland, L. H. (1907). A Family Motor Tour Through Europe. United States: Horseless Age. Google Books.\n[…]\nCraig, John A. (April 1916). \"Leo Hendrik Baekeland: The Latest Winner Of The Perkin Medal\". The World's Work: A History of Our Time. XXXI: 651–655.\n[…]\nFarber, Eduard (1970). \"Baekeland, Leo Hendrik\". Dictionary of Scientific Biography. Vol. 1. New York: Charles Scribner's Sons. p. 385. ISBN 0-684-10114-9.\n[…]\nA virtual Bakelite museum with a short biography of Leo Baekeland\n[…]\nVirtual Bakelite Museum of Ghent 1907–2007\n[…]\nTime, Mar. 29, 1999, Chemist LEO BAEKELAND"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bakelite",
+        "situacao": "ok",
+        "texto": "Bakelite ( BAY-kə-lyte) is the first plastic made from synthetic components. It was developed by chemist Leo Baekeland in Yonkers, New York, in 1907, and patented on December 7, 1909.\n[…]\nBaekeland filed a substantial number of related patents. Bakelite, his \"method of making insoluble products of phenol and formaldehyde\", was filed on July 13, 1907, and granted on December 7, 1909. He also filed for patent protection in other countries, including Belgium, Canada, Denmark, Hungary, Japan, Mexico, Russia, and Spain. He announced his invention at a meeting of the American Chemical Society on February 5, 1909.\n[…]\nBaekeland started semi-commercial production of his new material in his home laboratory, marketing it as a material for electrical insulators. In the summer of 1909, he licensed the continental European rights to Rütger AG. The subsidiary formed at that time, Bakelite AG, was the first to produce Bakelite on an industrial scale.\n[…]\nThe United States Patent and Trademark Office granted Baekeland a patent for a \"Method of making insoluble products of phenol and formaldehyde\" on December 7, 1909. Producing hard, compact, insoluble, and infusible condensation products of phenols and formaldehyde marked the beginning of the modern plastics industry.\n[…]\nCrystalate is an early plastic.\n[…]\nGalalith is an early plastic derived from milk products.\n[…]\nBaekeland, L. H. (March 1909). \"The Synthesis, Constitution, and Uses of Bakelite\". Journal of Industrial & Engineering Chemistry. 1 (3): 149–161. doi:10.1021/ie50003a004. ISSN 0095-9014.\n[…]\nAll Things Bakelite: The Age of Plastic—trailer for a film by John Maher, with additional video & resources\n[…]\nVirtual Bakelite Museum of Ghent 1907–2007"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Leo_Baekeland",
+        "situacao": "ok",
+        "texto": "Leo Hendrik Baekeland (Sint-Martens-Latem, 14 de novembro de 1863 – Beacon, 23 de fevereiro de 1944) foi um inventor e empresário belga, considerado o pai da indústria do plástico.\n[…]\nConheceu também Richard Anthony, proprietário de uma conhecida empresa fotográfica que, percebendo a capacidade e o trabalho desempenhado por Baekeland, contratou-o como químico.\n[…]\nEntrou para a ainda recente indústria de plástico e desenvolveu a baquelite, um plástico à base de fenol e formaldeído até hoje usado em uma série de processos industriais. A baquelite ou Bakelite é um plástico formado precipuamente pela goma-laca em conjunto com o alcatrão de hulha. A goma-laca é uma substância natural liberada pelo besouro fêmea laca; é a tal goma-laca que dá origem ao plástico baquelite, em conjunto com o já mencionado alcatrão de hulha.\n[…]\nOutro traslado de plástico natural é celulose, composto substancial da xilema das plantas. Levando em consideração uma detalhada análise química, a baquelite é denominada polioxibenzimetilenglicolanidrido. A baquelite pode ser considerada um plástico \"thermoset\", ou seja, mantém seu formato após ser aquecida.\n[…]\nLeo Baekeland teve registradas em seu nome um número aproximado de 50 patentes. Morreu de hemorragia cerebral em um sanatório na cidade de Beacon, no estado de Nova Iorque, em 23 de fevereiro de 1944.\n[…]\nPrêmio Leo Hendrik Baekeland\n[…]\nFundação Coleção de Baquelite de Amsterdã\n[…]\nO fundo Baekeland\n[…]\nUm museu virtual de baquelite com uma breve biografia de Leo Baekeland\n[…]\nMuseu Virtual de Baquelite de Gante 1907–2007\n[…]\nTime, Mar. 9 de março de 1999, Químico LEO BAEKELAND",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Eratóstenes",
+      "descricao": "Matemático e geógrafo grego do século três antes de Cristo, diretor da Biblioteca de Alexandria, que estimou a circunferência da Terra."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Por volta de 240 antes de Cristo, Eratóstenes estimou o tamanho da Terra comparando as sombras em Alexandria e em que outra cidade egípcia?",
+    "resposta": "Siena (atual Assuã)",
+    "distratores": [
+      "Mênfis",
+      "Tebas",
+      "Gizé"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eratosthenes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eratosthenes",
+        "situacao": "ok",
+        "texto": "Eratosthenes of Cyrene ( err-ə-TOSS-thə-neez; Ancient Greek: Ἐρατοσθένης [eratostʰénɛːs]; c. 276 BC – c. 195/194 BC) was an Ancient Greek polymath: a philosopher, scholar, mathematician, geographer, poet, astronomer, and music theorist. Eratosthenes eventually became the chief librarian at the Library of Alexandria. His work was the precursor to the modern discipline of geography, and he introduce\n[…]\nHe determined the angular distance between the two tropics as of the full circle (360°), i.e., 47° 42′ 40″, which, when halved, yields a value of 23° 51′ 20″. How he arrived at this result is unknown; the hypotheses considered in research are speculative. While at the Library of Alexandria, Eratosthenes devised a calendar using his predictions about the ecliptic of the Earth. He calculated that there are 365 days in a year and that every fourth year there would be 366 days.\n[…]\nEratosthenes continued to study the Earth, and began to sketch it. In the Library of Alexandria he had access to travel books, which contained information and representations of the world that needed to be pieced together in some organized format.\n[…]\nAccording to Strabo, Eratosthenes argued against the Greek-Barbarian dichotomy and said Alexander ignored his advisers by his regard for all people with law and government.\n[…]\nThough he argued that Eratosthenes was wrong to claim that Alexander had disregarded the counsel of his advisers asserting that it was Alexander's interpretation of their \"real intent\" in recognizing that \"in some people there prevail the law-abiding and the political instinct, and the qualities associated with education and powers of speech\".\n[…]\nEratosthenes was one of the most eminent scholars of his time, and produced works covering a vast area of knowledge before and during his time at the Library. There are no documents left of his work after the destruction of the Library of Alexandria."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erat%C3%B3stenes",
+        "situacao": "ok",
+        "texto": "Eratóstenes de Cirene (em grego:  Ἐρατοσθένης, transl.: Eratosthéni̱s; Cirene, 276 a.C. — Alexandria, 194 a.C.) foi um matemático, gramático, poeta, geógrafo, bibliotecário e astrônomo da Grécia Antiga, conhecido por calcular a circunferência da Terra. Nasceu em Cirene, na Líbia, e morreu em Alexandria. Estudou em Cirene, em Atenas e em Alexandria. Os contemporâneos chamavam-no de \"Beta\" porque o \n[…]\nEratóstenes foi um dos primeiros a calcular a circunferência da Terra. Um dos experimentos históricos mais conhecidos é o da medição do raio da Terra feito por Eratóstenes por volta de 240 a.C. A partir da leitura de documentos presentes na biblioteca de Alexandria, ele notou que, no solstício de verão, as paredes dos poços na cidade de Siena não projetavam sombra no fundo dos poços. Porém, na mesma data e horário, esse fenômeno não acontecia em Alexandria.\n[…]\nEm sua época, as datas dos solstícios e equinócios eram levemente diferentes das atuais, devido à precessão dos equinócios. Mas ele conhecia as datas em que estes eventos ocorriam. Ele foi diretor da biblioteca de Alexandria, e num dos manuscritos dessa instituição tomou conhecimento de que no solstício de verão, na cidade de Siena (atual Assuão), ao meio dia, o Sol ficava quase exatamente no zênite, de modo que podia ser observado no fundo de um poço.\n[…]\nPortanto o perímetro total da circunferência terrestre deveria ser 5 040 x 50 = 252 000 estádios.Nesse cálculo, assume-se implicitamente que Siena e Alexandria estejam no mesmo meridiano, porém há uma diferença em torno de 2,98° de longitude entre as cidades, o que produz uma pequena diferença de 0,135%, que não é relevante em comparação a outras fontes de erro.\n[…]\né a distância entre Siena e Alexandria;\n[…]\né o ângulo formado das cidades de Siena e Alexandria; e\n[…]\n) e a circunferência da Terra (\n[…]\n) é igual à razão do ângulo formado pelas cidades e o ângulo total da circunferência da Terra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Prêmio Nobel da Paz",
+      "descricao": "Um dos prêmios criados pelo testamento de Alfred Nobel, concedido a quem mais contribuiu pela fraternidade entre as nações."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Quase todos os Prêmios Nobel são entregues em Estocolmo, com uma exceção: o da Paz. Em que cidade ele é entregue?",
+    "resposta": "Oslo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nobel_Peace_Prize"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nobel_Peace_Prize",
+        "situacao": "ok",
+        "texto": "The Nobel Peace Prize is one of the five original Nobel Prizes established by the will of Swedish industrialist, inventor, and armaments manufacturer Alfred Nobel, along with the prizes in Chemistry, Physics, Physiology or Medicine, and Literature.\n[…]\nIn accordance with Nobel's will, the prize is selected by the Norwegian Nobel Committee, a five-member committee appointed by the Parliament of Norway unlike all the other awards chosen by the Swedish Nobel Committee. The prize award ceremony has been held in Oslo City Hall since 1990, previously in the assembly hall of the University of Oslo (1947–1989), Norwegian Nobel Institute (1905–1946), and the Parliament (1901–1904).\n[…]\nFormer permanent advisers to the Norwegian Nobel Institute\n[…]\nSince 1990, the ceremony has taken place at Oslo City Hall. From 1947 to 1989, the Nobel Peace Prize ceremony was held in the Atrium of the University of Oslo Faculty of Law, a few hundred meters from Oslo City Hall. Between 1905 and 1946, the ceremony took place at the Norwegian Nobel Institute. From 1901 to 1904, the ceremony took place in the Storting (Parliament).\n[…]\nAuthor Christopher Hitchens called the Nobel Peace Prize \"a huge bore and a fraud\" in his memoir Hitch-22.\n[…]\nThe omission has been publicly regretted by later members of the Nobel Committee.\n[…]\n\"The Nobel Peace Prize\" – Official webpage of the Norwegian Nobel Committee\n[…]\n\"The Nobel Peace Prize\" at the official site of the Nobel Prize\n[…]\n\"All Nobel Laureates in Peace\"\n[…]\n\"The Nobel Prize Award Ceremonies\"\n[…]\n\"National Peace Nobel Prize shares 1901–2009 by citizenship (or home of the organization) at the time of the award.\" – From J. Schmidhuber (2010): Evolution of National Nobel Prize Shares in the 20th Century at arXiv:1009.2634v1"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pr%C3%AAmio_Nobel_da_Paz",
+        "situacao": "ok",
+        "texto": "O Nobel da Paz é um dos cinco prémios Nobel estabelecidos pela vontade do industrial, inventor e fabricante de armamentos sueco Alfred Nobel, junto com os prêmios de Química, Física, Fisiologia ou Medicina e Literatura. Desde março de 1901, é concedido anualmente (com algumas exceções) àqueles que \"fizeram o melhor trabalho pela fraternidade entre as nações, pela abolição ou redução de exércitos p\n[…]\nPor vontade de Alfred Nobel, o destinatário é selecionado pelo Comitê Norueguês do Nobel, um comitê de cinco membros nomeado pelo Parlamento da Noruega. Desde 1990, o prêmio é concedido em uma cerimônia no dia 10 de dezembro na Prefeitura de Oslo a cada ano. O prêmio foi concedido anteriormente no átrio da Faculdade de Direito da Universidade de Oslo (1947–1989), no Instituto Nobel da Noruega (1905–1946) e no Parlamento (1901–1904).\n[…]\nO Parlamento da Noruega é responsável por escolher os membros do Comitê Norueguês do Nobel, que seleciona o Prêmio Nobel da Paz.\n[…]\nO presidente do Comitê Norueguês do Nobel apresenta o Prêmio Nobel da Paz na presença do Rei da Noruega em 10 de dezembro de cada ano (o aniversário da morte de Alfred Nobel). O Prêmio da Paz é o único Prêmio Nobel não realizado em Estocolmo. O laureado recebe um diploma, uma medalha e um documento confirmando o valor do prêmio. Em 2013, o valor do prêmio era 10 milhões de coroas suecas (cerca de US$ 1,5 milhão).\n[…]\nDesde 1990, a cerimônia do Prêmio Nobel da Paz é realizada na prefeitura de Oslo.De 1947 a 1989, a cerimônia do Prêmio Nobel da Paz foi realizada no átrio da Faculdade de Direito da Universidade de Oslo, a algumas centenas de metros da prefeitura de Oslo. Entre 1905 e 1946, a cerimônia ocorreu no Instituto Nobel da Noruega. De 1901 a 1904, a cerimônia ocorreu no Parlamento da Noruega.\n[…]\nComitê Nobel Norueguês\n[…]\nThe Nobel Foundation\n[…]\nThe Norwegian Nobel Institute\n[…]\nO Prêmio Nobel da Paz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Papel",
+      "descricao": "Material fino feito de fibras vegetais prensadas, usado para escrever e imprimir, surgido na China antiga."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta do ano 105, que funcionário da corte imperial chinesa é tradicionalmente apontado como o inventor do papel?",
+    "resposta": "Cai Lun",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cai_Lun",
+      "https://en.wikipedia.org/wiki/Paper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun",
+        "situacao": "ok",
+        "texto": "Cai Lun (Chinese: 蔡伦; courtesy name: Jingzhong (敬仲); c. 50–62 – 121 CE), formerly romanized as Ts'ai Lun, was a Chinese eunuch court official of the Eastern Han dynasty. He occupies a pivotal place in the history of paper due to his addition of pulp via tree bark and hemp ends which resulted in the large-scale manufacture and worldwide spread of paper.\n[…]\nMany legends about the inspiration for Cai's invention exist; one of the most popular said that Cai was inspired by watching paper wasps make their nests. Tsien suggested that Cai was inspired by the people of his birthplace, who used bark from mulberry trees to create cloth as a writing surface. Irrespective of its origin, in 105 CE, Cai's new papermaking process both impressed He and earned him fame throughout the empire.\n[…]\nAccording to legend, the Buddhist monk Damjing brought the process to Japan, though this is unconfirmed. Damjing occupies a similar patron saint position in Japan that Cai does in China. By the 600s the process appeared in Turkestan, Korea, and India, while Chinese prisoners from the Battle of Talas spread the knowledge to Arabs in the Abbasid Caliphate.\n[…]\nUnlike many Chinese inventions that were created independently in Western Europe, the modern papermaking process was a wholly Chinese product and gradually spread via the Arabs to Europe, where it also saw widespread manufacturing by the 12th century. On 2 August 2010, the International Astronomical Union honored Cai's legacy by naming a crater on the Moon after him.\n[…]\nOf those who originated China's Four Great Inventions of the ancient world—the compass, gunpowder, papermaking and printing—the only early figure known is one of papermaking, Cai Lun. Additionally, in comparison to other Chinese inventions such as the writing brush and ink, the development of paper is the best documented in literary sources."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Paper",
+        "situacao": "ok",
+        "texto": "Paper is a thin sheet of matted cellulose fibers. Largely derived from lignocellulose, paper is created from a pulp dissolved into a slurry that is drained and dried into sheets. Different types of paper are defined by constituent fiber, paper pulp, sizing, coating, paper size, paper density and grammage.\n[…]\nThe papermaking process developed in East Asia at least as early as 105 CE by the Han court eunuch Cai Lun, although archaeological evidence exists of 2nd century BCE paper-like material in China. Before the industrialization of paper production, the most common paper was rag paper, made from discarded natural fiber textiles collected by ragpickers. The 1843 invention of wood pulp, coupled with the Second Industrial Revolution, made pulpwood paper the dominant variety to this day.\n[…]\nThere are three main chemical pulping processes: the sulfite process dates back to the 1840s and was the dominant method before the Second World War. The kraft process, invented in the 1870s and first used in the 1890s, is now the most commonly practised strategy; one of its advantages is that the chemical reaction with lignin produces heat, which can be used to run a generator.\n[…]\nA process for removing printing inks from recycled paper was invented by German jurist Justus Claproth in 1774. Today this method is called deinking.\n[…]\nMonro, Alexander (2016), The Paper Trail: An Unexpected History of a Revolutionary Invention, Alfred A. Knopf\n[…]\nMonro, Alexander (2013). The Paper Trail: An Unexpected History of the World's Greatest Invention. London: Allen Lane. ISBN 9781846141898. OCLC 1040764924."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cai_Lun",
+        "situacao": "ok",
+        "texto": "Cai Lun foi um alto funcionário da corte imperial, na dinastia Han, que inventou o papel a partir de casca de amoreira e fibra de bambu, no ano 105.\n[…]\nNa China é tradicionalmente considerado o inventor do papel, pois sob sua administração foi aperfeiçoada a técnica de fabricação do material utilizado para a escrita de documentos, que passou a ter propriedades semelhantes às do papel atual, bem diferentes do papiro e do pergaminho usados ​​antigamente.\n[…]\nEmbora as primeiras formas de papel existissem na China a partir do século II a.C., ele foi responsável pela primeira melhoria e padronização significativa da fabricação de papel, adicionando novos materiais essenciais à sua composição. Segundo as crônicas históricas chinesas, a invenção do papel teria ocorrido no ano 105 d.C.\n[…]\nConsidera-se que as melhorias de Cai na fabricação de papel tiveram um enorme impacto na história humana, e daqueles que criaram as Quatro Grandes Invenções da China - a bússola, a pólvora, a fabricação de papel e a impressão - Cai é o único inventor cujo nome é conhecido. Embora na China ele seja reverenciado no culto aos ancestrais, deificado como o deus da fabricação de papel e apareça no folclore chinês, ele é praticamente desconhecido fora do leste da Ásia.\n[…]\nSua cidade natal em Leiyang continua sendo um centro ativo de produção de papel.==Referências==",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Relógio de pêndulo",
+      "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1656, inspirado em estudos de Galileu sobre o pêndulo, que cientista holandês construiu o relógio de pêndulo?",
+    "resposta": "Christiaan Huygens",
+    "distratores": [
+      "Antonie van Leeuwenhoek",
+      "Hans Lippershey",
+      "Simon Stevin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pendulum_clock",
+      "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pendulum_clock",
+        "situacao": "ok",
+        "texto": "A pendulum clock is a clock that uses a swinging weight known as a pendulum as its timekeeping element. The pendulum is an approximate harmonic oscillator that swings in a time interval that depends on its length, and that resists swinging at other rates. From its invention in 1656 by Christiaan Huygens, inspired by Galileo Galilei, until the 1930s, the pendulum clock was the world's most precise \n[…]\nThe pendulum clock was invented on 25 December 1656 by Dutch scientist and inventor Christiaan Huygens. The invention was patented the following year. Huygens described it in his manuscript Horologium (1658). Huygens contracted the construction of his clock to Salomon Coster.\n[…]\nHuygens was inspired by investigations of pendulums by Galileo Galilei in around 1602, who had discovered the key property that makes pendulums useful timekeepers—they behave isochronically, so that they swing with a period that is independent of the size of the swing. In 1637, Galileo described a mechanism to his son, Vincenzo that could keep a pendulum swinging. The mechanism was partly constructed by his son in 1649.\n[…]\nIn addition to increased accuracy, the anchor's narrow pendulum swing allowed the clock's case to accommodate longer, slower pendulums, which needed less power and caused less wear on the movement.The seconds pendulum (also called the Royal pendulum), 0.994 m (39.1 in) long, in which the time period is two seconds, became widely used in quality clocks. Huygens took this the creation of the pendulum clock a step further and in 1675 added the spiral balance spring.\n[…]\nOnly a few tower clocks use longer pendulums, the 1.5 second pendulum, 2.25 m (7.4 ft) long, or occasionally the two-second pendulum, 4 m (13 ft) which is used in the Great Clock of Westminster which houses Big Ben.\n[…]\nFlying pendulum clock\n[…]\nSteam clock\n[…]\nComputer-Aided Design and Kinematic Simulation of Huygens's Pendulum Clock"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
+        "situacao": "ok",
+        "texto": "Christiaan Huygens, Lord of Zeelhem (14 April 1629 – 8 July 1695) was a Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution. In physics, Huygens made seminal contributions to optics and mechanics, while as an astronomer he studied the rings of Saturn and discovered its largest moon, Titan.\n[…]\nConstantijn Huygens was a diplomat and advisor to the House of Orange, in addition to being a poet and a musician. He corresponded widely with intellectuals across Europe, including Galileo Galilei, Marin Mersenne, and René Descartes. Christiaan was educated at home until the age of sixteen, and from a young age liked to play with miniatures of mills and other machines.\n[…]\nHuygens had worked out the laws of collision from 1652 to 1656 in a manuscript entitled De Motu Corporum ex Percussione, though his results took many years to be circulated. In 1661, he passed them on in person to William Brouncker and Christopher Wren in London. What Spinoza wrote to Henry Oldenburg about them in 1666, during the Second Anglo-Dutch War, was guarded. The war ended in 1667, and Huygens announced his results to the Royal Society in 1668.\n[…]\nWorks by or about Christiaan Huygens at the Internet Archive\n[…]\nDe Ratiociniis in Ludo Aleae or The Value of all Chances in Games of Fortune, 1657 Christiaan Huygens's book on probability theory. An English translation published in 1714. Text pdf file.\n[…]\nThe Correspondence of Christiaan Huygens in EMLO\n[…]\nChristiaan Huygens biography and achievements\n[…]\nPortraits of Christiaan Huygens\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Christiaan Huygens\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nChristiaan Huygens on the 25 Dutch Guilder banknote of the 1950s. Archived 13 December 2011 at the Wayback Machine\n[…]\nChristiaan Huygens at the Mathematics Genealogy Project"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rel%C3%B3gio_de_p%C3%AAndulo",
+        "situacao": "ok",
+        "texto": "Relógio de pêndulo é um mecanismo para medida do tempo baseado na regularidade da oscilação (isocronismo) de um pêndulo.\n[…]\nA regularidade no movimento de um pêndulo foi estudada por Galileu Galilei no século XVI, mas a invenção do relógio de pêndulo é atribuída a Christiaan Huygens em 1656, na cidade de Haia, Holanda. A fabricação começou em 1657 por obra de artesãos holandeses e teve rápida difusão.\n[…]\nPara um relógio de pêndulo ser um medidor de tempo preciso, a amplitude do movimento deve ser mantida constante apesar de as perdas por atrito afetarem todo o sistema mecânico. Variações na amplitude, tão pequenas quanto 4° ou 5°, fazem um relógio adiantar cerca de 15 segundos por dia, o que não é tolerável mesmo num relógio caseiro.\n[…]\nEm 1665, Christiaan Huygens observou, quando estava doente em casa, que o movimento dos pêndulos de dois relógios, pendurados numa trave, era sincronizado. Qualquer que fosse a posição de partida, os pêndulos mantinham-se em 'oposição de fase': um pêndulo ia para a esquerda enquanto o outro ia para a direita.\n[…]\nA explicação para o fenómeno surgiu em 2015, pela mão de uma equipa de investigadores portugueses: a troca de impulsos sonoros faz com que o movimento de dois pêndulos de relógios, colocados lado a lado, esteja automaticamente sincronizado.\n[…]\nUm pêndulo de um relógio, \"num dado ponto do ciclo\", transfere energia a outro através de impulsos sonoros.\n[…]\nO impulso sonoro, uma onda sonora que transporta energia, pode passar de um relógio para o outro, obrigando-os a estarem sincronizados.\n[…]\nRelógio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Barômetro",
+      "descricao": "Instrumento que mede a pressão atmosférica, cuja versão de mercúrio foi criada em 1643."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1643, que físico italiano, discípulo de Galileu, inventou o barômetro de mercúrio?",
+    "resposta": "Evangelista Torricelli",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Evangelista_Torricelli",
+      "https://en.wikipedia.org/wiki/Barometer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Evangelista_Torricelli",
+        "situacao": "ok",
+        "texto": "Evangelista Torricelli ( TORR-ee-CHEL-ee, Italian: [evandʒeˈlista torriˈtʃɛlli] ; 15 October 1608 – 25 October 1647) was an Italian physicist and mathematician, and a student of Benedetto Castelli. He is best known for his invention of the barometer, but is also known for his advances in optics and work on the method of indivisibles. The torr is named after him.\n[…]\nThis early work owes much to the study of the classics.\" Sixty-eight years after Torricelli had died, his genius still filled his contemporaries with admiration, as evidenced by the anagram below the frontispice of Lezioni accademiche d'Evangelista Torricelli published in 1715: En virescit Galileus alter, meaning \"Here blossoms another Galileo.\"\n[…]\nSeveral Italian Navy submarines were named after Evangelista Torricelli:\n[…]\nEvangelista Torricelli, the former USS Lizardfish, transferred to Italy in 1960 and decommissioned in 1976\n[…]\nTorricellian chamber\n[…]\nJervis-Smith, Frederick John (1908). Evangelista Torricelli. Oxford University Press. p. 9. ISBN 9781286262184. {{cite book}}: ISBN / Date incompatibility (help)\n[…]\nRobinson, Philip J. (1994). \"Evangelista Torricelli\". The Mathematical Gazette. 78 (481): 37–47. doi:10.2307/3619429. JSTOR 3619429. S2CID 250441421.\n[…]\nEvangelista Torricelli, Encyclopædia Britannica Evangelista Torricelli | Italian physicist and mathematician\n[…]\nEvangelista Torricelli, Treccani Enciclopedia Torricèlli, Evangelista nell'Enciclopedia Treccani\n[…]\nEvangelista Torricelli at the Mathematics Genealogy Project\n[…]\nScientist of the Day – Evangelista Torricelli at Linda Hall Library\n[…]\nRobinson, Philip J. (1994). \"Evangelista Torricelli\". The Mathematical Gazette. 78 (481): 37–47. doi:10.2307/3619429. JSTOR 3619429. S2CID 250441421.\n[…]\nSarton (1923). \"Reviewed work: Opere di Evangelista Torricelli, Gino Loria, Giuseppe Vassura\". Isis. 5 (1): 151–154. doi:10.1086/358128. JSTOR 223606."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Barometer",
+        "situacao": "ok",
+        "texto": "A barometer is a scientific instrument that is used to measure air pressure. Pressure tendency, which is derived from barometric readings, can forecast short term changes in the weather. Many measurements of air pressure are used within surface weather analysis to help find surface troughs, pressure systems and frontal boundaries.\n[…]\nEvangelista Torricelli is usually credited with inventing the barometer in 1643, although the historian W. E. Knowles Middleton suggests the more likely date is 1644 (when Torricelli first reported his experiments; the 1643 date was only suggested after his death).Gasparo Berti, an Italian mathematician and astronomer, also built a rudimentary water barometer sometime between 1640 and 1644, but it was not a true barometer as it was not intended to move and record variable air pressure.\n[…]\nEvangelista Torricelli, who was Galileo's amanuensis for the last three months of his life, interpreted the results of the experiments in a novel way. He proposed that the weight of the atmosphere, not an attracting force of the vacuum, held the water in the tube. In a letter to Michelangelo Ricci in 1644 concerning the experiments, he wrote:\n[…]\nBecause of rumors circulating in Torricelli's gossipy Italian neighborhood, which included that he was engaged in some form of sorcery or witchcraft, Torricelli realized he had to keep his experiment secret to avoid the risk of being arrested. He needed to use a liquid that was heavier than water, and from his previous association and suggestions by Galileo, he deduced that by using mercury, a shorter tube could be used.\n[…]\nWith mercury, which is about 14 times denser than water, a tube only 80 cm was now needed, not 10.5 m. Furthermore, Torricelli demonstrated that atmospheric pressure could support a column of mercury approximately 30 inches high."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Evangelista_Torricelli",
+        "situacao": "ok",
+        "texto": "Evangelista Torricelli (pronúncia em italiano: AFI:  Faenza, 15 de outubro de 1608 — Florença, 25 de outubro de 1647) foi um físico e matemático italiano, mais conhecido pela invenção do barômetro, por descobertas na área de óptica e pela equação de Torricelli.\n[…]\nDepois da morte de Galileu, em 8 de janeiro de 1642, o Grão-duque Ferdinando II de Médici pediu a Torricelli para suceder a Galileu como o matemático grão-ducal e catedrático de matemática na Universidade de Pisa. Pouco antes da nomeação, Torricelli pensava em voltar a Roma porque não havia mais nada para ele em Florença, onde havia inventado o barômetro. A descoberta deste princípio, que perpetuou a sua fama (\"tubo de Torricelli\", \"vácuo de Torricelli\"), aconteceu em 1643.\n[…]\nEste trabalho inicial deve muito ao estudo dos clássicos.\" Sessenta e oito anos após a morte de Torricelli, seu gênio ainda enchia seus contemporâneos de admiração, como evidenciado pelo anagrama abaixo do frontispício de Lezioni Accademiche d'Evangelista Torricelli publicado em 1715: En virescit galileus alter, que significa \"Aqui floresce outro Galileu\".\n[…]\nEntão, em 1643, Torricelli criou um tubo de aproximadamente um metro, selado no topo, preenchido com mercúrio e colocado verticalmente numa base com mercúrio. A coluna de mercúrio é de aproximadamente 76 cm, deixando um vácuo torricelliano acima. Como sabemos agora, a altura da coluna oscila com a pressão atmosférica no mesmo local, fato que desempenha um papel fundamental na previsão do tempo.\n[…]\nEquação de Torricelli\n[…]\nO'Connor, John J.; Robertson, Edmund F., «Evangelista Torricelli», MacTutor History of Mathematics archive (em inglês), Universidade de St. Andrews\n[…]\n«Vida e obra de Evangelista Torricelli». pela Faculdade de Engenharia Mecânica da Unicamp",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Termômetro de mercúrio",
+      "descricao": "Termômetro de vidro com mercúrio, criado em 1714, que se tornou o modelo padrão por quase três séculos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, criou uma escala de temperatura?",
+    "resposta": "Daniel Gabriel Fahrenheit",
+    "distratores": [
+      "Anders Celsius",
+      "René Réaumur",
+      "Lorde Kelvin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+      "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+        "situacao": "ok",
+        "texto": "The mercury-in-glass or mercury thermometer is a thermometer that uses the thermal expansion and contraction of liquid mercury to indicate the temperature.\n[…]\nIn 1659, the astronomer Ismael Boulliau abandoned using mercury when he determined that it was not as responsive to changes in temperature as spirits.\n[…]\nIn 1713, Daniel Gabriel Fahrenheit began experimenting with mercury thermometers. By 1717, he was making them commercially. The superiority of his mercury thermometers over alcohol-based thermometers made them very popular, leading to the widespread adoption of his Fahrenheit scale, the measurement system he developed and used for his thermometers.\n[…]\nUntil the discovery of true thermodynamic temperature, the mercury thermometer usually defined the temperature.\n[…]\nOne special kind of mercury-in-glass thermometer, called a maximum thermometer, works by having a constriction in the neck close to the bulb. As the temperature rises, the mercury is pushed up through the constriction by the force of expansion. When the temperature falls, the column of mercury breaks at the constriction and cannot return to the bulb, thus remaining stationary in the tube. The observer can then read the maximum temperature over the set period of time.\n[…]\nTo measure lower meteorological temperatures, a thermometer containing a mercury-thallium alloy which does not solidify until the temperature drops to −61.1 °C (−78.0 °F) may be used.\n[…]\nDespite the phasing-out of mercury thermometers in the United Kingdom, British media continues to refer to temperature measurements, especially for weather forecasts, as \"the mercury\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+        "situacao": "ok",
+        "texto": "Daniel Gabriel Fahrenheit FRS (24 May 1686 – 16 September 1736) was a physicist, inventor, and scientific instrument maker. He was born in Poland to a family of German origin, although he spent much of his life in the Dutch Republic. Fahrenheit significantly improved the design and manufacture of thermometers; his were accurate and consistent enough that different observers, each with their own Fa\n[…]\nFahrenheit was born in Danzig (Gdańsk), then in the Polish–Lithuanian Commonwealth. The Fahrenheits were a German Hanse merchant family who had lived in several Hanseatic cities. Fahrenheit's great-grandfather had lived in Rostock, and research suggests that the Fahrenheit family originated in Hildesheim. Daniel's grandfather Reinhold Fahrenheit moved from Kneiphof in Königsberg (then in the Duchy of Prussia) to Danzig and settled there as a merchant in 1650.\n[…]\nHis son, Daniel Fahrenheit (the father of Daniel Gabriel), married Concordia Schumann, the daughter of a well-known Danzig business family. Daniel was the eldest of the five Fahrenheit children (two sons, three daughters) who survived childhood. His sister, Virginia Elisabeth Fahrenheit, married Benjamin Krüger and was the mother of Benjamin Ephraim Krüger, a clergyman and playwright.\n[…]\nFahrenheit came up with the idea that mercury boils around 300 degrees on this temperature scale. Work by others showed that water boils about 180 degrees above its freezing point. The Fahrenheit scale later was redefined to make the freezing-to-boiling interval exactly 180 degrees, a convenient value as 180 is a highly composite number, meaning that it is evenly divisible into many fractions.\n[…]\nSoulen Jr, R. J. \"A brief history of the development of temperature scales: the contributions of Fahrenheit and Kelvin.\" Superconductor Science and Technology 4.11 (1991): 696-699.\n[…]\nFahrenheit's papers in the Royal Society Publishing (in Latin)"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Kevlar",
+      "descricao": "Fibra sintética de altíssima resistência, criada em 1965, usada em coletes à prova de bala."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1965, que química americana criou o kevlar, fibra superresistente usada em coletes à prova de bala?",
+    "resposta": "Stephanie Kwolek",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stephanie_Kwolek",
+      "https://en.wikipedia.org/wiki/Kevlar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stephanie_Kwolek",
+        "situacao": "ok",
+        "texto": "Stephanie Louise Kwolek (; July 31, 1923 – June 18, 2014) was a Polish-American chemist known for inventing Kevlar (poly-paraphenylene terephthalamide). Her career at the DuPont company spanned more than 40 years.\n[…]\nKwolek is featured as one of the Royal Society of Chemistry's 175 Faces of Chemistry.\n[…]\nEdwin Brit Wyckoff (April 2008), Stopping Bullets with a Thread; Stephanie Kwolek and Her Incredible Invention, Enslow Elementary, ISBN 9780766028500, OCLC 74029319, OL 10937083M, 076602850X\n[…]\nBusch-Vishniac, Ilene; Busch, Lauren; Tietjen, Jill (2024). \"Chapter 26. Stephanie Kwolek\". Women in the National Inventors Hall of Fame: The First 50 Years. Springer Nature. ISBN 9783031755255.\n[…]\nMedia related to Stephanie Kwolek at Wikimedia Commons\n[…]\nStephanie Kwolek at Famous Women Inventors\n[…]\n\"Women in Chemistry – Stephanie Kwolek (Video)\". Science History Institute.\n[…]\nFerguson, Raymond C. (May 4, 1986). Stephanie Louise Kwolek, Transcript of an Interview Conducted by Raymond C. Ferguson in Sharpley, Delaware on 4 May 1986 (PDF). Philadelphia: Beckman Center for the History of Chemistry.\n[…]\nBensaude-Vincent, Bernadette (March 21, 1998). Stephanie L. Kwolek, Transcript of an Interview Conducted by Bernadette Bensaude-Vincent at Wilmington, Delaware on 21 March 1998 (PDF). Philadelphia: Chemical Heritage Foundation.\n[…]\nOral history interview with Stephanie L. Kwolek (1986) from Science History Institute Digital Collections\n[…]\nOral history interview with Stephanie L. Kwolek (1998) from Science History Institute Digital Collections\n[…]\nStephanie L. Kwolek papers at Hagley Museum and Library\n[…]\nStephanie Kwolek photographs and videotapes at Hagley Museum and Library\n[…]\nStephanie Kwolek photographs at Hagley Museum and Library"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kevlar",
+        "situacao": "ok",
+        "texto": "Kevlar (para-aramid) is a strong, heat-resistant synthetic fiber, related to other aramids such as Nomex and Technora. Developed by Stephanie Kwolek at DuPont in 1965, the high-strength material was first used commercially in the early 1970s as a replacement for steel in racing tires. It is typically spun into ropes or fabric sheets that can be used as such, or as an ingredient in composite materi\n[…]\nPoly-paraphenylene terephthalamide (K29) was invented by the American chemist Stephanie Kwolek while working for DuPont, in anticipation of a gasoline shortage. In 1964, her group began searching for a new lightweight strong fiber to use for light, but strong, tires. The polymers she had been working with, poly-p-phenylene-terephthalate and polybenzamide, formed liquid crystals in solution, unlike other polymers at the time.\n[…]\nThe solution was \"cloudy, opalescent upon being stirred, and of low viscosity\" and usually was thrown away. However, Kwolek persuaded the technician, Charles Smullen, who ran the spinneret, to test her solution, and was amazed to find that the fiber did not break, unlike nylon. Her supervisor and her laboratory director understood the significance of her discovery and a new field of polymer chemistry quickly arose. By 1971, modern Kevlar was introduced.\n[…]\nHowever, Kwolek was not very involved in developing the applications of Kevlar.\n[…]\nKevlar KM2 – enhanced ballistic resistance for armor applications\n[…]\nThe chopped fiber has been used as a replacement for asbestos in brake pads. Aramids such as Kevlar release less airborne fibres than asbestos brakes and do not have the carcinogenic properties associated with asbestos.\n[…]\nKevlar is sometimes used as a substitute for Teflon in some non-stick frying pans.\n[…]\nAramids\n[…]\nMatweb material properties of Kevlar\n[…]\nKevlar Archived 2016-03-03 at the Wayback Machine\n[…]\nKevlar in body armor\n[…]\nSynthesis of Kevlar\n[…]\nKevlar at Plastics Wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stephanie_Kwolek",
+        "situacao": "ok",
+        "texto": "Stephanie Louise Kwolek (New Kensington, 31 de julho de 1923 — 18 de junho de 2014) foi uma química polaco-estadunidense, inventora do p-fenilenodiamina com cloreto de tereftaloila, mais conhecida como Kevlar, uma fibra de alta resistência mecânica, de cor dourada, que pode atingir mais de cinco vezes a resistência do aço. Atualmente o Kevlar é empregado na fabricação de coletes balísticos e equip\n[…]\nInicialmente, Stephanie não pretendia ficar muito tempo na DuPont. Mas ela achou o trabalho interessante e preferiu continuar ao invés de tentar carreira na medicina. Depois de 9 anos na empresa, ela criou o Kevlar. Em 1959 ganhou o primeiro de muitos prêmios, por sua publicação na American Chemical Society (ACS). O artigo demonstrava uma maneira de se produzir nylon em um béquer em temperatura ambiente, que ainda é a base para muitos experimentos escolares.\n[…]\nEsse tipo de solução, normalmente, era jogada fora, mas Stephanie persuadiu seu técnico, Charles Smullen, a passar a substância por um spinneret (espécie de fiandeira) para testar a solução. Ela ficou maravilhada de descobrir que a nova fibra não se quebrava, como normalmente o nylon faria. Não apenas era mais forte que o nylon como também era cinco vezes mais forte que o aço. O diretor do laboratório logo percebeu o significado da descoberta e a área de química de polímeros logo se consolidou.\n[…]\nEm 1971, o Kevlar foi introduzido no mercado. As fibras de Kevlar, segundo experimentos de Stephanie, ficavam ainda mais fortes depois de aquecidas.\n[…]\nEm 1986, Stephanie Kwolek se aposentou como pesquisadora da DuPont. Foi consultora da empresa, do National Research Council e da National Academy of Sciences. Em mais de 40 anos de pesquisa teve entre 17 e 28 patentes.\n[…]\nStephanie morreu aos 90 anos, em 14 de junho de 2014.\n[…]\nStephanie Kwolek bei Famous Women Inventors\n[…]\nFoto von Stephanie Kwolek\n[…]\nMeet Stephanie Kwolek",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Água com gás",
+      "descricao": "Água com gás carbônico dissolvido, produzida artificialmente desde o século dezoito."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1767, que químico inglês, também famoso pelos estudos do oxigênio, criou um método para fazer água com gás?",
+    "resposta": "Joseph Priestley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carbonated_water",
+      "https://en.wikipedia.org/wiki/Joseph_Priestley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carbonated_water",
+        "situacao": "ok",
+        "texto": "Carbonated water is water containing dissolved carbon dioxide gas, either artificially injected under pressure, or occurring due to natural geological processes. Carbonation causes small bubbles to form, giving the water an effervescent quality. Common forms include sparkling natural mineral water, club soda, and commercially produced sparkling water.\n[…]\nIt is thought that the first person to aerate water with carbon dioxide was William Brownrigg in the 1740s. Joseph Priestley invented carbonated water, independently and by accident, in 1767 when he discovered a method of infusing water with carbon dioxide after having suspended a bowl of water above a beer vat at a brewery in Leeds, Yorkshire. He wrote of the \"peculiar satisfaction\" he found in drinking it, and in 1772 he published a paper entitled Impregnating Water with Fixed Air.\n[…]\nIn 1764, Irish chemist Dr. Macbride infused water with carbon dioxide as part of a series of experiments on fermentation and putrefaction. In 1766 Henry Cavendish devised an aerating apparatus that would inspire Joseph Priestley to carry out his own experiments with regard to carbonated waters. Cavendish was also aware of Brownrigg's observations at this time and published a paper on his own experiments on a nearby source of mineral water at the beginning of January in the next year.\n[…]\nHenry replaced the bladder in Priestley's system with large bellows. J. J. Schweppe developed a process to manufacture bottled carbonated mineral water based on the discovery of Priestley, founding the Schweppes Company in Geneva in 1783. Schweppes regarded Priestley as \"the father of our industry\". In 1792, Schweppe moved to London to develop the business there. In 1799 Augustine Thwaites founded Thwaites' Soda Water in Dublin.\n[…]\nPriestley's paper Impregnating Water with Fixed Air 1772 (archived) hosted on truetex.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
+        "situacao": "ok",
+        "texto": "Joseph Priestley (; 24 March 1733 – 6 February 1804) was an English chemist, Unitarian, natural philosopher, separatist theologian, grammarian, multi-subject educator and classical liberal political theorist. He published over 150 works, and conducted experiments in several areas of science.\n[…]\nPerhaps prompted by Mary Priestley's ill health, or financial problems, or a desire to prove himself to the community that had rejected him in his childhood, Priestley moved with his family from Warrington to Leeds in 1767, and he became Mill Hill Chapel's minister. Two sons were born to the Priestleys in Leeds: Joseph, Junior,  on 24 July 1768 and William three years later.\n[…]\nPapers of Joseph Priestley are held at the Cadbury Research Library, University of Birmingham.\n[…]\nFieser, James; Dowden, Bradley (eds.). \"Joseph Priestley\". Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658.\n[…]\nThe Joseph Priestley Society\n[…]\nJoseph Priestley Online Archived 13 July 2011 at the Wayback Machine: Comprehensive site with bibliography, links to related sites, images, information on manuscript collections, and other helpful information.\n[…]\nWorks by Joseph Priestley at Project Gutenberg\n[…]\nWorks by or about Joseph Priestley at the Internet Archive\n[…]\nWorks by Joseph Priestley at LibriVox (public domain audiobooks)\n[…]\n\"Joseph Priestley: Discoverer of Oxygen\" at the American Chemical Society\n[…]\nJoseph Priestley at the Woodrow Wilson National Fellowship Foundation\n[…]\nJoseph Priestley from the Encyclopædia Britannica\n[…]\nChisholm, Hugh, ed. (1911). \"Priestley, Joseph\" . Encyclopædia Britannica (11th ed.). Cambridge University Press.\n[…]\n\"Priestley, Joseph\" . Dictionary of National Biography. London: Smith, Elder & Co. 1885–1900.\n[…]\nPoliakoff, Martyn. \"Joseph Priestley\". The Periodic Table of Videos. University of Nottingham."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81gua_gaseificada",
+        "situacao": "ok",
+        "texto": "Água gaseificada (ou água com gás) é água que contém dióxido de carbono (CO2) dissolvido, que é injetado artificialmente sob pressão ou decorrente de processos geológicos naturais. A carbonação causa a formação de pequenas bolhas, o que confere à água a qualidade de efervescente.\n[…]\nEmbora a água gaseificada seja algo ácida, esta acidez pode ser parcialmente neutralizada pela saliva.\n[…]\nA história da água com gás parte da co-descoberta do oxigênio. Joseph Priestley, nascido na Inglaterra do século XVIII, foi o primeiro químico a provar que o oxigênio era essencial para a combustão e junto com o sueco Carl Scheele é creditado com a descoberta do oxigênio isolando o oxigênio em seu estado gasoso. Priestley chamou o gás de \"ar deflogisticado\", mais tarde renomeado como oxigênio por Antoine Lavoisier.\n[…]\nJoseph Priestley também descobriu quatro outras fases de gases, a do ácido clorídrico, óxido nitroso (gás hilariante), monóxido de carbono e dióxido de enxofre.\n[…]\nEm 1767, o próprio Joseph Priestley inventou o primeiro copo de água com gás. Vendo sua invenção, criou o artigo \"Directions for Impregnating Water with Fixed Air\", que explicava como fazer água gaseificada.\n[…]\nEntão, outras pessoas começaram a fazer história com base nas invenções de Priestley. Um deles foi Jacob Schweppes, um joalheiro alemão e cientista amador, que desenvolveu um método para produzir água gaseificada em escala comercial, e fundou uma empresa em Genebra. Ele mudou-se ao Reino Unido e a primeira fábrica da então formada empresa \"J. Schweppe & Co\" inaugurou no ano de 1792, em Londres, produzindo assim, em larga escala, o refrigerante Schweppes Soda.\n[…]\nA água carbonada é um diluente misturado também com bebidas alcoólicas, sendo usada para completar a bebida e fornecer gás.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Limpador de para-brisa",
+      "descricao": "Dispositivo com palhetas que remove chuva e neve do para-brisa dos veículos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Depois de uma viagem de bonde sob neve em Nova York, que americana patenteou, em 1903, o limpador de para-brisa?",
+    "resposta": "Mary Anderson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mary_Anderson_(inventor)",
+      "https://en.wikipedia.org/wiki/Windscreen_wiper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mary_Anderson_(inventor)",
+        "situacao": "ok",
+        "texto": "Mary Elizabeth Anderson (February 19, 1866 – June 27, 1953) was an American inventor and entrepreneur credited with inventing the first operational windshield wiper. She was born in Greene County, Alabama, and later became known as a real-estate developer in Birmingham as well as the operator of a cattle ranch and vineyard in California. In her 1903 U.S.\n[…]\nMary Anderson was born on February 19, 1866, at Burton Hill Plantation in Greene County, Alabama, to John C. and Rebecca Anderson. She was one of at least two daughters and remained close throughout her life to her sister Fannie. Her father died in 1870, and accounts note that the family was able to live on the proceeds of his estate, which provided financial stability during her childhood.\n[…]\nMary Anderson changed all of that with her invention of the windshield wiper, an idea that leapt into her mind as she traveled from Alabama to New York City.\n[…]\nShe then applied for, and in 1903 was granted, a 17-year patent for a windshield wiper. The patent application was filed on June 18, 1903. On November 10, 1903, the United States Patent Office awarded Anderson patent number 743,801 for her Window Cleaning device.\n[…]\nThe driver could pull a lever to sweep the blade across the glass, clearing precipitation without stopping the vehicle. Anderson filed for a U.S. patent for her “WINDOW CLEANING DEVICE,” which was granted on November 10, 1903. Her patent described a spring, replaceable wiper blade, and counterweight mechanism to ensure smooth movement. However, she was not successful in selling the device. She filed her patent before Henry Ford even started to manufacture cars.\n[…]\nBusch-Vishniac, Ilene; Busch, Lauren; Tietjen, Jill (2024). \"Chapter 8. Mary Anderson\". Women in the National Inventors Hall of Fame: The First 50 Years. Springer Nature. ISBN 9783031755255."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Windscreen_wiper",
+        "situacao": "ok",
+        "texto": "A windscreen wiper (Commonwealth English) or windshield wiper (American English) is a device used to remove rain, snow, ice, washer fluid, water, or other debris from a vehicle's front window. Almost all motor vehicles, including cars, trucks, buses, train locomotives, and watercraft with a cabin—and some aircraft—are equipped with one or more such wipers, which are usually a legal requirement.\n[…]\nOther early designs for the windscreen wiper are credited to Polish concert pianist Józef Hofmann, and to Mills Munitions, Birmingham, who also claimed to have been the first to patent windscreen wipers in England.\n[…]\nAt least three inventors patented windscreen cleaning devices at around the same time in 1903; Mary Anderson, Robert Douglass, and John Apjohn. In April 1911, a patent for windscreen wipers was registered by Sloan & Lloyd Barnes, patent agents of Liverpool, England, for Gladstone Adams of Whitley Bay.\n[…]\nAmerican inventor Mary Anderson is popularly credited with devising the first operational windscreen wiper in 1903. In Anderson's patent, she called her invention a \"window cleaning device\" for electric cars and other vehicles. Operated via a lever from inside a vehicle, her version of windscreen wipers closely resembles the windscreen wiper found on many early car models.\n[…]\nAnderson had a model of her design manufactured, then filed a patent (US 743,801) on June 18, 1903 that was issued to her by the US Patent Office on November 10, 1903.\n[…]\nMost early wipers used a rubber blade attached to a flat metal base. But as aerodynamic and styling concerns introduced curved windshields, these proved insufficient. In 1945, John W. Anderson, founder of Trico rival Anco, filed a patent for a wiper with branched arms to keep the blade pressed uniformly against both curved and flat glass, adaptable to almost any windscreen curvature.\n[…]\nWorks similar to Fig. 6, but uses only one wiper."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mary_Anderson_%28inventora%29",
+        "situacao": "ok",
+        "texto": "Mary Anderson (Condado de Greene, Alabama, 19 de fevereiro de 1866 — Monteagle, 27 de junho de 1953) foi uma empresária da construção civil, fazendeira, viticulturista e inventora do limpador de para-brisa.\n[…]\nFilha de John C. Anderson e de Rebecca Anderson. Em novembro de 1903 Anderson conquistou a primeira patente para um sistema automatizado de para-brisa controlado pelo lado interno do veículo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Instituto Butantan",
+      "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que médico mineiro, pioneiro dos soros contra picada de cobra, foi o primeiro diretor do Instituto Butantan, em São Paulo?",
+    "resposta": "Vital Brazil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vital_Brazil",
+      "https://en.wikipedia.org/wiki/Butantan_Institute"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vital_Brazil",
+        "situacao": "ok",
+        "texto": "Vital Brazil Mineiro da Campanha (April 28, 1865 – May 8, 1950), was a Brazilian physician, biomedical scientist and immunologist, known for the discovery of the polyvalent anti-ophidic serum used to treat bites of venomous snakes of the Crotalus,  Bothrops and Elaps genera. He went on to be also the first to develop anti-scorpion and anti-spider serums.\n[…]\nDue to his outstanding work, the government of São Paulo founded a new Serum Therapy Institute in 1901 and gave its directorship to Vital Brazil. He also founded the Institute of Hygiene, Serum Therapy and Veterinary Medicine in the city of Niterói, in 1919, which is called today Vital Brazil Institute (Instituto Vital Brazil).\n[…]\nVital Brazil carried out scientific travels to Europe in 1904 and 1914 and to 1925 to the United States. He continued working at the Butantan Institute for several decades until his retirement in 1919. He died on May 8, 1950, celebrated as one of the most important Brazilian scientists ever.\n[…]\nThe new São Paulo Institute was built in a section of the city named Butantan, at the time a far-away place, near the Pinheiros river, a swampy, sparsely inhabited area. Under Vital Brazil, it soon became an energetic and exemplary research center in vaccines and sera of all kinds, which were produced locally for the prophylaxis and treatment of tetanus, diphtheria, yellow fever, smallpox and several zoonoses (diseases transmitted to humans by animals), such as the dreaded hydrophobia.\n[…]\nVital Brazil was convinced since his early work at Butantan that envenomations (poisoning by accidents with venomous animals, such as snakes, scorpions, spiders and batrachia, then the cause of thousands of deaths in Brazil) could be fought with antisera, i.e., antibodies specifically produced for venoms which were proteins or long-chain peptides.\n[…]\nInstituto Vital Brazil Website."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Butantan_Institute",
+        "situacao": "ok",
+        "texto": "The Instituto Butantan (pronounced [ĩstʃiˈtutu butɐ̃ˈtɐ̃]) is a Brazilian biologic research center located in Butantã, in the western part of the city of São Paulo, Brazil. Instituto Butantan is a public institution affiliated with the São Paulo State Secretariat of Health and considered one of the major scientific centers in the world. Butantan is the largest immunobiologicals and biopharmaceutic\n[…]\nThe Instituto Butantan was founded by the Brazilian physician and biomedical scientist Vital Brazil on 23 February 1901, according to the Pasteur Institute paradigm, i.e., by combining in the same institution medical research, the transfer of the results to society as health products, and self-financing through this latter activity. Its foundation was a reaction to the outbreak of bubonic plague in the city of Santos.\n[…]\nVital Brazil and his coworkers). Among the distinguished scientists at the institute were biochemists Karl Slotta and Heinz Fraenkel-Conrat, pioneers in the study of progesterone, estriol, and medical use of venom, from 1935 to 1948.\n[…]\nThe name of the institute comes from \"Butantã\", a district in the west zone of São Paulo. \"Butantã\" itself is a Tupi word meaning \"crushed soil\".\n[…]\nThe Instituto Butantan also operate the \"Hospital Vital Brazil\", a specialist hospital that offers free treatment for poisonous animal stings and bites. The institute also accepts donations of serpents, arthropods and other animals captured by the public and by a network of collaborating centers and individuals.\n[…]\nImportant Brazilian scientists who have worked in the Butantan Institute are: Vital Brazil, Afrânio Pompílio Gastos do Amaral, Isaias Raw, Samuel Pessoa, Willy Beçak. The Institute has strong collaborative ties with the Pasteur Institute, Paris, France, and with the Oswaldo Cruz Foundation, Rio de Janeiro.\n[…]\nScience and Technology in Brazil\n[…]\nNational Museum of Brazil fire"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vital_Brazil",
+        "situacao": "ok",
+        "texto": "Vital Brazil Mineiro da Campanha (Campanha, 28 de abril de 1865 – Rio de Janeiro, 8 de maio de 1950) foi um médico cientista, filantropo, imunologista e pesquisador biomédico brasileiro de renome internacional.\n[…]\nAs picadas de aranhas venenosas, escorpião e lacraias deram origem a novos soros. Frequentou por longo tempo o Instituto Pasteur. Também é o fundador do Instituto Vital Brazil, em Niterói.\n[…]\nVital Brazil foi o criador do Instituto Butantan, em São Paulo, que foi instalado em uma fazenda antiga e distante da cidade, comprada pelo governo do estado de São Paulo para que lá funcionasse um laboratório para a produção de vacinas.\n[…]\nHospital em São Paulo – Fundado no final de 1945 e referência nacional no atendimento a vítimas de acidentes com animais peçonhentos, o Hospital Vital Brazil funciona no Instituto Butantan, em São Paulo;\n[…]\nMuseu Histórico – O Instituto Butantan reproduz no seu Museu Histórico o laboratório em que trabalhava Vital Brazil, fundador do instituto. O museu foi inaugurado em 11 de junho de 1981.\n[…]\nA Casa da Moeda do Brasil expediu uma cédula no valor de Cr$ 10 000,00 (dez mil cruzeiros) cujo anverso era a efígie do cientista Vital Brazil, tendo a esquerda, gravura que representa cena clássica de extração do veneno, tarefa básica para a produção de soros, e o reverso um painel calcográfico mostrando um antigo serpentário, com destaque para a cena de cobra muçurana devorando uma jararaca;\n[…]\nInstituto Vital Brazil\n[…]\nHoussay, Bernardo A. \"Transcendence of Vital Brazil´s Work\". Memórias do Instituto Butantan. 33(1966)xiii-xvi.\n[…]\nBrazil, Lael Vital \"Vital Brazil Mineiro da Campanha – uma genealogia brasileira\".\n[…]\nInstituto Vital Brazil\n[…]\nVital Brazil\n[…]\nMuseu Vital Brazil, Campanha MG",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Heliocentrismo",
+      "descricao": "Modelo astronômico em que a Terra e os planetas giram em torno do Sol."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século três antes de Cristo, quase dois mil anos antes de Copérnico, que astrônomo grego propôs que a Terra gira em torno do Sol?",
+    "resposta": "Aristarco de Samos",
+    "distratores": [
+      "Hiparco de Niceia",
+      "Cláudio Ptolomeu",
+      "Tales de Mileto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aristarchus_of_Samos",
+      "https://en.wikipedia.org/wiki/Heliocentrism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aristarchus_of_Samos",
+        "situacao": "ok",
+        "texto": "Aristarchus of Samos (; Ancient Greek: Ἀρίσταρχος ὁ Σάμιος, Aristarkhos ho Samios; c. 310 – c. 230 BC) was  an ancient Greek astronomer and mathematician who presented the first known heliocentric model that placed the Sun at the center of the universe, with the Earth revolving around the Sun once a year and rotating about its axis once a day. He also supported the theory of Anaxagoras that the Su\n[…]\nLike Anaxagoras before him, Aristarchus suspected that the stars were just other bodies like the Sun, albeit farther away from Earth. His astronomical ideas were often rejected in favor of the geocentric theories of Aristotle and Ptolemy. Nicolaus Copernicus knew that Aristarchus had a 'moving Earth' theory, although it is unlikely that Copernicus was aware that it was a heliocentric theory.\n[…]\nHeath, Sir Thomas (1913). Aristarchus of Samos, the ancient Copernicus; a history of Greek astronomy to Aristarchus, together with Aristarchus's Treatise on the sizes and distances of the sun and moon : a new Greek text with translation and notes. London: Oxford University Press.\n[…]\nCarman, Christián C.; Buzón, Rodolfo P. (26 May 2023). Aristarchus of Samos: On the Sizes and Distances of the Sun and Moon: Greek Text, Translation, Analysis, and Relevant Scholia. Taylor & Francis. ISBN 978-1-000-86986-6.\n[…]\nStahl, William (1970). \"Aristarchus of Samos\". Dictionary of Scientific Biography. Vol. 1. New York: Charles Scribner's Sons. pp. 246–250. ISBN 0-684-10114-9.\n[…]\nAristarchus of Samos, The Ancient Copernicus (https://archive.org/details/aristarchusofsam00heatuoft\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Aristarchus of Samos\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nOnline Galleries, History of Science Collections, University of Oklahoma Libraries Archived 2012-05-15 at the Wayback Machine High resolution images of works by Aristarchus of Samos in .jpg and .tiff format."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Heliocentrism",
+        "situacao": "ok",
+        "texto": "Heliocentrism (also known as the heliocentric model) is a superseded astronomical model that placed the Sun at the center of the universe, with the Earth and the planets in its orbit. It superseded geocentrism, which placed the Earth at the center of the universe. In modern astronomy, heliocentrism has been superseded by models based on relativity, in which the universe does not have an absolute c\n[…]\nHistorically, heliocentrism was opposed to geocentrism, which placed Earth at the center. The idea that Earth revolves around the Sun was proposed as early as the 3rd century BC by Aristarchus of Samos, who had been influenced by Philolaus's 5th-century BC concept that Earth was spherical and revolving around a \"mystical\" central fire that regulated the universe.\n[…]\nIn medieval Europe, however, Aristarchus's heliocentrism attracted little attention—possibly because of the loss of scientific works of the Hellenistic period.\n[…]\nWhile a moving Earth was proposed at least from the 4th century BCE in Pythagoreanism, and a fully developed heliocentric model was developed by Aristarchus of Samos in the 3rd century BCE, these ideas were not successful in replacing the view of a stationary spherical Earth, and from the 2nd century CE the predominant model, which would be inherited by medieval astronomy, was the geocentric model described in Ptolemy's Almagest.\n[…]\nThe first person known to have proposed a heliocentric system was Aristarchus of Samos (c. 270 BCE). Like his contemporary Eratosthenes, Aristarchus calculated the size of Earth and measured the sizes and distances of the Sun and Moon. From his estimates, he concluded that the Sun was six to seven times wider than Earth, and thought that the larger object would have the most attractive force.\n[…]\nCopernican principle\n[…]\nCopernican Revolution (metaphor)\n[…]\nThe Heliocentric Pantheon: An Interview with Walter Murch"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aristarco_de_Samos",
+        "situacao": "ok",
+        "texto": "Aristarco de Samos (em grego: Αρίσταρχος ο Σάμιος; 310 a.C. — 230 a.C.) foi um astrônomo e matemático grego, sendo o primeiro cientista a propor que a Terra gira em torno do Sol (sistema heliocêntrico), sendo pelo sol uma rotação completa ao ano e em torno de seu eixo uma ao dia. Influenciado pelo conceito apresentado pelo filósofo pré-socrático Filolau de Crotona (c.\n[…]\nAssim como o filósofo grego pré-socrático Anaxágoras antes dele, Aristarco suspeitou que as estrelas eram apenas outros corpos como o Sol, embora mais distantes da Terra. Frequentemente, suas ideias astronômicas eram rejeitadas em favor das teorias geocêntricas de Aristóteles e Ptolomeu.\n[…]\nNo entanto, Nicolaus Copernicus sabia da possibilidade de que Aristarcos tivesse uma teoria da 'Terra em movimento', embora seja improvável que Copernicus soubesse que se tratava de uma teoria heliocêntrica (sol no centro).\n[…]\nA cratera lunar \"Aristarchus\", o planeta menor \"3999 Aristarchus\" e o telescópio \"Aristarchos\" foram nomeados em sua homenagem.\n[…]\nAristarco concluiu que o Sol estaria 20 vezes mais distante da Terra do que a Lua e, embora o valor correto seja de cerca de 400 vezes, o seu procedimento estava correto.\n[…]\nPlutarco, um historiador e filósofo grego médio platônico, menciona a evolução da medida do tamanho da Lua: segundo os egípcios, a Lua seria 1/72 menor que a Terra; segundo Anaxágoras, ela teria o tamanho da península do Peloponeso; mas segundo Aristarco, seu tamanho seria entre 19/60 e 43/108 do tamanho da Terra (usando o diâmetro conhecido da Terra, este intervalo corresponde de 4 039 à 5 079 km; um pouco maior que o valor real de 3 475 km).\n[…]\nOutra medida de Aristarco é de 18 a 20 vezes a razão entre a distância Terra - Sol para a distância Terra - Lua (a razão correta é cerca de 400).\n[…]\nHistória da astronomia\n[…]\n«Aristarco de Samos: Sobre os tamanhos e as distâncias do Sol e da Lua»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Daguerreótipo",
+      "descricao": "Processo fotográfico criado pelo francês Louis Daguerre, que produzia imagens únicas sobre placas de cobre prateadas."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O daguerreótipo, primeiro processo fotográfico oferecido ao público, foi apresentado na França em que ano?",
+    "resposta": "1839",
+    "distratores": [
+      "1826",
+      "1851",
+      "1868"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daguerreotype"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Daguerreotype",
+        "situacao": "ok",
+        "texto": "Daguerreotype was the second publicly available photographic process, widely used from the 1830s to 1850s. \"Daguerreotype\" also refers to an image created through this process.\n[…]\nthe physical sciences have perhaps never presented a marvel comparable to this one.A further clue to fixing the date of invention of the process is that when the Paris correspondent of the London periodical The Athenaeum reported the public announcement of the daguerreotype in 1839, he mentioned that the daguerreotypes now being produced were of considerably better quality than the ones he had seen \"four years earlier\".\n[…]\nThe phrase the birth of photography has been used by different authors to mean different things — either the publicizing of the process (in 1839) as a metaphor to indicate that previous to that the daguerreotype process had been kept secret; or, the date the first photograph was taken by or with a camera (using the asphalt process or heliography), thought to have been 1822, but Eder's research indicates that the date was more probably 1826 or later.\n[…]\nDaguerre did not patent and profit from his invention in the usual way. Instead, it was arranged that the French government would acquire the rights in exchange for lifetime pensions to Daguerre and to Niépce's son and heir, Isidore. The government would then present the daguerreotype process \"free to the world\" as a gift, which it did on 19 August 1839. However, five days previous to this, Miles Berry, a patent agent acting on Daguerre's behalf filed for patent No.\n[…]\nDaniel, Malcolm (October 2004). \"The Daguerreian Age in France: 1839–1855\". metmuseum.org.\n[…]\nDaguerreotype Plate Sizes\n[…]\nOriginal Giroux Daguerréotype Camera"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Daguerre%C3%B3tipo",
+        "situacao": "ok",
+        "texto": "O daguerreótipo (em francês:  daguerréotype) foi o primeiro processo fotográfico a ser anunciado e comercializado ao grande público. Foi divulgado em 1839, tendo sido substituído por processos mais práticos e baratos apenas no início da década de 1860. Consiste numa imagem fixada sobre uma placa de cobre, ou outro metal de custo reduzido, com um banho de prata (casquinha), formando uma superfície \n[…]\nEm 1837, conseguiu obter o seu primeiro sucesso - um daguerreótipo de uma natureza-morta.\n[…]\nO processo foi divulgado publicamente em 1839 na Academia Francesa de Ciências, e batizado de daguerreótipo. No mesmo ano, William Fox Talbot anunciou outro processo fotográfico, o calótipo.\n[…]\nEm 1 de Outubro de 1839, semanas após a invenção do daguerreótipo ter sido divulgada ao público, a fragata Oriental-Hydrographe partiu de Nantes. Entre os passageiros do navio estava Louis Compte (ou Comte), que usava uma máquina daguerreótipo com o propósito de perpetuar as vistas mais notáveis dos lugares que visitasse.\n[…]\nDurante o mesmo mês de outubro de 1839, foram obtidas vistas daguerreotípicas em Lisboa, no Funchal e em Santa Cruz de Tenerife, escalas efetuadas pelo navio nos portos de Portugal e Espanha. Em Lisboa, fizeram uma primeira experiência com o daguerreótipo na presença da rainha Maria II de Portugal. Desde então, eles daguerreotiparam diariamente e, dado o longo tempo de exposição necessário para obter uma imagem, mais certamente nos portos por onde passaram do que a bordo da fragata.\n[…]\nAs placas de prata coloidal ainda hoje são usadas na fotografia astronômica, uma vez que oferecem maior precisão do que a gelatina, o filme e mesmo a fotografia digital. O daguerreótipo proporciona ainda maior estabilidade, já que, mesmo em placas de colódio, a imagem se \"move\" ao secar.\n[…]\nProcesso da prata coloidal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Laser",
+      "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O primeiro laser, construído pelo físico americano Theodore Maiman, funcionou em que década?",
+    "resposta": "Década de 1960",
+    "distratores": [
+      "Década de 1930",
+      "Década de 1940",
+      "Década de 1980"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laser",
+      "https://en.wikipedia.org/wiki/Theodore_Maiman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Laser",
+        "situacao": "ok",
+        "texto": "A laser is a device that emits light through a process of optical amplification based on the stimulated emission of electromagnetic radiation. The word laser originated as an acronym for light amplification by stimulated emission of radiation. The first laser was built in 1960 by Theodore Maiman at Hughes Research Laboratories, based on theoretical work by Charles H. Townes and Arthur Leonard Scha\n[…]\nGould's notes included possible applications for a laser, such as optical telecommunications, spectrometry, interferometry, radar, and nuclear fusion. He continued developing the idea and filed a patent application in April 1959. The United States Patent and Trademark Office (USPTO) denied his application, and awarded a patent to Bell Labs, in 1960. That provoked a twenty-eight-year legal fight over the rights to various laser technologies and applications.\n[…]\nOn May 16, 1960, Theodore H. Maiman operated the first functioning laser at Hughes Research Laboratories, Malibu, California, ahead of several research teams, including those of Townes, at Columbia University, Arthur L. Schawlow, at Bell Labs, and Gould, at the TRG (Technical Research Group) company. Maiman's functional laser used a flashlamp-pumped synthetic ruby crystal to produce red laser light at 694 nanometers wavelength.\n[…]\nEven the first laser was recognized as being potentially dangerous. Theodore Maiman characterized the first laser as having the power of one \"Gillette\", as it could burn through one Gillette razor blade. Today, it is accepted that even low-power lasers with only a few milliwatts of output power can be hazardous to human eyesight when the beam hits the eye directly or after reflection from a shiny surface.\n[…]\nBromberg, Joan Lisa (1991). The Laser in America, 1950–1970. MIT Press. ISBN 978-0-262-02318-4.\n[…]\nLaser Focus World (ISSN 0740-2511)\n[…]\nVirtual Museum of Laser History, from the touring exhibit by SPIE"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Theodore_Maiman",
+        "situacao": "ok",
+        "texto": "Theodore Harold Maiman (July 11, 1927 – May 5, 2007) was an American engineer and physicist who is widely credited with the invention of the laser. Maiman's laser led to the subsequent development of many other types of lasers. The laser was successfully fired on May 16, 1960. In a July 7, 1960, press conference in Manhattan, Maiman and his employer, Hughes Aircraft Company, announced the laser to\n[…]\nOn May 16, 1960, at Hughes' Malibu, California, laboratories, Maiman's solid-state pink ruby laser emitted mankind's first coherent light, with rays all the same wavelength and fully in phase. Maiman documented his invention in Nature on August 6, 1960, after two rejections by Samuel A. Goudsmit at Physical Review Letters, besides which he published other scholarly articles describing the science and technology underlying his laser.\n[…]\nRecognition for Maiman and his laser invention continued posthumously. In a 2007 obituary testimonial, maser co-inventor Charles H. Townes described Maiman's 1960 Nature article on his laser as \"probably more important per word than any of the papers published by Nature over the past century.\" The annual Theodore Maiman Student Paper Competition was established in 2008, endowed by major laser groups, and is administered by the OSA Foundation.\n[…]\nThe U.S. Congress passed a resolution celebrating the invention of the laser and citing Maiman. Also in 2010 Maiman's laser achievement was recognized as an IEEE Milestone, and the American Physical Society presented Hughes Research Laboratories with a plaque to commemorate the historic site of the world's first laser.\n[…]\nTheodore H. Maiman: Creator of the First Laser\n[…]\nSPIE, \"Lasers and Sources, Video: Theodore Maiman on the First Laser\"\n[…]\nSPIE, \"Lasers and Sources, Video: Maiman's First Laser Light Shines Again\"\n[…]\nCLEO, \"Video: The World's First Laser, Made by Ted Maiman on May 16, 1960\" on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Laser",
+        "situacao": "ok",
+        "texto": "Um laser, também grafado lêiser, é um dispositivo que emite luz por um processo de amplificação óptica baseado na emissão estimulada de radiação eletromagnética. A palavra laser surgiu como acrônimo da expressão inglesa light amplification by stimulated emission of radiation, \"amplificação da luz por emissão estimulada de radiação\". O primeiro laser funcional foi construído em 1960 por Theodore Ma\n[…]\nAs anotações de Gould incluíam aplicações em telecomunicações ópticas, espectroscopia, interferometria, radar e fusão nuclear. Ele apresentou um pedido de patente em abril de 1959. O Escritório de Patentes e Marcas dos Estados Unidos rejeitou o pedido e concedeu uma patente aos Bell Labs em 1960. A disputa por direitos sobre tecnologias laser durou décadas. Gould obteve em 1977 uma patente para amplificadores laser bombeados opticamente e venceu uma ação por violação de patente em 1987.\n[…]\nEm 16 de maio de 1960, Theodore H. Maiman operou o primeiro laser funcional no Hughes Research Laboratories, em Malibu, Califórnia. O aparelho usava um cristal sintético de rubi bombeado por uma lâmpada de flash e emitia luz vermelha de cerca de 694 nm em pulsos. Maiman chegou a esse resultado antes das equipes de Townes na Universidade Columbia, Schawlow nos Bell Labs e Gould na Technical Research Group.\n[…]\nArmas que lançavam raios de energia já faziam parte da ficção científica antes da construção do primeiro laser. Brinquedos e histórias associados a personagens como Buck Rogers e Flash Gordon apresentavam \"armas de raios\" décadas antes de 1960. Depois da invenção do laser, porém, o próprio termo passou rapidamente para a ficção e tornou-se uma designação recorrente para armas e dispositivos futuristas, muitas vezes sem relação estrita com o funcionamento de um laser real.\n[…]\nBromberg, Joan Lisa. The Laser in America, 1950–1970. MIT Press, 1991. ISBN 978-0-262-02318-4.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Sistema métrico",
+      "descricao": "Sistema decimal de medidas baseado no metro e no quilograma, criado na França no fim do século dezoito."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O metro e o quilograma foram criados na França em meio a que grande acontecimento histórico do fim do século dezoito?",
+    "resposta": "Revolução Francesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Metric_system",
+      "https://en.wikipedia.org/wiki/History_of_the_metric_system"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Metric_system",
+        "situacao": "ok",
+        "texto": "A system of measurement is a frame in which physical qualities (such as length, weight, temperature, etc.) can be quantified with numbers. Among many systems of measurement, the metric system refers to ones that standardise a set of base units and a nomenclature describing relatively large and small quantities using decimal-based multiplicative unit prefixes (such as kilo and milli).\n[…]\nThe decimalised system is based on the metre, which had been introduced in France in the 1790s. The historical development of these systems culminated in the definition of the International System of Units (SI) in the mid-20th century, under the oversight of an international standards body.\n[…]\nDuring the final days of France's Ancien régime (1775-1788) and the early days of the French Revolution (1789–99), the first metric system was devised by chemists Antoine and Anne-Marie Lavoisier for the benefit of the Ferme générale in return for financial support of Antoine Lavoisier's research.\n[…]\nThe backwardness of the Ancien Régime left France with a need to reform its numerous systems of various local weights and measures. In 1790, Charles Maurice de Talleyrand-Périgord proposed Lavoisier's system based on natural units to the French National Assembly, without reference to the prior work of Mouton and Lavoisier. The aim was global adoption of the metric system.\n[…]\nThe metre–tonne–second system of units (MTS) was based on the metre, tonne and second – the unit of force was the sthène and the unit of pressure was the pièze. It was invented in France for industrial use and from 1933 to 1955 was used both in France and in the Soviet Union. Gravitational metric systems use the kilogram-force (kilopond) as a base unit of force, with mass measured in a unit known as the hyl, Technische Masseneinheit (TME), mug or metric slug.\n[…]\nLearning materials related to Using the Metric System at Wikiversity"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_the_metric_system",
+        "situacao": "ok",
+        "texto": "The history of the metric system began during the Age of Enlightenment with measures of length and weight derived from nature, along with their decimal multiples and fractions. The system became the standard of France and Europe within half a century. Other measures with unity ratios were added, and the system went on to be adopted across the world.\n[…]\nThe first practical realisation of the metric system came in 1799, during the French Revolution, after the existing system of measures had become impractical for trade, and was replaced by a decimal system based on the kilogram and the metre. The basic units were taken from the natural world. The unit of length, the metre, was based on the dimensions of the Earth, and the unit of mass, the kilogram, was based on the mass of a volume of water of one litre (a cubic decimetre).\n[…]\nIt has been estimated that, on the eve of the Revolution in 1789, the eight hundred or so units of measure in use in France had up to a quarter of a million different definitions because the quantity associated with each unit could differ from town to town, and even from trade to trade.\n[…]\nThe metrication of France took until about 1858 to be completed. Some of the old unit names, especially the livre, originally a unit of mass derived from the Roman libra (as was the English pound), but now meaning 500 grams, are still in use today.\n[…]\nThe advantages were several: it had a comprehensive set of derived units which, while not quite coherent, were at least homologous; the MKS system lacked a defined unit of electromagnetism at all; the MKS units were inconveniently large for the sciences; customary systems of measures held sway in the United States, Britain, and the British empire, and even to some extent in France, the birthplace of the metric system, which inhibited adoption of any competing system.\n[…]\nMetrication"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_m%C3%A9trico",
+        "situacao": "ok",
+        "texto": "O sistema métrico é um sistema de medição internacional decimalizado, que surgiu pela primeira vez na França, durante a Revolução Francesa, em virtude da dificuldade de funcionamento do comércio e da indústria devido à existência de diversos padrões de medida.\n[…]\nO problema inconsistente não era as diferentes unidades, mas os diferentes tamanhos das unidades. Ao invés de simplesmente padronizar o tamanho das unidades existentes, os líderes da Assembleia Nacional Constituinte Francesa decidiram que um sistema completamente novo deveria ser adotado.\n[…]\nA introdução do sistema métrico decimal francês em Portugal foi defendida por José de Abreu Bacelar Chichorro logo em 1795.\n[…]\nA sua proposta, que previa a adopção do sistema francês com nomes portugueses, foi retomada por uma comissão especializada em 1812-1814.\n[…]\nO processo acabaria no entanto por ser interrompido já na época da revolução liberal. O sistema métrico decimal só viria a ser introduzido pelo Decreto de 13 de dezembro de 1852, agora com a própria terminologia original francesa. O Decreto de 20 de junho de 1859 estabeleceu como obrigatório o uso exclusivo do sistema métrico. Este decreto entrou em vigor para as medidas lineares, em Lisboa a 1 de janeiro de 1860 e nas restantes localidades a 1 de março do mesmo ano.\n[…]\nNo Brasil, e não sem muita controvérsia, o imperador D. Pedro II, através do Decreto nº 1157, de 26 de junho de 1862, mandou substituir em todo o Império o antigo sistema pelo sistema métrico decimal, na época chamado de sistema métrico francês. O Decreto dava um prazo de 10 anos para a substituição total, autorizava a mandar vir da França os padrões do sistema, e determinava a organização de tabelas comparativas para facilitar a conversão das medidas de um sistema para outro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Vacina contra a varíola",
+      "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século o médico inglês Edward Jenner testou num menino sua vacina contra a varíola?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edward_Jenner",
+      "https://en.wikipedia.org/wiki/Smallpox_vaccine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edward_Jenner",
+        "situacao": "ok",
+        "texto": "Edward Jenner (17 May 1749 – 26 January 1823) was an English physician and scientist who pioneered the concept of vaccines and created the smallpox vaccine, the world's first vaccine. The terms vaccine and vaccination are derived from Variolae vaccinae (\"pustules of the cow\"), the term devised by Jenner to denote cowpox. He used it in 1798 in the title of his Inquiry into the Variolae vaccinae kno\n[…]\nJenner married Catherine Kingscote in March 1788 (she died of tuberculosis in 1815). He might have met her while he and other fellows were experimenting with balloons. Jenner's trial balloon descended into Kingscote Park, Gloucestershire, owned by Catherine's father, Anthony Kingscote. They had three children together: Edward Robert (1789–1810), Catherine Fitzhardinge (1794–1833), and Robert Fitzhardinge (1797–1854), who was 11 months old when Edward Jenner inoculated him with his cowpox vaccine.\n[…]\nJenner inoculated Phipps through two small cuts on his arm that day; this led to a fever and some uneasiness, but no full-blown infection. On 1 July 1796, Jenner injected Phipps with variolous material, the routine method of immunisation at that time, and again no disease followed. Phipps was later challenged with variolous material and again showed no sign of infection. There were no unexpected side effects, and neither Phipps nor any other recipients underwent any future 'breakthrough' cases.\n[…]\nThe Edward Jenner Institute for Vaccine Research is an infectious disease vaccine research centre, also the Jenner Institute part of the University of Oxford.\n[…]\nA section at Gloucestershire Royal Hospital is known as the Edward Jenner Unit; it is where blood is drawn.\n[…]\nVariolation\n[…]\nWorks by Edward Jenner at Project Gutenberg\n[…]\nWorks by Edward Jenner at LibriVox (public domain audiobooks)\n[…]\nWorks by or about Edward Jenner at the Internet Archive\n[…]\nDr Jenner's House, Museum and Garden, Berkeley"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Smallpox_vaccine",
+        "situacao": "ok",
+        "texto": "The smallpox vaccine is used to prevent smallpox infection caused by the variola virus. It is the first vaccine to have been developed against a contagious disease. In 1796, British physician Edward Jenner demonstrated that an infection with the relatively mild cowpox virus conferred immunity against the deadly smallpox disease. Cowpox served as a natural vaccine until the modern smallpox vaccine \n[…]\nThe term vaccine derives from vacca, the Latin word for cow, reflecting the origins of smallpox vaccination. Edward Jenner referred to cowpox as variolae vaccinae (smallpox of the cow). The origins of the smallpox vaccine became murky over time, especially after Louis Pasteur developed laboratory techniques for creating vaccines in the 19th century.\n[…]\nEdward Jenner was born in Berkeley, England. As a young child, Jenner was variolated with the other schoolboys through parish funds, but nearly died due to the seriousness of his infection. Fed purgative medicine and going through the bloodletting process, Jenner was put in one of the variolation stables until he recovered. At the age of 13, he was apprenticed to apothecary Daniel Ludlow and later surgeon George Hardwick in nearby Sodbury.\n[…]\nPublication of the Inquiry and the subsequent energetic promulgation by Jenner of the idea of vaccination with a virus other than variola virus constituted a watershed in the control of smallpox for which he, more than anyone else deserves the credit.\n[…]\nThe word \"vaccine\" is derived from Variolae vaccinae (i.e. smallpox of the cow), the term devised by Jenner to denote cowpox and used in the long title of his An enquiry into the causes and effects of Variolae vaccinae, known by the name of cow pox. Vaccination, the term which soon replaced cowpox inoculation and vaccine inoculation, was first used in print by Jenner's friend, Richard Dunning in 1800."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Edward_Jenner",
+        "situacao": "ok",
+        "texto": "Edward Jenner FRS (Berkeley, 17 de maio de 1749 – 26 de janeiro de 1823) foi um naturalista e médico franco-inglês pioneiro no conceito de vacinas incluindo a invenção da vacina contra a varíola, em 1796.\n[…]\nEm 1768, o médico inglês John Fewster percebeu que uma infecção prévia pela varíola bovina levava a uma imunidade da pessoa contra a varíola. Na década de 1770, pelo menos cinco pesquisadores da Inglaterra e da Alemanha (Sevel, Jensen, Jesty 1774, Rendell, Plett 1791) fizeram testes em humanos, com sucesso, utilizando a vacina bovina contra varíola humana.\n[…]\nEm 14 de maio de 1796, Jenner testou sua hipótese, inoculando o menino James Phipps, de 8 anos, filho do jardineiro da propriedade. Raspou o pus das bolhas de uma das ordenhadeiras, Sarah Nelmes, que tinha contraído a varíola bovina de uma vaca chamada Blossom e inoculou os dois braços do menino no mesmo dia. James teve febre e algum mal-estar, mas não desenvolveu a varíola.\n[…]\nO sucesso de sua descoberta logo se espalhou pela Europa e foi usado \"em massa\" na Operação Balmis, na Espanha (1803-1806), uma missão de três anos às Américas, Filipinas, Macau e China, liderada pelo médico Francisco Javier de Balmis com o objetivo de dar a milhares de pessoas a vacina contra a varíola, iniciativa que foi elogiada pelo próprio Jenner.\n[…]\nRetornando a Londres, em 1811, Jenner notou um número significativo de casos de varíola após a vacinação. Ele descobriu que, nesses casos, a gravidade da doença diminuía notavelmente com a vacinação anterior. Em 1821, ele foi nomeado médico especial do rei Jorge IV e também foi nomeado prefeito de Berkeley e juiz de paz.\n[…]\nAs três publicações originais sobre a vacinação contra a varíola",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Vacina contra a varíola",
+      "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do método de Edward Jenner contra a varíola, que hoje usamos para várias doenças, vem do latim e se refere a que animal?",
+    "resposta": "Vaca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vaccine",
+      "https://en.wikipedia.org/wiki/Smallpox_vaccine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vaccine",
+        "situacao": "ok",
+        "texto": "A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins.\n[…]\nThe terms vaccine and vaccination are derived from Variolae vaccinae (smallpox of the cow), the term devised by Edward Jenner (who both developed the concept of vaccines and created the first vaccine) to denote cowpox. He used the phrase in 1798 for the long title of his Inquiry into the Variolae vaccinae Known as the Cow Pox, in which he described the protective effect of cowpox against smallpox.\n[…]\nIn 1881, to honor Jenner, Louis Pasteur proposed that the terms should be extended to cover the new protective inoculations then being developed. The science of vaccine development and production is termed vaccinology.\n[…]\nVaccinations of animals are used both to prevent their contracting diseases and to prevent transmission of disease to humans. Both animals kept as pets and animals raised as livestock are routinely vaccinated. In some instances, wild populations may be vaccinated. This is sometimes accomplished with vaccine-laced food spread in a disease-prone area and has been used to attempt to control rabies in raccoons.\n[…]\nIn 1796, the physician Edward Jenner took pus from the hand of a milkmaid with cowpox, scratched it into the arm of an 8-year-old boy, James Phipps, and six weeks later variolated the boy with smallpox, afterwards observing that he did not catch smallpox. Jenner extended his studies and, in 1798, reported that his vaccine was safe in children and adults, and could be transferred from arm-to-arm, which reduced reliance on uncertain supplies from infected cows."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Smallpox_vaccine",
+        "situacao": "ok",
+        "texto": "The smallpox vaccine is used to prevent smallpox infection caused by the variola virus. It is the first vaccine to have been developed against a contagious disease. In 1796, British physician Edward Jenner demonstrated that an infection with the relatively mild cowpox virus conferred immunity against the deadly smallpox disease. Cowpox served as a natural vaccine until the modern smallpox vaccine \n[…]\nThe term vaccine derives from vacca, the Latin word for cow, reflecting the origins of smallpox vaccination. Edward Jenner referred to cowpox as variolae vaccinae (smallpox of the cow). The origins of the smallpox vaccine became murky over time, especially after Louis Pasteur developed laboratory techniques for creating vaccines in the 19th century.\n[…]\nEdward Jenner was born in Berkeley, England. As a young child, Jenner was variolated with the other schoolboys through parish funds, but nearly died due to the seriousness of his infection. Fed purgative medicine and going through the bloodletting process, Jenner was put in one of the variolation stables until he recovered. At the age of 13, he was apprenticed to apothecary Daniel Ludlow and later surgeon George Hardwick in nearby Sodbury.\n[…]\nPublication of the Inquiry and the subsequent energetic promulgation by Jenner of the idea of vaccination with a virus other than variola virus constituted a watershed in the control of smallpox for which he, more than anyone else deserves the credit.\n[…]\nThe word \"vaccine\" is derived from Variolae vaccinae (i.e. smallpox of the cow), the term devised by Jenner to denote cowpox and used in the long title of his An enquiry into the causes and effects of Variolae vaccinae, known by the name of cow pox. Vaccination, the term which soon replaced cowpox inoculation and vaccine inoculation, was first used in print by Jenner's friend, Richard Dunning in 1800."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vacina",
+        "situacao": "ok",
+        "texto": "Vacina é uma preparação biológica que fornece imunidade adquirida ativa para uma doença particular. Uma vacina tipicamente contém um agente que se assemelha a um microrganismo causador de doenças e é muitas vezes feita de formas enfraquecidas ou mortas do micróbio, das suas toxinas ou de uma das suas proteínas de superfície.\n[…]\nA administração de vacinas é chamada vacinação e sua eficácia tem sido amplamente estudada e verificada; por exemplo, a vacina contra a gripe, a vacina contra o HPV e a vacina contra a varicela. A vacinação é o método mais eficaz de prevenção de doenças infecciosas, e a imunidade generalizada devido à vacinação é amplamente responsável pela erradicação mundial da varíola e pela restrição de doenças como poliomielite, sarampo e tétano em grande parte do mundo.\n[…]\nOs termos \"vacina\" e \"vacinação\" são derivados de Variolae vaccinae (varíola da vaca), o termo inventado por Edward Jenner para denotar a varíola bovina. Em 1881, para homenagear Jenner, Louis Pasteur propôs que os termos fossem estendidos para cobrir as novas inoculações protetoras então em desenvolvimento.\n[…]\nVárias vacinas têm contribuído para a erradicação não apenas da varíola e da pólio, como também da caxumba, febre tifoide, sarampo e catapora, que são hoje muito menos comuns do que eram há cem anos. Contanto que a população se vacine, é pouco provável que uma epidemia ocorra, muito menos que se espalhe. Este é o efeito da imunidade herdada.\n[…]\nTambém conhecida como vacina heteróloga ou \"vacinas de jennerianas\", são aquelas em que os patógenos são oriundos de outros animais, que não causam a doença ou causam apenas sintomas leves que podem ser tratados. Um exemplo clássico foi o uso da varíola bovina por Jenner quando testou sua hipótese sobre a imunização das ordenhadeiras.\n[…]\n«Vacinas.com.pt». Site português sobre vacinas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Das revoluções das esferas celestes",
+      "descricao": "Livro de Nicolau Copérnico, publicado em 1543, que apresentou o modelo com o Sol no centro."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O livro em que Nicolau Copérnico pôs o Sol no centro do universo saiu no ano da morte do autor. Em que século?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+        "situacao": "ok",
+        "texto": "De revolutionibus orbium coelestium (On the Revolutions of the Heavenly Spheres) is the seminal work on the heliocentric theory of the astronomer Nicolaus Copernicus (1473–1543 CE). The book, first printed in 1543 CE in Nuremberg, Holy Roman Empire, offered an alternative model of the universe to Ptolemy's geocentric system, which had been widely accepted since ancient times.\n[…]\nThis Holy Congregation has also learned about the spreading and acceptance by many of the false Pythagorean doctrine, altogether contrary to the Holy Scripture, that the earth moves and the sun is motionless, which is also taught by Nicholaus Copernicus' De revolutionibus orbium coelestium and by Diego de Zúñiga's In Job ...\n[…]\nCopernicus, Nicolaus (1543) De Revolutionibus Orbium Coelestium; online from Source Library.\n[…]\nManuscript of De Revolutionibus by Nicolaus Copernicus, from Jagiellonian Library, Poland.\n[…]\nDe revolutionibus orbium coelestium, from Harvard University.\n[…]\nDe revolutionibus orbium coelestium, from Jagiellon University, Poland.\n[…]\nDe Revolutionibus Orbium Coelestium Archived 2020-10-28 at the Wayback Machine, from Rare Book Room.\n[…]\nRiver Campus Libraries, Book of the Month December 2005: De revolutionibus orbium coelestium\n[…]\nA facsimile of De Revolutionibus Orbium Coelestium (1543) from the Rare Book and Special Collection Division at the Library of Congress\n[…]\nDe Revolutionibus Orbium Coelestium (1566) From the Rare Book and Special Collection Division at the Library of Congress\n[…]\nDe Revolutionibus Orbium Coelestium (1566) Previously owned by Owen Gingerich. Includes the third printing (previous editions 1540 and 1541) of De libris revolutionum Nicolai Copernici narratio prima. From the University of Sydney Library.\n[…]\nA facsimile of De Revolutionibus Orbium Coelestium (1543) with annotations by Michael Maestlin from Stadtbibliothek Schaffhausen (Schaffhausen City Library)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+        "situacao": "ok",
+        "texto": "De revolutionibus orbium coelestium  é o nome original em latim do livro Das revoluções das esferas celestes, do astrônomo polonês  Mikołaja Kopernika (1473 — 1543), mais conhecido pelo nome latinizado Nicolau Copérnico, publicado em 24 de maio de 1543 em Nuremberga. É uma das obras mais importantes do período do Renascimento e um marco da Revolução Científica.\n[…]\nNa primavera de 1539, Georg Joachim (Rethicus), professor de matemática da Universidade de Wittenberg estudou junto com Copérnico a nova teoria. Rethicus porém teve que assumir outro posto em Leipzig e deixou a supervisão técnica do livro para o clérigo luterano local, Andreas Osiander. Osiander acrescentou um prefácio não assinado que afirmava que o livro não era um retrato real do universo, mas \"um cálculo coerente com as observações\".\n[…]\nO livro marcou o começo de uma mudança de um universo geocêntrico, ou antropocêntrico, com a Terra em seu centro. Copérnico acreditava que a Terra era apenas mais um planeta que concluía uma órbita em torno de um sol fixo todo ano e que girava em torno de seu eixo todo dia. Ele chegou a essa correta explicação do conhecimento de outros planetas e explicou a origem dos equinócios corretamente, através da vagarosa mudança da posição do eixo rotacional da Terra.\n[…]\nO centro do universo é o Sol;\n[…]\nRealmente a teoria revolucionava a astronomia. Porém a inquietação de Lutero referia-se ao fato de, por esta teoria, o homem não estar mais situado no centro de todas as coisas, como uma imagem de Deus, mas num mero planeta como tantos outros. Mas na Inglaterra, a recepção foi melhor: Robert Recorde em seu livro \"Castelo do Conhecimento\", de 1556 demonstra simpatia pela teoria, o mesmo acontecendo com John Dee.\n[…]\n1617, Amsterdam, por Nicolaus Mulerius\n[…]\nDe revolutionibus orbium coelestium, Norimbergae, J. Petreium, 1543 (Vicifons) - (em latim)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "14-Bis",
+      "descricao": "Avião construído por Alberto Santos-Dumont, que voou diante do público em Paris."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano Santos-Dumont voou com o 14-Bis diante de uma multidão em Paris?",
+    "resposta": "1906",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis",
+        "situacao": "ok",
+        "texto": "The 14-bis (French: Quatorze-bis; (Portuguese: Quatorze-bis; English: Fourteen-again, approximating \"14B\"), also known as Oiseau de proie (\"bird of prey\" in French), was a pioneer era, canard-style biplane designed and built by Brazilian aviation pioneer Alberto Santos-Dumont. In 1906, near Paris, the 14-bis made a manned powered flight that was the first to be publicly witnessed by a crowd and al\n[…]\nThe first trials of the aircraft were made on 22 July 1906 at Santos-Dumont's grounds at Neuilly, where it had been assembled. In order to simulate flight conditions, Santos-Dumont attached the aircraft under his latest non-rigid airship, the Number 14, which is why the aircraft came to be known as the \"14-bis\". The aircraft was then transported to the grounds of the Château de Bagatelle in the Bois de Boulogne, where there was more space.\n[…]\nOn the morning of 12 November 1906 the aviation community of France assembled at the Château de Bagatelle's grounds to witness Santos-Dumont's next attempt. As Santos-Dumont allowed the 14-bis to run down the field, a car drove alongside, from which Henry Farman dropped a plate each time he observed the wheels of the aircraft leave the ground or touch down again.\n[…]\nThe Santos-Dumont 14-bis did not use a catapult and ran on wheels located at the back of the aircraft – said to have been adopted by Santos-Dumont for his 14-bis after personally witnessing Traian Vuia's contemporary, four-wheeled aircraft's flight attempts earlier in 1906 in the western suburbs of Paris, not far from the Château de Bagatelle's grounds – with a \"nose-skid\" under the front of the 14-bis' fuselage.\n[…]\nData from Opdycke, French Aeroplanes before the Great War; Gray, The 1906 Santos-Dumont No 14bisGeneral characteristics\n[…]\nGray, Carroll F. (November 2006). \"The 1906 Santos-Dumont No. 14bis\". WWI Aero: The Journal of the Early Aeroplane (194): 4–21. ISSN 0736-198X."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/14-bis",
+        "situacao": "ok",
+        "texto": "14-bis, também conhecido como Oiseau de Proie (francês para “ave de rapina”), foi um avião construído pelo inventor brasileiro Alberto Santos Dumont que em 12 de novembro de 1906 conquistou o Prêmio Archdeacon e o Prêmio do Aeroclube da França ao realizar um voo de 220 metros em Paris.\n[…]\nA concepção do 14-bis é uma síntese de ideias. Sua estrutura celular de biplano foi diretamente inspirada nas pipas-caixa (box kites) do inventor australiano Lawrence Hargrave, conhecidas por sua notável estabilidade aerodinâmica. O nome \"14-bis\" (ou \"14-de novo\") surgiu de sua concepção inicial. Santos Dumont primeiro testou o aeroplano acoplado ao seu dirigível Nº 14 em meados de 1906.\n[…]\nPrimeiros Saltos (Agosto-Setembro de 1906): Após abandonar o balão Nº 14, Santos Dumont realizou os primeiros testes no solo em Bagatelle. Em 13 de setembro, com o motor de 24 hp, conseguiu um \"salto\" de 7 a 11 metros, que terminou com o trem de pouso danificado. Ele então instalou o motor mais potente de 50 hp e rebatizou a aeronave de Oiseau de Proie.\n[…]\n23 de Outubro de 1906: O Prêmio Archdeacon: Perante uma multidão e a comissão oficial do Aéro-Club de France, Santos Dumont fez várias tentativas. Após alguns saltos curtos, ele finalmente conseguiu um voo sustentado de 60 metros a uma altura de 2 a 3 metros. O voo durou 7 segundos e foi suficiente para vencer a Taça Archdeacon, destinada ao primeiro voo de mais de 25 metros.\n[…]\n12 de Novembro de 1906: O Prêmio do Aéro-Club: Insatisfeito e buscando maior controle e distância, Santos Dumont fez modificações cruciais, incluindo a adição dos ailerons interplanares. No dia 12 de novembro, novamente em Bagatelle, ele realizou uma série de voos cada vez mais longos. O clímax foi um voo de 220 metros que durou 21,5 segundos.\n[…]\nAlberto Santos Dumont",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Velcro",
+      "descricao": "Sistema de fecho com duas fitas, uma de ganchinhos e outra de laços, criado pelo engenheiro suíço George de Mestral."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1941, voltando de uma caçada com o cachorro, o suíço George de Mestral teve a ideia do velcro ao observar o quê?",
+    "resposta": "Carrapichos presos no pelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Velcro",
+      "https://en.wikipedia.org/wiki/George_de_Mestral"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Velcro",
+        "situacao": "ok",
+        "texto": "Velcro is a brand of versatile fastening devices, known as hook-and-loop fasteners, hook-and-pile fasteners, or touch fasteners, that allow two surfaces to be repeatedly attached and detached with ease. A trademark of Velcro Companies, the brand name is often used generically to refer to this type of fastener. Invented in the mid-20th century, it is widely used in clothing, accessories, and variou\n[…]\nThe original hook-and-loop fastener was conceived in 1941 by Swiss engineer George de Mestral, which he named velcro. The word Velcro is a portmanteau of two French words: \"velours\" meaning velvet, and \"crochet\" meaning hook. The idea came to him one day after he returned from a hunting trip with his dog in the Alps. He took a close look at the burs of burdock that kept sticking to his clothes and his dog's fur.\n[…]\nVelcro Corporation products were displayed at a fashion show at the Waldorf-Astoria hotel in New York in 1959, and the fabric got its first break when it was used in the aerospace industry to help astronauts maneuver in and out of bulky space suits. However, this use reinforced the view among the populace that hook-and-loop was something with very limited utilitarian uses.\n[…]\nVelcro jumping is a game where people wearing hook-covered suits take a running jump and hurl themselves as high as possible at a loop-covered wall. The wall is inflated, and looks similar to other inflatable structures. It is not necessarily completely covered in the material—often there will be vertical strips of hooks. Sometimes, instead of a running jump, people use a small trampoline.\n[…]\n2002 – The Star Trek: Enterprise episode \"Carbon Creek\" portrays Velcro as being introduced to human society by Vulcans in 1957. One of the Vulcans in the episode is named \"Mestral\", after the fastener's actual inventor and founder of the brand.\n[…]\nMedia related to Hook-and-loop fasteners at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/George_de_Mestral",
+        "situacao": "ok",
+        "texto": "George de Mestral ((1907-06-19)19 June 1907 – (1990-02-08)8 February 1990) was a Swiss electrical engineer who invented the hook and loop fastener which he named Velcro.\n[…]\nDe Mestral died in Commugny, Switzerland, where he is buried. The municipality posthumously named an avenue, L'avenue George de Mestral, in his honour.\n[…]\nHe was inducted into the National Inventors Hall of Fame in 1999 for inventing hook and loop fasteners.\n[…]\nDe Mestral first conceptualised hook and loop after returning from a hunting trip with his dog in the Alps in 1941. After removing several of the burdock burrs (seeds) that kept sticking to his clothes and his dog's fur, he became curious as to how it worked. He examined them under a microscope, and noted hundreds of \"hooks\" that caught on anything with a loop, such as clothing, animal fur, or hair.\n[…]\nDe Mestral gave the name Velcro, a portmanteau of the French words velours (\"velvet\"), and crochet (\"hook\"), to his invention as well as his company, which continues to manufacture and market the fastening system.\n[…]\nHowever, hook and loop's integration into the textile industry took time, partly because of its appearance. Hook and loop in the early 1960s looked like it had been made from left-over bits of cheap fabric, an unappealing aspect for clothiers. The first notable use for Velcro® brand hook and loop came in the aerospace industry, where it helped astronauts manoeuvre in and out of bulky space suits. Eventually, skiers noted the similar advantages of a suit that was easier to get in and out of.\n[…]\n\"George de Mestral\" in  German, French and Italian in the online Historical Dictionary of Switzerland."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Velcro",
+      "descricao": "Sistema de fecho com duas fitas, uma de ganchinhos e outra de laços, criado pelo engenheiro suíço George de Mestral."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome velcro junta o começo de duas palavras francesas. Uma delas é crochê. Qual é a outra?",
+    "resposta": "Veludo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Velcro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Velcro",
+        "situacao": "ok",
+        "texto": "Velcro is a brand of versatile fastening devices, known as hook-and-loop fasteners, hook-and-pile fasteners, or touch fasteners, that allow two surfaces to be repeatedly attached and detached with ease. A trademark of Velcro Companies, the brand name is often used generically to refer to this type of fastener. Invented in the mid-20th century, it is widely used in clothing, accessories, and variou\n[…]\nThe original hook-and-loop fastener was conceived in 1941 by Swiss engineer George de Mestral, which he named velcro. The word Velcro is a portmanteau of two French words: \"velours\" meaning velvet, and \"crochet\" meaning hook. The idea came to him one day after he returned from a hunting trip with his dog in the Alps. He took a close look at the burs of burdock that kept sticking to his clothes and his dog's fur.\n[…]\nVelcro Corporation products were displayed at a fashion show at the Waldorf-Astoria hotel in New York in 1959, and the fabric got its first break when it was used in the aerospace industry to help astronauts maneuver in and out of bulky space suits. However, this use reinforced the view among the populace that hook-and-loop was something with very limited utilitarian uses.\n[…]\nASTM D5169-98 (2010) Standard Test Method for Shear Strength (Dynamic Method) of Hook and Loop Touch Fasteners\n[…]\nASTM D5170-98 (2010) Standard Test Method for Peel Strength (\"T\" Method) of Hook and Loop Touch Fasteners\n[…]\nVelcro jumping is a game where people wearing hook-covered suits take a running jump and hurl themselves as high as possible at a loop-covered wall. The wall is inflated, and looks similar to other inflatable structures. It is not necessarily completely covered in the material—often there will be vertical strips of hooks. Sometimes, instead of a running jump, people use a small trampoline.\n[…]\nMedia related to Hook-and-loop fasteners at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Post-it",
+      "descricao": "Bloco de notas adesivas reposicionáveis lançado pela empresa americana 3M."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A ideia do Post-it surgiu porque Art Fry, funcionário da 3M, queria marcadores de página que não caíssem de que livro do coro da igreja?",
+    "resposta": "Hinário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Post-it_Note"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "situacao": "ok",
+        "texto": "A Post-it note (or sticky note) is a small piece of paper with a re-adherable strip of glue on its back, made for temporarily attaching notes to documents and other surfaces. A low-tack pressure-sensitive adhesive allows the notes to be easily attached, removed, and even re-posted elsewhere without leaving residue. The Post-it's signature adhesive was discovered accidentally by a scientist at 3M.\n[…]\nIn 2019, the Post-it App was relaunched.\n[…]\nIn 2010, the creators of the Post-it note joined the National Inventors Hall of Fame as a result of the widespread success of the Post-it note.\n[…]\nPost-it notes may have a positive effect on how people interact with information presented to them. This is backed up by research that aimed to determine how attaching a blank Post-it note to a survey affected participation in the survey. The research found that the surveys with affixed Post-it notes were more likely to be completed and returned, and that the participants were more likely to write higher quality responses to the questions.\n[…]\nIn 2000, the 20th anniversary of Post-it notes was celebrated by having artists create artworks on the notes. One such work, by the artist R. B. Kitaj, sold for £640 in an auction, making it the most valuable Post-it note on record.\n[…]\nSidewalks Labs, a Google-owned company that focuses on urban innovation, opened a public workspace in Quayside, Toronto, that supports public engagement in the city-planning process. Plans are presented here and the public can freely share their ideas, opinions, and feedback on potential projects, often in the form of Post-it note annotations.\n[…]\nPost-it homepage\n[…]\n\"Sticking around – the Post-it note is 20\". BBC News. 2000-04-06.\n[…]\nPost-it Note History by 3M\n[…]\nStavroula Karapapa, (2019). Post-it note. In Claudy Op den Kamp and Dan Hunter (eds.), A History of Intellectual Property in 50 Objects, Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Post-it",
+        "situacao": "ok",
+        "texto": "Um post-it (ou nota adesiva) é um pequeno pedaço de papel com uma tira de cola re-adesiva no verso, feito para anexar notas temporariamente a documentos e outras superfícies. Um adesivo sensível à pressão de baixa aderência permite que as notas sejam facilmente anexadas, removidas e até recolocadas em outro lugar sem deixar resíduos. Originalmente pequenos quadrados amarelos, os post-its e produto\n[…]\nEmbora a patente da 3M tenha expirado em 1997, \"Post-it\" e a cor amarela característica das notas originais continuam sendo marcas registradas da empresa, com termos como \"notas reposicionáveis\" usadas para ofertas semelhantes fabricadas por concorrentes. Embora o uso da marca registrada 'Post-it' em um sentido representativo se refira a qualquer nota adesiva, nenhuma autoridade legal jamais considerou a marca registrada como genérica.\n[…]\nEm 1974, um colega que havia participado de um de seus seminários, Art Fry, teve a ideia de usar o adesivo para ancorar seu marcador em seu hinário. Fry então utilizou a política de \"bootlegging permitido\" da 3M para desenvolver a ideia. A cor amarelo-pálido das notas originais foi escolhida por acaso, a partir da cor do papel de rascunho usado pelo laboratório ao lado da equipe do Post-It.\n[…]\nAté a patente da 3M expirar na década de 1990, as notas tipo Post-it eram produzidas apenas na fábrica da empresa em Cynthiana, Kentucky.\n[…]\nEm 2018, a 3M lançou o \"Post-It Extreme Notes\", que são mais duráveis ​​e resistentes à água e que aderem à madeira e outros materiais em ambientes industriais.\n[…]\nEm julho de 2016, um ex-funcionário do departamento de marketing da 3M, Daniel Dassow, admitiu que em 1974 Alan Amron havia divulgado sua invenção de notas adesivas Press-on para a 3M.\n[…]\nPost-it homepage\n[…]\nBBC news article on 20th anniversary of Post-it Notes\n[…]\nThe Rake magazine article on 25th anniversary of Post-it notes\n[…]\nPost-it Note History by 3M",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Tycho Brahe",
+      "descricao": "Astrônomo dinamarquês do século dezesseis, famoso por observações precisas feitas sem telescópio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O astrônomo dinamarquês Tycho Brahe usou por décadas uma prótese de metal no nariz. Como ele perdeu parte do nariz?",
+    "resposta": "Num duelo de espadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tycho_Brahe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tycho_Brahe",
+        "situacao": "ok",
+        "texto": "Tycho Brahe ( TY-koh BRAH-(h)ee, -⁠ BRAH(-hə); Danish: [ˈtsʰykʰo ˈpʁɑːə] ; born Tyge Ottesen Brahe, Danish: [ˈtsʰyːjə ˈʌtəsn̩ ˈpʁɑːə]; 14 December 1546 – 24 October 1601), generally called Tycho for short, was a Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations which helped to turn astronomy into the first modern science and launch the Scientific \n[…]\nTycho Brahe was highly appreciated by King Frederick II, and he was accepted and supported by people of high social status. He was supported by the church. The support Tycho Brahe received from the king allowed him to continue his research and make significant contributions to the field of astronomy.\n[…]\nAlthough Tycho's planetary model was soon discredited, his astronomical observations were an essential contribution to the Scientific Revolution. The traditional view of Tycho is that he was primarily an empiricist who set new standards for precise and objective measurements. This appraisal originated in Gassendi's 1654 biography, Tychonis Brahe, equitis Dani, astronomorum coryphaei, vita. It was furthered by Dreyer's biography in 1890, which was long the most influential work on Tycho.\n[…]\nThe Tycho Brahe Prize, inaugurated in 2008, is awarded annually by the European Astronomical Society in recognition of the pioneering development or exploitation of European astronomical instrumentation, or major discoveries based largely on such instruments.\n[…]\nTycho is directly referenced in Sarah Williams' poem The Old Astronomer: \"Reach me down my Tycho Brahé, – I would know him when we meet\". Though, the poem's oft quoted line comes later: \"Though my soul may set in darkness, it will rise in perfect light; / I have loved the stars too fondly to be fearful of the night.\"\n[…]\nAuthor Jerry Holkins' comic alter ego and online handle for Penny Arcade is named after the astronomer Tycho Brahe."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tycho_Brahe",
+        "situacao": "ok",
+        "texto": "Tycho Brahe ([ˈtaɪkoʊ ˈbrɑː(h)i,_ʔ ˈbrɑː(hə)] TY-koh-_-BRAH-(h)ee-,_-_-BRAH(-hə); da; nascido Tyge Ottesen Brahe, da; 14 de dezembro de 1546 – 24 de outubro de 1601), geralmente chamado abreviadamente de Tycho, foi um astrônomo dinamarquês conhecido por suas observações astronômicas abrangentes e com precisão sem precedentes, que ajudaram a transformar a astronomia na primeira Ciência moderna e a \n[…]\nEm 1566, Tycho partiu para estudar na Universidade de Rostock, no que é hoje a Alemanha. Lá ele estudou com professores de medicina na famosa faculdade de medicina da universidade e se interessou por alquimia médica e medicina herbal. Em 29 de dezembro de 1566, aos 20 anos, Tycho perdeu parte do nariz em um duelo de espadas com outro nobre dinamarquês, seu primo em terceiro grau Manderup Parsberg.\n[…]\nEm uma festa de noivado na casa do professor Lucas Bacmeister, em 10 de dezembro, os dois haviam discutido embriagados sobre quem era o melhor matemático. Em 29 de dezembro, os primos resolveram sua rixa com um duelo no escuro. Embora os dois tenham se reconciliado mais tarde, no duelo Tycho perdeu a ponte do nariz e ganhou uma larga cicatriz na testa.\n[…]\nApesar do sucesso que Tycho Brahe teve em Hven, ele acabou deixando a ilha após um desentendimento com o novo rei da Dinamarca, Cristiano IV. Em 1597, Tycho Brahe mudou-se para Praga, onde continuou seu trabalho e acabou sendo nomeado pelo imperador Rodolfo II em 1601 como matemático imperial. No entanto, Uraniborg permaneceu como um marco significativo na história da astronomia.\n[…]\nO Prêmio Tycho Brahe, inaugurado em 2008, é concedido anualmente pela Sociedade Astronômica Europeia em reconhecimento ao desenvolvimento ou exploração pioneira de instrumentação astronômica europeia, ou grandes descobertas baseadas em grande parte em tais instrumentos.\n[…]\nBrasão de armas dos Brahe\n[…]\nInformações sobre o Museu Tycho Brahe na ilha de Ven (Suécia)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Ar-condicionado",
+      "descricao": "Sistema que resfria e controla a umidade do ar de ambientes fechados, desenvolvido no início do século vinte."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1902, Willis Carrier criou o ar-condicionado moderno para controlar a umidade em que tipo de empresa do Brooklyn?",
+    "resposta": "Uma gráfica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Willis_Carrier",
+      "https://en.wikipedia.org/wiki/Air_conditioning"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Willis_Carrier",
+        "situacao": "ok",
+        "texto": "Willis Haviland Carrier (November 26, 1876 – October 7, 1950) was an American engineer, best known for inventing modern air conditioning by inventing the first electrical air conditioning unit in 1902. In 1915, he founded Carrier Corporation, a company specializing in the manufacture and distribution of heating, ventilation, and air conditioning (now abbreviated \"HVAC\") systems.\n[…]\nIn Buffalo, New York, on July 17, 1902, in response to an air quality problem experienced at the Sackett-Wilhelms Lithographing & Publishing Company of Brooklyn, New York, Willis Carrier submitted drawings for what became recognized as the world's first modern air conditioning system.\n[…]\ncontrol humidity\n[…]\nThe Willis H. Carrier Total Indoor Environmental Quality Lab at the Syracuse University's Center of Excellence in Environmental and Energy Systems is named in his honor. The lab was established in 2010 with a donation from the Carrier Corp.\n[…]\nCarrier met Edith Claire Seymour at Cornell and they married on August 29, 1902. Edith Claire Seymour died in 1912. He married Jennie Tifft Martin on April 16, 1913. She died in 1939. He married Elizabeth Marsh Wise of Terre Haute, Indiana on February 7, 1941. Carrier and all three of his wives are buried in Forest Lawn Cemetery in Buffalo, New York. Carrier fathered one child, Howard Carter Willis.\n[…]\nFor his contributions to science and industry, Willis Carrier was awarded an engineering degree by Lehigh University in 1935 and an honorary Doctor of Letters degree by Alfred University in 1942. He received the ASME Medal in 1934. Carrier was awarded the Frank P. Brown Medal and elected an Honorary Member of the American Society of Mechanical Engineers in 1942. He was inducted posthumously in the National Inventors Hall of Fame (1985) and the Buffalo Science Museum Hall of Fame (2008).\n[…]\nRational Psychrometric Formulae, by Willis H. Carrier (1911)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Air_conditioning",
+        "situacao": "ok",
+        "texto": "Air conditioning, often abbreviated as A/C (US) or air con (UK), is the process of removing heat from an enclosed space to achieve a more comfortable interior temperature and, in some cases, controlling the humidity of internal air. Air conditioning can be achieved using a mechanical air conditioner or through other methods, such as passive cooling and ventilative cooling.\n[…]\nElectricity made more practical mechanically powered systems possible. In 1902, American engineer Willis Carrier designed what is widely regarded as the first modern electrical air-conditioning system for the Sackett-Wilhelms Lithographing & Publishing Company in Brooklyn, New York. The installation controlled both temperature and humidity, helping stabilize paper dimensions and the alignment of inks during color printing. On January 2, 1906, Carrier received U.S.\n[…]\nThis system uses a variable-frequency drive (also called an Inverter) to control the speed of the compressor. The refrigerant flow rate is changed by the change in the speed of the compressor. The turn down ratio depends on the system configuration and manufacturer. It modulates from 15 or 25% up to 100% at full capacity with a single inverter from 12 to 100% with a hybrid tandem. This method is the most efficient way to modulate an air conditioner's capacity.\n[…]\nThere is some push to increase the energy efficiency of air conditioners. United Nations Environment Programme (UNEP) and the IEA found that if air conditioners could be twice as effective as now, 460 billion tons of GHG could be cut over 40 years. The UNEP and IEA also recommended legislation to decrease the use of hydrofluorocarbons, better building insulation, and more sustainable temperature-controlled food supply chains going forward.\n[…]\nU.S. patent 808,897 Carrier's original patent"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Willis_Carrier",
+        "situacao": "ok",
+        "texto": "Willis Haviland Carrier (Condado de Erie, 26 de novembro de 1876 – Nova Iorque, 7 de outubro de 1950) foi um engenheiro norte-americano, conhecido como o inventor do ar-condicionado e do umidificador de ar moderno. Carrier inventou a primeira unidade de ar-condicionado elétrico em 1902. Em 1915 fundou a Carrier Corporation, uma empresa especializada na fabricação e distribuição de sistemas de aque\n[…]\nEm 1897, Willis Carrier conseguiu uma bolsa de estudos da Universidade Cornell e se formou em 1901 com licenciatura em engenharia mecânica.\n[…]\nEm Buffalo, Nova Iorque, no dia 17 de julho de 1902, ao tentar resolver um problema de qualidade existente na Lithographing Sackett-Wilhelms & Publishing Company of Brooklyn, Carrier apresentou seus desenhos que se tornariam mais tarde o sistema do ar-condicionado conhecido hoje.\n[…]\nA instalação em 1903 marcou o nascimento do ar-condicionado e do umidificador de ar, por causa da adição de controle de umidade, o que levou ao reconhecimento por parte das autoridades no domínio que o ar-condicionado deve realizar quatro funções básicas:\n[…]\nControle da temperatura\n[…]\nControle da umidade\n[…]\nControle da circulação de ar e ventilação\n[…]\nApós vários anos de refinamento e testes de campo, em 2 de janeiro de 1906, nasceu a Carrier Corporation. A invenção de patente nº 808 897, que ele chamou de um \"aparelho para o tratamento do ar\", foi o primeiro tipo de equipamento de ar-condicionado no mundo.\n[…]\nFoi projetado para umidificar ou desumidificar o ar, fazendo o aquecimento de água para umidificar e a refrigeração de água para retirar a umidade do ar. A primeira venda do aparelho foi feita no final de 1906, para o LaCrosse National Bank, La Crosse, Wisconsin.\n[…]\nWillis era filho de Duane Carrier Williams (1836–1908) e Elizabeth R. Haviland (1845–1888). Elizabeth era filha de David Jay Haviland e Elizabeth Ann Button.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Pasteurização",
+      "descricao": "Processo de aquecimento brando que elimina micro-organismos de alimentos e bebidas, desenvolvido por Louis Pasteur."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1860, Louis Pasteur desenvolveu o aquecimento que leva seu nome para impedir que qual bebida estragasse?",
+    "resposta": "Vinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pasteurization"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pasteurization",
+        "situacao": "ok",
+        "texto": "In food processing, pasteurization (-isation) is a process of food preservation in which packaged foods (e.g., milk and fruit juices) are treated with mild heat, usually to less than 100 °C (212 °F), to eliminate pathogens and extend shelf life. Pasteurization either destroys or deactivates microorganisms and enzymes that contribute to food spoilage or the risk of disease, including vegetative bac\n[…]\nPasteurization is named after French microbiologist Louis Pasteur, whose research in the 1860s demonstrated that thermal processing would deactivate unwanted microorganisms in wine. Spoilage enzymes are also inactivated during pasteurization. Today, pasteurization is used widely in the dairy industry and other food processing industries for food preservation and food safety.\n[…]\nA less aggressive method was developed by French chemist Louis Pasteur during an 1864 summer holiday in Arbois. To remedy the frequent acidity of the local aged wines, he found out experimentally that it is sufficient to heat a young wine to only about 50–60 °C (122–140 °F) for a short time to kill the microbes, and that the wine could subsequently be aged without sacrificing the final quality. In honor of Pasteur, this process is known as pasteurization.\n[…]\nPascalization or high pressure processing (HPP), pulsed electric field (PEF), ionising radiation, high pressure pasteurization, UV decontamination, pulsed high intensity light, high intensity laser, pulsed white light, high power ultrasound, oscillating magnetic fields, high voltage arc discharge, and streamer plasma are examples of these non-thermal pasteurization methods that are currently commercially utilized.\n[…]\nFlash pasteurization\n[…]\nPasteurized eggs\n[…]\nAn alternate view on the alleged safety of pasteurized vs. natural milk from Johns Hopkins University: \"The Johns Hopkins Raw Milk Study – A Campaign for Real Milk\". Realmilk.com. 12 August 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pasteuriza%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "Pasteurização é o processo utilizado em alimentos para destruir microrganismos patogênicos ali existentes. Foi criado em 1862, tendo esse nome em homenagem ao químico francês que o criou, Louis Pasteur.\n[…]\nEste processo consiste, basicamente, no aquecimento do alimento a uma determinada temperatura, por determinado tempo, e depois o alimento é resfriado a uma temperatura inferior à de antes, de forma a eliminar os micro-organismos ali presentes. Posteriormente, tais alimentos são selados hermeticamente por questões de segurança, evitando assim uma nova contaminação.\n[…]\nO avanço científico de Pasteur melhorou a qualidade de vida dos humanos permitindo que produtos, como por exemplo o leite, pudessem ser transportados sem sofrerem decomposição.\n[…]\nLouis Pasteur (1822-1895), descobriu em 1864 que ao aquecer certos alimentos e bebidas acima de 60°C por um determinado tempo (chamado de binômio tempo x temperatura), e depois baixar bruscamente a temperatura do alimento evitando a sua deterioração, reduzia de maneira significativa o número de micro-organismos presentes na sua composição.\n[…]\nNo final do século XIX, Franz von Soxhlet propôs a aplicação do procedimento da pasteurização para o leite in natura, comprovando que o processo era eficaz para a destruição das bactérias existentes neste produto.\n[…]\nExistem dois tipos de pasteurização:\n[…]\nPasteurização lenta, em que se aplicam temperaturas mais baixas durante maior tempo. A temperatura utilizada é da ordem de 65°C durante trinta minutos.\n[…]\nPasteurização rápida, quando se aplicam temperaturas mais altas, da ordem dos 72 a 75˚C, durante 3 a 15 segundos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Hercule Florence",
+      "descricao": "Inventor e desenhista francês (1804–1879) radicado no Brasil, pioneiro da fotografia no país."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1830, em Campinas, Hercule Florence deu um nome ao seu processo de gravar imagens com a luz, antes de o termo se popularizar na Europa. Qual?",
+    "resposta": "Fotografia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hercule_Florence",
+      "https://pt.wikipedia.org/wiki/Hercule_Florence"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hercule_Florence",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hercule_Florence",
+        "situacao": "ok",
+        "texto": "Antoine Hercule Romuald Florence, conhecido como Hercule Florence ou Hércules Florence, (Nice, 29 de fevereiro de 1804 – Campinas, 27 de março de 1879), foi um inventor, desenhista e polígrafo monegasco-brasileiro, além de pioneiro da fotografia.\n[…]\nPaulo Machado Florence\n[…]\nCom resultados práticos cada vez mais satisfatórios, Florence decidiu utilizar-se da câmera escura para aumentar a qualidade da imagem prostrada no papel, seja ela desenhos ou escritos. Ao fazer algum registro na prancha e usando a luz solar e do cloreto de prata ou ouro como tinta para impressão, Hércules chegou de modo empírico a algo muito perto do que hoje conhecemos como a fotografia moderna.\n[…]\nEm outro testemunho que comprova o \"exílio\" de Hércules, o doutor austríaco narra a recepção do franco-brasileiro à notícia de um grupo de franceses sobre a oficial descoberta da fotografia, na França:\n[…]\nFLORENCE, Antoine Hercule Romuald. Ensaio sobre a impressão das notas de banco por um processo totalmente inimitável, precedido por algumas observações sobre a gravura das mesmas notas, e o modo de se conhecer as que são falsas. Campinas: Tipografia de Costa Silveira, 1841.\n[…]\nFLORENCE, Antoine Hercule Romuald. Zoophonia. Revista Trimensal do Instituto Histórico Geographico e Ethnographico do Brasil. Rio de Janeiro: B.L. Garnier, tomo XXXIX, parte segunda, 1876, p. 321-336.\n[…]\nFLORENCE, Antoine Hercule Romuald. Viagem fluvial do Tietê ao Amazonas de 1825 a 1829 São Paulo: Melhoramentos, 1a ed., 1941; 2a ed., 1948; São Paulo: Editora Cultrix, 1977; Brasília: Edições do Senado Federal, 2002.\n[…]\nKOSSOY, Boris. Hercules Florence - 1833 - a descoberta isolada da fotografia no Brasil (2ª ed.). São Paulo: Duas Cidades, 1980.\n[…]\n«Hercule Florence»  no acervo do Instituto Moreira Salles"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Gás",
+      "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No século dezessete, o químico flamengo Jan Baptista van Helmont inventou a palavra gás, inspirado em que palavra grega?",
+    "resposta": "Caos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gas",
+      "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gas",
+        "situacao": "ok",
+        "texto": "Gas is a state of matter with neither fixed volume nor fixed shape. It is a compressible form of fluid, in contrast to a liquid. A pure gas consists of individual atoms (e.g. a noble gas like neon), or molecules (e.g. oxygen (O2) or carbon dioxide). Pure gases can also be mixed together such as in the air. What distinguishes gases from liquids and solids is the vast separation of the individual ga\n[…]\nThe word gas was first used by the early 17th-century Brabantian or Southern Netherlandish chemist Jan Baptist van Helmont. He identified carbon dioxide, the first known gas other than air.\n[…]\nVan Helmont's word appears to have been simply a phonetic transcription of the Ancient Greek word χάος 'chaos' – the g in Dutch being pronounced like ch in \"loch\" (voiceless velar fricative, ) – in which case Van Helmont simply was following the established alchemical usage first attested in the works of Paracelsus. According to Paracelsus's terminology, chaos meant something like 'ultra-rarefied water'.\n[…]\nAn alternative story is that Van Helmont's term was derived from \"gahst (or geist), which signifies a ghost or spirit\". That story is given no credence by the editors of the Oxford English Dictionary. In contrast, the French-American historian Jacques Barzun speculated that Van Helmont had borrowed the word from the German Gäscht, meaning the froth resulting from fermentation."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
+        "situacao": "ok",
+        "texto": "Jan Baptist van Helmont ( HEL-mont, Dutch: [ˈjɑm bɑpˈtɪst fɑn ˈɦɛlmɔnt]; 12 January 1580 – 30 December 1644) was a chemist, physiologist, and physician from Brussels. He worked during the years just after Paracelsus and the rise of iatrochemistry, and is sometimes considered to be \"the founder of pneumatic chemistry\".\n[…]\nFranciscus Mercurius van Helmont, his son\n[…]\nDucheyne, Steffen (1 April 2006). \"Joan Baptista Van Helmont and the Question of Experimental Modernism\". ResearchGate. pp. 305–332.\n[…]\nFriedrich Giesecke: Die Mystik Joh. Baptist von Helmonts, Leitmeritz, 1908 (Dissertation), Digitalisat. (German)\n[…]\nPagel, Walter (2002). Joan Baptista van Helmont: Reformer of Science and Medicine, Cambridge University Press.\n[…]\nRedgrove, I. M. L. and Redgrove, H. Stanley (2003). Joannes Baptista van Helmont: Alchemist, Physician and Philosopher, Kessinger Publishing.\n[…]\nJohann Werfring: Die Einbildungslehre Johann Baptista van Helmonts. In: Johann Werfring: Der Ursprung der Pestilenz. Zur Ätiologie der Pest im loimografischen Diskurs der frühen Neuzeit, Wien: Edition Praesens, 1999, ISBN 3-7069-0002-5, pp. 206–222. (German)\n[…]\nThe Moldavian prince and scholar, Dimitrie Cantemir, wrote a biography of Helmont, which is now difficult to locate. It is cited in Debus, Allen G. (2002) The Chemical Philosophy: Paracelsian science and medicine in the sixteenth and seventeenth centuries. Courier Dover Publications, ISBN 0486421759 on pages 311 and 312, as Catemir, Dimitri (Demetrius) (1709); Ioannis Baptistae Van Helmont physices universalis doctrine et christianae fidei congrua et necessaria philosophia. Wallachia.\n[…]\nClaus Bernet (2005). \"Jan Baptist van Helmont\". In Bautz, Traugott (ed.). Biographisch-Bibliographisches Kirchenlexikon (BBKL) (in German). Vol. 25. Nordhausen: Bautz. cols. 597–621. ISBN 3-88309-332-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%A1s",
+        "situacao": "ok",
+        "texto": "Gás é um estado da matéria sem volume nem forma fixos. Um gás se expande até preencher o volume disponível e assume a forma do recipiente que o contém. É uma forma compressível de fluido, em contraste com um líquido, cujo volume varia muito menos sob mudanças de pressão. Um gás puro pode ser formado por átomos individuais, como em um gás nobre como o neônio, ou por moléculas, como oxigênio (O2) e \n[…]\nA palavra gás foi usada pelo químico brabantino ou dos Países Baixos do Sul Jan Baptista van Helmont no início do século XVII. Ele estudou o dióxido de carbono, que distinguiu do ar comum.\n[…]\nA palavra de Van Helmont é geralmente relacionada ao termo em grego antigo χάος, \"caos\". O g neerlandês é pronunciado como uma fricativa velar surda, próxima do som representado por ch em loch. Essa interpretação também se encaixa no vocabulário alquímico usado por Paracelso, para quem chaos podia designar matéria extremamente rarefeita.\n[…]\nOutra explicação, difundida desde o século XVIII, relacionou o termo a gahst ou geist, palavras germânicas ligadas a \"espírito\" ou \"fantasma\". O Oxford English Dictionary rejeita essa derivação. O historiador franco-americano Jacques Barzun propôs outra hipótese, segundo a qual Van Helmont teria tomado a palavra alemã Gäscht, usada para a espuma produzida pela fermentação.\n[…]\nNa terminologia usada em aerodinâmica, um gás termicamente perfeito obedece à equação de estado\n[…]\nmudanças da composição química.\n[…]\nEntre dois estados da mesma quantidade de gás à mesma temperatura,\n[…]\nEm equilíbrio, as propriedades macroscópicas do sistema não apresentam variação temporal espontânea sob as restrições consideradas. A formulação da IUPAC distingue equilíbrio térmico, mecânico e químico. Quando as condições necessárias a todos eles são satisfeitas, o sistema está em equilíbrio termodinâmico completo.\n[…]\nGás de síntese, mistura usada como matéria-prima em processos químicos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Náilon",
+      "descricao": "Fibra sintética criada nos anos 1930 pela química americana, famosa nas meias femininas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O náilon, o teflon e o kevlar, materiais que mudaram o cotidiano no século vinte, saíram dos laboratórios de que empresa americana?",
+    "resposta": "DuPont",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nylon",
+      "https://en.wikipedia.org/wiki/Polytetrafluoroethylene",
+      "https://en.wikipedia.org/wiki/Kevlar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nylon",
+        "situacao": "ok",
+        "texto": "Nylon is a family of synthetic polymers characterized by amide linkages, typically connecting aliphatic or semi-aromatic groups.\n[…]\nThe reactants of nylon soon constituted half of the Ammonia Department's sales and helped them come out of the period of the Great Depression by creating jobs and revenue at DuPont.\n[…]\nAlso, DuPont executives marketing nylon as a revolutionary man-made material did not at first realize that some consumers experienced a sense of unease and distrust, even fear, towards synthetic fabrics. A particularly damaging news story, drawing on DuPont's 1938 patent for the new polymer, suggested that one method of producing nylon might be to use cadaverine (pentamethylenediamine), a chemical extracted from corpses.\n[…]\nDuPont changed its campaign strategy, emphasizing that nylon was made from \"coal, air and water\", and started focusing on the personal and aesthetic aspects of nylon, rather than its intrinsic qualities. Nylon was thus domesticated, and attention shifted to the material and consumer aspect of the fiber with slogans like \"If it's nylon, it's prettier, and oh! How fast it dries!\".\n[…]\nHowever, as of February 11, 1942, nylon production was redirected from being a consumer material to one used by the military. DuPont's production of nylon stockings and other lingerie stopped, and most manufactured nylon was used to make parachutes and tents for World War II. Although nylon stockings already made before the war could be purchased, they were generally sold on the black market for as high as $20.\n[…]\nWallace Carothers at DuPont patented nylon 66.\n[…]\nPA6I/6T DuPont Selar PA\n[…]\nPA66/6T DuPont Zytel HTN"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Polytetrafluoroethylene",
+        "situacao": "ok",
+        "texto": "Polytetrafluoroethylene (PTFE) is a synthetic fluoropolymer of tetrafluoroethylene, and has numerous applications because it is heat resistant and chemically inert. The commonly known brand name of PTFE-based composition is Teflon by Chemours, a spin-off from DuPont, which originally invented the compound in 1938.\n[…]\nAn early use was in the Manhattan Project as a material to coat valves and seals in the pipes holding highly reactive uranium hexafluoride at the vast K-25 uranium enrichment plant in Oak Ridge, Tennessee. By 1948, DuPont, which founded Kinetic Chemicals in partnership with General Motors, was producing over 910,000 kilograms (2,000,000 lb) of Teflon-brand polytetrafluoroethylene per year in Parkersburg, West Virginia.\n[…]\nA 1973 study by DuPont's Haskell Laboratory found that a 4-hour exposure to the fumes emitted by PTFE cookware heated to 280 °C (536 °F) was lethal for parakeets, although that was a higher temperature than the 260 °C (500 °F) required for fumes from pyrolyzed butter to be lethal to the birds.\n[…]\nAs a result of a class-action lawsuit and community settlement with DuPont, three epidemiologists conducted studies on the population of Parkersburg, West Virginia, surrounding the (former DuPont) Chemours Washington Works chemical plant that was exposed to PFOA at levels greater than in the general population.\n[…]\nAs a result of the lawsuits concerning the PFOA class-action lawsuit, DuPont began to use GenX, a similarly fluorinated compound, as a replacement for perfluorooctanoic acid in the manufacture of fluoropolymers, such as Teflon-brand PTFE. However, the EPA has classified GenX as more toxic than PFOA and it has proven to be a \"regrettable substitute\"; its effects may be equally harmful or even more detrimental than those of the chemical it was meant to replace."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kevlar",
+        "situacao": "ok",
+        "texto": "Kevlar (para-aramid) is a strong, heat-resistant synthetic fiber, related to other aramids such as Nomex and Technora. Developed by Stephanie Kwolek at DuPont in 1965, the high-strength material was first used commercially in the early 1970s as a replacement for steel in racing tires. It is typically spun into ropes or fabric sheets that can be used as such, or as an ingredient in composite materi\n[…]\nPoly-paraphenylene terephthalamide (K29) was invented by the American chemist Stephanie Kwolek while working for DuPont, in anticipation of a gasoline shortage. In 1964, her group began searching for a new lightweight strong fiber to use for light, but strong, tires. The polymers she had been working with, poly-p-phenylene-terephthalate and polybenzamide, formed liquid crystals in solution, unlike other polymers at the time.\n[…]\nKevlar 149 was invented by Jacob Lahijani of Dupont in the 1980s.\n[…]\nHexamethylphosphoramide (HMPA) was the solvent initially used for the polymerization, but for safety reasons, DuPont replaced it by a solution of N-methyl-pyrrolidone and calcium chloride. As this process had been patented by Akzo (see above) in the production of Twaron, a patent war ensued.\n[…]\nKevlar is sometimes used as a material on marching snare drums. It allows for an extremely high amount of tension, resulting in a cleaner sound. There is usually a resin poured onto the Kevlar to make the head airtight, and a nylon top layer to provide a flat striking surface. This is one of the primary types of marching snare drum heads. Remo's Falam Slam patch is made with Kevlar and is used to reinforce bass drum heads where the beater strikes.\n[…]\nThe Kevlar fiber/epoxy matrix composite materials can be used in marine current turbines (MCT) or wind turbines due to their high specific strength and light weight compared to other fibers.\n[…]\nMatweb material properties of Kevlar\n[…]\nKevlar at Plastics Wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/N%C3%A1ilon",
+        "situacao": "ok",
+        "texto": "O náilon ou nylon é um nome registrado para a poliamida, sintetizado pelo químico americano Wallace Hume Carothers em 1935. Foi a primeira fibra têxtil sintética produzida. Dos fios desse polímero fabricam-se o velcro e os tecidos usados em meias femininas, roupas íntimas, maiôs, biquínis, bermudas, shorts e outras roupas desportivas. O náilon foi desenvolvido e patenteado pela DuPont.\n[…]\nEm 1927, Dr. Wallace Hume Carothers sai da Harvard para trabalhar na Dupont na área de pesquisa e desenvolvimento, com foco em estudo de polímeros.\n[…]\nA versão oficial contada pela Dupont diz que em 1938, uma lista com possíveis 400 nomes foi avaliada por um comitê e nenhum dos nomes na lista foi aprovado. Então, o Dr. E. K. Gladding, um do membros deste comitê, teria sugerido o nome ‘Noron’ visando o mercado de ações. Glandding corrigiu sua sugestão para ‘Nuron’ e após uma discussão sobre a possível pronúncia e algumas adaptações chegaram ao consenso de Nylon (Nylon).\n[…]\nO náilon é um dos muitos nomes correntes das fibras artificiais mais comuns.\n[…]\nNylon:\n[…]\nDurante uma festa com diplomatas estrangeiros, Andrés comentou sobre seu problema e após a festa um dos convidados, General Lindeman da embaixada britânica, pegou com a família DuPont algumas cordas de Nylon e deu de presente para o Maestro e descobriu-se que as cordas eram perfeitamente adequadas sendo que elas produzem um som mais alto, têm um tom mais consistente e mantêm a afinação mais precisa do que as cordas do intestino.\n[…]\nAlbert Augustine foi o primeiro a usar cordas de Nylon em violões. Durante a guerra, Augustine teve problemas em encontrar fornecedor do material, comprando sobra de equipamentos da guerra com a intenção de reutilizá-los. Eventualmente, Augustine se encontrou com representantes da DuPont para auxiliá-lo na fabricação dos instrumentos. 1948 Augustine começa a produzir comercialmente as primeiras cordas de Nylon.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados em barras paralelas de larguras diferentes, lida por scanners óticos, usada em produtos à venda."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No fim dos anos 1940, Joseph Woodland teve a ideia das barras dos produtos de supermercado ao esticar na areia os pontos e traços de que sistema?",
+    "resposta": "Código Morse",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barcode"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barcode",
+        "situacao": "ok",
+        "texto": "A barcode or bar code is a method of representing data in a visual, machine-readable symbolic form. Initially, barcodes represented data by varying the widths, spacings and sizes of parallel lines. These barcodes, commonly referred to as linear or one-dimensional (1D), can be scanned by optical scanners known as barcode readers. Later, two-dimensional (2D) variants were developed, using rectangles\n[…]\nThe barcode was invented by Norman Joseph Woodland and Bernard Silver and patented in the US in 1952. The invention was based on Morse code that was extended to thin and thick bars. However, it took over twenty years before this invention became commercially successful. UK magazine Modern Railways December 1962 pages 387–389 record how British Railways had already perfected a barcode-reading system capable of correctly reading rolling stock travelling at 100 mph (160 km/h) with no mistakes.\n[…]\nBarcodes became commercially successful after they were adopted to automate supermarket checkout systems, a task for which they have become almost universal. The Uniform Grocery Product Code Council had chosen, in 1973, the barcode design developed by George Laurer. Laurer's barcode, with vertical bars, printed better than the circular barcode developed by Woodland and Silver.\n[…]\nConvinced that the system was workable with further development, Woodland left Drexel, moved into his father's apartment in Florida, and continued working on the system. His next inspiration came from Morse code, and he formed his first barcode from sand on the beach.\n[…]\nSims Supermarkets were the first location in Australia to use barcodes, starting in 1979.\n[…]\nTelevision host Phil Donahue described barcodes as a \"corporate plot against consumers\". Old Believers (a separation of the Russian Orthodox Church) and some Christian fundamentalists believe barcodes are a manifestation of the Number of the beast."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_de_barras",
+        "situacao": "ok",
+        "texto": "Código de barras (em inglês: barcode) é um método de representação de dados de forma visual e legível por máquinas. Inicialmente, os códigos de barras eram representados pela variação das larguras e espaçamentos das linhas paralelas. Esses códigos, agora comumente chamados de lineares ou unidimensionais (1D), podem ser decodificados (lidos) por scanners ópticos especiais, chamados de leitores de c\n[…]\nA primeira patente de um código de barras foi atribuída em 1952 a Joseph Woodland e Bernard Silver. Seu código consistia num padrão de circunferências concéntricas de espessura variável.\n[…]\nEm 1969, a Associação Nacional das Cadeias Alimentares (NAFC) realizou uma reunião, onde se discutiu a ideia de sistemas de verificação geral automatizados. A RCA tinha comprado os direitos à patente de Woodland original, participou da reunião e deu início a um projeto interno para desenvolver um sistema baseado no código bullseye. A cadeia de supermercados Kroger se ofereceu para testá-lo.\n[…]\nA experiência com códigos de barras nas lojas revelou benefícios adicionais. As informações detalhadas de vendas adquiridas pelos novos sistemas permitiram uma maior capacidade de resposta às necessidades dos clientes. Isso se refletiu no fato de que, cerca de cinco semanas depois de instalar scanners de código de barras, as vendas em supermercados normalmente começaram a subir e, eventualmente, nivelou-se em um aumento de 10-12% nas vendas, que nunca caiu.\n[…]\nOs produtos devem ser identificados pelo seu código de barras para este controle de entrada e saída de mercadorias, cadastrando-os no sistema utilizado pela empresa.\n[…]\nMuitas empresas escolhem a ferramenta de código de barras por ser “[...] utilizada em sistemas de pontos-de-venda em supermercados e lojas de varejo. Os códigos podem conter dados de horário, data e localização, além dos dados de identificação” (LAUDON, 2014).\n[…]\nLista de códigos de país GS1",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Alberto Santos-Dumont",
+      "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro da aviação com o 14-Bis e os dirigíveis."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que joalheiro francês, amigo de Santos-Dumont, criou para ele um relógio de pulso, para ver as horas sem tirar as mãos dos comandos?",
+    "resposta": "Louis Cartier",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "situacao": "ok",
+        "texto": "Alberto Santos-Dumont (self-stylised as Alberto Santos=Dumont; 20 July 1873 – 23 July 1932) was a Brazilian aeronaut, sportsman, inventor, and one of the few people to have contributed significantly to the early development of both lighter-than-air and heavier-than-air aircraft. The heir of a wealthy family of coffee producers, he dedicated himself to aeronautical study and experimentation in Pari\n[…]\nOn 25 July 1909, Louis Blériot crossed the English Channel, becoming a hero in France. In a letter, Santos-Dumont congratulated Blériot, his friend, with the following words: \"This transformation of geography is a victory of air navigation over sea navigation. One day, perhaps, thanks to you, the airplane will cross the Atlantic\". Blériot then replied, \"I have done nothing but follow and imitate you. Your name to the aviators is a flag.\n[…]\nIn 1904, renowned French jeweller Louis Cartier debuted the Santos-Dumont, a watch designed for the aviator himself. It was the first wristwatch the Maison made, and the collection retails to this day.\n[…]\nSantos-Dumont's friend Louis Cartier created a wristwatch for him in 1904. Up to that point, only women had wristwatches as they were considered a jewelry or fashion item only suitable for women; men only carried pocket watches. But Santos-Dumont needed both hands for flying and so Cartier created a wristwatch with a leather strap for him and called it the Cartier-Santos-Dumont.\n[…]\nAfter his 1906 exploits, Santos-Dumont's picture was everywhere wearing the watch, and soon after, wristwatches became popular among men, possibly due to the publicity involving  the watch Cartier made for his friend.\n[…]\nOver a century later, Cartier produced a series of watches named after him, celebrating the partnership between him and the brand. As a publicity piece, an award-winning film was made by France's Quad Productions entitled \"L'Odyssée de Cartier\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santos_Dumont",
+        "situacao": "ok",
+        "texto": "Alberto Santos Dumont (Palmira, 20 de julho de 1873 – Guarujá, 23 de julho de 1932) foi um aeronauta, esportista, autodidata e inventor brasileiro. Santos Dumont projetou, construiu e voou os primeiros balões dirigíveis com motor a gasolina. Esse mérito lhe é garantido internacionalmente pela conquista do Prêmio Deutsch em 1901, quando em um voo contornou a Torre Eiffel com o seu dirigível Nº 6, t\n[…]\nO estadunidense solicitou que Dumont criasse o Aero Clube dos EUA e ao explicar o motivo de não cobrar por demonstrações em Saint Louis, Dumont disse: \"sou um amador\". Após o encontro com Edison, Dumont declarou à imprensa estadunidense que não pretendia patentear suas aeronaves.\n[…]\nEm 25 de julho de 1909, Louis Blériot atravessou o Canal da Mancha, tornando-se um herói na França. Santos Dumont, em carta, parabenizou Blériot, seu amigo, com as seguintes palavras: \"Esta transformação da geografia é uma vitória da navegação aérea sobre a navegação marítima. Um dia, talvez, graças a você, o avião atravessará o Atlântico\". Blériot, então, respondeu: \"Eu não fiz mais do que segui-lo e imitá-lo. Seu nome para os aviadores é uma bandeira. Você é o nosso líder\".\n[…]\nEm 2012, a Cartier produziu uma série de relógios com o nome do piloto brasileiro, celebrando a parceria entre a marca e Santos Dumont, responsável pelo desenho que até hoje é característico da empresa; como peça publicitária foi realizado um premiado filme pela francesa Quad Productions France com animação digital a mesclar-se em locações reais, em que aparece o piloto brasileiro interagindo com um leopardo, figura central da peça — intitulada L'Odyssée de Cartier.\n[…]\nA documentação da época não provê uma boa quantidade de informações para determinar que Santos Dumont tenha sofrido por esclerose múltipla.\n[…]\nColeção Santos Dumont\n[…]\nSantos Dumont — Academia Brasileira de Letras\n[…]\n«Histórias do Brasil - Santos Dumont»  — TV Senado",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Nicolas Appert",
+      "descricao": "Confeiteiro francês (1749–1841) que criou o método de conservar alimentos cozidos em recipientes hermeticamente fechados."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No início do século dezenove, o francês Nicolas Appert, pai das conservas, fechava alimentos cozidos em recipientes de que material?",
+    "resposta": "Vidro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nicolas_Appert"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nicolas_Appert",
+        "situacao": "ok",
+        "texto": "Nicolas Appert (17 November 1749 – 1 June 1841) was a French confectioner and inventor who, in the early 19th century, invented airtight food preservation. Appert, known as the \"father of food science\", described his invention as a way \"of conserving all kinds of food substances in containers\".\n[…]\nAppert's canned goods were widely appreciated, especially by naval services as the products were far superior to the dried and salted provisions on which they had previously relied. Cans were exported to Bavaria and Saint Petersburg, and received praise from newspapers across France. However, this did not translate into financial success.\n[…]\nIn 1985 a street in Paris, the Rue Nicolas-Appert, was constructed and named in his honour. Many other streets in France bear his name.\n[…]\nThere is a high school named after Nicolas Appert in Orvault, France.\n[…]\n2010 was declared Nicolas Appert Year, a national celebration, by the French ministry of culture. The Principality of Monaco issued a postage stamp featuring Appert. An exhibition entitled \"Mise en boîte\" was held at the Musée des Beaux-Arts et d'Archéologie de Châlons-en-Champagne.\n[…]\nSince 1942, each year the Chicago section of the Institute of Food Technologists has awarded the Nicolas Appert Award, recognizing lifetime achievement in food technology.\n[…]\nThe student association of the Food Technology education at Wageningen University is called Nicolas Appert. Since 1962 this association has focused on improving courses related to food technology education and organises several events each year for students and alumni. In 2022 the association celebrated its 12th lustrum.\n[…]\nAppert-aina.com Archived 4 September 2011 at the Wayback Machine\n[…]\nStudy association Nicolas Appert\n[…]\nWorks by Nicolas Appert at Project Gutenberg"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nicolas_Appert",
+        "situacao": "ok",
+        "texto": "Nicolas Appert (Châlons-en-Champagne, 17 de novembro de 1749 – Massy, 1 de junho de 1841) foi um inventor e industrial francês. Descobriu que o aquecimento de alimentos em recipientes fechados poderia interromper o processo de fermentação. Em 1795 iniciou a comercialização de alimentos conservados em garrafas. Suas técnicas foram as precursoras dos métodos atuais de conservação de alimentos em lat\n[…]\nColocou a comida em potes de vidro, lacrou-os com rolha e lacre e colocou-os em água fervente (anos mais tarde, passou a usar autoclave). Acredita-se que essa técnica já era usada por donas de casa, mas Appert foi o primeiro a fazê-lo em escala industrial.\n[…]\nEm 1804, La Maison Appert, na cidade de Massy, perto de Paris, se tornou a primeira fábrica de engarrafamento de alimentos do mundo, anos antes de Louis Pasteur provar que o calor matava bactérias. Appert abriu uma empresa para preservar uma variedade de alimentos em garrafas lacradas. O método de Appert consistia em encher garrafas de vidro grossas e de boca grande com produtos de todas as espécies, desde carne de vaca, aves, ovos, leite e pratos preparados.\n[…]\nApesar de seus sucessos, Appert teve problemas financeiros devido ao alto custo de seu equipamento e ao fato de não ser um bom empresário. Ele declarou falência em 1806, mas conseguiu continuar seu negócio. Em 1795, Napoleão ofereceu um prêmio de 12 mil francos por um novo método de conservação de alimentos. Em 1806, Appert apresentou uma seleção de frutas e vegetais engarrafados de sua manufatura na Exposition des produits de l'industrie française, mas não ganhou nenhuma recompensa.\n[…]\nEste foi o primeiro livro de receitas de seu tipo em métodos modernos de preservação de alimentos.\n[…]\nPrémio Nicholas Appert\n[…]\nNicolas Appert - \"Le Livre de tous les Ménages\" (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Vulcanização",
+      "descricao": "Processo químico que torna a borracha mais resistente e elástica, desenvolvido por Charles Goodyear em 1839."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1839, Charles Goodyear descobriu a vulcanização ao aquecer borracha misturada com que elemento químico?",
+    "resposta": "Enxofre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Goodyear",
+      "https://en.wikipedia.org/wiki/Vulcanization"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+        "situacao": "ok",
+        "texto": "Charles Goodyear (December 29, 1800 – July 1, 1860) was an American self-taught chemist and manufacturing engineer who developed vulcanized rubber, for which he received patent number 3633 from the United States Patent Office on June 15, 1844.\n[…]\nOn August 3, 1824, he married Clarissa Beecher, whom he met at his Congregational Church. Two years later the family moved to Philadelphia, and there Charles Goodyear opened a hardware store. This is where he did most of his work.\n[…]\nFrom 1834 through 1839, Goodyear worked anywhere he could find investors, and often moved locations, mostly within New York, Massachusetts, Philadelphia, and Connecticut. In 1839, Goodyear was at the Eagle India Rubber Company in Woburn, Massachusetts, where he discovered that combining rubber and sulfur over a hot stove caused the rubber to become rigid, a process which he called vulcanization because of the heat involved.\n[…]\nIn 1852, Goodyear went to Europe, a trip that he had long planned, and saw Thomas Hancock, then in the employ of Charles Macintosh & Company. Hancock claimed to have invented vulcanization independently, and received a British patent, initiated in 1843, but finalized in 1844. In 1855, in the last of three patent disputes with fellow British rubber pioneer, Stephen Moulton, Hancock's patent was challenged with the claim that Hancock had copied Goodyear. Goodyear attended the trial.\n[…]\nThe Goodyear welt, a technique in shoemaking, was named after and in honor of its inventor, Charles' son; Charles Goodyear Jr.\n[…]\nLeverett Candee, first person to manufacture rubber footwear under the Goodyear vulcanization process.\n[…]\nWorks by or about Charles Goodyear at the Internet Archive\n[…]\nThe Charles Goodyear Story Archived 2008-05-09 at the Wayback Machine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vulcanization",
+        "situacao": "ok",
+        "texto": "Vulcanization (British English: vulcanisation) is a range of processes for hardening rubbers. The term originally referred exclusively to the treatment of natural rubber with sulfur and heat, which remains the most common practice. It has also grown to include the hardening of other (synthetic) rubbers via various means. Examples include silicone rubber via room temperature vulcanising and chlorop\n[…]\nIn the 1830s, Charles Goodyear worked to devise a process for strengthening rubber tires. Tires of the time would become soft and sticky with heat, accumulating road debris. Goodyear tried heating rubber in order to mix other chemicals with it. This seemed to harden and improve the rubber, though this was due to the heating itself and not the chemicals used. Not realizing this, he repeatedly ran into setbacks when his announced hardening formulas did not work consistently.\n[…]\nOne day in 1839, when trying to mix rubber with sulfur, Goodyear accidentally dropped the mixture in a hot frying pan. To his astonishment, instead of melting further or vaporizing, the rubber remained firm and, as he increased the heat, the rubber became harder. Goodyear worked out a consistent system for this hardening, and by 1844 patented the process and was producing the rubber on an industrial scale.\n[…]\nOn 21 November 1843, British inventor, Thomas Hancock took out a patent for the vulcanization of rubber using sulfur, eight weeks before Charles Goodyear did the same in the US (30 January 1844). Accounts differ as to whether Hancock's patent was informed by inspecting samples of American rubber from Goodyear and whether inspecting such samples could have provided information sufficient to recreate Goodyear's process.\n[…]\nVulcanized fibre\n[…]\nVulcanizing shop"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Goodyear",
+        "situacao": "ok",
+        "texto": "Charles Goodyear (New Haven, 29 de dezembro de 1800 – Nova Iorque, 1 de julho de 1860) foi um inventor estadunidense, conhecido por ter descoberto a vulcanização da borracha.\n[…]\nA pedido do gerente da Roxbury Rubber Company, de Boston, começou a estudar a forma de a borracha resistir a variações de temperatura. Após várias tentativas sem sucesso, conseguiu, utilizando um método em que misturava enxofre com borracha e colocava em alta temperatura, obtendo borracha vulcanizada. Em 1855, recebeu a Grande Médaille d'Honneur e a Croix de la Légion d'Honneur.\n[…]\nDe 1834 a 1839, Goodyear trabalhou em qualquer lugar em que pudesse encontrar investidores e muitas vezes mudou-se para locais, principalmente em Nova York, Massachusetts, Filadélfia e Connecticut. Em 1839, Goodyear estava na Eagle India Rubber Company em Woburn, Massachusetts, onde acidentalmente descobriu que a combinação de borracha e enxofre em um fogão quente fazia com que a borracha vulcanizasse.\n[…]\nPara isso, Goodyear e Nathaniel Hayward receberam a patente dos EUA número 1 090 em 24 de fevereiro do mesmo ano.\n[…]\nGoodyear vendeu algumas dessas patentes para Hiram Hutchinson, que fundou Hutchinson, uma empresa de borracha na França em 1853.\n[…]\nGoodyear compareceu ao julgamento. Se Hancock perdesse, Goodyear poderia ter seu próprio pedido de patente britânica concedido, permitindo-lhe reivindicar royalties de Hancock e Moulton. Ambos haviam examinado a borracha vulcanizada de Goodyear em 1842, mas vários químicos testemunharam que não seria possível determinar como ela era feita estudando-a. Hancock prevaleceu.\n[…]\nBiografia de Charles Goodyear",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Concreto romano",
+      "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O concreto romano, que mantém o Panteão de Roma de pé há quase dois mil anos, levava um tipo de cinza de que origem?",
+    "resposta": "Vulcânica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_concrete"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_concrete",
+        "situacao": "ok",
+        "texto": "Roman concrete, also called opus caementicium, was used in construction in ancient Rome. Like its modern equivalent, Roman concrete was based on a hydraulic-setting cement added to an aggregate.\n[…]\nAnother technology used to improve the strength and stability of concrete was its gradation in domes. One example is the Pantheon, where the aggregate of the upper dome region consists of alternating layers of light tuff and pumice, giving the concrete a density of 1,350 kilograms per cubic metre (84 lb/cu ft). The foundation of the structure used travertine as an aggregate, having a much higher density of 2,200 kilograms per cubic metre (140 lb/cu ft).\n[…]\nIt also has a reduced environmental footprint, due to its lower cooking temperature and much longer lifespan. Usable examples of Roman concrete exposed to harsh marine environments have been found to be 2000 years old with little or no wear.\n[…]\nIn 2013, the University of California Berkeley published an article that described for the first time the mechanism by which the suprastable calcium-aluminium-silicate-hydrate compound binds the material together. During its production, less carbon dioxide is released into the atmosphere than any modern concrete production process. It is no coincidence that the walls of Roman buildings are thicker than those of modern buildings.\n[…]\nHowever, Roman concrete was still gaining its strength for several decades after construction had been completed.\n[…]\nHunt, Katie (2023-01-06). \"Why Roman concrete outlasts its modern counterpart\". CNN. Retrieved 2023-01-07.\n[…]\nPreuss, Paul (2013-06-04). \"Roman Seawater Concrete Holds the Secret to Cutting Carbon Emissions\". Berkeley Lab News Center. Retrieved 2023-01-07."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Opus_caementicium",
+        "situacao": "ok",
+        "texto": "Opus caementicium, também chamado de cimento romano, é uma técnica de construção civil utilizada pelos antigos romanos a partir do final da República Romana até a decadência do Império Romano. As pedras eram unidas com cimento e, na maioria dos casos, a estrutura das construções era revestida, a fim de se tornar mais atraente, do ponto de vista estético.\n[…]\nIsso explica por que as barragens marítimas construídas na Roma Antiga, que continham uma mistura de cal e cinza vulcânica para manter as rochas unidas, resistiram ao tempo e à erosão. Segundo os pesquisadores, o material vulcânico reagiu com a água do mar, fortalecendo a construção.\n[…]\nExistem várias formas de aplicação do opus caementicium:\n[…]\nGesso e cal virgem foram utilizados como ligantes. As poeiras vulcânicas, chamadas pozolana, ou \"areia do poço\", eram favorecidas onde podiam ser obtidas. Pozzolana torna o concreto mais resistente à água salgada do que o concreto moderno. A argamassa pozolânica tinha um alto teor de alumina e sílica.\n[…]\nEntende-se que a resistência e longevidade do concreto \"marinho\" romano se beneficia de uma reação da água do mar com uma mistura de cinzas vulcânicas e cal virgem para criar um cristal raro chamado tobermorita, que pode resistir à fratura. À medida que a água do mar percolava dentro das pequenas rachaduras no concreto romano, ela reagia com a phillipsite naturalmente encontrada na rocha vulcânica e criava cristais de tobermorita aluminosos.\n[…]\nOs estudos científicos do concreto romano desde 2010 têm atraído a atenção da mídia e da indústria. Devido à sua durabilidade incomum, longevidade e menor pegada ambiental, corporações e municípios estão começando a explorar o uso de concreto de estilo romano na América do Norte. Isso envolve a substituição das cinzas vulcânicas por cinzas volantes de carvão que têm propriedades semelhantes.\n[…]\nTijolo romano",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Sismoscópio de Zhang Heng",
+      "descricao": "Detector de terremotos criado pelo sábio chinês Zhang Heng no ano 132, com cabeças de dragão que soltavam bolinhas."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No ano 132, na China, Zhang Heng criou um detector de terremotos em que dragões soltavam bolinhas na boca de que animais?",
+    "resposta": "Sapos",
+    "distratores": [
+      "Tartarugas",
+      "Tigres",
+      "Peixes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zhang_Heng",
+      "https://en.wikipedia.org/wiki/Seismometer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zhang_Heng",
+        "situacao": "ok",
+        "texto": "Zhang Heng (Chinese: 張衡; AD 78 – 139), courtesy name Pingzi, formerly romanized Chang Heng, was a Chinese polymathic scientist and statesman who lived during the Eastern Han dynasty. Educated in the capital cities of Luoyang and Chang'an, he achieved success as an astronomer, mathematician, seismologist, hydraulic engineer, inventor, geographer, cartographer, ethnographer, artist, poet, philosophe\n[…]\nIn Zhang Heng's poem \"Four Sorrows\", he laments that he is unable to woo a beautiful woman due to the impediment of mountains, snows and rivers. Scholars Rafe de Crespigny and David R. Knechtges claim that Zhang wrote this as an innuendo hinting at his inability to keep in contact with the emperor, hindered by unworthy rivals and petty men. This poem is one of the first in China to have seven words per line. His \"Four Sorrows\" reads:\n[…]\nWhat were the factors leading to the first escapement clock in China? The chief tradition leading to Yi Xing (AD 725 ) was of course the succession of 'pre-clocks' which had started with Zhang Heng about 125.\n[…]\nIn 132, Zhang Heng presented to the Han court what many historians consider to be his most impressive invention, the first seismoscope. A seismoscope records the motions of Earth's shaking, but unlike a seismometer, it does not retain a time record of those motions. It was named \"earthquake weathervane\" (hòufēng dìdòngyí 候風地動儀), and it was able to roughly determine the direction (out of eight directions) where the earthquake came from.\n[…]\nSeveral things have been named after Zhang in modern times, including the lunar crater Chang Heng, the asteroid 1802 Zhang Heng, and the mineral zhanghengite. In 2018, China launched a research satellite called China Seismo-Electromagnetic Satellite (CSES) which is also named Zhangheng-1 (ZH-1).\n[…]\nLien, Y. Edmund (2011). Zhang Heng, Eastern Han Polymath, His Life and Works (PhD thesis). University of Washington."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Seismometer",
+        "situacao": "ok",
+        "texto": "A seismometer is an instrument that responds to ground displacement and shaking caused by quakes, volcanic eruptions, and explosions. They are usually combined with a timing device and a recording device to form a seismograph. The output of such a device—formerly recorded on paper (see picture) or film, now recorded and processed digitally—is a seismogram. Such data is used to locate and character\n[…]\nThe first seismometer was made in China during the 2nd century. It was invented by Zhang Heng, a Chinese mathematician and astronomer. The first Western description of the device comes from the French physicist and priest Jean de Hautefeuille in 1703. The modern seismometer was developed in the 19th century.\n[…]\nSome secondary sources mention unverified claims that a device resembling an earthquake detector may have existed in Ancient Egypt, but as of January 2026, no reliable historical sources confirm this, and the earliest well-documented seismoscope was invented in China by Zhang Heng in AD 132.\n[…]\nIn AD 132, Zhang Heng of China's Han dynasty is said to have invented the first seismoscope (by the definition above), which was called Houfeng Didong Yi (translated as, \"instrument for measuring the seasonal winds and the movements of the Earth\"). The description we have, from the History of the Later Han Dynasty, says that it was a large bronze vessel, about 2 meters in diameter; at eight points around the top were dragon's heads holding bronze balls.\n[…]\nA new technique for detecting earthquakes has been found, using fiber optic cables.\n[…]\nResearchers at Stanford University created a deep-learning algorithm called UrbanDenoiser which can detect earthquakes, particularly in urban cities. The algorithm filters out the background noise from the seismic noise gathered from busy cities in urban areas to detect earthquakes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zhang_Heng",
+        "situacao": "ok",
+        "texto": "Zhang Heng (chinês simplificado: 张衡; chinês tradicional: 張衡; pinyin: Zhāng Héng; Wade–Giles: Chang Hêng;78–139 d.C.) foi um polímata chinês de Nanyang que viveu durante a dinastia Han. Foi educado nas capitais de Luoyang e Chang'an, e foi um cientista, astrônomo, pintor e erudito da literatura chinesa.\n[…]\nou 3.141592, o cálculo mais preciso de pi encontrado da China Antiga.\n[…]\nEm 132, Zhang Heng apresentou para a corte de Han que muitos historiadores consideram ser sua invenção mais expressiva, o primeiro sismógrafo. Ele foi nomeado de Houfeng didong yi (候風地動儀, lit. um instrumento para mensurar os ventos sazonais e os movimentos da Terra), e ele foi habilitado à cerca (saída de oito direções) aonde os terremotos venham surgir.\n[…]\nPara indicar a direção de um terremoto distante, o equipamento de Zhang soltava uma bola de bronze para um dos oito projeções incubadas em forma de cabeça de dragão, a bola caia dentro do bocal de um objeto de metal correspondente em forma de como um sapo, cada um representando uma direção dos pontos da rosa dos ventos. Seu equipamento tinha oito braços móveis (todos com oito direções) conectados com manivelas tendo mecanismos manuais na periferia.\n[…]\nO modelo cósmico de nove pontos do céu correspondendo com as nove regiões da terra concebida no trabalho de erudito-oficial de Chen Hongmou (1696–1771) seguido na tradição do livro de Zhang Spiritual Constitution of the Universe (tradução livre:  Constituição Espiritual do Universo). O sismologista John Milne, que criou o sismógrafo moderno em 1876 ao lado de Thomas Gray e James A. Ewing no Colégio Imperial de Engenharia em Tóquio, comentava em 1886 das contribuições de Zhang Heng na sismologia.\n[…]\n«Zhang Heng, um grande inventor na antiga China, Epoch Times.»\n[…]\n«Zhang Heng em Chinaculture.org» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Calendário gregoriano",
+      "descricao": "Calendário instituído em 1582 pelo papa Gregório XIII, usado hoje em quase todo o mundo."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1582, para acertar o calendário com as estações, os países católicos que adotaram o calendário gregoriano pularam quantos dias de uma vez?",
+    "resposta": "Dez dias",
+    "distratores": [
+      "Três dias",
+      "Sete dias",
+      "Quinze dias"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregorian_calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+        "situacao": "ok",
+        "texto": "The Gregorian calendar is the calendar currently used in most parts of the world. It went into effect in October 1582 following the papal bull Inter gravissimas issued by Pope Gregory XIII, which introduced it as a modification of, and replacement for, the Julian calendar.\n[…]\nDuring the period between 1582, when the first countries adopted the Gregorian calendar, and 1923, when the last European country adopted it, it was often necessary to indicate the date of some event in both the Julian calendar and in the Gregorian calendar, for example, \"10/21 February 1750/51\", where the dual year accounts for some countries already beginning their numbered year on 1 January while others were still using some other date.\n[…]\n\"Old Style\" (O.S.) and \"New Style\" (N.S.) indicate dating systems before and after a calendar change, respectively. Usually, this is the change from the Julian calendar to the Gregorian calendar as enacted in various European countries between 1582 and the early 20th century.\n[…]\nExtending the Gregorian calendar backwards to dates preceding its official introduction in a particular jurisdiction produces a proleptic calendar, which should be used with some caution. For ordinary purposes, the dates of events occurring prior to 15 October 1582 are generally shown as they appeared in the Julian calendar, with the year starting on 1 January, and no conversion to a putative Gregorian equivalents.\n[…]\nFor example, in the case of the few countries that adopted the reformed calendar on the date proposed by Gregory XIII for the calendar's adoption, Friday, 15 October 1582, the preceding date was Thursday, 4 October 1582 (Julian calendar).\n[…]\nList of calendars\n[…]\nCalendar Converter\n[…]\nWorld records for mentally calculating the day of the week in the Gregorian Calendar"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_gregoriano",
+        "situacao": "ok",
+        "texto": "O calendário gregoriano é o sistema usado na maior parte do mundo, inclusive no Brasil e em Portugal, para organizar os dias em anos, meses e semanas. É a principal referência internacional para datas civis, administrativas e comerciais. Em 2026, o calendário gregoriano fazia parte da vida de cerca de 8 bilhões de pessoas, mais de 96% da população mundial.\n[…]\nO calendário gregoriano é a referência civil predominante no mundo. Alguns países mantêm outros calendários para fins religiosos, culturais ou administrativos e os usam ao lado dele, enquanto outros conservam os meses e dias gregorianos mas numeram os anos segundo uma era diferente. Afeganistão, Etiópia, Irã e Nepal estão entre os poucos países que não adotaram o calendário gregoriano como calendário civil.\n[…]\nPara facilitar a comparação, esta seção situa sempre o dia intercalar em 29 de fevereiro, embora até o fim da Idade Média ele fosse obtido pela repetição de 24 de fevereiro, o bissextum, ou \"sexto dia repetido\". Nas datas anteriores a 1582, as regras gregorianas só podem ser usadas de modo retrospectivo, formando o calendário proléptico. A diferença entre as datas gregorianas e julianas aumenta três dias a cada quatro séculos, e todos os intervalos da tabela são inclusivos.\n[…]\nA maior parte da Europa Ocidental transferiu o início do ano para 1.º de janeiro antes de adotar o calendário gregoriano. A Escócia começou o Ano-Novo nessa data em 1600, fazendo de 1599 um ano curto. Inglaterra, Irlanda e as colônias britânicas mudaram em 1752, e 1751 teve apenas 282 dias. Em setembro daquele ano, o calendário gregoriano entrou em vigor em toda a Grã-Bretanha e suas colônias, como se detalha em Adoção. As duas reformas decorreram da Lei do Calendário de 1750.\n[…]\nCalendário perpétuo, calendário concebido para conservar a mesma relação entre datas e dias da semana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Louis Braille",
+      "descricao": "Educador francês (1809–1852), cego desde a infância, criador do sistema de leitura e escrita com pontos em relevo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Louis Braille, que ficou cego ainda criança, criou seu sistema de leitura com pontos em relevo com cerca de que idade?",
+    "resposta": "Quinze anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_Braille"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Louis_Braille",
+        "situacao": "ok",
+        "texto": "Louis Braille ( BRAYL; French: [lwi bʁɑj] ; 4 January 1809 – 6 January 1852) was a French educator and the inventor of a reading and writing system named after him, braille, intended for use by visually impaired people. His system is used worldwide and remains virtually unchanged to this day.\n[…]\nThe immense personal legacy of Louis Braille was described in a 1952 essay by T. S. Eliot:\n[…]\nA Google Doodle for Louis Braille's 197th birthday in 2006 was shown on Google's homepage, spelling \"Google\" in braille.\n[…]\nWorld Braille Day is celebrated every year on Braille's birthday, 4 January, since 2019.\n[…]\nIn music, Braille's life was subject of the song Merci, Louis, composed by the Halifax singer-songwriter Terry Kelly, chair of the Canadian Braille Literacy Foundation. The Braille Legacy, a musical which tells the story of Louis Braille, directed by Thom Southerland and starring Jérôme Pradon, debuted at the Charing Cross Theatre in April 2017.\n[…]\nBickel, Lennard (1989). Triumph Over Darkness: The Life of Louis Braille. Leicester: Ulverscroft. ISBN 978-0708920046. (also large print)\n[…]\nKugelmass, J. Alvin (1951). Louis Braille: Windows for the Blind. New York: Julian Messner Inc. OCLC 8989771.\n[…]\nMellor, C. Michael (2006). Louis Braille: A Touch of Genius. Boston: National Braille Press. ISBN 978-0-939173-70-9.\n[…]\nWeygand, Zina (2009). The Blind in French Society: From the Middle Ages to the century of Louis Braille. Stanford, CA: Stanford University Press. ISBN 978-0-8047-5768-3.\n[…]\nHenri, Pierre (1952). La vie et l'oeuvre de Louis Braille: Inventeur de l'alphabet des aveugles (1809–1852) (in French) by. Paris: Presses universitaires de France. OCLC 299733373.\n[…]\nMusée Louis Braille\n[…]\nLouis Braille Online Museum – American Foundation for the Blind (AFB)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Louis_Braille",
+        "situacao": "ok",
+        "texto": "Louis Braille (Coupvray, 4 de janeiro de 1809 — Paris, 6 de janeiro de 1852), mais raramente Luís Braille, foi o criador do sistema de leitura por tato para cegos que recebeu seu nome, braille.\n[…]\nEm 1821, quando Louis Braille tinha somente 12 anos, Charles Barbier, capitão reformado da artilharia francesa, visitou o instituto onde apresentou um sistema de comunicação chamado de escrita noturna, também conhecido por Serre e que mais tarde veio a ser chamado de sonografia.\n[…]\nEm 1824, com apenas 15 anos, Louis Braille terminou o seu sistema de células com seis pontos. Pouco depois, ele mesmo começou a ensinar no instituto e, em 1829, publicou o seu método exclusivo de comunicação que hoje tem o seu nome. Exceto algumas pequenas melhorias, o sistema permanece basicamente o mesmo até hoje.\n[…]\nAs combinações restantes, ainda possíveis visto que 63 hipóteses de combinação dos pontos, são usadas para pontuação, contrações e abreviaturas especiais. Estas contrações e abreviaturas às vezes tornam o braille difícil de aprender. Isto acontece especialmente no caso de pessoas que ficam cegas numa idade mais avançada, visto que a única forma de aprender braile é memorizar todos os sinais. Por esse motivo, há vários \"graus\" de braille.\n[…]\nO braille provou ser muito adaptável como meio de comunicação. Quando Louis Braille inicialmente inventou o sistema de leitura, aplicou-o à notação musical. O método funciona tão bem que a leitura e escrita de música é mais fácil para os cegos do que para os que vêem. Vários termos matemáticos, científicos e químicos têm sido transpostos para o braille, abrindo amplos depósitos de conhecimento para os leitores cegos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Play-Doh",
+      "descricao": "Massinha de modelar infantil lançada como brinquedo nos Estados Unidos nos anos 1950."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar a massinha de modelar Play-Doh, nos anos 1950, o produto era vendido para limpar o quê?",
+    "resposta": "Papel de parede",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Play-Doh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Play-Doh",
+        "situacao": "ok",
+        "texto": "Play-Doh, also known as Play-Dough, is an American brand of modeling compound marketed for young children to make arts and crafts projects. The product was first manufactured in Cincinnati, Ohio, as a wallpaper cleaner in the 1930s. Play-Doh was then reworked and marketed to Cincinnati schools in the mid-1950s. Play-Doh was demonstrated at an educational convention in 1956 and prominent department\n[…]\nPlay-Doh was inducted into the National Toy Hall of Fame at The Strong in Rochester, New York, in 1998.\n[…]\nIn 1960, the Play-Doh Fun Factory (a toy press that extrudes the compound in various shapes) was invented by Bob Boggild and Bill Dale. The Play-Doh Fuzzy Pumper Barber & Beauty Shop of 1977 and Mop Top Hair Shop of 1986 featured a figurine whose extruded \"hair\" could be styled.\n[…]\nIn 1996, an educational software CD-ROM game, Play-Doh Creations was released.\n[…]\nIn 2003, the Play-Doh Creativity Table was sold. Play-Doh related merchandise introduced during the 2007 anniversary year included the Play-Doh Birthday Bucket, the Play-Doh Fifty Colors Pack, the Fuzzy Pumper Crazy Cuts (a reworking of the 1977 Fuzzy Pumper Barber & Beauty Shop), and the Play-Doh Creativity Center. In 2013, \"Play-Doh Plus\" was introduced. It is lighter, more pliable, and softer than regular Play-Doh.\n[…]\nA game show adaptation produced by Hasbro's former entertainment division Entertainment One started streaming on Amazon Freevee (then known as IMDb TV), called Play-Doh Squished. Initially a holiday special on December 10, 2021, it became a full-length series on November 11, 2022. The competition show is hosted by Sarah Hyland.\n[…]\nPlay-Doh, sculpture by Jeff Koons\n[…]\nPlay-Doh on Instagram\n[…]\nPlay-Doh began as wall cleaner | Our History\n[…]\nPlaymakers Part II: Play-Doh Archived 2015-11-27 at the Wayback Machine\n[…]\nThe Accidental Invention of Play-Doh, by David Kindy, smithsonian.com, November 12, 2019"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Concreto armado",
+      "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1867, o jardineiro francês Joseph Monier patenteou o concreto reforçado com ferro, que usava para fabricar o quê?",
+    "resposta": "Vasos de plantas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph_Monier",
+      "https://en.wikipedia.org/wiki/Reinforced_concrete"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Monier",
+        "situacao": "ok",
+        "texto": "Joseph Monier  (French: [mɔnje]; 8 November 1823 – 13 March 1906) was a French gardener and one of the principal inventors of reinforced concrete.\n[…]\nMonier exhibited his invention at the Paris Exposition of 1867. He obtained his first patent on 16 July 1867, on iron-reinforced troughs for horticulture. He continued to find new uses for the material, and obtained more patents — iron-reinforced concrete pipes and basins (1868); iron-reinforced concrete panels for building façades (1869); bridges made of iron-reinforced concrete (1873); reinforced concrete beams (1878).\n[…]\nIn retirement, Monier was harassed by bailiffs and by the tax office, which reasoned that he should have been receiving large commissions from his many foreign patents. He sought refuge in the house of his son Lucien, by his second wife. In 1902 a number of foreign firms that had profited from his patents appealed to the President of France to grant him a pension, describing him as the inventor of reinforced concrete, and as their \"former master\" (ancien maître).\n[…]\nMonier pipes produced by Gummow Forrest & Co, joined end-to-end, were used as tubular foundations for a number of bridges built by the Public Works Department of NSW, the first being over Cockle Creek near Newcastle. Joseph's name was perpetuated in the Monier Pipe Company of Melbourne, and its successor, the Monier Pipe & Reinforced Concrete Construction Company. The engineer for these companies was (Sir) John Monash. About 20 Monier arch bridges were built in Victoria.\n[…]\nJoseph Monier at Structurae – chronology and references"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Reinforced_concrete",
+        "situacao": "ok",
+        "texto": "Reinforced concrete, also called ferroconcrete or ferro-concrete, is a composite material in which concrete's relatively low tensile strength and ductility are compensated for by the inclusion of reinforcement having higher tensile strength or ductility. The reinforcement is usually, though not necessarily, steel reinforcing bars (known as rebar) and is usually embedded passively in the concrete b\n[…]\nThe early development of reinforced concrete took place in parallel in England and France during the mid-19th century.\n[…]\nJoseph Monier, a 19th-century French gardener, was a pioneer in the development of structural, prefabricated and reinforced concrete, having been dissatisfied with the existing materials available for making durable flowerpots. He was granted a patent for reinforcing concrete flowerpots by means of mixing a wire mesh and a mortar shell in 1867.\n[…]\nIn 1877, Monier was granted another patent for a more advanced technique of reinforcing concrete columns and girders, using iron rods placed in a grid pattern. Though Monier undoubtedly knew that reinforcing concrete would improve its inner cohesion, it is not clear whether he even knew how much the tensile strength of concrete was improved by the reinforcing.\n[…]\nG. A. Wayss was a German civil engineer and a pioneer of the iron and steel concrete construction. In 1879, Wayss bought the German rights to Monier's patents and, in 1884, his firm, Wayss & Freytag, made the first commercial use of reinforced concrete. Up until the 1890s, Wayss and his firm greatly contributed to the advancement of Monier's system of reinforcing, establishing it as a well-developed scientific technology.\n[…]\nDaniel R., Formwork UK \"Concrete frame structures.\".\n[…]\nEisenbach, Philipp (2017). \"Concrete in the 19th century\". Processing of Slender Concrete Shells - Fabrication and Installation. Kassel: Kassel University Press. pp. 49–51. ISBN 978-3-7376-0259-4."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Johannes Kepler",
+      "descricao": "Astrônomo e matemático alemão (1571–1630), autor das leis do movimento planetário."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "No século dezessete, que astrônomo alemão, famoso pelas leis do movimento dos planetas, defendeu a própria mãe num julgamento por bruxaria?",
+    "resposta": "Johannes Kepler",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Johannes_Kepler",
+      "https://en.wikipedia.org/wiki/Katharina_Kepler"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+        "situacao": "ok",
+        "texto": "Johannes Kepler (27 December 1571 – 15 November 1630) was a German polymath who was an astronomer, mathematician, astrologer, natural philosopher and music theorist. He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonice Mundi, and Epitome Astronomiae Copernicanae.\n[…]\nWith the help of Johannes Jessenius, Kepler attempted to negotiate a more formal employment arrangement with Tycho, but negotiations broke down in an angry argument and Kepler left for Prague on 6 April. Kepler and Tycho soon reconciled and eventually reached an agreement on salary and living arrangements, and in June, Kepler returned home to Graz to collect his family.\n[…]\nPartly because of financial troubles, his life at home with Barbara was unpleasant, marred with bickering and bouts of sickness. Court life, however, brought Kepler into contact with other prominent scholars (Johannes Matthäus Wackher von Wackhenfels, Jost Bürgi, David Fabricius, Martin Bachazek, and Johannes Brengger, among others) and astronomical work proceeded rapidly.\n[…]\nA critical edition of Kepler's collected works (Johannes Kepler Gesammelte Werke, KGW) in 22 volumes is being edited by the Kepler-Kommission (founded 1935) on behalf of the Bayerische Akademie der Wissenschaften.\n[…]\nHerausgabe der Werke von Johannes Kepler (with links to digital scans of the published volumes)\n[…]\nJohannes Kepler at the Mathematics Genealogy Project\n[…]\nWorks by Johannes Kepler at Project Gutenberg\n[…]\nWorks by or about Johannes Kepler at the Internet Archive\n[…]\nClerke, Agnes Mary (1911). \"Kepler, Johann\" . Encyclopædia Britannica. Vol. 15 (11th ed.). pp. 749–751.\n[…]\nPlant, David, Kepler and the \"Music of the Spheres\"\n[…]\nO'Connor, John J.; Robertson, Edmund F. \"Johannes Kepler\". MacTutor History of Mathematics Archive. University of St Andrews."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Katharina_Kepler",
+        "situacao": "ok",
+        "texto": "Katharina Kepler (née: Guldenmann; 8 November 1547 – 13 April 1622) was a German herbalist from Leonberg, Württemberg, who was the mother of the famous astronomer Johannes Kepler. She was accused of witchcraft in 1615 and again in 1620, but was defended by her son and released.\n[…]\nHe acted in accordance with the will of the government and the public, which had asked for an investigation of sorcery, and issued an arrest of Katharina Kepler in 1615. Johannes Kepler defended his mother himself, he had sought advice with the assistance from lawyers and theologians of his university of Tübingen. One of his student friends, Christopher Besoldus, assisted her juridically.\n[…]\nHer son took her away to Linz in December 1616. When she returned to Leonberg in the summer of 1620, she was arrested and imprisoned for fourteen months. Katharina Kepler was arrested on 7 August 1620 in the parsonage in Heumaden and taken to Güglingen. The scrupulous court hearing took place on 20 August 1621. According to the record, Katharina Kepler appeared \"unfortunately with the assistance of her son Johann Kepler, Mathematici.\" Two strong men guarded the 73-year-old woman day and night.\n[…]\nThis ultimately led to an acquittal. A week after her torture she was released in 1621 after 405 days of pretrial detention. The trial cost Johannes Kepler over 900 guilders (more than two years' salary) because the costs were artificially inflated by delays in the trial, excessive costs for heating, food, and two guards.\n[…]\nIn 2017, Helmut Jasbar incorporated the story of Katharina and Johannes Kepler in the musical story Eternity for Beginners.\n[…]\nUlinka Rublack (2017). The Astronomer and the Witch: Johannes Kepler's Fight for His Mother. Oxford University Press. ISBN 978-0-19-873678-3."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Johannes_Kepler",
+        "situacao": "ok",
+        "texto": "Johannes Kepler (Weil der Stadt, 27 de dezembro de 1571 — Ratisbona, 15 de novembro de 1630) foi um astrônomo, astrólogo e matemático alemão. Considerado figura-chave da revolução científica do século XVII, é todavia célebre por ter formulado as três leis fundamentais da mecânica celeste, denominadas Leis de Kepler, tendo estas sido codificadas por astrônomos posteriores com base nas suas obras As\n[…]\nO primeiro grande trabalho sobre astronomia de Johannes Kepler, Mysterium Cosmographicum (O Mistério Cosmográfico), foi a primeira defesa publicada do sistema copernicano.\n[…]\nParcialmente por causa de problemas financeiros, sua vida domiciliar com Barbara era desagradável, marcada por brigas e crises de doença. A vida na corte, no entanto, levou Kepler a ter contanto com outros proeminentes estudiosos (Johannes Matthäus Wackher von Wackhenfels, Jost Bürgi, David Fabricius, Martin Bachazek e Johannes Brengger, entre outros) e seu trabalho astronômico avançou rapidamente.\n[…]\nO Epitome tornou-se o mais influente livro de Kepler. Ele continha todas as três leis do movimento planetário e buscava explicar os movimentos celestes através de causas físicas. Embora explicitamente estendesse as duas primeiras leis do movimento planetário (aplicadas a Marte em Astronomia nova) para todos os planetas assim como a Lua e os satélites mediceanos de Júpiter, ele não explicava como órbitas elípticas podiam ser obtidas a partir dos dados observados.\n[…]\nNa parte final da obra (Livro V), Kepler abordou os movimentos planetários, especialmente as relações entre velocidade orbital e distância orbital ao Sol. Relações semelhantes tinham sido usadas por outros astrônomos, mas Kepler — com os dados de Tycho e suas próprias teorias astronômicas — tratou-as muito mais precisamente e lhes deu novo significado físico.\n[…]\nAstronomia nova (Nova Astronomia) (1609)\n[…]\nObras de Johannes Kepler (em inglês) no Projeto Gutenberg",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Francisco João de Azevedo",
+      "descricao": "Padre e inventor paraibano (1814–1880) que construiu uma máquina de escrever apresentada no Recife em 1861."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em 1861, numa exposição no Recife, que padre paraibano apresentou uma máquina de escrever de sua invenção?",
+    "resposta": "Francisco João de Azevedo",
+    "distratores": [
+      "Bartolomeu de Gusmão",
+      "Roberto Landell de Moura",
+      "Padre Cícero"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Francisco_Jo%C3%A3o_de_Azevedo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Francisco_Jo%C3%A3o_de_Azevedo",
+        "situacao": "ok",
+        "texto": "Francisco João de Azevedo (Parahyba, 1814 — Parahyba, 26 de julho de 1880) foi um padre católico e inventor brasileiro, mais conhecido pela invenção de uma máquina taquigráfica e de um elipsógrafo.\n[…]\nEm 23 de novembro de 1861 saiu publicado no Jornal de Recife:  Expositor o Pe FRANCISCO JOÃO D’AZEVEDO No 67 – uma machina para escrever. Foi o mais procurado dos objetos da exposição, e certamente merece pelo engenho com que está organizada. Eis aqui a sua descripção resumidamente: “Representa e tem a configuração de uma espécie de piano pequenino, com um teclado contendo 16 teclas, oito à esquerda e 8 à direita.\n[…]\nE acrescento: Os tais carros podem mover-se com a mesma velocidade em todos os sentidos, ainda contra o vento, e podem mesmo ter um movimento circular; e devem ser muito úteis nas paragens em que as brisas são constantes. Agora apareça um empreendedor consciencioso que queira aplicar este sistema a alguma empresa de reconhecida utilidade, e deve contar que eu com todo o desinteresse não farei mistério da minha invenção. Recife, 6 de setembro de 1875. Padre Francisco João de Azevedo.”\n[…]\nAZEVEDO, Francisco João de. Esclarecimentos sobre a máquina taquigráfica levada à Exposição Nacional pelo seu inventor o Padre Francisco João de Azevedo no ano de 1861. Rio de Janeiro: Tipografia Nacional, 1861.\n[…]\nAZEVEDO, Francisco João de. Deus e pátria. Recife: Typ. do Jornal do Recife, 1875.\n[…]\nNOGUEIRA, Ataliba. A máquina de escrever. Uma invenção brasileira. São Paulo: SEDAI, 1962.\n[…]\nVISONI, Rodrigo Moura. Francisco João de Azevedo e a invenção da máquina de escrever. Rio de Janeiro: Editora Tamanduá, 2018."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Hedy Lamarr",
+      "descricao": "Atriz austríaco-americana (1914–2000) de Hollywood que também patenteou um sistema de salto de frequência."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que atriz de Hollywood, nascida na Áustria, patenteou em 1942, com um compositor, um sistema de salto de frequência para guiar torpedos por rádio?",
+    "resposta": "Hedy Lamarr",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+        "situacao": "ok",
+        "texto": "Hedy Lamarr (; born Hedwig Eva Maria Kiesler; November 9, 1914 –  January 19, 2000) was an Austrian and American actress and inventor. Regarded as a successful film star, she also co-invented a radio guidance system during World War II.\n[…]\nAlthough Hedy Lamarr was widely celebrated for her acting career, her technological achievements were not fully recognized until decades later. The frequency-hopping system she co-developed with George Antheil became foundational to later spread spectrum communications technology.\n[…]\nBased on the strength of the initial submission of their ideas to the National Inventors Council (NIC) in late December 1940, in early 1941 the NIC introduced Antheil to Samuel Stuart Mackeown, professor of Electrical Engineering at Caltech, to consult on the electrical systems. Lamarr hired the legal firm of Lyon & Lyon to draft the application for the patent which was granted as U.S. patent 2,292,387 on August 11, 1942, under her legal name Hedy Kiesler Markey.\n[…]\nThe story of Lamarr's frequency-hopping invention and her later recognition as an inventor is the subject of the documentary Bombshell: The Hedy Lamarr Story, which premiered at the Tribeca Film Festival and was later broadcast on American Masters (2017).\n[…]\nIn Dory Previn's song \"Mary C. Brown and the Hollywood Sign\", the eponymous starlet who finally achieved fame from jumping from the Hollywood sign was noted as looking \"a bit like Hedy Lamarr\".\n[…]\nJohnny Depp composed the song \"This Is a Song for Miss Hedy Lamarr\" with Tommy Henriksen; the recording by Depp and Jeff Beck was released on their album 18 (2022).\n[…]\nHedy Lamarr discography at Discogs\n[…]\nHedy Lamarr at IMDb\n[…]\nHedy Lamarr at the TCM Movie Database (archived)\n[…]\nHedy Lamarr at Reel Classics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hedy_Lamarr",
+        "situacao": "ok",
+        "texto": "Hedy Lamarr, nome artístico de Hedwig Eva Maria Kiesler (Vienna, 9 de novembro de 1914 — Altamonte Springs, 19 de janeiro de 2000), foi uma atriz e inventora austríaca radicada no Estados Unidos.\n[…]\nLamarr foi casada seis vezes:\n[…]\nLamarr inventou o sistema que serviu de base para os telefones celulares. Durante a Segunda Guerra Mundial, criou um sofisticado aparelho de interferência em rádio para despistar radares nazistas  que  patenteou em 1940, usando o seu verdadeiro nome, Hedwig Eva Maria Kiesler.\n[…]\nJuntos, Antheil e Lamarr submeteram a ideia ao Departamento de Guerra norte-americano, que o recusou, em junho de 1941. Em agosto de 1942, foi patenteado por Antheil e \"Hedy Kiesler Markey\". A versão inicial consistia na troca de 88 frequências e era feito para despistar radares, mas a ideia pareceu difícil de realizar na época.\n[…]\nCom problemas de visão, Hedy Lamarr se retirou da vida pública e se estabeleceu em Miami Beach, na Flórida, em 1981.\n[…]\nHedy Lamarr morreu em Casselberry, na Flórida, em 19 de janeiro de 2000, aos 85 anos. O atestado de óbito cita, como causas da sua morte,  insuficiência cardíaca, doença crônica da válvula cardíaca e doença cardíaca arteriosclerótica. Conforme era seu desejo, seu filho, Anthony Loder, levou suas cinzas para a Áustria e espalhou-as nos Bosques de Viena. Em 2014, um túmulo simbólico foi construído no Cemitério Central de Viena.\n[…]\nPor sua contribuição para o cinema, Hedy Lamarr tem uma estrela na Calçada da Fama, no 6 247 Hollywood Blvd. Ela também foi inspiração para Walt Disney desenhar a Branca de Neve, \"a mais bela\", seu primeiro desenho animado de longa metragem em 1937.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Fax",
+      "descricao": "Aparelho que transmite cópias de documentos e imagens por linha de comunicação, com origem em patente de 1843."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estas invenções de comunicação, qual surgiu primeiro?",
+    "resposta": "Fax",
+    "distratores": [
+      "Telefone",
+      "Rádio",
+      "Televisão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fax",
+      "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fax",
+        "situacao": "ok",
+        "texto": "Fax (short for facsimile), sometimes called telecopying or telefax (short for telefacsimile), is the telephonic transmission of scanned printed material (both text and images), normally to a telephone number connected to a printer or other output device.\n[…]\nScottish inventor Alexander Bain worked on chemical-mechanical fax-type devices and in 1846 Bain was able to reproduce graphic signs in laboratory experiments. He received British patent 9745 on May 27, 1843, for his \"Electric Printing Telegraph\". Frederick Bakewell made several improvements on Bain's design and demonstrated a telefax machine. The Pantelegraph was invented by the Italian physicist Giovanni Caselli.\n[…]\nHe introduced the first commercial telefax service between Paris and Lyon in 1865, some 11 years before the invention of the telephone.\n[…]\nIn 1880, English inventor Shelford Bidwell constructed the scanning phototelegraph that was the first telefax machine to scan any two-dimensional original, not requiring manual plotting or drawing. An account of Henry Sutton's \"telephane\" was published in 1896."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)",
+        "situacao": "ok",
+        "texto": "Alexander Bain (12 October 1810 – 2 January 1877) was a Scottish inventor and engineer who was first to invent and patent the electric clock. He created the first fax machine, known as Bain's facsimile. Bain also installed the railway telegraph lines between Edinburgh and Glasgow.\n[…]\nBain's and Bakewell's laboratory mechanisms reproduced poor quality images and were not viable systems because the transmitter and receiver were never truly synchronized. In 1861, the first practical operating electro-mechanical commercially exploited telefax machine, the Pantelegraph, was invented by the Italian physicist Giovanni Caselli. He introduced the first commercial telefax service between Paris and Lyon at least 11 years before the invention of workable telephones.\n[…]\nIn 1881, English inventor Shelford Bidwell constructed the scanning phototelegraph that was the first telefax machine capable to scan any two-dimensional original, without requiring manual plotting or drawing. Around 1900, German physicist Arthur Korn invented the \"Bildtelegraph\" widespread in continental Europe especially since a widely noticed transmission of a wanted-person photograph from Paris to London in 1908 used until the wider distribution of the radiofax."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fax",
+        "situacao": "ok",
+        "texto": "Fax, faxe, telefax (abreviaturas do termo latino facsimile e telefacsimile) ou telecópia é uma tecnologia das telecomunicações usada para a transferência remota de documentos através da rede telefônica.\n[…]\nA ideia de transmitir e reproduzir documentos à longa distância foi patenteada por Alexander Bain, em 1843. Da união da ideia de Bain com aparelho telefônico criado por Alexander Graham Bell, o primeiro protótipo do fac-símile, mais conhecido como fax, foi criado nos Laboratórios Bell, em 1926.\n[…]\nEm 1947, Gabriel Casotti, especialista em telegrafia sem fio, produziu o primeiro aparelho de fax, com a ajuda da agência de notícias Associated Newspapers.\n[…]\nEm 1949, a Muirhead instalou o primeiro sistema de fax no Japão. E no ano 1973, este começou a ser produzido em grande escala.\n[…]\nO grande sucesso do fax deve-se principalmente à sua grande vantagem sobre os correios quando a comunicação é à longa distância, uma vez que a transferência de documentos daquele é quase instantânea.Com a popularização da Internet nos anos 2000, surge um novo serviço no meio das telecomunicações: o fax pela internet, também chamado de Internet Fax, ou ainda, Fax to Mail.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

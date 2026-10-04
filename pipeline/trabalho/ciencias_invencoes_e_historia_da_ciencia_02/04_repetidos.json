@@ -1,0 +1,530 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O registro mais antigo de um telescópio é um pedido de patente feito em 1608 por um fabricante de óculos. Em que país?",
+        "resposta": "Holanda (Países Baixos)"
+      },
+      "existentes": [
+        {
+          "id": "q01678",
+          "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
+          "resposta": "Telescópio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1851, Léon Foucault mostrou ao público a rotação da Terra com um enorme pêndulo pendurado na cúpula de que monumento de Paris?",
+        "resposta": "Panteão"
+      },
+      "existentes": [
+        {
+          "id": "q01679",
+          "pergunta": "Que físico francês concebeu o experimento mostrado nesta figura para demonstrar a rotação da Terra, em 1851?",
+          "resposta": "Léon Foucault"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em dezembro de 1895, os irmãos Lumière fizeram sua célebre sessão pública e paga de cinema num café de que cidade?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q01054",
+          "pergunta": "Os irmãos franceses que exibiram filmes a um público pagante em Paris, em 1895, tinham um sobrenome que significa o quê?",
+          "resposta": "Luz"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Bem apropriado para pioneiros do cinema, o sobrenome dos irmãos Lumière significa o quê em francês?",
+        "resposta": "Luz"
+      },
+      "existentes": [
+        {
+          "id": "q01054",
+          "pergunta": "Os irmãos franceses que exibiram filmes a um público pagante em Paris, em 1895, tinham um sobrenome que significa o quê?",
+          "resposta": "Luz"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1868, um semáforo movido a gás e operado por um policial foi instalado diante do Parlamento de que cidade?",
+        "resposta": "Londres"
+      },
+      "existentes": [
+        {
+          "id": "q00989",
+          "pergunta": "O primeiro semáforo, aceso a gás e instalado em Londres em 1868, saiu de uso pouco depois. O que aconteceu com ele?",
+          "resposta": "Explodiu"
+        },
+        {
+          "id": "q00990",
+          "pergunta": "O primeiro semáforo de Londres foi idealizado por um engenheiro que adaptou ao trânsito os sinais de qual outro meio de transporte?",
+          "resposta": "Trem"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1919, fotos de um eclipse solar tiradas numa cidade do Ceará ajudaram a confirmar a teoria da relatividade de Einstein. Que cidade?",
+        "resposta": "Sobral"
+      },
+      "existentes": [
+        {
+          "id": "q03020",
+          "pergunta": "Em 1919, astrônomos britânicos foram a que cidade do Ceará observar um eclipse que ajudou a confirmar a teoria da relatividade de Einstein?",
+          "resposta": "Sobral"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Por volta de 240 antes de Cristo, Eratóstenes estimou o tamanho da Terra comparando as sombras em Alexandria e em que outra cidade egípcia?",
+        "resposta": "Siena (atual Assuã)"
+      },
+      "existentes": [
+        {
+          "id": "q03225",
+          "pergunta": "O que liga Eratóstenes, o grego que calculou o tamanho da Terra, à famosa Biblioteca de Alexandria?",
+          "resposta": "Ele foi o diretor da biblioteca"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Por volta do ano 105, que funcionário da corte imperial chinesa é tradicionalmente apontado como o inventor do papel?",
+        "resposta": "Cai Lun"
+      },
+      "existentes": [
+        {
+          "id": "q03375",
+          "pergunta": "Na China da dinastia Han, por volta do ano cento e cinco, que funcionário da corte é tradicionalmente apontado como inventor do papel?",
+          "resposta": "Cai Lun"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1643, que físico italiano, discípulo de Galileu, inventou o barômetro de mercúrio?",
+        "resposta": "Evangelista Torricelli"
+      },
+      "existentes": [
+        {
+          "id": "q02119",
+          "pergunta": "Quem inventou este instrumento, no século dezessete?",
+          "resposta": "Evangelista Torricelli"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, criou uma escala de temperatura?",
+        "resposta": "Daniel Gabriel Fahrenheit"
+      },
+      "existentes": [
+        {
+          "id": "q04508",
+          "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, deu seu nome a uma escala de temperatura?",
+          "resposta": "Daniel Fahrenheit"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1965, que química americana criou o kevlar, fibra superresistente usada em coletes à prova de bala?",
+        "resposta": "Stephanie Kwolek"
+      },
+      "existentes": [
+        {
+          "id": "q03152",
+          "pergunta": "Que química americana da DuPont criou o Kevlar, fibra usada em coletes à prova de bala?",
+          "resposta": "Stephanie Kwolek"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1767, que químico inglês, também famoso pelos estudos do oxigênio, criou um método para fazer água com gás?",
+        "resposta": "Joseph Priestley"
+      },
+      "existentes": [
+        {
+          "id": "q03151",
+          "pergunta": "Em 1767, que cientista inglês, famoso também por seus estudos sobre o oxigênio, inventou a água gaseificada?",
+          "resposta": "Joseph Priestley"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em que ano Santos-Dumont voou com o 14-Bis diante de uma multidão em Paris?",
+        "resposta": "1906"
+      },
+      "existentes": [
+        {
+          "id": "q00979",
+          "pergunta": "O avião com que Santos Dumont voou em Paris, em 1906, se chamava Quatorze Bis. De onde veio esse nome?",
+          "resposta": "Foi testado preso ao dirigível número quatorze"
+        },
+        {
+          "id": "q02702",
+          "pergunta": "Em que ano este avião realizou voos públicos nos arredores de Paris?",
+          "resposta": "1906"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1941, voltando de uma caçada com o cachorro, o suíço George de Mestral teve a ideia do velcro ao observar o quê?",
+        "resposta": "Carrapichos presos no pelo"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A ideia do Post-it surgiu porque Art Fry, funcionário da 3M, queria marcadores de página que não caíssem de que livro do coro da igreja?",
+        "resposta": "Hinário"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em 1902, Willis Carrier criou o ar-condicionado moderno para controlar a umidade em que tipo de empresa do Brooklyn?",
+        "resposta": "Uma gráfica"
+      },
+      "existentes": [
+        {
+          "id": "q00885",
+          "pergunta": "Em 1902, Willis Carrier criou o ar-condicionado moderno para controlar a umidade que estragava o papel em que tipo de empresa?",
+          "resposta": "Uma gráfica"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Nos anos 1860, Louis Pasteur desenvolveu o aquecimento que leva seu nome para impedir que qual bebida estragasse?",
+        "resposta": "Vinho"
+      },
+      "existentes": [
+        {
+          "id": "q00652",
+          "pergunta": "O processo que aquece o leite para matar micróbios e a primeira vacina contra a raiva aplicada num ser humano têm em comum qual cientista francês?",
+          "resposta": "Louis Pasteur"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Nos anos 1830, em Campinas, que inventor francês batizou de photographie seu processo de gravar imagens, antes de a técnica ser divulgada na Europa?",
+        "resposta": "Hercule Florence"
+      },
+      "existentes": [
+        {
+          "id": "q03609",
+          "pergunta": "Em que cidade paulista o francês Hercule Florence fez, nos anos 1830, experimentos pioneiros de fotografia?",
+          "resposta": "Campinas"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O náilon, o teflon e o kevlar, materiais que mudaram o cotidiano no século vinte, saíram dos laboratórios de que empresa americana?",
+        "resposta": "DuPont"
+      },
+      "existentes": [
+        {
+          "id": "q03150",
+          "pergunta": "Nos anos 1930, que químico americano liderou na DuPont a equipe que criou o náilon?",
+          "resposta": "Wallace Carothers"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "No fim dos anos 1940, Joseph Woodland teve a ideia das barras dos produtos de supermercado ao esticar na areia os pontos e traços de que sistema?",
+        "resposta": "Código Morse"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que joalheiro francês, amigo de Santos-Dumont, criou para ele um relógio de pulso, para ver as horas sem tirar as mãos dos comandos?",
+        "resposta": "Louis Cartier"
+      },
+      "existentes": [
+        {
+          "id": "q01000",
+          "pergunta": "Em 1904, para o amigo Santos Dumont pilotar sem tirar as mãos dos comandos, o joalheiro Louis Cartier criou que objeto de uso no braço?",
+          "resposta": "Relógio de pulso"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em 1839, Charles Goodyear descobriu a vulcanização ao aquecer borracha misturada com que elemento químico?",
+        "resposta": "Enxofre"
+      },
+      "existentes": [
+        {
+          "id": "q03149",
+          "pergunta": "Em 1839, que inventor americano, cujo sobrenome hoje batiza uma famosa marca de pneus, descobriu a vulcanização da borracha?",
+          "resposta": "Charles Goodyear"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "No ano 132, na China, Zhang Heng criou um detector de terremotos em que dragões soltavam bolinhas na boca de que animais?",
+        "resposta": "Sapos"
+      },
+      "existentes": [
+        {
+          "id": "q03376",
+          "pergunta": "No século dois, que sábio chinês criou um vaso de bronze com dragões e sapos para detectar terremotos?",
+          "resposta": "Zhang Heng"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em 1582, para acertar o calendário com as estações, os países católicos que adotaram o calendário gregoriano pularam quantos dias de uma vez?",
+        "resposta": "Dez dias"
+      },
+      "existentes": [
+        {
+          "id": "q00913",
+          "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Antes de virar a massinha de modelar Play-Doh, nos anos 1950, o produto era vendido para limpar o quê?",
+        "resposta": "Papel de parede"
+      },
+      "existentes": [
+        {
+          "id": "q03797",
+          "pergunta": "O que a massinha de modelar Play-Doh e o plástico-bolha têm em comum na sua origem?",
+          "resposta": "Nasceram ligados ao papel de parede"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Entre estas invenções de comunicação, qual foi patenteada primeiro?",
+        "resposta": "Fax"
+      },
+      "existentes": [
+        {
+          "id": "q03459",
+          "pergunta": "Em que ano o escocês Alexander Bain patenteou seu telégrafo impressor, precursor do fax, capaz de transmitir imagens por fio?",
+          "resposta": "1843"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "País do pedido de patente vs. identificar o instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Monumento vs. físico que concebeu o experimento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade da sessão vs. significado do sobrenome."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: sobrenome Lumière significa luz.",
+      "id_existente": "q01054"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade do semáforo vs. destino ou idealizador; a cidade já está no enunciado das existentes mas é fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: Sobral, eclipse 1919.",
+      "id_existente": "q03020"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cidade da segunda sombra vs. relação com a Biblioteca."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Cai Lun inventor do papel.",
+      "id_existente": "q03375"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Quem inventou o barômetro: Torricelli; a existente com figura tem a mesma resposta.",
+      "id_existente": "q02119"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Praticamente idêntica.",
+      "id_existente": "q04508"
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: criadora do kevlar.",
+      "id_existente": "q03152"
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Priestley e água gaseificada.",
+      "id_existente": "q03151"
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Ano 1906 dos voos públicos já perguntado.",
+      "id_existente": "q02702"
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: carrapichos no pelo do cachorro.",
+      "id_existente": "q00882"
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: hinário.",
+      "id_existente": "q00883"
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: gráfica.",
+      "id_existente": "q00885"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Bebida pasteurizada vs. elo entre leite e vacina."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Inventor vs. cidade; fatos distintos."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Empresa vs. químico líder."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: código Morse na areia.",
+      "id_existente": "q00893"
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Cartier e o relógio de pulso para Santos-Dumont.",
+      "id_existente": "q01000"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Elemento (enxofre) vs. inventor."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Animal vs. inventor."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: dez dias pulados.",
+      "id_existente": "q00913"
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Origem do Play-Doh como limpador de papel de parede; mesmo fato.",
+      "id_existente": "q03797"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Comparação de patentes vs. ano da patente de Bain."
+    }
+  ]
+}

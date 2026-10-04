@@ -9317,7 +9317,8 @@
     "nome": "Pasteurização",
     "descricao": "Processo de aquecimento de alimentos, como o leite, para eliminar micro-organismos.",
     "variantes": [
-      "Pasteurization"
+      "Pasteurization",
+      "Pasteurizar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pasteurization"
@@ -12965,7 +12966,8 @@
     "nome": "Ar-condicionado",
     "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
     "variantes": [
-      "Air conditioning"
+      "Air conditioning",
+      "Condicionador de ar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Willis_Carrier"
@@ -13463,7 +13465,8 @@
     "nome": "Calendário gregoriano",
     "descricao": "Calendário solar instituído pelo papa Gregório treze em 1582 e usado hoje na maior parte do mundo.",
     "variantes": [
-      "Gregorian calendar"
+      "Gregorian calendar",
+      "Calendário cristão"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gregorian_calendar"
@@ -14774,7 +14777,8 @@
       "Sinal de trânsito",
       "Farol",
       "Sinaleiro",
-      "Traffic light"
+      "Traffic light",
+      "Sinaleira"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Traffic_light"
@@ -15816,7 +15820,8 @@
     "nome": "Irmãos Lumière",
     "descricao": "Auguste e Louis Lumière, inventores franceses do cinematógrafo e pioneiros das exibições públicas de cinema em 1895.",
     "variantes": [
-      "Auguste e Louis Lumière"
+      "Auguste e Louis Lumière",
+      "Lumière"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Irmãos_Lumière"
@@ -32435,7 +32440,8 @@
     "nome": "Barômetro",
     "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
     "variantes": [
-      "Barometer"
+      "Barometer",
+      "Barômetro de mercúrio"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Barometer",
@@ -47475,7 +47481,8 @@
     "descricao": "Processo químico que aquece a borracha com enxofre, tornando-a resistente e elástica.",
     "variantes": [
       "Vulcanization",
-      "Vulcanização da borracha"
+      "Vulcanização da borracha",
+      "Borracha vulcanizada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Vulcanization"
@@ -47511,7 +47518,8 @@
     "variantes": [
       "Água gaseificada",
       "Soda",
-      "Carbonated water"
+      "Carbonated water",
+      "Água carbonatada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Carbonated_water"
@@ -47535,7 +47543,10 @@
       "wikidata": "Q207344",
       "pt": 716,
       "en": 17992
-    }
+    },
+    "variantes": [
+      "Aramida"
+    ]
   },
   {
     "id": "polvora",
@@ -66906,7 +66917,8 @@
     "nome": "Termômetro de mercúrio",
     "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
     "variantes": [
-      "Termômetro de vidro"
+      "Termômetro de vidro",
+      "Termômetro de mercúrio em vidro"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer"
@@ -68160,5 +68172,237 @@
       "pt": 530,
       "en": 8756
     }
+  },
+  {
+    "id": "elisha_otis",
+    "nome": "Elisha Otis",
+    "descricao": "Industrial americano (1811–1861) que criou o freio de segurança para elevadores e fundou a empresa Otis.",
+    "variantes": [
+      "Elisha Graves Otis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elisha_Otis"
+    ]
+  },
+  {
+    "id": "william_morton",
+    "nome": "William Morton",
+    "descricao": "Dentista americano (1819–1868) que fez, em 1846, a célebre demonstração pública de anestesia com éter numa cirurgia.",
+    "variantes": [
+      "William T. G. Morton",
+      "William Thomas Green Morton"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/William_T._G._Morton"
+    ]
+  },
+  {
+    "id": "leo_baekeland",
+    "nome": "Leo Baekeland",
+    "descricao": "Químico (1863–1944) que criou a baquelite, um dos primeiros plásticos sintéticos, nos Estados Unidos.",
+    "variantes": [
+      "Leo Hendrik Baekeland"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Leo_Baekeland"
+    ]
+  },
+  {
+    "id": "premio_nobel_da_paz",
+    "nome": "Prêmio Nobel da Paz",
+    "descricao": "Um dos prêmios criados pelo testamento de Alfred Nobel, concedido a quem mais contribuiu pela fraternidade entre as nações.",
+    "variantes": [
+      "Nobel da Paz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nobel_Peace_Prize"
+    ]
+  },
+  {
+    "id": "relogio_de_pendulo",
+    "nome": "Relógio de pêndulo",
+    "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656.",
+    "variantes": [
+      "Pendulum clock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pendulum_clock"
+    ]
+  },
+  {
+    "id": "limpador_de_para_brisa",
+    "nome": "Limpador de para-brisa",
+    "descricao": "Dispositivo com palhetas que remove chuva e neve do para-brisa dos veículos.",
+    "variantes": [
+      "Limpador de vidro",
+      "Windscreen wiper"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Windscreen_wiper"
+    ]
+  },
+  {
+    "id": "instituto_butantan",
+    "nome": "Instituto Butantan",
+    "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+    "variantes": [
+      "Butantan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Butantan_Institute"
+    ]
+  },
+  {
+    "id": "heliocentrismo",
+    "nome": "Heliocentrismo",
+    "descricao": "Modelo astronômico em que a Terra e os planetas giram em torno do Sol.",
+    "variantes": [
+      "Modelo heliocêntrico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Heliocentrism"
+    ]
+  },
+  {
+    "id": "daguerreotipo",
+    "nome": "Daguerreótipo",
+    "descricao": "Processo fotográfico criado pelo francês Louis Daguerre, que produzia imagens únicas sobre placas de cobre prateadas.",
+    "variantes": [
+      "Daguerreotipia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Daguerreotype"
+    ]
+  },
+  {
+    "id": "laser",
+    "nome": "Laser",
+    "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+    "variantes": [
+      "Raio laser"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Laser"
+    ]
+  },
+  {
+    "id": "vacina_contra_a_variola",
+    "nome": "Vacina contra a varíola",
+    "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas.",
+    "variantes": [
+      "Vacina antivariólica",
+      "Vacina de Jenner"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Smallpox_vaccine"
+    ]
+  },
+  {
+    "id": "das_revolucoes_das_esferas_celestes",
+    "nome": "Das revoluções das esferas celestes",
+    "descricao": "Livro de Nicolau Copérnico, publicado em 1543, que apresentou o modelo com o Sol no centro.",
+    "variantes": [
+      "De revolutionibus orbium coelestium",
+      "De revolutionibus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+    ]
+  },
+  {
+    "id": "tycho_brahe",
+    "nome": "Tycho Brahe",
+    "descricao": "Astrônomo dinamarquês do século dezesseis, famoso por observações precisas feitas sem telescópio.",
+    "variantes": [
+      "Tyge Ottesen Brahe"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tycho_Brahe"
+    ]
+  },
+  {
+    "id": "gas",
+    "nome": "Gás",
+    "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+    "variantes": [
+      "Estado gasoso"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gas"
+    ]
+  },
+  {
+    "id": "nicolas_appert",
+    "nome": "Nicolas Appert",
+    "descricao": "Confeiteiro francês (1749–1841) que criou o método de conservar alimentos cozidos em recipientes hermeticamente fechados.",
+    "variantes": [
+      "Nicolas François Appert"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nicolas_Appert"
+    ]
+  },
+  {
+    "id": "concreto_romano",
+    "nome": "Concreto romano",
+    "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão.",
+    "variantes": [
+      "Opus caementicium"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Roman_concrete"
+    ]
+  },
+  {
+    "id": "louis_braille",
+    "nome": "Louis Braille",
+    "descricao": "Educador francês (1809–1852), cego desde a infância, criador do sistema de leitura e escrita com pontos em relevo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Louis_Braille"
+    ]
+  },
+  {
+    "id": "concreto_armado",
+    "nome": "Concreto armado",
+    "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867.",
+    "variantes": [
+      "Betão armado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Reinforced_concrete"
+    ]
+  },
+  {
+    "id": "johannes_kepler",
+    "nome": "Johannes Kepler",
+    "descricao": "Astrônomo e matemático alemão (1571–1630), autor das leis do movimento planetário.",
+    "variantes": [
+      "Kepler"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Johannes_Kepler"
+    ]
+  },
+  {
+    "id": "francisco_joao_de_azevedo",
+    "nome": "Francisco João de Azevedo",
+    "descricao": "Padre e inventor paraibano (1814–1880) que construiu uma máquina de escrever apresentada no Recife em 1861.",
+    "variantes": [
+      "Padre Azevedo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Francisco_Jo%C3%A3o_de_Azevedo"
+    ]
+  },
+  {
+    "id": "hedy_lamarr",
+    "nome": "Hedy Lamarr",
+    "descricao": "Atriz austríaco-americana (1914–2000) de Hollywood que também patenteou um sistema de salto de frequência.",
+    "variantes": [
+      "Hedwig Kiesler"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    ]
   }
 ]
