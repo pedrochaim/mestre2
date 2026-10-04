@@ -1,0 +1,249 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de um único João-de-barro, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é a ave nacional de qual país?",
+      "resposta": "Argentina",
+      "destino": 0,
+      "ancora": {
+        "nome": "João-de-barro",
+        "descricao": "Ave passeriforme marrom-avermelhada (Furnarius rufus) que constrói ninho de barro em forma de forno.",
+        "variantes": [
+          "Joao-de-barro",
+          "Hornero",
+          "Furnarius rufus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pelicano-pardo claro, em plumagem reprodutiva, sem texto relevante (só anilha).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Pelicano-pardo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pelicano-pardo",
+        "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+        "variantes": [
+          "Pelicano-marrom",
+          "Pelecanus occidentalis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Serpentário inconfundível, de corpo inteiro.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive naturalmente esta ave de rapina?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Serpentário",
+        "descricao": "Grande ave de rapina terrestre africana de pernas longas e crista de penas negras (Sagittarius serpentarius).",
+        "variantes": [
+          "Secretário",
+          "Secretário-ave",
+          "Sagittarius serpentarius"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sabiá-laranjeira nítido, com ventre laranja e anel ocular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Sabiá-laranjeira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sabiá-laranjeira",
+        "descricao": "Ave canora (Turdus rufiventris), ave nacional do Brasil, de ventre alaranjado.",
+        "variantes": [
+          "Sabiá",
+          "Turdus rufiventris"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Casuar com elmo e pescoço azul bem visíveis; imagem recortada mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Casuar",
+      "distratores": [
+        "Emu",
+        "Ema",
+        "Avestruz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Casuar",
+        "descricao": "Grande ave corredora não voadora de plumagem negra, pescoço azul e elmo na cabeça (Casuarius casuarius).",
+        "variantes": [
+          "Casuar-do-sul",
+          "Casuarius casuarius"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bico-de-sapato inconfundível, foto clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive esta ave?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bico-de-sapato",
+        "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+        "variantes": [
+          "Balaeniceps rex",
+          "Cabeça-de-baleia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pardal macho nítido; múltipla com parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Pardal",
+      "distratores": [
+        "Pardal-de-árvore",
+        "Tico-tico",
+        "Pardal-espanhol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pardal",
+        "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+        "variantes": [
+          "Pardal-comum",
+          "Passer domesticus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Grou-coroado-cinzento com crista dourada bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Grou-coroado-cinzento",
+      "destino": 0,
+      "ancora": {
+        "nome": "Grou-coroado-cinzento",
+        "descricao": "Grou africano (Balearica regulorum) com crista dourada, ave nacional de Uganda.",
+        "variantes": [
+          "Grou-coroado",
+          "Balearica regulorum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Macho de tangará nítido; o nome 'Tesourinha-da-mata' é incomum, usar Tangará como nome.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que bioma brasileiro vive principalmente esta ave?",
+      "resposta": "Mata Atlântica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tangará",
+        "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+        "variantes": [
+          "Tesourinha-da-mata",
+          "Dançador",
+          "Chiroxiphia caudata"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Emu de corpo inteiro, nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave aparece no brasão de armas de qual país, ao lado de um canguru?",
+      "resposta": "Austrália",
+      "destino": 0,
+      "ancora": {
+        "nome": "Emu",
+        "descricao": "Grande ave corredora não voadora da Austrália (Dromaius novaehollandiae).",
+        "variantes": [
+          "Dromaius novaehollandiae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tucano-de-bico-verde nítido e legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Tucano-de-bico-verde",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tucano-de-bico-verde",
+        "descricao": "Tucano (Ramphastos dicolorus) de bico esverdeado, peito amarelo e ventre vermelho, do sul e sudeste do Brasil.",
+        "variantes": [
+          "Tucano-de-peito-vermelho",
+          "Ramphastos dicolorus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Dois socós-bois da mesma espécie, nítidos; múltipla com garças parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Socó-boi",
+      "distratores": [
+        "Socó-boi-escuro",
+        "Savacu",
+        "Garça-moura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Socó-boi",
+        "descricao": "Garça de pescoço ruivo e listrado (Tigrisoma lineatum), das áreas alagadas das Américas.",
+        "variantes": [
+          "Socó-boi-ruivo",
+          "Tigrisoma lineatum"
+        ]
+      }
+    }
+  ]
+}

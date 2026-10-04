@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta ave é a ave nacional de qual país?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q02475",
+          "pergunta": "Em espanhol, o joão-de-barro se chama hornero, porque seu ninho de barro lembra o quê?",
+          "resposta": "Um forno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata do país de que a ave é símbolo nacional (Argentina); a existente trata da origem do nome 'hornero' (ninho parecido com forno). São fatos diferentes, e saber um não leva a saber o outro."
+    }
+  ]
+}

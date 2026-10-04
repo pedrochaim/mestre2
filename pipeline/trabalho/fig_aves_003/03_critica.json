@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; enunciado não nomeia a ave nem entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmica da África, confirmado nos trechos; o enunciado não entrega a ave.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores curtos, do mesmo grupo de ratitas, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "África central confirmada nos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Pardal' é genérica e os distratores 'Pardal-de-árvore' e 'Pardal-espanhol' também são pardais, então podem ser defendidos como corretos. Usar o nome específico da espécie.",
+      "reescrita": {
+        "pergunta": "Que ave é esta?",
+        "resposta": "Pardal-comum",
+        "distratores": [
+          "Pardal-de-árvore",
+          "Tico-tico",
+          "Pardal-espanhol"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mata Atlântica confirmada nos trechos; enunciado não nomeia a ave.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'brasão... ao lado de um canguru' entrega a Austrália sem olhar a figura. Tirar o canguru.",
+      "reescrita": {
+        "pergunta": "Esta ave aparece como porta-escudo no brasão de armas de qual país?",
+        "resposta": "Austrália",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o nome popular não aparece no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores plausíveis, de ardeídeos, nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

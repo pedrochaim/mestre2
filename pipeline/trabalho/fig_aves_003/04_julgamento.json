@@ -1,0 +1,757 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "João-de-barro",
+        "descricao": "Ave passeriforme marrom-avermelhada (Furnarius rufus) que constrói ninho de barro em forma de forno.",
+        "variantes": [
+          "Hornero",
+          "Furnarius rufus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "borneu",
+          "nome": "Bornéu",
+          "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+          "variantes": [
+            "Borneo",
+            "Kalimantan"
+          ]
+        },
+        {
+          "id": "nero",
+          "nome": "Nero",
+          "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+          "variantes": [
+            "Nero Cláudio César",
+            "Nero Claudius Caesar"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pelicano-pardo",
+        "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+        "variantes": [
+          "Pelicano-marrom",
+          "Pelecanus occidentalis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jardim_persa",
+          "nome": "Jardim persa",
+          "descricao": "Tradição de jardins murados do antigo Irã, cujo termo em persa antigo deu origem à palavra paraíso.",
+          "variantes": [
+            "Persian garden",
+            "Pairidaeza"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "helicoptero",
+          "nome": "Helicóptero",
+          "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+          "variantes": []
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Serpentário",
+        "descricao": "Grande ave de rapina terrestre africana de pernas longas e crista de penas negras (Sagittarius serpentarius).",
+        "variantes": [
+          "Secretário",
+          "Secretário-ave",
+          "Sagittarius serpentarius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        },
+        {
+          "id": "doenca_do_chapeleiro_louco",
+          "nome": "Doença do chapeleiro louco",
+          "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+          "variantes": [
+            "Eretismo",
+            "Mad hatter disease",
+            "Eretismo mercurial"
+          ]
+        },
+        {
+          "id": "oscarito",
+          "nome": "Oscarito",
+          "descricao": "Comediante e ator, astro das chanchadas da Atlântida Cinematográfica nas décadas de 1940 e 1950.",
+          "variantes": [
+            "Oscar Lorenzo Jacinto de la Imaculada Concepción Teresa Dias"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sabiá-laranjeira",
+        "descricao": "Ave canora (Turdus rufiventris), ave nacional do Brasil, de ventre alaranjado.",
+        "variantes": [
+          "Sabiá",
+          "Turdus rufiventris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shabat",
+          "nome": "Shabat",
+          "descricao": "Dia semanal de descanso do judaísmo",
+          "variantes": [
+            "Shabbat",
+            "Sabá",
+            "Sabbath"
+          ]
+        },
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Casuar",
+        "descricao": "Grande ave corredora não voadora de plumagem negra, pescoço azul e elmo na cabeça (Casuarius casuarius).",
+        "variantes": [
+          "Casuar-do-sul",
+          "Casuarius casuarius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "canal_casiquiare",
+          "nome": "Canal Casiquiare",
+          "descricao": "Canal natural no sul da Venezuela que liga o rio Orinoco ao rio Negro, da bacia amazônica.",
+          "variantes": [
+            "Casiquiare",
+            "Casiquiare canal",
+            "Brazo Casiquiare"
+          ]
+        },
+        {
+          "id": "cruzeiro_do_sul",
+          "nome": "Cruzeiro do Sul",
+          "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+          "variantes": [
+            "Crux",
+            "Cruzeiro"
+          ]
+        },
+        {
+          "id": "africa_do_sul",
+          "nome": "África do Sul",
+          "descricao": "País do extremo sul da África com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+          "variantes": [
+            "South Africa",
+            "República da África do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bico-de-sapato",
+        "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+        "variantes": [
+          "Balaeniceps rex",
+          "Cabeça-de-baleia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "bico_de_bunsen",
+          "nome": "Bico de Bunsen",
+          "descricao": "Queimador a gás de laboratório, de chama aberta única, usado para aquecer, esterilizar e fazer combustão.",
+          "variantes": [
+            "Bunsen burner",
+            "Bico de gás"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pardal",
+        "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+        "variantes": [
+          "Pardal-comum",
+          "Passer domesticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea"
+          ]
+        },
+        {
+          "id": "caracol_de_jardim",
+          "nome": "Caracol-de-jardim",
+          "descricao": "Caracol terrestre europeu (Cornu aspersum), comum em jardins e usado como escargot.",
+          "variantes": [
+            "Cornu aspersum",
+            "Helix aspersa",
+            "caracol-comum"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Grou-coroado-cinzento",
+        "descricao": "Grou africano (Balearica regulorum) com crista dourada, ave nacional de Uganda.",
+        "variantes": [
+          "Grou-coroado",
+          "Balearica regulorum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corcovado",
+          "nome": "Corcovado",
+          "descricao": "Morro granítico de 710 metros na Floresta da Tijuca, no Rio de Janeiro, com a estátua do Cristo Redentor.",
+          "variantes": [
+            "Morro do Corcovado"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "radium_girls",
+          "nome": "Radium Girls",
+          "descricao": "Operárias americanas que, nos anos 1920, se contaminaram ao pintar mostradores de relógio com tinta luminosa radioativa.",
+          "variantes": [
+            "Garotas do Rádio"
+          ]
+        },
+        {
+          "id": "estrada_real_persa",
+          "nome": "Estrada Real Persa",
+          "descricao": "Estrada construída no Império Aquemênida, ligando Susa a Sardes, percorrida por mensageiros a cavalo.",
+          "variantes": [
+            "Estrada Real",
+            "Royal Road"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tangará",
+        "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+        "variantes": [
+          "Tesourinha-da-mata",
+          "Dançador",
+          "Chiroxiphia caudata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "rio_niagara",
+          "nome": "Rio Niágara",
+          "descricao": "Rio curto da fronteira entre Estados Unidos e Canadá, onde ficam as Cataratas do Niágara.",
+          "variantes": [
+            "Niagara River",
+            "Niágara"
+          ]
+        },
+        {
+          "id": "jangada",
+          "nome": "Jangada",
+          "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "tuatara",
+          "nome": "Tuatara",
+          "descricao": "Réptil da Nova Zelândia (Sphenodon punctatus), parecido com um lagarto, último sobrevivente da ordem Rhynchocephalia.",
+          "variantes": [
+            "Sphenodon punctatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Emu",
+        "descricao": "Grande ave corredora não voadora da Austrália (Dromaius novaehollandiae).",
+        "variantes": [
+          "Dromaius novaehollandiae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eu",
+          "nome": "Eu",
+          "descricao": "Único livro de poemas publicado em vida por Augusto dos Anjos, em 1912.",
+          "variantes": [
+            "Eu e Outras Poesias"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "femur",
+          "nome": "Fêmur",
+          "descricao": "Osso da coxa, que liga o quadril ao joelho.",
+          "variantes": []
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "emirados_arabes_unidos",
+          "nome": "Emirados Árabes Unidos",
+          "descricao": "Federação de emirados na Península Arábica cuja capital é Abu Dhabi.",
+          "variantes": [
+            "EAU",
+            "United Arab Emirates",
+            "UAE"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tucano-de-bico-verde",
+        "descricao": "Tucano (Ramphastos dicolorus) de bico esverdeado, peito amarelo e ventre vermelho, do sul e sudeste do Brasil.",
+        "variantes": [
+          "Tucano-de-peito-vermelho",
+          "Ramphastos dicolorus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tucano_toco",
+          "nome": "Tucano-toco",
+          "descricao": "Maior espécie de tucano (Ramphastos toco), de corpo preto, papo branco e bico laranja com mancha preta na ponta, da América do Sul.",
+          "variantes": [
+            "Tucanuçu",
+            "Toco toucan",
+            "Ramphastos toco"
+          ]
+        },
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Socó-boi",
+        "descricao": "Garça de pescoço ruivo e listrado (Tigrisoma lineatum), das áreas alagadas das Américas.",
+        "variantes": [
+          "Socó-boi-ruivo",
+          "Tigrisoma lineatum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "rock_in_rio",
+          "nome": "Rock in Rio",
+          "descricao": "Festival de música criado por Roberto Medina no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "oculos_bifocais",
+          "nome": "Óculos bifocais",
+          "descricao": "Óculos com lentes divididas em duas partes, uma para enxergar de longe e outra de perto, atribuídos a Benjamin Franklin.",
+          "variantes": [
+            "Lentes bifocais",
+            "Bifocais"
+          ]
+        },
+        {
+          "id": "coccix",
+          "nome": "Cóccix",
+          "descricao": "Pequeno osso formado por vértebras fundidas na extremidade inferior da coluna vertebral humana.",
+          "variantes": [
+            "Coccyx",
+            "Osso do rabo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "joao_de_barro",
+      "motivo": "Mesma espécie Furnarius rufus, mesmo nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pelicano-pardo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ave secretário."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o sabiá-laranjeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o casuar."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o bico-de-sapato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pardal."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o grou-coroado-cinzento."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tangará."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ema australiana (emu)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Tucano-toco é outra espécie; as demais não correspondem."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o socó-boi."
+    }
+  ]
+}
