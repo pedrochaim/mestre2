@@ -77344,5 +77344,240 @@
       "autor": "NASA/JPL",
       "licenca": "CC BY 4.0"
     }
+  },
+  {
+    "id": "q04580",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "surfe",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é praticado nesta imagem?",
+    "resposta": "Surfe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Surfing",
+      "https://pt.wikipedia.org/wiki/Surfe"
+    ],
+    "imagem": {
+      "arquivo": "q04580.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Surfer_at_the_Cayucos_Pier,_Cayucos,_CA.jpg",
+      "autor": "Mike Baird",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q04581",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "tiro_com_arco",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modalidade olímpica é praticada nesta imagem?",
+    "resposta": "Tiro com arco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Archery",
+      "https://pt.wikipedia.org/wiki/Arqueria"
+    ],
+    "imagem": {
+      "arquivo": "q04581.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Archery_competition.jpg",
+      "autor": "Photo by Casito",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04582",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "handebol",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte coletivo é praticado nesta imagem?",
+    "resposta": "Handebol",
+    "distratores": [
+      "Basquete",
+      "Futsal",
+      "Polo aquático"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Handball",
+      "https://pt.wikipedia.org/wiki/Andebol"
+    ],
+    "imagem": {
+      "arquivo": "q04582.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Albert_Rocas_Selección_2013.jpg",
+      "autor": "Carlos Delgado",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04583",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "arco_ginastica_ritmica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho a ginasta usa nesta apresentação de ginástica rítmica?",
+    "resposta": "Arco",
+    "distratores": [
+      "Bola",
+      "Maças",
+      "Fita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rhythmic_gymnastics",
+      "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica"
+    ],
+    "imagem": {
+      "arquivo": "q04583.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Evgenia_Kanaeva_RUS_Olympiasiegerin.JPG",
+      "autor": "Bauken77",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04584",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "barras_assimetricas",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho da ginástica artística feminina é este?",
+    "resposta": "Barras assimétricas",
+    "distratores": [
+      "Trave de equilíbrio",
+      "Barra fixa",
+      "Cavalo com alças"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uneven_bars",
+      "https://pt.wikipedia.org/wiki/Paralelas_assim%C3%A9tricas"
+    ],
+    "imagem": {
+      "arquivo": "q04584.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nadia_Comăneci_Montreal1976d.jpg",
+      "autor": "Unknown (Comitetul Olimpic si Sportiv Roman)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q04585",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "salto_em_altura",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que técnica de salto em altura aparece nesta imagem?",
+    "resposta": "Fosbury flop",
+    "distratores": [
+      "Rolo ventral",
+      "Tesoura",
+      "Rolo costal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/High_jump",
+      "https://pt.wikipedia.org/wiki/Salto_em_altura"
+    ],
+    "imagem": {
+      "arquivo": "q04585.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Yelena_Slesarenko_jumping_2007.jpg",
+      "autor": "Bjarte Hetland",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q04586",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "sai",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que arma tradicional de artes marciais de Okinawa é esta?",
+    "resposta": "Sai",
+    "distratores": [
+      "Tonfa",
+      "Nunchaku",
+      "Kama"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sai_%28weapon%29",
+      "https://pt.wikipedia.org/wiki/Sai_%28arma%29"
+    ],
+    "imagem": {
+      "arquivo": "q04586.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2_antique_sai.jpg",
+      "autor": "Samuraiantiqueworld",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04587",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "pebolim",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de mesa é este?",
+    "resposta": "Pebolim (também chamado totó ou futebol de mesa)",
+    "distratores": [
+      "Hóquei de mesa",
+      "Tênis de mesa",
+      "Sinuca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Table_football",
+      "https://pt.wikipedia.org/wiki/Futebol_de_mesa"
+    ],
+    "imagem": {
+      "arquivo": "q04587.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Baby_foot_artlibre_jnl.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "FAL"
+    }
+  },
+  {
+    "id": "q04588",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "hoquei_no_gelo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é praticado nesta imagem?",
+    "resposta": "Hóquei no gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ice_hockey",
+      "https://pt.wikipedia.org/wiki/H%C3%B3quei_no_gelo"
+    ],
+    "imagem": {
+      "arquivo": "q04588.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NLA,_Lausanne_HC_vs._Rapperswil-Jona_Lakers,_11th_November_2014_03.JPG",
+      "autor": "Fabien Perissinotto",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04589",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "adestramento",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade hípica é esta?",
+    "resposta": "Adestramento",
+    "distratores": [
+      "Salto",
+      "Concurso completo",
+      "Rédeas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dressage",
+      "https://pt.wikipedia.org/wiki/Adestramento_%28hipismo%29"
+    ],
+    "imagem": {
+      "arquivo": "q04589.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:WPT2013-CDI4-Dorselius_Cecilia_Andren-Lennox-3.JPG",
+      "autor": "Oliver Abels (SBT)",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

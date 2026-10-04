@@ -1,0 +1,597 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Surfe",
+        "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+        "variantes": [
+          "Surf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_smurfs",
+          "nome": "Os Smurfs",
+          "descricao": "Criaturinhas azuis criadas pelo quadrinista belga Peyo em 1958",
+          "variantes": [
+            "Les Schtroumpfs",
+            "Smurfs"
+          ]
+        },
+        {
+          "id": "antonio_jose_de_sucre",
+          "nome": "Antonio José de Sucre",
+          "descricao": "General venezuelano das guerras de independência sul-americanas, vencedor de Ayacucho e presidente da Bolívia.",
+          "variantes": [
+            "Sucre",
+            "Marechal Sucre"
+          ]
+        },
+        {
+          "id": "sucre",
+          "nome": "Sucre",
+          "descricao": "Cidade boliviana que é a capital constitucional da Bolívia.",
+          "variantes": [
+            "La Plata",
+            "Chuquisaca"
+          ]
+        },
+        {
+          "id": "smurfette",
+          "nome": "Smurfette",
+          "descricao": "Única smurf feminina da aldeia nas histórias originais dos Smurfs, de Peyo",
+          "variantes": [
+            "Smurfina"
+          ]
+        },
+        {
+          "id": "surtsey",
+          "nome": "Surtsey",
+          "descricao": "Ilha vulcânica ao sul da Islândia, surgida de uma erupção submarina iniciada em 1963.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tiro com arco",
+        "descricao": "Esporte de precisão em que atletas disparam flechas com arcos contra um alvo.",
+        "variantes": [
+          "Arco e flecha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ras_dardo_venenosas",
+          "nome": "Rãs-dardo-venenosas",
+          "descricao": "Pequenas rãs de cores vivas da família Dendrobatidae, das florestas tropicais da América Central e do Sul, com pele tóxica.",
+          "variantes": [
+            "Rãs-flecha",
+            "Dendrobatídeos",
+            "Poison dart frogs"
+          ]
+        },
+        {
+          "id": "salto_com_vara",
+          "nome": "Salto com vara",
+          "descricao": "Prova do atletismo em que o atleta usa uma vara flexível para passar sobre o sarrafo.",
+          "variantes": []
+        },
+        {
+          "id": "cair_a_ficha",
+          "nome": "Cair a ficha",
+          "descricao": "Expressão brasileira para o momento em que alguém finalmente entende algo",
+          "variantes": [
+            "Caiu a ficha"
+          ]
+        },
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Handebol",
+        "descricao": "Esporte coletivo em que duas equipes de sete jogadores arremessam a bola com as mãos no gol adversário.",
+        "variantes": [
+          "Andebol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "georg_friedrich_handel",
+          "nome": "Georg Friedrich Händel",
+          "descricao": "Compositor barroco alemão naturalizado inglês (1685–1759), autor do Messias.",
+          "variantes": [
+            "Handel",
+            "Händel",
+            "George Frideric Handel"
+          ]
+        },
+        {
+          "id": "beisebol",
+          "nome": "Beisebol",
+          "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+          "variantes": [
+            "Basebol"
+          ]
+        },
+        {
+          "id": "absol",
+          "nome": "Absol",
+          "descricao": "Pokémon do tipo Sombrio, número 359 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arco (ginástica rítmica)",
+        "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+        "variantes": [
+          "Ginástica rítmica",
+          "Bambolê"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bambole",
+          "nome": "Bambolê",
+          "descricao": "Aro de plástico girado em volta da cintura, que virou febre nos Estados Unidos em 1958.",
+          "variantes": [
+            "Hula hoop",
+            "Bambolê de plástico"
+          ]
+        },
+        {
+          "id": "dinastia_ptolemaica",
+          "nome": "Dinastia ptolemaica",
+          "descricao": "Dinastia de origem macedônica que governou o Egito de 305 a 30 antes de Cristo, da qual Cleópatra foi a última soberana",
+          "variantes": [
+            "Reino Ptolemaico",
+            "Ptolemaic Kingdom",
+            "Dinastia lágida"
+          ]
+        },
+        {
+          "id": "beisebol",
+          "nome": "Beisebol",
+          "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+          "variantes": [
+            "Basebol"
+          ]
+        },
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        },
+        {
+          "id": "bambu",
+          "nome": "Bambu",
+          "descricao": "Planta da subfamília Bambusoideae, gramínea de colmos lenhosos e articulados.",
+          "variantes": [
+            "Bambusoideae",
+            "Bambuzal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Barras assimétricas",
+        "descricao": "Aparelho da ginástica artística feminina com duas barras horizontais em alturas diferentes.",
+        "variantes": [
+          "Paralelas assimétricas",
+          "Barras paralelas assimétricas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delta_do_parnaiba",
+          "nome": "Delta do Parnaíba",
+          "descricao": "Delta do rio Parnaíba, com dezenas de ilhas, na foz do rio no oceano Atlântico.",
+          "variantes": [
+            "Delta das Américas"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        },
+        {
+          "id": "bateria",
+          "nome": "Bateria",
+          "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+          "variantes": [
+            "Bateria acústica",
+            "Drum kit"
+          ]
+        },
+        {
+          "id": "as_aves_da_america",
+          "nome": "As Aves da América",
+          "descricao": "Livro de gravuras de aves norte-americanas em tamanho natural, publicado entre 1827 e 1838.",
+          "variantes": [
+            "The Birds of America",
+            "Birds of America"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Salto em altura",
+        "descricao": "Prova do atletismo em que o atleta salta sobre um sarrafo horizontal sem derrubá-lo.",
+        "variantes": [
+          "High jump"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_com_vara",
+          "nome": "Salto com vara",
+          "descricao": "Prova do atletismo em que o atleta usa uma vara flexível para passar sobre o sarrafo.",
+          "variantes": []
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls"
+          ]
+        },
+        {
+          "id": "marcha_do_sal",
+          "nome": "Marcha do Sal",
+          "descricao": "Marcha de protesto não violento liderada por Gandhi em 1930, do seu ashram até o litoral de Dandi, na Índia.",
+          "variantes": [
+            "Satyagraha do Sal",
+            "Marcha de Dandi",
+            "Salt March"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos",
+            "Relógio Cartier Santos",
+            "Santos de Cartier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sai",
+        "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+        "variantes": [
+          "Sai (arma)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pebolim",
+        "descricao": "Jogo de mesa em que bonecos presos a hastes giratórias chutam uma bola em direção ao gol adversário.",
+        "variantes": [
+          "Totó",
+          "Futebol de mesa",
+          "Pebolim de mesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        },
+        {
+          "id": "futsal",
+          "nome": "Futsal",
+          "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+          "variantes": [
+            "Futebol de salão"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hóquei no gelo",
+        "descricao": "Esporte coletivo disputado sobre o gelo, com patins e tacos, em que se faz gols com um disco de borracha.",
+        "variantes": [
+          "Hóquei sobre o gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hoquei_sobre_grama",
+          "nome": "Hóquei sobre grama",
+          "descricao": "Esporte olímpico jogado com tacos curvos e uma bola pequena, na grama.",
+          "variantes": []
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun"
+          ]
+        },
+        {
+          "id": "pequena_era_do_gelo",
+          "nome": "Pequena Era do Gelo",
+          "descricao": "Período de resfriamento do clima no hemisfério norte entre os séculos quatorze e dezenove",
+          "variantes": [
+            "Little Ice Age"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Adestramento",
+        "descricao": "Modalidade hípica em que o cavalo executa uma sequência de movimentos predeterminados guiado pelo cavaleiro.",
+        "variantes": [
+          "Dressage"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castrato",
+          "nome": "Castrato",
+          "descricao": "Cantor castrado antes da puberdade, muito comum na ópera e na música sacra dos séculos dezessete e dezoito.",
+          "variantes": [
+            "Castrati",
+            "Castrado"
+          ]
+        },
+        {
+          "id": "mistral",
+          "nome": "Mistral",
+          "descricao": "Vento frio e forte que sopra do norte pelo vale do Ródano até o Mediterrâneo, no sul da França",
+          "variantes": [
+            "Mistral (vento)"
+          ]
+        },
+        {
+          "id": "papiamento",
+          "nome": "Papiamento",
+          "descricao": "Língua crioula de base ibérica falada nas Antilhas neerlandesas",
+          "variantes": [
+            "Papiamentu",
+            "Papiamentoe"
+          ]
+        },
+        {
+          "id": "santana_do_livramento",
+          "nome": "Santana do Livramento",
+          "descricao": "Município do Rio Grande do Sul na fronteira com o Uruguai, vizinho da cidade de Rivera.",
+          "variantes": [
+            "Sant'Ana do Livramento",
+            "Livramento"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Surfe é um esporte; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tiro com arco é esporte distinto de todas as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Handebol é um esporte; candidatas são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arco de ginástica rítmica é aparelho distinto do bambolê de plástico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Barras assimétricas é aparelho de ginástica; sem candidata equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Salto em altura é prova diferente do salto com vara e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Sai (arma) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "pebolim",
+      "motivo": "Mesmo jogo de mesa, com mesmo nome e variantes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Hóquei no gelo é diferente do hóquei sobre grama e das demais."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Adestramento é modalidade hípica; nenhuma candidata corresponde."
+    }
+  ]
+}

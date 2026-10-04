@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O tiro com arco é modalidade olímpica, fato amplamente documentado. 'Olímpica' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo e nenhum correto para a imagem. Enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O arco é um dos aparelhos da ginástica rítmica. Os distratores são aparelhos reais, de uma palavra, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aparelho exclusivamente feminino, conforme o trecho. Os distratores são críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve o padrão e cita a Adidas, então dá para responder 'Telstar' sem ver a imagem. A figura mostra uma bola genérica, e 'este modelo' não se confirma para ela. Não tem conserto sem trocar a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esta atleta' assume um gênero que 'mostra' não confirma. Basta trocar por redação neutra. O Fosbury flop é a técnica universalmente usada hoje.",
+      "reescrita": {
+        "pergunta": "Que técnica de salto em altura aparece nesta imagem?",
+        "resposta": "Fosbury flop",
+        "distratores": [
+          "Rolo ventral",
+          "Tesoura",
+          "Rolo costal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O sai é originário de Okinawa. Os distratores são armas do kobudō, sem ambiguidade diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O jogo tem outros nomes igualmente corretos no Brasil (totó, futebol de mesa), o que fere a resposta única. A resposta passa a registrar os sinônimos.",
+      "reescrita": {
+        "pergunta": "Que jogo de mesa é este?",
+        "resposta": "Pebolim (também chamado totó ou futebol de mesa)",
+        "distratores": [
+          "Hóquei de mesa",
+          "Tênis de mesa",
+          "Sinuca"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, direta e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adestramento é modalidade equestre olímpica. Os distratores são outras modalidades hípicas, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

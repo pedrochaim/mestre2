@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que jogo de mesa é este?",
+        "resposta": "Pebolim (também chamado totó ou futebol de mesa)"
+      },
+      "existentes": [
+        {
+          "id": "q01500",
+          "pergunta": "Em São Paulo se diz pebolim, mas na maioria dos estados o jogo de mesa com bonequinhos de futebol em barras giratórias tem qual outro nome?",
+          "resposta": "Totó"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o nome do jogo (pebolim) a partir de uma imagem. A existente pergunta o outro nome (totó) do jogo. Quem soubesse o nome do jogo não saberia necessariamente o sinônimo regional; os fatos são distintos, e na dúvida decide-se nova."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Surfista em ação, onda e prancha claras; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é praticado nesta imagem?",
+      "resposta": "Surfe",
+      "destino": 1,
+      "ancora": {
+        "nome": "Surfe",
+        "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+        "variantes": [
+          "Surf"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fileira de arqueiros em competição, arcos esticados, reconhecível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade olímpica é praticada nesta imagem?",
+      "resposta": "Tiro com arco",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tiro com arco",
+        "descricao": "Esporte de precisão em que atletas disparam flechas com arcos contra um alvo.",
+        "variantes": [
+          "Arco e flecha"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Crianças e espectadores comuns em primeiro plano, fora de contexto de figuras públicas."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jogador em salto de arremesso com bola de handebol, claro; textos são patrocinadores genéricos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte coletivo é praticado nesta imagem?",
+      "resposta": "Handebol",
+      "distratores": [
+        "Basquete",
+        "Futsal",
+        "Polo aquático"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Handebol",
+        "descricao": "Esporte coletivo em que duas equipes de sete jogadores arremessam a bola com as mãos no gol adversário.",
+        "variantes": [
+          "Andebol"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ginasta com arco dourado nítido; texto de fundo é patrocinador e não entrega o aparelho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho a ginasta usa nesta apresentação de ginástica rítmica?",
+      "resposta": "Arco",
+      "distratores": [
+        "Bola",
+        "Maças",
+        "Fita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arco (ginástica rítmica)",
+        "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+        "variantes": [
+          "Bambolê"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco com duas barras em alturas diferentes e ginasta no ar; placar não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho da ginástica artística feminina é este?",
+      "resposta": "Barras assimétricas",
+      "distratores": [
+        "Trave de equilíbrio",
+        "Barra fixa",
+        "Cavalo com alças"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Barras assimétricas",
+        "descricao": "Aparelho da ginástica artística feminina com duas barras horizontais em alturas diferentes.",
+        "variantes": [
+          "Paralelas assimétricas",
+          "Barras paralelas assimétricas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bola de gomos pretos e brancos sobre grama, nítida, sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este padrão de gomos pretos e brancos ficou famoso com qual modelo de bola da Adidas?",
+      "resposta": "Telstar",
+      "destino": 3,
+      "ancora": {
+        "nome": "Bola de futebol",
+        "descricao": "Bola esférica de gomos pretos e brancos usada no futebol.",
+        "variantes": [
+          "Bola de futebol de 32 gomos"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Atleta de costas para o sarrafo, técnica Fosbury flop bem visível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica de salto esta atleta executa?",
+      "resposta": "Fosbury flop",
+      "distratores": [
+        "Rolo ventral",
+        "Tesoura",
+        "Rolo costal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Salto em altura",
+        "descricao": "Prova do atletismo em que o atleta salta sobre um sarrafo horizontal sem derrubá-lo.",
+        "variantes": [
+          "High jump"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Dois sai em fundo neutro, forma característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma tradicional de artes marciais de Okinawa é esta?",
+      "resposta": "Sai",
+      "distratores": [
+        "Tonfa",
+        "Nunchaku",
+        "Kama"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sai",
+        "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+        "variantes": [
+          "Sai (arma)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mesa de pebolim com bonecos nas hastes; só uma mão aparece, sem identificar pessoa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de mesa é este?",
+      "resposta": "Pebolim",
+      "distratores": [
+        "Hóquei de mesa",
+        "Tênis de mesa",
+        "Sinuca"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Pebolim",
+        "descricao": "Jogo de mesa em que bonecos presos a hastes giratórias chutam uma bola em direção ao gol adversário.",
+        "variantes": [
+          "Totó",
+          "Futebol de mesa",
+          "Pebolim de mesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Goleiro de hóquei no gelo, trave, disco e gelo claros; textos são patrocínios.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é praticado nesta imagem?",
+      "resposta": "Hóquei no gelo",
+      "destino": 1,
+      "ancora": {
+        "nome": "Hóquei no gelo",
+        "descricao": "Esporte coletivo disputado sobre o gelo, com patins e tacos, em que se faz gols com um disco de borracha.",
+        "variantes": [
+          "Hóquei sobre o gelo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Amazona uniformizada em exibição de adestramento, cavalo em movimento, sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade hípica é esta?",
+      "resposta": "Adestramento",
+      "distratores": [
+        "Salto",
+        "Concurso completo",
+        "Rédeas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Adestramento",
+        "descricao": "Modalidade hípica em que o cavalo executa uma sequência de movimentos predeterminados guiado pelo cavaleiro.",
+        "variantes": [
+          "Dressage"
+        ]
+      }
+    }
+  ]
+}
