@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; drakkar é o nome popular do navio longo viquingue, confirmado nos trechos. Distratores são embarcações históricas críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "C-130 entrou em serviço em 1956 (trecho em inglês); quatro hélices é correto para o turboélice quadrimotor. O enunciado não entrega o modelo e a resposta é única diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que o Vasa foi construído por ordem do rei Gustavo Adolfo. O enunciado não nomeia o navio e a resposta é única para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mark I produzido a partir de 1959 (lançado em agosto de 1959), conforme o trecho. Pergunta direta e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Ape é muito usado como autorriquixá, sobretudo na Índia, então 'Bajaj Auto Rickshaw' pode ser defensável como resposta. Troquei esse distrator por um veículo de três rodas claramente distinto e mantive os outros dois, que são erros inequívocos.",
+      "reescrita": {
+        "pergunta": "Que veículo comercial de três rodas, derivado de uma scooter italiana, é este?",
+        "resposta": "Piaggio Ape",
+        "distratores": [
+          "Reliant Regal",
+          "Lambro",
+          "Isetta"
+        ]
+      }
+    }
+  ]
+}

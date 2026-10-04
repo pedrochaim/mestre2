@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que rei da Suécia encomendou a construção deste navio de guerra do século dezessete?",
+        "resposta": "Gustavo II Adolfo"
+      },
+      "existentes": [
+        {
+          "id": "q04284",
+          "pergunta": "Em que cidade fica hoje o museu que abriga este navio de guerra do século dezessete?",
+          "resposta": "Estocolmo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata de qual rei encomendou o navio (Gustavo II Adolfo), enquanto a existente trata da cidade onde fica o museu (Estocolmo). Os fatos são diferentes."
+    }
+  ]
+}

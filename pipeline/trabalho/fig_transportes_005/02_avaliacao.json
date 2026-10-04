@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração limpa, sem texto, de um barco que não se fotografa em versão original; silhueta inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de embarcação é esta?",
+      "resposta": "Drakkar",
+      "distratores": [
+        "Galé romana",
+        "Caravela",
+        "Junco chinês"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Drakkar",
+        "descricao": "Navio longo de guerra a remo e vela usado pelos povos nórdicos na Era Viking.",
+        "variantes": [
+          "Barco viking",
+          "Longship",
+          "Langskip"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara do C-130 em voo; os textos visíveis (Air Force, Pope) não revelam o modelo.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este avião militar de transporte de quatro hélices entrou em serviço em que década?",
+      "resposta": "Década de 1950 (1956)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lockheed C-130 Hercules",
+        "descricao": "Avião militar de transporte turboélice quadrimotor americano, fabricado pela Lockheed.",
+        "variantes": [
+          "C-130",
+          "Hercules"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida do casco no museu, sem texto relevante; o navio é inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rei da Suécia encomendou a construção deste navio de guerra do século dezessete?",
+      "resposta": "Gustavo II Adolfo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vasa",
+        "descricao": "Navio de guerra sueco construído entre 1626 e 1628, resgatado em 1961 e exposto em museu em Estocolmo.",
+        "variantes": [
+          "Wasa",
+          "Navio Vasa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A placa do carro traz as letras VW, que entregam a marca; sem recorte, a pista vaza."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Gravura pequena e de baixa resolução, com dois navios; não fica legível no celular e a resposta não é única (galeão ou nau)."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O submarino só se identifica pelo número 571 no casco; pela forma, não é reconhecível entre submarinos da época."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há um homem comum em primeiro plano e a cena mostra um caminhão ao fundo; a imagem não é limpa."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A moto traz o emblema Super Cub no assento e uma placa em japonês no museu; texto visível que pode entregar a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga, pequena e de baixa resolução; a aeronave não é claramente reconhecível como o Demoiselle."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de um Mini Mark I, sem texto visível; carro reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano começou a ser produzido este carro britânico?",
+      "resposta": "1959",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mini Mark I",
+        "descricao": "Primeira versão do carro compacto Mini da British Motor Corporation, produzida a partir de 1959.",
+        "variantes": [
+          "Mini",
+          "Austin Mini",
+          "Morris Mini",
+          "Mini Mk I"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; veículo de três rodas característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que veículo comercial de três rodas é este?",
+      "resposta": "Piaggio Ape",
+      "distratores": [
+        "Reliant Robin",
+        "Bajaj Auto Rickshaw",
+        "Isetta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Piaggio Ape",
+        "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+        "variantes": [
+          "Ape",
+          "Ape 50",
+          "Vespacar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A palavra ZEPPELIN aparece em letras grandes no dirigível e entrega a resposta."
+    }
+  ]
+}
