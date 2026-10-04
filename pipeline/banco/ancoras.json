@@ -10859,7 +10859,8 @@
     "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
     "variantes": [
       "@",
-      "At sign"
+      "At sign",
+      "Arroba"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/At_sign"
@@ -11448,7 +11449,10 @@
       "wikidata": "Q1267311",
       "pt": 0,
       "en": 6186
-    }
+    },
+    "variantes": [
+      "Fita durex"
+    ]
   },
   {
     "id": "portugues_europeu",
@@ -23239,7 +23243,8 @@
     "nome": "Dado",
     "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
     "variantes": [
-      "Dice"
+      "Dice",
+      "Dado de seis faces"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dice"
@@ -47469,7 +47474,8 @@
     "nome": "Vulcanização",
     "descricao": "Processo químico que aquece a borracha com enxofre, tornando-a resistente e elástica.",
     "variantes": [
-      "Vulcanization"
+      "Vulcanization",
+      "Vulcanização da borracha"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Vulcanization"
@@ -47572,7 +47578,8 @@
     "nome": "Fósforo de segurança",
     "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
     "variantes": [
-      "Safety match"
+      "Safety match",
+      "Fósforo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Match"
@@ -50566,7 +50573,8 @@
     "nome": "Papel",
     "descricao": "Material de escrita feito de fibras vegetais, desenvolvido na China da dinastia Han.",
     "variantes": [
-      "Paper"
+      "Paper",
+      "Papel de fibra vegetal"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Paper",
@@ -66552,6 +66560,277 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Calculator",
       "https://pt.wikipedia.org/wiki/Calculadora"
+    ]
+  },
+  {
+    "id": "pipa",
+    "nome": "Pipa",
+    "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+    "variantes": [
+      "Papagaio",
+      "Pandorga",
+      "Arraia",
+      "Pipa (brinquedo)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kite"
+    ]
+  },
+  {
+    "id": "espelho",
+    "nome": "Espelho",
+    "descricao": "Superfície de vidro com fundo metálico que reflete imagens, usada no dia a dia para ver o próprio reflexo.",
+    "variantes": [
+      "Espelho de vidro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mirror"
+    ]
+  },
+  {
+    "id": "cartao_postal",
+    "nome": "Cartão-postal",
+    "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+    "variantes": [
+      "Postal",
+      "Postcard"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Postcard"
+    ]
+  },
+  {
+    "id": "caixa_eletronico",
+    "nome": "Caixa eletrônico",
+    "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano.",
+    "variantes": [
+      "ATM",
+      "Caixa automático"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Automated_teller_machine"
+    ]
+  },
+  {
+    "id": "stereobelt",
+    "nome": "Stereobelt",
+    "descricao": "Tocador de fitas portátil com fones de ouvido criado em 1972 pelo alemão Andreas Pavel, precursor do Walkman.",
+    "variantes": [
+      "Stereo belt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Andreas_Pavel"
+    ]
+  },
+  {
+    "id": "walkman",
+    "nome": "Walkman",
+    "descricao": "Tocador portátil de fitas cassete com fones de ouvido, lançado pela empresa japonesa Sony.",
+    "variantes": [
+      "Sony Walkman"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Walkman"
+    ]
+  },
+  {
+    "id": "carrinho_de_supermercado",
+    "nome": "Carrinho de supermercado",
+    "descricao": "Cesto de metal ou plástico sobre rodas usado pelos clientes para carregar compras no mercado.",
+    "variantes": [
+      "Carrinho de compras",
+      "Shopping cart"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shopping_cart"
+    ]
+  },
+  {
+    "id": "sacola_plastica",
+    "nome": "Sacola plástica",
+    "descricao": "Saco leve de plástico com alças usado para carregar compras, criado pelo engenheiro sueco Sten Gustaf Thulin.",
+    "variantes": [
+      "Sacolinha de supermercado",
+      "Plastic bag"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Plastic_bag"
+    ]
+  },
+  {
+    "id": "tamagotchi",
+    "nome": "Tamagotchi",
+    "descricao": "Bichinho virtual eletrônico em forma de ovo, criado pela empresa japonesa Bandai.",
+    "variantes": [
+      "Bichinho virtual"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tamagotchi"
+    ]
+  },
+  {
+    "id": "freio_de_seguranca_do_elevador",
+    "nome": "Freio de segurança do elevador",
+    "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+    "variantes": [
+      "Elevador de segurança"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elisha_Otis"
+    ]
+  },
+  {
+    "id": "braille",
+    "nome": "Braille",
+    "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+    "variantes": [
+      "Sistema braille",
+      "Braile"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Braille"
+    ]
+  },
+  {
+    "id": "telefone_celular",
+    "nome": "Telefone celular",
+    "descricao": "Telefone portátil sem fio que se conecta a uma rede de antenas, cuja primeira ligação foi feita em 1973.",
+    "variantes": [
+      "Celular",
+      "Telemóvel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mobile_phone"
+    ]
+  },
+  {
+    "id": "termometro_de_mercurio",
+    "nome": "Termômetro de mercúrio",
+    "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+    "variantes": [
+      "Termômetro de vidro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer"
+    ]
+  },
+  {
+    "id": "xampu",
+    "nome": "Xampu",
+    "descricao": "Produto líquido de higiene usado para lavar os cabelos.",
+    "variantes": [
+      "Shampoo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shampoo"
+    ]
+  },
+  {
+    "id": "xerografia",
+    "nome": "Xerografia",
+    "descricao": "Processo de fotocópia a seco que deu origem às máquinas Xerox.",
+    "variantes": [
+      "Xerox",
+      "Fotocópia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Xerography"
+    ]
+  },
+  {
+    "id": "tefal",
+    "nome": "Tefal",
+    "descricao": "Marca francesa de panelas e utensílios de cozinha, pioneira nas frigideiras antiaderentes.",
+    "variantes": [
+      "T-fal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tefal"
+    ]
+  },
+  {
+    "id": "borracha_natural",
+    "nome": "Borracha natural",
+    "descricao": "Material elástico obtido do látex de árvores como a seringueira.",
+    "variantes": [
+      "Látex",
+      "Rubber"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Natural_rubber"
+    ]
+  },
+  {
+    "id": "polaroid",
+    "nome": "Polaroid",
+    "descricao": "Câmera fotográfica instantânea que revela a foto logo após o clique, criada por Edwin Land.",
+    "variantes": [
+      "Câmera Polaroid",
+      "Câmera instantânea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Instant_camera"
+    ]
+  },
+  {
+    "id": "smiley",
+    "nome": "Smiley",
+    "descricao": "Desenho de um rosto amarelo sorridente criado pelo artista americano Harvey Ball em 1963.",
+    "variantes": [
+      "Carinha sorridente",
+      "Smile",
+      "Smiley face"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Smiley"
+    ]
+  },
+  {
+    "id": "diners_club",
+    "nome": "Diners Club",
+    "descricao": "Cartão de pagamento lançado nos Estados Unidos em 1950, precursor dos cartões de crédito modernos.",
+    "variantes": [
+      "Diners Club International",
+      "Cartão Diners"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diners_Club_International"
+    ]
+  },
+  {
+    "id": "arvore_de_natal",
+    "nome": "Árvore de Natal",
+    "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+    "variantes": [
+      "Pinheirinho de Natal",
+      "Christmas tree"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christmas_tree"
+    ]
+  },
+  {
+    "id": "bambole",
+    "nome": "Bambolê",
+    "descricao": "Aro de plástico girado em volta da cintura, que virou febre nos Estados Unidos em 1958.",
+    "variantes": [
+      "Hula hoop",
+      "Bambolê de plástico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hula_hoop"
+    ]
+  },
+  {
+    "id": "despertador",
+    "nome": "Despertador",
+    "descricao": "Relógio que emite um som num horário programado para acordar quem dorme.",
+    "variantes": [
+      "Relógio despertador",
+      "Alarm clock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alarm_clock"
     ]
   }
 ]
