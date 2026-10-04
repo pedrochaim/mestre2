@@ -75,7 +75,7 @@
       "titulo": "pt:Estádio Urbano Caldeira",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "São Januário",
@@ -425,7 +425,7 @@
       "titulo": "en:Stadium Australia",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estádio Olímpico de Montjuïc",
@@ -439,7 +439,7 @@
       "titulo": "en:London Aquatics Centre",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Crypto.com Arena (Staples Center)",
@@ -474,7 +474,7 @@
       "titulo": "en:Estádio José Alvalade",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Stade Vélodrome",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 2,
       "status": "reprovada"
+    },
+    {
+      "nome": "Coliseu",
+      "titulo": "en:Colosseum",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Monumental de Núñez",
+      "titulo": "en:Estadio Monumental Antonio Vespucio Liberti",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Diego Armando Maradona",
+      "titulo": "en:Stadio Diego Armando Maradona",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito de Mônaco",
+      "titulo": "en:Circuit de Monaco",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Parque Olímpico da Barra",
+      "titulo": "en:Barra Olympic Park",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "MetLife Stadium",
+      "titulo": "en:MetLife Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Lujniki",
+      "titulo": "en:Luzhniki Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico Monumental",
+      "titulo": "en:Estádio Olímpico Monumental",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Ilha do Retiro",
+      "titulo": "en:Estádio Ilha do Retiro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Etihad Stadium",
+      "titulo": "en:City of Manchester Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tottenham Hotspur Stadium",
+      "titulo": "en:Tottenham Hotspur Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Allianz Stadium (Turim)",
+      "titulo": "en:Juventus Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito de Silverstone",
+      "titulo": "en:Silverstone Circuit",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena de Verona",
+      "titulo": "en:Verona Arena",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Circo Máximo",
+      "titulo": "en:Circus Maximus",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Independência",
+      "titulo": "en:Estádio Independência",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Serra Dourada",
+      "titulo": "en:Estádio Serra Dourada",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio das Laranjeiras",
+      "titulo": "en:Estádio das Laranjeiras",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "AT&T Stadium",
+      "titulo": "en:AT&T Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "SoFi Stadium",
+      "titulo": "en:SoFi Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio 974",
+      "titulo": "en:Stadium 974",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Al Bayt",
+      "titulo": "en:Al Bayt Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Millennium Stadium (Cardiff)",
+      "titulo": "en:Millennium Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico Atatürk",
+      "titulo": "en:Atatürk Olympic Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tokyo Dome",
+      "titulo": "en:Tokyo Dome",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito de Spa-Francorchamps",
+      "titulo": "en:Circuit de Spa-Francorchamps",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito de Suzuka",
+      "titulo": "en:Suzuka International Racing Course",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hampden Park",
+      "titulo": "en:Hampden Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ibrox Stadium",
+      "titulo": "en:Ibrox Stadium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "St James' Park",
+      "titulo": "en:St James' Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Hernando Siles",
+      "titulo": "en:Estadio Hernando Siles",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Brinco de Ouro da Princesa",
+      "titulo": "en:Estádio Brinco de Ouro da Princesa",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mangueirão",
+      "titulo": "pt:Estádio Olímpico do Pará",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Helsinque",
+      "titulo": "en:Helsinki Olympic Stadium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Amsterdã",
+      "titulo": "en:Olympisch Stadion (Amsterdam)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico Fisht",
+      "titulo": "en:Fisht Olympic Stadium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Rungrado 1º de Maio",
+      "titulo": "en:Rungrado 1st of May Stadium",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Michigan Stadium",
+      "titulo": "en:Michigan Stadium",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Eden Gardens",
+      "titulo": "en:Eden Gardens",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "San Mamés",
+      "titulo": "en:San Mamés Stadium (2013)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

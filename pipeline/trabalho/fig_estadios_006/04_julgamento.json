@@ -1,0 +1,373 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tottenham Hotspur Stadium",
+        "descricao": "Estádio de futebol em Londres, casa do Tottenham Hotspur, que substituiu White Hart Lane.",
+        "variantes": [
+          "Estádio do Tottenham",
+          "New White Hart Lane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_de_twickenham",
+          "nome": "Estádio de Twickenham",
+          "descricao": "Estádio nacional de rúgbi da Inglaterra, em Twickenham, Londres, pertencente à Rugby Football Union.",
+          "variantes": [
+            "Twickenham Stadium",
+            "Twickenham"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio José Alvalade",
+        "descricao": "Estádio de futebol em Lisboa, Portugal, casa do Sporting CP.",
+        "variantes": [
+          "Estádio de Alvalade",
+          "Alvalade XXI"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "arena_pantanal",
+          "nome": "Arena Pantanal",
+          "descricao": "Estádio de futebol em Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014 e casa do Cuiabá Esporte Clube.",
+          "variantes": [
+            "Estádio José Fragelli",
+            "Arena Pantanal (Cuiabá)"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "estadio_de_wembley",
+          "nome": "Estádio de Wembley",
+          "descricao": "Estádio nacional da Inglaterra, em Londres, com um grande arco.",
+          "variantes": []
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Circuito de Mônaco",
+        "descricao": "Circuito de rua de Monte Carlo, em Mônaco, palco do Grande Prêmio de Mônaco de Fórmula 1.",
+        "variantes": [
+          "Circuit de Monaco",
+          "Monte Carlo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_monaco",
+          "nome": "Circuito de Mônaco",
+          "descricao": "Circuito de rua de Monte Carlo, em Mônaco.",
+          "variantes": []
+        },
+        {
+          "id": "circuito_gilles_villeneuve",
+          "nome": "Circuito Gilles Villeneuve",
+          "descricao": "Circuito de rua da Ilha Notre-Dame, em Montreal, sede do Grande Prêmio do Canadá.",
+          "variantes": [
+            "Circuit Gilles Villeneuve",
+            "Circuito de Montreal"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "monte_pascoal",
+          "nome": "Monte Pascoal",
+          "descricao": "Monte no sul da Bahia, primeira terra avistada pela esquadra de Pedro Álvares Cabral em 1500.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Centro Aquático de Londres",
+        "descricao": "Arena de natação e saltos ornamentais projetada por Zaha Hadid para os Jogos Olímpicos de 2012.",
+        "variantes": [
+          "London Aquatics Centre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        },
+        {
+          "id": "centro_olimpico_de_tenis",
+          "nome": "Centro Olímpico de Tênis",
+          "descricao": "Complexo de tênis construído no Parque Olímpico da Barra, no Rio de Janeiro, para os Jogos de 2016.",
+          "variantes": [
+            "Olympic Tennis Centre"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_de_alcantara",
+          "nome": "Centro de Lançamento de Alcântara",
+          "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+          "variantes": [
+            "CLA",
+            "Base de Alcântara"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vila Belmiro",
+        "descricao": "Estádio Urbano Caldeira, em Santos (SP), casa do Santos Futebol Clube.",
+        "variantes": [
+          "Estádio Urbano Caldeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_couto_pereira",
+          "nome": "Estádio Couto Pereira",
+          "descricao": "Estádio de futebol de Curitiba, Paraná, casa do Coritiba Foot Ball Club.",
+          "variantes": [
+            "Estádio Major Antônio Couto Pereira",
+            "Couto Pereira"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        },
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estádio Rungrado 1º de Maio",
+        "descricao": "Estádio multiuso na ilha de Rungra, em Pyongyang, Coreia do Norte.",
+        "variantes": [
+          "Rungrado 1st of May Stadium",
+          "Estádio Primeiro de Maio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_munique",
+          "nome": "Estádio Olímpico de Munique",
+          "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+          "variantes": [
+            "Olympiastadion München",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio do Tottenham; Twickenham é de rúgbi."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estádio de Lisboa do Sporting; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "circuito_de_monaco",
+      "motivo": "Mesmo nome e mesma descrição: circuito de rua de Monte Carlo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Centro Aquático de Londres 2012 é distinto do Cubo d'Água de Pequim 2008 e das demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vila Belmiro, em Santos, não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Estádio de Pyongyang; nenhuma candidata é o mesmo estádio."
+    }
+  ]
+}

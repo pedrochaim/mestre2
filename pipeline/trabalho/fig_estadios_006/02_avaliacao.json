@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida, sem texto, com teto e fachada característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio de futebol de Londres é este?",
+      "resposta": "Tottenham Hotspur Stadium",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tottenham Hotspur Stadium",
+        "descricao": "Estádio de futebol em Londres, casa do Tottenham Hotspur, que substituiu White Hart Lane.",
+        "variantes": [
+          "Estádio do Tottenham",
+          "New White Hart Lane"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Faixa com 'ANZ STADIUM' bem visível na fachada entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Interior com teto metálico e arquibancadas verdes característicos; sem nome do estádio visível. Patrocinadores genéricos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que clube manda seus jogos neste estádio de Lisboa?",
+      "resposta": "Sporting CP",
+      "distratores": [
+        "Benfica",
+        "Porto",
+        "Braga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio José Alvalade",
+        "descricao": "Estádio de futebol em Lisboa, Portugal, casa do Sporting CP.",
+        "variantes": [
+          "Estádio de Alvalade",
+          "Alvalade XXI"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Interior genérico de estádio de futebol americano, não reconhecível de forma única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Interior genérico de estádio de futebol, sem traço que permita reconhecê-lo com unicidade; há textos de patrocínio e da FIFA."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome 'MICHIGAN' e o grande 'M' aparecem no gramado e na entrada, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Curva grampo de Mônaco, característica e sem texto que entregue. Reconhecível por aficionados; múltipla escolha ajuda.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este circuito de rua, famoso por esta curva fechada?",
+      "resposta": "Mônaco",
+      "distratores": [
+        "França",
+        "Itália",
+        "Espanha"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Circuito de Mônaco",
+        "descricao": "Circuito de rua de Monte Carlo, em Mônaco, palco do Grande Prêmio de Mônaco de Fórmula 1.",
+        "variantes": [
+          "Circuit de Monaco",
+          "Monte Carlo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Teto ondulado característico, sem texto, bem legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arena dos Jogos Olímpicos de 2012 é esta?",
+      "resposta": "Centro Aquático de Londres",
+      "destino": 1,
+      "ancora": {
+        "nome": "Centro Aquático de Londres",
+        "descricao": "Arena de natação e saltos ornamentais projetada por Zaha Hadid para os Jogos Olímpicos de 2012.",
+        "variantes": [
+          "London Aquatics Centre"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto distante e de baixa resolução, estádio pouco visível entre prédios; não reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arquibancada superior característica; texto parcial 'SANGUE' no banner não nomeia a resposta. Múltipla ajuda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que clube manda seus jogos neste estádio paulista?",
+      "resposta": "Santos",
+      "distratores": [
+        "Corinthians",
+        "Palmeiras",
+        "Portuguesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vila Belmiro",
+        "descricao": "Estádio Urbano Caldeira, em Santos (SP), casa do Santos Futebol Clube.",
+        "variantes": [
+          "Estádio Urbano Caldeira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto aérea histórica em preto e branco; estádio pouco reconhecível, difícil demais."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cobertura em arcos inconfundível, sem texto, legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este estádio, um dos maiores do mundo?",
+      "resposta": "Coreia do Norte",
+      "distratores": [
+        "Coreia do Sul",
+        "China",
+        "Japão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Rungrado 1º de Maio",
+        "descricao": "Estádio multiuso na ilha de Rungra, em Pyongyang, Coreia do Norte.",
+        "variantes": [
+          "Rungrado 1st of May Stadium",
+          "Estádio Primeiro de Maio"
+        ]
+      }
+    }
+  ]
+}

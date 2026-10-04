@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; o enunciado não nomeia o estádio nem dá pista que entregue a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o estádio é a casa do Sporting CP. O enunciado não vaza a resposta e os distratores são críveis, curtos e errados. Benfica também é de Lisboa, mas não manda jogos ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que a figura mostra uma curva fechada, mas 'mostra' só indica o circuito. Isso não é verificável para esta foto. Basta tirar a afirmação.",
+      "reescrita": {
+        "pergunta": "Em que país fica este circuito de rua da Fórmula 1?",
+        "resposta": "Mônaco",
+        "distratores": [
+          "França",
+          "Itália",
+          "Espanha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é uma das arenas de 2012. O enunciado não nomeia a arena nem cita natação ou aquático, e a figura decide a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o estádio pertence ao Santos. O enunciado não vaza a resposta e os distratores são clubes paulistas críveis, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o estádio fica em Pyongyang, na Coreia do Norte, e que é um dos maiores do mundo. O enunciado é literalmente verdadeiro e os distratores são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

@@ -76474,5 +76474,120 @@
       "licenca": "CC0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q04529",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tottenham_hotspur_stadium",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio de futebol de Londres é este?",
+    "resposta": "Tottenham Hotspur Stadium",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium",
+      "https://pt.wikipedia.org/wiki/Tottenham_Hotspur_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q04529.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:London_Tottenham_Hotspur_Stadium.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q04530",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_jose_alvalade",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube manda seus jogos neste estádio de Lisboa?",
+    "resposta": "Sporting CP",
+    "distratores": [
+      "Benfica",
+      "Porto",
+      "Braga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade"
+    ],
+    "imagem": {
+      "arquivo": "q04530.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_José_Alvalade_antes_do_jogo_Sporting_-_Arouca.jpg",
+      "autor": "Megutim",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q04531",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "centro_aquatico_de_londres",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que arena dos Jogos Olímpicos de 2012 é esta?",
+    "resposta": "Centro Aquático de Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/London_Aquatics_Centre",
+      "https://pt.wikipedia.org/wiki/Centro_Aqu%C3%A1tico_de_Londres"
+    ],
+    "imagem": {
+      "arquivo": "q04531.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre,_16_April_2012.jpg",
+      "autor": "EG Focus",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q04532",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "vila_belmiro",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube manda seus jogos neste estádio paulista?",
+    "resposta": "Santos",
+    "distratores": [
+      "Corinthians",
+      "Palmeiras",
+      "Portuguesa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Urbano_Caldeira",
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Urbano_Caldeira"
+    ],
+    "imagem": {
+      "arquivo": "q04532.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vila_Belmiro_pre-match_Santos_vs_Grêmio_2021.jpg",
+      "autor": "BrazilianDude70",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04533",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_rungrado_1o_de_maio",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este estádio, um dos maiores do mundo?",
+    "resposta": "Coreia do Norte",
+    "distratores": [
+      "Coreia do Sul",
+      "China",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rungrado_1st_of_May_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Primeiro_de_Maio_Rungrado"
+    ],
+    "imagem": {
+      "arquivo": "q04533.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rŭngrado_May_First_Stadium.JPG",
+      "autor": "Views_from_Yanggakdo_International_Hotel_10.JPG: Nicor derivative work: Hic et nunc",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

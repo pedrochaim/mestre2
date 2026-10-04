@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica este circuito de rua da Fórmula 1?",
+        "resposta": "Mônaco"
+      },
+      "existentes": [
+        {
+          "id": "q00550",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Mônaco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00550",
+      "motivo": "Ambas têm como resposta Mônaco para o mesmo circuito mostrado (provavelmente com imagem); quem sabe identificar o circuito responde o país."
+    }
+  ]
+}
