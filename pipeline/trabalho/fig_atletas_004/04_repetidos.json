@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade da Espanha nasceu este tenista?",
+        "resposta": "Manacor"
+      },
+      "existentes": [
+        {
+          "id": "q01901",
+          "pergunta": "Em qual ilha espanhola do Mediterrâneo nasceu Rafael Nadal?",
+          "resposta": "Maiorca"
+        },
+        {
+          "id": "q01915",
+          "pergunta": "Ao se aposentar, em 2024, Rafael Nadal somava quantos títulos de simples em Roland Garros?",
+          "resposta": "Catorze"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a cidade natal (Manacor); a existente pede a ilha (Maiorca). Saber uma não leva à outra, então são fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ginasta brasileiro é irmão de qual outra ginasta, também medalhista em Mundiais?",
+      "resposta": "Daniele Hypólito",
+      "destino": 5,
+      "ancora": {
+        "nome": "Diego Hypólito",
+        "descricao": "Ginasta brasileiro, campeão mundial no solo em 2005 e 2007 e prata olímpica em 2016.",
+        "variantes": [
+          "Diego Matias Hypólito"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de tenista em quadra, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que torneio de Grand Slam este tenista americano venceu sete vezes?",
+      "resposta": "Wimbledon",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pete Sampras",
+        "descricao": "Tenista americano, ex-número 1 do mundo, vencedor de 14 títulos de Grand Slam.",
+        "variantes": [
+          "Pete Sampras Jr."
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O número de peito mostra 'DOS SANTOS', entregando o sobrenome da resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este brasileiro foi campeão mundial como técnico da seleção?",
+      "resposta": "1970",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zagallo",
+        "descricao": "Mário Jorge Lobo Zagallo, jogador e treinador brasileiro, campeão do mundo como jogador e como técnico.",
+        "variantes": [
+          "Mário Zagallo",
+          "Mário Jorge Lobo Zagallo",
+          "Velho Lobo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que time da NBA escolheu este pivô com a primeira escolha geral do draft de mil novecentos e noventa e dois?",
+      "resposta": "Orlando Magic",
+      "destino": 2,
+      "ancora": {
+        "nome": "Shaquille O'Neal",
+        "descricao": "Ex-pivô americano da NBA, tetracampeão e MVP das finais, conhecido como Shaq.",
+        "variantes": [
+          "Shaq",
+          "Shaquille Rashaun O'Neal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Atleta com medalha de ouro, sem nome escrito; só o uniforme do Brasil.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que prova esta nadadora conquistou o ouro olímpico em Tóquio?",
+      "resposta": "Maratona aquática de dez quilômetros",
+      "destino": 5,
+      "ancora": {
+        "nome": "Ana Marcela Cunha",
+        "descricao": "Nadadora brasileira de maratona aquática, campeã olímpica em Tóquio 2020.",
+        "variantes": [
+          "Ana Marcela Jesus Soares da Cunha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido; texto de fundo parcial não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que torneio de Grand Slam este tenista espanhol venceu catorze vezes?",
+      "resposta": "Roland Garros",
+      "destino": 3,
+      "ancora": {
+        "nome": "Rafael Nadal",
+        "descricao": "Tenista espanhol, vencedor de 22 títulos de Grand Slam, rei do saibro.",
+        "variantes": [
+          "Rafa Nadal",
+          "Rafael Nadal Parera"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rosto legível, sem texto, embora de baixa resolução.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lutador brasileiro de MMA é este?",
+      "resposta": "Vitor Belfort",
+      "distratores": [
+        "Anderson Silva",
+        "Wanderlei Silva",
+        "Lyoto Machida"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Vitor Belfort",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão meio-pesado do UFC.",
+        "variantes": [
+          "Vítor Belfort",
+          "Vítor Vieira Belfort"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A camisa 19 do Brasil em 2016 não é a de Leandrinho (usava 9) e o atleta não parece ser ele; identidade duvidosa."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do jogador comemorando; patrocínio na camisa não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ex-jogador brasileiro é este?",
+      "resposta": "Rivaldo",
+      "distratores": [
+        "Ronaldinho Gaúcho",
+        "Kaká",
+        "Robinho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rivaldo",
+        "descricao": "Ex-meia brasileiro, Bola de Ouro e melhor do mundo da FIFA em 1999.",
+        "variantes": [
+          "Rivaldo Vítor Borba Ferreira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de perfil, sem traço que permita reconhecer a atleta com segurança."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atleta brasileiro é este?",
+      "resposta": "Isaquias Queiroz",
+      "distratores": [
+        "Alison dos Santos",
+        "Thiago Braz",
+        "Arthur Nory"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Isaquias Queiroz",
+        "descricao": "Canoísta brasileiro de velocidade, medalhista olímpico com três medalhas numa mesma edição.",
+        "variantes": [
+          "Isaquias Guimarães Queiroz",
+          "Isaquias Queiroz dos Santos"
+        ]
+      }
+    }
+  ]
+}

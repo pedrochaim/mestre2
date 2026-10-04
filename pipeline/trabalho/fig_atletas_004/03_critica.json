@@ -1,0 +1,73 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Daniele é irmã dele e foi a primeira brasileira com medalha em Mundiais. O enunciado não nomeia ninguém e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sampras venceu Wimbledon sete vezes, como diz o trecho. Só com o texto há ambiguidade, porque outros americanos também têm sete títulos em um mesmo torneio (Tilden, Sears, Serena). A figura resolve.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Como técnico da seleção, Zagallo foi campeão só em 1970. O título de 1994 foi como coordenador, e o enunciado diz 'como técnico'.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quem foi o primeiro escolhido do draft de 1992 é um feito único. A pergunta se responde com a imagem coberta, então a figura vira enfeite. A reescrita tira essa pista.",
+      "reescrita": {
+        "pergunta": "Por que time da NBA este pivô americano começou a carreira profissional, nos anos noventa?",
+        "resposta": "Orlando Magic"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o ouro na maratona aquática de 10 km em Tóquio. O enunciado não diz a nacionalidade, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os catorze títulos em um mesmo Grand Slam são um feito único, que só Nadal tem. O enunciado entrega a resposta sem a figura. A reescrita muda para um fato que exige reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Em que cidade da Espanha nasceu este tenista?",
+        "resposta": "Manacor"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento. O enunciado não vaza a resposta. Os distratores são lutadores brasileiros críveis e têm até quatro palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento sem pista no enunciado. Os distratores são craques brasileiros críveis e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento sem vazamento. Os distratores são atletas olímpicos brasileiros críveis, com até quatro palavras.",
+      "reescrita": null
+    }
+  ]
+}
