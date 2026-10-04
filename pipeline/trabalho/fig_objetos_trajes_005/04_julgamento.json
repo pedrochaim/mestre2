@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [
+          "Lápis grafite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lapras",
+          "nome": "Lapras",
+          "descricao": "Pokémon dos tipos Água e Gelo, número 131 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grafite",
+          "nome": "Grafite",
+          "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+          "variantes": [
+            "Grafita",
+            "Graphite"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Almofariz e pilão",
+        "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+        "variantes": [
+          "Pilão",
+          "Gral",
+          "Almofariz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dreidel",
+        "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+        "variantes": [
+          "Dreydl",
+          "Sevivon",
+          "Pião de Hanucá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "demolidor",
+          "nome": "Demolidor",
+          "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock",
+          "variantes": [
+            "Daredevil"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "imperio_de_gana",
+          "nome": "Império de Gana",
+          "descricao": "Império da África Ocidental, nas atuais Mauritânia e Mali, que prosperou com o comércio de ouro até o século treze.",
+          "variantes": [
+            "Ghana Empire",
+            "Império do Gana",
+            "Wagadu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rolo de macarrão",
+        "descricao": "Utensílio cilíndrico de madeira, com cabos nas pontas, usado para abrir massas.",
+        "variantes": [
+          "Rolo de massa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hawk_eye",
+          "nome": "Hawk-Eye",
+          "descricao": "Sistema eletrônico de rastreamento da bola usado para revisar marcações de linha no tênis e em outros esportes.",
+          "variantes": [
+            "Olho de Falcão"
+          ]
+        },
+        {
+          "id": "kristang",
+          "nome": "Kristang",
+          "descricao": "Língua crioula de base portuguesa da comunidade luso-descendente da Malásia",
+          "variantes": [
+            "Papiá kristang",
+            "Crioulo de Malaca"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "damas_brasileiras",
+          "nome": "Damas brasileiras",
+          "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+          "variantes": [
+            "Brazilian draughts",
+            "Jogo de damas"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kanzashi",
+        "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+        "variantes": [
+          "Kanzashi japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "kwanza",
+          "nome": "Kwanza",
+          "descricao": "Moeda oficial de Angola.",
+          "variantes": [
+            "Kwanza angolano",
+            "Cuanza"
+          ]
+        },
+        {
+          "id": "shogi",
+          "nome": "Shogi",
+          "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+          "variantes": [
+            "Xadrez japonês"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "kofun",
+          "nome": "Kofun",
+          "descricao": "Túmulos monumentais de terra construídos no Japão entre os séculos três e sete.",
+          "variantes": [
+            "Kofun japoneses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Isqueiro",
+        "descricao": "Aparelho portátil de combustível que produz uma chama controlada, aqui um modelo metálico de tampa articulada.",
+        "variantes": [
+          "Zippo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        },
+        {
+          "id": "neo_quimica_arena",
+          "nome": "Neo Química Arena",
+          "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+          "variantes": [
+            "Arena Corinthians",
+            "Itaquerão"
+          ]
+        },
+        {
+          "id": "umbuzeiro",
+          "nome": "Umbuzeiro",
+          "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+          "variantes": [
+            "Spondias tuberosa",
+            "Imbuzeiro",
+            "Pé de umbu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Qipao",
+        "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+        "variantes": [
+          "Cheongsam",
+          "Chipao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Furoshiki",
+        "descricao": "Pano quadrado tradicional japonês usado para embrulhar e carregar objetos.",
+        "variantes": [
+          "Pano de embrulho japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ciro_o_grande",
+          "nome": "Ciro, o Grande",
+          "descricao": "Rei persa do século seis antes de Cristo, fundador do Império Aquemênida.",
+          "variantes": [
+            "Ciro II",
+            "Cyrus the Great",
+            "Kourosh"
+          ]
+        },
+        {
+          "id": "gioachino_rossini",
+          "nome": "Gioachino Rossini",
+          "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell.",
+          "variantes": [
+            "Rossini"
+          ]
+        },
+        {
+          "id": "ilhas_flutuantes_dos_uros",
+          "nome": "Ilhas flutuantes dos uros",
+          "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+          "variantes": [
+            "Islas de los Uros",
+            "Uros"
+          ]
+        },
+        {
+          "id": "burro_shrek",
+          "nome": "Burro (Shrek)",
+          "descricao": "Burro falante e tagarela, melhor amigo do ogro Shrek nos filmes de animação.",
+          "variantes": [
+            "Donkey",
+            "Burro de Shrek"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Prendedor de roupa",
+        "descricao": "Pinça de madeira ou plástico, com mola, usada para prender roupas no varal.",
+        "variantes": [
+          "Pregador",
+          "Pregador de roupa",
+          "Pregador de varal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "bartolomeu_de_gusmao",
+          "nome": "Bartolomeu de Gusmão",
+          "descricao": "Padre e inventor nascido em Santos, no Brasil colonial, que demonstrou um pequeno balão de ar quente em Lisboa em 1709.",
+          "variantes": [
+            "Bartolomeu Lourenço de Gusmão",
+            "Padre Voador"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Lápis é um objeto distinto; grafite é o mineral, não o instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um almofariz e pilão."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dreidel não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Rolo de macarrão não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kanzashi não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Isqueiro não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Qipao é um vestido; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Furoshiki não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Prendedor de roupa não está entre as candidatas."
+    }
+  ]
+}

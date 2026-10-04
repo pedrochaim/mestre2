@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'que deixa o traço no papel' permite responder sem ver a figura (objeto de escrever com miolo, grafite). Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Que material forma o miolo deste objeto?",
+        "resposta": "Grafite",
+        "distratores": [
+          "Cera",
+          "Tinta seca",
+          "Cobre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Resposta sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecer o dreidel e ligá-lo a Hanucá. Os trechos confirmam e o enunciado não o nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento. Os trechos confirmam o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Enfeite de cabelo japonês' praticamente entrega kanzashi com a imagem coberta. Trocar por uma pista mais geral.",
+      "reescrita": {
+        "pergunta": "Que peça tradicional japonesa é esta?",
+        "resposta": "Kanzashi"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista. Os trechos confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tradicional' é discutível, pois o qipao é um vestido de influência ocidental popularizado nos anos 1920. Além disso, a pista 'feminino tradicional chinês' entrega demais.",
+      "reescrita": {
+        "pergunta": "Que vestido chinês é este?",
+        "resposta": "Qipao (cheongsam)"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento em múltipla escolha. Os distratores são plausíveis e não descrevem a imagem. O tenugui é uma toalha de mão retangular, não um pano de embrulho quadrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os trechos confirmam prendedor ou pregador.",
+      "reescrita": null
+    }
+  ]
+}

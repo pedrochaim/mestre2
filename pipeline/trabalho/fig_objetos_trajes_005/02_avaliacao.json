@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Desenho a nanquim, não foto; camiseta pode ser fotografada, e a política só aceita ilustração para o que não pode."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Leque tecido em palha, em foto escura e sobre tecido estampado; parece uma pá ou peneira, e o objeto não é claramente reconhecível como leque."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Recorte minúsculo do tronco sem cabeça, baixa resolução; pouco legível no celular e pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lápis claro; o texto da marca não entrega a resposta.",
+      "pergunta": "Que material forma o miolo deste objeto, que deixa o traço no papel?",
+      "resposta": "Grafite",
+      "tipo": "multipla",
+      "distratores": [
+        "Cera",
+        "Tinta seca",
+        "Cobre"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [
+          "Lápis grafite"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Almofariz com pilão e grãos de pimenta, imagem nítida; a resposta cobre o conjunto.",
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Almofariz (com pilão)",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Almofariz e pilão",
+        "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+        "variantes": [
+          "Pilão",
+          "Gral",
+          "Almofariz"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vários piões de quatro lados com letras hebraicas, sem texto que entregue a resposta.",
+      "pergunta": "Com que festa judaica se associa este brinquedo?",
+      "resposta": "Hanucá",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Dreidel",
+        "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+        "variantes": [
+          "Dreydl",
+          "Sevivon",
+          "Pião de Hanucá"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rolo de madeira com cabos, fundo limpo, claro.",
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Rolo de macarrão (rolo de massa)",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Rolo de macarrão",
+        "descricao": "Utensílio cilíndrico de madeira, com cabos nas pontas, usado para abrir massas.",
+        "variantes": [
+          "Rolo de massa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Grampo de cabelo de prata com flores e correntes, bem fotografado em museu, sem texto.",
+      "pergunta": "Que tradicional enfeite de cabelo japonês é este?",
+      "resposta": "Kanzashi",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "ancora": {
+        "nome": "Kanzashi",
+        "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+        "variantes": [
+          "Kanzashi japonês"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Isqueiro de metal aceso, nítido, sem texto.",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Isqueiro",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Isqueiro",
+        "descricao": "Aparelho portátil de combustível que produz uma chama controlada, aqui um modelo metálico de tampa articulada.",
+        "variantes": [
+          "Zippo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vestido de gola alta em manequim, reconhecível como qipao, sem texto.",
+      "pergunta": "Que vestido feminino tradicional chinês é este?",
+      "resposta": "Qipao (cheongsam)",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "ancora": {
+        "nome": "Qipao",
+        "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+        "variantes": [
+          "Cheongsam",
+          "Chipao"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Panos de embrulho japoneses sobre caixas; o texto japonês na caixa não entrega a resposta.",
+      "pergunta": "Como se chama este pano tradicional japonês?",
+      "resposta": "Furoshiki",
+      "tipo": "multipla",
+      "distratores": [
+        "Tenugui",
+        "Noren",
+        "Obijime"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Furoshiki",
+        "descricao": "Pano quadrado tradicional japonês usado para embrulhar e carregar objetos.",
+        "variantes": [
+          "Pano de embrulho japonês"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prendedores de madeira e plástico num varal, claro e legível.",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Prendedor de roupa (pregador)",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Prendedor de roupa",
+        "descricao": "Pinça de madeira ou plástico, com mola, usada para prender roupas no varal.",
+        "variantes": [
+          "Pregador",
+          "Pregador de roupa",
+          "Pregador de varal"
+        ]
+      }
+    }
+  ]
+}
