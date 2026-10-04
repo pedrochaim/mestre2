@@ -1,0 +1,72 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que atuou no Sertão nordestino entre as décadas de 1920 e 1930. O enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação 'exposta num museu' não está em `mostra` e pode não ser verdadeira para esta foto. Foi removida.",
+      "reescrita": {
+        "pergunta": "Que peça indígena é esta?",
+        "resposta": "Cocar"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Afro-brasileiro de pele esticada por cordas' quase entrega a resposta pelo teste da imagem coberta, e o djembê também tem pele esticada por cordas. A pista foi tirada e o enunciado ficou só com a figura e a nacionalidade.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão brasileiro é este?",
+        "resposta": "Atabaque",
+        "distratores": [
+          "Djembê",
+          "Zabumba",
+          "Timbal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento de nível 1. O enunciado é curto e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Grave, tocado com baquetas' entrega a resposta sem a figura, e 'nesta cena' não está sustentado por `mostra`. As pistas foram trocadas pelo contexto do samba.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão da bateria de uma escola de samba é este?",
+        "resposta": "Surdo",
+        "distratores": [
+          "Caixa",
+          "Tamborim",
+          "Cuíca"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o chimarrão é tomado em cuia com bomba. A pergunta não vaza e a resposta é correta, com a variante mate.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Pomba Gira é a consorte de Exu. O enunciado não nomeia a figura e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

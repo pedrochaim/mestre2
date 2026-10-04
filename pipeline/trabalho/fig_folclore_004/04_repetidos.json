@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região do Brasil este homem atuou, à frente de um bando armado, nas décadas de vinte e trinta?",
+        "resposta": "Nordeste"
+      },
+      "existentes": [
+        {
+          "id": "q00160",
+          "pergunta": "Em 1926, o cangaceiro Lampião recebeu uma patente de capitão para ajudar a combater qual movimento rebelde?",
+          "resposta": "Coluna Prestes"
+        },
+        {
+          "id": "q00167",
+          "pergunta": "Em 1938, Lampião e Maria Bonita foram mortos numa emboscada na Grota de Angico. Em que estado fica esse lugar?",
+          "resposta": "Sergipe"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que bebida tradicional se toma com este utensílio?",
+        "resposta": "Chimarrão (ou mate)"
+      },
+      "existentes": [
+        {
+          "id": "q00208",
+          "pergunta": "No chimarrão, como se chama o canudo de metal com filtro na ponta usado para beber da cuia?",
+          "resposta": "Bomba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A região de atuação do cangaceiro (Nordeste) é um fato diferente da patente de 1926 e do estado de Angico (Sergipe). Saber um não implica saber o outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova quer a bebida (chimarrão) associada ao utensílio. A existente já dá o chimarrão no enunciado e pede o nome do utensílio (bomba). O fato perguntado é outro."
+    }
+  ]
+}

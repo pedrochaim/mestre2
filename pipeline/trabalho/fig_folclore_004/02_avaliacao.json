@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto histórica clara do cangaceiro, figura pública, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que região do Brasil este homem atuou, à frente de um bando armado, nas décadas de vinte e trinta?",
+      "resposta": "Nordeste",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lampião",
+        "descricao": "Virgulino Ferreira da Silva, o mais famoso cangaceiro do Nordeste brasileiro (1897-1938).",
+        "variantes": [
+          "Virgulino Ferreira da Silva",
+          "Lampeão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cocar de penas nítido em vitrine, sem texto. Pergunta de reconhecimento direto, pois a região de origem seria ambígua.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça indígena, exposta num museu, é esta?",
+      "resposta": "Cocar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cocar",
+        "descricao": "Adorno de cabeça de penas usado por muitos povos indígenas das Américas.",
+        "variantes": [
+          "Cocar de penas",
+          "Adorno de penas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Atabaque com tensão de cordas bem visível; a placa ao fundo não entrega a resposta; pessoas ao fundo são incidentais e pequenas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão afro-brasileiro, de pele esticada por cordas, é este?",
+      "resposta": "Atabaque",
+      "distratores": [
+        "Djembê",
+        "Zabumba",
+        "Timbal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Atabaque",
+        "descricao": "Tambor alto e de madeira, de origem afro-brasileira, afinado por cordas e cunhas.",
+        "variantes": [
+          "Atabaque de corda"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cilindro de metal liso sobre feltro verde; sem contexto, não é reconhecível como ganzá e poderia ser qualquer objeto."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Boneca de pano preta feita de nós, típica da Abayomi, em primeiro plano; as mãos de criança aparecem sem rosto, aceitável.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que boneca artesanal afro-brasileira é esta?",
+      "resposta": "Abayomi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Abayomi",
+        "descricao": "Boneca de pano afro-brasileira feita sem costura e sem cola, criada por Lena Martins na década de 1980.",
+        "variantes": [
+          "Boneca Abayomi",
+          "Bonecas Abayomi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Percussionistas de grupo em desfile de rua tocando surdos; a camiseta com o nome do grupo não revela o instrumento, e brincantes de festa pública são aceitos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão grave, tocado com baquetas, os músicos usam nesta cena?",
+      "resposta": "Surdo",
+      "distratores": [
+        "Caixa",
+        "Tamborim",
+        "Cuíca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Surdo",
+        "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+        "variantes": [
+          "Bumbo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Le Fandango', que entrega a resposta, e mostra o fandango espanhol, não a marujada brasileira."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cuia com erva-mate e bomba, nítida, fundo neutro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bebida tradicional se toma com este utensílio?",
+      "resposta": "Chimarrão (ou mate)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chimarrão",
+        "descricao": "Bebida do Cone Sul feita da infusão de erva-mate em água quente, servida numa cuia com bomba.",
+        "variantes": [
+          "Mate",
+          "Cimarrón"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cena de apresentação folclórica nordestina genérica; não dá para reconhecer que é coco e não outra dança, e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Dança em ambiente interno com figurino de estampa de onça; nada permite reconhecer o siriri, e os participantes parecem ser pessoas comuns."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Close do tampo e do braço de um instrumento de cordas com cinco cordas visíveis; pode ser confundido com viola, guitarra portuguesa ou outro, e não é reconhecível como cavaquinho."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua colorida de Pomba Gira, com coroa, capa vermelha e cetro, nítida e sem texto; personagem do folclore religioso, sem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que entidade masculina é o par desta figura, cultuada na Umbanda e na Quimbanda?",
+      "resposta": "Exu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pomba Gira",
+        "descricao": "Entidade espiritual afro-brasileira cultuada na Umbanda e na Quimbanda, companheira de Exu e associada às encruzilhadas.",
+        "variantes": [
+          "Pombajira"
+        ]
+      }
+    }
+  ]
+}
