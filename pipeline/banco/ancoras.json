@@ -32438,7 +32438,8 @@
     "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
     "variantes": [
       "Painel fotovoltaico",
-      "Placa solar"
+      "Placa solar",
+      "Célula solar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Solar_panel",
@@ -32774,7 +32775,8 @@
     "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
     "variantes": [
       "Aral",
-      "Aral Sea"
+      "Aral Sea",
+      "Lago de Aral"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Aral_Sea"
@@ -33099,7 +33101,8 @@
     "variantes": [
       "Belo Monte",
       "Belo Monte Dam",
-      "Usina Hidrelétrica de Belo Monte"
+      "Usina Hidrelétrica de Belo Monte",
+      "UHE Belo Monte"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Belo_Monte_Dam"
@@ -37261,7 +37264,8 @@
     "descricao": "Rompimento da barragem de rejeitos de Fundão, em Mariana, Minas Gerais, em novembro de 2015.",
     "variantes": [
       "Rompimento da barragem de Fundão",
-      "Rompimento de barragem em Mariana"
+      "Rompimento de barragem em Mariana",
+      "Rompimento da barragem de Mariana"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
@@ -61580,7 +61584,8 @@
     "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
     "variantes": [
       "Hulha",
-      "Coal"
+      "Coal",
+      "Carvão"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Coal"
@@ -71340,7 +71345,8 @@
     "nome": "Zona de exclusão de Chernobyl",
     "descricao": "Área isolada ao redor da usina nuclear de Chernobyl, evacuada após o acidente de 1986.",
     "variantes": [
-      "Chernobyl Exclusion Zone"
+      "Chernobyl Exclusion Zone",
+      "Zona de alienação de Chernobyl"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone"
@@ -79946,6 +79952,363 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Tower_of_London",
       "https://en.wikipedia.org/wiki/Ravens_of_the_Tower_of_London"
+    ]
+  },
+  {
+    "id": "greenpeace",
+    "nome": "Greenpeace",
+    "descricao": "Organização não governamental ambientalista internacional fundada em 1971.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Greenpeace",
+      "https://en.wikipedia.org/wiki/Greenpeace"
+    ]
+  },
+  {
+    "id": "chico_mendes",
+    "nome": "Chico Mendes",
+    "descricao": "Seringueiro, sindicalista e ambientalista acreano, assassinado em dezembro de 1988.",
+    "variantes": [
+      "Francisco Alves Mendes Filho"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Chico_Mendes",
+      "https://en.wikipedia.org/wiki/Chico_Mendes"
+    ]
+  },
+  {
+    "id": "larderello",
+    "nome": "Larderello",
+    "descricao": "Região geotérmica da Toscana onde, em 1904, se gerou eletricidade pela primeira vez com o calor do subsolo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Larderello"
+    ]
+  },
+  {
+    "id": "vazamento_da_deepwater_horizon",
+    "nome": "Vazamento da Deepwater Horizon",
+    "descricao": "Derramamento de petróleo causado pela explosão da plataforma Deepwater Horizon, da BP, em abril de 2010.",
+    "variantes": [
+      "Desastre da Deepwater Horizon",
+      "Vazamento de petróleo no Golfo do México de 2010"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+    ]
+  },
+  {
+    "id": "cop30",
+    "nome": "COP30",
+    "descricao": "Trigésima Conferência das Nações Unidas sobre Mudanças Climáticas, realizada em novembro de 2025.",
+    "variantes": [
+      "COP 30",
+      "Conferência do Clima de 2025"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+    ]
+  },
+  {
+    "id": "wangari_maathai",
+    "nome": "Wangari Maathai",
+    "descricao": "Ambientalista queniana, fundadora do Movimento Cinturão Verde e Nobel da Paz de 2004.",
+    "variantes": [
+      "Wangari Muta Maathai"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Wangari_Maathai",
+      "https://en.wikipedia.org/wiki/Wangari_Maathai"
+    ]
+  },
+  {
+    "id": "poco_de_drake",
+    "nome": "Poço de Drake",
+    "descricao": "Poço de petróleo perfurado por Edwin Drake em 1859, perto de Titusville, nos Estados Unidos.",
+    "variantes": [
+      "Drake Well"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drake_Well"
+    ]
+  },
+  {
+    "id": "chicago_pile_1",
+    "nome": "Chicago Pile-1",
+    "descricao": "Primeiro reator nuclear construído pelo homem, que atingiu a reação em cadeia em dezembro de 1942 na Universidade de Chicago.",
+    "variantes": [
+      "CP-1",
+      "Pilha de Chicago"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+    ]
+  },
+  {
+    "id": "afundamento_do_rainbow_warrior",
+    "nome": "Afundamento do Rainbow Warrior",
+    "descricao": "Ataque a bomba que afundou o navio Rainbow Warrior, do Greenpeace, no porto de Auckland, em julho de 1985.",
+    "variantes": [
+      "Caso Rainbow Warrior"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior"
+    ]
+  },
+  {
+    "id": "nosso_futuro_comum",
+    "nome": "Nosso Futuro Comum",
+    "descricao": "Relatório de 1987 da Comissão Mundial sobre Meio Ambiente e Desenvolvimento da ONU, que popularizou o conceito de desenvolvimento sustentável.",
+    "variantes": [
+      "Relatório Brundtland",
+      "Our Common Future"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Our_Common_Future"
+    ]
+  },
+  {
+    "id": "agencia_de_protecao_ambiental_dos_estados_unidos",
+    "nome": "Agência de Proteção Ambiental dos Estados Unidos",
+    "descricao": "Agência federal americana responsável pela proteção do meio ambiente, criada em dezembro de 1970.",
+    "variantes": [
+      "EPA",
+      "Environmental Protection Agency"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
+    ]
+  },
+  {
+    "id": "o_escandalo_do_petroleo",
+    "nome": "O Escândalo do Petróleo",
+    "descricao": "Livro de 1936 em que Monteiro Lobato defendia a exploração do petróleo no Brasil.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+    ]
+  },
+  {
+    "id": "protocolo_de_quioto",
+    "nome": "Protocolo de Quioto",
+    "descricao": "Tratado internacional assinado no Japão para reduzir as emissões de gases do efeito estufa.",
+    "variantes": [
+      "Protocolo de Kyoto"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Protocolo_de_Quioto",
+      "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+    ]
+  },
+  {
+    "id": "calder_hall",
+    "nome": "Calder Hall",
+    "descricao": "Usina nuclear do complexo de Sellafield, na Inglaterra, uma das primeiras a fornecer eletricidade em escala comercial.",
+    "variantes": [
+      "Usina nuclear de Calder Hall"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sellafield"
+    ]
+  },
+  {
+    "id": "carro_flex",
+    "nome": "Carro flex",
+    "descricao": "Automóvel com motor capaz de funcionar com etanol, gasolina ou qualquer mistura dos dois, lançado no Brasil em 2003.",
+    "variantes": [
+      "Veículo flex",
+      "Flex fuel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flexible-fuel_vehicles_in_Brazil"
+    ]
+  },
+  {
+    "id": "rompimento_da_barragem_de_brumadinho",
+    "nome": "Rompimento da barragem de Brumadinho",
+    "descricao": "Rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais.",
+    "variantes": [
+      "Desastre de Brumadinho",
+      "Tragédia de Brumadinho"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho",
+      "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster"
+    ]
+  },
+  {
+    "id": "acidente_nuclear_de_fukushima",
+    "nome": "Acidente nuclear de Fukushima",
+    "descricao": "Acidente na usina nuclear de Fukushima Daiichi, no Japão, em março de 2011.",
+    "variantes": [
+      "Desastre de Fukushima",
+      "Acidente de Fukushima Daiichi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
+    ]
+  },
+  {
+    "id": "represa_de_assua",
+    "nome": "Represa de Assuã",
+    "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser.",
+    "variantes": [
+      "Represa Alta de Assuã",
+      "Barragem de Assuã"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aswan_Dam"
+    ]
+  },
+  {
+    "id": "celula_a_combustivel",
+    "nome": "Célula a combustível",
+    "descricao": "Dispositivo que gera eletricidade a partir da reação química entre um combustível, como o hidrogênio, e o oxigênio.",
+    "variantes": [
+      "Pilha a combustível",
+      "Célula de combustível"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fuel_cell"
+    ]
+  },
+  {
+    "id": "represa_hoover",
+    "nome": "Represa Hoover",
+    "descricao": "Barragem de concreto no rio Colorado, na divisa entre Nevada e Arizona, construída nos anos 1930.",
+    "variantes": [
+      "Hoover Dam",
+      "Barragem Hoover",
+      "Boulder Dam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hoover_Dam"
+    ]
+  },
+  {
+    "id": "toyota_prius",
+    "nome": "Toyota Prius",
+    "descricao": "Automóvel híbrido da Toyota lançado no Japão em 1997.",
+    "variantes": [
+      "Prius"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Toyota_Prius"
+    ]
+  },
+  {
+    "id": "acordo_de_paris",
+    "nome": "Acordo de Paris",
+    "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+    "variantes": [
+      "Paris Agreement"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paris_Agreement"
+    ]
+  },
+  {
+    "id": "bateria_de_ion_litio",
+    "nome": "Bateria de íon-lítio",
+    "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
+    "variantes": [
+      "Bateria de lítio",
+      "Bateria de íons de lítio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+    ]
+  },
+  {
+    "id": "gas_liquefeito_de_petroleo",
+    "nome": "Gás liquefeito de petróleo",
+    "descricao": "Mistura de gases derivados do petróleo, sobretudo propano e butano, vendida em botijões como gás de cozinha.",
+    "variantes": [
+      "GLP",
+      "Gás de cozinha",
+      "Gás de botijão"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": "torre_de_resfriamento",
+    "nome": "Torre de resfriamento",
+    "descricao": "Estrutura de usinas e indústrias que dissipa calor para a atmosfera, muitas vezes em forma de grande chaminé larga.",
+    "variantes": [
+      "Torre de arrefecimento"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cooling_tower"
+    ]
+  },
+  {
+    "id": "usina_de_battersea",
+    "nome": "Usina de Battersea",
+    "descricao": "Antiga usina termelétrica a carvão às margens do rio Tâmisa, em Londres, famosa por suas quatro chaminés.",
+    "variantes": [
+      "Battersea Power Station"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battersea_Power_Station"
+    ]
+  },
+  {
+    "id": "politereftalato_de_etileno",
+    "nome": "Politereftalato de etileno",
+    "descricao": "Plástico conhecido pela sigla PET, usado em garrafas de refrigerante e reciclado em fibras têxteis.",
+    "variantes": [
+      "PET",
+      "Polietileno tereftalato"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Politereftalato_de_etileno",
+      "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
+    ]
+  },
+  {
+    "id": "vapor_d_agua_atmosferico",
+    "nome": "Vapor d'água atmosférico",
+    "descricao": "Água em estado gasoso presente na atmosfera, que atua como gás do efeito estufa.",
+    "variantes": [
+      "Vapor de água"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Water_vapor"
+    ]
+  },
+  {
+    "id": "led_azul",
+    "nome": "LED azul",
+    "descricao": "Diodo emissor de luz azul eficiente, desenvolvido nos anos 1990 e premiado com o Nobel de Física de 2014.",
+    "variantes": [
+      "Diodo emissor de luz azul"
+    ],
+    "fontes": [
+      "https://www.nobelprize.org/prizes/physics/2014/summary/",
+      "https://en.wikipedia.org/wiki/Light-emitting_diode"
+    ]
+  },
+  {
+    "id": "codigo_de_cores_da_coleta_seletiva",
+    "nome": "Código de cores da coleta seletiva",
+    "descricao": "Padrão brasileiro de cores para recipientes de coleta seletiva, definido pela Resolução Conama 275, de 2001.",
+    "variantes": [
+      "Cores da coleta seletiva",
+      "Resolução Conama 275"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Coleta_seletiva"
+    ]
+  },
+  {
+    "id": "vik_muniz",
+    "nome": "Vik Muniz",
+    "descricao": "Artista plástico brasileiro conhecido por obras feitas com materiais inusitados, como lixo, açúcar e chocolate.",
+    "variantes": [
+      "Vicente José de Oliveira Muniz"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Vik_Muniz",
+      "https://en.wikipedia.org/wiki/Vik_Muniz"
     ]
   }
 ]

@@ -1,0 +1,1796 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Meio Ambiente e Energia** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Usina Hidrelétrica de Belo Monte",
+      "descricao": "Usina hidrelétrica construída no Pará, na região de Altamira, que entrou em operação na década de 2010."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A usina hidrelétrica de Belo Monte, no Pará, represa as águas de que afluente do rio Amazonas?",
+    "resposta": "Rio Xingu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Belo_Monte",
+      "https://en.wikipedia.org/wiki/Belo_Monte_Dam"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Belo_Monte",
+        "situacao": "ok",
+        "texto": "A Usina Hidrelétrica de Belo Monte é uma usina hidrelétrica (UHE) brasileira da bacia do Rio Xingu, próximo ao município de Altamira, no norte do estado Pará. A capacidade instalada da usina é de 11 233 MW e sua quantidade média de geração de energia é de 4 571 MW por mês.\n[…]\nDesde seu início, o projeto de Belo Monte encontrou forte oposição de ambientalistas brasileiros e internacionais, de algumas comunidades indígenas locais e de membros da Igreja Católica. Essa oposição levou a sucessivas reduções do escopo do projeto, que originalmente previa outras barragens rio acima e uma área alagada total muito maior. Em 2008, o CNPE decidiu que Belo Monte seria a única usina hidrelétrica do Rio Xingu.\n[…]\n1975: iniciados os Estudos de Inventário Hidrelétrico da Bacia Hidrográfica do Rio Xingu.\n[…]\n1989: durante o 1º Encontro dos Povos Indígenas do Xingu, realizado em fevereiro em Altamira (PA), a índia Tuíra Kayapó, em sinal de protesto, levanta-se da plateia e encosta a lâmina de seu facão no rosto do presidente da Eletronorte, José Antônio Muniz, que fala sobre a construção da usina Kararaô (atual Belo Monte). A cena é reproduzida em jornais e torna-se histórica. O encontro teve a presença do cantor Sting. O nome Kararaô foi alterado para Belo Monte em sinal de respeito aos índios.\n[…]\nEm agosto de 2001, o coordenador do Movimento pela Transamazônica e do Xingu, Ademir Federicci, foi morto com um tiro na boca enquanto dormia ao lado da esposa e do filho caçula, após ter participado de um debate de resistência contra a Usina de Belo Monte. Ameaçada de morte desde 2004, a coordenadora do Movimento de Mulheres do Campo e da Cidade do Pará e do Movimento Xingu Vivo para Sempre, Antônia Melo, também é contrária à instalação da usina e não sai mais às ruas."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Belo_Monte_Dam",
+        "situacao": "ok",
+        "texto": "The Belo Monte Dam (formerly known as Kararaô) is a hydroelectric dam complex on the northern part of the Xingu River in the state of Pará, Brazil.\n[…]\nAn additional reservoir would be created called the Reservatorio da Calha do Xingu (Xingu Riverbed Reservoir), and electricity would be generated from the two reservoirs using three dams: a complementary powerhouse called Pimental (233 MW), a complementary spillway called Bela Vista, and the main powerhouse called Belo Monte (11,000 MW). The Reservatorio dos Canais would be retained by over a dozen large dikes, and water from the reservoirs would be channeled towards the main powerhouse.\n[…]\nThe Belo Monte Dam (AHE Belo Monte) is a complex of three dams, numerous dykes and a series of canals in order to supply two different power stations with water. The Pimental Dam (3°27′33″S 51°57′31″W) on the Xingu would be 36 metres (118 ft) tall; 6,248 metres (20,499 ft) long and have a structural volume of 4,768,000 cubic metres (168,400,000 ft3).\n[…]\nBeyond its quantitative ecological footprint, the Belo Monte Dam has been linked to larger socio-environmental impacts on communities along the Xingu River. Scholars report that large-scale infrastructure projects in Brazil frequently reflect patterns of internal colonialism, which is described as \"a structure of social relations based on domination and exploitation among heterogeneous, distinct groups\" within a country.\n[…]\nXingu-Estreito HVDC transmission line\n[…]\nXingu-Rio HVDC transmission line\n[…]\nBelo Monte Dam at Amazon Watch\n[…]\nBuilding Belo Monte, a photographic documentary series\n[…]\nWill The Belo Monte Dam Project Cause Harm On The Amazon River"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Greenpeace",
+      "descricao": "Organização não governamental ambientalista internacional fundada em 1971."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A organização ambiental Greenpeace nasceu em 1971, num protesto contra testes nucleares, em que cidade canadense?",
+    "resposta": "Vancouver",
+    "distratores": [
+      "Toronto",
+      "Montreal",
+      "Ottawa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greenpeace",
+      "https://pt.wikipedia.org/wiki/Greenpeace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Greenpeace",
+        "situacao": "ok",
+        "texto": "Greenpeace is a global campaigning network, founded in Canada in 1971 by a group of environmental activists. Greenpeace states its goal is to \"ensure the ability of the Earth to nurture life in all its diversity\", and focuses its campaigning on worldwide issues such as climate change, deforestation, overfishing, commercial whaling, genetic engineering, anti-war, and anti-nuclear issues. It uses di\n[…]\nVanessa Timmer has referred to the early members as \"an unlikely group of loosely organized protestors\". Frank Zelko has commented that \"unlike Friends of the Earth, for example, which sprung fully formed from the forehead of David Brower, Greenpeace developed in a more evolutionary manner. There was no single founder\". Greenpeace itself says on its web page that \"there's a joke that in any bar in Vancouver, British Columbia, you can sit down next to someone who claims to have founded Greenpeace.\n[…]\nIn 1972 the yacht Vega, a 12.5-metre (41 ft) ketch owned by David McTaggart, was renamed Greenpeace III and sailed in an anti-nuclear protest into the exclusion zone at Moruroa to attempt to disrupt French nuclear testing. This voyage was sponsored and organized by the New Zealand branch of the Campaign for Nuclear Disarmament. The French Navy tried to stop the protest in several ways, including assaulting David McTaggart.\n[…]\nIn the mid-1970s some Greenpeace members started an independent campaign, Project Ahab, against commercial whaling, since Irving Stowe was against Greenpeace focusing on other issues than nuclear weapons. After Irving Stowe died in 1975, the Phyllis Cormack sailed from Vancouver to face Soviet whalers on the coast of California. Greenpeace activists disrupted the whaling by placing themselves between the harpoons and the whales, and footage of the protests spread across the world.\n[…]\nMV Greenpeace\n[…]\n1971 in the environment\n[…]\nGreenpeace USA\n[…]\nGreenpeace Australia Pacific"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Greenpeace",
+        "situacao": "ok",
+        "texto": "Greenpeace é uma organização não governamental ambiental fundada no Canadá em 1971 por Irving Stowe e Dorothy Stowe, ativistas ambientais imigrantes dos Estados Unidos.\n[…]\nO Greenpeace afirma que seu objetivo é \"garantir a capacidade da Terra de nutrir a vida em toda a sua diversidade\" e concentra sua campanha em questões mundiais como a preservação do meio ambiente e desenvolvimento sustentável, com campanhas dedicadas às áreas de florestas, clima, nuclear, oceanos, engenharia genética, substâncias tóxicas, transgênicos, agrotóxicos e energia renovável. A organização procura sensibilizar a opinião pública através de atos, publicidades e outros meios.\n[…]\nO Greenpeace foi fundado em 1971 por um grupo de ativistas canadenses sob o nome de Don't Make a Wave Committee, como resposta ao interesse do Governo dos Estados Unidos em testar armas nucleares nas Ilhas Aleutas. Devido ao terremoto de 1964 ocorrido no sul do Alasca, os ativistas suspeitaram que o teste poderia gerar um tsunamis na região. Entretanto, não impediu que eles fossem realizados.\n[…]\nEm 2015, o desastre de mineração de Samarco no Rio Doce aconteceu quando uma barreira de lama tóxica destruiu um povoado pertencente à cidade de Mariana, e o Greenpeace investigou. Naquele e no próximo ano, o grupo noticiou que afetados do desastre do Rio Doce se uniram com protestos contra Samarco em reuniões de acionistas em Londres, RU e Austrália. A organização já tinha feito uma investigação em julho de 2016 confirmando que as companhias estão fazendo o mínimo para responder ao crise.\n[…]\nWaves of Compassion: The Founding of Greenpeace por Rex Weyler\n[…]\nFundadores da Greenpeace"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Chico Mendes",
+      "descricao": "Seringueiro, sindicalista e ambientalista acreano, assassinado em dezembro de 1988."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1988, o líder seringueiro Chico Mendes foi assassinado em sua casa, em que cidade do Acre?",
+    "resposta": "Xapuri",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chico_Mendes",
+      "https://en.wikipedia.org/wiki/Chico_Mendes"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chico_Mendes",
+        "situacao": "ok",
+        "texto": "Francisco Alves Mendes Filho, mais conhecido como Chico Mendes (Xapuri, 15 de dezembro de 1944 – Xapuri, 22 de dezembro de 1988), foi um seringueiro, sindicalista, ativista político brasileiro. Lutou a favor dos seringueiros da Bacia Amazônica, cuja subsistência dependia da preservação da floresta e das seringueiras nativas. Seu ativismo lhe trouxe reconhecimento internacional, ao mesmo tempo em q\n[…]\nChico Mendes nasceu no seringal Porto Rico em Xapuri, no Acre, em 15 de dezembro de 1944, filho do migrante cearense Francisco Alves Mendes e de Maria Rita Mendes. Começou no ofício de seringueiro ainda criança, acompanhando o pai em incursões pela mata. Aprendeu a ler aos 19 anos, já que na maioria dos seringais não havia escolas, e tampouco os proprietários de terras tinham intenção de implantá-las em suas propriedades.\n[…]\nEm 22 de dezembro de 1988, exatamente uma semana após completar 44 anos, Chico Mendes foi assassinado com tiros de escopeta no peito na porta dos fundos de sua casa, quando saía para tomar banho, disparados por Darci Alves, o qual cumpria ordens de seu pai, Darly Alves, grileiro de terras da região. Quatro dias antes da morte do ativista, o Jornal do Brasil se recusou a publicar uma entrevista na qual Chico Mendes denunciava as ameaças de morte que havia recebido.\n[…]\nApós o assassinato do líder extrativista mais de trinta entidades — sindicalistas, religiosas, políticas, de direitos humanos e ambientalistas — se reuniram para formar o Comitê Chico Mendes. Elas exigiam, através de articulação nacional e internacional e de pressão aos órgãos estatais, que os autores do crime fossem punidos. Em dezembro de 1990, a justiça condenou os fazendeiros Darly Alves da Silva e seu filho, Darcy Alves Ferreira a 19 anos de prisão pela morte de Chico Mendes.\n[…]\nJornal do Brasil: 22 de dezembro de 1988 - O assassinato de Chico Mendes"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chico_Mendes",
+        "situacao": "ok",
+        "texto": "Francisco Alves Mendes Filho (15 December 1944 – 22 December 1988), better known as Chico Mendes (Brazilian Portuguese: [ˈʃiku ˈmẽdʒis]), was a Brazilian rubber tapper, trade union leader, and environmentalist who fought to preserve the Amazon rainforest and advocated for the human rights of Brazilian peasants and Indigenous people. He was assassinated by a hired killer on 22 December 1988.\n[…]\nFrancisco \"Chico\" Alves Mendes Filho was born on 15 December 1944, in a rubber reserve called Seringal Bom Futuro, outside of Xapuri, a small town in the state of Acre. He was the son of a second-generation rubber tapper, Francisco Mendes, and his wife, Iracê. Chico was one of 17 siblings—only six of whom survived childhood.\n[…]\nIn 1988, a man named Darly Alves da Silva bought part of a rubber reserve called Cachoeira, where relatives of Mendes lived, and which was affiliated with the local Rural Workers Union in Xapuri. While the sale of the section was disputed by the family of the vendor, who claimed he had no legal right to sell it, Silva tried to drive them off their land and increase his ranch holdings. The rubber tappers of Cachoeira stood firm and set up roadblocks to keep Silva out.\n[…]\nOn the evening of 22 December 1988, Mendes was shot and killed in his Xapuri home by Darci, the son of Darly Alves da Silva. The shooting took place exactly a week after Mendes' 44th birthday, when he predicted that he would \"not live until Christmas\".\n[…]\nAll of them were recaptured, including Darly Jr., who served the remainder of his sentence with the other killers before returning to Xapuri.\n[…]\n\"Xapurí\" by Clare Fischer, from the album Lembranças (Remembrances) (1990; the song is named after Xapuri, Mendes' home town).\n[…]\nRevkin, Andrew (22 December 2008). \"The Uncertain Legacy of Chico Mendes\". Dot Earth (blog). The New York Times.\n[…]\nLiving with Chico Mendes—Documentary from the BBC World Service"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Larderello",
+      "descricao": "Região geotérmica da Toscana onde, em 1904, se gerou eletricidade pela primeira vez com o calor do subsolo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1904, o calor do subsolo de Larderello acendeu lâmpadas, num marco da energia geotérmica. Essa região fica em que país?",
+    "resposta": "Itália",
+    "distratores": [
+      "Islândia",
+      "Nova Zelândia",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larderello",
+      "https://en.wikipedia.org/wiki/Geothermal_power"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Larderello",
+        "situacao": "ok",
+        "texto": "Larderello is a frazione of the comune of Pomarance, in Tuscany in central Italy, renowned for its geothermal productivity.\n[…]\nLarderello now produces 10% of the world's entire supply of geothermal electricity, amounting to 4,800 GWh per year and powering about a million Italian households. Its geology makes it uniquely conducive to geothermal power production, with hot granite rocks lying unusually close to the surface, producing steam as hot as 202 °C (396 °F).\n[…]\nContrary to popular belief, Larderello is not a volcano as no eruptions of magma had occurred there at any point in history.\n[…]\nA town, named Larderello in honour of Larderel's work, was founded to house the workers in the boric acid production factory.\n[…]\nThe region was the site of a pioneering experiment in the production of energy from geothermal sources in 1904, when five light bulbs were lit by electricity produced through steam emerging from vents in the ground - the first ever practical demonstration of geothermal power.\n[…]\nPrince Piero Ginori Conti tested the first geothermal power generator on 4 July 1904, at the Larderello dry steam field in Italy. It was a small generator that lit four light bulbs. In 1911, the world's first geothermal power plant was built in the Valle del Diavolo (\"Devil's Valley\"), named for the boiling water that rises there. It was the world's only industrial producer of geothermal electricity until 1958, when New Zealand built a plant of its own in Wairakei."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+        "situacao": "ok",
+        "texto": "Geothermal power is electrical power generated from geothermal energy. Technologies in use include dry steam power stations, flash steam power stations and binary cycle power stations. 32 countries had operational geothermal power stations as of 2022.\n[…]\nIn the 20th century, demand for electricity led to the consideration of geothermal power as a generating source. Prince Piero Ginori Conti tested the first geothermal power generator on 4 July 1904 in Larderello, Italy. It successfully lit four light bulbs. Later, in 1911, the world's first commercial geothermal power station was built there.\n[…]\nGeothermal power is considered to be sustainable because the heat extraction is small compared to the Earth's heat content, but extraction must still be monitored to avoid local depletion. Although geothermal sites are capable of providing heat for many decades, individual wells may cool down or run out of water. The three oldest sites, at Larderello, Wairakei, and the Geysers have all reduced production from their peaks.\n[…]\nThe long-term sustainability of geothermal energy has been demonstrated at the Larderello field in Italy since 1913, at the Wairakei field in New Zealand since 1958, and at the Geysers field in California since 1960."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Rompimento da barragem de Mariana",
+      "descricao": "Rompimento da barragem de rejeitos de Fundão, em Mariana, Minas Gerais, ocorrido em novembro de 2015."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2015, a lama da barragem rompida em Mariana, Minas Gerais, desceu por que rio até chegar ao mar no Espírito Santo?",
+    "resposta": "Rio Doce",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana",
+      "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana",
+        "situacao": "ok",
+        "texto": "Rompimento da barragem em Mariana ocorreu na tarde de 5 de novembro de 2015 no subdistrito de Bento Rodrigues, a 35 km do centro do município brasileiro de Mariana, Minas Gerais. Rompeu-se uma barragem de rejeitos de mineração denominada \"Fundão\", controlada pela Samarco Mineração S.A., um empreendimento conjunto das maiores empresas de mineração do mundo, a brasileira Vale S.A. e a anglo-australi\n[…]\nO rompimento da barragem de Fundão é considerado o desastre industrial que causou o maior impacto ambiental da história brasileira e o maior do mundo envolvendo barragens de rejeitos, com um volume total despejado de 62 milhões de metros cúbicos. A lama chegou ao rio Doce, cuja bacia hidrográfica abrange 230 municípios dos estados de Minas Gerais e Espírito Santo, muitos dos quais abastecem sua população com a água do rio.\n[…]\nPor volta de 18h30 do dia 5 de novembro, os rejeitos de minério de ferro chegaram ao Rio Doce. A bacia do rio tem uma área de drenagem de cerca de 86 715 quilômetros quadrados, sendo 86% em Minas Gerais e o restante no Espírito Santo. No total, o rio abrange 230 municípios que utilizam o seu leito como subsistência.\n[…]\nNo dia 16 de novembro, a onda de lama e rejeitos de minério chegou ao município de Baixo Guandu, no noroeste do Espírito Santo. A prefeitura suspendeu o abastecimento pelo Rio Doce.\n[…]\nApós a assinatura de um Termo de Transação de Ajustamento de Conduta (TTAC) entre a Samarco e suas controladoras, Vale e BHP Billiton, com os governos federal e dos Estados de Minas Gerais e Espírito Santo, foi criada a Fundação Renova, instituição responsável por conduzir os programas de reparação, restauração e recuperação socioeconômica e socioambiental nas áreas impactadas pelo rompimento da barragem de Fundão.\n[…]\nRompimento de barragem em Brumadinho\n[…]\nRompimento de barragem em Itabirito\n[…]\nMedia relacionados com Rompimento de barragem do Fundão no Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+        "situacao": "ok",
+        "texto": "The Mariana dam disaster was an environmental disaster near Mariana, Minas Gerais, Brazil. On 5 November 2015, the Fundão tailings dam at the Germano iron ore mine of the Samarco Mariana Mining Complex near Mariana, suffered a catastrophic failure, resulting in flooding that devastated the downstream villages of Bento Rodrigues and Paracatu de Baixo (40 km (25 mi) from Bento Rodrigues), killing 19\n[…]\nAt around 6:30 pm on 5 November, the tailings of iron ore reached the Doce River. The river basin has a drainage area of about 86,700 km2 (33,500 sq mi), with 86% in Minas Gerais and Espírito Santo. In total, the river covers 230 municipalities that use its bed for subsistence. The waste also reached the hydroelectric power plant of Risoleta Neves in Santa Cruz do Escalvado within 100 kilometres of Mariana. According to the company that runs the power plant, its functioning was not affected.\n[…]\nThere are concerns about contamination of the nearby Rio Gualaxo do Norte, a tributary of the Doce River, due to the toxic substances stored at the facility.\n[…]\nOn the first quarter of November 2015, the Brazilian Chamber of Deputies and the state chambers of Minas Gerais and Espírito Santo each created a special commission to investigate the collapse. According to the media reports, many of the deputies that composed such commissions had received donations from Vale to finance their campaigns. Such donations, up to R$2.6 million are legal, and were reported by the then-candidates to the Brazilian Election Justice.\n[…]\nThe Minas Gerais government suspended Samarco's activities immediately after the disaster.\n[…]\nOn 6 November 2024, the Supreme Federal Court (STF) unanimously validated the agreement reached by the federal government, the states of Minas Gerais, Espírito Santo and mining companies to repair the damage caused by the Mariana dam collapse."
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Vazamento da Deepwater Horizon",
+      "descricao": "Derramamento de petróleo causado pela explosão da plataforma Deepwater Horizon, da BP, em abril de 2010."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A plataforma Deepwater Horizon, que explodiu em 2010 e provocou um gigantesco vazamento de petróleo, operava em frente ao litoral de que estado americano?",
+    "resposta": "Luisiana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill",
+      "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill",
+        "situacao": "ok",
+        "texto": "Beginning on 20 April 2010, an explosion on the Deepwater Horizon oil platform caused an oil spill and an environmental disaster off the coast of the United States in the Gulf of Mexico, on the BP-operated Macondo Prospect. It is considered the largest marine oil spill in the history of the petroleum industry and estimated to be 8 to 31 percent larger in volume than the previous largest, the Ixtoc\n[…]\nThe Deepwater Horizon sank on the morning of 22 April 2010.\n[…]\nIn 2012, The Big Fix, documented the April 2010 oil spill in the Gulf of Mexico following the sinking of the Deepwater Horizon oil rig\n[…]\nIn 2012, American singer-songwriter Andrew Bird released the song \"Hole in the Ocean Floor\" referencing the Deepwater Horizon oil spill as his inspiration.\n[…]\nThe Deepwater Horizon oil spill is referenced in a 2010 episode of South Park, \"Coon 2: Hindsight\". When a BP drilling vessel drills a new hole in the Gulf, it accidentally causes an oil spill in a protected zone, prompting one of the crewmen to exclaim \"Oh, don't tell me we did it again?\". Later on in the episode, BP drilled again and opened up a portal to another dimension, causing the Gulf to be attacked by its creatures.\n[…]\nDeepwater Horizon Incident, Gulf of Mexico from the National Oceanic and Atmospheric Administration (NOAA)\n[…]\n\"Approaches for Ecosystem Services Valuation for the Gulf of Mexico After the Deepwater Horizon Oil Spill: Interim Report by the National Academy of Sciences\"\n[…]\nThe Role of BP in the Deepwater Horizon Explosion and Oil Spill: Hearing before the Subcommittee on Oversight and Investigations of the Committee on Energy and Commerce, House of Representatives, One Hundred Eleventh Congress, Second Session, June 17, 2010\n[…]\nDeepwater Horizon oil spill caused lasting damage, report says Archived 12 September 2015 at the Wayback Machine\n[…]\nRig fire at Deepwater Horizon 4/21/10, video at CNN iReport"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion",
+        "situacao": "ok",
+        "texto": "On April 20, 2010, an explosion and fire occurred on the Deepwater Horizon semi-submersible mobile offshore drilling unit, which was owned and operated by Transocean and drilling for BP in the Macondo Prospect oil field about 40 miles (64 km) southeast off the Louisiana coast. The explosion and subsequent fire resulted in the sinking of the Deepwater Horizon and the deaths of 11 workers; 17 others\n[…]\nAt the time of the explosion, the Deepwater Horizon was on Mississippi Canyon Block 252, referred to as the Macondo Prospect, in the United States sector of the Gulf of Mexico, about 41 miles (66 km) off the Louisiana coast. In March 2008, the mineral rights to drill for oil on the Macondo Prospect were purchased by BP at the Minerals Management Service's lease sale. The platform commenced drilling in February 2010 at a water depth of approximately 5,000 feet (1,500 m).\n[…]\nIn 2012, The Big Fix, documented the April 2010 oil spill in the Gulf of Mexico following the sinking of the Deepwater Horizon oil rig.\n[…]\nDeepwater Horizon Incident, Gulf of Mexico from the National Oceanic and Atmospheric Administration (NOAA)\n[…]\nWashburn, Mark (May 14, 2010). \"A huff and boom ended Deepwater Horizon's good luck\". The McClatchy Company. Archived from the original on June 19, 2010. Retrieved June 18, 2010. – detailed media description of the events of the day of the Deepwater Horizon explosion (Yahoo News mirror)\n[…]\nThe Role of BP in the Deepwater Horizon Explosion and Oil Spill: Hearing before the Subcommittee on Oversight and Investigations of the Committee on Energy and Commerce, House of Representatives, One Hundred Eleventh Congress, Second Session, June 17, 2010\n[…]\nThe Deepwater Horizon Accident: What Happened and Why? Prof Roland Horne of Stanford University video\n[…]\nDeepwater Horizon oil spill caused lasting damage, report says Archived September 12, 2015, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Derramamento_de_%C3%B3leo_da_Deepwater_Horizon",
+        "situacao": "ok",
+        "texto": "O derramamento de óleo da Deepwater Horizon foi um desastre industrial que começou em 20 de abril de 2010, no Golfo do México, no Prospecto Macondo, operado pela BP, considerado o maior derramamento de óleo marinho na história da indústria do petróleo sendo de 8 a 31 por cento maior em volume do que o maior anterior, o derramamento de óleo Ixtoc I, também no Golfo do México. O governo federal dos \n[…]\nDepois de vários esforços fracassados ​​para conter o fluxo, o poço foi finalmente declarado selado em 19 de setembro de 2010. Relatórios no início de 2012, no entanto, indicam que o local do poço ainda estava vazando. O derramamento de óleo da Deepwater Horizon é considerado um dos maiores desastres ambientais da história americana.\n[…]\nNumerosas investigações exploraram as causas da explosão e vazamento recorde. O relatório do governo dos Estados Unidos, publicado em setembro de 2011, apontou para cimento defeituoso no poço, culpando principalmente a BP, mas também a operadora da sondas Transocean e na empreiteira Halliburton.\n[…]\nA BP também concordou com quatro anos de monitoramento governamental de suas práticas de segurança e ética, e a Agência de Proteção Ambiental anunciou que a BP seria temporariamente proibida de fazer novos contratos com o governo dos Estados Unidos. A BP e o Departamento de Justiça concordaram com um recorde de 4,525 bilhões de dólares em multas e outros pagamentos. Em 2018, os custos de limpeza, encargos e penalidades custaram à empresa mais de 65 bilhões de dólares.\n[…]\nEm setembro de 2014, um juiz do Tribunal Distrital dos Estados Unidos decidiu que a BP foi a principal responsável pelo derramamento de óleo por causa de sua negligência grosseira e conduta imprudente. Em abril de 2016, a BP concordou em pagar 20,8 bilhões de dólares em multas, o maior acordo corporativo na história dos Estados Unidos.\n[…]\nExplosão da plataforma Deepwater Horizon",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Desastre de Bhopal",
+      "descricao": "Vazamento de gás tóxico de uma fábrica de pesticidas da Union Carbide, ocorrido em dezembro de 1984."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O desastre de Bhopal, em 1984, quando um gás tóxico vazou de uma fábrica de pesticidas, matou milhares de pessoas em que país asiático?",
+    "resposta": "Índia",
+    "distratores": [
+      "Paquistão",
+      "Bangladesh",
+      "Indonésia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Desastre_de_Bhopal",
+      "https://en.wikipedia.org/wiki/Bhopal_disaster"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Desastre_de_Bhopal",
+        "situacao": "ok",
+        "texto": "A Tragédia ou Desastre de Bopal foi um vazamento de gás ocorrido na noite entre 2 e 3 de dezembro de 1984 na fábrica de pesticidas Union Carbide India Limited (UCIL) em Bopal, Madia Pradexe, Índia. É considerado o pior desastre industrial da história. Mais de 500.000 pessoas foram expostas ao gás isocianato de metila (MIC). A substância altamente tóxica atingiu várias pequenas cidades localizadas \n[…]\nA proprietária da fábrica, a UCIL, era detida maioritariamente pela UCC, sendo que bancos controlados pelo governo indiano detinham uma participação de 49,1%. Em 1989, a UCC pagou 470 milhões de dólares (equivalente a 929 milhões em dólares em 2017) para resolver litígios decorrentes do desastre. Em 1994, a UCC vendeu sua participação na UCIL para a Eveready Industries India Limited (EIIL), que posteriormente se uniu à McLeod Russel (Índia) Ltd.\n[…]\nLogo após o vazamento, a fábrica foi fechada para estrangeiros (incluindo os da UCC) pelo governo indiano, que posteriormente não divulgou os dados, contribuindo para a confusão. A investigação inicial foi realizada inteiramente pelo Conselho de Pesquisas Científicas e Industriais (CSIR) e pelo Escritório Central de Investigação. O presidente e CEO da UCC, Warren Anderson, juntamente com uma equipe técnica, viajou imediatamente para a Índia.\n[…]\nO governo da Índia aprovou a \"Lei de Desastres de Vazamento de Gás de Bopal\", que deu ao governo o direito de representar todas as vítimas, independentemente de estar ou não na Índia. Reclamações de falta de informação ou desinformação foram generalizadas. Um porta-voz do governo indiano disse: \"A Carbide está mais interessada em obter informações de nós do que em ajudar nosso trabalho de assistência\".\n[…]\nDesastre industrial\n[…]\nbhopal.org, The Sambhavna Trust & Bhopal Medical Appeal's web site\n[…]\nInternational Campaign for Justice in Bhopal (ICJB)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bhopal_disaster",
+        "situacao": "ok",
+        "texto": "On 3 December 1984, over 500,000 people in the vicinity of the Union Carbide India Limited pesticide plant in Bhopal, Madhya Pradesh, India, were exposed to the highly toxic gas methyl isocyanate, in what is considered the world's worst industrial disaster. A government affidavit in 2006 stated that the leak caused approximately 558,125 injuries, including 38,478 temporary partial injuries and 3,9\n[…]\nLacking any safe alternative, on 16 December, tanks 611 and 619 were emptied of the remaining MIC by reactivating the plant and continuing the manufacture of pesticide. Despite safety precautions such as having water-carrying helicopters continually overflying the plant, this led to a second mass evacuation from Bhopal. The Government of India passed the \"Bhopal Gas Leak Disaster Act\" that gave the government rights to represent all victims, whether or not in India.\n[…]\nThe design of the MIC plant, following government guidelines, was \"Indianized\" by UCIL engineers to maximise the use of indigenous materials and products. Mumbai-based Humphreys and Glasgow Consultants Pvt. Ltd., were the main consultants, Larsen & Toubro fabricated the MIC storage tanks, and Taylor of India Ltd. provided the instrumentation. In 1998, during civil action suits in India, it emerged that the plant was not prepared for problems.\n[…]\nArundhati Roy's 2017 novel The Ministry of Utmost Happiness which deals with many contemporary political issues in India, also features several characters still dealing with the aftermath of the gas leak.\n[…]\nIngrid Eckerman, a member of the International Medical Commission on Bhopal, has been denied a visa to visit India.\n[…]\nLudhiana gas leak – Fatal incident in Punjab, India\n[…]\nBhopal Gas Tragedy Relief & Rehabilitation Department at the Government of Madhya Pradesh\n[…]\nIndia Environmental Portal Archived 14 October 2023 at the Wayback Machine Updated news on Bhopal Gas Disaster"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "COP30",
+      "descricao": "Trigésima Conferência das Nações Unidas sobre Mudanças Climáticas, realizada em novembro de 2025."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2025, a conferência do clima da ONU conhecida como COP trinta foi realizada em que capital brasileira?",
+    "resposta": "Belém",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference",
+        "situacao": "ok",
+        "texto": "The 2025 United Nations Climate Change Conference or Conference of the Parties to the UNFCCC, more commonly known as COP30, was the 30th session of the United Nations Climate Change Conference. It was held at the Hangar Convention Centre in Belém, Brazil, from 10 to 21 November 2025.\n[…]\nOn 4 November 2025, President Lula da Silva signed a law temporarily symbolically transferring the Brazilian national capital from Brasília to Belém for the duration of COP30, from 11 to 21 November 2025. During this period, all acts and orders from the President, ministers, and other federal agencies must be signed and registered in Belém. Additionally, the executive, legislative, and judiciary branches may conduct their activities from the COP30 host city.\n[…]\nPreparations for Belém to host COP30 faced several challenges, including an accommodation shortage and controversies related to urban infrastructure projects. Broader concerns were also raised about pollution, social inequality, and deforestation in the Amazon.\n[…]\nLocal groups from Pará, such as Cordão da Bicharada, a traditional carnival group from the state, participated in the conference, as well as renowned artists from the Brazilian scene such as Ney Matogrosso, Fafá de Belém, Lenine, Gilberto Gil, Anitta, Gaby Amarantos, Seu Jorge and British artist Chris Martin.\n[…]\nAfter returning from Belém, German Chancellor Friedrich Merz drew controversy when he compared Germany and Brazil during a trade conference in Berlin. Merz remarked that Germans lived in “one of the most beautiful countries in the world” and stated that he and the journalists who accompanied him on the return flight were “delighted to be back in Germany and to have left that place.” His comments were widely criticized by Brazilian officials."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Confer%C3%AAncia_das_Na%C3%A7%C3%B5es_Unidas_sobre_as_Mudan%C3%A7as_Clim%C3%A1ticas_de_2025",
+        "situacao": "ok",
+        "texto": "Conferência das Nações Unidas sobre as Mudanças Climáticas de 2025, ou 30th Conference Of the Parties (abreviado COP30), informalmente chamada de COP da Amazônia, foi a 30.ª Conferência das Nações Unidas sobre as Mudanças Climáticas. Ocorreu entre os dias 10 e 21 de novembro de 2025, na cidade brasileira de Belém (no estado do Pará), segundo o anúncio da ONU em 18 de maio de 2023.\n[…]\nDe acordo com a prática rotativa entre os grupos regionais das Nações Unidas, a organização da conferência de 2025 é de responsabilidade do Grupo de Países da América Latina e Caribe; Em 2022 durante a COP27 o presidente brasileiro Luiz Inácio Lula da Silva apresenta a candidatura do Brasil para sediar o evento em 2025; Em 2023, Lula anunciou que o Ministério das Relações Exteriores havia formalizado a candidatura do Brasil para sediar esta conferência, e; Em maio de 2023, as Nações Unidas confirmaram Belém como sede da COP30.\n[…]\nDesde a reportagem do Profissão Repórter de 30 de julho de 2025, a cidade de Belém também recebeu inúmeros ataques xenofóbicos, principalmente de influenciadores ligados à direita, que gravaram vídeos mostrando algumas situações da cidade em problemas comuns como a quantidade de moradores de rua espalhados em pontos estratégicos, além de matérias negativas sobre o evento, mostrando que a escolha da capital paraense para receber a COP 30 poderia ser supostamente ligada à política, já que Helder Barbalho é um dos apoiadores do presidente Lula.\n[…]\nUma fala do chanceler alemão Friedrich Merz gerou polêmica após ele dizer em 13 de novembro de 2025 que a comitiva do país ficou contente por deixar Belém após a viagem à COP30: “Todos ficaram felizes por termos voltado”. Friedrich Merz afirmou que a Alemanha é um dos países “mais bonitos do mundo” e que nenhum jornalista queria permanecer na capital do Pará.\n[…]\n«Brasil Participativo/Mutirão Global». por Governo do Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Acidente nuclear de Chernobyl",
+      "descricao": "Explosão do reator 4 da usina nuclear de Chernobyl, na então União Soviética, em abril de 1986."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1986, o mundo soube do acidente de Chernobyl depois que alarmes de radiação dispararam numa usina nuclear de que país?",
+    "resposta": "Suécia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+      "https://en.wikipedia.org/wiki/Forsmark_Nuclear_Power_Plant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+        "situacao": "ok",
+        "texto": "On 26 April 1986, reactor 4 of the Chernobyl Nuclear Power Plant, located near Pripyat in the Ukrainian SSR of the Soviet Union, exploded. The accident resulted in dozens of direct deaths and a major release of radioactive material into the environment, causing widespread health effects and requiring the establishment of the Chernobyl exclusion zone. The response involved more than 500,000 personn\n[…]\nFrom May 5, 1986, workers from NIKIET and the V. G. Khlopin Radium Institute collaborated under the name Field Integrated Scientific and Technical Brigade No. 9 (PKNTB-9) to work at the Chernobyl Nuclear Power Plant, led by G. S. Sinitsyna and S. S. Kovalenko. Their job was to conduct dosimetric surveys of both Unit 3, Unit 4, The Vent Block, and the Deaerator block, as well as assessing the damage and finding nuclear fuel.\n[…]\nThe accident raised already heightened concerns about fission reactors worldwide, and while most concern was focused on those of the same unusual design, hundreds of disparate nuclear reactor proposals, including those under construction at Chernobyl, reactors numbers 5 and 6, were eventually cancelled.\n[…]\nIn direct response to the Chernobyl disaster, a conference to create a Convention on Early Notification of a Nuclear Accident was called in 1986 by the International Atomic Energy Agency. The resulting treaty has bound members to provide notification of any nuclear and radiation accidents that occur that could affect other states, along with the Convention on Assistance in the Case of a Nuclear Accident or Radiological Emergency.\n[…]\nList of Chernobyl-related articles – 1986 nuclear accident in the Soviet UnionPages displaying short descriptions of redirect targets\n[…]\nSzulecki, Kacper; Waluszko, Janusz; Borewicz, Tomasz (2022). The Chernobyl Effect: Antinuclear Protests and the Molding of Polish Democracy, 1986–1990. New York: Berghahn Books. ISBN 978-1-80073-620-7."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Forsmark_Nuclear_Power_Plant",
+        "situacao": "ok",
+        "texto": "Forsmark Nuclear Power Plant is a nuclear power plant in Forsmark, Sweden that provides 14% of Sweden's total electricity output, and also the site of the Swedish Final repository for radioactive operational waste. It is operated by a company mainly owned by Vattenfall.\n[…]\nThe radiation monitors at Forsmark were the first outside the Soviet Union to detect the elevated radiation levels resulting from the Chernobyl disaster in April 1986, over 1,000 km away, forcing the Soviet government to publicly acknowledge it after two days of them trying to cover it up.\n[…]\nLars-Olov Höglund, a former construction chief at Vattenfall, claimed it was the most serious nuclear incident in the world since the Chernobyl disaster and it was pure luck that prevented a meltdown. Both the SKI and the safety chief of Forsmark power plant disagree with that opinion and state that the incident was serious but the description provided by Höglund was incorrect and there was no real risk of a meltdown.\n[…]\nOn January 17, the Swedish Security Service took over an investigation into unauthorized drones seen flying over Forsmark and the Oskarshamn and Ringhals nuclear plants.\n[…]\nThe geology around Forsmark Nuclear Power Plant has been investigated in detail by various researchers and research groups. It has been of particular interest to understand the long-term geologic stability of the area. A 2018 study found that the area of Forsmark, whose surface belongs to the Sub-Cambrian peneplain, lost 2 to 3 meters of crystalline bedrock due to erosion during the last glaciation. This erosion consisted mostly of plucking of bedrock sheets and abrasion.\n[…]\nInternational Nuclear Events Scale\n[…]\nNuclear safety\n[…]\nNuclear power\n[…]\nSwedish Radio Program on the Chernobyl event and Forsmark (In English)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Chernobil",
+        "situacao": "ok",
+        "texto": "Desastre de Chernobil (em ucraniano:  Чорнобильська катастрофа, Tchornobylska katastrofa – Catástrofe de Chernobil; também conhecido como acidente de Chernobil) foi um acidente nuclear catastrófico ocorrido em 26 de abril de 1986 no reator nuclear n.º 4 da Usina Nuclear de Chernobil, perto da cidade de Pripiate, no norte da Ucrânia Soviética, próximo da fronteira com a Bielorrússia Soviética.\n[…]\nA evacuação de Pripiat começou antes da União Soviética reconhecer formalmente o acidente. Na manhã de 28 de abril, os níveis de radiação ficaram tão altos que foram detectados na Central nuclear de Forsmark, na Suécia, a mais de mil quilômetros de distância de Chernobil. Os trabalhadores de Forsmark reportaram o caso para a Autoridade Sueca de Segurança Radiológica, que determinou que a radiação se originou em outro lugar.\n[…]\nA evidência inicial de que uma grande liberação de material radioativo estava afetando outros países não vinha de fontes soviéticas, mas da Suécia. Na manhã de 28 de abril, trabalhadores da Central nuclear de Forsmark (aproximadamente 1 100 km (680 mi) do local de Chernobil) tiveram partículas radioativas em suas roupas.\n[…]\nFoi a busca da Suécia pela fonte de radioatividade, depois de terem determinado que não havia vazamento na fábrica sueca, que ao meio-dia de 28 de abril levou ao primeiro indício de um grave problema nuclear na União Soviética ocidental. Assim, a evacuação de Pripiat em 27 de abril, 36 horas após as explosões iniciais, foi silenciosamente concluída antes que o desastre se tornasse conhecido fora da União Soviética.\n[…]\nA Suécia e a Noruega também sofreram uma forte precipitação quando o ar contaminado colidiu com uma frente fria, o que provocou chuva.\n[…]\nFolha de S.Paulo de 29 de Abril de 1986: Vazamento nuclear na URSS atinge 4 países\n[…]\nJornal do Brasil de 29 de Abril de 1986: Acidente na URSS leva radiação à Suécia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Wangari Maathai",
+      "descricao": "Ambientalista queniana, fundadora do Movimento Cinturão Verde e Nobel da Paz de 2004."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Wangari Maathai, primeira mulher africana a ganhar o Nobel da Paz, liderou um movimento que plantou milhões de árvores em sua terra natal. Que país?",
+    "resposta": "Quênia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wangari_Maathai",
+      "https://en.wikipedia.org/wiki/Green_Belt_Movement"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wangari_Maathai",
+        "situacao": "ok",
+        "texto": "Wangarĩ Maathai (; 1 April 1940 – 25 September 2011) was a Kenyan social, environmental, and political activist who founded the Green Belt Movement, an environmental non-governmental organization focused on planting trees, environmental conservation, and women's rights. In 2004, she became the first African woman to win the Nobel Peace Prize.\n[…]\nWangarĩ Maathai was awarded the 2004 Nobel Peace Prize for her \"contribution to sustainable development, democracy and peace.\" Maathai was the first African woman to win the prestigious award. According to Nobel's will, the Peace Prize shall be awarded to the person who in the preceding year \"shall have done the most or the best work for fraternity between nations, for the abolition or reduction of standing armies and for the holding and promotion of peace congresses\".\n[…]\nBetween 1901 and 2018, only 52 Nobel Prize awards were given to women, while 852 Nobel Prize awards have been given to men. Through her significant efforts, Wangari Maathai became the first African woman, and the first environmentalist, to win the Peace Prize.\n[…]\nIn 2015, UNESCO published the graphic novel Wangari Maathai and the Green Belt Movement as part of their UNESCO Series on Women in African History. As an artistic and visual interpretation intended for private or public use in classrooms, it tells the story of Maathai and the movement she began.\n[…]\nMuhonja, Besi Brillian (2020). Radical utu : critical ideas and ideals of Wangari Muta Maathai. Athens, Ohio: Ohio University Press. ISBN 978-0896805071. OCLC 1155925037.\n[…]\nWangari Maathai, The Canopy of Hope: My Life Campaigning for Africa, Women, and the Environment, Lantern Books, 2002; ISBN 1590560027\n[…]\nFeature on Wangari Maathai by the International Museum of Women\n[…]\nThe Lantern Books Blog: Lantern and Wangari Maathai (Video)\n[…]\nWangarĩ Maathai on Nobelprize.org"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Green_Belt_Movement",
+        "situacao": "ok",
+        "texto": "The Green Belt Movement (GBM) is an indigenous grassroots organization in Kenya that empowers women through the planting of trees. It is one of the most effective and well-known grassroots organisations addressing the problem of global deforestation. Professor Wangari Maathai established the organization in 1977 under the auspices of the National Council of Women of Kenya (NCWK).\n[…]\nMaathai received the Nobel Peace Prize in 2004 for her work with the Green Belt Movement.\n[…]\n\"African women in general need to know that it's ok for them to be the way they are to see the way they are as a strength, and to be liberated from fear and from silence.\" – Wangari Maathai\n[…]\nGBM sent a delegation to the 15th United Nations Framework Convention on Climate Change (UNFCCC) Conference of the Parties (COP15). The convention took place in Copenhagen, Denmark and consisted of talks that were led by Wangari Maathai.\n[…]\n25 September 2014: The third memorial anniversary of Wangari Maathai took place at Wangari Maathai Corner in Karura forest, Nairobi. This invent involved Hon. Justice Njoki Ndung'u joining the GBM Board members, staff, members of GBM's tree nursery groups, and the public to celebrate Wangari Maathai's life and her outstanding achievements including environmental conservation, sustainable development, democracy and peace.\n[…]\nWomen from the United Nations and the Green Belt Movement celebrated in 2015, the World Environment Day and the Beijing Platform for Action. This day took place with hundreds of women and 500 trees were planted at the Professor Wangari Maathai corner in the Karura Forest in Nairobi, Kenya. This ceremony overall brought a variety of attention to Professor Maathai's work and actions while also spreading knowledge to hundreds of women on the environment.\n[…]\n1. Jump up ^ Peace Profile: Wangari Maathai and the Green Belt Movement: Peace Review: Vol 25, No 2"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wangari_Maathai",
+        "situacao": "ok",
+        "texto": "Wangari Muta Maathai (Iite, Nieri, 1 de abril de 1940 — Nairóbi, 25 de setembro de 2011) foi uma professora e ativista política do meio-ambiente do Quênia. Foi a primeira mulher africana a receber o Prêmio Nobel da Paz.\n[…]\nMaathai continuou a lecionar em Nairóbi, tornando-se professora sênior de anatomia em 1975, presidente do Departamento de Anatomia Veterinária em 1976 e professora associada em 1977. Ela foi a primeira mulher em Nairóbi nomeada para qualquer um desses cargos. Maathai foi ativa no Conselho Nacional de Mulheres do Quênia em 1976-87 e foi sua presidente em 1981-87.\n[…]\nEm 2004, mesmo ano que ganhou o Nobel, Maathai fundou o Partido Verde do Quênia e no ano seguinte, foi eleita Presidente do Conselho Econômico, Social e Cultural da União Africana. Foi criticada quando o então novo governo foi apontado como corrupto e ela não renunciou. Apenas quando o governo quis aumentar o número de parlamentares em 2008, Wangari Maathai voltou protestar ao lado da oposição.\n[…]\nWangari Maathai ficou conhecida no mundo pela sua luta de conservação das florestas e do meio ambiente. Ainda na década de 1970, ela fundou o movimento do Cinturão Verde Pan-africano (Pan-African Green Belt Network), no Quênia, uma iniciativa que plantou 30 milhões de árvores.\n[…]\n\"Quando plantamos árvores, nós plantamos as sementes de paz e esperança.\"Maathai manteve-se corajosamente contra o antigo regime opressivo no Quênia\", segundo declaração do Comitê Nobel, ao anunciá-la como a vencedora do Nobel da Paz de 2004. \"Suas formas de ação únicas contribuíram para chamar a atenção nacional e internacional para a opressão política.\n[…]\n2004: Nobel da Paz\n[…]\nCriação da Cátedra Wangari Maathai de Justiça Ambiental, Universidade Yale",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Poço de Drake",
+      "descricao": "Poço de petróleo perfurado por Edwin Drake em 1859, perto de Titusville, nos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1859, o poço de Edwin Drake, que deu a largada na corrida do petróleo americana, foi perfurado em que estado?",
+    "resposta": "Pensilvânia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drake_Well",
+      "https://en.wikipedia.org/wiki/Pennsylvania_oil_rush"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Drake_Well",
+        "situacao": "ok",
+        "texto": "The Drake Well is a 69.5-foot-deep (21.2 m) oil well in Cherrytree Township, Pennsylvania, the success of which sparked the first oil boom in the United States. The well is the centerpiece of the Drake Well Museum located 3 miles (5 km) south of Titusville.\n[…]\nDrilled by Edwin Drake in 1859, along the banks of Oil Creek, it is the first commercial oil well in the United States. Drake Well was listed on National Register of Historic Places and designated a National Historic Landmark in 1966. It was designated a Historic Mechanical Engineering Landmark in 1979. The well was designated a National Historic Chemical Landmark in 2009, on the sesquicentennial of the strike.\n[…]\nThe importance of the Drake Well was in the fact that it caused prompt additional drilling, thus establishing a supply of petroleum in sufficient quantity to support business enterprises of magnitude.\n[…]\nThe chapter erected a limestone boulder with a bronze plaque at the well in 1914 to commemorate the site. In 1931, the American Petroleum Institute donated $60,000 for the creation of a museum and library, as well as a dike to protect Drake Well from flooding by Oil Creek. The Institute stipulated that when the Commonwealth of Pennsylvania took ownership of the site during the Diamond Jubilee of Drake Well in 1934, it was to be made a state park.\n[…]\nThe American Chemical Society designated the Drake Well a National Historic Chemical Landmark on August 27, 2009, the 150th anniversary of the strike.\n[…]\nThe Drake Well Museum encompasses 22 acres (9 ha) of land that surrounds the well. The museum was accredited by the American Alliance of Museums in 1983 and reaccredited in 1995. The museum has a station on the Oil Creek and Titusville Railroad.\n[…]\nDrake Well Museum"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pennsylvania_oil_rush",
+        "situacao": "ok",
+        "texto": "The first oil rush in America started in Titusville, Pennsylvania, in the Oil Creek valley when Edwin Drake struck \"rock oil\" there in 1859. Titusville and other towns on the shores of Oil Creek expanded rapidly as oil wells and refineries shot up across the region. Oil quickly became one of the most valuable commodities in the United States, and railroads expanded into Western Pennsylvania to shi\n[…]\nOn August 27, 1859, Drake struck oil at 69 feet (21 m) below ground, just before his funds ran out. This marked the beginning of drastic change for the people of Western Pennsylvania. His drilling is considered the \"first large-scale commercial extraction of petroleum\".\n[…]\nDrake's success would not last. He had not purchased much land in the region, and the oil industry exploded around him outside his control. His first well yielded only modest returns, and he was fired by Seneca. He never patented the drilling method he pioneered and lost his modest earnings from the oil business speculating on Wall Street. He died a poor pensioner in 1880.\n[…]\nAnnual domestic output of crude swelled from 2,000 barrels (320 m3) in 1859, the year of Drake's discovery, to 4,000,000 barrels (640,000 m3) in 1869 and 10,000,000 barrels (1,600,000 m3) in 1873. The ongoing industrial development of Europe spurred this rapid expansion. European, and especially British, factories began importing large quantities of cheap American oil during the 1860s.\n[…]\nBy 1901, the Pennsylvania oil boom was over. The formation of the Standard Oil Trust in 1882 effectively established a monopoly over the industry in Pennsylvania, and the discovery of oil in Texas, California and Wyoming shifted the nation's attention elsewhere. Pennsylvania continued to be a significant producer of petroleum for much of the 20th century.\n[…]\nHistory of the petroleum industry in the United States"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Chicago Pile-1",
+      "descricao": "Primeiro reator nuclear construído pelo homem, que atingiu a reação em cadeia em dezembro de 1942 na Universidade de Chicago."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1942, sob as arquibancadas de um estádio da Universidade de Chicago, que físico italiano comandou o primeiro reator nuclear construído pelo homem?",
+    "resposta": "Enrico Fermi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+        "situacao": "ok",
+        "texto": "Chicago Pile-1 (CP-1) was the first artificial nuclear reactor. On 2 December 1942, the first human-made self-sustaining nuclear chain reaction was initiated in CP-1 during an experiment led by Enrico Fermi. The secret development of the reactor was the first major technical achievement for the Manhattan Project, the Allied effort to create nuclear weapons during World War II.\n[…]\nDeveloped by the Metallurgical Laboratory at the University of Chicago, CP-1 was built under the west viewing stands of the original Stagg Field. Although the project's civilian and military leaders had misgivings about the possibility of a disastrous runaway reaction, they trusted Fermi's safety calculations and decided they could carry out the experiment in a densely populated area. Fermi described the reactor as \"a crude pile of black bricks and wooden timbers\".\n[…]\nIn order for a chain reaction to occur, fissioning uranium atoms had to emit additional neutrons to keep the reaction going. At Columbia University in New York, Italian physicist Enrico Fermi collaborated with Americans John Dunning, Herbert L. Anderson, Eugene T. Booth, G. Norris Glasoe, and Francis G. Slack to conduct the first nuclear fission experiment in the United States on 25 January 1939. Subsequent work confirmed that fast neutrons were indeed produced by fission.\n[…]\n1\n[…]\nTurkevich played squash there in 1940. Since it was intended for strenuous exercise, the area was unheated, and very cold in the winter. The nearby North Stands had a pair of ice skating rinks on the ground floor, which although they were unrefrigerated, seldom melted in winter. Allison used the rackets court area to construct a 7-foot (2.1 m) experimental pile before Fermi's group arrived in 1942.\n[…]\nVideo of west stands of Stagg Field, Institute for the Study of Metals (Metallurgical Laboratory), Enrico Fermi, and an active experiment using CP-1"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chicago_Pile-1",
+        "situacao": "ok",
+        "texto": "Chicago Pile-1 (CP-1) foi o primeiro reator nuclear artificial. O CP-1 foi construído em uma sala de jogos com raquetes, sob o estádio de futebol americano abandonado Alonzo Stagg na Universidade de Chicago. A primeira reação nuclear artificial autossustentada foi iniciada em 2 de dezembro de 1942, às 15h25min e terminada 28 minutos depois. O local foi incorporado ao catálogo nacional de locais hi\n[…]\nO reator era uma pilha de blocos de urânio e grafite construída sob a supervisão do renomado físico italiano Enrico Fermi, com a colaboração de Leó Szilard et al. Ela continha uma Massa crítica de material físsil e grafite. Foi construído como parte do projeto Manhattan pelo laboratório de metalurgia da Universidade de Chicago.\n[…]\nA forma da pilha tinha sido projetada para ser esférica mas durante a construção Fermi calculou que a massa crítica poderia ser obtida sem que se terminasse toda a estrutura.\n[…]\nUma greve de trabalhadores impediu a construção da pilha no Laboratório Nacional de Argonne, então Fermi e seus associados decidiram construi-la na sala de raquetismo na cidade de Chicago o que mais tarde foi considerado como um risco enorme já que a reação poderia ter fugido ao controle.\n[…]\nA pilha consistia de tabletes de urânio como produtor de neutrons, separados uns dos outros por blocos de grafite como moderador de neutrons (redutor da velocidade dos neutrons). Fermi descreveu o aparato como \"uma pilha rústica de tijolos pretos e vigas de madeira\". Os controles consistiam de cilindros de cádmio que absorve neutrons. Retirando os cilindros aumentava-se a atividade de neutrons na pilha levando a uma reação em cadeia auto sustentada. Reinserindo os cilindros a reação era extinta.\n[…]\nPhotos of CP-1 (em inglês) Arquivo da Biblioteca da Universidade de Chicago. Inclui fotos e desenhos do CP-1.\n[…]\n(em inglês) Video mostrando o Laboratório de Met, Fermi, e um experimento real usando o CP-1",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Efeito estufa",
+      "descricao": "Aquecimento da superfície de um planeta causado por gases da atmosfera que retêm o calor irradiado."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1820, que matemático francês, famoso pelas séries que levam seu nome, foi um dos primeiros a explicar que a atmosfera retém o calor da Terra?",
+    "resposta": "Joseph Fourier",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph_Fourier",
+      "https://en.wikipedia.org/wiki/Greenhouse_effect"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Fourier",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Joseph Fourier (; French: [ʒɑ̃ batist ʒozɛf fuʁje]; 21 March 1768 – 16 May 1830) was a French mathematician and physicist born in Auxerre, Burgundy and best known for initiating the investigation of Fourier series, which eventually developed into Fourier analysis and harmonic analysis, and their applications to problems of heat transfer and vibrations. The Fourier transform and Fouri\n[…]\nFourier never married.\n[…]\nThe question of determining when a Fourier series converges has been fundamental for centuries. Joseph-Louis Lagrange had given particular cases of this (false) theorem, and had implied that the method was general, but he had not pursued the subject. Peter Gustav Lejeune Dirichlet was the first to give a satisfactory demonstration of it with some restrictive conditions. This work provides the foundation for what is today known as the Fourier transform.\n[…]\nFourier's treatment of the heat diffusion in a cylinder was an inspiration for the development of the Sturm–Liouville theory by Joseph Liouville and Jacques Charles François Sturm. In the same context, Fourier also gave a thorough discussion of Bessel functions years before Friedrich Wilhelm Bessel.\n[…]\nFourier analysis\n[…]\nFourier–Deligne transform\n[…]\nList of things named after Joseph Fourier\n[…]\nMedia related to Joseph Fourier at Wikimedia Commons\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Joseph Fourier\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nUniversité Joseph Fourier, Grenoble, France Archived 22 June 2006 at the Wayback Machine\n[…]\nJoseph Fourier and the Vuvuzela on MathsBank.co.uk Archived 28 April 2012 at the Wayback Machine\n[…]\nJoseph Fourier at the Mathematics Genealogy Project\n[…]\nJoseph Fourier – Œuvres complètes, tome 2 Gallican-Math\n[…]\n\"Episode 2 - Joseph Fourier\". YouTube. École polytechnique. 16 January 2019. Archived from the original on 15 December 2021."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Greenhouse_effect",
+        "situacao": "ok",
+        "texto": "The greenhouse effect occurs when heat-trapping gases in a planet's atmosphere prevent the planet from losing heat to space, raising its surface temperature. Surface heating can happen from an internal heat source (as in the case of Jupiter) or come from an external source, such as a host star. In the case of Earth, the Sun emits shortwave radiation (sunlight) that passes through greenhouse gases \n[…]\nThe existence of the greenhouse effect (while not named as such) was proposed as early as 1824 by Joseph Fourier. The argument and the evidence were further strengthened by Claude Pouillet in 1827 and 1838. In 1856 Eunice Newton Foote demonstrated that the warming effect of the sun is greater for air with water vapour than for dry air, and the effect is even greater with carbon dioxide. The term greenhouse was first applied to this phenomenon by Nils Gustaf Ekholm in 1901.\n[…]\nThe existence of the greenhouse effect, while not named as such, was proposed as early as 1824 by Joseph Fourier. The argument and the evidence were further strengthened by Claude Pouillet in 1827 and 1838. In 1856 Eunice Newton Foote demonstrated that the warming effect of the sun is greater for air with water vapour than for dry air, and the effect is even greater with carbon dioxide. She concluded that \"An atmosphere of that gas would give to our earth a high temperature...\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jean_Baptiste_Joseph_Fourier",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Joseph Fourier (Auxerre, 21 de março de 1768 — Paris, 16 de maio de 1830) foi um matemático e físico francês, conhecido por iniciar a investigação das séries de Fourier, que posteriormente se desenvolveram na análise de Fourier e na análise harmônica, com aplicações em problemas de transferência de calor e vibrações. A transformada de Fourier e a Lei de Fourier da condução térmica ta\n[…]\nFourier também é geralmente creditado pela descoberta do efeito estufa.\n[…]\nA questão de determinar quando uma série de Fourier converge tem sido fundamental por séculos. Joseph-Louis Lagrange havia dado casos particulares deste teorema (falso) e havia sugerido que o método era geral, mas não havia aprofundado o assunto. Peter Gustav Lejeune Dirichlet foi o primeiro a dar uma demonstração satisfatória dele com algumas condições restritivas. Este trabalho fornece a base para o que hoje é conhecido como a transformada de Fourier.\n[…]\nNa década de 1820, Fourier calculou que um objeto do tamanho da Terra, e à sua distância do Sol, deveria ser consideravelmente mais frio do que o planeta realmente é se fosse aquecido apenas pelos efeitos da radiação solar incidente. Ele examinou várias fontes possíveis do calor adicional observado em artigos publicados em 1824 e 1827.\n[…]\nNo entanto, no final, devido à grande diferença de 33 graus entre seus cálculos e as observações, Fourier erroneamente acreditou que havia uma contribuição significativa da radiação do espaço interestelar. Ainda assim, a consideração de Fourier sobre a possibilidade de a atmosfera da Terra atuar como um tipo de isolante é amplamente reconhecida como a primeira proposta do que hoje é conhecido como efeito estufa, embora Fourier nunca tenha usado esse termo.\n[…]\nAnálise de Fourier\n[…]\nO'Connor, John J.; Robertson, Edmund F., «Jean Baptiste Joseph Fourier», MacTutor History of Mathematics archive (em inglês), Universidade de St. Andrews",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Afundamento do Rainbow Warrior",
+      "descricao": "Ataque a bomba que afundou o navio Rainbow Warrior, do Greenpeace, no porto de Auckland, em julho de 1985."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1985, o navio Rainbow Warrior, do Greenpeace, foi afundado com bombas num porto da Nova Zelândia por agentes secretos de que país?",
+    "resposta": "França",
+    "distratores": [
+      "Estados Unidos",
+      "Reino Unido",
+      "Austrália"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior",
+        "situacao": "ok",
+        "texto": "The sinking of Rainbow Warrior, codenamed Opération Satanique, was an act of French state-terrorism carried out on 10 July 1985. The event was described by France as a \"covert operation\" by the \"action\" branch of the French foreign intelligence agency, the Directorate-General for External Security (DGSE).\n[…]\nSince being acquired by Greenpeace in 1977, Rainbow Warrior was active in supporting several anti-whaling, anti-seal hunting, anti-nuclear testing and anti-nuclear waste dumping campaigns during the late 1970s and early 1980s. Since early 1985, the ship was based in the southern Pacific Ocean, where its crew campaigned against nuclear testing.\n[…]\nFrench agents, posing as interested supporters or tourists, toured the ship while it was open to public viewing. DGSE agent Christine Cabon, who had previously worked on intelligence missions in the Middle East, posed as environmentalist \"Frederique Bonlieu\" to infiltrate the Greenpeace office in Auckland. While working for the Auckland office, Cabon secretly monitored communications from Rainbow Warrior, collected maps and investigated underwater equipment.\n[…]\nOn 14 October 2011, Greenpeace launched a new sailing vessel, again called Rainbow Warrior, which is equipped with an auxiliary electric motor. The ships are informally known as Rainbow Warrior II and Rainbow Warrior III, respectively.\n[…]\nMorgan, Robin; Whitaker, Brian, eds. (1986). Rainbow Warrior: The French Attempt to Sink Greenpeace. London: Hutchinson. ISBN 978-0-09-164360-7.\n[…]\ngreenpeace.org.au\n[…]\nL' Affaire du Rainbow Warrior at IMDb (France 2006, concentrating on the experience of French journalists)\n[…]\nBlowing Up Paradise 2006 BBC Documentary movie by Ben Lewis about French Atomic Testing in Pacific and associated murder of Rainbow Warrior Greenpeace activist by French Secret Service."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Ilha das Flores",
+      "descricao": "Curta-metragem documental brasileiro de 1989 que acompanha o percurso de um tomate até um lixão de Porto Alegre."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cineasta gaúcho dirigiu Ilha das Flores, curta de 1989 que acompanha o caminho de um tomate até um lixão?",
+    "resposta": "Jorge Furtado",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_das_Flores_(filme)",
+      "https://en.wikipedia.org/wiki/Isle_of_Flowers"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_das_Flores_(filme)",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Isle_of_Flowers",
+        "situacao": "ok",
+        "texto": "Isle of Flowers (Portuguese: Ilha das Flores) is a 1989 Brazilian short film by Jorge Furtado. It tracks the path of a tomato from grower to the child who collects it as food from a dump with the help of voiceover and a collection of illustrative images. The director stated the film was inspired by the works of Kurt Vonnegut and Alain Resnais, among others.\n[…]\nMrs Anete intends to prepare a tomato sauce for the pork, but, having considered one of Mr Suzuki's tomatoes inadequate, she throws it in the garbage. Together with the rest of the garbage, the tomato is taken to Isle of Flowers (Ilha das Flores), Porto Alegre's landfill. There, the organic material considered adequate is selected as food for pigs. The rest, which is considered inadequate for the pigs, is given to poor women and children to eat.\n[…]\nIsle of Flowers was very well received by film festivals all over the world when first released. It won a Silver Bear for Best Short Feature at the 1990 Berlin Film Festival as well as nine awards at the 1989 Gramado Film Festival, including for Best Short Film."
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Painel solar",
+      "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1954, a primeira célula solar de silício capaz de alimentar aparelhos elétricos foi apresentada por que famoso laboratório americano?",
+    "resposta": "Laboratórios Bell",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_cell",
+      "https://en.wikipedia.org/wiki/Bell_Labs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Solar_cell",
+        "situacao": "ok",
+        "texto": "A solar cell, also known as a photovoltaic cell (PV cell), is an electronic device that converts the energy of light directly into electricity by using the photovoltaic effect. It is a type of photoelectric cell, a device whose electrical characteristics (such as current, voltage, or resistance) vary when it is exposed to light. Individual solar cell devices are often the electrical building block\n[…]\nIn 2020, the US Naval Research Laboratory conducted its first test of solar power generation in a satellite, the Photovoltaic Radio-frequency Antenna Module (PRAM) experiment aboard the Boeing X-37.\n[…]\n1954 – The first practical photovoltaic cell was publicly demonstrated at Bell Laboratories. The inventors were Calvin Souther Fuller, Daryl Chapin and Gerald Pearson.\n[…]\nIn 2015, a 4-junction GaInP/GaAs//GaInAsP/GaInAs solar cell achieved a new laboratory record efficiency of 46.1% (concentration ratio of sunlight = 312) in a French-German collaboration between the Fraunhofer Institute for Solar Energy Systems (Fraunhofer ISE), CEA-LETI and SOITEC.\n[…]\nIn 2017, a team of researchers at National Renewable Energy Laboratory (NREL), EPFL and CSEM (Switzerland) reported record one-sun efficiencies of 32.8% for dual-junction GaInP/GaAs solar cell devices. In addition, the dual-junction device was mechanically stacked with a Si solar cell, to achieve a record one-sun efficiency of 35.9% for triple-junction solar cells.\n[…]\nIn the United States, the National Renewable Energy Laboratory tests and validates solar technologies, with three groups certifying solar equipment alongside them: UL and IEEE (both U.S. standards) and the IEC.\n[…]\nHowever, the solar market in Latin America also faces some challenges, such as political instability, financing gaps and power transmission bottlenecks.\n[…]\nSolar cell manufacturing techniques\n[…]\nSolar Energy Laboratory at University of Southampton"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bell_Labs",
+        "situacao": "ok",
+        "texto": "Nokia Bell Labs, commonly referred to as Bell Labs, is an American industrial research and development company owned by the Finnish technology company Nokia. With headquarters located in Murray Hill, New Jersey, the company operates several laboratories in the United States and around the world.\n[…]\nIn 1954, the first modern solar cell was invented at Bell Laboratories. The Bell Labs scientists that are credited for inventing the solar cell are Daryl Chapin, Calvin Fuller, and Gerald Pearson.\n[…]\nAlso in 1984, a divestiture agreement signed in 1982 with the American Federal government forced the breakup of AT&T, and Bellcore (now iconectiv) was split off from Bell Laboratories to provide the same R&D functions for the newly created local exchange carriers. AT&T also was limited to using the Bell trademark only in association with Bell Laboratories. Bell Telephone Laboratories, Inc. became a wholly owned company of the new AT&T Technologies unit, the former Western Electric.\n[…]\nIn April 2006, Bell Laboratories' parent company, Lucent Technologies, signed a merger agreement with Alcatel. On December 1, 2006, the merged company, Alcatel-Lucent, began operations. This deal raised concerns in the United States, where Bell Laboratories works on defense contracts. A separate company, LGS Innovations, with an American board was set up to manage Bell Laboratories' and Lucent's sensitive U.S. government contracts. In March 2019, LGS Innovations was purchased by CACI.\n[…]\nHistory of mobile phones—Bell Laboratories conception and development of cellular phones\n[…]\nTWX Magazine—A short-lived trade periodical published by Bell Laboratories (1944–1952)\n[…]\nold Bell Labs website\n[…]\nBell Laboratories and the Development of Electrical Recording\n[…]\nHistory of Bell Telephone Laboratories, Inc. (from Bell System Memorial)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%A9lula_solar",
+        "situacao": "ok",
+        "texto": "Uma célula solar ou célula fotovoltaica é um dispositivo elétrico de estado sólido capaz de converter a luz proveniente do Sol (energia solar) diretamente em energia elétrica por intermédio do efeito fotovoltaico.\n[…]\nO efeito fotovoltaico foi primeiro demonstrado experimentalmente pelo físico francês Alexandre Edmond Becquerel. Em 1839, aos 19 anos, experimentando no laboratório de seu pai, ele construiu a primeira célula fotovoltaica do mundo. Willoughby Smith descreveu pela primeira vez o \"Efeito da Luz em selênio durante a passagem de uma corrente elétrica\", em um artigo científico que foi publicado no dia 20 de fevereiro de 1873 da revista Nature.\n[…]\nA primeira geração de células fotovoltaicas é constituída pelas células de silício cristalino. As células consistem de uma lâmina de silício na qual é formada uma junção PN diodo de junção, capaz de gerar energia elétrica utilizável a partir de fontes de luz com os comprimentos de onda da luz solar. A primeira geração de células constitui a tecnologia dominante em termos de produção comercial, representando mais de 80% do mercado mundial.\n[…]\nSilício cristalino (c-Si) - É a tecnologia mais empregada no mercado atualmente, com uma participação de 95% do mercado de células fotoelétricas. Atualmente apresenta um rendimento de 15 a 21% em suas células; painéis solares feitos de células de silício cristalino tem rendimento de 13 a 17%;\n[…]\nTelureto de cádmio (CdTe) - Participação de 1,1% do mercado de células fotoelétricas, é uma tecnologia que emprega filmes finos de telureto de cádmio. Apresenta pouco apelo comercial devida à alta toxicidade do cádmio.\n[…]\nCélula solar CIGS\n[…]\nCélula solar polimérica\n[…]\nCélula solar sensibilizada corante\n[…]\nEnergia elétrica\n[…]\nEnergia solar",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Nosso Futuro Comum",
+      "descricao": "Relatório de 1987 da Comissão Mundial sobre Meio Ambiente e Desenvolvimento da ONU, que popularizou o conceito de desenvolvimento sustentável."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1987, o relatório Nosso Futuro Comum, da ONU, que popularizou a ideia de desenvolvimento sustentável, foi coordenado por qual primeira-ministra?",
+    "resposta": "Gro Harlem Brundtland",
+    "distratores": [
+      "Margaret Thatcher",
+      "Indira Gandhi",
+      "Golda Meir"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Our_Common_Future",
+      "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Our_Common_Future",
+        "situacao": "ok",
+        "texto": "Our Common Future, also known as the Brundtland Report, was published in October 1987 by the United Nations through the Oxford University Press. This publication was in recognition of Gro Harlem Brundtland, former Norwegian Prime Minister and Chair of the World Commission on Environment and Development (WCED).\n[…]\nThe Brundtland Commission's mandate, officially adopted at its inaugural meeting in Geneva on 1–3 October 1984, was to:\n[…]\nThe report recognized that human resource development in the form of poverty reduction, gender equity, and wealth redistribution was crucial to formulating strategies for environmental conservation, and it also recognized that environmental-limits to economic growth in industrialized and industrializing societies existed. The Brundtland Report claimed that poverty reduces sustainability and accelerates environmental pressures – creating a need for the balancing between economy and ecology.\n[…]\nIn addition, key contributions of Our Common Future to the concept of sustainable development included the recognition that the many crises facing the planet are interlocking crises that are elements of a single crisis of the whole, and of the vital need for the active participation of all sectors of society in consultation and decisions relating to sustainable development.\n[…]\nIris Borowy, Defining Sustainable Development: the World Commission on Environment and Development (Brundtland Commission), Milton Park: earthscan/Routledge, 2014\n[…]\nWBGU (the German Advisory Council on Global Change) (10 July 2019). Our common digital future – a draft charter for a sustainable digital age (PDF). Berlin, Germany: German Advisory Council on Global Change (WBGU). Retrieved 2020-03-04. PDF version.\n[…]\nOur Common Future: Report of the World Commission on Environment and Development"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland",
+        "situacao": "ok",
+        "texto": "Gro Brundtland (Norwegian pronunciation: [ˈɡruː ˈhɑ̀ːlɛm ˈbrʉ̀ntlɑnː]; née Harlem; born 20 April 1939), known as Gro Harlem Brundtland, is a Norwegian stateswoman and former physician, who thrice served as the Prime Minister of Norway (1981, 1986–1989, and 1990–1996), and as the leader of the Labour Party from 1981 to 1992, and as the director-general of the World Health Organization from 1998 to \n[…]\nBrundtland was minister for environmental affairs from 1974 to 1979.\n[…]\nBrundtland became Norway's first female prime minister in 1981. She served as prime minister from February to October.\n[…]\nThe commission, which published its report, Our Common Future, in April 1987, provided the momentum for the 1992 Earth Summit/UNCED, which was headed by Maurice Strong, who had been a prominent member of the commission. The Brundtland Commission also provided momentum for Agenda 21.\n[…]\nBrundtland is a member of the Council of Women World Leaders, an international network of current and former women presidents and prime ministers whose mission is to mobilise collective action on issues of critical importance to women and equitable development.\n[…]\nBrundtland has received many awards and honours, including\n[…]\nSkard, Torild (2014). \"Gro Harlem Brundtland\". Women of Power: Half a Century of Female Presidents and Prime Ministers Worldwide. Bristol: Policy Press. ISBN 9781447315780.\n[…]\nBrundtland, Gro Harlem (2002) \"Madam Prime Minister: A Life in Power and Politics\". New York: Farrar, Straus and Giroux, ISBN 0-374-53002-5, primary source\n[…]\nLouis-Pascal Jacquemond, « Gro Harlem Brundtland ou l’invention du « “développement durable” » », Dynamiques environnementales - Journal international des géosciences et environnement, nos 39-40, 2017, p. 254-265 (DOI 10.4000/dynenviron.541)\n[…]\nMedia related to Gro Harlem Brundtland at Wikimedia Commons\n[…]\nQuotations related to Gro Harlem Brundtland at Wikiquote"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Relat%C3%B3rio_Brundtland",
+        "situacao": "ok",
+        "texto": "Relatório Brundtland é o documento intitulado Nosso Futuro Comum (Our Common Future), publicado em outubro de 1987. Coordenado pela então primeira-ministra da Noruega, Gro Harlem Brundtland, a Comissão Mundial sobre Meio Ambiente e Desenvolvimento originou um documento no qual houve a disseminação da ideia de desenvolvimento sustentável, conceito o qual vinha sendo concebido desde a década de 1970\n[…]\nO relatório Brundtland indicou que a pobreza dos países do terceiro mundo e o consumismo elevado dos países do primeiro mundo eram causas fundamentais que impediam um desenvolvimento igualitário no mundo e, consequentemente, produziam graves crises ambientais.\n[…]\nNo início da década de 1980, a ONU retomou o debate das questões ambientais. Indicada pela entidade, a primeira-ministra da Noruega, Gro Harlem Brundtland, chefiou a Comissão Mundial sobre o Meio Ambiente e Desenvolvimento, para estudar o assunto. O documento final desses estudos chamou-se Nosso Futuro Comum, também conhecido como Relatório Brundtland.\n[…]\nApresentado em 1987, propõe o desenvolvimento sustentável, que é “aquele que atende às necessidades do presente sem comprometer a possibilidade de as gerações futuras atenderem às suas necessidades”.\n[…]\nSegundo o Relatório da Comissão Brundtland, uma série de medidas devem ser tomadas pelos países para promover o desenvolvimento sustentável. Entre elas:\n[…]\nlimitação do crescimento populacional;\n[…]\nDiante desta constatação, surge a ideia do Desenvolvimento Sustentável (DS), buscando conciliar o desenvolvimento econômico com a preservação ambiental e, ainda, ao fim da pobreza no mundo.Assim como mencionado Sustentabilidade em tendo um alto desenvolvimento ao decorrer dos anos através de suas hierarquias.\n[…]\nDesenvolvimento sustentável\n[…]\nSustentabilidade\n[…]\nComissão Mundial sobre Meio Ambiente e Desenvolvimento. Nosso futuro comum 2ª ed. Rio de Janeiro: Editora da Fundação Getúlio Vargas, 1992",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Ecologia",
+      "descricao": "Ciência que estuda as relações dos seres vivos entre si e com o ambiente, cujo nome foi criado em 1866."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1866, que zoólogo alemão criou a palavra ecologia, a partir de um termo grego?",
+    "resposta": "Ernst Haeckel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ernst_Haeckel",
+      "https://en.wikipedia.org/wiki/Ecology"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ernst_Haeckel",
+        "situacao": "ok",
+        "texto": "Ernst Heinrich Philipp August Haeckel (; German: [ɛʁnst ˈhɛkl̩]; 16 February 1834 – 9 August 1919) was a German zoologist, naturalist, eugenicist, philosopher, physician, professor, marine biologist and artist. He discovered, described and named thousands of new species, mapped a genealogical tree relating all life forms and coined many terms in biology, including ecology, phylum, phylogeny, ontog\n[…]\nThe Jena Declaration, published by the German Zoological Society, rejects the idea of human \"races\" and distances itself from the racial theories of Ernst Haeckel and other 20th century scientists. It claims that genetic variation between human populations is smaller than within them, demonstrating that the biological concept of \"races\" is invalid. The statement highlights that there are no specific genes or genetic markers that match with conventional racial categorizations.\n[…]\nIn 2013, Ernstia, a genus of calcareous sponges in the family Clathrinidae. The genus was erected to contain five species previously assigned to Clathrina. The genus name honors Ernst Haeckel for his contributions towards sponge taxonomy and phylogeny.\n[…]\nErnst Haeckel's popularization of palingenesis made an impact on politicians from both end of the spectrum—from Friedrich Engels's 1876 essay (Gould, 1977, p. 136) and Marxism to palingenetic ultranationalism.\n[…]\nHaeckel's Tale\n[…]\nErnst Haeckel – Evolution's controversial artist. A slide-show essay\n[…]\nErnst Haeckel Haus and Museum in Jena\n[…]\nSchmidt, H. (1934). Ernst Haeckel: Denkmal eines grossen Lebens (PDF) (in German). Jena: Walter Biedermann.\n[…]\nWorks by Ernst Haeckel at Project Gutenberg\n[…]\nWorks by or about Ernst Haeckel at the Internet Archive\n[…]\nWorks by Ernst Haeckel at LibriVox (public domain audiobooks)\n[…]\nNewspaper clippings about Ernst Haeckel in the 20th Century Press Archives of the ZBW\n[…]\nErnst Haeckel's Radiolarians and Medusa – article on Haeckel in Villefranche-sur-Mer"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ecology",
+        "situacao": "ok",
+        "texto": "Ecology (from Ancient Greek  οἶκος (oîkos)  'house' and  -λογία (-logía)  'study of') is the natural science which studies the interactions between organisms and their environments. Ecology considers organisms at the community, ecosystem, and biosphere levels. Ecology overlaps with the sciences of biogeography, evolutionary biology, genetics, and ethology.\n[…]\nThe term ecology (German: Ökologie) was coined in 1866 by the German scientist Ernst Haeckel. The science of ecology as it is known today began with a group of American botanists in the 1890s. Evolutionary concepts relating to adaptation and natural selection are cornerstones of modern ecological theory.\n[…]\nNatural historians, such as Humboldt, James Hutton, and Jean-Baptiste Lamarck laid the foundations of ecology. The term \"ecology\" (German: Oekologie, Ökologie) was coined by Ernst Haeckel in his book Generelle Morphologie der Organismen (1866). Haeckel was a zoologist, artist, writer, and later in life a professor of comparative anatomy.\n[…]\nModern ecology first attracted substantial scientific attention toward the end of the 19th century. Ellen Swallow Richards adopted the term \"oekology\" in the U.S. as early as 1892. In the early 20th century, ecology transitioned from description to a more analytical form of scientific natural history. Frederic Clements published the first American ecology book, Research Methods in Ecology in 1905, presenting the idea of plant communities as a superorganism.\n[…]\nSince then, ecologists have worked to bridge their understanding of the degradation of the planet's ecosystems with environmental politics, law, restoration, and natural resources management.\n[…]\n/ \"Ecology \" entry  by Alkistis Elliott-Graves in the Stanford Encyclopedia of Philosophy\n[…]\nThe Nature Education Knowledge Project: Ecology"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ernst_Haeckel",
+        "situacao": "ok",
+        "texto": "Ernst Heinrich Philipp August Haeckel (Potsdam, na Prússia, Alemanha, 16 de fevereiro de 1834 – Jena, 9 de agosto de 1919) foi um biólogo, naturalista, filósofo, médico, professor e artista alemão que ajudou a popularizar o trabalho de Charles Darwin e um dos grandes expoentes do cientificismo positivista. Descreveu e nomeou várias espécies novas, mapeou uma árvore genealógica que relaciona todas \n[…]\nEm outubro de 1864 em Downe, Inglaterra, Darwin conhece seu mais fervoroso admirador alemão, Ernst Haeckel, que em cartas detalhava o sucesso do darwinismo na Alemanha aumentando substancialmente as contribuições para sua aula com cerca de cento e cinquenta alunos por grupo.\n[…]\nCom a leitura de A origem das espécies traduzida para o alemão em 1860, durante um verão onde trabalhava em seu doutorado Ernst Haeckel surpreendeu-se com a argumentação esmagadora de Darwin a respeito da evolução, encontrando a resposta para todas as perguntas que o incomodava desde o início de seus estudos em Biologia.\n[…]\nPublicada no ano de 1899, a Lei biogenética fundamental, também conhecida como a ontogenia recapitula a filogenia onde segundo Ernst Haeckel, a ontogenia é a recapitulação curta e rápida da filogenia, condicionada pelas funções fisiológicas de herança (reprodução) e adaptação (nutrição).\n[…]\nGenerelle Morphologie der Organismen. 2 Bände. Berlim 1866 (Online: Vol. 1, Vol. 2).\n[…]\nErnst Haeckel: Ausgewählte Briefwechsel. Volume 1. Familienkorrespondenz Februar 1839-Juli 1854, hrsg. und bearb. von Roman Göbel, Gerhard Müller und Claudia Taszus unter Mitarbeit von Thomas Bach, Jens Pahnke und Kathrin Polenz. Steiner, Stuttgart 2017, ISBN 978-3-515-11290-1.\n[…]\nO Monismo - Laço entre a Religião e a Ciência de Ernst Haeckel\n[…]\nE. Haeckel: Natürliche Schöpfungsgeschichte (página de rosto e frontispício da primeira edição, Alemão)\n[…]\nRegistro de membro de Ernst Haeckel (com foto) na Academia de Ciências da Baviera.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Agência de Proteção Ambiental dos Estados Unidos",
+      "descricao": "Agência federal americana responsável pela proteção do meio ambiente, criada em dezembro de 1970."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1970, a agência de proteção ambiental dos Estados Unidos foi criada por ordem de que presidente republicano?",
+    "resposta": "Richard Nixon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency",
+        "situacao": "ok",
+        "texto": "The Environmental Protection Agency (EPA) is an independent agency of the United States government tasked with environmental protection matters. President Richard Nixon proposed the establishment of EPA on July 9, 1970; it began operation on December 2, 1970, after Nixon signed an executive order.\n[…]\nThe Richard Nixon administration made the environment a policy priority in 1969–1971 and created two new agencies, the Council on Environmental Quality (CEQ) and EPA. Nixon signed NEPA into law on January 1, 1970. The law established the CEQ in the Executive Office of the President. NEPA required that a detailed statement of environmental impacts be prepared for all major federal actions significantly affecting the environment.\n[…]\nOn July 9, 1970, Nixon proposed an executive reorganization that consolidated many environmental responsibilities of the federal government under one agency, a new Environmental Protection Agency. This proposal included merging pollution control programs from a number of departments, such as the combination of pesticide programs from the United States Department of Agriculture and the United States Department of the Interior.\n[…]\nIn 1973 President Nixon appointed Russell E. Train to be the next EPA administrator. In 1974 Congress passed the Safe Drinking Water Act, requiring EPA to develop mandatory federal standards for all public water systems, which serve 90% of the US population. The law required EPA to enforce the standards with the cooperation of state agencies.\n[…]\nCreating 10 EPA regions was an initiative that came from President Richard Nixon. See Standard Federal Regions. Each EPA regional office is responsible within its states for implementing the agency's programs, except those programs that have been specifically delegated to states."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ag%C3%AAncia_de_Prote%C3%A7%C3%A3o_Ambiental_dos_Estados_Unidos",
+        "situacao": "ok",
+        "texto": "A Agência de Proteção Ambiental dos Estados Unidos (Environmental Protection Agency, EPA ou às vezes, USEPA em inglês) é uma agência federal do governo dos Estados Unidos da América, encarregada de proteger a saúde humana e o meio ambiente: ar, água e terra. A EPA começou a funcionar em 2 de dezembro de 1970, quando foi instituída pelo presidente Richard Nixon. É chefiada por um administrador, ind\n[…]\nA EPA não é um ministério de facto, mas o administrador geralmente possui status ministerial. Em 2007, a agência possuía 17 000 funcionários em tempo integral.\n[…]\n(em inglês)-Estatutos ambientais da EPA",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "O Escândalo do Petróleo",
+      "descricao": "Livro de 1936 em que Monteiro Lobato defendia a exploração do petróleo no Brasil."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1936, que escritor, mais lembrado pelas histórias do Sítio do Picapau Amarelo, publicou O Escândalo do Petróleo, defendendo a exploração no Brasil?",
+    "resposta": "Monteiro Lobato",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monteiro_Lobato",
+        "situacao": "ok",
+        "texto": "José Bento Renato Monteiro Lobato (Taubaté, 18 de abril de 1882 – São Paulo, 4 de julho de 1948) foi um escritor, intelectual e editor literário brasileiro. Participou ativamente do pré-modernismo e modernismo brasileiro e da vida política do Brasil, sendo popularmente lembrado por sua série de livros infantis Sítio do Pica Pau Amarelo.\n[…]\nDocumentos (correspondências e outros textos) e obras literárias apontam que Monteiro Lobato defendia a eugenia por acreditar que a miscigenação era um fator prejudicial na formação do povo brasileiro. Era, inclusive, membro da Sociedade Eugênica de São Paulo e teve longa amizade com Renato Kehl, seu fundador e um dos mais proeminentes entusiastas da eugenia no Brasil.\n[…]\nEm 2024, Cleo Monteiro Lobato, a bisneta de Monteiro Lobato, usou as redes sociais e se manifestou contra o cancelamento do autor, destacando o papel fundamental que suas obras desempenharam na formação cultural do Brasil. Ela enfatizou a importância de reconhecer o contexto histórico em que suas histórias foram escritas.\n[…]\nA bisneta de Monteiro Lobato anunciou que havia adaptado o clássico \"Sítio do Picapau Amarelo\" excluindo passagens consideradas racistas para torná-lo mais acessível às novas gerações.\n[…]\nZé Brasil (1947)\n[…]\nNa capital paulista, há a Biblioteca Municipal Monteiro Lobato. Foi criada em 14 de abril de 1936, resultado do esforço de um grupo de intelectuais liderado por Mário de Andrade para incentivar a cultura literária, então diretor do Departamento Municipal de Cultura. Em 1955, foi renomeada em homenagem ao escritor paulista, sendo considerado o seu patrono. A Biblioteca é uma das mais antigas no Brasil dedicada a literatura infantil, possuindo amplo acervo de obras de Monteiro Lobato.\n[…]\n«Site Monteiro Lobato»\n[…]\n«Página do Projeto \"Monteiro Lobato (1882-1948) e outros Modernismos brasileiros\", UNICAMP»"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Protocolo de Quioto",
+      "descricao": "Tratado internacional assinado no Japão para reduzir as emissões de gases do efeito estufa."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Assinado no Japão para reduzir as emissões de gases do efeito estufa, o Protocolo de Kyoto é de que década?",
+    "resposta": "Década de 1990",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Protocolo_de_Quioto",
+      "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Protocolo_de_Quioto",
+        "situacao": "ok",
+        "texto": "O Protocolo de Quioto é um tratado internacional ambiental de 1997 com compromissos mais rígidos para a redução da emissão dos gases que produzem o efeito estufa (causa do atual aquecimento global).\n[…]\nPor ele se propõe um calendário pelo qual os países-membros (principalmente os desenvolvidos) têm a obrigação de reduzir a emissão de gases do efeito estufa em, pelo menos, 5,2% em relação aos níveis de 1990 no período entre 2008 e 2012, também chamado de primeiro período de compromisso (para muitos países, como os membros da UE, isso corresponde a 15% abaixo das emissões esperadas para 2008).\n[…]\n1997 – Em dezembro, as partes concluem o Protocolo de Quioto, em Quioto, Japão, no qual concordam com as grandes linhas das metas de emissões.\n[…]\nAssim, o segundo maior emissor de gases causadores do efeito estufa do planeta, os Estados Unidos, não ratificaram o Protocolo. De fato, todas as nações europeias e o Japão ratificaram o Protocolo, e algumas delas, embora tenham concordado em diminuir suas emissões em 2010 em 8% abaixo dos níveis de 1990, já admitem que não conseguirão atingir esta meta e somente poderão conseguir reduzir as emissões em 1% em 2010.\n[…]\nA União Europeia esperava atingir as metas compromissadas, aproveitando as possibilidades do Reino Unido, da França e Alemanha de reduzir suas emissões aos níveis de 1990, utilizando a política de abandonar o uso do carvão, aumentar o uso da energia nuclear e fechar as portas das indústrias poluidoras do leste alemão. Considerando estas vantagens, as outras nações não precisariam ser tão severas na redução das suas emissões sob a política original do Protocolo de Quioto.\n[…]\n«Ministério da Ciência & Tecnologia - Texto do Protocolo de Quioto»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol",
+        "situacao": "ok",
+        "texto": "The Kyoto Protocol (Japanese: 京都議定書, Hepburn: Kyōto Giteisho) was an international treaty which extended the 1992 United Nations Framework Convention on Climate Change (UNFCCC) that commits state parties to reduce greenhouse gas emissions, based on the scientific consensus that global warming is occurring and that human-made CO2 emissions are driving it. The Kyoto Protocol was adopted in Kyoto, Ja\n[…]\nIn 2011, Canada, Japan and Russia stated that they would not take on further Kyoto targets. The Canadian government announced its withdrawal—possible at any time three years after ratification—from the Kyoto Protocol on 12 December 2011, effective 15 December 2012. Canada was committed to cutting its greenhouse emissions to 6% below 1990 levels by 2012, but in 2009 emissions were 17% higher than in 1990.\n[…]\nCollectively the group of industrialized countries committed to a Kyoto target, i.e., the Annex I countries excluding the US, had a target of reducing their GHG emissions by 4.2% on average for the period 2008–2012 relative to the base year, which in most cases is 1990.\n[…]\nBelarus, Malta, and Turkey are Annex I Parties but did not have first-round Kyoto targets. The US had a Kyoto target of a 7% reduction relative to the 1990 level, but has not ratified the treaty. If the US had ratified the Kyoto Protocol, the average percentage reduction in total GHG emissions for the Annex I group would have been a 5.2% reduction relative to the base year.\n[…]\nThe 36 countries that were committed to emission reductions only accounted for 24% of the global greenhouse gas emissions in 2010. Even though these countries significantly reduced their emissions during the Kyoto commitment period, other countries increased their emissions so much that the global emissions increased by 32% from 1990 to 2010.\n[…]\nThe layman's guide to the Kyoto Protocol Archived 14 August 2009 at the Wayback Machine"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Gasolina com chumbo",
+      "descricao": "Gasolina com o aditivo antidetonante chumbo tetraetila, criada nos anos 1920 e depois banida por sua toxicidade."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Argélia foi o último país do mundo a deixar de vender gasolina com chumbo para carros. Em que ano isso aconteceu?",
+    "resposta": "2021",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetraethyllead"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tetraethyllead",
+        "situacao": "ok",
+        "texto": "Tetraethyllead (commonly styled tetraethyl lead), abbreviated TEL, is an organolead compound with the formula Pb(C2H5)4. It was widely used as a fuel additive for much of the 20th century, first being mixed with gasoline beginning in the 1920s. This \"leaded gasoline\" had an increased octane rating that allowed engine compression to be raised substantially and in turn increased vehicle performance \n[…]\nIn July 2021, the sale of leaded gasoline for cars was completely phased out worldwide following the termination of production by Algeria, prompting the United Nations Environment Program (UNEP) to declare an \"official end\" of its use in cars on 30 August 2021. While TEL is no longer used in automobile gasoline, it remains in use for some specialized fuels such as aviation gasoline (Avgas).\n[…]\nThe first country to completely ban leaded gasoline was Japan in 1986.\n[…]\nAs of June 2016 the UNEP-sponsored phase-out was nearly complete: only Algeria, Iraq, and Yemen continued widespread use of leaded gasoline, although not exclusively. In July 2021, Algeria had halted its sale.\n[…]\nCenters of Disease control previously labelled children with 10 μg/dL or more as having a \"blood lead level of concern\". In 2021, the level was lowered in accordance with the average lead level in the U.S. decreasing to 3.5 μg/dL or more as having a \"blood lead level of concern\".\n[…]\nThe announcement was slightly premature, as a few countries still had leaded gasoline for sale as of 2017. On 30 August 2021 the United Nations Environment Program announced that leaded gasoline had been eliminated. The final stocks were used up in Algeria, which had continued to produce leaded gasoline until July 2021.\n[…]\nThe World Has Finally Stopped Using Leaded Gasoline. Algeria Used The Last Stockpile, 30 August 2021, Heard on All Things Considered, Camila Domonoske, NPR."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tetraetilchumbo",
+        "situacao": "ok",
+        "texto": "Tetraetilchumbo ou chumbo tetraetila é um aditivo para gasolina cuja  fórmula é Pb(C2H5)4. Faz com que a octanagem da gasolina seja elevada, pois é resistente à pressão, porém é tóxico e libera partículas de chumbo (metal pesado) no ar. É citado na literatura com a abreviatura TEL, do inglês tetraethyl lead.\n[…]\nNo Brasil e na União Europeia o chumbo tetraetila está proibido de ser adicionado à gasolina de veículos terrestres. Em seu lugar, usa-se no Brasil álcool anidro a um teor de 20–27%, que é estabelecido pelo Ministério da Agricultura.\n[…]\nPorém, este continua a ser utilizado na gasolina de aviação (Avgas). Com a tecnologia atual, somente é possível atingir um índice de octanagem maior que 100 com viabilidade econômica através da adição do chumbo tetraetila.\n[…]\nEle é exemplo de um composto organo-metálico, no qual um ou mais grupos orgânicos estão ligados a um átomo de metal. Nesse caso, a molécula pode ser visualizada como quatro grupos etila ligados num átomo de chumbo central em arranjo tetraédrico.\n[…]\nA molécula de tetraetil-chumbo é útil não pelo átomo de chumbo, mas como fonte eficaz de grupos etila. As ligações carbono-chumbo são frágeis e os quatro grupos etila separam-se da ligação com o chumbo na câmara quente de um motor de combustão interna. Eles, então, promovem a queima suave do combustível hidrocarbônico por meio de reações em cadeia.\n[…]\nO chumbo envenena tanto pessoas quanto conversores catalíticos instalados em carros. Tais conversores estão lá para completar a queima do combustível, produzindo dióxido de carbono e água antes que ele escape para a atmosfera e seja convertido em poluentes pelo peróxido de hidrogênio.\n[…]\nChumbo Vital (TV Escola) — vídeo sobre sobre tetraetilchumbo no YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Calder Hall",
+      "descricao": "Usina nuclear do complexo de Sellafield, na Inglaterra, uma das primeiras a fornecer eletricidade em escala comercial."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década a rainha Elizabeth Segunda inaugurou Calder Hall, na Inglaterra, uma das primeiras usinas nucleares a fornecer eletricidade em escala comercial?",
+    "resposta": "Década de 1950",
+    "distratores": [
+      "Década de 1940",
+      "Década de 1960",
+      "Década de 1970"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sellafield"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sellafield",
+        "situacao": "ok",
+        "texto": "Sellafield, formerly known as Windscale, is a large multi-function nuclear site close to Seascale on the coast of Cumbria, England. As of August 2022, primary activities are nuclear waste processing and storage and nuclear decommissioning. Former activities included nuclear power generation from 1956 to 2003, and nuclear fuel reprocessing from 1952 to 2022.\n[…]\nWindscale Pile No.1 became operational in October 1950, just over three years from the start of construction, and Pile No.2 became operational in June 1951.\n[…]\nThe initial fuel was loaded into the Windscale Piles in July 1950. By July 1952 the separation plant was being used to separate plutonium and uranium from spent fuel.\n[…]\nCalder Hall was first connected to the grid on 27 August 1956 and officially opened by Queen Elizabeth II on 17 October 1956. It was the world's first nuclear power station to provide electricity on a commercial scale to a public grid.\n[…]\nBetween 1950 and 2000, there were 21 serious incidents or accidents involving off-site radiological releases that warranted a rating on the International Nuclear Event Scale, one at level 5, five at level 4 and fifteen at level 3. During the 1950s and 1960s there were protracted periods of known, deliberate discharges to the atmosphere of plutonium and irradiated uranium oxide particulates.\n[…]\nIn an examination of all causes of stillbirth and infant mortality in Cumbria taken as a whole, between 1950 and 1993, 4,325 stillbirths, 3,430 neonatal death and 1,569 lethal congenital anomalies, occurred among 287,993 births. Overall, results did not infer an increased risk of still birth or neonatal death in Cumbria, the rate of these negative outcomes were largely in line with the British baseline rate.\n[…]\nDorothy Gradden – Nuclear engineer from the UK\n[…]\nNuclear Tourist\n[…]\nCalder Hall, Nuclear Engineering International wall chart, October 1956"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sellafield",
+        "situacao": "ok",
+        "texto": "Sellafield, anteriormente conhecida como Windscale, é uma usina de reprocessamento de material nuclear, e anteriormente também de geração eléctrica, localizada próxima à costa do mar de Irlanda, em Cumbria, Inglaterra, junto à população e estação de ferrovia de Seascale.\n[…]\nSellafield é operada pela British Nuclear Fuels Limited (BNFL), mas propriedade é, desde 1 de abril de 2005, da Nuclear Decommissioning Authority.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Pré-sal",
+      "descricao": "Camada de rochas sob uma espessa camada de sal, no subsolo marinho da costa brasileira, que guarda grandes reservas de petróleo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "As grandes reservas de petróleo do pré-sal, no subsolo do mar brasileiro, começaram a ser descobertas em que década?",
+    "resposta": "Década de 2000",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal",
+        "situacao": "ok",
+        "texto": "Em geologia e na indústria do petróleo, pré-sal designa conjuntos de rochas e reservatórios situados abaixo de espessas camadas de sal. No Atlântico Sul, essas formações estão associadas à separação da América do Sul e da África e à abertura do oceano, ocorrida a partir do Cretáceo. Sedimentos ricos em matéria orgânica, rochas carbonáticas que funcionam como reservatórios e a cobertura de sal form\n[…]\nNas rochas da camada de pré-sal existentes no mundo, a primeira descoberta de reserva petrolífera ocorreu no litoral brasileiro, que passou a ser conhecida simplesmente como \"petróleo do pré-sal\" ou \"pré-sal\". Estas também são as maiores reservas conhecidas em zonas da faixa pré-sal até o momento identificadas.\n[…]\nDepois do anúncio da descoberta de reservas na escala de dezenas de bilhões de barris, em todo o mundo começaram processos de exploração em busca de petróleo abaixo das rochas de sal nas camadas profundas do subsolo marinho.\n[…]\nA área de ocorrência conhecida destes reservatórios é de 149 mil km² dos quais 42 mil km² (28%) já foram licitados e 107 mil km² (72%) ainda por licitar. A história da prospecção desta região começa no ano de 2000 durante a segunda rodada de licitações da ANP, onde foram arrematados os primeiros blocos de exploração no limites entre os estados de São Paulo e do Rio de Janeiro.\n[…]\nA descoberta das reservas do pré-sal causaram grandes debates em todo o país. A partir da sua descoberta, alguns membros do governo passaram a defender novos modelos de regulação para preservar uma parte maior desta riqueza para o país, envolvendo mudanças na atual Lei do Petróleo (lei nº 9.478 de 1997).\n[…]\nA princípio, o debate em torno da modificação legal para a exploração das reservas petrolíferas brasileiras está dividido em três grandes grupos, com objetivos e posições político-ideológicas distintos.\n[…]\n«Serviço Geológico do Brasil - \"O Petróleo do Pré-Sal\"»\n[…]\n«Petróleo e o pré-sal»"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Carro flex",
+      "descricao": "Automóvel com motor capaz de funcionar com etanol, gasolina ou qualquer mistura dos dois, lançado no Brasil em 2003."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os carros flex, que aceitam álcool, gasolina ou qualquer mistura dos dois, começaram a ser vendidos no Brasil em que ano?",
+    "resposta": "2003",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flexible-fuel_vehicles_in_Brazil",
+      "https://en.wikipedia.org/wiki/Flexible-fuel_vehicle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flexible-fuel_vehicles_in_Brazil",
+        "situacao": "ok",
+        "texto": "The fleet of flexible-fuel vehicles in Brazil is the largest in the world. Since their inception in 2003, a total of 30.5 million flex fuel cars and light-duty trucks were registered in the country, and over 6 million flexible-fuel motorcycles, both by March 2018. The market share of flex-fuel autos and light commercial trucks represented 88.6% of all light-duty registrations in 2017.\n[…]\nFlexible-fuel technology started being developed only by the end of the 1990s by Brazilian engineers and in March 2003 Volkswagen do Brasil launched in the market the Gol 1.6 Total Flex, the first commercial flexible fuel vehicle capable of running on any blend of gasoline and ethanol.\n[…]\nAfter the market launch of the Gol 1.6 Total Flex, the first commercial flexible fuel vehicle capable of running on any blend of gasoline and ethanol, GM do Brasil followed three months later with the Chevrolet Corsa 1.8 Flexpower, using an engine developed by a joint-venture with Fiat called PowerTrain.\n[…]\nFlexible fuel vehicles were 22% of the new car sales in 2004, 73% in 2005, 87.6% in July 2008, and reached a record 94% in August 2009. The production of flex-fuel cars and light commercial vehicles since 2003 reached 10 million vehicles in March 2010, and 15 million in January 2012. Registrations of flex-fuel cars and light trucks represented 87.0% of all passenger and light duty vehicles sold in the country in 2012. Production passed the 20 million-unit mark in June 2013.\n[…]\nIn December 2018, Toyota do Brasil announced the development of the world's first commercial hybrid electric car with flex-fuel engine capable of running with electricity and ethanol fuel or gasoline. The flexible fuel hybrid technology was developed in partnership with several Brazilian federal universities, and a prototype was tested for six months using a Toyota Prius as development mule.\n[…]\nEthanol fuel in Brazil"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flexible-fuel_vehicle",
+        "situacao": "ok",
+        "texto": "A flexible-fuel vehicle (FFV) or dual-fuel vehicle (colloquially called a flex-fuel vehicle) is an alternative fuel vehicle with an internal combustion engine designed to run on more than one fuel, usually gasoline blended with either ethanol or methanol fuel, and both fuels are stored in the same common tank.\n[…]\nThe adoption of ethanol flex fuel vehicles was so successful, that production of flex cars went from almost 40 thousand in 2003 to 1.7 million in 2007. This rapid adoption of the flex technology was facilitated by the fuel distribution infrastructure already in place, as around 27,000 filling stations countrywide were available by 1997 with at least one ethanol pump, a heritage of the Pró-Álcool program.\n[…]\nA key innovation in the Brazilian flex technology was avoiding the need for an additional dedicated sensor to monitor the ethanol-gasoline mix, which made the first American M85 flex fuel vehicles too expensive.\n[…]\nIn March 2003 Volkswagen do Brasil launched in the market the Gol 1.6 Total Flex, the first commercial flexible fuel vehicle capable of running on any blend of gasoline and ethanol. GM do Brasil followed three months later with the Chevrolet Corsa 1.8 Flexpower, using an engine developed by a joint-venture with Fiat called PowerTrain.\n[…]\nThe production of flex-fuel cars and light commercial vehicles since 2003 reached the milestone of 10 million vehicles in March 2010. At the end of 2012 registrations of flex-fuel cars and light trucks represented 87% of all passenger and light duty vehicles sold in the country in 2012, and climbed to a 94% market share of all new passenger vehicles sales in 2013. Production passed the 20 million-unit mark in June 2013.\n[…]\nFlex-fuel, or flexible fuel, is an alternative fuel made of a combination of gasoline and methanol or ethanol."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Rompimento da barragem de Brumadinho",
+      "descricao": "Rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais, aconteceu em que ano?",
+    "resposta": "2019",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
+      "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
+        "situacao": "ok",
+        "texto": "The Brumadinho dam disaster occurred on 25 January 2019 when a tailings dam at the Córrego do Feijão iron ore mine suffered a catastrophic failure. The dam, located 9 kilometres (5.6 mi) east of Brumadinho in Minas Gerais, Brazil, is owned by the mining company Vale, which was also involved in the Mariana dam disaster of 2015.\n[…]\nThe Brumadinho dam failure occurred three years and two months after the Mariana dam disaster of November 2015, which killed 19 people and destroyed the village of Bento Rodrigues. The Mariana disaster is considered the worst environmental disaster in Brazil's history and as of January 2019 was still under investigation. Brazil's weak regulatory structures and regulatory gaps allowed the Mariana dam's failure.\n[…]\nCórrego do Feijão's Dam I collapsed just after noon, at 12:28 p.m. on 25 January 2019, unleashing a toxic tidal wave of around 12 million cubic metres of tailings. The mudflow quickly engulfed the mine's administrative area, burying hundreds of the mine's employees alive, including scores in the cafeteria during their lunch break.\n[…]\nBurton, Katie (20 March 2019). \"Why the Brumadinho dam collapse wasn't surprising\". Geographical Magazine. Archived from the original on 29 November 2019. Retrieved 26 November 2019.\n[…]\nNogueira, Elton P. (17 March 2021). \"Judicial rulings Minas Gerais State x Vale S. A. Brumadinho Dam judicial procedure\". Decisões Judiciais No Processo Entre O Ministério Público e Estado de Minas Gerais Contra a Vale S. A. Pelo Rompimento da Barragem de Brumadinho (Mg) (in Portuguese). Retrieved 19 November 2021.\n[…]\n\"The safety business: TÜV SÜD's role in the Brumadinho dam failure in Brazil\". ECCHR. Berlin: European Center for Constitutional and Human Rights. 17 October 2019. Retrieved 19 November 2021.\n[…]\nMedia related to Brumadinho dam disaster at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho",
+        "situacao": "ok",
+        "texto": "Rompimento de barragem em Brumadinho em 25 de janeiro de 2019 foi o maior acidente de trabalho no Brasil em perda de vidas humanas e o segundo maior desastre industrial do século. Foi um dos maiores desastres ambientais da mineração do país, depois do rompimento de barragem em Mariana.\n[…]\nControlada pela Vale S.A., a barragem de rejeitos denominada barragem da Mina Córrego do Feijão, era classificada como de \"baixo risco\" e \"alto potencial de danos\" pela empresa. Acumulando os rejeitos de uma mina de ferro, ficava no ribeirão Ferro-Carvão, na região de Córrego do Feijão, no município de Brumadinho, estado de Minas Gerais.\n[…]\nIsso é um genocídio. A impunidade é causa exclusiva dessa tragédia se repetir em Minas Gerais. Se o presidente da Vale tivesse sido preso pelo desastre de Mariana, esse desastre (Brumadinho) certamente não aconteceria\n[…]\nNo dia 25 de janeiro, quando aconteceu o desastre, a Assembleia Legislativa de Minas Gerais (Almg) emitiu uma nota oficial \"lamentando profundamente o rompimento de barragem de rejeitos da mineradora Vale em Brumadinho\" e que presidência formaria uma comissão de deputados para acompanhar os desdobramentos do desastre. No dia da posse dos deputados estaduais eleitos nas eleições de 2018 houve um minuto de silêncio dedicado às vitimas.\n[…]\nA CPI foi oficialmente criada na Assembleia Legislativa de Minas Gerais em 13 de março de 2019 e, a partir desta data, teve um prazo de 120 dias para ser concluída.\n[…]\nSegundo as investigações realizadas pela polícia civil de Minas Gerais, uma detonação feita na mina no dia da tragédia, a cerca de 1 300 metros da barragem, poderia ter contribuído para o colapso. Uma placa no local indicava que a detonação ocorreria entre 11 e 12 horas do dia 25 de janeiro de 2019, e o colapso ocorreu às 12h28."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Parque Nacional de Yellowstone",
+      "descricao": "Parque nacional dos Estados Unidos, criado em 1872, considerado o primeiro parque nacional do mundo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Considerado o primeiro parque nacional do mundo, Yellowstone foi criado nos Estados Unidos em que século?",
+    "resposta": "Século dezenove (1872)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Yellowstone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+        "situacao": "ok",
+        "texto": "Yellowstone National Park is a national park of the United States located mainly in the northwest corner of the state of Wyoming, with small portions extending into Montana and Idaho. The park is known for its wildlife and its many geothermal features, especially the Old Faithful geyser, one of its most popular. While it represents many types of biomes, subalpine forest is the most abundant. It is\n[…]\nNative Americans have lived in the Yellowstone region for at least 11,000 years. While non-native mountain men visited during the early-to-mid-19th century, organized exploration by non-natives did not begin until the late 1860s. The park was established by the 42nd U.S. Congress through the Yellowstone National Park Protection Act and signed into law by President Ulysses S. Grant on March 1, 1872.\n[…]\nHayden informed the Committee on Public Lands that if Yellowstone were not preserved immediately, \"vandals who are now waiting to enter into this wonder-land, will in a single season despoil, beyond recovery, these remarkable curiosities, which have required all the cunning skill of nature thousands of years to prepare\". On March 1, 1872, President Ulysses S.\n[…]\nNathaniel P. Langford was appointed as Yellowstone's first superintendent in 1872, but Congress denied him salary, funding, or staff; Yellowstone Park was opposed by local mining and logging interests. Langford was unable to make any improvements to the park, but he understood the importance of defending Yellowstone from pollution and poaching and saw its value as a natural attraction, correctly predicting in his first annual report that it would eventually become internationally famous.\n[…]\nOther birds, considered species of special concern because of their rarity in Yellowstone, include the common loon, harlequin duck, osprey, peregrine falcon and the trumpeter swan.\n[…]\nYellowstone articles, photos and videos at National Geographic"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Yellowstone",
+        "situacao": "ok",
+        "texto": "O Parque Nacional de Yellowstone é um parque nacional norte-americano localizado nos estados de Wyoming, Montana e Idaho. É o mais antigo parque nacional no mundo, e um marco na história das áreas protegidas. Foi inaugurado a 1 de março de 1872 e cobre uma área de 8 980 km², estando a maior parte dele no condado de Park, no noroeste do Wyoming.\n[…]\nÉ por esta altura que foi esboçada pela primeira vez a ideia de Yellowstone se tornar um Parque Nacional. Essa ideia pertenceu a Cornelius Hedges, um advogado de Montana.\n[…]\nEm 1871, onze anos após a sua primeira tentativa frustrada, F.V. Hayden conseguiu finalmente condições para explorar a região. Esta expedição, de maiores dimensões, foi patrocinada pelo governo. Hayden elaborou um relatório exaustivo sobre Yellowstone, que incluía fotografias em grande formato elaboradas por William Henry Jackson e pinturas elaboradas por Thomas Moran. Este relatório ajudou a convencer o Congresso dos Estados Unidos a retirar a região da hipótese de leilão público.\n[…]\nEm 1 de Março de 1872, o presidente Ulysses S. Grant promulgou legislativamente a criação do Parque Nacional de Yellowstone.\n[…]\n\"National Park\" Langford, membro das expedições efectuadas em 1870 e 1871, foi designado como o primeiro superintendente do parque, em 1872. Serviu durante cinco anos, embora sem salário, fundos ou pessoal auxiliar. Faltavam-lhe meios para melhorar as condições dos terrenos e para implementar medidas de protecção do parque.\n[…]\nAlguns dos gêiseres mais conhecidos do parque Yellowstone:\n[…]\nYellowstone é considerado o habitat selvagem dos Estados Unidos com maior variedade de megafauna. Alguns dos animais que podem ser encontrados são:\n[…]\nYellowstone é um dos mais populares parques nacionais dos Estados Unidos. O parque é único no que diz respeito à conjugação de múltiplas características naturais.\n[…]\n(em inglês) Yellowstone Net"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Acidente nuclear de Fukushima",
+      "descricao": "Acidente na usina nuclear de Fukushima Daiichi, no Japão, em março de 2011."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2011, a usina nuclear de Fukushima, no Japão, perdeu o resfriamento dos reatores depois de um terremoto seguido de quê?",
+    "resposta": "Um tsunami",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident",
+        "situacao": "ok",
+        "texto": "On 11 March 2011, a major nuclear accident started at the Fukushima Daiichi Nuclear Power Plant in Ōkuma, Fukushima, Japan. The direct cause was the Tōhoku earthquake and tsunami, which resulted in electrical grid failure and damaged nearly all of the power plant's backup energy sources. The subsequent inability to sufficiently cool reactors after shutdown compromised containment and resulted in t\n[…]\nTwo workers were killed by the impact of the tsunami.\n[…]\nPreviously a proponent of building more reactors, Prime Minister Naoto Kan took an increasingly anti-nuclear stance following the accident. In May 2011, he ordered the aging Hamaoka Nuclear Power Plant closed over earthquake and tsunami concerns, and said he would freeze building plans. In July 2011, Kan said, \"Japan should reduce and eventually eliminate its dependence on nuclear energy\".\n[…]\nIn May 2011, UK chief inspector of nuclear installations Mike Weightman traveled to Japan as the lead of an International Atomic Energy Agency (IAEA) expert mission. The main finding of this mission, as reported to the IAEA ministerial conference that month, was that risks associated with tsunamis in several sites in Japan had been underestimated.\n[…]\nA number of nuclear reactor safety system lessons emerged from the incident. The most obvious was that in tsunami-prone areas, a power station's sea wall must be adequately tall and robust. At the Onagawa Nuclear Power Plant, closer to the epicenter of the 11 March 2011 earthquake and tsunami, the sea wall was 14 meters (46 ft) tall and successfully withstood the tsunami, preventing serious damage and radioactivity releases.\n[…]\nTerraFly Timeline Aerial Imagery of Fukushima Nuclear Reactor after 2011 Tsunami and Earthquake\n[…]\n\"Reassessment of Fukushima Nuclear Accident and Outline of Nuclear Safety Reform Plan(Interim Report)\" by TEPCO Nuclear Reform Special Task Force. 14 December 2012"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Fukushima_I",
+        "situacao": "ok",
+        "texto": "Acidente nuclear de Fukushima Daiichi (福島第一原子力発電所事故, Fukushima Dai-ichi  genshiryoku hatsudensho jiko) refere-se a um desastre nuclear que ocorreu na usina homônima na costa nordeste do Japão, que teve três dos seus seis reatores nucleares derretidos por danos causados nos seus sistemas de resfriamento pelo sismo e tsunâmi de Tohoku, o que resultou em explosões por acumulação de hidrogênio criado \n[…]\nNo dia 14 de março de 2011, a usina nuclear de Fukushima Daiichi enfrentou uma explosão devastadora no reator 3, logo após o terremoto e o tsunami que atingiram o Japão. A explosão ocorreu as 11h:01m devido ao acúmulo de hidrogênio dentro do edifício do reator, que foi gerado como resultado das reações nucleares no núcleo do reator. Aqui está uma descrição mais detalhada do evento.\n[…]\nKan assumiu uma postura cada vez mais antinuclear nos meses que se seguiram ao desastre de Fukushima. Em maio, ele ordenou que a antiga Usina Nuclear de Hamaoka fosse fechada devido a temores de terremotos e tsunamis, e disse que congelaria os planos para construir novos reatores. Apesar da queda na popularidade, Kan rejeitou os apelos para renunciar enquanto o país continuava a sofrer com o terremoto, o tsunami e as crises nucleares da primavera de 2011.\n[…]\nEm maio de 2011, ele ordenou o fechamento da antiga Usina Nuclear de Hamaoka devido a preocupações com terremotos e tsunamis, e disse que congelaria os planos de construção. Em julho de 2011, Kan disse: “O Japão deveria reduzir e eventualmente eliminar sua dependência da energia nuclear”.\n[…]\n(4) \"Pray for Japan\" (2012), um documentário dirigido por Stu Levy, que segue a jornada de sobrevivência e recuperação do Japão após o terremoto e tsunami de 2011, incluindo os eventos em torno da usina nuclear de Fukushima Daiichi. (5) “The Days” (2023), uma minissérie japonesa produzida pela Netflix que narra os acontecimentos do ponto de vista de Masao Yoshida.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Proálcool",
+      "descricao": "Programa Nacional do Álcool, lançado pelo governo brasileiro em 1975 para substituir a gasolina por etanol de cana."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Lançado em 1975 pelo governo brasileiro, o Proálcool foi uma resposta a que crise mundial, iniciada dois anos antes?",
+    "resposta": "Crise do petróleo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil",
+      "https://en.wikipedia.org/wiki/1973_oil_crisis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil",
+        "situacao": "ok",
+        "texto": "Brazil is the world's second largest producer of ethanol fuel. Brazil and the United States have led the industrial production of ethanol fuel for several years, together accounting for 85 percent of the world's production in 2017. Brazil produced 26.72 billion liters (7.06 billion U.S. liquid gallons), representing 26.1 percent of the world's total ethanol used as fuel in 2017.\n[…]\nThe National Alcohol Program -Pró-Álcool- (Portuguese: Programa Nacional do Álcool), launched in 1975, was a nationwide program financed by the government to phase out automobile fuels derived from fossil fuels, such as gasoline, in favor of ethanol produced from sugar cane.\n[…]\nSince 2009 the Brazilian ethanol industry has experienced a crisis due to multiple causes. They include the 2008 financial crisis; poor sugarcane harvests due to unfavorable weather; high sugar prices in the world market that made more attractive to produce sugar rather than ethanol; a freeze imposed by the Brazilian government on the petrol and diesel prices. Brazilian ethanol fuel production in 2011 was 21.1 billion liters (5.6 billion U.S.\n[…]\nA 2009 study published in Energy Policy found that the use of ethanol fuel in Brazil has allowed to avoid over 600 million tons of CO2 emissions since 1975, when the Pró-Álcool Program began. The study also concluded that the neutralization of the carbon released due to land-use change was achieved in 1992.\n[…]\nThe use of ethanol-only vehicles has also reduced CO emissions drastically. Before the Pró-Álcool Program started, when gasoline was the only fuel in use, CO emissions were higher than 50 g/km driven; they had been reduced to less than 5.8 g/km in 1995. Several studies have also shown that São Paulo has benefit with significantly less air pollution thanks to ethanol's cleaner emissions.\n[…]\nSugarcane Agroecological Zoning - Brazilian Federal Government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1973_oil_crisis",
+        "situacao": "ok",
+        "texto": "In October 1973, the Organization of Arab Petroleum Exporting Countries (OAPEC) announced that it was implementing a total oil embargo against countries that had supported Israel at any point during the 1973 Yom Kippur War, which began after Egypt and Syria launched a large-scale surprise attack in an ultimately unsuccessful attempt to recover the territories that they had lost to Israel during th\n[…]\nAlthough some members of the Organization of Arab Petroleum Exporting Countries (OAPEC) supported the use of oil as a weapon to influence the political outcome of the Arab–Israeli conflict, Saudi Arabia had traditionally been the strongest supporter of separating oil from politics.\n[…]\nNovember 27 – Nixon signs the Emergency Petroleum Allocation Act authorizing price, production, allocation and marketing controls.\n[…]\nThe oil shock destroyed the economy of South Vietnam. A spokesman for President Nguyễn Văn Thiệu admitted in a TV interview that the government was being \"overwhelmed\" by the inflation caused by the oil shock. An American businessman living in Saigon stated after the oil shock, that attempting to make money in South Vietnam was \"like making love to a corpse\". In December 1973, Vietcong sappers attacked and destroyed the petroleum depot of Nha Be, further depleting fuel sources.\n[…]\nTo help reduce consumption, in 1974 a national maximum speed limit of 55 mph (89 km/h) was imposed through the Emergency Highway Energy Conservation Act. Development of the Strategic Petroleum Reserve began in 1975, and in 1977 the cabinet-level Department of Energy was created, followed by the National Energy Act of 1978.\n[…]\nThe Brazilian government implemented its Proálcool (pro-alcohol) project in 1975 that mixed ethanol with gasoline for automotive fuel.\n[…]\nDorfman, Gerald Allen (1979). Government Versus Trade Unionism in British Politics Since 1968. Stanford: Hoover Press. ISBN 978-0-8179-7243-1."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Etanol_como_combust%C3%ADvel_no_Brasil",
+        "situacao": "ok",
+        "texto": "O Brasil é o segundo maior produtor mundial de etanol combustível e segundo maior exportador mundial. Juntos, Brasil e Estados Unidos lideram a produção industrial de etanol, representando em conjunto 82,4% da produção mundial em 2021.\n[…]\nOs primeiros usos práticos do etanol deram-se entre meados dos anos 1920 e início dos anos 1930. Mas somente nos anos 1970, com a crise do petróleo, o Brasil passou a usar maciçamente o etanol como combustível. Na segunda metade da década de 1980 por diversos motivos ocorreu uma forte retração no consumo de álcool combustível.\n[…]\nO primeiro automóvel produzido em série, equipado com motor a álcool, foi Fiat 147 lançado em 1979.\n[…]\nA dificuldade de importação de combustíveis em decorrência da crise e pela falta de divisas forçou o Brasil a buscar soluções e alternativas, e o etanol combustível foi uma das mais proeminentes. Nos anos que precederam a Segunda Guerra Mundial, ainda no Governo Provisório de Getúlio Vargas em 1931, estabeleceu-se a obrigatoriedade de mistura-se ate 5% de etanol à gasolina (Decreto 19.717) como forma de economizar divisas na importação de combustíveis.\n[…]\nCom a deflagração da Segunda Grande Guerra, o etanol combustível ganhou ainda mais proeminência, mas com o fim do conflito em 1945, e a normalização da produção e do comércio de combustíveis, em especial a gasolina ele viria a perder parte da importância adquirida na década anterior. Foi somente em 1974 com a Crise do Petróleo que o governo militar brasileiro enxergou a necessidade de solucionar o problema do Brasil em relação à importação de combustíveis.\n[…]\nFoi lançado então o programa Pró-álcool que finalmente transformaria a produção de etanol combustível no Brasil em uma das maiores do mundo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Mar de Aral",
+      "descricao": "Grande lago salgado da Ásia Central, entre o Cazaquistão e o Uzbequistão, que encolheu drasticamente a partir dos anos 1960."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A partir dos anos 1960, o mar de Aral, na Ásia Central, encolheu drasticamente porque seus rios foram desviados para irrigar plantações de quê?",
+    "resposta": "Algodão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aral_Sea",
+      "https://pt.wikipedia.org/wiki/Mar_de_Aral"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aral_Sea",
+        "situacao": "ok",
+        "texto": "The Aral Sea was an endorheic salt lake lying between Kazakhstan to its north and Uzbekistan to its south, which began shrinking in the 1960s and had largely dried up into desert by 2007. It was in the Aktobe and Kyzylorda regions of Kazakhstan and the Karakalpakstan autonomous region of Uzbekistan. The name roughly translates from Mongolic and Turkic languages to \"Sea of Islands\", a reference to \n[…]\nThe first phase was ineffectual for a number of reasons, but mainly because it was focused on directly improving the land around the Aral Sea, whilst not intervening in the water usage upstream. There was considerable concern amongst the Central Asian governments, which realised the importance of the Aral Sea in the ecosystem and the economy of Central Asia, and they were prepared to cooperate, but they found it difficult to implement the procedures of the plan.\n[…]\n\"Developing proposals to optimize the management and use of water resources in Central Asia, taking into account environmental factors, effects of climate change to meet the national interests of the Aral Sea basin.\"\n[…]\nOn 15 June 2021 the Central Communications Service of Kazakhstan announced that they plan to plant saxaul trees on one million hectares of the drained bottom of the Aral Sea as part of efforts to stop dust storms on the region. Other efforts include expanding the sea's water level.\n[…]\nThe Interstate Commission for Water Coordination of Central Asia (ICWC) was formed on 18 February 1992 to formally unite Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan in the hopes of solving environmental, as well as socioeconomic problems in the Aral Sea region. The River Basin Organizations (the BVOs) of the Syr Darya and Amu Darya rivers were institutions called upon by the ICWC to help manage water resources. According to the ICWC, the main objectives of the body are:\n[…]\nAral Sea from Space (time lapse)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mar_de_Aral",
+        "situacao": "ok",
+        "texto": "O mar de Aral foi um lago de água salgada, localizado na Ásia Central, entre as províncias de Aqtöbe e Qyzylorda (ao norte), e a região autônoma usbeque de Caracalpaquistão (ao sul). O nome (em português, mar das Ilhas) refere-se à grande quantidade de ilhas presentes em seu leito (mais de 1500).\n[…]\nO governo soviético começou a desviar parte das águas dos rios que alimentavam o mar de Aral, o Amu Dária (ao sul) e o Sir Dária (no nordeste) em 1918. Com o fim da I Guerra Mundial havia a necessidade de aumentar a produção de alimentos, tais como arroz, cereais e melões. Havia também planos de se produzir algodão no deserto próximo ao lago; o algodão sempre valorizado era chamado “ouro branco”.\n[…]\nA quantidade de água retirada dos rios que abasteciam o mar de Aral duplicou entre 1960 e 2000, assim como a produção de algodão. No mesmo período, o Usbequistão tornou-se o 3º maior exportador de algodão do mundo. Como consequência da redução do volume de água, a salinidade do lago quase quintuplicou e matou a maior parte de sua fauna e flora naturais. A próspera indústria pesqueira faliu, assim como as cidades ao longo das margens. Houve desemprego e dificuldades econômicas.\n[…]\nEm torno de 2,7 bilhões de metros cúbicos de água transbordam da barragem de Kokaral para a parte sul do Mar de Aral, todos os anos. No entanto, a evaporação dessa água impede o aumento do nível do sul do lago. A necessidade econômica do rio Amu Dária para irrigação da produção de algodão no Usbequistão tem impedido a realização de projetos para a recuperação do sul do lago. Essa porção é constituída por uma faixa de água no oeste e uma bacia seca no leste.\n[…]\nPlantar cultivares de algodão que necessitem de menos água;\n[…]\nReduzir o número de fazendas de algodão próximas ao lago e afluentes;\n[…]\nAral Sea Foundation"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Represa de Assuã",
+      "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1960, o lago formado pela represa de Assuã, no Egito, obrigou a desmontar e transferir que famosos templos de Ramsés Segundo?",
+    "resposta": "Abu Simbel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abu_Simbel",
+      "https://en.wikipedia.org/wiki/Aswan_Dam"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abu_Simbel",
+        "situacao": "ok",
+        "texto": "Abu Simbel is a historic site comprising two massive rock-cut temples in the village of Abu Simbel (Arabic: أبو سمبل), Aswan Governorate, Upper Egypt, near the border with Sudan. It is located on the western bank of Lake Nasser, about 230 km (140 mi) southwest of Aswan (about 300 km (190 mi) by road). Its latitude of 22° 20′ 13″ N (22.3369 °N) is 1.0978°, which are 122 km (75.8 ml), south of the t\n[…]\nTwo international committees containing archaeologists, architects and engineers provided technical advice to the joint venture, while the Egyptian government interests was represented on site by their own resident engineer who was supported by archaeologists from the Department of Antiquities. By the spring of 1964 approximately 1,000 people were being employed by the project at Abu Simbel.\n[…]\nSpencer, Terence (2 December 1966), \"The Race to Save Abu Simbel Is Won\", Life\n[…]\n\"A salvage operation that inspired the world: Abu Simbel and the World Heritage\". Sarat. 1 October 2018.\n[…]\n\"Abu Simbel: Now or never\", UNESCO Courier: 4–5, October 1961\n[…]\n\"Abu Simbel archeological site\" (Map). Google Maps. Retrieved 20 February 2016.\n[…]\nAbu Simbel at the website of Egypt State Information Service\n[…]\nSalvage of Abu Simbel: estimate of cost. The estimate provided to the  Egyptian government in 1962.\n[…]\nof the first stage of the project for saving Abu Simbel\n[…]\nThe World Saves Abu Simbel. A 29 minute long film produced by UNESCO in 1972 on the relocation of Abu Simbel.\n[…]\nNubian Monuments from Abu Simbel to Philae. A short film produced by UNESCO on Abu Simbel.\n[…]\nEgypte, Nubie, Palestine et Syrie: dessins photographiques recueillis pendant les années 1849, 1850 et 1851 accompagnés d'un texte explicative. The digitized images of the photographs taken by Maxime Du Camp of Abu Simbel which are housed in The Miriam and Ira D. Wallach Division of Art, Prints and Photographs collection of the New York Public Library."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Aswan_Dam",
+        "situacao": "ok",
+        "texto": "The Aswan High Dam, often called simply Aswan Dam, was built between 1960 and 1970 across the Nile in Aswan, Egypt. One of the world's largest embankment dams, it was developed by the Egyptian government with the help of the Soviet Union to control flooding, increase water storage for irrigation, and generate hydroelectricity. The dam was seen as pivotal to the country's industrialization plans.\n[…]\nIn the 1950s, archaeologists began raising concerns that several major historical sites, including the famous temple of Abu Simbel were about to be submerged by waters collected behind the dam. A rescue operation began in 1960 under UNESCO (for details see below under Effects).\n[…]\n1960: Start of construction on 9 January\n[…]\nAll High Dam power facilities were completed ahead of schedule. Twelve turbines were installed and tested, giving the plant an installed capacity of 2,100 megawatts (MW), or more than twice the national total in 1960. With this capacity, the Aswan plant can produce 10 billion kWh of energy yearly. Two 500-kilovolt trunk lines to Cairo have been completed, and initial transmission problems, stemming mainly from poor insulators, were solved.\n[…]\nAlso, the damage inflicted on a main transformer station in 1968 by Israeli commandos has been repaired, and the Aswan plant is fully integrated with the power network in Lower Egypt. By a 1971 estimation, power output at Aswan would not reach much more than half of the plant's theoretical capacity, because of limited water supplies and the differing seasonal water-use patterns for irrigation and power production.\n[…]\nTwenty-two monuments and architectural complexes  that were threatened by flooding from Lake Nasser, including the Abu Simbel temples, were preserved by moving them to the shores of the lake under the UNESCO Nubia Campaign. Also moved were Philae, Kalabsha and Amada.\n[…]\nThe temple of Ramses II at Aksha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abul-Simbel",
+        "situacao": "ok",
+        "texto": "Os templos de Abul-Simbel são dois enormes templos esculpidos na rocha em Abu Simbel (em árabe: أبو سمبل), uma vila na província de Assuão, Alto Egito, perto da fronteira com o Sudão. Eles estão situados na margem oeste do Lago Nasser, cerca de 230 km sudoeste de Assuão (cerca de 300 km de carro). O complexo faz parte do Patrimônio Mundial da UNESCO conhecido como \"Monumentos Núbios\", que vão de A\n[…]\nOs templos mais proeminentes são os templos talhados na rocha perto da moderna vila de Abu Simbel, na Segunda Catarata do Nilo, a fronteira entre a Baixa Núbia e a Alta Núbia. Existem dois templos, o Grande Templo, dedicado ao próprio Ramessés II, e o Pequeno Templo, dedicado à sua esposa principal, a Rainha Nefertari.\n[…]\nA recuperação dos templos de Abul-Simbel começou em 1964 por uma equipe multinacional de arqueólogos, engenheiros e operadores de equipamentos pesados qualificados trabalhando juntos sob a bandeira da UNESCO; custava cerca de 40 milhões de dólares na época (equivalente a 300 milhões em dólares de 2017).\n[…]\nO Grande Templo de Abul-Simbel, que levou cerca de vinte anos para ser construído, foi concluído por volta do ano 24 do reinado de Ramessés (que corresponde a 1265 a.C.). Foi dedicado aos deuses Ámon, Rá-Horaqueti e Ptá, bem como ao próprio Ramessés deificado. É geralmente considerado o mais grandioso e mais belo dos templos encomendados durante o reinado de Ramessés II e um dos mais belos do Egito.\n[…]\nNotavelmente, este é um dos poucos exemplos na arte egípcia em que as estátuas do rei e de sua consorte têm o mesmo tamanho. Tradicionalmente, as estátuas das rainhas ficavam próximas às do faraó, mas nunca eram mais altas do que seus joelhos. Ramessés foi para Abul-Simbel com sua esposa no 24º ano de seu reinado. Como o Grande Templo do rei, existem pequenas estátuas de príncipes e princesas ao lado de seus pais.\n[…]\n«Fotografias de Abul-Simbel, por M. Sullivan» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Célula a combustível",
+      "descricao": "Dispositivo que gera eletricidade a partir da reação química entre um combustível, como o hidrogênio, e o oxigênio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nas naves Apollo, as células a combustível que geravam eletricidade tinham um subproduto aproveitado pelos astronautas para beber. Qual era?",
+    "resposta": "Água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_command_and_service_module",
+      "https://en.wikipedia.org/wiki/Fuel_cell"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Apollo_command_and_service_module",
+        "situacao": "ok",
+        "texto": "The Apollo command and service module (CSM) was one of two principal components of the United States Apollo spacecraft, used for the Apollo program, which landed 12 astronauts on the Moon between 1969 and 1972. The CSM functioned as a mother ship, which carried a crew of three astronauts and the second Apollo spacecraft, the Apollo Lunar Module, to lunar orbit, and brought the astronauts back to E\n[…]\nNineteen CSMs were launched into space. Of these, nine flew humans to the Moon between 1968 and 1972, and another two performed crewed test flights in low Earth orbit, all as part of the Apollo program. Before these, another four CSMs had flown as uncrewed Apollo tests, of which two were suborbital flights and another two were orbital flights. Following the conclusion of the Apollo program and during 1973–1974, three CSMs ferried astronauts to the orbital Skylab space station.\n[…]\nThe Block II used a one-piece, quick-release, outward opening hatch instead of the two-piece plug hatch used on Block I, in which the inner piece had to be unbolted and placed inside the cabin in order to enter or exit the spacecraft (a flaw that doomed the Apollo 1 crew). The Block II hatch could be opened quickly in case of an emergency.\n[…]\nOn the Apollo 6 uncrewed Block I flight, the SM was white because of cork insulation (painted white) that was applied over the aluminum outer facesheet. They were doing tests with different materials for heat and that is why they applied the cork insulation. The cork was the thermal protection. The white paint was the optical-properties layer over the cork.\n[…]\nApollo 6's mission profile required a deliberate ~6-hour cold-soak before entry to thermally stress the Block II heat shield design, which means SM-014 specifically needed good radiative coupling. The SM walls were left unpainted except for the EPS and ECS radiators, which were white.\n[…]\nApollo Lunar Module"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fuel_cell",
+        "situacao": "ok",
+        "texto": "A fuel cell is an electrochemical cell that converts the chemical energy of a fuel (often hydrogen) and an oxidizing agent (often oxygen) into electricity through a pair of redox reactions. Fuel cells are different from most batteries in requiring a continuous source of fuel and oxygen (usually from air) to sustain the chemical reaction, whereas in a battery the chemical energy usually comes from \n[…]\nProfessor Jeremy P. Meyers, in the Electrochemical Society journal Interface in 2008, wrote, \"While fuel cells are efficient relative to combustion engines, they are not as efficient as batteries, primarily due to the inefficiency of the oxygen reduction reaction (and ... the oxygen evolution reaction, should the hydrogen be formed by electrolysis of water). ... [T]hey make the most sense for operation disconnected from the grid, or when fuel can be provided continuously.\n[…]\nBecause fuel cells have no moving parts and do not involve combustion, in ideal conditions they can achieve up to 99.9999% reliability. This equates to less than one minute of downtime in a six-year period.\n[…]\nFuel cells are also much cleaner than traditional power generation; a fuel cell power plant using natural gas as a hydrogen source would create less than one ounce of pollution (other than CO2) for every 1,000 kW·h produced, compared to 25 pounds of pollutants generated by conventional combustion systems. Fuel Cells also produce 97% less nitrogen oxide emissions than conventional coal-fired power plants.\n[…]\nIn a 2017 Well-to-Wheels simulation analysis that \"did not address the economics and market constraints\", General Motors and its partners estimated that, for an equivalent journey, a fuel cell electric vehicle running on compressed gaseous hydrogen produced from natural gas could use about 40% less energy and emit 45% less greenhouse gasses than an internal combustion vehicle."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%B3dulo_de_Comando_e_Servi%C3%A7o_Apollo",
+        "situacao": "ok",
+        "texto": "Módulo de Comando e Serviço Apollo foi uma das partes da nave usada no Projeto Apollo (a outra parte era o Módulo Lunar Apollo). Ele era formado de duas partes: Módulo de Comando e Módulo de Serviço. Ambos atuam sempre em conjunto, desconectando-se apenas na reentrada na atmosfera terrestre.\n[…]\nO Módulo de Comando era o centro de controle da nave Apollo e o espaço para manter os astronautas da Apollo durante as missões. Ele continha a cabine principal pressurizada, as poltronas da tripulação, o painel de instrumentos e controle, os sistemas de direção eletrônica e ótica, sistemas de comunicações, sistema de controle de ambiente, baterias, escudo térmico, sistema de controle de reação, dispositivo de acoplamento, cinco janelas e o sistema de paraquedas.\n[…]\nO Módulo de Serviço era a parte da espaçonave que não era pressurizada e continha as células de combustível, baterias, antena de alto ganho, radiadores, água, oxigênio, hidrogênio, sistema de controle de reação, propelente para abandonar a órbita lunar, e sistema de propulsão de serviço. Nas missões Apollo 15, Apollo 16 e Apollo 17 ele também carregou um pacote de instrumentos científicos, câmera de mapeamento e um pequeno sub-satélite para estudar a Lua.\n[…]\nO Módulo de Comando e Serviço Apollo foi projetado e fabricado pela \"North American Aviation\", uma empresa fabricante de aviões dos Estados Unidos, e que anteriormente já havia fabricado alguns aviões experimentais para a Nasa.\n[…]\n(Essas duas naves orbitais da Terra eram mais leves do que a nave que mais tarde foi para a Lua, pois carregavam propelente em apenas um conjunto de tanques e não carregavam a antena de banda S de alto ganho.) Nas especificações fornecidas abaixo, a menos que observado de outra forma, todos os pesos dados são para a espaçonave do Bloco II.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Usina Hidrelétrica de Itaipu",
+      "descricao": "Usina hidrelétrica binacional do Brasil e do Paraguai, construída no rio Paraná."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A usina de Itaipu herdou o nome indígena de uma ilha do rio Paraná. O que significa Itaipu?",
+    "resposta": "A pedra que canta",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Itaipu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Itaipu",
+        "situacao": "ok",
+        "texto": "Usina Hidrelétrica de Itaipu (em castelhano:  Itaipú, em guarani:  Itaipu) é uma hidrelétrica binacional localizada no Rio Paraná, na fronteira entre o Brasil e o Paraguai. A barragem foi construída pelos dois países entre 1975 e 1982. O nome Itaipu foi tirado de uma ilha que existia perto do local de construção. Na língua tupi, o termo significa \"pedra na qual a água faz barulho\", através da junç\n[…]\nItaipu é uma palavra de origem tupi-guarani que significa \"pedra que canta\", através da junção de itá = pedra e ipo'ú = cantora, ou então \"pedra na qual a água faz barulho\", através da junção de itá (pedra), y (água, rio), e pu (barulho). Era o nome da pequena ilha que havia no atual local da usina, antes da obra.\n[…]\nAs primeiras pesquisas de campo para a elaboração do projeto foram feitas em pequenas balsas por técnicos brasileiros e paraguaios. O local escolhido para a construção foi um ponto do rio conhecido como Itaipu, que em tupi quer dizer \"a pedra que canta\". As dimensões do projeto também foram traçadas desde o início: a área da hidrelétrica vai de Foz do Iguaçu, no Brasil, e Ciudad del Este, no sul do Paraguai, até Guaíra e Salto del Guairá, no norte deste país.\n[…]\nEntretanto, caso houvesse o rompimento da represa de Itaipu, na verdade boa parte da água seria absorvida pela profunda calha do Rio Paraná poucos quilômetros depois da barragem e a Argentina ainda estaria protegida pela represa da Usina de Yacyretá, localizada 400 km abaixo de Itaipu.\n[…]\nSegundo um relatório produzido ao longo de três anos pela Procuradoria Geral da República, a construção da usina hidrelétrica gerou graves violações de direitos dos povos indígenas, com adulteração de procedimentos para subestimar o número de índios que habitavam a região. Para criar o lago artificial, por exemplo, a obra inundou cerca de 135 mil hectares e transferiu 40 mil pessoas entre índios e não índios no Paraná."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Represa Hoover",
+      "descricao": "Barragem de concreto no rio Colorado, na divisa entre Nevada e Arizona, construída nos anos 1930."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Entre 1933 e 1947, a represa Hoover, no rio Colorado, foi chamada por outro nome, tirado de um cânion vizinho. Qual?",
+    "resposta": "Boulder",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hoover_Dam"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hoover_Dam",
+        "situacao": "ok",
+        "texto": "The Hoover Dam is a concrete arch–gravity dam in the Black Canyon of the Colorado River, on the boundary between the U.S. states of Nevada and Arizona. Constructed between 1931 and 1936, during the Great Depression, it was dedicated on September 30, 1935, by President Franklin D. Roosevelt. Its construction was the result of a massive effort involving thousands of workers, and cost over 96 lives.\n[…]\nBills passed by Congress during its construction referred to it as Hoover Dam (after President Herbert Hoover), but the Roosevelt administration named it Boulder Dam. In 1947, Congress reinstated the name Hoover Dam.\n[…]\nTo mark the occasion, a three-cent stamp was issued by the United States Post Office Department—bearing the name \"Boulder Dam\", the official name of the dam between 1933 and 1947. After the ceremony, Roosevelt made the first visit by any American president to Las Vegas.\n[…]\nThe BCPA merely allows the government to \"construct, operate, and maintain a dam and incidental works in the main stream of the Colorado River at Black Canyon or Boulder Canyon\".\n[…]\nAfter Hoover's election defeat in 1932 and the accession of the Roosevelt administration, Secretary Ickes ordered on May 13, 1933, that the dam be referred to as Boulder Dam. Ickes stated that Wilbur had been imprudent in naming the dam after a sitting president, that Congress had never ratified his choice, and that it had long been referred to as Boulder Dam.\n[…]\nIn the following years, the name \"Boulder Dam\" failed to fully take hold, with many Americans using both names interchangeably and mapmakers divided as to which name should be printed. Memories of the Great Depression faded, and Hoover to some extent rehabilitated himself through good works during and after World War II.\n[…]\nThe short film \"Boulder Dam\" is available for free viewing and download at the Internet Archive.\n[…]\nBoulder City/Hoover Dam Museum official site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Represa_Hoover",
+        "situacao": "ok",
+        "texto": "A Barragem Hoover ou Represa Hoover (em inglês: Hoover Dam) é uma represa localizada entre os estados de Nevada e Arizona, nos Estados Unidos, no rio Colorado. A represa, localizada a 48 km de Las Vegas, foi nomeada em homenagem a Herbert Hoover, o 31.º Presidente dos Estados Unidos, que foi muito importante no processo de construção da represa.\n[…]\nA albufeira (ou \"açude\" em português brasileiro) que funciona como reservatório é o Lago Mead, que presta uma homenagem a Elwood Mead. A Barragem de Hoover é considerada o maior projeto dos Estados Unidos da América.\n[…]\nA represa foi designada, em 8 de abril de 1981, uma estrutura do Registro Nacional de Lugares Históricos bem como, em 20 de agosto de 1985, um Marco Histórico Nacional.\n[…]\nA cidade de Boulder City foi construída pelo Gabinete de Reclamações dos EUA para abrigar os trabalhadores que auxiliavam na construção da represa. Uma lembrança dos tempos da construção da represa é a proibição dos jogos de azar no território da cidade, sendo que somente Panaca também proíbe o jogo no estado de Nevada. Outra lei que havia na cidade era a proibição das bebidas alcoólicas, derrubada em 1969.\n[…]\nA construção foi iniciada em 20 de abril de 1931 e terminada em 1 de março de 1936, dois anos antes do prazo estipulado, custou 48 milhões de dólares, aproximadamente 676 milhões de dólares atuais (devido à inflação) e morreram 96 pessoas durante todo o processo. A represa mede 221,4 m de altura, 379,2 m de largura, 200 m de espessura na base e 15 m no topo. Sua capacidade instalada de produção é de 2 078 MW.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Projeto Tamar",
+      "descricao": "Projeto brasileiro de conservação das tartarugas marinhas, criado em 1980."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Projeto Tamar, criado em 1980 no litoral brasileiro, junta as primeiras sílabas de que duas palavras?",
+    "resposta": "Tartaruga marinha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Projeto_Tamar"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Projeto_Tamar",
+        "situacao": "ok",
+        "texto": "A Fundação Projeto Tamar é um projeto conservacionista brasileiro que atua na preservação das tartarugas-marinhas ameaçadas de extinção. É uma entidade de direito privado, sem fins lucrativos e fica sediado na Praia do Forte, no município de Mata de São João, no interior do estado da Bahia.\n[…]\nO nome TAMAR é uma contração das palavras tartaruga e marinha, necessária, no início da década de 1980, para a confecção das pequenas placas de metal utilizadas para a identificação dos espécimes pelo projeto, para estudos de biometria, monitoramento das rotas migratórias e outros.\n[…]\nA ideia da Fundação Projeto Tamar surgiu na década de 1970 por meio de um grupo de estudantes de oceanografia que viajavam para praias desertas para realizar pesquisas. Naquela época, no Atol das Rocas, os pesquisadores documentaram pescadores matando tartarugas-marinhas. Fotos e alguns relatórios foram enviados às autoridades, que estavam querendo iniciar um programa de conservação marinha dando início ao programa que se desdobrou no Projeto Tamar, fundado no ano de 1980.\n[…]\nO Tamar surgiu com um objetivo de proteger tartarugas-marinhas que estão ameaçadas de extinção no litoral brasileiro. Com o tempo, porém, percebeu-se que os trabalhos não poderiam ficar restritos às tartarugas, pois uma das chaves para o sucesso desta missão seria o apoio ao desenvolvimento das comunidades costeiras, de forma a oferecer alternativas econômicas que amenizassem a questão social, diminuindo assim a caça das tartarugas-marinhas para a sua sobrevivência.\n[…]\nO Tamar também protege tubarões e outras espécies de vida marinha.\n[…]\nApós 35 anos de trabalho, o TAMAR devolveu ao mar mais de 25 milhões de filhotes de tartarugas marinhas.\n[…]\nAtualmente, há 22 bases do projeto pelo litoral do nordeste, sudeste, e sul."
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Hipótese de Gaia",
+      "descricao": "Hipótese proposta por James Lovelock nos anos 1970, segundo a qual a Terra funciona como um sistema que se autorregula."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que escritor britânico, autor de O Senhor das Moscas, sugeriu a James Lovelock o nome Gaia para sua hipótese sobre a Terra?",
+    "resposta": "William Golding",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gaia_hypothesis",
+      "https://en.wikipedia.org/wiki/James_Lovelock"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gaia_hypothesis",
+        "situacao": "ok",
+        "texto": "The Gaia hypothesis (), also known as the Gaia theory, Gaia paradigm, or the Gaia principle, proposes that living organisms interact with their inorganic surroundings on Earth to form a synergistic and self-regulating complex system that helps to maintain and perpetuate the conditions for life on the planet.\n[…]\nThe Gaia hypothesis was formulated by the chemist James Lovelock and co-developed by the microbiologist Lynn Margulis in the 1970s. Following the suggestion by his neighbour, novelist William Golding, Lovelock named the hypothesis after Gaia, the primordial deity who was sometimes personified as the Earth in Greek mythology. In 2006, the Geological Society of London awarded Lovelock the Wollaston Medal in part for his work on the Gaia hypothesis.\n[…]\nThe idea of the Earth as an integrated whole, a living being, has a long tradition. The mythical Gaia was the primal Greek goddess personifying the Earth, the Greek version of \"Mother Nature\" (from Ge = Earth, and Aia = PIE grandmother), or the Earth Mother. James Lovelock gave this name to his hypothesis after a suggestion from the novelist William Golding, who was living in the same village as Lovelock at the time (Bowerchalke, Wiltshire, UK).\n[…]\nIn 1985, the first public symposium on the Gaia hypothesis, Is The Earth a Living Organism? was held at University of Massachusetts Amherst, August 1–6. The principal sponsor was the National Audubon Society. Speakers included James Lovelock, Lynn Margulis, George Wald, Mary Catherine Bateson, Lewis Thomas, Thomas Berry, David Abram, John Todd, Donald Michael, Christopher Bird, Michael Cohen, and William Fields. Some 500 people attended.\n[…]\nInterview: Jasper Gerard meets James Lovelock\n[…]\nClips of interview with James Lovelock from 2010 at the Wayback Machine (archived 3 March 2016)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/James_Lovelock",
+        "situacao": "ok",
+        "texto": "James Ephraim Lovelock (26 July 1919 – 26 July 2022) was an English independent scientist, environmentalist and futurist. He is best known for proposing the Gaia hypothesis, which postulates that the Earth functions as a self-regulating system.\n[…]\nIn 1988 he made an extended appearance on the Channel 4 television programme After Dark, alongside Heathcote Williams and Petra Kelly, among others.\n[…]\nNamed after the Greek goddess Gaia at the suggestion of novelist William Golding, the hypothesis postulates that the biosphere has a regulatory effect on the Earth's environment that acts to sustain life.\n[…]\nEFN website reviewed and approved by Lovelock\n[…]\nJames Lovelock collected news and commentary at The Guardian\n[…]\nJames Lovelock on the History of Modern Biomedicine Research Group website\n[…]\nJames Lovelock at IMDb\n[…]\nPortraits of James Lovelock at the National Portrait Gallery, London\n[…]\nJames Lovelock – Scientist Deprecated link archived 9 February 2013 at archive.today, Christopher Sykes, Web of Stories, 2001\n[…]\nReflections on meeting James Lovelock at the Wayback Machine (archived 7 March 2006), Creel Commission, 2005\n[…]\nForum: James Lovelock and \"The Revenge of Gaia\" at the Wayback Machine (archived 16 June 2008), Michael Krasny, KQED, 2006\n[…]\nThe Prophet of Climate Change: James Lovelock at the Wayback Machine (archived 7 November 2009), Jeff Goodell, Rolling Stone, 2007\n[…]\nProfile of James Lovelock at the Wayback Machine (archived 25 January 2008), David Cayley, Ideas, 2008\n[…]\nDr. James Lovelock Lecture at the Wayback Machine (archived 29 June 2011), Corporate Knights, 2009\n[…]\nJames Lovelock, The Forum, 2009\n[…]\nLife story interview with James Lovelock at the Wayback Machine (archived 30 July 2012), Paul Merchant, Oral History of British Science, 2010"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hip%C3%B3tese_de_Gaia",
+        "situacao": "ok",
+        "texto": "A hipótese de Gaia, também denominada hipótese biogeoquímica, é uma hipótese da ecologia profunda que propõe que a biosfera e os componentes físicos da Terra (atmosfera, criosfera, hidrosfera e litosfera) são intimamente integrados de modo a formar um complexo sistema interagente que mantém as condições climáticas e biogeoquímicas preferivelmente em homeostase.\n[…]\nOriginalmente proposta pelo investigador britânico James E. Lovelock em 1972 como \"Hipótese de resposta da Terra\", ela foi renomeada conforme sugestão de seu colega, William Golding, como Hipótese de Gaia, em referência à mitológica titã que personificava a Terra: Gaia. A hipótese é frequentemente descrita como a Terra sendo um único organismo vivo, mas é uma definição inexata.\n[…]\nO batismo da hipótese com o nome de uma deusa grega — uma sugestão de seu amigo, o escritor William Golding — junto com outras opiniões heterodoxas de Lovelock, só fizeram aumentar a confusão e a rejeição de toda a hipótese pelos cientistas alinhados ao darwinismo, embora ela fosse abraçada com entusiasmo pelos ambientalistas da época.\n[…]\n\"Mesmo na ilustre história da mais antiga medalha da Sociedade, concedida pela primeira vez a William Smith em 1831, é raro que se possa dizer que o recipiente abriu todo um novo campo no estudo nas Ciências da Terra. Mas este é o caso do vencedor deste ano, James Lovelock. Em sua longa e distinta carreira na ciência, o que não faltam são premiações.\n[…]\n[...] Mas Lovelock ganhou uma proeminência realmente alta com um conceito que capturou a imaginação tanto dos cientistas da Terra e dos biólogos como do público leigo — o conceito pelo qual os geólogos o homenageiam hoje — a Hipótese e Teoria de Gaia.\n[…]\nHipótese de Medeia\n[…]\nMãe Terra\n[…]\nLovelock, James. Gaia - Cura para um Planeta Doente. 1ª Edição, Brasil, Editora Cultrix, 2006, 192 pág., ISBN 85-316-0946-1.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Toyota Prius",
+      "descricao": "Automóvel híbrido da Toyota lançado no Japão em 1997."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Toyota Prius, lançado em 1997 como pioneiro dos carros híbridos em série, vem de uma palavra latina que significa o quê?",
+    "resposta": "Antes (o que vem antes)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toyota_Prius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toyota_Prius",
+        "situacao": "ok",
+        "texto": "The Toyota Prius ( PREE-əss) (Japanese: トヨタ・プリウス, Hepburn: Toyota Puriusu) is a car produced by Toyota since 1997 over five generations. The Prius has a hybrid drivetrain, called Hybrid Synergy Drive, which combines an internal combustion engine and an electric motor. Initially offered as a subcompact four-door saloon, it has been produced only as a compact five-door liftback since 2003.\n[…]\nThe Prius was developed by Toyota to be the \"car for the 21st century\"; it was the first mass-produced hybrid vehicle, first going on sale in Japan in 1997 at all four Toyota Japan dealership chains, and subsequently introduced worldwide in 2000.\n[…]\nThe Prius family totaled global cumulative sales of 6.1 million units in January 2017, representing 61% of the 10 million hybrids sold worldwide by Toyota since 1997. Toyota sells the Prius in over 90 markets, with Japan and the United States being its largest markets.\n[…]\nIn 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show, with testing following a year later. The first Prius, model NHW10, went on sale on 10 December 1997. The first-generation Prius (NHW10) was available only in Japan.\n[…]\nThe Prius c is not available in Europe, where instead, Toyota is selling the Toyota Yaris Hybrid since June 2012. The Prius c and the Yaris Hybrid share the same powertrain.\n[…]\nSome conservatives promote the use of the Toyota Prius and other hybrid cars. For example, Jim Road from What Would Jesus Drive? encouraged people to drive hybrid cars because of the damage that large SUVs and faster cars can do to others.\n[…]\nThe Philippine National Police is one of the agency beneficiaries of the Toyota Prius (2017 model) hybrid cars donated by the Department of Energy (DOE) through the Japan’s Non-Project Grant Aid (NPGA) as part of the DOE’s campaign to promote energy efficiency and clean air across the country.\n[…]\nToyota Prius Japanese website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Toyota_Prius",
+        "situacao": "ok",
+        "texto": "O Toyota Prius é um automóvel híbrido compacto da Toyota movido a gasolina e electricidade. O Prius virou o ícone dos automóveis híbridos e dos carros verdes em geral. Segundo a certificação da Agência de Proteção Ambiental dos Estados Unidos (EPA), o Prius 2010 é o automóvel disponível no mercado com a maior economia de combustível dos Estados Unidos.\n[…]\nA primeira geração do Toyota Prius foi lançada no mercado japonês em 1997 e foi o primeiro produzido em série. Em 2001 foi lançado em outros mercados a nível mundial. A segunda geração do Prius foi lançada em 2004 e a terceira em 2009. A quarta geração do Prius convencional foi lançada no mercado japonês em dezembro de 2015, e na Europa e na América do Norte ao início de 2016.\n[…]\nEm abril de 2016, o Prius convencional é o automóvel híbrido de maior venda no mundo com um total de 3,73 milhões de unidades vendidas. A família Prius atingiu vendas globais de 5,7 milhões em abril de 2016, representando 63% dos 9 milhões de veículos híbrido vendidos pela Toyota desde 1997.\n[…]\nEm 2011 a Toyota anunciou o lançamento de um conjunto de veículos derivados do Prius, chamada de família Prii. O termo Prii foi escolhido em fevereiro de 2011 pela Toyota como o plural de Prius na língua latim, e foi selecionado a través de votação do público. Prius é uma palavra do latim que significa \"antes\". Segundo a Toyota, esse nome foi escolhido porque o Prius foi lançado antes da consciência ambiental se converter num conceito aceito pela maioría da sociedade.\n[…]\nA Toyota explicou que, além da falta de incentivos fiscais, o atraso na entrada no mercado brasileiro foi devido à exigência do aperfeiçoamento tecnológico do Prius para que possa rodar nas ruas brasileiras com álcool em seu tanque. Foi necessário adaptar a engenharia do híbrido para a mistura de 25% de etanol usada na gasolina brasileira.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Usina Hidrelétrica de Itaipu",
+      "descricao": "Usina hidrelétrica binacional do Brasil e do Paraguai, construída no rio Paraná."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em Itaipu, metade dos geradores trabalha em cinquenta hertz, o padrão do Paraguai. A outra metade, no padrão brasileiro, opera em quantos hertz?",
+    "resposta": "Sessenta hertz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Itaipu_Dam",
+      "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Itaipu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Itaipu_Dam",
+        "situacao": "ok",
+        "texto": "The Itaipu Dam (Guarani: Yjoko Itaipu [itajˈpu]; Portuguese: Barragem de Itaipu [itajˈpu]; Spanish: Represa de Itaipú [itajˈpu]) is a hydroelectric dam on the Paraná River located on the border between Brazil and Paraguay. It is the third-largest hydroelectric dam in the world in terms of produced energy.\n[…]\nIn 1970, the consortium formed by the companies ELC Electroconsult S.p.A. (from Italy) and IECO (from the United States)  won the international competition for the realization of the viability studies and for the elaboration of the construction project. Design studies began in February 1971. On April 26, 1973, Brazil and Paraguay signed the Itaipu Treaty, the legal instrument for the hydroelectric exploitation of the Paraná River by the two countries.\n[…]\nOn May 17, 1974, the Itaipu Binacional entity was created to administer the plant's construction. The construction began in January of the following year. Brazil's (and Latin America's) first electric car was introduced in late 1974; it received the name Itaipu in honor of the project.\n[…]\nOn November 10, 2009, transmission from the plant was completely disrupted, possibly due to a storm damaging up to three high-voltage transmission lines. Itaipu itself was not damaged. This caused massive power outages in Brazil and Paraguay, blacking out the entire country of Paraguay for 15 minutes, and plunging Rio de Janeiro and São Paulo into darkness for more than 2 hours. 50 million people were reportedly affected. The blackout occurred at 22:13 local time.\n[…]\nItaipu is one of the most expensive objects ever built.\n[…]\nItaipu Company Site (in Portuguese, English, and Spanish)\n[…]\nThe Itaipu Transmission System[link removed]\n[…]\nPanoramic – Itaipu Binacional – Foz do Iguaçu – Brazil Archived 2019-06-28 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Itaipu",
+        "situacao": "ok",
+        "texto": "Usina Hidrelétrica de Itaipu (em castelhano:  Itaipú, em guarani:  Itaipu) é uma hidrelétrica binacional localizada no Rio Paraná, na fronteira entre o Brasil e o Paraguai. A barragem foi construída pelos dois países entre 1975 e 1982. O nome Itaipu foi tirado de uma ilha que existia perto do local de construção. Na língua tupi, o termo significa \"pedra na qual a água faz barulho\", através da junç\n[…]\nEm 1970, o consórcio formado pelas empresas PNC e ELC Electroconsult (da Itália) venceu a concorrência internacional para a realização dos estudos de viabilidade e para a elaboração do projeto da obra. O início do trabalho se deu em fevereiro de 1971. Em 26 de abril de 1973, Brasil e Paraguai assinaram o Tratado de Itaipu, instrumento legal para o aproveitamento hidrelétrico do Rio Paraná pelos dois países.\n[…]\nA Itaipu Binacional é uma entidade binacional pertencente à República Federativa do Brasil e à República do Paraguai. Foi constituída pelo Tratado de Itaipu para a operação da usina hidrelétrica. Seu aspecto de empresa jurídica de direito privado binacional deve-se às ordens jurídicas de ambos os países às quais está submetida.\n[…]\nEm 32 anos de operação, a Itaipu Binacional é líder mundial em produção de energia limpa e renovável, tendo produzido mais de 2,5 bilhões de MWh. Com 20 unidades geradoras e 14 mil MW de potência instalada, fornece cerca de 17% da energia consumida no Brasil e 75% no Paraguai. Sua maior produção anual foi estabelecida em 2016, com 103 068 366 de MWh. O recorde anterior ocorreu em 2013, com a geração de 98 630 035 de MWh.\n[…]\nO sistema de transmissão de Itaipu conecta as três subestações situadas dentro da Central Hidrelétrica (duas subestações isoladas a gás, uma de 50 Hz e outra de 60 Hz, instaladas dentro da Casa de Máquinas, e uma convencional de 50 Hz na Margem Direita) com os Sistemas Interconectados paraguaio e brasileiro.\n[…]\nTratado de Itaipu"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Acordo de Paris",
+      "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O Acordo de Paris, de 2015, tem como meta manter o aquecimento global bem abaixo de quantos graus acima da era pré-industrial?",
+    "resposta": "Dois graus Celsius",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paris_Agreement"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paris_Agreement",
+        "situacao": "ok",
+        "texto": "The Paris Agreement (also called the Paris Accords or Paris Climate Accords) is an international treaty on climate change that was signed in 2016. The treaty covers climate change mitigation, adaptation, and finance. The Paris Agreement was negotiated by 196 parties at the 2015 United Nations Climate Change Conference near Paris, France. As of January 2026, 194 members of the United Nations Framew\n[…]\nThe Paris Agreement has a long-term temperature goal which is to keep the rise in global surface temperature to well below 2 °C (3.6 °F) above pre-industrial levels. The treaty also states that preferably the limit of the increase should only be 1.5 °C (2.7 °F). These limits are defined as averages of the global temperature measured over twenty years.\n[…]\nRecent work – on the basis of the first single calendar year in 2024 with an average temperature above 1.5 degrees Celsius – indicates that most probably Earth has already entered the 20-year period that will reach an average warming of 1.5 degrees Celsius. Furthermore, it has been suggested that the global mean temperature may have already passed the 1.5 degrees Celsius level in 2024.\n[…]\nIn May 2021, the district court of The Hague ruled against oil company Royal Dutch Shell in Milieudefensie et al v Royal Dutch Shell. The court ruled that it must cut its global emissions by 45% from 2019 levels by 2030, as it was in violation of human rights. This lawsuit was considered the first major application of the Paris Agreement towards a corporation.\n[…]\nThe Paris Agreement required countries to pursue efforts to \"limit the temperature increase to 1.5°C above pre-industrial levels\", but did not give a precise definition for the temperature increase. In a 2018 special report titled \"Global Warming of 1.5°C\", the IPCC provided that standard:\n[…]\nText of the Paris Agreement"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acordo_de_Paris_%282015%29",
+        "situacao": "ok",
+        "texto": "O Acordo de Paris (em francês:  Accord de Paris), muitas vezes referido como os Acordos de Paris ou os Acordos Climáticos de Paris, é um tratado internacional sobre mudanças climáticas, adotado em 2015. Abrange mitigação, adaptação e financiamento ao mitigamento das mudanças climáticas. O Acordo foi negociado por 196 partes na Conferência das Nações Unidas sobre Mudanças Climáticas de 2015, nas pr\n[…]\nA meta de temperatura de longo prazo do Acordo de Paris é manter o aumento da temperatura média global bem abaixo de dois graus celsius acima dos níveis pré-industriais e, de preferência, limitar o aumento a 1,5 graus, reconhecendo que isso reduziria substancialmente os efeitos das mudanças climáticas. As emissões devem ser reduzidas o mais rápido possível e chegar a neutralidade em algum momento perto final do século XXI.\n[…]\nPara ficar abaixo de 1,5 °C de aquecimento global, as emissões precisam ser cortadas em cerca de 50% até 2030.\n[…]\nNeste consenso, os membros prometeram reduzir sua produção de carbono \"o mais rápido possível\" e fazer o possível para manter o aquecimento global \"bem abaixo de 2 graus Celsius\".\n[…]\nO objetivo do acordo, conforme descrito no Artigo 2, é ter uma resposta mais forte ao perigo das mudanças climáticas; para se obter essa resposta, ele busca melhorar a implementação da Convenção-Quadro das Nações Unidas sobre Mudança do Clima por meio de:(a) Manter o aumento da temperatura global bem abaixo de 2°C acima dos níveis pré-industriais e não medir esforços para limitar o aumento da temperatura a 1,5°C acima dos níveis pré-industriais, reconhecendo que isso reduziria significativamente os riscos e impactos das mudanças climáticas;\n[…]\nTanto as nações desenvolvidas quanto as em desenvolvimento devem apresentar relatórios a cada dois anos sobre seus esforços de mitigação, e todas as partes estarão sujeitas a revisão técnica e por pares.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Zona de exclusão de Chernobyl",
+      "descricao": "Área isolada ao redor da usina nuclear de Chernobyl, criada após o acidente de 1986."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Após o acidente de 1986, a zona de exclusão de Chernobyl foi criada num raio de quantos quilômetros ao redor da usina?",
+    "resposta": "Trinta quilômetros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone",
+        "situacao": "ok",
+        "texto": "The Chernobyl Nuclear Power Plant Zone of Alienation, also known as the Chernobyl Exclusion Zone or Chornobyl Exclusion Zone, is also called the 30-Kilometre Zone or simply The Zone, was established shortly after the 1986 Chernobyl disaster in the Ukrainian SSR of the Soviet Union.\n[…]\nThe Exclusion Zone was established on 2 May 1986 (1986-05-02) soon after the Chernobyl disaster, when a Soviet government commission headed by Nikolai Ryzhkov decided on a \"rather arbitrary\" area of a 30-kilometre (19 mi) radius from Reactor 4 as the designated evacuation area. The 30 km Zone was initially divided into three subzones: the area immediately adjacent to Reactor 4, an area of approximately 10 km (6 mi) radius from the reactor, and the remaining 30 km zone.\n[…]\nIn 2016, the Ukrainian government declared the part of the exclusion zone on its territory the Chernobyl Radiation and Environmental Biosphere Reserve.\n[…]\nMarkiyan Kamysh's 2015 book, Stalking the Atomic City: Life Among the Decadent and the Depraved of Chornobyl, about illegal pilgrimage in the Chernobyl Exclusion Zone.\n[…]\nThe 2015 documentary The Babushkas Of Chernobyl directed by Anne Bogart and Holly Morris focuses on elderly residents who remain in the Exclusion Zone. These people, a majority of whom are women, are self-sufficient farmers who receive routine visits from officials to check on their health and radiation levels. The film won several awards.\n[…]\nThe survival horror video game Chernobylite by The Farm 51 is set in the Chernobyl Exclusion Zone.\n[…]\nIn 2026, first-person shooter video game Counter-Strike 2 added a map based on the Chernobyl Exclusion Zone, including notable structures such as the Chernobyl Monument and the Pripyat amusement park.\n[…]\n2020 Chernobyl Exclusion Zone wildfires"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zona_de_exclus%C3%A3o_de_Chernobil",
+        "situacao": "ok",
+        "texto": "A Zona de alienação da Usina Nuclear de Chernobil (ucraniano: Зона відчуження Чорнобильської АЕС, zona vidchuzhennya Chornobyl's'koyi AES) é oficialmente a zona de exclusão ao redor do local do desastre nuclear de Chernobil. É comumente conhecida como Zona de exclusão de Chernobyl..\n[…]\nEm 24 de fevereiro de 2022, integrantes do exército russo invadiram e ocuparam o local durante a invasão russa na Ucrânia, o incidente ficou conhecido como a Batalha de Chernobil. No dia 25, foi relatado um aumento nos níveis de radiação na Usina Nuclear de Chernobyl. Em 31 de março os russos começaram a abandonar a região, tendo saqueado vários locais perto da usina.\n[…]\nState Agency of Ukraine in Management of the Exclusion Zone website\n[…]\nVegetative life in Chernobyl zone of alienation\n[…]\nWildlife defies Chernobyl radiation - por BBC News, 20 April 2006\n[…]\nPicnic in the Death Zone - TV Documentary following Chernobyl scientists as they hunt for radioactive animals deep in the alienation zone\n[…]\nTouring Chernobyl 25 Years Later\n[…]\nImages of the exclusion zone and the abandoned city of Pripyat\n[…]\nThe Lost City of Chernobyl Fotos\n[…]\nWildlife photos of Chernobyl Exclusion zone",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Bateria de íon-lítio",
+      "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Premiadas com o Nobel de Química de 2019, as baterias recarregáveis de celulares e carros elétricos levam o nome de que metal leve?",
+    "resposta": "Lítio",
+    "fonte": [
+      "https://www.nobelprize.org/prizes/chemistry/2019/summary/",
+      "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+    ],
+    "trechos": [
+      {
+        "url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/",
+        "situacao": "ok",
+        "texto": "The Nobel Prize in Chemistry 2019 - NobelPrize.org\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\nThe Nobel Prize in Chemistry 2019 was awarded jointly to John B. Goodenough, M. Stanley Whittingham and Akira Yoshino \"for the development of lithium-ion batteries\"\n[…]\nFifteen laureates were awarded in 2019, for achievements that have conferred the greatest benefit to humankind.\n[…]\nDon't miss the Nobel Prize announcements on 5–12 October. All announcements are streamed live here on nobelprize.org."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+        "situacao": "ok",
+        "texto": "A lithium-ion battery or Li-ion battery is a type of rechargeable battery that uses the reversible intercalation of lithium ions (Li+) into electronically conducting solids to store energy. There are many different varieties, which are usually categorized by the materials used in the cathode. Compared to other rechargeable battery types, they generally have higher specific energy, energy density, \n[…]\nThe invention and commercialization of Li-ion batteries has had a large impact on technology, as recognized by the 2019 Nobel Prize in Chemistry, which was awarded to contributors to the development of Li-ion batteries. Li-ion batteries have enabled portable consumer electronics, laptop computers, cellular phones, and electric cars. They are used for grid-scale energy storage and in military and aerospace applications. Li-ion battery sizes are generally not standardised (e.g.\n[…]\nThe first prototype of the modern Li-ion battery, which uses a carbonaceous anode rather than lithium metal, was developed by Akira Yoshino in 1985 and commercialized by a Sony and Asahi Kasei team led by Yoshio Nishi in 1991. Whittingham, Goodenough, and Yoshino were awarded the 2019 Nobel Prize in Chemistry for their contributions to the development of lithium-ion batteries.\n[…]\nAs it is now accepted that not only transition metals, but also anions in cathodes participate in redox activity necessary for lithium insertion and removal, the design of cathode materials with diverse transition metal cations increasingly consider also oxygen redox reactions in lithium-ion battery cathodes and how these may enhance capacity beyond transition metal limitations, with computational studies using density functional theory helping to optimize materials while minimizing structural degradation."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bateria_de_i%C3%A3o_l%C3%ADtio",
+        "situacao": "ok",
+        "texto": "Bateria íon-lítio (português brasileiro) ou bateria de ião lítio (português europeu) é um tipo de bateria recarregável muito utilizadas em equipamentos eletrônicos portáteis. Armazenam o dobro de energia que uma bateria de hidreto metálico de níquel (ou NiMH) e três vezes mais que uma bateria de níquel cádmio (ou NiCd).\n[…]\nA primeira bateria de lítio começou com G.N. Lewis em 1912, mas somente a partir de 1970 as primeiras baterias de lítio ficaram disponíveis comercialmente. As tentativas de desenvolver baterias recarregáveis de lítio falharam devido a problemas de segurança. Por causa da instabilidade inerente do lítio metálico, especialmente durante o carregamento, a pesquisa então mudou seu foco para uma bateria não metálica de lítio usando íons de lítio.\n[…]\nEmbora sua densidade de energia seja ligeiramente inferior à do lítio metálico, após comprovada a segurança das baterias de íons de lítio (desde que tomadas determinadas precauções na sua carga e descarga), em 1991, a Sony Corporation comercializou a primeira bateria deste tipo.\n[…]\nAs baterias de íons de lítio são facilmente corrompidas, inflamáveis e podem até explodir em altas temperaturas.\n[…]\nIncidentes desse tipo podem ocorrer quando as baterias de íons de lítio não são descartadas nos canais dedicados a elas, mas são jogadas fora com outros resíduos. A maneira como são tratadas pelas empresas de reciclagem pode danificá-las e causar incêndios, que podem levar a conflagrações em grande escala. Doze desses incêndios foram registrados em instalações de reciclagem suíças em 2023.\n[…]\nBateria de lítio-ar\n[…]\nHexafluoro fosfato de lítio\n[…]\nKarel Walraven, Revista Elektor (Edição brasileira), \"Tempo de vida das baterias de íons de lítio\", ano 4, n.º 45/46, p. 58.https://www.elektormagazine.com/magazine/elektor-200407/17745\n[…]\n«História das baterias de íons de lítio»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Gás liquefeito de petróleo",
+      "descricao": "Mistura de gases derivados do petróleo, sobretudo propano e butano, vendida em botijões como gás de cozinha."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Puro, o gás de cozinha não tem cheiro. Que substância de odor forte é adicionada a ele para denunciar vazamentos?",
+    "resposta": "Mercaptana",
+    "distratores": [
+      "Amônia",
+      "Formol",
+      "Metano"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+      "https://en.wikipedia.org/wiki/Ethanethiol"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+        "situacao": "ok",
+        "texto": "O gás liquefeito de petróleo (GLP), também chamado de gás de petróleo liquefeito (GPL) e conhecimento coloquialmente como gás de cozinha no Brasil, é uma mistura de gases de hidrocarbonetos utilizado como combustível em aplicações de aquecimento (como em fogões) e veículos.\n[…]\nO propano e o butano estão presentes no petróleo (crude, bruto) e no gás natural, embora uma parte se obtenha durante a refinação de petróleo, sobretudo como subproduto do processo de craqueamento catalítico (FCC, da sigla em inglês Fluid Catalytic Cracking).\n[…]\nO GLP é um dos subprodutos do petróleo, como a gasolina, diesel e os óleos lubrificantes, sendo retirado do mesmo através de refino em uma refinaria de petróleo. Torna-se liquefeito apenas quando é armazenado em bilhas/botijões ou tanques de aço em pressões de 6 a 8 atmosferas (6 a 8 kgf/cm²).\n[…]\nA vaporização também é diretamente proporcional à quantidade de superfície de contato do recipiente com o GLP (parede molhada). Por exemplo: um botijão de 13 kg de GLP, considerada uma temperatura externa constante, vaporizará mais gás quando cheio do que quando estiver com 50% de sua carga, pois o GLP terá apenas a metade da superfície de contato com o recipiente para a sua possível troca de calor e eventual vaporização do líquido.\n[…]\nO GLP não é corrosivo, poluente e nem tóxico, mas se inalado em grande quantidade produz efeito anestésico e também asfixia, pois empurra o gás respirável do ambiente em que se encontra. O GLP não possui cor nem odor próprio, mas por motivo de segurança nele é adicionada a substância (mercaptano ou tiol) ainda nas refinarias, para facilitar sua detecção.\n[…]\nGás natural liquefeito\n[…]\nLiquefação de gases\n[…]\nGás liquefeito de petróleo (GLP) Petrobras"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ethanethiol",
+        "situacao": "ok",
+        "texto": "Ethanethiol, commonly known as ethyl mercaptan, is an organosulfur compound with the formula C2H6S or CH3CH2SH. It is a colorless liquid with a distinct odor. Abbreviated EtSH, it consists of an ethyl group (Et), CH3CH2, attached to a thiol group, SH. Its structure parallels that of ethanol, but with sulfur in place of oxygen. The odor of EtSH is infamous. Ethanethiol is more volatile than ethanol\n[…]\nEthanethiol is toxic in high concentrations. It occurs naturally as a minor component of petroleum, and may be added to otherwise odorless gaseous products such as liquefied petroleum gas (LPG) to help warn of gas leaks. At these concentrations, ethanethiol is not harmful.\n[…]\nEthanethiol was originally reported by Zeise in 1834. Zeise treated calcium ethyl sulfate with a suspension of barium sulfide saturated with hydrogen sulfide. He is credited with naming the C2H5S- group as mercaptum.\n[…]\nEthanethiol has a strongly disagreeable odor that humans can detect in minute concentrations. The threshold for human detection is as low as one part in 2.8 billion parts of air (0.36 parts per billion). Its odor resembles that of leeks, onions, durian or cooked cabbage.\n[…]\nIn the underground mining industry, ethanethiol or ethyl mercaptan is referred to as \"stench gas\". The gas is released into mine ventilation systems during an emergency to alert mine workers. In Ontario, mining legislation dictates that \"The alarm system in an underground mine shall, consist of the introduction into all workplaces of sufficient quantities of ethyl mercaptan gas or similar gas to be readily detectable by all workers\".\n[…]\ntert-Butylthiol (tert-butyl mercaptan)\n[…]\nButanethiol (butyl mercaptan)\n[…]\nNLM Hazardous Substances Databank – Ethyl mercaptan[link removed]"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Torre de resfriamento",
+      "descricao": "Estrutura de usinas e indústrias que dissipa calor para a atmosfera, muitas vezes em forma de grande chaminé larga."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As nuvens brancas que saem das torres largas de usinas termelétricas e nucleares, muitas vezes confundidas com fumaça, são feitas de quê?",
+    "resposta": "Vapor d'água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cooling_tower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cooling_tower",
+        "situacao": "ok",
+        "texto": "A cooling tower is a device that rejects waste heat to the atmosphere through the cooling of a coolant stream, usually a water stream, to a lower temperature. Cooling towers may either use the evaporation of water to remove heat and cool the working fluid to near the wet-bulb air temperature or, in the case of dry cooling towers, rely solely on air to cool the working fluid to near the dry-bulb ai\n[…]\nThe air, now saturated with water vapor, is discharged from the top of the cooling tower.\n[…]\nPlume – The stream of saturated exhaust air leaving the cooling tower. The plume is visible when water vapor it contains condenses in contact with cooler ambient air, like the saturated air in one's breath fogs on a cold day. Under certain conditions, a cooling tower plume may present fogging or icing hazards to its surroundings. Note that the water evaporated in the cooling process is \"pure\" water, in contrast to the very small percentage of drift droplets or water blown out of the air inlets.\n[…]\nApproach – The approach is the difference in temperature between the cooled-water temperature and the entering-air wet bulb temperature (twb). Since the cooling towers are based on the principles of evaporative cooling, the maximum cooling tower efficiency depends on the wet bulb temperature of the air. The wet-bulb temperature is a type of temperature measurement that reflects the physical properties of a system with a mixture of a gas and a vapor, usually air and water vapor\n[…]\nUnder certain ambient conditions, plumes of water vapor can be seen rising out of the discharge from a cooling tower, and can be mistaken as smoke from a fire. If the outdoor air is at or near saturation, and the tower adds more water to the air, saturated air with liquid water droplets can be discharged, which is seen as fog. This phenomenon typically occurs on cool, humid days, but is rare in many climates."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_de_resfriamento",
+        "situacao": "ok",
+        "texto": "Uma torre de resfriamento, torre de refrigeração ou torre de arrefecimento é um dispositivo que transfere o calor residual para a atmosfera através do resfriamento, geralmente uma corrente de água, a uma temperatura mais baixa.\n[…]\nAplicações comuns incluem o resfriamento da água circulante usada em refinarias de petróleo, plantas petroquímicas e outras plantas químicas, usinas térmicas, usinas nucleares e sistemas de climatização para resfriamento de edifícios. A classificação é baseada no tipo de indução de ar na torre: os principais tipos de torres de resfriamento são as de calado natural e as de tiragem induzida.\n[…]\nTorres de resfriamento hiperboloides são frequentemente associadas a usinas nucleares, embora também sejam usadas em algumas usinas a carvão e, em certa medida, em algumas grandes plantas químicas e outras plantas industriais. A turbina a vapor é o que necessita da torre de resfriamento.\n[…]\nEmbora essas grandes torres sejam muito proeminentes, a grande maioria das torres de resfriamento são muito menores, incluindo muitas unidades instaladas em ou perto de edifícios para descarregar o calor do ar-condicionado. As torres de resfriamento também são frequentemente consideradas como emitindo fumaça ou fumaça nociva pelo público em geral, quando, na realidade, as emissões dessas torres em sua maioria não contribuem para a pegada de carbono e consistem apenas em vapor de água.\n[…]\nO fluxo cruzado é um design em que o fluxo de ar é direcionado perpendicularmente ao fluxo da água. O fluxo de ar entra em um ou mais faces verticais da torre de resfriamento para atender ao material de preenchimento. O fluxo de água (perpendicular ao ar) atravessa o preenchimento por gravidade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Usina de Battersea",
+      "descricao": "Antiga usina termelétrica a carvão às margens do rio Tâmisa, em Londres, famosa por suas quatro chaminés."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A antiga usina termelétrica de Battersea, em Londres, aparece com um porco inflável entre as chaminés na capa de que álbum do Pink Floyd?",
+    "resposta": "Animals",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battersea_Power_Station",
+      "https://en.wikipedia.org/wiki/Animals_(Pink_Floyd_album)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battersea_Power_Station",
+        "situacao": "ok",
+        "texto": "Battersea Power Station is a preserved coal-fired power station located on the south bank of the River Thames in Nine Elms, Battersea in the London Borough of Wandsworth. It was built by the London Power Company (LPC) to the design of Leonard Pearce, Engineer in Chief to the LPC, and CS Allott & Son Engineers. The architects were J. Theo Halliday and Giles Gilbert Scott. The station is one of the \n[…]\nThe station is also notable for its appearance on the cover of rock band Pink Floyd's 1977 studio album Animals.\n[…]\nWorks were completed and nearly forty years after the lights were switched off, Battersea Power Station opened its doors to the public on Friday 14 October 2022, marking the first time the public were able to explore the iconic building and the first tranche of shops, bars, restaurants and leisure venues.\n[…]\nBattersea Power Station has become an iconic structure, featured in or used as a shooting location for many films, television programmes, music videos, and video games. One of the station's earliest film appearances was in Alfred Hitchcock's 1936 film Sabotage; this was before the construction of the B station.\n[…]\nThe station gained exposure in the cover photograph of Pink Floyd's 1977 album, Animals, which sold millions of copies worldwide. The photo, taken in early December 1976, shows the power station with an inflatable pink pig floating above it. It was tethered to one of the power station's southern chimneys, but broke loose from its moorings and drifted into the flight path of Heathrow Airport. The album itself was officially launched at an event at the power station.\n[…]\nIn the 2006 movie Children of Men, it serves as the fictional \"Ark of Arts\". A pig balloon also appears in the scene as homage to Pink Floyd. Scenes from the 2008 Batman film The Dark Knight were filmed at Battersea.\n[…]\nBattersea Power Station and Bankside (Tate Modern) compared"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Animals_(Pink_Floyd_album)",
+        "situacao": "ok",
+        "texto": "Animals is the tenth studio album by the English rock band Pink Floyd, released on 21 January 1977, by Harvest Records and Columbia Records. It was produced by the band at their new studio, Britannia Row Studios, in London throughout 1976. The album continued the long-form compositions of Pink Floyd's previous works, such as Meddle (1971) and Wish You Were Here (1975).\n[…]\nAnimals is a concept album that focuses on the sociopolitical conditions of mid-1970s Britain. The cover was conceived by Roger Waters, the group's bassist and lead songwriter, and designed by long-time collaborator Storm Thorgerson. It shows an inflatable pig floating between two chimneys of Battersea Power Station.\n[…]\nWith the exception of \"Dogs\" (co-written by David Gilmour), the tracks were written by Roger Waters. Keyboardist Richard Wright contributed less than on previous albums, and Animals was the first Pink Floyd album not to contain a composer's credit for Wright.\n[…]\nCritic Mike Cormack said \"Shorn of the lush textures of Dark Side or Wish You Were Here, Pink Floyd here are forbidding, stripped-down and muscular. Animals is to all intents and purposes their punk album; it has, with all deference to the Sex Pistols, a huge amount of bollocks. But it is largely undigestible by radio or compilation albums, and so it remains the lost great album of the Pink Floyd canon.\"\n[…]\nAnimals was issued on CD in the UK in 1985, and in the US in 1987. It was reissued as a digitally remastered CD with new artwork in 1994, and as a digitally remastered limited-edition vinyl album in 1997. An anniversary edition was released in the US in the same year, followed in 2000 by a reissue from Capitol Records. It was also included in the Shine On box set in 1992, in the 2007 Oh, By The Way box set and in the 2011 Why Pink Floyd...?\n[…]\nPink Floyd – producer\n[…]\npinkfloydz for Animals 2018 track listing"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Usina_Termel%C3%A9trica_de_Battersea",
+        "situacao": "ok",
+        "texto": "A Usina Termelétrica de Battersea é uma usina de energia eléctrica desactivada que usava carvão como sua principal matéria prima. Ela está localizada na margem sul do Rio Tâmisa, em Battersea, distrito central do sudoeste de Londres. Ele é formada por duas usinas de energia individuais, construídas em duas alturas diferentes na forma de um prédio único. A Usina Termo-eléctrica de Bettersea A foi c\n[…]\nAs duas usinas foram construídas com desenho idêntico, criando a disposição conhecida com as quatro chaminés. A usina parou de gerar energia em 1983, porém nos últimos 50 anos virou uma das atrações turísticas mais famosas de Londres.\n[…]\nA fama da usina se deve muito às suas aparições na cultura popular, o que inclui uma filmagem para o filme Help!, da banda The Beatles, para o videoclipe da canção \"You've Got Another Thing Comin' \", da banda Judas Priest, e a capa do álbum Animals, da banda Pink Floyd. Além disso, uma fotografia da sala de controle da usina foi usada como capa do álbum Quark, Strangeness and Charm, da banda Hawkwind.\n[…]\nDesde o encerramento da usina o local permaneceu sem uso, com vários planos de re-desenvolvimento sendo criados sem sucesso por vários donos. O local é atualmente uma propriedade da companhia de administradores irlandeses Real Estate Oportunities (REO), que o comprou em novembro de 2006 por 400 milhões de libras esterlinas. Em novembro de 2010, a REO recebeu permissão para reformar a usina para uso público e construir 3.400 casas no local.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Politereftalato de etileno",
+      "descricao": "Plástico conhecido pela sigla PET, usado em garrafas de refrigerante e reciclado em fibras têxteis."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Garrafas PET recicladas podem virar fios para roupas porque o plástico delas pertence à mesma família de que tecido sintético?",
+    "resposta": "Poliéster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
+      "https://pt.wikipedia.org/wiki/Politereftalato_de_etileno"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
+        "situacao": "ok",
+        "texto": "Polyethylene terephthalate (or poly(ethylene terephthalate), PET, PETE, or the obsolete PETP or PET-P) is the most common thermoplastic polymer resin of the polyester family and is used in fibres for clothing, containers for liquids and foods, and thermoformed parts for manufacturing, and in combination with glass fibre for engineering resins.\n[…]\nClothing sheds microfibres in use, during washing and machine drying. Plastic litter slowly forms small particles. Microplastics which are present on the bottom of the river or seabed can be ingested by small marine life, thus entering the food chain. As PET has a higher density than water, a significant amount of PET microparticles may be precipitated in sewage treatment plants.\n[…]\nWhile most thermoplastics can, in principle, be recycled, PET bottle recycling is more practical than many other plastic applications because of the resin's value and the almost exclusive use of PET for widely used water and carbonated soft drink bottling. PET bottles lend themselves well to recycling (see below). In many countries PET bottles are recycled to a substantial degree, for example about 75% in Switzerland.\n[…]\nThe prime uses for recycled PET are polyester fiber, strapping, and non-food containers. Because of the recyclability of PET and the relative abundance of post-consumer waste in the form of bottles, PET is also rapidly gaining market share as a carpet fiber. PET, like many plastics, is also an excellent candidate for thermal disposal (incineration), as it is composed of carbon, hydrogen, and oxygen, with only trace amounts of catalyst elements (but no sulfur).\n[…]\nPlastic recycling\n[…]\nSolar water disinfection—a method of disinfecting water using only sunlight and plastic PET bottles\n[…]\nAmerican Plastics Council: PlasticInfo.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Politereftalato_de_etileno",
+        "situacao": "ok",
+        "texto": "Tereftalato de polietileno, ou PET, é um polímero termoplástico patenteado em 1941 por dois químicos britânicos, John Rex Whinfield e James Tennant Dickson, formado pela reação entre o ácido tereftálico e o etileno glicol. Utiliza-se principalmente na forma de fibras para tecelagem e de embalagens para bebidas.\n[…]\nÉ um poliéster por possuir o grupo funcional éster na sua cadeira principal, e possui propriedades termoplásticas, isto é, pode ser reprocessado diversas vezes pelo mesmo ou por outro processo de transformação. Quando aquecidos a temperaturas adequadas, esse plástico amolece, funde e pode ser novamente moldado.\n[…]\nNo começo dos anos 80, os Estados Unidos e o Canadá iniciaram a coleta dessas garrafas, reciclando-as inicialmente para fazer enchimento de almofadas. Com a melhoria da qualidade do PET reciclado, surgiram aplicações importantes, como tecidos, lâminas e garrafas para produtos não alimentícios.\n[…]\nNo começo da década de 1980, os Estados Unidos e Canadá iniciaram a coleta dessas garrafas, reciclando-as inicialmente para fazer enchimento de almofadas.\n[…]\nCom a melhoria da qualidade do PET reciclado, surgiram aplicações importantes, como tecidos, lâminas e garrafas para produtos não alimentícios.\n[…]\nOs diferentes tipos de garrafas também podem ser um problema na reciclagem. As garrafas que são usadas para envase de bebidas carbonatadas precisam de um índice de viscosidade maior que o de uma garrafa de água, por exemplo. Dependendo da aplicação da resina reciclada, a mistura dos dois tipos de garrafas pode dar um efeito complicador no futuro processamento.\n[…]\nO material não pode ser transformado em adubo. Plástico e derivados não podem ser usados como adubo, pois não há bactéria na natureza capaz de degradar rapidamente o plástico.\n[…]\nPlástico\n[…]\nPoliestireno\n[…]\nPolietileno de baixa densidade\n[…]\nReciclagem"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Carvão mineral",
+      "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Para gerar a mesma quantidade de energia, qual destes combustíveis fósseis lança mais gás carbônico no ar?",
+    "resposta": "Carvão mineral",
+    "distratores": [
+      "Gás natural",
+      "Óleo diesel",
+      "Gasolina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coal",
+      "https://en.wikipedia.org/wiki/Natural_gas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coal",
+        "situacao": "ok",
+        "texto": "Coal is a combustible black or brownish-black sedimentary rock, formed as layers called coal seams. Coal is mostly carbon with variable amounts of other elements, chiefly hydrogen, sulfur, oxygen, and nitrogen. It is a fossil fuel, formed when plants decay into peat which is converted into coal by the heat and pressure of deep burial over millions of years. Vast deposits formed from wetlands calle\n[…]\nFor bituminous coal, the elemental composition on a dry, ash-free basis is 84.4% carbon, 5.4% hydrogen, 6.7% oxygen, 1.7% nitrogen, and 1.8% sulfur by weight. This composition partly reflects the composition of the precursor plants. The second main fraction of coal is ash, an undesirable, noncombustable mixture of inorganic minerals. The composition of ash is often discussed in terms of oxides obtained after combustion in air:\n[…]\nSome coals contain inorganic sulfur, mainly in the form of iron pyrite (FeS2). Being a dense mineral, iron pyrite can be removed from coal by mechanical means, e.g. by froth flotation. Some sulfate occurs in coal, especially weathered samples. It is not volatilized and can be removed by washing.\n[…]\nAs minerals, Hg, As, and Se are not problematic for the environment, especially since they are only trace components. They become mobile (volatile or water-soluble),  however, when these minerals are combusted.\n[…]\nThe carbon monoxide produced by its combustion reduces hematite (an iron oxide) to iron.\n[…]\nAs of 2021 this may be helping to cause a carbon bubble which could cause financial instability if it bursts.\n[…]\nCoal is the official state mineral of Kentucky, and the official state rock of Utah and West Virginia. These US states have a historic link to coal mining.\n[…]\nBiochar – Lightweight black residue, made of carbon and ashes, after pyrolysis of biomass\n[…]\nFluidized bed combustion – Technology used to burn solid fuels"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Natural_gas",
+        "situacao": "ok",
+        "texto": "Natural gas (also gas, methane gas or fossil gas) is a fossil fuel, naturally occurring in geological formations. Typically, the gas is a mix of gaseous hydrocarbons, primarily methane (95%), small amounts of higher alkanes, and traces of carbon dioxide and nitrogen, hydrogen sulfide and helium. Methane is a colorless and odorless gas, and, after carbon dioxide, is the second-greatest greenhouse g\n[…]\nCoal gas or Town gas is a flammable gaseous fuel made by the destructive distillation of coal. It contains a variety of calorific gases including hydrogen, carbon monoxide, methane, and other volatile hydrocarbons, together with small quantities of non-calorific gases such as carbon dioxide and nitrogen, and was used in a similar way to natural gas. This is a historical technology and is not usually economically competitive with other sources of fuel gas today.\n[…]\nWhile the lifetime of atmospheric methane is relatively short when compared to carbon dioxide, with a half-life of about seven years, it is more efficient at trapping heat in the atmosphere, so that a given quantity of methane has 84 times the global-warming potential of carbon dioxide over a 20-year period and 28 times over a 100-year period.\n[…]\nThis produced water often has a high content of salt and other dissolved minerals that occur in the formation.\n[…]\nQuantities of natural gas are measured in standard cubic meters (cubic meter of gas at temperature 15 °C (59 °F) and pressure 101.325 kPa (14.6959 psi)) or standard cubic feet (cubic foot of gas at temperature 60.0 °F and pressure 14.73 psi (101.6 kPa)), 1 standard cubic meter = 35.301 standard cubic feet. The gross heat of combustion of commercial quality natural gas is around 39 MJ/m3 (0.31 kWh/ft3), but this can vary by several percent. This is about 50 to 54 MJ/kg depending on the density.\n[…]\nCarbon Mapper Data Portal featuring methane point source data"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carv%C3%A3o_mineral",
+        "situacao": "ok",
+        "texto": "O carvão mineral é uma rocha sedimentar combustível, de cor preta ou marrom, que ocorre em estratos chamados camadas de carvão. As formas mais duras, como o antracito, podem ser consideradas rochas metamórficas devido à posterior exposição à temperatura e pressão elevadas. É composto basicamente por carbono, enxofre, hidrogênio, oxigênio e nitrogênio, além de elementos vestigiais.[carece de fontes\n[…]\nExistem quatro tipos principais de carvão mineral: turfa, linhito, hulha e antracito (em ordem crescente do teor de carbono). É extraído do solo por mineração a céu aberto ou subterrânea.\n[…]\nEntre os diversos combustíveis produzidos e conservados pela natureza sob a forma fossilizada, acredita-se ser o carvão mineral o mais abundante. Com o coque e o alcatrão de hulha, seus subprodutos são vitais para muitas indústrias modernas.\n[…]\nEmbora utilizado como combustível, em Gales, na Grã-Bretanha, desde o segundo milênio a.C., o carvão só começou a ser minerado de forma mais ou menos sistemática na Europa por volta do século XIII, época em que já era conhecido dos índios norte-americanos. A primeira mina comercial de carvão da América foi aberta em Richmond, nos EUA em 1745, e o antracito começou a ser extraído principalmente na região de Wilkes-Barre, no nordeste da Pensilvânia, em 1775 e não continuou depois de 1820.\n[…]\nAs reservas brasileiras são de aproximadamente 32 bilhões de toneladas de carvão mineral, segundo o Serviço Geológico do Brasil (MME), concentradas no Rio Grande do Sul (89,25%) e Santa Catarina (10,41%). {{https://www.sgb.gov.br/carvao-mineral}}\n[…]\nOs maiores produtores de carvão mineral são a China, os Estados Unidos, a Austrália, a Rússia e a Indonésia. A China, sozinha, produz quase metade do carvão mineral do mundo, tendo produzido em 2008, 2,761 bilhões de toneladas.\n[…]\nCombustível\n[…]\nEtanol de carvão",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Vapor d'água atmosférico",
+      "descricao": "Água em estado gasoso presente na atmosfera, que atua como gás do efeito estufa."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual gás é o que mais contribui para o efeito estufa natural, que mantém a Terra aquecida?",
+    "resposta": "Vapor d'água",
+    "distratores": [
+      "Gás carbônico",
+      "Metano",
+      "Ozônio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greenhouse_gas",
+      "https://en.wikipedia.org/wiki/Water_vapor"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Greenhouse_gas",
+        "situacao": "ok",
+        "texto": "Greenhouse gases (GHGs) are the gases in an atmosphere that trap heat, raising the surface temperature of astronomical bodies such as Earth. Unlike other gases, greenhouse gases absorb the radiations that a planet emits, resulting in the greenhouse effect. The Earth is warmed by sunlight, causing its surface to radiate heat, which is then mostly absorbed by greenhouse gases.\n[…]\nIndirectly, an increase in global temperatures will also increase water vapor concentrations and thus their warming effect, in a process known as water vapor feedback. It occurs because the Clausius–Clapeyron relation holds that more water vapor will be present per unit volume at elevated temperatures. Thus, local atmospheric concentration of water vapor varies from less than 0.01% in extremely cold regions up to 3% by mass in saturated air at about 32 °C.\n[…]\nSince the 1980s, greenhouse gas forcing contributions (relative to year 1750) are also estimated with high accuracy using IPCC-recommended expressions derived from radiative transfer models.\n[…]\nIt excludes water vapor because changes in its concentrations are calculated as a climate change feedback indirectly caused by changes in other greenhouse gases, as well as ozone, whose concentrations are only modified indirectly by various refrigerants that cause ozone depletion. Some short-lived gases (e.g. carbon monoxide, NOx) and aerosols (e.g.\n[…]\nIn the late 19th century, scientists experimentally discovered that N2 and O2 do not absorb infrared radiation (called, at that time, \"dark radiation\"), while water (both as true vapor and condensed in the form of microscopic droplets suspended in clouds) and CO2 and other poly-atomic gaseous molecules do absorb infrared radiation. In the early 20th century, researchers realized that greenhouse gases in the atmosphere made Earth's overall temperature higher than it would be without them."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Water_vapor",
+        "situacao": "ok",
+        "texto": "vapor, water vapour, or aqueous vapor is the gaseous phase of water. It is one state of water within the hydrosphere. Water vapor can be produced from the evaporation or boiling of liquid water or from the sublimation of ice. Water vapor is transparent, like most constituents of the atmosphere. Under typical atmospheric conditions, water vapor is continuously generated by evaporation and removed b\n[…]\nProvides water for plants and animals: Water vapor gets converted to rain and snow that serve as a natural source of water for plants and animals.\n[…]\nWater vapor is a by-product of respiration in plants and animals. Its contribution to the pressure, increases as its concentration increases. Its partial pressure contribution to air pressure increases, lowering the partial pressure contribution of the other atmospheric gases (Dalton's Law). The total air pressure must remain constant. The presence of water vapor in the air naturally dilutes or displaces the other air components as its concentration increases.\n[…]\nWater vapor thus has a scale height a fraction of that of the bulk atmosphere, as the water condenses and exits, primarily in the troposphere, the lowest layer of the atmosphere. Carbon dioxide (CO2) and methane, being well-mixed in the atmosphere, tend to rise above water vapor. The absorption and emission of both compounds contribute to Earth's emission to space, and thus the planetary greenhouse effect.\n[…]\nGlobal mean water vapor is about 0.25% of the atmosphere by mass and also varies seasonally, in terms of contribution to atmospheric pressure between 2.62 hPa (1.97 mmHg) in July and 2.33 hPa (0.0338 psi) in December. IPCC AR6 expresses medium confidence in increase of total water vapor at about 1%–2% per decade; it is expected to increase by around 7% per 1 °C (1.8 °F) of warming.\n[…]\nFree Windows Program, Water Vapor Pressure Units Conversion Calculator – PhyMetrix"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gases_do_efeito_estufa",
+        "situacao": "ok",
+        "texto": "Os gases de efeito de estufa (português europeu) ou gases do efeito estufa (português brasileiro) (GEE) são gases que absorvem e emitem energia radiante dentro da faixa do infravermelho térmico, causando o efeito de estufa. Os principais gases de efeito de estufa na atmosfera da Terra são o vapor de água (H2O), dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O) e ozono (O3).\n[…]\nVapor de água (H2O)\n[…]\nCH4 aumenta, além de produzir vapor de água estratosférico.\n[…]\nEste e outros princípios básicos indicam que o aquecimento associado ao aumento das concentrações de outros gases de efeito estufa também aumentará a concentração de vapor de água (assumindo que a humidade relativa permanece aproximadamente constante; estudos de modelagem e observacionais constatam que isso é verdade). Como o vapor de água é um gás de efeito de estufa, isso resulta em mais aquecimento e, portanto, é um \"retroalimentação positiva\" que amplifica o aquecimento original.\n[…]\nAlém do vapor de água, que tem um tempo de residência de cerca de nove dias, os principais gases de efeito de estufa são bem misturados e levam muitos anos para deixar a atmosfera. Embora não seja fácil saber com precisão quanto tempo os gases de efeito de estufa levam para deixar a atmosfera, existem estimativas para os principais gases de efeito de estufa. Jacob (1999) define o tempo de vida\n[…]\numa mudança física (condensação e precipitação removem o vapor de água da atmosfera).\n[…]\nO2 não absorvem radiação infravermelha (chamada, na época, \"radiação escura\"), enquanto a água (tanto como vapor verdadeiro quanto condensada na forma de gotículas microscópicas suspensas em nuvens) e CO2 e outras moléculas gasosas poliatómicas absorvem radiação infravermelha. No início do século XX, os investigadores perceberam que os gases de efeito de estufa na atmosfera tornavam a temperatura geral da Terra mais alta do que seria sem eles.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "LED azul",
+      "descricao": "Diodo emissor de luz azul eficiente, desenvolvido nos anos 1990 e premiado com o Nobel de Física de 2014."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O Nobel de Física de 2014 premiou a criação do LED de que cor, peça que faltava para as lâmpadas brancas e econômicas de LED?",
+    "resposta": "Azul",
+    "fonte": [
+      "https://www.nobelprize.org/prizes/physics/2014/summary/",
+      "https://en.wikipedia.org/wiki/Light-emitting_diode"
+    ],
+    "trechos": [
+      {
+        "url": "https://www.nobelprize.org/prizes/physics/2014/summary/",
+        "situacao": "ok",
+        "texto": "The Nobel Prize in Physics 2014 - NobelPrize.org\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\n© Nobel Prize Outreach. Photo: A. Mahmoud\n[…]\nThe Nobel Prize in Physics 2014 was awarded jointly to Isamu Akasaki, Hiroshi Amano and Shuji Nakamura \"for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources\"\n[…]\nDon't miss the Nobel Prize announcements on 5–12 October. All announcements are streamed live here on nobelprize.org."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Light-emitting_diode",
+        "situacao": "ok",
+        "texto": "A light-emitting diode (LED) is an electronic component that uses a semiconductor to emit light when current flows through it. Electrons in the semiconductor recombine with electron holes, thereby releasing energy in the form of photons. The color of the light (corresponding to the energy of the photons) is determined by the energy required for electrons to cross the band gap of the semiconductor.\n[…]\nIn the early 1990s, Shuji Nakamura, Hiroshi Amano and Isamu Akasaki developed blue light-emitting diodes, bringing white lighting and full-color LED displays into practical use. For this work, they won the 2014 Nobel Prize in Physics."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Diodo_emissor_de_luz",
+        "situacao": "ok",
+        "texto": "O diodo emissor de luz (sigla LED, em inglês: light-emitting diode), é usado para a emissão de luz em locais e instrumentos onde se torna mais conveniente a sua utilização no lugar de uma lâmpada. Especialmente utilizado em produtos de microeletrônica como sinalizador de avisos, também pode ser encontrado em tamanho maior, como em alguns modelos de semáforos.\n[…]\nEm 2014 os inventores dos diodos emissores de luz azul foram laureados com o Prêmio Nobel de Física.\n[…]\nO LED é um diodo semicondutor (junção P-N), que quando é energizado, emite luz visível – por isso o nome \"LED\" (Diodo Emissor de Luz). A luz não é monocromática (como em um laser), mas consiste de uma banda espectral relativamente estreita e é produzida pelas interações energéticas do elétron. O processo de emissão de luz pela aplicação de uma fonte elétrica de energia é chamado eletroluminescência.\n[…]\nHoje em dia, com o uso de outros materiais, consegue-se fabricar LEDs que emitem luz azul, violeta e até ultravioleta. Existem também os LEDs brancos, mas esses são geralmente emissores de cor azul, revestidos com uma camada de fósforo do mesmo tipo usado nas lâmpadas fluorescentes, que absorve a luz azul e emite a luz branca.\n[…]\nCom o barateamento do preço, seu alto rendimento e sua grande durabilidade, esses LEDs tornam-se ótimos substitutos para as lâmpadas comuns, e devem substituí-las a médio ou longo prazo. Existem também os LEDs brancos, chamados RGB (mais caros), e que são formados por três \"chips\", um vermelho (R de red), um verde (G de green) e um azul (B de blue).\n[…]\nOs diodos emissores de luz são empregados também na construção dos displays alfa-numéricos.\n[…]\nGeralmente, os LEDs são utilizados em substituição às lâmpadas de sinalização ou lâmpadas pilotos nos painéis dos instrumentos e aparelhos diversos. Para fixação nesses painéis, é comum o uso de suportes plásticos com rosca.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Código de cores da coleta seletiva",
+      "descricao": "Padrão brasileiro de cores para recipientes de coleta seletiva, definido pela Resolução Conama 275, de 2001."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "No padrão brasileiro de cores da coleta seletiva, a lixeira amarela recebe que tipo de material?",
+    "resposta": "Metal",
+    "distratores": [
+      "Plástico",
+      "Papel",
+      "Vidro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Coleta_seletiva"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coleta_seletiva",
+        "situacao": "ok",
+        "texto": "Coleta seletiva ou recolha seletiva é o termo utilizado para o recolhimento dos materiais que são possíveis de serem reciclados, previamente separados na fonte geradora. Dentre estes materiais recicláveis podemos citar os diversos tipos de papéis, plásticos, metais e vidros.\n[…]\nFrequentemente associada à separação e reciclagem, a coleta seletiva vai além de um simples recolhimento diferenciado do lixo. Trata-se de um ciclo que começa com a geração e descarte dos resíduos e se completa quando o material reciclável é reintegrado em um processo produtivo.\n[…]\nA pioneira iniciativa brasileira de coleta seletiva, apesar de não ter sido documentada, ocorreu em São Paulo nos anos 1960. Em 1978, uma tentativa similar foi realizada em Porto Alegre (RS) e, em 1985, nos municípios de Niterói (RJ) e Pindamonhangaba (SP).\n[…]\nConforme a Política Nacional de Resíduos Sólidos, a implementação da coleta seletiva é uma responsabilidade dos municípios. As metas relacionadas à coleta seletiva devem ser incluídas no conteúdo mínimo exigido nos planos de gestão integrada de resíduos sólidos municipais.\n[…]\nOs recipientes destinados ao depósito de lixo denominam-se ecopontos. Estes destinam-se à recolha seletiva de resíduos sólidos urbanos (RSU) para posterior reciclagem.\n[…]\nAmarelo: designa-se por Embalão, destinado às embalagens de plástico e metal;\n[…]\nAssociação Brasileira de Empresas de Limpeza Pública e Resíduos Especiais - ABRELPE\n[…]\n«Governo Brasileiro – Portal do Programa de Coleta Seletiva Solidária»\n[…]\nAssociação Brasileira para Reciclagem de Resíduos da Construção Civil e Demolição - Abrecon"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Vik Muniz",
+      "descricao": "Artista plástico brasileiro conhecido por obras feitas com materiais inusitados, como lixo, açúcar e chocolate."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que artista plástico brasileiro fez retratos gigantes com o lixo do aterro de Jardim Gramacho, ao lado dos catadores, no documentário Lixo Extraordinário?",
+    "resposta": "Vik Muniz",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lixo_Extraordin%C3%A1rio",
+      "https://en.wikipedia.org/wiki/Waste_Land_(2010_film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lixo_Extraordin%C3%A1rio",
+        "situacao": "ok",
+        "texto": "Lixo Extraordinário é um documentário anglo-brasileiro, lançado em 2010.\n[…]\nO documentário relata o trabalho do artista plástico brasileiro Vik Muniz com catadores de material reciclável em um dos maiores aterros controlados do mundo, localizado no Jardim Gramacho, bairro  periférico de Duque de Caxias. O aterro também foi o cenário  de um outro  documentário brasileiro, também premiado: Estamira (2004), de Marcos Prado.\n[…]\nLixo Extraordinário mostra a produção de obras de arte com material coletado no aterro do Jardim Gramacho. Ao longo da produção dessas obras,  entre 2007 e 2008,  transformações se produzem na vida e nas visões de mundo dos sete catadores participantes do projeto - entre eles, Tião Santos, presidente da Associação dos Catadores do Aterro Metropolitano do Jardim Gramacho.\n[…]\nA maior parte dos diálogos acontece em inglês, exceto as cenas com os moradores do Jardim Gramacho.\n[…]\nO produtor inglês Angus Aynsley foi o idealizador do projeto, que inicialmente seria um documentário sobre a vida de Vik Muniz. A empresa O2 Filmes, de Fernando Meirelles, foi a co-produtora. A diretora Lucy Walker dirigiu o início do filme, mas desligou-se da produção para participar de outro filme, Countdown to Zero. Foi substituída por João Jardim, que dirigiu por seis meses, porém também deixou o projeto. Karen Harley, que era a montadora, assumiu a direção.\n[…]\nFestival de Sundance - prêmio do público para o melhor documentário internacional, em 30 de janeiro de 2010.\n[…]\nOscar - indicado para o prêmio melhor documentário, em 25 de janeiro de 2011."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Waste_Land_(2010_film)",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

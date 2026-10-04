@@ -1,0 +1,330 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A usina hidrelétrica de Belo Monte, no Pará, represa as águas de que afluente do rio Amazonas?",
+        "resposta": "Rio Xingu"
+      },
+      "existentes": [
+        {
+          "id": "q02163",
+          "pergunta": "A polêmica usina hidrelétrica de Belo Monte, no Pará, foi construída em qual rio?",
+          "resposta": "Rio Xingu"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 2015, a lama da barragem rompida em Mariana, Minas Gerais, desceu por que rio até chegar ao mar no Espírito Santo?",
+        "resposta": "Rio Doce"
+      },
+      "existentes": [
+        {
+          "id": "q02418",
+          "pergunta": "Em 2015, a lama da barragem que se rompeu em Mariana, Minas Gerais, desceu por qual rio até chegar à foz, no Espírito Santo?",
+          "resposta": "Rio Doce"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O desastre de Bhopal, em 1984, quando um gás tóxico vazou de uma fábrica de pesticidas, matou milhares de pessoas em que país asiático?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q03159",
+          "pergunta": "O vazamento de gás tóxico que matou milhares de pessoas em Bhopal, na Índia, aconteceu em que década?",
+          "resposta": "Década de 1980"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1986, o mundo soube do acidente de Chernobyl depois que alarmes de radiação dispararam numa usina nuclear de que país?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q04129",
+          "pergunta": "Em abril de 1986, a explosão do reator de Chernobyl aconteceu durante que tipo de procedimento?",
+          "resposta": "Um teste de segurança"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Nos anos 1820, que matemático francês, famoso pelas séries que levam seu nome, foi um dos primeiros a explicar que a atmosfera retém o calor da Terra?",
+        "resposta": "Joseph Fourier"
+      },
+      "existentes": [
+        {
+          "id": "q04159",
+          "pergunta": "Além do gás carbônico, que gás, liberado em grande quantidade pelo arroto do gado, é um importante gás do efeito estufa?",
+          "resposta": "Metano"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1954, a primeira célula solar de silício capaz de alimentar aparelhos elétricos foi apresentada por que famoso laboratório americano?",
+        "resposta": "Laboratórios Bell"
+      },
+      "existentes": [
+        {
+          "id": "q02118",
+          "pergunta": "Que equipamento é este, instalado sobre pedras?",
+          "resposta": "Painel solar"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1866, que zoólogo alemão criou a palavra ecologia, a partir de um termo grego?",
+        "resposta": "Ernst Haeckel"
+      },
+      "existentes": [
+        {
+          "id": "q02844",
+          "pergunta": "Pela origem grega da palavra, ecologia significa, ao pé da letra, o estudo de quê?",
+          "resposta": "Da casa"
+        },
+        {
+          "id": "q02845",
+          "pergunta": "Em 1866, que naturalista alemão, também famoso por seus desenhos de seres marinhos, criou a palavra ecologia?",
+          "resposta": "Ernst Haeckel"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Argélia foi o último país do mundo a deixar de vender gasolina com chumbo para carros. Em que ano isso aconteceu?",
+        "resposta": "2021"
+      },
+      "existentes": [
+        {
+          "id": "q04145",
+          "pergunta": "O engenheiro americano Thomas Midgley ajudou a desenvolver a gasolina com chumbo e também certos gases de geladeira que depois atacaram a camada de ozônio. Que gases são esses?",
+          "resposta": "Clorofluorcarbonetos (CFCs)"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "As grandes reservas de petróleo do pré-sal, no subsolo do mar brasileiro, começaram a ser descobertas em que década?",
+        "resposta": "Década de 2000"
+      },
+      "existentes": [
+        {
+          "id": "q04302",
+          "pergunta": "A camada de sal que cobre o petróleo do pré-sal surgiu quando a América do Sul se separava de qual continente?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Considerado o primeiro parque nacional do mundo, Yellowstone foi criado por lei nos Estados Unidos em que ano?",
+        "resposta": "1872"
+      },
+      "existentes": [
+        {
+          "id": "q04818",
+          "pergunta": "Com seus gêiseres e fontes termais, Yellowstone é considerado o primeiro parque nacional do mundo. Em que década ele foi criado?",
+          "resposta": "Década de 1870"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Lançado em 1975 pelo governo brasileiro, o Proálcool foi uma resposta a que crise mundial, iniciada dois anos antes?",
+        "resposta": "Crise do petróleo"
+      },
+      "existentes": [
+        {
+          "id": "q00991",
+          "pergunta": "Em 1975, o Brasil criou o Proálcool para trocar gasolina por álcool nos carros. Que crise mundial motivou o programa?",
+          "resposta": "Crise do petróleo de 1973"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A partir dos anos 1960, o mar de Aral, na Ásia Central, encolheu drasticamente porque seus rios foram desviados para irrigar plantações de quê?",
+        "resposta": "Algodão"
+      },
+      "existentes": [
+        {
+          "id": "q02139",
+          "pergunta": "Na era soviética, os rios que abasteciam o mar de Aral foram desviados para irrigar qual cultura, o que ajudou a secá-lo?",
+          "resposta": "Algodão"
+        },
+        {
+          "id": "q02140",
+          "pergunta": "Em que década do século vinte o mar de Aral, na Ásia Central, começou a encolher?",
+          "resposta": "Anos 1960"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O nome do Projeto Tamar, criado em 1980 no litoral brasileiro, junta as primeiras sílabas de que duas palavras?",
+        "resposta": "Tartaruga marinha"
+      },
+      "existentes": [
+        {
+          "id": "q02474",
+          "pergunta": "Criado em 1980 no litoral brasileiro, o Projeto Tamar tem um nome que junta o começo de duas palavras. Quais são elas?",
+          "resposta": "Tartaruga marinha"
+        },
+        {
+          "id": "q02537",
+          "pergunta": "Em que década foi criado o Projeto Tamar, que protege as tartarugas-marinhas no Brasil?",
+          "resposta": "Anos 1980"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que escritor britânico, autor de O Senhor das Moscas, sugeriu a James Lovelock o nome Gaia para sua hipótese sobre a Terra?",
+        "resposta": "William Golding"
+      },
+      "existentes": [
+        {
+          "id": "q04799",
+          "pergunta": "Que cientista britânico criou a hipótese Gaia, segundo a qual a vida mantém as condições da Terra favoráveis a ela mesma?",
+          "resposta": "James Lovelock"
+        },
+        {
+          "id": "q04800",
+          "pergunta": "O nome da hipótese Gaia, que vê a Terra como um sistema que se autorregula, foi sugerido por que escritor, autor de O Senhor das Moscas?",
+          "resposta": "William Golding"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Após o acidente de 1986, a zona de exclusão de Chernobyl foi criada num raio de quantos quilômetros ao redor da usina?",
+        "resposta": "Trinta quilômetros"
+      },
+      "existentes": [
+        {
+          "id": "q04828",
+          "pergunta": "Lobos, alces e cavalos selvagens se multiplicaram na zona de exclusão de Chernobyl, apesar da radiação. Qual é a principal explicação?",
+          "resposta": "A ausência de pessoas"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Para gerar a mesma quantidade de energia, qual destes combustíveis fósseis lança mais gás carbônico no ar?",
+        "resposta": "Carvão mineral"
+      },
+      "existentes": [
+        {
+          "id": "q04143",
+          "pergunta": "O carvão mineral, que alimenta usinas termelétricas, e o diamante das joias são formados principalmente pelo mesmo elemento. Qual?",
+          "resposta": "Carbono"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Belo Monte fica no rio Xingu."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: rio Doce."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País vs. década: fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Detecção na Suécia vs. tipo de procedimento."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fourier vs. metano."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Célula solar de 1954 vs. imagem de painel."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Haeckel criou a palavra ecologia, já em q02845."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fim da gasolina com chumbo vs. CFCs."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Década da descoberta vs. origem da camada de sal."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Ano 1872 implica década de 1870; mesmo fato de criação."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesma crise do petróleo motivando o Proálcool."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Desvio dos rios para irrigar algodão, igual a q02139."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome Tamar."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Golding sugeriu o nome Gaia, igual a q04800."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Raio da zona vs. causa da multiplicação de animais."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Emissão de CO2 vs. elemento do carvão."
+    }
+  ]
+}
