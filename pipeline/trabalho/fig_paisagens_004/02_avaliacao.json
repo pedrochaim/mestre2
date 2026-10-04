@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara e inconfundível, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lugar da França, com uma abadia no alto, é este?",
+      "resposta": "Monte Saint-Michel",
+      "destino": 2,
+      "ancora": {
+        "nome": "Monte Saint-Michel",
+        "descricao": "Ilha de maré fortificada na Normandia, França, coroada por uma abadia.",
+        "variantes": [
+          "Mont-Saint-Michel",
+          "Mont Saint-Michel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Picos graníticos nevados, sem texto nem pessoas; reconhecimento difícil, então múltipla escolha com picos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha da Patagônia é esta?",
+      "resposta": "Monte Fitz Roy",
+      "distratores": [
+        "Cerro Torre",
+        "Torres del Paine",
+        "Aconcágua"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Fitz Roy",
+        "descricao": "Montanha de granito na Patagônia, na fronteira entre Argentina e Chile, perto de El Chaltén.",
+        "variantes": [
+          "Cerro Chaltén",
+          "Cerro Fitz Roy",
+          "Fitz Roy"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do lago rosa ao lado do oceano, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lago australiano é este?",
+      "resposta": "Lago Hillier",
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Hillier",
+        "descricao": "Lago salino rosado na Ilha Middle, no arquipélago Recherche, no oeste da Austrália.",
+        "variantes": [
+          "Lake Hillier"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução e borrada; pode ser confundida com o Leblon, que compartilha o morro Dois Irmãos, e há banhistas em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há uma multidão de turistas em primeiro plano, que são pessoas comuns, e o gêiser poderia ser confundido com outros, como o Geysir."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida e reconhecível do pico em forma de dedo, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que estado brasileiro fica este pico de granito?",
+      "resposta": "Rio de Janeiro",
+      "destino": 3,
+      "ancora": {
+        "nome": "Dedo de Deus",
+        "descricao": "Pico de granito em forma de dedo na Serra dos Órgãos, em Teresópolis, Rio de Janeiro.",
+        "variantes": [
+          "Pico Dedo de Deus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cone vulcânico nevado, nítido e característico, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país da América do Sul fica este vulcão?",
+      "resposta": "Equador",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cotopaxi",
+        "descricao": "Estratovulcão ativo e nevado nos Andes, ao sul de Quito, no Equador.",
+        "variantes": [
+          "Vulcão Cotopaxi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida da Pedra Furada na praia, com cenário característico; só um cachorro pequeno aparece.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que destino do litoral nordestino é este?",
+      "resposta": "Jericoacoara",
+      "distratores": [
+        "Canoa Quebrada",
+        "Praia de Pipa",
+        "Lençóis Maranhenses"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Jericoacoara",
+        "descricao": "Vila e praia no litoral do Ceará, famosa pela Pedra Furada.",
+        "variantes": [
+          "Jeri",
+          "Praia de Jericoacoara",
+          "Pedra Furada"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Um turista aparece em primeiro plano, de jaqueta amarela, e a imagem tem várias outras pessoas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Costa rochosa e vulcânica nítida, sem texto nem pessoas; múltipla escolha com ilhas oceânicas brasileiras.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha oceânica brasileira é esta?",
+      "resposta": "Ilha da Trindade",
+      "distratores": [
+        "Fernando de Noronha",
+        "Atol das Rocas",
+        "Abrolhos"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Ilha da Trindade",
+        "descricao": "Maior ilha do arquipélago vulcânico de Trindade e Martim Vaz, no Atlântico Sul, ao largo do Espírito Santo.",
+        "variantes": [
+          "Trindade"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto do monólito, sem texto nem pessoas; o perfil é característico.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade brasileira fica este monólito de granito?",
+      "resposta": "Rio de Janeiro",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pedra da Gávea",
+        "descricao": "Montanha monolítica de granito e gnaisse, de 844 metros, na Floresta da Tijuca, no Rio de Janeiro.",
+        "variantes": [
+          "Pedra da Gavea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Perfil inconfundível do rochedo visto da baía, sem texto nem pessoas; a imagem é pequena, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que marco natural europeu, de calcário, é este?",
+      "resposta": "Rochedo de Gibraltar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rochedo de Gibraltar",
+        "descricao": "Montanha monolítica de calcário de 426 metros, na entrada do Mediterrâneo, no território britânico de Gibraltar.",
+        "variantes": [
+          "Penhasco de Gibraltar",
+          "Peñón de Gibraltar",
+          "Rock of Gibraltar"
+        ]
+      }
+    }
+  ]
+}

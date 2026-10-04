@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que lugar da França, com uma abadia no alto, é este?",
+        "resposta": "Monte Saint-Michel"
+      },
+      "existentes": [
+        {
+          "id": "q02448",
+          "pergunta": "Em que região da França fica este monte fortificado, cercado pelas marés?",
+          "resposta": "Normandia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que destino do litoral nordestino é este?",
+        "resposta": "Jericoacoara"
+      },
+      "existentes": [
+        {
+          "id": "q04553",
+          "pergunta": "Jericoacoara, vila de dunas famosa pelo pôr do sol visto do alto de uma duna, fica em qual estado?",
+          "resposta": "Ceará"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do lugar (Monte Saint-Michel); a existente pede a região (Normandia). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do destino (Jericoacoara); a existente já dá o nome e pede o estado (Ceará). Fatos diferentes."
+    }
+  ]
+}
