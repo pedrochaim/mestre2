@@ -1,0 +1,409 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nova Jersey é sustentada e a pista do Hudson não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Highclere é o local principal das filmagens, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As primeiras temporadas foram gravadas em Vancouver; os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A segunda fonte é página de desambiguação; basta a primeira, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Exibida pelo SBT a partir de 1997, a primeira versão brasileira da novela infantil Chiquititas era gravada em que capital estrangeira?",
+        "resposta": "Buenos Aires",
+        "distratores": [
+          "Montevidéu",
+          "Santiago",
+          "Assunção"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chiquititas_(1997)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilhéus e o cacau constam na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "South Park fica no Colorado, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Birmingham sustentada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A transmissão oficial foi a de 31 de março; a da Festa da Uva foi a primeira em cores, em caráter de teste. Tirar 'oficial'.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em 1972, a primeira transmissão em cores da TV brasileira mostrou a Festa da Uva, em que cidade gaúcha?",
+        "resposta": "Caxias do Sul",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Televis%C3%A3o_no_Brasil",
+          "https://pt.wikipedia.org/wiki/Festa_da_Uva"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ponderosa ficava em Nevada, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A TV Globo foi inaugurada em 1965, quatrocentos anos após a fundação do Rio (1565).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir a década é vago e a resposta traz parênteses; melhor pedir o ano.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O Fantástico, a revista eletrônica dos domingos da Globo, foi ao ar pela primeira vez em que ano?",
+        "resposta": "1973",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Fant%C3%A1stico"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em 1986, sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exibida a partir de dezembro de 1951.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em outubro de 1976; vendida a 104 países.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vila Sésamo é o nome brasileiro; o programa que estreou nos EUA em 1969 é Sesame Street.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Conhecido no Brasil como Vila Sésamo, o programa Sesame Street estreou nos Estados Unidos no mesmo ano da chegada do homem à Lua. Que ano?",
+        "resposta": "1969",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sesame_Street"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em setembro de 1966.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 19 de agosto de 1981.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou um dia após o assassinato de Kennedy, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criada por Jerry Seinfeld e Larry David.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autor João Emanuel Carneiro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gilberto Braga é o autor, citado na fonte; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o personagem foi criado por Lantz e Ben Hardaway; 'criou' induz a resposta única falsa.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "O Pica-Pau, de risada inconfundível, estreou nos cinemas em 1940 em desenhos do estúdio de qual animador americano?",
+        "resposta": "Walter Lantz",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Woody_Woodpecker"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shonda Rhimes desenvolveu a série.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peter Morgan escreveu A Rainha e criou The Crown.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Charlie Brooker criou a série; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Matt Groening criou Futurama.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hillenburg era educador de ciências marinhas e criou a série.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A minissérie adaptou a peça de Suassuna.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Madison Avenue sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bole-Bole é o nome original da cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não mostram que o programa 'Rei Momo na Chacrinha' era transmitido de uma chácara; fato duvidoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sitcom é abreviação de situation comedy.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O gato se chamava Jasper no primeiro curta.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pink Panther é o nome de um diamante, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapulín significa gafanhoto.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lima Duarte viveu Sinhozinho Malta (fonte) e Zeca Diabo, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orlando Drummond dublou Scooby-Doo e fez o Seu Peru.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mark Hamill dubla o Coringa em Batman: The Animated Series.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wagner Moura fez Capitão Nascimento e Pablo Escobar.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cid Moreira narrou Mister M no Fantástico.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bobby morreu no fim da oitava temporada e voltou só na décima, depois de uma ausência; 'temporada seguinte' é impreciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Na série Dallas, o personagem Bobby Ewing morreu e voltou depois de uma temporada de ausência. Que explicação a série deu para a volta?",
+        "resposta": "A temporada anterior fora um sonho de Pam",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Dallas_(1978_TV_series)",
+          "https://pt.wikipedia.org/wiki/Dallas_%28teless%C3%A9rie%29"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "York saiu por problemas crônicos nas costas.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o teletransporte evitava o custo de filmar pousos de nave.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Redes americanas rejeitaram; Lew Grade coproduziu na Inglaterra.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ruth e Raquel confirmadas nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kramer é o vizinho de Jerry.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A série tem 11 carros; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três filhos de cada lado, seis ao todo.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pal e os sucessores eram cães machos.",
+      "reescrita": null
+    }
+  ]
+}

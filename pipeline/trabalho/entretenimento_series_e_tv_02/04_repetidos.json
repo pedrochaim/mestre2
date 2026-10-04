@@ -1,0 +1,101 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A série Família Soprano, sobre o mafioso Tony Soprano, se passa principalmente em que estado americano, vizinho de Nova York e banhado pelo rio Hudson?",
+        "resposta": "Nova Jersey"
+      },
+      "existentes": [
+        {
+          "id": "q04058",
+          "pergunta": "Que canal de TV por assinatura exibiu originalmente esta série?",
+          "resposta": "HBO"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que castelo inglês fez o papel da mansão da família Crawley nas gravações de Downton Abbey?",
+        "resposta": "Castelo de Highclere"
+      },
+      "existentes": [
+        {
+          "id": "q01119",
+          "pergunta": "Logo no início de Downton Abbey, que tragédia real de 1912 mata os herdeiros da família Crawley?",
+          "resposta": "O naufrágio do Titanic"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "The Crown foi criada pelo roteirista que antes escreveu o filme A Rainha, de 2006. Quem é ele?",
+        "resposta": "Peter Morgan"
+      },
+      "existentes": [
+        {
+          "id": "q04055",
+          "pergunta": "De que série é esta imagem?",
+          "resposta": "The Crown"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No nome original do herói, El Chapulín Colorado, a palavra chapulín designa que inseto no espanhol do México?",
+        "resposta": "Gafanhoto"
+      },
+      "existentes": [
+        {
+          "id": "q04840",
+          "pergunta": "Que ator interpreta o herói de vermelho nesta cena?",
+          "resposta": "Roberto Gómez Bolaños (Chespirito)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Capitão Nascimento, de Tropa de Elite, e o traficante Pablo Escobar, da série Narcos, foram interpretados por qual ator brasileiro?",
+        "resposta": "Wagner Moura"
+      },
+      "existentes": [
+        {
+          "id": "q02772",
+          "pergunta": "Quem é este ator brasileiro?",
+          "resposta": "Wagner Moura"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estado onde se passa a série é diferente do canal que a exibiu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local de gravação é diferente da tragédia do Titanic no enredo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Criador da série é um fato diferente de identificar a série pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado da palavra chapulín é diferente de quem interpreta o herói."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Reconhecer o ator por imagem é diferente de saber quem interpretou esses papéis; na dúvida, nova."
+    }
+  ]
+}
