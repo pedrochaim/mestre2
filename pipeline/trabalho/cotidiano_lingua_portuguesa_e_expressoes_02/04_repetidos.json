@@ -1,0 +1,126 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A expressão vitória de Pirro lembra um rei que venceu os romanos a um custo altíssimo. Ele reinava em qual região grega?",
+        "resposta": "Epiro"
+      },
+      "existentes": [
+        {
+          "id": "q03208",
+          "pergunta": "Que rei do Epiro, que venceu os romanos com perdas enormes, deu nome à vitória que custa tão caro quanto uma derrota?",
+          "resposta": "Pirro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
+        "resposta": "2016"
+      },
+      "existentes": [
+        {
+          "id": "q00770",
+          "pergunta": "Que sinal gráfico, usado em palavras como linguiça e pinguim, deixou de ser usado nas palavras portuguesas no Brasil por causa do Acordo Ortográfico de 1990?",
+          "resposta": "Trema"
+        },
+        {
+          "id": "q00790",
+          "pergunta": "O Acordo Ortográfico de 1990 reincorporou ao alfabeto as letras k, w e y. Com quantas letras o alfabeto português ficou?",
+          "resposta": "26"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Escrita em 1500, a carta de Pero Vaz de Caminha ficou inédita por muito tempo. Em que século ela foi publicada pela primeira vez?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q00180",
+          "pergunta": "Quem escreveu ao rei Dom Manuel a carta que narra a chegada da frota de Cabral ao Brasil, em 1500?",
+          "resposta": "Pero Vaz de Caminha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+        "resposta": "Dom Dinis"
+      },
+      "existentes": [
+        {
+          "id": "q00795",
+          "pergunta": "Qual é a língua materna mais falada do Hemisfério Sul?",
+          "resposta": "Português"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Um brasileiro em Lisboa quer comprar um celular. Que palavra ele vai encontrar nas lojas portuguesas para esse aparelho?",
+        "resposta": "Telemóvel"
+      },
+      "existentes": [
+        {
+          "id": "q04507",
+          "pergunta": "Em 1973, numa calçada de Nova York, o engenheiro Martin Cooper fez a primeira ligação de um celular portátil. Em que empresa ele trabalhava?",
+          "resposta": "Motorola"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que palavra, que quer dizer coisa sem importância, é a primeira do romance Grande Sertão Veredas, de Guimarães Rosa?",
+        "resposta": "Nonada"
+      },
+      "existentes": [
+        {
+          "id": "q02922",
+          "pergunta": "Que palavra antiga, que significa coisa sem importância, abre o romance Grande Sertão Veredas, de Guimarães Rosa?",
+          "resposta": "Nonada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a região (Epiro), e a existente pede o nome do rei (Pirro). Um dos dois fatos aparece no enunciado da outra, então quem acertasse uma não saberia, só por isso, responder a outra. Os fatos são diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o ano em que o acordo se tornou obrigatório. As existentes tratam do trema e do número de letras do alfabeto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o século da publicação da carta. A existente pede o autor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre Dom Dinis e o português como língua oficial. A existente é sobre a língua materna mais falada do Hemisfério Sul."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a palavra portuguesa para celular. A existente é sobre a empresa de Martin Cooper."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02922",
+      "motivo": "As duas perguntas pedem a mesma palavra de abertura do romance, com a mesma resposta (Nonada)."
+    }
+  ]
+}

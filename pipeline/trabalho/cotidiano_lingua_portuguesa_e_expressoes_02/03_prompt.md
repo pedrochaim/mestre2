@@ -1,0 +1,1532 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Língua Portuguesa e Expressões** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Chá (palavra)",
+      "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O inglês tea veio, pelos holandeses, do dialeto de Fujian. Já o português chá foi aprendido em qual entreposto comercial no sul da China?",
+    "resposta": "Macau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Etymology_of_tea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Etymology_of_tea",
+        "situacao": "ok",
+        "texto": "The etymology of the various words for tea reflects the history of transmission of tea drinking culture and trade from China to countries around the world. In this context, tea generally refers to the plant Camellia sinensis and/or the aromatic beverage prepared by pouring hot boiling water over the leaves.\n[…]\nMost Chinese languages, such as Mandarin, Gan and Hakka, pronounce it along the lines of cha, but Min varieties along the Southern coast of China pronounce it like teh. These two pronunciations have made their separate ways into other languages around the world:\n[…]\nCha  originated from different parts of China. The \"cha\" pronunciation may come from the Cantonese pronunciation tsa around Guangzhou (Canton) and the ports of Hong Kong and Macau, also major points of contact, especially with the Portuguese, who spread it to India in the 16th century. The Korean and Japanese pronunciations of cha, however, came not from Cantonese; rather, they were borrowed into Korean and Japanese during earlier periods of Chinese history.\n[…]\nPortuguese traders were the first Europeans to import the herb in large amounts. The Portuguese borrowed their word for tea (chá) from Cantonese in the 1550s via their trading posts in the south of China, especially Macau.\n[…]\nThe inverse pattern is seen in Moroccan Arabic where shay means \"generic, or black Middle Eastern tea\" whereas atay refers particularly to Zhejiang or Fujian green tea with fresh mint leaves. The Moroccans are said to have acquired this taste for green tea—unique in the Arab world— from British exports in the 19th century (see Moroccan tea culture).\n[…]\nBenn, James A. (2015). Tea in China: A Religious and Cultural History. Hong Kong University Press. ISBN 978-988-8208-73-9."
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Copacabana (bairro)",
+      "descricao": "Bairro da zona sul do Rio de Janeiro, famoso por sua praia"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O bairro carioca de Copacabana deve seu nome a uma santa venerada às margens de qual lago, na Bolívia?",
+    "resposta": "Lago Titicaca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "Copacabana ( KOH-pə-kə-BAN-ə, US also  -⁠BAH-nə; Brazilian Portuguese: [ˌkɔpakaˈbɐnɐ]) is a Brazilian bairro (neighbourhood) located in the South Zone of the city of Rio de Janeiro, Brazil. It is most prominently known for its 4 km (2.5 mile) balneario beach, which is one of the most famous in the world.\n[…]\nThe district was originally called Sacopenapã (translated from the Tupi language, meaning \"the way of the socós\", the socós being a kind of heron) until the mid-18th century. It was renamed after the construction of a chapel holding a replica of the statue of Our Lady of Copacabana, the patron saint of Bolivia.\n[…]\nNew Year's Eve has been celebrated on Copacabana beach since the 1950s, when cults of African origin such as Candomblé and Umbanda gathered in small groups dressed in white for ritual celebrations. The first fireworks display occurred in 1976, sponsored by a hotel on the waterfront, and this has been repeated ever since. In the 1990s, the city saw it as a great opportunity to promote the city and organized and expanded the event.\n[…]\nAn assessment made during New Year's Eve 1992 highlighted the risks associated with increasing crowd numbers on Copacabana beach after the fireworks display. Since the 1993-94 event, concerts have been held on the beach to retain the public. The result was a success, with egress spaced out over a period of 2 hours without the previous turmoil, although critics claimed that it denied the spirit of the New Year's tradition of a religious festival with fireworks by the sea.\n[…]\nThe following year Rod Stewart beat attendance records. Finally, the Tribute to Tom Jobim - with Gal Costa, Gilberto Gil, Caetano Veloso, Chico Buarque, and Paulinho da Viola - consolidated the shows at the Copacabana Réveillon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copacabana",
+        "situacao": "ok",
+        "texto": "Copacabana é um bairro nobre situado na Zona Sul do município do Rio de Janeiro, no Brasil. É considerado um dos bairros mais famosos e prestigiados do Brasil e um dos mais conhecidos do mundo. Tem o apelido de Princesinha do Mar e Coração da Zona Sul. Faz limites com os bairros da Lagoa, Ipanema, Botafogo, Leme e Humaitá.\n[…]\nHá várias hipóteses etimológicas para o nome Copacabana. A primeira alega que o termo teria vindo da língua quíchua, falada no antigo Império Inca, significando \"lugar luminoso\", \"praia azul\" ou \"mirante do azul\". Outras fontes apontam o termo como originário da língua aimará falada na Bolívia, significando \"vista do lago\" (kota kahuana). Nesse país, Copacabana é o nome dado a uma cidade situada às margens do Lago Titicaca, fundada sobre um antigo local de culto inca.\n[…]\nCopacabana é repleta de restaurantes, bares, cafés, hotéis, bancos, igrejas, colégios (dentre os quais está o Colégio Sagrado Coração de Maria, um dos mais tradicionais da cidade), sinagogas (o bairro tradicionalmente abriga a comunidade judaica carioca), lojas, teatros e feiras de arte nos finais de semana. O comércio é bastante diversificado, com lojas de alto padrão misturadas a outras de perfil mais popular, além de camelôs.[carece de fontes]?\n[…]\nA célebre exposição dos United Buddy Bears realizou-se de maio a fim de julho de 2014 nessa praia carioca, apesar de protestos da FIFA durante toda a Copa do Mundo de futebol. Os ursos puderam ser vistos no famoso calçadão de Copacabana, no bairro do Leme. Contou-se com a presença de mais de um milhão de visitantes. Fizeram parte da exposição mais de 140 esculturas de ursos, cada uma com mais de 2 metros de altura, realizadas por artistas de mais de 140 países, representando 140 nações do mundo.\n[…]\nBairros Cariocas - Diretoria de Informações Geográficas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Presente de grego",
+      "descricao": "Expressão para um presente que traz prejuízo a quem o recebe"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A expressão presente de grego lembra o cavalo de madeira que os gregos deixaram diante das muralhas de qual cidade?",
+    "resposta": "Troia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cavalo_de_Troia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cavalo_de_Troia",
+        "situacao": "ok",
+        "texto": "O Cavalo de Troia foi um grande cavalo de madeira supostamente construído pelos gregos durante a Guerra de Troia, como um estratagema decisivo para a conquista da cidade fortificada de Troia, cujas ruínas estão em terras hoje turcas. Tomado pelos troianos como um símbolo de sua vitória, foi carregado para dentro das muralhas, sem saberem que em seu interior se ocultava o inimigo.\n[…]\nVárias reconstruções conjeturais do cavalo foram feitas em tempos recentes. Tornou-se também origem de duas conhecidas expressões idiomáticas: \"cavalo de Troia\", significando um engodo destrutivo, e neste sentido denomina atualmente uma espécie de vírus de computador, e \"presente grego\", algo recebido aparentemente agradável mas que acarreta consequências funestas.\n[…]\nOs gregos se haviam coligado para assaltarem Troia e recuperar Helena, esposa raptada de Menelau, rei de Esparta. Depois de um penoso e frustrante cerco de nove anos, a cidade permanecia inexpugnada, protegida por altas muralhas, e aparentemente assim permaneceria. Ambos os lados contavam com o auxílio de deuses. Atena, deusa da sabedoria, favorecia os gregos, especialmente Odisseu. Este teria tido a ideia de criar o cavalo, e incumbiu Epeu da tarefa, sendo ajudado por Atena.\n[…]\nAlém disso, construíram-no de modo a que não pudesse, por seu tamanho, passar pelas portas da cidade, para que jamais fosse tomado pelos troianos, tornando-se um novo paládio. Se isso acontecesse os gregos conheceriam a vingança divina, e Troia, a glória.\n[…]\nA expressão \"cavalo de Troia\" se tornou largamente usada na cultura popular, sempre com o sentido de um artifício astuto, enganoso e perigoso, que possibilita a penetração dissimulada em território inimigo, e é a origem da expressão \"um presente grego\", quando recebemos algo de aparência agradável mas que produz más consequências."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Vitória de Pirro",
+      "descricao": "Expressão para uma vitória obtida a um custo tão alto que equivale a uma derrota"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A expressão vitória de Pirro lembra um rei que venceu os romanos a um custo altíssimo. Ele reinava em qual região grega?",
+    "resposta": "Epiro",
+    "distratores": [
+      "Esparta",
+      "Tebas",
+      "Creta"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_p%C3%ADrrica",
+      "https://en.wikipedia.org/wiki/Pyrrhic_victory"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_p%C3%ADrrica",
+        "situacao": "ok",
+        "texto": "Vitória pírrica ou vitória de Pirro é uma expressão utilizada para se referir a uma vitória obtida a alto preço, potencialmente acarretadora de prejuízos irreparáveis.\n[…]\nA expressão recebeu o nome do rei Pirro do Epiro, cujo exército havia sofrido perdas irreparáveis após derrotar os romanos na Batalha de Heracleia, em 280 a.C., e na Batalha de Ásculo, em 279 a.C., durante a Guerra Pírrica. Após a segunda batalha, Plutarco apresenta um relato feito por Dioniso de Halicarnasso:\n[…]\nEsta expressão não se utiliza apenas em contexto militar, mas também está, por analogia, ligada a atividades como economia, política, justiça, literatura, arte e desporto para descrever luta similar, prejudicial ao vencedor.\n[…]\nVitória Cadmeana"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyrrhic_victory",
+        "situacao": "ok",
+        "texto": "A Pyrrhic victory (  PIRR-ik) is a victory gained at such a cost to the victor that it is tantamount to defeat."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Boicote",
+      "descricao": "Recusa organizada de comprar, usar ou negociar com alguém, como forma de protesto"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A palavra boicote vem do sobrenome de um administrador de terras isolado pela comunidade local em 1880. Em que país isso aconteceu?",
+    "resposta": "Irlanda",
+    "distratores": [
+      "Escócia",
+      "Inglaterra",
+      "País de Gales"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Boycott"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Boycott",
+        "situacao": "ok",
+        "texto": "Captain Charles Cunningham Boycott (12 March 1832 – 19 June 1897) was an English land agent whose ostracism by his local community in Ireland gave the English language the term boycott. He had served in the British Army 39th Foot, which brought him to Ireland. After retiring from the army, Boycott worked as a land agent for Lord Erne, a landowner in the Lough Mask area of County Mayo.\n[…]\nThe Land League was very active in the Lough Mask area, and one of the local leaders, Father John O'Malley, had been involved in the labourer's strike in August 1880. The following month, Lord Erne's tenants were due to pay their rents. He had agreed to a 10 per cent reduction owing to a poor harvest, but all except two of his tenants demanded a 25 per cent reduction. Boycott said that he had written to Lord Erne, and that Erne had refused to accede to the tenants' demands.\n[…]\nOn 27 November 1880, Boycott, his family and a local magistrate were escorted from Lough Mask House by members of the 19th Hussars. A carriage had been hired for the family, but no driver could be found for it, and an army ambulance and driver had to be used. The ambulance was escorted to Claremorris railway station, where Boycott and his family boarded a train to Dublin, where Boycott was received with some hostility.\n[…]\nAccording to James Redpath, the verb to boycott was coined by Father O'Malley in a discussion between them on 23 September 1880. The following is Redpath's account:\n[…]\nAccording to Joyce Marlow, the word was first used in print by Redpath in the Inter-Ocean on 12 October 1880. The coining of the word, and its first use in print, came before Boycott and his situation was widely known outside County Mayo. In November 1880, an article in the Birmingham Daily Post referred to the word as a local term in connection to the boycotting of a Ballinrobe merchant.\n[…]\nBoycott (2012), a novel by Colin C. Murphy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Boycott",
+        "situacao": "ok",
+        "texto": "Charles Cunningham Boycott (Norfolk, 12 de Março de 1832 — Suffolk, 19 de Junho de 1897) foi um militar britânico e um Agente de Terras.\n[…]\nSeu ostracismo pela comunidade da Irlanda em 1880, parte de uma campanha pelos direitos dos trabalhadores, deu à língua inglesa o verbo \"boycott\", que significa colocar em ostracismo. Esta palavra inglesa deu origem em português à palavra boicote.\n[…]\nCharles Boycott nasceu em Norfolk, no ano de 1832. A partir de 1850 serviu ao Exército Britânico no 39º da Infantaria. Em 1872 vai à Irlanda trabalhar como Agente de Terras para Lorde Erne (John Crichton, 3o Earl Erne), latifundiário local. Também cultivava suas próprias terras.\n[…]\nQuando Boycott tentou se contrapor à campanha, a mesma Liga lançou um movimento para isolá-lo na comunidade local:\n[…]\nA campanha contra Boycott tornou-se famosa na imprensa britânica: os jornais ingleses enviaram correspondentes ao oeste de Irlanda, dando destaque ao que consideraram como vitimização de um empregado de um Lorde do reino pelos camponeses irlandeses.\n[…]\nCinqüenta \"Orangemen\", membros da organização protestante irlandesa \"Orange Order\", do Condado de Cavan viajaram à propriedade do Lorde Erne para conservar a colheita.\n[…]\nBoycott, estressado, deixou a Irlanda no dia 1 de dezembro de 1880.\n[…]\nFoi praticado, entre outros: por Mahatma Gandhi; pelos anti-Nazistas durante a Segunda Guerra Mundial; e pelos ativistas das campanhas pelos direitos civis nos Estados Unidos e na Irlanda do Norte realizadas na década de 1960.\n[…]\n(em inglês) Charles Boycott\n[…]\nMarlow, Joyce \"Captain Boycott and the Irish\", London, 1973",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Candango",
+      "descricao": "Nome dado aos trabalhadores que construíram Brasília e, depois, aos seus moradores"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os trabalhadores que vieram de todo o país para erguer qual cidade, no fim dos anos cinquenta, ficaram conhecidos como candangos?",
+    "resposta": "Brasília",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Candango"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Candango",
+        "situacao": "ok",
+        "texto": "Candango é o termo pelo qual ficaram conhecidos os operários que trabalharam na obra de construção da nova capital, Brasília, e em toda a infraestrutura necessária para sustentar essa atividade. Com o passar dos anos, passou a ser considerado um gentílico alternativo para os moradores da cidade, se tornando sinônimo de brasiliense.\n[…]\nA Cidade Livre foi a maior e mais representativa desse período; era o centro comercial pulsante de Brasília.Nos planos da Administração Pública estava claro o caráter temporário tanto dos acampamentos quando da contratação dos trabalhadores, que ao finalizar a obra, voltariam para suas cidades. Isso era tão certo, que não houve venda de lotes além do planejamento inicial.\n[…]\nNo início, havia um tom pejorativo em ser chamado de Candango. É sabido que a palavra tem origem em Quimbundo e veio para o Brasil com a cultura dos escravos usada com desprezo para se referir \"aos senhores portugueses dos engenhos de açúcar. Com o tempo, invertido o alvo da depreciação, passou a nomear o mestiço do índio e do negro, sinônimo de cafuso\". mais comum no interior do país, que migrava para outras regiões, promovendo o êxodo.\n[…]\nAtualmente, o gentílico que o cidadão do Distrito Federal se autoatribui é candango, mas o oficial é brasiliense.\n[…]\nApesar do termo ter se tornado uma sinônimo genérico dos habitantes do Distrito Federal, muitos dos candangos originais, os construtores da cidade e outros migrantes, se tornaram parcela importante da população brasiliense. Segundo pesquisa da Companhia de Planejamento do Distrito Federal (Codeplan) divulgada em abril de 2020, 55,3% dos moradores da cidade haviam nascido no Distrito Federal e 44,7% tinham vindo de outros estados.\n[…]\nDos cerca de 1,5 milhão de migrantes, perto de 644 mil vieram da Região Nordeste."
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Sotaque manezinho",
+      "descricao": "Falar típico dos nativos de Florianópolis, marcado pela herança açoriana"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O sotaque manezinho, típico de Florianópolis, tem forte herança de imigrantes vindos de qual arquipélago português?",
+    "resposta": "Açores",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dialeto_florianopolitano",
+      "https://pt.wikipedia.org/wiki/Florian%C3%B3polis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dialeto_florianopolitano",
+        "situacao": "ok",
+        "texto": "O dialeto florianopolitano, popularmente conhecido como manezês ou manezinho, é uma variação da língua portuguesa. O dialeto é usado pelos nativos de Florianópolis, capital de Santa Catarina, e de sua região metropolitana, no Brasil ou de ascendência açoriana plena ou predominante e em cidades próximas da capital mas com ligeiras variações. O dialeto foi originalmente trazido por imigrantes açoria\n[…]\nO isolamento de seus assentamentos feitos em Florianópolis diferem significativamente do português padrão europeu e do português brasileiro.\n[…]\nO dialeto florianopolitano também é de uso comum nos municípios vizinhos à capital, ou seja, da Região Metropolitana de Florianópolis. Este falar é fruto da união do português dos açorianos e, em menor número, madeirenses que chegaram nos meados do século XVIII com o português já pacialmente \"indigenizado\" dos vicentistas e santistas, paulistas que já habitavam a Ilha de Santa Catarina, onde se situa a capital.\n[…]\nUma das principais marcas distintivas deste dialeto é seu léxico particular, em boa parte de origem açoriana. Aqui fornece alguns exemplos:\n[…]\nNo geral, existem diversas fontes na internet com vocabulário manezinho.\n[…]\nDialeto gaúcho\n[…]\nCorrêa, Isaque de Borba. Dicionário Catarinense – Tratado de Dialetologia, Falares, Subfalares Expressões Idiomáticas no Estado Barriga-verde. Florianópolis: Insular, 2000. 200p.\n[…]\nHouaiss, Antônio e Villar, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa (2ª reimpressão – 2007). Rio de Janeiro: Instituto Antônio Houaiss/Objetiva, 2001. 2922p.\n[…]\nRodrigues Filho, Ilson Wilmar. Dicionário de Regionalismos da Ilha de Santa Catarina (e arredores), Florianópolis: Lunardelli, Fundação Franklin Cascaes,1996. 144p."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Florian%C3%B3polis",
+        "situacao": "ok",
+        "texto": "Florianópolis, conhecido coloquialmente como Floripa, é a capital do estado brasileiro de Santa Catarina, na região Sul do país. Florianópolis é também apelidado de \"Ilha da Magia\", decorrente de seus folclóricos contos e histórias de bruxas e criaturas mágicas que habitam na ilha, popularizados pelo escritor Franklin Cascaes.\n[…]\nEm meados do século XVIII, milhares de imigrantes açorianos migraram para a ilha de Santa Catarina. Nessa época, as indústrias de algodão, linho e de mandioca floresceram na ilha e foram implantadas as \"armações\" para pesca da baleia para extração do óleo em Armação da Piedade (Governador Celso Ramos) e Armação do Pântano do Sul (Florianópolis).\n[…]\nEm 1777, no contexto da Guerra Hispano-Portuguesa, os espanhóis, liderados por Pedro de Cevallos, invadiram a ilha de Santa Catarina, que voltou ao domínio português no ano seguinte, pelo Tratado de Santo Ildefonso.\n[…]\nOutros espaços são o Museu de Armas Major Lara Ribas, localizado no Forte Sant'Ana (ao lado da Ponte Hercílio Luz), que expõe artigos bélicos e históricos, a Galeria de Arte e o Museu Universitário da Universidade Federal de Santa Catarina e a galeria do Espaço Cultural Arquipélago, localizado no bairro Agronômica. A Fundação Cultural de Florianópolis Franklin Cascaes (Fundação Franklin Cascaes) foi fundada em 29 de julho de 1987 e hoje está instalada no Forte de Santa Bárbara.\n[…]\nDiferentes esportes, coletivos e individuais, possuem destaque na história de Florianópolis. Anualmente se disputam na cidade etapas do Ironman, além de maratonas, como a Maratona Internacional de Florianópolis, e outras provas, como a Volta à Ilha, maior corrida de revezamento por equipe em extensão da América Latina.\n[…]\nEm 2021, uma segunda equipe, o Açores, se profissionalizou e disputou o Campeonato Catarinense.\n[…]\n«Biblioteca IBGE: Florianópolis» (PDF)"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Talian",
+      "descricao": "Variedade do vêneto falada por descendentes de imigrantes italianos no sul do Brasil"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O talian, variedade do vêneto trazida por imigrantes italianos, é falado sobretudo na serra de qual estado brasileiro?",
+    "resposta": "Rio Grande do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Talian"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Talian",
+        "situacao": "ok",
+        "texto": "O talian ou taliano (também conhecido como vêneto brasileiro e vêneto sul-rio-grandense) é uma variedade da língua vêneta falada no Brasil, sobretudo nos estados do Rio Grande do Sul e de Santa Catarina, e em pontos do Paraná, Mato Grosso e Espírito Santo.\n[…]\nEntre as décadas de 1930 e 1960 o talian experimentou um declínio constante e acentuado. Um movimento de resgate se articulou a partir da década de 1970, quando foi comemorado com grandes festividades o centenário da imigração italiana, coincidindo com o despertar do interesse acadêmico sobre a italianidade no Brasil. Desde então têm sido feitos vários esforços no sentido de recuperar a prática do talian, com significativo sucesso.\n[…]\nFoi nesta época que Júlio Posenato propôs que se chamasse oficialmente o dialeto, até então geralmente chamado \"vêneto brasileiro\", de \"talian\", denominação que foi endossada pelo grande estudioso e lexicógrafo Darcy Luzzatto e acabou se consagrando.\n[…]\nEm 2009 os Governos do Rio Grande do Sul e de Santa Catarina incluíram o talian no rol do Patrimônio Histórico e Cultural dos respectivos estados. O município de Serafina Corrêa foi o primeiro no Brasil a declarar o talian como idioma cooficial no município, ao lado do português, em 2010.\n[…]\nEm decorrência, o vêneto brasileiro evoluiu de forma diferente da variedade falada na Itália, uma vez que incorporou itens lexicais do português e se manteve ligado à maneira como era falado no século XIX. Assim, usa-se o termo talian para diferenciar o vêneto falado no Brasil do dialeto vêneto hoje usado na Itália. Contudo, o talian não é considerado um dialeto crioulo italiano, mas sim uma variante brasileira do dialeto vêneto.\n[…]\nUnião da Serra, Rio Grande do Sul\n[…]\nRio Grande do Sul\n[…]\nDialetos principais do Rio Grande do Sul"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Libras",
+      "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+    "resposta": "França",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais",
+        "situacao": "ok",
+        "texto": "A Língua Brasileira de Sinais (Libras) é a língua de sinais usada por surdos dos centros urbanos brasileiros e legalmente reconhecida como meio de comunicação e expressão. É derivada tanto de uma língua de sinais autóctone, que é natural da região ou do território em que é empregada, quanto da antiga língua de sinais francesa; por isso, é semelhante a outras línguas de sinais da Europa e da Améric\n[…]\nA Libras não é a \"segunda língua oficial do Brasil\". Ela é reconhecida como meio de comunicação e expressão dos surdos sinalizados brasileiros, e, de acordo com a Lei de Libras, ela não substitui a modalidade escrita da língua portuguesa (língua oficial do país). No Brasil, também existem outras línguas de sinais, como a Cena e as Línguas Indígenas de Sinais (LIS).\n[…]\nAtravés de diversos movimentos e muita pesquisa na área, foi legitimada como língua a comunicação gestual entre surdos. Foi apenas no fim do século XX  que os movimentos se intensificaram querendo a oficialização da Língua Brasileira de Sinais, em 1993 o projeto de lei entrou na longa batalha para a regulamentação da Libras no país.\n[…]\nEntre as iniciativas em órgãos públicos para possibilitar a acessibilidade a surdos e cidadãos que se comunicam por sinais está a apresentação de ideias legislativas em Libras pelo Portal e-Cidadania. O Senado se tornou o primeiro órgão do Brasil a receber ideias legislativas por meio de vídeo, em 2019. A primeira ideia legislativa apresentada em Libras já foi transformada em projeto de lei.\n[…]\nPara aquelas crianças que têm como primeira língua a Libras, há uma proposta educacional que contribui para o letramento tanto da primeira língua, quanto da segunda, que neste caso seria a língua portuguesa. É chamado de bilinguismo. Ele possibilita que o indivíduo tenha uma melhor inserção ao meio sociocultural ao que pertence, convivendo entre surdos e ouvintes.\n[…]\nLíngua de sinais kaapor brasileira"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Reforma Ortográfica de 1911",
+      "descricao": "Reforma da ortografia portuguesa feita em Portugal logo após a proclamação da República"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1911, logo após virar república, qual país fez uma reforma ortográfica que trocou o pê agá pelo efe em palavras como farmácia?",
+    "resposta": "Portugal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reforms_of_Portuguese_orthography",
+      "https://pt.wikipedia.org/wiki/Reforma_Ortogr%C3%A1fica_de_1911"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Reforms_of_Portuguese_orthography",
+        "situacao": "ok",
+        "texto": "The Portuguese language began to be used regularly in documents and poetry around the 12th century. Unlike neighboring Romance languages that adopted formal orthographies by the 18th century, the Portuguese language did not have a uniform spelling standard until the 20th century.\n[…]\nThe formation of the First Portuguese Republic in 1911 was motivation for the establishment of a committee led by Aniceto dos Reis Gonçalves Viana to initiate orthographic reform in Portugal and its overseas territories and colonies. Brazil would adopt an orthographic standard based on, but not identical to, the Portuguese standard a few decades later.\n[…]\nIn 1911, the newly formed Portuguese Republic, concerned with improving the literacy of its citizens, charged a commission of philologists with defining a standard orthography for Portuguese. The result was what has come to be known in Portugal as the orthographic reform of Gonçalves Viana.\n[…]\nBrazil was never consulted about the orthographic reform of 1911, and so it did not adopt it. In the decades that followed, negotiations were held between representatives of Brazil and Portugal, with the intent of agreeing on a uniform orthography for Portuguese, but progress was slow. In 1931, Portugal and Brazil finally signed an orthographic agreement, on the basis of which Brazil established its own official orthography, in 1943.\n[…]\n1911: First spelling reform in Portugal.\n[…]\n1943: First orthographic reform of Brazil is delineated in the Vocabulário Ortográfico da Língua Portuguesa, by the Academia Brasileira de Letras.\n[…]\nPortuguese Orthographic Reform of 1911\n[…]\nEstrela, Edite A questão ortográfica – Reforma e acordos da língua portuguesa (1993) Editorial Notícias\n[…]\nOfficial source about Portuguese spelling reforms with studies and guides (in Portuguese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Reforma_Ortogr%C3%A1fica_de_1911",
+        "situacao": "ok",
+        "texto": "A Reforma Ortográfica de 1911 foi uma iniciativa de normalização e simplificação da escrita da língua portuguesa em Portugal.\n[…]\nTendo força de lei em Portugal e tendo sido feita devido à implantação da república numa tentativa de afastar a monarquia do povo, esta reforma modificou completamente o aspeto da língua escrita e levou indiretamente a todos as reformas/acordos ortográficos subsequentes.\n[…]\nDepois a tentativa falha, no sentido de um estabelecimento de um acordo ortográfico interacadêmico em 1911, foi depois da modificação das bases da reforma em 29 novembro de 1920 pelos elementos sobreviventes da comissão de 1911, que a Academia das Ciências de Lisboa e a Academia Brasileira de Letras reforçaram os seus labores para encontrar as bases de uma ortografia comum desde 1924, firmando-se um primeiro Acordo Ortográfico Luso-Brasileiro em 30 de abril de 1931 que praticamente adotava a ortografia portuguesa de 1911, iniciando-se um longo processo de convergência das ortografias dos dois países que dura até hoje.\n[…]\nA adopção desta nova ortografia não se fez sem resistências em Portugal, mas a maior polémica em seu torno estalou no Brasil. Alguns linguistas defendiam a ortografia etimológica em detrimento da ortografia puramente fonética das palavras, alegando que a reforma ortográfica cortava o elo entre os praticantes da língua portuguesa e os escritos deixados pelos seus antepassados.\n[…]\nOrtografia da língua portuguesa\n[…]\nAcordo Ortográfico de 1990\n[…]\nA ortografia do português brasileiro antes da reforma de 1943\n[…]\nO Archeologo Português – exemplo da ortografia pré-1911\n[…]\nFormulário Ortográfico de 1911"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Kristang",
+      "descricao": "Língua crioula de base portuguesa da comunidade luso-descendente da Malásia"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O kristang, crioulo de base portuguesa, nasceu em qual cidade da Malásia, conquistada pelos portugueses em 1511?",
+    "resposta": "Malaca",
+    "distratores": [
+      "Kuala Lumpur",
+      "Penang",
+      "Kuching"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kristang_language"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kristang_language",
+        "situacao": "ok",
+        "texto": "Papia Kristang also known as Malaccan (Creole) Portuguese, or simply as Kristang, is a creole language spoken by the Kristang, a community of people of mixed Portuguese and indigenous Malay ancestry, chiefly in Malaysia (Malacca), Singapore and Perth, Western Australia.\n[…]\nThe lingua franca of Malacca then was a pidginised form of Malay known as Bazaar Malay or Melayu Pasar, used amongst the resident foreign population which then consisted mainly of Javanese, Tamils and Hokkien Chinese. The constant traffic of Portuguese and traders of other origins such as India eventually gave birth to Papia Kristang, one of many Portuguese-derived contact languages which resulted from Portuguese colonial expansion during the fifteenth and sixteenth centuries.\n[…]\nPapia Kristang is facing a steep decline in language use within the community. There has been an apparent language shift to English and Malay due to the reduced prestige and accessibility of Kristang. However, revitalization efforts have begun in recent years in both the Portuguese Settlement in Singapore and Malacca. Such efforts have seen some success, nearly tripling the number of Kristang speakers of varying fluency.\n[…]\nPortuguese dois/dous → Kristang dos 'two'\n[…]\nPortuguese à noite/à noute → Kristang anoti/anuti 'tonight'\n[…]\nText in this article was copied from Alan N. Baxter. 2013. \"Papiá Kristang\". In: Michaelis, Susanne Maria & Maurer, Philippe & Haspelmath, Martin & Huber, Magnus (eds.) The survey of pidgin and creole languages. Volume 2: Portuguese-based, Spanish-based, and French-based Languages. Oxford: Oxford University Press, which is available under a Creative Commons Attribution 3.0 (CC BY 3.0) license.\n[…]\nPapia, Relijang e Tradisang, The Portuguese Eurasians in Malaysia\n[…]\nMalacca Portuguese Settlement"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_crist%C3%A3",
+        "situacao": "ok",
+        "texto": "A língua cristã, português de Malaca, crioulo de Malaca, malaquês, papiá kristáng ou simplesmente papiá, é uma língua crioula de base portuguesa com estrutura gramatical próxima do malaio, falado na Malásia e em Singapura pelos descendentes dos colonizadores portugueses e suas famílias miscigenizadas. Papiá é a pronúncia crioula de papear, i.e., falar, conversar, dizer.\n[…]\nO Kristang é uma língua crioula de base portuguesa falada principalmente na Malásia e em Singapura. Em Malaca, estima-se que haja cerca de 750 falantes, enquanto em Singapura o número é menor, com aproximadamente 100 falantes. Além disso, pequenas comunidades de falantes podem ser encontradas em outras regiões, como em Perth, na Austrália.\n[…]\nAo chegarem a Malaca, os portugueses se depararam com a cultura Penang, fruto da mestiçagem entre comerciantes chineses e malaias. Paulatinamente, o português se mesclou com o malaio e palavras de origem chinesa. Desta fusão das três línguas surge o papiá kristáng, crioulo de base portuguesa com influências fonéticas e gramaticais dos substratos chinês e malaio.\n[…]\nO Kristang originou-se no século XVI, após a conquista de Malaca pelos portugueses em 1511. A interação entre os colonizadores portugueses e a população local malaia resultou em casamentos mistos e na formação de uma comunidade mestiça conhecida como \"Kristang\". Essa comunidade desenvolveu uma língua crioula que incorporava elementos do português e do malaio.\n[…]\nA língua Kristang, uma língua crioula de base portuguesa falada principalmente em Malaca, apresenta características gramaticais que refletem sua origem portuguesa e as influências das línguas locais. A seguir, descreve-se as principais características gramaticais dessa língua.\n[…]\nTradução em português:\n[…]\nÓ Malaca, onde tem sempre ar fresco,\n[…]\nPrištic, Ladislav (2010). Kristang - Crioulo de Base Portuguesa (Dissertação de Bacharelado). 2010",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Acordo Ortográfico de 1990",
+      "descricao": "Tratado que unificou a ortografia dos países de língua portuguesa, em vigor no Brasil desde 2009"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
+    "resposta": "2016",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Acordo_Ortogr%C3%A1fico_de_1990"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acordo_Ortogr%C3%A1fico_de_1990",
+        "situacao": "ok",
+        "texto": "Acordo Ortográfico da Língua Portuguesa de 1990 (abreviado AO90), também denominado Ortografia Unificada da Língua Portuguesa, é um tratado internacional firmado em 1990 com o objetivo de criar uma ortografia unificada para o português, a ser usada por todos os países de língua oficial portuguesa (lusófonos); foi assinado por representantes oficiais de Angola, Brasil, Cabo Verde, Guiné-Bissau, Moç\n[…]\nPara a elaboração do Acordo Ortográfico, reuniram-se na Academia das Ciências de Lisboa, no período de 6 a 12 de outubro de 1990, as seguintes delegações:\n[…]\nNo Brasil, o Acordo Ortográfico de 1990 esteve em vigor, em caráter de transição, no período de 1 de janeiro de 2009 a 31 de dezembro de 2015. A partir de 1 de janeiro de 2016, o acordo entrou em vigor em caráter definitivo e obrigatório.\n[…]\nEm 2012 a grande maioria dos livros didáticos brasileiros estavam de acordo com as novas regras, que se tornariam obrigatórias no Brasil a partir de janeiro de 2013. Em 28 de dezembro de 2012, o governo adiou a obrigatoriedade para 2016.\n[…]\nEm 2013 a Sociedade Portuguesa de Autores (SPA) divulgou que continuará a utilizar a norma ortográfica antiga nos seus documentos e na comunicação escrita com o exterior, por considerar que «este assunto não foi convenientemente resolvido e se encontra longe de estar esclarecido, sobretudo depois de o Brasil ter adiado para 2016 uma decisão final sobre o Acordo Ortográfico e de Angola ter assumido publicamente uma posição contra a entrada em vigor do Acordo».\n[…]\nEm maio de 2015, após o fim do período de transição para Portugal, a diretora-executiva do Instituto Internacional de Língua Portuguesa (IILP), Marisa Mendonça, anunciou que o governo de São Tomé e Príncipe adotaria o Acordo até ao final do ano. Em janeiro de 2016, Marisa Mendonça referiu que a aplicação do Acordo em São Tomé e Príncipe tinha estado a ser \"absolutamente pacífica\"."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Comunidade dos Países de Língua Portuguesa",
+      "descricao": "Organização internacional que reúne os países que têm o português como língua oficial"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi criada, numa cúpula em Lisboa, a Comunidade dos Países de Língua Portuguesa?",
+    "resposta": "1996",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Comunidade_dos_Pa%C3%ADses_de_L%C3%ADngua_Portuguesa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Comunidade_dos_Pa%C3%ADses_de_L%C3%ADngua_Portuguesa",
+        "situacao": "ok",
+        "texto": "Comunidade dos Países de Língua Portuguesa (abreviado CPLP) é uma organização internacional formada por países lusófonos, cujo objetivo é o \"aprofundamento da amizade mútua e da cooperação entre os seus membros\".\n[…]\nA CPLP foi criada em 17 de julho de 1996 por Angola, Brasil, Cabo Verde, Guiné-Bissau, Moçambique, Portugal e São Tomé e Príncipe. No ano de 2002, após conquistar independência, Timor-Leste foi acolhido como país integrante. Em 2014, Guiné Equatorial tornou-se o nono membro da organização, apesar da controvérsia gerada em torno dessa adesão. A população de seus países membros soma aproximadamente 270 milhões de pessoas.\n[…]\nA CPLP foi criada formalmente em 17 de julho de 1996 por Angola, Brasil, Cabo Verde, Guiné-Bissau, Moçambique, Portugal e São Tomé e Príncipe. No ano de 2002, após conquistar independência, Timor-Leste foi acolhido como país integrante durante a IV Conferência de Chefes de Estado e de Governo realizada em Brasília, Brasil.\n[…]\nA bandeira da Comunidade dos Países de Língua Portuguesa ostenta oito asas em formato de círculo. Cada uma dessas asas representa um membro da CPLP. Antes da filiação oficial de Timor-Leste, havia sete asas.[carece de fontes]?\n[…]\nPara alguns sociólogos e demais críticos, a CPLP frustrou as expectativas originais que levaram à sua criação em 1996. Uma delas refere-se ao nível atual de desenvolvimento sócio econômico de seus países-membros, já que nenhum deles, com exceção de Portugal, está no patamar dos 20 países de maiores de Índice de Desenvolvimento Humano (IDH).\n[…]\n«Declaração Constitutiva da Comunidade dos Países de Língua Portuguesa»\n[…]\n«Centro de Análise Estratégica da Comunidade dos Países de Língua Portuguesa - CAE/CPLP»\n[…]\n«Conexão CPLP»"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Goa",
+      "descricao": "Estado da costa oeste da Índia, antiga possessão portuguesa"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Goa, na costa da Índia, ficou mais de quatro séculos sob domínio português. Em que ano a Índia tomou o território?",
+    "resposta": "1961",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Annexation_of_Goa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Annexation_of_Goa",
+        "situacao": "ok",
+        "texto": "The Indian annexation of Goa was the process in which the Republic of India annexed the Portuguese State of India, the then Portuguese Indian territories of Goa, Daman and Diu, starting with the armed action carried out by the Indian Armed Forces in December 1961. In India, this action is referred to as the \"Liberation of Goa\". In Portugal, it is referred to as the \"Invasion of Goa\".\n[…]\nOn 24 November 1961, Sabarmati, a passenger boat passing between the Indian port of Kochi and the Portuguese-held island of Anjidiv, was fired upon by Portuguese ground troops, resulting in the death of a passenger and injuries to the chief engineer. The action was precipitated by Portuguese fears that the boat carried a military landing party intent on storming the island. The incidents lent themselves to fostering widespread public support in India for military action in Goa.\n[…]\n(1) Called for the immediate cessation of hostilities; (2) Called upon India to withdraw her forces immediately to \"the positions prevailing before Dec. 17, 1961.\" (3) Urged India and Portugal \"to work out a permanent solution of their differences by peaceful means in accordance with the principles embodied in the Charter\"; and (4) Requested the U.N. Secretary-General \"to provide such assistance as may be appropriate.\"\n[…]\nWhen they received news of the fall of Goa, the Portuguese government formally severed all diplomatic links with India and refused to recognise the incorporation of the seized territories into the Indian Republic. An offer of Portuguese citizenship was instead made to all Goan natives who wished to emigrate to Portugal rather than remain under Indian rule. This was amended in 2006 to include only those who had been born before 19 December 1961.\n[…]\nAlvernaz retired to the Azores but remained titular Patriarch until resigning in 1975 after Portuguese recognition of the 1961 annexation."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Invas%C3%A3o_de_Goa",
+        "situacao": "ok",
+        "texto": "Anexação de Goa foi o processo no qual a União Indiana anexou os antigos territórios do Estado Português da Índia de Goa, Damão e Diu, começando com uma intervenção militar realizada pelas Forças Armadas da Índia em dezembro de 1961. Na Índia, esta ação é referida como a \"Libertação de Goa\". Em Portugal e em outros lugares, é referida como a \"Invasão de Goa\". Após o fim do domínio português em 196\n[…]\nEm 8 de junho de 1962, o governo militar foi substituído pelo governo civil quando o governador indicou um Conselho Consultivo informal de 29 membros nomeados para auxiliá-lo na administração do território.\n[…]\nA \"ação armada\" foi chamada de Operação Vijay (que significa \"Vitória\") pelas Forças Armadas da Índia e envolveu ataques aéreos, marítimos e terrestres por mais de 36 horas. O conflito durou três dias, e vinte e dois indianos e trinta portugueses foram mortos nos combates. Na Índia, a ação foi vista como uma libertação do território historicamente indiano, enquanto Portugal a considerou como uma agressão contra o solo nacional e seus cidadãos.\n[…]\nA intervenção representou uma vitória decisiva para a Índia e acabou com o domínio português de mais de 451 anos em Goa, Damão, Diu, Gogolá, Simbor e na ilha de Anjediva.\n[…]\nEstado Português da Índia\n[…]\nAcção da Marinha Durante a Invasão do Estado da Índia Revista da Armada\n[…]\nEnfermeiras Pára-quedistas \"Evacuação de Civís pelas Enfermeiras Pára-Quedistas Portuguesas\"\n[…]\n«Telo de Mascarenhas recordando a rendição da tropa portuguesa em Goa»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Libras",
+      "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+    "resposta": "2002",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais",
+        "situacao": "ok",
+        "texto": "A Língua Brasileira de Sinais (Libras) é a língua de sinais usada por surdos dos centros urbanos brasileiros e legalmente reconhecida como meio de comunicação e expressão. É derivada tanto de uma língua de sinais autóctone, que é natural da região ou do território em que é empregada, quanto da antiga língua de sinais francesa; por isso, é semelhante a outras línguas de sinais da Europa e da Améric\n[…]\nA Libras não é a \"segunda língua oficial do Brasil\". Ela é reconhecida como meio de comunicação e expressão dos surdos sinalizados brasileiros, e, de acordo com a Lei de Libras, ela não substitui a modalidade escrita da língua portuguesa (língua oficial do país). No Brasil, também existem outras línguas de sinais, como a Cena e as Línguas Indígenas de Sinais (LIS).\n[…]\nApenas no ano de 2002 a língua brasileira de sinais foi reconhecida como meio legal de comunicação e expressão, através da Lei 10.436, de 24 de abril de 2002, apesar de não poder substituir a modalidade escrita da língua portuguesa. Em 2003 foi aprovada a Portaria nº 3.284, que dispõe sobre a acessibilidade dos surdos dentro das universidades brasileiras. No ano seguinte, em 2004, foi ratificado o Decreto nº 5.296, o qual estabeleceu mais prerrogativas legais de acessibilidade.\n[…]\nA Libras foi reconhecida como a língua oriunda das comunidades surdas do país, através da lei nº10.436/2002, garantido o seu direito de reconhecimento como língua de manifestação e expressão das pessoas surdas no acesso à educação, à saúde, à cultura e ao trabalho.\n[…]\nAlém de ser reconhecida a nível nacional desde 2002, a Libras também foi oficializada a nível municipal em Belo Horizonte, Curitiba, Ouro Preto e Salvador. No Rio de Janeiro, o ensino de Libras foi oficializado no currículo da rede municipal de ensino.\n[…]\n24 de abril foi oficializado como o Dia Nacional da Língua Brasileira de Sinais.\n[…]\nLíngua de sinais\n[…]\nLíngua de sinais kaapor brasileira"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Carta de Pero Vaz de Caminha",
+      "descricao": "Carta escrita em 1500 ao rei Manuel I relatando a chegada da frota de Cabral ao Brasil"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Escrita em 1500, a carta de Pero Vaz de Caminha ficou inédita por muito tempo. Em que século ela foi publicada pela primeira vez?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha",
+        "situacao": "ok",
+        "texto": "A Carta de Pero Vaz de Caminha é o documento no qual Pero Vaz de Caminha registrou as suas impressões sobre a terra que posteriormente viria a ser chamada de Brasil. É o primeiro documento escrito da história do Brasil. Costuma ser considerada marco inicial da obra literária brasileira, apesar de, formalmente, ser documento de mero registro, já que traz em suas linhas a escrita da época, o estilo;\n[…]\nA carta conservou-se inédita por mais de dois séculos no Arquivo Nacional da Torre do Tombo, em Lisboa. Foi descoberta, em 1773, por José de Seabra da Silva e publicada pelo historiador Manuel Aires de Casal na sua Corografia Brasílica (1817).\n[…]\nAlém da Carta de Pero Vaz de Caminha, importante documento na historiografia do país, o primeiro texto impresso que se refere exclusivamente ao descobrimento do Brasil é o panfleto anônimo, escrito em italiano, \"Copia di una lettera del Re di Portogallo mandata al Re di Castella del viaggio & successo dell' India\" (Cópia de uma carta do Rei de Portugal mandada ao Rei de Castela acerca da viagem e sucesso da Índia), publicada inicialmente em Roma, em 23 de outubro de 1505, por mestre João de Basicken e logo a seguir em Milão, no mesmo ano:\n[…]\n\"Lembra William Brooks Greenlee que 'a autenticidade desta carta é contestável, mas é o mais antigo relato impresso da viagem de Cabral hoje existente.' Apesar disso, como já ressaltou Rubens Borba de Moraes, 'para os brasileiros este panfleto guarda grande interesse, visto que contém as primeiras notícias impressas da descoberta do Brasil pelo \"Capitano Generale Petro Alves Cabrale...alla quale terra d'Santa Croce pose il nome...\"  \" (in: Brasiliana da Biblioteca Nacional. p. 33)\n[…]\nDescoberta do Brasil\n[…]\nA carta de Pero Vaz de Caminha\n[…]\nCarta de Pero Vaz de Caminha: História e análise do texto, em UOL Educação.\n[…]\n«Carta de Pêro Vaz de Caminha - Arquivo Nacional Torre do Tombo»\n[…]\nUma Revisitação da Carta de Caminha"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Dicionário Aurélio",
+      "descricao": "Dicionário da língua portuguesa de Aurélio Buarque de Holanda Ferreira, cujo nome virou sinônimo de dicionário no Brasil"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O dicionário Aurélio ficou tão popular que virou sinônimo de dicionário no Brasil. Em que década saiu sua primeira edição?",
+    "resposta": "Década de 1970",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aur%C3%A9lio_Buarque_de_Holanda_Ferreira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aur%C3%A9lio_Buarque_de_Holanda_Ferreira",
+        "situacao": "ok",
+        "texto": "Aurélio Buarque de Holanda Ferreira (Passo de Camaragibe, 3 de maio de 1910 – Rio de Janeiro, 28 de fevereiro de 1989) foi um lexicógrafo, professor, tradutor, ensaísta e crítico literário brasileiro. Foi o autor do Dicionário Aurélio da Língua Portuguesa e foi membro da Academia Brasileira de Letras.\n[…]\nAurélio Buarque de Holanda também publicou artigos, contos e crônicas na imprensa carioca. De 1939 a 1943 atuou como secretário da Revista do Brasil. Em 1941, deu início a seu trabalho de lexicógrafo, colaborando com o Pequeno Dicionário da Língua Portuguesa. Em 1942 lançou o livro de contos Dois Mundos, que foi premiado dois anos depois pela Academia Brasileira de Letras. No ano seguinte, trabalhou no Dicionário Enciclopédico do Instituto Nacional do Livro.\n[…]\nA preocupação com a língua portuguesa e o amor pelas palavras levaram-no a estudar e pesquisar o idioma durante muitos anos com o objetivo de lançar seu próprio dicionário. Finalmente, em 1975, foi publicado o Novo Dicionário da Língua Portuguesa, conhecido como Dicionário Aurélio ou somente \"Aurelião\" ou \"Aurélio\". Em 1977 publicou o Minidicionário da Língua Portuguesa, que também é chamado de \"Miniaurélio\".\n[…]\nModesto, ele vetou a inclusão, na sua obra, do verbete \"Aurélio\" como sinônimo de dicionário. Em 1989 lançou o Dicionário Aurélio Infantil da Língua Portuguesa, com ilustrações de Ziraldo. O autor também traduziu várias obras, como Poemas de Amor, de Amaru; Pequenos Poemas em Prosa, de Charles Baudelaire; e os contos para a coleção Mar de Histórias.\n[…]\nRoteiro Literário do Brasil e de Portugal (antologia literária da língua portuguesa, em colaboração com Álvaro Lins, 1956).\n[…]\nNovo Dicionário da Língua Portuguesa (1975).\n[…]\nMinidicionário da Língua Portuguesa (1977).\n[…]\nDicionário Aurélio\n[…]\nMonumento Aurélio Buarque de Holanda"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Dia de Portugal",
+      "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Portugal comemora seu dia nacional na data da morte de Luís de Camões, o poeta de Os Lusíadas. Que data é essa?",
+    "resposta": "10 de junho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Portugal_Day",
+      "https://pt.wikipedia.org/wiki/Dia_de_Portugal,_de_Cam%C3%B5es_e_das_Comunidades_Portuguesas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Portugal_Day",
+        "situacao": "ok",
+        "texto": "Portugal Day, officially Portugal, Camões, and Portuguese Communities Day (Portuguese: Dia de Portugal, de Camões e das Comunidades Portuguesas), is the national day of Portugal celebrated annually on 10 June. It is one of the public holidays in Portugal and celebrated by Portuguese people throughout the world. It commemorates the death on 10 June 1580 of Luís de Camões, a poet and national litera\n[…]\nDuring the authoritarian Estado Novo regime in the 20th century, Camões was used as a symbol for the Portuguese nation. In 1944, at the dedication ceremony of the National Stadium in Oeiras (near Lisbon), Prime Minister António de Oliveira Salazar referred to 10 June as Dia da Raça (Day of the Portuguese Race). The notion of a Portuguese \"race\" served his nationalist purposes.\n[…]\nThe 2012 observance was held on 10 June in Kennington Park. The officials and athletes representing Portugal at the 2012 Summer Olympics were based in Little Portugal near Kennington Park, and attended Portugal Day 2012 in Kennington Park.\n[…]\nIn Newark, New Jersey, the Portugal Day Festival in Newark is held on the weekend closest to 10 June. Organized by the Bernardino Coutinho Foundation from 1979 to 2010, since 2011 the festival has been organized by the Union of Portuguese-American Clubs of New Jersey (UCLANJ: União de Clubes Luso-Americanos de New Jersey).\n[…]\nIn Mineola, New York, the Nassau County Portugal Day Celebration is held annually at the Theodore Roosevelt Legislative & Executive Building by the Offices of the County Executive Ed Mangano, Comptroller George Maragos and a dozen Portuguese-American clubs and organizations. In 2013, the event was held on Monday 10 June 2013 and featured the Ambassador of Portugal to the United States, Nuno Brito, as the Keynote Speaker.\n[…]\nDay of Portugal in New York, United States\n[…]\nPortugal Day Celebration in Nassau County, United States[link removed]"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_de_Portugal,_de_Cam%C3%B5es_e_das_Comunidades_Portuguesas",
+        "situacao": "ok",
+        "texto": "O Dia de Portugal, de Camões e das Comunidades Portuguesas celebra a data de 10 de Junho de 1580, data da morte de Camões, sendo também este o dia dedicado ao Anjo Custódio de Portugal. Este é também o dia da Língua Portuguesa, dos cidadãos e das Forças Armadas.\n[…]\nA primeira referência ao caráter festivo do dia 10 de Junho é no ano 1880 por um decreto real de D. Luís I que declara \"Dia de Festa Nacional e de Grande Gala\" para comemorar apenas nesse ano os 300 anos da hipotética data da morte de Luís de Camões, 10 de junho de 1580. A data foi comemorada nesse ano em grande parte devido à iniciativa de Teófilo Braga, destacado intelectual republicano.\n[…]\nA 4 de Janeiro de 1952 procede-se à revisão dos feriados nacionais através do Decreto n.º 38.596. Este institui o dia 10 de Junho como \"Dia de Portugal\", consagrado à Festa Nacional, comemorativo de Camões, pelo alto valor nacional e pela projecção universal da obra do nosso grande épico, na qual se consubstanciam as maiores glórias dos Descobrimentos.\n[…]\nO 10 de Junho começou a ser particularmente exaltado com o Estado Novo, o regime instituído em Portugal em 1933 sob a direção de António de Oliveira Salazar. A generalização dessas comemorações deveu-se bastante à cobertura dos meios de comunicação social.\n[…]\nAté ao 25 de Abril de 1974, o 10 de Junho era conhecido como o Dia de Camões, de Portugal e da Raça, este último epíteto criado por Salazar na inauguração do Estádio Nacional do Jamor em 1944. A partir de 1963, o 10 de Junho tornou-se numa homenagem às Forças Armadas Portuguesas, numa exaltação da guerra e do poder colonial. Com uma filosofia diferente, a Terceira República converteu-o no Dia de Portugal, de Camões e das Comunidades Portuguesas em 1978."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Língua portuguesa",
+      "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+    "resposta": "Dom Dinis",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dinis_I_de_Portugal"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dinis_I_de_Portugal",
+        "situacao": "ok",
+        "texto": "D. Dinis de Portugal, o Lavrador e o Rei-Trovador (Lisboa, 9 de outubro de 1261 – Santarém, 7 de janeiro de 1325), foi Rei de Portugal e do Algarve de 1279 até sua morte. Era o filho mais velho do rei D. Afonso III de Portugal e sua segunda esposa D. Beatriz de Castela.\n[…]\nA língua galego-portuguesa, derivada do latim vulgar, desenvolvera-se pelo menos desde o século X, e era já utilizada para os versos dos cantares trovadorescos de autores provenientes tanto da Galiza como da própria corte do Reino de Castela, e sabe-se que o próprio Afonso X de Castela, avô de Dinis, era também trovador e tem entre as suas composições algumas escritas nesta língua.O seu pai trouxera de França as novas correntes literárias, pelo que Dinis pôde testemunhar o florescimento desta arte, que acompanhava as restantes cortes peninsulares e talvez também europeias.\n[…]\nEm 1290, Dinis declara o galego-português como língua oficial do Reino de Portugal, sendo consequentemente o seu uso estendido às fórmulas da prosa notarial.\n[…]\nA produção de cereais excede em breve o consumo interno e Portugal torna-se um reino exportador, estabelecendo relações comerciais com portos da Catalunha, Bretanha, Flandres e Inglaterra, assinando em 1308 o primeiro tratado comercial com Eduardo II de Inglaterra. Para estes portos exporta-se também vinho, azeite, sal, peixe salgado e fruta seca. Dinis ordena ainda a exploração de minas de cobre, prata, estanho e ferro.\n[…]\nO estilo oficial de D. Dinis enquanto rei era: \"Pela Graça de Deus, Dinis I, Rei de Portugal e do Algarve\".\n[…]\nD. Dinis Trovador medieval, por Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas Medievais Galego Portuguesas [base de dados online, Lisboa: Instituto de Estudos Medievais, FCSH/NOVA"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Arte de Gramática da Língua mais Usada na Costa do Brasil",
+      "descricao": "Gramática da língua tupi publicada em 1595 pelo jesuíta José de Anchieta"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que padre jesuíta, um dos fundadores de São Paulo, escreveu uma gramática da língua tupi publicada em 1595?",
+    "resposta": "José de Anchieta",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Anchieta"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Anchieta",
+        "situacao": "ok",
+        "texto": "José de Anchieta SJ (San Cristóbal de La Laguna, 19 de março de 1534 – Reritiba, 9 de junho de 1597) foi um padre jesuíta espanhol que ingressou na Companhia de Jesus no Reino de Portugal, ficando ao seu serviço, e um dos fundadores das cidades brasileiras de São Paulo e do Rio de Janeiro.\n[…]\nAnchieta ficou menos de três meses em Salvador, partindo para a Capitania de São Vicente no princípio de outubro, com o padre jesuíta Leonardo Nunes, onde conheceria Manuel da Nóbrega e permaneceria por doze anos. Anchieta abriu os caminhos do sertão, aprendendo a língua tupi, catequizando e ensinando latim aos índios. Escreveu a primeira gramática sobre uma língua do tronco tupi: a \"Arte da Gramática da Língua Mais Falada na Costa do Brasil\", que foi publicada em Coimbra em 1595.\n[…]\n\"Arte de Gramática da Língua mais Usada na Costa do Brasil\", impressa em Coimbra em 1595 por Antonio de Mariz. É a primeira gramática contendo os fundamentos da língua tupi. Apresenta folha de rosto com o emblema da Companhia de Jesus. Desta edição, conhecem-se apenas sete exemplares, dois dos quais encontram-se na Biblioteca Nacional do Brasil: o primeiro pertenceu ao imperador dom Pedro II (1840-1889) e o outro é oriundo da coleção de José Carlos Rodrigues.\n[…]\nA Basílica de São José de Anchieta e o Museu Anchieta, no Pátio do Colégio, é um dos mais importantes espaços do centro histórico da cidade de São Paulo. Os atuais edifícios foram reconstruídos entre 1954 e 1979 (após o IV centenário da cidade) depois de anos sendo Palácio do Governo, louvando a história de um dos fundadores da capital paulista e maior cidade do Brasil.\n[…]\nMonumento ao Padre José de Anchieta em Tenerife\n[…]\nLista de santos brasileiros\n[…]\nA Arte de Anchieta transcrita por Emerson José Silveira da Costa, na Biblioteca Digital Curt Nimuendajú"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Emília no País da Gramática",
+      "descricao": "Livro infantil de 1934 em que a boneca Emília e sua turma visitam um país feito de palavras"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1934, que escritor levou a boneca Emília e sua turma a um passeio pelo País da Gramática?",
+    "resposta": "Monteiro Lobato",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Em%C3%ADlia_no_Pa%C3%ADs_da_Gram%C3%A1tica"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Em%C3%ADlia_no_Pa%C3%ADs_da_Gram%C3%A1tica",
+        "situacao": "ok",
+        "texto": "Emília no país da Gramática é um livro infantil escrito por Monteiro Lobato e publicado em 1934. Seu lugar de publicação foi na editora ABC em novembro de 1934.\n[…]\nAlguns críticos afirmam que o motivo para Lobato escrever este livro foi \"vingança\", por ter sido reprovado aos quatorze anos de idade na prova de Português.\n[…]\nhistória começa com Pedrinho passando as férias no sítio de sua avó, Dona Benta. Mesmo em recesso, sua avó insiste em ajuda-lo a estudar gramática, mesmo o menino achando muito chato a matéria. Emília, a boneca de pano, assistia às aulas e então sugere que ao invés de estudar de um modo monótono e chato, eles poderiam ir ao País da Gramática. Então, o grupo formado por Pedrinho, Narizinho, Emília e Visconde de Sabugosa monta no rinoceronte gramático Quindim e partem para a aventura.\n[…]\nNo final do passeio, Emília não deixou de reparar em Visconde, que parecia estar tramando alguma coisa...\n[…]\nO verbo SER levou Emília para conhecer as conjunções que ligam grupos de palavras, as orações. depois\n[…]\nA Dona SINTAXE fez uma pergunta para cada um sobre uma Oração, se orgulhou do que os ensinou e foi embora. Então foram para as pontuações onde Emília não só aprendeu como levou vários tipos de pontuação no bolso de Pedrinho.\n[…]\nEmília foi até a casa velha ETIMOLÓGICA e conversaram para tentar mudar a forma de escrever dela, mas a velha não concordou e Emília saiu brava então começou a conversar e tirar as letras das palavras mandando todas atualizarem. Quando a velha viu o que a boneca havia feito resolveu arrumar tudo como era, mas a Emília só de ver a velha, que subiu em uma árvore e concordou em deixar tudo atualizado."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Academia Brasileira de Letras",
+      "descricao": "Instituição fundada no Rio de Janeiro em 1897 para cultivar a língua e a literatura nacionais"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+    "resposta": "Machado de Assis",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Academia_Brasileira_de_Letras"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Academia_Brasileira_de_Letras",
+        "situacao": "ok",
+        "texto": "Academia Brasileira de Letras (ABL; ) GCSE • MHSE é uma instituição literária brasileira fundada na cidade do Rio de Janeiro em 20 de julho de 1897 pelos escritores Machado de Assis, Lúcio de Mendonça, Inglês de Sousa, Olavo Bilac, Afonso Celso, Graça Aranha, Medeiros e Albuquerque, Joaquim Nabuco, Teixeira de Melo, Visconde de Taunay e Ruy Barbosa. É composta por quarenta membros efetivos e perpé\n[…]\nJá na primeira reunião, Machado de Assis foi aclamado presidente.\n[…]\nEm 28 de janeiro de 1897, ocorreu a sétima e última sessão preparatória, oficializando a criação da Academia. Entre os presentes estavam grandes nomes da literatura brasileira, como Araripe Júnior, Artur Azevedo, Graça Aranha, Guimarães Passos, Inglês de Sousa, Joaquim Nabuco, José Veríssimo, Lúcio de Mendonça, Machado de Assis, Medeiros e Albuquerque, Olavo Bilac, Pedro Rabelo, Rodrigo Otávio, Silva Ramos, Raimundo Correia, Teixeira de Melo e o Visconde de Taunay.\n[…]\nOs estatutos foram assinados por Machado de Assis como presidente; Joaquim Nabuco, secretário-geral; Rodrigo Otávio, 1.º secretário; Silva Ramos, 2.º secretário; e Inglês de Sousa, tesoureiro. A sessão inaugural da Academia Brasileira de Letras ocorreu em 20 de julho de 1897, em uma sala do museu Pedagogium, na Rua do Passeio. Dezesseis acadêmicos estiveram presentes.\n[…]\nMachado de Assis fez a alocução de abertura, Rodrigo Otávio leu a memória dos atos preparatórios e Joaquim Nabuco proferiu o discurso inaugural.\n[…]\nDentre os membros, é eleito aquele para presidir a academia por um período. O primeiro presidente da ABL foi Machado de Assis, eleito por aclamação e também seu \"presidente perpétuo\". Durante quase 34 anos consecutivos, Austregésilo de Athayde presidiu o Silogeu (1959-1993), imprimindo, na sua gestão, um caráter de vitaliciedade ao cargo que fugia aos princípios originais, e que foi abandonado por seus sucessores."
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Prêmio Camões",
+      "descricao": "Principal prêmio literário da língua portuguesa, concedido anualmente desde 1989"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O Prêmio Camões, o mais importante prêmio literário da língua portuguesa, foi criado em 1988 pelos governos de quais dois países?",
+    "resposta": "Brasil e Portugal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+        "situacao": "ok",
+        "texto": "O Prémio Camões (português europeu) ou Prêmio Camões (português brasileiro) é um prémio literário instituído pelos Governos de Portugal e do Brasil em 1988 com vista a estreitar os laços culturais entre os vários países lusófonos e enriquecer o património literário e cultural da Língua Portuguesa. Atribuído anualmente desde 1989, é o maior galardão outorgado no âmbito da Literatura em Língua Portu\n[…]\nÉ atribuído aos autores, pelo conjunto da obra, que contribuíram para o enriquecimento do património literário e cultural da Língua Portuguesa. O valor monetário do prémio é presentemente de 100 000€, um dos mais elevados a nível mundial entre os prémios literários.. Este valor é concedido ao premiado por meio de subsídio do Governo de Portugal e da Fundação Biblioteca Nacional do Brasil.\n[…]\nEste prémio é considerado o mais importante da Literatura a premiar um autor de Língua Portuguesa pelo conjunto da sua obra. Destina-se a autores de Língua Portuguesa, qualquer que seja a sua nacionalidade.\n[…]\nO Prémio Camões foi instituído inicialmente pelo Protocolo Adicional ao Acordo Cultural entre o Governo da República Portuguesa e o Governo da República Federativa do Brasil, de 7 de Setembro de 1966, que cria o Prémio Camões, assinado em Brasília, em 22 de Junho de 1988, aprovado por Portugal através do Decreto n.º 43/88, de 30 de Novembro.\n[…]\nO júri é constituído por 6 membros, cujo mandato é de 2 anos. Os Governos de Portugal e do Brasil designam 2 membros cada, sendo os 2 membros restantes designados de comum acordo de entre personalidades dos restantes países lusófonos. Assim sendo, é um dos raros prêmios literários que busca representar toda a comunidade de países lusófonos em seu corpo de jurados, assim como ocorre com o Prêmio Oceanos e o Prémio Internacional Pena de Ouro.\n[…]\nNobel de Literatura\n[…]\nPrêmio Goethe\n[…]\nPrêmio Goncourt\n[…]\nPágina do Prêmio Camões no site Governo do Brasil (em português)"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Ovo de Colombo",
+      "descricao": "Expressão para uma solução que parece óbvia depois que alguém a encontra"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma anedota famosa, que navegador fez um ovo parar em pé amassando a ponta, dando origem a uma expressão para soluções simples?",
+    "resposta": "Cristóvão Colombo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ovo_de_Colombo",
+      "https://en.wikipedia.org/wiki/Egg_of_Columbus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ovo_de_Colombo",
+        "situacao": "ok",
+        "texto": "O Ovo de Colombo é uma famosa metáfora proverbial do folclore italiano contada em toda a Espanha para referir-se a soluções muito difíceis de se chegar, mas que quando reveladas mostram-se, paradoxalmente, óbvias e simples. e o nome pelo qual ficou conhecido um dispositivo criado por Nikola Tesla que demonstrava os princípios do motor de indução e do campo magnético rotatório por colocar um ovo de\n[…]\nConta-se que Cristóvão Colombo, em um banquete comemorativo pela descoberta da América organizado pelo Cardeal Mendoza, foi perguntado se acreditava que outra pessoa seria capaz de fazer o mesmo, se ele não tivesse feito. Para explicar, Colombo desafiou os presentes a colocar um ovo de galinha fresco de pé sobre uma das suas extremidades.\n[…]\nOs historiadores, assim como muitos (por exemplo, Voltaire), afirmam que não foi Colombo o criador do truque do ovo, mas sim o arquiteto italiano Filippo Brunelleschi alguns anos antes. Sendo Colombo italiano, este conhecia a história do ovo, e ao reproduzir o feito para os espanhóis do banquete, ganhou o crédito pela autoria.\n[…]\nA história do ovo de Colombo foi publicada pela primeira vez na obra History of the New World, de Girolano Benzoni, em 1565, enquanto a história semelhante do ovo de Brunelleschi fora contada cinquenta anos antes por Giorgio Vasari, no livro Le vite de' più eccellenti pittori, scultori e architettori, de 1550.\n[…]\nOs arquitetos protestaram, alegando que também conseguiriam isto, e Filipo respondeu-lhes que da mesma forma poderiam construir o domo após olharem seu modelo. Assim, o domo foi construído sob responsabilidade de Filipo, e ficou pronto anos antes da viagem de Colombo.\n[…]\nOutros, porém, atribuem a história ao construtor Juanelo Turriano, que chegou a Espanha como relojoeiro de Carlos V. Alguns situam a história do Ovo de Colombo antes do descobrimento da América."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Egg_of_Columbus",
+        "situacao": "ok",
+        "texto": "An egg of Columbus or Columbus's egg (Italian: uovo di Colombo [ˈwɔːvo di koˈlombo]) refers to a seemingly impossible task that becomes easy once understood. The expression refers to an apocryphal story, dating from at least the 16th century, in which it is said that Christopher Columbus, having been told that finding a new trade route was inevitable and no great accomplishment, challenges his cri"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Pomo da discórdia",
+      "descricao": "Expressão para o motivo de uma briga, vinda da maçã de ouro do mito grego"
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No mito grego, que deusa lançou entre os convidados de um casamento o pomo da discórdia, uma maçã de ouro destinada à mais bela?",
+    "resposta": "Éris",
+    "distratores": [
+      "Hera",
+      "Atena",
+      "Afrodite"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apple_of_Discord",
+      "https://pt.wikipedia.org/wiki/%C3%89ris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Apple_of_Discord",
+        "situacao": "ok",
+        "texto": "In Greek mythology, the Apple of Discord (Ancient Greek: μῆλον τῆς Ἔριδος) was a golden apple thrown by Eris, the goddess of strife, at the wedding of Peleus and Thetis. She was not invited to the wedding and threw it out of anger to ruin the gathering (after showing up uninvited). It sparked a vanity-fueled dispute among Hera, Athena, and Aphrodite that led to the Judgement of Paris and ultimatel\n[…]\nIn common parlance, the \"apple of discord\" is the core, kernel, or crux of an argument, or a small matter that could lead to a bigger dispute.\n[…]\nIn the Eixample district of Barcelona, there is a block nicknamed in Spanish La manzana de la discordia (Catalan: Illa de la Discòrdia). The reason for this usage is that the word manzana means both \"apple\" and \"city block\" in Spanish. It was so named (\"block of discord\") because it features four different interpretations of Modernisme architecture: Antoni Gaudí's Casa Batlló, Lluís Domènech i Montaner's Casa Lleó Morera, Josep Puig i Cadafalch's Casa Amatller, and Enric Sagnier's Casa Mulleras.\n[…]\nIn some later sources, Eris inscribed on the apple \"for the fairest\" or \"to the most beautiful\" before tossing it. The most popular version of the inscription in Greek is τῇ καλλίστῃ (transliterated: tē(i) kallistē(i), \"for/to the most beautiful\"). Καλλίστῃ is the dative singular of the feminine superlative of καλός, \"beautiful\". In Latin sources, the word is formosissima.\n[…]\nDiscordianism"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%89ris",
+        "situacao": "ok",
+        "texto": "Éris (em grego:  Ἔρις, transl.: Éris), na mitologia grega, era a deusa da discórdia. Filha de Nix sozinha. Seu equivalente romano é Discórdia. O oposto grego de Éris é Harmonia, cuja contraparte latina é Concórdia. Homero igualou-a com a deusa da guerra Ênio, cuja contraparte romana é Belona. O planeta anão Éris é nomeado sobre a deusa. Foi desposada pelo deus primordial Éter (Deus do espaço imate\n[…]\n\"(...) a Discórdia infatigável,\n[…]\nA lenda mais famosa referente a Éris relata o seu papel ao provocar a Guerra de Troia. As deusas Hera, Atena e Afrodite haviam sido convidadas, juntamente com o restante do Olimpo, para o casamento forçado de Peleu e Tétis, que viriam a ser os pais de Aquiles, mas Éris fora desdenhada por conta de seu temperamento controvertido — a discórdia, naturalmente, não era bem-vinda ao casamento.\n[…]\nMesmo assim, compareceu aos festejos e lançou no meio dos presentes o pomo da discórdia, uma maçã dourada com a inscrição καλλίστη (kallisti, ou \"à mais bela\"), fazendo com que as três deusas discutissem entre si acerca da destinatária. Príamo, o rei de Troia foi o escolhido por Zeus para resolver a contenta, que não queria também sofrer a cólera das duas perdedoras da escolha.\n[…]\nO mito do pomo da discórdia é particularmente significativo para os discordianos. A maçã dourada com a inscrição \"kallisti\" tornou-se elemento central de sua simbologia, representada no Chao Sagrado, principal símbolo do movimento. A partir do episódio mitológico no casamento de Peleu e Tétis, desenvolveram a chamada Lei do Crescimento Erístico, segundo a qual a tentativa de impor ordem resulta paradoxalmente em maior desordem.\n[…]\nDiferentemente da interpretação tradicional que retrata Éris como força destrutiva, os discordianos a celebram como patrona da ruptura com convenções opressivas, utilizando humor e paradoxo como ferramentas de questionamento filosófico."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Lavar as mãos (expressão)",
+      "descricao": "Expressão para quem se exime de responsabilidade sobre uma decisão"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A expressão lavar as mãos, para fugir de uma responsabilidade, lembra o gesto de qual governador romano no julgamento de Jesus?",
+    "resposta": "Pôncio Pilatos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/P%C3%B4ncio_Pilatos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%B4ncio_Pilatos",
+        "situacao": "ok",
+        "texto": "Pôncio Pilatos, também conhecido simplesmente como Pilatos (em latim: Pontius Pilatus; em grego: Πόντιος Πιλᾶτος; romaniz.: Póntios Pilátos), foi governador ou prefeito (em latim: praefectus) da província romana da Judeia entre os anos 26 e 36 d.C. Na tradição cristã, é conhecido por ter sido o juiz que não interveio contra os fariseus na condenação de Jesus Cristo a morrer na cruz.\n[…]\nO papel do governador romano na condenação de Jesus à morte também é atestado pelo historiador romano Tácito, que, ao relatar a perseguição de Nero aos cristãos, explica: \"[Cristo], de quem o nome teve sua origem, sofreu a pena extrema durante o reinado de Tibério nas mãos de um de nossos procuradores, Pôncio Pilatos, e uma superstição mais perniciosa, assim contida no momento, novamente irrompeu não apenas na Judeia, a primeira fonte do mal, mas também em Roma [...]\" (Tácito, Anais).\n[…]\nMais informações sobre o destino potencial de Pôncio Pilatos podem ser obtidas em outras fontes. O filósofo pagão do século II Celso perguntou polemicamente por que, se Jesus era Deus, ele não puniu Pilatos, indicando que ele não acreditava que o governador cometeu suicídio vergonhosamente. Respondendo a Celso, o apologista cristão Orígenes, escrevendo c.\n[…]\nApós esse período mais longo em que poucas representações do governador foram feitas, o aumento da religiosidade em meados do século XIX fez com que uma série de novas representações de Pôncio Pilatos fossem criadas, agora representado como um romano. Em 1830, William Turner pintou \"Pilatos Lavando as Mãos\", em que o próprio governador não é visível, mas apenas o encosto de sua cadeira, com mulheres lamentando em primeiro plano.\n[…]\nO Mystère de la Passion d'Angers de Jean Michel inclui cenas lendárias da vida de Pilatos antes da paixão.\n[…]\nMedia relacionados com Pôncio Pilatos no Wikimedia Commons\n[…]\nO Wikiquote possui citações de ou sobre: Pôncio Pilatos"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Tupi or not tupi",
+      "descricao": "Frase do Manifesto Antropófago de 1928 que brinca com a célebre fala de Hamlet"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor modernista brincou com Shakespeare ao escrever tupi or not tupi, that is the question, no Manifesto Antropófago de 1928?",
+    "resposta": "Oswald de Andrade",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago",
+        "situacao": "ok",
+        "texto": "O movimento antropofágico foi uma manifestação artística brasileira da década de 1920, fundada e teorizada pelo poeta Oswald de Andrade e pela pintora Tarsila do Amaral, ambos do estado de São Paulo. Foi enunciado no Manifesto Antropófago e divulgado através da Revista de Antropofagia.\n[…]\nO símbolo da antropofagia havia sido criado por Plínio Salgado, em uma discussão com Oswald de Andrade.\n[…]\nAntes do Manifesto Antropófago, o escritor modernista Plínio Salgado já havia utilizado a metáfora da antropofagia em suas críticas a Oswald de Andrade. Na \"Carta antropofágica\", de 1927, Salgado comparava Oswald aos viajantes europeus Hans Staden e Jean de Léry: “Esses homens falaram sobre coisas brasileiras sem sentimento brasileiro. [...] Continuaram sempre estrangeiros, com os olhos na terra deles. Por isso tinham muito medo de ser comidos.”.\n[…]\nOswald de Andrade não retrucou a crítica mas, ao contrário, apropriou-se da metáfora.\n[…]\nO Manifesto Antropófago (ou Manifesto Antropofágico) foi um manifesto publicado em 1928 pelo poeta e polemista brasileiro Oswald de Andrade, figura-chave do movimento cultural do modernismo brasileiro e colaborador da publicação Revista de Antropofagia. Foi inspirado em \"Abaporu\", pintura de Tarsila do Amaral, artista modernista e esposa de Oswald de Andrade.\n[…]\nO manifesto fundamentou o movimento antropofágico. Lido em 1928 para seus amigos na casa de Mário de Andrade, foi publicado na Revista de Antropofagia, a qual Oswald ajudou a fundar com Raul Bopp e Antônio de Alcântara Machado, com a datação de \"ano 374 da deglutição do Bispo Sardinha\".\n[…]\nA Revista de Antropofagia foi uma publicação parte do movimento antropofágico surgida como consequência do Manifesto Antropófago escrito por Oswald de Andrade.\n[…]\nEnciclopédia Itaú Cultural \"Manifesto Antropófago"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Saudade",
+      "descricao": "Palavra portuguesa para o sentimento de falta de alguém ou de algo distante"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra saudade vem do latim solitas. O que essa palavra latina significava?",
+    "resposta": "Solidão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Saudade"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saudade",
+        "situacao": "ok",
+        "texto": "Saudade é uma das palavras mais presentes na poesia de amor da língua portuguesa e da galega e também na música popular. \"Saudade\" descreve a mistura dos sentimentos de perda, falta, distância e amor. A palavra vem do latim \"solitatem\" (solidão), passando pelo galego-português \"soidade\", que deu origem às formas arcaicas \"soidade\" e \"soudade\", que sob influência de \"saúde\" e \"saudar\" deram origem \n[…]\nO termo \"saudade\" provém da palavra latina \"solitas\", pela sua forma declinada \"solitate(m)\". Passou ao galego-português como \"soedade\" > \"soïdade\" que deu origem a \"soidade\" e \"saudade\" em língua galega, \"suidade\" em língua mirandesa e \"soidade\" / \"soudade\" em língua portuguesa. Pensa-se que por influência de \"saúde\" e \"saudar\", surgiu a variante \"saudade\" que atualmente predomina em português.\n[…]\nA origem etimológica das formas atuais \"solidão\", mais corrente e \"solitude\", forma poética, é o latim \"solitudine\" declinação de \"solitudo, solitudinis\", qualidade de \"solus\". Já os vocábulos \"saúde, saudar, saudação, salutar, saludar\" provêm da família \"salute\", \"salutatione\", \"salutate\", por vezes, dependendo do contexto, sinônimos de \"salvar, salva, salvação\" oriundos de \"salvare, salvatione\".[carece de fontes]?\n[…]\nNa formação do termo \"saudade\", o vocábulo sofreu uma interfluência entre o estado de estar só, sentir-se solitário - oriundo de \"solitarius\" que por sua vez advém de \"solitas, solitatis\",  possuidora da forma declinada \"solitate(m)\", e a associação com o ato de receber e acalentar este sentimento traduzido com os termos oriundos de \"salute e salutate\", que na transição do latim para o português sofrem uma síncope e perde a letra interna l, simplesmente abandonada, enquanto o t não desaparece, mas passa a ser sonorizado como um d.[carece de fontes]?\n[…]\nEm tupi: karukasy, que etimologicamente significa \"a dor da tarde\", de karuka, tarde, entardecer, e asy, dor.[carece de fontes]?"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Potiguar",
+      "descricao": "Gentílico de quem nasce no Rio Grande do Norte, derivado do nome do povo indígena potiguara"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Quem nasce no Rio Grande do Norte é chamado de potiguar, nome de um povo indígena. O que esse nome significa em tupi?",
+    "resposta": "Comedor de camarão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Potiguaras"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Potiguaras",
+        "situacao": "ok",
+        "texto": "Os potiguaras, também conhecidos como potiguares, petiguares, pitaguares, pitiguares e pitiguaras, são um grupo indígena brasileiro que, no século XVI, ocupava áreas hoje pertencentes aos estados de Pernambuco, da Paraíba, do Rio Grande do Norte e do Ceará. Foi uma das etnias tupis que resistiu por mais tempo aos invasores portugueses, utilizando um complexo sistema de alianças com ingleses e, pri\n[…]\nVários descendentes da tribo dos potiguares adotaram, ao serem submetidos ao batismo cristão, o sobrenome \"Camarão\", sendo o mais célebre destes o combatente Filipe Camarão (1580/1600-1648), considerado um dos maiores ameríndios da história luso-americana, já que foi decisivo, a exemplo do luso-paraibano André Vidal de Negreiros, na grandiosa vitória contra os neerlandeses durante a Insurreição Pernambucana (1645-1649).\n[…]\nProcessos migratórios também levaram contingentes significativos dos potiguara a habitarem cidades como Mamanguape, João Pessoa,  Cabedelo, Bayeux e Santa Rita, na Paraíba, bem como Canguaretama, Baía Formosa e Vila Flor, no Rio Grande do Norte e na cidade do Rio de Janeiro.\n[…]\nA língua tupi está atualmente em processo de revitalização pelo povo potiguara no norte da Paraíba. Embora tenha suas raízes nas gramáticas de José de Anchieta e Luís Figueira, por estar sendo usado nos dias atuais passa por um processo de adaptação àquele povo e aos tempos modernos, que exigem uma renovação do vocabulário.\n[…]\nSem citar as rotas turísticas que saem da praia de Pipa, no Rio Grande do Norte, e de João Pessoa com direção às aldeias para comprar artesanato, ou nos ônibus com banhistas, que, todo fim de semana, congestionam a rua principal da Baía da Traição, vindos de várias cidades do interior. Assim, não há a mínima possibilidade de conceber o universo social potiguara como isolado ou com pouca comunicação com o \"mundo exterior\".\n[…]\nGuerra dos Potiguaras\n[…]\n«Álbum da Juventude Potiguara»"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Ipanema (palavra)",
+      "descricao": "Palavra de origem tupi que dá nome a um bairro do Rio de Janeiro"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Ipanema, do bairro carioca famoso pela praia e pela canção, é uma palavra tupi. O que ela significa?",
+    "resposta": "Água ruim",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ipanema"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ipanema",
+        "situacao": "ok",
+        "texto": "Ipanema é um bairro nobre da Zona Sul do município do Rio de Janeiro, fundado em 1894 por José Antônio Moreira, Conde de Ipanema. Limita com os bairros de Copacabana, Leblon e Lagoa.\n[…]\nO nome tupi Ipanema admite três interpretações semânticas: \"água ruim, rio sem peixes\", através da junção dos termos  'y  (\"água\") e panema (\"imprestável\"); \"lagoa fedorenta\", através da junção dos termos upaba (\"lago\") e nem (\"fedorento\"); e \"rio amarelo\", através da junção dos termos  'y  (\"rio\") e panema (\"amarelo\").\n[…]\nA Praia de Ipanema tem 2,6 km de extensão e fica perto do bairro do Leblon que é um complemento dela. Uma das praias mais famosas da cidade, perde em popularidade apenas para a Praia de Copacabana, onde é realizado todos os anos o réveillon da cidade. Ipanema inspirou o compositor Vinícius de Moraes quando lançou a canção \"Garota de Ipanema\", da qual Tom Jobim foi responsável pela melodia.\n[…]\nA Praia do Diabo fica localizada entre o Forte de Copacabana e a Praia do Arpoador. É uma praia pequena, de mar aberto, rodeada de coqueiros. Há uma pequena praça, antes da descida para a praia, com bancos onde se pode sentar e apreciar a paisagem desfrutando de uma água de coco bem gelada. Tem esse nome devido à violência do mar naquela região.\n[…]\nO bairro é conhecido também pelos seus teatros e cinemas como a Casa de Cultura Laura Alvim, Teatro Ipanema e Estação Ipanema. Durante o carnaval carioca, vários blocos tradicionais como a Banda de Ipanema, o Simpatia é Quase Amor e o Rola Preguiçosa circulam pelo bairro. A sede carioca da Rede Record de televisão fica na Praça Nossa Senhora da Paz.[carece de fontes]?\n[…]\n«O Surgimento de Ipanema - A história de um bairro cartão-postal»"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Pau-brasil",
+      "descricao": "Árvore nativa da Mata Atlântica cuja madeira avermelhada deu nome ao Brasil"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O pau-brasil, árvore que deu nome ao país, deve seu nome à cor avermelhada da madeira, parecida com a de quê?",
+    "resposta": "Brasa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pau-brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pau-brasil",
+        "situacao": "ok",
+        "texto": "O pau-brasil (atual Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis, antiga Caesalpinia echinata Lam.), também chamado arabutã, ibirapiranga, ibirapitá, ibirapitanga, orabutã, pau-de-tinta, pau-pernambuco, pau-de-pernambuco e pau-rosado, é uma árvore leguminosa nativa da Mata Atlântica, no Brasil.\n[…]\nO nome vernáculo \"pau-brasil\", segundo alguns estudiosos, deriva do francês brésil, que deriva do toscano verzino, nome de pelo menos um tipo de madeira utilizada na tinturaria medieval na Itália, a madeira-de-sapão (Biancaea sappan). Verzino, por sua vez, deriva do árabe wars, que designa uma planta tintória do Iêmen. Outra versão aponta que a palavra se origina do português brasa, devido à tonalidade avermelhada ou abrasada da madeira.\n[…]\nQuanto ao nome científico, Paubrasilia é o gênero da árvore. Já echinata significa \"com espinhos\", uma referência ao fato de as vagens do pau-brasil terem acúleos, que são uma especialização da epiderme que se parece com espinhos.\n[…]\nAfirmam alguns historiadores que o corte do pau-brasil para a obtenção de sua madeira e sua resina (extraída para uso como tintura em manufaturas de tecidos de alto luxo) foi a primeira atividade econômica dos colonos portugueses na recém-descoberta Terra de Santa Cruz, no século XVI e que a abundância desta árvore no meio a imensidão das florestas inexploráveis teria conferido à colônia o nome de Brasil.\n[…]\nNo século XX, a sociedade brasileira descobriu o pau-brasil como um símbolo do país em perigo de extinção, e algumas iniciativas foram feitas no sentido de reproduzir a planta a partir de sementes e utilizá-la em projetos de recuperação florestal, com algum sucesso. Atualmente, o pau-brasil tornou-se uma árvore popularmente usada como ornamental.\n[…]\nSímbolos do Brasil\n[…]\nPaubrasilia equinata na Flora do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Crase",
+      "descricao": "Fusão de duas vogais iguais, como a preposição a com o artigo a, marcada pelo acento grave"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra crase, que nomeia a fusão da preposição a com o artigo a, vem do grego. O que ela significa?",
+    "resposta": "Mistura",
+    "distratores": [
+      "Acento",
+      "Inclinação",
+      "Curva"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Crase"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Crase",
+        "situacao": "ok",
+        "texto": "Crase é um dos metaplasmos por supressão de fonemas a que as palavras podem estar sujeitas à medida que uma língua evolui.\n[…]\nCrase com a de preposição, exemplo: à (a de artigo + a de preposição), àquela (a de preposição + o pronome demonstrativo aquela), entre outros; representados pelo sinal gráfico `;\n[…]\nO termo crase significa fusão, junção. Em português, a crase é o nome que se dá à contração da preposição \"a\" com:\n[…]\nObs.: As palavras terra e casa são casos especiais de crase. A preposição \"a\" antes da palavra casa (lar) só recebe o acento grave quando vier acompanhada de um modificador, caso contrário não ocorre a crase. Já com a palavra terra (chão firme, oposto a bordo) só ocorre crase quando vier acompanhada de um modificador — da mesma maneira que existe a expressão \"a bordo\", enquanto que com a palavra terra (terra natal ou planeta) sempre ocorre crase.\n[…]\n1) Substitui-se a preposição a por outra preposição, como em ou para; se, com a substituição, o artigo definido a permanecer, então a crase é aplicável.\n[…]\nObs.: a crase não ocorre antes de palavras masculinas; antes de verbos, de pronomes pessoais, de nomes de cidade que não utilizam o artigo feminino, da palavra casa quando tem significado do próprio lar, da palavra terra quando tem sentido de solo e de expressões com palavras repetidas (dia a dia).\n[…]\nExceção: Quando tomados em sentido específico, são precedidos do artigo as e admitem a crase: às rigorosas análises, às reivindicações\n[…]\nÀ exceção de: Quando o lugar está determinado com um adjunto adnominal, assim como ocorre com \"casa\" e \"terra\", a crase é obrigatória em topônimos que não admitem artigo"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Padre Antônio Vieira",
+      "descricao": "Jesuíta português do século dezessete, célebre pelos sermões e pela atuação no Brasil"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No livro Mensagem, Fernando Pessoa deu ao padre Antônio Vieira, mestre dos sermões, um título imperial. Qual?",
+    "resposta": "Imperador da língua portuguesa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Vieira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Vieira",
+        "situacao": "ok",
+        "texto": "António Vieira (Lisboa, Sé, 6 de fevereiro de 1608 – Salvador, 18 de julho de 1697), mais conhecido como Padre António Vieira, foi um filósofo, escritor e orador português da Companhia de Jesus.\n[…]\nNove dias mais tarde, quarenta e um portugueses, despojados de seus pertences pessoais, foram desembarcados na Graciosa, onde o padre António Vieira, com o auxílio dos religiosos da Companhia de Jesus, procurou providenciar-lhes roupas, calçado e dinheiro durante os dois meses que permaneceram na ilha.\n[…]\nEste projeto, sob a direção de José Eduardo Franco e Pedro Calafate, foi desenvolvido pelo CLEPUL em parceria com a Santa Casa da Misericórdia, e publicado pelo Círculo de Leitores, com o último volume a ser lançado em 2014. Embora esta seja uma edição portuguesa, uma seleção de textos será publicada em 12 línguas como parte do projeto.\n[…]\n«Lista de Sermões»\n[…]\nVieira, Revista Semear. Revista da Cátedra Padre António Vieira de Estudos Portugueses, n. 2, Instituto Camões e a Pontifícia Universidade Católica do Rio de Janeiro, 1998.\n[…]\nPadre António Vieira, o imperador da Língua Portuguesa, Nome de Rua - Rua Padre António Vieira, por Nunes Forte, Videofono para a RTP, 1991\n[…]\nEpisódios dramáticos da inquisição portuguesa, v. 1, o caso de Antonio Vieira, página 205 em diante, autor Antonio Baião\n[…]\nAs propostas de Padre António Vieira a D. João IV, para melhorar a situação económica do Reino de Portugal História Moderna Economia e Sociedade, por Cláudio Fonseca, Faculdade de Letras da Universidade de Lisboa, 8 de Junho de 2015\n[…]\nA legitimidade da restauração portuguesa a partir do discurso do Padre Antonio Vieira (1641-1661, por Leandro Henrique Magalhães, Universidade Federal do Paraná, Curitiba, 2000"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Ilha Formosa",
+      "descricao": "Nome dado pelos navegadores portugueses à ilha de Taiwan"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que nome português, que significa bela, os navegadores do século dezesseis deram à ilha de Taiwan?",
+    "resposta": "Formosa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Names_of_Taiwan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Names_of_Taiwan",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Et cetera",
+      "descricao": "Expressão latina usada no fim de enumerações, abreviada como etc."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A expressão etcétera, usada no fim de listas, vem do latim. O que ela significa ao pé da letra?",
+    "resposta": "E as outras coisas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Et_cetera"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Et_cetera",
+        "situacao": "ok",
+        "texto": "Et cetera (pronúncia em latim: [ɛt ˈkeːtɛra]) ou et caetera, aportuguesado etcétera e abreviado etc. ou &c., é uma expressão latina que significa \"e outras coisas semelhantes\", ou \"e assim por diante\". Na tradução literal do latim, et significa 'e', enquanto cētera significa 'o resto'; assim a tradução fica como 'e o resto (de tais coisas)'.\n[…]\nEt Cetera é um calque do grego Koine καὶ τὰ ἕτερα (kai ta hetera) que significa \"e as outras coisas\". No grego moderno típico, é και τα λοιπά (kai ta loipá), que equivale a \"e o restante\".\n[…]\nNormalmente é utilizada a sua forma abreviada \"etc.\", sendo raríssimo o uso da expressão completa original (\"et cetera\" ou \"et caetera\") e ainda menos o aportuguesamento (\"etcétera\"). Todas as versões estão devidamente dicionarizadas, incluindo a abreviatura. Esta normalmente é antecedida por vírgula, mas também pode ser utilizada sem vírgula, pois o seu significado literal é \"e o resto\".\n[…]\nA frase et cetera é usada de forma constante para denotar a continuação lógica de uma sequência de descrições. Por exemplo, na seguinte expressão:\n[…]\nNo filme de 1956 The King and I, Yul Brynner usou várias vezes a expressão \"…et cetera, et cetera, et cetera…\" em seu retrato do rei Mongkut do Sião, para caracterizar o rei como querendo impressionar a todos com seu conhecimento vasto e a importância de um sem que seja necessário expor. Isso contribuiu para seu uso no romance Anna and the King of Siam, que expressava a compreensão lúdica desse rei de inúmeras coisas com a frase \"&c., etc.\"\n[…]\n\"Et cetera\" e derivados, como \"etceteras\", têm sido, e ainda são, usados em tom alegre, humorístico ou desdenhoso, muitas vezes como um cadigan, por exemplo:\n[…]\nIndonésio: dan lain-lain (abr.: dll.), dan sebagainya (usado para coisas similares; abr.: dsb.), dan seterusnya (usado para sequências; abr.: dst.)\n[…]\nLista de frases em latim"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Telefone celular",
+      "descricao": "Telefone portátil sem fio, chamado de celular no Brasil e de telemóvel em Portugal"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Um brasileiro em Lisboa quer comprar um celular. Que palavra ele vai encontrar nas lojas portuguesas para esse aparelho?",
+    "resposta": "Telemóvel",
+    "distratores": [
+      "Portátil",
+      "Móvel",
+      "Telefonino"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Telefone_celular"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Telefone_celular",
+        "situacao": "ok",
+        "texto": "Telefone celular (no português brasileiro), telefone móvel (no português europeu), telemóvel (no português europeu) ou simplesmente celular (no português brasileiro), é um telefone portátil que pode fazer e receber chamadas através de um link de radiofrequência enquanto o usuário está se movendo dentro de uma área de serviço telefônico, em oposição a um telefone fixo (telefone fixo).\n[…]\nOs telefones celulares são considerados uma importante invenção humana, pois são uma das peças de tecnologia de consumo mais utilizadas e vendidas. O crescimento da popularidade tem sido rápido em alguns lugares, por exemplo, no Reino Unido, o número total de telemóveis ultrapassou o número de casas em 1999. Hoje, os telemóveis são onipresentes a nível mundial e em quase metade dos países do mundo, mais de 90% da população possui pelo menos um aparelho do tipo.\n[…]\nUm aplicativo de dados comum em telefones celulares são as mensagens de texto serviço de mensagens curtas (SMS, sigla em inglês). A primeira mensagem SMS foi enviada de um computador para um telemóvel em 1992, no Reino Unido, enquanto a primeira mensagem SMS de pessoa para pessoa, de telefone para telefone, foi enviada na Finlândia, em 1993.\n[…]\nEstudos demonstraram que cerca de 40-50% do impacto ambiental dos telemóveis ocorre durantea fabricação das suas placas de circuitos impressos e circuitos integrados. O usuário médio substitui seu telefone celular a cada 11 a 18 meses e os telefones descartados contribuem para o acúmulo de lixo eletrônico.\n[…]\nUm estudo de 2010 revisou a incidência do uso de telefones celulares durante o ciclismo e seus efeitos no comportamento e na segurança. Em 2013, uma pesquisa nacional nos Estados Unidos revelou que o número de condutores que relataram utilizar os seus telemóveis para aceder à Internet enquanto conduziam aumentou para quase um em cada quatro."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Lágrimas de crocodilo",
+      "descricao": "Expressão para um choro fingido ou uma tristeza falsa"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A expressão lágrimas de crocodilo, para choro fingido, nasceu da antiga crença de que esse réptil chorava enquanto fazia o quê?",
+    "resposta": "Devorava suas presas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crocodile_tears"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+        "situacao": "ok",
+        "texto": "Crocodile tears, or superficial sympathy, is a colloquial term used to describe a false, insincere display of emotion, such as a hypocrite crying fake tears of grief. The phrase derives from an ancient belief that crocodiles shed tears while consuming their prey and, as such, is present in many modern languages, especially in Europe, where it was introduced through Latin.\n[…]\nThe expression comes from an ancient anecdote that crocodiles weep for the victims they are eating. A collection of proverbs attributed to Plutarch suggests that the phrase \"crocodile tears\" was well known in antiquity: comparing the crocodile's behaviour to people who desire or cause the death of someone, but then publicly lament for them. The story is given a Christian gloss in the Bibliotheca by early medieval theologian Photios.\n[…]\nAccording to Adam Britton, It is difficult to trace the origin of this particular myth, but it's easy to see why it has become so popular – for an apparently remorseless creature such as a crocodile to actually weep over its victims is a memorable irony which has inspired considerable prose and created a phrase which is still popular today.\n[…]\nThe phrase gives its name to Bogorad's syndrome, colloquially \"crocodile tears syndrome\", an uncommon consequence of recovery from Bell's palsy where faulty regeneration of the facial nerve causes sufferers to shed tears while eating. Russian neuropathologist F. A. Bogorad, who first described the condition in 1926, did so in an article entitled \"syndrome of the crocodile tears\" (also translated as \"the symptom of crocodile tears\").\n[…]\nCrocodile (politics)\n[…]\n\"No Faking It, Crocodile Tears Are Real\". Science Daily. 2007-10-07. Retrieved 2008-08-14.\n[…]\nStraight Dope article on crocodile tears Published 1978-10-06, Retrieved 2016-08-14\n[…]\nUpdated Straight Dope article on crocodile tears Published 2002-05-03, Retrieved 2016-08-14"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%A1grimas_de_crocodilo",
+        "situacao": "ok",
+        "texto": "Lágrimas de crocodilo é uma expressão que significa que o choro de alguém é fingido, falso ou hipócrita. Existem diversas explicações de cunho biológico para a origem da expressão, dentre as quais:\n[…]\nContava-se que às margens do rio Nilo, na antiguidade, os crocodilos choravam e faziam ruidosas manifestações de desespero para atrair e despertar a piedade das pessoas que por ali passavam — os que iam ver o que se passava eram devorados.\n[…]\nQuando o crocodilo está digerindo um animal, a passagem deste pode pressionar com força o céu da boca do réptil, o que comprime suas glândulas lacrimais. Assim, enquanto ele devora a vítima, caem lágrimas de seus olhos.\n[…]\nOutra teoria na qual vem de uma lenda medieval, dizia que os crocodilos costumavam chorar após devorar alguém.\n[…]\nCrocodilo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Canto do cisne",
+      "descricao": "Expressão para a última obra ou atuação de alguém antes do fim da carreira"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a última grande obra de um artista costuma ser chamada de canto do cisne?",
+    "resposta": "Pela lenda de que o cisne canta antes de morrer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Swan_song"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Swan_song",
+        "situacao": "ok",
+        "texto": "The phrase \"swan song\" (Ancient Greek: κύκνειον ᾆσμα kýkneion ásma; Latin: carmen cygni) refers to a final gesture, effort, or performance given just before death or retirement. It is metaphorical and refers to an ancient belief that swans sing a beautiful song just before their death while they have been silent (or alternatively not so musical) for most of their lifetime.\n[…]\nThe phrase \"swan song\" has also taken on a metaphorical sense, referring to the final work of a creative artist, especially when produced shortly before death, or more generally to any final performance or accomplishment. For example, Schwanengesang (Swan Song) is the title of a posthumously published collection of songs by Franz Schubert, written at the end of his life. It is the title usually given to Heinrich Schuetz' Opus 13 from 1671, the year before he died."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canto_do_cisne",
+        "situacao": "ok",
+        "texto": "Canto do cisne é uma referência a uma antiga crença de que o cisne-branco (Cygnus olor) é completamente mudo durante toda a sua vida, mas pode cantar uma bela e triste canção imediatamente antes de morrer. Entretanto, é sabido desde tempos remotos que esta crença é falsa; cisnes-brancos (também chamados de \"cisnes-mudos\") não são mudos durante a vida, produzindo grunhidos e assobios; e não cantam \n[…]\nEm particular, Plínio, o Velho refutou a crença no ano 77 em sua Naturalis Historia (livro 10, capítulo xxxii: olorum morte narratur flebilis cantus, falso, ut arbitror, aliquot experimentis, \"observações mostram que a história do canto dos cisnes ao morrerem é falsa\").\n[…]\nNão obstante, a lenda, que foi pronunciada por Sócrates no seu último discurso, permaneceu através dos séculos e aparece em vários trabalhos artísticos.\n[…]\nPor extensão, canto do cisne ou \"canção do cisne\" tornou-se uma metáfora, referindo-se a uma aparição final teatral e dramática, ou qualquer trabalho final ou conclusão. Por exemplo, a coleção de canções de Franz Schubert, publicada no ano de sua morte, 1828, é conhecida como a Schwanengesang (que em alemão significa \"canção do cisne\"). Isto traz a conotação de que o compositor estava prevendo sua morte iminente e usando suas últimas forças em um magnífico trabalho final.\n[…]\nTal metáfora pode ser trazida aos dias atuais. O coprodutor Tony Visconti, que produziu o último álbum de David Bowie, Blackstar (2016), descreveu o álbum como um \"canto do cisne\" planejado de Bowie e um \"presente de despedida\" para seus fãs antes de sua morte.\n[…]\nHistória das palavras: o Canto do Cisne, por Sonia Darthou, História Viva",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Calcanhar de Aquiles",
+      "descricao": "Expressão para o ponto fraco de alguém ou de algo"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na lenda grega, por que o calcanhar ficou sendo o ponto fraco de Aquiles quando sua mãe o mergulhou no rio Estige?",
+    "resposta": "Foi por onde ela o segurou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Achilles%27_heel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Achilles%27_heel",
+        "situacao": "ok",
+        "texto": "An Achilles' heel (or  Achilles heel) is a weakness despite overall strength, which can lead to downfall. While the mythological origin refers to a physical vulnerability, idiomatic references to other attributes or qualities that can lead to downfall are common."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Calcanhar_de_aquiles",
+        "situacao": "ok",
+        "texto": "Um calcanhar de aquiles é um substantivo composto que significa fraqueza a despeito de uma força geral, que pode levar a derrota ou queda. Enquanto a origem mitológica se refere a vulnerabilidade física, referências idiomáticas a outros atributos ou qualidades que podem levar a queda são comuns.\n[…]\nNa mitologia grega, quando Aquiles era um recém-nascido, foi predito que ele morreria jovem. Para preveni-lo de sua morte, sua mãe Tétis o levou ao rio Estige, que deveria dar o poder da invulnerabilidade, e mergulhou seu corpo na água. Porém, já que Tétis segurava Aquiles pelos calcanhares, eles não foram lavados pela água. Aquiles cresceu e tornou-se homem de guerra que sobreviveu a muitas batalhas.\n[…]\nEmbora a morte de Aquiles seja prevista pela Ilíada de Homero, ela não ocorre de fato na Ilíada, mas é descrita em poemas e dramas gregos e romanos posteriores que tratam dos eventos após a Ilíada, na guerra de troia. Nos mitos em torno da guerra, é dito que Aquiles morreu devido a uma ferida em seu calcanhar, tornozelo ou torso, que foi causada por uma flecha, talvez envenenada, atirada por Paris.\n[…]\nO registro mais antigo do tendão sendo chamado de tendão de Aquiles é de 1693, pelo anatomista holandês Philip Verheyen. Em seu texto amplamente utilizado, Corporis Humani Anatomia, ele descreveu a localização do tendão e afirmou que ele era comumente chamado \"o cordão de Aquiles\".\n[…]\nComo uma expressão significando \"área de fraqueza, ponto vulnerável\", o uso de \"calcanhar de aquiles\" é recente, datando apenas de 1840, com um uso implícito na citação de Samuel Taylor Coleridge: \"Ireland, that vulnerable heel of the British Achilles!\" de 1810 (Oxford English Dictionary).\n[…]\nTendão de aquiles",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Santo do pau oco",
+      "descricao": "Expressão brasileira para uma pessoa dissimulada, que finge ser virtuosa"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a explicação mais difundida, a expressão santo do pau oco vem de imagens ocas usadas no Brasil colonial para contrabandear o quê?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Santo_do_pau_oco"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santo_do_pau_oco",
+        "situacao": "ok",
+        "texto": "Santo do pau oco é uma expressão popular utilizada no Brasil (e também noutras regiões da Lusofonia, nomeadamente, em Portugal) para designar pessoas dissimuladas, cuja origem mítica é derivada de aspectos históricos.\n[…]\nSegundo o imaginário popular, o santo do pau oco era, nas regiões mineradoras brasileiras e durante o período colonial, um símbolo do contrabando do ouro em pedra ou pó de diamantes, ou seja, as imagens devocionais eram utilizadas como esconderijo aos olhos do fisco. Governadores, escravos e clérigos estavam envolvidos nesse tipo de contrabando.\n[…]\nEssa versão é tida como lenda, assim como muitas histórias em Minas derivadas desse tipo de imagem, com pouca comprovação dessa utilização. Provavelmente, esse tipo de imagem era feito pelos mesmos motivos que na Europa, onde, desde a Idade Média, as esculturas em madeira eram escavadas para que as peças rachassem menos e ficassem mais leves.\n[…]\nSegundo o professor Meneses de Oliva, do Museu Histórico Nacional, citado por Antenor Nascentes em seu livro Tesouro da Fraseologia Brasileira, a expressão se origina da descoberta, na cidade de Salvador, de imagens ocas de santos, que vinham de Lisboa recheadas de dinheiro falso.\n[…]\nReligião no Brasil\n[…]\nAnexo:Lista de expressões idiomáticas de origem histórica ou mitológica"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Grande Sertão: Veredas",
+      "descricao": "Romance de Guimarães Rosa, publicado em 1956, narrado pelo jagunço Riobaldo"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que palavra, que quer dizer coisa sem importância, é a primeira do romance Grande Sertão Veredas, de Guimarães Rosa?",
+    "resposta": "Nonada",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Grande_Sert%C3%A3o:_Veredas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Sert%C3%A3o:_Veredas",
+        "situacao": "ok",
+        "texto": "Grande Sertão: Veredas é um romance experimental modernista escrito pelo autor brasileiro João Guimarães Rosa e publicado pela Livraria José Olympio Editora, em 1956. Tanto a arte da capa como as ilustrações da primeira edição de Grande sertão: veredas são de autoria de Poty Lazzarotto.\n[…]\nJosué Montello, em aula inaugural do Curso de Literatura proferida em 28 de março de 1957 na Faculdade de Letras de Lisboa, considerou Grande Sertão: Veredas \"a mais arrojada aventura da nova ficção brasileira. Guimarães Rosa é um renovador da língua como Aquilino Ribeiro.\"\n[…]\nLonge de ser apenas um \"transculturador\", facilitando a tradução do local para o global, Guimarães Rosa desafia a legibilidade universal, intencionalmente resistindo à tornar Grande Sertão: Veredas um texto de fácil compreensão, retendo especificidades locais e provocando um alto grau de intraduzibilidade. O leitor então estabelece uma relação dialética e pedagógica com uma alteridade que não se rende à universalização.\n[…]\nApesar da grande quantidade de traduções para outros idiomas que Grande Sertão: Veredas possui, a obra é considerada de difícil tradução por vários autores, devido ao grande conhecimento da língua portuguesa que se faz necessário, graças à rica combinação existente no texto de Guimarães Rosa, que reúne poesia, fala arcaica, linguagem coloquial e regionalismos mineiros. Assim como James Joyce fez com o inglês, o romancista brasileiro transformou o português em sua própria língua literária.\n[…]\nDRUMOND, Josina Nunes. As dobras do sertão: palavra e imagem : o neobarroco em Grande Sertão-Veredas, de Guimarães Rosa, e em Imagens do Grande Sertão, de Arlindo Daibert. São Paulo:Annablume, 2008, ISBN 978-85-7419-791-3.\n[…]\nLIPPOLIS, Enrico. Grande sertão: veredas: o sertão como símbolo do inconsciente"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Pajubá",
+      "descricao": "Linguagem popular da comunidade LGBT brasileira, com muitas palavras de origem africana"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O pajubá, linguagem criada pela comunidade LGBT brasileira, usa muitas palavras de qual língua africana, vindas dos terreiros de candomblé?",
+    "resposta": "Iorubá",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pajub%C3%A1"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pajub%C3%A1",
+        "situacao": "ok",
+        "texto": "O Pajubá ou Bajubá, originalmente, é um criptoleto constituído de termos oriundos de diversas línguas da África Ocidental (iorubá, umbundo, quicongo, jeje, fon), usados por descendentes de africanos escravizados praticantes de cultos afro-brasileiros, e de palavras da língua portuguesa alteradas e ressignificadas.\n[…]\nSegundo Beniste, 'Pajubá' (ou sua forma variante 'Bajubá') é uma palavra da língua iorubá que significa 'mistério' ou 'segredo'. Falar em Pajubá corresponde a \"falar na língua do santo\" ou \"enrolar a língua\" - locuções muito usadas pelo povo do santo quando se quer dizer alguma coisa de modo que outras pessoas não entendam.\n[…]\nE quando a comunidade Queer  ressemantiza os termos na passagem das línguas africanas para o português brasileiro, cria novos usos, segundo o professor e pesquisador em Linguística queer, Renato Régis.\n[…]\nCriado de forma espontânea em regiões de forte presença africana no Brasil, o Pajubá é produto da assimilação de africanismos de uso corrente, bem como de derivações, entrecruzamentos e ressignificação de palavras da língua portuguesa. Sendo incompreensível para forasteiros, passou a ser usado fora do ambiente dos terreiros, constituindo um código de comunicação entre travestis que posteriormente foi adotado por toda a comunidade LGBTQIA+.\n[…]\nO Diálogo de Bonecas, o primeiro dicionário de Pajubá/Bajubá, foi idealizado e lançado no Brasil em 1992. Com o tempo e a partir da repercussão no cenário cultural nacional de artistas travestis e transgênero, como MC Xuxu, Linn da Quebrada, Jup do Bairro, Majur e Mulher Pepita, entre outras, incluíram o criptoleto em suas canções.\n[…]\nA seguir, alguns exemplos de palavras em Pajubá:\n[…]\n«www.lupa.facom.ufba.br Você sabe o que é Pajubá?»"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Palavras inglesas de origem portuguesa",
+      "descricao": "Empréstimos que o inglês recebeu do português, sobretudo na época das navegações"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas palavras do inglês foi tomada do português?",
+    "resposta": "Molasses",
+    "distratores": [
+      "Ketchup",
+      "Shampoo",
+      "Pajamas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_English_words_of_Portuguese_origin",
+      "https://en.wikipedia.org/wiki/Molasses"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_English_words_of_Portuguese_origin",
+        "situacao": "ok",
+        "texto": "This is a list of English words borrowed or derived from Portuguese (or Galician-Portuguese). The list also includes words derived from other languages via Portuguese during and after the Age of Discovery.\n[…]\nMolasses\n[…]\nNegro means \"black\" in Spanish and Portuguese being from the Latin word niger (Dative nigro, Accusative nigrum) and the Greek word Νέγρος Negros both of the same meaning. It came to English through the Portuguese and Spanish slave trade. Prior to the 1970s, it was the dominant term for Black people of African origin; in most English language contexts (except its inclusion in the names of some organizations founded when the term had currency, e.g.\n[…]\nfrom Portuguese palanquim, from Oriya pālaṅki\n[…]\na chat, from palavra (=\"word\"), Portuguese palavra (word), parabola (parable), speech (current fala, discurso), chat (current bate-papo, papo, palavrinha, conversa and also Eng. chat)  alteration of Late Latin parabola, speech, parable.\n[…]\nfrom Portuguese pampo\n[…]\nfrom Afrikaans, from Nama rangi-b, perhaps from Portuguese rabequinha diminutive of rabeca 'fiddle'\n[…]\nfrom Portuguese raspar\n[…]\nfrom French, from Portuguese (lobo-)cerval 'Iberian lynx', from Latin cervarius\n[…]\nfrom French, from Portuguese talapão\n[…]\nJapanese 天麩羅, tenpura?, also written as \"天ぷら\", from Portuguese têmporas, (=Ember Days)\n[…]\nprobably from Portuguese vinha d'alhos 'wine and garlic (sauce)', from vinho 'wine' + alho 'garlic' or possibly from vinagre 'vinegar' + alho 'garlic'\n[…]\nfrom the word \"zumbi\", first recorded in 1819 in a history of Brazil by the poet Robert Southey. This word is given West African origin by the Oxford English Dictionary, and was incorporated into the Portuguese language by interaction with enslaved Africans in Brazil."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Molasses",
+        "situacao": "ok",
+        "texto": "Molasses ( ), also called black treacle, is a viscous byproduct principally obtained from the refining of sugarcane or sugar beet juice into sugar. Molasses varies in the amount of sugar, the method of extraction, and the age of the plant. Sugarcane molasses is usually used to sweeten and flavour foods. Molasses is a major constituent of fine commercial brown sugar.\n[…]\nThe word molasses comes from melaço in Portuguese, a derivative of mel 'honey' with Latinate roots. Cognates include Ancient Greek μέλι (méli) 'honey', Latin mel, Spanish melaza 'molasses', Romanian miere or melasă, and French mélasse 'molasses'. The strap in blackstrap may be derived from a Dutch word for syrup, stroop.\n[…]\nOn Madeira Island, cane molasses is an important constituent of the traditional cuisine, where it is known as mel-de-cana (Portuguese for \"(sugar)cane honey\"). Its origin in Madeira dates back to the golden age of sugar production in the archipelago.\n[…]\nDuring cooking, the presence of molasses increases the hygroscopicity of surrounding ingredients, and through the Maillard reaction, it often turns brown. These effects are the result of relatively high levels of amino acids, invert sugar and minerals.\n[…]\nMolasses is composed of 22% water, 75% carbohydrates, and very small amounts (0.1%) of fat; it contains no protein. In a reference amount of 100 grams, molasses is a rich source (20% or more of the Daily Value, DV) of vitamin B6 and several dietary minerals, including manganese, magnesium, iron, potassium, and calcium.\n[…]\nThe sugars in molasses are on average sucrose (39% of total carbohydrates), glucose (16%), and fructose (17%) (data from USDA nutrition table).\n[…]\nThe uses of molasses in food production may include:\n[…]\nSome brown sugar is made by combining molasses with white sugar\n[…]\nMedia related to Molasses at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_palavras_inglesas_de_origem_Portuguesa",
+        "situacao": "ok",
+        "texto": "Esta é uma lista de palavras da inglês emprestadas ou derivadas do português (ou galego-português). A lista também inclui palavras derivadas de outras línguas através do português durante e após a Era dos Descobrimentos.\n[…]\ndo português, de origem africana; aparentado ao wolof banäna banana\n[…]\ndo português cachalote (mesmo significado), provavelmente via espanhol ou francês. A palavra portuguesa vem de cachola (\"cabeça\" ou \"cabeça grande\")\n[…]\nDe acordo com o Encarta Dictionary e Chambers Dictionary of Etymology, \"dodo\" vem do português doudo (atualmente, mais frequentemente, doido) que significa \"tolo\" ou \"louco\". A atual palavra portuguesa dodô (\"dodo\") é de origem inglesa. A palavra portuguesa doudo ou doido pode ser um empréstimo do Inglês antigo\n[…]\nprovavelmente do português mangue manguezal (do espanhol mangle, provavelmente do taíno) + inglês grove\n[…]\ndo português, de origem bantu; aparentado ao quimbundo ma-rimba : ma-, pref. subst. pl. + rimba, xilofone, piano de mão\n[…]\nNegro significa \"preto\" em espanhol e português, sendo da palavra latina niger e da grega palavra Νέγρος Negros, ambas com o mesmo significado. Chegou ao inglês através do tráfico de escravos português e espanhol.\n[…]\numa conversa, de palavra, português palavra, fala, conversa alteração do latim tardio parabola, discurso, parábola.\n[…]\njaponês 天麩羅, tenpura?, também escrito como \"天ぷら\", do português têmporas\n[…]\nda palavra \"zumbi\", registada pela primeira vez em 1819 numa história do Brasil pelo poeta Robert Southey. Esta palavra tem origem na África Ocidental, de acordo com o Oxford English Dictionary, e foi incorporada na língua portuguesa através da interação com os africanos escravizados no Brasil.\n[…]\nListas de palavras inglesas por país ou idioma de origem",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Mirandês",
+      "descricao": "Língua asturo-leonesa falada no nordeste de Portugal, reconhecida oficialmente em 1999"
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que língua, falada perto da fronteira com a Espanha, foi reconhecida oficialmente em Portugal em 1999?",
+    "resposta": "Mirandês",
+    "distratores": [
+      "Galego",
+      "Basco",
+      "Catalão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/L%C3%ADngua_mirandesa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_mirandesa",
+        "situacao": "ok",
+        "texto": "A língua mirandesa (lhéngua/léngua mirandesa, mirandés) é a variedade asturo-leonesa falada no nordeste de Portugal, sobretudo na Terra de Miranda (concelho de Miranda do Douro e freguesias de Angueira e Vilar Seco, em Vimioso). Foi oficialmente reconhecida em 1999 pela Assembleia da República; o ensino foi regulamentado no mesmo ano.\n[…]\nDesde 2017 assinala-se o Dia da Língua Mirandesa a 17 de setembro, data do reconhecimento parlamentar, com iniciativas culturais e educativas em Miranda do Douro.\n[…]\nO mirandês é, desde 1999, a segunda língua oficial do país. A preservação da língua mirandesa deve-se à geografia e ao isolamento das designadas Terras de Miranda. Os rios ou cordilheiras são fatores cruciais para a criação de uma \"fronteira linguística\". No caso das Terras de Miranda, o rio Sabor teve influência, isolando a área da influência da língua portuguesa.\n[…]\nIsso terá feito com que o mirandês chegasse aos nossos dias quase intacto, a acessibilidade e o contacto constante a uma Espanha que fala, essencialmente, o asturiano e um isolamento face ao português.\n[…]\nSegundo os entrevistados, não falam o mirandês quando estão em situações formais, como por exemplo, na relação professor-aluno (como é o caso do entrevistado) é, de uma forma geral, a língua portuguesa que prevalece. Há também alguns complexos com a língua, reservando-a a contextos mais familiares, do quotidiano ou mesmo contextos de extrema intimidade. Todos esses fatores levam a língua a uma situação de diglossia.\n[…]\nCaracterísticas comuns ao português, ao galego e ao asturo-leonês ocidental (origem linguística da língua mirandesa):\n[…]\nSegue-se um texto amostra em língua mirandesa publicado no jornal Público por Amadeu Ferreira, a 24 de julho de 2007. Para comparação, apresentam-se as traduções do texto para leonês, asturiano, português, galego e castelhano."
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Camarões",
+      "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses"
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que país africano tem um nome português, dado por navegadores que encontraram muitos crustáceos num de seus rios?",
+    "resposta": "Camarões",
+    "distratores": [
+      "Nigéria",
+      "Gana",
+      "Togo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cameroon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cameroon",
+        "situacao": "ok",
+        "texto": "Cameroon, officially the Republic of Cameroon, is a country in Central Africa. It shares boundaries with Nigeria to the west and north, Chad to the northeast, the Central African Republic to the east, and Equatorial Guinea, Gabon, and the Republic of the Congo to the south. Its coastline lies on the Bight of Biafra, part of the Gulf of Guinea, and the Atlantic Ocean.\n[…]\nOriginally, Cameroon was the exonym given by the Portuguese to the Wouri River, which they called Rio dos Camarões meaning 'river of shrimps' or 'shrimp river', referring to the then abundant Cameroon ghost shrimp. The country's name in Portuguese remains Camarões.\n[…]\nPortuguese sailors reached the coast in 1472. They noted an abundance of the ghost shrimp Lepidophthalmus turneranus in the Wouri River and named it Rio dos Camarões (Shrimp River), which became Cameroon in English. Over the following few centuries, European interests regularised trade with the coastal peoples, and Christian missionaries pushed inland.\n[…]\nThree trans-African automobile routes pass through Cameroon:\n[…]\nSport in Cameroon is dominated by football. Amateur football clubs abound, organised along ethnic lines or under corporate sponsors. The national team has been one of the most successful in Africa since its strong showing in the 1982 and 1990 FIFA World Cups. Cameroon has won five African Cup of Nations titles and the gold medal at the 2000 Olympics.\n[…]\nCameroon was the host country of the Women Africa Cup of Nations in November–December 2016, the 2020 African Nations Championship and the 2021 Africa Cup of Nations. The women's football team is known as the \"Indomitable Lionesses\", and like their men's counterparts, are also successful on the international stage,recently they won Women African of Nations, three whooping goals scored on first half against Malawi.\n[…]\nOutline of Cameroon\n[…]\nNational Assembly of Cameroon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Camar%C3%B5es",
+        "situacao": "ok",
+        "texto": "Camarões, oficialmente República dos Camarões (em francês:  République du Cameroun; em inglês:  Republic of Cameroon), é um país da região ocidental da África Central. Faz fronteira com a Nigéria a oeste; Chade a nordeste;[carece de fontes]? República Centro-Africana a leste; e Guiné Equatorial, Gabão e República do Congo, ao sul. O litoral dos Camarões encontra-se no Golfo do Biafra, parte do Gol\n[…]\nExistem provas de que os primeiros povos que habitavam os Camarões foram os pigmeus, seguidos por vários povos que habitavam a África central. Entre esses povos citam-se em destaque os bantos e os fulas. O navegador português Fernão do Pó (ou Fernando Pó) chegou ao estuário do rio Wouri em 1472 e chamou-o \"rio dos Camarões\", devido à abundância de crustáceos da espécie Lepidophthalmus turneranus na região.\n[…]\nFinalmente, no oeste ocorre a elevação de uma cadeia de montanhas sob domínio do monte Camarões (4070 m), o ponto mais alto do país. Os dois rios mais importantes são Benue, tributário do Níger, e o Sanaga, que desagua no Atlântico.\n[…]\nOs Camarões possuem oito universidades públicas, sendo estas: Universidade de Bamenda, Universidade de Buea, Universidade de Douala, Universidade de Dschang, Universidade de Maroua, Universidade de Ngaoundere, Universidade de Yaoundé I e Universidade de Yaoundé II. Nenhuma das instituições de ensino superior do país está listada entre as 100 melhores universidades da África, de acordo com a classificação do QS World University Rankings de 2021.\n[…]\nOs estilos de música popular incluem o ambasse bey na costa litorânea, assiko, no sul do país, mangambeu, do grupo étnico Bamileke e o tsamassi. A música nigeriana influenciou artistas anglófonos camaroneses, e o hit \"Sweet Mother\", de Prince Nico Mbarga, é o disco africano mais vendido na história.\n[…]\nOs Pigmeus Baka Cultura e música dos primeiros habitantes dos Camarões\n[…]\nInvestigações antropológicas nos Camarões",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Mesóclise",
+      "descricao": "Colocação do pronome oblíquo átono no meio do verbo, nos tempos futuros"
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Como se chama a colocação do pronome no meio do verbo, como em dar-te-ei ou far-se-á?",
+    "resposta": "Mesóclise",
+    "distratores": [
+      "Próclise",
+      "Ênclise",
+      "Elisão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mes%C3%B3clise"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mes%C3%B3clise",
+        "situacao": "ok",
+        "texto": "Na sintaxe da língua portuguesa, o termo colocação pronominal diz respeito ao modo como se dispõem os pronomes clíticos (usados, principalmente, como complemento verbal) em relação aos demais elementos de uma oração. Dentre os fatores que determinam a ordem dos pronomes, tem-se a função sintática do pronome na oração, o tempo verbal, a regência do verbo principal, a ocorrência de advérbios e de ou\n[…]\nDenomina-se próclise a colocação dos pronomes oblíquos átonos antes do verbo.\n[…]\nEm gramática, denomina-se ênclise a colocação dos pronomes oblíquos átonos depois do verbo.\n[…]\nNão deve ser usada quando o verbo está no futuro do presente ou no condicional. Nesse caso utiliza‐se a mesóclise.\n[…]\nEm gramática, denomina-se mesóclise a colocação do pronome oblíquo átono no meio do verbo.\n[…]\nCaso o sujeito esteja explícito ou esteja na frase palavra que justifique o uso da próclise, desfaz-se a mesóclise.\n[…]\nA origem da mesóclise se relaciona à formação de uma construção inovadora de futuro analítico (formado por mais de uma palavra), no período do latim vulgar. Essa forma de futuro analítico se compunha do verbo principal no infinitivo e do verbo *avere (habēre no latim clássico) no presente do indicativo. Sendo o futuro analítico uma forma composta, era possível colocar o pronome entre os dois verbos.\n[…]\nCom a evolução da língua, o verbo *avere como auxiliar foi assimilado ao verbo principal, mas manteve-se a possibilidade de deixar o pronome em posição mesoclítica. Ou seja: caballos comprar ei (comprarei cavalos)\n[…]\nSem palavra atrativa - O pronome pode ser colocado antes do verbo auxiliar, antes do verbo principal, depois do verbo auxiliar ou depois do verbo principal\n[…]\nCom palavra atrativa - O pronome pode ser colocado antes do verbo auxiliar ou depois do verbo principal.\n[…]\nVerbo principal no particípio\n[…]\nMoreno, professor Cláudio (27 de outubro de 2009), «Regras da colocação pronominal», Sua língua, BR: ClicRBS ."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Pangrama",
+      "descricao": "Frase que usa todas as letras do alfabeto"
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Um pequeno jabuti xereta viu dez cegonhas felizes é um exemplo famoso de frase com todas as letras do alfabeto. Como se chama esse tipo de frase?",
+    "resposta": "Pangrama",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pangrama"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pangrama",
+        "situacao": "ok",
+        "texto": "Pangrama, ou pantograma, (do grego, pan ou pantós = todos, + grama = letra) é uma frase em que são usadas todas as letras do alfabeto de determinada língua.\n[…]\nUm pangrama eficiente deve usar todas as letras do alfabeto com o mínimo de palavras. Obviamente, as letras podem se repetir. Na língua portuguesa, o ideal seria que contivesse também os sinais gráficos, a cedilha, o til e todos os acentos gráficos, mas não é obrigatório.\n[…]\nMenores pangramas conhecidos em português:\n[…]\nPangramas que não utilizam as letras k, w e y (antes do Novo Acordo Ortográfico, essas letras não eram formalmente contadas como parte do alfabeto):\n[…]\nJovem ex-quenga picha frase da Blitz. (30 letras)\n[…]\nUm pequeno jabuti xereta viu dez cegonhas felizes. (42 letras)\n[…]\nPangramas que incluem diacríticos:\n[…]\nPangramas à beça jazem no sótão da memória-dervixe do faquir helênico. (58 letras, inclui exemplos de cada acento, mas não exemplos de todas as letras acentuadas)\n[…]\nJoão: “Vá às favas, judas, zerê caquético!”; Noé: “Eu? —Vá você, pinguço, linguinha, xibimba!. (65 letras, inclui exemplos de cada acento, mas não exemplos de todas as letras acentuadas)\n[…]\nÀ noite, vovô Kowalsky vê o ímã cair no pé do pinguim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz. (90 letras, incluindo todas as letras acentuadas)\n[…]\nPangramas em línguas estrangeiras:\n[…]\nEm japonês: embora a ortografia típica use kanji (logogramas), os pangramas podem ser feitos usando cada kana, ou caractere silábico. O Iroha é um exemplo clássico de pangrama perfeito em escrita não latina.\n[…]\nA palavra pangrama também pode se referir a um problema de palavras cruzadas em que todas as letras do alfabeto são utilizadas."
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Proparoxítona",
+      "descricao": "Palavra cuja sílaba tônica é a antepenúltima"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na língua portuguesa, o que toda palavra proparoxítona, como lâmpada, médico e árvore, obrigatoriamente tem?",
+    "resposta": "Acento gráfico",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Proparox%C3%ADtona"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Proparox%C3%ADtona",
+        "situacao": "ok",
+        "texto": "Classifica-se uma palavra como proparoxítona ou esdrúxula quando tem o acento predominante, a sílaba tônica, na antepenúltima sílaba.\n[…]\nToda palavra portuguesa proparoxítona é acentuada, cumpre ressaltar, todavia, que algumas palavras de origem estrangeira foram incorporadas ao idioma pátrio e, portanto, escapam à regra, como é o caso de habitat, deficit, superavit ou performance. Deficit, habitat e superavit já tem formas aceitas pelos gramáticos que são déficit, superávit e hábitat. O VOLP - Vocabulário Ortográfico da Língua Portuguesa na 5ª edição registra como aportuguesamento a palavra défice.\n[…]\nTodas as palavras proparoxítonas não pronominalizadas levam acento.\n[…]\nAs palavras que terminam nas sequências vocálicas postônicas: -ea, -eo, -ia, -ie, -io, -oa, -ua, -uo; são designadas por \"proparoxítonas aparentes\". Por exemplo: ''his-tó-ria'', ou ''his-tó-ri-a'', '\"mis-té-rio\" ou \"mis-té-ri-o\" e ''re-mé-dio'' ou ''re-mé-di-o''.\n[…]\nHá ainda as chamadas \"falsas esdrúxulas\", palavras graves (paroxítonas) mas que de modo geral são pronunciadas como esdrúxulas, por exemplo: pudico, glicemia, rubrica.\n[…]\nárvore - ár-vo-re\n[…]\nproparoxítona - pro-pa-ro-xí-to-na\n[…]\ngráfico - grá-fi-co\n[…]\nmédico - mé-di-co"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Caçula",
+      "descricao": "Palavra brasileira para o filho mais novo, de origem africana"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que as palavras caçula, moleque e cochilar têm em comum na origem?",
+    "resposta": "Vêm de línguas bantas, como o quimbundo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/L%C3%ADngua_quimbunda"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_quimbunda",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Matusalém",
+      "descricao": "Patriarca bíblico do Gênesis, avô de Noé, símbolo de longevidade"
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Segundo o livro do Gênesis, quantos anos viveu Matusalém, cujo nome virou sinônimo de pessoa muito velha?",
+    "resposta": "969 anos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Matusal%C3%A9m"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Matusal%C3%A9m",
+        "situacao": "ok",
+        "texto": "Matusalém ou Metusalém (em hebraico: מְתוּשֶׁלַח / מְתוּשָׁלַח , transl Mətušélaħ / Mətušálaħ, \"Homem da javelina\", ou ainda: \"sua morte trará juízo\") foi um patriarca bíblico e um personagem presente no judaísmo, no cristianismo e no islamismo. Ele é conhecido por ser o homem que teve mais longevidade de toda a Bíblia, pois teria vivido por 969 anos, morrendo no mesmo ano do Dilúvio. De acordo co\n[…]\nAlguns acreditam que a idade extrema de Matusalém é o resultado de uma antiga tradução incorreta que converteu \"meses\" em \"anos\", resultando em 969 meses lunares, ou 78 anos e meio; entretanto, o mesmo cálculo aplicado a Enoque o faria gerar Matusalém aos 5 anos de idade usando números do Texto Massorético. O estudioso Donald V. Etz sugeriu que os números de Gênesis 5 \"poderiam por conveniência ter sido múltiplos de 5 ou 10\".\n[…]\nJá Ellen Bennet argumenta que os números dos personagens em Gênesis 5 estão em décimos de anos, o que \"explicará como eles leram 930 anos para a idade de Adão, em vez de 93 anos, e 969 anos para Matusalém, em vez de 96 anos, e 950 anos pelo de Noé em vez de 95 anos\", afirmando que \"certamente é muito mais racional concluir que Noé viveu 50 anos em vez de 500 anos antes de se casar e gerar Sem, Cam e Jafé\" e depois lista o total de idades da Septuaginta com pontos decimais: 93,0 para Adão, 91,0 para Cainã, 96,9 para Matusalém, 95,0 para Noé, e assim sucessivamente.\n[…]\nSegundo a Enciclopédia Católica, o nome de Matusalém \"tornou-se sinônimo de longevidade\". Dizer que alguém é \"tão velho quanto Matusalém\" é uma maneira bem-humorada de dizer que alguém é muito idoso. A palavra \"Matusaleridade\", uma palavra-valise de Matusalém e singularidade, foi cunhada por Aubrey de Grey para identificar um momento futuro em que todas as condições médicas que causam a morte humana seriam eliminadas e a morte ocorreria apenas por acidente ou homicídio."
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

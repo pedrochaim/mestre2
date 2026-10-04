@@ -1,0 +1,990 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Chá (palavra)",
+        "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+        "variantes": [
+          "Chá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Etymology_of_tea"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O inglês tea veio, pelos holandeses, do dialeto de Fujian. Já o português chá foi aprendido em qual entreposto comercial no sul da China?",
+      "resposta": "Macau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Etymology_of_tea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Copacabana (bairro)",
+        "descricao": "Bairro da zona sul do Rio de Janeiro, famoso por sua praia",
+        "variantes": [
+          "Copacabana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O bairro carioca de Copacabana deve seu nome a uma santa venerada às margens de qual lago, na Bolívia?",
+      "resposta": "Lago Titicaca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Presente de grego",
+        "descricao": "Expressão para um presente que traz prejuízo a quem o recebe",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cavalo_de_Troia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A expressão presente de grego lembra o cavalo de madeira que os gregos deixaram diante das muralhas de qual cidade?",
+      "resposta": "Troia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cavalo_de_Troia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vitória de Pirro",
+        "descricao": "Expressão para uma vitória obtida a um custo tão alto que equivale a uma derrota",
+        "variantes": [
+          "Vitória pírrica"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_p%C3%ADrrica",
+          "https://en.wikipedia.org/wiki/Pyrrhic_victory"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A expressão vitória de Pirro lembra um rei que venceu os romanos a um custo altíssimo. Ele reinava em qual região grega?",
+      "resposta": "Epiro",
+      "distratores": [
+        "Esparta",
+        "Tebas",
+        "Creta"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_p%C3%ADrrica",
+        "https://en.wikipedia.org/wiki/Pyrrhic_victory"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boicote",
+        "descricao": "Recusa organizada de comprar, usar ou negociar com alguém, como forma de protesto",
+        "variantes": [
+          "Boycott"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charles_Boycott"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A palavra boicote vem do sobrenome de um administrador de terras isolado pela comunidade local em 1880. Em que país isso aconteceu?",
+      "resposta": "Irlanda",
+      "distratores": [
+        "Escócia",
+        "Inglaterra",
+        "País de Gales"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Boycott"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Candango",
+        "descricao": "Nome dado aos trabalhadores que construíram Brasília e, depois, aos seus moradores",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Candango"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os trabalhadores que vieram de todo o país para erguer qual cidade, no fim dos anos cinquenta, ficaram conhecidos como candangos?",
+      "resposta": "Brasília",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Candango"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sotaque manezinho",
+        "descricao": "Falar típico dos nativos de Florianópolis, marcado pela herança açoriana",
+        "variantes": [
+          "Dialeto florianopolitano",
+          "Manezinho da Ilha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dialeto_florianopolitano"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O sotaque manezinho, típico de Florianópolis, tem forte herança de imigrantes vindos de qual arquipélago português?",
+      "resposta": "Açores",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dialeto_florianopolitano",
+        "https://pt.wikipedia.org/wiki/Florian%C3%B3polis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Talian",
+        "descricao": "Variedade do vêneto falada por descendentes de imigrantes italianos no sul do Brasil",
+        "variantes": [
+          "Vêneto brasileiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Talian"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O talian, variedade do vêneto trazida por imigrantes italianos, é falado sobretudo na serra de qual estado brasileiro?",
+      "resposta": "Rio Grande do Sul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Talian"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Libras",
+        "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil",
+        "variantes": [
+          "Língua Brasileira de Sinais"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+      "resposta": "França",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Reforma Ortográfica de 1911",
+        "descricao": "Reforma da ortografia portuguesa feita em Portugal logo após a proclamação da República",
+        "variantes": [
+          "Reforma ortográfica portuguesa de 1911"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Reforms_of_Portuguese_orthography"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1911, logo após virar república, qual país fez uma reforma ortográfica que trocou o pê agá pelo efe em palavras como farmácia?",
+      "resposta": "Portugal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Reforms_of_Portuguese_orthography",
+        "https://pt.wikipedia.org/wiki/Reforma_Ortogr%C3%A1fica_de_1911"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kristang",
+        "descricao": "Língua crioula de base portuguesa da comunidade luso-descendente da Malásia",
+        "variantes": [
+          "Papiá kristang",
+          "Crioulo de Malaca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kristang_language"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O kristang, crioulo de base portuguesa, nasceu em qual cidade da Malásia, conquistada pelos portugueses em 1511?",
+      "resposta": "Malaca",
+      "distratores": [
+        "Kuala Lumpur",
+        "Penang",
+        "Kuching"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kristang_language"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "acordo_ortografico_de_1990",
+        "nome": "Acordo Ortográfico de 1990",
+        "descricao": "Tratado que unificou a ortografia dos países de língua portuguesa, em vigor no Brasil desde 2009",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Acordo_Ortogr%C3%A1fico_de_1990"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
+      "resposta": "2016",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Acordo_Ortogr%C3%A1fico_de_1990"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Comunidade dos Países de Língua Portuguesa",
+        "descricao": "Organização internacional que reúne os países que têm o português como língua oficial",
+        "variantes": [
+          "CPLP"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Comunidade_dos_Pa%C3%ADses_de_L%C3%ADngua_Portuguesa"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi criada, numa cúpula em Lisboa, a Comunidade dos Países de Língua Portuguesa?",
+      "resposta": "1996",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Comunidade_dos_Pa%C3%ADses_de_L%C3%ADngua_Portuguesa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Goa",
+        "descricao": "Estado da costa oeste da Índia, antiga possessão portuguesa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Goa"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Goa, na costa da Índia, ficou mais de quatro séculos sob domínio português. Em que ano a Índia tomou o território?",
+      "resposta": "1961",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Annexation_of_Goa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Libras",
+        "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil",
+        "variantes": [
+          "Língua Brasileira de Sinais"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+      "resposta": "2002",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Carta de Pero Vaz de Caminha",
+        "descricao": "Carta escrita em 1500 ao rei Manuel I relatando a chegada da frota de Cabral ao Brasil",
+        "variantes": [
+          "Carta do Achamento do Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Escrita em 1500, a carta de Pero Vaz de Caminha ficou inédita por muito tempo. Em que século ela foi publicada pela primeira vez?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dicionário Aurélio",
+        "descricao": "Dicionário da língua portuguesa de Aurélio Buarque de Holanda Ferreira, cujo nome virou sinônimo de dicionário no Brasil",
+        "variantes": [
+          "Novo Dicionário Aurélio da Língua Portuguesa",
+          "Aurélio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Aur%C3%A9lio_Buarque_de_Holanda_Ferreira"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O dicionário Aurélio ficou tão popular que virou sinônimo de dicionário no Brasil. Em que década saiu sua primeira edição?",
+      "resposta": "Década de 1970",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aur%C3%A9lio_Buarque_de_Holanda_Ferreira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia de Portugal",
+        "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas",
+        "variantes": [
+          "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+          "Dia de Camões"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Portugal_Day"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Portugal comemora seu dia nacional na data da morte de Luís de Camões, o poeta de Os Lusíadas. Que data é essa?",
+      "resposta": "10 de junho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Portugal_Day",
+        "https://pt.wikipedia.org/wiki/Dia_de_Portugal,_de_Cam%C3%B5es_e_das_Comunidades_Portuguesas"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lingua_portuguesa",
+        "nome": "Língua portuguesa",
+        "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+        "variantes": [
+          "Português"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_portuguesa"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+      "resposta": "Dom Dinis",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dinis_I_de_Portugal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arte de Gramática da Língua mais Usada na Costa do Brasil",
+        "descricao": "Gramática da língua tupi publicada em 1595 pelo jesuíta José de Anchieta",
+        "variantes": [
+          "Gramática de Anchieta"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Anchieta"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que padre jesuíta, um dos fundadores de São Paulo, escreveu uma gramática da língua tupi publicada em 1595?",
+      "resposta": "José de Anchieta",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Anchieta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Emília no País da Gramática",
+        "descricao": "Livro infantil de 1934 em que a boneca Emília e sua turma visitam um país feito de palavras",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Em%C3%ADlia_no_Pa%C3%ADs_da_Gram%C3%A1tica"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1934, que escritor levou a boneca Emília e sua turma a um passeio pelo País da Gramática?",
+      "resposta": "Monteiro Lobato",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Em%C3%ADlia_no_Pa%C3%ADs_da_Gram%C3%A1tica"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Academia Brasileira de Letras",
+        "descricao": "Instituição fundada no Rio de Janeiro em 1897 para cultivar a língua e a literatura nacionais",
+        "variantes": [
+          "ABL"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Academia_Brasileira_de_Letras"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+      "resposta": "Machado de Assis",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Academia_Brasileira_de_Letras"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Prêmio Camões",
+        "descricao": "Principal prêmio literário da língua portuguesa, concedido anualmente desde 1989",
+        "variantes": [
+          "Prémio Camões"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Prêmio Camões, o mais importante prêmio literário da língua portuguesa, foi criado em 1988 pelos governos de quais dois países?",
+      "resposta": "Brasil e Portugal",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ovo de Colombo",
+        "descricao": "Expressão para uma solução que parece óbvia depois que alguém a encontra",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ovo_de_Colombo",
+          "https://en.wikipedia.org/wiki/Egg_of_Columbus"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma anedota famosa, que navegador fez um ovo parar em pé amassando a ponta, dando origem a uma expressão para soluções simples?",
+      "resposta": "Cristóvão Colombo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ovo_de_Colombo",
+        "https://en.wikipedia.org/wiki/Egg_of_Columbus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pomo da discórdia",
+        "descricao": "Expressão para o motivo de uma briga, vinda da maçã de ouro do mito grego",
+        "variantes": [
+          "Maçã da discórdia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple_of_Discord"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No mito grego, que deusa lançou entre os convidados de um casamento o pomo da discórdia, uma maçã de ouro destinada à mais bela?",
+      "resposta": "Éris",
+      "distratores": [
+        "Hera",
+        "Atena",
+        "Afrodite"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apple_of_Discord",
+        "https://pt.wikipedia.org/wiki/%C3%89ris"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lavar as mãos (expressão)",
+        "descricao": "Expressão para quem se exime de responsabilidade sobre uma decisão",
+        "variantes": [
+          "Lavar as mãos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/P%C3%B4ncio_Pilatos"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A expressão lavar as mãos, para fugir de uma responsabilidade, lembra o gesto de qual governador romano no julgamento de Jesus?",
+      "resposta": "Pôncio Pilatos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/P%C3%B4ncio_Pilatos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tupi or not tupi",
+        "descricao": "Frase do Manifesto Antropófago de 1928 que brinca com a célebre fala de Hamlet",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor modernista brincou com Shakespeare ao escrever tupi or not tupi, that is the question, no Manifesto Antropófago de 1928?",
+      "resposta": "Oswald de Andrade",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Saudade",
+        "descricao": "Palavra portuguesa para o sentimento de falta de alguém ou de algo distante",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Saudade"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra saudade vem do latim solitas. O que essa palavra latina significava?",
+      "resposta": "Solidão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Saudade"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Potiguar",
+        "descricao": "Gentílico de quem nasce no Rio Grande do Norte, derivado do nome do povo indígena potiguara",
+        "variantes": [
+          "Potiguara"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Potiguaras"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Quem nasce no Rio Grande do Norte é chamado de potiguar, nome de um povo indígena. O que esse nome significa em tupi?",
+      "resposta": "Comedor de camarão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Potiguaras"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ipanema (palavra)",
+        "descricao": "Palavra de origem tupi que dá nome a um bairro do Rio de Janeiro",
+        "variantes": [
+          "Ipanema"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ipanema"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Ipanema, do bairro carioca famoso pela praia e pela canção, é uma palavra tupi. O que ela significa?",
+      "resposta": "Água ruim",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ipanema"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pau-brasil",
+        "descricao": "Árvore nativa da Mata Atlântica cuja madeira avermelhada deu nome ao Brasil",
+        "variantes": [
+          "Paubrasilia echinata"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pau-brasil"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O pau-brasil, árvore que deu nome ao país, deve seu nome à cor avermelhada da madeira, parecida com a de quê?",
+      "resposta": "Brasa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pau-brasil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Crase",
+        "descricao": "Fusão de duas vogais iguais, como a preposição a com o artigo a, marcada pelo acento grave",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Crase"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra crase, que nomeia a fusão da preposição a com o artigo a, vem do grego. O que ela significa?",
+      "resposta": "Mistura",
+      "distratores": [
+        "Acento",
+        "Inclinação",
+        "Curva"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Crase"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Padre Antônio Vieira",
+        "descricao": "Jesuíta português do século dezessete, célebre pelos sermões e pela atuação no Brasil",
+        "variantes": [
+          "António Vieira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Vieira"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No livro Mensagem, Fernando Pessoa deu ao padre Antônio Vieira, mestre dos sermões, um título imperial. Qual?",
+      "resposta": "Imperador da língua portuguesa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Vieira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha Formosa",
+        "descricao": "Nome dado pelos navegadores portugueses à ilha de Taiwan",
+        "variantes": [
+          "Formosa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Names_of_Taiwan"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que nome português, que significa bela, os navegadores do século dezesseis deram à ilha de Taiwan?",
+      "resposta": "Formosa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_Taiwan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Et cetera",
+        "descricao": "Expressão latina usada no fim de enumerações, abreviada como etc.",
+        "variantes": [
+          "Etc.",
+          "Etcétera"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Et_cetera"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A expressão etcétera, usada no fim de listas, vem do latim. O que ela significa ao pé da letra?",
+      "resposta": "E as outras coisas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Et_cetera"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Telefone celular",
+        "descricao": "Telefone portátil sem fio, chamado de celular no Brasil e de telemóvel em Portugal",
+        "variantes": [
+          "Celular",
+          "Telemóvel"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Telefone_celular"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Um brasileiro em Lisboa quer comprar um celular. Que palavra ele vai encontrar nas lojas portuguesas para esse aparelho?",
+      "resposta": "Telemóvel",
+      "distratores": [
+        "Portátil",
+        "Móvel",
+        "Telefonino"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Telefone_celular"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lágrimas de crocodilo",
+        "descricao": "Expressão para um choro fingido ou uma tristeza falsa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crocodile_tears"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A expressão lágrimas de crocodilo, para choro fingido, nasceu da antiga crença de que esse réptil chorava enquanto fazia o quê?",
+      "resposta": "Devorava suas presas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crocodile_tears"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canto do cisne",
+        "descricao": "Expressão para a última obra ou atuação de alguém antes do fim da carreira",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Swan_song"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a última grande obra de um artista costuma ser chamada de canto do cisne?",
+      "resposta": "Pela lenda de que o cisne canta antes de morrer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Swan_song"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Calcanhar de Aquiles",
+        "descricao": "Expressão para o ponto fraco de alguém ou de algo",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Achilles%27_heel"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na lenda grega, por que o calcanhar ficou sendo o ponto fraco de Aquiles quando sua mãe o mergulhou no rio Estige?",
+      "resposta": "Foi por onde ela o segurou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Achilles%27_heel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Santo do pau oco",
+        "descricao": "Expressão brasileira para uma pessoa dissimulada, que finge ser virtuosa",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Santo_do_pau_oco"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a explicação mais difundida, a expressão santo do pau oco vem de imagens ocas usadas no Brasil colonial para contrabandear o quê?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Santo_do_pau_oco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Sertão: Veredas",
+        "descricao": "Romance de Guimarães Rosa, publicado em 1956, narrado pelo jagunço Riobaldo",
+        "variantes": [
+          "Grande Sertão Veredas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Grande_Sert%C3%A3o:_Veredas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que palavra, que quer dizer coisa sem importância, é a primeira do romance Grande Sertão Veredas, de Guimarães Rosa?",
+      "resposta": "Nonada",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Grande_Sert%C3%A3o:_Veredas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pajubá",
+        "descricao": "Linguagem popular da comunidade LGBT brasileira, com muitas palavras de origem africana",
+        "variantes": [
+          "Bajubá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pajub%C3%A1"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O pajubá, linguagem criada pela comunidade LGBT brasileira, usa muitas palavras de qual língua africana, vindas dos terreiros de candomblé?",
+      "resposta": "Iorubá",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pajub%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Palavras inglesas de origem portuguesa",
+        "descricao": "Empréstimos que o inglês recebeu do português, sobretudo na época das navegações",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_English_words_of_Portuguese_origin"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas palavras do inglês foi tomada do português?",
+      "resposta": "Molasses",
+      "distratores": [
+        "Ketchup",
+        "Shampoo",
+        "Pajamas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_English_words_of_Portuguese_origin",
+        "https://en.wikipedia.org/wiki/Molasses"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mirandês",
+        "descricao": "Língua asturo-leonesa falada no nordeste de Portugal, reconhecida oficialmente em 1999",
+        "variantes": [
+          "Língua mirandesa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_mirandesa"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que língua, falada perto da fronteira com a Espanha, foi reconhecida oficialmente em Portugal em 1999?",
+      "resposta": "Mirandês",
+      "distratores": [
+        "Galego",
+        "Basco",
+        "Catalão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/L%C3%ADngua_mirandesa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Camarões",
+        "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+        "variantes": [
+          "Cameroon",
+          "Cameroun"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cameroon"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que país africano tem um nome português, dado por navegadores que encontraram muitos crustáceos num de seus rios?",
+      "resposta": "Camarões",
+      "distratores": [
+        "Nigéria",
+        "Gana",
+        "Togo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cameroon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesóclise",
+        "descricao": "Colocação do pronome oblíquo átono no meio do verbo, nos tempos futuros",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mes%C3%B3clise"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Como se chama a colocação do pronome no meio do verbo, como em dar-te-ei ou far-se-á?",
+      "resposta": "Mesóclise",
+      "distratores": [
+        "Próclise",
+        "Ênclise",
+        "Elisão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mes%C3%B3clise"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pangrama",
+        "descricao": "Frase que usa todas as letras do alfabeto",
+        "variantes": [
+          "Pantograma"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pangrama"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Um pequeno jabuti xereta viu dez cegonhas felizes é um exemplo famoso de frase com todas as letras do alfabeto. Como se chama esse tipo de frase?",
+      "resposta": "Pangrama",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pangrama"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Proparoxítona",
+        "descricao": "Palavra cuja sílaba tônica é a antepenúltima",
+        "variantes": [
+          "Esdrúxula"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Proparox%C3%ADtona"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na língua portuguesa, o que toda palavra proparoxítona, como lâmpada, médico e árvore, obrigatoriamente tem?",
+      "resposta": "Acento gráfico",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Proparox%C3%ADtona"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caçula",
+        "descricao": "Palavra brasileira para o filho mais novo, de origem africana",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_quimbunda"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que as palavras caçula, moleque e cochilar têm em comum na origem?",
+      "resposta": "Vêm de línguas bantas, como o quimbundo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/L%C3%ADngua_quimbunda"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Matusalém",
+        "descricao": "Patriarca bíblico do Gênesis, avô de Noé, símbolo de longevidade",
+        "variantes": [
+          "Metusalém"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Matusal%C3%A9m"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Segundo o livro do Gênesis, quantos anos viveu Matusalém, cujo nome virou sinônimo de pessoa muito velha?",
+      "resposta": "969 anos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Matusal%C3%A9m"
+      ]
+    }
+  ]
+}
