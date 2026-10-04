@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"autor deste retrato\" é ambíguo: pode ser entendido como quem fez o retrato (pintor ou fotógrafo). O fato em si é confirmado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Qual destes romances foi escrito pelo homem retratado aqui?",
+        "resposta": "Oliver Twist",
+        "distratores": [
+          "Jane Eyre",
+          "Moby Dick",
+          "Frankenstein"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado só dá nacionalidade e ofício, o que ajuda sem entregar. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que ele é amplamente considerado o primeiro filósofo existencialista. O enunciado não permite responder sem reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. O enunciado só dá a nacionalidade e o ofício. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade, ofício e século ajudam sem entregar. Whitman nasceu em 1819 e morreu em 1892, então \"poeta do século dezenove\" é verdadeiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são filósofos do mesmo século e críveis, e nenhum deles é Hume. Resposta única diante do retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"autor desta foto\" sugere o fotógrafo. É preciso dizer que se trata do homem fotografado. O livro está nos trechos, e os distratores são de outros autores.",
+      "reescrita": {
+        "pergunta": "Qual destes livros foi escrito pelo homem fotografado aqui?",
+        "resposta": "O Velho e o Mar",
+        "distratores": [
+          "O Grande Gatsby",
+          "As Vinhas da Ira",
+          "Moby Dick"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. Nacionalidade e movimento ajudam sem entregar o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Sinfonia n.º 2 de Mahler é a Ressurreição, como diz o trecho. Os distratores são sinfonias com apelido de Berlioz, Mozart e Beethoven, e nenhuma é de Mahler.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ela viveu de 1775 a 1817 e publicou na década de 1810, então \"começo do século dezenove\" é adequado. Nacionalidade e ofício não entregam o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Eugênio Onêguin é obra de Púchkin, um fato amplamente documentado. Os distratores são obras de Dostoiévski, Gógol e Tolstói, de outros autores russos.",
+      "reescrita": null
+    }
+  ]
+}

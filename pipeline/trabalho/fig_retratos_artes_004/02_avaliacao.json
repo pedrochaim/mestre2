@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de Dickens; pergunta de obra em múltipla escolha, que exige reconhecer o autor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destes romances foi escrito pelo autor deste retrato?",
+      "resposta": "Oliver Twist",
+      "distratores": [
+        "Jane Eyre",
+        "Moby Dick",
+        "Frankenstein"
+      ],
+      "ancora": {
+        "nome": "Charles Dickens",
+        "descricao": "Romancista inglês da era vitoriana, autor de Oliver Twist e David Copperfield.",
+        "variantes": [
+          "Charles John Huffam Dickens"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de Debussy; reconhecimento direto do compositor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que compositor francês é este?",
+      "resposta": "Claude Debussy",
+      "ancora": {
+        "nome": "Claude Debussy",
+        "descricao": "Compositor francês, nascido em 1862, associado ao impressionismo musical.",
+        "variantes": [
+          "Achille-Claude Debussy"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Desenho conhecido e limpo de Kierkegaard jovem, sem texto; pergunta de nível 3 sobre a corrente filosófica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "De que corrente filosófica este pensador é considerado o primeiro representante?",
+      "resposta": "Existencialismo",
+      "ancora": {
+        "nome": "Søren Kierkegaard",
+        "descricao": "Filósofo e teólogo dinamarquês do século dezenove, considerado o primeiro existencialista.",
+        "variantes": [
+          "Soren Kierkegaard",
+          "Kierkegaard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de perfil de Dante com o barrete vermelho e a coroa de louros, muito reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que poeta italiano é este?",
+      "resposta": "Dante Alighieri",
+      "ancora": {
+        "nome": "Dante Alighieri",
+        "descricao": "Poeta florentino, autor da Divina Comédia.",
+        "variantes": [
+          "Dante"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clássica de Whitman, com barba e chapéu característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que poeta americano do século dezenove é este?",
+      "resposta": "Walt Whitman",
+      "ancora": {
+        "nome": "Walt Whitman",
+        "descricao": "Poeta americano do século dezenove, autor de Folhas de Relva.",
+        "variantes": [
+          "Walter Whitman"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de Hume por Allan Ramsay, sem texto visível; múltipla com filósofos da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filósofo do século dezoito é este?",
+      "resposta": "David Hume",
+      "distratores": [
+        "Voltaire",
+        "Immanuel Kant",
+        "Adam Smith"
+      ],
+      "ancora": {
+        "nome": "David Hume",
+        "descricao": "Filósofo empirista escocês do século dezoito, autor de Tratado da Natureza Humana.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto conhecida de Hemingway à máquina de escrever, sem texto legível; pergunta sobre obra.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destes livros foi escrito pelo autor desta foto?",
+      "resposta": "O Velho e o Mar",
+      "distratores": [
+        "O Grande Gatsby",
+        "As Vinhas da Ira",
+        "Moby Dick"
+      ],
+      "ancora": {
+        "nome": "Ernest Hemingway",
+        "descricao": "Romancista americano, Nobel de Literatura em 1954, autor de O Velho e o Mar.",
+        "variantes": [
+          "Ernest Miller Hemingway"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto jovem e nítida de Virginia Woolf, sem texto; muito difundida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que escritora inglesa modernista é esta?",
+      "resposta": "Virginia Woolf",
+      "ancora": {
+        "nome": "Virginia Woolf",
+        "descricao": "Escritora inglesa modernista, autora de Mrs Dalloway e Ao Farol.",
+        "variantes": [
+          "Adeline Virginia Stephen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de Mahler jovem, de pincenê, sem texto; pergunta de obra em múltipla.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual destas sinfonias foi composta pelo homem deste retrato?",
+      "resposta": "Sinfonia da Ressurreição",
+      "distratores": [
+        "Sinfonia Fantástica",
+        "Sinfonia Júpiter",
+        "Sinfonia Pastoral"
+      ],
+      "ancora": {
+        "nome": "Gustav Mahler",
+        "descricao": "Compositor e regente austro-boêmio do Romantismo tardio, autor de nove sinfonias completas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esboço conhecido de Jane Austen, sem texto; reconhecível como retrato de referência.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que romancista inglesa do começo do século dezenove é esta?",
+      "resposta": "Jane Austen",
+      "ancora": {
+        "nome": "Jane Austen",
+        "descricao": "Romancista inglesa, autora de Orgulho e Preconceito e Emma.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato a óleo famoso de Pushkin por Kiprenski; só iniciais e data do pintor, sem entregar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destas obras foi escrita pelo homem deste retrato?",
+      "resposta": "Eugênio Onêguin",
+      "distratores": [
+        "Crime e Castigo",
+        "Almas Mortas",
+        "Anna Kariênina"
+      ],
+      "ancora": {
+        "nome": "Alexandre Pushkin",
+        "descricao": "Poeta e romancista russo do Romantismo, autor de Eugênio Onêguin.",
+        "variantes": [
+          "Aleksandr Pushkin",
+          "Alexander Pushkin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Busto antigo genérico de homem barbado; não é reconhecível como Sófocles e poderia ser confundido com outros gregos."
+    }
+  ]
+}
