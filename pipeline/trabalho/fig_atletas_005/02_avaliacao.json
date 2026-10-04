@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; só aparece CBG e patrocinadores, sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 5,
+      "tipo": "aberta",
+      "pergunta": "Que ginasta brasileira é esta?",
+      "resposta": "Rebeca Andrade",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rebeca Andrade",
+        "descricao": "Ginasta artística brasileira, campeã olímpica no salto (2020) e no solo (2024).",
+        "variantes": [
+          "Rebeca Rodrigues de Andrade"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 4,
+      "tipo": "aberta",
+      "pergunta": "Que piloto espanhol de Fórmula 1 é este?",
+      "resposta": "Fernando Alonso",
+      "distratores": [],
+      "ancora": {
+        "nome": "Fernando Alonso",
+        "descricao": "Piloto espanhol de Fórmula 1, bicampeão mundial em 2005 e 2006.",
+        "variantes": [
+          "Fernando Alonso Díaz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida; camisa do Wizards e número 42 sem nome, o que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Que pivô brasileiro de basquete é este?",
+      "resposta": "Nenê",
+      "distratores": [],
+      "ancora": {
+        "nome": "Nenê",
+        "descricao": "Pivô brasileiro de basquete, ex-jogador da NBA, nascido Maybyner Rodney Hilário.",
+        "variantes": [
+          "Nenê Hilário",
+          "Maybyner Rodney Hilário"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública com camisa da seleção e troféu sem texto; imagem pequena, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que lateral brasileiro é este?",
+      "resposta": "Daniel Alves",
+      "distratores": [],
+      "ancora": {
+        "nome": "Daniel Alves",
+        "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+        "variantes": [
+          "Dani Alves",
+          "Daniel Alves da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato de estúdio nítido; só a marca Venum no calção, sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 6,
+      "tipo": "aberta",
+      "pergunta": "Que lutador brasileiro de MMA, ex-campeão meio-pesado do UFC, é este?",
+      "resposta": "Lyoto Machida",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lyoto Machida",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão meio-pesado do UFC.",
+        "variantes": [
+          "Lyoto Carvalho Machida"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Boné e óculos escuros cobrem boa parte do rosto, e o perfil não permite reconhecer o piloto com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido com camisa da seleção; o texto mostra só a partida, sem o nome. Múltipla com atacantes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que atacante da seleção brasileira é este?",
+      "resposta": "Vinícius Júnior",
+      "distratores": [
+        "Rodrygo",
+        "Raphinha",
+        "Neymar"
+      ],
+      "ancora": {
+        "nome": "Vinícius Júnior",
+        "descricao": "Atacante brasileiro do Real Madrid e da seleção, revelado pelo Flamengo.",
+        "variantes": [
+          "Vinícius José Paixão de Oliveira Júnior",
+          "Vini Jr."
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o emblema da federação egípcia indica o país, não o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que atacante egípcio é este?",
+      "resposta": "Mohamed Salah",
+      "distratores": [],
+      "ancora": {
+        "nome": "Mohamed Salah",
+        "descricao": "Atacante egípcio, capitão da seleção do Egito e maior artilheiro estrangeiro da Premier League.",
+        "variantes": [
+          "Mo Salah",
+          "Mohamed Salah Hamed Mahrous Ghaly"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida; camisa de Cleveland com o 17, sem nome. Múltipla com brasileiros da NBA.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogador brasileiro de basquete é este?",
+      "resposta": "Anderson Varejão",
+      "distratores": [
+        "Tiago Splitter",
+        "Leandrinho Barbosa",
+        "Marcelo Huertas"
+      ],
+      "ancora": {
+        "nome": "Anderson Varejão",
+        "descricao": "Pivô brasileiro de basquete que passou 13 temporadas no Cleveland Cavaliers, da NBA.",
+        "variantes": [
+          "Anderson França Varejão"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato com agasalho do Brasil, sem nome visível; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 7,
+      "tipo": "aberta",
+      "pergunta": "Que jogador brasileiro de futsal é este?",
+      "resposta": "Falcão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Falcão",
+        "descricao": "Jogador brasileiro de futsal, considerado o maior da história da modalidade, nascido Alessandro Rosa Vieira.",
+        "variantes": [
+          "Alessandro Rosa Vieira",
+          "Falcão (futsal)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida com cinturão do UFC; só patrocinador no texto, sem o nome. Múltipla com lutadores brasileiros.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 6,
+      "tipo": "multipla",
+      "pergunta": "Que lutador brasileiro de MMA é este?",
+      "resposta": "Charles Oliveira (Charles do Bronx)",
+      "distratores": [
+        "José Aldo",
+        "Glover Teixeira",
+        "Gilbert Durinho"
+      ],
+      "ancora": {
+        "nome": "Charles do Bronx",
+        "descricao": "Lutador brasileiro de MMA e jiu-jítsu, ex-campeão peso-leve do UFC, nascido Charles Oliveira da Silva.",
+        "variantes": [
+          "Charles Oliveira",
+          "Charles Oliveira da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível (só patrocinadores e troféu); figura pública. Pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade esta jogadora de vôlei brasileira conquistou a medalha de ouro olímpica?",
+      "resposta": "Londres",
+      "distratores": [],
+      "ancora": {
+        "nome": "Natália Pereira",
+        "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+        "variantes": [
+          "Natália Zilio Pereira",
+          "Natália"
+        ]
+      }
+    }
+  ]
+}

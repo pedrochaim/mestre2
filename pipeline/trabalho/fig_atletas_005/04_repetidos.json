@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ginasta brasileira é esta?",
+        "resposta": "Rebeca Andrade"
+      },
+      "existentes": [
+        {
+          "id": "q04649",
+          "pergunta": "A ginasta Rebeca Andrade, campeã olímpica no salto e no solo, nasceu em que cidade da Grande São Paulo?",
+          "resposta": "Guarulhos"
+        },
+        {
+          "id": "q04681",
+          "pergunta": "Em Tóquio 2020, Rebeca Andrade empolgou o Brasil com uma série de solo ao som de que funk de MC João?",
+          "resposta": "Baile de Favela"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identidade da ginasta (provavelmente por imagem). As existentes perguntam a cidade natal e a música do solo, fatos diferentes. Saber um deles não leva a responder o outro."
+    }
+  ]
+}
