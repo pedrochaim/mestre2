@@ -1,0 +1,386 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, enunciado preciso e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta com dois nomes e enunciado vago; melhor pedir um só, o britânico.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em Paris, o Centro Pompidou exibe por fora canos coloridos e escadas rolantes. Que arquiteto britânico o projetou junto com o italiano Renzo Piano?",
+        "resposta": "Richard Rogers",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Centre_Pompidou"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paxton era jardineiro e projetou o Palácio de Cristal; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Brecheret confirmada; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salvi projetou a fonte; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Atual basílica' é impreciso: hoje é mesquita.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em Istambul, a Santa Sofia, com sua enorme cúpula, foi construída no século seis por ordem de qual imperador bizantino?",
+        "resposta": "Justiniano",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hagia_Sophia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luís XIV transformou o pavilhão de Luís XIII; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catarina II fundou o Hermitage em 1764; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Profetas atribuídos a Aleijadinho; fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só os blocos de granito externos foram levados, então 'remontada pedra por pedra' é impreciso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em 1968, a antiga Ponte de Londres, de granito, foi vendida a um empresário americano, e suas pedras externas foram levadas para qual estado dos Estados Unidos?",
+        "resposta": "Arizona",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/London_Bridge_(Lake_Havasu_City)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Montmartre confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amsterdã confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kuala Lumpur confirmada; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gateway Arch é símbolo de Saint Louis.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hiroshima confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Farol em Faros, porto de Alexandria; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marrakech confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caminito em La Boca confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construída 1886–1894, aberta em 1894, século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construída 1406–1420 sob os Ming.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construção iniciada em 1961; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que a laje do balcão é do século quatorze, com acréscimos; a afirmação é contestável.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iniciada em 1163, século doze.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído para a Copa de 1950.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 1873, reinado de Dom Pedro II.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Feira Mundial de 1962 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome ligado à estátua colossal de Nero; fato conhecido e sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "La Pedrera confirmado como alcunha.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'Coathanger' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado já traz 'Charlie' e a resposta é trivial, quase vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Posto para controle de peso e arrecadação de tributos.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teresina homenageia Teresa Cristina.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parthénos significa virgem.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'The Bean' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construção iniciada em 6 de janeiro, dia de Reis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só o zócalo (pedestal) foi construído.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspirado na Ópera de Paris de Garnier.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estufa inspirada no Palácio de Cristal.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspirou o Castelo da Bela Adormecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspirada na Torre Eiffel.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comparado ao Capitólio dos EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aqueduto para abastecer a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Celebra a conquista de Kazan e Astracã; a resposta única exige desambiguar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A Catedral de São Basílio, de cúpulas coloridas na Praça Vermelha, foi erguida por ordem de Ivan, o Terrível, para celebrar a conquista de qual cidade, hoje capital do Tartaristão?",
+        "resposta": "Kazan",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anúncio de loteamento imobiliário confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jorge V em 1911 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quinto centenário da morte do Infante, 1960.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Theodore Roosevelt é o quarto rosto.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óculo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarto centenário da fundação confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda dos corvos confirmada.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,1628 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Cidades e Monumentos** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Museu Guggenheim Bilbao",
+      "descricao": "Museu de arte contemporânea revestido de titânio, inaugurado em 1997 em Bilbao, no País Basco, Espanha."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado em 1997 e coberto de placas curvas de titânio, o Museu Guggenheim de Bilbao, na Espanha, foi projetado por qual arquiteto?",
+    "resposta": "Frank Gehry",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+        "situacao": "ok",
+        "texto": "The Guggenheim Museum Bilbao is a museum of modern and contemporary art in Bilbao, Biscay, Spain. It is one of several museums affiliated to the Solomon R. Guggenheim Foundation and features permanent and visiting exhibits of works by Spanish and international artists. It was inaugurated on 18 October 1997 by King Juan Carlos I of Spain, with an exhibition of 250 contemporary works of art. It is o\n[…]\nThe building, designed by Canadian-American architect Frank Gehry, was built alongside the Nervion River, which runs through the city to the Cantabrian Sea. A work of contemporary architecture, it has been hailed as a \"signal moment in the architectural culture\", because it represents \"one of those rare moments when critics, academics, and the general public were all completely united about something\", according to architectural critic Paul Goldberger.\n[…]\nThe Solomon R. Guggenheim Foundation selected Frank Gehry as the architect, and its director, Thomas Krens, encouraged him to design something daring and innovative. The curves on the exterior of the building were intended to appear random; the architect said that \"the randomness of the curves are designed to catch the light\". The interior \"is designed around a large, light-filled atrium with views of Bilbao's estuary and the surrounding hills of the Basque country\".\n[…]\nWhen the museum opened to the public in 1997, it was immediately hailed as one of the world's most spectacular buildings in the style of Deconstructivism (although Gehry does not associate himself with that architectural movement), a masterpiece of the 20th century.\n[…]\nTitanium is a low-polluting material, and each part has been designed differently according to its orientation on the building, so they correspond perfectly with the curves desired by Gehry.\n[…]\nGuggenheim family\n[…]\nList of works by Frank Gehry\n[…]\nHow the Guggenheim Bilbao Changed Architecture Forever on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Museu_Guggenheim_Bilbao",
+        "situacao": "ok",
+        "texto": "O Museu Guggenheim Bilbao, situado na cidade basca de Bilbau é um dos cinco museus pertencentes à Fundação Solomon R. Guggenheim no mundo. Projetado pelo arquiteto canadense naturalizado norte-americano Frank Gehry, é hoje um dos locais mais visitados da Espanha. Seu projeto foi parte de um esforço para revitalizar Bilbau e, hoje, recebe visitantes de todo o mundo.\n[…]\nSua construção se iniciou em 1992, sendo concluído cinco anos mais tarde. Duas equipes, uma em Bilbau e outra em Los Angeles, trabalharam conjuntamente na elaboração do projeto, que só foi possível graças ao uso de um software CAD nos cálculos estruturais. Alguns especialistas questionavam a possibilidade de execução da obra, por causa de suas formas complexas.\n[…]\nExternamente, o museu é coberto por superfícies de titânio curvadas em vários pontos, que lembram escamas de um peixe, mostrando a influência das formas orgânicas presentes em muitos trabalhos de Gehry. Do átrio central, que tem 50 metros de altura e lembra uma flor cheia de curvas, partem  passarelas para os três níveis de galerias. Visto do rio, o edifício parece ter a forma de um barco, homenageando a cidade portuária de Bilbao que teve bons anos de festa marítima.\n[…]\nO museu recebeu várias críticas desde que começou a ser construído, por ser um museu de vanguarda, mas somente por fora, pois as salas de exposição são quase todas iguais a de outros museus, ou seja, inovou-se no exterior mas não na função básica do museu, que é conservar e expor obras de arte. E por ser o museu tão inovador uma crítica que ele recebe é justamente ser mais atraente que as próprias obras expostas.\n[…]\nBilbao\n[…]\nDoze tesouros da Espanha\n[…]\nImagem do museu no Google Maps\n[…]\nInfográfico sobre o museu\n[…]\nMuseu Guggenheim Bilbao\n[…]\nFotos do Museu Guggenheim Bilbao",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Centro Pompidou",
+      "descricao": "Centro cultural e museu de arte moderna em Paris, inaugurado em 1977, com tubos e escadas rolantes expostos na fachada."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em Paris, o Centro Pompidou exibe por fora canos coloridos e escadas rolantes. Que arquitetos, um italiano e um britânico, ficaram famosos com esse projeto?",
+    "resposta": "Renzo Piano e Richard Rogers",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centre_Pompidou"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Centre_Pompidou",
+        "situacao": "ok",
+        "texto": "The Centre Pompidou (French pronunciation: [sɑ̃tʁ pɔ̃pidu]), more fully the Centre national d'art et de culture Georges-Pompidou (lit. 'Georges Pompidou National Centre of Art and Culture'), also known as the Pompidou Centre in English and colloquially as Beaubourg, is a building complex in Paris, France. It was designed in the style of high-tech architecture by the architectural team of Richard R\n[…]\nThe Rogers and Piano design was chosen among 681 competition entries. World-renowned architects Oscar Niemeyer, Jean Prouvé, and Philip Johnson made up the jury. It was the first time in France that international architects were allowed to participate. The selection was announced in 1971 at a press conference, where the contrast between the sharply-dressed Pompidou and \"hairy young crew\" of architects represented a \"grand bargain between radical architecture and establishment politics.\"\n[…]\nRichard Rogers and Renzo Piano, two emerging architects in their thirties, designed the first major example of an \"inside-out\" building with its structural system, mechanical systems, and circulation exposed on the exterior of the building, reflecting their belief that they had no chance of winning the commission. Gianfranco Franchini was also involved in the design.\n[…]\nCentre Pompidou houses three major institutions:\n[…]\nIn 2021, the artists Arotin & Serghei realised for the re-inauguration of the Place Georges Pompidou after years of works, and in the context of IRCAM's festival Manifeste the intermedial large-scale installation Infinite Light Columns / Constellations of The Future 1–4, Tribute to Constantin Brâncuși, installed along Piano's IRCAM Tower, on the opposite site of Brâncuși's studio, visible from both, the Place Igor Stravinsky and Place Georges Pompidou.\n[…]\n1969 – 1977: Georges Pompidou\n[…]\nRichard Berry, L'Art (délicat) de la séduction, 2001.\n[…]\nList of tourist attractions in Paris"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Centro_Georges_Pompidou",
+        "situacao": "ok",
+        "texto": "O Centro Georges Pompidou (Centre national d'art et de culture Georges-Pompidou) é um complexo cultural nomeado a partir de Georges Pompidou, o Presidente da França de 1969 até 1974, que encomendou a construção. Foi desenhado por uma equipa de arquitetos composto pelos italianos Renzo Piano e Gianfranco Franchini e pelos britânicos Richard Rogers e Su Rogers, com assessoria do engenheiro britânico\n[…]\nEstá localizado na área de Beauborg, no 4.º arrondissement de Paris, próximo a Les Halles, um shopping subterrâneo ligado ao metrô, e a Rue de Rivoli, uma rua comercial cujas lojas incluem algumas das marcas mais elegantes do mundo. Por causa de sua localização o Centre Georges Pompidou é conhecido localmente como Beauborg apenas.\n[…]\nApós os protestos de Maio de 1968, o Presidente Charles de Gaulle, anunciou o Plateau Beubourg como o novo local da biblioteca. Um ano depois em 1969, o novo presidente Georges Pompidou, adotou o projeto de Beauborg, e decidiu que este seria o local tanto da biblioteca quanto de um centro para artes contemporâneas. No processo de desenvolvimento do projeto, o IRCAM (Instituto de Pesquisa e Coordenação Acústica/Música) também foi incluído no complexo.\n[…]\nO projeto escolhido entre 681 propostas de diversos países foi aquele do time liderado por Renzo Piano e Richard Rogers, o único que propunha uma praça em frente ao prédio.\n[…]\nTrata-se de um dos principais exemplos da arquitetura high-tech - uma tendência dos anos 1970 e que continua a ser observada até hoje, inspirada na arquitetura industrial e nas novas tecnologias. A arquitetura high tech utiliza os elementos tecnológicos como objetos estéticos. No Centro Pompidou, isto pode ser observado nas grandes tubulações aparentes (dutos de ar condicionado e outros serviços), nas escadas rolantes externas e no sistema estrutural em aço.\n[…]\nCentro Pompidou-Metz\n[…]\nCentro Pompidou de Málaga",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Palácio de Cristal",
+      "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Para a Grande Exposição de Londres de 1851, qual jardineiro inglês, especialista em estufas, projetou o gigantesco Palácio de Cristal?",
+    "resposta": "Joseph Paxton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Crystal_Palace",
+      "https://en.wikipedia.org/wiki/Joseph_Paxton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Crystal_Palace",
+        "situacao": "ok",
+        "texto": "The Crystal Palace was a cast iron and plate glass structure, originally built in Hyde Park, London, to house the Great Exhibition of 1851. The exhibition took place from 1 May to 15 October 1851, and more than 14,000 exhibitors from around the world gathered in its 990,000-square-foot (92,000 m2) exhibition space to display examples of technology developed in the Industrial Revolution.\n[…]\nJoseph Paxton was first and foremost a gardener, and his layout of gardens, fountains, terraces and waterfalls left no doubt as to his ability. One thing he did have a problem with was water supply. Such was his enthusiasm that thousands of gallons of water were needed to feed the myriad fountains and cascades abounding in the Park: the two main jets were 250 feet (76 m) high. Water towers were duly constructed, but the weight of water in the raised tanks caused them to collapse.\n[…]\nCrystal Palace is a popular Victorian-inspired, all-you-can-eat buffet restaurant located on Main Street, U.S.A. at Magic Kingdom Park, opened on October 1, 1971 and Tokyo Disneyland. The restaurant’s name and the overall World Fair vibe of optimism and progress were directly modeled after Sir Joseph Paxton's revolutionary 1851 building. Design elements from the 1853 New York exhibition hall (the U.S.\n[…]\nColquhoun, Kate (2003). A Thing in Disguise: The Visionary Life of Joseph Paxton. London: Fourth Estate. ISBN 0-00-714353-2.\n[…]\nChadwick, George F. (1961). Works of Sir Joseph Paxton. The Architectural Press.\n[…]\nMcKean, John (1994). Crystal Palace: Joseph Paxton & Charles Fox. London: Phaidon Press.\n[…]\nSchoenefeldt, Henrik (2011). \"Adapting Glasshouses for Human Use: Environmental Experimentation in Paxton's Designs for the 1851 Great Exhibition Building and the Crystal Palace, Sydenham\". Architectural History. 54. SAHGB Publications Limited: 233–273. doi:10.1017/S0066622X00004068. ISSN 0066-622X. JSTOR 41418354."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Paxton",
+        "situacao": "ok",
+        "texto": "Sir Joseph Paxton (3 August 1803 – 8 June 1865) was an English gardener, architect, engineer and Liberal Member of Parliament. He is best known for designing the Crystal Palace, which was built in Hyde Park, London to house the Great Exhibition of 1851, the first world's fair, great public parks such as Birkenhead Park, and for cultivating the Cavendish banana, the most consumed banana in the West\n[…]\nPaxton, Sir Joseph (1868) [1840]. A Pocket Botanical Dictionary, comprising the names, history, and culture of all plants known in Britain, with a full explanation of technical terms. By J. Paxton, assisted by Professor Lindley. Samuel Hereman (revision) (Revised ed.).\n[…]\nThis became the London Road Cemetery, where a memorial to Paxton by Joseph Goddard was erected in 1868.\n[…]\nGeorge F Chadwick – Works of Sir Joseph Paxton (Architectural Press, 1961) ISBN 0-85139-721-2\n[…]\nKate Colquhoun – A Thing in Disguise: The Visionary Life of Joseph Paxton (Fourth Estate, 2003) ISBN 0-00-714353-2\n[…]\nJosephine Kamm – Joseph Paxton and the Crystal Palace: A Story Biography (Methuen & Co., 1967)\n[…]\nViolet Markham – Paxton and the Bachelor Duke (Hodder & Stoughton, 1935)\n[…]\nWorks by Joseph Paxton at the Biodiversity Heritage Library\n[…]\nWorks by Joseph Paxton at Faded Page (Canada)\n[…]\nWorks by Joseph Paxton at Open Library\n[…]\nJohn Kenworthy-Browne, Paxton, Sir Joseph, in: Oxford Dictionary of National Biography, 2004 (subscription or British public library reader's card required)\n[…]\nBoulger, George Simonds. \"Paxton, Joseph\" . Dictionary of National Biography. Vol. 44. pp. 103–104.\n[…]\nJoseph Paxton's Crystal Palace on ArchDaily\n[…]\nJoseph Paxton Joseph Paxton's work on orchids\n[…]\nJoseph Paxton – a biography from the landscape architecture and gardens guide\n[…]\nJoseph Paxton his early work – London Road Cemetery Coventry\n[…]\nEddie Richardson's page on Sir Joseph Paxton – includes photographs and a family tree"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Crystal_Palace",
+        "situacao": "ok",
+        "texto": "The Crystal Palace (literalmente Palácio de Cristal) foi uma enorme construção em ferro fundido e vidro erguida no Hyde Park, em Londres, Inglaterra, para albergar a Grande Exposição de 1851. Foram acolhidos mais de 14 mil expositores vindos de todo o mundo nos 92 mil metros quadrados de espaço de exibição, onde foram mostrados exemplos das últimas tecnologias desenvolvidas na Revolução Industrial\n[…]\nDesenhado por Joseph Paxton, o edifício da Grande Exposição tinha 564 metros de comprimento, com uma altura interior de 33 metros.\n[…]\nO Palácio de Cristal foi um grande sucesso não só pela novidade dos processos técnicos mas também pela criação de um novo conceito de espaço. A gigantesca estrutura modular de madeira, vidro e ferro no topo de Sydenham Hill foi originalmente erguida no Hyde Park, em Londres, para alojar a Grande Exposição de 1851, incorporando os produtos de muitos países de todo o mundo.\n[…]\nO criador do Palácio de Cristal, Joseph Paxton, foi feito cavaleiro como reconhecimento do seu trabalho. Paxton havia sido jardineiro em Chatsworth House, no Derbyshire. Ali tinha experimentado o uso do vidro e do ferro na criação de grandes estufas e havia visto algo da sua força e durabilidade, conhecimentos que aplicou aos planos do edifício da Grande Exposição. Os planeadores tinham procurado força, durabilidade, simplicidade de construção e rapidez, e encontraram isso nas ideias de Paxton.\n[…]\nJoseph Paxton foi em primeiro lugar e acima de tudo um jardineiro, e o seu esquema de jardins, fontes, terraços e cascatas não deixou dúvidas à sua habilidade. Uma das coisas com que teve problemas foi com o abastecimento de água. Tal foi o seu entusiasmo que foram necessários milhares de galões de água para abastecer a miríade de fontes e cascatas que abundava no parque do Palácio de Cristal. Os dois jactos principais tinham 76 metros de altura.\n[…]\nHistória de The Crystal Palace",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Monumento às Bandeiras",
+      "descricao": "Grande escultura de granito em homenagem aos bandeirantes, junto ao Parque do Ibirapuera, em São Paulo, inaugurada em 1953."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Junto ao Parque do Ibirapuera, em São Paulo, o enorme Monumento às Bandeiras, de granito, é obra de qual escultor modernista?",
+    "resposta": "Victor Brecheret",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monumento_às_Bandeiras"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monumento_às_Bandeiras",
+        "situacao": "ok",
+        "texto": "O Monumento às Bandeiras é uma obra em homenagem aos Bandeirantes, que exploraram os sertões durante os séculos XVII e XVIII. Foi inaugurada em 25 de janeiro de 1953, fazendo parte das comemorações do IV Centenário da cidade de São Paulo. O Monumento está localizado no Parque do Ibirapuera, na área que compreende a Praça Armando de Salles Oliveira.\n[…]\nO Monumento às Bandeiras, do escultor Victor Brecheret, começou a ser desenhado ainda em 1920, quando o artista tinha apenas 26 anos de idade. Por conta de uma série de questões políticas do país, a obra só foi concretizada 33 anos depois, às vésperas do IV Centenário da capital paulista de 1954. Já com 58 anos, Victor Brecheret não quis esperar o ano seguinte e finalizou a obra no ano de 1953.\n[…]\nO referido escultor da obra, Victor Brecheret, foi um dos integrantes da Semana de Arte Moderna de 1922, o que justifica a concepção do monumento característica do período que antecedeu a Semana de 22. O primeiro esboço do Monumento às Bandeiras data de 1920, quando Victor expôs pela primeira vez a maquete desse monumento na Casa Byington, um importante espaço de fomento a arte da cidade de São Paulo.\n[…]\nNa ocasião, uma série de homenagens estavam sendo planejadas para a comemoração da Independência, e a construção de um monumento em exaltação aos bandeirantes fez com que os modernistas se aproximassem de Victor Brecheret.\n[…]\nO Processo de Tombamento do Monumento às Bandeiras teve início no dia 8 de junho de 1984, trinta e um anos após o término da obra pelo escultor ítalo-brasileiro Victor Brecheret, 1953.\n[…]\nObelisco de São Paulo\n[…]\nParque Ibirapuera\n[…]\nTurismo na cidade de São Paulo\n[…]\nVictor Brecheret\n[…]\n«Monumento às Bandeiras, Monumentos de São Paulo.»\n[…]\n«O Monumento é uma atração do Parque Ibirapuera, vide informações sobre as atrações do Parque.»"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Fontana di Trevi",
+      "descricao": "Fonte barroca monumental do século dezoito no centro de Roma, onde os turistas jogam moedas."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Concluída no século dezoito, a Fontana di Trevi, em Roma, onde turistas jogam moedas, foi projetada por qual arquiteto?",
+    "resposta": "Nicola Salvi",
+    "distratores": [
+      "Gian Lorenzo Bernini",
+      "Francesco Borromini",
+      "Carlo Maderno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trevi_Fountain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "situacao": "ok",
+        "texto": "The Trevi Fountain (Italian: Fontana di Trevi) is an 18th-century fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini in 1762. Standing 26.3 metres (86 ft) high and 49.15 metres (161.3 ft) wide, it is the largest Baroque fountain in the world and one of the most famous fountains in the world.\n[…]\nAn early influential model by Pietro da Cortona, preserved in the Albertina, Vienna, also exists, as do various early 18th century sketches, most unsigned, as well as a project attributed to Nicola Michetti one attributed to Ferdinando Fuga and a French design by Edmé Bouchardon.\n[…]\nCompetitions had become popular during the Baroque era to design buildings, fountains, as well as the Spanish Steps. In 1730, Pope Clement XII organized a contest in which Nicola Salvi initially lost to Alessandro Galilei – but due to the outcry in Rome over a Florentine having won, Salvi was awarded the commission anyway. Work began in 1732.\n[…]\nWhen Salvi designed the fountain, a palace (now the Palazzo Poli) was on the site so he incorporated the fountain into the rear of the building.\n[…]\nSalvi died in 1751 with his work half finished, but he had made sure a barber's unsightly sign would not spoil the ensemble, hiding it behind a sculpted vase, called by Romans the asso di coppe, the \"Ace of Cups\", because of its resemblance to a Tarot card. Four different sculptors were hired to complete the fountain's decorations: Pietro Bracci (whose statue of Oceanus sits in the central niche), Filippo della Valle, Giovanni Grossi, and Andrea Bergondi.\n[…]\nLego released a set based on Trevi Fountain on March 1, 2025.\n[…]\nRoman Bookshelf – Trevi Fountain – Views from the 18th and 19th centuries\n[…]\nTrevi Fountain Live Cam\n[…]\nTrevi Fountain Virtual 360° panorama and photo gallery.\n[…]\nTurismoroma: Poli Palace – Trevi fountain"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fontana_di_Trevi",
+        "situacao": "ok",
+        "texto": "A Fontana di Trevi (em português Fontana di Trevi) é a maior (cerca de 26 metros de altura e 20 metros de largura) e mais ambiciosa construção de fontes barrocas da Itália e está localizada no rione Trevi, em Roma. A fonte está encostada na fachada do Palazzo Poli.\n[…]\nO antigo costume romano de erguer uma bela fonte ao final de um aqueduto que conduzia a água para a cidade foi reavivado no século XV, com o Renascimento. No ano de 1453, o papa Nicolau V determinou que fosse consertado o aqueduto de Acqua Vergine, construindo ao seu final um simples receptáculo para receber a água, num projeto feito pelo arquiteto humanista Leon Battista Alberti.\n[…]\nConcursos tornaram-se populares durante a era barroca para projetar edifícios, fontes, bem como a Escadaria Espanhola. Em 1730, o Papa Clemente XII organizou um concurso no qual Nicola Salvi inicialmente perdeu para Alessandro Galilei - mas devido ao clamor em Roma sobre um florentino ter vencido, Salvi foi premiado com a comissão de qualquer maneira. O trabalho começou em 1732.\n[…]\nSalvi morreu em 1751 com sua obra meio acabada, mas ele havia se assegurado de que o sinal feio de um barbeiro não estragasse o conjunto, escondendo-o atrás de um vaso esculpido, chamado pelos romanos de asso di coppe, o \"Ás de Copas\", por causa de sua semelhança com uma carta de tarô. Quatro escultores diferentes foram contratados para completar as decorações da fonte: Pietro Bracci (cuja estátua de Oceanus fica no nicho central), Filippo della Valle, Giovanni Grossi e Andrea Bergondi.\n[…]\nPrecedentemente, a fonte foi o cenário do filme estadunidense Three Coins in the Fountain, onde a fonte do título é a própria Fontana di Trevi.\n[…]\n«Trevi Fountain». Virtual 360° panorama and photo gallery.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Santa Sofia",
+      "descricao": "Grande templo do século seis em Istambul, construído como basílica cristã bizantina e depois convertido em mesquita."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em Istambul, a atual basílica de Santa Sofia, com sua enorme cúpula, foi erguida no século seis por ordem de qual imperador bizantino?",
+    "resposta": "Justiniano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hagia_Sophia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+        "situacao": "ok",
+        "texto": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be successively erected on the site by the Eastern Roman Empire, it was completed in AD 537, becoming the world's largest interior space and among the first to employ a f\n[…]\nAt the edge of the Augustaeum was the Milion and the Regia, the first stretch of Constantinople's main thoroughfare, the Mese. Also facing the Augustaeum were the enormous Constantinian thermae, the Baths of Zeuxippus, and the Justinianic civic basilica under which was the vast cistern known as the Basilica Cistern. On the opposite side of Hagia Sophia was the former cathedral, Hagia Irene.\n[…]\nJustinian and Patriarch Menas inaugurated the new basilica on 27 December 537, 5 years and 10 months after construction started, with much pomp. Hagia Sophia was the seat of the Patriarchate of Constantinople and a principal setting for Byzantine imperial ceremonies, such as coronations. The basilica offered sanctuary from persecution to criminals, although there was disagreement about whether Justinian had intended for murderers to be eligible for asylum.\n[…]\nHagia Sophia is one of the greatest surviving examples of Byzantine architecture. Its interior is decorated with mosaics, marble pillars, and coverings of great artistic value. Justinian had overseen the completion of the greatest basilica ever built up to that time, and it was to remain the largest church for 500 years until the completion of the abbey church at Cluny in the 12th century.\n[…]\nOn her right side stands emperor Justinian I, offering a model of the Hagia Sophia. The composition of the figure of the Virgin enthroned was probably copied from the mosaic inside the semi-dome of the apse inside the liturgical space."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santa_Sofia",
+        "situacao": "ok",
+        "texto": "Santa Sofia (em grego: Άγια Σοφία; romaniz.: Agia Sophia, que significa \"Sagrada Sabedoria\"; em turco: Ayasofya), oficialmente Grande Mesquita de Santa Sofia (em turco:  Ayasofya-i Kebir Cami-i Şerifi), é um imponente edifício construído entre 532 e 537 pelo Império Bizantino para ser a catedral de Constantinopla (atualmente Istambul, na Turquia).\n[…]\nO edifício atual foi construído originalmente como uma igreja entre 532 e 537 por ordem do imperador bizantino Justiniano I e foi a terceira igreja de Santa Sofia a ocupar o local, as duas anteriores tendo sido destruídas em revoltas civis. Ela foi projetada pelos cientistas gregos Isidoro de Mileto, um médico, e Antêmio de Trales, um matemático.\n[…]\nEsta reconstrução foi completada no ano de 562 e o poeta bizantino Paulo Silenciário compôs um longo poema (ainda existente), conhecido como Ekphrasis, onde ele a comparou a um \"campo de mármore\", tantas as cores utilizadas. A reabertura foi presidida novamente pelo patriarca Eutíquio de Constantinopla no dia 23 de dezembro de 562. A riqueza e o nível artístico da basílica teria levado Justiniano a dizer Νενίκηκά σε Σολομών (\"Salomão, eu te superei!\").\n[…]\nDurante o Império Latino (1204–1261), a cidade foi ocupada e a basílica se transformou numa catedral da Igreja Católica Romana. Balduíno I foi coroado imperador em 16 de maio de 1204 em Santa Sofia, numa cerimônia muito parecida com o ritual bizantino.\n[…]\nSanta Sofia é um dos grandes exemplos ainda existentes da arquitetura bizantina. Seu interior, decorado com pilares de mármore e mosaicos é de grande valor artístico. O próprio imperador Justiniano supervisionou a finalização da maior catedral já construída na época. Ela foi a maior conquista arquitetônica da antiguidade tardia e sua influência se espalhou pelo mundo ortodoxo, católico e islâmico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Palácio de Versalhes",
+      "descricao": "Palácio real francês nos arredores de Paris, sede da corte a partir de 1682."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que rei francês transformou o modesto pavilhão de caça construído pelo pai no suntuoso Palácio de Versalhes?",
+    "resposta": "Luís XIV",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Palácio_de_Versalhes"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Palácio_de_Versalhes",
+        "situacao": "ok",
+        "texto": "Palácio de Versalhes (em francês:  Château de Versailles) é um castelo real localizado na cidade de Versalhes, uma aldeia rural à época de sua construção, mas atualmente um subúrbio de Paris. Desde 1682, quando Luís XIV se mudou de Paris, até a família real ser forçada a voltar à capital em 1789, a Corte de Versalhes foi o centro do poder do Antigo Regime na França.\n[…]\nIncumbido da tarefa de transformar o que era o pavilhão de caça de Luís XIII no mais opulento palácio da Europa, o arquiteto Louis Le Vau reuniu centenas de trabalhadores e começou a construir um novo edifício ao lado do já existente. Foram assim realizadas sucessivas ampliações — apartamentos reais, cozinhas e estábulos — que formaram o Pátio Real. Le Vau não conclui as obras.\n[…]\nA Segunda Campanha de Construção (1669-1672) foi inaugurada com a assinatura do Tratado de Aquisgrão (o tratado que pôs fim à Guerra de Devolução). Durante esta campanha, o palácio começou a assumir muita da sua aparência atual. A modificação mais importante foi o envolvimento por LeVau do pavilhão de caça de Luís XIII. O envolvimento, frequentemente referido como palácio novo para distingui-lo da estrutura antiga de Luís XIII — rodeava o pavilhão de caça por Norte, Oeste e Sul.\n[…]\nÉ significativo para o desenho e a construção dos grandes apartamentos que as salas de ambos tenha a mesma configuração e dimensões, uma característica sem precedentes no desenho dos palácios franceses. Na sua monografia “Il n’y plus des Pyrenées: the Iconography of the first Versailles of Louis XIV,” Kevin Olin Johnson põe a hipótese de a similaridade sem precedentes dos apartamentos do Rei e da Rainha representar o desejo de Luís XIV estabelecer a sua esposa como Rainha de Espanha.\n[…]\nLe cabinet des Chiens — esta sala era reservada aos cães de caça de Luís XV.\n[…]\nNo dia 2 de julho de 2005, os franceses Live 8 actuaram no pátio."
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Museu Hermitage",
+      "descricao": "Grande museu de arte de São Petersburgo, na Rússia, instalado no antigo Palácio de Inverno dos czares."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em São Petersburgo, o Museu Hermitage nasceu em 1764 da coleção de arte reunida por qual soberana russa?",
+    "resposta": "Catarina, a Grande",
+    "distratores": [
+      "Isabel da Rússia",
+      "Ana da Rússia",
+      "Alexandra Feodorovna"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hermitage_Museum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+        "situacao": "ok",
+        "texto": "The State Hermitage Museum (Russian: Государственный Эрмитаж, romanized: Gosudarstvennyj Ermitaž, IPA: [ɡəsʊˈdarstvʲɪn(ː)ɨj ɪrmʲɪˈtaʂ]) is a museum of art and culture in Saint Petersburg, Russia, and holds the largest collection of paintings in the world. It was founded in 1764 when Empress Catherine the Great acquired a collection of paintings from the Berlin merchant Johann Ernst Gotzkowsky. The\n[…]\nThe Amsterdam Hermitage was opened on 19 June 2009 by President Dmitry Medvedev and Queen Beatrix of the Netherlands. Following Russia's 2022 invasion of Ukraine, the Amsterdam Hermitage severed ties with St. Petersburg, being renamed to H'ART Museum the following year.\n[…]\nThese programs were first broadcast through the Soviet Union's 'First' channel, airing at the height of the museum's boom. During this time, this channel recorded more than three million visitors every year, mostly from the Soviet Union. Another program created by the Hermitage was called The Treasures of St. Petersburg, and was broadcast on the St. Petersburg regional television. This program gave insight into what exhibitions were being displayed at the Hermitage.\n[…]\nTreasures of St Petersburg & The Hermitage (2003), a three-part documentary series for Channel 5 in the UK, directed by Graham Addicott and produced by Pille Runk.\n[…]\nKostenevich, Albert (1995), Hidden Treasures Revealed: Impressionist Masterpieces and Other Important French Paintings Preserved by the State Hermitage Museum, St. Petersburg, New York: Harry N. Abrams, ISBN 0-81093-432-9\n[…]\nPetrakova, Anna; Lavieille, Paul (July 2025). \"Ancient vases from the Adolphe Raifé collection in St Petersburg: From Mikhail Petrovich Botkin to the State Hermitage Museum\". Journal of the History of Collections. 37 (2): 253–268. doi:10.1093/jhc/fhae058.\n[…]\nHermitage Amsterdam\n[…]\nVirtual tour of the Hermitage Museum provided by Google Arts & Culture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hermitage",
+        "situacao": "ok",
+        "texto": "O Hermitage (em russo: Госуда́рственный Эрмита́ж) é um museu localizado às margens do rio Neva, em São Petersburgo, na Rússia. É um dos maiores museus de arte do mundo e sua vasta coleção possui itens de praticamente todas as épocas, estilos e culturas da história russa, europeia, oriental e do norte da África, e está distribuída em dez prédios, situados ao longo do rio Neva, dos quais sete consti\n[…]\nOrganizado ao longo de dois séculos e meio, o Hermitage possui hoje um acervo de mais de 3 milhões de peças. O museu mantém ainda um teatro, uma academia musical e projetos subsidiários em outros países. O núcleo inicial da coleção foi formado com a aquisição, pela imperatriz Catarina II, em 1764, de uma coleção de 225 pinturas flamengas e alemãs do negociante berlinense Johann Ernst Gotzkowsky.\n[…]\nAs obras iniciaram em 1754 e perduraram até 1762, já sob o reinado de Catarina II.\n[…]\nSalas Hermitage na Somerset House, um edifício histórico de Londres, hoje um grande centro cultural e sede também do Courtauld Institute of Art e da Coleção Sir Arthur Gilbert. O Hermitage usa cinco galerias para expor peças do acervo e a decoração reproduz os ambientes dos palácios russos.\n[…]\nUm dos maiores acervos da Rússia e dos mais significativos do mundo em seu gênero, perfaz um terço de toda a coleção do Hermitage, com mais de um milhão de objetos. É um dos departamentos mais antigos do museu, tendo sido iniciado pela própria Imperatriz Catarina II. Hoje conta com moedas, medalhas, ordens, insígnias, brasões, ex-libris, selos e uma grande riqueza de outros objetos que vão desde a antigüidade, incluindo exemplares das primeiras moedas cunhadas pelo homem, até tempos recentes.\n[…]\nPossui mais de 700 mil livros de arte, cultura, arquitetura e história em seus variados campos. Nasceu a partir da coleção privada de livros de Catarina II. Sua seção de obras raras conta com mais de 10 mil volumes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Santuário do Bom Jesus de Matosinhos",
+      "descricao": "Conjunto barroco em Congonhas, Minas Gerais, com os doze profetas de pedra-sabão e as capelas dos Passos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No adro do Santuário do Bom Jesus de Matosinhos, em Congonhas, os doze profetas de pedra-sabão foram esculpidos por qual artista?",
+    "resposta": "Aleijadinho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Santuário_do_Bom_Jesus_de_Matosinhos",
+      "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Congonhas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santuário_do_Bom_Jesus_de_Matosinhos",
+        "situacao": "ok",
+        "texto": "O Santuário do Bom Jesus de Matosinhos é um conjunto arquitetônico e paisagístico formado por uma igreja, um adro e seis capelas anexas, localizado no município brasileiro de Congonhas, estado de Minas Gerais.\n[…]\nA igreja é um importante exemplar da arquitetura colonial brasileira, com uma rica decoração interna em talha dourada e pinturas. O adro é ornado com doze estátuas de profetas em pedra-sabão e as capelas contêm grupos escultóricos em madeira policromada que representam passos da Paixão de Cristo, estátuas criadas pelo Aleijadinho e seus assistentes.\n[…]\nE junto com os grupos das capelas os profetas são considerados o melhor da produção de Aleijadinho na escultura. Sintetizando a opinião dos estudiosos, Mucci afirmou que \"todos os críticos, e espectadores, são unânimes em admirar o 'quadro de rara beleza', a 'Bíblia de pedra-sabão', inscrita por um artista deformado pela doença e pela dor\". Carlos Drummond de Andrade os louvou em um poema:\n[…]\nlavrou na pedra-sabão\n[…]\nEra uma vez um Aleijadinho,\n[…]\nera uma vez um Aleijadinho,\n[…]\nera uma vez São João, Ouro Preto, Sabará, Congonhas,\n[…]\ne um Aleijadinho era uma vez.\n[…]\nEm 2015, quando foi comemorado o 30º aniversário da inscrição do monumento no rol do Patrimônio da Humanidade, foi anunciada a criação do Museu de Congonhas – Centro de Referência do Barroco e Estudos da Pedra, uma cooperação entre a UNESCO, o IPHAN e a Prefeitura de Congonhas, para atuar como um centro informações sobre o Santuário e os artistas que nele atuaram, e como um laboratório de estudos especializados em conservação, centrado no legado do Aleijadinho em Congonhas.\n[…]\n«Santuário no WikiMapia»\n[…]\nProjeto Aleijadinho 3D, com imagens dos profetas digitalizadas em 3 dimensões e interativas"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Congonhas",
+        "situacao": "ok",
+        "texto": "The Sanctuary of Bom Jesus de Matosinhos (Portuguese: Santuário do Bom Jesus de Matosinhos) is an 18th-century Roman Catholic basilica in Congonhas, Minas Gerais, Brazil. It was designed in the Baroque style with an Italian-inspired Rococo interior. The basilica is noted for its grand outdoor stairway with statues of Old Testament prophets. The interior has seven side chapels which illustrate the \n[…]\nThe Sanctuary of Bom Jesus de Matosinhos is dedicated to Bom Jesus de Matosinhos, an invocation of Jesus related to a polychrome wood sculpture. This sculpture is displayed in Matosinhos, Portugal. People believe that it was created by Nicodemus who knew Jesus in his lifetime. The sculpture was said to be a perfect likeness of Jesus and it is the first depiction of Jesus that arrived in Portugal.\n[…]\nThe sanctuary was commissioned by Feliciano Mendes. Mendes made a promise to the Bom Jesus de Matosinhos after he recovered from a grave illness in 1757. When Mendes died in 1765, religious services started to be offered by the sanctuary. The sculpture of Bom Jesus at Congonhas do Campo is seen as a powerful vehicle of intercession.\n[…]\nA single entrance is adorned with a carved stone frame. The art historian Germain Bazin attributes the design of the elaborate frontispiece to Aleijadinho.\n[…]\nJoão Antunes de Carvalho completed the high altar between 1769 and 1775. Francisco Vieira Servas sculpted two large torch-bearing angels that decorate the chancel in 1778. The four reliquaries are the work of Aleijadinho's workshop, and were painted by Mestre Ataíde. The painting of the chancel ceiling was carried out between 1773 and 1774 by Bernardo Pires da Silva; it depicts the burial of Jesus.\n[…]\nExplore the Sanctuary of Bom Jesus do Congonhas in the UNESCO collection on Google Arts and Culture"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Ponte de Londres de 1831",
+      "descricao": "Ponte de granito que cruzava o Tâmisa em Londres, vendida em 1968 e remontada em Lake Havasu City, nos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1968, a antiga Ponte de Londres, de granito, foi vendida a um empresário americano e remontada pedra por pedra em qual estado dos Estados Unidos?",
+    "resposta": "Arizona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/London_Bridge_(Lake_Havasu_City)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/London_Bridge_(Lake_Havasu_City)",
+        "situacao": "ok",
+        "texto": "London Bridge is a bridge in Lake Havasu City, Arizona, United States. When it was built in the 1830s, it spanned the River Thames in London, England. In 1968, the bridge was purchased from the City of London by Robert P. McCulloch. However, McCulloch only had the exterior granite blocks from the original bridge cut and transported to the United States for use in the construction of a new bridge i\n[…]\nThe only parts of the “New London Bridge” that made it to Arizona were the exterior masonry. The Arizona bridge is a reinforced concrete structure clad in the original masonry of the 1830s bridge. The bridge was completed in 1971 (along with the Bridgewater Channel Canal, separating the peninsula from the mainland), and links mainland Lake Havasu City with Pittsburgh Point. The \"rededication\" of London Bridge took place on October 10, 1971.\n[…]\nOn September 23, 1968, the bridge's foundation stone was re-laid at the reconstruction site in Arizona by Sir Gilbert Inglefield, Lord Mayor of London.\n[…]\nIn the song \"London Homesick Blues\" by Gary P. Nunn, a reference is made with the line \"Even London Bridge has fallen down and moved to Arizona\". This song was the theme song for Austin City Limits television show from 1977 to 2004.\n[…]\nThe bridge is featured in American Truck Simulator game as a part of newly added Lake Havasu City since ver. 1.58 (released in Feb. 2026)\n[…]\nList of bridges documented by the Historic American Engineering Record in Arizona\n[…]\nLondon Bridge (1971) at Structurae\n[…]\nHistoric American Engineering Record (HAER) No. AZ-57, \"London Bridge, Spanning manmade channel (moved from London, UK), Lake Havasu City, Mohave County, AZ\", 3 photos, 5 data pages, 1 photo caption page\n[…]\n\"About Lake Havasu City\"\n[…]\n\"London Bridge: Alive and Well in Arizona\" on RoadTrip America\n[…]\nAndrew, E. (2018). \"How London Bridge ended up in Arizona\". HISTORY. Retrieved October 10, 2019."
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Basílica de Sacré-Cœur",
+      "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+    "resposta": "Montmartre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris",
+        "situacao": "ok",
+        "texto": "The Basilica of the Sacred Heart of Montmartre (French: Basilique du Sacré-Cœur de Montmartre), commonly known as Sacré-Cœur Basilica (French: Basilique du Sacré-Cœur) or simply Sacré-Cœur (French: Sacré-Cœur, pronounced [sakre kœr]), is a Catholic church and minor basilica in Paris dedicated to the Sacred Heart of Jesus.\n[…]\nSacré-Cœur Basilica is located at the summit of the butte of Montmartre. From its dome two hundred meters above the Seine, the basilica overlooks the entire city of Paris and its suburbs. It is the second most popular tourist destination in the capital after the Eiffel Tower.\n[…]\nApart from its physical attributes, Montmartre or the \"Hill of the Martyrs\" was also chosen for its association with the early Christian church. According to tradition, it was the place where the patron saint of Paris, Saint Denis of Paris, was beheaded by the Romans. His tomb became the site of the Basilica of Saint Denis, the traditional resting place for the kings of France until the French Revolution.\n[…]\nShortly after the completed Statue of Liberty was transported from France to the United States, opponents of Sacré-Cœur came up with a new strategy. They proposed installing a full-size copy of the Statue of Liberty on top of Montmartre, directly in front of the basilica, which would entirely block the view of the church. This idea was eventually dropped as expensive and impractical.\n[…]\nArchitecture of Paris\n[…]\nList of tourist attractions in Paris\n[…]\nJacques Benoist, Le Sacre-Coeur de Montmartre de 1870 a nos Jours (Paris) 1992. A cultural history from the point of view of a former chaplain.\n[…]\nRaymond A. Jonas. “Sacred Tourism and Secular Pilgrimage: and the Basilica of Sacré-Coeur”. in Montmartre and the Making of Mass Culture. Gabriel P. Weisberg, editor. (New Brunswick, NJ: Rutgers University Press) 2001."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_Sacr%C3%A9_C%C5%93ur",
+        "situacao": "ok",
+        "texto": "A Basílica do Sagrado Coração de Jesus de Montmartre ou simplesmente Basílica do Sagrado Coração (em francês, Basilique du Sacré-Cœur; Basilique du Sacré-Cœur de Jésus-Christe) é um templo da Igreja Católica Apostólica Romana em Paris.\n[…]\nDedicada ao Sagrado Coração de Jesus, e localizada no topo da colina de Montmartre, Quartier de Clignancourt, no 18.º arrondissement de Paris, o templo é um dos mais importantes edifícios religiosos parisienses, ¨Santuário da Adoração Eucarística e da Misericórdia Divina\", e propriedade da comuna de Paris.\n[…]\nA ideia de construir um templo dedicado ao Sagrado Coração de Jesus surgiu depois da guerra Franco-Prussiana (1870), como pagamento da promessa feita por Alexandre Legentil e Hubert Rohault de Fleury de erguer uma igreja caso a França sobrevivesse às investidas do exército alemão. O arquiteto Paul Abadie projetou a basílica depois de vencer um concurso com mais de 77 arquitetos, mas ele morreu em 1884, logo após o início da obra. O estilo é marcado por influências românicas e bizantinas.\n[…]\nA basílica está construída em pedra de travertino obtida no Château-Landon (Seine-et-Marne), na França. Essa pedra constantemente dispersa cálcio, o que garante a cor branca da basílica mesmo com as chuvas e a poluição. O mosaico no ápice, chamado Cristo em majestade, é um dos maiores do mundo. A basílica possui um jardim para meditação, com uma fonte. O topo é aberto aos turistas e reserva uma vista espetacular da cidade de Paris.\n[…]\nMargarida Maria Alacoque, vidente do Sagrado Coração de Jesus\n[…]\nMaria do Divino Coração, promotora da devoção ao Coração de Jesus\n[…]\nBasílica do Sagrado Coração – Site oficial",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Casa de Anne Frank",
+      "descricao": "Museu instalado no prédio onde Anne Frank e sua família se esconderam dos nazistas, num anexo secreto, durante a Segunda Guerra."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual cidade europeia Anne Frank escreveu seu diário, escondida com a família num anexo secreto que hoje é museu?",
+    "resposta": "Amsterdã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anne_Frank_House"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+        "situacao": "ok",
+        "texto": "The Anne Frank House (Dutch: Anne Frank Huis) is a writer's house and biographical museum dedicated to Jewish wartime diarist Anne Frank. The building is located on the Prinsengracht, close to the Westerkerk, in central Amsterdam in the Netherlands.\n[…]\nThe Achterhuis (Dutch for \"back house\") or Secret Annex – as it was called in The Diary of a Young Girl, an English translation of the diary – is the rear extension of the building. It was concealed from view by houses on all four sides of a quadrangle. Its secluded position made it an ideal hiding place for Otto Frank, his wife Edith, two daughters, Margot and Anne, of whom Anne was the younger, and four other Jews seeking refuge from Nazi persecution.\n[…]\nAfter Otto Frank returned to Amsterdam in June 1945, he was given Anne's diaries and papers and subsequently compiled the two versions of his daughter's diaries into a book published in Dutch in 1947 under the title Het Achterhuis, which Anne had chosen as the name of a future memoir or novel based on her experiences in hiding. Achterhuis is a Dutch architectural term referring to a back-house (used comparatively with voorhuis meaning front-house).\n[…]\nTo accommodate the growing number of visitors, in the late 1980s the City of Amsterdam proposed a new building be constructed on the corner of Prinsengracht and Westermarkt. This building became a part of the larger Anne Frank House complex that was in the process of implementing \"The Maintenance and Future of the Anne Frank House\" initiative in 1999.\n[…]\nIn 1998, the Anne Frank Zentrum in Berlin was opened after the completion of a cooperation agreement with the Anne Frank House.\n[…]\nAnne Frank tree\n[…]\nAnne Frank Educational Centre\n[…]\nAnne Frank Zentrum\n[…]\nOfficial website of Anne Frank House"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_de_Anne_Frank",
+        "situacao": "ok",
+        "texto": "A Casa de Anne Frank (em neerlandês:  Anne Frank Huis) é um museu biográfico localizado na cidade de Amesterdã, capital dos Países Baixos. Fundado em 3 de maio de 1960 em memória de Anne Frank, encontra-se sediado no edifício onde ela e sua família e outras quatro pessoas judias permaneceram escondidas nos anos da ocupação nazista dos Países Baixos durante a Segunda Guerra Mundial.\n[…]\nEm 3 de maio de 1957 um grupo de pessoas, incluindo Otto Frank, estabeleceram a Fundação Anne Frank com o propósito de salvar o edifício da demolição, e torná-lo acessível ao público.\n[…]\nAgora, já é possível \"visitar\" o local  à distância, via Google Arts & Culture. Dessa forma, através de registros em 360 graus, é possível visualizar os vários cômodos do imóvel, bem como o quarto que Anne dividiu com a irmã, Margot.\n[…]\nOtto Frank insistiu que o propósito da fundação seria fortalecer o contato e a comunicação entre jovens de diferentes culturas, religiões e raças, em oposição à intolerância e a discriminação racial.\n[…]\nDepois do diário de Anne Frank ter sido traduzido em outras línguas e ela tornou-se internacionalmente conhecida seu antigo esconderijo começou a atrair muitos visitantes.\n[…]\n«Casa de Anne Frank» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Torres Petronas",
+      "descricao": "Par de arranha-céus gêmeos de aço e vidro, ligados por uma passarela, inaugurados em 1998 na Malásia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em qual capital asiática se erguem as Torres Petronas, arranha-céus gêmeos de aço e vidro ligados por uma passarela?",
+    "resposta": "Kuala Lumpur",
+    "distratores": [
+      "Jacarta",
+      "Singapura",
+      "Manila"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petronas_Towers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Petronas_Towers",
+        "situacao": "ok",
+        "texto": "The Petronas Towers (Malay: Menara Berkembar Petronas), also known as the Petronas Twin Towers and colloquially the KLCC Twin Towers, are an interlinked pair of 88-storey supertall skyscrapers in Kuala Lumpur, Malaysia, standing at 451.9 m (1,483 ft). From 1998 to 2004, they were the tallest buildings in the world until they were surpassed by the Taipei 101 skyscraper in Taiwan.\n[…]\nThe Petronas Towers remain the world's tallest twin skyscrapers, surpassing the original World Trade Center towers in New York City, and were the tallest buildings in Malaysia until 2019, when they were surpassed by The Exchange 106. The Petronas Towers are a major landmark of Kuala Lumpur, along with the nearby Kuala Lumpur Tower and Merdeka 118, and are visible in many places across the city.\n[…]\nThe towers were designed by Argentine-American architect César Pelli. A distinctive postmodern style was chosen to create a 21st-century icon for Kuala Lumpur, Malaysia. Planning on the Petronas Towers started on 1 January 1992 and included rigorous tests and simulations of wind and structural loads on the design.\n[…]\nThe twin towers were built on the site of Kuala Lumpur's race track. It was the tallest structure in Malaysia at the time of its completion. Test boreholes found that the original construction site effectively sat on the edge of a cliff. One half of the site was decayed limestone while the other half was soft rock. The entire site was moved 61 m (200 ft) to allow the buildings to sit entirely on the soft rock.\n[…]\nOn 15 April 1999, Felix Baumgartner set the world record for BASE jumping (since broken) by jumping off a window cleaning crane on the Petronas Towers.\n[…]\nList of tallest buildings in Kuala Lumpur\n[…]\nPetronas Towers official website\n[…]\nPetronas Towers at Structurae\n[…]\nIntroduction and Overview of the Petronas Towers\n[…]\nGeographic data related to Petronas Towers at OpenStreetMap"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Petronas_Twin_Towers",
+        "situacao": "ok",
+        "texto": "Petronas Twin Towers são dois arranha-céus edificados na cidade de Kuala Lumpur, Malásia, pela construtora espanhola Acciona. Foram concluídos em 1998, têm 88 andares e, até julho de 2019, são o 14.º edifício mais alto do mundo, com 452 metros. O edifício foi oficialmente inaugurado pelo primeiro-ministro da Malásia, Mahathir bin Mohamad, em 31 de agosto de 1999.\n[…]\nAs torres foram projetadas pelo arquiteto Cesar Pelli, configuradas por estrutura de aço e vedação em vidro, e desenhadas de forma a lembrar motivos encontrados na arte islâmica, um reflexo da herança muçulmana malaia. A estrutura básica, porém, foi um desenvolvimento do projeto de um edifício cancelado em Chicago.\n[…]\nTambém os bombeiros simularam uma situação de que uma das torres estava a pegar fogo e transferiram 15.000 pessoas duma torre para a outra pelo passadiço construído entre elas; uma maneira de mostrar como as Torres Petronas são resistentes.[carece de fontes]?\n[…]\nLista das maiores torres do mundo\n[…]\nLista dos maiores arranha-céus do mundo\n[…]\nPetronas, a companhia petrolífera nacional da Malásia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Gateway Arch",
+      "descricao": "Arco monumental de aço inoxidável à beira do rio Mississippi, nos Estados Unidos, símbolo da expansão para o Oeste."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "À beira do rio Mississippi, o Gateway Arch, arco de aço inoxidável que celebra a expansão americana para o Oeste, é o cartão-postal de qual cidade?",
+    "resposta": "Saint Louis",
+    "distratores": [
+      "Chicago",
+      "Kansas City",
+      "Denver"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gateway_Arch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gateway_Arch",
+        "situacao": "ok",
+        "texto": "The Gateway Arch is a 630-foot-tall (192 m) monument in St. Louis, Missouri, United States. Clad in stainless steel and built in the form of a weighted catenary arch, it is the world's tallest arch and Missouri's tallest accessible structure. Some sources consider it the tallest human-made monument in the Western Hemisphere.\n[…]\nBuilt as a monument to the westward expansion of the United States and officially dedicated to \"the American people\", the Arch, commonly referred to as \"The Gateway to the West\", is a National Historic Landmark in Gateway Arch National Park and has become a popular tourist destination, as well as an internationally recognized symbol of St. Louis.\n[…]\nOn the morning of February 9, 2011, a National Park Service worker was injured while performing repairs on the south tram. The 55-year-old was working on the tram's electrical system when he was trapped between it and the arch wall for around 30 seconds, until being saved by other workers. Emergency officials treated the injured NPS employee at the arch's top before taking him to Saint Louis University Hospital in a serious condition.\n[…]\nBuilt as a monument to the westward expansion of the United States, the arch typifies \"the pioneer spirit of the men and women who won the West, and those of a latter day to strive on other frontiers.\" The arch has become the iconic image of St. Louis, appearing in many parts of city culture. In 1968, three years after the monument's opening, the St. Louis phone directory contained 65 corporations with \"Gateway\" in their title and 17 with \"Arch\".\n[…]\nFair Saint Louis\n[…]\nList of tallest buildings in St. Louis\n[…]\nSt. Louis Gateway Arch Grounds Project\n[…]\n360 Degree Panorama of the Gateway Arch Taken from Malcolm W. Martin Memorial Park Archived July 22, 2011, at the Wayback Machine, East St. Louis, IL"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gateway_Arch",
+        "situacao": "ok",
+        "texto": "O Gateway Arch ou Gateway to the West é um arco memorial estadunidense, localizado em St. Louis, Missouri. Projetado pelo arquiteto finlandês Eero Saarinen em 1947 para homenagear a Expansão para o Oeste durante o século XIX. Com 200 metros de altura, o Gateway Arch é o mais alto monumento em solo norte-americano. Sua construção foi iniciada em 1963 e concluída em 1965, tendo sido inaugurado em 19\n[…]\nO Arco situa-se na margem oeste do Rio Mississippi, no local onde foi fundada a cidade de St. Louis. O Gateway Arch foi projetado pelo arquiteto finlandês Eero Saarinen em parceria com engenheiro alemão Hannskarl Bandel. A construção teve início em 12 de fevereiro de 1963 e foi concluída em 28 de outubro de 1965 com custo total de 13 milhões de dólares (à época). O monumento foi aberto ao público em 10 de junho de 1967.\n[…]\nConstruído como um monumento à Expansão para o Oeste, o arco representa \"o espírito pioneiro dos homens e mulheres que venceram o Oeste e aqueles que no último instante se esforçam contra outras fronteiras\". O arco se tornou ícone da cidade de St. Louis, aparecendo em vários elementos culturais da região. Em 1968, três anos após a inauguração do monumento, a lista telefônica de St. Louis catalogava 65 organizações com o nome \"Gateway\" e outras 17 com o nome \"Arch\".\n[…]\nAlguns \"arcos\" também eram parte da decoração de restaurantes e postos de combustíveis. Na década de 1970, um time local adotou o nome \"Fighting Arches\" e o time da St. Louis Community College foi denominado \"Archers\". Robert S. Chandler, um superintendente da National Park Service, afirmou: \"A maioria fica admirada com o tamanho e a escala do Arco...Muitos veem isto somente como símbolo da cidade de St. Louis\".\n[…]\nDe acordo com documentos do National Park Service, a entidade que administra os parques públicos do país, a corrosão e a ferrugem encontrados no Arco não inferem na segurança dos visitantes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Domo Genbaku",
+      "descricao": "Ruína de um prédio de exposições atingido pela bomba atômica de 1945, preservada como Memorial da Paz no Japão."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Domo Genbaku, esqueleto de concreto que resistiu à explosão da bomba atômica de 1945, é o memorial de qual cidade japonesa?",
+    "resposta": "Hiroshima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial",
+        "situacao": "ok",
+        "texto": "The Hiroshima Peace Memorial (広島平和記念碑, Hiroshima Heiwa Kinenhi), originally the Hiroshima Prefectural Industrial Promotion Hall, and now commonly called the Genbaku Dome, Atomic Bomb Dome or A-Bomb Dome (原爆ドーム, Genbaku Dōmu), is part of Hiroshima Peace Memorial Park in Hiroshima, Japan, and was designated a UNESCO World Heritage Site in 1996.\n[…]\nThe building is a prominent structure that remained standing in the area around the atomic bombing of Hiroshima on 6 August 1945, three days before the atomic bombing of Nagasaki and nine days before Japan surrendered, ending World War II. The ruin serves as a memorial to the over 140,000 people killed in the bombing. It is permanently kept in a state of preserved ruin as a reminder of the destructive effects of nuclear warfare.\n[…]\nThe Dome became a subject of controversy, with some locals wanting it torn down while others wanted to preserve it as a memorial of the bombing and a symbol of peace. Ultimately, when the reconstruction of Hiroshima began, the building's skeletal remains were preserved.\n[…]\nFrom 1950 to 1964, the Hiroshima Peace Memorial Park was established around the Dome. In 1966, the Hiroshima City Council adopted a resolution on the permanent preservation of the Genbaku Dome, officially named the Hiroshima Peace Memorial (Genbaku Dome). The Dome remains the park's primary landmark.\n[…]\nWeathering and deterioration of the Genbaku Dome continued in the postwar period. In 1966, the Hiroshima City Council declared that it intended to indefinitely preserve the structure, now termed \"Genbaku Dome\". The first popularly elected mayor of Hiroshima, Shinzo Hamai sought funds for the preservation effort domestically and internationally. During one trip to Tokyo, Hamai resorted to collecting funds directly on the streets. Preservation work on the Genbaku Dome ended in 1967."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Memorial_da_Paz_de_Hiroshima",
+        "situacao": "ok",
+        "texto": "O Memorial da Paz de Hiroshima, chamado Cúpula Genbaku (原爆ドーム) ou Cúpula da Bomba Atômica pelos japoneses, localiza-se em Hiroshima, Japão.\n[…]\nO epicentro da explosão atômica de 6 de Agosto de 1945 situou-se apenas a 150 metros de distância do edifício, que foi a estrutura mais próxima a resistir ao impacto.\n[…]\nA Cúpula Genbaku deveria ter sido demolida com o restante das ruínas, mas o fato de ter ficado praticamente intacta adiou os planos. Enquanto a cidade era reconstruída em torno do domo, sua permanência tornou-se motivo de controvérsia; alguns moradores queriam sua destruição, enquanto outros preferiam que a estrutura fosse preservada como um memorial do bombardeio.\n[…]\nEm 1966, Hiroshima declarou a intenção de preservar a agora chamada \"Cúpula da Bomba Atómica\" de forma definitiva. Trinta anos depois, em dezembro de 1996, a construção foi registrada como Patrimônio Mundial da UNESCO, baseado na Convenção sobre a Proteção do Patrimônio Cultural e Natural. A China apresentou objeções quanto à confirmação do memorial como Patrimônio Mundial, e o delegado dos Estados Unidos no Comitê da UNESCO decidiu abster-se da decisão.\n[…]\nA Cúpula Genbaku insere-se no Parque Memorial da Paz de Hiroshima que contém diversos outros monumentos erguidos posteriormente:\n[…]\nMonte Memorial da Bomba Atômica, com as cinzas de 70 mil vítimas não identificadas.\n[…]\nSala Nacional Memorial da Paz de Hiroshima, que inclui a Sala da Lembrança com uma reconstituição a 360º de Hiroshima após a bomba, formada por 140 mil ladrilhos (o número de vítimas até final de 1945).\n[…]\nMuseu Memorial da Paz de Hiroshima.\n[…]\nHiroshima (cidade)\n[…]\nBombardeamentos de Hiroshima e Nagasaki",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Farol de Alexandria",
+      "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Uma das Sete Maravilhas do Mundo Antigo, o grande farol da ilha de Faros iluminava o porto de qual cidade?",
+    "resposta": "Alexandria",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Farol_de_Alexandria"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Farol_de_Alexandria",
+        "situacao": "ok",
+        "texto": "Farol de Alexandria (em grego:  ὁ Φάρος της Ἀλεξανδρείας) foi um farol construído pelo Reino Ptolomaico entre 280 e 247 a.C. na cidade de Alexandria. Ele tinha entre 120 e 137 metros de altura e era uma das sete maravilhas do mundo antigo, sendo que por muitos séculos foi uma das estruturas mais altas no mundo. Danificado por três terremotos entre os anos de 956 e 1323, tornou-se uma ruína abandon\n[…]\nAté 1480, era a terceira maravilha antiga sobrevivente (depois do Mausoléu de Halicarnasso e da Grande Pirâmide de Gizé), quando então a última de suas pedras remanescentes foi usada para construir a Cidadela de Qaitbay no mesmo local. Em 1994, os arqueólogos franceses descobriram parte dos restos do farol no Porto Oriental de Alexandria.\n[…]\nFaros era uma pequena ilha localizada na margem ocidental do Delta do Nilo. Em 332 a.C., Alexandre, o Grande fundou a cidade de Alexandria em um istmo oposto a Faros. Alexandria e Faros foram conectadas depois por um molhe que media mais de 1200 metros e era chamado de Heptastádio (\"sete estádios\" - um estádio era uma unidade de comprimento da Grécia Antiga que media aproximadamente 180 m).\n[…]\nO farol foi construído no século III a.C. Depois que Alexandre, o Grande morreu de uma febre aos 32 anos, o primeiro Ptolomeu (Ptolemeu I Sóter) anunciou-se rei em 305 a.C. e comissionou a sua construção pouco depois. O edifício foi terminado durante o reinado de seu filho, o segundo Ptolomeu (Ptolemeu II Filadelfo). Levou doze anos para completar, com um custo total de 800 talentos e serviu como um protótipo para todos os faróis posteriores no mundo.\n[…]\nO Secretariado da Convenção da UNESCO para a Proteção do Patrimônio Cultural Subaquático está trabalhando atualmente com o Governo do Egito em uma iniciativa para adicionar a Baía de Alexandria (incluindo os restos do farol) em uma lista do Patrimônio Mundial de locais culturais submersos."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Praça Jemaa el-Fna",
+      "descricao": "Praça principal da medina de Marrakech, no Marrocos, famosa por encantadores de serpentes, contadores de histórias e barracas de comida."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Encantadores de serpentes, contadores de histórias e barracas de comida lotam a praça Jemaa el-Fna, coração de qual cidade marroquina?",
+    "resposta": "Marrakech",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jemaa_el-Fnaa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jemaa_el-Fnaa",
+        "situacao": "ok",
+        "texto": "Jemaa el-Fnaa (Arabic: ساحة جامع الفناء, romanized: Sāḥat Jāmiʾ al-Fanā), also Jemaa el-Fna, Djema el-Fna or Djemaa el-Fnaa, is a square and market place in the medina quarter (old city) of Marrakesh, Morocco. It remains the main square of Marrakesh, used by locals and tourists.\n[…]\nMarrakesh was founded by the Almoravid dynasty in 1070 by Abu Bakr ibn Umar and subsequently developed by his successors. Initially, the city's two main monuments and focal points were the fortress known as Ksar el-Hajjar (\"fortress of stone\") and the city's first Friday mosque (the site of the future Ben Youssef Mosque). The Ksar el-Hajjar was located directly north of today's Kutubiyya Mosque.\n[…]\nAfter a destructive struggle, Marrakech fell to the Almohads in 1147, who undertook many construction projects throughout the city. This included construction of the nearby Kutubiyya Mosque, begun in 1147, which was meant to replace the Almoravid-built Ben Youssef Mosque as the city's main mosque. Notably, a new royal kasbah (citadel) was erected further south by Ya'qub al-Mansur after 1184.\n[…]\nBeginning in May 2025, the square underwent a major renovation program scheduled for completion by the end of the year. With a budget of 160 million dirhams (approximately US$17.7 million), the project was designed to upgrade infrastructure, enhance accessibility, and reorganize public and commercial spaces while safeguarding the square’'s historic and cultural significance.\n[…]\nThe square is edged along one side by the Marrakesh souk, a traditional Maghreb market catering both for the common daily needs of the locals, and for the tourist trade. On other sides are hotels and gardens and café terraces, and narrow streets lead into the alleys of the medina quarter."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jemaa_el-Fna",
+        "situacao": "ok",
+        "texto": "Jemaa el-Fna ou Djemaa el Fna é a principal e mais célebre praça da cidade marroquina de Marraquexe. Situa-se na parte histórica, a almedina, e faz parte do sítio Almedina de Marraquexe inscrito na lista do Património Mundial da UNESCO. A praça, por sua vez, está incluída na lista do Património Cultural Imaterial da Humanidade da UNESCO desde 2008, com o título \"Espaço cultural da Praça Jemaa el-F\n[…]\nOutros significados podem ser \"A assembleia da morte\" ou \"A Mesquita no Fim do Mundo\" pois no passado a praça era o local onde eram executados criminosos, cujas cabeças ficavam expostas para servir de exemplo. No entanto, como a palavra djemaa também significa mesquita, o nome do local pode ser traduzido como \"lugar da mesquita desaparecida\", como referência a uma mesquita almorávida destruída.\n[…]\nA praça é a mais movimentada de Marraquexe, com vários espectáculos como saltimbancos, acrobatas, encantadores de serpentes, faquires, engolidores de espadas, curandeiros, músicos, dançarinos, contadores de histórias, etc. À noite, as barracas de comida típica dominam a praça, juntamente com centenas de turistas e locais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Caminito",
+      "descricao": "Rua-museu de casas coloridas de chapa e madeira em Buenos Aires, ligada à história do tango."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual bairro portuário de Buenos Aires fica o Caminito, rua de casas coloridas de chapa onde casais dançam tango para os turistas?",
+    "resposta": "La Boca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caminito"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Caminito",
+        "situacao": "ok",
+        "texto": "Caminito (\"little walkway\" or \"little path\" in Spanish) is a street museum and a traditional alley, located in La Boca, a neighborhood of Buenos Aires, Argentina. The place acquired cultural significance because it inspired the music for the famous tango \"Caminito (1926)\", composed by Juan de Dios Filiberto.\n[…]\nNearby is the Vuelta de Rocha, historic place of Buenos Aires City.\n[…]\nDuring the 1800s, a small stream flowing into the Riachuelo River ran along the same route where the Caminito is now. Later that century, this area of the stream became known as the Puntin, the Genoese diminutive term for bridge (a small bridge allowed people to cross the stream there). When the stream dried up, tracks for the Ferrocarril Buenos Aires y Puerto de la Ensenada were installed at the site. Disused tracks remain at the end of Caminito, along Garibaldi Street.\n[…]\nIn 1954, the railroad closed, and the area where Caminito was became a landfill and the neighborhood's eyesore. Over the following three years, Argentine artist Benito Quinquela Martín who lived nearby, painstakingly prepared the walls facing the abandoned street, applying pastel colors, and by 1960 had a stage put up at the southern end; the wooden-plank stage was replaced with a nearby theatre house in 1972.\n[…]\nThe artist was a personal friend of Argentine tango composer Juan de Dios Filiberto, who created a well-known 1926 tune by the same name.\n[…]\nCaminito Street in La Boca neighbourhood"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caminito",
+        "situacao": "ok",
+        "texto": "Caminito é uma rua-museu e um logradouro tradicional, de grande valor cultural e turístico,[carece de fontes]? localizado no bairro de La Boca, na Cidade de Buenos Aires, Argentina. O lugar adquiriu significado cultural devido a ter inspirado a música do famoso tango Caminito (1926), composta por Juan de Dios Filiberto.\n[…]\nAs casas, de madeira e chapa, cujas frentes dão para o Caminito, respondem ao estilo do tradicional conventillo boquense, un tipo de vivenda popular precária que caracterizou o bairro desde suas origens, no final do século XIX, como centro de residência de imigrantes genoveses. Devido a seu valor cultural, as mesmas estão subsidiadas pelo Estado, o que permite garantir sua manutenção. Embora sejam escassos os recursos, sem eles os moradores do bairro não poderiam realizar a manutenção do casario.\n[…]\nAs casas são  pintadas de cores brilhantes, um costume do bairro, difundido pelo destacado pintor boquense Benito Quinquela Martín. Nas ruas adjacentes, podem observar-se os conventillos tradicionais de la Boca, construções feitas com chapas de metal acanaladas, montadas muitas vezes sobre pilares ou cimentos altos, devido às frequentes inundações, e pintadas com cores brilhantes, tal como se encontram mantidos por seus habitantes.\n[…]\nBusto de Gabino Coria Peñaloza (letrista del tango \"Caminito\") por Euzer Díaz\n[…]\nA importância cultural do lugar fez de Caminito um centro cultural e turístico em si mesmo. No lugar podem-se ver pares de dançarinos de tango, que dançam sobre seus paralelepípedos. Ali se instala um mercado artesanal, no qual vendem-se pinturas, souvenirs, artesanato, pinturas naif e colagens com imagens do bairro de La Boca.\n[…]\nMurais de Buenos Aires, Governo de Buenos Aires.(em castelhano)\n[…]\nUm \"novo\" Caminito en La Boca, Terra.(em castelhano)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Tower Bridge",
+      "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Com torres que lembram um castelo, a Tower Bridge, ponte levadiça sobre o Tâmisa, em Londres, foi aberta ao tráfego em qual século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "situacao": "ok",
+        "texto": "Tower Bridge is a Grade I listed combined bascule, suspension, and, until 1960, cantilever bridge in London, built between 1886 and 1894, designed by Horace Jones and engineered by John Wolfe Barry with the help of Henry Marc Brunel. It crosses the River Thames close to the Tower of London and is one of five London bridges owned and maintained by the City Bridge Foundation, a charitable trust foun\n[…]\nOn 5 April 1968, a Royal Air Force Hawker Hunter FGA.9 jet fighter from No. 1 Squadron made an unauthorised flight through Tower Bridge. Unimpressed that senior staff was not going to celebrate the RAF's 50th birthday with a flypast, the pilot flew at low altitude down the Thames without authorisation, past the Houses of Parliament, and continued towards the bridge. He flew beneath the walkway, at an estimated 300 miles per hour (500 km/h).\n[…]\nOn 31 July 1973, a single-engined Beagle Pup was twice flown under the pedestrian walkway of Tower Bridge by 29-year-old stockbroker's clerk Peter Martin. Martin, who was on bail following accusations of stock market fraud, then \"buzzed\" buildings in the city before flying north towards the Lake District, where he died when his aircraft crashed some two hours later.\n[…]\nThe bridge opening split the motorcade in two, much to the consternation of security staff. A spokesman for Tower Bridge is quoted as saying: \"We tried to contact the American Embassy, but they wouldn't answer the phone.\"\n[…]\nBefore dawn on 31 October 2003, a Fathers 4 Justice campaigner climbed a 100-foot (30 m)  tower crane near Tower Bridge at the start of a six-day protest dressed as Spider-Man. Fearing for his safety, and that of motorists should he fall, police cordoned off the area, closing the bridge and surrounding roads and causing widespread traffic congestion across the City and East London.\n[…]\nTower of London\n[…]\nOfficial Tower Bridge Exhibition website\n[…]\nBridge Lift Times"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_da_Torre",
+        "situacao": "ok",
+        "texto": "A Ponte da Torre de Londres,, Tower Bridge  ou simplesmente Ponte da Torre (em inglês: Tower Bridge), é uma ponte-báscula construída sobre o rio Tâmisa, na cidade de Londres, capital do Reino Unido. A ponte foi construída entre 1886 e 1894, projetada por Horace Jones, John Wolfe Barry e Henry Marc Brunel. A ponte atravessa o rio Tâmisa, próximo à Torre de Londres.\n[…]\nFoi inaugurada em 1894 e, atualmente, é um dos pontos turísticos mais visitados da cidade, além de ser conhecida como uma das pontes mais famosas do mundo. Está localizada ao lado da Torre de Londres e.a estação do metrô mais próxima é Tower Hill.\n[…]\nÉ de grande importância para o tráfego londrino, fazendo parte de um dos mais importantes corredores de tráfego da cidade, o London Inner Ring. Suas passarelas foram fechadas e, hoje, abrigam a Tower Bridge Experience, uma exposição permanente sobre a história da ponte. Suas básculas não mais dependem das máquinas a vapor. Um moderno sistema eletrônico é responsável por essa tarefa. Contudo, o antigo mecanismo ainda pode ser visto, na antiga sala de máquinas da ponte.\n[…]\nA Ponte da Torre já foi alvo de vários acontecimentos inusitados e já teve destaque em alguns filmes e animes, como O Diário de Bridget Jones, 007: O Mundo Não É O Bastante, O Retorno da Múmia, Kuroshitsuji e Sherlock Holmes.\n[…]\nNo verão de 1912, o piloto Frank McClean, enquanto voava com seu biplano sobre o Tâmisa, não conseguiu atingir uma altura suficiente e teve de voar através da ponte, por baixo das passarelas. Outros pilotos fizeram o mesmo (mas propositadamente) em 1973 e 1978.\n[…]\nA ponte foi construída para durar 99 anos, no entanto já tem 132 anos, 3 meses e 4 dias\n[…]\n«BBC H2G2 - Tower Bridge, London, UK» (em inglês)\n[…]\n«Tower Bridge Experience» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Cidade Proibida",
+      "descricao": "Complexo de palácios imperiais no centro de Pequim, residência dos imperadores chineses por quase cinco séculos."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Erguida em Pequim no início do século quinze, a Cidade Proibida foi construída durante qual dinastia chinesa?",
+    "resposta": "Dinastia Ming",
+    "distratores": [
+      "Dinastia Qing",
+      "Dinastia Han",
+      "Dinastia Tang"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Forbidden_City"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+        "situacao": "ok",
+        "texto": "The Forbidden City (Chinese: 紫禁城; pinyin: Zǐjìnchéng) is the imperial palace complex in the center of the Imperial City in Beijing, China. It was the residence of 24 Ming and Qing dynasty Emperors, and the center of political power in China for over 500 years from 1420 to 1924. The palace is now administered by the Palace Museum and has been a UNESCO World Heritage Site since 1987.\n[…]\nThe Forbidden City was constructed from 1406 to 1420, and was the imperial palace and winter residence of the Emperor of China from the Ming dynasty (since the Yongle Emperor) to the end of the Qing dynasty, between 1420 and 1924. The Forbidden City served as the home of Chinese emperors and their households and was the ceremonial and political center of the Chinese government for over 500 years.\n[…]\nSince 1925, the Forbidden City has been under the charge of the Palace Museum, whose extensive collection of artwork and artifacts was built upon the imperial collections of the Ming and Qing dynasties.\n[…]\nIn the Ming and Qing dynasties, the Forbidden City was also known as Danei (大内) or \"Palace City\" (宮城; Gōngchéng).\n[…]\nThe Forbidden City was declared a World Heritage Site in 1987 by UNESCO as the \"Imperial Palace of the Ming and Qing Dynasties\", due to its significant place in the development of Chinese architecture and culture.\n[…]\nReligion was an important part of life for the imperial court. In the Qing dynasty, the Palace of Earthly Harmony became a place of Manchu Shamanist ceremony. At the same time, the native Chinese Taoist religion continued to have an important role throughout the Ming and Qing dynasties. There were two Taoist shrines, one in the imperial garden and another in the central area of the Inner Court.\n[…]\nHuang, Ray (1981). 1587, A Year of No Significance: The Ming Dynasty in Decline. New Haven: Yale University Press. ISBN 0-300-02518-1.\n[…]\nNova: Secrets of the Forbidden City"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cidade_Proibida",
+        "situacao": "ok",
+        "texto": "Cidade Proibida (chinês: 紫禁城; pinyin: zǐ jìn chéng; literalmente \"Cidade Proibida Púrpura\") foi o palácio imperial da China desde meados da Dinastia Ming até ao fim da Dinastia Qing. Fica localizada no centro da antiga cidade de Pequim, acolhendo atualmente o \"Palácio Museu\". Durante quase 500 anos serviu como residência do Imperador e do seu pessoal doméstico, sendo o centro cerimonial e político\n[…]\nA História da Cidade Proibida estende-se por cerca de seis séculos, desempenhando o papel de palácio imperial durante 500 anos, desde a época do Imperador Yongle, terceiro soberano da Dinastia Ming, até ao final da Dinastia Qing, em 1911. Na década de 1920 foi transformado em museu, função que desempenha até à actualidade com o nome de \"Palácio Museu\".\n[…]\nO lugar onde se ergue a Cidade Proibida fazia parte da cidade Imperial de Khanbaliq durante a Dinastia Yuan Mongol. O Imperador Hongwu, da Dinastia Ming, mudou a capital de Pequim, no Norte, para Nanjing, no Sul, e em 1369 ordenou que os palácios mongóis fossem arrasados. O seu filho Zhu Di foi feito Príncipe de Yan, com sede em Pequim. Em 1402, Zhu Di usurpou o trono e tornou-se no Imperador Yongle, fazendo de Pequim uma capital secundária do Império Ming.\n[…]\nA Cidade Proibida foi declarada Património Mundial da Humanidade pela UNESCO, em 1987, como o \"Palácio Imperial das Dinastias Ming e Qing\", devido ao seu lugar significativo no desenvolvimento da arquitectura chinesa e na cultura. Em 2004, o Palácio de Mukden, em Shenyang, foi adicionado como uma extensão do item, o qual se tornou conhecido como \"Palácios Imperiais das Dinastias Ming e Qing em Pequim e Shenyang\".\n[…]\nAs peças das Dinastias Ming e Qing, por outro lado, incluem elementos de uso no palácio assim como tributos vindos de todo o Império e de mais além.\n[…]\nCidade Imperial (Pequim)\n[…]\nYu, Zhuoyun (1984). Palácios da Cidade Proibida. Nova York: Viking. ISBN 0-670-53721-7",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Muro de Berlim",
+      "descricao": "Barreira construída pela Alemanha Oriental que separou Berlim Ocidental do resto da cidade e do país até 1989."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Dividindo a cidade alemã por quase três décadas, o Muro de Berlim começou a ser erguido em qual ano?",
+    "resposta": "1961",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Muro_de_Berlim"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Muro_de_Berlim",
+        "situacao": "ok",
+        "texto": "Muro de Berlim (em alemão: Berliner Mauer) foi uma barreira de concreto vigiada que cercou Berlim Ocidental de 1961 a 1989, separando-a de Berlim Oriental e da República Democrática Alemã (RDA; Alemanha Oriental). A construção do Muro de Berlim foi iniciada pelo governo da RDA em 13 de agosto de 1961. Incluía torres de guarda colocadas ao longo de grandes muros de concreto, acompanhadas por uma am\n[…]\nAntes da construção do Muro, 3,5 milhões de alemães orientais contornaram as restrições de emigração do Bloco Oriental e desertaram da RDA, muitos cruzando a fronteira de Berlim Oriental para Berlim Ocidental; de lá, eles puderam viajar para a Alemanha Ocidental e para outros países da Europa Ocidental. Entre 1961 e 1989, uma força de segurança mortal associada ao muro impediu quase toda essa emigração.\n[…]\nContudo, o presidente norte-americano John F. Kennedy apoiou a ideia da cidade livre de Berlim. Mandou forças armadas suplementares e reactivou o general Lucius D. Clay. Dia 19 de Agosto 1961 chegaram a Berlim Clay e o vice-presidente dos Estados Unidos, Lyndon B. Johnson.\n[…]\nCerca de arame e muro de blocos de concreto (1961)\n[…]\nInicialmente, os berlinenses ocidentais não podiam visitar Berlim Oriental ou a Alemanha Oriental — todos os pontos de travessia foram fechados para eles entre 26 de agosto de 1961 e 17 de dezembro de 1963. Em 1963, as negociações entre o Oriente e o Ocidente resultaram numa possibilidade limitada de visitas durante a época do Natal daquele ano (Passierscheinregelung). Acordos semelhantes, mas muito limitados, foram feitos em 1964, 1965 e 1966.\n[…]\nEm 22 de agosto de 1961, Ida Siekmann foi a primeira vítima do Muro de Berlim: ela morreu depois de pular de seu apartamento no terceiro andar, na Bernauer Strasse, 48. A primeira pessoa a ser baleada e morta enquanto tentava cruzar para Berlim Ocidental foi Günter Litfin, um alfaiate de 24 anos de idade."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Casa de Julieta",
+      "descricao": "Casa medieval em Verona, na Itália, apresentada como a casa da personagem de Shakespeare, com um balcão famoso."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em Verona, o famoso balcão da Casa de Julieta, disputado por turistas para fotos, é bem mais novo do que parece. De qual século ele é?",
+    "resposta": "Século vinte",
+    "fonte": [
+      "https://it.wikipedia.org/wiki/Casa_di_Giulietta"
+    ],
+    "trechos": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Casa_di_Giulietta",
+        "situacao": "ok",
+        "texto": "La casa di Giulietta è un edificio civile medievale situato in via Cappello a Verona, a breve distanza dalla centrale piazza delle Erbe. Si tratta di uno dei luoghi shakespeariani di Verona, insieme alla tomba di Giulietta e alla casa di Romeo, legato all'ideale universale e positivo dell'amore e per questo divenuto meta di un pellegrinaggio laico e popolare, tanto da essere il monumento più visit\n[…]\nNel 1905 il Comune di Verona acquistò il fabbricato, in parte ceduto nel 1930 per consentire la costruzione del Teatro Nuovo. Infine, nel 1939, il direttore dei musei civici, Antonio Avena, portò a termine l'allestimento della casa-museo. Il suo intervento mescolò decorazioni in stile neomedievale realizzate ex novo su pareti e soffitti insieme a elementi provenienti dalle collezioni civiche, come pietre, colonnine, camini, stemmi e arredi databili tra XIII e XV secolo.\n[…]\nLa casa di Giulietta è stata scelta come set cinematografico per alcuni film romantici, quali Letters to Juliet e Love in the Villa - Innamorarsi a Verona.\n[…]\nLa tipologia edilizia che contraddistingue la casa di Giulietta è riconducibile a quella della casatorre medievale. L'impianto si costituisce di due strutture edificate in periodi differenti, fuse in un unico edificio verosimilmente nel XIV secolo, quando furono pertanto necessari dei lavori per uniformarle nell'aspetto, renderle più simili in alzato e allinearle.\n[…]\nIl balcone è composta da una lastra in pietra di Avesa risalente al XIV secolo, proveniente da uno dei palazzi dei signori di Verona, i Della Scala, completata da delle aggiunte in stile e da due mensole modanate. Per il balcone ci si ispirò ai sepolcri pensili del Trecento, soluzione simbolica che voleva alludere al triste destino di Giulietta e Romeo.\n[…]\nVerona\n[…]\nCasa di Romeo\n[…]\nWikimedia Commons contiene immagini o altri file su Casa di Giulietta\n[…]\nSito ufficiale, su casadigiulietta.comune.verona.it."
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Catedral de Notre-Dame de Paris",
+      "descricao": "Catedral gótica na Île de la Cité, em Paris, atingida por um grande incêndio em 2019."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Joia da arquitetura gótica na Île de la Cité, a Catedral de Notre-Dame de Paris teve sua construção iniciada em qual século?",
+    "resposta": "Século doze",
+    "distratores": [
+      "Século dez",
+      "Século quatorze",
+      "Século dezesseis"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Catedral_de_Notre-Dame_de_Paris"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Catedral_de_Notre-Dame_de_Paris",
+        "situacao": "ok",
+        "texto": "A Catedral de Notre-Dame de Paris (em francês: Cathédrale Notre-Dame de Paris; em português: \"Catedral de Nossa Senhora de Paris\") é uma das mais antigas catedrais francesas em estilo gótico. Iniciada sua construção no ano de 1163, é dedicada à Virgem Maria e situa-se na Île de la Cité em Paris, rodeada pelas águas do rio Sena.\n[…]\nA construção inicia-se em 1163 reflectindo alguns traços condutores da Catedral de Saint Denis, subsistindo ainda dúvidas quando à identidade de quem terá \"colocado\" a primeira pedra, o Bispo Maurice de Sully ou o Papa Alexandre III. Ao longo do processo (a construção, incluindo modificações, durou até sensivelmente meados do século XIV) foram vários os arquitectos que participaram no projecto, esclarecendo este factor as diferenças estilísticas presentes no edifício.\n[…]\nCom o florescer da época romântica, outros olhares são lançados à catedral e a filosofia vira-se para o passado, enaltecendo e mistificando numa aura poética e etérea a história de outras épocas e a sua expressão artística. Sob esta nova luz do pensamento é iniciado um programa de restauro da catedral em 1844, liderado pelos arquitectos Eugene Viollet-le-Duc e Jean-Baptiste-Antoine Lassus, que se estendeu por vinte e três anos.\n[…]\nEm 1871, com a curta ascensão da Comuna de Paris, a catedral torna-se novamente pano de fundo a turbulências sociais, durante as quais se crê ter sido quase incendiada. Em 1965, em consequência de escavações para a construção de um parque subterrâneo na praça da catedral, foram descobertas catacumbas que revelaram ruínas romanas, da catedral merovíngia do século VI e de habitações medievais.\n[…]\nÉ possível visitar a torre norte de onde, após uma subida de 386 degraus, se pode vislumbrar a cidade de Paris, os pináculos e os gárgulas da catedral que povoaram o romance de Victor Hugo."
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Estádio do Maracanã",
+      "descricao": "Estádio de futebol na zona norte do Rio de Janeiro, oficialmente Estádio Jornalista Mário Filho."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+    "resposta": "Copa do Mundo de 1950",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã",
+        "situacao": "ok",
+        "texto": "Estádio Jornalista Mário Filho, apelidado como Maracanã, ou carinhosamente como Maraca, é um estádio de futebol localizado no bairro de nome homônimo, na Zona Norte da cidade do Rio de Janeiro, capital do estado homônimo, construído pela prefeitura da cidade do Rio de Janeiro, então Distrito Federal, inaugurado em 1950, inicialmente com o nome de Estádio Municipal, para ser utilizado na Copa do Mu\n[…]\nReceberá também algumas partidas, incluindo a inaugural e o encerramento da Copa do Mundo de Futebol Feminino de 2027.\n[…]\nEm 1946, o Brasil foi escolhido pela FIFA como sede da Copa do Mundo de 1950. O compositor Ary Barroso, então vereador no Rio de Janeiro apresentou um projeto para que um estádio fosse construído no bairro do Maracanã, no terreno do antigo Derby Club.\n[…]\nNa Copa do Mundo FIFA de 1950, intenção principal para a construção do estádio, abrigou oito jogos da competição e onde ocorreu a primeira partida oficial do estádio, em 24 de junho, com vitória do Brasil sobre o México por 4 a 0, com dois gols de Ademir, um de Baltasar e outro de Jair Rosa Pinto. O jogo contou com a arbitragem do inglês George Reader.\n[…]\nO Flamengo sagrou-se o primeiro tricampeão carioca após a construção do Maracanã, ao vencer os campeonatos de 1953, 1954 e 1955. Em 1954, a Seleção Brasileira voltou a jogar no estádio, o que não fazia desde a final de 1950. A partida, contra o Chile, foi válida pelas Eliminatórias da Copa do Mundo de 1954 e terminou com uma vitória brasileira por 1 a 0. Foi a primeira vez que o Brasil atuou no Maracanã com a camisa amarela ao invés da branca utilizada em 1950.\n[…]\nO Maracanã foi uma das sedes da Copa do Mundo FIFA de 2014 que foi realizada no Brasil. O estádio recebeu sete jogos, incluindo a final do evento.\n[…]\nEstádio de Atletismo Célio de Barros\n[…]\nEstádio Jornalista Mário Filho no X\n[…]\nEstádio Jornalista Mário Filho no TikTok\n[…]\nCanal de Estádio Jornalista Mário Filho no YouTube"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Elevador Lacerda",
+      "descricao": "Elevador urbano de Salvador que liga a Cidade Baixa à Cidade Alta, inaugurado em 1873."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+    "resposta": "Dom Pedro II",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Elevador_Lacerda"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Elevador_Lacerda",
+        "situacao": "ok",
+        "texto": "O Elevador Lacerda é um sistema de transporte público da cidade de Salvador, capital do estado brasileiro da Bahia. Trata-se do primeiro elevador urbano do mundo. Em 8 de dezembro de 1873, quando a primeira torre foi inaugurada, era o elevador mais alto do mundo, com 63 metros. A estrutura atual, de 1930, tem 72 metros de altura. Faz o transporte de pessoas entre a Praça Cairu, na Cidade Baixa, e \n[…]\nSão duas torres: uma que sai da rocha e perfura a Ladeira da Montanha, equilibrando as cabines, e outra, mais visível, que se articula à primeira torre, descendo até ao nível da Cidade Baixa. O elevador mais famoso da Bahia chega a transportar 900 mil passageiros por mês ou, em média, 28 mil pessoas por dia ao custo de quinze centavos de real por passageiro, num percurso de trinta segundos de duração.\n[…]\nPorém, o plano do baiano visionário Antônio de Lacerda ao idealizar o Elevador Hidráulico da Conceição - primeiro nome do Elevador Lacerda - não era apenas ligar a parte baixa e alta da cidade, era facilitar o transporte para o sul, sentido em que a cidade se expandia, articulando o elevador com as linhas de bonde.[carece de fontes]?\n[…]\nApós a sua inauguração, passou a ser o principal meio de transporte entre a Cidade Alta, onde se encontra o centro histórico, e a Cidade Baixa, local de concentração de atividades financeiras e comerciais em Salvador. Na estrutura inicial, os passageiros tinham de ser pesados individualmente, e o peso total dos passageiros a serem transportados era calculado e somando-os até atingir o limite máximo de segurança.\n[…]\n\"Quem chega na praça Cayru / E olha pra cima, o que é que vê? / Vê o elevador Lacerda / Que vive a subir e a descer / É o retrato fiel da Bahia\"\n[…]\nLista de monumentos públicos em Salvador\n[…]\nElevador de Santa Justa\n[…]\nElevador Lacerda (BA) no sítio da eleição das 7 Maravilhas do Brasil\n[…]\nElevador Lacerda no sítio do IPHAN"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Space Needle",
+      "descricao": "Torre de observação de formato futurista em Seattle, nos Estados Unidos, construída para uma Feira Mundial."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Space Needle, torre futurista com disco no topo, em Seattle, foi construída para a Feira Mundial de qual ano?",
+    "resposta": "1962",
+    "distratores": [
+      "1939",
+      "1958",
+      "1970"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Space_Needle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Space_Needle",
+        "situacao": "ok",
+        "texto": "The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon of the city, it has been designated a Seattle landmark. Located at 400 Broad Street in the Lower Queen Anne neighborhood, it was built in the Seattle Center for the 1962 World's Fair, which drew more than 2.3 million visitors.\n[…]\nVictor Steinbrueck introduced the hourglass profile of the tower and its tripod design, which resembles the isthmus that Seattle is situated on. The Space Needle was built to withstand Category 5-plus wind speeds of 200 mph (320 km/h), double the requirements in the building code of 1962, swaying only 1 inch (25 mm) per 10 miles per hour (16 km/h) of wind speed.\n[…]\nOn December 31, 1999, a powerful beam of light was unveiled for the first time. Known as the Legacy Light or Skybeam, it is powered by lamps that total 85 million candela shining skyward from the top of the Space Needle to honor national holidays and special occasions in Seattle. The concept of this beam was derived from the official 1962 World's Fair poster, which depicted such a light source (although none was incorporated into the building's original design).\n[…]\nIn May 2008, the Space Needle received its first professional deep cleaning since the opening of the 1962 World's Fair. The monument was pressure washed by Kärcher with water at a pressure of almost 2,611 psi (18,000 kPa) and a temperature of approximately 194 °F (90 °C). The cleaning was done only at night so that the Space Needle could stay open to the public. No detergents were used in consideration of the Seattle Center and the nearby Experience Music Project.\n[…]\nList of tallest buildings in Seattle\n[…]\nCentury 21 Exposition design plans for the 1962 Seattle World's Fair – Architecture of the Pacific Northwest Database from the University of Washington"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Space_Needle",
+        "situacao": "ok",
+        "texto": "O Space Needle é uma torre de observação localizada em Seattle, no estado de Washington, nos Estados Unidos. A construção é um marco geodésico do Noroeste Pacífico, e um ícone da cidade de Seattle, construído no parque Seattle Center para a Feira Mundial de 1962, a qual atraiu mais de 2,3 milhões de visitantes. Cerca de 20.000 pessoas, por dia, usaram seus elevadores durante o evento.\n[…]\nCom 184m de altura, 42m de largura, e peso de 8.660 toneladas, a estrutura já foi a mais alta a oeste do rio Mississippi. Ela foi construída para suportar ventos de até 320 km/h e terremotos de até 9.0 de magnitude, e conta ainda com 25 para-raios. O Space Needle possui uma plataforma de observação a 160m, e um restaurante giratório, SkyCity,  (atualmente fechado) a 150m.\n[…]\nO centro de Seattle, bem como as Montanhas Olímpicas e a Cordilheira das Cascatas, o Monte Rainier, o Monte Baker, a Baía de Elliott e as ilhas vizinhas podem ser vistos do topo da torre.\n[…]\nOs quatro alicerces da torre, enterrados a 9 metros de profundidade, pesam mais de 5850 toneladas, colocando o centro de gravidade do obelisco a apenas 1 metro e meio do nível do chão. No topo do obelisco, a um nível de 152 metros do térreo, há um restaurante giratório que acomoda 300 pessoas, e gira 360 graus em uma hora. Um elevador, que sobe à velocidade de 244 metros por minuto, leva os visitantes ao topo da torre em menos de 41 segundos.\n[…]\nComo o elevador desce a uma velocidade de 16 quilômetros e a neve cai a 5 quilômetros por hora, quando o visitante descer no elevador do Obelisco Espacial durante uma nevasca, terá a sensação de que a neve está subindo em vez de caindo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Coliseu",
+      "descricao": "Anfiteatro romano do século um, no centro de Roma, oficialmente chamado Anfiteatro Flávio."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Coliseu, dado ao Anfiteatro Flávio, em Roma, vem de uma estátua colossal que ficava ao lado. Ela representava qual imperador?",
+    "resposta": "Nero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colosseum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Colosseum",
+        "situacao": "ok",
+        "texto": "The Colosseum ( KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world. Construction began under the Emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus \n[…]\nThe name Colosseum is believed to be derived from a colossal statue of Nero on the model of the Colossus of Rhodes. The giant bronze sculpture of Nero as a solar deity was moved to its position beside the amphitheatre by the emperor Hadrian (r. 117–138). The word colosseum is a neuter Latin noun formed from the adjective colosseus, meaning \"gigantic\" or \"colossean\". By the year 1000 the Latin name \"Colosseum\" had been coined to refer to the amphitheatre from the nearby \"Colossus Solis\".\n[…]\nHe built the grandiose Domus Aurea on the site, in front of which he created an artificial lake surrounded by pavilions, gardens and porticoes. The existing Aqua Claudia aqueduct was extended to supply water to the area and the gigantic bronze Colossus of Nero was set up nearby at the entrance to the Domus Aurea.\n[…]\nAlthough the Colossus was preserved, much of the Domus Aurea was torn down. The lake was filled in and the land reused as the location for the new Flavian Amphitheatre. Gladiatorial schools and other support buildings were constructed nearby within the former grounds of the Domus Aurea. Vespasian's decision to build the Colosseum on the site of Nero's lake can be seen as a populist gesture of returning to the people an area of the city which Nero had appropriated for his own use.\n[…]\nThe Los Angeles Memorial Coliseum entrance was inspired by the Colosseum.\n[…]\nNero Burning ROM's logo is inspired by the colosseum.\n[…]\n3D model of the past and present of the colosseum – The Only Progress is Human"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coliseu",
+        "situacao": "ok",
+        "texto": "Coliseu (em italiano:  Colosseo), também conhecido como Anfiteatro Flaviano (em latim: Amphitheatrum Flavium; em italiano:  Anfiteatro Flavio), é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália. Construído com tijolos revestidos de argamassa e areia, e originalmente cobertos com travertino é o maior anfiteatro já construído e está situado a leste do Fórum Romano.\n[…]\nO nome original do Coliseu de Roma era Anfiteatro Flávio ou Flaviano (em latim, Amphitheatrum Flavium), tendo sido construído no reinado dos imperadores da Dinastia Flaviana, após o governo do imperador Nero. Curiosamente, este nome não foi exclusivo do Coliseu, visto que Vespasiano e Tito haviam construído um anfiteatro que portou o mesmo nome, na cidade de Pozzuoli, na província de Nápoles.\n[…]\nO nome Anfiteatro Flavio é empregado ainda hoje, embora seja mais popularmente conhecido como Coliseu de Roma.\n[…]\nA sua designação de \"Coliseu\" começou a difundir-se a partir do século VIII, o qual se crê que tenha sido devido a uma grande estátua de Nero, que se encontrava perto do edifício, na Casa Dourada, conhecida popularmente como o Colosso de Nero. Este fato pode ter sido a razão pela qual o anfiteatro de Roma tenha adoptado o nome de Coliseu. Essa dita estátua foi destruída provavelmente para reciclagem do seu bronze.\n[…]\nA construção começou sob ordem de Vespasiano numa área que se encontrava no fundo de um vale entre as colinas de Célio, Esquilino e Palatino. O lugar fora devastado pelo Grande incêndio de Roma do ano 64, durante a época de governo do imperador Nero, e mais tarde havia sido reurbanizado para o prazer pessoal do imperador com a construção de um enorme lago artificial, da Casa Dourada (em latim: Domus Aurea), situada num complexo de uma villa, e de uma colossal estátua de si mesmo.\n[…]\nRoma Antiga\n[…]\nJogos inaugurais do Coliseu\n[…]\nTour virtual do Coliseu\n[…]\nEstrutura do Coliseu",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Casa Milà",
+      "descricao": "Edifício residencial projetado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, com fachada ondulada de pedra."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa da fachada ondulada de pedra bruta, a Casa Milà, projetada por Gaudí em Barcelona, ganhou dos moradores qual apelido?",
+    "resposta": "La Pedrera (A Pedreira)",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Casa_Milà"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_Milà",
+        "situacao": "ok",
+        "texto": "A Casa Milà, também conhecida como La Pedrera (em catalão:  A Pedreira), é um edifício desenhado pelo arquitecto catalão Antoni Gaudí e construída entre os anos 1905 e 1907. Está situada no número 92 do Passeig de Gràcia (passeig é catalão para \"promenade\" ou \"avenida\") no bairro  Eixample de Barcelona, Catalunha, Espanha.\n[…]\nFoi construída para Roger Segimon de Milà. É parte do Património mundial da UNESCO, juntamente com outras obras de Antoni Gaudí. Desde 2013, o proprietário do equipamento é a base Catalonia La Pedrera, que é responsável pela organização de exposições, actividades e visitas.\n[…]\nEm 2019 tem apenas um morador permanente.\n[…]\nO edifício pode ser considerado mais uma escultura do que um edifício convencional. Os críticos salientam a ausência de preocupação com a utilidade, mas outros consideram-no como arte. Os habitantes da cidade da altura consideravam-no feio, daí a alcunha de \"pedreira\", mas hoje em dia é um dos marcos da cidade.\n[…]\nPode ser comparado com as pareces íngremes com que as tribos africanas constroem as suas habitações, semelhantes a cavernas. A fachada ondulada, com largos poros, lembra um praia ondulante de areia fina, formada, por exemplo, por uma duna. Os favos feitos por abelhas atarefadas também salta à ideia do observador que olha para os altos e baixos, semelhantes a cobras, que percorrem o edifício inteiro.\n[…]\nA Casa Milà foi o predecessor de alguns edifícios com uma aparência biomórfica semelhante:\n[…]\nA Casa Milà é o lar de Edmond Kirsch em A Origem, de Dan Brown.\n[…]\nAntoni Gaudí\n[…]\nObras de Antoni Gaudí\n[…]\nRainer Zervst. Gaudi, 1852-1926, Antoni Gaudi i Cornet - A Life Devoted to Architecture. Cologne: Benedikt Taschen Verlag GmbH & Co. KG., 1988. p176.\n[…]\nCasa Milà - La Pedrera – Site oficial"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Ponte da Baía de Sydney",
+      "descricao": "Ponte em arco de aço sobre o porto de Sydney, na Austrália, inaugurada em 1932, vizinha da Ópera."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa do formato do seu grande arco de aço, a Ponte da Baía de Sydney ganhou dos australianos o apelido de qual objeto?",
+    "resposta": "Cabide",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+        "situacao": "ok",
+        "texto": "The Sydney Harbour Bridge is a steel through arch bridge in Sydney, New South Wales, Australia, spanning Sydney Harbour from the central business district (CBD) to the North Shore. The view of the bridge, the harbour, and the nearby Sydney Opera House is widely regarded as an iconic image of Sydney, and of Australia itself. Nicknamed \"the Coathanger\" because of its arch-based design, the bridge ca\n[…]\nAustralia's bicentennial celebrations on 26 January 1988 attracted large crowds in the bridge's vicinity as merrymakers flocked to the foreshores to view the events on the harbour. The highlight was the biggest parade of sail ever held in Sydney, square-riggers from all over the world, surrounded by hundreds of smaller craft of every description, passing majestically under the Sydney Harbour Bridge.\n[…]\n...in a gesture of anomalous exhilaration, at the worst time of the depression Sydney opened its Harbour Bridge, one of the talismanic structures of the earth, and by far the most striking thing ever built in Australia. At that moment, I think, contemporary Sydney began, perhaps definitive Sydney.\n[…]\nBridgeClimb\n[…]\nMen at work: Sydney's Harbour Bridge – Australian Geographic Archived 28 September 2011 at the Wayback Machine\n[…]\nSydney Harbour Bridge Archived 26 February 2021 at the Wayback Machine – News and Events\n[…]\nWinchester, Clarence, ed. (1936), \"Sydney Harbour Bridge\", Railway Wonders of the World, pp. 1195–1208 illustrated account of the construction and completion of the bridge\n[…]\n\"Richard Raxworthy - interviews, 1982-1989, with Sydney Harbour Bridge builders, relating experiences 1923-1932\". Amplify – State Library of New South Wales. Retrieved 5 June 2018.\n[…]\nSydney Harbour Bridge during the Olympic Games, 19–26 September 2000 / Loui Seselja\n[…]\nPicnic on Sydney Harbour Bridge / Sigmate Studio\n[…]\nBuildings and roads around North Sydney and Sydney Harbour Bridge, 1958–1961 / Wolfgang Sievers"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_da_Ba%C3%ADa_de_Sydney",
+        "situacao": "ok",
+        "texto": "A Ponte da Baía de Sydney (Sydney Harbour Bridge em inglês), sobre a Baía de Sydney, liga o centro financeiro de Sydney (Central Business District) com a North Shore, residencial e comercial.\n[…]\nA ponte era a estrutura mais alta da cidade até 1967. De acordo com registros do Guinness Book, é a ponte mais larga e também a ponte de arco em aço mais elevada do mundo. É também a ponte em formato de arco mais longa do mundo.\n[…]\nA ponte permite a travessia rodoviária, ferroviária e pedonal da Baía de Sydney. A travessia rodoviária foi reforçada em 1992 com a abertura do Túnel da Baía de Sydney (Sydney Harbour Tunnel).\n[…]\nA bandeira aborígene é importante para a representação dos povos tradicionais australianos. Ela já havia sido palco de polêmicas, quando seu criador, Harold Thomas, vendeu os direitos autorais da bandeira para a empresa WAM Clothing, que passou a processar qualquer um que a usasse sem permissão. Os direitos autorais, porém, foram adquiridos pelo governo.\n[…]\nA bandeira aborígene era hasteada na Ponte da Baía de Sydney apenas 19 dias por ano. Por isso, em 2017, a kamilaori Cheree Toka criou uma petição para que a bandeira fosse hasteada de forma permanente. O movimento cresceu e ganhou apoio do Partido Trabalhista Australiano, porém recebeu resistência devido aos altos custos envolvidos.\n[…]\nCom a chegada de Dominic Perrottet como Primeiro-Ministro de Nova Gales do Sul, o projeto foi aceito, com um orçamento de A$ 25 milhões, que gerou uma nova onda de críticas na Austrália. Então, ficou acordado que não seria construído um novo mastro para a bandeira, mas simplesmente realocariam a bandeira de Nova Gales do Sul para outro lugar e a substituiriam pela aborígene.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Checkpoint Charlie",
+      "descricao": "Posto de passagem entre Berlim Oriental e Berlim Ocidental durante a Guerra Fria, hoje ponto turístico."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Guerra Fria, o posto de fronteira Checkpoint Charlie, em Berlim, tinha esse nome porque Charlie representava qual letra no alfabeto fonético?",
+    "resposta": "A letra C",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Checkpoint_Charlie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+        "situacao": "ok",
+        "texto": "Checkpoint Charlie (or \"Checkpoint C\") was the Western Bloc's name for the best-known Berlin Wall crossing point between East Berlin and West Berlin during the Cold War (1947–1991), becoming a symbol of the Cold War, representing the separation of East and West.\n[…]\nThe museum is operated by the Arbeitsgemeinschaft 13. August e. V., a registered association founded by Dr. Rainer Hildebrandt. The director is Alexandra Hildebrandt, the founder's widow. The museum is housed in part in the \"House at Checkpoint Charlie\" building by architect Peter Eisenman.\n[…]\nWith 850,000 visitors in 2007, the Checkpoint Charlie Museum is one of the most visited museums in Berlin and in Germany.\n[…]\nAt the border crossing from Hyder in Alaska, USA to Stewart in British Columbia, Canada, there is a humorous imitation of the Checkpoint Charlie sign with the inscription \"You are leaving the American Sector\" in English, French, and German, as well as a sign reading \"Eastern Sektor\", as Stewart is located east of Hyder. Hyder is the only place in the USA that can be legally entered without any border control.\n[…]\nDuring the 1950s and 1960s the Portas do Cerco was also referred to as Far Eastern Checkpoint Charlie with a major border incident happening in 1952 with Portuguese African Troops exchanging fire with Chinese Communist border guards. According to reports, the exchange lasted for one and three quarter hours leaving one dead and several dozens injured on the Macau side and more than 100 casualties claimed on the Communist Chinese side.\n[…]\nMedia related to Checkpoint Charlie at Wikimedia Commons\n[…]\nMuseum Haus am Checkpoint Charlie\n[…]\nThe Rise and Fall of the Berlin Wall: Checkpoint Charlie at Imperial War Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Checkpoint_Charlie",
+        "situacao": "ok",
+        "texto": "Checkpoint Charlie foi um posto militar entre a Alemanha Ocidental e a Alemanha Oriental durante a Guerra Fria. Havia dois outros postos militares localizados na direção ocidental da auto-estrada (Autobahn) onde se localizava o Checkpoint Charlie: o Checkpoint Alpha, em Helmstedt, e o Checkpoint Bravo em Dreilinden, no sudoeste de Wannsee, cada nome indicando uma letra do alfabeto (Alpha a letra A\n[…]\nO Checkpoint Charlie foi assim denominado pelos Aliados e projetado como um simples posto militar para passagem de estrangeiros e membros das Forças Aliadas na Alemanha Ocidental para a Alemanha Oriental. Os membros das forças Aliadas não tinham permissão para utilizar outra passagem designada para estrangeiros, como a estação de trem Friedrichstraße. Checkpoint Charlie se localiza entre 2 bares famosos. Os Soviéticos simplesmente o chamavam de Posto de Passagem de Friedrichstraße.\n[…]\n[carece de fontes]?. Os Alemães Orientais referiam ao Checkpoint Charlie oficialmente como Grenzübergangsstelle (\"Posto de Passagem da Fronteira\") Friedrich-/Zimmerstraße.\n[…]\nO Checkpoint Charlie se tornou um símbolo da Guerra Fria, representando a separação do leste e oeste, e — para alguns alemães orientais — uma estrada para a liberdade. É frequentemente exibida em filmes e livros de espiões, como os escritos por John le Carré.\n[…]\nUm famoso café e ponto de observação dos oficiais aliados, forças armadas e outros visitantes, o Cafe Adler (\"Cafe Águia\"), está situado exatamente no checkpoint. Era um excelente ponto de observação da Berlim Oriental, enquanto se degustava algo para beber ou comer.\n[…]\nO checkpoint era curiosamente assimétrico. Durante seus 27 anos de atividade, a infraestrutura do lado oriental foi expandida, não apenas para incluir o muro, torre de observação e barreiras em zigue-zague, mas também várias ruas onde carros e seus ocupantes eram revistados.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Ver-o-Peso",
+      "descricao": "Mercado e feira às margens da baía do Guajará, em Belém do Pará, com estrutura de ferro do século dezenove."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do mercado Ver-o-Peso, em Belém, vem de um posto colonial onde as mercadorias eram pesadas antes da venda. Com que objetivo?",
+    "resposta": "Cobrar impostos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ver-o-Peso"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ver-o-Peso",
+        "situacao": "ok",
+        "texto": "O Complexo do Ver-o-Peso é um conjunto arquitetônico e paisagístico iniciado em 1625 com a construção do posto de fiscal e comercial \"Casa de Haver-o-Peso\", na cidade paraense de Belém (estado brasileiro do Pará), localizado na Avenida Boulevard Castilhos França, no bairro da Cidade Velha, tombado pelo IPHAN, em 1977. Este compreende uma área de 25 mil m², com uma série de construções históricas, \n[…]\nMercado de Ferro (1901) substituiu a \"Casa de Haver-o-Peso\" demolida em 1899. O Mercado Bolonha de Peixe, é o primeiro mercado municipal de peixes da cidade de Belém inaugurado em 1901 (uma das maravilhas do estado sendo eleito uma das 7 Maravilhas do Brasil)\n[…]\nMercado da Carne: Mercado Francisco Bolonha, é o primeiro mercado municipal de carnes da cidade de Belém;\n[…]\nEntão em 1625, na área do igarapé do Piri (atual Mercado Ver-o-Peso), os portugueses instalaram o então posto de fiscal comercial Casa de Haver o Peso, para controle do peso e, arrecadação de tributos dos gêneros trazidos para a sede da Capitania do Grão-Pará (Estado do Maranhão).\n[…]\nEm 1803, no governo de Dom Marcos de Noronha e Brito, Conde dos Arcos, o igarapé do Piri foi aterrado para atender aos avanços urbanísticos da Belém. A foz foi transformada na Doca do Ver-o-Peso e na Pedra do Peixe, feito com pedra de lioz inglesas, mantendo-se ali as atividades do posto de fiscal.\n[…]\nEm 1899, teve início sua edificação, com o projeto de Henrique La Rocque, próximo ao Mercado Municipal de Carnes ou Mercado Bolonha. Sendo inaugurado em 1901, na forma de um dodecágono com medida de 1.197 m², com estrutura metálica em zinco veille-montaine, trazida pré-fabricado da Inglaterra e de Nova Iorque, seguindo a tendência estética francesa de art nouveau da Belle Époque. transportado via fluvial para Belém. Neste período também ocorreu a ampliação do Mercado de Carne;\n[…]\n«Sobre o Ver-o-Peso no portal da Fundação Joaquim Nabuco»"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Teresina",
+      "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852 entre os rios Poti e Parnaíba."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A capital do Piauí, planejada em 1852 entre os rios Poti e Parnaíba, recebeu um nome que homenageia qual imperatriz do Brasil?",
+    "resposta": "Teresa Cristina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teresina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teresina",
+        "situacao": "ok",
+        "texto": "Teresina é um município brasileiro e capital do estado do Piauí, sendo a única capital da Região Nordeste que não se localiza no litoral, distando 343 km do Oceano Atlântico. Sua população, segundo o Censo 2022, do IBGE, era de 866 300 habitantes, o que a faz a cidade mais populosa do Piauí.\n[…]\nHistoricamente, Teresina desenvolveu-se por meio do Rio Parnaíba, através da navegação fluvial. Sendo a primeira capital planejada do Brasil, surgiu para substituir a então capital Oeiras, que isolada na região central do Piauí, não conseguia deter a influência comercial e industrial da cidade de Caxias, no estado vizinho do Maranhão, sob boa parte do oeste do estado.\n[…]\nA transferência efetiva da capital da Província do Piauí de Oeiras para Teresina foi efetivada em 16 de agosto de 1852, dirigindo circular a todos os presidentes de províncias do Brasil comunicando o fato, instituindo-a assim, como nova capital da província. Teresina integraria o estado por meio do Rio Parnaíba com a navegabilidade, facilitando o comércio de produtos pelo porto de Parnaíba, no litoral, além do restante do estado.\n[…]\nO nome da cidade-sede da nova capital piauiense remonta a imperatriz consorte do Brasil, Dona Teresa Cristina de Bourbon-Duas Sicílias, mãe da Princesa Imperial do Brasil, Dona Isabel de Bragança.\n[…]\nA imperatriz teria intermediado, junto ao imperador Dom Pedro II do Brasil, a mudança da capital da província, e em sua homenagem os piauienses puseram o novo nome da cidade, sendo a contração de seus dois primeiros nomes próprios pelos quais ela era conhecida, ou seja, a junção dos nomes Teresa e Cristina, formando Teresina. Tornada nova capital, Teresina passou por um crescimento populacional bastante acentuado, aumentando de 49 para cerca de 8 mil habitantes em duas décadas.\n[…]\nTeresina de Goiás"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Partenon",
+      "descricao": "Templo dórico do século cinco antes de Cristo na Acrópole de Atenas, dedicado à deusa Atena."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Partenon, o templo de Atena na Acrópole, vem de um título da deusa. O que esse título significa em grego?",
+    "resposta": "Virgem",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Partenon",
+      "https://en.wikipedia.org/wiki/Parthenon"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Partenon",
+        "situacao": "ok",
+        "texto": "Partenon (em grego antigo: Παρθενών, transl Parthenōn; em grego moderno Παρθενώνας, transl. Parthenónas) foi um templo dedicado à deusa grega Atena, construído no século V a.C.\n[…]\nChristopher Pelling afirma que a Atena Partenos um culto dedicado a Atena, porém discreto, intimamente conectado, mas não idêntico, ao de Atena Polias (\"Atena da cidade\"). De acordo com esta teoria, o nome Partenon significa \"o templo da deusa virgem\" e refere-se ao culto de Atena Partenos que era associado ao templo.\n[…]\nO epíteto parthénos (παρθένος) não tem origem clara  podendo significar \"donzela, menina\", mas também \"virgem, mulher solteira\" e era especialmente usado em relação a Artemis, a deusa dos animais selvagens, da caça e vegetação, e para Atena, a deusa da estratégia e da tática, artesanato e artes, e da razão prática. É também sugerido que o nome do templo alude às donzelas (parthenoi), cujo sacríficio garantia a segurança da cidade de Atenas.\n[…]\nO Partenon foi convertido em igreja cristã nos tempos do Império Bizantino, dedicado ao culto da Virgem Maria (Parthena Maria) e Mãe de Deus (Teótoco). Na conversão do templo em igreja, foram retiradas as colunas internas e algumas paredes da cela. Foi também criada uma abside no lado leste, o que levou à remoção de algumas esculturas. Esses deuses depostos eram ou reinterpretados de acordo com um tema cristão ou destruídos.\n[…]\nPausânias, o viajante do século II, que visitou a Acrópole e viu o Partenon, descreveu os frontões. O frontão do lado leste representa o nascimento de Atena saída da cabeça de Zeus, enquanto o do oeste apresenta a disputa entre ela e Poseidon pela cidade de Atenas. Esses trabalhos datam de 438−432 a.C."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Parthenon",
+        "situacao": "ok",
+        "texto": "The Parthenon (; Ancient Greek: Παρθενών, romanised: Parthenōn [par.tʰe.nɔ̌ːn]; Greek: Παρθενώνας, romanised: Parthenónas [parθeˈnonas]) is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduring symbol of ancient Greece, Western \n[…]\nDuring the Greek War of Independence (1821–1833) which ended the 355-year Ottoman rule of Athens, the Acropolis was besieged twice, first by the Greeks in 1821–22 and then by the Ottoman forces in 1826–27. During the first siege, the besieged Ottoman forces attempted to melt the lead in the columns of the Parthenon to cast bullets. During the second siege, the Parthenon was significantly damaged by Ottoman artillery fire.\n[…]\nToday it attracts millions of tourists every year, who travel up the path at the western end of the Acropolis, through the restored Propylaea, and up the Panathenaic Way to the Parthenon, which is surrounded by a low fence to prevent damage.\n[…]\nThe dispute centres around those of the Parthenon Marbles removed by Elgin, which are in the British Museum. A few sculptures from the Parthenon are also in the Louvre in Paris, in Copenhagen, and elsewhere, while more than half are in the Acropolis Museum in Athens. A few can still be seen on the building itself. In 1983, the Greek government formally asked the UK government to return the sculptures in the British Museum to Greece, and subsequently listed the dispute with UNESCO.\n[…]\nThe last remaining slabs from the western section of the Parthenon frieze were removed from the monument in 1993 for fear of further damage. They have now been transported to the new Acropolis Museum. Until cleaning of the remaining sculptures was completed in 2005, black crusts and coatings were present on the marble surface."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Cloud Gate",
+      "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A escultura espelhada Cloud Gate, de Anish Kapoor, num parque de Chicago, ganhou do público um apelido de alimento por causa do formato. Qual?",
+    "resposta": "O Feijão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cloud_Gate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cloud_Gate",
+        "situacao": "ok",
+        "texto": "Cloud Gate is a public sculpture by artist Anish Kapoor that is the centerpiece of Grainger Plaza at Millennium Park in the Loop community area of Chicago, Illinois, United States. Constructed between 2004 and 2006, the sculpture is nicknamed \"The Bean\" because of its shape. Made up of 168 stainless steel plates welded together, its reflective and highly polished exterior has no visible seams. It \n[…]\nWhile the sculpture was being constructed, public and media outlets nicknamed it \"The Bean\" because of its shape, a name that Kapoor described as \"completely stupid\". Months later, Kapoor officially named the piece Cloud Gate. (Kapoor eventually accepted the nickname of \"The Bean\".) Critical reviews describe the sculpture as a passage between realms.\n[…]\nChicago Mayor Richard M. Daley declared the day of the sculpture's dedication, May 15, 2006, to be \"Cloud Gate Day\". Kapoor attended the celebration, while local jazz trumpeter and bandleader Orbert Davis and the Chicago Jazz Philharmonic played \"Fanfare for Cloud Gate\", which Davis composed. The public took an instant liking to the sculpture, affectionately referring to it as \"The Bean\".\n[…]\nThis allows the public to freely photograph Cloud Gate, but permission from Kapoor or the City of Chicago (which has licensed the art) is required for any commercial reproductions of the photographs. The city first set a policy of collecting permit fees for photographs. These permits were initially set at $350 per day for professional still photographers, $1,200 per day for professional videographers and $50 per hour for wedding photographers.\n[…]\nList of public art in Chicago\n[…]\nCloud Gate on Anish Kapoor's website\n[…]\nCity of Chicago Loop Community Map\n[…]\nCloud Gate at Millennium Park, City of Chicago; Archived February 11, 2018, at the Wayback Machine – Images and description of Kapoor's public sculpture\n[…]\nCloud Gate articles in the archive of the Chicago Tribune"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cloud_Gate",
+        "situacao": "ok",
+        "texto": "Cloud Gate, popularmente conhecido como The Bean, é uma escultura do artista Anish Kapoor, situada no centro da AT&T Plaza, no Millennium Park em Chicago, Illinois, Estados Unidos da América.\n[…]\nA escultura e a AT&T Plaza localizam-se no topo do  Park Grill, entre a Chase Promenade e a McCormick Tribune Plaza & Ice Rink. Erguida entre 2004 e 2006, a obra foi alcunhada de \"The Bean\" (inglês para o feijão) devido à sua forma. Composta por 168 placas de aço inoxidável, o seu exterior completamente polido não tem uniões visíveis. Mede 10 por 20 por 13 metros e pesa 99.5 toneladas.\n[…]\nEsta escultura foi seleccionada no final de uma competição de design. Após a escolha do trabalho de Kapoor, diversas preocupações tecnológicas quanto à construção e montagem do design foram levantadas, além de questões relativas à manutenção. Vários peritos foram consultados, alguns dos quais acreditaram que a execução do projecto não era possível. Eventualmente um método exequível foi encontrado, mas mesmo assim a construção da escultura atrasou-se.\n[…]\nBaume, Nicholas (2008). Anish Kapoor: Past Present Future. [S.l.]: The MIT Press. ISBN 978-0-262-02659-8\n[…]\nGilfoyle, Timothy J. (2006). Millennium Park: Creating a Chicago Landmark. [S.l.]: University of Chicago Press. ISBN 978-0-226-29349-3\n[…]\nSharoff, Robert (2004). Better than Perfect: The Making of Chicago's Millennium Park. [S.l.]: Walsh Construction Company\n[…]\nCloud Gate no sítio de Anish Kapoor\n[…]\nArtigos acerca da escultura no sítio do Chicago Tribune\n[…]\nMapa do Millennium Park e imagens e descrição da escultura pública de Kapoor no sítio MillenniumPark.org",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Forte dos Reis Magos",
+      "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na foz do rio Potengi, em Natal, o Forte dos Reis Magos deve o nome à data festiva em que sua construção começou. Que data?",
+    "resposta": "Seis de janeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Forte_dos_Reis_Magos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Forte_dos_Reis_Magos",
+        "situacao": "ok",
+        "texto": "O Forte dos Reis Magos é uma edificação militar histórica localizada na cidade de Natal, no estado brasileiro do Rio Grande do Norte. É administrada pela Fundação José Augusto, fundação do Governo do Rio Grande do Norte.\n[…]\nO forte foi o marco inicial da cidade — fundado em 25 de dezembro de 1599 —, no lado direito da barra do rio Potengi (hoje próximo à Ponte Newton Navarro). Recebeu esse nome em função da data de início da sua construção, 6 de janeiro de 1598, dia de Reis pelo calendário católico.\n[…]\nPara a defesa do acampamento, junto à praia, foi iniciada uma paliçada de estacada e taipa, com a planta no formato circular, à moda indígena, a 6 de janeiro de 1598 (dia dos Santos Reis), enquanto se procedia à escolha do local definitivo para a fortificação ordenada pela Coroa: um recife, à entrada da barra, ilhado na maré alta e que, na vazante, permitia a comunicação com terra firme (SOUSA, 1885:75).\n[…]\n\"Da cidade do Rio Grande [Natal] ao forte chamado os Três Reis Magos há apenas a distância duma pequena meia milha [c.\n[…]\nSobre esta fortaleza, Nassau, no \"Breve Discurso\", datado de 14 de Janeiro de 1638, sob o tópico \"Fortificações\", reporta:\n[…]\nForte Jesus de Mombaça (Quénia)\n[…]\nGALVÃO, Hélio. História da Fortaleza da Barra do Rio Grande. Rio de Janeiro: MEC/Conselho Federal de Cultura, 1979.\n[…]\nSOUSA, Augusto Fausto de. Fortificações no Brazil. RIHGB. Rio de Janeiro: Tomo XLVIII, Parte II, 1885. p. 5-140.\n[…]\nTEIXEIRA, Paulo Roberto Rodrigues. \"Forte dos Reis Magos\". in Revista DaCultura, ano VI, nº 10, junho de 2006, p. 47-56.\n[…]\nForte dos Reis Magos (417) in: Fortalezas.org\n[…]\n«Nominuto - Da Fortaleza nasce uma cidade»\n[…]\nHistória da Fortaleza dos Reis Magos in FortalezaVirtual"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Zócalo",
+      "descricao": "Praça central da Cidade do México, oficialmente Praça da Constituição, diante da Catedral Metropolitana."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A praça central da Cidade do México é chamada de Zócalo porque um monumento planejado ali, no século dezenove, nunca passou de qual parte?",
+    "resposta": "O pedestal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zócalo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zócalo",
+        "situacao": "ok",
+        "texto": "Zócalo (Latin American Spanish pronunciation: [ˈsokalo] ) is the common name of the main square in central Mexico City. Prior to the conquest by Spain, it was the main ceremonial center in the Aztec city of Tenochtitlan. The plaza used to be known simply as the Plaza Mayor ('Main Square') or Plaza de Armas ('Arms Square'), and today its formal name is Plaza de la Constitución ('Constitution Square\n[…]\nThis name does not come from any of the Mexican constitutions that have governed Mexico but from the Cádiz Constitution, which was signed in Spain in the year 1812. Even so, it is almost always called the Zócalo today. Plans were made to erect a column as a monument to independence, but only the base, or zócalo (meaning 'plinth'), was built. The plinth was buried long ago, but the name has lived on.\n[…]\nThis event also resulted in the renaming the square as \"Plaza of the Constitution.\" The last changes to the plaza before Independence in 1821 were done by Manuel Tolsá, who placed the Cross of Mañozca at the southeast corner and placing another, similar cross to the northwest. Both of these were set on stone Neoclassical pedestals.\n[…]\nFrom the latter half of the nineteenth century to the beginning of the twentieth, the Zócalo again filled with market stalls, including the Centro Mercantil which sold fabric, clothing, and Art Nouveau stonework. The other stalls concentrated on more mundane merchandise. This caused pedestrians to take their walks on Alameda Central or on San Francisco and Madero streets, to the west of the Zócalo.\n[…]\nThe sci-fi series Babylon 5 uses the name \"Zocalo\" as the station's main gathering place.\n[…]\nThe Zócalo appears as a unique quarter for the Mexican civilization in 2025's Civilization VII.\n[…]\nStatues of Pegasus, Mexico City, formerly installed in the plaza\n[…]\nZócalo (Puebla)\n[…]\nMedia related to Plaza de la Constitución (Mexico City) at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pra%C3%A7a_da_Constitui%C3%A7%C3%A3o_%28Cidade_do_M%C3%A9xico%29",
+        "situacao": "ok",
+        "texto": "A Praça de Constituição é a principal praça da Cidade do México, informalmente conhecida como \"el Zócalo\" (em português somente como Zócalo). É a quarta maior praça do mundo e o centro da identidade nacional do México, ficando somente atrás, em dimensão, da Praça Tiananmen em Pequim (China), a Macropraça de Monterrey (México) e  a Praça Vermelha em Moscou (Rússia).\n[…]\nAdicionalmente, a praça está rodeada por edifícios comerciais, administrativos e hotéis. Na esquina noroeste da praça se encontra o Museu do Templo Maior. Também se encontra a estação Zócalo da Linha 2 do Metrô da Cidade do México.\n[…]\nA praça teve ao longo da história também outros nomes oficiais, como Praça das Armas, Praça Principal, Praça Mayor e Praça do Palácio. O nome atual foi assumido durante a Nova Espanha, em 1813, porque foi ali que a Nova Espanha jurou a Constituição Espanhola de 1812, promulgada em Cádiz no ano anterior.\n[…]\nEm 1843 se construiu no centro da praça um zócalo para receber um monumento da independência do México. O monumento não chegou a ser construído e o zócalo permaneceu solitário no meio da praça por muitos anos. A partir de expressões como \"nos vemos no zócalo\", se começou a confundir o nome do monumento com a praça, e a palavra zócalo se converteu em sinônimo de fato para o nome da praça central da cidade.\n[…]\nDurante os primeiros 400 anos de história da praça, foram instalados e removidos várias vezes, jardins, monumentos, circos, mercados, vías e outros empreendimentos. Na década de 1950, a praça adquiriu sua aspecto atual.\n[…]\nNa década de 1840 os habitantes da cidade começaram a chamá-la de Zócalo, já que foi levantado no centro da praça um monumento da Independência. Em 1860 se instalou um quiosque para poder escutar as orquestras de música, que desapareceu no princípio do século XX.\n[…]\nPraça Vermelha em Moscou (Rússia)\n[…]\nPraça de Maio em Buenos Aires (Argentina)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Theatro Municipal do Rio de Janeiro",
+      "descricao": "Teatro de ópera e balé na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado em 1909 na Cinelândia, o Theatro Municipal do Rio de Janeiro foi inspirado em qual casa de ópera de Paris?",
+    "resposta": "Ópera Garnier",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "O Theatro Municipal do Rio de Janeiro é um dos mais importantes teatros brasileiros. Localiza-se no bairro da Cinelândia, centro do Rio de Janeiro.\n[…]\nNesse contexto, realizou-se um concurso para a construção de um novo teatro, do qual saiu vitorioso o projeto de Francisco de Oliveira Passos (filho do então prefeito Pereira Passos), que contou com a colaboração do francês Albert Guilbert, com um desenho inspirado na Ópera de Paris, de Charles Garnier.\n[…]\nFinalmente, quatro anos e meio mais tarde — um tempo recorde para a obra, que teve o revezamento de 280 operários em dois turnos de trabalho —, no dia 14 de julho de 1909, foi inaugurado pelo então presidente da República, Nilo Peçanha, o Theatro Municipal do Rio de Janeiro. Francisco de Sousa Aguiar era o então prefeito da cidade.\n[…]\nAlém da orquestra, hoje a casa abriga o Coro do Theatro Municipal do Rio de Janeiro e o Ballet do Theatro Municipal do Rio de Janeiro e são apresentados, majoritariamente, programas de dança e de música erudita.\n[…]\nEm comemoração aos cem anos do Theatro Municipal do Rio de Janeiro, foram iniciadas extensas obras no teatro que, foi totalmente restaurado ao estilo original.\n[…]\nPara resgatar a beleza original ao teatro, construído no início do século anterior, foram investidos 70 milhões de reais nos trabalhos de restauro, que duraram mais de novecentos dias. Já para resgatar o dourado nos ornamentos do teatro, foram utilizadas milhares de folhas de ouro de 23 quilates compradas na Alemanha e que adornam os detalhes da fachada e da cúpula, como detalhou a Secretaria de Cultura do Rio de Janeiro, da qual depende a Fundação Theatro Municipal."
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Jardim Botânico de Curitiba",
+      "descricao": "Parque de Curitiba, inaugurado em 1991, com uma estufa de ferro e vidro que virou cartão-postal da cidade."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A estufa de ferro e vidro do Jardim Botânico de Curitiba foi inspirada em qual edifício londrino do século dezenove?",
+    "resposta": "Palácio de Cristal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jardim_Botânico_de_Curitiba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jardim_Botânico_de_Curitiba",
+        "situacao": "ok",
+        "texto": "Jardim Botânico de Curitiba, ou Jardim Botânico Francisca Rischbieter, é um dos principais pontos turísticos da cidade de Curitiba, capital do estado brasileiro do Paraná. Localiza-se no bairro Jardim Botânico. Em 2007 foi o monumento mais votado numa eleição para escolha das Sete Maravilhas do Brasil, promovido pelo site Mapa-Mundi.\n[…]\nInaugurado em 5 de outubro de 1991, seu nome oficial (J.B. Francisca  Rischbieter) presta uma homenagem à urbanista Francisca Maria Garfunkel Rischbieter, uma das pioneiras no trabalho de planejamento urbano da capital paranaense).\n[…]\nO jardim contém inúmeros exemplares vegetais do Brasil e de outros países, espalhados por alamedas e estufas de ferro e vidro, a principal delas com três abóbadas do estilo Art nouveau foi inspirada no Palácio de Cristal de Londres, do século XIX. A estufa é climatizada e mantém espécies da Floresta Atlântica como Caraguatá, Caetê e Palmito. Do seu interior é possível ter uma vista privilegiada do jardim em estilo francês.\n[…]\nO projeto é do arquiteto Abrão Assad, que também planejou o Museu Botânico, incorporado ao Jardim Botânico em 1992, com auditório, centro de pesquisas, espaço para biblioteca especializada e sala de exposições temporárias e permanentes. Atualmente o Museu Botânico de Curitiba tem o quarto maior herbário do país, com aproximadamente de 400 mil exsicatas – plantas secas preparadas para coleção botânica – além de coleção de amostras de madeiras e frutos.\n[…]\ne no parque funciona um centro de pesquisa da flora do Paraná e do Brasil. O Museu Botânico do Jardim Botânico de Curitiba possui espaço expositivo, biblioteca e auditório.\n[…]\nJardim Botânico de Curitiba no TripAdvisor\n[…]\n«Associação de Amigos do Jardim Botânico de Curitiba»\n[…]\n«Jardim Botânico de Curitiba»"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Castelo de Neuschwanstein",
+      "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, na Alemanha, mandado construir pelo rei Luís II."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O castelo de Neuschwanstein, na Baviera, inspirou o castelo do primeiro parque da Disney, na Califórnia. Que princesa dá nome a esse castelo?",
+    "resposta": "Bela Adormecida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+        "situacao": "ok",
+        "texto": "Neuschwanstein Castle (German: Schloss Neuschwanstein, pronounced [ˈʃlɔs nɔʏˈʃvaːnʃtaɪn]; Southern Bavarian: Schloss Neischwanstoa; lit. 'Newswanstone') is a 19th-century historicist palace on a rugged hill of the foothills of the Alps in the very south of Germany, near the border with Austria. It is located in the Swabia region of Bavaria, in the municipality of Schwangau, above the incorporated \n[…]\nThe more detailed inspiration for the construction of Neuschwanstein came from two journeys that Ludwig took in 1867: one in May to the reconstructed Wartburg near Eisenach, site of the mythical Sängerkrieg and thus setting of Wagner's opera Tannhäuser and the Singers' Contest at Wartburg, and another in July to the Château de Pierrefonds, which Eugène Viollet-le-Duc was transforming from a ruined castle into a historicist palace for Napoleon III.\n[…]\nThe King never intended to make the palace accessible to the public. No more than six weeks after the King's death, the Prince-Regent Luitpold ordered the palace opened to paying visitors. The administrators of King Ludwig's estate managed to balance the construction debts by 1899. From then until World War I, Neuschwanstein was a stable and lucrative source of revenue for the House of Wittelsbach.\n[…]\nIt served as the inspiration for Disneyland's Sleeping Beauty Castle and Cinderella Castle, Cameran Palace in the animated Pokémon film Lucario and The Mystery of Mew (2005), and later similar structures. It is also visited by the character Grace Nakimura alongside Herrenchiemsee in the game The Beast Within: A Gabriel Knight Mystery (1996). It is also featured in the Globe Trot party game on the game Wii Party (2010).\n[…]\nNeuschwanstein Pictures and Videos: From a visitor's perspective.\n[…]\nNeuschwanstein Castle on Bavarian Palace Department website.\n[…]\nNeuschwanstein Castle on the Cultural Travel Explorer website."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Castelo_de_Neuschwanstein",
+        "situacao": "ok",
+        "texto": "O Castelo de Neuschwanstein (em alemão Schloss Neuschwanstein) é um palácio alemão construído na segunda metade do século XIX, perto das cidades de Schwangau e Füssen, no sudoeste da Baviera, a escassas dezenas de quilômetros da fronteira com a Áustria.\n[…]\nFoi construído por Luís II da Baviera no século XIX, inspirado na obra de seu amigo e protegido, o grande compositor Richard Wagner. A arquitectura do castelo possui um estilo fantástico, o qual serviu de inspiração ao \"Castelo da Bela Adormecida\", símbolo dos estúdios Disney. Apesar de não ser permitido fotografar o seu interior, é um dos edifícios mais fotografados da Alemanha e um dos mais populares destinos turísticos europeus, além de também ser considerado o \"cartão postal\" daquele país.\n[…]\n\"É minha intenção reconstruir a ruína do velho castelo em Hohenschwangau, próximo do Desfiladeiro de Pollat, no verdadeiro espírito dos velhos castelos dos cavaleiros alemães (...) a localização é a mais bela que alguém pode encontrar, sagrada e inacessível, um templo digno para o divino amigo que trouxe a salvação e a verdadeira bênção ao mundo.\"\n[…]\nO castelo é propriedade do estado da Baviera, ao contrário do Castelo de Hohenschwangau que é pertença de Franz, Duque da Baviera. Este edifício inspirou a construção de um outro castelo da Casa de Wittelsbach, o Castelo de Ringberg. O Castelo de Neuschwanstein é contemporâneo do português Palácio da Pena, em Sintra, por vezes referido como \"o Neuschwanstein português' (cerca de 1840).\n[…]\nCastelo de Hohenschwangau\n[…]\nSchloss Neuschwanstein - o Guia Oficial, Bayerische Schlosseverwaltung,\n[…]\nNeuschwanstein: página oficial\n[…]\nCastelo de Neuschwanstein\n[…]\nApresentação dos grandes castelos da Europa no Eurochannel\n[…]\nNeuschwanstein O Castelo Dos Contos De Fadas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Torre de Tóquio",
+      "descricao": "Torre de transmissão de treliça de aço, pintada de branco e laranja, inaugurada em 1958 em Tóquio."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Pintada de branco e laranja, a estrutura de aço inaugurada em 1958 como cartão-postal de Tóquio foi inspirada em qual monumento europeu?",
+    "resposta": "Torre Eiffel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tokyo_Tower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tokyo_Tower",
+        "situacao": "ok",
+        "texto": "Tokyo Tower (東京タワー, Tōkyō Tawā; pronounced [toːkʲoː taꜜɰᵝaː] ), also known by its official name Japan Radio Tower (日本電波塔, Nippon denpatō) is a communications and observation tower in the district of Shiba-koen in Minato, Tokyo, Japan, completed in 1958. At 332.9 meters (1,092 feet), it was the tallest tower in Japan until the construction of Tokyo Skytree in 2012.\n[…]\nIt is a lattice tower inspired by the Eiffel Tower, and is painted white and international orange to comply with air safety regulations.\n[…]\nWhen the 90-meter (300 ft)-long antenna was bolted into place on 14 October 1958, Tokyo Tower was the tallest freestanding tower in the world, taking the title from the Eiffel Tower by 9 m (30 ft).\n[…]\nThough physically taller than the Eiffel Tower, Tokyo Tower weighs about 4,000 tons, 3,300 less than the Eiffel Tower as it is significantly thinner and simpler in construction. It was opened to the public on 23 December 1958 at a final cost of ¥2.8 billion ($8.4 million in 1958). Tokyo Tower was mortgaged for ¥10 billion in 2000. It was the tallest artificial structure in Japan until April 2012, when it was surpassed by the Tokyo Skytree.\n[…]\nOccasionally, Tokyo Tower's lighting is changed to specific arrangements for special events. The tower is specially lit for some annual events.\n[…]\nJust as the Eiffel Tower is often used in popular culture to immediately locate a scene in Paris, Tokyo Tower is often used in the same way for Tokyo. It is used in anime and manga such as Doraemon, Tokyo Magnitude 8.0, Magic Knight Rayearth, Please Save My Earth, Cardcaptor Sakura, Digimon, Detective Conan, Sailor Moon, Tenchi Muyo!, Sakamoto Days and Death Note. The tower is frequently used in the Japanese kaiju (giant monster) film genre.\n[…]\nTokyo Tower is represented in Unicode as an emoji at code point U+1F5FC: 🗼\n[…]\nTokyo Tower official site (English)\n[…]\nTokyo Tower at Structurae"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_de_T%C3%B3quio",
+        "situacao": "ok",
+        "texto": "A Torre de Tóquio (東京タワー, Tōkyō tawā) é uma torre de comunicação e um belveder localizado no distrito Shiba-koen em Minato, Tóquio, Japão. Com 333 metros de altura, é a segunda maior estrutura artificial do Japão. Esta construção foi inspirada na Torre Eiffel com estrutura treliçada, pintada de branco e laranja para fazer cumprir com os regulamentos da segurança aérea. Erguida em 1958, a torre é u\n[…]\nQuando a antena de 90 metros foi aparafusada no local em 14 de outubro de 1958, a Torre de Tóquio passou a ser a mais alta torre independente do mundo, ultrapassando a Torre Eiffel em 13 metros. Apesar de ser maior que a Torre Eiffel, a Torre de Tóquio pesa apenas cerca de 4 mil toneladas, 3,3 mil toneladas a menos que a torre francesa.\n[…]\nA Torre de Tóquio requer um total de 28 mil litros de tinta para pintar completamente a estrutura de branco e laranja internacional, em conformidade com as normas de segurança aérea. A cada cinco anos, a torre passa por uma reforma de um ano na qual ela é completamente repintada. Antes do aniversário de 30 anos em 1987, a única iluminação da torre eram lâmpadas localizadas nos contornos dos cantos que se estendem da base até a antena.\n[…]\nIshii alegava que o laranja é uma cor mais quente e ajuda a compensar os meses frios do inverno. Por outro lado, o branco é uma cor frita que ajuda durante os meses quentes do verão.\n[…]\nAssim como a Torre Eiffel é frequentemente usada na cultura popular para localizar imediatamente uma cena em Paris, na França, a Torre de Tóquio é muito usada para os mesmo fins para Tóquio. Ela aparece em animes e mangás como Guerreiras Mágicas de Rayearth, Cardcaptor Sakura, X/1999, Gantz, Air Gear e Sailor Moon. A torre é frequentemente usada no filme japonês de gênero kaiju (monstro gigante).\n[…]\nTokyo Skytree\n[…]\nTorre de Tóquio no WikiMapia\n[…]\nTokyo Tower official site (Inglês)\n[…]\nTorre de Tóquio no Structurae",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Capitólio de Havana",
+      "descricao": "Edifício com grande cúpula em Havana, Cuba, inaugurado em 1929 como sede do Congresso cubano."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em Havana, o prédio com grande cúpula que abrigou o Congresso cubano a partir de 1929 é comparado a qual edifício de Washington?",
+    "resposta": "Capitólio dos Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Capitolio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/El_Capitolio",
+        "situacao": "ok",
+        "texto": "The National Capitol of Cuba, also known as Capitolio Nacional de La Habana (National Capitol of La Habana), and often simply referred to as El Capitolio (The Capitol), is a public edifice in Havana, the capital of Cuba. The building was commissioned by Cuban president Gerardo Machado and built from 1926 to 1929 under the direction of Eugenio Rayneri Piedra.\n[…]\nThe Havana Capitol building was built on land that was a railroad terminal and used to belong to the Villanueva Railway.\n[…]\n\"El Capitolio\" is 207 meters long and 91 meters wide. Although its design is often compared to the United States Capitol, it is not a replica. To finish its construction they needed more than 5000 workers, 3 years, 3 months and 20 days; as well as approximately 17 million American dollars\". Completed in 1929, it was the tallest building in Havana until the 1950s. It houses the world's third largest indoor statue.\n[…]\nThe cupola, which is stone-clad around a steel frame that was constructed in the United States, is set planimetrically forward on the building to allow for the apse that contains La Republica, the \"Statue of the Republic\". At almost 92 m (302 ft) high, the dome was the highest point in the city of Havana until 1956 when the FOCSA Building was built reaching a height of 121 meters (397 ft). The Capitolio had the third-highest dome in the world at the time of its construction.\n[…]\n\"El Capitolio de la Habana\" (in Spanish). Convenciones Capitolio de La Habana. 2007. Archived from the original on 8 June 2007. Retrieved 3 May 2007.\n[…]\n\"Capitolio de La Habana\" (in Spanish). Archived from the original on 3 June 2007. Retrieved 3 May 2007.\n[…]\nPedro Quiroga (1998). \"El Capitolio: Un emporio en La Habana\" (in Spanish). Radio Reloj, La Habana. Archived from the original on 9 May 2007. Retrieved 3 May 2007.\n[…]\nConstrucción del Capitolio Nacional de La Habana 1929"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Capit%C3%B3lio_de_Havana",
+        "situacao": "ok",
+        "texto": "O Edifício do Capitólio Nacional (em castelhano:  El Capitolio), em Havana, construído em 1929, foi a sede do governo de Cuba até a Revolução Cubana, em 1959. Atualmente é a sede da Academia Cubana de Ciências. O seu desenho foi inspirado no Capitólio dos Estados Unidos em Washington, DC. Concluído em 1929, o prédio foi o edifício mais alto de Havana na década de 50 e também a terceira maior casa \n[…]\nO prédio é semelhante ao Capitólio de Washington, mas o arquiteto Eugenio Raynieri inspirou-se na cúpula do Panteão de Paris. A cúpula foi construída nos Estados Unidos e é fixada bem acima da fachada do prédio para permitir mais espaço interno na parte traseira do prédio. Com quase 92 metros (300 pés) de altura, a cúpula foi o ponto mais alto na cidade de Havana até a década de 1950 (essa honra pertence agora ao Memorial José Martí).\n[…]\nAs lâmpadas que podem ser encontradas em todo o edifício foram desenhadas e fabricadas especialmente para o edifício. No centro do prédio dois pátios proporcionam luz e ventilação para os gabinetes do terceiro e quarto andares. Existe ainda uma pequeno andar que dá acesso a cúpula.\n[…]\nAssembleia Nacional do Poder Popular\n[…]\nPolítica de Cuba\n[…]\nAcademia de Ciencias de Cuba",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Arcos da Lapa",
+      "descricao": "Antigo aqueduto colonial do século dezoito no bairro da Lapa, no Rio de Janeiro, por onde hoje passa o bonde de Santa Teresa."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Hoje o bonde de Santa Teresa passa por cima dos Arcos da Lapa, no Rio. Para que eles foram construídos, no século dezoito?",
+    "resposta": "Levar água à cidade",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arcos_da_Lapa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arcos_da_Lapa",
+        "situacao": "ok",
+        "texto": "Os Arcos da Lapa localizam-se na região da Lapa, no bairro da Lapa, na Zona Central do município do Rio de Janeiro, no Brasil.\n[…]\nEm 1718, sob o governo de Antônio de Brito Freire de Menezes (1717-1719), iniciaram-se as obras de instalação dos canos de água através da antiga Rua dos Barbonos (atual Rua Evaristo da Veiga). Sob o governo de Aires de Saldanha e Albuquerque Coutto Matos e Noronha (1719-1725), em 1734, o encanamento alcançava o Campo da Ajuda (atual Cinelândia), ainda nos arrabaldes da cidade à época.\n[…]\nNa segunda metade do século XIX, durante o Império e, posteriormente, diante do advento da República, novas alternativas para o abastecimento de água aos moradores da cidade do Rio de Janeiro foram sendo utilizadas. O aqueduto, a partir de 1896, passou a ser utilizado como viaduto para os novos bondes de ferro da Companhia de Carris Urbanos, principal meio de acesso do centro aos altos do bairro de Santa Teresa, até os dias de hoje.\n[…]\nConservados pelo poder público, em nossos dias, os antigos arcos coloniais servem de pano de fundo para diversos eventos, como as festividades da Semana Santa e o tradicional Auto de Natal da cidade.\n[…]\nNa obra de 1823, Viagem pelo Brasil, os pesquisadores Johann Baptist von Spix e Carl Friedrich Philipp von Martius descreveram o aqueduto da seguinte maneira:\"O mais belo e útil monumento de arquitetura, de que o Rio até aqui se pode gabar, é o aqueduto, concluído no ano de 1740, cópia da obra única no seu gênero em Lisboa do tempo de D. João V, por cujos arcos elevados corre, para as fontes da cidade, água potável, que vem do Corcovado.\n[…]\nBonde de Santa Teresa"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Catedral de São Basílio",
+      "descricao": "Igreja de cúpulas coloridas em forma de bulbo, na Praça Vermelha, em Moscou, construída no século dezesseis."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Catedral de São Basílio, de cúpulas coloridas na Praça Vermelha, foi erguida por ordem de Ivan, o Terrível, para celebrar a conquista de qual cidade?",
+    "resposta": "Kazan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral",
+        "situacao": "ok",
+        "texto": "The Cathedral of Vasily the Blessed (Russian: Собор Василия Блаженного, romanized: Sobor Vasiliya Blazhennogo), commonly known as Saint Basil's Cathedral, is a Russian Orthodox church on Red Square in the historic centre of Moscow. It is one of the most popular cultural symbols of Russia. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotoko\n[…]\nIt was built from 1555 to 1561 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan. It was completed, with its colours, in 1683.\n[…]\nFollowing the dissolution of the Soviet Union in 1991, weekly liturgical celebration and prayers to St. Basil have been restored since 1997.\n[…]\nTsar Ivan IV marked every victory of the Russo-Kazan War by erecting a wooden memorial church next to the walls of Trinity Church; by the end of his Astrakhan campaign, it was shrouded within a cluster of seven wooden churches. According to the report in Nikon's Chronicle, in the autumn of 1554 Ivan ordered the construction of the wooden Church of Intercession on the same site, \"on the moat\".\n[…]\nOn the Trinity on the Moat in Moscow.In the same year, through the will of czar and lord and grand prince Ivan began making the pledged church, as he promised for the capture of Kazan: Trinity and Intercession and seven sanctuaries, also called \"on the moat\". And the builder was Barma with company.\n[…]\nMany historians are convinced that it is a myth, as the architect later participated in the construction of the Cathedral of the Annunciation in Moscow as well as in building the walls and towers of the Kazan Kremlin. Postnik Yakovlev remained active at least throughout the 1560s. This myth likely originated with Jerome Horsey's account of Ivan III of Moscow having blinded the architect of the fortress of Ivangorod."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Catedral_de_S%C3%A3o_Bas%C3%ADlio",
+        "situacao": "ok",
+        "texto": "Catedral de São Basílio (em russo:  Собор Василия Блаженногo/Sobor Vasiliya Blazhennogo), é uma catedral ortodoxa russa erguida na Praça Vermelha em Moscou, Rússia, entre 1555 e 1561. Construída sob a ordem de Ivã IV da Rússia, para comemorar a captura de Kazan e Astracã, marca o centro geométrico da cidade e o centro do seu crescimento, desde o século XIV. Foi o edifício mais alto de Moscou até a\n[…]\nSeu nome oficial é Catedral da Intercessão da Santíssima Mãe de Deus no Fosso.\n[…]\nO edifício original, conhecido como \"Igreja da Trindade\" e depois de \"Catedral da Trindade\", continha oito igrejas laterais dispostas ao redor do edifício central; a décima igreja foi erguida em 1588 sobre o túmulo do santo conhecido como Vasily (Basílio).\n[…]\nA catedral tem operado como uma divisão do Museu Histórico do Estado desde 1928. Foi completamente secularizada em 1929 e, em 2010, continuou a ser uma propriedade federal da Federação Russa. A catedral é parte do Kremlin e da Praça Vermelha, Patrimônio Mundial da UNESCO desde 1990.\n[…]\nPertencente à Igreja Ortodoxa Russa, a catedral teve sua construção ordenada pelo Czar Ivan o Terrível para comemorar a conquista de Kazan, que realizou entre 1555 a 1561. Em 1588 o Czar Fiodor Ivanovich ordenou que se agregasse uma nova capela no lado leste da construção, sobre a tumba de São Basílio, o Bem-aventurado, santo por cujo nome foi chamada popularmente a catedral.\n[…]\nSão Basílio se encontra no extremo sudeste da Praça Vermelha, justamente à frente da Torre Spasskaya do Kremlin. Não sendo muito grande, consiste de 9 pequenas capelas construídas.\n[…]\nA Catedral de São Basílio não deve ser confundida com o Kremlin de Moscovo, que está situado na Praça Vermelha, mesmo local onde a Catedral de São Basílio está situada.\n[…]\nPraça Vermelha\n[…]\n«Catedral de São Basílio». um artigo no âmbito do projeto \"Templos da Rússia\"\n[…]\nCatedral de São Basílio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Letreiro de Hollywood",
+      "descricao": "Grande letreiro de letras brancas nas colinas de Hollywood, em Los Angeles, erguido em 1923."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1923, as letras brancas gigantes nas colinas de Los Angeles, hoje símbolo do cinema americano, foram erguidas para anunciar o quê?",
+    "resposta": "Um loteamento imobiliário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hollywood_Sign"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hollywood_Sign",
+        "situacao": "ok",
+        "texto": "The Hollywood Sign is an American landmark and cultural icon overlooking Hollywood, Los Angeles. Originally the Hollywoodland Sign, it is on Mount Lee, above Beachwood Canyon in the Santa Monica Mountains. It was originally erected in 1923 as a temporary advertisement for a local real estate development, and spelled out \"HOLLYWOODLAND\" in 50-foot-tall (15.2 m) white uppercase letters in a word 450\n[…]\nThe original sign was erected in 1923 and originally read \"HOLLYWOODLAND\" to promote the name of a new housing development in the hills above the Hollywood district of Los Angeles.\n[…]\nThe sign was officially dedicated on 13 July 1923, intended to last only a year and a half. The rise of American cinema in Los Angeles during the Golden Age of Hollywood gave it widespread visibility, causing it to be left beyond that, for over a quarter of a century still spelling \"Hollywoodland\". In September 1932, 24-year-old actress Peg Entwistle died by suicide by climbing a workman's ladder up to the top of the 'H' and jumping to her death.\n[…]\nIn January 2026, a crew for the underwear brand Syrn, including actress and brand founder Sydney Sweeney, draped lingerie over the sign without a permit. The Hollywood Chamber of Commerce stated the stunt was unauthorized and investigated the incident.\n[…]\nIn 2023, the Hollywood Sign Trust was honored with the 2023 Preservation Award by the Los Angeles Conservancy, which recognized the Sign Trust’s exceptional achievements in the field of historic preservation in Los Angeles County.\n[…]\nThe Hollywood Sign Trust is made up of nine trustees nominated by the Hollywood Chamber of Commerce, the City of Los Angeles, and the Office of Los Angeles's 4th City Council district. As of 2024–2025, the board consists of Jeff Zarrinnam (Chair), Marty Shelton (Vice Chair), Brian Lane (Secretary), Andrea Conant, Jerry Neuman, Stefanie Smith, Darnell Tyler, Ed Tom, and Dana Pesce."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Letreiro_de_Hollywood",
+        "situacao": "ok",
+        "texto": "O letreiro de Hollywood (em inglês:  Hollywood Sign, anteriormente Letreiro de Hollywoodland) é um marco e ícone cultural americano com vista para Hollywood, Los Angeles, Califórnia. Ele está situado no Monte Lee, na área de Hollywood Hills nas montanhas de Santa Monica. Escrito em letras maiúsculas brancas de 45 pés (13,7 m) e 350 pés (106,7 m) de comprimento. O marco foi criado em 1921 e oficial\n[…]\nO letreiro foi erguido para vender casas de um condomínio. A ideia inicial, era que ele ficasse lá por um ano e meio, mas acabou se tornando um símbolo da cidade. Virado para o sul, ele se estende sobre uma cordilheira de quase 570 metros que separa Hollywood e boa parte de Los Angeles do Vale de San Fernando, ao norte. Em 2002, o terreno de 55 hectares localizado no Cahuenga Peak foi posto no mercado pelos administradores da herança de Howard Hughes, dono do local desde a década de 1940.\n[…]\nConstruído na década de 1920 por H. J. Whitley o letreiro exibia \"HOLLYWOODLAND\" originalmente, como uma propaganda para divulgar um novo loteamento residencial perto do distrito de Hollywood em Los Angeles. Cada uma das letras do letreito original tinha 9,1 m de largura e 14 m de altura, com cerca de 4 mil lâmpadas espalhadas entre elas. O letreiro foi oficialmente erguido em julho de 1923 e não era para ser permanente.\n[…]\nNos anos subsequentes com a ascensão do cinema americano, principalmente em Los Angeles, o letreiro acabou ficando mundialmente famoso por aparecer em diversos filmes, fazendo com que a prefeitura optasse por deixa-lo por lá. Para colocar cada uma das letras no local – uma encosta um tanto íngreme e com muita vegetação –, inúmeros trabalhadores foram recrutados para transportar, abrir caminho em terra e erguer o letreiro, que atualmente pesa mais de 200 toneladas.\n[…]\nNo filme San Andreas, o letreiro perdeu algumas letras por causa do terremoto fictício em Los Angeles.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Portal da Índia",
+      "descricao": "Arco monumental de basalto à beira-mar em Mumbai, na Índia, concluído em 1924."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Portal da Índia, arco à beira-mar em Mumbai, foi erguido para lembrar o desembarque de qual rei britânico, em 1911?",
+    "resposta": "Jorge V",
+    "distratores": [
+      "Eduardo VII",
+      "Jorge VI",
+      "Eduardo VIII"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gateway_of_India"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gateway_of_India",
+        "situacao": "ok",
+        "texto": "The Gateway of India is an arch-monument, completed in 1924, on the waterfront of Mumbai, Maharashtra, India. It was erected to commemorate the landing of King George V of the United Kingdom for his coronation as the Emperor of India in December 1911 at Strand Road near Wellington Fountain. He was the first British monarch to visit India.\n[…]\nAfter its construction, the Gateway was used as a symbolic ceremonial entrance to India for important government personnel. The Gateway is also the monument from where the last British troops left in 1948, following Indian independence a year earlier. It is located on the waterfront at an angle, opposite the Taj Mahal Palace and Tower Hotel and overlooks the Arabian Sea. Today, the monument is synonymous with the city of Mumbai, and is among its prime tourist attractions.\n[…]\nThe Gateway of India was built to commemorate the arrival of King George V of the United Kingdom, Emperor of India, and Mary of Teck, Empress Consort, in India at Apollo Bunder, Mumbai, on 2 December 1911 prior to the Delhi Durbar of 1921. It was the first visit of a British monarch to India. However, they only got to see a cardboard model of the monument, as construction did not begin until 1915.\n[…]\nGammon India had undertaken construction work for the gateway.\n[…]\nThe Gateway is amongst the prime tourist attractions in Mumbai. The Gateway is a protected monument in Maharashtra under the aegis of the Archaeological Survey of India (ASI). It is a regular gathering place for locals, street vendors, and photographers.\n[…]\nThe Mumbai-based video game Mumbai Gullies is expected to feature the Gateway of India in its fictional map.\n[…]\nInteractive 360° imagery of the gateway\n[…]\nGeographic data related to Gateway of India at OpenStreetMap\n[…]\nGateway of India - Secret World Archived 16 April 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Portal_da_%C3%8Dndia",
+        "situacao": "ok",
+        "texto": "O Portal da Índia (em inglês: Gateway of India) é um monumento situado na cidade indiana de Bombaim, construído durante o período colonial britânico (Raj). É um arco do triunfo de basalto, com 26 metros de altura, situado  à beira do mar Arábico e de Mumbai Harbour (Front Bay), na zona sul da cidade (South Mumbai), especificamente em Apollo Bunder (ou Wellington Pier), Colaba, no fim da Chhatrapat\n[…]\nFoi erigido para comemorar o desembarque do rei Jorge V do Reino Unido e da sua esposa, a rainha Maria, aquando da sua visita à Índia em 1911. Construído em estilo indo-sarraceno, a cerimónia de colocação da primeira pedra ocorreu em 31 de março de 1911, mas o desenho final, da autoria de George Wittet, só foi aprovado em 1914 e a construção só foi concluída em 1924. A partir de então, o monumento passou a ser a entrada cerimonial da Índia para os vice-reis e governadores de Bombaim.\n[…]\nO Portal da Índia foi construído para comemorar a visita do rei Jorge V e da rainha Maria a Bombaim, antes do Delhi Durbar, em dezembro de 1911. No entanto, o casal real apenas viu um modelo em cartão da futura estrutura, pois a construção só seria iniciada em 1915, apesar da primeira pedra ter sido colocada simbolicamente em 31 de março de 1911 pelo governador de Bombaim, George Sydenham Clarke.\n[…]\nO monumento era o lugar onde os vice-reis e governadores costumavam desembarcar quando chegavam à Índia. Embora erigido para dar as boas-vindas ao rei Jorge V pela sua visita em 1911, o que constituiu um momento de grande significado para a Índia Britânica e para o Império Britânico, atualmente representa uma \"recordação monumental da colonização e subjugação do povo da Índia pelos britânicos\".\n[…]\nSituado ao lado do emblemático Hotel Taj Mahal Palace, inaugurado em 1903 o portal era um símbolo do poder e majestade do Império Britânico para quem chegava pela primeira vez à Índia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Padrão dos Descobrimentos",
+      "descricao": "Monumento em forma de proa de caravela às margens do Tejo, em Belém, Lisboa, com figuras das navegações portuguesas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Às margens do Tejo, em Lisboa, o Padrão dos Descobrimentos foi inaugurado em 1960 para marcar quinhentos anos da morte de quem?",
+    "resposta": "Infante Dom Henrique",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Padrão_dos_Descobrimentos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Padrão_dos_Descobrimentos",
+        "situacao": "ok",
+        "texto": "O Padrão dos Descobrimentos (ou Monumento aos Descobrimentos; ou Monumento aos Navegantes) localiza-se na freguesia de Belém, na cidade e Distrito de Lisboa, em Portugal. A conceção arquitetónica é de Cottinelli Telmo e as esculturas são de Leopoldo de Almeida.\n[…]\nO monumento foi pensado inicialmente por Cottinelli Telmo como uma homenagem ao Infante D. Henrique, na sequência de vários projetos e concursos para Sagres, realizados ao longo dos anos sem que nenhum chegasse a ser construido. Por ocasião da Exposição do Mundo Português, 1940 — de que Cottinelli Telmo foi arquiteto-chefe —, transformou-se em Padrão dos Descobrimentos, celebrando não apenas o Infante mas também os seus colaboradores e seguidores.\n[…]\nFeito de materiais perecíveis, foi desmontado em 1958 e reconstruido nos anos imediatos, em betão e pedra de lioz, por decisão de Salazar que, por ocasião do 5.º centenário do Infante, contrariou o resultado de mais um concurso henriquino para Sagres (ganho em 1955 por um projeto notável de uma equipa formada por João Andresen, Barata Feyo e Júlio Resende). O Padrão dos descobrimentos seria erguido no local de implantação original, em Belém, com orçamento inferior ao desse concurso.\n[…]\nErguido em definitivo algo fora de tempo, esteticamente desfasado da evolução das artes nos vinte anos entretanto decorridos, o monumento atual foi inaugurado em 1960, no contexto das comemorações dos quinhentos anos da morte do Infante D. Henrique.\n[…]\nPara além da estátua principal do Infante Dom Henrique, o Navegador, segurando um modelo de uma caravela, de ambos os lados das rampas do monumento há um total de 32 figuras da história dos\n[…]\ndescobrimentos, especificamente (da esquerda para a direita):"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Monte Rushmore",
+      "descricao": "Memorial nacional em Dakota do Sul, nos Estados Unidos, com os rostos de quatro presidentes esculpidos na rocha."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Além de Washington, Jefferson e Lincoln, qual presidente americano tem o rosto esculpido na rocha do Monte Rushmore?",
+    "resposta": "Theodore Roosevelt",
+    "distratores": [
+      "Franklin Roosevelt",
+      "John Kennedy",
+      "Ulysses Grant"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Rushmore"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Rushmore",
+        "situacao": "ok",
+        "texto": "O Monte Rushmore (em inglês:  Mount Rushmore; em dacota: Tȟuŋkášila Šákpe, Igmútȟaŋka Pahá) é um monumento que localiza-se em Keystone, no estado do Dakota do Sul, Estados Unidos.\n[…]\nÉ um monte onde estão esculpidos os rostos de quatro Presidentes dos Estados Unidos: George Washington, o primeiro presidente dos EUA, Thomas Jefferson, autor da declaração da independência, Theodore Roosevelt, que conquistou maior conhecimento e liberdade de expressão, e Abraham Lincoln, que lutou pela paz do país durante toda a Guerra Civil.\n[…]\nO monumento é uma das atrações turísticas mais conhecidas dos Estados Unidos, rendendo ao Estado de Dakota do Sul o cognome de The Mount Rushmore State. Os gigantescos rostos, de 15 a 21 metros de altura, de George Washington, Thomas Jefferson, Abraham Lincoln e Theodore Roosevelt foram construídos com antigos instrumentos de engenharia, marretas e martelos a 150 metros de altura, na região de Black Hills. Borglum morreu pouco tempo antes de completar o seu trabalho.\n[…]\nTerminada por seu filho, Lincoln, a obra foi inaugurada em 1941.\n[…]\nO monte foi designado, em 19 de outubro de 1966, um distrito do Registro Nacional de Lugares Históricos bem como, um Memorial Nacional.\n[…]\nA escultura no Monte Rushmore foi construída em terras que foram ilegalmente tomadas da Nação Sioux na década de 1870. Os Sioux continuam a exigir a devolução das terras e, em 1980, a Suprema Corte dos EUA decidiu no caso Estados Unidos v. Nação Sioux dos indígenas que a tomada das Black Hills exigia uma compensação justa e concedeu à tribo US$ 102 milhões. Os Sioux recusaram o dinheiro e exigem a devolução total das terras.\n[…]\nMarco Histórico Nacional na Dakota do Sul"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Panteão de Roma",
+      "descricao": "Templo romano do século dois, no centro de Roma, com uma grande cúpula de concreto, hoje igreja."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No topo da cúpula do Panteão de Roma há uma abertura redonda, sem vidro, por onde entram a luz e a chuva. Como ela se chama?",
+    "resposta": "Óculo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "situacao": "ok",
+        "texto": "The Pantheon (UK: , US: ; Latin: Pantheum, from Ancient Greek  Πάνθειον (Pantheion) '[temple] of all the gods') is an ancient temple in Rome, Italy, originally built under emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138); since AD 609, it is a Catholic church called the Basilica of St. Mary and the Martyrs (Italian: Basilica di Santa Maria ad Martyres). It is perhaps the mo\n[…]\nThe 1824 Henriette Wegner Pavilion in Oslo's famous Frogner Park features a painted miniature copy of the Pantheon dome. The architect Carl Ludvig Engel also took influences from the structure of the Pantheon for the 1837 Nokia Church. Other notable replicas, such as The Rotunda gallery that opened 1818 in New York City, have not survived.\n[…]\nThe Pantheon's dome was also an inspiration for the Volkshalle, an assembly hall planned but never built by the Nazi German architect Albert Speer for Adolf Hitler's intended rebuilding of Berlin as \"Germania\".\n[…]\nPanthéon, Paris\n[…]\nPantheon, Moscow (never built)\n[…]\n\"Beggar's Rome\" – A self-directed virtual tour of St. Maria ad Martyres (Pantheon) and other Roman churches\n[…]\nPantheon Live Webcam, Live streaming Video of the Pantheon\n[…]\nPantheon Rome, Virtual Panorama and photo gallery\n[…]\nPantheon, article in Platner's Topographical Dictionary of Ancient Rome\n[…]\nPantheon Rome vs Pantheon Paris. Archived 24 June 2019 at the Wayback Machine.\n[…]\nTomás García Salgado, \"The geometry of the Pantheon's vault\"\n[…]\nPantheon at Great Buildings/Architecture Week website (archived 15 March 2008)\n[…]\nArt & History Pantheon. Archived 2010-11-24 at the Wayback Machine.\n[…]\nSummer solstice at the Pantheon (archived 15 July 2011)\n[…]\nPantheon at Structurae\n[…]\nVideo Introduction to the Pantheon\n[…]\nPanoramic Virtual Tour inside the Pantheon Archived 11 July 2021 at the Wayback Machine\n[…]\nHigh-resolution 360° Panoramas and Images of Pantheon|Art Atlas Archived 1 January 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_%28Roma%29",
+        "situacao": "ok",
+        "texto": "Panteão (em latim: Pantheon) é um edifício em Roma, Itália, encomendado por Marco Vipsânio Agripa durante o reinado do imperador Augusto (r. 27 a.C.–14 d.C.) e reconstruído por Adriano (r. 117–138) por volta de 126.\n[…]\nA altura até o óculo e o diâmetro da circunferência interior são idênticos, 43,3 metros.\n[…]\nO topo da parede da rotunda apresenta uma série de arcos de tijolo para aliviar as forças de stress, visíveis do lado fora e construídos no interior da estrutura de tijolos da parede. O Panteão está repleto de estruturas deste tipo, mas elas ficavam escondidas no interior pelo revestimento de mármore e, no exterior, pelo revestimento de pedra ou estuque. A altura do óculo e o diâmetro do círculo interior são idênticos, 43,3 metros.\n[…]\nPortanto, o interior caberia exatamente dentro de um cubo e poderia abrigar uma esfera perfeita de 43,3 metros de diâmetro. Estas dimensões fazem muito mais sentido quando expressas nas unidades de medida da Roma Antiga: a cúpula tem 150 pés romanos; o óculo tem 30 pés de diâmetro; a porta tem 40 pés de altura. Substancialmente maior que as cúpulas anteriores, o Panteão ainda detém o recorde de mair cúpula de concreto não reforçado do mundo.\n[…]\nO interior da cúpula provavelmente foi desenhado para simbolizar a abóbada celeste. O óculo no ápice e a porta de entrada são as únicas fontes de luz natural no interior. No decorrer de um dia, a luz do óculo passeia pelo espaço num movimento inverso ao de um relógio de sol. O óculo serve ainda como sistema de resfriamento e ventilação do edifício; durante chuvas e tempestades, um sistema de drenagem no piso remove a água que escorre pela abertura.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Obelisco de Buenos Aires",
+      "descricao": "Obelisco branco erguido em 1936 no cruzamento da Avenida 9 de Julho com a Avenida Corrientes, em Buenos Aires."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O Obelisco de Buenos Aires foi erguido em 1936 para comemorar quantos anos da primeira fundação da cidade?",
+    "resposta": "Quatrocentos anos",
+    "distratores": [
+      "Cem anos",
+      "Trezentos anos",
+      "Quinhentos anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obelisco_de_Buenos_Aires"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Obelisco_de_Buenos_Aires",
+        "situacao": "ok",
+        "texto": "The Obelisco de Buenos Aires (Obelisk of Buenos Aires) is a national historic monument and icon of Buenos Aires. Located in the Plaza de la República in the intersection of avenues Corrientes and 9 de Julio, the reinforced concrete structure was erected in 1936 to commemorate the quadricentennial of the first foundation of the city.\n[…]\nWhere the Obelisk stands, there was a church dedicated to St. Nicholas of Bari; it was demolished. In that church the Argentine flag was officially hoisted for the first time in Buenos Aires, in 1812. That fact is noted in one of the inscriptions on the north side of the monument.\n[…]\nIn 1973, it was decorated as a Christmas tree. In 1975, during the Peronist government of Isabel Perón, a ring-shaped, rotating sign encircled the obelisk with the revolving motto El silencio es salud (\"Silence is health\"). Putatively addressed to motorists who caused excessive noise, it was widely interpreted by Argentines as equating political acquiescence with safety from state terrorism and assassination.\n[…]\nOn December 1, 2005, the obelisk was covered by a giant pink condom to commemorate the World AIDS Day.\n[…]\nLines B, C, and D of the Buenos Aires Metro have stations near the monument, and are connected by a number of underground passages with commercial galleries.\n[…]\nThe Obelisco hosted the opening ceremony of the 2018 Summer Youth Olympics.\n[…]\nEl Obelisco\n[…]\nThe Obelisk\n[…]\nObelisk of São Paulo\n[…]\nhttps://web.archive.org/web/20100603194157/http://otrosmovil.clarin.com/ciudades/capital_federal/Luces-colores-cambian-entorno-Obelisco_0_271772976.html\n[…]\nhttps://web.archive.org/web/20110706083419/http://bsas.gov.ar/areas/med_ambiente/obelisco_01.php"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Obelisco_de_Buenos_Aires",
+        "situacao": "ok",
+        "texto": "O Obelisco de Buenos Aires (em espanhol: Obelisco de Buenos Aires ou El Obelisco) é um monumento histórico da cidade de Buenos Aires, Argentina. Foi erguido na Praça da República, no cruzamento das avenidas Corrientes e 9 de julio, em comemoração ao quarto centenário da fundação da cidade.\n[…]\nNo local onde está localizado o obelisco, anteriormente, havia uma igreja dedicada a São Nicolau de Mira. Nessa igreja pela primeira vez oficialmente a bandeira Argentina foi hasteada, dentro de Buenos Aires, em 1812: em memória do acontecimento há inscrições do lado norte do obelisco.\n[…]\nO estabelecimento da linha B do metrô favoreceu a construção do monumento, uma vez que facilitou a colocação da fundação pois os túneis formam uma base concreta de 20 metros. A laje plana do metrô permite a passagem da laje de fundação do obelisco.\n[…]\nEm 29 de fevereiro de 1938, Roberto M. Ortiz assumiu a presidência do país, e Arturo Goyeneche foi nomeado como novo Presidente da Câmara da cidade. Em junho de 1939, o Conselho deliberativo sancionou a demolição do obelisco pelo Despacho nº 10 251, invocando razões econômicas, estéticas e de segurança pública.\n[…]\nCulminando com um para-raios, cujos fios correm através do interior do obelisco. A base mede 49 m². O monumento tem uma única entrada (no lado Oeste) e em seu auge há quatro janelas, que só podem ser atingidas através de uma escada reta de 206 degraus.\n[…]\nNa fronte sul, na base do obelisco, em um pequeno retângulo, se encontra escrito este soneto de Baldomero Fernandez Moreno, que o escreveu durante um jantar em homenagem a Prebisch (conta a história ele foi escrito em um pequeno guardanapo e o entregou a sua esposa).\n[…]\nEl Obelisco\n[…]\nO obelisco\n[…]\nQuando a cidade foi salva",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Torre de Londres",
+      "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma antiga lenda, o reino britânico cairá se quais aves, mantidas ali até hoje, abandonarem a Torre de Londres?",
+    "resposta": "Corvos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ravens_of_the_Tower_of_London"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ravens_of_the_Tower_of_London",
+        "situacao": "ok",
+        "texto": "The ravens of the Tower of London are a group of at least six captive ravens (eight in 2025) resident at the Tower of London. Their presence is traditionally believed to protect the Crown and the Tower; a belief holds that \"if the Tower of London ravens are lost or fly away, the Crown will fall and Britain with it.\"  Local legend puts the origin of the captive raven population at the time of King \n[…]\nThe first two known depictions of ravens in the Tower of London both date from the year 1883. One is in a special edition of the newspaper The Pictorial World and the other is from the children's Book London Town, written by Felix Leigh and illustrated by Thomas Crane and Elizabeth Houghton.\n[…]\nGeoffrey Parnell, the official Tower of London historian and a member of the Royal Armouries staff, considers the purported ancient history of captive ravens at the Tower to instead be a legend invented during the Victorian era. During Parnell's research, despite the superstition that the Crown depends on the continued presence of the ravens, \"[he] has found the blunt statement in the records 'there are none left' – and yet the monarchy and the tower have more or less survived\".\n[…]\nToday the Tower's ravens are one of the attractions for tourists visiting the City of London. However, visitors are advised not to feed the birds and warned that a raven will bite if it feels threatened.\n[…]\nOn 31 January 2021, the Tower of London announced that Merlina, known as \"Queen of the Tower Ravens\", had not been seen at the Tower grounds for several weeks, leading the Ravenmaster to believe she has died. A statement released on Twitter reads:\n[…]\nIn 1996, two more ravens fell out of favour and were dismissed from the Tower for \"conduct unbecoming Tower residents.\"\n[…]\nMedia related to Ravens at the Tower of London at Wikimedia Commons\n[…]\n\"The ravens | Tower of London\". Historic Royal Palaces."
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

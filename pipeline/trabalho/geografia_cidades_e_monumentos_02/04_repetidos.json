@@ -1,0 +1,421 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Inaugurado em 1997 e coberto de placas curvas de titânio, o Museu Guggenheim de Bilbao, na Espanha, foi projetado por qual arquiteto?",
+        "resposta": "Frank Gehry"
+      },
+      "existentes": [
+        {
+          "id": "q03976",
+          "pergunta": "O Museu Guggenheim de Bilbao, projetado por Frank Gehry, tem suas curvas cobertas por finas placas de que metal?",
+          "resposta": "Titânio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Junto ao Parque do Ibirapuera, em São Paulo, o enorme Monumento às Bandeiras, de granito, é obra de qual escultor modernista?",
+        "resposta": "Victor Brecheret"
+      },
+      "existentes": [
+        {
+          "id": "q03964",
+          "pergunta": "Que escultor, que expôs na Semana de Arte Moderna de 1922, criou o Monumento às Bandeiras, de granito, junto ao Parque Ibirapuera?",
+          "resposta": "Victor Brecheret"
+        },
+        {
+          "id": "q03965",
+          "pergunta": "Por causa das figuras que fazem força para arrastar uma canoa, o Monumento às Bandeiras, em São Paulo, ganhou que apelido popular?",
+          "resposta": "Empurra-empurra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Concluída no século dezoito, a Fontana di Trevi, em Roma, onde turistas jogam moedas, foi projetada por qual arquiteto?",
+        "resposta": "Nicola Salvi"
+      },
+      "existentes": [
+        {
+          "id": "q01923",
+          "pergunta": "Em que século foi concluída esta fonte barroca?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q04696",
+          "pergunta": "Que arquiteto projetou esta fonte barroca?",
+          "resposta": "Nicola Salvi"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que rei francês transformou o modesto pavilhão de caça construído pelo pai no suntuoso Palácio de Versalhes?",
+        "resposta": "Luís XIV"
+      },
+      "existentes": [
+        {
+          "id": "q02447",
+          "pergunta": "Em que país fica este palácio, residência de reis por mais de um século?",
+          "resposta": "França"
+        },
+        {
+          "id": "q03978",
+          "pergunta": "Em 1919, o tratado que encerrou a Primeira Guerra Mundial foi assinado em que salão do Palácio de Versalhes?",
+          "resposta": "Galeria dos Espelhos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No adro do Santuário do Bom Jesus de Matosinhos, em Congonhas, os doze profetas de pedra-sabão foram esculpidos por qual artista?",
+        "resposta": "Aleijadinho"
+      },
+      "existentes": [
+        {
+          "id": "q03476",
+          "pergunta": "Que santuário barroco de Minas Gerais é este?",
+          "resposta": "Santuário do Bom Jesus de Matosinhos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O Domo Genbaku, esqueleto de concreto que resistiu à explosão da bomba atômica de 1945, é o memorial de qual cidade japonesa?",
+        "resposta": "Hiroshima"
+      },
+      "existentes": [
+        {
+          "id": "q00387",
+          "pergunta": "Em que cidade fica este prédio em ruínas, preservado como memorial?",
+          "resposta": "Hiroshima"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Erguida em Pequim no início do século quinze, a Cidade Proibida foi construída durante qual dinastia chinesa?",
+        "resposta": "Dinastia Ming"
+      },
+      "existentes": [
+        {
+          "id": "q03882",
+          "pergunta": "Em que século começou a construção deste complexo de palácios imperiais?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Dividindo a cidade alemã por quase três décadas, o Muro de Berlim começou a ser erguido em qual ano?",
+        "resposta": "1961"
+      },
+      "existentes": [
+        {
+          "id": "q02329",
+          "pergunta": "Que construção da Guerra Fria é esta?",
+          "resposta": "Muro de Berlim"
+        },
+        {
+          "id": "q03912",
+          "pergunta": "Em novembro de 1989, que anúncio atrapalhado de um porta-voz da Alemanha Oriental levou multidões ao Muro de Berlim?",
+          "resposta": "Liberação imediata das viagens"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Joia da arquitetura gótica na Île de la Cité, a Catedral de Notre-Dame de Paris teve sua construção iniciada em qual século?",
+        "resposta": "Século doze"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+        "resposta": "Copa do Mundo de 1950"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+        "resposta": "Dom Pedro II"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O nome Coliseu, dado ao Anfiteatro Flávio, em Roma, vem de uma estátua colossal que ficava ao lado. Ela representava qual imperador?",
+        "resposta": "Nero"
+      },
+      "existentes": [
+        {
+          "id": "q00079",
+          "pergunta": "O nome Coliseu provavelmente vem de algo gigantesco que ficava ao lado do anfiteatro. O que era?",
+          "resposta": "Uma estátua colossal de Nero"
+        },
+        {
+          "id": "q03943",
+          "pergunta": "Que dinastia imperial romana mandou construir este anfiteatro?",
+          "resposta": "Dinastia Flaviana"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A capital do Piauí, planejada em 1852 entre os rios Poti e Parnaíba, recebeu um nome que homenageia qual imperatriz do Brasil?",
+        "resposta": "Teresa Cristina"
+      },
+      "existentes": [
+        {
+          "id": "q02409",
+          "pergunta": "A capital do Piauí recebeu seu nome em homenagem a qual imperatriz do Brasil?",
+          "resposta": "Teresa Cristina"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Inaugurado em 1909 na Cinelândia, o Theatro Municipal do Rio de Janeiro foi inspirado em qual casa de ópera de Paris?",
+        "resposta": "Ópera Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q03180",
+          "pergunta": "O Theatro Municipal do Rio de Janeiro, inaugurado em 1909, teve como modelo que casa de ópera de Paris?",
+          "resposta": "Ópera Garnier"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O castelo de Neuschwanstein, na Baviera, inspirou o castelo do primeiro parque da Disney, na Califórnia. Que princesa dá nome a esse castelo?",
+        "resposta": "Bela Adormecida"
+      },
+      "existentes": [
+        {
+          "id": "q03982",
+          "pergunta": "O castelo de Neuschwanstein, mandado erguer pelo rei Luís Segundo da Baviera, inspirou o castelo de que princesa na Disneylândia?",
+          "resposta": "Bela Adormecida"
+        },
+        {
+          "id": "q05290",
+          "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+          "resposta": "Luís II da Baviera"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Hoje o bonde de Santa Teresa passa por cima dos Arcos da Lapa, no Rio. Para que eles foram construídos, no século dezoito?",
+        "resposta": "Levar água à cidade"
+      },
+      "existentes": [
+        {
+          "id": "q03479",
+          "pergunta": "Em que século foi construída esta obra?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A Catedral de São Basílio, de cúpulas coloridas na Praça Vermelha, foi erguida por ordem de Ivan, o Terrível, para celebrar a conquista de qual cidade, hoje capital do Tartaristão?",
+        "resposta": "Kazan"
+      },
+      "existentes": [
+        {
+          "id": "q03471",
+          "pergunta": "Em que século foi construída esta catedral?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q03967",
+          "pergunta": "Que czar mandou erguer a Catedral de São Basílio, na Praça Vermelha, para celebrar a conquista da cidade de Kazan?",
+          "resposta": "Ivan, o Terrível"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em 1923, as letras brancas gigantes nas colinas de Los Angeles, hoje símbolo do cinema americano, foram erguidas para anunciar o quê?",
+        "resposta": "Um loteamento imobiliário"
+      },
+      "existentes": [
+        {
+          "id": "q01049",
+          "pergunta": "Em 1923, o famoso letreiro gigante nas colinas de Los Angeles foi erguido para anunciar um loteamento. Que palavra ele exibia?",
+          "resposta": "Hollywoodland"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Além de Washington, Jefferson e Lincoln, qual presidente americano tem o rosto esculpido na rocha do Monte Rushmore?",
+        "resposta": "Theodore Roosevelt"
+      },
+      "existentes": [
+        {
+          "id": "q03959",
+          "pergunta": "Os rostos de quatro presidentes americanos esculpidos na rocha do Monte Rushmore ficam em que estado dos Estados Unidos?",
+          "resposta": "Dakota do Sul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Arquiteto vs metal das placas; fatos diferentes (a existente dá Gehry no enunciado, mas pergunta o titânio)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: escultor Brecheret do Monumento às Bandeiras.",
+      "id_existente": "q03964"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: arquiteto Nicola Salvi projetou a fonte.",
+      "id_existente": "q04696"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Rei que transformou o pavilhão é fato distinto de país e salão do tratado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Autor dos profetas é diferente do nome do santuário."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade do memorial: Hiroshima.",
+      "id_existente": "q00387"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Dinastia é fato diferente do século de construção."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ano de início da construção difere de identificar o muro ou do anúncio de 1989."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: século do início da construção de Notre-Dame.",
+      "id_existente": "q03974"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Copa para a qual foi construído é fato diferente de nome oficial ou identificação."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Imperador no reinado da inauguração difere do século, embora relacionados; não se deduz diretamente."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam sobre a estátua colossal de Nero que originou o nome.",
+      "id_existente": "q00079"
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: imperatriz homenageada no nome de Teresina.",
+      "id_existente": "q02409"
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Ópera Garnier como modelo.",
+      "id_existente": "q03180"
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: castelo da Bela Adormecida inspirado em Neuschwanstein.",
+      "id_existente": "q03982"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Finalidade dos arcos difere do século de construção."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Ambas envolvem a conquista de Kazan como motivo da construção.",
+      "id_existente": "q03967"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Pergunta o propósito (loteamento), enquanto a existente pergunta a palavra exibida, embora o enunciado revele o propósito."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Quarto presidente é diferente do estado onde fica."
+    }
+  ]
+}
