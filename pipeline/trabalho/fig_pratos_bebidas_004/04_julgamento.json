@@ -1,0 +1,594 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Café expresso",
+        "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+        "variantes": [
+          "Espresso",
+          "Expresso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "expresso_do_oriente",
+          "nome": "Expresso do Oriente",
+          "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla.",
+          "variantes": [
+            "Orient Express",
+            "Orient-Express"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica"
+          ]
+        },
+        {
+          "id": "processo_urca",
+          "nome": "Processo Urca",
+          "descricao": "Processo de emissão de neutrinos que faz estrelas perderem energia, descrito por George Gamow e Mário Schenberg em 1940.",
+          "variantes": [
+            "Urca process"
+          ]
+        },
+        {
+          "id": "alain_prost",
+          "nome": "Alain Prost",
+          "descricao": "Ex-piloto francês de Fórmula 1, tetracampeão mundial.",
+          "variantes": [
+            "Alain Marie Pascal Prost",
+            "O Professor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ceviche",
+        "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+        "variantes": [
+          "Cebiche",
+          "Seviche",
+          "Sebiche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "fetiche",
+          "nome": "Fetiche",
+          "descricao": "Palavra que várias línguas europeias tomaram do português feitiço",
+          "variantes": [
+            "Fetish",
+            "Feitiço"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sachertorte",
+        "descricao": "Bolo austríaco de chocolate com geleia de damasco e cobertura de chocolate, criado por Franz Sacher.",
+        "variantes": [
+          "Torta Sacher",
+          "Bolo Sacher"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camisa_polo",
+          "nome": "Camisa polo",
+          "descricao": "Camisa de malha de manga curta, com gola e abotoamento curto na frente",
+          "variantes": [
+            "Polo shirt"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Macaron",
+        "descricao": "Doce francês de merengue com farinha de amêndoas, recheado com ganache, creme ou geleia.",
+        "variantes": [
+          "Macarron",
+          "Macaroon francês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "galo_gaules",
+          "nome": "Galo gaulês",
+          "descricao": "Galo usado como símbolo nacional da França.",
+          "variantes": [
+            "Coq gaulois",
+            "Galo francês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Feijão tropeiro",
+        "descricao": "Prato caipira de feijão cozido misturado com farinha de mandioca, linguiça, torresmo e ovos, criado por tropeiros.",
+        "variantes": [
+          "Feijão de tropeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Arroz-doce",
+        "descricao": "Sobremesa de arroz cozido com leite e açúcar, geralmente polvilhada com canela.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rio_doce",
+          "nome": "Rio Doce",
+          "descricao": "Rio do Sudeste brasileiro que nasce em Minas Gerais e deságua no Atlântico, no Espírito Santo.",
+          "variantes": [
+            "Doce River"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Risoto",
+        "descricao": "Prato italiano de arroz cozido lentamente em caldo até ficar cremoso.",
+        "variantes": [
+          "Risotto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tinto",
+          "nome": "Rio Tinto",
+          "descricao": "Rio do sudoeste da Espanha, na Andaluzia, de águas ácidas e avermelhadas.",
+          "variantes": []
+        },
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "ditto",
+          "nome": "Ditto",
+          "descricao": "Pokémon do tipo Normal, número 132 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Haggis",
+        "descricao": "Prato tradicional escocês feito com miúdos de ovelha, aveia e temperos, servido com purê de nabo e batata.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "agitos",
+          "nome": "Agitos",
+          "descricao": "Símbolo dos Jogos Paralímpicos, formado por três meias-luas em vermelho, azul e verde.",
+          "variantes": [
+            "Símbolo paralímpico"
+          ]
+        },
+        {
+          "id": "rubeus_hagrid",
+          "nome": "Rubeus Hagrid",
+          "descricao": "Meio-gigante guarda-caça de Hogwarts nas obras de Harry Potter, vivido por Robbie Coltrane nos filmes.",
+          "variantes": [
+            "Hagrid"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Donut",
+        "descricao": "Doce frito ou assado de massa fermentada em formato de anel, geralmente com cobertura de glacê.",
+        "variantes": [
+          "Doughnut",
+          "Rosquinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        },
+        {
+          "id": "arlequina",
+          "nome": "Arlequina",
+          "descricao": "Personagem da DC, psiquiatra que vira parceira e namorada do Coringa",
+          "variantes": [
+            "Harley Quinn"
+          ]
+        },
+        {
+          "id": "carlos_v",
+          "nome": "Carlos V",
+          "descricao": "Monarca Habsburgo do século dezesseis, rei da Espanha como Carlos I e imperador do Sacro Império Romano-Germânico.",
+          "variantes": [
+            "Carlos I da Espanha",
+            "Carlos Quinto",
+            "Charles V"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Homus",
+        "descricao": "Pasta levantina de grão-de-bico cozido e amassado com tahine, limão e alho.",
+        "variantes": [
+          "Hummus",
+          "Hommus",
+          "Houmous"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "onibus",
+          "nome": "Ônibus",
+          "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros.",
+          "variantes": [
+            "Autocarro",
+            "Omnibus"
+          ]
+        },
+        {
+          "id": "maus",
+          "nome": "Maus",
+          "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+          "variantes": []
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "hipocampo",
+          "nome": "Hipocampo",
+          "descricao": "Estrutura do cérebro ligada à formação de memórias.",
+          "variantes": [
+            "Hippocampus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é café expresso."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ceviche não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o bolo Sachertorte."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o doce macaron."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o feijão tropeiro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Arroz-doce não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o risoto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o haggis."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o donut."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o homus."
+    }
+  ]
+}

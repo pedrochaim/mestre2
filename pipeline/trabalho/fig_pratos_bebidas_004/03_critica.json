@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a crema como espuma clara no topo do expresso. O enunciado não nomeia a bebida nem a resposta, e a imagem é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um prato emblemático. Os distratores são plausíveis, curtos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a compota de damasco no meio das camadas. O enunciado não nomeia o bolo, e a pergunta exige reconhecê-lo. Os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 direto. O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É um prato brasileiro reconhecível. Os distratores são pratos brasileiros à base de feijão ou arroz, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobremesa reconhecível, com distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem italiana. Só se responde reconhecendo o prato, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prato escocês reconhecível. Os distratores são pratos de tradição britânica ou irlandesa, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O adjetivo \"frito\" pode não valer para a foto, já que o donut também pode ser assado. Além disso, torna a pergunta ambígua com outros doces fritos. É melhor tirar essa afirmação.",
+      "reescrita": {
+        "pergunta": "Que doce é este?",
+        "resposta": "Donut",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o homus é uma pasta levantina. O enunciado não vaza a resposta, e os distratores são pastas distintas.",
+      "reescrita": null
+    }
+  ]
+}

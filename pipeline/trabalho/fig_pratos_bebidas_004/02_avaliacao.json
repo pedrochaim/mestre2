@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Xícara de expresso com crema bem visível, imagem limpa.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Como se chama a camada clara de espuma que cobre o topo desta bebida?",
+      "resposta": "Crema",
+      "destino": 0,
+      "ancora": {
+        "nome": "Café expresso",
+        "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+        "variantes": [
+          "Espresso",
+          "Expresso"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Prato claro de ceviche com batata-doce e milho, sem texto; distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Ceviche",
+      "distratores": [
+        "Tiradito",
+        "Poke",
+        "Carpaccio de peixe"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ceviche",
+        "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+        "variantes": [
+          "Cebiche",
+          "Seviche",
+          "Sebiche"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fatia com cobertura de chocolate brilhante e camadas visíveis, sem texto; reconhecível.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que geleia de fruta fica entre as camadas deste bolo?",
+      "resposta": "Damasco",
+      "distratores": [
+        "Framboesa",
+        "Laranja",
+        "Cereja"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sachertorte",
+        "descricao": "Bolo austríaco de chocolate com geleia de damasco e cobertura de chocolate, criado por Franz Sacher.",
+        "variantes": [
+          "Torta Sacher",
+          "Bolo Sacher"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pó claro numa tigela: poderia ser farinha de mandioca, de milho ou outro pó; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Caixa de macarons coloridos, sem texto, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce é este?",
+      "resposta": "Macaron",
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaron",
+        "descricao": "Doce francês de merengue com farinha de amêndoas, recheado com ganache, creme ou geleia.",
+        "variantes": [
+          "Macarron",
+          "Macaroon francês"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close legível de feijão com farinha, linguiça e cebolinha; distratores de pratos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato brasileiro é este?",
+      "resposta": "Feijão tropeiro",
+      "distratores": [
+        "Baião de dois",
+        "Tutu de feijão",
+        "Arroz carreteiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Feijão tropeiro",
+        "descricao": "Prato caipira de feijão cozido misturado com farinha de mandioca, linguiça, torresmo e ovos, criado por tropeiros.",
+        "variantes": [
+          "Feijão de tropeiro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arroz-doce com canela, sem texto, reconhecível; escolha entre sobremesas cremosas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Arroz-doce",
+      "distratores": [
+        "Canjica",
+        "Mingau de aveia",
+        "Pudim de tapioca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arroz-doce",
+        "descricao": "Sobremesa de arroz cozido com leite e açúcar, geralmente polvilhada com canela.",
+        "variantes": [
+          "Arroz doce"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Risoto cremoso com fios de açafrão; a palavra parcial no prato não entrega nada.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é originário este prato?",
+      "resposta": "Itália",
+      "destino": 0,
+      "ancora": {
+        "nome": "Risoto",
+        "descricao": "Prato italiano de arroz cozido lentamente em caldo até ficar cremoso.",
+        "variantes": [
+          "Risotto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Haggis com purê de nabo e de batata; imagem pequena, mas legível; tartã é só contexto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Haggis",
+      "distratores": [
+        "Morcela",
+        "Cottage pie",
+        "Colcannon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Haggis",
+        "descricao": "Prato tradicional escocês feito com miúdos de ovelha, aveia e temperos, servido com purê de nabo e batata.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois donuts glaceados, imagem clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce frito é este?",
+      "resposta": "Donut",
+      "destino": 0,
+      "ancora": {
+        "nome": "Donut",
+        "descricao": "Doce frito ou assado de massa fermentada em formato de anel, geralmente com cobertura de glacê.",
+        "variantes": [
+          "Doughnut",
+          "Rosquinha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Homus clássico com azeite e páprica, sem texto; distratores de pastas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pasta do Oriente Médio é esta?",
+      "resposta": "Homus",
+      "distratores": [
+        "Babaganuche",
+        "Tzatziki",
+        "Labneh"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Homus",
+        "descricao": "Pasta levantina de grão-de-bico cozido e amassado com tahine, limão e alho.",
+        "variantes": [
+          "Hummus",
+          "Hommus",
+          "Houmous"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O prato parece risoto com linguiça e queijo ralado, não um arroz carreteiro típico; a resposta não é única nem segura diante da imagem."
+    }
+  ]
+}
