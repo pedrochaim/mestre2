@@ -1,0 +1,402 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado; distratores são cidades francesas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roma 1960 confirmada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Singapura 2010 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda Maratona–Atenas sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Transferência de Chicago para Saint Louis confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parque na Barra da Tijuca, zona oeste, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascimento em Guarulhos confirmado; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta deve ser só o nome do lugar e a fonte em inglês não mostra o fato; inclui fonte em português.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Pierre de Coubertin foi sepultado na Suíça, mas seu coração foi levado para a Grécia e enterrado num monumento. Em que lugar?",
+        "resposta": "Olímpia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pierre_de_Coubertin",
+          "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mudança do COI para Lausanne em 1915 é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desfile no Sena confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Spyridon Louis, carregador de água, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Samaras confirmado; distratores gregos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Neymar bateu o pênalti decisivo contra a Alemanha; ouro inédito confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paraense primeiro ouro no tiro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas uma fonte é página de desambiguação; troco pela do mascote.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Cobi, o cão pastor de traço cubista que foi mascote dos Jogos de Barcelona 1992, foi criado por que artista espanhol?",
+        "resposta": "Javier Mariscal",
+        "distratores": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Antoni Tàpies"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cobi_(mascot)",
+          "https://en.wikipedia.org/wiki/Javier_Mariscal"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Riner e Pérec acenderam a pira, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fontes dizem só que se especulava Pelé; 'foi convidado' não é sustentado. Troco por pista verificável.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Na abertura da Rio 2016, que maratonista brasileiro, medalhista de bronze em Atenas 2004, acendeu a pira olímpica?",
+        "resposta": "Vanderlei Cordeiro de Lima",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony",
+          "https://pt.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Direção de Riefenstahl confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro ouro da ginástica brasileira nas argolas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandeira hasteada pela primeira vez em Antuérpia 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro em Los Angeles 1984 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia do breaking em Paris 2024 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Golfe disputado por último em 1904, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Competições de arte de 1912 a 1948, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "COI criado em 1894, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Austerity Games confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Flying Housewife confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia do pt.wikipedia sustenta a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que a palavra nomeou o local e a corrida antes de virar medida; a premissa é discutível.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frase Beijing huanying ni confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Phryges baseados no barrete frígio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Homenagem a Maria Lenk confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Proibição por Teodósio I em 393 segundo a tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mudança de calendário de 1986 explica o intervalo.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Medalha Pierre de Coubertin confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carona de carro confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais (mais de 5 palavras); encurto mantendo o fato.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Criado por Coubertin, o pentatlo moderno reunia esgrima, tiro, natação, hipismo e corrida para simular a aventura de quem?",
+        "resposta": "Um soldado de cavalaria",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coroa de oliveira selvagem confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Communiter, juntos, 2021), mas a fonte é página de desambiguação; troco a fonte.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Em 2021, o lema olímpico mais rápido, mais alto, mais forte ganhou uma quarta palavra latina. O que ela significa?",
+        "resposta": "Juntos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Olympic_symbols"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ferro da Torre Eiffel confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Solo de Tóquio ao som de Baile de Favela, de MC João, é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jogos de 1900 integrados à Exposição Universal, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Weissmuller foi Tarzan, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Princesa Anne em Montreal 1976, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Waldi, dachshund, primeiro mascote oficial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flecha de Rebollo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marca de 8,90 m confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Triatlo olímpico com 40 km de ciclismo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sete ouros do Brasil na Rio 2016 é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pequim, primeira cidade com Jogos de Verão e de Inverno, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,1182 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Inverno de 1924",
+        "descricao": "Primeira edição dos Jogos Olímpicos de Inverno, realizada em 1924 nos Alpes franceses.",
+        "variantes": [
+          "Chamonix 1924",
+          "Semana Internacional dos Esportes de Inverno"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1924_Winter_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os primeiros Jogos Olímpicos de Inverno, em 1924, foram disputados em que cidade dos Alpes franceses?",
+      "resposta": "Chamonix",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1924_Winter_Olympics"
+      ],
+      "distratores": [
+        "Grenoble",
+        "Albertville",
+        "Courchevel"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Jogos Paralímpicos de Verão de 1960",
+        "descricao": "Primeira edição dos Jogos Paralímpicos, realizada em 1960 na mesma cidade dos Jogos Olímpicos daquele ano.",
+        "variantes": [
+          "Paralimpíadas de 1960",
+          "Roma 1960"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1960_Summer_Paralympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os primeiros Jogos Paralímpicos, em 1960, aconteceram na mesma cidade que sediou os Jogos Olímpicos naquele ano. Que cidade foi essa?",
+      "resposta": "Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1960_Summer_Paralympics"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Jogos Olímpicos da Juventude de Verão de 2010",
+        "descricao": "Primeira edição dos Jogos Olímpicos da Juventude, competição olímpica para atletas adolescentes, realizada em 2010.",
+        "variantes": [
+          "Jogos Olímpicos da Juventude de 2010",
+          "Singapura 2010"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2010_Summer_Youth_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos Olímpicos da Juventude, disputados por atletas adolescentes, tiveram sua primeira edição em 2010. Em que cidade-estado asiática?",
+      "resposta": "Singapura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2010_Summer_Youth_Olympics"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "maratona",
+        "nome": "Maratona",
+        "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marathon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda que inspirou a maratona, o mensageiro grego Fidípides correu da planície de Maratona até que cidade para anunciar a vitória?",
+      "resposta": "Atenas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pheidippides",
+        "https://en.wikipedia.org/wiki/Marathon"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1904",
+        "descricao": "Edição dos Jogos Olímpicos realizada em 1904 nos Estados Unidos, a primeira fora da Europa.",
+        "variantes": [
+          "Saint Louis 1904",
+          "Jogos da III Olimpíada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1904_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos Olímpicos de 1904 tinham sido concedidos a Chicago, mas acabaram transferidos para outra cidade americana. Qual?",
+      "resposta": "Saint Louis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1904_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Parque Olímpico da Barra",
+        "descricao": "Conjunto de arenas no Rio de Janeiro que foi o principal polo de competições dos Jogos Olímpicos de 2016.",
+        "variantes": [
+          "Parque Olímpico Rio 2016",
+          "Barra Olympic Park"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barra_Olympic_Park"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na Rio 2016, o principal parque olímpico, com arenas de basquete, natação e tênis, ficava em que bairro da zona oeste carioca?",
+      "resposta": "Barra da Tijuca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barra_Olympic_Park"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Rebeca Andrade",
+        "descricao": "Ginasta artística brasileira, campeã olímpica no salto em Tóquio 2020 e no solo em Paris 2024.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rebeca_Andrade",
+          "https://pt.wikipedia.org/wiki/Rebeca_Andrade"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A ginasta Rebeca Andrade, campeã olímpica no salto e no solo, nasceu em que cidade da Grande São Paulo?",
+      "resposta": "Guarulhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rebeca_Andrade",
+        "https://pt.wikipedia.org/wiki/Rebeca_Andrade"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Pierre de Coubertin",
+        "descricao": "Pedagogo francês, fundador do Comitê Olímpico Internacional e idealizador dos Jogos Olímpicos modernos.",
+        "variantes": [
+          "Barão de Coubertin",
+          "Pierre de Frédy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Pierre de Coubertin foi sepultado na Suíça, mas seu coração foi levado para a Grécia e enterrado num monumento. Em que lugar?",
+      "resposta": "Em Olímpia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Comitê Olímpico Internacional",
+        "descricao": "Organização que comanda o movimento olímpico e escolhe as sedes dos Jogos Olímpicos.",
+        "variantes": [
+          "COI",
+          "International Olympic Committee",
+          "IOC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Olympic_Committee"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Fundado em Paris, o Comitê Olímpico Internacional transferiu sua sede em 1915, durante a Primeira Guerra, para que cidade suíça?",
+      "resposta": "Lausanne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Olympic_Committee"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2024",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos de Paris, em julho de 2024, realizada fora de um estádio.",
+        "variantes": [
+          "Abertura de Paris 2024"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na cerimônia de abertura de Paris 2024, em vez de entrar num estádio, as delegações desfilaram em barcos ao longo de que rio?",
+      "resposta": "Sena",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Maratona olímpica de 1896",
+        "descricao": "Primeira maratona da história dos Jogos Olímpicos, disputada em Atenas em 1896.",
+        "variantes": [
+          "Maratona de Atenas 1896"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Athletics_at_the_1896_Summer_Olympics_–_Men's_marathon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na primeira maratona olímpica, em Atenas 1896, a vitória ficou com um grego que trabalhava como carregador de água. Qual era o nome dele?",
+      "resposta": "Spyridon Louis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spyridon_Louis"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Hino olímpico",
+        "descricao": "Composição grega tocada pela primeira vez nos Jogos de Atenas 1896 e adotada como hino oficial do movimento olímpico.",
+        "variantes": [
+          "Olympic Hymn",
+          "Hino Olímpico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_Hymn"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O hino olímpico, tocado pela primeira vez nos Jogos de Atenas 1896, teve a música composta por que compositor grego?",
+      "resposta": "Spyros Samaras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_Hymn"
+      ],
+      "distratores": [
+        "Mikis Theodorakis",
+        "Vangelis",
+        "Manos Hadjidakis"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Torneio olímpico de futebol masculino de 2016",
+        "descricao": "Competição de futebol masculino dos Jogos Olímpicos do Rio de Janeiro, vencida pelo Brasil.",
+        "variantes": [
+          "Futebol masculino na Rio 2016"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Football_at_the_2016_Summer_Olympics_–_Men's_tournament"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na final olímpica da Rio 2016, contra a Alemanha, quem bateu o pênalti que deu à seleção masculina de futebol o inédito ouro olímpico?",
+      "resposta": "Neymar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Football_at_the_2016_Summer_Olympics_–_Men's_tournament",
+        "https://en.wikipedia.org/wiki/Neymar"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Brasil nos Jogos Olímpicos de Verão de 1920",
+        "descricao": "Participação brasileira nos Jogos de Antuérpia 1920, a primeira do país em Jogos Olímpicos.",
+        "variantes": [
+          "Brasil em Antuérpia 1920"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_at_the_1920_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O primeiro ouro olímpico do Brasil veio no tiro esportivo, nos Jogos de Antuérpia 1920. Quem foi o campeão?",
+      "resposta": "Guilherme Paraense",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_1920_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Guilherme_Paraense"
+      ],
+      "distratores": [
+        "Afrânio da Costa",
+        "Adhemar Ferreira da Silva",
+        "Tetsuo Okamoto"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Cobi",
+        "descricao": "Mascote dos Jogos Olímpicos de Barcelona 1992, um cão pastor-catalão desenhado em estilo cubista.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cobi"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Cobi, o cão pastor de traço cubista que foi mascote dos Jogos de Barcelona 1992, foi criado por que artista espanhol?",
+      "resposta": "Javier Mariscal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cobi",
+        "https://en.wikipedia.org/wiki/Javier_Mariscal"
+      ],
+      "distratores": [
+        "Joan Miró",
+        "Salvador Dalí",
+        "Antoni Tàpies"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Pira olímpica de Paris 2024",
+        "descricao": "Pira em forma de balão dos Jogos Olímpicos de Paris 2024, instalada no Jardim das Tulherias.",
+        "variantes": [
+          "Pira-balão de Paris 2024"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Paris 2024, a pira em forma de balão foi acesa por um judoca e uma velocista, ambos campeões olímpicos franceses. Quem eram eles?",
+      "resposta": "Teddy Riner e Marie-José Pérec",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony",
+        "https://en.wikipedia.org/wiki/Teddy_Riner"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2016",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos do Rio de Janeiro, em agosto de 2016, no Maracanã.",
+        "variantes": [
+          "Abertura da Rio 2016"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Pelé foi convidado, mas não pôde ir por questões de saúde. Na abertura da Rio 2016, que atleta brasileiro acendeu a pira olímpica?",
+      "resposta": "Vanderlei Cordeiro de Lima",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony",
+        "https://pt.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Olympia (filme de 1938)",
+        "descricao": "Documentário alemão em duas partes sobre os Jogos Olímpicos de Berlim 1936, famoso por suas inovações de filmagem.",
+        "variantes": [
+          "Olympia",
+          "Olympia: Festa dos Povos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympia_(1938_film)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O documentário Olympia, que registrou os Jogos de Berlim 1936 e revolucionou a filmagem esportiva, foi dirigido por que cineasta alemã?",
+      "resposta": "Leni Riefenstahl",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympia_(1938_film)"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "argolas",
+        "nome": "Argolas",
+        "descricao": "Aparelho da ginástica artística masculina com dois anéis suspensos por cabos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rings_(gymnastics)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos de Londres 2012, quem deu à ginástica artística brasileira seu primeiro ouro olímpico, com uma série nas argolas?",
+      "resposta": "Arthur Zanetti",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arthur_Zanetti"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Bandeira olímpica",
+        "descricao": "Bandeira branca com os cinco anéis olímpicos entrelaçados, hasteada nas cerimônias dos Jogos.",
+        "variantes": [
+          "Bandeira dos Jogos Olímpicos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_symbols"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A bandeira branca com os cinco anéis só foi hasteada num estádio olímpico depois da Primeira Guerra Mundial. Em que edição dos Jogos?",
+      "resposta": "Antuérpia 1920",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_symbols"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Joaquim Cruz",
+        "descricao": "Meio-fundista brasileiro, campeão olímpico dos 800 metros.",
+        "variantes": [
+          "Joaquim Carvalho Cruz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O brasileiro Joaquim Cruz conquistou o ouro olímpico nos oitocentos metros, superando o britânico Sebastian Coe. Em que edição dos Jogos?",
+      "resposta": "Los Angeles 1984",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Breaking",
+        "descricao": "Dança de rua surgida no hip-hop do Bronx, em Nova York, disputada como modalidade olímpica.",
+        "variantes": [
+          "Breakdance",
+          "Break"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Breaking_at_the_2024_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O breaking, dança nascida nas festas de hip-hop do Bronx, em Nova York, estreou como modalidade olímpica em que edição dos Jogos?",
+      "resposta": "Paris 2024",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Breaking_at_the_2024_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Golfe nos Jogos Olímpicos",
+        "descricao": "Presença do golfe no programa olímpico, com edições no início do século vinte e retorno na Rio 2016.",
+        "variantes": [
+          "Golfe olímpico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golf_at_the_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O golfe voltou ao programa olímpico na Rio 2016, depois de mais de um século de ausência. Em que ano tinha sido disputado pela última vez?",
+      "resposta": "1904",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golf_at_the_Summer_Olympics"
+      ],
+      "distratores": [
+        "1912",
+        "1924",
+        "1936"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Competições de arte nos Jogos Olímpicos",
+        "descricao": "Disputas de pintura, escultura, literatura, música e arquitetura que deram medalhas olímpicas na primeira metade do século vinte.",
+        "variantes": [
+          "Olimpíadas de arte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Pintura, escultura, literatura, música e arquitetura já deram medalhas olímpicas. Em que edição dos Jogos essas competições de arte aconteceram pela última vez?",
+      "resposta": "Londres 1948",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Comitê Olímpico Internacional",
+        "descricao": "Organização que comanda o movimento olímpico e escolhe as sedes dos Jogos Olímpicos.",
+        "variantes": [
+          "COI",
+          "International Olympic Committee",
+          "IOC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Olympic_Committee"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Comitê Olímpico Internacional foi criado num congresso convocado por Pierre de Coubertin na Universidade Sorbonne, em Paris. Em que ano?",
+      "resposta": "1894",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Olympic_Committee"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1948",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Londres em 1948, a primeira de verão após a Segunda Guerra Mundial.",
+        "variantes": [
+          "Londres 1948",
+          "Jogos da XIV Olimpíada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1948_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos de Londres 1948, os primeiros de verão após a Segunda Guerra, sem novas construções e com comida racionada, ganharam que apelido?",
+      "resposta": "Jogos da Austeridade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1948_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Fanny Blankers-Koen",
+        "descricao": "Velocista holandesa, vencedora de quatro provas de atletismo nos Jogos de Londres 1948.",
+        "variantes": [
+          "Francina Blankers-Koen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fanny_Blankers-Koen"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Mãe de dois filhos, a holandesa Fanny Blankers-Koen venceu quatro provas de atletismo em Londres 1948. Como a imprensa a apelidou?",
+      "resposta": "Dona de Casa Voadora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fanny_Blankers-Koen"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Jogos Paralímpicos",
+        "descricao": "Principal evento multiesportivo para atletas com deficiência, realizado logo após os Jogos Olímpicos.",
+        "variantes": [
+          "Paralimpíadas",
+          "Paraolimpíadas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paralympic_Games"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No nome Jogos Paralímpicos, o prefixo para é explicado hoje como uma preposição grega. Com que significado?",
+      "resposta": "Ao lado, em paralelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paralympic_Games"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Estádio (unidade de medida)",
+        "descricao": "Antiga unidade grega de comprimento que deu nome à corrida de velocidade de Olímpia e à palavra estádio.",
+        "variantes": [
+          "Stádion",
+          "Stadion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stadion_(unit)",
+          "https://en.wikipedia.org/wiki/Stadion_(running_race)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra estádio vem do grego stádion. Antes de nomear o local das provas, o que essa palavra designava na Grécia Antiga?",
+      "resposta": "Uma medida de comprimento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stadion_(unit)",
+        "https://en.wikipedia.org/wiki/Stadion_(running_race)"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Fuwa",
+        "descricao": "Os cinco mascotes dos Jogos Olímpicos de Pequim 2008.",
+        "variantes": [
+          "Beibei, Jingjing, Huanhuan, Yingying e Nini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fuwa"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os cinco mascotes de Pequim 2008 se chamavam Beibei, Jingjing, Huanhuan, Yingying e Nini. Juntando uma sílaba de cada, que frase em chinês se forma?",
+      "resposta": "Pequim te dá as boas-vindas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fuwa"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Phryges",
+        "descricao": "Mascotes olímpico e paralímpico dos Jogos de Paris 2024, em forma de gorro vermelho.",
+        "variantes": [
+          "Phryge olímpica",
+          "Phryge paralímpica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2024_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os mascotes de Paris 2024, chamados Phryges, têm o formato e o nome de um gorro vermelho, símbolo da liberdade na Revolução Francesa. Que gorro?",
+      "resposta": "Barrete frígio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Phrygian_cap"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Parque Aquático Maria Lenk",
+        "descricao": "Centro aquático no Rio de Janeiro, sede dos saltos ornamentais, do nado artístico e de jogos de polo aquático na Rio 2016.",
+        "variantes": [
+          "Maria Lenk Aquatics Centre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maria_Lenk_Aquatics_Centre"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Rio 2016, os saltos ornamentais foram disputados num parque aquático batizado em homenagem a que nadadora, a primeira brasileira a competir nos Jogos?",
+      "resposta": "Maria Lenk",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maria_Lenk_Aquatics_Centre",
+        "https://en.wikipedia.org/wiki/Maria_Lenk"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "jogos_olimpicos_da_antiguidade",
+        "nome": "Jogos Olímpicos da Antiguidade",
+        "descricao": "Festival esportivo e religioso realizado no santuário de Olímpia, na Grécia Antiga.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, os Jogos de Olímpia acabaram no fim do século quatro, por causa dos decretos contra cultos pagãos de que imperador romano?",
+      "resposta": "Teodósio I",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+      ],
+      "distratores": [
+        "Constantino",
+        "Nero",
+        "Justiniano"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Inverno de 1994",
+        "descricao": "Edição dos Jogos Olímpicos de Inverno realizada em Lillehammer, na Noruega.",
+        "variantes": [
+          "Lillehammer 1994"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1994_Winter_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos de Inverno de Lillehammer foram disputados em 1994, apenas dois anos depois dos de Albertville. Por que esse intervalo menor?",
+      "resposta": "Para não coincidir com os Jogos de Verão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1994_Winter_Olympics"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, medalha de bronze na maratona dos Jogos de Atenas 2004.",
+        "variantes": [
+          "Vanderlei de Lima"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima",
+          "https://en.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Atacado por um espectador quando liderava a maratona de Atenas 2004, Vanderlei Cordeiro de Lima terminou em terceiro e recebeu depois que homenagem especial?",
+      "resposta": "Medalha Pierre de Coubertin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima",
+        "https://en.wikipedia.org/wiki/Pierre_de_Coubertin_Medal"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Fred Lorz",
+        "descricao": "Corredor americano que cruzou a chegada em primeiro na maratona olímpica de Saint Louis 1904 e foi desclassificado.",
+        "variantes": [
+          "Frederick Lorz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fred_Lorz"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na maratona olímpica de Saint Louis 1904, o americano Fred Lorz cruzou a chegada em primeiro, mas foi desclassificado. Por quê?",
+      "resposta": "Fez parte do percurso de carro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fred_Lorz"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Pentatlo moderno",
+        "descricao": "Modalidade olímpica criada por Pierre de Coubertin que reúne provas de esgrima, natação, tiro, corrida e, originalmente, hipismo.",
+        "variantes": [
+          "Pentatlo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Criado por Coubertin, o pentatlo moderno reunia esgrima, tiro, natação, hipismo e corrida para simular a aventura de quem?",
+      "resposta": "Um soldado de cavalaria atrás das linhas inimigas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modern_pentathlon"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Kotinos",
+        "descricao": "Coroa vegetal dada como prêmio aos vencedores dos Jogos de Olímpia na Grécia Antiga.",
+        "variantes": [
+          "Coroa de oliveira olímpica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olive_wreath"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos de Olímpia da Antiguidade, os vencedores não ganhavam medalhas, mas uma coroa feita com ramos de que árvore?",
+      "resposta": "Oliveira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olive_wreath",
+        "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Lema olímpico",
+        "descricao": "Divisa em latim do movimento olímpico, conhecida como Citius, Altius, Fortius.",
+        "variantes": [
+          "Citius, Altius, Fortius",
+          "Mais rápido, mais alto, mais forte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Citius,_Altius,_Fortius"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 2021, o lema olímpico mais rápido, mais alto, mais forte ganhou uma quarta palavra latina. O que ela significa?",
+      "resposta": "Juntos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Citius,_Altius,_Fortius"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Medalhas dos Jogos Olímpicos de 2024",
+        "descricao": "Medalhas de ouro, prata e bronze entregues nos Jogos Olímpicos de Paris 2024.",
+        "variantes": [
+          "Medalhas de Paris 2024"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2024_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As medalhas dos Jogos de Paris 2024 trazem, no centro, um hexágono de ferro original retirado de que monumento?",
+      "resposta": "Torre Eiffel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2024_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Rebeca Andrade",
+        "descricao": "Ginasta artística brasileira, campeã olímpica no salto em Tóquio 2020 e no solo em Paris 2024.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rebeca_Andrade",
+          "https://pt.wikipedia.org/wiki/Rebeca_Andrade"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Tóquio 2020, Rebeca Andrade empolgou o Brasil com uma série de solo ao som de que funk de MC João?",
+      "resposta": "Baile de Favela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rebeca_Andrade",
+        "https://pt.wikipedia.org/wiki/Rebeca_Andrade"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1900",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Paris em 1900, espalhada por vários meses.",
+        "variantes": [
+          "Paris 1900",
+          "Jogos da II Olimpíada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos de Paris 1900 se espalharam por cerca de cinco meses porque foram disputados como parte de que grande evento?",
+      "resposta": "Exposição Universal de 1900",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Johnny Weissmuller",
+        "descricao": "Nadador americano, cinco vezes campeão olímpico nos Jogos de 1924 e 1928, que depois virou ator de cinema.",
+        "variantes": [
+          "Peter Johann Weißmüller"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller ficou famoso no cinema interpretando que personagem?",
+      "resposta": "Tarzan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Zara Tindall",
+        "descricao": "Amazona britânica, neta da rainha Elizabeth II, medalha de prata no concurso completo de equipes em Londres 2012.",
+        "variantes": [
+          "Zara Phillips"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zara_Tindall"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A amazona Zara Phillips ganhou prata no hipismo em Londres 2012. A mãe dela, integrante da família real, competiu em Montreal 1976. Quem é?",
+      "resposta": "Princesa Anne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zara_Tindall",
+        "https://en.wikipedia.org/wiki/Anne,_Princess_Royal"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Waldi",
+        "descricao": "Mascote dos Jogos Olímpicos de Munique 1972, o primeiro mascote olímpico oficial.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_Olympic_mascots"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Waldi, mascote dos Jogos de Munique 1972, foi o primeiro mascote olímpico oficial. Que animal ele era?",
+      "resposta": "Um cão dachshund",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_Olympic_mascots",
+        "https://en.wikipedia.org/wiki/1972_Summer_Olympics"
+      ],
+      "distratores": [
+        "Um urso",
+        "Um castor",
+        "Uma águia"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 1992",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos de Barcelona, em julho de 1992, no Estádio de Montjuïc.",
+        "variantes": [
+          "Abertura de Barcelona 1992"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1992_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na abertura de Barcelona 1992, numa das cenas mais lembradas dos Jogos, o atleta paralímpico Antonio Rebollo disparou que objeto em chamas em direção à pira?",
+      "resposta": "Uma flecha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1992_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Antonio_Rebollo"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Bob Beamon",
+        "descricao": "Atleta americano, campeão olímpico do salto em distância nos Jogos da Cidade do México 1968.",
+        "variantes": [
+          "Robert Beamon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Beamon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Cidade do México 1968, o salto em distância de Bob Beamon passou do alcance do aparelho óptico de medição. Que marca ele atingiu?",
+      "resposta": "Oito metros e noventa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bob_Beamon"
+      ],
+      "distratores": [
+        "Oito metros e trinta",
+        "Oito metros e sessenta",
+        "Nove metros e vinte"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Triatlo",
+        "descricao": "Esporte olímpico que combina natação, ciclismo e corrida, disputados em sequência.",
+        "variantes": [
+          "Triathlon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na distância olímpica do triatlo, depois de um quilômetro e meio de natação, quantos quilômetros os atletas percorrem de bicicleta?",
+      "resposta": "Quarenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triathlon"
+      ],
+      "distratores": [
+        "Vinte",
+        "Sessenta",
+        "Noventa"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Brasil nos Jogos Olímpicos de Verão de 2016",
+        "descricao": "Participação brasileira, como país-sede, nos Jogos Olímpicos do Rio de Janeiro.",
+        "variantes": [
+          "Brasil na Rio 2016"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_at_the_2016_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Como país-sede da Rio 2016, com títulos no judô, no salto com vara, no boxe e no futebol, quantas medalhas de ouro o Brasil conquistou?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_2016_Summer_Olympics"
+      ],
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Nove"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Inverno de 2022",
+        "descricao": "Edição dos Jogos Olímpicos de Inverno realizada em Pequim, na China.",
+        "variantes": [
+          "Pequim 2022"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2022_Winter_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em 2022, que cidade se tornou a primeira a ter sediado tanto os Jogos Olímpicos de Verão quanto os de Inverno?",
+      "resposta": "Pequim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2022_Winter_Olympics"
+      ]
+    }
+  ]
+}

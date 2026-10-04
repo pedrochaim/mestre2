@@ -1,0 +1,111 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo a lenda que inspirou a maratona, o mensageiro grego Fidípides correu da planície de Maratona até que cidade para anunciar a vitória?",
+        "resposta": "Atenas"
+      },
+      "existentes": [
+        {
+          "id": "q00677",
+          "pergunta": "Segundo a explicação mais repetida, por que a maratona de Londres 1908 ganhou o percurso de quarenta e dois quilômetros e cento e noventa e cinco metros?",
+          "resposta": "Largar em Windsor e chegar ao camarote real"
+        },
+        {
+          "id": "q01619",
+          "pergunta": "O nome da prova de maratona vem de um lugar da Grécia onde, em 490 antes de Cristo, aconteceu o quê?",
+          "resposta": "Uma batalha entre gregos e persas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nos Jogos de Londres 2012, quem deu à ginástica artística brasileira seu primeiro ouro olímpico, com uma série nas argolas?",
+        "resposta": "Arthur Zanetti"
+      },
+      "existentes": [
+        {
+          "id": "q04349",
+          "pergunta": "Que aparelho da ginástica artística é este?",
+          "resposta": "Argolas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Segundo a tradição, os Jogos de Olímpia acabaram no fim do século quatro, por causa dos decretos contra cultos pagãos de que imperador romano?",
+        "resposta": "Teodósio I"
+      },
+      "existentes": [
+        {
+          "id": "q00698",
+          "pergunta": "Segundo a data tradicional, em que ano antes de Cristo foram disputados os primeiros Jogos em Olímpia, na Grécia?",
+          "resposta": "776 antes de Cristo"
+        },
+        {
+          "id": "q03246",
+          "pergunta": "Nos Jogos de Olímpia, em vez de medalhas, que prêmio oficial o vencedor recebia?",
+          "resposta": "Coroa de ramos de oliveira"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Criado por Coubertin, o pentatlo moderno reunia esgrima, tiro, natação, hipismo e corrida para simular a aventura de quem?",
+        "resposta": "Um soldado de cavalaria"
+      },
+      "existentes": [
+        {
+          "id": "q01632",
+          "pergunta": "Segundo a tradição, ao criar o pentatlo moderno, Pierre de Coubertin se inspirou nas provações de que tipo de soldado do século dezenove?",
+          "resposta": "Soldado de cavalaria"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller ficou famoso no cinema interpretando que personagem?",
+        "resposta": "Tarzan"
+      },
+      "existentes": [
+        {
+          "id": "q01642",
+          "pergunta": "O nadador americano Johnny Weissmuller, cinco vezes campeão olímpico, ficou famoso no cinema interpretando qual personagem?",
+          "resposta": "Tarzan"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta pela cidade de destino de Fidípides; as existentes tratam do percurso de Londres 1908 e da batalha que deu nome à prova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta quem ganhou o primeiro ouro brasileiro na ginástica; a existente apenas identifica o aparelho."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o imperador responsável pelo fim dos Jogos; as existentes tratam da data de início e do prêmio."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que soldado inspirou o pentatlo moderno, com resposta soldado de cavalaria."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta: Weissmuller interpretou Tarzan."
+    }
+  ]
+}
