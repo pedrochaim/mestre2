@@ -84539,5 +84539,641 @@
       "autor": "Jules Beau",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q05003",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "modelo_da_dupla_helice_do_dna",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1953, na Universidade de Cambridge, que dupla de cientistas propôs o modelo em dupla hélice para a molécula de DNA?",
+    "resposta": "James Watson e Francis Crick",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid",
+      "https://en.wikipedia.org/wiki/Francis_Crick"
+    ]
+  },
+  {
+    "id": "q05004",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "modelo_da_dupla_helice_do_dna",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O modelo da dupla hélice do DNA foi publicado no ano da coroação de Elizabeth Segunda e da primeira escalada do Everest. Que ano?",
+    "resposta": "1953",
+    "distratores": [
+      "1945",
+      "1949",
+      "1961"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid",
+      "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
+      "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+    ]
+  },
+  {
+    "id": "q05005",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "teoria_celular",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Na década de 1830, que dois cientistas alemães propuseram que plantas e animais são todos formados por células?",
+    "resposta": "Schleiden e Schwann",
+    "distratores": [
+      "Hooke e Leeuwenhoek",
+      "Pasteur e Koch",
+      "Virchow e Haeckel"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teoria_celular",
+      "https://en.wikipedia.org/wiki/Cell_theory"
+    ]
+  },
+  {
+    "id": "q05006",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "omnis_cellula_e_cellula",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, que médico alemão popularizou a frase latina segundo a qual toda célula vem de outra célula?",
+    "resposta": "Rudolf Virchow",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rudolf_Virchow",
+      "https://en.wikipedia.org/wiki/Cell_theory"
+    ]
+  },
+  {
+    "id": "q05007",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "reacao_em_cadeia_da_polimerase",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1983, que bioquímico americano concebeu a técnica que copia trechos de DNA milhões de vezes, a base dos testes de PCR?",
+    "resposta": "Kary Mullis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kary_Mullis",
+      "https://en.wikipedia.org/wiki/Polymerase_chain_reaction"
+    ]
+  },
+  {
+    "id": "q05008",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "sequenciamento_de_sanger",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que bioquímico britânico ganhou duas vezes o Nobel de Química, a segunda delas por um método de ler a sequência de letras do DNA?",
+    "resposta": "Frederick Sanger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frederick_Sanger",
+      "https://en.wikipedia.org/wiki/Sanger_sequencing"
+    ]
+  },
+  {
+    "id": "q05009",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gene",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1909, que botânico dinamarquês criou a palavra gene?",
+    "resposta": "Wilhelm Johannsen",
+    "distratores": [
+      "Hugo de Vries",
+      "William Bateson",
+      "August Weismann"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wilhelm_Johannsen",
+      "https://en.wikipedia.org/wiki/Gene"
+    ]
+  },
+  {
+    "id": "q05010",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "celula_tronco_pluripotente_induzida",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 2006, que cientista japonês reprogramou células adultas de camundongo para que voltassem a ser células-tronco?",
+    "resposta": "Shinya Yamanaka",
+    "distratores": [
+      "Tasuku Honjo",
+      "Yoshinori Ohsumi",
+      "Susumu Tonegawa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shinya_Yamanaka",
+      "https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell"
+    ]
+  },
+  {
+    "id": "q05011",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "protista",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1866, que zoólogo alemão propôs um terceiro reino, o dos protistas, para seres que não pareciam nem plantas nem animais?",
+    "resposta": "Ernst Haeckel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Protist",
+      "https://en.wikipedia.org/wiki/Ernst_Haeckel"
+    ]
+  },
+  {
+    "id": "q05012",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "drosophila_melanogaster",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que geneticista americano, Nobel de Medicina de 1933, usou moscas-da-fruta para mostrar que os genes ficam nos cromossomos?",
+    "resposta": "Thomas Hunt Morgan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan"
+    ]
+  },
+  {
+    "id": "q05013",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "sobrevivencia_do_mais_apto",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que filósofo inglês criou a expressão sobrevivência do mais apto, que Darwin depois adotou em A Origem das Espécies?",
+    "resposta": "Herbert Spencer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Survival_of_the_fittest",
+      "https://en.wikipedia.org/wiki/Herbert_Spencer"
+    ]
+  },
+  {
+    "id": "q05014",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "ovelha_dolly",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano nasceu a ovelha Dolly, o primeiro mamífero clonado a partir de uma célula adulta?",
+    "resposta": "1996",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+    ]
+  },
+  {
+    "id": "q05015",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "filosofia_zoologica",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Lamarck publicou sua teoria da evolução, no livro Filosofia Zoológica, no mesmo ano em que Darwin nasceu. Que ano foi esse?",
+    "resposta": "1809",
+    "distratores": [
+      "1789",
+      "1831",
+      "1859"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philosophie_zoologique",
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ]
+  },
+  {
+    "id": "q05016",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "tomate_flavr_savr",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década o tomate Flavr Savr, primeiro alimento transgênico aprovado para consumo humano, chegou aos supermercados?",
+    "resposta": "Anos noventa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flavr_Savr"
+    ]
+  },
+  {
+    "id": "q05017",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "transposon",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Barbara McClintock descobriu os genes saltadores nos anos quarenta, mas só recebeu o Nobel décadas depois. Em que ano?",
+    "resposta": "1983",
+    "distratores": [
+      "1962",
+      "1975",
+      "1995"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barbara_McClintock"
+    ]
+  },
+  {
+    "id": "q05018",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "experimento_de_miller_urey",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década foi feito o famoso experimento que obteve aminoácidos num frasco, simulando a Terra primitiva com descargas elétricas?",
+    "resposta": "Anos cinquenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment"
+    ]
+  },
+  {
+    "id": "q05019",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "experimento_de_redi",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século o italiano Francesco Redi cobriu frascos de carne com gaze e mostrou que as larvas não nascem da carne podre?",
+    "resposta": "Século dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francesco_Redi"
+    ]
+  },
+  {
+    "id": "q05020",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "perfil_genetico",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década o britânico Alec Jeffreys inventou a identificação de pessoas pelo DNA, hoje usada em testes de paternidade?",
+    "resposta": "Anos oitenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alec_Jeffreys",
+      "https://en.wikipedia.org/wiki/DNA_profiling"
+    ]
+  },
+  {
+    "id": "q05021",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "hms_beagle",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No fim de fevereiro de 1832, o Beagle chegou a uma cidade brasileira onde Darwin escreveu maravilhado sobre a floresta tropical. Que cidade?",
+    "resposta": "Salvador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ]
+  },
+  {
+    "id": "q05022",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "fritz_muller",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O naturalista alemão Fritz Müller, que apoiou Darwin com estudos feitos no Brasil, viveu por décadas em qual estado brasileiro?",
+    "resposta": "Santa Catarina",
+    "distratores": [
+      "Rio Grande do Sul",
+      "Paraná",
+      "Espírito Santo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fritz_M%C3%BCller",
+      "https://pt.wikipedia.org/wiki/Fritz_M%C3%BCller"
+    ]
+  },
+  {
+    "id": "q05023",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "mimetismo_batesiano",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O inglês Henry Bates descreveu borboletas inofensivas que imitam espécies tóxicas depois de passar onze anos explorando qual região?",
+    "resposta": "Amazônia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Batesian_mimicry",
+      "https://en.wikipedia.org/wiki/Henry_Walter_Bates"
+    ]
+  },
+  {
+    "id": "q05024",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "celulas_hela",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As células HeLa foram retiradas em 1951 de uma paciente do hospital Johns Hopkins. Em que cidade americana?",
+    "resposta": "Baltimore",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/HeLa",
+      "https://en.wikipedia.org/wiki/Henrietta_Lacks"
+    ]
+  },
+  {
+    "id": "q05025",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "celulas_hela",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Células humanas comuns morrem depois de algumas dezenas de divisões. O que as células HeLa fazem de diferente em laboratório?",
+    "resposta": "Dividem-se indefinidamente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/HeLa"
+    ]
+  },
+  {
+    "id": "q05026",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "systema_naturae",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Lineu publicou a primeira edição do Systema Naturae em 1735, longe da Suécia. Em que país?",
+    "resposta": "Holanda (Países Baixos)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Systema_Naturae"
+    ]
+  },
+  {
+    "id": "q05027",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "systema_naturae",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Systema Naturae, Lineu dividiu a natureza em três reinos: o animal, o vegetal e qual outro?",
+    "resposta": "Mineral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Systema_Naturae"
+    ]
+  },
+  {
+    "id": "q05028",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "abelha_africanizada",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Nos anos cinquenta, abelhas africanas trazidas para pesquisa pelo geneticista Warwick Kerr escaparam e se espalharam a partir de qual estado?",
+    "resposta": "São Paulo",
+    "distratores": [
+      "Rio Grande do Sul",
+      "Paraná",
+      "Minas Gerais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Africanized_bee"
+    ]
+  },
+  {
+    "id": "q05029",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "lysenkoismo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país as ideias do agrônomo Trofim Lysenko, que negavam a genética de Mendel, foram doutrina oficial até os anos sessenta?",
+    "resposta": "União Soviética",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lysenkoism"
+    ]
+  },
+  {
+    "id": "q05030",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "debate_de_oxford_de_1860",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1860, num debate, o bispo Wilberforce teria perguntado a Thomas Huxley se ele descendia de macaco pelo avô ou pela avó. Em que cidade?",
+    "resposta": "Oxford",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1860_Oxford_evolution_debate"
+    ]
+  },
+  {
+    "id": "q05031",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "charles_darwin",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar da polêmica religiosa causada por suas ideias, onde Charles Darwin foi sepultado em 1882?",
+    "resposta": "Abadia de Westminster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ]
+  },
+  {
+    "id": "q05032",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "josiah_wedgwood",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Josiah Wedgwood, fundador de uma famosa fábrica inglesa de louças, era o que de Charles Darwin?",
+    "resposta": "Avô materno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Josiah_Wedgwood",
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ]
+  },
+  {
+    "id": "q05033",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "o_que_e_a_vida",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que físico, famoso por um gato imaginário, escreveu O Que É a Vida?, livro que inspirou Watson e Crick?",
+    "resposta": "Erwin Schrödinger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/What_Is_Life%3F"
+    ]
+  },
+  {
+    "id": "q05034",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "nucleo_celular",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O núcleo das células e o movimento aleatório de partículas na água foram descritos pelo mesmo botânico escocês. Quem?",
+    "resposta": "Robert Brown",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robert_Brown_(botanist,_born_1773)",
+      "https://en.wikipedia.org/wiki/Cell_nucleus"
+    ]
+  },
+  {
+    "id": "q05035",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "enzima",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra enzima, criada no século dezenove, vem do grego e quer dizer, literalmente, dentro de quê?",
+    "resposta": "Do fermento, a levedura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enzyme"
+    ]
+  },
+  {
+    "id": "q05036",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "genoma",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1920, o botânico alemão Hans Winkler criou a palavra genoma juntando gene com qual outra palavra?",
+    "resposta": "Cromossomo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Genome"
+    ]
+  },
+  {
+    "id": "q05037",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cromossomo_x",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No fim do século dezenove, por que o descobridor do cromossomo X o batizou com essa letra?",
+    "resposta": "Não sabia o que ele era",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/X_chromosome"
+    ]
+  },
+  {
+    "id": "q05038",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "sonic_hedgehog",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Um gene essencial para a formação dos dedos e do cérebro nos embriões foi batizado em homenagem a qual personagem de videogame?",
+    "resposta": "Sonic",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sonic_hedgehog_protein"
+    ]
+  },
+  {
+    "id": "q05039",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "arqueias",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As arqueias são microrganismos parecidos com bactérias. O nome delas vem do grego e significa o quê?",
+    "resposta": "Antigas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Archaea"
+    ]
+  },
+  {
+    "id": "q05040",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gato_siames",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Gatos siameses têm patas, orelhas, cauda e focinho mais escuros que o resto do corpo. Por quê?",
+    "resposta": "São as partes mais frias do corpo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Siamese_cat"
+    ]
+  },
+  {
+    "id": "q05041",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "rosalind_franklin",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que Rosalind Franklin não dividiu com Watson, Crick e Wilkins o Nobel de 1962 pela estrutura do DNA?",
+    "resposta": "Já tinha morrido, em 1958",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+    ]
+  },
+  {
+    "id": "q05042",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "xylella_fastidiosa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2000, cientistas paulistas publicaram o genoma da bactéria Xylella fastidiosa. Que lavoura ela ataca, causando a doença chamada amarelinho?",
+    "resposta": "Laranja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xylella_fastidiosa"
+    ]
+  },
+  {
+    "id": "q05043",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "formas_artisticas_da_natureza",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "As ilustrações de seres marinhos do livro Formas Artísticas da Natureza, de Ernst Haeckel, influenciaram qual movimento artístico?",
+    "resposta": "Art Nouveau",
+    "distratores": [
+      "Impressionismo",
+      "Cubismo",
+      "Barroco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kunstformen_der_Natur"
+    ]
+  },
+  {
+    "id": "q05044",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gene",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Até 1944, quando um experimento apontou o DNA como material hereditário, de que tipo de molécula a maioria dos cientistas achava que os genes eram feitos?",
+    "resposta": "Proteínas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment"
+    ]
+  },
+  {
+    "id": "q05045",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "hms_beagle",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A viagem do Beagle com Darwin estava planejada para durar dois anos. Quanto tempo ela acabou durando?",
+    "resposta": "Quase cinco anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ]
+  },
+  {
+    "id": "q05046",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "leis_de_mendel",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nos cruzamentos de ervilhas, Mendel acompanhou quantas características diferentes, como a cor e a forma das sementes?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    ]
   }
 ]
