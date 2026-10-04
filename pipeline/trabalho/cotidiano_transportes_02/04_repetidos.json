@@ -1,0 +1,341 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1817, na Alemanha, que inventor criou a máquina de correr, veículo de duas rodas sem pedais e precursor da bicicleta?",
+        "resposta": "Karl Drais"
+      },
+      "existentes": [
+        {
+          "id": "q03615",
+          "pergunta": "A draisiana, ancestral da bicicleta criada na Alemanha em 1817, era empurrada com os pés no chão porque não tinha que peça?",
+          "resposta": "Pedais"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que diplomata francês liderou a construção do canal que, em 1869, ligou o Mediterrâneo ao Mar Vermelho, no Egito?",
+        "resposta": "Ferdinand de Lesseps"
+      },
+      "existentes": [
+        {
+          "id": "q02222",
+          "pergunta": "Em que século foi inaugurado o canal de Suez, que liga o Mediterrâneo ao mar Vermelho?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1783, na França, o primeiro voo tripulado da história foi feito num balão de ar quente construído por quais irmãos?",
+        "resposta": "Irmãos Montgolfier"
+      },
+      "existentes": [
+        {
+          "id": "q03985",
+          "pergunta": "Que tipo de veículo aéreo é este?",
+          "resposta": "Balão de ar quente"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Antes de levar pessoas, um balão de ar quente subiu diante do rei em Versalhes, em 1783, levando um pato, um galo e qual outro animal?",
+        "resposta": "Ovelha"
+      },
+      "existentes": [
+        {
+          "id": "q03985",
+          "pergunta": "Que tipo de veículo aéreo é este?",
+          "resposta": "Balão de ar quente"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que engenheiro nascido em Kiev e radicado nos Estados Unidos fez voar, em 1939, o protótipo que definiu o helicóptero moderno, com um rotor principal e outro na cauda?",
+        "resposta": "Igor Sikorsky"
+      },
+      "existentes": [
+        {
+          "id": "q03989",
+          "pergunta": "Que tipo de aeronave é esta?",
+          "resposta": "Helicóptero"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em abril de 1912, de que porto inglês o Titanic partiu para a sua viagem inaugural?",
+        "resposta": "Southampton"
+      },
+      "existentes": [
+        {
+          "id": "q00978",
+          "pergunta": "O Titanic levava antes do nome as letras erre, eme, esse, sigla inglesa que indicava que ele também transportava o quê?",
+          "resposta": "Correspondência do correio real"
+        },
+        {
+          "id": "q03621",
+          "pergunta": "Em que ano naufragou este navio de passageiros?",
+          "resposta": "1912"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1901, Santos Dumont ganhou um prêmio em Paris ao sair de Saint-Cloud num dirigível, contornar qual monumento e voltar em menos de meia hora?",
+        "resposta": "Torre Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q01000",
+          "pergunta": "Em 1904, para o amigo Santos Dumont pilotar sem tirar as mãos dos comandos, o joalheiro Louis Cartier criou que objeto de uso no braço?",
+          "resposta": "Relógio de pulso"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A primeira linha do trem-bala japonês, entre Tóquio e Osaka, foi inaugurada em 1964, às vésperas de que grande evento esportivo?",
+        "resposta": "Jogos Olímpicos de Tóquio"
+      },
+      "existentes": [
+        {
+          "id": "q00984",
+          "pergunta": "Em japonês, o que significa Shinkansen, o nome da rede de trens-bala do país?",
+          "resposta": "Nova linha tronco"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O Boeing 747 e o Concorde fizeram seus primeiros voos no mesmo ano em que o homem pisou na Lua. Que ano foi esse?",
+        "resposta": "1969"
+      },
+      "existentes": [
+        {
+          "id": "q00992",
+          "pergunta": "Por que a cabine dos pilotos do Boeing 747 fica numa corcunda, acima do piso dos passageiros?",
+          "resposta": "Para o nariz abrir para carga"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Os carros flex, que aceitam álcool, gasolina ou qualquer mistura dos dois, começaram a ser vendidos no Brasil em que ano?",
+        "resposta": "2003"
+      },
+      "existentes": [
+        {
+          "id": "q05475",
+          "pergunta": "Os carros flex, que aceitam álcool, gasolina ou qualquer mistura dos dois, começaram a ser vendidos no Brasil em que ano?",
+          "resposta": "2003"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em que ano o navio Mayflower levou um grupo de peregrinos ingleses para fundar uma colônia na América do Norte?",
+        "resposta": "1620"
+      },
+      "existentes": [
+        {
+          "id": "q03685",
+          "pergunta": "Em que ano o navio Mayflower levou os peregrinos ingleses até a costa de Massachusetts?",
+          "resposta": "1620"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O Boeing 747 ganhou um apelido emprestado de um elefante de circo muito famoso no século dezenove. Que apelido é esse?",
+        "resposta": "Jumbo"
+      },
+      "existentes": [
+        {
+          "id": "q00992",
+          "pergunta": "Por que a cabine dos pilotos do Boeing 747 fica numa corcunda, acima do piso dos passageiros?",
+          "resposta": "Para o nariz abrir para carga"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A palavra metrô abrevia um adjetivo que já estava no nome da primeira linha subterrânea de Londres, aberta em 1863. Que adjetivo?",
+        "resposta": "Metropolitano"
+      },
+      "existentes": [
+        {
+          "id": "q01009",
+          "pergunta": "O metrô de Londres é o mais antigo do mundo. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O nome Kombi vem de uma palavra alemã para veículo combinado. Ele combinava o transporte de quê com o quê?",
+        "resposta": "Passageiros e carga"
+      },
+      "existentes": [
+        {
+          "id": "q00986",
+          "pergunta": "Depois de mais de cinquenta anos de fabricação no Brasil, por que a Kombi saiu de linha no fim de 2013?",
+          "resposta": "Exigência de airbag e freio ABS"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O naufrágio do transatlântico Lusitania, torpedeado por um submarino alemão em 1915, ajudou a empurrar qual país para a Primeira Guerra?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q04365",
+          "pergunta": "O transatlântico Lusitânia, afundado por um submarino alemão em 1915, tinha o nome de uma província romana que corresponde, em grande parte, a que país atual?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O veleiro Cutty Sark foi lançado em 1869, ano da inauguração de uma obra que logo tirou dos veleiros o comércio de chá com a China. Que obra?",
+        "resposta": "Canal de Suez"
+      },
+      "existentes": [
+        {
+          "id": "q03647",
+          "pergunta": "Em que ano foi construído este veleiro?",
+          "resposta": "1869"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em dezembro de 1903, o primeiro voo dos irmãos Wright durou cerca de quantos segundos?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q01012",
+          "pergunta": "Em 1903, perto de qual vilarejo da Carolina do Norte os irmãos Wright fizeram seus voos históricos?",
+          "resposta": "Kitty Hawk"
+        },
+        {
+          "id": "q01013",
+          "pergunta": "Antes de construir aviões, os irmãos Wright tinham uma loja em Dayton que vendia e consertava o quê?",
+          "resposta": "Bicicletas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Inventor vs. peça ausente: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Construtor do canal vs. século de inauguração."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Irmãos construtores vs. tipo de veículo numa imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Animal levado no balão é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Engenheiro inventor vs. tipo de aeronave."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Porto de partida difere de sigla e de ano do naufrágio."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Prêmio de 1901 vs. relógio de pulso de Cartier."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Evento da inauguração vs. significado do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ano dos primeiros voos vs. corcunda da cabine."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q05475",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q03685",
+      "motivo": "Mesmo fato: ano da viagem do Mayflower, 1620."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Apelido vs. motivo da corcunda."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Origem da palavra metrô vs. século de inauguração."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. motivo de saída de linha."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "País que entrou na guerra vs. origem do nome do navio."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Obra inaugurada em 1869 vs. ano de construção do veleiro; resposta de uma não revela a outra."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Duração do voo vs. local e loja."
+    }
+  ]
+}

@@ -14724,7 +14724,8 @@
     "variantes": [
       "Volkswagen Kombi",
       "Volkswagen Type 2",
-      "Transporter"
+      "Transporter",
+      "Volkswagen Transporter"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Volkswagen_Type_2"
@@ -54119,7 +54120,8 @@
     "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
     "variantes": [
       "Dandy horse",
-      "Laufmaschine"
+      "Laufmaschine",
+      "Máquina de correr"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dandy_horse"
@@ -59290,7 +59292,8 @@
     "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
     "variantes": [
       "Balão",
-      "Balão aerostático"
+      "Balão aerostático",
+      "Montgolfière"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hot_air_balloon",
@@ -80359,7 +80362,8 @@
     "descricao": "Automóvel com motor capaz de funcionar com etanol, gasolina ou qualquer mistura dos dois, lançado no Brasil em 2003.",
     "variantes": [
       "Veículo flex",
-      "Flex fuel"
+      "Flex fuel",
+      "Carro bicombustível"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Flexible-fuel_vehicles_in_Brazil"
@@ -82290,5 +82294,337 @@
       "pt": 62,
       "en": 9410
     }
+  },
+  {
+    "id": "pneu_pneumatico",
+    "nome": "Pneu pneumático",
+    "descricao": "Pneu cheio de ar que reveste a roda de veículos, desenvolvido de forma prática no fim do século dezenove.",
+    "variantes": [
+      "Pneu de ar",
+      "Pneumático"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tire"
+    ]
+  },
+  {
+    "id": "ferrovia_stockton_darlington",
+    "nome": "Ferrovia Stockton-Darlington",
+    "descricao": "Ferrovia inglesa aberta em 1825 no nordeste da Inglaterra, pioneira no uso de locomotivas a vapor.",
+    "variantes": [
+      "Stockton and Darlington Railway"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway"
+    ]
+  },
+  {
+    "id": "volkswagen_fusca",
+    "nome": "Volkswagen Fusca",
+    "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+    "variantes": [
+      "Fusca",
+      "Volkswagen Beetle",
+      "Volkswagen Käfer",
+      "Volkswagen Tipo 1"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+      "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+    ]
+  },
+  {
+    "id": "metro_de_paris",
+    "nome": "Metrô de Paris",
+    "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+    "variantes": [
+      "Paris Métro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro"
+    ]
+  },
+  {
+    "id": "mapa_do_metro_de_londres",
+    "nome": "Mapa do metrô de Londres",
+    "descricao": "Diagrama esquemático das linhas do metrô de Londres, criado por Harry Beck e publicado em 1933.",
+    "variantes": [
+      "Tube map",
+      "Mapa de Harry Beck"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tube_map"
+    ]
+  },
+  {
+    "id": "gurgel_br_800",
+    "nome": "Gurgel BR-800",
+    "descricao": "Minicarro brasileiro lançado em 1988 pela montadora Gurgel, de João Augusto Conrado do Amaral Gurgel.",
+    "variantes": [
+      "BR-800"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Gurgel_BR-800"
+    ]
+  },
+  {
+    "id": "primeira_travessia_aerea_do_atlantico_sul",
+    "nome": "Primeira travessia aérea do Atlântico Sul",
+    "descricao": "Voo de Lisboa ao Rio de Janeiro feito em 1922 pelos aviadores portugueses Gago Coutinho e Sacadura Cabral.",
+    "variantes": [
+      "Travessia de Gago Coutinho e Sacadura Cabral"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Primeira_travessia_a%C3%A9rea_do_Atl%C3%A2ntico_Sul",
+      "https://pt.wikipedia.org/wiki/Gago_Coutinho"
+    ]
+  },
+  {
+    "id": "barco_a_vapor_de_robert_fulton",
+    "nome": "Barco a vapor de Robert Fulton",
+    "descricao": "Barco a vapor de Robert Fulton que, em 1807, iniciou serviço de passageiros entre Nova York e Albany.",
+    "variantes": [
+      "North River Steamboat",
+      "Clermont"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/North_River_Steamboat"
+    ]
+  },
+  {
+    "id": "amelia_earhart",
+    "nome": "Amelia Earhart",
+    "descricao": "Aviadora americana pioneira, desaparecida em 1937 durante uma tentativa de volta ao mundo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amelia_Earhart"
+    ]
+  },
+  {
+    "id": "bonde_de_santa_teresa",
+    "nome": "Bonde de Santa Teresa",
+    "descricao": "Linha de bondes elétricos que liga o centro do Rio de Janeiro ao bairro de Santa Teresa.",
+    "variantes": [
+      "Bondinho de Santa Teresa",
+      "Santa Teresa Tram"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bonde_de_Santa_Teresa"
+    ]
+  },
+  {
+    "id": "metro_de_buenos_aires",
+    "nome": "Metrô de Buenos Aires",
+    "descricao": "Sistema de metrô da capital argentina, inaugurado em 1913.",
+    "variantes": [
+      "Subte",
+      "Subterráneo de Buenos Aires"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Buenos_Aires_Underground"
+    ]
+  },
+  {
+    "id": "motim_do_bounty",
+    "nome": "Motim do Bounty",
+    "descricao": "Rebelião de 1789 a bordo do navio britânico HMS Bounty, no Pacífico, liderada por Fletcher Christian contra o capitão William Bligh.",
+    "variantes": [
+      "Motim no Bounty",
+      "Mutiny on the Bounty"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty"
+    ]
+  },
+  {
+    "id": "delorean_dmc_12",
+    "nome": "DeLorean DMC-12",
+    "descricao": "Carro esportivo de carroceria de aço inoxidável e portas que abrem para cima, fabricado de 1981 a 1983 e famoso como máquina do tempo no cinema.",
+    "variantes": [
+      "DeLorean"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/DeLorean_DMC-12"
+    ]
+  },
+  {
+    "id": "mao_inglesa",
+    "nome": "Mão inglesa",
+    "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido.",
+    "variantes": [
+      "Circulação pela esquerda",
+      "Mão esquerda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic"
+    ]
+  },
+  {
+    "id": "dagen_h",
+    "nome": "Dagen H",
+    "descricao": "Dia de 1967 em que a Suécia passou a circular pela direita no trânsito, abandonando a mão esquerda.",
+    "variantes": [
+      "Dia H",
+      "Högertrafikomläggningen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dagen_H"
+    ]
+  },
+  {
+    "id": "estacao_king_s_cross",
+    "nome": "Estação King's Cross",
+    "descricao": "Estação ferroviária de Londres, terminal de trens para o norte da Inglaterra e a Escócia.",
+    "variantes": [
+      "London King's Cross",
+      "King's Cross"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/London_King%27s_Cross_railway_station"
+    ]
+  },
+  {
+    "id": "tunel_do_canal_da_mancha",
+    "nome": "Túnel do Canal da Mancha",
+    "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+    "variantes": [
+      "Eurotúnel",
+      "Channel Tunnel",
+      "Chunnel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Channel_Tunnel"
+    ]
+  },
+  {
+    "id": "bonde",
+    "nome": "Bonde",
+    "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+    "variantes": [
+      "Elétrico",
+      "Tram",
+      "Carril"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bonde"
+    ]
+  },
+  {
+    "id": "taxi",
+    "nome": "Táxi",
+    "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+    "variantes": [
+      "Carro de praça"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taxicab"
+    ]
+  },
+  {
+    "id": "zepelim",
+    "nome": "Zepelim",
+    "descricao": "Tipo de dirigível rígido desenvolvido na Alemanha a partir do fim do século dezenove.",
+    "variantes": [
+      "Zeppelin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zeppelin"
+    ]
+  },
+  {
+    "id": "revolta_do_vintem",
+    "nome": "Revolta do Vintém",
+    "descricao": "Protesto popular ocorrido no Rio de Janeiro entre o fim de 1879 e o início de 1880 contra uma taxa de um vintém.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Revolta_do_Vint%C3%A9m"
+    ]
+  },
+  {
+    "id": "panair_do_brasil",
+    "nome": "Panair do Brasil",
+    "descricao": "Companhia aérea brasileira que operou de 1929 até ser fechada pelo governo militar em 1965.",
+    "variantes": [
+      "Panair"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Panair_do_Brasil",
+      "https://en.wikipedia.org/wiki/Panair_do_Brasil"
+    ]
+  },
+  {
+    "id": "trem_do_corcovado",
+    "nome": "Trem do Corcovado",
+    "descricao": "Ferrovia de cremalheira inaugurada em 1884 que sobe o morro do Corcovado, no Rio de Janeiro.",
+    "variantes": [
+      "Estrada de Ferro do Corcovado",
+      "Corcovado Rack Railway"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Trem_do_Corcovado",
+      "https://en.wikipedia.org/wiki/Corcovado_Rack_Railway"
+    ]
+  },
+  {
+    "id": "estacao_saint_lazare",
+    "nome": "Estação Saint-Lazare",
+    "descricao": "Estação ferroviária de Paris inaugurada em 1837, uma das mais movimentadas da França.",
+    "variantes": [
+      "Gare Saint-Lazare"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gare_Saint-Lazare"
+    ]
+  },
+  {
+    "id": "daimler_reitwagen",
+    "nome": "Daimler Reitwagen",
+    "descricao": "Veículo de duas rodas com motor a gasolina construído por Gottlieb Daimler e Wilhelm Maybach em 1885, considerado a primeira motocicleta a gasolina.",
+    "variantes": [
+      "Reitwagen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Daimler_Reitwagen"
+    ]
+  },
+  {
+    "id": "placa_de_pare",
+    "nome": "Placa de pare",
+    "descricao": "Placa de trânsito vermelha e octogonal que indica parada obrigatória.",
+    "variantes": [
+      "Placa de parada obrigatória",
+      "Stop sign"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stop_sign"
+    ]
+  },
+  {
+    "id": "the_knowledge",
+    "nome": "The Knowledge",
+    "descricao": "Exame exigido dos motoristas dos táxis pretos de Londres, que precisam decorar milhares de ruas e trajetos da cidade.",
+    "variantes": [
+      "Knowledge of London"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taxicabs_of_the_United_Kingdom"
+    ]
+  },
+  {
+    "id": "demoiselle",
+    "nome": "Demoiselle",
+    "descricao": "Pequeno avião monoplano criado por Santos-Dumont entre 1907 e 1909, cujos planos foram divulgados livremente.",
+    "variantes": [
+      "Santos-Dumont Demoiselle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Santos-Dumont_Demoiselle"
+    ]
+  },
+  {
+    "id": "air_force_one",
+    "nome": "Air Force One",
+    "descricao": "Código de chamada de rádio de qualquer aeronave da Força Aérea dos Estados Unidos que transporte o presidente americano.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Air_Force_One"
+    ]
   }
 ]

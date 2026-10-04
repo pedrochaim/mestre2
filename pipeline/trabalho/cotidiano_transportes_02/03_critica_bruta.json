@@ -1,0 +1,438 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e bem redigido, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Dunlop desenvolveu o pneu em 1887; 1888 foi o ano da patente.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1887, na Irlanda, um veterinário escocês desenvolveu um pneu prático cheio de ar para o triciclo do filho. Quem era ele?",
+        "resposta": "John Boyd Dunlop",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/John_Boyd_Dunlop"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stephenson, o pai das ferrovias, é sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista do sobrenome vaza a resposta e o projeto do Fusca é disputado; o contrato de 1934 é fato firme.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1934, que engenheiro recebeu da associação alemã da indústria automobilística o contrato para desenvolver o carro do povo, que virou o Fusca?",
+        "resposta": "Ferdinand Porsche",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lesseps liderou a construção do canal, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guimard projetou as entradas; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Beck desenhou o diagrama em 1931; em 1933 foi publicado, então o verbo 'criou em 1933' é impreciso.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que desenhista criou o mapa do metrô de Londres, publicado em 1933, com linhas retas e diagonais, modelo depois copiado no mundo todo?",
+        "resposta": "Harry Beck",
+        "distratores": [
+          "Massimo Vignelli",
+          "Edward Johnston",
+          "Frank Pick"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tube_map",
+          "https://en.wikipedia.org/wiki/Harry_Beck"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gurgel, engenheiro de Ribeirão Preto, deu nome à empresa do BR-800; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Montgolfier e o primeiro voo tripulado de 1783 estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ovelha, pato e galo em Versalhes, 1783; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sikorsky e o VS-300 em 1939 conferem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dupla e voo de 1922 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voo ligado ao centenário da Independência, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O vapor operou no rio Hudson entre Nova York e Albany.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desapareceu sobre o Pacífico, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bondes passam sobre os Arcos da Lapa (Aqueduto da Carioca).",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Buenos Aires, 1913, primeiro metrô da América Latina.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pitcairn confirmada; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Coincidência de datas arbitrária, sem o ano no enunciado e pouco ligada a transportes.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Southampton confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Produzido em Dunmurry, Irlanda do Norte.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guiana e Suriname são os únicos com mão inglesa na América do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dagen H, 3 de setembro de 1967, Suécia; distratores nórdicos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "King's Cross é o ponto de partida do Expresso de Hogwarts.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma das fontes não existe; o fato está sustentado pela outra.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em 1901, Santos Dumont ganhou um prêmio em Paris ao sair de Saint-Cloud num dirigível, contornar qual monumento e voltar em menos de meia hora?",
+        "resposta": "Torre Eiffel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Linha aberta em 1 de outubro de 1964, pouco antes da Olimpíada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta óbvia a partir de 'agosto de 1939' e fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta óbvia a partir de 1914; coincidência pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "747 e Concorde voaram em 1969, ano da Lua.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir a década é vago; o ano 1994 é mais específico e sustentado.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano foi inaugurado o túnel ferroviário sob o Canal da Mancha, que liga a Inglaterra à França?",
+        "resposta": "1994",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Channel_Tunnel"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flex começou em 2003 no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar o século é fácil demais; o ano 1620 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o navio Mayflower levou um grupo de peregrinos ingleses para fundar uma colônia na América do Norte?",
+        "resposta": "1620",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mayflower"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bonde vem de 'bond', título da companhia usado como passagem; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Táxi é forma reduzida de taxímetro.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O zepelim leva o nome do conde Ferdinand von Zeppelin.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O apelido Jumbo vem do elefante de Barnum; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Metrô vem de metropolitano, presente no nome Metropolitan Railway.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kombi vem de Kombinationsfahrzeug, passageiros ou carga.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Afundamento do Lusitania pesou na entrada dos EUA; o verbo 'ajudou' é prudente.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte caiu numa página de desambiguação; trocar pela página do Rio de Janeiro.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1880, a Revolta do Vintém tomou as ruas do Rio de Janeiro contra uma taxa cobrada nas passagens de qual meio de transporte?",
+        "resposta": "Bonde",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Revolta_do_Vint%C3%A9m_(Rio_de_Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suez abriu em 1869 e tirou o chá dos veleiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Milton Nascimento nasceu no Rio, então 'mineiro' é impreciso; reformular pelo Clube da Esquina.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "A Panair do Brasil, fechada pelo governo em 1965, inspirou uma canção de saudade composta por Fernando Brant e qual outro compositor do Clube da Esquina?",
+        "resposta": "Milton Nascimento",
+        "distratores": [
+          "Beto Guedes",
+          "Flávio Venturini",
+          "Toninho Horta"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Panair_do_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trem transportou as peças do Cristo Redentor.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma das fontes é inexistente; o fato é sustentado pela outra.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1877, que pintor impressionista fez uma série de quadros da estação ferroviária Saint-Lazare, em Paris, cheia da fumaça das locomotivas?",
+        "resposta": "Claude Monet",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gare_Saint-Lazare"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Reitwagen tinha quadro e rodas de madeira; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Placa de pare octogonal, com 8 lados.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro voo de 12 segundos; distrator 59 é o voo mais longo.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "The Knowledge confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Demoiselle, planos liberados ao público.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Air Force One é indicativo de chamada para avião com o presidente.",
+      "reescrita": null
+    }
+  ]
+}
