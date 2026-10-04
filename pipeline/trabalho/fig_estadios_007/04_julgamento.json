@@ -1,0 +1,505 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Parque Olímpico da Barra",
+        "descricao": "Complexo de arenas na Barra da Tijuca, Rio de Janeiro, sede dos Jogos Olímpicos de 2016.",
+        "variantes": [
+          "Parque Olímpico do Rio de Janeiro",
+          "Parque Olímpico da Barra da Tijuca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_olimpico_da_barra",
+          "nome": "Parque Olímpico da Barra",
+          "descricao": "Conjunto de arenas no Rio de Janeiro que foi o principal polo de competições dos Jogos Olímpicos de 2016.",
+          "variantes": [
+            "Parque Olímpico Rio 2016",
+            "Barra Olympic Park"
+          ]
+        },
+        {
+          "id": "jardim_botanico_do_rio_de_janeiro",
+          "nome": "Jardim Botânico do Rio de Janeiro",
+          "descricao": "Jardim botânico e instituto de pesquisa fundado por Dom João no bairro carioca do Jardim Botânico",
+          "variantes": [
+            "Jardim Botânico do Rio",
+            "JBRJ"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio Olímpico Fisht",
+        "descricao": "Estádio de Sochi, Rússia, construído para os Jogos de Inverno de 2014 e usado na Copa do Mundo de 2018.",
+        "variantes": [
+          "Fisht Olympic Stadium",
+          "Estádio Fisht"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_estocolmo",
+          "nome": "Estádio Olímpico de Estocolmo",
+          "descricao": "Estádio de Estocolmo, na Suécia, inaugurado em 1912 para os Jogos Olímpicos daquele ano.",
+          "variantes": [
+            "Stockholms Olympiastadion",
+            "Stockholms stadion"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estádio Olímpico Atatürk",
+        "descricao": "Estádio de Istambul, Turquia, o maior do país, sede da final da Liga dos Campeões de 2005.",
+        "variantes": [
+          "Atatürk Olimpiyat Stadyumu",
+          "Atatürk Olympic Stadium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_munique",
+          "nome": "Estádio Olímpico de Munique",
+          "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+          "variantes": [
+            "Olympiastadion München",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_estocolmo",
+          "nome": "Estádio Olímpico de Estocolmo",
+          "descricao": "Estádio de Estocolmo, na Suécia, inaugurado em 1912 para os Jogos Olímpicos daquele ano.",
+          "variantes": [
+            "Stockholms Olympiastadion",
+            "Stockholms stadion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estádio Nacional do Japão",
+        "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+        "variantes": [
+          "Japan National Stadium",
+          "Novo Estádio Nacional",
+          "MUFG Stadium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "brasao_do_mexico",
+          "nome": "Brasão do México",
+          "descricao": "Brasão de armas nacional do México, com uma águia sobre um cacto devorando uma serpente.",
+          "variantes": [
+            "Escudo nacional do México",
+            "Coat of arms of Mexico"
+          ]
+        },
+        {
+          "id": "sao_januario",
+          "nome": "São Januário",
+          "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+          "variantes": [
+            "Estádio Vasco da Gama"
+          ]
+        },
+        {
+          "id": "estadio_panatenaico",
+          "nome": "Estádio Panatenaico",
+          "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+          "variantes": [
+            "Estádio Panathinaiko",
+            "Panathenaic Stadium",
+            "Kallimarmaro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arena das Dunas",
+        "descricao": "Estádio de Natal, Rio Grande do Norte, sede de jogos da Copa do Mundo de 2014.",
+        "variantes": [
+          "Dunes Arena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cueva_de_las_manos",
+          "nome": "Cueva de las Manos",
+          "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+          "variantes": [
+            "Caverna das Mãos",
+            "Cave of the Hands"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "dunsparce",
+          "nome": "Dunsparce",
+          "descricao": "Pokémon da segunda geração com corpo de serpente alada e cauda em broca, número 206 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tulipomania",
+          "nome": "Tulipomania",
+          "descricao": "Bolha especulativa com bulbos de tulipa ocorrida nos Países Baixos",
+          "variantes": [
+            "Febre das tulipas",
+            "Tulip mania",
+            "Mania das tulipas"
+          ]
+        },
+        {
+          "id": "arena_da_amazonia",
+          "nome": "Arena da Amazônia",
+          "descricao": "Estádio de futebol de Manaus, Amazonas, construído para a Copa do Mundo de 2014 no local do antigo Vivaldão.",
+          "variantes": [
+            "Estádio Vivaldo Lima",
+            "Arena Amazônia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estádio Monumental de Núñez",
+        "descricao": "Estádio do River Plate em Buenos Aires, Argentina, palco da final da Copa do Mundo de 1978.",
+        "variantes": [
+          "Estádio Monumental",
+          "Estadio Más Monumental",
+          "Estádio Monumental Antonio Vespucio Liberti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "monumento_ao_grande_incendio_de_londres",
+          "nome": "Monumento ao Grande Incêndio de Londres",
+          "descricao": "Coluna dórica no centro de Londres, conhecida simplesmente como The Monument.",
+          "variantes": [
+            "The Monument",
+            "Monument to the Great Fire of London"
+          ]
+        },
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_panatenaico",
+          "nome": "Estádio Panatenaico",
+          "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+          "variantes": [
+            "Estádio Panathinaiko",
+            "Panathenaic Stadium",
+            "Kallimarmaro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mangueirão",
+        "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+        "variantes": [
+          "Estádio Olímpico do Pará",
+          "Estádio Edgar Proença"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Estádio Lujniki",
+        "descricao": "Estádio nacional da Rússia em Moscou, principal arena dos Jogos Olímpicos de 1980 e da final da Copa de 2018.",
+        "variantes": [
+          "Luzhniki Stadium",
+          "Estádio Luzhniki",
+          "Estádio Lenin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "estadio_panatenaico",
+          "nome": "Estádio Panatenaico",
+          "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+          "variantes": [
+            "Estádio Panathinaiko",
+            "Panathenaic Stadium",
+            "Kallimarmaro"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "studio_ghibli",
+          "nome": "Studio Ghibli",
+          "descricao": "Estúdio japonês de animação fundado por Hayao Miyazaki, Isao Takahata e Toshio Suzuki em 1985.",
+          "variantes": [
+            "Estúdio Ghibli"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "parque_olimpico_da_barra",
+      "motivo": "Mesmo complexo de arenas da Barra, sede dos Jogos de 2016."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estádio Fisht de Sochi não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estádio Atatürk de Istambul não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estádio Nacional de Tóquio é distinto do de Pequim e dos demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Arena das Dunas (Natal) é diferente das demais arenas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Monumental de Núñez não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Mangueirão de Belém não corresponde às candidatas; Mineirão é outro estádio."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Estádio Lujniki de Moscou não consta entre as candidatas."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que complexo esportivo é este?",
+        "resposta": "Parque Olímpico da Barra"
+      },
+      "existentes": [
+        {
+          "id": "q04648",
+          "pergunta": "Na Rio 2016, o principal parque olímpico, com arenas de basquete, natação e tênis, ficava em que bairro da zona oeste carioca?",
+          "resposta": "Barra da Tijuca"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do complexo (Parque Olímpico da Barra), provavelmente a partir de uma imagem. A existente pede o bairro (Barra da Tijuca). São fatos diferentes e saber um não leva necessariamente ao outro."
+    }
+  ]
+}

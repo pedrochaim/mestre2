@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto, com o conjunto de arenas bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que complexo esportivo é este?",
+      "resposta": "Parque Olímpico da Barra",
+      "destino": 1,
+      "ancora": {
+        "nome": "Parque Olímpico da Barra",
+        "descricao": "Complexo de arenas na Barra da Tijuca, Rio de Janeiro, sede dos Jogos Olímpicos de 2016.",
+        "variantes": [
+          "Parque Olímpico do Rio de Janeiro",
+          "Parque Olímpico da Barra da Tijuca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'YANKEE STADIUM' aparece escrito acima do placar, e o logotipo dos Yankees está no gramado."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estádio com cobertura característica, sem texto visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este estádio sediou as cerimônias de abertura e encerramento de que edição dos Jogos Olímpicos?",
+      "resposta": "Jogos Olímpicos de Inverno de 2014",
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Olímpico Fisht",
+        "descricao": "Estádio de Sochi, Rússia, construído para os Jogos de Inverno de 2014 e usado na Copa do Mundo de 2018.",
+        "variantes": [
+          "Fisht Olympic Stadium",
+          "Estádio Fisht"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Faixas publicitárias visíveis, como 'gremio.net' e 'Campeão Brasileiro', entregam o clube dono do estádio."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cobertura ondulada característica, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que final de Liga dos Campeões, em 2005, foi disputada neste estádio?",
+      "resposta": "Milan contra Liverpool",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Olímpico Atatürk",
+        "descricao": "Estádio de Istambul, Turquia, o maior do país, sede da final da Liga dos Campeões de 2005.",
+        "variantes": [
+          "Atatürk Olimpiyat Stadyumu",
+          "Atatürk Olympic Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O letreiro 'SUZUKA CIRCUIT' sobre a pista entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada com varandas verdes e beiral de madeira, reconhecível. O texto em japonês no canto não entrega a cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Tóquio",
+      "distratores": [
+        "Osaka",
+        "Quioto",
+        "Yokohama"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Nacional do Japão",
+        "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+        "variantes": [
+          "Japan National Stadium",
+          "Novo Estádio Nacional",
+          "MUFG Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cobertura em gomos brancos bem característica, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estádio foi demolido em 2011 para dar lugar a este?",
+      "resposta": "Machadão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arena das Dunas",
+        "descricao": "Estádio de Natal, Rio Grande do Norte, sede de jogos da Copa do Mundo de 2014.",
+        "variantes": [
+          "Dunes Arena"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível pelas arquibancadas com o V vermelho; só há patrocinadores, sem o nome do estádio.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio sul-americano é este?",
+      "resposta": "Estádio Monumental de Núñez",
+      "distratores": [
+        "Estádio Centenário",
+        "La Bombonera",
+        "Estádio Morumbi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Monumental de Núñez",
+        "descricao": "Estádio do River Plate em Buenos Aires, Argentina, palco da final da Copa do Mundo de 1978.",
+        "variantes": [
+          "Estádio Monumental",
+          "Estadio Más Monumental",
+          "Estádio Monumental Antonio Vespucio Liberti"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'AT&T STADIUM' está escrito na fachada."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Exterior em concreto com marquise em balanço, sem texto legível. Múltipla escolha deixa a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio brasileiro é este?",
+      "resposta": "Mangueirão",
+      "distratores": [
+        "Castelão",
+        "Mineirão",
+        "Serra Dourada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mangueirão",
+        "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+        "variantes": [
+          "Estádio Olímpico do Pará",
+          "Estádio Edgar Proença"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida, sem texto, com o arco de colunas e a cobertura característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é este?",
+      "resposta": "Estádio Lujniki",
+      "distratores": [
+        "Estádio Krestovski",
+        "Estádio Olímpico de Berlim",
+        "Estádio Azteca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Lujniki",
+        "descricao": "Estádio nacional da Rússia em Moscou, principal arena dos Jogos Olímpicos de 1980 e da final da Copa de 2018.",
+        "variantes": [
+          "Luzhniki Stadium",
+          "Estádio Luzhniki",
+          "Estádio Lenin"
+        ]
+      }
+    }
+  ]
+}
