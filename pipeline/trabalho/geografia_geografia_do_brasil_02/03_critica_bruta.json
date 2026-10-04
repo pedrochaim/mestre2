@@ -1,0 +1,450 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelas fontes; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aarão Reis chefiou a comissão e projetou Belo Horizonte, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomé de Sousa fundou Salvador em 1549, como primeiro governador-geral.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os irmãos Villas-Bôas idealizaram o parque criado em 1961.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O calçadão já existia desde 1906; Burle Marx foi convidado a modernizar o traçado, não a projetá-lo do zero.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Na ampliação da orla de Copacabana, nos anos 1970, que paisagista foi convidado a modernizar o desenho do calçadão de pedra portuguesa?",
+        "resposta": "Roberto Burle Marx",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cal%C3%A7ad%C3%A3o_de_Copacabana",
+          "https://pt.wikipedia.org/wiki/Roberto_Burle_Marx"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lerner, prefeito de 1971 a 1974, pedestrianizou a Rua das Flores e implantou as canaletas de ônibus; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Henry Ford criou Fordlândia no Pará para obter borracha.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A segunda fonte é inexistente; mantém-se só a página de Ab'Sáber, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que geógrafo dividiu o Brasil em domínios morfoclimáticos, como o mar de morros e as caatingas?",
+        "resposta": "Aziz Ab'Sáber",
+        "distratores": [
+          "Milton Santos",
+          "Jurandyr Ross",
+          "Aroldo de Azevedo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista do feriado de Tiradentes quase entrega a resposta; melhor perguntar a data diretamente.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que dia e mês de 1960 Juscelino Kubitschek inaugurou Brasília, a nova capital do Brasil?",
+        "resposta": "21 de abril",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bras%C3%ADlia",
+          "https://en.wikipedia.org/wiki/Bras%C3%ADlia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação 'mais nova capital' não é atemporal e a fonte em inglês é uma desambiguação.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Palmas, capital planejada do Tocantins, foi fundada em que década?",
+        "resposta": "Década de 1980",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Palmas_(Tocantins)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 1873, portanto no século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bondinho inaugurado em 1912; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itatiaia foi criado em 1937 como primeiro parque nacional.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O forte foi erguido para assegurar o domínio português na Amazônia, não especificamente para proteger a foz do Amazonas.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Belém nasceu em torno do Forte do Presépio, erguido por portugueses para assegurar o domínio da Amazônia. Em que século?",
+        "resposta": "Século dezessete",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bel%C3%A9m_(Par%C3%A1)",
+          "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 1926; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Constituição de 1988 transformou os territórios em estados.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em português é inexistente; a fusão ocorreu em 1975, confirmada pela fonte em inglês.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Depois que a capital foi para Brasília, a cidade do Rio virou o estado da Guanabara. Em que década ele foi fundido ao estado do Rio de Janeiro?",
+        "resposta": "Década de 1970",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Guanabara_(state)"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Acre virou estado em 1962 (Lei 4.070), ou seja, década de 1960.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inhotim fica em Brumadinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jalapão fica no Tocantins.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Chapada dos Guimarães fica perto de Cuiabá, e o parque abrange o município.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pico da Neblina fica no Amazonas.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em português é uma página de desambiguação; usa-se a em inglês.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A Ilha do Mel, onde não circulam carros e se anda a pé entre as praias, fica no litoral de qual estado?",
+        "resposta": "Paraná",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ilha_do_Mel"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arquipélago pertence ao Espírito Santo.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Monte fica no rio Xingu.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponto extremo oeste (nascente do rio Moa) fica no Acre, na Serra do Divisor.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roraima faz fronteira com Venezuela e Guiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte em português é uma desambiguação; trocar por fontes válidas. O fato (Ceará) é certo.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Jericoacoara, vila de dunas famosa pelo pôr do sol visto do alto de uma duna, fica em qual estado?",
+        "resposta": "Ceará",
+        "distratores": [
+          "Rio Grande do Norte",
+          "Maranhão",
+          "Piauí"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Jericoacoara",
+          "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Jericoacoara"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Delta entre Piauí e Maranhão.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em várias versões, não em 'mais aceita'; a resposta também repete 'açúcar' do nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo a explicação mais conhecida, o Pão de Açúcar lembra a forma de que objeto de barro usado nos engenhos coloniais?",
+        "resposta": "Forma cônica de barro",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/P%C3%A3o_de_A%C3%A7%C3%BAcar_(Rio_de_Janeiro)",
+          "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome de Abrolhos vem de 'Abre olhos', aviso aos navegantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome oficial é Ponte Presidente Costa e Silva.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Branco homenageia o Barão do Rio Branco, do Tratado de Petrópolis.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Príncipe de Joinville casou com Francisca, irmã de Pedro II.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelotas eram embarcações forradas de couro.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado hedged ('teria') e sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Água ruim' é a interpretação mais citada do tupi Ipanema.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lagoas se formam com a água da chuva na estação chuvosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escarpas da Serra do Mar fazem o Tietê correr para o interior.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pororoca resulta do encontro da corrente fluvial com as águas oceânicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Serra da Bodoquena é cárstica, de calcário, e isso explica a transparência das águas.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três estados têm nome de rios.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petrolina e Juazeiro ficam em margens opostas do São Francisco.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As quatro capitais foram planejadas; as fontes confirmam as três primeiras e Goiânia é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amazônia Legal tem nove estados.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Região Norte tem sete estados.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Acre, Rondônia, Mato Grosso e Mato Grosso do Sul fazem fronteira com a Bolívia: quatro.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boa Vista é a capital estadual mais setentrional.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Porto Alegre é banhada pelo Guaíba, não pela lagoa; o enunciado é impreciso.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "No Rio Grande do Sul, uma grande laguna chega ao mar pela barra da cidade de Rio Grande. Qual é a maior laguna costeira do Brasil?",
+        "resposta": "Lagoa dos Patos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lagoa_dos_Patos",
+          "https://pt.wikipedia.org/wiki/Laguna_dos_Patos"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acesso proibido pela grande quantidade de cobras, sobretudo a jararaca-ilhoa.",
+      "reescrita": null
+    }
+  ]
+}

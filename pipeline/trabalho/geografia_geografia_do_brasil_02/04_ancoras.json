@@ -1,0 +1,1262 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "belo_horizonte",
+        "nome": "Belo Horizonte",
+        "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897.",
+        "variantes": [
+          "BH"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No fim do século dezenove, que engenheiro chefiou a comissão que planejou o traçado de Belo Horizonte?",
+      "resposta": "Aarão Reis",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aar%C3%A3o_Reis",
+        "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+      ],
+      "ancora": "belo_horizonte"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "salvador",
+        "nome": "Salvador",
+        "descricao": "Capital da Bahia, primeira capital do Brasil.",
+        "variantes": [
+          "São Salvador da Bahia de Todos os Santos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Salvador_(Bahia)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1549, quem fundou Salvador, ao chegar à Bahia como primeiro governador-geral do Brasil?",
+      "resposta": "Tomé de Sousa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tom%C3%A9_de_Sousa",
+        "https://pt.wikipedia.org/wiki/Salvador_(Bahia)"
+      ],
+      "ancora": "salvador"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Parque Indígena do Xingu",
+        "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+        "variantes": [
+          "Parque Nacional do Xingu",
+          "Território Indígena do Xingu"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Ind%C3%ADgena_do_Xingu",
+          "https://en.wikipedia.org/wiki/Xingu_Indigenous_Park"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que família de irmãos sertanistas idealizou o Parque Indígena do Xingu, criado em 1961 em Mato Grosso?",
+      "resposta": "Villas-Bôas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Irm%C3%A3os_Villas-B%C3%B4as",
+        "https://en.wikipedia.org/wiki/Xingu_Indigenous_Park"
+      ],
+      "ancora": "parque_indigena_do_xingu"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "copacabana",
+        "nome": "Copacabana",
+        "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Copacabana"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na ampliação da orla de Copacabana, nos anos 1970, que paisagista foi convidado a modernizar o desenho do calçadão de pedra portuguesa?",
+      "resposta": "Roberto Burle Marx",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cal%C3%A7ad%C3%A3o_de_Copacabana",
+        "https://pt.wikipedia.org/wiki/Roberto_Burle_Marx"
+      ],
+      "ancora": "copacabana"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Curitiba",
+        "descricao": "Capital do estado do Paraná, conhecida pelo planejamento urbano e pelo transporte coletivo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Curitiba"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto, prefeito de Curitiba nos anos 1970, fechou a Rua das Flores para pedestres e criou as canaletas exclusivas de ônibus?",
+      "resposta": "Jaime Lerner",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jaime_Lerner",
+        "https://en.wikipedia.org/wiki/Jaime_Lerner"
+      ],
+      "ancora": "curitiba"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Domínios morfoclimáticos brasileiros",
+        "descricao": "Classificação das grandes paisagens do Brasil que combina relevo, clima e vegetação, como o mar de morros e as caatingas.",
+        "variantes": [
+          "Domínios morfoclimáticos do Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dom%C3%ADnio_morfoclim%C3%A1tico",
+          "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que geógrafo dividiu o Brasil em domínios morfoclimáticos, como o mar de morros e as caatingas?",
+      "resposta": "Aziz Ab'Sáber",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+      ],
+      "distratores": [
+        "Milton Santos",
+        "Jurandyr Ross",
+        "Aroldo de Azevedo"
+      ],
+      "ancora": "dominios_morfoclimaticos_brasileiros"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Palmas",
+        "descricao": "Capital do estado do Tocantins, cidade planejada às margens do rio Tocantins.",
+        "variantes": [
+          "Palmas (Tocantins)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Palmas_(Tocantins)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Palmas, capital planejada do Tocantins, foi fundada em que década?",
+      "resposta": "Década de 1980",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Palmas_(Tocantins)"
+      ],
+      "ancora": "palmas"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Elevador_Lacerda"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Elevador_Lacerda",
+        "https://en.wikipedia.org/wiki/Lacerda_Elevator"
+      ],
+      "ancora": "elevador_lacerda"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Parque Nacional do Itatiaia",
+        "descricao": "Parque nacional na Serra da Mantiqueira, entre Rio de Janeiro e Minas Gerais, o primeiro criado no Brasil.",
+        "variantes": [
+          "Itatiaia"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Itatiaia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Parque Nacional do Itatiaia, na Serra da Mantiqueira, foi o primeiro parque nacional do Brasil. Em que década ele foi criado?",
+      "resposta": "Década de 1930",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Itatiaia",
+        "https://en.wikipedia.org/wiki/Itatiaia_National_Park"
+      ],
+      "ancora": "parque_nacional_do_itatiaia"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "belem",
+        "nome": "Belém",
+        "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+        "variantes": [
+          "Santa Maria de Belém do Grão-Pará"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bel%C3%A9m_(Par%C3%A1)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Belém nasceu em torno do Forte do Presépio, erguido por portugueses para assegurar o domínio da Amazônia. Em que século?",
+      "resposta": "Século dezessete",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bel%C3%A9m_(Par%C3%A1)",
+        "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+      ],
+      "ancora": "belem"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Roraima",
+        "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Roraima"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Roraima e Amapá deixaram de ser territórios federais e viraram estados com a Constituição promulgada em que ano?",
+      "resposta": "1988",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Roraima",
+        "https://en.wikipedia.org/wiki/Roraima"
+      ],
+      "ancora": "roraima"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Estado da Guanabara",
+        "descricao": "Antiga unidade da federação formada pelo território da cidade do Rio de Janeiro após a mudança da capital para Brasília.",
+        "variantes": [
+          "Guanabara"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Guanabara_(estado)",
+          "https://en.wikipedia.org/wiki/Guanabara_(state)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois que a capital foi para Brasília, a cidade do Rio virou o estado da Guanabara. Em que década ele foi fundido ao estado do Rio de Janeiro?",
+      "resposta": "Década de 1970",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guanabara_(state)"
+      ],
+      "ancora": "estado_da_guanabara"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "acre",
+        "nome": "Acre",
+        "descricao": "Estado da Região Norte do Brasil, incorporado ao país pelo Tratado de Petrópolis, em 1903.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Acre"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Durante décadas o Acre foi um território federal. Em que década ele foi finalmente elevado à categoria de estado?",
+      "resposta": "Década de 1960",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Acre",
+        "https://en.wikipedia.org/wiki/Acre_(state)"
+      ],
+      "ancora": "acre"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Jalapão",
+        "descricao": "Região de cerrado com dunas, cachoeiras e fervedouros no leste do Tocantins.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jalap%C3%A3o"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Dunas alaranjadas, cachoeiras e os fervedouros, poços onde ninguém afunda, são atrações do Jalapão. Em que estado ele fica?",
+      "resposta": "Tocantins",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jalap%C3%A3o",
+        "https://en.wikipedia.org/wiki/Jalap%C3%A3o"
+      ],
+      "ancora": "jalapao"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Chapada dos Guimarães",
+        "descricao": "Planalto de paredões e cachoeiras em Mato Grosso, protegido por um parque nacional.",
+        "variantes": [
+          "Parque Nacional da Chapada dos Guimarães"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Chapada_dos_Guimar%C3%A3es"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os paredões e a cachoeira Véu de Noiva da Chapada dos Guimarães ficam a poucos quilômetros de qual capital estadual?",
+      "resposta": "Cuiabá",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Chapada_dos_Guimar%C3%A3es",
+        "https://en.wikipedia.org/wiki/Chapada_dos_Guimar%C3%A3es_National_Park"
+      ],
+      "distratores": [
+        "Campo Grande",
+        "Goiânia",
+        "Palmas"
+      ],
+      "ancora": "chapada_dos_guimaraes"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Ilha do Mel",
+        "descricao": "Ilha na entrada da baía de Paranaguá, conhecida pelas praias, pelo farol e pela proibição de carros.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ilha_do_Mel"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Ilha do Mel, onde não circulam carros e se anda a pé entre as praias, fica no litoral de qual estado?",
+      "resposta": "Paraná",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ilha_do_Mel"
+      ],
+      "ancora": "ilha_do_mel"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Trindade e Martim Vaz",
+        "descricao": "Arquipélago vulcânico brasileiro no meio do Atlântico Sul, a mais de mil quilômetros da costa.",
+        "variantes": [
+          "Ilha da Trindade"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Trindade_e_Martim_Vaz",
+          "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As remotas ilhas de Trindade e Martim Vaz, a mais de mil quilômetros da costa, pertencem a qual estado?",
+      "resposta": "Espírito Santo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Trindade_e_Martim_Vaz",
+        "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz"
+      ],
+      "distratores": [
+        "Bahia",
+        "Rio de Janeiro",
+        "Pernambuco"
+      ],
+      "ancora": "trindade_e_martim_vaz"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Parque Nacional da Serra do Divisor",
+        "descricao": "Parque nacional na fronteira com o Peru, onde fica o ponto extremo oeste do Brasil.",
+        "variantes": [
+          "Serra do Divisor"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Divisor"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O ponto mais a oeste do Brasil fica na Serra do Divisor, na fronteira com o Peru. Em que estado?",
+      "resposta": "Acre",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pontos_extremos_do_Brasil",
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Divisor"
+      ],
+      "ancora": "parque_nacional_da_serra_do_divisor"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Roraima",
+        "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Roraima"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No extremo norte do Brasil, o estado de Roraima fica encaixado entre quais dois países vizinhos?",
+      "resposta": "Venezuela e Guiana",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Roraima",
+        "https://en.wikipedia.org/wiki/Roraima"
+      ],
+      "ancora": "roraima"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Jericoacoara",
+        "descricao": "Vila de pescadores e parque nacional de dunas e lagoas no litoral oeste do Ceará.",
+        "variantes": [
+          "Jeri"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jericoacoara"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Jericoacoara, vila de dunas famosa pelo pôr do sol visto do alto de uma duna, fica em qual estado?",
+      "resposta": "Ceará",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jericoacoara",
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Jericoacoara"
+      ],
+      "distratores": [
+        "Rio Grande do Norte",
+        "Maranhão",
+        "Piauí"
+      ],
+      "ancora": "jericoacoara"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Delta do Parnaíba",
+        "descricao": "Delta do rio Parnaíba, com dezenas de ilhas, na foz do rio no oceano Atlântico.",
+        "variantes": [
+          "Delta das Américas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Delta_do_Parna%C3%ADba"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Delta do Parnaíba, com dezenas de ilhas na foz do rio, fica na divisa entre o Piauí e qual estado?",
+      "resposta": "Maranhão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Delta_do_Parna%C3%ADba",
+        "https://en.wikipedia.org/wiki/Parna%C3%ADba_River"
+      ],
+      "ancora": "delta_do_parnaiba"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Pão de Açúcar",
+        "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, com um bondinho que leva ao topo.",
+        "variantes": [
+          "Morro do Pão de Açúcar"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/P%C3%A3o_de_A%C3%A7%C3%BAcar_(Rio_de_Janeiro)",
+          "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo a explicação mais conhecida, o Pão de Açúcar lembra a forma de que objeto de barro usado nos engenhos coloniais?",
+      "resposta": "Forma cônica de barro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/P%C3%A3o_de_A%C3%A7%C3%BAcar_(Rio_de_Janeiro)",
+        "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+      ],
+      "ancora": "pao_de_acucar"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ponte_Rio%E2%80%93Niter%C3%B3i"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A ponte Rio-Niterói tem um nome oficial pouco usado, que homenageia um presidente do regime militar. Qual?",
+      "resposta": "Costa e Silva",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ponte_Rio%E2%80%93Niter%C3%B3i",
+        "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+      ],
+      "ancora": "ponte_rio_niteroi"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Rio Branco",
+        "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+        "variantes": [
+          "Rio Branco (Acre)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Branco"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A capital do Acre homenageia qual diplomata, que negociou com a Bolívia a incorporação do território ao Brasil?",
+      "resposta": "Barão do Rio Branco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Branco",
+        "https://en.wikipedia.org/wiki/Rio_Branco"
+      ],
+      "ancora": "rio_branco"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Joinville",
+        "descricao": "Maior cidade de Santa Catarina, no norte do estado, fundada por imigrantes europeus em 1851.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Joinville"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A cidade catarinense de Joinville homenageia um príncipe francês que se casou com uma irmã de qual imperador do Brasil?",
+      "resposta": "Dom Pedro II",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Joinville",
+        "https://en.wikipedia.org/wiki/Joinville"
+      ],
+      "ancora": "joinville"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Pelotas",
+        "descricao": "Cidade do sul do Rio Grande do Sul, às margens do canal São Gonçalo, famosa pelos doces.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pelotas"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A cidade gaúcha de Pelotas tem o nome de um tipo de embarcação usada para atravessar rios. De que material ela era feita?",
+      "resposta": "Couro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pelotas",
+        "https://en.wikipedia.org/wiki/Pelotas"
+      ],
+      "ancora": "pelotas"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Porto de Galinhas",
+        "descricao": "Praia e vila do município de Ipojuca, no litoral sul de Pernambuco, famosa pelas piscinas naturais.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Porto_de_Galinhas"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Depois da proibição do tráfico negreiro, a senha galinha nova no porto teria dado nome a Porto de Galinhas. Ela anunciava a chegada de quê?",
+      "resposta": "Africanos escravizados",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Porto_de_Galinhas",
+        "https://en.wikipedia.org/wiki/Porto_de_Galinhas"
+      ],
+      "ancora": "porto_de_galinhas"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Ipanema",
+        "descricao": "Bairro da zona sul do Rio de Janeiro, à beira-mar, entre o Arpoador e o Leblon.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ipanema"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do famoso bairro carioca de Ipanema vem do tupi. O que ele significa?",
+      "resposta": "Água ruim",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ipanema",
+        "https://en.wikipedia.org/wiki/Ipanema"
+      ],
+      "distratores": [
+        "Água limpa",
+        "Terra de peixes",
+        "Pedra bonita"
+      ],
+      "ancora": "ipanema"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Bonito",
+        "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+        "variantes": [
+          "Bonito (Mato Grosso do Sul)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bonito_(Mato_Grosso_do_Sul)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os rios de Bonito, em Mato Grosso do Sul, são tão transparentes que parecem aquários. Que rocha do subsolo ajuda a deixar a água assim?",
+      "resposta": "Calcário",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bonito_(Mato_Grosso_do_Sul)",
+        "https://en.wikipedia.org/wiki/Bonito,_Mato_Grosso_do_Sul"
+      ],
+      "ancora": "bonito"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Paraná (estado)",
+        "descricao": "Estado da Região Sul do Brasil, com capital em Curitiba.",
+        "variantes": [
+          "Paraná"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Paran%C3%A1"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes dos estados do Paraná, do Tocantins e do Amazonas têm em comum?",
+      "resposta": "São nomes de rios",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Paran%C3%A1",
+        "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1",
+        "https://pt.wikipedia.org/wiki/Rio_Tocantins"
+      ],
+      "ancora": "parana_estado"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Petrolina",
+        "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Petrolina"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A pernambucana Petrolina e a baiana Juazeiro ficam frente a frente, ligadas por uma ponte. Que rio separa as duas cidades?",
+      "resposta": "Rio São Francisco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Petrolina",
+        "https://en.wikipedia.org/wiki/Petrolina"
+      ],
+      "ancora": "petrolina"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Aracaju",
+        "descricao": "Capital do estado de Sergipe, fundada em 1855 com traçado em tabuleiro de xadrez.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Aracaju"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que as capitais Aracaju, Teresina, Belo Horizonte e Goiânia têm em comum na sua origem?",
+      "resposta": "Foram cidades planejadas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aracaju",
+        "https://pt.wikipedia.org/wiki/Cidade_planejada"
+      ],
+      "ancora": "aracaju"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Amazônia Legal",
+        "descricao": "Área definida por lei federal para fins de planejamento, que reúne os estados da bacia amazônica e vizinhos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Amaz%C3%B4nia_Legal"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A Amazônia Legal, área definida por lei para o planejamento da região, abrange quantos estados brasileiros, contando os que entram só em parte?",
+      "resposta": "Nove",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Amaz%C3%B4nia_Legal",
+        "https://en.wikipedia.org/wiki/Legal_Amazon"
+      ],
+      "ancora": "amazonia_legal"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Região Norte do Brasil",
+        "descricao": "Maior das cinco grandes regiões do Brasil definidas pelo IBGE, coberta em grande parte pela Floresta Amazônica.",
+        "variantes": [
+          "Região Norte"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Regi%C3%A3o_Norte_do_Brasil"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Região Norte é a maior das cinco regiões brasileiras em área. Quantos estados a formam?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Regi%C3%A3o_Norte_do_Brasil",
+        "https://en.wikipedia.org/wiki/North_Region,_Brazil"
+      ],
+      "distratores": [
+        "Cinco",
+        "Seis",
+        "Nove"
+      ],
+      "ancora": "regiao_norte_do_brasil"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Fronteira Bolívia–Brasil",
+        "descricao": "Fronteira terrestre entre o Brasil e a Bolívia, a mais extensa das fronteiras brasileiras.",
+        "variantes": [
+          "Fronteira Brasil–Bolívia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Brazil_border"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos estados brasileiros fazem fronteira com a Bolívia?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Brazil_border",
+        "https://pt.wikipedia.org/wiki/Fronteira_Bol%C3%ADvia%E2%80%93Brasil"
+      ],
+      "distratores": [
+        "Dois",
+        "Três",
+        "Cinco"
+      ],
+      "ancora": "fronteira_bolivia_brasil"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Boa Vista",
+        "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+        "variantes": [
+          "Boa Vista (Roraima)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boa_Vista_(Roraima)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "De todas as capitais estaduais do Brasil, qual fica mais ao norte?",
+      "resposta": "Boa Vista",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boa_Vista_(Roraima)",
+        "https://en.wikipedia.org/wiki/Boa_Vista,_Roraima"
+      ],
+      "ancora": "boa_vista"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Lagoa dos Patos",
+        "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+        "variantes": [
+          "Laguna dos Patos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lagoa_dos_Patos"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Geografia do Brasil",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No Rio Grande do Sul, uma grande laguna chega ao mar pela barra da cidade de Rio Grande. Qual é a maior laguna costeira do Brasil?",
+      "resposta": "Lagoa dos Patos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lagoa_dos_Patos",
+        "https://pt.wikipedia.org/wiki/Laguna_dos_Patos"
+      ],
+      "ancora": "lagoa_dos_patos"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "parque_indigena_do_xingu",
+      "nome": "Parque Indígena do Xingu",
+      "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+      "variantes": [
+        "Parque Nacional do Xingu",
+        "Território Indígena do Xingu"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Parque_Ind%C3%ADgena_do_Xingu",
+        "https://en.wikipedia.org/wiki/Xingu_Indigenous_Park"
+      ]
+    },
+    {
+      "id": "curitiba",
+      "nome": "Curitiba",
+      "descricao": "Capital do estado do Paraná, conhecida pelo planejamento urbano e pelo transporte coletivo.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Curitiba"
+      ]
+    },
+    {
+      "id": "dominios_morfoclimaticos_brasileiros",
+      "nome": "Domínios morfoclimáticos brasileiros",
+      "descricao": "Classificação das grandes paisagens do Brasil que combina relevo, clima e vegetação, como o mar de morros e as caatingas.",
+      "variantes": [
+        "Domínios morfoclimáticos do Brasil"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Dom%C3%ADnio_morfoclim%C3%A1tico",
+        "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+      ]
+    },
+    {
+      "id": "palmas",
+      "nome": "Palmas",
+      "descricao": "Capital do estado do Tocantins, cidade planejada às margens do rio Tocantins.",
+      "variantes": [
+        "Palmas (Tocantins)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Palmas_(Tocantins)"
+      ]
+    },
+    {
+      "id": "elevador_lacerda",
+      "nome": "Elevador Lacerda",
+      "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Elevador_Lacerda"
+      ]
+    },
+    {
+      "id": "roraima",
+      "nome": "Roraima",
+      "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Roraima"
+      ]
+    },
+    {
+      "id": "estado_da_guanabara",
+      "nome": "Estado da Guanabara",
+      "descricao": "Antiga unidade da federação formada pelo território da cidade do Rio de Janeiro após a mudança da capital para Brasília.",
+      "variantes": [
+        "Guanabara"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Guanabara_(estado)",
+        "https://en.wikipedia.org/wiki/Guanabara_(state)"
+      ]
+    },
+    {
+      "id": "chapada_dos_guimaraes",
+      "nome": "Chapada dos Guimarães",
+      "descricao": "Planalto de paredões e cachoeiras em Mato Grosso, protegido por um parque nacional.",
+      "variantes": [
+        "Parque Nacional da Chapada dos Guimarães"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Chapada_dos_Guimar%C3%A3es"
+      ]
+    },
+    {
+      "id": "ilha_do_mel",
+      "nome": "Ilha do Mel",
+      "descricao": "Ilha na entrada da baía de Paranaguá, conhecida pelas praias, pelo farol e pela proibição de carros.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ilha_do_Mel"
+      ]
+    },
+    {
+      "id": "trindade_e_martim_vaz",
+      "nome": "Trindade e Martim Vaz",
+      "descricao": "Arquipélago vulcânico brasileiro no meio do Atlântico Sul, a mais de mil quilômetros da costa.",
+      "variantes": [
+        "Ilha da Trindade"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Trindade_e_Martim_Vaz",
+        "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz"
+      ]
+    },
+    {
+      "id": "parque_nacional_da_serra_do_divisor",
+      "nome": "Parque Nacional da Serra do Divisor",
+      "descricao": "Parque nacional na fronteira com o Peru, onde fica o ponto extremo oeste do Brasil.",
+      "variantes": [
+        "Serra do Divisor"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Divisor"
+      ]
+    },
+    {
+      "id": "jericoacoara",
+      "nome": "Jericoacoara",
+      "descricao": "Vila de pescadores e parque nacional de dunas e lagoas no litoral oeste do Ceará.",
+      "variantes": [
+        "Jeri"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Jericoacoara"
+      ]
+    },
+    {
+      "id": "delta_do_parnaiba",
+      "nome": "Delta do Parnaíba",
+      "descricao": "Delta do rio Parnaíba, com dezenas de ilhas, na foz do rio no oceano Atlântico.",
+      "variantes": [
+        "Delta das Américas"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Delta_do_Parna%C3%ADba"
+      ]
+    },
+    {
+      "id": "ponte_rio_niteroi",
+      "nome": "Ponte Rio-Niterói",
+      "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974.",
+      "variantes": [
+        "Ponte Presidente Costa e Silva"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ponte_Rio%E2%80%93Niter%C3%B3i"
+      ]
+    },
+    {
+      "id": "rio_branco",
+      "nome": "Rio Branco",
+      "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+      "variantes": [
+        "Rio Branco (Acre)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Rio_Branco"
+      ]
+    },
+    {
+      "id": "joinville",
+      "nome": "Joinville",
+      "descricao": "Maior cidade de Santa Catarina, no norte do estado, fundada por imigrantes europeus em 1851.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Joinville"
+      ]
+    },
+    {
+      "id": "pelotas",
+      "nome": "Pelotas",
+      "descricao": "Cidade do sul do Rio Grande do Sul, às margens do canal São Gonçalo, famosa pelos doces.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Pelotas"
+      ]
+    },
+    {
+      "id": "porto_de_galinhas",
+      "nome": "Porto de Galinhas",
+      "descricao": "Praia e vila do município de Ipojuca, no litoral sul de Pernambuco, famosa pelas piscinas naturais.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Porto_de_Galinhas"
+      ]
+    },
+    {
+      "id": "ipanema",
+      "nome": "Ipanema",
+      "descricao": "Bairro da zona sul do Rio de Janeiro, à beira-mar, entre o Arpoador e o Leblon.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ipanema"
+      ]
+    },
+    {
+      "id": "bonito",
+      "nome": "Bonito",
+      "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+      "variantes": [
+        "Bonito (Mato Grosso do Sul)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Bonito_(Mato_Grosso_do_Sul)"
+      ]
+    },
+    {
+      "id": "parana_estado",
+      "nome": "Paraná (estado)",
+      "descricao": "Estado da Região Sul do Brasil, com capital em Curitiba.",
+      "variantes": [
+        "Paraná"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Paran%C3%A1"
+      ]
+    },
+    {
+      "id": "petrolina",
+      "nome": "Petrolina",
+      "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Petrolina"
+      ]
+    },
+    {
+      "id": "aracaju",
+      "nome": "Aracaju",
+      "descricao": "Capital do estado de Sergipe, fundada em 1855 com traçado em tabuleiro de xadrez.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Aracaju"
+      ]
+    },
+    {
+      "id": "amazonia_legal",
+      "nome": "Amazônia Legal",
+      "descricao": "Área definida por lei federal para fins de planejamento, que reúne os estados da bacia amazônica e vizinhos.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Amaz%C3%B4nia_Legal"
+      ]
+    },
+    {
+      "id": "regiao_norte_do_brasil",
+      "nome": "Região Norte do Brasil",
+      "descricao": "Maior das cinco grandes regiões do Brasil definidas pelo IBGE, coberta em grande parte pela Floresta Amazônica.",
+      "variantes": [
+        "Região Norte"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Regi%C3%A3o_Norte_do_Brasil"
+      ]
+    },
+    {
+      "id": "fronteira_bolivia_brasil",
+      "nome": "Fronteira Bolívia–Brasil",
+      "descricao": "Fronteira terrestre entre o Brasil e a Bolívia, a mais extensa das fronteiras brasileiras.",
+      "variantes": [
+        "Fronteira Brasil–Bolívia"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Brazil_border"
+      ]
+    },
+    {
+      "id": "boa_vista",
+      "nome": "Boa Vista",
+      "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+      "variantes": [
+        "Boa Vista (Roraima)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Boa_Vista_(Roraima)"
+      ]
+    },
+    {
+      "id": "lagoa_dos_patos",
+      "nome": "Lagoa dos Patos",
+      "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+      "variantes": [
+        "Laguna dos Patos"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lagoa_dos_Patos"
+      ]
+    }
+  ],
+  "variantes": {
+    "belo_horizonte": [
+      "Belo Horizonte",
+      "BH"
+    ],
+    "salvador": [
+      "Salvador",
+      "São Salvador da Bahia de Todos os Santos"
+    ],
+    "copacabana": [
+      "Copacabana"
+    ],
+    "brasilia": [
+      "Brasília"
+    ],
+    "belem": [
+      "Belém",
+      "Santa Maria de Belém do Grão-Pará"
+    ],
+    "acre": [
+      "Acre"
+    ],
+    "plano_piloto_de_brasilia": [
+      "Plano Piloto de Brasília",
+      "Plano Piloto"
+    ],
+    "fordlandia": [
+      "Fordlândia",
+      "Fordlandia"
+    ],
+    "pao_de_acucar": [
+      "Pão de Açúcar",
+      "Morro do Pão de Açúcar"
+    ],
+    "parque_nacional_do_itatiaia": [
+      "Parque Nacional do Itatiaia",
+      "Itatiaia"
+    ],
+    "ponte_hercilio_luz": [
+      "Ponte Hercílio Luz"
+    ],
+    "inhotim": [
+      "Instituto Inhotim",
+      "Inhotim"
+    ],
+    "jalapao": [
+      "Jalapão"
+    ],
+    "pico_da_neblina": [
+      "Pico da Neblina"
+    ],
+    "usina_de_belo_monte": [
+      "Usina Hidrelétrica de Belo Monte",
+      "Belo Monte"
+    ],
+    "arquipelago_de_abrolhos": [
+      "Arquipélago de Abrolhos",
+      "Abrolhos"
+    ],
+    "lencois_maranhenses": [
+      "Lençóis Maranhenses",
+      "Parque Nacional dos Lençóis Maranhenses"
+    ],
+    "rio_tiete": [
+      "Rio Tietê",
+      "Tietê"
+    ],
+    "pororoca": [
+      "Pororoca"
+    ],
+    "ilha_da_queimada_grande": [
+      "Ilha da Queimada Grande",
+      "Ilha das Cobras"
+    ]
+  }
+}

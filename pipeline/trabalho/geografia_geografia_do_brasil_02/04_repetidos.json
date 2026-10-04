@@ -1,0 +1,413 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1957, que urbanista venceu o concurso para o projeto do Plano Piloto de Brasília?",
+        "resposta": "Lúcio Costa"
+      },
+      "existentes": [
+        {
+          "id": "q03187",
+          "pergunta": "Que urbanista venceu o concurso para o Plano Piloto de Brasília, com um desenho comparado a um avião?",
+          "resposta": "Lúcio Costa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No fim do século dezenove, que engenheiro chefiou a comissão que planejou o traçado de Belo Horizonte?",
+        "resposta": "Aarão Reis"
+      },
+      "existentes": [
+        {
+          "id": "q02406",
+          "pergunta": "Antes de ser escolhido para abrigar a nova capital mineira, o arraial onde hoje fica Belo Horizonte tinha que nome curioso?",
+          "resposta": "Curral del-Rei"
+        },
+        {
+          "id": "q02407",
+          "pergunta": "Belo Horizonte foi planejada no fim do século dezenove para substituir qual cidade histórica como capital de Minas Gerais?",
+          "resposta": "Ouro Preto"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1549, quem fundou Salvador, ao chegar à Bahia como primeiro governador-geral do Brasil?",
+        "resposta": "Tomé de Sousa"
+      },
+      "existentes": [
+        {
+          "id": "q00372",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Salvador"
+        },
+        {
+          "id": "q02439",
+          "pergunta": "Salvador foi a primeira capital do Brasil. Em que século ela perdeu esse posto para o Rio de Janeiro?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na ampliação da orla de Copacabana, nos anos 1970, que paisagista foi convidado a modernizar o desenho do calçadão de pedra portuguesa?",
+        "resposta": "Roberto Burle Marx"
+      },
+      "existentes": [
+        {
+          "id": "q01999",
+          "pergunta": "O bairro carioca de Copacabana herdou o nome de uma santa venerada às margens de qual lago sul-americano?",
+          "resposta": "Lago Titicaca"
+        },
+        {
+          "id": "q02408",
+          "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+          "resposta": "Bolívia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No fim dos anos 1920, que industrial americano mandou erguer uma cidade inteira no Pará para plantar seringueiras?",
+        "resposta": "Henry Ford"
+      },
+      "existentes": [
+        {
+          "id": "q01014",
+          "pergunta": "No fim dos anos vinte, em que estado brasileiro Henry Ford fundou a Fordlândia para produzir borracha para pneus?",
+          "resposta": "Pará"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O bondinho do Pão de Açúcar, no Rio de Janeiro, começou a levar passageiros em que década?",
+        "resposta": "Década de 1910"
+      },
+      "existentes": [
+        {
+          "id": "q02102",
+          "pergunta": "Em que ano foi inaugurado o primeiro trecho do bondinho do Pão de Açúcar?",
+          "resposta": "1912"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O Parque Nacional do Itatiaia, na Serra da Mantiqueira, foi o primeiro parque nacional do Brasil. Em que década ele foi criado?",
+        "resposta": "Década de 1930"
+      },
+      "existentes": [
+        {
+          "id": "q04155",
+          "pergunta": "Criado em 1937, o Parque Nacional do Itatiaia, o mais antigo do Brasil, fica em que serra?",
+          "resposta": "Serra da Mantiqueira"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Belém nasceu em torno do Forte do Presépio, erguido por portugueses para assegurar o domínio da Amazônia. Em que século?",
+        "resposta": "Século dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q02419",
+          "pergunta": "O que os nomes das capitais Belém e Natal têm em comum?",
+          "resposta": "Remetem ao nascimento de Jesus"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A Ponte Hercílio Luz, ponte pênsil que é cartão-postal de Florianópolis, foi inaugurada em que década?",
+        "resposta": "Década de 1920"
+      },
+      "existentes": [
+        {
+          "id": "q02036",
+          "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+          "resposta": "Anos 1920"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Durante décadas o Acre foi um território federal. Em que década ele foi finalmente elevado à categoria de estado?",
+        "resposta": "Década de 1960"
+      },
+      "existentes": [
+        {
+          "id": "q02421",
+          "pergunta": "Pelo tratado de 1903 que deu o Acre ao Brasil, o país se comprometeu a construir qual ferrovia na Amazônia?",
+          "resposta": "Madeira-Mamoré"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O Instituto Inhotim, museu de arte contemporânea a céu aberto cercado de jardins, fica em qual município mineiro?",
+        "resposta": "Brumadinho"
+      },
+      "existentes": [
+        {
+          "id": "q03961",
+          "pergunta": "Inhotim, grande museu de arte contemporânea a céu aberto, cercado de jardins, fica em que município mineiro?",
+          "resposta": "Brumadinho"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Dunas alaranjadas, cachoeiras e os fervedouros, poços onde ninguém afunda, são atrações do Jalapão. Em que estado ele fica?",
+        "resposta": "Tocantins"
+      },
+      "existentes": [
+        {
+          "id": "q02087",
+          "pergunta": "Nos fervedouros do Jalapão, no Tocantins, os banhistas não afundam. O que os empurra para cima?",
+          "resposta": "A pressão da água"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O Pico da Neblina, ponto mais alto do Brasil, quase sempre coberto de nuvens, fica em qual estado?",
+        "resposta": "Amazonas"
+      },
+      "existentes": [
+        {
+          "id": "q02069",
+          "pergunta": "Perto da fronteira com a Venezuela, em que estado brasileiro fica o Pico da Neblina?",
+          "resposta": "Amazonas"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "A polêmica usina hidrelétrica de Belo Monte, perto de Altamira, no Pará, foi construída em qual rio?",
+        "resposta": "Xingu"
+      },
+      "existentes": [
+        {
+          "id": "q02163",
+          "pergunta": "A polêmica usina hidrelétrica de Belo Monte, no Pará, foi construída em qual rio?",
+          "resposta": "Rio Xingu"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Segundo a explicação mais conhecida, o Pão de Açúcar lembra a forma de que objeto de barro usado nos engenhos coloniais?",
+        "resposta": "Forma cônica de barro"
+      },
+      "existentes": [
+        {
+          "id": "q02102",
+          "pergunta": "Em que ano foi inaugurado o primeiro trecho do bondinho do Pão de Açúcar?",
+          "resposta": "1912"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O arquipélago baiano de Abrolhos é cercado de recifes perigosos. Segundo a tradição, o nome vem de que alerta aos navegantes?",
+        "resposta": "Abra os olhos"
+      },
+      "existentes": [
+        {
+          "id": "q02195",
+          "pergunta": "Segundo a explicação tradicional, o nome do arquipélago baiano de Abrolhos vem de qual alerta dado aos navegantes por causa dos recifes?",
+          "resposta": "Abre os olhos"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Nos Lençóis Maranhenses, lagoas azuis surgem entre as dunas brancas em parte do ano. De onde vem a água delas?",
+        "resposta": "Da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O rio Tietê nasce a poucos quilômetros do mar, mas corre para o interior paulista. Que barreira de relevo o impede de seguir para o litoral?",
+        "resposta": "Serra do Mar"
+      },
+      "existentes": [
+        {
+          "id": "q02148",
+          "pergunta": "O rio Tietê nasce a cerca de vinte quilômetros do litoral paulista, mas corre para o interior. Que barreira natural explica isso?",
+          "resposta": "Serra do Mar"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A pororoca, onda barulhenta que sobe rios da Amazônia e atrai surfistas, nasce do choque da correnteza do rio com o quê?",
+        "resposta": "A maré do oceano"
+      },
+      "existentes": [
+        {
+          "id": "q02141",
+          "pergunta": "Que encontro de forças provoca a pororoca, a onda que avança rio acima na foz do Amazonas?",
+          "resposta": "Maré oceânica contra a correnteza"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A visita à Ilha da Queimada Grande, no litoral paulista, é proibida ao público por causa de que animais, que vivem ali em grande número?",
+        "resposta": "Cobras venenosas"
+      },
+      "existentes": [
+        {
+          "id": "q02206",
+          "pergunta": "Por que a visitação à ilha da Queimada Grande, no litoral paulista, é proibida ao público?",
+          "resposta": "Excesso de cobras venenosas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03187",
+      "motivo": "Mesmo fato: Lúcio Costa venceu o concurso do Plano Piloto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Engenheiro chefe da comissão é fato diferente do nome antigo e da cidade substituída."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fundador de Salvador é fato diferente das existentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Paisagista do calçadão difere da origem do nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q01014",
+      "motivo": "Henry Ford e Fordlândia no Pará: mesmo fato, direção diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02102",
+      "motivo": "Inauguração do bondinho em 1912; década de 1910 responde ao mesmo fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Década de criação difere da serra onde fica; embora o enunciado existente cite 1937, a pergunta existente pergunta a serra."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Século da fundação difere do significado dos nomes."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q02036",
+      "motivo": "Mesma pergunta: década de inauguração da Ponte Hercílio Luz."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Elevação a estado difere do tratado e da ferrovia."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q03961",
+      "motivo": "Mesma pergunta: município do Inhotim."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Estado do Jalapão difere do porquê de não afundar; o estado é dado no enunciado existente, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q02069",
+      "motivo": "Mesmo fato: estado do Pico da Neblina."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q02163",
+      "motivo": "Mesma pergunta: rio de Belo Monte."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Origem do nome difere do ano do bondinho."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q02195",
+      "motivo": "Mesma origem do nome Abrolhos."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q02075",
+      "motivo": "Mesma pergunta sobre a origem da água das lagoas."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q02148",
+      "motivo": "Mesmo fato: Serra do Mar como barreira do Tietê."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q02141",
+      "motivo": "Mesmo fato: causa da pororoca é a maré contra a correnteza."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q02206",
+      "motivo": "Mesmo fato: proibição por causa das cobras venenosas."
+    }
+  ]
+}
