@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Naruto jovem, claro, sem texto; o símbolo da bandana não entrega o nome.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o mangá deste personagem?",
+      "resposta": "Masashi Kishimoto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Naruto Uzumaki",
+        "descricao": "Protagonista do mangá e anime Naruto, ninja de Konoha com o Nove Caudas selado nele.",
+        "variantes": [
+          "Uzumaki Naruto"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto do Jabba é reconhecível; a silhueta é um bloco sem forma, então usa a imagem colorida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem de Star Wars é este?",
+      "resposta": "Jabba, o Hutt",
+      "distratores": [
+        "Boss Nass",
+        "Watto",
+        "Sebulba"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Jabba, o Hutt",
+        "descricao": "Chefão do crime hutt de Tatooine em Star Wars.",
+        "variantes": [
+          "Jabba Desilijic Tiure",
+          "Jabba the Hutt"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Horácio claro, sem texto; a silhueta é pouco característica (cabeça redonda e corpo pequeno), então usa a imagem colorida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem de quadrinhos é este?",
+      "resposta": "Horácio",
+      "distratores": [
+        "Dino",
+        "Yoshi",
+        "Gon"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Horácio",
+        "descricao": "Filhote de tiranossauro verde, protagonista da Turma do Horácio, de Mauricio de Sousa.",
+        "variantes": [
+          "Horácio, o dinossauro"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mônica aparece com o Sansão no colo, então a silhueta não serve; a imagem colorida é clara e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é o nome do coelho de pelúcia azul que esta personagem leva no colo?",
+      "resposta": "Sansão",
+      "destino": 1,
+      "ancora": {
+        "nome": "Mônica",
+        "descricao": "Protagonista da Turma da Mônica, de Mauricio de Sousa, menina de vestido vermelho e dentuça.",
+        "variantes": [
+          "Mônica de Sousa"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Edna sozinha, de corpo inteiro, com cabelo em tigela e mãos na cintura: silhueta bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta personagem de um filme de animação?",
+      "resposta": "Edna Moda",
+      "destino": 3,
+      "ancora": {
+        "nome": "Edna Moda",
+        "descricao": "Estilista de super-heróis nos filmes Os Incríveis, da Pixar.",
+        "variantes": [
+          "Edna Mode",
+          "E"
+        ]
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Burro bem nítido e sem texto; pergunta sobre o dublador vai além do nome, então usa a imagem colorida.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator deu voz a este personagem na versão original em inglês?",
+      "resposta": "Eddie Murphy",
+      "distratores": [
+        "Mike Myers",
+        "Jim Carrey",
+        "Chris Rock"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Burro (Shrek)",
+        "descricao": "Burro falante e tagarela, melhor amigo do ogro Shrek nos filmes de animação.",
+        "variantes": [
+          "Donkey",
+          "Burro de Shrek"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida; a silhueta redonda com orelhas pontudas pode ser confundida com Clefairy ou Wigglytuff, então usa a imagem colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Wigglytuff",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jigglypuff",
+        "descricao": "Pokémon rosa e redondo do tipo Normal/Fada, que canta para fazer dormir.",
+        "variantes": [
+          "Purin"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A placa no peito traz 'BIZARRO #1' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem do personagem recortada, boné e camiseta reconhecíveis; a silhueta é genérica e cortada embaixo, então usa a imagem colorida. Pergunta sobre o ator vai além do nome.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpretou este personagem do seriado mexicano?",
+      "resposta": "Ramón Valdés",
+      "destino": 2,
+      "ancora": {
+        "nome": "Seu Madruga",
+        "descricao": "Personagem do seriado Chaves, o pai da Chiquinha e vizinho do Chaves, interpretado por Ramón Valdés.",
+        "variantes": [
+          "Seu Ramón",
+          "Don Ramón"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte em linha nítida de fantasminha, sem texto; a silhueta é um fantasma genérico, então usa a imagem colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este fantasminha é amigo de longa data de qual personagem da Turma da Mônica?",
+      "resposta": "Cebolinha",
+      "destino": 1,
+      "ancora": {
+        "nome": "Penadinho",
+        "descricao": "Fantasminha amigo da Turma da Mônica que mora num cemitério, criado por Mauricio de Sousa.",
+        "variantes": [
+          "Penadinho Penoso Penado"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Piteco claro, sem texto; a silhueta tem a clava sobreposta ao corpo e fica confusa, então usa a imagem colorida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem das cavernas é este?",
+      "resposta": "Piteco",
+      "distratores": [
+        "Fred Flintstone",
+        "Grug",
+        "Bolota"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Piteco",
+        "descricao": "Homem das cavernas protagonista da Turma do Piteco, de Mauricio de Sousa.",
+        "variantes": [
+          "Pithecanthropus Erectus da Silva"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto granulada e de baixa qualidade, de um rosto cortado; o personagem não é reconhecível com clareza nem legível num celular. Também não há trecho de apoio."
+    }
+  ]
+}

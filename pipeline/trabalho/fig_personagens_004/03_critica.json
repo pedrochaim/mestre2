@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kishimoto criou Naruto, confirmado nos trechos. O enunciado não nomeia o personagem nem vaza a resposta, e é preciso reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os distratores são de Star Wars, do mesmo tipo e críveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são dinossauros de quadrinhos ou jogos, críveis, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'coelho de pelúcia azul' entrega Sansão sem olhar a figura. Além disso, a imagem pode não mostrar o coelho no colo. A reescrita tira a descrição do coelho e pede o brinquedo preferido, que só se alcança depois de reconhecer a Mônica.",
+      "reescrita": {
+        "pergunta": "Qual é o nome do brinquedo preferido desta personagem?",
+        "resposta": "Sansão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Amigo de longa data' é vago, e o Penadinho tem outros amigos na Turma da Mônica, então a resposta não é única. Os trechos sustentam com precisão que ele estreou em 1963 nas tirinhas do Cebolinha.",
+      "reescrita": {
+        "pergunta": "Em 1963, este fantasminha estreou nas tirinhas de qual personagem da Turma da Mônica?",
+        "resposta": "Cebolinha",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1. O enunciado não nomeia a personagem, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eddie Murphy dublou o Burro na versão original, segundo os trechos. Os distratores são atores plausíveis e nenhum dublou o Burro. Mike Myers dubla o Shrek, não o Burro.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jigglypuff evolui apenas para Wigglytuff, conforme os trechos. O enunciado não vaza a resposta e exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ramón Valdés interpretou o Seu Madruga, segundo os trechos, e Chaves é mexicano. O enunciado não vaza a resposta e exige reconhecer o personagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. 'Das cavernas' é só categoria, e os distratores são personagens pré-históricos críveis, nenhum correto para a imagem.",
+      "reescrita": null
+    }
+  ]
+}
