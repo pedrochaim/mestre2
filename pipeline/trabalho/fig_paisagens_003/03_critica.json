@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaimbezinho confirmado nos trechos; enunciado sem vazamento; distratores são outros cânions reais, nenhum correto para esta imagem, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Vista de satélite\" não consta em `mostra`, então não dá para garantir que seja verdadeiro para esta foto. Removido.",
+      "reescrita": {
+        "pergunta": "Que baía brasileira é esta?",
+        "resposta": "Baía de Guanabara"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cratera no norte do Arizona, confirmada nos trechos. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Famoso por uma lenda\" entrega o lago (Nessie) sem olhar a figura. Troquei por uma pista que só ajuda: o continente.",
+      "reescrita": {
+        "pergunta": "Em que país da Europa fica este lago?",
+        "resposta": "Escócia"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Taça de arenito\" é o símbolo do parque e entrega a resposta com a imagem coberta. Além disso, um distrator tinha 5 palavras. Pista retirada e distratores encurtados.",
+      "reescrita": {
+        "pergunta": "Que parque brasileiro de rochas esculpidas pela erosão é este?",
+        "resposta": "Vila Velha",
+        "distratores": [
+          "Sete Cidades",
+          "Serra da Capivara",
+          "Chapada Diamantina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista da antiga linha de costa descreve o Skógafoss especificamente e pode entregá-lo sem a figura. Pergunta simplificada para reconhecimento.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta cachoeira?",
+        "resposta": "Islândia"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corcovado confirmado nos trechos; o enunciado é curto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "El Capitan fica no Parque Nacional de Yosemite, segundo os trechos. Distratores são parques americanos de mesmo tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A Serra dos Órgãos é uma região da Serra do Mar, então \"de que serra faz parte\" admite Serra do Mar e a resposta fica ambígua. A pergunta também é circular e o conserto é incerto.",
+      "reescrita": null
+    }
+  ]
+}

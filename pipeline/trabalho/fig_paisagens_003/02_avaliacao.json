@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto aérea de áreas alagadas genéricas; pode ser outra planície alagável, não há traço que identifique o Pantanal com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Silhueta distante e escura de uma ilha ao anoitecer; pouco legível no celular e difícil de reconhecer como Capri."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cânion com araucárias no topo, reconhecível; múltipla para distinguir de outros cânions parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cânion do sul do Brasil é este?",
+      "resposta": "Itaimbezinho",
+      "distratores": [
+        "Fortaleza",
+        "Guartelá",
+        "Malacara"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Cânion Itaimbezinho",
+        "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre o Rio Grande do Sul e Santa Catarina.",
+        "variantes": [
+          "Itaimbezinho",
+          "Canyon Itaimbezinho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com a baía, o aeroporto e a costa bem legíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que baía brasileira, vista de satélite, é esta?",
+      "resposta": "Baía de Guanabara",
+      "destino": 3,
+      "ancora": {
+        "nome": "Baía de Guanabara",
+        "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
+        "variantes": [
+          "Guanabara Bay"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida e inconfundível da cratera, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que estado americano fica esta cratera de impacto?",
+      "resposta": "Arizona",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera do Meteoro",
+        "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer",
+          "Barringer Crater"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um mapa de localização com um ponto minúsculo; não mostra a paisagem e não fica legível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lago com as ruínas do castelo de Urquhart, cenário característico, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este lago, famoso por uma lenda?",
+      "resposta": "Escócia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Ness",
+        "descricao": "Grande lago de água doce nas Terras Altas da Escócia, famoso pela lenda do monstro de Nessie.",
+        "variantes": [
+          "Loch Ness"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "A Taça é uma formação icônica de Vila Velha, sem texto; múltipla com parques de relevo singular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que parque brasileiro de formações rochosas esculpidas pela erosão tem esta taça de arenito?",
+      "resposta": "Parque Estadual de Vila Velha",
+      "distratores": [
+        "Parque Nacional Sete Cidades",
+        "Parque Estadual do Itacolomi",
+        "Parque Nacional Serra da Capivara"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Vila Velha (Paraná)",
+        "descricao": "Parque estadual em Ponta Grossa, no Paraná, conhecido pelas formações de arenito como a Taça.",
+        "variantes": [
+          "Parque Estadual de Vila Velha",
+          "Taça de Vila Velha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cachoeira inconfundível; as pessoas aparecem pequenas e distantes, sem destaque.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta cachoeira, que marca uma antiga linha de costa?",
+      "resposta": "Islândia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Skógafoss",
+        "descricao": "Cachoeira do rio Skógá, no sul da Islândia, junto a um antigo penhasco costeiro.",
+        "variantes": [
+          "Skogafoss"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Morro com a estátua no topo, nítido e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que morro brasileiro é este?",
+      "resposta": "Corcovado",
+      "destino": 3,
+      "ancora": {
+        "nome": "Corcovado",
+        "descricao": "Morro granítico de 710 metros na Floresta da Tijuca, no Rio de Janeiro, com a estátua do Cristo Redentor.",
+        "variantes": [
+          "Morro do Corcovado"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Parede de granito característica, sem texto; múltipla com parques americanos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que parque nacional americano fica esta parede de granito?",
+      "resposta": "Yosemite",
+      "distratores": [
+        "Yellowstone",
+        "Grand Canyon",
+        "Sequoia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "El Capitan",
+        "descricao": "Monólito de granito de cerca de 900 metros no Vale de Yosemite, na Califórnia, famoso pela escalada.",
+        "variantes": [
+          "El Capitán"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Picos de granito característicos da serra, nítidos e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que serra fluminense faz parte este conjunto de picos?",
+      "resposta": "Serra dos Órgãos",
+      "destino": 3,
+      "ancora": {
+        "nome": "Serra dos Órgãos",
+        "descricao": "Cadeia de montanhas do estado do Rio de Janeiro, onde fica o parque nacional de mesmo nome.",
+        "variantes": [
+          "Serra dos Orgaos"
+        ]
+      }
+    }
+  ]
+}
