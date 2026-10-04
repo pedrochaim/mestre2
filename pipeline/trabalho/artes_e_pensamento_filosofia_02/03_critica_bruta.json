@@ -1,0 +1,383 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plauto escreveu em Asinaria a variação do provérbio, como mostram as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Máxima de Protágoras, com distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Frase do rio é famosa e atribuída a Heráclito de Éfeso; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sartre escreveu Huis clos em 1944, com a frase citada.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Beauvoir, O Segundo Sexo, 1949, frase confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sapere aude vem das Epístolas de Horácio e foi usado por Kant.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diderot e d'Alembert editaram a Encyclopédie.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pascal construiu a Pascalina para ajudar o pai, supervisor de impostos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paradoxo de Aquiles é de Zenão de Eleia; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bauman introduziu a modernidade líquida.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Philippa Foot, 1967, filósofa inglesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Na entrada' é impreciso e 'templo' vaza parte da resposta; melhor perguntar a cidade.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A máxima conhece-te a ti mesmo, que Sócrates tomou como guia, estava inscrita num famoso santuário grego. Em que cidade?",
+        "resposta": "Delfos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Know_thyself"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato fraco: local de nascimento incerto e resposta óbvia (Inglaterra).",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Königsberg é hoje Kaliningrado, na Rússia.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Família fugitiva da Inquisição de Portugal.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Avicena nasceu perto de Bucara, hoje no Uzbequistão.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda da morte no Etna, bem sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onze meses na Bastilha por versos contra o regente.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Biblioteca de Montaigne ficava numa torre do castelo, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Instituto foi a Genebra e depois a Nova York em 1935.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado em Leiden, nos Países Baixos, onde Descartes viveu cerca de vinte anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A conversão no jardim ocorreu em Milão, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bruno foi queimado em 1600; distratores datados de forma plausível.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar só o século é fácil demais; o ano 1762 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O Contrato Social, de Rousseau, abre dizendo que o homem nasce livre e por toda parte está acorrentado. Em que ano foi publicado?",
+        "resposta": "1762",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Social_Contract"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sartre recusou o Nobel em 1964, ano do golpe no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eclipse de 585 a.C., sexto século antes de Cristo.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta óbvia: o exército austro-húngaro só implica a Primeira Guerra Mundial.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voltaire morreu em 30 de maio e Rousseau em 2 de julho de 1778.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Instituto fundado em 1923, década de 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Mundo de Sofia é de 1991.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Utopia vem do grego e significa lugar nenhum.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A escola de Epicuro era chamada O Jardim.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stoa Poikile era um pórtico pintado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cínico vem de kyon, cão; bem documentado e consistente com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paradoxo leva o nome de Teseu.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aristóteles foi tutor de Alexandre a pedido de Filipe II.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kant creditou Hume por despertá-lo do sono dogmático.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Carta de Hegel sobre Napoleão em Jena, alma do mundo, é famosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos nasceram em Córdoba no século doze.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sócrates morreu bebendo cicuta em 399 a.C.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "More foi executado por recusar a supremacia de Henrique VIII.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Terremoto de Lisboa de 1755 inspirou Cândido.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Visigodos saquearam Roma em 410.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nietzsche tinha 24 anos em 1869.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Tractatus tem sete proposições principais.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz 17 ou 18 anos; melhor evitar a idade imprecisa no enunciado.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Aristóteles entrou jovem na Academia de Platão e só saiu depois da morte do mestre. Por quanto tempo, aproximadamente, ele ficou lá?",
+        "resposta": "Cerca de vinte anos",
+        "distratores": [
+          "Cerca de dois anos",
+          "Cerca de oito anos",
+          "Cerca de quarenta anos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aristotle"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alegoria da caverna, no livro sete de A República.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sólon, legislador ateniense, está na lista dos Sete Sábios.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confúcio (c. 551 a.C.) é anterior aos três gregos.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Camus era goleiro da seleção universitária, segundo a fonte em português.",
+      "reescrita": null
+    }
+  ]
+}
