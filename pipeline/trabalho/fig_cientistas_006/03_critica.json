@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Nobel de 1904 foi pelo trabalho sobre a fisiologia da digestão. O enunciado não nomeia a entidade e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gravura' e 'instrumento de medir ângulos' não constam em `mostra` e não podem ser verificados. Tirei esses detalhes e deixei só época e contexto, que ajudam sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que astrônomo greco-romano do século dois é este?",
+        "resposta": "Ptolomeu",
+        "distratores": [
+          "Hiparco",
+          "Aristarco de Samos",
+          "Eratóstenes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Watson é biólogo molecular americano, como dizem os trechos. O enunciado não vaza a resposta e os distratores são cientistas do DNA, críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poincaré era matemático francês, como dizem os trechos. Os distratores são matemáticos franceses da mesma época e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hubble era astrônomo americano, como dizem os trechos. Os distratores são astrônomos americanos críveis e nenhum deles também é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Benz era engenheiro alemão, como dizem os trechos. Os distratores são engenheiros alemães de motores, críveis, e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retratado numa pintura' não consta em `mostra` e não pode ser verificado. Substituí por época (1744 a 1829), que ajuda sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que naturalista francês, que viveu entre os séculos dezoito e dezenove, é este?",
+        "resposta": "Jean-Baptiste de Lamarck",
+        "distratores": [
+          "Georges Cuvier",
+          "Conde de Buffon",
+          "Geoffroy Saint-Hilaire"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De chapéu claro' é um detalhe da imagem que não consta em `mostra` e não pode ser verificado. Removi esse detalhe.",
+      "reescrita": {
+        "pergunta": "Quem é este matemático alemão?",
+        "resposta": "David Hilbert"
+      }
+    }
+  ]
+}

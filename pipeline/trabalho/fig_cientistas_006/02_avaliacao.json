@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, Pavlov é reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este fisiologista russo ganhou o Nobel por pesquisas sobre a fisiologia de qual sistema do corpo?",
+      "resposta": "Digestão (sistema digestório)",
+      "destino": 3,
+      "ancora": {
+        "nome": "Ivan Pavlov",
+        "descricao": "Fisiologista russo, descobridor do condicionamento clássico e Nobel de Fisiologia ou Medicina de 1904.",
+        "variantes": [
+          "Ivan Petrovich Pavlov",
+          "Pavlov"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gravura clássica de Ptolomeu, sem texto identificador; os números são só da escala do instrumento. Em múltipla escolha fica justo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que astrônomo da Antiguidade greco-romana é este, representado numa gravura com um instrumento de medir ângulos?",
+      "resposta": "Ptolomeu",
+      "distratores": [
+        "Hiparco",
+        "Aristarco de Samos",
+        "Eratóstenes"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Ptolomeu",
+        "descricao": "Astrônomo, geógrafo e astrólogo greco-romano do século dois, autor do Almagesto.",
+        "variantes": [
+          "Cláudio Ptolomeu",
+          "Claudius Ptolemy",
+          "Ptolemy"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de um senhor lendo, sem traço que permita reconhecer Mário Schenberg; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O fundo mostra parte do texto \"WOZ\", que entrega o nome."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; múltipla com cientistas da mesma área.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este biólogo molecular americano?",
+      "resposta": "James Watson",
+      "distratores": [
+        "Francis Crick",
+        "Linus Pauling",
+        "Maurice Wilkins"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "James Watson",
+        "descricao": "Biólogo molecular americano, codescobridor da estrutura em dupla hélice do DNA e Nobel de 1962.",
+        "variantes": [
+          "James Dewey Watson"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de época, texto minúsculo de gráfica que não entrega o nome; múltipla escolha com matemáticos franceses.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este matemático francês?",
+      "resposta": "Henri Poincaré",
+      "distratores": [
+        "Jacques Hadamard",
+        "Henri Lebesgue",
+        "Élie Cartan"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Henri Poincaré",
+        "descricao": "Matemático, físico teórico e filósofo da ciência francês, pioneiro da teoria do caos.",
+        "variantes": [
+          "Jules Henri Poincaré",
+          "Poincare"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O desenho traz a inscrição \"LEONARDO VINCI\", que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido com cachimbo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que astrônomo americano é este?",
+      "resposta": "Edwin Hubble",
+      "distratores": [
+        "Carl Sagan",
+        "Harlow Shapley",
+        "Percival Lowell"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Edwin Hubble",
+        "descricao": "Astrônomo americano que demonstrou a existência de galáxias além da Via Láctea e a expansão do universo.",
+        "variantes": [
+          "Edwin Powell Hubble"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato de perfil de uma astrônoma pouco conhecida; sem traços que permitam reconhecê-la pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato colorizado nítido, sem texto; múltipla com pioneiros alemães do motor.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro alemão é este?",
+      "resposta": "Karl Benz",
+      "distratores": [
+        "Gottlieb Daimler",
+        "Rudolf Diesel",
+        "Nikolaus Otto"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Karl Benz",
+        "descricao": "Engenheiro alemão, construtor do Benz Patent-Motorwagen, considerado o primeiro automóvel prático.",
+        "variantes": [
+          "Carl Benz",
+          "Carl Friedrich Benz",
+          "Karl Friedrich Benz"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto; múltipla com naturalistas franceses.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naturalista francês é este, retratado numa pintura?",
+      "resposta": "Jean-Baptiste de Lamarck",
+      "distratores": [
+        "Georges Cuvier",
+        "Conde de Buffon",
+        "Geoffroy Saint-Hilaire"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Jean-Baptiste de Lamarck",
+        "descricao": "Naturalista francês, pioneiro da ideia de evolução biológica.",
+        "variantes": [
+          "Lamarck",
+          "Jean-Baptiste Lamarck"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e característica (chapéu claro), sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este matemático alemão, de chapéu claro?",
+      "resposta": "David Hilbert",
+      "destino": 2,
+      "ancora": {
+        "nome": "David Hilbert",
+        "descricao": "Matemático alemão que apresentou em 1900 uma lista de problemas que orientou a matemática do século vinte.",
+        "variantes": [
+          "Hilbert"
+        ]
+      }
+    }
+  ]
+}
