@@ -1,0 +1,414 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não sustenta a transmissão ao vivo no Brasil; troco por fato presente no trecho (estreia dos cartões em 1970).",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano, numa Copa disputada no México, os cartões amarelo e vermelho foram usados pela primeira vez?",
+        "resposta": "1970",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1970"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O intervalo 1958 a 2002 praticamente entrega a resposta; reformulo pedindo o país.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Entre os cinco títulos mundiais do Brasil, só um foi conquistado na Europa. Em que país?",
+        "resposta": "Suécia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1958",
+          "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta, distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte em desambiguação; troco pela URL correta do jogador.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "No Barcelona, o trio de ataque conhecido como MSN juntava Messi, Neymar e qual atacante uruguaio?",
+        "resposta": "Luis Suárez",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1987)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estrela Solitária sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz duas figuras humanas segurando a Terra.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta e única.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta e única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta e única.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O escudo também tem uma boia, ligada à navegação, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'vermelho, verde e branco' é praticamente a mesma coisa que encarnado; troco distratores.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O Fluminense é chamado de tricolor. Quais são as três cores do clube carioca?",
+        "resposta": "Grená, verde e branco",
+        "distratores": [
+          "Preto, verde e branco",
+          "Grená, azul e branco",
+          "Amarelo, verde e branco"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Fluminense_Football_Club"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estrelas representam títulos mundiais, fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pernas tortas sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regra descrita corretamente.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Altitude sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Críticas ao comportamento imprevisível confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Política basca amplamente documentada e confirmada na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Azul confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goleiro artilheiro, correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conexão correta e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Camus foi goleiro e Yashin também, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pai e filho compartilham vários feitos como capitães, a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Foram casados, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Irmãos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quintino confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em inglês caiu em desambiguação; corrijo a URL.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Depois de brilhar no Flamengo, Zico virou ídolo e ajudou a profissionalizar o futebol de qual país asiático?",
+        "resposta": "Japão",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Zico",
+          "https://en.wikipedia.org/wiki/Zico_(footballer)"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Defesa escorpião confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ele chefiou a delegação, não a seleção; correção de precisão.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Homenageado no nome oficial do Pacaembu, Paulo Machado de Carvalho chefiou a delegação brasileira nas Copas de 1958 e 1962 e ganhou qual apelido?",
+        "resposta": "Marechal da Vitória",
+        "distratores": [
+          "General do Bi",
+          "Almirante da Copa",
+          "Comandante Canarinho"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Paulo_Machado_de_Carvalho"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelé era ministro do Esporte, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casa de Saboia confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rossi fez os três gols, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Händel e Zadok the Priest confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dez associações confirmado.",
+      "reescrita": null
+    }
+  ]
+}

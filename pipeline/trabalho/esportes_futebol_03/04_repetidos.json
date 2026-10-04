@@ -1,0 +1,163 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre os cinco títulos mundiais do Brasil, só um foi conquistado na Europa. Em que país?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q00726",
+          "pergunta": "Quem era o técnico da seleção brasileira na conquista da Copa de 1958, na Suécia?",
+          "resposta": "Vicente Feola"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na Copa de 2002, no Japão e na Coreia do Sul, quem terminou como artilheiro do torneio, com oito gols?",
+        "resposta": "Ronaldo Fenômeno"
+      },
+      "existentes": [
+        {
+          "id": "q01665",
+          "pergunta": "Este ex-atacante foi eleito melhor jogador do mundo pela FIFA aos vinte anos, quando jogava por qual clube?",
+          "resposta": "Barcelona"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Depois de mais de um século sem patrocínio na camisa, o Barcelona estampou em 2006, pagando em vez de receber, o nome de qual entidade?",
+        "resposta": "Unicef"
+      },
+      "existentes": [
+        {
+          "id": "q00733",
+          "pergunta": "O Barcelona foi fundado em 1899 por um grupo liderado por um suíço apaixonado por futebol. Qual era o nome dele?",
+          "resposta": "Joan Gamper"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na camisa amarela da seleção brasileira, o que representa cada estrela bordada acima do escudo?",
+        "resposta": "Um título de Copa do Mundo"
+      },
+      "existentes": [
+        {
+          "id": "q00045",
+          "pergunta": "Nos anos cinquenta, a seleção brasileira abandonou o uniforme branco e adotou o amarelo por causa de qual derrota?",
+          "resposta": "Maracanazo, contra o Uruguai"
+        },
+        {
+          "id": "q00734",
+          "pergunta": "Em 1953, um concurso de jornal escolheu o novo uniforme da seleção. Quem desenhou a camisa amarela vencedora?",
+          "resposta": "Aldyr Garcia Schlee"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Garrincha driblava como poucos, apesar de uma característica física que muitos médicos viam como defeito. Qual era?",
+        "resposta": "Pernas tortas"
+      },
+      "existentes": [
+        {
+          "id": "q00031",
+          "pergunta": "O apelido de Garrincha, ídolo do Botafogo, é também o nome popular de que tipo de animal?",
+          "resposta": "Um pássaro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O que o escritor Albert Camus, Nobel de Literatura, e o soviético Lev Yashin têm em comum no futebol?",
+        "resposta": "Ambos foram goleiros"
+      },
+      "existentes": [
+        {
+          "id": "q04750",
+          "pergunta": "Antes de a tuberculose interromper sua vida de atleta, o jovem Albert Camus jogou futebol em Argel. Em que posição?",
+          "resposta": "Goleiro"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A seleção italiana joga de azul em homenagem à cor de qual dinastia que reinou na Itália?",
+        "resposta": "Casa de Savoia"
+      },
+      "existentes": [
+        {
+          "id": "q00715",
+          "pergunta": "Qual foi a primeira seleção a vencer duas Copas do Mundo seguidas, ainda nos anos trinta?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Copa de 1950, no Brasil, aconteceu doze anos depois da edição anterior. Que acontecimento causou esse longo intervalo?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q00752",
+          "pergunta": "A Copa de 1950, no Brasil, não teve uma final oficial. Em que formato foi decidido o campeão?",
+          "resposta": "Num quadrangular final"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país do único título europeu; a existente pergunta o técnico em 1958. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Artilheiro de 2002 versus clube em que foi eleito melhor do mundo; fatos distintos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Patrocínio na camisa versus fundador do clube."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado das estrelas versus origem do uniforme amarelo e seu desenhista."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Característica física versus significado do apelido."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A nova pergunta liga Camus e Yashin como goleiros; a existente pergunta a posição de Camus. Quem soubesse a posição de Camus poderia deduzir, mas a nova exige conhecer também Yashin. Em caso de dúvida, nova."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cor azul e Casa de Savoia versus primeira bicampeã mundial."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Causa do intervalo versus formato da decisão em 1950."
+    }
+  ]
+}

@@ -86163,5 +86163,696 @@
       "autor": "Autor desconhecido",
       "licenca": "GFDL 1.2"
     }
+  },
+  {
+    "id": "q05089",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_1970",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 1970, no México, qual jogador brasileiro marcou gol em todas as seis partidas da seleção?",
+    "resposta": "Jairzinho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jairzinho",
+      "https://en.wikipedia.org/wiki/Jairzinho"
+    ]
+  },
+  {
+    "id": "q05090",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_1970",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano, numa Copa disputada no México, os cartões amarelo e vermelho foram usados pela primeira vez?",
+    "resposta": "1970",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1970"
+    ]
+  },
+  {
+    "id": "q05091",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_1958",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Entre os cinco títulos mundiais do Brasil, só um foi conquistado na Europa. Em que país?",
+    "resposta": "Suécia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1958",
+      "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+    ]
+  },
+  {
+    "id": "q05092",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "santos_futebol_clube",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Em 1962, que clube se tornou o primeiro brasileiro a conquistar a Copa Libertadores da América?",
+    "resposta": "Santos",
+    "distratores": [
+      "Palmeiras",
+      "Cruzeiro",
+      "Botafogo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1962_Copa_Libertadores",
+      "https://pt.wikipedia.org/wiki/Santos_Futebol_Clube"
+    ]
+  },
+  {
+    "id": "q05093",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "ronaldo_fenomeno",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 2002, no Japão e na Coreia do Sul, quem terminou como artilheiro do torneio, com oito gols?",
+    "resposta": "Ronaldo Fenômeno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup",
+      "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+    ]
+  },
+  {
+    "id": "q05094",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_marroquina_de_futebol",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na Copa de 2022, no Catar, que seleção se tornou a primeira africana a chegar a uma semifinal de Copa do Mundo?",
+    "resposta": "Marrocos",
+    "distratores": [
+      "Senegal",
+      "Gana",
+      "Camarões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Morocco_national_football_team",
+      "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q05095",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_sul_coreana_de_futebol",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 2002, qual dos dois países anfitriões foi mais longe, chegando à semifinal?",
+    "resposta": "Coreia do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Korea_national_football_team",
+      "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q05096",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "sheffield_fc",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Fundado em 1857, qual clube inglês é reconhecido pela FIFA como o mais antigo clube de futebol do mundo?",
+    "resposta": "Sheffield FC",
+    "distratores": [
+      "Nottingham Forest",
+      "Aston Villa",
+      "Blackburn Rovers"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sheffield_F.C."
+    ]
+  },
+  {
+    "id": "q05097",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_da_inglaterra",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Disputado desde 1871, qual é o torneio nacional de futebol mais antigo do mundo?",
+    "resposta": "Copa da Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FA_Cup"
+    ]
+  },
+  {
+    "id": "q05098",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "trio_msn",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Barcelona, o trio de ataque conhecido como MSN juntava Messi, Neymar e qual atacante uruguaio?",
+    "resposta": "Luis Suárez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1987)"
+    ]
+  },
+  {
+    "id": "q05099",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "botafogo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que figura branca aparece no escudo preto do Botafogo e virou um dos apelidos do clube carioca?",
+    "resposta": "A Estrela Solitária",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Botafogo_de_Futebol_e_Regatas"
+    ]
+  },
+  {
+    "id": "q05100",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "taca_fifa",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O troféu entregue ao campeão da Copa do Mundo desde 1974 mostra duas figuras humanas sustentando o quê?",
+    "resposta": "O globo terrestre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy"
+    ]
+  },
+  {
+    "id": "q05101",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "classico_dos_milhoes",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Rio de Janeiro, o Clássico dos Milhões é o duelo entre o Flamengo e qual rival?",
+    "resposta": "Vasco da Gama",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Clássico_dos_Milhões"
+    ]
+  },
+  {
+    "id": "q05102",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "derby_della_madonnina",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Itália, o clássico chamado Derby della Madonnina opõe o Milan a qual clube?",
+    "resposta": "Inter de Milão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Derby_della_Madonnina"
+    ]
+  },
+  {
+    "id": "q05103",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "old_firm",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Celtic, de Glasgow, enfrenta seu maior rival da mesma cidade no clássico chamado Old Firm. Qual é esse rival?",
+    "resposta": "Rangers",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Old_Firm"
+    ]
+  },
+  {
+    "id": "q05104",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "fluminense",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O Fluminense é chamado de tricolor. Quais são as três cores do clube carioca?",
+    "resposta": "Grená, verde e branco",
+    "distratores": [
+      "Preto, verde e branco",
+      "Grená, azul e branco",
+      "Amarelo, verde e branco"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fluminense_Football_Club"
+    ]
+  },
+  {
+    "id": "q05105",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "ac_milan",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Milan do fim dos anos oitenta, o famoso trio holandês tinha Gullit, Van Basten e qual volante?",
+    "resposta": "Frank Rijkaard",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AC_Milan",
+      "https://en.wikipedia.org/wiki/Frank_Rijkaard"
+    ]
+  },
+  {
+    "id": "q05106",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "futbol_club_barcelona",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Depois de mais de um século sem patrocínio na camisa, o Barcelona estampou em 2006, pagando em vez de receber, o nome de qual entidade?",
+    "resposta": "Unicef",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FC_Barcelona"
+    ]
+  },
+  {
+    "id": "q05107",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "camisa_canarinho",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na camisa amarela da seleção brasileira, o que representa cada estrela bordada acima do escudo?",
+    "resposta": "Um título de Copa do Mundo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+    ]
+  },
+  {
+    "id": "q05108",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "garrincha",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Garrincha driblava como poucos, apesar de uma característica física que muitos médicos viam como defeito. Qual era?",
+    "resposta": "Pernas tortas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Garrincha",
+      "https://en.wikipedia.org/wiki/Garrincha"
+    ]
+  },
+  {
+    "id": "q05109",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "gol_de_ouro",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pela regra do gol de ouro, usada nas Copas de 1998 e 2002, o que acontecia quando um time marcava na prorrogação?",
+    "resposta": "O jogo terminava na hora",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_goal"
+    ]
+  },
+  {
+    "id": "q05110",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_hernando_siles",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O Estádio Hernando Siles, em La Paz, onde joga a seleção boliviana, castiga os visitantes por qual característica?",
+    "resposta": "A altitude elevada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estadio_Hernando_Siles"
+    ]
+  },
+  {
+    "id": "q05111",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "jabulani",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A Jabulani, bola da Copa de 2010, foi muito criticada por goleiros por causa de qual característica?",
+    "resposta": "Trajetória imprevisível",
+    "distratores": [
+      "Peso excessivo",
+      "Cor difícil de enxergar",
+      "Quique muito baixo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adidas_Jabulani"
+    ]
+  },
+  {
+    "id": "q05112",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "athletic_bilbao",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O Athletic Bilbao, da Espanha, é famoso por uma política de só escalar jogadores ligados a qual região?",
+    "resposta": "País Basco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+    ]
+  },
+  {
+    "id": "q05113",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "liverpool_football_club",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que canção, nascida num musical da Broadway, virou o hino entoado pela torcida do Liverpool?",
+    "resposta": "You'll Never Walk Alone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/You%27ll_Never_Walk_Alone",
+      "https://en.wikipedia.org/wiki/Liverpool_F.C."
+    ]
+  },
+  {
+    "id": "q05114",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "final_da_copa_do_mundo_de_1958",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na final da Copa de 1958, contra a anfitriã Suécia, de que cor era a camisa usada pelo Brasil?",
+    "resposta": "Azul",
+    "distratores": [
+      "Amarela",
+      "Branca",
+      "Verde"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_final"
+    ]
+  },
+  {
+    "id": "q05115",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "jose_luis_chilavert",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O paraguaio José Luis Chilavert marcou dezenas de gols cobrando faltas e pênaltis, embora jogasse em qual posição?",
+    "resposta": "Goleiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jos%C3%A9_Luis_Chilavert"
+    ]
+  },
+  {
+    "id": "q05116",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "final_da_copa_do_mundo_de_2002",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a final da Copa de 2002, no Japão, e a semifinal da Copa de 2014, em Belo Horizonte, têm em comum?",
+    "resposta": "O duelo Brasil contra Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_final",
+      "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+    ]
+  },
+  {
+    "id": "q05117",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "albert_camus",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o escritor Albert Camus, Nobel de Literatura, e o soviético Lev Yashin têm em comum no futebol?",
+    "resposta": "Ambos foram goleiros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Albert_Camus",
+      "https://en.wikipedia.org/wiki/Lev_Yashin"
+    ]
+  },
+  {
+    "id": "q05118",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "elza_soares",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que relação pessoal existiu entre a cantora Elza Soares e o craque Garrincha, ídolo do Botafogo?",
+    "resposta": "Foram casados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elza_Soares",
+      "https://pt.wikipedia.org/wiki/Elza_Soares"
+    ]
+  },
+  {
+    "id": "q05119",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "mario_filho",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O jornalista Mário Filho, que dá nome ao Maracanã, tinha qual parentesco com o dramaturgo Nelson Rodrigues?",
+    "resposta": "Eram irmãos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mário_Filho",
+      "https://en.wikipedia.org/wiki/Mário_Filho"
+    ]
+  },
+  {
+    "id": "q05120",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "zico",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Zico, ídolo do Flamengo, ganhou o apelido de Galinho por causa do jeito franzino. Galinho de qual bairro carioca?",
+    "resposta": "Quintino",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zico"
+    ]
+  },
+  {
+    "id": "q05121",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "zico",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Depois de brilhar no Flamengo, Zico virou ídolo e ajudou a profissionalizar o futebol de qual país asiático?",
+    "resposta": "Japão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zico",
+      "https://en.wikipedia.org/wiki/Zico_(footballer)"
+    ]
+  },
+  {
+    "id": "q05122",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_neerlandesa_de_futebol",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A seleção holandesa de 1974 ganhou um apelido emprestado do título de um filme de Stanley Kubrick. Qual?",
+    "resposta": "Laranja Mecânica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Seleção_Neerlandesa_de_Futebol"
+    ]
+  },
+  {
+    "id": "q05123",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "rene_higuita",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1995, em Wembley, o goleiro colombiano René Higuita defendeu um chute com os calcanhares, por cima das costas. Como o lance ficou conhecido?",
+    "resposta": "Defesa escorpião",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ren%C3%A9_Higuita",
+      "https://en.wikipedia.org/wiki/Scorpion_kick"
+    ]
+  },
+  {
+    "id": "q05124",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "paulo_machado_de_carvalho",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Homenageado no nome oficial do Pacaembu, Paulo Machado de Carvalho chefiou a delegação brasileira nas Copas de 1958 e 1962 e ganhou qual apelido?",
+    "resposta": "Marechal da Vitória",
+    "distratores": [
+      "General do Bi",
+      "Almirante da Copa",
+      "Comandante Canarinho"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Paulo_Machado_de_Carvalho"
+    ]
+  },
+  {
+    "id": "q05125",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_santiago_bernabeu",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O estádio do Real Madrid homenageia Santiago Bernabéu, que jogou no clube e depois ocupou qual cargo por mais de trinta anos?",
+    "resposta": "Presidente do clube",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u",
+      "https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium"
+    ]
+  },
+  {
+    "id": "q05126",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "lei_pele",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A Lei Pelé, de 1998, que previu o fim do passe dos jogadores, leva esse nome porque o Rei ocupava qual cargo no governo?",
+    "resposta": "Ministro do Esporte",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lei_Pelé"
+    ]
+  },
+  {
+    "id": "q05127",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "bebeto",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 1994, Bebeto comemorou um gol contra a Holanda balançando os braços como se embalasse um bebê. O que motivou o gesto?",
+    "resposta": "O nascimento do filho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bebeto"
+    ]
+  },
+  {
+    "id": "q05128",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_italiana_de_futebol",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A seleção italiana joga de azul em homenagem à cor de qual dinastia que reinou na Itália?",
+    "resposta": "Casa de Savoia",
+    "distratores": [
+      "Casa de Médici",
+      "Casa de Bourbon",
+      "Casa de Habsburgo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Italy_national_football_team",
+      "https://en.wikipedia.org/wiki/Savoy_blue"
+    ]
+  },
+  {
+    "id": "q05129",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_1950",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Copa de 1950, no Brasil, aconteceu doze anos depois da edição anterior. Que acontecimento causou esse longo intervalo?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q05130",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "final_da_copa_do_mundo_de_2006",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na final da Copa de 2006, em Berlim, por que o francês Zinédine Zidane foi expulso na prorrogação?",
+    "resposta": "Deu uma cabeçada em Materazzi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_final"
+    ]
+  },
+  {
+    "id": "q05131",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "premier_league",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Premier League, que substituiu a antiga primeira divisão do futebol inglês, foi criada em qual ano?",
+    "resposta": "1992",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Premier_League"
+    ]
+  },
+  {
+    "id": "q05132",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "futebol_feminino_no_brasil",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Proibido por decreto no Brasil em 1941, o futebol feminino só voltou a ser permitido em qual década?",
+    "resposta": "Anos 1970, em 1979",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Futebol_feminino_no_Brasil"
+    ]
+  },
+  {
+    "id": "q05133",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_2010",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2010, qual país sediou a primeira Copa do Mundo disputada no continente africano?",
+    "resposta": "África do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q05134",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tragedia_do_sarria",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Na Copa de 1982, na Espanha, quem marcou os três gols da Itália na vitória por três a dois sobre o Brasil?",
+    "resposta": "Paolo Rossi",
+    "distratores": [
+      "Marco Tardelli",
+      "Alessandro Altobelli",
+      "Francesco Graziani"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_v_Italy_(1982_FIFA_World_Cup)"
+    ]
+  },
+  {
+    "id": "q05135",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "hino_da_liga_dos_campeoes",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O hino da Liga dos Campeões da Europa foi adaptado de uma peça feita para a coroação de um rei inglês. Quem compôs essa peça?",
+    "resposta": "Georg Friedrich Händel",
+    "distratores": [
+      "Johann Sebastian Bach",
+      "Antonio Vivaldi",
+      "Henry Purcell"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/UEFA_Champions_League_Anthem"
+    ]
+  },
+  {
+    "id": "q05136",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "conmebol",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A Conmebol, entidade que comanda o futebol da América do Sul, reúne quantas seleções nacionais?",
+    "resposta": "Dez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CONMEBOL"
+    ]
   }
 ]
