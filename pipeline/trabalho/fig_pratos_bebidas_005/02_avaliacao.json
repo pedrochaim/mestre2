@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Waffle reconhecível pelo relevo quadriculado.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país europeu é conhecido por mais de uma dúzia de variedades regionais desta massa?",
+      "resposta": "Bélgica",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Waffle",
+        "descricao": "Massa assada entre duas placas quadriculadas, típica da Bélgica.",
+        "variantes": [
+          "Waffle belga",
+          "Wafel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Coquetel com hortelã e limão, reconhecível.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que bebida destilada é a base deste coquetel?",
+      "resposta": "Rum (branco)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mojito",
+        "descricao": "Coquetel cubano de rum branco, açúcar, limão, água com gás e hortelã.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Coquetel vermelho com casca de laranja, característico.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país foi criado este coquetel?",
+      "resposta": "Itália",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Negroni",
+        "descricao": "Coquetel italiano de partes iguais de gim, vermute rosso e Campari.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quadrados de bolo de chocolate com cobertura, reconhecíveis como brownie.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que doce é este?",
+      "resposta": "Brownie",
+      "distratores": [
+        "Pão de mel",
+        "Blondie",
+        "Torta de chocolate"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brownie",
+        "descricao": "Doce de chocolate assado em barra, criado nos Estados Unidos no fim do século dezenove.",
+        "variantes": [
+          "Chocolate brownie"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Nhoque com sálvia e queijo, claro.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país vem este prato?",
+      "resposta": "Itália",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nhoque",
+        "descricao": "Bolinhos de massa de batata e farinha da culinária italiana.",
+        "variantes": [
+          "Gnocchi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Há um adesivo legível com a palavra GEORGIA na embalagem, que entrega a origem do prato."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Esfirras abertas de carne com pinhões, claras.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que cidade do Líbano é especialmente associada a este prato?",
+      "resposta": "Baalbek",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfirra",
+        "descricao": "Massa achatada com cobertura de carne moída da culinária do Levante.",
+        "variantes": [
+          "Esfiha",
+          "Sfiha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fatia de cheesecake com frutas vermelhas, clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Cheesecake",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cheesecake",
+        "descricao": "Sobremesa de queijo fresco e açúcar, com base de biscoito.",
+        "variantes": [
+          "Torta de queijo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Duas funcionárias em primeiro plano, pessoas comuns em contexto não público."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bolas de sorvete claras.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Sorvete",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sorvete",
+        "descricao": "Sobremesa congelada feita de leite ou creme com açúcar e sabores.",
+        "variantes": [
+          "Sorvete de massa",
+          "Ice cream"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Crosta caramelizada característica; pergunta sobre a parte evita ambiguidade com crema catalana.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que ingrediente, caramelizado, forma a crosta desta sobremesa?",
+      "resposta": "Açúcar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crème brûlée",
+        "descricao": "Sobremesa francesa de creme de baunilha coberto por açúcar caramelizado.",
+        "variantes": [
+          "Creme queimado"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Panqueca salgada com molho, maionese e katsuobushi, característica.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que tipo de superfície de cozinha este prato é preparado?",
+      "resposta": "Teppan (chapa)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Okonomiyaki",
+        "descricao": "Panqueca salgada japonesa de massa de trigo e repolho, cozida na chapa.",
+        "variantes": [
+          "Okonomiyaki de Hiroshima"
+        ]
+      }
+    }
+  ]
+}

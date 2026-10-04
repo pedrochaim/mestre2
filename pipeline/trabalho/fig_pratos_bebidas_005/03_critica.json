@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a Bélgica tem mais de uma dúzia de variedades regionais. O enunciado não nomeia o prato e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o rum branco como base. Só dá para responder reconhecendo o coquetel.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o negroni é um coquetel italiano. O enunciado é limpo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Torta de chocolate' é um distrator defensável, porque a Wikipédia em português descreve o brownie como um bolo de chocolate. Troquei por um doce visualmente parecido que não descreve a imagem.",
+      "reescrita": {
+        "pergunta": "Que doce é este?",
+        "resposta": "Brownie",
+        "distratores": [
+          "Pão de mel",
+          "Blondie",
+          "Fudge de chocolate"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nhoque é um prato típico da culinária italiana, como dizem os trechos. A pergunta é direta e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a região de Baalbek é especialmente conhecida pela sfiha. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento de nível 1, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento de nível 1, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que ingrediente, caramelizado, forma a crosta' tem a resposta praticamente no enunciado. Com a imagem coberta, qualquer um responde açúcar, então a figura virou enfeite. A nova pergunta exige reconhecer a sobremesa e sabe-se a época pelo trecho (receita de Massialot, 1691).",
+      "reescrita": {
+        "pergunta": "Em que século foi publicada a primeira receita conhecida com o nome desta sobremesa francesa?",
+        "resposta": "Século dezessete",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o okonomiyaki é cozido num teppan (chapa plana). O enunciado não nomeia o prato.",
+      "reescrita": null
+    }
+  ]
+}

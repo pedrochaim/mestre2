@@ -1,0 +1,592 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Waffle",
+        "descricao": "Massa assada entre duas placas quadriculadas, típica da Bélgica.",
+        "variantes": [
+          "Waffle belga",
+          "Wafel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "rafflesia_arnoldii",
+          "nome": "Rafflesia arnoldii",
+          "descricao": "Planta parasita das florestas de Sumatra e Bornéu, de flor enorme e cheiro de carne podre",
+          "variantes": [
+            "Rafflesia",
+            "rafflésia",
+            "flor-cadáver"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "waterloo",
+          "nome": "Waterloo",
+          "descricao": "Canção do ABBA que venceu o Festival Eurovisão da Canção de 1974",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mojito",
+        "descricao": "Coquetel cubano de rum branco, açúcar, limão, água com gás e hortelã.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "emoji",
+          "nome": "Emoji",
+          "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+          "variantes": [
+            "Emojis"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae"
+          ]
+        },
+        {
+          "id": "jose_mojica_marins",
+          "nome": "José Mojica Marins",
+          "descricao": "Cineasta e ator paulista, pioneiro do cinema de terror no Brasil.",
+          "variantes": [
+            "Mojica"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "democrito",
+          "nome": "Demócrito",
+          "descricao": "Filósofo grego pré-socrático (c. 460–370 a.C.), um dos formuladores da teoria atômica.",
+          "variantes": [
+            "Democritus",
+            "Demócrito de Abdera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Negroni",
+        "descricao": "Coquetel italiano de partes iguais de gim, vermute rosso e Campari.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "neuronio",
+          "nome": "Neurônio",
+          "descricao": "Célula excitável do sistema nervoso que conduz impulsos elétricos.",
+          "variantes": [
+            "Célula nervosa"
+          ]
+        },
+        {
+          "id": "neonio",
+          "nome": "Neônio",
+          "descricao": "Elemento químico gasoso de número atômico 10, um gás nobre famoso pelos letreiros luminosos.",
+          "variantes": [
+            "Néon",
+            "Neon"
+          ]
+        },
+        {
+          "id": "nero",
+          "nome": "Nero",
+          "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+          "variantes": [
+            "Nero Cláudio César",
+            "Nero Claudius Caesar"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        },
+        {
+          "id": "negrinho_do_pastoreio",
+          "nome": "Negrinho do Pastoreio",
+          "descricao": "Lenda gaúcha de um menino escravizado castigado num formigueiro que reaparece milagrosamente.",
+          "variantes": [
+            "Negrinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Brownie",
+        "descricao": "Doce de chocolate assado em barra, criado nos Estados Unidos no fim do século dezenove.",
+        "variantes": [
+          "Chocolate brownie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bronze",
+          "nome": "Bronze",
+          "descricao": "Liga metálica que deu nome à Idade do Bronze.",
+          "variantes": []
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nhoque",
+        "descricao": "Bolinhos de massa de batata e farinha da culinária italiana.",
+        "variantes": [
+          "Gnocchi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinoquio",
+          "nome": "Pinóquio",
+          "descricao": "Boneco de madeira cujo nariz cresce quando mente, criado pelo italiano Carlo Collodi em 1883.",
+          "variantes": [
+            "Pinocchio",
+            "As Aventuras de Pinóquio"
+          ]
+        },
+        {
+          "id": "irmaos_graco",
+          "nome": "Irmãos Graco",
+          "descricao": "Tibério e Caio Graco, tribunos da plebe romana mortos no século dois antes de Cristo por defenderem reformas.",
+          "variantes": [
+            "Os Gracos",
+            "Gracchi"
+          ]
+        },
+        {
+          "id": "guccio_gucci",
+          "nome": "Guccio Gucci",
+          "descricao": "Empresário italiano que fundou a grife Gucci em Florença, em 1921",
+          "variantes": [
+            "Gucci"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "kimchi",
+          "nome": "Kimchi",
+          "descricao": "Acompanhamento coreano de legumes salgados e fermentados, geralmente repolho chinês com pimenta.",
+          "variantes": [
+            "Gimchi",
+            "Kimchee"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Esfirra",
+        "descricao": "Massa achatada com cobertura de carne moída da culinária do Levante.",
+        "variantes": [
+          "Esfiha",
+          "Sfiha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "safira",
+          "nome": "Safira",
+          "descricao": "Gema, geralmente azul, que é uma variedade do mineral corindo.",
+          "variantes": [
+            "Sapphire"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cheesecake",
+        "descricao": "Sobremesa de queijo fresco e açúcar, com base de biscoito.",
+        "variantes": [
+          "Torta de queijo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        },
+        {
+          "id": "tomas_de_aquino",
+          "nome": "Tomás de Aquino",
+          "descricao": "Frade dominicano e filósofo italiano do século treze, autor da Suma Teológica.",
+          "variantes": [
+            "São Tomás de Aquino",
+            "Thomas Aquinas"
+          ]
+        },
+        {
+          "id": "torre_de_toquio",
+          "nome": "Torre de Tóquio",
+          "descricao": "Torre de transmissão de treliça de aço, pintada de branco e laranja, inaugurada em 1958 em Tóquio.",
+          "variantes": [
+            "Tokyo Tower"
+          ]
+        },
+        {
+          "id": "fondue",
+          "nome": "Fondue",
+          "descricao": "Prato suíço de queijo e vinho derretidos numa panela comum, no qual se mergulham pão e outros alimentos.",
+          "variantes": [
+            "Fondue de queijo"
+          ]
+        },
+        {
+          "id": "rachel_de_queiroz",
+          "nome": "Rachel de Queiroz",
+          "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+          "variantes": [
+            "Raquel de Queirós"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Sorvete",
+        "descricao": "Sobremesa congelada feita de leite ou creme com açúcar e sabores.",
+        "variantes": [
+          "Sorvete de massa",
+          "Ice cream"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        },
+        {
+          "id": "rolo_de_macarrao",
+          "nome": "Rolo de macarrão",
+          "descricao": "Utensílio cilíndrico de madeira, com cabos nas pontas, usado para abrir massas.",
+          "variantes": [
+            "Rolo de massa"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "hakeem_olajuwon",
+          "nome": "Hakeem Olajuwon",
+          "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+          "variantes": [
+            "Akeem Olajuwon",
+            "The Dream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Crème brûlée",
+        "descricao": "Sobremesa francesa de creme de baunilha coberto por açúcar caramelizado.",
+        "variantes": [
+          "Creme queimado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pudim",
+          "nome": "Pudim",
+          "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+          "variantes": [
+            "Pudim de leite",
+            "Flan",
+            "Crème caramel"
+          ]
+        },
+        {
+          "id": "premier_league",
+          "nome": "Premier League",
+          "descricao": "Primeira divisão do futebol inglês, criada em 1992 no lugar da antiga First Division.",
+          "variantes": [
+            "Campeonato Inglês"
+          ]
+        },
+        {
+          "id": "corretor_liquido",
+          "nome": "Corretor líquido",
+          "descricao": "Fluido branco para cobrir erros de escrita, criado pela datilógrafa americana Bette Nesmith Graham nos anos cinquenta.",
+          "variantes": [
+            "Liquid Paper",
+            "Mistake Out"
+          ]
+        },
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Okonomiyaki",
+        "descricao": "Panqueca salgada japonesa de massa de trigo e repolho, cozida na chapa.",
+        "variantes": [
+          "Okonomiyaki de Hiroshima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "little_boy",
+          "nome": "Little Boy",
+          "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+          "variantes": [
+            "Little Boy (bomba de Hiroshima)",
+            "L-11"
+          ]
+        },
+        {
+          "id": "expedicao_kon_tiki",
+          "nome": "Expedição Kon-Tiki",
+          "descricao": "Travessia do Oceano Pacífico numa jangada de troncos de balsa, do Peru à Polinésia, em 1947.",
+          "variantes": [
+            "Kon-Tiki"
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "cupula_da_bomba_atomica",
+          "nome": "Cúpula da Bomba Atômica",
+          "descricao": "Ruína de 1945 preservada como Memorial da Paz, no Japão.",
+          "variantes": [
+            "Genbaku Dome",
+            "Memorial da Paz de Hiroshima",
+            "Domo Genbaku"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é waffle."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o coquetel Mojito."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o coquetel Negroni."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Brownie difere de cookie e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é nhoque."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é esfirra."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cheesecake difere de pão de queijo e fondue."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é sorvete."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Crème brûlée difere de pudim/crème caramel."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Okonomiyaki difere de takoyaki e das demais."
+    }
+  ]
+}
