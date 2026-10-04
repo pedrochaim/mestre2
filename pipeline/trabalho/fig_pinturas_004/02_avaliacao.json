@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto que entregue a resposta; cena reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano aconteceu a travessia de rio, na Guerra de Independência dos Estados Unidos, retratada neste quadro?",
+      "resposta": "1776",
+      "destino": 0,
+      "ancora": {
+        "nome": "Washington Cruzando o Delaware",
+        "descricao": "Pintura de 1851 de Emanuel Leutze que retrata George Washington atravessando o rio Delaware com o Exército Continental.",
+        "variantes": [
+          "Washington Crossing the Delaware"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O título da gravura aparece escrito na própria imagem (El sueño de la razón produce monstruos), entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Desenho icônico e reconhecível; a escrita em espelho não é legível nem entrega o nome.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que década do século quinze foi feito este desenho renascentista de proporções humanas?",
+      "resposta": "Década de 1490",
+      "destino": 0,
+      "ancora": {
+        "nome": "Homem Vitruviano",
+        "descricao": "Desenho de Leonardo da Vinci, de cerca de 1490, de um homem nu inscrito num círculo e num quadrado.",
+        "variantes": [
+          "O Homem Vitruviano",
+          "Vitruvian Man",
+          "L'uomo vitruviano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; pergunta direta de nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintura holandesa do século dezenove é esta?",
+      "resposta": "Os Comedores de Batata",
+      "destino": 0,
+      "ancora": {
+        "nome": "Os Comedores de Batata",
+        "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+        "variantes": [
+          "The Potato Eaters",
+          "De Aardappeleters"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato famoso, sem texto; estilo barroco é resposta única com distratores de outros estilos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que estilo artístico pertence este retrato de papa pintado por volta de mil seiscentos e cinquenta?",
+      "resposta": "Barroco",
+      "distratores": [
+        "Renascimento",
+        "Rococó",
+        "Maneirismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato do Papa Inocêncio X",
+        "descricao": "Retrato a óleo de Diego Velázquez, de cerca de 1650, do papa Inocêncio X, na Galleria Doria Pamphilj, em Roma.",
+        "variantes": [
+          "Portrait of Innocent X",
+          "Retrato de Inocêncio X"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Obra reconhecível; a assinatura pequena não entrega o movimento artístico, então a pergunta é de estilo.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que movimento artístico pertence esta pintura de uma mulher com sombrinha num dia de vento?",
+      "resposta": "Impressionismo",
+      "distratores": [
+        "Realismo",
+        "Pós-impressionismo",
+        "Simbolismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mulher com Sombrinha (Monet)",
+        "descricao": "Pintura impressionista de Claude Monet, de 1875, que mostra Camille Monet e o filho Jean passeando num campo.",
+        "variantes": [
+          "Mulher com Sombrinha - Madame Monet e Seu Filho",
+          "A Promenade",
+          "La Promenade",
+          "Woman with a Parasol"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra famosa e clara; a assinatura mostra só o pintor e o ano, não o título.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintura francesa do século dezenove é esta?",
+      "resposta": "Rua de Paris, Dia Chuvoso",
+      "distratores": [
+        "Os Guarda-Chuvas",
+        "Boulevard Montmartre, Primavera",
+        "Lugar de Concórdia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rua de Paris, Dia Chuvoso",
+        "descricao": "Pintura a óleo de Gustave Caillebotte, de 1877, de uma esquina de Paris em dia de chuva, no Art Institute of Chicago.",
+        "variantes": [
+          "Paris Street; Rainy Day",
+          "Rue de Paris, temps de pluie",
+          "Rua de Paris, Tempo de Chuva"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; pergunta sobre o episódio bíblico da parte de cima.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que episódio da vida de Jesus é retratado na parte de cima desta pintura renascentista?",
+      "resposta": "A Transfiguração",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Transfiguração (Rafael)",
+        "descricao": "Última pintura de Rafael, um retábulo que combina a Transfiguração de Jesus com a cura do menino possuído, na Pinacoteca Vaticana.",
+        "variantes": [
+          "Transfiguração",
+          "The Transfiguration",
+          "Transfiguração de Rafael"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena histórica clara; a assinatura é minúscula e ilegível, e o enunciado não nomeia o acontecimento.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acontecimento da história do Brasil, ocorrido em mil oitocentos e oitenta e nove, este quadro retrata?",
+      "resposta": "Proclamação da República",
+      "destino": 0,
+      "ancora": {
+        "nome": "Proclamação da República (Benedito Calixto)",
+        "descricao": "Pintura a óleo de 1893 de Benedito Calixto que retrata a Proclamação da República do Brasil, com Deodoro da Fonseca ao centro.",
+        "variantes": [
+          "Proclamação da República",
+          "Proclamação da República de Benedito Calixto"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; distratores do mesmo pintor e período romântico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintura romântica francesa é esta?",
+      "resposta": "A Morte de Sardanápalo",
+      "distratores": [
+        "A Liberdade Guiando o Povo",
+        "Os Massacres de Quios",
+        "Mulheres de Argel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Morte de Sardanápalo",
+        "descricao": "Pintura romântica de Eugène Delacroix, de 1827, no Louvre, sobre o rei assírio Sardanápalo cercado por seu harém e seus tesouros.",
+        "variantes": [
+          "The Death of Sardanapalus",
+          "La Mort de Sardanapale",
+          "Morte de Sardanapalo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra emblemática, sem texto; trocada para 'o que é', pois o estilo (realismo ou Barbizon) seria ambíguo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintura francesa do século dezenove é esta?",
+      "resposta": "O Ângelus",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Ângelus (Millet)",
+        "descricao": "Pintura a óleo de Jean-François Millet, de 1857 a 1859, que mostra dois camponeses rezando num campo ao fim do dia.",
+        "variantes": [
+          "O Angelus",
+          "L'Angélus",
+          "The Angelus",
+          "Angelus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; trocada para 'quem fez' com distratores de pintores flamengos.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro cheio de cenas de provérbios, no século dezesseis?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "distratores": [
+        "Hieronymus Bosch",
+        "Joachim Patinir",
+        "Jan van Eyck"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Provérbios Neerlandeses",
+        "descricao": "Pintura a óleo sobre madeira de Pieter Bruegel, o Velho, de 1559, que ilustra literalmente provérbios e expressões neerlandesas.",
+        "variantes": [
+          "Provérbios Flamengos",
+          "O Manto Azul",
+          "O Mundo de Cabeça para Baixo",
+          "Netherlandish Proverbs",
+          "Nederlandse Spreekwoorden"
+        ]
+      }
+    }
+  ]
+}

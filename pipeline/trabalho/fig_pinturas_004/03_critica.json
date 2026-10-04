@@ -1,0 +1,120 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a travessia em dezembro de 1776, na Revolução Americana. O enunciado não nomeia o quadro e a figura identifica a travessia.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A datação é debatida (Kemp c. 1487, Bambach 1488 a 1491), então 'década de 1490' não é literalmente defensável. Pede-se o ano aproximado, que o trecho sustenta.",
+      "reescrita": {
+        "pergunta": "Este desenho renascentista de proporções do corpo humano costuma ser datado de cerca de que ano?",
+        "resposta": "Cerca de 1490",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintura de 1885 de van Gogh, holandês. O enunciado não vaza e a pista de época e país ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'retrato de papa por volta de 1650' já indica Barroco, então a figura virou enfeite. Pergunta-se o autor.",
+      "reescrita": {
+        "pergunta": "Quem pintou este retrato de papa, no século dezessete?",
+        "resposta": "Diego Velázquez",
+        "distratores": [
+          "El Greco",
+          "Bartolomé Murillo",
+          "Francisco de Zurbarán"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mulher com sombrinha num dia de vento' é quase o título e o estilo sai da época. A figura vira enfeite. Pergunta-se o pintor, com época e país como pista.",
+      "reescrita": {
+        "pergunta": "Que pintor francês fez esta pintura de mil oitocentos e setenta e cinco?",
+        "resposta": "Claude Monet",
+        "distratores": [
+          "Pierre-Auguste Renoir",
+          "Camille Pissarro",
+          "Alfred Sisley"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Os Guarda-Chuvas' poderia descrever uma rua chuvosa com guarda-chuvas, então é um distrator duvidoso. 'Lugar de Concórdia' é uma tradução ruim.",
+      "reescrita": {
+        "pergunta": "Que pintura francesa do século dezenove é esta?",
+        "resposta": "Rua de Paris, Dia Chuvoso",
+        "distratores": [
+          "Boulevard Montmartre, Primavera",
+          "Praça da Concórdia",
+          "Os Raspadores de Assoalho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a parte superior mostra a Transfiguração e a inferior o menino possuído. O enunciado não nomeia a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Acontecimento do Brasil em 1889' entrega a resposta sem olhar a figura. A data é removida do enunciado.",
+      "reescrita": {
+        "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+        "resposta": "Proclamação da República"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obra romântica de Delacroix, de 1827. Os distratores são outras obras do mesmo pintor, nenhuma descreve a imagem, e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintura francesa de 1857 a 1859. O enunciado é só de reconhecimento e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cenas de provérbios' é o próprio título, o que denuncia a obra sem a figura. A pista passa a ser a região e a época.",
+      "reescrita": {
+        "pergunta": "Que pintor flamengo do século dezesseis fez este quadro?",
+        "resposta": "Pieter Bruegel, o Velho",
+        "distratores": [
+          "Hieronymus Bosch",
+          "Joachim Patinir",
+          "Pieter Aertsen"
+        ]
+      }
+    }
+  ]
+}

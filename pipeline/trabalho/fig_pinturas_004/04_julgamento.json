@@ -1,0 +1,608 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Washington Cruzando o Delaware",
+        "descricao": "Pintura de 1851 de Emanuel Leutze que retrata George Washington atravessando o rio Delaware com o Exército Continental.",
+        "variantes": [
+          "Washington Crossing the Delaware"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "napoleao_cruzando_os_alpes",
+          "nome": "Napoleão Cruzando os Alpes",
+          "descricao": "Retrato equestre pintado por Jacques-Louis David a partir de 1801.",
+          "variantes": [
+            "Napoleon Crossing the Alps"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Homem Vitruviano",
+        "descricao": "Desenho de Leonardo da Vinci, de cerca de 1490, de um homem nu inscrito num círculo e num quadrado.",
+        "variantes": [
+          "O Homem Vitruviano",
+          "Vitruvian Man",
+          "L'uomo vitruviano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homem_de_ferro",
+          "nome": "Homem de Ferro",
+          "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963",
+          "variantes": [
+            "Iron Man"
+          ]
+        },
+        {
+          "id": "vitoria_regia",
+          "nome": "Vitória-régia",
+          "descricao": "Planta aquática amazônica Victoria amazonica, de folhas circulares gigantes",
+          "variantes": [
+            "Victoria amazonica",
+            "Victoria regia",
+            "aguapé-assu"
+          ]
+        },
+        {
+          "id": "homem_aranha",
+          "nome": "Homem-Aranha",
+          "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+          "variantes": [
+            "Spider-Man",
+            "Peter Parker"
+          ]
+        },
+        {
+          "id": "brian_may",
+          "nome": "Brian May",
+          "descricao": "Guitarrista britânico, integrante fundador do Queen",
+          "variantes": []
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Os Comedores de Batata",
+        "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+        "variantes": [
+          "The Potato Eaters",
+          "De Aardappeleters"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_jogadores_de_cartas",
+          "nome": "Os Jogadores de Cartas",
+          "descricao": "Série de quadros de Paul Cézanne dos anos 1890.",
+          "variantes": []
+        },
+        {
+          "id": "cinto_de_seguranca_de_tres_pontos",
+          "nome": "Cinto de segurança de três pontos",
+          "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+          "variantes": [
+            "Cinto de três pontos",
+            "Three-point seatbelt"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "os_tres_tenores",
+          "nome": "Os Três Tenores",
+          "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990.",
+          "variantes": [
+            "The Three Tenors"
+          ]
+        },
+        {
+          "id": "the_boat_race",
+          "nome": "The Boat Race",
+          "descricao": "Regata anual de remo entre as universidades de Oxford e Cambridge.",
+          "variantes": [
+            "Regata Oxford-Cambridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Retrato do Papa Inocêncio X",
+        "descricao": "Retrato a óleo de Diego Velázquez, de cerca de 1650, do papa Inocêncio X, na Galleria Doria Pamphilj, em Roma.",
+        "variantes": [
+          "Portrait of Innocent X",
+          "Retrato de Inocêncio X"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_do_dr_gachet",
+          "nome": "Retrato do Dr. Gachet",
+          "descricao": "Retrato do médico Paul Gachet pintado por Vincent van Gogh em 1890, em duas versões.",
+          "variantes": [
+            "Portrait of Dr. Gachet",
+            "Retrato do Doutor Gachet"
+          ]
+        },
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        },
+        {
+          "id": "santo_do_pau_oco",
+          "nome": "Santo do pau oco",
+          "descricao": "Expressão brasileira para uma pessoa dissimulada, que finge ser virtuosa",
+          "variantes": []
+        },
+        {
+          "id": "retrato_de_adele_bloch_bauer_i",
+          "nome": "Retrato de Adele Bloch-Bauer I",
+          "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+          "variantes": [
+            "Portrait of Adele Bloch-Bauer I",
+            "A Dama Dourada"
+          ]
+        },
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mulher com Sombrinha (Monet)",
+        "descricao": "Pintura impressionista de Claude Monet, de 1875, que mostra Camille Monet e o filho Jean passeando num campo.",
+        "variantes": [
+          "Mulher com Sombrinha - Madame Monet e Seu Filho",
+          "A Promenade",
+          "La Promenade",
+          "Woman with a Parasol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "as_meninas",
+          "nome": "As Meninas",
+          "descricao": "Quadro de Diego Velázquez no Museu do Prado.",
+          "variantes": [
+            "Las Meninas"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rua de Paris, Dia Chuvoso",
+        "descricao": "Pintura a óleo de Gustave Caillebotte, de 1877, de uma esquina de Paris em dia de chuva, no Art Institute of Chicago.",
+        "variantes": [
+          "Paris Street; Rainy Day",
+          "Rue de Paris, temps de pluie",
+          "Rua de Paris, Tempo de Chuva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raquete_de_beach_tennis",
+          "nome": "Raquete de beach tennis",
+          "descricao": "Raquete sem cordas, perfurada, de material composto, usada no beach tennis.",
+          "variantes": [
+            "Beach tennis",
+            "Raquete de tênis de praia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Transfiguração (Rafael)",
+        "descricao": "Última pintura de Rafael, um retábulo que combina a Transfiguração de Jesus com a cura do menino possuído, na Pinacoteca Vaticana.",
+        "variantes": [
+          "Transfiguração",
+          "The Transfiguration",
+          "Transfiguração de Rafael"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferrovia_transiberiana",
+          "nome": "Ferrovia Transiberiana",
+          "descricao": "Rede ferroviária russa que liga Moscou ao Extremo Oriente russo, atravessando a Sibéria.",
+          "variantes": [
+            "Transiberiana",
+            "Trans-Siberian Railway"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "triangulo_de_pascal",
+          "nome": "Triângulo de Pascal",
+          "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+          "variantes": [
+            "Triângulo de Yang Hui",
+            "Triângulo de Tartaglia",
+            "Pascal's triangle"
+          ]
+        },
+        {
+          "id": "a_internacional",
+          "nome": "A Internacional",
+          "descricao": "Hino do movimento socialista e operário, com letra francesa de Eugène Pottier, de 1871.",
+          "variantes": [
+            "L'Internationale",
+            "The Internationale"
+          ]
+        },
+        {
+          "id": "tiranossauro",
+          "nome": "Tiranossauro",
+          "descricao": "Gênero de grande dinossauro terópode carnívoro do fim do Cretáceo da América do Norte.",
+          "variantes": [
+            "Tyrannosaurus rex",
+            "T. rex",
+            "Tiranossauro rex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Proclamação da República (Benedito Calixto)",
+        "descricao": "Pintura a óleo de 1893 de Benedito Calixto que retrata a Proclamação da República do Brasil, com Deodoro da Fonseca ao centro.",
+        "variantes": [
+          "Proclamação da República",
+          "Proclamação da República de Benedito Calixto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "a_republica",
+          "nome": "A República",
+          "descricao": "Diálogo de Platão, escrito por volta de 375 a.C., sobre a justiça e a cidade ideal.",
+          "variantes": [
+            "República",
+            "Politeia",
+            "The Republic"
+          ]
+        },
+        {
+          "id": "pico_da_neblina",
+          "nome": "Pico da Neblina",
+          "descricao": "Montanha da Serra do Imeri, no Amazonas, junto à fronteira com a Venezuela, o ponto mais alto do Brasil.",
+          "variantes": [
+            "Neblina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Morte de Sardanápalo",
+        "descricao": "Pintura romântica de Eugène Delacroix, de 1827, no Louvre, sobre o rei assírio Sardanápalo cercado por seu harém e seus tesouros.",
+        "variantes": [
+          "The Death of Sardanapalus",
+          "La Mort de Sardanapale",
+          "Morte de Sardanapalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_morte_de_socrates",
+          "nome": "A Morte de Sócrates",
+          "descricao": "Pintura a óleo de Jacques-Louis David, de 1787, que mostra Sócrates prestes a beber a cicuta cercado de discípulos.",
+          "variantes": [
+            "La Mort de Socrate",
+            "The Death of Socrates"
+          ]
+        },
+        {
+          "id": "marmore_de_carrara",
+          "nome": "Mármore de Carrara",
+          "descricao": "Mármore branco ou cinza-azulado extraído nas pedreiras dos Alpes Apuanos, na Toscana, usado em esculturas desde a Roma Antiga.",
+          "variantes": [
+            "Carrara marble"
+          ]
+        },
+        {
+          "id": "orfeu_negro",
+          "nome": "Orfeu Negro",
+          "descricao": "Filme de 1959 dirigido por Marcel Camus, filmado no Rio de Janeiro durante o Carnaval e baseado na peça Orfeu da Conceição, de Vinicius de Moraes.",
+          "variantes": [
+            "Black Orpheus",
+            "Orfeu do Carnaval"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "O Ângelus (Millet)",
+        "descricao": "Pintura a óleo de Jean-François Millet, de 1857 a 1859, que mostra dois camponeses rezando num campo ao fim do dia.",
+        "variantes": [
+          "O Angelus",
+          "L'Angélus",
+          "The Angelus",
+          "Angelus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "os_planetas",
+          "nome": "Os Planetas",
+          "descricao": "Suíte orquestral de Gustav Holst, composta durante a Primeira Guerra Mundial, com um movimento para cada planeta.",
+          "variantes": [
+            "The Planets",
+            "Os Planetas (Holst)"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "as_cinzas_criquete",
+          "nome": "As Cinzas (críquete)",
+          "descricao": "Série de partidas de críquete disputada entre Inglaterra e Austrália desde 1882.",
+          "variantes": [
+            "The Ashes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Provérbios Neerlandeses",
+        "descricao": "Pintura a óleo sobre madeira de Pieter Bruegel, o Velho, de 1559, que ilustra literalmente provérbios e expressões neerlandesas.",
+        "variantes": [
+          "Provérbios Flamengos",
+          "O Manto Azul",
+          "O Mundo de Cabeça para Baixo",
+          "Netherlandish Proverbs",
+          "Nederlandse Spreekwoorden"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "aceno_de_cabeca_na_bulgaria",
+          "nome": "Aceno de cabeça na Bulgária",
+          "descricao": "Convenção búlgara de gestos de cabeça em que o sim e o não são feitos ao contrário da maioria dos países.",
+          "variantes": [
+            "Nod (gesture)"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "o_cantor_de_jazz",
+          "nome": "O Cantor de Jazz",
+          "descricao": "Filme americano de 1927, estrelado por Al Jolson, que popularizou o cinema falado.",
+          "variantes": [
+            "The Jazz Singer"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura diferente de Napoleão."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o desenho de Da Vinci."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Van Gogh."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Retrato de Velázquez distinto dos outros retratos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Monet."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Rafael."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Calixto."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Delacroix distinta da de David."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Millet."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Bruegel."
+    }
+  ]
+}
