@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este americano do século dezoito?",
+        "resposta": "Benjamin Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q04235",
+          "pergunta": "Em que ano morreu este homem, um dos pais fundadores dos Estados Unidos?",
+          "resposta": "1790"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que físico dinamarquês é este?",
+        "resposta": "Niels Bohr"
+      },
+      "existentes": [
+        {
+          "id": "q03009",
+          "pergunta": "Ao receber a mais alta ordem de cavalaria da Dinamarca, Niels Bohr pôs no seu brasão que símbolo oriental, ligado à ideia de complementaridade?",
+          "resposta": "Yin-yang"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é este cientista e divulgador científico americano?",
+        "resposta": "Carl Sagan"
+      },
+      "existentes": [
+        {
+          "id": "q03714",
+          "pergunta": "Quem é este astrônomo e divulgador científico americano?",
+          "resposta": "Carl Sagan"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem é este empresário americano?",
+        "resposta": "Steve Jobs"
+      },
+      "existentes": [
+        {
+          "id": "q03445",
+          "pergunta": "Afastado da Apple em 1985, Steve Jobs comprou no ano seguinte a divisão de computação gráfica da Lucasfilm, que virou qual estúdio?",
+          "resposta": "Pixar"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quem é este holandês do século dezessete?",
+        "resposta": "Antonie van Leeuwenhoek"
+      },
+      "existentes": [
+        {
+          "id": "q03618",
+          "pergunta": "Os microscópios com que o holandês Antonie van Leeuwenhoek observou bactérias, no século dezessete, tinham quantas lentes?",
+          "resposta": "Uma só"
+        },
+        {
+          "id": "q03834",
+          "pergunta": "No século dezessete, como o holandês Leeuwenhoek chamou os seres minúsculos que via em seus microscópios caseiros?",
+          "resposta": "Animálculos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade da pessoa na imagem. A existente pede o ano da morte, que é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade de Bohr. A existente pede o símbolo no brasão dele."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "As duas pedem a identidade de Carl Sagan, com a mesma resposta e quase o mesmo enunciado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade de Jobs. A existente pede o estúdio que ele comprou, que é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade de Leeuwenhoek. As existentes pedem o número de lentes e o nome dos seres que ele observou, que são outros fatos."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato a óleo nítido, sem texto, rosto muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este polímata americano do século dezoito?",
+      "resposta": "Benjamin Franklin",
+      "distratores": [
+        "Thomas Jefferson",
+        "John Adams",
+        "Alexander Hamilton"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Benjamin Franklin",
+        "descricao": "Polímata, cientista, inventor e estadista americano do século dezoito, um dos Pais Fundadores dos Estados Unidos.",
+        "variantes": [
+          "Franklin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico dinamarquês é este?",
+      "resposta": "Niels Bohr",
+      "destino": 0,
+      "ancora": {
+        "nome": "Niels Bohr",
+        "descricao": "Físico teórico dinamarquês, Nobel de Física de 1922, autor do modelo atômico de Bohr.",
+        "variantes": [
+          "Niels Henrik David Bohr"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e granulada, figura pequena ao fundo, com carimbo; não é legível nem reconhecível num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, rosto reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que série de televisão, dos anos mil novecentos e oitenta, este cientista escreveu e apresentou?",
+      "resposta": "Cosmos",
+      "destino": 7,
+      "ancora": {
+        "nome": "Carl Sagan",
+        "descricao": "Astrônomo e divulgador científico americano, apresentador da série Cosmos de 1980.",
+        "variantes": [
+          "Carl Edward Sagan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura nítida; só a assinatura do gravador, que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este físico italiano retratado em gravura?",
+      "resposta": "Alessandro Volta",
+      "distratores": [
+        "Luigi Galvani",
+        "Amedeo Avogadro",
+        "Galileu Galilei"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alessandro Volta",
+        "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica).",
+        "variantes": [
+          "Volta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, granulada e de baixa resolução; a pessoa não é reconhecível pelo rosto e não fica legível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto em close, nítida, sem texto, figura pública muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este empresário americano?",
+      "resposta": "Steve Jobs",
+      "distratores": [
+        "Bill Gates",
+        "Steve Wozniak",
+        "Tim Cook"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Steve Jobs",
+        "descricao": "Empresário americano, cofundador da Apple e ex-presidente da Pixar.",
+        "variantes": [
+          "Steven Paul Jobs"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato a óleo nítido, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que plano matemático, com dois eixos perpendiculares, leva o nome deste pensador?",
+      "resposta": "Plano cartesiano",
+      "destino": 2,
+      "ancora": {
+        "nome": "René Descartes",
+        "descricao": "Filósofo, matemático e cientista francês do século dezessete, criador da geometria analítica.",
+        "variantes": [
+          "Descartes",
+          "Renatus Cartesius"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica legível, sem texto; reconhecível para aficionados, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta física austríaca?",
+      "resposta": "Lise Meitner",
+      "distratores": [
+        "Marie Curie",
+        "Irène Joliot-Curie",
+        "Maria Goeppert Mayer"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lise Meitner",
+        "descricao": "Física nuclear austríaca e sueca, uma das descobridoras da fissão nuclear.",
+        "variantes": [
+          "Elise Meitner"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gravura nítida, sem texto, com barba e chapéu característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que livro ficou famoso por ter sido impresso por este homem?",
+      "resposta": "Bíblia de Gutenberg",
+      "destino": 5,
+      "ancora": {
+        "nome": "Johannes Gutenberg",
+        "descricao": "Inventor e artesão alemão do século quinze, criador da prensa de tipos móveis na Europa.",
+        "variantes": [
+          "Gutenberg",
+          "Johannes Gensfleisch zur Laden zum Gutenberg"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A gravura traz o nome 'Blaise Pascal' escrito embaixo, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura nítida; só há códigos de catálogo, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este holandês do século dezessete?",
+      "resposta": "Antonie van Leeuwenhoek",
+      "distratores": [
+        "Christiaan Huygens",
+        "Jan Swammerdam",
+        "Baruch Spinoza"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Antonie van Leeuwenhoek",
+        "descricao": "Microscopista holandês do século dezessete, considerado o pai da microbiologia.",
+        "variantes": [
+          "Anton van Leeuwenhoek"
+        ]
+      }
+    }
+  ]
+}

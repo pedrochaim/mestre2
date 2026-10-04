@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Polímata' é pista quase exclusiva de Franklin e dispensa a figura, e entre os distratores nenhum é conhecido como polímata. Basta manter só país e século.",
+      "reescrita": {
+        "pergunta": "Quem é este americano do século dezoito?",
+        "resposta": "Benjamin Franklin",
+        "distratores": [
+          "Thomas Jefferson",
+          "John Adams",
+          "Alexander Hamilton"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. Nacionalidade e área só ajudam e não identificam sozinhas. O fato está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'série de 1980 que este cientista escreveu e apresentou' já leva a Cosmos, então a figura vira enfeite. Reescrevi como reconhecimento do retrato, em múltipla escolha para não haver mais de uma resposta possível.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista e divulgador científico americano?",
+        "resposta": "Carl Sagan",
+        "distratores": [
+          "Neil deGrasse Tyson",
+          "Richard Feynman",
+          "Edwin Hubble"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retratado em gravura' afirma algo sobre a imagem que não consta em `mostra`, então pode ser falso para esta figura. Tirei a menção.",
+      "reescrita": {
+        "pergunta": "Quem é este físico italiano?",
+        "resposta": "Alessandro Volta",
+        "distratores": [
+          "Luigi Galvani",
+          "Amedeo Avogadro",
+          "Galileu Galilei"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 com distratores críveis, todos empresários americanos de tecnologia. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'plano com dois eixos perpendiculares que leva o nome de um pensador' leva direto a 'plano cartesiano', e a figura vira enfeite. Qualquer pergunta sobre o legado mais famoso dele cai no mesmo problema.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "País e área ajudam sem entregar o nome. Meitner era austríaca e sueca, então 'austríaca' é literalmente verdadeiro. Os distratores são físicas famosas do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o homem e não dá para responder com a imagem coberta. A Bíblia de 42 linhas é o livro mais famoso dele, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 com distratores holandeses do mesmo século e do mesmo meio científico ou intelectual. Nasceu em 1632, então 'século dezessete' é aceitável. O enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
