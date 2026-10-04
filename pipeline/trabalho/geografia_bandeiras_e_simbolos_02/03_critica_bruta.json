@@ -1,0 +1,392 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teixeira Mendes é o autor do conceito, com colaboração de Miguel Lemos, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado: o céu do Rio em 15 de novembro de 1889.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que Debret fez o pavilhão em 1820 e Dom Pedro o modificou; 'em 1822 desenhou a bandeira' é impreciso, e a fonte em inglês não existe.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que pintor francês criou o pavilhão que Dom Pedro modificou para fazer a bandeira do Império do Brasil?",
+        "resposta": "Jean-Baptiste Debret",
+        "distratores": [
+          "Nicolas-Antoine Taunay",
+          "Grandjean de Montigny",
+          "Victor Meirelles"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte liga o verde a Bragança e o amarelo a Habsburgo-Lorena.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em português não existe; o fato (letra de Olavo Bilac) é sustentado pela página em inglês da bandeira do Brasil.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que poeta parnasiano escreveu a letra do Hino à Bandeira, que começa com Salve, lindo pendão da esperança?",
+        "resposta": "Olavo Bilac",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta usa 'teria' e 'tradição popular', e a fonte sustenta a atribuição a Betsy Ross.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Inno di Mameli confirmado; Mameli morreu em 1849 aos 21 anos; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Júlio Ribeiro idealizou a bandeira em 1888 e escreveu A Carne.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Treze listras, sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coubertin criou os anéis em 1913; distratores críveis (dirigentes olímpicos).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Rouget de Lisle, capitão do exército, compôs a Marselhesa em 1792.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta usa 'teria dito' e a fonte liga o Nego a João Pessoa, assassinado em 1930.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A bandeira atual foi adotada em 1917; só a inspiração vem da bandeira dos revolucionários de 1817, então 'foi criada por revolucionários' é impreciso.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "A bandeira de Pernambuco se inspira na dos revolucionários que se rebelaram contra a Coroa portuguesa em que ano?",
+        "resposta": "1817",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira da folha de bordo foi inaugurada em 1965.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Folha com onze pontas, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cédulas e moedas do euro circularam em 2002, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cruz de São Patrício entrou na bandeira em 1801.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra de Duque-Estrada foi oficializada em 1922.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lei de 1999 oficializou a bandeira do Japão.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandeira adotada em 27 de abril de 1994.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O hino foi oficializado em 1931.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angkor Wat em branco sobre a faixa vermelha, Camboja.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cedro verde entre faixas vermelhas, Líbano.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Águia negra bicéfala sobre vermelho; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dragão vermelho sobre verde e branco, País de Gales.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ramos de araucária e erva-mate na bandeira do Paraná.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lema Trabalha e Confia na bandeira do Espírito Santo.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Non ducor, duco é o lema de São Paulo, segundo a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Letra escrita em 1841 em Heligolândia, então britânica.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desde 1935 os dois lados do Grande Selo aparecem no verso da nota de um dólar.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome do rand vem de Witwatersrand.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O kwanza leva o nome do rio Kwanza.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O símbolo £ vem de libra, unidade de peso romana.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rublo vem de um verbo russo que significa cortar ou picar; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Złoty significa dourado, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês traduz Dannebrog como 'pano vermelho' e a em português como 'pano honorável'; 'pano dinamarquês' não é sustentado e a etimologia é disputada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As doze estrelas simbolizam perfeição e unidade, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A semelhança vem da fundação por ex-escravizados americanos.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A bandeira filipina é hasteada com o vermelho em cima em tempo de guerra; é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santo André teria sido crucificado numa cruz em X, segundo a tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é correto, mas o ângulo conexao não serve, porque a resposta é o que a estrela representa, e não um traço comum a outra entidade.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Na bandeira do Brasil, uma única estrela aparece acima da faixa branca com o lema. Que estado ela representa?",
+        "resposta": "Pará",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As três bandeiras derivam da Grã-Colômbia, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A melodia de Pacius é a mesma do hino finlandês.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As quatro estrelas representam o Cruzeiro do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira do Texas é semelhante à do Chile, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A letra diz que Bonaparte mostrou como vencer; Napoleão é o único líder estrangeiro citado dessa forma.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O círculo é o taegeuk, yin e yang.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A noz-moscada aparece na bandeira de Granada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É a única bandeira nacional não retangular, formada por dois triângulos.",
+      "reescrita": null
+    }
+  ]
+}

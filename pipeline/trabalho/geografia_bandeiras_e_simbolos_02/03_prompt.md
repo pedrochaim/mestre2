@@ -1,0 +1,1694 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Bandeiras e Símbolos** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Bandeira do Brasil",
+      "descricao": "Bandeira nacional da República Federativa do Brasil, verde com losango amarelo e esfera azul estrelada, adotada em 1889."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Ao lado de Miguel Lemos, que líder positivista idealizou a bandeira republicana do Brasil, adotada em 1889?",
+    "resposta": "Raimundo Teixeira Mendes",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+      "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "situacao": "ok",
+        "texto": "Bandeira do Brasil constitui a bandeira nacional da República Federativa do Brasil. É composta por uma base verde em forma de retângulo, sobreposta por um losango amarelo e um círculo azul, no meio do qual está atravessada uma faixa branca com o lema \"Ordem e Progresso\", em letras maiúsculas verdes. O Brasil adotou oficialmente este projeto para sua bandeira nacional em 19 de novembro de 1889, sub\n[…]\nO conceito foi criado por Raimundo Teixeira Mendes, com a colaboração de Miguel Lemos, Manuel Pereira Reis e Décio Villares. É um dos símbolos nacionais brasileiros, ao lado do Laço Nacional, do Selo Nacional, do Brasão de Armas e do Hino Nacional. O lema \"Ordem e Progresso\" é inspirado pelo lema do positivismo de Auguste Comte: O Amor por princípio e a Ordem por base; o Progresso por fim, versão traduzida do francês.\n[…]\nOutro exemplo é a estrela Spica, na constelação da Virgem, o único astro desenhado acima do lema positivista, que se situa, na realidade, ao sul da eclíptica. A esse respeito escreveu Teixeira Mendes:\n[…]\nNos últimos anos do Império do Brasil, vários propagandistas da República criaram projetos de bandeira nacional para serem adotados com o advento do novo regime. Para muitos deles, era preciso destruir todos os símbolos que pudessem lembrar o Império e as instituições monárquicas. Nesse contexto, o escritor e jornalista republicano Júlio Ribeiro, fundador e redator do jornal \"O Rebate\", publicou em sua primeira edição de 16 de julho de 1888, uma série de críticas ao estandarte Imperial.\n[…]\nEm 19 de novembro de 1889, através do decreto nº 4 do Governo Provisório, o Brasil adota oficialmente uma nova bandeira, mas de autoria de Raimundo Teixeira Mendes, semelhante à conhecida atualmente. A bandeira idealizada por Júlio Ribeiro, por sua vez, passou a ser considerada a \"bandeira paulista\" nos anos seguintes, sem merecer, entretanto, nenhuma estima popular."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+        "situacao": "ok",
+        "texto": "The national flag of Brazil is a blue disc depicting a starry sky (which includes the Southern Cross) spanned by a curved band inscribed with the national motto Ordem e Progresso (Brazilian Portuguese pronunciation: [ˈɔʁdẽj i pɾoˈɡɾɛsu]) ('Order and Progress'), within a yellow rhombus on a green field. It was officially adopted on 19 November 1889, four days after the Proclamation of the Republic,\n[…]\nThe concept was the work of Raimundo Teixeira Mendes, with the collaboration of Miguel Lemos, Manuel Pereira Reis and Décio Villares.\n[…]\nFonseca suggested that the flag of the new republic should resemble the old imperial flag. This was intended to underscore continuity of national unity during the transition from a constitutional monarchy to a republic. Raimundo Teixeira Mendes presented a project in which the imperial coat of arms was replaced by a blue celestial globe and the positivist motto. It was presented to Fonseca, who promptly accepted.\n[…]\nThe flag was designed by a group formed by Raimundo Teixeira Mendes, Miguel Lemos, Manuel Pereira Reis and Décio Villares. It was officially adopted on 19 November 1889.\n[…]\nPaulo Araújo Duarte of the Federal University of Santa Catarina claims that \"the creators of our republican flag intended to represent the stars in the sky at Rio de Janeiro at 8:30 in the morning on 15 November 1889, the moment at which the constellation of the Southern Cross was on the meridian of Rio de Janeiro and the longer arm [of the cross] was vertical\". Another article, citing \"O Céu da Bandeira (The Sky of the Flag)\", by J. R. V. Costa, says the exact time was actually 08:37.\n[…]\nThe Brazilian Flag Anthem (Hino à Bandeira Nacional) is a song dedicated to the country's flag. It is performed on 19 November (Flag Day). The Portuguese lyrics were written by poet Olavo Bilac, and the music composed by Francisco Braga.\n[…]\nBandeira Nacional at the Brazilian Government"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Bandeira do Brasil",
+      "descricao": "Bandeira nacional da República Federativa do Brasil, verde com losango amarelo e esfera azul estrelada, adotada em 1889."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O céu estrelado da bandeira brasileira reproduz o céu do Rio de Janeiro na manhã de qual data histórica?",
+    "resposta": "15 de novembro de 1889",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+      "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "situacao": "ok",
+        "texto": "Bandeira do Brasil constitui a bandeira nacional da República Federativa do Brasil. É composta por uma base verde em forma de retângulo, sobreposta por um losango amarelo e um círculo azul, no meio do qual está atravessada uma faixa branca com o lema \"Ordem e Progresso\", em letras maiúsculas verdes. O Brasil adotou oficialmente este projeto para sua bandeira nacional em 19 de novembro de 1889, sub\n[…]\nAs estrelas, cuja posição na bandeira deveria refletir o céu visto na capital Rio de Janeiro em 15 de novembro de 1889, representam as unidades federativas — cada estrela representa um estado específico, além do Distrito Federal.\n[…]\nAs estrelas, que representam os estados e o Distrito Federal, e a faixa branca estão de acordo, respectivamente, com os astros e o azimute no céu carioca na manhã de 15 de novembro de 1889, às 8h30 (doze horas siderais), e devem ser consideradas como vistas por um observador situado fora da esfera celeste.\n[…]\nA proposta anunciada era recriar o céu do Rio de Janeiro no dia 15 de novembro de 1889, eternizando na bandeira as estrelas vistas da então capital do país no dia da Independência.\n[…]\nApenas 82 anos mais tarde a legislação brasileira abordaria o fato, com a lei 1971, emendada em 1992, que disciplina que \"As constelações que figuram na Bandeira Nacional correspondem ao aspecto do céu, na cidade do Rio de Janeiro, às 8 horas e 30 minutos do dia 15 de novembro de 1889 (doze horas siderais) e devem ser consideradas como vistas por um observador situado fora da esfera celeste\"; como apontado por críticos, incluídos astrônomos, porém, mesmo um observador fora da Terra, em qualquer ponto da Galáxia, veria as constelações na mesma orientação que o veria da Terra, e nunca invertidas como aparecem na bandeira nacional.\n[…]\nALMEIDA. Eduardo Peres Campelo de. Bandeiras históricas do Brasil: Secretaria do Ministério da Guerra. Rio de janeiro. 1961\n[…]\nA Estrela de Cabral"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+        "situacao": "ok",
+        "texto": "The national flag of Brazil is a blue disc depicting a starry sky (which includes the Southern Cross) spanned by a curved band inscribed with the national motto Ordem e Progresso (Brazilian Portuguese pronunciation: [ˈɔʁdẽj i pɾoˈɡɾɛsu]) ('Order and Progress'), within a yellow rhombus on a green field. It was officially adopted on 19 November 1889, four days after the Proclamation of the Republic,\n[…]\nA blue circle with white five-pointed stars replaced the arms of the Empire of Brazil –its position in the flag reflects the sky over the city of Rio de Janeiro on 15 November 1889. The motto Ordem e Progresso is derived from Auguste Comte's motto of positivism: \"L'amour pour principe et l'ordre pour base; le progrès pour but\" (\"Love for principle and order for/as the basis; progress for/as the purpose\").\n[…]\nUpon the proclamation of the Republic, one of the civilian leaders of the movement, the jurist Ruy Barbosa, proposed a design for the nation's new flag strongly inspired by the flag of the United States. It was flown from 15 to 19 November 1889, when marshal Deodoro da Fonseca (acting as provisional president of Brazil) vetoed the design, citing concerns that it looked too similar to the flag of another country.\n[…]\nThe flag was designed by a group formed by Raimundo Teixeira Mendes, Miguel Lemos, Manuel Pereira Reis and Décio Villares. It was officially adopted on 19 November 1889.\n[…]\nPaulo Araújo Duarte of the Federal University of Santa Catarina claims that \"the creators of our republican flag intended to represent the stars in the sky at Rio de Janeiro at 8:30 in the morning on 15 November 1889, the moment at which the constellation of the Southern Cross was on the meridian of Rio de Janeiro and the longer arm [of the cross] was vertical\". Another article, citing \"O Céu da Bandeira (The Sky of the Flag)\", by J. R. V. Costa, says the exact time was actually 08:37."
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Bandeira do Império do Brasil",
+      "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1822, logo após a Independência, que pintor francês desenhou a bandeira do Império do Brasil?",
+    "resposta": "Jean-Baptiste Debret",
+    "distratores": [
+      "Nicolas-Antoine Taunay",
+      "Grandjean de Montigny",
+      "Victor Meirelles"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+      "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+        "situacao": "ok",
+        "texto": "A Bandeira do Império do Brasil foi a primeira bandeira oficial do Brasil independente de Portugal, sendo adotada como símbolo nacional de 18 de setembro de 1822, dia em que Dom Pedro I escreveu o decreto que a oficializou, até 15 de novembro de 1889, data da Proclamação da República. A bandeira consiste em um paralelogramo verde sobreposto por um losango dourado, ficando no centro deste o escudo \n[…]\nA bandeira, junto com o brasão de armas do Império do Brasil, foi adotada 11 dias depois da proclamação da independência às margens do Rio Ipiranga. A pedido de Dom Pedro, José Bonifácio referendou o decreto da criação da bandeira, fato esse que originou o mito popular de que a bandeira teria sido criada por ele.\n[…]\nDesse modo, em meados de 1820 o rei Dom João encomendou do artista Jean-Baptiste Debret um pavilhão, possivelmente para ser usado pelo príncipe do Reino Unido, que depois seria modificado por Dom Pedro para criar a bandeira do Império brasileiro. Sua bandeira compreendia um losango amarelo em fundo verde, tendo uma esfera armilar com a cruz da Ordem de Cristo sob dois ramos de tabaco e café, rodeados de dezenove estrelas, com a maior delas abaixo da coroa real.\n[…]\nEvidentemente, Debret se inspirou em bandeiras militares da Revolução Francesa e da Era Napoleônica para criar o estandarte, já que o elemento do losango teria se popularizado entre os franceses depois da queda da bastilha.\n[…]\nApós a proclamação da independência D. Pedro estabeleceu o verde e o amarelo dourado como as cores nacionais do Império, as cores que estão presentes na bandeira e no laço imperial, que junta os ramos de café e tabaco no brasão de armas imperial. São as cores que representam as casas imperiais brasileiras, assim como o verde representa a cor dos serpes nas armas da Dinastia de Bragança, e o amarelo representa a cor dourada nas armas da Casa de Habsburgo-Lorena."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Bandeira do Império do Brasil",
+      "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na bandeira imperial, o verde e o amarelo homenageavam as famílias de Dom Pedro e de Leopoldina. Quais eram essas duas casas reais?",
+    "resposta": "Bragança e Habsburgo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+      "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+        "situacao": "ok",
+        "texto": "A Bandeira do Império do Brasil foi a primeira bandeira oficial do Brasil independente de Portugal, sendo adotada como símbolo nacional de 18 de setembro de 1822, dia em que Dom Pedro I escreveu o decreto que a oficializou, até 15 de novembro de 1889, data da Proclamação da República. A bandeira consiste em um paralelogramo verde sobreposto por um losango dourado, ficando no centro deste o escudo \n[…]\nDesse modo, em meados de 1820 o rei Dom João encomendou do artista Jean-Baptiste Debret um pavilhão, possivelmente para ser usado pelo príncipe do Reino Unido, que depois seria modificado por Dom Pedro para criar a bandeira do Império brasileiro. Sua bandeira compreendia um losango amarelo em fundo verde, tendo uma esfera armilar com a cruz da Ordem de Cristo sob dois ramos de tabaco e café, rodeados de dezenove estrelas, com a maior delas abaixo da coroa real.\n[…]\nApós a proclamação da independência D. Pedro estabeleceu o verde e o amarelo dourado como as cores nacionais do Império, as cores que estão presentes na bandeira e no laço imperial, que junta os ramos de café e tabaco no brasão de armas imperial. São as cores que representam as casas imperiais brasileiras, assim como o verde representa a cor dos serpes nas armas da Dinastia de Bragança, e o amarelo representa a cor dourada nas armas da Casa de Habsburgo-Lorena.\n[…]\nNo entanto, embora o verde represente os dragões no brasão dos Bragança, esta cor não representa a casa real portuguesa, ao contrário do azul, branco e vermelho, essas sim as cores de Bragança presentes no escudo de armas da família. Segundo Joaquim Norberto, D. Pedro também considerava as cores verde e amarela como representantes da riqueza e da primavera eterna do Brasil ."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Hino à Bandeira Nacional",
+      "descricao": "Hino patriótico brasileiro de 1906, com música de Francisco Braga, que começa com Salve, lindo pendão da esperança."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que poeta parnasiano escreveu a letra do Hino à Bandeira, que começa com Salve, lindo pendão da esperança?",
+    "resposta": "Olavo Bilac",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hino_à_Bandeira_Nacional"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hino_à_Bandeira_Nacional",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Bandeira dos Estados Unidos",
+      "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma tradição popular americana, que costureira da Filadélfia teria costurado a primeira bandeira dos Estados Unidos?",
+    "resposta": "Betsy Ross",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Betsy_Ross"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Betsy_Ross",
+        "situacao": "ok",
+        "texto": "Elizabeth Griscom Ross (née Griscom; January 1, 1752 – January 30, 1836), also known by her second and third married names, Ashburn and Claypoole, was an American upholsterer who was credited by her relatives in 1870 with designing and making the first U.S. flag, commonly known as the Betsy Ross flag.\n[…]\nAmerican historian Laurel Thatcher Ulrich further explored this line of enquiry in a 2007 article, \"How Betsy Ross Became Famous: Oral Tradition, Nationalism, and the Invention of History\".\n[…]\nThe so-called Betsy Ross House is a popular tourist site in Philadelphia, but it is still a matter of historical academic dispute whether she actually lived there, as evidence indicates she actually lived from 1776 to 1779 in a house next door that was torn down after the remaining house was designated.\n[…]\nIn 1975, in preparation for the American Bicentennial, city leaders ordered the remains moved to the courtyard of the Betsy Ross House. However, cemetery workers found no remains beneath her tombstone. Bones found elsewhere in the family plot were deemed to be hers and were reinterred in the current grave visited by tourists at the Betsy Ross House.\n[…]\nCohon, Rhody, Stacia Deutsch, and Guy Francis. Betsy Ross' Star (Blast to the Past). 2007.\n[…]\nCox, Vicki. Betsy Ross: A Flag For A Brand New Nation (Leaders of the American Revolution). 2005.\n[…]\nHarker, John B. and Museum Images & Exhibits. Betsy Ross's Five Pointed Star. 2005.\n[…]\nHarkins, Susan Sales and William H. Harkins. Betsy Ross (Profiles in American History) (Profiles in American History). 2006.\n[…]\nMader, Jan. Betsy Ross (First Biographies). 2007.\n[…]\nMara, Wil. Betsy Ross (Rookie Biographies). 2006.\n[…]\nMiller, Marla R. (2010). Betsy Ross and the Making of America. New York: Henry Holt and Company, LLC. ISBN 978-0-8050-8297-5.\n[…]\nBetsy Ross Homepage from ushistory.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Betsy_Ross",
+        "situacao": "ok",
+        "texto": "Elizabeth Griscom “Betsy” Ross ou Betsy Ross (Filadélfia, 1 de janeiro de 1752 – Filadélfia, 30 de janeiro de 1836) née Griscom, foi uma norte-americana a quem se julga ter elaborado a primeira bandeira do seu país.\n[…]\nNasceu no 1º de janeiro de 1752, filha de Samuel Griscom (1717–93) e Rebecca James Griscom (1721–93), em Filadélfia, Pensilvânia. Betsy era a oitava dos dezessete filhos do casal, dos quais nove morreram ainda na infância. Uma irmã, Sarah (1745–47), e um irmão, William (1748–49), morreram antes do nascimento de Elizabeth (outra irmã, Sarah Griscom Donaldson (1749–85), recebeu o nome daquela, que já havia falecido).\n[…]\nBetsy tinha apenas cinco anos quando sua irmã Martha (1754–57) morreu, e outra irmã, Ann (1757–59), apenas viveu até os dois anos. Ambos os irmãos Samuel I (1753–56) e Samuel II (1758–61) morreram aos três anos de idade. Dois outros, gêmeos, Joseph (1759–62) e Abigail (1759–62), morreram em uma das frequentes epidemias de varíola no outono de 1762. Ela cresceu num agregado familiar onde o vestido simples (plain dress) e a disciplina rígida do quakerismo dominava.\n[…]\nAprendeu a costurar de sua tia-avó Sarah Elizabeth Ann Griscom. Seu bisavô, Andrew Griscom, membro dos Quakers e carpinteiro, emigrou em 1680 da Inglaterra.\n[…]\nBandeira de Betsy Ross",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Il Canto degli Italiani",
+      "descricao": "Hino nacional da Itália, escrito em 1847, com música de Michele Novaro."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O hino da Itália também é chamado pelo sobrenome de seu letrista, um jovem patriota morto aos vinte e um anos. Quem era ele?",
+    "resposta": "Goffredo Mameli",
+    "distratores": [
+      "Giuseppe Verdi",
+      "Giuseppe Garibaldi",
+      "Michele Novaro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani",
+        "situacao": "ok",
+        "texto": "\"Il Canto degli italiani\" is a patriotic song written by Goffredo Mameli and set to music by Michele Novaro in 1847, currently used as the national anthem of Italy. It is known among Italians as the \"Inno di Mameli\"—after the author of the lyrics—or as \"Fratelli d'Italia\"—from the song's opening line. The piece, in 44 time signature and B-flat major key, has six strophes, and a refrain sung after \n[…]\nThe text of \"Il Canto degli italiani\" was written by Goffredo Mameli, a young Genoese patriot inspired by the mass mobilizations that would lead to the revolutions of 1848 and the First Italian War of Independence. Sources differ on the precise date of the text's drafting: according to some scholars, Mameli wrote the text on 10 September 1847, while others date the composition's birth to two days prior—8 September.\n[…]\nThat performance would have been by the Filarmonica Voltrese founded by Goffredo's brother Nicola Mameli, and used a first draft of \"Il Canto degli italiani\" that differs from the final version. As its author was infamously Mazzinian, the piece was forbidden by the Piedmontese police until March 1848. Its execution was also forbidden by the Austrian police, which also pursued its singing interpretation — considered a political crime — until their empire's dissolution.\n[…]\nAfter the proclamation of the Kingdom of Italy in 1861, the \"Royal March\", composed in 1831, was chosen as the national anthem of unified Italy. \"Il Canto degli italiani\" had politically radical content, with its strong republican and Jacobin connotations, and did not combine well with the monarchical conclusion to the unification of Italy. Mameli's creed was, however, more historical than political, and socialist and anarchist circles also regarded \"Il Canto degli italiani\" as too conservative.\n[…]\nStramacci, Mauro (1991). Goffredo Mameli (in Italian). Edizioni Mediterranee. ISBN 88-272-0932-8."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Il_Canto_degli_Italiani",
+        "situacao": "ok",
+        "texto": "Il Canto degli Italiani, conhecido também como Fratelli d'Italia, Inno di Mameli, Canto nazionale, ou Inno d'Italia, é um canto risorgimental escrito por Goffredo Mameli e música de Michele Novaro em 1847, hino nacional da República Italiana. O texto compõe-se de seis estrofes  e um refrão, que se alternam entre si; e é musicado em tempo de 4/4 na tonalidade de si bemol maior. A sexta estrofe repe\n[…]\nO canto foi muito popular durante o Risorgimento e nos decênios seguintes, embora depois da proclamação do Reino da Itália (1861) como hino do Reino de Itália tenha sido escolhida a \"Marcha Real\", que era o canto oficial da Casa de Saboia.\n[…]\nO \"Canto dos Italianos\" era de fato considerado inadequado à situação política da época: Fratelli d'Italia (\"Irmãos da Itália\"), de clara conotação republicana e jacobina, mal se conciliava com o êxito do Risorgimento, que foi de natureza monárquica.\n[…]\nDepois da Segunda Guerra Mundial, a Itália tornou-se uma república e o Canto degli Italiani foi escolhido, em 12 de outubro de 1946, como hino nacional provisório, papel que conservou também em seguido permanecendo  hino de facto da República Italiana. Nos decênios seguintes surgiram várias iniciativas parlamentares para torná-lo hino nacional oficial, até a lei nº 181 de 4 de dezembro de 2017, que deu ao Canto degli Italiani o status de hino nacional de jure.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Hino da Europa",
+      "descricao": "Hino do Conselho da Europa e da União Europeia, baseado na Ode à Alegria, sem letra oficial."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Sem letra oficial, o hino da União Europeia usa a melodia da Ode à Alegria, de qual compositor?",
+    "resposta": "Ludwig van Beethoven",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anthem_of_Europe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anthem_of_Europe",
+        "situacao": "ok",
+        "texto": "The European Anthem or Anthem of Europe, also known as Ode to Joy, is a piece of instrumental music adapted from the prelude of the final movement of Beethoven's 9th Symphony composed in 1823, originally set to words adapted from Friedrich Schiller's 1785 poem \"Ode to Joy\". In 1972, the Council of Europe adopted it as an anthem to represent Europe, and later in 1985 it was also adopted by the Euro\n[…]\nFriedrich Schiller wrote the poem \"An die Freude\" (lit. 'To Joy') in 1785 as a \"celebration of the brotherhood of man.\" In later life, the poet was contemptuous of this popularity and dismissed the poem as typical of \"the bad taste of the age\" in which it had been written. After Schiller's death, the poem provided the words for the choral movement of Ludwig van Beethoven's 9th Symphony.\n[…]\nIn 1971 the Parliamentary Assembly of the Council of Europe decided to propose adopting the prelude to the \"Ode to Joy\" from Beethoven's 9th Symphony as the anthem, taking up a suggestion made by Richard von Coudenhove-Kalergi in 1955. Beethoven was generally seen as the natural choice for a European anthem.\n[…]\nThe Committee of Ministers of the Council of Europe officially announced the European Anthem on 19 January 1972 at Strasbourg: the prelude to \"Ode to Joy\", 4th movement of Ludwig van Beethoven's 9th symphony.\n[…]\nConductor Herbert von Karajan was asked to write three instrumental arrangements – for solo piano, for wind instruments and for symphony orchestra and he conducted the performance used to make the official recording. Karajan decided on a decidedly slower tempo, using crotchet (quarter note) = 120 whereas Beethoven had written minim (half note) = 80.\n[…]\nAnthems of international organizations\n[…]\nBeethoven's Ninth: A Political History, Esteban Buch (Trans. Richard Miller), ISBN 0-226-07824-8 (University of Chicago Press)\n[…]\nEuropean anthem – CVCE website"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Bandeira do estado de São Paulo",
+      "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Idealizada em 1888, a bandeira de São Paulo foi criada por qual escritor republicano, autor do romance A Carne?",
+    "resposta": "Júlio Ribeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo",
+        "situacao": "ok",
+        "texto": "A bandeira do estado de São Paulo, juntamente com o brasão e o hino, constituem os símbolos oficiais do estado de São Paulo.\n[…]\nIdealizada pelo filólogo e escritor Júlio Ribeiro em 1888, tinha como objetivo servir de bandeira ao regime republicano, que fora efetivamente proclamado em 15 de novembro do ano seguinte. Para materializar graficamente sua ideia, Júlio Ribeiro convidou seu cunhado Amador Amaral, gráfico e artista plástico que desenvolveu o layout da bandeira paulista.\n[…]\nA bandeira possui treze listras variando entre branco (representando a cor prata) e preto (sable). Há ainda o \"cantão\" de cor vermelha (góles). Segundo o idealizador dessa bandeira, Júlio Ribeiro, essas cores tinham \"legitimidade heráldica\" e eram \"nobilíssimas, reconhecidas pelos reis de armas de todos os países.\"\n[…]\nNos últimos anos do Império do Brasil, vários propagandistas da República criaram projetos de bandeira nacional para serem adotados com o advento do novo regime. Para muitos deles, era preciso destruir todos os símbolos que pudessem lembrar o Império e as instituições monárquicas. Nesse contexto, o escritor e jornalista republicano Júlio Ribeiro, fundador e redator do jornal \"O Rebate\", publicou em sua primeira edição de 16 de julho de 1888, uma série de críticas ao estandarte Imperial.\n[…]\nA bandeira descrita por Júlio Ribeiro foi hasteada no palácio do governo de São Paulo em 15 de novembro de 1889, sendo utilizada nos primeiros dias do novo regime.\n[…]\nNossa Bandeira\n[…]\nRIBEIRO, Clóvis (1933). Brazões e Bandeiras do Brasil. São Paulo: São Paulo Editora. 387 páginas\n[…]\nBandeira\n[…]\nA história dos símbolos paulistas, O Estadão de S. Paulo"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Bandeira do estado de São Paulo",
+      "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantas listras pretas e brancas, ao todo, tem a bandeira do estado de São Paulo?",
+    "resposta": "Treze",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo",
+        "situacao": "ok",
+        "texto": "A bandeira do estado de São Paulo, juntamente com o brasão e o hino, constituem os símbolos oficiais do estado de São Paulo.\n[…]\nArtigo 1º — A Bandeira do Estado de São Paulo e a tradicional de uso popular e consagrada na Revolução Constitucionalista de 1932, cuja descrição, na terminologia heráldica, é a seguinte: em campo burelado de treze peças de sable e de prata, um cantão de goles com um círculo de prata figurado na silhueta geográfica do Brasil, de blau, e acompanhada de quatro estrelas de ouro, acantonadas.\n[…]\nA bandeira possui treze listras variando entre branco e preto, começando e terminando na faixa preta, para que fique delimitado o começo e o final da bandeira, sem que haja nenhuma dúvida. As faixas pretas e brancas representam os dias e as noites que os bandeirantes lutaram pelo bem do estado. Não há consenso sobre o porquê do total de treze listras.\n[…]\nAs hipóteses são a de uma mera adequação estética (já que a original possuía 15 listras), a de uma referência às treze colônias originais dos Estados Unidos da América e a de uma alusão a Paulo, décimo terceiro apóstolo de Cristo, mas o mais certo é que o total de treze listras se consagrou pelo poema Nossa Bandeira, de Guilherme de Almeida.\n[…]\nPossui um retângulo vermelho na horizontal, que segundo algumas fontes, buscaria representar o sangue que os \"paulistas\" estariam dispostos a derramar dia (branco) e noite (preto das listras) pelo seu estado. Há fontes ainda menos críveis que atribuem esse sangue e pujança aos bandeirantes. Acontece que essa bandeira não foi originalmente criada para São Paulo, mas para a República brasileira.\n[…]\nBandeira"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Bandeira olímpica",
+      "descricao": "Bandeira do Movimento Olímpico, branca com cinco anéis entrelaçados azul, amarelo, preto, verde e vermelho."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Os cinco anéis entrelaçados da bandeira olímpica foram desenhados em 1913 por quem?",
+    "resposta": "Pierre de Coubertin",
+    "distratores": [
+      "Avery Brundage",
+      "Juan Antonio Samaranch",
+      "Demétrios Vikelas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_symbols"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympic_symbols",
+        "situacao": "ok",
+        "texto": "The International Olympic Committee (IOC) uses icons, flags, and symbols to represent and enhance the Olympic Games. These symbols include those commonly used during Olympic competitions such as the flame, fanfare, and theme as well as those used both during and outside competition, such as the Olympic flag.\n[…]\nThe original Olympic motto is the hendiatris \"Citius, Altius, Fortius,\" Latin for \"Faster, Higher, Stronger\" (also \"Swifter, Higher, Stronger.\") The motto was proposed by Pierre de Coubertin upon the creation of the IOC. Coubertin borrowed it from his friend Henri Didon, a Dominican priest who was an athletics enthusiast. Coubertin said that \"these three words represent a programme of moral beauty. The aesthetics of sport are intangible\".\n[…]\nThe motto was introduced at the 1924 Summer Olympics in Paris. Coubertin's Olympic ideals are expressed in the Olympic creed:\n[…]\nCoubertin got this text from a sermon by Bishop of Central Pennsylvania Ethelbert Talbot, during the 1908 London Games.\n[…]\nThe Olympic rings consist of five interlocking rings, coloured blue, yellow, black, green, and red on a white field. The symbol was originally created in 1913 by Coubertin.\n[…]\nAlthough the colors of the rings were later said to be representations of individual continents, Coubertin originally only meant the number of rings to \"represent the five parts of the world now won over to Olympism.\" According to Coubertin, the colours of the rings, along with the white background, represented the colours of every competing country's flag at the time. Upon its initial introduction, Coubertin stated the following in the August 1913 edition of Olympique:\n[…]\nPierre de Coubertin created the Olympic flag in 1913.\n[…]\nOlympiadane\n[…]\nOlympicene\n[…]\nPierre de Coubertin Medal\n[…]\nthe Raising of the Olympic flag in London, 26 September 2008"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/An%C3%A9is_ol%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "Os anéis olímpicos são um símbolo dos Jogos Olímpicos composto por cinco arcos entrelaçados, com as cores azul, amarelo, preto, verde e vermelho sobre um fundo branco. Este foi originalmente concebido em 1913 pelo Barão Pierre de Coubertin, fundador dos Jogos Olímpicos modernos.\n[…]\nO emblema foi escolhido para ilustrar e representar o Congresso mundial de 1914: cinco anéis entrelaçados com cores diferentes - azul, amarelo, preto, verde e vermelho - são colocados no campo em branco do papel. Esses cinco anéis representam as cinco partes do mundo, que agora são conquistados para Olimpismo e dispostas a aceitar uma concorrência saudável.\n[…]\nAs cores utilizadas nos cinco anéis da bandeira foram escolhidas e representadas por Pierre de Coubertin devido à frequência em que aparecem nas bandeiras das diversas nações no mundo. Pelo menos uma das demais cores está presente em cada bandeira, dessa forma, integra todos os países, fornecendo um sentido universal para as Olimpíadas.\n[…]\nO desenho foi feito em 1913 por Pierre de Coubertin recorrendo a grafite e guache em papel, medindo 21 por 27,5 centímetros.\n[…]\nO projeto foi entregue por Pierre de Coubertin a um homem suíço, tendo ficado na família ao longo dos tempos até que um colecionador o comprou e colocou-o à venda em 2020.\n[…]\nEm 26 de Julho de 2020 o desenho foi vendido a um colecionador brasileiro por 185 mil euros, mais custos, ou 234 950 euros.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "A Marselhesa",
+      "descricao": "Hino nacional da França, composto por Rouget de Lisle em 1792."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1792, que capitão do exército francês compôs a letra e a música da Marselhesa?",
+    "resposta": "Rouget de Lisle",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Marseillaise",
+      "https://pt.wikipedia.org/wiki/A_Marselhesa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Marseillaise",
+        "situacao": "ok",
+        "texto": "\"La Marseillaise\" is the national anthem of France. It was written in 1792 by Claude Joseph Rouget de Lisle in Strasbourg after the First French Republic declared war against Austria, and was originally titled \"Chant de Guerre pour l'Armée du Rhin\" (\"War Song for the Army of the Rhine\").\n[…]\nOn 25 April 1792, Baron Philippe Friedrich Dietrich, the mayor of Strasbourg and Worshipful Master of the local Masonic lodge, asked his Freemason guest Rouget de Lisle to compose a song \"that will rally our soldiers from all over to defend their homeland that is under threat\". That evening, Rouget de Lisle wrote \"Chant de guerre pour l'Armée du Rhin\" (\"War Song for the Army of the Rhine\"), and dedicated the song to Marshal Nicolas Luckner, a Bavarian freemason in French service from Cham.\n[…]\nIn Russia, \"La Marseillaise\" was used as a republican revolutionary anthem by those who knew French starting in the 18th century, almost simultaneously with its adoption in France. In 1875 Peter Lavrov, a narodnik revolutionary and theorist, wrote a Russian-language text (not a translation of the French one) to the same melody. This \"Worker's Marseillaise\" became one of the most popular revolutionary songs in Russia and was used in the Revolution of 1905.\n[…]\nThe British philosopher and reformer Jeremy Bentham, who was declared an honorary citizen of France in 1791 in recognition of his sympathies for the ideals of the French Revolution, was not enamoured of \"La Marseillaise\". Contrasting its qualities with the \"beauty\" and \"simplicity\" of \"God Save the King\", he wrote in 1796:\n[…]\n\"Marseillaise\". Collier's New Encyclopedia. 1921.\n[…]\n\"La Marseillaise de Rouget de Lisle\" (in French). Élysée – Présidence de la République. 16 November 2012.\n[…]\nLa Marseillaise, Iain Patterson's comprehensive website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Marselhesa",
+        "situacao": "ok",
+        "texto": "La Marseillaise (A Marselhesa, em português) é o hino nacional da França. Foi composto pelo oficial Claude Joseph Rouget de Lisle em 1792, da divisão de Estrasburgo, como canção revolucionária. A canção adquiriu grande popularidade durante a Revolução Francesa, especialmente entre as unidades do exército de Marselha, ficando conhecida como A Marselhesa.\n[…]\nSeu título era originalmente Canto de Guerra para o Exército do Reno. O hino foi composto por Rouget de Lisle, oficial do exército francês e músico autodidata, a pedido do prefeito de Estrasburgo, Philippe-Frédéric de Dietrich, dias depois da declaração de guerra ao imperador da Áustria, em 25 de abril de 1792. O canto deveria ser um estímulo para encorajar os soldados no combate de fronteira, na região do rio Reno.\n[…]\nEm 20 de setembro de 1792, o exército revolucionário, comandado pelo general Dumouriez, venceu a Batalha de Valmy, travada contra a nobreza francesa e seus aliados austríacos e prussianos, que tentavam derrubar o regime instaurado em 1789. Na ocasião, Servan de Gerbey, ministro da Guerra da França, escreveu a Dumouriez: \"O hino conhecido pelo nome de La Marseillaise é o Te Deum da República\".\n[…]\nNão se sabe se Claude Joseph Rouget de Lisle, o autor de A Marselhesa, se inspirou, de algum modo, no primeiro andamento do Concerto n.º 25, em C major (K. 503) de Wolfgang Amadeus Mozart, datado de 1786, para realizar a melodia de A Marselhesa, porque, na verdade, existem algumas ressonâncias.\n[…]\nMais tarde, em 1880, com base em A Marselhesa, Piotr Ilitch Tchaikovski escreveu uma peça orquestral, a Abertura 1812, para comemorar a vitória russa sobre Napoleão, fazendo sobressair musicalmente temas de música russa tradicional junto à melodia de A Marselhesa, com o intuito de ilustrar precisamente essa vitória."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Bandeira da Paraíba",
+      "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A bandeira da Paraíba traz a palavra Nego. Que governante paraibano, assassinado em 1930, teria dito essa recusa?",
+    "resposta": "João Pessoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_da_Paraíba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Paraíba",
+        "situacao": "ok",
+        "texto": "A Bandeira da Paraíba é um dos símbolos oficiais do estado brasileiro da Paraíba.\n[…]\nUm terço dela está na cor preta — representando os dias de luto que vigoraram no estado após o assassinato de João Pessoa em Recife, no ano de 1930 — e dois terços restantes na cor vermelha — representando a Aliança Liberal.\n[…]\n2º da Constituição do Estado e, considerando que o projecto nº 6 é, em suas linhas gerais, como nas minúcias da sua organização, uma simples criação de partido; considerando que a bandeira de qualquer Estado é, antes de tudo, um símbolo de vida normal, uma síntese ideal das aspirações coletivas ou da ambiência em que evolve a alma do povo que a elege; considerando que a phrase inscripta na bandeira que elle crêa não é historica nem figura no telegrama em que o Presidente João Pessoa negou apoio á candidatura Júlio Prestes considerando que - nego - desacompanhado de qualquer explicação é, por si só incompreensível, e encerra um grito de puro negativismo, resolvo vetar este projecto, devolvendo-o à Assembleia para que se cumpram os dispositivos constitucionais que regem o caso.\n[…]\nDentre seus adeptos, destaca-se o então presidente do Paraná, Caetano Munhoz da Rocha, que, em 1922, propôs aos governos de todas as unidades da federação que abolissem os símbolos locais Nesse contexto o presidente da Paraíba, Sólon de Lucena, extinguiu a bandeira estadual através da Lei nº 553, de 7 de novembro de 1922, passando o estado a utilizar a bandeira nacional. O estado só voltou a ter bandeira própria em 1930, quando a bandeira do nego foi instituída."
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Bandeira de Pernambuco",
+      "descricao": "Bandeira do estado de Pernambuco, azul e branca com arco-íris, estrela, sol e cruz."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A bandeira de Pernambuco, com arco-íris, estrela e sol, foi criada por revolucionários que se rebelaram contra a Coroa portuguesa em que ano?",
+    "resposta": "1817",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco",
+        "situacao": "ok",
+        "texto": "A bandeira do estado de Pernambuco é um dos símbolos oficiais do  estado brasileiro de Pernambuco. É uma flâmula bicolor, azul e branca, sendo as cores partidas, horizontalmente, em duas secções desiguais, tendo, no retângulo superior e maior, azul, o arco-íris composto por três cores, vermelho, amarelo e verde, com uma estrela em cima e por baixo o sol, dentro do semicírculo, ambos em cor amarela\n[…]\nNo pavilhão da efêmera república pernambucana de 1817, a cor azul simbolizava o céu; a cor branca representava a nação que se fundava em um desejo de paz; o arco-íris, inicialmente vermelho, amarelo e branco, assinalava o início de uma nova era, de paz, amizade e união, que a confederação oferecia aos portugueses europeus e aos povos de todas as nações que viessem pacificamente aos seus portos ou porventura residissem aqui; as três estrelas representavam Pernambuco, Paraíba e Rio Grande do Norte — e outras estrelas seriam inseridas em volta do arco-íris ao passo que outras capitanias brasileiras aderissem oficialmente à confederação, o que demonstrava o caráter federalista do movimento —; a cruz era uma referência à denominação do Brasil em seus primórdios (Terra de Santa Cruz ou Ilha da Vera Cruz); e o Sol iluminava o futuro, simbolizando que os habitantes de Pernambuco são filhos do sol e vivem sob ele, sob a mesma justiça que torna todos iguais.\n[…]\nNa bandeira atual, adotada em 1917, a cor azul do retângulo superior simboliza a grandeza do céu pernambucano; a cor branca representa a paz; o arco-íris simboliza a união de todos os pernambucanos; a estrela caracteriza o estado no conjunto da Federação, que na bandeira nacional é representado por Denebakrab; o Sol é a força e a energia de Pernambuco; e, finalmente, a cruz representa a fé na justiça e no entendimento.\n[…]\nBrasão de Pernambuco\n[…]\nBandeira de Pernambuco\n[…]\nBandeira de Pernambuco - Revolução de 1817\n[…]\nSímbolos de Pernambuco"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Bandeira do Canadá",
+      "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o Canadá adotou a bandeira com a folha de bordo vermelha, abandonando a que trazia o Union Jack?",
+    "resposta": "1965",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Canada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+        "situacao": "ok",
+        "texto": "The national flag of Canada, popularly referred to as the Maple Leaf, consists of a red field with a white square at its centre in the horizontal ratio of 1∶2∶1, in which is featured one stylized, red, 11-pointed maple leaf charged in the centre. It is the first flag to have been adopted by both houses of Parliament and officially proclaimed by the Canadian monarch as the country's official nation\n[…]\nIn 1964, Prime Minister Lester B. Pearson formed a committee to resolve the ongoing issue of the lack of an official Canadian flag, sparking a debate about a flag change to replace the Union Flag. Out of three choices, the maple leaf design by Mount Allison University historian George Stanley, based on the flag of the Royal Military College of Canada, was selected. The flag officially appeared on February 15, 1965; the date is now celebrated annually as National Flag of Canada Day.\n[…]\nInmont Canada Ltd., No. 4T51577;\n[…]\nAs the de facto British national flag, the Union Flag (commonly known as the \"Union Jack\") was used similarly in Canada from the time of British settlement in Nova Scotia after 1621. Its use continued after Canada's legislative independence from the United Kingdom in 1931 until the adoption of the current flag in 1965. The United Empire Loyalist flag, that is very similar to the Union Jack, was used by immigrants who remained loyal to the British crown during the American Revolutionary War.\n[…]\nThe new national flag was inaugurated on February 15, 1965, at an official ceremony held on Parliament Hill in Ottawa, in the presence of Governor General Major-General Georges Vanier, the Prime Minister, other members of the Cabinet, and Canadian parliamentarians. The Red Ensign was lowered at the stroke of noon, and the new maple leaf flag was raised. The crowd sang \"O Canada\" followed by \"God Save the Queen\".\n[…]\nCanada at Flags of the World\n[…]\n\"The Maple Leaf Forever?\" – The Agenda (TVO)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Canad%C3%A1",
+        "situacao": "ok",
+        "texto": "A Bandeira Nacional do Canadá, também conhecida como a Folha de Bordo ou a Folheada, é uma bandeira formada por uma tribanda vermelha nas pontas e branca no centro, no meio da qual está uma folha de bordo estilizada com onze pontas. É a primeira bandeira nacional canadense branco vermelho\n[…]\nO primeiro-ministro Lester B. Pearson formou um comitê em 1964 para resolver a questão da bandeira do país, iniciando um debate para substituir o Estandarte Vermelho Canadense. De duas opções, foi escolhido o desenho da folha de bordo por George Stanley, que tinha se inspirado na bandeira do Real Colégio Militar do Canadá. A bandeira fez sua primeira aparição pública oficial em 15 de fevereiro de 1965; a data é atualmente celebrada como o Dia da Bandeira Nacional.\n[…]\nDe acordo com Matheson, o \"objetivo primordial e desesperado\" de Pearson ao introduzir uma bandeira nova era manter Quebec na união canadense. A ideia de Stanley era de que a bandeira deveria ser vermelha e branca e que tivesse uma única folha de bordo; seu memorando incluía o primeiro esboço do que tornaria-se a bandeira do Canadá. Stanley e Matheson colaboraram no desenho que, depois de seis meses de debates e 308 discursos, foi aprovado pela Câmara dos Comuns em 15 de dezembro de 1964.\n[…]\nIsabel II proclamou a nova bandeira em 28 de janeiro de 1965, com a inauguração sendo em 15 de fevereiro do mesmo ano durante uma cerimônia oficial na Colina do Parlamento em Ottawa, tendo a presença do governador-geral major-general Georges Vanier, o primeiro-ministro Lester B. Pearson, membros do gabinete e outros parlamentaristas. O Estandarte Vermelho foi abaixado do mastro ao meio-dia enquanto a nova bandeira da folha de bordo era levantada.\n[…]\nMemorando de John Matheson para George Stanley sobre a aprovação da bandeira (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Bandeira do Canadá",
+      "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantas pontas tem a folha de bordo vermelha no centro da bandeira do Canadá?",
+    "resposta": "Onze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Canada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+        "situacao": "ok",
+        "texto": "The national flag of Canada, popularly referred to as the Maple Leaf, consists of a red field with a white square at its centre in the horizontal ratio of 1∶2∶1, in which is featured one stylized, red, 11-pointed maple leaf charged in the centre. It is the first flag to have been adopted by both houses of Parliament and officially proclaimed by the Canadian monarch as the country's official nation\n[…]\nIn heraldic terminology, the flag's blazon as outlined on the original royal proclamation is \"gules on a Canadian pale argent a maple leaf of the first\".\n[…]\nLower, stressing the need for a distinctly Canadian emblem; Marcel Trudel, arguing for symbols of Canada's founding nations, which did not include the maple leaf (a thought shared by Diefenbaker); and A. Y. Jackson, providing his own suggested designs.\n[…]\nIt was Stanley's idea that the new flag should be red and white and that it should feature the single maple leaf; his memorandum included the first sketch of what would become the flag of Canada. Stanley and Matheson collaborated on a design that was, after six months of debate and 308 speeches, passed by a majority vote in the House of Commons on December 15, 1964. Just after this, at 2 am, Matheson wrote to Stanley: \"Your proposed flag has just now been approved by the Commons 163 to 78.\n[…]\nThe new national flag was inaugurated on February 15, 1965, at an official ceremony held on Parliament Hill in Ottawa, in the presence of Governor General Major-General Georges Vanier, the Prime Minister, other members of the Cabinet, and Canadian parliamentarians. The Red Ensign was lowered at the stroke of noon, and the new maple leaf flag was raised. The crowd sang \"O Canada\" followed by \"God Save the Queen\".\n[…]\nCanada at Flags of the World\n[…]\n\"The People's Choice: Seeking the origins of the Maple Leaf flag, finding the soul of our nation\" – W5 (CTV)\n[…]\n\"The Maple Leaf Forever?\" – The Agenda (TVO)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Canad%C3%A1",
+        "situacao": "ok",
+        "texto": "A Bandeira Nacional do Canadá, também conhecida como a Folha de Bordo ou a Folheada, é uma bandeira formada por uma tribanda vermelha nas pontas e branca no centro, no meio da qual está uma folha de bordo estilizada com onze pontas. É a primeira bandeira nacional canadense branco vermelho\n[…]\nA bandeira do Canadá é uma tribanda composta por um quadrado central branco (chamado de pala canadiana por causa desta bandeira) com dois campos vermelhos nas laterais exatamente da metade do tamanho que o quadrado. No centro está uma folha de bordo estilizada vermelha com onze pontas.\n[…]\nO número de pontas da folha de bordo não tem um significado especial; o número e arranjo das pontas foram escolhidos depois de testes em um túnel de vento terem mostrado que a versão de onze pontas era a que menos ficava embaçada a olho nu sob condições de ventos fortes. O desenho da folha de bordo em si foi supervisionado por Jacques Saint-Cyr.\n[…]\nLower, que salientou a necessidade de um emblema distintamente canadense; Marcel Trudel, que defendia símbolos das nações fundadoras do Canadá e sem a inclusão da folha de bordo (um pensamento compartilhado por Diefenbaker); e A. Y. Jackson, que deu suas próprias sugestões de bandeiras.\n[…]\nDe acordo com Matheson, o \"objetivo primordial e desesperado\" de Pearson ao introduzir uma bandeira nova era manter Quebec na união canadense. A ideia de Stanley era de que a bandeira deveria ser vermelha e branca e que tivesse uma única folha de bordo; seu memorando incluía o primeiro esboço do que tornaria-se a bandeira do Canadá. Stanley e Matheson colaboraram no desenho que, depois de seis meses de debates e 308 discursos, foi aprovado pela Câmara dos Comuns em 15 de dezembro de 1964.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Euro",
+      "descricao": "Moeda única adotada por diversos países da União Europeia."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O euro existe desde 1999, mas suas cédulas e moedas só começaram a circular em que ano?",
+    "resposta": "2002",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euro",
+      "https://pt.wikipedia.org/wiki/Euro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Euro",
+        "situacao": "ok",
+        "texto": "The euro (symbol: €; currency code: EUR) is the official currency of 21 of the 27 member states of the European Union. This group of states is officially known as the euro area, more commonly named the eurozone. Each euro is subdivided into 100 cents.\n[…]\nThe name euro was officially adopted on 16 December 1995 in Madrid. The euro was introduced to world financial markets as an accounting currency on 1 January 1999, replacing the former European Currency Unit (ECU) at a ratio of 1:1. Physical euro coins and banknotes entered into circulation on 1 January 2002, making it the day-to-day operating currency of its original members, and by March 2002 it had completely replaced the former currencies.\n[…]\nSince 1 January 2002, the national central banks (NCBs) and the ECB have issued euro banknotes on a joint basis. Eurosystem NCBs are required to accept euro banknotes put into circulation by other Eurosystem members and these banknotes are not repatriated. The ECB issues 8% of the total value of banknotes issued by the Eurosystem. In practice, the ECB's banknotes are put into circulation by the NCBs, thereby incurring matching liabilities vis-à-vis the ECB.\n[…]\nThe notes and coins for the old currencies, however, continued to be used as legal tender until new euro notes and coins were introduced on 1 January 2002.\n[…]\nBesides the economic motivations to the introduction of the euro, its creation was also partly justified as a way to foster a closer sense of common European identity between European citizens. Statements about this goal were for instance made by Wim Duisenberg, European Central Bank Governor, in 1998, Laurent Fabius, French Finance Minister, in 2000, and Romano Prodi, President of the European Commission, in 2002."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Euro",
+        "situacao": "ok",
+        "texto": "O euro (símbolo: €; código: EUR) é a moeda oficial da zona Euro, a qual é constituída por 21 dos 27 estados-membros da União Europeia: Alemanha, Áustria, Bélgica, Bulgária, Chipre, Croácia, Eslováquia, Eslovénia, Espanha, Estónia, Finlândia, França, Grécia, Irlanda, Itália, Letónia, Lituânia, Luxemburgo, Malta, Países Baixos e Portugal. A moeda é também usada de forma oficial pelas instituições da\n[…]\nO nome \"euro\" foi oficialmente adotado em 16 de dezembro de 1995. O euro foi introduzido nos mercados financeiros mundiais como unidade de conta a 1 de janeiro de 1999, em substituição da antiga Unidade Monetária Europeia (ECU), a um câmbio de 1:1 (1,1743 USD). As moedas e notas físicas de euro entraram em circulação a 1 de janeiro de 2002, tornando-a a moeda de uso corrente entre os membros originais.\n[…]\nEmbora nos primeiros dois anos a cotação do euro tenha descido para 0,8252 USD (26 de outubro de 2000), a partir do fim de 2002 começou a ser transacionada a valores superiores ao dólar, atingindo um máximo de 1,6038 USD em 18 de julho de 2008. A partir do fim de 2009, a crise da dívida pública da Zona Euro levou à criação do Fundo Europeu de Estabilização Financeira e à adoção de várias reformas de estabilização monetária.\n[…]\nO primeiro nome para o sistema de conversão entre as moedas que se uniriam foi o ECU (European Currency Unit em Inglês). O nome de Euro é atribuído ao Belga Germain Pirlot que assim o sugeriu a Jacques Santer em 1995. O valor da nova moeda foi ancorado ao do ECU por resolução do Conselho da União Europeia de 31 de dezembro de 1998. Esta entrou em vigor a 1 de janeiro de 1999 em forma não material (transferências, cheques, etc.) e a 1 de janeiro de 2002 em notas e moedas.\n[…]\nMoedas de euro\n[…]\nMoedas\n[…]\nLista de moedas em circulação\n[…]\n\"Cadernos do Banco de Portugal — Notas e Moedas de Euro\"\n[…]\nBanco de Portugal — Campanha EURO 2002\n[…]\n«Galeria das notas de EURO» (em alemão)"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Bandeira do Reino Unido",
+      "descricao": "Bandeira nacional do Reino Unido, a Union Jack, que combina as cruzes de São Jorge, Santo André e São Patrício."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A cruz vermelha em X de São Patrício entrou na bandeira britânica com a união com a Irlanda. Em que ano?",
+    "resposta": "1801",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Union_Jack"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Union_Jack",
+        "situacao": "ok",
+        "texto": "The Union Jack or Union Flag is the national flag of the United Kingdom. While no law has been enacted making the Union Flag the national flag of the United Kingdom, it has become so through precedent.\n[…]\nA manuscript compiled in 1785 by William Fox and in possession of the Flag Research Center includes a full plate showing \"the scoth  [sic] union\" flag. This could imply that there was still some use of a Scottish variant before the addition of the cross of St Patrick to the Union Flag in 1801.\n[…]\nNewfoundland and Labrador uses a flag that was derived from the Union Flag, with the Union Jack serving as the flag of Newfoundland until 1980. The Union Flag, and flags defaced with the Union Flag in its canton, similar to the Canadian Red Ensign, continue to see use in Canada in a private capacity. The pre-1801 Union Flag also sees limited use by private organisations, most notably the United Empire Loyalists Association of Canada.\n[…]\nThe vice-regal flags of the state governors also use the Union Jack. While the Flags Act 1953 states that Australians still have the \"right or privilege\" to fly the Union Jack after the introduction of the Australian national flag, usage of the Union Jack by itself is unusual. The unofficial flag of Lord Howe Island harks to the pre-1801 Union Jack.\n[…]\nThe Hudson's Bay Company (HBC) and East India Company were two of only a few non-government institutions using the Union Jack in part of their flags. HBC rival North West Company had a similar flag to that of the HBC. The HBC Red Ensign was in use from 1801 to 1965 and was replaced with a corporate flag featuring the company's coat of arms.\n[…]\nUnion Flag protocol at the College of Arms website\n[…]\nHow to draw the Union Jack"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Reino_Unido",
+        "situacao": "ok",
+        "texto": "A bandeira nacional do Reino Unido da Grã-Bretanha e da Irlanda do Norte, também conhecida por Bandeira da União (em inglês:  Union Flag), é resultado da sobreposição desses elementos:\n[…]\nA cruz de São Patrício, que representa a Ilha da Irlanda (vermelha em formato de X, com fundo branco).\n[…]\nO País de Gales, a outra nação britânica, por sua vez, nunca foi representado na bandeira do Reino Unido, tendo sido neste sentido considerado, juntamente com a Cornualha, como uma região da Inglaterra, portanto também representado na bandeira da União pela bandeira inglesa, da cruz de São Jorge.\n[…]\nEm 1 de maio de 1707, ocorreu a união das coroas da Inglaterra e Escócia, dando origem ao Reino da Grã-Bretanha, cuja bandeira uniu a cruz de São Jorge à cruz de Santo André. A União da Irlanda com a Grã-Bretanha, e consequente adição da cruz de São Patrício, só se realizaria em 1801, dando origem ao Reino Unido da Grã-Bretanha e Irlanda.\n[…]\nAs antigas bandeiras coloniais britânicas ocasionalmente embutiam nelas mesmas a bandeira do Reino Unido, normalmente no canto superior esquerdo, situação ainda corrente em territórios ainda pertencentes ao país. Muitas ex-possessões britânicas, ao adquirirem independência, alteraram não só seus nomes, como também suas bandeiras de forma que a referência à Union Flag foi retirada do pavilhão nacional, para simbolizar o fim dos tempos coloniais.\n[…]\nO Havaí, atualmente estado dos Estados Unidos, também comporta a bandeira britânica na parte superior esquerda de sua bandeira, desde a época em que foi ocupado pelos britânicos. É o único Estado dos EUA a fazer referência ao Reino Unido na bandeira.\n[…]\nBandeira da Grã-Bretanha\n[…]\nPavilhões Britânicos (vexilologia)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Hino Nacional Brasileiro",
+      "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A melodia do Hino Nacional é do século dezenove, mas a letra de Osório Duque-Estrada só foi oficializada em que ano?",
+    "resposta": "1922",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro",
+        "situacao": "ok",
+        "texto": "O Hino Nacional Brasileiro é um dos quatro símbolos oficiais da República Federativa do Brasil, conforme estabelece o art. 13, § 1.º, da Constituição do Brasil. Os outros símbolos da República são a Bandeira Nacional, as Armas Nacionais e o Selo Nacional. Tem letra de Joaquim Osório Duque-Estrada (1870–1927) e música de Francisco Manuel da Silva (1795–1865).\n[…]\nUm concurso realizado em 1909 escolheu a letra que deveria acompanhar a composição já aceita como a oficial do Hino; perfeccionista, Duque-Estrada efetuou daquele ano até sua oficialização em 1922, alterações em nove passagens sobre a versão inicial.\n[…]\nAtualmente, o manuscrito da letra, que é datado de 3 de agosto de 1922, integra o acervo da Academia Brasileira de Letras (ABL).\n[…]\nSempre Brilhar.”O fato é que até antes de 6 de setembro de 1922, data em que o poema de Joaquim Osório Duque Estrada foi oficializado, o Hino de Francisco Manuel da Silva permanecia sem um poema oficial, era entoado com as mais diferentes adaptações de uma localidade para outra, e não raro refletia um regionalismo contrário ao ideal de federalismo e unidade nacional.\n[…]\nEm 1917 o cantor Vicente Celestino foi o primeiro brasileiro a gravar o Hino Nacional, tendo por acompanhamento a Banda do Batalhão Naval e, nas passagens de refrão, também por um coro; esta versão, em si bemol, deu um tom de difícil interpretação pelas pessoas; a Banda deu andamento mais lento e solene nas passagens do cantor, enquanto mantinha o estilo tradicional (mais rápido e vibrante) apenas durante os refrões - o que veio a motivar apreciação oficial por uma comissão de reavaliação do Hino em 1936 e, durante algum tempo, insatisfação por parte das bandas militares da época; a despeito disso essa versão foi oficializada em 1922.\n[…]\nHino da Independência do Brasil\n[…]\nHino Nacional do BrasilArquivo em mp3.\n[…]\nHino Nacional BrasileiroArquivo *.wav."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Bandeira do Japão",
+      "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Usado há séculos, o disco vermelho sobre fundo branco só foi oficializado por lei como bandeira nacional do Japão em que ano?",
+    "resposta": "1999",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Japan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Japan",
+        "situacao": "ok",
+        "texto": "The national flag of Japan is a rectangular white banner with a red circle at its center. The flag is officially called the Nisshōki (日章旗, 'flag of the sun'), but is more commonly known in Japan as the Hinomaru (日の丸, 'circle of the sun'). It embodies the country's sobriquet: the Land of the Rising Sun.\n[…]\nThe Law Regarding the National Flag and National Anthem was passed in 1999, choosing both the Hinomaru and Kimigayo as Japan's national symbols. The passage of the law stemmed from the suicide of the principal of Sera High School in Sera, Hiroshima, Toshihiro Ishikawa, who could not resolve a dispute between his school board and his teachers over the use of the Hinomaru and Kimigayo.\n[…]\nBefore the vote, there were calls for the bills to be separated at the Diet. Waseda University professor Norihiro Kato stated that Kimigayo is a separate issue more complex than the Hinomaru flag. Attempts to designate only the Hinomaru as the national flag by the DPJ and other parties during the vote of the bill were rejected by the Diet. The House of Representatives passed the bill on 22 July 1999, by a 403 to 86 vote.\n[…]\nIn the People's Republic of China and Republic of Korea, both of which had been occupied by the Empire of Japan, the 1999 formal adoption of the Hinomaru was met with reactions of Japan moving towards the right and also a step towards re-militarization. The passage of the 1999 law also coincided with the debates about the status of the Yasukuni Shrine, U.S.-Japan military cooperation, and the creation of a missile defense program.\n[…]\nThe flag is cobalt blue with a gold winged eagle on top of a combined star, the moon, the Hinomaru sun disc and clouds. The latest version of the JASDF flag was re-adopted on 19 March 2001.\n[…]\nHinomaru: The Meaning Behind the Flag of Japan"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Jap%C3%A3o",
+        "situacao": "ok",
+        "texto": "A bandeira do Japão tem um formato retangular branco com um grande disco carmesim (representando o Sol) no centro, e é oficialmente denominada Nisshōki (日章旗, \"bandeira do Sol\") em japonês, embora seja mais comumente conhecida como Hinomaru (日の丸, \"disco solar\").\n[…]\nA bandeira Nisshōki é designada como a bandeira nacional na Lei sobre a Bandeira e o Hino Nacional, que foi promulgada e se tornou eficaz em 13 de agosto de 1999. Apesar de nenhuma legislação anterior ter especificado uma bandeira nacional, o disco solar já era de facto a bandeira do Japão. Duas proclamações foram publicadas em 1870 pelo Daijō-kan, o corpo de governo do início da era Meiji, cada uma com uma providência para a criação da bandeira nacional.\n[…]\nPor causa dessa ordem do novo gabinete do Japão, o Hinomaru era a bandeira nacional de facto uma vez que não restou nenhuma lei sobre a bandeira nacional.\n[…]\nA Lei sobre a Bandeira e o Hino Nacional foi passada em 1999, escolhendo o Hinomaru e o Kimigayo como símbolos nacionais do Japão. A aprovação da lei foi motivada pelo suicídio do diretor de uma escola em Hiroshima que não conseguira resolver uma disputa entre seu conselho escolar e seus professores sobre o uso do Hinomaru e do Kimigayo.\n[…]\nQuando a Lei sobre a Bandeira e o Hino Nacional passou, as dimensões da bandeira foram levemente alteradas. A razão geral da bandeira foi trocada para duas unidades de largura e três unidades de extensão (2:3). O disco carmesim foi deslocado para o ponto morto, mas o tamanho geral do disco permaneceu o mesmo. O fundo da bandeira é branco e o disco solar é carmesim　beni iro (紅色), mas a cor exata das sombras não foi definida na lei de 1999.\n[…]\nAs bandeiras e insígnias de ranking da Marinha Imperial do Japão também se baseiam na bandeira naval.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Bandeira da África do Sul",
+      "descricao": "Bandeira nacional da África do Sul, de seis cores, com uma forma de Y horizontal verde."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Hasteada pela primeira vez nas eleições que marcaram o fim do apartheid, a bandeira sul-africana de seis cores foi adotada em que ano?",
+    "resposta": "1994",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_South_Africa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_South_Africa",
+        "situacao": "ok",
+        "texto": "The national flag of South Africa was designed in March 1994 and adopted on 27 April 1994, during South Africa's 1994 general election, to replace the previous flag used from 1928–1994.\n[…]\nIn February 1994, Cyril Ramaphosa and Roelf Meyer, the chief negotiators of the African National Congress and the National Party government of the day, respectively, were given the task of resolving the flag issue. A final design was adopted on 15 March 1994, derived from a design developed by the State Herald Fred Brownell, who had also claimed to have previously designed the Namibian flag.\n[…]\nThis interim flag was hoisted officially for the first time on 27 April 1994, the day when the nation's first fully inclusive elections commenced which resulted in Nelson Mandela being inaugurated as South Africa's first democratically elected president on 10 May 1994. The flag was well received by most South Africans, though a small minority objected to it; hundreds of Afrikaner Volksfront members in Bloemfontein burned the flag in protest a few weeks before the April 1994 elections.\n[…]\nThe proclamation of the new national flag by South African President F. W. de Klerk was only published on 20 April 1994, a mere seven days before the flag was to be inaugurated, sparking a frantic last-minute flurry for flag manufacturers. As stated in South Africa's post-apartheid interim constitution, the flag was to be introduced for a five-year probationary period, after which there would be discussion about whether to change the national flag in the final draft of the constitution.\n[…]\nSouth Africa at Flags of the World\n[…]\nSouth Africa (1928-1994) at Flags of the World\n[…]\nSouth Africa (1910-1928) at Flags of the World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_%C3%81frica_do_Sul",
+        "situacao": "ok",
+        "texto": "A bandeira nacional da República da África do Sul foi adotada em 27 de abril de 1994. A bandeira foi concebida pelo Armeiro de Estado, F. Brownell, em substituição à antiga Oranje, Blanje, Blou. Uma tentativa anterior de criar uma nova bandeira, pedindo sugestões ao público, não se revelou bem sucedida.\n[…]\nApesar da sua novidade, a bandeira revelou-se um excelente símbolo nacional, mesmo entre os sul-africanos de pele branca, cuja bandeira veio substituir, e pode ser hoje vista com regularidade em eventos desportivos e afins.\n[…]\nAs melhores formas de descrever a bandeira é como duas bandas horizontais de vermelho (topo) e azul, separadas por uma banda central [verde] que tem a forma de um Y horizontal, cujos braços terminam nos cantos do lado da tralha. O Y delimita um triângulo isósceles preto, separado dele por listras amarelas estreitas. As bandas vermelha e azul estão separadas da área verde por listras brancas estreitas.\n[…]\nAs cores da bandeira tem cada uma seu significado. O vermelho significa o sangue do povo, o azul representa o céu, as cores preto e branco significam as raças negra e branca, o verde representa as florestas e o amarelo é ouro. A África do Sul é um dos maiores produtores do metal precioso no mundo.\n[…]\nA forma de \"Y\" da bandeira se destaca por expressar um importante significado simbólico. É a representação de traços opostos que ao se cruzarem seguem o mesmo caminho. Dentro do contexto de derrubada do Apartheid o símbolo traz a ideia de que brancos e negros, antes separados e distintos, se unem para caminhar juntos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "The Star-Spangled Banner",
+      "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Escrito em 1814, o poema The Star-Spangled Banner só se tornou oficialmente o hino dos Estados Unidos em que ano?",
+    "resposta": "1931",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner",
+        "situacao": "ok",
+        "texto": "\"The Star-Spangled Banner\" is the national anthem of the United States. The lyrics come from the \"Defence of Fort M'Henry\", a poem written by American lawyer Francis Scott Key on September 14, 1814, after he witnessed the bombardment of Fort McHenry by the British Royal Navy during the Battle of Baltimore in the War of 1812. Key was inspired by the large U.S. flag, with 15 stars and 15 stripes, kn\n[…]\n\"The Star-Spangled Banner\" was first recognized for official use by the United States Navy in 1889. On March 3, 1931, the U.S. Congress passed a joint resolution (46 Stat. 1508) making the song the official national anthem of the United States, which President Herbert Hoover signed into law. The resolution is now codified at 36 U.S.C. § 301(a).\n[…]\nThe committee voted in favor of sending the bill to the House floor for a vote. The House of Representatives passed the bill later that year. The Senate passed the bill on March 3, 1931. President Herbert Hoover signed the bill on March 4, 1931, officially adopting \"The Star-Spangled Banner\" as the national anthem of the United States of America.\n[…]\nIn the fourth verse, Key's 1814 published version of the poem is written as, \"And this be our motto-\"In God is our trust!\"\" In 1956 when 'In God We Trust' was under consideration to be adopted as the national motto of the United States by the US Congress, the words of the fourth verse of The Star Spangled Banner were brought up in arguments supporting adoption of the motto.\n[…]\nTV tour of the Smithsonian National Museum of American History Star-Spangled Banner exhibit—C-SPAN, American History, May 15, 2014\n[…]\n19th century version (MP3) of the Star-Spangled Banner was performed on original instruments from the National Museum of American History's collection. Arranged by G. W. E. Friederich, the music is played as it would have been heard in 1854."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Star-Spangled_Banner",
+        "situacao": "ok",
+        "texto": "\"The Star-Spangled Banner\" (em português:  \"A Bandeira Estrelada\") é o hino nacional dos Estados Unidos. A letra vem de \"Defesa de Fort M'Henry\", um poema escrito em 14 de setembro de 1814, pelo advogado e poeta amador Francis Scott Key, de 35 anos, após testemunhar o bombardeio de Fort McHenry por navios britânicos da Marinha Real em Baltimore Harbour durante a Batalha de Baltimore na Guerra de 1\n[…]\nO poema foi definido ao som de uma popular canção britânica escrita por John Stafford Smith para a Sociedade Anacreôntica, um clube social masculino em Londres. \"To Anacreon in Heaven\" (ou \"The Anacreontic Song\"), com várias letras, já era popular nos Estados Unidos. Renomeado para \"The Star-Spangled Banner\", logo se tornou uma conhecida canção patriótica dos EUA. Com um alcance de dezenove semitons, é conhecido por ser muito difícil de cantar.\n[…]\n\"The Star-Spangled Banner\" foi reconhecido para uso oficial pela Marinha dos Estados Unidos em 1889, e pelo presidente dos EUA Woodrow Wilson em 1916, e foi feito o hino nacional por uma resolução do Congresso em 3 de março de 1931 (46 Stat. 1508, codificado em 36 U.S.C. § 301), que foi assinado pelo presidente Herbert Hoover.\n[…]\nApós a Guerra de 1812 e subsequentes guerras dos Estados Unidos, outras canções surgiram para disputar popularidade em eventos públicos, entre elas \"America the Beautiful\", que já estava sendo considerada antes de 1931 como candidata a se tornar o hino nacional dos Estados Unidos.\n[…]\nPoemas do falecido Francis S. Key, esq., autor de \"The Star Spangled Banner\"; com uma carta introdutória do chefe de justiça Taney, publicado em 1857 (A carta do chefe de justiça Taney nos conta a história por trás da escrita do poema escrito por Francis Scott Key), Key, Francis Scott (24 de abril de 1857). «Poems of the late Francis S. Key, Esq., author of \"The Star spangled banner\" : with and introductory letter by Chief Justice Taney».",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Bandeira do Camboja",
+      "descricao": "Bandeira nacional do Camboja, azul e vermelha com o desenho branco de um templo no centro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que país do Sudeste Asiático tem na bandeira o desenho de um templo, em branco sobre a faixa vermelha?",
+    "resposta": "Camboja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Cambodia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Cambodia",
+        "situacao": "ok",
+        "texto": "The flag of Cambodia (Khmer: ទង់ជាតិកម្ពុជា) features three horizontal bands of blue, double-width red, and blue, with a white depiction of Angkor Wat centred on the red band. Red and blue are traditionally the colours of Cambodia, representing the nation and the king respectively."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Camboja",
+        "situacao": "ok",
+        "texto": "A bandeira do Camboja foi adotada oficialmente em 23 de setembro de 1993, após o restabelecimento da monarquia no país. A bandeira possui três listras horizontais, tendo a central (de cor vermelha) o dobro da largura das outras duas faixas (de cor azul). No meio da faixa vermelha está representada a entrada do templo de Angkor Wat.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Bandeira do Líbano",
+      "descricao": "Bandeira nacional do Líbano, com faixas vermelhas e um cedro verde sobre a faixa branca central."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Entre duas faixas vermelhas, um cedro verde ocupa o centro da bandeira de qual país do Oriente Médio?",
+    "resposta": "Líbano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Lebanon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Lebanon",
+        "situacao": "ok",
+        "texto": "The national flag of Lebanon (Arabic: العلم الوطني للجمهورية اللبنانية) is a horizontal triband of two red stripes enveloping a central white stripe which is twice the height of each red stripe. Centered on the white stripe is a green cedar of Lebanon tree (Cedrus libani), touching both red stripes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_L%C3%ADbano",
+        "situacao": "ok",
+        "texto": "A bandeira do Líbano foi adotada em 7 de dezembro de 1943.[carece de fontes]? Foi desenhada originalmente na casa do deputado Seeb Salam, por ele e outros deputados do parlamento libanês.[carece de fontes]?\n[…]\nA árvore de cedro da bandeira é mencionada na Bíblia como um símbolo de força e riqueza e por muito tempo foi associada à minoria cristã libanesa. A cor branca na bandeira representa a neve como símbolo de pureza e paz. As duas faixas vermelhas remetem ao sangue libanês derramado para preservar o país contra os sucessivos invasores.\n[…]\nSeu desenho consiste em um retângulo de proporção largura-comprimento igual a 2:3 dividido em três faixas horizontais, sendo duas faixas vermelhas cercando uma faixa branca central. A faixa branca é duas vezes o tamanho de uma vermelha (proporções 1:2:1). No centro da faixa branca há um desenho estilizado na cor verde de um Cedro-do-líbano, árvore característica da região, símbolo de força e eternidade.\n[…]\nDe acordo com o Artigo 5 da constituição do Líbano: \"A bandeira libanesa será composta de três faixas horizontais, uma faixa branca entre duas vermelhas. A largura da faixa branca será igual à das duas faixas vermelhas. No centro de e ocupando um terço da faixa branca é uma árvore de cedro verde com seu topo tocando a faixa vermelha superior e sua base tocando a faixa vermelha inferior\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Bandeira da Albânia",
+      "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Uma águia negra de duas cabeças sobre fundo vermelho forma a bandeira de qual país dos Bálcãs?",
+    "resposta": "Albânia",
+    "distratores": [
+      "Montenegro",
+      "Sérvia",
+      "Macedônia do Norte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Albania"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Albania",
+        "situacao": "ok",
+        "texto": "The national flag of Albania (Albanian: Flamuri i Shqipërisë) depicts a silhouetted black double-headed eagle in the center of a red background. The red stands for bravery, strength, valour and bloodshed, while the eagle – traditionally the symbol of Albanians – represents the sovereign state of Albania. The flag was established as the national flag of Albania when the country gained its independe\n[…]\nIt concludes that \"there is no definitive proof\" on how the raised flag looked on the day Albania declared its independence, while providing ten hypotheses.\n[…]\nThe Yearbook of the Kingdom of Albania in its 1940–XVIII edition, describes in Title I, Article II of the Constitutional Charter the following:\n[…]\nLaw nr.5506, dated 28 December 1976 of the constitution of the People's Socialist Republic of Albania in Chapter III, Article I, Title CVIII describes the flag as follows:\n[…]\nThe state flag of the People's Socialist Republic of Albania represents a red field with a black double-headed eagle in the center, on top of which is a red star with five corners, embroidered all around in gold. The ratio between the width and the length of the flag is 1:1-40.\n[…]\nThe decorative symbols of the flag are the black eagle taken from the coat of arms of the House of Kastrioti, accepting it as one of the most ancient symbols used by the Albanian leader, the (golden) Skanderbeg helmet positioned in a straight frontal stance, symbolizing impartiality and determination in representing national unity, as well as oak (golden) leaves which represent longevity, strength and dignity, also taken as a symbol from antiquity used by King Gentius of the Illyrians.\n[…]\nThe flag of Albania is represented as the Unicode emoji sequence U+1F1E6 🇦 REGIONAL INDICATOR SYMBOL LETTER A and U+1F1F1 🇱 REGIONAL INDICATOR SYMBOL LETTER L, making \"🇦🇱\".\n[…]\nFlag of Albania (List)\n[…]\nCoat of arms of Albania (Armorial)\n[…]\nAlbanian heraldry"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Alb%C3%A2nia",
+        "situacao": "ok",
+        "texto": "A bandeira nacional da Albânia é uma bandeira vermelha com uma águia negra de duas cabeças (Bicéfala). Deriva do brasão, de desenho similar, de Gjergj Kastriot Skanderbeg, um líder albanês do século XV que esteve à frente da revolta contra o Império Otomano que resultou num breve período de independência da Albânia, entre 1443 e 1478.\n[…]\nA bandeira atual foi oficialmente adaptada a 7 de abril de 1992, mas anteriores estados albaneses, como o Reino da Albânia e o estado socialista do pós-guerra usaram uma bandeira basicamente igual, com o primeiro a incluir o Capacete de Skanderbeg sobre a águia e o segundo uma estrela vermelha orlada a amarelo na mesma posição.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Bandeira do País de Gales",
+      "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que nação do Reino Unido tem como bandeira um dragão vermelho sobre fundo branco e verde?",
+    "resposta": "País de Gales",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Wales"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Wales",
+        "situacao": "ok",
+        "texto": "The flag of Wales (Welsh: Baner Cymru or Y Ddraig Goch, meaning 'the red dragon') consists of a red dragon passant on a green and white field. As with many heraldic charges, the exact representation of the dragon is not standardised in law.\n[…]\nIn 1400, Owain Glyndŵr raised the dragon standard during his revolts against the occupation of Wales by the English crown. Owain's banner known as Y Ddraig Aur ('The Golden Dragon') was raised over Caernarfon during the Battle of Tuthill in 1401 against the English. Glyndŵr chose to fly the standard of a golden dragon on a white background, the traditional standard.\n[…]\nIn 1807, the red dragon on a green mount was adopted as the Royal Badge of Wales. On 11 March 1953, the motto Y Ddraig goch ddyry cychwyn ('The red dragon gives impetus' or 'The red dragon leads the way') was added, a line from the poem by Deio ab Ieuan Du. The badge was the basis of a flag of Wales in which it was placed on a horizontal white and green bicolour."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Pa%C3%ADs_de_Gales",
+        "situacao": "ok",
+        "texto": "A bandeira do País de Gales (em galês:  Baner Cymru ou Y Ddraig Goch, significando \"O dragão vermelho\") consiste em um dragão caminhando (passante) em um campo verde e branco. Assim como em muitos escudos heráldicos a exata representação do dragão não é padronizada e muitas interpretações existem. A bandeira foi oficializada em 1959, mas o dragão é associado ao País de Gales há séculos.\n[…]\nMuitas vezes a bandeira é considerada a mais velha bandeira nacional ainda em uso, embora a origem do dragão como símbolo seja hoje perdida entre história e mito. A teoria mais aceita é a de que os romanos tenham trazido o emblema durante sua ocupação da Grã-Bretanha. As listras verde e branco da bandeira foram acrescentadas pela Casa de Tudor, dinastia galesa que esteve no trono de 1485 a 1603. Verde e branco também são as cores do alho-poró, outro emblema de Gales.[carece de fontes]?\n[…]\nGales é a única nação britânica cuja bandeira oficial não é formada por uma cruz. Há, entretanto, bandeira galesa de uso secundário que utiliza-se de uma, conhecida como Bandeira de São David, com uma cruz amarela sobre um fundo preto. Desde 2002 ele está incluída no distintivo do clube de futebol da capital, o Cardiff City.\n[…]\nA bandeira de Gales é a única não-representada na bandeira do Reino Unido, muito por conta de a região ser historicamente considerada parte do Reino da Inglaterra com os Atos das Leis em Gales 1535-1542. Há movimentos que lutam por esse reconhecimento, tendo inclusive realizado propostas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Bandeira do Paraná",
+      "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Ramos de araucária e de erva-mate cercam o círculo azul estrelado da bandeira de qual estado brasileiro?",
+    "resposta": "Paraná",
+    "distratores": [
+      "Santa Catarina",
+      "Rio Grande do Sul",
+      "Mato Grosso do Sul"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Paraná"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Paraná",
+        "situacao": "ok",
+        "texto": "A Bandeira do Paraná é um dos símbolos oficiais do estado brasileiro do Paraná. Criada por Rodolpho Doubek, é constituída de um retângulo verde atravessado por uma banda descendente da esquerda para a direita acrescida de uma esfera azul. Esta é cruzada por um arco branco com o nome do estado em maiúsculas de verde. Sobre o círculo azulado, aparece a constelação do Cruzeiro do Sul.\n[…]\nA estrela superior branca maior está acima da banda arqueada e as quatro estrelas brancas menores se encontram abaixo do arco. Abraçam a esfera azul, dois ramos: um de araucária, à direita, e outro de erva-mate, à esquerda do observador. Foi instituída em 1947 para substituir um design parecido com o utilizado à época em que o estado até então era governado por interventores federais. É a bandeira do Paraná desde 31 de março de 1947.\n[…]\nO desenho da bandeira atual sugeria trocar o losango amarelo, a esfera azul com o mapa natal. E o arco com a divisa positivista “Ordem e Progresso” da bandeira do Brasil. Pela banda de argento, o círculo azulado, a banda arqueada com o dístico “Paraná”, a constelação da Crux e os ramos de araucária e erva-mate. Isso foi acertado visando observar o padrão vexilológico. A bandeira do Paraná é um pouco parecida com a bandeira do Brasil.\n[…]\nParágrafo único: A Bandeira é representada em lavor artístico, por um retângulo de sinopla, com uma banda de argenta, carregada de uma esfera de blau com as estrelas da Constelação do Cruzeiro do Sul em argenta. A esfera é circundada à destra por um ramo de erva-mate (Ilex Paraguariensis Saint Hilaire), frutificado em preto, e à sinistra por um ramo de pinheiro-do-paraná (Araucária angustifolia (Bertoloni) Otto Kuntze) em sinopla, cruzados em ponta, sendo o primeiro ramo sobre o segundo.\n[…]\nOs ramos de araucária e erva-mate, representados na bandeira, eram os principais produtos econômicos do Paraná à época."
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Bandeira do Espírito Santo",
+      "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O lema Trabalha e Confia está escrito na bandeira de qual estado brasileiro?",
+    "resposta": "Espírito Santo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Espírito_Santo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Espírito_Santo",
+        "situacao": "ok",
+        "texto": "A bandeira do estado do Espírito Santo é um dos símbolos oficiais do estado brasileiro do Espírito Santo.\n[…]\nFoi criada em 1908 pelo Dr. Jerônimo Monteiro, então presidente do estado, que também estabeleceu o azul e o rosa como cores oficiais do estado (7 de setembro de 1909). A bandeira, no entanto, foi adotada oficialmente apenas em 24 de abril de 1947, através do decreto-lei nº 16.618.\n[…]\nAo centro da segunda faixa um arco em letras azuis traz o lema \"TRABALHA E CONFIA\". Esse lema foi inspirado na doutrina de Santo Inácio de Loyola, fundador da ordem religiosa Companhia de Jesus: Trabalha como se tudo dependesse de ti e confia como se tudo dependesse de Deus. A faixa governamental é caracterizada pelas cores da bandeira e do brasão do Espírito Santo.\n[…]\nAntes de possuir essa bandeira, o Espírito Santo não tinha uma bandeira oficial. O estado adotou as cores iluministas azul e vermelho, além de também adotar A Marselhesa como hino, mas também não era oficial. Apenas no governo de Jerônimo Monteiro a atual bandeira começou a ser usada, mas demorou alguns anos para ser oficializada. Foi nessa época que o hino, o brasão de armas e o selo oficial estadual foram criados.\n[…]\nNo ano de 1989 um projeto proposto por Paulo Fundão tentou trocar a cor rosa da bandeira pela cor vermelha. Fundão argumentou que ao estudar heráldica concluiu que cores secundárias não poderiam ser utilizadas na bandeira, propondo então que o rosa - mistura do branco com o vermelho - deveria ser substituído. A decisão acabou indo para as mãos do então governador do estado, Max Mauro.\n[…]\nBandeira do Espírito Santo"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Non ducor, duco",
+      "descricao": "Lema latino do brasão da cidade de São Paulo, que significa não sou conduzido, conduzo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O lema latino Non ducor, duco, que significa não sou conduzido, conduzo, está no brasão de qual cidade brasileira?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Non_ducor,_duco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Non_ducor,_duco",
+        "situacao": "ok",
+        "texto": "São Paulo (; Portuguese: [sɐ̃w ˈpawlu] ; Portuguese for 'Saint Paul') is the capital and largest city of the state of São Paulo. The largest city in Brazil, it is also the most populous city in South America, the Americas, and in both the Western and Southern Hemispheres.\n[…]\nLarge hotel chains whose target audience is the corporate traveler are in the city. São Paulo is home to 75% of the country's leading business fairs. The city also promotes one of the most important fashion weeks in the world, São Paulo Fashion Week, established in 1996 under the name Morumbi Fashion Brasil, is the largest and most important fashion event in Latin America.\n[…]\nThe new job vacancies contributed to attract a significant number of immigrants (mainly from Italy) and migrants, especially from the Northeastern states. From a population of only 32.000 people in 1880, São Paulo now had 8.5 million inhabitants in 1980. The rapid population growth has brought many problems for the city.\n[…]\nThus, São Paulo differs considerably from other Brazilian cities such as Belo Horizonte and Goiânia, whose initial expansion followed determinations by a plan, or a city like Brasília, whose master plan had been fully developed prior to construction.\n[…]\nSão Paulo had had a professional company, Teatro Brasileiro de Comédia, (Brazilian Theater of Comedy), along with others.\n[…]\nThe Cobras Brasil Rugby, Brazilian professional franchise that plays the Super Rugby Americas, is based in São Paulo.\n[…]\nGeographic data related to São Paulo at OpenStreetMap\n[…]\nSão Paulo at the Encyclopædia Britannica\n[…]\nThe New York Times, \"36 Hours in São Paulo\".\n[…]\nU.S. News & World Report, \"São Paulo Travel Guide\"\n[…]\nForbes, \"All You Need To Know About Sao Paulo, Brazil's Largest City\"\n[…]\nNational Geographic, \"A writer's perfect day in São Paulo\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo",
+        "situacao": "ok",
+        "texto": "São Paulo é a capital do estado brasileiro de São Paulo. Classificada pela Globalization and World Cities Research Network (GaWC) como uma cidade global alfa, é a área urbana mais populosa do mundo fora da Ásia e exerce significativa influência internacional no comércio, finanças, cultura, gastronomia, artes, moda, tecnologia, entretenimento e mídia, o que lhe garantiu a integração à Rede de Cidad\n[…]\nSeu nome homenageia Paulo de Tarso, seus habitantes são conhecidos como paulistanos, enquanto seu lema latino é Non ducor, duco, que se traduz como \"Não sou conduzido, conduzo\".\n[…]\nSão Paulo é a maior economia urbana da América Latina, representando cerca de 10% do PIB brasileiro e por volta de 31% do PIB paulista (a única cidade brasileira a ultrapassar a faixa de 1 trilhão de reais em PIB). A cidade é sede da B3, a maior bolsa de valores latino-americana em capitalização de mercado, e possui diversos distritos financeiros, principalmente nas áreas ao redor das avenidas Paulista, Faria Lima e Berrini.\n[…]\nSão Paulo possui o maior PIB dentre as cidades brasileiras e latino-americanas e o décimo sétimo maior do mundo. Segundo dados do Instituto Brasileiro de Geografia e Estatística (IBGE), em 2023, seu Produto Interno Bruto (PIB) foi de 1 066 825 104 983 reais (a única cidade trilionária do país), o que equivale a cerca de 9,7% do PIB brasileiro, e 31,4% do PIB e 36% de toda a produção de bens e serviços do estado de São Paulo, e 21% da economia da região sudeste.\n[…]\nA cidade é um dos principais centros de ciência de alto impacto mundial.\n[…]\nSão Paulo é um dos principais centros de comunicação do Brasil e da América Latina, por reunir em seu território a sede de vários grandes grupos de comunicação. Dois dos jornais mais influentes do país são publicados na cidade, ambos com reputação internacional: a Folha de S.Paulo e O Estado de S. Paulo (o jornal mais antigo da cidade ainda em circulação).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Hino da Alemanha",
+      "descricao": "Hino nacional alemão, a terceira estrofe da Canção dos Alemães, com melodia de Joseph Haydn."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A letra do hino alemão foi escrita em 1841 numa ilha do Mar do Norte que, na época, pertencia aos britânicos. Que ilha?",
+    "resposta": "Heligolândia",
+    "distratores": [
+      "Sylt",
+      "Texel",
+      "Föhr"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deutschlandlied",
+      "https://en.wikipedia.org/wiki/Heligoland"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deutschlandlied",
+        "situacao": "ok",
+        "texto": "The \"Deutschlandlied\", officially titled \"Das Lied der Deutschen\", is a German poem written by August Heinrich Hoffmann von Fallersleben. A popular song which was made for the cause of creating a unified German state, it was adopted in its entirety in 1922 by the Weimar Republic, replacing the de facto anthem \"Heil dir im Siegerkranz\". The first stanza of the \"Deutschlandlied\" was used alongside t\n[…]\nAugust Heinrich Hoffmann von Fallersleben wrote the text in 1841 while on holiday on the North Sea island Heligoland, then a possession of the United Kingdom (now part of Germany).\n[…]\n\"Das Lied der Deutschen\" was not played at an official ceremony until Germany and the United Kingdom had agreed on the Heligoland–Zanzibar Treaty in 1890, when it appeared only appropriate to sing it at the ceremony on the now officially German island of Heligoland. During the time of the German Empire, it became one of the most widely known patriotic songs.\n[…]\nNevertheless, such nationalistic rhetoric was relatively common in 19th-century public discourse. For example, Georg Herwegh in his poem \"The German Fleet\" (1841) gives the Germans as the people \"between the Po and the Sound,\" and in 1832 Philipp Jakob Siebenpfeiffer, a noted journalist, declared at the Hambach Festival that he considered all \"between the Alps and the North Sea\" to be Deutschtum, or the ethnic and spiritual German community.\n[…]\nHoffmann von Fallersleben also intended the text to be used as a drinking song; the second stanza's toast to German wine, women and song is typical of this genre. The original Heligoland manuscript included a variant ending of the third stanza for such occasions:\n[…]\n\"Das Lied der Deutschen\", ingeb.org\n[…]\n\"Das Lied der Deutschen\" at Brandenburg Historica\n[…]\nDaniel A. Gross (18 February 2017). \"'Deutschland über alles' and 'America First', in Song\". The New Yorker."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Heligoland",
+        "situacao": "ok",
+        "texto": "Heligoland (; German: Helgoland, pronounced [ˈhɛlɡoˌlant] ; Heligolandic Frisian: deät Lun, lit. 'the Land', Mooring Frisian: Hålilönj, Danish: Helgoland) is a small archipelago in the North Sea, administratively part of the German state of Schleswig-Holstein.\n[…]\nHeligoland had a population of 1,127 at the end of 2016. In addition to German, the local population, who are ethnic Frisians, speak the Heligolandic dialect of the North Frisian language called Halunder. The islands are known for being the place where, in 1841, August Heinrich Hoffmann von Fallersleben wrote the lyrics to the \"Deutschlandlied\", which became the national anthem of Germany.\n[…]\nThere is a general understanding that the name \"Heligoland\" means \"Holy Land\" (compare modern Dutch and German heilig, \"holy\"). In the course of the centuries several alternative theories have been proposed to explain the name, from a Danish king Heligo to a Frisian word, hallig, meaning \"salt marsh island\". The 1911 Encyclopædia Britannica suggests Hallaglun, or Halligland, i.e. \"land of banks, which cover and uncover\".\n[…]\nA search and rescue (SAR) base of the DGzRS, the Deutsche Gesellschaft zur Rettung Schiffbrüchiger (German Maritime Search and Rescue Service), is located on Heligoland.\n[…]\nHeligoland–Zanzibar Treaty\n[…]\nBlack, William George (1888). Heligoland and the Islands of the North-Sea. Edinburgh: W. Blackwood.\n[…]\nRitsema, Alex (2007). Heligoland, Past and Present. Lulu Press. ISBN 978-1847531902.\n[…]\nHeligoland Tourist Board – includes a virtual tour of the island.\n[…]\nSite about planting palms on Heligoland\n[…]\nHeligoland Bird Observatory\n[…]\nFootage of Destruction of Heligoland fortifications April 1947\n[…]\nFerries to Heligoland\n[…]\n1951 news report about the civilian campaign to restore German control to Heligoland"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deutschlandlied",
+        "situacao": "ok",
+        "texto": "Das Lied der Deutschen (em português, \"A canção dos alemães\") ou Deutschlandlied (\"Canção da Alemanha\") é uma canção que se tornou o hino nacional da Alemanha.\n[…]\nPerseguido por suas ideias e atividades políticas, refugiara-se na ilha de Heligolândia, no Mar do Norte, onde o poema foi escrito. Mesmo após a unificação da Alemanha, a composição de Fallersleben foi ignorada, e, durante muito tempo, o Segundo Reich (1871-1918) nem sequer tinha um hino nacional oficial. Mas Deutschlandlied acabou por se tornar, informalmente, o hino nacional, constituindo-se, naquele momento, como a melhor expressão do sentimento patriótico dos alemães.\n[…]\nDurante o Terceiro Reich (1933-1945), a primeira estrofe da letra da canção (\"Deutschland über alles…\") era usada como hino nacional, sempre seguida de Horst-Wessel-Lied — o hino do Partido Nazista Alemão (NSDAP), que nos dias de hoje é proibido na Alemanha.\n[…]\nFinalmente, em 1952, Deutschlandlied foi reconhecida como hino nacional da Alemanha Ocidental.\n[…]\nA correspondência trocada no período de 19 e 23 de agosto de 1991, entre o Chanceler Helmut Kohl e o Presidente da RFA, Richard von Weizsäcker, confirma a tradição de Das Lied der Deutschen como exortação à unidade alemã: «Todas as estrofes da canção formam um todo, que é um documento da história alemã (…). A terceira estrofe da \"Canção dos Alemães\", escrita por Hoffmann von Fallersleben com a melodia de Joseph Haydn, é o Hino Nacional do Povo Alemão.»\n[…]\n«\"Das Lied der Deutschen\"». : as três estrofes do poema de Heinrich Hoffmann von Fallersleben (1841), em inglês e em alemão\n[…]\n«\"Das Lied der Deutschen\"». no site Brandenburg Historica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Grande Selo dos Estados Unidos",
+      "descricao": "Selo oficial do governo americano, com a águia-de-cabeça-branca na frente e uma pirâmide inacabada no verso."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Desde 1935, o verso de qual cédula americana traz uma pirâmide inacabada com um olho no topo, tirada do selo oficial do país?",
+    "resposta": "Nota de um dólar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States",
+      "https://en.wikipedia.org/wiki/United_States_one-dollar_bill"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States",
+        "situacao": "ok",
+        "texto": "The Great Seal of the United States is the seal of the United States of America. The phrase is used both for the impression device itself, which is kept by the United States secretary of state, and more generally for the impression it produces. The obverse of the Great Seal depicts the national coat of arms of the United States while the reverse features a truncated pyramid topped by an Eye of Pro\n[…]\nLargely designed by Charles Thomson, then secretary of the Continental Congress, and William Barton, and first used in 1782, the seal is used to authenticate certain documents issued by the federal government of the United States. Since 1935, both sides of the Great Seal have appeared on the reverse of the one-dollar bill. The coat of arms is used on official documents—including United States passports—military insignia, embassy placards, and various flags.\n[…]\nThis work was largely based on a two-volume work written in 1897 by Charles A. L. Totten titled Our Inheritance in the Great Seal of Manasseh, the United States of America: Its History and Heraldry; and Its Signification unto the 'Great People' thus Sealed.\n[…]\nThe shield of the Great Seal has seven white stripes and six red ones—essentially, a white background with six red stripes. Hopkinson incorporated this stripe arrangement into the Great Seal from the Flag of the United States that he had designed. Hopkinson also designed a seal for the Admiralty (Navy), which incorporated a chevron consisting of seven red stripes and six white ones. The seven red stripes in his Admiralty seal reflected the number of red stripes in his Naval flag.\n[…]\nSeal of the president of the United States\n[…]\nSeal of the United States Senate\n[…]\nGreat Seal bug (\"The Thing\")\n[…]\nWebpage for the United States Department of State Traveling Exhibit on the Great Seal of the United States (available on Internet Archive as found on August 16, 2017)\n[…]\nWebsite on the Great Seal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_one-dollar_bill",
+        "situacao": "ok",
+        "texto": "The United States one-dollar bill has been the lowest value denomination of United States paper currency since the discontinuation of U.S. fractional currency notes in 1876. The obverse shows the first U.S. president (1789–1797), George Washington, based on the 1796 Athenaeum Portrait by Gilbert Stuart, and the reverse shows the Great Seal of the United States. The one-dollar bill has the oldest o\n[…]\nThe reverse of the one-dollar bill has an ornate design that incorporates both sides of the Great Seal of the United States to the left and right of the word \"ONE\". This word appears prominently in the white space at the center of the bill in a capitalized, shadowed, and seriffed typeface. A smaller image of the word \"ONE\" is superimposed over the numeral \"1\" in each of the four corners of the bill.\n[…]\n\"THE UNITED STATES OF AMERICA\" spans the top of the bill, \"ONE DOLLAR\" is emblazoned along the bottom, and above the central \"ONE\" are the words \"IN GOD WE TRUST\", which became the official motto of the United States in 1956 by an Act of Congress. Below the reverse of the Great Seal on the left side of the bill are the words \"THE GREAT SEAL\", and below the obverse on the right side are the words \"OF THE UNITED STATES.\"\n[…]\nThe Great Seal, originally designed in 1782 and added to the dollar bill's design in 1935, is surrounded by an elaborate floral design. The renderings used were the typical official government versions used since the 1880s.\n[…]\nThe obverse of the seal on the right features a bald eagle, the national bird and symbol of the United States. Above the eagle is a radiant cluster of 13 stars arranged in a six-pointed star. The eagle's breast is covered by a heraldic shield with 13 stripes that resemble those on the American flag. As on the first US flag, the stars and stripes stand for the 13 original states of the union."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Selo_dos_Estados_Unidos",
+        "situacao": "ok",
+        "texto": "O Grande Selo dos Estados Unidos é usado para autenticar certos documentos emitidos pelo governo federal dos Estados Unidos. A frase é usada tanto para o próprio selo físico, que é mantido pelo Secretário de Estado dos Estados Unidos, quanto para o design impresso nele. O Grande Selo foi usado pela primeira vez em 1782.\n[…]\nA frente do Grande Selo representa o brasão nacional dos Estados Unidos. O brasão de armas é usado em documentos oficiais - incluindo passaportes dos Estados Unidos - insígnias militares, cartazes da embaixada e várias bandeiras. Como brasão, o design tem cores oficiais; o próprio Grande Selo físico, como afixado no papel, é monocromático. Desde 1935, os dois lados do Grande Selo aparecem no verso da nota de um dólar.\n[…]\nO verso do Grande Selo é considerado o brasão de armas dos Estados Unidos. O escudo, apesar de frequentemente representado de forma errada, possui duas principais divergências com a Bandeira americana. Primeiramente, o escudo Grande Selo não possui estrelas no topo azul. Além disto, ao contrário da bandeira americana, o Grande Selo tem as faixas maiores em branco, visando não ferir as regras de heráldica.\n[…]\nUma resolução de 1782 do Congresso que adota o Grande Selo descreve o reverso como \"uma pirâmide inacabada. No zênite, um olho sobre em um triângulo, circundados por uma glória\". A pirâmide é convencionalmente exibida com 13 camadas de tijolos em referência aos 13 estados originais. A adoção da resolução prevê a inscrição na base com a data \"MDCCLXXVI\" (1776), o ano da Declaração de Independência dos Estados Unidos. No topo do selo há duas inscrições: Annuit cœptis e Novus ordo seclorum.\n[…]\nSignificam, respectivamente: \"Ele aprova nossos empreendimentos\" e \"Nova Ordem dos Séculos\". O verso nunca foi disposto oficialmente como um selo, mas aparece na nota de 1 dólar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Rand",
+      "descricao": "Moeda oficial da África do Sul."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do rand, moeda da África do Sul, vem de qual região de serras, famosa por suas minas de ouro?",
+    "resposta": "Witwatersrand",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_African_rand"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/South_African_rand",
+        "situacao": "ok",
+        "texto": "The South African rand, or simply the rand, (sign: R; code: ZAR) is the official currency of South Africa. It is subdivided into 100 cents (sign: \"c\"), and a comma separates the rand and cents.\n[…]\nThe rand takes its name from the Witwatersrand (\"white waters' ridge\" in English, rand being the Afrikaans and Dutch word for 'ridge'), the ridge upon which Johannesburg is built and where most of South Africa's gold deposits were found. In English, Afrikaans and Dutch, the singular and plural forms of the unit (\"rand\") are the same: one rand, ten rand, and two million rand.\n[…]\nIn 2010, the South African Reserve Bank and commercial banks withdrew all 1994 series 200-rand banknotes due to relatively high-quality counterfeit notes in circulation.\n[…]\nThe South African Reserve Bank shredded 3.6 million 100-rand banknotes printed by Crane Currency because they had the same serial numbers as a batch printed by the South African Bank Note Company. In addition, the notes printed in Sweden were not the correct colour and were 1 mm short.\n[…]\nOn 3 May 2023, the South African Reserve Bank announced that a new series of banknotes would retain the image of Nelson Mandela on the obverse while showing the Big 5 in a family depiction on the reverse. This series contains the same denominations of 10, 20, 50, 100, and 200 rand.\n[…]\nWitwatersrand\n[…]\nCoins of the South African rand\n[…]\nEconomy of South Africa\n[…]\nDecimal Coinage (1962): Newsreel of South Africa's conversion to the Rand, British Pathé\n[…]\nSouth African Currency Page, with a short description of each note.\n[…]\nSouth African Currency Page (old rand), a short description of pre-1994 (apartheid-era) notes.\n[…]\nHistorical banknotes of South Africa (in English and German)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rand",
+        "situacao": "ok",
+        "texto": "O rand ou, em uma forma aportuguesada, rande (no plural, randes) é a moeda corrente oficial da África do Sul. Seu nome vem da palavra em língua africâner Witwatersrand, abreviação de Wit-waters-rand, que traduzindo ao português significa \"cumes das águas brancas\" ou \"bordas altas das águas brancas\"; montanha essa que tem a cidade de Joanesburgo construída e onde era a maior reserva de ouro da Áfri\n[…]\nO rand teve início em 1961, coincidindo com a instituição da República da África do Sul, substituindo o peso sul-africano a uma taxa de dois rands por peso. Com o símbolo R, o rand pode ser dividido em 100 centavos – símbolo ‘c’, e está disponível em 5 notas, (R10, R20, R50, R100 e R200) e sete moedas (5c, 10c, 20c, 50c, R1, R2 e R5).\n[…]\nAs moedas de um e dois centavos também foram disponibilizadas até suas descontinuações, em Abril de 2002, mas devido à inflação que as desvalorizaram, e os preços que foram arredondados para 5c, elas não estão mais em circulação. As primeiras cédulas do rand tinham a imagem do Jan Van Riebeeck, o primeiro administrador da Cidade do Cabo, e na década de 1990 as notas foram redesenhadas com a imagem dos big five, cinco animais selvagens mais difíceis de serem caçados.\n[…]\nAs novas cédulas e moedas também foram impressas nas 11 línguas oficiais na África do Sul.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Kwanza",
+      "descricao": "Moeda oficial de Angola."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A moeda de Angola tem o mesmo nome de um dos principais rios do país. Como se chama essa moeda?",
+    "resposta": "Kwanza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angolan_kwanza"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Angolan_kwanza",
+        "situacao": "ok",
+        "texto": "The kwanza (sign: Kz; ISO 4217 code: AOA) is the currency of Angola. Four different currencies using the name kwanza have circulated since 1977. The currency derives its name from the Kwanza River (also spelled Cuanza, Coanza, Quanza).\n[…]\nOn 8 January 1977, banknotes dated 11 DE NOVEMBRO DE 1975 were introduced by the Banco Nacional de Angola (National Bank of Angola) in denominations of 20, 50, 100, 500, and 1000 kwanzas. The 20 kwanza note was replaced by a coin in 1978.\n[…]\nIn 1990, the novo kwanza was introduced, with the ISO 4217 code AON. Although it replaced the kwanza at par, Angolans could only exchange 5% of all old notes for new ones; they had to exchange the rest for government securities. This kwanza suffered from high inflation.\n[…]\nThe Banco Nacional de Angola issued a new series of kwanza banknotes on March 22, 2013, in denominations of 50, 100, 200 and 500 kwanzas. The other denominations (1000, 2000 and 5000 kwanzas) were issued on May 31, 2013. In 2017, the Banco Nacional de Angola issued 5 and 10 kwanzas banknotes as part of the family of banknotes first introduced in 2012.\n[…]\nIn 2020, the Banco National de Angola introduced a new family of kwanza banknotes in denominations of 200, 500, 1,000, 2,000, 5,000 and 10,000 kwanzas. The new banknotes have a portrait of the first president of Angola, António Agostinho Neto. Banknotes of 200 to 2,000 kwanzas are printed on polymer substrate, while the 5,000 and 10,000 kwanzas banknotes are printed on cotton paper, with a 10,000-kwanza note to only be issued if necessary.\n[…]\n1977–1990: 29.918 kwanzas (AOK) or novos kwanzas (AON) per US dollar\n[…]\nThe Angolan kwanza banknotes have been produced by De La Rue in England.\n[…]\nEconomy of Angola\n[…]\nCollection of coin - Angola"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kwanza",
+        "situacao": "ok",
+        "texto": "O kwanza (símbolo: Kz; código ISO 4217: AOA) é a unidade monetária de Angola.\n[…]\nDesde 1977 circularam em Angola quatro moedas diferentes com o nome kwanza.\n[…]\nAs primeiras moedas foram cunhadas sem data de emissão, apesar de todas ostentarem a data da independência do país, 11 de Novembro de 1975 e a inscrição \"RP DE ANGOLA\" (i.e., República Popular de Angola). Tinham denominações de 10, 20, 50 lwei, 1, 2, 5 e 10 kwanzas. Em 1978 foram cunhadas moedas de 20 kwanzas. A última data a aparecer nestas moedas foi 1979.\n[…]\nAs primeiras cédulas datavam de 1976, mas só foram emitidas em 1977 pelo Banco Nacional nas denominações de 20, 50, 100, 500 e 1.000 kwanzas. A nota de 20 kwanzas foi substituída pela moeda em 1978.\n[…]\nEm 1990, o novo kwanza foi introduzido, com o código ISO 4217 AON. Apesar da sua paridade em relação ao kwanza anterior, os angolanos só puderam trocar 5% das notas antigas por novas. O resto das notas teria que ser trocado por títulos do governo. O novo kwanza foi vítima de uma forte inflação.\n[…]\nEm 1999, foi introduzida uma segunda unidade monetária chamada simplesmente kwanza. Mas, ao contrário do primeiro kwanza, esta nova moeda estava subdivididas em 100 cêntimos. Com o segundo kwanza foram reintroduzidas as moedas. Apesar da inflação inicial, o seu valor encontra-se agora estabilizado.\n[…]\nAs cédulas do kwanza são muito similares entre si, diferenciadas pelas cores e pelas imagens de locais de Angola.\n[…]\nA tabela abaixo mostra a evolução do valor de um dólar americano em kwanzas de Angola:\n[…]\n«Banco Nacional de Angola - Do Zimbo ao Kwanza»\n[…]\n«A história do Kwanza»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Libra esterlina",
+      "descricao": "Moeda oficial do Reino Unido, representada por um L cortado."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O símbolo da moeda britânica é um L cortado por um traço. Ele vem de qual palavra latina, que nomeava uma unidade de peso?",
+    "resposta": "Libra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pound_sign",
+      "https://en.wikipedia.org/wiki/Pound_sterling"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pound_sign",
+        "situacao": "ok",
+        "texto": "The pound sign (£) is the symbol for the pound, the modern unit of account of sterling (the currency of the United Kingdom) and of other currencies such as the Egyptian and Syrian pounds. The sign may be drawn with one or two bars depending on personal preference, but the Bank of England has used the one-bar style exclusively on banknotes since 1975.\n[…]\nThe symbol derives from the upper case Latin letter L, representing libra pondo, the basic unit of weight in the Roman Empire, which in turn derives from the Latin word libra, meaning scales or a balance. The pound became an English unit of weight and in England became defined as the tower pound (equivalent to 350 grams) of sterling silver. According to the Royal Mint Museum:\n[…]\nWhen used for sterling, the pound sign is placed before the numerals (e.g., £12,000) and separated from the following digits by no space or only a thin space. In the UK, the sign is used without any prefix. In Egypt and Lebanon, a disambiguating letter is added (E£ or £E and £L respectively). In international banking and foreign exchange operations, the symbol is rarely used: the ISO 4217 currency code (e.g., GBP, EGP, etc.) is preferred.\n[…]\nUnited Kingdom: Pound sterling\n[…]\nVirginia pound\n[…]\nIn the Unicode standard, the pound sign is encoded at U+00A3 £ POUND SIGN (&pound;) Whether the symbol is drawn with one or two bars in a particular font is the type designer's choice, as explained above; the key point is that the code is constant irrespective of the presentation chosen.\n[…]\nBritish political party UK Independence Party used a logo based on the pound sign, symbolising the party's opposition to adoption of the euro and to the European Union generally.\n[…]\nThe pound sign was used as an uppercase letter (the lowercase being ⟨ſ⟩, long s) to signify the sound [ʒ] in the early 1993–1995 version of the Turkmen Latin alphabet."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pound_sterling",
+        "situacao": "ok",
+        "texto": "Sterling (symbol: £; code: GBP) is the currency of the United Kingdom and nine of its dependent territories and formerly of the Kingdom of England. The pound is the base unit of sterling, and the word pound is also used to refer to the British currency generally, often qualified in international contexts as the British pound or pound sterling. Since 1971, each pound has been divided into 100 pence\n[…]\n) placed before the numerals, or an italic l. after them, was used in newspapers, books and letters. The Royal Mint was still using this style of notation as late as 1939. Use of the letter ⟨L⟩ for pound derives from medieval Latin documents: \"L\" was the abbreviation for libra, the Roman pound (weight), which in time became an English unit of weight defined as the tower pound. A \"pound sterling\" was literally a tower pound (weight) of sterling silver.\n[…]\nIn the British pre-decimal (duodecimal) currency system, the term £sd (or Lsd) for pounds, shillings and pence referred to the Roman libra, solidus, and denarius.\n[…]\nThe penny was abbreviated to \"d\" –  from denarius, the Roman equivalent of the penny; the shilling to \"s\" –  from solidus (written with a long s, ſ, later evolving into a simple slash, /), another Roman coin; and the pound to \"L\" (subsequently £) –  from Libra, the Roman pound weight.\n[…]\nIn Britain's Crown Dependencies, the Manx pound, Jersey pound, and Guernsey pound are unregulated by the Bank of England and are issued independently. However, they are maintained at a fixed exchange rate by their respective governments, and Bank of England notes have been made legal tender on the islands, forming a sort of one-way de facto currency union. Internationally they are considered local issues of sterling so do not have ISO 4217 codes.\n[…]\nPound (currency) – other currencies with a \"pound\" unit of account.\n[…]\nPound Sterling – BBC News (Foreign exchange market news)"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Rublo",
+      "descricao": "Unidade monetária da Rússia e de outros países do antigo espaço russo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do rublo, moeda russa, vem de um antigo verbo eslavo. O que esse verbo significa?",
+    "resposta": "Cortar",
+    "distratores": [
+      "Brilhar",
+      "Pesar",
+      "Trocar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ruble"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ruble",
+        "situacao": "ok",
+        "texto": "The ruble or rouble (; Russian: рубль, IPA: [rublʲ]) is a currency unit. Currently, currencies named ruble in circulation include the Russian ruble (RUB, ₽) in Russia and the Belarusian ruble (BYN, ) in Belarus. These currencies are subdivided into one hundred kopeks. The kopek is no longer formally subdivided, although denga (½ kopek) and polushka (½ denga, thus ¼ kopek) were minted until the 19t\n[…]\nAdditionally, the Transnistrian ruble is used in Transnistria, an unrecognized breakaway province of Moldova.\n[…]\nHistorically, the grivna, ruble and denga were used in Russia as measurements of weight. In 1704, as a result of monetary reforms by Peter the Great, the imperial ruble of the Russian Empire became the first decimal currency. The silver ruble was used until 1897 and the gold ruble was used until 1917.\n[…]\nThe Soviet ruble officially replaced the imperial ruble in 1922 and continued to be used until 1993, when it was formally replaced with the Russian ruble in the Russian Federation and by other currencies in other post-Soviet states. In the past, several other countries influenced by the Russian Empire and the Soviet Union had currency units that were also named ruble, including the Latvian ruble, Tajikistani ruble and Transcaucasian ruble (later Armenian ruble, Azerbaijani ruble, Georgian ruble)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rublo",
+        "situacao": "ok",
+        "texto": "O rublo (em russo рубль), é a moeda da Federação Russa e Bielorrússia (e antigamente da União Soviética e do Império Russo). Um rublo é dividido em 100 kopeks (копе́йка) ou copeques. O código da moeda em ISO 4217 é RUB; até 1997 o código era RUR.\n[…]\nO rublo tem sido a moeda russa por muitos séculos. A palavra \"rublo\" é derivada do verbo russo рубить, rubit, para picar. Historicamente, \"rublo\" era um pedaço de certo peso cortado de um aço não acabado prateado (grívnia  ou grivna), sendo então daí retirado o nome da moeda. Era o equivalente russo do marco inglês, uma medida de peso para prata e ouro usados na Europa ocidental medieval.\n[…]\nEm russo, um nome folclórico para \"rublo\", tselkovyi (целковый, inteiro) é conhecido, que é uma abreviação de целковый рубль (\"rublo tselkovyi\"), que significa um rublo inteiro, não cortado. O costume de cortar moedas preciosas de metal era historicamente espalhado por todo o mundo. Um pequeno pedaço era cortado de uma moeda pelo seu dono atual antes da moeda ser passada com todo o valor. Depois de um certo tempo as moedas ficaram obviamente menores, mas legalmente ainda carregavam o mesmo valor.\n[…]\nO rublo soviético de 1961 equivalia a 0,987412 gramas de ouro, mas a troca por ouro nunca esteve disponível para o público geral. O rublo não é mais ligado a um padrão de ouro. A moeda sofreu uma forte desvalorização durante a crise russa de 1998, logo após a crise financeira da Ásia; sendo que um rublo pós-1.º de Janeiro de 1998 é igual a 1 000 dos rublos pré-1.º de janeiro de 1998.\n[…]\nEm novembro de 2004, as autoridades da cidade russa de Dimitrovgrad ergueram um monumento de cinco metros ao rublo.\n[…]\nA Notícia: Rússia emitirá rublo para pagar salários (16 de setembro de 1998)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Złoty",
+      "descricao": "Moeda oficial da Polônia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em polonês, o que significa o nome do zloty, a moeda da Polônia?",
+    "resposta": "Dourado",
+    "distratores": [
+      "Prateado",
+      "Pesado",
+      "Coroado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polish_złoty"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Polish_złoty",
+        "situacao": "ok",
+        "texto": "The złoty (alternative spelling: zloty; Polish: polski złoty, pronounced [ˈzwɔtɨ] ; abbreviation: zł; code: PLN,) is the official currency and legal tender of Poland. It is subdivided into 100 groszy (gr). It is the most-traded currency in Central and Eastern Europe and ranks 20th most-traded in the foreign exchange market.\n[…]\nNative English speakers or English-language sources tend to avoid the complexity of plural forms and in turn use \"złoty\" for all denominations, for instance 2 złoty and 100 zloty (or zlotys) instead of 2 złote and 100 złotych.\n[…]\nFollowing its inauguration, the second złoty was pegged to the United States dollar through a stabilization loan provided by the Federal Reserve Bank of New York. The budget deficit ballooned and out-of-control inflation ensued. The złoty began to stabilise in 1926 (chiefly due to significant exports of coal), and was re-set on the dollar-złoty rate 50% higher than in 1924. Up until 1933, the złoty was freely exchanged into gold and foreign currency.\n[…]\nBased on these developments, the Polish government made the decision to adopt the gold standard and maintain it for a significant period to attract global investors.\n[…]\n\"English\" counterfeit banknote 500 zloty 1940 issued by Bank Emisyjny\n[…]\nPolish Zloty coins catalog information"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Z%C5%82oty",
+        "situacao": "ok",
+        "texto": "O złoty, zloty, zlóti ou zloti (pronúncia em polaco: /ˈzwɔtɨ/; símbolo: zł; código internacional: PLN) é a unidade monetária da Polônia. O nome da moeda significa literalmente \"dourado\", \"áureo\" ou \"de ouro\". O seu plural em polaco é złote ou złotych, dependendo do número; em português, pode ser złotys, zlotys, zlótis ou zlotis.\n[…]\nComo resultado da inflação no início da década de 1990, a moeda passou por uma redenominação. Assim, em 1 de Janeiro de 1995, 10.000 zlotys antigos (PLZ) transformaram-se num novo zloty (PLN). Como membro da União Europeia, a Polónia é obrigada a adoptar o euro quando todas as condições específicas forem cumpridas, mas não há limite de tempo para o cumprimento de todas elas.\n[…]\nApós a queda do comunismo em 1989 e da sucessiva hiperinflação em 1990, o złoty foi novamente redenominado. Em 11 de Maio de 1994, foi aprovado um projecto de redenominação do Banco Nacional da Polónia; a lei que permitiu a entrada em vigor do projeto foi ratificada em 7 de julho de 1994. Assim, em 1 de Janeiro de 1995, o PLN foi introduzido a uma taxa de 1 PLN para 10.000 PLZ.\n[…]\nMoedas e notas redesenhadas foram lançadas apresentando monarcas poloneses, que foram impressas por De La Rue em Londres (até 1997) e PWPW em Varsóvia (a partir de 1997).\n[…]\nEconomia da Polónia\n[…]\n«Banco Nacional da Polónia» (em polaco) .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Bandeira da Dinamarca",
+      "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Os dinamarqueses chamam sua bandeira nacional de Dannebrog. O que esse nome significa?",
+    "resposta": "Pano dinamarquês",
+    "distratores": [
+      "Cruz do rei",
+      "Sangue dinamarquês",
+      "Estandarte do céu"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Denmark"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Denmark",
+        "situacao": "ok",
+        "texto": "The Dannebrog (Danish pronunciation: [ˈtænəˌpʁoˀ], lit. 'Red cloth') is the flag of the Kingdom of Denmark. The flag is red with a white Nordic cross, which means that the cross extends to the edges of the flag and that the vertical part of the cross is shifted to the hoist side.\n[…]\nIn the national enthusiasm sparked by the First Schleswig War from 1848 to 1850, the flag was still very widely displayed, and the prohibition of private use was repealed in a regulation of 7 July 1854 that for the first time allowed Danish citizens to display the Dannebrog (but not the swallow-tailed Splitflag variant. Special permission to use the Splitflag was given to individual institutions and private companies, especially after 1870.\n[…]\nAccording to the regulation of 11 June 1748, the color was simply red, which is common known today as \"Dannebrog rød\" (\"Dannebrog red\"). The only red fabric dye then available was made of madder root, which can be processed to produce a brilliant red dye and was used historically for British and Danish and soldiers' jackets. A regulation of 4 May 1927 once again stated that Danish merchant ships had to fly flags according to the regulation of 1748.\n[…]\nThe Splitflag and Orlogsflag have similar shapes but different sizes and shades of red. Legally, they are two different flags. The Splitflag is a Danish flag ending in a swallow-tail, it is Dannebrog red and is used on land. The Orlogsflag is an elongated Splitflag with a deeper red color and is used only at sea.\n[…]\nDanmarks-Samfundet – several rules and customs about the use of Dannebrog\n[…]\nDannebrog, Helga Bruhn, Forlaget Jespersen og Pios, Copenhagen 1949\n[…]\nDannebrog – Vort Flag, Lieutenant Colonel Thaulow, Forlaget Codan, Copenhagen 1943"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Dinamarca",
+        "situacao": "ok",
+        "texto": "A bandeira nacional da Dinamarca é mais comumente conhecida como Dannebrog. O nome significa \"Pano honorável\". O Dannebrog é vermelho com uma cruz que se estende até as bordas da bandeira; a parte vertical da cruz é deslocada para a borda do arriamento ou tralha e a parte inferior para o batente, sendo que os lados direito e esquerdo, respectivamente para as bordas superior e inferior do pano.\n[…]\nO design da cruz da bandeira dinamarquesa foi subsequentemente adotado por outros países nórdicos: Suécia, Noruega, Finlândia e Islândia.\n[…]\nA bandeira nacional dinamarquesa é considerada a mais antiga bandeira nacional em uso contínuo. De acordo com a antiga tradição, a bandeira não foi feita por humanos mas caiu dos céus durante a Batalha de Reval (a cidade moderna de Tallinn na Estônia), em 1219. A bandeira da Letônia, embora não represente uma cruz, também traça as origens das cores para a batalha de Reval.\n[…]\nOs historiadores têm uma explicação menos pitoresca para a origem da bandeira: ela provavelmente é derivada das antigas bandeiras das cruzadas da época. O antigo brasão de Lübeck era vermelho com uma cruz branca, e o rei dinamarquês Érico da Pomerânia, conhecido por uma bandeira com uma cruz branca, também era rei de Lübeck.\n[…]\nA cruz no Dannebrog é semelhante a cruz de São Filipe,  o Apóstolo.\n[…]\nA bandeira civil e emblema tem proporções de 28:37. A bandeira de estado e emblema é um retângulo de 28:31 com rabos de andorinha dando a ele um proporção geral de 10:19. A bandeira de guerra e emblemas são os mesmo exceto que o emblema de guerra usa um tom de vermelho mais escuro. A largura da cruz é de um sétimo do arriamento; o arriamento é portanto dividido em 12:4:12 enquanto que o hasteamento é dividido em 12:4:21 (12:4:15 para a parte retangular da bandeira de estado).\n[…]\nBandeira das Ilhas Feroé\n[…]\nBandeira da Gronelândia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Bandeira da Europa",
+      "descricao": "Bandeira do Conselho da Europa e da União Europeia, azul com um círculo de doze estrelas douradas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A bandeira europeia tem doze estrelas, número que não muda com a entrada de novos países. O que essas doze estrelas simbolizam?",
+    "resposta": "Perfeição e unidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Europe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Europe",
+        "situacao": "ok",
+        "texto": "The flag of Europe or European flag consists of a navy blue flag with twelve golden stars in a circle. It was designed by a staff member, Arsène Heitz, and adopted in 1955 by the Council of Europe (CoE) as a symbol for the whole of Europe.\n[…]\nGreen and White: These were the colours of the European Movement.\n[…]\nExtraordinary flying of the flag is common on Europe Day, celebrated annually on 9 May. On Europe Day 2008, the flag was flown for the first time above the German Reichstag.\n[…]\nThe coat of arms of the chairman of the European Union Military Committee (CEUMC), the highest-ranking officer within the EU's Common Security and Defence Policy (CSDP), depicts the European emblem as a coat of arms, i.e. emblazoned on an escutcheon. In heraldic terms, this makes the European flag is the banner of arms, i.e. the flag form of this coat of arms. In English blazon, the arms is Azure, a circle of 12 mullets or, their points not touching.\n[…]\nSeveral EU publications related to the CSDP generally, and its prospective development as a defence arm, have also displayed the European emblem in this manner, albeit as a graphical design element rather than an official symbol.\n[…]\nSymbols of Europe#Flag\n[…]\nSymbols of the European Union\n[…]\nEuropean Fisheries Control Agency#Pennant\n[…]\nFlags of the European Union's precursors\n[…]\nFlag of the Western European Union\n[…]\nFlag of the European Coal and Steel Community\n[…]\nFlags of other European unification movements\n[…]\nFederalist flag of the European Movement (adopted 1948)\n[…]\nCouncil of Europe on the flag\n[…]\nCouncil of Europe historical files on the flag\n[…]\nThe symbols of the European Union: The flag of the Council Europe. Virtual Centre for Knowledge on Europe\n[…]\nEuropean Union at Flags of the World\n[…]\nMemorandum on design and designer of European flag"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_Europeia",
+        "situacao": "ok",
+        "texto": "A bandeira europeia ou bandeira da Europa consiste em doze estrelas de ouro dispostas num círculo sobre um campo de azul. Foi criada e adotada pelo Conselho da Europa em 1955, com o objetivo de ser um símbolo da Europa.\n[…]\nNesta mesma base, a França também discordou que fossem 14 estrelas já que isso implicaria a absorção de Saarland na Alemanha. Treze está tradicionalmente relacionado com o azar em várias culturas europeias, e com o facto de as primeiras bandeiras dos Estados Unidos da América terem esse número de estrelas. Doze foi o número escolhido, já que não tinha conotações políticas e era um símbolo de perfeição e de algo completo.\n[…]\nDe acordo com o portal da UE, a bandeira deve ser usada para simbolizar \"tanto a União Europeia como, mais amplamente, a identidade e unidade da Europa\". Todas as instituições, órgãos e agências da UE têm o seu próprio logótipo ou emblema, embora geralmente inspirado pelo design e cores da bandeira. Como parte do uso da UE, a bandeira aparece nas notas de euro.\n[…]\nDescrição simbólica: Sobre fundo azul-celeste, doze estrelas douradas definem um círculo, que representa a união dos povos da Europa. São em número invariável de doze, símbolo da perfeição e da plenitude.\n[…]\nEm 1953, o Conselho da Europa tinha 15 membros e foi proposto que a futura bandeira deveria ter uma estrela para cada membro e que, a partir daí, não mudaria dependendo dos futuros membros. No entanto, a República Federal da Alemanha se opôs a tal coisa, uma vez que um dos Estados membros, Sarre, era uma área disputada e ter a sua própria estrela implicaria a soberania da região. Finalmente, o número \"doze\" foi aprovado como símbolo da perfeição, integridade e unidade:\n[…]\nSímbolos da União Europeia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Bandeira da Libéria",
+      "descricao": "Bandeira nacional da Libéria, com onze listras vermelhas e brancas e uma estrela branca num quadrado azul."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a bandeira da Libéria, com listras e uma estrela branca num canto azul, lembra tanto a dos Estados Unidos?",
+    "resposta": "O país foi fundado por ex-escravizados americanos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Liberia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Liberia",
+        "situacao": "ok",
+        "texto": "The flag of Liberia, occasionally referred to as the Lone Star, bears a close resemblance to the flag of the United States, representing Liberia's founding by free people of color and former slaves from the United States and the Caribbean. They are both part of the stars and stripes flag family.\n[…]\nIn 2022, a new design for the five-hundred-dollar Liberian banknote featured an illustration of the seven-woman committee designing the Liberian flag.\n[…]\nThe Liberian flag is modeled after, and resembles, the United States flag, because Liberia was founded, colonized, established, and controlled, by free people of color and formerly enslaved Black people from the United States and the Caribbean with the help and support of both the United States government and the American Colonization Society (ACS); a private organization dedicated to the removal of free people of color from across North America.\n[…]\nSome time after the African Americans began arriving in Liberia in 1822, they came to be identified as \"Americo-Liberians\" in an effort to separate them from native groups and enslaved Africans rescued from illegal slaving ports and ships by the U.S. Navy.\n[…]\nLiberia is subdivided into 15 counties, each of which is entitled to its own flag. Each county flag bears the national flag of Liberia in the canton. The county flags are flown at regional offices and together encircling the national flag of Liberia at the Executive Mansion.\n[…]\nThe flags of the then nine counties were introduced on 29 November 1965 under President William Tubman for the purpose of promoting the counties as meaningful entities. Their design was inspired by Liberia's quilting tradition.\n[…]\nCoat of arms of Liberia\n[…]\nAll Hail, Liberia, Hail!\n[…]\nLiberia at Flags of the World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Lib%C3%A9ria",
+        "situacao": "ok",
+        "texto": "A bandeira da Libéria, adotada em 24 de agosto de 1847, guarda semelhança com a bandeira dos Estados Unidos, para mostrar a origem dos ex-escravos que fundaram o país. A bandeira apresenta 6 faixas vermelhas e 5 faixas brancas intercaladas, e um quadrado azul com uma estrela branca solitária no cantão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Bandeira das Filipinas",
+      "descricao": "Bandeira nacional das Filipinas, com faixas azul e vermelha e um triângulo branco com sol e estrelas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nas Filipinas, em que situação a bandeira nacional é hasteada de cabeça para baixo, com a faixa vermelha em cima?",
+    "resposta": "Em estado de guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_the_Philippines"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_the_Philippines",
+        "situacao": "ok",
+        "texto": "The national flag of the Philippines (Filipino: Pambansang Watawat ng Pilipinas), also known as Three Stars and a Sun (Filipino: Tatlong Bituin at Isang Araw), is a horizontal bicolor flag with equal bands of royal blue and crimson red, with a white, equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays, to represent the original eight prov\n[…]\nWith the combined forces of the Filipino and American soldiers and the liberation of the Philippines in 1944 to 1945, the flag with the American colors was restored, and it was this flag that was hoisted upon the granting of Philippine independence from the United States on July 4, 1946.\n[…]\nlater expressed the same view, filing a Senate Bill seeking the addition of a ninth ray representing Filipino Muslims in March 1988.\n[…]\nAlso the war ensign flag was seen during the January 6 United States Capitol attack and Canada convoy protests by participating Filipino Americans and Canadians.\n[…]\nThe law makes no statement regarding the language in which the pledge must be recited, but the pledge is written (and therefore recited) in the Filipino language.\n[…]\nSpanish, Tagalog and English versions of the national anthem have been given official status throughout Philippine history. However, only the most recent and current \"Filipino\" version is officially recognized by law. The Flag and Heraldic Code, approved on February 12, 1998, specifies, Lupang Hinirang, \"The National Anthem shall always be sung in the national language within or without the country\"; violation of the law is punishable by a fine and imprisonment.\n[…]\nFilipino Flag – Learn Now FilipinoFlag.net (archived from the original Deprecated link archived February 21, 2013, at archive.today on 2012-06-23)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_das_Filipinas",
+        "situacao": "ok",
+        "texto": "A bandeira nacional das Filipinas, é composta de três partes: um triângulo equilátero branco à esquerda com duas faixas horizontais, a azul simbolizando nobreza, e o vermelho simbolizando coragem. Os oito raios amarelos do sol filipino no centro do triângulo branco representam as oito províncias que primeiro se rebelaram contra o domínio espanhol, sugerindo assim o início de uma nova era.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Bandeira da Escócia",
+      "descricao": "Bandeira da Escócia, azul com uma cruz branca em forma de X, chamada Saltire."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição cristã, por que a cruz branca da bandeira da Escócia tem a forma de um X?",
+    "resposta": "Santo André foi crucificado numa cruz assim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Scotland"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Scotland",
+        "situacao": "ok",
+        "texto": "The flag of Scotland (Scottish Gaelic: bratach na h-Alba; Scots: Banner o Scotland, also known as St Andrew's Cross or the Saltire) is the national flag of Scotland, which consists of a white saltire over a blue field. The Saltire, rather than the Royal Standard of Scotland, is the correct flag for all private individuals and corporate bodies to fly. It is also, where possible, flown from Scottish\n[…]\nAccording to legend, the use of the Saltire as the flag of Scotland originated on the eve of the Battle of Athelstaneford in 832. The 1320 Declaration of Arbroath cites Scotland's conversion to Christianity by St. Andrew, \"the first to be an Apostle\". Depiction of the saint being crucified on a decussate cross was seen on seals in Scotland from 1180 onwards and was used on a seal of the Guardians of Scotland, dated 1286. Bishop William de Lamberton (r.\n[…]\n1297–1328) also used the crucified figure of the saint in his seal.\n[…]\nThe saltire (decussate cross, diagonal cross) was used as a field sign in the medieval period without any connection to Saint Andrew. The connection between the field sign and the legendary mode of crucifixion of the saint may originate in Scotland, in the late 14th century. The Parliament of Scotland decreed in 1385 that every Scottish and French soldier (fighting against the English under Richard II) \"shall have  a sign before and behind, namely a white St. Andrew's Cross\".\n[…]\nThe Royal Standard of Scotland, also known as the Banner of the King of Scots or more commonly the Lion Rampant of Scotland, is the Scottish Royal Banner of Arms. Used historically by the King of Scots, the Royal Standard of Scotland differs from Scotland's national flag, the Saltire, in that its correct use is restricted by an Act of the Parliament of Scotland to only a few Great Officers of State who officially represent The Sovereign in Scotland.\n[…]\nThe Saltire at VisitScotland"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Esc%C3%B3cia",
+        "situacao": "ok",
+        "texto": "A Bandeira da Escócia (em gaélico escocês:  bratach na h-Alba; em anglo-escocês/ânglico escocês:  Banner o Scotland), também conhecida como Cruz de Santo André ou Sautor, é a Bandeira da Escócia. Como bandeira nacional, o sautor, mais do que o Estandarte Real da Escócia, é a bandeira correcta para ser hasteada por todos os organismos individuais e corporativos.\n[…]\nDe acordo com a história, o apóstolo de Cristo, mártir cristão Santo André, o santo padroeiro da Escócia, foi crucificado numa cruz em forma de \"X\". A utilização da iconografia familiar do seu martírio, mostrando-o numa cruz em \"X\", surge pela primeira vez no Reino da Escócia em 1180 durante o reinado de Guilherme I. Aparece de novo em sinetes utilizados nos finais do século XIII, incluindo um usado pelos Guardiões da Escócia, datado de 1286.\n[…]\nA utilização de um símbolo simplificado o qual não representa a imagem de Santo de André, o sautor ou crux decussata, (do latim crux, 'cruz', e decussis, 'com a forma do numeral romano X'), teve início nos finais do século XIV. Em Junho de 1385, o Parlamento da Escócia decretou que os soldados escoceses que serviam em França teriam de usar uma Cruz de Santo André branca, à frente e atrás, para sua identificação.\n[…]\nA referência mais antiga da Cruz de Santo André como bandeira é encontrada no Livro de Horas de Viena, c. 1503, no qual está representada um sautor branco em fundo vermelho. No caso da Escócia, a utilização de um fundo azul para a Cruz de Santo André datará, pelo menos, do século XV, com a primeira ilustração de uma bandeira desta forma a surgir no Register of Scottish Arms de Sir David Lyndsay of the Mount, c. 1542.\n[…]\nEstandarte Real da Escócia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Espiga",
+      "descricao": "Estrela mais brilhante da constelação de Virgem, representada na bandeira do Brasil."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na bandeira do Brasil, uma única estrela aparece acima da faixa branca com o lema. Que estado ela representa?",
+    "resposta": "Pará",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+      "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "situacao": "ok",
+        "texto": "Bandeira do Brasil constitui a bandeira nacional da República Federativa do Brasil. É composta por uma base verde em forma de retângulo, sobreposta por um losango amarelo e um círculo azul, no meio do qual está atravessada uma faixa branca com o lema \"Ordem e Progresso\", em letras maiúsculas verdes. O Brasil adotou oficialmente este projeto para sua bandeira nacional em 19 de novembro de 1889, sub\n[…]\nA estrela Espiga, situada acima da faixa branca, representa o estado do Pará, que, à época da proclamação da República, era o estado cuja capital, Belém, era a mais setentrional do país. As estrelas do Cruzeiro do Sul representam cinco estados: Bahia, Minas Gerais, Espírito Santo, Rio de Janeiro e São Paulo.\n[…]\nNa bandeira ella [Spica] está figurada acima da Ecliptica para quebrar a monotonia do hemispherio boreal. Procyon, que é a única estrella das escolhidas que está no hemispherio norte, não podia ser collocada acima da Ecliptica, porque a constellação está ao sul dessa linha.\n[…]\nNele, também expõe a sua própria proposta para bandeira republicana. Segundo ele, seu projeto: \"... simboliza de modo perfeito a gênese do povo brasileiro, as três raças de que ela se compõe - branca, preta e vermelha. As quatro estrelas a rodear um globo, em que se vê o perfil geográfico do país, representam o Cruzeiro do Sul, a constelação indicadora da nossa latitude astral (...) Assim, pois, erga-se firme, palpite glorioso o Alvo-Negro Pendão do Cruzeiro!\".\n[…]\nEm 1933, Eurico de Góes propôs colocar ao centro da bandeira a figura da cruz da Ordem de Cristo sob uma esfera azul, tendo em sua borda 21 estrelas brancas e ao centro seria representada a constelação do Cruzeiro do Sul. Outros projetos conhecidos aparecem no livro “Brazões e bandeiras do Brasil”, publicado em 1933 por Clóvis Ribeiro e o José Wasth Rodrigues, que propuseram uma série de modelos para uma nova bandeira brasileira.\n[…]\nA Estrela de Cabral"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+        "situacao": "ok",
+        "texto": "The national flag of Brazil is a blue disc depicting a starry sky (which includes the Southern Cross) spanned by a curved band inscribed with the national motto Ordem e Progresso (Brazilian Portuguese pronunciation: [ˈɔʁdẽj i pɾoˈɡɾɛsu]) ('Order and Progress'), within a yellow rhombus on a green field. It was officially adopted on 19 November 1889, four days after the Proclamation of the Republic,\n[…]\nThe number of stars was increased from 21 to 22 on 21 April 1960, upon the creation of the state of Guanabara. Decree No. 48,124 of 16 April 1960 ordered the incorporation of a new star representing Guanabara and provided that the decree would enter into force on 21 April, the date on which Brasília became the national capital and the former Federal District became the state of Guanabara. A 23rd star was added on 30 May 1968, following the elevation of Acre to statehood in 1962.\n[…]\nPaulo Araújo Duarte of the Federal University of Santa Catarina claims that \"the creators of our republican flag intended to represent the stars in the sky at Rio de Janeiro at 8:30 in the morning on 15 November 1889, the moment at which the constellation of the Southern Cross was on the meridian of Rio de Janeiro and the longer arm [of the cross] was vertical\". Another article, citing \"O Céu da Bandeira (The Sky of the Flag)\", by J. R. V. Costa, says the exact time was actually 08:37.\n[…]\nSigma Octantis, the south pole star, is small, but all the other stars turn around it; its unique position in the sky of the southern hemisphere represents the stability of the Federal District in the Brazilian union. The star Spica is the only one which is located above the white band with its motto; it symbolises the state of Pará and the part of Brazilian territory in the northern hemisphere.\n[…]\nBandeira Nacional at the Brazilian Government\n[…]\nBandeira – Insígnia at the Brazilian Government"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Bandeira do Equador",
+      "descricao": "Bandeira nacional do Equador, tricolor horizontal amarela, azul e vermelha com o brasão no centro."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As bandeiras do Equador, da Colômbia e da Venezuela têm as mesmas cores porque derivam da bandeira de qual país extinto?",
+    "resposta": "Grã-Colômbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Ecuador"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Ecuador",
+        "situacao": "ok",
+        "texto": "The national flag of Ecuador, which consists of horizontal bands of the Pan-Colombian colors of yellow (double width), blue and red, was first adopted by law in 1835 and later on 26 September 1860. The design of the current flag was finalized in 1900 with the addition of the coat of arms in the center of the flag. Before using the yellow, blue and red tricolor, Ecuador's former flag had three ligh\n[…]\nThe current flags of Ecuador, Colombia, and Venezuela can all trace their roots to the flag of the nation of Gran Colombia (1819–1830), the short-lived republic that encompassed the territories of all three. The Gran Colombian flag in turn was inspired by the flag of the First Republic of Venezuela, the first independent government of that nation.\n[…]\nAs of 2006, the Ecuadoran flag still shares some similarity with the flags of Colombia and Venezuela. All three flags use the yellow, blue and red tricolor, but that is where the similarities end. In a decree passed in Colombia in 1934, the ratio of the stripes were set at 2:1:1 and the flag ratio was set at 2:3, similar to the present Ecuador flag. However, the coat of arms is only changed in the middle of the flag when it is used by government officials or by military forces.\n[…]\nFor Venezuela, the basic design was to have all three strips even vertically, unlike those of Colombia and Ecuador. Since 1863, Venezuela decided to change their flag with white stars instead of a coat of arms. A coat of arms was added to the national flag in 1954, then changed again in 2006 to add another star and alter the coat of arms.\n[…]\nThe position of the coat of arms on the Venezuelan flag also differs from Ecuador and Colombia by placing the arms at the very top hoist (left) side of the flag instead of in the center.\n[…]\nFlag of Colombia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Equador",
+        "situacao": "ok",
+        "texto": "A bandeira do Equador, que consiste em três faixas horizontais de amarelo (dobro de largura das demais), azul e vermelho, com o brasão nacional ao centro, foi adaptada a 26 de Setembro de 1860. É muito semelhante à bandeira da Colômbia e da Venezuela, que também fizeram parte da Grande Colômbia. É baseada numa proposta de Francisco de Miranda.\n[…]\nAs cores da bandeira do Equador nos valores RGB, Hexadecimal e CMYK\n[…]\nBandeira da Grande Colômbia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Hino da Estônia",
+      "descricao": "Hino nacional da Estônia, intitulado Mu isamaa, mu õnn ja rõõm, com melodia de Fredrik Pacius."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O hino nacional da Estônia tem a mesma melodia do hino de qual país vizinho?",
+    "resposta": "Finlândia",
+    "distratores": [
+      "Suécia",
+      "Letônia",
+      "Rússia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mu_isamaa,_mu_õnn_ja_rõõm"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mu_isamaa,_mu_õnn_ja_rõõm",
+        "situacao": "ok",
+        "texto": "\"Mu isamaa, mu õnn ja rõõm\" is the national anthem of Estonia, originally adopted in 1920 (readopted 1990).\n[…]\nThe lyrics were written by Johann Voldemar Jannsen and are set to a melody composed in 1848 by Fredrik Pacius, which is also that of the Finnish national anthem \"Maamme\", then the unofficial anthem of the Grand Duchy of Finland. The only differences between the two anthems are their key signature and the repetition of the last four lines of each verse in the Finnish anthem. The melody is also used as an ethnic anthem of the Livonian people, titled \"Min izāmō\".\n[…]\n\"Mu isamaa, mu õnn ja rõõm\" was officially adopted as the national anthem of Estonia in 1920, after the Estonian War of Independence.\n[…]\nDuring 1940–1941, and again in 1944, the Soviet Union occupied Estonia, and \"Mu isamaa, mu õnn ja rõõm\" was subsequently banned by the Soviet government. The Estonian Soviet Socialist Republic had its own official regional anthem.\n[…]\nHowever, Estonians could often hear the banned national anthem, as Finland's state broadcaster Yleisradio, whose radio and television broadcasts were received in northern Estonia, played an instrumental version of the nearly-identical Finnish national anthem at the conclusion of its broadcast every night.\n[…]\nIn 1990, with the restoration of Estonian independence, use of the anthem and other symbols of the Estonian SSR was terminated and \"Mu isamaa, mu õnn ja rõõm\" was restored as the national anthem.\n[…]\nFlag of Estonia\n[…]\n\"Mu isamaa on minu arm\", an Estonian patriotic song with a similar name\n[…]\n\"Maamme\", the national anthem of Finland\n[…]\nEstonia – nationalanthems.info"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mu_isamaa%2C_mu_%C3%B5nn_ja_r%C3%B5%C3%B5m",
+        "situacao": "ok",
+        "texto": "Mu isamaa, mu õnn ja rõõm (Minha Pátria, Meu orgulho e alegria) foi adoptado como hino nacional (em Estónio: riigihümn, ou rahvushümn) da República da Estónia em 1920, sendo retomado em 1990. Entre 1956 e 1990, a República Socialista Soviética da Estónia, parte da União Soviética, tinha um hino diferente: Eesti NSV hümn.\n[…]\nA letra foi escrita por Johann Voldemar Jannsen para uma melodia composta em 1848 por Fredrik (Friedrich) Pacius que também compôs a música do hino nacional da Finlândia: Maamme.\n[…]\nA canção foi apresentada ao público pela primeira vez no decorrer do Grande Festival da Canção da Estónia em 1869 e tornou-se rapidamente no símbolo do Nacionalismo estónio.\n[…]\n«Ouvir a melodia»  (Site do Governo)\n[…]\n«THino nacional da Estónia»\n[…]\n«Em estónio»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Bandeira da Nova Zelândia",
+      "descricao": "Bandeira nacional da Nova Zelândia, azul com o Union Jack no canto e quatro estrelas vermelhas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Além do Union Jack, a bandeira da Nova Zelândia traz quatro estrelas vermelhas de qual constelação, também presente na bandeira brasileira?",
+    "resposta": "Cruzeiro do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_New_Zealand"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_New_Zealand",
+        "situacao": "ok",
+        "texto": "The flag of New Zealand (Māori: te haki o Aotearoa), also known as the New Zealand Ensign, is based on the British maritime Blue Ensign – a blue field with the Union Jack in the canton or upper hoist corner – augmented or defaced with four red stars centred within four white stars, representing the Southern Cross constellation.\n[…]\nThe Union Jack (or Union Flag)\n[…]\nThe Union Jack reflects New Zealand's origins as a British colony.\n[…]\nThe Union Jack, as a symbol of British authority, became the focus of the Flagstaff War which began in 1844, marking (according to some historians) the start of the New Zealand Wars.\n[…]\nThe Union Jack was described as the \"superior flag\", to be flown above the New Zealand flag prior to 1965.\n[…]\nWith the Union Jack in its upper left-hand quarter, the flag still proclaims New Zealand's origins as a British colony. Some New Zealanders believe a new flag would better reflect the country's independence, while others argue that the design represents New Zealand's strong past and present ties to the United Kingdom and its history as a part of the British Empire. Relatedly, debate about changing the flag has often arisen in connection with the issue of republicanism in New Zealand.\n[…]\nThe Southern Cross constellation is depicted on other flags, such as the flag of Australia—although in Australia's case there are five all-white stars and an additional larger star beneath the Union Jack canton, while New Zealand's four stars have red centres. The similar flags of Australia and New Zealand are often mistaken for each other, and this confusion was cited by the NZ Flag.com Trust as a reason for adopting a different design.\n[…]\nList of countries and territories with the Union Jack displayed on their flag"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Nova_Zel%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "A bandeira da Nova Zelândia é azul marinho, e tem no seu lado superior esquerdo a bandeira da União, com mais 4 estrelas à direita, que representam a constelação de Crux.\n[…]\nDesde o início de 2015 o governo do país lançou um concurso para adotar uma nova bandeira para o país, tendo sujeitado o processo a referendos em 2015–2016. O comitê responsável pelo novo desenho recebeu 10 292 sugestões, Destas, 40 bandeiras foram selecionadas para outra fase de seleção, que destas escolheu em 1 de setembro de 2015 quatro finalistas,.\n[…]\nAs opções são manter a bandeira atual, azul, com a bandeira da União à esquerda, em cima, e as quatro estrelas vermelhas que representam a constelação Cruzeiro do Sul; ou dar preferência à nova proposta, que mantém o fundo azul, mas inscreve a árvore característica do país, a samambaia, conservando também as quatro estrelas.\n[…]\nO referendo vai prolongar-se por três semanas e é defendido como uma oportunidade única pelo primeiro-ministro neozelandês, John Key, que o vê como uma hipótese para o país modernizar um dos seus símbolos.\n[…]\nFoi adotada em 9 de março de 1834, após a independência do país eleita por votação pelos chefes maoris, se baseia nas bandeiras dos EUA e do Reino Unido.\n[…]\nEntrou em vigor após o Tratado de Waitangi, no acordo entram os britânicos e maoris. Ainda tem Crux e a bandeira é similar a do Reino Unido.\n[…]\nA bandeira é a mais similar a atual, a diferença é o NZ (inglês: New Zealand)\n[…]\nReferendos sobre a bandeira da Nova Zelândia em 2015–2016\n[…]\nA Nova Zelândia quer abandonar esta bandeira (em português)\n[…]\nNew Zealand releases 40 options for new flag – only one features the Union Jack (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Bandeira do Texas",
+      "descricao": "Bandeira do estado americano do Texas, com faixa azul vertical e estrela branca, e faixas branca e vermelha."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Com uma estrela branca sobre azul e faixas branca e vermelha, a bandeira do Texas é muito parecida com a de qual país sul-americano?",
+    "resposta": "Chile",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Texas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Texas",
+        "situacao": "ok",
+        "texto": "The flag of Texas, also known as the Lone Star Flag, is the official flag of the U.S. state of Texas. Along with the flag of Hawaii, it is one of two state flags to have previously served as a national flag of an independent country.\n[…]\nTexas's flag is similar to the flag of Chile, first used in 1817. However, the Chilean flag has a blue canton with a white star rather than the entire left side being blue, with the red bottom stripe beginning below the canton. Like the Texas Flag, the Chilean flag is known in Spanish as \"La Estrella Solitaria\" which also means \"The Lone Star\". One author suggests that both the Chilean flag and the Texas flag were designed to look like the flag of the United States from afar while at sea.\n[…]\nSome evidence indicates that the Lone Star and Stripes flag was used at the battles of Goliad, the Alamo, and San Jacinto, and the first Congress of the Republic of Texas as convened under it in 1836. Although interim President David Burnet issued a decree making the Lone Star and Stripes the first official flag of the Republic of Texas, it never became the legal national flag.\n[…]\nAn 1837 chart of national flags printed in Philadelphia showed the Lone Star and Stripes as the national flag of Texas, and Texas Senator Oliver Jones, who led the 1839 committee, which approved the Lone Star Flag, was unaware that the Lone Star and Stripes was not the current official flag. Later, prior to the American Civil War, this flag was carried by Floridian militiamen in Pensacola during the seizure of U.S. property in that city.\n[…]\nTexas Flag Code\n[…]\nOrigin of the Lone Star Flag of Texas Archived 2012-03-29 at the Wayback Machine\n[…]\nOfficial procedure for folding the flag of Texas Archived 2019-11-05 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Texas",
+        "situacao": "ok",
+        "texto": "A Bandeira do Texas, conhecida também como \"Bandeira da Estrela Solitária\", consiste de uma faixa vertical em azul, é semelhante a bandeira do Chile, de um terço do comprimento no lado esquerdo, com uma estrela branca, e duas faixas horizontais na qual a superior é branca e a inferior é vermelha.\n[…]\nQuando o Texas tornou-se estado americano em 29 de dezembro de 1845 após derrotar o México, sua bandeira nacional tornou-se a bandeira estadual.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Hino da Polônia",
+      "descricao": "Hino nacional da Polônia, conhecido como Mazurca de Dąbrowski, que começa com A Polônia ainda não morreu."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O hino nacional da Polônia cita o nome de qual líder estrangeiro, lembrado como exemplo de como vencer?",
+    "resposta": "Napoleão Bonaparte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poland_Is_Not_Yet_Lost"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poland_Is_Not_Yet_Lost",
+        "situacao": "ok",
+        "texto": "\"Poland Is Not Yet Lost\", known in Polish as \"Mazurek Dąbrowskiego\" (pronounced [maˈzurɛk dɔmbrɔfˈskʲɛɡɔ]; lit. 'Dąbrowski's Mazurka') and formerly the \"Song of the Polish Legions in Italy\", is the national anthem of Poland.\n[…]\nThe original lyrics were written by Józef Wybicki in Reggio Emilia, in Northern Italy, between 16 and 19 July 1797, two years after the Third Partition of Poland marked the end of the Polish–Lithuanian Commonwealth. Its initial purpose was to raise the morale of Jan Henryk Dąbrowski's Polish Legions that served with Napoleon Bonaparte in the Italian campaigns of the French Revolutionary Wars.\n[…]\nTo this end, he convinced General Jan Henryk Dąbrowski, a hero of the Greater Poland campaign of the 1794 Kościuszko Uprising, to come to Paris and present the plan to the French Directory. Dąbrowski was sent by the Directory to Napoleon, who was then spreading the French Revolution in northern Italy. In January 1797, the newly created French-controlled Cisalpine Republic accepted Dąbrowski's offer and a Polish legion was formed.\n[…]\nDąbrowski and his soldiers hoped to fight against Austria under Napoleon and, subsequently, march across the Austrian territory, \"from Italy to Poland\", where they would ignite a national uprising.\n[…]\nNapoleon called Dąbrowski and Wybicki to come back from Italy and help gather support for the French army in Polish-populated parts of Prussia. On 6 November 1806, both generals arrived in Poznań, enthusiastically greeted by locals singing \"Poland Is Not Yet Lost\". The ensuing Greater Poland Uprising and Napoleon's victory over Russian forces at Friedland led to the creation of a French-controlled Polish puppet state known as the Duchy of Warsaw.\n[…]\nGaude Mater Polonia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mazurek_D%C4%85browskiego",
+        "situacao": "ok",
+        "texto": "Mazurek Dąbrowskiego (AFI: [ma'zurɛk dɔmbrɔf'skʲɛgɔ], \"Mazurca de Dąbrowski\") é o hino nacional da Polônia escrito em 1797 por Józef Wybicki, enquanto este estava na Itália. O hino foi chamado anteriormente de Pieśń Legionów Polskich we Włoszech (\"A canção das Legiões Polonesas na Itália\") e é conhecido também pelo seu primeiro verso, Jeszcze Polska nie zginęła (\"A Polônia não desaparecerá\").\n[…]\nO hino retém semelhanças consideráveis com hinos nacionais de outros países, como o da antiga Iugoslávia, o da Ucrânia e o de Israel.\n[…]\nInicialmente composto para aumentar o moral das tropas polonesas servindo na Primeira Campanha de Napoleão em Itália, a canção expressava a noção de que a Polônia não havia desaparecido como nação, apesar da partição final do país no ano de 1795, que deixou a Polônia sem seu próprio Estado por 123 anos. A melodia usada no hino é uma mazurca de composição desconhecida.\n[…]\nO texto original foi escrito em linguagem apropriada para sua época, e pequenas adaptações no texto oficial foram feitas ao longo do tempo. O hino tornou-se popular na Polônia dividida durante o século XIX, e foi escolhido no ano de 1926 como hino nacional do país recém-formado após o término da Primeira Guerra Mundial. Para a escolha do hino havia oposição de outras canções patrióticas, que, no entanto, não gozavam da mesma popularidade da Mazurca de Dąbrowski.\n[…]\nEmbaixada da Repúblicada Polônia no Brasil Versão instrumental em formato MP3, com 37s de duração.\n[…]\nMinistério da Cultura da Polônia Partituras do hino, para instrumentos separadamente ou para várias configurações de orquestra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Bandeira da Coreia do Sul",
+      "descricao": "Bandeira nacional da Coreia do Sul, branca com um círculo vermelho e azul e quatro trigramas pretos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O círculo vermelho e azul no centro da bandeira sul-coreana representa qual par de forças opostas da filosofia chinesa?",
+    "resposta": "Yin e yang",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_South_Korea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_South_Korea",
+        "situacao": "ok",
+        "texto": "The national flag of the Republic of Korea (South Korea), also known as the Taegeukgi (Korean: 태극기; Hanja: 太極旗), consists of three components: a white rectangular background, a red and blue taegeuk in its center, accompanied by four black trigrams, one in each corner. The predecessors to the current Taegeukgi were used as the national flag of Korea by the Joseon dynasty, the Korean Empire, as well\n[…]\nThe circle in the flag's center symbolizes harmony in the world. Derived from the Chinese I Ching and Taiji (philosophy), known in the west as the Yin and Yang, the blue half represents negative energy (Yin), and the red half represents the positive energy (Yang).\n[…]\nA Taegukgi with the word 不遠復 appeared in a 2011 film My Way.\n[…]\nA Taegukgi with the word 大韓獨立 appeared in a stage musical Hero.\n[…]\nThe colors of the taegukgi are specified in the Ordinance Act of the Law concerning the National Flag of the Republic of Korea (Korean: 대한민국 국기법 시행령). The color scheme was unspecified until 1997, when the South Korean government decided to standardize specifications for the flag. On 25 October 1997, a Presidential ordinance on the standard specification of the South Korean flag was promulgated, and that specification was acceded by the National Flag Law in July 2007.\n[…]\nThe days required to display taegukgi are defined by the National Flag Law of the Republic of Korea (대한민국국기법) as follows:\n[…]\nApart from these days, the Government of South Korea and local authorities in South Korea also call for the display of taegukgi in other days under special conditions.\n[…]\nThe South Korean flag is considered by a large part of the country's citizens to represent the \"Korean ethnos\" rather than solely the South Korean state; consequently flag desecration by the country's citizens is rare when compared to other countries, where citizens may desecrate their own national flags as political statements."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Coreia_do_Sul",
+        "situacao": "ok",
+        "texto": "A bandeira da Coreia do Sul apresenta no seu centro um círculo dividido em vermelho vivo (em cima) e azul (em baixo) num campo em branco.\n[…]\nTanto o círculo como os quatro desenhos em preto nos cantos são ricos em simbolismo.\n[…]\nRepresentado na bandeira vê-se um círculo dividido em partes iguais e delineado em perfeito equilíbrio, representando o Absoluto, ou a unidade essencial de todo um ser.\n[…]\nAs divisões representam na parte superior (vermelho) o \"yang\" e a inferior (azul) o \"yin\" antigo símbolo do universo originário da China.\n[…]\nAs combinações de barras representam os quatro pontos cardeais e os quatro mares que limitam o globo.\n[…]\nAs três linhas inteiras representam o céu;\n[…]\nAs três linhas quebradas do lado oposto representam a Terra;\n[…]\nNa extremidade inferior esquerda da bandeira, há duas linhas inteiras com uma partida no meio. Isso simboliza o fogo;\n[…]\nMedia relacionados com Bandeira da Coreia do Sul no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Bandeira de Granada",
+      "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que especiaria, símbolo da economia da ilha, aparece desenhada na bandeira de Granada, no Caribe?",
+    "resposta": "Noz-moscada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Grenada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Grenada",
+        "situacao": "ok",
+        "texto": "The flag of Grenada consists of two yellow triangles at the top and bottom and two green triangles at the hoist and fly. These are surrounded by a red border charged with six five-pointed yellow stars – three at the top centre and three at the bottom centre – along with an additional star on a red disc at the centre and a nutmeg at the hoist triangle."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_de_Granada",
+        "situacao": "ok",
+        "texto": "A bandeira de Granada é um dos símbolos oficiais de Granada, um país caribenho. Foi adotada em 1974.\n[…]\nSeu desenho consiste em um retângulo de proporção largura comprimento de 3:5 com uma borda na cor vermelha. Seis estrelas de cinco pontas amarelas estão distribuídas entre a parte superior e a inferior, sendo três em cada parte. O campo interior é dividido em quatro campos triangulares por duas linhas diagonais entre os vértices opostos do retângulo delimitado pela borda.\n[…]\nAs cores destas partes são verde e amarelo, sendo os amarelos os triângulos inferior e superior e verde os da esquerda e direita. No centro há um círculo vermelho no qual está inserida uma estrela amarela de cinco pontas. No triângulo verde do lado esquerdo há uma noz-moscada em desenho estilizado nas cores amarelo e vermelho.\n[…]\nAs sete estrelas representam as sete paróquias ou freguesias em que se divide o país, como a estrela do meio envolvida por um disco vermelho, simbolizando a paróquia de  Saint George, onde a capital, Saint George's, está  situada.\n[…]\nHistoricamente, Granada é algumas vezes conhecida como a Ilha das Especiarias, por causa da grande quantidade de especiarias que ali se cultivam. Este fato é representado pela noz-moscada, uma das principais produções desta ilha.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Bandeira do Nepal",
+      "descricao": "Bandeira nacional do Nepal, formada por dois triângulos sobrepostos vermelhos com borda azul, com lua e sol brancos."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Formada por dois triângulos sobrepostos, a única bandeira nacional que não tem quatro lados pertence a qual país?",
+    "resposta": "Nepal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Nepal",
+        "situacao": "ok",
+        "texto": "The flag of Nepal is a concave pentagonal flag of red, white, and blue colour. It is used as both the state and civil flag of Nepal. It is the only non-rectangular national flag in the world and the only one that is taller than it is wide. The flag's unique shape is a combination of two single pennants, and is known as a double-pennon. The red colour of the field represents bravery and Nepal's nat\n[…]\nThe flag of the ancient Gorkha kingdom started off as a single triangular war banner of the Shah kings with a red colour and with various deities and other symbols as symbols in the flag. After Prithvi Narayan Shah unified all small principalities of Nepal, the double-pennon flag became the standard flag.\n[…]\nThe present flag of Nepal was adopted under the Nepalese constitution adopted on 16 December 1962. The modern flag seems to be a combination of the ancient Mustang Kingdom's flag and the ongoing flag used by the former Gorkha Kingdom. The colour gradients have been adopted from the Mustang Kingdom. Prior to 1962, both symbols on the flag, the sun and moon, had human faces.\n[…]\nThe ruling dynasties in the region historically used similar triangular pennants, even before Nepal was established. These Hindu religious banners, called \"dhvaja\", inspired the current design. The World Factbook gives another modern interpretation of the moon and the sun as symbols of Hinduism and Buddhism, the main religions of the country.\n[…]\nA precise geometrical description of the Nepalese national flag was specified in Article 5, Schedule 1 of the former constitution of the Kingdom of Nepal, adopted on 9 November 1990. Schedule 1 of the Constitution of Nepal, adopted on 20 September 2015, details a specific method of making the national flag of Nepal.\n[…]\nList of flags of Nepal\n[…]\nEmblem of Nepal\n[…]\nLargest Human Flag of Nepal\n[…]\nTimeline of Nepalese history\n[…]\nNepal at Flags of the World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_do_Nepal",
+        "situacao": "ok",
+        "texto": "A bandeira nacional do Nepal (Língua nepali: नेपालको झण्डा), é uma combinação simplificada de duas bandeirolas de diferentes ramos dos anteriores governantes, a dinastia Rana. Distingue-se por ser a única bandeira nacional que não possui formato retangular ou quadrado.\n[…]\nA bandeira foi adotada, com a formação do novo governo constitucional, a 16 de Dezembro de 1962. As bandeirolas individuais tinham estado em uso ao longo dos dois séculos anteriores e a bandeira dupla desde o século XIX. A borda azul simboliza a paz e a cor carmesim é a cor nacional do Nepal.\n[…]\nSob o ponto de vista astronômico, os desenhos retratam uma imagem do cosmo, conforme seria visto do espaço sideral por uma pessoa. Trata-se de uma triangulação astral desenhada nos dois triângulos, no pano inferior vê-se o sol iluminando, logo acima o limbo da terra ao mesmo tempo que um terceiro astro no lado da sombra interage na paisagem no momento dos crepúsculos entre o observador terreno e o hipotético observador sideral.\n[…]\nOs dois símbolos reais são hoje reinterpretados como a representação da esperança de que o Nepal dure tanto tempo quanto o Sol, a Terra e as estrelas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

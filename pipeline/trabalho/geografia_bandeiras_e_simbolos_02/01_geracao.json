@@ -1,0 +1,1051 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional da República Federativa do Brasil, verde com losango amarelo e esfera azul estrelada, adotada em 1889.",
+        "variantes": [
+          "Bandeira Nacional",
+          "Auriverde"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Ao lado de Miguel Lemos, que líder positivista idealizou a bandeira republicana do Brasil, adotada em 1889?",
+      "resposta": "Raimundo Teixeira Mendes",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional da República Federativa do Brasil, verde com losango amarelo e esfera azul estrelada, adotada em 1889.",
+        "variantes": [
+          "Bandeira Nacional",
+          "Auriverde"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O céu estrelado da bandeira brasileira reproduz o céu do Rio de Janeiro na manhã de qual data histórica?",
+      "resposta": "15 de novembro de 1889",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Império do Brasil",
+        "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+        "variantes": [
+          "Bandeira imperial do Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+          "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1822, logo após a Independência, que pintor francês desenhou a bandeira do Império do Brasil?",
+      "resposta": "Jean-Baptiste Debret",
+      "distratores": [
+        "Nicolas-Antoine Taunay",
+        "Grandjean de Montigny",
+        "Victor Meirelles"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Império do Brasil",
+        "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+        "variantes": [
+          "Bandeira imperial do Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+          "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na bandeira imperial, o verde e o amarelo homenageavam as famílias de Dom Pedro e de Leopoldina. Quais eram essas duas casas reais?",
+      "resposta": "Bragança e Habsburgo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_the_Empire_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hino à Bandeira Nacional",
+        "descricao": "Hino patriótico brasileiro de 1906, com música de Francisco Braga, que começa com Salve, lindo pendão da esperança.",
+        "variantes": [
+          "Hino à Bandeira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hino_à_Bandeira_Nacional"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que poeta parnasiano escreveu a letra do Hino à Bandeira, que começa com Salve, lindo pendão da esperança?",
+      "resposta": "Olavo Bilac",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Hino_à_Bandeira_Nacional"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_dos_estados_unidos",
+        "nome": "Bandeira dos Estados Unidos",
+        "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+        "variantes": [
+          "Stars and Stripes",
+          "Old Glory"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma tradição popular americana, que costureira da Filadélfia teria costurado a primeira bandeira dos Estados Unidos?",
+      "resposta": "Betsy Ross",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Betsy_Ross"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Il Canto degli Italiani",
+        "descricao": "Hino nacional da Itália, escrito em 1847, com música de Michele Novaro.",
+        "variantes": [
+          "Hino de Mameli",
+          "Inno di Mameli",
+          "Fratelli d'Italia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O hino da Itália também é chamado pelo sobrenome de seu letrista, um jovem patriota morto aos vinte e um anos. Quem era ele?",
+      "resposta": "Goffredo Mameli",
+      "distratores": [
+        "Giuseppe Verdi",
+        "Giuseppe Garibaldi",
+        "Michele Novaro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hino da Europa",
+        "descricao": "Hino do Conselho da Europa e da União Europeia, baseado na Ode à Alegria, sem letra oficial.",
+        "variantes": [
+          "Hino europeu",
+          "Anthem of Europe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anthem_of_Europe"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Sem letra oficial, o hino da União Europeia usa a melodia da Ode à Alegria, de qual compositor?",
+      "resposta": "Ludwig van Beethoven",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anthem_of_Europe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do estado de São Paulo",
+        "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas.",
+        "variantes": [
+          "Bandeira paulista",
+          "Bandeira das treze listras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Idealizada em 1888, a bandeira de São Paulo foi criada por qual escritor republicano, autor do romance A Carne?",
+      "resposta": "Júlio Ribeiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do estado de São Paulo",
+        "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas.",
+        "variantes": [
+          "Bandeira paulista",
+          "Bandeira das treze listras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantas listras pretas e brancas, ao todo, tem a bandeira do estado de São Paulo?",
+      "resposta": "Treze",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_estado_de_São_Paulo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira olímpica",
+        "descricao": "Bandeira do Movimento Olímpico, branca com cinco anéis entrelaçados azul, amarelo, preto, verde e vermelho.",
+        "variantes": [
+          "Anéis olímpicos",
+          "Olympic flag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_symbols"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Os cinco anéis entrelaçados da bandeira olímpica foram desenhados em 1913 por quem?",
+      "resposta": "Pierre de Coubertin",
+      "distratores": [
+        "Avery Brundage",
+        "Juan Antonio Samaranch",
+        "Demétrios Vikelas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_symbols"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "a_marselhesa",
+        "nome": "A Marselhesa",
+        "descricao": "Hino nacional da França, composto por Rouget de Lisle em 1792.",
+        "variantes": [
+          "La Marseillaise"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Marseillaise",
+          "https://pt.wikipedia.org/wiki/A_Marselhesa"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1792, que capitão do exército francês compôs a letra e a música da Marselhesa?",
+      "resposta": "Rouget de Lisle",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Marseillaise",
+        "https://pt.wikipedia.org/wiki/A_Marselhesa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Paraíba",
+        "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+        "variantes": [
+          "Bandeira paraibana"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_da_Paraíba"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A bandeira da Paraíba traz a palavra Nego. Que governante paraibano, assassinado em 1930, teria dito essa recusa?",
+      "resposta": "João Pessoa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_da_Paraíba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira de Pernambuco",
+        "descricao": "Bandeira do estado de Pernambuco, azul e branca com arco-íris, estrela, sol e cruz.",
+        "variantes": [
+          "Bandeira pernambucana"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A bandeira de Pernambuco, com arco-íris, estrela e sol, foi criada por revolucionários que se rebelaram contra a Coroa portuguesa em que ano?",
+      "resposta": "1817",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Canadá",
+        "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+        "variantes": [
+          "Maple Leaf",
+          "Unifolié"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Canada"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o Canadá adotou a bandeira com a folha de bordo vermelha, abandonando a que trazia o Union Jack?",
+      "resposta": "1965",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Canada"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Canadá",
+        "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+        "variantes": [
+          "Maple Leaf",
+          "Unifolié"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Canada"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantas pontas tem a folha de bordo vermelha no centro da bandeira do Canadá?",
+      "resposta": "Onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Canada"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Euro",
+        "descricao": "Moeda única adotada por diversos países da União Europeia.",
+        "variantes": [
+          "€"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Euro",
+          "https://pt.wikipedia.org/wiki/Euro"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O euro existe desde 1999, mas suas cédulas e moedas só começaram a circular em que ano?",
+      "resposta": "2002",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euro",
+        "https://pt.wikipedia.org/wiki/Euro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_do_reino_unido",
+        "nome": "Bandeira do Reino Unido",
+        "descricao": "Bandeira nacional do Reino Unido, a Union Jack, que combina as cruzes de São Jorge, Santo André e São Patrício.",
+        "variantes": [
+          "Union Jack",
+          "Union Flag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Union_Jack"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A cruz vermelha em X de São Patrício entrou na bandeira britânica com a união com a Irlanda. Em que ano?",
+      "resposta": "1801",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Union_Jack"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hino_nacional_brasileiro",
+        "nome": "Hino Nacional Brasileiro",
+        "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+        "variantes": [
+          "Hino Nacional"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A melodia do Hino Nacional é do século dezenove, mas a letra de Osório Duque-Estrada só foi oficializada em que ano?",
+      "resposta": "1922",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_do_japao",
+        "nome": "Bandeira do Japão",
+        "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+        "variantes": [
+          "Hinomaru",
+          "Nisshōki"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Japan"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Usado há séculos, o disco vermelho sobre fundo branco só foi oficializado por lei como bandeira nacional do Japão em que ano?",
+      "resposta": "1999",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Japan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da África do Sul",
+        "descricao": "Bandeira nacional da África do Sul, de seis cores, com uma forma de Y horizontal verde.",
+        "variantes": [
+          "Bandeira sul-africana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_South_Africa"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Hasteada pela primeira vez nas eleições que marcaram o fim do apartheid, a bandeira sul-africana de seis cores foi adotada em que ano?",
+      "resposta": "1994",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_South_Africa"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "the_star_spangled_banner",
+        "nome": "The Star-Spangled Banner",
+        "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+        "variantes": [
+          "A Bandeira Estrelada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Escrito em 1814, o poema The Star-Spangled Banner só se tornou oficialmente o hino dos Estados Unidos em que ano?",
+      "resposta": "1931",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Camboja",
+        "descricao": "Bandeira nacional do Camboja, azul e vermelha com o desenho branco de um templo no centro.",
+        "variantes": [
+          "Bandeira cambojana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Cambodia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que país do Sudeste Asiático tem na bandeira o desenho de um templo, em branco sobre a faixa vermelha?",
+      "resposta": "Camboja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Cambodia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Líbano",
+        "descricao": "Bandeira nacional do Líbano, com faixas vermelhas e um cedro verde sobre a faixa branca central.",
+        "variantes": [
+          "Bandeira libanesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Lebanon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Entre duas faixas vermelhas, um cedro verde ocupa o centro da bandeira de qual país do Oriente Médio?",
+      "resposta": "Líbano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Lebanon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Albânia",
+        "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+        "variantes": [
+          "Bandeira albanesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Albania"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Uma águia negra de duas cabeças sobre fundo vermelho forma a bandeira de qual país dos Bálcãs?",
+      "resposta": "Albânia",
+      "distratores": [
+        "Montenegro",
+        "Sérvia",
+        "Macedônia do Norte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Albania"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do País de Gales",
+        "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde.",
+        "variantes": [
+          "Y Ddraig Goch",
+          "Dragão Vermelho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Wales"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que nação do Reino Unido tem como bandeira um dragão vermelho sobre fundo branco e verde?",
+      "resposta": "País de Gales",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Wales"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Paraná",
+        "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+        "variantes": [
+          "Bandeira paranaense"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Paraná"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Ramos de araucária e de erva-mate cercam o círculo azul estrelado da bandeira de qual estado brasileiro?",
+      "resposta": "Paraná",
+      "distratores": [
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "Mato Grosso do Sul"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Paraná"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Espírito Santo",
+        "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro.",
+        "variantes": [
+          "Bandeira capixaba"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Espírito_Santo"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O lema Trabalha e Confia está escrito na bandeira de qual estado brasileiro?",
+      "resposta": "Espírito Santo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Espírito_Santo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Non ducor, duco",
+        "descricao": "Lema latino do brasão da cidade de São Paulo, que significa não sou conduzido, conduzo.",
+        "variantes": [
+          "Non ducor duco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Non_ducor,_duco"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O lema latino Non ducor, duco, que significa não sou conduzido, conduzo, está no brasão de qual cidade brasileira?",
+      "resposta": "São Paulo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Non_ducor,_duco"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hino_da_alemanha",
+        "nome": "Hino da Alemanha",
+        "descricao": "Hino nacional alemão, a terceira estrofe da Canção dos Alemães, com melodia de Joseph Haydn.",
+        "variantes": [
+          "Deutschlandlied",
+          "Canção dos Alemães"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deutschlandlied"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A letra do hino alemão foi escrita em 1841 numa ilha do Mar do Norte que, na época, pertencia aos britânicos. Que ilha?",
+      "resposta": "Heligolândia",
+      "distratores": [
+        "Sylt",
+        "Texel",
+        "Föhr"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deutschlandlied",
+        "https://en.wikipedia.org/wiki/Heligoland"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Selo dos Estados Unidos",
+        "descricao": "Selo oficial do governo americano, com a águia-de-cabeça-branca na frente e uma pirâmide inacabada no verso.",
+        "variantes": [
+          "Great Seal of the United States"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Desde 1935, o verso de qual cédula americana traz uma pirâmide inacabada com um olho no topo, tirada do selo oficial do país?",
+      "resposta": "Nota de um dólar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States",
+        "https://en.wikipedia.org/wiki/United_States_one-dollar_bill"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rand",
+        "descricao": "Moeda oficial da África do Sul.",
+        "variantes": [
+          "Rand sul-africano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/South_African_rand"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do rand, moeda da África do Sul, vem de qual região de serras, famosa por suas minas de ouro?",
+      "resposta": "Witwatersrand",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/South_African_rand"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kwanza",
+        "descricao": "Moeda oficial de Angola.",
+        "variantes": [
+          "Kwanza angolano",
+          "Cuanza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angolan_kwanza"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A moeda de Angola tem o mesmo nome de um dos principais rios do país. Como se chama essa moeda?",
+      "resposta": "Kwanza",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angolan_kwanza"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Libra esterlina",
+        "descricao": "Moeda oficial do Reino Unido, representada por um L cortado.",
+        "variantes": [
+          "Pound sterling",
+          "Libra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pound_sterling"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O símbolo da moeda britânica é um L cortado por um traço. Ele vem de qual palavra latina, que nomeava uma unidade de peso?",
+      "resposta": "Libra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pound_sign",
+        "https://en.wikipedia.org/wiki/Pound_sterling"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rublo",
+        "descricao": "Unidade monetária da Rússia e de outros países do antigo espaço russo.",
+        "variantes": [
+          "Ruble",
+          "Rouble"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ruble"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do rublo, moeda russa, vem de um antigo verbo eslavo. O que esse verbo significa?",
+      "resposta": "Cortar",
+      "distratores": [
+        "Brilhar",
+        "Pesar",
+        "Trocar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruble"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Złoty",
+        "descricao": "Moeda oficial da Polônia.",
+        "variantes": [
+          "Zloty",
+          "Zlóti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polish_złoty"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em polonês, o que significa o nome do zloty, a moeda da Polônia?",
+      "resposta": "Dourado",
+      "distratores": [
+        "Prateado",
+        "Pesado",
+        "Coroado"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Polish_złoty"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_da_dinamarca",
+        "nome": "Bandeira da Dinamarca",
+        "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog.",
+        "variantes": [
+          "Dannebrog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Denmark"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os dinamarqueses chamam sua bandeira nacional de Dannebrog. O que esse nome significa?",
+      "resposta": "Pano dinamarquês",
+      "distratores": [
+        "Cruz do rei",
+        "Sangue dinamarquês",
+        "Estandarte do céu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Denmark"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Europa",
+        "descricao": "Bandeira do Conselho da Europa e da União Europeia, azul com um círculo de doze estrelas douradas.",
+        "variantes": [
+          "Bandeira da União Europeia",
+          "Bandeira europeia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Europe"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A bandeira europeia tem doze estrelas, número que não muda com a entrada de novos países. O que essas doze estrelas simbolizam?",
+      "resposta": "Perfeição e unidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Europe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Libéria",
+        "descricao": "Bandeira nacional da Libéria, com onze listras vermelhas e brancas e uma estrela branca num quadrado azul.",
+        "variantes": [
+          "Bandeira liberiana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Liberia"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a bandeira da Libéria, com listras e uma estrela branca num canto azul, lembra tanto a dos Estados Unidos?",
+      "resposta": "O país foi fundado por ex-escravizados americanos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Liberia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira das Filipinas",
+        "descricao": "Bandeira nacional das Filipinas, com faixas azul e vermelha e um triângulo branco com sol e estrelas.",
+        "variantes": [
+          "Bandeira filipina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_the_Philippines"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nas Filipinas, em que situação a bandeira nacional é hasteada de cabeça para baixo, com a faixa vermelha em cima?",
+      "resposta": "Em estado de guerra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_the_Philippines"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Escócia",
+        "descricao": "Bandeira da Escócia, azul com uma cruz branca em forma de X, chamada Saltire.",
+        "variantes": [
+          "Saltire",
+          "Cruz de Santo André"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Scotland"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição cristã, por que a cruz branca da bandeira da Escócia tem a forma de um X?",
+      "resposta": "Santo André foi crucificado numa cruz assim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Scotland"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Espiga",
+        "descricao": "Estrela mais brilhante da constelação de Virgem, representada na bandeira do Brasil.",
+        "variantes": [
+          "Spica",
+          "Alfa Virginis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spica"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na bandeira do Brasil, uma única estrela aparece acima da faixa branca com o lema. Que estado ela representa?",
+      "resposta": "Pará",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Equador",
+        "descricao": "Bandeira nacional do Equador, tricolor horizontal amarela, azul e vermelha com o brasão no centro.",
+        "variantes": [
+          "Bandeira equatoriana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Ecuador"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "As bandeiras do Equador, da Colômbia e da Venezuela têm as mesmas cores porque derivam da bandeira de qual país extinto?",
+      "resposta": "Grã-Colômbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Ecuador"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hino da Estônia",
+        "descricao": "Hino nacional da Estônia, intitulado Mu isamaa, mu õnn ja rõõm, com melodia de Fredrik Pacius.",
+        "variantes": [
+          "Mu isamaa, mu õnn ja rõõm"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mu_isamaa,_mu_õnn_ja_rõõm"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O hino nacional da Estônia tem a mesma melodia do hino de qual país vizinho?",
+      "resposta": "Finlândia",
+      "distratores": [
+        "Suécia",
+        "Letônia",
+        "Rússia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mu_isamaa,_mu_õnn_ja_rõõm"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Nova Zelândia",
+        "descricao": "Bandeira nacional da Nova Zelândia, azul com o Union Jack no canto e quatro estrelas vermelhas.",
+        "variantes": [
+          "Bandeira neozelandesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_New_Zealand"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Além do Union Jack, a bandeira da Nova Zelândia traz quatro estrelas vermelhas de qual constelação, também presente na bandeira brasileira?",
+      "resposta": "Cruzeiro do Sul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_New_Zealand"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Texas",
+        "descricao": "Bandeira do estado americano do Texas, com faixa azul vertical e estrela branca, e faixas branca e vermelha.",
+        "variantes": [
+          "Lone Star Flag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Texas"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Com uma estrela branca sobre azul e faixas branca e vermelha, a bandeira do Texas é muito parecida com a de qual país sul-americano?",
+      "resposta": "Chile",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Texas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hino da Polônia",
+        "descricao": "Hino nacional da Polônia, conhecido como Mazurca de Dąbrowski, que começa com A Polônia ainda não morreu.",
+        "variantes": [
+          "Mazurek Dąbrowskiego",
+          "A Polônia ainda não morreu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Poland_Is_Not_Yet_Lost"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O hino nacional da Polônia cita o nome de qual líder estrangeiro, lembrado como exemplo de como vencer?",
+      "resposta": "Napoleão Bonaparte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Poland_Is_Not_Yet_Lost"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira da Coreia do Sul",
+        "descricao": "Bandeira nacional da Coreia do Sul, branca com um círculo vermelho e azul e quatro trigramas pretos.",
+        "variantes": [
+          "Taegukgi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_South_Korea"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O círculo vermelho e azul no centro da bandeira sul-coreana representa qual par de forças opostas da filosofia chinesa?",
+      "resposta": "Yin e yang",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_South_Korea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira de Granada",
+        "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+        "variantes": [
+          "Bandeira granadina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Grenada"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que especiaria, símbolo da economia da ilha, aparece desenhada na bandeira de Granada, no Caribe?",
+      "resposta": "Noz-moscada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Grenada"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandeira do Nepal",
+        "descricao": "Bandeira nacional do Nepal, formada por dois triângulos sobrepostos vermelhos com borda azul, com lua e sol brancos.",
+        "variantes": [
+          "Bandeira nepalesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Formada por dois triângulos sobrepostos, a única bandeira nacional que não tem quatro lados pertence a qual país?",
+      "resposta": "Nepal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+      ]
+    }
+  ]
+}

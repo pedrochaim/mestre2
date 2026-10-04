@@ -1,0 +1,203 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Ao lado de Miguel Lemos, que líder positivista idealizou a bandeira republicana do Brasil, adotada em 1889?",
+        "resposta": "Raimundo Teixeira Mendes"
+      },
+      "existentes": [
+        {
+          "id": "q00597",
+          "pergunta": "As estrelas da bandeira brasileira reproduzem o céu visto de qual cidade na manhã de 15 de novembro de 1889?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O céu estrelado da bandeira brasileira reproduz o céu do Rio de Janeiro na manhã de qual data histórica?",
+        "resposta": "15 de novembro de 1889"
+      },
+      "existentes": [
+        {
+          "id": "q00597",
+          "pergunta": "As estrelas da bandeira brasileira reproduzem o céu visto de qual cidade na manhã de 15 de novembro de 1889?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Segundo uma tradição popular americana, que costureira da Filadélfia teria costurado a primeira bandeira dos Estados Unidos?",
+        "resposta": "Betsy Ross"
+      },
+      "existentes": [
+        {
+          "id": "q02366",
+          "pergunta": "Por que a bandeira dos Estados Unidos tem treze listras vermelhas e brancas?",
+          "resposta": "Pelas treze colônias originais"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os cinco anéis entrelaçados da bandeira olímpica foram desenhados em 1913 por quem?",
+        "resposta": "Pierre de Coubertin"
+      },
+      "existentes": [
+        {
+          "id": "q04662",
+          "pergunta": "A bandeira branca com os cinco anéis só foi hasteada num estádio olímpico depois da Primeira Guerra Mundial. Em que edição dos Jogos?",
+          "resposta": "Antuérpia 1920"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1792, que capitão do exército francês compôs a letra e a música da Marselhesa?",
+        "resposta": "Rouget de Lisle"
+      },
+      "existentes": [
+        {
+          "id": "q02361",
+          "pergunta": "Composto em Estrasburgo, o hino francês acabou batizado com o nome de outra cidade. Por quê?",
+          "resposta": "Foi cantado por voluntários de Marselha"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A cruz vermelha em X de São Patrício entrou na bandeira britânica com a união com a Irlanda. Em que ano?",
+        "resposta": "1801"
+      },
+      "existentes": [
+        {
+          "id": "q01099",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Londres"
+        },
+        {
+          "id": "q02367",
+          "pergunta": "Por que o País de Gales não tem nenhum símbolo próprio na bandeira do Reino Unido?",
+          "resposta": "Era considerado parte da Inglaterra"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Usado há séculos, o disco vermelho sobre fundo branco só foi oficializado por lei como bandeira nacional do Japão em que ano?",
+        "resposta": "1999"
+      },
+      "existentes": [
+        {
+          "id": "q02360",
+          "pergunta": "Como os japoneses chamam sua bandeira nacional, num nome que significa círculo do sol?",
+          "resposta": "Hinomaru"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Escrito em 1814, o poema The Star-Spangled Banner só se tornou oficialmente o hino dos Estados Unidos em que ano?",
+        "resposta": "1931"
+      },
+      "existentes": [
+        {
+          "id": "q02390",
+          "pergunta": "Em 1814, a bandeira que resistia sobre qual forte bombardeado pelos britânicos inspirou a letra do hino americano?",
+          "resposta": "Forte McHenry"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A letra do hino alemão foi escrita em 1841 numa ilha do Mar do Norte que, na época, pertencia aos britânicos. Que ilha?",
+        "resposta": "Heligolândia"
+      },
+      "existentes": [
+        {
+          "id": "q02354",
+          "pergunta": "A melodia do hino alemão nasceu em 1797 como homenagem ao imperador Francisco Segundo. Quem a compôs?",
+          "resposta": "Joseph Haydn"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na bandeira do Brasil, uma única estrela aparece acima da faixa branca com o lema. Que estado ela representa?",
+        "resposta": "Pará"
+      },
+      "existentes": [
+        {
+          "id": "q00586",
+          "pergunta": "Na bandeira do Brasil, a estrela Espiga aparece sozinha acima da faixa branca. Que estado ela representa?",
+          "resposta": "Pará"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre idealizador da bandeira, fato diferente da cidade do céu."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A existente já contém a data 15 de novembro de 1889 e o céu do Rio; mesmo fato com direção invertida.",
+      "id_existente": "q00597"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Betsy Ross é fato distinto das treze listras."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Designer dos anéis difere da edição em que foi hasteada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Compositor do hino difere do motivo do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ano da cruz de São Patrício é fato distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ano de oficialização difere do nome Hinomaru."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ano de oficialização difere do forte que inspirou a letra."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ilha da letra difere do compositor da melodia."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: estado da estrela solitária acima da faixa, Pará.",
+      "id_existente": "q00586"
+    }
+  ]
+}
