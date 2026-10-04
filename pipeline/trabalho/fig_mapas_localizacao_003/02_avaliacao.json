@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa limpo, Ceará destacado em vermelho.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Piauí",
+        "Rio Grande do Norte",
+        "Paraíba"
+      ],
+      "ancora": {
+        "nome": "Ceará",
+        "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Globo com Marrocos em verde, sem texto; forma reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Marrocos",
+      "ancora": {
+        "nome": "Marrocos",
+        "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+        "variantes": [
+          "Reino de Marrocos",
+          "Morocco"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mapa regional claro com Israel em vermelho, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Israel",
+      "distratores": [
+        "Líbano",
+        "Jordânia",
+        "Síria"
+      ],
+      "ancora": {
+        "nome": "Israel",
+        "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo, com Jerusalém como capital proclamada.",
+        "variantes": [
+          "Estado de Israel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pernambuco destacado, formato alongado reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+      "resposta": "Recife",
+      "ancora": {
+        "nome": "Pernambuco",
+        "descricao": "Estado do Nordeste do Brasil, com capital em Recife.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mongólia em verde sobre globo, forma e posição claras.",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Mongólia",
+      "ancora": {
+        "nome": "Mongólia",
+        "descricao": "País sem litoral da Ásia Oriental, entre a Rússia e a China, com capital em Ulaanbaatar.",
+        "variantes": [
+          "Mongolia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rondônia destacado, forma distinta no mapa do Brasil.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Rondônia",
+      "distratores": [
+        "Acre",
+        "Mato Grosso",
+        "Amazonas"
+      ],
+      "ancora": {
+        "nome": "Rondônia",
+        "descricao": "Estado da Região Norte do Brasil, na fronteira com a Bolívia, com capital em Porto Velho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Espírito Santo destacado na costa, pequeno mas legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Espírito Santo",
+      "ancora": {
+        "nome": "Espírito Santo",
+        "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vietnã em vermelho sobre globo, forma alongada inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Hanói",
+      "distratores": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane"
+      ],
+      "ancora": {
+        "nome": "Vietnã",
+        "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+        "variantes": [
+          "Vietnam",
+          "Viet Nam"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "País pequeno, mas destacado com círculo vermelho sobre globo, sem texto; aceitável para pergunta de nível 3.",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que cordilheira fica o país destacado neste mapa?",
+      "resposta": "Himalaia",
+      "ancora": {
+        "nome": "Butão",
+        "descricao": "Reino sem litoral do Sul da Ásia, entre a Índia e a China, nos Himalaias orientais.",
+        "variantes": [
+          "Bhutan",
+          "Reino do Butão"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Austrália em verde, forma inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Camberra",
+      "ancora": {
+        "nome": "Austrália",
+        "descricao": "País que ocupa o continente australiano e a Tasmânia, com capital em Camberra.",
+        "variantes": [
+          "Australia",
+          "Commonwealth da Austrália"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rio Grande do Norte destacado na ponta do Nordeste; múltipla com vizinhos.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Rio Grande do Norte",
+      "distratores": [
+        "Ceará",
+        "Paraíba",
+        "Pernambuco"
+      ],
+      "ancora": {
+        "nome": "Rio Grande do Norte",
+        "descricao": "Estado do Nordeste do Brasil, na ponta nordeste da América do Sul, com capital em Natal.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arquipélago destacado com detalhe ampliado, sem texto; localização clara.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que país europeu colonizou o arquipélago destacado neste mapa?",
+      "resposta": "Portugal",
+      "ancora": {
+        "nome": "Cabo Verde",
+        "descricao": "País arquipélago no Atlântico, a oeste da costa da África Ocidental, com capital em Praia.",
+        "variantes": [
+          "Cape Verde",
+          "República de Cabo Verde"
+        ]
+      }
+    }
+  ]
+}

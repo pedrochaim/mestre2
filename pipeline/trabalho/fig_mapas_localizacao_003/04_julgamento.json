@@ -1,0 +1,726 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ceará",
+        "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "caral",
+          "nome": "Caral",
+          "descricao": "Sítio arqueológico com pirâmides e praças no vale do Supe, no Peru, centro da civilização Norte Chico.",
+          "variantes": [
+            "Caral-Supe"
+          ]
+        },
+        {
+          "id": "carma",
+          "nome": "Carma",
+          "descricao": "Conceito do hinduísmo e do budismo segundo o qual as ações geram consequências futuras",
+          "variantes": [
+            "Karma"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Marrocos",
+        "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+        "variantes": [
+          "Reino de Marrocos",
+          "Morocco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "kremlin_de_moscou",
+          "nome": "Kremlin de Moscou",
+          "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+          "variantes": [
+            "Kremlin",
+            "Moscow Kremlin"
+          ]
+        },
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Israel",
+        "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo, com Jerusalém como capital proclamada.",
+        "variantes": [
+          "Estado de Israel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "mistral",
+          "nome": "Mistral",
+          "descricao": "Vento frio e forte que sopra do norte pelo vale do Ródano até o Mediterrâneo, no sul da França",
+          "variantes": [
+            "Mistral (vento)"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pernambuco",
+        "descricao": "Estado do Nordeste do Brasil, com capital em Recife.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pau_brasil",
+          "nome": "Pau-brasil",
+          "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+          "variantes": [
+            "Paubrasilia echinata",
+            "Caesalpinia echinata",
+            "ibirapitanga",
+            "pernambuco"
+          ]
+        },
+        {
+          "id": "nabucco",
+          "nome": "Nabucco",
+          "descricao": "Ópera de Giuseppe Verdi, estreada em Milão em 1842, sobre o rei babilônico Nabucodonosor e o exílio dos hebreus.",
+          "variantes": []
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        },
+        {
+          "id": "pernalonga",
+          "nome": "Pernalonga",
+          "descricao": "Coelho cinza dos desenhos animados Looney Tunes e Merrie Melodies, da Warner Bros.",
+          "variantes": [
+            "Bugs Bunny"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mongólia",
+        "descricao": "País sem litoral da Ásia Oriental, entre a Rússia e a China, com capital em Ulaanbaatar.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_mongolia",
+          "nome": "Bandeira da Mongólia",
+          "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+          "variantes": [
+            "Mongólia",
+            "Bandeira mongol"
+          ]
+        },
+        {
+          "id": "mogli",
+          "nome": "Mogli",
+          "descricao": "Menino criado por lobos nas selvas da Índia, protagonista de histórias de O Livro da Selva.",
+          "variantes": [
+            "Mowgli",
+            "Mogli, o Menino Lobo"
+          ]
+        },
+        {
+          "id": "monrovia",
+          "nome": "Monróvia",
+          "descricao": "Capital da Libéria, na costa oeste da África.",
+          "variantes": []
+        },
+        {
+          "id": "irmaos_montgolfier",
+          "nome": "Irmãos Montgolfier",
+          "descricao": "Joseph-Michel e Jacques-Étienne Montgolfier, franceses que criaram o balão de ar quente em 1783.",
+          "variantes": [
+            "Montgolfier"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rondônia",
+        "descricao": "Estado da Região Norte do Brasil, na fronteira com a Bolívia, com capital em Porto Velho.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rodinia",
+          "nome": "Rodínia",
+          "descricao": "Supercontinente que existiu há cerca de um bilhão de anos, muito antes da Pangeia.",
+          "variantes": []
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Espírito Santo",
+        "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "vitoria",
+          "nome": "Vitória",
+          "descricao": "Capital do estado do Espírito Santo, situada principalmente numa ilha.",
+          "variantes": [
+            "Vitória (Espírito Santo)"
+          ]
+        },
+        {
+          "id": "silvio_santos",
+          "nome": "Silvio Santos",
+          "descricao": "Apresentador e empresário brasileiro, fundador e dono do SBT.",
+          "variantes": [
+            "Senor Abravanel"
+          ]
+        },
+        {
+          "id": "roberto_gomez_bolanos",
+          "nome": "Roberto Gómez Bolaños",
+          "descricao": "Humorista, roteirista e ator mexicano, criador e intérprete de Chaves e Chapolin.",
+          "variantes": [
+            "Chespirito"
+          ]
+        },
+        {
+          "id": "lei_do_ventre_livre",
+          "nome": "Lei do Ventre Livre",
+          "descricao": "Lei brasileira de 1871 que declarou livres os filhos de mulheres escravizadas nascidos a partir de então.",
+          "variantes": [
+            "Lei Rio Branco"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos",
+            "Relógio Cartier Santos",
+            "Santos de Cartier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vietnã",
+        "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+        "variantes": [
+          "Vietnam",
+          "Viet Nam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        },
+        {
+          "id": "sesta",
+          "nome": "Sesta",
+          "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+          "variantes": [
+            "Siesta"
+          ]
+        },
+        {
+          "id": "vegeta",
+          "nome": "Vegeta",
+          "descricao": "Príncipe dos saiyajins de cabelo preto espetado e armadura azul, rival de Goku em Dragon Ball.",
+          "variantes": [
+            "Príncipe Vegeta",
+            "Vegeta IV"
+          ]
+        },
+        {
+          "id": "veneza",
+          "nome": "Veneza",
+          "descricao": "Cidade do nordeste da Itália construída sobre ilhas de uma laguna, cortada por canais.",
+          "variantes": [
+            "Venice",
+            "Venezia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Butão",
+        "descricao": "Reino sem litoral do Sul da Ásia, entre a Índia e a China, nos Himalaias orientais.",
+        "variantes": [
+          "Bhutan",
+          "Reino do Butão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "plutao",
+          "nome": "Plutão",
+          "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+          "variantes": [
+            "Pluto",
+            "134340 Plutão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Austrália",
+        "descricao": "País que ocupa o continente australiano e a Tasmânia, com capital em Camberra.",
+        "variantes": [
+          "Commonwealth da Austrália"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "saturnalia_tupiniquim",
+          "nome": "Saturnalia tupiniquim",
+          "descricao": "Dinossauro primitivo do Triássico encontrado no Rio Grande do Sul e descrito em 1999.",
+          "variantes": [
+            "Saturnalia"
+          ]
+        },
+        {
+          "id": "castrato",
+          "nome": "Castrato",
+          "descricao": "Cantor castrado antes da puberdade, muito comum na ópera e na música sacra dos séculos dezessete e dezoito.",
+          "variantes": [
+            "Castrati",
+            "Castrado"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Rio Grande do Norte",
+        "descricao": "Estado do Nordeste do Brasil, na ponta nordeste da América do Sul, com capital em Natal.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "natal",
+          "nome": "Natal",
+          "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+          "variantes": [
+            "Natal (Rio Grande do Norte)"
+          ]
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "extincao_do_permiano_triassico",
+          "nome": "Extinção do Permiano-Triássico",
+          "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida.",
+          "variantes": [
+            "Grande Morte",
+            "Great Dying",
+            "Extinção do fim do Permiano"
+          ]
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        },
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Cabo Verde",
+        "descricao": "País arquipélago no Atlântico, a oeste da costa da África Ocidental, com capital em Praia.",
+        "variantes": [
+          "Cape Verde",
+          "República de Cabo Verde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "mocambique",
+          "nome": "Moçambique",
+          "descricao": "País lusófono do sudeste da África, banhado pelo Índico.",
+          "variantes": [
+            "República de Moçambique",
+            "Mozambique"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estado do Ceará não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Marrocos (país) não consta nas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "israel",
+      "motivo": "Mesmo país, Israel, com mesmo nome e variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estado de Pernambuco difere do pau-brasil (variante 'pernambuco' é a madeira)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País Mongólia difere da sua bandeira."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rondônia não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O estado difere da sua capital Vitória."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Vietnã não consta nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "butao",
+      "motivo": "Mesmo reino do Butão no Himalaia."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "País difere da sua bandeira; nenhuma candidata é o país."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "O estado difere da capital Natal e do rio americano."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "cabo_verde",
+      "motivo": "Mesmo país insular, Cabo Verde."
+    }
+  ]
+}

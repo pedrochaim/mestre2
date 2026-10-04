@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Israel"
+      },
+      "existentes": [
+        {
+          "id": "q00919",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Israel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cordilheira fica o país destacado neste mapa?",
+        "resposta": "Himalaia"
+      },
+      "existentes": [
+        {
+          "id": "q00917",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Butão"
+        },
+        {
+          "id": "q02362",
+          "pergunta": "O nome local do Butão, Druk Yul, significa terra de qual criatura, que também aparece na bandeira do país?",
+          "resposta": "Dragão do trovão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país europeu colonizou o arquipélago destacado neste mapa?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q02229",
+          "pergunta": "O arquipélago de Cabo Verde, país africano de língua portuguesa, é formado por quantas ilhas?",
+          "resposta": "Dez"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00919",
+      "motivo": "Ambas pedem a identificação de Israel (mapa ou bandeira); quem soubesse uma responderia a outra, o fato é o mesmo: qual é o país."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a cordilheira onde fica o Butão, fato diferente da bandeira ou do significado do nome local."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o colonizador de Cabo Verde, e não sobre o número de ilhas; fatos diferentes."
+    }
+  ]
+}
