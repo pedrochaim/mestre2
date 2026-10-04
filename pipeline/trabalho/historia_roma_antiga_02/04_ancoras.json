@@ -1,0 +1,1739 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Muralha de Adriano",
+        "descricao": "Muralha defensiva romana construída a partir de 122 no norte da Britânia, por ordem do imperador Adriano.",
+        "variantes": [
+          "Hadrian's Wall"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Muralha_de_Adriano",
+          "https://en.wikipedia.org/wiki/Hadrian%27s_Wall"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A partir do ano 122, o imperador Adriano mandou erguer uma muralha de costa a costa no norte da Britânia. Hoje, ela fica em que país do Reino Unido?",
+      "resposta": "Inglaterra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+        "https://pt.wikipedia.org/wiki/Muralha_de_Adriano"
+      ],
+      "ancora": "muralha_de_adriano"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Batalha da Floresta de Teutoburgo",
+        "descricao": "Emboscada do ano 9 em que tribos germânicas lideradas por Armínio destruíram três legiões romanas comandadas por Varo.",
+        "variantes": [
+          "Batalha de Teutoburgo",
+          "Desastre de Varo",
+          "Battle of the Teutoburg Forest"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo",
+          "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No ano nove, tribos germânicas massacraram três legiões romanas numa emboscada na Floresta de Teutoburgo. Essa região fica hoje em que país?",
+      "resposta": "Alemanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+        "https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo"
+      ],
+      "ancora": "batalha_da_floresta_de_teutoburgo"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Cartago",
+        "descricao": "Antiga cidade fenícia do norte da África, rival de Roma nas Guerras Púnicas e destruída pelos romanos em 146 antes de Cristo.",
+        "variantes": [
+          "Carthago",
+          "Carthage"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cartago",
+          "https://en.wikipedia.org/wiki/Carthage"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Cartago, a cidade rival que Roma arrasou em 146 antes de Cristo, ficava junto de qual capital africana atual?",
+      "resposta": "Túnis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carthage",
+        "https://pt.wikipedia.org/wiki/Cartago"
+      ],
+      "ancora": "cartago"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Septímio Severo",
+        "descricao": "Imperador romano de 193 a 211, fundador da dinastia severa, nascido em Léptis Magna.",
+        "variantes": [
+          "Sétimo Severo",
+          "Septimius Severus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Septimius_Severus"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O imperador Septímio Severo, que governou Roma no fim do século dois, nasceu em Léptis Magna. Essa cidade hoje pertence a que país africano?",
+      "resposta": "Líbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Septimius_Severus",
+        "https://en.wikipedia.org/wiki/Leptis_Magna"
+      ],
+      "distratores": [
+        "Tunísia",
+        "Egito",
+        "Argélia"
+      ],
+      "ancora": "septimio_severo"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Trajano",
+        "descricao": "Imperador romano de 98 a 117, conquistador da Dácia, nascido em Itálica, na Hispânia.",
+        "variantes": [
+          "Marco Úlpio Trajano",
+          "Trajan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Trajano",
+          "https://en.wikipedia.org/wiki/Trajan"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O imperador Trajano nasceu numa cidade romana chamada Itálica. Apesar do nome, em que país atual ficam as ruínas dela?",
+      "resposta": "Espanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trajan",
+        "https://en.wikipedia.org/wiki/Italica"
+      ],
+      "ancora": "trajano"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "pompeu",
+        "nome": "Pompeu",
+        "descricao": "Cneu Pompeu Magno, general e político romano do século primeiro antes de Cristo, rival de Júlio César.",
+        "variantes": [
+          "Pompeu Magno",
+          "Pompey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pompey"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Derrotado por César na batalha de Farsalos, Pompeu fugiu em busca de abrigo e foi assassinado ao desembarcar em que país?",
+      "resposta": "Egito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pompey",
+        "https://pt.wikipedia.org/wiki/Pompeu"
+      ],
+      "ancora": "pompeu"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Ovídio",
+        "descricao": "Poeta romano, autor das Metamorfoses, exilado por Augusto para Tomis, no Mar Negro.",
+        "variantes": [
+          "Públio Ovídio Nasão",
+          "Ovid"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ov%C3%ADdio",
+          "https://en.wikipedia.org/wiki/Ovid"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Por ordem de Augusto, o poeta Ovídio foi exilado para Tomis, às margens do Mar Negro, a atual cidade de Constança. Em que país ela fica?",
+      "resposta": "Romênia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ovid",
+        "https://pt.wikipedia.org/wiki/Ov%C3%ADdio"
+      ],
+      "distratores": [
+        "Bulgária",
+        "Ucrânia",
+        "Turquia"
+      ],
+      "ancora": "ovidio"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "constantino",
+        "nome": "Constantino",
+        "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+        "variantes": [
+          "Constantino, o Grande",
+          "Constantine the Great"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Constantine_the_Great"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 306, Constantino foi aclamado imperador por suas tropas numa cidade da Britânia romana chamada Eboraco. Que cidade inglesa é essa hoje?",
+      "resposta": "York",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Constantine_the_Great",
+        "https://en.wikipedia.org/wiki/Eboracum"
+      ],
+      "ancora": "constantino"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Espártaco",
+        "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+        "variantes": [
+          "Spartacus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esp%C3%A1rtaco",
+          "https://en.wikipedia.org/wiki/Spartacus"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 73 antes de Cristo, Espártaco liderou uma fuga de gladiadores que virou uma enorme revolta de escravos. De que cidade italiana eles escaparam?",
+      "resposta": "Cápua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spartacus",
+        "https://en.wikipedia.org/wiki/Third_Servile_War"
+      ],
+      "ancora": "espartaco"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Batalha de Alésia",
+        "descricao": "Cerco de 52 antes de Cristo em que Júlio César derrotou os gauleses de Vercingetórix.",
+        "variantes": [
+          "Cerco de Alésia",
+          "Battle of Alesia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Alesia"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 52 antes de Cristo, o chefe gaulês Vercingetórix se rendeu a Júlio César após o cerco de Alésia. Hoje, esse sítio fica em território de qual país?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Alesia",
+        "https://en.wikipedia.org/wiki/Alesia_(city)"
+      ],
+      "ancora": "batalha_de_alesia"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Augusto",
+        "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo.",
+        "variantes": [
+          "Otaviano",
+          "César Augusto",
+          "Augustus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Augusto",
+          "https://en.wikipedia.org/wiki/Augustus"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano antes de Cristo Otaviano recebeu do Senado o título de Augusto, data tradicional do início do Império Romano?",
+      "resposta": "27 antes de Cristo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Augustus",
+        "https://pt.wikipedia.org/wiki/Augusto"
+      ],
+      "ancora": "augusto"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Divisão do Império Romano em 395",
+        "descricao": "Partilha definitiva do Império Romano entre Arcádio, no Oriente, e Honório, no Ocidente, após a morte de Teodósio I.",
+        "variantes": [
+          "Divisão do Império Romano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theodosius_I"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a morte do imperador Teodósio deixou o Império Romano dividido de vez entre seus dois filhos, um no Ocidente e outro no Oriente?",
+      "resposta": "395",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theodosius_I",
+        "https://en.wikipedia.org/wiki/Western_Roman_Empire"
+      ],
+      "ancora": "divisao_do_imperio_romano_em_395"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Império Bizantino",
+        "descricao": "Império Romano do Oriente, com capital em Constantinopla, que durou até a conquista otomana em 1453.",
+        "variantes": [
+          "Império Romano do Oriente",
+          "Byzantine Empire"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Bizantino",
+          "https://en.wikipedia.org/wiki/Byzantine_Empire"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Império Romano do Oriente sobreviveu ao do Ocidente por quase mil anos. Em que século ele chegou ao fim?",
+      "resposta": "Século quinze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Bizantino"
+      ],
+      "ancora": "imperio_bizantino"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Calendário juliano",
+        "descricao": "Calendário solar instituído por Júlio César em 46 antes de Cristo, depois substituído pelo gregoriano.",
+        "variantes": [
+          "Julian calendar"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_juliano",
+          "https://en.wikipedia.org/wiki/Julian_calendar"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O calendário criado por Júlio César foi usado na Europa até ser trocado pelo calendário gregoriano. Em que século começou essa troca?",
+      "resposta": "Século dezesseis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gregorian_calendar",
+        "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_juliano"
+      ],
+      "ancora": "calendario_juliano"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Cerco de Jerusalém de 70",
+        "descricao": "Tomada de Jerusalém pelas tropas romanas de Tito, que terminou com a destruição do Segundo Templo.",
+        "variantes": [
+          "Destruição do Segundo Templo",
+          "Siege of Jerusalem (70 CE)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano as tropas do futuro imperador Tito tomaram Jerusalém e destruíram o Segundo Templo?",
+      "resposta": "70 depois de Cristo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+        "https://en.wikipedia.org/wiki/Second_Temple"
+      ],
+      "ancora": "cerco_de_jerusalem_de_70"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Travessia dos Alpes por Aníbal",
+        "descricao": "Marcha do exército cartaginês de Aníbal, com elefantes, através dos Alpes para invadir a Itália na Segunda Guerra Púnica.",
+        "variantes": [
+          "Hannibal's crossing of the Alps"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que século antes de Cristo o general cartaginês Aníbal atravessou os Alpes com elefantes para atacar a Itália?",
+      "resposta": "Século três antes de Cristo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+        "https://pt.wikipedia.org/wiki/An%C3%ADbal"
+      ],
+      "ancora": "travessia_dos_alpes_por_anibal"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Saturnália",
+        "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+        "variantes": [
+          "Saturnais",
+          "Saturnalia"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Saturn%C3%A1lia",
+          "https://en.wikipedia.org/wiki/Saturnalia"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que mês os romanos celebravam a Saturnália, festa de banquetes, troca de presentes e inversão de papéis entre senhores e escravos?",
+      "resposta": "Dezembro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saturnalia",
+        "https://pt.wikipedia.org/wiki/Saturn%C3%A1lia"
+      ],
+      "distratores": [
+        "Março",
+        "Junho",
+        "Setembro"
+      ],
+      "ancora": "saturnalia"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Idos de Março",
+        "descricao": "Data do calendário romano que caía no meio de março, famosa pelo assassinato de Júlio César.",
+        "variantes": [
+          "Idos de março",
+          "Ides of March"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ides_of_March"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Júlio César foi morto nos Idos de Março. No calendário romano, em que dia do mês caíam os Idos de março?",
+      "resposta": "Dia quinze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ides_of_March",
+        "https://en.wikipedia.org/wiki/Roman_calendar"
+      ],
+      "ancora": "idos_de_marco"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Saque de Roma de 410",
+        "descricao": "Tomada e pilhagem de Roma pelos visigodos em 410.",
+        "variantes": [
+          "Saque de Roma pelos visigodos",
+          "Sack of Rome (410)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 410, Roma caiu nas mãos de um inimigo estrangeiro pela primeira vez em quase oito séculos. Que rei visigodo comandou esse saque?",
+      "resposta": "Alarico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+        "https://en.wikipedia.org/wiki/Alaric_I"
+      ],
+      "ancora": "saque_de_roma_de_410"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Cartago deve ser destruída",
+        "descricao": "Frase latina com que, segundo a tradição, Catão, o Velho, encerrava seus discursos no Senado romano.",
+        "variantes": [
+          "Carthago delenda est",
+          "Delenda Carthago"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carthago_delenda_est"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, que senador romano terminava todos os seus discursos com a frase Cartago deve ser destruída?",
+      "resposta": "Catão, o Velho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carthago_delenda_est",
+        "https://en.wikipedia.org/wiki/Cato_the_Elder"
+      ],
+      "ancora": "cartago_deve_ser_destruida"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Édito de Caracala",
+        "descricao": "Decreto de 212 que concedeu a cidadania romana a quase todos os homens livres do Império.",
+        "variantes": [
+          "Constituição Antonina",
+          "Constitutio Antoniniana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Constitutio_Antoniniana"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 212, um édito estendeu a cidadania romana a quase todos os homens livres do Império. Que imperador o promulgou?",
+      "resposta": "Caracala",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Constitutio_Antoniniana",
+        "https://pt.wikipedia.org/wiki/Caracala"
+      ],
+      "distratores": [
+        "Adriano",
+        "Diocleciano",
+        "Septímio Severo"
+      ],
+      "ancora": "edito_de_caracala"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Batalha de Zama",
+        "descricao": "Batalha de 202 antes de Cristo, no norte da África, que encerrou a Segunda Guerra Púnica com a derrota de Aníbal.",
+        "variantes": [
+          "Battle of Zama"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Zama",
+          "https://pt.wikipedia.org/wiki/Batalha_de_Zama"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na Batalha de Zama, em 202 antes de Cristo, que general romano derrotou Aníbal e encerrou a Segunda Guerra Púnica?",
+      "resposta": "Cipião Africano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Zama",
+        "https://en.wikipedia.org/wiki/Scipio_Africanus"
+      ],
+      "ancora": "batalha_de_zama"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Corpus Juris Civilis",
+        "descricao": "Compilação do direito romano feita no século seis, em Constantinopla, base de muitos códigos civis modernos.",
+        "variantes": [
+          "Código de Justiniano",
+          "Corpus Iuris Civilis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis",
+          "https://pt.wikipedia.org/wiki/Corpus_Juris_Civilis"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século seis, que imperador de Constantinopla mandou reunir o direito romano numa compilação que inspirou muitos códigos civis modernos?",
+      "resposta": "Justiniano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis",
+        "https://pt.wikipedia.org/wiki/Corpus_Juris_Civilis"
+      ],
+      "ancora": "corpus_juris_civilis"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Eneida",
+        "descricao": "Poema épico latino do século primeiro antes de Cristo sobre as viagens do troiano Eneias até a Itália.",
+        "variantes": [
+          "Aeneid",
+          "Aeneis"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Eneida",
+          "https://en.wikipedia.org/wiki/Aeneid"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que poeta escreveu a Eneida, epopeia sobre o troiano Eneias, cujos descendentes fundariam Roma?",
+      "resposta": "Virgílio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aeneid",
+        "https://pt.wikipedia.org/wiki/Eneida"
+      ],
+      "ancora": "eneida"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Pão e circo",
+        "descricao": "Expressão latina sobre governantes que compram o apoio do povo com comida e espetáculos.",
+        "variantes": [
+          "Panem et circenses",
+          "Bread and circuses"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bread_and_circuses"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que poeta satírico romano cunhou a expressão pão e circo, para criticar um povo que só se interessava por comida e espetáculos?",
+      "resposta": "Juvenal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bread_and_circuses",
+        "https://en.wikipedia.org/wiki/Juvenal"
+      ],
+      "distratores": [
+        "Horácio",
+        "Ovídio",
+        "Catulo"
+      ],
+      "ancora": "pao_e_circo"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Batalha de Ácio",
+        "descricao": "Batalha naval de 31 antes de Cristo, na costa da Grécia, em que Otaviano derrotou Marco Antônio e Cleópatra.",
+        "variantes": [
+          "Batalha de Actium",
+          "Battle of Actium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Actium",
+          "https://pt.wikipedia.org/wiki/Batalha_de_%C3%81cio"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Na Batalha de Ácio, em 31 antes de Cristo, quem comandou a frota de Otaviano que derrotou Marco Antônio e Cleópatra?",
+      "resposta": "Agripa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Actium",
+        "https://en.wikipedia.org/wiki/Marcus_Vipsanius_Agrippa"
+      ],
+      "distratores": [
+        "Mecenas",
+        "Lépido",
+        "Tibério"
+      ],
+      "ancora": "batalha_de_acio"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Até tu, Brutus?",
+        "descricao": "Frase atribuída a Júlio César ao ser apunhalado, popularizada em latim como Et tu, Brute?",
+        "variantes": [
+          "Et tu, Brute?",
+          "Até tu, Bruto?"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A frase Até tu, Brutus, atribuída a Júlio César no momento em que era apunhalado, ficou famosa graças a que escritor?",
+      "resposta": "William Shakespeare",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+        "https://en.wikipedia.org/wiki/Julius_Caesar_(play)"
+      ],
+      "ancora": "ate_tu_brutus"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Vândalos",
+        "descricao": "Povo germânico que fundou um reino no norte da África e saqueou Roma em 455.",
+        "variantes": [
+          "Vandals"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/V%C3%A2ndalos",
+          "https://en.wikipedia.org/wiki/Vandals"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que palavra portuguesa para destruição gratuita vem do nome de um povo germânico que saqueou Roma no ano 455?",
+      "resposta": "Vandalismo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vandalism",
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(455)"
+      ],
+      "ancora": "vandalos"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Calendas",
+        "descricao": "Nome que os romanos davam ao primeiro dia de cada mês.",
+        "variantes": [
+          "Calends",
+          "Kalendae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calends"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra calendário vem de calendas, nome que os romanos davam a que dia de cada mês?",
+      "resposta": "O primeiro dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calends",
+        "https://pt.wikipedia.org/wiki/Calendas"
+      ],
+      "distratores": [
+        "O último dia",
+        "O dia da lua cheia",
+        "O dia de mercado"
+      ],
+      "ancora": "calendas"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Denário",
+        "descricao": "Moeda de prata padrão da Roma antiga.",
+        "variantes": [
+          "Denarius"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Den%C3%A1rio",
+          "https://en.wikipedia.org/wiki/Denarius"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra dinheiro vem do nome de uma moeda de prata da Roma antiga. Que moeda era essa?",
+      "resposta": "Denário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Denarius",
+        "https://pt.wikipedia.org/wiki/Den%C3%A1rio"
+      ],
+      "ancora": "denario"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Veto",
+        "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Veto"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra veto, usada hoje por presidentes, era dita pelos tribunos da plebe romana para barrar decisões. O que ela significa em latim?",
+      "resposta": "Eu proíbo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Veto",
+        "https://pt.wikipedia.org/wiki/Veto"
+      ],
+      "ancora": "veto"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Fasces",
+        "descricao": "Feixe de varas amarradas em torno de um machado, carregado pelos lictores como símbolo do poder dos magistrados romanos.",
+        "variantes": [
+          "Fasces lictórios",
+          "Fascio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fasces"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O feixe de varas com um machado, carregado pelos guardas dos magistrados romanos, deu nome a que movimento político do século vinte?",
+      "resposta": "Fascismo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fasces",
+        "https://en.wikipedia.org/wiki/Fascism"
+      ],
+      "ancora": "fasces"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Juno Moneta",
+        "descricao": "Epíteto da deusa Juno, em cujo templo no Capitólio funcionava a casa da moeda de Roma.",
+        "variantes": [
+          "Moneta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moneta"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "As palavras moeda e monetário vêm de Moneta, apelido da deusa em cujo templo Roma cunhava suas moedas. Que deusa era essa?",
+      "resposta": "Juno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moneta",
+        "https://en.wikipedia.org/wiki/Juno_(mythology)"
+      ],
+      "ancora": "juno_moneta"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Plínio, o Velho",
+        "descricao": "Naturalista e comandante naval romano, autor da História Natural, morto no ano 79.",
+        "variantes": [
+          "Caio Plínio Segundo",
+          "Pliny the Elder"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pl%C3%ADnio,_o_Velho",
+          "https://en.wikipedia.org/wiki/Pliny_the_Elder"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O naturalista Plínio, o Velho, morreu no ano 79 ao navegar pela baía de Nápoles para resgatar pessoas. Que desastre ele enfrentava?",
+      "resposta": "A erupção do Vesúvio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pliny_the_Elder",
+        "https://pt.wikipedia.org/wiki/Pl%C3%ADnio,_o_Velho"
+      ],
+      "ancora": "plinio_o_velho"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Gansos do Capitólio",
+        "descricao": "Gansos sagrados de Juno que, segundo a tradição, alertaram os romanos de um ataque gaulês noturno ao Capitólio, por volta de 390 antes de Cristo.",
+        "variantes": [
+          "Gansos sagrados de Juno"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marcus_Manlius_Capitolinus"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, por volta de 390 antes de Cristo, os gauleses tentaram tomar o Capitólio à noite. Que animais acordaram os defensores?",
+      "resposta": "Os gansos sagrados de Juno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marcus_Manlius_Capitolinus",
+        "https://en.wikipedia.org/wiki/Battle_of_the_Allia"
+      ],
+      "ancora": "gansos_do_capitolio"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Irmãos Graco",
+        "descricao": "Tibério e Caio Graco, tribunos da plebe romana mortos no século dois antes de Cristo por defenderem reformas.",
+        "variantes": [
+          "Os Gracos",
+          "Gracchi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gracchi"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os irmãos Tibério e Caio Graco, tribunos da plebe, acabaram mortos no século dois antes de Cristo por defenderem que tipo de reforma?",
+      "resposta": "Reforma agrária",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gracchi",
+        "https://en.wikipedia.org/wiki/Tiberius_Gracchus"
+      ],
+      "ancora": "irmaos_graco"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Batalha da Floresta de Teutoburgo",
+        "descricao": "Emboscada do ano 9 em que tribos germânicas lideradas por Armínio destruíram três legiões romanas comandadas por Varo.",
+        "variantes": [
+          "Batalha de Teutoburgo",
+          "Desastre de Varo",
+          "Battle of the Teutoburg Forest"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo",
+          "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Depois do desastre de Teutoburgo, que rio passou a marcar a fronteira do Império Romano com a Germânia?",
+      "resposta": "Reno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+        "https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo"
+      ],
+      "distratores": [
+        "Danúbio",
+        "Elba",
+        "Ródano"
+      ],
+      "ancora": "batalha_da_floresta_de_teutoburgo"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Saque de Roma de 410",
+        "descricao": "Tomada e pilhagem de Roma pelos visigodos em 410.",
+        "variantes": [
+          "Saque de Roma pelos visigodos",
+          "Sack of Rome (410)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Abalado pelo saque de Roma em 410, Santo Agostinho escreveu uma obra para defender os cristãos da culpa pelo desastre. Que obra?",
+      "resposta": "A Cidade de Deus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_City_of_God",
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+      ],
+      "ancora": "saque_de_roma_de_410"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Lusitânia",
+        "descricao": "Província romana da Península Ibérica que abrangia boa parte do atual Portugal e parte da Espanha.",
+        "variantes": [
+          "Lusitania"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lusit%C3%A2nia",
+          "https://en.wikipedia.org/wiki/Lusitania"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Lusitânia, nome de uma antiga província romana na Península Ibérica, é hoje um apelido poético de que país?",
+      "resposta": "Portugal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lusitania",
+        "https://pt.wikipedia.org/wiki/Lusit%C3%A2nia"
+      ],
+      "ancora": "lusitania"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Cômodo",
+        "descricao": "Imperador romano de 180 a 192, que se exibia como gladiador na arena.",
+        "variantes": [
+          "Commodus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/C%C3%B4modo",
+          "https://en.wikipedia.org/wiki/Commodus"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Cômodo, o imperador que adorava lutar como gladiador na arena, era filho de que imperador filósofo?",
+      "resposta": "Marco Aurélio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Commodus",
+        "https://pt.wikipedia.org/wiki/C%C3%B4modo"
+      ],
+      "ancora": "comodo"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Marco Antônio",
+        "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+        "variantes": [
+          "Marcus Antonius",
+          "Mark Antony"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Marco_Ant%C3%B4nio",
+          "https://en.wikipedia.org/wiki/Mark_Antony"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Júlio César e Marco Antônio tiveram em comum na vida amorosa?",
+      "resposta": "Ambos foram amantes de Cleópatra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mark_Antony",
+        "https://en.wikipedia.org/wiki/Cleopatra"
+      ],
+      "ancora": "marco_antonio"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "nero",
+        "nome": "Nero",
+        "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+        "variantes": [
+          "Nero Cláudio César"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nero"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que parentesco unia os imperadores Calígula e Nero?",
+      "resposta": "Calígula era tio de Nero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Agrippina_the_Younger",
+        "https://en.wikipedia.org/wiki/Nero"
+      ],
+      "ancora": "nero"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Ano dos quatro imperadores",
+        "descricao": "O ano 69, em que quatro imperadores se sucederam em Roma durante uma guerra civil após a morte de Nero.",
+        "variantes": [
+          "Year of the Four Emperors"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Após a morte de Nero, Roma mergulhou numa guerra civil. Quantos homens chegaram a governar como imperador só no ano 69?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors",
+        "https://pt.wikipedia.org/wiki/Ano_dos_quatro_imperadores"
+      ],
+      "ancora": "ano_dos_quatro_imperadores"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "assassinato_de_julio_cesar",
+        "nome": "Assassinato de Júlio César",
+        "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Segundo o historiador Suetônio, quantas punhaladas Júlio César recebeu dos senadores que o assassinaram?",
+      "resposta": "Vinte e três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+      ],
+      "ancora": "assassinato_de_julio_cesar"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Algarismos romanos",
+        "descricao": "Sistema de numeração da Roma antiga que usa letras como I, V, X, L, C, D e M.",
+        "variantes": [
+          "Numeração romana",
+          "Roman numerals"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana",
+          "https://en.wikipedia.org/wiki/Roman_numerals"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nos algarismos romanos, que número é representado pela letra D?",
+      "resposta": "Quinhentos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_numerals",
+        "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana"
+      ],
+      "distratores": [
+        "Cinquenta",
+        "Cem",
+        "Mil"
+      ],
+      "ancora": "algarismos_romanos"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Trajano",
+        "descricao": "Imperador romano de 98 a 117, conquistador da Dácia, nascido em Itálica, na Hispânia.",
+        "variantes": [
+          "Marco Úlpio Trajano",
+          "Trajan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Trajano",
+          "https://en.wikipedia.org/wiki/Trajan"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No começo do século dois, sob qual imperador o Império Romano atingiu sua maior extensão territorial?",
+      "resposta": "Trajano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trajan",
+        "https://pt.wikipedia.org/wiki/Trajano"
+      ],
+      "ancora": "trajano"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Águia legionária",
+        "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+        "variantes": [
+          "Aquila"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aquila_(Roman)"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Roma Antiga",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Perder o estandarte de uma legião romana era uma enorme desonra. Que animal aparecia no topo desse estandarte?",
+      "resposta": "Águia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aquila_(Roman)"
+      ],
+      "ancora": "aguia_legionaria"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "muralha_de_adriano",
+      "nome": "Muralha de Adriano",
+      "descricao": "Muralha defensiva romana construída a partir de 122 no norte da Britânia, por ordem do imperador Adriano.",
+      "variantes": [
+        "Hadrian's Wall"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Muralha_de_Adriano",
+        "https://en.wikipedia.org/wiki/Hadrian%27s_Wall"
+      ]
+    },
+    {
+      "id": "batalha_da_floresta_de_teutoburgo",
+      "nome": "Batalha da Floresta de Teutoburgo",
+      "descricao": "Emboscada do ano 9 em que tribos germânicas lideradas por Armínio destruíram três legiões romanas comandadas por Varo.",
+      "variantes": [
+        "Batalha de Teutoburgo",
+        "Desastre de Varo",
+        "Battle of the Teutoburg Forest"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo",
+        "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+      ]
+    },
+    {
+      "id": "cartago",
+      "nome": "Cartago",
+      "descricao": "Antiga cidade fenícia do norte da África, rival de Roma nas Guerras Púnicas e destruída pelos romanos em 146 antes de Cristo.",
+      "variantes": [
+        "Carthago",
+        "Carthage"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Cartago",
+        "https://en.wikipedia.org/wiki/Carthage"
+      ]
+    },
+    {
+      "id": "septimio_severo",
+      "nome": "Septímio Severo",
+      "descricao": "Imperador romano de 193 a 211, fundador da dinastia severa, nascido em Léptis Magna.",
+      "variantes": [
+        "Sétimo Severo",
+        "Septimius Severus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Septimius_Severus"
+      ]
+    },
+    {
+      "id": "trajano",
+      "nome": "Trajano",
+      "descricao": "Imperador romano de 98 a 117, conquistador da Dácia, nascido em Itálica, na Hispânia.",
+      "variantes": [
+        "Marco Úlpio Trajano",
+        "Trajan"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Trajano",
+        "https://en.wikipedia.org/wiki/Trajan"
+      ]
+    },
+    {
+      "id": "ovidio",
+      "nome": "Ovídio",
+      "descricao": "Poeta romano, autor das Metamorfoses, exilado por Augusto para Tomis, no Mar Negro.",
+      "variantes": [
+        "Públio Ovídio Nasão",
+        "Ovid"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ov%C3%ADdio",
+        "https://en.wikipedia.org/wiki/Ovid"
+      ]
+    },
+    {
+      "id": "espartaco",
+      "nome": "Espártaco",
+      "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+      "variantes": [
+        "Spartacus"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Esp%C3%A1rtaco",
+        "https://en.wikipedia.org/wiki/Spartacus"
+      ]
+    },
+    {
+      "id": "batalha_de_alesia",
+      "nome": "Batalha de Alésia",
+      "descricao": "Cerco de 52 antes de Cristo em que Júlio César derrotou os gauleses de Vercingetórix.",
+      "variantes": [
+        "Cerco de Alésia",
+        "Battle of Alesia"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Battle_of_Alesia"
+      ]
+    },
+    {
+      "id": "augusto",
+      "nome": "Augusto",
+      "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo.",
+      "variantes": [
+        "Otaviano",
+        "César Augusto",
+        "Augustus"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Augusto",
+        "https://en.wikipedia.org/wiki/Augustus"
+      ]
+    },
+    {
+      "id": "divisao_do_imperio_romano_em_395",
+      "nome": "Divisão do Império Romano em 395",
+      "descricao": "Partilha definitiva do Império Romano entre Arcádio, no Oriente, e Honório, no Ocidente, após a morte de Teodósio I.",
+      "variantes": [
+        "Divisão do Império Romano"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Theodosius_I"
+      ]
+    },
+    {
+      "id": "calendario_juliano",
+      "nome": "Calendário juliano",
+      "descricao": "Calendário solar instituído por Júlio César em 46 antes de Cristo, depois substituído pelo gregoriano.",
+      "variantes": [
+        "Julian calendar"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_juliano",
+        "https://en.wikipedia.org/wiki/Julian_calendar"
+      ]
+    },
+    {
+      "id": "cerco_de_jerusalem_de_70",
+      "nome": "Cerco de Jerusalém de 70",
+      "descricao": "Tomada de Jerusalém pelas tropas romanas de Tito, que terminou com a destruição do Segundo Templo.",
+      "variantes": [
+        "Destruição do Segundo Templo",
+        "Siege of Jerusalem (70 CE)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)"
+      ]
+    },
+    {
+      "id": "travessia_dos_alpes_por_anibal",
+      "nome": "Travessia dos Alpes por Aníbal",
+      "descricao": "Marcha do exército cartaginês de Aníbal, com elefantes, através dos Alpes para invadir a Itália na Segunda Guerra Púnica.",
+      "variantes": [
+        "Hannibal's crossing of the Alps"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps"
+      ]
+    },
+    {
+      "id": "saturnalia",
+      "nome": "Saturnália",
+      "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+      "variantes": [
+        "Saturnais"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Saturn%C3%A1lia",
+        "https://en.wikipedia.org/wiki/Saturnalia"
+      ]
+    },
+    {
+      "id": "idos_de_marco",
+      "nome": "Idos de Março",
+      "descricao": "Data do calendário romano que caía no meio de março, famosa pelo assassinato de Júlio César.",
+      "variantes": [
+        "Ides of March"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ides_of_March"
+      ]
+    },
+    {
+      "id": "saque_de_roma_de_410",
+      "nome": "Saque de Roma de 410",
+      "descricao": "Tomada e pilhagem de Roma pelos visigodos em 410.",
+      "variantes": [
+        "Saque de Roma pelos visigodos",
+        "Sack of Rome (410)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+      ]
+    },
+    {
+      "id": "cartago_deve_ser_destruida",
+      "nome": "Cartago deve ser destruída",
+      "descricao": "Frase latina com que, segundo a tradição, Catão, o Velho, encerrava seus discursos no Senado romano.",
+      "variantes": [
+        "Carthago delenda est",
+        "Delenda Carthago"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Carthago_delenda_est"
+      ]
+    },
+    {
+      "id": "edito_de_caracala",
+      "nome": "Édito de Caracala",
+      "descricao": "Decreto de 212 que concedeu a cidadania romana a quase todos os homens livres do Império.",
+      "variantes": [
+        "Constituição Antonina",
+        "Constitutio Antoniniana"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Constitutio_Antoniniana"
+      ]
+    },
+    {
+      "id": "batalha_de_zama",
+      "nome": "Batalha de Zama",
+      "descricao": "Batalha de 202 antes de Cristo, no norte da África, que encerrou a Segunda Guerra Púnica com a derrota de Aníbal.",
+      "variantes": [
+        "Battle of Zama"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Battle_of_Zama",
+        "https://pt.wikipedia.org/wiki/Batalha_de_Zama"
+      ]
+    },
+    {
+      "id": "corpus_juris_civilis",
+      "nome": "Corpus Juris Civilis",
+      "descricao": "Compilação do direito romano feita no século seis, em Constantinopla, base de muitos códigos civis modernos.",
+      "variantes": [
+        "Código de Justiniano",
+        "Corpus Iuris Civilis"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis",
+        "https://pt.wikipedia.org/wiki/Corpus_Juris_Civilis"
+      ]
+    },
+    {
+      "id": "eneida",
+      "nome": "Eneida",
+      "descricao": "Poema épico latino do século primeiro antes de Cristo sobre as viagens do troiano Eneias até a Itália.",
+      "variantes": [
+        "Aeneid",
+        "Aeneis"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Eneida",
+        "https://en.wikipedia.org/wiki/Aeneid"
+      ]
+    },
+    {
+      "id": "pao_e_circo",
+      "nome": "Pão e circo",
+      "descricao": "Expressão latina sobre governantes que compram o apoio do povo com comida e espetáculos.",
+      "variantes": [
+        "Panem et circenses",
+        "Bread and circuses"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bread_and_circuses"
+      ]
+    },
+    {
+      "id": "batalha_de_acio",
+      "nome": "Batalha de Ácio",
+      "descricao": "Batalha naval de 31 antes de Cristo, na costa da Grécia, em que Otaviano derrotou Marco Antônio e Cleópatra.",
+      "variantes": [
+        "Batalha de Actium",
+        "Battle of Actium"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Battle_of_Actium",
+        "https://pt.wikipedia.org/wiki/Batalha_de_%C3%81cio"
+      ]
+    },
+    {
+      "id": "ate_tu_brutus",
+      "nome": "Até tu, Brutus?",
+      "descricao": "Frase atribuída a Júlio César ao ser apunhalado, popularizada em latim como Et tu, Brute?",
+      "variantes": [
+        "Et tu, Brute?",
+        "Até tu, Bruto?"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F"
+      ]
+    },
+    {
+      "id": "vandalos",
+      "nome": "Vândalos",
+      "descricao": "Povo germânico que fundou um reino no norte da África e saqueou Roma em 455.",
+      "variantes": [
+        "Vandals"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/V%C3%A2ndalos",
+        "https://en.wikipedia.org/wiki/Vandals"
+      ]
+    },
+    {
+      "id": "calendas",
+      "nome": "Calendas",
+      "descricao": "Nome que os romanos davam ao primeiro dia de cada mês.",
+      "variantes": [
+        "Calends",
+        "Kalendae"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Calends"
+      ]
+    },
+    {
+      "id": "denario",
+      "nome": "Denário",
+      "descricao": "Moeda de prata padrão da Roma antiga.",
+      "variantes": [
+        "Denarius"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Den%C3%A1rio",
+        "https://en.wikipedia.org/wiki/Denarius"
+      ]
+    },
+    {
+      "id": "veto",
+      "nome": "Veto",
+      "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Veto"
+      ]
+    },
+    {
+      "id": "fasces",
+      "nome": "Fasces",
+      "descricao": "Feixe de varas amarradas em torno de um machado, carregado pelos lictores como símbolo do poder dos magistrados romanos.",
+      "variantes": [
+        "Fasces lictórios",
+        "Fascio"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fasces"
+      ]
+    },
+    {
+      "id": "juno_moneta",
+      "nome": "Juno Moneta",
+      "descricao": "Epíteto da deusa Juno, em cujo templo no Capitólio funcionava a casa da moeda de Roma.",
+      "variantes": [
+        "Moneta"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Moneta"
+      ]
+    },
+    {
+      "id": "plinio_o_velho",
+      "nome": "Plínio, o Velho",
+      "descricao": "Naturalista e comandante naval romano, autor da História Natural, morto no ano 79.",
+      "variantes": [
+        "Caio Plínio Segundo",
+        "Pliny the Elder"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Pl%C3%ADnio,_o_Velho",
+        "https://en.wikipedia.org/wiki/Pliny_the_Elder"
+      ]
+    },
+    {
+      "id": "gansos_do_capitolio",
+      "nome": "Gansos do Capitólio",
+      "descricao": "Gansos sagrados de Juno que, segundo a tradição, alertaram os romanos de um ataque gaulês noturno ao Capitólio, por volta de 390 antes de Cristo.",
+      "variantes": [
+        "Gansos sagrados de Juno"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marcus_Manlius_Capitolinus"
+      ]
+    },
+    {
+      "id": "irmaos_graco",
+      "nome": "Irmãos Graco",
+      "descricao": "Tibério e Caio Graco, tribunos da plebe romana mortos no século dois antes de Cristo por defenderem reformas.",
+      "variantes": [
+        "Os Gracos",
+        "Gracchi"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gracchi"
+      ]
+    },
+    {
+      "id": "lusitania",
+      "nome": "Lusitânia",
+      "descricao": "Província romana da Península Ibérica que abrangia boa parte do atual Portugal e parte da Espanha.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Lusit%C3%A2nia",
+        "https://en.wikipedia.org/wiki/Lusitania"
+      ]
+    },
+    {
+      "id": "comodo",
+      "nome": "Cômodo",
+      "descricao": "Imperador romano de 180 a 192, que se exibia como gladiador na arena.",
+      "variantes": [
+        "Commodus"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/C%C3%B4modo",
+        "https://en.wikipedia.org/wiki/Commodus"
+      ]
+    },
+    {
+      "id": "marco_antonio",
+      "nome": "Marco Antônio",
+      "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+      "variantes": [
+        "Marcus Antonius",
+        "Mark Antony"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Marco_Ant%C3%B4nio",
+        "https://en.wikipedia.org/wiki/Mark_Antony"
+      ]
+    },
+    {
+      "id": "ano_dos_quatro_imperadores",
+      "nome": "Ano dos quatro imperadores",
+      "descricao": "O ano 69, em que quatro imperadores se sucederam em Roma durante uma guerra civil após a morte de Nero.",
+      "variantes": [
+        "Year of the Four Emperors"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors"
+      ]
+    },
+    {
+      "id": "algarismos_romanos",
+      "nome": "Algarismos romanos",
+      "descricao": "Sistema de numeração da Roma antiga que usa letras como I, V, X, L, C, D e M.",
+      "variantes": [
+        "Numeração romana",
+        "Roman numerals"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana",
+        "https://en.wikipedia.org/wiki/Roman_numerals"
+      ]
+    },
+    {
+      "id": "aguia_legionaria",
+      "nome": "Águia legionária",
+      "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+      "variantes": [
+        "Aquila"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Aquila_(Roman)"
+      ]
+    }
+  ],
+  "variantes": {
+    "pompeu": [
+      "Pompeu",
+      "Pompeu Magno",
+      "Pompey"
+    ],
+    "constantino": [
+      "Constantino",
+      "Constantino, o Grande",
+      "Constantine the Great"
+    ],
+    "nero": [
+      "Nero",
+      "Nero Cláudio César"
+    ],
+    "assassinato_de_julio_cesar": [
+      "Assassinato de Júlio César"
+    ],
+    "imperio_bizantino": [
+      "Império Bizantino",
+      "Império Romano do Oriente",
+      "Byzantine Empire"
+    ],
+    "panteao_de_roma": [
+      "Panteão de Roma",
+      "Panteão",
+      "Pantheon"
+    ],
+    "concreto_romano": [
+      "Concreto romano",
+      "Opus caementicium",
+      "Roman concrete"
+    ],
+    "meditacoes_marco_aurelio": [
+      "Meditações",
+      "Meditações de Marco Aurélio",
+      "Meditations"
+    ]
+  }
+}

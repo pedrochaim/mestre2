@@ -1,0 +1,141 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Derrotado por César na batalha de Farsalos, Pompeu fugiu em busca de abrigo e foi assassinado ao desembarcar em que país?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q00082",
+          "pergunta": "Pompeu foi aliado e depois inimigo de Júlio César. Que laço de família também unia os dois?",
+          "resposta": "Pompeu era genro de César"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 306, Constantino foi aclamado imperador por suas tropas numa cidade da Britânia romana chamada Eboraco. Que cidade inglesa é essa hoje?",
+        "resposta": "York"
+      },
+      "existentes": [
+        {
+          "id": "q01167",
+          "pergunta": "Que cidade este imperador romano inaugurou como nova capital do Império?",
+          "resposta": "Constantinopla"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O Império Romano do Oriente sobreviveu ao do Ocidente por quase mil anos. Em que século ele chegou ao fim?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q00096",
+          "pergunta": "O nome Império Bizantino foi criado por historiadores depois da sua queda. Como os próprios habitantes desse império se chamavam?",
+          "resposta": "Romanos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que parentesco unia os imperadores Calígula e Nero?",
+        "resposta": "Calígula era tio de Nero"
+      },
+      "existentes": [
+        {
+          "id": "q01164",
+          "pergunta": "Que imperador romano é retratado neste busto?",
+          "resposta": "Nero"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo o historiador Suetônio, quantas punhaladas Júlio César recebeu dos senadores que o assassinaram?",
+        "resposta": "Vinte e três"
+      },
+      "existentes": [
+        {
+          "id": "q00090",
+          "pergunta": "Nos Idos de Março de 44 antes de Cristo, Júlio César foi morto numa sala de reunião do Senado. Essa sala fazia parte de qual complexo?",
+          "resposta": "Teatro de Pompeu"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O concreto romano, que resiste há cerca de dois mil anos em obras como o Panteão, levava que ingrediente especial misturado à cal?",
+        "resposta": "Cinza vulcânica"
+      },
+      "existentes": [
+        {
+          "id": "q04623",
+          "pergunta": "O concreto romano, que mantém o Panteão de Roma de pé há quase dois mil anos, levava um tipo de cinza de que origem?",
+          "resposta": "Vulcânica"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O imperador Marco Aurélio registrou suas reflexões filosóficas, hoje conhecidas como Meditações, em que língua?",
+        "resposta": "Grego"
+      },
+      "existentes": [
+        {
+          "id": "q03771",
+          "pergunta": "O imperador romano Marco Aurélio escreveu suas Meditações em que língua?",
+          "resposta": "Grego"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "País onde Pompeu morreu é fato diferente do parentesco com César."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nome atual de Eboraco é diferente da capital fundada por Constantino."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século do fim do Império é diferente de como os habitantes se chamavam."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Parentesco entre Calígula e Nero é diferente da identificação do busto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Número de punhaladas é diferente do local do assassinato."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q04623",
+      "motivo": "Ambas perguntam a cinza vulcânica no concreto romano."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q03771",
+      "motivo": "Mesma pergunta: língua das Meditações, grego."
+    }
+  ]
+}
