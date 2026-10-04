@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cena escura sem texto, com Marlon Brando reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o personagem à esquerda nesta cena?",
+      "resposta": "Marlon Brando",
+      "ancora": {
+        "nome": "O Poderoso Chefão",
+        "descricao": "Filme de 1972 de Francis Ford Coppola sobre a família mafiosa Corleone, de Nova York.",
+        "variantes": [
+          "The Godfather"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, com a protagonista da novela. Reconhecimento moderado, mas válido; pergunta de nível 3 sobre a obra literária.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que escritor escreveu o romance que inspirou esta novela?",
+      "resposta": "Jorge Amado",
+      "distratores": [
+        "Graciliano Ramos",
+        "Érico Veríssimo",
+        "Rachel de Queiroz"
+      ],
+      "ancora": {
+        "nome": "Tieta (telenovela)",
+        "descricao": "Telenovela brasileira da TV Globo de 1989, inspirada no romance de Jorge Amado e passada em Santana do Agreste.",
+        "variantes": [
+          "Tieta"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Arte promocional estilizada em azul, com rostos borrados e sem elemento que permita reconhecer a série. Não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena icônica do T-rex sob chuva. O texto nos carros é minúsculo e ilegível no celular.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que diretor dirigiu o filme desta cena?",
+      "resposta": "Steven Spielberg",
+      "ancora": {
+        "nome": "Jurassic Park",
+        "descricao": "Filme de 1993 dirigido por Steven Spielberg sobre um parque temático de dinossauros recriados em laboratório.",
+        "variantes": [
+          "Jurassic Park: O Parque dos Dinossauros"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação com Furiosa e Max, sem texto, claramente do filme.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 2010 (2015)",
+      "ancora": {
+        "nome": "Mad Max: Estrada da Fúria",
+        "descricao": "Filme de ação pós-apocalíptico de George Miller, lançado em 2015, com Max e Furiosa.",
+        "variantes": [
+          "Mad Max: Fury Road"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco dos sete samurais, sem texto, com Toshiro Mifune em primeiro plano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o samurai em primeiro plano nesta cena?",
+      "resposta": "Toshiro Mifune",
+      "ancora": {
+        "nome": "Os Sete Samurais",
+        "descricao": "Filme japonês de 1954 dirigido por Akira Kurosawa sobre sete guerreiros contratados para defender uma aldeia.",
+        "variantes": [
+          "Seven Samurai",
+          "Shichinin no Samurai"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem sem texto que entregue a resposta, com Quico, Chaves e Seu Madruga, reconhecível. O número 14 na porta não revela a série.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "De que série de TV é esta cena?",
+      "resposta": "Chaves",
+      "distratores": [
+        "Chapolin Colorado",
+        "Os Trapalhões",
+        "Sai de Baixo"
+      ],
+      "ancora": {
+        "nome": "Chaves",
+        "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila.",
+        "variantes": [
+          "El Chavo del Ocho",
+          "Chaves (seriado)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com a menina e a árvore-fauno. Obra reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que diretor mexicano dirigiu este filme?",
+      "resposta": "Guillermo del Toro",
+      "ancora": {
+        "nome": "O Labirinto do Fauno",
+        "descricao": "Filme de fantasia de 2006, de Guillermo del Toro, passado na Espanha franquista de 1944.",
+        "variantes": [
+          "El laberinto del fauno",
+          "Pan's Labyrinth"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena famosa, em preto e branco, na Fontana di Trevi, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 1960 (1960)",
+      "ancora": {
+        "nome": "A Doce Vida",
+        "descricao": "Filme italiano de 1960 dirigido por Federico Fellini, com Marcello Mastroianni, passado em Roma.",
+        "variantes": [
+          "La dolce vita"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena de Chapolin num cenário de faroeste. A placa BANCO não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o herói de vermelho nesta cena?",
+      "resposta": "Roberto Gómez Bolaños (Chespirito)",
+      "distratores": [
+        "Carlos Villagrán",
+        "Rubén Aguirre",
+        "Ramón Valdés"
+      ],
+      "ancora": {
+        "nome": "Chapolin Colorado",
+        "descricao": "Seriado humorístico mexicano de 1973 sobre um atrapalhado super-herói vestido de vermelho.",
+        "variantes": [
+          "El Chapulín Colorado",
+          "Chapolin"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena sem texto com Sônia Braga, José Wilker e Mauro Mendonça, de filme brasileiro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "De que filme brasileiro é esta cena?",
+      "resposta": "Dona Flor e Seus Dois Maridos",
+      "ancora": {
+        "nome": "Dona Flor e Seus Dois Maridos",
+        "descricao": "Filme brasileiro de 1976, de Bruno Barreto, baseado no romance de Jorge Amado.",
+        "variantes": [
+          "Dona Flor e Seus Dois Maridos (filme)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta icônica da dança da morte, sem texto, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que diretor dirigiu este filme?",
+      "resposta": "Ingmar Bergman",
+      "distratores": [
+        "Carl Theodor Dreyer",
+        "Victor Sjöström",
+        "Federico Fellini"
+      ],
+      "ancora": {
+        "nome": "O Sétimo Selo",
+        "descricao": "Filme sueco de 1957 dirigido por Ingmar Bergman, em que um cavaleiro joga xadrez com a Morte.",
+        "variantes": [
+          "Det sjunde inseglet",
+          "The Seventh Seal"
+        ]
+      }
+    }
+  ]
+}

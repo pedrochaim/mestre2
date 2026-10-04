@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que diretor dirigiu este filme?",
+        "resposta": "Ingmar Bergman"
+      },
+      "existentes": [
+        {
+          "id": "q01503",
+          "pergunta": "No filme O Sétimo Selo, de Ingmar Bergman, um cavaleiro que volta das Cruzadas joga uma partida de xadrez contra quem?",
+          "resposta": "A Morte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o diretor do filme; a existente pergunta contra quem o cavaleiro joga xadrez (a Morte). Fatos diferentes, e a existente só cita o diretor no enunciado, sem que isso seja o fato perguntado."
+    }
+  ]
+}

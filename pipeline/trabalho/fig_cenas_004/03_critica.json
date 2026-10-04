@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que o personagem à esquerda é interpretado por Brando, mas `mostra` só informa o filme. Não dá para saber quem está à esquerda, então a afirmação não é verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a novela se inspira em romance de Jorge Amado. O enunciado não nomeia a obra, e os distratores são escritores brasileiros críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Spielberg dirigiu o filme. O enunciado não vaza a resposta e exige reconhecer a cena.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é de 2015, o que dá a década de 2010. O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que o samurai em primeiro plano é Mifune, mas `mostra` não diz quem aparece em primeiro plano. Entre os sete samurais, outro ator poderia estar ali. Não é verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O TMDB sustenta a série. Os distratores são humorísticos de TV plausíveis e nenhum descreve a cena.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Guillermo del Toro é o diretor mexicano. A pista 'mexicano' sozinha não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é de 1960, o que dá a década de 1960. O enunciado é direto e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roberto Gómez Bolaños interpreta Chapolin, segundo os trechos. 'Herói de vermelho' não identifica o ator sem a figura, e os distratores são atores do elenco que não fazem o herói.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Existem outro filme de 2017 e uma minissérie com o mesmo título. Por isso a resposta não é única. Acrescentar a época de 1976 desambigua sem entregar.",
+      "reescrita": {
+        "pergunta": "De que filme brasileiro da década de mil novecentos e setenta é esta cena?",
+        "resposta": "Dona Flor e Seus Dois Maridos",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Bergman dirigiu o filme. Os distratores são cineastas críveis, e nenhum dirigiu o filme.",
+      "reescrita": null
+    }
+  ]
+}
