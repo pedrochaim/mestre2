@@ -1,0 +1,142 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Casal em número de dança num palco, com texto visível ('dançar comigo') e sem elementos que identifiquem o forró; resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Tambor preto visto de cima, parece um tambor qualquer; a cuíca não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Reco-reco de molas metálicas, com vareta, em foto limpa e sem texto; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão, usado no samba, é este?",
+      "resposta": "Reco-reco",
+      "ancora": {
+        "nome": "Reco-reco",
+        "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+        "variantes": [
+          "Raspador",
+          "Caracaxá",
+          "Querequexé"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem a bandeira do Amapá e logotipos da Infraero, que entregam o lugar, e o grupo no aeroporto não deixa o marabaixo reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aquarela do século dezenove que mostra uma roda ou luta de capoeira, de domínio público e sem texto. A imagem mostra a capoeira em geral, não o estilo Angola, então a âncora é a Capoeira.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que manifestação afro-brasileira, em que dois jogadores se enfrentam com chutes e esquivas, esta aquarela antiga retrata?",
+      "resposta": "Capoeira",
+      "ancora": {
+        "nome": "Capoeira",
+        "descricao": "Arte marcial e jogo afro-brasileiro que combina luta, dança, música e cantos.",
+        "variantes": [
+          "Capoeira Angola",
+          "Jogo de capoeira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Marca d'água 'Dan Moi' visível; cabaças esculpidas, e a imagem mostra dois objetos que podem ser confundidos com outros chocalhos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Triângulo metálico nítido e centralizado, sem texto relevante.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão é este, presente no forró?",
+      "resposta": "Triângulo",
+      "distratores": [
+        "Agogô",
+        "Pandeiro",
+        "Reco-reco"
+      ],
+      "ancora": {
+        "nome": "Triângulo",
+        "descricao": "Instrumento de percussão de metal dobrado em forma triangular, tocado com uma baqueta metálica.",
+        "variantes": [
+          "Triângulo musical"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de apresentação pública, com dançarinos de saia de palha batendo bastões de bambu. É um traço típico do maculelê, sem texto visível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que dança, em que os participantes batem bastões ao ritmo da música, é esta?",
+      "resposta": "Maculelê",
+      "distratores": [
+        "Jongo",
+        "Coco de roda",
+        "Cacuriá"
+      ],
+      "ancora": {
+        "nome": "Maculelê",
+        "descricao": "Dança afro-brasileira de bastões originária de Santo Amaro, na Bahia.",
+        "variantes": [
+          "Maculele"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Gravura antiga com muitas pessoas em volta de uma fogueira; a dança não é identificável como lundu e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de barro escuro com coroa e manto azul, bem reconhecível. O texto visível é uma oração e não diz o nome nem o lugar.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Em que cidade paulista fica o santuário nacional onde esta imagem é venerada?",
+      "resposta": "Aparecida",
+      "ancora": {
+        "nome": "Nossa Senhora Aparecida",
+        "descricao": "Imagem de barro escuro da Virgem Maria, padroeira do Brasil, venerada no santuário nacional em Aparecida, São Paulo.",
+        "variantes": [
+          "Nossa Senhora da Conceição Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível 'Oktoberfest' e brasão com o nome 'Centopeia' na imagem entregam a resposta; há também pessoas comuns na multidão."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Fantasia azul e vermelha coberta por tecido, sem forma clara de boi, e que pode ser outro personagem; não é reconhecível e a resposta não é única."
+    }
+  ]
+}

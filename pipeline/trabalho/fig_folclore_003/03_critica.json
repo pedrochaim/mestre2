@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'percussão usada no samba' não identifica o instrumento sozinha. O trecho confirma o uso no samba e o modelo de molas metálicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dois jogadores, chutes e esquivas' mais 'afro-brasileira' entrega a capoeira com a imagem coberta. 'Aquarela antiga' também não consta em `mostra`. Tirei as duas pistas.",
+      "reescrita": {
+        "pergunta": "Que manifestação afro-brasileira, que mistura luta, dança e música, é esta?",
+        "resposta": "Capoeira",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o triângulo no forró. A pista é genérica e a figura decide a resposta. Os distratores são da mesma categoria, têm até quatro palavras e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dança em que os participantes batem bastões' é a definição do maculelê, então a figura virou enfeite. Troquei a pista pela origem geral.",
+      "reescrita": {
+        "pergunta": "Que dança folclórica afro-brasileira, da Bahia, é esta?",
+        "resposta": "Maculelê",
+        "distratores": [
+          "Jongo",
+          "Coco de roda",
+          "Cacuriá"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Santuário nacional paulista' permite responder 'Aparecida' sem ver a imagem. Além disso, a resposta repete o nome da imagem. Troquei por um fato posterior ao reconhecimento, amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Em que rio pescadores encontraram esta imagem, no século dezoito?",
+        "resposta": "Rio Paraíba do Sul",
+        "distratores": []
+      }
+    }
+  ]
+}

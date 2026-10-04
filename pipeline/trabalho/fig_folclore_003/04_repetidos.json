@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que manifestação afro-brasileira, que mistura luta, dança e música, é esta?",
+        "resposta": "Capoeira"
+      },
+      "existentes": [
+        {
+          "id": "q01974",
+          "pergunta": "A capoeira virou crime no Código Penal criado logo após a Proclamação da República. De que ano é esse código?",
+          "resposta": "1890"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de percussão é este, presente no forró?",
+        "resposta": "Triângulo"
+      },
+      "existentes": [
+        {
+          "id": "q04166",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Triângulo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que rio pescadores encontraram esta imagem, no século dezoito?",
+        "resposta": "Rio Paraíba do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q03556",
+          "pergunta": "Em 1717, pescadores encontraram a imagem de Nossa Senhora Aparecida nas águas de que rio?",
+          "resposta": "Paraíba do Sul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a capoeira; a existente pede o ano do Código Penal que a criminalizou. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Os dois pedem o mesmo instrumento de percussão, o triângulo, e têm a mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "As duas perguntam em que rio pescadores acharam a imagem de Nossa Senhora Aparecida, o Paraíba do Sul."
+    }
+  ]
+}
