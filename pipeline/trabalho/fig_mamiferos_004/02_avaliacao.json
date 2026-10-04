@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cães de trenó da Groenlândia, claros; reconhecível como cachorro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal doméstico é este?",
+      "resposta": "Cachorro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cachorro",
+        "descricao": "Canis lupus familiaris, o cão doméstico, descendente do lobo.",
+        "variantes": [
+          "Cão",
+          "Cão doméstico",
+          "Canis familiaris"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gibão-de-mãos-brancas bem visível, em foto nítida; múltipla com gibões parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que primata é este?",
+      "resposta": "Gibão-de-mãos-brancas",
+      "distratores": [
+        "Gibão-de-crista-negra",
+        "Gibão-de-bochechas-brancas",
+        "Siamang"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gibão-de-mãos-brancas",
+        "descricao": "Primata da família dos gibões, Hylobates lar, do Sudeste Asiático.",
+        "variantes": [
+          "Gibão-lar",
+          "Hylobates lar"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho de gelada com mancha vermelha no peito, bem característico.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que macaco africano é este?",
+      "resposta": "Gelada",
+      "distratores": [
+        "Mandril",
+        "Babuíno-sagrado",
+        "Babuíno-oliva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gelada",
+        "descricao": "Macaco do Velho Mundo das terras altas da Etiópia, Theropithecus gelada, com mancha vermelha no peito.",
+        "variantes": [
+          "Babuíno-gelada",
+          "Theropithecus gelada"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bode branco com chifres e barba, claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal de criação é este?",
+      "resposta": "Cabra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabra",
+        "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+        "variantes": [
+          "Bode",
+          "Cabra-doméstica",
+          "Capra hircus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Puma nítido; múltipla com felinos de pelagem uniforme parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino americano é este?",
+      "resposta": "Puma",
+      "distratores": [
+        "Jaguarundi",
+        "Lince-pardo",
+        "Gato-palheiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Puma",
+        "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+        "variantes": [
+          "Onça-parda",
+          "Suçuarana",
+          "Leão-da-montanha",
+          "Puma concolor"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bongo com listras brancas e chifres espiralados, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive este animal na natureza?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bongo",
+        "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+        "variantes": [
+          "Tragelaphus eurycerus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Coelho-europeu nítido, orelhas curtas; múltipla com parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Coelho",
+      "distratores": [
+        "Lebre",
+        "Cutia",
+        "Preá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coelho",
+        "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+        "variantes": [
+          "Coelho-europeu",
+          "Oryctolagus cuniculus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O animal parece um babuíno-oliva ou da Guiné, sem a juba prateada do babuíno-sagrado; não é reconhecível como a espécie indicada."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mara nítida, de perfil, forma característica.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que país da América do Sul vive este roedor?",
+      "resposta": "Argentina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mara",
+        "descricao": "Roedor parecido com uma lebre de pernas longas, Dolichotis patagonum, da Argentina.",
+        "variantes": [
+          "Mara-da-patagônia",
+          "Dolichotis patagonum"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Macaco-prego nítido, topete escuro característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco é este?",
+      "resposta": "Macaco-prego",
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-prego",
+        "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+        "variantes": [
+          "Sapajus apella",
+          "Macaco-prego-das-guianas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Urso-negro nítido de frente; múltipla com ursos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que urso é este?",
+      "resposta": "Urso-negro-americano",
+      "distratores": [
+        "Urso-pardo",
+        "Urso-negro-asiático",
+        "Urso-preguiça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-negro-americano",
+        "descricao": "Urso de médio porte da América do Norte, Ursus americanus, de pelagem geralmente escura.",
+        "variantes": [
+          "Urso-negro",
+          "Baribal",
+          "Ursus americanus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga, não foto, e o animal (cauda longa, face) não é claramente um petauro-do-açúcar; pode ser outro petauro."
+    }
+  ]
+}

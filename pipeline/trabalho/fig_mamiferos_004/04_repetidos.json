@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal doméstico é este?",
+        "resposta": "Cachorro"
+      },
+      "existentes": [
+        {
+          "id": "q03849",
+          "pergunta": "Para muitos biólogos, o cachorro doméstico é apenas uma subespécie de qual animal selvagem?",
+          "resposta": "Lobo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede para identificar o animal doméstico (cachorro). A existente pergunta de qual animal selvagem o cachorro descende (lobo). São fatos diferentes."
+    }
+  ]
+}
