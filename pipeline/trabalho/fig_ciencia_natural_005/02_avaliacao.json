@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Gotas sobre superfície marrom parecem água; o mercúrio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Barra de cristais metálicos prateados; pode ser confundida com zircônio, háfnio ou outros metais, sem resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cocos em cachos não identificam a espécie; podem ser outros estafilococos ou cocos. Há ainda texto de microscópio na imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do mosquito com listras brancas nas pernas e marcas no tórax.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Que mosquito é este, de pernas listradas de preto e branco?",
+      "resposta": "Aedes aegypti",
+      "distratores": [
+        "Anopheles",
+        "Culex",
+        "Mosquito-pólvora"
+      ],
+      "ancora": {
+        "nome": "Aedes aegypti",
+        "descricao": "Espécie de mosquito transmissora de dengue, febre amarela e chikungunya, com listras brancas nas pernas.",
+        "variantes": [
+          "Mosquito da dengue",
+          "Mosquito-do-Egito"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Líquido sendo despejado com névoa; parece água ou outro líquido, nitrogênio líquido não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Micrografia mostra hemácias em foice entre células normais, bem característica; imagem pequena, mas legível.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que doença hereditária do sangue deforma as hemácias com este formato?",
+      "resposta": "Anemia falciforme",
+      "ancora": {
+        "nome": "Anemia falciforme",
+        "descricao": "Doença hereditária do sangue em que a hemoglobina anormal faz as hemácias assumirem forma de foice.",
+        "variantes": [
+          "Doença falciforme",
+          "Siclemia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Close da língua humana, sem rosto identificável; órgão evidente.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que órgão do corpo humano é este?",
+      "resposta": "Língua",
+      "ancora": {
+        "nome": "Língua",
+        "descricao": "Órgão muscular da boca, principal órgão do paladar e importante para a fala.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cristais cúbicos amarelo-latão característicos da pirita, bem nítidos.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que mineral é este?",
+      "resposta": "Pirita",
+      "ancora": {
+        "nome": "Pirita",
+        "descricao": "Mineral sulfeto de ferro (FeS2) de brilho metálico amarelo-latão, que forma cristais cúbicos.",
+        "variantes": [
+          "Ouro de tolo",
+          "Pirite"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Rocha pequena e de baixa resolução, sem traços que permitam reconhecer a bauxita."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dente molar extraído, com coroa de cúspides e duas raízes, sobre fundo escuro.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que tipo de dente humano é este?",
+      "resposta": "Molar",
+      "distratores": [
+        "Incisivo",
+        "Canino",
+        "Pré-molar"
+      ],
+      "ancora": {
+        "nome": "Dente molar",
+        "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+        "variantes": [
+          "Dente",
+          "Molar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Partículas virais verdes sobre uma célula são pontos sem forma própria; o HIV não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Micrografia de um ciliado oval com cílios na borda, forma típica do paramécio.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Que organismo unicelular de água doce, coberto de cílios, é este?",
+      "resposta": "Paramécio",
+      "distratores": [
+        "Ameba",
+        "Euglena",
+        "Vorticela"
+      ],
+      "ancora": {
+        "nome": "Paramécio",
+        "descricao": "Protozoário ciliado unicelular de água doce, de corpo oval, muito usado como organismo-modelo em laboratório.",
+        "variantes": [
+          "Paramecium"
+        ]
+      }
+    }
+  ]
+}

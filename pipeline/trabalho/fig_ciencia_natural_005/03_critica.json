@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista das pernas listradas é confirmada pelos trechos e não entrega a espécie sem a imagem. Os distratores são mosquitos ou insetos hematófagos plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Deforma as hemácias' mais 'hereditária do sangue' é o resumo clássico da doença e deixa responder com a imagem coberta. A pista deve ser reduzida e a forma deve ficar na figura.",
+      "reescrita": {
+        "pergunta": "Hemácias com este formato são típicas de que doença hereditária?",
+        "resposta": "Anemia falciforme",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista e sem vazamento. O fato é bem documentado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. A imagem de cristais cúbicos de brilho amarelo-latão identifica o mineral, e os trechos sustentam isso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta sem pista. Os distratores são do mesmo tipo, curtos e distinguíveis pela imagem, e o trecho cita molares e pré-molares.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Coberto de cílios' somado a 'unicelular de água doce' entrega a resposta por eliminação dos distratores (ameba, euglena). A pista é ambígua, porque a vorticela também é ciliada, e a figura vira enfeite. Remover a pista.",
+      "reescrita": {
+        "pergunta": "Que microrganismo unicelular de água doce é este, visto ao microscópio?",
+        "resposta": "Paramécio",
+        "distratores": [
+          "Ameba",
+          "Euglena",
+          "Vorticela"
+        ]
+      }
+    }
+  ]
+}

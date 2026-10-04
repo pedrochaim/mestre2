@@ -1,0 +1,383 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Aedes aegypti",
+        "descricao": "Espécie de mosquito transmissora de dengue, febre amarela e chikungunya, com listras brancas nas pernas.",
+        "variantes": [
+          "Mosquito da dengue",
+          "Mosquito-do-Egito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aedes_aegypti",
+          "nome": "Aedes aegypti",
+          "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana.",
+          "variantes": [
+            "mosquito da dengue",
+            "Aedes"
+          ]
+        },
+        {
+          "id": "conquista_do_imperio_asteca",
+          "nome": "Conquista do Império Asteca",
+          "descricao": "Campanha espanhola liderada por Hernán Cortés, de 1519 a 1521, que derrubou o Império Asteca.",
+          "variantes": [
+            "Conquista do México",
+            "Spanish conquest of the Aztec Empire"
+          ]
+        },
+        {
+          "id": "mesquita_de_djinguereber",
+          "nome": "Mesquita de Djinguereber",
+          "descricao": "Mesquita de barro em Tombuctu, no Mali, construída no século quatorze.",
+          "variantes": [
+            "Djinguereber Mosque",
+            "Djingareyber"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "meteorito_do_bendego",
+          "nome": "Meteorito do Bendegó",
+          "descricao": "Meteorito de ferro de mais de cinco toneladas achado no sertão baiano em 1784 e exposto no Museu Nacional, no Rio de Janeiro.",
+          "variantes": [
+            "Bendegó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Anemia falciforme",
+        "descricao": "Doença hereditária do sangue em que a hemoglobina anormal faz as hemácias assumirem forma de foice.",
+        "variantes": [
+          "Doença falciforme",
+          "Siclemia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "traco_falciforme",
+          "nome": "Traço falciforme",
+          "descricao": "Condição de quem herda uma única cópia do gene da anemia falciforme, comum em populações de origem africana.",
+          "variantes": [
+            "Sickle cell trait",
+            "Anemia falciforme",
+            "Gene da hemoglobina S"
+          ]
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Língua",
+        "descricao": "Órgão muscular da boca, principal órgão do paladar e importante para a fala.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "parque_florestal_nacional_de_zhangjiajie",
+          "nome": "Parque Florestal Nacional de Zhangjiajie",
+          "descricao": "Parque na província de Hunan, na China, com milhares de pilares de arenito cobertos de vegetação.",
+          "variantes": [
+            "Zhangjiajie",
+            "Zhangjiajie National Forest Park",
+            "Wulingyuan"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "linux",
+          "nome": "Linux",
+          "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991.",
+          "variantes": [
+            "Kernel Linux"
+          ]
+        },
+        {
+          "id": "caligula",
+          "nome": "Calígula",
+          "descricao": "Terceiro imperador romano, que governou de 37 a 41 depois de Cristo.",
+          "variantes": [
+            "Caio César Augusto Germânico",
+            "Gaius Caesar"
+          ]
+        },
+        {
+          "id": "lemingue",
+          "nome": "Lemingue",
+          "descricao": "Pequeno roedor da tundra ártica, alvo do mito do suicídio coletivo.",
+          "variantes": [
+            "Lemming"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pirita",
+        "descricao": "Mineral sulfeto de ferro (FeS2) de brilho metálico amarelo-latão, que forma cristais cúbicos.",
+        "variantes": [
+          "Ouro de tolo",
+          "Pirite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        },
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dente molar",
+        "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+        "variantes": [
+          "Dente",
+          "Molar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "dolar",
+          "nome": "Dólar",
+          "descricao": "Nome de diversas moedas, como a dos Estados Unidos, derivado de uma antiga moeda de prata europeia.",
+          "variantes": [
+            "Dollar"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "wolfgang_amadeus_mozart",
+          "nome": "Wolfgang Amadeus Mozart",
+          "descricao": "Compositor austríaco do período clássico, nascido em Salzburgo em 1756.",
+          "variantes": [
+            "Mozart",
+            "Wolfgang Amadé Mozart"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Paramécio",
+        "descricao": "Protozoário ciliado unicelular de água doce, de corpo oval, muito usado como organismo-modelo em laboratório.",
+        "variantes": [
+          "Paramecium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "espartaco",
+          "nome": "Espártaco",
+          "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+          "variantes": [
+            "Spartacus"
+          ]
+        },
+        {
+          "id": "pardal",
+          "nome": "Pardal",
+          "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+          "variantes": [
+            "Pardal-comum",
+            "Passer domesticus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "aedes_aegypti",
+      "motivo": "Mesma espécie de mosquito, transmissor de dengue e outras arboviroses."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Anemia falciforme é a doença; o traço falciforme é uma condição distinta (heterozigose), apesar de ter 'Anemia falciforme' como variante."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o órgão língua."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "pirita",
+      "motivo": "Mesmo mineral, sulfeto de ferro de brilho dourado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é dente molar."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o paramécio."
+    }
+  ]
+}

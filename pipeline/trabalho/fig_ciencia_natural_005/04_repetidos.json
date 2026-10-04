@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mosquito é este, de pernas listradas de preto e branco?",
+        "resposta": "Aedes aegypti"
+      },
+      "existentes": [
+        {
+          "id": "q02588",
+          "pergunta": "O mosquito da dengue se chama cientificamente Aedes aegypti. A palavra grega Aedes, que dá nome ao gênero, significa o quê?",
+          "resposta": "Desagradável ou odioso"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Pirita"
+      },
+      "existentes": [
+        {
+          "id": "q04298",
+          "pergunta": "Garimpeiros que confundiam a pirita com o metal precioso deram a ela qual apelido zombeteiro?",
+          "resposta": "Ouro de tolo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o mosquito (Aedes aegypti) pela imagem; a existente já dá o nome e pergunta o significado de Aedes. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o mineral (pirita) pela imagem; a existente pergunta o apelido 'ouro de tolo', já dando o nome pirita. Fatos diferentes."
+    }
+  ]
+}
