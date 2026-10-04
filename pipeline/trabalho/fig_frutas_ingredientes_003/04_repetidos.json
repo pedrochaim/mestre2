@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Do ponto de vista botânico, esta fruta é classificada como que tipo de fruto?",
+        "resposta": "Baga"
+      },
+      "existentes": [
+        {
+          "id": "q02664",
+          "pergunta": "As bananas são levemente radioativas. Isso acontece por causa de qual elemento químico presente nelas?",
+          "resposta": "Potássio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a classificação botânica do fruto (baga). A existente é sobre o elemento radioativo, o potássio. Os fatos são diferentes."
+    }
+  ]
+}

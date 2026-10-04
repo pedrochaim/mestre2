@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'plantada na horta' é genérica e não entrega a resposta. A resposta é única diante da imagem e a fonte confirma que o brócolis é uma hortaliça.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta, e a descrição inteira/cortada é só visual. Os distratores são frutas ou cucurbitáceas parecidas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Casca rosa com escamas' descreve a imagem e entrega a resposta, e 'escamas' ecoa o significado do nome (pitaia = fruta escamosa). Troquei por uma pista de grupo, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que fruta tropical, produzida por um cacto, é esta?",
+        "resposta": "Pitaia"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cresce em cachos' não aparece nos trechos e não distingue a fruta dos distratores, que também crescem em galhos. Usei a origem asiática, que está no trecho e ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que fruta tropical vermelha e brilhante, de origem asiática, é esta?",
+        "resposta": "Jambo",
+        "distratores": [
+          "Acerola",
+          "Pitanga",
+          "Cereja"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 sem nomear a fruta: a banana é botanicamente uma baga, como diz o trecho em inglês. O trecho em português diz 'pseudobaga', mas 'baga' é a resposta amplamente aceita.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Hortaliça de que se comem os botões florais' é quase um apelido da alcachofra e passa no teste da imagem coberta, então a figura vira enfeite. Troquei por uma pista de origem.",
+      "reescrita": {
+        "pergunta": "Que hortaliça, de origem mediterrânea, é esta?",
+        "resposta": "Alcachofra"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O pistache cresce em cachos na árvore e é uma semente comestível. O enunciado não entrega a resposta, e os distratores são nozes plausíveis que não formam esses cachos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Casca espinhosa' é uma pista que ajuda sem entregar, e a imagem do durião distingue a fruta da jaca e da graviola. Os distratores são frutas tropicais parecidas, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "As fontes divergem: o trecho em inglês diz Sudão ('first domesticated in Sudan', com 'possibly' para o progenitor), enquanto o trecho em português diz África Central. Há também outros candidatos, como a África Ocidental. A resposta única não é segura, e 'variedade moderna' é impreciso.",
+      "reescrita": null
+    }
+  ]
+}

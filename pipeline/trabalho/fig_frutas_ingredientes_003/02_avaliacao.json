@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cabeça de brócolis cercada de folhas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça é esta, plantada na horta?",
+      "resposta": "Brócolis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Brócolis",
+        "descricao": "Hortaliça da família das couves (Brassica oleracea var. italica), cuja cabeça floral verde é comestível.",
+        "variantes": [
+          "Brócoli",
+          "Brócolos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Palmeiras na chuva, sem fruto visível; o açaizeiro não é reconhecível pela imagem e pode ser confundido com outras palmeiras."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Planta de wasabi com folhas e flores, sem o rizoma; não é reconhecível pelo público em geral e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Melões de variedades diferentes (amarelo, cantaloupe), mesma espécie; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, mostrada inteira e cortada?",
+      "resposta": "Melão",
+      "distratores": [
+        "Melancia",
+        "Mamão",
+        "Abóbora"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Melão",
+        "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+        "variantes": [
+          "Melão-amarelo",
+          "Cantaloupe"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilha de pitaias, claramente reconhecíveis; o jornal ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta de casca rosa com escamas é esta?",
+      "resposta": "Pitaia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pitaia",
+        "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+        "variantes": [
+          "Pitaya",
+          "Fruta-do-dragão",
+          "Dragon fruit"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frutos vermelhos brilhantes de jambo em close, boa nitidez; múltipla com distratores de frutas vermelhas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, que cresce em cachos no galho?",
+      "resposta": "Jambo",
+      "distratores": [
+        "Acerola",
+        "Pitanga",
+        "Cereja"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jambo",
+        "descricao": "Fruta vermelha e brilhante de árvore tropical do gênero Syzygium, como o jambo-vermelho (Syzygium malaccense).",
+        "variantes": [
+          "Jambo-vermelho",
+          "Jambo-rosa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Muitas bananas maduras e verdes, claramente reconhecíveis; pergunta sobre a classificação botânica, sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Do ponto de vista botânico, esta fruta é classificada como que tipo de fruto?",
+      "resposta": "Baga",
+      "destino": 0,
+      "ancora": {
+        "nome": "Banana",
+        "descricao": "Fruta alongada e curva, de casca amarela quando madura, produzida por plantas do gênero Musa.",
+        "variantes": [
+          "Banana-prata",
+          "Banana-nanica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Alcachofra cortada mostrando as camadas de brácteas e o centro; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça, de que se comem os botões florais, é esta?",
+      "resposta": "Alcachofra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alcachofra",
+        "descricao": "Hortaliça (Cynara cardunculus var. scolymus) de que se come o botão floral, formado por brácteas sobrepostas.",
+        "variantes": [
+          "Alcachofra-hortense"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Flores de pereira, muito parecidas com as da macieira; a resposta não é única nem reconhecível pelo público."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cachos de pistache ainda na árvore, nítidos; múltipla com outras sementes de árvore.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que semente comestível se forma nestes cachos, ainda na árvore?",
+      "resposta": "Pistache",
+      "distratores": [
+        "Amêndoa",
+        "Avelã",
+        "Castanha-de-caju"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pistache",
+        "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+        "variantes": [
+          "Pistácio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Durians com casca espinhosa, inconfundíveis; distratores de frutas grandes e espinhosas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta de casca espinhosa é esta?",
+      "resposta": "Durião",
+      "distratores": [
+        "Jaca",
+        "Graviola",
+        "Fruta-do-conde"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Durião",
+        "descricao": "Fruta do sudeste asiático, de casca espinhosa e cheiro forte, do gênero Durio, chamada de rei das frutas.",
+        "variantes": [
+          "Durian"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Melancia no pé, listrada, reconhecível; pergunta além do nome sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país africano a variedade moderna desta fruta foi domesticada?",
+      "resposta": "Sudão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Melancia",
+        "descricao": "Fruta grande de casca verde listrada e polpa vermelha e suculenta, da espécie Citrullus lanatus.",
+        "variantes": [
+          "Citrullus lanatus"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brócolis",
+        "descricao": "Hortaliça da família das couves (Brassica oleracea var. italica), cuja cabeça floral verde é comestível.",
+        "variantes": [
+          "Brócoli",
+          "Brócolos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquipelago_de_abrolhos",
+          "nome": "Arquipélago de Abrolhos",
+          "descricao": "Arquipélago no litoral sul da Bahia, sede do primeiro parque nacional marinho do Brasil.",
+          "variantes": [
+            "Abrolhos",
+            "Abrolhos Archipelago",
+            "Arquipélago dos Abrolhos",
+            "Parque Nacional Marinho dos Abrolhos"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "crocodilo",
+          "nome": "Crocodilo",
+          "descricao": "Grande réptil aquático da ordem dos crocodilianos, que inclui crocodilos, jacarés e gaviais.",
+          "variantes": [
+            "Crocodilianos",
+            "Crocodilia"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Melão",
+        "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+        "variantes": [
+          "Melão-amarelo",
+          "Cantaloupe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "requeima_da_batata",
+          "nome": "Requeima da batata",
+          "descricao": "Doença da batata e do tomate causada pelo oomiceto Phytophthora infestans",
+          "variantes": [
+            "Phytophthora infestans",
+            "mela",
+            "late blight"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "escorpiao_amarelo",
+          "nome": "Escorpião-amarelo",
+          "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas.",
+          "variantes": [
+            "Tityus serrulatus"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pitaia",
+        "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+        "variantes": [
+          "Pitaya",
+          "Fruta-do-dragão",
+          "Dragon fruit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "fruta_do_diabo",
+          "nome": "Fruta do Diabo",
+          "descricao": "Fruta mágica de One Piece que dá poderes sobre-humanos a quem a come.",
+          "variantes": [
+            "Akuma no Mi",
+            "Devil Fruit"
+          ]
+        },
+        {
+          "id": "esferas_do_dragao",
+          "nome": "Esferas do Dragão",
+          "descricao": "Esferas mágicas de Dragon Ball que, reunidas, invocam um dragão que realiza desejos.",
+          "variantes": [
+            "Dragon Balls"
+          ]
+        },
+        {
+          "id": "dragonite",
+          "nome": "Dragonite",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 149 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jambo",
+        "descricao": "Fruta vermelha e brilhante de árvore tropical do gênero Syzygium, como o jambo-vermelho (Syzygium malaccense).",
+        "variantes": [
+          "Jambo-vermelho",
+          "Jambo-rosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Banana",
+        "descricao": "Fruta alongada e curva, de casca amarela quando madura, produzida por plantas do gênero Musa.",
+        "variantes": [
+          "Banana-prata",
+          "Banana-nanica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "banana_cavendish",
+          "nome": "Banana Cavendish",
+          "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+          "variantes": [
+            "Banana-nanica",
+            "Cavendish banana"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Alcachofra",
+        "descricao": "Hortaliça (Cynara cardunculus var. scolymus) de que se come o botão floral, formado por brácteas sobrepostas.",
+        "variantes": [
+          "Alcachofra-hortense"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "acabou_chorare",
+          "nome": "Acabou Chorare",
+          "descricao": "Álbum dos Novos Baianos lançado em 1972.",
+          "variantes": []
+        },
+        {
+          "id": "ilha_de_alcatraz",
+          "nome": "Ilha de Alcatraz",
+          "descricao": "Ilha na baía de São Francisco, na Califórnia, que abrigou uma prisão federal de segurança máxima.",
+          "variantes": [
+            "Alcatraz",
+            "Alcatraz Island"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pistache",
+        "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+        "variantes": [
+          "Pistácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pessach",
+          "nome": "Pessach",
+          "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+          "variantes": [
+            "Páscoa judaica",
+            "Passover",
+            "Pesach"
+          ]
+        },
+        {
+          "id": "piteco",
+          "nome": "Piteco",
+          "descricao": "Homem das cavernas protagonista da Turma do Piteco, de Mauricio de Sousa.",
+          "variantes": [
+            "Pithecanthropus Erectus da Silva"
+          ]
+        },
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Durião",
+        "descricao": "Fruta do sudeste asiático, de casca espinhosa e cheiro forte, do gênero Durio, chamada de rei das frutas.",
+        "variantes": [
+          "Durian"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        },
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Brócolis é hortaliça; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Melão (fruta) não aparece entre as candidatas, que são entidades não relacionadas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pitaia é uma fruta de cacto; as candidatas são entidades diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Jambo é uma fruta; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "banana",
+      "motivo": "Mesma fruta do gênero Musa; Banana Cavendish é um grupo de cultivares, entidade distinta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Alcachofra é hortaliça; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pistache é a semente de Pistacia vera; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Durião é uma fruta; nenhuma candidata corresponde."
+    }
+  ]
+}
