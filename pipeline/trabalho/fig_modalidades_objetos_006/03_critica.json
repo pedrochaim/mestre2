@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista nem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é verdadeiro e não entrega a resposta. Os distratores são curtos e nenhum deles está certo, porque a figura mostra descida de bruços e de cabeça.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Este objeto simboliza' é ambíguo: dá para responder 'mestre' ou 'dan', e a resposta é o próprio objeto. Os trechos também mostram que há faixas acima da preta em alguns esportes. Reescrito para pedir o nome da faixa, sem afirmar que é a mais alta.",
+      "reescrita": {
+        "pergunta": "Que faixa das artes marciais, usada no judô e no karatê, é esta?",
+        "resposta": "Faixa preta"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são esportes aquáticos parecidos, e a figura (prancha puxada por pipa) os diferencia. Nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "No teste da imagem coberta, 'esporte de contato popular no sul da Ásia' quase entrega Kabaddi, e os distratores (rúgbi, luta livre, handebol) são eliminados pela região, então a figura vira enfeite. Reescrito sem a pista e com distratores que dependem da imagem.",
+      "reescrita": {
+        "pergunta": "Que esporte de equipe é este?",
+        "resposta": "Kabaddi",
+        "distratores": [
+          "Kho-kho",
+          "Rúgbi",
+          "Handebol"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto de equipamento. O enunciado não vaza e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O capacete é do futebol americano. O enunciado não vaza a resposta e é curto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Há só três armas na esgrima, então 'rapieira' é um distrator aceitável (arma histórica, não é a espada esportiva). O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

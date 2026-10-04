@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Largada de natação reconhecível, sem texto que entregue a resposta (só patrocinador).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade esportiva é esta?",
+      "resposta": "Natação",
+      "destino": 0,
+      "ancora": {
+        "nome": "Natação",
+        "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+        "variantes": [
+          "Natação esportiva",
+          "Natação competitiva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Há texto legível 'KICKBOXEN.DE' no canto do ringue, que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Atleta de skeleton de bruços e de cabeça, claramente reconhecível; textos são só patrocínio.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade olímpica de inverno é esta?",
+      "resposta": "Skeleton",
+      "distratores": [
+        "Luge",
+        "Bobsleigh",
+        "Skicross"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Skeleton",
+        "descricao": "Esporte olímpico de inverno em que um atleta desce uma pista de gelo de bruços e de cabeça num pequeno trenó.",
+        "variantes": [
+          "Skeleton (esporte)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O carro traz o nome 'Gilles Villeneuve' escrito e outros textos, entregando a identidade; a resposta também seria ambígua quanto ao modelo e à época."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (jogo recreativo), com nome na camisa ('RICE')."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto 'COMPAORE' no número de peito entrega o atleta, e o salto no ar poderia ser salto em distância ou triplo, sem resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Faixa preta isolada, sem texto, legível; pergunta evita a palavra 'faixa' no enunciado.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que graduação das artes marciais este objeto simboliza?",
+      "resposta": "Faixa preta",
+      "destino": 2,
+      "ancora": {
+        "nome": "Faixa preta",
+        "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+        "variantes": [
+          "Cinturão preto",
+          "Black belt"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Praticante de kitesurfe com pipa e prancha, claramente reconhecível; texto na pipa é só marca.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte aquático é este?",
+      "resposta": "Kitesurfe",
+      "distratores": [
+        "Windsurfe",
+        "Wakeboard",
+        "Parasail"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kitesurfe",
+        "descricao": "Esporte em que o praticante é puxado sobre a água por uma grande pipa de tração, de pé numa prancha.",
+        "variantes": [
+          "Kiteboarding",
+          "Kitesurf",
+          "Kiteboard"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lance de kabaddi em jogo oficial dos Jogos Asiáticos; texto não nomeia o esporte. Pouco conhecido, então múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte de contato, popular no sul da Ásia, é este?",
+      "resposta": "Kabaddi",
+      "distratores": [
+        "Rúgbi",
+        "Luta livre",
+        "Handebol"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kabaddi",
+        "descricao": "Esporte de contato do sul da Ásia em que um atacante toca adversários em sua quadra e tenta voltar sem ser derrubado.",
+        "variantes": [
+          "Kabbadi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A imagem mostra uma raquete de tênis de mesa, não de tênis; a pergunta foi reorientada para o esporte, com marca apenas como texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte usa este equipamento?",
+      "resposta": "Tênis de mesa",
+      "destino": 1,
+      "ancora": {
+        "nome": "Raquete de tênis de mesa",
+        "descricao": "Raquete de madeira com revestimento de borracha usada para bater na bolinha no tênis de mesa.",
+        "variantes": [
+          "Raquete de pingue-pongue",
+          "Raquete de ping-pong"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Capacete de futebol americano claro, fundo limpo; único texto é a marca Riddell.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte usa este capacete?",
+      "resposta": "Futebol americano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Capacete de futebol americano",
+        "descricao": "Capacete protetor de casco rígido e grade facial usado no futebol americano.",
+        "variantes": [
+          "Capacete de football"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arma de esgrima com guarda em sino grande e lâmina rígida, característica da espada; distratores visualmente parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual arma da esgrima é esta?",
+      "resposta": "Espada",
+      "distratores": [
+        "Florete",
+        "Sabre",
+        "Rapieira"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Espada (esgrima)",
+        "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+        "variantes": [
+          "Épée",
+          "Espada de esgrima"
+        ]
+      }
+    }
+  ]
+}

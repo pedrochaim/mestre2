@@ -1,0 +1,470 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Natação",
+        "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+        "variantes": [
+          "Natação esportiva",
+          "Natação competitiva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        },
+        {
+          "id": "deserto_do_atacama",
+          "nome": "Deserto do Atacama",
+          "descricao": "Deserto costeiro no norte do Chile, entre o Oceano Pacífico e os Andes, um dos lugares mais secos do planeta.",
+          "variantes": [
+            "Atacama",
+            "Atacama Desert"
+          ]
+        },
+        {
+          "id": "natalia_pereira",
+          "nome": "Natália Pereira",
+          "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+          "variantes": [
+            "Natália Zilio Pereira",
+            "Natália"
+          ]
+        },
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Skeleton",
+        "descricao": "Esporte olímpico de inverno em que um atleta desce uma pista de gelo de bruços e de cabeça num pequeno trenó.",
+        "variantes": [
+          "Skeleton (esporte)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kecleon",
+          "nome": "Kecleon",
+          "descricao": "Pokémon camaleão que muda de cor, da terceira geração, número 352 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "eletron",
+          "nome": "Elétron",
+          "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897.",
+          "variantes": [
+            "Electrão",
+            "Electron"
+          ]
+        },
+        {
+          "id": "esqueleto_humano",
+          "nome": "Esqueleto humano",
+          "descricao": "Conjunto de ossos que sustenta e protege o corpo humano.",
+          "variantes": [
+            "Human skeleton"
+          ]
+        },
+        {
+          "id": "selton_mello",
+          "nome": "Selton Mello",
+          "descricao": "Ator e cineasta brasileiro, diretor de O Palhaço e intérprete de Rubens Paiva em Ainda Estou Aqui.",
+          "variantes": [
+            "Selton Figueiredo Mello"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Faixa preta",
+        "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+        "variantes": [
+          "Cinturão preto",
+          "Black belt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "mamba_negra",
+          "nome": "Mamba-negra",
+          "descricao": "Serpente peçonhenta africana (Dendroaspis polylepis), longa e veloz, de pele cinza ou oliva.",
+          "variantes": [
+            "Mamba-preta",
+            "Dendroaspis polylepis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Kitesurfe",
+        "descricao": "Esporte em que o praticante é puxado sobre a água por uma grande pipa de tração, de pé numa prancha.",
+        "variantes": [
+          "Kiteboarding",
+          "Kitesurf",
+          "Kiteboard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        },
+        {
+          "id": "surfe",
+          "nome": "Surfe",
+          "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+          "variantes": [
+            "Surf"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "oktoberfest",
+          "nome": "Oktoberfest",
+          "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+          "variantes": [
+            "Wiesn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kabaddi",
+        "descricao": "Esporte de contato do sul da Ásia em que um atacante toca adversários em sua quadra e tenta voltar sem ser derrubado.",
+        "variantes": [
+          "Kabbadi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abba",
+          "nome": "ABBA",
+          "descricao": "Grupo pop sueco formado em 1972 por Agnetha, Björn, Benny e Anni-Frid",
+          "variantes": []
+        },
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        },
+        {
+          "id": "gabardine",
+          "nome": "Gabardine",
+          "descricao": "Tecido resistente e impermeável de trama diagonal, usado em casacos e capas de chuva",
+          "variantes": [
+            "Gabardina"
+          ]
+        },
+        {
+          "id": "giuseppe_garibaldi",
+          "nome": "Giuseppe Garibaldi",
+          "descricao": "Revolucionário e general italiano, um dos principais líderes da unificação da Itália no século dezenove.",
+          "variantes": [
+            "Garibaldi"
+          ]
+        },
+        {
+          "id": "kabuki",
+          "nome": "Kabuki",
+          "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete.",
+          "variantes": [
+            "Teatro kabuki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Raquete de tênis de mesa",
+        "descricao": "Raquete de madeira com revestimento de borracha usada para bater na bolinha no tênis de mesa.",
+        "variantes": [
+          "Raquete de tênis",
+          "Raquete de pingue-pongue",
+          "Raquete de ping-pong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raquete_de_beach_tennis",
+          "nome": "Raquete de beach tennis",
+          "descricao": "Raquete sem cordas, perfurada, de material composto, usada no beach tennis.",
+          "variantes": [
+            "Beach tennis",
+            "Raquete de tênis de praia"
+          ]
+        },
+        {
+          "id": "rachel_de_queiroz",
+          "nome": "Rachel de Queiroz",
+          "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+          "variantes": [
+            "Raquel de Queirós"
+          ]
+        },
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": []
+        },
+        {
+          "id": "diplomacia_do_pingue_pongue",
+          "nome": "Diplomacia do pingue-pongue",
+          "descricao": "Troca de visitas de mesatenistas entre Estados Unidos e China, em 1971, que precedeu a reaproximação dos dois países.",
+          "variantes": [
+            "Ping-pong diplomacy"
+          ]
+        },
+        {
+          "id": "prudente_de_morais",
+          "nome": "Prudente de Morais",
+          "descricao": "Político paulista que presidiu o Brasil entre 1894 e 1898.",
+          "variantes": [
+            "Prudente José de Morais Barros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Capacete de futebol americano",
+        "descricao": "Capacete protetor de casco rígido e grade facial usado no futebol americano.",
+        "variantes": [
+          "Capacete de football"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futebol_americano",
+          "nome": "Futebol americano",
+          "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+          "variantes": [
+            "Gridiron",
+            "Football americano"
+          ]
+        },
+        {
+          "id": "capacete_de_sutton_hoo",
+          "nome": "Capacete de Sutton Hoo",
+          "descricao": "Capacete anglo-saxão decorado, achado em 1939 no sepultamento em navio de Sutton Hoo, na Inglaterra, do início do século sete.",
+          "variantes": [
+            "Sutton Hoo helmet",
+            "Elmo de Sutton Hoo"
+          ]
+        },
+        {
+          "id": "cascavel",
+          "nome": "Cascavel",
+          "descricao": "Serpente peçonhenta das Américas, do gênero Crotalus, com um chocalho na ponta da cauda.",
+          "variantes": [
+            "Crotalus",
+            "Cascavel-sul-americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Espada (esgrima)",
+        "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+        "variantes": [
+          "Épée",
+          "Espada de esgrima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pele",
+          "nome": "Pelé",
+          "descricao": "Edson Arantes do Nascimento, tricampeão mundial pela seleção brasileira.",
+          "variantes": []
+        },
+        {
+          "id": "pele_2",
+          "nome": "Pele",
+          "descricao": "Órgão que recobre todo o corpo humano e o protege do ambiente.",
+          "variantes": [
+            "Skin",
+            "Cútis"
+          ]
+        },
+        {
+          "id": "quadra_de_grama",
+          "nome": "Quadra de grama",
+          "descricao": "Tipo de quadra de tênis com superfície de grama, a original do lawn tennis.",
+          "variantes": [
+            "Grass court",
+            "Quadra de relva"
+          ]
+        },
+        {
+          "id": "estrada_de_ferro_maua",
+          "nome": "Estrada de Ferro Mauá",
+          "descricao": "Primeira ferrovia do Brasil, construída por Irineu Evangelista de Sousa entre o porto de Mauá e Fragoso, no Rio de Janeiro.",
+          "variantes": [
+            "Imperial Companhia de Navegação a Vapor e Estrada de Ferro Petrópolis"
+          ]
+        },
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é natação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Skeleton (esporte) difere das candidatas, como esqueleto humano."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Faixa preta de artes marciais não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Kitesurfe é um esporte distinto do surfe e do skate."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kabaddi não corresponde a nenhuma candidata; Kabuki é teatro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Raquete de tênis de mesa é objeto distinto da raquete de beach tennis e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O capacete é um objeto diferente do esporte futebol americano."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A espada é uma arma da esgrima, parte dela, não o esporte inteiro."
+    }
+  ]
+}
