@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; resposta sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista que entregue a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Menciona uma raquete vermelha de cordas que não consta em mostra, então não dá para verificar. A descrição 'perfurada' e as cores também entregam ou não podem ser confirmadas. Padel também usa raquete perfurada sem cordas, e Frescobol é a origem do esporte. Reescrita com época e país como pista, e distratores sem ambiguidade.",
+      "reescrita": {
+        "pergunta": "Que esporte, aperfeiçoado na Itália nos anos mil novecentos e oitenta, usa esta raquete?",
+        "resposta": "Beach tennis",
+        "distratores": [
+          "Squash",
+          "Tênis de mesa",
+          "Badminton"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bastão longo' e 'Okinawa' descrevem a resposta, então a figura vira enfeite. O nível 3 também não pede nenhum fato além do reconhecimento. Reescrita como reconhecimento com distratores de outras armas.",
+      "reescrita": {
+        "pergunta": "Que arma das artes marciais é esta?",
+        "resposta": "Bō",
+        "distratores": [
+          "Tonfa",
+          "Nunchaku",
+          "Sai"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento simples e emblemático, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista, com distratores plausíveis de taco e bola ou de bola em campo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Disputado entre Argentina e Brasil' não aparece em mostra e não pode ser confirmado na figura. Reescrita sem essa afirmação.",
+      "reescrita": {
+        "pergunta": "Que esporte de quadra é este?",
+        "resposta": "Futsal",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; 'argolas' não aparece no enunciado.",
+      "reescrita": null
+    }
+  ]
+}

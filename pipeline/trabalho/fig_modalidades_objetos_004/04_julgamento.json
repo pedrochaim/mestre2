@@ -1,0 +1,492 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Halter",
+        "descricao": "Equipamento de musculação com duas anilhas ligadas por uma barra curta, usado com uma mão.",
+        "variantes": [
+          "Haltere",
+          "Dumbbell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        },
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        },
+        {
+          "id": "adolf_hitler",
+          "nome": "Adolf Hitler",
+          "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+          "variantes": [
+            "Hitler"
+          ]
+        },
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        },
+        {
+          "id": "harlem",
+          "nome": "Harlem",
+          "descricao": "Bairro do norte de Manhattan, em Nova York, berço da Renascença do Harlem.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Boxe",
+        "descricao": "Esporte de combate em que dois oponentes trocam socos usando luvas.",
+        "variantes": [
+          "Boxe olímpico",
+          "Pugilismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gol_olimpico",
+          "nome": "Gol olímpico",
+          "descricao": "Gol marcado diretamente de cobrança de escanteio, sem que outro jogador toque na bola.",
+          "variantes": [
+            "Olympic goal"
+          ]
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "oboe",
+          "nome": "Oboé",
+          "descricao": "Instrumento de sopro de palheta dupla da família das madeiras.",
+          "variantes": []
+        },
+        {
+          "id": "monte_olimpo",
+          "nome": "Monte Olimpo",
+          "descricao": "Enorme vulcão-escudo marciano, um dos maiores vulcões conhecidos do Sistema Solar.",
+          "variantes": [
+            "Olympus Mons"
+          ]
+        },
+        {
+          "id": "aneis_olimpicos",
+          "nome": "Anéis olímpicos",
+          "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+          "variantes": [
+            "Cinco anéis",
+            "Olympic rings",
+            "Bandeira olímpica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Raquete de beach tennis",
+        "descricao": "Raquete sem cordas, perfurada, de material composto, usada no beach tennis.",
+        "variantes": [
+          "Beach tennis",
+          "Raquete de tênis de praia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jeu_de_paume",
+          "nome": "Jeu de paume",
+          "descricao": "Jogo de bola francês, ancestral do tênis, jogado originalmente com a mão e depois com raquete em quadras fechadas.",
+          "variantes": [
+            "Jogo da pela",
+            "Real tennis",
+            "Tênis real"
+          ]
+        },
+        {
+          "id": "bagel_tenis",
+          "nome": "Bagel (tênis)",
+          "descricao": "Gíria do tênis em inglês para um set vencido por seis games a zero.",
+          "variantes": [
+            "Bagel"
+          ]
+        },
+        {
+          "id": "tenis_em_cadeira_de_rodas",
+          "nome": "Tênis em cadeira de rodas",
+          "descricao": "Modalidade de tênis adaptada para usuários de cadeira de rodas, em que a bola pode quicar duas vezes.",
+          "variantes": [
+            "Wheelchair tennis"
+          ]
+        },
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": []
+        },
+        {
+          "id": "muriqui",
+          "nome": "Muriqui",
+          "descricao": "Primata do gênero Brachyteles, endêmico da Mata Atlântica brasileira.",
+          "variantes": [
+            "Brachyteles",
+            "Mono-carvoeiro",
+            "Woolly spider monkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bō",
+        "descricao": "Bastão longo de cerca de um metro e oitenta usado em artes marciais de Okinawa e do Japão.",
+        "variantes": [
+          "Rokushakubō"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boliviano",
+          "nome": "Boliviano",
+          "descricao": "Moeda oficial da Bolívia.",
+          "variantes": [
+            "Boliviano (moeda)",
+            "BOB"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bola de basquete",
+        "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+        "variantes": [
+          "Basketball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático"
+          ]
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": []
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Beisebol",
+        "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+        "variantes": [
+          "Basebol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        },
+        {
+          "id": "absol",
+          "nome": "Absol",
+          "descricao": "Pokémon do tipo Sombrio, número 359 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "luva_de_beisebol",
+          "nome": "Luva de beisebol",
+          "descricao": "Luva de couro usada para apanhar a bola no beisebol.",
+          "variantes": []
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "luis_xiv",
+          "nome": "Luís XIV",
+          "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+          "variantes": [
+            "Rei Sol",
+            "Louis XIV"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Futsal",
+        "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+        "variantes": [
+          "Futebol de salão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "hawk_eye",
+          "nome": "Hawk-Eye",
+          "descricao": "Sistema eletrônico de rastreamento da bola usado para revisar marcações de linha no tênis e em outros esportes.",
+          "variantes": [
+            "Olho de Falcão"
+          ]
+        },
+        {
+          "id": "futebol_americano",
+          "nome": "Futebol americano",
+          "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+          "variantes": [
+            "Gridiron",
+            "Football americano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Argolas",
+        "descricao": "Aparelho da ginástica artística masculina com dois anéis suspensos por cabos.",
+        "variantes": [
+          "Argolas fixas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "ra_golias",
+          "nome": "Rã-golias",
+          "descricao": "Rã africana (Conraua goliath) de rios de Camarões e da Guiné Equatorial.",
+          "variantes": [
+            "Conraua goliath"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é halter/haltere."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o esporte boxe."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Raquete de beach tennis não consta; candidatas são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bō (bastão) não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bola de basquete é distinta de tabela, bola de tênis etc."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Beisebol (esporte) difere de boné e luva de beisebol."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Futsal é distinto do futebol de areia e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Argolas (aparelho) não consta entre as candidatas."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Objeto claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento de musculação é este?",
+      "resposta": "Halter",
+      "destino": 1,
+      "ancora": {
+        "nome": "Halter",
+        "descricao": "Equipamento de musculação com duas anilhas ligadas por uma barra curta, usado com uma mão.",
+        "variantes": [
+          "Haltere",
+          "Dumbbell"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aterrissagem na caixa de areia pode ser salto em distância ou salto triplo; resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O pergaminho ao fundo traz a caligrafia japonesa de 'aikidô', texto que entrega a resposta; além disso, os praticantes são pessoas comuns."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Luta de boxe evidente, luvas e luzes; nomes nos calções não entregam a modalidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte de combate é este?",
+      "resposta": "Boxe",
+      "destino": 2,
+      "ancora": {
+        "nome": "Boxe",
+        "descricao": "Esporte de combate em que dois oponentes trocam socos usando luvas.",
+        "variantes": [
+          "Boxe olímpico",
+          "Pugilismo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Raquete de beach tennis sobre a areia ao lado de raquete de tênis; boa para distinguir.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte usa a raquete azul perfurada, e não a vermelha de cordas?",
+      "resposta": "Beach tennis",
+      "distratores": [
+        "Frescobol",
+        "Squash",
+        "Tênis de mesa"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Raquete de beach tennis",
+        "descricao": "Raquete sem cordas, perfurada, de material composto, usada no beach tennis.",
+        "variantes": [
+          "Raquete de tênis de praia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bastão longo em frente a uma figura humana dá noção de escala; reconhecível como bō.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que arma das artes marciais de Okinawa é este bastão longo?",
+      "resposta": "Bō",
+      "distratores": [
+        "Tonfa",
+        "Nunchaku",
+        "Sai"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Bō",
+        "descricao": "Bastão longo de cerca de um metro e oitenta usado em artes marciais de Okinawa e do Japão.",
+        "variantes": [
+          "Rokushakubō",
+          "Bo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bola de basquete nítida, sem texto legível que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bola esportiva é esta?",
+      "resposta": "Bola de basquete",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bola de basquete",
+        "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+        "variantes": [
+          "Basketball"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem é o afresco da Tumba do Mergulhador de Paestum, uma obra de arte antiga; não é um bom exemplo de saltos ornamentais e a âncora seria ambígua."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O lutador segura a perna do oponente, golpe proibido na greco-romana; parece luta livre, e as pessoas ao fundo são comuns."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arremessador de beisebol em ação, claro; texto da camisa não entrega a modalidade.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte coletivo é este?",
+      "resposta": "Beisebol",
+      "distratores": [
+        "Críquete",
+        "Futebol americano",
+        "Hóquei na grama"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Beisebol",
+        "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+        "variantes": [
+          "Basebol"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Partida de futsal com bola e quadra característica; texto do painel não entrega.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é este, disputado entre Argentina e Brasil?",
+      "resposta": "Futsal",
+      "destino": 3,
+      "ancora": {
+        "nome": "Futsal",
+        "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+        "variantes": [
+          "Futebol de salão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ginasta nas argolas, aparelho evidente e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho da ginástica artística é este?",
+      "resposta": "Argolas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Argolas",
+        "descricao": "Aparelho da ginástica artística masculina com dois anéis suspensos por cabos.",
+        "variantes": [
+          "Argolas fixas"
+        ]
+      }
+    }
+  ]
+}
