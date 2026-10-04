@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A etiqueta com o sobrenome ARMSTRONG aparece legível no traje e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara de uma galáxia em anel, sem texto, reconhecível pela forma.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de galáxia, de forma tão rara, é esta?",
+      "resposta": "Galáxia em anel",
+      "distratores": [
+        "Galáxia espiral barrada",
+        "Galáxia elíptica",
+        "Galáxia irregular"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Objeto de Hoag",
+        "descricao": "Galáxia em anel na constelação da Serpente (Serpens Caput), com núcleo amarelo cercado por um anel azul de estrelas.",
+        "variantes": [
+          "Hoag's Object",
+          "Objeto de Hoag"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida do lançamento de um Saturn V, sem texto que revele o nome; o foguete é inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que foguete é este?",
+      "resposta": "Saturn V",
+      "destino": 0,
+      "ancora": {
+        "nome": "Saturn V",
+        "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+        "variantes": [
+          "Saturno V",
+          "Saturn 5"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esfera alaranjada coberta de névoa, característica de Titã; em múltipla escolha com outras luas a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua é esta, vista por completo?",
+      "resposta": "Titã",
+      "distratores": [
+        "Io",
+        "Europa",
+        "Encélado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Titã",
+        "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+        "variantes": [
+          "Titan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida do prato e da plataforma suspensa, característicos de Arecibo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que radiotelescópio é este?",
+      "resposta": "Radiotelescópio de Arecibo",
+      "distratores": [
+        "Radiotelescópio FAST",
+        "Telescópio de Parkes",
+        "Telescópio de Green Bank"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Radiotelescópio de Arecibo",
+        "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+        "variantes": [
+          "Telescópio de Arecibo",
+          "Arecibo Telescope",
+          "Observatório de Arecibo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato histórico de figura pública, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cosmonauta soviético é este?",
+      "resposta": "Yuri Gagarin",
+      "destino": 0,
+      "ancora": {
+        "nome": "Yuri Gagarin",
+        "descricao": "Cosmonauta soviético, primeiro ser humano a viajar ao espaço, em 1961.",
+        "variantes": [
+          "Iuri Gagarin",
+          "Yuri Alekseyevich Gagarin"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da estação com módulos e painéis solares, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estação espacial é esta?",
+      "resposta": "Mir",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estação Espacial Mir",
+        "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+        "variantes": [
+          "Mir",
+          "Estação Mir"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há uma assinatura/marca d'água com o nome do autor (Giuseppe Donatiello) na imagem, e a nebulosa é difícil de reconhecer com certeza."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem composta (óptico e raios X) bem característica da Nebulosa Olho de Gato, sem texto; múltipla escolha deixa a resposta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nebulosa é esta?",
+      "resposta": "Nebulosa Olho de Gato",
+      "distratores": [
+        "Nebulosa de Órion",
+        "Nebulosa da Hélice",
+        "Nebulosa do Caranguejo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Olho de Gato",
+        "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão, de estrutura concêntrica complexa.",
+        "variantes": [
+          "NGC 6543",
+          "Cat's Eye Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do módulo lunar na superfície da Lua; o astronauta está de costas e o único texto é irrelevante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que veículo espacial é este?",
+      "resposta": "Módulo lunar",
+      "distratores": [
+        "Módulo de comando",
+        "Jipe lunar",
+        "Cápsula Soyuz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Módulo lunar Apollo",
+        "descricao": "Nave de pouso de dois estágios do programa Apollo, que levou astronautas da órbita lunar à superfície da Lua.",
+        "variantes": [
+          "Módulo Lunar",
+          "LEM",
+          "Lunar Module",
+          "Módulo de excursão lunar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem nítida da Voyager 2 mostrando a superfície característica de Tritão, sem texto; a pergunta não depende de reconhecer o nome pelo enunciado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em torno de que planeta gira esta lua?",
+      "resposta": "Netuno",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tritão",
+        "descricao": "Maior lua de Netuno, com órbita retrógrada e provável origem no cinturão de Kuiper.",
+        "variantes": [
+          "Triton"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma Lua nova quase toda preta, com texto de data visível, e não é legível num celular nem reconhecível como fase."
+    }
+  ]
+}

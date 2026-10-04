@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Objeto de Hoag",
+        "descricao": "Galáxia em anel na constelação da Serpente (Serpens Caput), com núcleo amarelo cercado por um anel azul de estrelas.",
+        "variantes": [
+          "Hoag's Object"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "thomas_hobbes",
+          "nome": "Thomas Hobbes",
+          "descricao": "Filósofo político inglês (1588–1679), autor de Leviatã.",
+          "variantes": [
+            "Hobbes"
+          ]
+        },
+        {
+          "id": "santo_agostinho",
+          "nome": "Santo Agostinho",
+          "descricao": "Filósofo e bispo cristão (354–430), autor de Confissões e A Cidade de Deus.",
+          "variantes": [
+            "Agostinho de Hipona",
+            "Augustine of Hippo"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "doenca_de_chagas",
+          "nome": "Doença de Chagas",
+          "descricao": "Doença parasitária causada pelo Trypanosoma cruzi, descrita por Carlos Chagas em 1909.",
+          "variantes": [
+            "Tripanossomíase americana",
+            "Chagas disease"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Saturn V",
+        "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+        "variantes": [
+          "Foguete",
+          "Saturno V",
+          "Saturn 5"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        },
+        {
+          "id": "saturnalia_tupiniquim",
+          "nome": "Saturnalia tupiniquim",
+          "descricao": "Dinossauro primitivo do Triássico encontrado no Rio Grande do Sul e descrito em 1999.",
+          "variantes": [
+            "Saturnalia"
+          ]
+        },
+        {
+          "id": "vogue",
+          "nome": "Vogue",
+          "descricao": "Revista de moda e estilo fundada em 1892, publicada pela Condé Nast",
+          "variantes": [
+            "Revista Vogue"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Titã",
+        "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+        "variantes": [
+          "Titan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        },
+        {
+          "id": "titanic",
+          "nome": "Titanic",
+          "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+          "variantes": [
+            "Titanic (1997)"
+          ]
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "bhagavad_gita",
+          "nome": "Bhagavad Gita",
+          "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata.",
+          "variantes": [
+            "Gita"
+          ]
+        },
+        {
+          "id": "tintim",
+          "nome": "Tintim",
+          "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+          "variantes": [
+            "Tintin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Radiotelescópio de Arecibo",
+        "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+        "variantes": [
+          "Telescópio de Arecibo",
+          "Arecibo Telescope",
+          "Observatório de Arecibo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "very_large_telescope",
+          "nome": "Very Large Telescope",
+          "descricao": "Observatório do ESO em Cerro Paranal, no deserto do Atacama, com quatro telescópios de 8,2 metros.",
+          "variantes": [
+            "VLT",
+            "Telescópio Muito Grande"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Yuri Gagarin",
+        "descricao": "Cosmonauta soviético, primeiro ser humano a viajar ao espaço, em 1961.",
+        "variantes": [
+          "Iuri Gagarin",
+          "Yuri Alekseyevich Gagarin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_niagara",
+          "nome": "Rio Niágara",
+          "descricao": "Rio curto da fronteira entre Estados Unidos e Canadá, onde ficam as Cataratas do Niágara.",
+          "variantes": [
+            "Niagara River",
+            "Niágara"
+          ]
+        },
+        {
+          "id": "furacao_catarina",
+          "nome": "Furacão Catarina",
+          "descricao": "Raro furacão do Atlântico Sul que atingiu o litoral de Santa Catarina e do Rio Grande do Sul",
+          "variantes": [
+            "Ciclone Catarina",
+            "Hurricane Catarina"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estação Espacial Mir",
+        "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+        "variantes": [
+          "Mir",
+          "Estação Mir"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "menir",
+          "nome": "Menir",
+          "descricao": "Grande bloco de pedra fincado verticalmente no chão na Pré-História.",
+          "variantes": [
+            "Menhir"
+          ]
+        },
+        {
+          "id": "wlamir_marques",
+          "nome": "Wlamir Marques",
+          "descricao": "Ala brasileiro de basquete, bicampeão mundial com a seleção em 1959 e 1963.",
+          "variantes": [
+            "Wlamir"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nebulosa Olho de Gato",
+        "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão, de estrutura concêntrica complexa.",
+        "variantes": [
+          "Nebulosa",
+          "NGC 6543",
+          "Cat's Eye Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Módulo lunar Apollo",
+        "descricao": "Nave de pouso de dois estágios do programa Apollo, que levou astronautas da órbita lunar à superfície da Lua.",
+        "variantes": [
+          "Módulo Lunar",
+          "LEM",
+          "Lunar Module",
+          "Módulo de excursão lunar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        },
+        {
+          "id": "harlem",
+          "nome": "Harlem",
+          "descricao": "Bairro do norte de Manhattan, em Nova York, berço da Renascença do Harlem.",
+          "variantes": []
+        },
+        {
+          "id": "grande_nuvem_de_magalhaes",
+          "nome": "Grande Nuvem de Magalhães",
+          "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+          "variantes": [
+            "LMC",
+            "Large Magellanic Cloud",
+            "Nuvem Maior de Magalhães"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tritão",
+        "descricao": "Maior lua de Netuno, com órbita retrógrada e provável origem no cinturão de Kuiper.",
+        "variantes": [
+          "Triton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        },
+        {
+          "id": "tricornio",
+          "nome": "Tricórnio",
+          "descricao": "Chapéu de feltro com a aba virada para cima em três lados, formando um triângulo, popular na Europa no século dezoito.",
+          "variantes": [
+            "Tricorne",
+            "Chapéu de três pontas",
+            "Cocked hat"
+          ]
+        },
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Galáxia em anel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Foguete Saturn V é distinto do planeta Saturno e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Lua Titã não corresponde a nenhuma candidata (Titanic é navio/filme)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arecibo é um radiotelescópio específico; candidatas são outros instrumentos ou o VLT."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pessoa sem correspondência entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mir é estação diferente da ISS."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "motivo": "Mesma nebulosa planetária NGC 6543, apenas variação de nome.",
+      "id_existente": "nebulosa_do_olho_de_gato"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Módulo lunar Apollo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lua de Netuno sem correspondência entre as candidatas."
+    }
+  ]
+}

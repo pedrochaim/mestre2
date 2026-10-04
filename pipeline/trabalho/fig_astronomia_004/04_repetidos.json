@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que nebulosa é esta?",
+        "resposta": "Nebulosa Olho de Gato"
+      },
+      "existentes": [
+        {
+          "id": "q01218",
+          "pergunta": "Que astrônomo inglês foi o primeiro a analisar o espectro desta nebulosa, mostrando que ela era feita de gás?",
+          "resposta": "William Huggins"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da nebulosa (Olho de Gato); a existente pede quem analisou seu espectro (William Huggins). São fatos diferentes."
+    }
+  ]
+}
