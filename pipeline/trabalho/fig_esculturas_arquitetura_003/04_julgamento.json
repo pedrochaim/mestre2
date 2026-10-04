@@ -1,0 +1,693 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Centro de artes cênicas na orla do porto de Sydney, Austrália, famoso pelas cascas brancas do teto.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "cachoeira_de_sangue",
+          "nome": "Cachoeira de Sangue",
+          "descricao": "Afloramento de água salgada avermelhada na geleira Taylor, nos Vales Secos de McMurdo, na Antártida.",
+          "variantes": [
+            "Blood Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Atomium",
+        "descricao": "Monumento de nove esferas de aço em Bruxelas, construído para a Expo 58.",
+        "variantes": [
+          "Atomium de Bruxelas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atomium",
+          "nome": "Atomium",
+          "descricao": "Monumento de aço com nove esferas, construído em Bruxelas para a Exposição Universal de 1958.",
+          "variantes": []
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "vassoura_de_bruxa",
+          "nome": "Vassoura-de-bruxa",
+          "descricao": "Doença do cacaueiro causada pelo fungo Moniliophthora perniciosa",
+          "variantes": [
+            "Moniliophthora perniciosa",
+            "Crinipellis perniciosa",
+            "witches' broom"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Hércules Farnese",
+        "descricao": "Estátua romana em mármore de Hércules em repouso, cópia de um original grego, no Museu Arqueológico de Nápoles.",
+        "variantes": [
+          "Hércules Farnésio",
+          "Farnese Hercules",
+          "Ercole Farnese"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hercule_florence",
+          "nome": "Hercule Florence",
+          "descricao": "Inventor e desenhista francês (1804–1879) radicado no Brasil, pioneiro da fotografia no país.",
+          "variantes": [
+            "Antoine Hercule Romuald Florence"
+          ]
+        },
+        {
+          "id": "hercule_poirot",
+          "nome": "Hercule Poirot",
+          "descricao": "Detetive belga, personagem de dezenas de romances policiais de Agatha Christie.",
+          "variantes": [
+            "Poirot"
+          ]
+        },
+        {
+          "id": "sans_culottes",
+          "nome": "Sans-culottes",
+          "descricao": "Revolucionários das camadas populares de Paris durante a Revolução Francesa",
+          "variantes": [
+            "Sans-culotte"
+          ]
+        },
+        {
+          "id": "ossos_oraculares",
+          "nome": "Ossos oraculares",
+          "descricao": "Ossos e cascos de tartaruga usados para adivinhação na China antiga, com os textos mais antigos da escrita chinesa.",
+          "variantes": [
+            "Oracle bones",
+            "Jiaguwen"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "vestido_de_noiva_branco",
+          "nome": "Vestido de noiva branco",
+          "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
+          "variantes": [
+            "White wedding",
+            "Casamento branco",
+            "White wedding dress"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "El Castillo (Chichén Itzá)",
+        "descricao": "Pirâmide escalonada maia, o Templo de Kukulcán, no sítio arqueológico de Chichén Itzá, em Yucatán.",
+        "variantes": [
+          "Chichén Itzá (El Castillo)",
+          "Templo de Kukulcán",
+          "El Castillo",
+          "Pirâmide de Kukulcán"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "piramide_de_kukulcan",
+          "nome": "Pirâmide de Kukulcán",
+          "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+          "variantes": [
+            "El Castillo",
+            "Templo de Kukulcán"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "fidel_castro",
+          "nome": "Fidel Castro",
+          "descricao": "Líder revolucionário cubano que governou Cuba de 1959 a 2011.",
+          "variantes": [
+            "Fidel Alejandro Castro Ruz"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "O Beijo (Rodin)",
+        "descricao": "Escultura de um casal nu abraçado, feita por Auguste Rodin em 1882.",
+        "variantes": [
+          "Le Baiser",
+          "The Kiss"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_beijo_klimt",
+          "nome": "O Beijo (Klimt)",
+          "descricao": "Quadro de Gustav Klimt, de 1908, com folhas de ouro.",
+          "variantes": [
+            "The Kiss"
+          ]
+        },
+        {
+          "id": "o_beijo_hayez",
+          "nome": "O Beijo (Hayez)",
+          "descricao": "Pintura de 1859 de Francesco Hayez, do Romantismo italiano, que mostra um casal se beijando, guardada na Pinacoteca di Brera.",
+          "variantes": [
+            "Il bacio",
+            "The Kiss (Hayez)"
+          ]
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser"
+          ]
+        },
+        {
+          "id": "as_cinzas_criquete",
+          "nome": "As Cinzas (críquete)",
+          "descricao": "Série de partidas de críquete disputada entre Inglaterra e Austrália desde 1882.",
+          "variantes": [
+            "The Ashes"
+          ]
+        },
+        {
+          "id": "os_simpsons",
+          "nome": "Os Simpsons",
+          "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+          "variantes": [
+            "The Simpsons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Torre de Belém",
+        "descricao": "Fortificação manuelina do século dezesseis às margens do Tejo, em Lisboa.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "a_torre_de_babel_bruegel",
+          "nome": "A Torre de Babel (Bruegel)",
+          "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+          "variantes": [
+            "Grande Torre de Babel",
+            "The Tower of Babel",
+            "Torre de Babel de Viena"
+          ]
+        },
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "corrida_de_sao_silvestre",
+          "nome": "Corrida de São Silvestre",
+          "descricao": "Corrida de rua disputada em São Paulo todo 31 de dezembro, desde 1925.",
+          "variantes": [
+            "Corrida Internacional de São Silvestre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Big Ben",
+        "descricao": "Torre do relógio do Palácio de Westminster, em Londres, também chamada Torre Elizabeth.",
+        "variantes": [
+          "Torre Elizabeth",
+          "Elizabeth Tower",
+          "Relógio de Westminster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        },
+        {
+          "id": "elizabeth_i",
+          "nome": "Elizabeth I",
+          "descricao": "Rainha da Inglaterra de 1558 a 1603, última monarca da dinastia Tudor.",
+          "variantes": [
+            "Isabel I",
+            "Elizabeth I da Inglaterra",
+            "Rainha Virgem",
+            "Isabel I da Inglaterra"
+          ]
+        },
+        {
+          "id": "grande_berta",
+          "nome": "Grande Berta",
+          "descricao": "Obus pesado alemão de 420 milímetros fabricado pela Krupp e usado contra as fortalezas belgas e francesas na Primeira Guerra Mundial.",
+          "variantes": [
+            "Big Bertha",
+            "Dicke Bertha"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "montanha_da_mesa",
+          "nome": "Montanha da Mesa",
+          "descricao": "Montanha de topo plano que domina a paisagem da Cidade do Cabo, na África do Sul.",
+          "variantes": [
+            "Table Mountain",
+            "Tafelberg"
+          ]
+        },
+        {
+          "id": "fonte_dos_quatro_rios",
+          "nome": "Fonte dos Quatro Rios",
+          "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+          "variantes": [
+            "Fontana dei Quattro Fiumi"
+          ]
+        },
+        {
+          "id": "just_fontaine",
+          "nome": "Just Fontaine",
+          "descricao": "Atacante francês nascido no Marrocos, artilheiro da Copa do Mundo de 1958.",
+          "variantes": [
+            "Justo Fontaine"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bronze de Artemísio",
+        "descricao": "Estátua grega em bronze de Zeus ou Poseidon, achada no mar do cabo Artemísio e hoje no Museu Arqueológico Nacional de Atenas.",
+        "variantes": [
+          "Deus do Cabo Artemísio",
+          "Zeus de Artemísio",
+          "Artemision Bronze"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "rene_descartes",
+          "nome": "René Descartes",
+          "descricao": "Filósofo e matemático francês (1596–1650), autor de Discurso do Método.",
+          "variantes": [
+            "Descartes",
+            "Renatus Cartesius"
+          ]
+        },
+        {
+          "id": "irmas_bronte",
+          "nome": "Irmãs Brontë",
+          "descricao": "Charlotte, Emily e Anne Brontë, escritoras inglesas do século dezenove, autoras de Jane Eyre e O Morro dos Ventos Uivantes.",
+          "variantes": [
+            "Brontë sisters",
+            "Família Brontë"
+          ]
+        },
+        {
+          "id": "fogos_de_artificio",
+          "nome": "Fogos de artifício",
+          "descricao": "Artefatos pirotécnicos que explodem em luzes coloridas, cujas cores vêm de sais metálicos.",
+          "variantes": [
+            "Fireworks"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "opera_de_sydney",
+      "motivo": "Mesma casa de espetáculos em Sydney."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "atomium",
+      "motivo": "Mesmo monumento em Bruxelas, Expo 58."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estátua Hércules Farnese não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Casa Branca."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "piramide_de_kukulcan",
+      "motivo": "Mesma pirâmide El Castillo/Kukulcán; Chichén Itzá é a cidade, entidade distinta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Escultura de Rodin difere das pinturas de Klimt e Hayez."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Catedral de Brasília não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "torre_de_belem",
+      "motivo": "Mesma fortificação à beira do Tejo em Lisboa."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "big_ben",
+      "motivo": "Big Ben, com apelido estendido à torre Elizabeth; mesma entidade cadastrada."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "fontana_di_trevi",
+      "motivo": "Mesma fonte barroca de Trevi."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Bronze de Artemísio."
+    }
+  ]
+}

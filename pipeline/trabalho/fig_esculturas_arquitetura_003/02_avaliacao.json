@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ópera de Sydney bem reconhecível, sem texto relevante.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este edifício?",
+      "resposta": "Jørn Utzon",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Frank Gehry",
+        "Renzo Piano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Centro de artes cênicas na orla do porto de Sydney, Austrália, famoso pelas cascas brancas do teto.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Atomium nítido; a bandeira pequena não entrega a pergunta sobre o cristal.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta estrutura representa a ampliação de um cristal de qual metal?",
+      "resposta": "Ferro",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Atomium",
+        "descricao": "Monumento de nove esferas de aço em Bruxelas, construído para a Expo 58.",
+        "variantes": [
+          "Atomium de Bruxelas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estátua clara, reconhecível pela pele de leão e pela clava.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que herói da mitologia esta estátua representa?",
+      "resposta": "Hércules",
+      "distratores": [
+        "Perseu",
+        "Teseu",
+        "Aquiles"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Hércules Farnese",
+        "descricao": "Estátua romana em mármore de Hércules em repouso, cópia de um original grego, no Museu Arqueológico de Nápoles.",
+        "variantes": [
+          "Hércules Farnésio",
+          "Farnese Hercules",
+          "Ercole Farnese"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada sul da Casa Branca reconhecível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estilo arquitetônico tem este edifício, projetado por um arquiteto irlandês?",
+      "resposta": "Neoclássico",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "El Castillo nítido e inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta pirâmide em degraus?",
+      "resposta": "México",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "El Castillo (Chichén Itzá)",
+        "descricao": "Pirâmide escalonada maia, o Templo de Kukulcán, no sítio arqueológico de Chichén Itzá, em Yucatán.",
+        "variantes": [
+          "Templo de Kukulcán",
+          "El Castillo",
+          "Pirâmide de Kukulcán"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Escultura clara; pergunta pelo autor, evitando a ambiguidade de versões e museus.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escultor francês criou esta obra?",
+      "resposta": "Auguste Rodin",
+      "distratores": [
+        "Camille Claudel",
+        "Antonio Canova",
+        "Aristide Maillol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Beijo (Rodin)",
+        "descricao": "Escultura de um casal nu abraçado, feita por Auguste Rodin em 1882.",
+        "variantes": [
+          "Le Baiser",
+          "The Kiss"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Catedral nítida e inconfundível; a pichação no bloco é ilegível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto projetou esta catedral?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torre de Belém nítida, estilo manuelino evidente.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico predomina nesta torre do século dezesseis?",
+      "resposta": "Manuelino",
+      "distratores": [
+        "Barroco",
+        "Românico",
+        "Neoclássico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torre de Belém",
+        "descricao": "Fortificação manuelina do século dezesseis às margens do Tejo, em Lisboa.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Os toldos vermelhos no térreo trazem escrito \"CASA BATLLÓ\", texto visível que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre do relógio nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa torre de relógio é esta?",
+      "resposta": "Big Ben (Torre Elizabeth)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Big Ben",
+        "descricao": "Torre do relógio do Palácio de Westminster, em Londres, também chamada Torre Elizabeth.",
+        "variantes": [
+          "Torre Elizabeth",
+          "Elizabeth Tower",
+          "Relógio de Westminster"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fontana di Trevi clara; a inscrição em latim não entrega o autor.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta fonte barroca?",
+      "resposta": "Nicola Salvi",
+      "distratores": [
+        "Gian Lorenzo Bernini",
+        "Francesco Borromini",
+        "Luigi Vanvitelli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua nítida; Zeus/Poseidon é ambíguo, então a pergunta é pelo material.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que material é feita esta estátua grega, recuperada do fundo do mar?",
+      "resposta": "Bronze",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bronze de Artemísio",
+        "descricao": "Estátua grega em bronze de Zeus ou Poseidon, achada no mar do cabo Artemísio e hoje no Museu Arqueológico Nacional de Atenas.",
+        "variantes": [
+          "Deus do Cabo Artemísio",
+          "Zeus de Artemísio",
+          "Artemision Bronze"
+        ]
+      }
+    }
+  ]
+}

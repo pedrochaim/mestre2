@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria por Utzon confirmada nos trechos; distratores são arquitetos famosos, nenhum projetou o edifício.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que as esferas representam um cristal de ferro. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estátua representa Hércules, como dizem os trechos. O enunciado não nomeia a figura e os distratores são heróis que não cabem na imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de James Hoban, irlandês, em estilo neoclássico, confirmado. 'Arquiteto irlandês' ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fica no estado mexicano de Yucatán. A figura é necessária para reconhecer a pirâmide.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escultura de Auguste Rodin, escultor francês, confirmada. Camille Claudel, Canova e Maillol não criaram esta obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Oscar Niemeyer confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A torre é predominantemente manuelina e do século dezesseis, conforme os trechos. Os distratores são estilos de outras épocas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome Big Ben e o nome oficial Torre Elizabeth estão nos trechos. A parentética é apropriada, porque os dois nomes valem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Nicola Salvi, em estilo barroco, confirmado. Distratores são arquitetos italianos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Estátua grega achada no mar: dá para chutar bronze sem ver a imagem. A figura vira enfeite. A reescrita pede um fato que exige reconhecer a estátua: a ilha ao largo da qual foi achada, Eubeia.",
+      "reescrita": {
+        "pergunta": "Esta estátua grega de bronze foi recuperada do mar, perto do cabo Artemísio, ao norte de qual ilha grega?",
+        "resposta": "Eubeia",
+        "distratores": [
+          "Creta",
+          "Rodes",
+          "Naxos"
+        ]
+      }
+    }
+  ]
+}

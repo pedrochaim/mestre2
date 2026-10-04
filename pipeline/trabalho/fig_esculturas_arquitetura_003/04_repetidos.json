@@ -1,0 +1,128 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este edifício?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta estrutura representa a ampliação de um cristal de qual metal?",
+        "resposta": "Ferro"
+      },
+      "existentes": [
+        {
+          "id": "q02040",
+          "pergunta": "As nove esferas do Atomium, em Bruxelas, representam a estrutura ampliada de um cristal de qual metal?",
+          "resposta": "Ferro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica esta pirâmide em degraus?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q03520",
+          "pergunta": "Somando as quatro escadarias e o degrau da plataforma do topo, quantos degraus tem a pirâmide de Kukulcán, em Chichén Itzá?",
+          "resposta": "365"
+        },
+        {
+          "id": "q03521",
+          "pergunta": "Nos equinócios, a luz do fim da tarde na escadaria da pirâmide de Kukulcán cria a ilusão de que animal descendo?",
+          "resposta": "Serpente"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico predomina nesta torre do século dezesseis?",
+        "resposta": "Manuelino"
+      },
+      "existentes": [
+        {
+          "id": "q02022",
+          "pergunta": "A Torre de Belém e o vizinho Mosteiro dos Jerônimos, em Lisboa, compartilham qual estilo arquitetônico, batizado em homenagem a um rei?",
+          "resposta": "Manuelino"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que famosa torre de relógio é esta?",
+        "resposta": "Big Ben (Torre Elizabeth)"
+      },
+      "existentes": [
+        {
+          "id": "q01997",
+          "pergunta": "Em Londres, o apelido Big Ben se refere originalmente a qual parte da famosa torre do relógio?",
+          "resposta": "O grande sino"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta fonte barroca?",
+        "resposta": "Nicola Salvi"
+      },
+      "existentes": [
+        {
+          "id": "q01923",
+          "pergunta": "Em que século foi concluída esta fonte barroca?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o arquiteto da Ópera de Sydney, Jørn Utzon.",
+      "id_existente": "q02028"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o Atomium representa um cristal de ferro.",
+      "id_existente": "q02040"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O país da pirâmide é um fato diferente dos degraus e da serpente."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o estilo manuelino da Torre de Belém.",
+      "id_existente": "q02022"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da torre. A existente pergunta a que parte o apelido Big Ben se refere, que é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O arquiteto e o século de conclusão são fatos diferentes."
+    }
+  ]
+}
