@@ -75788,5 +75788,95 @@
       "autor": "Agência Brasil Fotografias",
       "licenca": "CC BY 2.0"
     }
+  },
+  {
+    "id": "q04492",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "bico_de_bunsen",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho de laboratório é este?",
+    "resposta": "Bico de Bunsen",
+    "distratores": [
+      "Lamparina a álcool",
+      "Maçarico de gás",
+      "Fogareiro de laboratório"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bunsen_burner",
+      "https://pt.wikipedia.org/wiki/Bico_de_Bunsen"
+    ],
+    "imagem": {
+      "arquivo": "q04492.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mechero_Bunsen.jpg",
+      "autor": "Amfeli",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q04493",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "locomotiva_a_vapor",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de locomotiva é esta?",
+    "resposta": "Locomotiva a vapor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steam_locomotive",
+      "https://pt.wikipedia.org/wiki/Locomotiva_a_vapor"
+    ],
+    "imagem": {
+      "arquivo": "q04493.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:3511_-_Hartswater_240481.jpg",
+      "autor": "User:Malcolm Best",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04494",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "sismografo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento científico é este?",
+    "resposta": "Sismógrafo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Seismometer",
+      "https://pt.wikipedia.org/wiki/Sism%C3%B3grafo"
+    ],
+    "imagem": {
+      "arquivo": "q04494.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kinemetrics_seismograph.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04495",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "calculadora",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década este aparelho passou a caber no bolso e se tornou comum nas escolas?",
+    "resposta": "Década de 1970",
+    "distratores": [
+      "Década de 1950",
+      "Década de 1960",
+      "Década de 1990"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Calculator",
+      "https://pt.wikipedia.org/wiki/Calculadora"
+    ],
+    "imagem": {
+      "arquivo": "q04495.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Calculadora_científica_Famaprem_CPC-400.jpg",
+      "autor": "Entalpia2",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

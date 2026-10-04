@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O disco é um Voice-O-Graph (disco de gravação doméstica) com rótulo cheio de texto (marca, endereço, patente) e não parece um disco de vinil comum; a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto limpa, sem texto, de um bico de Bunsen reconhecível. Pergunta de reconhecimento em múltipla escolha com aparelhos de aquecimento parecidos. A família 'quando' não tem data sustentada pelo trecho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de laboratório é este?",
+      "resposta": "Bico de Bunsen",
+      "distratores": [
+        "Lamparina a álcool",
+        "Maçarico de gás",
+        "Fogareiro de laboratório"
+      ],
+      "ancora": {
+        "nome": "Bico de Bunsen",
+        "descricao": "Queimador a gás de laboratório, de chama aberta única, usado para aquecer, esterilizar e fazer combustão.",
+        "variantes": [
+          "Bunsen burner",
+          "Bico de gás"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Galvanômetro de ímã em ferradura, bobina suspensa e escala em arco, sem texto legível. Reconhecível para um aficionado. A pergunta usa o nome dado por Ampère, que o trecho sustenta.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este instrumento de medir corrente elétrica recebeu o nome de um pesquisador italiano da eletricidade. Quem lhe deu esse nome?",
+      "resposta": "André-Marie Ampère",
+      "ancora": {
+        "nome": "Galvanômetro",
+        "descricao": "Instrumento eletromecânico que mede corrente elétrica pela deflexão de um ponteiro ou bobina num campo magnético.",
+        "variantes": [
+          "Galvanometer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Locomotiva a vapor em foto nítida. O texto visível (o nome 'Frieda' e o número) não entrega a resposta. Reconhecimento direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de locomotiva é esta?",
+      "resposta": "Locomotiva a vapor",
+      "ancora": {
+        "nome": "Locomotiva a vapor",
+        "descricao": "Locomotiva que se move pela expansão do vapor produzido ao queimar combustível para aquecer água numa caldeira.",
+        "variantes": [
+          "Maria-fumaça",
+          "Steam locomotive",
+          "Cavalo de ferro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A tela mostra o texto 'The Macintosh Finder' e '512K', o que entrega a resposta e ainda deixa dúvida entre o 128K e o 512K."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma réplica exposta em museu, com legenda à esquerda ('Z3: Erster funktionsfähiger programmgesteuerter Rechenautomat') que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O aparelho traz 'Sony' e 'Walkman II' escritos de forma legível, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sismógrafo de tambor com traçado de sismograma, sem texto que entregue a resposta. A pergunta é de reconhecimento.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento científico é este?",
+      "resposta": "Sismógrafo",
+      "ancora": {
+        "nome": "Sismógrafo",
+        "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+        "variantes": [
+          "Sismômetro",
+          "Seismograph",
+          "Seismometer"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A câmera tem 'Polaroid Land Camera' e 'Supercolor 1000' escritos de forma legível, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É um pôster com o texto 'Cinématographe Lumière' em destaque, o que entrega a resposta. Também não mostra o aparelho."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma tigela de cobre flutuando num pote d'água, um relógio de água persa. Quase ninguém reconheceria isso como clepsidra, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Calculadora científica nítida e legível. A marca 'Famaprem' no topo não entrega a resposta. Pergunta de época sustentada pelo trecho (bolso e escolas nos anos 1970).",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década este aparelho passou a caber no bolso e se tornou comum nas escolas?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1990"
+      ],
+      "ancora": {
+        "nome": "Calculadora",
+        "descricao": "Aparelho eletrônico portátil usado para fazer cálculos, de aritmética básica a matemática avançada; aqui, um modelo científico.",
+        "variantes": [
+          "Calculadora científica",
+          "Calculator"
+        ]
+      }
+    }
+  ]
+}
