@@ -1,0 +1,732 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nigéria",
+        "descricao": "País da África Ocidental, o mais populoso da África, com capital em Abuja.",
+        "variantes": [
+          "Federal Republic of Nigeria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "rio_niagara",
+          "nome": "Rio Niágara",
+          "descricao": "Rio curto da fronteira entre Estados Unidos e Canadá, onde ficam as Cataratas do Niágara.",
+          "variantes": [
+            "Niagara River",
+            "Niágara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Vietnã",
+        "descricao": "País do Sudeste Asiático com capital em Hanói e maior cidade Ho Chi Minh.",
+        "variantes": [
+          "Vietname",
+          "Viet Nam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vietna",
+          "nome": "Vietnã",
+          "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+          "variantes": [
+            "Vietnam",
+            "Viet Nam"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "avicena",
+          "nome": "Avicena",
+          "descricao": "Filósofo e médico persa (c. 980–1037), autor do Cânone da Medicina, nascido perto de Bucara.",
+          "variantes": [
+            "Ibn Sina",
+            "Avicenna"
+          ]
+        },
+        {
+          "id": "tieta_telenovela",
+          "nome": "Tieta (telenovela)",
+          "descricao": "Telenovela brasileira da TV Globo de 1989, inspirada no romance de Jorge Amado e passada em Santana do Agreste.",
+          "variantes": [
+            "Tieta"
+          ]
+        },
+        {
+          "id": "siena",
+          "nome": "Siena",
+          "descricao": "Cidade da Toscana, na Itália, famosa pela Piazza del Campo e pela Torre del Mangia.",
+          "variantes": [
+            "Sienna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Guiné-Bissau",
+        "descricao": "País da África Ocidental, antiga colônia portuguesa, que faz fronteira com Senegal e Guiné.",
+        "variantes": [
+          "República da Guiné-Bissau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia"
+          ]
+        },
+        {
+          "id": "guinness",
+          "nome": "Guinness",
+          "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+          "variantes": [
+            "Guinness Stout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Egito",
+        "descricao": "País do nordeste da África e sudoeste da Ásia, com capital no Cairo.",
+        "variantes": [
+          "República Árabe do Egito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "egito",
+          "nome": "Egito",
+          "descricao": "País do nordeste da África, atravessado pelo rio Nilo, com capital no Cairo.",
+          "variantes": [
+            "República Árabe do Egito"
+          ]
+        },
+        {
+          "id": "agitos",
+          "nome": "Agitos",
+          "descricao": "Símbolo dos Jogos Paralímpicos, formado por três meias-luas em vermelho, azul e verde.",
+          "variantes": [
+            "Símbolo paralímpico"
+          ]
+        },
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos"
+          ]
+        },
+        {
+          "id": "haiti",
+          "nome": "Haiti",
+          "descricao": "País caribenho na porção oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+          "variantes": [
+            "República do Haiti"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Marrocos",
+        "descricao": "Reino do Magrebe, no noroeste da África, com capital em Rabat e maior cidade Casablanca.",
+        "variantes": [
+          "Reino de Marrocos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+          "variantes": [
+            "Reino de Marrocos",
+            "Morocco"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "musica_barroca",
+          "nome": "Música barroca",
+          "descricao": "Período da música europeia entre cerca de 1600 e 1750, de compositores como Bach, Vivaldi e Händel.",
+          "variantes": [
+            "Barroco musical",
+            "Barroco"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "São Tomé e Príncipe",
+        "descricao": "País insular do Golfo da Guiné, antiga colônia portuguesa, formado por duas ilhas principais.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "o_principe",
+          "nome": "O Príncipe",
+          "descricao": "Tratado político de Nicolau Maquiavel, escrito por volta de 1513.",
+          "variantes": [
+            "Il Principe",
+            "The Prince"
+          ]
+        },
+        {
+          "id": "jose_de_anchieta",
+          "nome": "José de Anchieta",
+          "descricao": "Padre jesuíta espanhol do século dezesseis, missionário no Brasil e autor de autos teatrais e poemas.",
+          "variantes": [
+            "Padre Anchieta",
+            "São José de Anchieta"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        },
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cuba",
+        "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+        "variantes": [
+          "República de Cuba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "kiribati",
+          "nome": "Kiribati",
+          "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+          "variantes": [
+            "República de Kiribati",
+            "Quiribati"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Irã",
+        "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+        "variantes": [
+          "Pérsia",
+          "República Islâmica do Irã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        },
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "akira",
+          "nome": "Akira",
+          "descricao": "Filme de animação japonês de 1988, dirigido por Katsuhiro Otomo a partir de seu próprio mangá.",
+          "variantes": [
+            "Akira (filme)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Macedônia do Norte",
+        "descricao": "País dos Bálcãs sem litoral, com capital em Skopje, que mudou o nome oficial em 2019.",
+        "variantes": [
+          "Macedônia",
+          "Republic of North Macedonia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laconia",
+          "nome": "Lacônia",
+          "descricao": "Região do sudeste do Peloponeso cuja principal cidade era Esparta, origem da palavra lacônico.",
+          "variantes": [
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "esparta",
+          "nome": "Esparta",
+          "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+          "variantes": [
+            "Sparta",
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "madonna",
+          "nome": "Madonna",
+          "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+          "variantes": [
+            "Madonna Louise Ciccone"
+          ]
+        },
+        {
+          "id": "mariposa_caveira",
+          "nome": "Mariposa-caveira",
+          "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+          "variantes": [
+            "Acherontia atropos",
+            "Acherontia",
+            "death's-head hawkmoth",
+            "esfinge-caveira"
+          ]
+        },
+        {
+          "id": "diego_maradona",
+          "nome": "Diego Maradona",
+          "descricao": "Craque argentino (1960-2020), campeão mundial em 1986 e ídolo do Napoli, conhecido como El Pibe de Oro.",
+          "variantes": [
+            "Diego Armando Maradona",
+            "Maradona",
+            "El Pibe de Oro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Arábia Saudita",
+        "descricao": "Reino que ocupa a maior parte da Península Arábica, com capital em Riade.",
+        "variantes": [
+          "Reino da Arábia Saudita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_arabia_saudita",
+          "nome": "Bandeira da Arábia Saudita",
+          "descricao": "Bandeira nacional da Arábia Saudita, verde com uma inscrição árabe e uma espada brancas.",
+          "variantes": [
+            "Flag of Saudi Arabia"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "parasita",
+          "nome": "Parasita",
+          "descricao": "Filme sul-coreano de 2019 dirigido por Bong Joon-ho, sobre uma família pobre que se infiltra numa família rica.",
+          "variantes": [
+            "Gisaengchung",
+            "Parasite"
+          ]
+        },
+        {
+          "id": "t_e_lawrence",
+          "nome": "T. E. Lawrence",
+          "descricao": "Oficial e escritor britânico que atuou junto às forças árabes na revolta contra o Império Otomano durante a Primeira Guerra Mundial.",
+          "variantes": [
+            "Lawrence da Arábia",
+            "Thomas Edward Lawrence"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Paquistão",
+        "descricao": "País do Sul da Ásia, quinto mais populoso do mundo, com capital em Islamabad.",
+        "variantes": [
+          "República Islâmica do Paquistão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "bandeira_do_cazaquistao",
+          "nome": "Bandeira do Cazaquistão",
+          "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+          "variantes": [
+            "Cazaquistão",
+            "Bandeira do Kazakhstan"
+          ]
+        },
+        {
+          "id": "cazaquistao",
+          "nome": "Cazaquistão",
+          "descricao": "País da Ásia Central, o maior sem saída para o mar, com capital em Astana.",
+          "variantes": [
+            "Kazakhstan"
+          ]
+        },
+        {
+          "id": "faustao",
+          "nome": "Faustão",
+          "descricao": "Fausto Silva, apresentador brasileiro do Domingão do Faustão na Globo.",
+          "variantes": [
+            "Fausto Silva",
+            "Fausto Corrêa Silva"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Laos",
+        "descricao": "País sem litoral do Sudeste Asiático, com capital em Vientiane.",
+        "variantes": [
+          "República Democrática Popular Lao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "turma_da_monica_lacos",
+          "nome": "Turma da Mônica: Laços",
+          "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019",
+          "variantes": [
+            "Laços"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "lost",
+          "nome": "Lost",
+          "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico.",
+          "variantes": [
+            "Lost (série)"
+          ]
+        },
+        {
+          "id": "lacoste",
+          "nome": "Lacoste",
+          "descricao": "Marca francesa de roupas fundada em 1933 pelo tenista René Lacoste, famosa pela camisa polo.",
+          "variantes": [
+            "La Chemise Lacoste"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "nigeria",
+      "motivo": "Mesmo país, Nigéria, capital Abuja."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "vietna",
+      "motivo": "Mesmo país, Vietnã, capital Hanói."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Guiné-Bissau não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "egito",
+      "motivo": "Mesmo país, Egito, capital Cairo."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "marrocos",
+      "motivo": "Mesmo país, Marrocos, capital Rabat."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o país São Tomé e Príncipe."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cuba não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Irã não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Macedônia do Norte não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A candidata é a bandeira, entidade distinta do país."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "paquistao",
+      "motivo": "Mesmo país, Paquistão, capital Islamabad."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "laos",
+      "motivo": "Mesmo país, Laos, capital Vientiane."
+    }
+  ]
+}

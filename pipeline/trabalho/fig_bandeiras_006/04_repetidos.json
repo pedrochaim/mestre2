@@ -1,0 +1,121 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Nigéria"
+      },
+      "existentes": [
+        {
+          "id": "q04037",
+          "pergunta": "Com mais de duzentos milhões de habitantes, qual é o país mais populoso da África?",
+          "resposta": "Nigéria"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Vietnã"
+      },
+      "existentes": [
+        {
+          "id": "q04478",
+          "pergunta": "Qual é a capital do país destacado neste mapa?",
+          "resposta": "Hanói"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A grande maioria da população do país desta bandeira vive perto das margens de que rio?",
+        "resposta": "Nilo"
+      },
+      "existentes": [
+        {
+          "id": "q01848",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Egito"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Rabat"
+      },
+      "existentes": [
+        {
+          "id": "q04473",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Marrocos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Islamabad"
+      },
+      "existentes": [
+        {
+          "id": "q04017",
+          "pergunta": "Em 1947, qual líder político é considerado o fundador do Paquistão?",
+          "resposta": "Muhammad Ali Jinnah"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Laos"
+      },
+      "existentes": [
+        {
+          "id": "q01846",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Laos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o país pela bandeira é diferente de saber qual é o mais populoso da África."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira do Vietnã não é o mesmo fato que a capital do país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o rio onde vive a população, fato diferente de identificar o país no mapa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Capital (Rabat) é fato diferente de identificar o país no mapa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Capital do Paquistão é fato diferente do fundador do país."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q01846",
+      "motivo": "Ambas pedem a identificação do país Laos por imagem; quem sabe uma sabe a outra."
+    }
+  ]
+}

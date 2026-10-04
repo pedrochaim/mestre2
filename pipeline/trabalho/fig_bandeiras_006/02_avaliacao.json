@@ -1,0 +1,252 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tricolor vertical verde-branco-verde, nítida e única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Nigéria",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nigéria",
+        "descricao": "País da África Ocidental, o mais populoso da África, com capital em Abuja.",
+        "variantes": [
+          "Federal Republic of Nigeria"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estrela amarela sobre fundo vermelho, clara e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Vietnã",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vietnã",
+        "descricao": "País do Sudeste Asiático com capital em Hanói e maior cidade Ho Chi Minh.",
+        "variantes": [
+          "Vietname",
+          "Viet Nam"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira clara, sem texto; pergunta pela capital do país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Bissau",
+      "distratores": [
+        "Conacri",
+        "Dacar",
+        "Banjul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guiné-Bissau",
+        "descricao": "País da África Ocidental, antiga colônia portuguesa, que faz fronteira com Senegal e Guiné.",
+        "variantes": [
+          "Guiné Bissau",
+          "República da Guiné-Bissau"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tricolor com águia dourada; o texto árabe no brasão é minúsculo e não entrega a resposta ao respondente.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que grande rio atravessa o país desta bandeira de norte a sul?",
+      "resposta": "Nilo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Egito",
+        "descricao": "País do nordeste da África e sudoeste da Ásia, com capital no Cairo.",
+        "variantes": [
+          "República Árabe do Egito"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pentagrama verde sobre fundo vermelho, nítido e único.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Rabat",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marrocos",
+        "descricao": "Reino do Magrebe, no noroeste da África, com capital em Rabat e maior cidade Casablanca.",
+        "variantes": [
+          "Reino de Marrocos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; distratores com cores pan-africanas e estrelas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "São Tomé e Príncipe",
+      "distratores": [
+        "Guiné-Bissau",
+        "Gana",
+        "Camarões"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "São Tomé e Príncipe",
+        "descricao": "País insular do Golfo da Guiné, antiga colônia portuguesa, formado por duas ilhas principais.",
+        "variantes": [
+          "Sao Tome e Principe"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira clara e inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade é a capital do país representado por esta bandeira?",
+      "resposta": "Havana",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cuba",
+        "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+        "variantes": [
+          "República de Cuba"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor com emblema central, reconhecível; distratores tricolores verde-branco-vermelho.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Irã",
+      "distratores": [
+        "Tajiquistão",
+        "Bulgária",
+        "Hungria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Irã",
+        "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+        "variantes": [
+          "Pérsia",
+          "República Islâmica do Irã"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sol de oito raios amarelo sobre vermelho, única; pergunta de nível 3 sobre o vizinho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país vizinho ao sul do país desta bandeira disputou o nome dele por quase trinta anos?",
+      "resposta": "Grécia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macedônia do Norte",
+        "descricao": "País dos Bálcãs sem litoral, com capital em Skopje, que mudou o nome oficial em 2019.",
+        "variantes": [
+          "Macedônia",
+          "Republic of North Macedonia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o texto é a profissão de fé em árabe e não nomeia o país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Arábia Saudita",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arábia Saudita",
+        "descricao": "Reino que ocupa a maior parte da Península Arábica, com capital em Riade.",
+        "variantes": [
+          "Reino da Arábia Saudita"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Crescente e estrela sobre verde com faixa branca, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Islamabad",
+      "distratores": [
+        "Karachi",
+        "Lahore",
+        "Daca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paquistão",
+        "descricao": "País do Sul da Ásia, quinto mais populoso do mundo, com capital em Islamabad.",
+        "variantes": [
+          "República Islâmica do Paquistão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Disco branco em faixa azul entre duas vermelhas, clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Laos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Laos",
+        "descricao": "País sem litoral do Sudeste Asiático, com capital em Vientiane.",
+        "variantes": [
+          "República Democrática Popular Lao"
+        ]
+      }
+    }
+  ]
+}

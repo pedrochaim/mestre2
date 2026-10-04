@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital confirmada nos trechos; distratores são capitais vizinhas, do mesmo tipo e curtas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Nilo corre de sul a norte, então 'de norte a sul' é impreciso. A pista também ajuda a responder sem a figura. Reescrita com fato do trecho: a maioria dos egípcios vive perto do Nilo.",
+      "reescrita": {
+        "pergunta": "A grande maioria da população do país desta bandeira vive perto das margens de que rio?",
+        "resposta": "Nilo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital Rabat confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são bandeiras parecidas (verde, amarelo, vermelho, estrela), nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital Havana confirmada; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são tricolores horizontais parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quem ouve só o enunciado deduz o país pela disputa do nome com a Grécia; a figura virou enfeite. Troquei por um fato que exige reconhecer a bandeira.",
+      "reescrita": {
+        "pergunta": "Que país faz fronteira ao sul com o país desta bandeira?",
+        "resposta": "Grécia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Islamabad é a capital; Karachi e Lahore não são capitais, Daca é de Bangladesh.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto.",
+      "reescrita": null
+    }
+  ]
+}
