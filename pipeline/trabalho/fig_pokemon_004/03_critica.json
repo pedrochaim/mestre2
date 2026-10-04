@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado padrão da vinheta, sem vazamento. Raichu, número 26, é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Spritzee é o número 682, do tipo Fada. Os distratores são críveis, curtos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão e resposta única. Koffing é o número 109, do tipo Venenoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Togetic é o número 176. Os distratores são da mesma linhagem ou do mesmo tipo e são errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Treecko é o inicial de Planta de Hoenn, número 252. A pergunta é padrão e não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Litwick evolui para Lampent, mas Chandelure também está na sua linha evolutiva. Como distrator, ele pode ser defendido como correto. Troquei-o por outro pokémon Fantasma e deixei claro que a evolução é direta.",
+      "reescrita": {
+        "pergunta": "Este pokémon evolui diretamente em qual deles?",
+        "resposta": "Lampent",
+        "distratores": [
+          "Dusclops",
+          "Mismagius",
+          "Drifblim"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pidgeotto evolui em Pidgeot, fato amplamente documentado. O enunciado não nomeia a entidade e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bounsweet é o número 761, do tipo Planta. A pergunta é padrão e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

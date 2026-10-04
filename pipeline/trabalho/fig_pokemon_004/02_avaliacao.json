@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta clara: orelhas longas com ponta enrolada e cauda em raio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Raichu",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Raichu",
+        "descricao": "Pokémon do tipo Elétrico, evolução de Pikachu, número 26 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Silhueta é uma massa arredondada sem traços característicos; pode ser confundida com outros pokémon redondos.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta com o topete enrolado e asinhas é característica o bastante; múltipla com distratores de forma parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Spritzee",
+      "distratores": [
+        "Swirlix",
+        "Cottonee",
+        "Jumpluff"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spritzee",
+        "descricao": "Pokémon do tipo Fada da sexta geração, número 682 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Corpo esférico com nuvens de gás ao redor, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Koffing",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Koffing",
+        "descricao": "Pokémon do tipo Venenoso da primeira geração, número 109 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas pontudas, asa e braço é distinguível; múltipla com a linha evolutiva e parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Togetic",
+      "distratores": [
+        "Togepi",
+        "Togekiss",
+        "Clefairy"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Togetic",
+        "descricao": "Pokémon do tipo Fada/Voador da segunda geração, evolução de Togepi, número 176 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Silhueta é um bloco irregular, sem forma característica; confundível com outros pokémon de pedra.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de lagarto com braços abertos, crista na cabeça e cauda curvada, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Treecko",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Treecko",
+        "descricao": "Pokémon inicial do tipo Planta da terceira geração, número 252 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta em forma de vela, com chama pontuda sobre corpo redondo; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pokémon evolui em qual deles?",
+      "resposta": "Lampent",
+      "distratores": [
+        "Chandelure",
+        "Dusclops",
+        "Mismagius"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Litwick",
+        "descricao": "Pokémon vela do tipo Fantasma/Fogo da quinta geração, número 607 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Silhueta oval com espinhos e sem detalhes distintivos; pode ser confundida com outros pokémon de corpo alongado.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Silhueta é uma massa larga com orelhas e braços; parece mais Clefable ou Jigglypuff, não identifica Clefairy com segurança.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ave em voo com asas abertas, garra e cauda; reconhecível, com crista curta de Pidgeotto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Pidgeot",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pidgeotto",
+        "descricao": "Pokémon ave do tipo Normal/Voador da primeira geração, número 17 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de fruta com haste e folhas-orelhas, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bounsweet",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bounsweet",
+        "descricao": "Pokémon fruta do tipo Planta da sétima geração, número 761 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}
