@@ -1,0 +1,527 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Templo do Céu",
+        "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+        "variantes": [
+          "Tiantan",
+          "Temple of Heaven",
+          "Templo do Paraíso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "instituto_butantan",
+          "nome": "Instituto Butantan",
+          "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+          "variantes": [
+            "Butantan"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "tintim",
+          "nome": "Tintim",
+          "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+          "variantes": [
+            "Tintin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Capela Sistina",
+        "descricao": "Capela do Palácio Apostólico, no Vaticano, mandada construir pelo papa Sisto IV e famosa pelos afrescos de Michelangelo.",
+        "variantes": [
+          "Sistine Chapel",
+          "Cappella Sistina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "abelha_africanizada",
+          "nome": "Abelha-africanizada",
+          "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia.",
+          "variantes": [
+            "abelha assassina",
+            "Africanized bee"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        },
+        {
+          "id": "caatinga",
+          "nome": "Caatinga",
+          "descricao": "Bioma semiárido do sertão nordestino brasileiro",
+          "variantes": [
+            "Catinga"
+          ]
+        },
+        {
+          "id": "chapada_diamantina",
+          "nome": "Chapada Diamantina",
+          "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cabeças colossais olmecas",
+        "descricao": "Esculturas monumentais de cabeças em basalto feitas pela civilização olmeca, no sul do México, a partir de cerca de 900 a.C.",
+        "variantes": [
+          "Olmec colossal heads",
+          "Cabeça colossal olmeca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Delfos",
+        "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+        "variantes": [
+          "Delphi",
+          "Santuário de Delfos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin",
+            "Golfinhos"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+        "variantes": [
+          "Duomo di Milano",
+          "Milan Cathedral",
+          "Duomo de Milão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Palácio historicista do século dezenove sobre uma colina rochosa perto de Füssen, na Baviera, Alemanha, mandado construir por Luís II.",
+        "variantes": [
+          "Neuschwanstein Castle",
+          "Schloss Neuschwanstein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_neuschwanstein",
+          "nome": "Castelo de Neuschwanstein",
+          "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, mandado erguer pelo rei Luís II.",
+          "variantes": [
+            "Neuschwanstein",
+            "Schloss Neuschwanstein"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "o_castelo_de_cagliostro",
+          "nome": "O Castelo de Cagliostro",
+          "descricao": "Filme de animação de 1979 estrelado pelo ladrão Lupin III.",
+          "variantes": [
+            "The Castle of Cagliostro",
+            "Lupin III: O Castelo de Cagliostro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nono, em forma de pirâmide escalonada com nove plataformas, em Java Central, Indonésia.",
+        "variantes": [
+          "Candi Borobudur",
+          "Barabudur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borobudur",
+          "nome": "Borobudur",
+          "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+          "variantes": [
+            "Templo de Borobudur"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "quadra_dura",
+          "nome": "Quadra dura",
+          "descricao": "Quadra de tênis de superfície rígida, de asfalto ou concreto revestido de resina acrílica.",
+          "variantes": [
+            "Hard court",
+            "Quadra rápida"
+          ]
+        },
+        {
+          "id": "queima_de_sutias",
+          "nome": "Queima de sutiãs",
+          "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+          "variantes": [
+            "Bra-burning",
+            "Queima dos sutiãs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Uxmal",
+        "descricao": "Antiga cidade maia do período clássico na região Puuc, península de Yucatán, México, com a Pirâmide do Adivinho.",
+        "variantes": [
+          "Óoxmáal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "magali",
+          "nome": "Magali",
+          "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+          "variantes": []
+        },
+        {
+          "id": "mumia_egipcia",
+          "nome": "Múmia egípcia",
+          "descricao": "Corpo humano ou animal preservado artificialmente pelos antigos egípcios para a vida após a morte",
+          "variantes": [
+            "Mummy",
+            "Múmia"
+          ]
+        },
+        {
+          "id": "umami",
+          "nome": "Umami",
+          "descricao": "Quinto gosto básico, associado ao glutamato, identificado por Kikunae Ikeda em 1908.",
+          "variantes": [
+            "Gosto umami"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha",
+          "Old Bridge Florence"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "ponte_hercilio_luz",
+          "nome": "Ponte Hercílio Luz",
+          "descricao": "Ponte pênsil que liga a Ilha de Santa Catarina ao continente, em Florianópolis.",
+          "variantes": [
+            "Hercílio Luz Bridge"
+          ]
+        },
+        {
+          "id": "lanterna_vermelha",
+          "nome": "Lanterna vermelha",
+          "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+          "variantes": [
+            "Lanterne rouge"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Templo do Céu de Pequim."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Madona Sistina é pintura de Rafael; a Capela Sistina é outra entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Crânio é estrutura anatômica, não as esculturas olmecas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Delfos (santuário/sítio) é distinto do Oráculo de Delfos; na dúvida, nova."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Catedral de Milão."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_neuschwanstein",
+      "motivo": "Mesmo castelo de Luís II na Baviera."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "borobudur",
+      "motivo": "Mesmo templo budista do século nove em Java."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cidade maia de Uxmal."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Ponte Vecchio de Florença."
+    }
+  ]
+}

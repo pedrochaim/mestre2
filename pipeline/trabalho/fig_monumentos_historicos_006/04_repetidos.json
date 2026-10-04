@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+        "resposta": "Luís II da Baviera"
+      },
+      "existentes": [
+        {
+          "id": "q03982",
+          "pergunta": "O castelo de Neuschwanstein, mandado erguer pelo rei Luís Segundo da Baviera, inspirou o castelo de que princesa na Disneylândia?",
+          "resposta": "Bela Adormecida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que templo budista é este?",
+        "resposta": "Borobudur"
+      },
+      "existentes": [
+        {
+          "id": "q03960",
+          "pergunta": "Borobudur, enorme templo budista de pedra construído no século nove em forma de mandala, fica em que país?",
+          "resposta": "Indonésia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual princesa/castelo da Disney foi inspirado; a nova pergunta quem mandou construir. A existente apenas menciona o rei no enunciado, sem pedir como resposta, mas dá a resposta da nova de graça; ainda assim o fato perguntado é outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do templo (Borobudur) por imagem; a existente pergunta o país onde fica. Fatos diferentes."
+    }
+  ]
+}

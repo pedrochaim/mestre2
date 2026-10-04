@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Templo reconhecível; a placa em chinês não entrega a resposta a quem joga; pessoas ao fundo são pequenas e incidentais.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi construído este templo imperial?",
+      "resposta": "Século quinze",
+      "destino": 4,
+      "ancora": {
+        "nome": "Templo do Céu",
+        "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+        "variantes": [
+          "Tiantan",
+          "Temple of Heaven",
+          "Templo do Paraíso"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ruínas genéricas com vista do mar; não há elemento que permita reconhecer Cartago, e outras ruínas mediterrâneas seriam parecidas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Arcadas de pedra em interior em ruínas, sem traço distintivo; não dá para reconhecer Kilwa Kisiwani e a imagem é pouco legível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Interior icônico, reconhecível pelo teto e pelos afrescos; sem texto e sem pessoas.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi construída esta capela do Vaticano?",
+      "resposta": "Século quinze",
+      "destino": 7,
+      "ancora": {
+        "nome": "Capela Sistina",
+        "descricao": "Capela do Palácio Apostólico, no Vaticano, mandada construir pelo papa Sisto IV e famosa pelos afrescos de Michelangelo.",
+        "variantes": [
+          "Sistine Chapel",
+          "Cappella Sistina"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cabeça colossal olmeca bem visível e inconfundível; só um pé aparece no canto, sem relevância.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta escultura de basalto, provavelmente o retrato de um governante, foi feita por qual civilização da Mesoamérica?",
+      "resposta": "Olmecas",
+      "destino": 5,
+      "ancora": {
+        "nome": "Cabeças colossais olmecas",
+        "descricao": "Esculturas monumentais de cabeças em basalto feitas pela civilização olmeca, no sul do México, a partir de cerca de 900 a.C.",
+        "variantes": [
+          "Olmec colossal heads",
+          "Cabeças colossais olmecas",
+          "Cabeça colossal olmeca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista do templo de Apolo com as colunas e o vale; reconhecível para quem conhece, melhor em múltipla escolha com sítios gregos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico da Grécia é este?",
+      "resposta": "Delfos",
+      "distratores": [
+        "Olímpia",
+        "Epidauro",
+        "Corinto"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Delfos",
+        "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+        "variantes": [
+          "Delphi",
+          "Santuário de Delfos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada gótica de mármore inconfundível, sem texto; transeuntes são incidentais na praça.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica esta catedral gótica?",
+      "resposta": "Milão",
+      "distratores": [
+        "Florença",
+        "Veneza",
+        "Turim"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+        "variantes": [
+          "Duomo di Milano",
+          "Milan Cathedral",
+          "Duomo de Milão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista aérea distante com ruínas pequenas no meio de muita paisagem; o Ramesseum não é reconhecível e não fica legível num celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Castelo muito reconhecível, sem texto nem pessoas.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+      "resposta": "Luís II da Baviera",
+      "distratores": [
+        "Luís I da Baviera",
+        "Maximiliano II",
+        "Otão da Baviera"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Palácio historicista do século dezenove sobre uma colina rochosa perto de Füssen, na Baviera, Alemanha, mandado construir por Luís II.",
+        "variantes": [
+          "Neuschwanstein Castle",
+          "Schloss Neuschwanstein"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Templo em pirâmide escalonada com estupas, silhueta muito característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que templo budista é este?",
+      "resposta": "Borobudur",
+      "destino": 4,
+      "ancora": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nono, em forma de pirâmide escalonada com nove plataformas, em Java Central, Indonésia.",
+        "variantes": [
+          "Candi Borobudur",
+          "Barabudur"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista de Uxmal com a Casa das Tartarugas e a Pirâmide do Adivinho; múltipla escolha com países vizinhos dá resposta única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este sítio arqueológico maia?",
+      "resposta": "México",
+      "distratores": [
+        "Guatemala",
+        "Belize",
+        "Honduras"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Uxmal",
+        "descricao": "Antiga cidade maia do período clássico na região Puuc, península de Yucatán, México, com a Pirâmide do Adivinho.",
+        "variantes": [
+          "Óoxmáal"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ponte com lojas sobre o Arno, muito característica; sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi erguida a versão atual desta ponte medieval, depois de uma enchente destruir a anterior?",
+      "resposta": "Século quatorze",
+      "destino": 6,
+      "ancora": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha",
+          "Old Bridge Florence"
+        ]
+      }
+    }
+  ]
+}
