@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; o enunciado não nomeia o ator nem o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Segundo álbum de estúdio, 21, lançado em 2011, confirmado no trecho em português. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vocalista do Black Sabbath nos anos setenta, confirmado. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viúva Negra em vários filmes da Marvel, confirmado. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cave também liderou The Birthday Party e o Grinderman, e 'lidera' no presente é impreciso. Fixar 1983 e o fim do Birthday Party dá resposta única.",
+      "reescrita": {
+        "pergunta": "Em 1983, depois do fim da banda The Birthday Party, este cantor australiano formou qual banda?",
+        "resposta": "Nick Cave and the Bad Seeds",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. Os distratores são sambistas críveis, com até 4 palavras, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem vazamento. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. Os distratores são atrizes francesas críveis, com até 4 palavras, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

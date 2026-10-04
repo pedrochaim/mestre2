@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; só fragmentos de letras ao fundo, sem entregar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Por qual filme este ator ganhou o Oscar de melhor ator?",
+      "resposta": "O Regresso (The Revenant)",
+      "ancora": {
+        "nome": "Leonardo DiCaprio",
+        "descricao": "Ator e produtor norte-americano, vencedor do Oscar de melhor ator por O Regresso.",
+        "variantes": [
+          "Leonardo Wilhelm DiCaprio"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, cantora muito reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Qual é o título do segundo álbum de estúdio desta cantora, lançado em 2011?",
+      "resposta": "21",
+      "ancora": {
+        "nome": "Adele",
+        "descricao": "Cantora e compositora britânica, autora dos álbuns 19, 21 e 25.",
+        "variantes": [
+          "Adele Laurie Blue Adkins"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco, escura, de perfil e com o rosto parcialmente coberto pelo microfone; pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto e óculos roxos muito característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "De que banda de heavy metal este cantor foi o vocalista nos anos setenta?",
+      "resposta": "Black Sabbath",
+      "ancora": {
+        "nome": "Ozzy Osbourne",
+        "descricao": "Cantor britânico de heavy metal, vocalista do Black Sabbath e depois artista solo.",
+        "variantes": [
+          "John Michael Osbourne",
+          "Príncipe das Trevas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, atriz famosa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que super-heroína da Marvel esta atriz interpretou em vários filmes?",
+      "resposta": "Viúva Negra",
+      "ancora": {
+        "nome": "Scarlett Johansson",
+        "descricao": "Atriz norte-americana, conhecida como a Viúva Negra no cinema da Marvel.",
+        "variantes": [
+          "Scarlett Ingrid Johansson"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto, figura pública com visual característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que banda este cantor australiano lidera como vocalista?",
+      "resposta": "Nick Cave and the Bad Seeds",
+      "ancora": {
+        "nome": "Nick Cave",
+        "descricao": "Cantor, músico e escritor australiano, vocalista do Nick Cave and the Bad Seeds.",
+        "variantes": [
+          "Nicholas Edward Cave"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto claro; texto de fundo é só fragmento de evento e logo de emissora, sem entregar o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esta cantora?",
+      "resposta": "Marília Mendonça",
+      "ancora": {
+        "nome": "Marília Mendonça",
+        "descricao": "Cantora e compositora brasileira de sertanejo, conhecida pela música Infiel.",
+        "variantes": [
+          "Marília Dias Mendonça"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Reconhecimento incerto pela foto (palco, ângulo e luz difíceis) e o trecho traz quase nenhum fato para uma pergunta de nível 3."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto sépia distante, ao piano, com outra pessoa ao fundo; a pessoa não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, sambista muito conhecido; múltipla com distratores do samba.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sambista é este?",
+      "resposta": "Zeca Pagodinho",
+      "distratores": [
+        "Arlindo Cruz",
+        "Martinho da Vila",
+        "Jorge Aragão"
+      ],
+      "ancora": {
+        "nome": "Zeca Pagodinho",
+        "descricao": "Cantor e compositor brasileiro de samba e pagode.",
+        "variantes": [
+          "Jessé Gomes da Silva Filho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido, óculos e figurino característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é este cantor e pianista?",
+      "resposta": "Elton John",
+      "ancora": {
+        "nome": "Elton John",
+        "descricao": "Cantor, compositor e pianista britânico, nascido Reginald Dwight.",
+        "variantes": [
+          "Reginald Kenneth Dwight",
+          "Sir Elton Hercules John"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; reconhecimento mais difícil, por isso múltipla escolha com atrizes francesas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que atriz francesa é esta?",
+      "resposta": "Isabelle Huppert",
+      "distratores": [
+        "Catherine Deneuve",
+        "Juliette Binoche",
+        "Marion Cotillard"
+      ],
+      "ancora": {
+        "nome": "Isabelle Huppert",
+        "descricao": "Atriz francesa de cinema e teatro, a mais indicada ao prêmio César.",
+        "variantes": [
+          "Isabelle Anne Madeleine Huppert"
+        ]
+      }
+    }
+  ]
+}
