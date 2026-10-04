@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara da bomba, forma inconfundível, sem texto que entregue a resposta (apenas o número 431).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta bomba atômica foi lançada em 1945 sobre qual cidade japonesa?",
+      "resposta": "Hiroshima",
+      "distratores": [
+        "Nagasaki",
+        "Tóquio",
+        "Quioto"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Little Boy",
+        "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+        "variantes": [
+          "Little Boy (bomba de Hiroshima)",
+          "L-11"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Casco do Vasa no museu, reconhecível; sem texto visível relevante.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este navio de guerra sueco, hoje exposto num museu, afundou na viagem inaugural em que ano?",
+      "resposta": "1628",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vasa",
+        "descricao": "Navio de guerra sueco que afundou na viagem inaugural em 1628 e foi recuperado em 1961, hoje no Museu Vasa, em Estocolmo.",
+        "variantes": [
+          "Navio Vasa",
+          "Wasa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pergaminho único, reconhecível, com poucas legendas que não entregam o ano nem o nome.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Por volta de que ano foi desenhado este mapa-múndi, que traz a mais antiga representação conhecida do Novo Mundo?",
+      "resposta": "1500",
+      "distratores": [
+        "1450",
+        "1529",
+        "1569"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mapa de Juan de la Cosa",
+        "descricao": "Mapa-múndi em pergaminho atribuído ao navegador castelhano Juan de la Cosa, feito provavelmente em 1500, com a mais antiga representação conhecida do Novo Mundo.",
+        "variantes": [
+          "Mapa-múndi de Juan de la Cosa",
+          "Mappa mundi de la Cosa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O título da Declaração aparece escrito na imagem e entrega a resposta; há também muito texto."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mapa cheio de legendas e blocos de texto, com o título em latim; ilegível em celular e pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e única; o texto 'Dont tread on me' não entrega o nome nem o autor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta bandeira da Revolução Americana, de 1775, leva o sobrenome de quem a desenhou. Qual?",
+      "resposta": "Gadsden",
+      "distratores": [
+        "Hopkins",
+        "Franklin",
+        "Revere"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Gadsden",
+        "descricao": "Bandeira amarela com uma cascavel enrolada e o lema 'Dont Tread on Me', criada por Christopher Gadsden em 1775.",
+        "variantes": [
+          "Gadsden flag",
+          "Don't Tread on Me"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, com emblema de martelo e compasso que a distingue da alemã atual.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país, extinto em 1990, tinha esta bandeira com martelo e compasso?",
+      "resposta": "Alemanha Oriental",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da Alemanha Oriental",
+        "descricao": "Bandeira da República Democrática Alemã, tricolor preto, vermelho e dourado com martelo, compasso e coroa de trigo, usada de 1959 a 1990.",
+        "variantes": [
+          "Bandeira da RDA",
+          "Flag of East Germany"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida da coroa, objeto único e reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica guardada hoje esta coroa medieval, no tesouro imperial do palácio Hofburg?",
+      "resposta": "Viena",
+      "distratores": [
+        "Aachen",
+        "Praga",
+        "Berlim"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Coroa Imperial do Sacro Império Romano-Germânico",
+        "descricao": "Coroa octogonal de ouro e pedras usada na coroação dos imperadores do Sacro Império, hoje no Tesouro Imperial em Viena.",
+        "variantes": [
+          "Reichskrone",
+          "Coroa do Imperador Romano-Germânico"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra vários ovos diferentes numa vitrine, com números; a resposta não é única diante da figura."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Página de manuscrito em latim, parecida com qualquer outro códice medieval; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A inscrição 'Proclaim Liberty' e 'Philad' é legível no sino e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fragmento de mapa muito característico, com texto em turco otomano que não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este mapa otomano de 1513 contém a cópia parcial de um mapa perdido de qual navegador?",
+      "resposta": "Cristóvão Colombo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mapa de Piri Reis",
+        "descricao": "Fragmento de mapa-múndi de 1513 feito pelo almirante otomano Piri Reis, guardado no Palácio de Topkapı, em Istambul.",
+        "variantes": [
+          "Piri Reis map",
+          "Mapa de Piri Reis de 1513"
+        ]
+      }
+    }
+  ]
+}

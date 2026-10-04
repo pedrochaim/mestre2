@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelos trechos. O enunciado não nomeia a bomba e a figura distingue Little Boy de Fat Man. Os distratores são do mesmo tipo e errados para esta bomba.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'navio de guerra sueco que afundou na viagem inaugural, hoje num museu' identifica o Vasa sem a imagem. Troquei a pergunta por uma que exige reconhecer o navio, sem pista única. O museu em Estocolmo e a época vêm dos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica hoje o museu que abriga este navio de guerra do século dezessete?",
+        "resposta": "Estocolmo"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'mais antiga representação do Novo Mundo' entrega o mapa sem a imagem. O distrator 1450 é incrível, porque é anterior a Colombo. Troquei a pista e os distratores.",
+      "reescrita": {
+        "pergunta": "Por volta de que ano foi desenhado este mapa-múndi em pergaminho, obra de um navegador castelhano?",
+        "resposta": "1500",
+        "distratores": [
+          "1529",
+          "1507",
+          "1544"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a bandeira recebeu o nome de Christopher Gadsden, que a projetou em 1775. A pista não identifica a bandeira sem a figura, porque há várias bandeiras de 1775. Os distratores são sobrenomes críveis e nenhum desenhou a bandeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'extinto em 1990' somado a 'martelo e compasso' entrega a Alemanha Oriental sem a imagem. Troquei por uma pista de grupo, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "De que país europeu, já extinto, é esta bandeira?",
+        "resposta": "Alemanha Oriental"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: o palácio Hofburg fica em Viena, o que dá a resposta. Removi a pista. Troquei o distrator Berlim por Nuremberg, que guardou as insígnias no passado e é mais crível.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica guardada hoje esta coroa octogonal medieval, usada na coroação de imperadores?",
+        "resposta": "Viena",
+        "distratores": [
+          "Aachen",
+          "Praga",
+          "Nuremberg"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'mapa otomano de 1513' identifica o mapa de Piri Reis sem a imagem. O fato (cópia parcial de um mapa perdido de Colombo) está nos trechos. Troquei a pista por uma época mais vaga.",
+      "reescrita": {
+        "pergunta": "Este mapa-múndi, feito no início do século dezesseis, inclui a cópia parcial de um mapa perdido de qual navegador?",
+        "resposta": "Cristóvão Colombo"
+      }
+    }
+  ]
+}
