@@ -1,0 +1,1796 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Geologia e História da Terra** (tema **Natureza**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Pangeia",
+      "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do supercontinente Pangeia, que juntava quase todas as terras do planeta, significa o quê em grego?",
+    "resposta": "Toda a terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pangaea",
+      "https://pt.wikipedia.org/wiki/Pangeia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pangaea",
+        "situacao": "ok",
+        "texto": "Pangaea or Pangea ( pan-JEE-ə) was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from the earlier continental units of Gondwana, Euramerica and Siberia during the Carboniferous period approximately 335 million years ago, and began to break apart about 175 million years ago, at the beginning of the Jurassic.\n[…]\nBy the Early Jurassic, Pangaea began to rift and break-up into northern Laurasia and southern Gondwana with the Central Pangean Mountains having practically disintegrated. The supercontinent finally broke up by the Middle Jurassic period.\n[…]\nSince Pangaea existed for a span of millions of years, from the late Carboniferous period up until the early Jurassic period, its climate varied across these periods. Due to its geographic extent, it experienced significant climatic variations.\n[…]\nDuring the late Carboniferous, regions of present day Europe and Eastern North America experienced significant wetter, swamp like conditions due to the Central Pangean Mountains forming a perennial monsoon climate in that area close to the equator, contrasting the dry conditions of the Colorado Plateau. By the end of the Carboniferous, the equatorial regions of Pangaea became drier.\n[…]\nPangaea existed as a supercontinent for 160 million years, from its assembly around 335 Ma (Early Carboniferous) to its breakup 175 Ma (Middle Jurassic). During this interval, important developments in the evolution of life took place. The seas of the Early Carboniferous were dominated by rugose corals, brachiopods, bryozoans, sharks, and the first bony fish. Life on land was dominated by lycopsid forests inhabited by insects and other arthropods and the first tetrapods.\n[…]\nPotential future supercontinents: Amasia, Aurica, Pangaea Proxima, Novopangaea\n[…]\nSupercontinent cycle\n[…]\nMap of Triassic Pangaea at Paleomaps"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pangeia",
+        "situacao": "ok",
+        "texto": "Designa-se por Pangeia ou Pangea o continente que, descrito pela deriva continental, existiu entre 200 a 540 milhões de anos, durante a era Paleozoica, segundo estudos.\n[…]\nA palavra origina-se do fato de todos os continentes estarem juntos (pan do grego = todo, inteiro) e exprime a noção de totalidade, universalidade, formando um único bloco de terra (Gea) ou  Geia, Gaia ou Ge como a Titã grega que personificava a terra com todos os seus elementos.\n[…]\nPassaram-se milhões de anos até que a Pangea se fragmentou, dando origem a dois megacontinentes: Gondwana e Laurásia. Esta separação ocorreu lentamente e ocorreu deslocando sobre um subsolo oceânico de basalto.\n[…]\nO resto do continente, onde estava a América do Norte, Europa, Ásia e o Ártico se denomina Laurásia. A Pangeia era cercada por um único oceano, Pantalassa.\n[…]\nA existência de Pangea foi sugerida pela primeira vez no início do século XX pelo meteorologista alemão Alfred Wegener, o que criou uma gigante polêmica entre a classe científica da época. Wegener teve como ponto de partida para a sua teoria os contornos semelhantes das costas da América e de África, os quais formariam um encaixe quase perfeito.\n[…]\nSupercontinente\n[…]\nPangeia Próxima\n[…]\n«Vídeo-Pangeia e a deriva dos continentes (vídeo em extensão .mov)» (em inglês)\n[…]\n«Video animation Pangeia» (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Tsunami",
+      "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em japonês, o que significa literalmente a palavra tsunami, usada para as ondas gigantes provocadas por terremotos no mar?",
+    "resposta": "Onda de porto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tsunami"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tsunami",
+        "situacao": "ok",
+        "texto": "A tsunami ( (t)soo-NAH-mee, (t)suu-; from Japanese: 津波, lit. 'harbour wave', pronounced [tsɯnami]) is a series of waves in a water body caused by the displacement of a large volume of water, generally in an ocean or a large lake. Earthquakes, volcanic eruptions, underwater explosions, landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential\n[…]\nThe Roman historian Ammianus Marcellinus (Res Gestae 26.10.15–19) described the typical sequence of a tsunami, including an incipient earthquake, the sudden retreat of the sea and a following gigantic wave, after the 365 AD tsunami devastated Alexandria.\n[…]\nMovement on normal (extensional) faults can also cause displacement of the seabed, but only the largest of such events (typically related to flexure in the outer trench swell) cause enough displacement to give rise to a significant tsunami, such as the 1977 Sumba and 1933 Sanriku events.\n[…]\nEssentially, they are dynamically equivalent to seismic tsunamis, the only differences being 1) that meteotsunamis lack the transoceanic reach of significant seismic tsunamis, and 2) that the force that displaces the water is sustained over some length of time such that meteotsunamis cannot be modelled as having been caused instantaneously.\n[…]\nWhen the tsunami's wave peak reaches the shore, the resulting temporary rise in sea level is termed run up. Run up is measured in metres above a reference sea level. A large tsunami may feature multiple waves arriving over a period of hours, with significant time between the wave crests. The first wave to reach the shore may not have the highest run-up.\n[…]\nKontar, Y. A. et al.: Tsunami Events and Lessons Learned: Environmental and Societal Significance. Springer, 2014. ISBN 978-94-007-7268-7 (print); ISBN 978-94-007-7269-4 (eBook).\n[…]\nWorld's Tallest Tsunami – geology.com\n[…]\nTsunami animation – Geoscience Australia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tsun%C3%A2mi",
+        "situacao": "ok",
+        "texto": "Tsunâmi (em japonês: 津波 AFI: [t͡sɯᵝnämi], lit. \"onda de porto\") ou maremoto (do latim: mare, mar + motus, movimento) é uma série de ondas de água causada pelo deslocamento de um grande volume de um corpo de água, como um oceano ou um grande lago. Tsunâmis são uma ocorrência frequente no oceano Pacífico: aproximadamente 195 eventos desse tipo já foram registrados. Devido aos imensos volumes de água\n[…]\nUma onda desse tipo inundou a Birmânia (Mianmar), em maio de 2008.\n[…]\nO termo \"tsunâmi\" provém do japonês, através da junção de \"porto\" (tsu, 津) e \"onda\" (nami, 波), Embora a versão estrangeira da palavra ainda seja muito usada (caso em que deve ser destacada do texto, seja com aspas, seja colocando-a em itálico), os dois dicionários mais vendidos respectivamente no Brasil e em Portugal, o Dicionário Aurélio e o Dicionário da Língua Portuguesa com Acordo Ortográfico da Porto Editora, já trazem a forma aportuguesada, tsunâmi, acentuada conforme o acordo ortográfico da língua portuguesa.\n[…]\nÀ medida que o tsunâmi se aproxima da costa e as águas se tornam rasas, o empolamento da onda comprime a própria onda e sua velocidade diminui para menos de 80 km/h. Seu comprimento de onda diminui para menos de 20 km e sua amplitude cresce significativamente, produzindo uma onda claramente visível. Com o advento do tsunâmi sobre águas cada vez mais rasas, a velocidade da onda diminui pouco a pouco, podendo desacelerar para menos de 20 quilômetros por hora.\n[…]\nO aumento do nível das águas causado pelo tsunâmi é medido em metros acima do nível do mar. Um grande tsunâmi pode apresentar uma sequência de várias ondas que chegam durante um período de minutos a horas, sendo que o tempo entre uma onda e outra pode variar significativamente. A primeira onda a chegar à praia pode não trazer um significativo aumento do nível das águas, pois esta perde energia ao encontrar com águas mais rasas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Era Paleozoica",
+      "descricao": "Era geológica entre cerca de 539 e 252 milhões de anos atrás, do Cambriano ao Permiano."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Qual é o significado do nome da era Paleozoica, a dos primeiros peixes e das primeiras florestas?",
+    "resposta": "Vida antiga",
+    "distratores": [
+      "Terra antiga",
+      "Pedra antiga",
+      "Mar antigo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paleozoic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paleozoic",
+        "situacao": "ok",
+        "texto": "The Paleozoic ( PAL-ee-ə-ZOH-ik, -⁠ee-oh-, PAY-; or Palaeozoic) Era is the first of three geological eras of the Phanerozoic Eon. Beginning 538.8 million years ago (Ma), it succeeds the Neoproterozoic (the last era of the Proterozoic Eon) and ends 251.9 Ma at the start of the Mesozoic Era. The Paleozoic is subdivided into six geologic periods, (from oldest to youngest) Cambrian, Ordovician, Siluri\n[…]\nWhile macroscopic plant life appeared early in the Paleozoic Era and possibly late in the Neoproterozoic Era of the earlier eon, plants mostly remained aquatic until the Silurian Period, about 420 million years ago, when they began to transition onto dry land. Terrestrial flora reached its climax in the Carboniferous, when towering lycopsid rainforests dominated the tropical belt of Euramerica.\n[…]\nThe Paleozoic marine fauna was notably lacking in predators relative to the present day. Predators made up about 4% of the fauna in Paleozoic assemblages while making up 17% of temperate Cenozoic assemblages and 31% of tropical ones. Infaunal animals made up 4% of soft substrate Paleozoic communities but about 47% of Cenozoic communities.\n[…]\nAdditionally, the Paleozoic had very few facultatively motile animals that could easily adjust to disturbance, with such creatures composing 1% of its assemblages in contrast to 50% in Cenozoic faunal assemblages. Non-motile animals untethered to the substrate, extremely rare in the Cenozoic, were abundant in the Paleozoic.\n[…]\nPaleozoic phytoplankton overall were both nutrient-poor themselves and adapted to nutrient-poor environmental conditions. This phytoplankton nutrient poverty has been cited as an explanation for the Paleozoic's relatively low biodiversity.\n[…]\n60+ images of Paleozoic Foraminifera\n[…]\nPaleozoic (chronostratigraphy scale) Archived 2020-10-30 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paleozoico",
+        "situacao": "ok",
+        "texto": "Na escala de tempo geológico, o Paleozoico (pré-AO 1990: Paleozóico) é a primeira das três eras geológicas do éon Fanerozoico, que começou em 538,8 milhões e terminou em 251,9 milhões de anos, aproximadamente. A era Paleozoica sucede a era Neoproterozoica do éon Proterozoico e precede a era Mesozoica de seu éon. Divide-se nos períodos Cambriano, Ordoviciano, Siluriano, Devoniano, Carbonífero e Per\n[…]\nO nome foi usado pela primeira vez por Adam Sedgwick (1785-1873) em 1838 para descrever os períodos Cambriano e Ordoviciano. Foi redefinido por John Phillips (1800–1874) em 1840 para cobrir os períodos Cambriano ao Permiano. O nome desta era tem origem no grego palaios (παλαιός), \"velho\" e zoe (ζωή), \"vida\", significando \"vida antiga\".\n[…]\nO Paleozoico foi uma época de dramáticas mudanças geológicas, climáticas e evolutivas. O Cambriano testemunhou a diversificação da vida mais rápida e generalizada na história da Terra, conhecida como a Explosão Cambriana, na qual a maioria dos filos modernos apareceu pela primeira vez. Artrópodes, moluscos, peixes, anfíbios, répteis e sinapsídeos evoluíram durante o Paleozoico.\n[…]\nA vida começou no oceano, mas acabou por fazer a transição para a terra, e no final do Paleozoico, grandes florestas de plantas primitivas cobriam os continentes, muitas das quais formavam as camadas de carvão da Europa e do leste da América do Norte. No final da era, grandes e sofisticados sinapsídeos e diápsidos eram dominantes e as primeiras plantas modernas (coníferas) apareceram.\n[…]\nUma característica notável da vida paleozoica é o súbito aparecimento de quase todos os filos de animais invertebrados em grande abundância no início do Cambriano. Os primeiros vertebrados surgiram na forma de peixes primitivos, que se diversificaram bastante nos períodos Siluriano e Devoniano. Os primeiros animais a se aventurarem em terra firme foram os artrópodes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Período Cambriano",
+      "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O período Cambriano deve seu nome a Cambria, palavra latina que designava qual região do Reino Unido?",
+    "resposta": "País de Gales",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cambrian"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cambrian",
+        "situacao": "ok",
+        "texto": "The Cambrian (  KAM-bree-ən, KAYM-) is the first geological period of the Paleozoic Era and the Phanerozoic Eon. The Cambrian lasted 51.95 million years from the end of the preceding Ediacaran Period 538.8 Ma (million years ago) to the beginning of the Ordovician Period 486.85 Ma.\n[…]\nThe Cambrian flora was little different from the Ediacaran. The principal taxa were the marine macroalgae Fuxianospira, Sinocylindra, and Marpolia. No calcareous macroalgae are known from the period.\n[…]\nThe early Cambrian was a period of rapid evolution, known as the Cambrian Explosion, which saw the appearance of animals with biomineralised skeletons, the development of increasing complex animal morphology, behaviour and lifestyles, changes in the sea floor substrate with the advent of burrowing, and the opening up of new biodiverse ecosystems.\n[…]\nBeginning at the Ediacaran–Cambrian boundary when early representatives of the major animal phyla appear in the fossil record, pulses of radiations and extinctions continued through the Cambrian and by the end of the Period all Bilateria classes are present.\n[…]\nEcdysozoa is a clade of protostomes that periodically moult their hardened exoskeletons. During the Cambrian diverse arthropods, lobopodians and early priapulid worms were important members of the marine ecosystem and in the case of arthropods even ventured on to land.\n[…]\nThe United States Federal Geographic Data Committee uses a \"barred capital C\" ⟨Ꞓ⟩ character to represent the Cambrian Period.\n[…]\nPeng, S.; Babcock, L.E.; Cooper, R.A. (2012). \"The Cambrian Period\". The Geologic Time Scale. pp. 437–488. doi:10.1016/B978-0-444-59425-9.00019-6. ISBN 978-0-444-59425-9.\n[…]\nCambrian period on In Our Time at the BBC\n[…]\nExamples of Cambrian Fossils\n[…]\nChronostratigraphy scale v.2018/08 | Cambrian"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cambriano",
+        "situacao": "ok",
+        "texto": "Na escala de tempo geológico, o Cambriano ou Câmbrico é o período da era Paleozoica do éon Fanerozoico que está compreendido entre há 538,8 milhões e 486,85 milhões de anos, aproximadamente. O período Cambriano sucede o período Ediacarano da era Neoproterozoica ou precambrico do éon Proterozoico e precede o período Ordoviciano de sua era. Divide-se nas épocas Terrenóvica, Cambriana Série 2, Miaolí\n[…]\nO nome Cambriano vem de Câmbria, que é a latinização de Cymru, o nome pelo qual os povos antigos que habitavam o País de Gales chamavam suas terras, onde foram encontrados os primeiros estratos rochosos deste período.\n[…]\nExistiam quatro continentes no Cambriano, três pequenos mais ou menos na região entre os trópicos: Laurência (parte central da América do Norte), Báltica (parte da Europa) e Sibéria (mesma região no leste russo); e um supercontinente no sul: Gondwana. Todos esses continentes eram de simples rocha nua e estéril, já que neste período ainda não existiam plantas, ainda que alguns especialistas acreditem que nas regiões mais úmidas poderia crescer um manto composto de fungos, algas e líquenes.\n[…]\nO Folhelho Burgess, na província canadense de Colúmbia Britânica é considerado por muitos como o mais importante sítio fossilífero do período Cambriano. Abaixo algumas espécies descritas no local:\n[…]\nAo final do período cambriano, em torno de há 500 milhões de anos, a Terra passou pela primeira extinção em massa de sua história. As causas desta extinção, assim como das demais extinções em massa, ainda são desconhecidas, embora muitos cientistas aceitem que o mais provável seria uma queda brusca na temperatura do planeta, ocasionando o primeiro caso de glaciação do éon Fanerozoico, registrado no período subsequente, o Ordoviciano.\n[…]\n«e-book sobre o período Cambriano (download)» (PDF)\n[…]\n«A Explosão Cambriana»\n[…]\n«O dilema da \"explosão cambriana\"» (em inglês)\n[…]\nThe Cambrian Explosion (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Ametista",
+      "descricao": "Variedade violeta do quartzo, usada como gema."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da ametista vem do grego e reflete a crença antiga de que essa pedra protegia contra o quê?",
+    "resposta": "A embriaguez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amethyst"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amethyst",
+        "situacao": "ok",
+        "texto": "Amethyst is a violet variety of natural quartz. Ancient Greeks wore amethyst and carved drinking vessels from it in the belief that it would prevent intoxication. Amethyst, a semiprecious stone, is often used in jewelry. It occurs mostly in association with calcite, quartz, smoky quartz, hematite, pyrite, fluorite, goethite, agate, and chalcedony.\n[…]\nHumbled by Amethyste's desire to remain chaste, Bacchus poured wine over the stone as an offering, dyeing the crystals purple.\n[…]\nTibetans consider amethyst sacred to the Buddha and make prayer beads from it. Amethyst is considered the birthstone of February.\n[…]\nAs amethyst is readily available in large structures, the value of the gem is not primarily defined by carat weight. This is different from most gemstones, since the carat weight typically exponentially increases the value of the stone. The biggest factor in the value of amethyst is the color displayed.\n[…]\nThe highest-grade amethyst (called deep Russian) is exceptionally rare. When one is found, its value is dependent on the demand of collectors; however, the highest-grade sapphires or rubies are still orders of magnitude more expensive than amethyst.\n[…]\nThe most suitable setting for gem amethyst is a prong or a bezel setting. The channel method must be used with caution.\n[…]\nAmethyst has a good hardness, and handling it with proper care will prevent any damage to the stone. Amethyst is sensitive to strong heat and may lose or change its colour when exposed to prolonged heat or light. Polishing the stone or cleaning it by ultrasonic or steamer must be done with caution.\n[…]\nKostov, R.I. (1992). Amethyst: A geological-mineralogical and gemmological essay (Report) (in Bulgarian). Sofia, Bulgaria: Union of Scientists in Bulgaria.\n[…]\nLieber, W. (1994). Amethyst: Geschichte, Eigenschaften, Fundorte. München, DE: Christian Weise Verlag."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ametista",
+        "situacao": "ok",
+        "texto": "A ametista é uma variedade violeta ou púrpura do quartzo, muito usada como ornamento. Tem valor 7 de dureza (em escala de Mohs). Diz-se que a origem de seu nome é do grego a, \"não\" e methuskein, \"intoxicar\", de acordo com a antiga crença de que esta rocha protegia seu dono da embriaguez. Entretanto, de acordo com o Rev. C. W. King, a palavra provavelmente é uma corruptela de um nome oriental da pe\n[…]\nA ametista foi usada como pedra preciosa pelos antigos egípcios e era amplamente empregada na antiguidade por entalhadores. Contas de ametista foram encontradas em túmulos anglo-saxônicos na Inglaterra.\n[…]\nAmarrada ao pulso esquerdo, a ametista, dizem, permite ao usuário ver o futuro nos sonhos. Ela repele pensamentos e ações malignos, dá um senso apurado para os negócios e previne contra a saúde ruim. A ametista atrai o amor e a boa sorte e ajuda a prevenir a embriaguez.\n[…]\nQuando gravada com os nomes do sol e da lua, diz-se que protege contra a feitiçaria. Um cavalo alado cortado numa ametista é um talismã de proteção para o cavalo e seus cavaleiros. Mergulhe uma ametista em água quente, retire-a, seque-a cuidadosamente e aplique sobre a dor de cabeça ou a dor de dente.\n[…]\nNa mitologia grega a cor roxa da Ametista é atribuída ao deus Dionísio, que, em uma história de paixão, derramou vinho sobre um cristal em sinal de arrependimento, transformando-o na pedra que conhecemos hoje.\n[…]\nA ametista é uma pedra muito durável e por isso é uma ótima escolha para o uso diário. Deve-se apenas tomar o cuidado de retirar a joia em atividades em que a pedra possa sofrer riscos (na verdade, pela dureza somente poderá ser riscada por topázio, safiras, diamantes, mas é necessário ter muitas joias assim). Ressalta-se que o risco maior e quebrá-la pelo impacto, ou se for um cristal de coleção, desfigurar a terminação das pirâmides hexagonais.\n[…]\nTomando-se este cuidado, a pedra estará sempre intacta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Diamante",
+      "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra diamante vem do grego adamas. O que esse termo grego significava?",
+    "resposta": "Inquebrável",
+    "distratores": [
+      "Brilhante",
+      "Transparente",
+      "Celestial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diamond"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Diamond",
+        "situacao": "ok",
+        "texto": "Diamond is a mineral form of the element carbon with its atoms arranged in a crystal structure called diamond cubic. Diamond is a tasteless, odorless, strong, brittle solid, a poor conductor of electricity, colorless in pure form, and insoluble in water. Another solid form of carbon known as graphite is the chemically stable form of carbon at room temperature and pressure, but diamond is metastabl\n[…]\nThe name diamond is derived from Ancient Greek: ἀδάμας (adámas), 'proper, unalterable, unbreakable, untamed', from ἀ- (a-), 'not' + δαμάω (damáō), 'to overpower, tame'. Diamonds are thought to have been first recognized and mined in India, where significant alluvial deposits of the stone could be found many centuries ago along the rivers Penner, Krishna, and Godavari. Diamonds have been known in India for at least 3,000 years but most likely 6,000 years.\n[…]\nMarketing has significantly affected the image of diamond as a valuable commodity.\n[…]\nSynthetic diamonds are diamonds manufactured in a laboratory, as opposed to diamonds mined from the Earth. The gemological and industrial uses of diamond have created a large demand for rough stones. This demand has been satisfied in large part by synthetic diamonds, which have been manufactured by various processes for more than half a century. However, in recent years it has become possible to produce gem-quality synthetic diamonds of significant size.\n[…]\nA diamond simulant is a non-diamond material that is used to simulate the appearance of a diamond, and may be referred to as diamante. Cubic zirconia is the most common. The gemstone moissanite (silicon carbide) can be treated as a diamond simulant, though more costly to produce than cubic zirconia. Both are produced synthetically.\n[…]\nList of diamonds\n[…]\nTyson P (November 2000). \"Diamonds in the Sky\". The Diamond Deception. Nova. PBS. Retrieved January 2, 2023.\n[…]\nProperties of diamond: Ioffe database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Diamante",
+        "situacao": "ok",
+        "texto": "O diamante é um cristal sob uma forma alotrópica do carbono, de fórmula química C. É a forma triangular estável do carbono em pressões acima de 6 GPa (60 kbar). Comercializados como pedras preciosas, os diamantes possuem um alto valor agregado. Normalmente, o diamante cristaliza com estrutura cúbica e pode ser sintetizado industrialmente. Outra forma de cristalização do diamante é a hexagonal, men\n[…]\nContribuições significativas para o nosso conhecimento da dureza do diamante e sua relação com a estrutura do cristal e com o corte para gemas e propósitos industriais foram feitas por W. Fr. Eppler, H. Rose, K. Schlossmacher e H. Bergheimer.\n[…]\nOs diamantes são lipofílicos e hidrofóbicos, o que significa que a superfície de um diamante não pode ser molhada por água mas pode facilmente perder o brilho ou ser molhada por óleo.\n[…]\nOs diamantes no manto formam-se através de um processo metassomático onde um fluido ou magma C–O–H–N–S dissolve minerais numa rocha e os substitui por novos minerais. (O termo vago C–O–H–N–S é vulgarmente utilizado porque a composição exata não é conhecida.) Os diamantes formam-se a partir deste fluido, quer por redução do carbono oxidado (ex: CO2 ou CO3), quer por oxidação de uma fase reduzida como o metano.\n[…]\nUm diamante pode ser usado para a armazenagem de informações quânticas teletransportadas com segurança. Essa conquista pode ter implicações significativas para a tecnologia de informação quântica de como as informações confidenciais são compartilhadas e armazenadas.\n[…]\nPeso: O peso de um Diamante é medido em quilates (ct), termo que vem do inglês carat, sendo que 01 quilate corresponde a 0,2 gramas. A unidade de quilate é padronizada internacionalmente e é uma das quatro variáveis fundamentais na avaliação de Diamantes, conhecidas como 4Cs. O valor de um Diamante não aumenta conforme o aumento do peso.\n[…]\n(em inglês) World Diamond Bourse\n[…]\n«Ferramentas Diamantadas»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Gondwana",
+      "descricao": "Antigo supercontinente do hemisfério sul que reunia América do Sul, África, Antártida, Austrália e Índia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do supercontinente Gondwana, que unia Brasil, África e Antártida, foi tirado de uma região de qual país?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gondwana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gondwana",
+        "situacao": "ok",
+        "texto": "Gondwana ( gon-DWAHN-ə; Sanskrit: गोण्डवन, romanized: Gōṇḍavana, lit. 'forest of the Gonds', pronounced [goːɳɖɐʋɐnɐ]) was a large landmass, sometimes referred to as a supercontinent. The remnants of Gondwana make up around two-thirds of today's continental area, including South America, Africa, Antarctica, Australia, Zealandia, Arabia, and the Indian subcontinent.\n[…]\nGondwana was formed by the accretion of several cratons (large stable blocks of the Earth's crust), beginning c. 800 to 650 Ma with the East African Orogeny, the collision of India and Madagascar with East Africa, and culminating in c. 600 to 530 Ma with the overlapping Brasiliano and Kuunga orogenies, the collision of South America with Africa, and the addition of Australia and Antarctica, respectively.\n[…]\nSome scientists prefer the term \"Gondwanaland\" for the supercontinent to make a clear distinction between the region and the supercontinent.\n[…]\nAs the rest of Gondwana formed, a complex series of orogenic events assembled the eastern parts of Gondwana (eastern Africa, Arabian-Nubian Shield, Seychelles, Madagascar, India, Sri Lanka, East Antarctica, Australia) c. 750 to 530 Ma. First, the Arabian-Nubian Shield collided with eastern Africa (in the Kenya-Tanzania region) in the East African Orogeny c.750 to 620 Ma. Then Australia and East Antarctica were merged with the remaining Gondwana c. 570 to 530 Ma in the Kuunga Orogeny.\n[…]\nEast Gondwana, comprising Antarctica, Madagascar, India, and Australia, began to separate from Africa. East Gondwana then began to break up c. 132.5 to 96 Ma when India moved northwest from Australia-Antarctica. The Indian plate and the Australian plate are now separated by the Capricorn plate and its diffuse boundaries. During the opening of the Indian Ocean, the Kerguelen hotspot first formed the Kerguelen Plateau on the Antarctic plate c."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gondwana",
+        "situacao": "ok",
+        "texto": "O supercontinente do sul Gondwana ou Gonduana  foi  um grande continente que incluía a maior parte das zonas de terra firme que hoje constituem os continentes do hemisfério sul, incluindo a Antártida, América do Sul, África, Madagáscar, Seicheles, Oceania, Nova Guiné, Nova Zelândia, Nova Caledónia além da Índia no hemisfério norte.\n[…]\nO termo original para designar o supercontinente que haveria ao sul, Gondwanaland (também conhecido em língua portuguesa como Gonduanalândia), foi cunhado pelo geólogo inglês Eduard Suess em 1861, em referência à região de Gondwana, na Índia, onde a flora de Glossopteris, plantas fósseis permianas, foi encontrada pela primeira vez.\n[…]\nVários dados de informação de Gondwana não são compreendidos na sua totalidade, pois não possuem dados paleomagnéticos. Esses dados foram subtraídos depois de amalgamações promovidas pelas orogenias Pan-Africanas que levam a formação de um outro supercontinente mais antigo, Rodínia. Quatro cinturões orogenéticos são observadas:\n[…]\nMoçambique Belt, formada  entre 800 a 650 Ma interpretaram como sutura entre o oriente (Índia, Madagascar, Antártida e Austrália) e Gondwana ocidental (África e América do sul).\n[…]\nOrogenia do leste africano entre 800 a 650 Ma.\n[…]\nOrogenia Brasiliano em 660 a 530 Ma onde houve colisões sucessivas entre a América do sul e a África.\n[…]\nDa Turquia ao nordeste da Índia: os Taurides no sul da Turquia; o Menor Cáucaso Terrane na Geórgia; os terranes Sanand, Alborz e Lut no Irã; o Mangysglak ou Kopetdag Terrane no Mar Cáspio; o Terrane afegão; o Karakorum Terrane no norte do Paquistão; e os terráqueos Lhasa e Qiangtang no Tibete. O alargamento permiano-triássico dos Neo-Tethys empurrou todos esses terranes através do Equador e para a Eurásia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Cabelo de Pele",
+      "descricao": "Fios finos de vidro vulcânico formados quando gotas de lava são esticadas pelo vento, comuns no Havaí."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os fios dourados de vidro vulcânico que o vento espalha no Havaí receberam o nome do cabelo de qual deusa?",
+    "resposta": "Pele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pele%27s_hair"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pele%27s_hair",
+        "situacao": "ok",
+        "texto": "Pele's hair is the name given to clumps of basalt fibers formed from volcanic glass when lava is stretched into thin strands during cooling, usually from lava fountains, lava cascades, or fierce lava flows. They are named after Pele, the Hawaiian goddess of volcanoes.\n[…]\nPele's hair has a golden yellow color and looks like human hair or dry straw. In sunlight, it has a shimmering gold color. Length varies considerably, but is typically 5 to 15 cm, and can be up to 2 m. Hair diameter ranges from about 1 to 300 μm (0.001 to 0.3 mm).\n[…]\nPele's hair is very brittle and very sharp, and small broken pieces can enter the skin.\n[…]\nWind often carries the light fibers high into the air and to places several kilometers away from the vent. Strands of Pele's hair commonly gather on high places like treetops, radio antennas, and electric poles.\n[…]\nPele's hair has been produced by volcanoes around the world, for example in Nicaragua (Masaya), Italy (Etna), Ethiopia (Erta’ Ale), and Iceland, where it is known as nornahár [ˈnɔ(r)tnaˌhauːr̥] ('witches' hair'). It is usually found in gaps in the ground, mostly near vents, skylights, ocean entry, or in corners where Pele's hair can accumulate.\n[…]\nPele's hair may occur along with Pele's tears, small pieces of solidified lava drops. Both provide information to  volcanologists about the eruption, such as the temperatures and the magma's path to the surface. Plagioclase starts to crystallize from the magma of Pele's hair at around 1,160 °C (about 2120 °F).\n[…]\nPotuzak, M.; Dingwell, D.B.; Nichols, A.R.L. (2006). Hyperquenched Subaerial Pele’s Hair Glasses from Kilauea Volcano, Hawaii European Geosciences Union, Vol. 8. pp.?\n[…]\nHawaii: Pele's Hair (Volcanic Glass) (video)\n[…]\nUSGS Photo Glossary: Pele's hair\n[…]\nLauoho Ehuehu a Pele\n[…]\nLauoho o Pele"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cabelos_de_Pele",
+        "situacao": "ok",
+        "texto": "Os cabelos de Pele são fios finos feitos de vidro vulcânico formados em escoada lávica velozes em erupções vulcânicas havaianas. Um fio com menos de 0,5 mm de diâmetro pode chegar a medir 2 metros de comprimento. O nome ''Pele'' vem da deusa dos vulcões da mitologia havaiana. Esses fios são produzidos quando os gases acumulados saem em direção à superfície, fazendo surgir um material que parece um\n[…]\nPele (mitologia)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Pedra-sabão",
+      "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por ser macia e ter toque escorregadio, a rocha chamada esteatita ganhou qual nome popular em português?",
+    "resposta": "Pedra-sabão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+      "https://en.wikipedia.org/wiki/Soapstone"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+        "situacao": "ok",
+        "texto": "Esteatite (também pedra de talco ou pedra-sabão) é uma rocha metamórfica, compacta, composta sobretudo de talco (também chamado de esteatite ou esteatita), mas contendo muitos outros minerais como magnesita, clorita, tremolita e quartzo, por exemplo. É uma rocha muito branda e de baixa dureza, por conter grandes quantidades de talco na sua constituição. A pedra-sabão é encontrada em cores que vão \n[…]\nAlgumas tribos da América do Norte utilizavam a pedra-sabão para produzir tigelas, recipientes para cozinha e outros objetos; historicamente, este hábito era particularmente comum durante o chamado período arqueológico arcaico. Outras tribos faziam cachimbos de pedra-sabão para fumar tabaco; inúmeros exemplares já foram encontrados em artefatos de diferentes culturas de nativos norte-americanos e outros continuam em uso nos dias de hoje.\n[…]\nOs Iorubás do oeste da Nigéria utilizavam pedra-sabão em muitas estátuas, especialmente em Esie, onde arqueologistas descobriram centenas de estátuas de homens e mulheres do tamanho de metade de uma pessoa. Os Iorubás de Ifé também produziram um obelisco em miniatura de pedra-sabão com  animais de metal chamada supersticiosamente de \"os empregados de Oranmiyan\".\n[…]\nA pedra-sabão também é bastante utilizada pelos chineses para a confecção de selos (em forma de carimbo) para a assinatura de cartas e documentos.\n[…]\nA pedra-sabão é comumente utilizada como isolante elétrico ou como caixa de força que abriga componentes elétricos, devido à sua durabilidade e baixa condutividade elétrica, e porque pode ser moldada em formatos complexos mediante fundição. O esteatito sofre transformações nas suas propriedades físico-químicas quando aquecido em temperaturas de 1000–1200 °C, convertendo-se em enstatita e cristobalita. Na escala Mohs, esta transformação corresponde a um aumento de dureza de 1 para 5.5–6.5.\n[…]\nSite sobre a Pedra-Sabão."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Soapstone",
+        "situacao": "ok",
+        "texto": "Soapstone (also known as steatite or soaprock) is a talc-schist, which is a type of metamorphic rock. It is composed largely of the magnesium-rich mineral talc. It is produced by dynamothermal metamorphism and metasomatism, which occur in subduction zones, changing rocks by heat and pressure, with influx of fluids but without melting. It has been a carving medium for thousands of years.\n[…]\nSome of the oldest towns, notably Congonhas, Tiradentes, and Ouro Preto, still have some of their streets paved with soapstone from colonial times.\n[…]\nMining to meet worldwide demand for soapstone is threatening the habitat of India's tigers.\n[…]\nThe Occupational Safety and Health Administration has set the legal limit (permissible exposure limit) for soapstone exposure in the workplace as 20 million particles per cubic foot over an 8-hour workday. The National Institute for Occupational Safety and Health has set a recommended exposure limit of 6 mg/m3 total exposure and 3 mg/m3 respiratory exposure over an 8-hour workday. At levels of 3000 mg/m3, soapstone is immediately dangerous to life and health.\n[…]\nThe local names for the soapstone vary: in Vermont, \"grit\" is used, in Georgia \"white-grinding\" and \"dark-grinding\" varieties are distinguished, and California has \"soft\", \"hard\", and \"blue\" talc. Also:\n[…]\nPalewa and gorara stones are types of Indian soapstone.\n[…]\nA variety of other regional and marketing names for soapstone are used.\n[…]\nSoapstone Calculated Refractory Data w/ Technical Properties Converter (Incl. Soapstone Volume vs. Weight measuring units)\n[…]\nAncient soapstone bowl (The Central States Archaeological Journal)\n[…]\nSoapstone Native American quarries, Maryland Archived 2017-07-06 at the Wayback Machine (Geological Society of America)\n[…]\nPrehistoric soapstone use in northeastern Maryland (Antiquity Journal)\n[…]\nThe Blue Rock Soapstone Quarry, Yancey County, NC (North Carolina Office of State Archaeology)"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Pirita",
+      "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Garimpeiros que confundiam a pirita com o metal precioso deram a ela qual apelido zombeteiro?",
+    "resposta": "Ouro de tolo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyrite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyrite",
+        "situacao": "ok",
+        "texto": "The mineral pyrite ( PY-ryte), or iron pyrite, also known as fool's gold, is an iron sulfide with the chemical formula FeS2 (iron (II) disulfide). Pyrite is the most abundant sulfide mineral.\n[…]\nPyrite detectors can be as sensitive as a modern 1N34A germanium diode detector.\n[…]\nA newer commercial use for pyrite is as the cathode material in Energizer brand non-rechargeable lithium metal batteries.\n[…]\nArsenopyrite has a related structure with heteroatomic As–S pairs rather than S-S pairs. Marcasite also possesses homoatomic anion pairs, but the arrangement of the metal and diatomic anions differs from that of pyrite. Despite its name, chalcopyrite (CuFeS2) does not contain dianion pairs, but single S2− sulfide anions.\n[…]\nThese problems included a foul odor and corrosion of copper wiring. In the United States, in Canada, and more recently in Ireland, where it was used as underfloor infill, pyrite contamination has caused major structural damage.\n[…]\nNormalized tests for construction aggregate certify such materials as free of pyrite or marcasite.\n[…]\nIn the beliefs of the Thai people (especially those in the south), pyrite is known as Khao tok Phra Ruang, Khao khon bat Phra Ruang (ข้าวตอกพระร่วง, ข้าวก้นบาตรพระร่วง) or Phet na tang, Hin na tang (เพชรหน้าทั่ง, หินหน้าทั่ง). It is believed to be a sacred item that has the power to prevent evil, black magic or demons.\n[…]\nDavid Rickard, Pyrite: A Natural History of Fool's Gold, Oxford / New York, 2015, ISBN 978-0-19-020367-2.\n[…]\nPyrite.Virtual Museum of Mineralogy. Universidad de Zaragoza, Spain\n[…]\nEducational article about the famous pyrite crystals from the Navajun Mine\n[…]\nHow Minerals Form and Change \"Pyrite oxidation under room conditions\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pirita",
+        "situacao": "ok",
+        "texto": "Pirita (português brasileiro) ou pirite (português europeu), também pirite de ferro ou pirita de ferro é um dissulfeto de ferro, FeS2. Tem os cristais isométricos que aparecem geralmente como cubos, mas também frequentemente como octaedros ou piritoedros (dodecaedros com faces pentagonais). Tem uma fratura ligeiramente desigual e conchoidal, uma dureza de 6-6.5 na escala de Mohs, e uma densidade d\n[…]\nDevido ao seu brilho metálico e à cor amarelo-dourada, recebeu também o apelido de ouro-dos-tolos (ou ouro-dos-parvos); ironicamente, contudo, pequenas quantidades de ouro podem às vezes ser encontradas disseminadas nas piritas. Com efeito, dependendo da quantidade de ouro, a pirita aurífera pode mesmo ser uma fonte valiosa deste metal precioso. Em piritas podem ocorrer também arsênio, níquel, cobalto e cobre.\n[…]\nPirita é confundida frequentemente com o mineral marcassita, um nome derivado da palavra árabe para pirita, por terem a mesma composição química e propriedades físicas similares.\n[…]\nUm elemento extra de confusão entre marcassita e pirita é o uso desta palavra (marcassita) no comércio da joia: o termo é aplicado às pedras lustradas e facetadas, pequenas, que são embutidas na prata esterlina, mas mesmo que sejam chamadas marcassita, são na realidade pirita.\n[…]\nCalcopirita (CuFeS2) é também chamado de \"pirita de cobre\". Ao ser minerado, o mineral tende a apresentar-se inicialmente com uma coloração amarelo-dourada, mas ao ser exposto ao ar, pode tornar-se iridescente. A calcopirita é tratada às vezes com um ácido para revelar as cores vívidas. A ocorrência de cristais na calcopirita é muito rara, e ela encontra-se geralmente maciça. Ocorre em todas as partes do mundo.\n[…]\nPirrotita é um sulfeto de ferro e níquel. Tem cor semelhante à da pirita, mas, ao contrário desta, é magnético.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Rodínia",
+      "descricao": "Supercontinente que existiu há cerca de um bilhão de anos, muito antes da Pangeia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Rodínia, supercontinente bem mais antigo que a Pangeia, tem nome tirado de uma palavra que significa terra natal em qual idioma?",
+    "resposta": "Russo",
+    "distratores": [
+      "Grego",
+      "Latim",
+      "Alemão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rodinia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rodinia",
+        "situacao": "ok",
+        "texto": "In the geological history of Earth, Rodinia (from Russian  родина (rodina) 'motherland, birthplace') was a Mesoproterozoic and Neoproterozoic supercontinent that assembled 1.26–0.90 billion years ago (GaTooltip gigaannus) and broke up 750–633 million years ago (Ma). Valentine & Moores (1970) were probably the first to recognise a Precambrian supercontinent, which they named \"Pangaea I\".\n[…]\nIt was renamed \"Rodinia\" by McMenamin & McMenamin (1990), who also were the first to produce a plate reconstruction and propose a temporal framework for the supercontinent.\n[…]\nThis idea rejects that Rodinia ever existed as a transient supercontinent subject to progressive break-up in the late Proterozoic and instead that this time and earlier times were dominated by a single, persistent \"Paleopangaea\" supercontinent. As evidence, he suggests an observation that the palaeomagnetic poles from the continental crust assigned to this time conform to a single path between 825 and 633 Ma and latterly to a near-static position between 750 and 633 Ma.\n[…]\nRifting progressed in the same cratons 800–750 Ma and spread into Laurentia and perhaps Siberia. India (including Madagascar) and the Congo–São Francisco Craton were either detached from Rodinia during this period or simply never were part of the supercontinent.\n[…]\nUnlike later supercontinents, Rodinia was entirely barren. It existed before complex life colonized on dry land. Based on sedimentary rock analysis, Rodinia's formation happened when the ozone layer was not as extensive as it is now. Ultraviolet light discouraged organisms from inhabiting its interior. Nevertheless, its existence significantly influenced the marine life of its time.\n[…]\nSupercontinent cycle\n[…]\nScotese Animation: Breakup of Rodinia & Formation of Pacific Ocean\n[…]\nIGCP Special Project 440: mapping Proterozoic supercontinents, including Rodinia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rod%C3%ADnia",
+        "situacao": "ok",
+        "texto": "Em geologia, Rodínia refere-se a um supercontinente que existia e se rompeu na era Neoproteozóica.\n[…]\nAcredita-se que este supercontinente formou-se há 1 bilhão de anos e que abrangia a maior parte da porção continental da Terra. Acredita-se que quebrou-se em oito continentes cerca de 750 milhões de anos atrás. Durante a época em que existiu este super continente a Terra ficou toda congelada (hipótese da Terra bola de neve), com temperaturas muito baixas e seu oceano tendo uma capa de gelo que poderia ter em torno de um quilômetro de profundidade.\n[…]\nAntes da glaciação, o supercontinente em formação abrigava vastas regiões áridas, sem qualquer forma de vida vegetal ou animal\n[…]\nOs movimentos dos continentes antes da formação de Rodínia são incertos. Entretanto os movimentos das massas continentais após o rompimento do supercontinente são melhor compreendidos e continuam sendo objetos de pesquisa. Os oito continentes que compunham Rodínia foram posteriormente reunidos em outro supercontinente chamado Panótia e, depois, Pangeia.\n[…]\nOs vestígios de Rodínia podem ser encontrados pela América do Sul. No Brasil podem ser representados pelo cráton São Luís, pela província Borborema, pelo bloco Parnaíba, pelos crátons São Francisco e Paranapanema, pelo bloco Rio Apa, pelo cráton Luiz Alves, pelo maciço Curitiba, parte do cráton Rio da Plata, sendo o principal vestígio o cráton Amazônico que compreende vários estados do Norte do Brasil e parte da região Centro-Oeste.\n[…]\nRodínia vem da palavra russa e búlgara Rodina que significa \"terra natal\" e é usada em vários contextos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Terra roxa",
+      "descricao": "Solo avermelhado e fértil do sul e sudeste do Brasil, formado pela decomposição do basalto e famoso pelas lavouras de café."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que um solo de cor vermelha, típico das lavouras de café do Paraná e de São Paulo, ficou conhecido como terra roxa?",
+    "resposta": "Do italiano rossa, vermelha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Terra_roxa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Terra_roxa",
+        "situacao": "ok",
+        "texto": "O latossolo roxo, também conhecido por terra roxa, é um tipo de solo avermelhado muito fértil, caracterizado por ser o resultado de milhões de anos de decomposição de rochas basálticas. Essas rochas basálticas, pertencentes à Formação Serra Geral, se originaram do maior derrame vulcânico que o planeta já presenciou, causado pela separação do antigo supercontinente Gondwana nos atuais continentes A\n[…]\nO nome \"terra roxa\" é um equívoco. Os imigrantes italianos que trabalhavam nas fazendas de café referiam-se ao solo pelo nome terra rossa, já que rosso em italiano significa \"vermelho\". Os brasileiros aportuguesaram o termo italiano, então, para \"terra roxa\".\n[…]\nNo Brasil, esse tipo de solo aparece na metade norte do estado do Rio Grande do Sul, nas porções ocidentais de Santa Catarina, Paraná, São Paulo, sul e sudoeste de Minas Gerais, em todo o sul e leste de Mato Grosso do Sul, além de Goiás e outros estados do Centro-Oeste destacando-se, sobretudo, nos últimos quatro estados por sua qualidade.\n[…]\nHistoricamente falando, esse solo teve muita importância, já que, no Brasil, durante o fim do século XIX e o início do século XX, foram plantadas nestes domínios grandes lavouras de café, fazendo com que surgissem várias ferrovias e propiciando o crescimento de cidades como Maringá e Londrina no Paraná, Ribeirão Preto, Jaú e Campinas em São Paulo e Dourados no Mato Grosso do Sul, além de Passo Fundo no Rio Grande do Sul (nesta última inclusive o solo é homenageado no maior estádio local).\n[…]\nAtualmente, além do café, são plantadas outras culturas, como algodão, cana-de-açúcar e laranja.\n[…]\nO solo de \"terra roxa\" também existe na Argentina, onde é conhecida como tierra colorada (\"terra vermelha\"). Está bastante presente nas províncias de Misiones e Corrientes."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Pedra-pomes",
+      "descricao": "Rocha vulcânica muito porosa e leve, formada por lava rica em gases que esfria rapidamente."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a pedra-pomes, rocha vulcânica usada para lixar os pés, consegue boiar na água?",
+    "resposta": "É cheia de bolhas de gás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pumice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pumice",
+        "situacao": "ok",
+        "texto": "Pumice ( ), called pumicite in its powdered or dust form, is a volcanic rock that consists of extremely vesicular rough-textured volcanic glass, which may or may not contain crystals. It is typically light-colored. Scoria is another vesicular volcanic rock that differs from pumice in having larger vesicles, thicker vesicle walls, and being dark-colored and denser.\n[…]\nPumice rock fragments are inorganic therefore no decomposition and little compaction occur.\n[…]\nOne of the main uses of pumice currently in the United States is manufacturing concrete. This rock has been used in concrete mixtures for thousands of years and continues to be used in producing concrete, especially in regions close to where this volcanic material is deposited.\n[…]\nNew studies prove a broader application of pumice powder in the concrete industry. Pumice can act as a cementitious material in concrete and researchers have shown that concrete made with up to 50% pumice powder can significantly improve durability yet reduce greenhouse gas emissions and fossil fuel consumption.\n[…]\nUniversity of Oxford image of pumice. Retrieved 27 September 2010.\n[…]\nSterba, Johannes H.; Foster, Michaela; Bichler, Max; Vasilatos, Charalampos; Stamatakis, Michael G. (2010). \"Analytical identification of a single source pumice from Greek shores and ancient sites in the Levant\". Hellenic Journal of Geosciences. 45: 293–298. hdl:20.500.12708/168308.\n[…]\nBathrellos, George; Vasilatos, Charalampos; Skilodimou, Hariklia; Stamatakis, Michael (2009). \"On the occurrence of a pumice-rich layer in Holocene deposits of western Peloponnesus, Ionian Sea, Greece. A geomorphological and geochemical approach\". Open Geosciences. 1 (1): 19. Bibcode:2009CEJG....1...19B. doi:10.2478/v10085-009-0006-7.\n[…]\nHess Pumice Archived 14 March 2020 at the Wayback Machine – White papers and technical info of pumice."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pedra-pomes",
+        "situacao": "ok",
+        "texto": "Pedra-pomes (do lat. pūmex, pūmicis m.), ou púmice, é uma rocha vulcânica produzida quando na fase de ejecção os gases contidos na lava formam um coloide com os materiais em fusão. Por arrefecimento, este coloide, uma verdadeira espuma de rocha em fusão, solidifica sob a forma de uma rocha vítrea esponjosa de muito baixa densidade, com superfície áspera e abrasiva e textura profusamente vesicular \n[…]\nEm consequência de a formação e preservação das vesículas depender desse mecanismo de arrefecimento e exsolução rápidos, a pedra-pomes apenas se forma durante eventos vulcânicos explosivos, quando lava líquida rica em gases vulcânicos é projectada, formando pedaços de espuma constituídos por material lávico recheado por bolhas de gás que aumentam rapidamente de volume com a redução da pressão, aquando da saída da lava para a atmosfera.\n[…]\nA pedra-pomes é composta por vidro vulcânico piroclástico de microvesicular, cujas bolhas têm paredes muito finas e translúcidas de rocha ígnea do tipo extrusivo. Esta rocha geralmente é formada, embora não exclusivamente, por material de composição silícica (félsica) a intermédia (riolítica, dacítica, andesítica, pantelerítica, fonolítica ou traquítica), mas são conhecidos casos de formação de materiais pomíticos a partir de lavas basálticas e de outras composições mais ou menos máficas.\n[…]\nA pedra-pomes é geralmente de cor clara, variando do branco ou creme ao azulado e ao cinzento, mas existem variedades verde-acastanhadas e pretas. Forma-se quando os gases vulcânicos exsolvem de magmas viscosos, formando bolhas que permanecem aprisionadas na lava quando esta  esfria e solidifica num vidro vulcânico. A pedra-pomes é um produto comum das erupções explosivas (plinianas e produtoras de ignimbritos), ocorrendo com maior frequência nas parte superiores das massas de lava silícica.\n[…]\nUniversity of Oxford image of pumice. Retrieved 2010-09-27.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Himalaia",
+      "descricao": "Cordilheira da Ásia que reúne as montanhas mais altas do planeta, como o Everest."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Himalaia continua subindo porque a placa da Índia segue empurrando qual outra placa tectônica?",
+    "resposta": "Placa Euroasiática",
+    "distratores": [
+      "Placa Africana",
+      "Placa Arábica",
+      "Placa do Pacífico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Himalayas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Himalayas",
+        "situacao": "ok",
+        "texto": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the highest peaks on Earth, including the highest, Mount Everest. More than 100 peaks exceeding elevations of 7,200 metres (23,600 feet) above sea level lie in the Himalayas.\n[…]\nThe collision of India with Eurasia closed the Neo-Tethys Ocean. The suture zone (in this instance, the remnants of the Neo-Tethys subduction zone pinched between the two continental crusts), which marks India's welding to Eurasia, is called the Indus-Yarlung suture zone. It lies north of the Himalayas. The headwaters of the Indus River and the Yarlung Tsangpo (later in its course, the Brahmaputra) flow along this suture zone.\n[…]\nDuring the India-Eurasia collision, two elongated protrusions located on either side of the northern border of the Indian continent generated areas of extreme deformation. A point where mountain ranges with different directions of extension, and thus formed by tectonic forces at varying angles, converge is called a syntaxis (Greek: convergence).\n[…]\nToday, the Indian plate continues to be driven horizontally at the Tibetan Plateau, which forces the plateau to continue to move upwards. The Indian plate is moving at 67 mm (2.6 in) per year, and over the next 10 million years, it will travel 1,500 km (930 mi) into Asia. Approximately 20 mm per year of the India–Asia convergence is absorbed by thrusting along the Himalaya southern front. This leads to the Himalayas rising by about 5 mm annually, making them geologically active.\n[…]\nFrisch, Wolfgang; Meschede, Martin; Blakey, Ronald (2011). Plate Tectonics: Continental Drift and Mountain Building. Heidelberg: Springer. doi:10.1007/978-3-540-76504-2. ISBN 978-3-540-76503-5.\n[…]\nBirth of the Himalaya"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Himalaias",
+        "situacao": "ok",
+        "texto": "Himalaias são a mais alta cadeia montanhosa do mundo, localizada entre a planície indo-gangética, ao sul, e o planalto tibetano, ao norte. A cordilheira abrange cinco países (Paquistão, Índia, China (região do Tibete), Nepal e Butão) e nela se situa a montanha mais alta do planeta, o Monte Everest. O nome Himalaia vem do sânscrito e significa \"morada da neve\".\n[…]\nOs Himalaias estão entre as formações montanhosas mais jovens do planeta. De acordo com a moderna teoria das placas tectônicas, sua formação é resultado de uma colisão continental, ou então do processo de orogenia (isto é, processo de formação de montanhas) entre os limites convergentes entre as placas Indo-australiana e da Eurásia. A colisão iniciou-se no Cretáceo Superior há cerca de 70 milhões de anos, quando a placa Indo-australiana se moveu rumo ao norte e colidiu com a placa da Eurásia.\n[…]\nHá cerca de 50 milhões de anos, com a movimentação rápida da placa Indo-australiana, a junção já havia se estabelecido. Entretanto, a placa continua a movimentar-se horizontalmente para baixo do planalto do Tibete, forçado a ascendência do planalto. As montanhas de Arakan-Yoma em Mianmar e as ilhas Andamão e Nicobar na Baía de Bengala também se formaram em decorrência dessa colisão.\n[…]\nA placa Indo-australiana ainda se move numa proporção de 67 mm/ano, e nos próximos dez milhões de anos avançará cerca de 1 500 km para o interior da Ásia. Cerca de 20 mm/ano da convergência da Índia com a Ásia é absorvida pelo empuxo ao longo da frente sul dos Himalaias. Isto leva os Himalaias a elevarem-se cerca de 5 mm/ano; fazendo com que eles sejam geologicamente ativos.\n[…]\nO movimento da placa indiana em direção à placa eurasiática também faz esta região ser sismicamente ativa, induzindo terremotos periodicamente.\n[…]\nHimalaias de Bengala\n[…]\n«Algumas montanhas dos Himalaias»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Pré-sal",
+      "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A camada de sal que cobre o petróleo do pré-sal surgiu quando a América do Sul se separava de qual continente?",
+    "resposta": "África",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pre-salt_layer",
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pre-salt_layer",
+        "situacao": "ok",
+        "texto": "The pre-salt layer is a diachronous series of geological formations on the continental shelves of extensional basins formed after the break-up of Gondwana, characterized by the deposition of thick layers of evaporites, mostly salt. Some of the petroleum that was generated from sediments in the pre-salt layer has not migrated upward to the post-salt layers above due to salt domes. This is especiall\n[…]\nThe oil reserves found in the pre-salt layer of the Brazilian coast are within the maritime area considered the exclusive economic zone of Brazil. They are reserves with oil considered of medium to high quality, according to the API scale.\n[…]\nThe set of pre-salt oil fields extends along the coast from the state of Espírito Santo in the north, as far as Santa Catarina in the south, where the ocean depths range from 1,000 to 2,000 meters, and is found between 4,000 and 6,000 meters deep in the subsoil, thus reaching up to 8,000 meters below sea level, including a salt layer ranging from 200 to 2,000 meters thick.\n[…]\nThe current findings from Petrobras and other companies in the province of the pre-salt, located in the Brazilian continental shelf, implicate reserves of over 50 billion barrels of oil, a volume four times greater than the current national reserves, roughly 14 billion barrels.\n[…]\nThe first pre-salt discoveries in Angola were the Denden-1 well in Block 9 in 1983, operated by Cities Services at the time, and the Baleia-1A well on Block 20 in 1996, operated by Mobil (now ExxonMobil). Both blocks are now operated by the U.S.-based Cobalt International Energy. The Danish company Maersk Oil made the first recent pre-salt discovery in the Kwanza Basin in late 2011 with the Azul well on Block 23. Maersk continues to study the results of the well and plans to appraise it.\n[…]\n\"Pre-Salt Oil & Gas News\". April 2011."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal",
+        "situacao": "ok",
+        "texto": "Em geologia e na indústria do petróleo, pré-sal designa conjuntos de rochas e reservatórios situados abaixo de espessas camadas de sal. No Atlântico Sul, essas formações estão associadas à separação da América do Sul e da África e à abertura do oceano, ocorrida a partir do Cretáceo. Sedimentos ricos em matéria orgânica, rochas carbonáticas que funcionam como reservatórios e a cobertura de sal form\n[…]\nA origem deste depósito está ligada à deriva dos continentes e à formação do Atlântico Sul, na separação da América do Sul e da África.\n[…]\nAtualmente as principais áreas de exploração petrolífera com reservas potenciais ou prováveis já identificadas na faixa pré-sal estão no litoral do Atlântico Sul. Na porção sul-americana está a grande reserva do pré-sal no litoral do Brasil, enquanto, no lado africano, existem áreas pré-sal em processo de exploração (em busca de petróleo) e mapeamento de reservas possíveis no Congo (Brazzaville) e no Gabão.\n[…]\nAlém do Atlântico Sul, especificamente nas áreas atlânticas da América do Sul e da África, também existem camadas de rochas pré-sal sendo mapeadas à procura de petróleo no Golfo do México e no Mar Cáspio, na zona marítima pertencente ao Cazaquistão.\n[…]\nEntre 300 e 200 milhões de anos havia um único continente, a Pangeia, que há cerca de 200 milhões de anos se subdividiu em Laurásia e Gondwana. Há aproximadamente 140 milhões de anos teve início o processo de separação entre as duas placas tectônicas sobre as quais estão os continentes que formavam o Gondwana, os atuais continentes da África e América do Sul. No local em que ocorreu o afastamento da África e América do Sul, formou-se o que é hoje o Atlântico Sul.\n[…]\nA grande diferença deste último é que o sal é alóctone (vindo de outras regiões), enquanto o brasileiro e o africano são autóctones (formado nessas regiões) (Mohriak et al., 2004).\n[…]\n«O que é a camada pré-sal?»\n[…]\n«Petróleo e o pré-sal»"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Extinção do Permiano-Triássico",
+      "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A Grande Morte, extinção em massa do fim do Permiano, é atribuída principalmente a erupções gigantescas em qual região?",
+    "resposta": "Sibéria",
+    "distratores": [
+      "Islândia",
+      "Península de Yucatán",
+      "Havaí"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event",
+      "https://en.wikipedia.org/wiki/Siberian_Traps"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event",
+        "situacao": "ok",
+        "texto": "The Permian–Triassic extinction event, colloquially known as the Great Dying, was an extinction event that occurred around the boundary between the Permian and Triassic geologic periods, and with them the Paleozoic and Mesozoic eras. It is Earth's most severe known extinction event, with the extinction of 57% of biological families, 62% of genera, 81% of marine species,  and 70% of terrestrial ver\n[…]\nThe devastation wrought by the Siberian Traps did not end following the Permian-Triassic boundary. Carbon isotope fluctuations suggest that massive Siberian Traps activity recurred multiple times during the Early Triassic, a finding corroborated by mercury spikes, causing further extinction events during the epoch.\n[…]\nThe latest research suggests that greenhouse gas release during the extinction event was dominated by volcanic carbon dioxide, and while methane release had to have contributed, isotopic signatures show that thermogenic methane released from the Siberian Traps had consistently played a larger role than methane from clathrates and any other biogenic sources such as wetlands during the event.\n[…]\nInstead, a modest shift to amplified seasonality and hotter summers is suggested by palaeoclimatological models based on weathering proxies from the region's Late Permian and Early Triassic deposits. In the Kuznetsk Basin of southwestern Siberia, an increase in aridity led to the demise of the humid-adapted Cordaites forests in the region a few hundred thousand years before the Permian-Triassic boundary.\n[…]\nA large impact might have triggered other mechanisms of extinction described above, such as the Siberian Traps eruptions at either an impact site or the antipode of an impact site. The abruptness of an impact also explains why more species did not rapidly evolve to survive, as would be expected if the Permian–Triassic event had been slower and less global than a meteorite impact."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Siberian_Traps",
+        "situacao": "ok",
+        "texto": "The Siberian Traps (Russian: Сибирские траппы, romanized: Sibirskiye trappy) are a large region of volcanic rock, known as a large igneous province, in Siberia, Russia. Large volumes of basaltic lava covered a large expanse of Siberia in a flood basalt event. The massive eruptive event that formed the traps is one of the largest-known volcanic events in the last 500 million years.\n[…]\nEliminating the variability due to lead, the CA-TIMS age-dating technique allowed uranium within the zircon to be the centre focus in linking the volcanism in the Siberian Traps that resulted in high amounts of magmatic material with the Permian–Triassic mass extinction.\n[…]\nTo further the connection with the Permian–Triassic extinction event, other disastrous events occurred around the same time period, such as sea level changes, meteor impacts and volcanism. Specifically focusing on volcanism, rock samples from the Siberian Traps and other southern regions were obtained and compared. Basalts and gabbro samples from several southern regions close to and from the Siberian Traps were dated with the argon–argon method.\n[…]\nStudies confirmed that samples of gabbro and basalt from the same time period of the Permian–Triassic event from the other southern regions also matched the age of samples within the Siberian Traps. This confirms the assumption of the linkage between the age of volcanic rocks within the Siberian Traps, along with rock samples from other southern regions to the Permian–Triassic mass extinction event.\n[…]\nThe giant Norilsk–Talnakh nickel–copper–palladium deposit formed within the magma conduits in the most complete part of the Siberian Traps. It has been linked to the Permian–Triassic extinction event, based on large amounts of nickel and other elements found in rock beds that were laid down after the extinction occurred.\n[…]\n\"The Siberian Traps Large Igneous Province\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Extin%C3%A7%C3%A3o_do_Permiano-Tri%C3%A1ssico",
+        "situacao": "ok",
+        "texto": "A extinção do Permiano-Triássico ou extinção Permo-Triássica (P–Tr ou P–T), também conhecida informalmente como Great Dying (em português: Grande Morte), foi um episódio de extinção ocorrido há aproximadamente 251,9 milhões de anos, na transição entre os períodos geológicos Permiano e Triássico e, consequentemente, entre as eras Paleozoica e Mesozoica.\n[…]\nO consenso científico aponta que a principal causa dessa extinção foram as erupções vulcânicas de basaltos de inundação que formaram os trapps siberianos. Essas erupções liberaram grandes quantidades de dióxido de enxofre e dióxido de carbono, provocando euxinia, oceanos pobres em oxigênio e ricos em enxofre, elevação das temperaturas globais e acidificação dos oceanos.\n[…]\nA extinção ocorreu entre 251,941 ± 0,037 e 251,880 ± 0,031 milhões de anos atrás, com uma duração estimada de 60 ± 48 mil anos. Um grande e abrupto declínio global nos valores de δ¹³C, a razão entre o isótopo estável carbono-13 e o carbono-12, coincide com esse evento de extinção e, em alguns casos, é utilizado para identificar o limite Permiano–Triássico e o Evento de Extinção em Massa Permiano–Triássico em rochas inadequadas para datação radiométrica.\n[…]\nSugere-se ainda que o limite Permiano–Triássico esteja associado a um aumento acentuado na abundância de fungos marinhos e terrestres, causado pelo grande volume de plantas e animais mortos que passaram a servir de alimento para esses organismos.\n[…]\nMuitas extinções que antes eram atribuídas ao limite Permiano–Triássico foram posteriormente redatadas para o final do Capitaniano. Além disso, não está claro se algumas espécies que sobreviveram às extinções anteriores haviam se recuperado o suficiente para que sua extinção final no evento Permiano–Triássico possa ser considerada independente do evento capitaniano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Grande Evento de Oxidação",
+      "descricao": "Período, há mais de dois bilhões de anos, em que o oxigênio passou a se acumular na atmosfera terrestre."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Há mais de dois bilhões de anos, que microrganismos, fazendo fotossíntese, provocaram o primeiro grande acúmulo de oxigênio na atmosfera da Terra?",
+    "resposta": "Cianobactérias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event",
+        "situacao": "ok",
+        "texto": "The Great Oxidation Event (GOE) or Great Oxygenation Event, also called the Oxygen Catastrophe, Oxygen Revolution, Oxygen Crisis, or Oxygen Holocaust, was a time interval during the Earth's Paleoproterozoic era when the Earth's atmosphere and shallow seas first experienced a rise in the concentration of free oxygen. This began approximately 2.46–2.426 billion years ago (Ga) during the Siderian per\n[…]\nEvidence for the Great Oxidation Event is provided by a variety of petrological and geochemical markers that define this geological event.\n[…]\nSome of the most persuasive evidence for the Great Oxidation Event is provided by the mass-independent fractionation (MIF) of sulfur. The chemical signature of the MIF of sulfur is found prior to 2.4–2.3 Ga but disappears thereafter. The presence of this signature all but eliminates the possibility of an oxygenated atmosphere.\n[…]\nMIF provides clues to the Great Oxygenation Event. For example, oxidation of manganese in surface rocks by atmospheric oxygen leads to further reactions that oxidize chromium. The heavier 53Cr is oxidized preferentially over the lighter 52Cr, and the soluble oxidized chromium carried into the ocean shows this enhancement of the heavier isotope.\n[…]\nThe chromium isotope ratio in banded iron formation suggests small but significant quantities of oxygen in the atmosphere before the Great Oxidation Event, and a brief return to low oxygen abundance 500 Ma after the GOE. However, the chromium data may conflict with the sulfur isotope data, which calls the reliability of the chromium data into question. It is also possible that oxygen was present earlier only in localized \"oxygen oases\".\n[…]\nThe Great Oxygenation Event can then be understood as a transition from the lower to the upper steady states.\n[…]\nIt has been hypothesized that eukaryotes first evolved during the Lomagundi-Jatuli event."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Evento_de_Oxigena%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "O Grande Evento de Oxigenação (GEO), também chamado de Catástrofe do Oxigênio, Crise de Oxigênio ou Grande Oxidação, foi um período em que a atmosfera da Terra e o então raso oceano experimentaram um aumento do teor de oxigênio, aproximadamente entre 2,4 bilhões de anos e 2,1-2,0 bilhões de anos, durante o período Paleoproterozoico.\n[…]\nUma cronologia da acumulação do oxigênio sugere que o oxigênio livre foi primeiro produzido pelos organismos procariontes e depois pelos eucariontes no oceano. Esses organismos realizavam fotossíntese com mais eficiência, e o oxigênio era o subproduto. Em uma interpretação, a primeira cianobactéria produtora de oxigênio pode ter surgido antes do GEO, entre 2,7-2,4 Ga, e talvez mais cedo.\n[…]\nEstromatólitos fornecem alguma evidência fóssil do oxigênio, e sugerem que o oxigênio proveio da fotossíntese. Biomarcadores como 2α-metilhopanos de cianobactérias foram também encontrados em Pilbara, Austrália ocidental. Entretanto, demonstrou-se depois que os dados de biomarcadores foram contaminados e os resultados não são mais aceitos.\n[…]\nNuma pesquisa de campo realizada em Lake Fryxell, Antártica, pesquisadores descobriram que tapetes de cianobactérias produtoras de oxigênio podem produzir uma fina camada, com um ou dois milímetros de espessura, de água oxigenada, em um ambiente que de outra forma seria anóxico, mesmo sob gelo espesso. Logo, antes que o oxigênio começasse a se acumular na atmosfera, esses organismos poderiam ter se adaptado ao oxigênio.\n[…]\nFoi proposto que um aumento nos níveis de oxigênio devido à fotossíntese cianobacteriana em microambientes antigos era altamente tóxico para a biota circundante, e que este processo seletivo direcionou a transformação evolutiva de uma linhagem de archaea nos primeiros eucariontes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Monte Tambora",
+      "descricao": "Vulcão da ilha de Sumbawa, na Indonésia, cuja erupção de 1815 alterou o clima mundial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A erupção do vulcão Tambora, na Indonésia, em 1815, esfriou o planeta e deu origem a que apelido para o ano seguinte?",
+    "resposta": "Ano sem verão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+      "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+        "situacao": "ok",
+        "texto": "In April 1815, Mount Tambora, a volcano on the island of Sumbawa in present-day Indonesia (then part of the Dutch East Indies), erupted in what is now considered the most powerful volcanic eruption in recorded human history. This eruption, with a volcanic explosivity index (VEI) of 7, ejected 37–45 km3 (8.9–10.8 cubic miles) of dense-rock equivalent (DRE) material into the atmosphere, and was the \n[…]\nThe eruption caused a volcanic winter. During the Northern Hemisphere summer of 1816, global temperatures cooled by 0.53 °C (0.95 °F). This cooling directly or indirectly caused 90,000 deaths. The eruption of Mount Tambora was the largest cause of this climate anomaly. While there were other eruptions in 1815, Tambora is classified as a VEI-7 eruption with a column 45 km (148,000 ft) tall, eclipsing all others by at least one order of magnitude.\n[…]\nThe second-coldest year in the Northern Hemisphere since around 1400 was 1816, and the 1810s are the coldest decade on record. That was the consequence of Tambora's 1815 eruption and possibly another VEI-6 eruption in late 1808. The surface temperature anomalies during the summer of 1816, 1817 and 1818 were −0.51 °C (−0.92 °F), −0.44 °C (−0.79 °F) and −0.29 °C (−0.52 °F), respectively. Parts of Europe also experienced a stormier winter.\n[…]\nTaking into account the Dalton Minimum and the presence of famine and droughts predating the eruption, the Tambora eruption accelerated or exacerbated the extreme climate conditions of 1815. While other eruptions and other climatological events would have led to a global cooling of about 0.2 °C (0.4 °F), Tambora increased on that benchmark substantially.\n[…]\nList of volcanoes in Indonesia\n[…]\nVolcanism of Indonesia\n[…]\nTambora – the volcano that changed the world on YouTube—Deutsche Welle documentary, published 23 October 2019"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+        "situacao": "ok",
+        "texto": "The year 1816 is known as the Year Without a Summer because of severe climate abnormalities that caused average global temperatures to decrease by 0.4–0.7 °C (0.7–1 °F). Summer temperatures in Europe that year were the coldest of any on record between 1766 and 2000, resulting in crop failures and major food shortages across the Northern Hemisphere.\n[…]\nEvidence suggests that the anomaly was predominantly a volcanic winter event caused by the massive eruption of Mount Tambora in the Dutch East Indies (modern-day Indonesia) in April 1815. This eruption was the largest in at least 1,300 years (after the hypothesized eruption causing the volcanic winter of 536); its effect on the climate may have been exacerbated by the 1814 eruption of Mayon in the Philippines.\n[…]\nThese eruptions had built up a substantial amount of atmospheric dust, and thus temperatures fell worldwide as the airborne material blocked sunlight in the stratosphere. According to a 2012 analysis by Berkeley Earth, the 1815 Tambora eruption caused a temporary drop in the Earth's average land temperature of about one degree Celsius; smaller temperature drops were recorded from the 1812–1814 eruptions.\n[…]\nAs a result of the series of volcanic eruptions in the 1810s, crops had been poor for several years; the final blow came in 1815 with the eruption of Tambora. Europe, still recuperating from the Napoleonic Wars, suffered from widespread food shortages, resulting in its worst famine of the century. Low temperatures and heavy rains resulted in failed harvests in Great Britain and Ireland. Famine was prevalent in north and southwest Ireland, following the failure of wheat, oat, and potato harvests.\n[…]\nTambora culture – Lost village and culture on Sumbawa Island, Indonesia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%A3o_do_Monte_Tambora_em_1815",
+        "situacao": "ok",
+        "texto": "A erupção do Monte Tambora em 1815, entre 5 e 10 de abril daquele ano, foi uma das mais poderosas já registradas. Ela atingiu o nível 7 no Índice de Explosividade Vulcânica (IEV), realizando a maior erupção desde a erupção do lago Taupo no ano 181 d.C. Esta erupção é considerada a maior registrada na Terra, detendo o recorde do volume de matéria expelida: 180 000 000 000 m³ ou 180 km³.\n[…]\nNa Alemanha a miséria é tal que o ano de 1816 é apelidado de \"ano do mendigo\". Os Alpes suíços são atingidos pelo frio, a tal ponto que durante o verão de 1816 neva quase todas as semanas no fundo do vale, fenómeno habitualmente observável apenas no inverno. A miséria daí decorrente conduz a uma importante emigração, por exemplo para o Brasil, com um grupo de 2000 colonos suíços do cantão de Friburgo que está na origem da fundação da cidade de Nova Friburgo em 1819.\n[…]\nA erupção do Tambora influencia fortemente a literatura britânica. Com efeito, Lord Byron, Percy Bysshe Shelley e Mary Shelley passam o verão de 1816 na Suíça. As chuvas contínuas obrigam-nos a permanecer fechados a maior parte do dia na sua villa à beira do Lago Léman. Dedicam-se assim a concursos de poesia ou à escrita de contos. Os dois primeiros acabarão por produzir algumas das suas obras mais conhecidas, nomeadamente Darkness (\"Trevas\").\n[…]\nAs consequências dramáticas da erupção são também um dos fatores que podem ter catalisado a inovação tecnológica e permitido certas viragens económicas. Na Nova Inglaterra, o ano sem verão gera mudanças nos hábitos e estratégias de pesca (mudança de espécies alvo, desenvolvimento da pesca de alto mar) e vê difundir-se o uso do isco (ou isca) para cavala, inventado no Cabo Ann, no Massachusetts.\n[…]\nErupção do Krakatoa em 1883\n[…]\nde Jong Boers, Bernice (outubro de 1995). «Mount Tambora in 1815: A Volcanic Eruption in Indonesia and Its Aftermath». Indonesia (em inglês). 60: 36-60",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Erupção do Vesúvio em 79",
+      "descricao": "Erupção do vulcão Vesúvio, no ano 79, que soterrou cidades romanas da baía de Nápoles."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No ano setenta e nove, o Vesúvio soterrou Pompeia e qual cidade vizinha, onde centenas de esqueletos foram achados junto ao antigo cais?",
+    "resposta": "Herculano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herculaneum",
+      "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Herculaneum",
+        "situacao": "ok",
+        "texto": "Herculaneum is an ancient Roman town located in the modern-day comune of Ercolano, Campania, Italy. Herculaneum was buried under a massive pyroclastic flow in the eruption of Mount Vesuvius in 79 AD.\n[…]\nThe eruption of Mount Vesuvius in AD 79 buried Herculaneum under approximately 20 m (66 ft) of ash. It lay hidden and largely intact until discoveries from wells and tunnels became gradually more widely known, notably following the Prince d'Elbeuf's explorations in the early 18th century. Excavations continued sporadically up to the present and today many streets and buildings are visible, although over 75% of the town remains buried.\n[…]\nSince Herculaneum lay west of Vesuvius, it was only mildly affected by the first phase of the eruption. While roofs in Pompeii collapsed under the weight of falling debris, only a few centimetres of ash fell on Herculaneum, causing little damage; nevertheless, the ash prompted most inhabitants to flee.\n[…]\nMultidisciplinary research on the lethal effects of the pyroclastic surges in the Vesuvius area has shown that, in the vicinity of Pompeii and Herculaneum, intense heat was the main cause of the death of people who had previously been thought to have died by ash suffocation. Exposure to ≥250 °C (480 °F) had likely killed residents within 10 km, including those sheltering in buildings.\n[…]\nThe discovery of neighbouring Pompeii, substantially simpler to excavate due to a smaller layer of material covering the site (4m as compared to 20m at Herculaneum), diverted attention and effort.\n[…]\nDue to bradyseism, which affects the entire Vesuvius region, portions of the historic city of Herculaneum today lie as much as 4 metres below sea level."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+        "situacao": "ok",
+        "texto": "In 79 AD, Mount Vesuvius, a stratovolcano located in the modern-day region of Campania, Italy, erupted, causing one of the deadliest eruptions in history. Vesuvius violently ejected a cloud of super-heated tephra and gases to a height of 33 km (21 mi), ejecting molten rock, pulverized pumice and hot ash at 1.5 million tons per second, ultimately releasing 100,000 times the thermal energy of the at\n[…]\nThe event destroyed several Roman towns and settlements in the area. Pompeii and Herculaneum, obliterated and buried underneath massive pyroclastic surges and ashfall deposits, are the most famous examples. Archaeological excavations have revealed much of the towns and the lives of the inhabitants, leading to the area becoming Vesuvius National Park and a UNESCO World Heritage Site.\n[…]\nBy 2003, approximately 1,044 casts made from impressions of bodies in the ash deposits had been recovered in and around Pompeii, with the scattered bones of another 100. The remains of about 332 bodies have been found at Herculaneum (300 in arched vaults discovered in 1980). The total number of fatalities remains unknown.\n[…]\nThe large majority of extant medieval manuscript copies (there are no surviving Roman copies) indicate a date corresponding to August 24. Since the discovery of the cities, this was accepted by most scholars and by nearly all books written about Pompeii and Herculaneum for the general public. In 2022, an analysis of the historical translations claims that no other date than August 24 is supported by evidence from Pliny.\n[…]\nSince at least the late 18th century, a minority among archaeologists and other scientists have suggested that the eruption began after August 24, during the autumn, perhaps in October or November. In 1797, the researcher Carlo Rosini reported that excavations at Pompeii and Herculaneum had uncovered traces of fruits and braziers indicative of autumn, not the summer."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Herculano",
+        "situacao": "ok",
+        "texto": "Herculano (em latim: Herculaneum e em italiano:   Ercolano) era uma cidade antiga, localizada na comuna moderna de Ercolano, Campânia, Itália. Herculano foi enterrada sob cinzas vulcânicas e pedra-pomes na erupção de 79 d.C. do Monte Vesúvio.\n[…]\nComo a cidade vizinha de Pompeia, Herculano é famosa como uma das poucas cidades antigas a ser preservada mais ou menos intacta, pois as cinzas que cobriam a cidade também a protegiam contra saques e intempéries. Embora menos conhecida hoje do que Pompeia, foi a primeira e por muito tempo a única cidade enterrada do Vesúvio a ser encontrada (em 1709), enquanto Pompeia só foi revelada a partir de 1748 e identificada em 1763.\n[…]\nNos últimos anos da República Romana, Herculano atingiu o auge de seu esplendor graças à sua localização costeira, ar puro e clima ameno, tornando-se uma popular cidade turística para muitas famílias patrícias de Roma. A cidade era vibrante e densamente povoada quando o terremoto de 62 d.C. a atingiu, causando sérios danos; as obras de reconstrução ainda estavam em andamento quando a trágica erupção do Monte Vesúvio ocorreu em 79 d.C.\n[…]\nComo Herculano ficava a oeste do Vesúvio, foi apenas levemente afetado pela primeira fase da erupção. Enquanto os telhados em Pompéia desabaram sob o peso dos destroços, apenas alguns centímetros de cinzas caíram em Herculano, causando poucos danos; no entanto, as cinzas levaram a maioria dos habitantes a fugir.\n[…]\nÀ 1h do dia seguinte, a coluna eruptiva, que havia subido para a estratosfera , desabou sobre o Vesúvio e seus flancos. A primeira onda piroclástica, formada por uma mistura de cinzas e gases quentes, desceu a montanha e atravessou a cidade quase evacuada de Herculano a 160 km/h (100 mph).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Erupção do Krakatoa de 1883",
+      "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da erupção do Krakatoa, em 1883, que espetáculo no céu foi visto por meses em várias partes do mundo?",
+    "resposta": "Pores do sol avermelhados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa",
+        "situacao": "ok",
+        "texto": "Between 19 May and 21 October 1883, the volcanic island of Krakatoa (located in the Sunda Strait, then part of the Dutch East Indies—modern-day Indonesia) began erupting, lasting more than five months. On 27 August, the island had its most significant eruption, which destroyed over 70% of the island and its surrounding archipelago, the island collapsing into a caldera.\n[…]\nThe explosion has been theorized to be a source of inspiration for Edvard Munch's 1893 painting The Scream. The reddish sky in the background is the artist's memory of the effects of the powerful volcanic eruption of Krakatoa, which deeply tinted sunset skies red in parts of the Western hemisphere for months during 1883 and 1884, about a decade before Munch painted The Scream.\n[…]\nThe 1883 eruption is a key plot device in the 1947 fiction novel The Twenty-One Balloons. In the book, Krakatoa is portrayed as an island of great diamond wealth populated by a utopian society.\n[…]\nKrakatit\n[…]\nKrakatoa, East of Java\n[…]\nFurneaux, Rupert; Krakatoa (1965) London, Secker and Warburg.\n[…]\nSelf, Stephen; Rampino, Michael R. (1981). \"The 1883 eruption of Krakatau\". Nature. 294 (5843): 699–704. Bibcode:1981Natur.294..699S. doi:10.1038/294699a0. S2CID 4340524.\n[…]\nSimkin, Tom, and Richard S. Fiske (editors); Krakatau, 1883 – the volcanic eruption and its effects (1983) Washington, D.C. : Smithsonian Institution Press. ISBN 0-87474-841-0\n[…]\nVerbeek, Rogier Diederik Marius; Krakatau. Batavia, 1885, Internet Archive link\n[…]\nWinchester, Simon. Krakatoa: The Day the World Exploded: August 27, 1883, New York: HarperCollins (2003), ISBN 978-0-06-083859-1\n[…]\nDocumentary about the power of the Krakatoa eruption Archived 26 March 2025 at the Wayback Machine\n[…]\nWorks about the 1883 eruption of Krakatoa at Open Library\n[…]\nKrakatau, Indonesia (1883) Archived 16 December 2014 at the Wayback Machine information from San Diego State University"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%A3o_do_Krakatoa_em_1883",
+        "situacao": "ok",
+        "texto": "A erupção do Krakatoa em 1883 ocorreu em 27 de agosto daquele ano na ilha de Krakatoa, localizada no estreito de Sunda, entre as ilhas de Sumatra e Java, nas Índias Orientais Holandesas (atual Indonésia). A ilha desapareceu quando o vulcão homônimo, no monte Perboewatan — supostamente extinto — entrou em erupção.\n[…]\nEsta é considerada a segunda erupção vulcânica mais fatal da história, a sexta maior erupção do mundo, além de o som mais alto já ouvido na História (o barulho do estrondo pôde ser ouvido a 5 mil quilômetros de distância).\n[…]\nA caldeira de magma do vulcão era monstruosa, possuía aproximadamente 16 km de diâmetro. O vulcão não parou de cuspir lava e houve ainda outras erupções durante todo o ano. Antes da erupção, a ilha possuía 882 metros de altitude, mas após a erupção a ilha foi riscada do mapa, tendo-se um lago formado na cratera do vulcão, onde hoje vivem várias espécies de plantas e pássaros.\n[…]\nPor causa das explosões, vários tsunamis ocorreram em diversos pontos do planeta. Perto das ilhas de Java e Sumatra, as ondas chegaram a mais de 40 metros de altura. Provavelmente o tsunami mais destrutivo registrado na história originou-se da explosão do Krakatoa, em uma série de quatro explosões que espalharam cinzas pelo mundo. A maioria das vítimas foi morta pelas ondas gigantes e não pela erupção que destruiu dois terços da ilha.\n[…]\nO escritor Simon Winchester descreveu o evento no seu livro: Krakatoa: The Day the World Exploded (Krakatoa: O dia em que o mundo explodiu). Um navio que se encontrava na área, de nome Berouw, foi arrastado terra adentro, tendo toda a tripulação morrido. De acordo com Winchester, corpos apareceram em Zanzibar e o som da destruição da ilha foi ouvido na Austrália e na Índia.\n[…]\nKrakatoa, o Inferno de Java\n[…]\nThe Java Disaster (1883), Capt. W. J. Watson",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Obsidiana",
+      "descricao": "Vidro vulcânico natural, geralmente negro, formado pelo resfriamento rápido da lava."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a obsidiana, rocha vulcânica negra, parece vidro e não tem cristais visíveis?",
+    "resposta": "A lava esfriou muito rápido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obsidian"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Obsidian",
+        "situacao": "ok",
+        "texto": "Obsidian (, əb-SID-ee-ən ob-) is a naturally occurring volcanic glass formed when lava extruded from a volcano cools rapidly with minimal crystal growth. It is an igneous rock. Produced from felsic lava, obsidian is rich in the lighter elements such as silicon, oxygen, aluminium, sodium, and potassium. It is commonly found within the margins of rhyolitic lava flows known as obsidian flows. These f\n[…]\nThe high viscosity inhibits the diffusion of atoms through the lava, which inhibits the first step (nucleation) in the formation of mineral crystals. Together with rapid cooling, this results in a natural glass forming from the lava.\n[…]\nObsidian is formed from quickly cooled lava. Extrusive formation of obsidian may occur when felsic lava cools rapidly at the edges of a felsic lava flow or volcanic dome, or when lava cools during sudden contact with water or air. Intrusive formation of obsidian may occur when felsic lava cools along the edges of a dike.\n[…]\nIn some stones, the inclusion of small, white, radially clustered crystals (spherulites) of the mineral cristobalite in the black glass produce a blotchy or snowflake pattern (snowflake obsidian). Obsidian may contain patterns of gas bubbles remaining from the lava flow, aligned along layers created as the molten rock was flowing before being cooled. These bubbles can produce interesting effects such as a golden sheen (sheen obsidian).\n[…]\nPlinths for audio turntables have been made of obsidian since the 1970s, such as the grayish-black SH-10B3 plinth by Technics.\n[…]\nMayor Island / Tūhua – New Zealand shield volcano – a source of Māori obsidian tools\n[…]\nYaxchilan Lintel 24 – Ancient Maya limestone relief from Mexico – Ancient carving showing a Maya bloodlet ritual involving a rope with obsidian shards.\n[…]\nUSGS definition of obsidian"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Obsidiana",
+        "situacao": "ok",
+        "texto": "Obsidiana é uma rocha ígnea extrusiva constituída quase integralmente por um tipo de vidro vulcânico com 70% ou mais de sílica (SiO2 - dióxido de silício) na sua composição química. Forma-se quando uma lava de composição félsica e baixo teor em água (menos que 2-3% mássicos) arrefece rapidamente sem permitir a formação de cristais em quantidade substancial.\n[…]\nApesar do rápido arrefecimento ser necessário, a  vitrificação ocorre essencialmente porque a riqueza em silicato das lavas félsicas induz uma elevada viscosidade e polimerização que dificultam a cristalogénese. A obsidiana é classificada como um mineraloide\n[…]\nA natureza vítrea da obsidiana, na essência um sólido amorfo, ou seja um vidro, confere a esta rocha uma elevada dureza (5-6  na escala de Mohs) e fragilidade, pelo que fractura na forma concoide, produzindo lâminas com gume muito afiado.\n[…]\nA obsidiana forma-se quando a lava, o material de que é originária, arrefece rapidamente sem permitir a cristalização da maioria dos seus compostos constituintes. As tectites foram durante muito tempo consideradas como obsidianas produzidas por erupções vulcânicas lunares, mas na atualidade poucos cientistas consideram verdadeira essa hipótese, atribuindo antes a sua formação ao impacte de corpos extraterrestres.\n[…]\nA obsidiana foi muito valorizada nas culturas da Idade da Pedra porque, como o sílex, podia ser fraturado para produzir lâminas cortantes ou pontas de flecha e de lança. Como ocorre com todos os vidros vulcânicos e alguns outros tipos de rochas, a obsidiana fratura-se com uma característica fratura concoide. A forma de fratura da obsidiana permite que se possa golpear com outras pedras para modificar a sua forma, permitindo a criação de objetos com formas complexas.\n[…]\nDatação por hidratação da obsidiana\n[…]\n«USGS Obsidian photo glossary» (em inglês)\n[…]\n«Obsidina Maya e Olmeca» (em espanhol)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Petróleo",
+      "descricao": "Mistura líquida natural de hidrocarbonetos encontrada em rochas do subsolo, usada como combustível."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário da crença popular, o petróleo não veio dos dinossauros. Ele se formou principalmente a partir de restos de quê?",
+    "resposta": "Plâncton e algas marinhas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petroleum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Petroleum",
+        "situacao": "ok",
+        "texto": "Petroleum, also known as crude oil or simply oil, is a natural resource that appears as a yellowish-black liquid chemical mixture found in geological formations, consisting primarily of hydrocarbons. The term petroleum refers to both naturally occurring unprocessed crude oil, as well as to petroleum products that consist of refined crude oil.\n[…]\nAn alternative mechanism to the one described above was proposed by Russian scientists in the mid-1850s, the hypothesis of abiogenic petroleum origin (petroleum formed by inorganic means), but this is contradicted by geological and geochemical evidence. Abiogenic sources of oil have been found but never in commercially profitable amounts. \"The controversy isn't over whether abiogenic oil reserves exist,\" said Larry Nation of the American Association of Petroleum Geologists.\n[…]\nPetroleum coke, used in speciality carbon products or as solid fuel.\n[…]\nPopulation Data:\n[…]\nIn petroleum industry parlance, production refers to the quantity of crude extracted from reserves, not the literal creation of the product.\n[…]\nOther conflicts start with countries wanting petroleum resources or other reasons on oil resource territory experienced in the Iran–Iraq War.\n[…]\nPeak oil is a term applied to the projection that future petroleum production, whether for individual oil wells, entire oil fields, whole countries, or worldwide production, will eventually peak and then decline at a similar rate to the rate of increase before the peak as these reserves are exhausted. The peak of oil discoveries was in 1965, and oil production per year has surpassed oil discoveries every year since 1980.\n[…]\nAPI – the trade association of the US oil industry. (American Petroleum Institute)\n[…]\n\"Petroleum\" . The American Cyclopædia. 1879.\n[…]\n\"A Short History of Petroleum\", Scientific American, August 10, 1878, p. 85"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+        "situacao": "ok",
+        "texto": "Petróleo (do latim petroleum; petrus [pedra] + oleum [óleo]; do grego: πετρέλαιον; romaniz.: petrélaion, [óleo da pedra]; do grego clássico: πέτρα;  petra [pedra] + έλαιον; elaion [azeite]; qualquer substância oleosa, no sentido de \"óleo bruto\") é uma mistura inflamável de substâncias oleosas, geralmente menos densa que a água, com cheiro característico e coloração que pode variar desde o incolor \n[…]\nGás liquefeito de petróleo (GLP)\n[…]\nA acidificação do oceano é o aumento da acidez dos oceanos da Terra causado pela absorção de dióxido de carbono (CO2) da atmosfera. Este aumento da acidez inibe toda a vida marinha - tem um impacto maior sobre organismos menores e depois afeta organismos maiores.\n[…]\nA extração do petróleo é simplesmente a remoção do recurso a partir da reserva. O petróleo é frequentemente recuperado como uma emulsão de água e óleo. Produtos químicos especiais, chamados demulsificadores, são utilizados para separar o petróleo da água.\n[…]\nA extração é cara e, por vezes, prejudicial ao ambiente, embora, de acordo com dados de 1981 do Instituto Oceanográfico de Woods Hole, mais de 70 por cento das reservas do mundo estão associadas com sinais visíveis e muitos campos de petróleo são encontrados devido à exsudações naturais. A exploração offshore e a extração de petróleo perturbam o ambiente marinho circundante.\n[…]\nOs derrames de petróleo no mar são geralmente muito mais prejudicial do que aqueles em terra, uma vez que eles podem se espalhar por centenas de milhas náuticas em uma mancha de óleo que pode cobrir praias com uma fina camada de óleo. Isso pode matar aves marinhas, mamíferos, moluscos e outros organismos c.\n[…]\nJames S. Robbins argumenta que o advento do querosene refinado do petróleo salvou algumas espécies de grandes baleias da extinção, fornecendo um substituto barato para o óleo de baleia e eliminando assim o imperativo econômico da baleação.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Eyjafjallajökull",
+      "descricao": "Vulcão coberto por geleira no sul da Islândia, cuja erupção de 2010 lançou uma grande nuvem de cinzas sobre a Europa."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2010, a nuvem de cinzas de um vulcão islandês de nome quase impronunciável paralisou o quê na Europa?",
+    "resposta": "O tráfego aéreo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
+        "situacao": "ok",
+        "texto": "Between March and June 2010 a series of volcanic events at Eyjafjallajökull in Iceland caused enormous disruption to air travel across Western Europe.\n[…]\nBy 26 March 2010, the global positioning system (GPS) equipment used by the Iceland Meteorological Office at Þorvaldseyri farm in the Eyjafjöll area (around 15 km or 9.3 mi southeast of the location of the recent eruption) had shown 3 cm (1.2 in) of displacement of the local crust in a southward direction, of which a 1 cm (0.39 in) displacement had taken place within four days.\n[…]\nThe first phase of the 2010 eruption began late on the evening of 20 March at the Eyjafjallajökull.\n[…]\nThe Institute of Earth Sciences made a preliminary estimate of erupted material in the first three days of the eruption on 14 April 2010 at Eyjafjallajökull. The erupted products were fragmented material, the majority fine-grained airborne tephra. Eruptive products can be split into three categories along with preliminary estimated erupted volumes:\n[…]\nNo human fatalities were reported from the 2010 eruption of Eyjafjallajökull. Those who lived near the volcano had high levels of irritation symptoms, though their lung function was not lower than expected. Six months later, the population living in the area had more respiratory symptoms than a control group from North Iceland, with no ashfall. In Scotland, the number of phone calls to health services for respiratory and eye irritation did not rise significantly.\n[…]\nAir travel disruption after the 2010 Eyjafjallajökull eruption\n[…]\nEffects of the April 2010 Eyjafjallajökull eruption\n[…]\nA short time-lapse from 17 April 2010. About 30 minutes played in 18 seconds."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%B5es_do_Eyjafjallaj%C3%B6kull_em_2010",
+        "situacao": "ok",
+        "texto": "As erupções ocorridas em 2010 na geleira Eyjafjallajökull (pronúncia: eia-fiatla-iocutl) foram uma série de grandes eventos vulcânicos que ocorreram em Eyjafjallajökull na Islândia. A atividade sísmica, que se iniciou no final de 2009, deu lugar a uma erupção vulcânica que começou a 20 de março de 2010, colocando seu Índice de Explosividade Vulcânica em 1.\n[…]\nUma fase da erupção, a 14 de abril de 2010, causou uma paralisação generalizada do transporte aéreo europeu, afetando milhares de voos e causando uma espécie de efeito dominó em todo o mundo.\n[…]\nEm Outubro de 2010 as erupções cessaram, segundo declarações de Ármann Höskuldsson, cientista do Instituto de Ciências Terrestres da Islândia, embora a área ainda esteja geotermicamente ativa e ainda haja uma possibilidade de uma nova erupção no futuro.\n[…]\nNormalmente erupções no vulcão de Eyjafjallajökull despertam seu vizinho maior, o Katla, o que causaria danos bem maiores, porém até agora não existe esse risco.\n[…]\nAs cinzas vulcânicas trazidas pelos ventos são um grande perigo para as aeronaves. Por esse motivo, a segunda fase da erupção causou um grande distúrbio no tráfego aéreo europeu e mundial. Enquanto algumas cinzas foram para áreas desabitadas na Islândia, a maioria foi levada por ventos do oeste, indo parar à Europa. Os gases e cinzas reduzem a visibilidade e quando entram nas turbinas podem paralisar os motores do avião.\n[…]\nPor esse motivo, seguindo as regras da IFR, Finlândia, Alemanha, Áustria, Bélgica, Dinamarca, Eslováquia, Eslovênia, Estônia, Holanda Hungria, Irlanda, Letônia, Luxemburgo, Polônia, Portugal, Reino Unido, República Checa, Romênia, Suíça e os territórios de Aland e Ilhas Faroé tiveram o tráfego aéreo fechado. A Associação Internacional de Transportes Aéreos (IATA) estimou que a indústria aérea mundial perdeu € 148 milhões por dia durante a interrupção.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Grafite",
+      "descricao": "Mineral formado por carbono puro em camadas, usado na ponta dos lápis."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o grafite da ponta do lápis e o diamante têm em comum na sua composição?",
+    "resposta": "São feitos só de carbono",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Graphite",
+      "https://en.wikipedia.org/wiki/Diamond"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Graphite",
+        "situacao": "ok",
+        "texto": "Graphite () is a crystalline allotrope (form) of the element carbon. It consists of many stacked layers of graphene, typically in excess of hundreds of layers. Graphite occurs naturally and is the most stable form of carbon under standard conditions.\n[…]\nGraphite (carbon) fiber and carbon nanotubes are also used in carbon fiber reinforced plastics, and in heat-resistant composites such as reinforced carbon-carbon (RCC). Commercial structures made from carbon fiber graphite composites include fishing rods, golf club shafts, bicycle frames, sports car body panels, the fuselage of the Boeing 787 Dreamliner and pool cue sticks and have been successfully employed in reinforced concrete.\n[…]\nThe mechanical properties of carbon fiber graphite-reinforced plastic composites and grey cast iron are strongly influenced by the role of graphite in these materials. In this context, the term \"(100%) graphite\" is often loosely used to refer to a pure mixture of carbon reinforcement and resin, while the term \"composite\" is used for composite materials with additional ingredients.\n[…]\nThe exfoliation process for bulk graphite, which involves separating the carbon layers within graphite, has been extensively studied between 2012 and 2021. Specifically, ultrasonic and thermal exfoliation have been the two most popular approaches worldwide, with 4,267 and 2,579 patent families, respectively, significantly more than for either the chemical or electrochemical alternatives.\n[…]\nCarbon brushes represent a long-explored graphite application area. There have been few inventions in this area over the last decade, with less than 300 patent families filed from 2012 to 2021, very significantly less than between 1992 and 2011.\n[…]\nGraphite at Minerals.net\n[…]\nThe Graphite Page"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Diamond",
+        "situacao": "ok",
+        "texto": "Diamond is a mineral form of the element carbon with its atoms arranged in a crystal structure called diamond cubic. Diamond is a tasteless, odorless, strong, brittle solid, a poor conductor of electricity, colorless in pure form, and insoluble in water. Another solid form of carbon known as graphite is the chemically stable form of carbon at room temperature and pressure, but diamond is metastabl\n[…]\nIn 1772, the French scientist Antoine Lavoisier used a lens to concentrate the rays of the sun on a diamond in an atmosphere of oxygen, and showed that the only product of the combustion was carbon dioxide, proving that diamond is composed of carbon. Later, in 1797, the English chemist Smithson Tennant repeated and expanded that experiment. By demonstrating that burning diamond and graphite releases the same amount of gas, he established the chemical equivalence of these substances.\n[…]\nstructure, which is known as hexagonal diamond or lonsdaleite, but this is far less common and is formed under different conditions from cubic carbon.\n[…]\nDiamonds in the mantle form through a metasomatic process where a C–O–H–N–S fluid or melt dissolves minerals in a rock and replaces them with new minerals. (The vague term C–O–H–N–S is commonly used because the exact composition is not known.) Diamonds form from this fluid either by reduction of oxidized carbon (e.g., CO2 or CO3) or oxidation of a reduced phase such as methane.\n[…]\nAlthough diamonds on Earth are rare, they are very common in space. In meteorites, about three percent of the carbon is in the form of nanodiamonds, having diameters of a few nanometers. Sufficiently small diamonds can form in the cold of space because their lower surface energy makes them more stable than graphite. The isotopic signatures of some nanodiamonds indicate they were formed outside the Solar System in stars.\n[…]\nDeep carbon cycle"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grafite",
+        "situacao": "ok",
+        "texto": "Grafite (ou, raramente, grafita) é um mineral, um dos alótropos do carbono. Ao contrário do diamante, a grafite é um condutor elétrico. Por isso possui aplicações em eletrônica, como em eletrodos e baterias. Em razão do seu alto ponto de fusão, também possui aplicações como material refratário, como em cadinhos de fundição de aço. A grafite pode ser dissolvida em ácido clorossulfúrico.\n[…]\nA grafite corresponde a uma das quatro formas alotrópicas do carbono. As outras são o diamante, o fulereno e o grafeno.\n[…]\nA grafite é composta por infinitas camadas de átomos de carbono hibridizados em sp². Em cada camada, chamada de folha de grafeno, um átomo de carbono se liga a três outros átomos, formando um arranjo planar de hexágonos fundidos. O orbital 2pz, não hibridizado, que acomoda o quarto elétron, forma um orbital deslocalizado com simetria π. Uma interação de van der Waals fraca  mantém as folhas de grafeno unidas, a uma distância de 3,354 angstroms.\n[…]\nOutra forma conhecida da grafite, é a pirolítica (ingl.: Highly ordered pyrolytic graphite or highly oriented pyrolytic graphite — HOPG), uma grafite artificial policristalina, obtida por pirólise de um gás contendo carbono, submetido a temperatura superior a 2 000 °C.\n[…]\nEm 1565, na Grã-Bretanha, é localizado o primeiro registro do uso do grafite nas minas dos lápis, feitos como um sanduíche de dois pedaços de madeira com a grafite no meio. O primeiro registro do uso do Lápis na Alemanha ocorre em 1644 . Em 1761 na aldeia de Stein, perto de Nuremberg, o marceneiro Kaspar Faber (1730 - 1784) começa a produzir lápis na sua oficina, que seu filho Anton Wilhelm Faber (1758-1819) transformaria mais tarde em uma próspera fábrica.\n[…]\nO diamante cristaliza-se no sistema isométrico (cúbico); a grafita cristaliza-se no sistema hexagonal.\n[…]\nFibra de carbono\n[…]\nDiamante\n[…]\nalótropo do carbono\n[…]\nThe Graphite Page\n[…]\nTimcal Graphite & Carbon",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Safira",
+      "descricao": "Gema, geralmente azul, que é uma variedade do mineral corindo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O rubi vermelho e a safira azul são, na verdade, variedades de qual mesmo mineral?",
+    "resposta": "Corindo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corundum",
+      "https://en.wikipedia.org/wiki/Sapphire"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Corundum",
+        "situacao": "ok",
+        "texto": "Corundum is a crystalline form of aluminium oxide (Al2O3) typically containing traces of iron, titanium, vanadium, and chromium. It is a rock-forming mineral. It is a naturally transparent material, but can have different colors depending on the presence of transition metal impurities in its crystalline structure. Corundum has two primary gem varieties: ruby and sapphire.\n[…]\nIn 1847, J. J. Ebelmen made white synthetic sapphires by reacting alumina in boric acid.\n[…]\nThe flame fusion process allows the production of flawless single-crystal sapphire and ruby gems of much larger size than normally found in nature. It is also possible to grow gem-quality synthetic corundum by flux-growth and hydrothermal synthesis. Because of the simplicity of the methods involved in corundum synthesis, large quantities of these crystals have become available on the market at a fraction of the cost of natural stones.\n[…]\nApart from ornamental uses, synthetic corundum is also used to produce mechanical parts (tubes, rods, bearings, and other machined parts), scratch-resistant optics, scratch-resistant watch crystals, instrument windows for satellites and spacecraft (because of its transparency in the ultraviolet to infrared range), and laser components. For example, the KAGRA gravitational wave detector's main mirrors are 23 kg (50 lb) sapphires, and Advanced LIGO considered 40 kg (88 lb) sapphire mirrors.\n[…]\nThe Young's modulus of corundum (sapphire) has been reported by many different sources with values varying between 300 and 500 GPa, but a commonly cited value used for calculations is 345 GPa. The Young's modulus is temperature dependent, and has been reported in the [0001] direction as 435 GPa at 323 K and 386 GPa at 1,273 K. The shear modulus of corundum is 145 GPa, and the bulk modulus is 240 GPa.\n[…]\nSpinel – natural and synthetic mineral often mistaken for corundum"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sapphire",
+        "situacao": "ok",
+        "texto": "Sapphire is a gemstone variety of the mineral corundum, the crystalline form of aluminium oxide (α-Al2O3). Pure corundum is colorless, while trace elements in its crystal structure produce a wide range of colors. Blue is the best-known, but sapphires also occur in yellow, green, purple, pink, orange, gray, black, and colorless forms. Red gem-quality corundum is classified as ruby rather than sapph\n[…]\nAfter excavation, gem-bearing material is commonly washed or disaggregated to remove fine sediment and release the heavier mineral grains. Screening separates the material into size fractions, and gravity-based concentration may then reduce the amount of waste material before the remaining concentrate is sorted for sapphire.\n[…]\nOther historic districts illustrate further contrasts. The Paddar sapphire deposits were intensively worked in the late 19th century, followed by periods of intermittent extraction. At Mogok in Myanmar, sapphire has been recovered from gem-bearing gravels reached by shafts and tunnels, by water-assisted excavation, and from weathered mineralized rock.\n[…]\nGemological laboratories identify sapphire treatments by combining microscopic examination with spectroscopic and, where necessary, chemical analysis. Heating can alter rutile silk, mineral inclusions, fissures, and spectroscopic features, while shallow titanium diffusion may be revealed by the distribution of color near the surface together with chemical evidence. Beryllium diffusion can require sensitive trace-element analysis because an obvious surface color zone may be absent.\n[…]\nThe English word sapphire derives through French saphir and Latin sapphirus or sappirus from Greek σάπφειρος (sappheiros). The ancient term did not necessarily refer to corundum in the modern mineralogical sense and has also been associated with lapis lazuli and other blue stones."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cor%C3%ADndon",
+        "situacao": "ok",
+        "texto": "Coríndon, corindo ou corundo é um mineral cristalino a base de óxido de alumínio, que representa valor 9 em dureza, na escala de Mohs. Naturalmente transparente, pode ter cores diferentes de acordo com impurezas que estejam incorporadas à sua matriz. Os espécimes translúcidos são usados como joias. O coríndon de coloração vermelha é chamado de rubi, enquanto as demais tonalidades são chamadas de s\n[…]\nA palavra coríndon vem do sânscrito kuruvinda, e do tâmil-dravídico kurundan, que significa \"mineral muito duro\".\n[…]\nÉ um mineral alocromático, com diversas cores ou matizes diferentes de uma mesma cor, graças à presença de impurezas metálicas em sua composição. Essa propriedade, é responsável pelo grande número de variedades encontradas na natureza.\n[…]\nO rubi, vermelho vivo, contém cromo, enquanto a safira, azulada, é composta de ferro ou titânio. Pode apresentar-se, ainda, nas cores lilás, amarela, verde, arroxeada e outras. As variedades constituídas exclusivamente de óxido de alumínio são incolores e se denominam safiras incolores.\n[…]\nMineral relativamente comum, encontra-se principalmente nos calcários cristalinos, micaxistos e gnaisses. Algumas rochas magmáticas possuem o coríndon como um de seus minerais primários, é encontrado em formações rochosas e nos aluviões dos rios.\n[…]\nEm 1837, Marc Antoine Gaudin criou os primeiros rubis sintéticos por fusão de óxido de alumínio a altas temperaturas com uma pequena quantidade de cromo. Em 1847, Jacques-Joseph Ebelmen obteve safira branca fundindo óxido de alumínio com ácido bórico. Em 1877, Frenic e Freil obtiveram cristais de corindon nos quais pequenas pedras poderiam ser cortadas.\n[…]\nO corindon artificial possui a mesma composição química, estrutura cristalina e as mesmas propriedades do natural, podendo ser fabricado a partir da bauxita, Al2O3.nH2O, e do óxido de alumínio puro.\n[…]\nLista de minerais",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Água-marinha",
+      "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que mineral dá origem tanto à esmeralda verde quanto à água-marinha azulada?",
+    "resposta": "Berilo",
+    "distratores": [
+      "Quartzo",
+      "Corindo",
+      "Turmalina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beryl"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beryl",
+        "situacao": "ok",
+        "texto": "Beryl ( BERR-əl) is a mineral composed of beryllium aluminium silicate with the chemical formula Be3Al2(SiO3)6. Well-known varieties of beryl include emerald and aquamarine. Naturally occurring  hexagonal crystals of beryl can be up to several meters in size, but terminated crystals are relatively rare. Pure beryl is colorless, but it is frequently tinted by impurities; possible colors are green, \n[…]\nIn the United States, aquamarines can be found at the summit of Mount Antero in the Sawatch Range in central Colorado, and in the New England and North Carolina pegmatites. Aquamarines are also present in the state of Wyoming, aquamarine has been discovered in the Big Horn Mountains, near Powder River Pass. Another location within the United States is the Sawtooth Range near Stanley, Idaho, although the minerals are within a wilderness area which prevents collecting.\n[…]\nRed variety of beryl (the \"bixbite\") was first described in 1904 for an occurrence, its type locality, at Maynard's Claim (Pismire Knolls), Thomas Range, Juab County, Utah. The dark red color is attributed to Mn3+ ions. Old synonym \"bixbite\" is deprecated from the CIBJO because of the possibility of confusion with the mineral bixbyite (both named after mineralogist Maynard Bixby).\n[…]\nWhile gem beryls are ordinarily found in pegmatites and certain metamorphic stones, red beryl occurs in topaz-bearing rhyolites. It is formed by crystallizing under low pressure and high temperature from a pneumatolytic phase along fractures or within near-surface miarolitic cavities of the rhyolite. Associated minerals include bixbyite, quartz, orthoclase, topaz, spessartine, pseudobrookite and hematite.\n[…]\nAquamarine\n[…]\nChrysoberyl – Mineral or gemstone of beryllium aluminate\n[…]\nList of minerals"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Berilo",
+        "situacao": "ok",
+        "texto": "O mineral berilo é um ciclossilicato de berílio e alumínio com fórmula química Be3Al2(SiO3)6. Os cristais hexagonais do berilo podem ser de tamanho muito pequeno ou atingir dimensões de alguns metros. Os cristais terminados são relativamente raros. O berilo exibe fratura concoidal, tem uma dureza de 7,5-8, um peso específico de 2,63-2,80. Possui brilho vítreo e pode ser transparente ou translúcido\n[…]\nO berilo puro é incolor, mas é matizado frequentemente por impurezas;  as cores possíveis são verde, azul, amarelo, vermelho, e branco. O seu nome tem origem no grego beryllos (bela cor azul-esverdeada da água do mar).\n[…]\nAlgumas variedades de berilo são consideradas pedras preciosas ou semi-preciosas desde épocas pré-históricas. O berilo verde (devido à presença do elemento Cr³+ como impureza em sua estrutura cristalina) é chamado esmeralda, o raro berilo  vermelho é chamado esmeralda vermelha, esmeralda escarlate ou bixbite.\n[…]\nO berilo azul (devido ao crómio e vanádio) é chamado de água-marinha, o berilo rosa (devido a manganês e ferro) é a morganita, um berilo amarelo brilhante e límpido é chamado berilo dourado, um berilo incolor é chamado gochenita e o amarelo-esverdeado (devido a manganês, ferro e titânio), heliodoro.\n[…]\nEsmeraldas também são encontradas perto de Mursinski, Sibéria. Na América do Norte, os pegmatitos da Nova Inglaterra produziram alguns dos maiores cristais de berilo conhecidos, incluindo um de 5,5m (18 pés) por 1,2 m (4 pés) pesando 18t. Outras localidades incluem Dakota do Sul, Colorado, e Califórnia.\n[…]\nO elemento químico berílio, é um metal alcalino terroso, é obtido do minério de berilo. Uma das formas mais comuns na natureza é a esmeralda, uma pedra preciosa de cor característica verde.\n[…]\nLista de minerais\n[…]\nHurlbut, Cornelius S.; Klein, Cornelis, 1985, Manual of Mineralogy, 20th ed., John Wiley and Sons, New York ISBN 0-471-80580-7\n[…]\nBerilo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Ano sem verão",
+      "descricao": "O ano de 1816, quando o hemisfério norte teve um verão anormalmente frio após a erupção do Tambora."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O frio e as chuvas de 1816, causados por um vulcão indonésio, prenderam escritores numa casa na Suíça. Que romance de terror nasceu ali?",
+    "resposta": "Frankenstein",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+        "situacao": "ok",
+        "texto": "The year 1816 is known as the Year Without a Summer because of severe climate abnormalities that caused average global temperatures to decrease by 0.4–0.7 °C (0.7–1 °F). Summer temperatures in Europe that year were the coldest of any on record between 1766 and 2000, resulting in crop failures and major food shortages across the Northern Hemisphere.\n[…]\nThe Year Without a Summer was an agricultural disaster; historian John D. Post called it \"the last great subsistence crisis in the Western world\". The climatic aberrations of 1816 had their greatest effect on New England (US), Atlantic Canada, and Western Europe.\n[…]\nThe crop failures of the \"Year without a Summer\" may have shaped the settlement of the Midwestern United States, as many thousands of people left New England for western New York and the Northwest Territory in search of a more hospitable climate, richer soil, and better growing conditions. Indiana became a state in December 1816, and Illinois did two years later.\n[…]\nAfter listening intently to one of these conversations, she awoke with the image of Victor Frankenstein kneeling over his monstrous creation, and thus was inspired to write Frankenstein. Lord Byron was inspired to write the poem \"Darkness\" by a single day when \"the fowls all went to roost at noon and candles had to be lit as at midnight\". The imagery in the poem is starkly similar to the conditions of the Year Without a Summer:\n[…]\nKlingaman, William; Klingaman, Nicholas (2013). The Year Without Summer: 1816 and the Volcano that Darkened the World and Changed History. New York: St. Martin's Press. p. 338. ISBN 978-0312676452.\n[…]\nSoon, Willie; Yaskell, Steven (June 2003). \"Year Without a Summer\". Mercury. Archived from the original on April 2, 2015. Retrieved January 5, 2015.\n[…]\n1816, the Year Without a Summer on In Our Time at the BBC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ano_sem_Ver%C3%A3o",
+        "situacao": "ok",
+        "texto": "O denominado Ano sem Verão, Ano sem um Verão, Ano da Pobreza ou Ano em Que não Houve Verão, foi o ano de 1816, devido a graves anomalias climáticas que fizeram com que as temperaturas médias globais diminuíssem em 0,4-0,7 ºC. Neste ano, anormalidades climáticas severas do verão destruíram plantações na Europa Setentrional, no nordeste dos Estados Unidos e leste do Canadá.\n[…]\n1814, Vulcão Mayon nas Filipinas.\n[…]\nEm junho de 1816, as \"chuvas incessantes\" durante o \"verão muito desagradável\" forçaram Mary Shelley, Percy Bysshe Shelley, Lorde Byron, John William Polidori e seus amigos a permanecerem em casa na Villa Diodati [en] durante boa parte de suas férias na Suíça.\n[…]\nApós ouvir atentamente uma dessas conversas, ela acordou com a imagem de Victor Frankenstein ajoelhado sobre sua criação monstruosa e, assim, foi inspirada a escrever Frankenstein. Lorde Byron foi inspirado a escrever o poema \"Darkness\" por um único dia em que \"todas as aves foram para o poleiro ao meio-dia e velas tiveram que ser acesas como à meia-noite\". As imagens do poema são notavelmente semelhantes às condições do Ano sem Verão:\n[…]\nKlingaman, William; Klingaman, Nicholas (2013). The Year Without Summer: 1816 and the Volcano that Darkened the World and Changed History (em inglês). Nova York: St. Martin's Press. p. 338. ISBN 978-0312676452\n[…]\nSoon, Willie; Yaskell, Steven (junho de 2003). «Year Without a Summer». Mercury (em inglês). Consultado em 5 de janeiro de 2015. Arquivado do original em 2 de abril de 2015\n[…]\nStommel, Henry M.; Stommel, Elizabeth (1983). Volcano Weather: The Story of 1816, the Year Without a Summer (em inglês). [S.l.]: Seven Seas Press. ISBN 978-0-915160-71-6. Consultado em 7 de julho de 2026\n[…]\n\"Um ano sem verão\": como uma catástrofe climática ajudou a dar origem a “Frankenstein” - National Geographic\n[…]\n1816, the Year Without a Summer, In Our Time, BBC Radio 4 (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Pedra-sabão",
+      "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que rocha reveste o Cristo Redentor e foi usada por Aleijadinho para esculpir os profetas de Congonhas?",
+    "resposta": "Pedra-sabão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+      "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "situacao": "ok",
+        "texto": "Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ]) is an Art Deco statue of Jesus in Rio de Janeiro, Brazil, created by French-Polish sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot and Romanian sculptor Gheorghe Leonida who sculpted the face.\n[…]\nCristo Redentor, Puerto Plata\n[…]\nCristo Rei of Dili in Dili (27 m, 89 ft)\n[…]\nCristo Redentore (Christ the Redeemer) of Maratea (21 m, 69 ft)\n[…]\nCristo Rey on the Cerro del Cubilete in Guanajuato, inspired by Rio's Christ the Redeemer (23 m, 75 ft)\n[…]\nCristo Rey in Tenancingo, México (30 m, 98 ft)\n[…]\nCristo Rey, at Iglesia de San Martín de Porres near Colonia Los Álamos, Tijuana, Baja California (23 m, 75 ft 30 cm)\n[…]\nCristo de las Noas in Torreón (22 m, 72 ft)\n[…]\nCristo Blanco in Cusco\n[…]\nCristo del Pacífico in Lima, erected in 2011 (37 m, 121 ft)\n[…]\nCristo Redentor in Barranca Province, Lima Region, Peru\n[…]\nCristo Rei (Christ the King) in Almada (28 m, 92 ft)\n[…]\nCristo Rei, Madeira on Madeira island, completed in 1927 (15 m, 49 ft)\n[…]\nCristo del Otero in Palencia, built in 1930 (21 m, 69 ft)\n[…]\nCristo Rey by Urbici Soler in Sunland Park, New Mexico (8.83 m, 29.0 ft)\n[…]\nGiumbelli, Emerson (2008). \"A modernidade do Cristo Redentor\". Dados (in Portuguese). 51 (1): 75–105. doi:10.1590/S0011-52582008000100003. ISSN 0011-5258.\n[…]\nGiumbelli, Emerson & Bosisio, Izabella (2010). \"A Política de um Monumento: as Muitas Imagens do Cristo Redentor\". Debates do NER (in Portuguese). 2 (18): 173–192. doi:10.22456/1982-8136.17638. hdl:10183/187720. ISSN 1982-8136.\n[…]\nGiumbelli, Emerson (2013). \"O Cristo Pichado\". Ponto Urbe. Revista do Núcleo de Antropologia Urbana da USP (in Portuguese) (12). doi:10.4000/pontourbe.586. ISSN 1981-3341.\n[…]\nPoliakoff, Martyn. \"Soapstone @ Cristo Redentor\". The Periodic Table of Videos. University of Nottingham."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+        "situacao": "ok",
+        "texto": "Esteatite (também pedra de talco ou pedra-sabão) é uma rocha metamórfica, compacta, composta sobretudo de talco (também chamado de esteatite ou esteatita), mas contendo muitos outros minerais como magnesita, clorita, tremolita e quartzo, por exemplo. É uma rocha muito branda e de baixa dureza, por conter grandes quantidades de talco na sua constituição. A pedra-sabão é encontrada em cores que vão \n[…]\nA pedra-sabão tem sido usada na Índia durante séculos como material para esculturas. A mineração desta pedra para atender a demanda mundial de talco está ameaçando o habitat natural dos tigres indianos. Os templos do Império Hoysala eram feitos de pedra-sabão.\n[…]\nA pedra-sabão é usada por ferreiros como um marcador pois, devido à sua resistência ao calor, ela se mantém visível mesmo quando aquecida. Também vem sendo utilizada por muitos anos por costureiras, carpinteiros e outros artesãos como um giz para fazer marcas no material a ser trabalhado, pois suas marcas são visíveis e podem ser apagadas.\n[…]\nO Cristo Redentor, obra da primeira metade do século XX (construção de 1922-1931), embora construído em concreto armado, possui em sua superfície um mosaico de pedra-sabão, com milhares de pequenas placas em formato triangular que simbolizam, com  a santíssima trindade.\n[…]\nA pedra-sabão é comumente utilizada como isolante elétrico ou como caixa de força que abriga componentes elétricos, devido à sua durabilidade e baixa condutividade elétrica, e porque pode ser moldada em formatos complexos mediante fundição. O esteatito sofre transformações nas suas propriedades físico-químicas quando aquecido em temperaturas de 1000–1200 °C, convertendo-se em enstatita e cristobalita. Na escala Mohs, esta transformação corresponde a um aumento de dureza de 1 para 5.5–6.5.\n[…]\nAleijadinho\n[…]\nCristo Redentor\n[…]\nSite sobre a Pedra-Sabão."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Ilha da Trindade",
+      "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que as ilhas brasileiras de Fernando de Noronha e Trindade, no meio do Atlântico, têm em comum quanto à sua origem?",
+    "resposta": "São de origem vulcânica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz",
+      "https://en.wikipedia.org/wiki/Fernando_de_Noronha"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz",
+        "situacao": "ok",
+        "texto": "Trindade and Martim Vaz (Portuguese: Trindade e Martim Vaz, pronounced [tɾĩˈdadʒi i maʁˈtʃĩ ˈvas]) is an archipelago located in the South Atlantic Ocean about 1,100 kilometres (680 miles) east off the coast of the Brazilian state of Espírito Santo, of which it forms a part. The archipelago has a total area of 10.4 square kilometres (4.0 square miles) and a navy-supported research station of up to \n[…]\nThe archipelago consists of five islands and several rocks and stacks; Trindade is the largest island, with an area of 10.1 square kilometres (3.9 square miles); about 49 kilometres (30 miles) east of it are the tiny Martim Vaz islets, with a total area of 0.3 square kilometres (70 acres).\n[…]\nIlha da Trindade (Portuguese for \"Trinity Island\") (20°31′30″S 29°19′30″W)\n[…]\nIlhas de Martim Vaz (20°30′00″S 28°51′00″W)\n[…]\nIlha da Racha (\"Crack Island\") or Ilha Martim Vaz, the largest, 175 metres (574 feet) high near the northwest end. The shores are strewn with boulders. (20°30′18″S 29°20′42″W)\n[…]\nThe archipelago is the main nesting site of the green sea turtle in Brazil. There are also large numbers of breeding seabirds, including the endemic subspecies of the Great frigatebird (Fregata minor nicolli) and Lesser frigatebird (F. ariel trinitatis), and it is the only Atlantic breeding site for the Trindade petrel. Humpback whales have been confirmed to use the Trindade island as a nursery.\n[…]\nThe Trindade and Martim Vaz Islands were discovered in 1502 by Portuguese navigators led by Estêvão da Gama, and along with Brazil, became part of the Portuguese Empire.\n[…]\nIn July 1895, the British again tried to take possession of this strategic position in the Atlantic. The British planned to use the island as a cable station. However, Brazilian diplomatic efforts, along with permission from Portugal, reinstated Trindade Island to Brazilian sovereignty.\n[…]\nTrindade hotspot\n[…]\nTRINDADE(Spanish)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+        "situacao": "ok",
+        "texto": "Fernando de Noronha (Brazilian Portuguese pronunciation: [feʁˈnɐ̃du dʒi noˈɾoɲɐ]), officially the State District of Fernando de Noronha (Portuguese: Distrito Estadual de Fernando de Noronha) and formerly known as the Federal Territory of Fernando de Noronha (Território Federal de Fernando de Noronha) until 1988, is an archipelago in the Atlantic Ocean, part of the state of Pernambuco, Brazil, and \n[…]\nThe name \"São João\" eventually gave way to the initially informal name of \"Fernando de Noronha\". A royal letter dated May 20, 1559, to descendants of the Loronha family, still refers to the island by its official name of ilha de São João., but already in other places, e.g. the logbook of Martim Afonso de Sousa in the 1530s, it was referred to as the \"island of Fernão de Noronha\" (\"Noronha\" being a common misspelling of \"Loronha\"). The informal name eventually displaced the official name.\n[…]\nIn 2009, Air France Flight 447 crashed into the Atlantic Ocean off Fernando de Noronha. Rescue and recovery operations were launched from the island. Bodies and debris from the Airbus A330 operating the flight were recovered within five days. All 228 people on board were killed.\n[…]\nThe archipelago of Fernando de Noronha in 2005 had a gross domestic product (GDP) of R$22,802,000 and a per capita income of R$10,001. In 2000, the United Nations Development Programme estimated the Fernando de Noronha state district's Human Development Index (HDI) at 0.862. The only two banking centers in the archipelago are a branch of Banco Santander Brasil and a branch of Banco Bradesco. There are one or two additional automated teller machines (ATMs) around the main island.\n[…]\n(in English) \"Fernando de Noronha-Atol das Rocas moist forests\". Terrestrial Ecoregions. World Wildlife Fund.\n[…]\n(in English) Audio interview with Fernando de Noronha resident about life on Fernando de Noronha\n[…]\nFernando de Noronha National Park"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trindade_e_Martim_Vaz",
+        "situacao": "ok",
+        "texto": "Trindade e Martim Vaz é um arquipélago localizado no sul do Oceano Atlântico, a cerca de 1,1 mil quilômetros a leste da costa do estado brasileiro do Espírito Santo, do qual faz parte. O arquipélago tem uma área total de 10,4 quilômetros e uma estação de pesquisa apoiada pela Marinha do Brasil com capacidade para até 8 pessoas.\n[…]\nAs ilhas são de origem vulcânica e possuem terreno acidentado; a data da última erupção na ilha é desconhecida, mas ocorreu na ponta sudeste da ilha, no Vulcão de Paredão. São em grande parte áridas, com exceção da parte sul de Trindade. Foram descobertas em 1502 pelo explorador português Estêvão da Gama e permaneceram portuguesas até se tornarem parte do Brasil com a sua independência em 1822. De 1895 a 1896, Trindade foi ocupada pelo Reino Unido até que um acordo com o Brasil fosse alcançado.\n[…]\nA ilha da Trindade tem numerosos centros vulcânicos. A atividade vulcânica mais recente aconteceu há aproximadamente 50 000 anos no Vulcão Paredão no ponto mais ao sudeste da ilha. Essa atividade consistiu em fluxo piroclástico que acumulou um cone de cinzas. Em Trindade ocorreram cinco vulcões acima do nível do mar. O vulcão denominado Complexo de Trindade é o mais antigo dos cinco e caracteriza-se por possuir rochas intrusivas e piroclásticas.\n[…]\nOutras formações que se destacam são a Formação Valado, onde ocorre rochas piroclásticas; o Morro do Paredão, que representa as ruínas de um vulcão. O Morro do Paredão corre o risco de desaparecer devido à ação erosiva das águas oceânicas. É o único resto reconhecível de um vulcão no Brasil. Trindade possui uma série vulcânica que se caracteriza por ser altamente subsaturada em sílica.\n[…]\nJuntamente com a série vulcânica de Fernando de Noronha, é a série vulcânica oceânica mais subsaturadas em sílica do Atlântico.\n[…]\nLista de ilhas do Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Ponto quente de Galápagos",
+      "descricao": "Ponto quente vulcânico no Pacífico oriental responsável pela formação das ilhas Galápagos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno geológico em comum explica o surgimento das ilhas vulcânicas de Galápagos e do Havaí?",
+    "resposta": "Pontos quentes do manto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_hotspot",
+      "https://en.wikipedia.org/wiki/Hawaii_hotspot"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_hotspot",
+        "situacao": "ok",
+        "texto": "The Galápagos hotspot is a volcanic hotspot in the East Pacific Ocean responsible for the creation of the Galápagos Islands as well as three major aseismic ridge systems, Carnegie, Cocos and Malpelo which are on two tectonic plates. The hotspot is located near the Equator on the Nazca plate not far from the divergent plate boundary with the Cocos plate. The tectonic setting of the hotspot is compl\n[…]\nIn Hawaii the evidence suggests that each volcano has a distinct period of activity as the hotspot moves under that portion of the Pacific plate before becoming dormant and then extinct and eroding under the ocean. This does not appear to be the case in the Galapagos, instead there is evidence of concurrent volcanism over a wide area. Nearly all Galapagos Islands show volcanism in the recent geological past, not just at the current location of the hotspot at Fernandina.\n[…]\nThe lavas formed here are similar to the types erupted on the western shield volcanoes of the Galapagos, which are predominantly plume.\n[…]\n12 million years to 11 million years: The Galapagos hotspot is centred under the Galapagos spreading centre. plume-type lavas are now abundant on the Cocos Ridge.\n[…]\n3.5 million to 2 million years ago: A short-lived east–west trending spreading centre is formed north of the Galapagos Spreading Centre. This new rift fails but leads to post abandonment volcanic activity and the subsequent formation of the Cocos Island and surrounding seamounts. Around the hotspot plume lavas predominate.\n[…]\n2.6 million years ago: a major transform fault occurs north of the Galapagos hotspot. This results in widespread volcanism in the northern Galapagos along the Wolf Darwin Lineament and around Genovesa Island.\n[…]\nPresent : The Galapagos hotspot is south of the spreading centre and there is geochemical zonation of the plume.\n[…]\nVolcanoes of the Galápagos Islands"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hawaii_hotspot",
+        "situacao": "ok",
+        "texto": "The Hawaiʻi hotspot  is a volcanic hotspot located near the namesake Hawaiian Islands, in the northern Pacific Ocean. One of the best known and intensively studied hotspots in the world, the Hawaii plume is responsible for the creation of the Hawaiian–Emperor seamount chain, a 6,200-kilometer (3,900 mi) mostly undersea volcanic mountain range. Four of these volcanoes are active, two are dormant; m\n[…]\nWhile some volcanoes are created by geologic processes near tectonic plate convergence and subduction zones, the Hawaiʻi hotspot is located far from plate boundaries. The classic hotspot theory, first proposed in 1963 by John Tuzo Wilson, proposes that a single, fixed mantle plume builds volcanoes that are then cut off from their source by the movement of the Pacific plate. This causes less lava to erupt from these volcanoes and they eventually erode below sea level over millions of years.\n[…]\nAfter the arrival of Europeans on the island, in 1880–1881 James Dwight Dana directed the first formal geological study of the hotspot's volcanics, confirming the relationship long observed by the natives. The Hawaiian Volcano Observatory was founded in 1912 by volcanologist Thomas Jaggar, initiating continuous scientific observation of the islands. In the 1970s, a mapping project was initiated to gain more information about the complex geology of Hawaii's seafloor.\n[…]\nUnderstanding the Hawaiian swell has important implications for hotspot study, island formation, and inner Earth.\n[…]\nAs island subsidence progresses, fringing reefs develop into barrier reefs and once the volcano becomes a seamount, barrier reefs form atolls. Midway Atoll is a good example of the final stage of the evolution of a hotspot volcanic island.\n[…]\nList of volcanic hotspots\n[…]\nThe long trail of the Hawaiian hotspot: USGS article on the Hawaiian island chain."
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Província Magmática Paraná-Etendeka",
+      "descricao": "Grande província de derrames de basalto do Cretáceo, dividida entre o sul da América do Sul e o sudoeste da África pela abertura do Atlântico."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os derrames de lava da Serra Geral, no sul do Brasil, têm um gêmeo no planalto de Etendeka, do outro lado do Atlântico. Em que país africano?",
+    "resposta": "Namíbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paran%C3%A1_and_Etendeka_traps"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paran%C3%A1_and_Etendeka_traps",
+        "situacao": "ok",
+        "texto": "The Paraná-Etendeka Large Igneous Province (PE-LIP) (or Paraná and Etendeka Plateau; or Paraná and Etendeka Province) is a large igneous province that includes both the main Paraná traps (in Paraná Basin, a South American geological basin) as well as the smaller severed portions of the flood basalts at the Etendeka traps (in northwest Namibia and southwest Angola). The original basalt flows occurr\n[…]\nThe basalt samples at Paraná and Etendeka have an age of about 132 Ma, during the Valanginian stage of the Early Cretaceous. Indirectly, the rifting and extension are probably the origin of the Paraná and Etendeka traps and it could be the origin of the Gough and Tristan da Cunha Islands as well, as they are connected by the Walvis Ridge (Gough/Tristan hotspot). The seamounts of the Rio Grande Rise (25°S to 35°S) that go eastwards from the Paraná side are part of this traps system.\n[…]\nOn the basis of trans-Atlantic chemostratigraphy, the low-Ti suite in Etendeka is equivalent to Palmas volcanics in Paraná, and the high-Ti suite is equivalent to Chapecó volcanics. At a finer scale, geochemical affinities have made tentative correlations in these pairs: PAV-G of Anita Garibaldi and Beacon, PAV-B of Caxias do Sul and Springbok, PAV-A of Jacuí and Goboboseb-II, Guarapuava and Ventura, Ourinhos and Khoraseb, BRA-21 and Wereldsend, PAV-F of Caxias do Sul and Grootberg.\n[…]\nMoreover, units of each province are not the exact correlatives of the same eruptive event but may share the same magmatic system.\n[…]\nParaná Basin\n[…]\nPeate DW (1997). \"The Parana-Etendeka Province\" (PDF). In Mahoney JJ, Coffin MF (eds.). Large Igneous Provinces: continental, oceanic, and planetary flood volcanism. Geophysical Monograph. Vol. 100. Washington, DC: American Geophysical Union. pp. 217–245. Archived from the original (PDF) on 2017-08-09. Retrieved 2010-08-22."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prov%C3%ADncia_magm%C3%A1tica_do_Paran%C3%A1-Etendeka",
+        "situacao": "ok",
+        "texto": "A Província magmática do Paraná-Etendeka é a segunda maior província vulcânica continental em área do planeta Terra. Também denominado de Derrame de Trapp ou Província Ígnea do Paraná foi um grande derramamento vulcânico de basalto, ocorrido na Era Mesozoica.\n[…]\nA reativação da plataforma brasileira durante o mesozoico exerceu influência fundamental na configuração geológica do sul e sudeste do Brasil, resultando na abertura no sul do oceano Atlântico e geração das bacias marginais que na atualidade hospedam importantes volumes de hidrocarbonetos. O magmatismo associado a esta reativação é expressivo, uma das mais notáveis associações de rochas alcalinas registradas, à qual se associam importantes jazimentos minerais.\n[…]\nNo Brasil, estes derrames fazem parte da Formação Serra Geral, na Bacia do Paraná, e recobrem 1,2 milhões de quilômetros quadrados desta bacia, abrangendo toda a região centro-sul do Brasil e estendendo-se ao longo das fronteiras do Paraguai, Uruguai e Argentina. Tem 1 860 km no sentido norte-sul e 650 km no leste-oeste.\n[…]\n95% da província constitui a Província Ígnea do Paraná, cujos limites superam 1 200 000 km², e atinge uma espessura máxima de 1 722,9 m (conforme poço aberto em Cuiabá Paulista). Os eventos tiveram seu auge no Cretáceo Inferior, com maior intensidade há 134,7 Ma. Otavio Augusto Boni Licht registrou que \"as estimativas dos volumes de lava variam entre 1,7 x 106 km3 e 2,35 x 106 km3, com uma taxa média de efusão entre 1,4 e 1,9 km3/ano\" e que \"para que esse enorme volume de magma alcançasse a",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Grande Vale do Rift",
+      "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Do ponto de vista das placas tectônicas, o que o Grande Vale do Rift, na África, e a Islândia têm em comum?",
+    "resposta": "Ali as placas se afastam",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/East_African_Rift",
+      "https://en.wikipedia.org/wiki/Geology_of_Iceland"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/East_African_Rift",
+        "situacao": "ok",
+        "texto": "The East African Rift (EAR) or East African Rift System (EARS) is an active continental rift zone in East Africa. The EAR began developing around the onset of the Miocene, 22–25 million years ago. It is considered to be part of a larger system, formerly known as the Great Rift Valley, that extends north to Asia Minor, also known as Anatolia.\n[…]\nMany of the African Great Lakes lie within the Rift Valley.\n[…]\nThe East African Rift Zone includes a number of active and dormant volcanoes, among them: Mount Kilimanjaro, Mount Kenya, Mount Longonot, Menengai Crater, Mount Karisimbi, Mount Nyiragongo, Mount Meru and Mount Elgon, as well as the Crater Highlands in Tanzania. Although most of these mountains lie outside of the rift valley, the EAR created them.\n[…]\nThe east to west river valleys within the rift system, including the Turkana Channel in northern Kenya and the Zambezi river valley, concentrate low-level easterly winds and accelerate them towards Central Africa. This leaves East Africa drier than it otherwise would be, and also supports the high rainfall in the Congo Basin rainforest. The formation of the east–west valleys could in turn be important for the aridification of East Africa over millions of years.\n[…]\nThe Rift Valley in East Africa has been a rich source of hominid fossils that allow the study of human evolution. The rapidly eroding highlands quickly filled the valley with sediments, creating a favorable environment for the preservation of remains. The bones of several hominid ancestors of modern humans have been found here, including those of \"Lucy\", a partial australopithecine skeleton discovered by anthropologist Donald Johanson dating back over 3 million years.\n[…]\nBaikal Rift Zone\n[…]\nWest Antarctic Rift System\n[…]\nWest and Central African Rift System"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Geology_of_Iceland",
+        "situacao": "ok",
+        "texto": "The geology of Iceland is unique and so of particular interest to geologists. Iceland lies on the divergent boundary between the Eurasian plate and the North American plate. It also lies above a hotspot, the Iceland plume. The plume is believed to have caused the formation of Iceland itself, the island first appearing over the ocean surface about 16 to 18 million years ago. The result is an island\n[…]\nBetween 1963 and 1967, the new island of Surtsey was created off the southwest coast by a volcanic eruption.\n[…]\nThe tectonic structure of Iceland is characterized by various seismically and volcanically active centers. Iceland is bordered to the south by the Reykjanes Ridge segment of the Mid-Atlantic Ridge and to the north by the Kolbeinsey Ridge. Rifting in the southern part of Iceland is focused in two main parallel rift zones. The Reykjanes Peninsula Rift in SW Iceland is the landward continuation of the Reykjanes Ridge that connects to the Western Volcanic Zone (WVZ).\n[…]\nRates of crustal deformation in Iceland can be measured and calculated in a number of ways. One way scientists measure the island's movements and changes is through a permanent network of continuous Global Positioning System (GPS) stations. As of 2009, there was a network of over 25 GPS stations located across Iceland, with installation of these stations having begun in 1999.\n[…]\nDeforestation of Iceland has been a result of human impact and the climate. Since the island's settlement in the 7th century, the native forests and woodlands have been cut down for fuel and for timber. Upon settlement, it had a rich environment, but it was fragile. After consistent logging and resource exploitation, only about 1.9% of the country is a forest or woodland, mostly made up of small birch and willows."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rifte_da_%C3%81frica_Oriental",
+        "situacao": "ok",
+        "texto": "O Rifte Africano Oriental é um rifte na África Oriental, desenvolvendo-se desde o Miocénico há 22-25 milhões de anos. Antigamente era considerado como fazendo parte do maior Vale do Rifte que se estende até à Ásia Menor.\n[…]\nO rifte é uma estreita zona de divergência de placas tectónicas, na qual a placa africana está em processo de divisão em duas, designadas placa somali e placa núbia, a um ritmo de cerca de 6–7 mm por ano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Cratera de Chicxulub",
+      "descricao": "Cratera de impacto soterrada no México, associada ao asteroide da extinção do fim do Cretáceo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A cratera do asteroide ligado à extinção dos dinossauros está enterrada sob qual península do México?",
+    "resposta": "Península de Yucatán",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chicxulub_crater"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chicxulub_crater",
+        "situacao": "ok",
+        "texto": "The Chicxulub crater is an impact crater buried underneath the Yucatán Peninsula in Mexico. The crater is named after the onshore inland community of Chicxulub Pueblo. It was formed slightly over 66 million years ago when an asteroid, about ten kilometers (six miles) in diameter, struck Earth. The crater is estimated to be two hundred kilometers (120 mi) in diameter and is buried to a depth of abo\n[…]\nIn 1978, geophysicists Glen Penfield and Antonio Camargo were working for the Mexican state-owned oil company Petróleos Mexicanos (Pemex) as part of an airborne magnetic survey of the Gulf of Mexico north of the Yucatán Peninsula. Penfield's job was to use geophysical data to scout possible locations for oil drilling. In the offshore magnetic data, Penfield noted anomalies whose depth he estimated and mapped. He then obtained onshore gravity data from the 1940s.\n[…]\nIntermittent core samples from hydrocarbon exploration boreholes drilled by Pemex on the Yucatán peninsula have provided some useful data. UNAM drilled a series of eight fully-cored boreholes in 1995, three of which penetrated deep enough to reach the ejecta deposits outside the main crater rim (UNAM-5, 6, and 7).\n[…]\nOn the Yucatán peninsula, the inner rim of the crater is marked by clusters of cenotes, which are the surface expression of a zone of preferential groundwater flow, moving water from a recharge zone in the south to the coast through a karstic aquifer system. From the cenote locations, the karstic aquifer is clearly related to the underlying crater rim, possibly through higher levels of fracturing,\n[…]\nKornel, Katherine (September 10, 2019). \"A New Timeline of the Day the Dinosaurs Began to Die Out – By drilling into the Chicxulub crater, scientists assembled a record of what happened just after the asteroid impact\". The New York Times. Archived from the original on September 25, 2019. Retrieved September 25, 2019."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cratera_de_Chicxulub",
+        "situacao": "ok",
+        "texto": "Cratera Chicxulub (pronuncia-se AFI: /tʃikʃuˈlub/) é uma antiga cratera de impacto soterrada embaixo da península de Iucatã, no México. O seu centro está localizado próximo à localidade de Chicxulub, que deu origem ao nome da cratera. A cratera tem mais de 180 km de diâmetro, tornando-a uma das maiores estruturas de impacto conhecidas no mundo; o bólide que formou a cratera tinha pelo menos 10 km \n[…]\nO impacto aconteceu há 66,038 milhões de anos, no final do Cretáceo. O impacto associado com a cratera teria estado envolvido na extinção de numerosos grupos de animais e plantas, incluindo os dinossauros, como sugerido pelo nível K-T, embora alguns críticos argumentam que o impacto não foi a única razão e outros debatam se houve um só impacto ou se o meteoro de Chicxulub foi um de vários que podem ter colidido com a Terra naquela época.\n[…]\nEm 1978 os geofísicos Glen Penfield e Antonio Camargo trabalhavam para a companhia petrolífera estatal mexicana Pemex, como parte de um levantamento aeromagnético do golfo do México, a norte da península do Iucatã. O seu trabalho era utilizar dados geofísicos para estudar possíveis localizações para extrair petróleo. Entre os dados, Penfiel encontrou um enorme arco subaquático com uma \"simetria extraordinária\" na forma de um anel que media em redor de 70 km de diâmetro.\n[…]\nA cratera de Chicxulub apoia a teoria postulada pelo falecido físico Luis Alvarez e seu filho, o geólogo Walter Alvarez, de que a extinção de numerosos grupos de animais e plantas, incluindo os dinossauros, poderia ter sido o resultado do impacto de um bólide (Extinção Cretáceo-Paleogeno).\n[…]\nCratera da Terra de Wilkes\n[…]\nCratera de Vredefort\n[…]\n«Reunião de cientistas confirma a hipótese de que o choque do asteroide provocou a extinção massiva de várias espécies» (em espanhol). Notimex para Diario de Yucatán. 2010. Consultado em 4 de março de 2010. Arquivado do original em 7 de maio de 2010",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Paricutín",
+      "descricao": "Vulcão que surgiu em 1943 numa plantação de milho no estado de Michoacán."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1943, um vulcão começou a nascer no meio de uma plantação de milho, diante dos olhos de um agricultor. Em que país?",
+    "resposta": "México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Par%C3%ADcutin",
+        "situacao": "ok",
+        "texto": "Parícutin (or Volcán de Parícutin, also accented Paricutín) is a cinder cone volcano located in the Mexican state of Michoacán, near the city of Uruapan and about 322 kilometers (200 mi) west of Mexico City. The volcano surged suddenly from the cornfield of local farmer Dionisio Pulido in 1943, attracting both popular and scientific attention.\n[…]\nIt has also created fertile soils by the widespread deposition of ash and thereby some of Mexico's most productive farmland. The volcanic activity here is a result of the subduction of the Rivera and Cocos plates along the Middle America Trench.\n[…]\nMore specifically, the volcano is the youngest of the approximately 1,400 volcanic vents of the Michoacán-Guanajuato volcanic field, a 40,000 square kilometers (15,000 mi2) basalt plateau filled with scoria cones like Parícutin, along with small shield volcanoes, maars, tuff rings and lava domes. Scoria cones are the most common type of volcano in Mexico, appearing suddenly and building a cone-shaped mountain with steep slopes before becoming extinct.\n[…]\nThe evacuations of Parícutin and San Juan were accomplished without loss of life due to the slow movement of the lava. These two phases lasted just over a year and account for more than 90% of the total material ejected from the cone, as well as almost four-fifths (330 meters) of the final height of 424 meters from the valley floor. It also sent ash as far as Mexico City.\n[…]\nThe economy of the area was then and is now mostly agricultural, with a mostly Purépecha population, rural and poor. However, the eruption did cause a number of changes both social and economic to the affected areas, both to adapt to the changed landscape but also because the fame of the eruption has brought greater contact from the rest of Mexico and beyond.\n[…]\nList of volcanoes in Mexico\n[…]\n1943–1952 The eruption of Parícutin"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paricut%C3%ADn",
+        "situacao": "ok",
+        "texto": "O Paricutín é um vulcão muito recente situado no estado de Michoacán, no México (19°29'35.70\"N, 102°15'3.93\"O), entre as povoações de San Juan Parangaricutiro (El Nuevo) e Angahuan. Está incluído em algumas listas das sete maravilhas naturais do mundo. A cidade mais próxima deste vulcão é Uruapan.\n[…]\nA maior parte do desenvolvimento deste vulcão ocorreu durante o seu primeiro ano de existência (1943), enquanto se encontrava na sua fase piroclástica explosiva. Durante diversas semanas desse ano, um grande número de ruídos estranhos foram ouvidos pelos habitantes em torno da pequena aldeia de Paricutín, apesar das condições meteorológicas serem normais.\n[…]\nA atividade sísmica intensificou-se até 20 de fevereiro de 1943, quando o fazendeiro local Dioniso Pulido testemunhou a abertura de uma fissura vulcânica no meio de seu campo de milho. De acordo com alguns testemunhos, os aldeões tentaram fechar as fissuras enchendo-as com as rochas e o solo, antes que pequenas explosões e tremores violentos começassem a agitar a área.\n[…]\nComo a maioria dos cones de cinza, o Paricutín é um vulcão monogenético, o que significa que nunca voltará a ocorrer sua erupção.\n[…]\nO vulcanismo é um aspecto comum na paisagem mexicana. O Paricutín é meramente o mais novo dos mais de 1.400 respiradouros vulcânicos que existem na cadeia vulcânica Trans-Mexicana, que se estende pela região que inclui Michoacán e Guanajuato. Este vulcão é original pelo fato de que sua formação foi testemunhada desde o início. Surpreendentemente, nenhuma morte foi causada pela erupção, embora três pessoas tenham morrido em conseqüência dos relâmpagos associados a ela.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Círculo de Fogo do Pacífico",
+      "descricao": "Faixa em forma de ferradura de intensa atividade vulcânica e sísmica nas bordas do oceano Pacífico."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O chamado Círculo de Fogo, faixa que concentra a maior parte dos vulcões e terremotos do planeta, contorna qual oceano?",
+    "resposta": "Pacífico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ring_of_Fire"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+        "situacao": "ok",
+        "texto": "The Ring of Fire (also known as the Pacific Ring of Fire, the Rim of Fire, the Girdle of Fire or the Circum-Pacific belt) is a tectonic belt of earthquakes and volcanoes.\n[…]\nThere are gaps in the Ring of Fire at some parts of the Pacific coast of the Americas. In some places, the gaps are thought to be caused by flat slab subduction; examples are the three gaps between the four sections of the Andean Volcanic Belt in South America.\n[…]\nThe Northern Cordilleran Volcanic Province is an area of numerous volcanoes, which are caused by continental rifting,not subduction; therefore geologists often regard it as a gap in the Pacific Ring of Fire between the Cascade Volcanic Arc further south and Alaska's Aleutian Arc further north.\n[…]\nIndonesia is located where the Ring of Fire around the Pacific Ocean meets the Alpide belt (which runs from Southeast Asia to Southwest Europe).\n[…]\nThe eastern islands of Indonesia (Sulawesi, the Lesser Sunda Islands (excluding Bali, Lombok, Sumbawa and Sangeang), Halmahera, the Banda Islands and the Sangihe Islands) are geologically associated with subduction of the Pacific plate or its related minor plates and, therefore, the eastern islands are often regarded as part of the Ring of Fire.\n[…]\nThe soils of the Pacific Ring of Fire include andosols, also known as andisols; they have formed by the weathering of volcanic ash. Andosols contain large proportions of volcanic glass. The Ring of Fire is the world's main location for this soil type, which typically has good levels of fertility.\n[…]\nGeology of the Pacific Northwest\n[…]\nPacific Rim – Land area comprising the rim of the Pacific Ocean"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%ADrculo_de_fogo_do_Pac%C3%ADfico",
+        "situacao": "ok",
+        "texto": "Círculo de fogo do Pacífico, ou Anel de fogo do Pacífico (ou às vezes apenas Anel de Fogo), é uma área onde há um grande número de terremotos e uma forte atividade vulcânica localizado no Norte do Oceano Pacífico. O Anel de Fogo do Pacífico tem a forma de ferradura, com cerca de 40.000 km de extensão e está associado a uma série quase contínua de trincheiras oceânicas, arcos vulcânicos, couraças v\n[…]\nO Círculo de Fogo do Pacífico foi formado ao longo de milhões de anos devido ao movimento das placas tectônicas. Ele é resultado da subducção, um processo geológico em que placas oceânicas mais densas mergulham sob placas continentais ou oceânicas menos densas. Esse movimento cria zonas de intensa atividade sísmica e vulcânica, como fossas oceânicas e cadeias de montanhas.\n[…]\nPor exemplo, a Fossa das Marianas, o ponto mais profundo dos oceanos, está localizada no Círculo de Fogo e foi formada pela subducção da Placa do Pacífico sob a Placa das Filipinas.\n[…]\nA região também é marcada pela presença de arco-ilhas, como o arquipélago do Japão e as Filipinas, que se formam quando o magma sobe à superfície devido à subducção. Esses arcos são frequentemente associados a vulcões ativos e terremotos.\n[…]\nO Círculo de Fogo abriga mais de 450 vulcões ativos, incluindo alguns dos mais famosos do mundo. O Monte Fuji, no Japão, é um símbolo cultural e geológico, enquanto o Monte Santa Helena, nos Estados Unidos, é conhecido por sua catastrófica erupção em 1980.\n[…]\nAlém disso, a região é palco de terremotos devastadores, como o de Tohoku em 2011, que gerou um tsunami com ondas de até 40 metros e causou o desastre nuclear de Fukushima. Outro exemplo notável é o terremoto de Valdivia em 1960, no Chile, que atingiu 9,5 na escala Richter, o maior já registrado na história.\n[…]\nPaíses e regiões próximos ou inseridos no Círculo de Fogo:\n[…]\nCinturão vulcânico dos Andes\n[…]\nCírculo do Pacífico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Alfred Wegener",
+      "descricao": "Meteorologista e geofísico alemão, autor da teoria da deriva continental, morto em 1930."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O meteorologista alemão Alfred Wegener morreu em 1930 durante uma expedição científica a qual grande ilha gelada?",
+    "resposta": "Groenlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Wegener",
+        "situacao": "ok",
+        "texto": "Alfred Lothar Wegener (; German: [ˈʔalfʁeːt ˈveːɡənɐ]; 1 November 1880 – November 1930) was a German climatologist, geologist, geophysicist, meteorologist, and polar researcher.\n[…]\nWegener's last Greenland expedition was in 1930. The 14 participants under his leadership were to establish three permanent stations from which the thickness of the Greenland ice sheet could be measured and year-round Arctic weather observations made.\n[…]\nExpedition members built a pyramid-shaped mausoleum in the ice and snow, and Alfred Wegener's body was laid to rest. Wegener had been 50 years of age and a heavy smoker, and it was believed that he had died of heart failure brought on by overexertion. Kurt Wegener took over the expedition's leadership in July, according to the prearranged plan for such an eventuality.\n[…]\nBut Wegener only published his idea after reading a paper in 1911 which criticised the prevalent hypothesis, that a bridge of land once connected Europe and America, on the grounds that this contradicts isostasy. Wegener's main interest was meteorology, and he wanted to join the Denmark-Greenland expedition scheduled for mid-1912. He presented his continental drift hypothesis on 6 January 1912. He analysed both sides of the Atlantic Ocean for rock type, geological structures and fossils.\n[…]\nWegener, Elsie; Loewe, Fritz, eds. (1939). Greenland Journey, The Story of Wegener's German Expedition to Greenland in 1930–31 as told by Members of the Expedition and the Leader's Diary. Translated by Winifred M. Deans, from the seventh German edition. London: Blackie & Son Ltd.\n[…]\nWorks by or about Alfred Wegener at the Internet Archive\n[…]\nAlfred Wegener (1880–1930) – Biographical material"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alfred_Wegener",
+        "situacao": "ok",
+        "texto": "Alfred Lothar Wegener (Berlim, 1 de novembro de 1880 – Groenlândia, cerca 5 de novembro de 1930) foi um geólogo, geofísico e meteorologista alemão.\n[…]\nWegener construiu a primeira estação meteorológica da Groenlândia em Danmarkshavn, onde usou pipas e balões para medições meteorológicas no Ártico e participou de viagens de trenó que o levaram ao paralelo 81° norte. Wegener também teve o primeiro contato com a morte no gelo: durante uma viagem de reconhecimento à costa nordeste da Groenlândia com um trenó puxado por cães, o líder da expedição morreu junto com dois companheiros.\n[…]\nApós seu retorno da Groenlândia em 1908, Wegener tornou-se professor de meteorologia, astronomia prática e física cósmica em Marburgo até a eclosão da Primeira Guerra Mundial. Em 1909, esteve ativamente envolvido na fundação do Associação Kurhessiana para a Aviação, onde realizou medições meteorológicas, por exemplo, por reflexão, como piloto de balão. Entre 1909–10, trabalhou em seu livro Thermodynamics of the Atmosphere, no qual também usou vários resultados da expedição à Groenlândia.\n[…]\nAqui dedicou-se principalmente à física e óptica da atmosfera e ao estudo das trombetas (furacões). A avaliação científica de sua segunda expedição à Groenlândia (medidas de gelo, ótica atmosférica etc.) foi adiada até o final da década de 1920. Como parte da cátedra em Graz, ele também assumiu a cidadania austríaca.\n[…]\nSua última expedição à Groenlândia ocorreu em 1930. Nela, ao regressar de uma expedição de salvamento que levou alimentos a um grupo dos seus colegas acampados num local remoto, morreu de hipotermia em novembro, alguns dias após completar 50 anos de idade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Mesossauro",
+      "descricao": "Pequeno réptil aquático do Permiano cujos fósseis aparecem na América do Sul e na África austral."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O mesossauro, pequeno réptil de água doce, tem fósseis no Brasil e em qual outro continente, prova de que eles já estiveram unidos?",
+    "resposta": "África",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mesosaurus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mesosaurus",
+        "situacao": "ok",
+        "texto": "Mesosaurus (meaning \"middle lizard\") is an extinct genus of aquatic reptile from the late Early Permian (Kungurian, ~275 million years ago) of southern Africa and South America. It is the only member of the family Mesosauridae and order Mesosauria. Two other genera of mesosaurs, Brazilosaurus and Stereosternum, were formerly recognised, but are now considered synonyms of Mesosaurus. Mesosaurus con\n[…]\nThe circumstances of its discovery and how it was taken from its previous owners in South Africa are unknown, but what is known is that the specimen eventually surfaced in the collection of the French palaeontologist Paul Gervais during the 1860s and he designated it as the holotype of a new genus and species he named Mesosaurus tenuidens in 1865.\n[…]\nIn 1889, the species Ditchrosaurus capensis was named by Georg Gürich based on remains found in South Africa, though this is now regarded as a synonym of M. tenuidens. Since then, Mesosaurus remains have also been identified from South America and were first identified in 1908 as belonging to a second species, M. brasiliensis, by J. H. MacGregor. Later studies have shown that M. brasiliensis is another synonym of M. tenuidens.\n[…]\nMesosaurus was significant in providing evidence for the theory of continental drift, because its remains were found in southern Africa, Whitehill Formation, and eastern South America (Mangrullo Formation, Uruguay and Irati Formation, Brazil), two widely separated regions.\n[…]\nMesosaurus lived on the coastline of the Irati–Whitehill sea, an epicontinental sea that existed in the southern part of Gondwanan Pangaea covering parts of south and eastern South America and southern Africa during the Early Permian for a period of up to 4 million years during the late Kungurian age of the Early Permian, around 275 million years ago, before drying up, resulting the extinction of the mesosaurs."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mesosaurus",
+        "situacao": "ok",
+        "texto": "Mesosaurus é um gênero extinto de pararrépteis marinhos, que viveram na Era Paleozóica. Os mesossaurídeos surgiram no início do Período Permiano. Quando adultos mediam cerca de um metro de comprimento. Estudos recentes indicam a possibilidade de os indivíduos adultos terem um estilo de vida semiaquático.\n[…]\nAs ocorrências de fósseis destes animais nos continentes americano e africano são consideradas fortes evidências da deriva continental.\n[…]\nOs mesossaurídeos foram um dos primeiros grupos de amniotas a adaptarem-se a um ambiente aquático. Tinham corpo hidrodinâmico, mãos e pés com membranas interdigitais e cauda longa. O crânio de Mesosaurus tenuidens era alongado e a cavidade oral continha dentes muito longos, finos e numerosos. Mesosaurus se alimentava de pequenos crustáceos.\n[…]\nEste animal habitou zonas aquáticas do antigo supercontinente chamado Pangeia. Os seus restos fossilizados afloram em rochas do Permiano da África e América do Sul.\n[…]\nO primeiro fóssil deste animal foi localizado em 1865 ao sul do continente africano pelo pesquisador Paul Gervais, num sítio denominado Griquas.\n[…]\nO Mesosaurus brasiliensis foi descrito e batizado por Mac Gregor em 1908, estudando fósseis encontrados nos folhelhos da Formação Irati, do Permiano inferior, coletados pelo geólogo Israel Charles White próximos à estação de Irati, no estado do Paraná. Era um réptil pequeno, com corpo esguio e longa cauda, medindo cerca de um metro quando adulto.\n[…]\nA ocorrência de um mesmo gênero de pequeno réptil nos dois lados do Atlântico foi vista por diversos geólogos e paleontólogos, a exemplo do próprio Alfred Wegener, como um dos mais fortes argumentos para a teoria da deriva continental.\n[…]\nTreze fósseis procedentes do Brasil são confiscados em Paris",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Mármore de Carrara",
+      "descricao": "Mármore branco ou cinza-azulado extraído nas pedreiras dos Alpes Apuanos, na Toscana, usado em esculturas desde a Roma Antiga."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De qual cidade italiana, famosa por suas pedreiras, veio o bloco de mármore que Michelangelo usou para esculpir o Davi?",
+    "resposta": "Carrara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+      "https://en.wikipedia.org/wiki/Carrara_marble"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+        "situacao": "ok",
+        "texto": "David is  a masterpiece of Italian Renaissance sculpture in marble created from 1501 to 1504 by Michelangelo. With a height of 5.17 metres (17 ft 0 in), the David was not only the first colossal marble statue made in the High Renaissance, but also the first since classical antiquity, setting a precedent for the 16th century and beyond.\n[…]\nReady to continue their project, in 1464 the Operai contracted Agostino to create a marble sculpture of the young David, a symbol of Florence, to be mounted high on the eastern end of the Duomo. This was to be formed in the Roman manner from several blocks of marble, but in 1465 Agostino himself went to Carrara, a town in the Apuan Alps, and acquired a very large block of bianco ordinario from the Fantiscritti quarry.\n[…]\nThe massive block of white marble that was to become the David, measuring nine braccia in length, was of bianco ordinario grade stone, rather than the superior statuario. It came from the old Roman Fantiscritti quarry at the centre of the Carrara marble basins, and had been transported by oxen-pulled carts to the sea, whence it was carried on barges dragged by oxen up the river Arno to Florence.\n[…]\nIn 1991, the left foot of the statue was damaged by an unemployed Italian man named Piero Cannata, who was carrying a hammer he had hidden under his jacket and broke off the tip of the second toe. The samples obtained from that incident allowed scientists, utilizing spectroscopic, isotopic and petrographic analysis simultaneously, to determine that the marble used was obtained from the Fantiscritti quarries in Miseglia, the central of three small valleys in Carrara.\n[…]\nPoeschke, Joachim (1996). Michelangelo and His World: Sculpture of the Italian Renaissance. Harry N. Abrams. ISBN 978-0-8109-4276-9.\n[…]\nThe Digital Michelangelo Project, Stanford University"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carrara_marble",
+        "situacao": "ok",
+        "texto": "Carrara marble, or Luna marble (marmor lunense) to the Romans, is a type of white or blue-grey marble popular for use in sculpture and building decor. It has been quarried since Roman times in the mountains just outside the city of Carrara in the province of Massa and Carrara in the Lunigiana, the northernmost tip of modern-day Tuscany, Italy.\n[…]\nCarrara marble has been used since the time of Ancient Rome, when it was called marmor lunense, or \"Luna marble\".\n[…]\nIn the 17th and 18th centuries, the marble quarries were monitored by the Cybo and Malaspina families who ruled over the Duchy of Massa and Carrara. The family created the \"Office of Marble\" in 1564 to regulate the marble mining industry. The city of Massa, in particular, saw much of its plan redesigned (new roads, plazas, intersections, pavings) in order to make it worthy of an Italian country's capital.\n[…]\nIt was also used in many sculptures of the Renaissance including Michelangelo's David (1501–1504) whilst the statue to Robert Burns, which commands a central position in Dumfries, was carved in Carrara by Italian craftsmen working to Amelia Robertson Hill's model. It was unveiled by future UK Prime Minister Archibald Primrose, 5th Earl of Rosebery on 6 April 1882. Other notable occurrences include:\n[…]\nThe black yeast Micrococcus halobius can colonize Carrara marble by forming a biofilm and producing gluconic, lactic, pyruvic and succinic acids from glucose, as seen in the Dionysos Theater of the Acropolis in Athens.\n[…]\nList of types of marble\n[…]\nMarmifera di Carrara railway\n[…]\nLardo, a culinary specialty of the Carrara region commonly cured in basins made of Carrara marble\n[…]\nNewman, Cathy (July 1982). \"Carrara Marble: Touchstone of Eternity\". National Geographic. Vol. 162, no. 1. pp. 42–59. ISSN 0027-9358. OCLC 643483454.\n[…]\nMedia related to Marble quarry, Carrara at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/David_%28Michelangelo%29",
+        "situacao": "ok",
+        "texto": "David ou Davi é uma das esculturas mais famosas do artista renascentista Michelangelo. O trabalho retrata o herói bíblico com realismo anatômico impressionante, sendo considerada uma das mais importantes obras do Renascimento. A escultura encontra-se em Florença, Itália, cidade que originalmente encomendou a obra.\n[…]\nEm 1410, Donatello concebeu a primeira das estátuas: uma escultura do profeta Josué em terracota. Uma escultura de Hércules, também em terracota, foi encomendada ao escultor Agostino di Duccio em 1463 e produzida provavelmente sob a supervisão de Donatello. Dispostos a seguir com projeto, os membros da guilda encomendaram uma escultura de David a Duccio. Um bloco de mármore foi removido das pedreiras de Carrara, ao norte da Toscana. Duccio iniciou a obra modelando os pés, pernas e o tronco.\n[…]\nO contrato de Rossellino foi suspenso tempo depois, fazendo com que o inacabado bloco de mármore fosse esquecido mais de vinte e cinco anos no ateliê da Catedral. Naturalmente, o abandono representava uma fonte de preocupação às autoridades florentinas, especialmente por conta do alto custo do material e a dificuldade no translado para a cidade. Um inventário da Catedral publicado em 1500 descrevia a peça como \"uma certa figura de mármore chamada David, pobremente esculpida e inerte\".\n[…]\nDocumentos de um ano mais tarde comprovam que os membros da guilda, conhecidos como Operai, estavam determinados a encontrar um artista disposto a concluir a obra e apresentá-la a cidade. Encomendaram, então, um bloco de pedra que apelidaram de O Gigante. Apesar de nomes já conceituados, como Leonardo da Vinci, terem sido cogitados, foi o jovem Michelangelo quem assumiu a tarefa de concluir a obra. Em 16 de agosto de 1501, Michelangelo assinou contrato com os Operai para conclusão da escultura.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Granito",
+      "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O granito, rocha comum em pias e calçadas, é formado principalmente por quartzo, mica e qual outro mineral?",
+    "resposta": "Feldspato",
+    "distratores": [
+      "Calcita",
+      "Talco",
+      "Halita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Granite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Granite",
+        "situacao": "ok",
+        "texto": "Granite (, GRAN-it or , GRAN-eye-t) is a coarse-grained (phaneritic) intrusive igneous rock composed mostly of quartz, alkali feldspar, mica and plagioclase. It forms from magma with a high content of silica and alkali metal oxides that slowly cools and solidifies underground. It is common in the continental crust of Earth, where it is found in igneous intrusions. These range in size from dikes on\n[…]\nGranite is typical of a larger family of granitic rocks, or granitoids, that are composed mostly of coarse-grained quartz and feldspars in varying proportions. These rocks are classified by the relative percentages of quartz, alkali feldspar, and plagioclase (the QAPF classification), with true granite representing granitic rocks rich in quartz and alkali feldspar. Most granitic rocks also contain mica or amphibole minerals, though a few (known as leucogranites) contain almost no dark minerals.\n[…]\nThe word \"granite\" comes from the Latin granum, a grain, in reference to the coarse-grained structure of such a completely crystalline rock. Granites can be predominantly white, pink, or gray in color, depending on their mineralogy. Granitic rocks mainly consist of feldspar, quartz, mica, and amphibole minerals, which form an interlocking, somewhat equigranular matrix of feldspar and quartz with scattered darker biotite mica and amphibole (often hornblende) peppering the lighter color minerals.\n[…]\nThe plagioclase is typically sodium-rich oligoclase. Phenocrysts are usually alkali feldspar.\n[…]\nTrue granites are further classified by the percentage of their total feldspar that is alkali feldspar. A granite containing 15% to 25% quartz and whose feldspar is 65% to 90% alkali feldspar is syenogranite, while the feldspar in monzogranite is 35% to 65% alkali feldspar. A granite containing both muscovite and biotite micas is called a binary or two-mica granite."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Granito",
+        "situacao": "ok",
+        "texto": "O granito (do latim granum grão, em referência à textura da rocha) é um tipo comum de rocha magmática, intrusiva ou plutónica de textura (cristais) fina não metamórfica, média ou grosseira, composta essencialmente pelos minerais: quartzo, mica e feldspato, tendo como minerais acessórios mica (normalmente presente), horneblenda, zircão e outros minerais. É normalmente encontrado nas placas continen\n[…]\nOs feldspatos (microclina, ortóclase e plagióclases), são os principais condicionantes do padrão cromático das rochas silicáticas, conferindo as colorações avermelhada, rosada e creme-acinzentada a estas rochas.\n[…]\nNos granitos mais leucocráticos (claros), portanto com menor quantidade de minerais ferro-magnesianos, o quartzo e o feldspato compõem normalmente entre 85% e 95% da rocha.\n[…]\nGranitos são classificados de acordo com o diagrama QAPF para rochas plutônicas de granulação grossa e são nomeados de acordo com a porcentagem de quartzo, álcali-feldspato (ortoclásio, sanidina ou microclina) e plagioclásio na porção A-Q-P do diagrama. De acordo com a convenção petrológica moderna, granitos verdadeiros contém tanto plagioclásio quanto álcali-feldspatos. Quando um granitoide é desprovido (ou quase) de plagioclásio, nos referimos à rocha como um álcali-feldspato granito.\n[…]\nÁlcali-feldspatos (ricos em potássio) e quartzo (SiO2) são os dois constituintes principais do granito.\n[…]\nEste processo opera independentemente da origem do magma parental do granito e de sua química. Entretanto, a composição e origem do magma que sofre diferenciação para granitos deixa certas evidências geoquímicas e minerais de qual seria a rocha-fonte. Por exemplo, um granito que é formado por sedimentos fundidos pode ter mais álcali-feldspatos, enquanto um granito derivado de basalto fundido pode ser mais rico em plagioclásio. É precisamente nisto que se baseia a classificação moderna.\n[…]\nGranite countertops (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Âmbar",
+      "descricao": "Material fóssil de cor amarelada, usado em joias, que às vezes preserva insetos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O âmbar, que às vezes guarda insetos de milhões de anos, é na verdade o quê fossilizado?",
+    "resposta": "Resina de árvore",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amber"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amber",
+        "situacao": "ok",
+        "texto": "Amber is fossilized tree resin. It has been appreciated for its color (orange, brown and, sometimes, red) and natural beauty since Neolithic times, and worked as a gemstone since classical antiquity. Amber is used in jewelry and as a healing agent in folk medicine.\n[…]\nAmber has been used as jewelry since the Stone Age, from 13,000 years ago. Amber ornaments have been found in Mycenaean tombs and elsewhere across Europe. To this day it is used in the manufacture of smoking and glassblowing mouthpieces. Amber's place in culture and tradition lends it a tourism value; Palanga Amber Museum is dedicated to the fossilized resin.\n[…]\nIn ancient China, it was customary to burn amber during large festivities. If amber is heated under the right conditions, oil of amber is produced, and in past times this was combined carefully with nitric acid to create \"artificial musk\" – a resin with a peculiar musky odor. Although when burned, amber does give off a characteristic \"pinewood\" fragrance, modern products, such as perfume, do not normally use actual amber because fossilized amber produces very little scent.\n[…]\nIn perfumery, scents referred to as \"amber\" are often created and patented to emulate the opulent golden warmth of the fossil.\n[…]\nThe copals (subfossil resins). The African and American (Colombia) copals from Leguminosae trees family (genus Hymenaea). Amber of the Dominican or Mexican type (Class I of fossil resins). Copals from Manilia (Indonesia) and from New Zealand from trees of the genus Agathis (family Araucariaceae)\n[…]\nIllyrian amber jewellery\n[…]\nList of types of amber\n[…]\nWebmineral on Amber Physical properties and mineralogical information\n[…]\nMindat Amber Image and locality information on amber\n[…]\nNY Times 40 million year old extinct bee in Dominican amber"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%82mbar",
+        "situacao": "ok",
+        "texto": "Âmbar é resina de árvore fossilizada. É um material orgânico amorfo, usado como gema. É apreciado por sua cor, geralmente amarela, laranja ou marrom e, às vezes, vermelha, e por sua beleza natural desde a pré-história, e foi trabalhado como gema na Antiguidade Clássica. O âmbar é usado em joalheria e aparece há séculos em remédios da medicina popular.\n[…]\nO âmbar é produzido por uma medula expelida por árvores do gênero dos pinheiros, como a goma da cerejeira e a resina do pinheiro comum. É inicialmente um líquido, que escorre em quantidade considerável, e aos poucos endurece [...] Nossos antepassados também julgavam que era o suco de uma árvore e, por isso, deram-lhe o nome de \"succinum\".\n[…]\nPara que isso aconteça, a resina precisa escapar da destruição. Muitas árvores produzem resina, mas na maioria dos casos o depósito é desfeito por processos físicos e biológicos. Luz solar, chuva, microrganismos e temperaturas extremas tendem a desintegrá-lo. A formação de âmbar exige uma resina suficientemente resistente ou condições que a protejam desses agentes.\n[…]\nA produção anormalmente abundante de resina em árvores vivas recebeu o nome de succinosis.\n[…]\nÀs vezes o âmbar conserva a forma de gotas e estalactites, tal como saiu dos dutos e receptáculos de árvores feridas. Além de escorrer pela superfície, a resina pode penetrar em cavidades ou fissuras no interior das árvores, formando massas irregulares.\n[…]\nResina kauri de árvores Agathis australis, da Nova Zelândia.\n[…]\nCopais, ou resinas subfósseis. Muitos copais africanos e americanos, inclusive os da Colômbia, provêm de árvores da família Fabaceae, principalmente do gênero Hymenaea. Outros copais da Indonésia e da Nova Zelândia provêm de árvores do gênero Agathis, da família Araucariaceae.\n[…]\nOutras resinas epóxi.\n[…]\nCopal, resina menos maturada que pode ser confundida com âmbar",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Falésias brancas de Dover",
+      "descricao": "Penhascos de giz branco no litoral sudeste da Inglaterra, de frente para o canal da Mancha."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O giz das falésias brancas de Dover, na Inglaterra, é formado principalmente pelos restos de quê?",
+    "resposta": "Algas microscópicas",
+    "distratores": [
+      "Ossos de peixes",
+      "Conchas de ostras",
+      "Corais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_cliffs_of_Dover",
+      "https://en.wikipedia.org/wiki/Chalk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/White_cliffs_of_Dover",
+        "situacao": "ok",
+        "texto": "The White Cliffs of Dover are the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint, deposited during the Late Cretaceous. The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). The White Cliffs of\n[…]\nThe cliffs' chalk face shows horizontal bands of dark-coloured flint which is composed of the remains of sea sponges and siliceous planktonic micro-organisms that hardened into the microscopic quartz crystals. Quartz silica filled cavities left by dead marine creatures which are found as flint fossils, especially the internal moulds of Micraster echinoids.\n[…]\nOne of the most famous references in English literature to the White Cliffs is in Shakespeare's King Lear. In Act IV, Scene VI, Edgar persuades the blinded Earl of Gloucester that he is at the edge of a cliff at Dover.\n[…]\nJimmy Cliff wrote and recorded the song \"Many Rivers to Cross\" in 1969. The song included the line \"Wandering I am lost, as I travel along the White Cliffs of Dover.\"\n[…]\nThe 1941 song \"(There'll Be Bluebirds Over) The White Cliffs of Dover\" is a popular World War II song composed by Walter Kent to lyrics by Nat Burton. It was made famous by Vera Lynn's 1942 version.\n[…]\nThe White Cliffs have long been a landmark for sailors. It is noted as such in the sea shanty \"Spanish Ladies\":\n[…]\nThe song \"Calais to Dover\" by Bright Eyes from the 2020 album Down In The Weeds Where The World Once Was refers to the cliffs most likely via Shakespeare or Matthew Arnold: \"Threw up on the ferry ride from Calais back to Dover/As pale as the white cliffs that we faced/Wasn't afraid, eventualities, just knew that it was over/No brushes with death could keep us sober.\"\n[…]\nDover Museum information on the cliffs\n[…]\nWhite Cliffs of Dover website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chalk",
+        "situacao": "ok",
+        "texto": "Chalk is a soft, white, porous, sedimentary carbonate rock. It is a form of limestone composed of the mineral calcite and originally formed under the sea by the accumulation and lithification of hard parts of organisms, mostly microscopic plankton, which had settled to the sea floor. Chalk is common throughout Western Europe, where deposits underlie parts of France, and steep cliffs are often seen\n[…]\nThe coccolithophores, foraminifera, and other microscopic organisms, from which the chalk came, mostly form low-magnesium calcite skeletons, so the sediments were already in the form of highly stable low-magnesium calcite when deposited. This is in contrast with most other limestones, which formed from high-magnesium calcite or aragonite that rapidly converted to the more stable low-magnesium calcite after deposition, resulting in the early cementation of such limestones.\n[…]\nThe Chalk Group is a European stratigraphic unit deposited during the late Cretaceous Period. It forms the famous White Cliffs of Dover in Kent, England, as well as their counterparts of the Cap Blanc-Nez on the other side of the Dover Strait. The Champagne region of France is mostly underlain by chalk deposits, which contain artificial caves used for wine storage. Some of the highest chalk cliffs in the world occur at Jasmund National Park in Germany and at Møns Klint in Denmark.\n[…]\n\"Landscapes\". White Rocks. Archived from the original on 7 June 2009. Retrieved 1 December 2005. The \"White Rocks\" is the name given to cliffs to the east of Portrush in County Antrim, Northern Ireland."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Penhascos_brancos_de_Dover",
+        "situacao": "ok",
+        "texto": "Os penhascos brancos de Dover, ou, na sua forma portuguesa, de Dôver, são falésias que formam parte da costa inglesa em frente ao Estreito de Dover e a França. As falésias são parte da formação North Downs. A face do penhasco, que atinge até 110 m, deve a sua impressionante fachada a sua composição de giz, acentuada por listras de sílex preto. As falésias se propagam a leste e a oeste da cidade de\n[…]\nAs falésias têm grande valor simbólico na Grã-Bretanha porque se situam em frente à Europa Continental, através da parte mais estreita do Canal da Mancha, onde invasões têm historicamente ameaçado o país, e contra as quais as falésias formam uma guarda simbólica. Dover foi a principal rota para o continente antes do advento das viagens aéreas, a linha branca de falésias também formou a primeira ou a última visão da Inglaterra para os viajantes.\n[…]\nAs falésias estão localizadas ao longo da costa da Inglaterra entre as coordenadas 51° 06′ N, 1° 14′ L e 51° 12′ N, 1° 24′ L. Os penhascos brancos estão em uma extremidade do Kent Downs sendo designados como uma Area of Outstanding Natural Beauty.\n[…]\nDurante o verão de 1940, os jornalistas se reuniam no Shakespeare Cliff para assistir os  combates aéreos  entre aviões alemães e britânicos durante a Batalha da Inglaterra. Em um dia claro, as falésias são facilmente visíveis a partir da costa francesa.\n[…]\nDover Museum information on the cliffs",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Mina de sal de Wieliczka",
+      "descricao": "Antiga mina de sal perto de Cracóvia, na Polônia, com capelas e esculturas escavadas na rocha."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Numa antiga mina perto de Cracóvia, na Polônia, as capelas, as estátuas e até os lustres foram esculpidos em qual material?",
+    "resposta": "Sal-gema",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
+        "situacao": "ok",
+        "texto": "The Wieliczka Salt Mine (Polish: Kopalnia soli Wieliczka) is a salt mine in the town of Wieliczka, near Kraków in southern Poland.\n[…]\nThe earliest writings about the Wieliczka Salt Mine include a description by Adam Schröter: Salinarum Vieliciensium incunda ac vera descriptio. Carmine elegiaco... (1553); augmented edition, Regni Poloniae Salinarum Vieliciensium descriptio. Carmine elegiaco... (1564).\n[…]\nPrus scholar Zygmunt Szweykowski writes: \"The power of the Labyrinth scenes [in Prus' 1895 historical novel, Pharaoh] stems, among other things, from the fact that they echo Prus' own experiences when visiting Wieliczka.\" The Wieliczka Salt Mine indeed helped inspire Pharaoh. Prus combined his powerful impressions of the salt mine with the description of the ancient Egyptian Labyrinth, in Book II of Herodotus' Histories, to produce the scenes found in chapters 56 and 63 of his novel.\n[…]\nThe 2006 documentary film Wieliczka – Sól ziemi (Wieliczka – The Salt of the Earth) directed by Sadrolin Tam was filmed inside the salt mine.\n[…]\nChristopher Kasparek, \"Prus' Pharaoh and the Wieliczka Salt Mine,\" The Polish Review, 1997, no. 3, pp. 349–55.\n[…]\nWieliczka Salt Mine – Official Website\n[…]\nWieliczka The salt of the Earth/\n[…]\nCracow Salt-Works Museum in Wieliczka (plan of mine) Deprecated link archived 13 January 2013 at archive.today\n[…]\nWieliczka Salt Mine near Kraków in Poland\n[…]\nWieliczka Salt Mine Tour\n[…]\nAir Pollution Intrusion into the Wieliczka Salt Mine\n[…]\n\"A Piece of Salt that Weighs 200 Tons\" fallen from Wieliczka chamber roof in 1916; Popular Science monthly, February 1916, p. 179. Scanned by Google Books.\n[…]\nPhoto story of the Wieliczka Salt Mine"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Núcleo da Terra",
+      "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O núcleo da Terra é feito principalmente de ferro e de qual outro metal?",
+    "resposta": "Níquel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earth%27s_inner_core",
+      "https://en.wikipedia.org/wiki/Earth%27s_outer_core"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Earth%27s_inner_core",
+        "situacao": "ok",
+        "texto": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon's radius. As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes.\n[…]\nThat density implies a mass of about 1023 kg for the inner core, which is 1⁄60 (1.7%) of the mass of the whole Earth.\n[…]\nIn 2014, Driscoll and Bercovici published a thermal history of the Earth that avoided the so-called mantle thermal catastrophe and new core paradox by invoking 3 TW of radiogenic heating by the decay of 40K in the core. Such high abundances of K in the core are not supported by experimental partitioning studies, so such a thermal history remains highly debatable.\n[…]\nAnother way to estimate the age of the Earth is to analyze changes in the magnetic field of Earth during its history, as trapped in rocks that formed at various times (the \"paleomagnetic record\"). The presence or absence of the solid inner core could result in different dynamic processes in the core that could lead to noticeable changes in the magnetic field.\n[…]\nIn 2015, Biggin and others published the analysis of an extensive and carefully selected set of Precambrian samples and observed a prominent increase in the Earth's magnetic field strength and variance around 1.0–1.5 billion years ago. This change had not been noticed before due to the lack of sufficient robust measurements. They speculated that the change could be due to the birth of Earth's solid inner core.\n[…]\nFrom their age estimate they derived a rather modest value for the thermal conductivity of the outer core, that allowed for simpler models of the Earth's thermal evolution.\n[…]\nThermal history of Earth\n[…]\nTravel to the Earth's center"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Earth%27s_outer_core",
+        "situacao": "ok",
+        "texto": "Earth's outer core is a fluid layer about 2,260 km (1,400 mi) thick, composed of mostly  iron and nickel that lies above Earth's solid inner core and below its mantle. The outer core begins approximately 2,889 km (1,795 mi) beneath Earth's surface at the core-mantle boundary and ends 5,150 km (3,200 mi) beneath Earth's surface at the inner core boundary.\n[…]\nEstimates for the temperature of the outer core are about 3,000–4,500 K (2,700–4,200 °C; 4,900–7,600 °F) in its outer region and 4,000–8,000 K (3,700–7,700 °C; 6,700–14,000 °F) near the inner core. Modeling has shown that the outer core, because of its high temperature, is a low-viscosity fluid that convects turbulently. The dynamo theory sees eddy currents in the nickel-iron fluid of the outer core as the principal source of Earth's magnetic field.\n[…]\nIf we could better constrain the concentrations of hydrogen, oxygen, and silicon in Earth's outer core, models of Earth's accretion that match these concentrations would presumably better constrain Earth's formation.\n[…]\nThe depletion of siderophile elements in Earth's mantle compared to chondritic meteorites is attributed to metal-silicate reactions during formation of Earth's core. These reactions are dependent on oxygen, silicon, and sulfur, so better constraints on concentrations of these elements in Earth's outer core will help elucidate the conditions of formation of Earth's core.\n[…]\nThis conundrum is known as the new \"core paradox.\" An alternative process that could have sustained Earth's geodynamo requires Earth's core to have initially been hot enough to dissolve oxygen, magnesium, silicon, and other light elements. As the Earth's core began to cool, it would become supersaturated in these light elements that would then precipitate into the lower mantle forming oxides leading to a different variant of chemical convection."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/N%C3%BAcleo_interno",
+        "situacao": "ok",
+        "texto": "O núcleo interno é  a parte mais interna da Terra, formado principalmente por ferro e níquel. Experimentos revelaram a estimativa do núcleo interno sólido do planeta, colocando-o entre 1 bilhão e 1,3 bilhão de anos. A temperatura do núcleo é de  cerca de 5 mil graus Celsius. Mesmo com as altas temperaturas, o núcleo interno é sólido. O núcleo interno da Terra parece ter outro núcleo ainda mais int\n[…]\nA sismóloga dinamarquesa Inge Lehmann descobriu que a Terra tinha um núcleo interno sólido distinto de seu núcleo externo derretido em 1936.\n[…]\nAs teorias sobre a idade do núcleo fazem necessariamente parte das teorias da história da Terra como um todo. Este tem sido um tópico muito debatido e ainda está sendo discutido hoje. É amplamente aceito que o núcleo interno sólido da Terra se formou a partir de um núcleo inicialmente totalmente líquido à medida que a Terra esfriava. No entanto, ainda não há evidências firmes de quando esse processo começou.\n[…]\nNão há evidências diretas ainda sobre a composição do núcleo interno. No entanto, com base na prevalência relativa de vários elementos químicos no Sistema Solar, a teoria da formação planetária e as restrições impostas ou implícitas pela química do resto do volume da Terra, acredita-se que o núcleo interno consiste principalmente de uma liga ferro-níquel.\n[…]\nMuitos cientistas inicialmente esperavam que o núcleo interno fosse homogêneo, porque o mesmo processo deveria ter continuado uniformemente ao longo de sua formação. Foi até sugerido que o núcleo interno da Terra poderia ser um único cristal de ferro.\n[…]\nAcredita-se que o núcleo interno da Terra cresça lentamente à medida que o núcleo externo líquido na fronteira com o núcleo interno esfria e se solidifica devido ao resfriamento gradual do interior da Terra (aproximadamente 100 graus Celsius por trilhão de anos).\n[…]\nNúcleo (geologia)\n[…]\nNúcleo externo\n[…]\nO núcleo terrestre (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Deriva continental",
+      "descricao": "Teoria segundo a qual os continentes já estiveram unidos e se deslocaram lentamente ao longo do tempo geológico."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1912, que cientista alemão propôs que os continentes já estiveram unidos e foram se afastando lentamente?",
+    "resposta": "Alfred Wegener",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Continental_drift",
+      "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Continental_drift",
+        "situacao": "ok",
+        "texto": "Continental drift is the movement of Earth's continents relative to each other over geologic time. When initially proposed as a scientific theory in the early 20th century, the idea that continents could move was widely rejected. However, continental drift has subsequently been extensively validated and is incorporated into the science of plate tectonics, which studies the movement of the continen\n[…]\nThe speculation that continents might have \"drifted\" was first put forward by Abraham Ortelius in 1596. A pioneer of the modern view of mobilism was Austrian geologist Otto Ampferer. The concept was independently and more fully developed by Alfred Wegener in 1912, and expanded into book form with his 1915 publication, Die Entstehung der Kontinente und Ozeane (The Origin of Continents and Oceans).\n[…]\nApart from the earlier speculations mentioned above, the idea that the American continents had once formed a single landmass with Eurasia and Africa was postulated by several scientists before Alfred Wegener's 1912 paper.\n[…]\nAlfred Wegener first presented his hypothesis to the German Geological Society on 6 January 1912. He proposed that the continents had once formed a single landmass, which he called Pangaea, before breaking apart and drifting to their present locations.\n[…]\nThe complementary arrangement of the facing sides of South America and Africa is an obvious and temporary coincidence. In millions of years, slab pull, ridge-push, and other forces of tectonophysics will further separate and rotate those two continents. It was that temporary feature that inspired Wegener to propose continental drift.\n[…]\nFrankel, Henry R. (2012). The Continental Drift Controversy. Vol. I: Wegener and the Early Debate. Cambridge.\n[…]\nA brief introduction to Plate Tectonics, based on the work of Alfred Wegener\n[…]\nMaps of continental drift, from the Precambrian to the future"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Wegener",
+        "situacao": "ok",
+        "texto": "Alfred Lothar Wegener (; German: [ˈʔalfʁeːt ˈveːɡənɐ]; 1 November 1880 – November 1930) was a German climatologist, geologist, geophysicist, meteorologist, and polar researcher.\n[…]\nAlfred Wegener has been mischaracterised as a lone genius whose theory of continental drift met widespread rejection until well after his death. In fact, the main tenets of the theory gained widespread acceptance by European researchers already in the 1920s, and the debates were mostly about specific details. However, the theory took longer to be accepted in North America.\n[…]\nWegener, Alfred (1912). \"Die Herausbildung der Grossformen der Erdrinde (Kontinente und Ozeane), auf geophysikalischer Grundlage\". Petermanns Geographische Mitteilungen (in German). 63: 185–195, 253–256, 305–309. (Presented at the annual meeting of the German Geological Society, Frankfurt am Main, 6 January 1912).\n[…]\nWegener, Alfred (July 1912). \"Die Entstehung der Kontinente\". Geologische Rundschau (in German). 3 (4): 276–292. Bibcode:1912GeoRu...3..276W. doi:10.1007/BF02202896. S2CID 129316588.\n[…]\nWegener, Alfred. Die Entstehung der Kontinente und Ozeane [The Origin of Continents and Oceans] (in German). Borntraeger. ISBN 3-443-01056-3. LCCN unk83068007.(1922)\n[…]\nWegener, Alfred. Die Entstehung der Kontinente und Ozeane [The Origin of Continents and Oceans] (in German) (4th ed.). Braunschweig: Friedrich Vieweg & Sohn Akt. Ges. ISBN 3-443-01056-3.(1929)\n[…]\nEnglish language edition: Wegener, Alfred (1966). The Origin of Continents and Oceans. Translated by John Biram, from the fourth revised German edition. New York: Dover. ISBN 0-486-61708-4. British edition: Methuen, London (1968).\n[…]\nWegener biography at Pangaea.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deriva_continental",
+        "situacao": "ok",
+        "texto": "A teoria da deriva continental foi apresentada pelo geólogo e meteorologista alemão Alfred Wegener em 1913, com a publicação de sua obra clássica \"A Origem dos Continentes e Oceanos\" (Die Entstehung der Kontinente und Ozeane). Wegener defendia que os continentes, hoje separados por oceanos, já estiveram unidos numa única massa de terra no passado, denominada por ele de Pangeia (do grego \"Terra úni\n[…]\nMuito tempo antes de Wegener, outros cientistas notaram este fato. A ideia da deriva continental surgiu pela primeira vez no final do século XVI, com o trabalho do cartógrafo Abraham Ortelius. Na sua obra de 1595, Thesaurus Geographicus, Ortelius sugeriu que os continentes estiveram unidos no passado.\n[…]\nA ação contínua dessas forças também rompeu completamente a crosta terrestre e formou o oceano Atlântico. Porém, ele não parecia o vasto mar que é hoje: a fragmentação de Gondwana formou apenas um pequeno oceano, que só cresceu quando Brasil e África começaram a afastar-se de forma gradual há, aproximadamente, 135 milhões de anos. Tal ideia está presente na teoria da deriva continental, que foi apresentada em 1912 pelo cientista meteorologista alemão Alfred Lothar Wegener.\n[…]\nA teoria só foi comprovada 10 anos após a morte de Wegener, em 1940.\n[…]\nMorfológicos - Wegener observou a semelhança da complementaridade existente entre a costa ocidental de África com a costa oriental da América do Sul e, mais tarde, entre outros continentes separados atualmente.\n[…]\nEstudos históricos mostram que a Teoria da Deriva Continental, proposta por Alfred Wegener em 1912, representou o primeiro modelo coerente para explicar o movimento dos continentes, embora tenha sido inicialmente rejeitada pela comunidade científica por carecer de um mecanismo físico satisfatório.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Núcleo da Terra",
+      "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1936, analisando ondas de terremotos, que sismóloga dinamarquesa descobriu que a Terra tem um núcleo interno sólido?",
+    "resposta": "Inge Lehmann",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inge_Lehmann",
+      "https://en.wikipedia.org/wiki/Earth%27s_inner_core"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Inge_Lehmann",
+        "situacao": "ok",
+        "texto": "Inge Lehmann (13 May 1888 – 21 February 1993) was a Danish seismologist and geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic discontinuity in the speed of seismic waves at depths between 190 km (120 mi) and 250 km (160 mi), which is named the Lehmann discontinuity after her. Lehmann is\n[…]\nLehmann was the first to interpret P-wave arrivals as reflections from an inner core. Lehmann observed seismic waves from earthquakes, leading her to hypothesize that the Earth's core consisted of two parts: \"a solid metal core surrounded by an outer liquid core, overturning the accepted theory of an entirely liquid core\". She published these findings in a paper titled P′ (1936). Prior to 1936, scientists believed that the Earth's core was a single, massive molten sphere.\n[…]\nLehmann received many honours for her scientific achievements, among them are\n[…]\nBecause of her contribution to geological science, in 1996, the American Geophysical Union established the annual Inge Lehmann Medal to honour \"outstanding contributions to the understanding of the structure, composition, and dynamics of the Earth's mantle and core.\" The medal has been given out annually ever since, and includes a portrait of Lehmann on the front.\n[…]\nLehmann, Inge (1936). \"P'\". Publications du Bureau Central Séismologique International. A14 (3): 87–115.\n[…]\nBolt, Bruce A. (1997). \"Inge Lehmann. 13 May 1888-21 February 1993\". Biographical Memoirs of Fellows of the Royal Society. 43: 287–301. doi:10.1098/rsbm.1997.0016. ISSN 0080-4606. JSTOR 770337. Archived from the original on 4 January 2001.\n[…]\nInge Lehmann at CWP at UCLA\n[…]\nInge Lehmann: Discoverer of Earth's Inner Core\n[…]\n\"WiP: Herstory: Spotlight Scientist: Inge Lehmann\". Purdue University. Archived from the original on 26 March 2016. Retrieved 15 October 2013."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Earth%27s_inner_core",
+        "situacao": "ok",
+        "texto": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon's radius. As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes.\n[…]\nEarth was discovered to have a solid inner core distinct from its molten outer core in 1936, by the Danish seismologist Inge Lehmann's study of seismograms from earthquakes in New Zealand, detected by sensitive seismographs on the Earth's surface. She deduced that the seismic waves reflect off the boundary of the inner core and inferred a radius of 1,400 km (870 mi) for the inner core, not far from the currently accepted value of 1,221 km (759 mi).\n[…]\nThe boundary between the inner and outer cores is sometimes called the \"Lehmann discontinuity\", although the name usually refers to another discontinuity. The name \"Bullen\" or \"Lehmann-Bullen discontinuity\", after Keith Edward Bullen, has been proposed, but its use seems to be rare. The rigidity of the inner core was confirmed in 1971.\n[…]\nIn 2015, Biggin and others published the analysis of an extensive and carefully selected set of Precambrian samples and observed a prominent increase in the Earth's magnetic field strength and variance around 1.0–1.5 billion years ago. This change had not been noticed before due to the lack of sufficient robust measurements. They speculated that the change could be due to the birth of Earth's solid inner core.\n[…]\nFrom their age estimate they derived a rather modest value for the thermal conductivity of the outer core, that allowed for simpler models of the Earth's thermal evolution.\n[…]\nInternal structure of Earth\n[…]\nThermal history of Earth\n[…]\nTravel to the Earth's center"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Inge_Lehmann",
+        "situacao": "ok",
+        "texto": "Inge Lehmann (Østerbro, Copenhague, 13 de maio de 1888 — Copenhague, 21 de fevereiro de 1993) foi uma geofísica e sismologista dinamarquesa, que descobriu a consistência do núcleo do planeta Terra.\n[…]\nNos últimos anos, até sua aposentadoria em 1953, as relações entre ela e os outros membros do Instituto Geodésico deteriorou-se, em parte, provavelmente porque ela tinha pouca paciência com os colegas menos competentes. Depois de 1953, Inge Lehmann foi para o Estados Unidos, onde passou vários anos trabalhando com Maurice Ewing e Frank Press sobre as investigações da crosta e o manto superior da Terra.\n[…]\nEm 1997 a American Geophysical Union baseia Inge Medalha de Lehmann em honra de \"notáveis contribuições feitas para a compreensão da estrutura, composição e dinâmica do manto e o núcleo da Terra\".\n[…]\nLehmann, Inge (1936). «P'». Publications du Bureau Central Séismologique International. A14 (3): 87–115\n[…]\nMedalha Inge Lehmann\n[…]\nLehmann, Inge (1987). «Seismology in the Days of Old». EOS. 68 (3): 33–35\n[…]\nInge Lehmann in CWP at UCLA\n[…]\nInge Lehmann: Discoverer of the Earth's Inner Core\n[…]\n«WiP: Herstory: Spotlight Scientist: Inge Lehmann». Purdue University. Consultado em 15 de outubro de 2013\n[…]\nBolt, Bruce. «Inge Lehmann». UCLA. Consultado em 15 de outubro de 2013. Arquivado do original em 21 de outubro de 2013\n[…]\nInge Lehmann - CWP - UCLA\n[…]\nInge Lehmann: Discoverer of Earth's Inner Core\n[…]\n«WiP: Herstory: Spotlight Scientist: Inge Lehmann». Purdue University. Cópia arquivada em 26 de março de 2016\n[…]\nBolt, Bruce. «Inge Lehmann». UCLA. Cópia arquivada em 4 de janeiro de 2001\n[…]\nInge Lehmann, a privileged upbringing... - JRank",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Dorsal Mesoatlântica",
+      "descricao": "Cadeia de montanhas submarinas no meio do oceano Atlântico, onde placas tectônicas se afastam."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos cinquenta, que cartógrafa americana revelou, ao mapear o fundo do mar, a fenda que corre pelo meio da dorsal mesoatlântica?",
+    "resposta": "Marie Tharp",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marie_Tharp"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marie_Tharp",
+        "situacao": "ok",
+        "texto": "Marie Tharp (July 30, 1920 – August 23, 2006) was an American geologist and oceanographic cartographer. In the 1950s, she collaborated with geologist Bruce Heezen to produce the first scientific map of the Atlantic Ocean floor. Her cartography revealed a more detailed topography and multi-dimensional geographical landscape of the ocean bottom.\n[…]\nAs early as the mid-19th century, a submarine mountain range in the Atlantic had been roughly outlined by John Murray and Johan Hjort. Marie Tharp also discovered the rift valley on her more precise graphical representations of the Mid-Atlantic Ridge, which were based on new measurement data obtained with the echo sounder. It took her a year to convince Bruce Heezen of this. Later, she also mapped the other mid-ocean ridges.\n[…]\nTharp was recognized in 1997 by the Library of Congress as one of the four greatest cartographers of the 20th century. The position of Marie Tharp Lamont Research Professor was created in her honor.\n[…]\nTharp, Marie; Heezen, Bruce C.; Ewing, Maurice (1959). The floors of the oceans: I. The North Atlantic. Vol. 65. Geological Society of America. doi:10.1130/SPE65-p1.\n[…]\nInterview of Marie Tharp by Ronald Doel on 1995 December 14, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA\n[…]\nInterview of Marie Tharp by Ronald Doel on 1996 December 18, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA\n[…]\nInterview of Marie Tharp by Tanya Levin on 1997 May 24, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA\n[…]\nInterview of Marie Tharp by Tanya Levin on 1997 June 28, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA\n[…]\nInterview of Marie Tharp by Ronald Doel on 1994 September 14, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marie_Tharp",
+        "situacao": "ok",
+        "texto": "Marie Tharp (Ypsilanti, 30 de julho de 1920 - Nyack, 23 de agosto de 2006)  foi uma geóloga e cartógrafa oceanográfica americana. Em parceria com Bruce Heezen, criou o primeiro mapa científico do fundo oceânico. A descoberta de Tharp do Vale da Fenda (Rift Valley) na Dorsal Mesoatlântica causou uma mudança de paradigma nas ciências da terra, levando à aceitação das teorias de tectónica de placas e\n[…]\nMarie nasceu em Ypsilanti, Michigan, única filha de Bertha Louise Tharp, professora de alemão e latim, e William Edgar Tharp, agrimensor de solos do Departamento de Agricultura dos Estados Unidos. Ela acompanhava frequentemente o pai em seus trabalhos de campo, o que lhe proporcionou uma introdução precoce à cartografia e à classificação de solos. Devido ao trabalho de seu pai, Marie frequentou mais de 17 escolas públicas antes de se formar no ensino médio.\n[…]\nAté 1983, Marie Tharp continuou seu trabalho na Universidade de Columbia, onde comandou um serviço de distribuição de mapas em South Nyack, Nova Iorque, durante sua aposentadoria, tendo doado toda a sua coleção de mapas e anotação para a divisão cartográfica da Biblioteca do Congresso, em 1995.\n[…]\nTharp, Marie; Heezen, Bruce C.; Ewing, Maurice (1959). The floors of the oceans: I. The North Atlantic. 65. [S.l.]: Geological Society of America. doi:10.1130/SPE65-p1\n[…]\nHeezen, B C; Tharp, Marie (1965). «Tectonic fabric of the atlantic and indian oceans and continental drift». Philosophical Transactions of the Royal Society of London A. 258 (1088): 90–106. Bibcode:1965RSPTA.258...90H. doi:10.1098/rsta.1965.0024\n[…]\nThe Earth Institute at Columbia University. \"Marie Tharp, Pioneering Mapmaker of the Ocean Floor, Dies.\" Earth Institute News, August 23, 2006.\n[…]\nNelson, Valerie. \"Marie Tharp, 86; Pioneering Maps Altered Views on Seafloor Geology.\" The Los Angeles Times, September 4, 2006.\n[…]\nMarie Tharp at Columbia University",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Terremoto de Lisboa de 1755",
+      "descricao": "Terremoto seguido de tsunami e incêndios que destruiu grande parte de Lisboa em 1º de novembro de 1755."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O grande terremoto de Lisboa, em 1755, aconteceu numa manhã de feriado religioso, com as igrejas cheias. Que feriado era?",
+    "resposta": "Dia de Todos os Santos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+        "situacao": "ok",
+        "texto": "The 1755 Lisbon earthquake, also known as the Great Lisbon earthquake, occurred in the Iberian Peninsula and Northwest Africa area on the morning of Saturday, 1 November, 1755 (on the Christian Feast of All Saints); it took place at approximately 09:40 local time. In combination with subsequent fires and a tsunami, the earthquake almost completely destroyed Lisbon and adjoining areas.\n[…]\n1755 Cape Ann earthquake\n[…]\nShrady, Nicholas. The Last Day: Wrath, Ruin & Reason in The Great Lisbon Earthquake of 1755, Penguin, 2008, ISBN 978-0-14-311460-4\n[…]\nBraun, Theodore E. D., and John B. Radner, eds. The Lisbon Earthquake of 1755: Representations and Reactions (SVEC 2005:02). Oxford: Voltaire Foundation, 2005. ISBN 978-0-7294-0857-8. Recent scholarly essays on the earthquake and its representations in art, with a focus on Voltaire. (In English and French.)\n[…]\nBrooks, Charles B. Disaster at Lisbon: The Great Earthquake of 1755. Long Beach: Shangton Longley Press, 1994. (No apparent ISBN.) A narrative history.\n[…]\nChase, J. \"The Great Earthquake at Lisbon (1755)\". Colliers Magazine, 1920.\n[…]\nFonseca, J. D. 1755, O Terramoto de Lisboa, The Lisbon Earthquake. Argumentum, Lisbon, 2004.\n[…]\nMartínez-Loriente, S.; Sallarès, V.; Gràcia, E. (2021). \"The Horseshoe Abyssal plain Thrust could be the source of the 1755 Lisbon earthquake and tsunami\". Commun Earth Environ. 2.\n[…]\nThe Lisbon earthquake of 1755: the catastrophe and its European repercussions (published in “The Economia Global e Gestão (Global Economics and Management Review), Lisbon, volume 10 (2004))\n[…]\nImages and historical depictions of the 1755 Lisbon earthquake from the University of California\n[…]\nTsunami Forecast Model Animation: Lisbon 1755 from the Pacific Tsunami Warning Center's official YouTube channel\n[…]\nThe Lisbon Earthquake (1755) from European History Online"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sismo_de_Lisboa_de_1755",
+        "situacao": "ok",
+        "texto": "O Sismo de Lisboa de 1755, também conhecido como o Grande Terramoto de Lisboa de 1755 (português europeu) ou Grande Terremoto de Lisboa de 1755 (português brasileiro), atingiu a Península Ibérica e o noroeste de África na manhã de sábado, de 1 de novembro de 1755, Dia de Todos-os-Santos, por volta das 9h40, hora local.\n[…]\nO sismo fez-se sentir na manhã de 1 de novembro de 1755 às 9h30 ou 9h40 da manhã, dia que coincide com o feriado do Dia de Todos-os-Santos. A data contribuiu para um alto número de fatalidades, visto que ruas e igrejas estavam cheias de fiéis.\n[…]\nCresceu em todos os que haviam procurado as praias o espanto das águas, e o novo perigo se difundiu por toda a Cidade, e pelos seus subúrbios, com uma voz vaga, que dizia que vinha o mar cobrindo tudo.\n[…]\nEm sábado 1º de Novembro, dia da festividade de todos os Santos do presente ano de 1755, pelas nove para as dez horas do dia, e a tempo que se cantava missa de Tércia, estando o mar em ordinária tranquilidade, se elevou tanto em três contínuas marés ficando quase seca a sua profundidade por largo espaço, e nunca visto de pessoas de maior idade: e com estas três elevações insólitas entrou pelo porto desta vila, inundou a lagoa dela, chamada o Paul da Praia, e todo o seu areal, desde o dito porto até o lugar da Ribeira Seca, demolindo 15 casas a fundamentis, e entre elas a ermida do Apostolo S.\n[…]\n— In posteritatem — Em dia de Todos os Santos do ano de 1755, pelas 10 horas da manhã, pouco mais ou menos, aconteceu nesta ilha uma enchente e vazante de maré extraordinário, e cá nunca visto, que no porto deste lugar chegou à enchente á altura de dez palmos da rocha, e vazou até o direito da fortaleza, principalmente três marés, e depois as seguintes foram moderando os acessos e recessos, até que foram ficando no seu natural pelo decurso da tarde.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Era Cenozoica",
+      "descricao": "Era geológica atual, iniciada há cerca de 66 milhões de anos, após a extinção do fim do Cretáceo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A extinção dos grandes dinossauros encerrou a era Mesozoica. Que era geológica começou logo depois e dura até hoje?",
+    "resposta": "Era Cenozoica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cenozoic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cenozoic",
+        "situacao": "ok",
+        "texto": "The Cenozoic Era (also known as the Caenozoic, Kainozoic, or Neozoic Era; ; SEE-nə-ZOH-ik, SEN-ə-; lit. 'new life') is Earth's current geological era, representing the last 66 million years of Earth's history. It is characterized by the dominance of  mammals, insects, birds and angiosperms (flowering plants). It is the latest of three geological eras of the Phanerozoic Eon, preceded by the Mesozoi\n[…]\nCenozoic derives from the Ancient Greek words kainós (καινός, 'new') and zōḗ (ζωή, 'life'). The name was proposed in 1840 by the British geologist John Phillips (1800–1874), who originally spelled it Kainozoic. The era is also known as the Cænozoic, Caenozoic, or Cainozoic ().\n[…]\nIn name, the Cenozoic (lit. 'new life') is comparable to the preceding Mesozoic ('middle life') and Paleozoic ('old life') Eras, as well as to the Proterozoic ('earlier life') Eon.\n[…]\nGeologically, the Cenozoic is the era when the continents moved into their current positions. Australia-New Guinea, having split from Pangea during the early Cretaceous, drifted north and, eventually, collided with Southeast Asia; Antarctica moved into its current position over the South Pole; the Atlantic Ocean widened and, later in the era (2.8 million years ago), South America became attached to North America with the isthmus of Panama.\n[…]\nEarly in the Cenozoic, following the K-Pg event, the planet was dominated by relatively small fauna, including small mammals, birds, reptiles, and amphibians. From a geological perspective, it did not take long for mammals to greatly diversify in the absence of the dinosaurs that had dominated during the Mesozoic. Birds also diversified rapidly; some flightless birds grew larger than humans. These species are sometimes referred to as \"terror birds\", and were formidable predators.\n[…]\nMammal evolution in the Cenozoic was predominantly shaped by climatic and geological processes.\n[…]\nLate Cenozoic Ice Age"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cenozoico",
+        "situacao": "ok",
+        "texto": "Cenozoico (pré-AO 1990: Cenozóico), na divisão da escala de tempo geológico, é uma era geológica que se iniciou há aproximadamente 65,5 milhões de anos e se estende até a atualidade. Cenozoico significa \"vida nova\", do grego καινός/kainos \"novo\" e ζωή/zoe \"vida\". É a terceira e mais recente era do éon Fanerozoico, e sucede a era Mesozoica. A era Cenozoica está dividida em três períodos: Paleogeno,\n[…]\nEntretanto, alguns seres sobreviveram ao período de escassez de comida que se estendeu até o início da Era Cenozoica, e foram evoluindo ao longo do tempo até ficar como os conhecemos hoje. A principal Classe a evoluir foi a dos mamíferos. Tanto é, que a Era Cenozoica às vezes é chamada de “Era dos mamíferos”, tal qual a Era Mesozoica com relação aos dinossauros. Mas a diversidade biológica deste período e a rápida evolução das espécies tornam injusta tal denominação.\n[…]\nO princípio da Era Cenozoica marca a abertura do capítulo mais recente da história da Terra. Durante a Era Cenozoica, a face da Terra assumiu sua forma atual. Houve muita atividade vulcânica e formaram-se os grandes maciços montanhosos do mundo, como os Andes, os Alpes e o Himalaia. A vida animal transformou-se lentamente no que hoje se conhece. Resumindo, as principais características que apareceram foi:\n[…]\nPor outro lado, a América do Norte manteve ligação com a Ásia através da região de Beríngia (hoje interrompida pelo Estreito de Bering) durante grande parte da Era Cenozoica, o que explica o porquê da homogeneidade faunística da América do Norte, Ásia Setentrional e Europa.\n[…]\nFoi na era Cenozoica que surgiram os primeiros onívoros. Formaram também as cadeias de montanhas, e ocorreram as grandes glaciações, surgindo novas espécies de vida. Já no fundo dos oceanos, houve o aparecimento de dorsais (cadeias de montanhas que são formadas nas zonas aonde as placas dos continentes se separam).\n[…]\nGeologia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Escala de Mohs",
+      "descricao": "Escala de dureza dos minerais, criada por Friedrich Mohs, que vai de um a dez."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na escala de dureza de Mohs, que vai de um a dez, qual mineral ocupa o grau um, o mais macio?",
+    "resposta": "Talco",
+    "distratores": [
+      "Gipsita",
+      "Calcita",
+      "Quartzo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mohs_scale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mohs_scale",
+        "situacao": "ok",
+        "texto": "The Mohs scale (  MOHZ) of mineral hardness is a qualitative ordinal scale, from 1 to 10, characterizing scratch resistance of minerals through the ability of harder material to scratch softer material.\n[…]\nDiamond was the hardest known naturally occurring mineral when the scale was designed and defines the top of the scale, arbitrarily set at 10. The hardness of a material is measured against the scale by finding the hardest material that the given material can scratch, or the softest material that can scratch the given material. For example, if some material is scratched by apatite but not by fluorite, its hardness on the Mohs scale would be between 4 and 5.\n[…]\nEach of the ten hardness values in the Mohs scale is represented by a reference mineral, most of which are widespread in rocks.\n[…]\nThe Mohs scale is an ordinal scale. For example, corundum (9) is twice as hard as topaz (8), but diamond (10) is about four times as hard as corundum, for absolute hardness. The table below shows the comparison with the absolute hardness measured by a sclerometer, with images of the reference minerals in the rightmost column.\n[…]\nBelow is a table of more materials by Mohs scale. Some of them have a hardness between two of the Mohs scale reference minerals. Some solid substances that are not minerals have been assigned a hardness on the Mohs scale. Hardness may be difficult to determine, or may be misleading or meaningless, if a material is a mixture of multiple substances.\n[…]\nDespite its lack of precision, the Mohs scale is relevant for field geologists, who use it to roughly identify minerals using scratch kits. The Mohs scale hardness of minerals can be commonly found in reference sheets."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escala_de_Mohs",
+        "situacao": "ok",
+        "texto": "Escala de Mohs quantifica a dureza dos minerais, isto é, a resistência que um determinado mineral oferece ao risco, ou seja, à retirada de partículas da sua superfície.\n[…]\nO diamante risca o vidro, portanto, é mais duro que o vidro. Esta escala foi criada em 1812 pelo mineralogista alemão Friedrich Vilar Mohs com dez minerais de diferentes durezas existentes na crosta terrestre.\n[…]\nAtribuiu valores de 1 a 10. O valor de dureza 1 foi dado ao material menos duro da escala, que é o talco, e o valor 10 dado ao diamante que é a substância mais dura conhecida na natureza.\n[…]\nEsta escala não corresponde à dureza absoluta de um material. Por exemplo, o diamante tem dureza absoluta 1 500 vezes superior à do talco. Entre 1 e 9, a dureza aumenta de modo mais ou menos uniforme, mas de 9 para 10 há uma diferença muito acentuada, pois o diamante é muito mais duro que o coríndon (ou seja, que o rubi e a safira).\n[…]\nA escala de dureza Mohs é usada em mineralogia; no entanto, existem outras escalas de dureza utilizadas em ciência dos materiais, tais como:\n[…]\nDureza Brinell\n[…]\nDureza Rockwell\n[…]\nDureza Rockwell superficial\n[…]\nDureza Webster\n[…]\nDureza Vickers",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Idade da Terra",
+      "descricao": "Tempo decorrido desde a formação do planeta Terra, estimado pela datação radiométrica de rochas e meteoritos."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo a datação de rochas e meteoritos, qual é aproximadamente a idade da Terra?",
+    "resposta": "Quatro bilhões e meio de anos",
+    "distratores": [
+      "Quase quatorze bilhões",
+      "Um bilhão",
+      "Quatrocentos e cinquenta milhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Age_of_Earth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Age_of_Earth",
+        "situacao": "ok",
+        "texto": "The age of Earth is estimated to be 4.54 ± 0.05 billion years. This age corresponds to the final stages of Earth's accretion and planetary differentiation during the early Hadean eon. Estimates are based on radiometric dating of meteoritic material—the ages of which are approached by those of the oldest-known terrestrial material and lunar samples—and accretion models consistent with observations \n[…]\nAn age of 4.55 ± 0.07 billion years, very close to today's accepted age, was determined by Clair Cameron Patterson using uranium–lead isotope dating (specifically lead–lead dating) on several meteorites including the Canyon Diablo meteorite and published in 1956. The quoted age of Earth is derived, in part, from the Canyon Diablo meteorite for several important reasons and is built upon a modern understanding of cosmochemistry built up over decades of research.\n[…]\nThe Moon, as another extraterrestrial body that has not undergone plate tectonics and that has no atmosphere, provides quite precise age dates from the samples returned from the Apollo missions. Rocks returned from the Moon have been dated at a maximum of 4.51 billion years old. Martian meteorites that have landed upon Earth have also been dated to around 4.5 billion years old by lead–lead dating.\n[…]\nGoodwin, Mark B.; Deino, Alan L. (July 1989). \"The first radiometric ages from the Judith River Formation (Upper Cretaceous), Hill County, Montana\". Canadian Journal of Earth Sciences. 26 (7): 1384–1391. doi:10.1139/e89-118.\n[…]\nPowell, James Lawrence, 2001, Mysteries of Terra Firma: the Age and Evolution of the Earth, Simon & Schuster, ISBN 0-684-87282-X\n[…]\nThe Age of the Earth by Chris Stassen (TalkOrigins.org)\n[…]\nUSGS preface on the Age of the Earth\n[…]\nNASA exposition on the age of Martian meteorites\n[…]\nAgeing the Earth on In Our Time at the BBC\n[…]\nPre-1900 Non-Religious Estimates of the Age of the Earth"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Idade_da_Terra",
+        "situacao": "ok",
+        "texto": "A Idade da Terra é de 4,54 mil milhões (no Brasil, bilhões) de anos (4,54 x 109 anos ± 1%). Esta idade é baseada em datação radiométrica de meteoritos e é consistente com as idades das mais antigas amostras terrestres e lunares.\n[…]\nApós a revolução científica de métodos de datação radiométrica, medidas de chumbo em minerais ricos em urânio mostraram que alguns tinham milhares de milhões de anos de idade. A idade mais antiga de tais minerais até hoje – pequenos cristais de zircão de Jack Hills, na Austrália Ocidental – têm pelo menos 4,404 bilhões/mil milhões de anos de idade. Comparando a massa e a luminosidade do Sol com outras estrelas, parece indicar que o sistema solar não deve ser muito mais velho do que estas rochas.\n[…]\nInclusões ricas em cálcio e alumínio – os constituintes mais antigos que se conheça dentro de meteoritos formados no sistema solar – têm 4,567 bilhões/mil milhões de anos, dando uma idade ao sistema solar e um limite máximo à idade da Terra. Supõe-se que a acreção da Terra começou logo após a formação das inclusões ricas em cálcio e alumínio e dos meteoritos.\n[…]\nComo o tempo exacto de acreção da Terra não é ainda conhecido, e as previsões feitas a partir de vários modelos de acreção diferentes têm uma amplitude que varia entre alguns milhões e 100 milhões de anos, a idade exata da Terra é difícil de determinar. Também é difícil de determinar a idade exata das rochas mais antigas da Terra, expostas à superfície, uma vez que agregam minerais possivelmente com idades diferentes.\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em inglês cujo título é «Age of the Earth».",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

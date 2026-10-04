@@ -72114,5 +72114,611 @@
       "autor": "Piri Reis",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q04290",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pangeia",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pangeia, supercontinente que existiu há mais de duzentos milhões de anos, tem um nome grego que significa o quê?",
+    "resposta": "Toda a terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pangaea",
+      "https://pt.wikipedia.org/wiki/Pangeia"
+    ]
+  },
+  {
+    "id": "q04291",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "tsunami",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em japonês, o que significa literalmente a palavra tsunami, usada para as ondas gigantes provocadas por terremotos no mar?",
+    "resposta": "Onda de porto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tsunami"
+    ]
+  },
+  {
+    "id": "q04292",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "era_paleozoica",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Qual é o significado do nome da era Paleozoica, a dos primeiros peixes e das primeiras florestas?",
+    "resposta": "Vida antiga",
+    "distratores": [
+      "Terra antiga",
+      "Pedra antiga",
+      "Mar antigo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paleozoic"
+    ]
+  },
+  {
+    "id": "q04293",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "periodo_cambriano",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O período Cambriano deve seu nome a Cambria, palavra latina que designava qual região do Reino Unido?",
+    "resposta": "País de Gales",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cambrian"
+    ]
+  },
+  {
+    "id": "q04294",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "diamante",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra diamante vem do grego adamas. O que esse termo grego significava?",
+    "resposta": "Inquebrável",
+    "distratores": [
+      "Brilhante",
+      "Transparente",
+      "Celestial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diamond"
+    ]
+  },
+  {
+    "id": "q04295",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "gondwana",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do supercontinente Gondwana, que unia Brasil, África e Antártida, foi tirado de uma região de qual país?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gondwana"
+    ]
+  },
+  {
+    "id": "q04296",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "cabelo_de_pele",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os fios dourados de vidro vulcânico que o vento espalha no Havaí receberam o nome do cabelo de qual deusa?",
+    "resposta": "Pele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pele%27s_hair"
+    ]
+  },
+  {
+    "id": "q04297",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pedra_sabao",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por ser macia e ter toque escorregadio, a rocha chamada esteatita ganhou qual nome popular em português?",
+    "resposta": "Pedra-sabão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+      "https://en.wikipedia.org/wiki/Soapstone"
+    ]
+  },
+  {
+    "id": "q04298",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pirita",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Garimpeiros que confundiam a pirita com o metal precioso deram a ela qual apelido zombeteiro?",
+    "resposta": "Ouro de tolo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyrite"
+    ]
+  },
+  {
+    "id": "q04299",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "rodinia",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Rodínia, supercontinente bem mais antigo que a Pangeia, tem nome tirado de uma palavra que significa terra natal em qual idioma?",
+    "resposta": "Russo",
+    "distratores": [
+      "Grego",
+      "Latim",
+      "Alemão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rodinia"
+    ]
+  },
+  {
+    "id": "q04300",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "terra_roxa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome terra roxa, do solo dos cafezais, nasceu de uma adaptação da fala de imigrantes de qual nacionalidade?",
+    "resposta": "Italianos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Terra_roxa"
+    ]
+  },
+  {
+    "id": "q04301",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pedra_pomes",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a pedra-pomes, rocha vulcânica usada para lixar os pés, consegue boiar na água?",
+    "resposta": "É cheia de bolhas de gás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pumice"
+    ]
+  },
+  {
+    "id": "q04302",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pre_sal",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A camada de sal que cobre o petróleo do pré-sal surgiu quando a América do Sul se separava de qual continente?",
+    "resposta": "África",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pre-salt_layer",
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal"
+    ]
+  },
+  {
+    "id": "q04303",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "extincao_do_permiano_triassico",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A Grande Morte, extinção em massa do fim do Permiano, é atribuída principalmente a erupções gigantescas em qual região?",
+    "resposta": "Sibéria",
+    "distratores": [
+      "Islândia",
+      "Península de Yucatán",
+      "Havaí"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event",
+      "https://en.wikipedia.org/wiki/Siberian_Traps"
+    ]
+  },
+  {
+    "id": "q04304",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "grande_evento_de_oxidacao",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Há mais de dois bilhões de anos, que microrganismos, fazendo fotossíntese, provocaram o primeiro grande acúmulo de oxigênio na atmosfera da Terra?",
+    "resposta": "Cianobactérias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+    ]
+  },
+  {
+    "id": "q04305",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "erupcao_do_vesuvio_em_79",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No ano setenta e nove, o Vesúvio soterrou Pompeia e qual cidade vizinha, onde centenas de esqueletos foram achados junto ao antigo cais?",
+    "resposta": "Herculano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herculaneum",
+      "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+    ]
+  },
+  {
+    "id": "q04306",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "erupcao_do_krakatoa_de_1883",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da erupção do Krakatoa, em 1883, que espetáculo no céu foi visto por meses em várias partes do mundo?",
+    "resposta": "Pores do sol avermelhados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    ]
+  },
+  {
+    "id": "q04307",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "obsidiana",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a obsidiana, rocha vulcânica negra, parece vidro e não tem cristais visíveis?",
+    "resposta": "A lava esfriou muito rápido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obsidian"
+    ]
+  },
+  {
+    "id": "q04308",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "petroleo",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário da crença popular, o petróleo não veio dos dinossauros. Ele se formou principalmente a partir de restos de quê?",
+    "resposta": "Plâncton e algas marinhas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petroleum"
+    ]
+  },
+  {
+    "id": "q04309",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "eyjafjallajokull",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2010, a nuvem de cinzas de um vulcão islandês de nome quase impronunciável paralisou o quê na Europa?",
+    "resposta": "O tráfego aéreo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull"
+    ]
+  },
+  {
+    "id": "q04310",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "safira",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O rubi vermelho e a safira azul são, na verdade, variedades de qual mesmo mineral?",
+    "resposta": "Corindo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corundum",
+      "https://en.wikipedia.org/wiki/Sapphire"
+    ]
+  },
+  {
+    "id": "q04311",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "agua_marinha",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que mineral dá origem tanto à esmeralda verde quanto à água-marinha azulada?",
+    "resposta": "Berilo",
+    "distratores": [
+      "Quartzo",
+      "Corindo",
+      "Turmalina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beryl"
+    ]
+  },
+  {
+    "id": "q04312",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "ano_sem_verao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O frio e as chuvas de 1816, causados por um vulcão indonésio, prenderam escritores numa casa na Suíça. Que romance de terror nasceu ali?",
+    "resposta": "Frankenstein",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    ]
+  },
+  {
+    "id": "q04313",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pedra_sabao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que rocha reveste o Cristo Redentor e foi usada por Aleijadinho para esculpir os profetas de Congonhas?",
+    "resposta": "Pedra-sabão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+      "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o"
+    ]
+  },
+  {
+    "id": "q04314",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "ilha_da_trindade",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que as ilhas brasileiras de Fernando de Noronha e Trindade, no meio do Atlântico, têm em comum quanto à sua origem?",
+    "resposta": "São de origem vulcânica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz",
+      "https://en.wikipedia.org/wiki/Fernando_de_Noronha"
+    ]
+  },
+  {
+    "id": "q04315",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "ponto_quente_de_galapagos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno geológico em comum explica o surgimento das ilhas vulcânicas de Galápagos e do Havaí?",
+    "resposta": "Pontos quentes do manto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_hotspot",
+      "https://en.wikipedia.org/wiki/Hawaii_hotspot"
+    ]
+  },
+  {
+    "id": "q04316",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "provincia_magmatica_parana_etendeka",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os derrames de lava da Serra Geral, no sul do Brasil, têm um gêmeo do outro lado do Atlântico, o planalto de Etendeka. Ele fica sobretudo em qual país africano?",
+    "resposta": "Namíbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paran%C3%A1_and_Etendeka_traps"
+    ]
+  },
+  {
+    "id": "q04317",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "grande_vale_do_rift",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Do ponto de vista das placas tectônicas, o que o Grande Vale do Rift, na África, e a Islândia têm em comum?",
+    "resposta": "Ali as placas se afastam",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/East_African_Rift",
+      "https://en.wikipedia.org/wiki/Geology_of_Iceland"
+    ]
+  },
+  {
+    "id": "q04318",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "alfred_wegener",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O meteorologista alemão Alfred Wegener morreu em 1930 durante uma expedição científica a qual grande ilha gelada?",
+    "resposta": "Groenlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    ]
+  },
+  {
+    "id": "q04319",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "mesossauro",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O mesossauro, pequeno réptil aquático, tem fósseis no Brasil e em qual outro continente, forte evidência de que eles já estiveram unidos?",
+    "resposta": "África",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mesosaurus"
+    ]
+  },
+  {
+    "id": "q04320",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "marmore_de_carrara",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De qual cidade italiana, famosa por suas pedreiras, veio o bloco de mármore que Michelangelo usou para esculpir o Davi?",
+    "resposta": "Carrara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+      "https://en.wikipedia.org/wiki/Carrara_marble"
+    ]
+  },
+  {
+    "id": "q04321",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "granito",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O granito, rocha comum em pias e calçadas, é formado principalmente por quartzo, mica e qual outro mineral?",
+    "resposta": "Feldspato",
+    "distratores": [
+      "Calcita",
+      "Talco",
+      "Halita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Granite"
+    ]
+  },
+  {
+    "id": "q04322",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "falesias_brancas_de_dover",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O giz das falésias brancas de Dover, na Inglaterra, é formado principalmente pelos restos de quê?",
+    "resposta": "Algas microscópicas",
+    "distratores": [
+      "Ossos de peixes",
+      "Conchas de ostras",
+      "Corais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_cliffs_of_Dover",
+      "https://en.wikipedia.org/wiki/Chalk"
+    ]
+  },
+  {
+    "id": "q04323",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "mina_de_sal_de_wieliczka",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Numa antiga mina perto de Cracóvia, na Polônia, as capelas, as estátuas e até os lustres foram esculpidos em qual material?",
+    "resposta": "Sal-gema",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+    ]
+  },
+  {
+    "id": "q04324",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "nucleo_da_terra",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O núcleo da Terra é feito principalmente de ferro e de qual outro metal?",
+    "resposta": "Níquel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earth%27s_inner_core",
+      "https://en.wikipedia.org/wiki/Earth%27s_outer_core"
+    ]
+  },
+  {
+    "id": "q04325",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "deriva_continental",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1912, que cientista alemão propôs que os continentes já estiveram unidos e foram se afastando lentamente?",
+    "resposta": "Alfred Wegener",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Continental_drift",
+      "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    ]
+  },
+  {
+    "id": "q04326",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "nucleo_da_terra",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1936, analisando ondas de terremotos, que sismóloga dinamarquesa descobriu que a Terra tem um núcleo interno sólido?",
+    "resposta": "Inge Lehmann",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inge_Lehmann",
+      "https://en.wikipedia.org/wiki/Earth%27s_inner_core"
+    ]
+  },
+  {
+    "id": "q04327",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "dorsal_mesoatlantica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos cinquenta, que cartógrafa americana revelou, ao mapear o fundo do mar, a fenda que corre pelo meio da dorsal mesoatlântica?",
+    "resposta": "Marie Tharp",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marie_Tharp"
+    ]
+  },
+  {
+    "id": "q04328",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "terremoto_de_lisboa_de_1755",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O grande terremoto de Lisboa, em 1755, aconteceu numa manhã de feriado religioso, com as igrejas cheias. Que feriado era?",
+    "resposta": "Dia de Todos os Santos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ]
+  },
+  {
+    "id": "q04329",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "era_cenozoica",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A extinção dos grandes dinossauros encerrou a era Mesozoica. Que era geológica começou logo depois e dura até hoje?",
+    "resposta": "Era Cenozoica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cenozoic"
+    ]
+  },
+  {
+    "id": "q04330",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "escala_de_mohs",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na escala de dureza de Mohs, que vai de um a dez, qual mineral ocupa o grau um, o mais macio?",
+    "resposta": "Talco",
+    "distratores": [
+      "Gipsita",
+      "Calcita",
+      "Quartzo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mohs_scale"
+    ]
+  },
+  {
+    "id": "q04331",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "idade_da_terra",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo a datação de rochas e meteoritos, qual é aproximadamente a idade da Terra?",
+    "resposta": "Quatro bilhões e meio de anos",
+    "distratores": [
+      "Quase quatorze bilhões",
+      "Um bilhão",
+      "Quatrocentos e cinquenta milhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Age_of_Earth"
+    ]
   }
 ]

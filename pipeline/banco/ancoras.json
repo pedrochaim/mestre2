@@ -32165,7 +32165,8 @@
     "variantes": [
       "Anel de Fogo",
       "Cinturão de Fogo",
-      "Ring of Fire"
+      "Ring of Fire",
+      "Cinturão de Fogo do Pacífico"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/C%C3%ADrculo_de_Fogo_do_Pac%C3%ADfico",
@@ -41897,7 +41898,8 @@
     "nome": "Cratera de Chicxulub",
     "descricao": "Cratera de impacto soterrada no México, associada à extinção em massa do fim do Cretáceo.",
     "variantes": [
-      "Chicxulub crater"
+      "Chicxulub crater",
+      "Chicxulub"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chicxulub_crater"
@@ -63345,6 +63347,427 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Piri_Reis_map",
       "https://pt.wikipedia.org/wiki/Mapa_de_Piri_Reis"
+    ]
+  },
+  {
+    "id": "pangeia",
+    "nome": "Pangeia",
+    "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+    "variantes": [
+      "Pangea",
+      "Pangaea"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pangeia",
+      "https://en.wikipedia.org/wiki/Pangaea"
+    ]
+  },
+  {
+    "id": "tsunami",
+    "nome": "Tsunami",
+    "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos.",
+    "variantes": [
+      "Maremoto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tsunami"
+    ]
+  },
+  {
+    "id": "era_paleozoica",
+    "nome": "Era Paleozoica",
+    "descricao": "Era geológica entre cerca de 539 e 252 milhões de anos atrás, do Cambriano ao Permiano.",
+    "variantes": [
+      "Paleozoico",
+      "Paleozoic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paleozoic"
+    ]
+  },
+  {
+    "id": "periodo_cambriano",
+    "nome": "Período Cambriano",
+    "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal.",
+    "variantes": [
+      "Cambriano",
+      "Cambrian"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cambrian"
+    ]
+  },
+  {
+    "id": "diamante",
+    "nome": "Diamante",
+    "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema.",
+    "variantes": [
+      "Diamond"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diamond"
+    ]
+  },
+  {
+    "id": "gondwana",
+    "nome": "Gondwana",
+    "descricao": "Antigo supercontinente do hemisfério sul que reunia América do Sul, África, Antártida, Austrália e Índia.",
+    "variantes": [
+      "Gondvana",
+      "Gondwanaland"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gondwana"
+    ]
+  },
+  {
+    "id": "cabelo_de_pele",
+    "nome": "Cabelo de Pele",
+    "descricao": "Fios finos de vidro vulcânico formados quando gotas de lava são esticadas pelo vento, comuns no Havaí.",
+    "variantes": [
+      "Pele's hair"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pele%27s_hair"
+    ]
+  },
+  {
+    "id": "pedra_sabao",
+    "nome": "Pedra-sabão",
+    "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas.",
+    "variantes": [
+      "Esteatita",
+      "Soapstone"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+      "https://en.wikipedia.org/wiki/Soapstone"
+    ]
+  },
+  {
+    "id": "pirita",
+    "nome": "Pirita",
+    "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+    "variantes": [
+      "Pyrite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pyrite"
+    ]
+  },
+  {
+    "id": "rodinia",
+    "nome": "Rodínia",
+    "descricao": "Supercontinente que existiu há cerca de um bilhão de anos, muito antes da Pangeia.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rodinia"
+    ]
+  },
+  {
+    "id": "terra_roxa",
+    "nome": "Terra roxa",
+    "descricao": "Solo avermelhado e fértil do sul e sudeste do Brasil, formado pela decomposição do basalto e famoso pelas lavouras de café.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Terra_roxa"
+    ]
+  },
+  {
+    "id": "pedra_pomes",
+    "nome": "Pedra-pomes",
+    "descricao": "Rocha vulcânica muito porosa e leve, formada por lava rica em gases que esfria rapidamente.",
+    "variantes": [
+      "Púmice",
+      "Pumice"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pumice"
+    ]
+  },
+  {
+    "id": "pre_sal",
+    "nome": "Pré-sal",
+    "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+    "variantes": [
+      "Camada pré-sal",
+      "Pre-salt layer"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9-sal",
+      "https://en.wikipedia.org/wiki/Pre-salt_layer"
+    ]
+  },
+  {
+    "id": "extincao_do_permiano_triassico",
+    "nome": "Extinção do Permiano-Triássico",
+    "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida.",
+    "variantes": [
+      "Grande Morte",
+      "Great Dying",
+      "Extinção do fim do Permiano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event"
+    ]
+  },
+  {
+    "id": "grande_evento_de_oxidacao",
+    "nome": "Grande Evento de Oxidação",
+    "descricao": "Período, há mais de dois bilhões de anos, em que o oxigênio passou a se acumular na atmosfera terrestre.",
+    "variantes": [
+      "Grande Oxidação",
+      "Great Oxidation Event",
+      "Catástrofe do oxigênio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+    ]
+  },
+  {
+    "id": "erupcao_do_vesuvio_em_79",
+    "nome": "Erupção do Vesúvio em 79",
+    "descricao": "Erupção do vulcão Vesúvio, no ano 79, que soterrou cidades romanas da baía de Nápoles.",
+    "variantes": [
+      "Erupção do Vesúvio de 79 d.C."
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+    ]
+  },
+  {
+    "id": "erupcao_do_krakatoa_de_1883",
+    "nome": "Erupção do Krakatoa de 1883",
+    "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883.",
+    "variantes": [
+      "Krakatoa",
+      "Cracatoa",
+      "Krakatau"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    ]
+  },
+  {
+    "id": "obsidiana",
+    "nome": "Obsidiana",
+    "descricao": "Vidro vulcânico natural, geralmente negro, formado pelo resfriamento rápido da lava.",
+    "variantes": [
+      "Obsidian"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Obsidian"
+    ]
+  },
+  {
+    "id": "eyjafjallajokull",
+    "nome": "Eyjafjallajökull",
+    "descricao": "Vulcão coberto por geleira no sul da Islândia, cuja erupção de 2010 lançou uma grande nuvem de cinzas sobre a Europa.",
+    "variantes": [
+      "Erupção do Eyjafjallajökull de 2010"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eyjafjallaj%C3%B6kull"
+    ]
+  },
+  {
+    "id": "safira",
+    "nome": "Safira",
+    "descricao": "Gema, geralmente azul, que é uma variedade do mineral corindo.",
+    "variantes": [
+      "Sapphire"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sapphire"
+    ]
+  },
+  {
+    "id": "agua_marinha",
+    "nome": "Água-marinha",
+    "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+    "variantes": [
+      "Aquamarine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beryl"
+    ]
+  },
+  {
+    "id": "ilha_da_trindade",
+    "nome": "Ilha da Trindade",
+    "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo.",
+    "variantes": [
+      "Trindade",
+      "Trindade e Martim Vaz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trindade_and_Martim_Vaz"
+    ]
+  },
+  {
+    "id": "ponto_quente_de_galapagos",
+    "nome": "Ponto quente de Galápagos",
+    "descricao": "Ponto quente vulcânico no Pacífico oriental responsável pela formação das ilhas Galápagos.",
+    "variantes": [
+      "Hotspot de Galápagos",
+      "Galápagos hotspot"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_hotspot"
+    ]
+  },
+  {
+    "id": "provincia_magmatica_parana_etendeka",
+    "nome": "Província Magmática Paraná-Etendeka",
+    "descricao": "Grande província de derrames de basalto do Cretáceo, dividida entre o sul da América do Sul e o sudoeste da África pela abertura do Atlântico.",
+    "variantes": [
+      "Traps do Paraná e Etendeka",
+      "Paraná and Etendeka traps",
+      "Formação Serra Geral"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paran%C3%A1_and_Etendeka_traps"
+    ]
+  },
+  {
+    "id": "grande_vale_do_rift",
+    "nome": "Grande Vale do Rift",
+    "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+    "variantes": [
+      "Vale do Rift",
+      "Rift do Leste Africano",
+      "Great Rift Valley"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Rift_Valley",
+      "https://en.wikipedia.org/wiki/East_African_Rift"
+    ]
+  },
+  {
+    "id": "alfred_wegener",
+    "nome": "Alfred Wegener",
+    "descricao": "Meteorologista e geofísico alemão, autor da teoria da deriva continental, morto em 1930.",
+    "variantes": [
+      "Alfred Lothar Wegener"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    ]
+  },
+  {
+    "id": "marmore_de_carrara",
+    "nome": "Mármore de Carrara",
+    "descricao": "Mármore branco ou cinza-azulado extraído nas pedreiras dos Alpes Apuanos, na Toscana, usado em esculturas desde a Roma Antiga.",
+    "variantes": [
+      "Carrara marble"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carrara_marble"
+    ]
+  },
+  {
+    "id": "granito",
+    "nome": "Granito",
+    "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta.",
+    "variantes": [
+      "Granite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Granite"
+    ]
+  },
+  {
+    "id": "falesias_brancas_de_dover",
+    "nome": "Falésias brancas de Dover",
+    "descricao": "Penhascos de giz branco no litoral sudeste da Inglaterra, de frente para o canal da Mancha.",
+    "variantes": [
+      "White cliffs of Dover",
+      "Penhascos brancos de Dover"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/White_cliffs_of_Dover"
+    ]
+  },
+  {
+    "id": "mina_de_sal_de_wieliczka",
+    "nome": "Mina de sal de Wieliczka",
+    "descricao": "Antiga mina de sal perto de Cracóvia, na Polônia, com capelas e esculturas escavadas na rocha.",
+    "variantes": [
+      "Wieliczka",
+      "Wieliczka Salt Mine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+    ]
+  },
+  {
+    "id": "nucleo_da_terra",
+    "nome": "Núcleo da Terra",
+    "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido.",
+    "variantes": [
+      "Núcleo terrestre",
+      "Earth's core"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Earth%27s_inner_core",
+      "https://en.wikipedia.org/wiki/Earth%27s_outer_core"
+    ]
+  },
+  {
+    "id": "deriva_continental",
+    "nome": "Deriva continental",
+    "descricao": "Teoria segundo a qual os continentes já estiveram unidos e se deslocaram lentamente ao longo do tempo geológico.",
+    "variantes": [
+      "Continental drift",
+      "Teoria da deriva dos continentes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Continental_drift"
+    ]
+  },
+  {
+    "id": "dorsal_mesoatlantica",
+    "nome": "Dorsal Mesoatlântica",
+    "descricao": "Cadeia de montanhas submarinas no meio do oceano Atlântico, onde placas tectônicas se afastam.",
+    "variantes": [
+      "Cordilheira Mesoatlântica",
+      "Mid-Atlantic Ridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge"
+    ]
+  },
+  {
+    "id": "terremoto_de_lisboa_de_1755",
+    "nome": "Terremoto de Lisboa de 1755",
+    "descricao": "Terremoto seguido de tsunami e incêndios que destruiu grande parte de Lisboa em 1º de novembro de 1755.",
+    "variantes": [
+      "Sismo de Lisboa de 1755",
+      "Grande Terremoto de Lisboa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ]
+  },
+  {
+    "id": "era_cenozoica",
+    "nome": "Era Cenozoica",
+    "descricao": "Era geológica atual, iniciada há cerca de 66 milhões de anos, após a extinção do fim do Cretáceo.",
+    "variantes": [
+      "Cenozoico",
+      "Cenozoic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cenozoic"
+    ]
+  },
+  {
+    "id": "idade_da_terra",
+    "nome": "Idade da Terra",
+    "descricao": "Tempo decorrido desde a formação do planeta Terra, estimado pela datação radiométrica de rochas e meteoritos.",
+    "variantes": [
+      "Age of Earth"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Age_of_Earth"
     ]
   }
 ]
