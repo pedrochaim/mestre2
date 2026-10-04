@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido e muito reconhecível; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este presidente dos Estados Unidos?",
+      "resposta": "Barack Obama",
+      "destino": 5,
+      "ancora": {
+        "nome": "Barack Obama",
+        "descricao": "44º presidente dos Estados Unidos, de 2009 a 2017, o primeiro afro-americano no cargo.",
+        "variantes": [
+          "Barack Hussein Obama II"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido e reconhecível de Pedro, o Grande, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este governante russo, retratado de armadura, que reinou entre os séculos dezessete e dezoito?",
+      "resposta": "Pedro, o Grande",
+      "destino": 4,
+      "ancora": {
+        "nome": "Pedro, o Grande",
+        "descricao": "Tsar da Rússia a partir de 1682 e primeiro imperador russo, de 1721 a 1725.",
+        "variantes": [
+          "Pedro I da Rússia",
+          "Peter the Great"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato conhecido de Pombal com Lisboa ao fundo, sem texto; para um personagem menos famoso, múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ministro português do século dezoito?",
+      "resposta": "Marquês de Pombal",
+      "distratores": [
+        "Duque de Lafões",
+        "Marquês de Alorna",
+        "Marquês de Angeja"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Marquês de Pombal",
+        "descricao": "Sebastião José de Carvalho e Melo, principal ministro do rei José I de Portugal (1750-1777).",
+        "variantes": [
+          "Sebastião José de Carvalho e Melo",
+          "Conde de Oeiras"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida do rosto, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este político chegou ao comando do Partido Comunista da União Soviética?",
+      "resposta": "1985",
+      "destino": 5,
+      "ancora": {
+        "nome": "Mikhail Gorbachev",
+        "descricao": "Último líder da União Soviética, secretário-geral do Partido Comunista de 1985 a 1991.",
+        "variantes": [
+          "Mikhail Gorbatchov",
+          "Mikhail Sergeyevich Gorbachev"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Busto clássico nítido, sem texto; o tipo iconográfico é associado a Platão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que escola de Atenas foi fundada pelo filósofo representado neste busto?",
+      "resposta": "Academia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Platão",
+        "descricao": "Filósofo da Grécia Antiga (c. 428-347 a.C.), discípulo de Sócrates e fundador da Academia de Atenas.",
+        "variantes": [
+          "Plato"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto antiga, de baixa resolução mas legível; sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade nasceu este abolicionista brasileiro?",
+      "resposta": "Salvador",
+      "destino": 8,
+      "ancora": {
+        "nome": "Luiz Gama",
+        "descricao": "Advogado, jornalista e abolicionista brasileiro do século dezenove, nascido livre e escravizado aos dez anos.",
+        "variantes": [
+          "Luís Gama",
+          "Luís Gonzaga Pinto da Gama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A etiqueta 'ARMSTRONG' no traje está visível e entrega o nome."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato pintado com barba branca e faixa, reconhecível; assinatura minúscula do pintor não entrega o nome do retratado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este militar brasileiro do século dezenove?",
+      "resposta": "Marechal Deodoro da Fonseca",
+      "distratores": [
+        "Marechal Floriano Peixoto",
+        "Duque de Caxias",
+        "Marechal Hermes da Fonseca"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Marechal Deodoro da Fonseca",
+        "descricao": "Militar alagoano que chefiou a Proclamação da República em 1889 e foi o primeiro presidente do Brasil.",
+        "variantes": [
+          "Deodoro da Fonseca",
+          "Manuel Deodoro da Fonseca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura nítida e reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que revolução foi liderada por este general?",
+      "resposta": "Revolução Haitiana",
+      "distratores": [
+        "Revolução Francesa",
+        "Revolução Americana",
+        "Revolução Cubana"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Toussaint Louverture",
+        "descricao": "General e principal líder da Revolução Haitiana, governador-geral de Saint-Domingue.",
+        "variantes": [
+          "Toussaint L'Ouverture",
+          "Toussaint Bréda"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto colorida nítida do rosto, sem texto; muito reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que prêmio Nobel este homem recebeu em 1964?",
+      "resposta": "Nobel da Paz",
+      "destino": 5,
+      "ancora": {
+        "nome": "Martin Luther King Jr.",
+        "descricao": "Pastor batista e líder do movimento pelos direitos civis nos Estados Unidos, assassinado em 1968.",
+        "variantes": [
+          "Martin Luther King",
+          "MLK"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco com sombra forte sobre o rosto; pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que título este líder inglês passou a ter em 1653?",
+      "resposta": "Lorde Protetor",
+      "distratores": [
+        "Lorde Chanceler",
+        "Rei da Inglaterra",
+        "Conde Marechal"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Oliver Cromwell",
+        "descricao": "Estadista e militar inglês, líder parlamentarista e Lorde Protetor da Inglaterra de 1653 a 1658.",
+        "variantes": [
+          "Cromwell"
+        ]
+      }
+    }
+  ]
+}

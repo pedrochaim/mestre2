@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que escola de Atenas foi fundada pelo filósofo representado neste busto?",
+        "resposta": "Academia"
+      },
+      "existentes": [
+        {
+          "id": "q03732",
+          "pergunta": "Segundo relatos antigos, Platão era um apelido, que quer dizer largo. Qual seria o verdadeiro nome do filósofo?",
+          "resposta": "Arístocles"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata da escola fundada por Platão (Academia); a existente trata do nome verdadeiro dele (Arístocles). São fatos diferentes."
+    }
+  ]
+}
