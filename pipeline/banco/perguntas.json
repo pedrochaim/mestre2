@@ -74895,5 +74895,120 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Lucky_Luke"
     ]
+  },
+  {
+    "id": "q04457",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arena_da_baixada",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube manda seus jogos neste estádio de Curitiba?",
+    "resposta": "Athletico Paranaense",
+    "distratores": [
+      "Coritiba",
+      "Paraná Clube",
+      "Figueirense"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arena_da_Baixada",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_M%C3%A1rio_Celso_Petraglia"
+    ],
+    "imagem": {
+      "arquivo": "q04457.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arenadabaixada2.jpg",
+      "autor": "Gustavo Paolo",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q04458",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_beira_rio",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio, que foi sede da Copa do Mundo de 2014?",
+    "resposta": "Porto Alegre",
+    "distratores": [
+      "Curitiba",
+      "Belo Horizonte",
+      "Salvador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Beira-Rio",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Beira-Rio"
+    ],
+    "imagem": {
+      "arquivo": "q04458.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Beira-Rio-Stadium-Porto-Alegre-Brazil.jpg",
+      "autor": "Israel Heldt",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q04459",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_munique",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade alemã fica este estádio?",
+    "resposta": "Munique",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympiastadion_%28Munich%29",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Munique"
+    ],
+    "imagem": {
+      "arquivo": "q04459.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blick_vom_Olympiaberg_auf_das_Olympiastadion.jpg",
+      "autor": "Amrei-Marie",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04460",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "johan_cruyff_arena",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "Amsterdã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Johan_Cruyff_Arena",
+      "https://pt.wikipedia.org/wiki/Johan_Cruijff_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q04460.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+      "autor": "Alf van Beem",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q04461",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_do_dragao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube manda seus jogos neste estádio?",
+    "resposta": "FC Porto",
+    "distratores": [
+      "Benfica",
+      "Sporting",
+      "Braga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q04461.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_do_Dragão_(8468978586).jpg",
+      "autor": "Edgar Jiménez from Porto, Portugal",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

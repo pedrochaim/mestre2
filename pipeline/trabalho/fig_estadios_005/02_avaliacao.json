@@ -1,0 +1,154 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto, com o formato de caixa e o telhado característico do estádio; pergunta sobre o clube mandante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube manda seus jogos neste estádio de Curitiba?",
+      "resposta": "Athletico Paranaense",
+      "distratores": [
+        "Coritiba",
+        "Paraná Clube",
+        "Figueirense"
+      ],
+      "ancora": {
+        "nome": "Arena da Baixada",
+        "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+        "variantes": [
+          "Estádio Mario Celso Petraglia",
+          "Ligga Arena",
+          "Kyocera Arena"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Rod Laver Arena' está escrito em letras grandes na fachada, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'Lambeau Field' aparece escrito na fachada, e o logotipo do Packers também aparece."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista interna do estádio, com a cobertura oval bem característica e sem texto que entregue a cidade. O escudo no gramado não nomeia a cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica este estádio, que foi sede da Copa do Mundo de 2014?",
+      "resposta": "Porto Alegre",
+      "distratores": [
+        "Curitiba",
+        "Belo Horizonte",
+        "Salvador"
+      ],
+      "ancora": {
+        "nome": "Estádio Beira-Rio",
+        "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+        "variantes": [
+          "Beira-Rio",
+          "Estádio José Pinheiro Borda",
+          "Gigante da Beira-Rio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O texto 'Mercedes-Benz Superdome' está visível na fachada e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A palavra 'DAYTONA' está pintada no gramado e escrita nas placas, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto sem texto, com o telhado de lonas tensionadas inconfundível do estádio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que estádio é este, cuja cobertura translúcida em forma de tenda é famosa?",
+      "resposta": "Estádio Olímpico de Munique",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio Olímpico de Munique",
+        "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+        "variantes": [
+          "Olympiastadion München",
+          "Olympiastadion"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto legível, com o teto retrátil e as torres características do estádio.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Amsterdã",
+      "distratores": [],
+      "ancora": {
+        "nome": "Johan Cruyff Arena",
+        "descricao": "Estádio do Ajax em Amsterdã, na Holanda, antes chamado Amsterdam ArenA.",
+        "variantes": [
+          "Amsterdam ArenA",
+          "Amsterdam Arena",
+          "Johan Cruijff ArenA"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O placar mostra o nome 'Wrigley Field' e os logotipos dos times, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista interna sem texto que entregue o nome, com os arcos de aço do teto e a torcida azul. O reconhecimento é razoável, e a múltipla escolha deixa a pergunta justa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube manda seus jogos neste estádio?",
+      "resposta": "FC Porto",
+      "distratores": [
+        "Benfica",
+        "Sporting",
+        "Braga"
+      ],
+      "ancora": {
+        "nome": "Estádio do Dragão",
+        "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+        "variantes": [
+          "Dragão",
+          "Estádio do Dragão do Porto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra a pira e os fogos de artifício de uma cerimônia, não o estádio, e a pira pode ser confundida com a de outras edições dos Jogos."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A fachada é genérica e branca, sem traços que permitam reconhecer o estádio. Há também pessoas comuns em primeiro plano."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Athletico Paranaense joga ali. O enunciado não entrega a resposta, pois Curitiba tem outros clubes. Os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Porto Alegre e que o estádio foi sede em 2014. A pista da Copa não identifica a cidade, porque houve doze sedes. Os distratores também foram sedes, mas nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A cobertura translúcida em forma de tenda é a característica famosa desse estádio. Na imagem coberta, o enunciado entrega a resposta. A reescrita pede a cidade, que só se descobre reconhecendo a imagem.",
+      "reescrita": {
+        "pergunta": "Em que cidade alemã fica este estádio?",
+        "resposta": "Munique",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o estádio fica em Amsterdã. O enunciado não vaza nada e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o FC Porto joga no Dragão. O enunciado não entrega a resposta e os distratores são clubes portugueses críveis e errados.",
+      "reescrita": null
+    }
+  ]
+}
