@@ -1,0 +1,190 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Os pinguins-de-magalhães que chegam às praias brasileiras fazem seus ninhos em colônias de que região do sul do continente?",
+        "resposta": "Patagônia"
+      },
+      "existentes": [
+        {
+          "id": "q04821",
+          "pergunta": "Vindos da Patagônia, pinguins-de-magalhães costumam aparecer nas praias do Sul e do Sudeste do Brasil em que estação do ano?",
+          "resposta": "Inverno"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Seguindo os cardumes rumo ao norte, os pinguins-de-magalhães costumam aparecer nas praias brasileiras em que estação do ano?",
+        "resposta": "Inverno"
+      },
+      "existentes": [
+        {
+          "id": "q04821",
+          "pergunta": "Vindos da Patagônia, pinguins-de-magalhães costumam aparecer nas praias do Sul e do Sudeste do Brasil em que estação do ano?",
+          "resposta": "Inverno"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Antes da reintrodução, o último exemplar conhecido de ararinha-azul vivendo livre na caatinga, um macho, desapareceu em que ano?",
+        "resposta": "2000"
+      },
+      "existentes": [
+        {
+          "id": "q02491",
+          "pergunta": "A ararinha-azul, ave da caatinga baiana, é a espécie do protagonista de que animação de 2011, dirigida pelo brasileiro Carlos Saldanha?",
+          "resposta": "Rio"
+        },
+        {
+          "id": "q04810",
+          "pergunta": "Em 2022, ararinhas-azuis criadas em cativeiro foram soltas na caatinga, no município de Curaçá. Em que estado brasileiro?",
+          "resposta": "Bahia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ano um decreto presidencial oficializou o sabiá-laranjeira como ave-símbolo do Brasil?",
+        "resposta": "2002"
+      },
+      "existentes": [
+        {
+          "id": "q04634",
+          "pergunta": "Que ave é esta?",
+          "resposta": "Sabiá-laranjeira"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por volta de 1900, que médico brasileiro descobriu que cada tipo de veneno de cobra pede um soro específico, e não um soro único?",
+        "resposta": "Vital Brazil"
+      },
+      "existentes": [
+        {
+          "id": "q00639",
+          "pergunta": "Que cientista brasileiro descobriu que cada tipo de veneno de cobra exige um soro específico para ser neutralizado?",
+          "resposta": "Vital Brazil"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "As lagartixas são chamadas de gecos, palavra que veio do malaio. Esse nome imita o quê?",
+        "resposta": "O som que o animal emite"
+      },
+      "existentes": [
+        {
+          "id": "q02485",
+          "pergunta": "As lagartixas andam no teto graças a milhões de pelos microscópicos nos dedos, que aderem à parede por meio de quê?",
+          "resposta": "Forças de van der Waals"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os moas, aves gigantes e sem asas da Nova Zelândia, foram extintos pela caça, pouco depois da chegada de que povo?",
+        "resposta": "Maoris"
+      },
+      "existentes": [
+        {
+          "id": "q02735",
+          "pergunta": "As moas, aves gigantes sem asas da Nova Zelândia, desapareceram por volta do século quinze. Quem as levou à extinção?",
+          "resposta": "Caçadores maoris"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Ao contrário da maioria dos répteis, os crocodilianos têm um coração como o das aves e dos mamíferos. Quantas cavidades ele tem?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q02488",
+          "pergunta": "Os crocodilos lembram lagartos, mas seus parentes vivos mais próximos são de outro grupo de vertebrados. Qual?",
+          "resposta": "As aves"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No inverno antártico, o macho do pinguim-imperador choca o ovo apoiado sobre os pés. Por quanto tempo, aproximadamente?",
+        "resposta": "Cerca de dois meses"
+      },
+      "existentes": [
+        {
+          "id": "q01030",
+          "pergunta": "Que pinguim é este, o maior de todos?",
+          "resposta": "Pinguim-imperador"
+        },
+        {
+          "id": "q04829",
+          "pergunta": "No inverno antártico, pinguins-imperadores se amontoam aos milhares, revezando quem fica na borda do grupo. Por que fazem isso?",
+          "resposta": "Para conservar o calor"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata da região de origem (Patagônia); a existente trata da estação do ano. Fatos distintos, embora a existente cite a Patagônia no enunciado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: estação do ano em que os pinguins-de-magalhães aparecem nas praias brasileiras (inverno).",
+      "id_existente": "q04821"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano do desaparecimento do último exemplar livre difere de animação e local da soltura."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A existente é de identificação por imagem; a nova pergunta o ano do decreto, outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Vital Brazil descobriu a especificidade dos soros antiofídicos.",
+      "id_existente": "q00639"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem do nome geco é um fato diferente de como as lagartixas aderem ao teto."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem extinguiu os moas: os maoris.",
+      "id_existente": "q02735"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de cavidades do coração difere do grupo parente mais próximo (aves)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Duração da incubação pelo macho é distinta do motivo do amontoamento ou da identificação da espécie."
+    }
+  ]
+}

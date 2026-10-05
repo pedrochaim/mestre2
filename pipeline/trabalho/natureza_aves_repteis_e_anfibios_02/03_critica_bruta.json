@@ -1,0 +1,397 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmico da Nova Zelândia, descrição correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmica da Amazônia, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colônias na Patagônia confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Migram para o Brasil no inverno, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Costa Rica confirmada; Monteverde não entrega o país.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aldabra pertence às Seicheles; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Índia é o principal país do gavial; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nova Guiné confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmica da Bahia, arenito confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome 'Lear' no enunciado vaza o sobrenome da resposta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Que poeta inglês do século dezenove, famoso por versos sem sentido e também pintor de papagaios, dá nome a uma arara brasileira ameaçada?",
+        "resposta": "Edward Lear",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lear%27s_macaw"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serra da Canastra é a população mais importante, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Data da extinção é controversa (1662 a 1700), então o século é ambíguo.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último casal morto em Eldey em 1844.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último macho selvagem desapareceu em 2000.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Decreto de 2002 confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O feito com o Batalhão Perdido é lenda não confirmada pelo Smithsonian, e a pergunta é fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Século é impreciso e fraco; o ano 1782 é o fato específico, de que tenho certeza.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano o Congresso americano aprovou o desenho do Grande Selo dos Estados Unidos, com a águia-careca?",
+        "resposta": "1782",
+        "distratores": [
+          "1776",
+          "1789",
+          "1812"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "DDT e afinamento da casca dos ovos são amplamente documentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu em 24 de junho de 2012.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vital Brazil descobriu a especificidade do soro antiofídico.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lorenz, Nobel de 1973 e estudos com gansos.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huxley, o buldogue de Darwin, defendeu a ligação entre aves e dinossauros.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dodô de Alice como caricatura de Carroll; o enunciado usa 'talvez'.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de literatura, mal classificada em Aves, Répteis e Anfíbios.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de cinema, mal classificada no subtema de aves.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz 1948, e não 1949; o ano é removido.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que farmacologista brasileiro liderou a equipe que descobriu a bradicinina, em experimentos com veneno de jararaca?",
+        "resposta": "Maurício Rocha e Silva",
+        "distratores": [
+          "Vital Brazil",
+          "Oswaldo Cruz",
+          "Carlos Chagas"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bradykinin",
+          "https://pt.wikipedia.org/wiki/Maurício_Rocha_e_Silva"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz 'leão da terra', então chão e terra são ambos defensáveis; a resposta precisa aceitar os dois.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome camaleão vem do grego e significa, ao pé da letra, leão de onde?",
+        "resposta": "Da terra (ou do chão)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Camale%C3%A3o"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nanocristais de guanina confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amphibios significa duas formas de vida.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Píton morta por Apolo em Delfos.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Do espanhol el lagarto.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gecko vem do malaio e é onomatopeico, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'tô fraco' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moas extintas pela caça dos maoris.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sexo definido pela temperatura de incubação.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedrinhas ajudam a triturar o alimento na moela.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda do pelicano que alimenta os filhotes com o próprio sangue.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A palavra 'quitridiomicose' (micose) já entrega que é um fungo.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tico-tico é o hospedeiro mais comum.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parente vivo mais próximo é o kiwi.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flamingos e mergulhões formam um clado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Falcões e papagaios estão no mesmo clado, Australaves.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tucanos e pica-paus são Piciformes.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coração de quatro câmaras confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só um pulmão funciona na maioria das cobras.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Incubação de cerca de 65 dias, ou seja, dois meses.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ninhos de saliva solidificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jabuti é exclusivamente terrestre; distratores aquáticos.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cecílias são anfíbios da ordem Gymnophiona.",
+      "reescrita": null
+    }
+  ]
+}
