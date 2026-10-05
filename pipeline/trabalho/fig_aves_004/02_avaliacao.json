@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de cisnes-negros, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é símbolo regional de qual estado australiano, onde é nativa?",
+      "resposta": "Austrália Ocidental",
+      "ancora": {
+        "nome": "Cisne-negro",
+        "descricao": "Cygnus atratus, grande ave aquática de plumagem negra e bico vermelho, nativa da Austrália.",
+        "variantes": [
+          "Cygnus atratus",
+          "Black swan"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Periquito verde e amarelo com marcas características, bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Periquito-australiano",
+      "ancora": {
+        "nome": "Periquito-australiano",
+        "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+        "variantes": [
+          "Budgerigar",
+          "Periquito-comum",
+          "Melopsittacus undulatus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tachã nítido, de perfil, reconhecível pela cabeça cinza, face vermelha e pernas vermelhas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave sul-americana de água e brejo é esta?",
+      "resposta": "Tachã",
+      "distratores": [
+        "Seriema",
+        "Carão",
+        "Jaçanã"
+      ],
+      "ancora": {
+        "nome": "Tachã",
+        "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+        "variantes": [
+          "Chajá",
+          "Tachã-cinzenta",
+          "Southern screamer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quero-quero de perfil, nítido e inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Quero-quero",
+      "ancora": {
+        "nome": "Quero-quero",
+        "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+        "variantes": [
+          "Southern lapwing",
+          "Tero",
+          "Vanellus chilensis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Coruja branca típica, nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região do planeta esta coruja se reproduz, sobretudo na tundra?",
+      "resposta": "Ártico",
+      "distratores": [
+        "Deserto do Saara",
+        "Floresta Amazônica",
+        "Pampa argentino"
+      ],
+      "ancora": {
+        "nome": "Coruja-das-neves",
+        "descricao": "Bubo scandiacus, grande coruja de plumagem branca nativa das regiões árticas.",
+        "variantes": [
+          "Snowy owl",
+          "Bubo scandiacus",
+          "Coruja-branca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ave-lira exibindo a cauda característica, bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta, de cauda tão elaborada?",
+      "resposta": "Ave-lira",
+      "ancora": {
+        "nome": "Ave-lira-soberba",
+        "descricao": "Menura novaehollandiae, ave canora australiana famosa pela cauda elaborada e pela imitação de sons.",
+        "variantes": [
+          "Ave-lira",
+          "Superb lyrebird",
+          "Menura novaehollandiae"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "As asas mostram cobertas amarelo-alaranjadas e voo azul, e a face é branca sem listras vermelhas: parece araracanga (Ara macao), não arara-vermelha-grande (Ara chloropterus). Identificação duvidosa."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Condor em voo sobre cânion, colar branco e asas com manchas brancas visíveis.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira esta grande ave é encontrada?",
+      "resposta": "Andes",
+      "distratores": [
+        "Alpes",
+        "Himalaia",
+        "Montanhas Rochosas"
+      ],
+      "ancora": {
+        "nome": "Condor-dos-andes",
+        "descricao": "Vultur gryphus, grande abutre sul-americano de colar branco, uma das maiores aves voadoras do mundo.",
+        "variantes": [
+          "Andean condor",
+          "Vultur gryphus",
+          "Condor"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Irerê nítido, com face branca e corpo castanho, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pato vive na América do Sul e também em qual outro continente?",
+      "resposta": "África",
+      "ancora": {
+        "nome": "Irerê",
+        "descricao": "Dendrocygna viduata, marreca de face branca que vive na África subsaariana e na América do Sul.",
+        "variantes": [
+          "White-faced whistling duck",
+          "Marreca-piadeira",
+          "Dendrocygna viduata"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Garça branca com bico amarelo e pernas escuras, nítida; distingue-se da garça-branca-pequena.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave de pântano é esta?",
+      "resposta": "Garça-branca-grande",
+      "distratores": [
+        "Garça-branca-pequena",
+        "Garça-vaqueira",
+        "Cegonha-branca"
+      ],
+      "ancora": {
+        "nome": "Garça-branca-grande",
+        "descricao": "Ardea alba, grande garça branca de bico amarelo, amplamente distribuída pelo mundo.",
+        "variantes": [
+          "Great egret",
+          "Ardea alba",
+          "Garça-grande"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois atobás com pés azuis bem visíveis, inconfundíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Atobá-de-pés-azuis",
+      "ancora": {
+        "nome": "Atobá-de-pés-azuis",
+        "descricao": "Sula nebouxii, ave marinha do Pacífico oriental de pés azul-claros, comum nas Galápagos.",
+        "variantes": [
+          "Blue-footed booby",
+          "Patola-de-pés-azuis",
+          "Sula nebouxii"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da ave com placa frontal clara, bico vermelho e pernas amarelas; inconfundível entre as aves de brejo americanas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave de brejo, de plumagem azul e verde brilhante, é esta?",
+      "resposta": "Frango-d'água-azul",
+      "distratores": [
+        "Frango-d'água-comum",
+        "Jaçanã",
+        "Sanã-parda"
+      ],
+      "ancora": {
+        "nome": "Frango-d'água-azul",
+        "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+        "variantes": [
+          "Purple gallinule",
+          "Porphyrio martinica",
+          "Frango-de-água-azul"
+        ]
+      }
+    }
+  ]
+}

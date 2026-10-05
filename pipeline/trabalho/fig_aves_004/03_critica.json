@@ -1,0 +1,109 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (ave oficial da Austrália Ocidental). Mas \"onde é nativa\" é redundante e impreciso, pois ela ocorre em todos os estados.",
+      "reescrita": {
+        "pergunta": "Esta ave é a ave oficial de qual estado australiano?",
+        "resposta": "Austrália Ocidental",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento, distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto e sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"tundra\" entrega o Ártico sem olhar a figura, e os distratores são absurdos. Vira reconhecimento da espécie, com distratores plausíveis.",
+      "reescrita": {
+        "pergunta": "Que coruja é esta?",
+        "resposta": "Coruja-das-neves",
+        "distratores": [
+          "Coruja-buraqueira",
+          "Coruja-orelhuda",
+          "Coruja-das-torres"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta \"Ave-lira\" é genérica, pois existe também a ave-lira de Albert. A pista da cauda é desnecessária. A resposta deve ser a espécie.",
+      "reescrita": {
+        "pergunta": "Que ave australiana é esta?",
+        "resposta": "Ave-lira-soberba",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores plausíveis e nenhum correto, e o enunciado não entrega a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho cita também as Antilhas, então \"outro continente\" admitiria América do Norte/Central. É preciso restringir à outra margem do Atlântico.",
+      "reescrita": {
+        "pergunta": "Esta marreca vive na América do Sul e também do outro lado do Oceano Atlântico. Em que continente?",
+        "resposta": "África",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distingue da garça-branca-pequena pela imagem. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"azul\" no enunciado é palavra da resposta (vazamento parcial).",
+      "reescrita": {
+        "pergunta": "Que ave de brejo das Américas é esta?",
+        "resposta": "Frango-d'água-azul",
+        "distratores": [
+          "Frango-d'água-comum",
+          "Jaçanã",
+          "Sanã-parda"
+        ]
+      }
+    }
+  ]
+}

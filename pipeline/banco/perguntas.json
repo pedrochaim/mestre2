@@ -109123,5 +109123,250 @@
       "autor": "Napoleon Sarony / Adam Cuerden",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q06411",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "cisne_negro",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Esta ave é a ave oficial de qual estado australiano?",
+    "resposta": "Austrália Ocidental",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_swan",
+      "https://pt.wikipedia.org/wiki/Cisne-negro"
+    ],
+    "imagem": {
+      "arquivo": "q06411.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:00_2102_Trauerschwäne_(Breisach_am_Rhein).jpg",
+      "autor": "W. Bulach",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06412",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "periquito_australiano",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ave é esta?",
+    "resposta": "Periquito-australiano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Budgerigar",
+      "https://pt.wikipedia.org/wiki/Periquito-australiano"
+    ],
+    "imagem": {
+      "arquivo": "q06412.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Budgerigar-male-strzelecki-qld.jpg",
+      "autor": "Benjamint444",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q06413",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "tacha",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ave sul-americana de água e brejo é esta?",
+    "resposta": "Tachã",
+    "distratores": [
+      "Seriema",
+      "Carão",
+      "Jaçanã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Southern_screamer",
+      "https://pt.wikipedia.org/wiki/Toch%C3%A3-cinzenta"
+    ],
+    "imagem": {
+      "arquivo": "q06413.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:At_Possa_da_Londra_in_the_Brazilian_Patanal_(105m)_-_the_weird_looking_Southern_Screamer_(Chauna_torquata)_-_(24213807344).jpg",
+      "autor": "Murray Foubister",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06414",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "quero_quero",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ave é esta?",
+    "resposta": "Quero-quero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Southern_lapwing",
+      "https://pt.wikipedia.org/wiki/Quero-quero"
+    ],
+    "imagem": {
+      "arquivo": "q06414.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Southern_lapwing_(Vanellus_chilensis_chilensis)_Chiloe.jpg",
+      "autor": "Charles J. Sharp",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06415",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "coruja_das_neves",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que coruja é esta?",
+    "resposta": "Coruja-das-neves",
+    "distratores": [
+      "Coruja-buraqueira",
+      "Coruja-orelhuda",
+      "Coruja-das-torres"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snowy_owl",
+      "https://pt.wikipedia.org/wiki/Coruja-das-neves"
+    ],
+    "imagem": {
+      "arquivo": "q06415.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_male_Muskegon.jpg",
+      "autor": "Bill Bouton from San Luis Obispo, CA, USA",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06416",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "ave_lira_soberba",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ave australiana é esta?",
+    "resposta": "Ave-lira-soberba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Superb_lyrebird",
+      "https://pt.wikipedia.org/wiki/Ave-lira-soberba"
+    ],
+    "imagem": {
+      "arquivo": "q06416.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Superb_lyrbird_in_scrub.jpg",
+      "autor": "Fir0002",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q06417",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "condor_dos_andes",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cordilheira esta grande ave é encontrada?",
+    "resposta": "Andes",
+    "distratores": [
+      "Alpes",
+      "Himalaia",
+      "Montanhas Rochosas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andean_condor",
+      "https://pt.wikipedia.org/wiki/Condor-dos-andes"
+    ],
+    "imagem": {
+      "arquivo": "q06417.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:204_-_Canyon_de_Colca_-_Condor_des_Andes_-_Juin_2010.JPG",
+      "autor": "Martin St-Amant (S23678)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06418",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "irere",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Esta marreca vive na América do Sul e também do outro lado do Oceano Atlântico. Em que continente?",
+    "resposta": "África",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White-faced_whistling_duck",
+      "https://pt.wikipedia.org/wiki/Irer%C3%AA"
+    ],
+    "imagem": {
+      "arquivo": "q06418.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dendrocygna_viduata_2.jpg",
+      "autor": "Josue Hermoza",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06419",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "garca_branca_grande",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ave de pântano é esta?",
+    "resposta": "Garça-branca-grande",
+    "distratores": [
+      "Garça-branca-pequena",
+      "Garça-vaqueira",
+      "Cegonha-branca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_egret",
+      "https://pt.wikipedia.org/wiki/Gar%C3%A7a-branca-grande"
+    ],
+    "imagem": {
+      "arquivo": "q06419.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Egret_(Ardea_alba)_(25562005404).jpg",
+      "autor": "Bernard DUPONT from FRANCE",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06420",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "atoba_de_pes_azuis",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ave marinha é esta?",
+    "resposta": "Atobá-de-pés-azuis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue-footed_booby",
+      "https://pt.wikipedia.org/wiki/Patola-de-p%C3%A9s-azuis"
+    ],
+    "imagem": {
+      "arquivo": "q06420.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Alcatraz_Patiazul.jpg",
+      "autor": "SantiagoGG",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06421",
+    "tema": "Natureza",
+    "subtema": "Aves, Répteis e Anfíbios",
+    "ancora": "frango_d_agua_azul",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ave de brejo das Américas é esta?",
+    "resposta": "Frango-d'água-azul",
+    "distratores": [
+      "Frango-d'água-comum",
+      "Jaçanã",
+      "Sanã-parda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/American_purple_gallinule",
+      "https://pt.wikipedia.org/wiki/Frango-de-%C3%A1gua-azul"
+    ],
+    "imagem": {
+      "arquivo": "q06421.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Purple_Gallinule_-_Porphyrio_martinica,_Everglades_National_Park,_Homestead,_Florida_(38539237780).jpg",
+      "autor": "Judy Gallagher",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

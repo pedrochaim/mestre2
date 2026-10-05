@@ -1,0 +1,706 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cisne-negro",
+        "descricao": "Cygnus atratus, grande ave aquática de plumagem negra e bico vermelho, nativa da Austrália.",
+        "variantes": [
+          "Cygnus atratus",
+          "Black swan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "quadrado_negro",
+          "nome": "Quadrado Negro",
+          "descricao": "Quadro suprematista de Kazimir Malevich de 1915.",
+          "variantes": [
+            "Black Square"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        },
+        {
+          "id": "black_jack",
+          "nome": "Black Jack",
+          "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença.",
+          "variantes": [
+            "Black Jack (mangá)"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Periquito-australiano",
+        "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+        "variantes": [
+          "Budgerigar",
+          "Periquito-comum",
+          "Melopsittacus undulatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        },
+        {
+          "id": "beringia",
+          "nome": "Beríngia",
+          "descricao": "Região entre a Sibéria e o Alasca que, nas eras glaciais, formava uma ponte de terra por onde humanos chegaram à América.",
+          "variantes": [
+            "Ponte terrestre de Bering"
+          ]
+        },
+        {
+          "id": "periodo_umido_africano",
+          "nome": "Período Úmido Africano",
+          "descricao": "Fase climática em que o Saara ficou coberto de lagos e vegetação, terminada há cerca de cinco mil anos.",
+          "variantes": [
+            "Saara Verde",
+            "African humid period",
+            "Green Sahara"
+          ]
+        },
+        {
+          "id": "periodo_cambriano",
+          "nome": "Período Cambriano",
+          "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal.",
+          "variantes": [
+            "Cambriano",
+            "Cambrian"
+          ]
+        },
+        {
+          "id": "jiboia_esmeralda",
+          "nome": "Jiboia-esmeralda",
+          "descricao": "Jiboia arborícola verde das florestas sul-americanas, Corallus caninus.",
+          "variantes": [
+            "Periquitamboia",
+            "Corallus caninus",
+            "Emerald tree boa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tachã",
+        "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+        "variantes": [
+          "Chajá",
+          "Tachã-cinzenta",
+          "Southern screamer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "chaac",
+          "nome": "Chaac",
+          "descricao": "Deus maia da chuva e dos raios, ligado à agricultura.",
+          "variantes": [
+            "Chac",
+            "Chaak"
+          ]
+        },
+        {
+          "id": "shaka",
+          "nome": "Shaka",
+          "descricao": "Rei zulu do início do século dezenove, que transformou os zulus num poderoso reino militar no sul da África.",
+          "variantes": [
+            "Shaka Zulu",
+            "Chaka"
+          ]
+        },
+        {
+          "id": "baleia_cinzenta",
+          "nome": "Baleia-cinzenta",
+          "descricao": "Baleia de barbatanas (Eschrichtius robustus) do Pacífico Norte, conhecida por longas migrações entre o Ártico e o México.",
+          "variantes": [
+            "Eschrichtius robustus",
+            "Gray whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Quero-quero",
+        "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+        "variantes": [
+          "Southern lapwing",
+          "Tero",
+          "Vanellus chilensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "martinho_lutero",
+          "nome": "Martinho Lutero",
+          "descricao": "Teólogo alemão, figura central da Reforma Protestante.",
+          "variantes": [
+            "Martin Luther",
+            "Lutero"
+          ]
+        },
+        {
+          "id": "nero",
+          "nome": "Nero",
+          "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+          "variantes": [
+            "Nero Cláudio César",
+            "Nero Claudius Caesar"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Coruja-das-neves",
+        "descricao": "Bubo scandiacus, grande coruja de plumagem branca nativa das regiões árticas.",
+        "variantes": [
+          "Snowy owl",
+          "Bubo scandiacus",
+          "Coruja-branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "coruja_buraqueira",
+          "nome": "Coruja-buraqueira",
+          "descricao": "Pequena coruja de pernas longas, ativa de dia e de hábitos terrestres, que vive em campos abertos das Américas.",
+          "variantes": [
+            "Athene cunicularia",
+            "Burrowing owl"
+          ]
+        },
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ave-lira-soberba",
+        "descricao": "Menura novaehollandiae, ave canora australiana famosa pela cauda elaborada e pela imitação de sons.",
+        "variantes": [
+          "Ave-lira",
+          "Superb lyrebird",
+          "Menura novaehollandiae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "emu",
+          "nome": "Emu",
+          "descricao": "Grande ave corredora não voadora da Austrália (Dromaius novaehollandiae).",
+          "variantes": [
+            "Dromaius novaehollandiae"
+          ]
+        },
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "gafanhoto",
+          "nome": "Gafanhoto",
+          "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+          "variantes": [
+            "Caelifera",
+            "Grasshopper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Condor-dos-andes",
+        "descricao": "Vultur gryphus, grande abutre sul-americano de colar branco, uma das maiores aves voadoras do mundo.",
+        "variantes": [
+          "Andean condor",
+          "Vultur gryphus",
+          "Condor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "condorito",
+          "nome": "Condorito",
+          "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949",
+          "variantes": []
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "corindon",
+          "nome": "Coríndon",
+          "descricao": "Mineral de óxido de alumínio, muito duro, cujas variedades coloridas são o rubi e a safira.",
+          "variantes": [
+            "Corindo",
+            "Corundum"
+          ]
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        },
+        {
+          "id": "rio_congo",
+          "nome": "Rio Congo",
+          "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+          "variantes": [
+            "Congo",
+            "Rio Zaire",
+            "Congo River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Irerê",
+        "descricao": "Dendrocygna viduata, marreca de face branca que vive na África subsaariana e na América do Sul.",
+        "variantes": [
+          "White-faced whistling duck",
+          "Marreca-piadeira",
+          "Dendrocygna viduata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "terere",
+          "nome": "Tereré",
+          "descricao": "Infusão de erva-mate preparada com água gelada, tradicional no Paraguai e no Centro-Oeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "turma_do_perere",
+          "nome": "Turma do Pererê",
+          "descricao": "Revista em quadrinhos de Ziraldo protagonizada por um saci, publicada nos anos 1960",
+          "variantes": [
+            "Pererê"
+          ]
+        },
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        },
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "irmaos_lumiere",
+          "nome": "Irmãos Lumière",
+          "descricao": "Auguste e Louis Lumière, inventores franceses do cinematógrafo e pioneiros das exibições públicas de cinema em 1895.",
+          "variantes": [
+            "Auguste e Louis Lumière",
+            "Lumière"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Garça-branca-grande",
+        "descricao": "Ardea alba, grande garça branca de bico amarelo, amplamente distribuída pelo mundo.",
+        "variantes": [
+          "Great egret",
+          "Ardea alba",
+          "Garça-grande"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Atobá-de-pés-azuis",
+        "descricao": "Sula nebouxii, ave marinha do Pacífico oriental de pés azul-claros, comum nas Galápagos.",
+        "variantes": [
+          "Blue-footed booby",
+          "Patola-de-pés-azuis",
+          "Sula nebouxii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvo_de_aneis_azuis",
+          "nome": "Polvo-de-anéis-azuis",
+          "descricao": "Pequeno polvo do gênero Hapalochlaena, do Indo-Pacífico, com anéis azuis brilhantes e veneno mortal.",
+          "variantes": [
+            "Hapalochlaena",
+            "Blue-ringed octopus"
+          ]
+        },
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        },
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "harpa_de_pedais",
+          "nome": "Harpa de pedais",
+          "descricao": "Harpa de concerto usada nas orquestras, cujos pedais alteram a afinação das cordas.",
+          "variantes": [
+            "Harpa de concerto",
+            "Pedal harp"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Frango-d'água-azul",
+        "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+        "variantes": [
+          "Purple gallinule",
+          "Porphyrio martinica",
+          "Frango-de-água-azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "triplice_alianca_2",
+          "nome": "Tríplice Aliança",
+          "descricao": "Aliança militar formada em 1882 entre Alemanha, Áustria-Hungria e Itália.",
+          "variantes": [
+            "Triple Alliance"
+          ]
+        },
+        {
+          "id": "fernao_de_magalhaes",
+          "nome": "Fernão de Magalhães",
+          "descricao": "Navegador português que liderou a expedição que realizou a primeira circum-navegação da Terra.",
+          "variantes": [
+            "Fernando de Magalhães",
+            "Ferdinand Magellan"
+          ]
+        },
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cisne-negro (Cygnus atratus) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Periquito-australiano não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tachã (Chauna torquata) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quero-quero não aparece nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Coruja-das-neves é diferente da coruja-buraqueira e das demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ave-lira-soberba não está entre as candidatas; o emu é outra espécie."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Condor-dos-andes é a ave, distinta do personagem Condorito e da cordilheira."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Irerê é uma ave, sem relação com as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Garça-branca-grande não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Atobá-de-pés-azuis não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Frango-d'água-azul é uma ave, distinta de todas as candidatas."
+    }
+  ]
+}
