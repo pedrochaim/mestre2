@@ -3950,7 +3950,8 @@
     "nome": "Pequi",
     "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
     "variantes": [
-      "Caryocar brasiliense"
+      "Caryocar brasiliense",
+      "Piqui"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Pequi",
@@ -3968,7 +3969,8 @@
     "nome": "Baunilha",
     "descricao": "Especiaria aromática obtida das vagens curadas de plantas do gênero Vanilla",
     "variantes": [
-      "Vanilla"
+      "Vanilla",
+      "Vanilla planifolia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Vanilla",
@@ -28343,7 +28345,8 @@
     "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
     "variantes": [
       "Tomate-cereja",
-      "Tomato"
+      "Tomato",
+      "Solanum lycopersicum"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tomato",
@@ -40711,7 +40714,8 @@
     "variantes": [
       "Coffea",
       "pé de café",
-      "Coffea arabica"
+      "Coffea arabica",
+      "Café"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Coffea",
@@ -43859,7 +43863,8 @@
     "descricao": "Organismo composto formado pela associação simbiótica entre um fungo e um parceiro fotossintetizante.",
     "variantes": [
       "Líquenes",
-      "Lichen"
+      "Lichen",
+      "Liquens"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Líquen",
@@ -88052,6 +88057,412 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/St_James%27_Park",
       "https://pt.wikipedia.org/wiki/St._James%27_Park"
+    ]
+  },
+  {
+    "id": "eucalipto",
+    "nome": "Eucalipto",
+    "descricao": "Árvore do gênero Eucalyptus, muito plantada no Brasil para produção de celulose e madeira",
+    "variantes": [
+      "Eucalyptus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eucalyptus",
+      "https://pt.wikipedia.org/wiki/Eucalipto"
+    ]
+  },
+  {
+    "id": "cana_de_acucar",
+    "nome": "Cana-de-açúcar",
+    "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+    "variantes": [
+      "Saccharum officinarum",
+      "Cana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sugarcane",
+      "https://pt.wikipedia.org/wiki/Cana-de-açúcar"
+    ]
+  },
+  {
+    "id": "cerejeira_japonesa",
+    "nome": "Cerejeira-japonesa",
+    "descricao": "Árvores ornamentais do gênero Prunus, as sakuras, famosas pela floração na primavera",
+    "variantes": [
+      "Sakura",
+      "Cerejeira ornamental"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cherry_blossom",
+      "https://en.wikipedia.org/wiki/National_Cherry_Blossom_Festival"
+    ]
+  },
+  {
+    "id": "holambra",
+    "nome": "Holambra",
+    "descricao": "Município paulista fundado por imigrantes holandeses, conhecido pela produção de flores",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Holambra",
+      "https://en.wikipedia.org/wiki/Holambra"
+    ]
+  },
+  {
+    "id": "cajueiro_de_pirangi",
+    "nome": "Cajueiro de Pirangi",
+    "descricao": "Cajueiro gigante em Parnamirim, cuja copa se espalha por milhares de metros quadrados",
+    "variantes": [
+      "Maior cajueiro do mundo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cajueiro_de_Pirangi"
+    ]
+  },
+  {
+    "id": "laranja_de_umbigo",
+    "nome": "Laranja-de-umbigo",
+    "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+    "variantes": [
+      "Laranja-baía",
+      "Laranja-da-baía",
+      "Washington navel",
+      "Navel orange"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Navel_orange"
+    ]
+  },
+  {
+    "id": "penicillium_chrysogenum",
+    "nome": "Penicillium chrysogenum",
+    "descricao": "Espécie de fungo de bolor usada na produção industrial da penicilina",
+    "variantes": [
+      "Penicillium notatum",
+      "Penicillium rubens"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Penicillium_chrysogenum"
+    ]
+  },
+  {
+    "id": "trigo",
+    "nome": "Trigo",
+    "descricao": "Cereal do gênero Triticum, domesticado no Crescente Fértil e base do pão",
+    "variantes": [
+      "Triticum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wheat",
+      "https://pt.wikipedia.org/wiki/Trigo"
+    ]
+  },
+  {
+    "id": "angiospermas",
+    "nome": "Angiospermas",
+    "descricao": "Grupo das plantas com flores e frutos, o mais diverso entre as plantas terrestres",
+    "variantes": [
+      "Plantas com flores",
+      "Magnoliophyta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flowering_plant"
+    ]
+  },
+  {
+    "id": "jardim_botanico_de_padua",
+    "nome": "Jardim Botânico de Pádua",
+    "descricao": "Jardim botânico universitário da cidade italiana de Pádua, Patrimônio Mundial da Unesco",
+    "variantes": [
+      "Orto Botanico di Padova"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Orto_botanico_di_Padova"
+    ]
+  },
+  {
+    "id": "flor_cadaver",
+    "nome": "Flor-cadáver",
+    "descricao": "Planta Amorphophallus titanum, de Sumatra, com inflorescência gigante e cheiro de carne podre",
+    "variantes": [
+      "Amorphophallus titanum",
+      "Jarro-titã"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amorphophallus_titanum"
+    ]
+  },
+  {
+    "id": "tamareira_de_massada",
+    "nome": "Tamareira de Massada",
+    "descricao": "Tamareira-da-judeia germinada em 2005 a partir de uma semente antiga achada nas ruínas de Massada, em Israel",
+    "variantes": [
+      "Matusalém (tamareira)",
+      "Judean date palm"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Judean_date_palm"
+    ]
+  },
+  {
+    "id": "relogio_de_flores",
+    "nome": "Relógio de flores",
+    "descricao": "Jardim proposto por Lineu em que cada espécie de flor se abriria ou fecharia numa hora diferente do dia",
+    "variantes": [
+      "Horologium florae",
+      "Relógio floral de Lineu"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Linnaeus%27s_flower_clock"
+    ]
+  },
+  {
+    "id": "flora_brasiliensis",
+    "nome": "Flora Brasiliensis",
+    "descricao": "Obra monumental de descrição das plantas do Brasil, publicada entre 1840 e 1906",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flora_Brasiliensis"
+    ]
+  },
+  {
+    "id": "sitio_roberto_burle_marx",
+    "nome": "Sítio Roberto Burle Marx",
+    "descricao": "Antigo sítio do paisagista Burle Marx em Guaratiba, Rio de Janeiro, com grande coleção de plantas, Patrimônio Mundial da Unesco",
+    "variantes": [
+      "Sítio Burle Marx"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sítio_Roberto_Burle_Marx",
+      "https://pt.wikipedia.org/wiki/Sítio_Roberto_Burle_Marx"
+    ]
+  },
+  {
+    "id": "levedura_de_cerveja",
+    "nome": "Levedura de cerveja",
+    "descricao": "Fungo unicelular Saccharomyces cerevisiae, usado na fermentação do pão, do vinho e da cerveja",
+    "variantes": [
+      "Saccharomyces cerevisiae",
+      "Fermento biológico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+    ]
+  },
+  {
+    "id": "revolucao_verde",
+    "nome": "Revolução Verde",
+    "descricao": "Conjunto de inovações agrícolas de meados do século vinte, com sementes de alto rendimento, que multiplicou a produção de grãos",
+    "variantes": [
+      "Green Revolution"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Green_Revolution"
+    ]
+  },
+  {
+    "id": "flor_de_maio",
+    "nome": "Flor-de-maio",
+    "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+    "variantes": [
+      "Schlumbergera",
+      "Cacto-de-natal",
+      "Christmas cactus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Schlumbergera",
+      "https://pt.wikipedia.org/wiki/Schlumbergera"
+    ]
+  },
+  {
+    "id": "agave_americana",
+    "nome": "Agave-americana",
+    "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+    "variantes": [
+      "Planta-do-século",
+      "Piteira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Agave_americana"
+    ]
+  },
+  {
+    "id": "onze_horas",
+    "nome": "Onze-horas",
+    "descricao": "Planta suculenta ornamental Portulaca grandiflora, de flores coloridas",
+    "variantes": [
+      "Portulaca grandiflora",
+      "Beldroega-grande"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Portulaca_grandiflora",
+      "https://en.wikipedia.org/wiki/Portulaca_grandiflora"
+    ]
+  },
+  {
+    "id": "amanita_muscaria",
+    "nome": "Amanita muscaria",
+    "descricao": "Cogumelo venenoso de chapéu vermelho com pintas brancas, típico das ilustrações de contos de fadas",
+    "variantes": [
+      "Agário-das-moscas",
+      "Mata-moscas",
+      "Fly agaric"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amanita_muscaria"
+    ]
+  },
+  {
+    "id": "pitanga",
+    "nome": "Pitanga",
+    "descricao": "Fruta da pitangueira, Eugenia uniflora, árvore nativa do Brasil",
+    "variantes": [
+      "Eugenia uniflora"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pitanga"
+    ]
+  },
+  {
+    "id": "mandacaru",
+    "nome": "Mandacaru",
+    "descricao": "Cacto Cereus jamacaru, típico da Caatinga e símbolo do sertão nordestino",
+    "variantes": [
+      "Cereus jamacaru"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Mandacaru"
+    ]
+  },
+  {
+    "id": "figueira_dos_pagodes",
+    "nome": "Figueira-dos-pagodes",
+    "descricao": "Árvore Ficus religiosa, nativa do subcontinente indiano, sagrada no budismo e no hinduísmo",
+    "variantes": [
+      "Ficus religiosa",
+      "Árvore Bodhi",
+      "Figueira-sagrada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ficus_religiosa"
+    ]
+  },
+  {
+    "id": "cravo",
+    "nome": "Cravo",
+    "descricao": "Flor ornamental Dianthus caryophyllus, diferente do tempero cravo-da-índia",
+    "variantes": [
+      "Dianthus caryophyllus",
+      "Craveiro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dianthus_caryophyllus"
+    ]
+  },
+  {
+    "id": "fruta_pao",
+    "nome": "Fruta-pão",
+    "descricao": "Fruto da árvore Artocarpus altilis, originária do Pacífico, rico em amido",
+    "variantes": [
+      "Artocarpus altilis",
+      "Breadfruit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Breadfruit"
+    ]
+  },
+  {
+    "id": "brassica_oleracea",
+    "nome": "Brassica oleracea",
+    "descricao": "Espécie vegetal da família da mostarda que deu origem a repolho, couve, brócolis, couve-flor e outras hortaliças",
+    "variantes": [
+      "Couve",
+      "Repolho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brassica_oleracea"
+    ]
+  },
+  {
+    "id": "ervilha",
+    "nome": "Ervilha",
+    "descricao": "Planta leguminosa Pisum sativum, de sementes redondas comestíveis",
+    "variantes": [
+      "Pisum sativum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pea"
+    ]
+  },
+  {
+    "id": "cinchona",
+    "nome": "Cinchona",
+    "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+    "variantes": [
+      "Quina",
+      "Chinchona"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cinchona"
+    ]
+  },
+  {
+    "id": "castanheira_do_para",
+    "nome": "Castanheira-do-pará",
+    "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+    "variantes": [
+      "Bertholletia excelsa",
+      "Castanha-do-brasil",
+      "Castanheira-do-brasil"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brazil_nut"
+    ]
+  },
+  {
+    "id": "arvore_do_tenere",
+    "nome": "Árvore do Ténéré",
+    "descricao": "Acácia solitária no deserto do Ténéré, no Níger, considerada a árvore mais isolada do mundo até 1973",
+    "variantes": [
+      "Arbre du Ténéré",
+      "Tree of Ténéré"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tree_of_Ténéré"
+    ]
+  },
+  {
+    "id": "gros_michel",
+    "nome": "Gros Michel",
+    "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+    "variantes": [
+      "Banana-maçã-grande",
+      "Big Mike"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gros_Michel"
+    ]
+  },
+  {
+    "id": "hortensia",
+    "nome": "Hortênsia",
+    "descricao": "Arbusto ornamental Hydrangea macrophylla, de grandes buquês de flores azuis, rosas ou brancas",
+    "variantes": [
+      "Hydrangea macrophylla",
+      "Hidrângea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hydrangea_macrophylla"
+    ]
+  },
+  {
+    "id": "carnauba",
+    "nome": "Carnaúba",
+    "descricao": "Palmeira Copernicia prunifera, nativa do Nordeste brasileiro",
+    "variantes": [
+      "Copernicia prunifera",
+      "Carnaubeira"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Carnaúba",
+      "https://en.wikipedia.org/wiki/Copernicia_prunifera"
     ]
   }
 ]

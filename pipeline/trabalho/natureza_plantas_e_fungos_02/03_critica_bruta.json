@@ -1,0 +1,456 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes, enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'América' é vaga como continente, já que a origem é América do Sul ou Central. O fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pomo d'oro (maçã de ouro) é sustentado pelo artigo em português e é uma boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os astecas não cultivaram primeiro: invadiram os totonacas e adotaram a baunilha depois. Os totonacas estavam entre os primeiros a domesticá-la.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A baunilha, vagem de uma orquídea, foi domesticada pelos totonacas, um dos primeiros povos a cultivá-la, antes de os astecas os dominarem. Em que país atual eles viviam?",
+        "resposta": "México",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Vanilla"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caulifloria confirmada nas fontes; pergunta curiosa e precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem australiana confirmada, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Há dois centros de domesticação (Nova Guiné e Taiwan/sul da China, ambos ilhas); é preciso especificar a espécie.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Segundo as melhores evidências, a espécie de cana-de-açúcar Saccharum officinarum, base do açúcar colonial, foi domesticada originalmente em que ilha?",
+        "resposta": "Nova Guiné",
+        "distratores": [
+          "Madagascar",
+          "Java",
+          "Cuba"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sugarcane"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato preciso e confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Uma única árvore' é impreciso: a fonte diz que são dois cajueiros, e o maior cobre 95% da área.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O Cajueiro de Pirangi, cuja copa cobre cerca de oito mil metros quadrados e parece um bosque inteiro, fica em que estado brasileiro?",
+        "resposta": "Rio Grande do Norte",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cajueiro_de_Pirangi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na Bahia confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A linhagem de Peoria em 1943, encontrada num melão cantalupo, é fato bem documentado, embora os trechos não o mostrem.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A época de floração varia entre espécies (outono, inverno, início da primavera) e a fonte principal está em desambiguação; a resposta única é frágil.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte tem 'carece de fontes', diz que a Festa Anual das Árvores substituiu o Dia da Árvore, e 21 de setembro não é exatamente a véspera da primavera.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz cerca de 10 mil anos, não 11 mil; resposta e fonte precisam coincidir.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O trigo, um dos primeiros cereais domesticados, começou a ser cultivado no Crescente Fértil, no Oriente Médio, há aproximadamente quantos anos?",
+        "resposta": "Cerca de dez mil anos",
+        "distratores": [
+          "Cerca de três mil anos",
+          "Cerca de cinquenta mil anos",
+          "Cerca de duzentos mil anos"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Trigo"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cretáceo confirmado; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundado em 1545, século dezesseis, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A floração dura cerca de 24 a 48 horas, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A semente de Massada tinha cerca de dois mil anos e germinou em 2005, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lineu e o relógio de flores confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Martius iniciou a obra, confirmado; os distratores também são alemães.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em inglês não existe; o fato é sustentado pela página em português.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Segundo a tradição, que militar trouxe da Guiana Francesa, em 1727, as primeiras mudas de café para o Brasil?",
+        "resposta": "Francisco de Melo Palheta",
+        "distratores": [
+          "Fernão Dias Paes",
+          "Antônio Raposo Tavares",
+          "Bartolomeu Bueno da Silva"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Francisco_de_Melo_Palheta"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sítio, 3.500 espécies e Unesco confirmados; o calçadão é fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pasteur e a fermentação por organismos vivos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borlaug, pai da Revolução Verde e Nobel da Paz de 1970, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "No Hemisfério Norte há também o nome Thanksgiving cactus, então 'a festa' não é única; é preciso pedir o nome mais tradicional.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O cacto que no Brasil chamamos de flor-de-maio floresce no fim do ano no Hemisfério Norte. Em inglês, seu nome mais tradicional é cacto de que festa?",
+        "resposta": "Natal",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Schlumbergera"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O apelido vem da floração rara, depois de muitos anos; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abre as flores perto das onze horas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o nome 'pode vir' do uso contra moscas; o enunciado afirma sem ressalva.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome popular do cogumelo vermelho de pintas brancas, em várias línguas europeias, provavelmente vem do uso caseiro dele como veneno contra qual inseto?",
+        "resposta": "Mosca",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Amanita_muscaria"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O significado tupi é 'fruta avermelhada'; a resposta de uma palavra destoa dos distratores, que também são fracos.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome da pitanga, fruta nativa do Brasil, vem da língua tupi. O que ele significa?",
+        "resposta": "Fruta avermelhada",
+        "distratores": [
+          "Fruta doce",
+          "Fruta pequena",
+          "Fruta perfumada"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pitanga"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda de Mani confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte do Xote das Meninas não existe; a canção é de Luiz Gonzaga e Zé Dantas, e a letra abre com o mandacaru.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que cacto do sertão abre o Xote das Meninas, de Luiz Gonzaga e Zé Dantas, florindo na seca como sinal de que a chuva vai chegar?",
+        "resposta": "Mandacaru",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mandacaru",
+          "https://pt.wikipedia.org/wiki/Z%C3%A9_Dantas"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iluminação sob a figueira sagrada (Bodhi) confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cravos nos canos das armas confirmados na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Missão do Bounty para levar fruta-pão confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Todas são cultivares de Brassica oleracea; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Descobriu' é impreciso: Mendel formulou as leis a partir dos experimentos.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "No século dezenove, que monge cruzou milhares de pés de ervilha no jardim do mosteiro e formulou as leis da hereditariedade?",
+        "resposta": "Gregor Mendel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gregor_Mendel",
+          "https://pt.wikipedia.org/wiki/Gregor_Mendel"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quinino, água tônica e gim tônica: fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Papel da cutia confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Derrubada por um caminhão em 1973, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mal-do-panamá, fungo Fusarium, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cor depende do pH (acidez) do solo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda dos olhos do menino confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espinhos no endocarpo confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fungo com alga ou cianobactéria, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cera de carnaúba confirmada, com usos variados.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bromelina do abacaxi e amaciamento de carnes confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flor branca no primeiro dia e rosa no segundo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Intervalo de 120 anos confirmado.",
+      "reescrita": null
+    }
+  ]
+}
