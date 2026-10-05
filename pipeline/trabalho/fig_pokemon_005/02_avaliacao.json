@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de quadrúpede com orelhas grandes e pelagem espetada, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Jolteon",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Jolteon",
+        "descricao": "Pokémon do tipo Elétrico, evolução do Eevee, número 135 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com crista na cabeça, braços para fora e pernas de ave, característica de Combusken.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Combusken",
+      "distratores": [
+        "Torchic",
+        "Blaziken",
+        "Monferno"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Combusken",
+        "descricao": "Pokémon do tipo Fogo/Lutador da terceira geração, evolução do Torchic, número 256 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Casco oval com antenas e espinhos é distintivo de Wimpod.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Golisopod",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wimpod",
+        "descricao": "Pokémon do tipo Inseto/Água da sétima geração, que evolui para Golisopod, número 767 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha sem forma característica, não reconhecível como Gastly.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "",
+      "resposta": "",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Gastly",
+        "descricao": "Pokémon fantasma gasoso, número 92 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cabeça com nadadeira alta, corpo redondo e cauda larga: silhueta clara de Mudkip.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mudkip",
+      "distratores": [
+        "Marshtomp",
+        "Wooper",
+        "Totodile"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Mudkip",
+        "descricao": "Pokémon inicial do tipo Água da terceira geração, número 258 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Corpo em forma de gota com braços erguidos e cauda, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wobbuffet",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wobbuffet",
+        "descricao": "Pokémon do tipo Psíquico da segunda geração, número 202 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de ave rechonchuda com crista e cauda curta, reconhecível como Pidgey.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pidgey",
+      "distratores": [
+        "Pidgeotto",
+        "Spearow",
+        "Starly"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pidgey",
+        "descricao": "Pokémon pássaro dos tipos Normal/Voador da primeira geração, número 16 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Orelhas redondas, corpo esférico e cauda com bola: silhueta de Marill.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Azumarill",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Marill",
+        "descricao": "Pokémon rato aquático do tipo Água/Fada da segunda geração, número 183 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de elefante com tromba curva, característica de Cufant; múltipla escolha com parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Cufant",
+      "distratores": [
+        "Phanpy",
+        "Donphan",
+        "Copperajah"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cufant",
+        "descricao": "Pokémon elefante de cobre do tipo Aço da oitava geração, número 878 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clássica com focinho pontudo e chamas no dorso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Quilava",
+      "distratores": [
+        "Charmeleon",
+        "Monferno",
+        "Pignite"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cyndaquil",
+        "descricao": "Pokémon inicial do tipo Fogo da segunda geração, número 155 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta ereta com espetos na cabeça e na cauda, reconhecível como Quilava.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Quilava",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Quilava",
+        "descricao": "Pokémon do tipo Fogo da segunda geração, evolução do Cyndaquil, número 156 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A silhueta é uma pedra poligonal genérica, confundível com Roggenrola, Geodude e outros pokémon de rocha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "",
+      "resposta": "",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Rolycoly",
+        "descricao": "Pokémon carvão do tipo Pedra da oitava geração, número 837 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}
