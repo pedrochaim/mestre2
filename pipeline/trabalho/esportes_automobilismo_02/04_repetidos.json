@@ -1,0 +1,220 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1970, na sua quarta corrida de Fórmula 1, Emerson Fittipaldi venceu e garantiu o título póstumo de Jochen Rindt. Em que país foi essa vitória?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q01574",
+          "pergunta": "Ao vencer a Indy 500 de 1993, Emerson Fittipaldi irritou o público ao trocar o tradicional leite por suco de laranja. Com que objetivo?",
+          "resposta": "Promover a indústria da laranja"
+        },
+        {
+          "id": "q01607",
+          "pergunta": "Qual destes pilotos brasileiros foi o primeiro a ser campeão mundial de Fórmula 1?",
+          "resposta": "Emerson Fittipaldi"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1981, Nelson Piquet garantiu seu primeiro título mundial numa pista montada no estacionamento de um hotel-cassino. Em que cidade americana?",
+        "resposta": "Las Vegas"
+      },
+      "existentes": [
+        {
+          "id": "q01573",
+          "pergunta": "Por que o jovem Nelson Souto Maior começou a correr usando o sobrenome da mãe, grafado Piket?",
+          "resposta": "Para esconder do pai que corria"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Michael Schumacher conquistou seu primeiro título, em 1994, depois de uma batida polêmica com Damon Hill na última corrida. Em que país foi essa prova?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q01580",
+          "pergunta": "Michael Schumacher estreou na Fórmula 1 em 1991, pela Jordan, porque o piloto titular, Bertrand Gachot, estava em que situação?",
+          "resposta": "Preso por agredir um taxista"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O Autódromo de Monza, perto de Milão, chamado de Templo da Velocidade, foi inaugurado em que década?",
+        "resposta": "Anos vinte (1922)"
+      },
+      "existentes": [
+        {
+          "id": "q00551",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Monza"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O italiano Valentino Rossi, nove vezes campeão mundial de motovelocidade, ficou conhecido no mundo inteiro por qual apelido?",
+        "resposta": "O Doutor"
+      },
+      "existentes": [
+        {
+          "id": "q02575",
+          "pergunta": "Quem é este piloto de motovelocidade?",
+          "resposta": "Valentino Rossi"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que número Valentino Rossi usou na moto durante toda a carreira, e que acabou virando a marca da sua empresa?",
+        "resposta": "46"
+      },
+      "existentes": [
+        {
+          "id": "q02575",
+          "pergunta": "Quem é este piloto de motovelocidade?",
+          "resposta": "Valentino Rossi"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A primeira curva do circuito de rua de Mônaco tem o nome de uma pequena capela vizinha. A capela é dedicada a quem?",
+        "resposta": "Santa Devota, padroeira de Mônaco"
+      },
+      "existentes": [
+        {
+          "id": "q00550",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Mônaco"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Nos anos cinquenta, o argentino Juan Manuel Fangio conquistou seus cinco títulos mundiais de Fórmula 1 defendendo quantas equipes diferentes?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q01575",
+          "pergunta": "Em 1958, o que impediu Juan Manuel Fangio de disputar o Grande Prêmio de Cuba, em Havana?",
+          "resposta": "Foi sequestrado por rebeldes cubanos"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em oito temporadas na Fórmula 1, entre 1975 e 1982, quantas corridas a equipe brasileira dos irmãos Fittipaldi venceu?",
+        "resposta": "Nenhuma"
+      },
+      "existentes": [
+        {
+          "id": "q01564",
+          "pergunta": "A equipe brasileira de Fórmula 1 dos irmãos Fittipaldi correu anos com o nome de qual patrocinadora, uma cooperativa de usinas paulistas?",
+          "resposta": "Copersucar"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A edição de 2008 do Rali Dakar foi cancelada na véspera da largada, e a prova acabou mudando de continente. Qual foi o motivo do cancelamento?",
+        "resposta": "Ameaças terroristas na Mauritânia"
+      },
+      "existentes": [
+        {
+          "id": "q01596",
+          "pergunta": "O Rali Dakar tem esse nome porque, nas primeiras edições, terminava na capital de qual país africano?",
+          "resposta": "Senegal"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1955, nas 24 Horas de Le Mans, o carro de Pierre Levegh voou sobre o público. De que montadora alemã era esse carro?",
+        "resposta": "Mercedes-Benz"
+      },
+      "existentes": [
+        {
+          "id": "q01576",
+          "pergunta": "Depois da tragédia de Le Mans de 1955, que matou mais de oitenta espectadores, que país europeu manteve a proibição de corridas em circuitos por mais de sessenta anos?",
+          "resposta": "Suíça"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "País da vitória de 1970 é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade do título de 1981 difere da origem do sobrenome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País da prova de 1994 difere da estreia em 1991."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Década de inauguração não é identificar o circuito pela imagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato que identificar o piloto pela imagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número da moto é fato distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Capela da curva é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de equipes difere do sequestro em Cuba."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Vitórias da equipe diferem do patrocinador."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cancelamento em 2008 difere da origem do nome."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Montadora do carro difere da proibição na Suíça."
+    }
+  ]
+}
