@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A gravura traz texto visível: a legenda 'RHINOCERVS', o ano 1515, o monograma de Dürer e o texto alemão. Isso entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A assinatura 'P. Americo 1893' está legível no canto e entrega autor e ano."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, e a obra é reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor flamengo do século dezesseis fez este quadro?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Parábola dos Cegos",
+        "descricao": "Pintura de Pieter Bruegel, o Velho, de 1568, que mostra seis cegos caindo em sequência, guardada no Museu de Capodimonte, em Nápoles.",
+        "variantes": [
+          "O Cego Guiando o Cego",
+          "Os Cegos",
+          "The Blind Leading the Blind"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra reconhecível. A assinatura 'David' no canto é minúscula e ilegível num celular, então não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo artístico marca esta pintura francesa do início do século dezenove?",
+      "resposta": "Neoclassicismo",
+      "distratores": [
+        "Romantismo",
+        "Barroco",
+        "Rococó"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Coroação de Napoleão",
+        "descricao": "Pintura de Jacques-Louis David, de 1807, que retrata a coroação de Napoleão em Notre-Dame de Paris, guardada no Louvre.",
+        "variantes": [
+          "Le Sacre de Napoléon",
+          "The Coronation of Napoleon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Quadro muito reconhecível. A assinatura 'Vincent' é pequena e discreta, e a pergunta é sobre o museu, não sobre o autor.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu fica este quadro de 1889?",
+      "resposta": "Museu J. Paul Getty (Los Angeles)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Íris (Van Gogh)",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de 1889, feita no asilo de Saint-Rémy-de-Provence, com íris azuis num jardim, guardada no Getty, em Los Angeles.",
+        "variantes": [
+          "Os Lírios",
+          "Irises",
+          "Lírios"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O ano 1502 e o monograma de Dürer estão visíveis na aquarela. A pergunta sugerida, sobre o ano, seria entregue pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O título da obra está escrito no canto superior esquerdo ('D'où venons nous / Que sommes nous / Où allons nous'), o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, e a obra é reconhecível pela composição.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano da Renascença fez este quadro?",
+      "resposta": "Leonardo da Vinci",
+      "distratores": [
+        "Sandro Botticelli",
+        "Rafael Sanzio",
+        "Fra Angelico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anunciação (Leonardo)",
+        "descricao": "Pintura de Leonardo da Vinci, de cerca de 1472 a 1476, que mostra o anjo Gabriel e a Virgem Maria, guardada na Galleria degli Uffizi, em Florença.",
+        "variantes": [
+          "A Anunciação",
+          "The Annunciation"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A inscrição 'À MARAT, DAVID' na caixa, mais o bilhete, entrega o assunto e o autor."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, e a obra é muito reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi pintado este quadro britânico?",
+      "resposta": "Década de 1890 (1895)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Flaming June",
+        "descricao": "Pintura a óleo de Frederic Leighton, de 1895, que mostra uma mulher dormindo com um vestido laranja, guardada no Museu de Arte de Ponce, em Porto Rico.",
+        "variantes": [
+          "Junho Flamejante",
+          "Flaming June (Leighton)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara. O texto do mapa ao fundo é minúsculo e não entrega nada. A obra é reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que quadro holandês do século dezessete, com um pintor de costas diante do cavalete, é este?",
+      "resposta": "A Arte da Pintura",
+      "distratores": [
+        "A Leiteira",
+        "A Lição de Música",
+        "A Carta de Amor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Arte da Pintura (Vermeer)",
+        "descricao": "Pintura a óleo de Johannes Vermeer, do século dezessete, que mostra um pintor de costas diante de uma modelo, guardada no Kunsthistorisches Museum, em Viena.",
+        "variantes": [
+          "Alegoria da Pintura",
+          "O Pintor no Ateliê",
+          "The Art of Painting",
+          "Allegory of Painting"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto nem assinatura, e a obra é muito reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que movimento artístico se associa este quadro noturno de 1888?",
+      "resposta": "Pós-Impressionismo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Terraço do Café à Noite",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de 1888, que mostra um terraço de café iluminado numa praça de Arles, na França.",
+        "variantes": [
+          "Café Terrace at Night",
+          "O Terraço do Café na Place du Forum",
+          "Terraço de Café à Noite"
+        ]
+      }
+    }
+  ]
+}

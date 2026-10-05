@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Bruegel, o Velho, artista flamengo de 1568. 'Flamengo' e 'século dezesseis' ajudam sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a composição incorpora as regras do neoclassicismo, e David é o expoente do estilo. A época e o país não entregam a resposta. Os distratores são estilos plausíveis e nenhum descreve a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O nome 'Íris (Van Gogh)' e a descrição (íris num jardim, no Getty) apontam para obras diferentes. Van Gogh pintou várias obras de íris em 1889 e elas estão em museus distintos, como o Getty, o Van Gogh Museum e o Met. Sem o nome do pintor, 'este quadro de 1889' deixa a resposta ambígua, e o conserto é incerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos atribuem a Anunciação a Leonardo, e a atribuição é amplamente aceita. O enunciado só dá país e época. Os distratores são pintores renascentistas italianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma 1895 e Leighton, pintor britânico, então a década de 1890 é correta. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintor de costas diante do cavalete' descreve o conteúdo da imagem e remete ao título 'A Arte da Pintura', então a figura vira enfeite. A pista também repete a raiz da resposta ('pintor'). A reescrita mantém só o país e a época.",
+      "reescrita": {
+        "pergunta": "Que obra holandesa do século dezessete é esta?",
+        "resposta": "A Arte da Pintura",
+        "distratores": [
+          "A Leiteira",
+          "A Lição de Música",
+          "A Carta de Amor"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não citam o movimento, mas é amplamente documentado que Van Gogh e esta obra pertencem ao Pós-Impressionismo. O enunciado só dá a época e o caráter noturno, que não entregam a resposta.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "A Parábola dos Cegos",
+        "descricao": "Pintura de Pieter Bruegel, o Velho, de 1568, que mostra seis cegos caindo em sequência, guardada no Museu de Capodimonte, em Nápoles.",
+        "variantes": [
+          "O Cego Guiando o Cego",
+          "Os Cegos",
+          "The Blind Leading the Blind"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irmaos_graco",
+          "nome": "Irmãos Graco",
+          "descricao": "Tibério e Caio Graco, tribunos da plebe romana mortos no século dois antes de Cristo por defenderem reformas.",
+          "variantes": [
+            "Os Gracos",
+            "Gracchi"
+          ]
+        },
+        {
+          "id": "os_candangos",
+          "nome": "Os Candangos",
+          "descricao": "Escultura de bronze de Bruno Giorgi, oficialmente chamada Os Guerreiros, na Praça dos Três Poderes, em Brasília.",
+          "variantes": [
+            "Os Guerreiros"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        },
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "A Coroação de Napoleão",
+        "descricao": "Pintura de Jacques-Louis David, de 1807, que retrata a coroação de Napoleão em Notre-Dame de Paris, guardada no Louvre.",
+        "variantes": [
+          "Le Sacre de Napoléon",
+          "The Coronation of Napoleon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        },
+        {
+          "id": "a_carroca_de_feno",
+          "nome": "A Carroça de Feno",
+          "descricao": "Quadro de John Constable de 1821.",
+          "variantes": []
+        },
+        {
+          "id": "la_casa_de_papel",
+          "nome": "La Casa de Papel",
+          "descricao": "Série espanhola sobre um bando que, liderado pelo Professor, assalta a Casa da Moeda da Espanha.",
+          "variantes": [
+            "Money Heist",
+            "A Casa de Papel"
+          ]
+        },
+        {
+          "id": "batalha_de_alesia",
+          "nome": "Batalha de Alésia",
+          "descricao": "Cerco de 52 antes de Cristo em que Júlio César derrotou os gauleses de Vercingetórix.",
+          "variantes": [
+            "Cerco de Alésia",
+            "Battle of Alesia"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Anunciação (Leonardo)",
+        "descricao": "Pintura de Leonardo da Vinci, de cerca de 1472 a 1476, que mostra o anjo Gabriel e a Virgem Maria, guardada na Galleria degli Uffizi, em Florença.",
+        "variantes": [
+          "A Anunciação",
+          "The Annunciation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toei_animation",
+          "nome": "Toei Animation",
+          "descricao": "Estúdio japonês de animação fundado em 1956, produtor dos animes de Dragon Ball, Sailor Moon e Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Toei Doga",
+            "東映アニメーション"
+          ]
+        },
+        {
+          "id": "nunchaku",
+          "nome": "Nunchaku",
+          "descricao": "Arma de artes marciais formada por dois bastões unidos por corda ou corrente.",
+          "variantes": [
+            "Nunchuck",
+            "Nunchaco"
+          ]
+        },
+        {
+          "id": "a_transfiguracao_rafael",
+          "nome": "A Transfiguração (Rafael)",
+          "descricao": "Última pintura de Rafael, um retábulo que combina a Transfiguração de Jesus com a cura do menino possuído, na Pinacoteca Vaticana.",
+          "variantes": [
+            "Transfiguração",
+            "The Transfiguration",
+            "Transfiguração de Rafael"
+          ]
+        },
+        {
+          "id": "a_internacional",
+          "nome": "A Internacional",
+          "descricao": "Hino do movimento socialista e operário, com letra francesa de Eugène Pottier, de 1871.",
+          "variantes": [
+            "L'Internationale",
+            "The Internationale"
+          ]
+        },
+        {
+          "id": "aguia_legionaria",
+          "nome": "Águia legionária",
+          "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+          "variantes": [
+            "Aquila"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Flaming June",
+        "descricao": "Pintura a óleo de Frederic Leighton, de 1895, que mostra uma mulher dormindo com um vestido laranja, guardada no Museu de Arte de Ponce, em Porto Rico.",
+        "variantes": [
+          "Junho Flamejante",
+          "Flaming June (Leighton)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lemingue",
+          "nome": "Lemingue",
+          "descricao": "Pequeno roedor da tundra ártica, alvo do mito do suicídio coletivo.",
+          "variantes": [
+            "Lemming"
+          ]
+        },
+        {
+          "id": "fluminense",
+          "nome": "Fluminense",
+          "descricao": "Fluminense Football Club, clube carioca fundado em 1902, conhecido como Tricolor das Laranjeiras.",
+          "variantes": [
+            "Fluminense Football Club",
+            "Flu",
+            "Tricolor das Laranjeiras"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "A Arte da Pintura (Vermeer)",
+        "descricao": "Pintura a óleo de Johannes Vermeer, do século dezessete, que mostra um pintor de costas diante de uma modelo, guardada no Kunsthistorisches Museum, em Viena.",
+        "variantes": [
+          "Alegoria da Pintura",
+          "O Pintor no Ateliê",
+          "The Art of Painting",
+          "Allegory of Painting"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_sagracao_da_primavera",
+          "nome": "A Sagração da Primavera",
+          "descricao": "Balé de Igor Stravinsky estreado em Paris em 1913.",
+          "variantes": [
+            "Le Sacre du printemps",
+            "The Rite of Spring"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        },
+        {
+          "id": "a_leiteira_vermeer",
+          "nome": "A Leiteira (Vermeer)",
+          "descricao": "Pintura a óleo de Johannes Vermeer, por volta de 1658, de uma criada despejando leite; está no Rijksmuseum, em Amsterdã.",
+          "variantes": [
+            "De melkmeid",
+            "The Milkmaid",
+            "A Criada de Cozinha"
+          ]
+        },
+        {
+          "id": "batalha_do_avai_pintura",
+          "nome": "Batalha do Avaí (pintura)",
+          "descricao": "Quadro de Pedro Américo sobre a batalha de 1868.",
+          "variantes": []
+        },
+        {
+          "id": "vale_dos_reis",
+          "nome": "Vale dos Reis",
+          "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+          "variantes": [
+            "Valley of the Kings"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Terraço do Café à Noite",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de 1888, que mostra um terraço de café iluminado numa praça de Arles, na França.",
+        "variantes": [
+          "Café Terrace at Night",
+          "O Terraço do Café na Place du Forum",
+          "Terraço de Café à Noite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_dos_cem_anos",
+          "nome": "Guerra dos Cem Anos",
+          "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+          "variantes": [
+            "Hundred Years' War"
+          ]
+        },
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        },
+        {
+          "id": "introducao_do_cafe_no_brasil",
+          "nome": "Introdução do café no Brasil",
+          "descricao": "Chegada das primeiras mudas de café ao território brasileiro, no século dezoito",
+          "variantes": [
+            "Chegada do café ao Brasil"
+          ]
+        },
+        {
+          "id": "politica_do_cafe_com_leite",
+          "nome": "Política do café com leite",
+          "descricao": "Arranjo político da Primeira República em que oligarquias de dois estados se alternavam na presidência.",
+          "variantes": [
+            "Café com leite"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Bruegel."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de David."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A Anunciação de Leonardo não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura Flaming June."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A Leiteira é outra pintura de Vermeer; a proposta é A Arte da Pintura."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Van Gogh."
+    }
+  ]
+}
