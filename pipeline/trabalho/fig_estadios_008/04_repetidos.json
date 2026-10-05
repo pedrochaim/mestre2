@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que anfiteatro da Antiguidade é este?",
+        "resposta": "Coliseu"
+      },
+      "existentes": [
+        {
+          "id": "q00079",
+          "pergunta": "O nome Coliseu provavelmente vem de algo gigantesco que ficava ao lado do anfiteatro. O que era?",
+          "resposta": "Uma estátua colossal de Nero"
+        },
+        {
+          "id": "q03943",
+          "pergunta": "Que dinastia imperial romana mandou construir este anfiteatro?",
+          "resposta": "Dinastia Flaviana"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este circuito de corrida?",
+        "resposta": "Bélgica"
+      },
+      "existentes": [
+        {
+          "id": "q00549",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Spa-Francorchamps"
+        },
+        {
+          "id": "q01567",
+          "pergunta": "A famosa curva Eau Rouge, em Spa-Francorchamps, tem o nome de um riacho que passa por ali. O que significa Eau Rouge?",
+          "resposta": "Água vermelha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que Grande Prêmio de Fórmula 1 acontece neste circuito?",
+        "resposta": "Grande Prêmio da Grã-Bretanha"
+      },
+      "existentes": [
+        {
+          "id": "q01599",
+          "pergunta": "Em que ano Silverstone recebeu a primeira corrida da história do Campeonato Mundial de Fórmula 1?",
+          "resposta": "1950"
+        },
+        {
+          "id": "q01600",
+          "pergunta": "Antes de virar autódromo, no fim dos anos quarenta, o terreno de Silverstone abrigava o quê?",
+          "resposta": "Uma base aérea militar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de identificação do anfiteatro (Coliseu); as existentes tratam da origem do nome e da dinastia construtora, fatos diferentes. Saber a origem do nome não implica identificar a imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O país do circuito é um fato distinto de identificar o circuito ou do significado de Eau Rouge."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Grande Prêmio realizado no circuito é diferente do ano da primeira corrida e do uso anterior do terreno."
+    }
+  ]
+}

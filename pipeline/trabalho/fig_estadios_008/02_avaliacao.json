@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Coliseu em foto clara, sem texto que entregue; pessoas ao fundo são pequenas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que anfiteatro da Antiguidade é este?",
+      "resposta": "Coliseu",
+      "destino": 2,
+      "ancora": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro romano elíptico do século primeiro, no centro de Roma, na Itália.",
+        "variantes": [
+          "Anfiteatro Flaviano",
+          "Colosseo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Quadra com teto retrátil e assentos verdes, sem texto; a resposta vale também para as outras quadras do complexo, então é única. Múltipla escolha por ser de aficionado.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que bairro de Londres fica esta quadra de tênis?",
+      "resposta": "Wimbledon",
+      "distratores": [
+        "Wembley",
+        "Twickenham",
+        "Chelsea"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Quadra Central de Wimbledon",
+        "descricao": "Quadra principal do All England Club, palco do torneio de tênis de Wimbledon, em Londres.",
+        "variantes": [
+          "Centre Court",
+          "Centre Court de Wimbledon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Panorama do Croke Park com traves em H, sem texto legível que entregue. Resolução baixa, mas legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio de esportes gaélicos?",
+      "resposta": "Dublin",
+      "distratores": [
+        "Belfast",
+        "Cork",
+        "Limerick"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Croke Park",
+        "descricao": "Estádio de esportes gaélicos em Dublin, na Irlanda, sede da Associação Atlética Gaélica.",
+        "variantes": [
+          "Croker",
+          "Páirc an Chrócaigh"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Faixa na arquibancada com 'Sport campeão brasileiro de 1987' entrega o clube, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estádio com arquitetura reconhecível; o escudo ao fundo é minúsculo e não há texto que entregue a cidade. Múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica este estádio?",
+      "resposta": "Turim",
+      "distratores": [
+        "Milão",
+        "Roma",
+        "Gênova"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Allianz Stadium (Turim)",
+        "descricao": "Estádio de futebol da Juventus, em Turim, na Itália, inaugurado em 2011.",
+        "variantes": [
+          "Juventus Stadium",
+          "Allianz Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O telão mostra 'Rangers v St Johnstone' e há letreiros legíveis, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista interna com o teto característico e sem texto relevante; a palavra Etihad numa jaqueta ao fundo é ilegível no celular. Pergunta de nível 3 sobre o clube.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que clube inglês manda seus jogos neste estádio?",
+      "resposta": "Manchester City",
+      "distratores": [
+        "Manchester United",
+        "Everton",
+        "Newcastle United"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Etihad Stadium",
+        "descricao": "Estádio do Manchester City, na Inglaterra, construído para os Jogos da Comunidade Britânica de 2002.",
+        "variantes": [
+          "City of Manchester Stadium",
+          "Estádio da Cidade de Manchester"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista do circuito com a reta dos boxes e a subida característica, sem nome visível. Múltipla escolha por ser de aficionado.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este circuito de corrida?",
+      "resposta": "Bélgica",
+      "distratores": [
+        "Holanda",
+        "França",
+        "Alemanha"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Circuito de Spa-Francorchamps",
+        "descricao": "Circuito de corridas na Valônia, na Bélgica, sede do Grande Prêmio da Bélgica de Fórmula 1.",
+        "variantes": [
+          "Spa",
+          "Spa-Francorchamps"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O placar mostra 'NAP' e há faixas e anúncios legíveis, o que entrega o clube e a cidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Anfiteatro romano bem conservado e reconhecível; os letreiros dizem só bilheteria e 'Arena shop', sem a cidade. Pessoas ao fundo são pequenas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+      "resposta": "Verona",
+      "destino": 1,
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea com as arquibancadas assimétricas, sem texto. Múltipla escolha com cidades inglesas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade inglesa fica este estádio?",
+      "resposta": "Newcastle upon Tyne",
+      "distratores": [
+        "Liverpool",
+        "Leeds",
+        "Sheffield"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "St James' Park",
+        "descricao": "Estádio de futebol do Newcastle United, em Newcastle upon Tyne, na Inglaterra.",
+        "variantes": [
+          "St. James' Park"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prédio de boxes (The Wing) distintivo de Silverstone, sem texto. Pergunta de nível 3 sobre o Grande Prêmio, em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que Grande Prêmio de Fórmula 1 acontece neste circuito?",
+      "resposta": "Grande Prêmio da Grã-Bretanha",
+      "distratores": [
+        "Grande Prêmio da Bélgica",
+        "Grande Prêmio da Itália",
+        "Grande Prêmio de Mônaco"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Circuito de Silverstone",
+        "descricao": "Circuito de corridas perto de Silverstone, na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1.",
+        "variantes": [
+          "Silverstone"
+        ]
+      }
+    }
+  ]
+}

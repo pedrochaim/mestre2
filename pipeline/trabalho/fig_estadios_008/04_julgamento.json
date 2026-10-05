@@ -1,0 +1,479 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro romano elíptico do século primeiro, no centro de Roma, na Itália.",
+        "variantes": [
+          "Anfiteatro Flaviano",
+          "Colosseo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "ollie",
+          "nome": "Ollie",
+          "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+          "variantes": [
+            "Ollie (skate)"
+          ]
+        },
+        {
+          "id": "vespa_de_papel",
+          "nome": "Vespa-de-papel",
+          "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel.",
+          "variantes": [
+            "Polistes",
+            "paper wasp",
+            "marimbondo-de-papel"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Croke Park",
+        "descricao": "Estádio de esportes gaélicos em Dublin, na Irlanda, sede da Associação Atlética Gaélica.",
+        "variantes": [
+          "Croker",
+          "Páirc an Chrócaigh"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        },
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "rosa_parks",
+          "nome": "Rosa Parks",
+          "descricao": "Ativista americana dos direitos civis que, em 1955, se recusou a ceder seu lugar num ônibus a um passageiro branco em Montgomery.",
+          "variantes": []
+        },
+        {
+          "id": "arte_rupestre",
+          "nome": "Arte rupestre",
+          "descricao": "Pinturas e gravuras pré-históricas feitas em paredes de cavernas e rochas.",
+          "variantes": [
+            "Pintura rupestre",
+            "Rock art"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Allianz Stadium (Turim)",
+        "descricao": "Estádio de futebol da Juventus, em Turim, na Itália, inaugurado em 2011.",
+        "variantes": [
+          "Juventus Stadium",
+          "Allianz Stadium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "alho",
+          "nome": "Alho",
+          "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+          "variantes": [
+            "Allium sativum"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "estadio_lujniki",
+          "nome": "Estádio Lujniki",
+          "descricao": "Estádio nacional da Rússia em Moscou, principal arena dos Jogos Olímpicos de 1980 e da final da Copa de 2018.",
+          "variantes": [
+            "Luzhniki Stadium",
+            "Estádio Luzhniki",
+            "Estádio Lenin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Etihad Stadium",
+        "descricao": "Estádio do Manchester City, na Inglaterra, construído para os Jogos da Comunidade Britânica de 2002.",
+        "variantes": [
+          "City of Manchester Stadium",
+          "Estádio da Cidade de Manchester"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cidade_do_vaticano",
+          "nome": "Cidade do Vaticano",
+          "descricao": "Estado soberano encravado em Roma, sede da Santa Sé e da Igreja Católica.",
+          "variantes": [
+            "Vaticano",
+            "Estado da Cidade do Vaticano"
+          ]
+        },
+        {
+          "id": "estadio_de_twickenham",
+          "nome": "Estádio de Twickenham",
+          "descricao": "Estádio nacional de rúgbi da Inglaterra, em Twickenham, Londres, pertencente à Rugby Football Union.",
+          "variantes": [
+            "Twickenham Stadium",
+            "Twickenham"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Circuito de Spa-Francorchamps",
+        "descricao": "Circuito de corridas na Valônia, na Bélgica, sede do Grande Prêmio da Bélgica de Fórmula 1.",
+        "variantes": [
+          "Spa",
+          "Spa-Francorchamps"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "pascal_unidade",
+          "nome": "Pascal (unidade)",
+          "descricao": "Unidade de pressão do Sistema Internacional de Unidades.",
+          "variantes": [
+            "Pa"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "sampa",
+          "nome": "Sampa",
+          "descricao": "Canção de Caetano Veloso de 1978, homenagem à cidade de São Paulo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rod_laver_arena",
+          "nome": "Rod Laver Arena",
+          "descricao": "Quadra central do Aberto da Austrália, no complexo Melbourne Park, em Melbourne.",
+          "variantes": [
+            "Arena Rod Laver"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "eolipila",
+          "nome": "Eolípila",
+          "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+          "variantes": [
+            "Máquina de Heron",
+            "Aeolipile",
+            "Eolípila de Heron"
+          ]
+        },
+        {
+          "id": "floriano_peixoto",
+          "nome": "Floriano Peixoto",
+          "descricao": "Marechal que foi o segundo presidente do Brasil, entre 1891 e 1894.",
+          "variantes": [
+            "Marechal de Ferro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "St James' Park",
+        "descricao": "Estádio de futebol do Newcastle United, em Newcastle upon Tyne, na Inglaterra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "james_watt",
+          "nome": "James Watt",
+          "descricao": "Engenheiro, inventor e químico escocês (1736–1819) que aperfeiçoou a máquina a vapor de Newcomen.",
+          "variantes": []
+        },
+        {
+          "id": "rosa_parks",
+          "nome": "Rosa Parks",
+          "descricao": "Ativista americana dos direitos civis que, em 1955, se recusou a ceder seu lugar num ônibus a um passageiro branco em Montgomery.",
+          "variantes": []
+        },
+        {
+          "id": "south_park",
+          "nome": "South Park",
+          "descricao": "Série animada americana criada por Trey Parker e Matt Stone em 1997, sobre quatro meninos de uma pequena cidade das montanhas.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Circuito de Silverstone",
+        "descricao": "Circuito de corridas perto de Silverstone, na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1.",
+        "variantes": [
+          "Silverstone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "silverstone",
+          "nome": "Silverstone",
+          "descricao": "Circuito na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1.",
+          "variantes": [
+            "Circuito de Silverstone",
+            "Silverstone Circuit"
+          ]
+        },
+        {
+          "id": "circuito_gilles_villeneuve",
+          "nome": "Circuito Gilles Villeneuve",
+          "descricao": "Circuito de rua da Ilha Notre-Dame, em Montreal, sede do Grande Prêmio do Canadá.",
+          "variantes": [
+            "Circuit Gilles Villeneuve",
+            "Circuito de Montreal"
+          ]
+        },
+        {
+          "id": "circuito_de_monaco",
+          "nome": "Circuito de Mônaco",
+          "descricao": "Circuito de rua de Monte Carlo, em Mônaco.",
+          "variantes": []
+        },
+        {
+          "id": "sylveon",
+          "nome": "Sylveon",
+          "descricao": "Pokémon do tipo Fada, número 700 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "circuito_de_praia_de_daytona",
+          "nome": "Circuito de praia de Daytona",
+          "descricao": "Antigo circuito em Daytona Beach, na Flórida, que usava a areia da praia e um trecho de estrada.",
+          "variantes": [
+            "Daytona Beach Road Course"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "coliseu",
+      "motivo": "Mesmo anfiteatro de Roma (Coliseu/Anfiteatro Flaviano)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio Croke Park."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estádio da Juventus não consta; a candidata Juventus é o clube."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Etihad Stadium não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "circuito_de_spa_francorchamps",
+      "motivo": "Mesmo circuito de Spa-Francorchamps, na Bélgica."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Arena de Verona não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "St James' Park não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "silverstone",
+      "motivo": "Mesmo circuito de Silverstone, sede do GP da Grã-Bretanha."
+    }
+  ]
+}

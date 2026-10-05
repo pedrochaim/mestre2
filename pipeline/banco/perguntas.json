@@ -102848,5 +102848,195 @@
       "https://pt.wikipedia.org/wiki/Euclides_da_Cunha",
       "https://pt.wikipedia.org/wiki/Os_Sert%C3%B5es"
     ]
+  },
+  {
+    "id": "q06049",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "coliseu",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que anfiteatro da Antiguidade é este?",
+    "resposta": "Coliseu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colosseum",
+      "https://pt.wikipedia.org/wiki/Coliseu"
+    ],
+    "imagem": {
+      "arquivo": "q06049.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+      "autor": "FeaturedPics",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06050",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "croke_park",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio de esportes gaélicos?",
+    "resposta": "Dublin",
+    "distratores": [
+      "Belfast",
+      "Cork",
+      "Limerick"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Croke_Park",
+      "https://pt.wikipedia.org/wiki/Croke_Park"
+    ],
+    "imagem": {
+      "arquivo": "q06050.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Croke_Park_from_the_Hill_-_2004_All-Ireland_Football_Championship_Final.jpg",
+      "autor": "Photograph by John H. Nolan; original uploader was Hetch at en.wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06051",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "allianz_stadium_turim",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade italiana fica este estádio?",
+    "resposta": "Turim",
+    "distratores": [
+      "Milão",
+      "Roma",
+      "Gênova"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juventus_Stadium",
+      "https://pt.wikipedia.org/wiki/Allianz_Stadium_%28Turim%29"
+    ],
+    "imagem": {
+      "arquivo": "q06051.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Juventus_v_Real_Madrid,_Champions_League,_Stadium,_Turin,_2013.jpg",
+      "autor": "forzaq8 from kuwait, kuwait",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q06052",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "etihad_stadium",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube inglês manda seus jogos neste estádio?",
+    "resposta": "Manchester City",
+    "distratores": [
+      "Manchester United",
+      "Everton",
+      "Newcastle United"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Etihad_Stadium",
+      "https://pt.wikipedia.org/wiki/City_of_Manchester_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q06052.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Etihad_Stadium.jpg",
+      "autor": "Cléria De Souza",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q06053",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "circuito_de_spa_francorchamps",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este circuito de corrida?",
+    "resposta": "Bélgica",
+    "distratores": [
+      "Holanda",
+      "França",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+      "https://pt.wikipedia.org/wiki/Circuito_de_Spa-Francorchamps"
+    ],
+    "imagem": {
+      "arquivo": "q06053.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2022_4_Hours_of_Spa-Francorchamps_-_Circuit.jpg",
+      "autor": "United Autosports",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06054",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "arena_de_verona",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+    "resposta": "Verona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Verona_Arena",
+      "https://pt.wikipedia.org/wiki/Arena_de_Verona"
+    ],
+    "imagem": {
+      "arquivo": "q06054.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arena-XE3F2406a.jpg",
+      "autor": "Claconvr",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06055",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "st_james_park",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade inglesa fica este estádio?",
+    "resposta": "Newcastle upon Tyne",
+    "distratores": [
+      "Liverpool",
+      "Leeds",
+      "Sheffield"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/St_James%27_Park",
+      "https://pt.wikipedia.org/wiki/St._James%27_Park"
+    ],
+    "imagem": {
+      "arquivo": "q06055.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Newcastle_st-james-park_stadium.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q06056",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "silverstone",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que Grande Prêmio de Fórmula 1 acontece neste circuito?",
+    "resposta": "Grande Prêmio da Grã-Bretanha",
+    "distratores": [
+      "Grande Prêmio da Bélgica",
+      "Grande Prêmio da Itália",
+      "Grande Prêmio de Mônaco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+      "https://pt.wikipedia.org/wiki/Circuito_de_Silverstone"
+    ],
+    "imagem": {
+      "arquivo": "q06056.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-16A_2015_McLaren_MP4-16A_shakedown_(21219267118).jpg",
+      "autor": "United Autosports",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]
