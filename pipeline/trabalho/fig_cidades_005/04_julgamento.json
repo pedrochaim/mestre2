@@ -1,0 +1,284 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Atenas",
+        "descricao": "Capital da Grécia, vista com a Acrópole e o Partenon.",
+        "variantes": [
+          "Athens",
+          "Atenas, Grécia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        },
+        {
+          "id": "atlas_vertebra",
+          "nome": "Atlas (vértebra)",
+          "descricao": "Primeira vértebra cervical, que sustenta o crânio.",
+          "variantes": [
+            "Atlas",
+            "C1",
+            "Atlas (anatomy)"
+          ]
+        },
+        {
+          "id": "tenis",
+          "nome": "Tênis",
+          "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+          "variantes": [
+            "Sneakers",
+            "Tênis de lona"
+          ]
+        },
+        {
+          "id": "watchmen",
+          "nome": "Watchmen",
+          "descricao": "Série em quadrinhos de Alan Moore e Dave Gibbons, publicada pela DC entre 1986 e 1987",
+          "variantes": []
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Positano",
+        "descricao": "Cidade da Costa Amalfitana, na Campânia, Itália, construída em encosta sobre o mar.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "cartao_postal",
+          "nome": "Cartão-postal",
+          "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+          "variantes": [
+            "Postal",
+            "Postcard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Washington, D.C.",
+        "descricao": "Capital dos Estados Unidos, vista do alto com a Casa Branca e o gramado Ellipse.",
+        "variantes": [
+          "Washington",
+          "Distrito de Columbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        },
+        {
+          "id": "george_washington",
+          "nome": "George Washington",
+          "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+          "variantes": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        },
+        {
+          "id": "wellington",
+          "nome": "Wellington",
+          "descricao": "Capital da Nova Zelândia, no extremo sul da Ilha Norte.",
+          "variantes": []
+        },
+        {
+          "id": "deserto_de_gobi",
+          "nome": "Deserto de Gobi",
+          "descricao": "Grande deserto frio da Ásia Central",
+          "variantes": [
+            "Gobi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paraty",
+        "descricao": "Município histórico do litoral sul do estado do Rio de Janeiro, visto da baía com a igreja de Santa Rita.",
+        "variantes": [
+          "Parati"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "San Gimignano",
+        "descricao": "Pequena cidade medieval murada da Toscana, na província de Siena, famosa por suas torres.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "sandman",
+          "nome": "Sandman",
+          "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+          "variantes": [
+            "The Sandman"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Atenas (capital da Grécia) não consta entre as candidatas; Maratona é outra cidade e o Panteão fica em Roma."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Positano é uma cidade italiana; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "washington_d_c",
+      "motivo": "Mesma capital dos EUA, no Distrito de Colúmbia; as descrições coincidem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Paraty é um município do RJ; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "San Gimignano é uma cidade toscana; as candidatas não têm relação com ela."
+    }
+  ]
+}

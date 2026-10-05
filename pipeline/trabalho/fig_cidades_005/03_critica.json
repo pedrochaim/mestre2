@@ -1,0 +1,42 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Vista do alto de uma colina\" não é confirmado pela descrição da imagem (Acrópole e Partenon); não é literalmente verdadeiro para esta foto. Basta pedir a cidade.",
+      "reescrita": {
+        "pergunta": "Que cidade europeia é esta?",
+        "resposta": "Atenas"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, sem vazamento; distratores plausíveis e distinguíveis pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado correto e sem vazamento; distratores são capitais de países, e a imagem com Casa Branca e Ellipse distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paraty fica no litoral sul do Rio de Janeiro; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cidade medieval em colina na Toscana, confirmado; distratores críveis e a imagem das torres distingue.",
+      "reescrita": null
+    }
+  ]
+}

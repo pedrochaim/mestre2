@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que capital é esta, vista do alto?",
+        "resposta": "Washington"
+      },
+      "existentes": [
+        {
+          "id": "q00008",
+          "pergunta": "O distrito onde fica Washington, a capital americana, tem nome derivado do mesmo navegador que batizou qual país sul-americano?",
+          "resposta": "Colômbia"
+        },
+        {
+          "id": "q04015",
+          "pergunta": "Em 1791, qual engenheiro de origem francesa traçou o plano urbano de Washington, com suas grandes avenidas diagonais?",
+          "resposta": "Pierre Charles L'Enfant"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede identificar a capital por imagem aérea. As existentes tratam da origem do nome do distrito e do engenheiro que traçou o plano urbano. São fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Telhados genéricos de um centro histórico, sem monumento que permita reconhecer Madri."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista com palácio e arranha-céus pouco característica; a cidade não é reconhecível com segurança e há risco de resposta ambígua."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Placas legíveis (nome de comércio, médico) e pessoas comuns em primeiro plano; rua sem marco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Vista aérea genérica de uma cidade grande, sem marco que permita reconhecer Curitiba."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução e avenida litorânea genérica; não é reconhecível nem legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Convento pouco conhecido, com pessoas comuns em primeiro plano; reconhecimento difícil e resposta não sustentada pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Acrópole com o Partenon, inconfundível.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que cidade é esta, vista do alto de uma colina?",
+      "resposta": "Atenas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Atenas",
+        "descricao": "Capital da Grécia, vista com a Acrópole e o Partenon.",
+        "variantes": [
+          "Athens",
+          "Atenas, Grécia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montagem de várias cenas e com o nome 'Campos do Jordão' legível no pórtico."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vila encravada na encosta sobre o mar, característica da Costa Amalfitana; múltipla com distratores parecidos.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que cidade italiana, em uma encosta sobre o mar, é esta?",
+      "resposta": "Positano",
+      "distratores": [
+        "Amalfi",
+        "Sorrento",
+        "Vernazza"
+      ],
+      "ancora": {
+        "nome": "Positano",
+        "descricao": "Cidade da Costa Amalfitana, na Campânia, Itália, construída em encosta sobre o mar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com a Casa Branca e o gramado Ellipse, reconhecível; múltipla com capitais de traçado parecido.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que capital é esta, vista do alto?",
+      "resposta": "Washington",
+      "distratores": [
+        "Ottawa",
+        "Canberra",
+        "Brasília"
+      ],
+      "ancora": {
+        "nome": "Washington, D.C.",
+        "descricao": "Capital dos Estados Unidos, vista do alto com a Casa Branca e o gramado Ellipse.",
+        "variantes": [
+          "Washington D.C.",
+          "Distrito de Columbia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Frente marítima com a igreja de Santa Rita e casario colonial de Paraty.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Em que estado brasileiro fica esta cidade histórica à beira-mar?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Bahia",
+        "São Paulo",
+        "Espírito Santo"
+      ],
+      "ancora": {
+        "nome": "Paraty",
+        "descricao": "Município histórico do litoral sul do estado do Rio de Janeiro, visto da baía com a igreja de Santa Rita.",
+        "variantes": [
+          "Parati"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de torres medievais no alto da colina, característica de San Gimignano.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que cidade medieval italiana, no alto de uma colina, é esta?",
+      "resposta": "San Gimignano",
+      "distratores": [
+        "Siena",
+        "Lucca",
+        "Bolonha"
+      ],
+      "ancora": {
+        "nome": "San Gimignano",
+        "descricao": "Pequena cidade medieval murada da Toscana, na província de Siena, famosa por suas torres.",
+        "variantes": []
+      }
+    }
+  ]
+}

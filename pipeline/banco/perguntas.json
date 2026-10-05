@@ -96877,5 +96877,125 @@
       "https://en.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a",
       "https://en.wikipedia.org/wiki/Grand_Tour_(cycling)"
     ]
+  },
+  {
+    "id": "q05723",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "atenas",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que cidade europeia é esta?",
+    "resposta": "Atenas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Athens",
+      "https://pt.wikipedia.org/wiki/Atenas"
+    ],
+    "imagem": {
+      "arquivo": "q05723.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Akropolis_2015.jpg",
+      "autor": "Thomas Wolf, www.foto-tw.de",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q05724",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "positano",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade italiana, em uma encosta sobre o mar, é esta?",
+    "resposta": "Positano",
+    "distratores": [
+      "Amalfi",
+      "Sorrento",
+      "Vernazza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Positano",
+      "https://pt.wikipedia.org/wiki/Positano"
+    ],
+    "imagem": {
+      "arquivo": "q05724.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG",
+      "autor": "JeCCo",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q05725",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "washington_d_c",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que capital é esta, vista do alto?",
+    "resposta": "Washington",
+    "distratores": [
+      "Ottawa",
+      "Canberra",
+      "Brasília"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+      "https://pt.wikipedia.org/wiki/Washington%2C_D.C."
+    ],
+    "imagem": {
+      "arquivo": "q05725.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_White_House_and_downtown,_Washington,_D.C_LCCN2010630891.jpg",
+      "autor": "Carol M. Highsmith",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05726",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "paraty",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado brasileiro fica esta cidade histórica à beira-mar?",
+    "resposta": "Rio de Janeiro",
+    "distratores": [
+      "Bahia",
+      "São Paulo",
+      "Espírito Santo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paraty",
+      "https://pt.wikipedia.org/wiki/Paraty"
+    ],
+    "imagem": {
+      "arquivo": "q05726.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paraty.JPG",
+      "autor": "Lampiao3",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05727",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "san_gimignano",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade medieval italiana, no alto de uma colina, é esta?",
+    "resposta": "San Gimignano",
+    "distratores": [
+      "Siena",
+      "Lucca",
+      "Bolonha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/San_Gimignano",
+      "https://pt.wikipedia.org/wiki/San_Gimignano"
+    ],
+    "imagem": {
+      "arquivo": "q05727.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Panorama_San_Gimignano.jpg",
+      "autor": "WikiRomaWiki",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]
