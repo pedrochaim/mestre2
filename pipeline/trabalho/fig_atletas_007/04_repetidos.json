@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que time da NBA este armador defendeu durante toda a carreira?",
+        "resposta": "Los Angeles Lakers"
+      },
+      "existentes": [
+        {
+          "id": "q01776",
+          "pergunta": "Em novembro de 1991, Magic Johnson anunciou de surpresa que deixaria as quadras. Qual foi o motivo?",
+          "resposta": "Ele era portador do vírus HIV"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata do time da NBA de Magic Johnson durante toda a carreira. A existente trata do motivo de ele ter se aposentado em 1991, o HIV. São fatos diferentes e saber um não leva a saber o outro."
+    }
+  ]
+}

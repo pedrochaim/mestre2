@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (vinte anos no São Paulo, ídolo do clube). Enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em 2018 pela Sauber (Alfa Romeo Sauber), confirmado nos trechos. A pista não identifica o piloto sozinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nove vezes campeão olímpico na natação, confirmado nos trechos. Resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Transferência para o Manchester City em 2022 confirmada. Vários atacantes mudaram de clube em 2022, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Transformou em lenda, marcando época' é impreciso e vago (o Arsenal já era grande). Troco por um fato literal: o período no clube.",
+      "reescrita": {
+        "pergunta": "Que clube inglês este ex-atacante francês defendeu entre mil novecentos e noventa e nove e dois mil e sete?",
+        "resposta": "Arsenal",
+        "distratores": [
+          "Chelsea",
+          "Liverpool",
+          "Manchester United"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só disputou a temporada de 2010 na F1, pela Virgin, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Quase quinze anos' é impreciso: foram cerca de quinze anos, de 2007 a 2022 (a fonte diz 'after 15 years'). Uso o período exato.",
+      "reescrita": {
+        "pergunta": "Que clube espanhol este lateral esquerdo brasileiro defendeu de dois mil e sete a dois mil e vinte e dois?",
+        "resposta": "Real Madrid"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Passou a carreira inteira nos Lakers, confirmado nos trechos. Os distratores são times da NBA e nenhum é correto para Magic.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Vazamento: a Itália venceu a Copa Davis em 2023 e 2024, então dá para responder sem a figura (e o enunciado ainda sugere a nacionalidade). Não há conserto simples sem entregar o tenista.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ex-volante e técnico' não distingue Dunga dos distratores (Gilberto Silva, por exemplo, também virou treinador). Pergunto só pelo ex-volante, e a figura decide a resposta.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-volante brasileiro?",
+        "resposta": "Dunga",
+        "distratores": [
+          "Mauro Silva",
+          "Mazinho",
+          "Gilberto Silva"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Campeão peso-pena do UFC, confirmado nos trechos. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bicampeão em 1998 e 1999, confirmado nos trechos. Outros pilotos também foram bicampeões, então o enunciado não entrega a resposta e a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}

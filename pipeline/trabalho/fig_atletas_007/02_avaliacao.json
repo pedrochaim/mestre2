@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que clube este goleiro defendeu durante quase toda a carreira?",
+      "resposta": "São Paulo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rogério Ceni",
+        "descricao": "Goleiro e técnico brasileiro, ídolo do São Paulo e goleiro com mais gols na história do futebol.",
+        "variantes": [
+          "Rogério Mücke Ceni"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Figura pública nítida; só patrocínios no macacão, sem nome ou resposta escrita. Pergunta evita o ano de vice-campeonato, que entregaria a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual equipe este piloto estreou na Fórmula 1, em 2018?",
+      "resposta": "Sauber",
+      "destino": 4,
+      "ancora": {
+        "nome": "Charles Leclerc",
+        "descricao": "Piloto monegasco de Fórmula 1, da Ferrari, vice-campeão mundial em 2022.",
+        "variantes": [
+          "Charles Marc Hervé Perceval Leclerc"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto; pergunta evita feitos que entregariam a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que esporte olímpico este atleta americano foi campeão?",
+      "resposta": "Natação",
+      "destino": 5,
+      "ancora": {
+        "nome": "Mark Spitz",
+        "descricao": "Nadador americano, nove vezes campeão olímpico, sete delas em Munique 1972.",
+        "variantes": [
+          "Mark Andrew Spitz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido; a camisa mostra apenas o escudo, sem entregar o clube ou o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Para que clube inglês este atacante se transferiu em 2022?",
+      "resposta": "Manchester City",
+      "destino": 0,
+      "ancora": {
+        "nome": "Erling Haaland",
+        "descricao": "Atacante norueguês do Manchester City e da seleção da Noruega.",
+        "variantes": [
+          "Erling Braut Haaland"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que clube inglês este ex-atacante francês transformou em lenda, marcando época?",
+      "resposta": "Arsenal",
+      "distratores": [
+        "Chelsea",
+        "Liverpool",
+        "Manchester United"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Thierry Henry",
+        "descricao": "Ex-atacante francês, maior ídolo do Arsenal e campeão do mundo em 1998.",
+        "variantes": [
+          "Titi Henry",
+          "Thierry Daniel Henry"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; texto de fundo ilegível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este piloto brasileiro disputou sua única temporada na Fórmula 1?",
+      "resposta": "2010",
+      "destino": 4,
+      "ancora": {
+        "nome": "Lucas di Grassi",
+        "descricao": "Piloto brasileiro, campeão da Fórmula E em 2016–17 e que correu na Fórmula 1 em 2010.",
+        "variantes": [
+          "Lucas Tucci di Grassi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido; a camisa traz apenas CBF e Brasil, que não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que clube espanhol este lateral esquerdo defendeu por quase quinze anos?",
+      "resposta": "Real Madrid",
+      "destino": 0,
+      "ancora": {
+        "nome": "Marcelo",
+        "descricao": "Lateral esquerdo brasileiro, ídolo do Real Madrid, ex-Fluminense.",
+        "variantes": [
+          "Marcelo Vieira da Silva Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; fundo com texto parcial sem relação com a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que time da NBA este armador defendeu durante toda a carreira?",
+      "resposta": "Los Angeles Lakers",
+      "distratores": [
+        "Boston Celtics",
+        "Chicago Bulls",
+        "Detroit Pistons"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Magic Johnson",
+        "descricao": "Ex-armador americano do Los Angeles Lakers, cinco vezes campeão da NBA.",
+        "variantes": [
+          "Earvin Johnson Jr.",
+          "Earvin Magic Johnson"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de ação nítida de figura pública, sem texto identificador.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país este tenista ajudou a conquistar a Copa Davis em 2023 e 2024?",
+      "resposta": "Itália",
+      "destino": 3,
+      "ancora": {
+        "nome": "Jannik Sinner",
+        "descricao": "Tenista italiano, número 1 do ranking e campeão de vários Grand Slams.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido; patrocínios ao fundo não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-volante e técnico brasileiro?",
+      "resposta": "Dunga",
+      "distratores": [
+        "Mauro Silva",
+        "Mazinho",
+        "Gilberto Silva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dunga",
+        "descricao": "Ex-volante e técnico brasileiro, capitão da seleção campeã do mundo em 1994.",
+        "variantes": [
+          "Carlos Caetano Bledorn Verri"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; texto de fundo parcial não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que categoria de peso este lutador brasileiro foi campeão do UFC?",
+      "resposta": "Peso-pena",
+      "destino": 6,
+      "ancora": {
+        "nome": "José Aldo",
+        "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
+        "variantes": [
+          "José Aldo da Silva Oliveira Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; a camisa xadrez traz só marca parcial, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-piloto de Fórmula 1, bicampeão mundial?",
+      "resposta": "Mika Häkkinen",
+      "destino": 4,
+      "ancora": {
+        "nome": "Mika Häkkinen",
+        "descricao": "Ex-piloto finlandês de Fórmula 1, bicampeão mundial em 1998 e 1999 pela McLaren.",
+        "variantes": [
+          "Mika Pauli Häkkinen",
+          "Hakkinen"
+        ]
+      }
+    }
+  ]
+}
