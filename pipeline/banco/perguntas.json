@@ -108198,5 +108198,690 @@
       "licenca": "Arte oficial; uso privado, sem licença livre",
       "revelacao": "q06351_revelacao.jpg"
     }
+  },
+  {
+    "id": "q06352",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "grande_piramide_de_gize",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Quando a Grande Pirâmide de Gizé foi construída, ainda sobrevivia, numa ilha do Ártico, uma população de qual animal da Era do Gelo?",
+    "resposta": "Mamute-lanoso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Woolly_mammoth",
+      "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    ]
+  },
+  {
+    "id": "q06353",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "grande_piramide_de_gize",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A Grande Pirâmide foi a construção mais alta do mundo por cerca de três mil e oitocentos anos. Que catedral inglesa a superou no século quatorze?",
+    "resposta": "Catedral de Lincoln",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lincoln_Cathedral",
+      "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    ]
+  },
+  {
+    "id": "q06354",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "colossos_de_memnon",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Depois de um terremoto, um dos Colossos de Mêmnon passou a emitir um som que atraía viajantes romanos. Em que momento do dia isso acontecia?",
+    "resposta": "Ao amanhecer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colossi_of_Memnon"
+    ]
+  },
+  {
+    "id": "q06355",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "calendario_egipcio",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Para os antigos egípcios, o ano novo ideal coincidia com a volta de qual estrela ao céu do amanhecer, perto do início da cheia do Nilo?",
+    "resposta": "Sírius",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian_calendar",
+      "https://en.wikipedia.org/wiki/Sirius"
+    ]
+  },
+  {
+    "id": "q06356",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "paleta_de_narmer",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Paleta de Narmer, que mostra um rei usando as coroas do Alto e do Baixo Egito, data de cerca de quando?",
+    "resposta": "3100 antes de Cristo",
+    "distratores": [
+      "2000 antes de Cristo",
+      "1300 antes de Cristo",
+      "500 antes de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Narmer_Palette"
+    ]
+  },
+  {
+    "id": "q06357",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "templo_de_edfu",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O templo de Hórus em Edfu, um dos mais bem conservados do Egito, foi construído na época de qual dinastia?",
+    "resposta": "Dinastia ptolemaica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Temple_of_Edfu"
+    ]
+  },
+  {
+    "id": "q06358",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "retratos_de_faium",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os retratos de Faium, rostos realistas pintados em madeira e postos sobre múmias, são de qual período da história do Egito?",
+    "resposta": "Período romano",
+    "distratores": [
+      "Antigo Império",
+      "Novo Império",
+      "Período de Amarna"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fayum_mummy_portraits"
+    ]
+  },
+  {
+    "id": "q06359",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "pedra_de_roseta",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Desde 1802, a Pedra de Roseta, chave para decifrar os hieróglifos, fica exposta em qual museu?",
+    "resposta": "Museu Britânico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosetta_Stone"
+    ]
+  },
+  {
+    "id": "q06360",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "pedra_de_roseta",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, em grego antigo e em qual terceira escrita?",
+    "resposta": "Demótico",
+    "distratores": [
+      "Hierático",
+      "Aramaico",
+      "Latim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosetta_Stone"
+    ]
+  },
+  {
+    "id": "q06361",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "batalha_de_kadesh",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Por volta de 1274 antes de Cristo, Ramsés Segundo enfrentou os hititas na Batalha de Kadesh, às margens do rio Orontes. Em que país atual?",
+    "resposta": "Síria",
+    "distratores": [
+      "Turquia",
+      "Iraque",
+      "Israel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Kadesh"
+    ]
+  },
+  {
+    "id": "q06362",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "tratado_de_paz_egipcio_hitita",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Uma réplica ampliada do tratado de paz entre Ramsés Segundo e os hititas fica exposta na sede de qual organização internacional, em Nova York?",
+    "resposta": "Organização das Nações Unidas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
+    ]
+  },
+  {
+    "id": "q06363",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "barco_de_queops",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O barco de Quéops, enterrado desmontado ao pé da Grande Pirâmide, foi feito principalmente com cedro trazido de qual região?",
+    "resposta": "Líbano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Khufu_ship"
+    ]
+  },
+  {
+    "id": "q06364",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "escriba_sentado",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A estátua do Escriba Sentado, de olhos incrustados que parecem acompanhar o visitante, é uma das joias de qual museu?",
+    "resposta": "Museu do Louvre",
+    "distratores": [
+      "Museu Britânico",
+      "Museu Egípcio do Cairo",
+      "Museu Metropolitano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Seated_Scribe"
+    ]
+  },
+  {
+    "id": "q06365",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "oraculo_de_amon_em_siwa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 331 antes de Cristo, Alexandre, o Grande, atravessou o deserto para consultar o oráculo do deus Amon. Em que oásis ficava o templo?",
+    "resposta": "Siwa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Siwa_Oasis"
+    ]
+  },
+  {
+    "id": "q06366",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "textos_das_piramides",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os Textos das Pirâmides, fórmulas para a vida eterna do rei, aparecem gravados pela primeira vez na pirâmide de Unas. Em que necrópole ela fica?",
+    "resposta": "Sacará",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_Texts",
+      "https://en.wikipedia.org/wiki/Pyramid_of_Unas"
+    ]
+  },
+  {
+    "id": "q06367",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "ramses_ii",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1976, a múmia de Ramsés Segundo viajou ao exterior para ser tratada contra fungos e foi recebida com honras militares. Em que cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ramesses_II"
+    ]
+  },
+  {
+    "id": "q06368",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "templo_de_debod",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Templo de Debod, doado pelo Egito como agradecimento pela ajuda no salvamento dos monumentos da Núbia, foi remontado em qual capital europeia?",
+    "resposta": "Madri",
+    "distratores": [
+      "Roma",
+      "Lisboa",
+      "Berlim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Temple_of_Debod"
+    ]
+  },
+  {
+    "id": "q06369",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "osiris",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No mito egípcio, Osíris foi assassinado e teve o corpo despedaçado e espalhado pelo Egito. Qual deus, seu próprio irmão, cometeu o crime?",
+    "resposta": "Set",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Osiris",
+      "https://en.wikipedia.org/wiki/Set_(deity)"
+    ]
+  },
+  {
+    "id": "q06370",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "hieroglifos_egipcios",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1822, depois de estudar a Pedra de Roseta e outros textos, que estudioso francês anunciou ter decifrado os hieróglifos egípcios?",
+    "resposta": "Jean-François Champollion",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion",
+      "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+    ]
+  },
+  {
+    "id": "q06371",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "hieroglifos_egipcios",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra hieróglifo vem do grego e descreve a escrita gravada nas paredes dos templos egípcios. O que ela significa literalmente?",
+    "resposta": "Entalhes sagrados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+    ]
+  },
+  {
+    "id": "q06372",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "tumba_de_tutancamon",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1922, ao espiar pela primeira vez a tumba de Tutancâmon à luz de uma vela, que arqueólogo inglês disse ver coisas maravilhosas?",
+    "resposta": "Howard Carter",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/KV62",
+      "https://en.wikipedia.org/wiki/Howard_Carter"
+    ]
+  },
+  {
+    "id": "q06373",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "busto_de_nefertiti",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1912, o busto de Nefertiti foi achado em Amarna, no ateliê de qual escultor real, a quem a obra é atribuída?",
+    "resposta": "Tutmés",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nefertiti_Bust",
+      "https://en.wikipedia.org/wiki/Thutmose_(sculptor)"
+    ]
+  },
+  {
+    "id": "q06374",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "grande_esfinge_de_gize",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A maioria dos egiptólogos atribui a Grande Esfinge de Gizé a qual faraó da Quarta Dinastia, filho de Quéops?",
+    "resposta": "Quéfren",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+    ]
+  },
+  {
+    "id": "q06375",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "hatshepsut",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Anos depois da morte de Hatshepsut, imagens e nomes dela foram apagados de muitos monumentos no reinado de qual faraó, seu sucessor?",
+    "resposta": "Tutmés III",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hatshepsut"
+    ]
+  },
+  {
+    "id": "q06376",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "o_egito_e_uma_dadiva_do_nilo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A frase o Egito é uma dádiva do Nilo ficou famosa na obra de qual historiador grego do século cinco antes de Cristo?",
+    "resposta": "Heródoto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nile",
+      "https://en.wikipedia.org/wiki/Herodotus"
+    ]
+  },
+  {
+    "id": "q06377",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "grande_hino_a_aton",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O Grande Hino a Áton, poema de louvor ao disco solar com semelhanças com um salmo da Bíblia, é atribuído a qual faraó?",
+    "resposta": "Aquenáton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Hymn_to_the_Aten"
+    ]
+  },
+  {
+    "id": "q06378",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "templo_de_hatshepsut",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O templo em terraços de Hatshepsut, em Deir el-Bahari, é tradicionalmente atribuído a qual arquiteto e alto funcionário da rainha?",
+    "resposta": "Senenmut",
+    "distratores": [
+      "Imhotep",
+      "Ineni",
+      "Amenhotep, filho de Hapu"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senenmut",
+      "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Hatshepsut"
+    ]
+  },
+  {
+    "id": "q06379",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "farol_de_alexandria",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que ilha diante de Alexandria, onde ficava uma das Sete Maravilhas do Mundo Antigo, deu nome às torres que orientam navios na costa?",
+    "resposta": "Faros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+      "https://en.wikipedia.org/wiki/Pharos"
+    ]
+  },
+  {
+    "id": "q06380",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "farol_de_alexandria",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O Farol de Alexandria ficou de pé por mais de mil e quinhentos anos. Que fenômeno natural o danificou e acabou por arruiná-lo na Idade Média?",
+    "resposta": "Terremotos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+    ]
+  },
+  {
+    "id": "q06381",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "ankh",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O ankh, a cruz com uma alça no alto que os deuses seguram nas pinturas egípcias, era o hieróglifo de qual palavra?",
+    "resposta": "Vida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ankh"
+    ]
+  },
+  {
+    "id": "q06382",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "cartucho",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O contorno oval que envolve os nomes dos faraós nos hieróglifos ganhou um nome francês dos soldados de Napoleão. Com que objeto eles o compararam?",
+    "resposta": "Cartucho de munição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cartouche"
+    ]
+  },
+  {
+    "id": "q06383",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "livro_dos_mortos",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome egípcio original do Livro dos Mortos costuma ser traduzido como fórmulas para sair em qual momento?",
+    "resposta": "Durante o dia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+    ]
+  },
+  {
+    "id": "q06384",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "livro_dos_mortos",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na cena do julgamento descrita no Livro dos Mortos, o coração do morto era posto numa balança. Contra o que ele era pesado?",
+    "resposta": "A pena de Maat",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Book_of_the_Dead",
+      "https://en.wikipedia.org/wiki/Maat"
+    ]
+  },
+  {
+    "id": "q06385",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "tutmes_iii",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa de suas muitas campanhas militares vitoriosas, Tutmés Terceiro foi apelidado por historiadores modernos com o nome de qual general francês?",
+    "resposta": "Napoleão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thutmose_III"
+    ]
+  },
+  {
+    "id": "q06386",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "tutancamon",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes de adotar o nome que homenageia o deus Amon, Tutancâmon foi chamado por um nome que homenageava o disco solar. Qual era?",
+    "resposta": "Tutancáton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tutankhamun"
+    ]
+  },
+  {
+    "id": "q06387",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "maldicao_dos_faraos",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Lord Carnarvon, financiador da escavação da tumba de Tutancâmon, morreu em 1923 e alimentou a lenda da maldição. Sua infecção fatal começou em quê?",
+    "resposta": "Uma picada de mosquito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Curse_of_the_pharaohs",
+      "https://en.wikipedia.org/wiki/George_Herbert,_5th_Earl_of_Carnarvon"
+    ]
+  },
+  {
+    "id": "q06388",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "deir_el_medina",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No reinado de Ramsés Terceiro, os artesãos das tumbas reais fizeram uma das greves mais antigas registradas na história. O que os levou a parar?",
+    "resposta": "Atraso nas rações de pagamento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deir_el-Medina"
+    ]
+  },
+  {
+    "id": "q06389",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "ramses_iii",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ramsés Terceiro foi alvo de uma conspiração tramada no próprio harém. Em 2012, tomografias da sua múmia revelaram qual ferimento fatal?",
+    "resposta": "Garganta cortada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ramesses_III"
+    ]
+  },
+  {
+    "id": "q06390",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "abu_simbel",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+    "resposta": "Nefertari",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abu_Simbel",
+      "https://en.wikipedia.org/wiki/Nefertari"
+    ]
+  },
+  {
+    "id": "q06391",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "apofis",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Um asteroide famoso pela passagem rente à Terra em abril de 2029 recebeu o nome grego de qual serpente egípcia, inimiga do deus-sol Rá?",
+    "resposta": "Apófis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/99942_Apophis",
+      "https://en.wikipedia.org/wiki/Apep"
+    ]
+  },
+  {
+    "id": "q06392",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "thoth",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os gregos identificaram Thoth, o deus egípcio da escrita e da sabedoria, com qual deus do seu próprio panteão?",
+    "resposta": "Hermes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thoth"
+    ]
+  },
+  {
+    "id": "q06393",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "pschent",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A coroa dupla dos faraós juntava a coroa branca do Alto Egito com a coroa do Baixo Egito. De que cor era esta segunda?",
+    "resposta": "Vermelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pschent"
+    ]
+  },
+  {
+    "id": "q06394",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "punhal_de_ferro_meteorico_de_tutancamon",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Um punhal encontrado junto à múmia de Tutancâmon tem lâmina de ferro, metal raro no Egito da época. De onde veio esse ferro?",
+    "resposta": "De um meteorito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tutankhamun%27s_meteoric_iron_dagger"
+    ]
+  },
+  {
+    "id": "q06395",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "templo_de_karnak",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A grande sala hipostila do templo de Karnak, em Luxor, é uma verdadeira floresta de colunas de pedra. Quantas colunas ela tem?",
+    "resposta": "134",
+    "distratores": [
+      "48",
+      "72",
+      "300"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karnak"
+    ]
+  },
+  {
+    "id": "q06396",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "mumia_egipcia",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Entre a morte e o enterro, o processo completo de mumificação de um egípcio rico costumava levar quantos dias?",
+    "resposta": "Setenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ancient_Egyptian_funerary_practices",
+      "https://en.wikipedia.org/wiki/Mummy"
+    ]
+  },
+  {
+    "id": "q06397",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "anubis",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Anúbis, o deus egípcio que protegia os mortos e presidia a mumificação, era representado com a cabeça de qual animal?",
+    "resposta": "Chacal",
+    "distratores": [
+      "Falcão",
+      "Íbis",
+      "Carneiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anubis"
+    ]
+  },
+  {
+    "id": "q06398",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "cleopatra",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Cleópatra pertencia a uma dinastia de origem macedônica. Segundo Plutarco, ela foi a primeira da família a aprender qual idioma?",
+    "resposta": "Egípcio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cleopatra"
+    ]
+  },
+  {
+    "id": "q06399",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "ushabti",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Os ushabtis, estatuetas que os egípcios punham às centenas em certas tumbas, tinham qual função no além?",
+    "resposta": "Trabalhar no lugar do morto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ushabti"
+    ]
   }
 ]
