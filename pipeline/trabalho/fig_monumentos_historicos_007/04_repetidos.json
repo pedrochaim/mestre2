@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica a caverna com estas pinturas pré-históricas?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q03066",
+          "pergunta": "Em 1940, na França, quem descobriu as pinturas pré-históricas da caverna de Lascaux?",
+          "resposta": "Quatro adolescentes da região"
+        },
+        {
+          "id": "q03075",
+          "pergunta": "Em 1963, a caverna de Lascaux, na França, foi fechada ao público porque suas pinturas se deterioravam. O que, vindo dos visitantes, as prejudicava?",
+          "resposta": "A respiração dos visitantes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que antiga fortificação romana é esta?",
+        "resposta": "Muralha de Adriano"
+      },
+      "existentes": [
+        {
+          "id": "q05319",
+          "pergunta": "A partir do ano 122, o imperador Adriano mandou erguer uma muralha de costa a costa no norte da Britânia. Hoje, ela fica em que país do Reino Unido?",
+          "resposta": "Inglaterra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o país da caverna (França). As existentes perguntam quem descobriu as pinturas e o que as deteriorava. A França aparece só como contexto no enunciado de q03066 e q03075, mas ninguém precisa saber o país para responder a elas, e saber o país não leva a responder nenhuma delas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da fortificação (Muralha de Adriano). A existente já dá esse dado no enunciado e pergunta em que país do Reino Unido ela fica. São fatos diferentes."
+    }
+  ]
+}

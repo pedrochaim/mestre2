@@ -1,0 +1,108 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ápio Cláudio Cego iniciou a via em 312 a.C. como censor e estrada militar; confirmado nos dois trechos. Enunciado não nomeia a estrada e os distratores são romanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O templo fica na cidade de Luxor, segundo o trecho. A pergunta pede lugar e depende de reconhecer a imagem; a resposta não aparece no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As ruínas ficam em Homs, na Líbia. O enunciado é genérico e a resposta depende da figura. Os distratores são países errados e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guilherme, o Conquistador, mandou construir o castelo na década seguinte à conquista normanda de 1066, ou seja, no século onze. O enunciado não nomeia o castelo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de identificação direta. Os distratores são monumentos romanos de Roma, críveis e com no máximo 4 palavras. A grafia 'Caracala' segue a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sacsayhuamán fica ao norte de Cusco, no Peru. O enunciado não vaza a resposta e os distratores são cidades peruanas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Os monarcas ingleses são coroados desde 1066' não é literalmente verdadeiro: Henrique III foi coroado em Gloucester em 1216, e Eduardo V e Eduardo VIII nunca foram coroados. Também há dúvida sobre Haroldo ou Guilherme ser o primeiro em 1066. Reescrevi com a coroação de Guilherme, que os dois trechos confirmam.",
+      "reescrita": {
+        "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
+        "resposta": "1066",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lascaux fica na Dordonha, na França. Os distratores são países com arte rupestre, mas errados. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Grande Muralha da China não é uma fortificação romana, então é distrator pouco crível diante do enunciado. Troquei por outra muralha romana.",
+      "reescrita": {
+        "pergunta": "Que antiga fortificação romana é esta?",
+        "resposta": "Muralha de Adriano",
+        "distratores": [
+          "Muralha Antonina",
+          "Muralha Aureliana",
+          "Muralha Serviana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pirâmide de Quéfren fica na necrópole de Gizé. Os distratores são outros sítios com pirâmides, errados e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cobrindo a imagem, a pergunta se responde sozinha: a erupção de 79 d.C. soterrou Pompeia e Herculano. A figura virou enfeite e o enunciado também descreve Pompeia. Reescrevi para pedir o reconhecimento da cidade em múltipla escolha, em que a imagem decide.",
+      "reescrita": {
+        "pergunta": "A erupção do Vesúvio, em 79 d.C., soterrou esta cidade romana da Campânia. Que cidade é esta?",
+        "resposta": "Herculano",
+        "distratores": [
+          "Pompeia",
+          "Estábia",
+          "Óstia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fasilidas fundou o Fasil Ghebbi no século dezessete, conforme o trecho. Os distratores são imperadores etíopes de outras épocas.",
+      "reescrita": null
+    }
+  ]
+}

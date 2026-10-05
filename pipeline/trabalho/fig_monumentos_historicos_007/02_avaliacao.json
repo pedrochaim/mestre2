@@ -1,0 +1,275 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estrada de paralelepípedos com pinheiros, vista clássica da Via Ápia, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que censor romano iniciou a construção desta estrada militar?",
+      "resposta": "Ápio Cláudio Cego",
+      "distratores": [
+        "Catão, o Velho",
+        "Caio Mário",
+        "Marco Agripa"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Via Ápia",
+        "descricao": "Antiga estrada romana ligando Roma a Brindisi, iniciada em 312 a.C.",
+        "variantes": [
+          "Via Appia",
+          "Appian Way"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pilone com obelisco e colossos de Ramsés II, inconfundível, sem texto que entregue.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade do Egito fica este templo?",
+      "resposta": "Luxor",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ruínas da Basílica Severiana com colunas; reconhecível por aficionados, uso de múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas ruínas de uma cidade romana?",
+      "resposta": "Líbia",
+      "distratores": [
+        "Tunísia",
+        "Síria",
+        "Argélia"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Léptis Magna",
+        "descricao": "Antiga cidade romana na costa da Líbia, terra natal do imperador Sétimo Severo.",
+        "variantes": [
+          "Leptis Magna",
+          "Lepcis Magna"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista do Long Walk com o castelo, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rei normando mandou construir o castelo original deste local, no século onze?",
+      "resposta": "Guilherme, o Conquistador",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Castelo de Windsor",
+        "descricao": "Residência real inglesa em Windsor, Berkshire, construída no século onze após a conquista normanda.",
+        "variantes": [
+          "Windsor Castle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ruínas de tijolo características, sem texto; múltipla com outras ruínas romanas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ruínas romanas são estas?",
+      "resposta": "Termas de Caracala",
+      "distratores": [
+        "Termas de Diocleciano",
+        "Basílica de Maxêncio",
+        "Mercados de Trajano"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Termas de Caracalla",
+        "descricao": "Segundo maior complexo de banhos públicos da Roma antiga, construído no início do século três.",
+        "variantes": [
+          "Termas de Caracala",
+          "Baths of Caracalla",
+          "Terme di Caracalla"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Muro ciclópico de blocos poligonais encaixados, típico de Sacsayhuamán; sem texto. Múltipla pela dificuldade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Peru fica esta fortaleza inca?",
+      "resposta": "Cusco",
+      "distratores": [
+        "Arequipa",
+        "Lima",
+        "Trujillo"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Sacsayhuamán",
+        "descricao": "Cidadela inca de muralhas de pedra seca nos arredores de Cusco, no Peru.",
+        "variantes": [
+          "Saksaywaman",
+          "Sacsayhuaman"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada ocidental com duas torres, reconhecível; há carros e pessoas ao fundo, mas sem destaque, e nenhum texto legível que entregue.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Desde que ano os monarcas ingleses são coroados nesta igreja de Londres?",
+      "resposta": "1066",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+        "variantes": [
+          "Westminster Abbey"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pinturas rupestres do Salão dos Touros, reconhecíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica a caverna com estas pinturas pré-históricas?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Itália",
+        "Portugal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caverna de Lascaux",
+        "descricao": "Rede de cavernas na Dordonha, França, com pinturas do Paleolítico Superior.",
+        "variantes": [
+          "Lascaux",
+          "Grotte de Lascaux"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Trecho da muralha de pedra em colinas, vista típica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antiga fortificação romana é esta?",
+      "resposta": "Muralha de Adriano",
+      "distratores": [
+        "Muralha Antonina",
+        "Muralha Aureliana",
+        "Grande Muralha da China"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Muralha de Adriano",
+        "descricao": "Antiga fortificação romana no norte da Inglaterra, iniciada em 122 d.C. sob o imperador Adriano.",
+        "variantes": [
+          "Hadrian's Wall"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pirâmide de Quéfren com a Esfinge, ambas em Gizé; resposta única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que sítio arqueológico do Egito fica esta pirâmide?",
+      "resposta": "Gizé",
+      "distratores": [
+        "Sacará",
+        "Dahshur",
+        "Meidum"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pirâmide de Quéfren",
+        "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+        "variantes": [
+          "Pirâmide de Khafre",
+          "Pyramid of Khafre",
+          "Pirâmide de Chefren"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista do sítio de Herculano com o Vesúvio ao fundo, sem texto; Pompeia teria a mesma resposta de data.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano uma erupção soterrou esta cidade romana?",
+      "resposta": "79 d.C.",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Herculano",
+        "descricao": "Antiga cidade romana na Campânia, Itália, soterrada pela erupção do Vesúvio em 79 d.C.",
+        "variantes": [
+          "Herculaneum",
+          "Ercolano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ruínas e castelos do complexo de Gondar, sem texto; múltipla pela obscuridade.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que imperador etíope fundou esta fortaleza, no século dezessete?",
+      "resposta": "Fasilidas",
+      "distratores": [
+        "Menelique II",
+        "Teodoro II",
+        "Zara Yaqob"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Fasil Ghebbi",
+        "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+        "variantes": [
+          "Fasil Ghebbi",
+          "Cidade-fortaleza de Fasil Ghebbi",
+          "Castelos de Gondar"
+        ]
+      }
+    }
+  ]
+}
