@@ -14890,7 +14890,8 @@
     "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
     "variantes": [
       "LZ 129 Hindenburg",
-      "Desastre do Hindenburg"
+      "Desastre do Hindenburg",
+      "Dirigível Hindenburg"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hindenburg_disaster"
@@ -53877,7 +53878,8 @@
     "nome": "Sacarina",
     "descricao": "Adoçante artificial descoberto em 1879 pelo químico Constantin Fahlberg, na Universidade Johns Hopkins.",
     "variantes": [
-      "Saccharin"
+      "Saccharin",
+      "Sacarina sódica"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Saccharin"
@@ -53895,7 +53897,8 @@
     "descricao": "Corante roxo sintético obtido por acaso pelo químico inglês William Perkin em 1856.",
     "variantes": [
       "Malva de Perkin",
-      "Mauveine"
+      "Mauveine",
+      "Mauve"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mauveine"
@@ -76812,7 +76815,8 @@
     "nome": "Petalita",
     "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
     "variantes": [
-      "Petalite"
+      "Petalite",
+      "Castorita"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Petalite"
@@ -85511,6 +85515,383 @@
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/A%C3%A7ores"
+    ]
+  },
+  {
+    "id": "ureia",
+    "nome": "Ureia",
+    "descricao": "Composto orgânico eliminado na urina, sintetizado em laboratório por Friedrich Wöhler em 1828.",
+    "variantes": [
+      "Carbamida"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Urea",
+      "https://en.wikipedia.org/wiki/W%C3%B6hler_synthesis"
+    ]
+  },
+  {
+    "id": "clorofluorcarboneto",
+    "nome": "Clorofluorcarboneto",
+    "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+    "variantes": [
+      "CFC",
+      "Freon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chlorofluorocarbon"
+    ]
+  },
+  {
+    "id": "sodio",
+    "nome": "Sódio",
+    "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
+    "variantes": [
+      "Na"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sodium",
+      "https://pt.wikipedia.org/wiki/S%C3%B3dio"
+    ]
+  },
+  {
+    "id": "nitroglicerina",
+    "nome": "Nitroglicerina",
+    "descricao": "Composto explosivo líquido e instável, criado em 1847, base da dinamite.",
+    "variantes": [
+      "Trinitrato de glicerina"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nitroglycerin"
+    ]
+  },
+  {
+    "id": "quiralidade",
+    "nome": "Quiralidade",
+    "descricao": "Propriedade de moléculas que existem em duas formas espelhadas, como a mão direita e a esquerda, descoberta por Louis Pasteur em 1848.",
+    "variantes": [
+      "Quiralidade molecular"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chirality_(chemistry)"
+    ]
+  },
+  {
+    "id": "nobel_de_quimica_de_1964",
+    "nome": "Nobel de Química de 1964",
+    "descricao": "Prêmio Nobel de Química concedido em 1964 pela determinação de estruturas de moléculas biológicas com raios X.",
+    "variantes": [
+      "Prêmio Nobel de Química de 1964"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dorothy_Hodgkin"
+    ]
+  },
+  {
+    "id": "escala_de_ph",
+    "nome": "Escala de pH",
+    "descricao": "Escala que mede a acidez ou a basicidade de uma solução, criada pelo químico dinamarquês Søren Sørensen em 1909.",
+    "variantes": [
+      "pH",
+      "Potencial hidrogeniônico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/PH"
+    ]
+  },
+  {
+    "id": "estroncio",
+    "nome": "Estrôncio",
+    "descricao": "Elemento químico de número atômico 38, metal alcalino-terroso cujos sais dão a cor vermelha aos fogos de artifício.",
+    "variantes": [
+      "Sr"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Strontium",
+      "https://pt.wikipedia.org/wiki/Estr%C3%B4ncio"
+    ]
+  },
+  {
+    "id": "sal_rosa_do_himalaia",
+    "nome": "Sal rosa do Himalaia",
+    "descricao": "Sal-gema de cor rosada vendido como sal gourmet, extraído principalmente na região do Punjab.",
+    "variantes": [
+      "Sal do Himalaia",
+      "Himalayan salt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Himalayan_salt"
+    ]
+  },
+  {
+    "id": "salitre_do_chile",
+    "nome": "Salitre do Chile",
+    "descricao": "Nitrato de sódio natural, extraído no norte do Chile e muito exportado como adubo e matéria-prima de explosivos no século dezenove.",
+    "variantes": [
+      "Nitrato de sódio",
+      "Nitrato do Chile"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sodium_nitrate"
+    ]
+  },
+  {
+    "id": "sabao",
+    "nome": "Sabão",
+    "descricao": "Produto de limpeza feito pela reação de gorduras com uma base, conhecido desde a Antiguidade.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Soap",
+      "https://pt.wikipedia.org/wiki/Sab%C3%A3o"
+    ]
+  },
+  {
+    "id": "aco_inoxidavel",
+    "nome": "Aço inoxidável",
+    "descricao": "Liga de ferro com cromo que resiste à corrosão, desenvolvida por Harry Brearley em 1913.",
+    "variantes": [
+      "Inox"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stainless_steel"
+    ]
+  },
+  {
+    "id": "grafeno",
+    "nome": "Grafeno",
+    "descricao": "Material formado por uma única camada de átomos de carbono, isolado em 2004 por Andre Geim e Konstantin Novoselov.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Graphene"
+    ]
+  },
+  {
+    "id": "azul_da_prussia",
+    "nome": "Azul da prússia",
+    "descricao": "Pigmento azul-escuro de ferrocianeto férrico, obtido por acaso no início do século dezoito.",
+    "variantes": [
+      "Azul de Berlim",
+      "Prussian blue"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Prussian_blue"
+    ]
+  },
+  {
+    "id": "nicolas_flamel",
+    "nome": "Nicolas Flamel",
+    "descricao": "Escrivão e livreiro francês da Idade Média que a lenda transformou em alquimista capaz de criar a pedra filosofal.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nicolas_Flamel"
+    ]
+  },
+  {
+    "id": "agua",
+    "nome": "Água",
+    "descricao": "Substância formada por hidrogênio e oxigênio, essencial à vida, considerada um dos quatro elementos pelos antigos.",
+    "variantes": [
+      "H2O"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/%C3%81gua",
+      "https://en.wikipedia.org/wiki/Water"
+    ]
+  },
+  {
+    "id": "teoria_atomica_de_dalton",
+    "nome": "Teoria atômica de Dalton",
+    "descricao": "Modelo proposto por John Dalton segundo o qual a matéria é formada por átomos indivisíveis, diferentes para cada elemento.",
+    "variantes": [
+      "Modelo atômico de Dalton",
+      "Modelo da bola de bilhar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/John_Dalton",
+      "https://pt.wikipedia.org/wiki/Modelo_at%C3%B4mico_de_Dalton"
+    ]
+  },
+  {
+    "id": "o_quimico_cetico",
+    "nome": "O Químico Cético",
+    "descricao": "Livro de Robert Boyle, publicado em 1661, que criticou as ideias alquímicas e ajudou a fundar a química moderna.",
+    "variantes": [
+      "The Sceptical Chymist"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Sceptical_Chymist"
+    ]
+  },
+  {
+    "id": "aluminio",
+    "nome": "Alumínio",
+    "descricao": "Elemento químico de número atômico 13, metal leve e prateado, o mais abundante da crosta terrestre.",
+    "variantes": [
+      "Al"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aluminium",
+      "https://pt.wikipedia.org/wiki/Alum%C3%ADnio"
+    ]
+  },
+  {
+    "id": "simbolo_quimico",
+    "nome": "Símbolo químico",
+    "descricao": "Abreviação de uma ou duas letras usada para representar um elemento químico, sistema proposto por Berzelius.",
+    "variantes": [
+      "Notação química de Berzelius"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chemical_symbol"
+    ]
+  },
+  {
+    "id": "protocolo_de_montreal",
+    "nome": "Protocolo de Montreal",
+    "descricao": "Tratado internacional assinado em 1987 para eliminar as substâncias que destroem a camada de ozônio.",
+    "variantes": [
+      "Montreal Protocol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Montreal_Protocol",
+      "https://pt.wikipedia.org/wiki/Protocolo_de_Montreal"
+    ]
+  },
+  {
+    "id": "baquelite",
+    "nome": "Baquelite",
+    "descricao": "Um dos primeiros plásticos totalmente sintéticos, criado em 1907 pelo químico belga-americano Leo Baekeland.",
+    "variantes": [
+      "Bakelite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bakelite"
+    ]
+  },
+  {
+    "id": "uranio",
+    "nome": "Urânio",
+    "descricao": "Elemento químico de número atômico 92, metal radioativo usado como combustível nuclear.",
+    "variantes": [
+      "U"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Uranium",
+      "https://pt.wikipedia.org/wiki/Ur%C3%A2nio"
+    ]
+  },
+  {
+    "id": "titanio",
+    "nome": "Titânio",
+    "descricao": "Elemento químico de número atômico 22, metal leve e resistente à corrosão, usado em próteses e aviões.",
+    "variantes": [
+      "Ti"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Titanium",
+      "https://pt.wikipedia.org/wiki/Tit%C3%A2nio"
+    ]
+  },
+  {
+    "id": "selenio",
+    "nome": "Selênio",
+    "descricao": "Elemento químico de número atômico 34, não metal usado em células fotoelétricas e essencial em pequenas doses ao organismo.",
+    "variantes": [
+      "Se"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Selenium",
+      "https://pt.wikipedia.org/wiki/Sel%C3%AAnio"
+    ]
+  },
+  {
+    "id": "litio",
+    "nome": "Lítio",
+    "descricao": "Elemento químico de número atômico 3, o metal mais leve, usado em baterias recarregáveis.",
+    "variantes": [
+      "Li"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lithium",
+      "https://pt.wikipedia.org/wiki/L%C3%ADtio"
+    ]
+  },
+  {
+    "id": "fulereno",
+    "nome": "Fulereno",
+    "descricao": "Molécula de sessenta átomos de carbono em forma de bola de futebol, descoberta em 1985.",
+    "variantes": [
+      "Buckminsterfulereno",
+      "Buckyball",
+      "C60"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Buckminsterfullerene"
+    ]
+  },
+  {
+    "id": "john_dalton",
+    "nome": "John Dalton",
+    "descricao": "Químico e físico inglês (1766–1844), autor da teoria atômica moderna e primeiro a descrever cientificamente a cegueira para cores.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/John_Dalton",
+      "https://pt.wikipedia.org/wiki/John_Dalton"
+    ]
+  },
+  {
+    "id": "prata",
+    "nome": "Prata",
+    "descricao": "Elemento químico de símbolo Ag e número atômico 47, metal branco e brilhante, um dos metais conhecidos desde a Antiguidade.",
+    "variantes": [
+      "Ag"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Silver",
+      "https://pt.wikipedia.org/wiki/Prata"
+    ]
+  },
+  {
+    "id": "cafeina",
+    "nome": "Cafeína",
+    "descricao": "Substância estimulante presente no café, no chá e no guaraná, isolada em 1819 pelo químico alemão Friedlieb Runge.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Caffeine",
+      "https://pt.wikipedia.org/wiki/Cafe%C3%ADna"
+    ]
+  },
+  {
+    "id": "vidro_de_murano",
+    "nome": "Vidro de Murano",
+    "descricao": "Vidro artesanal produzido na ilha de Murano, em Veneza, desde a Idade Média.",
+    "variantes": [
+      "Cristal de Murano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Murano_glass"
+    ]
+  },
+  {
+    "id": "celuloide",
+    "nome": "Celuloide",
+    "descricao": "Um dos primeiros plásticos, feito de nitrocelulose e cânfora no século dezenove, usado depois em filmes de cinema.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Celluloid"
+    ]
+  },
+  {
+    "id": "aleksandr_borodin",
+    "nome": "Aleksandr Borodin",
+    "descricao": "Químico e compositor russo do século dezenove, autor da ópera Príncipe Igor.",
+    "variantes": [
+      "Alexander Borodin",
+      "Alexandre Borodin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alexander_Borodin"
+    ]
+  },
+  {
+    "id": "linus_pauling",
+    "nome": "Linus Pauling",
+    "descricao": "Químico americano (1901–1994), pioneiro no estudo das ligações químicas, Nobel de Química em 1954 e da Paz em 1962.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Linus_Pauling"
     ]
   }
 ]
