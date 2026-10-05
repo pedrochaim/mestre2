@@ -1,0 +1,749 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Alemanha",
+        "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+        "variantes": [
+          "República Federal da Alemanha",
+          "Germany"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Distrito Federal",
+        "descricao": "Menor unidade federativa do Brasil, sem municípios, onde fica Brasília.",
+        "variantes": [
+          "DF",
+          "Federal District"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        },
+        {
+          "id": "passagem_de_drake",
+          "nome": "Passagem de Drake",
+          "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+          "variantes": [
+            "Estreito de Drake",
+            "Mar de Hoces"
+          ]
+        },
+        {
+          "id": "estreito_de_gibraltar",
+          "nome": "Estreito de Gibraltar",
+          "descricao": "Estreito entre o sul da Espanha e o norte da África que liga o oceano Atlântico ao mar Mediterrâneo.",
+          "variantes": [
+            "Gibraltar"
+          ]
+        },
+        {
+          "id": "democrito",
+          "nome": "Demócrito",
+          "descricao": "Filósofo grego pré-socrático (c. 460–370 a.C.), um dos formuladores da teoria atômica.",
+          "variantes": [
+            "Democritus",
+            "Demócrito de Abdera"
+          ]
+        },
+        {
+          "id": "dmitri_mendeleev",
+          "nome": "Dmitri Mendeleev",
+          "descricao": "Químico russo que formulou a lei periódica e criou uma versão da tabela periódica dos elementos.",
+          "variantes": [
+            "Dmitri Mendeleiev",
+            "Dmitri Ivanovich Mendeleev",
+            "Mendeléiev"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Finlândia",
+        "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+        "variantes": [
+          "República da Finlândia",
+          "Finland"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        },
+        {
+          "id": "finlandia",
+          "nome": "Finlândia",
+          "descricao": "Poema sinfônico patriótico de Jean Sibelius, de 1899–1900.",
+          "variantes": [
+            "Finlandia, op. 26"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Maranhão",
+        "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+        "variantes": [
+          "MA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "artes_marciais_mistas",
+          "nome": "Artes marciais mistas",
+          "descricao": "Esporte de combate de contato total que combina golpes em pé e luta no solo, disputado em ringue com grade.",
+          "variantes": [
+            "MMA",
+            "Mixed martial arts"
+          ]
+        },
+        {
+          "id": "maracanazo",
+          "nome": "Maracanazo",
+          "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano.",
+          "variantes": [
+            "Maracanaço",
+            "Uruguai 2 x 1 Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Filipinas",
+        "descricao": "País arquipélago do Sudeste Asiático, no Pacífico ocidental, cuja capital é Manila.",
+        "variantes": [
+          "República das Filipinas",
+          "Philippines"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "fidipides",
+          "nome": "Fidípides",
+          "descricao": "Corredor ateniense que, segundo Heródoto, levou um pedido de ajuda antes da Batalha de Maratona.",
+          "variantes": [
+            "Pheidippides",
+            "Filípides"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Costa Rica",
+        "descricao": "País da América Central entre Nicarágua e Panamá, cuja capital é San José.",
+        "variantes": [
+          "República da Costa Rica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "africa_do_sul",
+          "nome": "África do Sul",
+          "descricao": "País do extremo sul da África com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+          "variantes": [
+            "South Africa",
+            "República da África do Sul"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "China",
+        "descricao": "País da Ásia Oriental, o mais populoso depois da Índia, cuja capital é Pequim.",
+        "variantes": [
+          "República Popular da China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "equidna",
+          "nome": "Equidna",
+          "descricao": "Mamífero monotremado coberto de espinhos da família Tachyglossidae, da Austrália e Nova Guiné.",
+          "variantes": [
+            "Echidna",
+            "Tachyglossidae",
+            "Tamanduá-espinhoso"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "dinastia_qin",
+          "nome": "Dinastia Qin",
+          "descricao": "Primeira dinastia imperial da China, de 221 a 206 antes de Cristo, fundada por Qin Shi Huang.",
+          "variantes": [
+            "Qin",
+            "Ch'in"
+          ]
+        },
+        {
+          "id": "cha_palavra",
+          "nome": "Chá (palavra)",
+          "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+          "variantes": [
+            "Chá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mato Grosso",
+        "descricao": "Estado da região Centro-Oeste do Brasil, terceiro maior em área, cuja capital é Cuiabá.",
+        "variantes": [
+          "MT"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        },
+        {
+          "id": "mato_grosso_do_sul",
+          "nome": "Mato Grosso do Sul",
+          "descricao": "Estado da Região Centro-Oeste do Brasil, desmembrado de Mato Grosso, com capital em Campo Grande.",
+          "variantes": []
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "tesla_unidade",
+          "nome": "Tesla (unidade)",
+          "descricao": "Unidade de densidade de fluxo magnético do Sistema Internacional, nomeada em honra a Nikola Tesla.",
+          "variantes": [
+            "Tesla (unit)",
+            "T"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Guiana",
+        "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+        "variantes": [
+          "Guyana",
+          "República Cooperativa da Guiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Nova Zelândia",
+        "descricao": "País insular do Pacífico sudoeste, formado pelas ilhas Norte e Sul, cuja capital é Wellington.",
+        "variantes": [
+          "New Zealand",
+          "Aotearoa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "bandeira_da_nova_zelandia",
+          "nome": "Bandeira da Nova Zelândia",
+          "descricao": "Bandeira nacional da Nova Zelândia, azul com o Union Jack no canto e quatro estrelas vermelhas.",
+          "variantes": [
+            "Bandeira neozelandesa"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "tuatara",
+          "nome": "Tuatara",
+          "descricao": "Réptil da Nova Zelândia (Sphenodon punctatus), parecido com um lagarto, último sobrevivente da ordem Rhynchocephalia.",
+          "variantes": [
+            "Sphenodon punctatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Moçambique",
+        "descricao": "País do sudeste da África banhado pelo Índico, de língua oficial portuguesa, cuja capital é Maputo.",
+        "variantes": [
+          "República de Moçambique",
+          "Mozambique"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mocambique",
+          "nome": "Moçambique",
+          "descricao": "País lusófono do sudeste da África, banhado pelo Índico.",
+          "variantes": [
+            "República de Moçambique",
+            "Mozambique"
+          ]
+        },
+        {
+          "id": "ilha_de_mocambique",
+          "nome": "Ilha de Moçambique",
+          "descricao": "Ilha no norte de Moçambique, antiga capital da colônia portuguesa e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Island of Mozambique"
+          ]
+        },
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Namíbia",
+        "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+        "variantes": [
+          "República da Namíbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "deserto_do_namibe",
+          "nome": "Deserto do Namibe",
+          "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola",
+          "variantes": [
+            "Namib",
+            "Deserto do Namib"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Candidata com nome Alemanha é a bandeira; o país não está cadastrado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Distrito Federal brasileiro difere de Washington, D.C."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Candidata 'finlandia' é o poema sinfônico; o país não está cadastrado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estado do Maranhão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é as Filipinas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Costa Rica."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "china",
+      "motivo": "Mesmo país, República Popular da China, capital Pequim."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mato Grosso do Sul é outro estado; Mato Grosso não está cadastrado."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Guiana."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "nova_zelandia",
+      "motivo": "Mesmo país, capital Wellington."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "mocambique",
+      "motivo": "Mesmo país lusófono do sudeste da África."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Deserto do Namibe é outra entidade; o país Namíbia não está cadastrado."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Pequim"
+      },
+      "existentes": [
+        {
+          "id": "q01289",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Pequim"
+        },
+        {
+          "id": "q04033",
+          "pergunta": "Apesar de se estender por milhares de quilômetros de leste a oeste, quantos fusos horários oficiais a China adota?",
+          "resposta": "Um"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Nova Zelândia"
+      },
+      "existentes": [
+        {
+          "id": "q02364",
+          "pergunta": "Que ave que não voa, símbolo nacional da Nova Zelândia, virou o apelido dos próprios neozelandeses?",
+          "resposta": "Kiwi"
+        },
+        {
+          "id": "q05846",
+          "pergunta": "Em 1642, qual navegador holandês se tornou o primeiro europeu a chegar à Nova Zelândia?",
+          "resposta": "Abel Tasman"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país africano está destacado neste mapa?",
+        "resposta": "Moçambique"
+      },
+      "existentes": [
+        {
+          "id": "q00926",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Maputo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01289",
+      "motivo": "Ambas perguntam a capital da China (Pequim), só muda o recurso visual."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa é um fato diferente de kiwi ou de Abel Tasman."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa difere de saber a capital (Maputo)."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, sem texto, Alemanha em verde-escuro no centro da Europa.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa da Europa?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "Polônia",
+        "França",
+        "República Tcheca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alemanha",
+        "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+        "variantes": [
+          "República Federal da Alemanha",
+          "Germany"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o Distrito Federal em vermelho, pequeno mas identificável pela posição; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que unidade da federação brasileira está destacada neste mapa?",
+      "resposta": "Distrito Federal",
+      "distratores": [
+        "Goiás",
+        "Tocantins",
+        "Espírito Santo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Distrito Federal",
+        "descricao": "Menor unidade federativa do Brasil, sem municípios, onde fica Brasília.",
+        "variantes": [
+          "DF",
+          "Federal District"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Finlândia bem visível no norte da Europa, formato característico; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Helsinque",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Finlândia",
+        "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+        "variantes": [
+          "República da Finlândia",
+          "Finland"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Maranhão bem destacado em vermelho no mapa do Brasil; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Maranhão",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Maranhão",
+        "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+        "variantes": [
+          "MA"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arquipélago das Filipinas em verde no globo, reconhecível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Manila",
+      "distratores": [
+        "Jacarta",
+        "Hanói",
+        "Kuala Lumpur"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Filipinas",
+        "descricao": "País arquipélago do Sudeste Asiático, no Pacífico ocidental, cuja capital é Manila.",
+        "variantes": [
+          "República das Filipinas",
+          "Philippines"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Costa Rica em verde no globo, no istmo centro-americano; pequena mas localizável; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Costa Rica",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Costa Rica",
+        "descricao": "País da América Central entre Nicarágua e Panamá, cuja capital é San José.",
+        "variantes": [
+          "República da Costa Rica"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "China em verde-escuro, contorno inconfundível no globo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Tóquio",
+        "Seul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "China",
+        "descricao": "País da Ásia Oriental, o mais populoso depois da Índia, cuja capital é Pequim.",
+        "variantes": [
+          "República Popular da China"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mato Grosso bem destacado em vermelho no mapa do Brasil; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Cuiabá",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Mato Grosso",
+        "descricao": "Estado da região Centro-Oeste do Brasil, terceiro maior em área, cuja capital é Cuiabá.",
+        "variantes": [
+          "MT"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Guiana em verde no globo, no norte da América do Sul; pequena mas localizável; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Guiana",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guiana",
+        "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+        "variantes": [
+          "Guyana",
+          "República Cooperativa da Guiana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Nova Zelândia isolada no Pacífico sul, contorno característico; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Japão",
+        "Chile",
+        "Madagascar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nova Zelândia",
+        "descricao": "País insular do Pacífico sudoeste, formado pelas ilhas Norte e Sul, cuja capital é Wellington.",
+        "variantes": [
+          "New Zealand",
+          "Aotearoa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Moçambique em verde no globo centrado na África, contorno reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Moçambique",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moçambique",
+        "descricao": "País do sudeste da África banhado pelo Índico, de língua oficial portuguesa, cuja capital é Maputo.",
+        "variantes": [
+          "República de Moçambique",
+          "Mozambique"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Namíbia em verde no sul da África, com a faixa de Caprivi característica; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Namíbia",
+      "distratores": [
+        "Botsuana",
+        "Angola",
+        "Zâmbia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Namíbia",
+        "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+        "variantes": [
+          "República da Namíbia",
+          "Namibia"
+        ]
+      }
+    }
+  ]
+}
