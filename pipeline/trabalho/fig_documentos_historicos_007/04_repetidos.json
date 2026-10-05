@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este político britânico recebeu qual Prêmio Nobel?",
+        "resposta": "Nobel de Literatura"
+      },
+      "existentes": [
+        {
+          "id": "q00128",
+          "pergunta": "Que prêmio o primeiro-ministro britânico da guerra, Winston Churchill, tem em comum com os escritores Ernest Hemingway e José Saramago?",
+          "resposta": "Nobel de Literatura"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A carta de quem ao rei de Portugal inspirou este quadro?",
+        "resposta": "Pero Vaz de Caminha"
+      },
+      "existentes": [
+        {
+          "id": "q00451",
+          "pergunta": "Que acontecimento este quadro de Victor Meirelles retrata?",
+          "resposta": "A primeira missa no Brasil, em 1500"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00128",
+      "motivo": "Ambas perguntam que Prêmio Nobel Churchill recebeu (Literatura); quem soubesse uma responderia a outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta o autor da carta que inspirou o quadro; a existente pergunta o acontecimento retratado (primeira missa). Fatos diferentes."
+    }
+  ]
+}

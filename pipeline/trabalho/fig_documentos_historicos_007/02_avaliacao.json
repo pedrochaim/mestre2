@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A folha de rosto mostra o título e o autor (El ingenioso hidalgo Don Quixote de la Mancha, Miguel de Cervantes) e o ano 1605. O texto entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A página de rosto traz 'Code civil des Français' legível. O texto entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto mostra um manuscrito com selo dourado, com uma mão e outros papéis ao redor. Não dá para reconhecer a Bula Dourada de 1356 pela imagem, e outras bulas douradas têm aspecto parecido. Não há resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato oficial de figura pública, sem texto, nítido e reconhecível. A pergunta de data não se responde sem a imagem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este presidente brasileiro tomou posse?",
+      "resposta": "1956",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Juscelino Kubitschek",
+        "descricao": "Político brasileiro, 21º presidente do Brasil (1956 a 1961), conhecido pela construção de Brasília.",
+        "variantes": [
+          "JK",
+          "Juscelino Kubitschek de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira sem texto, nítida e legível. A estrela vermelha com as três faixas azul, branca e vermelha é reconhecível. Os distratores são bandeiras de países extintos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país extinto é esta bandeira?",
+      "resposta": "Iugoslávia",
+      "distratores": [
+        "Tchecoslováquia",
+        "Alemanha Oriental",
+        "União Soviética"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da Iugoslávia",
+        "descricao": "Bandeira da Iugoslávia socialista, com três faixas horizontais azul, branca e vermelha e uma estrela vermelha com contorno amarelo no centro.",
+        "variantes": [
+          "Bandeira da Jugoslávia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem é minúscula e de baixa resolução, e mostra uma página de esboços e anotações. Não fica legível num celular e não permite reconhecer o Códice Leicester entre os manuscritos de Leonardo."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico célebre de figura pública, sem texto. A pergunta vai além do nome e a resposta é única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este político britânico recebeu qual Prêmio Nobel?",
+      "resposta": "Nobel de Literatura",
+      "distratores": [
+        "Nobel da Paz",
+        "Nobel de Medicina",
+        "Nobel de Física"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Winston Churchill",
+        "descricao": "Estadista britânico, primeiro-ministro do Reino Unido de 1940 a 1945 e de 1951 a 1955, e Nobel de Literatura em 1953.",
+        "variantes": [
+          "Winston Leonard Spencer Churchill",
+          "Sir Winston Churchill"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem nítida e sem texto, com a coroa isolada em fundo branco. É um objeto histórico reconhecível pelo conjunto de rubi, safira e diamante.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi feita a versão atual desta coroa, usada pelo monarca britânico?",
+      "resposta": "1937",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Coroa Imperial do Estado (britânica)",
+        "descricao": "Coroa do monarca britânico, feita em 1937 para a coroação de Jorge VI e usada em coroações e aberturas do Parlamento.",
+        "variantes": [
+          "Imperial State Crown",
+          "Coroa do Estado Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura histórica em domínio público, sem texto e nítida. Tem cruz, altar e indígenas, e é muito reconhecível. A pergunta exige reconhecer o quadro para chegar à carta que o inspirou.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A carta de quem ao rei de Portugal inspirou este quadro?",
+      "resposta": "Pero Vaz de Caminha",
+      "distratores": [
+        "Pedro Álvares Cabral",
+        "Américo Vespúcio",
+        "Gabriel Soares de Sousa"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Primeira Missa no Brasil",
+        "descricao": "Pintura a óleo de Victor Meirelles (1861) que retrata a primeira missa celebrada no Brasil, em 1500.",
+        "variantes": [
+          "A Primeira Missa no Brasil",
+          "Primeira Missa no Brasil (Victor Meirelles)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto, da bomba em formato de ovo com a cauda quadrada. É distinguível da Little Boy.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual era o nome desta bomba atômica?",
+      "resposta": "Fat Man",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fat Man (bomba de Nagasaki)",
+        "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+        "variantes": [
+          "Fat Man",
+          "Homem Gordo",
+          "Mark III"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O frontispício traz 'Leviathan', o nome de Thomas Hobbes e o ano 1651 legíveis. O texto entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O retrato traz a inscrição 'LEONARDO VINCI' legível na parte inferior. A inscrição entrega a resposta."
+    }
+  ]
+}
