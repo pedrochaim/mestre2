@@ -89,7 +89,7 @@
       "titulo": "en:Rubik's Cube",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cavalo (xadrez)",
@@ -131,7 +131,7 @@
       "titulo": "en:Harp",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Gaita de fole",
@@ -236,7 +236,7 @@
       "titulo": "en:Neo Geo (system)",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Magnavox Odyssey",
@@ -276,6 +276,286 @@
     {
       "nome": "Mahjong",
       "titulo": "en:Mahjong",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Trompete",
+      "titulo": "en:Trumpet",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Flauta doce",
+      "titulo": "en:Recorder (musical instrument)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Xilofone",
+      "titulo": "en:Xylophone",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tuba",
+      "titulo": "en:Tuba",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Violoncelo",
+      "titulo": "en:Cello",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaita",
+      "titulo": "en:Harmonica",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maracas",
+      "titulo": "en:Maraca",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jogo da velha",
+      "titulo": "en:Tic-tac-toe",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bola de gude",
+      "titulo": "en:Marbles",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Peão (xadrez)",
+      "titulo": "en:Pawn (chess)",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rei (xadrez)",
+      "titulo": "en:King (chess)",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rainha (xadrez)",
+      "titulo": "en:Queen (chess)",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Roleta",
+      "titulo": "en:Roulette",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation 2",
+      "titulo": "en:PlayStation 2",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Trombone",
+      "titulo": "en:Trombone",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Clarinete",
+      "titulo": "en:Clarinet",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Flauta transversal",
+      "titulo": "en:Western concert flute",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Contrabaixo acústico",
+      "titulo": "en:Double bass",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandolim",
+      "titulo": "en:Mandolin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Reco-reco",
+      "titulo": "pt:Reco-reco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Castanholas",
+      "titulo": "en:Castanets",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Tímpano",
+      "titulo": "en:Timpani",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Bongô",
+      "titulo": "en:Bongo drum",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre (xadrez)",
+      "titulo": "en:Rook (chess)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ficha de pôquer",
+      "titulo": "en:Casino token",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Xbox",
+      "titulo": "en:Xbox (console)",
+      "camada": 2,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nintendinho (NES)",
+      "titulo": "en:Nintendo Entertainment System",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Nintendo Wii",
+      "titulo": "en:Wii",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Oboé",
+      "titulo": "en:Oboe",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fagote",
+      "titulo": "en:Bassoon",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Trompa",
+      "titulo": "en:French horn",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Balalaica",
+      "titulo": "en:Balalaika",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pífano",
+      "titulo": "pt:Pífano",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Viola de cocho",
+      "titulo": "pt:Viola de cocho",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dreamcast",
+      "titulo": "en:Dreamcast",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Gear",
+      "titulo": "en:Game Gear",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sega Saturn",
+      "titulo": "en:Sega Saturn",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Game & Watch",
+      "titulo": "en:Game & Watch",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Trilha (moinho)",
+      "titulo": "en:Nine men's morris",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Senet",
+      "titulo": "en:Senet",
       "camada": 3,
       "destino": 2,
       "status": "nova"

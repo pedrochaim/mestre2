@@ -97740,5 +97740,115 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q05755",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "timpano",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "De que metal é tradicionalmente feito o corpo destes instrumentos de orquestra?",
+    "resposta": "Cobre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Timpani",
+      "https://pt.wikipedia.org/wiki/T%C3%ADmpano_%28instrumento_musical%29"
+    ],
+    "imagem": {
+      "arquivo": "q05755.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Munich_-_A_standard_set_of_timpani_Percussion_-_5647.jpg",
+      "autor": "Jorge Royan",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05756",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "fagote",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de sopro de orquestra é este?",
+    "resposta": "Fagote",
+    "distratores": [
+      "Oboé",
+      "Clarinete baixo",
+      "Corne inglês"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bassoon",
+      "https://pt.wikipedia.org/wiki/Fagote"
+    ],
+    "imagem": {
+      "arquivo": "q05756.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bassoon_001.jpg",
+      "autor": "mark.drummer",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q05757",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "harpa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que país europeu tem este instrumento como símbolo nacional, presente em suas moedas?",
+    "resposta": "Irlanda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harp",
+      "https://pt.wikipedia.org/wiki/Harpa"
+    ],
+    "imagem": {
+      "arquivo": "q05757.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_musical_instrument._A_harp.jpg",
+      "autor": "Eacquahdennis",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q05758",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "tuba",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de sopro é este?",
+    "resposta": "Tuba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tuba",
+      "https://pt.wikipedia.org/wiki/Tuba"
+    ],
+    "imagem": {
+      "arquivo": "q05758.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tuba_Melton_Meinl_Weston.png",
+      "autor": "Buffet Crampon",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q05759",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "castanholas",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de percussão é este?",
+    "resposta": "Castanholas",
+    "distratores": [
+      "Claves",
+      "Maracas",
+      "Reco-reco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castanets",
+      "https://pt.wikipedia.org/wiki/Castanhola"
+    ],
+    "imagem": {
+      "arquivo": "q05759.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Castanuelas1.jpg",
+      "autor": "TheMexican",
+      "licenca": "Public domain"
+    }
   }
 ]

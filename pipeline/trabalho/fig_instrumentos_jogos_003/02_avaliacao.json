@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem é uma ilustração vetorial; um cubo mágico pode ser fotografado, e a regra só aceita ilustração para o que não pode ser fotografado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de tímpanos de cobre, sem texto que entregue a resposta.",
+      "pergunta": "De que metal é tradicionalmente feito o corpo destes instrumentos de orquestra?",
+      "resposta": "Cobre",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Tímpano",
+        "descricao": "Instrumento de percussão de orquestra, um tambor em forma de bacia com membrana, afinável, tocado com baquetas.",
+        "variantes": [
+          "Tímpanos",
+          "Timpani",
+          "Timbales de orquestra"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Aparecem 'GAME GEAR' e 'SEGA' escritos no console, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma grade grande com cinco marcas em linha na diagonal, que é um tabuleiro de gomoku e não de jogo da velha. A figura não corresponde à âncora."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome 'XBOX' aparece no console e no controle, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de um fagote, sem texto. A forma com tubo longo e bocal curvo é característica; os distratores são sopros de palheta parecidos.",
+      "pergunta": "Que instrumento de sopro de orquestra é este?",
+      "resposta": "Fagote",
+      "tipo": "multipla",
+      "distratores": [
+        "Oboé",
+        "Clarinete baixo",
+        "Corne inglês"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Fagote",
+        "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+        "variantes": [
+          "Fagot",
+          "Bassoon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Barras de madeira amarradas sobre um pano, num contexto de rua. Pode ser xilofone, marimba, balafon ou instrumento tradicional parecido, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma harpa de concerto, sem texto, com fundo escuro e legível no celular.",
+      "pergunta": "Que país europeu tem este instrumento como símbolo nacional, presente em suas moedas?",
+      "resposta": "Irlanda",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Harpa",
+        "descricao": "Instrumento de cordas dedilhadas, de formato triangular, com cordas em ângulo em relação à caixa de ressonância.",
+        "variantes": [
+          "Harpa de concerto",
+          "Harp"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Aparecem 'NEO-GEO' e 'SNK' escritos no console, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma tuba, sem texto legível. O logotipo no pavilhão é minúsculo e ilegível.",
+      "pergunta": "Que instrumento de sopro é este?",
+      "resposta": "Tuba",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Tuba",
+        "descricao": "Grande instrumento de sopro de metal, de registro grave, com válvulas e pavilhão voltado para cima.",
+        "variantes": [
+          "Tuba contrabaixo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de um par de castanholas pintadas com uma dançarina de flamenco, sem texto. A dançarina pintada não identifica o instrumento sozinha.",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Castanholas",
+      "tipo": "multipla",
+      "distratores": [
+        "Claves",
+        "Maracas",
+        "Reco-reco"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Castanholas",
+        "descricao": "Instrumento de percussão formado por um par de conchas côncavas de madeira unidas por um cordão, usado na dança espanhola.",
+        "variantes": [
+          "Castanhola",
+          "Castanets",
+          "Palillos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Aparecem 'SEGA SATURN' e 'SEGA' escritos no console e no controle, o que entrega a resposta."
+    }
+  ]
+}

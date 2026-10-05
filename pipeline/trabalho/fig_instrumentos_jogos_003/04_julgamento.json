@@ -1,0 +1,318 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tímpano",
+        "descricao": "Instrumento de percussão de orquestra, um tambor em forma de bacia com membrana, afinável, tocado com baquetas.",
+        "variantes": [
+          "Tímpanos",
+          "Timpani",
+          "Timbales de orquestra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        },
+        {
+          "id": "titanic",
+          "nome": "Titanic",
+          "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+          "variantes": [
+            "Titanic (1997)"
+          ]
+        },
+        {
+          "id": "tamanco",
+          "nome": "Tamanco",
+          "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+          "variantes": [
+            "Clog"
+          ]
+        },
+        {
+          "id": "maracatu_rural",
+          "nome": "Maracatu rural",
+          "descricao": "Folguedo carnavalesco da Zona da Mata de Pernambuco, também chamado maracatu de baque solto.",
+          "variantes": [
+            "Maracatu de baque solto",
+            "Maracatu de orquestra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Fagote",
+        "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+        "variantes": [
+          "Fagot",
+          "Bassoon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "juan_manuel_fangio",
+          "nome": "Juan Manuel Fangio",
+          "descricao": "Piloto argentino pentacampeão mundial de Fórmula 1 nos anos cinquenta.",
+          "variantes": [
+            "Fangio"
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "dragonite",
+          "nome": "Dragonite",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 149 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Harpa",
+        "descricao": "Instrumento de cordas dedilhadas, de formato triangular, com cordas em ângulo em relação à caixa de ressonância.",
+        "variantes": [
+          "Harpa de concerto",
+          "Harp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "harpa_de_pedais",
+          "nome": "Harpa de pedais",
+          "descricao": "Harpa de concerto usada nas orquestras, cujos pedais alteram a afinação das cordas.",
+          "variantes": [
+            "Harpa de concerto",
+            "Pedal harp"
+          ]
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tuba",
+        "descricao": "Grande instrumento de sopro de metal, de registro grave, com válvulas e pavilhão voltado para cima.",
+        "variantes": [
+          "Tuba contrabaixo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "contrabaixo",
+          "nome": "Contrabaixo",
+          "descricao": "Instrumento de cordas friccionadas, tocado de pé, o maior da família das cordas na orquestra.",
+          "variantes": [
+            "Contrabaixo acústico",
+            "Double bass"
+          ]
+        },
+        {
+          "id": "trufa",
+          "nome": "Trufa",
+          "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+          "variantes": [
+            "Tuber",
+            "truffle",
+            "túbera"
+          ]
+        },
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        },
+        {
+          "id": "tubarao",
+          "nome": "Tubarão",
+          "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+          "variantes": [
+            "Jaws"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Castanholas",
+        "descricao": "Instrumento de percussão formado por um par de conchas côncavas de madeira unidas por um cordão, usado na dança espanhola.",
+        "variantes": [
+          "Castanhola",
+          "Castanets",
+          "Palillos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "marrom_mumia",
+          "nome": "Marrom múmia",
+          "descricao": "Pigmento castanho usado na pintura europeia entre os séculos dezesseis e vinte, fabricado a partir de restos de múmias egípcias.",
+          "variantes": [
+            "Mummy brown",
+            "Castanho múmia",
+            "Caput mortuum egípcio"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tímpano é instrumento de orquestra; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fagote é instrumento de sopro; candidatas são entidades sem relação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Harpa em geral é mais ampla que a harpa de pedais (um tipo específico); na dúvida, nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tuba é instrumento de metal; o contrabaixo é de cordas e as demais não têm relação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Castanholas são instrumento de percussão; nenhuma candidata é a mesma entidade."
+    }
+  ]
+}
