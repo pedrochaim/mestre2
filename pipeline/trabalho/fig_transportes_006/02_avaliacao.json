@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pintura de uma carruagem fechada puxada por dois cavalos, clara e legível. A assinatura do pintor não entrega a resposta. Quem_fez não rende pergunta aqui, então a família passa para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Carruagem",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carruagem",
+        "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+        "variantes": [
+          "Coche"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida da NASA do módulo lunar na superfície da Lua. O astronauta está de costas e não é reconhecível, e não há texto que entregue a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que empresa americana construiu este veículo?",
+      "resposta": "Grumman",
+      "destino": 0,
+      "ancora": {
+        "nome": "Módulo Lunar da Apollo",
+        "descricao": "Nave de pouso lunar de dois estágios usada no programa Apollo, que levou astronautas da órbita da Lua à superfície.",
+        "variantes": [
+          "Módulo Lunar",
+          "LEM",
+          "Apollo Lunar Module"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fragata de madeira de três mastros, nítida, com o horizonte de Boston ao fundo. Não há nome legível. A pergunta de ano vai em múltipla escolha.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançada ao mar esta fragata da Marinha americana?",
+      "resposta": "1797",
+      "distratores": [
+        "1776",
+        "1812",
+        "1845"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "USS Constitution",
+        "descricao": "Fragata de madeira de três mastros da Marinha dos Estados Unidos, lançada em 1797 e apelidada de Old Ironsides.",
+        "variantes": [
+          "Old Ironsides"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A ambulância tem o texto \"AMBULANZ\" legível, além de site, telefone e placa. O texto entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida e clara do utilitário de formato quadrado inconfundível. A estrela da marca aparece, mas não nomeia o modelo.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado este utilitário esportivo?",
+      "resposta": "1979",
+      "distratores": [
+        "1969",
+        "1985",
+        "1993"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mercedes-Benz Classe G",
+        "descricao": "Utilitário esportivo de tração nas quatro rodas da Mercedes-Benz, de linhas retas, produzido desde 1979.",
+        "variantes": [
+          "G-Wagen",
+          "Mercedes Classe G",
+          "Geländewagen"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frente do esportivo vermelho em foto nítida, com os faróis carenados e o capô longo característicos. Não há texto que entregue a resposta, e o pedestre ao fundo está desfocado e fora do primeiro plano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esportivo britânico dos anos sessenta é este?",
+      "resposta": "Jaguar E-Type",
+      "distratores": [
+        "Aston Martin DB5",
+        "Austin-Healey 3000",
+        "Triumph TR4"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaguar E-Type",
+        "descricao": "Esportivo britânico de motor dianteiro fabricado pela Jaguar de 1961 a 1974, vendido nos EUA como XK-E.",
+        "variantes": [
+          "Jaguar XK-E",
+          "E-Type"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A foto mostra uma moto Norton, com o logotipo na tampa do tanque e uma placa legível. A âncora genérica \"Motocicleta\" não corresponde à imagem, e a resposta não seria única diante dela."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A fuselagem tem texto legível, como \"ANTONOV 225\", \"Мрія\", \"Antonov Airlines\" e a matrícula. O texto entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida da frente do cupê com o capô com faixa preta e o perfil inconfundível. Não há texto que entregue a resposta. A múltipla usa distratores brasileiros da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que carro brasileiro dos anos setenta é este?",
+      "resposta": "Ford Corcel",
+      "distratores": [
+        "Chevrolet Opala",
+        "Volkswagen Passat",
+        "Dodge Dart"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ford Corcel",
+        "descricao": "Carro familiar produzido pela Ford do Brasil a partir de 1968, com base técnica da Renault.",
+        "variantes": [
+          "Corcel",
+          "Corcel GT"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Patinete infantil vermelho e amarelo, em foto simples e legível. Não há pessoas nem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Patinete",
+      "destino": 0,
+      "ancora": {
+        "nome": "Patinete",
+        "descricao": "Veículo impulsionado pela perna de quem o usa, com guidão, plataforma e rodas.",
+        "variantes": [
+          "Scooter de impulso",
+          "Kick scooter"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Corvette de oitava geração em foto nítida, com a silhueta inconfundível. O emblema é só um desenho, sem texto. Há pessoas ao fundo, desfocadas e sem destaque.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano surgiu o primeiro modelo desta linha de esportivos americanos?",
+      "resposta": "1953",
+      "distratores": [
+        "1947",
+        "1958",
+        "1963"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chevrolet Corvette",
+        "descricao": "Linha de esportivos americanos de dois lugares fabricada pela Chevrolet desde 1953; a imagem mostra um modelo da oitava geração.",
+        "variantes": [
+          "Corvette",
+          "Corvette C8"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A lateral traz o emblema \"Messerschmitt\" legível, e a placa explicativa com o nome do modelo aparece no canto. O texto entrega a resposta."
+    }
+  ]
+}

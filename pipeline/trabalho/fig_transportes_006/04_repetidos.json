@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que empresa americana construiu este veículo?",
+        "resposta": "Grumman"
+      },
+      "existentes": [
+        {
+          "id": "q04578",
+          "pergunta": "Que veículo espacial é este?",
+          "resposta": "Módulo lunar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é o veículo (módulo lunar); a nova pergunta o fabricante (Grumman). Fatos diferentes."
+    }
+  ]
+}

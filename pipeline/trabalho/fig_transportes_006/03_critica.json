@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; a resposta é confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Grumman projetou e fabricou o módulo (trechos). O enunciado não entrega a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançada em 1797 segundo os trechos. Os distratores são anos críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Este utilitário' é ambíguo, porque pode se referir à geração da foto e não à linha. A produção da linha começou em 1979 (trechos). Foi preciso apontar para a linha.",
+      "reescrita": {
+        "pergunta": "Em que ano surgiu o primeiro modelo desta linha de utilitários esportivos alemães?",
+        "resposta": "1979",
+        "distratores": [
+          "1969",
+          "1985",
+          "1993"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Foi fabricado de 1961 a 1974, então 'dos anos sessenta' não é literalmente exato. Troquei por 'lançado nos anos sessenta', que é verdadeiro.",
+      "reescrita": {
+        "pergunta": "Que esportivo britânico, lançado nos anos sessenta, é este?",
+        "resposta": "Jaguar E-Type",
+        "distratores": [
+          "Aston Martin DB5",
+          "Austin-Healey 3000",
+          "Triumph TR4"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Corcel foi produzido de 1968 a 1986 e lançado em 1968, então 'dos anos setenta' é impreciso. Também havia distratores da mesma época (Passat, Dart), então troquei por 'lançado em 1968' e por distratores lançados depois.",
+      "reescrita": {
+        "pergunta": "Que carro familiar brasileiro, lançado em mil novecentos e sessenta e oito, é este?",
+        "resposta": "Ford Corcel",
+        "distratores": [
+          "Volkswagen Brasília",
+          "Fiat 147",
+          "Chevrolet Chevette"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de objeto emblemático, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A linha existe desde 1953 (trechos), e o enunciado aponta para a linha e não para a geração da foto. Os distratores são plausíveis e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

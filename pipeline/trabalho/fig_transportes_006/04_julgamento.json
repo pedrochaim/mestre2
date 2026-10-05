@@ -1,0 +1,505 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carruagem",
+        "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+        "variantes": [
+          "Coche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        },
+        {
+          "id": "sambaqui",
+          "nome": "Sambaqui",
+          "descricao": "Monte artificial pré-histórico de conchas e restos, comum no litoral brasileiro.",
+          "variantes": [
+            "Sambaquis",
+            "Concheiro"
+          ]
+        },
+        {
+          "id": "cartucho",
+          "nome": "Cartucho",
+          "descricao": "Contorno oval que envolve os nomes reais nos hieróglifos egípcios",
+          "variantes": [
+            "Cartouche",
+            "Shenu"
+          ]
+        },
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Módulo Lunar da Apollo",
+        "descricao": "Nave de pouso lunar de dois estágios usada no programa Apollo, que levou astronautas da órbita da Lua à superfície.",
+        "variantes": [
+          "Módulo Lunar",
+          "LEM",
+          "Apollo Lunar Module"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "modulo_lunar_apollo",
+          "nome": "Módulo lunar Apollo",
+          "descricao": "Nave de pouso de dois estágios do programa Apollo, que levou astronautas da órbita lunar à superfície da Lua.",
+          "variantes": [
+            "Módulo Lunar",
+            "LEM",
+            "Lunar Module",
+            "Módulo de excursão lunar"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        },
+        {
+          "id": "harlem",
+          "nome": "Harlem",
+          "descricao": "Bairro do norte de Manhattan, em Nova York, berço da Renascença do Harlem.",
+          "variantes": []
+        },
+        {
+          "id": "grande_nuvem_de_magalhaes",
+          "nome": "Grande Nuvem de Magalhães",
+          "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+          "variantes": [
+            "LMC",
+            "Large Magellanic Cloud",
+            "Nuvem Maior de Magalhães"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "USS Constitution",
+        "descricao": "Fragata de madeira de três mastros da Marinha dos Estados Unidos, lançada em 1797 e apelidada de Old Ironsides.",
+        "variantes": [
+          "Old Ironsides"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colosso_de_rodes",
+          "nome": "Colosso de Rodes",
+          "descricao": "Estátua gigante de bronze erguida na ilha de Rodes no século três a.C., uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Colossus of Rhodes"
+          ]
+        },
+        {
+          "id": "edito_de_caracala",
+          "nome": "Édito de Caracala",
+          "descricao": "Decreto de 212 que concedeu a cidadania romana a quase todos os homens livres do Império.",
+          "variantes": [
+            "Constituição Antonina",
+            "Constitutio Antoniniana"
+          ]
+        },
+        {
+          "id": "maimonides",
+          "nome": "Maimônides",
+          "descricao": "Filósofo, rabino e médico judeu (1138–1204), nascido em Córdoba, autor do Guia dos Perplexos.",
+          "variantes": [
+            "Moisés Maimônides",
+            "Rambam",
+            "Moshe ben Maimon"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mercedes-Benz Classe G",
+        "descricao": "Utilitário esportivo de tração nas quatro rodas da Mercedes-Benz, de linhas retas, produzido desde 1979.",
+        "variantes": [
+          "G-Wagen",
+          "Mercedes Classe G",
+          "Geländewagen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mercedes_benz",
+          "nome": "Mercedes-Benz",
+          "descricao": "Marca alemã de automóveis cujo nome Mercedes surgiu nos carros da Daimler no início do século vinte.",
+          "variantes": [
+            "Mercedes"
+          ]
+        },
+        {
+          "id": "gelada",
+          "nome": "Gelada",
+          "descricao": "Macaco do Velho Mundo das terras altas da Etiópia, Theropithecus gelada, com mancha vermelha no peito.",
+          "variantes": [
+            "Babuíno-gelada",
+            "Theropithecus gelada"
+          ]
+        },
+        {
+          "id": "galeno",
+          "nome": "Galeno",
+          "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+          "variantes": [
+            "Cláudio Galeno",
+            "Galen",
+            "Galeno de Pérgamo"
+          ]
+        },
+        {
+          "id": "dia_de_santa_luzia_na_suecia",
+          "nome": "Dia de Santa Luzia na Suécia",
+          "descricao": "Celebração sueca de 13 de dezembro com procissões de moças vestidas de branco.",
+          "variantes": [
+            "Luciadagen",
+            "Saint Lucy's Day"
+          ]
+        },
+        {
+          "id": "daimler_reitwagen",
+          "nome": "Daimler Reitwagen",
+          "descricao": "Veículo de duas rodas com motor a gasolina construído por Gottlieb Daimler e Wilhelm Maybach em 1885, considerado a primeira motocicleta a gasolina.",
+          "variantes": [
+            "Reitwagen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jaguar E-Type",
+        "descricao": "Esportivo britânico de motor dianteiro fabricado pela Jaguar de 1961 a 1974, vendido nos EUA como XK-E.",
+        "variantes": [
+          "Jaguar XK-E",
+          "E-Type"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "e_t_o_extraterrestre",
+          "nome": "E.T. – O Extraterrestre",
+          "descricao": "Filme de ficção científica de 1982 dirigido por Steven Spielberg, sobre a amizade entre um menino e um alienígena.",
+          "variantes": [
+            "E.T. the Extra-Terrestrial",
+            "E.T."
+          ]
+        },
+        {
+          "id": "aye_aye",
+          "nome": "Aye-aye",
+          "descricao": "Primata noturno de Madagascar, de dedos longos, espécie Daubentonia madagascariensis.",
+          "variantes": [
+            "Daubentonia madagascariensis"
+          ]
+        },
+        {
+          "id": "mauna_kea",
+          "nome": "Mauna Kea",
+          "descricao": "Vulcão adormecido na ilha do Havaí, nos Estados Unidos, cuja base fica no fundo do Oceano Pacífico.",
+          "variantes": []
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ford Corcel",
+        "descricao": "Carro familiar produzido pela Ford do Brasil a partir de 1968, com base técnica da Renault.",
+        "variantes": [
+          "Corcel",
+          "Corcel GT"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "coral",
+          "nome": "Coral",
+          "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+          "variantes": [
+            "Corais"
+          ]
+        },
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "corsega",
+          "nome": "Córsega",
+          "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+          "variantes": [
+            "Corse",
+            "Corsica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Patinete",
+        "descricao": "Veículo impulsionado pela perna de quem o usa, com guidão, plataforma e rodas.",
+        "variantes": [
+          "Scooter de impulso",
+          "Kick scooter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "panetone",
+          "nome": "Panetone",
+          "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+          "variantes": [
+            "Panettone"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "pince_nez",
+          "nome": "Pince-nez",
+          "descricao": "Tipo de óculos sem hastes, cujas lentes são presas pressionando a ponte do nariz, popular no fim do século dezenove.",
+          "variantes": [
+            "Pincenê"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Chevrolet Corvette",
+        "descricao": "Linha de esportivos americanos de dois lugares fabricada pela Chevrolet desde 1953; a imagem mostra um modelo da oitava geração.",
+        "variantes": [
+          "Corvette",
+          "Corvette C8"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        },
+        {
+          "id": "sorvete",
+          "nome": "Sorvete",
+          "descricao": "Sobremesa congelada feita de leite ou creme com açúcar e sabores.",
+          "variantes": [
+            "Sorvete de massa",
+            "Ice cream"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "sebastian_vettel",
+          "nome": "Sebastian Vettel",
+          "descricao": "Piloto alemão de Fórmula 1, tetracampeão mundial entre 2010 e 2013 pela Red Bull.",
+          "variantes": [
+            "Vettel"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é carruagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "modulo_lunar_apollo",
+      "motivo": "Mesma nave de pouso lunar do programa Apollo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fragata USS Constitution."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Modelo Classe G é diferente da marca Mercedes-Benz."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Carro Jaguar E-Type difere da onça-pintada e das demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Ford Corcel."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é patinete."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Chevrolet Corvette."
+    }
+  ]
+}
