@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pumba claro, de corpo inteiro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que personagem de O Rei Leão é este?",
+      "resposta": "Pumba",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pumba",
+        "descricao": "Javali-africano comilão, amigo de Timon, em O Rei Leão, da Disney.",
+        "variantes": [
+          "Pumbaa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Reconhecível, mas a silhueta (mão na cintura, frasco escondido) é genérica de menino; uso a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que quadrinista brasileiro criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "destino": 1,
+      "ancora": {
+        "nome": "Franjinha",
+        "descricao": "Menino cientista e inventor da Turma da Mônica, morador do Bairro do Limoeiro.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Hisoka reconhecível pelo rosto, estrela e gota; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o mangá de que vem este personagem?",
+      "resposta": "Yoshihiro Togashi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hisoka",
+        "descricao": "Hisoka Morow, mágico caçador e ex-membro da Tropa Fantasma em Hunter x Hunter.",
+        "variantes": [
+          "Hisoka Morow"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Marge inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é o marido desta personagem?",
+      "resposta": "Homer Simpson",
+      "distratores": [
+        "Ned Flanders",
+        "Moe Szyslak",
+        "Krusty, o Palhaço"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Marge Simpson",
+        "descricao": "Mãe da família Simpson, de cabelo azul alto, na série Os Simpsons.",
+        "variantes": [
+          "Marjorie Bouvier Simpson"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração a lápis de Gollum, reconhecível pelo corpo magro, olhos grandes e pela água; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor criou este personagem?",
+      "resposta": "J. R. R. Tolkien",
+      "destino": 3,
+      "ancora": {
+        "nome": "Gollum",
+        "descricao": "Criatura obcecada pelo Um Anel, antes um hobbit chamado Sméagol, em O Senhor dos Anéis.",
+        "variantes": [
+          "Sméagol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Galactus reconhecível pelo capacete com chifres; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arauto prateado, montado numa prancha, serve a este devorador de mundos?",
+      "resposta": "Surfista Prateado",
+      "distratores": [
+        "Adam Warlock",
+        "Quasar",
+        "Motoqueiro Fantasma"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Galactus",
+        "descricao": "Devorador de mundos da Marvel Comics, criado em Quarteto Fantástico #48.",
+        "variantes": [
+          "Galan"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Chiquinha, personagem de TV, claramente reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta personagem do seriado mexicano?",
+      "resposta": "Chiquinha",
+      "destino": 2,
+      "ancora": {
+        "nome": "Chiquinha",
+        "descricao": "Menina de óculos e maria-chiquinha da série Chaves, interpretada por Maria Antonieta de las Nieves.",
+        "variantes": [
+          "La Chilindrina"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta é uma mancha de cachorro de cabeça para baixo, sem forma reconhecível; uso colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "distratores": [
+        "Ziraldo",
+        "Henfil",
+        "Angeli"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bidu",
+        "descricao": "Cãozinho azul, mascote da Mauricio de Sousa Produções e dono do Franjinha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cascão reconhecível; silhueta tem guarda-chuva grudado e pose, então uso colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem é o melhor amigo deste personagem nos quadrinhos?",
+      "resposta": "Cebolinha",
+      "destino": 1,
+      "ancora": {
+        "nome": "Cascão",
+        "descricao": "Menino sujinho, de cabelo preto e que não gosta de banho, da Turma da Mônica.",
+        "variantes": [
+          "Cascão Araújo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lula Molusco sozinho, corpo inteiro, silhueta de cabeça grande e pernas finas muito característica.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Lula Molusco",
+      "destino": 2,
+      "ancora": {
+        "nome": "Lula Molusco",
+        "descricao": "Polvo rabugento, vizinho e colega de trabalho de Bob Esponja, em Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Squidward Tentacles"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Nhonho em cena de Chaves, reconhecível pelo figurino verde e pelo coque; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpretou este personagem na série original?",
+      "resposta": "Edgar Vivar",
+      "distratores": [
+        "Carlos Villagrán",
+        "Rubén Aguirre",
+        "Ramón Valdés"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Nhonho",
+        "descricao": "Menino gorducho da vila de Chaves, filho da Dona Florinda e do Seu Barriga.",
+        "variantes": [
+          "Ñoño",
+          "Febrônio Barriga"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O personagem aparece minúsculo numa moldura estreita, ilegível no celular, e há texto sobreposto (1972-1973) numa montagem gráfica."
+    }
+  ]
+}

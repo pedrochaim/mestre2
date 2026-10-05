@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; a obra é citada mas não o nome. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria sustentada pelos trechos (criado por Mauricio de Sousa em 1959). Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hunter x Hunter foi criado por Yoshihiro Togashi, fato amplamente documentado e citado no trecho. O enunciado não nomeia a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marge é casada com Homer. Os distratores são personagens de Springfield e nenhum é o marido.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gollum é criação de J. R. R. Tolkien, como dizem os trechos. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado usa 'prateado', que é derivado da resposta (Surfista Prateado), e a descrição 'montado numa prancha' entrega a resposta sem a figura. Além disso, o Motoqueiro Fantasma é distrator arriscado, porque já foi descrito como arauto de Galactus. Reescrevi sem a pista e com distratores seguros.",
+      "reescrita": {
+        "pergunta": "Qual destes personagens da Marvel serviu como arauto a este vilão cósmico?",
+        "resposta": "Surfista Prateado",
+        "distratores": [
+          "Capitão América",
+          "Wolverine",
+          "Hulk"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chaves é série mexicana, e a personagem foi interpretada por Maria Antonieta de las Nieves. Resposta única (Chiquinha).",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bidu foi criado por Mauricio de Sousa em 1959. Os distratores são cartunistas brasileiros e nenhum é criador do Bidu.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Cebolinha é o melhor amigo do Cascão. A pergunta é justa e não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta de reconhecimento nível 1, sem pista no enunciado. O trecho confirma o personagem (Squidward, Lula Molusco no Brasil).",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nhonho foi interpretado por Edgar Vivar. Os distratores são outros atores de Chaves e nenhum interpretou Nhonho.",
+      "reescrita": null
+    }
+  ]
+}

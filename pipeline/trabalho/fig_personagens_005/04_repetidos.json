@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem criou este personagem?",
+        "resposta": "Mauricio de Sousa"
+      },
+      "existentes": [
+        {
+          "id": "q04418",
+          "pergunta": "O cãozinho Bidu foi o primeiro personagem que Mauricio de Sousa publicou num jornal. Em que ano isso aconteceu?",
+          "resposta": "1959"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o criador do personagem (Mauricio de Sousa). A existente quer o ano da primeira publicação em jornal (1959). São fatos diferentes. A existente também dá o criador no enunciado, mas isso não é o que ela pergunta."
+    }
+  ]
+}

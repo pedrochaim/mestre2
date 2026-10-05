@@ -1,0 +1,650 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pumba",
+        "descricao": "Javali-africano comilão, amigo de Timon, em O Rei Leão, da Disney.",
+        "variantes": [
+          "Pumbaa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "umbanda",
+          "nome": "Umbanda",
+          "descricao": "Religião brasileira que reúne elementos africanos, indígenas, católicos e espíritas, surgida no início do século vinte",
+          "variantes": []
+        },
+        {
+          "id": "numbat",
+          "nome": "Numbat",
+          "descricao": "Pequeno marsupial diurno, listrado, que se alimenta de cupins, do sudoeste da Austrália (Myrmecobius fasciatus).",
+          "variantes": [
+            "Myrmecobius fasciatus",
+            "Mirmecóbio",
+            "Noombat"
+          ]
+        },
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Franjinha",
+        "descricao": "Menino cientista e inventor da Turma da Mônica, morador do Bairro do Limoeiro.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        },
+        {
+          "id": "joaninha",
+          "nome": "Joaninha",
+          "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+          "variantes": [
+            "Coccinellidae",
+            "ladybird",
+            "ladybug"
+          ]
+        },
+        {
+          "id": "benjamin_franklin",
+          "nome": "Benjamin Franklin",
+          "descricao": "Polímata, estadista e inventor americano, um dos pais fundadores dos Estados Unidos.",
+          "variantes": [
+            "Franklin"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "forca_expedicionaria_brasileira",
+          "nome": "Força Expedicionária Brasileira",
+          "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+          "variantes": [
+            "FEB",
+            "Brazilian Expeditionary Force",
+            "Pracinhas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Hisoka",
+        "descricao": "Hisoka Morow, mágico caçador e ex-membro da Tropa Fantasma em Hunter x Hunter.",
+        "variantes": [
+          "Hisoka Morow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ashoka",
+          "nome": "Ashoka",
+          "descricao": "Imperador da dinastia Máuria, que governou quase todo o subcontinente indiano no século três antes de Cristo.",
+          "variantes": [
+            "Asoka",
+            "Ashoka, o Grande"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        },
+        {
+          "id": "lisboa",
+          "nome": "Lisboa",
+          "descricao": "Capital de Portugal, às margens do rio Tejo.",
+          "variantes": [
+            "Lisbon"
+          ]
+        },
+        {
+          "id": "ahimsa",
+          "nome": "Ahimsa",
+          "descricao": "Princípio de não violência presente no hinduísmo, no budismo e no jainismo",
+          "variantes": [
+            "Ahinsa"
+          ]
+        },
+        {
+          "id": "shakshuka",
+          "nome": "Shakshuka",
+          "descricao": "Prato magrebino de ovos cozidos em molho de tomate, pimentão, cebola e alho.",
+          "variantes": [
+            "Shakshouka",
+            "Chakchouka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Marge Simpson",
+        "descricao": "Mãe da família Simpson, de cabelo azul alto, na série Os Simpsons.",
+        "variantes": [
+          "Marjorie Bouvier Simpson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bart_simpson",
+          "nome": "Bart Simpson",
+          "descricao": "Personagem de Os Simpsons, o filho mais velho e travesso de Homer e Marge.",
+          "variantes": [
+            "Bartholomew Simpson"
+          ]
+        },
+        {
+          "id": "homer_simpson",
+          "nome": "Homer Simpson",
+          "descricao": "Personagem de Os Simpsons, o pai da família, funcionário da usina nuclear de Springfield.",
+          "variantes": [
+            "Homer Jay Simpson"
+          ]
+        },
+        {
+          "id": "os_simpsons",
+          "nome": "Os Simpsons",
+          "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+          "variantes": [
+            "The Simpsons"
+          ]
+        },
+        {
+          "id": "mar_caspio",
+          "nome": "Mar Cáspio",
+          "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+          "variantes": [
+            "Caspian Sea",
+            "Cáspio"
+          ]
+        },
+        {
+          "id": "m_bison",
+          "nome": "M. Bison",
+          "descricao": "Vilão da série Street Fighter, da Capcom, líder da organização Shadaloo.",
+          "variantes": [
+            "Vega (Japão)",
+            "Bison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gollum",
+        "descricao": "Criatura obcecada pelo Um Anel, antes um hobbit chamado Sméagol, em O Senhor dos Anéis.",
+        "variantes": [
+          "Sméagol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        },
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "volkswagen_gol",
+          "nome": "Volkswagen Gol",
+          "descricao": "Carro compacto fabricado pela Volkswagen do Brasil de 1980 a 2023, o mais vendido do país por 27 anos seguidos.",
+          "variantes": [
+            "Gol",
+            "VW Gol"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Galactus",
+        "descricao": "Devorador de mundos da Marvel Comics, criado em Quarteto Fantástico #48.",
+        "variantes": [
+          "Galan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        },
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "galvanismo",
+          "nome": "Galvanismo",
+          "descricao": "Contração de músculos provocada por corrente elétrica, estudada por Luigi Galvani no século dezoito.",
+          "variantes": [
+            "Galvanism"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chiquinha",
+        "descricao": "Menina de óculos e maria-chiquinha da série Chaves, interpretada por Maria Antonieta de las Nieves.",
+        "variantes": [
+          "La Chilindrina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chiquinho_o_tico_tico",
+          "nome": "Chiquinho (O Tico-Tico)",
+          "descricao": "Personagem principal da revista infantil brasileira O Tico-Tico, lançada em 1905",
+          "variantes": [
+            "Chiquinho"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        },
+        {
+          "id": "chiquititas_1997",
+          "nome": "Chiquititas (1997)",
+          "descricao": "Primeira versão brasileira da telenovela infantil Chiquititas, sobre meninas de um orfanato, exibida pelo SBT de 1997 a 2001.",
+          "variantes": [
+            "Chiquititas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bidu",
+        "descricao": "Cãozinho azul, mascote da Mauricio de Sousa Produções e dono do Franjinha.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bidu",
+          "nome": "Bidu",
+          "descricao": "Cachorrinho azul criado por Mauricio de Sousa, seu primeiro personagem publicado",
+          "variantes": []
+        },
+        {
+          "id": "go",
+          "nome": "Go",
+          "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+          "variantes": [
+            "Weiqi",
+            "Baduk"
+          ]
+        },
+        {
+          "id": "bismuto",
+          "nome": "Bismuto",
+          "descricao": "Elemento químico de símbolo Bi e número atômico 83, metal que forma cristais escalonados iridescentes.",
+          "variantes": [
+            "Bi"
+          ]
+        },
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Cascão",
+        "descricao": "Menino sujinho, de cabelo preto e que não gosta de banho, da Turma da Mônica.",
+        "variantes": [
+          "Cascão Araújo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Lula Molusco",
+        "descricao": "Polvo rabugento, vizinho e colega de trabalho de Bob Esponja, em Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Squidward Tentacles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_quatro_estacoes",
+          "nome": "As Quatro Estações",
+          "descricao": "Conjunto de quatro concertos para violino de Antonio Vivaldi, publicado em 1725.",
+          "variantes": [
+            "Le quattro stagioni",
+            "The Four Seasons"
+          ]
+        },
+        {
+          "id": "idolo_mourisco",
+          "nome": "Ídolo-mourisco",
+          "descricao": "Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento.",
+          "variantes": [
+            "Zanclus cornutus",
+            "Peixe-ídolo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Nhonho",
+        "descricao": "Menino gorducho da vila de Chaves, filho da Dona Florinda e do Seu Barriga.",
+        "variantes": [
+          "Ñoño",
+          "Febrônio Barriga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "neonio",
+          "nome": "Neônio",
+          "descricao": "Elemento químico gasoso de número atômico 10, um gás nobre famoso pelos letreiros luminosos.",
+          "variantes": [
+            "Néon",
+            "Neon"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "seu_barriga",
+          "nome": "Seu Barriga",
+          "descricao": "Proprietário da vila no seriado Chaves, cobrador de aluguéis, interpretado por Edgar Vivar.",
+          "variantes": [
+            "Senhor Barriga",
+            "Sr. Barriga",
+            "Don Barriga"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pumba é personagem; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Franjinha é personagem da Turma da Mônica; candidatas diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Hisoka é personagem de Hunter x Hunter; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Marge é personagem distinta de Bart, Homer e da série."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Gollum não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Galactus é vilão da Marvel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Chiquinha de Chaves não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "bidu",
+      "motivo": "Cãozinho azul de Mauricio de Sousa, mesma entidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cascão é personagem; candidatas são outras entidades."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lula Molusco é personagem de Bob Esponja; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nhonho é personagem distinto de Seu Barriga, seu pai."
+    }
+  ]
+}
