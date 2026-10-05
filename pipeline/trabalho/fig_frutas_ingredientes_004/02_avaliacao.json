@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pendão e folhas de milho no campo, reconhecível; múltipla com cereais parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta cultivada é esta?",
+      "resposta": "Milho",
+      "distratores": [
+        "Sorgo",
+        "Cana-de-açúcar",
+        "Trigo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Milho",
+        "descricao": "Zea mays, gramínea cultivada pelos grãos, as espigas de milho.",
+        "variantes": [
+          "Zea mays",
+          "Maize"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Planta de gergelim com uma flor pequena e folhas; pouco reconhecível, resposta não única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Monte de frutos verdes arredondados, parecidos com outras frutas verdes (ameixas, limões); não dá para reconhecer o umbu com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pimentão vermelho nítido, fundo branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Na botânica, este vegetal de cozinha é classificado como que tipo de fruto?",
+      "resposta": "Baga",
+      "distratores": [
+        "Drupa",
+        "Vagem",
+        "Noz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimentão",
+        "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+        "variantes": [
+          "Pimentão vermelho",
+          "Bell pepper"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mirtilos numa tigela branca, nítidos e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Mirtilo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mirtilo",
+        "descricao": "Fruta pequena, azul-arroxeada, do gênero Vaccinium (Cyanococcus).",
+        "variantes": [
+          "Blueberry"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Flor de alcaparreira nítida e característica, de estames longos; múltipla com flores de estames compridos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que planta é esta flor?",
+      "resposta": "Alcaparreira",
+      "distratores": [
+        "Caliandra",
+        "Maracujá",
+        "Hibisco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alcaparra",
+        "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+        "variantes": [
+          "Alcaparreira",
+          "Capparis spinosa",
+          "Caper"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cenouras de várias cores dispostas em círculo, claramente cenouras, sem texto; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que raiz comestível é esta, aqui em várias cores?",
+      "resposta": "Cenoura",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cenoura",
+        "descricao": "Daucus carota subsp. sativus, raiz comestível, em geral alaranjada.",
+        "variantes": [
+          "Daucus carota"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fruto de quiabo verde na planta, nítido e característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que hortaliça é esta, ainda na planta?",
+      "resposta": "Quiabo",
+      "distratores": [
+        "Jiló",
+        "Vagem",
+        "Pimenta-de-cheiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quiabo",
+        "descricao": "Abelmoschus esculentus, planta da família das malváceas cujo fruto verde é comido como hortaliça.",
+        "variantes": [
+          "Okra",
+          "Abelmoschus esculentus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Planta jovem sem frutos, com flores pequenas, vasos e etiqueta parcial; não reconhecível como jiló."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Prancha botânica ilustrada com numeração e detalhes múltiplos; ilustração onde existe foto, e várias partes diferentes."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O fruto mostrado, vermelho-amarelado e pintado, lembra pêssego ou nectarina, não uma goiaba; não é reconhecível como goiaba."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Copa de árvore com cachos pequenos e distantes de frutos vermelhos; pouco legível no celular e não reconhecível."
+    }
+  ]
+}

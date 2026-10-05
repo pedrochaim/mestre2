@@ -1,0 +1,381 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Milho",
+        "descricao": "Zea mays, gramínea cultivada pelos grãos, as espigas de milho.",
+        "variantes": [
+          "Zea mays",
+          "Maize"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize"
+          ]
+        },
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pimentão",
+        "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+        "variantes": [
+          "Pimentão vermelho",
+          "Bell pepper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "papiamento",
+          "nome": "Papiamento",
+          "descricao": "Língua crioula de base ibérica falada nas Antilhas neerlandesas",
+          "variantes": [
+            "Papiamentu",
+            "Papiamentoe"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mirtilo",
+        "descricao": "Fruta pequena, azul-arroxeada, do gênero Vaccinium (Cyanococcus).",
+        "variantes": [
+          "Blueberry"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize"
+          ]
+        },
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        },
+        {
+          "id": "litio",
+          "nome": "Lítio",
+          "descricao": "Elemento químico de número atômico 3, o metal mais leve, usado em baterias recarregáveis.",
+          "variantes": [
+            "Li"
+          ]
+        },
+        {
+          "id": "vaga_lume",
+          "nome": "Vaga-lume",
+          "descricao": "Besouro da família Lampyridae, conhecido por emitir luz para atrair parceiros.",
+          "variantes": [
+            "Pirilampo",
+            "Lampyridae",
+            "Firefly"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alcaparra",
+        "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+        "variantes": [
+          "Alcaparreira",
+          "Capparis spinosa",
+          "Caper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papel",
+          "nome": "Papel",
+          "descricao": "Material de escrita feito de fibras vegetais, desenvolvido na China da dinastia Han.",
+          "variantes": [
+            "Paper",
+            "Papel de fibra vegetal"
+          ]
+        },
+        {
+          "id": "capoeira",
+          "nome": "Capoeira",
+          "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+          "variantes": []
+        },
+        {
+          "id": "piaggio_ape",
+          "nome": "Piaggio Ape",
+          "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+          "variantes": [
+            "Ape",
+            "Ape 50",
+            "Vespacar"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "capivara",
+          "nome": "Capivara",
+          "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris.",
+          "variantes": [
+            "Hydrochoerus hydrochaeris",
+            "Capybara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cenoura",
+        "descricao": "Daucus carota subsp. sativus, raiz comestível, em geral alaranjada.",
+        "variantes": [
+          "Daucus carota"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coral",
+          "nome": "Coral",
+          "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+          "variantes": [
+            "Corais"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "ceara",
+          "nome": "Ceará",
+          "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza.",
+          "variantes": []
+        },
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        },
+        {
+          "id": "carmen_opera",
+          "nome": "Carmen (ópera)",
+          "descricao": "Ópera de Georges Bizet, estreada em Paris em 1875, sobre uma cigana sedutora.",
+          "variantes": [
+            "Carmen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Quiabo",
+        "descricao": "Abelmoschus esculentus, planta da família das malváceas cujo fruto verde é comido como hortaliça.",
+        "variantes": [
+          "Okra",
+          "Abelmoschus esculentus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca",
+            "Killer whale"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "milho",
+      "motivo": "Mesma espécie Zea mays, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pimentão (Capsicum annuum Grossum) não consta; pimenta é outra entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mirtilo não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Alcaparra não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cenoura não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Quiabo não está entre as candidatas."
+    }
+  ]
+}

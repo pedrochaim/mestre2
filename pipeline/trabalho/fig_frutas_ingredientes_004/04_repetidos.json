@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que planta cultivada é esta?",
+        "resposta": "Milho"
+      },
+      "existentes": [
+        {
+          "id": "q04176",
+          "pergunta": "No topo desta gramínea cultivada pelos grãos, há uma estrutura que produz o pólen. Como ela se chama?",
+          "resposta": "Pendão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da planta (milho); a existente pergunta o nome da estrutura que produz o pólen (pendão). São fatos diferentes."
+    }
+  ]
+}
