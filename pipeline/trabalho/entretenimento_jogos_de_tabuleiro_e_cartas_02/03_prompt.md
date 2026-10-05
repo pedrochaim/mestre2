@@ -1,0 +1,1766 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Jogos de Tabuleiro e Cartas** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Chaturanga",
+      "descricao": "Antigo jogo de tabuleiro indiano de estratégia, considerado o ancestral do xadrez."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Considerado o ancestral do xadrez, o chaturanga surgiu por volta do século seis no território de qual país atual?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chaturanga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga (Sanskrit: चतुरङ्ग, IAST: caturaṅga, pronounced [tɕɐt̪uˈɾɐŋɡɐ]) is an ancient Indian strategy board game. It is first known from India around the seventh century CE.\n[…]\nSanskrit caturaṅga is a bahuvrihi compound word, meaning \"having four limbs or parts\" and in epic poetry often meaning \"army\". The name comes from a battle formation mentioned in the Indian epic Mahabharata. Chaturanga refers to four divisions of an army, namely elephantry, chariotry, cavalry and infantry. An ancient battle formation, akshauhini, is like the setup of chaturanga.\n[…]\nThe origin of chaturanga has been a puzzle for centuries. The earliest clear reference comes from north India from the Gupta Empire, dating from the sixth century AD. Banabhatta's Harsha Charitha (c. AD 625) contains the earliest reference to the name chaturanga:\n[…]\nAccording to Stewart Culin, chaturanga was first described in the Hindu text Bhavishya Purana. The Bhavishya Purana is known to include modern additions and interpolations, however, even mentioning British rule of India.\n[…]\nWhile there is some uncertainty, the prevailing view among chess historians is that chaturanga is the common ancestor of the board games chess, xiangqi (Chinese), janggi (Korean), shogi (Japanese), sittuyin (Burmese), makruk (Thai), ouk chatrang (Cambodian) and modern Indian chess.\n[…]\nThe move was described c. 1030 by Biruni in his book India.\n[…]\nThis is reminiscent of the aforementioned chaturaji, where the elephant moves as a rook.\n[…]\nChaturanga by Hans Bodlaender, The Chess Variant Pages\n[…]\nChaturanga Archived 2014-09-05 at the Wayback Machine a simple program by Ed Friedlander (Java)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga é um antigo jogo de tabuleiro indiano que se acredita estar na origem do Jogo de Xadrez, o Shogi e o Makruk, e é relacionado com o Xiang Qi (ou Janggi). Surgiu provavelmente no século VI, sendo considerado o predecessor do Xatranje que, por sua vez, veio a originar o xadrez moderno.\n[…]\nEmbora termos indicando jogos de tabuleiro sejam vagos em relação às regras, o termo Ashtāpada (8x8) e dasapada (10x10) são úteis pois usam o mesmo tabuleiro monocromático que outras variantes de xadrez antigas. O significado da palavra Ashtāpada é estabelecido por Patânjali no livro Mahābhāshya escrito no século II, como um tabuleiro em que cada linha tem oito casas monocromáticas, sendo o termo um objeto familiar.\n[…]\nChaturanga é um adjetivo composto por duas palavras, chatur que significa \"quatro\" e anga que significa \"membro\" e tem o significado literal de \"quadripartido\". Em seu sentido original aparece no Rigveda em referência as quatro partes do corpo humano e no Shatapatha Brahmana.\n[…]\nO significado destas quatro partes fica claro da conexão da palavra chaturanga com bigas, elefantes, cavalaria e infantaria no Ramáiana, no Mahābhārata e no Amarakosa no qual o exército é expressamente chamado de hasty-ashwa-ratha-padatam que era a composição do exército desde século IV a.C. de acordo com relatos gregos da invasão do noroeste indiano por Alexandre, o Grande. O historiador grego Megástenes passou algum tempo na corte de Pataliputra no século III a.C.\n[…]\ne afirmou que havia seis divisões no exército: Elefantes, Bigas, Cavalaria, Soldados, suprimentos e barcos. (hasty-aswa-ratha-padati-senepati-karmakara).\n[…]\nXadrez na Arábia\n[…]\nXadrez na Índia\n[…]\nChessVariants.org: Chaturanga (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Chaturanga",
+      "descricao": "Antigo jogo de tabuleiro indiano de estratégia, considerado o ancestral do xadrez."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em sânscrito, chaturanga, o nome do antigo ancestral do xadrez, quer dizer quatro membros. Quatro membros de quê?",
+    "resposta": "Do exército",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chaturanga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga (Sanskrit: चतुरङ्ग, IAST: caturaṅga, pronounced [tɕɐt̪uˈɾɐŋɡɐ]) is an ancient Indian strategy board game. It is first known from India around the seventh century CE.\n[…]\nWhile there is some uncertainty, the prevailing view among chess historians is that chaturanga is the common ancestor of the board games chess, xiangqi (Chinese), janggi (Korean), shogi (Japanese), sittuyin (Burmese), makruk (Thai), ouk chatrang (Cambodian) and modern Indian chess. It was adopted as chatrang (shatranj) in Sassanid Persia, which in turn was the form of chess brought to late-medieval Europe.\n[…]\nSanskrit caturaṅga is a bahuvrihi compound word, meaning \"having four limbs or parts\" and in epic poetry often meaning \"army\". The name comes from a battle formation mentioned in the Indian epic Mahabharata. Chaturanga refers to four divisions of an army, namely elephantry, chariotry, cavalry and infantry. An ancient battle formation, akshauhini, is like the setup of chaturanga.\n[…]\nWhile there is some uncertainty, the prevailing view among chess historians is that chaturanga is the common ancestor of the board games chess, xiangqi (Chinese), janggi (Korean), shogi (Japanese), sittuyin (Burmese), makruk (Thai), ouk chatrang (Cambodian) and modern Indian chess.\n[…]\nThe same move is used for the boat in Indian chaturaji, a four-player version of chaturanga.\n[…]\nThis is reminiscent of the aforementioned chaturaji, where the elephant moves as a rook.\n[…]\nChaturanga by Hans Bodlaender, The Chess Variant Pages\n[…]\nChaturanga Archived 2014-09-05 at the Wayback Machine a simple program by Ed Friedlander (Java)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga é um antigo jogo de tabuleiro indiano que se acredita estar na origem do Jogo de Xadrez, o Shogi e o Makruk, e é relacionado com o Xiang Qi (ou Janggi). Surgiu provavelmente no século VI, sendo considerado o predecessor do Xatranje que, por sua vez, veio a originar o xadrez moderno.\n[…]\nAssim como nos jogos de tabuleiro atuais, o chaturanga se joga com dois jogadores, mas também há uma versão para quatro jogadores, o Chaturaji.\n[…]\nChaturanga é um adjetivo composto por duas palavras, chatur que significa \"quatro\" e anga que significa \"membro\" e tem o significado literal de \"quadripartido\". Em seu sentido original aparece no Rigveda em referência as quatro partes do corpo humano e no Shatapatha Brahmana.\n[…]\nO termo apareceu também no Mahābhārata que existe desde o século V, Ramáiana (século V a.C.), Nitisara (Kamandaki) do início da era cristã e no Atarvaveda Parsistas (~250) tanto com a palavra bata (exército) ou como substantivo neutro ou feminino no sentido de \"exército composto por quatro membros\" e \"exército\" em geral, ficando claro o uso da palavra como nome do exército em sânscrito.\n[…]\nO significado destas quatro partes fica claro da conexão da palavra chaturanga com bigas, elefantes, cavalaria e infantaria no Ramáiana, no Mahābhārata e no Amarakosa no qual o exército é expressamente chamado de hasty-ashwa-ratha-padatam que era a composição do exército desde século IV a.C. de acordo com relatos gregos da invasão do noroeste indiano por Alexandre, o Grande. O historiador grego Megástenes passou algum tempo na corte de Pataliputra no século III a.C.\n[…]\ne afirmou que havia seis divisões no exército: Elefantes, Bigas, Cavalaria, Soldados, suprimentos e barcos. (hasty-aswa-ratha-padati-senepati-karmakara).\n[…]\nXadrez na Índia\n[…]\nChessVariants.org: Chaturanga (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Dama (xadrez)",
+      "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A dama do xadrez já foi uma peça fraca, que andava uma só casa na diagonal. Em que século ela ganhou os poderes de hoje?",
+    "resposta": "Século quinze",
+    "distratores": [
+      "Século doze",
+      "Século dezoito",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Queen_(chess)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Queen_(chess)",
+        "situacao": "ok",
+        "texto": "The queen (♕, ♛) is the most powerful piece in the game of chess. It can move any number of squares vertically, horizontally, or diagonally, combining the powers of the rook and bishop. Each player starts the game with one queen, placed in the middle of the first rank next to the king. Because the queen is the strongest piece, a pawn is promoted to a queen in the vast majority of cases; if a pawn \n[…]\nThe queen can move any number of unoccupied squares in a straight line vertically, horizontally, or diagonally, thus combining the moves of the rook and bishop. The queen captures by moving to the square on which an enemy piece stands.\n[…]\nThe queen was originally the counsellor or prime minister or vizier (Sanskrit mantri, Persian farzīn, Arabic firzān, firz or wazīr). Initially, its only move was one square diagonally. Around 1300, its abilities were enhanced to allow it to jump two squares diagonally (onto a same-colored square) for its first move.\n[…]\nDuring the great chess reform at the end of the 15th century, Catholic nations kept using an equivalent of Latin domina ('lady'), such as dama in Spanish, donna in Italy, and dame in France, all of which evoke \"Our Lady\". Protestant nations such as Germany and England, however, refused any derivatives of domina as it might have suggested some cult of the Virgin Mary, and instead opted for secular terms such as Königin in German and \"queen\" in English.\n[…]\nIn most languages the piece is known as \"queen\" or \"lady\" (e.g. Italian regina or Spanish dama). Asian and Eastern European languages tend to refer to it as vizier, minister, or advisor (e.g. Arabic/Persian وزیر wazir (vazir), Russian/Persian ферзь/فرز ferz). In Polish it is known as the hetman, the name of a major historical military-political office, while in Estonian it is called lipp ('flag', 'standard').\n[…]\nQueen's graph\n[…]\nCheckmate with a King and Queen · Interactive Chess Endgame Practice"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dama_%28xadrez%29",
+        "situacao": "ok",
+        "texto": "A Dama ou Rainha é uma peça maior do jogo de xadrez, representada nos países lusófonos pela letra D nas notações algébricas. É a peça de maior valor relativo do jogo, usualmente valorada entre nove e dez pontos. Assim como a Torre, é capaz de, com o auxílio do seu Rei, vencer uma partida contra um Rei solitário. Por sua alta mobilidade é a peça preferida do enxadrista iniciante.\n[…]\nA peça passou a ser chamada de Dama na França (Dame), Alemanha (Dame), Itália (Donna) e Espanha (Dama), e de Rainha na Inglaterra (Queen). Na Rússia ainda é chamada de ferz (koroleva, ou Rainha, é um termo coloquial e não utilizado por enxadristas profissionais), e em polonês é conhecida também como hetmã — o título de um comandante militar nacional.\n[…]\nA ascensão da Dama como a peça de maior valor relativo do xadrez coincidiu com o reinado influente de Isabel I de Castela, entretanto é provável que outras rainhas como Leonor da Aquitânia, Branca de Castela, Teofânia Escleraina e Matilde de Canossa tenham influenciado a inclusão da figura feminina da Dama sobre o tabuleiro. O culto a virgem Maria na França do século XIII também poderia ter influenciado o jogo.\n[…]\nA Dama possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais. O número de casas que pode atacar num tabuleiro vazio varia de 21 a 27 casas sendo mais efetiva no centro do tabuleiro. Não pode pular peças de mesma cor ou adversária e seu movimento de captura consiste em ocupar a casa da peça adversária.\n[…]\nDevido a importância que a Dama adquiriu no xadrez, foi difundida uma expressão em francês Gardez la Dame que significa Proteja a Dama, anunciada quando o enxadrista atacava a peça adversária. Esta expressão, porém, caiu em desuso no final do século XIX, e assim como o xeque, não é mais empregada em competições formais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Xeque (xadrez)",
+      "descricao": "Situação do xadrez em que o rei está ameaçado de captura por uma peça adversária."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra xeque, usada no xadrez, vem de um termo persa que também era o título dos monarcas do Irã. O que ele significa?",
+    "resposta": "Rei",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Checkmate",
+      "https://en.wikipedia.org/wiki/Check_(chess)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Checkmate",
+        "situacao": "ok",
+        "texto": "Checkmate (often shortened to mate) is any game position in chess and other chess-like games in which a player's king is in check (threatened with capture) and there is no possible escape. Checkmating the opponent wins the game.\n[…]\nIf a player is not in check but has no legal moves, then it is stalemate, and the game immediately ends in a draw. A checkmating move is recorded in algebraic notation using the hash symbol \"#\", for example: 34.Qg3#.\n[…]\n\"Shāh\" (شاه) is the Persian word for the monarch. Players would announce \"Shāh\" when the king was in check. \"Māt\" (مات) is a Persian adjective for \"at a loss\", \"helpless\", or \"defeated\". So the king is in mate when he is ambushed, at a loss, helpless, defeated, or abandoned to his fate.\n[…]\nOn the other hand, Jeremy Silman includes the checkmate with two bishops but not the bishop plus knight checkmate because he has had it only once and his friend John Watson has never had it. Silman says: \"... mastering it would take a significant chunk of time. Should the chess hopeful really spend many of his precious hours he's put aside for chess study learning an endgame he will achieve (at most) only once or twice in his lifetime?\"\n[…]\nThe mate is usually seen in a corner of the board, since fewer pieces are needed to surround the king there. The most common form of smothered mate is seen in the adjacent diagram. The knight on f7 delivers mate to the king on h8 which is prevented from escaping the check by the rook on g8 and the pawns on g7 and h7. Similarly, White can be mated with the white king on h1 and the knight on f2."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Check_(chess)",
+        "situacao": "ok",
+        "texto": "In chess and similar games, check is a condition that occurs when a player's king is under immediate threat of capture on the very next turn. A king so threatened is said to be in check. A player must get out of check if possible by moving the king to an unattacked square, interposing a piece between the threatening piece and the king, or capturing the threatening piece.\n[…]\nThere are also a few more special types of check:\n[…]\nIn this usage, the words \"check\" and \"chess\" come via Arabic from Persian shāh, meaning 'king' or 'monarch' (Murray 2012:159).\n[…]\nIn informal games, most players still announce \"check\"; however, this is no longer required under the rules of chess and is not encouraged in formal games (Just & Burg 2003:28). In the FIDE rules for rapid chess, if a player leaves or places their king in check or commits any other illegal move, their opponent can claim a win.\n[…]\nIn algebraic chess notation, a \"+\" is normally written after a checking move. A minority of publications, most notably ECO, omit any mention of check.\n[…]\nSometimes checking an opponent provides no benefit to the checking player. This is called a useless check and it may even provide the checked opponent with a tempo (move opportunity) to move the king into a safer position (Hooper & Whyld 1992:437). For example, 1.e4 e6 2.d4 Bb4+? does nothing for Black and in fact causes him to lose a tempo after 3.c3!\n[…]\nA check given with the sole intention of delaying an inevitable defeat by one move is referred to as a spite check, and may be considered somewhat unsporting (Eade 2005:65).\n[…]\nRepetitive checking to prevent losing the game (draw by perpetual check)\n[…]\nLimiting the opponent's response to a move by moving with a discovered check\n[…]\nChasing the king to a location where it can be checkmated or the opponent must concede significant material to avoid checkmate (a king hunt)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xeque-mate",
+        "situacao": "ok",
+        "texto": "Xeque-mate (em persa شاه مات‎, significando rei se render), ou simplesmente mate, é uma expressão usada no enxadrismo para designar o lance que põe fim à partida, quando o Rei atacado por uma ou mais peças adversárias não pode movimentar-se para outra casa, tomar a peça que o ameaça ou bloquear o ataque com outra peça.\n[…]\nA maioria dos termos de xadrez, usados pelos europeus, tem origem persa. Shah, que quer dizer rei, deu origem a check e chess em inglês, echec e echecs em francês, scacco em italiano e xaque em espanhol. Shâh-mât significa o rei está morto.\n[…]\nA expressão Shâh-mât não é usada quando o adversário é seu soberano, quando a expressão usada é Shâh-em!, ou Ó meu rei! Houve um rei da Pérsia que proibiu o jogo de xadrez, por causa da expressão shâh-mât. Seu sucessor voltou a permitir o jogo, mas ordenou que a expressão usada fosse Nefs-mât, ou a pessoa está morta.\n[…]\nPara a execução desse tipo de mate, é necessário bloquear o avanço do Rei adversário para o centro do tabuleiro, usando o Rei. Para então dar xeque-mate com a Torre.\n[…]\nXeque\n[…]\nLeis do Xadrez",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Torre (xadrez)",
+      "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A torre do xadrez descende da peça persa chamada rukh. Que veículo essa peça representava originalmente?",
+    "resposta": "Carro de guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rook_(chess)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rook_(chess)",
+        "situacao": "ok",
+        "texto": "The rook (; ♖, ♜) is a piece in the game of chess. Each player starts the game with two rooks, one in each corner on their side of the board. It may move any number of squares horizontally or vertically without jumping, and it may capture an enemy piece on its path; it may participate in castling.\n[…]\nFormerly, the rook (from Persian: رخ, romanized: rokh/rukh, lit. 'chariot') was alternatively called the tower, marquess, rector, and comes (count or earl). The term \"castle\" is considered to be informal or old-fashioned.\n[…]\nIn the medieval shatranj, the rook symbolized a chariot. The Persian word rukh means 'chariot', as does the name of the corresponding piece in the original Indian version, chaturanga, ratha. In modern times, it is mostly known as हाथी (elephant) to Hindi-speaking players, while East Asian chess games such as xiangqi and shogi have names also meaning chariot (車) for the same piece.\n[…]\nIn the West, the rook is almost universally represented as a crenellated turret. The piece is called torre ('tower') in Italian, Portuguese, Catalan and Spanish; tour in French; toren in Dutch; Turm in German; torn in Swedish; and torni in Finnish. In Hungarian, it is bástya ('bastion') and in Hebrew, it is called צריח (tsariʾaḥ, meaning 'turret'). In the British Museum's collection of the medieval Lewis chess pieces, the rooks appear as stern warders, or wild-eyed berserker warriors.\n[…]\n♜ U+265C Black Chess Rook\n[…]\n🨂 U+1FA02 Neutral Chess Rook\n[…]\nRook and pawn versus rook endgame\n[…]\nSunnucks, Anne (1970), \"rook, the\", The Encyclopaedia of Chess, St. Martins Press, ISBN 978-0-7091-4697-1\n[…]\nBrace, Edward R. (1977), \"rook\", An Illustrated Dictionary of Chess, Hamlyn Publishing Group, pp. 241–42, ISBN 1-55521-394-4\n[…]\nPiececlopedia: Rook by Fergus Duniho and Hans Bodlaender, The Chess Variant Pages"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_%28xadrez%29",
+        "situacao": "ok",
+        "texto": "A Torre é uma peça maior do xadrez, empregada usualmente na fase final do jogo devido ao seu valor estratégico e tático, sendo amplamente estudada na literatura sobre o enxadrismo. Seu valor relativo é de aproximadamente cinco pontos, podendo variar em função de seu posicionamento em colunas ou fileiras abertas, ou formações estratégicas como baterias.\n[…]\nUma das lendas que acompanham a criação do jogo conta que o brâmane Sissa criou o chaturanga, predecessor mais antigo do xadrez, tomando por base as figuras do exército indiano e incluiu a Biga, um carro de guerra movido por cavalos muito comum na época. O movimento desta peça era idêntico ao da atual torre e seu nome em sânscrito era Ratha. De acordo com relatos gregos, esta era a composição do exército indiano desde o Séc. IV a.C.\n[…]\nAté a introdução da Dama, por volta do século XV, a Torre era a peça mais forte do jogo e, ao ser ameaçada, o jogador atacante alertava o oponente anunciando shah-rukh em alusão ao xeque imposto ao Rei.\n[…]\nIsto levou à tradição de denominar a peça pela palavra com o significado de Torre na maioria dos países europeus, com exceção da Inglaterra, que transliterou novamente o significado da palavra para Rook. Entretanto, a peça é conhecida como Castle entre os leigos ao jogo, em países de língua inglesa, devido a sua representação comum como uma torre ou Turret. Em francês a peça é chamada de Tour, em alemão de Turm e em holandês de kastell.\n[…]\nQuando os árabes conquistaram a Pérsia e simplificaram o desenho das peças seguindo a proibição do islamismo de representar figuras vivas, o desenho foi modificado, mas seu conceito como carro de guerra, originalmente proposto, foi mantido. No conjunto de peças de Ager, a peça tem o formato de um bloco retangular com um corte profundo na parte superior.\n[…]\nQualidade (xadrez)\n[…]\nElefante (xadrez)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Roque",
+      "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Quando um jogador de xadrez faz o roque, que duas peças ele move num mesmo lance?",
+    "resposta": "O rei e uma torre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castling"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Castling",
+        "situacao": "ok",
+        "texto": "Castling is a move in chess. It consists of moving the king two squares toward a rook on the same rank and then moving the rook to the square that the king passed over. Castling is permitted only if neither the king nor the rook has previously moved; the squares between the king and the rook are vacant; and the king does not leave, cross over, or finish on a square attacked by an enemy piece. Cast\n[…]\nIn the 1934 Belgian Championship, Otto Feuer caught Albéric O'Kelly in the Thornton castling trap. In the position in the diagram, the game continued 10...Rxb2 11.dxe5 dxe5?? 12.Qxd8+ Kxd8 13.0-0-0+, and O'Kelly resigned. Feuer's last move simultaneously gave check and attacked the rook on b2.\n[…]\nWhite begins castling artificially.\n[…]\nIn variants played on a standard 8×8 board, castling is often the same as in standard chess. This includes variants that replace the king with a different royal piece, as is the case with the knight in Knightmate. Some variants, however, have different rules; for example, in Chess960, the king may move as many as six squares and as few as zero squares when castling, depending on the starting position.\n[…]\nCastling can also be adapted to variants with different board sizes and shapes. Some such variants, like Capablanca chess (10×8) or chess on a really big board (16×16), preserve the castling movement of the rooks, meaning that the king moves a different distance along the back rank. In a few variants, most notably Wildebeest chess (11×10), the player may choose to move the king any distance and move the rook accordingly.\n[…]\nThe diagrammed problem involves castling with an opposing rook under the Koko fairy condition (each piece must end up adjacent to another piece when moving). The solution (Black's move being given first per helpmate convention) is:\n[…]\nWinter, Edward. \"Castling in Chess\". chesshistory.com.\n[…]\n\"Mate by Castling\" game collection at Chessgames.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Roque_%28xadrez%29",
+        "situacao": "ok",
+        "texto": "O Roque é uma jogada especial que envolve a movimentação de duas peças em um único lance, o rei e uma das torres. O objetivo da jogada é proteger o rei, tirando-o do centro. O movimento consiste no deslocamento lateral do rei na primeira fileira em duas casas na direção da torre com a qual desejar \"rocar\", e a torre escolhida passa através do rei permanecendo na primeira casa após o \"salto\".\n[…]\nExistem dois tipos de roque, a depender da torre escolhida para o movimento: o roque maior (quando realizado com a torre mais afastada) e o roque menor (quando feita com a torre mais próxima).\n[…]\nO termo roque é o antigo nome da torre. A palavra tem origem no nome que a peça recebe no idioma persa ( رخ rokh/rukh), tendo sido introduzida no português através do francês.\n[…]\nO rei e a torre envolvida não podem ter se movimentado nenhuma vez desde o início do jogo;\n[…]\nAs casas entre o rei e a torre devem estar desocupadas;\n[…]\nNenhuma das casas por onde o rei passar ou ficar deverá estar no raio de ação de uma peça adversária. Isto não se aplica à torre envolvida.\n[…]\nCaso o roque seja com a torre da ala do rei, chama-se roque pequeno. Sendo a torre escolhida da ala da dama, chama-se roque maior.\n[…]\nAo trocar, o enxadrista deve mover primeiro o rei e depois a torre.\n[…]\nNo roque menor, ou roque pequeno, o rei é movimentado duas casas em direção à torre de sua ala. Com as peças brancas, o rei é movido para a casa g1, e a torre vai para f1. Já com as pretas, o rei vai para a casa g8, e a torre é colocada na casa f8. Na notação de xadrez, tanto na descritiva quanto na algébrica, esse tipo de roque é descrito usando O-O.\n[…]\nNo roque maior, ou roque grande, o rei faz roque com a torre da ala da dama. Com as peças brancas, o rei vai para a casa c1, e a torre vai para a casa d1. Com as pretas, o rei é movido para a casa c8, e a torre para a casa d8. Na notação de xadrez, o movimento é descrito usando O-O-O.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Afogamento (xadrez)",
+      "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No xadrez, se o jogador da vez não está em xeque mas não tem nenhum lance permitido, como termina a partida?",
+    "resposta": "Empate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stalemate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stalemate",
+        "situacao": "ok",
+        "texto": "Stalemate is a situation in chess where the player whose turn it is to move is not in check but has no legal move. Stalemate results in a draw. During the endgame, stalemate is a resource that can enable the player with the inferior position to draw the game rather than lose. In more complex positions, stalemate is much rarer, usually the result of a swindle that succeeds only if the superior side\n[…]\nThe outcome of a stalemate was standardized as a draw in the 19th century (see § History of the stalemate rule, below). Before this standardization, its treatment varied widely, including being deemed a win for the stalemating player, a half-win for that player, or a loss for that player; not being permitted; and resulting in the stalemated player missing a turn. Stalemate rules vary in variants and other games of the chess family.\n[…]\nWhite was stalemated.\n[…]\nStalemate was not permitted in most of the Eastern Asiatic forms of the game (specifically in Burma, India, Japan, and Siam) until early in the 20th century.\n[…]\nIn makruk (Thai chess), a stalemate results in a draw, like in Western chess.\n[…]\nThere is also a \"joint\" FICS/international rule, according to which a stalemate is only a win if both sources agree that it is a win (i.e. it counts as a win for the stalemated player if that player also happens to have fewer pieces remaining); in all other cases it is a draw.\n[…]\nIn Gliński's hexagonal chess, stalemate is neither a draw nor a full win. Instead, in tournament games, the player who delivers the stalemate earns ¾ point, while the stalemated player receives ¼ point. It is unknown whether a stalemate should be considered a draw or a win in a friendly game.\n[…]\n\"Stalemate\" by Edward Winter\n[…]\n\"Chess: Stalemate by Self-Blockade\" by Edward Winter\n[…]\nEdward Winter, 5929. Stalemate\n[…]\n\"Stalemate!\" game collection at Chessgames.com\n[…]\nSpassky vs. Keres, 1961 ended in stalemate\n[…]\nExample of \"stalemate\" in politics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Afogamento_%28xadrez%29",
+        "situacao": "ok",
+        "texto": "O Rei afogado, empate por afogamento ou impasse é uma situação no xadrez onde o enxadrista tem a vez de jogar, não está em xeque, mas não tem movimentos válidos. O afogamento termina o jogo com um empate e está disposto nas leis do xadrez.\n[…]\nO resultado do afogamento como um empate foi padronizado no século XIX. Antes disso era tratado de várias formas incluindo uma vitória para o enxadrista afogar seu Rei, uma meia-vitória, derrota e até não sendo permitido; resultando no enxadrista afogado perdendo a vez de jogar.\n[…]\nAlgumas variantes regionais do xadrez não permitem ao enxadrista executar um movimento de afogamento e em diferentes versões como o xadrez suicida o afogamento pode ser ou não tratado como um empate.\n[…]\nA regra do afogamento tem uma história contorcida no xadrez. Embora atualmente seja universalmente reconhecido como um empate, por muito tempo na história do jogo este não foi o caso. Nos antecessores do xadrez moderno, como o Xatranje, o afogamento era uma vitória para o lado que o administrou. Esta prática persistiu no xadrez jogado no início do século XV na Espanha.\n[…]\nA regra na Inglaterra de 1600 a 1800 era que o afogamento era uma derrota para o enxadrista que o executava, uma regra que o eminente historiador H. J. R. Murray acreditou ter sido adotado do xadrez praticado na Rússia. Esta regra desapareceu na Inglaterra depois de 1820, sendo substituída pela francesa e italiana que regravam o afogamento como um empate.\n[…]\nAssumindo que as pretas estão afogadas, através da história afogamento foi tratado de várias formas:\n[…]\nEmpate (xadrez)\n[…]\nLeis do xadrez\n[…]\nXeque-mate\n[…]\n«Coleção de jogos com afogamento». no chessgames.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Mate do louco",
+      "descricao": "Sequência de abertura que leva ao xeque-mate mais rápido possível no xadrez, aplicado pelas pretas."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O mate do louco é o xeque-mate mais rápido possível no xadrez. Em quantos lances das pretas ele acontece?",
+    "resposta": "Dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fool%27s_mate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fool%27s_mate",
+        "situacao": "ok",
+        "texto": "The fool's mate is the fastest checkmate in chess delivered after the fewest possible moves from the game's starting position. It arises from the following moves (minor variations are possible):\n[…]\nWhite Queen gives Mate at the contrary kings Rookes fourth houſe.\n[…]\nWhite can achieve a checkmate similar to fool's mate. When the roles are reversed, however, White requires an extra third turn or half-move, known in computer chess as a ply. In both cases, the principle is the same: a player advances their f- and g-pawns such that the opponent's queen can mate along the unblocked diagonal.\n[…]\nA board position illustrating White's version of fool's mate—with White to mate—was given as a problem in Bobby Fischer Teaches Chess, and also as an early example in a compendium of problems by László Polgár. The solution in Fischer's book bore the comment \"Black foolishly weakened his King's defenses. This game took three moves!!\"  One possible sequence leading to the position is 1. e4 g5 2. d4 f6?? 3. Qh5#.\n[…]\nA possibly apocryphal variant of the fool's mate has been reported by several sources. The 1959 game 1. e4 g5 2. Nc3 f5?? 3. Qh5# has been attributed to Masefield and Trinka, although the first player's name has also been reported as Mayfield or Mansfield and the second player's name as Trinks or Trent. Further, a similar mate can occur in From's Gambit: 1. f4 e5 2. g3? exf4 3. gxf4?? Qh4#.\n[…]\nIf the typical fool's mate setup is played, except White plays h3 instead of g4, a similar forced mate can result: 2... Qh4+ 3. g3 Qxg3#. Like fool's mate, there are eight distinct ways for this to happen.\n[…]\nScholar's mate\n[…]\nBarnes Opening: Fool's Mate on Chess.com\n[…]\nBarnes Opening: Fool's Mate on lichess.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mate_do_Louco",
+        "situacao": "ok",
+        "texto": "Mate do Louco é o xeque-mate mais rápido possível do xadrez, sendo executado com o segundo lance das peças negras. É extremamente raro, já que para a sua ocorrência as brancas devem cometer erros incomuns, mesmo entre principiantes, ao fazer duas das piores jogadas de abertura possíveis.\n[…]\nA sequência mais comum do Mate do Louco em notação algébrica:\n[…]\nD’AGOSTINI, Orfeu. Xadrez Básico. São Paulo: Ediouro, 1954.\n[…]\nFILGUTH, Rubens. Xadrez de A a Z: dicionário ilustrado. Porto Alegre: Artmed, 2005.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Deep Blue",
+      "descricao": "Supercomputador de xadrez que venceu o campeão mundial Garry Kasparov num match em 1997."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+    "resposta": "IBM",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+        "situacao": "ok",
+        "texto": "Deep Blue was a customized IBM RS/6000 SP supercomputer for chess-playing designed by computer scientist Feng-hsiung Hsu. It was the first computer to win a game, and the first to win a match, against a reigning world champion under regular time controls. Development began in 1985 at Carnegie Mellon University under the name ChipTest. It then moved to IBM, where it was first renamed Deep Thought, \n[…]\nIn 1996, it was used to compete against world champion Garry Kasparov in a six-game match, where it won one, drew two, and lost three games. In 1997, it underwent an upgrade, and in a six-game rematch it defeated Kasparov by winning two games and drawing three. Deep Blue's victory is considered a milestone in the history of artificial intelligence and has been the subject of several books and films.\n[…]\nDeep Blue's hardware was subsequently upgraded, doubling its speed before it faced Kasparov again in May 1997, when it won the six-game rematch 3½–2½. Deep Blue won the deciding game after Kasparov failed to secure his position in the opening, thereby becoming the first computer system to defeat a reigning world champion in a match under standard chess tournament time controls.\n[…]\nBefore the second match, the program's rules were fine-tuned by grandmaster Joel Benjamin. The opening library was provided by grandmasters Miguel Illescas, John Fedorowicz, and Nick de Firmian. When Kasparov requested that he be allowed to study other games that Deep Blue had played so as to better understand his opponent, IBM refused, leading Kasparov to study many popular PC chess games to familiarize himself with computer gameplay.\n[…]\nDeep Blue used custom VLSI chips to parallelize the alpha–beta search algorithm, an example of symbolic AI. The system derived its playing strength mainly from computing power.\n[…]\nRematch, a 2024 TV miniseries about the 1997 match\n[…]\nDeep Blue IBM at ibm.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deep_Blue",
+        "situacao": "ok",
+        "texto": "Deep Blue (em português, azul profundo ou azul marinho) foi um supercomputador e um software criados pela IBM especialmente para jogar xadrez; com 256 co-processadores capazes de analisar aproximadamente 200 milhões de posições por segundo.\n[…]\nEm fevereiro de 1996, o campeão do mundo de xadrez, Garry Kasparov, natural do Azerbaijão, atualmente radicado na Rússia, considerado o melhor jogador de todos os tempos, ganhou três partidas, empatou duas e perdeu uma contra Deep Blue, obtendo a pontuação final de 4 a 2 (o empate dá 0,5 ponto para cada um dos lados).\n[…]\nEm maio de 1997, após uma severa atualização, Deep Blue venceu Kasparov em um novo confronto de 6 partidas, com 2 vitórias, 3 empates e 1 derrota (pontuação final: 3,5 a 2,5), tornando-se o primeiro computador a vencer um campeão mundial de xadrez num torneio com regras de tempo oficiais.\n[…]\nO projeto começou com o nome de ChipTest na Carnegie Mellon University por Feng-hsiung Hsu e foi seguido pelo sucessor de ChipTest, Deep Thought. Depois de se formar na universidade, Hsu, Thomas Anantharaman, e Murray Campbell foram convidados pela IBM Research para continuar seu projeto para construir uma máquina de xadrez que poderia derrotar um campeão do mundo. Hsu e Campbell ingressaram na IBM no outono de 1989, com Anantharaman seguindo depois.\n[…]\nEm 1995, o \"protótipo Deep Blue\" disputou o 8º Campeonato Mundial de Xadrez por Computador. O protótipo Deep Blue empatou com Wchess. Na quinta rodada, o protótipo do Deep Blue jogou como White e perdeu para Fritz.\n[…]\nIBM.com, páginas de pesquisa da IBM sobre Deep Blue\n[…]\nChesscenter.com, Carta Aberta de Owen Williams (empresário de Garry Kasparov), respondendo a Feng-hsiung Hsu, 13 de Janeiro de 2000",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Garry Kasparov",
+      "descricao": "Enxadrista nascido em Baku em 1963, campeão mundial de xadrez de 1985 a 2000."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Garry Kasparov, campeão mundial de xadrez em 1985, nasceu numa república da antiga União Soviética. Qual?",
+    "resposta": "Azerbaijão",
+    "distratores": [
+      "Rússia",
+      "Armênia",
+      "Geórgia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Garry_Kasparov"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+        "situacao": "ok",
+        "texto": "Garry Kimovich Kasparov (born Garik Kimovich Weinstein on 13 April 1963) is a Russian chess grandmaster, political activist and writer, who was the World Chess Champion from 1985 to 2000. His peak FIDE chess rating of 2851, achieved in 1999, was the highest recorded until being surpassed by Magnus Carlsen in 2013. From 1984 until his retirement from regular competitive chess in 2005, Kasparov was \n[…]\nKasparov was born Garik Kimovich Weinstein (Russian: Гарик Кимович Вайнштейн, romanized: Garik Kimovich Vainshtein) in Baku, Azerbaijan SSR (now Azerbaijan), Soviet Union. His father, Kim Moiseyevich Weinstein, was Jewish and his mother, Klara Shagenovna Kasparova, was Armenian. Both of his mother's parents were Armenians from Karabakh. According to Kasparov himself, he was named after United States President Harry S. Truman, \"whom my father admired for taking a strong stand against communism.\n[…]\nAcorn Computers acted as one of the sponsors for Kasparov's Candidates semi-final match against Korchnoi in 1983. This was Kasparov's first introduction to computers. Kasparov was awarded a BBC Micro, which he took back with him to Baku, making it perhaps one of the first Western-made microcomputers to reach the Soviet Union at that time. Computer chess magazine editor Frederic Friedel consulted with Kasparov in 1985 on how a chess database program would be useful preparation for competition.\n[…]\nGarry Kasparov on Modern Chess, Part II: Kasparov vs Karpov 1975–1985 (2008, Everyman Chess)\n[…]\nKasparov, Garry. 2012. How I Became World Champion 1973–1985. Chessbase. ISBN 978-3-86681-341-0\n[…]\nStohl, Igor (2006). Garry Kasparov's Greatest Chess Games, Volume 2. Gambit Publications. ISBN 1-904600-43-3.\n[…]\nMedia related to Garry Kasparov at Wikimedia Commons\n[…]\nGarry Kasparov player profile and games at Chessgames.com\n[…]\nDeep Thinking. Garry Kasparov. Talks at Google\n[…]\nGarry Kasparov on Bluesky"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Garry_Kasparov",
+        "situacao": "ok",
+        "texto": "Garry Kímovich Kasparov (em russo: Га́рри Ки́мович Каспа́ров; pronúncia russa AFI: [ˈɡarʲɪ ˈkʲiməvʲɪtɕ kɐˈsparəf], nascido com o nome Garry Kimovich Weinstein, Bacu, 13 de abril de 1963) é um Grande Mestre e ex-campeão mundial de xadrez, escritor e ativista político nascido na República Socialista Soviética do Azerbaijão, União Soviética (atual Azerbaijão). É considerado por muitos o maior enxadri\n[…]\nKasparov foi o jogador mais novo a se tornar campeão mundial de xadrez em 1985, quando tinha 22 anos na final do mundial. (Em 2002 Ruslan Ponomariov com apenas 18 anos se tornou o mais jovem Campeão Mundial de toda história do xadrez.)  Manteve o título mundial de melhor jogador oficial da Federação Internacional de Xadrez até 1993, quando uma disputa com a FIDE levou-o a criar uma organização rival, a Professional Chess Association.\n[…]\nA partir dos 7 anos, Kasparov frequentou a Young Pioneer Palace em Bacu e aos 10 começou a treinar na escola de xadrez de Mikhail Botvinnik, com o técnico Vladimir Makogonov. Makogonov desenvolveu as habilidades posicionais de Garry e ensinou-o a execução da Defesa Caro-Kann e variantes do Gambito da Dama. Kasparov venceu o Campeonato de Juniores da União Soviética em Tbilisi, no ano de 1976, aos 13 anos, com 7 pontos de 9. Ele repetiu a façanha no ano seguinte, com um placar de 8½ de 9.\n[…]\nA segunda disputa entre Anatoly Karpov e Garry Kasparov foi organizada em Moscou como o melhor de 24 jogos, onde o primeiro jogador a obter 12,5 pontos ganharia o título de Campeão Mundial e o resultado final não importaria. Mas no caso de um empate de 12-12, o título permaneceria com o Campeão anterior, Karpov. Em 9 de novembro de 1985, Kasparov se tornou Campeão Mundial com o placar de 13-11, vencendo o vigésimo quarto jogo com as peças pretas e usando a Defesa Siciliana.\n[…]\n«Perfil» (em inglês). na Federação Internacional de Xadrez.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Partida da Ópera",
+      "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1858, durante uma ópera, o americano Paul Morphy venceu num camarote uma partida de xadrez famosa até hoje. Em que cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opera_Game"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Opera_Game",
+        "situacao": "ok",
+        "texto": "The Opera Game was a chess game played in October or November 1858 at the Salle Ventadour in Paris. The American master Paul Morphy played against two amateurs: the German noble Karl II, Duke of Brunswick, and the French aristocrat Comte Isouard de Vauvenargues. It was played as a consultation game, with Duke Karl and Count Isouard jointly deciding each move for the black pieces, while Morphy cont\n[…]\nThe game was played in a box while an opera was performed on stage. Morphy quickly checkmated his opponents following rapid development and sacrifice of material, including a queen sacrifice.\n[…]\nFrederick Milnes Edge recounted seeing Morphy play a game with the Duke and the Count in the Duke's opera box as follows:\n[…]\nJohann Löwenthal, making no mention of this game's being played at an opera, places it among three games which \"were played in the months of October and November, 1858, in Paris\". Max Lange states that the Opera Game was played in October during a performance of The Barber of Seville. David Lawson says that this game was played during a performance of The Barber of Seville, and that Edge's anecdote refers to an earlier occasion when Morphy played the duo at a performance of Norma.\n[…]\nGeorge Frederick Pardon states that a different game of Morphy's against another opponent, Wincenty Budzyński, was played during a performance of The Barber of Seville.\n[…]\nWhite: Paul Morphy   Black: Duke of Brunswick and Count Isouard   Opening: Philidor Defence (ECO C41) Paris, October/November 1858\n[…]\nThe Exploits & Triumphs in Europe of Paul Morphy the Chess Champion by Frederick Milne Edge, with a new introduction by David Lawson. Dover 1973; 203 pages. ISBN 0-486-22882-7\n[…]\nLe mat de l'opéra (in French), variations of the game's conclusion in other chess problems and games, July 2, 2008\n[…]\n\"Paul Morphy vs Duke Karl / Count Isouard, Paris 1858\". Chessgames.com."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Partida_da_%C3%93pera",
+        "situacao": "ok",
+        "texto": "A Partida da Ópera é uma famosa partida de xadrez jogada entre o GM americano Paul Morphy e dois fortes amadores, o nobre alemão duque Carlos II de Brunsvique e o aristocrata francês conde Isouard, em uma casa de ópera em Paris, onde seria apresentada a Ópera Norma . A partida foi jogada em uma sala especial, onde o duque e o aristocrata estavam juntos, discutindo sobre a partida em voz alta, vira\n[…]\nEnquanto os dois estavam olhando a ópera normalmente, Paul Morphy estava de costas para a ópera, e por isso ia virando-se para trás com o objetivo de acompanhar a ópera.\n[…]\nEste jogo é usado por vários professores de xadrez para demonstrar aos seus alunos a importância do rápido desenvolvimento das peças, entre outras lições, como demonstrar a força de uma cravada.\n[…]\nEste lance, hoje, é censurado. Porém, esta era a teoria padrão na época. Hoje, o mais comum é 3...exd4, e a resposta mais agressiva é 3...f5\n[…]\n19.Dxc4 Ca6! 20.Dxa6 Td8 21.Tae1! Bxe3! 22.Rc4 Bd4 23.Cb5 Bf2 24.Txf2 Dxf2 25.Dxa7+ Dxa7 26. Cxa7, e após encontrar todos esses lances difíceis as brancas teriam um jogo ganho!) Porém o americano Paul Morphy faz o melhor lance, concentrando suas forças para um ataque de xeque-mate sobre as peças negras má desenvolvidas!\n[…]\nMorphy escolhe não recuar o bispo, pois daria tempo ao preto recuperar o atraso no desenvolvimento. 9...b5 perde mas é difícil achar algo melhor; por exemplo 9...Ca6 10.Bxf6 gxf6 11.Bxa6 bxa6 12.Da4 Db7 e a posição preta está uma confusão.\n[…]\nAs pretas poderiam ter jogado 10.Db4+, onde teria forçado Morphy a trocar as damas, ainda que o jogo branco continuaria ganho.\n[…]\nMorphy encerra com um lindo sacrifício de dama.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Judit Polgár",
+      "descricao": "Enxadrista húngara, a mais caçula das irmãs Polgár, considerada a melhor jogadora de xadrez da história."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O húngaro László Polgár educou as três filhas, entre elas Judit Polgár, para virarem fortes enxadristas. O que ele queria provar?",
+    "resposta": "Que gênios são feitos, não natos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r",
+      "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r",
+        "situacao": "ok",
+        "texto": "László Polgár (born 11 May 1946) is a Hungarian chess teacher and educational psychologist. He is the father of the famous Polgár sisters: Zsuzsa, Zsófia, and Judit, whom he raised to be chess prodigies, with Judit and Zsuzsa becoming the best and second-best female chess players in the world, respectively. Judit is widely considered the greatest female chess player ever, as she is the only woman \n[…]\nHe and Klara married in the USSR, whereupon she moved to Hungary to be with him. They had three daughters together, Susan, Sofia, and Judit, whom Polgár home-schooled, primarily in chess but also in Esperanto, German, Russian, English, and high-level math. Polgár and his wife considered various possible subjects in which to drill their children, \"including mathematics and foreign languages\", but they settled on chess.\n[…]\nThe experiment began in 1970 \"with a simple premise: that any child has the innate capacity to become a genius in any chosen field, as long as education starts before their third birthday and they begin to specialize at six.\" Polgár \"battled Hungarian authorities for permission\" to home-school the girls. \"We didn't go to school, which was very unusual at the time,\" his youngest daughter Judit recalled in 2008.\n[…]\nObviously, the film attempts to decipher the mysterious nature of the father, László Polgár.\" Filmmaker Yossi Aviram said that \"Years of abuse by the authorities and media made the family suspicious\" of people who wanted to make a film about them. \"What helped me was my love of chess and the fact that I had fallen in love with this family.\"\n[…]\nAn early draft of the screenplay for the film Whiplash featured an extensive discussion of Polgár and his theories on child-rearing.\n[…]\nPolgár has written many books on chess.\n[…]\nPolgar Superstar Chess, 2004 (ISBN 963-216-009-6)\n[…]\nPolgar Superstar Chess II, 2005 (ISBN 963-86531-4-0)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r",
+        "situacao": "ok",
+        "texto": "Judit Polgár (born 23 July 1976) is a Hungarian chess grandmaster, widely regarded as the strongest female chess player of all time. She is the only woman to be ranked in the world top 10, the only woman to achieve a rating over 2700, reaching a peak rating of 2735, and the only woman to compete in the final stage of a World Chess Championship. She was the top-rated woman in the world from January\n[…]\nIn November 1988, Judit and her sisters, along with Ildikó Mádl, represented Hungary in the Women's section of the 28th Chess Olympiad in Thessaloniki. The International Chess Federation would not permit the Polgárs to play against men in team competitions. Prior to the tournament, Eduard Gufeld, Soviet GM and team coach for the Soviet women's team, dismissed the Polgárs: \"I believe that these girls are going to lose a good part of their quickly acquired image in the 28th Olympiad...\n[…]\nIn August 2000, Polgár married Hungarian veterinary surgeon Gusztáv Font. They have two children, a boy named Olivér (born 2004) and a girl named Hanna (born 2006). While Judit remained in Hungary, her sisters and parents eventually emigrated: Sofia to Israel, Susan to the United States, and her parents to Israel and the United States.\n[…]\nIn July 2026, Prime Minister Péter Magyar asked Judit Polgár to become Hungary's ‌next President after the removal of Tamás Sulyok, saying that Polgár could represent the nation's unity. Polgár declined, saying \"I do not feel I have enough strength within myself to take on the historic responsibility of uniting a divided nation.\"\n[…]\nJudit Polgar: How I Beat Fischer's Record (in English, German, French, Hungarian)\n[…]\nJudit Polgar: From GM to Top Ten (in English, German, French, Hungarian)\n[…]\nJudit Polgar: A Game of Queens (in English, German, French, Hungarian)\n[…]\nPolgar, Judit (2010), Chess Playground, Caissa Hungary, ISBN 978-963-06-9620-3\n[…]\nJudit Polgar player profile at Chess.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r",
+        "situacao": "ok",
+        "texto": "László Polgár (Gyöngyös, Hungria, 11 de maio de 1946) é um pedagogo e pedagogista húngaro e pai das célebres e campeãs enxadristas: Judit Polgar, Susan Polgar e Sofia Polgar.\n[…]\nLászló tinha interesse por um método apropriado para a educação de crianças, e após estudar as biografias de centenas de grandes intelectuais, acreditou que gênios podiam ser criados. E assim, antes que tivesse filhos, escreveu um livro intitulado, Bring Up Genius!, e procurou uma esposa para realizar um experimento para provar sua tese de que qualquer criança saudável poderia ser tornada em um prodígio e realizar grandes feitos se estimulada desde cedo.\n[…]\nLaszlo teve que lutar contra autoridades húngaras para conseguir permissão para educar suas filhas em casa, mas conseguiu e então ele e Klara lhes ensinaram sobre os mais diversos assuntos, do xadrez ao esperanto, alemão, inglês e matemática avançada. Tamanho esforço resultou em que suas três filhas se tornaram grandes jogadoras do xadrez, uma mestre internacional e duas grandes mestres.\n[…]\nPolgar Superstar Chess, 2004 (ISBN 9632160096)\n[…]\nPolgar Superstar Chess II, 2005 (ISBN 9638653140)\n[…]\nFORBES, Cathy. The Polgar Sisters: training or genius? Londres : Batsford, 1992. ISBN 0-7134-6871-8",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Olimpíada de Xadrez de 1939",
+      "descricao": "Oitava Olimpíada de Xadrez, disputada em Buenos Aires em 1939, durante a qual começou a Segunda Guerra Mundial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1939, durante a Olimpíada de Xadrez de Buenos Aires, vários enxadristas europeus decidiram ficar na Argentina. Por quê?",
+    "resposta": "Começou a Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/8th_Chess_Olympiad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/8th_Chess_Olympiad",
+        "situacao": "ok",
+        "texto": "The 8th Chess Olympiad (Spanish: La 8a Olimpíada de ajedrez), organised by the Fédération Internationale des Échecs (FIDE) and comprising a team tournament, took place between August 21 and September 19, 1939, in the Politeama Theatre in Buenos Aires, Argentina. The 1939 Women's World Championship was contested at the same time and venue.\n[…]\nThe preliminaries were played from August 21–31, 1939. There were three groups of 7 teams and a group of 6. From a round-robin format, the top four in each group then went forward to Final A, the remainder to Final B. Group winners were Bohemia & Moravia (tied with Poland, Group 1), Latvia (Group 2), Argentina (Group 3) and Sweden (Group 4).\n[…]\nConcerning the remaining delegations, a crisis assembly was called to vote on how to proceed; this comprised team captains, the hosts and organisers. Leading roles were reportedly taken by World Champion Alexander Alekhine (France), Savielly Tartakower (Poland), Albert Becker (Germany) and the president of the Argentine Chess Federation, Augusto de Muro. The verdict was to continue with the Olympiad.\n[…]\nAt the conclusion of events, many participants decided to stay in Argentina or moved elsewhere in South America, rather than face an uncertain future by returning to a Europe in the midst of war.\n[…]\nMost of them were Jewish and had come to Buenos Aires in August 1939 on the Belgian steamer \"Piriapolis\". The ship has therefore come to be regarded as the epitome of Noah's Ark for a generation of chess players. Significantly, all five members of the German team (Eliskases, Michel, Engels, Becker, Reinhardt) also chose not to return to Nazi Germany.\n[…]\n8th Chess Olympiad: Buenos Aires 1939 OlimpBase\n[…]\nChess Olympiads, Arpad Foldeak (Corvina Press, 1966) – pp. 160–180\n[…]\nPawns in a Greater Game: The Buenos Aires Chess Olympiad, August–September 1939."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Olimp%C3%ADada_de_xadrez_de_1939",
+        "situacao": "ok",
+        "texto": "A Olimpíada de xadrez de 1939 foi a oitava Olimpíada de Xadrez organizada pela FIDE e feita em Buenos Aires entre os dias 24 de agosto e 19 de setembro, conjuntamente o Campeonato Mundial Feminino de Xadrez de 1939.\n[…]\nA equipe do Reino Unido não participou da competição em função da declaração da Segunda Guerra Mundial, assim como os jogadores dos Estados Unidos que recusaram devido ao baixo patrocínio oferecido pela Argentina.\n[…]\nEm função da guerra, muitos participantes especialmente os de origem judia, decidiram permanecer no país que ofereceu certos privilégios para aqueles interessados em desenvolver o xadrez na Argentina.\n[…]\nSUNNUCKS, Anne (1976). The Encyclopaedia of Chess (em inglês) 2.ª ed. Inglaterra: St Martin Press. ISBN 0709146973",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Xadrez 960",
+      "descricao": "Variante do xadrez em que a posição inicial das peças da última fileira é sorteada entre 960 possibilidades."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que campeão mundial americano propôs o xadrez 960, variante em que a posição inicial das peças da última fileira é sorteada?",
+    "resposta": "Bobby Fischer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess960"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chess960",
+        "situacao": "ok",
+        "texto": "Chess960, also known as Fischer Random Chess, is a chess variant that randomizes the starting position of the pieces on the back rank. It was introduced by former world chess champion Bobby Fischer in 1996 to reduce the emphasis on opening preparation and to encourage creativity in play. Chess960 uses the same board and pieces as classical chess, but the starting position of the pieces on the play\n[…]\nDuring summer 1993, Bobby Fischer visited László Polgár and his family in Hungary. All of the Polgar sisters (Judit Polgár, Susan Polgar, and Sofia Polgar) played many games of Fischer Random Chess with Fischer. At one point Sofia beat Fischer three games in a row. Fischer was not pleased when the father, László, showed Fischer an old chess book that described what appeared to be a forerunner of Fischer Random Chess. The book was written by Izidor Gross and published in 1910.\n[…]\nIn conversations with Helgi Ólafsson, Bobby Fischer discussed the initiative that renamed the variant \"Chess960\" and remarked, \"They believe my image is so bad that they have given it another name.\" Fischer later expressed that he liked the name \"Chess960\" and sometimes used the name.\n[…]\nTo correctly record a Fischer Random Chess game in PGN, an additional \"Variant\" tag (not \"Variation\" tag, which has a different meaning) must be used to identify the rules; the rule named \"Fischerandom\" is accepted by many chess programs as identifying Fischer Random Chess, though \"Chess960\" should be accepted as well. This means that in a PGN-recorded game, one of the PGN tags (after the initial seven tags) would look like this: [Variant \"Fischerandom\"].\n[…]\nThe birth of Fischer Random Chess by Eric van Reem, The Chess Variant Pages\n[…]\nFischer Describes his Fischer Random Chess Rules audio clip of Bobby Fischer\n[…]\nFischer Random Chess various authors, The Chess Variant Pages\n[…]\nFischer describes the rules here.\n[…]\nChess960 or Chess2880 generator"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xadrez_de_Fischer",
+        "situacao": "ok",
+        "texto": "Xadrez de Fischer, também conhecido como Xadrez Aleatório de Fischer (do inglês Fischer Random Chess) ou Chess960 (em referência às suas 960 posições iniciais possíveis das peças), é um jogo variante do xadrez, anunciado por Robert James Fischer em 1996 na cidade de Buenos Aires (Argentina), onde a ordem das peças é escolhida aleatoriamente, mas seguindo alguns parâmetros pré-estabelecidos.\n[…]\nA posição das peças é simétrica para as brancas e as pretas, e os peões estão colocados na segunda e na sétima linha tal como no xadrez regular. O Fischer Random Chess permite 960 posições diferentes para as peças no início do jogo. A posição das peças pode ser estabelecida por sorteio ou recorrendo a softwares. Depois de ser estabelecida a posição inicial das peças aplicam-se todas as regras do jogo de xadrez normal.\n[…]\nBobby Fischer esperava criar uma variante do xadrez que não tivesse ênfase na memorização das jogadas iniciais, chamadas aberturas do xadrez, valorizando a criatividade e o talento dos jogadores. No xadrez convencional existe apenas uma posição inicial, que possui dezenas de aberturas e para cada abertura, dezenas de variantes. Pessoas com boa memória, como Grandes Mestres, conseguem um bom domínio em relação a essas centenas de possibilidades para o xadrez convencional.\n[…]\nJá no xadrez de Fischer há 960 posições inicias, para cada posição haverá dezenas de aberturas e, para cada abertura haverá dezenas de variantes. As possibilidades são cerca de 1000 vezes maiores que na forma convencional, tornando impossível um estudo de aberturas para o xadrez randômico.\n[…]\nDouble Fischer Random Chess (ou Wild Chess)\n[…]\nLista de campeões mundiais de xadrez\n[…]\n«Fischer Random Chess» (em inglês). no site BobbyFischer (áudio de Bobby Fischer e um artigo descrevendo a variante)\n[…]\n«Fischer Random Chess» (em inglês). no site ChessVariants org\n[…]\n«The Chess Variants Pages» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "O Turco (autômato)",
+      "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No século dezoito, o Turco, uma máquina que jogava xadrez, impressionou a Europa. O que havia, de fato, escondido dentro dela?",
+    "resposta": "Um enxadrista humano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mechanical_Turk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mechanical_Turk",
+        "situacao": "ok",
+        "texto": "The Mechanical Turk (German: Schachtürke, lit. 'chess Turk'), also known as the Automaton Chess Player or simply the Turk (Hungarian: A Török), was a chess-playing machine first displayed in 1770, which appeared to be able to play a strong game of chess autonomously, but whose pieces were in reality moved via levers and magnets by a chess master hidden in its lower cavity.\n[…]\nOf the many contemporary books and articles written about the mechanism of the Turk, most were inaccurate and drew incorrect inferences. An exception was \"Automate joueur d'échecs\", published in the popular magazine Le Magasin pittoresque in 1834, and widely believed to have been informed, or perhaps even written, by one of the Turk's operators, Jacques Mouret.\n[…]\nThere have also been derivatives independent of Robert-Houdin. Ambrose Bierce's 1899 short story \"Moxon's Master\" is a morbid tale about a chess-playing automaton that resembles the Turk, as described by Poe. Gene Wolfe's 1977 science fiction short story \"The Marvelous Brass Chessplaying Automaton\" is about a device very similar to the Turk.\n[…]\nIn the first of his Theses on the Philosophy of History (1940), philosopher and critic Walter Benjamin likened strict Marxist historiography to the Mechanical Turk: \"one can imagine a philosophical counterpart to this device. The puppet called 'historical materialism' is to win all the time. It can easily be a match for anyone if it enlists the services of theology, which today, as we know, is wizened and has to keep out of sight.\"\n[…]\nJane Irwin's webcomic and later graphic novel Clockwork Game: The Illustrious Career of a Chess-Playing Automaton is based on the Turk.\n[…]\nMechanical Turk player profile and games at Chessgames.com\n[…]\nDunning, Brian (21 July 2015). \"Skeptoid #476: The Chess-Playing Mechanical Turk\". Skeptoid."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Turco",
+        "situacao": "ok",
+        "texto": "O Turco foi uma máquina de jogar xadrez supostamente provida de inteligência artificial construída na segunda metade do século XVIII. De 1770 até sua destruição num incêndio em 1854, foi exibido por vários proprietários como um autômato, apesar de o seu funcionamento ter sido revelado no início da década de 1820 como um elaborado hoax.\n[…]\nO Turco era na verdade uma ilusão mecânica que permitia a um jogador de xadrez escondido operar a máquina. Com um operador habilidoso, venceu a maioria dos jogos que disputou durante suas demonstrações pela Europa e América por quase 84 anos, incluindo desafiantes famosos como Napoleão Bonaparte e Benjamin Franklin. Embora muitos suspeitassem de um operador humano escondido, o hoax foi inicialmente revelado somente na década de 1820 por Robert Willis.\n[…]\nSomente após a criação do Deep Blue, uma tentativa da IBM de criar um computador que pudesse desafiar os melhores enxadristas, que o interesse pelo Turco aumentou novamente e mais dois livros foram publicados: Gerald M. Levitt publicou The Turk, Chess Automaton (2000), e Tom Standage's o The Turk: The Life and Times of the Famous Eighteenth-Century Chess-Playing Machine, publicado em 2002. O Turco foi usado como uma personificação de Deep Blue no documentário Game Over: Kasparov and the Machine.\n[…]\nEle então ajuda um jovem nacionalista polonês, que também era um jogador de xadrez experiente, a fugir dos ocupantes russos ao escondê-lo dentro do autômato chamado o Turco, baseado no modelo real de Kempelen. Quando estavam quase escapando pela fronteira, o barão é intimado a ir até São Petersburgo para apresentar o Turco a imperatriz Catarina II da Rússia. Numa imitação do incidente com Napoleão, Catarina também tenta trapacear o Turco, que derruba todas as peças do tabuleiro em resposta.\n[…]\nPartidas de O Turco (em inglês) no ChessGames.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "O Gambito da Rainha (minissérie)",
+      "descricao": "Minissérie americana de 2020 sobre a enxadrista fictícia Beth Harmon, baseada num romance de 1983."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A minissérie O Gambito da Rainha, sobre a enxadrista Beth Harmon, adapta o romance de qual escritor americano?",
+    "resposta": "Walter Tevis",
+    "distratores": [
+      "Kurt Vonnegut",
+      "John Updike",
+      "Philip Roth"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)",
+      "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(novel)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)",
+        "situacao": "ok",
+        "texto": "The Queen's Gambit is a 2020 American coming-of-age period drama television miniseries based on the 1983 eponymous novel by Walter Tevis. The title refers to the \"Queen's Gambit\", a chess opening. The series was written and directed by Scott Frank, who created it with Allan Scott, who owns the rights to the book.\n[…]\nSergio Di Zio as Beth's biological father\n[…]\nOn March 19, 2019, Netflix gave the production a series order consisting of six episodes. The series was written and directed by Scott Frank, who also created the series with Allan Scott. The two also served as executive producers alongside William Horberg. Allan Scott had been involved in attempts to get the book on screen since 1992, when he purchased the screenplay rights from Walter Tevis's widow.\n[…]\nFormer World Chess Champion Garry Kasparov and chess coach Bruce Pandolfini acted as consultants. Pandolfini had consulted with Tevis prior to the novel's publication some 38 years earlier, coming up with the title \"The Queen's Gambit\".\n[…]\nIn a column where she argues \"So many lives would be different if we'd had The Queen's Gambit 50 years ago,\" culture critic Mary McNamara said, \"I loved The Queen's Gambit so much, I watched the final episode three times.\" Sara Miller of The New Yorker recounted having experienced a sense of loss in her own association with the novel after seeing its depiction on screen because she could not relate to the main character: \"Anya Taylor-Joy is way too good-looking to play Beth Harmon\", she notes.\n[…]\nIn early 2021, due to the success of the series, the theatrical rights to the Tevis novel were acquired with the intent of producing a musical. It is set to be produced by playwright Eboni Booth, director Whitney White, and singer-songwriter Mitski.\n[…]\nThe Queen's Gambit on Netflix\n[…]\nThe Queen's Gambit at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(novel)",
+        "situacao": "ok",
+        "texto": "The Queen's Gambit is a 1983 American novel by Walter Tevis, exploring the life of fictional female chess prodigy Beth Harmon. A bildungsroman, or coming-of-age story, it covers themes of adoption, feminism, chess, drug addiction and alcoholism. The book was adapted for the 2020 Netflix miniseries, The Queen's Gambit.\n[…]\nThere has been speculation as to the inspiration for the Beth Harmon character, but Tevis emphatically denied that she was based on anyone in the chess community, male or female.\n[…]\nIn 2007, actor Heath Ledger was working on what would have been his feature directing debut, an adaptation of The Queen's Gambit, with British writer/producer Allan Scott.\n[…]\nSchonberg, writing in the New York Times Book Review, confirmed that Tevis \"reveals a great deal about the world of American Chess, with a final glance at how the Russians operate, and it is an exceptionally accurate picture that he draws.\" Schonberg added: \"Beth Harmon may not be prepossessing, but she has the dedication of a Biblical saint, a freak memory and an ability to synthesize and create and blow her little world apart with a kind of startling originality that nobody else can match.\n[…]\nTevis based the chess scenes on his own experience as a \"class C\" player and on his long study of the game. He elaborates on this in the Author's Note for the novel:\n[…]\nPrior to the 2020 Netflix miniseries, there were several unsuccessful attempts to adapt the book. In 1983, The New York Times journalist Jesse Kornbluth acquired the screenplay rights but the project was called off when Tevis died in 1984. In 1992, Scottish screenwriter Allan Scott purchased the rights from Tevis' widow, and wrote a script for an art house film. At different points directors Michael Apted and Bernardo Bertolucci were attached, but financing fell through."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Queen%27s_Gambit",
+        "situacao": "ok",
+        "texto": "The Queen's Gambit (bra: O Gambito da Rainha; prt: Gambito de Dama) é uma minissérie de drama e amadurecimento americana de 2020 baseada no romance homônimo de Walter Tevis, de 1983. A minissérie foi criada para a Netflix por Scott Frank e Allan Scott.\n[…]\nA Netflix lançou The Queen's Gambit em 23 de outubro de 2020. Depois de quatro semanas, ela se tornou a minissérie com script mais assistida da Netflix. Segundo um levantamento feito pelo JustWatch, foi a série mais assistida em 2020, ao comparar com as outras plataformas de streaming. Foi aclamado pela crítica pela atuação de Anya Taylor-Joy como Beth Harmon, bem como pelos valores de cinema e produção.\n[…]\nIsla Johnston como Beth Harmon jovem\n[…]\nSergio Di Zio como pai de Beth.\n[…]\nJohn Schwab como Sr. Booth, encarregado de Beth do Departamento de Estado.\n[…]\nEm 19 de março de 2019, a Netflix deu à produção um pedido de série que consistia em seis episódios. A série será dirigida por Scott Frank, que também escreveu com Allan Scott. Os dois também são produtores executivos ao lado de William Horberg. Scott estava envolvido nas tentativas de colocar o livro na tela desde 1992, quando comprou os direitos do roteiro da viúva de Walter Tevis.\n[…]\nO ex-Campeão Mundial de Xadrez, Garry Kasparov, e o treinador de xadrez, Bruce Pandolfini, atuaram como consultores. Pandolfini havia consultado Tevis antes da publicação do livro cerca de 38 anos antes, chegando ao título \"The Queen's Gambit\".\n[…]\nNo início de 2021, devido ao sucesso da série, os direitos teatrais do romance de Tevis foram adquiridos com o intuito de produzir um musical.\n[…]\nJunto com The Crown, trajes de The Queen's Gambit foram exibidos pelo Museu do Brooklyn como parte de sua exposição virtual \"The Queen and the Crown\".\n[…]\nThe Queen's Gambit no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "AlphaGo",
+      "descricao": "Programa de inteligência artificial que joga go e derrotou o profissional sul-coreano Lee Sedol em 2016."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 2016, o programa AlphaGo derrotou o craque sul-coreano de go Lee Sedol. Que empresa de inteligência artificial, ligada ao Google, o criou?",
+    "resposta": "DeepMind",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AlphaGo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AlphaGo",
+        "situacao": "ok",
+        "texto": "AlphaGo is a computer program that plays the board game Go. It was developed by the London-based DeepMind Technologies, an acquired subsidiary of Google. Subsequent versions of AlphaGo became increasingly powerful, including a version that competed under the name Master. After retiring from competitive play, AlphaGo Master was succeeded by an even more powerful version known as AlphaGo Zero, which\n[…]\nAccording to DeepMind's David Silver, the AlphaGo research project was formed around 2014 to test how well a neural network using deep learning can compete at Go. AlphaGo represents a significant improvement over previous Go programs. In 500 games against other available Go programs, including Crazy Stone and Zen, AlphaGo running on a single computer won all but one.\n[…]\nOn 29 December 2016, a new account on the Tygem server named \"Magister\" (shown as 'Magist' at the server's Chinese version) from South Korea began to play games with professional players. It changed its account name to \"Master\" on 30 December, then moved to the FoxGo server on 1 January 2017. On 4 January, DeepMind confirmed that the \"Magister\" and the \"Master\" were both played by an updated version of AlphaGo, called AlphaGo Master.\n[…]\nGoogle DeepMind offered 1.5 million dollar winner prizes for the three-game match between Ke Jie and Master while the losing side took 300,000 dollars. Master won all three games against Ke Jie, after which AlphaGo was awarded professional 9-dan by the Chinese Weiqi Association.\n[…]\nIn a paper released on arXiv on 5 December 2017, DeepMind claimed that it generalized AlphaGo Zero's approach into a single AlphaZero algorithm, which achieved within 24 hours a superhuman level of play in the games of chess, shogi, and Go by defeating world-champion programs, Stockfish, Elmo, and 3-day version of AlphaGo Zero in each case.\n[…]\nAlphaGo - The Movie on YouTube\n[…]\nQuotations related to AlphaGo at Wikiquote"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/AlphaGo",
+        "situacao": "ok",
+        "texto": "AlphaGo é um programa de computador que joga o jogo de tabuleiro Go. Foi desenvolvido pela DeepMind Technologies, que mais tarde foi adquirida pelo Google. As versões subsequentes do AlphaGo tornaram-se cada vez mais poderosas, incluindo uma versão que competia com o nome de Master. Depois de se aposentar do jogo competitivo, AlphaGo Master foi sucedido por uma versão ainda mais poderosa conhecida\n[…]\nEm outubro de 2015, em uma partida contra Fan Hui, o AlphaGo original tornou-se o primeiro programa de computador Go a derrotar um jogador profissional de Go humano sem handicaps em um tabuleiro 19×19 de tamanho normal. Em março de 2016, ele derrotou Lee Sedol em uma partida de cinco jogos, a primeira vez em que um programa de computador Go derrotou um profissional de 9 dan sem handicap.\n[…]\nDe acordo com David Silver, da DeepMind, o projeto de pesquisa AlphaGo foi formado por volta de 2014 para testar o quão bem uma rede neural usando aprendizado profundo pode competir no jogo Go. AlphaGo representa uma melhoria significativa em relação aos programas Go anteriores. Em 500 jogos contra outros programas Go disponíveis, incluindo Crazy Stone e Zen, AlphaGo rodando em um único computador venceu todos exceto um.\n[…]\nA vitória da AlphaGo em março de 2016 foi um marco importante na pesquisa de inteligência artificial. O Go já havia sido considerado um problema difícil no aprendizado de máquina, que deveria estar fora do alcance da tecnologia da época. A maioria dos especialistas achava que um programa Go tão poderoso quanto AlphaGo estava a pelo menos cinco anos de distância. Alguns especialistas pensaram que levaria pelo menos mais uma década antes que os computadores derrotassem os campeões de Go.\n[…]\nA maioria dos observadores no início das partidas de 2016 esperava que Lee derrotasse o AlphaGo.\n[…]\nLista de projetos de inteligência artificial",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Go",
+      "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Num tabuleiro oficial de go, o antigo jogo de pedras pretas e brancas, quantas linhas há em cada direção?",
+    "resposta": "Dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Go_(game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Go_(game)",
+        "situacao": "ok",
+        "texto": "Go, weiqi, or baduk is an abstract strategy board game for two players in which the aim is to fence off more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game continuously played to the present day.\n[…]\nA Go professional is a professional player of the game of Go. There are six areas with professional go associations, these are: China (Chinese Weiqi Association), Japan (Nihon Ki-in, Kansai Ki-in), South Korea (Korea Baduk Association), Taiwan (Taiwan Chi Yuan Culture Foundation), the United States (AGA Professional System) and Europe (European Professional System).\n[…]\nThe Chinese Weiqi Association (today part of the China Qiyuan) was established in 1962, and professional dan grades started being issued in 1982. Western professional Go began in 2012 with the American Go Association's Professional System. In 2014, the European Go Federation followed suit and started their professional system.\n[…]\nManners and etiquette are extensively discussed in 'The Classic of WeiQi in Thirteen Chapters', a Song dynasty manual to the game. Apart from the points above it also points to the need to remain calm and honorable, in maintaining posture, and knowing the key specialised terms, such as titles of common formations. Generally speaking, much attention is paid to the etiquette of playing, as much as to winning or actual game technique."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Go",
+        "situacao": "ok",
+        "texto": "Go, Baduk ou Weiqi (chinês simplificado: 围棋; chinês tradicional:  圍棋; Pinyin: Wéiqí) é um jogo de estratégia abstrato de tabuleiro para dois jogadores cujo objetivo é cercar mais territórios do que o oponente. O jogo foi inventado na China há mais de 2500 anos e acredita-se que seja o jogo de tabuleiro mais antigo ainda jogado nos tempos modernos.\n[…]\nAs peças jogadas são chamadas de pedras. Um jogador utiliza as pedras pretas enquanto um segundo jogador utiliza as brancas. Os jogadores se alternam em rodadas jogando as pedras nas interseções vazias (pontos). Uma vez jogada no tabuleiro, as pedras não devem ser movidas, porém elas devem são removidas do tabuleiro se uma pedra (ou um grupo delas) são cercadas por peças adversárias em todos os pontos adjacentes ortogonais, resultando na captura.\n[…]\nA palavra Go é uma forma abreviada da palavra japonesa igo (囲碁; いご), que deriva do antigo wigo (ゐご), por sua vez do chinês médio ɦʉi gi (圍棋, mandarim: wéiqí, literalmente \"jogo de tabuleiro de cercar\" ou \"jogo de tabuleiro de cercamento\"). Em eventos patrocinados pela Fundação Ing Chang-ki, é escrito goe.\n[…]\nDado que o número de pedras que um jogador tem no tabuleiro é diretamente relacionado ao número de prisioneiros que o oponente capturou, o resultado de diferença final, isto é, a diferença entre as pedras pretas e brancas, é idêntico em ambas as regras (ao menos que os jogadores passarem um número diferente de vezes durante o curso do jogo). Logo, o resultado de diferença final pelas as duas pontuações raramente se diferenciam mais do que um ponto.\n[…]\nOs grupos no canto inferior estão mortos, já que ambos têm apenas um olho. O grupo no canto esquerdo parece ter dois olhos, mas o ponto vazio marcado e cercado não é de fato um olho. Brancas podem jogar ali e tomar as pedras pretas. Tal ponto é usalmente chamado de falso olho.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Senet",
+      "descricao": "Jogo de tabuleiro do Egito Antigo, de trinta casas, um dos jogos de tabuleiro mais antigos conhecidos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O senet era um jogo de tabuleiro do Egito Antigo. Que faraó, famoso pela tumba quase intacta, foi enterrado com vários tabuleiros dele?",
+    "resposta": "Tutancâmon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Senet",
+        "situacao": "ok",
+        "texto": "Senet or senat (Ancient Egyptian: 𓊃𓈖𓏏𓏠, romanized: znt, lit. 'passing'; cf. Coptic ⲥⲓⲛⲉ /sinə/, 'passing, afternoon') is a board game from ancient Egypt that consists of ten or more pawns on a 30-square playing board. The earliest representation of senet is dated to c. 2620 BCE from the Mastaba of Hesy-Re, while similar boards and hieroglyphic signs are found even earlier, including in the Levant \n[…]\nThe oldest intact senet boards date to the Middle Kingdom, but graffiti on Fifth and Sixth Dynasty monuments could date as early as the Old Kingdom. However, there have been no actual senet boards that have been dated to the Fourth through Sixth Dynasties, just evidence that they did exist from depictions in tombs. In a painting from the Third Dynasty tomb of Hesy-Re, a senet game is depicted along with other boardgames from this era.\n[…]\nTâb – a Middle Eastern game that is sometimes confused with senet\n[…]\nCrist, Walter (2021). \"Debunking the Diffusion of Senet\". Board Game Studies Journal. 15: 13–27. doi:10.2478/bgs-2021-0002.\n[…]\nKendall, Timothy (1978). Passing Through the Netherworld: The meaning and play of Senet, an ancient Egyptian funerary game. Belmont, MA: Kirk Game Company.\n[…]\nPiccione, Peter A. (2007). \"The Egyptian Game of Senet and the Migration of the Soul\". In Finkel, Irving (ed.). Ancient Board Games in Perspective. London: British Museum Press. pp. 54–63. ISBN 978-0-7141-1153-7.\n[…]\nBell, R. C. (1979). \"Senat\". The Boardgame Book. The Knapp Press. pp. 82–83. ISBN 0-89535-007-6.\n[…]\nGrunfeld, Frederic V. (1975). \"Senat\". Games of the World. Holt, Rinehart, and Winston. pp. 53–55. ISBN 978-0-03-015261-0.\n[…]\nSenet   at BoardGameGeek\n[…]\n\"Review of versions\". BoardGameGeek. Senet. Rules speculation.\n[…]\n\"Variations in the rules\". BoardGameGeek. Senet.\n[…]\n\"Why did ancient Egypt spend 3000 years playing a game nobody else liked?\". Eurogamer. 1 June 2016. Senet compared with the Royal Game of Ur"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Senet",
+        "situacao": "ok",
+        "texto": "Senet ou Senat (língua egípcia: znt, literalmente \"passagem\"; língua copta ⲥⲓⲛⲉ /sinə/ \"passagem, tarde\") é um jogo de tabuleiro do Antigo Egito. A menção mais antiga do Senet é datada de 2620 AEC na Mastaba de Hesy-Re, enquanto representações semelhantes e sinais hieroglíficos são encontrados ainda mais anteriormente. A popularidade do jogo decaiu durante o período romano e as regras originais sã\n[…]\nOs tabuleiros de Senet mais antigos e intactos datam do Império Médio, mas grafites do jogo representados em monumentos da Quinta e Sexta Dinastias podem ser datados desde o período do Império Antigo.\n[…]\nO Senet também foi jogado por civilizações vizinhas, e provavelmente chegou a esses lugares através de relações comerciais entre egípcios e povos locais. Foi encontrado no Levante em locais como Biblos, assim como no Chipre. Por causa da prática local de fazer tabuleiros de pedra, foram encontrados mais exemplares do jogo no Chipre do que no Egito.\n[…]\nEstas regras são baseadas em trechos de textos que se estendem por mais de mil anos, extensão de tempo em que as regras do jogo provavelmente mudaram. Portanto, é improvável que estas regras reflitam exatamente como se jogava no Antigo Egito. Tais regras reconstituídas por esses dois especialistas foram adotadas por vendedores de conjuntos modernos do Senet.\n[…]\nEm uma apresentação no XX Colóquio de Estudos dos Jogos de Tabuleiro da Diretoria da Universidade de Copenhague, Dinamarca, Espen Aarseth questionou se é possível dizer se o jogo Senet ainda \"existe\", já que as regras são em si desconhecidas. Em resposta, Alexander de Voogt, do Museu Americano de História Natural, salientou que os jogos antigos em geral não tinham um conjunto fixo de regras, mas que na verdade as regras variavam ao longo do tempo e de lugar para lugar.\n[…]\nCães e Chacais – Antigo jogo egípcio\n[…]\nTâb – Um jogo do Oriente Próximo Antigo algumas vezes confundido com o Senet",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Cobras e escadas",
+      "descricao": "Jogo de tabuleiro de corrida com dados, de origem indiana, em que escadas fazem subir e cobras fazem descer."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O jogo de cobras e escadas nasceu na Índia antiga. Com que propósito ele era jogado por lá?",
+    "resposta": "Ensinar lições de moral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snakes_and_ladders"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Snakes_and_ladders",
+        "situacao": "ok",
+        "texto": "Snakes and ladders is a board game for two or more players regarded today as a worldwide classic. The game originated in ancient India as Moksha Patam ('liberation lesson'), and was brought to the United Kingdom in the 1890s. It is played on a game board with numbered, gridded squares. A number of \"ladders\" and \"snakes\" are pictured on the board, each connecting two specific board squares.\n[…]\nThe morality lesson of the game was that a person can attain liberation (Moksha) through doing good, whereas by doing evil one will be reborn as lower forms of life. The number of ladders was fewer than the number of snakes as a reminder that a path of good is much more difficult to tread than a path of sins. Presumably, reaching the last square (number 100) represented the attainment of Moksha (spiritual liberation).\n[…]\nThe association of Britain's snakes and ladders with India and gyan chauper began with the returning of colonial families from India during the British Raj. The décor and art of the early English boards of the 20th century reflect this relationship. By the 1940s very few pictorial references to Indian culture remained, due to the economic demands of the war and the collapse of British rule in India.\n[…]\nIn Andhra Pradesh, this game is popularly called Vaikunṭhapāḷi or Paramapada Sopāna Paṭamu (the ladder to salvation) in Telugu. In Hindi, this game is called Saanp aur Seedhi, Saanp Seedhi, and Mokshapat. In Tamil Nadu the game is called Parama padam and is often played by devotees of Hindu god Vishnu during the Vaikuntha Ekadashi festival in order to stay awake during the night. In Bengali-speaking regions, West Bengal in India and Bangladesh, it is known as Shap Shiri or Shapludu respectively.\n[…]\nTopsfield, Andrew (2006), \"Snakes and Ladders in India: Some Further Discoveries\" in Artibus Asiae 66:1, pp. 143–179.\n[…]\nMedia related to Snakes and ladders at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cobras_e_Escadas",
+        "situacao": "ok",
+        "texto": "Cobras e Escadas é um jogo de tabuleiro para dois ou mais jogadores considerado hoje um clássico mundial. O jogo teve origem na Índia antiga como Moksha Patam e foi levado para o Reino Unido na década de 1890. Ele é jogado em um tabuleiro de jogo com quadrados numerados. Várias \"escadas\" e \"cobras\" estão representadas no tabuleiro, cada uma conectando dois quadrados específicos do tabuleiro.\n[…]\nO jogo é uma corrida simples baseada em pura sorte e é popular entre as crianças pequenas. A versão histórica tinha suas raízes em lições de moral, nas quais a progressão do jogador no tabuleiro representava uma jornada de vida complicada por virtudes (escadas) e vícios (cobras). O jogo também é vendido com outros nomes, como Escorregadores e Escadas, com tema de moralidade, que foi lançado pela Milton Bradley Company a partir de 1943.\n[…]\nO jogo também foi interpretado e usado como uma ferramenta para ensinar os efeitos das boas e más ações. O tabuleiro era coberto com imagens simbólicas usadas na Índia antiga, com o topo apresentando deuses, anjos e seres majestosos, enquanto o restante do tabuleiro era coberto com imagens de animais, flores e pessoas. As escadas representavam virtudes como generosidade, fé e humildade, enquanto as cobras representavam vícios como luxúria, raiva, assassinato e roubo.\n[…]\nA arte no tabuleiro ensina lições de moral: os quadrados na parte inferior das escadas mostram uma criança fazendo uma ação boa ou sensata e, no topo da escada, há uma imagem da criança desfrutando da recompensa; os quadrados na parte superior dos escorregadores mostram crianças envolvidas em comportamentos travessos e, na parte inferior do escorregador, a imagem mostra as crianças sofrendo as consequências.\n[…]\nSnakes & Lattes é uma rede de cafeterias de jogos de tabuleiro com sede em Toronto, Canadá, cujo nome vem de \"Snakes and Ladders\" (Cobras e Escadas).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Trilha (jogo)",
+      "descricao": "Jogo de tabuleiro para dois em que se tenta alinhar três peças para capturar peças do adversário, conhecido em inglês como nine men's morris."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na versão mais comum da trilha, jogo em que se tenta alinhar três peças para capturar uma do adversário, quantas peças cada jogador tem?",
+    "resposta": "Nove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nine_men%27s_morris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nine_men%27s_morris",
+        "situacao": "ok",
+        "texto": "Nine men's morris is a strategy board game for two players. It is an ancient game, dating back to at least the Roman Empire. The game is also known as nine-man morris, mill, mills, the mill game, merels, merrills, merelles, marelles, morelles, and ninepenny marl in English. In North America, the game has also been called cowboy checkers, and its board is sometimes printed on the back of checkerboa\n[…]\nNine men's morris is a solved game, that is, a game whose optimal strategy has already been calculated. It has been shown that with perfect play from both players, the game results in a draw.\n[…]\nH. J. R. Murray calls version No. 1 \"nine holes\", and version No. 2 \"three men's morris\" or \"the smaller merels\".\n[…]\nSix men's morris gives each player six pieces and is played without the outer square of the board for nine men's morris. Flying is not permitted. The game was popular in Italy, France and England during the Middle Ages but was obsolete by 1600.\n[…]\nrules of nine men's morris, but there are two differences: each player gets ten pieces; and pieces can be moved in the first phase already. This means each player can choose to either place a new piece or to move one of the player's pieces already on the board. This variant is more complex than nine men's morris, and draws are less likely.\n[…]\nIn Shakespeare's 16th century work A Midsummer Night's Dream, Titania refers to such a board: \"The nine men's morris is filled up with mud\".\n[…]\nLusalos is played in the Philippines. It uses the same board and number of pieces as Nine Men's Morris. The rules are identical, except that Phase 3 (the Flying rule) is not included.\n[…]\nShax is played on the board of nine men's morris, but with somewhat different rules and with twelve pieces per player instead of nine.\n[…]\nNine Men's Morris   at BoardGameGeek\n[…]\nNine Men's Morris Strategy by Benjamin Brandwood\n[…]\nTwelve Men's Morris   at BoardGameGeek"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trilha_%28jogo%29",
+        "situacao": "ok",
+        "texto": "Trilha ou Moinho ou Firo é um tradicional e antigo jogo de tabuleiro, que frequentemente é incluído por fabricantes brasileiros de jogos de tabuleiro como parte de coletâneas ([1]). Tipicamente acompanha jogos como Damas, Gamão, Ludo e Xadrez. É conhecido por muitos outros nomes (por exemplo Marel), tanto em português quanto em outras línguas.\n[…]\nSendo 18 no total (9 de cada cor), as peças tem formatos, cores e tamanhos diferentes, dependendo do fabricante. O formato mais comum é a de discos pretos e brancos, semelhante às peças de Damas.\n[…]\nO objetivo do jogo é remover as peças inimigas até que restem no máximo duas.\n[…]\nEm qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertical com três de suas peças (chamada de «moinho») sobre o tabuleiro, tem o direito de escolher uma peça inimiga em qualquer posição do tabuleiro para remover, desde que essa peça não faça parte de um «moinho» inimigo.\n[…]\nCada jogador escolhe uma cor e recebe nove peças com a respectiva cor. Os jogadores vão colocando as peças alternadamente nas posições de suas preferências (de forma semelhante à montagem inicial do Jogo da velha). Tanto os cantos dos quadrados quanto os pontos médios de seus lados são posições iniciais (e de jogo) válidas.\n[…]\nApós um jogador ficar com apenas três peças no tabuleiro, começa a fase de movimentação livre das peças. As peças desse jogador passam a se movimentar livremente pelo tabuleiro, ignorando demais peças ou espaços vazios, podendo ser posicionadas em qualquer casa vazia do tabuleiro.\n[…]\nO jogo termina com uma dessas três possibilidades:\n[…]\nSe um dos jogadores ficar com apenas duas peças, ocasionando uma derrota;\n[…]\nSe ambos os jogadores estiverem com apenas três peças e, em 10 jogadas, não houver vencedor, onde é declarado empate.\n[…]\nTrilha em madeira\n[…]\nVersão eletrônica de Moinho",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Resta um",
+      "descricao": "Quebra-cabeça de tabuleiro para uma pessoa em que se pulam peças sobre outras até restar só uma."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A mais antiga imagem conhecida do resta um é uma gravura de uma princesa da corte francesa de Luís Quatorze. De que século ela é?",
+    "resposta": "Século dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peg_solitaire"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peg_solitaire",
+        "situacao": "ok",
+        "texto": "Peg solitaire, solo noble, solo goli, marble solitaire or simply solitaire is a board game for one player involving movement of pegs on a board with holes. Some sets use marbles in a board with indentations. The game is known as solitaire in Britain and as peg solitaire in the US where 'solitaire' refers to the family of card games.\n[…]\nthe mCRL2 toolset (see the peg_solitaire example in the distribution).\n[…]\nThe PC game Shivers, a horror-themed point and click puzzle game, features many puzzles/games for the player to complete. The puzzle dubbed \"Chinese Checkers\" is actually peg solitaire.\n[…]\nIn Cowboy Bebop: The Movie, the main antagonist, Vincent Volaju, spends most of his free time playing peg solitaire. The vector\n[…]\nfor his planned Bioterrorism attack, a type of nanobot, is stored in peg solitaire marbles.\n[…]\nBeasley, John D. (1985), The Ins & Outs of Peg Solitaire, Oxford University Press, ISBN 978-0-19-853203-3\n[…]\nBell, G. I. (2008), \"Solving triangular peg solitaire\", Journal of Integer Sequences, 11: Article 08.4.8, arXiv:math.CO/0703865, Bibcode:2007math......3865B.\n[…]\nBruijn, N.G. de (1972), \"A solitaire game and its relation to a finite field\" (PDF), Journal of Recreational Mathematics, 5: 133–137, archived (PDF) from the original on 2022-10-09\n[…]\nCross, D. C. (1968), \"Square solitaire and variations\", Journal of Recreational Mathematics, 1: 121–123\n[…]\nJefferson, Chris; et al. (October 2006), \"Modelling and Solving English Peg Solitairet\", Computers & Operations Research, 33 (10): 2935–2959, doi:10.1016/j.cor.2005.01.018\n[…]\nBogomolny, Alexander, \"Peg Solitaire and Group Theory\", Interactive Mathematics Miscellany and Puzzles, retrieved 7 September 2018\n[…]\nWhite Pixels (24 October 2017), Peg Solitaire: Easy to remember symmetrical solution (video), Youtube, archived from the original on 2021-12-11"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Resta_um",
+        "situacao": "ok",
+        "texto": "Resta um é um quebra-cabeça no qual o objetivo é, por meio de movimentos válidos, deixar apenas uma peça no tabuleiro.\n[…]\nNo início do jogo, há 32 peças no tabuleiro, deixando vazia a posição central. Um movimento consiste em pegar uma peça e fazê-la \"saltar\" sobre outra peça, sempre na horizontal ou na vertical, terminando em um espaço vazio. A peça que foi \"saltada\" é retirada do tabuleiro. O jogo termina quando não é mais possível fazer nenhum outro movimento. Nesta ocasião, o jogador ganha se restar apenas uma peça no tabuleiro.\n[…]\nPrograma de código livre para jogar Resta um\n[…]\nJogo grátis de Resta Um para Android\n[…]\nJogo grátis de Resta Um para iOS\n[…]\nJogo grátis de Resta Um para Windows Phone\n[…]\nJogo grátis de Resta Um Online",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Torre de Hanói",
+      "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Apesar do nome asiático, o quebra-cabeça Torre de Hanói foi criado em 1883 por um matemático de qual país?",
+    "resposta": "França",
+    "distratores": [
+      "Vietnã",
+      "Inglaterra",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+        "situacao": "ok",
+        "texto": "The Tower of Hanoi aka TOH (also called the problem of Benares Temple, Tower of Brahma or Lucas's Tower, and sometimes pluralized as Towers, or simply the pyramid puzzle) is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. The puzzle begins with the disks stacked on one rod in order of decreasing size, the smallest at \n[…]\nIn Magnetic Tower of Hanoi, each disk has two distinct sides North and South (typically colored \"red\" and \"blue\").\n[…]\nThe Tower of Hanoi is also used as a backup rotation scheme when performing computer data backups where multiple tapes/media are involved.\n[…]\nThe Tower of Hanoi is also used as a test by neuropsychologists trying to evaluate frontal lobe deficits.\n[…]\nIn 2010, researchers published the results of an experiment that found that the ant species Linepithema humile were successfully able to solve the 3-disk version of the Tower of Hanoi problem through non-linear dynamics and pheromone signals.\n[…]\nIn 2014, scientists synthesized multilayered palladium nanosheets with a Tower of Hanoi-like structure.\n[…]\nIn 2025, Apple Inc. researchers used the Tower of Hanoi and other puzzles to test the reasoning ability of LLM Generative AI programs. The researchers found that the leading AI models, including ChatGPT, Claude, and Deepseek, struggled with solving a Tower of Hanoi at the level of 7 rings, getting less than 80% accuracy, and failing completely to solve a Tower of Hanoi with 8 rings. Even in instances in which the researchers gave the AI models the solution algorithm, they still failed.\n[…]\nIn the 1966 Doctor Who story The Celestial Toymaker, the eponymous villain forces the Doctor to play a ten-piece, 1,023-move Tower of Hanoi game entitled The Trilogic Game with the pieces forming a pyramid shape when stacked.\n[…]\nWeisstein, Eric W. \"Tower of Hanoi\". MathWorld."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i",
+        "situacao": "ok",
+        "texto": "Torre de Hanói é um quebra-cabeça que consiste em uma base contendo três pinos, em um dos quais são dispostos alguns discos uns sobre os outros, em ordem crescente de diâmetro, de cima para baixo. O problema consiste em passar todos os discos de um pino para outro qualquer, usando um dos pinos como auxiliar, de maneira que um disco maior nunca fique em cima de outro menor em nenhuma situação. O nú\n[…]\nO quebra-cabeça foi inventado pelo matemático francês Édouard Lucas. Ele teve inspiração de uma lenda para construir o jogo das Torres de Hanói em 1883. Já seu nome foi inspirado na torre símbolo da cidade de Hanói, no Vietnã.\n[…]\nExistem muitas variações sobre esta lenda. Por exemplo, em algumas narrativas, o templo é um mosteiro e os sacerdotes são monges. O templo ou mosteiro pode estar em diferentes partes do mundo - incluindo Hanói, Vietnã, e pode ser associado a qualquer religião. Em algumas versões, são introduzidos outros elementos, tais como o facto de a torre ter sido criada no início do mundo, ou que os padres ou monges podem fazer apenas uma mudança por dia.\n[…]\nA Torre de Hanói pode ser trabalhada em níveis de desenvolvimento com crianças. Na pré-escola, com regras simples de separação de cores e tamanhos, a torre de Hanói ajuda em questões de coordenação motora, identificação de formas, ordem crescente e decrescente, entre outras formas de aprendizado.\n[…]\nA torre de Hanói consiste em passar todos os discos de uma extremidade a outra sem que um disco maior fique em cima de um menor.\n[…]\nA Torre de Hanói possui várias formas de resolução. Uma delas é a resolução recursiva a qual podemos dizer que é a mais limitada quanto ao tempo de realização, já que sua execução dependerá de alguns fatores para tornar-se mais eficaz.\n[…]\nVeja torre de Hanoi implementada em java.\n[…]\nVeja torre de Hanói implementada em C# ou C sharp.\n[…]\nVersão eletrônica do jogo A Torre de Hanoi",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Tangram",
+      "descricao": "Quebra-cabeça formado por sete peças geométricas planas que se combinam para montar figuras."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O tangram, quebra-cabeça de sete peças geométricas que formam figuras de bichos e pessoas, surgiu em qual país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tangram"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tangram",
+        "situacao": "ok",
+        "texto": "The tangram (Chinese: 七巧板; pinyin: qīqiǎobǎn; lit. 'seven boards of skill') is a dissection puzzle consisting of seven flat polygons, called tans, which are put together to form shapes. The objective is to replicate a pattern (given only an outline) generally found in a puzzle book using all seven pieces without overlap.\n[…]\nAlternatively the tans can be used to create original minimalist designs that are either appreciated for their inherent aesthetic merits or as the basis for challenging others to replicate its outline. It is reputed to have been invented in China sometime around the late 18th century and then carried over to America and Europe by trading ships shortly after. It became very popular in Europe for a time, and then again during World War I.\n[…]\nDespite its relatively recent emergence in the West, there is a much older tradition of dissection amusements in China which likely played a role in its inspiration. In particular, the modular banquet tables of the Song dynasty bear an uncanny resemblance to the playing pieces of the tangram and there were books dedicated to arranging them together to form pleasing patterns.\n[…]\nThe puzzle eventually reached England, where it became very fashionable. The craze quickly spread to other European countries. This was mostly due to a pair of British tangram books, The Fashionable Chinese Puzzle, and the accompanying solution book, Key. Soon, tangram sets were being exported in great number from China, made of various materials, from glass, to wood, to tortoise shell.\n[…]\nEgg of Columbus (tangram puzzle)\n[…]\nLoyd, Sam. Sam Loyd's Book of Tangram Puzzles (The 8th Book of Tan Part I). Mineola, New York: Dover Publications, 1968.\n[…]\nPast & Future: The Roots of Tangram and Its Developments\n[…]\nTurning Your Set of Tangram Into A Magic Math Puzzle by puzzle designer G. Sarcone"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tangram",
+        "situacao": "ok",
+        "texto": "O Tangram (chinês: 七巧板; pinyin: qīqiǎobǎn; lit. \"sete peças de habilidade\") é um quebra-cabeças geométrico chinês formado por 7 peças, chamadas tans: são 2 triângulos grandes, 2 pequenos, 1 médio, 1 quadrado e 1 paralelogramo. Utilizando todas essas peças sem sobrepô-las, podemos formar várias figuras. Segundo a Enciclopédia do Tangram é possível montar mais de 5000 figuras.\n[…]\nNão se sabe ao certo como surgiu o Tangram, mas acredita-se ter sido inventado na China durante a Dinastia Song e levado para Europa por navios mercantes no início do século XIX, onde se tornou muito popular. Há várias lendas sobre a sua origem e o seu renascimento no mundo dos mortos. Uma diz que uma pedra preciosa  se desfez em sete pedaços, e com eles era possível formar várias formas.\n[…]\nOutra diz que um imperador deixou um espelho quadrado cair, e este se desfez em 7 pedaços que poderiam ser usados para formar várias figuras,de diversas formas. Segundo algumas, o nome Tangram vem da palavra inglesa \"tangam\", de significado \"misturas\" ou \"desconhecidos\". Outros dizem que a palavra vem da dinastia chinesa Tang, ou até do barco cantonês \"bundumocu\", onde mulheres entretinham os marinheiros americanos. Na Ásia o jogo é chamado de \"300 placas\".\n[…]\nEsse quebra-cabeças, também conhecido como jogo das 1000 peças, é utilizado pelos professores de geometria como instrumento facilitador da compreensão das formas geométricas. Além de facilitar o estudo da geometria, ele desenvolve a criatividade e o raciocínio lógico, que também são fundamentais para o estudo da matemática e da ciência.\n[…]\nTangram\n[…]\nA Origem do Tangram\n[…]\nThe Tangram\n[…]\n«Peces». Programa gratuito com 40 tangram e mais de 31.000 figuras .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Dominó",
+      "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do dominó vem provavelmente de um traje de capuz preto com máscara branca usado em qual festa italiana?",
+    "resposta": "Carnaval de Veneza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dominoes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dominoes",
+        "situacao": "ok",
+        "texto": "Dominoes are a family of tile-based games played with pieces. Each domino is a rectangular tile, usually with a line dividing its face into two square ends. Each end is marked with a number of spots (also called pips or dots) or is blank. The backs of the tiles in a set are indistinguishable, either blank or having some common design. The gaming pieces make up a domino set, sometimes called a deck\n[…]\nThe earliest mention of dominoes is from Song dynasty China found in the text Former Events in Wulin by Zhou Mi (1232–1298). Modern dominoes first appeared in France during the mid-18th century, but they differ from Chinese dominoes in a number of respects, and there is no confirmed link between the two. European dominoes may have developed independently, or Italian missionaries in China may have brought the game to Europe, although there is no evidence of this.\n[…]\nDominoes is played at a professional level, similar to poker. Numerous organisations and clubs of amateur domino players exist around the world. Some organizations organize international competitions. Examples include the Anglo Caribbean Dominoes League (ACDL) in the UK which includes over 40 clubs including the Brixton Immortals.\n[…]\nSince April 2008, the character encoding standard Unicode includes characters that represent the double-six domino tiles. While a complete domino set has only 28 tiles, the Unicode set has \"reversed\" versions of the 21 tiles with different numbers on each end, a \"back\" image, and everything duplicated as horizontal and vertical orientations, for a total of 100 glyphs. Few fonts are known to support these glyphs.\n[…]\nHow to Play Draughts, Backgammon, Dominoes and Minor Games at Cards. London: Stevens. 1863.\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Dominoes\". Encyclopædia Britannica (11th ed.). Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Domin%C3%B3",
+        "situacao": "ok",
+        "texto": "Dominó é um jogo de mesa que utiliza peças com formatos retangulares, dotadas normalmente de uma espessura que lhes dá a forma de paralelepípedo, em que uma das faces está marcada por pontos indicando valores numéricos. O termo é também usado para designar individualmente as peças que compõem este jogo. O nome provavelmente deriva da expressão latina \"domino gratias\" (\"graças ao Senhor\"), dita pel\n[…]\nUm jogo de dominós é equivalente a um baralho de cartas ou jogo de dados, que podem ser jogados em uma diversidade indeterminada de maneiras.\n[…]\nNo estado norte-americano do Alabama, é proibido por lei jogar dominós aos domingos.\n[…]\nAs variantes dos regras do dominó são muitas e ocorrem tanto em função das formas de jogar um mesmo conjunto, quanto por causa dos diferentes tipos de conjuntos, ou ainda pela existência de formatos diferente de peças derivadas do dominó original.\n[…]\nDominó Amazonense\n[…]\nVariantes que usam as mesmas pedras do dominó tradicional\n[…]\nDominó belga\n[…]\nVariantes que usam pedras derivadas do dominó tradicional\n[…]\nTriominos / Trio Dominó\n[…]\nDominó Mexicano.\n[…]\nAlém do uso em jogos de estratégia, as peças de dominó podem ser usadas no passatempo de alinhá-las em pé, em longas sequências fazendo que a primeira das pedras, quando derrubada, derrube a peça seguinte, e assim por diante, até que todas finalmente caiam.\n[…]\nUm número considerável de pessoas tem se dedicado a compor arranjos de dominós contendo milhões de peças, que chegam a levar vários minutos para serem totalmente derrubadas. O interesse é suficientemente grande para incentivar quebras de recordes, fomentar competições, sites na Internet e até um \"Dia do Dominó\", na Holanda.\n[…]\nPor analogia, fenômenos similares, em que pequenos eventos provocam outros efeitos similares, conduzindo a um resultado maior, são popularmente chamados de efeito dominó.\n[…]\nDominó de baralho",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Cubo mágico",
+      "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias, inventado na Hungria em 1974."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+    "resposta": "Ernő Rubik",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+      "https://en.wikipedia.org/wiki/Ern%C5%91_Rubik"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+        "situacao": "ok",
+        "texto": "The Rubik's Cube (Hungarian: Rubik-kocka) is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube (Hungarian: bűvös kocka), the puzzle was licensed by Rubik to be sold by Pentangle Puzzles in the UK in 1978, and then by Ideal Toy Corp in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer. The cube\n[…]\nWith Ernő Rubik's permission, businessman Tibor Laczi took a Cube to Germany's Nuremberg Toy Fair in February 1979 in an attempt to popularise it outside Hungary. At the fair it was noticed by Seven Towns founder Tom Kremer, a toy inventor and marketer who immediately recognised its international commercial potential. After negotiations, Seven Towns and Rubik’s Hungarian partners signed a deal with Ideal Toys in September 1979 to release the Magic Cube worldwide.\n[…]\nIdeal wanted a distinctive and easily recognisable name to trademark; that arrangement put Rubik himself in the spotlight because the Magic Cube was renamed after its inventor in 1980.\n[…]\nPuzzles like Rubik's Cube can be simulated by computer software to provide very large puzzles that are impractical to build, as well as virtual puzzles that cannot be physically built, such as many higher dimensional analogues of the Rubik's Cube. Google has released the Chrome Cube Lab in association with Ernő Rubik. The site has various interactive objects based on Rubik's Cube. Customised versions of Rubik's Cube can be created and uploaded.\n[…]\nRubik's Domino\n[…]\nRubik, Ernő; Varga, Tamas; Keri, Gerson; Marx, Gyorgy; Vekerdy, Tamas (1987). Singmaster, David (ed.). Rubik's Cubic Compendium. Oxford University Press. ISBN 0198532024.\n[…]\nSlocum, Jerry; Singmaster, David; Huang, Wei-Hwa; Gebhardt, Dieter; Hellings, Geert; Rubik, Ernő (2009). The Cube: The Ultimate Guide to the World's Bestselling Puzzle. Black Dog & Leventhal. ISBN 978-1579128050."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ern%C5%91_Rubik",
+        "situacao": "ok",
+        "texto": "Ernő Rubik (Hungarian: [ˈrubik ˈɛrnøː]; born 13 July 1944) is a Hungarian architect and inventor widely known for creating the Rubik's Cube (1974), Rubik's Magic, and Rubik's Snake.\n[…]\nErnő Rubik was born in Budapest, Hungary, on 13 July 1944, during World War II, and has lived all of his life in Hungary. His father, who was also named Ernő Rubik, was a flight engineer at the Esztergom aircraft factory, and his mother, Magdolna Szántó, was a poet. He has stated in almost every interview that he got his inspiration from his father.\n[…]\nRubik showed his prototype to his class and his students liked it very much. Rubik realized that because of the cube's simple structure, it could be manufactured relatively easily and might have appeal to a larger audience. Rubik's father possessed several patents, so Rubik was familiar with the process and applied for a patent for his invention. Rubik then set out to find a manufacturer in Hungary, but had great difficulty due to the rigid planned economy of communist Hungary at the time.\n[…]\nErnő Rubik has listed several individuals who, as he has said, \"exerted a great influence over me through their work.\" These include Leonardo da Vinci, whom Rubik regards as the Renaissance man; Michelangelo, whom he respects as a polymath, painter, and sculptor; and artist M. C. Escher, who drew impossible constructions and grappled with explorations of infinity.\n[…]\nCo-author of The Rubik's Cube Compendium (written by David Singmaster, Ernő Rubik, Gerzson Kéri, György Marx, Tamás Varga and Tamás Vekerdy), Oxford University Press, 1987.\n[…]\nErnő Rubik at IMDb\n[…]\nAn interview with Ernő Rubik\n[…]\nAn exclusive video interview about the new Rubik's 360"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cubo_de_Rubik",
+        "situacao": "ok",
+        "texto": "Cubo de Rubik (em inglês: Rubik's Cube), também conhecido como cubo mágico, é um quebra-cabeça tridimensional, inventado pelo professor de arquitetura húngaro Ernő Rubik em 1974. Originalmente foi chamado de \"Cubo Mágico\" pelo seu inventor, mas o nome foi alterado pela Ideal Toys para \"Cubo de Rubik\" quando a empresa licenciou o brinquedo em 1980. Nesse mesmo ano, ganhou o prêmio alemão de \"Jogo d\n[…]\nO primeiro protótipo do cubo foi fabricado em 1974 quando Ernő Rubik era professor do Departamento de Desenho de Interiores da Academia de Artes e Trabalhos Manuais Aplicados de Budapeste, Hungria. Por mais que seja amplamente dito que o cubo foi construído como uma ferramenta para auxiliar seus alunos na compreensão de objetos 3D, seu propósito era resolver o problema estrutural de mover as partes independentemente sem que o mecanismo todo se desmanchasse.\n[…]\nEle não havia sequer realizado que tinha criado um quebra-cabeça até a primeira vez que embaralhou e tentou resolver o cubo. Rubik pediu patente para seu \"Cubo Mágico\" (Bűvös kocka em húngaro) em 30 de janeiro de 1975, e HU170062 foi concedido mais tarde nesse mesmo ano.\n[…]\nErnő Rubik foi a primeira pessoa a resolver o cubo de Rubik, levando cerca de um mês depois de criar seu protótipo de madeira em 1974. Seu método original se resumia em: resolver as quinas da camada D, colocar as quinas da camada U no lugar e depois orientá-las, resolver três meios da camada D, resolver três meios da camada U, resolver os demais meios das camadas D e U, por fim resolver os meios da camada do meio.\n[…]\nAtravés da montagem, podemos solucionar o cubo mágico com o auxílio da robótica, uma recente pesquisa elaborada por Silva, Henrique, Aires Fernandes e Castellanos trabalham com a resolução do cubo de Rubik utilizando programação pelo Dataloggin, um complemento auxiliar do software que permite fazer a leitura da programação em gráficos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Ioiô",
+      "descricao": "Brinquedo formado por dois discos unidos por um eixo, com um cordão enrolado, que sobe e desce."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Nos anos vinte, um imigrante chamado Pedro Flores transformou o ioiô em febre nos Estados Unidos. De que país ele vinha?",
+    "resposta": "Filipinas",
+    "distratores": [
+      "Japão",
+      "China",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yo-yo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yo-yo",
+        "situacao": "ok",
+        "texto": "A yo-yo (also spelled yoyo) is a toy consisting of an axle connected to two disks, and a string is fastened around the axle, similar to a spool. It is an ancient toy documented since 440 BC. It was also called a bandalore in the 18th century.\n[…]\nIn 1928, Pedro Flores, a Filipino immigrant to the United States, opened the Yo-yo Manufacturing Company in Santa Barbara, California. The business started with a dozen handmade toys; by November 1929, Flores was operating two additional factories in Los Angeles and Hollywood, which all together employed 600 workers and produced 300,000 units daily.\n[…]\nThe principal distinction between the Filipino design popularized by Flores and the more traditional yo-yos is in the way the yo-yo is strung. In older (and some remaining inexpensive) yo-yo designs, the string is tied to the axle using a knot. With this technique, the yo-yo just goes back and forth; it returns easily, but it is impossible to make it sleep.\n[…]\nIn Flores's design, one continuous piece of string, double the desired length, is twisted around something to produce a loop at one end which is fitted around the axle. Also termed a looped slip-string, this seemingly minor modification allows for a far greater variety and sophistication of motion, thanks to increased stability and suspension of movement during free spin.\n[…]\nShortly thereafter (c. 1929), entrepreneur Donald F. Duncan recognized the potential of this new fad and purchased the Flores Yo-yo Corporation and all its assets, including the Flores name, which was transferred to the new company in 1932."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ioi%C3%B4",
+        "situacao": "ok",
+        "texto": "Ioiô (português brasileiro) ou ioió (português europeu) é um dos mais antigos brinquedos existentes. É constituído de dois discos, geralmente de plástico, mas podendo ser também de madeira ou metal, unidos no centro por um eixo no qual prende-se uma corda. Deixando-se cair o ioiô, de certo modo ele sobe com o impulso, e a corda se enrola; deverá outra vez cair e subir, sucessivamente, até que term\n[…]\nNão se sabe ao certo qual é a origem do Ioiô. Uns dizem ter sido na Grécia, outros na China ou até mesmo as Filipinas. O mais antigo ioiô encontrado data do ano 500 a.C. e era feito com discos de pele de terracota. Na Europa o ioiô começou a popularizar-se no final do século XVIII, principalmente em França e Inglaterra.\n[…]\nO ioiô, na sua forma atual, nasceu nas Filipinas, onde é até hoje um brinquedo muito popular. Foi só em 1928, no entanto, que o ioiô começou a se popularizar no resto do mundo, quando um filipino, Pedro Flores, levou o ioiô para os Estados Unidos e começou a comercializá-los. Pouco tempo depois, o empresário Donald F.\n[…]\nDuncan Sr., impressionado com a popularidade desse simples objeto, comprou a empresa de Pedro Flores, e a transformou na Duncan Company, que passaria a ser a responsável pela imensa popularização do ioiô nas décadas seguintes.\n[…]\nOs truques de ioiô em que o ioiô fica preso em uma corda são chamados de montagens. As transições são empregadas para passar de uma montagem para outra. As montagens frontstyle incluem as montagens inferior e superior, bem como a montagem inferior dividida. As montagens Sidestyle incluem o homem no trapézio voador. As combinações podem ser produzidas através da transição de uma montagem para outra de várias maneiras.\n[…]\nCertos truques, como o OVNI e o Sidewinder, podem alterar a tensão da corda, tornando-a mais frouxa ou mais apertada, alterando assim a resposta do ioiô.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Quebra-cabeça",
+      "descricao": "Jogo de montar uma imagem a partir de peças recortadas que se encaixam, surgido na Inglaterra no século dezoito."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os primeiros quebra-cabeças de encaixar foram feitos em Londres, por volta de 1760. Que tipo de imagem eles recortavam?",
+    "resposta": "Mapas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jigsaw_puzzle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jigsaw_puzzle",
+        "situacao": "ok",
+        "texto": "A jigsaw puzzle (with context, sometimes just jigsaw or just puzzle) is a tiling puzzle that requires the assembly of often irregularly shaped, interlocking, and mosaicked pieces. Typically each puzzle piece contains a portion of a picture, which is completed by solving the puzzle.\n[…]\nIn the 18th century, jigsaw puzzles were created by painting a picture on a flat, rectangular piece of wood, then cutting it into small pieces. The name \"jigsaw\" derives from the tools used to cut the images into pieces—variably identified as jigsaws, fretsaws or scroll saws. John Spilsbury, a London cartographer and engraver, is credited with commercialising jigsaw puzzles around 1760.\n[…]\nJohn Spilsbury is believed to have produced the first jigsaw puzzle around 1760, using a marquetry saw. Jeanne-Marie Leprince de Beaumont, French author and childhood educator, had been using dissected maps or 'wooden maps' in her teaching from as early as 1759.\n[…]\nLife: A User's Manual (1978), Georges Perec's most famous novel, tells as pieces of a puzzle a story about a jigsaw puzzle maker.\n[…]\nProponents of the autism rights movement oppose the jigsaw puzzle iconography, stating that metaphors such as \"puzzling\" and \"incomplete\" are harmful to autistic people. Critics of the puzzle piece symbol instead advocate for an infinity symbol representing diversity. In 2017, the journal Autism concluded that the use of the jigsaw puzzle evoked negative public perception towards autistic individuals. They removed the puzzle piece from their cover in February 2018.\n[…]\nEuropean Jigsaw Puzzle Championships\n[…]\nJigsaw puzzle accessories\n[…]\nWilliams, Anne Douglas (2004). The Jigsaw Puzzle: Piecing Together a History. New York: Berkley. ISBN 9780425201824.\n[…]\nWhy don't Jigsaw Puzzles have the correct number of pieces? – Matt Parker"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quebra-cabe%C3%A7a",
+        "situacao": "ok",
+        "texto": "Uma quebra-cabeça, ou um puzzle é um jogo onde um jogador deve resolver um problema proposto. Nesse tipo de jogo, o raciocínio lógico é bem mais importante que a agilidade e a força física. Os quebra-cabeças são normalmente usados como passatempo. Acredita-se que a história começou quando no século XVIII um cartógrafo colou um mapa a uma tábua de madeira.\n[…]\nOs primeiros quebra-cabeças eram desenhos feitos em tábuas de madeira que depois eram cortados em vários pedaços com uma serra. Atualmente os mais comuns são feitos em algum tipo papel resistente e possuem as mais variadas imagens impressas, sendo as mais comuns paisagens naturais, reproduções de obras de artes famosas e construções típicas de alguma cidade. A imagem é colada no papel e depois é cortada em uma prensa, onde lâminas definem o formato das peças.\n[…]\nAcredita-se que o gravador e cartógrafo londrino John Spilsbury tenha produzido o primeiro quebra-cabeça por volta de 1760, usando uma serra de marchetaria. Os primeiros quebra-cabeças, conhecidos como dissecações, foram produzidos montando mapas em folhas de madeira e cortando ao longo das fronteiras nacionais, criando um quebra-cabeça útil para o ensino de geografia.\n[…]\nGovernanta real Lady Charlotte Finch usou esses \"mapas dissecados\" para ensinar os filhos do rei Jeorge III e da rainha Charlotte.\n[…]\nOs quebra-cabeças cresceram em popularidade durante a Grande Depressão nos EUA, pois forneciam uma forma de entretenimento barata, duradoura e reciclável. Foi nessa época que os quebra-cabeças evoluíram para se tornar mais complexos e atraentes para os adultos. Eles também foram dados em promoções de produtos e usados ​​em publicidade, com os clientes completando uma imagem do produto promovido.\n[…]\nNesse tipo de quebra-cabeça, as peças devem ser combinadas de modo a formar uma estrutura pré-determinada. Exemplos:\n[…]\nQuebra-cabeça de arame",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Pôquer",
+      "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cartas."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Hoje jogado no mundo inteiro, o pôquer nasceu no início do século dezenove em qual país?",
+    "resposta": "Estados Unidos",
+    "distratores": [
+      "França",
+      "Inglaterra",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poker",
+        "situacao": "ok",
+        "texto": "Poker is a family of comparing card games in which players wager over which hand is best according to that specific game's rules. It is played worldwide, with varying rules in different places. While the earliest known form of the game was played with just 20 cards, today it is usually played with a standard 52-card deck, although in countries where short packs are common, it may be played with 32\n[…]\nDraw poker\n[…]\nConsequently, their ability to rapidly calculate and retrieve millions of possible move combinations is generally superior to the human capacity for abstract tactical thinking. In poker, however, the computer does not know the other players' cards, and therefore has to play a game of imperfect information.\n[…]\nModern poker solvers simulate a vast number of hands to minimize counterfactual regret and converge towards a Nash Equilibrium, reducing mathematical exploitability in order to approximate a Game Theory Optimal (GTO) strategy. Although artificial intelligence can now beat even the best poker players just as consistently as in chess, the full game tree of No-Limit Hold'em is still considered unsolvable, as more than\n[…]\nA variety of computer poker players have been developed by researchers at the University of Alberta, Carnegie Mellon University, and the University of Auckland amongst others.\n[…]\nIn a January 2015 article published in Science, a group of researchers mostly from the University of Alberta announced that they \"essentially weakly solved\" heads-up limit Texas Hold 'em with their development of their Cepheus poker bot.\n[…]\nThe authors claimed that Cepheus would lose at most 0.001 big blinds per game on average against its worst-case opponent, and the strategy is thus so \"close to optimal\" that \"it can't be beaten with statistical significance within a lifetime of human poker playing.\"\n[…]\nGlossary of poker terms\n[…]\nList of poker hands\n[…]\nOnline poker\n[…]\nOutline of poker\n[…]\nUnderground poker"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%B4quer",
+        "situacao": "ok",
+        "texto": "Pôquer (português brasileiro) ou póquer (português europeu) (do inglês poker) é um jogo de cartas jogado por duas ou mais pessoas muito comum em casinos.\n[…]\nOutros historiadores do jogo dizem que sua origem está em uma palavra francesa, “poque”, que era o nome de um jogo desse país. Segundo essa teoria, o jogo foi levado da França para os Estados Unidos através de um grupo de colonizadores franceses que teriam fundado a cidade de Nova Orleans. A partir de então, se difundiria ao longo da rota do Rio Mississippi durante o século XVIII e se popularizaria nos Estados Unidos durante o século XIX, quando o país começou sua expansão até o oeste.\n[…]\nNo início do século XX, o pôquer é declarado ilegal no estado de Nevada, nos Estados Unidos. Entretanto, devido ao fato do pôquer ser considerado mais um jogo de habilidade do que de azar, as autoridades da Califórnia determinaram que as leis contra os jogos de azar não poderiam ser aplicadas a ele. Esta decisão, permitiu ao jogo se desenvolver e ganhar popularidade, e posteriormente o estado de Nevada acaba abolindo a sua proibição, legalizando-o em seus cassinos no ano de 1931.\n[…]\nNos Estados Unidos utiliza-se um baralho comum de 52 cartas. No Brasil as cartas de valor mais baixo são retiradas, de acordo com o número de participantes. Com quatro participantes utilizam-se as cartas do 7 ao Ás; com cinco jogadores, do 6 ao Ás. Embora os grupos possam ser constituídos de dois até oito jogadores, as mesas formadas de quatro a sete são consideradas ideais. Para cada jogador a mais no grupo, uma outra carta será acrescentada.\n[…]\nStrip poker\n[…]\nBrazilian Series of Poker\n[…]\nEuropean Poker Tour\n[…]\nWorld Poker Tour",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Mão do morto",
+      "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No pôquer, a mão do morto, com pares de ases e de oitos, ganhou esse nome por causa de qual pistoleiro do Velho Oeste?",
+    "resposta": "Wild Bill Hickok",
+    "distratores": [
+      "Billy the Kid",
+      "Jesse James",
+      "Buffalo Bill"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dead_man%27s_hand"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dead_man%27s_hand",
+        "situacao": "ok",
+        "texto": "The makeup of poker's dead man's hand has varied throughout its history. Currently, it is described as a two-pair poker hand consisting of the black aces and black eights. The pair of aces and eights, along with an unknown kicker, were reportedly held by Old West folk hero, lawman, and gunfighter Wild Bill Hickok when he was murdered while playing a game. No contemporaneous source, however, record\n[…]\nWilstach's 1926 book Wild Bill Hickok: The Prince of Pistoleers led to the popular modern held conception of the poker hand's contents.\n[…]\nThe expression \"dead man's hand\" appears to have had some currency in the late 19th and early 20th centuries, although no one connected it to Hickok until the 1920s. The earliest detailed reference to it was 1886, where it was described as a \"full house consisting of three jacks and a pair of tens\" (J J J 10 10). Three jacks and red sevens (J J J 7♥ 7♦) are called the dead man's hand in the 1903 Encyclopaedia of Superstitions, Folklore, and the Occult Sciences.\n[…]\nWhat is currently considered the dead man's hand card combination received its notoriety from a legend that it was the five-card stud or five-card draw hand held by Wild Bill Hickok when he was shot in the back of the head by Jack McCall on August 2, 1876, in Nuttal & Mann's Saloon, Deadwood, Dakota Territory. Hickok's final hand purportedly included the aces and eights of both black suits.\n[…]\nAccording to the book Wild Women of the West by Western historian Carl W. Breihan, the cards were retrieved from the floor by a man named Neil Christy, who then passed them on to his son. The son, in turn, told Mr. Breihan of the composition of the hand.\n[…]\nThe solidification in gamers' parlance of the dead man's hand as two pairs, black aces and eights, did not come about until after the 1926 publication of Wilstach's book—50 years after Hickok's death.\n[…]\nDead Mans Hand: Wild Bill's Aces and Eights"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A3o_do_homem_morto",
+        "situacao": "ok",
+        "texto": "Mão do Homem Morto é uma mão no pôquer. Trata-se de um par de ases e um par de oitos, ambos pretos, que é tradicionalmente, por superstição, considerada jogada que dá azar por ser estatisticamente muito improvável ganhar com essa mão.\n[…]\nEm 2 de agosto de 1876, o jogador de pôquer profissional, pistoleiro e advogado James Butler Hickok, conhecido como “Wild Bill Hickok” foi até um saloon na cidade de Deadwood, no Território de Dakota, para faturar uns dólares em cima dos locais. Infelizmente, para ele, não achou uma cadeira vaga de costas para a parede e de frente para a porta, onde costumava sentar-se por precaução.\n[…]\nInteressado no jogo, ele se contentou com uma cadeira de costas para a porta. Logo após receber um par de ases e um par de oitos, todos pretos, um colega de profissão seu, Jack McCall, se aproximou por trás e o fuzilou na nuca.\n[…]\nWild Bill caiu silenciosamente no solo sem soltar as cartas que estavam em seus dedos, que ficaram conhecidas desde então como a \"Mão do Homem Morto\" roda como superstição que caso um jogador caia em um jogo de pôquer com essa mão, ou você pode ganhar o jogo ou tomar um tiro na nuca.\n[…]\nComo ele era uma espécie de celebridade no Velho Oeste, os jornais publicaram várias matérias falando do sujeito e do jogo, com ênfase nas cartas em sua mão, que se tornariam sinal de mau presságio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Blackjack",
+      "descricao": "Jogo de cartas de cassino, também chamado vinte e um, em que se tenta somar vinte e um pontos sem passar."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome blackjack, do jogo de cartas vinte e um, vem de um antigo bônus pago a quem tinha um valete preto e qual outra carta?",
+    "resposta": "Ás de espadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blackjack"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Blackjack",
+        "situacao": "ok",
+        "texto": "Blackjack (formerly black jack or vingt-un) is a casino banking game. It is the most widely played casino banking game in the world. It uses decks of 52 cards and descends from a global family of casino banking games known as \"twenty-one\". This family of card games also includes the European games vingt-et-un and pontoon, and the Russian game Ochko. The game is a comparing card game where players \n[…]\nA total of 21 on the starting two cards is called a \"blackjack\" or \"natural,\" and is the strongest hand.\n[…]\nIf the dealer does not bust, each remaining bet wins if its hand is higher than the dealer's and loses if it is lower. In the case of a tie (\"push\" or \"standoff\"), bets are returned without adjustment. A blackjack beats any hand that is not a blackjack, even one with a value of 21.\n[…]\nAllowing the player to hit hands resulting from split aces reduces the house edge by about 0.13%; allowing resplitting of aces reduces the house edge by about 0.03%. Note that a ten-value card dealt on a split ace (or vice versa) will not be counted as a blackjack but as a soft 21.\n[…]\nSpanish 21 provides players with liberal rules, such as doubling down any number of cards (with the option to \"rescue\", or surrender only one wager to the house), payout bonuses for five or more card 21s, 6–7–8 21s, 7–7–7 21s, late surrender, and player blackjacks and player 21s always winning. The trade-off is having no 10s in the deck, although the jacks, queens, and kings are still there.\n[…]\nProfessional Blackjack, Stanford Wong, 1994 (1975), ISBN 978-0-935926-21-7\n[…]\nThe Blackjack Life, Nathaniel Tilton, 2012, ISBN 978-1935396338\n[…]\nThe World's Greatest Blackjack Book, Lance Humble and Carl Cooper, 1980, ISBN 978-0-385-15382-9\n[…]\nLuck, Logic, and White Lies: The Mathematics of Games, Jörg Bewersdorff, 2021 (2004), ISBN 978-1-00-309287-2, doi:10.1201/9781003092872, 121–141, online supplement: Blackjack calculator (JavaScript)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Blackjack",
+        "situacao": "ok",
+        "texto": "Blackjack ou vinte-e-um é um jogo praticado com cartas em casinos e que pode ser jogado com 1 a 8 baralhos de 52 cartas, em que o objetivo é ter mais pontos do que o adversário, mas sem ultrapassar os 21 (caso em que se perde). O dealer só pode pedir até um máximo de 5 cartas ou até chegar ao número 17.\n[…]\nA mão mais elevada no blackjack é um Ás e uma carta de 10 pontos e é chamada justamente de blackjack. Um blackjack paga 3 para 2 da aposta ou 6 para 5 no caso do vegas strip. Se o jogador e o dealer (a banca ou casino) tiverem um blackjack a aposta é um empate. O jogador ganha se a sua mão tiver mais pontos que a do dealer, sem ir acima de 21. Assim uma mão de 21 pontos é a mais elevada e é por isso que o jogo é chamado às vezes de 21.\n[…]\nQuando vinte e um foram introduzidos nos Estados Unidos, as casas de apostas ofereciam pagamentos de bônus para estimular o interesse dos jogadores. Um desses bônus era um pagamento de dez para um se a mão do jogador consistisse do ás de espadas e de um valete preto (ou o valete de paus ou o valete de espadas). Essa mão foi chamada de \"blackjack\", e o nome ficou preso ao jogo, embora o bônus de dez para um tenha sido retirado em breve.\n[…]\nUm círculo do blackjack começa com cada jogador que coloca uma aposta no círculo ou na frente dele. Então o dealer dará a cada jogador e a ele mesmo duas cartas. As cartas do jogador são geralmente de face para cima. Uma carta do dealer é de face para cima (ascendente) e a outra de cara para baixo (a carta do furo). Se o dealer tiver um dez ou um Ás na carta ascendente é possível ele ter um blackjack. Nesse caso todas as mãos dos jogadores perderão exceto contra outro blackjack.\n[…]\nHit (\"acertar\" o jogador com mais cartas): Se o jogador desejar mais uma carta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Rei (carta de baralho)",
+      "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Como parece enfiar a espada na própria cabeça, o rei de copas ganhou em inglês um apelido sombrio. Ele é o rei o quê?",
+    "resposta": "Suicida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/King_(playing_card)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/King_(playing_card)",
+        "situacao": "ok",
+        "texto": "The king is a playing card with a picture of a king displayed on it. The king is usually the highest-ranking face card. In the French version of playing cards and tarot decks, the king immediately outranks the queen. In Italian and Spanish playing cards, the king immediately outranks the knight. In German and Swiss playing cards, the king immediately outranks the Ober. In some games, the king is t\n[…]\nAces began outranking kings around 1500 with Trappola being the earliest known game in which the aces were highest in all four suits. In the ace–ten family of games such as pinochle and Schnapsen, both the ace and the 10 rank higher than the king.\n[…]\nThe king card is the oldest and most universal court card. It most likely originated in Persian Ganjifeh where kings are depicted as seated on thrones and outranking the viceroy cards which are mounted on horses. Playing cards were transmitted to Italy and Spain via the Mamluks and Moors. The best preserved and most complete deck of Mamluk cards, the Topkapı pack, did not display human figures but just listed their rank most likely due to religious prohibition.\n[…]\nIt is not entirely sure if the Topkapı pack was representative of all Mamluk decks as it was a custom-made luxury item used for display. A fragment of what may be a seated king card was recovered in Egypt which may explain why the poses of court cards in Europe resemble those in Persia and India.\n[…]\nThe king of hearts is sometimes called the \"suicide king\" because he appears to be sticking his sword into his head. This is a result of centuries of bad copying by English card makers where the king's axe head has disappeared.\n[…]\nU+1F0AE 🂮 PLAYING CARD KING OF SPADES\n[…]\nU+1F0BE 🂾 PLAYING CARD KING OF HEARTS\n[…]\nU+1F0CE 🃎 PLAYING CARD KING OF DIAMONDS\n[…]\nU+1F0DE 🃞 PLAYING CARD KING OF CLUBS"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rei_%28baralho%29",
+        "situacao": "ok",
+        "texto": "O rei é a terceira carta da corte e está presente nos principais sistemas de baralho: latino, anglo-francês e germânico, sempre simbolizando um monarca coroado. A iconografia tradicional mostra o rei com atributos de poder, como espadas, cetros ou machados, embora o estilo varie conforme a tradição gráfica.\n[…]\nSua representação varia conforme a tradição: nos baralhos franceses, aparece com a letra R (Roi); nos ingleses, com a letra K (King); e nos germânicos, também pode aparecer como K (König).\n[…]\nNão é totalmente certo se o pacote Topkapi era representativo de todos os baralhos mamelucos, pois era um item de luxo feito sob medida e usado para exibição. Um fragmento do que pode ser uma carta de rei sentado foi recuperado no Egito, o que pode explicar por que as poses das cartas da corte na Europa se assemelham às da Pérsia e da Índia.\n[…]\nOs reis sentados eram geralmente comuns em toda a Europa. Durante o século XV, os espanhóis começaram a produzir reis permanentes. Os franceses usaram originalmente cartas espanholas antes de desenvolverem seus padrões de baralho regionais. Muitos projetos da corte espanhola foram simplesmente reutilizados quando os franceses inventaram seu próprio sistema de trajes por volta de 1480. The English imported their cards from Rouen until the early 17th century when foreign card imports were banned.\n[…]\nOs ingleses importaram seus cartões de Rouen até o início do século XVII, quando as importações de cartões estrangeiros foram proibidas. O rei de copas às vezes é chamado de \"rei suicida\" porque parece estar enfiando a espada na cabeça. Isto é o resultado de séculos de más cópias por parte dos fabricantes de cartões ingleses, onde a cabeça do machado do rei desapareceu.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Bingo",
+      "descricao": "Jogo de sorte em que se marcam numa cartela os números sorteados, até completar uma linha ou a cartela."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O bingo descende de uma loteria criada na Itália. Em que século essa loteria surgiu?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bingo_(American_version)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bingo_(American_version)",
+        "situacao": "ok",
+        "texto": "Bingo is a game of chance in which each player matches the numbers printed in different arrangements on cards. The game host (known as a caller) draws balls at random, marking the selected numbers with tiles.\n[…]\nHard-way bingo\n[…]\nMost bingo parlors in Las Vegas use handheld machines for the games.\n[…]\nAs a result of the passage of SB1180 in 2017, the State of Arizona now allows technological aids for bingo games that function only as an electronic substitute for bingo cards. These technological aids are not defined by Arizona law or regulation, but one such electronic technological aid consists of a system which includes a network linking player interfaces to a number drawing device (ball-draw server) and an electronic substitute for a \"live\" cashier.\n[…]\nMusic bingo is growing in popularity and is finding its way into bars, pubs, and other events as bingo is already a familiar concept and when integrated with music, also results in fun and collaboration among players (singing along to the songs that are randomly played). It was introduced as a game show in 1958 and continues to expand today.\n[…]\nLingo, a game show incorporating Bingo mechanics and five-letter words\n[…]\nPinoy Bingo Night, a game show in the Philippines with Kris Aquino on ABS-CBN.\n[…]\nBingo America, a bingo-based viewer-participation game show on GSN\n[…]\nNational Bingo Night, a bingo-based viewer participation game show on ABC that ended in 2007\n[…]\nBingo Blitz, a game show on GSN based on the mobile game of the same name\n[…]\nSlingo, an online game that blends slots and bingo\n[…]\nBingo (card game)\n[…]\nLotería\n[…]\nOnline bingo, Bingo played on the Internet\n[…]\nScreeno, Bingo played by movie audience members\n[…]\nBBC article on Bingo Calling\n[…]\nDirectory of Bingo Halls in USA"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bingo",
+        "situacao": "ok",
+        "texto": "O bingo é um jogo de azar onde bolas numeradas são colocadas dentro de um globo e sorteadas uma a uma. O jogo é comum em cassinos, salas de bingo online,  casas de bingo, quermesses e festas juninas (no Brasil), além de servir como diversão caseira entre famíliares e amigos.\n[…]\nNas páginas com as regras do bingo online costuma‑se descrever separadamente a compra de cartelas, a ordem do sorteio dos números e as condições de término da partida.\n[…]\nEm diferentes países, o estatuto legal do bingo depende de se o jogo é considerado uma loteria, um jogo de cassino, um sorteio beneficente ou um serviço de jogo comercial. No Reino Unido, o bingo é regulado como uma forma de atividade de jogo, sujeita a requisitos de licenciamento e de proteção aos jogadores.\n[…]\nAo comparar o bingo online, o usuário avalia de facto um conjunto de condições: o custo da cartela, a frequência dos sorteios, as regras de formação do fundo de prêmio, o licenciamento e as ferramentas disponíveis de controle de risco. Por isso a descrição moderna do bingo inclui não só a mecânica das cartelas e dos números, mas também o regime jurídico, o formato de acesso e as medidas de redução de danos.\n[…]\nBuzzword bingo (também chamado de bullshit bingo)\n[…]\nBingo bovino (também chamado de Bossy bingo), no qual a defecação de um bovino é usada para desenhar os números\n[…]\nNational Bingo Night, um game show de participação do espectador baseado em bingo na ABC que terminou em 2007\n[…]\nFacebook bingo difere dos tradicionais jogos de bingo online ou terrestres. A maioria dos jogos apresenta 'power-ups' que dão aos jogadores individuais uma vantagem em ganhar o jogo ao usar tais power-ups\n[…]\nVariantes temáticas do jogo tradicional incluem bingo drag queen, bingo punk rock e bingo cobertor de praia.\n[…]\nLoteria",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Tarô",
+      "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No baralho de tarô, quantas cartas formam os arcanos maiores, como o Louco, a Morte e o Mundo?",
+    "resposta": "Vinte e duas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Major_Arcana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Major_Arcana",
+        "situacao": "ok",
+        "texto": "The Major Arcana are the named cards in a cartomantic tarot pack. There are usually 22 such cards in a standard 78-card pack, typically numbered from 0 to 21 (or 1 to 21, with the Fool numbered as 0). Although the cards correspond to the trump cards of a pack used for playing tarot card games, the term 'Major Arcana' is rarely used by players and is typically associated exclusively with use for di\n[…]\nChristian attempted to give authority to his analysis by falsely attributing an account of ancient Egyptian initiation rites to Iamblichus, but it is clear that Christian was the source of any initiatory relevance to the tarot trumps.\n[…]\nSubsequent to this activity the initiatory relevance of the tarot was firmly established in the minds of occult practitioners.\n[…]\nThe emergence of the tarot as an initiatory tool was coincident with the flowering of initiatory esoteric orders and secret brotherhoods during the middle of the 19th century. For example, Marquis Stanislas de Guaita founded the Cabalistic Order of the Rosy Cross in 1888 along with several key commentators on the initiatory tarot, e.g. Papus, François-Charles Barlet, and Joséphin Péladan (1858–1918).\n[…]\nThese orders placed great emphasis on secrets, advancing through the grades, and initiatory tests and so it is not surprising that, already having the tarot to hand, they read into the tarot initiatory significance.\n[…]\nDoing so lent an air of divine, mystical, and ancient authority to their practices and allowed them to continue to expound on the magical and mystical significance of the presumably ancient and hermetic tarot. Be that as it may this activity established the tarot's significance as a device and book of initiation not only in the minds of occult practitioners, but also in the minds of new age practitioners, Jungian psychologists, and general academics."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arcano_maior",
+        "situacao": "ok",
+        "texto": "Os arcanos maiores ou, ainda, triunfos maiores são uma subdivisão do tarô e, juntamente, com os arcanos menores formam uma das partes integrantes do baralho. Em conjuntos esotéricos, os arcanos maiores entram em contrapartida com os menores e retratam situações gerais e em que circunstância encontra-se a alma, o espírito ou o subconsciente humano em determinada situação, por isso é representado po\n[…]\nOs arcanos maiores são geralmente considerados por leitores de cartas como relativas a questões de maior efeito ou profundo significado, ao contrário dos arcanos menores que se relacionam com o mundo quotidiano e questões de importância imediata.\n[…]\nAs imagens nas cartas esotéricas dos arcanos maiores são frequentemente repletas de simbolismos ocultos; escondido, há muito mais na ilustração do que uma mera descrição da carta título. As primeiras cartas não eram nomeadas e numeradas, e tinham somente imagens. A ordem das cartas não é normalizada. No entanto, um dos mais comuns conjuntos de nomes e números é a seguinte:\n[…]\n«Learning the Tarot»  (em inglês)\n[…]\n«Tarot: History»  (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Bridge",
+      "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O bridge de contrato, forma moderna do jogo, foi criado em 1925, num cruzeiro, por um herdeiro de qual família milionária americana?",
+    "resposta": "Vanderbilt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contract_bridge",
+      "https://en.wikipedia.org/wiki/Harold_Stirling_Vanderbilt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Contract_bridge",
+        "situacao": "ok",
+        "texto": "Contract bridge, or simply bridge, is a trick-taking card game using a standard 52-card deck. In its basic format, it is played by four players in two competing partnerships, with partners sitting opposite each other around a table.\n[…]\nThe modern game of contract bridge was the result of innovations to the scoring of auction bridge by Harold Stirling Vanderbilt and others. The most significant change was that only the tricks contracted for were scored below the line toward game or a slam bonus, a change that resulted in bidding becoming much more challenging and interesting. Also new was the concept of \"vulnerability\", which made sacrificing to protect the lead in a rubber more expensive.\n[…]\nThe various scores were adjusted to produce a more balanced and interesting game. Vanderbilt set out his rules in 1925, and within a few years contract bridge had so supplanted other forms of the game that \"bridge\" became synonymous with \"contract bridge\".\n[…]\nThere are no universally accepted rules for rubber bridge, but some zonal organisations have published their own. An example for those wishing to abide by a published standard is The Laws of Rubber Bridge as published by the American Contract Bridge League.\n[…]\nIn 1925 when contract bridge first evolved, bridge tournaments were becoming popular, but the rules were somewhat in flux, and several different organizing bodies were involved in tournament sponsorship: the American Bridge League (formerly the American Auction Bridge League, which changed its name in 1929), the American Whist League, and the United States Bridge Association. In 1937, the first officially recognized world championship was held in Budapest.\n[…]\nAmerican Contract Bridge League (ACBL)\n[…]\nThe Bridge Library"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Harold_Stirling_Vanderbilt",
+        "situacao": "ok",
+        "texto": "Harold Stirling Vanderbilt CBE (July 6, 1884 – July 4, 1970) was an American railroad executive, a champion yachtsman, an innovator and champion player of contract bridge, and a member of the Vanderbilt family.\n[…]\nVanderbilt was also a card game enthusiast. In 1925, while on board SS Finland, he originated changes to the scoring system through which the game of contract bridge supplanted auction bridge in popularity. Three years later he endowed the Vanderbilt Cup awarded to the winners of the North American team-of-four championship (now the Vanderbilt Knockout Teams, or simply \"the Vanderbilt\", one of the North American Bridge Championships marquee events).\n[…]\nVanderbilt, Ely Culbertson, and Charles Goren were the three people named when The Bridge World inaugurated a bridge \"hall of fame\" in 1964 and they were made founding members of the ACBL Hall of Fame in 1995.\n[…]\nIn 1969, the World Bridge Federation (WBF) made Vanderbilt its first honorary member. In 1969, he became a WBF Honorary Member, and was inducted into the ACBL Hall of Fame in 1964.In 1941, he was made ACBL Honorary Member of the Year and won the Wetzlar Trophy in 1940.\n[…]\nHe won the North American Bridge Championships twice and the Vanderbilt twice, the first in 1932 and the last in 1940. He was a runner-up at the North American Bridge Championships and during the Vanderbilt in 1937.\n[…]\nThe Club Convention System of Bidding at Contract Bridge, As Modernized by Harold S. Vanderbilt (Charles Scribner's Sons, New York, 1964), 160 pp.\n[…]\nHarold S. Vanderbilt (1931). Enterprise the Story of the Defense of the America's Cup in 1930. Charles Scribner's sons Press.\n[…]\nVanderbilt's private rail car\n[…]\nHarold Stirling Vanderbilt at Find a Grave"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bridge_%28jogo_de_cartas%29",
+        "situacao": "ok",
+        "texto": "Bridge ou brídege é um jogo de cartas, que usa a mecânicas de leilão e de vazas, jogado por dois pares de jogadores e com as 52 cartas de um baralho - 13 em cada naipe (♣Paus, ♦Ouros, ♥Copas e ♠Espadas)\n[…]\nUm jogo de bridge é dividido em duas partes, o leilão e o carteio e o objectivo do jogo é realizar o maior número de vazas possível. No leilão chega-se a um contrato que pode ser trunfado, isto é, existe um trunfo que poderá ser um dos 4 naipes (Paus, Ouros, Copas ou Espadas) ou Sem Trunfo (não existe trunfo). O par que ganhar o leilão vai tentar cumprir o contrato com que se comprometeu (fazer entre 7 e 13 vazas, jogando com ou sem trunfo).\n[…]\nFederação Mundial de Bridge (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Máfia (jogo)",
+      "descricao": "Jogo de festa de dedução social em que uma vila tenta descobrir os assassinos escondidos entre os jogadores, criado em 1986."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Máfia, jogo de festa em que uma vila tenta desmascarar assassinos escondidos entre os jogadores, nasceu em 1986 numa universidade de qual cidade?",
+    "resposta": "Moscou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mafia_(party_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mafia_(party_game)",
+        "situacao": "ok",
+        "texto": "Mafia, also known as Werewolf, is a social deduction game created in 1986 by Dmitry Davidoff, then a psychology student at Moscow State University. The game models a conflict between two groups: an informed minority (the mafiosi or the werewolves) and an uninformed majority (the villagers). At the start of the game, each player is secretly assigned a role affiliated with one of these teams.\n[…]\nDimitry Davidoff (Russian: Дми́трий Давы́дов, Dmitry Davydov) is generally acknowledged as the game's creator. He dates the first game of Mafia to spring 1987 at the Psychology Department of Moscow State University, from where it spread to the classrooms, dorms, and summer camps. Davidoff says that he brought Mafia into the Psychology department classrooms for research and it spread (as a meme) from there to dormitories and likely over next summer, through student summer camps.\n[…]\nIn September 1998, Mafia was introduced to the Graduate College at Princeton University, where several variants were developed. The werewolf theme was also incorporated in the French adaption of Mafia, The Werewolves of Millers Hollow.\n[…]\nThe naming of various roles, factions, and other elements of play is theme-dependent and has limitless variation. Common alternative themes restyle the mafia as werewolves, cultists, assassins, or witches, with other roles being renamed appropriately.\n[…]\nBy waking the Mafia members up separately.\n[…]\nMafia: The Game of Survival (2016), Russian science fiction action film inspired by the game.\n[…]\nAssassin\n[…]\nThe Traitors, a reality game show franchise with multiple international editions, in which the game format resembles Mafia.\n[…]\n\"How to Play Mafia (with and Without Cards)\". Autodesk.\n[…]\nAloi, David (17 December 2013). \"How to Play Mafia: An In-Depth Guide to the Perfect Party Game\". KQED-FM.\n[…]\nThe original Mafia ruleset\n[…]\nHungarian Mensa Society – first Mafia-related page on the Internet"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mafia_%28jogo_de_sal%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Máfia, (também conhecido como Assassino ou Cidade dorme no Brasil) é um jogo que recria uma batalha entre uma minoria informada e uma maioria desinformada. Os jogadores têm papéis alocados secretamente: ou são \"mafiosos\" (ou assassinos), conhecendo-se entre eles, ou \"cidadãos\", que só conhecem o número de mafiosos em seu contra. Durante a fase nocturna do jogo, a Máfia elege um inocente para matá-\n[…]\nMáfia foi criado na primavera de 1986 por Dimitry Davidoff no Departamento de Psicologia da Universidade Estatal de Moscovo.\n[…]\nMáfia guarda similitudes com o popular jogo de cartas (de Baralho espanhol) o Ladrão e Polícia. Neste jogo, há 6 tipos de jogadores, mas só 4 intervêm com acções no jogo.\n[…]\nO narrador (ou deus) é quem relata o partido. (Este jogador não é representado por cartas, só se decide quem será no início do jogo)\n[…]\n1.ª: o narrador anuncia \"Abrem os olhos a máfia\" (ou os assassinos). Depois disto, os que lhes tocaram cartas de mafiosos ao repartir(8,9,10,11)deverão -mediante senhas- pensar a quem querem matar; Por exemplo: um mafioso assinala a um jogador, mas outro lhe nega com a cabeça e assinala a outro, depois de se pôr de acordo todos, elegem a algum todos e o narrador perguntará: \"Estão seguros?\". Dirão que sim com a cabeça ou que não depende sua decisão.\n[…]\nDepois de iniciar uma nova rodada, Deus fará o processo de novo, começando com \"Faz-se de noite...\". Mas os jogadores que têm morrido numa rodada ou rodadas anteriores verão todo o processo mas Deus se assegurasse de que não faça armadilha depende o caso (por exemplo, se é um povo, se assegurasse de que não lhe diga a outro quem é assassino).\n[…]\nTambém existe uma versão de Máfia com muitos mais papéis (personagens), que se costuma jogar ao vivo; de todos modos, há comunidades que se encarregam de levar a cabo dito jogo via foro.\n[…]\nMáfia\n[…]\nDeus (ou Jogador Supremo, Narrador)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Carcassonne (jogo)",
+      "descricao": "Jogo de tabuleiro alemão de 2000 em que os jogadores montam cidades, estradas e mosteiros com peças quadradas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O jogo Carcassonne, de montar cidades e estradas com peças quadradas, tem o nome de uma cidade medieval murada. Em que país ela fica?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carcassonne_(board_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carcassonne_(board_game)",
+        "situacao": "ok",
+        "texto": "Carcassonne () is a tile-based Eurogame for two to five players, designed by Klaus-Jürgen Wrede and published in 2000 by Hans im Glück in German and by Rio Grande Games (until 2012) and Z-Man Games (currently) in English. It received the Spiel des Jahres and the Deutscher Spiele Preis awards in 2001.\n[…]\nIt is named after the medieval fortified town of Carcassonne in southern France, famed for its city walls. The game has spawned many expansions and spin-offs, and several PC, console, and mobile versions. A new edition, with updated artwork on the tiles and the box, was released in 2014.\n[…]\nCarcassonne for iOS\n[…]\nCarcassonne for Nintendo DS\n[…]\nCarcassonne: Tiles & Tactics\n[…]\nInternational Carcassonne tournaments were held in Germany in 2003–2005.\n[…]\nThe first official Carcassonne World Championship was held at SPIEL in Essen, Germany, in 2006. An annual world championship has been held at SPIEL every year since 2006 with the exceptions of the 2010  and the 2023 championships, which were held during SPIEL but at an alternate location in Herne, Germany; and the 2020 edition which was cancelled due to the COVID-19 pandemic.\n[…]\nAs a result of the cancellation of World Championship in 2020, the community of Carcassonne Catalonia decided to create an online world championship for teams, to be played online for several weeks on the online platform Board Game Arena. Named World Team Carcassonne Online Championship (WTCOC), the format of the tournament is for each match to have 5 players selected by both teams. Each player is paired with an opponent who they play a best-of-3 games to make up a 'Duel'.\n[…]\nCarcassonne and the many Carcassonne expansions and spin-offs  at BoardGameGeek\n[…]\nCarcassone product page on Z-Man Games website\n[…]\nComprehensive set of rules for all Carcassonne editions and variants on WikiCarpedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carcassonne_%28jogo_de_tabuleiro%29",
+        "situacao": "ok",
+        "texto": "Carcassonne é um jogo de tabuleiro desenvolvido por Klaus-Jürgen Wrede e publicado originalmente em alemão em 2000 por Hans im Glück, em inglês pela Rio Grande Games (substituída em 2012 pela Z-Man Games) e em português pela Devir em 2002. Foi premiado com a Spiel des Jahres em 2001 como o melhor jogo do ano. É um jogo de enorme sucesso, com mais de dez milhões de jogos vendidos.\n[…]\nO jogo tem o nome da cidade medieval fortificada de Carcassona, no sul da França, famosa por suas muralhas da cidade. O jogo gerou muitas expansões, spin-offs e várias versões de computador, console e celular. Uma nova edição com arte atualizada foi publicada em 2014, e uma versão comemorativa de 20º aniversário foi lançada em 2021.\n[…]\nO objetivo do jogo é a construção de cidades medievais fortificadas, campos, estradas e mosteiros, com o uso de peças. O tabuleiro do jogo vai ganhando novas formas turno após turno, fazendo com que nenhum jogo seja igual ao anterior.\n[…]\nO jogo começa com uma única peça de terreno virada para cima, enquanto outras 71 peças serão sorteadas ao longo do jogo pelos jogadores. Em cada turno, um jogador sorteia uma nova peça de terreno e a coloca adjacente a outra(s) peça(s) já existente(s). A nova peça deve ser colocada de maneira coerente aos segmentos de mapa: as estradas devem se conectar com a estradas, campos a campos e cidades a cidades.\n[…]\nLista das principais expansões para Carcassonne:\n[…]\nEm 2018, surge um novo grande expoente do Carcassonne brasileiro: Melvin Quaresma, marcando a segunda geração dos jogadores de elite do Brasil. No campeonato nacional de 2018, alcançou o terceiro lugar. No mesmo ano, alcançou pela primeira vez a primeira colocação no ranking mundial online do jogo. Em 2021, Quaresma representou o país no Campeonato Mundial e alcançou o segundo lugar, sendo esta a melhor colocação de um jogador das Américas na competição.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Codenames",
+      "descricao": "Jogo de tabuleiro de palavras de 2015 em que dois times de espiões dão pistas para encontrar seus agentes."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Lançado em 2015, o Codenames, jogo de palavras em que dois times de espiões trocam pistas, foi criado em qual país?",
+    "resposta": "República Tcheca",
+    "distratores": [
+      "Alemanha",
+      "Polônia",
+      "Suécia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Codenames_(board_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Codenames_(board_game)",
+        "situacao": "ok",
+        "texto": "Codenames (cz. Krycí jména) is a 2015 party board game designed by Vlaada Chvátil and published by Czech Games Edition (CGE). In it, two teams compete by each having a \"spymaster\" give one-word clues that can point to specific words on the board. The other players on the team must attempt to guess their team's words while avoiding the words of the other team as well as an assassin square; if the l\n[…]\nCodenames: Harry Potter was released in 2018. Themed around the novel series of the same name, it is played similarly to Codenames: Duet, with two or more players working together to reveal all Order of the Phoenix members before they run out of time while also trying to avoid the Ministry of Magic and the Death Eaters.\n[…]\nCodenames: XXL was released in June 2018; Codenames: Pictures XXL was released in November 2018; and Codenames: Duet XXL was released in May 2019. They are all the same as their respective original games, but with a larger format and double-sized cards and tiles.\n[…]\nCodenames: The Simpsons Family Edition was released in November 2019 and features characters and references from the eponymous television series; structurally, it is similar to other collaborative franchise editions like the Disney and Marvel editions. One month later, CGE released another licensed spin-off called Codenames: Blizzard Edition, featuring characters and references from the video game franchises by Blizzard Entertainment, such as Warcraft and Diablo.\n[…]\nThe same year as the board game's release, CGE released a mobile app, called Codenames Gadget, which can randomly generate agent layouts. They also released an official web version of Codenames and Codenames Duet through their website in 2022. In September 2024, a paid mobile app called Codenames App was released for Android and iOS.\n[…]\nCodenames received positive reviews upon its release.\n[…]\nCodenames at BoardGameGeek"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Codenames",
+        "situacao": "ok",
+        "texto": "Codenames é um jogo de tabuleiro de dedução de palavras criado por Vlaada Chvátil. O jogo foi lançado em 2015 e se tornou um sucesso popular em todo o mundo.\n[…]\nNo jogo Codenames, os jogadores são divididos em duas equipes: a equipe Vermelha e a equipe Azul. Cada equipe tem um mestre-espião e agentes secretos. O objetivo do jogo é descobrir as palavras associadas à equipe do seu mestre-espião enquanto evita palavras que pertencem à equipe adversária. O mestre-espião dá dicas de uma única palavra e um número, indicando quantas palavras na grade estão relacionadas à dica.\n[…]\nOs agentes secretos tentam adivinhar as palavras corretas com base na dica do mestre-espião, e o jogo continua até que uma equipe descubra todas as suas palavras ou toque em uma palavra do assassino, o que encerra o jogo.\n[…]\nCodenames oferece várias modalidades de jogo, incluindo \"Team VS Team\" (Equipe contra Equipe) para 4 ou mais jogadores e \"Codenames Duet\" para jogos cooperativos com 2 ou mais jogadores.\n[…]\nO jogo Codenames Online permite que os jogadores joguem pela Internet, mas não aplica todas as regras do jogo físico.\n[…]\nOs Espiões-mestres devem conhecer as regras para segui-las corretamente.\n[…]\nSite oficial de Codenames",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "War (jogo)",
+      "descricao": "Jogo de tabuleiro brasileiro de estratégia e conquista de territórios, inspirado no Risk francês."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1972, qual fabricante brasileira lançou o War, jogo de conquista de territórios com exércitos coloridos?",
+    "resposta": "Grow",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/War_(jogo)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/War_(jogo)",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Novela de Xadrez",
+      "descricao": "Novela do escritor austríaco Stefan Zweig, escrita no exílio no Brasil e publicada em 1942, sobre um duelo de xadrez num navio."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Stefan Zweig escreveu a Novela de Xadrez no exílio, pouco antes de morrer, em 1942, na cidade brasileira onde vivia. Que cidade é essa?",
+    "resposta": "Petrópolis",
+    "fonte": [
+      "https://de.wikipedia.org/wiki/Schachnovelle",
+      "https://en.wikipedia.org/wiki/Stefan_Zweig"
+    ],
+    "trechos": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Schachnovelle",
+        "situacao": "ok",
+        "texto": "Schachnovelle ist eine Novelle von Stefan Zweig, die er 1941 und 1942 im brasilianischen Exil schrieb. Es ist sein letztes und zugleich bekanntestes Werk.\n[…]\nStefan Zweig selbst war kein guter Schachspieler und verfügte über keine näheren Kontakte zur Schachszene.\n[…]\nDas Buch befand sich in Zweigs Nachlass und gelangte von dort in die Stadtbibliothek von Petrópolis.\n[…]\nJoachim Brügge: Stefan Zweig, C.G. Jung und die Kulturgeschichte des Schachspiels – vom indischen Tschaturanga zur modernen Alchemie des 20. Jahrhunderts? In: derselbe (Hrsg.), Das Buch als Eingang zur Welt (= Schriftenreihe des Stefan Zweig Centre Salzburg, Bd. 1, hrsg. von Hildemar Holl, Karl Müller, Gerhard Langer, Klemens Renoldner), Königshausen & Neumann, Würzburg 2009, ISBN 978-3-8260-3983-6, S. 97–108.\n[…]\nBruno Landthaler: Das „göttliche“ Schach. Die Schachnovelle von Stefan Zweig. In: Menora, Jahrbuch für deutsch-jüdische Geschichte 1996. Frankfurt am Main 1996, S. 250–264.\n[…]\nBruno Landthaler, Hanna Liss: Der Konflikt des Bileam. Irreführungen in der „Schachnovelle“ von Stefan Zweig. In: Zeitschrift für Germanistik, 2/1996, S. 384–398.\n[…]\nReiner Poppe: Stefan Zweig, Schachnovelle: Interpretationen und Unterrichtsmaterialien. 2. Auflage. Beyer-Verlag, Hollfeld 1990, ISBN 3-88805-043-X.\n[…]\nSiegfried Unseld: Das Spiel vom Schach. Stefan Zweig: Schachnovelle (1941/42). In: Winfried Freund (Hrsg.): Deutsche Novellen. Von der Klassik bis zur Gegenwart. Wilhelm Fink Verlag, München 1993, S. 249–263.\n[…]\nStefan Zweig: Schachnovelle Digitalisat. Projekt Gutenberg (deutsch).\n[…]\nStefan Zweig: Schachnovelle bei amphio.tk\n[…]\nAusgaben von Schachnovelle von Stefan Zweig in LibraryThing"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Stefan_Zweig",
+        "situacao": "ok",
+        "texto": "Stefan Zweig ( ZWYGHE, SWYGHE; German: [ˈʃtɛfan t͡svaɪ̯k]  or Austrian German: [t͡svaɪ̯g]; 28 November 1881 – 22 February 1942) was an Austrian writer. At the height of his literary career in the 1920s and 1930s, he was one of the most widely translated and popular writers in the world.\n[…]\nNonetheless, as the years passed Zweig became increasingly disillusioned and despairing at the future of Europe, and he and his wife Lotte were found dead of a barbiturate overdose in their house in Petrópolis on 23 February 1942; they had died the previous day. His work has been the basis for several film adaptations.\n[…]\nOn 23 February 1942, the Zweigs were found dead of a barbiturate overdose in their house in the city of Petrópolis, having taken their own lives. Their bodies were found holding hands. The Zweigs' house in Brazil was later turned into a cultural centre and is now known as Casa Stefan Zweig.\n[…]\nBalzac, 1946 – written, as Richard Friedenthal describes in a postscript, in the Brazilian summer capital of Petrópolis, without access to the files, notebooks, lists, tables, editions and monographs that Zweig accumulated for many years and that he took with him to Bath, but that he left behind when he went to America. Friedenthal wrote that Balzac \"was to be his magnum opus, and he had been working at it for ten years.\n[…]\nGiorgia Sogos, Ein Europäer in Brasilien zwischen Vergangenheit und Zukunft. Utopische Projektionen des Exilanten Stefan Zweig, in: Lydia Schmuck, Marina Corrêa (Hrsg.): Europa im Spiegel von Migration und Exil / Europa no contexto de migração e exílio. Projektionen – Imaginationen – Hybride Identitäten/Projecções – Imaginações – Identidades híbridas, Frank & Timme Verlag, Berlin, 2015, ISBN 978-3-7329-0082-4\n[…]\nWorks by Stefan Zweig at Faded Page (Canada)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stefan_Zweig",
+        "situacao": "ok",
+        "texto": "Stefan Zweig (Viena, 28 de novembro de 1881 – Petrópolis, 22 de fevereiro de 1942) foi um escritor, autor, romancista, dramaturgo, libretista, jornalista, biógrafo e historiador austríaco de origem judaica.\n[…]\nZweig e Lotte empreenderam três viagens ao Brasil. Na primeira, entre 1940 e 1941, para uma série de palestras pelo país, escreveu da Bahia para Manfred e Hannah Altmann, seus cunhados:\n[…]\nO governo de Getúlio Vargas se mantinha no poder graças às políticas autoritárias e muitos de seus ministros e assessores militares eram simpatizantes do nazifascismo. Isso não impediu que os elementos menos autoritários do estado brasileiro usassem Stefan Zweig para atingirem seus objetivos.\n[…]\nA partir da terceira viagem ao Brasil, Lotte e Zweig se estabeleceram em Petrópolis, cidade na serra do Rio de Janeiro, onde finalizou sua autobiografia, \"O Mundo que Eu Vi\"; escreveu a novela \"Schachnovelle: Conto de Xadrez\" e deu início à obra \"O Mundo de Ontem\", um trabalho autobiográfico com uma descrição da Europa de antes de 1914.\n[…]\nEm 22 de fevereiro de 1942, deprimido com o crescimento da intolerância e do autoritarismo na Europa e sem esperanças no futuro da humanidade, Zweig escreveu uma carta de despedida e suicidou-se com a esposa, Lotte, com uma dose fatal de barbitúricos, na cidade de Petrópolis, no Brasil. A notícia chocou tanto os brasileiros quanto seus admiradores de todo mundo. O casal foi sepultado no Cemitério Municipal de Petrópolis, de acordo com as tradições fúnebres judaicas, no perpétuo 47.417, quadra 11.\n[…]\nEm uma nota de despedida, Zweig escreveu:\n[…]\nSchachnovelle: Conto de Xadrez (1942)\n[…]\nColeção Stefan Zweig\n[…]\nMuseu Casa Stefan Zweig, Petrópolis - Página oficial\n[…]\nConto de Xadrez: Schachnovelle",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Cara a Cara",
+      "descricao": "Jogo de tabuleiro de adivinhar o personagem do adversário com perguntas de sim ou não, conhecido em inglês como Guess Who."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O holandês Theo Coster, um dos criadores do jogo Cara a Cara, foi colega de classe de qual menina, famosa pelo diário que escreveu?",
+    "resposta": "Anne Frank",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theo_Coster",
+      "https://en.wikipedia.org/wiki/Guess_Who%3F"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Theo_Coster",
+        "situacao": "ok",
+        "texto": "Theo (1928–2019) and Ora (1931–2021) Coster (Hebrew: תיאו ואורה קוסטר) are the founders of Theora Concepts; they were a married Israeli couple and inventors of about 200 games and toys, including Guess Who?, Magimizer, Zingo!, and Go Pop.\n[…]\nTheo was born Maurice (Morris) Simon in 1928 in Amsterdam. His family owned a printing business. He survived the Holocaust by living with a non-Jewish family and changing his name. He had been a classmate of Anne Frank; he later made a film and wrote a book with fellow surviving classmates. After graduating college and serving in the Dutch military, he moved to Israel in 1955 where he met Ora, a schoolteacher.\n[…]\nAs a teenager, Ora had served in the Israeli Army during the 1948 war. She then moved to the United Kingdom to study stage design. After returning to Israel, she and Theo wed two years after meeting.\n[…]\nThe Costers' tombstones are designed to appear like tiles from their game Guess Who?."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Guess_Who%3F",
+        "situacao": "ok",
+        "texto": "Guess Who? is a two-player board game in which players each guess the identity of the other's chosen character. The game was developed by Israeli game inventors Ora and Theo Coster, the founders of Theora Design. It was first released in Dutch in 1979 under the name Wie is het?. Milton Bradley then produced the game in the United Kingdom, and it was brought to the United States in 1982. It is now \n[…]\nGuess Who? has been used in educational contexts, including the development of deductive reasoning skills. In addition, the game can be used for a wide range of speech and language development goals, including:\n[…]\nSome have noted a bias toward white and male characters in Guess Who?. In 2012, a freelance journalist wrote to Hasbro on behalf of her six-year-old daughter, asking why there were only five female characters to choose from, as opposed to nineteen male characters.\n[…]\nThe original version of Guess Who? featured only one non-white character—Anne, a black woman who was redrawn in a subsequent edition as white. More recently, Hasbro has redesigned the board to feature a more racially diverse set of people.\n[…]\nGuess Who? at BoardGameGeek"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Mastermind",
+      "descricao": "Jogo de tabuleiro de lógica em que se tenta descobrir uma combinação secreta de pinos coloridos, chamado Senha no Brasil."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Mastermind, chamado no Brasil de Senha, é o jogo de descobrir pinos coloridos escondidos. Em que país ele foi inventado, em 1970?",
+    "resposta": "Israel",
+    "distratores": [
+      "Inglaterra",
+      "Estados Unidos",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mastermind_(board_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mastermind_(board_game)",
+        "situacao": "ok",
+        "texto": "Mastermind or Master Mind (Hebrew: בול פגיעה, romanized: bul pgi'a) is a code-breaking game for two players invented in Israel.\n[…]\nMastermind was invented in 1970 by Mordecai Meirowitz, an Israeli postmaster and telecommunications expert.\n[…]\n(Invicta always called the game Master Mind.)\n[…]\nThey originally manufactured it themselves, though they have since licensed its manufacture to Hasbro worldwide, with the exception of Pressman Toys and Orda Industries, who have the manufacturing rights to the United States and Israel, respectively.\n[…]\nThe difficulty level of any of the above can be increased by treating “empty” as an additional color or decreased by requiring only that the code's colors be guessed, independent of position. In Mini Mastermind, the colored code pegs are the same size and shape as the colored or white key pegs so the difficulty can be increased by permitting the key pegs to be used as code pegs for two additional colors.\n[…]\nComputer and Internet versions of the game have also been made, sometimes with variations in the number and type of pieces involved and often under different names to avoid trademark infringement. Mastermind can also be played with paper and pencil.\n[…]\nThere is a numeral variety of the Mastermind in which a 4-digit number is guessed. The 2021 web game Wordle has been compared to Mastermind; however, in Wordle a response to a guess indicates which letters (corresponding to code pegs) are correctly placed or incorrectly placed, whereas in Mastermind only the count of correctly and incorrectly placed code pegs are indicated.\n[…]\nMastermind (British game show), broadcast on TV from 1972"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mastermind",
+        "situacao": "ok",
+        "texto": "O Mastermind (no Brasil Senha) é um jogo de tabuleiro inventado por Mordechai Meirowitz e distribuído inicialmente  pela Invicta Plastics. Publicado em 1971, o jogo vendeu mais de 50 milhões de tabuleiros em 80 países, tornando-se o mais bem-sucedido novo jogo da década de 1970. Atualmente, no Brasil é vendido pela Grow com o tabuleiro preto e cinza, e os pinos do jogo em azul, amarelo, verde, ver\n[…]\nUm jogo de Mastermind tem pinos de sete cores diferentes, aleatórias, exceto preto e branco. Os pinos pretos e brancos são menores. Há quatro buracos grandes em cada fileira, em 10 fileiras, uma abaixo da outra. E ao lado delas, um quadrado menor, com quatro buracos menores, dois em cima de dois. Uma fileira, que seria a décima primeira, tem um defletor que esconde seus buracos.\n[…]\nO desafiador faz uma combinação com quatro pinos coloridos, sem repetir as cores de cada pino, e as põe na décima primeira fileira e levanta o defletor, escondendo a senha. Então, o desafiado tenta adivinhar a senha, pondo quatro pinos que ele acha que são a senha na primeira fileira, e o desafiador põe os pinos pretos e brancos no quadrado menor ao lado.\n[…]\nA regra dos pinos pretos e brancos são essas: o branco significa haver uma cor certa mas lugar errado, o preto significa que há uma cor certa no lugar certo, e nenhum pino significa que uma das cores não é contida na senha. O desafiado vai tentando adivinhar, se guiando pelos pinos pretos e brancos. Se o desafiado não acertar até a 10ª fileira, o desafiador fecha o defletor e revela a senha, mas se adivinhar, o desafiador põe quatro pinos pretos e revela a senha. Um ótimo Jogo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Estrela (empresa)",
+      "descricao": "Fabricante brasileira de brinquedos fundada em São Paulo, conhecida pelo Banco Imobiliário, pelo Genius e pelo Ferrorama."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Estrela, fabricante do Banco Imobiliário e do Genius, foi fundada em São Paulo em qual década?",
+    "resposta": "Anos 1930",
+    "distratores": [
+      "Anos 1910",
+      "Anos 1950",
+      "Anos 1970"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estrela_(empresa)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrela_(empresa)",
+        "situacao": "ok",
+        "texto": "A Estrela é uma tradicional fábrica de brinquedos brasileira, fundada por Siegfried Adler. Seu logo é composto por uma estrela de quatro pontas (ou rosa-dos-ventos), envolta por um círculo maciço de cor vermelha, tendo grafado abaixo o nome da empresa.\n[…]\nEm 1944, a Estrela abriu seu capital para o mercado, tornando-se uma das primeiras empresas consideradas como sociedade anônima no Brasil. Na década de 1940, apresentou o cachorro Mimoso, primeiro brinquedo de madeira com movimento e som fabricado no Brasil, que fez grande sucesso na época. Logo depois vieram outras inovações como os jogos clássicos, Pega Varetas e Banco Imobiliário. As bonecas, que até o fim dos anos 40 eram feitas em uma massa inquebrável, passaram a ser de plástico.\n[…]\nEm 2019, em primeira instância, foi deferimento parcial ao pedido da Hasbro e em 2021, o Tribunal de Justiça de São Paulo confirmou a decisão e decidiu que a Estrela deveria destruir os brinquedos: na decisão, foi definido que Detetive, Cara a Cara, Combate, Super Massa, Genius, Jogo da Vida, Jogo da Vida Moderna, Vida em Jogo e Viraletras são da Hasbro; e Comandos em Ação, Comandos em Ação Falcon, Dona Cabeça de Batata e Banco Imobiliário são da Estrela; uma nova decisão em 14 de fevereiro de 2022 determinou a destruição apenas de Super Massa.\n[…]\nNo dia 20 de maio de 2026, a Estrela anunciou a abertura de um pedido de recuperação judicial de oito empresas, o que incluiu até mesmo o ramo de fabricação e distribuição de brinquedos. Entre os motivos apontados estavam os juros altos, dificuldades para conseguir empréstimos e a mudança no hábito de consumidores, que passaram a gastar mais com jogos online. A Estrela buscava renegociar R$ 109,1 milhões em dívidas, sendo R$ 3,2 milhões delas trabalhistas."
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Scrabble",
+      "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O arquiteto Alfred Butts criou o jogo que virou o Scrabble quando estava desempregado, durante qual crise econômica?",
+    "resposta": "A Grande Depressão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scrabble",
+      "https://en.wikipedia.org/wiki/Alfred_Mosher_Butts"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Scrabble",
+        "situacao": "ok",
+        "texto": "Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns and are included in a standard dictionary or lexicon.\n[…]\nAmerican architect Alfred Mosher Butts invented the game in 1931. Scrabble is produced in the United States and Canada by Hasbro, under the brands of both of its subsidiaries, Milton Bradley and Parker Brothers. Mattel owns the rights to manufacture Scrabble outside the U.S. and Canada.\n[…]\nIn 1948, James Brunot, a resident of Newtown, Connecticut, and one of the few owners of the original Criss-Crosswords game, bought the rights to manufacture the game in exchange for granting Butts a royalty on every unit sold. Although he left most of the game (including the distribution of letters) unchanged, Brunot slightly rearranged the \"premium\" squares of the board and simplified the rules; he also renamed the game Scrabble, a real word that means \"scratch frantically\".\n[…]\nHasbro Games, 2001 – hinged plastic board with clear tile-shaped depressions to hold tiles in play. Board is in a black, zippered folio such that board and tiles may be folded for travel, even with the game in play. The reverse side of the board contains numbered mounts for racks, holding tiles face down, allowing secure and confidential storage of tiles while a game is paused. Some versions have tile racks with individual tile slots, thus not permitting easy sorting of tiles in a rack.\n[…]\nAssociation of British Scrabble Players\n[…]\nNASPA Games (formerly North American Scrabble Players Association; sanctions club and tournament play in North America)\n[…]\nScrabble Australia\n[…]\nWorld English-Language Scrabble Players Association (WESPA)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Mosher_Butts",
+        "situacao": "ok",
+        "texto": "Alfred Mosher Butts (April 13, 1899 – April 4, 1993) was an American architect, famous for inventing the board game Scrabble in 1931.\n[…]\nIn the early 1930s, after working as an architect but now unemployed, Butts set out to design a board game. He studied existing games and found that games fell into three categories: number games, such as dice and bingo; move games, such as chess and checkers; and word games, such as anagrams. Butts was a resident of Jackson Heights, New York, and the game of Scrabble was invented there.\n[…]\nTo memorialize his importance to the invention of the game, a street sign at 35th Avenue and 81st Street in Jackson Heights is stylized using letters with their values in Scrabble as a subscript.\n[…]\nButts initially called the game Lexiko, but changed the name to Criss Cross Words (he also considered It), and began to seek a buyer. The game makers he originally contacted rejected the idea, but Butts was tenacious. Eventually, he sold the rights to entrepreneur and game lover James Brunot, who made a few minor adjustments to the design and renamed the game Scrabble.\n[…]\nIn his 80s, Butts invented another game, titled simply Alfreds [sic] Other Game, released in 1985 by Selchow and Righter. Also a tile-based game, it has 144 letter tiles and four playing boards. Players receive 36 letters from which they try to make as many word combinations as possible. Butts called it \"simultaneous solitaire\". It has not had the commercial success of Scrabble. As of October 2023, the game has a rating of 5.5 out of 10 on the BoardGameGeek website.\n[…]\nPicture of Alfred Mosher Butts"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Scrabble",
+        "situacao": "ok",
+        "texto": "Scrabble (mais conhecido no Brasil com o nome de palavras-cruzadas) é um jogo de tabuleiro em que dois a quatro jogadores procuram marcar pontos formando palavras interligadas, usando pedras com letras num quadro dividido em 225 casas (15 x 15).\n[…]\nO Scrabble foi inventado em 1938, durante a Grande Depressão, por Alfred Mosher Butts, um arquiteto de Nova York, na época desempregado. Butts desenvolveu a ideia a partir de um outro jogo de palavras também criado por ele, chamado Lexiko, e chamou-o originalmente 'Criss-cross'.\n[…]\nA fabricante de jogos Estrela chegou a produzir uma variante do tabuleiro em plástico e com ranhuras, com letras em peças plásticas encaixáveis em cima das ranhuras do tabuleiro e em outras peças. Atualmente o jogo é distribuído no Brasil pela Xalingo, com o nome palavras-cruzadas e pela Hasbro, com o seu nome internacional.\n[…]\nSe alguém duvidar da palavra de algum jogador, este poderá ser contestado por aquele sob a pena de perda da vez. Caso a palavra esteja correta, após a consulta de um dicionário apenas para este propósito, seu opositor perderá 10 pontos. O dicionário não pode ser usado durante o jogo para procurar palavras. Deve apenas ser usado quando uma palavra for contestada pelos adversários, para conferir se a palavra é válida ou não.\n[…]\nO jogo termina se: 1. Todas as pedras forem retiradas do saquinho e um dos jogadores já não tiver pedras em seu suporte; 2. Não for mais possível formar nenhuma palavra; 3. Todos os jogadores passarem a vez duas rodadas seguidas.\n[…]\nPalavras estrangeiras não são permitidas, a menos que tenham sido incorporadas ao idioma português, como as palavras QI, KILIM e PATISSERIE, na versão inglesa do Scrabble.\n[…]\nRegras do jogo\n[…]\n2019 Portuguese Word Finder for Scrabble",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Jogo da Vida",
+      "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1960, a Milton Bradley lançou a versão moderna do Jogo da Vida para comemorar uma data. Qual?",
+    "resposta": "Os cem anos do jogo original",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Game_of_Life"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Game_of_Life",
+        "situacao": "ok",
+        "texto": "The Game of Life, also known simply as Life, is a board game originally created in 1860 by Milton Bradley as The Checkered Game of Life, the first ever board game for his own company, the Milton Bradley Company. The game simulates a person's travels through their life, from early adulthood to retirement, with college if chosen, jobs, marriage, and possible children along the way. Up to six players\n[…]\nThe modern version was originally published 100 years later, in 1960. It was created and co-designed by Bill Markham and Reuben Klamer, respectively, and was \"heartily endorsed\" by Art Linkletter. It is now part of the permanent collection of the Smithsonian's National Museum of American History and an inductee into the National Toy Hall of Fame.\n[…]\nThe game was originally created in 1860 by Milton Bradley as The Checkered Game of Life, and was the first game created by Bradley, a successful lithographer. The game sold 45,000 copies by the end of its first year. Like many 19th-century games, such as The Mansion of Happiness by S. B. Ives in 1843, it had a strong moral message.\n[…]\nThe Game of Life, copyrighted by the Milton Bradley Company in 1960, had some differences from later versions. For example, once a player reached the \"Day of Reckoning\" space, they had to choose one of two options. The first was to continue along the road to \"Millionaire Acres,\" if the player believed they had enough money to out-score all opponents. The second option was to try to become a \"Millionaire Tycoon\" by betting everything on one number and spinning the wheel.\n[…]\nThis version had Art Linkletter as the spokesman, included his likeness on the $100,000 bills (with his name displayed on the bills as \"Arthur Linkletter Esq.\") and a rousing endorsement from Linkletter on the cover of the box. It was advertised as a \"Milton Bradley 100th Anniversary Game\" and as \"A Full 3-D Action Game.\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogo_da_Vida_%28jogo%29",
+        "situacao": "ok",
+        "texto": "Jogo da Vida é um jogo de tabuleiro da Estrela.\n[…]\nEstrela e Hasbro, na década de 1970, fecharam um acordo que a empresa americana pudesse lançar seus produtos no Brasil, com adaptações ao mercado local. Nesse contexto, The Game of Life virou Jogo da Vida.\n[…]\nOs direitos autorais do jogo pertencem à Hasbro International, Inc.[carece de fontes]? desde 1992 e o jogo é de autoria de Milton Bradley e Reuben Klamer[carece de fontes]?. Foi trazido ao Brasil em 1986 pela Brinquedos Estrela.\n[…]\n«Página oficial do jogo»\n[…]\nJogo Online (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Dungeons & Dragons",
+      "descricao": "Jogo de RPG de mesa de fantasia lançado nos Estados Unidos em 1974."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que dupla de americanos criou o Dungeons and Dragons, o jogo de RPG de mesa lançado em 1974?",
+    "resposta": "Gary Gygax e Dave Arneson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons",
+        "situacao": "ok",
+        "texto": "Dungeons & Dragons (commonly abbreviated as D&D or DnD) is a fantasy tabletop role-playing game (TTRPG) originally created and designed by Gary Gygax and Dave Arneson. The game was first published in 1974 by Tactical Studies Rules (TSR). It has been published by Wizards of the Coast, later a subsidiary of Hasbro, since 1997. The game was derived from miniature wargames, with a variation of the 197\n[…]\nAn immediate predecessor of Dungeons & Dragons was a set of medieval miniature rules written by Jeff Perren. These were expanded by Gary Gygax, whose additions included a fantasy supplement, before the game was published as Chainmail. When Dave Wesely entered the Army in 1970, his friend and fellow Napoleonics wargamer Dave Arneson began a medieval variation of Wesely's Braunstein games, where players control individuals instead of armies. Arneson used Chainmail to resolve combat.\n[…]\nAs play progressed, Arneson added such innovations as character classes, experience points, level advancement, armor class, and others. Having partnered previously with Gygax on Don't Give Up the Ship!, Arneson introduced Gygax to his Blackmoor game and the two then collaborated on developing \"The Fantasy Game\", the game that became Dungeons & Dragons, with the final writing and preparation of the text being done by Gygax.\n[…]\nSome of the earliest other role-playing games inspired by D&D include Tunnels & Trolls (1975), Empire of the Petal Throne (1975), and Chivalry & Sorcery (1976). The game's commercial success was a factor that led to lawsuits regarding the distribution of royalties between original creators Gygax and Arneson. Gygax later became embroiled in a political struggle for control of TSR which culminated in a court battle and Gygax's decision to sell his ownership interest in the company in 1985.\n[…]\nOff Book (June 20, 2013). \"Dungeons & Dragons and the Influence of Tabletop RPGs\". PBS."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dungeons_%26_Dragons",
+        "situacao": "ok",
+        "texto": "Dungeons & Dragons (português: Masmorras e Dragões) (comumente abreviado como D&D ou DnD), é um jogo de interpretação de papéis de alta fantasia criado por Gary Gygax e Dave Arneson. e publicado pela primeira vez em 1974 nos Estados Unidos pela TSR, Inc., empresa fundada por Gygax e Don Kay em 1973. Atualmente na sua 5ª edição, o jogo é publicado nos Estados Unidos pela Wizards of the Coast, uma s\n[…]\nCriado por Gary Gygax e Dave Arneson O jogo tem origens em jogos de tabuleiro dos gêneros WarGame e miniaturas, o jogo surgiu como um spin-off de um jogo de um WarGame de miniaturas chamado Chainmail (1971), criado por Gary Gygax e Jeff Perren. Arneson começou a organizar um jogo no qual os jogadores controlavam personagens individuais ao invés de exércitos como em WarGames tradicionais, usando das regras de Chainmail para resolução de combate.\n[…]\nEle adicionou inovações como classes de personagem, pontos de experiência, avanço de nível, classe de armadura e outros. Arsenon então introduziu um protótipo para Gary Gygax e os dois concordaram em desenvolver e publicar o jogo. O jogo se chamou provisoriamente de \"The Fantasy Game\" até \"Dungeons & Dragons\" ter sido sugerido pela filha de Gygax, Cindy, após Gygax ter lido-a de uma lista de sugestões.\n[…]\nA primeira edição de D&D foi lançada em 1974 como um suplemento ao Chainmail. Posteriormente recebeu o nome de \"Original Dungeons & Dragons\" (abreviado como OD&D).\n[…]\nO Advanced Dungeons & Dragons (AD&D) foi lançado pela primeira vez em 1995 pela Abril Jovem, publicando o Livro do Mestre e o Livro dos Monstros, a editora também publicou First Quest, o jogo de cartas colecionáveis Spellfire, a série de Livros-jogos \"Você é o Herói\" (Endless Quest no original), e uma versão brasileira da revista Dragon. Quando a Devir Livraria adquiriu os direitos da Editora Abril, publicou uma segunda edição brasileira do Livro do Jogador em 1999.\n[…]\nDungeon",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Jogo da velha",
+      "descricao": "Jogo para dois em que se marcam xis e bolinhas numa grade de três por três, tentando alinhar três símbolos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Criado em 1952 num computador da Universidade de Cambridge, o OXO é um dos primeiros jogos eletrônicos da história. Que jogo ele simulava?",
+    "resposta": "Jogo da velha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/OXO_(video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/OXO_(video_game)",
+        "situacao": "ok",
+        "texto": "OXO is a video game developed by A S Douglas in 1952 which simulates a game of noughts and crosses (tic-tac-toe). It was one of the first games developed in the early history of video games. Douglas programmed the game as part of a thesis on human-computer interaction at the University of Cambridge.\n[…]\nThe Electronic Delay Storage Automatic Calculator (EDSAC) mainframe computer was built in the University of Cambridge's Mathematical Laboratory between 1946 and 6 May 1949, when it ran its first program, and remained in use until 11 July 1958. The EDSAC was one of the first stored-program computers, with memory that could be read from or written to, and filled an entire room; it included three 35×16 dot matrix cathode-ray tubes (CRTs) to graphically display the state of the computer's memory.\n[…]\nAs a part of a thesis on human-computer interaction, Sandy Douglas, a doctoral candidate in mathematics at the university, used one of these screens to portray other information to the user; he chose to do so via displaying the current state of a game.\n[…]\nDouglas used the EDSAC to simulate a game of noughts and crosses, and display the state of the game on the screen. Like other early video games, after serving Douglas's purpose, the game was discarded. Douglas did not give the game a name beyond \"noughts and crosses\"; the name OXO first appeared as the name of the simulation file created by computer historian Martin Campbell-Kelly while creating a simulation of the EDSAC several decades later.\n[…]\nOXO was not available to the general public and could only be played in the University of Cambridge's Mathematical Laboratory by special permission, as the EDSAC could not be moved, and both the computer and the game were only intended for academic research purposes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/OXO",
+        "situacao": "ok",
+        "texto": "OXO ou Noughts and Crosses é um jogo eletrônico desenvolvido por A S Douglas em 1952 para o computador Electronic Delay Storage Automatic Calculator (EDSAC). Simulava um jogo da velha, sendo um dos primeiros jogos eletrônicos da história.\n[…]\nDouglas programou-o com parte de uma tese sobre a interação humano-computador para a Universidade de Cambridge. O EDSAC foi um dos primeiros computadores com programas armazenados, possuindo uma memória que podia ser lida ou gravada, tendo ainda três pequenas telas de tubo de raio catódico para exibir o estado da memória; Douglas rearranjou uma tela para demonstrar a retratação de outras informações para o usuário, como o estado de um jogo da velha.\n[…]\nDouglas usou o EDSAC para simular um jogo da velha, mostrando o estado da partida na tela. Como nos primeiros jogos eletrônicos da história, após servir aos propósitos de Douglas, ele foi descartado. Douglas não o deu nenhum nome além de noughts and crosses (\"jogo da velha\" em inglês); a nomenclatura OXO apareceu primeiramente com o nome de um arquivo de simulação criado pelo historiador computacional Martin Campbell-Kelly enquanto ele criava uma simulação do EDSAC várias décadas depois.\n[…]\nPor funcionar em um dispositivo eletrônico e por ter uma exibição gráfica, OXO é considerado em algumas definições como um dos candidatos a primeiro jogo eletrônico da história, no entanto, em outras é desconsiderado por sua falta de gráficos móveis ou que atualizassem continuamente. Foi ainda considerado o primeiro jogo de estratégia para computador pelo Guinness Book of Records.\n[…]\n«Edsac Simulator: Emulador de EDSAC, incluindo o código para OXO» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Batalha naval",
+      "descricao": "Jogo para dois em que cada um tenta afundar a frota escondida do adversário, adivinhando coordenadas numa grade."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar jogo de tabuleiro de plástico, em 1967, a batalha naval já era popular jogada com quais materiais simples?",
+    "resposta": "Papel e lápis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battleship_(game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battleship_(game)",
+        "situacao": "ok",
+        "texto": "Battleship (also known as Battleships) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling \"shots\" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.\n[…]\nBattleship is known worldwide as a pencil and paper game which dates from World War I. It was published by various companies as a pad-and-pencil game in the 1930s and was released as a plastic board game by Milton Bradley in 1967. The game has spawned electronic versions, video games, smart device apps and a film.\n[…]\nOther versions of the game were printed in the 1930s and 1940s, including the Strathmore Company's Combat: The Battleship Game, Milton Bradley's Broadsides: A Game of Naval Strategy and Maurice L. Freedman's Warfare Naval Combat. Strategy Games Co. produced a version called Wings which pictured planes flying over the Los Angeles Coliseum. All of these early editions of the game consisted of pre-printed pads of paper.\n[…]\nAround 1964, Hasbro employee Ronald A. Brehio created a wooden pegboard version of the board game and pitched it to company executives, who rejected Brehio’s pitch and confiscated the game. Hasbro may have sold the rights to Milton Bradley, because in 1967 Milton Bradley published a version of the game that used plastic pegboards and miniature plastic ships.\n[…]\nShips may be placed only around the islands, and only in the player's half of the board. When the movie Battleship was released, the board game reverted to the original 1967 style. The 2008 updated version is still available as Battleship Islands.\n[…]\nBattleship, 1996, for PCs\n[…]\nBattleship (puzzle)\n[…]\nBattleship Official Hasbro Rules – Rulebook insert for Battleship (2002 version)\n[…]\nBattleship   at BoardGameGeek"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_naval_%28jogo%29",
+        "situacao": "ok",
+        "texto": "Batalha naval é um jogo de tabuleiro de dois jogadores, no qual os jogadores têm de adivinhar em que quadrados estão os navios do oponente. Embora o primeiro jogo em tabuleiro comercializado e publicado pela Milton Bradley Company em 1931, o jogo foi originalmente jogado com lápis e papel. Seu objectivo é derrubar os barcos do oponente adversário, ganha quem derrubar todos os navios adversários pr\n[…]\nAntes do início do jogo, cada jogador coloca os seus navios nos quadros, alinhados horizontalmente ou verticalmente. O número de navios permitidos é igual para ambos jogadores e os navios não podem se sobrepor.\n[…]\nApós os navios terem sido posicionados o jogo continua numa série de turnos. Em cada turno, um jogador diz um quadrado, o qual é identificado pela letra e número, na grelha do oponente, se houver um navio nesse quadrado, é colocada uma marca vermelha, senão houver é colocada uma marca branca.\n[…]\nOs tipos de navios são: porta-aviões (cinco quadrados), navios-tanque (quatro quadrados), contratorpedeiros (três quadrados) e submarinos (dois quadrados). Vale notar que os quadrados que compõem um navio devem estar conectados e em fila reta. Numa das variações deste jogo, as grelhas são de dimensão 10x10, e o número de navios são: 1, 2, 3 e 4 respectivamente.\n[…]\n«BattleFriends at Sea — Batalha naval com os seus amigos mais queridos». , jogo de batalha naval para iPhone e iPod Touch\n[…]\n«Ships N' Battles — A Revolução da Batalha Naval». , outro jogo de batalha naval para iPhone e iPod Touch\n[…]\n«Battleships — General Headquarters II». , jogo Batalha naval online (em Flash)\n[…]\n«Batalha Naval para imprimir». , jogo Batalha Naval, regras e gabarito para imprimir\n[…]\n«Batalha naval». , Implementação do navegador de jogos online",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Tabuleiro de xadrez",
+      "descricao": "Tabuleiro de sessenta e quatro casas claras e escuras alternadas, usado no xadrez e nas damas."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pela regra, ao montar o tabuleiro de xadrez, de que cor deve ser a casa do canto à direita de cada jogador?",
+    "resposta": "Branca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chessboard"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chessboard",
+        "situacao": "ok",
+        "texto": "A chessboard is a game board used to play chess. It consists of 64 squares, 8 rows by 8 columns, on which the chess pieces are placed. It is square in shape and uses two colors of squares, one light and one dark (not always), in a checkered pattern. During play, the board is oriented such that each player's near-right corner square is a light square.\n[…]\nThe game of chess has been represented in the arts since its creation. Chess sets usually had considerable artistic value; they were made of noble materials, such as ebony and ivory, and in large sizes. Many of the pieces in these sets were offered to churches as relics. The book Liber miraculorum sancte Fidis tells a story in which a nobleman, after miraculously escaping from prison, is forced to carry a chessboard until a sanctuary as gesture of gratitude.\n[…]\nMore frequently, however, there are stories in which the chessboard is used as a weapon. The French tale of Ogier the Dane reports how the son of Charlemagne brutally kills one of Ogier's sons with a chessboard after losing a match, although there is no evidence confirming the veracity of the story.\n[…]\nIn 1250, a sermon called Quaedam moralitas de scaccario per Innocentium papum (The Innocent Morality) showed the world as being represented by a chessboard. The white and black squares represented the two conditions of life and death, or praise and censure; over these, the pieces, representing humanity, would confront each other in the adversities of the game, which symbolized life.\n[…]\nDue to its simple geometry, the chessboard is often used in mathematical puzzles or problems unrelated to chess, such as the wheat and chessboard problem and the mutilated chessboard problem. The term infinite chessboard is sometimes used to refer to a grid.\n[…]\nWeisstein, Eric W. \"Chessboard\". MathWorld."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tabuleiro_%28xadrez%29",
+        "situacao": "ok",
+        "texto": "O tabuleiro de xadrez é um equipamento para a prática do xadrez, sobre o qual são dispostas as peças do jogo. Geralmente é de forma quadrada, com um padrão reticulado peculiar com alternância de duas cores entre as suas subdivisões. Normalmente é fabricado em madeira ou em plástico, mas pode ser empregada uma grande variedade de materiais como couro, mármore, marfim, vidro ou metal.\n[…]\nTabuleiros com tamanhos diferentes também são utilizados desde o século X, sendo um dos primeiros registros a variante Xadrez de Tamerlão com onze colunas por dez fileiras. O jogo é originário da Pérsia e seu tabuleiro conta com um elemento peculiar que é a adição de uma casa à direita da segunda fileira de cada jogador, denominadas cidadelas e que tinham a função de servir como um refúgio para o Rei e, em alguns casos, alcançar o empate.\n[…]\nNestes tabuleiros, as casas d1, e1, d2 e e2, para as brancas, e d7, e7, d8 e e8, para as negras, são chamadas de Palácio ou Fortaleza e tem a função de restringir o movimento do Rei a esta área. No Xiangqi, existe ainda um espaço entre a quarta e quinta fileiras, denominado Rio celestial, que tem a função de restringir o movimento de algumas peças como o Elefante. A utilização de mais de um tabuleiro por partida está relacionada com o objetivo da aplicação do tabuleiro extra no jogo.\n[…]\nNo Star Trek Chess utiliza-se um engenhoso tabuleiro com partes móveis distribuídas em sete níveis do jogo. Conforme a regra, na posição inicial cada enxadrista ocupa dois dos pequenos tabuleiros móveis com quatro casas utilizadas para ataque. As brancas iniciam no nível inferior, utilizando os tabuleiros de ataque conectados a este nível e as duas primeiras fileiras do tabuleiro e as pretas no superior utilizam além dos tabuleiros de ataque as duas primeiras fileiras do terceiro nível.\n[…]\nD'Agostini, Orfeu (1954). Xadrez Básico 1ª ed. São Paulo: Ediouro. 113 páginas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Xadrez de bruxo",
+      "descricao": "Versão do xadrez no universo de Harry Potter, com peças vivas que obedecem a comandos de voz."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No primeiro livro de Harry Potter, para proteger a Pedra Filosofal, um amigo do bruxo comanda uma partida de xadrez gigante. Que amigo?",
+    "resposta": "Rony Weasley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+        "situacao": "ok",
+        "texto": "Harry Potter and the Philosopher's Stone is a fantasy novel by British author J. K. Rowling. It is the first novel in the Harry Potter series and was Rowling's debut novel. It follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday when he receives a letter of acceptance from Hogwarts School of Witchcraft and Wizardry. With the help of his friends, Ron Weas\n[…]\nHagrid takes Harry to Diagon Alley, where Harry discovers he is famous among wizards. He buys a wand, an owl named Hedwig, and other school supplies. A month later, Harry takes the Hogwarts Express to Hogwarts. During the journey, he befriends Ron Weasley, a fellow first-year student. He also meets Hermione Granger and has a confrontation with Draco Malfoy. At Hogwarts, a magical Sorting Hat assigns each first-year student to a House.\n[…]\nRon Weasley is Harry's age, and Rowling describes him as the ultimate best friend \"always there when you need him\". He is freckled, red-haired, and quite tall. He grew up in a fairly large pure-blood family as the sixth born of seven children. Although his family is quite poor, they still live comfortably and happily. His loyalty and bravery in the face of a game of Wizard Chess plays a vital part in finding the Philosopher's Stone.\n[…]\nDuring the book, Harry makes two close friends, Ronald Weasley and Hermione Granger. Ron is described by Rowling as the ultimate best friend, \"always there when you need him\". Rowling has described Hermione as a \"very logical, upright and good\" character with \"a lot of insecurity and a great fear of failure beneath her swottiness\".\n[…]\nIn May 2020, a reading podcast by Spotify was created and entitled Harry Potter at Home: Readings. Each chapter is narrated by a celebrity guest from the Harry Potter and Wizarding World franchises.\n[…]\nHarry Potter and the Philosopher's Stone at Open Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Harry_Potter_e_a_Pedra_Filosofal",
+        "situacao": "ok",
+        "texto": "Harry Potter and the Philosopher's Stone (Brasil e Portugal: Harry Potter e a Pedra Filosofal) é o primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling. O livro conta a história de Harry Potter, um órfão criado pelos tios que descobre, em seu décimo primeiro aniversário, que é um bruxo.\n[…]\nNo romance, são narrados seus primeiros passos na comunidade bruxa, sua entrada na Escola de Magia e Bruxaria de Hogwarts e o início de sua amizade com Ron Weasley e Hermione Granger, os quais o ajudam a enfrentar Lord Voldemort — Lorde das Trevas e assassino dos pais de Harry, que agora procura um objeto lendário conhecido como a pedra filosofal.\n[…]\nRon Weasley tem a mesma idade de Harry e Rowling o caracteriza como seu melhor amigo, \"sempre está lá quando você precisa dele\". Sardento, ruivo e bem alto, cresceu em uma família imensa de sangue-puro e é o sexto de sete filhos. Embora sua família seja muito pobre, vivem confortáveis e felizes. Sua lealdade e bravura no jogo de xadrez de bruxos desempenha um papel vital em encontrar a pedra filosofal.\n[…]\nLindsey Fraser, que forneceu um dos comentários da contra-capa em nome do The Scotsman em 28 de junho de 1997, descreveu Harry Potter e a Pedra Filosofal como \"um suspense extremamente divertido\" e Rowling como \"uma escritora infatil de primeira linha.\" Outra crítica antecipada, no The Herald, disse: \"Difícil encontrar uma criança que despreze o livro.\" Jornais do exterior da Escócia começaram a notar o livro, recebendo comentários brilhantes no The Guardian, The Sunday Times e The Mail on Sunday, e em setembro de 1997, a Books for Keeps, uma revista especializada em livros infantis, deu ao romace quatro de cinco estrelas.\n[…]\nRowling, J. K. Harry Potter e a Pedra Filosofal. Rio de Janeiro: Rocco, 2012.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

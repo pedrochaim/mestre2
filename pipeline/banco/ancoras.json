@@ -22795,7 +22795,8 @@
     "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
     "variantes": [
       "King (playing card)",
-      "Rei de espadas"
+      "Rei de espadas",
+      "King"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/King_(playing_card)"
@@ -50285,7 +50286,10 @@
       "wikidata": "Q206230",
       "pt": 472,
       "en": 19298
-    }
+    },
+    "variantes": [
+      "Caturanga"
+    ]
   },
   {
     "id": "buda",
@@ -51881,7 +51885,8 @@
     "nome": "Deep Blue",
     "descricao": "Supercomputador de xadrez desenvolvido pela IBM, que enfrentou Garry Kasparov em 1996 e 1997.",
     "variantes": [
-      "Deep Blue (computador)"
+      "Deep Blue (computador)",
+      "Deep Blue (computador de xadrez)"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
@@ -92807,6 +92812,386 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/American_purple_gallinule",
       "https://pt.wikipedia.org/wiki/Frango-de-%C3%A1gua-azul"
+    ]
+  },
+  {
+    "id": "dama_xadrez",
+    "nome": "Dama (xadrez)",
+    "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+    "variantes": [
+      "Rainha (xadrez)",
+      "Queen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Queen_(chess)"
+    ]
+  },
+  {
+    "id": "xeque_xadrez",
+    "nome": "Xeque (xadrez)",
+    "descricao": "Situação do xadrez em que o rei está ameaçado de captura por uma peça adversária.",
+    "variantes": [
+      "Check"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Check_(chess)"
+    ]
+  },
+  {
+    "id": "torre_xadrez",
+    "nome": "Torre (xadrez)",
+    "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa.",
+    "variantes": [
+      "Rook"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rook_(chess)"
+    ]
+  },
+  {
+    "id": "roque",
+    "nome": "Roque",
+    "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+    "variantes": [
+      "Castling",
+      "Roque (xadrez)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Castling"
+    ]
+  },
+  {
+    "id": "afogamento_xadrez",
+    "nome": "Afogamento (xadrez)",
+    "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal.",
+    "variantes": [
+      "Stalemate",
+      "Rei afogado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stalemate"
+    ]
+  },
+  {
+    "id": "mate_do_louco",
+    "nome": "Mate do louco",
+    "descricao": "Sequência de abertura que leva ao xeque-mate mais rápido possível no xadrez, aplicado pelas pretas.",
+    "variantes": [
+      "Fool's mate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fool%27s_mate"
+    ]
+  },
+  {
+    "id": "garry_kasparov",
+    "nome": "Garry Kasparov",
+    "descricao": "Enxadrista nascido em Baku em 1963, campeão mundial de xadrez de 1985 a 2000.",
+    "variantes": [
+      "Garri Kasparov",
+      "Kasparov"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Garry_Kasparov"
+    ]
+  },
+  {
+    "id": "partida_da_opera",
+    "nome": "Partida da Ópera",
+    "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+    "variantes": [
+      "Opera Game",
+      "Jogo da Ópera"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Opera_Game"
+    ]
+  },
+  {
+    "id": "judit_polgar",
+    "nome": "Judit Polgár",
+    "descricao": "Enxadrista húngara, a mais caçula das irmãs Polgár, considerada a melhor jogadora de xadrez da história.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r"
+    ]
+  },
+  {
+    "id": "olimpiada_de_xadrez_de_1939",
+    "nome": "Olimpíada de Xadrez de 1939",
+    "descricao": "Oitava Olimpíada de Xadrez, disputada em Buenos Aires em 1939, durante a qual começou a Segunda Guerra Mundial.",
+    "variantes": [
+      "8ª Olimpíada de Xadrez",
+      "8th Chess Olympiad"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/8th_Chess_Olympiad"
+    ]
+  },
+  {
+    "id": "xadrez_960",
+    "nome": "Xadrez 960",
+    "descricao": "Variante do xadrez em que a posição inicial das peças da última fileira é sorteada entre 960 possibilidades.",
+    "variantes": [
+      "Chess960",
+      "Xadrez aleatório de Fischer",
+      "Fischer Random"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chess960"
+    ]
+  },
+  {
+    "id": "o_turco_automato",
+    "nome": "O Turco (autômato)",
+    "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América.",
+    "variantes": [
+      "Turco Mecânico",
+      "Mechanical Turk",
+      "The Turk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mechanical_Turk"
+    ]
+  },
+  {
+    "id": "o_gambito_da_rainha_minisserie",
+    "nome": "O Gambito da Rainha (minissérie)",
+    "descricao": "Minissérie americana de 2020 sobre a enxadrista fictícia Beth Harmon, baseada num romance de 1983.",
+    "variantes": [
+      "The Queen's Gambit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)"
+    ]
+  },
+  {
+    "id": "alphago",
+    "nome": "AlphaGo",
+    "descricao": "Programa de inteligência artificial que joga go e derrotou o profissional sul-coreano Lee Sedol em 2016.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/AlphaGo"
+    ]
+  },
+  {
+    "id": "senet",
+    "nome": "Senet",
+    "descricao": "Jogo de tabuleiro do Egito Antigo, de trinta casas, um dos jogos de tabuleiro mais antigos conhecidos.",
+    "variantes": [
+      "Senat"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Senet"
+    ]
+  },
+  {
+    "id": "cobras_e_escadas",
+    "nome": "Cobras e escadas",
+    "descricao": "Jogo de tabuleiro de corrida com dados, de origem indiana, em que escadas fazem subir e cobras fazem descer.",
+    "variantes": [
+      "Snakes and ladders",
+      "Moksha Patam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Snakes_and_ladders"
+    ]
+  },
+  {
+    "id": "trilha_jogo",
+    "nome": "Trilha (jogo)",
+    "descricao": "Jogo de tabuleiro para dois em que se tenta alinhar três peças para capturar peças do adversário, conhecido em inglês como nine men's morris.",
+    "variantes": [
+      "Moinho",
+      "Nine men's morris"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nine_men%27s_morris"
+    ]
+  },
+  {
+    "id": "torre_de_hanoi",
+    "nome": "Torre de Hanói",
+    "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+    "variantes": [
+      "Tower of Hanoi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+    ]
+  },
+  {
+    "id": "tangram",
+    "nome": "Tangram",
+    "descricao": "Quebra-cabeça formado por sete peças geométricas planas que se combinam para montar figuras.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tangram"
+    ]
+  },
+  {
+    "id": "ioio",
+    "nome": "Ioiô",
+    "descricao": "Brinquedo formado por dois discos unidos por um eixo, com um cordão enrolado, que sobe e desce.",
+    "variantes": [
+      "Yo-yo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yo-yo"
+    ]
+  },
+  {
+    "id": "quebra_cabeca",
+    "nome": "Quebra-cabeça",
+    "descricao": "Jogo de montar uma imagem a partir de peças recortadas que se encaixam, surgido na Inglaterra no século dezoito.",
+    "variantes": [
+      "Jigsaw puzzle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jigsaw_puzzle"
+    ]
+  },
+  {
+    "id": "mao_do_morto",
+    "nome": "Mão do morto",
+    "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+    "variantes": [
+      "Dead man's hand"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dead_man%27s_hand"
+    ]
+  },
+  {
+    "id": "blackjack",
+    "nome": "Blackjack",
+    "descricao": "Jogo de cartas de cassino, também chamado vinte e um, em que se tenta somar vinte e um pontos sem passar.",
+    "variantes": [
+      "Vinte e um",
+      "21"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blackjack"
+    ]
+  },
+  {
+    "id": "bingo",
+    "nome": "Bingo",
+    "descricao": "Jogo de sorte em que se marcam numa cartela os números sorteados, até completar uma linha ou a cartela.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bingo_(American_version)"
+    ]
+  },
+  {
+    "id": "mafia_jogo",
+    "nome": "Máfia (jogo)",
+    "descricao": "Jogo de festa de dedução social em que uma vila tenta descobrir os assassinos escondidos entre os jogadores, criado em 1986.",
+    "variantes": [
+      "Mafia",
+      "Cidade dorme"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mafia_(party_game)"
+    ]
+  },
+  {
+    "id": "carcassonne_jogo",
+    "nome": "Carcassonne (jogo)",
+    "descricao": "Jogo de tabuleiro alemão de 2000 em que os jogadores montam cidades, estradas e mosteiros com peças quadradas.",
+    "variantes": [
+      "Carcassonne"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carcassonne_(board_game)"
+    ]
+  },
+  {
+    "id": "codenames",
+    "nome": "Codenames",
+    "descricao": "Jogo de tabuleiro de palavras de 2015 em que dois times de espiões dão pistas para encontrar seus agentes.",
+    "variantes": [
+      "Codinomes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Codenames_(board_game)"
+    ]
+  },
+  {
+    "id": "novela_de_xadrez",
+    "nome": "Novela de Xadrez",
+    "descricao": "Novela do escritor austríaco Stefan Zweig, escrita no exílio no Brasil e publicada em 1942, sobre um duelo de xadrez num navio.",
+    "variantes": [
+      "Schachnovelle",
+      "Xadrez, uma novela",
+      "The Royal Game"
+    ],
+    "fontes": [
+      "https://de.wikipedia.org/wiki/Schachnovelle"
+    ]
+  },
+  {
+    "id": "cara_a_cara",
+    "nome": "Cara a Cara",
+    "descricao": "Jogo de tabuleiro de adivinhar o personagem do adversário com perguntas de sim ou não, conhecido em inglês como Guess Who.",
+    "variantes": [
+      "Guess Who?"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guess_Who%3F"
+    ]
+  },
+  {
+    "id": "mastermind",
+    "nome": "Mastermind",
+    "descricao": "Jogo de tabuleiro de lógica em que se tenta descobrir uma combinação secreta de pinos coloridos, chamado Senha no Brasil.",
+    "variantes": [
+      "Senha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mastermind_(board_game)"
+    ]
+  },
+  {
+    "id": "jogo_da_velha",
+    "nome": "Jogo da velha",
+    "descricao": "Jogo para dois em que se marcam xis e bolinhas numa grade de três por três, tentando alinhar três símbolos.",
+    "variantes": [
+      "Tic-tac-toe",
+      "Jogo do galo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tic-tac-toe"
+    ]
+  },
+  {
+    "id": "batalha_naval",
+    "nome": "Batalha naval",
+    "descricao": "Jogo para dois em que cada um tenta afundar a frota escondida do adversário, adivinhando coordenadas numa grade.",
+    "variantes": [
+      "Battleship"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battleship_(game)"
+    ]
+  },
+  {
+    "id": "tabuleiro_de_xadrez",
+    "nome": "Tabuleiro de xadrez",
+    "descricao": "Tabuleiro de sessenta e quatro casas claras e escuras alternadas, usado no xadrez e nas damas.",
+    "variantes": [
+      "Chessboard"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chessboard"
+    ]
+  },
+  {
+    "id": "xadrez_de_bruxo",
+    "nome": "Xadrez de bruxo",
+    "descricao": "Versão do xadrez no universo de Harry Potter, com peças vivas que obedecem a comandos de voz.",
+    "variantes": [
+      "Wizard's chess",
+      "Xadrez de bruxo (Harry Potter)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
     ]
   }
 ]

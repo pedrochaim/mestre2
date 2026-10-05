@@ -109368,5 +109368,623 @@
       "autor": "Judy Gallagher",
       "licenca": "CC BY 2.0"
     }
+  },
+  {
+    "id": "q06422",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "chaturanga",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Considerado o ancestral do xadrez, o chaturanga surgiu por volta do século seis no território de qual país atual?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chaturanga"
+    ]
+  },
+  {
+    "id": "q06423",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "dama_xadrez",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A dama do xadrez já foi uma peça fraca, que andava uma só casa na diagonal. Em que século ela ganhou os poderes de hoje?",
+    "resposta": "Século quinze",
+    "distratores": [
+      "Século doze",
+      "Século dezoito",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Queen_(chess)"
+    ]
+  },
+  {
+    "id": "q06424",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xeque_xadrez",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra xeque, usada no xadrez, vem do termo persa shāh. O que significa essa palavra?",
+    "resposta": "Rei",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Check_(chess)"
+    ]
+  },
+  {
+    "id": "q06425",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "torre_xadrez",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A torre do xadrez descende da peça persa chamada rukh. Que veículo essa peça representava originalmente?",
+    "resposta": "Carro de guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rook_(chess)"
+    ]
+  },
+  {
+    "id": "q06426",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "roque",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Quando um jogador de xadrez faz o roque, que duas peças ele move num mesmo lance?",
+    "resposta": "O rei e uma torre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castling"
+    ]
+  },
+  {
+    "id": "q06427",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "afogamento_xadrez",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No xadrez, se o jogador da vez não está em xeque mas não tem nenhum lance permitido, como termina a partida?",
+    "resposta": "Empate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stalemate"
+    ]
+  },
+  {
+    "id": "q06428",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mate_do_louco",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O mate do louco é o xeque-mate mais rápido possível no xadrez. Em quantos lances das pretas ele acontece?",
+    "resposta": "Dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fool%27s_mate"
+    ]
+  },
+  {
+    "id": "q06429",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "deep_blue",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+    "resposta": "IBM",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+    ]
+  },
+  {
+    "id": "q06430",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "garry_kasparov",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Garry Kasparov, campeão mundial de xadrez em 1985, nasceu numa república da antiga União Soviética. Qual?",
+    "resposta": "Azerbaijão",
+    "distratores": [
+      "Rússia",
+      "Armênia",
+      "Geórgia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Garry_Kasparov"
+    ]
+  },
+  {
+    "id": "q06431",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "partida_da_opera",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1858, durante uma ópera, o americano Paul Morphy venceu num camarote uma partida de xadrez famosa até hoje. Em que cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opera_Game"
+    ]
+  },
+  {
+    "id": "q06432",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "judit_polgar",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O húngaro László Polgár educou as três filhas, entre elas Judit Polgár, para virarem fortes enxadristas. O que ele queria provar?",
+    "resposta": "Que gênios são feitos, não natos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r",
+      "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r"
+    ]
+  },
+  {
+    "id": "q06433",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "olimpiada_de_xadrez_de_1939",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1939, durante a Olimpíada de Xadrez de Buenos Aires, vários enxadristas europeus decidiram ficar na Argentina. Por quê?",
+    "resposta": "Começou a Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/8th_Chess_Olympiad"
+    ]
+  },
+  {
+    "id": "q06434",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_960",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que campeão mundial americano propôs o xadrez 960, variante em que a posição inicial das peças da última fileira é sorteada?",
+    "resposta": "Bobby Fischer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess960"
+    ]
+  },
+  {
+    "id": "q06435",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "o_turco_automato",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No século dezoito, o Turco, uma máquina que jogava xadrez, impressionou a Europa. O que havia, de fato, escondido dentro dela?",
+    "resposta": "Um enxadrista humano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mechanical_Turk"
+    ]
+  },
+  {
+    "id": "q06436",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "o_gambito_da_rainha_minisserie",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A minissérie O Gambito da Rainha, sobre a enxadrista Beth Harmon, adapta o romance de qual escritor americano?",
+    "resposta": "Walter Tevis",
+    "distratores": [
+      "Kurt Vonnegut",
+      "John Updike",
+      "Philip Roth"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)",
+      "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(novel)"
+    ]
+  },
+  {
+    "id": "q06437",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "alphago",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 2016, o programa AlphaGo derrotou o craque sul-coreano de go Lee Sedol. Que empresa de inteligência artificial, ligada ao Google, o criou?",
+    "resposta": "DeepMind",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AlphaGo"
+    ]
+  },
+  {
+    "id": "q06438",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "go",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Num tabuleiro oficial de go, o antigo jogo de pedras pretas e brancas, quantas linhas há em cada direção?",
+    "resposta": "Dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Go_(game)"
+    ]
+  },
+  {
+    "id": "q06439",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "senet",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O senet era um jogo de tabuleiro do Egito Antigo. Que faraó, famoso pela tumba quase intacta, foi enterrado com vários tabuleiros dele?",
+    "resposta": "Tutancâmon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senet"
+    ]
+  },
+  {
+    "id": "q06440",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cobras_e_escadas",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O jogo de cobras e escadas nasceu na Índia antiga. Com que propósito ele era jogado por lá?",
+    "resposta": "Ensinar lições de moral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snakes_and_ladders"
+    ]
+  },
+  {
+    "id": "q06441",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "trilha_jogo",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na versão mais comum da trilha, jogo em que se tenta alinhar três peças para capturar uma do adversário, quantas peças cada jogador tem?",
+    "resposta": "Nove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nine_men%27s_morris"
+    ]
+  },
+  {
+    "id": "q06442",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "torre_de_hanoi",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Apesar do nome asiático, o quebra-cabeça Torre de Hanói foi criado em 1883 por um matemático de qual país?",
+    "resposta": "França",
+    "distratores": [
+      "Vietnã",
+      "Inglaterra",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+    ]
+  },
+  {
+    "id": "q06443",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "tangram",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O tangram, quebra-cabeça de sete peças geométricas que formam figuras de bichos e pessoas, surgiu em qual país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tangram"
+    ]
+  },
+  {
+    "id": "q06444",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cubo_magico",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+    "resposta": "Ernő Rubik",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+      "https://en.wikipedia.org/wiki/Ern%C5%91_Rubik"
+    ]
+  },
+  {
+    "id": "q06445",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "ioio",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Nos anos vinte, um imigrante chamado Pedro Flores transformou o ioiô em febre nos Estados Unidos. De que país ele vinha?",
+    "resposta": "Filipinas",
+    "distratores": [
+      "Japão",
+      "China",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yo-yo"
+    ]
+  },
+  {
+    "id": "q06446",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "quebra_cabeca",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os primeiros quebra-cabeças de encaixar foram feitos em Londres, por volta de 1760. Que tipo de imagem eles recortavam?",
+    "resposta": "Mapas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jigsaw_puzzle"
+    ]
+  },
+  {
+    "id": "q06447",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mao_do_morto",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No pôquer, a mão do morto, com pares de ases e de oitos, ganhou esse nome por causa de qual pistoleiro do Velho Oeste?",
+    "resposta": "Wild Bill Hickok",
+    "distratores": [
+      "Billy the Kid",
+      "Jesse James",
+      "Buffalo Bill"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dead_man%27s_hand"
+    ]
+  },
+  {
+    "id": "q06448",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "blackjack",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome blackjack, do jogo de cartas vinte e um, vem de um antigo bônus pago a quem tinha um valete preto e qual outra carta?",
+    "resposta": "Ás de espadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blackjack"
+    ]
+  },
+  {
+    "id": "q06449",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "rei_carta_de_baralho",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Como parece enfiar a espada na própria cabeça, o rei de copas ganhou em inglês um apelido sombrio. Ele é o rei o quê?",
+    "resposta": "Suicida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/King_(playing_card)"
+    ]
+  },
+  {
+    "id": "q06450",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "bingo",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O bingo descende de uma loteria criada na Itália. Em que século essa loteria surgiu?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bingo_(American_version)"
+    ]
+  },
+  {
+    "id": "q06451",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "taro",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No baralho de tarô, quantas cartas formam os arcanos maiores, como o Louco, a Morte e o Mundo?",
+    "resposta": "Vinte e duas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Major_Arcana"
+    ]
+  },
+  {
+    "id": "q06452",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "bridge",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O bridge de contrato, forma moderna do jogo, foi criado em 1925, num cruzeiro, por um herdeiro de qual família milionária americana?",
+    "resposta": "Vanderbilt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contract_bridge",
+      "https://en.wikipedia.org/wiki/Harold_Stirling_Vanderbilt"
+    ]
+  },
+  {
+    "id": "q06453",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mafia_jogo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Máfia, jogo de festa em que uma vila tenta desmascarar assassinos escondidos entre os jogadores, nasceu em 1986 numa universidade de qual cidade?",
+    "resposta": "Moscou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mafia_(party_game)"
+    ]
+  },
+  {
+    "id": "q06454",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "carcassonne_jogo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O jogo Carcassonne, de montar cidades e estradas com peças quadradas, tem o nome de uma cidade medieval murada. Em que país ela fica?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carcassonne_(board_game)"
+    ]
+  },
+  {
+    "id": "q06455",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "codenames",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Lançado em 2015, o Codenames, jogo de palavras em que dois times de espiões trocam pistas, foi criado em qual país?",
+    "resposta": "República Tcheca",
+    "distratores": [
+      "Alemanha",
+      "Polônia",
+      "Suécia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Codenames_(board_game)"
+    ]
+  },
+  {
+    "id": "q06456",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "novela_de_xadrez",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Stefan Zweig escreveu a Novela de Xadrez no exílio, pouco antes de morrer, em 1942, na cidade brasileira onde vivia. Que cidade é essa?",
+    "resposta": "Petrópolis",
+    "fonte": [
+      "https://de.wikipedia.org/wiki/Schachnovelle",
+      "https://en.wikipedia.org/wiki/Stefan_Zweig"
+    ]
+  },
+  {
+    "id": "q06457",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cara_a_cara",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Theo Coster, nascido em Amsterdã e um dos criadores do jogo Cara a Cara, foi colega de classe de qual menina, famosa por um diário?",
+    "resposta": "Anne Frank",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theo_Coster"
+    ]
+  },
+  {
+    "id": "q06458",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mastermind",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Mastermind, chamado no Brasil de Senha, é o jogo de descobrir pinos coloridos escondidos. Em que país ele foi inventado, em 1970?",
+    "resposta": "Israel",
+    "distratores": [
+      "Inglaterra",
+      "Estados Unidos",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mastermind_(board_game)"
+    ]
+  },
+  {
+    "id": "q06459",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "scrabble",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O arquiteto Alfred Butts criou o jogo que virou o Scrabble quando estava desempregado, durante qual crise econômica?",
+    "resposta": "A Grande Depressão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scrabble",
+      "https://en.wikipedia.org/wiki/Alfred_Mosher_Butts"
+    ]
+  },
+  {
+    "id": "q06460",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "jogo_da_vida",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1960, a Milton Bradley lançou a versão moderna do Jogo da Vida, anunciada como edição de qual aniversário?",
+    "resposta": "Cem anos da empresa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Game_of_Life"
+    ]
+  },
+  {
+    "id": "q06461",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "dungeons_dragons",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que dupla de americanos criou o Dungeons and Dragons, o jogo de RPG de mesa lançado em 1974?",
+    "resposta": "Gary Gygax e Dave Arneson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons"
+    ]
+  },
+  {
+    "id": "q06462",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "jogo_da_velha",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Criado em 1952 num computador da Universidade de Cambridge, o OXO é um dos primeiros jogos eletrônicos da história. Que jogo ele simulava?",
+    "resposta": "Jogo da velha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/OXO_(video_game)"
+    ]
+  },
+  {
+    "id": "q06463",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "batalha_naval",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar jogo de tabuleiro de plástico, em 1967, a batalha naval já era popular jogada com quais materiais simples?",
+    "resposta": "Papel e lápis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battleship_(game)"
+    ]
+  },
+  {
+    "id": "q06464",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "tabuleiro_de_xadrez",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pela regra, ao montar o tabuleiro de xadrez, de que cor deve ser a casa do canto à direita de cada jogador?",
+    "resposta": "Branca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chessboard"
+    ]
+  },
+  {
+    "id": "q06465",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_de_bruxo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No primeiro livro de Harry Potter, para proteger a Pedra Filosofal, um amigo do bruxo comanda uma partida de xadrez gigante. Que amigo?",
+    "resposta": "Rony Weasley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+    ]
   }
 ]

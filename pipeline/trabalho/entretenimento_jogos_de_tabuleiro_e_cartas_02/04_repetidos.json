@@ -1,0 +1,201 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Considerado o ancestral do xadrez, o chaturanga surgiu por volta do século seis no território de qual país atual?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q03346",
+          "pergunta": "O nome chaturanga, jogo de tabuleiro da Índia antiga, significa em sânscrito quatro divisões de quê?",
+          "resposta": "Do exército"
+        },
+        {
+          "id": "q03347",
+          "pergunta": "Jogado na Índia por volta do século seis, o chaturanga é considerado o ancestral de que jogo de tabuleiro hoje popular no mundo todo?",
+          "resposta": "Xadrez"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+        "resposta": "IBM"
+      },
+      "existentes": [
+        {
+          "id": "q03461",
+          "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+          "resposta": "1997"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Num tabuleiro oficial de go, o antigo jogo de pedras pretas e brancas, quantas linhas há em cada direção?",
+        "resposta": "Dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q01834",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Go"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+        "resposta": "Ernő Rubik"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Como parece enfiar a espada na própria cabeça, o rei de copas ganhou em inglês um apelido sombrio. Ele é o rei o quê?",
+        "resposta": "Suicida"
+      },
+      "existentes": [
+        {
+          "id": "q01501",
+          "pergunta": "Na tradição francesa, cada rei do baralho homenageia um personagem histórico. O rei de espadas representa qual rei bíblico?",
+          "resposta": "Davi"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No baralho de tarô, quantas cartas formam os arcanos maiores, como o Louco, a Morte e o Mundo?",
+        "resposta": "Vinte e duas"
+      },
+      "existentes": [
+        {
+          "id": "q01515",
+          "pergunta": "Hoje associado à adivinhação, o tarô surgiu no norte da Itália, no século quinze. Para que ele foi criado?",
+          "resposta": "Para jogar um jogo de cartas"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O bridge de contrato, forma moderna do jogo, foi criado em 1925, num cruzeiro, por um herdeiro de qual família milionária americana?",
+        "resposta": "Vanderbilt"
+      },
+      "existentes": [
+        {
+          "id": "q01536",
+          "pergunta": "No leilão do bridge, os naipes seguem uma ordem de valor. Qual naipe é o mais alto?",
+          "resposta": "Espadas"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O arquiteto Alfred Butts criou o jogo que virou o Scrabble quando estava desempregado, durante qual crise econômica?",
+        "resposta": "A Grande Depressão"
+      },
+      "existentes": [
+        {
+          "id": "q01514",
+          "pergunta": "Para decidir quantas peças de cada letra o Scrabble teria, o inventor Alfred Butts contou as letras de qual jornal?",
+          "resposta": "The New York Times"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1960, a Milton Bradley lançou a versão moderna do Jogo da Vida, anunciada como edição de qual aniversário?",
+        "resposta": "Cem anos da empresa"
+      },
+      "existentes": [
+        {
+          "id": "q01520",
+          "pergunta": "O Jogo da Vida descende de um jogo de 1860 criado por um americano cujo nome virou o de uma grande fabricante de jogos. Quem?",
+          "resposta": "Milton Bradley"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Que dupla de americanos criou o Dungeons and Dragons, o jogo de RPG de mesa lançado em 1974?",
+        "resposta": "Gary Gygax e Dave Arneson"
+      },
+      "existentes": [
+        {
+          "id": "q01504",
+          "pergunta": "O desenho animado Caverna do Dragão, sucesso na TV brasileira, foi baseado em qual famoso jogo de RPG de mesa?",
+          "resposta": "Dungeons & Dragons"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país de origem; as existentes tratam do significado do nome e do jogo descendente. Embora q03347 mencione a Índia no enunciado, não pergunta isso."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta quem construiu (IBM), fato diferente do ano. A IBM aparece no enunciado de q03461, mas o ano é a resposta lá."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de linhas do tabuleiro é fato diferente de identificar o jogo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta quem inventou; a existente pergunta o ano e dá o nome no enunciado, fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Apelido do rei de copas é diferente do rei bíblico do rei de espadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de arcanos maiores é diferente do propósito original do tarô."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Criador do bridge de contrato é diferente da ordem dos naipes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Crise econômica é diferente do jornal usado para contar letras."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Aniversário da edição de 1960 é diferente do fabricante do jogo de 1860."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Criadores do D&D são diferentes de qual jogo inspirou o desenho."
+    }
+  ]
+}
