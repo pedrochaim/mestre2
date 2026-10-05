@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com as gêmeas da novela; assunto único.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que novela brasileira é esta imagem?",
+      "resposta": "Mulheres de Areia",
+      "ancora": {
+        "nome": "Mulheres de Areia (1993)",
+        "descricao": "Novela brasileira da TV Globo, exibida em 1993, sobre as gêmeas Ruth e Raquel.",
+        "variantes": [
+          "Mulheres de Areia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto do elenco de uma única série, sem texto relevante, legível e reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de comédia é este elenco?",
+      "resposta": "The Office (versão americana)",
+      "ancora": {
+        "nome": "The Office (versão americana)",
+        "descricao": "Série de comédia americana sobre os funcionários da filial da Dunder Mifflin, estreada em 2005.",
+        "variantes": [
+          "The Office",
+          "The Office US"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena sem texto, de filme brasileiro de aficionado; múltipla escolha com filmes brasileiros parecidos deixa justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que filme brasileiro, ambientado no Recife, é esta cena?",
+      "resposta": "O Som ao Redor",
+      "distratores": [
+        "Aquarius",
+        "Boi Neon",
+        "O Lobo atrás da Porta"
+      ],
+      "ancora": {
+        "nome": "O Som ao Redor",
+        "descricao": "Filme brasileiro de 2012, dirigido por Kleber Mendonça Filho, sobre uma rua de classe média no Recife.",
+        "variantes": [
+          "Neighboring Sounds"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É a arte do pôster do filme, apenas recortada; pôsteres são proibidos."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotograma sem texto de filme brasileiro de aficionado; reconhecível por cinéfilos, então múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que filme brasileiro dos anos sessenta é esta cena?",
+      "resposta": "Terra em Transe",
+      "distratores": [
+        "Vidas Secas",
+        "Macunaíma",
+        "Deus e o Diabo na Terra do Sol"
+      ],
+      "ancora": {
+        "nome": "Terra em Transe",
+        "descricao": "Filme brasileiro de 1967 dirigido por Glauber Rocha, sobre o poeta Paulo Martins no país fictício de Eldorado.",
+        "variantes": [
+          "Land in Anguish"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É a arte de pôster ilustrada de Star Wars, e pôsteres são proibidos; também é uma montagem de vários personagens e elementos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de divulgação dos quatro protagonistas de uma única série, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de comédia americana são estes quatro amigos?",
+      "resposta": "Seinfeld",
+      "ancora": {
+        "nome": "Seinfeld",
+        "descricao": "Série de comédia americana estreada em 1989, sobre Jerry e seus três amigos em Nova York.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena nítida; o texto 'your village' no mapa não nomeia a série. Série de aficionado, então múltipla escolha.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que série dos anos sessenta é esta cena?",
+      "resposta": "O Prisioneiro",
+      "distratores": [
+        "Os Vingadores",
+        "Perdidos no Espaço",
+        "Agente 86"
+      ],
+      "ancora": {
+        "nome": "O Prisioneiro",
+        "descricao": "Série britânica de 1967 estrelada por Patrick McGoohan, sobre um agente preso numa vila misteriosa.",
+        "variantes": [
+          "The Prisoner"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena sem texto com Paulo Gustavo, figura pública; pergunta sobre o ator vai além do nome da obra.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ator brasileiro interpreta a personagem de bobes no cabelo nesta cena?",
+      "resposta": "Paulo Gustavo",
+      "ancora": {
+        "nome": "Minha Mãe É uma Peça",
+        "descricao": "Série de filmes de comédia brasileira, iniciada em 2013, sobre Dona Hermínia, interpretada por Paulo Gustavo.",
+        "variantes": [
+          "Minha Mãe é uma Peça: O Filme"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Montagem de retratos dos protagonistas de uma única obra, sem texto; aceita pela exceção.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de humor brasileira são estes dois protagonistas?",
+      "resposta": "Os Normais",
+      "ancora": {
+        "nome": "Os Normais",
+        "descricao": "Série de humor brasileira da TV Globo, de 2001, sobre o casal Rui e Vani, vividos por Luiz Fernando Guimarães e Fernanda Torres.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fotograma sem texto de filme brasileiro de aficionado; múltipla escolha com filmes brasileiros da época.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que filme brasileiro do início dos anos oitenta é esta cena?",
+      "resposta": "Eles Não Usam Black-Tie",
+      "distratores": [
+        "Pixote",
+        "Bye Bye Brasil",
+        "Memórias do Cárcere"
+      ],
+      "ancora": {
+        "nome": "Eles Não Usam Black-Tie (filme)",
+        "descricao": "Filme brasileiro de 1981, dirigido por Leon Hirszman, sobre uma família operária e uma greve em São Paulo.",
+        "variantes": [
+          "Eles Não Usam Black-Tie"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com o T-800 de moto; personagem e filme reconhecíveis.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi lançado o filme desta imagem?",
+      "resposta": "Década de 1990 (1991)",
+      "ancora": {
+        "nome": "O Exterminador do Futuro 2: O Julgamento Final",
+        "descricao": "Filme de ficção científica de 1991 dirigido por James Cameron, com Arnold Schwarzenegger como o T-800.",
+        "variantes": [
+          "Terminator 2: Judgment Day",
+          "O Exterminador do Futuro 2"
+        ]
+      }
+    }
+  ]
+}

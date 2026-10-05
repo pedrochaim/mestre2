@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que novela brasileira é esta imagem?",
+        "resposta": "Mulheres de Areia"
+      },
+      "existentes": [
+        {
+          "id": "q04903",
+          "pergunta": "Na novela Mulheres de Areia, de 1993, Glória Pires viveu duas irmãs gêmeas de personalidades opostas. Como elas se chamavam?",
+          "resposta": "Ruth e Raquel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que série de comédia é este elenco?",
+        "resposta": "The Office (versão americana)"
+      },
+      "existentes": [
+        {
+          "id": "q04859",
+          "pergunta": "Na versão americana de The Office, a filial da empresa de papel Dunder Mifflin fica em que cidade da Pensilvânia?",
+          "resposta": "Scranton"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que série de comédia americana são estes quatro amigos?",
+        "resposta": "Seinfeld"
+      },
+      "existentes": [
+        {
+          "id": "q04878",
+          "pergunta": "O comediante Jerry Seinfeld criou a sitcom Seinfeld em parceria com que outro comediante?",
+          "resposta": "Larry David"
+        },
+        {
+          "id": "q04904",
+          "pergunta": "Na sitcom Seinfeld, Jerry divide as confusões com os amigos George e Elaine e com qual vizinho excêntrico?",
+          "resposta": "Kramer"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o título da novela a partir de uma imagem; a existente pergunta os nomes das gêmeas. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o título da série pelo elenco; a existente pergunta a cidade da filial. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o título da série pela imagem. As existentes pedem o cocriador e o vizinho. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; resposta única e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Não nomeia a série; o elenco distingue a versão americana da britânica. Dados confirmados nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Aquarius, distrator, também se passa no Recife, então também serve ao enunciado. Troquei a pista do Recife pelo ano de 2012, confirmado nos trechos. Nenhum distrator é de 2012.",
+      "reescrita": {
+        "pergunta": "De que filme brasileiro de dois mil e doze é esta cena?",
+        "resposta": "O Som ao Redor",
+        "distratores": [
+          "Aquarius",
+          "Boi Neon",
+          "O Lobo atrás da Porta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 1967, e os distratores também são do cinema brasileiro dos anos sessenta, mas só um corresponde à cena. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro amigos, série americana de comédia. Não entrega o nome, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Série de 1967, e os distratores são séries dos anos sessenta, críveis e curtos. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os bobes no cabelo não estão confirmados para esta imagem, e o enunciado pode não ser verdadeiro para a foto. Reescrevi sem a pista visual e sem nomear a personagem, que entregaria Paulo Gustavo. Os trechos confirmam que ele é o protagonista.",
+      "reescrita": {
+        "pergunta": "Que ator brasileiro vive a protagonista desta franquia de comédias?",
+        "resposta": "Paulo Gustavo"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Montagem com o elenco de uma única obra, permitida. Resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 1981, e os distratores são filmes brasileiros da mesma época. Só um corresponde à cena.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é de 1991, década de 1990, confirmado nos trechos. A resposta é única e o enunciado não entrega o título.",
+      "reescrita": null
+    }
+  ]
+}
