@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duodeno é a primeira das três partes do intestino delgado, conforme os trechos. O enunciado não nomeia o órgão nem entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aparelho de laboratório que produz chama a partir de gás' descreve a função do bico de Bunsen, então a figura vira enfeite. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Que aparelho de laboratório é este?",
+        "resposta": "Bico de Bunsen"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Clavícula, úmero e esterno são distratores do mesmo tipo e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Fase larval de um anfíbio' define girino, então dá para responder sem a figura. Qualquer pista que descreva a fase também entregaria a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Rocha vulcânica de brilho vítreo' entrega obsidiana sem a figura. Antracito e azeviche não são rochas vulcânicas, então são distratores fracos. Pista retirada e distratores trocados por rochas ígneas parecidas.",
+      "reescrita": {
+        "pergunta": "Que rocha ígnea é esta?",
+        "resposta": "Obsidiana",
+        "distratores": [
+          "Basalto",
+          "Pedra-pomes",
+          "Riolito"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Inseto parasita' é uma pista de grupo que não entrega a resposta; o reconhecimento depende da figura. Os trechos confirmam que o piolho é um inseto parasita.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Animal marinho extinto' é uma pista de grupo, e muitos fósseis servem a ela, então a figura decide. Os trechos confirmam que trilobitas são artrópodes marinhos extintos.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho de laboratório é este?",
+        "resposta": "Bico de Bunsen"
+      },
+      "existentes": [
+        {
+          "id": "q04492",
+          "pergunta": "Que aparelho de laboratório é este?",
+          "resposta": "Bico de Bunsen"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que rocha ígnea é esta?",
+        "resposta": "Obsidiana"
+      },
+      "existentes": [
+        {
+          "id": "q04307",
+          "pergunta": "Por que a obsidiana, rocha vulcânica negra, parece vidro e não tem cristais visíveis?",
+          "resposta": "A lava esfriou muito rápido"
+        },
+        {
+          "id": "q05223",
+          "pergunta": "Por ter um fio mais fino que o do aço, a lâmina de obsidiana chega a ser usada em qual instrumento cirúrgico?",
+          "resposta": "Bisturi"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que animal marinho extinto deixou este fóssil?",
+        "resposta": "Trilobita"
+      },
+      "existentes": [
+        {
+          "id": "q02756",
+          "pergunta": "Depois de cerca de duzentos e setenta milhões de anos nos mares, os trilobitas sumiram na grande extinção do fim de que período?",
+          "resposta": "Permiano"
+        },
+        {
+          "id": "q02757",
+          "pergunta": "Os olhos dos trilobitas tinham lentes feitas de um mineral transparente. Que mineral era esse?",
+          "resposta": "Calcita"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas à q04492.",
+      "id_existente": "q04492"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a rocha pela imagem é um fato diferente de sua origem vítrea ou do uso em bisturi."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o fóssil como trilobita difere de saber o período da extinção ou o mineral dos olhos."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Diagrama limpo, sem texto, com o intestino delgado em rosa e o duodeno em laranja.",
+      "destino": 1,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Nesta figura, o órgão em rosa tem três regiões. Como se chama a região em laranja, a primeira delas?",
+      "resposta": "Duodeno",
+      "ancora": {
+        "nome": "Intestino delgado",
+        "descricao": "Órgão do sistema digestório entre o estômago e o intestino grosso, onde ocorre a maior parte da absorção de nutrientes.",
+        "variantes": [
+          "Intestino fino"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de um bico de Bunsen sobre fundo claro, sem texto. É reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho de laboratório, que produz uma chama a partir de gás, é este?",
+      "resposta": "Bico de Bunsen",
+      "ancora": {
+        "nome": "Bico de Bunsen",
+        "descricao": "Queimador a gás de laboratório que produz uma única chama aberta, usado para aquecimento e esterilização.",
+        "variantes": [
+          "Bunsen burner",
+          "Bico de gás"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Esqueleto em vista posterior com as escápulas destacadas em vermelho, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que osso aparece destacado em vermelho nesta figura?",
+      "resposta": "Escápula",
+      "distratores": [
+        "Clavícula",
+        "Úmero",
+        "Esterno"
+      ],
+      "ancora": {
+        "nome": "Escápula",
+        "descricao": "Osso plano e triangular da cintura escapular, também chamado de omoplata, que liga o úmero à clavícula.",
+        "variantes": [
+          "Omoplata",
+          "Paleta"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma tabela cheia de texto, com título e símbolos dos elementos, e não funciona como figura."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há vários cristais brutos de cores diferentes, incluindo rosados e arroxeados que lembram rubi. A resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cristais pretos sobre feldspato, com outro mineral junto. Pode ser confundido com turmalina ou outro mineral, e a mica não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois girinos com brânquias externas visíveis, em foto simples e sem texto. Dá para reconhecer.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama esta fase larval de um anfíbio?",
+      "resposta": "Girino",
+      "ancora": {
+        "nome": "Girino",
+        "descricao": "Larva aquática de anfíbios, como sapos e rãs, com cauda e brânquias.",
+        "variantes": [
+          "Larva de anfíbio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Peça de vidro vulcânico preto com fratura conchoidal, sem texto. Em múltipla escolha com distratores escuros fica justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rocha vulcânica é esta, preta e de brilho vítreo?",
+      "resposta": "Obsidiana",
+      "distratores": [
+        "Basalto",
+        "Antracito",
+        "Azeviche"
+      ],
+      "ancora": {
+        "nome": "Obsidiana",
+        "descricao": "Vidro vulcânico natural formado pelo resfriamento rápido da lava, duro, quebradiço e de fratura cortante.",
+        "variantes": [
+          "Vidro vulcânico"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É uma prancha com várias figuras de gêneros diferentes e texto visível (Challengeria, Pharyngella, Entocannula, Lithogromia) que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Macrofoto nítida de um piolho agarrado a fios de cabelo, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto parasita é este, visto ao microscópio?",
+      "resposta": "Piolho",
+      "ancora": {
+        "nome": "Piolho",
+        "descricao": "Inseto sem asas, parasita externo do ser humano, que vive no couro cabeludo e se alimenta de sangue.",
+        "variantes": [
+          "Piolho-da-cabeça",
+          "Pediculus humanus capitis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fóssil espinhoso de trilobita sobre fundo preto, bem destacado, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal marinho extinto deixou este fóssil?",
+      "resposta": "Trilobita",
+      "ancora": {
+        "nome": "Trilobita",
+        "descricao": "Artrópode marinho extinto da classe Trilobita, de exoesqueleto dividido em três lobos, comum no Paleozoico.",
+        "variantes": [
+          "Trilobite",
+          "Trilobites"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma mistura de cristais pretos e dourados (provavelmente com pirita ou calcopirita) em ampliação. Não mostra um mineral único e reconhecível."
+    }
+  ]
+}

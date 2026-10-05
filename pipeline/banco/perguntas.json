@@ -106865,5 +106865,114 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q06281",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "intestino_delgado",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nesta figura, o órgão em rosa tem três regiões. Como se chama a região em laranja, a primeira delas?",
+    "resposta": "Duodeno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Small_intestine",
+      "https://pt.wikipedia.org/wiki/Intestino_delgado"
+    ],
+    "imagem": {
+      "arquivo": "q06281.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_intestinum_tenue.svg",
+      "autor": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q06282",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "escapula",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que osso aparece destacado em vermelho nesta figura?",
+    "resposta": "Escápula",
+    "distratores": [
+      "Clavícula",
+      "Úmero",
+      "Esterno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scapula",
+      "https://pt.wikipedia.org/wiki/Esc%C3%A1pula"
+    ],
+    "imagem": {
+      "arquivo": "q06282.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scapula_-_posterior_view2.png",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q06283",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "obsidiana",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que rocha ígnea é esta?",
+    "resposta": "Obsidiana",
+    "distratores": [
+      "Basalto",
+      "Pedra-pomes",
+      "Riolito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obsidian",
+      "https://pt.wikipedia.org/wiki/Obsidiana"
+    ],
+    "imagem": {
+      "arquivo": "q06283.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:13_years_of_Russian_Wikinews_in_Moscow_21.jpg",
+      "autor": "Krassotkin",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q06284",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "piolho",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto parasita é este, visto ao microscópio?",
+    "resposta": "Piolho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Head_louse"
+    ],
+    "imagem": {
+      "arquivo": "q06284.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Male_human_head_louse.jpg",
+      "autor": "Gilles San Martin",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06285",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "trilobita",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal marinho extinto deixou este fóssil?",
+    "resposta": "Trilobita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trilobite",
+      "https://pt.wikipedia.org/wiki/Trilobita"
+    ],
+    "imagem": {
+      "arquivo": "q06285.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Koneprusia_brutoni.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
