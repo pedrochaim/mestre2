@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto legível; foguetes ao fundo não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em Peenemünde, durante a Segunda Guerra, este engenheiro alemão ajudou a projetar que foguete?",
+      "resposta": "V-2",
+      "destino": 7,
+      "ancora": {
+        "nome": "Wernher von Braun",
+        "descricao": "Engenheiro aeroespacial alemão que desenvolveu o foguete V-2 e depois os foguetes do programa Apollo da NASA.",
+        "variantes": [
+          "Von Braun"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que órgão este cirurgião sul-africano ficou famoso por transplantar pela primeira vez entre humanos?",
+      "resposta": "Coração",
+      "destino": 3,
+      "ancora": {
+        "nome": "Christiaan Barnard",
+        "descricao": "Cirurgião cardíaco sul-africano que realizou o primeiro transplante de coração entre humanos, em 1967.",
+        "variantes": [
+          "Chris Barnard"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Gravura em prata de retrato idealizado, com ornamentos; o rosto não permite reconhecer Avicena de forma única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, figura pública reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este oceanógrafo francês foi coinventor de qual equipamento de mergulho autônomo?",
+      "resposta": "Aqua-Lung",
+      "destino": 5,
+      "ancora": {
+        "nome": "Jacques Cousteau",
+        "descricao": "Oceanógrafo, oficial naval e cineasta francês, coinventor do Aqua-Lung.",
+        "variantes": [
+          "Jacques-Yves Cousteau",
+          "Comandante Cousteau"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Daguerreótipo conhecido, sem texto, nítido o bastante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este francês do século dezenove inventou qual processo pioneiro de fotografia?",
+      "resposta": "Daguerreótipo",
+      "destino": 5,
+      "ancora": {
+        "nome": "Louis Daguerre",
+        "descricao": "Artista e inventor francês que criou o daguerreótipo, primeiro processo fotográfico prático.",
+        "variantes": [
+          "Louis-Jacques-Mandé Daguerre",
+          "Daguerre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravura clássica de Riemann, sem texto, legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de integral, ensinada nos cursos de cálculo, leva o nome deste matemático alemão?",
+      "resposta": "Integral de Riemann",
+      "destino": 2,
+      "ancora": {
+        "nome": "Bernhard Riemann",
+        "descricao": "Matemático alemão do século dezenove, autor da integral de Riemann e da hipótese de Riemann.",
+        "variantes": [
+          "Georg Friedrich Bernhard Riemann"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato a óleo conhecido, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que máquina calculadora, capaz de multiplicar e dividir, este polímata alemão do século dezessete construiu?",
+      "resposta": "Calculadora de Leibniz",
+      "destino": 5,
+      "ancora": {
+        "nome": "Gottfried Leibniz",
+        "descricao": "Polímata alemão do século dezessete, matemático e filósofo, cocriador do cálculo infinitesimal.",
+        "variantes": [
+          "Gottfried Wilhelm Leibniz",
+          "Leibnitz"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto minúscula, de baixa resolução, tipo 3x4; não é legível no celular nem reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico clássico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em 1860, esta inglesa fundou uma escola de enfermagem ligada a qual hospital de Londres?",
+      "resposta": "Hospital St Thomas",
+      "destino": 3,
+      "ancora": {
+        "nome": "Florence Nightingale",
+        "descricao": "Inglesa fundadora da enfermagem moderna e pioneira da estatística, famosa na Guerra da Crimeia.",
+        "variantes": [
+          "A Dama da Lâmpada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de estúdio nítida, sem texto; múltipla com naturalistas barbados da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naturalista inglês do século dezenove é este?",
+      "resposta": "Alfred Russel Wallace",
+      "distratores": [
+        "Charles Darwin",
+        "Thomas Huxley",
+        "Henry Bates"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Alfred Russel Wallace",
+        "descricao": "Naturalista inglês que concebeu independentemente a seleção natural e identificou a Linha de Wallace.",
+        "variantes": [
+          "Wallace"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida da cientista com microscópio, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Os cromossomos de que planta esta geneticista americana estudou ao longo de toda a carreira?",
+      "resposta": "Milho",
+      "destino": 6,
+      "ancora": {
+        "nome": "Barbara McClintock",
+        "descricao": "Citogeneticista americana, Nobel de Fisiologia ou Medicina de 1983, que estudou cromossomos do milho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto; múltipla com empresários parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresário americano é este?",
+      "resposta": "Bill Gates",
+      "distratores": [
+        "Warren Buffett",
+        "Steve Ballmer",
+        "Larry Ellison"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Bill Gates",
+        "descricao": "Empresário e filantropo americano, cofundador da Microsoft.",
+        "variantes": [
+          "William Henry Gates III"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: Peenemünde, Segunda Guerra e foguete levam ao V-2 sem a figura. Virou identificação em múltipla escolha.",
+      "reescrita": {
+        "pergunta": "Que engenheiro aeroespacial alemão é este?",
+        "resposta": "Wernher von Braun",
+        "distratores": [
+          "Sergei Korolev",
+          "Robert Goddard",
+          "Hermann Oberth"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta: o primeiro transplante entre humanos leva direto ao coração, e a figura vira enfeite. Virou identificação.",
+      "reescrita": {
+        "pergunta": "Que cirurgião cardíaco sul-africano é este?",
+        "resposta": "Christiaan Barnard",
+        "distratores": [
+          "Denton Cooley",
+          "Michael DeBakey",
+          "Norman Shumway"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Oceanógrafo francês coinventor de equipamento de mergulho identifica Cousteau, e a resposta sai sem a figura. Virou identificação.",
+      "reescrita": {
+        "pergunta": "Que oceanógrafo e cineasta francês do século vinte é este?",
+        "resposta": "Jacques Cousteau",
+        "distratores": [
+          "Jacques Piccard",
+          "Hans Hass",
+          "Yves Le Prieur"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: a resposta é o próprio nome do inventor (daguerreótipo), então a pergunta dá para responder sem a figura. Outros franceses também foram pioneiros da fotografia, como Niépce. Virou identificação com pista que distingue.",
+      "reescrita": {
+        "pergunta": "Que pintor e cenógrafo francês do século dezenove é este?",
+        "resposta": "Louis Daguerre",
+        "distratores": [
+          "Nicéphore Niépce",
+          "Nadar",
+          "Hippolyte Bayard"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém o nome do matemático, e a pergunta só funciona se já se sabe quem é. Virou identificação.",
+      "reescrita": {
+        "pergunta": "Que matemático alemão do século dezenove é este?",
+        "resposta": "Bernhard Riemann",
+        "distratores": [
+          "Carl Friedrich Gauss",
+          "Karl Weierstrass",
+          "Richard Dedekind"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém o nome (Calculadora de Leibniz), e a descrição polímata alemão com calculadora entrega Leibniz sem a imagem. Virou identificação.",
+      "reescrita": {
+        "pergunta": "Que polímata alemão do século dezessete é este?",
+        "resposta": "Gottfried Leibniz",
+        "distratores": [
+          "Johannes Kepler",
+          "Otto von Guericke",
+          "Christiaan Huygens"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em 1860, uma inglesa fundando escola de enfermagem entrega Nightingale sem a figura. Troquei por um fato que só se alcança depois de reconhecê-la: o museu dedicado a ela fica no hospital St Thomas, que o trecho confirma.",
+      "reescrita": {
+        "pergunta": "Em que hospital de Londres funciona um museu dedicado a esta inglesa?",
+        "resposta": "Hospital St Thomas"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação limpa, sem vazamento. Os distratores são naturalistas ingleses críveis e curtos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Geneticista americana que estudou cromossomos de planta leva a McClintock e ao milho sem a figura. Outros geneticistas também estudaram milho. Virou identificação.",
+      "reescrita": {
+        "pergunta": "Que geneticista americana do século vinte é esta?",
+        "resposta": "Barbara McClintock",
+        "distratores": [
+          "Nettie Stevens",
+          "Lynn Margulis",
+          "Mary-Claire King"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Identificação sem vazamento, com distratores do mesmo tipo, críveis e curtos. Fato amplamente documentado e confirmado nos trechos.",
+      "reescrita": null
+    }
+  ]
+}

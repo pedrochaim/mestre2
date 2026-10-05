@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que naturalista inglês do século dezenove é este?",
+        "resposta": "Alfred Russel Wallace"
+      },
+      "existentes": [
+        {
+          "id": "q02814",
+          "pergunta": "O britânico Alfred Russel Wallace, que explorou a Amazônia e a Malásia, chegou por conta própria a que ideia também proposta por Darwin?",
+          "resposta": "Seleção natural"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do naturalista (Wallace); a existente já dá o nome e pergunta qual ideia ele propôs. Fatos diferentes: saber a ideia (seleção natural) não leva a identificar a pessoa."
+    }
+  ]
+}
