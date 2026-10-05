@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que nave este cosmonauta soviético voou?",
+        "resposta": "Vostok 1"
+      },
+      "existentes": [
+        {
+          "id": "q04575",
+          "pergunta": "Que cosmonauta soviético é este?",
+          "resposta": "Yuri Gagarin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade do cosmonauta (Yuri Gagarin); a nova pede a nave em que ele voou (Vostok 1). São fatos diferentes, e saber um não leva a saber o outro com certeza."
+    }
+  ]
+}

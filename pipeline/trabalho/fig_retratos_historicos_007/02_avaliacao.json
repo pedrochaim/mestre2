@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto icônico, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este busto retrata uma rainha do Egito Antigo. Que faraó foi seu marido?",
+      "resposta": "Akhenaton",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nefertiti",
+        "descricao": "Rainha egípcia da 18ª dinastia, grande esposa real do faraó Akhenaton, retratada no famoso busto de Berlim.",
+        "variantes": [
+          "Nefertite"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Crachá com nome visível no paletó, que pode entregar a resposta; legibilidade duvidosa."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este marechal francês assumiu o comando supremo dos exércitos aliados na Frente Ocidental?",
+      "resposta": "1918",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Ferdinand Foch",
+        "descricao": "Marechal da França, comandante supremo aliado na Frente Ocidental em 1918.",
+        "variantes": [
+          "Marechal Foch"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato pintado famoso, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este teólogo alemão foi excomungado pelo papa?",
+      "resposta": "1521",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Martinho Lutero",
+        "descricao": "Teólogo alemão, figura central da Reforma Protestante.",
+        "variantes": [
+          "Martin Luther",
+          "Lutero"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial; assinatura do fotógrafo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que apelido tinha este presidente do Brasil, deposto por um golpe militar?",
+      "resposta": "Jango",
+      "distratores": [],
+      "destino": 8,
+      "ancora": {
+        "nome": "João Goulart",
+        "descricao": "24º presidente do Brasil, deposto pelo golpe militar de 1964.",
+        "variantes": [
+          "Jango",
+          "João Belchior Marques Goulart"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este monarca prussiano subiu ao trono?",
+      "resposta": "1740",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Frederico, o Grande",
+        "descricao": "Rei da Prússia de 1740 a 1786, Frederico II.",
+        "variantes": [
+          "Frederico II da Prússia",
+          "Frederick the Great"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este brasileiro do século dezenove foi um dos fundadores de qual academia?",
+      "resposta": "Academia Brasileira de Letras",
+      "distratores": [],
+      "destino": 8,
+      "ancora": {
+        "nome": "Joaquim Nabuco",
+        "descricao": "Diplomata, político e abolicionista brasileiro, autor de O Abolicionismo e fundador da Academia Brasileira de Letras.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Iluminura medieval estilizada; só o brasão de leões e a coroa, que servem a vários reis ingleses, não garante resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que nave este cosmonauta soviético voou?",
+      "resposta": "Vostok 1",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Yuri Gagarin",
+        "descricao": "Cosmonauta soviético, primeiro humano no espaço, em 1961.",
+        "variantes": [
+          "Iuri Gagarin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; múltipla com revolucionários parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este líder da Revolução Mexicana?",
+      "resposta": "Emiliano Zapata",
+      "distratores": [
+        "Pancho Villa",
+        "Francisco Madero",
+        "Venustiano Carranza"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Emiliano Zapata",
+        "descricao": "Líder camponês da Revolução Mexicana, do estado de Morelos.",
+        "variantes": [
+          "Zapata"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura com uniforme militar, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano esta heroína brasileira se alistou no Exército para lutar pela Independência?",
+      "resposta": "1822",
+      "distratores": [],
+      "destino": 8,
+      "ancora": {
+        "nome": "Maria Quitéria",
+        "descricao": "Soldada baiana que lutou na Guerra de Independência do Brasil, vestida de homem.",
+        "variantes": [
+          "Maria Quitéria de Jesus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O desenho traz a inscrição LEONARDO VINCI, que entrega a resposta."
+    }
+  ]
+}

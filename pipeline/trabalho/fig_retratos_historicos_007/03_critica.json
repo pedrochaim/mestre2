@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Nefertiti foi a grande esposa real de Akhenaton. O enunciado não nomeia a rainha nem o marido, e sem a imagem não dá para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Comandante supremo aliado em 1918 identifica Foch sem a figura, e o ano 1918 é adivinhável pelo próprio enunciado. Passo a pedir a cidade natal, Tarbes, que está no trecho em português.",
+      "reescrita": {
+        "pergunta": "Este marechal francês da Primeira Guerra Mundial nasceu em que cidade?",
+        "resposta": "Tarbes"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teólogo alemão excomungado pelo papa entrega Lutero na prática, e a figura vira enfeite. Passo a pedir a cidade natal, Eisleben, que está no trecho em português.",
+      "reescrita": {
+        "pergunta": "Este teólogo alemão do século dezesseis nasceu em que cidade?",
+        "resposta": "Eisleben"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Presidente deposto por golpe militar entrega Goulart sem a imagem. Outros presidentes também foram depostos e tinham apelidos. Não encontrei pista que ajude sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frederico II subiu ao trono em 1740, como confirmam os trechos. O enunciado não identifica o monarca sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Brasileiro do século dezenove e academia leva a Academia Brasileira de Letras como palpite sem olhar a figura, e a figura vira enfeite. Passo a pedir o local da morte, Washington, que está no trecho em português.",
+      "reescrita": {
+        "pergunta": "Este político e diplomata brasileiro do século dezenove morreu em que cidade?",
+        "resposta": "Washington"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gagarin voou na Vostok 1, como confirmam os trechos. Cosmonauta soviético não basta para identificá-lo sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zapata foi líder da Revolução Mexicana, conforme os trechos. Os distratores são líderes da mesma revolução, críveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Heroína que se alistou para lutar pela Independência identifica Maria Quitéria sem a figura, e 1822 é o próprio ano da Independência. Passo a pedir a ordem imperial que a condecorou, que está no trecho em inglês.",
+      "reescrita": {
+        "pergunta": "Esta soldada brasileira do século dezenove foi condecorada com qual ordem imperial?",
+        "resposta": "Ordem Imperial do Cruzeiro"
+      }
+    }
+  ]
+}
