@@ -1,0 +1,1036 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Masters de golfe",
+        "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+        "variantes": [
+          "The Masters",
+          "Masters Tournament",
+          "Masters de Augusta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Masters_Tournament"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Masters, um dos quatro torneios principais do golfe, é disputado todo ano no mesmo clube. Em que estado americano?",
+      "resposta": "Geórgia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Masters_Tournament",
+        "https://en.wikipedia.org/wiki/Augusta_National_Golf_Club"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Masters de golfe",
+        "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+        "variantes": [
+          "The Masters",
+          "Masters Tournament",
+          "Masters de Augusta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Masters_Tournament"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde 1949, o campeão do torneio Masters de golfe recebe uma peça de roupa como símbolo da vitória. Que peça é essa?",
+      "resposta": "Uma jaqueta verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Masters_Tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pipeline",
+        "descricao": "Onda de recife no litoral norte da ilha de Oahu, no Havaí, uma das mais famosas do surfe.",
+        "variantes": [
+          "Banzai Pipeline",
+          "Pipe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Banzai_Pipeline"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Pipeline, uma das ondas mais famosas e perigosas do surfe, quebra no litoral norte de qual ilha do Havaí?",
+      "resposta": "Oahu",
+      "distratores": [
+        "Maui",
+        "Kauai",
+        "Molokai"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Banzai_Pipeline"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tour_de_france",
+        "nome": "Tour de France",
+        "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+        "variantes": [
+          "Volta da França"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tour_de_France"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Desde 1975, a última etapa do Tour de France costuma terminar em qual avenida de Paris?",
+      "resposta": "Champs-Élysées",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tour_de_France"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tour_de_france",
+        "nome": "Tour de France",
+        "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+        "variantes": [
+          "Volta da França"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tour_de_France"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1903, qual jornal esportivo francês criou o Tour de France para vender mais exemplares?",
+      "resposta": "L'Auto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/L%27Auto",
+        "https://en.wikipedia.org/wiki/Tour_de_France"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kentucky Derby",
+        "descricao": "Tradicional corrida de cavalos puro-sangue disputada anualmente no hipódromo de Churchill Downs, nos Estados Unidos.",
+        "variantes": [
+          "Derby de Kentucky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kentucky_Derby"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Disputado desde 1875, o Kentucky Derby, tradicional corrida de cavalos americana, acontece em qual cidade?",
+      "resposta": "Louisville",
+      "distratores": [
+        "Lexington",
+        "Nashville",
+        "Cincinnati"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kentucky_Derby",
+        "https://en.wikipedia.org/wiki/Churchill_Downs"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rayssa_leal",
+        "nome": "Rayssa Leal",
+        "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+        "variantes": [
+          "Fadinha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rayssa_Leal"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidade do Maranhão nasceu a skatista Rayssa Leal, medalhista olímpica?",
+      "resposta": "Imperatriz",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rayssa_Leal",
+        "https://en.wikipedia.org/wiki/Rayssa_Leal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maratona",
+        "nome": "Maratona",
+        "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maratona"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A distância oficial da maratona vem do percurso usado nos Jogos de Londres, em 1908. De qual castelo partiu aquela prova?",
+      "resposta": "Castelo de Windsor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marathon",
+        "https://en.wikipedia.org/wiki/Athletics_at_the_1908_Summer_Olympics_%E2%80%93_Men%27s_marathon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Futevôlei",
+        "descricao": "Esporte brasileiro de praia que mistura futebol e vôlei, jogado sem as mãos sobre uma rede.",
+        "variantes": [
+          "Footvolley",
+          "Futvôlei"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Futev%C3%B4lei"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nos anos sessenta, em qual praia do Rio de Janeiro surgiu o futevôlei?",
+      "resposta": "Copacabana",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Futev%C3%B4lei",
+        "https://en.wikipedia.org/wiki/Footvolley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Amyr Klink",
+        "descricao": "Navegador e escritor brasileiro que atravessou o Atlântico Sul sozinho num barco a remo em 1984.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Amyr_Klink"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1984, Amyr Klink cruzou sozinho o Atlântico Sul num barco a remo, até a Bahia. Ele partiu do litoral de qual atual país africano?",
+      "resposta": "Namíbia",
+      "distratores": [
+        "Angola",
+        "África do Sul",
+        "Gabão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Amyr_Klink",
+        "https://en.wikipedia.org/wiki/Amyr_Klink"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maria Lenk",
+        "descricao": "Nadadora brasileira pioneira, primeira sul-americana a disputar os Jogos Olímpicos, em 1932.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maria_Lenk"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1932, a nadadora Maria Lenk se tornou a primeira sul-americana a disputar os Jogos Olímpicos. Em que cidade?",
+      "resposta": "Los Angeles",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maria_Lenk",
+        "https://en.wikipedia.org/wiki/Maria_Lenk"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tiger_woods",
+        "nome": "Tiger Woods",
+        "descricao": "Golfista americano, nascido Eldrick Tont Woods, um dos maiores vencedores de torneios principais.",
+        "variantes": [
+          "Eldrick Tont Woods"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiger_Woods"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Tiger Woods tinha vinte e um anos quando venceu o Masters de golfe pela primeira vez. Em que ano foi isso?",
+      "resposta": "1997",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1997_Masters_Tournament",
+        "https://en.wikipedia.org/wiki/Tiger_Woods"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Joaquim Cruz",
+        "descricao": "Corredor brasileiro de meio-fundo, campeão olímpico dos 800 metros.",
+        "variantes": [
+          "Joaquim Carvalho Cruz"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Joaquim_Cruz"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o corredor brasileiro Joaquim Cruz ganhou a medalha de ouro olímpica nos oitocentos metros?",
+      "resposta": "1984",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Joaquim_Cruz",
+        "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Daiane dos Santos",
+        "descricao": "Ginasta brasileira, campeã mundial no solo, que dá nome a movimentos da ginástica artística.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano Daiane dos Santos se tornou a primeira ginasta brasileira campeã mundial, na prova de solo?",
+      "resposta": "2003",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Daiane_dos_Santos",
+        "https://en.wikipedia.org/wiki/Daiane_dos_Santos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Primeira ascensão ao Everest",
+        "descricao": "Expedição britânica de 1953 em que Edmund Hillary e Tenzing Norgay chegaram ao cume do monte Everest.",
+        "variantes": [
+          "Expedição britânica ao Everest de 1953"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1953, o neozelandês Edmund Hillary chegou ao topo do Everest ao lado de qual sherpa?",
+      "resposta": "Tenzing Norgay",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition",
+        "https://en.wikipedia.org/wiki/Tenzing_Norgay"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Primeira ascensão ao Everest",
+        "descricao": "Expedição britânica de 1953 em que Edmund Hillary e Tenzing Norgay chegaram ao cume do monte Everest.",
+        "variantes": [
+          "Expedição britânica ao Everest de 1953"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A notícia da primeira subida ao cume do Everest, em 1953, chegou a Londres justamente no dia de qual cerimônia real?",
+      "resposta": "Coroação de Elizabeth II",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Golfe nos Jogos Olímpicos de 2016",
+        "descricao": "Torneio olímpico de golfe dos Jogos do Rio de Janeiro, que marcou a volta da modalidade ao programa olímpico.",
+        "variantes": [
+          "Golfe na Rio 2016"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golf_at_the_2016_Summer_Olympics"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O golfe voltou aos Jogos Olímpicos no Rio, em 2016. Em que ano o esporte tinha sido disputado nos Jogos pela última vez antes disso?",
+      "resposta": "1904",
+      "distratores": [
+        "1924",
+        "1936",
+        "1948"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golf_at_the_2016_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Golf_at_the_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jesse Owens",
+        "descricao": "Velocista e saltador americano que ganhou quatro medalhas de ouro nos Jogos de Berlim.",
+        "variantes": [
+          "James Cleveland Owens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jesse_Owens"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Sob o olhar do regime nazista, o americano Jesse Owens ganhou quatro medalhas de ouro nos Jogos de Berlim. Em que ano?",
+      "resposta": "1936",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jesse_Owens",
+        "https://pt.wikipedia.org/wiki/Jesse_Owens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Copa do Mundo de Rúgbi de 1987",
+        "descricao": "Primeira edição do campeonato mundial de rúgbi, sediada na Nova Zelândia e na Austrália.",
+        "variantes": [
+          "Rugby World Cup 1987"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1987_Rugby_World_Cup"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A primeira Copa do Mundo de Rúgbi, vencida pela Nova Zelândia jogando em casa, foi disputada em que ano?",
+      "resposta": "1987",
+      "distratores": [
+        "1971",
+        "1979",
+        "1995"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1987_Rugby_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "super_bowl",
+        "nome": "Super Bowl",
+        "descricao": "Partida final da liga de futebol americano dos Estados Unidos, a NFL.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Super_Bowl"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A partida hoje lembrada como o primeiro Super Bowl, a final do futebol americano, foi jogada em que década?",
+      "resposta": "Anos 1960",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Super_Bowl_I"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fosbury Flop",
+        "descricao": "Técnica do salto em altura em que o atleta passa sobre o sarrafo de costas, popularizada por Dick Fosbury.",
+        "variantes": [
+          "Salto Fosbury",
+          "Estilo Fosbury"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fosbury_flop"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos do México, em 1968, que americano ganhou o ouro do salto em altura pulando de costas para o sarrafo?",
+      "resposta": "Dick Fosbury",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fosbury_flop",
+        "https://en.wikipedia.org/wiki/Dick_Fosbury"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Surfe nos Jogos Olímpicos de 2020",
+        "descricao": "Estreia do surfe no programa olímpico, nos Jogos de Tóquio, disputados em 2021.",
+        "variantes": [
+          "Surfe em Tóquio 2020"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Surfing_at_the_2020_Summer_Olympics"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O surfe estreou nos Jogos Olímpicos em Tóquio. Que brasileiro venceu a primeira final masculina da modalidade?",
+      "resposta": "Ítalo Ferreira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Surfing_at_the_2020_Summer_Olympics",
+        "https://pt.wikipedia.org/wiki/%C3%8Dtalo_Ferreira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto com vara masculino nos Jogos Olímpicos de 2016",
+        "descricao": "Prova olímpica de salto com vara masculino disputada nos Jogos do Rio de Janeiro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_pole_vault"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos do Rio, em 2016, que brasileiro ganhou o ouro no salto com vara, superando o favorito francês Renaud Lavillenie?",
+      "resposta": "Thiago Braz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_pole_vault"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Haka",
+        "descricao": "Dança cerimonial de desafio de origem neozelandesa, apresentada pela seleção de rúgbi antes das partidas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haka"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A haka, dança de desafio que os All Blacks fazem antes das partidas de rúgbi, é uma tradição de qual povo?",
+      "resposta": "Maori",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haka",
+        "https://pt.wikipedia.org/wiki/Haka"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Desafio Ineos 1:59",
+        "descricao": "Evento de 2019, em Viena, em que uma maratona foi corrida em menos de duas horas, sem homologação de recorde.",
+        "variantes": [
+          "Ineos 1:59 Challenge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ineos_1:59_Challenge"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2019, em Viena, quem correu uma maratona em menos de duas horas, num evento especial sem validade oficial de recorde?",
+      "resposta": "Eliud Kipchoge",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ineos_1:59_Challenge",
+        "https://en.wikipedia.org/wiki/Eliud_Kipchoge"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Argolas masculinas nos Jogos Olímpicos de 2012",
+        "descricao": "Final olímpica de argolas da ginástica artística masculina nos Jogos de Londres.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gymnastics_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_rings"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Londres, em 2012, qual ginasta ganhou nas argolas a primeira medalha olímpica da ginástica brasileira?",
+      "resposta": "Arthur Zanetti",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gymnastics_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_rings",
+        "https://pt.wikipedia.org/wiki/Arthur_Zanetti"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Duplo twist carpado",
+        "descricao": "Movimento de solo da ginástica artística, um duplo mortal com meia pirueta e corpo carpado, associado a Daiane dos Santos.",
+        "variantes": [
+          "Dos Santos",
+          "Duplo twist carpado de Daiane"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na ginástica artística, o movimento de solo chamado duplo twist carpado também leva o sobrenome de qual ginasta brasileira?",
+      "resposta": "Daiane dos Santos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Daiane_dos_Santos",
+        "https://en.wikipedia.org/wiki/Daiane_dos_Santos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Emil Zátopek",
+        "descricao": "Fundista tcheco que venceu os 5000 metros, os 10000 metros e a maratona nos Jogos de Helsinque, em 1952.",
+        "variantes": [
+          "Emil Zatopek"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emil_Z%C3%A1topek"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Que apelido ganhou o tcheco Emil Zátopek, que venceu os cinco mil, os dez mil metros e a maratona em 1952?",
+      "resposta": "Locomotiva Humana",
+      "distratores": [
+        "Cavalo de Ferro",
+        "Trovão de Praga",
+        "Flecha Tcheca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emil_Z%C3%A1topek",
+        "https://pt.wikipedia.org/wiki/Emil_Z%C3%A1topek"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eddy Merckx",
+        "descricao": "Ciclista belga, cinco vezes campeão do Tour de France, considerado um dos maiores da história.",
+        "variantes": [
+          "Édouard Louis Joseph Merckx"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eddy_Merckx"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por sua fome insaciável de vitórias, o ciclista belga Eddy Merckx ganhou qual apelido?",
+      "resposta": "O Canibal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eddy_Merckx"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maldição do Bambino",
+        "descricao": "Superstição que explicaria o jejum de títulos do Boston Red Sox entre 1918 e 2004, após a venda de um astro aos Yankees.",
+        "variantes": [
+          "Curse of the Bambino"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Curse_of_the_Bambino"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A maldição do Bambino teria deixado o Boston Red Sox oitenta e seis anos sem título no beisebol. Bambino era o apelido de qual jogador?",
+      "resposta": "Babe Ruth",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Curse_of_the_Bambino",
+        "https://en.wikipedia.org/wiki/Babe_Ruth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "3000 metros com obstáculos",
+        "descricao": "Prova do atletismo em que os corredores saltam barreiras e um fosso com água ao longo de três mil metros.",
+        "variantes": [
+          "Steeplechase",
+          "Corrida com obstáculos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em inglês, a prova de três mil metros com obstáculos se chama steeplechase. O nome vem de antigas corridas de cavalo que usavam o quê como referência?",
+      "resposta": "Torres de igreja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steeplechase_(athletics)",
+        "https://en.wikipedia.org/wiki/Steeplechase"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto axel",
+        "descricao": "Salto da patinação artística com saída de frente e uma volta e meia no ar.",
+        "variantes": [
+          "Axel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Axel_jump"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na patinação artística, o salto axel tem saída de frente e uma volta e meia no ar. De onde vem o nome desse salto?",
+      "resposta": "Do patinador Axel Paulsen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Axel_jump",
+        "https://en.wikipedia.org/wiki/Axel_Paulsen"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Base goofy",
+        "descricao": "No surfe e no skate, a postura com o pé direito à frente na prancha.",
+        "variantes": [
+          "Goofy foot",
+          "Goofy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Glossary_of_surfing"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No surfe e no skate, a base com o pé direito à frente tem nome inspirado num personagem da Disney que surfava assim num desenho de 1937. Que personagem?",
+      "resposta": "Pateta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hawaiian_Holiday",
+        "https://en.wikipedia.org/wiki/Glossary_of_surfing"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, bronze em Atenas 2004 após ser agarrado por um invasor durante a prova.",
+        "variantes": [
+          "Vanderlei de Lima"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na maratona de Atenas, em 2004, Vanderlei Cordeiro de Lima liderava quando foi agarrado por um invasor. Que honraria especial recebeu depois, pelo espírito esportivo?",
+      "resposta": "Medalha Pierre de Coubertin",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima",
+        "https://en.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Isaquias Queiroz",
+        "descricao": "Canoísta baiano, medalhista olímpico em várias edições na canoagem de velocidade.",
+        "variantes": [
+          "Isaquias Queiroz dos Santos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Isaquias_Queiroz"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Ainda criança, o canoísta Isaquias Queiroz caiu de uma árvore. Que órgão ele perdeu por causa dessa queda?",
+      "resposta": "Um rim",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Isaquias_Queiroz",
+        "https://en.wikipedia.org/wiki/Isaquias_Queiroz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rodrigo Pessoa",
+        "descricao": "Cavaleiro brasileiro de saltos, campeão olímpico em Atenas 2004 montando Baloubet du Rouet.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rodrigo_Pessoa"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Rodrigo Pessoa ficou com o ouro do hipismo em Atenas, em 2004, porque o irlandês que venceu a prova foi desclassificado. Por qual motivo?",
+      "resposta": "Doping do cavalo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rodrigo_Pessoa",
+        "https://pt.wikipedia.org/wiki/Rodrigo_Pessoa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lars Grael",
+        "descricao": "Velejador brasileiro, duas vezes medalhista olímpico na classe Tornado.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lars_Grael"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1998, durante uma regata em Vitória, o velejador Lars Grael perdeu uma perna ao ser atingido por quê?",
+      "resposta": "Uma lancha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lars_Grael",
+        "https://en.wikipedia.org/wiki/Lars_Grael"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iditarod",
+        "descricao": "Corrida anual de trenós puxados por cães que atravessa o Alasca até a cidade de Nome.",
+        "variantes": [
+          "Iditarod Trail Sled Dog Race"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iditarod_Trail_Sled_Dog_Race"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A corrida de trenós Iditarod, no Alasca, relembra o transporte de soro feito por cães em 1925. Que doença ameaçava a cidade de Nome?",
+      "resposta": "Difteria",
+      "distratores": [
+        "Varíola",
+        "Cólera",
+        "Tuberculose"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1925_serum_run_to_Nome",
+        "https://en.wikipedia.org/wiki/Iditarod_Trail_Sled_Dog_Race"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Adhemar Ferreira da Silva",
+        "descricao": "Atleta brasileiro do salto triplo, campeão olímpico em 1952 e 1956.",
+        "variantes": [
+          "Adhemar da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva atuou em qual filme, vencedor da Palma de Ouro em 1959?",
+      "resposta": "Orfeu Negro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+        "https://en.wikipedia.org/wiki/Black_Orpheus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Duke Kahanamoku",
+        "descricao": "Havaiano considerado o pai do surfe moderno, que divulgou o esporte pelo mundo no início do século vinte.",
+        "variantes": [
+          "Duke Paoa Kahanamoku"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O havaiano Duke Kahanamoku, considerado o pai do surfe moderno, também ganhou medalhas de ouro olímpicas em qual esporte?",
+      "resposta": "Natação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe jamaicana de bobsled",
+        "descricao": "Seleção da Jamaica de bobsled, que estreou nos Jogos Olímpicos de Inverno de Calgary, em 1988.",
+        "variantes": [
+          "Jamaica national bobsleigh team"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jamaica_national_bobsleigh_team"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A estreia da Jamaica no bobsled olímpico, nos Jogos de Inverno de 1988, inspirou qual filme da Disney?",
+      "resposta": "Jamaica Abaixo de Zero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jamaica_national_bobsleigh_team",
+        "https://en.wikipedia.org/wiki/Cool_Runnings"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kelly Slater",
+        "descricao": "Surfista profissional americano, vencedor de vários títulos mundiais entre os anos noventa e dois mil.",
+        "variantes": [
+          "Robert Kelly Slater"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kelly_Slater"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No início dos anos noventa, o surfista americano Kelly Slater fez parte do elenco de qual série de TV sobre salva-vidas?",
+      "resposta": "S.O.S. Malibu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kelly_Slater"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, o maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [
+          "Michael Fred Phelps"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Phelps"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos de Pequim, em 2008, quantas medalhas de ouro o nadador americano Michael Phelps conquistou?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Phelps",
+        "https://pt.wikipedia.org/wiki/Michael_Phelps"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Old Course de St Andrews",
+        "descricao": "Campo de golfe histórico na cidade de St Andrews, na Escócia, considerado o berço do golfe.",
+        "variantes": [
+          "Old Course at St Andrews",
+          "Campo Velho de St Andrews"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Old_Course_at_St_Andrews"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1764, o Old Course de St Andrews, na Escócia, reduziu seu percurso e acabou criando o padrão do golfe. Com quantos buracos ele ficou?",
+      "resposta": "Dezoito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Old_Course_at_St_Andrews"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ginástica artística",
+        "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+        "variantes": [
+          "Ginástica olímpica"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_art%C3%ADstica"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na ginástica artística masculina, o individual geral reúne as notas de todos os aparelhos. Quantos aparelhos são?",
+      "resposta": "Seis",
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Oito"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_art%C3%ADstica",
+        "https://en.wikipedia.org/wiki/Artistic_gymnastics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ginástica rítmica",
+        "descricao": "Modalidade de ginástica com música em que as atletas se apresentam com aparelhos manuais.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na ginástica rítmica, as atletas se apresentam com aparelhos como a fita, o arco e a bola. Qual destes também é um aparelho oficial?",
+      "resposta": "Maças",
+      "distratores": [
+        "Bastão",
+        "Leque",
+        "Lenço"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica",
+        "https://en.wikipedia.org/wiki/Rhythmic_gymnastics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Biatlo",
+        "descricao": "Esporte de inverno que combina esqui cross-country com tiro ao alvo.",
+        "variantes": [
+          "Biathlon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Biathlon"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O biatlo, esporte dos Jogos de Inverno, combina o esqui cross-country com qual outra modalidade?",
+      "resposta": "Tiro com carabina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Biathlon",
+        "https://pt.wikipedia.org/wiki/Biatlo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Abebe Bikila",
+        "descricao": "Maratonista etíope, bicampeão olímpico da maratona em 1960 e 1964.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abebe_Bikila"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1960, o etíope Abebe Bikila venceu a maratona olímpica de Roma de um jeito que entrou para a história. Como ele correu?",
+      "resposta": "Descalço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abebe_Bikila",
+        "https://pt.wikipedia.org/wiki/Abebe_Bikila"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bill Bowerman",
+        "descricao": "Treinador americano de atletismo da Universidade do Oregon e cofundador da Nike.",
+        "variantes": [
+          "William Jay Bowerman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bill_Bowerman"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O treinador americano Bill Bowerman, cofundador da Nike, criou um solado de tênis de corrida usando qual aparelho da cozinha de casa?",
+      "resposta": "Máquina de waffle",
+      "distratores": [
+        "Sanduicheira",
+        "Forma de bolo",
+        "Ralador de queijo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bill_Bowerman"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vuelta a España",
+        "descricao": "Volta ciclística da Espanha, uma das três grandes voltas do ciclismo de estrada.",
+        "variantes": [
+          "Volta da Espanha",
+          "La Vuelta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre as três grandes voltas do ciclismo, as da França, da Itália e da Espanha, qual foi criada por último?",
+      "resposta": "Volta da Espanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a",
+        "https://en.wikipedia.org/wiki/Grand_Tour_(cycling)"
+      ]
+    }
+  ]
+}

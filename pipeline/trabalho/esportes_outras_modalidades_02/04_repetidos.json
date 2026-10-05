@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Desde 1975, a última etapa do Tour de France costuma terminar em qual avenida de Paris?",
+        "resposta": "Champs-Élysées"
+      },
+      "existentes": [
+        {
+          "id": "q01653",
+          "pergunta": "Em que ano foi disputada a primeira edição do Tour de France?",
+          "resposta": "1903"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1903, qual jornal esportivo francês criou o Tour de France para vender mais exemplares?",
+        "resposta": "L'Auto"
+      },
+      "existentes": [
+        {
+          "id": "q01653",
+          "pergunta": "Em que ano foi disputada a primeira edição do Tour de France?",
+          "resposta": "1903"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade do Maranhão nasceu a skatista Rayssa Leal, medalhista olímpica?",
+        "resposta": "Imperatriz"
+      },
+      "existentes": [
+        {
+          "id": "q00664",
+          "pergunta": "Aos sete anos, a skatista Rayssa Leal viralizou na internet andando de skate com que fantasia?",
+          "resposta": "De fada"
+        },
+        {
+          "id": "q01629",
+          "pergunta": "Aos sete anos, a maranhense Rayssa Leal viralizou num vídeo em que andava de skate fantasiada. Que apelido ela ganhou?",
+          "resposta": "Fadinha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nos anos sessenta, em qual praia do Rio de Janeiro surgiu o futevôlei?",
+        "resposta": "Copacabana"
+      },
+      "existentes": [
+        {
+          "id": "q01692",
+          "pergunta": "Quem é apontado como o criador do futevôlei, no Rio de Janeiro, em 1965?",
+          "resposta": "Octávio de Moraes"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Tiger Woods tinha vinte e um anos quando venceu o Masters de golfe pela primeira vez. Em que ano foi isso?",
+        "resposta": "1997"
+      },
+      "existentes": [
+        {
+          "id": "q01625",
+          "pergunta": "O golfista Eldrick Woods ganhou o apelido Tiger em homenagem a um amigo militar de seu pai. Em que guerra os dois serviram juntos?",
+          "resposta": "Guerra do Vietnã"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que ano o corredor brasileiro Joaquim Cruz ganhou a medalha de ouro olímpica nos oitocentos metros?",
+        "resposta": "1984"
+      },
+      "existentes": [
+        {
+          "id": "q04663",
+          "pergunta": "O brasileiro Joaquim Cruz conquistou o ouro olímpico nos oitocentos metros, superando o britânico Sebastian Coe. Em que edição dos Jogos?",
+          "resposta": "Los Angeles 1984"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ano Daiane dos Santos se tornou a primeira ginasta brasileira campeã mundial, na prova de solo?",
+        "resposta": "2003"
+      },
+      "existentes": [
+        {
+          "id": "q02576",
+          "pergunta": "Que ginasta brasileira é esta?",
+          "resposta": "Daiane dos Santos"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Sob o olhar do regime nazista, o americano Jesse Owens ganhou quatro medalhas de ouro nos Jogos de Berlim. Em que ano?",
+        "resposta": "1936"
+      },
+      "existentes": [
+        {
+          "id": "q00662",
+          "pergunta": "Jesse Owens se chamava James Cleveland. Como ele se apresentava quando uma professora entendeu errado e passou a chamá-lo de Jesse?",
+          "resposta": "J.C., suas iniciais"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1967, o campeão da NFL enfrentou o campeão da liga rival, no jogo hoje lembrado como o primeiro Super Bowl. Que time venceu?",
+        "resposta": "Green Bay Packers"
+      },
+      "existentes": [
+        {
+          "id": "q01624",
+          "pergunta": "Os filhos do dirigente Lamar Hunt brincavam com uma bolinha saltitante de borracha. Que final esportiva americana ganhou o nome inspirado nesse brinquedo?",
+          "resposta": "Super Bowl"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Nos Jogos do México, em 1968, que americano ganhou o ouro do salto em altura pulando de costas para o sarrafo?",
+        "resposta": "Dick Fosbury"
+      },
+      "existentes": [
+        {
+          "id": "q00661",
+          "pergunta": "No salto em altura, a técnica de passar de costas sobre o sarrafo leva o nome de qual campeão olímpico americano de 1968?",
+          "resposta": "Dick Fosbury"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A haka, dança de desafio que os All Blacks fazem antes das partidas de rúgbi, é uma tradição de qual povo?",
+        "resposta": "Maori"
+      },
+      "existentes": [
+        {
+          "id": "q00824",
+          "pergunta": "Que seleção esportiva da Nova Zelândia ficou mundialmente famosa por executar a haka, dança maori, antes das partidas?",
+          "resposta": "All Blacks"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na ginástica artística, o movimento de solo chamado duplo twist carpado também leva o sobrenome de qual ginasta brasileira?",
+        "resposta": "Daiane dos Santos"
+      },
+      "existentes": [
+        {
+          "id": "q00665",
+          "pergunta": "No código de pontuação da ginástica, o duplo twist carpado leva o sobrenome de qual ginasta brasileira?",
+          "resposta": "Daiane dos Santos"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que apelido ganhou o tcheco Emil Zátopek, que venceu os cinco mil, os dez mil metros e a maratona em 1952?",
+        "resposta": "Locomotiva Humana"
+      },
+      "existentes": [
+        {
+          "id": "q00663",
+          "pergunta": "Campeão dos cinco mil, dos dez mil metros e da maratona em Helsinque 1952, Emil Zátopek ganhou que apelido?",
+          "resposta": "Locomotiva Tcheca"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na maratona de Atenas, em 2004, Vanderlei Cordeiro de Lima liderava quando foi agarrado por um invasor. Que honraria especial recebeu depois, pelo espírito esportivo?",
+        "resposta": "Medalha Pierre de Coubertin"
+      },
+      "existentes": [
+        {
+          "id": "q04676",
+          "pergunta": "Atacado por um espectador quando liderava a maratona de Atenas 2004, Vanderlei Cordeiro de Lima terminou em terceiro e recebeu depois que homenagem especial?",
+          "resposta": "Medalha Pierre de Coubertin"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Ainda criança, o canoísta Isaquias Queiroz caiu de uma árvore. Que órgão ele perdeu por causa dessa queda?",
+        "resposta": "Um rim"
+      },
+      "existentes": [
+        {
+          "id": "q04491",
+          "pergunta": "Que atleta brasileiro é este?",
+          "resposta": "Isaquias Queiroz"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva atuou em qual filme, vencedor da Palma de Ouro em 1959?",
+        "resposta": "Orfeu Negro"
+      },
+      "existentes": [
+        {
+          "id": "q00681",
+          "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva também atuou num filme vencedor da Palma de Ouro e do Oscar. Qual?",
+          "resposta": "Orfeu Negro"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O havaiano Duke Kahanamoku, considerado o pai do surfe moderno, também ganhou medalhas de ouro olímpicas em qual esporte?",
+        "resposta": "Natação"
+      },
+      "existentes": [
+        {
+          "id": "q00688",
+          "pergunta": "O havaiano Duke Kahanamoku, campeão olímpico de natação em 1912, ficou mundialmente famoso por difundir que outro esporte?",
+          "resposta": "Surfe"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A estreia da Jamaica no bobsled olímpico, nos Jogos de Inverno de 1988, inspirou qual filme da Disney?",
+        "resposta": "Jamaica Abaixo de Zero"
+      },
+      "existentes": [
+        {
+          "id": "q00683",
+          "pergunta": "A estreia da Jamaica no bobsled, nos Jogos de Inverno de Calgary 1988, inspirou que filme da Disney?",
+          "resposta": "Jamaica Abaixo de Zero"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Nos Jogos de Pequim, em 2008, quantas medalhas de ouro o nadador americano Michael Phelps conquistou?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q02570",
+          "pergunta": "Quantas medalhas olímpicas, no total, este atleta americano conquistou na carreira?",
+          "resposta": "28"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em 1960, o etíope Abebe Bikila venceu a maratona olímpica de Roma de um jeito que entrou para a história. Como ele correu?",
+        "resposta": "Descalço"
+      },
+      "existentes": [
+        {
+          "id": "q00703",
+          "pergunta": "Na maratona de Roma 1960, o etíope Abebe Bikila conquistou o ouro de um jeito que ficou para a história. Como ele correu?",
+          "resposta": "Descalço"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Avenida final vs ano da primeira edição."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Jornal criador é fato diferente do ano; a resposta 1903 está só no enunciado, mas o fato perguntado difere."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade natal é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Praia de origem vs criador."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ano do Masters vs origem do apelido."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam os Jogos/ano do ouro de Joaquim Cruz (1984, Los Angeles)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ano do título mundial vs identificação da ginasta."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ano dos Jogos vs origem do apelido."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Vencedor do primeiro Super Bowl vs origem do nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Dick Fosbury e a técnica de costas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Povo da haka vs seleção que a executa."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: duplo twist carpado e Daiane dos Santos."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: apelido de Zátopek."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesma homenagem a Vanderlei: Medalha Pierre de Coubertin."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Órgão perdido vs identificação do atleta."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Mesmo filme: Orfeu Negro."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Ligação de Duke entre natação e surfe; uma responde a outra."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesmo filme da Disney inspirado pela Jamaica no bobsled."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Ouros em Pequim vs total de medalhas na carreira."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Bikila correu descalço."
+    }
+  ]
+}
