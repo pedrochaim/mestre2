@@ -1,0 +1,224 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+        "resposta": "Andes"
+      },
+      "existentes": [
+        {
+          "id": "q02693",
+          "pergunta": "A batata, nativa dos Andes, foi levada para a Europa pelos espanhóis em que século?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Embora sejam conhecidos no Brasil pelo nome japonês, os hashis, palitinhos usados para comer, surgiram em qual país?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q00813",
+          "pergunta": "No Japão, espetar os hashis em pé numa tigela de arroz é uma falta grave de etiqueta. Esse gesto lembra o quê?",
+          "resposta": "Oferenda aos mortos em funerais"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Apesar do nome, a Oktoberfest de Munique, a famosa festa da cerveja, começa tradicionalmente em qual mês?",
+        "resposta": "Setembro"
+      },
+      "existentes": [
+        {
+          "id": "q00811",
+          "pergunta": "A primeira Oktoberfest, em Munique, aconteceu em 1810 para celebrar qual acontecimento na família real da Baviera?",
+          "resposta": "O casamento do príncipe Luís"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A Oktoberfest de Munique surgiu em 1810, com corridas de cavalos e festejos populares, para comemorar qual acontecimento?",
+        "resposta": "O casamento do príncipe Luís da Baviera"
+      },
+      "existentes": [
+        {
+          "id": "q00811",
+          "pergunta": "A primeira Oktoberfest, em Munique, aconteceu em 1810 para celebrar qual acontecimento na família real da Baviera?",
+          "resposta": "O casamento do príncipe Luís"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por volta de 1938, numa pousada de Massachusetts, que cozinheira americana criou o cookie com gotas de chocolate?",
+        "resposta": "Ruth Wakefield"
+      },
+      "existentes": [
+        {
+          "id": "q03812",
+          "pergunta": "Nos anos trinta, qual cozinheira e dona de uma pousada em Massachusetts criou o cookie com gotas de chocolate?",
+          "resposta": "Ruth Wakefield"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Antes do século dezenove, os pastéis de nata eram feitos por religiosos de qual mosteiro do bairro de Belém, em Lisboa?",
+        "resposta": "Mosteiro dos Jerónimos"
+      },
+      "existentes": [
+        {
+          "id": "q00967",
+          "pergunta": "Que doce português, uma tortinha de massa folhada com creme de ovos, é este?",
+          "resposta": "Pastel de nata"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome científico do cacaueiro, Theobroma, vem do grego. O que ele significa?",
+        "resposta": "Alimento dos deuses"
+      },
+      "existentes": [
+        {
+          "id": "q02659",
+          "pergunta": "Theobroma, o nome científico do cacau, significa em grego alimento de quem?",
+          "resposta": "Dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Levado das Américas para a Europa, o tomate foi por muito tempo cultivado apenas como planta ornamental. Por que muitos europeus evitavam comê-lo?",
+        "resposta": "Achavam que era venenoso"
+      },
+      "existentes": [
+        {
+          "id": "q01853",
+          "pergunta": "Que fruta é esta, ainda presa ao pé?",
+          "resposta": "Tomate"
+        },
+        {
+          "id": "q06058",
+          "pergunta": "Na Itália, o tomate é chamado de pomodoro. O que essa palavra significa literalmente?",
+          "resposta": "Maçã de ouro"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na forma mais antiga do sushi, o arroz era jogado fora antes de comer o peixe. Para que ele servia?",
+        "resposta": "Para fermentar e conservar o peixe"
+      },
+      "existentes": [
+        {
+          "id": "q00972",
+          "pergunta": "Que prato japonês, de arroz com vinagre e peixe, é este?",
+          "resposta": "Sushi"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Apesar de ser vendido junto com as castanhas, o que o amendoim tem em comum com o feijão e a ervilha?",
+        "resposta": "São leguminosas"
+      },
+      "existentes": [
+        {
+          "id": "q02685",
+          "pergunta": "Depois que a flor é polinizada, onde se formam as vagens do amendoim?",
+          "resposta": "Debaixo da terra"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No morango, os pontinhos que costumamos chamar de sementes são, para a botânica, o quê?",
+        "resposta": "Os verdadeiros frutos"
+      },
+      "existentes": [
+        {
+          "id": "q02688",
+          "pergunta": "Botanicamente, o que são os pontinhos na superfície do morango que parecem sementes?",
+          "resposta": "Os frutos verdadeiros, chamados aquênios"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a cordilheira de domesticação, não o século da chegada à Europa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Origem dos hashis é diferente da etiqueta japonesa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mês de início é fato distinto do motivo da primeira edição."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o casamento do príncipe Luís motivou a primeira Oktoberfest.",
+      "id_existente": "q00811"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: Ruth Wakefield criou o cookie com gotas de chocolate.",
+      "id_existente": "q03812"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mosteiro de origem é fato diferente de identificar o doce."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo significado de Theobroma: alimento dos deuses.",
+      "id_existente": "q02659"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Motivo de evitarem o tomate difere de imagem e do significado de pomodoro."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Função do arroz na forma antiga é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Classificação como leguminosa difere de onde se formam as vagens."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o que são botanicamente os pontinhos do morango.",
+      "id_existente": "q02688"
+    }
+  ]
+}

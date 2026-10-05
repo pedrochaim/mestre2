@@ -11666,7 +11666,8 @@
     "nome": "Oktoberfest",
     "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
     "variantes": [
-      "Wiesn"
+      "Wiesn",
+      "Festa de Outubro"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Oktoberfest"
@@ -11702,7 +11703,8 @@
     "variantes": [
       "Chopsticks",
       "Pauzinhos",
-      "Palitinhos"
+      "Palitinhos",
+      "Kuaizi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chopsticks"
@@ -40999,7 +41001,8 @@
     "variantes": [
       "Fragaria",
       "morangueiro",
-      "strawberry"
+      "strawberry",
+      "Fragaria × ananassa"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Strawberry"
@@ -57087,7 +57090,8 @@
     "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
     "variantes": [
       "Chocolate chip cookie",
-      "Toll House cookie"
+      "Toll House cookie",
+      "Cookie"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chocolate_chip_cookie"
@@ -88463,6 +88467,442 @@
     "fontes": [
       "https://pt.wikipedia.org/wiki/Carnaúba",
       "https://en.wikipedia.org/wiki/Copernicia_prunifera"
+    ]
+  },
+  {
+    "id": "estrogonofe",
+    "nome": "Estrogonofe",
+    "descricao": "Prato de tiras de carne refogadas em molho cremoso, de origem russa, muito popular no Brasil.",
+    "variantes": [
+      "Strogonoff",
+      "Stroganoff",
+      "Beef Stroganoff"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beef_Stroganoff"
+    ]
+  },
+  {
+    "id": "carpaccio",
+    "nome": "Carpaccio",
+    "descricao": "Prato de fatias finíssimas de carne crua temperada, criado no Harry's Bar em 1950.",
+    "variantes": [
+      "Carpaccio de carne"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carpaccio"
+    ]
+  },
+  {
+    "id": "pina_colada",
+    "nome": "Piña colada",
+    "descricao": "Coquetel caribenho de rum, creme de coco e suco de abacaxi.",
+    "variantes": [
+      "Pinha colada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada"
+    ]
+  },
+  {
+    "id": "moca_iemen",
+    "nome": "Moca (Iêmen)",
+    "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+    "variantes": [
+      "Mocha",
+      "Mokha",
+      "Al-Makha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mocha,_Yemen"
+    ]
+  },
+  {
+    "id": "moqueca_capixaba",
+    "nome": "Moqueca capixaba",
+    "descricao": "Versão da moqueca de peixe feita sem dendê nem leite de coco, preparada em panela de barro preta.",
+    "variantes": [
+      "Moqueca do Espírito Santo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Moqueca",
+      "https://en.wikipedia.org/wiki/Moqueca"
+    ]
+  },
+  {
+    "id": "panetone",
+    "nome": "Panetone",
+    "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+    "variantes": [
+      "Panettone"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Panetone",
+      "https://en.wikipedia.org/wiki/Panettone"
+    ]
+  },
+  {
+    "id": "salada_waldorf",
+    "nome": "Salada Waldorf",
+    "descricao": "Salada de maçã, aipo, nozes e maionese criada no Waldorf Hotel no fim do século dezenove.",
+    "variantes": [
+      "Waldorf salad"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waldorf_salad"
+    ]
+  },
+  {
+    "id": "galette_des_rois",
+    "nome": "Galette des rois",
+    "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+    "variantes": [
+      "Bolo-rei francês",
+      "Torta dos reis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/King_cake"
+    ]
+  },
+  {
+    "id": "dia_da_panqueca",
+    "nome": "Dia da Panqueca",
+    "descricao": "Costume britânico de comer panquecas no dia anterior à Quarta-feira de Cinzas.",
+    "variantes": [
+      "Pancake Day",
+      "Shrove Tuesday",
+      "Terça-feira gorda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shrove_Tuesday"
+    ]
+  },
+  {
+    "id": "bacalhau",
+    "nome": "Bacalhau",
+    "descricao": "Peixe seco e salgado, base de muitos pratos da culinária portuguesa e brasileira.",
+    "variantes": [
+      "Bacalhau salgado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bacalhau"
+    ]
+  },
+  {
+    "id": "beaujolais_nouveau",
+    "nome": "Beaujolais Nouveau",
+    "descricao": "Vinho tinto jovem da região francesa de Beaujolais, feito com a uva gamay e lançado poucas semanas após a colheita.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beaujolais_nouveau"
+    ]
+  },
+  {
+    "id": "lei_seca_dos_estados_unidos",
+    "nome": "Lei Seca dos Estados Unidos",
+    "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933.",
+    "variantes": [
+      "Prohibition",
+      "Proibição"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States"
+    ]
+  },
+  {
+    "id": "rabanada",
+    "nome": "Rabanada",
+    "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+    "variantes": [
+      "Fatia dourada",
+      "Torrada francesa",
+      "French toast"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rabanada"
+    ]
+  },
+  {
+    "id": "chocolate",
+    "nome": "Chocolate",
+    "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+    "variantes": [
+      "Xocolatl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/History_of_chocolate"
+    ]
+  },
+  {
+    "id": "cafe",
+    "nome": "Café",
+    "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+    "variantes": [
+      "Cafezinho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coffee",
+      "https://en.wikipedia.org/wiki/Kaldi"
+    ]
+  },
+  {
+    "id": "leite_condensado",
+    "nome": "Leite condensado",
+    "descricao": "Leite de vaca do qual se retira parte da água e ao qual se adiciona açúcar, base de muitos doces brasileiros.",
+    "variantes": [
+      "Leite condensado açucarado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Condensed_milk"
+    ]
+  },
+  {
+    "id": "apertizacao",
+    "nome": "Apertização",
+    "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+    "variantes": [
+      "Conserva",
+      "Enlatamento",
+      "Canning"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Canning",
+      "https://en.wikipedia.org/wiki/Nicolas_Appert"
+    ]
+  },
+  {
+    "id": "cha_da_tarde",
+    "nome": "Chá da tarde",
+    "descricao": "Refeição leve britânica do fim da tarde, com chá, sanduíches e bolos, surgida no século dezenove.",
+    "variantes": [
+      "Afternoon tea",
+      "Chá das cinco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tea_(meal)"
+    ]
+  },
+  {
+    "id": "vinho_do_porto",
+    "nome": "Vinho do Porto",
+    "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+    "variantes": [
+      "Porto",
+      "Port wine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Port_wine"
+    ]
+  },
+  {
+    "id": "cha",
+    "nome": "Chá",
+    "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+    "variantes": [
+      "Chá preto",
+      "Chá verde"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tea",
+      "https://en.wikipedia.org/wiki/History_of_tea"
+    ]
+  },
+  {
+    "id": "pao_fatiado",
+    "nome": "Pão fatiado",
+    "descricao": "Pão de forma vendido já cortado em fatias por máquina, popularizado nos Estados Unidos a partir de 1928.",
+    "variantes": [
+      "Pão de forma fatiado",
+      "Sliced bread"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sliced_bread"
+    ]
+  },
+  {
+    "id": "picole",
+    "nome": "Picolé",
+    "descricao": "Sorvete ou refresco congelado preso a um palito.",
+    "variantes": [
+      "Ice pop",
+      "Popsicle",
+      "Geladinho de palito"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ice_pop"
+    ]
+  },
+  {
+    "id": "pessego",
+    "nome": "Pêssego",
+    "descricao": "Fruto aveludado do pessegueiro, Prunus persica, originário da China.",
+    "variantes": [
+      "Prunus persica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Peach",
+      "https://pt.wikipedia.org/wiki/P%C3%AAssego"
+    ]
+  },
+  {
+    "id": "pavlova",
+    "nome": "Pavlova",
+    "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com creme e frutas.",
+    "variantes": [
+      "Pavlova (sobremesa)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pavlova_(dessert)"
+    ]
+  },
+  {
+    "id": "hamburguer",
+    "nome": "Hambúrguer",
+    "descricao": "Sanduíche de carne moída prensada e grelhada servida num pão redondo.",
+    "variantes": [
+      "Hamburger",
+      "Burger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hamburger"
+    ]
+  },
+  {
+    "id": "goulash",
+    "nome": "Goulash",
+    "descricao": "Ensopado húngaro de carne temperado com páprica.",
+    "variantes": [
+      "Gulash",
+      "Gulyás",
+      "Gulache"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Goulash"
+    ]
+  },
+  {
+    "id": "ketchup",
+    "nome": "Ketchup",
+    "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas.",
+    "variantes": [
+      "Catchup",
+      "Catsup"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ketchup"
+    ]
+  },
+  {
+    "id": "kasutera",
+    "nome": "Kasutera",
+    "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses.",
+    "variantes": [
+      "Castella"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Castella"
+    ]
+  },
+  {
+    "id": "curau",
+    "nome": "Curau",
+    "descricao": "Creme doce de milho verde ralado cozido com leite e açúcar, típico das festas juninas.",
+    "variantes": [
+      "Canjica (no Nordeste)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Curau"
+    ]
+  },
+  {
+    "id": "docaria_conventual_portuguesa",
+    "nome": "Doçaria conventual portuguesa",
+    "descricao": "Conjunto de doces portugueses ricos em gemas de ovo e açúcar, criados em conventos e mosteiros.",
+    "variantes": [
+      "Doces conventuais"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pastel_de_nata",
+      "https://en.wikipedia.org/wiki/Portuguese_cuisine"
+    ]
+  },
+  {
+    "id": "saque",
+    "nome": "Saquê",
+    "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+    "variantes": [
+      "Sake",
+      "Nihonshu"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sake"
+    ]
+  },
+  {
+    "id": "cha_earl_grey",
+    "nome": "Chá Earl Grey",
+    "descricao": "Mistura de chá preto aromatizada com óleo de bergamota, batizada em homenagem ao conde Grey.",
+    "variantes": [
+      "Earl Grey"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Earl_Grey_tea"
+    ]
+  },
+  {
+    "id": "iftar",
+    "nome": "Iftar",
+    "descricao": "Refeição que quebra o jejum diário do Ramadã, ao pôr do sol.",
+    "variantes": [
+      "Fitoor"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Iftar"
+    ]
+  },
+  {
+    "id": "couve_flor",
+    "nome": "Couve-flor",
+    "descricao": "Hortaliça de inflorescência branca e compacta, variedade da espécie Brassica oleracea.",
+    "variantes": [
+      "Brassica oleracea var. botrytis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cauliflower"
+    ]
+  },
+  {
+    "id": "rum",
+    "nome": "Rum",
+    "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+    "variantes": [
+      "Ron"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rum"
+    ]
+  },
+  {
+    "id": "tarte_tatin",
+    "nome": "Tarte Tatin",
+    "descricao": "Torta francesa de maçãs caramelizadas na manteiga e no açúcar, popularizada no Hotel Tatin.",
+    "variantes": [
+      "Torta Tatin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tarte_Tatin"
+    ]
+  },
+  {
+    "id": "canela",
+    "nome": "Canela",
+    "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+    "variantes": [
+      "Canela-do-ceilão",
+      "Cinnamomum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cinnamon",
+      "https://pt.wikipedia.org/wiki/Canela_(especiaria)"
     ]
   }
 ]

@@ -1,0 +1,2633 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estrogonofe",
+        "descricao": "Prato de tiras de carne refogadas em molho cremoso, de origem russa, muito popular no Brasil.",
+        "variantes": [
+          "Strogonoff",
+          "Stroganoff",
+          "Beef Stroganoff"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "metronomo",
+          "nome": "Metrônomo",
+          "descricao": "Aparelho que marca o andamento da música com cliques regulares, aqui o modelo mecânico de pêndulo em pirâmide.",
+          "variantes": [
+            "Metronome"
+          ]
+        },
+        {
+          "id": "pesto",
+          "nome": "Pesto",
+          "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+          "variantes": [
+            "Pesto genovês",
+            "Pesto alla genovese"
+          ]
+        },
+        {
+          "id": "estroncio",
+          "nome": "Estrôncio",
+          "descricao": "Elemento químico de número atômico 38, metal alcalino-terroso cujos sais dão a cor vermelha aos fogos de artifício.",
+          "variantes": [
+            "Sr"
+          ]
+        },
+        {
+          "id": "trovao",
+          "nome": "Trovão",
+          "descricao": "Som produzido por um raio durante uma tempestade.",
+          "variantes": [
+            "Thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carpaccio",
+        "descricao": "Prato de fatias finíssimas de carne crua temperada, criado no Harry's Bar em 1950.",
+        "variantes": [
+          "Carpaccio de carne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cappuccino",
+          "nome": "Cappuccino",
+          "descricao": "Bebida italiana de café espresso com leite vaporizado e espuma de leite",
+          "variantes": [
+            "Capuccino",
+            "Capuchino"
+          ]
+        },
+        {
+          "id": "caracol_de_jardim",
+          "nome": "Caracol-de-jardim",
+          "descricao": "Caracol terrestre europeu (Cornu aspersum), comum em jardins e usado como escargot.",
+          "variantes": [
+            "Cornu aspersum",
+            "Helix aspersa",
+            "caracol-comum"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "capadocia",
+          "nome": "Capadócia",
+          "descricao": "Região histórica no centro da Turquia, famosa pelas chaminés de fada e pelas cidades subterrâneas.",
+          "variantes": [
+            "Cappadocia",
+            "Kapadokya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Piña colada",
+        "descricao": "Coquetel caribenho de rum, creme de coco e suco de abacaxi.",
+        "variantes": [
+          "Pinha colada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilha_voltaica",
+          "nome": "Pilha voltaica",
+          "descricao": "Primeira bateria elétrica, feita de discos de metal empilhados e separados por tecido embebido em salmoura, apresentada em 1800.",
+          "variantes": [
+            "Pilha de Volta",
+            "Voltaic pile"
+          ]
+        },
+        {
+          "id": "sinterklaas",
+          "nome": "Sinterklaas",
+          "descricao": "Figura holandesa e belga inspirada em São Nicolau, que traz presentes às crianças no início de dezembro.",
+          "variantes": [
+            "Sint Nicolaas"
+          ]
+        },
+        {
+          "id": "hiena_malhada",
+          "nome": "Hiena-malhada",
+          "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+          "variantes": [
+            "Crocuta crocuta",
+            "Hiena-pintada",
+            "Hiena-risonha",
+            "Spotted hyena"
+          ]
+        },
+        {
+          "id": "piton_reticulada",
+          "nome": "Píton-reticulada",
+          "descricao": "Píton Malayopython reticulatus, do sul e sudeste da Ásia, a cobra mais longa do mundo.",
+          "variantes": [
+            "Píton-reticulado",
+            "Jiboia-reticulada",
+            "Malayopython reticulatus"
+          ]
+        },
+        {
+          "id": "chapolin_colorado",
+          "nome": "Chapolin Colorado",
+          "descricao": "Seriado humorístico mexicano de 1973 sobre um atrapalhado super-herói vestido de vermelho.",
+          "variantes": [
+            "El Chapulín Colorado",
+            "Chapolin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Moca (Iêmen)",
+        "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+        "variantes": [
+          "Mocha",
+          "Mokha",
+          "Al-Makha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mochila",
+          "nome": "Mochila",
+          "descricao": "Saco de tecido carregado nas costas por duas alças, aqui uma mochila grande de trilha.",
+          "variantes": [
+            "Mochila de trilha",
+            "Backpack"
+          ]
+        },
+        {
+          "id": "teatro_de_arte_de_moscou",
+          "nome": "Teatro de Arte de Moscou",
+          "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko.",
+          "variantes": [
+            "Moscow Art Theatre",
+            "MKhAT"
+          ]
+        },
+        {
+          "id": "mosca_domestica",
+          "nome": "Mosca-doméstica",
+          "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+          "variantes": [
+            "Musca domestica",
+            "Mosca"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Moqueca capixaba",
+        "descricao": "Versão da moqueca de peixe feita sem dendê nem leite de coco, preparada em panela de barro preta.",
+        "variantes": [
+          "Moqueca do Espírito Santo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_espirito_santo",
+          "nome": "Bandeira do Espírito Santo",
+          "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro.",
+          "variantes": [
+            "Bandeira capixaba"
+          ]
+        },
+        {
+          "id": "festa_do_divino",
+          "nome": "Festa do Divino",
+          "descricao": "Festa católica popular em honra do Espírito Santo, trazida de Portugal, com coroação de imperador e folias.",
+          "variantes": [
+            "Festa do Divino Espírito Santo"
+          ]
+        },
+        {
+          "id": "vitoria",
+          "nome": "Vitória",
+          "descricao": "Capital do estado do Espírito Santo, situada principalmente numa ilha.",
+          "variantes": [
+            "Vitória (Espírito Santo)"
+          ]
+        },
+        {
+          "id": "espirito_santo",
+          "nome": "Espírito Santo",
+          "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+          "variantes": []
+        },
+        {
+          "id": "o_livro_dos_espiritos",
+          "nome": "O Livro dos Espíritos",
+          "descricao": "Obra publicada em Paris em 1857, base da doutrina espírita",
+          "variantes": [
+            "The Spirits' Book",
+            "Le Livre des Esprits"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Panetone",
+        "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+        "variantes": [
+          "Panettone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        },
+        {
+          "id": "antigona_sofocles",
+          "nome": "Antígona (Sófocles)",
+          "descricao": "Tragédia de Sófocles sobre a filha de Édipo que desafia o rei Creonte.",
+          "variantes": [
+            "Antigone"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Batata",
+        "descricao": "Tubérculo comestível da planta Solanum tuberosum, domesticado na América do Sul.",
+        "variantes": [
+          "Batata-inglesa",
+          "Solanum tuberosum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "jacarta",
+          "nome": "Jacarta",
+          "descricao": "Maior cidade da Indonésia, na costa noroeste da ilha de Java.",
+          "variantes": [
+            "Jakarta",
+            "Djakarta",
+            "Batávia"
+          ]
+        },
+        {
+          "id": "rattata",
+          "nome": "Rattata",
+          "descricao": "Pokémon rato do tipo Normal da primeira geração, número 19 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Salada Waldorf",
+        "descricao": "Salada de maçã, aipo, nozes e maionese criada no Waldorf Hotel no fim do século dezenove.",
+        "variantes": [
+          "Waldorf salad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        },
+        {
+          "id": "mar_morto",
+          "nome": "Mar Morto",
+          "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+          "variantes": [
+            "Dead Sea",
+            "Mar Salgado"
+          ]
+        },
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        },
+        {
+          "id": "batalha_de_stalingrado",
+          "nome": "Batalha de Stalingrado",
+          "descricao": "Batalha travada entre 1942 e 1943 na cidade soviética de Stalingrado, que terminou com a rendição do Sexto Exército alemão.",
+          "variantes": [
+            "Battle of Stalingrad"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hashi",
+        "descricao": "Par de palitos usados como talher em países do Leste Asiático.",
+        "variantes": [
+          "Pauzinhos",
+          "Palitinhos",
+          "Chopsticks",
+          "Kuaizi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "ordem_dos_assassinos",
+          "nome": "Ordem dos Assassinos",
+          "descricao": "Seita ismaelita nizarita que atuou na Pérsia e na Síria entre os séculos onze e treze, famosa por assassinatos políticos.",
+          "variantes": [
+            "Hashashin",
+            "Nizaritas",
+            "Assassinos",
+            "Order of Assassins"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Galette des rois",
+        "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+        "variantes": [
+          "Bolo-rei francês",
+          "Torta dos reis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vale_dos_reis",
+          "nome": "Vale dos Reis",
+          "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+          "variantes": [
+            "Valley of the Kings"
+          ]
+        },
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate"
+          ]
+        },
+        {
+          "id": "galo_gaules",
+          "nome": "Galo gaulês",
+          "descricao": "Galo usado como símbolo nacional da França.",
+          "variantes": [
+            "Coq gaulois",
+            "Galo francês"
+          ]
+        },
+        {
+          "id": "forte_dos_reis_magos",
+          "nome": "Forte dos Reis Magos",
+          "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Fortaleza dos Reis Magos"
+          ]
+        },
+        {
+          "id": "ponta_do_seixas",
+          "nome": "Ponta do Seixas",
+          "descricao": "Cabo no litoral de João Pessoa, na Paraíba, ponto mais oriental das Américas continentais.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Dia da Panqueca",
+        "descricao": "Costume britânico de comer panquecas no dia anterior à Quarta-feira de Cinzas.",
+        "variantes": [
+          "Pancake Day",
+          "Shrove Tuesday",
+          "Terça-feira gorda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mardi_gras",
+          "nome": "Mardi Gras",
+          "descricao": "Carnaval celebrado em Nova Orleans e em outras cidades de tradição francesa, na terça-feira antes da Quarta-Feira de Cinzas.",
+          "variantes": [
+            "Terça-feira gorda",
+            "Fat Tuesday"
+          ]
+        },
+        {
+          "id": "terca_feira_13",
+          "nome": "Terça-feira 13",
+          "descricao": "Data considerada de azar nos países de língua espanhola e na Grécia.",
+          "variantes": [
+            "Martes trece",
+            "Tuesday the 13th"
+          ]
+        },
+        {
+          "id": "dia_da_bandeira",
+          "nome": "Dia da Bandeira",
+          "descricao": "Data comemorativa brasileira dedicada à bandeira nacional, celebrada em 19 de novembro.",
+          "variantes": [
+            "Dia da Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        },
+        {
+          "id": "dias_da_semana",
+          "nome": "Dias da semana",
+          "descricao": "Os nomes dos sete dias da semana, que em várias línguas homenageiam os astros visíveis a olho nu.",
+          "variantes": [
+            "Nomes dos dias da semana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Bacalhau",
+        "descricao": "Peixe seco e salgado, base de muitos pratos da culinária portuguesa e brasileira.",
+        "variantes": [
+          "Bacalhau salgado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batalha_de_stalingrado",
+          "nome": "Batalha de Stalingrado",
+          "descricao": "Batalha travada entre 1942 e 1943 na cidade soviética de Stalingrado, que terminou com a rendição do Sexto Exército alemão.",
+          "variantes": [
+            "Battle of Stalingrad"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "baklava",
+          "nome": "Baklava",
+          "descricao": "Doce de massa filo em camadas, recheado com nozes ou pistache e adoçado com calda ou mel.",
+          "variantes": [
+            "Baclava"
+          ]
+        },
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        },
+        {
+          "id": "mar_morto",
+          "nome": "Mar Morto",
+          "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+          "variantes": [
+            "Dead Sea",
+            "Mar Salgado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Oktoberfest",
+        "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja, criada em 1810.",
+        "variantes": [
+          "Wiesn",
+          "Festa de Outubro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oktoberfest",
+          "nome": "Oktoberfest",
+          "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+          "variantes": [
+            "Wiesn"
+          ]
+        },
+        {
+          "id": "wilson",
+          "nome": "Wilson",
+          "descricao": "Bola de vôlei que se torna companheira do personagem de Tom Hanks no filme Náufrago, de 2000.",
+          "variantes": [
+            "Wilson the Volleyball",
+            "Wilson de Náufrago"
+          ]
+        },
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "festival_de_woodstock",
+          "nome": "Festival de Woodstock",
+          "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
+          "variantes": [
+            "Woodstock"
+          ]
+        },
+        {
+          "id": "sao_jorge_no_rio_de_janeiro",
+          "nome": "São Jorge no Rio de Janeiro",
+          "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+          "variantes": [
+            "Festa de São Jorge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Lei Seca dos Estados Unidos",
+        "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933.",
+        "variantes": [
+          "Prohibition",
+          "Proibição"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_dos_estados_unidos",
+          "nome": "Bandeira dos Estados Unidos",
+          "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+          "variantes": [
+            "Stars and Stripes",
+            "Old Glory"
+          ]
+        },
+        {
+          "id": "grande_selo_dos_estados_unidos",
+          "nome": "Grande Selo dos Estados Unidos",
+          "descricao": "Selo oficial do governo americano, com a águia-de-cabeça-branca na frente e uma pirâmide inacabada no verso.",
+          "variantes": [
+            "Great Seal of the United States"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "constituicao_dos_estados_unidos",
+          "nome": "Constituição dos Estados Unidos",
+          "descricao": "Lei suprema dos Estados Unidos, redigida na Convenção de Filadélfia em 1787 e em vigor desde 1789.",
+          "variantes": [
+            "Constituição americana",
+            "Constitution of the United States"
+          ]
+        },
+        {
+          "id": "rio_rubicao",
+          "nome": "Rio Rubicão",
+          "descricao": "Pequeno rio do norte da Itália que marcava o limite da Itália romana e foi cruzado por Júlio César em 49 antes de Cristo.",
+          "variantes": [
+            "Rubicão",
+            "Rubicon",
+            "Rubicone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Rabanada",
+        "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+        "variantes": [
+          "Fatia dourada",
+          "Torrada francesa",
+          "French toast"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "trench_coat",
+          "nome": "Trench coat",
+          "descricao": "Casaco impermeável longo, com abotoamento duplo e cinto, de origem militar britânica",
+          "variantes": [
+            "Gabardine (casaco)",
+            "Capa de chuva trench"
+          ]
+        },
+        {
+          "id": "rafael_nadal",
+          "nome": "Rafael Nadal",
+          "descricao": "Tenista espanhol nascido em 1986, aposentado em 2024, campeão de 22 Grand Slams.",
+          "variantes": [
+            "Rafa Nadal"
+          ]
+        },
+        {
+          "id": "retrato_de_adele_bloch_bauer_i",
+          "nome": "Retrato de Adele Bloch-Bauer I",
+          "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+          "variantes": [
+            "Portrait of Adele Bloch-Bauer I",
+            "A Dama Dourada"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Chocolate",
+        "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+        "variantes": [
+          "Xocolatl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chocolate_asteca",
+          "nome": "Chocolate asteca",
+          "descricao": "Bebida amarga de cacau consumida pelos astecas, chamada xocolatl, antecessora do chocolate moderno.",
+          "variantes": [
+            "Xocolatl"
+          ]
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "brownie",
+          "nome": "Brownie",
+          "descricao": "Doce de chocolate assado em barra, criado nos Estados Unidos no fim do século dezenove.",
+          "variantes": [
+            "Chocolate brownie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Café",
+        "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+        "variantes": [
+          "Cafezinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica",
+            "Café"
+          ]
+        },
+        {
+          "id": "cafune",
+          "nome": "Cafuné",
+          "descricao": "Carinho feito com os dedos na cabeça de alguém, palavra de origem africana",
+          "variantes": []
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "cafu",
+          "nome": "Cafu",
+          "descricao": "Marcos Evangelista de Morais, lateral-direito brasileiro, capitão da seleção campeã mundial em 2002.",
+          "variantes": [
+            "Marcos Evangelista de Morais"
+          ]
+        },
+        {
+          "id": "cafeina",
+          "nome": "Cafeína",
+          "descricao": "Substância estimulante presente no café, no chá e no guaraná, isolada em 1819 pelo químico alemão Friedlieb Runge.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Cookie com gotas de chocolate",
+        "descricao": "Biscoito americano de massa amanteigada com pedaços de chocolate, criado na década de 1930.",
+        "variantes": [
+          "Chocolate chip cookie",
+          "Cookie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie"
+          ]
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        },
+        {
+          "id": "brownie",
+          "nome": "Brownie",
+          "descricao": "Doce de chocolate assado em barra, criado nos Estados Unidos no fim do século dezenove.",
+          "variantes": [
+            "Chocolate brownie"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "comite_olimpico_internacional",
+          "nome": "Comitê Olímpico Internacional",
+          "descricao": "Organização que comanda o movimento olímpico e escolhe as sedes dos Jogos Olímpicos.",
+          "variantes": [
+            "COI",
+            "International Olympic Committee",
+            "IOC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Leite condensado",
+        "descricao": "Leite de vaca do qual se retira parte da água e ao qual se adiciona açúcar, base de muitos doces brasileiros.",
+        "variantes": [
+          "Leite condensado açucarado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leite_moca",
+          "nome": "Leite Moça",
+          "descricao": "Marca de leite condensado da Nestlé vendida no Brasil.",
+          "variantes": [
+            "Leite Condensado Moça",
+            "Milkmaid"
+          ]
+        },
+        {
+          "id": "volei_sentado",
+          "nome": "Vôlei sentado",
+          "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão.",
+          "variantes": [
+            "Voleibol sentado",
+            "Sitting volleyball"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Apertização",
+        "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+        "variantes": [
+          "Conserva",
+          "Enlatamento",
+          "Canning"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "encilhamento",
+          "nome": "Encilhamento",
+          "descricao": "Bolha especulativa e crise financeira ocorrida no Brasil nos primeiros anos da República, entre 1889 e 1891.",
+          "variantes": []
+        },
+        {
+          "id": "sannin",
+          "nome": "Sannin",
+          "descricao": "Trio de ninjas lendários de Konoha no mangá e anime Naruto.",
+          "variantes": [
+            "Densetsu no Sannin",
+            "Três Ninjas Lendários"
+          ]
+        },
+        {
+          "id": "pasteurizacao",
+          "nome": "Pasteurização",
+          "descricao": "Processo de aquecimento de alimentos, como o leite, para eliminar micro-organismos.",
+          "variantes": [
+            "Pasteurization",
+            "Pasteurizar"
+          ]
+        },
+        {
+          "id": "sutia_em_cone_de_madonna",
+          "nome": "Sutiã em cone de Madonna",
+          "descricao": "Corpete cor-de-rosa com bojos pontudos em forma de cone usado por Madonna na turnê Blond Ambition, de 1990",
+          "variantes": [
+            "Cone bra"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Chá da tarde",
+        "descricao": "Refeição leve britânica do fim da tarde, com chá, sanduíches e bolos, surgida no século dezenove.",
+        "variantes": [
+          "Afternoon tea",
+          "Chá das cinco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_da_trindade",
+          "nome": "Ilha da Trindade",
+          "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo.",
+          "variantes": [
+            "Trindade",
+            "Trindade e Martim Vaz"
+          ]
+        },
+        {
+          "id": "trindade_e_martim_vaz",
+          "nome": "Trindade e Martim Vaz",
+          "descricao": "Arquipélago vulcânico brasileiro no meio do Atlântico Sul, a mais de mil quilômetros da costa.",
+          "variantes": [
+            "Ilha da Trindade"
+          ]
+        },
+        {
+          "id": "ilha_da_trindade_2",
+          "nome": "Ilha da Trindade",
+          "descricao": "Maior ilha do arquipélago vulcânico de Trindade e Martim Vaz, no Atlântico Sul, ao largo do Espírito Santo.",
+          "variantes": [
+            "Trindade"
+          ]
+        },
+        {
+          "id": "ilha_da_trindade_3",
+          "nome": "Ilha da Trindade",
+          "descricao": "Ilha vulcânica brasileira no oceano Atlântico Sul, a mais de mil quilômetros da costa, ocupada por uma base da Marinha.",
+          "variantes": [
+            "Trindade",
+            "Trindade e Martim Vaz"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Vinho do Porto",
+        "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+        "variantes": [
+          "Porto",
+          "Port wine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porto",
+          "nome": "Porto",
+          "descricao": "Segunda maior cidade de Portugal, na foz do rio Douro.",
+          "variantes": []
+        },
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "poutine",
+          "nome": "Poutine",
+          "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+          "variantes": [
+            "Poutine canadense"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Chá",
+        "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+        "variantes": [
+          "Chá preto",
+          "Chá verde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cha_palavra",
+          "nome": "Chá (palavra)",
+          "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+          "variantes": [
+            "Chá"
+          ]
+        },
+        {
+          "id": "chaac",
+          "nome": "Chaac",
+          "descricao": "Deus maia da chuva e dos raios, ligado à agricultura.",
+          "variantes": [
+            "Chac",
+            "Chaak"
+          ]
+        },
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Pão fatiado",
+        "descricao": "Pão de forma vendido já cortado em fatias por máquina, popularizado nos Estados Unidos a partir de 1928.",
+        "variantes": [
+          "Pão de forma fatiado",
+          "Sliced bread"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tie_break",
+          "nome": "Tie-break",
+          "descricao": "Game de desempate usado no tênis para decidir um set empatado em seis games a seis.",
+          "variantes": [
+            "Tiebreak",
+            "Tie-breaker"
+          ]
+        },
+        {
+          "id": "plano_cartesiano",
+          "nome": "Plano cartesiano",
+          "descricao": "Sistema de coordenadas formado por dois eixos perpendiculares, usado para localizar pontos no plano.",
+          "variantes": [
+            "Sistema de coordenadas cartesiano",
+            "Coordenadas cartesianas"
+          ]
+        },
+        {
+          "id": "sorvete",
+          "nome": "Sorvete",
+          "descricao": "Sobremesa congelada feita de leite ou creme com açúcar e sabores.",
+          "variantes": [
+            "Sorvete de massa",
+            "Ice cream"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Picolé",
+        "descricao": "Sorvete ou refresco congelado preso a um palito.",
+        "variantes": [
+          "Ice pop",
+          "Popsicle",
+          "Geladinho de palito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "psicose",
+          "nome": "Psicose",
+          "descricao": "Filme de suspense de 1960 dirigido por Alfred Hitchcock, famoso pela cena do assassinato no chuveiro.",
+          "variantes": [
+            "Psycho"
+          ]
+        },
+        {
+          "id": "piccolo",
+          "nome": "Piccolo",
+          "descricao": "Namekuseijin verde de capa branca e turbante, personagem de Dragon Ball.",
+          "variantes": [
+            "Piccolo Jr.",
+            "Piccolo Júnior",
+            "Kamiccolo"
+          ]
+        },
+        {
+          "id": "ossiculos_do_ouvido_medio",
+          "nome": "Ossículos do ouvido médio",
+          "descricao": "Três pequenos ossos do ouvido médio que transmitem o som ao ouvido interno.",
+          "variantes": [
+            "Ossículos da audição",
+            "Ossicles"
+          ]
+        },
+        {
+          "id": "pericles",
+          "nome": "Péricles",
+          "descricao": "Estadista e general ateniense do século cinco a.C., líder de Atenas no auge da democracia.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Pêssego",
+        "descricao": "Fruto aveludado do pessegueiro, Prunus persica, originário da China.",
+        "variantes": [
+          "Prunus persica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pessego_melba",
+          "nome": "Pêssego Melba",
+          "descricao": "Sobremesa de pêssegos com sorvete de baunilha e calda de framboesa, criada no fim do século dezenove",
+          "variantes": [
+            "Peach Melba",
+            "Pêche Melba"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade"
+          ]
+        },
+        {
+          "id": "pesto",
+          "nome": "Pesto",
+          "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+          "variantes": [
+            "Pesto genovês",
+            "Pesto alla genovese"
+          ]
+        },
+        {
+          "id": "cafe_expresso",
+          "nome": "Café expresso",
+          "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+          "variantes": [
+            "Espresso",
+            "Expresso"
+          ]
+        },
+        {
+          "id": "bratislava",
+          "nome": "Bratislava",
+          "descricao": "Capital e maior cidade da Eslováquia, às margens do Danúbio.",
+          "variantes": [
+            "Pressburg",
+            "Pozsony"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Pavlova",
+        "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com creme e frutas.",
+        "variantes": [
+          "Pavlova (sobremesa)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ivan_pavlov",
+          "nome": "Ivan Pavlov",
+          "descricao": "Fisiologista russo, descobridor do condicionamento clássico e Nobel de Fisiologia ou Medicina de 1904.",
+          "variantes": [
+            "Ivan Petrovich Pavlov",
+            "Pavlov"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Hambúrguer",
+        "descricao": "Sanduíche de carne moída prensada e grelhada servida num pão redondo.",
+        "variantes": [
+          "Hamburger",
+          "Burger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        },
+        {
+          "id": "adolf_hitler",
+          "nome": "Adolf Hitler",
+          "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+          "variantes": [
+            "Hitler",
+            "Führer"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        },
+        {
+          "id": "ambar_gris",
+          "nome": "Âmbar-gris",
+          "descricao": "Substância cerosa e rara, usada na perfumaria, formada no sistema digestivo do cachalote.",
+          "variantes": [
+            "Âmbar cinzento",
+            "Ambergris"
+          ]
+        },
+        {
+          "id": "bruges",
+          "nome": "Bruges",
+          "descricao": "Cidade medieval de canais na Flandres Ocidental, Bélgica, com centro histórico Patrimônio da UNESCO.",
+          "variantes": [
+            "Brugge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Goulash",
+        "descricao": "Ensopado húngaro de carne temperado com páprica.",
+        "variantes": [
+          "Gulash",
+          "Gulyás",
+          "Gulache"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vidro",
+          "nome": "Vidro",
+          "descricao": "Material sólido amorfo e transparente, feito principalmente de sílica, usado em janelas e garrafas.",
+          "variantes": [
+            "Glass"
+          ]
+        },
+        {
+          "id": "argolas",
+          "nome": "Argolas",
+          "descricao": "Aparelho da ginástica artística masculina com dois anéis suspensos por cabos.",
+          "variantes": [
+            "Argolas fixas"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "epopeia_de_gilgamesh",
+          "nome": "Epopeia de Gilgamesh",
+          "descricao": "Poema épico da antiga Mesopotâmia sobre o rei Gilgamesh de Uruk.",
+          "variantes": [
+            "Epic of Gilgamesh",
+            "Gilgamesh"
+          ]
+        },
+        {
+          "id": "gas",
+          "nome": "Gás",
+          "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+          "variantes": [
+            "Estado gasoso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Ketchup",
+        "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas.",
+        "variantes": [
+          "Catchup",
+          "Catsup"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cats_musical",
+          "nome": "Cats (musical)",
+          "descricao": "Musical de Andrew Lloyd Webber, estreado em Londres em 1981, sobre uma tribo de gatos.",
+          "variantes": [
+            "Cats"
+          ]
+        },
+        {
+          "id": "captcha",
+          "nome": "CAPTCHA",
+          "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas.",
+          "variantes": []
+        },
+        {
+          "id": "catupiry",
+          "nome": "Catupiry",
+          "descricao": "Marca brasileira de requeijão cremoso criada em 1911 em Lambari, Minas Gerais.",
+          "variantes": [
+            "Catupiri"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Kasutera",
+        "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses.",
+        "variantes": [
+          "Castella",
+          "Kasutera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        },
+        {
+          "id": "copo_de_leite",
+          "nome": "Copo-de-leite",
+          "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+          "variantes": [
+            "Zantedeschia aethiopica",
+            "Lírio-de-calla",
+            "Calla"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Cacau",
+        "descricao": "Árvore Theobroma cacao, nativa das Américas, cujas sementes são a matéria-prima do chocolate.",
+        "variantes": [
+          "Cacaueiro",
+          "Theobroma cacao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "cupuacu",
+          "nome": "Cupuaçu",
+          "descricao": "Fruta amazônica de polpa branca e ácida, usada em sucos, doces e sorvetes",
+          "variantes": [
+            "Theobroma grandiflorum",
+            "cupuaçuzeiro",
+            "cupuassu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Curau",
+        "descricao": "Creme doce de milho verde ralado cozido com leite e açúcar, típico das festas juninas.",
+        "variantes": [
+          "Canjica (no Nordeste)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "cupuacu",
+          "nome": "Cupuaçu",
+          "descricao": "Fruta amazônica de polpa branca e ácida, usada em sucos, doces e sorvetes",
+          "variantes": [
+            "Theobroma grandiflorum",
+            "cupuaçuzeiro",
+            "cupuassu"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Doçaria conventual portuguesa",
+        "descricao": "Conjunto de doces portugueses ricos em gemas de ovo e açúcar, criados em conventos e mosteiros.",
+        "variantes": [
+          "Doces conventuais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caravela_portuguesa",
+          "nome": "Caravela-portuguesa",
+          "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+          "variantes": [
+            "Physalia physalis",
+            "Fragata-portuguesa",
+            "Man o' war"
+          ]
+        },
+        {
+          "id": "dia_mundial_da_lingua_portuguesa",
+          "nome": "Dia Mundial da Língua Portuguesa",
+          "descricao": "Data comemorativa da língua portuguesa instituída pela Unesco em 2019",
+          "variantes": [
+            "Dia da Língua Portuguesa",
+            "World Portuguese Language Day"
+          ]
+        },
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        },
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "poesia_concreta",
+          "nome": "Poesia Concreta",
+          "descricao": "Movimento de vanguarda da poesia brasileira lançado em São Paulo nos anos 1950, que explora a forma visual das palavras na página.",
+          "variantes": [
+            "Concretismo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Saquê",
+        "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+        "variantes": [
+          "Sake",
+          "Nihonshu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Chá Earl Grey",
+        "descricao": "Mistura de chá preto aromatizada com óleo de bergamota, batizada em homenagem ao conde Grey.",
+        "variantes": [
+          "Earl Grey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        },
+        {
+          "id": "lars_grael",
+          "nome": "Lars Grael",
+          "descricao": "Velejador brasileiro, duas vezes medalhista olímpico na classe Tornado.",
+          "variantes": []
+        },
+        {
+          "id": "ilha_de_goree",
+          "nome": "Ilha de Gorée",
+          "descricao": "Pequena ilha diante de Dacar, símbolo do tráfico atlântico de escravizados e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Gorée",
+            "Ilha de Goreia"
+          ]
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Iftar",
+        "descricao": "Refeição que quebra o jejum diário do Ramadã, ao pôr do sol.",
+        "variantes": [
+          "Iftār",
+          "Fitoor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        },
+        {
+          "id": "czar",
+          "nome": "Czar",
+          "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+          "variantes": [
+            "Tsar",
+            "Tzar"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        },
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro",
+            "トトロ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Couve-flor",
+        "descricao": "Hortaliça de inflorescência branca e compacta, variedade da espécie Brassica oleracea.",
+        "variantes": [
+          "Brassica oleracea var. botrytis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brassica_oleracea",
+          "nome": "Brassica oleracea",
+          "descricao": "Espécie vegetal da família da mostarda que deu origem a repolho, couve, brócolis, couve-flor e outras hortaliças",
+          "variantes": [
+            "Couve",
+            "Repolho"
+          ]
+        },
+        {
+          "id": "escrita_cuneiforme",
+          "nome": "Escrita cuneiforme",
+          "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila.",
+          "variantes": [
+            "Cuneiforme",
+            "Cuneiform"
+          ]
+        },
+        {
+          "id": "coelho",
+          "nome": "Coelho",
+          "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+          "variantes": [
+            "Coelho-europeu",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "id": "hercule_florence",
+          "nome": "Hercule Florence",
+          "descricao": "Inventor e desenhista francês (1804–1879) radicado no Brasil, pioneiro da fotografia no país.",
+          "variantes": [
+            "Antoine Hercule Romuald Florence"
+          ]
+        },
+        {
+          "id": "filtro_de_papel_para_cafe",
+          "nome": "Filtro de papel para café",
+          "descricao": "Filtro descartável de papel para coar café, patenteado pela alemã Melitta Bentz em 1908.",
+          "variantes": [
+            "Filtro Melitta",
+            "Coffee filter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "proposta": {
+        "nome": "Amendoim",
+        "descricao": "Semente comestível da planta Arachis hypogaea, cujas vagens amadurecem debaixo da terra.",
+        "variantes": [
+          "Arachis hypogaea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amendoim",
+          "nome": "Amendoim",
+          "descricao": "Planta leguminosa Arachis hypogaea, cujas sementes comestíveis se formam sob o solo",
+          "variantes": [
+            "Arachis hypogaea",
+            "peanut"
+          ]
+        },
+        {
+          "id": "android",
+          "nome": "Android",
+          "descricao": "Sistema operacional para celulares e tablets desenvolvido pelo Google.",
+          "variantes": [
+            "Android (sistema operacional)"
+          ]
+        },
+        {
+          "id": "peanuts",
+          "nome": "Peanuts",
+          "descricao": "Tira de jornal do americano Charles Schulz, com Charlie Brown e Snoopy",
+          "variantes": [
+            "Minduim"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "pangolim",
+          "nome": "Pangolim",
+          "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+          "variantes": [
+            "Pangolin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "proposta": {
+        "nome": "Rum",
+        "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+        "variantes": [
+          "Ron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "zangao",
+          "nome": "Zangão",
+          "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+          "variantes": [
+            "drone",
+            "abelha macho"
+          ]
+        },
+        {
+          "id": "argonio",
+          "nome": "Argônio",
+          "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+          "variantes": [
+            "Árgon",
+            "Argon"
+          ]
+        },
+        {
+          "id": "clorofluorcarboneto",
+          "nome": "Clorofluorcarboneto",
+          "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+          "variantes": [
+            "CFC",
+            "Freon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "proposta": {
+        "nome": "Morango",
+        "descricao": "Fruta vermelha do morangueiro (Fragaria × ananassa), com pontinhos na superfície.",
+        "variantes": [
+          "Fragaria × ananassa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "proposta": {
+        "nome": "Tarte Tatin",
+        "descricao": "Torta francesa de maçãs caramelizadas na manteiga e no açúcar, popularizada no Hotel Tatin.",
+        "variantes": [
+          "Torta Tatin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "mark_twain",
+          "nome": "Mark Twain",
+          "descricao": "Escritor americano (1835–1910), autor de As Aventuras de Tom Sawyer e Huckleberry Finn.",
+          "variantes": [
+            "Samuel Langhorne Clemens",
+            "Samuel Clemens"
+          ]
+        },
+        {
+          "id": "montanha_da_mesa",
+          "nome": "Montanha da Mesa",
+          "descricao": "Montanha de topo plano que domina a paisagem da Cidade do Cabo, na África do Sul.",
+          "variantes": [
+            "Table Mountain",
+            "Tafelberg"
+          ]
+        },
+        {
+          "id": "golfinho_nariz_de_garrafa",
+          "nome": "Golfinho-nariz-de-garrafa",
+          "descricao": "Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras.",
+          "variantes": [
+            "Tursiops truncatus",
+            "Boto-da-tainha",
+            "Bottlenose dolphin"
+          ]
+        },
+        {
+          "id": "motor_wankel",
+          "nome": "Motor Wankel",
+          "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+          "variantes": [
+            "Motor de combustão interna",
+            "Motor rotativo",
+            "Wankel engine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "proposta": {
+        "nome": "Canela",
+        "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+        "variantes": [
+          "Canela-do-ceilão",
+          "Cinnamomum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "cancao_do_exilio",
+          "nome": "Canção do Exílio",
+          "descricao": "Poema romântico de Gonçalves Dias escrito em 1843, que começa com Minha terra tem palmeiras.",
+          "variantes": []
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o prato estrogonofe."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade iemenita; nenhuma candidata equivale."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Prato distinto do estado e outras candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "batata",
+      "motivo": "Mesmo tubérculo Solanum tuberosum."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Diferente da salada Caesar."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "hashi",
+      "motivo": "Mesmos palitos de comer."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Costume britânico distinto do Mardi Gras."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "oktoberfest",
+      "motivo": "Mesma festa de Munique."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Chocolate geral difere da bebida asteca específica."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Bebida difere da planta cafeeiro."
+    },
+    {
+      "caso": 18,
+      "decisao": "mesma",
+      "id_existente": "cookie_com_gotas_de_chocolate",
+      "motivo": "Mesmo biscoito."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Produto genérico difere da marca Leite Moça."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Vinho difere da cidade do Porto."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Bebida difere da palavra e demais candidatas; na dúvida, nova."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Fruta difere da sobremesa Pêssego Melba."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Sobremesa difere de Ivan Pavlov."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 32,
+      "decisao": "mesma",
+      "id_existente": "cacau",
+      "motivo": "Árvore Theobroma cacao, mesma entidade."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Variedade difere da espécie Brassica oleracea."
+    },
+    {
+      "caso": 39,
+      "decisao": "mesma",
+      "id_existente": "amendoim",
+      "motivo": "Mesma planta/semente Arachis hypogaea."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 41,
+      "decisao": "mesma",
+      "id_existente": "morango",
+      "motivo": "Mesmo fruto Fragaria × ananassa."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Especiaria difere das candidatas."
+    }
+  ]
+}

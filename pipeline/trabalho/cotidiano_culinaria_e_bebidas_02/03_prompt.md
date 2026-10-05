@@ -1,0 +1,1778 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Culinária e Bebidas** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Estrogonofe",
+      "descricao": "Prato de tiras de carne refogadas em molho cremoso, de origem russa, muito popular no Brasil."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Muito popular no Brasil, o estrogonofe, de tiras de carne com molho cremoso, surgiu no século dezenove em qual país?",
+    "resposta": "Rússia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beef_Stroganoff"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beef_Stroganoff",
+        "situacao": "ok",
+        "texto": "Beef Stroganoff, also spelled beef Stroganov, is a Russian dish of sautéed pieces of beef in a sauce of mustard and smetana (heavy sour cream). It is named after one of the members of the Stroganov family. Since its appearance in the 19th century, it has become popular around the world, with considerable variation from the original recipe. Mushrooms are common in many variants.\n[…]\nElena Molokhovets's classic Russian cookbook A Gift to Young Housewives gives the first known recipe for Govjadina po-strogonovski, s gorchitseju, \"Beef à la Stroganov, with mustard\", in its 1871 edition. The recipe involves beef cubes (not strips) prepared in a dry marinade of salt and allspice, and then sautéed in butter. The sauce is a simple roux mixed with prepared mustard and broth, and finished with a small amount of sour cream: no onions, no mushrooms and no alcohol.\n[…]\nA recipe from 1909 adds onions and tomato sauce, and serves it with crisp potato straws, which are considered the traditional side dish for beef Stroganoff in Russia. The version given in the 1938 Larousse Gastronomique includes beef strips, and onions, with either mustard or tomato paste optional.\n[…]\nAfter the fall of the Russian monarchy in 1917, the recipe was popularly served in the hotels and restaurants of China before the start of World War II. The first English cookbook to include a recipe for beef Stroganoff is Ambrose Heath's Good Food (1932). The dish came to Hong Kong in the late 1950s.\n[…]\nStroganoff is a popular dish in Brazil, where it is known as estrogonofe or strogonoff. Estrogonofe is generally prepared with tomato paste or ketchup and mushrooms. Chicken is sometimes used instead of beef. Estrogonofe is generally eaten with cooked white rice and shoestring fries (batata palha).\n[…]\nList of beef dishes\n[…]\nList of Russian dishes\n[…]\nMedia related to Beef Stroganoff at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrogonofe",
+        "situacao": "ok",
+        "texto": "Estrogonofe (do russo строганов, stroganov) é um prato originário da culinária russa composto de cubos de carne ou legumes, servidos num molho de creme de leite. Desde suas origens no século XIX, o prato popularizou-se em muitos países europeus, norte-americanos e no Brasil, sempre com variações consideráveis da receita original.\n[…]\nElena Molokhovets, uma conhecida chef de cozinha russa, mostrou em seu livro Um presente para jovens donas de casa (em russo Подарок молодым хозяйкам), a primeira receita conhecida para Govjadina po-strogonovski, s gorchitseju (\"Estrogonofe de carne com mostarda\") que consistia de cubos empanados de carne num molho de mostarda e um caldo de legumes (bouillon) finalizado com uma pequena porção de creme azedo (sour cream), sem cebolas ou cogumelos adicionados a receita.\n[…]\nUma receita de 1912 adicionou cebolas e extrato de tomate, sendo servida também com batatas-palito, que são consideradas uma tradicional \"decoração\" para comida na Rússia. A versão dada em 1938 na Larousse gastronomique incluia bife em tiras e cebolas, com mostarda ou extrato de tomate opcionais.\n[…]\nO estrogonofe é bastante popular no Brasil e em Portugal, onde existem muitas variações, podendo ser utilizado carne bovina, frango ou camarões. A principal característica do estrogonofe luso é o uso de molho de tomate ou ketchup[carece de fontes]?, misturado com o creme de leite e cogumelos. Além disso, é sempre servido com uma porção de arroz branco e batata palha, enquanto que na Rússia é geralmente servido com batatas cozidas.\n[…]\nEstrogonofe também é popular na Suécia e Noruega. Na Suécia uma variante comum é o estrogonofe de linguiça, que usa a tradicional linguiça sueca chamada falukorv como substituta para a carne.\n[…]\nReceita do estrogonofe brasileiro (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Carpaccio",
+      "descricao": "Prato de fatias finíssimas de carne crua temperada, criado no Harry's Bar em 1950."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Criado no Harry's Bar e batizado em homenagem a um pintor renascentista, o carpaccio de carne crua nasceu em qual cidade italiana?",
+    "resposta": "Veneza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carpaccio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carpaccio",
+        "situacao": "ok",
+        "texto": "Carpaccio is a dish of meat or fish (such as beef, veal, venison, salmon or tuna), thinly sliced or pounded thin, and served raw, typically as an appetiser. It was invented in 1950 by Giuseppe Cipriani, founder of Harry's Bar in Venice, Italy, and popularised during the second half of the twentieth century. The beef was served with lemon, olive oil and white truffle or Parmesan cheese.\n[…]\nThe dish, based on the Piedmont speciality carne cruda alla piemontese, was invented in 1950 by Cipriani, who originally prepared the dish for countess Amalia Nani Mocenigo when he learned that her doctors had recommended that she eat raw meat. The dish was named carpaccio after Vittore Carpaccio, the Venetian painter known for the characteristic red and white tones of his work.\n[…]\nde Alba, María; Bravo, Daniel; Medina, Margarita (2012). \"High pressure treatments on the inactivation of Salmonella Enteritidis and the characteristics of beef carpaccio\". Meat Science. 92 (4): 823–8. doi:10.1016/j.meatsci.2012.07.008. hdl:20.500.12792/6040. PMID 22863078.\n[…]\nVaudagna, S. R.; Gonzalez, C. B.; Guignon, B.; Aparicio, C.; Otero, L.; Sanz, P.D. (2012). \"The effects of high hydrostatic pressure at subzero temperature on the quality of ready-to-eat cured beef carpaccio\". Meat Science. 92 (4): 575–81. doi:10.1016/j.meatsci.2012.06.002. hdl:10261/82066. PMID 22749447.\n[…]\nBravo, Daniel; de Alba, María; Medina, Margarita (2014). \"Combined treatments of high-pressure with the lactoperoxidase system or lactoferrin on the inactivation of Listeria monocytogenes, Salmonella Enteritidis and Escherichia coli O157:H7 in beef carpaccio\". Food Microbiology. 41: 27–32. doi:10.1016/j.fm.2014.01.010. hdl:20.500.12792/4374. PMID 24750810.\n[…]\nMedia related to Carpaccio (food) at Wikimedia Commons\n[…]\nBeef Carpaccio I at the Wikibooks Cookbook subproject"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carpaccio",
+        "situacao": "ok",
+        "texto": "Carpaccio é um prato italiano feito a partir de carne ou de peixe cru, cortado em fatias finas, e é comumente servido como um aperitivo ou antepasto.\n[…]\nDe acordo com Arrigo Cipriani, atual dono do Harry's Bar, em Veneza, o carpaccio foi inventado no Harry's Bar, onde foi servido primeiramente à condessa Amalia Nani Mocenigo, em 1950, quando ela informou ao dono do bar que seu médico havia recomendado o consumo de carne crua, rica em ferro, pois ela estava com anemia. O carpaccio, então, consistia em finas fatias de carne crua, temperadas com molho de mostarda, molho inglês, suco de limão, leite, sal e pimenta-do-reino branca.\n[…]\nO prato foi nomeado carpaccio por Giuseppe Cipriani, o fundador e dono do bar, em referência ao pintor italiano Vittore Carpaccio, pois a cor vermelha forte do prato o recordava das pinturas de Carpaccio, que estavam na época em exposição na cidade.\n[…]\nO termo carpaccio, atualmente, é usado para denominar a preparação de carne ou peixe servido cru e cortado em finíssimas fatias. Alguns restaurantes têm utilizado o nome carpaccio para qualquer prato de carne, peixe, fruta ou legumes finamente cortados.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Piña colada",
+      "descricao": "Coquetel caribenho de rum, creme de coco e suco de abacaxi."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Feita com rum, creme de coco e abacaxi, a piña colada foi declarada a bebida oficial de qual ilha caribenha?",
+    "resposta": "Porto Rico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+        "situacao": "ok",
+        "texto": "The piña colada is a cocktail made with cream of coconut, pineapple juice, and rum, usually served either blended or shaken with ice. It may be garnished with either a pineapple wedge, maraschino cherry, or both. The drink originated in Puerto Rico.\n[…]\nIn 1954, University of Puerto Rico Professor Ramon López Irizarry invented a new, improved method for the extraction of coconut cream. He patented the process and created Coco López, a sweet, creamy coconut cream, which was used in the invention of the piña colada in Puerto Rico. This product, sold today as Cream of Coconut, is widely available around the world, and is most commonly used to make the cocktail.\n[…]\nThe Caribe Hilton Hotel claims Ramón \"Monchito\" Marrero created the piña colada in 1954 while a bartender at the hotel. According to this account, Marrero finally settled upon the recipe for the piña colada, which he felt captured the true nature and essence of Puerto Rico. The hotel was presented with a proclamation in 2004 by Puerto Rico Governor Sila María Calderón celebrating the drink's 50th anniversary.\n[…]\nA Spaniard by the name of Ricardo García also claims to have invented the drink in 1953, while working at the Caribe Hilton Hotel in San Juan. Ricardo García piña colada is made with frozen pineapple juice, coco López cream of coconut, heavy cream, rum, garnished with a cherry, and pineapple wedge.\n[…]\nBarrachina, a restaurant in Puerto Rico, says that \"a traditional Spanish bartender Don Ramón Portas Mingot in 1963 created what became the world's famous drink: the Piña Colada.\"\n[…]\nTepache colada – a piña colada variation using tepache developed by JungleBird in Santurce, San Juan, Puerto Rico. Recipe calls for 1.5 oz gold rum, 2 oz tepache and 1.5 oz cream of coconut."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pi%C3%B1a_colada",
+        "situacao": "ok",
+        "texto": "Piña colada é um cocktail doce feito com rum, leite de coco e sumo de Abacaxi. É servido geralmente batido ou mexido com gelo. É originário da ilha de Porto Rico. O seu nome, Piña colada, pode ser traduzido como \"ananás coado\".\n[…]\nAs receitas variam, algumas incluem rum, sumo de ananás, leite de coco, gelo, e creme de leite, enquanto outras substituem o rum pelo amaretto.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Moca (Iêmen)",
+      "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O café moca leva o nome de um antigo porto do mar Vermelho, por onde o café era exportado. Em que país fica esse porto?",
+    "resposta": "Iêmen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mocha,_Yemen",
+      "https://en.wikipedia.org/wiki/Caff%C3%A8_mocha"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mocha,_Yemen",
+        "situacao": "ok",
+        "texto": "Mokha (Arabic: المَخا, romanized: al-Maḵā), also spelled Mocha, is a port city on the Red Sea coast of Yemen. Until Aden and al Hudaydah eclipsed it in the 19th century, Mokha was the principal port for Yemen's capital, Sanaa. Long known for its coffee trade, the city gave its name to Mocha coffee.\n[…]\nThey chiefly traded in the commodity of coffee, brought by camels to the port of Mokha from places further north and inland, primarily from Bayt al-Faqih. Other trading goods brought to Mokha for export included such spices and commodities as frankincense, myrrh, Dragon's blood, Socotrine aloe, cumin, and the Balm of Gilead.\n[…]\nMokha was very dependent on imported coffee beans from present-day Ethiopia, which was exported by Somali merchants from Berbera across the Gulf of Aden. The Berbera merchants procured most of the coffee from the environs of Harar and shipped them off in their own vessels during the Berbera trading season.\n[…]\nRegarding the source of slaves in Mocha, British explorer Ney Elias reported in 1876 that Dankali and Somali groups regularly conducted raids to capture children from the \"Habesh\", who were subsequently sold as slaves at Mokha. According to Elias, the Galla, particularly those in Shewa, also suffered from these raids, with those enslaved generally fetching lower prices because of their proximity to the coast.\n[…]\nThe Moka pot stovetop coffee maker was named after the Yemeni city. At the time Mokha was a famous leading producer and trader of coffee worldwide with a history going back 500 years, and also became known for its unique Yemeni wild Mocha coffee beans.\n[…]\nMocha coffee bean\n[…]\nCaffè mocha\n[…]\nChisholm, Hugh, ed. (1911). \"Mokha\" . Encyclopædia Britannica. Vol. 18 (11th ed.). Cambridge University Press. p. 651.\n[…]\n\"Mocha\" . The New Student's Reference Work . 1914."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Caff%C3%A8_mocha",
+        "situacao": "ok",
+        "texto": "A caffè mocha ( MOK-ə or  MOH-kə), also called a mocaccino or simply mocha, is a chocolate-flavoured variant of caffè latte, commonly served warm or hot in a glass rather than a mug. The name is derived from the city of Mokha in Yemen, which was one of the centres of early coffee trade.\n[…]\nThe name \"mocha\" is derived from the Yemeni port of Mokha, which was a port well-known for its coffee trade from the 15th to 17th century, and where small quantities of fine coffee grown in the hills nearby was exported.\n[…]\nLike caffè latte, caffè mocha is based on espresso and hot milk but with added chocolate flavouring and sweetener, typically in the form of cocoa powder and sugar. Many varieties use chocolate syrup instead, and some may contain dark or milk chocolate.\n[…]\nA variant is white caffè mocha, made with white chocolate instead of milk or dark. There are also variants of the drink that mix the two syrups; this mixture is referred to by several names, including black-and-white mocha, marble mocha, tan mocha, tuxedo mocha, and zebra mocha.\n[…]\nAnother variant is a mochaccino which is an espresso shot (double) with either a combination of steamed milk and cocoa powder or chocolate milk. Both mochaccinos and caffè mocha can have chocolate syrup, whipped cream and added toppings such as cinnamon, nutmeg or chocolate sprinkles. French White Mocha is another name for Mochaccino, without cinnamon powder.\n[…]\nA third variant on the caffè mocha is to use a coffee base instead of espresso. The combination is coffee, steamed milk, and added chocolate. This is the same as a cup of coffee mixed with hot chocolate. The caffeine content of this variation is equivalent to that of the coffee it includes.\n[…]\nMocha, Yemen\n[…]\nCyclone Mocha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Moca_%28I%C3%AAmen%29",
+        "situacao": "ok",
+        "texto": "Moca (em árabe: المخا; romaniz.: al-Mukhā), é uma cidade portuária do Iêmen, situada às margens do mar Vermelho. Até o século XIX, quando foi superada por Adem e Hodeida, era o principal porto do país. Entre os séculos XV e XVII, Moca foi o mais importante mercado de café do mundo.\n[…]\nSegundo o padre jesuíta Jerónimo Lobo, que percorreu o mar Vermelho em 1625, desde que os turcos estenderam seu domínio à Arábia, Moca tornou-se a maior cidade do território sob dominação turca - ainda que não fosse o lugar de residência do paxá.\n[…]\nEste ficava a dois dias de viagem em direção ao interior, na cidade de Saná.1 Ainda segundo Lobo, a sua importância do porto de Moca também era devida à circunstância de que as leis otomanas determinavam que todos os navios que entrassem no Mar Vermelho deveriam ali atracar e pagar impostos sobre suas cargas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Moqueca capixaba",
+      "descricao": "Versão da moqueca de peixe feita sem dendê nem leite de coco, preparada em panela de barro preta."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A moqueca sem dendê nem leite de coco, preparada na panela de barro preta das paneleiras de Goiabeiras, é típica de qual estado?",
+    "resposta": "Espírito Santo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Moqueca",
+      "https://en.wikipedia.org/wiki/Moqueca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Moqueca",
+        "situacao": "ok",
+        "texto": "A moqueca, muqueca ou poqueca (do quimbundo mu'keka: 'caldeirada de peixe' ou do tupi opokeka: 'fazer embrulho') é um cozido, geralmente de peixe, típico da culinária brasileira.\n[…]\nNa região litorânea do estado do Espírito Santo, a moqueca está presente no cardápio de 87%[carece de fontes]? dos estabelecimentos voltados à venda de refeições, como uma especialidade de forte apelo identitário. A receita é bem semelhante em todos esses estabelecimentos, com pequenas variações na forma de preparo. Na receita típica capixaba, a cor vem da tintura de urucum; o azeite é de oliva.\n[…]\nEsse saber foi apropriado dos índios pelos afrodescendentes que vieram a ocupar a margem do manguezal, local historicamente identificado com a produção de panelas de barro. O naturalista Auguste de Saint-Hilaire visitou a região em 1815 e fez a primeira referência a essas panelas, descritas como \"caldeira de terracota, de orla muito baixa e fundo muito raso\", utilizadas para torrar farinha e fabricadas \"num lugar chamado Goiabeiras, próximo da capital do Espírito Santo\".\n[…]\nAs moquecas e a torta capixaba (outra iguaria local característica da Semana Santa) são parte da identidade cultural do povo do Espírito Santo, e isso certamente explica a continuidade histórica da fabricação artesanal das panelas de barro. A cidade  de Vitória cresceu e alcançou Goiabeiras, que se transformou em um bairro da capital. Mas ali continuam sendo feitas, como sempre, as panelas pretas.\n[…]\nVídeo: Moqueca de Peixe com Camarão da Daniela Mercury. Prato ganha sabor extra com azeite de dendê e leite de coco. Gshow, 8 de fevereiro de 2014.\n[…]\nProjeto institui a Moqueca Capixaba Patrimônio Cultural Imaterial do ES"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Moqueca",
+        "situacao": "ok",
+        "texto": "Moqueca (IPA: [moˈkɛkɐ] or IPA: [muˈkɛkɐ] depending on the dialect, also spelled muqueca) is a Brazilian seafood stew. Moqueca is typically made with shrimp or fish in a base of tomatoes, onions, garlic, lime, and coriander. Some recipes include annatto, palm oil, and coconut milk, depending on the regional variation.\n[…]\nRegardless of region, cooking in a ceramic pan is often seen as an essential part of the dish, as it is capable of retaining heat and keeping the broth steaming for longer. In Espírito Santo, the subject is taken so seriously that it has become a heritage site – the Ofício das Paneleiras de Goiabeiras, a neighborhood in Vitória, was registered as a cultural asset by the National Historical and Artistic Heritage Institute (Iphan) in 2002.\n[…]\nTo this day, these ceramic pans are often made with clay from the region according to the indigenous technique: after being modeled by hand, they receive dye made from red mangrove bark, and are burned in the open air. The raw material used goes beyond keeping the moqueca hot. “This type of clay reduces the acidity of tomatoes and peppers, which is why moqueca from Espírito Santo does not cause heartburn”, guarantees Paulo Cesar Casagrande, owner of the Meaípe restaurant in São Paulo.\n[…]\nMoqueca capixaba is native to the state of Espírito Santo. It is a combination of Brazilian and Portuguese cuisine. It is considered a softer and lighter version of moqueca. Lighter oils, such as extra-virgin olive oil, are used instead of palm oil (as in the Bahian version). Annatto is typically an ingredient. Peppers are generally not included.\n[…]\nThese cassole pans are very important to Vitória, and the city is home to a grassroots organization of pan-makers known as Associação das Paneleiras de Goiabeiras.\n[…]\nMoqueca was a dish on MasterChef Australia Episode 8."
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Panetone",
+      "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Presença certa no Natal brasileiro, o panetone, pão doce com frutas cristalizadas, é originário de qual cidade italiana?",
+    "resposta": "Milão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panettone",
+      "https://pt.wikipedia.org/wiki/Panetone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Panettone",
+        "situacao": "ok",
+        "texto": "Panettone is an Italian sweet bread and fruitcake that is associated with the city of Milan, Lombardy. It is usually prepared for Christmas and New Year in Western, Southern, and Southeastern Europe, as well as in South America, Eritrea, Australia, and North America. Panettone is tall, with the appearance and texture of bread. Despite such an appearance, panettone is understood in Italy to be a de\n[…]\nThe basic dough for panettone is very close to several other European holiday breads, including the German stollen, the Greek tsoureki and christopsomo, and the Italian colomba pasquale and pandoro. Distinctions arise from their symbolism, shaping, and history. Panettone has high levels of fat and requires intensive mixing.\n[…]\nPanettone is cooked in a range of sizes, from individually portioned cakes to large cakes that are cut at service. Among the Milanese, panettone is eaten with various courses, including breakfast, afternoon tea, and dinner. Alongside, the Italian dessert wine Vin Santo or a sweet white wine are often drunk. Panettone is sometimes served in its baking paper, which often features decorative designs.\n[…]\nMost panettone eaten in Italy is sourced from industrial producers, shrink-wrapped and distributed in cardboard boxes. As of 2007, Italian food manufacturing companies and bakeries produced 117 million panettone and pandoro cakes each Christmas, collectively worth €579 million. As of 2011, Bauli dominated the panettone market after its acquisition of its two largest competitors two years prior.\n[…]\nPrices for panettone varied starkly by source. In 2011, a panettone purchased from an Italian supermarket could cost less than €10 (US$13.92), compared to the few produced by artisans which often could cost €50. Outside of supermarkets, industrially-produced panettone are sold in some bakeries.\n[…]\nList of Italian desserts and pastries\n[…]\nPanettone World Champioship"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Panetone",
+        "situacao": "ok",
+        "texto": "O panetone é um alimento tradicional da época de Natal, de origem milanesa, região a noroeste da Itália. O pão doce ou bolo de natal possui fragrância discreta de baunilha e recheio de frutas secas, tais como damasco, mamão, laranja, limão, maçã, cidra e a uva passa.\n[…]\nA palavra panetone (do italiano panettone) tem sua origem no vocábulo milanês panatón ou panattón, de origem e significados controversos. Por outro lado, pode-se deduzir que a origem do termo panettone se deva à contração entre o diminutivo da palavra \"pão\" (do italiano panetto) com o superlativo da mesma palavra (do italiano panone), isto é, panetto + panone = panettone, o que em português se assemelharia ao neologismo \"pãozinhão\".\n[…]\nOutra lenda conta que ele teria sido criado na cidade de Milão, na Idade Média, por um confeiteiro chamado Tony, o qual teria dedicado seu invento à mulher amada, de \"Pão de Tony\", ele teria evoluído para panetone. Mas essa lenda não tem o menor fundamento, pois não há nenhuma evidência histórica que respalde essa versão.\n[…]\nO panetone chegou ao Brasil como influência dos imigrantes italianos, que entre o final do século XIX e a primeira metade do século XX, atravessaram o Atlântico em busca de oportunidades na América do Sul.\n[…]\nNo Brasil, existem mais de 100 marcas que produzem o bolinho italiano em diversas versões, e levantamentos apontam que, no período das festas de fim de ano, essa quantidade de produtores pode triplicar, por conta das padarias e confeitarias de pequeno porte e de empreendedores sazonais, que produzem o panetone para ter uma renda extra.\n[…]\nCulinária da Itália\n[…]\n«A história do Panetone: Da Itália para o mundo, Olga Defavari» (em inglês)\n[…]\n«Il Panettone Milanese, Italian food, About.com, a part of The New York Times Company» (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Batata",
+      "descricao": "Tubérculo comestível da planta Solanum tuberosum, domesticado na América do Sul."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+    "resposta": "Andes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Potato",
+      "https://en.wikipedia.org/wiki/History_of_the_potato"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Potato",
+        "situacao": "ok",
+        "texto": "The potato () is a starchy tuberous vegetable native to the Americas that is consumed as a staple food in many parts of the world. Potatoes are underground stem tubers of the plant Solanum tuberosum, a perennial in the nightshade family Solanaceae.\n[…]\nWild potato species can be found from the southern United States to southern Chile. Genetic studies show that the cultivated potato has a single origin, in the area of present-day southern Peru and extreme northwestern Bolivia. Potatoes were domesticated there about 7,000–10,000 years ago from a species in the S. brevicaule complex. Many varieties of the potato are cultivated in the Andes region of South America, where the species is indigenous.\n[…]\nA 2025 study by Zhang et al. examining Solanum genomes groups all species of potato under S. tuberosum. According to the study, the Petota (potato) lineage contains more than 55 diploid species, with only one being selected by humans for domestication; the study posits that all landraces branch out from a single point within Solanum candolleanum.\n[…]\nThere are some 5,000 potato varieties worldwide, 3,000 of them in the Andes alone — mainly in Peru, Bolivia, Ecuador, Chile, and Colombia. Over 100 cultivars might be found in a single valley, and a dozen or more might be maintained by a single agricultural household.\n[…]\nThe potato has been an essential crop in the Andes since the pre-Columbian era. The Moche culture from Northern Peru made ceramics from the earth, water, and fire. This pottery was a sacred substance, formed in significant shapes and used to represent important themes. Potatoes are represented anthropomorphically as well as naturally."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_the_potato",
+        "situacao": "ok",
+        "texto": "The potato was the first domesticated root vegetable in the region of modern-day southern Peru and extreme northwestern Bolivia between 8000 and 5000 BC. Cultivation of potatoes in South America may go back 10,000 years, but tubers do not preserve well in the archaeological record, making identification difficult. The earliest archaeologically verified potato tuber remains have been found at the c\n[…]\nPotatoes and tomatoes are genetically related, as both belong to the Solanum genus. Scientists have long noted that modern potatoes closely resemble the subgroup Etuberosum, originating in western South America. Members of the Etuberosum lineage produce small underground stems that can sprout, but they do not swell to form tubers. This has led scientists to hypothesize a hybrid origin for the potato.\n[…]\nArcheological evidence also shows that throughout the formative period from 1500 BC to 500 BC and Tiwanaku period in the Andes, potatoes and tubers became increasingly popular as a crop and food. Boiled and steamed potatoes and tubers replaced soups throughout the formative period.\n[…]\nSailors returning from the Andes to Spain with silver presumably brought maize and potatoes for their own food on the trip. Historians speculate that leftover tubers (and maize) were carried ashore and planted: \"We think that the potato arrived some years before the end of the 16th century, by two different ports of entry: the first, logically, in Spain around 1570, and the second via the British Isles between 1588 and 1593 ...\n[…]\npotato production has increased steadily; two-thirds of the crop comes from Idaho, Washington, Oregon, Colorado, and Maine, and potato growers have strengthened their position in both domestic and foreign markets.\n[…]\nAlong with several other foods that either originated in the Americas or were successfully grown or harvested there, potatoes sustained European populations."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batata",
+        "situacao": "ok",
+        "texto": "A Solanum tuberosum, comumente conhecida como batata, é uma planta perene da família das solanáceas e pertencente ao tipo fisionómico dos terófitos. A planta adulta, conhecida como batateira, tem geralmente entre sessenta a cem centímetros de altura, possui flores e frutos e produz um tubérculo comestível rico em amido.\n[…]\n30 de Maio é o Dia Internacional da Batata.\n[…]\nA história da batata começou há cerca de oito mil anos na Cordilheira dos Andes próximo ao Lago Titicaca, entre a Bolívia e o Peru, onde se supõe que comunidades de caçadores e coletores que entraram na América do Sul sete mil anos antes começaram a domesticar as espécies de batata selvagem que eram abundantes nas regiões em torno do lago, onde os agricultores tiveram sucesso na seleção e melhoramento do vegetal.\n[…]\nOs conquistadores espanhóis foram para a região dos Andes em busca de ouro, mas o tesouro que levaram foi a Solanum tuberosum. A primeira evidência do plantio de batata fora do território sul-americano data de 1565, nas ilhas Canárias e em 1573, a batata passou a ser cultivada no território continental espanhol. Logo após, exemplares do tubérculo foram enviados por toda Europa como um presente exótico.\n[…]\nHoje a batata é vista como uma das soluções possíveis para acabar com a fome no mundo. Na China, por exemplo, cientistas propuseram que sessenta por cento das terras aráveis do país deveriam ser ocupadas por plantações de batatas. E nos Andes, onde tudo começou, o governo peruano criou em 2008 um registro nacional das variedades nativas de batata, para ajudar a conservar o rico patrimônio genético da espécie, que ajudarão a escrever os futuros capítulos da história da Solanum tuberosum.\n[…]\n«2008 - Ano Internacional da Batata». Disponível em seis idiomas (Inglês, Mandarim, Espanhol, Francês, Árabe e Russo)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Salada Waldorf",
+      "descricao": "Salada de maçã, aipo, nozes e maionese criada no Waldorf Hotel no fim do século dezenove."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A salada Waldorf, de maçã, aipo, nozes e maionese, foi criada no fim do século dezenove num hotel de qual cidade?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waldorf_salad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waldorf_salad",
+        "situacao": "ok",
+        "texto": "A Waldorf salad is a fruit and nut salad generally made of celery, fresh apples, walnuts, and grapes, dressed in mayonnaise, and traditionally served on a bed of lettuce as an appetizer or a light meal. The apples, celery, and grapes can all be green, which harmonizes the color palette of the dish.\n[…]\nWaldorf salad is named for the Waldorf-Astoria hotel in New York City, where it was first created for a charity ball given in honor of the St. Mary's Hospital for Children on March 13, 1896. The Waldorf-Astoria's maître d'hôtel, Oscar Tschirky, developed or inspired many of the hotel's signature dishes and is widely credited with creating the salad recipe. In 1896, the salad appeared in The Cook Book by \"Oscar of the Waldorf\".\n[…]\nOther ingredients such as chicken, turkey, and dried fruit (such as dates or raisins) are sometimes added. Updated versions of the salad sometimes change the dressing to a seasoned mayonnaise or a yogurt dressing. Modern Waldorf salad may also include the zest of oranges and/or lemons. Variations include a peanut butter and yogurt base, and one that replaces celery with cauliflower.\n[…]\nAn American guest demanding a Waldorf salad featured prominently in a 1979 episode of the British sitcom Fawlty Towers. The salad is mentioned in the Cole Porter song \"You're the Top\".\n[…]\nThe salad is alluded to in the 2009 Mad Men episode \"Guy Walks Into an Advertising Agency\", when Conrad Hilton boasts to Don Draper about the Waldorf-Astoria's kitchen and its namesake salad."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salada_Waldorf",
+        "situacao": "ok",
+        "texto": "Salada Waldorf é uma salada que consiste em uma leve fatia de maçã e aipo, nozes cortadas, maionese ou uma cobertura feita de maionese. Foi criada em meados de 1893 no Waldorf Hotel na Cidade de Nova Iorque (o precursor do atual Waldorf Astoria New York que abriu em 1931).\n[…]\nEmbora Oscar Tschirky fosse o Chefe de cozinha do Hotel, existe uma polêmica sobre o assunto.\n[…]\nReceita de Salada Kosher Waldorf (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Hashi",
+      "descricao": "Par de palitos usados como talher em países do Leste Asiático."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Embora sejam conhecidos no Brasil pelo nome japonês, os hashis, palitinhos usados para comer, surgiram em qual país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chopsticks"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chopsticks",
+        "situacao": "ok",
+        "texto": "Chopsticks are shaped pairs of equal-length sticks that have been used as kitchen and eating utensils in most countries of the Sinosphere for over three millennia. They are held in the dominant hand, secured by fingers, and wielded as extensions of the hand, to pick up food.\n[…]\nHistorically, Thai people used bare hands to eat and occasionally used a spoon and fork for curries or soup, the result of Western influence. But many Thai noodle dishes served in a bowl are eaten with chopsticks. Unlike in China and in Vietnam, chopsticks are not used with a bowl of rice. It is considered impolite to make a sound with chopsticks. It is poor etiquette to rest or hold chopsticks pointing towards others, as pointing is considered disrespectful.\n[…]\nThe most widespread use of disposable chopsticks is in Japan, where around a total of 24 billion pairs are used each year, which is equivalent to almost 200 pairs per person yearly. In China, an estimated 45 billion pairs of disposable chopsticks are produced yearly. This adds up to 1.66 million cubic meters (59×10^6 cu ft) of timber or 25 million fully grown trees every year.\n[…]\nIn April 2006, China imposed a 5% tax on disposable chopsticks to reduce waste of natural resources by overconsumption. This measure had the most effect in Japan as many of its disposable chopsticks are imported from China, which account for over 90% of the Japanese market.\n[…]\nAmerican manufacturers have begun exporting American-made chopsticks to China, using sweet gum and poplar wood as these materials do not need to be artificially lightened with chemicals or bleach, and have been seen as appealing to Chinese and other East Asian consumers.\n[…]\nMedia related to Chopsticks at Wikimedia Commons\n[…]\nThe dictionary definition of chopstick at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hashi",
+        "situacao": "ok",
+        "texto": "Os hashis, fachis, pauzinhos ou palitinhos são as varetas utilizadas como talheres em parte dos países da Ásia, como a Tailândia, a China, o Japão, o Vietnã e a Coreia.\n[…]\nOs pauzinhos são usualmente feitos de madeira, bambu, marfim ou metal, e modernamente de plástico. O par de pauzinhos é tradicionalmente manuseado com a mão direita (embora atualmente seja aceitável manuseá-lo com a mão esquerda), entre o dedo polegar e os dedos anelar, médio e indicador, e serve para apanhar pedaços de comida ou empurrá-los diretamente da tigela para a boca.\n[…]\nHá uma variante dos fachis japoneses denominada de saibashi (菜箸; o さいばし). Estes são uma versão dos fachis (箸) especificamente adaptada para o uso na cozinha e permitem a manipulação do alimento quente com uma só mão.\n[…]\nA palavra em mandarim para os pauzinhos é 筷子 (kuàizi), em que o carácter 筷 significa \"objetos de bambu para comer rapidamente\". Sendo originários da China\n[…]\nUtensílios que se assemelham a pauzinhos foram encontrados no posto arqueológico de Megido em Israel, pertencendo aos citas, invasores de Canaã. Esta descoberta revela a possibilidade de existência de relacionamento comercial entre o Médio Oriente e o Extremo Oriente ou eventualmente o desenvolvimento dos mesmos utensílios em paralelo mas de modo autónomo.\n[…]\nOs pauzinhos também eram artigos comuns na civilização uigur, das estepes da Mongólia durante os séculos VI ao VIII.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Biscoito da sorte",
+      "descricao": "Biscoito crocante dobrado que guarda um papel com uma mensagem, servido em restaurantes chineses no Ocidente."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Servidos em restaurantes chineses mundo afora, os biscoitos da sorte, com uma mensagem dentro, surgiram em qual país?",
+    "resposta": "Estados Unidos",
+    "distratores": [
+      "China",
+      "Hong Kong",
+      "Taiwan"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fortune_cookie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fortune_cookie",
+        "situacao": "ok",
+        "texto": "A fortune cookie is a crisp and sugary cookie wafer made from flour, sugar, vanilla, and sesame seed oil with a piece of paper inside, a \"fortune\", an aphorism, or a vague prophecy. The message inside may also include a Chinese phrase with translation or a list of lucky numbers used by some as lottery numbers. Fortune cookies are often served as a dessert in Chinese restaurants in the United State\n[…]\nSeiichi Kito, the founder of Fugetsu-do of Little Tokyo in Los Angeles, also claims to have invented the cookie. Kito claims to have gotten the idea of putting a message in a cookie from Omikuji (fortune slip) which are sold at temples and shrines in Japan. According to his story, he sold his cookies to Chinese restaurants where they were greeted with much enthusiasm in both the Los Angeles and San Francisco areas, before spreading.\n[…]\nFortune cookies moved from being a confection dominated by Japanese-Americans to one dominated by Chinese-Americans sometime around World War II. One theory for why this occurred is because of the Japanese American internment during World War II, which forcibly put over 100,000 Japanese-Americans in internment camps, including those who had produced fortune cookies. This gave an opportunity for Chinese manufacturers.\n[…]\nThe fortune cookie industry changed dramatically after the fortune cookie machine was invented by Edward Louie in the late 1960s. The machine allowed for mass production of fortune cookies which subsequently allowed the cookies to drop in price to become the novelty and courtesy dessert many Americans are familiar with after their meals at most Chinese restaurants today.\n[…]\nFortune cookies, while largely an American item, have been served in Chinese restaurants in Australia, Argentina, Brazil, Canada, France, Germany, India, Italy, Mexico, New Zealand, Norway, Singapore, the United Kingdom, and the United Arab Emirates, among others."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biscoito_da_sorte",
+        "situacao": "ok",
+        "texto": "O biscoito da sorte é um biscoito pequeno, crocante e açucarado feito de farinha, açúcar, baunilha, óleo de gergelim e que contém dentro dele um pedaço de papel com uma \"sorte\", geralmente um aforismo ou uma profecia vaga. Pode conter também um grupo de números que são utilizados por alguns como números de loteria.\n[…]\nApesar de serem populares em restaurantes chineses no Ocidente, os biscoitos da sorte não são originários da China, onde são raros e vistos como uma tradição americana. Na realidade, eles foram inventados em Quioto, no Japão, no século XIX, e trazidos para a Califórnia, nos Estados Unidos, onde se tornaram populares em restaurantes de comida oriental no início do século XX.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Galette des rois",
+      "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na França, a galette des rois, torta folhada com uma pequena figura escondida na massa, é comida em qual festa do calendário cristão?",
+    "resposta": "Dia de Reis (Epifania)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/King_cake"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/King_cake",
+        "situacao": "ok",
+        "texto": "A king cake, also known as a three kings cake or a baby cake, is a cake associated in many countries with the Epiphany, the celebration of the Twelfth Night after Christmas. Traditionally made with brioche dough, in most cases a fève (lit. 'fava bean') such as a figurine representing the Christ Child, was hidden inside. After the cake is cut, whoever finds the fève in their slice wins a prize.\n[…]\nThere are two different versions of the French king cake: the galette and the gâteau. The galette des rois is a flaky puff pastry traditionally filled with frangipane. These days the filling may also be fruit, chocolate or cream-based fillings. It has become a tradition for pastry chefs to create innovative versions of the galette featuring ingredients like flavored liquors, candied fruits and ganache.\n[…]\nThe gâteau des rois (referred to as royaume, brioche des rois, or coque des rois) is mainly popular in the Occitan-speaking regions of the south of France. It is a crown-shaped brioche dough decorated with candied fruit and coarse sugar.\n[…]\nThe Guianan galette (more commonly known as the Creole galette) is a traditional pastry of French Guianan cuisine. This is a Creole variant of the galette des rois which is eaten as a dessert during Epiphany. It can be garnished with cream, coconut, guava, etc. It is consumed throughout the Carnival period (from the Epiphany until Ash Wednesday) and preferably accompanied by champagne.\n[…]\nBolo-rei (lit. 'king cake') is a traditional Portuguese cake eaten from the beginning of December until Epiphany. The recipe is derived from the Southern French gâteau des rois, which found its way to Portugal when Confeitaria Nacional opened as the Portuguese monarchy's official bakery in 1829.\n[…]\nRecipes: Portugal’s Bolo Rei\n[…]\nEuroMaxx A La Carte Bolo Rei from Portugal recipe"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bolo-rei",
+        "situacao": "ok",
+        "texto": "Bolo-rei é um bolo festivo em forma de coroa, que faz parte da tradição portuguesa, e que se come tipicamente na Quadra Natalícia e Dia de Reis. O seu nome alude aos três reis magos.\n[…]\nA origem do bolo-rei remonta ao tempo dos festejos romanos de Saturnália. Estes tinham por hábito eleger o \"rei da festa\" durante os banquetes comemorativos, o que era feito colocando uma fava seca (símbolo da fecundidade) numa doce torta redonda, que quem achasse se convertia no rei da fava ou rei da festa.\n[…]\nA Igreja Católica aproveitou o facto daquele jogo pagão ser característico do mês de Dezembro e decidiu reconvertê-lo e relacioná-lo com a Natividade e com uma Epifania (a primeira das quais ficou conhecida como Dia de Reis), ou seja, com os dias 25 de Dezembro e 6 de Janeiro. A influência da Igreja Católica na Idade Média determinou que esta última data fosse simbolizada por uma fava introduzida num bolo, mas cuja receita se desconhece atualmente.\n[…]\nO bolo-rei no seu formato atual surgiu na corte de Luís XIV, em França, para as festas do Ano Novo e do Dia de Reis. Vários escritores da época escreveram sobre esta iguaria, até mesmo Jean-Baptiste Greuze a celebrou num famoso quadro com o nome Gâteau des rois.\n[…]\nSegundo esta tradição francesa, eram incluídos no bolo uma fava seca e um brinde de porcelana, normalmente uma figura da natividade do presépio. A quem calhasse a fava era considerado o rei ou rainha da festa, com direito a usar uma coroa de circunstância e poderia pedir um desejo, mas também deveria pagar o próximo bolo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Pan de muerto",
+      "descricao": "Pão doce mexicano enfeitado com tiras de massa em forma de ossos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No México, o pan de muerto, pão doce enfeitado com tiras de massa em forma de ossos, é preparado para qual celebração?",
+    "resposta": "Dia dos Mortos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pan_de_muerto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pan_de_muerto",
+        "situacao": "ok",
+        "texto": "Pan de muerto (Spanish for 'bread of the dead') is a type of pan dulce traditionally baked in Mexico and the Mexican diaspora during the weeks leading up to the Día de Muertos, which is celebrated from November 1 to November 2.\n[…]\nHowever, the very composition of the ingredients of the pan de muerto reveals its origin: wheat, cane sugar, cow's milk and butter, eggs and orange aroma. All these products arrived in America in what is known as the \"Columbian exchange\". According to Dr. Malvido (1999), although much weight has been given to pre-Hispanic ideas in the celebration of the Day of the Dead, the influence that the Spanish culture and Catholic religion has exerted in colonial Mexico is also very important.\n[…]\nUntil the 1970s and 1980s in the United States, pan de muerto was not common in celebrations of what was then largely called All Saints' Day, but the rise of Chicano cultural activism lead to an embrace of the bread, public altars, and the name Dia de los Muertos. In Latin communities in Los Angeles, for example, many public altars serve as protests, such as those dedicated to the victims of police brutality.\n[…]\nWhile the bread has always been an expression of popular religious celebrations, by the late 2010s, pan de muerto had become more known through several American pop culture representations. It appeared in the 2017 Pixar film Coco, which broadened recognition of the bread outside the Mexican diaspora. In the award-winning young adult novel Cemetery Boys by Latino-American author Aiden Thomas (2020), pan de muerto is a central component in a Dia de los Muertos celebration.\n[…]\nMexico portal\n[…]\nMedia related to Pan de Muerto at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pan_de_muerto",
+        "situacao": "ok",
+        "texto": "Pan-de-muerto é um pão doce adornado com figuras, por vezes na forma de caveira, e polvilhado de açúcar, que faz parte das oferendas colocadas nos “altares-dos-mortos”, nas celebrações do Dia dos Mortos no México.\n[…]\nPara o preparar, mistura-se farinha de trigo com açúcar e erva-doce e acrescenta-se água morna misturada com leite, margarina, levedura e raspa de casca de laranja; quando estiver transformada num creme homogéneo, juntam-se ovos inteiros e continua a bater-se. Vai-se acrescentando farinha até se obter uma massa maleável, que se amassa até formar uma bola que se deixa a levedar até aumentar para o dobro do volume.\n[…]\nTransforma-se a bola em uma ou várias rodelas, dependendo do tamanho de pão que se pretende, ornamenta-se com pedaços de massa, na forma de folhas, cruzes ou crânios, colocam-se num tabuleiro do forno e deixam-se levedar até novamente duplicarem de tamanho. Cozem em forno quente e, quando douradas, pincelam-se com um xarope feito com sumo e raspa de casca de laranja e açúcar. Finalmente, polvilham-se com açúcar cristal, enquanto ainda quentes e húmidos do xarope.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Dia da Panqueca",
+      "descricao": "Costume britânico de comer panquecas no dia anterior à Quarta-feira de Cinzas."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Reino Unido, o Dia da Panqueca, em que se gastam ovos e manteiga antes da Quaresma, cai em qual dia do ano?",
+    "resposta": "Terça-feira de Carnaval",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shrove_Tuesday"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shrove_Tuesday",
+        "situacao": "ok",
+        "texto": "Shrove Tuesday (also known as Mardi Gras, Pancake Tuesday, or Pancake Day) is the final day of Shrovetide, which marks the end of the pre-Lenten season. Lent begins the following day with Ash Wednesday. Shrove Tuesday is observed in many Christian countries through participating in confession, the ritual burning of the previous year's Holy Week palms, finalizing one's Lenten sacrifice, as well as \n[…]\nOn the Portuguese island of Madeira, malasadas are eaten on Terça-feira Gorda (Fat Tuesday in English), which is also the last day of the Carnival of Madeira. Malasadas were cooked in order to use up all the lard and sugar in the house, in preparation for Lenten restrictions. This tradition was taken to Hawaii, where Shrove Tuesday is known as Malasada Day, which dates back to the days of the sugar plantations of the 1800s.\n[…]\nIn Ireland, the observance of fasting at Lent continued up to the 20th century, with Shrove Tuesday (Irish: Máirt na hInide, \"Tuesday of the initium\") marking the last day of the consumption of meat for the Lenten period. This was later relaxed, but with three days of fasting observed, Ash Wednesday, Spy Wednesday, and Good Friday. It was a tradition that the eldest unmarried daughter would toss the first pancake.\n[…]\nIf the pancake fell on the floor, she would remain unmarried for the next 12 months. As marriages were not traditionally permitted during the Lenten period, as decreed by the Council of Trent, weddings on Shrove Tuesday were popular. In some parts of Ireland the holly from Christmas was saved and burnt in the fire for the pancakes. The night was also known as \"Skellig Night\" in Counties Cork and Kerry, during the celebrations, those who were unmarried were taunted with jeers and singing.\n[…]\nShrove Tuesday occurs on these dates:\n[…]\nWorldwide Pancake Recipes: Archived 11 March 2014 at the Wayback Machine A collection of recipes from different countries"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ter%C3%A7a-feira_gorda",
+        "situacao": "ok",
+        "texto": "A terça-feira gorda (em francês: Mardi Gras), ou terça-feira de carnaval, é o dia de fevereiro ou março que precede a quarta-feira de cinzas. Portanto, é o último dia que antecede a Quaresma, e é comemorado em alguns países com o consumo de panquecas. Este feriado móvel é determinado pela Páscoa.\n[…]\nEm outros países, especialmente aqueles em que é chamado de Mardi Gras ou alguma tradução, este é o último dia de Carnaval, sendo, para os católicos, também o último dia de \"comer gordura\" antes do período de jejum da Quaresma.\n[…]\nQuarta-feira de cinzas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Bacalhau",
+      "descricao": "Peixe seco e salgado, base de muitos pratos da culinária portuguesa e brasileira."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em Portugal, o bacalhau cozido com batatas e couves é o prato tradicional de qual noite do ano?",
+    "resposta": "Véspera de Natal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacalhau"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bacalhau",
+        "situacao": "ok",
+        "texto": "Bacalhau (Portuguese: [bɐkɐˈʎaw]) is the Portuguese word for cod and—in a culinary context—dried and salted cod. Fresh (unsalted) cod is referred to as bacalhau fresco (fresh cod).\n[…]\nThe traditional production method for Bacalhau is protected in the EU and UK as a traditional speciality guaranteed under the name Bacalhau de Cura Tradicional Portuguesa.\n[…]\nWith the advancements in freezing and transportation in the 1900s, salted cod from North America declined and Iceland and Norway became the major supplier of the salted fish to Portuguese markets. During this time bacalhau was a cheap source of protein and frequently consumed. Thus, bacalhau became a staple of the Portuguese cuisine, nicknamed fiel amigo ('loyal friend').\n[…]\nIn fact, in Portugal, cod always refers to salted, dried codfish and it is very rare to find fresh cod (bacalhau fresco) for sale.\n[…]\nThis dish is also popular in Portugal and other Roman Catholic countries because of historical fasting rules, which forbade the eating of meat on many days (Fridays, Lent, and other festivals), and so bacalhau dishes were eaten instead. Bacalhau is also popular in Sfax where this dish is eaten with chermoula on the first day of Eid ul-Fitr .\n[…]\nIn Portugal, bacalhau is often sold as a generic product with no brand information. Customers are free to touch, smell, and otherwise personally inspect the fish, which is very different from how fresh seafood is often sold. Stores can carry a large variety of bacalhau differing in color, size, smell, taste, and dryness. Such variation has led Portugal to define requirements as to what products can carry the label Bacalhau de Cura Tradicional Portuguesa.\n[…]\nPortuguese cuisine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bacalhau_%28gastronomia%29",
+        "situacao": "ok",
+        "texto": "O bacalhau é um prato baseado no peixe de mesmo nome (bacalhau) que faz parte da gastronomia portuguesa pelo menos desde o século XIV. Foi herdado pela culinária brasileira mesmo antes da vinda da família real portuguesa ao Brasil..\n[…]\nA tradição é o consumo do bacalhau do atlântico (gadus morhua) e do pacífico (gadus macrocephalus) seco e salgado. A terceira opção de bacalhau considerado \"verdadeiro\" seria o bacalhau-da-Groênlandia (gadus ogac), que também foi historicamente pescado pelos portugueses. Dessas três espécies, o gadus morhua é o mais consumido em Portugal.\n[…]\nDo mesmo modo, no caso específico da indústria do bacalhau em Portugal, especificações como a determinação do teor de sal, expresso em cloreto de sódio, do teor de humidade, definição de temperaturas máximas para armazenagem e exposição para venda do bacalhau salgado, verde, semi-seco ou seco, e das espécies afins salgadas, verdes, semi-secas e secas, estão consagradas legalmente no Decreto-Lei n.° 25/2005, de 28 de janeiro.\n[…]\nHistoricamente, a cidade do Porto foi a primeira a receber e preparar o bacalhau que os pescadores portugueses buscavam nas águas geladas da Terra Nova, Islândia e Groenlândia. Por tradição cultural, no Brasil o nome \"Porto\" passou a identificar o bacalhau de melhor qualidade. Era o bacalhau que vinha da Cidade do Porto e que passou a ser identificado como Bacalhau do Porto nesse país.\n[…]\nBacalhau assado com batatas a murro\n[…]\nBacalhau Frito\n[…]\nTiborna (bacalhau)\n[…]\nBacalhau al pil pil, Espanha\n[…]\nBacalhau à biscainha, Espanha e México\n[…]\nArroz de bacalhau, Catalunha\n[…]\nFígado de bacalhau enlatado, Rússia\n[…]\nBacalhau\n[…]\n«Receitas de Bacalhau»\n[…]\n«1001 Receitas de Bacalhau»\n[…]\n«Receitas de bacalhau». Almanaque Culinário\n[…]\n«Receitas internacionais de Bacalhau»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Beaujolais Nouveau",
+      "descricao": "Vinho tinto jovem da região francesa de Beaujolais, feito com a uva gamay e lançado poucas semanas após a colheita."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Lançado todo ano numa quinta-feira, com festas pela França, o vinho jovem Beaujolais Nouveau chega ao mercado em qual mês?",
+    "resposta": "Novembro",
+    "distratores": [
+      "Março",
+      "Junho",
+      "Setembro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaujolais_nouveau"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beaujolais_nouveau",
+        "situacao": "ok",
+        "texto": "Beaujolais nouveau ( BOH-zhə-LAY noo-VOH, French: [boʒɔlɛ nuvo]) is a red wine made from Gamay grapes produced in the Beaujolais region of France. It is a vin de primeur, fermented just a few weeks before being released for sale on the third Thursday of November. Distributors compete to get the first bottles to different global markets. In 2024, Beaujolais nouveau sold 14.3 million bottles worldwi\n[…]\nThese rules were relaxed in November 1951, and the Union Interprofessionnelle des Vins du Beaujolais (Uivb) formally set 15 November as the release date for what would henceforth be known as Beaujolais nouveau. In 1985, the Institut National des Appellations d'Origine (INAO) established the third Thursday of November as a uniform release date for wine.\n[…]\nThe release date of Beaujolais nouveau was set in 1985. Under French law, Beaujolais nouveau is released at 00:01 am on the third Thursday of November.\n[…]\nThis \"Beaujolais Day\" is accompanied by publicity events and heavy advertising. The traditional slogan, even in English-speaking countries, was \"Le Beaujolais nouveau est arrivé!\" (literally, \"The new Beaujolais has arrived!\"), but in 2005, this was changed to \"It's Beaujolais Nouveau Time!\". In the United States, it is promoted as a drink for Thanksgiving, which always falls exactly one week after the wine is released (on the fourth Thursday of November).\n[…]\nThe commercial success of Beaujolais nouveau led to the development of other \"primeur\" wines in different parts of France, such as the Gaillac AOC near Toulouse. These wines are typically released on the third Thursday of November, just as their counterparts in Beaujolais are. The practice has spread to other wine-producing countries such as Italy (\"Vino Novello\"), Spain (\"vino joven\"), the Czech Republic (\"Svatomartinské víno\") and the US (\"nouveau wine\")."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Beaujolais_nouveau",
+        "situacao": "ok",
+        "texto": "Beaujolais nouveau (pronúncia em francês: ​[bo.ʒɔ.lɛ nu.vo]) é um vinho tinto feito de uvas Gamay cuja produção é feita na região francesa de Beaujolais. É o mais popular vin de primeur, fermentado por poucas semanas antes de ser comercializado na terceira quinta-feira de novembro. Esse \"Dia do Beaujolais Nouveau\" costumava ser objeto de muita propaganda, com disputas para fazer as primeiras garra\n[…]\nA prática de lançamento corrente é enviar as caixa do vinho com antecedência da data prevista e vendê-la a partir do primeiro minuto da terceira quinta-feira do mês de novembro no horário local.\n[…]\nAs regras foram mudadas em 13 de novembro de 1951, e a Union Interprofessionnelle des Vins du Beaujolais (UIVB) formalmente estabeleceu 15 de novembro como a data de lançamento pela qual o Beaujolais nouveau ficaria conhecido.\n[…]\nAs corridas de distribuição espalharam-se para os países europeus vizinhos na década de 1980, seguidos pela América do Norte, e década de 1990 para a Ásia. Em 1985, a data foi mudada para a terceira quinta-feira do mês de novembro para obter maiores vantagens na comercialização durante o fim de semana subsequente.\n[…]\nTodo esse dióxido de carbono provoca o processo de fermentação nas uvas não esmagadas (sem acesso ao oxigênio, daí o termo \"fermentação anaeróbica\"). O vinho resultante é fresco, frutado e com pouco tanino.\n[…]\nO sucesso comercial do Beaujolais nouveau levou ao desenvolvimento de outros vinhos \"primeur\" em outras partes da França, tais como o Gaillac AOC, próximo a Toulouse. Esses vinhos são tipicamente lançados na terceira quinta-feira de novembro, na mesma data dos vinhos em Beaujolais. A prática difundiu-se em outros países vitivinicultores, tais como a Itália (\"Vino Novello\"), Espanha (\"vino nuevo\") e os Estados Unidos (\"nouveau wine\").\n[…]\nBeaujolais\n[…]\nFatos Fascinantes sobre o Beaujolais Nouveau (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Oktoberfest",
+      "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja, criada em 1810."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, a Oktoberfest de Munique, a famosa festa da cerveja, começa tradicionalmente em qual mês?",
+    "resposta": "Setembro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oktoberfest"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst] ; Bavarian: Oktobafest/d'Wiesn) is the world's largest Volksfest. It combines a beer festival with a fun fair and is held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October.\n[…]\nThe historical Oktoberfest (Oide Wiesn, Bavarian for \"old fairground\") was introduced in 2010 for the 200th anniversary of Oktoberfest. It was held on the former site of the Central Agricultural Festival (ZLF) at the south end of the Theresienwiese and became a recurring feature from 2011.\n[…]\nThe Rosa Wiesn (Pink Wiesn), also called Gay Oktoberfest, is a series of LGBT events held during Oktoberfest. The main gathering, Gay Sunday, takes place in the Bräurosl tent on the first Sunday.\n[…]\nIn 2003, the campaign Sichere Wiesn für Mädchen und Frauen (\"Safe Oktoberfest for Girls and Women\") was launched to prevent sexual violence and abuse against women during the event.\n[…]\nFestivals inspired by Oktoberfest are also held in Australia, Russia, Namibia and Japan.\n[…]\nIn Germany itself, many cities host their own Oktoberfest-style events:\n[…]\nOktoberfest Hannover – approximately 500,000 visitors, the second-largest Oktoberfest in Germany\n[…]\nA German historical drama called Oktoberfest: Beer and Blood was released in 2020. Set in 1900, it focuses on the showman brewer Curt Prank as he transforms the festival into a global tourist attraction by replacing the local brewery stands with one large pavilion. Critics have compared the show's graphic violence and German new wave music soundtrack to Peaky Blinders. A second season was announced by head writer Ronny Schalk in 2021.\n[…]\nBeer and Oktoberfest Museum\n[…]\nVirtual exhibition: Oktoberfest – History, Background, Highlights, in the culture portal bavarikon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "A Oktoberfest (também conhecida como \"Wiesn\" em Munique[carece de fontes]?) é um festival de cerveja originado em Munique, Alemanha. Foi criado pelo rei bávaro Luís I para celebrar o seu casamento em 1810. A Oktoberfest é também uma feira de produtos e diversões celebrada em Munique (München), no estado da Baviera (Bayern), no sul da Alemanha, e disseminada por vários lugares do mundo.\n[…]\nA Oktoberfest é frequentado anualmente por seis milhões de visitantes de todo o mundo e se inicia desde 1872 sempre no sábado depois do 15 de Setembro as 12h00 horas com a tradicional cerimonia de abertura \"O'zapft is\". Termina duas semanas mais tarde, no primeiro domingo de Outubro - daí o nome Oktoberfest (em alemão, \"Oktober\" significa outubro, \"Fest\", festa ou festival, literalmente \"Festa de Outubro\").\n[…]\nO preço de um litro de cerveja é tradicionalmente uma questão política: em 2015 o jarro chega a € 10,40 (US$ 11,60).\n[…]\nA Oktoberfest de Blumenau atrai turistas do Brasil e do exterior, especialmente da Alemanha. mas também de países vizinhos da América do Sul e da América do Norte, sendo considerada a maior festa alemã das Américas e a segunda maior do mundo - atrás apenas da Oktoberfest original, em Munique. Segundo o site oficial do evento, em 2009 a Oktoberfest de Blumenau, atraiu 731 934 visitantes que consumiram pouco mais de 450 mil litros de chope e 19 821 garrafas de cervejas importadas.\n[…]\nAtualmente é considerada a maior festa Alemã das Américas, e em 2013 aconteceu entre os dias 3 e 20 de outubro.\n[…]\nVeja mais fotos da Oktoberfest.\n[…]\nFesta Nacional do Chope Escuro\n[…]\nOktoberfest de Igrejinha\n[…]\nOktoberfest de Santa Cruz do Sul\n[…]\nFotos de Oktoberfest\n[…]\n(em alemão) Oktoberfest Munique",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Oktoberfest",
+      "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja, criada em 1810."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Oktoberfest de Munique surgiu em 1810, com corridas de cavalos e festejos populares, para comemorar qual acontecimento?",
+    "resposta": "O casamento do príncipe Luís da Baviera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oktoberfest"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst] ; Bavarian: Oktobafest/d'Wiesn) is the world's largest Volksfest. It combines a beer festival with a fun fair and is held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October.\n[…]\nThe first Oktoberfest was held on 12 October 1810 to celebrate the wedding of Crown Prince Ludwig and Princess Therese of Saxony-Hildburghausen. The festival has been cancelled on multiple occasions, most recently in 2020 and 2021 during the COVID-19 pandemic in Germany.\n[…]\nOn October 12, 1810, Crown Prince Ludwig of Bavaria married Princess Therese of Saxe-Hildburghausen. Munich officials invited the public to celebrate on fields outside the city walls. The site was named Theresienwiese (\"Therese's Meadow\") the following year and is still called Wiesn.\n[…]\nThe historical Oktoberfest (Oide Wiesn, Bavarian for \"old fairground\") was introduced in 2010 for the 200th anniversary of Oktoberfest. It was held on the former site of the Central Agricultural Festival (ZLF) at the south end of the Theresienwiese and became a recurring feature from 2011.\n[…]\nThe Rosa Wiesn (Pink Wiesn), also called Gay Oktoberfest, is a series of LGBT events held during Oktoberfest. The main gathering, Gay Sunday, takes place in the Bräurosl tent on the first Sunday.\n[…]\nIn 2003, the campaign Sichere Wiesn für Mädchen und Frauen (\"Safe Oktoberfest for Girls and Women\") was launched to prevent sexual violence and abuse against women during the event.\n[…]\nOktoberfest Hannover – approximately 500,000 visitors, the second-largest Oktoberfest in Germany\n[…]\nBeer and Oktoberfest Museum\n[…]\nVirtual exhibition: Oktoberfest – History, Background, Highlights, in the culture portal bavarikon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "A Oktoberfest (também conhecida como \"Wiesn\" em Munique[carece de fontes]?) é um festival de cerveja originado em Munique, Alemanha. Foi criado pelo rei bávaro Luís I para celebrar o seu casamento em 1810. A Oktoberfest é também uma feira de produtos e diversões celebrada em Munique (München), no estado da Baviera (Bayern), no sul da Alemanha, e disseminada por vários lugares do mundo.\n[…]\nA Oktoberfest é frequentado anualmente por seis milhões de visitantes de todo o mundo e se inicia desde 1872 sempre no sábado depois do 15 de Setembro as 12h00 horas com a tradicional cerimonia de abertura \"O'zapft is\". Termina duas semanas mais tarde, no primeiro domingo de Outubro - daí o nome Oktoberfest (em alemão, \"Oktober\" significa outubro, \"Fest\", festa ou festival, literalmente \"Festa de Outubro\").\n[…]\nA Oktoberfest de Blumenau atrai turistas do Brasil e do exterior, especialmente da Alemanha. mas também de países vizinhos da América do Sul e da América do Norte, sendo considerada a maior festa alemã das Américas e a segunda maior do mundo - atrás apenas da Oktoberfest original, em Munique. Segundo o site oficial do evento, em 2009 a Oktoberfest de Blumenau, atraiu 731 934 visitantes que consumiram pouco mais de 450 mil litros de chope e 19 821 garrafas de cervejas importadas.\n[…]\nAtualmente é considerada a maior festa Alemã das Américas, e em 2013 aconteceu entre os dias 3 e 20 de outubro.\n[…]\nA Oktoberfest entrou para o calendário oficial de eventos da cidade apenas em 2017. Na ocasião, o evento foi realizado na Arena Anhembi, voltando a acontecer no mesmo local no ano seguinte. Em 2019, o festival ocorreu no Jockey Club.\n[…]\nVeja mais fotos da Oktoberfest.\n[…]\nFesta Nacional do Chope Escuro\n[…]\nOktoberfest de Igrejinha\n[…]\nOktoberfest de Santa Cruz do Sul\n[…]\nFotos de Oktoberfest\n[…]\n(em alemão) Oktoberfest Munique",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Lei Seca dos Estados Unidos",
+      "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Lei Seca, que proibiu a venda de bebidas alcoólicas em todo o território dos Estados Unidos, entrou em vigor em que ano?",
+    "resposta": "1920",
+    "distratores": [
+      "1908",
+      "1914",
+      "1929"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+        "situacao": "ok",
+        "texto": "The Prohibition era was the period from 1920 to 1933 when the United States prohibited the production, importation, transportation, and sale of alcoholic beverages. The alcohol industry was curtailed by a succession of state legislatures, and Prohibition was formally introduced nationwide under the Eighteenth Amendment to the United States Constitution, ratified on January 16, 1919.\n[…]\nMany people stockpiled wines and liquors for their personal use in the latter part of 1919 before sales of alcoholic beverages became illegal in January 1920.\n[…]\nBefore the Eighteenth Amendment went into effect in January 1920, many of the upper classes stockpiled alcohol for legal home consumption after Prohibition began. They bought the inventories of liquor retailers and wholesalers, emptying out their warehouses, saloons, and club storerooms. President Woodrow Wilson moved his own supply of alcoholic beverages to his Washington residence after his term of office ended. His successor, Warren G.\n[…]\nLocal criminal organizations had mostly limited their activities to prostitution, gambling, and theft until 1920, when organized \"rum-running\" or bootlegging emerged in response to Prohibition because a new, highly profitable black market for alcohol had emerged. Prohibition provided a financial basis for organized crime to flourish.\n[…]\nIn one study of more than 30 major U.S. cities during the Prohibition years of 1920 and 1921, the number of crimes increased by 24%. Additionally, theft and burglaries increased by 9%, homicides by 13%, assaults and battery rose by 13%, drug addiction by 45%, and police department costs rose by 11.4%. This was largely the result of \"black-market violence\" and the diversion of law enforcement resources elsewhere.\n[…]\n\"Interview With Dr. James M. Doran\". Popular Science Monthly, November 1930, pp. 19–21, 146–147, interview with the Prohibition Commissioner 1930."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lei_Seca_nos_Estados_Unidos",
+        "situacao": "ok",
+        "texto": "Na história dos Estados Unidos, a Lei Seca, também conhecida como O Nobre Experimento ou Proibição (Prohibition), caracteriza o período de 1920 a 1933 durante o qual a fabricação, transporte e venda de bebidas alcoólicas para consumo foram banidas nacionalmente, como estipulou a 18.ª emenda da Constituição dos Estados Unidos.[carece de fontes]?\n[…]\nEm maio de 1657, a Corte Geral de Massachusetts tornou ilegal a venda de bebidas de forte teor alcoólico \"conhecidas pelos nomes de rum, uísque, vinho, conhaque, etc.\".\n[…]\nA Lei Seca entrou em vigor em 1920, com o objetivo de salvar o país de problemas relacionados à pobreza e violência. A Constituição americana estabeleceu, na 18.ª Emenda, a proibição da fabricação, comércio, transporte, exportação e importação de bebidas alcoólicas. Essa lei vigorou por 13 anos (1920-1933).\n[…]\nO efeito causado pela lei foi totalmente contrário do que era esperado. Ao invés de acabar com o consumo de álcool e com os problemas sociais, entre outros problemas, a lei gerou a desmoralização das autoridades, o aumento da corrupção, explosões da criminalidade em diversos estados e o enriquecimento das máfias que dominavam o contrabando de bebidas alcoólicas. O ponto de encontro das pessoas que\n[…]\nArgumentando que a legalização das bebidas geraria mais empregos, elevaria a economia e aumentaria a arrecadação de impostos, os opositores do então presidente norte-americano Franklin Roosevelt o convenceram a pedir ao Congresso dos Estados Unidos que legalizasse a cerveja. Com isso, em 1933 é revogada a emenda constitucional da lei seca.\n[…]\nDécima Oitava Emenda à Constituição dos Estados Unidos\n[…]\nTimberlake, James. Prohibition and the Progressive Movement, 1900–1920 Harvard University Press, 1963.\n[…]\n«Historic Images of US Prohibition»\n[…]\n«Prohibition: How Dry We Ain't». - slideshow by Life magazine",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Rabanada",
+      "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Brasil e em Portugal, a rabanada, pão embebido em leite, frito e passado no açúcar com canela, é o doce típico de qual festa?",
+    "resposta": "Natal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rabanada"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rabanada",
+        "situacao": "ok",
+        "texto": "Rabanada, também conhecida como fatia dourada, fatia parida ou fatia de ovo, é um doce de pão de trigo (pão-de-forma, baguete ou outro) em fatias que, depois de molhadas em leite, vinho (no Minho usa-se vinho verde tinto ou branco) ou calda de açúcar, são passadas por ovos e fritas ou assadas.\n[…]\nAs rabanadas são um doce tipicamente do Natal e fazem parte de muitas mesas da consoada em Portugal, e em várias ceias do Brasil. São servidas polvilhadas com açúcar de canela ou regadas com caldas, de  açúcar, xarope de bordo, mel, vinho ou vinho do porto. Outrora, a palavra \"rabanada\" era apenas utilizada ao norte do rio Mondego e ao mesmo doce atribuía-se, a partir da margem sul do referido rio, o nome de fatia-dourada, ou fatia-de-parida.\n[…]\nNa França prepara-se com características similares o \"pain perdu\" (\"pão perdido\"), não sendo frito em azeite abundante, mas sim em manteiga ou numa chapa. No Reino Unido e em países de língua inglesa, bem como no Japão, é conhecido como \"French toast\". Em Portugal as rabanadas são preparadas de forma muito similar às torrijas ou torradas da vizinha Espanha.\n[…]\nNa Colômbia, Chile e Equador chamam-se \"tostadas francesas\". Na Guatemala se chamam \"tostadas a la francesa\"; e na fronteira norte do México pan francés. Na Argentina e Uruguai existe um modo simples de elaborar rabanadas (que podem ser chamadas nestes países \"torrejas\": umedece-se com leite migas de pão comum, formando um bolo, que é passado pela gema de ovo batido, depois frito e por fim pode ser polvilhado com açúcar.\n[…]\nNa Venezuela as rabanadas já foram conhecidas como \"tacones\", porém o termo caiu em desuso. No Brasil elas são cozidas especialmente para a temporada natalina, em que, logo depois da fritura, a rabanada é molhada em sumo de fruta ou leite condensado."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Chocolate",
+      "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Bebido pelos astecas como um preparo amargo e apimentado, o chocolate chegou à Europa, levado pelos espanhóis, em qual século?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_chocolate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_chocolate",
+        "situacao": "ok",
+        "texto": "The history of chocolate dates back more than 5,000 years, when the cacao tree was first domesticated in present-day Ecuador. Soon after domestication, the tree was introduced to Mesoamerica, where cacao drinks gained significance as an elite beverage among cultures including the Maya and the Aztecs. Cacao was considered a gift from the gods and was used as currency, medicine, and in ceremonies.\n[…]\nEarly evidence for chocolate consumption is found among the Maya, in 600 BC. Chocolate was used in official ceremonies and religious rituals, at feasts, weddings, and festivals, as funerary offerings and for medicinal purposes. Both cocoa beans and the vessels and instruments used for preparing and serving chocolate were given as gifts and tributes. It is unknown how, or if, commoners consumed chocolate.\n[…]\nThis habit of serving chocolate spiced to mimic the Mesoamerican flavorings had declined by the 18th century. Women almost always prepared chocolate, and only in rare cases did a man prepare it. During the early colonial period, missionaries sold solid sweet chocolates as delicacies, produced by nuns. These chocolates were very profitable.\n[…]\nMedical opinion of this time held that chocolate was medically beneficial if not consumed in excess.\n[…]\nIn Spain, Jesuits were prominent in importing and drinking chocolate until Charles III expelled them in 1767. The upper and middle class consumed chocolate for breakfast and after dinner, after drinking a glass of cold water. Guilds of chocolate grinders formed across cities. Recipes featured egg yolks. In Italy chocolate preparation varied.\n[…]\nValrhona introduced single-origin, vintage-dated chocolate in 1998 from a Trinidadian plantation.\n[…]\nShort documentary on historical chocolate-making processes (with English subtitles) on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_chocolate",
+        "situacao": "ok",
+        "texto": "A história do chocolate remonta a mais de 5.000 anos, quando o cacaueiro foi domesticado pela primeira vez no atual Equador. Logo após a domesticação, a árvore foi introduzida na Mesoamérica, onde as bebidas à base de cacau ganharam importância como uma bebida da elite entre culturas como a civilização maia e a asteca. O cacau era considerado uma dádiva dos deuses e utilizado como moeda, medicamen\n[…]\nSegundo Coe e Coe (2013), os soldados em combate eram a única exceção a essa exclusividade, pois o chocolate era considerado um estimulante. O chocolate fazia parte de suas rações, sendo consumido na forma de pelotas ou tabletes preparados com cacau moído. Embora o mole poblano, um molho que contém chocolate, seja comumente associado aos astecas, ele se originou em um território que nunca foi ocupado por eles, e o molho só foi inventado após a invasão espanhola.\n[…]\nÀ medida que mulheres espanholas imigraram e a elite espanhola deixou de se casar com mulheres locais, as mulheres astecas permaneceram nas residências como empregadas domésticas. As espanholas, mulheres de casta e afro-guatemaltecas que não podiam pagar por empregadas domésticas provavelmente aprenderam a preparar chocolate com suas vizinhas.\n[…]\nA data exata em que o chocolate foi levado à Espanha é desconhecida, e não há evidências de que Cortés tenha sido responsável por sua introdução. Segundo as evidências documentais mais antigas, ele foi introduzido na corte espanhola em 1544 por nobres maias Qʼeqchiʼ levados à Espanha por frades da Ordem Dominicana, mas somente em 1585 foi registrado o primeiro carregamento oficial de cacau para a Europa.\n[…]\nDa Inglaterra, o chocolate se espalhou para as colônias norte-americanas no final do século XVII. O chocolate já estava bem estabelecido entre as elites das Filipinas no final do século XVII, tendo sido levado para lá pelos espanhóis que conquistaram o arquipélago.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Café",
+      "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma lenda etíope, quem descobriu o café ao notar que suas cabras ficavam agitadas depois de comer os frutos do cafeeiro?",
+    "resposta": "O pastor Kaldi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kaldi",
+      "https://en.wikipedia.org/wiki/History_of_coffee"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kaldi",
+        "situacao": "ok",
+        "texto": "Kaldi was the name of a legendary goatherd who is credited with discovering coffee in 850 CE, according to popular legend, after which such crop entered the Islamic world and then the rest of the world.\n[…]\nKaldi is described as being an Ethiopian. In the 9th century, a goat herder named Kaldi noticed that when his goats were nibbling on the bright red berries of a certain bush, they became very energetic. Kaldi then chewed on the fruit himself. His exhilaration prompted him to bring the berries to the nearest place of worship in the village. After a brief explanation, the head monk of an Islamic monastery deemed the berries to be the devil's work, and abruptly threw the berries into a nearby fire.\n[…]\nThe herder is unnamed in the earliest account. The name Kaldi appears to be a later invention from the 20th century, propagated by William H. Ukers.\n[…]\nAccording to The World of Caffeine: The Science and Culture of the World's Most Popular Drug: The myth of Kaldi the Ethiopian goatherd and his dancing goats, the coffee origin story most frequently encountered in Western literature, embellishes the credible tradition that the Sufi encounter with coffee occurred in Ethiopia, which lies just across the narrow passage of the Red Sea from Arabia's western coast.\n[…]\nIn modern times, Kaldi Coffee, Kaldi's Coffee, Dancing Goat, and Wandering Goat are popular names for coffee shops and coffee roasting companies around the world. The largest coffee chain in Ethiopia is called Kaldi's Coffee."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_coffee",
+        "situacao": "ok",
+        "texto": "The history of coffee spans many centuries. Wild coffee plants originated in Ethiopia, while the beverage itself has its roots in Yemen, where it was harvested, roasted and brewed; Sufi Muslims in the 15th century used it to aid concentration during night prayers.\n[…]\nAl-Jaziri's manuscript work is of considerable interest with regard to the history of coffee in Europe as well. A copy reached the French royal library, where it was translated in part by Antoine Galland as De l'origine et du progrès du café (1699).\n[…]\nThere are several legendary accounts of the origin of the consumption of coffee. According to one legend, ancestors of today's Kafficho people in the Kingdom of Kaffa were the first to recognize the energizing effect of the coffee plant. One account involves a 9th-century Ethiopian or Arab goatherder, Kaldi, who, noticing the energizing effects when his flock nibbled on the bright red berries of a certain bush, chewed on the fruit himself.\n[…]\nThe herder is unnamed in the earliest account and the name Kaldi appears to be a later invention in the twentieth century.\n[…]\nComposer Johann Sebastian Bach, who was cantor of St. Thomas Church in Leipzig, in 1723–1750, conducted a musical ensemble at the local Café Zimmermann. Sometime in 1732–1735, he composed the secular \"Coffee Cantata\" Schweigt stille, plaudert nicht (BWV 211), in which a young woman, Lieschen, pleads with her disapproving father to accept her devotion to drinking coffee, then a newfangled fashion. The libretto includes such lines as:\n[…]\nGalland, Antoine (1699) De l'origine et du progrez du café, Éd. originale J. Cavelier Paris, 1992– La Bibliothèque, coll. L'Écrivain Voyageur"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Cookie com gotas de chocolate",
+      "descricao": "Biscoito americano de massa amanteigada com pedaços de chocolate, criado na década de 1930."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 1938, numa pousada de Massachusetts, que cozinheira americana criou o cookie com gotas de chocolate?",
+    "resposta": "Ruth Wakefield",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+      "https://en.wikipedia.org/wiki/Ruth_Graves_Wakefield"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+        "situacao": "ok",
+        "texto": "A chocolate chip cookie is a drop cookie that contains pieces of chocolate mixed into the dough before baking. Texture and appearance vary with ingredients and preparation, ranging from moist, chewy cookies to ones that are crispy.\n[…]\nChocolate chip cookies are closely associated with the United States, where they are the most popular cookie. Their invention is generally credited to Massachusetts chef and hotelier Ruth Graves Wakefield in the 1930s, although versions existed that preceded hers.\n[…]\nThe most common account of the creation of the chocolate chip cookie credits the American chef Ruth Graves Wakefield in the 1930s, though such accounts agree that chocolate had appeared in cookies earlier. Such earlier cookies contained chocolate in grated and melted forms, lacking the discrete pieces of chocolate that define chocolate chip varieties. These early cookies evolved from jumbles, a cookie popular in the late 1800s that was made by dropping unshaped dough onto a sheet pan.\n[…]\nRuth Wakefield created her recipe for chocolate chip cookies in the 1930s, although sources differ on the specific year. With her husband Kenneth, Wakefield owned and ran the Toll House Inn, a hotel and restaurant in Whitman, Massachusetts, that was well-known in the region. Several accounts exist of how Wakefield created her recipe for chocolate chip cookies, with older versions describing an accidental invention and more modern versions arguing that Wakefield created it intentionally.\n[…]\nIn Massachusetts, the chocolate chip cookie was designated as the Official State Cookie in 1997 in reference to the story of Ruth Wakefield creating the cookie in a Massachusetts inn.\n[…]\nOatmeal raisin cookie\n[…]\nPeanut butter cookie\n[…]\nNestle Toll House Cookie recipe"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ruth_Graves_Wakefield",
+        "situacao": "ok",
+        "texto": "Ruth Graves Wakefield (née Jones Graves; June 17, 1903 – January 10, 1977) was an American chef, known for her innovations in the baking field. She pioneered the first chocolate chip cookie recipe, an invention many people incorrectly assume was a mistake. Her new dessert, supposedly conceived of as she returned from a vacation in Egypt, is the inspiration behind the massively popular Toll House C\n[…]\nRuth Jones Graves was born on June 17, 1903, in East Walpole, Massachusetts, to Fred Graves and Helen Vest Jones. She was raised in Easton and attended the Framingham State School of Household Arts, currently Framingham State University. Upon graduation in 1924, Ruth taught home economics at Brockton High School, in addition to working as a hospital dietitian and a customer service representative at a utility company. Ruth married Kenneth Donald Wakefield, a meat packing executive, in 1928.\n[…]\nWakefield and her husband bought a tourist lodge that they called the Tollhouse Inn. She cooked for the guests using her own recipes and some of her grandmother's old recipes that became very successful and grew the Inn's dining room from seven tables to 60. Her recipes were so popular that she released multiple cookbooks, the most popular being a cookbook titled Ruth Wakefield's Tried and True Recipes in 1931.\n[…]\nWakefield was looking to improve on the colonial-style desserts she had been serving to her customers. In 1938, Ruth, along with her cooking assistant Sue Brides, were experimenting with a thin butterscotch pecan cookie that had been incredibly popular with guests. Her intuition was to add melting squares of baking chocolate to the blond batter, but she realized her baking cabinet was out of the ingredient.\n[…]\nRuth Graves Wakefield at Find a Grave"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Leite condensado",
+      "descricao": "Leite de vaca do qual se retira parte da água e ao qual se adiciona açúcar, base de muitos doces brasileiros."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Base do brigadeiro e do pudim, o leite condensado foi patenteado em 1856 por qual inventor americano?",
+    "resposta": "Gail Borden",
+    "distratores": [
+      "Thomas Edison",
+      "John Harvey Kellogg",
+      "Charles Goodyear"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Condensed_milk",
+      "https://en.wikipedia.org/wiki/Gail_Borden"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Condensed_milk",
+        "situacao": "ok",
+        "texto": "Condensed milk is cow's milk from which water has been removed (roughly 60% of it). It is most often found with sugar added, in the form of sweetened condensed milk, to the extent that the terms \"condensed milk\" and \"sweetened condensed milk\" are often used interchangeably today. Sweetened condensed milk is a very thick, sweet product, which when canned can last for years without refrigeration if \n[…]\nNicolas Appert condensed milk in France in 1820 and in 1835, English civil engineer William Newton added sugar as an additional measure of preservation. Before these developments, milk could be kept fresh for only a short while and was available only in the immediate vicinity of a lactating cow. While returning to the United States from a trip to England in 1851, Gail Borden Jr. was devastated by the deaths of several children, apparently from poor milk obtained from shipboard cows.\n[…]\nIn 1864, Gail Borden's New York Condensed Milk Company constructed the New York Milk Condensery in Brewster, New York. This was the largest and most advanced milk factory of its day and was Borden's first commercially successful plant. More than 200 dairy farmers supplied 20,000 US gallons (17,000 imperial gallons; 76,000 litres) of milk daily to the Brewster plant as demand increased driven by the American Civil War.\n[…]\nBorden's Eagle Brand sweetened condensed milk has noted that ice cream could be made quite simply at home with their product, cream, and various simple flavorings, being ready to serve after as little as four hours.\n[…]\nIn the Philippines, condensed milk is mixed with some evaporated milk and eggs, spooned into shallow metal containers over liquid caramelized sugar, and then steamed to make a stiffer and more filling version of crème caramel known as leche flan, also common in Brazil under the name pudim de leite.\n[…]\nMedia related to Condensed milk at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gail_Borden",
+        "situacao": "ok",
+        "texto": "Gail Borden Jr. (November 9, 1801 – January 11, 1874) was an American inventor and manufacturing pioneer. He was born in New York state and settled in Texas in 1829 (then part of Mexico), where he worked as a land surveyor, newspaper publisher, and food company entrepreneur. He created a process in 1853 to make sweetened condensed milk. Earlier, Borden helped plan the cities of Houston and Galvest\n[…]\nAround this same time, Borden married his third wife, Emeline Eunice Eno Church.\n[…]\nIn 1864, Gail Borden's New York Condensed Milk Company constructed the New York Milk Condensery in Brewster, New York. This was the largest and most advanced milk factory of its day, and it was Borden's first commercially successful plant. Over 200 dairy farmers supplied 20,000 U.S. gallons (76,000 liters) of milk daily to the Brewster plant as demand increased driven by the American Civil War.\n[…]\nIn 1892, Samuel and Alfred Church, stepsons of Borden, and residents of Elgin, Illinois, purchased and donated the Scofield Mansion at 50 N. Spring Street to house a new library for the residents of Elgin. Samuel and Alfred's only request was that the library be called the Gail Borden Public Library.\n[…]\nBorden was distantly related to Robert Borden (1854–1937), Canada's Prime Minister during World War I. One of his great-grandchildren was Gail Borden, an American figure skater in the 1932 Winter Olympics. Another notable relative is the infamous Lizzie Borden from the Fall River murders. Sir Robert, Lizzie, and Gail Borden (founder) are fourth cousins, all descended from John Borden (b.\n[…]\nFrantz, Joe B. (December 1948). \"Gail Borden as a Businessman\". Bulletin of the Business Historical Society. 22 (4/6): 123–133. doi:10.2307/3110879. JSTOR 3110879.\n[…]\nFrantz, Joe B. (1951). Gail Borden: Dairyman to a Nation. University of Oklahoma Press.\n[…]\nGail Borden Public Library, its official website\n[…]\nUnited States Patent Office"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Leite_condensado",
+        "situacao": "ok",
+        "texto": "O leite condensado é o produto resultante da remoção parcial de água do leite e frequentemente adicionado de açúcar, descoberto pelo francês Nicolas Appert em 1820, na pesquisa para esterilização e conservação de alimentos em embalagens herméticas. Em 1828, o inventor francês Malbec aplicou o método de Appert ao leite fresco de vacas para criar o leite condensado.\n[…]\nEsta nova forma de tratar o leite expandiu-se por toda a Europa e em 1853, chega aos Estados Unidos através de Gail Borden que patenteia o método em 1856.[carece de fontes]?\n[…]\nCom a guerra civil americana, iniciada em 1861, o produto atinge grande sucesso comercial. Em 1880, o suíço J.B. Meyenberg, aprimorou o método de fabricação ao utilizar um sistema de esterilização em autoclave, que elevava o leite à temperatura de 120 °C em um recipiente fechado sob alta pressão, e comercializava-o em latas. Em 1884, Meyenberg  patenteia esse sistema e em 1885, emigra aos Estados Unidos, onde cria as fábricas de leite condensado.\n[…]\nAtualmente a maior fábrica de leite condensado do mundo se localiza na cidade de Montes Claros-MG, pertencente ao grupo Nestlé[carece de fontes]?.\n[…]\nNo Brasil, o leite condensado é de grande consumo e mais do que substituir o leite in natura é popularmente muito utilizado na preparação de sobremesas e coberturas de bolos e tortas e é o ingrediente principal do brigadeiro e do pudim de leite condensado.\n[…]\nO leite condensado caseiro é completamente diferente do comercial e possui uma alta adição de açúcar, e além do leite integral, pode ser preparado com a adição de leite em pó integral e lactose. Mas existem variedades como o leite evaporado e pressurizado a 120 °C que não contém açúcar ou contém pouco açúcar, que é o caso do leite condensado industrial que compramos nas latinhas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Apertização",
+      "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Para alimentar as tropas de Napoleão, que confeiteiro francês criou o método de conservar alimentos em vidros bem fechados e fervidos?",
+    "resposta": "Nicolas Appert",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nicolas_Appert",
+      "https://en.wikipedia.org/wiki/Canning"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nicolas_Appert",
+        "situacao": "ok",
+        "texto": "Nicolas Appert (17 November 1749 – 1 June 1841) was a French confectioner and inventor who, in the early 19th century, invented airtight food preservation. Appert, known as the \"father of food science\", described his invention as a way \"of conserving all kinds of food substances in containers\".\n[…]\nAppert's canned goods were widely appreciated, especially by naval services as the products were far superior to the dried and salted provisions on which they had previously relied. Cans were exported to Bavaria and Saint Petersburg, and received praise from newspapers across France. However, this did not translate into financial success.\n[…]\nIn 1985 a street in Paris, the Rue Nicolas-Appert, was constructed and named in his honour. Many other streets in France bear his name.\n[…]\nThere is a high school named after Nicolas Appert in Orvault, France.\n[…]\n2010 was declared Nicolas Appert Year, a national celebration, by the French ministry of culture. The Principality of Monaco issued a postage stamp featuring Appert. An exhibition entitled \"Mise en boîte\" was held at the Musée des Beaux-Arts et d'Archéologie de Châlons-en-Champagne.\n[…]\nSince 1942, each year the Chicago section of the Institute of Food Technologists has awarded the Nicolas Appert Award, recognizing lifetime achievement in food technology.\n[…]\nThe student association of the Food Technology education at Wageningen University is called Nicolas Appert. Since 1962 this association has focused on improving courses related to food technology education and organises several events each year for students and alumni. In 2022 the association celebrated its 12th lustrum.\n[…]\nFather of Canning\n[…]\nAppert-aina.com Archived 4 September 2011 at the Wayback Machine\n[…]\nStudy association Nicolas Appert\n[…]\nWorks by Nicolas Appert at Project Gutenberg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Canning",
+        "situacao": "ok",
+        "texto": "Canning is a method of food preservation in which food is processed and sealed in an airtight container (jars like Mason jars, and steel and tin cans). Canning provides a shelf life that typically ranges from one to five years, although under specific circumstances, it can be much longer. A freeze-dried canned product, such as canned dried lentils, could last as long as 30 years in an edible state\n[…]\nIn 1809, Nicolas Appert, a French confectioner and brewer, observed that food cooked inside a jar did not spoil unless the seals leaked, and developed a method of sealing food in glass jars. Appert was awarded the prize in 1810 by Count Montelivert, a French minister of the interior. The reason for lack of spoilage was unknown at the time, since it would be another 50 years before Louis Pasteur demonstrated the role of microbes in food spoilage and developed pasteurization.\n[…]\nFollowing the end of the Napoleonic Wars, the canning process was gradually employed in other European countries and the United States.\n[…]\nBased on Appert's methods of food preservation, the tin can process was allegedly developed by Frenchman Philippe de Girard, who came to London and used British merchant Peter Durand as an agent to patent his own idea in 1810. Durand did not pursue food canning himself, selling his patent in 1811 to Bryan Donkin and John Hall, who were in business as Donkin Hall and Gamble, of Bermondsey. Bryan Donkin developed the process of packaging food in sealed airtight cans, made of tinned wrought iron.\n[…]\nGlass jars have remained popular for some high-value products and in home canning.\n[…]\nIn February 2009 during a recession, the United States saw an 11.5% rise in sales of canning-related items.\n[…]\nSome communities in the US have county canning centers which are available for teaching canning, or shared community kitchens which can be rented for canning one's own foods."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nicolas_Appert",
+        "situacao": "ok",
+        "texto": "Nicolas Appert (Châlons-en-Champagne, 17 de novembro de 1749 – Massy, 1 de junho de 1841) foi um inventor e industrial francês. Descobriu que o aquecimento de alimentos em recipientes fechados poderia interromper o processo de fermentação. Em 1795 iniciou a comercialização de alimentos conservados em garrafas. Suas técnicas foram as precursoras dos métodos atuais de conservação de alimentos em lat\n[…]\nAppert foi ativo durante a Revolução Francesa e até mesmo participou da execução do rei Luís XVI. No entanto, ele caiu sob suspeita durante o subsequente período do Terror e foi preso em abril de 1794, mas ele mesmo conseguiu evitar ser executado. Em 1795, ele começou a experimentar maneiras de conservar alimentos, obtendo sucesso com sopas, vegetais, sucos, laticínios, geleias e xaropes.\n[…]\nApesar de seus sucessos, Appert teve problemas financeiros devido ao alto custo de seu equipamento e ao fato de não ser um bom empresário. Ele declarou falência em 1806, mas conseguiu continuar seu negócio. Em 1795, Napoleão ofereceu um prêmio de 12 mil francos por um novo método de conservação de alimentos. Em 1806, Appert apresentou uma seleção de frutas e vegetais engarrafados de sua manufatura na Exposition des produits de l'industrie française, mas não ganhou nenhuma recompensa.\n[…]\nEmbora Appert nunca tenha realmente entendido por que seu método funcionava (isso sendo anos antes do desenvolvimento da ciência da bacteriologia), ele era tão simples que rapidamente se espalhou. Em 1810, o inventor e comerciante britânico Peter Durand patenteou seu próprio método, mas desta vez em uma lata, criando assim o processo moderno de enlatamento de alimentos. Em 1812, os ingleses Bryan Donkin e John Hall compraram ambas as patentes e começaram a produzir conservas.\n[…]\nPrémio Nicholas Appert\n[…]\nNicolas Appert - \"Le Livre de tous les Ménages\" (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Chá da tarde",
+      "descricao": "Refeição leve britânica do fim da tarde, com chá, sanduíches e bolos, surgida no século dezenove."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 1840, que duquesa inglesa criou o hábito do chá da tarde, com bolos e sanduíches, para enganar a fome antes do jantar?",
+    "resposta": "Anna, duquesa de Bedford",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anna_Russell,_Duchess_of_Bedford",
+      "https://en.wikipedia.org/wiki/Tea_(meal)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anna_Russell,_Duchess_of_Bedford",
+        "situacao": "ok",
+        "texto": "Anna Maria Russell, Duchess of Bedford (née Stanhope; 3 September 1783 – 3 July 1857) was a lifelong friend of Queen Victoria, whom she served as a Lady of the Bedchamber between 1837 and 1841.\n[…]\nAnna was the daughter of Charles Stanhope, 3rd Earl of Harrington, and Jane Fleming. She was the wife of Francis Russell, 7th Duke of Bedford (married in 1808), and sister-in-law to the prime minister John Russell. She was also the mother of William Russell, 8th Duke of Bedford. She became Duchess of Bedford in 1839, when her husband acceded to the dukedom.\n[…]\nAccording to the British Museum, the Duchess invented the custom of taking afternoon tea, in around 1840. Due to increasing urbanisation and industrialisation, wealthy English people were having their evening meal later and later, but still eating lunch at midday. The Duchess became despondent at the void between the two meals, and its consequent 'sinking feeling'.\n[…]\nThe Duchess and her husband entertained the Queen at their country house Woburn Abbey in 1841. The Duchess was also the chief mourner at the funeral of Princess Augusta Sophia in 1840.\n[…]\nAfter inventing the afternoon tea ritual, the Duchess started inviting her friends to join in. As those friends were also royal courtiers, the Queen became aware of the nascent custom, and immediately approved. By the 1880s, the Queen had adopted the ritual herself, and was holding official tea receptions at her palaces.\n[…]\nThe Duchess died in 1857 and is buried in the Bedford chapel at Chenies in Buckinghamshire."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tea_(meal)",
+        "situacao": "ok",
+        "texto": "Tea is an umbrella term for several different meals consisting of food sometimes accompanied by tea to drink. The English writer Isabella Beeton, whose books on home economics were widely read in the 19th century, describes meals of various kinds and provides menus for the \"old-fashioned tea\", the \"at-home tea\", the \"family tea\", and the \"high tea\".\n[…]\nAnna Russell, the Duchess of Bedford, is commonly cited as the originator of the meal of afternoon tea. Accordingly to the story, at some time in the 1830s or 1840s, the duchess requested a collation of tea and snacks be sent up to her room between the mid-day and evening meals. During this period, it was the custom for the aristocracy to take their evening meal no earlier than 19:30, or 20:00.\n[…]\nAfternoon tea became part of the colonial legacy, rooted in many post-colonial cultures, and continues to exist in both modified and unchanged forms.\n[…]\nWhen taken at mid-morning instead of mid-afternoon, the term \"morning tea\" is used in place of \"afternoon tea\" in Australia and New Zealand. These usages have declined in popularity in recent years, in tandem with the rise in coffee culture, particularly in Australia. The term high tea is now used in the southern hemisphere to describe formal afternoon teas. Formal afternoon teas are often held outside the private home in commercial tea rooms, function venues, hotels, or similar.\n[…]\nIn Australia and New Zealand, a break from work or school taken at mid-morning is frequently known as \"morning tea\", and a break at mid-afternoon as \"afternoon tea,\" both with or without the tea being drunk. A smoko, originally meaning a cigarette break, is also used as slang for a break, especially for people working in manual work.\n[…]\nPost, Emily (1922). \"Chapter XIII: Teas and Other Afternoon Parties\". Etiquette."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Vinho do Porto",
+      "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1756, que ministro do rei dom José criou a região demarcada do Douro para controlar a produção do vinho do Porto?",
+    "resposta": "Marquês de Pombal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Port_wine",
+      "https://en.wikipedia.org/wiki/Douro_DOC"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Port_wine",
+        "situacao": "ok",
+        "texto": "Port wine (Portuguese: vinho do Porto, Portuguese: [ˈviɲu ðu ˈpoɾtu]; lit. 'wine of Porto'), or simply port, is a Portuguese fortified wine produced in the Douro Valley of northern Portugal. It is typically a sweet red wine, often served with dessert, although it also comes in dry, semi-dry, and white varieties.\n[…]\nThe Douro valley where port wine is produced was defined and established as a protected region, and the name Douro thus an official appellation, in 1756, making it the third oldest wine after Chianti (1716) and Tokaj (1730).\n[…]\nIn 1756, during the rule of the Marquis of Pombal, the Companhia Geral da Agricultura das Vinhas do Alto Douro (C.G.A.V.A.D., also known as the General Company of Viticulture of the Upper Douro or Douro Wine Company), was founded to guarantee the quality of the product and fair pricing to the end consumer. The C.G.A.V.A.D. was also in charge of regulating which port wine would be for export or internal consumption and managing the protected geographic indication.\n[…]\nPort is produced from grapes grown in the Douro valley. Until 1986 it could only be exported from Portugal from Vila Nova de Gaia near Porto, Portugal's second-largest city. Traditionally, the wine was taken downriver in flat-bottom boats called 'barcos rabelos', to be processed and stored. In the 1950s and 1960s, several hydroelectric power dams were built along the river, ending this traditional conveyance.\n[…]\nThe Port and Douro Wines Institute is an official body belonging to the Ministry of Agriculture of Portugal and is a key institution in promoting the industry and knowledge of making port wine. It was previously known as the Instituto do Vinho do Porto.\n[…]\nMadeira wine\n[…]\nInstituto dos Vinhos do Douro e Porto Port and Douro Wines Institute official site, Portuguese Ministry of Agriculture"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Douro_DOC",
+        "situacao": "ok",
+        "texto": "Douro is a Portuguese wine region centered on the Douro River in the Trás-os-Montes e Alto Douro region. It is sometimes referred to as the Alto Douro (upper Douro), as it is located some distance upstream from Porto, sheltered by mountain ranges from coastal influence.\n[…]\nThe region has Portugal's highest wine classification as a Denominação de Origem Controlada (DOC) and is registered as a Protected Designation of Origin under EU and UK law, and as a Geographical Indication in several other countries through bilateral agreements. While the region is best known for Port wine production, the Douro produces just as much table wine (non-fortified wines) as it does fortified wine. The non-fortified wines are typically referred to as \"Douro wines\".\n[…]\nAs part of the regulation of the production and trade of this valuable commodity, a royal Portuguese charter of 10 September 1756 defined the production region for Port wine. It thus became the world's first wine region to have a formal demarcation. The vineyards covered by this demarcation were situated in the western part of the present region. Later, the vineyards have progressively expanded to the east into hotter and drier areas.\n[…]\nA contributing factor was Portugal's entry into the European Economic Community in 1986, which meant that the Port lodges' monopoly was abolished, thus paving the way for producers in the Douro valley to produce and bottle their own wine - Port or dry Douro wines. At this stage, several Port houses also introduced Douro wines into their range.\n[…]\nTerraced vineyards are very common in the Douro region. Vineyards dedicated to Port production are usually planted on schist while areas with granite-based soils are used for table wine production.\n[…]\nList of Portuguese wine regions"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vinho_do_Porto",
+        "situacao": "ok",
+        "texto": "O Vinho do Porto é um vinho licoroso, produzido na Região Demarcada do Douro, sob condições peculiares derivadas de fatores naturais e humanos. O processo de fabrico, baseado na tradição, inclui a paragem da fermentação do mosto pela adição de aguardente vínica (benefício ou aguardentação), a lotação de vinhos e o envelhecimento.\n[…]\nO vinho do Porto é produzido a partir de uvas provenientes da Região Demarcada do Douro, no norte de Portugal a cerca de 100 km a leste da cidade do Porto. Lamego, São João da Pesqueira, Régua e Pinhão são os principais centros de produção, mas algumas das melhores vinhas ficam na zona mais a leste.\n[…]\nS. João da Pesqueira é o concelho com maior produção de vinho do Porto a nível nacional. Esta bebida é produzida com uvas do Douro e armazenada nas caves de Vila Nova de Gaia, esta bebida alcoólica ficou conhecida como \"vinho do Porto\" a partir da segunda metade do século XVII por ser exportada para todo o mundo a partir desta cidade.\n[…]\nA \"descoberta\" do vinho do Porto é polémica. Uma das versões, defendida pelos produtores da Inglaterra, refere que a origem data do século XVII, quando os mercadores britânicos adicionaram brandy ao vinho da região do Douro para evitar que ele azedasse. Mas o processo que caracteriza sua obtenção talvez já fosse conhecido bem antes do início do comércio com os ingleses. Já na época dos Descobrimentos o vinho era armazenado desta forma para se conservar um máximo de tempo durante as viagens.\n[…]\nA diferença fundamental reside na zona de produção e nas castas utilizadas, hoje protegidas. A empresa Croft foi das primeiras a exportar vinho do Porto, seguida por outras empresas inglesas e escocesas.\n[…]\nHistória do Vinho do Porto em ThePORTWINE.com\n[…]\nAssociação de Empresas de Vinho do Porto\n[…]\nDouro Valley — Vinho do Porto\n[…]\nDouro Valley — História do Vinho do Porto",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Pastel de nata",
+      "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Antes do século dezenove, os pastéis de nata eram feitos por religiosos de qual mosteiro do bairro de Belém, em Lisboa?",
+    "resposta": "Mosteiro dos Jerónimos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pastel_de_nata"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pastel_de_nata",
+        "situacao": "ok",
+        "texto": "Pastel de nata (Portuguese: [pɐʃˈtɛl dɨ ˈnatɐ]; literally, cream pastry; pl.: pastéis de nata) is a Portuguese egg custard tart pastry, optionally dusted with cinnamon. Outside Portugal, they are particularly popular in other parts of Western Europe, former Portuguese colonies, such as Brazil, Mozambique, Macau, Goa, Malacca and Timor-Leste, and other parts of Asia.\n[…]\nPastéis de nata tarts are pastries inspired by an original recipe called pastéis de Belém, which were created before the 18th century by Catholic monks at the Jerónimos Monastery in the civil parish of Belém, in Lisbon. At the time, convents and monasteries used large quantities of egg-whites for starching clothes, such as friars and nuns' religious habits.\n[…]\nIn the aftermath of the Liberal Revolution of 1820, following the dissolution of religious orders and in the face of the impending closure of many convents and monasteries, the monks started selling pastéis de nata at a nearby sugar refinery to bring in revenue. In 1834, the monastery was closed and the recipe sold to the sugar refinery, whose owners opened the Fábrica de Pastéis de Belém in 1837. The descendants own the business to this day.\n[…]\nSince the opening of Fábrica de Pastéis de Belém, the original recipe that inspired pastel de nata varieties is kept in a secret room. The Fábrica de Pastéis de Belém is, therefore, the only place in the world that produces the original pastry that inspired many variations commonly known as \"pastéis de nata\"; the shop is located just a short three-minute walk from the Jerónimos Monastery. The shop offers both takeout and sit-in services and sells over 20,000 pastéis a day.\n[…]\nTorta de nata\n[…]\nLeite, David (8 September 2004), \"Pastéis de Belém–The World's First Pastéis de Nata\", Leite's Culinaria, retrieved 9 June 2022\n[…]\nOfficial website of Pastéis de Belém"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pastel_de_nata",
+        "situacao": "ok",
+        "texto": "Pastel de nata é uma popular especialidade da doçaria portuguesa, de inspiração conventual. Terá sido criado pelos monges jerónimos no Mosteiro de Santa Maria de Belém e possui origem certificada. A receita original é denominada Pastel de Belém, produzida exclusivamente na Fábrica dos Pastéis de Belém, em Lisboa, e tem como base ingredientes como ovo, leite, açúcar, limão e canela.\n[…]\nEm 2011, o Pastel de Belém foi eleito uma das 7 Maravilhas da Gastronomia de Portugal. Em 2023, as duas principais versões do doce lideravam o ranking de avaliações na seção \"pastelaria\" do site TasteAtlas.\n[…]\nO comerciante teria fundado uma refinaria de açúcar onde hoje está loja dos pastéis de Belém, tendo para isso contratado um antigo cozinheiro dos monges jerónimos, extintos em 1834 após a revolução liberal de 1820, e consequente extinção das ordens religiosas. O cozinheiro teria trazido com ele o segredo dos pastéis, que passaram a ser confeccionados e vendidos naquele local a partir de 1837.\n[…]\nDesde 2009, o concurso \"O Melhor Pastel de Nata\" elege a melhor versão do tradicional doce entre as versões produzidas pelas confeitarias, pastelarias, cafés e restaurantes da Área Metropolitana de Lisboa. Em 2023, a Confeitaria Glória, localizada em Amadora, foi a campeã.\n[…]\nComo um doce português, o pastel de nata é também bastante comum no Brasil. Os pastéis de nata são muito populares na China, onde chegaram através de Macau, no tempo da presença portuguesa. Em chinês são chamados \"dan ta\" (蛋挞), significando \"pastel de ovo\". Empresas de fast food incluíram os \"dan ta\" na sua oferta de sobremesas, fazendo com que, desde finais da década de 1990, seja possível saborear pastéis de nata em países asiáticos, como o Camboja, Singapura, Malásia, Hong Kong e Taiwan.\n[…]\nPastel de Vouzela\n[…]\nPastel de Chaves\n[…]\nPastel de feijão\n[…]\nMedia relacionados com Pastel de nata no Wikimedia Commons\n[…]\nPastéis de Belém",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Chá",
+      "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Segundo uma lenda chinesa, o chá foi descoberto quando folhas caíram na água fervente de qual imperador mítico?",
+    "resposta": "Shennong",
+    "distratores": [
+      "Imperador Amarelo",
+      "Qin Shi Huang",
+      "Kublai Khan"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_tea",
+      "https://en.wikipedia.org/wiki/Shennong"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_tea",
+        "situacao": "ok",
+        "texto": "The history of tea spreads across many cultures throughout thousands of years. The tea plant Camellia sinensis is both native and probably originated in the borderlands of China and northern Myanmar. One of the earliest accounts of tea drinking is dated back to China's Shang dynasty, in which tea was consumed in a medicinal concoction.\n[…]\nIn Chinese legend, some time around 2737 BCE, Emperor Shennong was drinking a bowl of just boiled water because of a decree that his subjects must boil water before drinking it. A few leaves were blown from a nearby tree into his water, changing the color and taste. The emperor took a sip of the brew and was pleasantly surprised by its flavor and restorative properties.\n[…]\nA variant of the legend tells that the emperor tested the medical properties of various herbs on himself, some of them poisonous, and found tea to work as an antidote. Shennong is also mentioned in Lu Yu's famous early work on the subject, The Classic of Tea. A similar Chinese legend states that Shennong would chew the leaves, stems, and roots of various plants to discover medicinal herbs. If he consumed a poisonous plant, he would chew tea leaves to counteract the poison.\n[…]\nThe Chinese variety is used for Sikkim, Darjeeling tea, and Kangra tea, while the Assam variety, clonal to the native to Assam, was used everywhere else. The British started commercial tea plantations in India and in Ceylon:\n[…]\nAs an attempt to circumvent its dependence on Chinese tea, the East India Company sent Scottish botanist Robert Fortune to China to purchase and bring out of China tea plants, which were then taken to India. With the exception of a few plants which survived in established Indian gardens, most of the Chinese tea plants Fortune introduced in the north-western provinces of India perished."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Shennong",
+        "situacao": "ok",
+        "texto": "Shennong (Chinese: 神農; pinyin: Shénnóng), variously translated as \"Divine Farmer\" or \"Divine Husbandman\", born Jiang Shinian (姜石年), was a mythological Chinese ruler known as the Yan Emperor and a deity in Chinese folk religion. He is venerated as a culture hero in China.\n[…]\nReliable information on the history of China before the 13th century BC can come only from archaeological evidence because China's first established written system on a durable medium, the oracle bone script, did not exist until then. Thus, the concrete existence of even the Xia dynasty, said to be the successor to Shennong, is yet to be proven, despite efforts by Chinese archaeologists to link that dynasty with Bronze Age Erlitou archaeological sites.\n[…]\nHowever, Shennong, both the individual and the clan, are very important in Chinese cultural history, especially in regards to mythology and popular culture. Indeed, Shennong figures extensively in historical literature.\n[…]\nUnder his various names, Shennong is the patron deity of farmers, rice traders, and practitioners of traditional Chinese medicine. Many temples and other places dedicated to his commemoration exist.\n[…]\nThis work lists the various medicinal herbs, such as lingzhi, and marijuana that were discovered by Shennong and given grade and rarity ratings. It is considered to be the earliest Chinese pharmacopoeia, and includes 365 medicines derived from minerals, plants, and animals. Shennong is credited with identifying hundreds of medical (and poisonous) herbs by personally testing their properties, which was crucial to the development of traditional Chinese medicine.\n[…]\nShennong is venerated as the Father of Chinese medicine. He is also believed to have introduced the technique of acupuncture.\n[…]\nStatue of Shennong in ZhuZhou"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Pão fatiado",
+      "descricao": "Pão de forma vendido já cortado em fatias por máquina, popularizado nos Estados Unidos a partir de 1928."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1928, o pão de forma começou a ser vendido já fatiado graças à máquina de qual inventor americano?",
+    "resposta": "Otto Rohwedder",
+    "distratores": [
+      "Thomas Edison",
+      "Charles Strite",
+      "John Harvey Kellogg"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sliced_bread",
+      "https://en.wikipedia.org/wiki/Otto_Frederick_Rohwedder"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sliced_bread",
+        "situacao": "ok",
+        "texto": "Sliced bread is a loaf of bread, sliced with a machine and packaged for convenience, as opposed to the consumer cutting it with a knife. It was first sold in 1928, advertised as \"the greatest forward step in the baking industry since bread was wrapped\". By 1933, around 80% of bread sold in the US was pre-sliced, leading to the popular idiom \"greatest thing since sliced bread\".\n[…]\nOtto Frederick Rohwedder of Davenport, Iowa, United States, invented the first single loaf bread-slicing machine. A prototype he built in 1912 was destroyed in a fire, and it was not until 1928 that Rohwedder had a fully working machine ready. The first commercial use of the machine was by the Chillicothe Baking Company of Chillicothe, Missouri, who sold their first slices on July 7, 1928. Their product, \"Kleen Maid Sliced Bread\", proved to be a success.\n[…]\nBattle Creek, Michigan, has a competing claim as the first city to sell bread sliced by Rohwedder's machine; however, historians have produced no documentation backing up Battle Creek's claim. The bread was advertised as \"the greatest forward step in the baking industry since bread was wrapped\".\n[…]\nSt. Louis baker Gustav Papendick bought Rohwedder's second bread slicer and set out to improve it by devising a way to keep the slices together at least long enough to allow the loaves to be wrapped. After failures trying rubber bands and metal pins, he settled on placing the slices into a cardboard tray. The tray aligned the slices, allowing mechanized wrapping machines to function.\n[…]\nThe phrase \"the greatest thing since sliced bread\" is a common idiom used to praise an invention or development. A writer for The Kansas City Star wrote that \"the phrase is the ultimate depiction of innovative achievement and American know-how.\"\n[…]\nUS 1867377  – Rohwedder's 1928 bread slicer.\n[…]\n\"A Day in the Life\" podcast on sliced bread."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Otto_Frederick_Rohwedder",
+        "situacao": "ok",
+        "texto": "Otto Frederick Rohwedder (July 7, 1880 – November 8, 1960) was an American inventor and engineer who created the first automatic bread-slicing machine for commercial use. It was first used by the Chillicothe Missouri Baking Company.\n[…]\nRohwedder first had a brief career as a jeweler, and became the owner of three jewelry stores in St. Joseph, Missouri. He used his work with watches and jewelry to invent new machines. Convinced he could develop a bread slicing machine, he sold his jewelry stores to fund the development effort and manufacture the machines.\n[…]\nIn 1927 Rohwedder successfully designed a machine that not only sliced the bread but wrapped it. He applied for patents to protect his invention and sold the first machine to a friend and baker Frank Bench, who installed it at the Chillicothe Baking Company, in Chillicothe, Missouri, in 1928. The first loaf of sliced bread was sold commercially on July 7, 1928. Sales of the machine to other bakeries increased and sliced bread became available across the country.\n[…]\nIn 1930 Continental Baking Company introduced Wonder Bread as a sliced bread. It was followed by other major companies when they saw how the bread was received. By 1932 the availability of standardized slices had boosted sales of automatic, pop-up toasters, an invention of 1926 by Charles Strite. In 1933 American bakeries for the first time produced more sliced than unsliced bread loaves.\n[…]\nThat same year Rohwedder sold his patent rights to the Micro-Westco Co. of Bettendorf, Iowa, and joined the company. He became vice-president and sales manager of the Rohwedder Bakery Machine Division.\n[…]\nRohwedder had seven patents approved from 1927–1936 having to do with bread slicing and handling."
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Picolé",
+      "descricao": "Sorvete ou refresco congelado preso a um palito."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1905, um menino americano de onze anos esqueceu um refresco com um palito do lado de fora numa noite fria e inventou o picolé. Quem era ele?",
+    "resposta": "Frank Epperson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ice_pop",
+      "https://en.wikipedia.org/wiki/Frank_Epperson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ice_pop",
+        "situacao": "ok",
+        "texto": "An ice pop is a liquid/cream-based frozen dessert on a stick. Unlike ice cream or sorbet, which are whipped while freezing to prevent ice crystal formation, an ice pop is frozen while at rest, becoming a solid block of ice with an icy texture. It is a fusion of flavored liquid, like juice or a sweetened water-based liquid. The stick is used as a handle to hold it. Without a stick, the frozen produ\n[…]\nAs early as 1872, a partnership known as Ross and Robins sold \"a frozen-fruit confection on a stick, which they called the Hokey-Pokey.\" Later, Francis William \"Frank\" Epperson of Oakland, California, popularized ice pops after patenting the concept of \"frozen ice on a stick\" in 1923.\n[…]\nEpperson claimed to have first created an ice pop in 1905, at the age of 11, when he accidentally left a glass of powdered lemonade soda and water with a mixing stick in it on his porch during a cold night, a story still printed on the back of Popsicle treat boxes. Epperson lived in Oakland and worked as a lemonade salesman.\n[…]\nIn 1922, Epperson, a realtor with Realty Syndicate Company in Oakland, introduced the Popsicle at a fireman's ball. The product got traction quickly; in 1923, at the age of 29, Epperson received a patent for his \"Epsicle\" ice pop, and by 1924, had patented all handled, frozen confections or ice lollipops. He officially debuted the Epsicle in seven fruit flavors at Neptune Beach amusement park, marketed as a \"frozen lollipop\", or a \"drink on a stick\".\n[…]\nA couple of years later, Epperson sold the rights to the invention and the Popsicle brand to the Joe Lowe Company in New York City.\n[…]\nAndrew F. Smith, ed. (2007). \"Popsicle\". The Oxford Companion to American Food and Drink. Oxford University Press. p. 471."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Frank_Epperson",
+        "situacao": "ok",
+        "texto": "Francis William \"Frank\" Epperson (August 11, 1894 – October 22, 1983) was an American inventor and real estate agent best known for creating the ice pop, more commonly known as the Popsicle.\n[…]\nEpperson was born in San Francisco, California in 1894. His family moved across the bay to Oakland around 1907. In 1905, Epperson allegedly left a glass of powdered soda mix and water with a wooden stirring stick on the back porch overnight. In the morning, Epperson found that the mixture had frozen. He named the mixture the \"Epsicle,\" a combination of his surname and the word \"icicle.\"\n[…]\nA 2022 San Francisco Gate investigation found that the only time between Epperson's birth in 1894 and his application for a patent in 1924 that San Francisco had reached freezing temperatures was in 1922, 15 years after Epperson had moved to Oakland.\n[…]\nEpperson's patent was for a \"frozen confectionary\". When the 'Epsicle' grew in popularity, it became known as the 'popsicle', a name which Epperson did not have trademarked. The treat was sold as a 'popsicle' by the Popsicle corporation, and while Epperson originally received royalties from Popsicle sales,  he ended up having to sell his patent rights as a result of the Great Depression.\n[…]\nEpperson died on October 22, 1983, at the age of 89. He is buried at Mountain View Cemetery in Oakland. His grave is featured on an annual \"Food Tour\" celebrating local food pioneers, including Domingo Ghirardelli, Victor \"Trader Vic\" Bergeron, and the Folger Coffee family.\n[…]\nPope, Shelby (July 22, 2015). \"How An 11-Year-Old Boy Invented The Popsicle\". NPR."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Picol%C3%A9",
+        "situacao": "ok",
+        "texto": "Picolé (português brasileiro) ou gelado de gelo (português europeu) é uma variedade de sorvete que consiste de um bloco doce congelado (que pode ser feito de suco de fruta ou outra bebida doce), geralmente na forma retangular ou cilíndrica, possuindo um palito que o atravessa verticalmente e com uma extensão livre, do bloco solidificado, em uma das suas pontas, destinado ao manuseio de degustação.\n[…]\nFrank Epperson (1894–1983), quando tinha 11 anos e morava em São Francisco, Estados Unidos, esqueceu um copo de suco com uma colher no quintal em uma noite muito fria no ano de 1905. Ao acordar, o jovem percebeu que o suco havia congelado e estava preso na colher criando uma espécie de gelo com sabor de fruta. Após este evento, somente em 1912 que Epperson apresentou uma receita semelhante ao suco congelado dos seus 11 anos de idade.\n[…]\nO primeiro nome do picolé foi “eppsicle” (de \"Epp's Icicle\", algo como \"gelinho do Epperson\"), que depois acabou mudando para \"popsicle\" (\"Pop's Icicle\", \"gelinho do papai\").\n[…]\nEm fevereiro de 2013, o Bloco Picolé de Manga, da cidade de João Pessoa, registrou o recorde nacional de maior picolé de fruta, ao fazer um refresco solidificado de 227,1 kg, no sabor de manga. O fato foi registrado e certificado pelo RankBrasil, no evento de comemoração de 20 anos de atividade da agremiação. Em 2014, inspirado nos picolés mexicanos, chamadas de paletas, surgem as paleterias.\n[…]\nO Guinness Book registra um recorde de uma empresa holandesa que produziu um picolé de 21 pés (algo correspondente a 6,40 metros de comprimento) em 1997. Em 2005, houve a tentativa de estabelecer novo recorde na cidade de Nova York, produzindo um picolé de 25 metros de altura e 17,5 toneladas de suco congelado, porém, ao levar o produto e tentar levantá-lo, em uma praça da cidade e num dia quente, houve um rápido derretimento, o que inundou a praça com suco de kiwi e morango.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Pêssego",
+      "descricao": "Fruto aveludado do pessegueiro, Prunus persica, originário da China."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da fruta pêssego vem do latim e indica a região de onde os romanos achavam que ela vinha. Que região era essa?",
+    "resposta": "Pérsia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peach"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peach",
+        "situacao": "ok",
+        "texto": "The peach (Prunus persica) is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits.\n[…]\nThe genus name Prunus is from the Latin for plum. The specific name persica was given by Linnaeus because European botanists of the 1700s and 1800s continued to believe the Roman accounts of peaches originating in Persia to be correct.\n[…]\nThe modern English word, and its cognates in many European languages such as the German Pfirsich and Finnish persikka, have Latin origins. In ancient Rome the peach was called persicum malum or simply persicum meaning 'Persian apple'. This became the Late Latin pessica and in turn the medieval pesca. In Old French it was variously the peche, pesche, or peske. The first usage in England was as the surname Pecche in about 1184–1185.\n[…]\nAlthough its botanical name Prunus persica refers to Persia, peaches originated in China, where they have been cultivated since the Neolithic period. From the 1980s to the 2010s it was believed that cultivation started around 2000 BCE. In 2014 new research was published showing that domestication occurred as early as 6000 BCE in Zhejiang Province on the central east coast of China. The oldest archaeological peach stones are from the Kuahuqiao site near Hangzhou.\n[…]\nMost peach trees sold by nurseries are cultivars budded or grafted onto a suitable rootstock. Common rootstocks are 'Lovell Peach', 'Nemaguard Peach', Prunus besseyi, and 'Citation'. The Royal Horticultural Society recommends Saint Julian A and Torinel.\n[…]\n\"Prunus persica\". Plants for a Future.\n[…]\nBioimages.vanderbilt.edu – Prunus persica images"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pessegueiro",
+        "situacao": "ok",
+        "texto": "O pessegueiro (Prunus persica) é uma árvore decídua, nativa da China e sul da Ásia, de folhas alternas e serreadas, flores roxas e drupas pubescentes, comestíveis e com propriedades aperitivas e digestivas. Possui inúmeras variedades hortícolas. A infusão das folhas e sementes é calmante e as flores são usualmente utilizadas como laxante suave.\n[…]\nO nome científico da espécie, Prunus persica, significa literalmente \"ameixa persa\", pois está intimamente relacionado com a ameixa. A palavra pêssego provém do latim persicum, que significa \"da Pérsia\" pois os romanos referiam-se a essa planta como malus persicum ou \"maçã da Pérsia\", uma referência ao largo cultivo da espécie no Irã (antiga Pérsia) durante a Antiguidade, de onde foi transplantada para a Europa.\n[…]\nEssa denominação em latim foi a origem das palavras em português (pêssego e pessegueiro) e suas cognatas em diversas línguas europeias (pêche em francês, peach em inglês, pesca em italiano).\n[…]\nEstudos genéticos e a descoberta de oito  endocarpos de pêssego fossilizados bem preservados no sudoeste da China remontando a mais de dois milhões e meio de anos, sugerem que o pêssego é originário da China. A espécie é cultivada desde cerca de 2000 anos antes de Cristo. O pêssego foi trazido da China, passando pela Pérsia (Irã), e alcançou a Grécia por volta do ano 300 A.C. Os pêssegos já eram bem conhecidos pelos romanos no primeiro século antes de Cristo.\n[…]\nAlergia ou intolerância são formas relativamente comuns de hipersensibilidade às proteínas contidas nos pêssegos. Os sintomas vão desde reações locais (por exemplo, síndrome alérgica oral e urticária de contato) a sintomas sistêmicos, incluindo anafilaxia (por exemplo, urticária, angioedema, sintomas gastrointestinais e respiratórios).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Pavlova",
+      "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com creme e frutas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A pavlova, sobremesa de merengue com creme e frutas, homenageia uma artista russa famosa no início do século vinte. Qual era a arte dela?",
+    "resposta": "Balé",
+    "distratores": [
+      "Ópera",
+      "Cinema",
+      "Pintura"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pavlova_(dessert)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pavlova_(dessert)",
+        "situacao": "ok",
+        "texto": "Pavlova is a meringue-based dessert. Originating in either Australia or New Zealand in the early 20th century, it was named after the Russian ballerina Anna Pavlova. Taking the form of a cake-like circular block of baked meringue, pavlova has a crisp crust and soft, light inside. The confection is usually topped with fruit and whipped cream. The name is commonly pronounced   pav-LOH-və or (in Nort\n[…]\nAnother recipe for a dish bearing the name pavlova was published in 1926 by the Davis Gelatine company in Sydney. However, this was a multi-layered jelly, not the meringue, cream and fruit dessert known today.\n[…]\nNew Zealand pavlova is more likely to have kiwifruit. In Australia, pavlova often has passionfruit and sometimes pineapples. In Britain it is more likely to have strawberries. Older versions of pavlova would have walnuts.\n[…]\nPavlova is popular on Christmas Day as a dessert usually served after being refrigerated due to Christmas being celebrated during the summer in the southern hemisphere.\n[…]\nTe Papa, New Zealand's national museum in Wellington, celebrated its first birthday in February 1999 with the creation of purportedly the world's largest pavlova, dubbed Pavzilla, which was cut by Prime Minister Jenny Shipley. This record was broken by students at the Eastern Institute of Technology in Hawke's Bay, New Zealand, in March 2005. Their creation, Pavkong, stretched 64 metres (210 ft) long in comparison to Te Papa's 45-metre-long (148 ft) pavlova.\n[…]\nIn August 2010, chef Aaron Campbell displayed a 50-square-metre (540 sq ft) rugby-themed pavlova, with the Bledisloe Cup in the centre, in the ChristChurch Cathedral in Christchurch, to raise money for the official charity of the All Blacks. In May 2018, a Norwegian chef and 35 assistants produced an 85-square-metre (910 sq ft) pavlova.\n[…]\nCowells Pavlova Recipe\n[…]\nJoy of Baking Pavlova Recipe\n[…]\nSimply Recipes Pavlova Recipe\n[…]\nPavlova history"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pavlova",
+        "situacao": "ok",
+        "texto": "A pavlova é uma sobremesa em forma de bolo e à base de merengue, cujo nome é uma homenagem à bailarina russa Anna Pavlova. É crocante por fora e macio por dentro, sendo por vezes decorado com frutos em cima.\n[…]\nA sobremesa foi inventada depois de uma viagem de Pavlova à Austrália e Nova Zelândia e estes reivindicam a invenção da iguaria, o que é fonte de conflito de opiniões entre os dois países.\n[…]\nÉ uma sobremesa muito popular e tem uma grande importância na gastronomia dos dois países da Oceânia, sendo muitas vezes servido em festas tradicionais como o Natal. A pavlova sobressai entre os doces tradicionais por ser uma opção que busca equilibrar os sabores, não sendo nem doce demais, nem insossa demais.\n[…]\nPor outro lado, os Australianos reivindicam a pavlova como um invenção de Bert Sachse no l'Esplanade Hotel de Perth em 3 de outubro de 1935. O nome pavlova teria sido dado por Harry Nairn, no mesmo hotel. Os descendentes de Sachse afirmam que ele pode ter inventado a sobremesa antes disso, pois Anna Pavlova esteve na Austrália em 1926 e em 1929.\n[…]\nA pavlova é feita batendo-se claras de ovos com sal antes de se adicionar açúcar, vinagre branco, maizena, baunilha, para fazer um merengue. Isso produz o exterior crocante e um miolo macio da pavlova. É tradicionalmente decorada com creme fouettée (batido) e frutas açucaradas e/ou ácidas: morango e kiwi, ou maracujá e banana, ou frutas vermelhas e pêssego.\n[…]\nPodem-se encontrar pavlovas também já prontas em supermercados, bem como uma mistura em pó à qual adiciona-se água e açúcar para formar a base do merengue.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Hambúrguer",
+      "descricao": "Sanduíche de carne moída prensada e grelhada servida num pão redondo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Símbolo da comida rápida americana, o hambúrguer tem nome que homenageia uma cidade portuária de qual país europeu?",
+    "resposta": "Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hamburger"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hamburger",
+        "situacao": "ok",
+        "texto": "A hamburger, often known as a burger, consists of fillings—usually a patty of panfried or grilled ground meat, typically beef—placed inside a sliced bun, sesame seed bun, or bread roll. These patties are often served with lettuce, tomato, onion, pickles, bacon, or chilis, together in the bun or roll. The filling of the burger can be topped with condiments such as ketchup, mustard, mayonnaise, reli\n[…]\nIn 2012, according to a study by the NDP cabinet, the French consume 14 hamburgers in restaurants per year per person, placing them fourth in the world and second in Europe, just behind the British. A popular burger chain in France is Quick.\n[…]\nIn Mexico, burgers (called hamburguesas) are served with ham and slices of American cheese fried on top of the meat patty. The toppings include avocado, jalapeño slices, shredded lettuce, onion, and tomato. The bun has mayonnaise, ketchup, and mustard. Bacon may also be added, which can be fried or grilled along with the meat patty. A slice of pineapple may be added to a hamburger for a \"Hawaiian hamburger\".\n[…]\nMost American hamburgers are round, but some fast-food chains, such as Wendy's, Krystal, and White Castle sell square-cut hamburgers. Hamburgers in fast food restaurants are usually grilled on a flat top, but some establishments, such as Burger King, use a gas flame grilling process. At conventional American restaurants, hamburgers may be ordered \"rare\" but normally are served medium-well or well-done for food safety reasons. Fast food restaurants do not usually offer this option.\n[…]\nIn May 2012, Serendipity 3 was recognized as the Guinness World Records holder for serving the world's most expensive hamburger, the $295 Le Burger Extravagant.\n[…]\nEdge, John T. (2005). Hamburgers & Fries: An American Story. New York: G. P. Putnam's Sons. ISBN 978-0-399-15274-0. History and origins of the hamburger.\n[…]\nHamburger at the Wikibooks Cookbook subproject"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hamb%C3%BArguer",
+        "situacao": "ok",
+        "texto": "O hambúrguer (do inglês hamburger), também conhecido como hamburgo, hamburguesa ou sanduíche de carne, é um preparado de carne temperada (principalmente de carne bovina, ocasionalmente de frango moído, carne suína moída ou com misturas de carnes) e moldada em formato circular.\n[…]\nO hambúrguer, apesar de associado aos Estados Unidos, chegou a esse país pelas mãos de imigrantes alemães vindos dos arredores de Hamburgo. Hoje, o hambúrguer é um ícone da culinária americana. Em 1836, no restaurante Del Monico's, em Nova Iorque, o hambúrguer ganhou, pela primeira vez, estatuto de iguaria e passou a constar no cardápio – entre duas fatias de pão, já em formato de sanduíche.\n[…]\nA introdução do hambúrguer nos costumes do brasileiro deve-se ao jogador de tênis estadunidense-brasileiro Robert Falkenburg, campeão do torneio de Wimbledon em 1948 e 1949, que abriu, em 1952, no Rio de Janeiro, a primeira lanchonete em estilo americano da cidade: o Bob's. Junto com o hambúrguer, a lanchonete também foi responsável pela introdução local de duas outras típicas iguarias da culinária dos Estados Unidos: o milk shake e o sundae.\n[…]\nNo final dessa década, a arte pop utilizou o hambúrguer como elemento artístico, em trabalhos de Andy Warhol (Dual Hamburger), Claes Oldenburg (Floor Burger), Mel Ramos (Vinaburger, 1965), e mais recentemente, David LaChapelle (Death by Hamburger, 2002).\n[…]\nA nave estelar conhecida como Millennium Falcon, projetada por George Lucas para o Star Wars, foi baseada num formato de hambúrguer. Outras mídias também fazem ou fizeram frequentes aparições ou citações de hambúrgueres, como o jogo BurgerTime, de 1982.\n[…]\nBurger King\n[…]\nHambúrguer vegetariano",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Goulash",
+      "descricao": "Ensopado húngaro de carne temperado com páprica."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em húngaro, a palavra que deu nome ao goulash, ensopado de carne com páprica, designava qual ofício?",
+    "resposta": "Vaqueiro",
+    "distratores": [
+      "Soldado",
+      "Pescador",
+      "Ferreiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goulash"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Goulash",
+        "situacao": "ok",
+        "texto": "Goulash (Hungarian: Gulyás, Hungarian pronunciation: [ˈgujaːʃlɛvɛʃ] ) is a meal made of meat and vegetables seasoned with paprika and other spices. Originating in Hungary, goulash is a common meal predominantly eaten in Central Europe but also in other parts of Europe. It is one of the national dishes of Hungary and a symbol of the country.\n[…]\nThe name originates from the Hungarian gulyás [ˈɡujaːʃ] . The word gulya means 'herd of cattle' in Hungarian, and gulyás means 'cattle herder' or 'cowboy'. Over time the dish became gulyáshús ('goulash meat') – a meat dish which was prepared by herdsmen. In medieval times, the Hungarian herdsman of Central Europe made use of every possible part of the animal, as was common practice. As meat was scarce, nearly all of the animal was often used to make the soup.\n[…]\nInternational goulash is a dish closer to the Hungarian dish pörkölt, a stew which evolved from the original gulyás, or paprikás, the version of pörkölt with sour cream. After the former herdsmen's dish became popular throughout the whole of Hungarian society, variations arose which did not strictly adhere to the techniques used for outdoor cooking. Nokedli or galuska, a Hungarian version of the traditional German noodle Spaetzle, became a side dish for stews.\n[…]\nHungarian goulash variations include:\n[…]\nA thicker and richer goulash, similar to a stew, originally made with three kinds of meat, is called Székely gulyás, named after the Hungarian writer, journalist and archivist József Székely (1825–1895).\n[…]\nIn Serbia, goulash (Serbian: гулаш) is eaten in most parts of the country, especially in Vojvodina, where it was probably introduced by the province's Hungarian population. It is a pörkölt-like stew, usually made with beef, veal or pork, but also with game meat like venison and boar."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Goulash",
+        "situacao": "ok",
+        "texto": "O goulash, gulache, Gulasch (em alemão) ou gulyás ([ Pron. IPA: /'guja:ʃ/] em húngaro) é um prato de carne de vaca picada, a que por vezes se adiciona carne de porco, cortada em cubos e rapidamente alourada em gordura quente, juntando-se-lhe então farinha, cebola e especiarias, sendo depois o conjunto cozido em água.\n[…]\nO autêntico goulash (significando em húngaro, comida de vaqueiros) era preparado pelos pastores húngaros com carne de vaca cozida, cebolas, banha de porco, pimentão (variante paprica), cominhos, sal e água, sem adição de farinha. É comum o uso de pimenta.\n[…]\nCom origem na Hungria, o goulash é hoje popular também na Áustria e, em geral, em toda a extensão do antigo império austro-húngaro.\n[…]\nÉ interessante notar que, em húngaro, gulyás é o nome que se dá a uma sopa à base de pimentão (páprica), carne e legumes. Já o goulash tal qual chegou ao ocidente é chamado de pörkölt e pode ser preparado com carne bovina ou suína.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Ketchup",
+      "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Hoje feito de tomate, o ketchup tem nome derivado de um molho do sul da China preparado com qual ingrediente?",
+    "resposta": "Peixe fermentado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ketchup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ketchup",
+        "situacao": "ok",
+        "texto": "Ketchup or catsup is a table condiment with a sweet and sour flavor.\n[…]\nIn Indonesian cuisine, which is similar to Malay, the term kecap refers to fermented savory sauces. Two main types are well known in their cuisine: kecap asin, which translates to \"salty kecap\" in Indonesian (a salty soy sauce) and kecap manis or \"sweet kecap\" in Indonesian. Kecap manis is a sweet soy sauce that is a mixture of soy sauce with brown sugar, molasses, garlic, ginger, anise, coriander and a bay leaf reduced over medium heat until rather syrupy.\n[…]\nThe term ketchup first appeared in 1682. The word entered the English language in Britain during the late 17th century, appearing in print as ketchup (1682), catchup (1690), and later as catsup (1730). Recipes for many types of ketchup began to appear in British and then American cookbooks in the 18th century.\n[…]\nIn the United Kingdom, from the 1600s ketchup was prepared with mushrooms as a primary ingredient, rather than tomatoes. In the United States, mushroom ketchup dates back to at least 1770, and was prepared by British colonists in the Thirteen Colonies.\n[…]\nIn 1824, a ketchup recipe using tomatoes appeared in The Virginia Housewife (an influential 19th-century cookbook written by Mary Randolph, Thomas Jefferson's cousin). Tomato ketchup was sold locally by farmers. Jonas Yerkes is credited as the first American to sell it in a bottle. By 1837, he had produced and distributed the condiment nationally. By the mid-1850s, anchovies no longer featured as an ingredient.\n[…]\nQuotations related to Ketchup at Wikiquote"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ketchup",
+        "situacao": "ok",
+        "texto": "O ketchup é um molho de origem chinesa, introduzido no Ocidente através da Malásia, onde o ingrediente principal era o cogumelo. Nos Estados Unidos, surgiu o ketchup de tomate, utilizado comumente para temperar pratos de fast-food tais como hambúrgueres, nuggets, cachorros-quentes e batatas fritas.\n[…]\nAcredita-se que o ketchup atual tenha sua origem no molho para peixes da cultura chinesa chamado ketsiap (\"molho\"). No século XVII, os chineses misturavam peixe em conserva e temperos, e chamavam a mistura de 鮭汁 (kôe-chiap ou kê-chiap, no dialeto amoy da língua hokkien; guī zhī, no mandarim padrão; gwai1 zap1, na língua cantonesa), que significa \"salmoura de peixe ou molusco fermentado\".\n[…]\nNo Reino Unido, originariamente o ketchup era preparado com cogumelo comestível como ingrediente principal. Receitas de ketchup começaram a aparecer nos livros de receita britânicos (e, posteriormente, estadunidenses) no século XVIII. Num livro de receita londrino de 1742, o molho de peixe já havia adquirido um sabor britânico, com a adição de chalotas e cogumelos.\n[…]\nO molho oriental foi levado aos Estados Unidos pelos ingleses, sofrendo alterações e passando a ter, como seu ingrediente principal, o tomate. Deste modo, foi rebatizado de ketchup. Uma antiga versão de tomata catsup de 1817 ainda possui Engraulidae, denunciando sua origem nos molhos de peixe. Em meados da década de 1850, no entanto, os Engraulidae já haviam sido abandonados.\n[…]\nAntes de Heinz, o ketchup de tomate era fino e aguado, em parte devido ao uso de tomate verde, que contém pouca pectina. Ele tinha menos vinagre que o ketchup atual. Ao passar a se usar tomate maduro em conserva, a necessidade de benzoato foi eliminada.\n[…]\nMolho de tomate",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Kasutera",
+      "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O kasutera, bolo japonês parecido com o pão de ló e levado pelos portugueses no século dezesseis, tem nome derivado de qual antigo reino ibérico?",
+    "resposta": "Castela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castella"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Castella",
+        "situacao": "ok",
+        "texto": "Castella (カステラ, kasutera; pronounced [kasɯ̥teɾa]; ) is a type of Japanese sponge cake and is known for its sweet, moist brioche-style flavour and texture. It is based on cakes introduced to Japan by Portuguese merchants in the 16th century. It was then popularized in the city of Nagasaki, where it is considered a specialty. Despite its foreign origins, it is considered a kind of wagashi, or tradit\n[…]\nThe word \"castella\" is derived from the Portuguese Bolo de Castela, meaning \"cake from Castile\". Its closest relative is pão-de-ló, a Portuguese cake. Pão-de-ló can be in turned derived from the French Pain de lof or Gâteau de Savoie.\n[…]\nCastella cakes could be stored for a long time, and so were useful for the sailors who were out on the sea for months. In the Edo period, in part due to the cost of sugar, castella was an expensive dessert to make despite the ingredients sold by the Portuguese. When the Emperor of Japan's envoy was invited, the Tokugawa shogunate presented them with castella cakes. Over the years, the taste changed to suit Japanese palates.\n[…]\nCastella mix is used for the pancakes that are sandwiched together with sweet adzuki bean paste in the confection known as dorayaki.\n[…]\nThe presence of castella highlights its cultural significance in Japan and its association with moments of reflection in the narrative, emphasizing the impact of different life paths on his experiences.\n[…]\nIn 'What you are looking for is in the library' by Michiko Aoyama, Tomoka, strives to make the castella cake she read about in a favourite childhood book called Guri & Gura.\n[…]\nFounded in 1624: Castella Honke Fukusaya (Nagasaki City, Nagasaki Prefecture)\n[…]\nFounded in 1900 (Meiji 33): Bunmeidō (Nagasaki City, Nagasaki Prefecture) Known for the phrase \"castella first, telephone number second\" and in the Kanto region, commercials of bear puppets dancing can-can dances.\n[…]\nJapanese words of Portuguese origin"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kasutera",
+        "situacao": "ok",
+        "texto": "O castella ou kasutera (カステラ) é um bolo japonês feito à base de açúcar, farinha, ovos e xarope de milho, muito apreciado em festividades e como comida de rua. De origem na gastronomia portuguesa, é semelhante ao pão-de-ló de Portugal, e é hoje uma especialidade tradicional de Nagasaki.\n[…]\nO bolo foi trazido inicialmente por mercadores portugueses no século XVI. O seu nome procederá da língua portuguesa pão de Castela, existindo tipos parecidos de bolos chamados de forma similar, como o francês pain d'Espagne, o italiano pan di Spagna e o grego pantespani, sendo que o reino de Castela abarcava o centro de Espanha. Outra teoria refere que o nome pode ter origem no facto de o bolo ser preparado com claras batidas \"em castelo\".\n[…]\nO castella vende-se geralmente em caixas grandes, com cada bolo com aproximadamente 27 cm de largura. O seu parente mais próximo é o referido Pão-de-ló português.\n[…]\nE Nagasaki foi o porto de mar japonês em que mais se desenvolveram essas trocas comerciais e de saber. Os portugueses introduziram aí muitos artigos até então desconhecidos: mosquetes, botões, sabão, tabaco, abóboras e doces, como os confeitos e este castella.\n[…]\nCastella foi introduzido pela primeira vez em Taiwan durante a era de Taiwan sob o domínio japonês. Em 1968, Ye Yongqing, proprietário de uma padaria japonesa em Taipei chamada Nanbanto, fez parceria com a empresa japonesa Nagasaki Honpu para estabelecer um negócio de castella.\n[…]\nO castella de estilo taiwanês é geralmente mais parecida com um suflê do que a variedade japonesa com um centro semelhante a um creme. Uma especialidade de Tamsui é um simples bolo castela em forma de almofada. O castella de estilo taiwanês foi introduzido no Japão.\n[…]\n«castella.co.jp»  (japonês)\n[…]\n«Shooken»  (japonês)\n[…]\n«Nagasakido»  (japonês)\n[…]\n«Shokando»  (japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Cacau",
+      "descricao": "Árvore Theobroma cacao, nativa das Américas, cujas sementes são a matéria-prima do chocolate."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome científico do cacaueiro, Theobroma, vem do grego. O que ele significa?",
+    "resposta": "Alimento dos deuses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theobroma_cacao"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Theobroma_cacao",
+        "situacao": "ok",
+        "texto": "Theobroma cacao (cacao tree or cocoa tree) is a small (6–12 m (20–39 ft) tall) evergreen tree in the Malvaceae family. Its seeds—cocoa beans when dried and fermented—are used to make chocolate liquor, cocoa powder, cocoa butter and chocolate. Although the tree is native to the tropics of the Americas, the largest producer of cocoa beans in 2022 was Côte d'Ivoire.\n[…]\nThe cacao bean in 80% of chocolate is made using beans of the Forastero group, the main and most ubiquitous variety being the Amenolado variety, while the Arriba variety (such as the Nacional variety) are less commonly found in Forastero produce. Forastero trees are significantly hardier and more disease-resistant than Criollo trees, resulting in cheaper cacao beans.\n[…]\nPhytopathogens (parasitic organisms) cause much damage to Theobroma cacao plantations around the world. Many of those phytopathogens, which include many of the pests named below, were analyzed using mass spectrometry and allow for guiding on the correct approaches to get rid of the specific phytopathogens. This method was found to be quick, reproducible, and accurate showing promising results in the future to prevent damage to Theobroma cacao by various phytopathogens.\n[…]\nMany genes were identified as coding for flavonoids, aromatic terpenes, theobromine and many other metabolites involved in cocoa flavor and quality traits, among which a relatively high proportion code for polyphenols, which constitute up to 8% of cacao pods dry weight.\n[…]\nThe Nahuatl-derived Spanish word cacao entered scientific nomenclature in 1753 after the Swedish naturalist Linnaeus published his taxonomic binomial system and coined the genus and species Theobroma cacao. Traditional pre-Hispanic beverages made with cacao are still consumed in Mesoamerica. These include the Oaxacan beverage known as tejate.\n[…]\nTheobroma grandiflorum, the white cacao"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cacau",
+        "situacao": "ok",
+        "texto": "O cacaueiro (nome científico: Theobroma cacao) é a árvore perenifólia que dá origem ao fruto chamado cacau.\n[…]\nNo Brasil, ele foi cultivado primeiramente na Amazônia, onde já existia em estado natural. Depois, pelo rio Amazonas, passou para o Pará e pelo mar chegou finalmente à Bahia, onde melhor se adaptou ao solo e ao ambiente marinho, e causou o chamado \"boom\" da década de 1930, durante o Ciclo do cacau (ver: História da alimentação no Brasil e História da agricultura no Brasil).\n[…]\nEm um levantamento realizado em cabrucas por Lobão em 2007 no sul baiano, foram encontradas integradas ao sistema cacau-cabruca espécies de árvore consideradas raras, como o jequitibá-rosa (Cariniana legalis), o pau-brasil (Caesalpinea echinata) - que é uma espécie ameaçada de extinção - e a gameleira (Ficus gomelleira), que é uma espécie de importância sócio-ecológica, já que seus ramos jovens servem de alimento à preguiças e práticas religiosas afro-brasileiras estão associadas a ela.\n[…]\nAs sementes do cacau são os ingredientes fundamentais para a produção da manteiga de cacau, do liquor de cacau e do chocolate, alimentos cuja qualidade depende principalmente dos fatores genéticos e ambientais do cacau, como também do pré-processamento do fruto, que compreende a colheita e abertura do mesmo, a retirada das sementes, a extração da polpa, a fermentação das sementes e a secagem e o armazenamento das amêndoas, etapas que ocorrem ainda na fazenda.\n[…]\nPosteriormente, as mesmas são transportadas até as indústrias produtoras de chocolate, onde vão ser processadas e dar origem aos alimentos derivados do cacau.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Curau",
+      "descricao": "Creme doce de milho verde ralado cozido com leite e açúcar, típico das festas juninas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O creme doce de milho verde que no Sudeste se chama curau recebe que nome no Nordeste?",
+    "resposta": "Canjica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curau"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Curau",
+        "situacao": "ok",
+        "texto": "Curau, canjica ou jimbelê é uma iguaria típica da culinária brasileira. Doce originado da combinação do pudim europeu e de uma bebida espessa utilizada pelos indígenas tupis. Tem como principais ingredientes creme de milho verde, leite de vaca ou de coco, açúcar e canela em pó ou em casca. É um prato típico das Festas Juninas.\n[…]\nNas regiões de cultura caipira, como nos estados de São Paulo e Minas Gerais e restante do Sudeste, e no Centro-Oeste e Sul, é denominado de curau, papa de milho ou mingau de milho. Na região Nordeste e Norte do Brasil, o prato é chamado de canjica; para os nortistas, o termo \"curau\" remete também a uma comida feita de carne salgada pilada junto com farinha de mandioca.\n[…]\nJá na cidade do Rio de Janeiro, é chamado de canjiquinha, onde é consumida especialmente no período das festas juninas e julinas. Por sua vez, \"canjiquinha\", em Minas Gerais, refere-se a um prato salgado de milho, acompanhado de carne de porco e outras misturas. O termo canjica é oriundo do quimbundo kanjika.\n[…]\nEm 24 de fevereiro de 1989, a Portaria n.º 109 do Ministério da Agricultura, Pecuária e Abastecimento aprovou a norma de identidade, qualidade, apresentação e embalagem do curau de milho brasileiro, definindo assim o conceito comercial de «milho de canjica»."
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Tomate",
+      "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Levado das Américas para a Europa, o tomate foi por muito tempo cultivado apenas como planta ornamental. Por que muitos europeus evitavam comê-lo?",
+    "resposta": "Achavam que era venenoso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tomato"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tomato",
+        "situacao": "ok",
+        "texto": "The tomato (US: , UK: ; Solanum lycopersicum) is a plant whose fruit is an edible berry that is eaten as a vegetable. The tomato is a member of the nightshade family that includes tobacco, potato, and chili peppers. It originated from western South America, and may have been domesticated there, in Mexico, or in Central America. The Spanish introduced tomatoes to Eurasia in the Columbian exchange i\n[…]\nThe Spanish conquistador Hernán Cortés's capture of Tenochtitlan in 1521 initiated the widespread cultural and biological interchange called the Columbian exchange. The tomato was cultivated in Europe only a few years after that event, by the 1540s, and grew easily in the Mediterranean climates. The earliest mention of the tomato in European literature appeared in Pietro Andrea Mattioli's 1544 herbal. He suggested that a new type of eggplant had been brought to Italy.\n[…]\nGerard's views were influential, and the tomato was considered unfit for eating for many years in Britain and its North American colonies. By 1820, tomatoes were described as \"to be seen in great abundance in all our vegetable markets\" and to be \"used by all our best cooks\", reference was made to their cultivation in gardens still \"for the singularity of their appearance\", while their use in cooking was associated with exotic Italian or Jewish cuisine.\n[…]\nThe earliest reference to tomatoes being grown in British North America is from 1710, when herbalist William Salmon saw them in what is today South Carolina, perhaps introduced from the Caribbean. By the mid-18th century, they were cultivated on some Carolina plantations, and probably in other parts of the Southeast. Thomas Jefferson, who ate tomatoes in Paris, sent some seeds back to America.\n[…]\nThe tomato is grown worldwide for its edible fruits, with thousands of cultivars.\n[…]\nTomato core collection database – Phenotypes and images of 7,000 tomato cultivars"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tomate",
+        "situacao": "ok",
+        "texto": "Tomate é o fruto do tomateiro (nome científico: Solanum lycopersicum). Da sua família, fazem também parte as berinjelas, as pimentas e os pimentões, que integram a família das Solanáceas, além de algumas espécies não comestíveis. A palavra portuguesa tomate vem do castelhano tomate, derivada do náuatle (língua asteca) tomatl. Esta apareceu pela primeira vez na imprensa em 1595.\n[…]\nO conquistador espanhol Hernán Cortés pode ter sido o primeiro a transferir o tomate pequeno amarelo para a Europa depois que ele capturou a cidade asteca de Tenochtitlan, agora Cidade do México, em 1521, apesar de Cristóvão Colombo, um trabalho genoveses para a monarquia espanhola, pode tê-los levado de volta já em 1493.\n[…]\nApós a colonização espanhola da América, os espanhóis distribuíram o tomate pelas suas colônias no Caribe. Eles também o levaram para as Filipinas, de onde se espalhou para o sudeste da Ásia e, em seguida, para todo o continente asiático. Os espanhóis também trouxeram o tomate para a Europa. Cresceu facilmente no clima mediterrânico, e cultivo começou na década de 1540.\n[…]\nApesar de constantemente associado à culinária italiana, dado seu largo uso na sua culinária italiana, o tomate já era primordialmente consumido nas civilizações inca, maia e asteca antes de ser levado para a Europa.\n[…]\nInicialmente, o tomate era tido como venenoso pelos europeus e cultivado apenas para efeitos ornamentais, supostamente por causa de sua conexão com as mandrágoras, variedades de Solanáceas usadas em feitiçaria.\n[…]\nSomente no século XIX é que o tomate passou a ser consumido e cultivado em escala cada vez maior, inicialmente na Itália, depois na França e na Espanha, ganhando popularidade depois que os povos do sul da Europa declinaram sobre aquela suspeita, tornando-o um dos principais ingredientes da culinária mediterrânea.\n[…]\nTomate-vinha\n[…]\nSementes de Tomate\n[…]\ncultivo de tomate - hortas.info",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Doçaria conventual portuguesa",
+      "descricao": "Conjunto de doces portugueses ricos em gemas de ovo e açúcar, criados em conventos e mosteiros."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ovos-moles, toucinho do céu, pastel de nata: por que os conventos portugueses criaram tantos doces com gema de ovo?",
+    "resposta": "As claras engomavam as roupas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pastel_de_nata"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pastel_de_nata",
+        "situacao": "ok",
+        "texto": "Pastel de nata (Portuguese: [pɐʃˈtɛl dɨ ˈnatɐ]; literally, cream pastry; pl.: pastéis de nata) is a Portuguese egg custard tart pastry, optionally dusted with cinnamon. Outside Portugal, they are particularly popular in other parts of Western Europe, former Portuguese colonies, such as Brazil, Mozambique, Macau, Goa, Malacca and Timor-Leste, and other parts of Asia.\n[…]\nPastéis de nata tarts are pastries inspired by an original recipe called pastéis de Belém, which were created before the 18th century by Catholic monks at the Jerónimos Monastery in the civil parish of Belém, in Lisbon. At the time, convents and monasteries used large quantities of egg-whites for starching clothes, such as friars and nuns' religious habits.\n[…]\nIn the aftermath of the Liberal Revolution of 1820, following the dissolution of religious orders and in the face of the impending closure of many convents and monasteries, the monks started selling pastéis de nata at a nearby sugar refinery to bring in revenue. In 1834, the monastery was closed and the recipe sold to the sugar refinery, whose owners opened the Fábrica de Pastéis de Belém in 1837. The descendants own the business to this day.\n[…]\nSince the opening of Fábrica de Pastéis de Belém, the original recipe that inspired pastel de nata varieties is kept in a secret room. The Fábrica de Pastéis de Belém is, therefore, the only place in the world that produces the original pastry that inspired many variations commonly known as \"pastéis de nata\"; the shop is located just a short three-minute walk from the Jerónimos Monastery. The shop offers both takeout and sit-in services and sells over 20,000 pastéis a day.\n[…]\nTorta de nata\n[…]\nLeite, David (8 September 2004), \"Pastéis de Belém–The World's First Pastéis de Nata\", Leite's Culinaria, retrieved 9 June 2022"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pastel_de_nata",
+        "situacao": "ok",
+        "texto": "Pastel de nata é uma popular especialidade da doçaria portuguesa, de inspiração conventual. Terá sido criado pelos monges jerónimos no Mosteiro de Santa Maria de Belém e possui origem certificada. A receita original é denominada Pastel de Belém, produzida exclusivamente na Fábrica dos Pastéis de Belém, em Lisboa, e tem como base ingredientes como ovo, leite, açúcar, limão e canela.\n[…]\nUm pastel de nata é tipicamente feito com leite, limão, canela, açúcar, ovos e massa folhada. Dependendo da receita, pode trocar-se o leite por natas, juntar farinha ou amido ou adicionar outros aromas. Começa-se por criar uma infusão com o leite e ovos, de forma a criar um creme. Este é levado a formas individuais forradas de massa folhada e vai tudo a um forno extremamente quente, de forma a cozinhar rapidamente e criar a característica crosta preta, creme suave e massa crocante.\n[…]\nDentro da panóplia da pastelaria portuguesa, encontram-se receitas de pastelaria que se assemelham ao pastel de nata e que, por se julgarem mais antigas, se consideram suas possíveis precursoras. É o caso do bom-bocado, doce cuja versão clássica é em tudo semelhante ao pastel de nata, somente com a diferença de que é feito com massa quebrada e não com massa folhada.\n[…]\nComo um doce português, o pastel de nata é também bastante comum no Brasil. Os pastéis de nata são muito populares na China, onde chegaram através de Macau, no tempo da presença portuguesa. Em chinês são chamados \"dan ta\" (蛋挞), significando \"pastel de ovo\". Empresas de fast food incluíram os \"dan ta\" na sua oferta de sobremesas, fazendo com que, desde finais da década de 1990, seja possível saborear pastéis de nata em países asiáticos, como o Camboja, Singapura, Malásia, Hong Kong e Taiwan.\n[…]\nPastel de Tentúgal\n[…]\nPastel de Vouzela\n[…]\nPastel de Chaves\n[…]\nPastel de feijão\n[…]\nMedia relacionados com Pastel de nata no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Sushi",
+      "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na forma mais antiga do sushi, o arroz era jogado fora antes de comer o peixe. Para que ele servia?",
+    "resposta": "Para fermentar e conservar o peixe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sushi",
+      "https://en.wikipedia.org/wiki/Narezushi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sushi",
+        "situacao": "ok",
+        "texto": "Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked. While sushi has numerous styles and presentations, the current defining compon\n[…]\nDuring the Edo period (1603–1867), a third type of sushi, haya-zushi (早寿司, 早ずし, \"fast sushi\"), was developed. Haya-zushi differed from earlier sushi in that instead of lactic fermentation of rice, vinegar, a fermented food, was mixed with rice to give it a sour taste so that it could be eaten at the same time as the fish.\n[…]\nThe sushi rice of this period was about three times the size of today's nigirizushi. The amount of vinegar used was half that of today's sushi, and the type of vinegar developed during this period, called aka-su (赤酢, \"red vinegar\"), was made by fermenting sake lees. They also used slightly more salt than in modern times instead of sugar. Seafood served over rice was prepared in a variety of ways.\n[…]\nNarezushi (熟れ寿司, \"matured sushi\") is a traditional form of fermented sushi. Skinned and gutted fish are stuffed with salt, placed in a wooden barrel, doused with salt again, then weighed down with a heavy tsukemonoishi (pickling stone). As days pass, water seeps out and is removed. After six months, this sushi can be eaten, remaining edible for another six months or more.\n[…]\nPickled daikon radish (takuan) in shinko maki, pickled vegetables (tsukemono), fermented soybeans (nattō) in nattō maki, avocado, cucumber in kappa maki, asparagus, yam, pickled ume (umeboshi), gourd (kanpyō), burdock (gobo), and sweet corn (sometimes mixed with mayonnaise) are plant products used in sushi.\n[…]\nList of sushi restaurants\n[…]\nSushi machine\n[…]\nWikiHow page on making sushi rice"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Narezushi",
+        "situacao": "ok",
+        "texto": "Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked. While sushi has numerous styles and presentations, the current defining compon\n[…]\nDuring the Edo period (1603–1867), a third type of sushi, haya-zushi (早寿司, 早ずし, \"fast sushi\"), was developed. Haya-zushi differed from earlier sushi in that instead of lactic fermentation of rice, vinegar, a fermented food, was mixed with rice to give it a sour taste so that it could be eaten at the same time as the fish.\n[…]\nThe sushi rice of this period was about three times the size of today's nigirizushi. The amount of vinegar used was half that of today's sushi, and the type of vinegar developed during this period, called aka-su (赤酢, \"red vinegar\"), was made by fermenting sake lees. They also used slightly more salt than in modern times instead of sugar. Seafood served over rice was prepared in a variety of ways.\n[…]\nNarezushi (熟れ寿司, \"matured sushi\") is a traditional form of fermented sushi. Skinned and gutted fish are stuffed with salt, placed in a wooden barrel, doused with salt again, then weighed down with a heavy tsukemonoishi (pickling stone). As days pass, water seeps out and is removed. After six months, this sushi can be eaten, remaining edible for another six months or more.\n[…]\nPickled daikon radish (takuan) in shinko maki, pickled vegetables (tsukemono), fermented soybeans (nattō) in nattō maki, avocado, cucumber in kappa maki, asparagus, yam, pickled ume (umeboshi), gourd (kanpyō), burdock (gobo), and sweet corn (sometimes mixed with mayonnaise) are plant products used in sushi.\n[…]\nList of sushi restaurants\n[…]\nSushi machine\n[…]\nWikiHow page on making sushi rice"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sushi",
+        "situacao": "ok",
+        "texto": "Sushi (すし, 寿司, 鮨; pronunciado [sɯꜜɕi] ou [sɯɕiꜜ]) é um prato da culinária japonesa que possui origem numa antiga técnica de conservação da carne de peixe em arroz avinagrado. O sushi, na forma em que é conhecido atualmente, tem cerca de 200 anos; inicialmente, era vendido em barracas, como comida de rua, numa espécie de fast food.\n[…]\nA forma tradicional do sushi é peixe fermentado e arroz, conservados com sal, em um processo originário do Sudeste Asiático, onde ainda continua popular nos dias de hoje.\n[…]\nA ciência por trás da fermentação do peixe embalado no arroz é que o vinagre produzido a partir da fermentação do arroz quebra a proteína do peixe em aminoácidos. Isso resulta em um dos cinco paladares básicos, chamado umami em japonês. A forma mais antiga de sushi no Japão, narezushi, ainda se assemelha muito com esse processo. No Japão, o narezushi evoluiu para oshizushi e, por último, para edomae nigirizushi, que é o alimento conhecido mundialmente apenas como \"sushi\".\n[…]\nIniciando-se no período Muromachi (1336-1573), o vinagre foi adicionado à mistura peixe-arroz, para dar um melhor paladar e conservação. O vinagre acentuava o azedume do arroz, aumentando seu tempo de conservação e permitindo que o processo de fermentação encurtasse, acabando por ser abandonado na preparação do prato. Nos séculos seguintes, o sushi de Osaka evoluiu para o oshi-zushi. Frutos do mar e arroz eram prensados usando-se uma esteira de bambu.\n[…]\nNarezushi (なれ鮨) é uma forma mais antiga de sushi. Um peixe é recheado com sal após seus órgãos e escamas serem removidos. Estes peixes são colocados em um barril de madeira mergulhados em sal e comprimidos com um tsukemonoishi pesado ou uma pedra específica. Eles são fermentados por entre dez dias e um mês. Então esses peixes são colocados na água por entre 15 minutos e uma hora.\n[…]\nHistória do sushi",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Saquê",
+      "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Servido quente ou frio em pequenos copos, o saquê, bebida alcoólica tradicional do Japão, é obtido pela fermentação de qual cereal?",
+    "resposta": "Arroz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sake"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sake",
+        "situacao": "ok",
+        "texto": "Sake, saké (Japanese: 酒, Hepburn: sake; English: IPA:  SAH-kee, SAK-ay), or saki, also referred to as Japanese rice wine (specified as 日本酒 \"nihonshu\" in Japanese, as 酒 can refer to all alcohol), is an alcoholic beverage of Japanese origin made by fermenting rice that has been polished to remove the bran.\n[…]\nNihonshu-do (日本酒度), also called the Sake Meter Value or SMV\n[…]\nNihonshu-do (日本酒度) or Sake Meter Value (SMV) is calculated from the specific gravity of the sake and indicates the sugar and alcohol content of the sake on an arbitrary scale. Typical values are between −3 (sweet) and +10 (dry), equivalent to specific gravities ranging between 1.007 and 0.998, though the maximum range of Nihonshu-do can go much beyond that.\n[…]\nThe Nihonshu-do must be considered together with San-do to determine the overall perception of dryness-sweetness, richness-lightness characteristics of a sake (for example, a higher level of acidity can make a sweet sake taste drier than it actually is).\n[…]\nAccording to the international sommelier of sake certified by SSI International, ginjō type sake, which is fermented at low temperature for a long time, has little flavor degradation for two to three days after opening and has a best before date of one week after opening. Other special designation sake and futsū-shu have little flavor degradation for 10 to 14 days after opening the bottle and have a best before date of one month after opening.\n[…]\nOctober 1 is the official \"Sake Day\" (日本酒の日, Nihonshu no Hi) of Japan. It is also called \"World Sake Day\". It was designated by the Japan Sake and Shochu Makers Association in 1978.\n[…]\nWorld Sake Day\n[…]\nBamforth CW. (2005). \"Sake.\" Food, Fermentation and Micro-organisms. Blackwell Science: Oxford, UK: 143–153.\n[…]\nSake Education Council; Archived September 5, 2012, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saqu%C3%AA",
+        "situacao": "ok",
+        "texto": "Saquê (português brasileiro) ou saqué (português europeu) (em japonês: nihonshu,日本酒, ou seishu清酒) é uma bebida alcoólica fermentada tradicional do Japão, produzida a partir de três ingredientes principais arroz (米), água (水) e kōji (麹). O ponto importante para ser considerado saquê é que somente o arroz é fermentado no processo; nenhum outro grão ou açúcar participa da fermentação.\n[…]\nO arroz é a matéria prima para fabricação do saquê. Na primeira etapa, chamada de seimai (精米), o grão de arroz é polido para retirada de gorduras e proteínas contidas na parte mais externa do grão. Logo em seguida o arroz é cozido a vapor.\n[…]\nA segunda etapa é a produção do arroz-koji, feito da união do arroz cozido e do fungo aspergillus oryzae (麹 kōji em japonês). Nessa etapa a molécula de amido, contido no interior do arroz ( 心白 shinpaku), passa por uma hidrólise que resulta em moléculas menores de açúcares.\n[…]\nNa sequência é adicionado uma cultura de levedura a uma parte do arroz-koji para início da fermentação. Com isso é formado o shubo (酒母).\n[…]\nA próxima etapa é a formação do moromi (醪), que é a junção do shubo (酒母) com o restante do arroz-koji para que todo arroz seja fermentado, durante cerca de 30 dias, e transformado em saquê.\n[…]\nO saquê pode ser consumido em uma ampla faixa de temperatura, de 5 a 60ºC. O aroma e o sabor da bebida varia com a temperatura..\n[…]\nO aquecimento deve ser feita de forma indireta, em banho-maria. No Japão utiliza-se do tokkuri (徳利) para aquecimento. Caso o saquê passe dos 75ºC o álcool começa a evaporar e perde-se todas as características iniciais da bebida.\n[…]\nÉ geralmente servido em pequenos copos de porcelana chamados de choko ou o-choko  (お猪口) ou em taças, como as de vinho, para poder apreciar os aromas do saquê. Outra tradicional forma de beber saquê é utilizando o masu, pequeno copo de madeira.\n[…]\nIdade legal para consumo de bebidas alcoólicas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Chá Earl Grey",
+      "descricao": "Mistura de chá preto aromatizada com óleo de bergamota, batizada em homenagem ao conde Grey."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O chá Earl Grey, batizado em homenagem a um primeiro-ministro britânico, é aromatizado com o óleo de qual fruta cítrica?",
+    "resposta": "Bergamota",
+    "distratores": [
+      "Limão-siciliano",
+      "Laranja",
+      "Toranja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earl_Grey_tea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Earl_Grey_tea",
+        "situacao": "ok",
+        "texto": "Earl Grey tea is a tea blend which has been flavoured with oil of bergamot. The rind's fragrant oil is added to black tea to give Earl Grey its unique taste. However, many, if not most, Earl Greys use other natural or artificial flavours or synthetic oils instead as this is cheaper and results in a longer shelf-life. The taste of the artificially flavoured teas is considered to be less well-balanc\n[…]\nThe earliest reference to tea flavoured with bergamot dates to 1824; however the article in question makes no mention of Earl Grey. Bergamot seems to have been used to enhance the taste of low-quality teas. In 1837, charges were laid against a company accused of secretly adding bergamot to misrepresent their tea as a superior product and thus selling it at a higher price.\n[…]\nIt has been suggested that the Earl Grey blend, also called \"Earl Grey's Mixture\", was named after Charles Grey, 2nd Earl Grey, British Prime Minister in the 1830s. However, the fact that adding bergamot to tea was being done in a disreputable manner near the time of his death suggests that, while it is possible that the second Earl Grey encountered tea flavoured with bergamot, it seems rather unlikely that he would have championed it.\n[…]\nThe first, which is said to result in a stronger citrus flavour, is the coating or spraying of the black tea leaves with bergamot essential oils. The second method is the addition of dried bergamot orange rinds to the Earl Grey tea blend. With this method, the citrus flavour infuses the black tea leaves during the brewing process.\n[…]\nA blend called Russian Earl Grey also contains citrus-flavoured ingredients, such as citrus peels and lemon grass, in addition to the usual black tea and bergamot. Due to the inclusion of citrus peel, it is similar to the (trademarked) Lady Grey, but may vary in strength depending on the producer\n[…]\nMedia related to Earl Grey tea at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Earl_Grey",
+        "situacao": "ok",
+        "texto": "Earl Grey é uma mistura de chá e aditivos que foi aromatizada com a adição de óleo essencial de bergamota. O óleo aromático da casca é adicionado ao chá preto para dar ao Earl Grey seu sabor único. Tradicionalmente, o Earl Grey era feito a partir de chá preto, mas as empresas de chá começaram a oferecer o Earl Grey em outras variedades, como o verde ou oolong.\n[…]\nA mistura Earl Grey, ou \"Earl Grey's Mixture\", é considerada como tendo o nome de Charles Grey, 2.º Conde Grey  Um \"Chá de Grey\" é conhecido a partir da década de 1850, mas as primeiras referências publicadas a um chá \"Earl Grey\" são anúncios da Charlton & Co. de Jermyn Street em Londres na década de 1880.\n[…]\nSegundo uma lenda, um grato mandarim cujo filho foi resgatado por um dos homens de Lord Grey apresentou pela primeira vez a mistura ao Conde em 1803. O conto parece ser apócrifo já que o Lord Grey nunca esteve na China.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Iftar",
+      "descricao": "Refeição que quebra o jejum diário do Ramadã, ao pôr do sol."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Durante o Ramadã, seguindo uma tradição atribuída ao profeta Maomé, o jejum é quebrado ao pôr do sol com água e qual fruta?",
+    "resposta": "Tâmara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iftar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iftar",
+        "situacao": "ok",
+        "texto": "Iftar (Arabic: إفطار, romanized: ifṭār; IPA: [ʔif.tˤaːr]) is the fast-breaking evening meal of Muslims in Ramadan at the time of adhan (call to prayer) of the Maghrib prayer.\n[…]\nSome Hadith also state that Muhammad used to read the following dua at iftar:\n[…]\nIslam is a minority religion in Taiwan. During Ramadan, major mosques around Taiwan are filled with Muslims going to have their iftar followed by Tarawih prayer. Muslims in Taiwan usually break their fast with dates and water.\n[…]\nMost of the Ramadan celebration practices in Turkey have their roots in the traditions of the former Ottoman Empire. At the minarets of mosques, lights called kandil are switched on from sunset to dawn. As soon as the sun sets, a traditional \"Ramadan Cannon\" is fired from the highest hill in every city as a signal to start eating the iftar.\n[…]\nIn Istanbul, one of the more notable places to celebrate the iftar dinner is the Sultanahmet Square. Located near the Sultan Ahmed Mosque (Blue Mosque) the Sultanahmet Square hosts many activities, including mini restaurants opened during the month of Ramadan, special shows, and traditional Ottoman theatrical shows. At Topkapi Palace the Ottoman sultan-caliphs would break their fast under the gilded bower.\n[…]\nAs Ramadan is also the month of almsgiving, many people organise iftar dinners for the poor, students, guests, and foreigners. People can find Turkish food available in most mosques.\n[…]\nCanadian Prime Minister Stephen Harper extended an invitation to Muslim leaders to break the Ramadan fast with him at the prime minister's residence in 2015. This was the first time the prime minister's office had hosted an iftar."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Iftar",
+        "situacao": "ok",
+        "texto": "Iftar (em árabe: إفطار) é a refeição ingerida durante a noite com a qual se quebra o jejum diário durante o mês islâmico do Ramadão. O Iftar durante o Ramadão faz-se de maneira comunitária, com grupos de muçulmanos que se reúnem para quebrar o jejum. O Iftar tem lugar logo depois do Maghrib (pôr-do-sol). Tradicionalmente, uma tâmara costuma ser o primeiro alimento que se consome no Iftar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Couve-flor",
+      "descricao": "Hortaliça de inflorescência branca e compacta, variedade da espécie Brassica oleracea."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Do ponto de vista botânico, o que o repolho, o brócolis, a couve e a couve-flor têm em comum?",
+    "resposta": "São a mesma espécie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brassica_oleracea",
+      "https://en.wikipedia.org/wiki/Cauliflower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brassica_oleracea",
+        "situacao": "ok",
+        "texto": "Brassica oleracea, also known as wild cabbage in its uncultivated form, is a plant of the family Brassicaceae.\n[…]\nWild Brassica oleracea is a tall biennial or perennial plant that forms a stout rosette of large leaves in its first year. The grayish-green leaves are fleshy and thick, helping the plant store water and nutrients in difficult environments. In its second year, a woody spike grows up to 1.5 metres (5 ft) tall, from which branch off stems with long clusters of four-petaled yellow flowers.\n[…]\nAccording to the triangle of U theory, B. oleracea is very closely related to five other species of the genus Brassica. A 2021 study suggests that Brassica cretica, native to the Eastern Mediterranean, particularly Greece and the Aegean Islands, was the closest living relative of cultivated B. oleracea, thus supporting the view that its cultivation originated in the Eastern Mediterranean region, with later admixture from other Brassica species.\n[…]\nBotrytis: cultivars that form compact inflorescences (broccoli, cauliflower, broccoflower, calabrese broccoli, romanesco broccoli).\n[…]\nWieczorek, Martyna.; et al. (2018). \"Bitter Taste of Brassica Vegetables: The Role of Genetic Factors, Receptors, Isothiocyanates, Glucosinolates, and Flavor Context\". Critical Reviews in Food Science and Nutrition. 58 (18): 3130–3140. doi:10.1080/10408398.2017.1353478. PMID 28718657. S2CID 28896102.\n[…]\nPROTAbase on Brassica oleracea (Brussels sprouts)\n[…]\nPROTAbase on Brassica oleracea (cauliflower and broccoli)\n[…]\nVideo Overview of Brassica oleracea: from Untamed Science"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cauliflower",
+        "situacao": "ok",
+        "texto": "Cauliflower (Brassica oleracea var. botrytis) is a vegetable belonging to the species Brassica oleracea in the family Brassicaceae (the mustard or cabbage family). It is one of several cultivated forms of the species along with cabbage, broccoli, Brussels sprouts, kale, kohlrabi, and others. The edible portion of the plant is its dense head of undeveloped flower buds known as the \"curd\". The head \n[…]\nGreen cauliflower in the B. oleracea Botrytis Group is sometimes called broccoflower. It is available in the normal curd (head) shape and with a fractal spiral curd called Romanesco broccoli. Both have been commercially available in the U.S. and Europe since the early 1990s. Green-headed varieties include 'Alverda, 'Green Goddess', and 'Vorda'. Romanesco varieties include 'Minaret' and 'Veronica'.\n[…]\nPliny the Elder  included cyma among cultivated plants he described in Natural History: \"Ex omnibus brassicae generibus suavissima est cyma\" (\"Of all the varieties of cabbage the most pleasant-tasted is cyma\"). Pliny's description likely refers to the flowering heads of an earlier cultivated variety of Brassica oleracea.\n[…]\nIn the Middle Ages, early forms of cauliflower were associated with the island of Cyprus, with the 12th- and 13th-century Arab botanists Ibn al-'Awwam and Ibn al-Baitar claiming its origin to be Cyprus. This association continued into Western Europe, where cauliflowers were sometimes known as Cyprus colewort, and there was extensive trade in Western Europe in cauliflower seeds from Cyprus, under the French Lusignan rulers of the island, until well into the 16th century.\n[…]\nPROTAbase on Brassica oleracea (cauliflower and broccoli)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Couve",
+        "situacao": "ok",
+        "texto": "Couve é o nome vulgar, genérico, das diversas variedades cultivares da espécie Brassica oleracea L., (ou Brassica sylvestris (L.) Mill.) da família das Brassicaceae, a que também pertence o nabo e a mostarda. É uma planta muito utilizada como verdura na cozinha, para sopas (como a couve-galega para o caldo verde) e conservas (como o repolho para o chucrute), entre outros acompanhamentos, como a co\n[…]\nBrassica oleracea, Grupo Acephala - ou couves, propriamente ditas, com grandes semelhanças à espécie-tipo - como a couve-galega;\n[…]\nBrassica oleracea grupo Alboglabra - couve-chinesa-kairan, bróculos chineses ou Kai-lan;\n[…]\nBrassica oleracea, grupo Botrytis - couve-flor e brócolis romanesco;\n[…]\nBrassica oleracea, grupo Capitata - ou repolhos;\n[…]\nBrassica oleracea, grupo Capitata Rubra (Repolho-de-erfurte ou couve-roxa)\n[…]\nBrassica oleracea, grupo Costata - couve-portuguesa ou tronchuda.\n[…]\nBrassica oleracea, grupo Gemmifera - ou couve-de-bruxelas;\n[…]\nBrassica oleracea, grupo Gongylodes - ou couve-rábano, couve-nabo ou couve-naba;\n[…]\nBrassica oleracea, grupo Italica - brócolis ou bróculos;\n[…]\nBrassica oleracea, grupo Medullosa - couve-cavaleiro, couve-forrageira ou couve-repolho-branca;\n[…]\nSubgrupo Rubra - couve-repolho-vermelha ou couve-forrageira-vermelha;\n[…]\nBrassica oleracea, grupo Nanofimbriata - couve-frisada-anã;\n[…]\nBrassica oleracea, grupo Palmifolia - couve-palmeira;\n[…]\nSubgrupo Laciniato - também incluído nos grupos Viridis e Sabellica - ainda que pertença indubitavelmente à Brassica oleracea acephala;\n[…]\nBrassica oleracea, grupo Ramosa- outro tipo de couve-cavaleiro;\n[…]\nBrassica oleracea, grupo Sabauda - couve-lombarda, lombardo, couve-crespa, couve-de-sabóia ou couve-de-milão;\n[…]\nBrassica oleracea, grupo Sabellica - couve-frisada ( bem como a couve-galega, ambas pertencentes também ao tipo Acephala, nem sempre consideradas como grupo, mas como \"variante\");\n[…]\nBrassica oleraceae, grupo Viridis - couve-forrageira;",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Amendoim",
+      "descricao": "Semente comestível da planta Arachis hypogaea, cujas vagens amadurecem debaixo da terra."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Apesar de ser vendido junto com as castanhas, o que o amendoim tem em comum com o feijão e a ervilha?",
+    "resposta": "São leguminosas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peanut"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peanut",
+        "situacao": "ok",
+        "texto": "The peanut (Arachis hypogaea), also known as the groundnut, goober (US, via Kikongo), goober pea, pindar (US, via Kikongo) or monkey nut (UK), is a legume crop grown mainly for its edible seeds, contained in underground pods. It is widely grown in the tropics and subtropics by small and large commercial producers, both as a grain legume and as an oil crop.\n[…]\nUnderground fruiting (geocarpy) is atypical among legumes, which led botanist Carl Linnaeus to name the species hypogaea, from Greek 'under the earth'.\n[…]\nThe peanut belongs to the flowering plant family Fabaceae (or Leguminosae), commonly known as the pea family, and is native to South America. Like most other legumes, peanuts harbor symbiotic nitrogen-fixing bacteria in root nodules, which improve soil fertility, making them valuable in crop rotations.\n[…]\nArachis hypogaea was described by Carl Linnaeus in his Species Plantarum in 1753. It is an annual herbaceous plant growing 30 to 50 centimetres (12 to 20 in) tall. It belongs to the botanical family Fabaceae, also known as Leguminosae, and commonly known as the legume, bean, or pea family. Like other legumes, peanuts harbor symbiotic nitrogen-fixing bacteria in their root nodules.\n[…]\nThe Arachis genus is native to South America, east of the Andes, around Peru, Bolivia, Argentina, and Brazil. Cultivated peanuts (A. hypogaea) arose from a hybrid between two wild species of peanut, thought to be A. duranensis and A. ipaensis. The initial hybrid would have been sterile, but spontaneous chromosome doubling restored its fertility, forming what is termed an amphidiploid or allotetraploid. Genetic analysis suggests the hybridization may have occurred only once and gave rise to A.\n[…]\nPeanuts tested to have high aflatoxin are used to make peanut oil where the mold can be removed. The ant leaves can be affected by a fungus, Alternaria arachidis."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amendoim",
+        "situacao": "ok",
+        "texto": "O amendoim (Arachis hypogaea L.) é uma planta da família Fabaceae. A planta do amendoim é uma planta herbácea, com caule pequeno e folhas compostas e pinadas, contendo quatro folíolos de formato elíptico e com inserção alternada. Possui abundante indumento, raiz aprumada, medindo entre 30–50 cm de profundidade.\n[…]\nA espécie Arachis hypogaea conta com uma grande variedade de nomes comuns, que alternam de país para país:\n[…]\nAmendoim, aráquide ou aráquida, alcagoita (regionalismo algarvio) ervilhana ou arvelhana (regionalismos do Alentejo e do Algarve), amendobi (nome antigo)\n[…]\nNo Brasil, vários produtos alimentícios têm como base o amendoim: paçoca de amendoim, pé-de-moleque, doce de amendoim, entre outros. Também é consumido como principal ingrediente de bolos, gelados e sorvetes.\n[…]\nTambém pode ser usado, como outros legumes e grãos, para fazer um leite sem lactose, como bebida, o leite de amendoim.\n[…]\nO amendoim pode ser usado para suprir as necessidades diárias de proteína que nosso organismo necessita, porém é necessário combiná-lo com outros alimentos tais como: cereais integrais (supre a deficiência de metionina), legumes (supre a deficiência de lisina e treonina) ou com levedura de cerveja (supre a deficiência de metionina e treonina) (Pamplona, p. 235). O amendoim é pobre em metionina, lisina e treonina, por isso esse cuidado (ibid.).\n[…]\nO estado de São Paulo concentra mais de 90% da produção brasileira de amendoim, sendo que o Brasil exporta cerca de 30% do amendoim que produz.\n[…]\nA produção mundial de amendoins no ano de 2018, de acordo com dados da FAOSTAT, foi de aproximadamente 45,9 milhões de toneladas. A China lidera como maior produtor mundial, com 37,7% do volume produzido no mundo. O ranking dos principais produtores mundiais está listado a baixo:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Rum",
+      "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Além de serem destilados das Américas, o que o rum caribenho e a cachaça brasileira têm em comum na matéria-prima?",
+    "resposta": "A cana-de-açúcar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rum",
+      "https://en.wikipedia.org/wiki/Cacha%C3%A7a"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rum",
+        "situacao": "ok",
+        "texto": "Rum is a liquor made by fermenting and then distilling sugarcane molasses or sugarcane juice. The distillate, initially a clear liquid, is often aged in barrels. Rum originated in the Caribbean in the 17th century, where it was likely first created by enslaved people on sugar plantations, but has come to be produced in nearly every major sugar-producing region of the world.\n[…]\nThe popularity of rum continued after the American Revolution; George Washington insisted on a barrel of Barbados rum at his 1789 inauguration.\n[…]\nBrazil produces cachaça, a spirit made from fresh cane juice, similar to rhum agricole, and is often legally distinct from rum.\n[…]\nSeveral Latin American countries produce aguardiente, an unaged cane spirit. Its ABV can be below normal legal thresholds for rum, and is often flavored with anise. Mexico has a version called charanda.\n[…]\nThe Smuggler's Cove book features 21 categories, broadly based on base material and production, and sub-categories usually based on age, with two meta-categories dividing the list. There are also 8 categories given a number, as with these 8 categories, one can make most tiki cocktails listed in the book.\n[…]\nPot still cachaça (unaged, aged)\n[…]\nIn Brazil itself, the distilled alcoholic drink derived from cane juice is distinguished from rum and called cachaça.\n[…]\nRum is the foundation of numerous classic cocktails. Many have their histories rooted in the Caribbean, such as rum punch, the Rum and Coke (Cuba libre), and Daiquiri, while American tiki bars popularized tropical-themed drinks such as the Mai Tai, the Long Island iced tea, the Jungle Bird and the zombie. Other widely-known rum cocktails include the piña colada, the mojito, and a precursor of the classic Spanish sangria known as sangaree."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cacha%C3%A7a",
+        "situacao": "ok",
+        "texto": "Cachaça ( kə-SHAH-sə; Brazilian Portuguese pronunciation: [kaˈʃasɐ]) is a distilled spirit made from fermented sugarcane juice. Also known as pinga, caninha, and other names, it is the most popular spirit in Brazil, and the most popular cane spirit in the world (though almost entirely due to domestic consumption). Outside Brazil, cachaça is used almost exclusively as an ingredient in tropical drin\n[…]\nSugar production was mostly switched from the Madeira islands to Brazil by the Portuguese in the 16th century. In Madeira, aguardente de cana is made by distilling fermented sugar cane juice into liquor, and the pot stills from Madeira were brought to Brazil to make what today is also called cachaça. The process dates from 1532, when one of the Portuguese colonists brought the first cuttings of sugar cane to Brazil from Madeira.\n[…]\nIn the beginning of the 17th century, the producers of sugar from various European colonies in the Americas used the by-products of sugar, molasses, and scummings as the raw material for the production of alcoholic spirits.\n[…]\nThe resulting beverage was known by several names: in British colonies, it was named rum; in France, tafia; in Spain, aguardiente de caña; and in Portugal (Brazil), aguardente da terra, aguardente de cana and later cachaça (locals also call it \"Pinga\", which translates to drip).\n[…]\nBy the turn of the millennium, the Brazilian government began efforts to support the cachaça industry. In 1992, Pró-Cachaça, a program to encourage the expansion of cachaça production, was passed by the Brazilian government, and the following year, the government officially defined cachaça, caninha, and aguardente de cana. Later, in 2005, the government defined the technical specifications of what qualifies as cachaça, and in 2007, the geographical indication for cachaça was created.\n[…]\nCachaça HUB - Initiative in Europe about cachaça\n[…]\nKnow more ABOUT cachaça"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rum",
+        "situacao": "ok",
+        "texto": "Rum é uma bebida alcoólica obtida a partir da fermentação alcoólica do melaço e de outros derivados da produção de açúcar e posterior destilação. O rum é uma bebida secular, de características refinadas e aroma suave.\n[…]\nRum aromático: além do melaço da cana, contém bagos de arroz vermelho. Produzido principalmente na Indonésia, é levado para a Países Baixos e a Suécia para ser engarrafado e utilizado na fabricação do ponche;\n[…]\nA cana sacarina foi introduzida na ilha da Madeira (Portugal) por volta de 1425, tendo sido as primeiras estacas importadas da Sicília por ordem do infante dom Henrique, ou seja, logo após o início da sua colonização. Da ilha da Madeira, a cana foi transportada para as Índias (Novo Mundo). Devido ao lucrativo mercado do açúcar na Europa, foram instalados vários engenhos de açúcar nas colônias americanas.\n[…]\nDurante a produção do açúcar, são gerados vários resíduos, como as espumas durante a fervura do caldo de cana, e o mel de furo, ou melaço, na fase de cristalização do açúcar. A maior parte destes resíduos era descartada, pois havia pouco uso para eles. Alguém descobriu que, misturados à água, eles fermentam. Não tardou para que eles começassem a ser destilados para obtenção de bebida alcoólica.\n[…]\nNos princípios do século XVII, surgiu o primeiro rum destilado a partir da cana-de-açúcar nas possessões inglesas das Américas, ao mesmo tempo que a tafia nas francesas, a aguardiente de caña nas espanholas e a aguardente (apelidada de \"cachaça\" no Brasil) nas portuguesas. Ou seja, eram todas a mesma bebida, com diferentes nomes, de acordo com a colônia onde era produzida.\n[…]\nOutros afirmam que a palavra \"rum\" tem origem no termo latino saccharum (açúcar).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Morango",
+      "descricao": "Fruta vermelha do morangueiro (Fragaria × ananassa), com pontinhos na superfície."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No morango, os pontinhos que costumamos chamar de sementes são, para a botânica, o quê?",
+    "resposta": "Os verdadeiros frutos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Strawberry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Strawberry",
+        "situacao": "ok",
+        "texto": "The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid plant cultivated worldwide for its fruit. The genus Fragaria, the strawberries, is in the rose family, Rosaceae. The fruit is appreciated for its aroma, bright red colour, juicy texture, and sweetness. It is eaten either fresh or in prepared foods such as jam, ice cream, and chocolates. Artificial strawberry\n[…]\nIn culinary terms, a strawberry is an edible fruit. From a botanical point of view, it is not a berry but an aggregate accessory fruit, because the fleshy part is derived from the receptacle. Each apparent seed on the outside of the strawberry is actually an achene, a botanical fruit with a seed inside it.\n[…]\nSome people experience an anaphylactoid reaction to eating strawberries. The most common form of this reaction is oral allergy syndrome, but symptoms may also mimic hay fever or include dermatitis or hives, and, in severe cases, may cause breathing problems. Proteomic studies indicate that the allergen may be tied to a protein for the red anthocyanin biosynthesis expressed in strawberry ripening, named Fra a1 (Fragaria allergen1).\n[…]\nStrawberry plants are subject to many diseases, especially when subjected to stress. The leaves may be infected by powdery mildew, leaf spot (caused by the fungus Sphaerella fragariae), leaf blight (caused by the fungus Phomopsis obscurans), and by a variety of slime molds. The crown and roots may fall victim to red stele, verticillium wilt, black root rot, and nematodes. The fruits are subject to damage from gray mold (Botrytis cinerea), rhizopus rot, and leather rot.\n[…]\nThe NPR1 gene from Arabidopsis thaliana, AtNPR1, confers A. thaliana's broad-spectrum resistance when transexpressed in F. ananassa. This includes resistance to anthracnose, powdery mildew, and angular leaf spot.\n[…]\nFragaria × ananassa data from GRIN Taxonomy Database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Morango",
+        "situacao": "ok",
+        "texto": "Morango (Fragaria × ananassa) é considerado, na linguagem vulgar, como o fruto vermelho do morangueiro, da família das rosáceas. No entanto, em termos científicos não se pode considerar um fruto já que é constituído pelo receptáculo da flor original (composta), em volta do qual se dispõem os frutos (as sementes são visíveis sob a forma de grainhas).\n[…]\nO morango jardim foi criado pela primeira vez na Bretanha, no noroeste da França, na década de 1750 por meio de um cruzamento de Fragaria virginiana do leste da América do Norte  com a variedade  Fragaria chiloensis, que fora trazida do Chile por Amédée-François Frézier em 1714.\n[…]\nExistem várias espécies de morango, sendo a fragaria a mais comum e cultivada em várias partes do mundo.\n[…]\nFragaria daltoniana\n[…]\nFragaria moschata\n[…]\nFragaria vesca\n[…]\nFragaria virginiana\n[…]\nFragaria viridis\n[…]\nAtibaia possui cerca de 180 famílias produtoras, cultivando aproximadamente 3 milhões de pés de morango e gerando uma produção anual estimada em 3 mil toneladas.\n[…]\nEstiva, localizada no Sul de Minas Gerais, é conhecida como a “Terra do Morango”. O cultivo local teve início em 1963, com pioneiros do bairro Ribeirão das Pedras, como Osvaldinho e outros produtores que trouxeram técnicas de Atibaia e São Paulo.\n[…]\nDe acordo com dados do Levantamento Sistemático da Produção Agrícola (LSPA) realizado pelo IBGE, no ano de 2017, o estado de Minas Gerais foi o maior produtor de morango do Brasil. Minas respondeu por aproximadamente 66% da produção nacional, consolidando sua liderança tanto em área plantada quanto em volume colhido naquele ano.\n[…]\nEsse protagonismo se deve ao clima favorável, à topografia montanhosa e ao uso intensivo de tecnologia no cultivo, especialmente em regiões como Estiva, que tradicionalmente se destaca pelo pioneirismo na introdução do morango em solo mineiro desde a década de 1960.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Tarte Tatin",
+      "descricao": "Torta francesa de maçãs caramelizadas na manteiga e no açúcar, popularizada no Hotel Tatin."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O que a tarte Tatin, torta francesa de maçãs caramelizadas, tem de peculiar no modo de assar?",
+    "resposta": "É assada de cabeça para baixo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tarte_Tatin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tarte_Tatin",
+        "situacao": "ok",
+        "texto": "The tarte Tatin (French pronunciation: [taʁt tatɛ̃]) is a tart in which the fruit (usually apples) is caramelized in butter and sugar before the tart is baked. Named after the Tatin sisters who invented it and served it in their hotel as its signature dish, it originated in France but has spread to other countries over time.\n[…]\nResearch suggests that while the tarte became a specialty of the Hôtel Tatin, the sisters did not set out to create a \"signature dish\"; they never wrote a cookbook or published their recipe; they never even called it tarte Tatin. That recognition was bestowed upon them by Curnonsky, the  French writer and epicure, as well as the Parisian restaurant Maxim's after the sisters' deaths.\n[…]\nUndaunted, I got myself hired as a gardener, but three days later, I was fired when it became clear that I could hardly plant a cabbage; however, this was long enough to pierce the secrets of the kitchen; I brought the recipe back, and put it on my menu under 'tarte des demoiselles Tatin.'\n[…]\nOriginally, the tarte Tatin was made with two regional apple varieties: Reine des Reinettes (Pippins) and Calville. Over the years, other varieties have tended to displace them, including Golden Delicious, Granny Smith, Fuji and Gala.\n[…]\nTarte Tatin can also be made with pears, bananas, quinces, peaches, pineapple, tomatoes, or other fruit or vegetables, such as onion. The tarte Tatin is traditionally made with puff, but can be made with shortcrust pastry.\n[…]\nMedia related to Tarte Tatin at Wikimedia Commons\n[…]\nGourmet magazine's recipe for tarte tatin\n[…]\nAnnual Tarte Tatin competition and recipe"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tarte_Tatin",
+        "situacao": "ok",
+        "texto": "A Tarte Tatin (lê-se \"tatan\") é uma torta de frutas clássica da culinária francesa, conhecida por sua combinação de maçãs caramelizadas e uma crosta de massa folhada. Originária do Vale do Loire, na França, essa receita tornou-se um ícone gastronômico e é apreciada em todo o mundo, inventada pelas irmãs Stéphanie e Caroline Tatin.\n[…]\nConsiste em uma tarte normal de fruta, com a especial particularidade de ser confeccionada ao contrário, ou seja: na forma colocam-se as frutas e por cima, derrama-se até cobrir, a massa. Ao desenformar a tarte após cozedura no forno, esta fica com as frutas no topo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Canela",
+      "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre as especiarias que movimentaram as grandes navegações, qual destas é feita da casca de uma árvore?",
+    "resposta": "Canela",
+    "distratores": [
+      "Cravo-da-índia",
+      "Noz-moscada",
+      "Pimenta-do-reino"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cinnamon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cinnamon",
+        "situacao": "ok",
+        "texto": "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, in particular sweet and savoury dishes such as biscuits, breakfast cereals, snack foods, bagels, teas, hot chocolate, and traditional foods.\n[…]\nCassia induces a strong, spicy flavour and is often used in baking, especially associated with cinnamon rolls, as it handles baking conditions well. Among cassia, Chinese cinnamon is generally medium to light reddish-brown, hard and woody in texture, and thicker (2–3 mm (0.079–0.118 in) thick), as all of the layers of bark are used. Ceylon cinnamon, using only the thin inner bark, has a lighter brown colour and a finer, less dense, and more crumbly texture.\n[…]\nCinnamon bark is used as a spice. It is principally employed in cookery as a condiment and flavouring material. It is used in the preparation of chocolate, especially in Mexico. Cinnamon is often used in savoury dishes of chicken and lamb. In the United States and Europe, cinnamon and sugar are often used to flavour cereals, bread-based dishes such as toast, and fruits, especially apples; a cinnamon and sugar mixture (cinnamon sugar) is sold separately for such purposes.\n[…]\nDue to the variable amount of coumarin in C. cassia, usually well over 1 mg of coumarin per g of cinnamon and sometimes up to 12 times that, C. cassia has a low safe-intake-level upper limit to adhere to the above TDI. In contrast, C. verum has only trace amounts of coumarin.\n[…]\nCanella, a plant known as \"wild cinnamon\" or \"white cinnamon\"\n[…]\nCinnamomea, a Neo-Latin adjective meaning 'cinnamon-coloured'\n[…]\nCinnamon challenge\n[…]\nWijesekera R. O. B., Ponnuchamy S., Jayewardene A. L., \"Cinnamon\" (1975) monograph published by CISIR, Colombo, Sri Lanka"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canela",
+        "situacao": "ok",
+        "texto": "Canela é uma especiaria obtida a partir da casca interna de várias espécies de árvores do género Cinnamomum (família Lauraceae), usado tanto em alimentos doces como em salgados. O termo \"canela\" também se refere à cor acastanhada da especiaria depois de moída.\n[…]\nA canela obtida a partir da espécie Cinnamomum verum é frequentemente considerado como \"canela verdadeira\", mas a maioria das canelas que circulam no comércio internacional são derivadas de espécies relacionadas, em especial de Cinnamomum cassia, a \"cássia\". Por serem utilizadas na produção da especiaria homônima, canela é o nome comum de mais de uma dezena de espécies do género Cinnamomum e das especiarias produzidas a partir do seu ritidoma.\n[…]\nApenas algumas espécies de Cinnamomum são cultivadas comercialmente para produção das especiarias.\n[…]\nA palavra em Português \"canela\" deriva diretamente do Latim, cannella, diminutivo de canna (tubo, cano), originada na forma que a canela assume quando, após sua extração, a casca enrola-se formando pequenos cilindros.\n[…]\nNo final das 12 semanas verificaram que os ratos pesavam menos, tinham menos gordura abdominal e níveis mais saudáveis de açúcar, insulina e gordura no sangue em comparação com outro grupo de ratos que não receberam a canela com os alimentos ricos em gordura. Os ratos alimentados com canela apresentaram também menos moléculas envolvidas no processo de armazenamento de gordura no corpo e mais moléculas antioxidantes e anti-inflamatórias que protegem o organismo dos danos do estresse.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
