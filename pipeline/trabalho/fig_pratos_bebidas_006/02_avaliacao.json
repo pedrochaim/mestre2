@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Torso de uma pessoa comum ocupa boa parte do primeiro plano, e o algodão-doce está borrado pelo movimento."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peixe empanado com batatas em caixa de isopor, claro e legível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país surgiu, no século dezenove, este prato?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Irlanda",
+        "Austrália",
+        "Estados Unidos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fish and chips",
+        "descricao": "Prato britânico de peixe empanado e frito servido com batatas fritas.",
+        "variantes": [
+          "Peixe com batatas fritas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Creme alaranjado com camarões e amendoim picado, reconhecível entre pratos brasileiros parecidos; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato brasileiro é este?",
+      "resposta": "Bobó de camarão",
+      "distratores": [
+        "Vatapá",
+        "Moqueca capixaba",
+        "Caruru"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bobó de camarão",
+        "descricao": "Prato baiano cremoso de camarão com purê de aipim, leite de coco e dendê.",
+        "variantes": [
+          "Bobó"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Omelete dobrada com cogumelos e bacon, com salada ao lado; reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato é este?",
+      "resposta": "Omelete",
+      "destino": 0,
+      "ancora": {
+        "nome": "Omelete",
+        "descricao": "Prato de ovos batidos fritos na frigideira, dobrado e recheado.",
+        "variantes": [
+          "Omelette"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Caracóis gratinados com manteiga de ervas em travessa própria e pinça, inconfundível; sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato clássico francês é este?",
+      "resposta": "Escargot",
+      "destino": 0,
+      "ancora": {
+        "nome": "Escargot",
+        "descricao": "Prato de caracóis terrestres comestíveis, servidos com manteiga de ervas.",
+        "variantes": [
+          "Caracóis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Feijão branco com linguiça e carnes em tigela de barro, aspecto típico do cassoulet.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país nasceu este prato?",
+      "resposta": "França",
+      "distratores": [
+        "Bélgica",
+        "Alemanha",
+        "Suíça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cassoulet",
+        "descricao": "Ensopado do sul da França de feijão branco, linguiça e carnes, originário de Castelnaudary.",
+        "variantes": [
+          "Cassolada"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Copo alto de bebida vermelha com morangos e fatia de laranja; pessoa ao fundo está desfocada.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida é esta?",
+      "resposta": "Sangria",
+      "distratores": [
+        "Mojito",
+        "Cosmopolitan",
+        "Bloody Mary"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sangria",
+        "descricao": "Bebida alcoólica ibérica de vinho tinto com frutas picadas.",
+        "variantes": [
+          "Sangría"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pedaços de carne escura em molho; pouco reconhecível pela imagem e confundível com outros ensopados e curries. Origem também disputada entre países."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pamonhas embrulhadas em palha de milho e amarradas, nítidas; mãos ao fundo são marginais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que comida brasileira é esta?",
+      "resposta": "Pamonha",
+      "distratores": [
+        "Acarajé",
+        "Tapioca",
+        "Cuscuz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pamonha",
+        "descricao": "Comida brasileira de massa de milho verde cozida e embrulhada em palha de milho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Taça com líquido branco e borda de sal ou açúcar, confundível com daiquiri e outros coquetéis; resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Caldo vermelho com cebolinha e ovo, confundível com outras sopas de macarrão e curries; pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Creme branco desformado com hortelã e calda, típico da panna cotta; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país vem esta sobremesa?",
+      "resposta": "Itália",
+      "distratores": [
+        "Grécia",
+        "Suíça",
+        "Áustria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Panna cotta",
+        "descricao": "Sobremesa italiana de creme de leite adoçado, endurecido com gelatina e desenformado.",
+        "variantes": [
+          "Panacota"
+        ]
+      }
+    }
+  ]
+}

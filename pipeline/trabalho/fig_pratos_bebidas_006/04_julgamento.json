@@ -1,0 +1,461 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fish and chips",
+        "descricao": "Prato britânico de peixe empanado e frito servido com batatas fritas.",
+        "variantes": [
+          "Peixe com batatas fritas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bobó de camarão",
+        "descricao": "Prato baiano cremoso de camarão com purê de aipim, leite de coco e dendê.",
+        "variantes": [
+          "Bobó"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boliviano",
+          "nome": "Boliviano",
+          "descricao": "Moeda oficial da Bolívia.",
+          "variantes": [
+            "Boliviano (moeda)",
+            "BOB"
+          ]
+        },
+        {
+          "id": "bonobo",
+          "nome": "Bonobo",
+          "descricao": "Grande primata africano do gênero Pan, que vive ao sul do rio Congo.",
+          "variantes": [
+            "Pan paniscus",
+            "Chimpanzé-pigmeu"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Omelete",
+        "descricao": "Prato de ovos batidos fritos na frigideira, dobrado e recheado.",
+        "variantes": [
+          "Omelette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        },
+        {
+          "id": "melitta",
+          "nome": "Melitta",
+          "descricao": "Empresa alemã de café e filtros de papel fundada por Melitta Bentz em Dresden, em 1908.",
+          "variantes": [
+            "Melitta Group"
+          ]
+        },
+        {
+          "id": "paleta_de_narmer",
+          "nome": "Paleta de Narmer",
+          "descricao": "Placa de pedra entalhada do início da história egípcia que mostra o rei Narmer com as coroas do Alto e do Baixo Egito",
+          "variantes": [
+            "Narmer Palette"
+          ]
+        },
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escargot",
+        "descricao": "Prato de caracóis terrestres comestíveis, servidos com manteiga de ervas.",
+        "variantes": [
+          "Caracóis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        },
+        {
+          "id": "caribes",
+          "nome": "Caribes",
+          "descricao": "Povo indígena das Pequenas Antilhas, também chamado kalinago, que deu nome ao mar do Caribe.",
+          "variantes": [
+            "Kalinago",
+            "Caraíbas"
+          ]
+        },
+        {
+          "id": "coral",
+          "nome": "Coral",
+          "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+          "variantes": [
+            "Corais"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cassoulet",
+        "descricao": "Ensopado do sul da França de feijão branco, linguiça e carnes, originário de Castelnaudary.",
+        "variantes": [
+          "Cassolada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta",
+            "cassava",
+            "mandioca-brava"
+          ]
+        },
+        {
+          "id": "fita_cassete",
+          "nome": "Fita cassete",
+          "descricao": "Formato analógico de fita magnética para gravação e reprodução de áudio, lançado em 1963.",
+          "variantes": [
+            "Cassete",
+            "Compact Cassette",
+            "K7"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sangria",
+        "descricao": "Bebida alcoólica ibérica de vinho tinto com frutas picadas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pamonha",
+        "descricao": "Comida brasileira de massa de milho verde cozida e embrulhada em palha de milho.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        },
+        {
+          "id": "amonia",
+          "nome": "Amônia",
+          "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+          "variantes": [
+            "Amoníaco",
+            "Ammonia"
+          ]
+        },
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Panna cotta",
+        "descricao": "Sobremesa italiana de creme de leite adoçado, endurecido com gelatina e desenformado.",
+        "variantes": [
+          "Panacota"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        },
+        {
+          "id": "pascoa",
+          "nome": "Páscoa",
+          "descricao": "Principal festa cristã, que celebra a ressurreição de Jesus",
+          "variantes": [
+            "Domingo de Páscoa"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "papai_noel",
+          "nome": "Papai Noel",
+          "descricao": "Personagem lendário que traz presentes no Natal",
+          "variantes": [
+            "Santa Claus",
+            "Pai Natal",
+            "Bom Velhinho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prato britânico, diferente do santuário japonês."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Prato baiano; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Omelete é um prato; candidatas são entidades não relacionadas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Prato de caracóis; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cassoulet é um ensopado francês; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bebida; candidatas são lugares ou esporte."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pamonha é comida; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sobremesa italiana; nenhuma candidata corresponde."
+    }
+  ]
+}
