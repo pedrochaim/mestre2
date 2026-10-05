@@ -1,0 +1,568 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cometa",
+        "descricao": "Pequeno corpo gelado do Sistema Solar que libera gás e poeira ao se aproximar do Sol, formando coma e cauda.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "houston_comets",
+          "nome": "Houston Comets",
+          "descricao": "Time feminino de Houston que venceu as quatro primeiras temporadas da WNBA, de 1997 a 2000.",
+          "variantes": [
+            "Comets"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Encélado",
+        "descricao": "Satélite natural de Saturno, coberto de gelo muito reflexivo, com gêiseres no polo sul.",
+        "variantes": [
+          "Enceladus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerebro_humano",
+          "nome": "Cérebro humano",
+          "descricao": "Órgão central do sistema nervoso, dentro do crânio, formado por cérebro, tronco encefálico e cerebelo.",
+          "variantes": [
+            "Encéfalo"
+          ]
+        },
+        {
+          "id": "sri_lanka",
+          "nome": "Sri Lanka",
+          "descricao": "País insular do sul da Ásia, antigo Ceilão, ao sul da Índia.",
+          "variantes": [
+            "Ceilão",
+            "República Socialista Democrática do Sri Lanka"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nebulosa da Tarântula",
+        "descricao": "Grande região H II, também chamada 30 Doradus, no canto sudeste da Grande Nuvem de Magalhães.",
+        "variantes": [
+          "30 Doradus",
+          "Tarantula Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "eldorado",
+          "nome": "Eldorado",
+          "descricao": "Lenda de uma terra riquíssima em ouro, nascida de um ritual dos muíscas, na atual Colômbia.",
+          "variantes": [
+            "El Dorado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Galáxia espiral",
+        "descricao": "Galáxia com braços de estrelas, gás e poeira enrolados em torno de um núcleo brilhante, como a mostrada na foto.",
+        "variantes": [
+          "Galáxia",
+          "Galáxia espiral NGC 4414"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        },
+        {
+          "id": "himalaia",
+          "nome": "Himalaia",
+          "descricao": "Cordilheira da Ásia que separa o subcontinente indiano do planalto do Tibete e reúne as montanhas mais altas do mundo.",
+          "variantes": [
+            "Himalaias",
+            "Himalayas",
+            "Himalaya"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estação Espacial Tiangong",
+        "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+        "variantes": [
+          "Tiangong",
+          "Estação Espacial Chinesa",
+          "China Space Station"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "tango",
+          "nome": "Tango",
+          "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+          "variantes": [
+            "Tango argentino"
+          ]
+        },
+        {
+          "id": "triangulo",
+          "nome": "Triângulo",
+          "descricao": "Instrumento de percussão de metal dobrado em forma triangular, tocado com uma baqueta metálica.",
+          "variantes": [
+            "Triângulo musical"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Telescópio",
+        "descricao": "Instrumento usado para observar objetos distantes, aqui um modelo de latão e metal sobre pedestal.",
+        "variantes": [
+          "Luneta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mimas",
+        "descricao": "Satélite natural de Saturno, de forma arredondada, marcado pela enorme cratera Herschel.",
+        "variantes": [
+          "Mimas (satélite)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "artes_marciais_mistas",
+          "nome": "Artes marciais mistas",
+          "descricao": "Esporte de combate de contato total que combina golpes em pé e luta no solo, disputado em ringue com grade.",
+          "variantes": [
+            "MMA",
+            "Mixed martial arts"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "maus",
+          "nome": "Maus",
+          "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+          "variantes": []
+        },
+        {
+          "id": "museu_de_arte_de_sao_paulo",
+          "nome": "Museu de Arte de São Paulo",
+          "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+          "variantes": [
+            "MASP",
+            "Museu de Arte de São Paulo Assis Chateaubriand"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ceres",
+        "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+        "variantes": [
+          "Asteroide",
+          "Ceres (planeta anão)",
+          "1 Ceres"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "hermes",
+          "nome": "Hermès",
+          "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+          "variantes": [
+            "Hermès International"
+          ]
+        },
+        {
+          "id": "miguel_de_cervantes",
+          "nome": "Miguel de Cervantes",
+          "descricao": "Escritor espanhol, autor de Dom Quixote, que lutou como soldado na Batalha de Lepanto.",
+          "variantes": [
+            "Cervantes",
+            "Miguel de Cervantes Saavedra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Calisto",
+        "descricao": "Segunda maior lua de Júpiter, a mais externa das galileanas, com superfície antiga e cheia de crateras.",
+        "variantes": [
+          "Callisto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        },
+        {
+          "id": "alison_cerutti",
+          "nome": "Alison Cerutti",
+          "descricao": "Jogador brasileiro de vôlei de praia, campeão olímpico com Bruno Schmidt em 2016.",
+          "variantes": [
+            "Alison Conte Cerutti",
+            "Alison"
+          ]
+        },
+        {
+          "id": "calcolitico",
+          "nome": "Calcolítico",
+          "descricao": "Período de transição entre o Neolítico e a Idade do Bronze, também chamado Idade do Cobre.",
+          "variantes": [
+            "Idade do Cobre",
+            "Eneolítico",
+            "Chalcolithic"
+          ]
+        },
+        {
+          "id": "ventos_alisios",
+          "nome": "Ventos alísios",
+          "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+          "variantes": [
+            "Alísios",
+            "Trade winds"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cometa (corpo celeste) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Encélado, lua de Saturno, não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nebulosa da Tarântula é distinta das outras nebulosas listadas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Galáxia espiral não tem correspondente entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tiangong é uma estação distinta de Mir e da ISS."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "telescopio",
+      "motivo": "Mesmo instrumento, telescópio/luneta; a descrição da proposta só detalha o modelo da foto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Mimas, lua de Saturno, não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ceres, planeta anão, é distinto das candidatas; a variante Asteroide da estrela-do-mar é só coincidência de nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Calisto, lua de Júpiter, não corresponde a nenhuma candidata."
+    }
+  ]
+}

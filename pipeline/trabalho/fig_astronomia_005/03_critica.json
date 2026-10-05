@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Resposta única e apoiada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são luas de Saturno de aspecto parecido e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a nebulosa fica na Grande Nuvem de Magalhães. O enunciado não a nomeia e os distratores são galáxias plausíveis, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples de reconhecimento. A pista 'pela forma' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não se sabe de qual estação se fala, então ela é necessária. Os trechos citam as missões Shenzhou como as que levam as equipes à Tiangong.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são luas de Saturno plausíveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pontos muito brilhantes numa cratera' é uma pista famosa que quase identifica Ceres sem a imagem. Troquei por um grupo (cinturão de asteroides) e usei distratores do mesmo grupo. Eles têm aparência bem diferente, então a imagem decide a resposta.",
+      "reescrita": {
+        "pergunta": "Que corpo celeste do cinturão de asteroides é este?",
+        "resposta": "Ceres",
+        "distratores": [
+          "Vesta",
+          "Palas",
+          "Hígia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são as outras luas galileanas e nenhum está correto para esta imagem.",
+      "reescrita": null
+    }
+  ]
+}

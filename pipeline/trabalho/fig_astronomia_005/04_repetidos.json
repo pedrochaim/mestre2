@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento é este?",
+        "resposta": "Telescópio"
+      },
+      "existentes": [
+        {
+          "id": "q01678",
+          "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
+          "resposta": "Telescópio"
+        },
+        {
+          "id": "q04598",
+          "pergunta": "O registro mais antigo de um telescópio é um pedido de patente feito em 1608 por um fabricante de óculos. Em que país?",
+          "resposta": "Holanda (Países Baixos)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01678",
+      "motivo": "Ambas pedem a identificação do telescópio (mesma resposta, provavelmente com imagem); saber uma implica saber a outra."
+    }
+  ]
+}

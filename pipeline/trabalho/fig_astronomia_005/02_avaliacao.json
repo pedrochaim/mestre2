@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cometa com coma verde e cauda, claro e reconhecível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de astro é este?",
+      "resposta": "Cometa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa",
+        "descricao": "Pequeno corpo gelado do Sistema Solar que libera gás e poeira ao se aproximar do Sol, formando coma e cauda.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Superfície branca e brilhante com fraturas e crateras, característica de Encélado; múltipla com luas cinzentas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua de Saturno é esta?",
+      "resposta": "Encélado",
+      "distratores": [
+        "Mimas",
+        "Dione",
+        "Tétis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Encélado",
+        "descricao": "Satélite natural de Saturno, coberto de gelo muito reflexivo, com gêiseres no polo sul.",
+        "variantes": [
+          "Enceladus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem de campo amplo da nebulosa, sem texto; pergunta de nível 3 sustentada pelo trecho, em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta nebulosa fica em qual galáxia vizinha da nossa?",
+      "resposta": "Grande Nuvem de Magalhães",
+      "distratores": [
+        "Pequena Nuvem de Magalhães",
+        "Galáxia de Andrômeda",
+        "Galáxia do Triângulo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Tarântula",
+        "descricao": "Grande região H II, também chamada 30 Doradus, no canto sudeste da Grande Nuvem de Magalhães.",
+        "variantes": [
+          "30 Doradus",
+          "Tarantula Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Galáxia espiral bem nítida, sem texto; resposta única pela forma.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de galáxia, pela forma, é esta?",
+      "resposta": "Espiral",
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia espiral",
+        "descricao": "Galáxia com braços de estrelas, gás e poeira enrolados em torno de um núcleo brilhante, como a mostrada na foto.",
+        "variantes": [
+          "Galáxia espiral NGC 4414"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem é só um ponto minúsculo entre faixas de luz; não é reconhecível nem legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estação reconhecível pela forma em T com grandes painéis solares, sem texto legível; é um modelo 3D, aceito por ser algo difícil de fotografar inteiro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que nave tripulada leva as equipes até esta estação espacial?",
+      "resposta": "Shenzhou",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estação Espacial Tiangong",
+        "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+        "variantes": [
+          "Tiangong",
+          "Estação Espacial Chinesa",
+          "China Space Station"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Telescópio de latão e metal bem visível contra o céu, sem texto; reconhecimento direto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento é este?",
+      "resposta": "Telescópio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio",
+        "descricao": "Instrumento usado para observar objetos distantes, aqui um modelo de latão e metal sobre pedestal.",
+        "variantes": [
+          "Luneta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O retrato traz inscrição em latim com o nome 'Ioannis Kepleri', o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lua com a enorme cratera Herschel, bem nítida e distintiva; múltipla com luas de Saturno parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua de Saturno é esta?",
+      "resposta": "Mimas",
+      "distratores": [
+        "Tétis",
+        "Dione",
+        "Reia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mimas",
+        "descricao": "Satélite natural de Saturno, de forma arredondada, marcado pela enorme cratera Herschel.",
+        "variantes": [
+          "Mimas (satélite)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A imagem mostra Ceres, não um asteroide genérico; a âncora foi corrigida e as manchas brilhantes permitem reconhecê-la.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que corpo celeste é este, com pontos muito brilhantes numa cratera?",
+      "resposta": "Ceres",
+      "distratores": [
+        "Vesta",
+        "Mimas",
+        "Lua"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ceres",
+        "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+        "variantes": [
+          "Ceres (planeta anão)",
+          "1 Ceres"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Superfície escura coberta de crateras com pontos claros, distinta das outras luas galileanas; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua de Júpiter é esta?",
+      "resposta": "Calisto",
+      "distratores": [
+        "Io",
+        "Europa",
+        "Ganimedes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Calisto",
+        "descricao": "Segunda maior lua de Júpiter, a mais externa das galileanas, com superfície antiga e cheia de crateras.",
+        "variantes": [
+          "Callisto"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A nave traz 'СОЮЗ' escrito em cirílico no casco, o que entrega a resposta."
+    }
+  ]
+}
