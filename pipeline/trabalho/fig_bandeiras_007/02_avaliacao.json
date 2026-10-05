@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Islândia",
+      "ancora": {
+        "nome": "Islândia",
+        "descricao": "País insular nórdico no Atlântico Norte, cuja capital é Reykjavík.",
+        "variantes": [
+          "Iceland"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira clara; o texto do brasão é pequeno e não nomeia o país. Distratores visualmente parecidos (faixas azul e branco).",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Guatemala",
+      "distratores": [
+        "Honduras",
+        "El Salvador",
+        "Nicarágua"
+      ],
+      "ancora": {
+        "nome": "Guatemala",
+        "descricao": "País da América Central que faz fronteira com México, Belize, Honduras e El Salvador.",
+        "variantes": [
+          "República da Guatemala"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha e branca sem texto, distinta da austríaca pela faixa branca estreita; nível 3 pergunta o mar do país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mar banha o país desta bandeira?",
+      "resposta": "Mar Báltico",
+      "ancora": {
+        "nome": "Letônia",
+        "descricao": "País báltico do norte da Europa, entre a Estônia e a Lituânia, cuja capital é Riga.",
+        "variantes": [
+          "Latvia",
+          "Letónia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira vertical preto, amarelo e vermelho, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Bruxelas",
+      "ancora": {
+        "nome": "Bélgica",
+        "descricao": "Reino da Europa Ocidental, vizinho da Holanda, Alemanha, Luxemburgo e França.",
+        "variantes": [
+          "Belgium",
+          "Reino da Bélgica"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o lema no brasão está em letras pequenas e não nomeia o país. Distratores parecidos (azul e vermelho com brasão).",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Haiti",
+      "distratores": [
+        "Liechtenstein",
+        "República Dominicana",
+        "Paraguai"
+      ],
+      "ancora": {
+        "nome": "Haiti",
+        "descricao": "País caribenho que ocupa o oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+        "variantes": [
+          "República do Haiti"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira clara, sem texto; trocado para múltipla por ser parecida com as de Rússia e Eslováquia.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Eslovênia",
+      "distratores": [
+        "Eslováquia",
+        "Rússia",
+        "Croácia"
+      ],
+      "ancora": {
+        "nome": "Eslovênia",
+        "descricao": "País da Europa Central com capital em Liubliana e uma pequena costa no Adriático.",
+        "variantes": [
+          "Slovenia",
+          "Eslovénia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira azul e amarela, sem texto; resposta única com distratores de cores parecidas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Ucrânia",
+      "distratores": [
+        "Suécia",
+        "Colômbia",
+        "Romênia"
+      ],
+      "ancora": {
+        "nome": "Ucrânia",
+        "descricao": "País da Europa Oriental com capital em Kiev, o segundo maior da Europa em área.",
+        "variantes": [
+          "Ukraine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira com brasão da águia bicéfala, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Belgrado",
+      "ancora": {
+        "nome": "Sérvia",
+        "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+        "variantes": [
+          "Serbia",
+          "República da Sérvia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; de aficionado, então múltipla com distratores da Ásia Central.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Uzbequistão",
+      "distratores": [
+        "Tajiquistão",
+        "Azerbaijão",
+        "Turcomenistão"
+      ],
+      "ancora": {
+        "nome": "Uzbequistão",
+        "descricao": "País da Ásia Central duplamente sem litoral, com capital em Tashkent.",
+        "variantes": [
+          "Usbequistão",
+          "Uzbekistan"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; distinta da turca pelo disco branco.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Túnis",
+      "distratores": [
+        "Trípoli",
+        "Argel",
+        "Rabat"
+      ],
+      "ancora": {
+        "nome": "Tunísia",
+        "descricao": "País do norte da África, no Magrebe, entre a Argélia e a Líbia.",
+        "variantes": [
+          "Tunisia",
+          "República Tunisiana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira grená com borda serrilhada branca, sem texto; reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Catar",
+      "ancora": {
+        "nome": "Catar",
+        "descricao": "País da península Arábica com capital em Doha, único limite terrestre com a Arábia Saudita.",
+        "variantes": [
+          "Qatar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira distinta e sem texto; a pergunta da capital tem pegadinha justa (Dar es Salaam).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Dodoma",
+      "distratores": [
+        "Dar es Salaam",
+        "Nairóbi",
+        "Kampala"
+      ],
+      "ancora": {
+        "nome": "Tanzânia",
+        "descricao": "País da África Oriental, junto ao Oceano Índico, que inclui Zanzibar.",
+        "variantes": [
+          "Tanzania",
+          "República Unida da Tanzânia"
+        ]
+      }
+    }
+  ]
+}

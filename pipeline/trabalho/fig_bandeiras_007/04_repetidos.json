@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Islândia"
+      },
+      "existentes": [
+        {
+          "id": "q02203",
+          "pergunta": "A Islândia tem tantos vulcões porque fica sobre qual estrutura geológica, onde duas placas tectônicas se afastam?",
+          "resposta": "Dorsal Mesoatlântica"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Haiti"
+      },
+      "existentes": [
+        {
+          "id": "q04009",
+          "pergunta": "Após uma revolução liderada por escravizados, o Haiti proclamou sua independência da França em que ano?",
+          "resposta": "1804"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Uzbequistão"
+      },
+      "existentes": [
+        {
+          "id": "q00011",
+          "pergunta": "O Uzbequistão e Liechtenstein são os únicos países do mundo com qual característica geográfica?",
+          "resposta": "Duplamente sem saída para o mar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Dodoma"
+      },
+      "existentes": [
+        {
+          "id": "q00007",
+          "pergunta": "O nome Tanzânia foi criado em 1964, na união de dois territórios africanos. Quais eram eles?",
+          "resposta": "Tanganica e Zanzibar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira da Islândia é fato diferente da geologia vulcânica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bandeira do Haiti é diferente do ano de independência."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bandeira do Uzbequistão é diferente da característica de ser duplamente sem litoral."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Capital da Tanzânia é diferente da origem do nome do país."
+    }
+  ]
+}
