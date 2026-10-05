@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'africano' no enunciado e três distratores não africanos, dá para acertar por eliminação sem olhar a figura. Os distratores precisam ser parecidos e não entregar a resposta pelo lugar.",
+      "reescrita": {
+        "pergunta": "Que crocodiliano de água doce é este?",
+        "resposta": "Crocodilo-do-nilo",
+        "distratores": [
+          "Crocodilo-anão",
+          "Crocodilo-marinho",
+          "Crocodilo-do-orinoco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta, e os distratores são víboras africanas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A sucuri-verde também é sul-americana, constritora e não venenosa, e 'Jiboia-arco-íris' se sobrepõe à resposta 'Jiboia'. Os distratores precisam ser trocados.",
+      "reescrita": {
+        "pergunta": "Que serpente sul-americana, constritora e não venenosa, é esta?",
+        "resposta": "Jiboia",
+        "distratores": [
+          "Sucuri-verde",
+          "Píton-birmanesa",
+          "Cobra-de-milho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é única diante da imagem, e os distratores são varanos plausíveis. A pista 'africano' ajuda sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estrelado' é derivado de 'estrelada', que está na resposta, e vaza o nome. Além disso, a tartaruga-radiada também tem casco estrelado.",
+      "reescrita": {
+        "pergunta": "Que tartaruga terrestre do sul da Ásia é esta?",
+        "resposta": "Tartaruga-estrelada-indiana",
+        "distratores": [
+          "Tartaruga-radiada",
+          "Tartaruga-aranha",
+          "Tartaruga-leopardo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. A espécie é reconhecida pela imagem, e a região é sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O proteu vive em águas subterrâneas de cavernas, como dizem os trechos. O enunciado não nomeia o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, com distratores do mesmo tipo e viperídeos brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento, não de nível 3. Falta o passo além, e 'Jiboia-constritora' ainda se confunde com o nome da resposta. O trecho documenta que os filhotes nascem de cor vermelho-tijolo a laranja.",
+      "reescrita": {
+        "pergunta": "Os filhotes desta serpente arborícola sul-americana nascem de que cor?",
+        "resposta": "Vermelho-alaranjado",
+        "distratores": [
+          "Verde-esmeralda",
+          "Amarelo-claro",
+          "Azul-acinzentado"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. O continente é sustentado pelos trechos, e o enunciado não nomeia a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são pítons de outros continentes, mais a reticulada, parecida e do mesmo continente. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

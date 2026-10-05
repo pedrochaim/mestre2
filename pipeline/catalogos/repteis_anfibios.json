@@ -19,7 +19,7 @@
       "titulo": "en:Boa constrictor",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cascavel",
@@ -33,7 +33,7 @@
       "titulo": "en:Bothrops jararaca",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Coral-verdadeira",
@@ -110,7 +110,7 @@
       "titulo": "en:Axolotl",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Salamandra-de-fogo",
@@ -215,7 +215,7 @@
       "titulo": "en:Surinam horned frog",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sapo-pipa",
@@ -276,6 +276,286 @@
     {
       "nome": "Tartaruga-aligátor",
       "titulo": "en:Alligator snapping turtle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aligátor-americano",
+      "titulo": "en:American alligator",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tartaruga-de-orelha-vermelha",
+      "titulo": "en:Red-eared slider",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Naja-indiana",
+      "titulo": "en:Indian cobra",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Calango",
+      "titulo": "en:Tropidurus torquatus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crocodilo-de-água-salgada",
+      "titulo": "en:Saltwater crocodile",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tartaruga-cabeçuda",
+      "titulo": "en:Loggerhead sea turtle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jacaré-do-pantanal",
+      "titulo": "en:Yacare caiman",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Píton-birmanesa",
+      "titulo": "en:Burmese python",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cobra-de-duas-cabeças",
+      "titulo": "en:Amphisbaena alba",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jabuti-tinga",
+      "titulo": "en:Yellow-footed tortoise",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dragão-barbudo",
+      "titulo": "en:Central bearded dragon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crocodilo-do-nilo",
+      "titulo": "en:Nile crocodile",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jacaretinga",
+      "titulo": "en:Spectacled caiman",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagartixa-leopardo",
+      "titulo": "en:Common leopard gecko",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camaleão-pantera",
+      "titulo": "en:Panther chameleon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rã-de-vidro",
+      "titulo": "en:Glass frog",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Varano-do-nilo",
+      "titulo": "en:Nile monitor",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jiboia-esmeralda",
+      "titulo": "en:Emerald tree boa",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jiboia-arco-íris",
+      "titulo": "en:Brazilian rainbow boa",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Mamba-verde",
+      "titulo": "en:Eastern green mamba",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caninana",
+      "titulo": "en:Spilotes pullatus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Perereca-verde-australiana",
+      "titulo": "en:Australian green tree frog",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cobra-cipó",
+      "titulo": "en:Oxybelis aeneus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salamandra-gigante-do-japão",
+      "titulo": "en:Japanese giant salamander",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagarto-de-língua-azul",
+      "titulo": "en:Blue-tongued skink",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagartixa-tokay",
+      "titulo": "en:Tokay gecko",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cobra-de-leite",
+      "titulo": "en:Milk snake",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cobra-cega",
+      "titulo": "en:Siphonops annulatus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tritão-de-crista",
+      "titulo": "en:Northern crested newt",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Proteu",
+      "titulo": "en:Olm",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sapo-dourado",
+      "titulo": "en:Golden toad",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rã-tomate",
+      "titulo": "en:Tomato frog",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cobra-do-mar-de-barriga-amarela",
+      "titulo": "en:Yellow-bellied sea snake",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Víbora-do-gabão",
+      "titulo": "en:Gaboon viper",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tartaruga-estrelada-indiana",
+      "titulo": "en:Indian star tortoise",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lagartixa-satânica-de-cauda-de-folha",
+      "titulo": "en:Satanic leaf-tailed gecko",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagarto-de-chifre-texano",
+      "titulo": "en:Texas horned lizard",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Muçurana",
+      "titulo": "en:Clelia clelia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rã-voadora-de-wallace",
+      "titulo": "en:Wallace's flying frog",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mantela-dourada",
+      "titulo": "en:Golden mantella",
       "camada": 3,
       "destino": 0,
       "status": "nova"

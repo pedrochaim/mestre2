@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que serpente peçonhenta brasileira é esta?",
+        "resposta": "Jararaca"
+      },
+      "existentes": [
+        {
+          "id": "q02483",
+          "pergunta": "Pesquisas com o veneno da jararaca levaram ao desenvolvimento do captopril, remédio usado contra que problema de saúde?",
+          "resposta": "Pressão alta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da serpente (jararaca); a existente pergunta para que problema de saúde o captopril, derivado do veneno, é usado. Fatos diferentes."
+    }
+  ]
+}

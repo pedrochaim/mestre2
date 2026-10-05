@@ -1,0 +1,265 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de crocodiliano na beira d'água; múltipla para distinguir a espécie.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crocodiliano africano é este?",
+      "resposta": "Crocodilo-do-nilo",
+      "distratores": [
+        "Crocodilo-marinho",
+        "Crocodilo-americano",
+        "Jacaré-açu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crocodilo-do-nilo",
+        "descricao": "Grande crocodiliano africano de água doce, Crocodylus niloticus.",
+        "variantes": [
+          "Crocodylus niloticus",
+          "Crocodilo do Nilo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Padrão geométrico e cabeça triangular inconfundíveis da víbora-do-gabão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que víbora africana é esta?",
+      "resposta": "Víbora-do-gabão",
+      "distratores": [
+        "Víbora-rinoceronte",
+        "Víbora-soprador",
+        "Víbora-chifruda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Víbora-do-gabão",
+        "descricao": "Grande víbora venenosa da África subsaariana, Bitis gabonica, com as presas mais longas entre as serpentes.",
+        "variantes": [
+          "Bitis gabonica",
+          "Gaboon viper"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jiboias com padrão e cauda avermelhada típicos; assunto único (uma espécie).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que serpente sul-americana, constritora e não venenosa, é esta?",
+      "resposta": "Jiboia",
+      "distratores": [
+        "Sucuri-verde",
+        "Píton-birmanesa",
+        "Jiboia-arco-íris"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jiboia",
+        "descricao": "Serpente constritora não venenosa da América tropical, Boa constrictor.",
+        "variantes": [
+          "Jiboia-constritora",
+          "Boa constrictor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lagarto de padrão amarelo e preto bem visível, reconhecível como varano-do-nilo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grande lagarto africano é este?",
+      "resposta": "Varano-do-nilo",
+      "distratores": [
+        "Dragão-de-komodo",
+        "Varano-d'água asiático",
+        "Varano-do-deserto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Varano-do-nilo",
+        "descricao": "Grande lagarto semiaquático da África subsaariana, Varanus niloticus.",
+        "variantes": [
+          "Lagarto-do-nilo",
+          "Varanus niloticus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Casco com raios amarelos em estrela, muito característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que quelônio de casco estrelado, do sul da Ásia, é este?",
+      "resposta": "Tartaruga-estrelada-indiana",
+      "distratores": [
+        "Tartaruga-radiada",
+        "Tartaruga-aranha",
+        "Tartaruga-leopardo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tartaruga-estrelada-indiana",
+        "descricao": "Tartaruga terrestre do sul da Ásia com casco de padrão estrelado, Geochelone elegans.",
+        "variantes": [
+          "Geochelone elegans",
+          "Indian star tortoise"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Naja com capelo aberto e marca de óculos visível; marca do fotógrafo discreta, não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que região do mundo vive esta serpente de capelo?",
+      "resposta": "Sul da Ásia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Naja-indiana",
+        "descricao": "Cobra venenosa de capelo do subcontinente indiano, Naja naja.",
+        "variantes": [
+          "Naja naja",
+          "Cobra-de-capelo-indiana",
+          "Indian cobra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem panorâmica pouco legível no celular; axolote selvagem escuro, confundível com larva de salamandra-tigre."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Salamandras pálidas, sem pigmento e com olhos atrofiados, características do proteu.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que tipo de ambiente vive este anfíbio de corpo pálido?",
+      "resposta": "Cavernas",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Proteu",
+        "descricao": "Salamandra aquática cavernícola e cega dos Alpes Dináricos, Proteus anguinus.",
+        "variantes": [
+          "Proteus anguinus",
+          "Olm",
+          "Salamandra-cega"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Serpente enrolada com padrão em V e cabeça triangular típicos de Bothrops.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que serpente peçonhenta brasileira é esta?",
+      "resposta": "Jararaca",
+      "distratores": [
+        "Cascavel",
+        "Surucucu",
+        "Urutu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jararaca",
+        "descricao": "Serpente peçonhenta do sul do Brasil, Bothrops jararaca.",
+        "variantes": [
+          "Jararaca-da-mata",
+          "Bothrops jararaca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Verde vivo com faixas brancas transversais, típico da jiboia-esmeralda; distinguível da píton-verde.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que serpente arborícola de floresta tropical sul-americana é esta?",
+      "resposta": "Jiboia-esmeralda",
+      "distratores": [
+        "Píton-verde-arborícola",
+        "Jiboia-constritora",
+        "Cobra-cipó"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jiboia-esmeralda",
+        "descricao": "Jiboia arborícola verde das florestas sul-americanas, Corallus caninus.",
+        "variantes": [
+          "Periquitamboia",
+          "Corallus caninus",
+          "Emerald tree boa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Close do sapo com chifres sobre os olhos e boca enorme, típico de Ceratophrys.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive este anfíbio de chifres sobre os olhos?",
+      "resposta": "América do Sul",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sapo-de-chifre",
+        "descricao": "Sapo sul-americano de boca enorme e projeções em forma de chifre sobre os olhos, Ceratophrys cornuta.",
+        "variantes": [
+          "Ceratophrys cornuta",
+          "Surinam horned frog",
+          "Sapo-de-chifres-amazônico"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Píton enrolada em árvore com padrão de manchas característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que píton do Sudeste Asiático é esta?",
+      "resposta": "Píton-birmanesa",
+      "distratores": [
+        "Píton-reticulada",
+        "Píton-real",
+        "Píton-tapete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Píton-birmanesa",
+        "descricao": "Grande serpente constritora do Sudeste Asiático, Python bivittatus.",
+        "variantes": [
+          "Python bivittatus",
+          "Burmese python"
+        ]
+      }
+    }
+  ]
+}
