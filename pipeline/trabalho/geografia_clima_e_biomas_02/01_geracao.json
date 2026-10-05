@@ -1,0 +1,1056 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Previsão do tempo",
+        "descricao": "Prática de prever as condições atmosféricas futuras a partir de observações meteorológicas",
+        "variantes": [
+          "Previsão meteorológica",
+          "Weather forecast"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Weather_forecasting",
+          "https://pt.wikipedia.org/wiki/Previs%C3%A3o_do_tempo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que capitão do navio Beagle, o mesmo que levou Charles Darwin, publicou em 1861 as primeiras previsões do tempo diárias num jornal?",
+      "resposta": "Robert FitzRoy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Robert_FitzRoy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escala Fujita",
+        "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
+        "variantes": [
+          "Fujita scale",
+          "Escala F"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fujita_scale"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1971, que meteorologista japonês, professor em Chicago, criou a escala que mede a força dos tornados pelos estragos que eles causam?",
+      "resposta": "Tetsuya Fujita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fujita_scale",
+        "https://en.wikipedia.org/wiki/Ted_Fujita"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Classificação das nuvens",
+        "descricao": "Sistema de nomes latinos para os tipos de nuvem, como cirro, cúmulo e estrato",
+        "variantes": [
+          "Tipos de nuvens",
+          "Cloud classification"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_cloud_types"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No começo do século dezenove, que farmacêutico inglês, meteorologista amador, deu às nuvens os nomes latinos cirro, cúmulo e estrato?",
+      "resposta": "Luke Howard",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luke_Howard"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Domínios morfoclimáticos brasileiros",
+        "descricao": "Divisão do território brasileiro em grandes paisagens que combinam relevo, clima e vegetação, como os mares de morros",
+        "variantes": [
+          "Domínios morfoclimáticos do Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que geógrafo paulista dividiu o Brasil em domínios morfoclimáticos, como o dos mares de morros e o das caatingas?",
+      "resposta": "Aziz Ab'Sáber",
+      "distratores": [
+        "Milton Santos",
+        "Josué de Castro",
+        "Aroldo de Azevedo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aziz_Ab%27S%C3%A1ber"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Províncias florísticas de Martius",
+        "descricao": "Primeira divisão da vegetação brasileira em grandes regiões, publicada na obra Flora Brasiliensis no século dezenove",
+        "variantes": [
+          "Divisão fitogeográfica de Martius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flora_Brasiliensis"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, que naturalista alemão dividiu a flora do Brasil em regiões com nomes de ninfas gregas, como Náiades e Dríades?",
+      "resposta": "Carl von Martius",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carl_Friedrich_Philipp_von_Martius",
+        "https://en.wikipedia.org/wiki/Flora_Brasiliensis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Polo Sul",
+        "descricao": "Ponto mais ao sul da Terra, no interior do continente antártico",
+        "variantes": [
+          "Polo Sul geográfico",
+          "South Pole"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/South_Pole",
+          "https://pt.wikipedia.org/wiki/Polo_Sul"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em dezembro de 1911, que explorador norueguês liderou a primeira expedição a alcançar o Polo Sul?",
+      "resposta": "Roald Amundsen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roald_Amundsen",
+        "https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Efeito estufa",
+        "descricao": "Aquecimento da superfície da Terra causado por gases da atmosfera que retêm calor",
+        "variantes": [
+          "Greenhouse effect"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greenhouse_effect",
+          "https://pt.wikipedia.org/wiki/Efeito_estufa"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1896, que químico sueco calculou que dobrar a quantidade de gás carbônico no ar aqueceria a Terra em vários graus?",
+      "resposta": "Svante Arrhenius",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ciclos de Milankovitch",
+        "descricao": "Variações periódicas da órbita e da inclinação da Terra que explicam a alternância das eras glaciais",
+        "variantes": [
+          "Milankovitch cycles",
+          "Ciclos de Milanković"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Milankovitch_cycles"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No começo do século vinte, que cientista sérvio explicou as eras glaciais por mudanças periódicas na órbita da Terra?",
+      "resposta": "Milutin Milankovitch",
+      "distratores": [
+        "Nikola Tesla",
+        "Mihajlo Pupin",
+        "Jovan Cvijić"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Milankovitch_cycles",
+        "https://en.wikipedia.org/wiki/Milutin_Milankovi%C4%87"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Furacão Katrina",
+        "descricao": "Furacão que devastou Nova Orleans e o litoral do Golfo do México nos Estados Unidos",
+        "variantes": [
+          "Hurricane Katrina",
+          "Katrina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+          "https://pt.wikipedia.org/wiki/Furac%C3%A3o_Katrina"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o furacão Katrina deixou boa parte de Nova Orleans debaixo d'água?",
+      "resposta": "2005",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hurricane_Katrina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Furacão Katrina",
+        "descricao": "Furacão que devastou Nova Orleans e o litoral do Golfo do México nos Estados Unidos",
+        "variantes": [
+          "Hurricane Katrina",
+          "Katrina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+          "https://pt.wikipedia.org/wiki/Furac%C3%A3o_Katrina"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Nova Orleans, a maior parte da inundação provocada pelo furacão Katrina veio do rompimento de que estruturas?",
+      "resposta": "Os diques",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Katrina_in_New_Orleans",
+        "https://en.wikipedia.org/wiki/Hurricane_Katrina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Furacão de Galveston de 1900",
+        "descricao": "Furacão que destruiu a cidade de Galveston, no Texas, no início do século vinte",
+        "variantes": [
+          "1900 Galveston hurricane",
+          "Grande Tempestade de 1900"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1900_Galveston_hurricane"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano um furacão arrasou Galveston, no Texas, no desastre natural mais mortal da história dos Estados Unidos?",
+      "resposta": "1900",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1900_Galveston_hurricane"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Nevoeiro de Londres",
+        "descricao": "Episódio de poluição atmosférica que encobriu Londres por cinco dias em dezembro de 1952",
+        "variantes": [
+          "Great Smog of London",
+          "Grande Nevoeiro de 1952",
+          "Great Smog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em dezembro de que ano um nevoeiro misturado com fumaça parou Londres por cinco dias e matou milhares de pessoas?",
+      "resposta": "1952",
+      "distratores": [
+        "1932",
+        "1946",
+        "1968"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Nevoeiro de Londres",
+        "descricao": "Episódio de poluição atmosférica que encobriu Londres por cinco dias em dezembro de 1952",
+        "variantes": [
+          "Great Smog of London",
+          "Grande Nevoeiro de 1952",
+          "Great Smog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Grande Nevoeiro que matou milhares de londrinos foi agravado pela fumaça da queima de que combustível, usado em casas e fábricas?",
+      "resposta": "Carvão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Neve de 1975 em Curitiba",
+        "descricao": "Nevada que cobriu Curitiba em julho de 1975, durante uma forte onda de frio no Sul do Brasil",
+        "variantes": [
+          "Nevada de 1975 em Curitiba"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Neve_no_Brasil"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em julho de que ano Curitiba amanheceu coberta de neve, num episódio que ficou na memória dos paranaenses?",
+      "resposta": "1975",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Neve_no_Brasil",
+        "https://pt.wikipedia.org/wiki/Curitiba"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "moncao",
+        "nome": "Monção",
+        "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+        "variantes": [
+          "Monsoon",
+          "Monções"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monsoon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "No sul da Ásia, as chuvas torrenciais trazidas pela monção chegam em que estação do ano?",
+      "resposta": "Verão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia",
+        "https://en.wikipedia.org/wiki/Monsoon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Período Quente Medieval",
+        "descricao": "Época de clima mais ameno no Atlântico Norte durante a Idade Média",
+        "variantes": [
+          "Medieval Warm Period",
+          "Ótimo Climático Medieval",
+          "Anomalia Climática Medieval"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Medieval_Warm_Period"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Período Quente Medieval, época de clima ameno que favoreceu a ida dos vikings à Groenlândia, começou por volta de que século?",
+      "resposta": "Século dez",
+      "distratores": [
+        "Século sete",
+        "Século treze",
+        "Século quinze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Medieval_Warm_Period"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Onda de calor de 2003 na Europa",
+        "descricao": "Onda de calor do verão de 2003 que causou dezenas de milhares de mortes na Europa",
+        "variantes": [
+          "2003 European heat wave",
+          "Canicule de 2003"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2003_European_heat_wave"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano uma onda de calor em agosto matou dezenas de milhares de pessoas na Europa, cerca de quinze mil delas só na França?",
+      "resposta": "2003",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2003_European_heat_wave"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oymyakon",
+        "descricao": "Vilarejo da Sibéria conhecido como um dos lugares habitados mais frios do mundo",
+        "variantes": [
+          "Oimiakon",
+          "Oymyakon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oymyakon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os moradores de Oymyakon, um dos povoados mais frios do planeta, onde o inverno passa de cinquenta graus negativos, vivem em que país?",
+      "resposta": "Rússia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oymyakon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vale da Morte",
+        "descricao": "Vale desértico do oeste dos Estados Unidos, conhecido pelo calor extremo",
+        "variantes": [
+          "Death Valley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Death_Valley",
+          "https://pt.wikipedia.org/wiki/Vale_da_Morte"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Vale da Morte, um dos lugares mais quentes e secos da Terra, fica em que estado americano?",
+      "resposta": "Califórnia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Death_Valley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Floresta Negra",
+        "descricao": "Região montanhosa coberta de florestas de coníferas no sudoeste da Alemanha",
+        "variantes": [
+          "Schwarzwald",
+          "Black Forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_Forest",
+          "https://pt.wikipedia.org/wiki/Floresta_Negra"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que país europeu abriga a Floresta Negra, região de montanhas cobertas de pinheiros que dá nome a um bolo famoso?",
+      "resposta": "Alemanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Forest"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cherrapunji",
+        "descricao": "Cidade do nordeste da Índia, no estado de Meghalaya, famosa por estar entre os lugares mais chuvosos do mundo",
+        "variantes": [
+          "Sohra",
+          "Cherrapunjee"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cherrapunji"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Cherrapunji, uma das cidades mais chuvosas da Terra, recebe as monções que sobem do golfo de Bengala. Em que país ela fica?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cherrapunji"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Curva de Keeling",
+        "descricao": "Gráfico das medições contínuas de gás carbônico na atmosfera iniciadas por Charles David Keeling em 1958",
+        "variantes": [
+          "Keeling Curve"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Keeling_Curve"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Desde 1958, o gás carbônico do ar é medido num observatório no alto de que vulcão havaiano, origem da famosa Curva de Keeling?",
+      "resposta": "Mauna Loa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Keeling_Curve",
+        "https://en.wikipedia.org/wiki/Mauna_Loa_Observatory"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mata dos Cocais",
+        "descricao": "Formação vegetal de transição entre Amazônia, Cerrado e Caatinga, dominada por palmeiras como o babaçu e a carnaúba",
+        "variantes": [
+          "Zona dos Cocais"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mata_dos_Cocais"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Mata dos Cocais, dominada pelas palmeiras babaçu e carnaúba, fica principalmente em que estados brasileiros?",
+      "resposta": "Maranhão e Piauí",
+      "distratores": [
+        "Bahia e Sergipe",
+        "Pará e Amapá",
+        "Paraíba e Pernambuco"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mata_dos_Cocais"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Deserto de Taklamakan",
+        "descricao": "Grande deserto de areia da bacia do Tarim, na Ásia Central",
+        "variantes": [
+          "Taklimakan",
+          "Taklamakan Desert"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taklamakan_Desert"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Deserto de Taklamakan, contornado pelas caravanas da antiga Rota da Seda, ocupa o oeste de que país?",
+      "resposta": "China",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taklamakan_Desert"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Floresta de Daintree",
+        "descricao": "Floresta tropical úmida do nordeste de Queensland, considerada uma das mais antigas do mundo",
+        "variantes": [
+          "Daintree Rainforest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Daintree_Rainforest"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Para conhecer a Floresta de Daintree, considerada uma das florestas tropicais mais antigas do planeta, é preciso viajar a que país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Daintree_Rainforest"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Reserva de Monteverde",
+        "descricao": "Reserva de floresta nublada nas montanhas da América Central, famosa pela biodiversidade",
+        "variantes": [
+          "Monteverde Cloud Forest Reserve",
+          "Reserva Biológica Bosque Nuboso Monteverde"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monteverde_Cloud_Forest_Reserve"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em que país da América Central fica a reserva de Monteverde, floresta nublada famosa pelo pássaro quetzal?",
+      "resposta": "Costa Rica",
+      "distratores": [
+        "Panamá",
+        "Guatemala",
+        "Honduras"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monteverde_Cloud_Forest_Reserve"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caatinga",
+        "nome": "Caatinga",
+        "descricao": "Bioma semiárido do sertão nordestino brasileiro",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Caatinga"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que estado nordestino tem todo o seu território dentro do bioma Caatinga?",
+      "resposta": "Ceará",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Caatinga"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zonda",
+        "descricao": "Vento quente e seco que desce a encosta leste dos Andes, no oeste da Argentina",
+        "variantes": [
+          "Viento zonda",
+          "Zonda wind"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zonda_wind"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O zonda, vento quente e seco que desce dos Andes, castiga os vinhedos e as cidades de que país?",
+      "resposta": "Argentina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zonda_wind"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Meghalaya",
+        "descricao": "Estado montanhoso do nordeste da Índia, conhecido pelas chuvas intensas",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Meghalaya"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Meghalaya, estado indiano onde ficam algumas das cidades mais chuvosas do mundo, tem um nome sânscrito que significa o quê?",
+      "resposta": "Morada das nuvens",
+      "distratores": [
+        "Terra dos rios",
+        "Reino das montanhas",
+        "Jardim das orquídeas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Meghalaya"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Minuano",
+        "descricao": "Vento frio e seco que sopra do sudoeste no inverno do Rio Grande do Sul",
+        "variantes": [
+          "Vento minuano"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Minuano_(vento)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O minuano, vento gelado e seco do inverno gaúcho, herdou o nome de quê?",
+      "resposta": "De um povo indígena",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Minuano_(vento)",
+        "https://pt.wikipedia.org/wiki/Minuanos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rub al-Khali",
+        "descricao": "Imenso deserto de areia do sul da Península Arábica",
+        "variantes": [
+          "Rub' al Khali",
+          "Empty Quarter",
+          "Quarteirão Vazio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rub%27_al_Khali"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Um dos maiores desertos de areia do mundo, no sul da Península Arábica, tem um nome árabe que significa o quê?",
+      "resposta": "Quarteirão Vazio",
+      "distratores": [
+        "Mar de Areia",
+        "Terra do Sol",
+        "Jardim de Pedra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rub%27_al_Khali"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "São Paulo",
+        "descricao": "Capital do estado de São Paulo e maior cidade do Brasil",
+        "variantes": [
+          "Cidade de São Paulo",
+          "Sampa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa de uma chuva fina e insistente, antes muito comum por lá, que apelido ganhou a cidade de São Paulo?",
+      "resposta": "Terra da garoa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Garoa",
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cerrado",
+        "nome": "Cerrado",
+        "descricao": "Bioma de savana do Brasil central",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cerrado"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O bioma do Brasil central foi batizado com uma palavra portuguesa que descreve sua vegetação difícil de atravessar. O que significa cerrado?",
+      "resposta": "Fechado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cerrado"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tundra",
+        "nome": "Tundra",
+        "descricao": "Bioma sem árvores das regiões polares e de altas montanhas, de verão curto e frio",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tundra"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra tundra chegou até nós pelo russo, mas vem da língua de que povo nativo do extremo norte da Europa?",
+      "resposta": "Sámi (lapões)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tundra"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ciclone Bhola",
+        "descricao": "Ciclone tropical que devastou o então Paquistão Oriental em novembro de 1970",
+        "variantes": [
+          "1970 Bhola cyclone",
+          "Grande Ciclone de 1970"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1970_Bhola_cyclone"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1970, o ciclone Bhola matou centenas de milhares no Paquistão Oriental. A crise que se seguiu ajudou a levar à independência de que país?",
+      "resposta": "Bangladesh",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1970_Bhola_cyclone"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ano_sem_verao",
+        "nome": "Ano Sem Verão",
+        "descricao": "O ano de 1816, marcado por frio anormal no hemisfério norte após a erupção do Monte Tambora",
+        "variantes": [
+          "Year Without a Summer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O frio anormal de 1816, o Ano Sem Verão, foi causado pelas cinzas lançadas por que vulcão da Indonésia?",
+      "resposta": "Monte Tambora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Föhn",
+        "descricao": "Vento quente e seco que desce as encostas a sotavento dos Alpes",
+        "variantes": [
+          "Foehn",
+          "Fön",
+          "Vento foehn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Foehn_wind"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em alemão, o nome do föhn, vento quente e seco que desce dos Alpes, também é usado para que aparelho doméstico?",
+      "resposta": "Secador de cabelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Foehn_wind",
+        "https://de.wikipedia.org/wiki/Haartrockner"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mandacaru",
+        "descricao": "Cacto colunar típico da Caatinga do Nordeste brasileiro",
+        "variantes": [
+          "Cereus jamacaru"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mandacaru"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na canção Xote das Meninas, de Luiz Gonzaga, a flor de que cacto do sertão é o sinal de que a chuva vai chegar?",
+      "resposta": "Mandacaru",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mandacaru",
+        "https://pt.wikipedia.org/wiki/Xote_das_Meninas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Redemoinho de poeira",
+        "descricao": "Coluna giratória de ar que levanta poeira e folhas em dias quentes e secos",
+        "variantes": [
+          "Redemoinho de vento",
+          "Dust devil"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dust_devil"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo o folclore brasileiro, que personagem de uma perna só viaja escondido dentro dos redemoinhos de vento?",
+      "resposta": "Saci",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Saci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canícula",
+        "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+        "variantes": [
+          "Dias de cão",
+          "Dog days"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dog_days"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A canícula, nome dos dias mais quentes do verão europeu, está ligada a uma estrela que os antigos associavam a um cão. Que estrela?",
+      "resposta": "Sírius",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dog_days"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escala Saffir-Simpson",
+        "descricao": "Escala que classifica os furacões pela velocidade sustentada do vento",
+        "variantes": [
+          "Saffir–Simpson scale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em quantas categorias a escala Saffir-Simpson divide os furacões, de acordo com a velocidade dos ventos?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "classificacao_climatica_de_koppen",
+        "nome": "Classificação climática de Köppen",
+        "descricao": "Sistema de classificação dos climas do mundo baseado em temperatura, chuva e vegetação",
+        "variantes": [
+          "Köppen climate classification"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A classificação climática de Köppen divide os climas do mundo em quantos grandes grupos, cada um indicado por uma letra maiúscula?",
+      "resposta": "Cinco",
+      "distratores": [
+        "Três",
+        "Sete",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vereda",
+        "descricao": "Paisagem úmida do Cerrado formada em torno de nascentes e brejos, marcada por fileiras de palmeiras",
+        "variantes": [
+          "Veredas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Buriti"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que palmeira forma as veredas do Cerrado, paisagem que aparece no título de um romance de Guimarães Rosa?",
+      "resposta": "Buriti",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Buriti",
+        "https://en.wikipedia.org/wiki/Mauritia_flexuosa"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "savana",
+        "nome": "Savana",
+        "descricao": "Bioma de vegetação rasteira com árvores esparsas, típico de regiões tropicais com estação seca",
+        "variantes": [
+          "Savanna"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Savanna"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que árvore de tronco gigantesco, capaz de armazenar água para a estação seca, é um símbolo das savanas africanas?",
+      "resposta": "Baobá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adansonia",
+        "https://pt.wikipedia.org/wiki/Baob%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Antártida",
+        "descricao": "Continente gelado ao redor do Polo Sul",
+        "variantes": [
+          "Antártica",
+          "Antarctica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antarctica",
+          "https://pt.wikipedia.org/wiki/Ant%C3%A1rtida"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Se deserto é todo lugar onde quase não chove nem neva, qual é o maior deserto do mundo?",
+      "resposta": "Antártida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Desert",
+        "https://en.wikipedia.org/wiki/Antarctica"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "floresta_amazonica",
+        "nome": "Floresta Amazônica",
+        "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+        "variantes": [
+          "Amazônia",
+          "Amazon rainforest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amazon_rainforest"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Depois do Brasil, que país abriga a maior porção da Floresta Amazônica?",
+      "resposta": "Peru",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazon_rainforest"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mata Atlântica",
+        "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+        "variantes": [
+          "Atlantic Forest",
+          "Floresta Atlântica"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mata_Atl%C3%A2ntica"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual bioma brasileiro, hoje reduzido a fragmentos, abriga a maior parte da população do país?",
+      "resposta": "Mata Atlântica",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mata_Atl%C3%A2ntica"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Veranico",
+        "descricao": "Sequência de dias secos e quentes no meio da estação chuvosa, comum no Brasil central",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Veranico"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Como se chama, no Brasil central, uma sequência de dias secos e quentes que interrompe a estação das chuvas?",
+      "resposta": "Veranico",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Veranico"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "La Niña",
+        "descricao": "Fenômeno de resfriamento anormal das águas do Oceano Pacífico equatorial",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Ni%C3%B1a"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno climático esfria de forma anormal as águas do Pacífico equatorial e costuma trazer secas ao Sul do Brasil?",
+      "resposta": "La Niña",
+      "distratores": [
+        "El Niño",
+        "Corrente de Humboldt",
+        "Oscilação do Atlântico Norte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Ni%C3%B1a"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Igapó",
+        "descricao": "Floresta amazônica que fica inundada por longos períodos nas cheias dos rios de água preta",
+        "variantes": [
+          "Mata de igapó"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Igap%C3%B3"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Como se chama a floresta amazônica que passa meses inundada pelas cheias dos rios de água escura, como o Rio Negro?",
+      "resposta": "Igapó",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Igap%C3%B3"
+      ]
+    }
+  ]
+}
