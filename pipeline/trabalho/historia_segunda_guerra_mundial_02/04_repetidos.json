@@ -1,0 +1,149 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Durante a guerra, o matemático Alan Turing ajudou a decifrar os códigos alemães trabalhando em qual propriedade secreta inglesa?",
+        "resposta": "Bletchley Park"
+      },
+      "existentes": [
+        {
+          "id": "q01039",
+          "pergunta": "Quem é este matemático inglês, considerado o pai da ciência da computação teórica?",
+          "resposta": "Alan Turing"
+        },
+        {
+          "id": "q03435",
+          "pergunta": "Em 1952, o matemático Alan Turing foi condenado pela Justiça britânica por relação com outro homem. Que crime constava da condenação?",
+          "resposta": "Atentado ao pudor"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em julho de 1944, o primeiro escalão da Força Expedicionária Brasileira desembarcou em qual cidade portuária italiana?",
+        "resposta": "Nápoles"
+      },
+      "existentes": [
+        {
+          "id": "q00122",
+          "pergunta": "Diziam que era mais fácil certa cena acontecer do que o Brasil entrar na guerra. Essa cena virou o símbolo da Força Expedicionária Brasileira. Qual era?",
+          "resposta": "Uma cobra fumando"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Cerca de quantos militares a Força Expedicionária Brasileira enviou para lutar na Itália?",
+        "resposta": "Cerca de 25 mil"
+      },
+      "existentes": [
+        {
+          "id": "q00122",
+          "pergunta": "Diziam que era mais fácil certa cena acontecer do que o Brasil entrar na guerra. Essa cena virou o símbolo da Força Expedicionária Brasileira. Qual era?",
+          "resposta": "Uma cobra fumando"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Adolf Hitler, ditador da Alemanha, nasceu em 1889 numa cidade que hoje fica em qual país vizinho?",
+        "resposta": "Áustria"
+      },
+      "existentes": [
+        {
+          "id": "q01160",
+          "pergunta": "Que ditador alemão aparece nesta foto?",
+          "resposta": "Adolf Hitler"
+        },
+        {
+          "id": "q05264",
+          "pergunta": "Que partido político este homem liderou?",
+          "resposta": "Partido Nazista"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Brasil declarou guerra à Alemanha e à Itália em 1942. Em que ano declarou guerra também ao Japão?",
+        "resposta": "1945"
+      },
+      "existentes": [
+        {
+          "id": "q00132",
+          "pergunta": "Em agosto de 1942, o Brasil declarou guerra à Alemanha e à Itália. Que ataques motivaram a decisão?",
+          "resposta": "Submarinos alemães afundando navios brasileiros"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que general comandava a Força Expedicionária Brasileira quando os pracinhas finalmente conquistaram Monte Castelo, na Itália?",
+        "resposta": "Mascarenhas de Morais"
+      },
+      "existentes": [
+        {
+          "id": "q00135",
+          "pergunta": "Depois de várias tentativas fracassadas, em que ano os pracinhas brasileiros finalmente conquistaram Monte Castelo, na Itália?",
+          "resposta": "1945"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que apelido em inglês recebeu a bomba atômica lançada sobre Hiroshima?",
+        "resposta": "Little Boy"
+      },
+      "existentes": [
+        {
+          "id": "q04283",
+          "pergunta": "Esta bomba atômica foi lançada em 1945 sobre qual cidade japonesa?",
+          "resposta": "Hiroshima"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre Bletchley Park, fato diferente de identidade ou condenação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de desembarque difere do símbolo da FEB."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Efetivo enviado é fato distinto do símbolo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Local de nascimento é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ano da declaração ao Japão difere do motivo da declaração em 1942."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Comandante é fato diferente do ano da conquista."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Apelido da bomba é diferente da cidade atingida."
+    }
+  ]
+}

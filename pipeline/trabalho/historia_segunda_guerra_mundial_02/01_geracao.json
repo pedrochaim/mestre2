@@ -1,0 +1,1077 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Anne Frank",
+        "descricao": "Adolescente judia alemã que escreveu um diário enquanto se escondia dos nazistas em Amsterdã e morreu num campo de concentração em 1945.",
+        "variantes": [
+          "Annelies Marie Frank"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Anne_Frank",
+          "https://en.wikipedia.org/wiki/Anne_Frank"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Descoberta no esconderijo em Amsterdã, a adolescente Anne Frank morreu em 1945 em qual campo de concentração nazista?",
+      "resposta": "Bergen-Belsen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anne_Frank",
+        "https://pt.wikipedia.org/wiki/Anne_Frank"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Campo de concentração de Auschwitz",
+        "descricao": "Complexo de campos de concentração e extermínio construído pela Alemanha nazista na Polônia ocupada.",
+        "variantes": [
+          "Auschwitz",
+          "Auschwitz-Birkenau"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Campo_de_concentra%C3%A7%C3%A3o_de_Auschwitz",
+          "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O campo de extermínio de Auschwitz, construído pelos nazistas durante a guerra, fica em qual país atual?",
+      "resposta": "Polônia",
+      "distratores": [
+        "Alemanha",
+        "Áustria",
+        "Hungria"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Campo de concentração de Auschwitz",
+        "descricao": "Complexo de campos de concentração e extermínio construído pela Alemanha nazista na Polônia ocupada.",
+        "variantes": [
+          "Auschwitz",
+          "Auschwitz-Birkenau"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Campo_de_concentra%C3%A7%C3%A3o_de_Auschwitz",
+          "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Dia Internacional em Memória das Vítimas do Holocausto lembra a data em que os soviéticos libertaram Auschwitz, em 1945. Que dia é esse?",
+      "resposta": "27 de janeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day",
+        "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Conferência de Teerã",
+        "descricao": "Encontro de Roosevelt, Churchill e Stálin realizado no Irã entre novembro e dezembro de 1943.",
+        "variantes": [
+          "Conferência de Teerão",
+          "Tehran Conference"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Confer%C3%AAncia_de_Teer%C3%A3",
+          "https://en.wikipedia.org/wiki/Tehran_Conference"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1943, Roosevelt, Churchill e Stálin se reuniram pela primeira vez, os três juntos, em qual capital do Oriente Médio?",
+      "resposta": "Teerã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tehran_Conference"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bombardeamentos de Hiroshima e Nagasaki",
+        "descricao": "Ataques nucleares dos Estados Unidos contra duas cidades japonesas em agosto de 1945.",
+        "variantes": [
+          "Bombardeios atômicos de Hiroshima e Nagasaki"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bombardeamentos_de_Hiroshima_e_Nagasaki",
+          "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em agosto de 1945, o alvo da segunda bomba atômica era a cidade de Kokura, mas a visibilidade ruim desviou o avião para qual cidade?",
+      "resposta": "Nagasaki",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+        "https://en.wikipedia.org/wiki/Kokura"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bombardeamentos de Hiroshima e Nagasaki",
+        "descricao": "Ataques nucleares dos Estados Unidos contra duas cidades japonesas em agosto de 1945.",
+        "variantes": [
+          "Bombardeios atômicos de Hiroshima e Nagasaki"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bombardeamentos_de_Hiroshima_e_Nagasaki",
+          "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que presidente americano, no cargo havia poucos meses, autorizou o lançamento das bombas atômicas sobre o Japão?",
+      "resposta": "Harry Truman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+        "https://en.wikipedia.org/wiki/Harry_S._Truman"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Evacuação de Dunquerque",
+        "descricao": "Retirada por mar de soldados aliados cercados no norte da França, entre maio e junho de 1940, de codinome Operação Dínamo.",
+        "variantes": [
+          "Operação Dínamo",
+          "Milagre de Dunquerque"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1940, mais de trezentos mil soldados aliados cercados pelos alemães foram resgatados por barcos a partir das praias de qual cidade francesa?",
+      "resposta": "Dunquerque",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alan Turing",
+        "descricao": "Matemático britânico, pioneiro da computação, que ajudou a decifrar os códigos alemães na Segunda Guerra Mundial.",
+        "variantes": [
+          "Alan Mathison Turing"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Alan_Turing",
+          "https://en.wikipedia.org/wiki/Alan_Turing"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Durante a guerra, o matemático Alan Turing ajudou a decifrar os códigos alemães trabalhando em qual propriedade secreta inglesa?",
+      "resposta": "Bletchley Park",
+      "distratores": [
+        "Chequers",
+        "Palácio de Blenheim",
+        "Castelo de Windsor"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alan_Turing",
+        "https://en.wikipedia.org/wiki/Bletchley_Park"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "forca_expedicionaria_brasileira",
+        "nome": "Força Expedicionária Brasileira",
+        "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+        "variantes": [
+          "FEB",
+          "Pracinhas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em julho de 1944, o primeiro escalão da Força Expedicionária Brasileira desembarcou em qual cidade portuária italiana?",
+      "resposta": "Nápoles",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira",
+        "https://en.wikipedia.org/wiki/Brazilian_Expeditionary_Force"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "forca_expedicionaria_brasileira",
+        "nome": "Força Expedicionária Brasileira",
+        "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+        "variantes": [
+          "FEB",
+          "Pracinhas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Cerca de quantos militares a Força Expedicionária Brasileira enviou para lutar na Itália?",
+      "resposta": "Cerca de 25 mil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira",
+        "https://en.wikipedia.org/wiki/Brazilian_Expeditionary_Force"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+        "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+        "variantes": [
+          "Monumento aos Pracinhas",
+          "Monumento aos Mortos da Segunda Guerra Mundial"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Monumento_Nacional_aos_Mortos_da_Segunda_Guerra_Mundial"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os restos dos pracinhas mortos na Itália, antes enterrados em Pistoia, foram trazidos para um monumento em qual parque do Rio de Janeiro?",
+      "resposta": "Aterro do Flamengo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Monumento_Nacional_aos_Mortos_da_Segunda_Guerra_Mundial",
+        "https://pt.wikipedia.org/wiki/Parque_do_Flamengo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "adolf_hitler",
+        "nome": "Adolf Hitler",
+        "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+        "variantes": [
+          "Führer"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Adolf_Hitler",
+          "https://en.wikipedia.org/wiki/Adolf_Hitler"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Antes de se tornar ditador da Alemanha, Adolf Hitler nasceu em 1889 em qual país vizinho?",
+      "resposta": "Áustria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adolf_Hitler"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hasteamento da bandeira em Iwo Jima",
+        "descricao": "Fotografia de Joe Rosenthal, de fevereiro de 1945, que mostra seis fuzileiros americanos erguendo a bandeira dos Estados Unidos no monte Suribachi.",
+        "variantes": [
+          "Raising the Flag on Iwo Jima"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A célebre foto de seis fuzileiros americanos erguendo a bandeira dos Estados Unidos, em fevereiro de 1945, foi tirada em qual ilha japonesa?",
+      "resposta": "Iwo Jima",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Julgamentos de Nuremberg",
+        "descricao": "Tribunais militares internacionais que julgaram os principais líderes nazistas a partir de novembro de 1945.",
+        "variantes": [
+          "Tribunal de Nuremberg",
+          "Nuremberg trials"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Julgamentos_de_Nuremberg",
+          "https://en.wikipedia.org/wiki/Nuremberg_trials"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A partir de novembro de 1945, os principais líderes nazistas foram julgados por um tribunal internacional em qual cidade alemã?",
+      "resposta": "Nuremberg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nuremberg_trials"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1940",
+        "descricao": "Edição dos Jogos Olímpicos prevista para 1940, que nunca foi realizada por causa das guerras na Ásia e na Europa.",
+        "variantes": [
+          "Olimpíadas de 1940"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1940_Summer_Olympics"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos Olímpicos de 1940 foram entregues primeiro a qual cidade asiática, que desistiu por causa da guerra com a China e só os sediou em 1964?",
+      "resposta": "Tóquio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1940_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Invasão da Polônia",
+        "descricao": "Ataque da Alemanha nazista à Polônia em setembro de 1939, seguido pela invasão soviética, que deu início à Segunda Guerra Mundial na Europa.",
+        "variantes": [
+          "Campanha de Setembro",
+          "Fall Weiss"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Pol%C3%B4nia",
+          "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Segunda Guerra Mundial começou com a invasão alemã da Polônia. Em que dia e mês de 1939?",
+      "resposta": "1º de setembro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Libertação de Paris",
+        "descricao": "Expulsão das tropas alemãs de Paris pela Resistência Francesa e pelas forças aliadas, em agosto de 1944.",
+        "variantes": [
+          "Liberation of Paris"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Liberta%C3%A7%C3%A3o_de_Paris",
+          "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de quatro anos de ocupação alemã, Paris foi libertada pelos Aliados e pela Resistência em que mês e ano?",
+      "resposta": "Agosto de 1944",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia da Vitória na Europa",
+        "descricao": "Data em que os Aliados celebraram a rendição incondicional da Alemanha nazista, em 1945.",
+        "variantes": [
+          "Dia V-E",
+          "V-E Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os Aliados ocidentais comemoram a rendição da Alemanha nazista como o Dia da Vitória na Europa. Em que data de 1945?",
+      "resposta": "8 de maio",
+      "distratores": [
+        "6 de junho",
+        "2 de setembro",
+        "11 de novembro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha da Inglaterra",
+        "descricao": "Campanha aérea em que a Força Aérea Real britânica resistiu aos ataques da Luftwaffe alemã sobre o Reino Unido.",
+        "variantes": [
+          "Batalha da Grã-Bretanha",
+          "Battle of Britain"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_da_Inglaterra",
+          "https://en.wikipedia.org/wiki/Battle_of_Britain"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Força Aérea Real britânica resistiu aos ataques da aviação alemã na chamada Batalha da Inglaterra. Em que ano ela foi travada?",
+      "resposta": "1940",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Britain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Anschluss",
+        "descricao": "Anexação da Áustria pela Alemanha nazista, em março de 1938.",
+        "variantes": [
+          "Anexação da Áustria"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Anschluss",
+          "https://en.wikipedia.org/wiki/Anschluss"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Pouco antes da guerra, a Alemanha nazista anexou a Áustria no episódio conhecido como Anschluss. Em que ano?",
+      "resposta": "1938",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anschluss"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha de Stalingrado",
+        "descricao": "Batalha travada entre 1942 e 1943 na cidade soviética de Stalingrado, que terminou com a rendição do Sexto Exército alemão.",
+        "variantes": [
+          "Battle of Stalingrad"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_de_Stalingrado",
+          "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Cercado pelos soviéticos, o Sexto Exército alemão se rendeu em Stalingrado no inverno de qual ano?",
+      "resposta": "1943",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ataque a Pearl Harbor",
+        "descricao": "Ataque aéreo surpresa do Japão à base naval americana de Pearl Harbor, no Havaí, que levou os Estados Unidos a entrar na guerra.",
+        "variantes": [
+          "Pearl Harbor"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ataque_a_Pearl_Harbor",
+          "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O ataque japonês a Pearl Harbor, que levou os Estados Unidos a entrar na guerra, aconteceu em dezembro de qual ano?",
+      "resposta": "1941",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "brasil_na_segunda_guerra_mundial",
+        "nome": "Brasil na Segunda Guerra Mundial",
+        "descricao": "Participação do Brasil no conflito, desde a declaração de guerra ao Eixo em 1942 até o envio de tropas à Itália.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Brasil_na_Segunda_Guerra_Mundial",
+          "https://en.wikipedia.org/wiki/Brazil_in_World_War_II"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Brasil declarou guerra à Alemanha e à Itália em 1942. Em que ano declarou guerra também ao Japão?",
+      "resposta": "1945",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_in_World_War_II",
+        "https://pt.wikipedia.org/wiki/Brasil_na_Segunda_Guerra_Mundial"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sangue, labuta, lágrimas e suor",
+        "descricao": "Discurso feito por Winston Churchill à Câmara dos Comuns em 13 de maio de 1940, logo após assumir como primeiro-ministro.",
+        "variantes": [
+          "Blood, toil, tears and sweat",
+          "Sangue, trabalho, lágrimas e suor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood,_toil,_tears_and_sweat"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em maio de 1940, que político britânico, recém-empossado, disse ao Parlamento que nada tinha a oferecer senão sangue, trabalho, lágrimas e suor?",
+      "resposta": "Winston Churchill",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blood,_toil,_tears_and_sweat"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Projeto Manhattan",
+        "descricao": "Programa secreto dos Estados Unidos, com apoio do Reino Unido e do Canadá, que desenvolveu as primeiras bombas atômicas.",
+        "variantes": [
+          "Manhattan Project"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Projeto_Manhattan",
+          "https://en.wikipedia.org/wiki/Manhattan_Project"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que físico americano dirigiu o laboratório de Los Alamos, onde o Projeto Manhattan desenvolveu a bomba atômica?",
+      "resposta": "J. Robert Oppenheimer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manhattan_Project",
+        "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Carta Einstein–Szilárd",
+        "descricao": "Carta de 1939 enviada ao presidente Franklin Roosevelt alertando para a possibilidade de a Alemanha desenvolver uma bomba atômica.",
+        "variantes": [
+          "Carta de Einstein a Roosevelt",
+          "Einstein–Szilárd letter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Einstein%E2%80%93Szil%C3%A1rd_letter"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1939, que cientista famoso assinou uma carta ao presidente Roosevelt alertando que a Alemanha poderia desenvolver uma bomba atômica?",
+      "resposta": "Albert Einstein",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Einstein%E2%80%93Szil%C3%A1rd_letter"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canção do Expedicionário",
+        "descricao": "Hino dos pracinhas da Força Expedicionária Brasileira, que começa com os versos Você sabe de onde eu venho.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o_do_Expedicion%C3%A1rio"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que poeta modernista escreveu a letra da Canção do Expedicionário, o hino dos pracinhas que começa com Você sabe de onde eu venho?",
+      "resposta": "Guilherme de Almeida",
+      "distratores": [
+        "Manuel Bandeira",
+        "Carlos Drummond de Andrade",
+        "Mário de Andrade"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o_do_Expedicion%C3%A1rio",
+        "https://pt.wikipedia.org/wiki/Guilherme_de_Almeida"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "batalha_de_monte_castelo",
+        "nome": "Batalha de Monte Castelo",
+        "descricao": "Série de combates nos Apeninos italianos em que a Força Expedicionária Brasileira conquistou o Monte Castelo.",
+        "variantes": [
+          "Tomada de Monte Castelo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_de_Monte_Castelo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que general comandava a Força Expedicionária Brasileira quando os pracinhas finalmente conquistaram Monte Castelo, na Itália?",
+      "resposta": "Mascarenhas de Morais",
+      "distratores": [
+        "Eurico Gaspar Dutra",
+        "Góis Monteiro",
+        "Juarez Távora"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Batalha_de_Monte_Castelo",
+        "https://pt.wikipedia.org/wiki/Mascarenhas_de_Morais"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Grande Ditador",
+        "descricao": "Filme de 1940 que satiriza Adolf Hitler por meio do ditador fictício Adenoid Hynkel.",
+        "variantes": [
+          "The Great Dictator"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Grande_Ditador",
+          "https://en.wikipedia.org/wiki/The_Great_Dictator"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cineasta escreveu, dirigiu e estrelou O Grande Ditador, a sátira de Hitler lançada em 1940?",
+      "resposta": "Charles Chaplin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Atentado de 20 de julho",
+        "descricao": "Tentativa fracassada de oficiais alemães de matar Adolf Hitler com uma bomba, em 20 de julho de 1944, no quartel-general da Toca do Lobo.",
+        "variantes": [
+          "Operação Valquíria",
+          "20 July plot"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Atentado_de_20_de_julho",
+          "https://en.wikipedia.org/wiki/20_July_plot"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em julho de 1944, que coronel alemão deixou uma bomba escondida numa pasta na sala de reuniões de Hitler?",
+      "resposta": "Claus von Stauffenberg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/20_July_plot"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fusca",
+        "descricao": "Automóvel popular da Volkswagen, projetado na Alemanha nos anos 1930 e depois fabricado em vários países, inclusive no Brasil.",
+        "variantes": [
+          "Volkswagen Fusca",
+          "Volkswagen Beetle",
+          "Volkswagen Sedan",
+          "KdF-Wagen"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro austríaco projetou o Fusca nos anos trinta, atendendo a um pedido de Hitler por um carro popular?",
+      "resposta": "Ferdinand Porsche",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Companhia Siderúrgica Nacional",
+        "descricao": "Empresa siderúrgica brasileira criada em 1941, durante o governo Vargas, com usina em Volta Redonda.",
+        "variantes": [
+          "CSN"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional",
+          "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Companhia Siderúrgica Nacional, em Volta Redonda, foi construída com financiamento americano. O que o governo Vargas ofereceu em troca?",
+      "resposta": "Bases militares para os americanos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional",
+        "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gasogênio",
+        "descricao": "Aparelho que produz gás combustível a partir da queima de carvão ou lenha, usado para mover automóveis na falta de gasolina.",
+        "variantes": [
+          "Gás de madeira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gasog%C3%AAnio",
+          "https://en.wikipedia.org/wiki/Wood_gas"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos quarenta, muitos carros brasileiros rodavam com gasogênio, um aparelho que queimava carvão ou lenha. Por que essa adaptação se espalhou?",
+      "resposta": "Racionamento de gasolina na guerra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gasog%C3%AAnio",
+        "https://en.wikipedia.org/wiki/Wood_gas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Soldados da borracha",
+        "descricao": "Trabalhadores, em sua maioria nordestinos, recrutados durante a Segunda Guerra para extrair látex nos seringais da Amazônia.",
+        "variantes": [
+          "Batalha da Borracha",
+          "Rubber soldiers"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Soldados_da_borracha"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na guerra, milhares de nordestinos foram levados à Amazônia como soldados da borracha. Que fato tornou a borracha brasileira essencial para os Aliados?",
+      "resposta": "O Japão ocupou os seringais asiáticos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Soldados_da_borracha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maquiagem para pernas",
+        "descricao": "Prática difundida na Segunda Guerra em que mulheres pintavam as pernas e desenhavam a costura para simular meias.",
+        "variantes": [
+          "Leg makeup",
+          "Meia líquida"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leg_makeup"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Durante a guerra, muitas mulheres pintavam as pernas e desenhavam uma linha na parte de trás delas. Por que faziam isso?",
+      "resposta": "Para imitar as meias de náilon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leg_makeup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sadako Sasaki",
+        "descricao": "Menina japonesa exposta à radiação da bomba de Hiroshima, que morreu de leucemia em 1955 depois de dobrar centenas de grous de papel.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sadako_Sasaki"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que dobradura de papel virou símbolo da paz por causa da história da menina Sadako Sasaki, vítima da radiação de Hiroshima?",
+      "resposta": "Tsuru",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sadako_Sasaki"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Volgogrado",
+        "descricao": "Cidade russa às margens do rio Volga, chamada Stalingrado entre 1925 e 1961.",
+        "variantes": [
+          "Stalingrado",
+          "Tsaritsyn"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Volgogrado",
+          "https://en.wikipedia.org/wiki/Volgograd"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1961, durante a desestalinização, a cidade de Stalingrado recebeu um novo nome, inspirado no grande rio que a banha. Qual?",
+      "resposta": "Volgogrado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volgograd",
+        "https://pt.wikipedia.org/wiki/Volgogrado"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Noite dos Cristais",
+        "descricao": "Onda de ataques organizados pelos nazistas contra judeus, suas lojas e sinagogas na Alemanha e na Áustria, em novembro de 1938.",
+        "variantes": [
+          "Kristallnacht",
+          "Pogrom de Novembro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Noite_dos_Cristais",
+          "https://en.wikipedia.org/wiki/Kristallnacht"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os ataques nazistas a lojas e sinagogas judaicas em novembro de 1938 ganharam que nome, por causa dos cacos de vitrines espalhados nas ruas?",
+      "resposta": "Noite dos Cristais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kristallnacht"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Plano Marshall",
+        "descricao": "Programa dos Estados Unidos, iniciado em 1948, que financiou a reconstrução econômica da Europa ocidental após a Segunda Guerra Mundial.",
+        "variantes": [
+          "Programa de Recuperação Europeia",
+          "Marshall Plan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Plano_Marshall",
+          "https://en.wikipedia.org/wiki/Marshall_Plan"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O programa americano que financiou a reconstrução da Europa depois da guerra levou o nome de qual secretário de Estado?",
+      "resposta": "George Marshall",
+      "distratores": [
+        "Harry Truman",
+        "Cordell Hull",
+        "Dean Acheson"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marshall_Plan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kamikaze",
+        "descricao": "Pilotos japoneses que, no fim da Segunda Guerra, lançavam seus aviões carregados de explosivos contra navios aliados.",
+        "variantes": [
+          "Camicase",
+          "Tokkōtai"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Kamikaze",
+          "https://en.wikipedia.org/wiki/Kamikaze"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Kamikaze significa vento divino, uma referência aos tufões que, no século treze, destruíram as frotas de qual povo que tentou invadir o Japão?",
+      "resposta": "Mongóis",
+      "distratores": [
+        "Russos",
+        "Portugueses",
+        "Holandeses"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kamikaze"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Little Boy",
+        "descricao": "Bomba atômica de urânio lançada pelos Estados Unidos sobre Hiroshima em 6 de agosto de 1945.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Little_Boy"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Que apelido em inglês recebeu a bomba atômica lançada sobre Hiroshima?",
+      "resposta": "Little Boy",
+      "distratores": [
+        "Fat Man",
+        "Thin Man",
+        "Gadget"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Little_Boy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Blitzkrieg",
+        "descricao": "Tática militar alemã de ataques rápidos e concentrados com tanques e aviões, usada no início da Segunda Guerra Mundial.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Blitzkrieg",
+          "https://en.wikipedia.org/wiki/Blitzkrieg"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A tática alemã de ataques rápidos com tanques e aviões ficou conhecida como Blitzkrieg. O que essa palavra significa?",
+      "resposta": "Guerra-relâmpago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blitzkrieg"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Foguete V-2",
+        "descricao": "Míssil balístico desenvolvido pela Alemanha nazista e usado contra Londres e Antuérpia a partir de 1944.",
+        "variantes": [
+          "V-2",
+          "Vergeltungswaffe 2",
+          "A-4"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/V-2_rocket"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O míssil nazista V-2 e o foguete Saturno V, que levou astronautas à Lua, foram desenvolvidos sob a liderança do mesmo engenheiro alemão. Quem?",
+      "resposta": "Wernher von Braun",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/V-2_rocket",
+        "https://en.wikipedia.org/wiki/Wernher_von_Braun"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Charles de Gaulle",
+        "descricao": "General francês que liderou a França Livre a partir de Londres na Segunda Guerra e depois presidiu a França.",
+        "variantes": [
+          "General de Gaulle"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Charles_de_Gaulle",
+          "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que general, líder da França Livre que convocava a resistência pelo rádio de Londres, dá nome ao maior aeroporto de Paris?",
+      "resposta": "Charles de Gaulle",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+        "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Humberto de Alencar Castelo Branco",
+        "descricao": "Militar brasileiro, oficial da FEB na Itália, que foi o primeiro presidente do regime militar, de 1964 a 1967.",
+        "variantes": [
+          "Castelo Branco",
+          "Castello Branco"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Humberto_de_Alencar_Castelo_Branco"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que militar, oficial da Força Expedicionária Brasileira na Itália, tornou-se em 1964 o primeiro presidente do regime militar brasileiro?",
+      "resposta": "Castelo Branco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Humberto_de_Alencar_Castelo_Branco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cerco de Leningrado",
+        "descricao": "Bloqueio da cidade soviética de Leningrado pelas forças alemãs e finlandesas, de 1941 a 1944.",
+        "variantes": [
+          "Cerco a Leningrado",
+          "Siege of Leningrad"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cerco_a_Leningrado",
+          "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O cerco alemão a Leningrado, em que centenas de milhares de civis morreram de fome, durou cerca de quantos dias?",
+      "resposta": "Cerca de 900 dias",
+      "distratores": [
+        "Cerca de 90 dias",
+        "Cerca de 300 dias",
+        "Cerca de 2000 dias"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Josephine Baker",
+        "descricao": "Cantora e dançarina americana naturalizada francesa, estrela dos cabarés de Paris e agente da Resistência Francesa.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Josephine_Baker",
+          "https://en.wikipedia.org/wiki/Josephine_Baker"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que cantora e dançarina nascida nos Estados Unidos, estrela dos cabarés de Paris, atuou como espiã da Resistência Francesa?",
+      "resposta": "Josephine Baker",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Josephine_Baker"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Elizabeth II",
+        "descricao": "Rainha do Reino Unido de 1952 a 2022, que serviu no Serviço Territorial Auxiliar no fim da Segunda Guerra.",
+        "variantes": [
+          "Isabel II",
+          "Rainha Elizabeth"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Isabel_II_do_Reino_Unido",
+          "https://en.wikipedia.org/wiki/Elizabeth_II"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que futura rainha britânica se alistou em 1945 e foi treinada como motorista e mecânica do exército?",
+      "resposta": "Elizabeth II",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elizabeth_II"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "1º Grupo de Aviação de Caça",
+        "descricao": "Unidade de caça da Força Aérea Brasileira que combateu na Itália em 1944 e 1945, cujo grito de guerra era Senta a Pua.",
+        "variantes": [
+          "Senta a Pua",
+          "1st Brazilian Fighter Squadron"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/1%C2%BA_Grupo_de_Avia%C3%A7%C3%A3o_de_Ca%C3%A7a"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que ave aparece no emblema do Primeiro Grupo de Aviação de Caça, os pilotos brasileiros que lutaram na Itália?",
+      "resposta": "Avestruz",
+      "distratores": [
+        "Águia",
+        "Gavião",
+        "Falcão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/1%C2%BA_Grupo_de_Avia%C3%A7%C3%A3o_de_Ca%C3%A7a"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Code talkers navajos",
+        "descricao": "Fuzileiros navais americanos de origem navaja que transmitiam mensagens num código baseado em sua língua durante a guerra no Pacífico.",
+        "variantes": [
+          "Navajo code talkers",
+          "Falantes de código"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Code_talker"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Imortalizados no filme Códigos de Guerra, os fuzileiros navais americanos no Pacífico enviavam mensagens num código baseado na língua de qual povo indígena?",
+      "resposta": "Navajo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Code_talker",
+        "https://en.wikipedia.org/wiki/Windtalkers"
+      ]
+    }
+  ]
+}
