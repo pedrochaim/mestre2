@@ -1,0 +1,114 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Vazamento: 'Nobel de Física de 1921' identifica Einstein sem a figura. Reduzida a reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que físico alemão é este?",
+        "resposta": "Albert Einstein"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (1938, RSS ucraniana). O enunciado não entrega a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Agosto de 1942 confirmado. Pede o ano, não a identidade. Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: a aldeia de Shaoshan identifica o líder e a província sem a figura.",
+      "reescrita": {
+        "pergunta": "Em que província da China nasceu este líder revolucionário?",
+        "resposta": "Hunan"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pistas. Distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Deportação em 1936 confirmada. Pede o ano, não o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'em 1945 assumiu a presidência' identifica Truman sem a figura.",
+      "reescrita": {
+        "pergunta": "Que presidente americano é este?",
+        "resposta": "Harry Truman",
+        "distratores": [
+          "Dwight Eisenhower",
+          "Herbert Hoover",
+          "Lyndon Johnson"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'Manifesto Comunista com Engels' identifica Marx sem a figura.",
+      "reescrita": {
+        "pergunta": "Que filósofo alemão do século dezenove é este?",
+        "resposta": "Karl Marx"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'revolucionário russo assassinado em 1940' identifica Trótski e o México sem a figura.",
+      "reescrita": {
+        "pergunta": "Que revolucionário russo é este?",
+        "resposta": "Leon Trótski",
+        "distratores": [
+          "Vladimir Lenin",
+          "Nikolai Bukharin",
+          "Grigori Zinoviev"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Neste busto' pode não ser verdadeiro para a imagem específica. Retirada a menção ao formato.",
+      "reescrita": {
+        "pergunta": "Que imperador romano é este?",
+        "resposta": "Marco Aurélio",
+        "distratores": [
+          "Lúcio Vero",
+          "Adriano",
+          "Antonino Pio"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Posse em 31 de janeiro de 1956 confirmada. O enunciado não identifica o homem sem a figura.",
+      "reescrita": null
+    }
+  ]
+}

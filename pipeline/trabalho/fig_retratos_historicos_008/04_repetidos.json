@@ -1,0 +1,94 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que físico alemão é este?",
+        "resposta": "Albert Einstein"
+      },
+      "existentes": [
+        {
+          "id": "q00860",
+          "pergunta": "Que físico é este?",
+          "resposta": "Albert Einstein"
+        },
+        {
+          "id": "q02992",
+          "pergunta": "O Nobel de Física de 1921 não premiou Einstein pela relatividade. Que fenômeno ele explicou para ganhar o prêmio?",
+          "resposta": "Efeito fotoelétrico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que filósofo alemão do século dezenove é este?",
+        "resposta": "Karl Marx"
+      },
+      "existentes": [
+        {
+          "id": "q02238",
+          "pergunta": "Que corrente de pensamento recebeu o nome deste filósofo alemão?",
+          "resposta": "Marxismo"
+        },
+        {
+          "id": "q03761",
+          "pergunta": "Karl Marx morreu em 1883 e está enterrado em que famoso cemitério de Londres?",
+          "resposta": "Cemitério de Highgate"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que imperador romano é este?",
+        "resposta": "Marco Aurélio"
+      },
+      "existentes": [
+        {
+          "id": "q03767",
+          "pergunta": "Marco Aurélio, o imperador romano que praticava a filosofia estoica, governou em que século depois de Cristo?",
+          "resposta": "Século dois"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ano este homem tomou posse como presidente do Brasil?",
+        "resposta": "1956"
+      },
+      "existentes": [
+        {
+          "id": "q06194",
+          "pergunta": "Em que ano este presidente brasileiro tomou posse?",
+          "resposta": "1956"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da mesma pessoa (Albert Einstein) a partir da imagem.",
+      "id_existente": "q00860"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar Marx pela imagem é diferente de perguntar sobre o marxismo ou o local do sepultamento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o imperador pela imagem é diferente de saber o século em que governou."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o ano de posse do mesmo presidente (1956), com a mesma resposta.",
+      "id_existente": "q06194"
+    }
+  ]
+}

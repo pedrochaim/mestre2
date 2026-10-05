@@ -1,0 +1,244 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto que entregue a resposta (só um 'K' no quadro).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Por qual descoberta este físico recebeu o Prêmio Nobel de Física em 1921?",
+      "resposta": "Lei do efeito fotoelétrico",
+      "destino": 5,
+      "ancora": {
+        "nome": "Albert Einstein",
+        "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+        "variantes": [
+          "Einstein"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em 1938, este líder soviético foi enviado para governar qual república da União Soviética?",
+      "resposta": "Ucrânia",
+      "destino": 5,
+      "ancora": {
+        "nome": "Nikita Khrushchov",
+        "descricao": "Líder da União Soviética de 1953 a 1964, que denunciou Stálin e presidiu a crise dos mísseis de Cuba.",
+        "variantes": [
+          "Nikita Khrushchev",
+          "Kruschev"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato colorido nítido, uniforme e boina característicos, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este general britânico assumiu o comando do Oitavo Exército, no norte da África?",
+      "resposta": "1942",
+      "distratores": [
+        "1940",
+        "1941",
+        "1944"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Bernard Montgomery",
+        "descricao": "Marechal de campo britânico, comandante do Oitavo Exército em El Alamein na Segunda Guerra Mundial.",
+        "variantes": [
+          "Montgomery",
+          "Monty",
+          "Montgomery de Alamein"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que província da China nasceu este líder, na aldeia de Shaoshan?",
+      "resposta": "Hunan",
+      "destino": 5,
+      "ancora": {
+        "nome": "Mao Tsé-Tung",
+        "descricao": "Revolucionário chinês que fundou a República Popular da China e a liderou de 1949 a 1976.",
+        "variantes": [
+          "Mao Zedong",
+          "Mao Tse-Tung"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido, característico (chapéu, cartucheiras), sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que revolucionário mexicano é este?",
+      "resposta": "Pancho Villa",
+      "distratores": [
+        "Emiliano Zapata",
+        "Francisco Madero",
+        "Venustiano Carranza"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Pancho Villa",
+        "descricao": "Revolucionário e líder guerrilheiro mexicano da Revolução Mexicana, nascido José Doroteo Arango.",
+        "variantes": [
+          "Francisco Villa",
+          "José Doroteo Arango Arámbula"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de rosto sem texto, imagem conhecida de figura pública; pergunta factual única.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano esta militante comunista foi deportada do Brasil para a Alemanha nazista?",
+      "resposta": "1936",
+      "destino": 8,
+      "ancora": {
+        "nome": "Olga Benário",
+        "descricao": "Militante comunista alemã, esposa de Luís Carlos Prestes, deportada do Brasil e morta pelos nazistas em 1942.",
+        "variantes": [
+          "Olga Benário Prestes"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato colorido claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em 1945, este homem assumiu a presidência dos Estados Unidos após a morte de qual presidente?",
+      "resposta": "Franklin Roosevelt",
+      "distratores": [
+        "Herbert Hoover",
+        "Woodrow Wilson",
+        "Calvin Coolidge"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Harry Truman",
+        "descricao": "33º presidente dos Estados Unidos, de 1945 a 1953, que decidiu o uso das bombas atômicas sobre o Japão.",
+        "variantes": [
+          "Harry S. Truman"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A gravura traz legenda visível 'Ann Zingha, Queen of Matamba' que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este pensador publicou com Friedrich Engels o Manifesto Comunista?",
+      "resposta": "1848",
+      "destino": 5,
+      "ancora": {
+        "nome": "Karl Marx",
+        "descricao": "Filósofo e teórico alemão, autor de O Capital e coautor do Manifesto Comunista.",
+        "variantes": [
+          "Marx"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, com pincenê e cavanhaque característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país este revolucionário russo foi assassinado, em 1940?",
+      "resposta": "México",
+      "distratores": [
+        "Turquia",
+        "Noruega",
+        "França"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Leon Trótski",
+        "descricao": "Revolucionário russo, líder do Exército Vermelho, exilado por Stálin e assassinado em 1940.",
+        "variantes": [
+          "Leon Trotsky",
+          "Lev Davidovich Bronstein"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Busto em mármore nítido, sem texto; identificável com distratores de imperadores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que imperador romano é retratado neste busto?",
+      "resposta": "Marco Aurélio",
+      "distratores": [
+        "Lúcio Vero",
+        "Adriano",
+        "Cômodo"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Marco Aurélio",
+        "descricao": "Imperador romano de 161 a 180 e filósofo estoico, último dos Cinco Bons Imperadores.",
+        "variantes": [
+          "Marcus Aurelius"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este homem tomou posse como presidente do Brasil?",
+      "resposta": "1956",
+      "distratores": [
+        "1951",
+        "1954",
+        "1961"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Juscelino Kubitschek",
+        "descricao": "Presidente do Brasil de 1956 a 1961, construtor de Brasília.",
+        "variantes": [
+          "JK",
+          "Juscelino Kubitschek de Oliveira"
+        ]
+      }
+    }
+  ]
+}
