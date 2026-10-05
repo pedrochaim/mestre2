@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto colorida nítida, sem texto; escritora reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta escritora estreou em 1943 com qual romance?",
+      "resposta": "Perto do Coração Selvagem",
+      "destino": 0,
+      "ancora": {
+        "nome": "Clarice Lispector",
+        "descricao": "Escritora brasileira nascida na Ucrânia, autora de A Hora da Estrela.",
+        "variantes": [
+          "Chaya Pinkhasivna Lispector"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo em oval, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este escritor brasileiro publicou em 1865 qual romance indianista?",
+      "resposta": "Iracema",
+      "destino": 0,
+      "ancora": {
+        "nome": "José de Alencar",
+        "descricao": "Romancista, dramaturgo e político brasileiro do Romantismo, expoente do Indianismo.",
+        "variantes": [
+          "José Martiniano de Alencar"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa no pedestal traz o nome Lima Barreto, entregando a resposta; além disso é busto num local público, não retrato."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de domínio público, retrato claro; o texto no papel é ilegível e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este escritor alemão publicou em 1774 qual romance epistolar?",
+      "resposta": "Os Sofrimentos do Jovem Werther",
+      "destino": 1,
+      "ancora": {
+        "nome": "Johann Wolfgang von Goethe",
+        "descricao": "Escritor, cientista e estadista alemão, autor de Fausto, retratado em pintura de Joseph Karl Stieler.",
+        "variantes": [
+          "Goethe"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto; múltipla escolha com poetas brasileiras compensa a dificuldade de reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta poeta brasileira?",
+      "resposta": "Cecília Meireles",
+      "distratores": [
+        "Hilda Hilst",
+        "Adélia Prado",
+        "Cora Coralina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cecília Meireles",
+        "descricao": "Poeta, escritora e educadora brasileira do Modernismo.",
+        "variantes": [
+          "Cecília Benevides de Carvalho Meireles"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este poeta paraibano ficou conhecido por um livro de 1912. Qual é o título dele?",
+      "resposta": "Eu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Augusto dos Anjos",
+        "descricao": "Poeta brasileiro paraibano, autor de poemas sobre doença e morte, precursor do Modernismo.",
+        "variantes": [
+          "Augusto de Carvalho Rodrigues dos Anjos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clássica de Nadar, nítida, sem texto; muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este escritor francês?",
+      "resposta": "Júlio Verne",
+      "destino": 1,
+      "ancora": {
+        "nome": "Júlio Verne",
+        "descricao": "Romancista francês do século dezenove, autor de Viagem ao Centro da Terra e A Volta ao Mundo em 80 Dias.",
+        "variantes": [
+          "Jules Verne"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto, de poeta famoso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros é deste poeta francês?",
+      "resposta": "As Flores do Mal",
+      "distratores": [
+        "Os Miseráveis",
+        "Poemas Saturninos",
+        "Uma Temporada no Inferno"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Charles Baudelaire",
+        "descricao": "Poeta, ensaísta e crítico de arte francês do século dezenove, autor de As Flores do Mal.",
+        "variantes": [
+          "Charles-Pierre Baudelaire"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico em sépia, sem texto; múltipla escolha com romancistas franceses de bigode parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este romancista francês do século dezenove?",
+      "resposta": "Gustave Flaubert",
+      "distratores": [
+        "Guy de Maupassant",
+        "Émile Zola",
+        "Honoré de Balzac"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Gustave Flaubert",
+        "descricao": "Romancista francês do realismo, autor de Madame Bovary.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto; autora reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes detetives foi criado por esta escritora inglesa?",
+      "resposta": "Hercule Poirot",
+      "distratores": [
+        "Sherlock Holmes",
+        "Padre Brown",
+        "Inspetor Maigret"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Agatha Christie",
+        "descricao": "Escritora inglesa de romances policiais, criadora de Hercule Poirot e Miss Marple.",
+        "variantes": [
+          "Agatha Mary Clarissa Miller"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Daguerreótipo nítido, sem texto, de figura pública muito reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que detetive deste escritor americano aparece no conto Os Crimes da Rua Morgue?",
+      "resposta": "Auguste Dupin",
+      "destino": 1,
+      "ancora": {
+        "nome": "Edgar Allan Poe",
+        "descricao": "Escritor, poeta e crítico americano do Romantismo e da ficção gótica, pioneiro do conto policial.",
+        "variantes": [
+          "Edgar Poe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de estúdio de Sarony, nítida; só um pequeno número 22 no canto, que não entrega nada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este escritor irlandês publicou em 1890 qual romance?",
+      "resposta": "O Retrato de Dorian Gray",
+      "destino": 1,
+      "ancora": {
+        "nome": "Oscar Wilde",
+        "descricao": "Escritor e dramaturgo irlandês da era vitoriana, autor de O Retrato de Dorian Gray.",
+        "variantes": [
+          "Oscar Fingal O'Fflahertie Wills Wilde"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Perto do Coração Selvagem foi publicado em dezembro de 1943, seu romance de estreia. O enunciado não nomeia a autora e exige reconhecê-la.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a figura dá para responder: romance indianista de 1865 é Iracema. A figura virou enfeite. A pergunta passa a pedir o reconhecimento do retratado.",
+      "reescrita": {
+        "pergunta": "Quem é este romancista brasileiro do Romantismo?",
+        "resposta": "José de Alencar"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Escritor alemão, 1774 e romance epistolar levam a Werther sem olhar a figura. A pergunta passa a pedir o reconhecimento do retratado.",
+      "reescrita": {
+        "pergunta": "Quem é este escritor alemão do Classicismo de Weimar?",
+        "resposta": "Johann Wolfgang von Goethe"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento. Os distratores são poetas brasileiras e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Poeta paraibano com livro de 1912 quase entrega a resposta sem a figura. Reescrita usa pista mais ampla, com o fato de ele ter publicado um só livro em vida, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Este poeta brasileiro do início do século vinte publicou em vida um único livro. Qual é o título dele?",
+        "resposta": "Eu"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de identidade simples. A pista não entrega o nome e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As Flores do Mal é de Baudelaire. Os distratores são obras de Hugo, Verlaine e Rimbaud, nenhum de Baudelaire, e todos têm até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento, com distratores críveis, todos romancistas franceses do século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'escritora', só Poirot é de uma autora entre as opções, então dá para responder sem a figura. Os distratores novos são detetives de outras autoras inglesas, para a figura ser necessária.",
+      "reescrita": {
+        "pergunta": "Qual destes detetives foi criado por esta escritora?",
+        "resposta": "Hercule Poirot",
+        "distratores": [
+          "Lord Peter Wimsey",
+          "Albert Campion",
+          "Adam Dalgliesh"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado cita Os Crimes da Rua Morgue, e isso entrega Dupin sem a figura. Reescrita tira o título e mantém o ano de estreia do detetive, 1841.",
+      "reescrita": {
+        "pergunta": "Qual detetive criado por este escritor americano estreou em 1841?",
+        "resposta": "Auguste Dupin"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Escritor irlandês com romance de 1890 leva a Dorian Gray sem a figura. A pergunta passa a pedir o reconhecimento do retratado.",
+      "reescrita": {
+        "pergunta": "Quem é este escritor irlandês da era vitoriana?",
+        "resposta": "Oscar Wilde"
+      }
+    }
+  ]
+}

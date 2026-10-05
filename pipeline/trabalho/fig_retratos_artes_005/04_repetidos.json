@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta escritora estreou em 1943 com qual romance?",
+        "resposta": "Perto do Coração Selvagem"
+      },
+      "existentes": [
+        {
+          "id": "q02902",
+          "pergunta": "Em 1966, Clarice Lispector sofreu queimaduras graves, sobretudo na mão direita, num incêndio em seu quarto. O que o provocou?",
+          "resposta": "Dormiu com um cigarro aceso"
+        },
+        {
+          "id": "q02903",
+          "pergunta": "Clarice Lispector chegou ao Brasil ainda bebê, com a família fugindo de perseguições. Em que país ela nasceu?",
+          "resposta": "Ucrânia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destes detetives foi criado por esta escritora?",
+        "resposta": "Hercule Poirot"
+      },
+      "existentes": [
+        {
+          "id": "q04377",
+          "pergunta": "Trabalhando na farmácia de um hospital durante a Primeira Guerra, Agatha Christie aprendeu muito sobre o quê, arma frequente em seus crimes?",
+          "resposta": "Venenos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é este escritor irlandês da era vitoriana?",
+        "resposta": "Oscar Wilde"
+      },
+      "existentes": [
+        {
+          "id": "q02945",
+          "pergunta": "Em 1895, no auge da fama, Oscar Wilde foi condenado a dois anos de trabalhos forçados. Por qual motivo?",
+          "resposta": "Relações homossexuais"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estreia literária em 1943 é fato diferente de incêndio de 1966 e país de nascimento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Detetive criado pela autora é fato diferente do aprendizado sobre venenos na farmácia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identidade do escritor é fato diferente da condenação de 1895."
+    }
+  ]
+}
