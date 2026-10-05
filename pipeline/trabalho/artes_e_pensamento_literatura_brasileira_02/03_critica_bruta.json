@@ -1,0 +1,409 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, enunciado preciso, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Autoria correta; a assinatura 'Um Brasileiro' é documentada e a fonte confirma a publicação anônima em folhetim.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas uma das fontes é inexistente; mantém só a página do poeta.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que poeta romântico escreveu os versos: Oh, que saudades que tenho da aurora da minha vida, da minha infância querida, que os anos não trazem mais?",
+        "resposta": "Casimiro de Abreu",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Casimiro_de_Abreu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (1928, Revista de Antropofagia), mas a fonte do poema é inexistente; mantém só a página do poeta.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Publicado em 1928 na Revista de Antropofagia, o poema que repete que havia uma pedra no meio do caminho é de que poeta mineiro?",
+        "resposta": "Carlos Drummond de Andrade",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Todas as afirmações sustentadas pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria e acidente de 1979 confirmados; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Irmãos Campos e Pignatari confirmados pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conceito criado por Conceição Evaristo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criação em 1980 por Ziraldo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peça de Dias Gomes e Palma de Ouro 1962 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canudos confirmado como tema do livro.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaguaí confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pirâmides do Egito confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macabéa é alagoana, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (São Luís), mas uma fonte é inexistente; mantém a de Vieira.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em 1654, em que cidade brasileira o padre Antônio Vieira pregou o famoso Sermão de Santo Antônio aos Peixes?",
+        "resposta": "São Luís",
+        "distratores": [
+          "Salvador",
+          "Olinda",
+          "Belém"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Vieira"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iperoig (atual Ubatuba) e poema na areia confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cordisburgo, Gruta do Maquiné e museu confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itabira confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilhéus e década de 1920 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escrito em Buenos Aires em 1975, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Severino segue o Capibaribe até o Recife; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicada em 1817, século dezenove, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte do livro é página de desambiguação e a resposta está confusa; troca a fonte e simplifica para o ano.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Graciliano Ramos passou onze meses preso sem julgamento a partir de 1936. Em que ano foi publicado seu relato, Memórias do Cárcere?",
+        "resposta": "1953",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Graciliano_Ramos"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "1844 contra 1857, 1865 e 1875; ordem inequívoca.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Broquéis é de 1893.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Livro e morte de Clarice em 1977 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Posse em 16 e morte em 19 de novembro de 1967.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado em 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herança condicionada a cuidar do cachorro Quincas Borba.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Réplica do Petit Trianon confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alcunha confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A resposta 'Marquesa de Rabicó' repete o nome do enunciado (vazamento); a resposta passa a ser só o título.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Ao se casar com o leitão Rabicó, a boneca Emília, do Sítio do Picapau Amarelo, ganhou que título de nobreza?",
+        "resposta": "Marquesa",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Reina%C3%A7%C3%B5es_de_Narizinho",
+          "https://pt.wikipedia.org/wiki/S%C3%ADtio_do_Picapau_Amarelo"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Urutu-Branco confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (13/5/1881 e 13/5/1888), mas a fonte de Lima Barreto é desambiguação; troca pela página do escritor.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O escritor Lima Barreto, neto de escravizados, nasceu num treze de maio. Sete anos depois, nessa mesma data, que lei foi assinada?",
+        "resposta": "Lei Áurea",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Lima_Barreto_(escritor)",
+          "https://pt.wikipedia.org/wiki/Lei_%C3%81urea"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jeca Tatuzinho no Almanaque Fontoura confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casada 56 anos com Jorge Amado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baseado em Os Sertões, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parceria com Raul Seixas confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Promessa da mãe confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "808 exemplares queimados em Salvador em 1937.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pílula falante do Doutor Caramujo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prisão pela carta sobre o petróleo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vadinho confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baleia confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três partes confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarenta cadeiras confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro livro aos 75 anos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correspondente de O Estado de S. Paulo confirmado.",
+      "reescrita": null
+    }
+  ]
+}
