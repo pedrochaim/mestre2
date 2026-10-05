@@ -1,0 +1,75 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este palácio?",
+        "resposta": "Lhasa"
+      },
+      "existentes": [
+        {
+          "id": "q05553",
+          "pergunta": "Construído no alto de uma colina, o Palácio de Potala, antiga residência dos dalai-lamas, fica em que cidade?",
+          "resposta": "Lhasa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este antigo palácio imperial?",
+        "resposta": "Pequim"
+      },
+      "existentes": [
+        {
+          "id": "q03882",
+          "pergunta": "Em que século começou a construção deste complexo de palácios imperiais?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q05434",
+          "pergunta": "Erguida em Pequim no início do século quinze, a Cidade Proibida foi construída durante qual dinastia chinesa?",
+          "resposta": "Dinastia Ming"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que monumento pré-histórico de pedra é este?",
+        "resposta": "Stonehenge"
+      },
+      "existentes": [
+        {
+          "id": "q00381",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Stonehenge"
+        },
+        {
+          "id": "q03114",
+          "pergunta": "As chamadas pedras azuis de Stonehenge, as menores do monumento, foram trazidas de colinas de que região do Reino Unido?",
+          "resposta": "País de Gales"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05553",
+      "motivo": "Ambas perguntam a cidade do Palácio de Potala; resposta Lhasa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A cidade (Pequim) não é perguntada nas existentes; século e dinastia são fatos diferentes. A pergunta q05434 apenas cita Pequim no enunciado, mas não a pergunta."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00381",
+      "motivo": "Ambas pedem a identificação do monumento como Stonehenge."
+    }
+  ]
+}

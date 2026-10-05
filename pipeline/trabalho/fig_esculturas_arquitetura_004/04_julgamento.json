@@ -1,0 +1,622 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio de Potala",
+        "descricao": "Complexo palaciano em Lhasa, no Tibete, antiga residência de inverno dos dalai-lamas.",
+        "variantes": [
+          "Potala",
+          "Palácio Potala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "cartao_postal",
+          "nome": "Cartão-postal",
+          "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+          "variantes": [
+            "Postal",
+            "Postcard"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "ottawa",
+          "nome": "Ottawa",
+          "descricao": "Capital do Canadá, na província de Ontário.",
+          "variantes": [
+            "Otava"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cidade Proibida",
+        "descricao": "Complexo do palácio imperial chinês em Pequim, residência dos imperadores Ming e Qing.",
+        "variantes": [
+          "Palácio Imperial de Pequim",
+          "Museu do Palácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cidade_proibida",
+          "nome": "Cidade Proibida",
+          "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+          "variantes": [
+            "Palácio Imperial de Pequim",
+            "Forbidden City",
+            "Museu do Palácio"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        },
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Prambanan",
+        "descricao": "Complexo de templos hindus do século nove perto de Yogyakarta, em Java, Indonésia.",
+        "variantes": [
+          "Candi Prambanan",
+          "Rara Jonggrang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "srinivasa_ramanujan",
+          "nome": "Srinivasa Ramanujan",
+          "descricao": "Matemático indiano do início do século vinte, autodidata, com contribuições à teoria dos números e às séries infinitas.",
+          "variantes": [
+            "Srinivasa Ramanujan Iyengar",
+            "Ramanujan"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        },
+        {
+          "id": "banana_cavendish",
+          "nome": "Banana Cavendish",
+          "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+          "variantes": [
+            "Banana-nanica",
+            "Cavendish banana"
+          ]
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "pre_cambriano",
+          "nome": "Pré-Cambriano",
+          "descricao": "Intervalo do tempo geológico que vai da formação da Terra até o início do período Cambriano.",
+          "variantes": [
+            "Precambrian",
+            "Pré-Câmbrico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Laocoonte e seus filhos",
+        "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+        "variantes": [
+          "Grupo de Laocoonte",
+          "Laocoonte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lacoste",
+          "nome": "Lacoste",
+          "descricao": "Marca francesa de roupas fundada em 1933 pelo tenista René Lacoste, famosa pela camisa polo.",
+          "variantes": [
+            "La Chemise Lacoste"
+          ]
+        },
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        },
+        {
+          "id": "toxodonte",
+          "nome": "Toxodonte",
+          "descricao": "Gênero extinto de grande ungulado notoungulado da América do Sul, do Plioceno ao Pleistoceno.",
+          "variantes": [
+            "Toxodon"
+          ]
+        },
+        {
+          "id": "danone",
+          "nome": "Danone",
+          "descricao": "Empresa de alimentos e laticínios fundada por Isaac Carasso em 1919, hoje sediada na França.",
+          "variantes": [
+            "Groupe Danone",
+            "Dannon"
+          ]
+        },
+        {
+          "id": "marcos_pontes",
+          "nome": "Marcos Pontes",
+          "descricao": "Astronauta, engenheiro e piloto brasileiro, primeiro brasileiro a ir ao espaço, em 2006.",
+          "variantes": [
+            "Marcos Cesar Pontes",
+            "Tenente-coronel Pontes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "A Porta do Inferno",
+        "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+        "variantes": [
+          "La Porte de l'Enfer",
+          "The Gates of Hell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        },
+        {
+          "id": "auto_da_barca_do_inferno",
+          "nome": "Auto da Barca do Inferno",
+          "descricao": "Peça teatral portuguesa do início do século dezesseis em que almas são julgadas antes de embarcar.",
+          "variantes": []
+        },
+        {
+          "id": "a_torre_de_babel_bruegel",
+          "nome": "A Torre de Babel (Bruegel)",
+          "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+          "variantes": [
+            "Grande Torre de Babel",
+            "The Tower of Babel",
+            "Torre de Babel de Viena"
+          ]
+        },
+        {
+          "id": "wayne_gretzky",
+          "nome": "Wayne Gretzky",
+          "descricao": "Jogador canadense de hóquei no gelo, apelidado de The Great One.",
+          "variantes": [
+            "The Great One"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Petra (Al-Khazneh)",
+        "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+        "variantes": [
+          "Al-Khazneh",
+          "O Tesouro",
+          "Petra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1994",
+          "nome": "Copa do Mundo FIFA de 1994",
+          "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título.",
+          "variantes": [
+            "Copa de 1994",
+            "Tetra"
+          ]
+        },
+        {
+          "id": "opera",
+          "nome": "Ópera",
+          "descricao": "Gênero de teatro inteiramente cantado, com orquestra, surgido na Itália.",
+          "variantes": []
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle"
+          ]
+        },
+        {
+          "id": "politereftalato_de_etileno",
+          "nome": "Politereftalato de etileno",
+          "descricao": "Plástico conhecido pela sigla PET, usado em garrafas de refrigerante e reciclado em fibras têxteis.",
+          "variantes": [
+            "PET",
+            "Polietileno tereftalato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Memorial de Lincoln",
+        "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "bateria_de_ion_litio",
+          "nome": "Bateria de íon-lítio",
+          "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
+          "variantes": [
+            "Bateria de lítio",
+            "Bateria de íons de lítio"
+          ]
+        },
+        {
+          "id": "marmores_de_elgin",
+          "nome": "Mármores de Elgin",
+          "descricao": "Esculturas do Partenon retiradas de Atenas por Lord Elgin no início do século dezenove.",
+          "variantes": [
+            "Elgin Marbles",
+            "Mármores do Partenon"
+          ]
+        },
+        {
+          "id": "abraham_lincoln",
+          "nome": "Abraham Lincoln",
+          "descricao": "16º presidente dos Estados Unidos, que governou durante a Guerra Civil Americana e foi assassinado em 1865.",
+          "variantes": [
+            "Lincoln"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Burj Khalifa",
+        "descricao": "Arranha-céu megaalto de Dubai, nos Emirados Árabes Unidos, a estrutura mais alta do mundo.",
+        "variantes": [
+          "Burj Dubai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dubai",
+          "nome": "Dubai",
+          "descricao": "Cidade mais populosa dos Emirados Árabes Unidos, onde fica o Burj Khalifa.",
+          "variantes": []
+        },
+        {
+          "id": "pajuba",
+          "nome": "Pajubá",
+          "descricao": "Linguagem popular da comunidade LGBT brasileira, com muitas palavras de origem africana",
+          "variantes": [
+            "Bajubá"
+          ]
+        },
+        {
+          "id": "bucefalo",
+          "nome": "Bucéfalo",
+          "descricao": "Cavalo de guerra de Alexandre, o Grande.",
+          "variantes": [
+            "Bucephalus",
+            "Boukephalas"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico de pedras em pé e lintéis na planície de Salisbury, Inglaterra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "stonehenge",
+          "nome": "Stonehenge",
+          "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra.",
+          "variantes": []
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Fushimi Inari-taisha",
+        "descricao": "Santuário xintoísta principal da divindade Inari, em Fushimi, Kyoto, famoso pelos milhares de torii.",
+        "variantes": [
+          "Santuário Fushimi Inari",
+          "Fushimi Inari"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shinai",
+          "nome": "Shinai",
+          "descricao": "Espada de treino e competição usada no kendô, a esgrima japonesa.",
+          "variantes": [
+            "Espada de bambu do kendô"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial e sede administrativa do monarca do Reino Unido, em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "papado_de_avignon",
+          "nome": "Papado de Avignon",
+          "descricao": "Período em que os papas residiram em Avignon, no sul da França, em vez de Roma",
+          "variantes": [
+            "Papado de Avinhão",
+            "Cativeiro de Avignon"
+          ]
+        },
+        {
+          "id": "cloreto_de_sodio",
+          "nome": "Cloreto de sódio",
+          "descricao": "Composto formado por sódio e cloro, principal componente do sal de cozinha.",
+          "variantes": [
+            "Sal de cozinha",
+            "Sodium chloride"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_potala",
+      "motivo": "Mesmo palácio no Tibete, residência dos dalai-lamas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cidade_proibida",
+      "motivo": "Mesmo complexo imperial de Pequim."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Prambanan."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura de Laocoonte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A obra de Rodin não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Al-Khazneh é um monumento dentro da cidade de Petra, que é entidade distinta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O memorial é diferente de Abraham Lincoln e das demais candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O Burj Khalifa é um edifício, diferente da cidade de Dubai."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "stonehenge",
+      "motivo": "Mesmo monumento pré-histórico inglês."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "É outro santuário, diferente do Santuário de Ise."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio de Buckingham."
+    }
+  ]
+}

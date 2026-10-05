@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Palácio de Potala reconhecível, sem texto, pessoas pequenas ao fundo.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este palácio, antiga residência dos dalai-lamas?",
+      "resposta": "Lhasa",
+      "distratores": [
+        "Katmandu",
+        "Thimphu",
+        "Xigazê"
+      ],
+      "ancora": {
+        "nome": "Palácio de Potala",
+        "descricao": "Complexo palaciano em Lhasa, no Tibete, antiga residência de inverno dos dalai-lamas.",
+        "variantes": [
+          "Potala",
+          "Palácio Potala"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Salão da Harmonia Suprema da Cidade Proibida, claro; multidão pequena, sem rostos identificáveis.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este antigo palácio imperial?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xi'an",
+        "Nanquim",
+        "Xangai"
+      ],
+      "ancora": {
+        "nome": "Cidade Proibida",
+        "descricao": "Complexo do palácio imperial chinês em Pequim, residência dos imperadores Ming e Qing.",
+        "variantes": [
+          "Palácio Imperial de Pequim",
+          "Museu do Palácio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Torres características de Prambanan, nítidas, sem texto ou pessoas.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a religião a que se dedica este complexo de templos na ilha de Java?",
+      "resposta": "Hinduísmo",
+      "distratores": [
+        "Budismo",
+        "Islamismo",
+        "Taoísmo"
+      ],
+      "ancora": {
+        "nome": "Prambanan",
+        "descricao": "Complexo de templos hindus do século nove perto de Yogyakarta, em Java, Indonésia.",
+        "variantes": [
+          "Candi Prambanan",
+          "Rara Jonggrang"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caaba emblemática e inequívoca; multidão de peregrinos anônima e ao fundo do assunto principal; sem legendas.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Para os muçulmanos, que nome tem a direção de oração determinada por esta construção?",
+      "resposta": "Qibla",
+      "distratores": [],
+      "ancora": {
+        "nome": "Caaba",
+        "descricao": "Construção cúbica no centro da Grande Mesquita de Meca, o local mais sagrado do Islã.",
+        "variantes": [
+          "Kaaba",
+          "Kaaba de Meca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Grupo de Laocoonte nítido e reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu está exposta esta escultura da Antiguidade?",
+      "resposta": "Museus do Vaticano",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu Britânico",
+        "Galeria Uffizi"
+      ],
+      "ancora": {
+        "nome": "Laocoonte e seus filhos",
+        "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+        "variantes": [
+          "Grupo de Laocoonte",
+          "Laocoonte"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A Porta do Inferno de Rodin bem visível, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que obra literária do século quatorze inspirou esta porta de bronze?",
+      "resposta": "A Divina Comédia",
+      "distratores": [],
+      "ancora": {
+        "nome": "A Porta do Inferno",
+        "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+        "variantes": [
+          "La Porte de l'Enfer",
+          "The Gates of Hell"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Al-Khazneh em Petra, fachada inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta construção talhada na rocha?",
+      "resposta": "Jordânia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Petra (Al-Khazneh)",
+        "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+        "variantes": [
+          "Al-Khazneh",
+          "O Tesouro",
+          "Petra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do Memorial de Lincoln, templo neoclássico; sem texto legível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico tem este edifício?",
+      "resposta": "Neoclássico",
+      "distratores": [
+        "Barroco",
+        "Gótico",
+        "Art déco"
+      ],
+      "ancora": {
+        "nome": "Memorial de Lincoln",
+        "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Skyline de Dubai com o Burj Khalifa dominante e reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o arranha-céu mais alto desta foto?",
+      "resposta": "Dubai",
+      "distratores": [],
+      "ancora": {
+        "nome": "Burj Khalifa",
+        "descricao": "Arranha-céu megaalto de Dubai, nos Emirados Árabes Unidos, a estrutura mais alta do mundo.",
+        "variantes": [
+          "Burj Dubai"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Stonehenge nítido, com lintéis, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monumento pré-histórico de pedra é este?",
+      "resposta": "Stonehenge",
+      "distratores": [
+        "Círculo de Avebury",
+        "Alinhamentos de Carnac",
+        "Callanish"
+      ],
+      "ancora": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico de pedras em pé e lintéis na planície de Salisbury, Inglaterra.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Salão do santuário com estátuas de raposas, reconhecível; letreiros em japonês pequenos, sem entregar a resposta.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que animal, tido como mensageiro da divindade deste santuário japonês, aparece nas estátuas desta foto?",
+      "resposta": "Raposa (kitsune)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Fushimi Inari-taisha",
+        "descricao": "Santuário xintoísta principal da divindade Inari, em Fushimi, Kyoto, famoso pelos milhares de torii.",
+        "variantes": [
+          "Santuário Fushimi Inari",
+          "Fushimi Inari"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada do Palácio de Buckingham com o Memorial Vitória, nítida e reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que palácio é este?",
+      "resposta": "Palácio de Buckingham",
+      "distratores": [],
+      "ancora": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial e sede administrativa do monarca do Reino Unido, em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ]
+      }
+    }
+  ]
+}

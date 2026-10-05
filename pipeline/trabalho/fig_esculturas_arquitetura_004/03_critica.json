@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dalai-lamas entrega o Potala e, por consequência, Lhasa sem olhar a figura. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este palácio?",
+        "resposta": "Lhasa",
+        "distratores": [
+          "Katmandu",
+          "Thimphu",
+          "Xigazê"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é verdadeira e não entrega a resposta, e os distratores são críveis. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura, templos em Java podem ser budistas ou hindus, então a imagem é necessária. O fato está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta define qibla como a direção de oração, então se responde sem a figura. Ela vira enfeite e não tem conserto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A escultura está nos Museus do Vaticano. Os distratores são museus críveis, e o Louvre só a abrigou por um tempo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Divina Comédia é do século quatorze e inspirou a obra, conforme os trechos. A pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, e o fato está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o estilo neoclássico, e os distratores são de estilos distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é correta e direta, e Dubai está confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o reconhecimento sem vazar a resposta, e os distratores são monumentos pré-históricos parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não há confirmação de que estátuas de raposa apareçam na foto, já que mostra fala dos torii. O enunciado fica verdadeiro para o santuário em geral.",
+      "reescrita": {
+        "pergunta": "Que animal é tido como mensageiro da divindade deste santuário japonês?",
+        "resposta": "Raposa (kitsune)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 de reconhecimento, sem pista no enunciado.",
+      "reescrita": null
+    }
+  ]
+}
