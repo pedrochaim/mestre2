@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Resposta não é única: os trechos dizem que a alpargata/espadrille tem origem tanto na Espanha quanto na França. Também é tradicional na Argentina e no Uruguai, mas essa pergunta pede um país europeu. Um jogador que responda França teria resposta defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que \"este homem\" veste a peça, mas `mostra` só descreve a peça e não confirma que a foto mostra um homem vestindo-a. Troquei por \"esta peça\" para o enunciado valer para qualquer foto. A resposta e os distratores continuam corretos e de outras regiões.",
+      "reescrita": {
+        "pergunta": "Que peça de roupa masculina tradicional dos Bálcãs é esta?",
+        "resposta": "Fustanela",
+        "distratores": [
+          "Dhoti",
+          "Sarongue",
+          "Hakama"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não vaza a resposta. Os distratores são objetos de papelaria plausíveis e nenhum deles também descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, direta, sem vazamento e com resposta única. O modelo de alavancas continua sendo um saca-rolhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O traje de luces é a roupa dos toureiros espanhóis na arena, o que sustenta a resposta Tourada. O enunciado não revela a resposta, e sem a figura não dá para saber de que traje se trata.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o bule serve para preparar e servir chá. \"Costuma\" cobre o uso eventual com outras bebidas, e a pergunta não nomeia o objeto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o metrônomo é ajustado em batidas por minuto (bpm). O enunciado não nomeia o aparelho, e a resposta é única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a roca de fiar produz fio a partir de fibras. O enunciado não vaza a resposta e é curto, adequado para voz.",
+      "reescrita": null
+    }
+  ]
+}

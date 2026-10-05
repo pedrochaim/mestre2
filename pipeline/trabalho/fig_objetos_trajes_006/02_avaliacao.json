@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, não uma foto; ilustração só vale para o que não pode ser fotografado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de um par de alpargatas.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Este calçado de verão, de sola de corda, é tradicional de que país europeu?",
+      "resposta": "Espanha",
+      "ancora": {
+        "nome": "Alpargata",
+        "descricao": "Calçado leve com sola de corda de esparto e parte superior de tecido, típico da Espanha.",
+        "variantes": [
+          "Espadrille",
+          "Alpercata"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Litografia histórica nítida de um homem com a saia plissada branca, sem texto que entregue a resposta (só a assinatura do artista).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que peça de roupa masculina tradicional dos Bálcãs este homem veste da cintura para baixo?",
+      "resposta": "Fustanela",
+      "distratores": [
+        "Dhoti",
+        "Sarongue",
+        "Hakama"
+      ],
+      "ancora": {
+        "nome": "Fustanela",
+        "descricao": "Saia plissada masculina tradicional dos Bálcãs, ligada à Albânia e à Grécia.",
+        "variantes": [
+          "Fustanella"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do objeto; o texto visível é só marca e origem, sem entregar a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto de papelaria é este?",
+      "resposta": "Apontador",
+      "distratores": [
+        "Borracha",
+        "Grampeador",
+        "Cortador de papel"
+      ],
+      "ancora": {
+        "nome": "Apontador",
+        "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+        "variantes": [
+          "Apontador de lápis",
+          "Apara-lápis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É um retrato pintado em que o rosto domina; a guirlanda vermelha de penas é um detalhe ambíguo e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de grupo com pessoas comuns em primeiro plano, numa biblioteca."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara de um saca-rolhas de alavancas, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que utensílio é este?",
+      "resposta": "Saca-rolhas",
+      "ancora": {
+        "nome": "Saca-rolhas",
+        "descricao": "Utensílio com espiral metálica para tirar rolhas de garrafas, aqui no modelo de alavancas.",
+        "variantes": [
+          "Abridor de vinho",
+          "Corkscrew"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco de figura pública vestida de toureiro, com o traje bem visível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Em que espetáculo espanhol se usa este traje?",
+      "resposta": "Tourada",
+      "ancora": {
+        "nome": "Traje de luces",
+        "descricao": "Traje bordado com fios de ouro ou prata usado pelos toureiros espanhóis na arena.",
+        "variantes": [
+          "Traje de luzes",
+          "Roupa de toureiro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O tecido de faixas coloridas pode ser confundido com outros tecidos africanos (aso oke, tecidos ewe de outros países); a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de um bule decorado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que bebida quente costuma ser preparada neste recipiente?",
+      "resposta": "Chá",
+      "ancora": {
+        "nome": "Bule",
+        "descricao": "Recipiente com tampa, alça e bico para preparar e servir chá.",
+        "variantes": [
+          "Bule de chá"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto clara de um metrônomo de pirâmide com o pêndulo em movimento; a marca é minúscula e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que unidade se ajusta a velocidade deste aparelho?",
+      "resposta": "Batidas por minuto",
+      "ancora": {
+        "nome": "Metrônomo",
+        "descricao": "Aparelho que marca o andamento da música com cliques regulares, aqui o modelo mecânico de pêndulo em pirâmide.",
+        "variantes": [
+          "Metronome"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo branco, de uma roca de fiar com roda, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "O que se produz com este equipamento?",
+      "resposta": "Fio",
+      "ancora": {
+        "nome": "Roca de fiar",
+        "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+        "variantes": [
+          "Roda de fiar",
+          "Roca",
+          "Spinning wheel"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fustanela",
+        "descricao": "Saia plissada masculina tradicional dos Bálcãs, ligada à Albânia e à Grécia.",
+        "variantes": [
+          "Fustanella"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nutella",
+          "nome": "Nutella",
+          "descricao": "Creme de avelã com cacau da empresa italiana Ferrero, lançado em 1964.",
+          "variantes": []
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "mucarela",
+          "nome": "Muçarela",
+          "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+          "variantes": [
+            "Mozzarella",
+            "Mussarela"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Apontador",
+        "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+        "variantes": [
+          "Apontador de lápis",
+          "Apara-lápis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para_raios",
+          "nome": "Para-raios",
+          "descricao": "Haste metálica ligada à terra que protege construções conduzindo a descarga dos raios.",
+          "variantes": [
+            "Lightning rod"
+          ]
+        },
+        {
+          "id": "para_elisa",
+          "nome": "Para Elisa",
+          "descricao": "Peça para piano de Ludwig van Beethoven, a Bagatela em lá menor, publicada postumamente em 1867.",
+          "variantes": [
+            "Für Elise",
+            "Bagatela em lá menor"
+          ]
+        },
+        {
+          "id": "fibonacci",
+          "nome": "Fibonacci",
+          "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+          "variantes": [
+            "Leonardo de Pisa",
+            "Leonardo Fibonacci",
+            "Leonardo Pisano"
+          ]
+        },
+        {
+          "id": "tangara",
+          "nome": "Tangará",
+          "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+          "variantes": [
+            "Tesourinha-da-mata",
+            "Dançador",
+            "Chiroxiphia caudata"
+          ]
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Saca-rolhas",
+        "descricao": "Utensílio com espiral metálica para tirar rolhas de garrafas, aqui no modelo de alavancas.",
+        "variantes": [
+          "Abridor de vinho",
+          "Corkscrew"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papado_de_avignon",
+          "nome": "Papado de Avignon",
+          "descricao": "Período em que os papas residiram em Avignon, no sul da França, em vez de Roma",
+          "variantes": [
+            "Papado de Avinhão",
+            "Cativeiro de Avignon"
+          ]
+        },
+        {
+          "id": "corsega",
+          "nome": "Córsega",
+          "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+          "variantes": [
+            "Corse",
+            "Corsica"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Traje de luces",
+        "descricao": "Traje bordado com fios de ouro ou prata usado pelos toureiros espanhóis na arena.",
+        "variantes": [
+          "Traje de luzes",
+          "Roupa de toureiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sabre_de_luz",
+          "nome": "Sabre de luz",
+          "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars.",
+          "variantes": [
+            "Lightsaber"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bule",
+        "descricao": "Recipiente com tampa, alça e bico para preparar e servir chá.",
+        "variantes": [
+          "Bule de chá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        },
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica"
+          ]
+        },
+        {
+          "id": "james_prescott_joule",
+          "nome": "James Prescott Joule",
+          "descricao": "Físico inglês (1818–1889) que estudou a relação entre calor e trabalho e dá nome à unidade de energia.",
+          "variantes": [
+            "Joule"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Metrônomo",
+        "descricao": "Aparelho que marca o andamento da música com cliques regulares, aqui o modelo mecânico de pêndulo em pirâmide.",
+        "variantes": [
+          "Metronome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "half_dome",
+          "nome": "Half Dome",
+          "descricao": "Domo de granito na extremidade leste do Vale de Yosemite, na Califórnia.",
+          "variantes": [
+            "Meio Domo"
+          ]
+        },
+        {
+          "id": "dimetrodonte",
+          "nome": "Dimetrodonte",
+          "descricao": "Gênero extinto de sinapsídeo do Permiano, com grande vela dorsal, não é dinossauro.",
+          "variantes": [
+            "Dimetrodon"
+          ]
+        },
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        },
+        {
+          "id": "metano",
+          "nome": "Metano",
+          "descricao": "Gás inflamável formado por um carbono e quatro hidrogênios, principal componente do gás natural.",
+          "variantes": [
+            "Methane",
+            "CH4"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Roca de fiar",
+        "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+        "variantes": [
+          "Roda de fiar",
+          "Roca",
+          "Spinning wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sinfonia_heroica",
+          "nome": "Sinfonia Heroica",
+          "descricao": "Terceira Sinfonia de Ludwig van Beethoven, de 1804, originalmente ligada a Napoleão.",
+          "variantes": [
+            "Sinfonia nº 3 de Beethoven",
+            "Eroica",
+            "Sinfonia n.º 3 de Beethoven",
+            "Terceira Sinfonia"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca",
+            "Killer whale"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fustanela; apenas nomes parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o apontador de lápis."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Saca-rolhas não está entre as candidatas; abridor de latas é outro utensílio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o traje de luces."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um bule."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o metrônomo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a roca de fiar."
+    }
+  ]
+}

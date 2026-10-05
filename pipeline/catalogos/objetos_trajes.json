@@ -362,7 +362,7 @@
       "titulo": "en:Cowboy hat",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mochila",
@@ -495,7 +495,7 @@
       "titulo": "en:Kente cloth",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Thobe",
@@ -558,6 +558,286 @@
       "titulo": "en:Trilby",
       "camada": 3,
       "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bule",
+      "titulo": "en:Teapot",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cadeado",
+      "titulo": "en:Padlock",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Martelo",
+      "titulo": "en:Hammer",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chave de fenda",
+      "titulo": "en:Screwdriver",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apontador",
+      "titulo": "en:Pencil sharpener",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lupa",
+      "titulo": "en:Magnifying glass",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Regador",
+      "titulo": "en:Watering can",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabide",
+      "titulo": "en:Clothes hanger",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saca-rolhas",
+      "titulo": "en:Corkscrew",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Desentupidor",
+      "titulo": "en:Plunger",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alicate",
+      "titulo": "en:Pliers",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luva",
+      "titulo": "en:Glove",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachecol",
+      "titulo": "en:Scarf",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Samovar",
+      "titulo": "en:Samovar",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cafeteira italiana (moka)",
+      "titulo": "en:Moka pot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Prensa francesa",
+      "titulo": "en:French press",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Narguilé",
+      "titulo": "en:Hookah",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Metrônomo",
+      "titulo": "en:Metronome",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Dedal",
+      "titulo": "en:Thimble",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abotoadura",
+      "titulo": "en:Cufflink",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tiara",
+      "titulo": "en:Tiara",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Alpargata",
+      "titulo": "en:Espadrille",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Colar havaiano (lei)",
+      "titulo": "en:Lei (garland)",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sarongue",
+      "titulo": "en:Sarong",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Traje de luces",
+      "titulo": "en:Traje de luces",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Hijab",
+      "titulo": "en:Hijab",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fustanela",
+      "titulo": "en:Fustanella",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Kokoshnik",
+      "titulo": "en:Kokoshnik",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Barong tagalog",
+      "titulo": "en:Barong tagalog",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Gákti",
+      "titulo": "en:Gákti",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Djellaba",
+      "titulo": "en:Djellaba",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Xale de Manila",
+      "titulo": "en:Manila shawl",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabi",
+      "titulo": "en:Tabi",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Obi",
+      "titulo": "en:Obi (sash)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gravata bolo",
+      "titulo": "en:Bolo tie",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Calçadeira",
+      "titulo": "en:Shoehorn",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roca de fiar",
+      "titulo": "en:Spinning wheel",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Escarradeira",
+      "titulo": "en:Spittoon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tábua de lavar roupa",
+      "titulo": "en:Washboard (laundry)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tajine",
+      "titulo": "en:Tajine",
+      "camada": 3,
+      "destino": 2,
       "status": "nova"
     }
   ]
