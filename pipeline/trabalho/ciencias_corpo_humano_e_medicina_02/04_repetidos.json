@@ -1,0 +1,218 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Num adulto, as hemácias, que dão cor ao sangue, são fabricadas principalmente em que parte do corpo?",
+        "resposta": "Medula óssea vermelha"
+      },
+      "existentes": [
+        {
+          "id": "q01863",
+          "pergunta": "Que tipo de célula é esta?",
+          "resposta": "Hemácia (glóbulo vermelho)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1977, o último caso de varíola transmitida naturalmente no mundo foi registrado em qual país africano?",
+        "resposta": "Somália"
+      },
+      "existentes": [
+        {
+          "id": "q00651",
+          "pergunta": "Depois de uma campanha mundial de vacinação, em que ano a Organização Mundial da Saúde declarou a varíola erradicada do planeta?",
+          "resposta": "1980"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+        "resposta": "Século quatorze"
+      },
+      "existentes": [
+        {
+          "id": "q00101",
+          "pergunta": "No século quatorze, a peste negra matou milhões de europeus. Que inseto, parasita de ratos, é apontado como principal transmissor da bactéria causadora?",
+          "resposta": "Pulga"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O Rio de Janeiro foi palco da Revolta da Vacina, um motim contra a vacinação obrigatória contra a varíola. Isso aconteceu em que ano?",
+        "resposta": "1904"
+      },
+      "existentes": [
+        {
+          "id": "q00152",
+          "pergunta": "Em 1904, o Rio de Janeiro viveu dias de conflito contra a vacinação obrigatória. A vacina era contra qual doença?",
+          "resposta": "Varíola"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Descoberta em 1928, a penicilina só passou a ser produzida em grande escala durante qual conflito mundial?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q00635",
+          "pergunta": "Um bolor que contaminou placas de bactérias esquecidas levou qual cientista escocês, em 1928, à descoberta da penicilina?",
+          "resposta": "Alexander Fleming"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A gripe espanhola, uma das pandemias mais mortais da história, espalhou-se pelo mundo no final de qual guerra?",
+        "resposta": "Primeira Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q04360",
+          "pergunta": "Por que a pandemia de 1918 ficou conhecida como gripe espanhola?",
+          "resposta": "A imprensa espanhola noticiava sem censura"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que jovem francês, cego desde os três anos de idade, criou aos quinze um sistema de leitura em relevo usado por cegos do mundo todo?",
+        "resposta": "Louis Braille"
+      },
+      "existentes": [
+        {
+          "id": "q04506",
+          "pergunta": "Em 1824, que jovem francês, cego desde a infância, criou um sistema de leitura e escrita com pontos em relevo?",
+          "resposta": "Louis Braille"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Mais da metade do volume do sangue é formada por uma parte líquida e amarelada. Como ela se chama?",
+        "resposta": "Plasma"
+      },
+      "existentes": [
+        {
+          "id": "q00620",
+          "pergunta": "A cor vermelha do sangue vem de uma proteína que contém ferro e transporta oxigênio. Qual é essa proteína?",
+          "resposta": "Hemoglobina"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A parte colorida dos olhos tem o nome de qual deusa grega, mensageira dos deuses, que surgia no céu como uma faixa de cores?",
+        "resposta": "Íris"
+      },
+      "existentes": [
+        {
+          "id": "q04106",
+          "pergunta": "Que estrutura do olho aparece em destaque nesta foto de perto?",
+          "resposta": "Íris"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Que químico inglês, famoso pela teoria atômica, descreveu a própria dificuldade de distinguir cores, condição que acabou ganhando o nome dele?",
+        "resposta": "John Dalton"
+      },
+      "existentes": [
+        {
+          "id": "q00623",
+          "pergunta": "Por que o tipo mais comum de daltonismo é muito mais frequente em homens do que em mulheres?",
+          "resposta": "Gene no cromossomo X"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O Instituto Butantan foi criado em São Paulo, na virada para o século vinte, para produzir soro contra qual doença que chegara pelo porto de Santos?",
+        "resposta": "Peste bubônica"
+      },
+      "existentes": [
+        {
+          "id": "q04609",
+          "pergunta": "Que médico mineiro, pioneiro dos soros contra picada de cobra, foi o primeiro diretor do Instituto Butantan, em São Paulo?",
+          "resposta": "Vital Brazil"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Local de produção das hemácias é fato diferente da identificação da célula."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País do último caso natural difere do ano da erradicação declarada."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século da peste negra difere do inseto transmissor; o século aparece como contexto na existente, mas a resposta pedida é outra e quem soubesse o inseto não necessariamente saberia o século."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "A existente já informa o ano 1904 no enunciado e pergunta a doença; a nova informa a varíola e pergunta o ano. Mesmo fato: a Revolta da Vacina em 1904 contra a vacina da varíola.",
+      "id_existente": "q00152"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Produção em larga escala na Segunda Guerra difere de quem descobriu a penicilina."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Guerra ao fim da qual se espalhou difere do motivo do nome espanhola."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam Louis Braille com a mesma descrição.",
+      "id_existente": "q04506"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Plasma difere da hemoglobina."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta a íris como parte colorida/estrutura do olho; o fato é o nome da estrutura.",
+      "id_existente": "q04106"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Origem do nome daltonismo difere da causa genética maior frequência em homens."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Doença para a qual se produzia soro difere do primeiro diretor do instituto."
+    }
+  ]
+}

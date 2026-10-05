@@ -1,0 +1,1084 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Hipócrates",
+        "descricao": "Médico grego da Antiguidade (c. 460–370 a.C.), considerado o pai da medicina.",
+        "variantes": [
+          "Hipócrates de Cós",
+          "Hippocrates"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hip%C3%B3crates",
+          "https://en.wikipedia.org/wiki/Hippocrates"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Considerado o pai da medicina, o grego Hipócrates nasceu em qual ilha do mar Egeu?",
+      "resposta": "Cós",
+      "distratores": [
+        "Creta",
+        "Rodes",
+        "Samos"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Hip%C3%B3crates",
+        "https://en.wikipedia.org/wiki/Hippocrates"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Faculdade de Medicina da Bahia",
+        "descricao": "Escola médica de Salvador criada em 1808 como Escola de Cirurgia da Bahia, a primeira do Brasil.",
+        "variantes": [
+          "Escola de Cirurgia da Bahia",
+          "Faculdade de Medicina da UFBA"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Faculdade_de_Medicina_da_Bahia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Criada em 1808, logo após a chegada da corte portuguesa, a primeira escola de medicina do Brasil fica em qual cidade?",
+      "resposta": "Salvador",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Faculdade_de_Medicina_da_Bahia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Louise Brown",
+        "descricao": "Britânica nascida em 1978, a primeira pessoa concebida por fertilização in vitro.",
+        "variantes": [
+          "Louise Joy Brown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louise_Brown"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1978, Louise Brown, o primeiro bebê de proveta do mundo, nasceu em qual país?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Estados Unidos",
+        "Austrália",
+        "França"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louise_Brown"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Galeno",
+        "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+        "variantes": [
+          "Cláudio Galeno",
+          "Galen",
+          "Galeno de Pérgamo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Galeno",
+          "https://en.wikipedia.org/wiki/Galen"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Galeno, médico de gladiadores e de imperadores romanos, nasceu em Pérgamo, cidade antiga que hoje fica em qual país?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Grécia",
+        "Itália",
+        "Egito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galen",
+        "https://en.wikipedia.org/wiki/Pergamon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hemacia",
+        "nome": "Hemácia",
+        "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+        "variantes": [
+          "Eritrócito",
+          "Glóbulo vermelho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_blood_cell"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Num adulto, as hemácias, que dão cor ao sangue, são fabricadas principalmente em que parte do corpo?",
+      "resposta": "Medula óssea vermelha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_blood_cell",
+        "https://en.wikipedia.org/wiki/Bone_marrow"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Osso hioide",
+        "descricao": "Osso em forma de U que sustenta a língua e não se articula com nenhum outro osso.",
+        "variantes": [
+          "Hioide",
+          "Hyoid bone"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hyoid_bone"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O hioide, um osso em forma de ferradura que não se articula com nenhum outro osso, fica em que parte do corpo?",
+      "resposta": "Pescoço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hyoid_bone"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "variola",
+        "nome": "Varíola",
+        "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+        "variantes": [
+          "Smallpox"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Smallpox"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1977, o último caso de varíola transmitida naturalmente no mundo foi registrado em qual país africano?",
+      "resposta": "Somália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ali_Maow_Maalin",
+        "https://en.wikipedia.org/wiki/Smallpox"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ebola",
+        "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano.",
+        "variantes": [
+          "Vírus ebola",
+          "Ebolavírus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ebola"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1976, o vírus ebola recebeu o nome de um rio do país africano então chamado Zaire. Como esse país se chama hoje?",
+      "resposta": "República Democrática do Congo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ebola_River",
+        "https://en.wikipedia.org/wiki/Ebola"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pomo de adão",
+        "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+        "variantes": [
+          "Gogó",
+          "Proeminência laríngea",
+          "Adam's apple"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adam%27s_apple"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A saliência no pescoço chamada pomo de adão fica em qual órgão, o mesmo que abriga as cordas vocais?",
+      "resposta": "Laringe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adam%27s_apple"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Insulina",
+        "descricao": "Hormônio que regula o nível de açúcar no sangue, isolado em 1921 e usado no tratamento do diabetes.",
+        "variantes": [
+          "Insulin"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Insulina",
+          "https://en.wikipedia.org/wiki/Insulin"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O hormônio insulina, que controla o açúcar no sangue, é produzido por qual órgão?",
+      "resposta": "Pâncreas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Insulina",
+        "https://en.wikipedia.org/wiki/Insulin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peste negra",
+        "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o norte da África em meados do século quatorze.",
+        "variantes": [
+          "Grande Peste",
+          "Black Death"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Peste_negra",
+          "https://en.wikipedia.org/wiki/Black_Death"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+      "resposta": "Século quatorze",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Peste_negra",
+        "https://en.wikipedia.org/wiki/Black_Death"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema Único de Saúde",
+        "descricao": "Sistema público de saúde do Brasil, previsto na Constituição de 1988.",
+        "variantes": [
+          "SUS"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Sa%C3%BAde"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Sistema Único de Saúde, o SUS, foi criado pela Constituição brasileira promulgada em que ano?",
+      "resposta": "1988",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Sa%C3%BAde"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Trepanação",
+        "descricao": "Prática de abrir um orifício no crânio de uma pessoa viva, conhecida desde a Pré-História.",
+        "variantes": [
+          "Trepanning",
+          "Trefinação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trepanning"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Crânios com furos feitos de propósito, e que depois cicatrizaram, mostram que a trepanação já era praticada em qual período da Pré-História?",
+      "resposta": "Neolítico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trepanning"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ana Néri",
+        "descricao": "Enfermeira baiana do século dezenove, considerada a patrona da enfermagem no Brasil.",
+        "variantes": [
+          "Anna Nery",
+          "Ana Justina Ferreira Néri"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A baiana Ana Néri, patrona da enfermagem brasileira, cuidou de soldados feridos durante qual guerra do século dezenove?",
+      "resposta": "Guerra do Paraguai",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Organização Mundial da Saúde",
+        "descricao": "Agência das Nações Unidas para a saúde pública, com sede em Genebra.",
+        "variantes": [
+          "OMS",
+          "World Health Organization",
+          "WHO"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde",
+          "https://en.wikipedia.org/wiki/World_Health_Organization"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Dia Mundial da Saúde, sete de abril, lembra a criação da Organização Mundial da Saúde. Ela surgiu em que ano?",
+      "resposta": "1948",
+      "distratores": [
+        "1919",
+        "1945",
+        "1960"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/World_Health_Organization",
+        "https://en.wikipedia.org/wiki/World_Health_Day"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Revolta da Vacina",
+        "descricao": "Motim popular no Rio de Janeiro contra a vacinação obrigatória contra a varíola.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Revolta_da_Vacina"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Rio de Janeiro foi palco da Revolta da Vacina, um motim contra a vacinação obrigatória contra a varíola. Isso aconteceu em que ano?",
+      "resposta": "1904",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Revolta_da_Vacina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Santa Casa de Misericórdia de Santos",
+        "descricao": "Hospital fundado por Brás Cubas em Santos, considerado o primeiro hospital do Brasil.",
+        "variantes": [
+          "Santa Casa de Santos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Santa_Casa_de_Miseric%C3%B3rdia_de_Santos"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Fundada por Brás Cubas, a Santa Casa de Santos é considerada o primeiro hospital do Brasil. Ela foi fundada em que século?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século dezessete",
+        "Século dezoito",
+        "Século dezenove"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Santa_Casa_de_Miseric%C3%B3rdia_de_Santos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Cânone da Medicina",
+        "descricao": "Enciclopédia médica escrita pelo persa Avicena, usada por séculos nas universidades da Europa e do mundo islâmico.",
+        "variantes": [
+          "Cânone de Avicena",
+          "The Canon of Medicine",
+          "Al-Qanun fi al-Tibb"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Canon_of_Medicine"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Cânone da Medicina, do sábio persa Avicena, foi ensinado nas universidades europeias por séculos. Ele foi concluído em qual século?",
+      "resposta": "Século onze",
+      "distratores": [
+        "Século nove",
+        "Século treze",
+        "Século dezesseis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Canon_of_Medicine",
+        "https://pt.wikipedia.org/wiki/Avicena"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "penicilina",
+        "nome": "Penicilina",
+        "descricao": "Primeiro antibiótico amplamente usado, obtido de fungos do gênero Penicillium.",
+        "variantes": [
+          "Penicillin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penicillin"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Descoberta em 1928, a penicilina só passou a ser produzida em grande escala durante qual conflito mundial?",
+      "resposta": "Segunda Guerra Mundial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_penicillin",
+        "https://pt.wikipedia.org/wiki/Penicilina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gripe espanhola",
+        "descricao": "Pandemia de gripe causada por um vírus influenza que se espalhou pelo mundo entre 1918 e 1920.",
+        "variantes": [
+          "Pandemia de gripe de 1918",
+          "Spanish flu"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gripe_espanhola",
+          "https://en.wikipedia.org/wiki/Spanish_flu"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A gripe espanhola, uma das pandemias mais mortais da história, espalhou-se pelo mundo no final de qual guerra?",
+      "resposta": "Primeira Guerra Mundial",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gripe_espanhola",
+        "https://en.wikipedia.org/wiki/Spanish_flu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "",
+        "nome": "Insulina",
+        "descricao": "Hormônio que regula o nível de açúcar no sangue, isolado em 1921 e usado no tratamento do diabetes.",
+        "variantes": [
+          "Insulin"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Insulina",
+          "https://en.wikipedia.org/wiki/Insulin"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1921, na Universidade de Toronto, qual dupla de pesquisadores isolou a insulina, mudando para sempre o tratamento do diabetes?",
+      "resposta": "Frederick Banting e Charles Best",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Insulin",
+        "https://en.wikipedia.org/wiki/Frederick_Banting"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "De humani corporis fabrica",
+        "descricao": "Tratado ilustrado de anatomia humana publicado por Andreas Vesalius em 1543.",
+        "variantes": [
+          "Sobre a estrutura do corpo humano",
+          "Fabrica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1543, qual anatomista flamengo publicou um grande tratado ilustrado do corpo humano, corrigindo erros que vinham de Galeno?",
+      "resposta": "Andreas Vesalius",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica",
+        "https://pt.wikipedia.org/wiki/Andreas_Vesalius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Primeiro transplante de coração no Brasil",
+        "descricao": "Transplante cardíaco realizado em maio de 1968 no Hospital das Clínicas de São Paulo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Euryclides_de_Jesus_Zerbini"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em maio de 1968, no Hospital das Clínicas de São Paulo, qual cirurgião realizou o primeiro transplante de coração do Brasil?",
+      "resposta": "Euryclides de Jesus Zerbini",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Euryclides_de_Jesus_Zerbini"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Antissepsia cirúrgica",
+        "descricao": "Uso de substâncias que matam micróbios em feridas, mãos e instrumentos para evitar infecções em cirurgias.",
+        "variantes": [
+          "Cirurgia antisséptica",
+          "Antisepsis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antiseptic",
+          "https://en.wikipedia.org/wiki/Joseph_Lister"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na década de 1860, qual cirurgião britânico passou a desinfetar feridas e instrumentos com ácido fênico, reduzindo muito as mortes por infecção?",
+      "resposta": "Joseph Lister",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joseph_Lister",
+        "https://pt.wikipedia.org/wiki/Joseph_Lister"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Museu de Imagens do Inconsciente",
+        "descricao": "Museu no Rio de Janeiro, criado em 1952, que reúne obras feitas por pacientes psiquiátricos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Museu_de_Imagens_do_Inconsciente"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que psiquiatra alagoana, contrária ao eletrochoque, usou a pintura no tratamento de pacientes e fundou no Rio o Museu de Imagens do Inconsciente?",
+      "resposta": "Nise da Silveira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Museu_de_Imagens_do_Inconsciente",
+        "https://pt.wikipedia.org/wiki/Nise_da_Silveira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vacina oral contra a poliomielite",
+        "descricao": "Vacina de vírus atenuado contra a pólio, aplicada em gotas, desenvolvida por Albert Sabin.",
+        "variantes": [
+          "Vacina Sabin",
+          "VOP",
+          "Gotinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polio_vaccine",
+          "https://pt.wikipedia.org/wiki/Albert_Sabin"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A vacina oral contra a poliomielite, aplicada em gotinhas nas campanhas brasileiras, foi criada por qual médico?",
+      "resposta": "Albert Sabin",
+      "distratores": [
+        "Jonas Salk",
+        "Edward Jenner",
+        "Louis Pasteur"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Albert_Sabin",
+        "https://en.wikipedia.org/wiki/Polio_vaccine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "HIV",
+        "descricao": "Vírus da imunodeficiência humana, causador da aids, identificado em 1983.",
+        "variantes": [
+          "Vírus da imunodeficiência humana",
+          "Vírus da aids"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/HIV"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1983, pesquisadores de qual instituto de Paris, que leva o nome de um célebre cientista francês, identificaram o vírus causador da aids?",
+      "resposta": "Instituto Pasteur",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/HIV",
+        "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Barr%C3%A9-Sinoussi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Helicobacter pylori",
+        "descricao": "Bactéria que vive no estômago humano e causa gastrite e úlceras.",
+        "variantes": [
+          "H. pylori"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helicobacter_pylori"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Para provar que uma bactéria causa doenças do estômago como a úlcera, qual médico australiano bebeu uma cultura dela, em 1984?",
+      "resposta": "Barry Marshall",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barry_Marshall",
+        "https://en.wikipedia.org/wiki/Helicobacter_pylori"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema braille",
+        "descricao": "Sistema de escrita em pontos em relevo, lido pelo tato por pessoas cegas.",
+        "variantes": [
+          "Braille",
+          "Braile"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Braille",
+          "https://en.wikipedia.org/wiki/Braille"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que jovem francês, cego desde os três anos de idade, criou aos quinze um sistema de leitura em relevo usado por cegos do mundo todo?",
+      "resposta": "Louis Braille",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Braille",
+        "https://en.wikipedia.org/wiki/Braille"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cruz Vermelha",
+        "descricao": "Movimento humanitário internacional criado em 1863 em Genebra para socorrer feridos de guerra.",
+        "variantes": [
+          "Comitê Internacional da Cruz Vermelha",
+          "Red Cross"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Chocado com os feridos abandonados após a Batalha de Solferino, qual empresário idealizou a criação da Cruz Vermelha e ganhou o primeiro Nobel da Paz?",
+      "resposta": "Henry Dunant",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_Dunant",
+        "https://pt.wikipedia.org/wiki/Henry_Dunant"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cruz Vermelha",
+        "descricao": "Movimento humanitário internacional criado em 1863 em Genebra para socorrer feridos de guerra.",
+        "variantes": [
+          "Comitê Internacional da Cruz Vermelha",
+          "Red Cross"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O símbolo da Cruz Vermelha, uma cruz vermelha sobre fundo branco, é a bandeira de qual país com as cores invertidas?",
+      "resposta": "Suíça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emblems_of_the_International_Red_Cross_and_Red_Crescent_Movement"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quinina",
+        "descricao": "Substância extraída da casca da quina, usada por séculos no tratamento da malária.",
+        "variantes": [
+          "Quinine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quinine",
+          "https://en.wikipedia.org/wiki/Tonic_water"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que substância, usada por séculos contra a malária, é a responsável pelo gosto amargo da água tônica?",
+      "resposta": "Quinina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tonic_water",
+        "https://en.wikipedia.org/wiki/Quinine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "figado",
+        "nome": "Fígado",
+        "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liver"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia grega, Prometeu foi castigado com uma águia que devorava todo dia um órgão seu, que se regenerava durante a noite. Que órgão era esse?",
+      "resposta": "Fígado",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Prometeu",
+        "https://en.wikipedia.org/wiki/Prometheus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Transfusão de sangue",
+        "descricao": "Transferência de sangue ou de componentes do sangue de um doador para um receptor.",
+        "variantes": [
+          "Transfusão sanguínea",
+          "Blood transfusion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood_transfusion"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1667, na França, uma das primeiras transfusões de sangue feitas num ser humano usou o sangue de qual animal?",
+      "resposta": "Carneiro (cordeiro)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jean-Baptiste_Denis",
+        "https://en.wikipedia.org/wiki/Blood_transfusion"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sangue",
+        "nome": "Sangue",
+        "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Mais da metade do volume do sangue é formada por uma parte líquida e amarelada. Como ela se chama?",
+      "resposta": "Plasma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blood_plasma",
+        "https://en.wikipedia.org/wiki/Blood"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Coração humano",
+        "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+        "variantes": [
+          "Coração"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cora%C3%A7%C3%A3o",
+          "https://en.wikipedia.org/wiki/Heart"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O coração humano tem quatro cavidades. Duas são os átrios. Como se chamam as outras duas?",
+      "resposta": "Ventrículos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Heart",
+        "https://pt.wikipedia.org/wiki/Cora%C3%A7%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vértebras cervicais",
+        "descricao": "Vértebras que formam a coluna na região do pescoço.",
+        "variantes": [
+          "Coluna cervical",
+          "Cervical vertebrae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cervical_vertebrae"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Apesar da enorme diferença de tamanho, humanos e girafas têm o mesmo número de vértebras no pescoço. Quantas são?",
+      "resposta": "Sete",
+      "distratores": [
+        "Cinco",
+        "Nove",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cervical_vertebrae",
+        "https://en.wikipedia.org/wiki/Giraffe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dentes de leite",
+        "descricao": "Primeira dentição humana, que cai na infância e é substituída pelos dentes permanentes.",
+        "variantes": [
+          "Dentição decídua",
+          "Dentes decíduos",
+          "Deciduous teeth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deciduous_teeth"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Uma criança com a dentição de leite completa tem quantos dentes na boca?",
+      "resposta": "20",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deciduous_teeth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vacina BCG",
+        "descricao": "Vacina contra a tuberculose desenvolvida por Albert Calmette e Camille Guérin no início do século vinte.",
+        "variantes": [
+          "BCG",
+          "Bacilo de Calmette-Guérin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/BCG_vaccine"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A sigla BCG, da vacina contra a tuberculose, homenageia a dupla de cientistas franceses que a desenvolveu. Quem são eles?",
+      "resposta": "Albert Calmette e Camille Guérin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/BCG_vaccine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vitamina",
+        "descricao": "Nutriente orgânico necessário em pequenas quantidades para o funcionamento do organismo.",
+        "variantes": [
+          "Vitamin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vitamin"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1912, o bioquímico Casimir Funk criou a palavra vitamina juntando vita, vida em latim, com o nome de qual tipo de substância química?",
+      "resposta": "Amina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Casimir_Funk",
+        "https://en.wikipedia.org/wiki/Vitamin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hanseníase",
+        "descricao": "Doença infecciosa crônica causada pela bactéria Mycobacterium leprae, antes chamada de lepra.",
+        "variantes": [
+          "Lepra",
+          "Mal de Hansen",
+          "Leprosy"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hansen%C3%ADase",
+          "https://en.wikipedia.org/wiki/Leprosy"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Brasil, a lepra passou a se chamar hanseníase em homenagem ao médico que identificou seu bacilo. De que país ele era?",
+      "resposta": "Noruega",
+      "distratores": [
+        "Suécia",
+        "Dinamarca",
+        "Alemanha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gerhard_Armauer_Hansen",
+        "https://pt.wikipedia.org/wiki/Hansen%C3%ADase"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "iris",
+        "nome": "Íris",
+        "descricao": "Estrutura em forma de anel do olho que controla o tamanho da pupila e define a cor dos olhos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iris_(anatomy)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A parte colorida dos olhos tem o nome de qual deusa grega, mensageira dos deuses, que surgia no céu como uma faixa de cores?",
+      "resposta": "Íris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iris_(anatomy)",
+        "https://en.wikipedia.org/wiki/Iris_(mythology)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "daltonismo",
+        "nome": "Daltonismo",
+        "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+        "variantes": [
+          "Discromatopsia",
+          "Color blindness"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Daltonismo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que químico inglês, famoso pela teoria atômica, descreveu a própria dificuldade de distinguir cores, condição que acabou ganhando o nome dele?",
+      "resposta": "John Dalton",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Daltonismo",
+        "https://en.wikipedia.org/wiki/John_Dalton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rodrigues Alves",
+        "descricao": "Político paulista, presidente do Brasil de 1902 a 1906, reeleito em 1918 mas morto antes da posse.",
+        "variantes": [
+          "Francisco de Paula Rodrigues Alves"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rodrigues_Alves"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Eleito para um segundo mandato, o presidente Rodrigues Alves morreu em 1919 sem tomar posse. Ele foi vítima de qual pandemia?",
+      "resposta": "Gripe espanhola",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rodrigues_Alves"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Febre puerperal",
+        "descricao": "Infecção que acomete mulheres após o parto, grande causa de mortes maternas nos hospitais do século dezenove.",
+        "variantes": [
+          "Infecção puerperal",
+          "Puerperal fever"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Postpartum_infections"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na década de 1840, em Viena, Ignaz Semmelweis percebeu que muitas mães morriam de febre após o parto porque os médicos deixavam de fazer o quê?",
+      "resposta": "Lavar as mãos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+        "https://pt.wikipedia.org/wiki/Ignaz_Semmelweis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Instituto Butantan",
+        "descricao": "Centro de pesquisa biomédica e produtor de soros e vacinas em São Paulo, criado no início do século vinte.",
+        "variantes": [
+          "Butantan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Instituto_Butantan"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Instituto Butantan foi criado em São Paulo, na virada para o século vinte, para produzir soro contra qual doença que chegara pelo porto de Santos?",
+      "resposta": "Peste bubônica",
+      "distratores": [
+        "Febre amarela",
+        "Varíola",
+        "Cólera"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Instituto_Butantan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Surto de cólera da Broad Street",
+        "descricao": "Epidemia de cólera em Londres, em 1854, investigada pelo médico John Snow.",
+        "variantes": [
+          "Epidemia de cólera de Londres de 1854",
+          "1854 Broad Street cholera outbreak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1854, em Londres, o médico John Snow marcou num mapa as mortes por cólera e descobriu de onde vinha a doença. Qual era a origem?",
+      "resposta": "Uma bomba d'água contaminada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+        "https://en.wikipedia.org/wiki/John_Snow"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tétano",
+        "descricao": "Doença causada pela toxina da bactéria Clostridium tetani, que provoca espasmos musculares.",
+        "variantes": [
+          "Tetanus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/T%C3%A9tano",
+          "https://en.wikipedia.org/wiki/Tetanus"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Muita gente culpa a ferrugem dos pregos, mas o tétano é causado por uma bactéria que costuma viver onde?",
+      "resposta": "No solo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tetanus",
+        "https://en.wikipedia.org/wiki/Clostridium_tetani"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Joseph-Ignace Guillotin",
+        "descricao": "Francês do século dezoito cujo nome foi dado à guilhotina, após ele propor um método de execução menos cruel.",
+        "variantes": [
+          "Joseph Guillotin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O francês Joseph-Ignace Guillotin, cujo nome acabou batizando a guilhotina, exercia qual profissão?",
+      "resposta": "Médico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+        "https://pt.wikipedia.org/wiki/Joseph-Ignace_Guillotin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bastão de Asclépio",
+        "descricao": "Bastão com uma única serpente enrolada, símbolo tradicional da medicina.",
+        "variantes": [
+          "Bastão de Esculápio",
+          "Rod of Asclepius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rod_of_Asclepius"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O símbolo tradicional da medicina, um bastão com uma única serpente enrolada, pertence a qual deus grego da cura?",
+      "resposta": "Asclépio (Esculápio para os romanos)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rod_of_Asclepius"
+      ]
+    }
+  ]
+}

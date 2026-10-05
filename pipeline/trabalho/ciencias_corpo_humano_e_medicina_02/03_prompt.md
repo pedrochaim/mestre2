@@ -1,0 +1,1778 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Corpo Humano e Medicina** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Hipócrates",
+      "descricao": "Médico grego da Antiguidade (c. 460–370 a.C.), considerado o pai da medicina."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Considerado o pai da medicina, o grego Hipócrates nasceu em qual ilha do mar Egeu?",
+    "resposta": "Cós",
+    "distratores": [
+      "Creta",
+      "Rodes",
+      "Samos"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hip%C3%B3crates",
+      "https://en.wikipedia.org/wiki/Hippocrates"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hip%C3%B3crates",
+        "situacao": "ok",
+        "texto": "Hipócrates (em grego clássico: Ἱπποκράτης, transl. Ippokráti̱s; * 460 a.C. em Cós; † 370 a.C. em Tessália) Também conhecido como Hipócrates II, foi um médico grego. do período clássico que é considerado uma das figuras mais marcantes da história da medicina. É tradicionalmente considerado o pai da Medicina em reconhecimento das suas contribuições duradouras para o domínio, como o uso de prognóstic\n[…]\nNa filosofia prática da medicina atribuída à Hipócrates, e reunida no Corpus Hippocraticum, as doenças, durante um certo tempo, evoluem de forma silenciosa até alcançarem o momento crucial, chamado krisis (crise), momento em que a doença se define, rumo à cura ou não. O bom médico deve identificar o kairós (momento oportuno) de agir. Esse tempo (kairós) não dura muito tempo (khronos) e, portanto, o médico não tem tempo a perder.\n[…]\nOs historiadores concordam que Hipócrates nasceu por volta do ano 460 AC na ilha grega de Kos. Outras informações biográficas, no entanto, provavelmente não são verdadeiras.\n[…]\nAs escolas de medicina da Grécia antiga estavam divididas sobre como as doenças deveriam ser tratadas. Por um lado, a escola Cnidiana concentrava-se no diagnóstico. A medicina da época de Hipócrates não sabia quase nada sobre anatomia e fisiologia humana por causa do tabu grego que proibia a dissecação de humanos. Consequentemente, a escola cnidiana não conseguiu determinar quando uma doença causava um conjunto de possíveis de sintomas.\n[…]\nO conjunto das obras atribuídas a Hipócrates constitui o Corpus hippocraticum (em português, Coleção Hipocrática). Setenta escritos são reconhecidos como constituintes do corpus, entre os quais os seguintes são considerados os mais importantes:\n[…]\n«Hipócrates». no Portal Graecia Antiqua\n[…]\n«A coleção hipocrática». no Portal Graecia Antiqua\n[…]\n[1] - Textos de Hipócrates (em grego e em inglês)\n[…]\nObras de Hipócrates: textos com concordâncias e lista de frequência"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hippocrates",
+        "situacao": "ok",
+        "texto": "Hippocrates of Kos (; Ancient Greek: Ἱπποκράτης ὁ Κῷος, romanized: Hippokrátēs ho Kôios; c. 460 – c. 370 BC), also known as Hippocrates II, named after his grandfather Hippocrates I (also Hippocrates of Kos or Hippocrates I of Kos) was a Greek physician and philosopher of the classical period who is considered one of the most outstanding figures in the history of medicine.\n[…]\nThe Hippocratic Corpus contains textbooks, lectures, research, notes and philosophical essays on various subjects in medicine, in no particular order. These works were written for different audiences, both specialists and laymen, and were sometimes written from opposing viewpoints; significant contradictions can be found between works in the Corpus.\n[…]\nNotable among those who employed Hippocrates's rigorous clinical techniques were Thomas Sydenham, William Heberden, Jean-Martin Charcot and William Osler. Henri Huchard, a French physician, said that these revivals make up \"the whole history of internal medicine.\"\n[…]\nAccording to Aristotle's testimony, Hippocrates was known as \"The Great Hippocrates\". Concerning his disposition, Hippocrates was first portrayed as a \"kind, dignified, old country doctor\" and later as \"stern and forbidding\". He is certainly considered wise, of very great intellect and especially as very practical. Francis Adams describes him as \"strictly the physician of experience and common sense.\"\n[…]\nHis image as the wise, old doctor is reinforced by busts of him, which wear large beards on a wrinkled face. Many physicians of the time wore their hair in the style of Jove and Asklepius. Accordingly, the busts of Hippocrates that have been found could be only altered versions of portraits of these deities. Hippocrates and the beliefs that he embodied are considered medical ideals.\n[…]\nHippocrates Prize for Poetry and Medicine\n[…]\nWorks by Hippocrates at the Corpus Medicorum Graecorum"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Faculdade de Medicina da Bahia",
+      "descricao": "Escola médica de Salvador criada em 1808 como Escola de Cirurgia da Bahia, a primeira do Brasil."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Criada em 1808, logo após a chegada da corte portuguesa, a primeira escola de medicina do Brasil fica em qual cidade?",
+    "resposta": "Salvador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Faculdade_de_Medicina_da_Bahia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Faculdade_de_Medicina_da_Bahia",
+        "situacao": "ok",
+        "texto": "A Faculdade de Medicina da Bahia da Universidade Federal da Bahia (FMB-UFBA) é uma unidade acadêmica  de ensino, pesquisa e extensão universitária da Universidade Federal da Bahia (UFBA) no campo da Medicina. Trata-se de uma das instituições de ensino superior mais antigas da história do Brasil, instituída em 18 de fevereiro de 1808 por influência do médico pernambucano Correia Picanço, nove meses\n[…]\nSua criação deu-se logo após a chegada de Dom João VI ao país (quando da transferência da corte portuguesa), sob o nome de Escola de Cirurgia da Bahia, no lugar do antigo Colégio dos Jesuítas, no Terreiro de Jesus.\n[…]\nA Faculdade de Medicina da Bahia é uma das mais tradicionais instituições de ensino superior do Brasil, fundada por decreto real de Dom João VI, na ocasião de sua visita à Bahia em 22 de janeiro de 1808 durante a transferência da coroa real ao Brasil. Nesse importante ínterim de sua presença em Salvador, o  Cirurgião da Real Câmara, Dr.\n[…]\nA sede-máter da Faculdade de Medicina da Bahia é sítio histórico de sua fundação e operação de 1808 a 1976 e atualmente abriga o colegiado de medicina da Universidade Federal da Bahia (UFBA). Situada no largo do terreiro de jesus, configura o local de uma das primeiras construções coloniais na história do Brasil.\n[…]\nO local teve sua primeira ocupação como o \"Colégio de Jesuítas\". Uma das construções mais antigas do Brasil, osprimeiros indícios do colégio, simples quartos de taipa e palha, nos levam a 1549, tecendo-se íntimamente à fundação da própria cidade de Salvador. As primeiras edificações permantentes, de pedra e cal, poderiam ser encontradas, ao mínimo, em 1561. Já em 1550 e 1551, em cartas ao rei, o padre Manoel da Nóbrega dos Jesuítas relata construção do colégio:\n[…]\nHistória da educação no Brasil\n[…]\nCabral, Dilma (10 de novembro de 2016). «Escola de Cirurgia da Bahia». Memória da Administração Pública Brasileira (MAPA)/Arquivo Nacional"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Louise Brown",
+      "descricao": "Britânica nascida em 1978, a primeira pessoa concebida por fertilização in vitro."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1978, Louise Brown, o primeiro bebê de proveta do mundo, nasceu em qual país?",
+    "resposta": "Inglaterra",
+    "distratores": [
+      "Estados Unidos",
+      "Austrália",
+      "França"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louise_Brown"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Louise_Brown",
+        "situacao": "ok",
+        "texto": "Louise Joy Brown (born 25 July 1978) is an English woman noted as the first human born following conception by in vitro fertilisation (IVF). Her birth, following a procedure pioneered in Britain, has been lauded among \"the most remarkable medical breakthroughs of the 20th century\".\n[…]\nPurdy was the first to see Brown's embryonic cells dividing.\n[…]\nLouise Joy Brown was born on 25 July 1978 at Oldham's General Hospital, via a planned caesarean section performed by John Webster. She weighed 5 pounds, 12 ounces (2.608 kg) at birth. In 1982, Brown's sister Natalie was born after also being conceived through IVF, becoming the world's 40th such live birth; in May 1999, Natalie became the first human conceived by IVF to herself give birth, though she did so without IVF.\n[…]\nBrown's birth has been lauded as one of the \"most remarkable medical breakthroughs of the 20th century\".\n[…]\nIn 2019, Time created 89 new covers to celebrate women of the year starting from 1920; it chose Lesley Brown for 1978.\n[…]\nIn 1978, when asked for his reaction to Brown's birth, Catholic Cardinal Albino Luciani (who was then the Patriarch of Venice and later became Pope John Paul I) expressed concerns about the possibility that artificial insemination could lead to women being used as \"baby factories\" but also noted that the Browns simply wanted to have a baby and refused to condemn them.\n[…]\nBrown, Louise; Powell, Martin (2015). Louise Brown: My Life As the World's First Test-Tube Baby. Wraxall: Bristol Books CIC. ISBN 978-1-909446-08-3. OCLC 1023273709. Bristol Archives Bk/2552.\n[…]\nBBC profile of Louise Brown (July 2003)\n[…]\nThe Lesley Brown Collection, 1970 to circa 2015, at Bristol Archives"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Louise_Brown",
+        "situacao": "ok",
+        "texto": "Louise Joy Brown (Oldham, 25 de julho de 1978) é uma mulher britânica. Ela é o primeiro ser humano concebido in vitro, portanto foi o primeiro bebê de proveta.\n[…]\nOs pais de Louise, Lesley (1947–2012) e John Brown (1941–2006), tentavam ter um filho naturalmente havia nove anos, mas enfrentavam complicações devido a uma obstrução nas trompas de Falópio. Em 10 de novembro de 1977, Lesley passou pelo procedimento para receber uma inseminação artificial que se tornaria conhecido como fertilização in vitro, desenvolvido pelo obstetra Patrick Steptoe, pelo fisiologista Robert Edwards e pela enfermeira e embriologista Jean Marie Purdy.\n[…]\nLouise Joy Brown nasceu de cesariana às 23h47, horário local. Ela tinha um peso de nascimento de 2,608 kg e um comprimento de corpo de 49 cm.\n[…]\nO jornal de massa londrino Daily Mail havia garantido os direitos exclusivos sobre a história de Lesley, e relatou em detalhes o nascimento. Quatro anos depois, Lesley deu à luz Natalie, também por meio de fertilização in vitro; a irmã mais nova de Louise foi o 40.º bebê de proveta.\n[…]\nEm 1978, quando questionado sobre sua reação ao nascimento de Brown, o patriarca de Veneza, Cardeal Albino Luciani (posteriormente Papa João Paulo I), expressou preocupação com a possibilidade de que a inseminação artificial pudesse levar as mulheres a serem usadas como \"fábricas de bebês\", mas também recusou-se a condenar os pais da criança, observando que eles simplesmente queriam ter um filho.\n[…]\nBrown, Louise; Powell, Martin (2015). Louise Brown: My Life As the World's First Test-Tube Baby (em inglês). Wraxall: Bristol Books CIC. ISBN 978-1-909446-08-3. OCLC 1023273709. Bristol Archives Bk/2552",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Galeno",
+      "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Galeno, médico de gladiadores e de imperadores romanos, nasceu em Pérgamo, cidade antiga que hoje fica em qual país?",
+    "resposta": "Turquia",
+    "distratores": [
+      "Grécia",
+      "Itália",
+      "Egito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galen",
+      "https://en.wikipedia.org/wiki/Pergamon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Galen",
+        "situacao": "ok",
+        "texto": "Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as Galen () or Galen of Pergamon, was a Roman and Greek physician, surgeon, and philosopher. Considered to be one of the most accomplished of all medical researchers of antiquity, Galen influenced the development of various scientific disciplines, including anatomy, physiology, pathology, phar\n[…]\nGalen's Greek name Γαληνός (Galēnós) comes from the adjective γαληνός (galēnós) 'calm'. Galen's Latin name (Aelius or Claudius) implies he had Roman citizenship.\n[…]\nIn 157, aged 28, he returned to Pergamon as physician to the gladiators of the High Priest of Asia, one of the most influential and wealthy men in Asia. Galen claims that the High Priest chose him over other physicians after he eviscerated an ape and challenged other physicians to repair the damage. When they refused, Galen performed the surgery himself and in so doing won the favor of the High Priest of Asia.\n[…]\nIn his time, Galen's reputation as both physician and philosopher was legendary, the emperor Marcus Aurelius describing him as \"Primum sane medicorum esse, philosophorum autem solum\" (first among doctors and unique among philosophers Praen 14: 660). Other contemporary authors in the Greek world confirm this including Theodotus the Shoemaker, Athenaeus and Alexander of Aphrodisias. The 7th-century poet George of Pisida went so far as to refer to Christ as a second and neglected Galen.\n[…]\nWorks by Galen Archived 24 October 2020 at the Wayback Machine at the Corpus Medicorum Graecorum with links to digitized editions, manuscripts and modern translations.\n[…]\nNutton V. Galen of Pergamum, Encyclopædia Britannica\n[…]\nClaudii Galeni opera omnia in Medicorum graecorum opera quae exstant, editionem curavit D. Carolus Gottlob Kühn, Lipsiae prostat in officina libraria Car. Cnoblochii, 1821–1833 in 20 volumines."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pergamon",
+        "situacao": "ok",
+        "texto": "Pergamon or Pergamum ( or ; Ancient Greek: Πέργαμον), also referred to by its modern Greek form Pergamos (Πέργαμος), was a rich and powerful ancient Greek city in Aeolis. It is located 26 kilometres (16 mi) from the modern coastline of the Aegean Sea on a promontory on the north side of the river Caicus (modern-day Bakırçay) and northwest of the modern city of Bergama, Turkey.\n[…]\nIn the middle of the 2nd century Pergamon was one of the largest cities in the province, and had around 200,000 inhabitants. Galen, the most famous physician of antiquity aside from Hippocrates, was born at Pergamon and received his early training at the Asclepieion. At the beginning of the 3rd century Caracalla granted the city a third neocorate, but a decline had already set in.\n[…]\nAfter the Sack of Constantinople in 1204 during the Fourth Crusade, Pergamon became part of the Empire of Nicaea. When Emperor Theodore II Laskaris (r. 1254–1285) visited Pergamon in 1250, he was shown the house of Galen, but he saw that the theatre had been destroyed and, except for the walls which he paid some attention to, only the vaults over the Selinus seemed noteworthy to him. The monuments of the Attalids and the Romans were only plundered ruins by this time.\n[…]\nAeschrion of Pergamon (2nd century AD), physician and tutor to Galen.\n[…]\nVolume VIII 2: Max Fränkel (ed.): Die Inschriften von Pergamon  [The Inscriptions of Pergamon] (1895) Digitisation\n[…]\nRosa Valderrama, \"Pergamum\": brief history\n[…]\nPhotographic tour of old and new Pergamon, including the museum\n[…]\nThe Theatre at Pergamon. The Ancient Theatre Archive. Theatre specifications and virtual reality tour of theatre\n[…]\n3D-visualization and photos of Pergamon\n[…]\nDK Fennell (July 8, 2016). \"The Seductive Elegance and Startling Cruelty of Greece's Baroque Age: Power, Pathos and Prestige in Pergamon and Other Hellenistic Kingdoms\". Hidden Cause, Visible Effects."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cl%C3%A1udio_Galeno",
+        "situacao": "ok",
+        "texto": "Cláudio Galeno ou Élio Galeno (em grego, Γαληνός; setembro de 129 – c. 216), mais conhecido como Galeno ou Galeno de Pérgamo, foi um médico, cirurgião e filósofo greco-romano. Sua atividade de investigação médica na Antiguidade abrangeu anatomia, fisiologia, patologia, farmacologia e neurologia, além de filosofia e lógica.\n[…]\nFilho de Nicon, um arquiteto grego abastado e interessado em estudos, Galeno recebeu uma formação ampla para exercer a medicina e a filosofia. Nascido na antiga Pérgamo, atual Bergama, na Turquia, viajou por muitos lugares e conheceu diferentes teorias e descobertas médicas antes de se estabelecer em Roma, onde atendeu membros da sociedade romana e se tornou médico pessoal de imperadores.\n[…]\nMarco Aurélio convocou Galeno de Pérgamo a Aquileia e ordenou que acompanhasse os imperadores como médico da corte. Segundo Galeno, Marco o dispensou depois que ele relatou um sonho no qual Asclépio se opunha à viagem. Galeno ficou como médico do herdeiro, Cômodo, e escreveu numerosos textos médicos durante sua permanência na corte. Lúcio Vero morreu em 169, após deixar Aquileia, e Marco Aurélio em 180. A atribuição de ambas as mortes à epidemia não está estabelecida.\n[…]\nDepois da queda do Império Romano do Ocidente, o estudo de Galeno e de outros autores gregos quase desapareceu no Ocidente latino. No Oriente de língua grega, comentaristas como Oribásio, médico do imperador Juliano, compilaram e divulgaram seus textos. Nutton chamou esses autores de \"refrigeradores médicos da Antiguidade\". Na Antiguidade tardia, a produção médica voltou-se crescentemente à teoria.\n[…]\nHipócrates, médico grego cujos escritos Galeno estudou.\n[…]\nObras de Galeno no Corpus Medicorum Graecorum, com edições, manuscritos e traduções digitalizados (em alemão).\n[…]\n\"Galen of Pergamum\", Encyclopædia Britannica (em inglês).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Hemácia",
+      "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Num adulto, as hemácias, que dão cor ao sangue, são fabricadas principalmente em que parte do corpo?",
+    "resposta": "Medula óssea vermelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_blood_cell",
+      "https://en.wikipedia.org/wiki/Bone_marrow"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_blood_cell",
+        "situacao": "ok",
+        "texto": "Red blood cells (RBCs), referred to as erythrocytes (from Ancient Greek  erythros 'red' and  kytos 'hollow vessel', with -cyte translated as 'cell' in modern usage) in academia and medical publishing, also known as red cells, erythroid cells, and rarely haematids, are the most common type of blood cell and the vertebrate's principal means of delivering oxygen (O2) to the body tissues—via blood flo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bone_marrow",
+        "situacao": "ok",
+        "texto": "Bone marrow is a semi-solid tissue found within the spongy (also known as cancellous) portions of bones. In birds and mammals, bone marrow is the primary site of new blood cell production (or haematopoiesis). It is composed of hematopoietic cells, marrow adipose tissue, and supportive stromal cells. In adult humans, bone marrow is primarily located in the ribs, vertebrae, sternum, and bones of the"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hem%C3%A1cia",
+        "situacao": "ok",
+        "texto": "Hemácias são unidades morfológicas da série vermelha do sangue, também designadas por eritrócitos ou glóbulos vermelhos, que estão presentes no sangue em número de cerca de 4,5 a 6,0 x 106/mm³, em condições normais. São constituídas basicamente por globulina e hemoglobina, e a sua função é transportar o oxigênio (principalmente) e o gás carbônico (CO2) (em menor quantidade) aos tecidos. Os eritróc\n[…]\nA medula óssea é o cerne da eritropoiese que realiza-se pela diferenciação das células-tronco em pro eritroblasto, eritroblasto basófilo, eritroblasto policromático, eritroblasto ortocromático e reticulócito (liberado na circulação). Após o período de um ou dois dias o reticulócito perde o retículo e torna-se um eritrócito.\n[…]\nA cor vermelha se deve à alta concentração da molécula de transporte de oxigênio dentro das células, a hemoglobina.\n[…]\nHá cerca de 5 milhões de eritrócitos em um milímetro cúbico de sangue humano; eles são produzidos numa velocidade de 2 milhões por segundo por um tecido especial que se localiza na medula óssea de quase todos os ossos no recém nascido, e apenas nos ossos axiais em adultos (arcos costais, corpo vertebral, esterno e ílio) o tecido hematopoiético, e as partículas velhas são destruídas e removidas pelo baço liberando bilirrubina.\n[…]\nAs baixas tensões de oxigênio, hipoxia, nas grandes altitudes estimulam maior produção de hemácias para que o transporte de oxigênio seja facilitado. A hipoxia é detectada pelo sistema renal, e este produz a hormona Eritropoetina que estimula a medula óssea a produzir maior número de eritrócitos, consequentemente causando a correção da hipoxia.\n[…]\nAnemia aplástica é causada pela incapacidade da medula óssea de produzir partículas sanguíneas,(a produção de partículas sanguíneas pela medula óssea também pode ser chamada de eritropoiese).\n[…]\nNa policitemia primária o número aumentado de hemácias advém de uma alteração da medula óssea.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Osso hioide",
+      "descricao": "Osso em forma de U que sustenta a língua e não se articula com nenhum outro osso."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O hioide, um osso em forma de ferradura que não se articula com nenhum outro osso, fica em que parte do corpo?",
+    "resposta": "Pescoço",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hyoid_bone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hyoid_bone",
+        "situacao": "ok",
+        "texto": "The hyoid bone ( HY-oyd), also known as the lingual bone or the tongue-bone, is a horseshoe-shaped bone situated in the anterior midline of the neck between the chin and the thyroid cartilage. At rest, it lies between the base of the mandible and the third cervical vertebra.\n[…]\nUnlike other bones, the hyoid is only distantly articulated to other bones by muscles or ligaments. It is the only bone in the human body that is not connected to any other bones. The hyoid is anchored by muscles from the anterior, posterior and inferior directions, and aids in tongue movement and swallowing. The hyoid bone provides attachment to the muscles of the floor of the mouth and the tongue above, the larynx below, and the epiglottis and pharynx behind.\n[…]\nThe body of the hyoid bone is its central section.\n[…]\nThe greater and lesser horns (Latin: cornua) are two sections of bone that project from each side of the hyoid.\n[…]\nA large number of muscles attach to the hyoid:\n[…]\nIn birds, and some reptiles, the body of the hyoid is greatly extended forward, creating a solid bony support for the tongue. The howler monkey Alouatta has a pneumatized hyoid bone, one of the few cases of postcranial pneumatization of bones outside Saurischia.\n[…]\nIn woodpeckers, the hyoid bone is elongated, with the horns wrapping around the back of the skull. This is part of the system that keeps the brain cushioned and undamaged by the pecking action.\n[…]\nIn veterinary anatomy, the term hyoid apparatus is the collective term used to refer to the bones of the tongue—a pair of stylohyoidea, a pair of thyrohyoidea, and unpaired basihyoideum—and associated, upper-gular connective tissues. In humans, the single hyoid bone is an equivalent of the hyoid apparatus.\n[…]\nHyoid bone fracture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Osso_hioide",
+        "situacao": "ok",
+        "texto": "O osso hioide (em latim Os Hyoideum) é um pequeno osso em forma de U que fica na parte anterior do pescoço, abaixo da mandíbula e à frente da porção cervical da coluna vertebral. É a única parte do esqueleto que não se liga diretamente a nenhum outro osso, sendo ligado ao processo estiloide do osso temporal pelos músculos estilo-hioideos e outros ligamentos. É apenas suportado pelos músculos do pe\n[…]\nO hioide não se articula com nenhum outro osso nem da cabeça nem do pescoço. Em vez disso, ele está ligado a diversos músculos do pescoço e cabeça, dentre eles os principais grupos musculares incluem:\n[…]\nMúsculos infra-hioideos (posicionam a laringe e o osso hioide no pescoço)\n[…]\nMúsculos posturais no compartimento muscular do pescoço (posicionam o pescoço e a cabeça).\n[…]\nO osso hioide tem origem embrionária no 2.º arco faríngeo, também denominado de arco hioide que surge no início da 4.ª semana de gestação.\n[…]\nTem a forma de uma ferradura e está suspenso das extremidades dos processos estiloides dos ossos temporais.\n[…]\nEsse osso forma uma lâmina quadrilátera, achatada de frente para trás, alongada transversalmente e apresenta uma concavidade posterior. Dá inserção na sua face anterior aos músculos génio-hioideo, génio-glosso, hio-glosso, milo-hioideo, digástrico e estilo-hioideo; na sua face posterior insere-se o músculo tiro-hioideo.\n[…]\nReconhece-se no osso hioide uma parte média, o corpo, de cujas extremidades laterais partem dois prolongamentos: o grande corno e o pequeno corno.\n[…]\nDão continuidade às extremidades do corpo e terminam por uma estrutura tumefacta , o tubérculo do grande corno.\n[…]\nSão pequenos ossículos ovais que se articulam com o corpo e com o grande corno do osso do hioide, ao nível da linha de união destas duas peças esqueléticas. A sua extremidade superior dá inserção ao ligamento estilo-hioideo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Varíola",
+      "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1977, o último caso de varíola transmitida naturalmente no mundo foi registrado em qual país africano?",
+    "resposta": "Somália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ali_Maow_Maalin",
+      "https://en.wikipedia.org/wiki/Smallpox"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ali_Maow_Maalin",
+        "situacao": "ok",
+        "texto": "Ali Maow Maalin (Somali: Cali Macow Macallin; also Mao Moallim and Mao' Mo'allim; 1954 – 22 July 2013) was a Somali hospital cook and health worker from Merca who is the last person known to have been infected with naturally occurring Variola minor smallpox. The disease was diagnosed in October 1977 and Maalin made a full recovery. Although he had many contacts, none of them developed the disease,\n[…]\nIn August 1977, an outbreak developed in a Somalian nomadic group of twenty families; eight children developed symptoms in August to October. On 12 October 1977, two children with smallpox symptoms were discovered at an encampment near the small inland settlement of Kurtunawarey, around 90 km (60 miles) from Merca. Local officials drove the children to Merca, where there was a nearby isolation camp.\n[…]\nOn 30 October, a nurse colleague reported him, possibly for the reward of 200 Somali shillings (around $35), and Maalin was transferred to the isolation camp. An infection of the Variola minor strain of smallpox was diagnosed, based on his symptoms and later confirmed by laboratory tests. The date of diagnosis is sometimes stated as 26 October 1977. Maalin did not experience complications, and subsequently recovered fully and was discharged in late November.\n[…]\nBy the end of 1975, the virus had been eradicated worldwide except in Ethiopia and Somalia in the Horn of Africa, and their neighbour Kenya. The nomadic people of the Ogaden Desert retained endemic smallpox with an unusually mild form of the disease, which facilitated persistence in the population. From 1975, WHO efforts were concentrated on this region. Ethiopia saw its last case in August 1976 and Kenya in February 1977.\n[…]\nRahima Banu: The last person to contract smallpox from naturally occurring Variola major\n[…]\nTucker, Jonathan B. Scourge: The Once and Future Threat of Smallpox (Grove Press; 2002) (ISBN 0802139396)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Smallpox",
+        "situacao": "ok",
+        "texto": "Smallpox was an infectious disease caused by the variola virus, which belongs to the genus Orthopoxvirus. The last naturally occurring case was diagnosed in October 1977, and the World Health Organization certified the global eradication of the disease in 1980, making smallpox the only human disease to have been eradicated.\n[…]\nA second estimate has placed the separation of variola virus from Taterapox (an Orthopoxvirus of some African rodents including gerbils) at 3,000 to 4,000 years ago. This is consistent with archaeological and historical evidence regarding the appearance of smallpox as a human disease which suggests a relatively recent origin. If the mutation rate is assumed to be similar to that of the herpesviruses, the divergence date of variola virus from Taterapox has been estimated to be 50,000 years ago.\n[…]\nAge distribution of smallpox infections depended on acquired immunity. Vaccination immunity declined over time and was probably lost within thirty years. Smallpox was not known to be transmitted by insects or animals and there was no asymptomatic carrier state. Transmission occurred through inhalation of airborne variola virus, usually droplets expressed from the oral, nasal, or pharyngeal mucosa of an infected person.\n[…]\nThe smallpox vaccine is used to prevent smallpox infection caused by the variola virus. It is the first vaccine to have been developed against a contagious disease. In 1796, British physician Edward Jenner demonstrated that an infection with the relatively mild cowpox virus conferred immunity against the deadly smallpox disease. Cowpox served as a natural vaccine until the modern smallpox vaccine emerged in the 20th century.\n[…]\nIn June 2021, Brincidofovir was approved for medical use in the United States for the treatment of human smallpox disease caused by variola virus."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ali_Maow_Maalin",
+        "situacao": "ok",
+        "texto": "Ali Maow Maalin (também Mao Moallim e Mao' Mo'allim) (1954 – 22 de julho de 2013) foi um somali trabalhador da saúde e cozinheiro de hospital de Merca que é a última pessoa conhecida no mundo de ter sido infectada por Variola minor de ocorrência natural.\n[…]\nEle foi diagnosticado com a doença em outubro de 1977 e recuperou-se totalmente. Apesar de ter tido vários contatos, nenhum deles desenvolveu a doença e uma campanha agressiva de contenção teve sucesso em prevenir um surto.\n[…]\nA varíola foi declarada como erradicada globalmente pela OMS (Organização Mundial da Saúde) dois anos depois. Maalin foi a seguir envolvido na bem-sucedida campanha pela erradicação da poliomielite na Somália, e morreu de malária durante vacinações contra poliomielite, após a reintrodução do vírus em 2013.\n[…]\nA resposta depois ampliou-se, com buscas casa-a-casa mensais através da região, ampliando-se para uma busca através da Somália, completada em dezembro de 1977.\n[…]\nRahima Banu: a última pessoa conhecida de contrarir Variola major de ocorrência natural\n[…]\nJanet Parker: a última pessoa a morrer de varíola, o que ocorreu após ela adquiri-la em um acidente de laboratório\n[…]\nBehbehani, Abbas M. (1983) The smallpox story: life and death of an old disease. Microbiological Reviews 47: 455–509 (pdf)\n[…]\nFenner, Frank, Henderson, Donald A, Arita, Isao et al. Smallpox and its Eradication (World Health Organization; 1988) (ISBN 92 4 156110 6) (pdf)\n[…]\nTucker, Jonathan B. Scourge: The Once and Future Threat of Smallpox (Grove Press; 2002) (ISBN 0802139396)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Ebola",
+      "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1976, o vírus ebola recebeu o nome de um rio do país africano então chamado Zaire. Como esse país se chama hoje?",
+    "resposta": "República Democrática do Congo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ebola_River",
+      "https://en.wikipedia.org/wiki/Ebola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ebola_River",
+        "situacao": "ok",
+        "texto": "The Ebola River ( or ), also commonly known by its Ngbandi name Legbala, is the headstream of the Mongala River, a tributary of the Congo River, in northern Democratic Republic of the Congo. It is roughly 250 kilometers (160 mi) in length.\n[…]\nThe name Ebola is a French corruption of Legbala, its name in Ngbandi which means 'white water'. During the Belgian administration these names were interchangeable along with the French names Eau Blanche and rarely L'Ébola.\n[…]\nIn 1976, Ebola virus was first identified in Yambuku, 111 kilometers (69 mi) from the Ebola River, but the virologist Karl Johnson decided to name it after the river so that the town would not be associated with the disease's stigma. Thus, the river is eponymous to the terms Ebola virus, Ebolavirus, and Ebola virus disease (usually referred to as simply \"Ebola\").\n[…]\nMedia related to Ebola River at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ebola",
+        "situacao": "ok",
+        "texto": "Ebola, also known as Ebola virus disease (EVD) and Ebola hemorrhagic fever (EHF), is a zoonotic viral hemorrhagic fever in humans and other primates, caused by four of the six known ebolaviruses. Symptoms typically start anywhere between two days and three weeks after infection. The first symptoms are usually fever, sore throat, muscle pain, and headaches.\n[…]\nOn 26 August 1976, the second outbreak of EVD began in Yambuku, a small rural village in Mongala District in northern Zaire (now known as the Democratic Republic of the Congo). This outbreak was caused by EBOV, formerly designated Zaire ebolavirus, a different member of the genus Ebolavirus than in the first Sudan outbreak. The first person infected with the disease was the village school's headmaster Mabalo Lokela, who began displaying symptoms on 26 August 1976.\n[…]\nThe second major outbreak occurred in Zaire (now the Democratic Republic of the Congo, DRC), in 1995, affecting 315 and killing 254.\n[…]\nEbola was first identified in 1976, in two simultaneous outbreaks, one in Nzara (a town in South Sudan) and the other in Yambuku (the Democratic Republic of the Congo), a village near the Ebola River, for which the disease was named. Ebola outbreaks occur intermittently in tropical regions of sub-Saharan Africa. Between 1976 and 2012, there were 24 outbreaks of Ebola resulting in a total of 2,387 cases, and 1,590 deaths.\n[…]\nThe largest Ebola outbreak to date was an epidemic in West Africa from December 2013 to January 2016, with 28,646 cases and 11,323 deaths. In March 2016, it was declared to no longer be an emergency. Other outbreaks in Africa began in the Democratic Republic of the Congo in May 2017, and 2018. In July 2019, the World Health Organization declared the Congo Ebola outbreak a world health emergency.\n[…]\nEbola in Nigeria\n[…]\nWestern African Ebola epidemic\n[…]\nEbola virus epidemic in Liberia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Ebola",
+        "situacao": "ok",
+        "texto": "O rio Ebola (português brasileiro) ou Ébola (português europeu) (em francês:  Ebola), ou Legbala, é um rio localizado no norte da República Democrática do Congo, e é considerado como nascente do rio Mongala, um afluente do rio Congo. Tem cerca de 250 km de extensão.\n[…]\nEm 1976, o vírus do Ébola (EBOV) foi identificado pela primeira vez perto do rio, dando-lhe o seu nome. A infecção do EBOV causa a febre hemorrágica Ébola.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Pomo de adão",
+      "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A saliência no pescoço chamada pomo de adão fica em qual órgão, o mesmo que abriga as cordas vocais?",
+    "resposta": "Laringe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adam%27s_apple"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adam%27s_apple",
+        "situacao": "ok",
+        "texto": "The Adam's apple is the protrusion in the neck formed by the angle of the thyroid cartilage surrounding the larynx, typically visible in men and less so in women. The prominence of the Adam's apple increases in most men as a secondary sex characteristic during puberty.\n[…]\nThere is also an additional surgery available, feminization laryngoplasty, also known as \"FemLar\", which can safely reduce the Adam’s Apple to an extent greater than that which can be accomplished by a tracheal shave, given it explicitly operates on the vocal cords within the Adam's apple as opposed to avoiding them.\n[…]\nThe English term \"Adam's apple\" is a calque of Latin pomum Adami, which is found in European medical texts from as early as 1600. \"Adam's Apple\" is found in a 1662 English translation of Thomas Bartholin's 1651 work Anatomia.\n[…]\nThe 1662 citation includes an explanation for the origin of the phrase: a piece of forbidden fruit was supposedly embedded in the throat of Adam, who according to the Abrahamic religions was the first man: the common people have a belief, that by the judgment of God, a part of that fatal Apple, abode sticking in Adams Throat, and is so communicated to his posterity  This etymology is also proposed by Brewer's Dictionary of Phrase and Fable and the 1913 edition of Webster's Dictionary.\n[…]\nLinguist Alexander Gode proposed in 1968 that the Latin phrase pomum Adami (literally: 'Adam's apple') was a mistranslation of the Hebrew \"tappuach ha adam\", meaning \"male bump\". The confusion was supposedly due to the fact that in the Hebrew language the proper name \"Adam\" (אדם) literally means \"man\", and the word for \"apple\", \"tapuach\", is similar to the word \"tafuach\" which means \"swollen\", thus in combination: the swelling of a man."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pomo_de_ad%C3%A3o",
+        "situacao": "ok",
+        "texto": "A proeminência laríngea, popularmente conhecida como pomo de adão, maçã de adão ou gogó, é uma saliência da cartilagem tireóide, existente abaixo do osso hioide, junto à laringe, no pescoço humano, um dos órgãos envolvidos no processo de fala. O seu crescimento é maior nos indivíduos do sexo masculino, pela maior presença de hormônios masculinos, principalmente a testosterona.\n[…]\nA origem do termo estaria na passagem bíblica do pecado original, onde Adão comeu o fruto proibido após Eva e, diz a lenda, que ele teria ficado com o caroço preso na garganta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Insulina",
+      "descricao": "Hormônio que regula o nível de açúcar no sangue, isolado em 1921 e usado no tratamento do diabetes."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O hormônio insulina, que controla o açúcar no sangue, é produzido por qual órgão?",
+    "resposta": "Pâncreas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Insulina",
+      "https://en.wikipedia.org/wiki/Insulin"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Insulina",
+        "situacao": "ok",
+        "texto": "Insulina é uma hormona responsável pela redução da glicemia (taxa de glicose no sangue), ao promover a entrada de glicose nas células. Esta é também essencial no metabolismo de sacarídeos (hidrato de carbono), na síntese de proteínas e no armazenamento de lípidos (gorduras).\n[…]\nBanting sugeriu que tentassem usar pâncreas de feto de bezerro, que ainda não teria desenvolvido glândulas digestivas, e ficou aliviado pelo sucesso da empreitada.\n[…]\nA insulina é sintetizada nos humanos e em outros mamíferos dentro das células-beta das ilhotas de Langerhans, no pâncreas. Um a três milhões de ilhotas de Langerhans formam a parte endócrina do pâncreas, que é principalmente uma glândula exócrina. A parte endócrina totaliza apenas 2% da massa total do órgão. Dentro das ilhotas de Langerhans, as células-beta constituem 60-80% do todo.\n[…]\nPacientes com diabetes mellitus tipo 1 dependem de Insulinoterapia, ou seja da administração de insulina exógena (geralmente por via subcutânea),  para a sua sobrevivência, pois a hormona não é produzida por seu organismo. Também certos pacientes com diabetes tipo 2 podem eventualmente necessitar de insulina se outras medicações não conseguirem controlar os níveis de glicose no sangue de forma adequada.\n[…]\nInicialmente a insulina utilizada por diabéticos era extraída do pâncreas de bois e porcos, por ser parecida com a humana, mas esta insulina podia acarretar problemas, como reações alérgicas, ou não ser eficaz em alguns pacientes. Atualmente a insulina é produzida através da técnica de ADN recombinante, primeiro produto da moderna biotecnologia a ser comercializado mundialmente.\n[…]\nModificação da atividade de inúmeras enzimas (controle alostérico)\n[…]\nResistência à insulina\n[…]\nLista de hormônios humanos\n[…]\nDeutsche Welle - 1921: Descoberta da insulina"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Insulin",
+        "situacao": "ok",
+        "texto": "Insulin ( ; from Latin  insula 'island') is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin (INS) gene. It is the main anabolic hormone of the body. It regulates the metabolism of carbohydrates, fats, and protein by promoting the absorption of glucose from the blood into cells of the liver, fat, and skeletal muscles.\n[…]\nInsulin was the first peptide hormone discovered. Frederick Banting and Charles Best, working in the laboratory of John Macleod at the University of Toronto, were the first to isolate insulin from dog pancreas in 1921. Frederick Sanger sequenced the amino acid structure in 1951, which made insulin the first protein to be fully sequenced. The crystal structure of insulin in the solid state was determined by Dorothy Hodgkin in 1969.\n[…]\nThe name \"insulin\" was coined by Edward Albert Sharpey-Schafer in 1916 for a hypothetical molecule produced by pancreatic islets of Langerhans (Latin insula for islet or island) that controls glucose metabolism. Unbeknown to Sharpey-Schafer, Jean de Meyer had introduced the very similar word \"insuline\" in 1909 for the same molecule.\n[…]\nHans E. Weber discovered preproinsulin while working as a research fellow at the University of California Los Angeles in 1974. In 1973–1974, Weber learned the techniques of how to isolate, purify, and translate messenger RNA. To further investigate insulin, he obtained pancreatic tissues from a slaughterhouse in Los Angeles and then later from animal stock at UCLA.\n[…]\nInsufficient recognition has been given to Paulescu, the distinguished Romanian scientist, who at the time when the Toronto team were commencing their research had already succeeded in extracting the antidiabetic hormone of the pancreas and proving its efficacy in reducing the hyperglycaemia in diabetic dogs."
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Peste negra",
+      "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o norte da África em meados do século quatorze."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+    "resposta": "Século quatorze",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Peste_negra",
+      "https://en.wikipedia.org/wiki/Black_Death"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Peste_negra",
+        "situacao": "ok",
+        "texto": "Peste Negra (também conhecida como Grande Peste, Peste ou Praga) foi uma das pandemias mais devastadoras registadas na história humana, tendo resultado na morte de 25 a 75 milhões de pessoas na Eurásia, atingindo o pico na Europa entre os anos de 1347 e 1351. Acredita-se que a bactéria Yersinia pestis, que resulta em várias formas de peste (septicémica, pneumónica e, a mais comum, bubónica), tenha\n[…]\nconcluiu em 2011 \"que a peste negra na Europa medieval foi causada por uma variante de Y. pestis que pode não existir mais\".\n[…]\nA estimativa de mortalidade mais amplamente aceita para o Oriente Médio durante esse período — incluindo Iraque, Irão e Síria, é de cerca de um terço da população. A Peste Negra matou cerca de 40% da população do Egito. No Cairo, houve dois surtos da peste entre 1430 e 1460, durando um pouco mais que quatro meses em ambos os surtos: no primeiro surto (1430), matou em torno de 90 mil, enquanto que no segundo (1460), cerca de 70 mil pessoas.\n[…]\nEm 1566, estimasse que 25 mil pessoas tenham morrido da peste em Paris. Durante os séculos XVI e XVII, a peste esteve presente em Paris cerca de 30% do tempo. A Peste Negra devastou a Europa por três anos antes de continuar na Rússia, onde a doença estava presente em algum lugar do país 25 vezes entre 1350 e 1490. As epidemias de peste devastaram Londres em 1563, 1593, 1603, 1625, 1636 e 1665, reduzindo a sua população entre 10 a 30% durante esses anos.\n[…]\nA epidemia também alastrou-se durante a Grande Guerra do Norte (1700–1721), disputa entre o Império Sueco contra o Czarado da Rússia, matando cerca de 100 mil e 300 mil, respectivamente, entre os anos de 1709 e 1713. A peste matou dois terços dos habitantes de Helsínquia e reivindicou um terço da população de Estocolmo. A última grande epidemia da Europa Ocidental ocorreu em 1720 em Marselha. A peste russa de 1770–1772 matou até 100 mil pessoas em Moscovo."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_Death",
+        "situacao": "ok",
+        "texto": "The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history, leading to the death of up to 50 million people, around 30% to 60% of the European population and approximately 33% of the Middle Eastern population.\n[…]\nThis confirms that the Yersinia pestis strain found in Kyrgyzstan predates and was the direct ancestor of the Black Death strains that devastated Europe and the Middle East starting in 1346–1347.\n[…]\nThe authors concluded that this new research, together with prior analyses from the south of France and Germany, \"ends the debate about the cause of the Black Death, and unambiguously demonstrates that Y. pestis was the causative agent of the epidemic plague that devastated Europe during the Middle Ages\". In 2011 these results were further confirmed with genetic evidence derived from Black Death victims in the East Smithfield burial site in England. Schuenemann et al.\n[…]\nRenewed religious fervour and fanaticism increased in the wake of the Black Death. Some Europeans targeted \"various groups such as Jews, friars, foreigners, beggars, pilgrims\", lepers, and Romani, blaming them for the crisis. Lepers, and others with skin diseases such as acne or psoriasis, were killed throughout Europe.\n[…]\nOne theory that has been advanced is that the Black Death's devastation of Florence, between 1348 and 1350, resulted in a shift in the world view of people in 14th-century Italy that ultimately led to the Renaissance. Italy was particularly badly hit by the pandemic, and the resulting familiarity with death may have caused thinkers to dwell more on their lives on Earth, rather than on spirituality and the afterlife.\n[…]\nBlack Death on In Our Time at the BBC\n[…]\nBlack Death at BBC History"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Sistema Único de Saúde",
+      "descricao": "Sistema público de saúde do Brasil, previsto na Constituição de 1988."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Sistema Único de Saúde, o SUS, foi criado pela Constituição brasileira promulgada em que ano?",
+    "resposta": "1988",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Sa%C3%BAde"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Sa%C3%BAde",
+        "situacao": "ok",
+        "texto": "Sistema Único de Saúde (SUS) é a denominação do sistema público de saúde brasileiro criado pela Constituição Federal de 1988 pelo texto elaborado durante a Assembleia Nacional Constituinte de 1987-1988 na sua 267.ª sessão no dia 17 de maio de 1988.\n[…]\nFoi instituído pela Constituição Federal de 1988, em seu artigo 196, como forma de efetivar o mandamento constitucional do direito à saúde como um \"direito de todos\" e \"dever do Estado\" e está regulado pela Lei n.º 8.080/1990, a qual operacionaliza o atendimento público da saúde.\n[…]\nCom o advento do Sistema Único de Saúde, toda a população brasileira passou a ter direito à saúde universal e gratuita, financiada com recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, conforme rege o artigo 195 da Constituição.\n[…]\nA partir das experiências implementadas na cidade de Montes Claros, na realização da VIII Conferência Nacional de Saúde, em 1986, criou-se a \"Carta de Montes Claros\", que serviu de subsídio para os constituintes na criação do SUS na Constituição Federal de 1988, pois definiu a saúde como como resultado de determinantes sociais e direito de todos.\n[…]\nNão obstante, observa-se que o Constituinte Originário de 1988 não buscou apenas implantar o sistema público de saúde universal e gratuito no país, em contraposição ao que existia no período militar, que favorecia apenas os trabalhadores com carteira assinada. Foi além e estabeleceu também princípios que iriam nortear a interpretação que o mundo jurídico e as esferas de governo fariam sobre o citado sistema.\n[…]\nSistema de Saúde\n[…]\nConselhos de Saúde (Brasil)\n[…]\nDepartamento de Informática do Sistema Único de Saúde (DATASUS)\n[…]\nBrasil SUSO Maior Portal de Normas do Sistema Único de Saúde"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Trepanação",
+      "descricao": "Prática de abrir um orifício no crânio de uma pessoa viva, conhecida desde a Pré-História."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Crânios com furos feitos de propósito, e que depois cicatrizaram, mostram que a trepanação já era praticada em qual período da Pré-História?",
+    "resposta": "Neolítico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trepanning"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trepanning",
+        "situacao": "ok",
+        "texto": "Trepanning, also known as trepanation, trephination, trephining or making a burr hole (the verb trepan derives from Old French from Medieval Latin trepanum from Greek trúpanon, literally \"borer, auger\"), is a surgical intervention in which a hole is drilled or scraped into the human skull.\n[…]\nHowever, in 2007, Han and Chen from the Institute of Archeology, Chinese Academy of Social Sciences looked at six trepanned skulls spanning between the Neolithic period through the Bronze and Iron Ages (c. 5000–2000 years ago) found in five different locations. Along with the discovery of these trepanned skulls, another collection of 13 trepanned skulls was discovered and dated to 3,000 years ago. In 2015, an intact 3,600-year-old mummy with a trepanned skull was discovered.\n[…]\nIn ancient times, trepanation instruments were less complex, and were commonly made out of flint, obsidian, or harder material such as stone knives, and later with metal such as bronze and copper. During the beginning and middle of the Neolithic period, flint was commonly used as a tool but as time went on, tools became more refined in shape and were eventually made from bronze.\n[…]\nAdditionally, there is a high risk of infection if the operation is conducted with contaminated tools or improper sanitary wound care. If the infection is not caught and treated immediately, it can be fatal or lead to significant and permanent brain damage. Historical evidence demonstrates that the procedure was performed during the Neolithic era, and that use of tools such as freshly knapped (and therefore, sterile) flint or obsidian stone contributed to reduced infection.\n[…]\nCraniotomy\n[…]\nAn illustrated history of trepanation\n[…]\nInterview with self-trepanner Heather Perry\n[…]\nABC: A History of Craniotomy phisick.com 14 Nov 2011"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trepana%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "A trepanação do crânio é um tipo de cirurgia na qual são feitos furos no crânio, usando-se um trépano(do grego τρύπανον, transl. trúpanon: verruma, broca )  para descobrir a dura-máter, a fim de tratar estenose ou hipertensão intracraniana.\n[…]\nEm tempos antigos, essa técnica era aplicada a pessoas cujo comportamento era considerado anormal, com o objetivo de remover o que se acreditava serem espíritos malignos. Acreditava-se que, com a trepanação, esses espíritos sairiam do corpo, mesmo que, muitas vezes, causando a morte do paciente. Já foram encontrados vestígios de trepanação em restos humanos do período Neolítico (10 000 a.C.).\n[…]\nHistoricamente, a trepanação é frequentemente considerada como o procedimento cirúrgico mais antigo. Pode-se dizer também que praticamente todas as culturas humanas, em praticamente todas as áreas geográficas e em praticamente todos os períodos, realizaram algum tipo de abertura do crânio, utilizando diferentes metodologias e com objetivos muito diferentes - conhecidos ou desconhecidos.\n[…]\nAberturas ou trepanações cranianas foram realizadas no Neolítico europeu e no período pré-colombiano americano, assim como em culturas tribais contemporâneas da Oceania e África, sem que muitas vezes se conheçam claramente seus motivos.\n[…]\nNo Museu Geológico de  Lisboa, encontram-se expostos  crânios datados de aproximadamente 8 mil anos, com sinais de trepanação e um pequeno sol desenhado em torno do orifício, sugerindo uma prática ritual.\n[…]\nMas, não dissuadido da ideia de que comunidades antigas praticassem trepanações de forma bem sucedida, Squier enviou o crânio a Paul Broca (1824-1880), então considerado autoridade mundial em questões do cérebro e das suas patologias.\n[…]\nCraniotomia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Ana Néri",
+      "descricao": "Enfermeira baiana do século dezenove, considerada a patrona da enfermagem no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A baiana Ana Néri, patrona da enfermagem brasileira, cuidou de soldados feridos durante qual guerra do século dezenove?",
+    "resposta": "Guerra do Paraguai",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri",
+        "situacao": "ok",
+        "texto": "Anna Justina Ferreira Nery, mais conhecida por Anna Nery ou Ana Néri (Cachoeira, 13 de dezembro de 1814 — Rio de Janeiro, 20 de maio de 1880), foi uma enfermeira e voluntária de guerra brasileira, pioneira da enfermagem no Brasil.\n[…]\nTambém conhecida como A Mãe dos Brasileiros, apelido compartilhado com Maria Leopoldina da Áustria e Teresa Cristina de Bourbon-Duas Sicílias e primeira enfermeira voluntária do país, Anna abandonou sua vida confortável em Salvador para acompanhar e cuidar dos soldados brasileiros nos campos de batalha da Guerra do Paraguai (1864-1870). Sua atuação não apenas salvou vidas, mas também ajudou a estabelecer os alicerces da profissão de enfermagem no Brasil.\n[…]\nEm meados do século XIX, Anna vivia com dois de seus filhos mais jovens na cidade de Salvador. Todos os seus filhos seguiram o serviço militar. Com a entrada do Brasil na Triplice Aliança, juntamente com o Uruguai e a Argentina em 1865, Anna, aos 51 anos, viu seus filhos partirem para a guerra contra o Paraguai e, em uma carta destinada ao presidente da Província da Bahia, Manuel Pinto de Souza Dantas, datada de 08 de agosto de 1865, ofereceu-se para servir aos feridos de guerra:\n[…]\nPrestou serviços ininterruptos nos hospitais militares Corrientes, Humaitá e Assunção, bem como nos hospitais da frente de operações. Anna perdeu o filho mais velho, Justiniano de Castro Rebêllo, e o sobrinho Arthur Rodrigues Ferreira na guerra. Com o fim dos conflitos em 1870, Anna retorna ao Brasil, regressando à sua cidade natal, à bordo do vapor Arinos, onde lhe foram prestadas grandes homenagens.\n[…]\nO governo imperial concedeu-lhe a Medalha Geral da Campanha do Paraguai e a Medalha Humanitária de primeira classe."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Organização Mundial da Saúde",
+      "descricao": "Agência das Nações Unidas para a saúde pública, com sede em Genebra."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Dia Mundial da Saúde, sete de abril, lembra a criação da Organização Mundial da Saúde. Ela surgiu em que ano?",
+    "resposta": "1948",
+    "distratores": [
+      "1919",
+      "1945",
+      "1960"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/World_Health_Organization",
+      "https://en.wikipedia.org/wiki/World_Health_Day"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/World_Health_Organization",
+        "situacao": "ok",
+        "texto": "The World Health Organization (WHO) is a specialized agency of the United Nations (UN) which coordinates responses to international public health issues and emergencies. It is headquartered in Geneva, Switzerland, and has six regional offices and 150 field offices worldwide. Only sovereign states are eligible to join, and it is the largest intergovernmental health organization at the international\n[…]\nThe WHO was established on 7 April 1948, and formally began its work on 1 September 1948. It incorporated the assets, personnel, and duties of the League of Nations' Health Organization and the Paris-based Office International d'Hygiène Publique, including the International Classification of Diseases (ICD). The agency's work began in earnest in 1951 after a significant infusion of financial and technical resources.\n[…]\nIts constitution formally came into force on the first World Health Day on 7 April 1948, when it was ratified by the 26th member state. The WHO formally began its work on 1 September 1948.\n[…]\nWhen the first meeting of the World Health Assembly ended on 24 July 1948,  a budget of US$5 million (then £1,250,000) had been secured for the 1949 year. G. Brock Chisholm was appointed director-general of the WHO, having served as executive secretary and a founding member during the planning stages, while Andrija Štampar was the assembly's first president.\n[…]\nThe World Health Organization is a member of the United Nations Development Group.\n[…]\nThe World Health Organization operates 150 country offices in six different regions. It also operates several liaison offices, including those with the European Union, United Nations and a single office covering the World Bank and International Monetary Fund. It also operates the International Agency for Research on Cancer in Lyon, France, and the WHO Centre for Health Development in Kobe, Japan."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/World_Health_Day",
+        "situacao": "ok",
+        "texto": "World Health Day is a global health awareness day celebrated every year on 7 April, under the sponsorship of the World Health Organization (WHO), as well as other related organizations.\n[…]\nIn 1948, the WHO held the First World Health Assembly. The Assembly decided to celebrate 7 April of each year, with effect from 1950, as the World Health Day. The World Health Day is held to mark WHO's founding and is seen as an opportunity by the organization to draw worldwide attention to a subject of major importance to global health each year. The WHO organizes international, regional and local events on the Day related to a particular theme.\n[…]\nThe 2019 World Health Day theme was \"Universal Health Coverage: Everyone, Everywhere\", a repeat of the 2018 theme, with an emphasis on the idea that \"Universal Health Coverage is the WHO's number one goal\". To commemorate the 2019 World Health Day theme, the World Health Organization launched a campaign to sign a petition for health for all, held a Facebook live event, and shared information about primary health care and universal health coverage \"statistics and facts\".\n[…]\nFor World Health Day on April 7, 2026, the World Health Organization (WHO) launched high-impact initiatives in collaboration with France to shift the \"One Health\" vision into practical action. The WHO marked the occasion under the official theme, \"Together for health. Stand with science.\"\n[…]\nWorld Health Day 2011 official website of the Pan American Health Organization, the World Health Organization Regional Office for the Americas\n[…]\nWorld Health official website of the World Health Organization, Regional Office for the Eastern Mediterranean"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde",
+        "situacao": "ok",
+        "texto": "Organização Mundial da Saúde (em inglês:  World Health Organization - WHO) é uma agência especializada em saúde, fundada em 7 de abril de 1948 e subordinada à Organização das Nações Unidas. Sua sede é em Genebra, na Suíça. O diretor-geral é, desde julho de 2017, o etíope Tedros Adhanom.\n[…]\nAlém disso, a OMS realiza diversas campanhas de saúde - por exemplo, para aumentar o consumo de frutas e vegetais em todo o mundo e desencoraja o uso do tabaco. Cada ano, a organização escolhe o Dia Mundial da Saúde.\n[…]\nBoletim da Organização Mundial da Saúde\n[…]\nPan American Journal of Public Health\n[…]\nWorld Health Report\n[…]\nA Organização Mundial da Saúde (OMS) é uma das agências originais das Nações Unidas, sendo que sua constituição formal entrou em vigor no primeiro Dia Mundial da Saúde, (7 de abril de 1948), quando foi ratificada pelo 26º Estado-Membro. Jawaharlal Nehru, um grande lutador pela liberdade da Índia, deu um parecer para começar a OMS.\n[…]\nAntes dessas operações, bem como as restantes atividades da Organização Mundial da Saúde da Liga das Nações, estavam sob o controle de uma Comissão Provisória após uma Conferência Internacional de Saúde no verão de 1946. A transferência foi autorizada por uma resolução da Assembleia Geral das Nações Unidas. O serviço epidemiológico dos franceses da Office International d'Hygiène Publique foi incorporado à Comissão Interina da Organização Mundial da Saúde em 1 de janeiro de 1947.\n[…]\nAlém dos Estados Observadores e entidades listadas acima, os observadores de organizações da Cruz Vermelha e da Federação Internacional da Cruz Vermelha entraram em \"relações oficiais\" com a OMS e são convidados como observadores. Na Assembleia Mundial da Saúde eles atuam como representantes, igual aos de outros países.\n[…]\nOrganização Pan-Americana da Saúde",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Revolta da Vacina",
+      "descricao": "Motim popular no Rio de Janeiro contra a vacinação obrigatória contra a varíola."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Rio de Janeiro foi palco da Revolta da Vacina, um motim contra a vacinação obrigatória contra a varíola. Isso aconteceu em que ano?",
+    "resposta": "1904",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Revolta_da_Vacina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolta_da_Vacina",
+        "situacao": "ok",
+        "texto": "A Revolta da Vacina foi um motim popular ocorrido entre 10 e 16 de novembro de 1904 na cidade do Rio de Janeiro, então capital do Brasil. Seu pretexto imediato foi uma lei que determinava a obrigatoriedade da vacinação contra a varíola, mas também é associada a causas mais profundas, como as reformas urbanas que estavam sendo realizadas pelo prefeito Pereira Passos e as campanhas de saneamento lid\n[…]\nO estopim da revolta foi a publicação de um projeto de regulamentação da aplicação da vacina obrigatória no jornal A Notícia, em 9 de novembro de 1904. O projeto exigia comprovantes de vacinação para a realização de matrículas nas escolas, para obtenção de empregos, viagens, hospedagens e casamentos. Previa-se também o pagamento de multas para quem resistisse à vacinação.\n[…]\nO combate à varíola, por sua vez, dependia da vacinação. Um projeto de lei que tornava a vacina contra a varíola obrigatória em todo o território nacional foi apresentado no dia 29 junho de 1904 pelo senador alagoano Manuel José Duarte. O projeto foi aprovado com 11 votos contrários, em 20 de julho, dando entrada na Câmara em 18 de agosto e sendo aprovado por larga maioria no final de outubro, tornando-se lei em 31 desse mês. O projeto gerou um debate exaltado entre os legisladores e a população.\n[…]\nNo dia 9 de novembro de 1904, foi publicado no jornal A Notícia (Rio de Janeiro) um plano de regulamentação da aplicação da vacina obrigatória. O projeto oferecia a opção de vacinação por médico particular, mas o atestado teria de ter firma reconhecida. Além disso, haveria multas aos refratários e se exigiria o atestado de vacinação para matrículas em escolas, acesso a empregos públicos, emprego nas fábricas, hospedagem em hotéis e casas de cômodo, viagem, casamento e voto.\n[…]\nMedia relacionados com Revolta da Vacina no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Santa Casa de Misericórdia de Santos",
+      "descricao": "Hospital fundado por Brás Cubas em Santos, considerado o primeiro hospital do Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Fundada por Brás Cubas, a Santa Casa de Santos é considerada o primeiro hospital do Brasil. Ela foi fundada em que século?",
+    "resposta": "Século dezesseis",
+    "distratores": [
+      "Século dezessete",
+      "Século dezoito",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Santa_Casa_de_Miseric%C3%B3rdia_de_Santos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santa_Casa_de_Miseric%C3%B3rdia_de_Santos",
+        "situacao": "ok",
+        "texto": "A Santa Casa de Misericórdia de Santos é uma instituição hospitalar brasileira. Fundada em 1543 por Brás Cubas, foi o segundo hospital do Brasil, antecedido apenas pela antiga Santa Casa de Misericórdia de Olinda. Surgiu numa região que se tornaria mais tarde a cidade de Santos, no estado de São Paulo. Inclusive uma das versões para a origem do nome desta cidade, é a construção desse hospital.\n[…]\nÉ a mais antiga instituição assistencial e hospitalar em funcionamento do Brasil, uma vez que o Hospital da Santa Casa de Misericórdia de Olinda foi extinto. É também o maior hospital da Região Metropolitana da Baixada Santista.\n[…]\nBraz Cubas, auxiliado pelos prósperos moradores da região, iniciou em 1542 a construção de um hospital, que inaugurou em 1543, provavelmente no primeiro dia de novembro, data comumente reservada para as grandes comemorações. Chamou-o de Hospital de Todos os Santos, inspirando-se no nome do grande hospital de Lisboa e na data da sua fundação.\n[…]\nEntre 1545 e 1547, o capitão-mor Braz Cubas elevou o povoado à categoria de vila, com o nome de Vila do Porto de Santos.\n[…]\nO primeiro prédio do hospital foi construído no sopé do outeiro de Santa Catarina, em local onde hoje se situa a Rua Visconde do Rio Branco, defronte ao edifício da Alfândega, no centro de Santos.\n[…]\nEm 2 de abril de 1551, Braz Cubas conseguiu de D. João III, em Almeirim, o alvará real de privilégios, o segundo obtido por uma Misericórdia brasileira. Os jesuítas chegaram à região em 1553. A vila, o porto, a Irmandade e o Hospital cresceram sob a proteção do seu poderoso e dedicado fundador.\n[…]\nO prédio atual da Santa Casa foi inaugurado por Getúlio Vargas em 2 de julho de 1945, sendo a quarta sede construída para a instituição. A anterior, de 1836, foi destruída por um deslizamento do Monte Serrat em 1928.\n[…]\nSite da Irmandade da Santa Casa de Santos"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "O Cânone da Medicina",
+      "descricao": "Enciclopédia médica escrita pelo persa Avicena, usada por séculos nas universidades da Europa e do mundo islâmico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Cânone da Medicina, do sábio persa Avicena, foi ensinado nas universidades europeias por séculos. Ele foi concluído em qual século?",
+    "resposta": "Século onze",
+    "distratores": [
+      "Século nove",
+      "Século treze",
+      "Século dezesseis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Canon_of_Medicine",
+      "https://pt.wikipedia.org/wiki/Avicena"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine",
+        "situacao": "ok",
+        "texto": "The Canon of Medicine (Arabic: القانون في الطب, romanized: al-Qānūn fī l-ṭibb) is an encyclopedia of medicine in five books compiled by Ibn Sina (ابن سینا, Avicenna) and completed in 1025. It is among the most influential works of its time. It presents an overview of the contemporary medical knowledge of the Islamic world, which had been influenced by earlier traditions including Greco-Roman medic\n[…]\nThe English title Canon of Medicine is derived from the common medieval Latin Canon Medicinae, itself a translation of the original Arabic القانون في الطب (al-Qānūn fī aṭ-Ṭibb), with the same meaning. \"Canon\" (often translated in English as \"law\" or \"legal code\") here connotes an ordered system, or complete, universal encyclopedia. The common medieval version of the title was Liber Canonis.\n[…]\nCompound medicines\n[…]\nOstler states that it was the later of these, also known as Gerard de Sabloneta, who translated the Qanun (and other medical works) into Latin in the 13th century.) The encyclopaedic content, systematic arrangement, and combination of Galen's medicine with Aristotle's science and philosophy helped the Canon enter European scholastic medicine. Medical scholars started to use the Canon in the 13th century, while university courses implemented the text from the 14th century onwards.\n[…]\nThe Canon's influence declined in the 16th century as a result of humanists' preference in medicine for ancient Greek and Roman authorities over Arabic authorities, although others defended Avicenna's innovations beyond the original classical texts. It fell out of favour in university syllabi, although it was still being taught as background literature as late as 1715 in Padua.\n[…]\nAvicenna (1999). The Canon of Medicine (al-Qānūn fī'l-ṭibb), vol. 1. Laleh Bakhtiar (ed.), Oskar Cameron Gruner (trans.), Mazhar H. Shah (trans.). Great Books of the Islamic World. ISBN 978-1-871031-67-6.\n[…]\nBiography of Avicenna"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Avicena",
+        "situacao": "ok",
+        "texto": "Neste nome árabe, \"ibn Sina\" significa \"descendente de Sina\" e constitui um único nome. Ibn Sina não deve ser confundido com Ali Sina ou com o Pico Ibn Sina.\n[…]\nAvicena escreveu O Livro da Cura, uma enciclopédia filosófica e científica, e O Cânone da Medicina, uma enciclopédia médica usada no ensino médico europeu até o século XVII.\n[…]\nAvicena começou a escrever a enciclopédia médica O Cânone da Medicina (al-Qānūn fī l-ṭibb, القانون في الطب) em Gurgã, prosseguiu em Rai e a concluiu em Hamadã. A obra é organizada em cinco livros.\n[…]\nAvicena começou a redigir O Livro da Cura durante sua passagem por Rai e Hamadã e o concluiu em Ispaã, na década de 1020. Seu propósito era \"curar\" a ignorância da alma por meio da ciência e da filosofia. O título não se refere à medicina, assunto de O Cânone da Medicina.\n[…]\nAvicena compôs poemas em árabe; versos em persa lhe são atribuídos em antologias, mas sua autoria não está demonstrada. O poema didático Al-Urjuzah fi al-Tibb reúne 1.326 versos sobre medicina e circulou como instrumento de ensino, inclusive em tradução latina na Europa medieval. Edward Granville Browne atribuiu a Ibn Sina estes versos persas frequentemente creditados a Omar Caiam, embora a autoria de seus poemas persas permaneça incerta:\n[…]\nAl-Qanun fi'l-tibb (O Cânone da Medicina), editado por I. a-Qashsh em 1987. Há manuscritos e uma tradução latina publicada como Flores Avicenne em 1508, além de edições posteriores.\n[…]\nAvicenna (1999). The Canon of Medicine (al-Qānūn fī'l-ṭibb), vol. 1. Laleh Bakhtiar (ed.), Oskar Cameron Gruner (trans.), Mazhar H. Shah (trans.). [S.l.]: Great Books of the Islamic World. ISBN 978-1-871031-67-6"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Penicilina",
+      "descricao": "Primeiro antibiótico amplamente usado, obtido de fungos do gênero Penicillium."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Descoberta em 1928, a penicilina só passou a ser produzida em grande escala durante qual conflito mundial?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_penicillin",
+      "https://pt.wikipedia.org/wiki/Penicilina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_penicillin",
+        "situacao": "ok",
+        "texto": "The history of penicillin traces how observations of antibiotic activity in the mould Penicillium led to the development of penicillins, a family of widely used antibiotics.\n[…]\nAncient societies used moulds to treat infections, and many people observed the inhibition of bacterial growth by moulds. While working at St Mary's Hospital in London in 1928, Scottish physician Alexander Fleming was the first to show experimentally that a Penicillium mould secretes an antibacterial substance, which he named \"penicillin\". The mould was found to be a variant of Penicillium chrysogenum (now called Penicillium rubens), a contaminant of a bacterial culture in his laboratory.\n[…]\nPenicillin patents became a matter of concern and conflict. Chain had wanted to apply for a patent but Florey had objected, arguing that penicillin should benefit all. Florey sought the advice of Sir Henry Dale, the chairman of the Wellcome Trust and a member of the Scientific Advisory Panel to the British Cabinet, and John William Trevan, the director of the Wellcome Trust Research Laboratory.\n[…]\nAfter the Food and Drug Administration (FDA) approved the use of penicillin as feed additives for poultry and livestock in 1951, the pharmaceutical companies ramped up production to meet the demand.\n[…]\nBy the mid-1950s, there were reports in the United States that milk was not curdling to make cheese. The FDA found that the milk was contaminated with penicillin, which was killing the bacteria required for cheesemaking. In 1963, the WHO reported high levels of penicillin in milk worldwide. People who were allergic to penicillin could now get a reaction from drinking milk."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Penicilina",
+        "situacao": "ok",
+        "texto": "As penicilinas são antibióticos do grupo dos betalactâmicos profusamente utilizados no tratamento de infecções causadas por bactérias sensíveis. A maioria das penicilinas são derivadas do ácido 6-aminopenicilânico, diferenciando-se umas das outras conforme a substituição na cadeia lateral do seu grupo amino.\n[…]\nO primeiro homem a ser tratado com penicilina foi um agente da polícia que sofria de septicémia com abcessos disseminados, uma condição geralmente fatal na época. Ele melhorou bastante após a administração do fármaco, mas morreu quando as reservas iniciais de penicilina se esgotaram. Em 1945, Fleming, Florey e Chain receberam o Prémio Nobel de Fisiologia ou Medicina por este trabalho. A penicilina salvou milhares de vidas de soldados dos aliados na Segunda Guerra Mundial.\n[…]\nA descoberta de Fleming não despertou inicialmente maior interesse e não houve a preocupação em utilizá-la para fins terapêuticos em casos de infecção humana até a eclosão da Segunda Guerra Mundial, em 1939. Em 1940, Sir Howard Florey e Ernst Chain, de Oxford, retomaram as pesquisas de Fleming e conseguiram produzir penicilina com fins terapêuticos em escala industrial, inaugurando uma nova era para a medicina — a era dos antibióticos.\n[…]\nAlguns anos mais tarde, Ronald Hare, colega de trabalho de Fleming, tentou, sem êxito, \"redescobrir\" a penicilina em condições semelhantes às que envolveram a descoberta de Fleming.\n[…]\nA primeira pessoa a ser tratada com penicilina em Portugal, foi tenente Fernando Ramôa em outubro de 1944, depois de ter sofrido um grave acidente nas Lajes, nos Açores, onde estava a cumprir serviço militar. Nessa altura, estavam no arquipélago elementos das tropas Aliadas, envolvidas na Segunda Guerra Mundial, e na posse do que era, então, um quase milagroso segredo: a penicilina."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Gripe espanhola",
+      "descricao": "Pandemia de gripe causada por um vírus influenza que se espalhou pelo mundo entre 1918 e 1920."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A gripe espanhola, uma das pandemias mais mortais da história, espalhou-se pelo mundo no final de qual guerra?",
+    "resposta": "Primeira Guerra Mundial",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gripe_espanhola",
+      "https://en.wikipedia.org/wiki/Spanish_flu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gripe_espanhola",
+        "situacao": "ok",
+        "texto": "A gripe espanhola, também conhecida como gripe de 1918, foi uma vasta e mortal pandemia do vírus influenza. De janeiro de 1918 a dezembro de 1920, infectou uma estimativa de 500 milhões de pessoas, cerca de um quarto da população mundial na época. Estima-se que o número de mortos esteja entre 17 milhões e 50 milhões, e possivelmente até 100 milhões, tornando-a uma das epidemias mais mortais da his\n[…]\nDurante a Primeira Guerra Mundial, os países aliados frequentemente chamaram a pandemia de \"gripe espanhola.\" Isso ocorreu principalmente pois a pandemia recebeu maior atenção da imprensa na Espanha do que no resto do mundo, uma vez que o país não estava envolvido na guerra e não havia censura. Na Espanha, recebeu o nome de \"gripe francesa\". Em Portugal é mais conhecida como \"gripe pneumónica\" ou simplesmente \"a pneumónica\".\n[…]\nQuando uma pessoa infectada espirra ou tosse, mais de meio milhão de partículas do vírus podem se espalhar para as pessoas próximas. Os locais próximos e as mudanças maciças de tropas durante a Primeira Guerra Mundial aceleraram a pandemia e provavelmente aumentaram a transmissão e as mutações.\n[…]\nEm agosto de 1918, uma estirpe mais virulenta apareceu simultaneamente em Brest (França), Freetown (Serra Leoa) e em Boston (Massachusetts). A gripe espanhola também se espalhou pela Irlanda, transportada para lá por soldados irlandeses que retornavam para a casa. Os Aliados da Primeira Guerra Mundial passaram a chamá-la de gripe espanhola, principalmente porque a pandemia recebeu maior atenção da imprensa depois que se moveu da França para a Espanha em novembro de 1918.\n[…]\nA primeira onda foi considerada mais branda, tendo sido detectada em março de 1918 no Kansas, Estados Unidos, num campo de treinamento de tropas destinadas ao front da Primeira Guerra.\n[…]\nOutubro de 1918 foi o mês mais mortal de toda a pandemia, ocasionando 195 mil mortes só nos Estados Unidos."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Spanish_flu",
+        "situacao": "ok",
+        "texto": "The 1918–1920 flu pandemic, also known as the Great Influenza epidemic or by the misleading name Spanish flu, was an exceptionally deadly global influenza pandemic caused by the H1N1 subtype of the influenza A virus. The earliest probable cases were documented in March 1918 in Haskell County, Kansas, United States, with further cases recorded in France, Germany and the United Kingdom in April.\n[…]\nThe Spanish flu began to fade from public awareness over the decades until the bird flu and other pandemics in the 1990s and 2000s. This has led some historians to label the Spanish flu a \"forgotten pandemic\". However, this label has been challenged by the historian Guy Beiner, who demonstrated how the pandemic was overshadowed by the commemoration of the First World War and mostly neglected in mainstream historiography, yet was remembered in private and local traditions across the globe.\n[…]\nIn 2007, Kobasa et al. reported that monkeys (Macaca fascicularis) infected with the recreated flu strain exhibited classic symptoms of the 1918 pandemic, and died from an overreaction of the immune system. This may explain why the Spanish flu had its surprising effect on younger, healthier people, as a person with a stronger immune system would potentially have a stronger overreaction.\n[…]\nIn 2018, Michael Worobey, a professor at the University of Arizona who is examining the history of the 1918 pandemic, revealed that he obtained tissue slides created by William Rolland, a physician who reported on a respiratory illness likely to be the virus while a pathologist in the British military during World War One. Worobey extracted tissue from the slides to potentially reveal more about the origin of the pathogen.\n[…]\n1918 flu pandemic in India – Known in India as \"Bombay Fever\"\n[…]\n\"Spanish Flu: a warning from history\". Cambridge University. 30 November 2018. Archived from the original on 27 October 2021."
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Insulina",
+      "descricao": "Hormônio que regula o nível de açúcar no sangue, isolado em 1921 e usado no tratamento do diabetes."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1921, na Universidade de Toronto, qual dupla de pesquisadores isolou a insulina, mudando para sempre o tratamento do diabetes?",
+    "resposta": "Frederick Banting e Charles Best",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Insulin",
+      "https://en.wikipedia.org/wiki/Frederick_Banting"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Insulin",
+        "situacao": "ok",
+        "texto": "Insulin ( ; from Latin  insula 'island') is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin (INS) gene. It is the main anabolic hormone of the body. It regulates the metabolism of carbohydrates, fats, and protein by promoting the absorption of glucose from the blood into cells of the liver, fat, and skeletal muscles.\n[…]\nInsulin was the first peptide hormone discovered. Frederick Banting and Charles Best, working in the laboratory of John Macleod at the University of Toronto, were the first to isolate insulin from dog pancreas in 1921. Frederick Sanger sequenced the amino acid structure in 1951, which made insulin the first protein to be fully sequenced. The crystal structure of insulin in the solid state was determined by Dorothy Hodgkin in 1969.\n[…]\nCharles Best and Clark Noble flipped a coin; Best won the coin toss and took the first shift. This proved unfortunate for Noble, as Banting kept Best for the entire summer and eventually shared half his Nobel Prize money and credit for the discovery with Best. On 30 July 1921, Banting and Best successfully isolated an extract (\"isletin\") from the islets of a duct-tied dog and injected it into a diabetic dog, finding that the extract reduced its blood sugar by 40% in 1 hour.\n[…]\nThe Nobel Prize committee in 1923 credited the practical extraction of insulin to a team at the University of Toronto and awarded the Nobel Prize to two men: Frederick Banting and John Macleod. They were awarded the Nobel Prize in Physiology or Medicine in 1923 for the discovery of insulin. Banting, incensed that Best was not mentioned, shared his prize with him, and Macleod immediately shared his with James Collip. The patent for insulin was sold to the University of Toronto for one dollar.\n[…]\nCBC Digital Archives – Banting, Best, Macleod, Collip: Chasing a Cure for Diabetes"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Frederick_Banting",
+        "situacao": "ok",
+        "texto": "Sir Frederick Grant Banting (; November 14, 1891 – February 21, 1941) was a Canadian pharmacologist, orthopedist, and field surgeon. For his co-discovery of insulin and its therapeutic potential, Banting was awarded the Nobel Prize in Physiology or Medicine with John Macleod.\n[…]\nOnce the trypsin-secreting cells had died, insulin could be extracted from the islets of Langerhans. Banting discussed this approach with John Macleod, professor of physiology at the University of Toronto. Macleod provided experimental facilities and the assistance of one of his students, Charles Best. Banting and Best, with the assistance of biochemist James Collip, began the production of insulin by this means.\n[…]\nBanting's name is immortalized in the yearly Banting Lectures, given by an expert in diabetes, and by the creation of the Banting and Best Department of Medical Research of the University of Toronto; Sir Frederick G Banting Research Centre located on Sir Frederick Banting Driveway in the Tunney's Pasture complex, Ottawa; Banting Memorial High School in Alliston Sir Frederick Banting Secondary School in London, Ontario; Sir Frederick Banting Alternative Program Site in Ottawa; Frederick Banting Elementary School in Montréal-Nord and École Banting Middle School in Coquitlam.\n[…]\nUS patent no.1,469,994 (held by \"Frederick G. Banting and Charles Herbert Best, of Toronto, Ontario, and James Bertram Collip of Edmonton, Alberta, Canada\"), (filed: 12 January 1923), (patented: 9 October 1923), for \"Extract Obtainable from the Mammalian Pancreas or from the Related Glands in Fishes, Useful in the Treatment of Diabetes Mellitus, and a Method of Preparing it\".\n[…]\nFrederick Banting on Nobelprize.org  including the Nobel Lecture on September 15, 1925, \"Diabetes and Insulin\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Insulina",
+        "situacao": "ok",
+        "texto": "Insulina é uma hormona responsável pela redução da glicemia (taxa de glicose no sangue), ao promover a entrada de glicose nas células. Esta é também essencial no metabolismo de sacarídeos (hidrato de carbono), na síntese de proteínas e no armazenamento de lípidos (gorduras).\n[…]\nEntretanto, o comitê do Prêmio Nobel em 1923 deu crédito pela extração prática da insulina a uma equipa da Universidade de Toronto. Em outubro de 1920, Frederick Banting lia um dos artigos de Minkowski e concluiu que Minkowski estava a estudar as secreções digestivas originalmente, e por isso não se conseguia extrair a insulina com sucesso. Ele redigiu uma nota para si mesmo: \"Ligar duto pancreático do cão. Manter cães vivos até que acinos se degenerem, sobrando ilhotas.\n[…]\nEle viajou a Toronto para se encontrar com J. J. R. Macleod, que não se impressionou plenamente com a ideia. De qualquer forma, Macleod deixou à disposição de Banting um laboratório da universidade, um assistente, Charles Best, e dez cães enquanto saía de férias no verão de 1921.\n[…]\nDesta vez foi um sucesso, não apenas em não apresentar efeitos colaterais, mas também por eliminar completamente os sintomas de diabetes. Entretanto, Banting e Best não se davam bem com Collip, porque aparentemente viam nele um intruso, e então Collip abandonou-os.\n[…]\nPor esta descoberta marcante, Macleod e Banting foram premiados com o Prêmio Nobel em Fisiologia em 1923. Banting, aparentemente insultado porque Best não fora mencionado, dividiu seu prêmio com ele, e Macleod imediatamente dividiu o seu com Collip. A patente da insulina foi vendida à Universidade de Toronto por um dólar.\n[…]\nA insulina, mais precisamente,\n[…]\nResistência à insulina\n[…]\nDiabetes\n[…]\n«Sociedade Brasileira de Diabetes»\n[…]\nDeutsche Welle - 1921: Descoberta da insulina",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "De humani corporis fabrica",
+      "descricao": "Tratado ilustrado de anatomia humana publicado por Andreas Vesalius em 1543."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1543, qual anatomista flamengo publicou um grande tratado ilustrado do corpo humano, corrigindo erros que vinham de Galeno?",
+    "resposta": "Andreas Vesalius",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica",
+      "https://pt.wikipedia.org/wiki/Andreas_Vesalius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica",
+        "situacao": "ok",
+        "texto": "De Humani Corporis Fabrica Libri Septem (Latin, \"On the Fabric of the Human Body in Seven Books\") is a set of books on human anatomy written by Andreas Vesalius (1514–1564) and published in 1543. It was a major advance in the history of anatomy over the long-dominant work of Galen, and presented itself as such.\n[…]\nO'Malley, C.D. Andreas Vesalius of Brussels, 1514-1564. Berkeley: University of California Press, 1964.\n[…]\nVesalius, Andreas. De humani corporis fabrica libri septem [Title page: Andreae Vesalii Bruxellensis, scholae medicorum Patauinae professoris De humani corporis fabrica libri septem]. Basileae [Basel]: Ex officina Joannis Oporini, 1543.\n[…]\nVesalius, Andreas. On the Fabric of the Human Body: Volume V: Book VI: The Heart and Associated Organs; Book VII: The Brain, translated by W. F. Richardson and J. B. Carman. San Francisco and Novato: Norman Publishing, 2009. ISBN 978-0-930405-90-8\n[…]\nVesalius, Andreas. The Fabric of the Human Body. An Annotated Translation of the 1543 and 1555 Editions, edited by D.H. Garrison and M.H. Hast, Northwestern University, 2003.\n[…]\nVesalius, Andreas. La Fabrique du corps humain (1543), livre I dans La fabrique de Vésale et autres textes. First translation in French by J. Vons et S. Velut, Paris, BIU Santé, 2014.\n[…]\nMedia related to De humani corporis fabrica at Wikimedia Commons\n[…]\nAndreae Vesalii Bruxellensis, Dе humani corporis fabrica libri septem, Basileae 1543\n[…]\nAndreas Vesalius. De Humani Corporis Fabrica. Historical Anatomies on the Web. Selected images from the original work. National Library of Medicine.\n[…]\nAndreae Vesalii bruxellensis, scholae medicorum Patavinae professoris, de Humani corporis fabrica Libri septem, Basileae, ex officina Ioannis Oporini, June 1543.\n[…]\nAndreae Vesalii Bruxellensis, Dе humani corporis fabrica libri septem, Venetiis 1548"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Andreas_Vesalius",
+        "situacao": "ok",
+        "texto": "Andreas Vesalius (Bruxelas, 31 de dezembro de 1514 — Zacinto, 15 de outubro de 1564, por vezes referido na literatura portuguesa como André Vesálio, foi um médico belga, considerado o “pai da anatomia moderna”. Foi o autor da publicação De Humani Corporis Fabrica, um atlas de anatomia publicado em 1543.\n[…]\nAlém da obra principal, Vesalius publicou uma versão resumida conhecida como Humani Corporis Fabrica Librorum Epitome, geralmente chamada apenas de Epitome, destinada principalmente ao ensino e com maior ênfase nas ilustrações.\n[…]\nAtravés de sua obra  De Humani Corporis Fabrica Libri Septem, Vesalius conseguiu refutar diversas teorias sobre o corpo humano, anteriormente propostas por Galeno, o que foi de extrema importância para o avanço de estudos relacionados à anatomia.\n[…]\nVesalius produziu, em sua obra Fabrica, ilustrações que retratavam o sistema muscular e as respectivas atuações de cada músculo, possibilitando um maior entendimento sobre a mecânica do corpo humano. Além disso, Vesalius ia em contraste com as ideias de que o coração era o centro das emoções e da mente, sendo definidas estas ao cérebro, isto pelo fato dos nervos serem originários ao mesmo, e não ao coração.\n[…]\nVesalius acreditava que o sistema esquelético era a estrutura do corpo humano. Vesalius afirmou que a mandíbula era apenas um osso, enquanto Galeno acreditava que eram dois ossos separados. Ele também descreve com precisão o aparelho vestibular, no interior do osso temporal do crânio.\n[…]\nVesalius era um defensor das \"dissecações paralelas\" nas quais um cadáver animal e um cadáver humano são dissecados simultaneamente para demonstrar as diferenças anatômicas e, assim, corrigir os erros galênicos.\n[…]\nCópia virtual de uma edição do De Humanis Corporis Fabrica\n[…]\nAndreas Vesalius no Cultura e Saúde"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Primeiro transplante de coração no Brasil",
+      "descricao": "Transplante cardíaco realizado em maio de 1968 no Hospital das Clínicas de São Paulo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em maio de 1968, no Hospital das Clínicas de São Paulo, qual cirurgião realizou o primeiro transplante de coração do Brasil?",
+    "resposta": "Euryclides de Jesus Zerbini",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Euryclides_de_Jesus_Zerbini"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Euryclides_de_Jesus_Zerbini",
+        "situacao": "ok",
+        "texto": "Euryclides de Jesus Zerbini (Guaratinguetá, 10 de maio de 1912 – São Paulo, 23 de outubro de 1993) foi um médico cardiologista e cirurgião brasileiro.\n[…]\nEm 1985, Euryclides voltou a ser pioneiro, ao realizar o primeiro transplante de coração do Brasil em paciente com o mal de Chagas. Ao todo, em sua carreira, Euryclides Zerbini realizou mais de 40 mil cirurgias cardíacas, pessoalmente ou através de sua equipe. Zerbini foi o primeiro brasileiro a receber o Título de \"Honored Guest of American Association of Thoracic Surgery (AATS).\n[…]\nEm 6 de maio de 1953, a primeira cirurgia cardíaca com circulação extracorpórea foi realizada com sucesso, na Filadélfia. Com as bases estabelecidas no Brasil, Euryclides e sua esposa, a também médica Dirce Costa Zerbini, viajaram em 1957 para Minneapolis, cidade de referência em cirurgias cardíacas na época, para se familiarizarem com a circulação extracorpórea e as técnicas que envolviam as complexas operações intracardíacas.\n[…]\nO Brasil quase foi pioneiro no transplante cardíaco. Em 1967, o Conselho do Hospital das Clínicas proibiu o procedimento. A partir de 1968, vários hospitais pelo mundo começaram a realizar o procedimento e a equipe chefiada por Euryclides Zerbini realizou o primeiro transplante da América Latina e do Brasil em 26 de maio de 1968, cinco meses após o transplante na África do Sul.\n[…]\nEuryclides Zerbini morreu em 23 de outubro de 1993, no Instituto do Coração, em São Paulo, aos 81 anos, em decorrência do câncer. Ele foi sepultado no Cemitério do Araçá.\n[…]\nPágina da Fundação Zerbini\n[…]\nHospital de Transplantes do Estado de São Paulo Euryclides de Jesus Zerbini"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Antissepsia cirúrgica",
+      "descricao": "Uso de substâncias que matam micróbios em feridas, mãos e instrumentos para evitar infecções em cirurgias."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na década de 1860, qual cirurgião britânico passou a desinfetar feridas e instrumentos com ácido fênico, reduzindo muito as mortes por infecção?",
+    "resposta": "Joseph Lister",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph_Lister",
+      "https://pt.wikipedia.org/wiki/Joseph_Lister"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Lister",
+        "situacao": "ok",
+        "texto": "Joseph Lister, 1st Baron Lister (5 April 1827 – 10 February 1912) was an English surgeon, medical scientist, experimental pathologist and pioneer of antiseptic surgery and preventive healthcare. Lister revolutionised the craft of surgery by the use of close anatomical observation, in the same manner that John Hunter revolutionised the science of surgery.\n[…]\nForemost amongst his biographers to examine Lister's writing skills was Joseph Fisher, who pointed to his flatness of expression and his inability to state the obvious, i.e. that he was seeking to prevent putrefaction. Fisher wondered if it was simple \"stylistic ham-handedness\", a statement examined by Connor and Connor in 2008. Lister used the Greek word antiseptic to describe his new technique.\n[…]\nThe widest acceptance of Lister's technique was in Germany. Leipzig surgeon Karl Thiersch of St. Jacob's Hospital began practicing the technique in 1867 and taught it to his students. His house surgeon Hermann Georg Joseph had visited Lister in Glasgow and then tested it on 16 patients with abscesses, with favourable results. Joseph wrote a report on his results, and presented it on 21 December 1867. Within five years, the antiseptic method was universally accepted in Germany.\n[…]\nLister believed that antiseptics enabled the wound to heal without granulation.\n[…]\nIn 1879 Joseph Lawrence, the American inventor of Listerine antiseptic, developed as a surgical antiseptic but nowadays best known as a mouthwash, named it after Lister.\n[…]\nWorks by Joseph Lister at Project Gutenberg\n[…]\nWorks by or about Joseph Lister at the Internet Archive\n[…]\nWorks by Joseph Lister at LibriVox (public domain audiobooks)\n[…]\nThe Lister Institute\n[…]\nCollection of portraits of Lister at the National Portrait Gallery, London\n[…]\nStatue of Sir Joseph Lister by Louis Linck at The International Museum of Surgical Science in Chicago"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joseph_Lister",
+        "situacao": "ok",
+        "texto": "Joseph Lister, 1.º Barão de Lister, OM, PRS (West Ham, 5 de abril de 1827 — Walmer, 10 de fevereiro de 1912), foi um médico, cirurgião e pesquisador britânico, pioneiro nas técnicas de antissepsia nas cirurgias, considerado o \"pai\" da cirurgia moderna.\n[…]\nIniciou uma nova era no campo da cirurgia quando demonstrou, em 1865, que o ácido carbólico era um efetivo agente antisséptico, o que reduziu o número de mortes por infecções pós-operatórias. Lister promoveu a prática, enquanto trabalhava na Glasgow Royal Infirmary, de que técnicas estéreis na cirurgia impediam a infecção pós-operatória, que levavam à sepsis, necrose de tecidos e morte por infecção generalizada.\n[…]\nLister começou a borrifar instrumentos, incisões cirúrgicas e aventais com uma solução de ácido carbólico, descobrindo que uma lesão borrifada com a substância dificilmente evoluía para uma gangrena. Em agosto de 1865, Lister aplicou uma camada de ácido carbólico em solução na ferida de uma criança de 7 anos de idade, em fratura exposta, depois que a roda de uma carroça passou por cima de sua perna.\n[…]\nEntre as honrarias internacionais, Lister recebeu a Pour le Mérite, do Reino da Prússia, uma das maiores honrarias na Europa na época. Em 1889 foi eleito como membro estrangeiro da Academia Real das Ciências da Suécia. Dois selos comemorativos foram confeccionados em 1965 em honra ao pioneirismo de Joseph Lister na cirurgia.\n[…]\n«Joseph Lister: pai da cirurgia moderna» (em inglês). Consultado em 4 de maio de 2008\n[…]\nObras de ou sobre Joseph Lister no Internet Archive\n[…]\nThe Lister Institute\n[…]\nColeção de retratos de Joseph Lister na National Portrait Gallery, Londres\n[…]\nEstátua de Sir Joseph Lister por Louis Linck no The International Museum of Surgical Science in ChicagoLouis Linck"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Museu de Imagens do Inconsciente",
+      "descricao": "Museu no Rio de Janeiro, criado em 1952, que reúne obras feitas por pacientes psiquiátricos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que psiquiatra alagoana, contrária ao eletrochoque, usou a pintura no tratamento de pacientes e fundou no Rio o Museu de Imagens do Inconsciente?",
+    "resposta": "Nise da Silveira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Museu_de_Imagens_do_Inconsciente",
+      "https://pt.wikipedia.org/wiki/Nise_da_Silveira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Museu_de_Imagens_do_Inconsciente",
+        "situacao": "ok",
+        "texto": "O Museu de Imagens do Inconsciente foi inaugurado em 20 de maio de 1952 no Centro Psiquiátrico Nacional Pedro II, no bairro Engenho de Dentro no Rio de Janeiro, atual Instituto Municipal de Asistência a Saúde Nise da Silveira (IMASNS) através do trabalho desenvolvido pela psiquiatra Nise da Silveira (1905–1999) fundadora também da Casa das Palmeiras e responsável por difundir a psicologia analític\n[…]\nNise da Silveira definiu o Museu de Imagens do Inconsciente como \"um centro vivo de estudo e pesquisa\". Essa instituição representa um dos principais legados da médica. A Instituição abriga também a Sociedade de Amigos do Museu de Imagens do Inconsciente  (SAMII) e o Grupo de estudos Carl Jung criado na casa da médica em 1954 e oficializado apenas em 1968. O seu acervo é dividido entre históricos (pacientes tratados pela psiquiatra) e contemporêneo.\n[…]\nO Museu de Imagens do Inconsciente foi fundado a partir dos trabalhos realizados nos ateliês de pintura e modelagem da Seção de Terapêutica Ocupacional do Centro Psiquiátrico Nacional, sob a direção da psiquiatra Nise da Silveira desde 1946.\n[…]\nA origem do Museu de Imagens do Inconsciente remonta a história de Nise da Silveira. Contra os tratamentos invasivos e violentos vigentes na década de 1940 (eletrochoque, lobotomia, insulinoterapia), a psiquiatra exercia sua função conforme suas crenças de tratamento no Setor de Terapêutica Ocupacional e Reabilitação (STOR) do centro psiquiátrico.\n[…]\nEm 5 de dezembro de 1974, foi criada oficialmente a Sociedade dos Amigos do Museu de Imagens do Inconsciente (SAMII), entidade civil, sem fins lucrativos, cujo objetivo é dar suporte e difundir os trabalhos do Museu. A Sociedade promove eventos, palestras, encontros, além da produção de vídeos sobre as questões que permeiam o legado da médica psiquiatra Nise da Silveira.\n[…]\nMELO, W. Nise da Silveira. Rio de Janeiro: Imago, 2001."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nise_da_Silveira",
+        "situacao": "ok",
+        "texto": "Nise Magalhães da Silveira (Maceió, 15 de fevereiro de 1905 — Rio de Janeiro, 30 de outubro de 1999) foi uma médica psiquiatra brasileira. Reconhecida mundialmente por sua contribuição à psiquiatria, revolucionou o tratamento mental no Brasil por meio da arte, livre expressão e afetividade. Dona Ivone Lara foi uma das personalidades a trabalhar com Nise da Silveira. Nos seus estudos sobre esquizof\n[…]\nA psiquiatria durante seu período de afastamento passou por mudanças violentas. Ao se deparar com procedimentos como eletrochoques, coma insulínico e lobotomia, Nise da Silveira se rebelou. Por sua discordância com os métodos adotados nas enfermarias, recusando-se a aplicá-lo nos pacientes, foi transferida para o trabalho com terapia ocupacional, atividade então menosprezada pelos médicos. Assim, em 1946 fundou naquela instituição a Seção de Terapêutica Ocupacional Nise da Silveira.\n[…]\nEm dezembro de 1974, às vésperas da aposentadoria de Nise da Silveira, um grupo de colaboradores, liderados pela educadora Zoé Noronha Chagas Freitas, criou a Sociedade Amigos do Museu de Imagens do Inconsciente (SAMII). Em sua ata de fundação, constam os nomes de importantes personalidades no campo da cultura, das artes e da política.\n[…]\nSILVEIRA, Nise da. Imagens do inconsciente. Rio de Janeiro: Alhambra, 1981.\n[…]\n«FRAYZE-PEREIRA, João A. \"Nise da Silveira: imagens do inconsciente entre psicologia, arte e política\"». in Estudos Avançados. vol.17 no.49  São Paulo Sept./Dec. 2003. Disponível em [1] no formato .pdf\n[…]\nMAGALDI, Felipe Sales. A Unidade das Coisas: Nise da Silveira e a genealogia de uma psiquiatria rebelde no Rio de Janeiro, Brasil. Tese (Doutorado em Antropologia Social), Museu Nacional, Universidade Federal do Rio de Janeiro, 2018.\n[…]\n«BBC Brasil - Nise da Silveira: quem foi a psiquiatra brasileira que foi pioneira no tratamento com artes»\n[…]\nPalestras sobre Nise da Silveira"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Vacina oral contra a poliomielite",
+      "descricao": "Vacina de vírus atenuado contra a pólio, aplicada em gotas, desenvolvida por Albert Sabin."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A vacina oral contra a poliomielite, aplicada em gotinhas nas campanhas brasileiras, foi criada por qual médico?",
+    "resposta": "Albert Sabin",
+    "distratores": [
+      "Jonas Salk",
+      "Edward Jenner",
+      "Louis Pasteur"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Albert_Sabin",
+      "https://en.wikipedia.org/wiki/Polio_vaccine"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Albert_Sabin",
+        "situacao": "ok",
+        "texto": "Albert Bruce Sabin (Białystok, 26 de agosto de 1906 – Washington, 3 de março de 1993) foi um pesquisador médico, sendo mais conhecido por ter desenvolvido a vacina oral (conhecida no Brasil como \"gotinha\") para a poliomielite.\n[…]\nEm 1939, Sabin transferiu-se para a Universidade de Cincinnati, onde passou a atuar na faculdade de medicina e no Cincinnati Children's Hospital. Foi nessa instituição que desenvolveu grande parte de suas pesquisas sobre a poliomielite e sobre o desenvolvimento de uma vacina oral contra a doença.\n[…]\nApós o êxito demonstrado pela vacinação em massa no Leste Europeu os Estados Unidos aprovaram o uso da vacina em 1960 e a partir de 1968  passaram usar exclusivamente a vacina desenvolvida por Albert Sabin. Seu produto, preparado com o vírus atenuado da pólio, poderia ser tomada oralmente, e prevenia a contração da moléstia. Esta é a vacina que eliminou efetivamente a pólio em quase todo o mundo (exceto em alguns países na África e Ásia).\n[…]\nSabin renunciou aos direitos de patente da vacina que criou, facilitando a difusão dela e permitindo que crianças de todo o mundo fossem imunizadas contra a poliomielite, que é mais conhecida como paralisia infantil no Brasil.\n[…]\nPoliomielite\n[…]\n«Sabin Vaccine Institute» (em inglês)\n[…]\nAlbert Sabin Biografia\n[…]\nSabin Vaccine Institute\n[…]\nHauck Center for the Albert B. Arquivos de Sabin, Universidade de Cincinnati\n[…]\nThe Albert B. Sabin Digitization Project Blog, Universidade de Cincinnati\n[…]\nThe Albert B. Sabin Archives Digital Collection, Universidade de Cincinnati\n[…]\nThe Finding Aid for the Albert B. Sabin Papers, Universidade de Cincinnati"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
+        "situacao": "ok",
+        "texto": "Polio vaccine is a vaccine used to prevent poliomyelitis (polio). Two types are used: an inactivated poliovirus given by injection (IPV) and a weakened poliovirus given by mouth (OPV). The World Health Organization (WHO) recommends all children be fully vaccinated against polio. The two vaccines have eliminated polio from most of the world, and reduced the number of cases reported each year from a\n[…]\nThe first successful demonstration of a polio vaccine was by Hilary Koprowski in 1950, with a live attenuated virus that people drank. The vaccine was not approved for use in the United States, but was used successfully elsewhere. The success of an inactivated (killed) polio vaccine, developed by Jonas Salk, was announced in 1955. Another attenuated live oral polio vaccine, developed by Albert Sabin, came into commercial use in 1961.\n[…]\nOPV is an attenuated vaccine, produced by the passage of the virus through nonhuman cells at a subphysiological temperature, which produces spontaneous mutations in the viral genome. Oral polio vaccines were developed by several groups, one of which was led by Albert Sabin. Other groups, led by Hilary Koprowski and H.R. Cox, developed their attenuated vaccine strains. In 1958, the NIH created a special committee on live polio vaccines.\n[…]\nOnce Sabin's oral vaccine became widely available, it supplanted Salk's injected vaccine, which had been tarnished in the public's opinion by the Cutter incident of 1955, in which Salk vaccines improperly prepared by one company resulted in several children dying or becoming paralyzed.\n[…]\nA global effort to eradicate polio, led by the World Health Organization (WHO), UNICEF, and the Rotary Foundation, began in 1988, and has relied largely on the oral polio vaccine developed by Albert Sabin and Mikhail Chumakov (Sabin-Chumakov vaccine)."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "HIV",
+      "descricao": "Vírus da imunodeficiência humana, causador da aids, identificado em 1983."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1983, pesquisadores de qual instituto de Paris, que leva o nome de um célebre cientista francês, identificaram o vírus causador da aids?",
+    "resposta": "Instituto Pasteur",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/HIV",
+      "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Barr%C3%A9-Sinoussi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/HIV",
+        "situacao": "ok",
+        "texto": "Human immunodeficiency viruses (HIVs) are two species of Lentivirus (a subgroup of retrovirus) that infect humans. Over time, they cause acquired immunodeficiency syndrome (AIDS), a condition in which progressive failure of the immune system allows life-threatening opportunistic infections and cancers to thrive. Without treatment, the average survival time after infection with HIV is estimated to \n[…]\nMany governments and research institutions participate in HIV/AIDS research. This research includes behavioral health interventions, such as research into sex education, and drug development, such as research into microbicides for sexually transmitted diseases, HIV vaccines, and anti-retroviral drugs. Other medical research areas include the topics of pre-exposure prophylaxis, post-exposure prophylaxis, circumcision, and accelerated aging effects.\n[…]\nIn 1983, two separate research groups led by American Robert Gallo and French investigators Françoise Barré-Sinoussi and Luc Montagnier independently declared that a novel retrovirus may have been infecting AIDS patients, and published their findings in the same issue of the journal Science. Gallo claimed that a virus his group had isolated from a person with AIDS was strikingly similar in shape to other human T-lymphotropic viruses (HTLVs) his group had been the first to isolate.\n[…]\nAnother group working contemporaneously with the Montagnier and Gallo groups was that of Jay A. Levy at the University of California, San Francisco. He independently discovered the AIDS virus in 1983 and named it the AIDS associated retrovirus (ARV). This virus was very different from the virus reported by the Montagnier and Gallo groups.\n[…]\nThe ARV strains indicated, for the first time, the heterogeneity of HIV isolates and several of these remain classic examples of the AIDS virus found in the United States.\n[…]\nWorld AIDS Day\n[…]\nRonald Reagan and AIDS"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Barr%C3%A9-Sinoussi",
+        "situacao": "ok",
+        "texto": "Françoise Barré-Sinoussi (French: [fʁɑ̃swaz baʁesinusi] ; born 30 July 1947) is a French virologist and Director of the Regulation of Retroviral Infections Division (French: Unité de Régulation des Infections Rétrovirales) and Professor at the Institut Pasteur in Paris. Born in Paris, Barré-Sinoussi performed some of the fundamental work in the identification of the human immunodeficiency virus (H\n[…]\nBarré-Sinoussi joined the Pasteur Institute in Paris in the early 1970s. She received her PhD in 1974 and interned at the U.S. National Institutes of Health before returning to the Pasteur Institute in Montagnier's unit.\n[…]\nBarré-Sinoussi has actively contributed to several scientific societies and committees at the Institut Pasteur as well as to other AIDS organizations, such as the National Agency for AIDS Research in France. She has also been implicated at an international level, notably as a consultant to the WHO and the UNAIDS-HIV.\n[…]\nWhen Francoise Barré-Sinoussi began working on retroviruses at the Pasteur Institute there were large programs in the United States working on the association between cancer and retroviruses, so she decided to study the link between retroviruses and leukemia in mice. After the new disease emerged (not yet named AIDS), a group of French physicians came to the Pasteur Institute to ask the rather simple question: is this new disease caused by a retrovirus?\n[…]\nFrancoise Barré-Sinoussi remained at the Pasteur Institute and was appointed head of the Biology of Retroviruses Unit in 1992. The Biology of Retroviruses Unit was reconfirmed in 2005 and renamed the Regulation of Retrovirial Infections Unit. Currently, the unit is working on vaccine research against HIV and the correlates of protection against AIDS for immunotherapy.\n[…]\nInstitut Pasteur – Unité de Régulation des Infections Rétrovirales\n[…]\nPress release from the Karolinska Institutet"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/V%C3%ADrus_da_imunodefici%C3%AAncia_humana",
+        "situacao": "ok",
+        "texto": "O Vírus da Imunodeficiência Humana (VIH) (em inglês: human immunodeficiency virus; HIV) é um lentivírus responsável por causar a Síndrome da Imunodeficiência Adquirida, uma condição em seres humanos na qual a deterioração progressiva do sistema imunitário propicia o desenvolvimento de infeções oportunistas e cancros potencialmente mortais. A infeção com o VIH tem origem na transferência de sangue,\n[…]\nO VIScpz aparenta ter sido transmitido aos chimpanzés e à população humana há relativamente pouco tempo, pelo que os seus hospedeiros não estão ainda adaptados ao vírus. Este vírus também perdeu a função do gene Nef que está presente na maior parte dos VIS; sem esta função, é mais provável que ocorra a diminuição dos linfócitos T, levando à imunodeficiência.\n[…]\nPesquisadores, em 2019, eliminaram o vírus HIV de animais vivos pela primeira vez, usando uma estratégia de dois passos de acertar o vírus tanto com o CRISPR quanto com uma forma potente dos remédios normais. As moléculas do fármaco foram quimicamente ajustadas para torná-las solúveis em gordura, mas encapsuladas em uma gaiola molecular solúvel em água.\n[…]\nA pesquisa sobre o HIV/AIDS inclui todas as pesquisas médicas que tentam prevenir, tratar ou curar HIV/AIDS, bem como pesquisas fundamentais sobre a natureza do HIV como agente infeccioso e da AIDS como a doença causada pelo HIV. Muitos governos e instituições de pesquisa participam de investigações científicas sobre o tema.\n[…]\nOs avanços na medicina vieram permitir relacionamentos entre casais sorodiferentes, em que uma pessoa vive com HIV e a outra não sem que haja a transmissão do vírus. Pessoas vivendo com HIV em tratamento e com carga viral indetectável a pelo menos seis meses não transmitem o vírus por via sexual. O termo Indetectável = Intransmissível (I = I) é adotado por cientistas e instituições de referência sobre o HIV em abrangência mundial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Helicobacter pylori",
+      "descricao": "Bactéria que vive no estômago humano e causa gastrite e úlceras."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Para provar que uma bactéria causa doenças do estômago como a úlcera, qual médico australiano bebeu uma cultura dela, em 1984?",
+    "resposta": "Barry Marshall",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barry_Marshall",
+      "https://en.wikipedia.org/wiki/Helicobacter_pylori"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barry_Marshall",
+        "situacao": "ok",
+        "texto": "Barry James Marshall (born 30 September 1951) is an Australian physician, Nobel Laureate in Physiology or Medicine, Professor of Clinical Microbiology and Co-Director of the Marshall Centre at the University of Western Australia. Marshall and Robin Warren showed that the bacterium Helicobacter pylori (H. pylori) plays a major role in causing many peptic ulcers, challenging decades of medical doctr\n[…]\nAfter failed attempts to infect piglets in 1984, Marshall, after having a baseline endoscopy done, drank a broth containing cultured H. pylori, expecting to develop, perhaps years later, an ulcer. He was surprised when, only three days later, he developed vague nausea and halitosis, due to the achlorhydria. There was no acid to kill bacteria in the stomach and their waste products manifested as bad breath, noticed by his wife. On days 5–8, he developed achlorhydric (no acid) vomiting.\n[…]\nBarry Marshall, together with Robin Warren, discovered spiral bacteria in the stomachs of almost all patients with active chronic gastritis, or duodenal or gastric ulcers, and proposed that the bacteria were an important factor in the aetiology of these diseases. In 1985, Marshall showed by self-administration that this bacterium, now called Helicobacter pylori, causes acute gastritis and suggested that chronic colonisation directly leads to peptic ulceration.\n[…]\nMarshall was elected Fellow of the Australian Academy of Health and Medical Sciences (FAHMS) in 2015.\n[…]\nIn 2015, Marshall's Alma mater, UWA, renamed the science library building into Barry J Marshall Library.\n[…]\nMarshall is the Ambassador for Life Sciences for Western Australia.\n[…]\nBarry Marshall on Nobelprize.org  with the Nobel Lecture Helicobacter Connections\n[…]\nInterview with Barry Marshall – Radio Live, May 2010.\n[…]\nInterview with Barry Marshall – BBC World Service 6, 7 and 8 November 2010, Interviewer: Owen Bennett-Jones, Programme series: The Interview."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori",
+        "situacao": "ok",
+        "texto": "Helicobacter pylori, previously known as Campylobacter pylori, is a gram-negative bacterium best known for its role in infecting the human stomach, often causing gastric ulcers and sometimes stomach cancer. Its helical body (from which the genus name Helicobacter derives) is thought to have evolved to penetrate the mucous lining of the stomach, helped by its flagella, and thereby establish infecti\n[…]\nWhile many earlier reports of an association between bacteria and gastric ulcers had existed, such as the works of John Lykoudis, it was only in 1983 when the bacterium was formally described for the first time  as the causal agent of gastric ulcers by Australian physician-scientists Barry Marshall and Robin Warren. In 2005, the pair was awarded the Nobel Prize in Physiology or Medicine for their discovery.\n[…]\nH. pylori was first discovered in the stomachs of patients with gastritis and ulcers in 1982 by Barry Marshall and Robin Warren of Perth, Western Australia. At the time, the conventional thinking was that no bacterium could survive the acidic environment of the human stomach. In recognition of their discovery, Marshall and Warren were awarded the 2005 Nobel Prize in Physiology or Medicine.\n[…]\nBefore the research of Marshall and Warren, German scientists found spiral-shaped bacteria in the lining of the human stomach in 1875. However, they were unable to culture them, and the results were eventually forgotten. The Italian researcher Giulio Bizzozero described similarly shaped bacteria living in the acidic environment of the stomach of dogs in 1893.\n[…]\nInterest in understanding the role of bacteria in stomach diseases was rekindled in the 1970s, with the visualization of bacteria in the stomachs of people with gastric ulcers. The bacteria had also been observed in 1979 by Robin Warren, who researched it further with Barry Marshall from 1981.\n[…]\n\"European Helicobacter Study Group (EHSG)\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Barry_Marshall",
+        "situacao": "ok",
+        "texto": "Barry James Marshall (Kalgoorlie, 30 de setembro de 1951) é um médico gastroenterologista  australiano e professor de Microbiologia Clínica na Universidade da Austrália Ocidental.\n[…]\nFoi agraciado com o Nobel de Fisiologia ou Medicina de 2005, pelo estudo da prova da bactéria Helicobacter pylori como causa da úlcera péptica, contrapondo-se à doutrina tradicional segundo a causa da úlcera seria o stress, comida picante e ácida.\n[…]\nA teoria da H. pylori era considerada absurda pela comunidade científica, que não acreditava na possibilidade de viverem bactérias no ambiente ácido do estômago. Barry Marshall, para provar a sua teoria, bebeu um tubo de ensaio contendo bactérias e desenvolveu úlcera gástrica, curando-se por antibióticos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Sistema braille",
+      "descricao": "Sistema de escrita em pontos em relevo, lido pelo tato por pessoas cegas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que jovem francês, cego desde os três anos de idade, criou aos quinze um sistema de leitura em relevo usado por cegos do mundo todo?",
+    "resposta": "Louis Braille",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_Braille",
+      "https://en.wikipedia.org/wiki/Braille"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Louis_Braille",
+        "situacao": "ok",
+        "texto": "Louis Braille ( BRAYL; French: [lwi bʁɑj] ; 4 January 1809 – 6 January 1852) was a French educator and the inventor of a reading and writing system named after him, braille, intended for use by visually impaired people. His system is used worldwide and remains virtually unchanged to this day.\n[…]\nThe immense personal legacy of Louis Braille was described in a 1952 essay by T. S. Eliot:\n[…]\nA Google Doodle for Louis Braille's 197th birthday in 2006 was shown on Google's homepage, spelling \"Google\" in braille.\n[…]\nWorld Braille Day is celebrated every year on Braille's birthday, 4 January, since 2019.\n[…]\nIn music, Braille's life was subject of the song Merci, Louis, composed by the Halifax singer-songwriter Terry Kelly, chair of the Canadian Braille Literacy Foundation. The Braille Legacy, a musical which tells the story of Louis Braille, directed by Thom Southerland and starring Jérôme Pradon, debuted at the Charing Cross Theatre in April 2017.\n[…]\nBickel, Lennard (1989). Triumph Over Darkness: The Life of Louis Braille. Leicester: Ulverscroft. ISBN 978-0708920046. (also large print)\n[…]\nKugelmass, J. Alvin (1951). Louis Braille: Windows for the Blind. New York: Julian Messner Inc. OCLC 8989771.\n[…]\nMellor, C. Michael (2006). Louis Braille: A Touch of Genius. Boston: National Braille Press. ISBN 978-0-939173-70-9.\n[…]\nWeygand, Zina (2009). The Blind in French Society: From the Middle Ages to the century of Louis Braille. Stanford, CA: Stanford University Press. ISBN 978-0-8047-5768-3.\n[…]\nHenri, Pierre (1952). La vie et l'oeuvre de Louis Braille: Inventeur de l'alphabet des aveugles (1809–1852) (in French) by. Paris: Presses universitaires de France. OCLC 299733373.\n[…]\nMusée Louis Braille\n[…]\nLouis Braille Online Museum – American Foundation for the Blind (AFB)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Braille",
+        "situacao": "ok",
+        "texto": "Braille ( BRAYL; French: [bʁaj] ) is a tactile writing system used by blind or visually impaired people. It can be read either on embossed paper or by using refreshable braille displays that connect to computers and smartphone devices. Braille can be written using a slate and stylus, a braille writer, an electronic braille notetaker or with the use of a computer connected to a braille embosser. Fo\n[…]\nBraille is named after its creator, Louis Braille, a Frenchman who lost his sight as a result of a childhood accident. In 1824, at the age of fifteen, he developed the braille code based on the French alphabet as an improvement on night writing. He published his system, which subsequently included musical notation, in 1829. The second revision, published in 1837, was the first binary form of writing developed in the modern era.\n[…]\nHistorically, there have been three principles in assigning the values of a linear script (print) to Braille: Using Louis Braille's original French letter values; reassigning the braille letters according to the sort order of the print alphabet being transcribed; and reassigning the letters to improve the efficiency of writing in braille.\n[…]\nEvery year on 4 January, World Braille Day is observed internationally to commemorate the birth of Louis Braille and to recognize his efforts. Although the event is not considered a public holiday, it has been recognized by the United Nations as an official day of celebration since 2019.\n[…]\nThere is a variety of contemporary electronic devices that serve the needs of blind people that operate in Braille, such as refreshable braille displays and braille e-books that use different technologies for transmitting graphic information of different types (pictures, maps, graphs, texts, etc.).\n[…]\nBraille Part 1 Text To Speech For The Visually Impaired YouTube\n[…]\nBraille information and advice – Sense UK\n[…]\nBraille at Omniglot"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Louis_Braille",
+        "situacao": "ok",
+        "texto": "Louis Braille (Coupvray, 4 de janeiro de 1809 — Paris, 6 de janeiro de 1852), mais raramente Luís Braille, foi o criador do sistema de leitura por tato para cegos que recebeu seu nome, braille.\n[…]\nEm 1821, quando Louis Braille tinha somente 12 anos, Charles Barbier, capitão reformado da artilharia francesa, visitou o instituto onde apresentou um sistema de comunicação chamado de escrita noturna, também conhecido por Serre e que mais tarde veio a ser chamado de sonografia.\n[…]\nEm 1824, com apenas 15 anos, Louis Braille terminou o seu sistema de células com seis pontos. Pouco depois, ele mesmo começou a ensinar no instituto e, em 1829, publicou o seu método exclusivo de comunicação que hoje tem o seu nome. Exceto algumas pequenas melhorias, o sistema permanece basicamente o mesmo até hoje.\n[…]\nComo sistema eficaz, o método Braille consolidou-se amplamente ao longo do tempo. Na atualidade, essa solução simples e engenhosa, desenvolvida por Louis Braille, possibilita o acesso à linguagem escrita a milhões de pessoas com deficiência visual, resultado dos esforços persistentes empreendidos por seu criador há quase dois séculos.\n[…]\nO braille provou ser muito adaptável como meio de comunicação. Quando Louis Braille inicialmente inventou o sistema de leitura, aplicou-o à notação musical. O método funciona tão bem que a leitura e escrita de música é mais fácil para os cegos do que para os que vêem. Vários termos matemáticos, científicos e químicos têm sido transpostos para o braille, abrindo amplos depósitos de conhecimento para os leitores cegos.\n[…]\nDeutsche Welle - 1852: Morre Louis Braille, inventor da escrita para deficientes visuais",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Cruz Vermelha",
+      "descricao": "Movimento humanitário internacional criado em 1863 em Genebra para socorrer feridos de guerra."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Chocado com os feridos abandonados após a Batalha de Solferino, qual empresário idealizou a criação da Cruz Vermelha e ganhou o primeiro Nobel da Paz?",
+    "resposta": "Henry Dunant",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Dunant",
+      "https://pt.wikipedia.org/wiki/Henry_Dunant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_Dunant",
+        "situacao": "ok",
+        "texto": "Henry Dunant (French pronunciation: [ɑ̃ʁi dynɑ̃]; born Jean-Henri Dunant; 8 May 1828 – 30 October 1910), also known as Henri Dunant, was a Swiss humanitarian, businessman, social activist, and co-founder of the Red Cross. His humanitarian efforts won him the first Nobel Peace Prize in 1901.\n[…]\nIn 1935, their son René published a compilation of letters from Dunant to his father.\n[…]\nHis birthday, 8 May, is celebrated as the World Red Cross and Red Crescent Day. The former nursing home in Heiden now houses the Henry Dunant Museum. In Geneva and other places there are numerous streets, squares, and schools named after him. The Henry Dunant Medal, awarded every two years by the standing commission of the International Red Cross and Red Crescent Movement is its highest decoration.\n[…]\nHis life is represented, with some fictional elements, in the film D'homme à hommes (1948), starring Jean-Louis Barrault, and the period of his life when the Red Cross was founded in the international film coproduction Henry Dunant: Red on the Cross (2006). In 2010 the Takarazuka Revue staged a musical based on his time in Solferino and the founding of the Red Cross entitled Dawn at Solferino, or Where has Humanity Gone?.\n[…]\nHenry Dunant Hospital is a general hospital in Athens, Greece.\n[…]\nHenry Dunant: Red on the Cross (fr. Henry Dunant: Rouge sur la Croix), 2006. French/Swiss/Austria co-production starring Thomas Jouannet written by Claude-Michel Rome directed by Dominique Othenin-Girard.\n[…]\nHenry Dunant Medal\n[…]\nDunantist\n[…]\nHenry Dunant Museum in Heiden (AR, Switzerland)\n[…]\nSociété Henry Dunant (in French)\n[…]\nBiographies and Bibliography of Henry Dunant (in French)\n[…]\nHenry Dunant on Nobelprize.org\n[…]\nComplete text of \"A Memory of Solferino\"\n[…]\nNewspaper clippings about Henry Dunant in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henry_Dunant",
+        "situacao": "ok",
+        "texto": "Jean-Henri Dunant (Genebra, 8 de maio de 1828 — Heiden, Suíça, 30 de outubro de 1910) foi um filantropo suíço, co-fundador da Cruz Vermelha Internacional. Recebeu o primeiro Nobel da Paz em 1901, juntamente com Frédéric Passy.Em 1852, tornou-se secretário da Aliança Evangélica da Suíça Francófona até 1859.\n[…]\nJá sua mãe era filha de Henri Colladon, chefe do Hospital de Genebra e prefeito de Avully. Ela trabalhava no setor de caridade, especialmente com pobres e doentes. Um dos tios maternos de Henri foi o físico Jean-Daniel Colladon. As atividades de caridade dos pais foram refletidas na educação dos seus filhos: eles incentivaram a responsabilidade social desde cedo em Henry Dunant, e em suas duas irmãs e dois irmãos.\n[…]\nUma experiência marcante para Henry Dunant foi uma viagem com seu pai para Toulon, onde ele teve que testemunhar a tortura de prisioneiros numa cozinha.\n[…]\nAo presenciar o sofrimento na frente de combate na Batalha de Solferino em 1859, Dunant organizou de imediato um serviço de primeiros socorros. Desta sua experiência resultou o livro Un souvenir de Solferino, publicado em 1862, onde sugeria a criação de grupos nacionais de ajuda para apoiar os feridos em situações de guerra, e propunha a criação de uma organização internacional que permitisse melhorar as condições de vida e prestar auxílio às vítimas da guerra.\n[…]\nEntre outros prémios, Dunant recebeu de Portugal a Ordem de Cristo, em 1897.\n[…]\nMotivado pelo seu pragmatismo e com vontade de dar estruturas sólidas à instituição, Moynier participa à anulação do idealista Dunant, após dificuldades financeiras que encontra, e impede que ele pudesse voltar para a direção dos negócios, a ponto de comprometer a sua própria subsistência.Esse conflito vai durar a vida inteira e não encontrar qualquer forma de reconciliação."
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Cruz Vermelha",
+      "descricao": "Movimento humanitário internacional criado em 1863 em Genebra para socorrer feridos de guerra."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O símbolo da Cruz Vermelha, uma cruz vermelha sobre fundo branco, é a bandeira de qual país com as cores invertidas?",
+    "resposta": "Suíça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emblems_of_the_International_Red_Cross_and_Red_Crescent_Movement"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Emblems_of_the_International_Red_Cross_and_Red_Crescent_Movement",
+        "situacao": "ok",
+        "texto": "Under the Geneva Conventions, the emblems of the International Red Cross and Red Crescent Movement are to be worn by all medical and humanitarian personnel and also displayed on their vehicles and buildings while they are in an active warzone, and all military forces operating in an active warzone must not attack entities displaying these emblems.\n[…]\nSolferino is also host to the International Red Cross Memorial inaugurated in 1959 on the centennial of the Battle of Solferino. The memorial contains stone plaques identifying each recognized national society. In Castiglione delle Stiviere, a small town near Solferino, the International Red Cross Museum was also opened in 1959. Moreover, another museum, the International Red Cross and Red Crescent Museum stands in Geneva in close proximity to the headquarters of the ICRC.\n[…]\nIn a similar issue involving the Stolen Valor Act of 2005, finding the unauthorized wearing or use of the Medal of Honor a criminal offense unconstitutional by the U.S. Supreme Court, there would have to be more than just the use of the symbol as part of a computer program or motion picture, such as advertising of the game or film using the symbol in advertising, merchandise carrying the symbol, or claims the use was approved by the International Red Cross.\n[…]\nArt. 44. (cont.) Furthermore, National Red Cross (Red Crescent, Red Lion and Sun) Societies may, in time of peace, in accordance with their national legislation, make use of the name and emblem of the Red Cross for their other activities which are in conformity with the principles laid down by the International Red Cross Conferences.\n[…]\nHenry Dunant, founder of the Red Cross movement\n[…]\nList of Red Cross and Red Crescent Societies\n[…]\nInternational Federation of Red Cross and Red Crescent Societies\n[…]\nInternational Committee of the Red Cross"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Quinina",
+      "descricao": "Substância extraída da casca da quina, usada por séculos no tratamento da malária."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que substância, usada por séculos contra a malária, é a responsável pelo gosto amargo da água tônica?",
+    "resposta": "Quinina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tonic_water",
+      "https://en.wikipedia.org/wiki/Quinine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tonic_water",
+        "situacao": "ok",
+        "texto": "Tonic water is a carbonated soft drink in which quinine is dissolved. Originally used as a prophylactic against malaria, modern tonic water typically has a significantly lower quinine content and is often more sweetened than the original medicinal form. It is consumed for its distinctive bitter flavour.\n[…]\nAs early as the 17th century, the Spanish used quinine from the bark of Cinchona trees to treat malaria after being shown the remedy from the Indigenous peoples of Peru, Bolivia, and Ecuador.\n[…]\nIn early 19th century India and other tropical posts of the British Empire, medicinal quinine was recommended to British officials and soldiers to prevent malaria, where it was mixed with soda and sugar to mask its bitter taste, creating tonic water.\n[…]\nIn the United States, the US Food and Drug Administration (FDA) limits the quinine content in tonic water to 83 ppm (83 mg per litre). In Europe, the limit is 100 mg/L, which is 0.25–0.50% of the original strength. The therapeutic dose of quinine is 10 mg per kg of body mass every eight hours for effective malaria prevention (2,100 mg daily for a 70-kilogram (150 lb) adult).\n[…]\nQuinine acts as a neuromuscular blocker; consequently, the consumption of tonic water can exacerbate muscle weakness in individuals with myasthenia gravis.\n[…]\nThe quinine in tonic water will fluoresce under ultraviolet light. In fact, quinine will visibly fluoresce in direct sunlight against a dark background. The quinine molecules release energy as light instead of heat, which is more common. The state is not stable, and the molecules will immediately return to a ground state and no longer glow once the UV source is removed.\n[…]\nÁgua de Inglaterra"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Quinine",
+        "situacao": "ok",
+        "texto": "Quinine is an alkaloid used medically to treat malaria and babesiosis. This includes the treatment of malaria due to Plasmodium falciparum that is resistant to chloroquine when artesunate is not available. While sometimes used for nocturnal leg cramps, quinine is not recommended for this purpose due to the risk of serious side effects. It can be taken by mouth or intravenously. Malaria resistance \n[…]\nAs of 2006, quinine is no longer recommended by the World Health Organization (WHO) as a first-line treatment for malaria, because there are other substances that are equally effective with fewer side effects. They recommend that it be used only when artemisinins are not available. Quinine is also used to treat lupus and arthritis.\n[…]\nThe form of quinine most effective in treating malaria was found by Charles Marie de La Condamine in 1737. In 1820, French researchers Pierre Joseph Pelletier and Joseph Bienaimé Caventou first isolated quinine from the bark of a tree in the genus Cinchona – probably Cinchona pubescens – and subsequently named the substance. The name was derived from the original Quechua (Inca) word for the cinchona tree bark, quina or quina-quina, which means \"bark of bark\" or \"holy bark\".\n[…]\nTens of thousands of US troops in Africa and the South Pacific died of malaria due to the lack of quinine. Despite controlling the supply, the Japanese did not make effective use of quinine, and thousands of Japanese troops in the southwest Pacific died as a result.\n[…]\nThough Legatrin was banned by the FDA for the treatment of leg cramps, the drug manufacturer URL Mutual has branded a quinine-containing drug named Qualaquin. It is marketed as a treatment for malaria and is sold in the United States only by prescription. In 2004, the CDC reported only 1,347 confirmed cases of malaria in the United States.\n[…]\n\"Quinine\". Resource Center. Chemwatch."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81gua_t%C3%B4nica",
+        "situacao": "ok",
+        "texto": "Água tónica (português europeu) ou tônica (português brasileiro) é um refrigerante que originalmente continha apenas soda, açúcar e quinina. É feita com um pó branco extraído da casca da árvore de cinchona (hidrocloreto de quinina) que dá o gosto amargo ao produto.\n[…]\nDiversas versões sobre o descobrimento da quinina, principal substância da água tônica, foram apresentadas. Uma delas data o ano de 1638, quando a Condessa de Chinchon, esposa do vice-rei espanhol que estava no Peru, adoeceu com a febre terçã (Malária). Índios, então prepararam uma poção feita com a casca de uma árvore chamada Kina (nome indígena), resultando na cura. Posteriormente, a árvore foi batizada de Cinchona em homenagem à condessa.\n[…]\nNo início ela foi somente utilizada como medicamento no combate à malária. A quinina  ainda hoje é empregada no tratamento, mas a água tônica atualmente industrializada e distribuída no mercado não possui propriedades medicamentosas sendo apenas um refrigerante de gosto amargo. Possui quantidades mínimas de quinina, cerca de 5 miligramas por litro (mg/l), enquanto para o tratamento da doença é necessário em torno de 1,5 g ao dia.\n[…]\nA água tónica é muito usada como uma bebida de mistura para coquetéis, especialmente os que são feitos com gim (por exemplo gim tónico). A água tónica com adição de limão ou lima é conhecida como bitter lemon, \"limão amargo\" ou bitter lime, respectivamente.\n[…]\nA quinina é a principal substância na composição da água tônica, sendo um composto fluorescente, isto é, se for incidido luz ultravioleta na água tônica, ela brilhará.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Fígado",
+      "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Na mitologia grega, Prometeu foi castigado com uma águia que devorava todo dia um órgão seu, que se regenerava durante a noite. Que órgão era esse?",
+    "resposta": "Fígado",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Prometeu",
+      "https://en.wikipedia.org/wiki/Prometheus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prometeu",
+        "situacao": "ok",
+        "texto": "Prometeu (em grego:  Προμηθεύς, transl.: Promēthéus, \"antevisão\"), na mitologia grega, é um titã (da segunda geração), filho de Jápeto (filho de Urano; um incesto entre Urano e Gaia) e irmão de Atlas, Epimeteu e Menoécio. Algumas fontes citam sua mãe como sendo Tétis, enquanto outras, como Pseudo-Apolodoro, apontam para Ásia oriental, também chamada de Clímene, filha de Oceano.\n[…]\nFoi um defensor da humanidade, conhecido por sua astuta inteligência, responsável por roubar o fogo de Héstia e dá-lo aos mortais. Zeus, que temia que os mortais ficassem tão poderosos quanto os próprios deuses o teria então punido por este crime, deixando-o amarrado a uma rocha por toda a eternidade enquanto uma grande águia comia todo dia seu fígado — que se regenerava no dia seguinte.\n[…]\nEste então roubou o fogo dos deuses e deu-o aos homens. Isto assegurou a superioridade dos homens sobre os outros animais. Todavia o fogo era exclusivo dos deuses. Como castigo a Prometeu, Zeus ordenou a Hefesto que o acorrentasse no cume do monte Cáucaso, onde todos os dias uma águia (ou abutre) dilacerava seu fígado que, todos os dias, regenerava-se. Esse castigo devia durar 30 000 anos.\n[…]\nPausânias também menciona que na cidade grega de Panopeu havia uma estátua venerada que alguns alegavam ser Prometeu, homenageado ali por ter criado a raça humana naquele local.\n[…]\nPrometeu por sua vez, como castigo eterno, foi acorrentado a uma rocha no Cáucaso, onde seu fígado era devorado cotidianamente por uma águia, apenas para vê-lo regenerar-se durante a noite, segundo a lenda, devido à sua imortalidade. Anos mais tarde, o herói grego Héracles (ou Hércules romano) abateria a águia e libertaria Prometeu de seus grilhões.\n[…]\nAlém dos românticos, Prometeu também era um homem modelo de Marx.\n[…]\nEm homenagem ao personagem mitológico, deu-se o nome de Prometeu a um dos 56 satélites de Saturno (ver Prometeu).\n[…]\nPrometeísmo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Prometheus",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Prometheus (; Ancient Greek: Προμηθεύς [promɛːtʰěu̯s]) is a Titan who is responsible for creating and aiding humanity in its earliest days. He defied the Olympian gods by stealing fire from them and giving it to humanity.\n[…]\nPrometheus has been depicted in a number of well-known artworks, including Mexican muralist José Clemente Orozco's Prometheus fresco at Pomona College and Paul Manship's bronze sculpture Prometheus at Rockefeller Center in Manhattan.\n[…]\nAn adaptation of Goethe's poetic version of the myth was composed by Hugo Wolf, Prometheus (Bedecke deinen Himmel, Zeus, 1889), as part of his Goethe-lieder for voice and piano, later transcribed for orchestra and voice. An opera of the myth was composed by Carl Orff titled Prometheus (1968), using Aeschylus's Greek language Prometheia. A tradition has of course grown among critics of finding allusions to Prometheus Bound in Richard Wagner's Ring cycle.\n[…]\nRudolf Wagner-Régeny composed the Prometheus in 1959. Another work inspired by the myth, Prometeo (Prometheus), was composed by Luigi Nono between 1981 and 1984 and can be considered a sequence of nine cantatas. The libretto in Italian was written by Massimo Cacciari, and selects from texts by such varied authors as Aeschylus, Walter Benjamin and Rainer Maria Rilke and presents the different versions of the myth of Prometheus without telling any version literally.\n[…]\nJason Reza Jorjani, a philosopher who has also labelled his movement \"Prometheism\", which is something different from the geopolical concept mentioned above\n[…]\nPrometheism\n[…]\nTityos, a Giant chained in Tartarus punished by two vultures who eat his regenerating liver\n[…]\nThe Warburg Institute Iconographic Database (images of Prometheus)"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Transfusão de sangue",
+      "descricao": "Transferência de sangue ou de componentes do sangue de um doador para um receptor."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1667, na França, uma das primeiras transfusões de sangue feitas num ser humano usou o sangue de qual animal?",
+    "resposta": "Carneiro (cordeiro)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jean-Baptiste_Denis",
+      "https://en.wikipedia.org/wiki/Blood_transfusion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Denis",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Denys (c. 1635 – 3 October 1704) was a French physician notable for having performed the first fully documented human blood transfusion, a xenotransfusion. He studied in Montpellier and was the personal physician to King Louis XIV.\n[…]\nThe years 1667 and 1668 were characterized by the growing frenzy over the possibility of blood transfusion.\n[…]\nThe French and English were the main contestants in the battle to perform the first successful human blood transfusion. Members of the British Royal Society began by injecting doses of fluids into the veins of animals, proceeding with dog-to-dog transfusion. Similarly, the French Academy of Science tried canine experiments, but was unable to replicate the English success.\n[…]\nDenys believed that blood transfusion would garner him recognition throughout all of Europe and the Parisian elite. On March 9, 1667, he made an announcement in the journal des sçavans, stating his intention to publicize his anatomical and experimental demonstrations of blood transfusion as a therapeutic tool. This established Denys as the primary transfusionist of France, thus going against the ideals of the Academy of Sciences of Paris, Faculty of Medicine, and those of Charles Perrault.\n[…]\nDenys administered the first full documented xenotransfusion on June 15, 1667. With the assistance of Paul Emmerez he transfused about twelve ounces of lamb blood into the veins of a 15-year-old boy who had suffered from uncontrollable fevers for two months and had been consequently bled with leeches 20 times by a barber-surgeon, to no effect. After Denys' intervention, allegedly, by the next morning, the boy was alert, and seemingly cured of his illness."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Blood_transfusion",
+        "situacao": "ok",
+        "texto": "Blood transfusion is the process of transferring blood products into a person's circulation intravenously. Transfusions are used for various medical conditions to replace lost components of the blood. Early transfusions used whole blood, but modern medical practice commonly uses only components of the blood, such as red blood cells, plasma, platelets, and other clotting factors.\n[…]\nThe first blood transfusion from animal to human was administered by Jean-Baptiste Denys, eminent physician to King Louis XIV of France, on June 15, 1667. He transfused the blood of a sheep into a 15-year-old boy, who survived the transfusion. Denys performed another transfusion into a labourer, who also survived. Both instances were likely due to the small amount of blood that was actually transfused into these people. This allowed them to withstand the allergic reaction.\n[…]\nIn the early 19th century, British obstetrician James Blundell made efforts to treat hemorrhage by transfusion of human blood using a syringe. In 1818, after experiments with animals, he performed the first successful transfusion of human blood to treat postpartum hemorrhage at Guy's Hospital in London. Blundell used the patient's husband as a donor, and extracted four ounces of blood from his arm to transfuse into his wife.\n[…]\nVeterinarians also administer transfusions to other animals. Various species require different levels of testing to ensure a compatible match. For example, cats have 3 known blood types, cattle have 11, dogs have at least 13, pigs have 16, and horses over 30. However, in many species (especially horses and dogs), cross matching is not required before the first transfusion, as antibodies against non-self cell surface antigens are not expressed constitutively – i.e.\n[…]\nthe animal has to be sensitized before it will mount an immune response against the transfused blood."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jean-Baptiste_Denys",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Denys (c. 1635 – 3 de outubro de 1704) foi um médico francês notável por ter realizado a primeira transfusão de sangue humana completamente documentada, uma xenotransfusão. Estudou em Montpellier e foi médico pessoal do rei Luís XIV.\n[…]\nOs anos de 1667 e 1668 foram marcados pela crescente euforia em torno da possibilidade da transfusão de sangue.\n[…]\nFranceses e ingleses competiam pela primazia na realização da primeira transfusão de sangue humano bem-sucedida. Membros da Sociedade Real Britânica começaram injetando líquidos nas veias de animais, progredindo para transfusões entre cães. A Academia Francesa de Ciências também realizou experiências com cães, mas sem sucesso comparável.\n[…]\nDenys acreditava que a transfusão de sangue traria reconhecimento em toda a Europa. Em 9 de março de 1667, anunciou no Journal des sçavans suas demonstrações anatômicas e terapêuticas com transfusão, enfrentando a oposição da Academia de Ciências, da Faculdade de Medicina e de Charles Perrault.\n[…]\nDenys relatou seus sucessos ao Journal des sçavans, estabelecendo contato com Henry Oldenburg e o periódico Philosophical Transactions. Ignorou, no entanto, os trabalhos ingleses, causando controvérsias. Seu próximo passo seria a xenotransfusão em humanos, usando cordeiros, símbolo do sangue de Cristo.\n[…]\nEm 15 de junho de 1667, Denys realizou a primeira xenotransfusão humana documentada, com auxílio de Emmerez, ao transfundir cerca de doze onças de sangue de cordeiro em um menino de 15 anos com febres incontroláveis. No dia seguinte, o menino parecia curado.\n[…]\nRealizou outra transfusão em um açougueiro, também com bons resultados. É provável que a quantidade reduzida de sangue tenha evitado reações alérgicas graves.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Sangue",
+      "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Mais da metade do volume do sangue é formada por uma parte líquida e amarelada. Como ela se chama?",
+    "resposta": "Plasma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blood_plasma",
+      "https://en.wikipedia.org/wiki/Blood"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Blood_plasma",
+        "situacao": "ok",
+        "texto": "Blood plasma is a light amber-colored liquid component of blood in which blood cells are absent, but which contains proteins and other constituents of whole blood in suspension. It makes up about 55% of the body's total blood volume. It is the intravascular part of extracellular fluid (all body fluid outside cells).\n[…]\nBlood plasma volume may be expanded by or drained to extravascular fluid when there are changes in Starling forces across capillary walls. For example, when blood pressure drops in circulatory shock, Starling forces drive fluid into the interstitium, causing third spacing.\n[…]\nStanding still for a prolonged period will cause an increase in transcapillary hydrostatic pressure. As a result, approximately 12% of blood plasma volume will cross into the extravascular compartment. This plasma shift causes an increase in hematocrit, serum total protein, blood viscosity and, as a result of increased concentration of coagulation factors, it causes orthostatic hypercoagulability.\n[…]\nCompared to serum, 15–20% larger volume of plasma can be obtained from a blood sample of certain size. Serum lacks some proteins that partake in coagulation and increase the sample volume.\n[…]\nAn unknown volume of anticoagulants can be added to a plasma sample by accident, which may ruin the sample as the analyte concentration is changed by an unknown amount.\n[…]\nThe use of blood plasma as a substitute for whole blood and for transfusion purposes was proposed in March 1918, in the correspondence columns of the British Medical Journal, by Gordon R. Ward. \"Dried plasmas\" in powder or strips of material format were developed and first used in World War II. Prior to the United States' involvement in the war, liquid plasma and whole blood were used.\n[…]\nBlood plasma fractionation\n[…]\nHypoxia preconditioned plasma\n[…]\nIntravascular volume status"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Blood",
+        "situacao": "ok",
+        "texto": "Blood is a specialized form of connective tissue  and body fluid in the circulatory system of humans and other vertebrates that delivers necessary substances such as nutrients and oxygen to the cells of the body, and transports metabolic waste products away from those same cells.\n[…]\nBlood accounts for 7% of the human body weight, with an average density around 1060 kg/m3, very close to pure water's density of 1000 kg/m3. The average adult has a blood volume of roughly 5 litres (11 US pt) or 1.3 gallons, which is composed of plasma and formed elements. The formed elements are the two types of blood cell or corpuscle – the red blood cells, (erythrocytes) and white blood cells (leukocytes) – and the cell fragments called platelets that are involved in clotting.\n[…]\nBy volume, the red blood cells constitute about 45% of whole blood, the plasma about 54.3%, and white cells about 0.7%.\n[…]\nAbout 55% of blood is blood plasma, a fluid that is the blood's liquid medium, which by itself is straw-yellow in color. The total blood plasma volume in an average human is 2.7–3.0 liters (2.8–3.2 quarts). It is essentially an aqueous solution containing 92% water, 8% blood plasma proteins, and trace amounts of other materials.\n[…]\nDisorders of volume\n[…]\nAfter severe acute blood loss, liquid preparations, generically known as plasma expanders, can be given intravenously, either solutions of salts (NaCl, KCl, CaCl2 etc.) at physiological concentrations, or colloidal solutions, such as dextrans, human serum albumin, or fresh frozen plasma.\n[…]\nIn these emergency situations, a plasma expander is a more effective life-saving procedure than a blood transfusion, because the metabolism of transfused red blood cells does not restart immediately after a transfusion."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Plasma_sangu%C3%ADneo",
+        "situacao": "ok",
+        "texto": "O plasma sanguíneo é a parte líquida do sangue e corresponde a 55% do volume total. Nele, proteínas, sais minerais, dióxido de carbono e outras substâncias estão dissolvidos em água.\n[…]\nO plasma realiza as seguintes funções:\n[…]\nO plasma contém água (90%), proteínas e outras substâncias dissolvidas, como gases, nutrientes, excretas, hormônios e enzimas. Entre as proteínas presentes no sangue, a mais abundante é a albumina. O plasma tem como função transportar os elementos figurados e substâncias dissolvidas, como nutrientes, medicamentos e produtos tóxicos (como por exemplo o dióxido de carbono). É também o plasma que transporta para todo o corpo os medicamentos que ingerimos.\n[…]\nO plasma permite o livre intercâmbio de diversos dos seus componentes com o líquido intersticial, através dos poros existentes na membrana capilar.\n[…]\nO volume médio de sangue de um adulto normal, de 60 ml/kg de peso, corresponde aproximadamente a 35 mL de plasma e 25 mL de hemácias por cada quilograma, quando o hematócrito está normal. A concentração de proteínas no plasma é três vezes maior que no líquido intersticial.\n[…]\nA linfa é um líquido transparente e esbranquiçado, levemente amarelado ou rosado, alcalino e de sabor salgado, constituído essencialmente pelo plasma sanguíneo, proteínas e por glóbulos brancos.\n[…]\nUm modo simples de separar as células do sangue do plasma é através de centrifugação.\n[…]\nO plasma fresco congelado que foi armazenado por um tempo maior que o padrão é reclassificado simplesmente como \"plasma congelado e estragado\", que é idêntico ao anterior, exceto pelo fato de que os fatores de coagulação não são mais considerados completamente viáveis.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Coração humano",
+      "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O coração humano tem quatro cavidades. Duas são os átrios. Como se chamam as outras duas?",
+    "resposta": "Ventrículos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heart",
+      "https://pt.wikipedia.org/wiki/Cora%C3%A7%C3%A3o"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Heart",
+        "situacao": "ok",
+        "texto": "The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels. The heart and blood vessels together make up the circulatory system. The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs. In humans, the heart is approximately the size of a closed fist and is located between \n[…]\nIn particular, the snake's heart relative to the position in their body has been influenced greatly by gravity. Therefore, snakes that are larger in size tend to have a higher blood pressure due to gravitational change. The ventricle is incompletely separated into two-halves by a wall (septum), with a considerable gap near the pulmonary artery and aortic openings.\n[…]\nThe atrium and ventricle are sometimes considered \"true chambers\", while the others are considered \"accessory chambers\".\n[…]\nPrimitive fish have a four-chambered heart, but the chambers are arranged sequentially so that this primitive heart is quite unlike the four-chambered hearts of mammals and birds. The first chamber is the sinus venosus, which collects deoxygenated blood from the body through the hepatic and cardinal veins. From here, blood flows into the atrium and then to the powerful muscular ventricle where the main pumping action will take place.\n[…]\nThe conus arteriosus is not present in any amniotes, presumably having been absorbed into the ventricles over the course of evolution. Similarly, while the sinus venosus is present as a vestigial structure in some reptiles and birds, it is otherwise absorbed into the right atrium and is no longer distinguishable.\n[…]\nSquids and other cephalopods have two \"gill hearts\" also known as branchial hearts, and one \"systemic heart\". The branchial hearts have two atria and one ventricle each, and pump to the gills, whereas the systemic heart pumps to the body."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cora%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "O coração é um órgão muscular presente nos humanos e em outros animais que bombeia o sangue através dos vasos sanguíneos do sistema circulatório. O sangue fornece ao corpo oxigénio e nutrientes e ajuda a eliminar resíduos metabólicos. Nos humanos, o coração situa-se na cavidade torácica entre os pulmões, num espaço denominado mediastino.\n[…]\nO coração humano possui quatro cavidades, ou câmaras: duas aurículas na parte superior e dois ventrículos na parte inferior. As aurículas recebem o sangue, enquanto os ventrículos têm a função de o bombear. O conjunto da aurícula e ventrículo direitos denomina-se \"coração direito\" e, da mesma forma, o conjunto da aurícula e ventrículo esquerdos denomina-se \"coração esquerdo\".\n[…]\nAssim, só nos mamíferos e nas aves é que existem duas correntes de sangue (sistémica e pulmonar) totalmente separadas por uma barreira física. O coração dos restantes mamíferos é idêntico ao coração humano. Possui quatro cavidades: duas aurículas na parte superior, que recebem o sangue, e dois ventrículos na parte inferior, de onde é bombeado o sangue, separadas por quatro válvulas.\n[…]\nO coração dos peixes é muitas vezes descrito como tendo duas cavidades – uma aurícula que recebe o sangue e um ventrículo que o bombeia. No entanto, apresenta também dois compartimentos, um de entrada e um de saída, que alguns autores classificam como cavidades. Assim, dependendo daquilo que se considera cavidade, o coração dos peixes também pode ser descrito como um coração de três cavidades ou de quatro cavidades.\n[…]\nOs cefalópodes têm dois corações branquiais e um coração sistémico. Os corações branquiais possuem duas aurículas e dois ventrículos cada um e têm a função de bombear sangue para as guelras, enquanto que o coração principal tem a função de bombear sangue para o corpo."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Vértebras cervicais",
+      "descricao": "Vértebras que formam a coluna na região do pescoço."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Apesar da enorme diferença de tamanho, humanos e girafas têm o mesmo número de vértebras no pescoço. Quantas são?",
+    "resposta": "Sete",
+    "distratores": [
+      "Cinco",
+      "Nove",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cervical_vertebrae",
+      "https://en.wikipedia.org/wiki/Giraffe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cervical_vertebrae",
+        "situacao": "ok",
+        "texto": "In tetrapods, cervical vertebrae (sing.: vertebra) are the vertebrae of the neck, immediately below the skull. Truncal vertebrae (divided into thoracic and lumbar vertebrae in mammals) lie caudal (toward the tail) of cervical vertebrae. In sauropsid species, the cervical vertebrae bear cervical ribs. In lizards and saurischian dinosaurs, the cervical ribs are large; in birds, they are small and co\n[…]\nThe cervical spinal nerves emerge from above the cervical vertebrae. For example, the cervical spinal nerve 3 (C3) passes above C3.\n[…]\nThe vertebra prominens, or C7, has a distinctive long and prominent spinous process, which is palpable from the skin surface. Sometimes, the seventh cervical vertebra is associated with an abnormal extra rib, known as a cervical rib, which develops from the anterior root of the transverse process.\n[…]\nThe transverse foramen may be as large as that in the other cervical vertebrae, but it is generally smaller on one or both sides; occasionally, it is double, and sometimes it is absent.\n[…]\nThe movement of nodding the head takes place predominantly through flexion and extension at the atlanto-occipital joint between the atlas and the occipital bone. However, the cervical spine is comparatively mobile, and some component of this movement is due to flexion and extension of the vertebral column itself. This movement between the atlas and occipital bone is often referred to as the \"yes joint\", owing to its nature of being able to move the head in an up-and-down fashion.\n[…]\nInjuries to the cervical spine are common at the level of the second cervical vertebrae, but neurological injury is uncommon. C4 and C5 are the areas that see the highest amount of cervical spine trauma.\n[…]\nVertebral column\n[…]\nCervical fracture\n[…]\nCervical Spine Anatomy\n[…]\nCervical vertebra quiz\n[…]\nCervical vertebrae - BlueLink Anatomy - University of Michigan Medical School"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Giraffe",
+        "situacao": "ok",
+        "texto": "Giraffes (genus Giraffa) are large African hoofed mammals. They are the tallest living terrestrial animals and the largest ruminants on Earth. They are classified under the family Giraffidae, along with their closest extant relative, the okapi. Traditionally, giraffes have been thought of as one species, Giraffa camelopardalis, with nine subspecies.\n[…]\nGiraffes have an extremely elongated neck, which can be up to 2.4 m (7.9 ft) in length. Along the neck is a mane made of short, erect hairs. The neck typically rests at an angle of 50–60 degrees, though juveniles are closer to 70 degrees. The long neck results from a disproportionate lengthening of the cervical vertebrae, not from the addition of more vertebrae. Each cervical vertebra is over 28 cm (11 in) long.\n[…]\nThe giraffe's neck vertebrae have ball and socket joints. The point of articulation between the cervical and thoracic vertebrae of giraffes is shifted to lie between the first and second thoracic vertebrae (T1 and T2), unlike in most other ruminants, where the articulation is between the seventh cervical vertebra (C7) and T1.\n[…]\nThis allows C7 to contribute directly to increased neck length and has given rise to the suggestion that T1 is actually C8, and that giraffes have added an extra cervical vertebra. However, this proposition is not generally accepted, as T1 has other morphological features, such as an articulating rib, deemed diagnostic of thoracic vertebrae, and because exceptions to the mammalian limit of seven cervical vertebrae are generally characterised by increased neurological anomalies and maladies.\n[…]\nZarafa, another famous giraffe, was brought from Egypt to Paris in the early 19th century as a gift for Charles X of France. A sensation, the giraffe was the subject of numerous memorabilia or \"giraffanalia\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/V%C3%A9rtebra_cervical",
+        "situacao": "ok",
+        "texto": "No corpo humano existem sete vértebras cervicais. O conjunto dessas vértebras forma a coluna vertebral cervical. A primeira vértebra cervical, o atlas, liga-se ao osso occipital e é responsável pela sustentação do crânio; a última vértebra cervical, chamada \"C7\", está acima da primeira vértebra torácica, \"T1\". Normalmente as vértebras cervicais arranjam-se de modo a formar uma suave curvatura na c\n[…]\nAs sete vértebras têm em comum um formato algo anelar, sendo que as cinco últimas têm a sua parte anterior mais desenvolvida, maior, a qual é formada pelo corpo vertebral.\n[…]\nNessa região anterior de cada vértebra, iniciando-se abaixo de C2, entre os corpos vertebrais, até a parte móvel inferior da coluna vertebral (região lombo-sacra), existe em cada intervalo um disco intervertebral coluna vertebral cervical que acompanham a medula espinhal ao longo do pescoço.\n[…]\nA principal diferença entre as vértebras cervicais das torácicas e lombares é que, além do menor tamanho, possuem de cada lado o forame transverso, através do qual passa a artéria vertebral - excepto na C7, sendo que essa pode ou não possuir o forame (e, mesmo se o possuir, através dele passam somente veias acessórias). O forame transverso localiza-se no processo transverso.\n[…]\nAs vértebras cervicais que são visualizadas na radiografias laterais da cabeça, são utilizadas na odontologia, mais especificamente na ortodontia e ortopedia funcional dos maxilares para estimar a idade óssea. Existe vários métodos que utilizam as vértebras para estimar a idade óssea, são eles: Hassel & Farman (1995), Baccetti et al (2005), Mito et al (2002). Existem muitos aplicativos para smartphone para estimar a idade óssea pelos métodos cervicais, como o Easy Age",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Dentes de leite",
+      "descricao": "Primeira dentição humana, que cai na infância e é substituída pelos dentes permanentes."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Uma criança com a dentição de leite completa tem quantos dentes na boca?",
+    "resposta": "20",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deciduous_teeth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deciduous_teeth",
+        "situacao": "ok",
+        "texto": "Deciduous teeth or primary teeth, also informally known as baby teeth, milk teeth, or temporary teeth, are the first set of teeth in the growth and development of humans and other diphyodonts, which include most mammals but not elephants, kangaroos, or manatees, which are polyphyodonts. Deciduous teeth develop during the embryonic stage of development and erupt (break through the gums and become v\n[…]\nPrimary teeth begin to form during the embryonic phase of human life. The development of primary teeth starts at the sixth week of tooth development as the dental lamina. This process starts at the midline and then spreads back into the posterior region. By the time the embryo is eight weeks old, there are ten buds on the upper and lower arches that will eventually become the primary (deciduous) dentition. These teeth will continue to form until they erupt in the mouth.\n[…]\nAn undesirable effect of treatment with MTA is the grey discoloration of treated teeth, but  this effect is purely esthetic and does not affect the success of pulp treatment.\n[…]\nVarious cultures have customs relating to the loss of deciduous teeth. In English-speaking countries, the tooth fairy is a popular childhood fiction that a fairy rewards children when their baby teeth fall out. Children typically place a tooth under their pillow at night or on a bedside table. The fairy is said to take the tooth and replace it with money or small gifts while they sleep. In some parts of Australia, Sweden and Norway, the children put the tooth in a glass of water.\n[…]\nIn medieval Scandinavia there was a similar tradition, surviving to the present day in Iceland, of tannfé, 'tooth-money', a gift to a child when it cuts its first tooth. In Nigeria, the Igbo in a similar custom expect a visiting relative or guest to make a gift or donation to an infant upon the visitor's sighting of the infant's deciduous teeth.\n[…]\nPermanent teeth"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dente_dec%C3%ADduo",
+        "situacao": "ok",
+        "texto": "O dente decíduo é o dente que surge durante a ontogenia de humanos e outros mamíferos. O desenvolvimento dentário começa durante o período embrionário e os dentes tornam-se visíveis (erupção dentária) na boca durante a infância. Esses dentes são popularmente conhecidos como dentes de leite, cuja denominação surgiu devido a sua coloração ser mais branca, opaca e leitosa.\n[…]\nQuando comparados aos permanentes se apresentam em menor tamanho e possuem as raízes mais curtas, além de não possuir os pré-molares e sisos. A dentição decídua completa é composta por 20 dentes.\n[…]\nAproximadamente, aos 6 meses (podem ocorrer variações) de idade inicia-se o processo de nascimento dos dentes denominado erupção dentária, esse processo continua até que os 20 dentes decíduos estejam em boca. A maioria dos bebês nasce sem dentes, mas as coroas totalmente formadas estão dentro da gengiva, prontas para surgir.\n[…]\nAs raízes da dentição decídua são mais finas quando comparadas as raízes dos dentes permanentes. Outra grande diferença entre os dentes primários e os dentes decíduos é o número deles. Normalmente, as pessoas têm 20 dentes de leite e 32 permanentes, incluindo os quatro dentes do siso. A falta (agenesia dentária) ou acréscimo (dente supranumerário) de elementos dentários pode ocorrer e é uma alteração comum.\n[…]\nNa dentição decídua há 20 dentes  no total: 8 incisivos, 4 caninos e 8 molares decíduos.\n[…]\nNão dê ao bebê chupetas que foram mergulhadas em uma substância doce nem permita que ele durma enquanto toma uma mamadeira com leite, fórmula, suco ou líquido adoçado, essas práticas podem ocasionar o surgimento da cárie. O primeiro conjunto de dentes de uma criança é uma grande oportunidade de aprendizado sobre bons hábitos de higiene bucal. Quando os dentes decíduos são saudáveis, preparam o caminho para dentes permanentes igualmente saudáveis.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Vacina BCG",
+      "descricao": "Vacina contra a tuberculose desenvolvida por Albert Calmette e Camille Guérin no início do século vinte."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A sigla BCG, da vacina contra a tuberculose, homenageia a dupla de cientistas franceses que a desenvolveu. Quem são eles?",
+    "resposta": "Albert Calmette e Camille Guérin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/BCG_vaccine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/BCG_vaccine",
+        "situacao": "ok",
+        "texto": "The Bacillus Calmette–Guérin (BCG) vaccine is a vaccine primarily used against tuberculosis (TB). It is named after its inventors Albert Calmette and Camille Guérin. In countries where tuberculosis or leprosy is common, one dose is recommended in healthy babies as soon after birth as possible. In areas where tuberculosis is not common, only children at high risk are typically immunized, while susp\n[…]\nA pre-injection tuberculin skin test is usually carried out before administering the BCG vaccine. A reactive tuberculin skin test is a contraindication to BCG due to the risk of severe local inflammation and scarring; it does not indicate immunity. BCG is also contraindicated in certain people who have IL-12 receptor pathway defects.\n[…]\nIran: Iran's vaccination policy was implemented in 1984. Vaccination with the Bacillus Calmette–Guerin (BCG) is among the most important tuberculosis control strategies in Iran [2]. According to Iranian neonatal vaccination policy, BCG has been given as a single dose to children aged <6 years, shortly after birth or at first contact with the health services.\n[…]\ntuberculosis.\n[…]\nAlbert Calmette, a French physician and bacteriologist, and his assistant and later colleague, Camille Guérin, a veterinarian, were working at the Institut Pasteur de Lille (Lille, France) in 1908. Their work included subculturing virulent strains of the tuberculosis bacillus and testing different culture media.\n[…]\nThe research continued throughout World War I until 1919 when the now avirulent bacilli were unable to cause tuberculosis disease in research animals. Calmette and Guerin transferred to the Paris Pasteur Institute in 1919. The BCG vaccine was first used in humans in 1921.\n[…]\nOther names include \"Vaccin Bilié de Calmette et Guérin vaccine\" and \"Bacille de Calmette et Guérin vaccine\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vacina_BCG",
+        "situacao": "ok",
+        "texto": "A vacina do bacilo Calmette–Guérin (BCG) é uma vacina usada principalmente na prevenção da tuberculose. Em países onde a tuberculose ou a lepra são comuns, é recomendada a administração de uma dose em bebés saudáveis o mais cedo possível após o nascimento. Em países onde a tuberculose não é comum, só são geralmente vacinadas crianças de risco elevado e os casos suspeitos de tuberculose são individ\n[…]\nA vacina pode também ser administrada em adultos sem tuberculose e que não tenham sido anteriormente vacinados, mas que sejam frequentemente expostos à doença. A vacina BCG tem também alguma eficácia contra a úlcera de Buruli e outras infeções por micobactérias não tuberculosas. Em alguns casos pode também ser usada como parte do tratamento de cancro da bexiga.\n[…]\nO nível de proteção contra a infeção por tuberculose varia significativamente e pode durar até 20 anos. Em crianças, a vacina previne cerca de 20% dos casos de infeção. Entre as que são infetadas, a vacina protege cerca de metade de vir a desenvolver doença. A vacina é administrada por via de injeção intradérmica. As evidências não apoiam a eficácia da administração de doses adicionais.\n[…]\nO bacilo começou a ser desenvolvido em 1906 por Albert León Charles Calmette e Jean Marie Camille Guérin, razão pela qual a fórmula recebeu a designação de BCG (bacilo de Calmette-Guérin). O bacilo foi sendo aperfeiçoado até se obter a atual constituição em 1919. O primeiro uso médico data de 18 de julho de1921. Faz parte da lista de medicamentos essenciais da Organização Mundial de Saúde, uma lista com os medicamentos mais eficazes e seguros fundamentais num sistema de saúde.\n[…]\nEm 2014, tinham sido vacinadas contra a tuberculose cerca de 100 milhões de crianças em todo o mundo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Vitamina",
+      "descricao": "Nutriente orgânico necessário em pequenas quantidades para o funcionamento do organismo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1912, o bioquímico Casimir Funk criou a palavra vitamina juntando vita, vida em latim, com o nome de qual tipo de substância química?",
+    "resposta": "Amina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Casimir_Funk",
+      "https://en.wikipedia.org/wiki/Vitamin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Casimir_Funk",
+        "situacao": "ok",
+        "texto": "Casimir Funk (born Kazimierz Funk; August 5, 1884 – November 19, 1967) was a Polish biochemist who formulated the definitive concept of vitamins and was the first to isolate a vitamin (vitamin B1) from rice bran in 1911. He coined the term \"vitamines\" (vital amines) in his landmark 1912 medical writing, establishing a major shift in scientific thinking by proving that specific nutritional deficien\n[…]\nIn 1911, he published his first paper in English, on dihydroxyphenylalanine. Funk was sure more than one substance like Vitamin B1 existed, and in his 1912 article for the Journal of State Medicine, he proposed the existence of at least four vitamins: one preventing beriberi (\"antiberiberi\"); one preventing scurvy (\"antiscorbutic\"); one preventing pellagra (\"antipellagric\"); and one preventing rickets (\"antirachitic\").\n[…]\nFrom there, Funk published a book, The Vitamines, in 1912, and later that year received a Beit Fellowship to continue his research.\n[…]\nA medical textbook distributed in 1997 by Taylor & Francis stated that Funk's 1912 release of his \"landmark publication\" in vitamins had internationally created a \"theory [that] provided a new concept for interpreting diet-related events.\"\n[…]\nHarow, Benjamin (1955). Casimir Funk: Pioneer in Vitamins and Hormones. New York: Dodd, Mead & Company. p. 209.\n[…]\nPiro, Anna; Tagarelli, Giuseppe; Lagonia, Paolo; Tagarelli, Antonio; Quattrone, Aldo (1 January 2010). \"Casimir Funk: His Discovery of the Vitamins and Their Deficiency Disorders\". Annals of Nutrition and Metabolism. 57 (2): 85–88. doi:10.1159/000319165. PMID 20805686. S2CID 9619130.\n[…]\nFunk, Casimir (2008). Complete Dictionary of Scientific Biography. Vol. 5. Detroit: Charles Scribner's Sons. pp. 208–9.\n[…]\nWorks by or about Casimir Funk at the Internet Archive"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vitamin",
+        "situacao": "ok",
+        "texto": "Vitamins are organic molecules (or a set of closely related molecules called vitamers) that are essential to an organism in small quantities for proper metabolic function. These essential nutrients cannot be synthesized in the organism in sufficient quantities for survival, and therefore must be obtained through consumption. For example, vitamin C can be synthesized by some species but not by othe\n[…]\nThe term \"vitamin\" was derived from \"vitamine\", a portmanteau coined from \"vital amine\" in 1912 by the biochemist Casimir Funk and his friend Max Nierenstein, Reader of Biochemistry at Bristol University, while Funk was working at the Lister Institute of Preventive Medicine.\n[…]\nIn 1912 Polish-born biochemist Casimir Funk, working in London, isolated the same complex of micronutrients and proposed the complex be named \"vitamine\", it was later to be known as vitamin B3 (niacin), though he described it as \"anti-beri-beri-factor\" (which would today be called thiamine or vitamin B1). Funk proposed the hypothesis that other diseases, such as rickets, pellagra, coeliac disease, and scurvy could also be cured by complexes like it.\n[…]\nIn Nigeria, the National Agency for Food and Drug Administration and Control has issued regulations which govern the supply and contents of vitamins and supplements.\n[…]\nThere are also lettered B substances (e.g., Bm) listed at B vitamins that are not recognized as vitamins. There are other \"D vitamins\" now recognised as other substances, which some sources of the same type number up to D7. The controversial cancer treatment laetrile was at one point lettered as vitamin B17. There appears to be no consensus on the existence of substances that may have at one time been named as vitamins Q, R, T, V, W, X, Y or Z.\n[…]\nVitamin deficiency\n[…]\nHealth Canada Dietary Reference Intakes Reference Chart for Vitamins\n[…]\n\"Vitamins and minerals\". nhs.uk. 23 October 2017."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casimir_Funk",
+        "situacao": "ok",
+        "texto": "Kazimierz Funk (kaˈʑimjɛʂˈ fuŋk\n[…]\n, 23 de fevereiro de 1884 – 19 de novembro de 1967), mais conhecido pela forma americana do seu nome, Casimir Funk, foi um bioquímico polonês, geralmente reconhecido como um dos primeiros a formular o conceito de vitaminas após publicar um artigo médico de referência em 1912. Ele destacou essas “aminas vitais” (ou “vitaminas”) como essenciais no combate a doenças significativas, como a pelagra e o raquitismo, e sua análise influenciou uma grande mudança no pensamento científico.\n[…]\nDepois de ler um artigo de Christiaan Eijkman que indicava que as pessoas que comiam arroz integral eram menos vulneráveis à beribéri do que aquelas que comiam apenas o produto totalmente moído, Funk tentou isolar a substância responsável e conseguiu. Como essa substância continha um grupo amina, ele a chamou de “vitamina”.\n[…]\nO “e” no final da palavra inglesa “vitamine” foi removido posteriormente, quando se percebeu que as vitaminas não precisam ser aminas contendo nitrogênio. Ele postulou a existência de outros nutrientes essenciais, que ficaram conhecidos como vitaminas B1, B2, C e D. Em 1936, ele determinou a estrutura molecular da tiamina, embora não tenha sido o primeiro a isolá-la. Funk também realizou pesquisas sobre hormônios, diabetes, úlceras pépticas e bioquímica do câncer.\n[…]\nHarow, Benjamin (1955). Casimir Funk: Pioneer in Vitamins and Hormones. New York: Dodd, Mead & Company. 209 páginas\n[…]\nWorks by or about Casimir Funk",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Hanseníase",
+      "descricao": "Doença infecciosa crônica causada pela bactéria Mycobacterium leprae, antes chamada de lepra."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No Brasil, a lepra passou a se chamar hanseníase em homenagem ao médico que identificou seu bacilo. De que país ele era?",
+    "resposta": "Noruega",
+    "distratores": [
+      "Suécia",
+      "Dinamarca",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gerhard_Armauer_Hansen",
+      "https://pt.wikipedia.org/wiki/Hansen%C3%ADase"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gerhard_Armauer_Hansen",
+        "situacao": "ok",
+        "texto": "Gerhard Henrik Armauer Hansen (Norwegian pronunciation: [ˈɡæ̂rhɑɖ ɑrˈmæ̀ʉər ˈhɑ̂nsn̩]; 29 July 1841 – 12 February 1912) was a Norwegian physician, remembered for his identification of the bacterium Mycobacterium leprae in 1873 as the etiologic agent of leprosy. His distinguished work was recognized at the International Leprosy Congress held at Bergen in 1909.\n[…]\nLeprosy was regarded as largely hereditary or otherwise miasmic in origin. Hansen concluded on the basis of epidemiological studies that leprosy was a communicable disease with a specific cause. In 1870–71 Hansen travelled to Bonn and Vienna to gain the training necessary for him to prove his hypothesis. In 1873, he announced the discovery of Mycobacterium leprae in the tissues of all people with the condition, although he did not identify them as bacteria, and received little support.\n[…]\nFurther, Hansen had attempted to infect at least one female patient with the nodular form of leprosy without consent, and although no damage was caused, the case ended up in court and Hansen lost his post at the hospital. The case helped introduce informed consent for medical research in Norway.\n[…]\nHansen remained medical officer for leprosy in Norway and it was through his efforts that the leprosy acts of 1877 and 1885 were passed, leading to a steady decline of the disease in Norway from 1,800 known cases in 1875 to just 575 cases in 1901.\n[…]\nLeprosy Museum (Lepramuseet) at St. Jørgen Hospital in Bergen has been dedicated to Hansen.\n[…]\nHaukeland University Hospital has established Armauer Hansens hus as a research facility operated by the University of Bergen.\n[…]\nIn Jerusalem, a 19th-century leprosarium has borne Hansen's name since 1950. It has been reconstructed into an art center while preserving the physician's surname in its title.\n[…]\nWorks by or about Gerhard Armauer Hansen at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hansen%C3%ADase",
+        "situacao": "ok",
+        "texto": "Hanseníase ou doença de Hansen (também conhecido vulgarmente como lepra) é uma infecção crônica causada pelas bactérias Mycobacterium leprae ou Mycobacterium lepromatosis. A infecção geralmente não manifesta sintomas durante os primeiros 5 a 20 anos, sendo que se vão desenvolvendo, geralmente, granulomas nos nervos, trato respiratório, pele e olhos.\n[…]\nA hanseníase afetou a humanidade durante milhares de anos. O termo \"lepra\" tem origem no termo grego λέπρᾱ (léprā), derivado de λεπῐ́ς (lepís; \"escama\"). O nome \"hanseníase\" é dado em homenagem ao médico norueguês Gerhard Armauer Hansen, que descobriu a causa da doença em 1873. Isolar os portadores da doença em leprosarias, outrora comum em todo o mundo, ainda ocorre na Índia, China, e África.\n[…]\nA palavra \"lepra\" tem origem no termo grego λέπρᾱ (léprā), derivado de λεπῐ́ς (lepís; \"escama\"). O termo \"hanseníase\", oficialmente aceito na comunidade científica para a correta designação da doença, é dado em homenagem ao médico norueguês Gerhard Armauer Hansen, que descobriu a causa da doença em 1873.\n[…]\nA hanseníase foi, durante muito tempo, incurável e muito mutiladora, forçando o isolamento dos pacientes em leprosarias (português de Portugal) ou leprosários (português do Brasil), principalmente na Europa durante a Idade Média, durante a qual eram obrigados a usar sinetas que anunciassem a sua presença, bem como roupas específicas, que ajudassem no seu reconhecimento por parte da restante população.\n[…]\n«Hansen's Disease (Leprosy)» (em inglês). Centros de Controle e Prevenção de Doenças (CDC)\n[…]\nLepra no Manual Merck\n[…]\nO Hospital-Colónia Rovisco Pais: a última leprosaria portuguesa e os universos contingentes da experiência e da memória. (Consultado em 30 de Março de 2011)\n[…]\nEstudo espacial e temporal da hanseníase no estado de São Paulo, 2004-2006. (Consultado em 7 de Junho de 2018)"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Íris",
+      "descricao": "Estrutura em forma de anel do olho que controla o tamanho da pupila e define a cor dos olhos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A parte colorida dos olhos tem o nome de qual deusa grega, mensageira dos deuses, que surgia no céu como uma faixa de cores?",
+    "resposta": "Íris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iris_(anatomy)",
+      "https://en.wikipedia.org/wiki/Iris_(mythology)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iris_(anatomy)",
+        "situacao": "ok",
+        "texto": "The iris (pl.: irides or irises) is a thin, ring-shaped structure in the eye in most mammals and birds that is responsible for controlling the diameter and size of the pupil, and thus the amount of light reaching the retina. In optical terms, the pupil is the eye's aperture, while the iris is the diaphragm. Eye color is defined by the iris.\n[…]\nAll the contributing factors towards eye color and its variation are not fully understood. Autosomal recessive/dominant traits in iris color are inherent in other species, but coloration can follow a different pattern.\n[…]\nIn contrast, heterochromia and variegated iris patterns are common in veterinary practice. Siberian Husky dogs show heterochromia, possibly analogous to the genetically determined Waardenburg syndrome of humans. Some white cat fancies (e.g., white Turkish Angora or white Turkish Van cats) may show striking heterochromia, with the most common pattern being one uniformly blue, the other copper, orange, yellow, or green.\n[…]\nStriking variation within the same iris is also common in some animals, and is the norm in some species. Several herding breeds, particularly those with a blue merle coat color (such as Australian Shepherds and Border Collies) may show well-defined blue areas within a brown iris, as well as separate blue and darker eyes.\n[…]\nOne eye with a white or bluish-white iris is also known as a \"walleye\".\n[…]\nIridology (also known as iridodiagnosis) is an alternative medicine technique whose proponents believe that patterns, colors, and other characteristics of the iris can be examined to determine information about a patient's systemic health. Practitioners match their observations to \"iris charts\", which divide the iris into zones corresponding to specific parts of the human body. Iridologists see the eyes as \"windows\" into the body's state of health.\n[…]\nIris recognition"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Iris_(mythology)",
+        "situacao": "ok",
+        "texto": "In ancient Greek religion and mythology, Iris (; EYE-riss; Ancient Greek: Ἶρις, romanized: Îris, lit. 'rainbow,' Ancient Greek: [îːris]) is a daughter of the gods Thaumas and Electra, and the personification of the rainbow. She functions as a messenger and servant to the Olympians, particularly Hera. Iris was traditionally seen as the consort of Zephyrus, the god of the west wind and one of the fo\n[…]\nIris is represented either as a rainbow or as a beautiful young maiden with wings on her shoulders. As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. This personification of a rainbow was once described as being a link between the heavens and earth.\n[…]\nIn some texts she is depicted wearing a coat of many colors. With this coat she actually creates the rainbows she rides to get from place to place. Iris' wings were said to be so beautiful that she could even light up a dark cavern, a trait observable from the story of her visit to Somnus in order to relay a message to Alcyone.\n[…]\nWhile Iris was principally associated with communication and messages, she was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities.\n[…]\nThe plant iris was named after her due to the wide variety of colours its flowers have.\n[…]\n7 Iris, a main-belt asteroid named after this goddess.\n[…]\nThe chemical element iridium was named after Iris for its colorful salts.\n[…]\nGrimal, Pierre (1996). \"Iris\". The Dictionary of Classical Mythology. ISBN 978-0-631-20102-1. pp. 237–238.\n[…]\nPeyré, Yves (2009). \"Iris\". A Dictionary of Shakespeare's Classical Mythology, ed. Yves Peyré.\n[…]\nSmith, William (1873). \"Iris\". Dictionary of Greek and Roman Biography and Mythology. London.\n[…]\nIRIS from Greek Mythology Link\n[…]\nThe Warburg Institute Iconographic Database (images of Iris)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%8Dris",
+        "situacao": "ok",
+        "texto": "Em anatomia, a íris é a parte mais visível (e colorida) do olho de vertebrados, e tem como sua função controlar os níveis de luz, assim como faz o diafragma de uma câmera fotográfica.\n[…]\nAlgumas pessoas (geralmente adultos maduros a partir dos 40 ou 50 anos) apresentam uma descoloração em forma de um círculo acinzentado ou esbranquiçado visível ao redor da íris denominada arco senil, que é causada por depósitos de células de lipídios (gordura) nas camadas profundas da córnea periférica sem ser contudo uma condição preocupante, já que é apenas um sinal do envelhecimento natural do corpo na maior parte dos casos.\n[…]\nEntretanto, uma descoloração similar da íris dos olhos em adultos jovens, com menos de 40 anos, denominada arco juvenil, é frequentemente associada com altas taxas de colesterol no sangue, o que deve ser avaliado por um médico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Daltonismo",
+      "descricao": "Deficiência na percepção de cores, em geral hereditária."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que químico inglês, famoso pela teoria atômica, descreveu a própria dificuldade de distinguir cores, condição que acabou ganhando o nome dele?",
+    "resposta": "John Dalton",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Daltonismo",
+      "https://en.wikipedia.org/wiki/John_Dalton"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Daltonismo",
+        "situacao": "ok",
+        "texto": "Daltonismo, também conhecido como discromatopsia ou discromopsia, é uma perturbação da percepção visual caracterizada pela incapacidade de diferenciar todas ou algumas cores, manifestando-se muitas vezes pela dificuldade em distinguir o verde do vermelho. Esta perturbação tem normalmente origem genética, mas pode também resultar de lesão nos olhos, ou de lesão de origem neurológica.\n[…]\nO distúrbio, que era conhecido desde o século XVIII, recebeu esse nome em homenagem ao químico John Dalton, que foi o primeiro cientista a estudar a anomalia da qual ele mesmo era portador.\n[…]\ndeuteranopia, em que há ausência de cones \"verdes\" ou de comprimento de onda intermédio, resultando, igualmente, na impossibilidade de discriminar cores no segmento verde-amarelo-vermelho do espectro.Trata-se de uma das formas de daltonismo mais comuns (cerca de 1% da população masculina), e corresponde àquela que afetou John Dalton (o diagnóstico foi confirmado em 1995, através do exame do Ácido desoxirribonucleico do seu globo ocular). O seu ponto neutro encontra-se nos 492 nm.\n[…]\nAtualmente não existe nenhum tipo de tratamento conhecido para esse distúrbio. Há, porém, uma empresa americana fabricando lentes que permitiriam a distinção de cores pelos daltônicos. Elas seriam seletivas quanto à passagem de luz, bloqueando o necessário para corrigir defeitos da visão. Os tais óculos devem custar cerca de US$ 700. Mas alguns estudiosos ainda encaram a iniciativa com reservas alegando que não há estudos científicos que reconhecidamente indiquem o método.\n[…]\nHunt, D.M.; Dulai, K.S.; Bowmaker, J.K.; Mollon, J.D. (fevereiro de 1995). «The chemistry of John Dalton's color blindness» (PDF). Science. 267 (5200). 984 páginas. ISSN 1095-9203. Consultado em 19 de agosto de 2016\n[…]\n«Daltonismo e Acessibilidade na Web». Artigo com ilustrações\n[…]\n«Simulador de daltonismo» (em inglês)\n[…]\nComo trabalhar com um aluno daltônico?"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Dalton",
+        "situacao": "ok",
+        "texto": "John Dalton (; 5 or 6 September 1766 – 27 July 1844) was an English chemist, physicist, and meteorologist whose work laid the foundations of modern atomic theory and stoichiometric chemistry.\n[…]\nDalton, John (1893). Foundations of the Atomic Theory. Edinburgh: William F. Clay. Retrieved 24 December 2007.– Alembic Club reprint with some of Dalton's papers, along with some by William Hyde Wollaston and Thomas Thomson\n[…]\nJohn Dalton Papers at John Rylands Library, Manchester.\n[…]\nHunt, D.M.; Dulai, K.S.; Bowmaker, J.K.; Mollon, J.D. (1995). \"The Chemistry of John Dalton's Color Blindness\". Science. 267 (5200): 984–988. Bibcode:1995Sci...267..984H. doi:10.1126/science.7863342. PMID 7863342. S2CID 6764146.\n[…]\nPatterson, Elizabeth C. (1970). John Dalton and the Atomic Theory. Garden City, New York: Anchor.\n[…]\nRocke, Alan J. (2005). \"In Search of El Dorado: John Dalton and the Origins of the Atomic Theory\". Social Research. 72 (1): 125–158. doi:10.1353/sor.2005.0003. JSTOR 40972005. S2CID 141350239.\n[…]\nRoscoe, Henry E. (1895). John Dalton and the Rise of Modern Chemistry. London: Macmillan. Retrieved 24 December 2007. ISBN 9780608325361\n[…]\nSmith, R. Angus (1856). Memoir of John Dalton and History of the Atomic Theory. London: H. Bailliere. Retrieved 24 December 2007. ISBN 978-1-4021-6437-8\n[…]\nThackray, Arnold (1972). John Dalton: Critical Assessments of His Life and Science. Harvard University Press. ISBN 978-0-674-47525-0.\n[…]\nMedia related to John Dalton at Wikimedia Commons\n[…]\nWorks by or about John Dalton at Wikisource\n[…]\nWorks by John Dalton at LibriVox (public domain audiobooks)\n[…]\n\"Dalton, John (1766–1844)\" . Dictionary of National Biography. Vol. 13. 1888.\n[…]\nJohn Dalton Manuscripts at John Rylands Library"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Rodrigues Alves",
+      "descricao": "Político paulista, presidente do Brasil de 1902 a 1906, reeleito em 1918 mas morto antes da posse."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Eleito para um segundo mandato, o presidente Rodrigues Alves morreu em 1919 sem tomar posse. Ele foi vítima de qual pandemia?",
+    "resposta": "Gripe espanhola",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rodrigues_Alves"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+        "situacao": "ok",
+        "texto": "Francisco de Paula Rodrigues Alves (Guaratinguetá, 7 de julho de 1848 – Rio de Janeiro, 16 de janeiro de 1919) foi um advogado e político brasileiro, conselheiro do Império, presidente da província de São Paulo, presidente do estado de São Paulo, ministro da fazenda e quinto presidente do Brasil.\n[…]\nEm 1 de março de 1918 Rodrigues Alves foi eleito para um novo mandato, tornando-se o primeiro presidente a ser eleito por duas vezes pelo voto popular na história do Brasil, sendo seu vice Delfim Moreira. Em outubro de 1918, próximo à posse presidencial, Rodrigues Alves contraiu a gripe espanhola, que assolava o país. Afastado das atividades, não voltaria mais ao Palácio do Catete, então sede da presidência da República.\n[…]\nSegundo as autoras, não há nenhum documento que sustente que a doença que afligiu Rodrigues Alves foi a gripe, a não ser um relato de um de seus filhos que afirmou que uma gripe havia impedido seu pai de tomar posse como presidente — note-se que não afirmou se tratar de Gripe Espanhola, deixando em aberto se se tratava de gripe comum ou espanhola. Schwarcz e Starling sustentam suas posições em, basicamente, duas dimensões: uma simbólica e outra política.\n[…]\nSabendo que Rodrigues Alves não conseguiria tomar posse, criou-se o impasse de sua sucessão, não poderia renunciar pois isso tornaria explicito para as oligarquias de Minas Gerais, Rio Grande do Sul, Bahia, Rio de Janeiro e Pernambuco que os paulistas sabiam da situação de longa data do ex-presidente. Sendo assim, o boato de que Rodrigues Alves sofria de gripe espanhola \"veio bem a calhar\".\n[…]\nSILVA, Gastão Pereira da. Rodrigues Alves e Sua Época. São Paulo: Ed. A Noite, s.d..\n[…]\nManifesto inaugural de Francisco de Paula Rodrigues Alves, presidente eleito para o quadriênio de 1902 a 1906, em 15 de novembro de 1902"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Febre puerperal",
+      "descricao": "Infecção que acomete mulheres após o parto, grande causa de mortes maternas nos hospitais do século dezenove."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na década de 1840, em Viena, Ignaz Semmelweis percebeu que muitas mães morriam de febre após o parto porque os médicos deixavam de fazer o quê?",
+    "resposta": "Lavar as mãos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "https://pt.wikipedia.org/wiki/Ignaz_Semmelweis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+        "situacao": "ok",
+        "texto": "Ignaz Philipp Semmelweis (German: [ˈɪɡnaːts ˈfɪlɪp ˈzɛml̩vaɪs]; Hungarian: Semmelweis Ignác Fülöp [ˈsɛm(ː)ɛlvɛjs ˈiɡnaːts ˈfyløp]; 1 July 1818 – 13 August 1865) was a Hungarian medical doctor and scientist of German descent who was an early pioneer of antiseptic procedures, known as the \"saviour of mothers\". Postpartum infection, also known as puerperal fever or childbed fever, was common in the 1\n[…]\nSemmelweis was puzzled that puerperal fever was rare among women giving street births, prompting his curiosity as to what protected those who delivered outside the clinic.\n[…]\nDuring 1848, Semmelweis widened the scope of his washing protocol, to include all instruments coming in contact with patients in labour, and used mortality rates time series to document his success in virtually eliminating puerperal fever from the hospital ward.\n[…]\nDespite the impressive results, Semmelweis's ideas were not accepted by the other obstetricians in Budapest. The professor of obstetrics at the University of Pest, Ede Flórián Birly, never adopted Semmelweis's methods, continuing to believe that puerperal fever was due to uncleanliness of the bowel; therefore, extensive purging was the preferred treatment.\n[…]\nBesides the persistent rejection (explained further-above) by his predecessor, the professor of obstetrics Ede Flórián Birly, August Breisky, an obstetrician in Prague, dismissed Semmelweis's book as naïve and referred to it as \"the Koran of puerperal theology\". Breisky objected that Semmelweis had not proved that puerperal fever and pyemia are identical, and he insisted that other factors beyond decaying organic matter certainly had to be included in the etiology of the disease.\n[…]\nGenius Belabored: Childbed Fever and the Tragic Life of Ignaz Semmelweis, by Theodore G. Obenchain.\n[…]\nWorks by Ignaz Semmelweis at Project Gutenberg\n[…]\nWorks by or about Ignaz Philipp Semmelweis at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ignaz_Semmelweis",
+        "situacao": "ok",
+        "texto": "Ignaz Philipp Semmelweis (alemão: [ɪˈɡnaːts ˈzɛml̩vaɪs]; em húngaro:  Semmelweis Ignác Fülöp; Buda, Reino da Hungria, 1 de julho de 1818 – Viena, Império Austríaco (atual Áustria), 13 de agosto de 1865) foi um médico húngaro de ascendentes alemães, conhecido como um pioneiro dos procedimentos antissépticos.\n[…]\nDescrito como o \"salvador das mães\", Semmelweis descobriu que a incidência de infecção pós-parto (também conhecida como febre de parto) poderia ser drasticamente reduzida pelo uso da desinfecção das mãos em clínicas obstétricas. A infecção pós-parto era comum nos hospitais na metade do século XIX e frequentemente fatal.\n[…]\nSemmelweis propôs a prática de lavar as mãos com hipoclorito de cálcio em 1847 quando trabalhava no Hospital Geral de Viena, onde as enfermarias dos médicos tinham o triplo da mortalidade das enfermarias da obstetrícia. Publicou o livro Etiologia, Conceito e Profilaxia da Febre Puerperal.\n[…]\nA despeito de várias publicações de resultados onde lavar as mãos reduziu a mortalidade para menos de 1%, as observações de Semmelweis entraram em conflito com as opiniões científicas e médicas estabelecidas da época e suas idéias foram rejeitadas pela comunidade médica. Semmelweis não forneceu nenhuma explicação científica aceitável para suas descobertas, e alguns médicos ficaram ofendidos com a sugestão de que deveriam lavar as mãos.\n[…]\nSemmelweis propôs imediatamente uma conexão entre contaminação cadavérica e febre puerperal.\n[…]\nA teoria microbiana das doenças ainda não havia sido aceita em Viena. Assim, Semmelweis concluiu que um \"material cadavérico\" desconhecido causava febre no parto. Ele instituiu uma política de uso da solução de hipoclorito de cálcio para lavar as mãos entre o trabalho de autópsia e o exame dos pacientes.\n[…]\nTan S Y and Brown J Ignaz Philipp Semmelweis"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Instituto Butantan",
+      "descricao": "Centro de pesquisa biomédica e produtor de soros e vacinas em São Paulo, criado no início do século vinte."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Instituto Butantan foi criado em São Paulo, na virada para o século vinte, para produzir soro contra qual doença que chegara pelo porto de Santos?",
+    "resposta": "Peste bubônica",
+    "distratores": [
+      "Febre amarela",
+      "Varíola",
+      "Cólera"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Instituto_Butantan"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Instituto_Butantan",
+        "situacao": "ok",
+        "texto": "Instituto Butantan é um destacado centro de pesquisa científica e produção de imunobiológicos localizado no Butantã, na Zona Oeste da cidade de São Paulo, adjacente ao campus Cidade Universitária da Universidade de São Paulo. O Instituto é uma instituição pública ligada à Secretaria de Estado da Saúde de São Paulo, do Governo do Estado de São Paulo desde sua fundação. Por seu trabalho notável em s\n[…]\nO Instituto Butantan surgiu em 1899 (final do século XIX) para ajudar no combate a um surto de peste bubônica que se propagava no estado de São Paulo a partir do Porto de Santos. Temendo que a doença atingisse a capital, o governo paulista convocou o Instituto Bacteriológico (atual Instituto Adolfo Lutz) para tentar resolver o problema. Seu diretor, Adolfo Lutz, mandou para essa cidade o assistente Vital Brazil.\n[…]\nEm junho de 1901, quando a peste bubônica já havia chegado à cidade de São Paulo, o Instituto começou a produzir o soro antipestoso – considerado pelo Instituto Pasteur de Paris a grande arma para vencer a peste bubônica. A situação da epidemia de peste bubônica só mudaria em 1902, quando a instituição começou a produzir a vacina antipestosa, seguindo a técnica criada pelo italiano Camillo Terni do Instituto de Messina, a partir da vacina desenvolvida pelo médico russo Waldemar Haffkine.\n[…]\nEm 1906, com o controle da peste bubônica e a diminuição da demanda por vacina e soro antipestosos, o Butantan passou a produzir e disponibilizar à população soro antidiftérico. A difteria, ou crupe, havia sido introduzida no Brasil no final do século XIX por imigrantes europeus, e se espalhou rapidamente pelas grandes cidades, tornando-se endêmica nos meses de outono e inverno.\n[…]\nApós investimento de R$ 240 milhões, a fábrica de derivados de sangue, implantada em 2008, nunca produziu vacinas e medicamentos, constatados por institutos fiscalizadores do Estado de São Paulo em 2017."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Surto de cólera da Broad Street",
+      "descricao": "Epidemia de cólera em Londres, em 1854, investigada pelo médico John Snow."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1854, em Londres, o médico John Snow marcou num mapa as mortes por cólera e descobriu de onde vinha a doença. Qual era a origem?",
+    "resposta": "Uma bomba d'água contaminada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+      "https://en.wikipedia.org/wiki/John_Snow"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+        "situacao": "ok",
+        "texto": "A severe outbreak of cholera occurred in 1854 near Broad Street (now Broadwick Street) and Golden Square in Soho, London, England, during the worldwide 1846–1860 cholera pandemic. The outbreak (also known as Golden Square outbreak), which killed 420 people, is best known for the physician John Snow's study of its causes and his hypothesis that germ-contaminated water was the cause, rather than som\n[…]\nSnow, finding that the water the residents were using was no different from the usual water from their pump, determined that the outbreak must be caused by a leak in the pipes that allowed surrounding sewage and its contaminants to seep in to the water supply. This was similar to the Broad Street outbreak. The incoming water was being contaminated by the increasing levels of sewage, coupled with lack of safe plumbing.\n[…]\nA former believer in the miasma theory of disease, Whitehead worked to disprove false theories. He was influenced by Snow's theory that cholera spreads by consumption of water contaminated by human waste. Snow's work, particularly his maps of the Soho area cholera victims, convinced Whitehead that the Broad Street pump was the source of the local infections. Whitehead joined Snow in tracking the contamination to a faulty cesspool and the outbreak's index case (the baby with cholera).\n[…]\nDr Edwin Lankester was a physician on the local research conglomerate that studied the 1854 Broad Street cholera epidemic. In 1866, Lankester wrote about Snow's conclusion that the pump caused the outbreak. He agreed with Snow at the time, but his opinion, like Snow's, was not publicly supported. Lankester subsequently closed the pump due to Snow's theory and data on the pattern of infection, and infection rates dropped significantly.\n[…]\nBall, Laura (2009). \"Cholera and the Pump on Broad Street: The Life and Legacy of John Snow\". The History Teacher. 43 (1): 105–119. JSTOR 40543358."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Snow",
+        "situacao": "ok",
+        "texto": "John Snow (15 March 1813 – 16 June 1858) was an English physician and a leader in the development of anaesthesia and medical hygiene. He is considered one of the founders of modern epidemiology and early germ theory, in part because of his work in tracing the source of a cholera outbreak in London's Soho, which he identified as a particular public water pump.\n[…]\nThe neighbourhood was one of the poorest in the city, and was frequently in danger of flooding because of its proximity to the River Ouse. Growing up, Snow experienced unsanitary conditions and contamination in his hometown. Most of the streets were unsanitary and the river was contaminated by runoff water from market squares, cemeteries and sewage.\n[…]\nAfter the cholera epidemic had subsided, government officials replaced the Broad Street pump handle. They had responded only to the urgent threat posed to the population, and afterward they rejected Snow's theory. To accept his proposal would have meant indirectly accepting the fecal-oral route of disease transmission, which was too unpleasant for most of the public to contemplate.\n[…]\nFarr denied Snow's explanation of how exactly the contaminated water spread cholera, although he did accept that water had a role in the spread of the illness. In fact, some of the statistical data that Farr collected helped promote John Snow's views.\n[…]\nA plaque commemorates Snow and his 1854 study in the place of the water pump on Broad Street (now Broadwick Street). It shows a water pump with its handle removed. The spot where the pump stood is covered with red granite.\n[…]\nHempel, Sandra (2006). The Medical Detective: John Snow, Cholera, and the Mystery of the Broad Street Pump. Granta Books. ISBN 1862078424\n[…]\nInteractive versions of the John Snow's Map of Board Street Cholera Outbreak\n[…]\nPredictionX: John Snow and the Cholera Epidemic of 1854 (a Harvard/edX MOOC)"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Tétano",
+      "descricao": "Doença causada pela toxina da bactéria Clostridium tetani, que provoca espasmos musculares."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Muita gente culpa a ferrugem dos pregos, mas o tétano é causado por uma bactéria que costuma viver onde?",
+    "resposta": "No solo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetanus",
+      "https://en.wikipedia.org/wiki/Clostridium_tetani"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tetanus",
+        "situacao": "ok",
+        "texto": "Tetanus (from Ancient Greek  τέτανος 'tension', 'stretched', 'rigid'), also known as lockjaw, is a bacterial infection caused by Clostridium tetani and characterized by muscle spasms. In the most common type, the spasms begin in the jaw and then progress to the rest of the body. Each spasm usually lasts for a few minutes. Spasms occur frequently for three to four weeks. Some spasms may be severe e\n[…]\nThere are currently no blood tests for diagnosing tetanus. The diagnosis is based on the presentation of tetanus symptoms. It does not depend upon isolation of the bacterium, which is recovered from the wound in only 30% of cases. C. tetani can be isolated from people without tetanus. Laboratory identification of C. tetani can be demonstrated only by the production of tetanospasmin in mice.\n[…]\nUnlike many infectious diseases, recovery from naturally acquired tetanus does not usually result in immunity. This is due to the extreme potency of tetanospasmin. Tetanospasmin will likely be lethal before it provokes an immune response.\n[…]\nTetanus was well known to ancient civilizations, who recognized the relationship between wounds and fatal muscle spasms. In 1884, Arthur Nicolaier isolated the strychnine-like toxin of tetanus from free-living, anaerobic soil bacteria. The etiology of the disease was further elucidated in 1884 by Antonio Carle and Giorgio Rattone, two pathologists at the University of Turin, who demonstrated, for the first time, the transmissibility of tetanus.\n[…]\nDescombey in 1924, and was widely used to prevent tetanus induced by battle wounds during World War II.\n[…]\nThe word tetanus comes from the Greek τέτανος, tetanos, 'taut', which is further from the Greek τείνειν, teinein, 'to stretch'.\n[…]\nTetanus Information from Medline Plus\n[…]\nTetanus Surveillance -- United States, 1998-2000 (Data and Analysis)\n[…]\n\"Tetanus\". MedlinePlus. U.S. National Library of Medicine."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Clostridium_tetani",
+        "situacao": "ok",
+        "texto": "Clostridium tetani is a common soil bacterium and the causative agent of tetanus, a  disease that afflicts up to 400,000 people each year, mainly newborns. Vegetative cells of Clostridium tetani are usually rod-shaped and up to 2.5 μm long, but they become enlarged and tennis racket- or drumstick-shaped when forming spores. C. tetani spores are extremely hardy and can be found globally in soil or \n[…]\ntetani can grow and produce a potent toxin, tetanospasmin, which interferes with motor neurons, causing tetanus. The toxin's action can be prevented with tetanus toxoid vaccines, which are often administered to children worldwide.\n[…]\nThe gene encoding tetanospasmin is found on a plasmid carried by many strains of C. tetani; strains of bacteria lacking the plasmid are unable to produce toxin. The function of tetanospasmin in bacterial physiology is unknown.\n[…]\nClostridium tetani is susceptible to a number of antibiotics, including chloramphenicol, clindamycin, erythromycin, penicillin G, and tetracycline. However, the usefulness of treating C. tetani infections with antibiotics remains unclear. Instead, tetanus is often treated with tetanus immune globulin to bind up circulating tetanospasmin. Additionally, benzodiazepines or muscle relaxants may be given to reduce the effects of the muscle spasms.\n[…]\nDamage from C. tetani infection is generally prevented by administration of a tetanus vaccine consisting of tetanospasmin inactivated by formaldehyde, called tetanus toxoid. This is made commercially by growing large quantities of C. tetani in fermenters, then purifying the toxin and inactivating in 40% formaldehyde for 4–6 weeks. The toxoid is generally coadministered with diphtheria toxoid and some form of pertussis vaccine as DPT vaccine or DTaP.\n[…]\nType strain of Clostridium tetani at BacDive -  the Bacterial Diversity Metadatabase"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/T%C3%A9tano",
+        "situacao": "ok",
+        "texto": "Tétano é uma infeção bacteriana grave caracterizada por espasmos musculares. No tipo mais comum, os espasmos têm início no maxilar e progridem para o resto do corpo. Os episódios de espasmos têm geralmente a duração de alguns minutos e ocorrem com frequência durante três ou quatro semanas. Os espasmos podem ser intensos de tal forma que podem provocar fraturas ósseas. Os outros sintomas podem incl\n[…]\nO tétano é causado pela infeção com a bactéria Clostridium tetani, a qual se encontra frequentemente no solo, no pó e no estrume. As bactérias geralmente penetram no organismo através de uma abertura na pele, como um corte ou uma punção, feitos por um objeto contaminado. Produzem toxinas que interferem com a contração dos músculos, o que produz os sintomas típicos da doença. O diagnóstico tem por base a observação dos sinais e sintomas. A doença não é contagiosa.\n[…]\nEmbora o tétano ocorra em todas as regiões do mundo, é mais frequente em climas quentes e húmidos e onde o solo contenha maior quantidade de matéria orgânica. Em 2013, a doença foi a causa de 59 000 mortes, uma diminuição em relação às 356 000 em 1990. A descrição mais antiga da doença que se conhece foi feita por Hipócrates desde o século V a.C. A causa foi determinada em 1884 por Antonio Carle e Giorgio Rattone na Universidade de Turim, tendo a vacina sido desenvolvida em 1924.\n[…]\nRisus sardonicus (riso causado pelo espasmo dos músculos em volta da boca);\n[…]\noxidantes ou antissépticas (é resistente a determinados desinfetantes: fenol, formol e etanol, mas são destruídas por peróxido de hidrogênio - água oxigenada) e tratados adequadamente para evitar a proliferação de bactérias nocivas no organismo, não só de tétano. O ferimento deve ser coberto com uma gaze ou algodão limpos para evitar-se contaminações.\n[…]\nO tétano pode ser evitado:\n[…]\nGrunhidos causados pelos espasmos;",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Joseph-Ignace Guillotin",
+      "descricao": "Francês do século dezoito cujo nome foi dado à guilhotina, após ele propor um método de execução menos cruel."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O francês Joseph-Ignace Guillotin, cujo nome acabou batizando a guilhotina, exercia qual profissão?",
+    "resposta": "Médico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+      "https://pt.wikipedia.org/wiki/Joseph-Ignace_Guillotin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+        "situacao": "ok",
+        "texto": "Joseph-Ignace Guillotin (French: [ʒozɛf iɲas ɡijɔtɛ̃]) (28 May 1738 – 26 March 1814) was a French physician, politician, and freemason who proposed on 10 October 1789 the use of a device to carry out executions in France, as a less painful method of execution than existing methods. Although he did not invent the guillotine and opposed the death penalty, his name became an eponym for it. The actual\n[…]\nGuillotin was born on 28 May 1738 in Saintes, France, the second son of Joseph-Alexandre Guillotin and Catherine Agatha Martin. Legend has it that he was born prematurely because his mother was in distress after hearing the screams of a man being tortured to death on the breaking wheel.\n[…]\nThe Moniteur of 18 December 1789 deplored the joking but repeated Guillotin's \"twinkling of an eye\" statement for posterity.\n[…]\nJoseph Guillotin was initiated into Freemasonry, in 1765 at \"La Parfaite Union\" lodge in Angoulême. Very active as a mason, he joined several other lodges. As a deputy of the Grand Lodge from 1772 he took part in the birth of the Grand Orient of France and attended all its conventions until 1790. In 1773, he became Worshipful Master of the lodge \"La Concorde Fraternelle\" in Paris. In 1776, he founded the \"La Vérité\" lodge and often attended Les Neuf Sœurs.\n[…]\nFranklin, B., Majault, M.J., Le Roy, J.B., Sallin, C.L., Bailly, J.-S., d'Arcet, J., de Bory, G., Guillotin, J.-I. & Lavoisier, A., \"Report of The Commissioners charged by the King with the Examination of Animal Magnetism\", International Journal of Clinical and Experimental Hypnosis, Vol.50, No.4, (October 2002), pp. 332–363. doi=10.1080/00207140208410109\n[…]\nMedia related to Joseph Ignace Guillotin at Wikimedia Commons\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Guillotine\". Encyclopædia Britannica. Vol. 12 (11th ed.). Cambridge University Press. pp. 694–695."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+        "situacao": "ok",
+        "texto": "Joseph-Ignace Guillotin (ɡijɔtɛ̃) (Saintes, 28 de maio de 1738 – Paris, 26 de março de 1814) foi um médico francês que propôs, em 10 de outubro de 1789, o uso de um dispositivo mecânico para realizar as penas de morte na França. Embora não tenha inventado a guilhotina e, na verdade, fosse contrário à pena de morte, seu nome tornou-se um epônimo para ela.\n[…]\nNo fim do Terror, Guillotin foi preso e encarcerado por causa de uma carta do conde de Méré, que, prestes a ser executado, recomendou sua esposa e filhos a cuidados médicos. Ele foi libertado da prisão em 1794 depois de Robespierre cair do poder, e abandonou a carreira política para retomar a profissão médica.\n[…]\nGuillotin se tornou um dos primeiros médicos franceses a apoiar a descoberta de Edward Jenner da vacinação e em 1805 foi o Presidente do Comitê de Vacinação, em Paris. Ele também foi um dos fundadores da Académie Nationale de Médecine de Paris.\n[…]\nA associação com a guilhotina envergonhou a família de Dr. Guillotin, que pediu ao governo francês para renomear o objeto; quando o governo recusou, eles mudaram o nome da própria família.\n[…]\nPor coincidência, uma pessoa chamada Guillotin foi realmente executada pela guilhotina — ele era JMV Guillotin, um médico de Lyon. Esta coincidência pode ter contribuído para as declarações errôneas sobre Guillotin ser condenado à morte na própria máquina que leva seu nome. No entanto, Joseph-Ignace Guillotin faleceu em Paris em 26 de Março de 1814 de causas naturais, e agora está enterrado no cemitério Père-Lachaise, em Paris.\n[…]\nProjet de décret sur l'enseignement et l'exercice de l'art de guérir, présenté au nom du Comité de salubrité par M. Guillotin, Paris : Impr. nationale, 1791, In-8° , 39 p.\n[…]\nMedia relacionados com Joseph-Ignace Guillotin no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Bastão de Asclépio",
+      "descricao": "Bastão com uma única serpente enrolada, símbolo tradicional da medicina."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O símbolo tradicional da medicina, um bastão com uma única serpente enrolada, pertence a qual deus grego da cura?",
+    "resposta": "Asclépio (Esculápio para os romanos)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rod_of_Asclepius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rod_of_Asclepius",
+        "situacao": "ok",
+        "texto": "The Rod of Asclepius (⚕; , Ancient Greek: Ῥάβδος τοῦ Ἀσκληπιοῦ, Rhábdos toû Asklēpioû, sometimes also spelled Asklepios), also known as the Staff of Aesculapius, is a serpent-entwined rod wielded by the Greek god Asclepius, a deity in Greek mythology associated with healing and medicine. In modern times, it is the predominant symbol for medicine and health care (although the similar caduceus, whic\n[…]\nAsclepius derived his name from healing soothingly and from deferring the withering that comes with death. For this reason, therefore, they give him a serpent as an attribute, indicating that those who avail themselves of medical science undergo a process similar to the serpent in that they, as it were, grow young again after illnesses and slough off old age; also because the serpent is a sign of attention, much of which is required in medical treatments.\n[…]\nIt is relatively common, especially in the United States, to find the caduceus, with its two snakes and wings, (mis)used as a symbol of medicine instead of the Rod of Asclepius, with only a single snake. This usage was popularized by the adoption of the caduceus as its insignia by the U.S. Army Medical Corps in 1902 at the insistence of a single officer (though there are conflicting claims as to whether this was Capt. Frederick P. Reynolds or Col. John R. van Hoff).\n[…]\nThe long-standing historical association of the caduceus with commerce has engendered significant criticism of its use in medicine. Medical professionals argue that the Rod of Asclepius better represents the field of medicine. Writing  in the journal Scientific Monthly, Stuart L. Tyson said of the Staff of Hermes (the caduceus):\n[…]\nA symbol for the rod of Asclepius has a code point (U+2695 ⚕ STAFF OF AESCULAPIUS) in the Miscellaneous Symbols table of the Unicode Standard.\n[…]\nMedia related to Rod of Asclepius at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bord%C3%A3o_de_Ascl%C3%A9pio",
+        "situacao": "ok",
+        "texto": "O bordão ou bastão de Esculápio ou Asclépio é um símbolo antigo, relacionado com a astrologia e com a cura dos doentes através da medicina. Consiste de um bastão envolvido por uma serpente. Às vezes é confundido com o caduceu de Hermes (Mercúrio), que consiste num bastão com duas serpentes enroscadas e asas no alto. Esculápio (em latim: Aesculapius) era o deus romano da medicina e da cura.\n[…]\nEm várias esculturas procedentes de templos de Asclépio greco-romanos, o deus da medicina é sempre representado segurando um bastão com uma serpente em volta, o qual se tornou o símbolo da medicina.\n[…]\nO bastão de Asclépio (o idealizado como símbolo da medicina) é uma serpente dando duas voltas e meia em torno do bastão de madeira. Entretanto, equivocadamente a Marinha dos Estados Unidos adota o símbolo de Hermes ao seu corpo médico e há uma certa divergência leiga acerca da utilização dos caduceus — ou bastões. O caduceu de Hermes, que na verdade tem uma representação da Contabilidade, é descrito como um bastão de ferro, com duas serpentes e ao final anexado um par de asas.\n[…]\nHá referências bíblicas ao bordão de Esculápio. \"E disse o Senhor a Moisés: Faz para ti uma serpente ardente, e põe-na sobre uma haste; e viverá todo aquele que, tendo sido mordido, olhar para ela.\" A passagem é uma referência sem constituição datada historicamente, (apesar das investigações arqueológicas que buscam datar a Bíblia e os eventos nela descritos) mas refere o uso médico da simbologia da serpente.\n[…]\nNo intercâmbio da civilização grega com a egípcia, o deus Thoth da mitologia egípcia foi assimilado a Hermes e, desse sincretismo, resultou a denominação de Hermes egípcio ou Hermes Trismegistos (três vezes grande), dada ao deus Thoth, considerado o deus do conhecimento, da palavra e da magia.[17] No panteão egípcio, o deus da medicina correspondente a Asclépio é Imhotep e não Thot.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
