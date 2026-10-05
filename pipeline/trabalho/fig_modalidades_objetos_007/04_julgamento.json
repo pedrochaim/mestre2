@@ -1,0 +1,193 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pênalti",
+        "descricao": "Tiro livre direto cobrado da marca penal, só contra o goleiro, por falta cometida na própria área no futebol.",
+        "variantes": [
+          "Penalidade máxima",
+          "Pênalti no futebol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "lenda_da_vitoria_regia",
+          "nome": "Lenda da vitória-régia",
+          "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua.",
+          "variantes": [
+            "Lenda de Naiá"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trave de equilíbrio",
+        "descricao": "Aparelho retangular e estreito da ginástica artística feminina, sobre o qual se executam as séries.",
+        "variantes": [
+          "Trave olímpica",
+          "Trave"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tregua_olimpica",
+          "nome": "Trégua olímpica",
+          "descricao": "Trégua sagrada proclamada na Grécia Antiga durante os Jogos de Olímpia.",
+          "variantes": [
+            "Ekecheiria",
+            "Olympic Truce"
+          ]
+        },
+        {
+          "id": "phryges",
+          "nome": "Phryges",
+          "descricao": "Mascotes olímpico e paralímpico dos Jogos de Paris 2024, em forma de gorro vermelho.",
+          "variantes": [
+            "Phryge olímpica",
+            "Phryge paralímpica"
+          ]
+        },
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "aneis_olimpicos",
+          "nome": "Anéis olímpicos",
+          "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+          "variantes": [
+            "Cinco anéis",
+            "Olympic rings",
+            "Bandeira olímpica"
+          ]
+        },
+        {
+          "id": "bandeira_olimpica",
+          "nome": "Bandeira olímpica",
+          "descricao": "Bandeira branca com os cinco anéis olímpicos entrelaçados, hasteada nas cerimônias dos Jogos.",
+          "variantes": [
+            "Bandeira dos Jogos Olímpicos",
+            "Anéis olímpicos",
+            "Olympic flag"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Snowboard",
+        "descricao": "Esporte de descida em superfície nevada sobre uma prancha com fixações para os dois pés.",
+        "variantes": [
+          "Snowboarding"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        },
+        {
+          "id": "kitesurfe",
+          "nome": "Kitesurfe",
+          "descricao": "Esporte em que o praticante é puxado sobre a água por uma grande pipa de tração, de pé numa prancha.",
+          "variantes": [
+            "Kiteboarding",
+            "Kitesurf",
+            "Kiteboard"
+          ]
+        },
+        {
+          "id": "tabuleiro_de_xadrez",
+          "nome": "Tabuleiro de xadrez",
+          "descricao": "Tabuleiro de sessenta e quatro casas claras e escuras alternadas, usado no xadrez e nas damas.",
+          "variantes": [
+            "Chessboard"
+          ]
+        },
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        },
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve o pênalti do futebol."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a trave de equilíbrio da ginástica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Snowboard é um esporte distinto de skate e kitesurfe, e as demais candidatas não têm relação com ele."
+    }
+  ]
+}

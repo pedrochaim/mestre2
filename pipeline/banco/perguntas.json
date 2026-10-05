@@ -110535,5 +110535,70 @@
       "autor": "Victor Meirelles",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q06485",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "penalti",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A que distância da linha do gol, em metros, fica a marca de onde este lance é cobrado?",
+    "resposta": "Onze metros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Penalty_kick_%28association_football%29",
+      "https://pt.wikipedia.org/wiki/P%C3%AAnalti"
+    ],
+    "imagem": {
+      "arquivo": "q06485.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ivory_Coast_penalty.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q06486",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "trave_de_equilibrio",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho da ginástica artística é este?",
+    "resposta": "Trave de equilíbrio",
+    "distratores": [
+      "Barras assimétricas",
+      "Barra fixa",
+      "Cavalo com alças"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Balance_beam",
+      "https://pt.wikipedia.org/wiki/Trave_ol%C3%ADmpica"
+    ],
+    "imagem": {
+      "arquivo": "q06486.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2018-10-15_Gymnastics_at_2018_Summer_Youth_Olympics_–_Girls'_Artistic_Gymnastics_–_Apparatus_finals_–_Balance_beam_(Martin_Rulsch)_190.jpg",
+      "autor": "Martin Rulsch, Wikimedia Commons",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q06487",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "snowboard",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que ano este esporte entrou nos Jogos Olímpicos de Inverno?",
+    "resposta": "1998",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snowboarding",
+      "https://pt.wikipedia.org/wiki/Snowboard"
+    ],
+    "imagem": {
+      "arquivo": "q06487.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:BoarderX.JPG",
+      "autor": "Snowboarder",
+      "licenca": "Public domain"
+    }
   }
 ]

@@ -1,0 +1,110 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lance de pênalti claro: bola na marca, goleiro na linha, demais jogadores fora da área. Publicidade de patrocinadores não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que distância da linha do gol, em metros, fica a marca de onde este lance é cobrado?",
+      "resposta": "Onze metros",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pênalti",
+        "descricao": "Tiro livre direto cobrado da marca penal, só contra o goleiro, por falta cometida na própria área no futebol.",
+        "variantes": [
+          "Penalidade máxima",
+          "Pênalti no futebol"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trave de equilíbrio nítida em primeiro plano, sem texto que entregue a resposta; ginasta em competição.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho da ginástica artística é este?",
+      "resposta": "Trave de equilíbrio",
+      "distratores": [
+        "Barras assimétricas",
+        "Barra fixa",
+        "Cavalo com alças"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trave de equilíbrio",
+        "descricao": "Aparelho retangular e estreito da ginástica artística feminina, sobre o qual se executam as séries.",
+        "variantes": [
+          "Trave olímpica",
+          "Trave"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixa com texto 'National Invitational Race Wal...' entrega a resposta; atletas comuns, imagem de baixa resolução."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placa e legenda legíveis ('Bota de Oro', 'European Golden Shoe'), além de assinatura, entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Snowboarders em pista de slalom paralelo com pranchas visíveis; sem texto que entregue a resposta (só patrocinador). Atletas pequenos, não em primeiro plano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este esporte entrou nos Jogos Olímpicos de Inverno?",
+      "resposta": "1998",
+      "destino": 0,
+      "ancora": {
+        "nome": "Snowboard",
+        "descricao": "Esporte de descida em superfície nevada sobre uma prancha com fixações para os dois pés.",
+        "variantes": [
+          "Snowboarding"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra a arena de tênis lotada, não o troféu Norman Brookes; não corresponde à entidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O foco é o boxeador (Muhammad Ali) e outras pessoas; o saco de pancada aparece cortado no canto, com marca Everlast. Entidade ambígua."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Texto visível ('Centenary of Rugby League', 'Steeden', 'International') entrega a resposta; é bola de rugby league."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Legenda 'Steeplechase Race, Celtic Park, N.Y.' entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Quadra indoor genérica com várias quadras e pessoas comuns jogando; sem diferencial para pergunta interessante."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O troféu traz o texto 'Vince Lombardi Trophy' legível na imagem, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Praticante idoso comum em primeiro plano, sem ser figura pública; fundo com relógio e objetos aleatórios."
+    }
+  ]
+}
