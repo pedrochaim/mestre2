@@ -1,0 +1,257 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara; sem texto que entregue. Troquei 'quando' por 'quem fez', que rende pergunta mais justa.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor brasileiro do século dezenove pintou este quadro?",
+      "resposta": "Victor Meirelles",
+      "destino": 0,
+      "ancora": {
+        "nome": "Moema (Victor Meirelles)",
+        "descricao": "Pintura a óleo de 1866 de Victor Meirelles que retrata a indígena Moema morta nas águas, personagem do poema Caramuru.",
+        "variantes": [
+          "Moema"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido e famoso; a inscrição só traz idade e ano, sem entregar o museu.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o museu que guarda este retrato holandês do século dezessete?",
+      "resposta": "Londres",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Cavaleiro Sorridente",
+        "descricao": "Retrato de 1624 pintado por Frans Hals, guardado na Wallace Collection, em Londres.",
+        "variantes": [
+          "The Laughing Cavalier",
+          "O Cavaleiro Risonho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra reconhecível; a assinatura no canto é ilegível no celular e a pergunta não é sobre o autor. Troquei 'quando' por 'o que é'.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que personagem da mitologia grega aparece neste quadro de Klimt, sob uma chuva dourada?",
+      "resposta": "Dânae",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dânae (Klimt)",
+        "descricao": "Pintura simbolista de 1907 de Gustav Klimt que retrata Dânae adormecida sob a chuva de ouro.",
+        "variantes": [
+          "Danaë",
+          "Danae"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem famosa, sem texto; reconhecível. Troquei 'que tipo' por 'onde'.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica a igreja onde está esta pintura de Jesus, famosa por uma restauração desastrada?",
+      "resposta": "Espanha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ecce Homo (Borja)",
+        "descricao": "Afresco de cerca de 1930 de Elías García Martínez, na Espanha, famoso pela restauração amadora de Cecilia Giménez em 2012.",
+        "variantes": [
+          "Ecce Mono",
+          "Cristo macaco",
+          "Ecce Homo de Borja"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obra de Waterhouse nítida e única; assinatura minúscula. Múltipla com cidades britânicas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o museu que guarda este quadro inglês de ninfas, pintado no fim do século dezenove?",
+      "resposta": "Manchester",
+      "distratores": [
+        "Liverpool",
+        "Londres",
+        "Birmingham"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hilas e as Ninfas",
+        "descricao": "Pintura de 1896 de John William Waterhouse que mostra o jovem Hilas sendo atraído por ninfas da água, na Manchester Art Gallery.",
+        "variantes": [
+          "Hylas and the Nymphs"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Obra clara; a assinatura revela o autor mas a pergunta é sobre o ano. Múltipla com anos próximos.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi concluído este quadro, depois recusado pelo Salão de Paris?",
+      "resposta": "1884",
+      "distratores": [
+        "1874",
+        "1889",
+        "1894"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Banhistas em Asnières",
+        "descricao": "Pintura a óleo de 1884 de Georges Seurat, com banhistas às margens do rio Sena, em Asnières.",
+        "variantes": [
+          "Um banho em Asnières",
+          "Bathers at Asnières",
+          "Une Baignade, Asnières"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra reconhecível; assinatura pequena não entrega o título.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que título tem este quadro de um pintor expressionista norueguês?",
+      "resposta": "Madonna",
+      "destino": 0,
+      "ancora": {
+        "nome": "Madonna (Munch)",
+        "descricao": "Composição de Edvard Munch, de 1892 a 1895, com figura feminina de busto nu, com várias versões em óleo e litografia.",
+        "variantes": [
+          "Madonna de Munch"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gravura nítida; o título na faixa não entrega a técnica. Múltipla com técnicas de gravura.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica de gravura Albrecht Dürer usou nesta obra de 1514?",
+      "resposta": "Gravura a buril",
+      "distratores": [
+        "Xilogravura",
+        "Litografia",
+        "Água-tinta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Melencolia I",
+        "descricao": "Gravura em metal de 1514 de Albrecht Dürer, com figura alada e pensativa cercada de ferramentas e símbolos.",
+        "variantes": [
+          "Melancolia I",
+          "Melencolia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Figura única, clara e famosa; assinatura quase invisível. Troquei 'onde' por 'quem fez' porque o quadro mudou de museu.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor francês pintou este menino tocando pífaro, em 1866?",
+      "resposta": "Édouard Manet",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Pífaro (Manet)",
+        "descricao": "Pintura de 1866 de Édouard Manet que mostra um jovem tocador de pífaro uniformizado, no Museu d'Orsay.",
+        "variantes": [
+          "O Pífaro",
+          "The Fifer",
+          "O Jovem Flautista"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra nítida; a assinatura traz só Vincent e o título, não o ano. Múltipla com anos próximos.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano Vincent van Gogh pintou este interior de café?",
+      "resposta": "1888",
+      "distratores": [
+        "1886",
+        "1889",
+        "1890"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Café Noturno",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+        "variantes": [
+          "O Café à Noite",
+          "The Night Café",
+          "Le Café de nuit"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto; resposta única.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país está este retrato pintado por Leonardo da Vinci?",
+      "resposta": "Estados Unidos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ginevra de' Benci",
+        "descricao": "Retrato de Leonardo da Vinci da aristocrata florentina Ginevra de' Benci, na National Gallery of Art, em Washington.",
+        "variantes": [
+          "Ginevra de Benci",
+          "Retrato de Ginevra de' Benci"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena clara, sem texto. Troquei 'que tipo' por 'quando', em múltipla com batalhas brasileiras.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que batalha da história do Brasil este quadro de Victor Meirelles retrata?",
+      "resposta": "Batalha dos Guararapes",
+      "distratores": [
+        "Batalha do Riachuelo",
+        "Batalha de Tuiuti",
+        "Batalha de Canudos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Batalha dos Guararapes (Victor Meirelles)",
+        "descricao": "Pintura a óleo de Victor Meirelles, de 1875 a 1879, que retrata o primeiro confronto da Batalha dos Guararapes, em 1648.",
+        "variantes": [
+          "Batalha dos Guararapes"
+        ]
+      }
+    }
+  ]
+}

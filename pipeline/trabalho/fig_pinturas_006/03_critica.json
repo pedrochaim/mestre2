@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, sem vazamento; a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Retrato holandês de 1624 na Wallace Collection, em Londres; sem vazamento e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A 'chuva dourada' entrega o mito de Dânae sem olhar a figura, e também abre a possibilidade de a resposta ser Zeus. Troco a pista por uma data que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que personagem da mitologia grega este quadro de Klimt, de mil novecentos e sete, retrata?",
+        "resposta": "Dânae",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Famosa por uma restauração desastrada' entrega a resposta pelo caso conhecido. Tirando a pista, um afresco de Jesus coroado de espinhos poderia estar em qualquer país, e a pergunta fica sem resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Manchester Art Gallery guarda a obra (consta em 'mostra' e é amplamente documentado). Distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintada em 1884 e rejeitada pelo júri do Salão de 1884; os trechos confirmam. Distratores são anos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Todas as versões se chamam Madonna; o enunciado só dá país e movimento e não entrega o título.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É uma gravura a buril em metal, fato amplamente documentado e confirmado como 'engraving' no trecho. Os distratores são técnicas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Menino tocando pífaro, em 1866' descreve o quadro e permite responder sem a figura. Tiro a descrição do tema e deixo a data e a nacionalidade.",
+      "reescrita": {
+        "pergunta": "Que pintor francês pintou este quadro, em mil oitocentos e sessenta e seis?",
+        "resposta": "Édouard Manet",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado em setembro de 1888, em Arles, conforme os trechos. Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O retrato está na National Gallery of Art, em Washington. Há vários retratos de Leonardo, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A tela retrata o primeiro confronto da Batalha dos Guararapes. Meirelles também pintou o Riachuelo, mas é distrator errado para esta imagem.",
+      "reescrita": null
+    }
+  ]
+}
