@@ -97300,5 +97300,170 @@
       "licenca": "Public domain"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q05736",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "regency_tr_1",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi lançado o primeiro rádio comercial deste tipo?",
+    "resposta": "1954",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Transistor_radio",
+      "https://pt.wikipedia.org/wiki/R%C3%A1dio_transistorizado"
+    ],
+    "imagem": {
+      "arquivo": "q05736.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Regency_transistor_radio.jpg",
+      "autor": "Gregory F. Maxwell &lt;gmaxwell@gmail.com&gt; PGP:0xB0413BFA",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q05737",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "teremim",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano este instrumento musical foi patenteado nos Estados Unidos?",
+    "resposta": "1928",
+    "distratores": [
+      "1911",
+      "1937",
+      "1946"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theremin",
+      "https://pt.wikipedia.org/wiki/Teremim"
+    ],
+    "imagem": {
+      "arquivo": "q05737.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Etherwave_Theremin_Kit.jpg",
+      "autor": "Hutschi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05738",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "fonografo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem inventou este aparelho, em 1877?",
+    "resposta": "Thomas Edison",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phonograph",
+      "https://pt.wikipedia.org/wiki/Fon%C3%B3grafo"
+    ],
+    "imagem": {
+      "arquivo": "q05738.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Edison_and_phonograph_edit2.jpg",
+      "autor": "Levin C. Handy (per http://hdl.loc.gov/loc.pnp/cwpbh.04326)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05739",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "eletroscopio_de_folhas",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento científico antigo é este?",
+    "resposta": "Eletroscópio",
+    "distratores": [
+      "Galvanômetro",
+      "Higrômetro",
+      "Barômetro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Electroscope",
+      "https://pt.wikipedia.org/wiki/Eletrosc%C3%B3pio"
+    ],
+    "imagem": {
+      "arquivo": "q05739.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Opfindelsernes_bog3_fig284.png",
+      "autor": "Morten Bisgaard",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05740",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "garrafa_de_leyden",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que componente elétrico histórico, do século dezoito, é este?",
+    "resposta": "Garrafa de Leyden",
+    "distratores": [
+      "Pilha de Volta",
+      "Eletróforo",
+      "Bobina de Ruhmkorff"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leyden_jar",
+      "https://pt.wikipedia.org/wiki/Garrafa_de_Leiden"
+    ],
+    "imagem": {
+      "arquivo": "q05740.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Leid-flasch.gif",
+      "autor": "The original uploader was WHell at German Wikipedia.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05741",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "motor_wankel",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem projetou este motor?",
+    "resposta": "Felix Wankel",
+    "distratores": [
+      "Nikolaus Otto",
+      "Rudolf Diesel",
+      "Karl Benz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Internal_combustion_engine",
+      "https://pt.wikipedia.org/wiki/Motor_de_combust%C3%A3o_interna"
+    ],
+    "imagem": {
+      "arquivo": "q05741.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wankel_Cycle_anim.gif",
+      "autor": "User:Y_tambe",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05742",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "telescopio_espacial_hubble",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi lançado ao espaço este observatório?",
+    "resposta": "1990",
+    "distratores": [
+      "1985",
+      "1993",
+      "1996"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_espacial_Hubble"
+    ],
+    "imagem": {
+      "arquivo": "q05742.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

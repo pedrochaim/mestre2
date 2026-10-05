@@ -1,0 +1,438 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Regency TR-1",
+        "descricao": "Primeiro rádio transistorizado comercial, lançado pela Regency em 1954.",
+        "variantes": [
+          "Rádio transistorizado",
+          "Regency TR-1 transistor radio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "transistor",
+          "nome": "Transistor",
+          "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+          "variantes": []
+        },
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado"
+          ]
+        },
+        {
+          "id": "comercio_transaariano",
+          "nome": "Comércio transaariano",
+          "descricao": "Rede de rotas de caravanas que cruzavam o Saara, ligando o norte da África aos reinos do Sahel.",
+          "variantes": [
+            "Trans-Saharan trade",
+            "Rotas transaarianas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Teremim",
+        "descricao": "Instrumento musical eletrônico controlado sem contato, inventado por Leon Theremin.",
+        "variantes": [
+          "Theremin",
+          "Termenvox"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "teresina",
+          "nome": "Teresina",
+          "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852.",
+          "variantes": []
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Fonógrafo",
+        "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+        "variantes": [
+          "Phonograph",
+          "Fonógrafo de Edison"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foto_51",
+          "nome": "Foto 51",
+          "descricao": "Imagem de difração de raios X do DNA obtida em 1952 no King's College de Londres.",
+          "variantes": [
+            "Photo 51",
+            "Fotografia 51"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "inscricao_de_behistun",
+          "nome": "Inscrição de Behistun",
+          "descricao": "Inscrição em rocha no oeste do Irã, mandada gravar por Dario primeiro em persa antigo, elamita e babilônico.",
+          "variantes": [
+            "Inscrição de Bisotun",
+            "Behistun Inscription"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Eletroscópio de folhas",
+        "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+        "variantes": [
+          "Eletroscópio",
+          "Eletroscópio de folha de ouro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "cinetoscopio",
+          "nome": "Cinetoscópio",
+          "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+          "variantes": [
+            "Kinetoscope"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        },
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Garrafa de Leyden",
+        "descricao": "Antigo capacitor feito de um pote de vidro com folha metálica por dentro e por fora, inventado em 1745.",
+        "variantes": [
+          "Garrafa de Leiden",
+          "Leyden jar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "garrafa_termica",
+          "nome": "Garrafa térmica",
+          "descricao": "Recipiente de parede dupla com vácuo que conserva a temperatura de líquidos.",
+          "variantes": [
+            "Frasco a vácuo",
+            "Vacuum flask",
+            "Thermos",
+            "Vaso de Dewar"
+          ]
+        },
+        {
+          "id": "saira_sete_cores",
+          "nome": "Saíra-sete-cores",
+          "descricao": "Pequeno traupídeo colorido (Tangara seledon), de cabeça verde-azulada, dorso preto e garupa amarelo-alaranjada, da Mata Atlântica.",
+          "variantes": [
+            "Green-headed tanager",
+            "Tangara seledon"
+          ]
+        },
+        {
+          "id": "lagartixa",
+          "nome": "Lagartixa",
+          "descricao": "Pequeno lagarto da família dos gecos, capaz de andar em paredes e tetos.",
+          "variantes": [
+            "Geco",
+            "Gecko",
+            "Lagartixa-de-parede"
+          ]
+        },
+        {
+          "id": "garganta_de_olduvai",
+          "nome": "Garganta de Olduvai",
+          "descricao": "Desfiladeiro na Tanzânia, um dos sítios paleoantropológicos mais importantes do mundo, estudado pela família Leakey.",
+          "variantes": [
+            "Olduvai Gorge",
+            "Oldupai"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Motor Wankel",
+        "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+        "variantes": [
+          "Motor de combustão interna",
+          "Motor rotativo",
+          "Wankel engine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motor_a_diesel",
+          "nome": "Motor a diesel",
+          "descricao": "Motor de combustão interna em que o combustível se inflama pela compressão do ar, sem vela de ignição.",
+          "variantes": [
+            "Motor diesel",
+            "Diesel engine"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "voto_de_minerva",
+          "nome": "Voto de Minerva",
+          "descricao": "Expressão para o voto que desempata uma votação",
+          "variantes": [
+            "Voto de Atena"
+          ]
+        },
+        {
+          "id": "toyota",
+          "nome": "Toyota",
+          "descricao": "Montadora japonesa de automóveis fundada por Kiichiro Toyoda em 1937.",
+          "variantes": [
+            "Toyota Motor Corporation"
+          ]
+        },
+        {
+          "id": "radioatividade",
+          "nome": "Radioatividade",
+          "descricao": "Emissão espontânea de radiação por núcleos atômicos instáveis, descoberta em 1896.",
+          "variantes": [
+            "Decaimento radioativo",
+            "Radioactivity"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Telescópio Espacial Hubble",
+        "descricao": "Telescópio espacial da NASA e da ESA lançado em 1990 em órbita baixa da Terra.",
+        "variantes": [
+          "Hubble",
+          "HST",
+          "Hubble Space Telescope"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "rublo",
+          "nome": "Rublo",
+          "descricao": "Unidade monetária da Rússia e de outros países do antigo espaço russo.",
+          "variantes": [
+            "Ruble",
+            "Rouble"
+          ]
+        },
+        {
+          "id": "radiotelescopio_de_arecibo",
+          "nome": "Radiotelescópio de Arecibo",
+          "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+          "variantes": [
+            "Telescópio de Arecibo",
+            "Arecibo Telescope",
+            "Observatório de Arecibo"
+          ]
+        },
+        {
+          "id": "haroldo",
+          "nome": "Haroldo",
+          "descricao": "Tigre de pelúcia, amigo imaginário de Calvin na tira Calvin e Haroldo, de Bill Watterson",
+          "variantes": [
+            "Hobbes"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Regency TR-1 é um rádio específico; Transistor é o componente, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "motivo": "Mesmo instrumento, o teremim de Leon Theremin.",
+      "id_existente": "teremim"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fonógrafo não consta entre as candidatas; sismógrafo e as demais são entidades diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Eletroscópio de folhas é um instrumento distinto de estetoscópio, telescópio, cinetoscópio e microscópio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Garrafa de Leyden é um capacitor antigo; garrafa térmica é outro objeto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motor Wankel é rotativo, distinto do motor a diesel e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "motivo": "Mesmo telescópio espacial Hubble, lançado em 1990.",
+      "id_existente": "telescopio_espacial_hubble"
+    }
+  ]
+}

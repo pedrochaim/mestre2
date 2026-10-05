@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano este instrumento musical foi patenteado nos Estados Unidos?",
+        "resposta": "1928"
+      },
+      "existentes": [
+        {
+          "id": "q05159",
+          "pergunta": "O teremim, instrumento eletrônico tocado sem que as mãos encostem nele, foi inventado na Rússia em que década?",
+          "resposta": "Década de 1920"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi lançado ao espaço este observatório?",
+        "resposta": "1990"
+      },
+      "existentes": [
+        {
+          "id": "q01226",
+          "pergunta": "Que astrônomo dá nome a este telescópio espacial lançado em mil novecentos e noventa?",
+          "resposta": "Edwin Hubble"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o ano da patente nos EUA (1928). A existente pede a década da invenção na Rússia (anos 1920). Os fatos são diferentes, e saber a década da invenção não diz o ano da patente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o ano de lançamento (1990). A existente pede o astrônomo que dá nome ao telescópio, e o ano de lançamento já aparece no enunciado dela. O fato perguntado é outro."
+    }
+  ]
+}

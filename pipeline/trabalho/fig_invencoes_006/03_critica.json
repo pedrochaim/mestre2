@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O TR-1 foi lançado em 1954 como primeiro rádio transistorizado comercial. O enunciado não vaza a resposta e exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Instrumento eletrônico tocado sem contato das mãos' identifica o teremim sem a figura, então o enunciado vaza a resposta. O fato (patente em 1928) é confirmado.",
+      "reescrita": {
+        "pergunta": "Em que ano este instrumento musical foi patenteado nos Estados Unidos?",
+        "resposta": "1928",
+        "distratores": [
+          "1911",
+          "1937",
+          "1946"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fonógrafo foi inventado por Edison em 1877, segundo os trechos. O enunciado não nomeia o aparelho e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura mostra um eletroscópio de folhas. O enunciado é neutro e os distratores são instrumentos científicos antigos, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A garrafa de Leyden é de 1745-1746, portanto do século dezoito. Os distratores são componentes ou aparelhos elétricos históricos, curtos e errados. A pista de época não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O motor rotativo é amplamente atribuído a Felix Wankel, e o trecho em português confirma. Os distratores são pioneiros de motores e todos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Hubble foi lançado em 24 de abril de 1990. O enunciado é neutro e os distratores são anos plausíveis e errados.",
+      "reescrita": null
+    }
+  ]
+}

@@ -54,7 +54,7 @@
       "titulo": "en:Phonograph",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ampulheta",
@@ -166,7 +166,7 @@
       "titulo": "en:Leyden jar",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pêndulo de Newton",
@@ -348,7 +348,7 @@
       "titulo": "en:Hubble Space Telescope",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estetoscópio",
@@ -362,7 +362,7 @@
       "titulo": "en:Game Boy",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Prisma",
@@ -495,14 +495,14 @@
       "titulo": "en:Wimshurst machine",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Eletroscópio",
       "titulo": "en:Electroscope",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Interferômetro de Michelson",
@@ -556,6 +556,286 @@
     {
       "nome": "Teremim",
       "titulo": "en:Theremin",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Telefone",
+      "titulo": "en:Telephone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Televisão",
+      "titulo": "en:Television",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bicicleta",
+      "titulo": "en:Bicycle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geladeira",
+      "titulo": "en:Refrigerator",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Máquina de costura",
+      "titulo": "en:Sewing machine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lupa",
+      "titulo": "en:Magnifying glass",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ímã",
+      "titulo": "en:Magnet",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone celular",
+      "titulo": "en:Mobile phone",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Paraquedas",
+      "titulo": "en:Parachute",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pen drive",
+      "titulo": "en:USB flash drive",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "CD",
+      "titulo": "en:Compact disc",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Balão de ar quente",
+      "titulo": "en:Hot air balloon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escada rolante",
+      "titulo": "en:Escalator",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone de disco",
+      "titulo": "en:Rotary dial",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "iPhone (primeira geração)",
+      "titulo": "en:IPhone (1st generation)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atari 2600",
+      "titulo": "en:Atari 2600",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Zepelim",
+      "titulo": "en:Zeppelin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor de combustão interna",
+      "titulo": "en:Internal combustion engine",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Periscópio",
+      "titulo": "en:Periscope",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Caleidoscópio",
+      "titulo": "en:Kaleidoscope",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Microscópio eletrônico",
+      "titulo": "en:Electron microscope",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio transistorizado",
+      "titulo": "en:Transistor radio",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Circuito integrado",
+      "titulo": "en:Integrated circuit",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco rígido",
+      "titulo": "en:Hard disk drive",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pager",
+      "titulo": "en:Pager",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fita VHS",
+      "titulo": "en:VHS",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Aquecedor solar",
+      "titulo": "en:Solar water heating",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio de galena",
+      "titulo": "en:Crystal radio",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Commodore 64",
+      "titulo": "en:Commodore 64",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Osciloscópio",
+      "titulo": "en:Oscilloscope",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Raspberry Pi",
+      "titulo": "en:Raspberry Pi",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lanterna mágica",
+      "titulo": "en:Magic lantern",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zootrópio",
+      "titulo": "en:Zoetrope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cronômetro marítimo",
+      "titulo": "en:Marine chronometer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teodolito",
+      "titulo": "en:Theodolite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anemômetro",
+      "titulo": "en:Anemometer",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Kodak Brownie",
+      "titulo": "en:Brownie (camera)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Spinning Jenny",
+      "titulo": "en:Spinning jenny",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Locomotiva Rocket",
+      "titulo": "en:Stephenson's Rocket",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cíclotron",
+      "titulo": "en:Cyclotron",
       "camada": 3,
       "destino": 2,
       "status": "nova"

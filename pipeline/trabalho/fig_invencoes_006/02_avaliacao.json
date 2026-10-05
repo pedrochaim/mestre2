@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O texto 'Nintendo GAME BOY' está impresso no aparelho e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rádio de bolso azul com grade perfurada e mostrador dourado, sem texto que entregue a resposta (só uma assinatura discreta de marca). O enunciado não nomeia o aparelho.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi lançado o primeiro rádio comercial deste tipo?",
+      "resposta": "1954",
+      "destino": 1,
+      "ancora": {
+        "nome": "Regency TR-1",
+        "descricao": "Primeiro rádio transistorizado comercial, lançado pela Regency em 1954.",
+        "variantes": [
+          "Rádio transistorizado",
+          "Regency TR-1 transistor radio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Teremim com duas antenas, reconhecível pela forma. A marca Moog não entrega o nome; o texto pequeno do painel é ilegível no celular.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi patenteado este instrumento eletrônico, tocado sem contato das mãos?",
+      "resposta": "1928",
+      "distratores": [
+        "1911",
+        "1937",
+        "1946"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Teremim",
+        "descricao": "Instrumento musical eletrônico controlado sem contato, inventado por Leon Theremin.",
+        "variantes": [
+          "Theremin",
+          "Termenvox"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto do fonógrafo de cilindro, ao lado de Thomas Edison (figura pública). O aparelho é inequívoco e o enunciado não o nomeia.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem inventou este aparelho, em 1877?",
+      "resposta": "Thomas Edison",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fonógrafo",
+        "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+        "variantes": [
+          "Phonograph",
+          "Fonógrafo de Edison"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O console traz 'video computer system' e o logotipo ATARI escritos, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravura sem texto de um eletroscópio de folhas sob campânula, com uma haste de vidro sendo aproximada. Em múltipla escolha, o reconhecimento é viável.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento científico antigo é este?",
+      "resposta": "Eletroscópio",
+      "distratores": [
+        "Galvanômetro",
+        "Higrômetro",
+        "Barômetro"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Eletroscópio de folhas",
+        "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+        "variantes": [
+          "Eletroscópio",
+          "Eletroscópio de folha de ouro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montagem: uma TV exibindo uma página de texto sobre o Louvre, com título e legendas. Há texto que entrega outra resposta e mistura assuntos."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Desenho sem texto de um pote de vidro com folha metálica e haste com esfera, típico da garrafa de Leyden. A imagem é pequena, mas legível. Escolhi 'o que é' porque a autoria tem dois inventores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente elétrico histórico, do século dezoito, é este?",
+      "resposta": "Garrafa de Leyden",
+      "distratores": [
+        "Pilha de Volta",
+        "Eletróforo",
+        "Bobina de Ruhmkorff"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Garrafa de Leyden",
+        "descricao": "Antigo capacitor feito de um pote de vidro com folha metálica por dentro e por fora, inventado em 1745.",
+        "variantes": [
+          "Garrafa de Leiden",
+          "Leyden jar"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cena de museu com bonecos de um homem e de uma criança e uma máquina que pode ser a spinning jenny, um tear ou uma mule. A resposta não é única e há várias coisas na imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Animação esquemática sem texto do motor rotativo, com rotor triangular, que é o motor Wankel. A forma é inconfundível. A âncora é o Wankel, e não o motor de combustão em geral.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem projetou este motor?",
+      "resposta": "Felix Wankel",
+      "distratores": [
+        "Nikolaus Otto",
+        "Rudolf Diesel",
+        "Karl Benz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Motor Wankel",
+        "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+        "variantes": [
+          "Motor rotativo",
+          "Wankel engine"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A placa fotografada traz 'Morton-Wimshurst-Holtz Influence Machine' e outros textos, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto da NASA do telescópio em órbita, sem texto e com silhueta inconfundível. Troquei para 'quando' porque a autoria é ambígua (NASA e ESA).",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado ao espaço este observatório?",
+      "resposta": "1990",
+      "distratores": [
+        "1985",
+        "1993",
+        "1996"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio Espacial Hubble",
+        "descricao": "Telescópio espacial da NASA e da ESA lançado em 1990 em órbita baixa da Terra.",
+        "variantes": [
+          "Hubble",
+          "HST",
+          "Hubble Space Telescope"
+        ]
+      }
+    }
+  ]
+}
