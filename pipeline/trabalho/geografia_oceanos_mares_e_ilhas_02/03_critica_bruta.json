@@ -1,0 +1,429 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o estreito permaneceu no Chile; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e bem formulado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A margem sul do estreito também é dos Emirados (península de Musandam compartilhada), então 'entre o Irã e qual país' é ambíguo.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "A província de Musandam, na margem sul do estreito de Ormuz, por onde passa boa parte do petróleo do mundo, é exclave de qual país?",
+        "resposta": "Omã",
+        "distratores": [
+          "Iêmen",
+          "Catar",
+          "Bahrein"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Estreito_de_Ormuz"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte é página de desambiguação; trocar pela página de Trindade e Martim Vaz.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A mais de mil quilômetros da costa, a ilha da Trindade, onde a Marinha mantém uma base, faz parte do território de qual estado brasileiro?",
+        "resposta": "Espírito Santo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Trindade_e_Martim_Vaz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é desambiguação; trocar pela página específica da ilha no Paraná.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A ilha do Mel, onde não circulam carros e os visitantes andam a pé pelas trilhas, fica no litoral de qual estado?",
+        "resposta": "Paraná",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ilha_do_Mel_(Paran%C3%A1)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, sustentado pelas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dreyfus ficou preso lá; fato bem documentado e distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Todas as candidatas à ilha estão nas Bahamas; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 1994; década correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reincorporação em 1988 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma 1º de novembro, Dia de Todos os Santos.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "26 de dezembro de 2004 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Decreto de 1983, primeiro parque nacional marinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Concluída em 1974; comprimento correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A caldeira teve várias erupções; precisar que é a erupção que enterrou Akrotiri.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "A erupção que devastou a ilha grega de Santorini e enterrou o povoado de Akrotiri aconteceu em qual destas épocas?",
+        "resposta": "Idade do Bronze",
+        "distratores": [
+          "Idade do Ferro",
+          "Neolítico",
+          "Paleolítico"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Minoan_eruption"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fechada em 1963; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Após a última era glacial' é impreciso (ainda estamos numa era glacial); perguntar a causa da submersão.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Doggerland, faixa de terra que ligava a Grã-Bretanha ao continente europeu, hoje está no fundo do mar do Norte. O que a fez ser submersa?",
+        "resposta": "A subida do nível do mar com o degelo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Doggerland"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Balboa em 1513, fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cook, Havaí 1778, morte em 1779.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lesseps promoveu Suez e fracassou no Panamá.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nero iniciou a obra em 67 d.C.; concluída em 1893.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bartolomeu Dias, 1488.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista do para-raios entrega a resposta, e o mapa foi esboçado por Folger, não por Franklin.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tasman, primeiro europeu na Nova Zelândia em 1642.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Poucos centímetros' é impreciso (cerca de um doze avos da altura humana); Swift é anglo-irlandês.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Liliput, ilha imaginária habitada por gente minúscula, aparece num romance de qual escritor anglo-irlandês do século dezoito?",
+        "resposta": "Jonathan Swift",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lilliput_and_Blefuscu",
+          "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia de Atlas sustentada; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Etimologia disputada, não sustentada pelos trechos e enunciado confuso ('em latim').",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilha Formosa, 1542, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Homenagem a Francis Drake confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colombo nomeou as ilhas por Santa Úrsula e as onze mil virgens.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inacessível e resposta imprecisa ('lama'); usar sedimentos e fonte da Wikipédia.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Por que o mar Amarelo, entre a China e a península da Coreia, recebeu esse nome?",
+        "resposta": "Pelos sedimentos trazidos pelos rios",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mar_Amarelo"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Renomeada em 1966; Selkirk viveu lá mais de quatro anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ceilão até 1972 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Moreninha se passa em Paquetá; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rihanna declarada Herói Nacional em 30/11/2021.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Montecristo dá título ao romance de Dumas.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta deriva da palavra 'bermuda' e é trivial por vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erupção submarina de 1963 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só o Atlântico se liga ao Mediterrâneo, então a resposta é óbvia; perguntar qual estreito estava fechado.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Há cerca de seis milhões de anos, o Mediterrâneo quase secou ao se isolar do Atlântico. Que estreito, hoje aberto, estava então fechado?",
+        "resposta": "Estreito de Gibraltar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Messinian_salinity_crisis"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Intemperismo das rochas levado pelos rios é a explicação padrão.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sicília é a maior ilha do Mediterrâneo.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nova Guiné é a segunda maior ilha; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ibiza é das Baleares; a pista de vida noturna a distingue de Formentera.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vértices Bermudas, Miami e Porto Rico confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Búfalos são abundantes em Marajó e usados pela polícia montada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cofre global de sementes; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nove ilhas principais confirmadas.",
+      "reescrita": null
+    }
+  ]
+}

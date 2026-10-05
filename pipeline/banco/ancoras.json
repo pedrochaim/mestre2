@@ -34101,7 +34101,8 @@
     "nome": "Canal de Suez",
     "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
     "variantes": [
-      "Suez Canal"
+      "Suez Canal",
+      "Suez"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Suez_Canal",
@@ -36019,7 +36020,8 @@
     "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
     "variantes": [
       "Thira",
-      "Thera"
+      "Thera",
+      "Tera"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Santorini",
@@ -72923,7 +72925,8 @@
     "descricao": "Arquipélago na costa da Tanzânia, antigo sultanato e centro do comércio suaíli de especiarias e escravizados.",
     "variantes": [
       "Zanzibar Island",
-      "Unguja"
+      "Unguja",
+      "Arquipélago de Zanzibar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Zanzibar"
@@ -76510,7 +76513,9 @@
     "descricao": "Terremoto submarino de 26 de dezembro de 2004 que gerou um tsunami devastador em vários países do oceano Índico.",
     "variantes": [
       "Tsunami de 2004",
-      "2004 Indian Ocean earthquake and tsunami"
+      "2004 Indian Ocean earthquake and tsunami",
+      "Tsunami do oceano Índico de 2004",
+      "Terremoto e tsunami do Índico de 2004"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
@@ -85197,6 +85202,315 @@
     "fontes": [
       "https://chaves.fandom.com/pt-br/wiki/Nhonho",
       "https://pt.wikipedia.org/wiki/Nhonho"
+    ]
+  },
+  {
+    "id": "estreito_de_gibraltar",
+    "nome": "Estreito de Gibraltar",
+    "descricao": "Estreito entre o sul da Espanha e o norte da África que liga o oceano Atlântico ao mar Mediterrâneo.",
+    "variantes": [
+      "Gibraltar"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Estreito_de_Gibraltar"
+    ]
+  },
+  {
+    "id": "estreito_de_magalhaes",
+    "nome": "Estreito de Magalhães",
+    "descricao": "Passagem marítima natural no extremo sul da América do Sul, entre o continente e a Terra do Fogo, que liga o Atlântico ao Pacífico.",
+    "variantes": [
+      "Estrecho de Magallanes"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Estreito_de_Magalh%C3%A3es"
+    ]
+  },
+  {
+    "id": "bosforo",
+    "nome": "Bósforo",
+    "descricao": "Estreito na Turquia que liga o mar Negro ao mar de Mármara e separa a Europa da Ásia.",
+    "variantes": [
+      "Estreito de Bósforo",
+      "Bósporo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/B%C3%B3sforo"
+    ]
+  },
+  {
+    "id": "estreito_de_ormuz",
+    "nome": "Estreito de Ormuz",
+    "descricao": "Estreito entre o golfo Pérsico e o golfo de Omã, importante rota de petroleiros.",
+    "variantes": [
+      "Estreito de Hormuz"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Estreito_de_Ormuz"
+    ]
+  },
+  {
+    "id": "arquipelago_de_sao_pedro_e_sao_paulo",
+    "nome": "Arquipélago de São Pedro e São Paulo",
+    "descricao": "Pequeno grupo de rochedos brasileiros no meio do oceano Atlântico, perto da linha do Equador.",
+    "variantes": [
+      "Penedos de São Pedro e São Paulo",
+      "Rochedos de São Pedro e São Paulo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Arquip%C3%A9lago_de_S%C3%A3o_Pedro_e_S%C3%A3o_Paulo"
+    ]
+  },
+  {
+    "id": "ilha_da_trindade_3",
+    "nome": "Ilha da Trindade",
+    "descricao": "Ilha vulcânica brasileira no oceano Atlântico Sul, a mais de mil quilômetros da costa, ocupada por uma base da Marinha.",
+    "variantes": [
+      "Trindade",
+      "Trindade e Martim Vaz"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ilha_da_Trindade"
+    ]
+  },
+  {
+    "id": "corsega",
+    "nome": "Córsega",
+    "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+    "variantes": [
+      "Corse",
+      "Corsica"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/C%C3%B3rsega"
+    ]
+  },
+  {
+    "id": "ilha_do_diabo",
+    "nome": "Ilha do Diabo",
+    "descricao": "Pequena ilha das Ilhas da Salvação, na costa da Guiana Francesa, que abrigou uma temida colônia penal.",
+    "variantes": [
+      "Île du Diable",
+      "Ilha do Diabo (Guiana Francesa)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Diabo"
+    ]
+  },
+  {
+    "id": "guanahani",
+    "nome": "Guanahani",
+    "descricao": "Ilha onde Cristóvão Colombo desembarcou pela primeira vez na América, em outubro de 1492, e que ele chamou de San Salvador.",
+    "variantes": [
+      "San Salvador",
+      "Ilha de San Salvador"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guanahani"
+    ]
+  },
+  {
+    "id": "doggerland",
+    "nome": "Doggerland",
+    "descricao": "Antiga faixa de terra que ligava a Grã-Bretanha ao continente europeu e hoje está submersa sob o mar do Norte.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Doggerland"
+    ]
+  },
+  {
+    "id": "canal_de_corinto",
+    "nome": "Canal de Corinto",
+    "descricao": "Canal artificial que corta o istmo de Corinto, na Grécia, ligando o golfo de Corinto ao golfo Sarônico.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Corinth_Canal"
+    ]
+  },
+  {
+    "id": "liliput",
+    "nome": "Liliput",
+    "descricao": "Ilha imaginária habitada por pessoas minúsculas, descrita no romance As Viagens de Gulliver.",
+    "variantes": [
+      "Lilliput",
+      "Lilipute"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lilliput_and_Blefuscu"
+    ]
+  },
+  {
+    "id": "oceano_atlantico",
+    "nome": "Oceano Atlântico",
+    "descricao": "Segundo maior oceano da Terra, entre as Américas, a Europa e a África.",
+    "variantes": [
+      "Atlântico"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Oceano_Atl%C3%A2ntico"
+    ]
+  },
+  {
+    "id": "taiwan",
+    "nome": "Taiwan",
+    "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+    "variantes": [
+      "Formosa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taiwan"
+    ]
+  },
+  {
+    "id": "passagem_de_drake",
+    "nome": "Passagem de Drake",
+    "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+    "variantes": [
+      "Estreito de Drake",
+      "Mar de Hoces"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Passagem_de_Drake"
+    ]
+  },
+  {
+    "id": "ilhas_virgens",
+    "nome": "Ilhas Virgens",
+    "descricao": "Arquipélago do Caribe, a leste de Porto Rico, dividido entre territórios dos Estados Unidos e do Reino Unido.",
+    "variantes": [
+      "Virgin Islands"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Virgin_Islands"
+    ]
+  },
+  {
+    "id": "mar_amarelo",
+    "nome": "Mar Amarelo",
+    "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+    "variantes": [
+      "Huang Hai"
+    ],
+    "fontes": [
+      "https://www.britannica.com/place/Yellow-Sea"
+    ]
+  },
+  {
+    "id": "ilha_robinson_crusoe",
+    "nome": "Ilha Robinson Crusoé",
+    "descricao": "Ilha chilena do arquipélago Juan Fernández, no Pacífico, onde o marinheiro escocês Alexander Selkirk viveu isolado.",
+    "variantes": [
+      "Más a Tierra",
+      "Robinson Crusoe Island"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Robinson_Crusoe_Island"
+    ]
+  },
+  {
+    "id": "ilha_de_paqueta",
+    "nome": "Ilha de Paquetá",
+    "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+    "variantes": [
+      "Paquetá"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ilha_de_Paquet%C3%A1"
+    ]
+  },
+  {
+    "id": "barbados",
+    "nome": "Barbados",
+    "descricao": "País insular do Caribe, o mais oriental das Pequenas Antilhas.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Barbados"
+    ]
+  },
+  {
+    "id": "montecristo",
+    "nome": "Montecristo",
+    "descricao": "Pequena ilha italiana do arquipélago Toscano, no mar Tirreno, hoje reserva natural.",
+    "variantes": [
+      "Ilha de Montecristo",
+      "Monte Cristo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Montecristo"
+    ]
+  },
+  {
+    "id": "salinidade_da_agua_do_mar",
+    "nome": "Salinidade da água do mar",
+    "descricao": "Quantidade de sais dissolvidos na água dos mares e oceanos.",
+    "variantes": [
+      "Sal do mar",
+      "Salinidade oceânica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Seawater"
+    ]
+  },
+  {
+    "id": "sicilia",
+    "nome": "Sicília",
+    "descricao": "Ilha italiana no centro do mar Mediterrâneo, separada da península pelo estreito de Messina.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Sic%C3%ADlia"
+    ]
+  },
+  {
+    "id": "nova_guine",
+    "nome": "Nova Guiné",
+    "descricao": "Grande ilha da Oceania, ao norte da Austrália, dividida entre a Indonésia e Papua-Nova Guiné.",
+    "variantes": [
+      "New Guinea",
+      "Papua"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Nova_Guin%C3%A9"
+    ]
+  },
+  {
+    "id": "ilhas_baleares",
+    "nome": "Ilhas Baleares",
+    "descricao": "Arquipélago espanhol no oeste do mar Mediterrâneo, formado por Maiorca, Menorca, Ibiza e Formentera.",
+    "variantes": [
+      "Baleares"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ilhas_Baleares"
+    ]
+  },
+  {
+    "id": "triangulo_das_bermudas",
+    "nome": "Triângulo das Bermudas",
+    "descricao": "Região do Atlântico Norte associada a lendas de desaparecimentos de navios e aviões.",
+    "variantes": [
+      "Triângulo do Diabo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_das_Bermudas"
+    ]
+  },
+  {
+    "id": "svalbard",
+    "nome": "Svalbard",
+    "descricao": "Arquipélago norueguês no oceano Ártico, entre a Noruega continental e o Polo Norte.",
+    "variantes": [
+      "Spitsbergen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Svalbard"
+    ]
+  },
+  {
+    "id": "acores",
+    "nome": "Açores",
+    "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+    "variantes": [
+      "Arquipélago dos Açores",
+      "Ilhas dos Açores"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/A%C3%A7ores"
     ]
   }
 ]
