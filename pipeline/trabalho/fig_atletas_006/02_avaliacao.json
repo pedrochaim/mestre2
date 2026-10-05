@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jogador de amarelo com a camisa 9 da seleção, sem nome visível, em primeiro plano e legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este atacante brasileiro?",
+      "resposta": "Gabigol (Gabriel Barbosa)",
+      "ancora": {
+        "nome": "Gabigol",
+        "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+        "variantes": [
+          "Gabriel Barbosa",
+          "Gabi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto cortada e de baixa nitidez, só com o kimono da seleção. A atleta não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Dirk Nowitzki. O 'ING' na camisa não revela a resposta. A pergunta pede o time da NBA, um passo além do nome.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este astro europeu do basquete jogou a carreira inteira na NBA por uma única equipe. Qual?",
+      "resposta": "Dallas Mavericks",
+      "distratores": [
+        "Chicago Bulls",
+        "San Antonio Spurs",
+        "Los Angeles Lakers"
+      ],
+      "ancora": {
+        "nome": "Dirk Nowitzki",
+        "descricao": "Ex-ala-pivô alemão de basquete que defendeu o Dallas Mavericks por 21 anos na NBA.",
+        "variantes": [
+          "Dirk Werner Nowitzki"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Alisson de goleiro da seleção. Não há nome visível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Por qual clube inglês este goleiro brasileiro foi campeão da Premier League e da Champions League?",
+      "resposta": "Liverpool",
+      "ancora": {
+        "nome": "Alisson Becker",
+        "descricao": "Goleiro brasileiro de futebol, do Liverpool e da seleção brasileira.",
+        "variantes": [
+          "Alisson",
+          "Álisson Ramsés Becker"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Kevin Durant. A camisa mostra só o time e o número, sem o nome, e a pergunta pede o nome pelo rosto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este jogador de basquete?",
+      "resposta": "Kevin Durant",
+      "distratores": [
+        "Russell Westbrook",
+        "James Harden",
+        "LeBron James"
+      ],
+      "ancora": {
+        "nome": "Kevin Durant",
+        "descricao": "Ala americano de basquete, campeão da NBA e quatro vezes campeão olímpico.",
+        "variantes": [
+          "KD"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de entrevista com microfone e uma foto de judô ao fundo. A atleta não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Thiago Silva com a camisa da seleção, sem nome visível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este zagueiro brasileiro foi campeão italiano em 2011 por qual clube?",
+      "resposta": "Milan",
+      "ancora": {
+        "nome": "Thiago Silva",
+        "descricao": "Zagueiro brasileiro de futebol, que jogou no Milan, no PSG, no Chelsea e no Fluminense.",
+        "variantes": [
+          "Thiago Emiliano da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Venus Williams. O logotipo discreto na roupa não revela o nome. A irmã Serena é um distrator visualmente plausível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tenista americana é esta?",
+      "resposta": "Venus Williams",
+      "distratores": [
+        "Serena Williams",
+        "Sloane Stephens",
+        "Coco Gauff"
+      ],
+      "ancora": {
+        "nome": "Venus Williams",
+        "descricao": "Tenista americana, número 1 do mundo e campeã de sete torneios de Grand Slam em simples.",
+        "variantes": [
+          "Venus Ebony Star Williams"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Bubka, sem texto relevante. A pergunta vai além do nome.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que prova este atleta ucraniano foi campeão olímpico em 1988?",
+      "resposta": "Salto com vara",
+      "ancora": {
+        "nome": "Serguei Bubka",
+        "descricao": "Ex-atleta ucraniano do salto com vara, campeão olímpico em 1988 e recordista mundial 35 vezes.",
+        "variantes": [
+          "Sergey Bubka",
+          "Serhiy Bubka"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Mayweather. O letreiro 'Tecate' é de patrocinador e não entrega a resposta.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que boxeador americano é este?",
+      "resposta": "Floyd Mayweather",
+      "distratores": [
+        "Mike Tyson",
+        "Shane Mosley",
+        "Andre Ward"
+      ],
+      "ancora": {
+        "nome": "Floyd Mayweather",
+        "descricao": "Boxeador americano invicto, com 50 vitórias e campeão mundial em cinco categorias de peso.",
+        "variantes": [
+          "Floyd Mayweather Jr."
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de Alcaraz em quadra de saibro, sem texto que entregue o nome.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem este tenista espanhol derrotou na final de Wimbledon de 2023?",
+      "resposta": "Novak Djokovic",
+      "ancora": {
+        "nome": "Carlos Alcaraz",
+        "descricao": "Tenista espanhol, número 1 do mundo e campeão de torneios de Grand Slam.",
+        "variantes": [
+          "Carlos Alcaraz Garfia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome. Uma pessoa aparece só em um canto, cortada. Múltipla escolha com ginastas parecidos deixa a pergunta justa.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ginasta brasileiro?",
+      "resposta": "Arthur Nory",
+      "distratores": [
+        "Arthur Zanetti",
+        "Diego Hypólito",
+        "Caio Souza"
+      ],
+      "ancora": {
+        "nome": "Arthur Nory",
+        "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+        "variantes": [
+          "Arthur Nory Mariano",
+          "Arthur Mariano"
+        ]
+      }
+    }
+  ]
+}

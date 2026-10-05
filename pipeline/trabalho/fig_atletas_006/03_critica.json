@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pistas; resposta confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Astro europeu' que jogou a carreira inteira numa só equipe quase entrega o jogador e, com ele, o time; a figura vira enfeite. Troquei por enunciado que depende de reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Por qual equipe da NBA este jogador de basquete atuou durante toda a carreira?",
+        "resposta": "Dallas Mavericks",
+        "distratores": [
+          "Chicago Bulls",
+          "San Antonio Spurs",
+          "Los Angeles Lakers"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelo texto sozinho há ambiguidade (outros goleiros brasileiros em clubes ingleses), então a figura é necessária; Liverpool confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação simples com distratores plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título italiano 2010–11 pelo Milan confirmado nos trechos; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação com distratores críveis; nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro olímpico em 1988 no salto com vara confirmado; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação com distratores do mesmo tipo; nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Final de Wimbledon 2023 contra Djokovic confirmada; o enunciado não nomeia o tenista.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação com distratores ginastas brasileiros; nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
