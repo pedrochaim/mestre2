@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; os trechos confirmam o nome e a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma 'ouriço-cacheiro' como nome no Brasil. 'Porco-espinho' é sinônimo e o questionador pode aceitar. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mão-pelada' é um guaxinim, procionídeo noturno e parente do quati, então também satisfaz o enunciado. Além disso, 'parente do quati' é pista que quase se resolve sem a figura. Troquei a pista e os distratores.",
+      "reescrita": {
+        "pergunta": "Que mamífero arborícola e noturno das florestas tropicais americanas é este?",
+        "resposta": "Jupará",
+        "distratores": [
+          "Gambá",
+          "Macaco-da-noite",
+          "Tamanduá-mirim"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mamífero doméstico da família dos mustelídeos' define o furão, então a figura vira enfeite (teste da imagem coberta). Troquei por uma pista que não identifica sozinha.",
+      "reescrita": {
+        "pergunta": "Que animal de estimação, de corpo comprido e esguio, é este?",
+        "resposta": "Furão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são antílopes pequenos e africanos, mas visualmente distintos do dik-dik da imagem. A pergunta tem resposta única diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que a origem do sagui-de-tufos-brancos é o Nordeste. O enunciado diz 'vivia originalmente', o que é correto, e a figura é necessária para identificar o sagui.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Rosto vermelho' também descreve o macaco-rhesus e outros macacos asiáticos, então um distrator se encaixa no enunciado. Removi a pista de cor e deixei o enunciado mais neutro.",
+      "reescrita": {
+        "pergunta": "Que macaco asiático, que vive em regiões frias do Japão, é este?",
+        "resposta": "Macaco-japonês",
+        "distratores": [
+          "Macaco-rhesus",
+          "Macaco-tibetano",
+          "Macaco-caranguejeiro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pequeno cervo sul-americano' quase entrega o pudu sem a figura. Retirei 'pequeno'. Os trechos confirmam que o nome vem do mapudungun, a língua dos mapuches.",
+      "reescrita": {
+        "pergunta": "O nome deste cervo sul-americano vem do idioma de que povo indígena?",
+        "resposta": "Mapuche"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1, sem vazamento. Os trechos sustentam a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são críveis, do mesmo tipo e de até quatro palavras. O hipopótamo-comum se distingue pelo porte na imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são outros cervídeos sul-americanos e nenhum deles descreve a imagem. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

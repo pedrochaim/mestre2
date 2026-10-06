@@ -1,0 +1,714 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Porquinho-da-índia",
+        "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+        "variantes": [
+          "Cobaia",
+          "Cavia porcellus",
+          "Preá doméstico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "cobi",
+          "nome": "Cobi",
+          "descricao": "Mascote dos Jogos Olímpicos de Barcelona 1992, um cão pastor-catalão desenhado em estilo cubista.",
+          "variantes": []
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ouriço-cacheiro",
+        "descricao": "Roedor arborícola sul-americano de espinhos e cauda preênsil, da espécie Coendou prehensilis.",
+        "variantes": [
+          "Coendou prehensilis",
+          "Porco-espinho-brasileiro",
+          "Porco-espinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "araucaria",
+          "nome": "Araucária",
+          "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+          "variantes": [
+            "Araucaria angustifolia",
+            "pinheiro-do-paraná",
+            "pinheiro-brasileiro"
+          ]
+        },
+        {
+          "id": "cruzeiro_moeda",
+          "nome": "Cruzeiro (moeda)",
+          "descricao": "Moeda brasileira criada em 1942 em substituição ao mil-réis.",
+          "variantes": [
+            "Cruzeiro brasileiro"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade"
+          ]
+        },
+        {
+          "id": "pretinho_basico",
+          "nome": "Pretinho básico",
+          "descricao": "Vestido preto curto e simples popularizado por Coco Chanel nos anos 1920",
+          "variantes": [
+            "Little black dress",
+            "Vestido preto básico"
+          ]
+        },
+        {
+          "id": "porco_rosso",
+          "nome": "Porco Rosso",
+          "descricao": "Filme de animação de 1992 de Hayao Miyazaki sobre um piloto de hidroavião amaldiçoado com cara de porco.",
+          "variantes": [
+            "Porco Rosso: O Último Herói Romântico",
+            "Kurenai no Buta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Jupará",
+        "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+        "variantes": [
+          "Potos flavus",
+          "Macaco-da-noite",
+          "Kinkajou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "falcoes_da_noite",
+          "nome": "Falcões da Noite",
+          "descricao": "Pintura americana de 1942 que mostra fregueses numa lanchonete iluminada de esquina, de madrugada.",
+          "variantes": [
+            "Nighthawks",
+            "Notívagos"
+          ]
+        },
+        {
+          "id": "ozaru",
+          "nome": "Ōzaru",
+          "descricao": "Forma de macaco gigante em que os saiyajins com rabo se transformam em Dragon Ball.",
+          "variantes": [
+            "Oozaru",
+            "Macaco gigante",
+            "Great Ape"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Furão",
+        "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+        "variantes": [
+          "Mustela furo",
+          "Furão doméstico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dik-dik",
+        "descricao": "Pequeno antílope africano do gênero Madoqua, aqui o dik-dik-de-kirk (Madoqua kirkii).",
+        "variantes": [
+          "Dik-dik-de-kirk",
+          "Madoqua kirkii",
+          "Dikdik"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_d",
+          "nome": "Dia D",
+          "descricao": "Desembarque aliado na Normandia, na França, em 6 de junho de 1944.",
+          "variantes": [
+            "Desembarque na Normandia",
+            "D-Day",
+            "Operação Netuno"
+          ]
+        },
+        {
+          "id": "tamandua_mirim",
+          "nome": "Tamanduá-mirim",
+          "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+          "variantes": [
+            "Tamandua tetradactyla",
+            "Tamanduá-de-colete"
+          ]
+        },
+        {
+          "id": "dia_do_pi",
+          "nome": "Dia do Pi",
+          "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+          "variantes": [
+            "Pi Day"
+          ]
+        },
+        {
+          "id": "dick_york",
+          "nome": "Dick York",
+          "descricao": "Ator americano, o primeiro intérprete de Darrin, marido da bruxa Samantha na série A Feiticeira.",
+          "variantes": []
+        },
+        {
+          "id": "dungeons_dragons",
+          "nome": "Dungeons & Dragons",
+          "descricao": "Jogo de RPG de mesa de fantasia lançado nos Estados Unidos em 1974.",
+          "variantes": [
+            "D&D",
+            "Dungeons and Dragons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sagui-de-tufos-brancos",
+        "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+        "variantes": [
+          "Callithrix jacchus",
+          "Sagui-comum",
+          "Sagui-de-tufo-branco",
+          "Mico-estrela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Macaco-japonês",
+        "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+        "variantes": [
+          "Macaca fuscata",
+          "Macaco-da-neve",
+          "Nihonzaru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marcos_pontes",
+          "nome": "Marcos Pontes",
+          "descricao": "Astronauta, engenheiro e piloto brasileiro, primeiro brasileiro a ir ao espaço, em 2006.",
+          "variantes": [
+            "Marcos Cesar Pontes",
+            "Tenente-coronel Pontes"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "ozaru",
+          "nome": "Ōzaru",
+          "descricao": "Forma de macaco gigante em que os saiyajins com rabo se transformam em Dragon Ball.",
+          "variantes": [
+            "Oozaru",
+            "Macaco gigante",
+            "Great Ape"
+          ]
+        },
+        {
+          "id": "cacadores_na_neve",
+          "nome": "Caçadores na Neve",
+          "descricao": "Quadro de Pieter Bruegel, o Velho, de 1565.",
+          "variantes": []
+        },
+        {
+          "id": "shinkansen",
+          "nome": "Shinkansen",
+          "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+          "variantes": [
+            "Trem-bala japonês",
+            "Bullet train"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pudu",
+        "descricao": "Gênero de pequenos cervos sul-americanos, os menores cervos do mundo, aqui o pudu-do-sul (Pudu puda).",
+        "variantes": [
+          "Pudu puda",
+          "Pudu-do-sul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "luz_solar",
+          "nome": "Luz solar",
+          "descricao": "Radiação emitida pelo Sol que chega à Terra.",
+          "variantes": [
+            "Luz do Sol",
+            "Sunlight"
+          ]
+        },
+        {
+          "id": "pudim",
+          "nome": "Pudim",
+          "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+          "variantes": [
+            "Pudim de leite",
+            "Flan",
+            "Crème caramel"
+          ]
+        },
+        {
+          "id": "casuar",
+          "nome": "Casuar",
+          "descricao": "Grande ave corredora não voadora de plumagem negra, pescoço azul e elmo na cabeça (Casuarius casuarius).",
+          "variantes": [
+            "Casuar-do-sul",
+            "Casuarius casuarius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ovelha",
+        "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+        "variantes": [
+          "Ovis aries",
+          "Carneiro",
+          "Ovino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinho",
+          "nome": "Vinho",
+          "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+          "variantes": [
+            "Vinho tinto",
+            "Vinho branco"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "orelhao",
+          "nome": "Orelhão",
+          "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta.",
+          "variantes": [
+            "Chu I",
+            "Chu II"
+          ]
+        },
+        {
+          "id": "augusto",
+          "nome": "Augusto",
+          "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo.",
+          "variantes": [
+            "Otaviano",
+            "César Augusto",
+            "Augustus"
+          ]
+        },
+        {
+          "id": "cruzeiro",
+          "nome": "Cruzeiro",
+          "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
+          "variantes": [
+            "Cruzeiro Esporte Clube",
+            "Palestra Itália de Belo Horizonte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Hipopótamo-pigmeu",
+        "descricao": "Pequeno hipopótamo da floresta da África Ocidental, Choeropsis liberiensis.",
+        "variantes": [
+          "Choeropsis liberiensis",
+          "Hipopótamo-anão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        },
+        {
+          "id": "bonobo",
+          "nome": "Bonobo",
+          "descricao": "Grande primata africano do gênero Pan, que vive ao sul do rio Congo.",
+          "variantes": [
+            "Pan paniscus",
+            "Chimpanzé-pigmeu"
+          ]
+        },
+        {
+          "id": "hipocampo",
+          "nome": "Hipocampo",
+          "descricao": "Estrutura do cérebro ligada à formação de memórias.",
+          "variantes": [
+            "Hippocampus"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "porta_avioes",
+          "nome": "Porta-aviões",
+          "descricao": "Navio de guerra com convés de voo completo para lançar, recuperar e apoiar aeronaves no mar.",
+          "variantes": [
+            "Porta-aviao",
+            "Navio-aeródromo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cervo-do-pantanal",
+        "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+        "variantes": [
+          "Blastocerus dichotomus",
+          "Veado-galheiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "araucaria",
+          "nome": "Araucária",
+          "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+          "variantes": [
+            "Araucaria angustifolia",
+            "pinheiro-do-paraná",
+            "pinheiro-brasileiro"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_2002",
+          "nome": "Copa do Mundo FIFA de 2002",
+          "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+          "variantes": [
+            "Copa de 2002",
+            "2002 FIFA World Cup",
+            "Copa do Penta"
+          ]
+        },
+        {
+          "id": "deserto_da_patagonia",
+          "nome": "Deserto da Patagônia",
+          "descricao": "Deserto frio do sul da Argentina, a leste da Cordilheira dos Andes",
+          "variantes": [
+            "Patagonian Desert",
+            "Estepe patagônica"
+          ]
+        },
+        {
+          "id": "arena_pantanal",
+          "nome": "Arena Pantanal",
+          "descricao": "Estádio de futebol em Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014 e casa do Cuiabá Esporte Clube.",
+          "variantes": [
+            "Estádio José Fragelli",
+            "Arena Pantanal (Cuiabá)"
+          ]
+        },
+        {
+          "id": "galeno",
+          "nome": "Galeno",
+          "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+          "variantes": [
+            "Cláudio Galeno",
+            "Galen",
+            "Galeno de Pérgamo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o porquinho-da-índia (Cavia porcellus)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ouriço-cacheiro/Coendou prehensilis."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o jupará (Potos flavus)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Furão (Mustela furo) não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Dik-dik não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sagui Callithrix jacchus não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Macaco-japonês não consta; Japão e Ōzaru são entidades diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pudu não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ovelha não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Hipopótamo-pigmeu é espécie distinta do hipopótamo comum."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Cervo-do-pantanal não consta entre as candidatas."
+    }
+  ]
+}

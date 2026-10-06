@@ -1,0 +1,254 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de um porquinho-da-índia alaranjado, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que roedor doméstico é este?",
+      "resposta": "Porquinho-da-índia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Porquinho-da-índia",
+        "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+        "variantes": [
+          "Cobaia",
+          "Cavia porcellus",
+          "Preá doméstico"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de ouriço-cacheiro (Coendou prehensilis) num galho, com espinhos e cauda preênsil visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que roedor sul-americano é este?",
+      "resposta": "Ouriço-cacheiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ouriço-cacheiro",
+        "descricao": "Roedor arborícola sul-americano de espinhos e cauda preênsil, da espécie Coendou prehensilis.",
+        "variantes": [
+          "Coendou prehensilis",
+          "Porco-espinho-brasileiro",
+          "Porco-espinho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jupará nítido, de frente, com focinho rosa e olhos grandes. A escrita na madeira não revela a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero noturno, parente do quati, é este?",
+      "resposta": "Jupará",
+      "distratores": [
+        "Gambá",
+        "Mão-pelada",
+        "Lêmure-de-cauda-anelada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jupará",
+        "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+        "variantes": [
+          "Potos flavus",
+          "Macaco-da-noite",
+          "Kinkajou"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra gado cinzento com bezerro e brincos numerados. A resposta não é única (vaca, boi, bezerro, gado, bovino) e a imagem não pede um animal específico."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Furão nítido, de corpo inteiro e perfil, com a máscara facial típica.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mamífero doméstico, da família dos mustelídeos, é este?",
+      "resposta": "Furão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Furão",
+        "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+        "variantes": [
+          "Mustela furo",
+          "Furão doméstico"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Dik-dik de Kirk nítido, de corpo inteiro e em perfil, com chifres curtos e focinho alongado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno antílope africano é este?",
+      "resposta": "Dik-dik",
+      "distratores": [
+        "Oribi",
+        "Raficero",
+        "Duiker-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dik-dik",
+        "descricao": "Pequeno antílope africano do gênero Madoqua, aqui o dik-dik-de-kirk (Madoqua kirkii).",
+        "variantes": [
+          "Dik-dik-de-kirk",
+          "Madoqua kirkii",
+          "Dikdik"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Sagui com tufos brancos nas orelhas, bem visível e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que região do Brasil este sagui vivia originalmente?",
+      "resposta": "Nordeste",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sagui-de-tufos-brancos",
+        "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+        "variantes": [
+          "Callithrix jacchus",
+          "Sagui-comum",
+          "Sagui-de-tufo-branco",
+          "Mico-estrela"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Macaco-japonês de frente, com face vermelha e pelagem acinzentada. É reconhecível, mas há espécies parecidas, então fica melhor como múltipla.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que macaco asiático de rosto vermelho é este?",
+      "resposta": "Macaco-japonês",
+      "distratores": [
+        "Macaco-rhesus",
+        "Macaco-tibetano",
+        "Macaco-caranguejeiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-japonês",
+        "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+        "variantes": [
+          "Macaca fuscata",
+          "Macaco-da-neve",
+          "Nihonzaru"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pudu de corpo inteiro, de perfil, com cerca ao fundo. O pequeno cervo é reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O nome deste pequeno cervo sul-americano vem do idioma de que povo indígena?",
+      "resposta": "Mapuche",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pudu",
+        "descricao": "Gênero de pequenos cervos sul-americanos, os menores cervos do mundo, aqui o pudu-do-sul (Pudu puda).",
+        "variantes": [
+          "Pudu puda",
+          "Pudú",
+          "Pudu-do-sul"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rebanho de ovelhas nítido, com lã e brincos amarelos sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal de fazenda é este?",
+      "resposta": "Ovelha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ovelha",
+        "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+        "variantes": [
+          "Ovis aries",
+          "Carneiro",
+          "Ovino"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois hipopótamos-pigmeus bem visíveis, um com a boca aberta. A espécie é reconhecível, mas pode ser confundida com um filhote do hipopótamo comum, então fica melhor como múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de mamífero africano é esta?",
+      "resposta": "Hipopótamo-pigmeu",
+      "distratores": [
+        "Hipopótamo-comum",
+        "Anta-malaia",
+        "Capivara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hipopótamo-pigmeu",
+        "descricao": "Pequeno hipopótamo da floresta da África Ocidental, Choeropsis liberiensis.",
+        "variantes": [
+          "Choeropsis liberiensis",
+          "Hipopótamo-anão",
+          "Hipopótamo pigmeu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macho de cervo-do-pantanal de perfil, com galhada e patas pretas características.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cervo sul-americano é este?",
+      "resposta": "Cervo-do-pantanal",
+      "distratores": [
+        "Veado-campeiro",
+        "Veado-catingueiro",
+        "Veado-mateiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cervo-do-pantanal",
+        "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+        "variantes": [
+          "Blastocerus dichotomus",
+          "Veado-galheiro",
+          "Cervo-do-Pantanal"
+        ]
+      }
+    }
+  ]
+}
