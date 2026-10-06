@@ -1,0 +1,1364 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Suriname",
+        "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+        "variantes": [
+          "Surinam"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suriname"
+        ],
+        "id_existente": "suriname"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em área, qual é o menor país independente da América do Sul?",
+      "resposta": "Suriname",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suriname",
+        "https://pt.wikipedia.org/wiki/Suriname"
+      ],
+      "distratores": [
+        "Uruguai",
+        "Guiana",
+        "Equador"
+      ],
+      "ancora": "suriname"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Gâmbia",
+        "descricao": "País da África Ocidental formado por uma faixa estreita ao longo do rio Gâmbia, com capital em Banjul.",
+        "variantes": [
+          "The Gambia",
+          "Gambia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Gambia"
+        ],
+        "id_existente": "gambia"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Sem contar os países insulares, qual é o menor país do continente africano em área?",
+      "resposta": "Gâmbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Gambia",
+        "https://pt.wikipedia.org/wiki/G%C3%A2mbia"
+      ],
+      "ancora": "gambia"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Ucrânia",
+        "descricao": "País do Leste Europeu, às margens do Mar Negro, cuja capital é Kiev.",
+        "variantes": [
+          "Ukraine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ukraine",
+          "https://pt.wikipedia.org/wiki/Ucr%C3%A2nia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Depois da Rússia, qual é o maior país do continente europeu em área?",
+      "resposta": "Ucrânia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ukraine",
+        "https://pt.wikipedia.org/wiki/Ucr%C3%A2nia"
+      ],
+      "distratores": [
+        "Espanha",
+        "Suécia",
+        "Alemanha"
+      ],
+      "ancora": "ucrania"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Angola",
+        "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angola"
+        ],
+        "id_existente": "angola"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Depois do Brasil, qual é o maior país de língua portuguesa em área?",
+      "resposta": "Angola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angola",
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "ancora": "angola"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Indonésia",
+        "descricao": "País arquipélago do Sudeste Asiático, entre os oceanos Índico e Pacífico.",
+        "variantes": [
+          "Indonesia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Indonesia",
+          "https://pt.wikipedia.org/wiki/Indon%C3%A9sia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Espalhado por milhares de ilhas entre a Ásia e a Oceania, qual é o maior país arquipélago do mundo?",
+      "resposta": "Indonésia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Indonesia"
+      ],
+      "ancora": "indonesia"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Nicarágua",
+        "descricao": "País da América Central entre Honduras e Costa Rica, cuja capital é Manágua.",
+        "variantes": [
+          "Nicaragua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nicaragua",
+          "https://pt.wikipedia.org/wiki/Nicar%C3%A1gua"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual é o maior país da América Central em área?",
+      "resposta": "Nicarágua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nicaragua"
+      ],
+      "distratores": [
+        "Honduras",
+        "Guatemala",
+        "Panamá"
+      ],
+      "ancora": "nicaragua"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Maldivas",
+        "descricao": "País insular do Oceano Índico, formado por atóis a sudoeste da Índia, com capital em Malé.",
+        "variantes": [
+          "Maldives",
+          "República das Maldivas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maldives",
+          "https://pt.wikipedia.org/wiki/Maldivas"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com altitude média de cerca de um metro e meio acima do mar, qual país tem a menor altitude média do mundo?",
+      "resposta": "Maldivas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maldives"
+      ],
+      "distratores": [
+        "Países Baixos",
+        "Bangladesh",
+        "Dinamarca"
+      ],
+      "ancora": "maldivas"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Canadá",
+        "descricao": "País da América do Norte cuja capital é Ottawa.",
+        "variantes": [
+          "Canada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Canada"
+        ],
+        "id_existente": "canada"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Somando o continente e suas milhares de ilhas, qual país tem o litoral mais extenso do mundo?",
+      "resposta": "Canadá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Geography_of_Canada",
+        "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline"
+      ],
+      "ancora": "canada"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Ulan Bator",
+        "descricao": "Capital e maior cidade da Mongólia.",
+        "variantes": [
+          "Ulaanbaatar",
+          "Ulã Bator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ulaanbaatar"
+        ],
+        "id_existente": "ulan_bator"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Pela temperatura média ao longo do ano, qual é a capital nacional mais fria do mundo?",
+      "resposta": "Ulan Bator",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "https://pt.wikipedia.org/wiki/Ulan_Bator"
+      ],
+      "ancora": "ulan_bator"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Fronteira entre Brasil e França",
+        "descricao": "Fronteira terrestre entre o Brasil e a Guiana Francesa, departamento ultramarino da França.",
+        "variantes": [
+          "Fronteira Brasil-França",
+          "Brazil–France border"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Por causa de um território francês na América do Sul, qual país tem a fronteira terrestre mais longa com a França?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+      ],
+      "ancora": "fronteira_entre_brasil_e_franca"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Dinamarca",
+        "descricao": "País nórdico do norte da Europa, ao norte da Alemanha, cuja capital é Copenhague.",
+        "variantes": [
+          "Denmark"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Denmark",
+          "https://pt.wikipedia.org/wiki/Dinamarca"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além de centenas de ilhas, o território principal da Dinamarca ocupa qual península, que faz fronteira com a Alemanha?",
+      "resposta": "Jutlândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jutland",
+        "https://pt.wikipedia.org/wiki/Jutl%C3%A2ndia"
+      ],
+      "ancora": "dinamarca"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Malta",
+        "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+        "variantes": [
+          "República de Malta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Malta",
+          "https://pt.wikipedia.org/wiki/Malta"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O país Malta é um arquipélago no Mediterrâneo. Depois da ilha de Malta, qual é a maior ilha do país?",
+      "resposta": "Gozo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gozo",
+        "https://en.wikipedia.org/wiki/Malta"
+      ],
+      "ancora": "malta"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Bélgica",
+        "descricao": "País da Europa Ocidental cuja capital é Bruxelas.",
+        "variantes": [
+          "Belgium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Belgium",
+          "https://pt.wikipedia.org/wiki/B%C3%A9lgica"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A Bélgica se divide em três regiões: Flandres, ao norte, a região de Bruxelas e qual outra, ao sul?",
+      "resposta": "Valônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Communities,_regions_and_language_areas_of_Belgium",
+        "https://en.wikipedia.org/wiki/Wallonia"
+      ],
+      "distratores": [
+        "Lorena",
+        "Picardia",
+        "Alsácia"
+      ],
+      "ancora": "belgica"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Reino dos Países Baixos",
+        "descricao": "Estado soberano formado pelos Países Baixos e por três países constituintes no Caribe.",
+        "variantes": [
+          "Kingdom of the Netherlands",
+          "Reino da Holanda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands",
+          "https://pt.wikipedia.org/wiki/Reino_dos_Pa%C3%ADses_Baixos"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Reino dos Países Baixos reúne quatro países: os Países Baixos, Curaçao, São Martinho e qual ilha caribenha?",
+      "resposta": "Aruba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands"
+      ],
+      "ancora": "reino_dos_paises_baixos"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "França",
+        "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+        "variantes": [
+          "France"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/France"
+        ],
+        "id_existente": "franca"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Terra natal de Napoleão, qual é a maior ilha da França no Mar Mediterrâneo?",
+      "resposta": "Córsega",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Corsica",
+        "https://pt.wikipedia.org/wiki/C%C3%B3rsega"
+      ],
+      "ancora": "franca"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Andorra",
+        "descricao": "Pequeno principado sem litoral nos Pireneus, entre a Espanha e a França, com capital em Andorra-a-Velha.",
+        "variantes": [
+          "Principado de Andorra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andorra",
+          "https://pt.wikipedia.org/wiki/Andorra"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Andorra tem dois chefes de Estado, os copríncipes. Um deles é o bispo de Urgell, na Espanha. Qual é o cargo do outro?",
+      "resposta": "Presidente da França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Co-princes_of_Andorra",
+        "https://en.wikipedia.org/wiki/Andorra"
+      ],
+      "ancora": "andorra"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Países bálticos",
+        "descricao": "Grupo de três países do norte da Europa, na costa leste do Mar Báltico, que se separaram da União Soviética em 1991.",
+        "variantes": [
+          "Estados bálticos",
+          "Baltic states"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Baltic_states",
+          "https://pt.wikipedia.org/wiki/Pa%C3%ADses_b%C3%A1lticos"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Os três países bálticos, que deixaram a União Soviética em 1991, são a Estônia, a Lituânia e qual outro?",
+      "resposta": "Letônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baltic_states"
+      ],
+      "distratores": [
+        "Finlândia",
+        "Bielorrússia",
+        "Moldávia"
+      ],
+      "ancora": "paises_balticos"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Panamá",
+        "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+        "variantes": [
+          "Panama"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama"
+        ],
+        "id_existente": "panama"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Panamá, o dólar americano circula ao lado de uma moeda local que homenageia um explorador espanhol. Qual é essa moeda?",
+      "resposta": "Balboa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panamanian_balboa"
+      ],
+      "ancora": "panama"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Paraguai",
+        "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+        "variantes": [
+          "Paraguay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paraguay"
+        ],
+        "id_existente": "paraguai"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao lado do espanhol, qual língua indígena é oficial no Paraguai e falada pela maioria da população?",
+      "resposta": "Guarani",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paraguay",
+        "https://en.wikipedia.org/wiki/Guarani_language"
+      ],
+      "ancora": "paraguai"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Cabo Verde",
+        "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+        "variantes": [
+          "Cape Verde",
+          "Cabo Verde"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cape_Verde"
+        ],
+        "id_existente": "cabo_verde"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Qual é a moeda de Cabo Verde, cujo nome lembra a antiga moeda de Portugal?",
+      "resposta": "Escudo cabo-verdiano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cape_Verdean_escudo",
+        "https://pt.wikipedia.org/wiki/Escudo_cabo-verdiano"
+      ],
+      "distratores": [
+        "Kwanza",
+        "Metical",
+        "Dobra"
+      ],
+      "ancora": "cabo_verde"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Luxemburgo",
+        "descricao": "Grão-ducado sem litoral da Europa Ocidental, entre Bélgica, França e Alemanha, com capital de mesmo nome.",
+        "variantes": [
+          "Luxembourg",
+          "Grão-Ducado do Luxemburgo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luxembourg",
+          "https://pt.wikipedia.org/wiki/Luxemburgo"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Luxemburgo tem três línguas oficiais: o luxemburguês, o francês e qual outra?",
+      "resposta": "Alemão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Languages_of_Luxembourg"
+      ],
+      "ancora": "luxemburgo"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Haiti",
+        "descricao": "País caribenho na porção oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+        "variantes": [
+          "Haïti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haiti"
+        ],
+        "id_existente": "haiti"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Além do francês, qual é a outra língua oficial do Haiti, falada por praticamente toda a população?",
+      "resposta": "Crioulo haitiano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haitian_Creole",
+        "https://en.wikipedia.org/wiki/Haiti"
+      ],
+      "distratores": [
+        "Espanhol",
+        "Inglês",
+        "Iorubá"
+      ],
+      "ancora": "haiti"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Montenegro",
+        "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+        "variantes": [
+          "Crna Gora"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Montenegro"
+        ],
+        "id_existente": "montenegro"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 2002, mesmo sem acordo formal com a União Europeia, Montenegro passou a usar oficialmente qual moeda?",
+      "resposta": "Euro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montenegro_and_the_euro"
+      ],
+      "ancora": "montenegro"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Costa Rica",
+        "descricao": "País da América Central entre Nicarágua e Panamá, cuja capital é San José.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Costa_Rica"
+        ],
+        "id_existente": "costa_rica"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde 1949, por determinação da constituição, a Costa Rica vive sem qual instituição que quase todos os países mantêm?",
+      "resposta": "Exército",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Military_of_Costa_Rica",
+        "https://pt.wikipedia.org/wiki/Costa_Rica"
+      ],
+      "ancora": "costa_rica"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Quetzal guatemalteco",
+        "descricao": "Moeda oficial da Guatemala.",
+        "variantes": [
+          "Quetzal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guatemalan_quetzal"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A moeda da Guatemala tem o nome de qual ave de penas verdes, símbolo nacional do país?",
+      "resposta": "Quetzal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guatemalan_quetzal"
+      ],
+      "ancora": "quetzal_guatemalteco"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Honduras",
+        "descricao": "País da América Central, com costa no Caribe e no Pacífico, cuja capital é Tegucigalpa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Honduras",
+          "https://pt.wikipedia.org/wiki/Honduras"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em espanhol, a palavra que deu nome a Honduras, referência às águas da sua costa, significa o quê?",
+      "resposta": "Profundezas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Honduras"
+      ],
+      "ancora": "honduras"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Camarões",
+        "descricao": "País da África Central, no golfo da Guiné, cuja capital é Iaundé.",
+        "variantes": [
+          "Cameroon",
+          "Cameroun",
+          "Camarões"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cameroon",
+          "https://pt.wikipedia.org/wiki/Camar%C3%B5es"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Assim como o Canadá, o país africano Camarões tem duas línguas oficiais herdadas de colonizadores europeus. Quais são elas?",
+      "resposta": "Francês e inglês",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cameroon"
+      ],
+      "ancora": "camaroes"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Paquistão",
+        "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+        "variantes": [
+          "Pakistan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pakistan"
+        ],
+        "id_existente": "paquistao"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em urdu e em persa, o nome Paquistão significa terra de quê?",
+      "resposta": "Dos puros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_Pakistan",
+        "https://en.wikipedia.org/wiki/Pakistan"
+      ],
+      "ancora": "paquistao"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Zimbábue",
+        "descricao": "País sem litoral do sul da África, antiga Rodésia do Sul, cuja capital é Harare.",
+        "variantes": [
+          "Zimbabwe",
+          "Zimbabué"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zimbabwe",
+          "https://pt.wikipedia.org/wiki/Zimb%C3%A1bue"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Zimbábue, tirado de ruínas medievais do país, significa na língua xona casas de quê?",
+      "resposta": "Pedra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zimbabwe"
+      ],
+      "distratores": [
+        "Barro",
+        "Ouro",
+        "Madeira"
+      ],
+      "ancora": "zimbabue"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Singapura",
+        "descricao": "Cidade-Estado insular do Sudeste Asiático, na ponta sul da Península Malaia.",
+        "variantes": [
+          "Singapore",
+          "Cingapura"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Singapore"
+        ],
+        "id_existente": "singapura"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em sânscrito, o nome Singapura significa cidade de qual animal?",
+      "resposta": "Leão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_Singapore",
+        "https://en.wikipedia.org/wiki/Singapore"
+      ],
+      "ancora": "singapura"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "El Salvador",
+        "descricao": "País da América Central, na costa do Pacífico, cuja capital é San Salvador.",
+        "variantes": [
+          "Salvador"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Salvador"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que El Salvador e o Equador passaram a ter em comum na economia no início dos anos dois mil?",
+      "resposta": "O dólar americano como moeda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Salvador",
+        "https://en.wikipedia.org/wiki/Dollarization"
+      ],
+      "ancora": "el_salvador"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Turquia",
+        "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+        "variantes": [
+          "Türkiye",
+          "Turkey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Turkey"
+        ],
+        "id_existente": "turquia"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a Turquia e a Rússia têm em comum quanto à localização do seu território?",
+      "resposta": "Ficam na Europa e na Ásia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Transcontinental_country",
+        "https://en.wikipedia.org/wiki/Turkey"
+      ],
+      "ancora": "turquia"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Bonn",
+        "descricao": "Cidade alemã às margens do Reno, capital da Alemanha Ocidental de 1949 a 1990.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bonn",
+          "https://pt.wikipedia.org/wiki/Bonn"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Bonn foi a capital da Alemanha Ocidental até 1990. Que acontecimento daquele ano pôs fim à divisão do país?",
+      "resposta": "Reunificação da Alemanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bonn"
+      ],
+      "ancora": "bonn"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Uruguai",
+        "descricao": "País do sudeste da América do Sul entre Argentina e Brasil, cuja capital é Montevidéu.",
+        "variantes": [
+          "Uruguay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uruguay"
+        ],
+        "id_existente": "uruguai"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1828, o Uruguai se tornou independente ao fim de qual guerra entre o Império do Brasil e as Províncias Unidas do Rio da Prata?",
+      "resposta": "Guerra da Cisplatina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cisplatine_War",
+        "https://pt.wikipedia.org/wiki/Guerra_da_Cisplatina"
+      ],
+      "ancora": "uruguai"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Moçambique",
+        "descricao": "País lusófono do sudeste da África, banhado pelo Índico.",
+        "variantes": [
+          "Mozambique"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mozambique"
+        ],
+        "id_existente": "mocambique"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Moçambique e Angola conquistaram a independência de Portugal no mesmo ano. Que ano foi esse?",
+      "resposta": "1975",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mozambique",
+        "https://en.wikipedia.org/wiki/Angola"
+      ],
+      "ancora": "mocambique"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Macau",
+        "descricao": "Região administrativa especial da China, na costa sul do país, administrada por Portugal até o fim do século vinte.",
+        "variantes": [
+          "Macao"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Macau",
+          "https://pt.wikipedia.org/wiki/Macau"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de mais de quatro séculos de presença portuguesa, Macau passou à soberania da China em que ano?",
+      "resposta": "1999",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Transfer_of_sovereignty_over_Macau",
+        "https://en.wikipedia.org/wiki/Macau"
+      ],
+      "ancora": "macau"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Tombuctu",
+        "descricao": "Cidade histórica da África Ocidental, às portas do Saara, antigo centro de comércio e de estudos islâmicos.",
+        "variantes": [
+          "Timbuktu",
+          "Tombouctou"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Timbuktu",
+          "https://pt.wikipedia.org/wiki/Tombuctu"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Famosa como sinônimo de lugar remoto, a cidade histórica de Tombuctu fica em qual país africano?",
+      "resposta": "Mali",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Timbuktu"
+      ],
+      "ancora": "tombuctu"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Ilha de Páscoa",
+        "descricao": "Ilha isolada no sudeste do Oceano Pacífico, famosa pelas estátuas de pedra chamadas moais.",
+        "variantes": [
+          "Rapa Nui",
+          "Easter Island"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Easter_Island",
+          "https://pt.wikipedia.org/wiki/Ilha_de_P%C3%A1scoa"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No Oceano Pacífico, a Ilha de Páscoa, famosa pelas estátuas de pedra chamadas moais, pertence a qual país?",
+      "resposta": "Chile",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Easter_Island"
+      ],
+      "ancora": "ilha_de_pascoa"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Etiópia",
+        "descricao": "País sem litoral do Chifre da África, com capital em Adis Abeba.",
+        "variantes": [
+          "Ethiopia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ethiopia"
+        ],
+        "id_existente": "etiopia"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O calendário oficial da Etiópia, que conta os anos com alguns anos de atraso em relação ao nosso, tem quantos meses?",
+      "resposta": "Treze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ethiopian_calendar"
+      ],
+      "ancora": "etiopia"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Alemanha",
+        "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+        "variantes": [
+          "Germany",
+          "Deutschland"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Germany"
+        ],
+        "id_existente": "alemanha"
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "No coração da Europa, a Alemanha faz fronteira terrestre com quantos países?",
+      "resposta": "Nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Germany",
+        "https://pt.wikipedia.org/wiki/Alemanha"
+      ],
+      "ancora": "alemanha"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "indonesia",
+      "nome": "Indonésia",
+      "descricao": "País arquipélago do Sudeste Asiático, entre os oceanos Índico e Pacífico.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Indonesia",
+        "https://pt.wikipedia.org/wiki/Indon%C3%A9sia"
+      ]
+    },
+    {
+      "id": "nicaragua",
+      "nome": "Nicarágua",
+      "descricao": "País da América Central entre Honduras e Costa Rica, cuja capital é Manágua.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nicaragua",
+        "https://pt.wikipedia.org/wiki/Nicar%C3%A1gua"
+      ]
+    },
+    {
+      "id": "maldivas",
+      "nome": "Maldivas",
+      "descricao": "País insular do Oceano Índico, formado por atóis a sudoeste da Índia, com capital em Malé.",
+      "variantes": [
+        "Maldives",
+        "República das Maldivas"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Maldives",
+        "https://pt.wikipedia.org/wiki/Maldivas"
+      ]
+    },
+    {
+      "id": "fronteira_entre_brasil_e_franca",
+      "nome": "Fronteira entre Brasil e França",
+      "descricao": "Fronteira terrestre entre o Brasil e a Guiana Francesa, departamento ultramarino da França.",
+      "variantes": [
+        "Fronteira Brasil-França",
+        "Brazil–France border"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+      ]
+    },
+    {
+      "id": "dinamarca",
+      "nome": "Dinamarca",
+      "descricao": "País nórdico do norte da Europa, ao norte da Alemanha, cuja capital é Copenhague.",
+      "variantes": [
+        "Denmark"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Denmark",
+        "https://pt.wikipedia.org/wiki/Dinamarca"
+      ]
+    },
+    {
+      "id": "malta",
+      "nome": "Malta",
+      "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+      "variantes": [
+        "República de Malta"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Malta",
+        "https://pt.wikipedia.org/wiki/Malta"
+      ]
+    },
+    {
+      "id": "reino_dos_paises_baixos",
+      "nome": "Reino dos Países Baixos",
+      "descricao": "Estado soberano formado pelos Países Baixos e por três países constituintes no Caribe.",
+      "variantes": [
+        "Kingdom of the Netherlands",
+        "Reino da Holanda"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands",
+        "https://pt.wikipedia.org/wiki/Reino_dos_Pa%C3%ADses_Baixos"
+      ]
+    },
+    {
+      "id": "andorra",
+      "nome": "Andorra",
+      "descricao": "Pequeno principado sem litoral nos Pireneus, entre a Espanha e a França, com capital em Andorra-a-Velha.",
+      "variantes": [
+        "Principado de Andorra"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Andorra",
+        "https://pt.wikipedia.org/wiki/Andorra"
+      ]
+    },
+    {
+      "id": "paises_balticos",
+      "nome": "Países bálticos",
+      "descricao": "Grupo de três países do norte da Europa, na costa leste do Mar Báltico, que se separaram da União Soviética em 1991.",
+      "variantes": [
+        "Estados bálticos",
+        "Baltic states"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Baltic_states",
+        "https://pt.wikipedia.org/wiki/Pa%C3%ADses_b%C3%A1lticos"
+      ]
+    },
+    {
+      "id": "luxemburgo",
+      "nome": "Luxemburgo",
+      "descricao": "Grão-ducado sem litoral da Europa Ocidental, entre Bélgica, França e Alemanha, com capital de mesmo nome.",
+      "variantes": [
+        "Luxembourg",
+        "Grão-Ducado do Luxemburgo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Luxembourg",
+        "https://pt.wikipedia.org/wiki/Luxemburgo"
+      ]
+    },
+    {
+      "id": "quetzal_guatemalteco",
+      "nome": "Quetzal guatemalteco",
+      "descricao": "Moeda oficial da Guatemala.",
+      "variantes": [
+        "Quetzal"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Guatemalan_quetzal"
+      ]
+    },
+    {
+      "id": "honduras",
+      "nome": "Honduras",
+      "descricao": "País da América Central, com costa no Caribe e no Pacífico, cuja capital é Tegucigalpa.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Honduras",
+        "https://pt.wikipedia.org/wiki/Honduras"
+      ]
+    },
+    {
+      "id": "zimbabue",
+      "nome": "Zimbábue",
+      "descricao": "País sem litoral do sul da África, antiga Rodésia do Sul, cuja capital é Harare.",
+      "variantes": [
+        "Zimbabwe"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Zimbabwe",
+        "https://pt.wikipedia.org/wiki/Zimb%C3%A1bue"
+      ]
+    },
+    {
+      "id": "el_salvador",
+      "nome": "El Salvador",
+      "descricao": "País da América Central, na costa do Pacífico, cuja capital é San Salvador.",
+      "variantes": [
+        "Salvador"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/El_Salvador"
+      ]
+    },
+    {
+      "id": "bonn",
+      "nome": "Bonn",
+      "descricao": "Cidade alemã às margens do Reno, capital da Alemanha Ocidental de 1949 a 1990.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bonn",
+        "https://pt.wikipedia.org/wiki/Bonn"
+      ]
+    },
+    {
+      "id": "tombuctu",
+      "nome": "Tombuctu",
+      "descricao": "Cidade histórica da África Ocidental, às portas do Saara, antigo centro de comércio e de estudos islâmicos.",
+      "variantes": [
+        "Timbuktu",
+        "Tombouctou"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Timbuktu",
+        "https://pt.wikipedia.org/wiki/Tombuctu"
+      ]
+    }
+  ],
+  "variantes": {
+    "suriname": [
+      "Suriname",
+      "Surinam"
+    ],
+    "gambia": [
+      "Gâmbia",
+      "The Gambia",
+      "Gambia"
+    ],
+    "angola": [
+      "Angola"
+    ],
+    "canada": [
+      "Canadá",
+      "Canada"
+    ],
+    "ulan_bator": [
+      "Ulan Bator",
+      "Ulaanbaatar",
+      "Ulã Bator"
+    ],
+    "franca": [
+      "França",
+      "France"
+    ],
+    "japao": [
+      "Japão",
+      "Japan"
+    ],
+    "panama": [
+      "Panamá",
+      "Panama"
+    ],
+    "paraguai": [
+      "Paraguai",
+      "Paraguay"
+    ],
+    "cabo_verde": [
+      "Cabo Verde",
+      "Cape Verde"
+    ],
+    "nova_zelandia": [
+      "Nova Zelândia",
+      "New Zealand",
+      "Aotearoa"
+    ],
+    "haiti": [
+      "Haiti",
+      "Haïti"
+    ],
+    "montenegro": [
+      "Montenegro",
+      "Crna Gora"
+    ],
+    "costa_rica": [
+      "Costa Rica"
+    ],
+    "butao": [
+      "Butão",
+      "Bhutan"
+    ],
+    "paquistao": [
+      "Paquistão",
+      "Pakistan"
+    ],
+    "singapura": [
+      "Singapura",
+      "Singapore",
+      "Cingapura"
+    ],
+    "turquia": [
+      "Turquia",
+      "Türkiye",
+      "Turkey"
+    ],
+    "uruguai": [
+      "Uruguai",
+      "Uruguay"
+    ],
+    "mocambique": [
+      "Moçambique",
+      "Mozambique"
+    ],
+    "etiopia": [
+      "Etiópia",
+      "Ethiopia"
+    ],
+    "alemanha": [
+      "Alemanha",
+      "Germany",
+      "Deutschland"
+    ],
+    "ucrania": [
+      "Ucrânia",
+      "Ukraine"
+    ],
+    "belgica": [
+      "Bélgica",
+      "Belgium"
+    ],
+    "hispaniola": [
+      "Hispaniola",
+      "Ilha de São Domingos",
+      "La Española"
+    ],
+    "borneu": [
+      "Bornéu",
+      "Borneo",
+      "Kalimantan"
+    ],
+    "burkina_faso": [
+      "Burkina Faso",
+      "Alto Volta",
+      "Burquina Faso"
+    ],
+    "camaroes": [
+      "Camarões",
+      "Cameroon",
+      "Cameroun"
+    ],
+    "guine_equatorial": [
+      "Guiné Equatorial",
+      "Equatorial Guinea",
+      "Guinea Ecuatorial"
+    ],
+    "macau": [
+      "Macau",
+      "Macao"
+    ],
+    "ilha_de_pascoa": [
+      "Ilha de Páscoa",
+      "Rapa Nui",
+      "Easter Island"
+    ],
+    "sao_petersburgo": [
+      "São Petersburgo",
+      "Saint Petersburg",
+      "Petrogrado",
+      "Leningrado"
+    ]
+  }
+}

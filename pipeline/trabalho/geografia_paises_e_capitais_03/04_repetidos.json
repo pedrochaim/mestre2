@@ -1,0 +1,642 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em área, qual é o menor país independente da América do Sul?",
+        "resposta": "Suriname"
+      },
+      "existentes": [
+        {
+          "id": "q04032",
+          "pergunta": "Em 1667, pelo Tratado de Breda, os holandeses ficaram com o Suriname e deixaram aos ingleses a colônia que viraria qual cidade?",
+          "resposta": "Nova York"
+        },
+        {
+          "id": "q04038",
+          "pergunta": "Vizinho do Brasil, o Suriname tem como língua oficial uma herança da colonização. Qual é essa língua?",
+          "resposta": "Neerlandês (holandês)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Sem contar os países insulares, qual é o menor país do continente africano em área?",
+        "resposta": "Gâmbia"
+      },
+      "existentes": [
+        {
+          "id": "q04000",
+          "pergunta": "Com exceção do pequeno litoral no Atlântico, a Gâmbia é totalmente cercada por qual país?",
+          "resposta": "Senegal"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Depois da Rússia, qual é o maior país do continente europeu em área?",
+        "resposta": "Ucrânia"
+      },
+      "existentes": [
+        {
+          "id": "q05749",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Ucrânia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Depois do Brasil, qual é o maior país de língua portuguesa em área?",
+        "resposta": "Angola"
+      },
+      "existentes": [
+        {
+          "id": "q01297",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Angola"
+        },
+        {
+          "id": "q07499",
+          "pergunta": "Qual é a capital do país destacado neste mapa?",
+          "resposta": "Luanda"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Somando o continente e suas milhares de ilhas, qual país tem o litoral mais extenso do mundo?",
+        "resposta": "Canadá"
+      },
+      "existentes": [
+        {
+          "id": "q00005",
+          "pergunta": "Registrado por Jacques Cartier no século dezesseis, o nome Canadá vem de uma palavra iroquesa que significa o quê?",
+          "resposta": "Aldeia"
+        },
+        {
+          "id": "q00924",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Ottawa"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Pela temperatura média ao longo do ano, qual é a capital nacional mais fria do mundo?",
+        "resposta": "Ulan Bator"
+      },
+      "existentes": [
+        {
+          "id": "q04021",
+          "pergunta": "O nome Ulan Bator, capital da Mongólia, significa herói de qual cor?",
+          "resposta": "Vermelho"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A Bélgica se divide em três regiões: Flandres, ao norte, a região de Bruxelas e qual outra, ao sul?",
+        "resposta": "Valônia"
+      },
+      "existentes": [
+        {
+          "id": "q05746",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Bruxelas"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O Haiti ocupa a parte oeste da ilha caribenha de Hispaniola. Qual país ocupa o restante da ilha?",
+        "resposta": "República Dominicana"
+      },
+      "existentes": [
+        {
+          "id": "q02232",
+          "pergunta": "Quais dois países dividem a ilha de Hispaniola, no mar do Caribe?",
+          "resposta": "Haiti e República Dominicana"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Terra natal de Napoleão, qual é a maior ilha da França no Mar Mediterrâneo?",
+        "resposta": "Córsega"
+      },
+      "existentes": [
+        {
+          "id": "q00020",
+          "pergunta": "Somando seus territórios ultramarinos, qual país tem o maior número de fusos horários do mundo?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Três países dividem a ilha de Bornéu: a Indonésia, a Malásia e qual pequeno sultanato?",
+        "resposta": "Brunei"
+      },
+      "existentes": [
+        {
+          "id": "q02228",
+          "pergunta": "A ilha de Bornéu, no Sudeste Asiático, é dividida entre quantos países?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No Panamá, o dólar americano circula ao lado de uma moeda local que homenageia um explorador espanhol. Qual é essa moeda?",
+        "resposta": "Balboa"
+      },
+      "existentes": [
+        {
+          "id": "q04005",
+          "pergunta": "No início do século vinte, o Panamá deixou de fazer parte da Colômbia. Em que ano isso aconteceu?",
+          "resposta": "1903"
+        },
+        {
+          "id": "q04026",
+          "pergunta": "A separação entre o Panamá e a Colômbia teve o apoio decisivo de qual país, interessado em construir um canal na região?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Ao lado do espanhol, qual língua indígena é oficial no Paraguai e falada pela maioria da população?",
+        "resposta": "Guarani"
+      },
+      "existentes": [
+        {
+          "id": "q04029",
+          "pergunta": "Na América do Sul, qual característica geográfica o Paraguai compartilha apenas com a Bolívia?",
+          "resposta": "Não ter saída para o mar"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Qual é a moeda de Cabo Verde, cujo nome lembra a antiga moeda de Portugal?",
+        "resposta": "Escudo cabo-verdiano"
+      },
+      "existentes": [
+        {
+          "id": "q02229",
+          "pergunta": "O arquipélago de Cabo Verde, país africano de língua portuguesa, é formado por quantas ilhas?",
+          "resposta": "Dez"
+        },
+        {
+          "id": "q04482",
+          "pergunta": "Que país europeu colonizou o arquipélago destacado neste mapa?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Além do francês, qual é a outra língua oficial do Haiti, falada por praticamente toda a população?",
+        "resposta": "Crioulo haitiano"
+      },
+      "existentes": [
+        {
+          "id": "q04009",
+          "pergunta": "Após uma revolução liderada por escravizados, o Haiti proclamou sua independência da França em que ano?",
+          "resposta": "1804"
+        },
+        {
+          "id": "q05747",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Haiti"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em 2002, mesmo sem acordo formal com a União Europeia, Montenegro passou a usar oficialmente qual moeda?",
+        "resposta": "Euro"
+      },
+      "existentes": [
+        {
+          "id": "q04008",
+          "pergunta": "Depois de um referendo, o Montenegro se separou da Sérvia e virou um país independente em que ano?",
+          "resposta": "2006"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Desde 1949, por determinação da constituição, a Costa Rica vive sem qual instituição que quase todos os países mantêm?",
+        "resposta": "Exército"
+      },
+      "existentes": [
+        {
+          "id": "q06204",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Costa Rica"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1984, o Alto Volta mudou de nome para Burkina Faso, expressão que significa terra de quê?",
+        "resposta": "Dos homens íntegros"
+      },
+      "existentes": [
+        {
+          "id": "q04911",
+          "pergunta": "Em 1984, o Alto Volta passou a se chamar Burkina Faso. O que significa esse novo nome?",
+          "resposta": "Terra dos homens íntegros"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O nome do país africano Camarões vem dos crustáceos que navegadores de qual país europeu encontraram num rio local, no século quinze?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q04787",
+          "pergunta": "Que país africano tem um nome português, dado por navegadores que encontraram muitos crustáceos num de seus rios?",
+          "resposta": "Camarões"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Assim como o Canadá, o país africano Camarões tem duas línguas oficiais herdadas de colonizadores europeus. Quais são elas?",
+        "resposta": "Francês e inglês"
+      },
+      "existentes": [
+        {
+          "id": "q04787",
+          "pergunta": "Que país africano tem um nome português, dado por navegadores que encontraram muitos crustáceos num de seus rios?",
+          "resposta": "Camarões"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em urdu e em persa, o nome Paquistão significa terra de quê?",
+        "resposta": "Dos puros"
+      },
+      "existentes": [
+        {
+          "id": "q04017",
+          "pergunta": "Em 1947, qual líder político é considerado o fundador do Paquistão?",
+          "resposta": "Muhammad Ali Jinnah"
+        },
+        {
+          "id": "q05284",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Islamabad"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Em sânscrito, o nome Singapura significa cidade de qual animal?",
+        "resposta": "Leão"
+      },
+      "existentes": [
+        {
+          "id": "q04014",
+          "pergunta": "Em 1819, qual britânico fundou o entreposto comercial que deu origem à Singapura moderna?",
+          "resposta": "Stamford Raffles"
+        },
+        {
+          "id": "q04024",
+          "pergunta": "Em 1965, Singapura virou um país independente ao ser expulsa de qual federação?",
+          "resposta": "Malásia"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Colonizada pela Espanha, a Guiné Equatorial também adotou como oficial uma língua que ela compartilha com o Brasil. Qual?",
+        "resposta": "Português"
+      },
+      "existentes": [
+        {
+          "id": "q00797",
+          "pergunta": "Que país africano, antiga colônia espanhola, adotou o português como uma de suas línguas oficiais no início da década de 2010?",
+          "resposta": "Guiné Equatorial"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O que a Turquia e a Rússia têm em comum quanto à localização do seu território?",
+        "resposta": "Ficam na Europa e na Ásia"
+      },
+      "existentes": [
+        {
+          "id": "q00925",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Turquia"
+        },
+        {
+          "id": "q07498",
+          "pergunta": "Qual é a maior cidade do país destacado neste mapa?",
+          "resposta": "Istambul"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em 1828, o Uruguai se tornou independente ao fim de qual guerra entre o Império do Brasil e as Províncias Unidas do Rio da Prata?",
+        "resposta": "Guerra da Cisplatina"
+      },
+      "existentes": [
+        {
+          "id": "q01298",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Montevidéu"
+        },
+        {
+          "id": "q03890",
+          "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+          "resposta": "Argentina"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Moçambique e Angola conquistaram a independência de Portugal no mesmo ano. Que ano foi esse?",
+        "resposta": "1975"
+      },
+      "existentes": [
+        {
+          "id": "q00926",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Maputo"
+        },
+        {
+          "id": "q06208",
+          "pergunta": "Que país africano está destacado neste mapa?",
+          "resposta": "Moçambique"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Depois de mais de quatro séculos de presença portuguesa, Macau passou à soberania da China em que ano?",
+        "resposta": "1999"
+      },
+      "existentes": [
+        {
+          "id": "q00779",
+          "pergunta": "Em que região administrativa especial da China o português é língua oficial ao lado do chinês?",
+          "resposta": "Macau"
+        },
+        {
+          "id": "q03919",
+          "pergunta": "O que Macau e Hong Kong têm em comum no fim do século vinte?",
+          "resposta": "Foram devolvidos à China"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "No Oceano Pacífico, a Ilha de Páscoa, famosa pelas estátuas de pedra chamadas moais, pertence a qual país?",
+        "resposta": "Chile"
+      },
+      "existentes": [
+        {
+          "id": "q02191",
+          "pergunta": "O nome em português da ilha de Rapa Nui, no Pacífico, vem do dia em que o holandês Jacob Roggeveen chegou lá, em 1722. Que dia foi?",
+          "resposta": "Domingo de Páscoa"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O calendário oficial da Etiópia, que conta os anos com alguns anos de atraso em relação ao nosso, tem quantos meses?",
+        "resposta": "Treze"
+      },
+      "existentes": [
+        {
+          "id": "q04027",
+          "pergunta": "A Etiópia já teve litoral no Mar Vermelho. Que acontecimento, nos anos noventa, deixou o país sem saída para o mar?",
+          "resposta": "A independência da Eritreia"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "No coração da Europa, a Alemanha faz fronteira terrestre com quantos países?",
+        "resposta": "Nove"
+      },
+      "existentes": [
+        {
+          "id": "q06199",
+          "pergunta": "Que país está destacado neste mapa da Europa?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Capital da Rússia por cerca de dois séculos, a cidade de São Petersburgo foi fundada em 1703 por qual czar?",
+        "resposta": "Pedro, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q03677",
+          "pergunta": "Que czar fundou São Petersburgo em 1703, às margens do Báltico, e depois a fez capital da Rússia?",
+          "resposta": "Pedro, o Grande"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Área do país é fato diferente"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Menor país em área vs. fronteira"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bandeira vs. tamanho"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tamanho vs. bandeira/capital"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Litoral é fato distinto"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Capital mais fria vs. significado do nome"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Regiões vs. capital"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q02232",
+      "motivo": "Mesma divisão da ilha de Hispaniola; resposta Haiti e República Dominicana"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Córsega vs. fusos horários"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q02228",
+      "motivo": "Mesmo fato: países que dividem Bornéu"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Moeda é fato distinto"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Língua vs. falta de litoral"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Moeda distinta"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Língua distinta"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Moeda vs. independência"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Sem exército vs. mapa"
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q04911",
+      "motivo": "Mesmo significado do nome Burkina Faso"
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q04787",
+      "motivo": "Mesmo fato: nome português de Camarões dado por navegadores; saber um leva ao outro"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Línguas oficiais é outro fato"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Significado do nome é distinto"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Significado do nome distinto"
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "id_existente": "q00797",
+      "motivo": "Mesmo fato: Guiné Equatorial adotou português como língua oficial"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Localização transcontinental distinta"
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Independência distinta"
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Ano de independência distinto"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Ano da passagem; existente não dá o ano"
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Pertence ao Chile vs. origem do nome"
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Calendário distinto"
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Fronteiras vs. mapa"
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "id_existente": "q03677",
+      "motivo": "Mesmo fato: czar fundador de São Petersburgo"
+    }
+  ]
+}

@@ -11464,7 +11464,8 @@
     "nome": "Guiné Equatorial",
     "descricao": "País da África Central, antiga colônia espanhola, membro da Comunidade dos Países de Língua Portuguesa",
     "variantes": [
-      "Guinea Ecuatorial"
+      "Guinea Ecuatorial",
+      "Equatorial Guinea"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Guin%C3%A9_Equatorial"
@@ -13696,7 +13697,8 @@
     "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
     "variantes": [
       "Türkiye",
-      "República da Turquia"
+      "República da Turquia",
+      "Turkey"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Turkey",
@@ -19657,7 +19659,8 @@
     "nome": "Uruguai",
     "descricao": "País do sudeste da América do Sul entre Argentina e Brasil, cuja capital é Montevidéu.",
     "variantes": [
-      "República Oriental do Uruguai"
+      "República Oriental do Uruguai",
+      "Uruguay"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Uruguay",
@@ -59791,7 +59794,8 @@
     "nome": "Montenegro",
     "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
     "variantes": [
-      "Montenegro (país)"
+      "Montenegro (país)",
+      "Crna Gora"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Montenegro"
@@ -59896,7 +59900,8 @@
     "descricao": "Cidade-Estado insular do Sudeste Asiático, na ponta sul da Península Malaia.",
     "variantes": [
       "Singapore",
-      "República de Singapura"
+      "República de Singapura",
+      "Cingapura"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Singapore"
@@ -90328,7 +90333,8 @@
     "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
     "variantes": [
       "República Federal da Alemanha",
-      "Germany"
+      "Germany",
+      "Deutschland"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Germany",
@@ -107831,6 +107837,189 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Flamengo_Park"
+    ]
+  },
+  {
+    "id": "indonesia",
+    "nome": "Indonésia",
+    "descricao": "País arquipélago do Sudeste Asiático, entre os oceanos Índico e Pacífico.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Indonesia",
+      "https://pt.wikipedia.org/wiki/Indon%C3%A9sia"
+    ]
+  },
+  {
+    "id": "nicaragua",
+    "nome": "Nicarágua",
+    "descricao": "País da América Central entre Honduras e Costa Rica, cuja capital é Manágua.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nicaragua",
+      "https://pt.wikipedia.org/wiki/Nicar%C3%A1gua"
+    ]
+  },
+  {
+    "id": "maldivas",
+    "nome": "Maldivas",
+    "descricao": "País insular do Oceano Índico, formado por atóis a sudoeste da Índia, com capital em Malé.",
+    "variantes": [
+      "Maldives",
+      "República das Maldivas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maldives",
+      "https://pt.wikipedia.org/wiki/Maldivas"
+    ]
+  },
+  {
+    "id": "fronteira_entre_brasil_e_franca",
+    "nome": "Fronteira entre Brasil e França",
+    "descricao": "Fronteira terrestre entre o Brasil e a Guiana Francesa, departamento ultramarino da França.",
+    "variantes": [
+      "Fronteira Brasil-França",
+      "Brazil–France border"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+    ]
+  },
+  {
+    "id": "dinamarca",
+    "nome": "Dinamarca",
+    "descricao": "País nórdico do norte da Europa, ao norte da Alemanha, cuja capital é Copenhague.",
+    "variantes": [
+      "Denmark"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Denmark",
+      "https://pt.wikipedia.org/wiki/Dinamarca"
+    ]
+  },
+  {
+    "id": "malta",
+    "nome": "Malta",
+    "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+    "variantes": [
+      "República de Malta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Malta",
+      "https://pt.wikipedia.org/wiki/Malta"
+    ]
+  },
+  {
+    "id": "reino_dos_paises_baixos",
+    "nome": "Reino dos Países Baixos",
+    "descricao": "Estado soberano formado pelos Países Baixos e por três países constituintes no Caribe.",
+    "variantes": [
+      "Kingdom of the Netherlands",
+      "Reino da Holanda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands",
+      "https://pt.wikipedia.org/wiki/Reino_dos_Pa%C3%ADses_Baixos"
+    ]
+  },
+  {
+    "id": "andorra",
+    "nome": "Andorra",
+    "descricao": "Pequeno principado sem litoral nos Pireneus, entre a Espanha e a França, com capital em Andorra-a-Velha.",
+    "variantes": [
+      "Principado de Andorra"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Andorra",
+      "https://pt.wikipedia.org/wiki/Andorra"
+    ]
+  },
+  {
+    "id": "paises_balticos",
+    "nome": "Países bálticos",
+    "descricao": "Grupo de três países do norte da Europa, na costa leste do Mar Báltico, que se separaram da União Soviética em 1991.",
+    "variantes": [
+      "Estados bálticos",
+      "Baltic states"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baltic_states",
+      "https://pt.wikipedia.org/wiki/Pa%C3%ADses_b%C3%A1lticos"
+    ]
+  },
+  {
+    "id": "luxemburgo",
+    "nome": "Luxemburgo",
+    "descricao": "Grão-ducado sem litoral da Europa Ocidental, entre Bélgica, França e Alemanha, com capital de mesmo nome.",
+    "variantes": [
+      "Luxembourg",
+      "Grão-Ducado do Luxemburgo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Luxembourg",
+      "https://pt.wikipedia.org/wiki/Luxemburgo"
+    ]
+  },
+  {
+    "id": "quetzal_guatemalteco",
+    "nome": "Quetzal guatemalteco",
+    "descricao": "Moeda oficial da Guatemala.",
+    "variantes": [
+      "Quetzal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guatemalan_quetzal"
+    ]
+  },
+  {
+    "id": "honduras",
+    "nome": "Honduras",
+    "descricao": "País da América Central, com costa no Caribe e no Pacífico, cuja capital é Tegucigalpa.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Honduras",
+      "https://pt.wikipedia.org/wiki/Honduras"
+    ]
+  },
+  {
+    "id": "zimbabue",
+    "nome": "Zimbábue",
+    "descricao": "País sem litoral do sul da África, antiga Rodésia do Sul, cuja capital é Harare.",
+    "variantes": [
+      "Zimbabwe"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zimbabwe",
+      "https://pt.wikipedia.org/wiki/Zimb%C3%A1bue"
+    ]
+  },
+  {
+    "id": "el_salvador",
+    "nome": "El Salvador",
+    "descricao": "País da América Central, na costa do Pacífico, cuja capital é San Salvador.",
+    "variantes": [
+      "Salvador"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/El_Salvador"
+    ]
+  },
+  {
+    "id": "bonn",
+    "nome": "Bonn",
+    "descricao": "Cidade alemã às margens do Reno, capital da Alemanha Ocidental de 1949 a 1990.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bonn",
+      "https://pt.wikipedia.org/wiki/Bonn"
+    ]
+  },
+  {
+    "id": "tombuctu",
+    "nome": "Tombuctu",
+    "descricao": "Cidade histórica da África Ocidental, às portas do Saara, antigo centro de comércio e de estudos islâmicos.",
+    "variantes": [
+      "Timbuktu",
+      "Tombouctou"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Timbuktu",
+      "https://pt.wikipedia.org/wiki/Tombuctu"
     ]
   }
 ]
