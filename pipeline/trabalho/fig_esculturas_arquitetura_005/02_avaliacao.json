@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ponte inconfundível, imagem nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Sobre que rio fica esta ponte?",
+      "resposta": "Tâmisa",
+      "distratores": [
+        "Sena",
+        "Tejo",
+        "Danúbio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tower Bridge",
+        "descricao": "Ponte basculante e suspensa de Londres sobre o rio Tâmisa, inaugurada em 1894.",
+        "variantes": [
+          "Ponte da Torre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada nítida e característica; pessoas pequenas e anônimas ao fundo, não em primeiro plano.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico caracteriza esta catedral?",
+      "resposta": "Gótico",
+      "distratores": [
+        "Românico",
+        "Barroco",
+        "Renascentista"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco de Milão, na Itália, iniciada em 1386.",
+        "variantes": [
+          "Duomo di Milano",
+          "Duomo de Milão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Borobudur reconhecível pela forma em terraços e pelo domo central; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que dinastia reinava em Java quando este templo foi construído, no século nove?",
+      "resposta": "Sailendra",
+      "distratores": [
+        "Majapahit",
+        "Srivijaya",
+        "Chola"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nove em Java Central, Indonésia, com nove plataformas empilhadas.",
+        "variantes": [
+          "Barabudur",
+          "Candi Borobudur"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada lateral do mosteiro, nítida e sem texto; estilo reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico é este?",
+      "resposta": "Manuelino",
+      "distratores": [
+        "Plateresco",
+        "Mudéjar",
+        "Barroco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosteiro dos Jerónimos",
+        "descricao": "Antigo mosteiro da Ordem de São Jerónimo em Belém, Lisboa, exemplo do estilo manuelino.",
+        "variantes": [
+          "Mosteiro dos Jerônimos",
+          "Jerónimos Monastery"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada do Grande Templo, icônica; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que templo egípcio escavado na rocha é este?",
+      "resposta": "Abu Simbel",
+      "destino": 0,
+      "ancora": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, com colossos na fachada.",
+        "variantes": [
+          "Abul-Simbel",
+          "Abu Simbel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista do Kremlin com muralha, torres e palácio; reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este conjunto de muralhas, torres e palácios?",
+      "resposta": "Moscou",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kremlin de Moscou",
+        "descricao": "Complexo fortificado no centro de Moscou, com palácios, catedrais e muralhas com torres.",
+        "variantes": [
+          "Kremlin de Moscovo",
+          "Kremlin"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Alhambra vista de Granada, reconhecível pelas torres e pelo palácio de Carlos V.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade espanhola fica este complexo?",
+      "resposta": "Granada",
+      "distratores": [
+        "Sevilha",
+        "Córdoba",
+        "Toledo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alhambra",
+        "descricao": "Complexo de palácio e fortaleza nasrida em Granada, na Espanha.",
+        "variantes": [
+          "Alhambra de Granada"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Zigurate com escadarias reconstruídas, nítido, sem texto; pessoas minúsculas no topo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este zigurate?",
+      "resposta": "Iraque",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Zigurate neossumério da cidade de Ur, construído por Ur-Nammu, no atual Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Muro reconhecível; pessoas pequenas ao fundo, em contexto público.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que muro sagrado de Jerusalém é este?",
+      "resposta": "Muro das Lamentações",
+      "distratores": [
+        "Muro de Adriano",
+        "Muralha de Jericó",
+        "Muralha de Constantinopla"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Muro das Lamentações",
+        "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, local de oração judaica.",
+        "variantes": [
+          "Muro Ocidental",
+          "Kotel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada oeste do Capitólio, nítida e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que edifício neoclássico americano é este?",
+      "resposta": "Capitólio dos Estados Unidos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Edifício neoclássico em Washington, sede do Congresso dos Estados Unidos.",
+        "variantes": [
+          "Capitólio",
+          "United States Capitol"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Escultura nítida; usada a pergunta sobre o herói, pois há uma inscrição parcial na faixa que revelaria o autor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que herói da mitologia grega é representado nesta estátua de bronze?",
+      "resposta": "Perseu",
+      "destino": 2,
+      "ancora": {
+        "nome": "Perseu com a Cabeça de Medusa",
+        "descricao": "Escultura de bronze de Benvenuto Cellini na Loggia dei Lanzi, em Florença, que mostra Perseu com a cabeça de Medusa.",
+        "variantes": [
+          "Perseu de Cellini",
+          "Perseus with the Head of Medusa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Esfinge com a pirâmide ao fundo, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade egípcia, na margem oeste do Nilo, fica este monumento?",
+      "resposta": "Gizé",
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfinge de Gizé",
+        "descricao": "Estátua monumental de uma esfinge, com corpo de leão e cabeça humana, esculpida na rocha do planalto de Gizé, no Egito.",
+        "variantes": [
+          "Grande Esfinge de Gizé",
+          "Esfinge de Giza"
+        ]
+      }
+    }
+  ]
+}

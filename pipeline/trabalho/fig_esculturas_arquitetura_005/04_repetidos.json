@@ -1,0 +1,223 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Sobre que rio fica esta ponte?",
+        "resposta": "Tâmisa"
+      },
+      "existentes": [
+        {
+          "id": "q05433",
+          "pergunta": "Com torres que lembram um castelo, a Tower Bridge, ponte levadiça sobre o Tâmisa, em Londres, foi aberta ao tráfego em qual século?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico caracteriza esta catedral?",
+        "resposta": "Gótico"
+      },
+      "existentes": [
+        {
+          "id": "q05289",
+          "pergunta": "Em que cidade italiana fica esta catedral gótica?",
+          "resposta": "Milão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que dinastia reinava em Java quando este templo foi construído, no século nove?",
+        "resposta": "Sailendra"
+      },
+      "existentes": [
+        {
+          "id": "q03960",
+          "pergunta": "Borobudur, enorme templo budista de pedra construído no século nove em forma de mandala, fica em que país?",
+          "resposta": "Indonésia"
+        },
+        {
+          "id": "q05291",
+          "pergunta": "Que templo budista é este?",
+          "resposta": "Borobudur"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico é este?",
+        "resposta": "Manuelino"
+      },
+      "existentes": [
+        {
+          "id": "q03879",
+          "pergunta": "Em que século começou a ser construído este mosteiro, erguido perto do rio Tejo?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que templo egípcio escavado na rocha é este?",
+        "resposta": "Abu Simbel"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        },
+        {
+          "id": "q06390",
+          "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+          "resposta": "Nefertari"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade fica este conjunto de muralhas, torres e palácios?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q02001",
+          "pergunta": "Em russo, o que significa a palavra kremlin, que batiza a sede do governo em Moscou?",
+          "resposta": "Fortaleza"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que cidade espanhola fica este complexo?",
+        "resposta": "Granada"
+      },
+      "existentes": [
+        {
+          "id": "q00386",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Alhambra"
+        },
+        {
+          "id": "q02033",
+          "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+          "resposta": "Granada"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que país fica este zigurate?",
+        "resposta": "Iraque"
+      },
+      "existentes": [
+        {
+          "id": "q03473",
+          "pergunta": "Em que país fica este zigurate?",
+          "resposta": "Iraque"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que muro é este?",
+        "resposta": "Muro das Lamentações"
+      },
+      "existentes": [
+        {
+          "id": "q03482",
+          "pergunta": "Em que cidade fica este muro, lugar de oração?",
+          "resposta": "Jerusalém"
+        },
+        {
+          "id": "q05584",
+          "pergunta": "O Muro das Lamentações, em Jerusalém, é um resto do muro de sustentação da esplanada onde ficava que templo, destruído pelos romanos no ano setenta?",
+          "resposta": "O Segundo Templo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que cidade egípcia, na margem oeste do Nilo, fica este monumento?",
+        "resposta": "Gizé"
+      },
+      "existentes": [
+        {
+          "id": "q00065",
+          "pergunta": "Os árabes apelidaram a Grande Esfinge de Gizé de Abul-Hol, que quer dizer pai de alguma coisa. Pai de quê?",
+          "resposta": "Do terror"
+        },
+        {
+          "id": "q06374",
+          "pergunta": "A maioria dos egiptólogos atribui a Grande Esfinge de Gizé a qual faraó da Quarta Dinastia, filho de Quéops?",
+          "resposta": "Quéfren"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rio onde fica a ponte vs. século de abertura; fatos diferentes (o enunciado existente cita o Tâmisa, mas pergunta o século)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estilo arquitetônico é fato diferente da cidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dinastia é fato diferente de país ou identidade do templo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estilo manuelino difere do século de construção."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o templo difere das perguntas sobre represa ou rainha."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade onde fica difere do significado da palavra kremlin."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q02033",
+      "motivo": "Mesma pergunta: cidade onde fica a Alhambra, Granada."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q03473",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Identificar o muro difere da cidade ou do templo associado; a resposta está no enunciado das outras, mas o fato é outro."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cidade do monumento difere de apelido árabe e do faraó."
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tower Bridge",
+        "descricao": "Ponte basculante e suspensa de Londres sobre o rio Tâmisa, inaugurada em 1894.",
+        "variantes": [
+          "Ponte da Torre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco de Milão, na Itália, iniciada em 1386.",
+        "variantes": [
+          "Duomo di Milano",
+          "Duomo de Milão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nove em Java Central, Indonésia, com nove plataformas empilhadas.",
+        "variantes": [
+          "Barabudur",
+          "Candi Borobudur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borobudur",
+          "nome": "Borobudur",
+          "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+          "variantes": [
+            "Templo de Borobudur"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "bacurau",
+          "nome": "Bacurau",
+          "descricao": "Filme brasileiro de 2019 dirigido por Kleber Mendonça Filho e Juliano Dornelles, premiado em Cannes.",
+          "variantes": [
+            "Bacurau (filme)"
+          ]
+        },
+        {
+          "id": "quadra_dura",
+          "nome": "Quadra dura",
+          "descricao": "Quadra de tênis de superfície rígida, de asfalto ou concreto revestido de resina acrílica.",
+          "variantes": [
+            "Hard court",
+            "Quadra rápida"
+          ]
+        },
+        {
+          "id": "queima_de_sutias",
+          "nome": "Queima de sutiãs",
+          "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+          "variantes": [
+            "Bra-burning",
+            "Queima dos sutiãs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mosteiro dos Jerónimos",
+        "descricao": "Antigo mosteiro da Ordem de São Jerónimo em Belém, Lisboa, exemplo do estilo manuelino.",
+        "variantes": [
+          "Jerónimos Monastery"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": []
+        },
+        {
+          "id": "mosteiro_do_escorial",
+          "nome": "Mosteiro do Escorial",
+          "descricao": "Complexo de mosteiro e palácio real mandado erguer por Filipe II da Espanha no século dezesseis.",
+          "variantes": [
+            "El Escorial",
+            "Real Sitio de San Lorenzo de El Escorial"
+          ]
+        },
+        {
+          "id": "o_livro_dos_espiritos",
+          "nome": "O Livro dos Espíritos",
+          "descricao": "Obra publicada em Paris em 1857, base da doutrina espírita",
+          "variantes": [
+            "The Spirits' Book",
+            "Le Livre des Esprits"
+          ]
+        },
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "forte_dos_reis_magos",
+          "nome": "Forte dos Reis Magos",
+          "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Fortaleza dos Reis Magos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, com colossos na fachada.",
+        "variantes": [
+          "Abul-Simbel",
+          "Abu Simbel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Arroba"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Kremlin de Moscou",
+        "descricao": "Complexo fortificado no centro de Moscou, com palácios, catedrais e muralhas com torres.",
+        "variantes": [
+          "Kremlin de Moscovo",
+          "Kremlin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kremlin_de_moscou",
+          "nome": "Kremlin de Moscou",
+          "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+          "variantes": [
+            "Kremlin",
+            "Moscow Kremlin"
+          ]
+        },
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+          "variantes": [
+            "Reino de Marrocos",
+            "Morocco"
+          ]
+        },
+        {
+          "id": "linux",
+          "nome": "Linux",
+          "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991.",
+          "variantes": [
+            "Kernel Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Alhambra",
+        "descricao": "Complexo de palácio e fortaleza nasrida em Granada, na Espanha.",
+        "variantes": [
+          "Alhambra de Granada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        },
+        {
+          "id": "holambra",
+          "nome": "Holambra",
+          "descricao": "Município paulista fundado por imigrantes holandeses, conhecido pela produção de flores",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Zigurate neossumério da cidade de Ur, construído por Ur-Nammu, no atual Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zigurate_de_ur",
+          "nome": "Zigurate de Ur",
+          "descricao": "Grande zigurate sumério do século vinte e um antes de Cristo, construído por Ur-Nammu na antiga cidade de Ur, no sul do Iraque.",
+          "variantes": [
+            "Grande Zigurate de Ur",
+            "Etemenniguru"
+          ]
+        },
+        {
+          "id": "etemenanki",
+          "nome": "Etemenanki",
+          "descricao": "Grande zigurate da Babilônia, dedicado ao deus Marduk.",
+          "variantes": [
+            "Zigurate de Babilônia"
+          ]
+        },
+        {
+          "id": "guerra_dos_emus",
+          "nome": "Guerra dos Emus",
+          "descricao": "Operação militar de 1932 em que soldados com metralhadoras tentaram, sem sucesso, reduzir populações de emus que destruíam lavouras.",
+          "variantes": [
+            "Grande Guerra dos Emus",
+            "Emu War"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "grande_barreira_de_coral",
+          "nome": "Grande Barreira de Coral",
+          "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+          "variantes": [
+            "Great Barrier Reef"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Muro das Lamentações",
+        "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, local de oração judaica.",
+        "variantes": [
+          "Muro Ocidental",
+          "Kotel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muro_das_lamentacoes",
+          "nome": "Muro das Lamentações",
+          "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, lugar de oração judaica.",
+          "variantes": [
+            "Muro Ocidental",
+            "Kotel",
+            "Western Wall"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        },
+        {
+          "id": "no_unidade",
+          "nome": "Nó (unidade)",
+          "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+          "variantes": [
+            "Knot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Edifício neoclássico em Washington, sede do Congresso dos Estados Unidos.",
+        "variantes": [
+          "Capitólio",
+          "United States Capitol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitolio_de_havana",
+          "nome": "Capitólio de Havana",
+          "descricao": "Edifício com grande cúpula em Havana, Cuba, inaugurado em 1929 como sede do Congresso cubano.",
+          "variantes": [
+            "El Capitolio",
+            "Capitolio Nacional de Cuba"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "bandeira_dos_estados_unidos",
+          "nome": "Bandeira dos Estados Unidos",
+          "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+          "variantes": [
+            "Stars and Stripes",
+            "Old Glory"
+          ]
+        },
+        {
+          "id": "lei_seca_dos_estados_unidos",
+          "nome": "Lei Seca dos Estados Unidos",
+          "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933.",
+          "variantes": [
+            "Prohibition",
+            "Proibição"
+          ]
+        },
+        {
+          "id": "capitao_feio",
+          "nome": "Capitão Feio",
+          "descricao": "Principal vilão da Turma da Mônica, tio do Cascão, que vive nos esgotos.",
+          "variantes": [
+            "Feitoso Araújo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Perseu com a Cabeça de Medusa",
+        "descricao": "Escultura de bronze de Benvenuto Cellini na Loggia dei Lanzi, em Florença, que mostra Perseu com a cabeça de Medusa.",
+        "variantes": [
+          "Perseu de Cellini",
+          "Perseus with the Head of Medusa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "pierre_de_coubertin",
+          "nome": "Pierre de Coubertin",
+          "descricao": "Pedagogo francês, fundador do Comitê Olímpico Internacional e idealizador dos Jogos Olímpicos modernos.",
+          "variantes": [
+            "Barão de Coubertin",
+            "Pierre de Frédy"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Esfinge de Gizé",
+        "descricao": "Estátua monumental de uma esfinge, com corpo de leão e cabeça humana, esculpida na rocha do planalto de Gizé, no Egito.",
+        "variantes": [
+          "Grande Esfinge de Gizé",
+          "Esfinge de Giza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "mariposa_caveira",
+          "nome": "Mariposa-caveira",
+          "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+          "variantes": [
+            "Acherontia atropos",
+            "Acherontia",
+            "death's-head hawkmoth",
+            "esfinge-caveira"
+          ]
+        },
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tower_bridge",
+      "motivo": "Mesma ponte de Londres sobre o Tâmisa."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_milao",
+      "motivo": "Mesma catedral gótica de Milão, iniciada em 1386."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "borobudur",
+      "motivo": "Mesmo templo budista do século nove em Java."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "mosteiro_dos_jeronimos",
+      "motivo": "Mesmo mosteiro manuelino em Belém, Lisboa."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "abu_simbel",
+      "motivo": "Mesmo par de templos de Ramsés II em Abu Simbel."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "kremlin_de_moscou",
+      "motivo": "Mesmo complexo fortificado de Moscou."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "alhambra",
+      "motivo": "Mesmo palácio-fortaleza nasrida de Granada."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "zigurate_de_ur",
+      "motivo": "Mesmo zigurate de Ur-Nammu, com as mesmas variantes."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "muro_das_lamentacoes",
+      "motivo": "Mesmo muro em Jerusalém, com as mesmas variantes."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Capitólio de Washington; o de Havana é outro edifício."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A escultura de Cellini é diferente da pintura de Caravaggio."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "grande_esfinge_de_gize",
+      "motivo": "Mesma estátua da Esfinge no planalto de Gizé."
+    }
+  ]
+}
