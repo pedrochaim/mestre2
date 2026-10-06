@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+        "resposta": "Proclamação da Independência (Grito do Ipiranga)"
+      },
+      "existentes": [
+        {
+          "id": "q00408",
+          "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+          "resposta": "A Independência (o Grito do Ipiranga, em 1822)"
+        },
+        {
+          "id": "q03061",
+          "pergunta": "Pedro Américo pintou Independência ou Morte longe do Brasil. Em que cidade italiana ele fez o quadro?",
+          "resposta": "Florença"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que acontecimento de 1808 este quadro de Goya, pintado em 1814, retrata?",
+        "resposta": "Fuzilamento de espanhóis por franceses"
+      },
+      "existentes": [
+        {
+          "id": "q00425",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Francisco de Goya"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que movimento brasileiro do século dezoito adotou esta bandeira como símbolo?",
+        "resposta": "Inconfidência Mineira"
+      },
+      "existentes": [
+        {
+          "id": "q02352",
+          "pergunta": "O lema latino da bandeira de Minas Gerais foi adaptado de um verso de qual poeta romano?",
+          "resposta": "Virgílio"
+        },
+        {
+          "id": "q02353",
+          "pergunta": "Herdado dos inconfidentes, o lema Libertas quae sera tamen, da bandeira mineira, significa o quê em português?",
+          "resposta": "Liberdade ainda que tardia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que aeronave pioneira, de 1903, é esta?",
+        "resposta": "Wright Flyer"
+      },
+      "existentes": [
+        {
+          "id": "q03617",
+          "pergunta": "Em 17 de dezembro de 1903, o primeiro voo do Flyer, avião dos irmãos Wright, durou cerca de quantos segundos?",
+          "resposta": "Doze segundos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta: o quadro retrata a Independência.",
+      "id_existente": "q00408"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o autor do quadro; a nova pergunta o acontecimento retratado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta qual movimento adotou a bandeira; as existentes tratam do poeta e da tradução do lema."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a aeronave é diferente da duração do primeiro voo."
+    }
+  ]
+}

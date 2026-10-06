@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quadro de Pedro Américo retrata a proclamação da independência; enunciado não vaza a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (Bastilha, Maximiliano, Peterloo) são de outras épocas e se eliminam pelo ano 1808 dado no enunciado. Trocados por episódios da mesma época, plausíveis.",
+      "reescrita": {
+        "pergunta": "Que acontecimento de 1808 este quadro de Goya, pintado em 1814, retrata?",
+        "resposta": "Fuzilamento de espanhóis por franceses",
+        "distratores": [
+          "Batalha de Bailén",
+          "Cerco de Saragoça",
+          "Abdicação de Carlos quarto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira de Minas deriva da dos inconfidentes; resposta única e distratores do mesmo tipo e época.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coroa feita em 1661 para a coroação de Carlos II e usada até hoje (2023); distratores plausíveis e nenhum correto para esta pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (Cortés, Pizarro, Alvarado) não foram vice-reis da Nova Espanha, então o enunciado já os elimina. Trocados por vice-reis da Nova Espanha.",
+      "reescrita": {
+        "pergunta": "Este códice asteca, de cerca de 1541, recebeu o nome de que vice-rei da Nova Espanha?",
+        "resposta": "Antonio de Mendoza",
+        "distratores": [
+          "Luis de Velasco",
+          "Martín Enríquez",
+          "Gaspar de Zúñiga"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'irmãos que inventaram e pilotaram uma aeronave' já entrega os Wright sem olhar a figura. Passa a pedir o reconhecimento da aeronave.",
+      "reescrita": {
+        "pergunta": "Que aeronave pioneira, de 1903, é esta?",
+        "resposta": "Wright Flyer"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carta datada de 6 de abril de 1320; distratores são datas medievais escocesas/inglesas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Padrão é o marco de pedra dos navegadores portugueses; enunciado não entrega o nome e os distratores são tipos de marco distintos.",
+      "reescrita": null
+    }
+  ]
+}

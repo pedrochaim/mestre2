@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Quadro famoso, sem texto, cena única e reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+      "resposta": "Proclamação da Independência (Grito do Ipiranga)",
+      "destino": 2,
+      "ancora": {
+        "nome": "Independência ou Morte (quadro de Pedro Américo)",
+        "descricao": "Pintura a óleo de Pedro Américo, de 1888, que representa a proclamação da independência do Brasil.",
+        "variantes": [
+          "Grito do Ipiranga",
+          "Independência ou Morte"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra famosa de Goya, sem texto, reconhecível; múltipla com distratores de pinturas de execuções ou cenas de guerra.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acontecimento de 1808 este quadro de Goya retrata?",
+      "resposta": "Fuzilamento de espanhóis por franceses",
+      "distratores": [
+        "Queda da Bastilha",
+        "Execução do imperador Maximiliano",
+        "Massacre de Peterloo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "O Três de Maio de 1808",
+        "descricao": "Pintura de Francisco Goya, de 1814, sobre o fuzilamento de resistentes espanhóis por tropas de Napoleão em Madri.",
+        "variantes": [
+          "Os fuzilamentos de três de maio",
+          "El tres de mayo de 1808 en Madrid"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto escura de um globo antigo sobre tripé; sem detalhes legíveis do mapa, não é reconhecível como o globo de Behaim e poderia ser outro globo antigo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira reconhecível; o lema em latim não nomeia a resposta (o movimento).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que movimento brasileiro do século dezoito adotou esta bandeira como símbolo?",
+      "resposta": "Inconfidência Mineira",
+      "distratores": [
+        "Conjuração Baiana",
+        "Revolução Pernambucana",
+        "Guerra dos Farrapos"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Bandeira de Minas Gerais",
+        "descricao": "Bandeira do estado de Minas Gerais, um triângulo vermelho com o lema Libertas quae sera tamen, associada à Inconfidência Mineira.",
+        "variantes": [
+          "Bandeira da Inconfidência"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de uma coroa com veludo roxo e arminho, reconhecível; pergunta pelo rei para quem foi feita.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Para a coroação de que rei inglês foi feita esta coroa, que ainda hoje é usada em coroações?",
+      "resposta": "Carlos II",
+      "distratores": [
+        "Henrique VIII",
+        "Jaime I",
+        "Guilherme III"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coroa de Santo Eduardo",
+        "descricao": "Coroa de coroação das joias da Coroa britânica, feita em 1661 para Carlos II.",
+        "variantes": [
+          "St Edward's Crown"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frontispício do códice, reconhecível; os rótulos minúsculos não entregam a pergunta sobre o vice-rei. Imagem legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este códice asteca, de cerca de 1541, recebeu o nome de que vice-rei da Nova Espanha?",
+      "resposta": "Antonio de Mendoza",
+      "distratores": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Pedro de Alvarado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Códice Mendoza",
+        "descricao": "Códice asteca de cerca de 1541, feito sob o vice-rei Antonio de Mendoza, com a história dos governantes e do tributo astecas.",
+        "variantes": [
+          "Codex Mendoza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome BONAPARTE está gravado na rocha em primeiro plano, entregando a identidade."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica famosa, sem texto, aeronave inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que irmãos inventaram e pilotaram esta aeronave?",
+      "resposta": "Irmãos Wright (Orville e Wilbur)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Wright Flyer",
+        "descricao": "Primeiro avião motorizado a realizar voo controlado, dos irmãos Wright, em 17 de dezembro de 1903.",
+        "variantes": [
+          "Flyer I",
+          "Kitty Hawk",
+          "Flyer de 1903"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Documento medieval em latim, sem legenda; a data não aparece legível. Reconhecível como a carta com muitos selos.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi escrito este documento medieval?",
+      "resposta": "1320",
+      "distratores": [
+        "1215",
+        "1297",
+        "1314"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Declaração de Arbroath",
+        "descricao": "Carta de 1320 dos barões escoceses ao papa João XXII afirmando a independência da Escócia.",
+        "variantes": [
+          "Declaratio Arbroathis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Gravura cinzenta de um diamante oval, sem traço que permita identificar o Koh-i-Noor; poderia ser outro diamante."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de marco de pedra com cruz; a inscrição não é legível no celular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama este tipo de marco de pedra com cruz no topo?",
+      "resposta": "Padrão",
+      "distratores": [
+        "Pelourinho",
+        "Obelisco",
+        "Estela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Padrão (marco dos descobrimentos portugueses)",
+        "descricao": "Pilar de pedra com cruz e armas reais, erguido por navegadores portugueses nos séculos quinze e dezesseis para marcar posse.",
+        "variantes": [
+          "Padrões",
+          "Padrão dos descobrimentos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mapa com legendas e títulos visíveis (Universalis Cosmographia, Americi Vespucii) que entregam a resposta; montagem de várias folhas."
+    }
+  ]
+}
