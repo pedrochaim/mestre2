@@ -103,7 +103,7 @@
       "titulo": "en:Judogi",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Taekwondo",
@@ -313,7 +313,7 @@
       "titulo": "en:Golf",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Boxe",
@@ -446,7 +446,7 @@
       "titulo": "en:Show jumping",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Futevôlei",
@@ -846,6 +846,286 @@
       "camada": 3,
       "destino": 4,
       "status": "reprovada"
+    },
+    {
+      "nome": "Enterrada",
+      "titulo": "en:Slam dunk",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bola de vôlei",
+      "titulo": "en:Volleyball (ball)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Boliche",
+      "titulo": "en:Ten-pin bowling",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Xadrez",
+      "titulo": "en:Chess",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Taco de golfe",
+      "titulo": "en:Golf club",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nado borboleta",
+      "titulo": "en:Butterfly stroke",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nado costas",
+      "titulo": "en:Backstroke",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida de revezamento",
+      "titulo": "en:Relay race",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escanteio",
+      "titulo": "en:Corner kick",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Mountain bike",
+      "titulo": "en:Mountain biking",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motocross",
+      "titulo": "en:Motocross",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida de cavalos",
+      "titulo": "en:Horse racing",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bola de beisebol",
+      "titulo": "en:Baseball (ball)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Luta livre profissional",
+      "titulo": "en:Professional wrestling",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Barra fixa",
+      "titulo": "en:Horizontal bar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salto sobre a mesa",
+      "titulo": "en:Vault (gymnastics)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patinação de velocidade",
+      "titulo": "en:Speed skating",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esqui cross-country",
+      "titulo": "en:Cross-country skiing",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tiro esportivo",
+      "titulo": "en:Shooting sports",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Canoagem de velocidade",
+      "titulo": "en:Canoe sprint",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luta olímpica estilo livre",
+      "titulo": "en:Freestyle wrestling",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rafting",
+      "titulo": "en:Rafting",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taco de hóquei no gelo",
+      "titulo": "en:Ice hockey stick",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandeira quadriculada",
+      "titulo": "en:Racing flags",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Troféu Larry O'Brien",
+      "titulo": "en:Larry O'Brien Championship Trophy",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Forehand",
+      "titulo": "en:Forehand",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Backhand",
+      "titulo": "en:Backhand",
+      "camada": 2,
+      "destino": 4,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Boneco de madeira do wing chun",
+      "titulo": "en:Wooden dummy",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Makiwara",
+      "titulo": "en:Makiwara",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Pencak silat",
+      "titulo": "en:Pencak silat",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Savate",
+      "titulo": "en:Savate",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Luta senegalesa",
+      "titulo": "en:Senegalese wrestling",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Troféu Borg-Warner",
+      "titulo": "en:Borg-Warner Trophy",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Calcutta Cup",
+      "titulo": "en:Calcutta Cup",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Wicket",
+      "titulo": "en:Wicket",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Voleio",
+      "titulo": "en:Volley (tennis)",
+      "camada": 3,
+      "destino": 4,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Keirin",
+      "titulo": "en:Keirin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patinação de velocidade em pista curta",
+      "titulo": "en:Short-track speed skating",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Troféu Henri Delaunay",
+      "titulo": "en:Henri Delaunay Trophy",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Troféu da Premier League",
+      "titulo": "en:Premier League Trophy",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
     }
   ]
 }

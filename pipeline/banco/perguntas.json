@@ -126908,5 +126908,140 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q07435",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "nado_borboleta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estilo de nado está sendo praticado nesta foto?",
+    "resposta": "Nado borboleta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Butterfly_stroke",
+      "https://pt.wikipedia.org/wiki/Borboleta_%28nata%C3%A7%C3%A3o%29"
+    ],
+    "imagem": {
+      "arquivo": "q07435.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:US_Marines_butterfly_stroke.jpg",
+      "autor": "Cpl. Jasper Schwartz",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07436",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "tiro_esportivo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade olímpica está sendo disputada nesta foto?",
+    "resposta": "Tiro esportivo",
+    "distratores": [
+      "Tiro com arco",
+      "Biatlo",
+      "Pentatlo moderno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shooting_sports",
+      "https://pt.wikipedia.org/wiki/Esportes_de_tiro"
+    ],
+    "imagem": {
+      "arquivo": "q07436.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:KOCIS_London_Korea_Jinjongoh_Shooting_13_(7683323904).jpg",
+      "autor": "Korea.net / Korean Culture and Information Service (Korean Olympic Committee)",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q07437",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "escanteio",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que lance de bola parada do futebol está sendo cobrado nesta foto?",
+    "resposta": "Escanteio",
+    "distratores": [
+      "Tiro de meta",
+      "Lateral",
+      "Falta direta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corner_kick",
+      "https://pt.wikipedia.org/wiki/Escanteio"
+    ],
+    "imagem": {
+      "arquivo": "q07437.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cornerkick.jpg",
+      "autor": "Johan Elisson",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07438",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "xadrez",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que jogo de tabuleiro é este?",
+    "resposta": "Xadrez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess",
+      "https://pt.wikipedia.org/wiki/Xadrez"
+    ],
+    "imagem": {
+      "arquivo": "q07438.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Opening_chess_position_from_black_side.jpg",
+      "autor": "MichaelMaggs",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07439",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "hipismo_saltos",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que prova do hipismo olímpico é esta?",
+    "resposta": "Saltos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Show_jumping",
+      "https://pt.wikipedia.org/wiki/Saltos_%28hipismo%29"
+    ],
+    "imagem": {
+      "arquivo": "q07439.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kamal_Bahamdan_&_Noblesse_Des_Tess_-_2013_Longines_Global_Champions_Tour.jpg",
+      "autor": "Fanny Schertzer",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q07440",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "makiwara",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que equipamento de treino do caratê tradicional de Okinawa é este?",
+    "resposta": "Makiwara",
+    "distratores": [
+      "Boneco de madeira",
+      "Saco de pancada",
+      "Bokken"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Makiwara",
+      "https://pt.wikipedia.org/wiki/Makiwara"
+    ],
+    "imagem": {
+      "arquivo": "q07440.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Funakoshi_Makiwara.jpg",
+      "autor": "Funakoshi Gichin",
+      "licenca": "Public domain"
+    }
   }
 ]

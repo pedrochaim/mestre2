@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do estilo. O enunciado não entrega a resposta e o fato está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura mostra pistolas em competição olímpica. Os distratores são modalidades olímpicas distintas e plausíveis, com até 4 palavras. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado genérico exige reconhecer o lance pela figura. Os distratores são outros reinícios de jogo e nenhum descreve a imagem. O fato está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação 'peças na posição inicial' não consta em `mostra` e não pode ser confirmada para esta foto. Retirei a afirmação.",
+      "reescrita": {
+        "pergunta": "Que jogo de tabuleiro é este?",
+        "resposta": "Xadrez",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Modalidade olímpica com cavalos' admite várias respostas (adestramento, concurso completo, saltos), e a resposta 'hipismo' genérico também seria defensável. A pergunta precisa pedir a prova específica.",
+      "reescrita": {
+        "pergunta": "Que prova do hipismo olímpico é esta?",
+        "resposta": "Saltos",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Poste usado para golpes' descreve a função do objeto e entrega a resposta a quem conhece o caratê, então a figura vira enfeite. Retirei a descrição.",
+      "reescrita": {
+        "pergunta": "Que equipamento de treino do caratê tradicional de Okinawa é este?",
+        "resposta": "Makiwara",
+        "distratores": [
+          "Boneco de madeira",
+          "Saco de pancada",
+          "Bokken"
+        ]
+      }
+    }
+  ]
+}

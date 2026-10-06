@@ -1,0 +1,163 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Nado visto de cima, com braços simétricos fora da água; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que estilo de nado está sendo praticado nesta foto?",
+      "resposta": "Nado borboleta",
+      "ancora": {
+        "nome": "Nado borboleta",
+        "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+        "variantes": [
+          "Borboleta",
+          "Butterfly"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Etiquetas com as palavras JUDOGI e APPROVED entregam a resposta; também mostra marca."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O golpe não é claramente um voleio (pode ser um golpe após o quique); resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Jovens comuns em primeiro plano, num evento escolar; sem figuras públicas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Atletas olímpicos disparando pistolas em linha; texto visível não nomeia a modalidade.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modalidade olímpica está sendo disputada nesta foto?",
+      "resposta": "Tiro esportivo",
+      "distratores": [
+        "Tiro com arco",
+        "Biatlo",
+        "Pentatlo moderno"
+      ],
+      "ancora": {
+        "nome": "Tiro esportivo",
+        "descricao": "Modalidade de precisão com armas de fogo ou de ar comprimido, aqui pistolas em competição olímpica.",
+        "variantes": [
+          "Tiro",
+          "Tiro com pistola"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto visível (USA, FRANCE, World Cup Short Track) entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cobrança de escanteio clara, com bola no arco do canto e jogadores amontoados na área.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que lance de bola parada do futebol está sendo cobrado nesta foto?",
+      "resposta": "Escanteio",
+      "distratores": [
+        "Tiro de meta",
+        "Lateral",
+        "Falta direta"
+      ],
+      "ancora": {
+        "nome": "Escanteio",
+        "descricao": "Cobrança de bola parada a partir do canto do campo, após a bola sair pela linha de fundo tocada por um defensor.",
+        "variantes": [
+          "Tiro de canto",
+          "Corner"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A taça tem gravado 'UEFA European Football Championship', o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro com peças na posição inicial, claro e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que jogo de tabuleiro é este, cujas peças aparecem na posição inicial?",
+      "resposta": "Xadrez",
+      "ancora": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro para dois jogadores, com 64 casas e 16 peças para cada lado.",
+        "variantes": [
+          "Chess"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cavaleiro olímpico saltando obstáculo; claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que modalidade olímpica com cavalos é esta?",
+      "resposta": "Hipismo (saltos)",
+      "ancora": {
+        "nome": "Hipismo (saltos)",
+        "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+        "variantes": [
+          "Salto",
+          "Saltos",
+          "Show jumping",
+          "Hipismo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica de caratê com poste de treino acolchoado; figura pública e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que equipamento de treino do caratê okinawano é este poste usado para golpes?",
+      "resposta": "Makiwara",
+      "distratores": [
+        "Boneco de madeira",
+        "Saco de pancada",
+        "Bokken"
+      ],
+      "ancora": {
+        "nome": "Makiwara",
+        "descricao": "Poste acolchoado de golpes usado no treino de caratê tradicional de Okinawa.",
+        "variantes": [
+          "Makiwara de caratê"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de costas, sem ser figura pública."
+    }
+  ]
+}

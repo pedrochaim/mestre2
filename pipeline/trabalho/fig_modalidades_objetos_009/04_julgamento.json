@@ -1,0 +1,380 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nado borboleta",
+        "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+        "variantes": [
+          "Borboleta",
+          "Butterfly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "butterfree",
+          "nome": "Butterfree",
+          "descricao": "Pokémon borboleta do tipo Inseto e Voador da primeira geração, número 12 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "efeito_borboleta",
+          "nome": "Efeito borboleta",
+          "descricao": "Ideia da teoria do caos segundo a qual pequenas mudanças nas condições iniciais podem gerar grandes diferenças, popularizada por Edward Lorenz.",
+          "variantes": [
+            "Butterfly effect"
+          ]
+        },
+        {
+          "id": "madama_butterfly",
+          "nome": "Madama Butterfly",
+          "descricao": "Ópera de Giacomo Puccini, estreada em 1904, sobre uma jovem japonesa abandonada por um oficial americano.",
+          "variantes": [
+            "Madame Butterfly"
+          ]
+        },
+        {
+          "id": "borboleta_monarca",
+          "nome": "Borboleta-monarca",
+          "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+          "variantes": [
+            "Monarca",
+            "Danaus plexippus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tiro esportivo",
+        "descricao": "Modalidade de precisão com armas de fogo ou de ar comprimido, aqui pistolas em competição olímpica.",
+        "variantes": [
+          "Tiro",
+          "Tiro com pistola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "quero_quero",
+          "nome": "Quero-quero",
+          "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+          "variantes": [
+            "Southern lapwing",
+            "Tero",
+            "Vanellus chilensis"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "natacao",
+          "nome": "Natação",
+          "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+          "variantes": [
+            "Natação esportiva",
+            "Natação competitiva"
+          ]
+        },
+        {
+          "id": "tiro_com_arco",
+          "nome": "Tiro com arco",
+          "descricao": "Esporte de precisão em que atletas disparam flechas com arcos contra um alvo.",
+          "variantes": [
+            "Arco e flecha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Escanteio",
+        "descricao": "Cobrança de bola parada a partir do canto do campo, após a bola sair pela linha de fundo tocada por um defensor.",
+        "variantes": [
+          "Tiro de canto",
+          "Corner"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        },
+        {
+          "id": "lupa",
+          "nome": "Lupa",
+          "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+          "variantes": [
+            "Lente de aumento",
+            "Vidro de aumento"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro para dois jogadores, com 64 casas e 16 peças para cada lado.",
+        "variantes": [
+          "Chess"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez_960",
+          "nome": "Xadrez 960",
+          "descricao": "Variante do xadrez em que a posição inicial das peças da última fileira é sorteada entre 960 possibilidades.",
+          "variantes": [
+            "Chess960",
+            "Xadrez aleatório de Fischer",
+            "Fischer Random"
+          ]
+        },
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "chaves",
+          "nome": "Chaves",
+          "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila.",
+          "variantes": [
+            "El Chavo del Ocho",
+            "Chaves (seriado)"
+          ]
+        },
+        {
+          "id": "lago_ness",
+          "nome": "Lago Ness",
+          "descricao": "Grande lago de água doce nas Terras Altas da Escócia, famoso pela lenda do monstro de Nessie.",
+          "variantes": [
+            "Loch Ness"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hipismo (saltos)",
+        "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+        "variantes": [
+          "Salto",
+          "Saltos",
+          "Show jumping",
+          "Hipismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "basalto",
+          "nome": "Basalto",
+          "descricao": "Rocha vulcânica escura e de grão fino, formada pelo resfriamento rápido de lava pobre em sílica.",
+          "variantes": [
+            "Basalt"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Makiwara",
+        "descricao": "Poste acolchoado de golpes usado no treino de caratê tradicional de Okinawa.",
+        "variantes": [
+          "Makiwara de caratê"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akira",
+          "nome": "Akira",
+          "descricao": "Filme de animação japonês de 1988, dirigido por Katsuhiro Otomo a partir de seu próprio mangá.",
+          "variantes": [
+            "Akira (filme)"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "akihabara",
+          "nome": "Akihabara",
+          "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games.",
+          "variantes": [
+            "Akiba",
+            "Akihabara Electric Town"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nado borboleta é um estilo de natação; nenhuma candidata corresponde (natação não está entre as candidatas, e as outras são borboletas/obras distintas)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tiro esportivo com pistolas é distinto de tiro com arco, natação e as demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Escanteio é uma jogada de futebol; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Xadrez é o jogo de tabuleiro; Chess (musical) e Xadrez 960 são entidades distintas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hipismo de saltos é diferente de salto de esqui e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Makiwara é um equipamento de treino; nenhuma candidata corresponde."
+    }
+  ]
+}
