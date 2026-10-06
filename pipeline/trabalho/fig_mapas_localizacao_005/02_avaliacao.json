@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, Coreia do Sul em verde, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país faz fronteira terrestre com o país destacado neste mapa?",
+      "resposta": "Coreia do Norte",
+      "distratores": [
+        "China",
+        "Japão",
+        "Rússia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coreia do Sul",
+        "descricao": "País do leste da Ásia que ocupa a metade sul da península coreana, com capital em Seul.",
+        "variantes": [
+          "República da Coreia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peru em verde, bem reconhecível na América do Sul, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que cidadela inca, no alto dos Andes, fica no país destacado neste mapa?",
+      "resposta": "Machu Picchu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Peru",
+        "descricao": "País da América do Sul banhado pelo Pacífico, com capital em Lima.",
+        "variantes": [
+          "República do Peru"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tailândia em vermelho, mapa limpo, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Tailândia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tailândia",
+        "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+        "variantes": [
+          "Reino da Tailândia",
+          "Sião"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Japão em vermelho, silhueta inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Tóquio",
+      "distratores": [
+        "Quioto",
+        "Osaka",
+        "Nagoia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Japão",
+        "descricao": "País insular do leste da Ásia, com capital em Tóquio.",
+        "variantes": [
+          "Nipão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Suécia em verde-escuro, claramente distinta da UE em verde-claro, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado em verde-escuro neste mapa?",
+      "resposta": "Suécia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Suécia",
+        "descricao": "País nórdico da Península Escandinava, com capital em Estocolmo.",
+        "variantes": [
+          "Reino da Suécia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O mapa destaca em tons diferentes a Somália e regiões separatistas, o que torna o destaque ambíguo e pouco claro."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Turquia em verde, forma reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a maior cidade do país destacado neste mapa?",
+      "resposta": "Istambul",
+      "destino": 0,
+      "ancora": {
+        "nome": "Turquia",
+        "descricao": "País que ocupa a Anatólia e uma parte da Europa, com capital em Ancara.",
+        "variantes": [
+          "Türkiye",
+          "República da Turquia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Angola em vermelho, com Cabinda visível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Luanda",
+      "destino": 0,
+      "ancora": {
+        "nome": "Angola",
+        "descricao": "País lusófono da costa atlântica da África Austral, com capital em Luanda.",
+        "variantes": [
+          "República de Angola"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilha da Islândia em verde, isolada no Atlântico Norte, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Irlanda",
+        "Noruega",
+        "Groenlândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Islândia",
+        "descricao": "País insular nórdico do Atlântico Norte, com capital em Reykjavík.",
+        "variantes": [
+          "República da Islândia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Goiás em vermelho, com o Distrito Federal em branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Goiânia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Goiás",
+        "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+        "variantes": [
+          "Estado de Goiás"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arábia Saudita em verde, forma da península reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Arábia Saudita",
+      "distratores": [
+        "Iraque",
+        "Iêmen",
+        "Omã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arábia Saudita",
+        "descricao": "País da Ásia Ocidental que ocupa a maior parte da Península Arábica, com capital em Riade.",
+        "variantes": [
+          "Reino da Arábia Saudita"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Roraima em vermelho no mapa do Brasil, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro faz divisa com o estado destacado ao sul e a oeste?",
+      "resposta": "Amazonas",
+      "destino": 1,
+      "ancora": {
+        "nome": "Roraima",
+        "descricao": "Estado brasileiro da região Norte, o mais setentrional do país, com capital em Boa Vista.",
+        "variantes": [
+          "Estado de Roraima"
+        ]
+      }
+    }
+  ]
+}

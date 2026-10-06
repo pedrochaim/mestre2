@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Coreia do Norte é a única fronteira terrestre da Coreia do Sul. Nenhum distrator é verdadeiro. A pergunta depende de reconhecer o mapa.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O Peru tem várias cidadelas incas, como Ollantaytambo e Sacsayhuamán, então a resposta não é única. Além disso, o enunciado com 'cidadela inca nos Andes' leva a Machu Picchu sem olhar o mapa.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento direta e sem vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A capital do Japão é Tóquio. Os distratores são cidades japonesas plausíveis e nenhum deles é capital atual.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Em verde-escuro' é uma afirmação sobre a imagem que não está confirmada em `mostra`. O enunciado precisa ser verdadeiro para a foto específica, então a cor sai.",
+      "reescrita": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Suécia"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que Istambul é a maior cidade da Turquia. A resposta é única e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luanda é a capital de Angola, conforme os trechos. Pergunta de nível 1, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são plausíveis e nenhum descreve o país mostrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goiânia é a capital de Goiás, conforme os trechos. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. Os distratores são vizinhos plausíveis e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Roraima faz limite com o Amazonas ao sul e a oeste, e com o Pará a sudeste. O enunciado só se responde olhando o mapa, e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

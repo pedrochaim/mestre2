@@ -1,0 +1,623 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Coreia do Sul",
+        "descricao": "País do leste da Ásia que ocupa a metade sul da península coreana, com capital em Seul.",
+        "variantes": [
+          "República da Coreia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "costa_rica",
+          "nome": "Costa Rica",
+          "descricao": "País da América Central entre Nicarágua e Panamá, cuja capital é San José.",
+          "variantes": [
+            "República da Costa Rica"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tailândia",
+        "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+        "variantes": [
+          "Reino da Tailândia",
+          "Sião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "essuatini",
+          "nome": "Essuatíni",
+          "descricao": "Reino sem litoral do sul da África, antes chamado Suazilândia.",
+          "variantes": [
+            "Eswatini",
+            "Suazilândia",
+            "Swaziland"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        },
+        {
+          "id": "finlandia",
+          "nome": "Finlândia",
+          "descricao": "Poema sinfônico patriótico de Jean Sibelius, de 1899–1900.",
+          "variantes": [
+            "Finlandia, op. 26"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Japão",
+        "descricao": "País insular do leste da Ásia, com capital em Tóquio.",
+        "variantes": [
+          "Nipão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "jalapao",
+          "nome": "Jalapão",
+          "descricao": "Região de cerrado no leste do Tocantins, conhecida por dunas, cachoeiras e fervedouros.",
+          "variantes": [
+            "Parque Estadual do Jalapão"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Suécia",
+        "descricao": "País nórdico da Península Escandinava, com capital em Estocolmo.",
+        "variantes": [
+          "Reino da Suécia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        },
+        {
+          "id": "belgica",
+          "nome": "Bélgica",
+          "descricao": "Reino da Europa Ocidental, vizinho da Holanda, Alemanha, Luxemburgo e França.",
+          "variantes": [
+            "Belgium",
+            "Reino da Bélgica"
+          ]
+        },
+        {
+          "id": "sumerios",
+          "nome": "Sumérios",
+          "descricao": "Povo da Baixa Mesopotâmia que desenvolveu a escrita cuneiforme.",
+          "variantes": [
+            "Suméria",
+            "Sumer"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1958",
+          "nome": "Copa do Mundo FIFA de 1958",
+          "descricao": "Sexta Copa do Mundo, disputada na Suécia e vencida pelo Brasil, seu primeiro título mundial.",
+          "variantes": [
+            "Copa da Suécia",
+            "Copa de 1958"
+          ]
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+          "variantes": [
+            "Confederação Suíça",
+            "Switzerland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Turquia",
+        "descricao": "País que ocupa a Anatólia e uma parte da Europa, com capital em Ancara.",
+        "variantes": [
+          "Türkiye",
+          "República da Turquia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Angola",
+        "descricao": "País lusófono da costa atlântica da África Austral, com capital em Luanda.",
+        "variantes": [
+          "República de Angola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Islândia",
+        "descricao": "País insular nórdico do Atlântico Norte, com capital em Reykjavík.",
+        "variantes": [
+          "República da Islândia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "finlandia_2",
+          "nome": "Finlândia",
+          "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+          "variantes": [
+            "República da Finlândia",
+            "Finland"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Goiás",
+        "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+        "variantes": [
+          "Estado de Goiás"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "vestido_de_noiva",
+          "nome": "Vestido de Noiva",
+          "descricao": "Peça de Nelson Rodrigues estreada em 1943, marco do teatro moderno brasileiro.",
+          "variantes": []
+        },
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        },
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Arábia Saudita",
+        "descricao": "País da Ásia Ocidental que ocupa a maior parte da Península Arábica, com capital em Riade.",
+        "variantes": [
+          "Reino da Arábia Saudita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arabia_saudita",
+          "nome": "Arábia Saudita",
+          "descricao": "Reino que ocupa a maior parte da Península Arábica, com capital em Riade.",
+          "variantes": [
+            "Reino da Arábia Saudita"
+          ]
+        },
+        {
+          "id": "bandeira_da_arabia_saudita",
+          "nome": "Bandeira da Arábia Saudita",
+          "descricao": "Bandeira nacional da Arábia Saudita, verde com uma inscrição árabe e uma espada brancas.",
+          "variantes": [
+            "Flag of Saudi Arabia"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Roraima",
+        "descricao": "Estado brasileiro da região Norte, o mais setentrional do país, com capital em Boa Vista.",
+        "variantes": [
+          "Estado de Roraima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima"
+          ]
+        },
+        {
+          "id": "roraima",
+          "nome": "Roraima",
+          "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+          "variantes": []
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "coreia_do_sul",
+      "motivo": "Mesmo país, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Tailândia."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "japao",
+      "motivo": "Mesmo país, capital Tóquio."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "suecia",
+      "motivo": "Mesmo país, descrições equivalentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "turquia",
+      "motivo": "Mesmo país, capital Ancara."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "angola",
+      "motivo": "Mesmo país, capital Luanda."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "islandia",
+      "motivo": "Mesmo país insular do Atlântico Norte."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Goiás não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "arabia_saudita",
+      "motivo": "Mesmo país, capital Riade; a bandeira é entidade distinta."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "roraima",
+      "motivo": "Estado de Roraima, capital Boa Vista; o monte é outra entidade."
+    }
+  ]
+}

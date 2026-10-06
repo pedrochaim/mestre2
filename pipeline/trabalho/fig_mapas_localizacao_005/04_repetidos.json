@@ -1,0 +1,174 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país faz fronteira terrestre com o país destacado neste mapa?",
+        "resposta": "Coreia do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q00654",
+          "pergunta": "Que país faz fronteira terrestre com o país desta bandeira?",
+          "resposta": "Coreia do Norte"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Tóquio"
+      },
+      "existentes": [
+        {
+          "id": "q00915",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Japão"
+        },
+        {
+          "id": "q03352",
+          "pergunta": "Em japonês, o Japão se chama Nihon ou Nippon. O que significa esse nome?",
+          "resposta": "Origem do sol"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q01290",
+          "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+          "resposta": "Noruega"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é a maior cidade do país destacado neste mapa?",
+        "resposta": "Istambul"
+      },
+      "existentes": [
+        {
+          "id": "q00925",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Turquia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Luanda"
+      },
+      "existentes": [
+        {
+          "id": "q01297",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Angola"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Islândia"
+      },
+      "existentes": [
+        {
+          "id": "q02203",
+          "pergunta": "A Islândia tem tantos vulcões porque fica sobre qual estrutura geológica, onde duas placas tectônicas se afastam?",
+          "resposta": "Dorsal Mesoatlântica"
+        },
+        {
+          "id": "q05743",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Islândia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Arábia Saudita"
+      },
+      "existentes": [
+        {
+          "id": "q05283",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Arábia Saudita"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que estado brasileiro faz divisa com o estado destacado ao sul e a oeste?",
+        "resposta": "Amazonas"
+      },
+      "existentes": [
+        {
+          "id": "q04544",
+          "pergunta": "Roraima e Amapá deixaram de ser territórios federais e viraram estados com a Constituição promulgada em que ano?",
+          "resposta": "1988"
+        },
+        {
+          "id": "q04552",
+          "pergunta": "No extremo norte do Brasil, o estado de Roraima fica encaixado entre quais dois países vizinhos?",
+          "resposta": "Venezuela e Guiana"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00654",
+      "motivo": "Mesmo fato: o país que faz fronteira terrestre com o destacado (Coreia do Sul) é a Coreia do Norte; só muda o suporte visual."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Capital do Japão é um fato diferente de reconhecer a bandeira ou o significado do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa é diferente de saber o vizinho a oeste."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Maior cidade é diferente de identificar a bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Capital de Angola é diferente de identificar a bandeira."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o mapa é uma pergunta visual diferente da bandeira e da geologia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Reconhecer o formato no mapa é diferente de reconhecer a bandeira."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Divisa de Roraima ao sul e oeste é diferente dos fatos existentes."
+    }
+  ]
+}
