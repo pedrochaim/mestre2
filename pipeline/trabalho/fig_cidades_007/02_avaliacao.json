@@ -1,0 +1,150 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A placa 'Congresso Nacional' aparece em primeiro plano e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rua com casas enxaimel e uma igreja gótica pouco conhecida: Colmar não é reconhecível pela imagem, e há letreiros de lojas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "El Castillo é emblemático e inconfundível, sem texto.",
+      "pergunta": "Que antiga cidade é esta, onde fica esta pirâmide?",
+      "resposta": "Chichén Itzá",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "distratores": [],
+      "ancora": {
+        "nome": "Chichén Itzá",
+        "descricao": "Antiga cidade maia no Yucatán, México, famosa pela pirâmide de El Castillo.",
+        "variantes": [
+          "Chichen Itza",
+          "El Castillo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Palácio de Potala reconhecível pela forma e pela encosta; sem texto que entregue.",
+      "pergunta": "Que título tinham os líderes que moraram neste palácio entre 1649 e 1959?",
+      "resposta": "Dalai Lama",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "distratores": [],
+      "ancora": {
+        "nome": "Palácio de Potala",
+        "descricao": "Complexo palaciano em Lhasa, no Tibete, antiga residência de inverno dos Dalai Lamas.",
+        "variantes": [
+          "Potala Palace",
+          "Palácio Potala"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea com Sagrada Família, Torre Glòries e o traçado do Eixample, reconhecível.",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Barcelona",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "distratores": [],
+      "ancora": {
+        "nome": "Barcelona",
+        "descricao": "Capital da Catalunha, na costa nordeste da Espanha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz 'THEATRO MUNICIPAL' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista genérica de uma cidade em encosta, sem monumento; La Paz não é única nem claramente reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Empire State Building inconfundível em vista aérea, sem texto.",
+      "pergunta": "Este arranha-céu tem o nome de um apelido de qual estado americano?",
+      "resposta": "Nova York",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "distratores": [],
+      "ancora": {
+        "nome": "Empire State Building",
+        "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista aérea de prédios rosados e palmeiras, sem marco; Marrakech não é reconhecível e poderia ser outra cidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Casa Rosada reconhecível pela cor e arquitetura; a bandeira é pequena e não decide sozinha.",
+      "pergunta": "Que palácio presidencial é este?",
+      "resposta": "Casa Rosada",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "distratores": [
+        "Palácio do Planalto",
+        "Palácio de La Moneda",
+        "Palácio de Miraflores"
+      ],
+      "ancora": {
+        "nome": "Casa Rosada",
+        "descricao": "Sede do governo da Argentina, em Buenos Aires, de cor rosada.",
+        "variantes": [
+          "Casa de Gobierno"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Burj Khalifa destaca-se claramente no horizonte de Dubai, sem texto.",
+      "pergunta": "Que arranha-céu é este, o mais alto da imagem?",
+      "resposta": "Burj Khalifa",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "distratores": [],
+      "ancora": {
+        "nome": "Burj Khalifa",
+        "descricao": "Arranha-céu megaalto em Dubai, nos Emirados Árabes Unidos, inaugurado em 2010.",
+        "variantes": [
+          "Burj Dubai"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Montagem de seis vistas diferentes de uma cidade, sem um único assunto claro e pouco reconhecível em celular."
+    }
+  ]
+}

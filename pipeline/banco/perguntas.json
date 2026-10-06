@@ -127043,5 +127043,90 @@
       "autor": "Funakoshi Gichin",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q07441",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "barcelona",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Barcelona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barcelona",
+      "https://pt.wikipedia.org/wiki/Barcelona"
+    ],
+    "imagem": {
+      "arquivo": "q07441.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_La_Sagrada_Familia,_Barcelona,_Spain_(51227006134).jpg",
+      "autor": "dronepicr",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q07442",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "empire_state_building",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi concluído este arranha-céu?",
+    "resposta": "1931",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Empire_State_Building",
+      "https://pt.wikipedia.org/wiki/Empire_State_Building"
+    ],
+    "imagem": {
+      "arquivo": "q07442.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+      "autor": "Sam Valadi",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07443",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "casa_rosada",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palácio presidencial é este?",
+    "resposta": "Casa Rosada",
+    "distratores": [
+      "Palácio do Planalto",
+      "Palácio de La Moneda",
+      "Palácio de Miraflores"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Casa_Rosada",
+      "https://pt.wikipedia.org/wiki/Casa_Rosada"
+    ],
+    "imagem": {
+      "arquivo": "q07443.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Casa_Rosada_Buenos_Aires.JPG",
+      "autor": "Dragan",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q07444",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "burj_khalifa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que arranha-céu é este?",
+    "resposta": "Burj Khalifa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burj_Khalifa",
+      "https://pt.wikipedia.org/wiki/Burj_Khalifa"
+    ],
+    "imagem": {
+      "arquivo": "q07444.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_2015_(crop).jpg",
+      "autor": "Tim.Reckmann",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

@@ -1,0 +1,243 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chichén Itzá",
+        "descricao": "Antiga cidade maia no Yucatán, México, famosa pela pirâmide de El Castillo.",
+        "variantes": [
+          "El Castillo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "piramide_de_kukulcan",
+          "nome": "Pirâmide de Kukulcán",
+          "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+          "variantes": [
+            "El Castillo",
+            "Templo de Kukulcán"
+          ]
+        },
+        {
+          "id": "fidel_castro",
+          "nome": "Fidel Castro",
+          "descricao": "Líder revolucionário cubano que governou Cuba de 1959 a 2011.",
+          "variantes": [
+            "Fidel Alejandro Castro Ruz"
+          ]
+        },
+        {
+          "id": "capitolio_de_havana",
+          "nome": "Capitólio de Havana",
+          "descricao": "Edifício com grande cúpula em Havana, Cuba, inaugurado em 1929 como sede do Congresso cubano.",
+          "variantes": [
+            "El Capitolio",
+            "Capitolio Nacional de Cuba"
+          ]
+        },
+        {
+          "id": "decatlo",
+          "nome": "Decatlo",
+          "descricao": "Prova combinada do atletismo masculino, com dez provas disputadas em dois dias.",
+          "variantes": [
+            "Decathlon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Barcelona",
+        "descricao": "Capital da Catalunha, na costa nordeste da Espanha.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "marcelo",
+          "nome": "Marcelo",
+          "descricao": "Lateral esquerdo brasileiro, ídolo do Real Madrid, ex-Fluminense.",
+          "variantes": [
+            "Marcelo Vieira da Silva Júnior"
+          ]
+        },
+        {
+          "id": "babilonia",
+          "nome": "Babilônia",
+          "descricao": "Antiga cidade da Mesopotâmia, às margens do rio Eufrates, capital de Hamurábi e de Nabucodonosor segundo.",
+          "variantes": [
+            "Babylon"
+          ]
+        },
+        {
+          "id": "bahrein",
+          "nome": "Bahrein",
+          "descricao": "País insular do Golfo Pérsico, com capital em Manama.",
+          "variantes": [
+            "Barém",
+            "Bahrain",
+            "Barein"
+          ]
+        },
+        {
+          "id": "macedonia_do_norte",
+          "nome": "Macedônia do Norte",
+          "descricao": "País dos Bálcãs sem litoral, com capital em Skopje, que mudou o nome oficial em 2019.",
+          "variantes": [
+            "Macedônia",
+            "Republic of North Macedonia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Casa Rosada",
+        "descricao": "Sede do governo da Argentina, em Buenos Aires, de cor rosada.",
+        "variantes": [
+          "Casa de Gobierno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "vou_me_embora_pra_pasargada",
+          "nome": "Vou-me Embora pra Pasárgada",
+          "descricao": "Poema de Manuel Bandeira, do livro Libertinagem, de 1930.",
+          "variantes": [
+            "Pasárgada"
+          ]
+        },
+        {
+          "id": "pasargada",
+          "nome": "Pasárgada",
+          "descricao": "Antiga capital persa fundada por Ciro, o Grande, na província de Fars, no Irã.",
+          "variantes": [
+            "Pasargadae",
+            "Pasárgadas"
+          ]
+        },
+        {
+          "id": "cassoulet",
+          "nome": "Cassoulet",
+          "descricao": "Ensopado do sul da França de feijão branco, linguiça e carnes, originário de Castelnaudary.",
+          "variantes": [
+            "Cassolada"
+          ]
+        },
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Burj Khalifa",
+        "descricao": "Arranha-céu megaalto em Dubai, nos Emirados Árabes Unidos, inaugurado em 2010.",
+        "variantes": [
+          "Burj Dubai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burj_khalifa",
+          "nome": "Burj Khalifa",
+          "descricao": "Arranha-céu megaalto de Dubai, nos Emirados Árabes Unidos, a estrutura mais alta do mundo.",
+          "variantes": [
+            "Burj Dubai"
+          ]
+        },
+        {
+          "id": "dubai",
+          "nome": "Dubai",
+          "descricao": "Cidade mais populosa dos Emirados Árabes Unidos, onde fica o Burj Khalifa.",
+          "variantes": []
+        },
+        {
+          "id": "pajuba",
+          "nome": "Pajubá",
+          "descricao": "Linguagem popular da comunidade LGBT brasileira, com muitas palavras de origem africana",
+          "variantes": [
+            "Bajubá"
+          ]
+        },
+        {
+          "id": "bucefalo",
+          "nome": "Bucéfalo",
+          "descricao": "Cavalo de guerra de Alexandre, o Grande.",
+          "variantes": [
+            "Bucephalus",
+            "Boukephalas"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "chichen_itza",
+      "motivo": "A proposta descreve a cidade maia de Chichén Itzá, igual à candidata; a pirâmide é entidade separada, e a descrição é da cidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A cidade de Barcelona é diferente do clube FC Barcelona; nenhuma candidata é a cidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A Casa Rosada argentina não está entre as candidatas; a Casa Branca é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "burj_khalifa",
+      "motivo": "Mesmo arranha-céu de Dubai, com o mesmo nome e a mesma variante."
+    }
+  ]
+}

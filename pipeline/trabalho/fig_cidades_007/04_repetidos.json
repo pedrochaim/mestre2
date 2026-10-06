@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que antiga cidade maia é esta?",
+        "resposta": "Chichén Itzá"
+      },
+      "existentes": [
+        {
+          "id": "q00383",
+          "pergunta": "Em que sítio arqueológico fica esta pirâmide?",
+          "resposta": "Chichén Itzá"
+        },
+        {
+          "id": "q03487",
+          "pergunta": "Chichén Itzá significa na boca do poço dos itzás. Esse poço é que tipo de formação natural, típica do Iucatã?",
+          "resposta": "Cenote"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que arranha-céu é este?",
+        "resposta": "Burj Khalifa"
+      },
+      "existentes": [
+        {
+          "id": "q05978",
+          "pergunta": "Em que cidade fica o arranha-céu mais alto desta foto?",
+          "resposta": "Dubai"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00383",
+      "motivo": "Ambas pedem a identificação do mesmo local pela imagem, com a resposta Chichén Itzá."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do arranha-céu (Burj Khalifa) e a existente pede a cidade (Dubai). São fatos diferentes."
+    }
+  ]
+}
