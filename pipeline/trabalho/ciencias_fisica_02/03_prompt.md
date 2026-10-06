@@ -1,0 +1,1838 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Física** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "CERN",
+      "descricao": "Organização Europeia para a Pesquisa Nuclear, laboratório de física de partículas fundado em 1954 na fronteira franco-suíça."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O CERN, laboratório europeu de física de partículas, fica na fronteira entre a França e a Suíça, nos arredores de que cidade?",
+    "resposta": "Genebra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CERN"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CERN",
+        "situacao": "ok",
+        "texto": "The European Organization for Nuclear Research, also called European Laboratory for Particle Physics, known as CERN (; French pronunciation: [sɛʁn]; Organisation européenne pour la recherche nucléaire), is an intergovernmental organization that operates the largest particle physics laboratory in the world. Established in 1954, it is based in Meyrin, a western suburb of Geneva, on the France–Switze\n[…]\nThe convention establishing CERN was ratified on 29 September 1954 by 12 countries in Western Europe. The acronym CERN originally represented the French words for Conseil Européen pour la Recherche Nucléaire ('European Council for Nuclear Research'), which was a provisional council for building the laboratory, established by 12 European governments in 1952.\n[…]\nThe acronym was retained for the new laboratory after the provisional council was dissolved, even though the name changed to the current Organisation européenne pour la recherche nucléaire ('European Organization for Nuclear Research') in 1954. According to Lew Kowarski, a former director of CERN, when the name was changed, the abbreviation could have become the awkward OERN, and Werner Heisenberg said that this could \"still be CERN even if the name is [not]\".\n[…]\nEuropean Space Research Organisation (since 1975 ESA), organization based on the CERN model\n[…]\nThe European Strategy for Particle Physics, a document mandated by the CERN Council that forms the cornerstone of Europe's decision-making for the future of particle physics, was last updated in 2020 and affirmed the organisation's role within the open science landscape by stating: \"The particle physics community should work with the relevant authorities to help shape the emerging consensus on open science to be adopted for publicly-funded research, and should then implement a policy of open science for the field\".\n[…]\nCERN openlab\n[…]\nCERN reports, 1952–1993, Niels Bohr Library & Archives"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_Europeia_para_a_Investiga%C3%A7%C3%A3o_Nuclear",
+        "situacao": "ok",
+        "texto": "A Organização Europeia para a Investigação Nuclear (em francês:  Organisation Européenne pour la Recherche Nucléaire), conhecida como CERN (antigo acrônimo para Conseil Européen pour la Recherche Nucléaire) é o maior laboratório de física de partículas do mundo, localizado em Meyrin, no cantão de Genebra, na fronteira Franco-Suíça. Criada em 1954 a organização tem 23 Estados-membros, incluindo Por\n[…]\nEm dezembro de 1951, é adoptada uma primeira resolução com vista à criação de um Conseil Européen pour la Recherche Nucléaire (Conselho Europeu para Pesquisa Nuclear) e, dois meses mais tarde, onze países assinam um acordo estabelecendo o conselho provisório. Tinha nascido o acrónimo CERN.\n[…]\nDurante a terceira sessão do conselho provisório, Genebra é escolhida como local para a implantação do futuro laboratório, escolha depois aprovada num referendo organizado no Cantão de Genebra, em junho de 1953.\n[…]\nA convenção do Conselho Europeu para a Investigação Nuclear, definitivamente estabelecido em julho de 1953, foi assinada por doze países fundadores: Bélgica, Dinamarca, França, Grécia, Itália, Noruega, Holanda, República Federal da Alemanha, Reino Unido, Suécia, Suíça e Jugoslávia, mas já desde 29 de setembro de 1954, depois da rectificação pela França e pela Alemanha, o CERN provisório é dissolvido e criada é criada a Organisation Européenne pour la Recherche Nucléaire (Organização Europeia para a Investigação Nuclear).\n[…]\nNo entanto, esta nova organização conservou o acrónimo do Conselho, CERN. Como, por esta altura, a física fundamental tinha como principal objectivo a compreensão do interior do átomo, o núcleo atómico, o termo nuclear foi empregue, mas pela imagem belicosa desta palavra o CERN passou a chamar-se Organização Européene pour la Physique des Particules (Organização Europeia para a Física de Partículas).\n[…]\nSuíça\n[…]\nUnião Europeia\n[…]\nSwiiword, CERN– the largest laboratory in the world",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Teste Trinity",
+      "descricao": "Primeira detonação de uma bomba atômica, realizada pelos Estados Unidos em 16 de julho de 1945."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em julho de 1945, a primeira bomba atômica da história foi detonada num teste no deserto de que estado americano?",
+    "resposta": "Novo México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)",
+        "situacao": "ok",
+        "texto": "Trinity was the first detonation of a nuclear weapon, conducted by the United States Army at 5:29 a.m. Mountain War Time (11:29:21 GMT) on July 16, 1945, as part of the Manhattan Project. The test was of an implosion-design plutonium bomb, or \"gadget\" – the same design as the Fat Man bomb later detonated over Nagasaki, Japan, on August 9, 1945. Concerns about whether the complex Fat Man design wou\n[…]\nEight candidate sites were considered: the Tularosa Valley; the Jornada del Muerto Valley; the area southwest of Cuba, New Mexico, and north of Thoreau; and the lava flats of the El Malpais National Monument, all in New Mexico; the San Luis Valley near the Great Sand Dunes National Monument in Colorado; the Desert Training Area and San Nicolas Island in Southern California; and the sand bars of Padre Island, Texas.\n[…]\nAt 0530, 16 July 1945, in a remote section of the Alamogordo Air Base, New Mexico, the first full scale test was made of the implosion type atomic fission bomb. For the first time in history there was a nuclear explosion. And what an explosion! ... The test was successful beyond the most optimistic expectations of anyone.\n[…]\nDose reconstruction published in 2020 under the auspices of the National Cancer Institute documented that five counties in New Mexico experienced the greatest radioactive contamination: Guadalupe, Lincoln, San Miguel, Socorro, and Torrance.\n[…]\nTrinity Test Photographs\n[…]\n\"War Department release on New Mexico test, July 16, 1945\", from the Smyth Report, with eyewitness reports from Groves and Farrell (1945)\n[…]\nThe short film Nuclear Test Film – Trinity Shot (1945) is available for free viewing and download at the Internet Archive.\n[…]\nTrinity's cloud (1945), photographs of mushroom cloud\n[…]\nHistoric American Engineering Record (HAER) No. NM-1-A, \"White Sands Missile Range, Trinity Site\", 106 photos, 11 measured drawings, 116 data pages, 8 photo caption pages"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Experi%C3%AAncia_Trinity",
+        "situacao": "ok",
+        "texto": "A Experiência \"Trinity\" foi o primeiro teste de arma nuclear da história, conduzido pelos Estados Unidos em 16 de julho de 1945, na localização 33°40′38\"N, 106°28′32\"W, a 48 km de Socorro, no que é hoje o Campo de Teste de Mísseis de White Sands, perto de Alamogordo (Novo México). Foi um teste de uma bomba de plutônio de implosão, o mesmo tipo de arma usada posteriormente em Nagasaki (Japão).\n[…]\nO projeto focou-se no desenvolvimento de material físsil para ativar reações nucleares em cadeia, as quais acontecem dentro das armas, bem como no desenho das próprias armas no extremamente secreto Laboratório Nacional de Los Alamos (Novo México).\n[…]\nO local era parte da Linha de Bombardeamento de Alamogordo, atualmente designado por Campo de Teste de Mísseis de White Sands. O local do teste está situado no extremo norte da Linha, entre as cidades de Carrizozo e Socorro (Novo México), no deserto Jornada del Muerto.\n[…]\nVárias apostas foram feitas entre os observadores relativamente aos resultados do teste. As previsões variavam do zero, fracasso, até 18 kt de TNT (previsto por I. I. Rabi), destruição do Estado de Novo México, e mesmo a ignição da atmosfera e incineração do planeta (felizmente, foi demonstrado por cálculos ser impossível tal resultado, embora durante algum tempo a possibilidade tenha provocado ansiedade em alguns cientistas). No final, Rabi ganhou a aposta.\n[…]\nA explosão criou as que viriam a ser as primeiras vítimas de uma bomba atômica no mundo: os moradores do Novo México, os chamados downwinders (termo que pode ser livremente traduzido como \"aqueles ao sabor do vento\").\n[…]\nOs habitantes do Novo México não foram avisados ​​antes da explosão de Trinity em 1945, nem informados sobre os riscos à sua saúde depois, nem foram evacuados antes, durante ou após o teste.\n[…]\nTrinity: Primeiro Teste da Bomba Atómica\n[…]\nPágina da CNN acerca do 60.º aniversário da Experiência Trinity",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Chicago Pile-1",
+      "descricao": "Primeiro reator nuclear artificial, construído pela equipe de Enrico Fermi e posto em funcionamento em dezembro de 1942."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1942, o primeiro reator nuclear artificial, montado pela equipe de Enrico Fermi, ficava sob as arquibancadas de um estádio de que universidade americana?",
+    "resposta": "Universidade de Chicago",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+        "situacao": "ok",
+        "texto": "Chicago Pile-1 (CP-1) was the first artificial nuclear reactor. On 2 December 1942, the first human-made self-sustaining nuclear chain reaction was initiated in CP-1 during an experiment led by Enrico Fermi. The secret development of the reactor was the first major technical achievement for the Manhattan Project, the Allied effort to create nuclear weapons during World War II.\n[…]\nDeveloped by the Metallurgical Laboratory at the University of Chicago, CP-1 was built under the west viewing stands of the original Stagg Field. Although the project's civilian and military leaders had misgivings about the possibility of a disastrous runaway reaction, they trusted Fermi's safety calculations and decided they could carry out the experiment in a densely populated area. Fermi described the reactor as \"a crude pile of black bricks and wooden timbers\".\n[…]\nBy November 1942, National Carbon had shipped 255 short tons (231 t) of AGOT graphite to the University of Chicago, where it became the primary source of graphite to be used in the construction of Chicago Pile-1.\n[…]\n1\n[…]\nIn Chicago, Samuel K. Allison had found a suitable location 60 feet (18 m) long, 30 feet (9.1 m) wide and 26 feet (7.9 m) high, sunk slightly below ground level, in a space under the stands at Stagg Field originally built as a rackets court. Stagg Field had been largely unused since the University of Chicago had given up playing American football in 1939, but the rackets courts under West Stands were still used for playing squash and handball. Leona Woods and Anthony L.\n[…]\nCompton felt this delay was enough to provide a critical margin of safety, and allowed Fermi to build Chicago Pile-1 at Stagg Field.\n[…]\nPhotos of CP-1. Archived 27 February 2021 at the Wayback Machine. The University of Chicago Library Archive. Includes photos and sketches of CP-1\n[…]\nChicago Pile-1 | Los Alamos National Laboratory"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chicago_Pile-1",
+        "situacao": "ok",
+        "texto": "Chicago Pile-1 (CP-1) foi o primeiro reator nuclear artificial. O CP-1 foi construído em uma sala de jogos com raquetes, sob o estádio de futebol americano abandonado Alonzo Stagg na Universidade de Chicago. A primeira reação nuclear artificial autossustentada foi iniciada em 2 de dezembro de 1942, às 15h25min e terminada 28 minutos depois. O local foi incorporado ao catálogo nacional de locais hi\n[…]\nO reator era uma pilha de blocos de urânio e grafite construída sob a supervisão do renomado físico italiano Enrico Fermi, com a colaboração de Leó Szilard et al. Ela continha uma Massa crítica de material físsil e grafite. Foi construído como parte do projeto Manhattan pelo laboratório de metalurgia da Universidade de Chicago.\n[…]\nA forma da pilha tinha sido projetada para ser esférica mas durante a construção Fermi calculou que a massa crítica poderia ser obtida sem que se terminasse toda a estrutura.\n[…]\nUma greve de trabalhadores impediu a construção da pilha no Laboratório Nacional de Argonne, então Fermi e seus associados decidiram construi-la na sala de raquetismo na cidade de Chicago o que mais tarde foi considerado como um risco enorme já que a reação poderia ter fugido ao controle.\n[…]\nAo contrário da maioria dos reatores construídos depois, este primeiro não tinha escudo contra radiação e nenhum sistema de refrigeração.\n[…]\nReator nuclear\n[…]\nCP-1 Goes Critical (em inglês) Descreve em detalhes a construção e ativação do CP-1. Departamento de Energia dos EUA, Divisão de História e Recursos Herdados.\n[…]\nPhotos of CP-1 (em inglês) Arquivo da Biblioteca da Universidade de Chicago. Inclui fotos e desenhos do CP-1.\n[…]\n(em inglês) Video mostrando o Laboratório de Met, Fermi, e um experimento real usando o CP-1\n[…]\nThe First Pile (em inglês) História de 11 páginas sobre o CP-1",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Pêndulo de Foucault",
+      "descricao": "Experimento com um longo pêndulo cujo plano de oscilação gira, demonstrando a rotação da Terra."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1851, numa demonstração pública famosa, Léon Foucault pendurou seu pêndulo sob a cúpula de que monumento de Paris?",
+    "resposta": "Panteão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Foucault_pendulum",
+      "https://pt.wikipedia.org/wiki/Pêndulo_de_Foucault"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Foucault_pendulum",
+        "situacao": "ok",
+        "texto": "The Foucault pendulum or Foucault's pendulum is a simple device named after French physicist Léon Foucault, conceived as an experiment to demonstrate the Earth's rotation. If a long and heavy pendulum suspended from the high roof above a circular area is monitored over an extended period of time, its plane of oscillation appears to change spontaneously as the Earth makes its 24-hourly rotation.\n[…]\nFoucault introduced his pendulum in 1851 in the first experiment to give simple, direct evidence of the Earth's rotation, which he further demonstrated in 1852 with a gyroscope experiment. Foucault pendulums have become popular in science museums and universities.\n[…]\nThe first public exhibition of a Foucault pendulum took place in February 1851 in the Meridian of the Paris Observatory. A few weeks later, Foucault made his most famous pendulum when he suspended a 28-kilogram (62 lb) brass-coated lead bob with a 67-metre-long (220 ft) wire from the dome of the Panthéon, Paris.\n[…]\nFoucault explained his results in an 1851 paper entitled Physical demonstration of the Earth's rotational movement by means of the pendulum, published in the Comptes rendus de l'Académie des Sciences. He wrote that, at the North Pole:\n[…]\n\"Foucault's Pendulum\" by Jens-Peer Kuska with Jeff Bryant, Wolfram Demonstrations Project: a computer model of the pendulum allowing manipulation of pendulum frequency, Earth rotation frequency, latitude, and time.\n[…]\nFoucault, M. L., Physical demonstration of the rotation of the Earth by means of the pendulum, Franklin Institute, 2000, retrieved 2007-10-31. Translation of his paper on Foucault pendulum.\n[…]\nDaliga, K.; Przyborski, M.; Szulwic, J. (2015). \"Foucault's Pendulum. Uncomplicated Tool in the Study of Geodesy and Cartography\". EDULEARN15 Proceedings - 7th International Conference on Education and New Learning Technologies, Barcelona, Spain. IATED Academy. ISBN 978-84-606-8243-1."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pêndulo_de_Foucault",
+        "situacao": "ok",
+        "texto": "O pêndulo de Foucault é um dispositivo batizado em homenagem ao físico francês Léon Foucault, concebido como um experimento para demonstrar a rotação da Terra. Consiste em um pêndulo cuja suspensão permite oscilações em qualquer direção horizontal. Quando seu movimento é acompanhado por um período prolongado, a direção de oscilação muda lentamente em relação ao solo.\n[…]\nA primeira apresentação no Observatório de Paris ocorreu em fevereiro de 1851, na sala da Meridiana, atravessada pelo Meridiano de Paris. Com o apoio de François Arago, Foucault repetiu o experimento ali com um pêndulo de 11 m. Em março, montou seu pêndulo mais conhecido. Uma massa de chumbo revestida de latão, com 28 kg, foi suspensa por um fio de aço de 67 m sob a cúpula do Panteão de Paris.\n[…]\nFoucault apresentou seus resultados em 1851 no artigo Démonstration physique du mouvement de rotation de la Terre au moyen du pendule, publicado nos Comptes rendus de l'Académie des Sciences. Ao considerar um pêndulo no Polo Norte, escreveu:\n[…]\nA esfera de 28 kg usada no Panteão em 1851 passou às coleções do Conservatoire national des arts et métiers. O museu também recebeu o pêndulo empregado na Exposição Universal de 1855, que tinha um mecanismo eletromagnético para manter as oscilações. O catálogo distingue esses instrumentos, que não devem ser confundidos com uma única montagem transferida de um local para outro. Uma nova instalação temporária foi montada no Panteão em 1902, durante as comemorações do cinquentenário da experiência.\n[…]\nUm pêndulo voltou a ser instalado sob a cúpula do Panteão em 1995. Depois das obras realizadas nas partes superiores do edifício, concluídas em 2015, uma réplica passou novamente a integrar a visitação do monumento.\n[…]\nLéon Foucault, Physical demonstration of the rotation of the Earth by means of the pendulum, tradução para o inglês do artigo de Foucault."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Sirius (acelerador de partículas)",
+      "descricao": "Fonte brasileira de luz síncrotron, acelerador de partículas do Laboratório Nacional de Luz Síncrotron, inaugurado em 2018."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Sirius, acelerador de partículas brasileiro que produz luz síncrotron para pesquisas, foi construído em que cidade do interior paulista?",
+    "resposta": "Campinas",
+    "distratores": [
+      "São Carlos",
+      "São José dos Campos",
+      "Ribeirão Preto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_Synchrotron_Light_Laboratory",
+      "https://pt.wikipedia.org/wiki/Laboratório_Nacional_de_Luz_Síncrotron"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Synchrotron_Light_Laboratory",
+        "situacao": "ok",
+        "texto": "Laboratório Nacional de Luz Síncrotron (Brazilian Portuguese pronunciation: [laboɾɐˈtɔɾi.u nasi.oˈnaw dʒi ˈlus ˈsĩkɾotɾõ, laboɾɐˈtɔɾju nasjoˈnaw -]; LNLS) is the Brazilian Synchrotron Light Laboratory, a research institution on physics, chemistry, material science and life sciences. It is located in the city of Campinas, sub-district of Barão Geraldo, interior of the state of São Paulo, Brazil.\n[…]\nIt is the second fourth-generation particle accelerator in the world, but the most modern for several reasons, mainly because it emits light with the most intense brightness and has superior analytical capabilities.\n[…]\nThe center, which is operated by the Brazilian Center of Research in Energy and Materials (CNPEM) under a contract with the National Research Council (CNPq) and the Ministry of Science and Technology of Brazil, has the only particle accelerator (a synchrotron) in Latin America, which was designed and built in Brazil by a team of physicists, technicians and engineers.\n[…]\nThese beamlines are part of Sirius, a 3 GeV synchrotron light source. The plan includes an initial 13 beamlines, with a final goal of 40, ranging from 10 eV to 100 keV. It was inaugurated in 2018.\n[…]\nSirius Project - LNLS"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Laboratório_Nacional_de_Luz_Síncrotron",
+        "situacao": "ok",
+        "texto": "O Laboratório Nacional de Luz Síncrotron (LNLS) é um laboratório nacional de pesquisa brasileiro dedicado à pesquisa científica e ao desenvolvimento tecnológico envolvendo luz síncrotron. O LNLS integra o Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), em Campinas, no estado de São Paulo, juntamente com o Laboratório Nacional de Biociências (LNBio), o Laboratório Nacional de Nanotecnol\n[…]\nA primeira fonte de luz síncrotron da instituição, o acelerador UVX, foi projetada durante a década de 80 e entrou em funcionamento em 1997. Atualmente, o LNLS é responsável pela operação do Sirius, uma fonte de luz síncrotron de quarta geração, capaz de produzir feixes de luz de alto brilho, permitindo a realização de experimentos extremamente rápidos e a investigação da estrutura dos materiais em escala nanométrica.\n[…]\nA construção e as posteriores atualizações do UVX, realizadas em grande parte pela própria equipe do LNLS, contribuíram para a formação de uma equipe brasileira de físicos e engenheiros e para o desenvolvimento de competências nacionais em tecnologias de aceleradores e linhas de luz.\n[…]\nO LNLS foi concebido como um laboratório nacional de uso aberto, permitindo que pesquisadores de instituições acadêmicas e empresas utilizassem sua infraestrutura para realizar experimentos científicos. A construção e operação do UVX contribuíram para o desenvolvimento, no Brasil, de conhecimentos e tecnologias relacionados à construção de aceleradores e linhas de luz síncrotron.\n[…]\nEm 2012, o projeto do Sirius foi redesenhado para alcançar uma emitância ainda menor, passando a ser considerado pioneiro entre as fontes de luz síncrotron de quarta geração, ao lado da fonte MAX IV, na Suécia. Construído no campus do CNPEM, em Campinas, o Sirius possui um anel de armazenamento de elétrons com energia de 3 GeV e 518 metros de circunferência, com uma emitância projetada de 0,25 nm·rad."
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Alessandro Volta",
+      "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica)."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Alessandro Volta, inventor da pilha elétrica, nasceu em 1745 em que cidade do norte da Itália?",
+    "resposta": "Como",
+    "distratores": [
+      "Pavia",
+      "Milão",
+      "Bérgamo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alessandro_Volta",
+      "https://pt.wikipedia.org/wiki/Alessandro_Volta"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+        "situacao": "ok",
+        "texto": "Alessandro Giuseppe Antonio Anastasio Volta (18 February 1745 – 5 March 1827) was an Italian chemist and physicist who was a pioneer of electricity and power, and is credited as the inventor of the electric battery and the discoverer of methane. He invented the voltaic pile in 1799, and reported the results of his experiments in a two-part letter to the president of the Royal Society in London, wh\n[…]\nAt the University History Museum of the University of Pavia there are 150 of them, used by Alessandro Volta.\n[…]\nIn announcing his invention of the voltaic pile, Volta paid tribute to the influences of William Nicholson, Tiberius Cavallo, and Abraham Bennet.\n[…]\nVolta's legacy is celebrated by the Tempio Voltiano memorial located in the public gardens by the lake. There is also a museum that was built in his honour, which exhibits some of the equipment that Volta used to conduct experiments. Nearby stands the Villa Olmo, which houses the Voltian Foundation, an organization promoting scientific activities. Volta carried out his experimental studies and produced his first inventions near Como.\n[…]\nIn the Old Campus of the University of Pavia, there is the classroom (Aula Volta) commissioned by Emperor Joseph II to Leopoldo Pollack in 1787 for the lectures of Alessandro Volta, while in the University History Museum there are many scientific instruments that belonged to Volta.\n[…]\nVolta (lunar crater)\n[…]\nVolta Prize\n[…]\nHerbermann, Charles, ed. (1913). \"Alessandro Volta\" . Catholic Encyclopedia. New York: Robert Appleton Company.\n[…]\nVolta and the \"Pile\"\n[…]\nAlessandro Volta Archived 2 January 2010 at the Wayback Machine\n[…]\nCount Alessandro Volta\n[…]\nChisholm, Hugh, ed. (1911). \"Volta, Alessandro\" . Encyclopædia Britannica. Vol. 28 (11th ed.). Cambridge University Press. p. 198.\n[…]\nLife of Alessandro Volta: Biography; Inventions; Facts\n[…]\nAlessandro Volta | Biography, Facts, Battery, & Invention | Britannica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alessandro_Volta",
+        "situacao": "ok",
+        "texto": "Alessandro Giuseppe Antonio Anastasio Volta (18 de fevereiro de 1745 – 5 de março de 1827) foi um químico, físico e pioneiro da eletricidade e da potência, creditado como o inventor da pilha voltaica e o descobridor do metano. Ele inventou a pilha voltaica em 1799 e relatou os resultados de suas experiências em 1800 em uma carta de duas partes para o presidente da Royal Society.\n[…]\nVolta está enterrado na cidade de Como, Itália. O \"Templo Voltiano\" perto do lago de Como é um museu devotado ao trabalho do físico italiano: os seus instrumentos e as publicações originais estão à mostra de todos.\n[…]\nDisto ele concluiu que o princípio de excitação residia nos metais. Havia, no entanto, muitos problemas a posição de Volta, pois era difícil de imaginar que o mero contato entre metais diferentes pudesse produzir eletricidade. Concluiu também que a corrente elétrica surgia quando estes metais estavam separados por um meio condutor, como as pernas da rã ou uma solução salina. De acordo com o físico italiano, o músculo funcionava apenas como um condutor e detector biológico da corrente elétrica.\n[…]\nPosteriormente, na tentativa de produzir efeitos elétricos mais fortes, a partir de pares metálicos, nasceu o que chamaremos de pilha.\n[…]\nVolta descobriu então que uma força eletromotriz seria gerada quando dois metais heterogêneos eram colocados em contato. Em 1800 Volta idealizou a pilha voltaica, predecessora da bateria elétrica, onde ele dispôs diversos discos metálicos empilhados em série, separados por discos de feltro encharcados de solução condutora.\n[…]\nO legado deixado por Volta também pode ser lembrado através do memorial do Tempio Voltiano, um museu inaugurado em 1928, situado na cidade de Como, na Itália. É um dos museus mais visitados no local. Próximo está a Villa Olmo, que abriga a fundação Voltian, uma organização que promove atividades científicas."
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Stephen Hawking",
+      "descricao": "Físico teórico e cosmólogo inglês, professor lucasiano em Cambridge, conhecido por estudos sobre buracos negros."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2018, as cinzas de Stephen Hawking foram depositadas perto dos túmulos de Isaac Newton e Charles Darwin, em que igreja de Londres?",
+    "resposta": "Abadia de Westminster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stephen_Hawking"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+        "situacao": "ok",
+        "texto": "Stephen William Hawking (8 January 1942 – 14 March 2018) was an English theoretical astrophysicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. Between 1979 and 2009, he was the Lucasian Professor of Mathematics at Cambridge, widely viewed as one of the most prestigious academic posts in the world.\n[…]\nHawking attended two private (i.e. fee-paying) schools, first Radlett School and from September 1952, St Albans School, Hertfordshire, after passing the eleven-plus a year early. The family placed a high value on education. Hawking's father wanted his son to attend Westminster School, but the 13-year-old Hawking was ill on the day of the scholarship examination. His family could not afford the school fees without the financial aid of a scholarship, so Hawking remained at St Albans.\n[…]\nFollowing the cremation, a service of thanksgiving was held at Westminster Abbey on 15 June 2018, after which his ashes were interred in the Abbey's nave, between the graves of scientists Isaac Newton and Charles Darwin. Inscribed on his memorial stone are the words: \"Here lies what was mortal of Stephen Hawking 1942–2018\" and an equation describing the temperature of Hawking radiation emitted by black holes.\n[…]\nHawking, Stephen William; C J Hunter (1996). \"The gravitational Hamiltonian in the presence of non-orthogonal boundaries\". Classical and Quantum Gravity. 13 (10): 2735–2752. arXiv:gr-qc/9603050. Bibcode:1996CQGra..13.2735H. doi:10.1088/0264-9381/13/10/012. S2CID 10715740. Zbl 0859.58038. Wikidata Q56551504.\n[…]\nHawking, Stephen William; Hertog, Thomas (2018). \"A smooth exit from eternal inflation?\". Journal of High Energy Physics. 2018 (4). arXiv:1707.07702. Bibcode:2018JHEP...04..147H. doi:10.1007/jhep04(2018)147. S2CID 13745992. Zbl 1390.83455. Wikidata Q55878494.\n[…]\nStephen Hawking at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stephen_Hawking",
+        "situacao": "ok",
+        "texto": "Stephen William Hawking  (Oxford, 8 de janeiro de 1942 – Cambridge, 14 de março de 2018) foi um físico teórico, cosmólogo e autor britânico, reconhecido por sua contribuição à ciência, sendo um dos mais renomados cientistas do século XX. Doutor em cosmologia, foi professor lucasiano emérito na Universidade de Cambridge, um posto que foi ocupado por Isaac Newton, Paul Dirac e Charles Babbage.\n[…]\nStephen Hawking morreu na sua casa em Cambridge em 14 de março de 2018, aos 76 anos, devido a complicações da sua doença degenerativa.\n[…]\nEm 2012, participou de um episódio da série The Big Bang Theory, onde conversava com Sheldon Cooper. Neste episódio, Sheldon Cooper cometeu um erro básico de aritmética e desmaiou na frente de Stephen. No mesmo ano, Hawking leu um discurso durante a cerimônia de abertura dos Jogos Paralímpicos de Verão de 2012 em Londres.\n[…]\nSeguindo sua cremação, suas cinzas foram depositadas na Abadia de Westminster em 15 de junho de 2018, durante uma cerimônia de ação de graças. Suas cinzas foram colocadas na nave da abadia, ao lado da sepultura de Isaac Newton e próximo da sepultura de Charles Darwin. Hawking pediu, pelo menos quinze anos antes de sua morte, que a equação da entropia de Bekenstein–Hawking fosse seu epitáfio.\n[…]\nOs últimos cientistas naturais sepultados na Abadia de Westminster antes de Hawking foram em 1937 Ernest Rutherford e 1940 Joseph John Thomson.\n[…]\nA criação espontânea é a razão pela qual algo existe ao invés de não existir nada, é a razão pela qual o universo existe, pela qual nós existimos\", dizendo que o Big Bang foi simplesmente uma consequência da lei da gravidade. Hawking também cita a descoberta, feita em 1992, de um planeta que orbita uma estrela fora do Sistema Solar, como um marco contra a crença de Isaac Newton de que o universo não poderia ter surgido do caos.[carece de fontes]?\n[…]\n7672 Hawking\n[…]\nRadiação Hawking",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Christian Doppler",
+      "descricao": "Físico austríaco (1803–1853) que descreveu o efeito Doppler."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O físico Christian Doppler, que explicou por que a sirene da ambulância muda de tom ao passar, nasceu em 1803 em que cidade da Áustria?",
+    "resposta": "Salzburgo",
+    "distratores": [
+      "Viena",
+      "Innsbruck",
+      "Graz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christian_Doppler",
+      "https://pt.wikipedia.org/wiki/Christian_Doppler"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christian_Doppler",
+        "situacao": "ok",
+        "texto": "Christian Andreas Doppler (; German: [ˈdɔplɐ] ; 29 November 1803 – 17 March 1853) was an Austrian mathematician and physicist. He formulated the principle – now known as the Doppler effect – that the observed frequency of a wave depends on the relative speed of the source and the observer.\n[…]\nDoppler was born in Salzburg (today Austria) in 1803. Doppler was the second son of Johann Evangelist Doppler and Theresia Seeleuthner (Doppler). Doppler's father, Johann Doppler, was a third-generation stone mason in Salzburg. As a young boy, Doppler showed promise for his family's trade. However, due to his weak health, Doppler's father encouraged him instead to pursue a career in business. Doppler started elementary education at the age of 13.\n[…]\nAfter completing high school, Doppler studied philosophy in Salzburg and mathematics and physics at the University of Vienna and Imperial–Royal Polytechnic Institute (now TU Wien). In 1829, he was chosen for an assistant position to Professor Adam von Burg at the Polytechnic Institute of Vienna, where he continued his studies.\n[…]\nChristian Doppler (1803–1853). Wien: Böhlau, 1992.\n[…]\nList of Austrians\n[…]\nAlec Eden: Christian Doppler: Leben und Werk. Salzburg: Landespressebureau, 1988. ISBN 3-85015-069-0\n[…]\nHoffmann, Robert (2007). The Life of an (almost) Unknown Person. Christian Doppler's Youth in Salzburg and Vienna. In: Ewald Hiebl, Maurizio Musso (Eds.), Christian Doppler – Life and Work. Principle an Applications. Proceedings of the Commemorative Symposia in Salzburg, Salzburg, Prague, Vienna, Venice. Pöllauberg/Austria, Hainault/UK, Atascadero/US, pages 33 – 46.\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Christian Doppler\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nChristian Doppler Platform & Christian-Doppler-Fonds"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Christian_Doppler",
+        "situacao": "ok",
+        "texto": "Christian Andreas Doppler (Salzburgo, 29 de novembro de 1803 – Veneza, 17 de março de 1853) foi um físico austríaco, famoso por descobrir o chamado efeito Doppler.\n[…]\nFez o curso primário em Salzburgo, e o secundário em Linz, onde ficou evidente o talento de Doppler para a Matemática.\n[…]\nAos 19 anos, por recomendação de Simon Stampfer, professor do Liceu de Salzburgo, Christian estudou física e matemática no Instituto Politécnico de Viena (hoje Universidade Técnica de Viena).\n[…]\nGraduou-se em 1825, aos 21 anos, e voltou a Salzburgo, onde ensinara física e matemática. Voltou a Viena para estudar matemática avançada e mecânica, e em 1829, após completar seus estudos, tornou-se assistente de Adam vom Burg, professor de matemática avançada e mecânica da Universidade. Em 1831 publicou o primeiro de 51 artigos científicos.\n[…]\nOs anos seguintes foram muito cansativos. Além da pesquisa, sua posição incluía um pesado fardo de ensino, e Doppler teve que passar muitas horas em locais apertados, insalubres e salas de palestra lotadas. Comenta-se que foi durante esse período que ele contraiu a tuberculose que iria matá-lo.\n[…]\nEm 1851, foi eleito para a Academia Austríaca de Ciências, e dois anos depois, foi nomeado professor de física experimental na Real Imperial Universidade de Viena. Um dos estudantes que ele entrevistou foi o monge augustiniano Gregor Mendel, pai da genética moderna.\n[…]\nEfeito Doppler\n[…]\nO'Connor, John J.; Robertson, Edmund F., «Christian Doppler», MacTutor History of Mathematics archive (em inglês), Universidade de St. Andrews\n[…]\nChristian Doppler (1803 - 1853)\n[…]\nChristian Andreas Doppler"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Protótipo Internacional do Quilograma",
+      "descricao": "Cilindro de platina e irídio que serviu de padrão do quilograma de 1889 até a redefinição da unidade em 2019."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Até 2019, o quilograma era definido por um pequeno cilindro de metal guardado num cofre nos arredores de que cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram",
+        "situacao": "ok",
+        "texto": "The International Prototype of the Kilogram (referred to by metrologists as the IPK or Le Grand K; sometimes called the ur-kilogram, or urkilogram, particularly by German-language authors writing in English:30) is an object whose mass was used to define the kilogram from 1889, when it replaced the Kilogramme des Archives, until 2019, when it was replaced by a new definition of the kilogram based e\n[…]\nThe IPK and its six sister copies are stored at the International Bureau of Weights and Measures (known by its French-language initials BIPM) in a controlled environment in a basement vault at the BIPM's Pavillon de Breteuil in Saint-Cloud on the outskirts of Paris (see External images, below, for photographs). Three independently controlled keys are required to open the vault. Official copies of the IPK were made available to other nations to serve as their national standards.\n[…]\nThe Metre Convention was signed on 20 May 1875 and further formalised the metric system (a predecessor to the SI), quickly leading to the production of the IPK. The IPK is one of three cylinders made in London in 1879 by Johnson Matthey, which continued to manufacture nearly all of the national prototypes as needed until the new definition of the kilogram came into effect in 2019.\n[…]\nSome additional copies held by non-national organisations, such as the French Academy of Sciences in Paris (34) and the Istituto di Metrologia G. Colonnetti in Turin (62).\n[…]\nBefore 2019, by definition, the error in the measured value of the IPK's mass was exactly zero; the mass of the IPK was the kilogram. However, any changes in the IPK's mass over time could be deduced by comparing its mass to that of its official copies stored throughout the world, a rarely undertaken process called \"periodic verification\". The only three verifications occurred in 1889, 1948, and 1989.\n[…]\nInternational Prototype Metre (IPM)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prot%C3%B3tipo_internacional_do_quilograma",
+        "situacao": "ok",
+        "texto": "O Protótipo Internacional do Quilograma (referido pelos metrologistas como IPK ou Le Grand K; às vezes chamado de ur -quilograma, ou urquilograma, particularmente por autores de língua alemã que escrevem em inglês:30) é um objeto que foi usado para definir a magnitude da massa do quilograma de 1889, quando substituiu o Kilogram des Archives, até 2019, quando foi substituído por um nova definição d\n[…]\nDurante esse tempo, o IPK e suas duplicatas foram usadas para calibrar todos os outros padrões de massa de quilograma na Terra.\n[…]\nEm 2018, o IPK sustentou as definições de 4 das 7 unidades básicas do SI: o quilograma em si, mais a mole, ampère e candela (cujas definições na época referenciavam o grama, newton e watt, respectivamente) bem como as definições de todas as unidades derivadas do SI nomeadas, exceto hertz, becquerel, grau celsius, gray, sievert, farad, ohm, siemens, henry e o adimensional radiano e esterradiano.\n[…]\nO IPK e suas seis cópias irmãs são armazenados no Bureau Internacional de Pesos e Medidas (conhecido por suas iniciais em francês BIPM) em um cofre monitorado ambientalmente no cofre inferior localizado no porão do Pavillon de Breteuil do BIPM em Saint-Cloud nos arredores de Paris (ver imagens externas, abaixo, para fotografias). Três chaves controladas independentemente são necessárias para abrir o cofre.\n[…]\nThe UK's National Physical Laboratory (NPL): Are any problems caused by having the kilogram defined in terms of a physical artefact? (FAQ - Mass & Density)\n[…]\nInternational Bureau of Weights and Measures (BIPM): Home page\n[…]\nNZZ Folio: What a kilogram really weighs\n[…]\nNPR: This Kilogram Has A Weight-Loss Problem, an interview with National Institute of Standards and Technology physicist Richard Steiner\n[…]\nSample, Ian (9 de novembro de 2018). «In the balance: scientists vote on first change to kilogram in a century». The Guardian. Consultado em 9 de novembro de 2018",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Conferência de Solvay de 1927",
+      "descricao": "Quinta Conferência de Solvay, encontro de físicos sobre mecânica quântica famoso pela foto que reúne Einstein, Marie Curie e Bohr."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A célebre foto de 1927 que reúne Einstein, Marie Curie e Niels Bohr foi tirada numa conferência de física em que capital europeia?",
+    "resposta": "Bruxelas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solvay_Conference"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Solvay_Conference",
+        "situacao": "ok",
+        "texto": "The Solvay Conferences (French: Congrès Solvay) have been devoted to preeminent unsolved problems in both physics and chemistry. They began with the historic invitation-only 1911 Solvay Conference on Physics, considered a turning point in the world of physics, and are ongoing.\n[…]\nPerhaps the most famous conference was the fifth Solvay Conference on Physics, which was held from 24 to 29 October 1927. The subject was Electrons and Photons and the world's most notable physicists met to discuss the newly formulated quantum theory. The leading figures were Albert Einstein and Niels Bohr. Seventeen of the 29 attendees were or became Nobel Prize winners, including Marie Skłodowska-Curie who, alone among them, had won Nobel Prizes in two separate scientific disciplines.\n[…]\nThe anti-German prejudice that had prevented Einstein and others from attending the Solvay conferences held after the First World War had melted away. Essentially all of those names who had contributed to the recent development of the quantum theory were at this Solvay Conference, including Bohr, Born, de Broglie, Dirac, Heisenberg, Pauli, Planck, Lorentz, Compton, Ehrenfest, and Schrödinger. Heisenberg commented:\n[…]\n1948: (scientific committee – present) Sir Lawrence Bragg, Niels Bohr, Théophile De Donder, Sir Owen Willans Richardson, Jules-Émile Verschaffelt, Hendrik Kramers (scientific committee – absent) Peter Debye, Abram Fedorovich Ioffé, Albert Einstein, Frédéric Joliot-Curie (speakers) C. F. Powell, P. Auger, Felix Bloch, Patrick Blackett, Homi J. Bhabha, Marie-Antoinette Tonnelat on behalf of Louis de Broglie, Rudolf Peierls, Walter Heitler, Edward Teller, R.\n[…]\nThe Solvay Science Project(Exhibition and database)\n[…]\nPrevious Solvay conferences on physics, chemistry and biology"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Confer%C3%AAncias_da_Solvay",
+        "situacao": "ok",
+        "texto": "As Conferências da Solvay (também chamadas de Congressos da Solvay) são uma série de conferências científicas celebradas desde 1911. No começo do século XX, estas conferências reuniam os mais consagrados cientistas da época, e proporcionaram avanços fundamentais para a Física Quântica. Foram realizadas no Instituto Internacional da Solvay de Física e Química, localizado em Bruxelas, fundado pelo q\n[…]\nA primeira conferência foi realizada em Bruxelas, de 30 de outubro a 3 de novembro de 1911. O presidente da conferência foi Hendrik Antoon Lorentz e o tema principal foi A Teoria da Radiação e os quanta. A saudação de boas-vindas aos presentes foi feita pelo anfitrião Ernest Solvay.\n[…]\nEsta conferência considerou os problemas na física teórica e na física quântica. Albert Einstein foi o físico mais jovem entre os presentes. Outros membros de especial destaque dessa conferência foram Marie Curie e Henri Poincaré.\n[…]\nA quinta conferência, realizada em 1927 e dedicada a elétrons e fótons, foi talvez a mais famosa da série. Nela, a recém-formulada teoria quântica foi discutida com as personalidades dominantes Albert Einstein e Niels Bohr (debate Einstein-Bohr). 17 dos 29 participantes possuíam ou receberiam o Prêmio Nobel.\n[…]\nSentados, da esquerda para a direita: Théophile de Donder, Pieter Zeeman, Pierre-Ernest Weiss, Arnold Sommerfeld, Marie Curie, Paul Langevin (presidente), Albert Einstein, Owen Willans Richardson, Blas Cabrera Felipe, Niels Bohr, Wander Johannes de Haas.\n[…]\nSentados, da esquerda para a direita: Erwin Schrödinger, Irene Joliot-Curie, Niels Bohr, Abram Ioffe, Marie Curie, Paul Langevin (presidente), Owen Willans Richardson, Ernest Rutherford, Théophile de Donder, Maurice de Broglie, Louis de Broglie, Lise Meitner, James Chadwick.\n[…]\nA vigésima-segunda conferência, realizada em 2001, teve como tema a física da comunicação. Seus participantes foram: Ioannis Antoniou (presidente)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Relatividade geral",
+      "descricao": "Teoria da gravitação de Albert Einstein, apresentada em 1915, que descreve a gravidade como curvatura do espaço-tempo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Albert Einstein apresentou a teoria da relatividade geral em Berlim, em novembro de 1915, em meio a que conflito?",
+    "resposta": "Primeira Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/General_relativity",
+      "https://en.wikipedia.org/wiki/History_of_general_relativity"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/General_relativity",
+        "situacao": "ok",
+        "texto": "General relativity, also known as the general theory of relativity, and as Einstein's theory of gravity, is the geometric theory of gravitation published by Albert Einstein in May 1916 and is the accepted description of the gravitation of macroscopic objects in modern physics. General relativity generalizes special relativity and refines Isaac Newton's law of universal gravitation, providing a uni\n[…]\nIn 1907, beginning with a simple thought experiment involving an observer in free fall (FFO), he embarked on what would be an eight-year search for a relativistic theory of gravity. After numerous detours and false starts, his work culminated in the presentation to the Prussian Academy of Science in November 1915 of what are known as the Einstein field equations, which form the core of Einstein's general theory of relativity.\n[…]\nEinstein showed in 1915 how his theory explained the anomalous perihelion advance of the planet Mercury without any arbitrary parameters (\"fudge factors\"), and in 1919 an expedition led by Eddington confirmed general relativity's prediction for the deflection of starlight by the Sun during the total solar eclipse of 29 May 1919, instantly making Einstein famous.\n[…]\nContributors to general relativity\n[…]\nEinstein, Albert (2015). Relativity: The Special and the General Theory. Princeton University Press. ISBN 978-0-691-16633-9. Reprint of the original 1916 title, with commentary by Hanoch Gutfreund and Jürgen Renn.\n[…]\nChoquet-Bruhat, Yvonne (2008). General relativity and the Einstein equations. Oxford University Press. ISBN 978-0-199-23072-3.\n[…]\nEinstein Online Archived 1 June 2014 at the Wayback Machine – Articles on a variety of aspects of relativistic physics for a general audience; hosted by the Max Planck Institute for Gravitational Physics\n[…]\nEinstein's General Theory of Relativity on YouTube (lecture by Leonard Susskind recorded 22 September 2008 at Stanford University)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_general_relativity",
+        "situacao": "ok",
+        "texto": "General relativity is a theory of gravitation that was developed by Albert Einstein between 1907 and 1915, with contributions by many others after 1915. According to general relativity, the observed gravitational attraction between masses results from the warping of space and time by those masses.\n[…]\nWhen Einstein completed the full theory of general relativity in 1915, he rectified this error and predicted the correct amount of light deflection caused by the Sun (1.75 seconds of arc). Eddington and Dyson in 1919 and W. W. Campbell in 1922 were able to compare their results to Einstein's corrected prediction.\n[…]\nFor a while, Einstein thought that there were problems with the approach, but he later returned to it and, by late 1915, had published his general theory of relativity in the form in which it is used today. This theory explains gravitation as the distortion of the structure of spacetime by matter, affecting the inertial motion of other matter.\n[…]\nIn 1922, Alexander Friedmann found a solution in which the universe may expand or contract, and later Georges Lemaître derived a solution for an expanding universe. However, Einstein believed that the universe was static, and since a static cosmology was not supported by the general relativistic field equations, he added a cosmological constant\n[…]\nThe first piece of evidence in support of general relativity came from its correct prediction of the anomalous rate of precession of Mercury's orbit. Subsequently, Arthur Stanley Eddington's 1919 expedition confirmed Einstein's prediction of the deflection of light by the Sun during the total solar eclipse of 29 May 1919, which helped to cement the status of general relativity as a viable theory. Since then, many observations have shown agreement with the predictions of general relativity."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Relatividade_geral",
+        "situacao": "ok",
+        "texto": "Relatividade geral, também conhecida como teoria da relatividade geral, é uma teoria geométrica da gravitação publicada por Albert Einstein em 1915 e a descrição atual da gravitação na física moderna. É um conjunto de hipóteses que generaliza a relatividade especial e a lei da gravitação universal de Newton, fornecendo uma descrição unificada da gravidade como uma propriedade geométrica do espaço \n[…]\nApós inúmeros desvios e falsos começos, seu trabalho culminou na apresentação à Academia de Ciências da Prússia, em novembro de 1915, do que hoje são conhecidas como as equações de campo de Einstein, que formam o núcleo da teoria geral da relatividade. Essas equações especificam como a geometria do espaço e do tempo é influenciada por qualquer matéria e radiação presentes.\n[…]\nNo mesmo ano, foram realizados os primeiros passos para a generalização da métrica de Schwarzschild para objetos carregados eletricamente, o que acabou resultando na métrica de Reissner-Nordström, agora associada a buracos negros carregados eletricamente. No ano seguinte, Einstein aplicou sua teoria ao universo como um todo, iniciando o campo da cosmologia relativista.\n[…]\nNa relatividade geral, os apsides (o ponto de aproximação mais extremo de um corpo em órbita no centro de massa do sistema) de qualquer órbita sofrerão precessão; a órbita não é uma elipse, mas semelhante a uma que gira em seu foco, resultando numa forma semelhante a uma curva rosa (ver imagem). Einstein derivou primeiro este resultado usando uma métrica aproximada representando o limite newtoniano e tratando o corpo em órbita como uma partícula de teste.\n[…]\nDependendo da configuração, escala e distribuição de massa, pode haver duas ou mais imagens, um anel brilhante conhecido como anel de Einstein ou anéis parciais chamados de arcos. O primeiro exemplo foi descoberto em 1979; desde então, mais de cem lentes gravitacionais foram observadas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Laser",
+      "descricao": "Dispositivo que emite luz concentrada e coerente por emissão estimulada de radiação."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O primeiro laser em funcionamento, construído pelo americano Theodore Maiman, ficou pronto em que década do século vinte?",
+    "resposta": "Anos sessenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laser",
+      "https://en.wikipedia.org/wiki/Theodore_Maiman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Laser",
+        "situacao": "ok",
+        "texto": "A laser is a device that emits light through a process of optical amplification based on the stimulated emission of electromagnetic radiation. The word laser originated as an acronym for light amplification by stimulated emission of radiation. The first laser was built in 1960 by Theodore Maiman at Hughes Research Laboratories, based on theoretical work by Charles H. Townes and Arthur Leonard Scha\n[…]\nTownes, Nikolay Basov, and Aleksandr Prokhorov shared the Nobel Prize in Physics, \"for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser–laser principle\".\n[…]\nOn May 16, 1960, Theodore H. Maiman operated the first functioning laser at Hughes Research Laboratories, Malibu, California, ahead of several research teams, including those of Townes, at Columbia University, Arthur L. Schawlow, at Bell Labs, and Gould, at the TRG (Technical Research Group) company. Maiman's functional laser used a flashlamp-pumped synthetic ruby crystal to produce red laser light at 694 nanometers wavelength.\n[…]\nLaser science or laser physics studies lasers, both through theory and practice. Laser science is principally concerned with quantum electronics, laser construction, optical cavity design, the physics of producing a population inversion in laser media, and the temporal evolution of the light field in the laser.\n[…]\nEven the first laser was recognized as being potentially dangerous. Theodore Maiman characterized the first laser as having the power of one \"Gillette\", as it could burn through one Gillette razor blade. Today, it is accepted that even low-power lasers with only a few milliwatts of output power can be hazardous to human eyesight when the beam hits the eye directly or after reflection from a shiny surface.\n[…]\nBromberg, Joan Lisa (1991). The Laser in America, 1950–1970. MIT Press. ISBN 978-0-262-02318-4."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Theodore_Maiman",
+        "situacao": "ok",
+        "texto": "Theodore Harold Maiman (July 11, 1927 – May 5, 2007) was an American engineer and physicist who is widely credited with the invention of the laser. Maiman's laser led to the subsequent development of many other types of lasers. The laser was successfully fired on May 16, 1960. In a July 7, 1960, press conference in Manhattan, Maiman and his employer, Hughes Aircraft Company, announced the laser to\n[…]\nIn 1976, Maiman was awarded the Optical Society of America's R.W. Wood Prize for \"Pioneer Development of the First Laser\". In 1980, he received the Golden Plate Award of the American Academy of Achievement. He was the recipient of the 1983/84 Wolf Prize in Physics and was also inducted into the National Inventors Hall of Fame that year. In 1987 Maiman was awarded the Japan Prize in Electro-Optics for \"realization of the world's first laser.\"\n[…]\nRecognition for Maiman and his laser invention continued posthumously. In a 2007 obituary testimonial, maser co-inventor Charles H. Townes described Maiman's 1960 Nature article on his laser as \"probably more important per word than any of the papers published by Nature over the past century.\" The annual Theodore Maiman Student Paper Competition was established in 2008, endowed by major laser groups, and is administered by the OSA Foundation.\n[…]\nThe U.S. Congress passed a resolution celebrating the invention of the laser and citing Maiman. Also in 2010 Maiman's laser achievement was recognized as an IEEE Milestone, and the American Physical Society presented Hughes Research Laboratories with a plaque to commemorate the historic site of the world's first laser.\n[…]\nTheodore H. Maiman: Creator of the First Laser\n[…]\nSPIE, \"Lasers and Sources, Video: Theodore Maiman on the First Laser\"\n[…]\nSPIE, \"Lasers and Sources, Video: Maiman's First Laser Light Shines Again\"\n[…]\nCLEO, \"Video: The World's First Laser, Made by Ted Maiman on May 16, 1960\" on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Laser",
+        "situacao": "ok",
+        "texto": "Um laser, também grafado lêiser, é um dispositivo que emite luz por um processo de amplificação óptica baseado na emissão estimulada de radiação eletromagnética. A palavra laser surgiu como acrônimo da expressão inglesa light amplification by stimulated emission of radiation, \"amplificação da luz por emissão estimulada de radiação\". O primeiro laser funcional foi construído em 1960 por Theodore Ma\n[…]\nEm 16 de maio de 1960, Theodore H. Maiman operou o primeiro laser funcional no Hughes Research Laboratories, em Malibu, Califórnia. O aparelho usava um cristal sintético de rubi bombeado por uma lâmpada de flash e emitia luz vermelha de cerca de 694 nm em pulsos. Maiman chegou a esse resultado antes das equipes de Townes na Universidade Columbia, Schawlow nos Bell Labs e Gould na Technical Research Group.\n[…]\nO potencial de dano foi reconhecido desde os primeiros aparelhos. Theodore Maiman comparou a potência de seu laser à capacidade de perfurar uma lâmina de barbear. Mesmo um feixe de poucos miliwatts pode representar risco ocular, dependendo do comprimento de onda, do tempo de exposição e da focalização. A óptica do olho humano concentra parte da radiação visível e infravermelha próxima sobre uma pequena área da retina.\n[…]\nArmas que lançavam raios de energia já faziam parte da ficção científica antes da construção do primeiro laser. Brinquedos e histórias associados a personagens como Buck Rogers e Flash Gordon apresentavam \"armas de raios\" décadas antes de 1960. Depois da invenção do laser, porém, o próprio termo passou rapidamente para a ficção e tornou-se uma designação recorrente para armas e dispositivos futuristas, muitas vezes sem relação estrita com o funcionamento de um laser real.\n[…]\nBromberg, Joan Lisa. The Laser in America, 1950–1970. MIT Press, 1991. ISBN 978-0-262-02318-4.\n[…]\nBright Idea: The First Lasers, exposição do American Institute of Physics",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Metro",
+      "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O metro, unidade de comprimento usada no Brasil, foi criado na França durante que grande acontecimento político?",
+    "resposta": "Revolução Francesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Metre",
+      "https://en.wikipedia.org/wiki/History_of_the_metre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Metre",
+        "situacao": "ok",
+        "texto": "The metre (or meter in US spelling; symbol: m) is the base unit of length in the International System of Units (SI). Since 2019, the metre has been defined as the length of the path travelled by light in vacuum during a time interval of ⁠1/299792458⁠ of a second, where the second is defined by a hyperfine transition frequency of caesium.\n[…]\nThe etymological roots of metre can be traced to the Greek verb μετρέω (metreo) ([I] measure, count or compare) and noun μέτρον (metron) (a measure), which were used for physical measurement, for poetic metre and by extension for moderation or avoiding extremism (as in \"be measured in your response\"). This range of uses is also found in Latin (metior, mensura), French (mètre, mesure), English (meter for measuring instruments, but metre or meter in poetry) and other languages.\n[…]\nMetre is the standard spelling of the metric unit for length in all English-speaking nations except the United States and the Philippines, which use meter. In English, the use of the word metre (for the French unit mètre) began at least as early as 1790.\n[…]\nSI prefixes can be used to denote decimal multiples and submultiples of the metre, as shown in the table below. Long distances are usually expressed in km, astronomical units (149,597,871 km), light-years (63,000 au; 9.5 trillion km), or parsecs (210,000 au; 31 trillion km), rather than in Mm or larger multiples. \"30 cm\", \"30 m\", and \"300 m\" are more common than \"3 dm\", \"3 dam\", and \"3 hm\", respectively.\n[…]\nOne metre is exactly equivalent to ⁠5 000/127⁠ inches and to ⁠1 250/1 143⁠ yards.\n[…]\nA simple mnemonic to assist with conversion is \"three 3s\": 1 metre is nearly equivalent to 3 feet 3+3⁄8 inches. This gives an overestimate of 0.125 mm.\n[…]\nThe dictionary definition of metre at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_the_metre",
+        "situacao": "ok",
+        "texto": "During the French Revolution, the traditional units of measure were to be replaced by consistent measures based on natural phenomena. As a base unit of length, scientists had favoured the seconds pendulum (a pendulum with a half-period of one second) one century earlier, but this was rejected as it had been discovered that this length varied from place to place with local gravity.\n[…]\nDuring the mid-19th century, following the American Revolution and the decolonisation of the Americas, the metre gained adoption in Americas, particularly in scientific usage, and it was officially established as an international measurement unit by the Metre Convention of 1875 at the beginning of the Second Industrial Revolution.\n[…]\nHistorically, units of measurement varied greatly, even when called by the same name. Some kingdoms and other polities standardised some measurements, but in others, such as France before the French Revolution, units could still vary from place to place. During the Scientific Revolution, various \"universal measures\" of length were proposed which would be based on reproducible natural phenomena, in particular the pendulum and the Earth.\n[…]\nHowever, pending completion of that work, a measurement from Dunkirk on the English Channel to Collioure on the Mediterranean coast made in 1740 was used, and following legislation on 7 April 1795, provisional metal metre bars were distributed in France in 1795-1796.\n[…]\nOne of the iron metre standards was brought to the United States in 1805. It became known as the Committee Meter in the United States and served as a standard of length in the United States Coast Survey until 1890.\n[…]\nThe metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum c to be 299792458 when expressed in the unit m⋅s−1, where the second is defined in terms of the caesium frequency ΔνCs."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Metro",
+        "situacao": "ok",
+        "texto": "O metro (símbolo: m) é a unidade de medida de comprimento do Sistema Internacional de Unidades. É definido tomando o valor numérico fixado da velocidade da luz no vácuo, c, igual a 299 792 458 quando expressa em m s–1, o segundo sendo definido em função de ΔνCs.\n[…]\nA ideia de um sistema de medidas unificado foi implementada pela primeira vez na França, na época da Revolução Francesa. A existência de diferentes sistemas de medidas foi uma das causas mais frequentes de litígios entre comerciantes, cidadãos e cobradores de impostos. Com o país unificado, uma moeda única e um mercado nacional também unificado, havia um forte incentivo econômico para romper com essa situação e padronizar um sistema de medidas.\n[…]\nEm 8 de maio de 1790 a Assembleia Nacional Constituinte Francesa se pronunciou a favor de um sistema de medidas uniforme e simples, que pudesse ser adotado pelo mundo todo. Segundo o decreto, a Academia de Ciências de Paris em conjunto com a Sociedade Real de Londres deveria determinar a unidade natural de medida e deduzir um modelo invariável para todas as medidas e pesos. A unidade de base seria o comprimento do pêndulo que bate a cada segundo.\n[…]\nEm 26 de junho 1862 O Sistema Métrico Francês é adotado no Brasil.\n[…]\nO Governo Francês fez um pedido à Academia Francesa de Ciências para que criasse um sistema de medidas baseadas em uma constante não arbitrária. Após esse pedido, um grupo de investigadores franceses, composto de físicos, astrônomos e agrimensores, deu início a essa tarefa, definindo assim que a unidade de comprimento metro deveria corresponder a uma determinada fração da circunferência da Terra e correspondente também a um intervalo de graus do meridiano terrestre.\n[…]\nUnidades de comprimento\n[…]\nLista de unidades de medida",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Caso Galileu",
+      "descricao": "Conflito entre Galileu Galilei e a Igreja Católica, que levou à sua condenação pela Inquisição em 1633."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Condenado pela Inquisição em 1633, Galileu teve o erro da Igreja reconhecido publicamente pelo papa João Paulo Segundo em que ano?",
+    "resposta": "1992",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galileo_affair"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Galileo_affair",
+        "situacao": "ok",
+        "texto": "The Galileo affair was an early 17th century political, religious, and scientific controversy regarding the astronomer Galileo Galilei's defence of heliocentrism, the idea that the Earth revolves around the Sun.\n[…]\nTo protect his good name, Galileo requested a letter from Bellarmine stating the truth of the matter. This letter assumed great importance in 1633, as did the question whether Galileo had been ordered not to \"hold or defend\" Copernican ideas (which would have allowed their hypothetical treatment) or not to teach them in any way. If the Inquisition had issued the order not to teach heliocentrism at all, it would have been ignoring Bellarmine's position.\n[…]\nGalileo was found guilty, and the sentence of the Inquisition, issued on 22 June 1633, was in three essential parts:\n[…]\nPope Urban VIII, who had been under attack by Spanish cardinals for being too tolerant of heretics, and who had also encouraged Galileo to publish The Dialogue, would have been compromised had his enemies among the Cardinal Inquisitors been given an opening to comment on his support of a publication containing Eucharistic heresies.\n[…]\nIn 1758 the Catholic Church dropped the general prohibition of books advocating heliocentrism from the Index of Forbidden Books. It did not, however, explicitly rescind the decisions issued by the Inquisition in its judgement of 1633 against Galileo, or lift the prohibition of uncensored versions of Copernicus's De Revolutionibus or Galileo's Dialogue.\n[…]\nBecause of this, the Pope's 1992 speech that closed the project was vague, and did not fulfill his intentions expressed in 1979.\n[…]\nIn 1992, it was reported that the Catholic Church had turned towards vindicating Galileo:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Processo_de_Galileu_Galilei",
+        "situacao": "ok",
+        "texto": "O Processo de Galileu Galilei (em italiano:  Il processo a Galileo Galilei) foi uma sequência de eventos, começando em torno de 1610, culminando com o julgamento e condenação de Galileu Galilei pela Inquisição Católica Romana em 1633 por sua defesa do heliocentrismo.\n[…]\nEm um encontro dos cardeais da Inquisição no dia seguinte, o Papa Paulo V instruiu Belarmino para entregar este resultado a Galileu e ordenar que ele abandonasse as opiniões copernicanas; caso Galileu resistisse ao decreto, medidas mais fortes seriam tomadas. Em 26 de fevereiro Galileu foi chamado para a residência de Belarmino e ordenado,\n[…]\nA comissão reportou contra Galileu.\n[…]\nEm 1758 a Igreja Católica retirou a proibição geral dos livros que defendiam o heliocentrismo do Index Librorum Prohibitorum. No entanto, não resolveu explicitamente as decisões emitidas pela Inquisição em seu julgamento de 1633 contra Galileu, ou levantou a proibição de versões não censuradas do De Revolutionibus de Copérnico ou do Dialogue de Galileu.\n[…]\nEm 1979 o Papa João Paulo II expressou a esperança de que \"os teólogos, eruditos e historiadores, animados por um espírito de colaboração sincera, estudarão o caso Galileu mais profundamente e, em reconhecimento leal de erros de qualquer lado que vierem\". No entanto, a Pontifícia Comissão de Estudos Interdisciplinares constituída em 1981 para estudar o caso não atingiu nenhum resultado definitivo.\n[…]\nPor isso, o discurso do Papa em 1992 que encerrou o projeto era vago e não cumpriu suas intenções expressas em 1979.\n[…]\nEm 1992 foi relatado que a Igreja Católica se voltou para vindicar Galileu:\n[…]\nFinocchiaro, Maurice A. (2005). Retrying Galileo, 1633–1992. Berkeley, CA: University of California Press. ISBN 0-520-24261-0\n[…]\nInquisition documents, 1616 and 1633",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Telescópio",
+      "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O pedido de patente mais antigo que se conhece de um telescópio foi feito por um fabricante de lentes na Holanda em que século?",
+    "resposta": "Século dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Telescope",
+      "https://en.wikipedia.org/wiki/Hans_Lipperhey"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Telescope",
+        "situacao": "ok",
+        "texto": "A telescope is a device used to observe distant objects by their emission, absorption, or reflection of electromagnetic radiation. Originally, it was an optical instrument using lenses, curved mirrors, or a combination of both to observe distant objects – an optical telescope. Nowadays, the word \"telescope\" is defined as a wide range of instruments capable of detecting different regions of the ele\n[…]\nThe earliest existing record of a telescope was a 1608 patent submitted to the government in the Netherlands by Middelburg spectacle maker Hans Lipperhey for a refracting telescope. The actual inventor is unknown but word of it spread through Europe. Galileo heard about it and, in 1609, built his own version, and made his telescopic observations of celestial objects.\n[…]\nThe refracting telescope which uses lenses to form an image.\n[…]\nA discovery in 2012 may allow focusing gamma-ray telescopes. At photon energies greater than 700 keV, the index of refraction starts to increase again.\n[…]\nKing, Henry C. (1979). The history of the telescope. H. Spencer Jones. New York: Dover Publications. ISBN 0-486-23893-8. OCLC 6025190.\n[…]\nWatson, Fred (2007). Stargazer : the life and times of the telescope. Crows Nest, New South Wales, Australia: Allen & Unwin. ISBN 978-1-74176-392-8. OCLC 173996168.\n[…]\nGalileo to Gamma Cephei – The History of the Telescope. Archived 8 May 2013 at the Wayback Machine\n[…]\nThe Galileo Project – The Telescope by Al Van Helden\n[…]\n\"The First Telescopes\". Part of an exhibit from Cosmic Journey: A History of Scientific Cosmology. Archived 9 April 2008 at the Wayback Machine by the American Institute of Physics\n[…]\nTaylor, Harold Dennis; Gill, David (1911). \"Telescope\" . Encyclopædia Britannica. Vol. 26 (11th ed.). pp. 557–573.\n[…]\nOutside the Optical: Other Kinds of Telescopes\n[…]\nGray, Meghan; Merrifield, Michael (2009). \"Telescope Diameter\". Sixty Symbols. Brady Haran for the University of Nottingham."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hans_Lipperhey",
+        "situacao": "ok",
+        "texto": "Hans Lipperhey (c. 1570 – buried 29 September 1619), also known as Johann Lippershey or simply Lippershey, was a German-Dutch spectacle-maker. He is commonly associated with the invention of the telescope, because he was the first one who tried to obtain a patent for it. It is, however, unclear if he was the first one to build a telescope.\n[…]\nHans Lipperhey is known for the earliest written record of a refracting telescope, a patent he filed in 1608. His work with optical devices grew out of his work as a spectacle maker, an industry that had started in Venice and Florence in the thirteenth century, and later expanded to the Netherlands and Germany.\n[…]\nThis report was issued in October 1608 and distributed across Europe, leading to experiments by other scientists, such as the Italian Paolo Sarpi, who received the report in November, the Englishman Thomas Harriot, who was using a six-powered telescope by the summer of 1609, and Galileo Galilei, who improved the device.\n[…]\nLipperhey's original instrument consisted of either two convex lenses with an inverted image or a convex objective and a concave eyepiece lens so it would have an upright image. This \"Dutch perspective glass\" (the name \"telescope\" would not be coined until three years later by Giovanni Demisiani) had a three-times (or 3×) magnification.\n[…]\nVan Helden, Albert (1977). The Invention of the Telescope. Philadelphia, Pennsylvania: The American Philosophical Society. ISBN 0-87169-674-6.\n[…]\nMoll, G. (1831). \"On the first Invention of Telescopes\". Journal of the Royal Institution. 1: 319–332, 483–496. This is a shortened English version of Moll's article\n[…]\n400th Anniversary of the Invention of the Telescope"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio",
+        "situacao": "ok",
+        "texto": "Um telescópio é um dispositivo usado para observar objetos distantes por meio de sua emissão, absorção ou reflexão de radiação eletromagnética. Originalmente, era um instrumento óptico que usava lentes, espelhos curvos ou uma combinação de ambos para observar objetos distantes - um telescópio óptico. Hoje em dia, a palavra \"telescópio\" é definida como uma ampla gama de instrumentos capazes de dete\n[…]\nOs primeiros telescópios práticos conhecidos eram telescópios refratores com lentes de vidro e foram inventados nos Países Baixos no início do século XVII. Eles foram usados tanto para aplicações terrestres quanto para astronomia.\n[…]\nO registro mais antigo existente de um telescópio é uma patente de 1608 submetida ao governo dos Países Baixos pelo fabricante de óculos de Middelburg, Hans Lipperhey, para um telescópio refrator. O inventor real é desconhecido, mas a notícia se espalhou pela Europa. Galileu ouviu falar disso e, em 1609, construiu sua própria versão e fez suas observações telescópicas de objetos celestes.\n[…]\nAs desvantagens de lançar um telescópio espacial incluem custo, tamanho, capacidade de manutenção e atualizações.\n[…]\nAo contrário de um telescópio óptico, que produz uma imagem ampliada da porção do céu observada, um disco de radiotelescópio tradicional contém um único receptor e registra um sinal variável no tempo característico da região observada; este sinal pode ser amostrado em várias frequências. Em alguns projetos mais recentes de radiotelescópios, um único disco contém uma matriz de vários receptores; isso é conhecido como matriz de plano focal.\n[…]\nPara que a imagem seja observada, fotografada, estudada e enviada para um computador, os telescópios funcionam empregando um ou mais elementos ópticos curvos, geralmente feitos de lentes de vidro e/ou espelhos, para coletar luz e outras radiações eletromagnéticas para levar essa luz ou radiação a um ponto focal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Bell X-1",
+      "descricao": "Avião-foguete americano com o qual Chuck Yeager superou a velocidade do som em voo nivelado em 1947."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o piloto Chuck Yeager, a bordo do avião-foguete Bell X-1, voou oficialmente mais rápido que o som pela primeira vez?",
+    "resposta": "1947",
+    "distratores": [
+      "1939",
+      "1953",
+      "1961"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bell_X-1",
+      "https://en.wikipedia.org/wiki/Chuck_Yeager"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bell_X-1",
+        "situacao": "ok",
+        "texto": "The Bell X-1 (Bell Model 44) is a rocket engine–powered aircraft, designated originally as the XS-1, and was a joint National Advisory Committee for Aeronautics–U.S. Army Air Forces–U.S. Air Force supersonic research project built by Bell Aircraft. Conceived during 1944 and designed and built in 1945, it achieved a speed of nearly 1,000 miles per hour (1,600 km/h; 870 kn) in 1948.\n[…]\nA derivative of this same design, the Bell X-1A, having greater fuel capacity and hence longer rocket burning time, exceeded 1,600 miles per hour (2,600 km/h; 1,400 kn) in 1954. The X-1 aircraft #46-062, nicknamed Glamorous Glennis and flown by Chuck Yeager, was the first piloted airplane to exceed the speed of sound in level flight and was the first of the X-planes, a series of American experimental rocket planes (and non-rocket planes) designed for testing new technologies.\n[…]\nAfter Woolams died while practicing for the National Air Races in August 1946, Chalmers \"Slick\" Goodlin was assigned as the primary Bell Aircraft test pilot for the X-1. Goodlin made the first powered flight on 9 December 1946. Tex Johnston, Bell's chief test pilot and program supervisor, made a test flight on 22 May 1947, after complaints about the slow progress of flight tests.\n[…]\nThe first manned supersonic flight occurred on 14 October 1947, over the Mojave Desert in California, less than a month after the U.S. Air Force had been created as a separate service. Captain Charles \"Chuck\" Yeager piloted USAF aircraft #46-062, nicknamed Glamorous Glennis for his wife. The airplane was drop launched from the bomb bay of a B-29 and reached Mach 1.06 (700 miles per hour; 1,100 km/h; 610 kn). Following burnout of the engine, the plane glided to a landing on the dry lake bed.\n[…]\nCrew: 1\n[…]\nModeller's Guide to Bell X-1 Experimental Aircraft Part one, Part two\n[…]\nX-1 is Carried Aloft; Cockpit of the Bell X-1 – Popular Science"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chuck_Yeager",
+        "situacao": "ok",
+        "texto": "Charles Elwood Yeager ( YAY-gər, February 13, 1923 – December 7, 2020) was a United States Air Force officer, flying ace, and record-setting test pilot who in October 1947 became the first pilot in history confirmed to have exceeded the speed of sound in level flight.\n[…]\nAfter the war, Yeager became a test pilot and flew many types of aircraft, including experimental rocket-powered aircraft for the National Advisory Committee for Aeronautics (NACA). Through the NACA program, he became the first human to officially break the sound barrier on October 14, 1947, when he flew the experimental Bell X-1 at Mach 1.05 at an altitude of 45,000 ft (13,700 m), for which he won both the Collier and Mackay trophies in 1948.\n[…]\nYeager broke the sound barrier on October 14, 1947, in level flight while piloting the X-1 Glamorous Glennis at Mach 1.05 at an altitude of 45,000 ft (13,700 m) over the Rogers Dry Lake of the Mojave Desert in California. The success of the mission was not announced to the public for nearly eight months, until June 10, 1948. Yeager was awarded the Mackay Trophy and the Collier Trophy in 1948 for his mach-transcending flight, and the Harmon International Trophy in 1954.\n[…]\nIn 1973, Yeager was inducted into the National Aviation Hall of Fame, arguably aviation's highest honor. In 1974, Yeager received the Golden Plate Award of the American Academy of Achievement. In December 1975, the U.S. Congress awarded Yeager a silver medal \"equivalent to a noncombat Medal of Honor ... for contributing immeasurably to aerospace science by risking his life in piloting the X-1 research airplane faster than the speed of sound on October 14, 1947\".\n[…]\nAirport Journals' \"Chuck Yeager: Booming And Zooming\" Part 1 and Part 2\n[…]\nChuck Yeager discography at Discogs"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bell_X-1",
+        "situacao": "ok",
+        "texto": "Bell X-1, originalmente designado como XS-1 - é um avião supersônico experimental construído pela Bell Aircraft Corporation para a Força Aérea dos Estados Unidos em 1947, e que se tornou no primeiro avião a superar a velocidade do som.\n[…]\nÉ o primeiro avião da família X-planes, uma série de aeronaves experimentais dos Estados Unidos, construídas com o objetivo de testar novas tecnologias e geralmente mantidas sob sigilo.\n[…]\nEm 14 de outubro de 1947, tornou-se o primeiro avião a superar a velocidade do som, pilotado pelo capitão da Força Aérea dos Estados Unidos Charles \"Chuck\" Yeager. Neste voo, o de número 50 do X-1, foi atingido Mach 1,05.\n[…]\nO X-1 era lançado de um bombardeiro B-29 modificado. Após a separação, eram acionados motores de foguete (Reaction Motors XLR-11, na primeira versão), capazes de levar a aeronave a um voo supersônico.\n[…]\nX-1 (XS-1)\n[…]\n#1 - 46-062 - Glamorous Glennis, 82 voos\n[…]\n#3 - 46-064, 1 voo\n[…]\nX-1E, (modificação do X-1 #2), 46-063, 27 voos\n[…]\nJATO (decolagem com propulsão extra fornecida por foguetes).\n[…]\nZLTO (lançamento de aviões anexados a foguetes).\n[…]\nMiller, Jay. The X-Planes: X-1 to X-45, Hinckley, UK: Midland, 2001. ISBN 1-85780-109-1\n[…]\nYeager, Chuck and Leo Janos. Yeager: An Autobiography. New York: Bantam, 1986. ISBN 0-553-25674-2",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Elétron",
+      "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Qual destas partículas subatômicas foi descoberta primeiro?",
+    "resposta": "Elétron",
+    "distratores": [
+      "Próton",
+      "Nêutron",
+      "Pósitron"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Electron",
+      "https://en.wikipedia.org/wiki/Proton",
+      "https://en.wikipedia.org/wiki/Neutron"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Electron",
+        "situacao": "ok",
+        "texto": "The electron (e−, or β− in nuclear reactions) is a subatomic particle whose electric charge is negative one elementary charge. It is an elementary particle contained in the matter that makes up the universe.\n[…]\nThe suffix -on which is now used to designate other subatomic particles, such as a proton or neutron, is in turn derived from electron.\n[…]\nWith the development of the particle accelerator during the first half of the twentieth century, physicists began to delve deeper into the properties of subatomic particles. The first successful attempt to accelerate electrons using electromagnetic induction was made in 1942 by Donald Kerst. His initial betatron reached energies of 2.3 MeV, while subsequent betatrons achieved 300 MeV. In 1947, synchrotron radiation was discovered with a 70 MeV electron synchrotron at General Electric.\n[…]\nIn the Standard Model of particle physics, electrons belong to the group of subatomic particles called leptons, which are believed to be fundamental or elementary particles. Electrons have the lowest mass of any charged lepton (or electrically charged particle of any type) and belong to the first generation of fundamental particles.\n[…]\nElectrons have an electric charge of −1.602176634×10−19 C, which is used as a standard unit of charge for subatomic particles, and is also called the elementary charge. Within the limits of experimental accuracy, the electron charge is identical to the charge of a proton, but with the opposite sign.\n[…]\nElectron and positron beams are collided upon the particles' accelerating to the required energies; particle detectors observe the resulting energy emissions, which particle physics studies.\n[…]\n\"Particle Data Group\". University of California."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Proton",
+        "situacao": "ok",
+        "texto": "A proton is a stable subatomic particle, symbol p, H+, or 1H+ with a positive electric charge of +1 e (elementary charge). Its mass is slightly less than the mass of a neutron and approximately 1836 times the mass of an electron (the proton-to-electron mass ratio). Protons and neutrons, each with a mass of approximately one dalton, are jointly referred to as nucleons (particles present in atomic n\n[…]\nFollowing the discovery of the atomic nucleus by Ernest Rutherford in 1913, Antonius van den Broek proposed that the place of each element in the periodic table (its atomic number) is equal to its nuclear charge. Van den Broek speculated that the nucleus contained alpha particles with four positive charges and two electrons, the first version of the nuclear-electron hypothesis. (The modern model of two positive protons and two neutrons would take many years to discover).\n[…]\nThe ion produced by removing the electron from a deuterium atom is known as a deuteron, not a proton. Likewise, removing an electron from a tritium atom produces a triton.\n[…]\nThe Apollo Lunar Surface Experiments Packages (ALSEP) determined that more than 95% of the particles in the solar wind are electrons and protons, in approximately equal numbers.\n[…]\nDuring the lunar night, the spectrometer was shielded from the solar wind by the Moon and no solar wind particles were measured.\n[…]\nCPT-symmetry puts strong constraints on the relative properties of particles and antiparticles and, therefore, is open to stringent tests. For example, the charges of a proton and antiproton must sum to exactly zero. This equality has been tested to one part in 108. The equality of their masses has also been tested to better than one part in 108. By holding antiprotons in a Penning trap, the equality of the charge-to-mass ratio of protons and antiprotons has been tested to one part in 6×109.\n[…]\nParticle Data Group at LBL"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Neutron",
+        "situacao": "ok",
+        "texto": "A neutron is a subatomic particle, symbol n or n0, that has no electric charge, and a mass slightly greater than that of a proton. The neutron was discovered by James Chadwick in 1932, leading to the discovery of nuclear fission in 1938, the first self-sustaining nuclear reactor (Chicago Pile-1, 1942), and the first nuclear weapon (Trinity, 1945).\n[…]\nThe story of the discovery of the neutron and its properties is central to the extraordinary developments in atomic physics that occurred in the first half of the 20th century, leading ultimately to the atomic bomb in 1945. The name derives from the Latin root for neutralis (neuter) and the Greek suffix -on (a suffix used in the names of subatomic particles, e.g. electron and proton)\n[…]\nThe Standard Model of particle physics predicts a tiny separation of positive and negative charge within the neutron leading to a permanent electric dipole moment. But the predicted value is well below the current sensitivity of experiments. From several unsolved puzzles in particle physics, it is clear that the Standard Model is not the final and full description of all particles and their interactions.\n[…]\nFree neutrons are unstable, although they have the longest half-life of any unstable subatomic particle by several orders of magnitude. Their half-life is still only about 10 minutes, so they can be obtained only from sources that produce them continuously.\n[…]\nThe neutron's lack of total electric charge makes it difficult to steer or accelerate them. Charged particles can be accelerated, decelerated, or deflected by electric or magnetic fields. These methods have little effect on neutrons. But some effects may be attained by use of inhomogeneous magnetic fields because of the neutron's magnetic moment. Neutrons can be controlled by methods that include moderation, reflection, and velocity selection."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/El%C3%A9tron",
+        "situacao": "ok",
+        "texto": "O elétron(pt-BR) ou eletrão(pt-PT?) (do grego ήλεκτρον, élektron, \"âmbar\") é uma partícula elementar, de símbolo e− ou β−, com carga elétrica negativa. Pertence à primeira geração da família dos léptons, e considera-se que são partículas elementares porque não possuem componentes conhecidos. A massa do elétron é aproximadamente 1/1836 da massa do próton. As propriedades quânticas do elétron inclue\n[…]\nNo início do século XX, foi descoberto que sob certas condições uma partícula carregada se movimentando rapidamente causava a condensação de vapor de água supersaturada ao longo do seu caminho. Em 1911, Charles Wilson empregou este princípio para criar a câmara de nuvens para que pudesse fotografar os caminhos destas partículas, tais como os elétrons em alta velocidade.\n[…]\nEsta partícula foi descoberta em 1932 por Carl Anderson, que sugeriu chamar os elétrons padrões de negatrons, e usar o elétron como um termo genérico para descrever ambas as variantes carregadas negativamente e positivamente.\n[…]\nA primeira tentativa bem sucedida de acelerar elétrons usando a indução eletromagnética foi feita em 1942 por Donald Kerst. Seu betatron inicial alcançou a energia de 2,3 MeV, enquanto betatrons subsequentes alcançaram 300 MeV. Em 1947, a radiação síncrotron foi descoberta com um elétron síncroton de 70 MeV pela General Electric. Esta radiação foi causada pela aceleração de elétrons, movendo-se próximos a velocidade da luz através do campo magnético.\n[…]\nNo modelo padrão da física de partículas, os elétrons pertencem ao grupo de partículas subatômicas chamadas de léptons, o qual se acredita ser uma partícula elementar ou fundamental. Os elétrons tem a menor massa de um lépton carregado (ou partícula eletricamente carregada de qualquer tipo) e pertencem à primeira geração de partículas fundamentais.\n[…]\nPresume-se que elétrons e pósitrons são criados no horizonte de eventos destas estrelas restantes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Uma Breve História do Tempo",
+      "descricao": "Livro de divulgação científica de Stephen Hawking sobre cosmologia, publicado em 1988."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O best-seller Uma Breve História do Tempo, em que Stephen Hawking explica o universo para leigos, foi lançado em que década?",
+    "resposta": "Anos oitenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Brief_History_of_Time"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Time",
+        "situacao": "ok",
+        "texto": "A Brief History of Time: From the Big Bang to Black Holes is a book on cosmology by the physicist Stephen Hawking, first published in 1988.\n[…]\nThe book became a bestseller and has sold more than 25 million copies in 40 languages. It was included on Time's list of the 100 best nonfiction books since the magazine's founding. Errol Morris made a documentary, A Brief History of Time (1991) which combines material from Hawking's book with interviews featuring Hawking, his colleagues, and his family.\n[…]\nHawking conceded the bet as evidence for black holes proved overwhelming.\n[…]\nHawking suggests the no boundary proposal: that the universe is finite but has no beginning in imaginary time. It might merely exist.\n[…]\n1994, A brief history of time – An interactive adventure. A CD-Rom with interactive video material created by S. W. Hawking, Jim Mervis, and Robit Hairman (available for Windows 95, Windows 98, Windows ME, and Windows XP).\n[…]\n\"Stephen Hawking's Pocket Universe: A Brief History of Time Revisited\" is based on the book. The app was developed by Preloaded for Transworld publishers, a division of the Penguin Random House group.\n[…]\nA Brief History of Time was included on Time magazine's list of the 100 best nonfiction books since the magazine's founding. Jeffrey Kluger wrote:  The genius of Hawking was to understand that while people weren't losing much sleep over such matters as event horizons, space-time geodesics and stellar contraction, they were deeply, primally interested in such questions as \"Why does the universe go to all the bother of existing?\" as he elegantly put it.\n[…]\nPhotos of the first edition of A Brief History of Time"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Uma_Breve_Hist%C3%B3ria_do_Tempo",
+        "situacao": "ok",
+        "texto": "Uma Breve História do Tempo: do Big Bang aos Buracos Negros (título original, em inglês \"A Brief History of Time: From the Big Bang to Black Holes\") (Lisboa: Gradiva, ISBN 972-662-010-4 ; 1988; Rio de Janeiro: Rocco,  ISBN 85-325-0252-0 ; 1988), é um livro de divulgação científica escrito pelo Professor Stephen Hawking, publicado pela primeira vez em 1988.\n[…]\nExplica vários temas de Cosmologia, incluindo a Teoria do Big Bang, os buracos negros, os cones de luz e a Teoria das Supercordas ao leitor não especialista no tema. Seu principal objetivo é dar uma visão geral do tema mas, não usual para um livro de divulgação, também tenta explicar algo de matemáticas complexas.\n[…]\nEle rapidamente veio a se tornar um \"best-seller\". Em maio de 1995 entrou na lista do The Sunday Times entre os mais vendidos durante 237 semanas, batendo o record de 184 semanas e sendo citado no Livro Guinness dos Records de 1998. Também está registrado o feito de que a edição se publicou em 6 de abril de 1995 e alcançou o primeiro lugar entre os mais vendido em três dias. Até abril de 1993 haviam-se publicado 40 edições de capa dura nos Estados Unidos e 39 no Reino Unido.\n[…]\nEm Setembro de 2005, saiu a venda o livro Brevíssima História do Tempo, em colaboração com Leonard Mlodinow, uma versão condensada do original; foi atualizado para tratar novos temas surgidos por novas investigações científicas no campo.\n[…]\nO documentário, A Brief History of Time, dirigido por Errol Morris e realizado em 1992, diferentemente do livro, é primeiramente uma biografia de Stephen Hawking.\n[…]\nNo filme \"Donnie Darko\", passagens do livro são usadas para discutir a possibilidade de viagens no tempo. O filme também se passa no ano de 1988.\n[…]\nNo filme \"A Teoria de Tudo\", mostra-se Stephen Hawking editando e publicando o livro.\n[…]\nUma Nova História do Tempo\n[…]\nO Universo numa Casca de Noz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Balão de ar quente",
+      "descricao": "Aeronave mais leve que o ar que voa graças ao ar aquecido dentro de um grande envelope de tecido."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Um balão de ar quente dos irmãos Montgolfier levou pessoas ao céu pela primeira vez, em Paris, em que século?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+      "https://en.wikipedia.org/wiki/Hot_air_balloon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "situacao": "ok",
+        "texto": "The Montgolfier brothers – Joseph-Michel Montgolfier (French: [ʒozɛf miʃɛl mɔ̃ɡɔlfje]; 26 August 1740 – 26 June 1810) and Jacques-Étienne Montgolfier ([ʒak etjɛn mɔ̃ɡɔlfje]; 6 January 1745 – 2 August 1799) – were aviation pioneers, balloonists and paper manufacturers from the commune Annonay in Ardèche, France. They invented the Montgolfière-style hot air balloon, globe aérostatique, which launche\n[…]\nÉtienne Montgolfier was the first human to lift off the Earth in a balloon, making a tethered test flight from the yard of the Réveillon workshop in the Faubourg Saint-Antoine, most likely on 15 October 1783. A little while later on that same day, physicist Pilâtre de Rozier became the second to ascend into the air, to an altitude of 25 metres (82 ft), which was the length of the tether.\n[…]\nOn 21 November 1783, the first free flight by humans was made by Pilâtre de Rozier, together with an army officer, the marquis d'Arlandes. The flight began from the grounds of the Château de la Muette close to the Bois de Boulogne park in the western outskirts of Paris. They flew about 900 metres (3,000 ft) above Paris for a distance of nine kilometers. After 25 minutes, the balloon landed between the windmills, outside the city ramparts, on the Butte-aux-Cailles.\n[…]\nOn 1 December 1783, a few months after the Montgolfiers' first flight, Jacques Alexandre César Charles rose to an altitude of about 3 km (1.9 mi) near Paris in a hydrogen-filled balloon he had developed.\n[…]\nThe Montgolfier Company in Annonay still exists under the name Canson. It produces fine art papers, school drawing papers and digital fine art and photography papers sold in 150 countries.\n[…]\nIn 1983, the Montgolfier brothers were inducted into the International Air & Space Hall of Fame at the San Diego Air & Space Museum.\n[…]\nAdélaïde de Montgolfier\n[…]\n\"Lighter than air: the Montgolfier brothers\"\n[…]\n\"Balloons and the Montgolfier brothers\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+        "situacao": "ok",
+        "texto": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker basket (in some long-distance or high-altitude balloons, a capsule), which carries passengers and a source of heat, in most cases an open flame caused by burning liquid propane. The heated air inside the envelope makes it buoyant, since it ha\n[…]\nThe hot air balloon is the first successful human-carrying flight technology. The first untethered manned hot air balloon flight in the world was performed in Paris, France, by Jean-François Pilâtre de Rozier and François Laurent d'Arlandes on November 21, 1783, in a balloon created by the Montgolfier brothers. Hot air balloons that can be propelled through the air rather than simply drifting with the wind are known as thermal airships.\n[…]\nThe French brothers Joseph-Michel and Jacques-Étienne Montgolfier developed a hot-air balloon in Annonay, Ardèche, France, and demonstrated it publicly on September 19, 1783, making an unmanned flight lasting 10 minutes.\n[…]\nStandard hot air balloons are known as Montgolfier balloons and rely solely on the buoyancy of hot air provided by the burner and contained by the envelope. This style of balloon was developed by the Montgolfier brothers and had its first public demonstration on 4 June 1783 with an unmanned flight lasting 10 minutes, followed later that year with manned flights.\n[…]\nThe most effective way of landing a hot air balloon is to reduce the energy in the envelope, either by turning down the flame in Montgolfier and hybrid balloons, or more directly by opening a flap in the envelope that will release the air/gas inside.\n[…]\n2025 Santa Catarina hot air balloon crash: On 21 June 2025, a hot air balloon crashed after catching fire in Praia Grande, Santa Catarina, Brazil, killing 8 of the 21 people on board.\n[…]\nHot Air Balloon Web Links"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Irm%C3%A3os_Montgolfier",
+        "situacao": "ok",
+        "texto": "Os Irmãos Montgolfier: Joseph-Michel (Annonay, 26 de agosto de 1740 — Balaruc-les-Bains, 26 de junho de 1810) e Jacques-Étienne (Annonay, 6 de janeiro de 1745 — Neuchâtel, 2 de agosto de 1799), foram dois irmãos inventores franceses, que construíram o primeiro balão tripulado do Mundo, que elevou Étienne aos céus em 5 de junho de 1783.\n[…]\nAo que se sabe, Étienne Montgolfier foi o primeiro ser humano a levantar voo do solo, fazendo no mínimo um voo seguro por cordas do pátio da oficina de Réveillon no subúrbio de Paris conhecido como Faubourg Saint-Antoine, na provável date de 15 de outubro de 1783. Mais tarde naquele mesmo dia, Pilâtre de Rozier tornou-se o segundo ser humano a voar num balão atingindo cerca de 24 m de altitude, que era o comprimento da corda.\n[…]\nEm 21 de novembro de 1783, ocorreu o primeiro voo livre de seres humanos num balão, executado por Pilâtre juntamente com o oficial do exército, marquês d'Arlandes. O voo partiu das terras do castelo de la Muette (perto do parque Bois de Boulogne), lado Oeste de Paris. Eles voaram por 9 km a cerca de 910 m acima de Paris, depois de 25 minutos, o aparelho pousou entre os moinhos de Butte-aux-Cailles, tendo o voo sido abreviado por um princípio de incêndio no tecido que recobria o balão.\n[…]\nAs \"provas\" de que o invento dos Montgolfier teria sido apenas a aplicação prática do aeróstato inventado por Gusmão, ficam por conta de que após a fuga dele para a Espanha (devido à \"Inquisição\"), ele deixou seus planos inventivos com seu irmão e notável cientista Alexandre de Gusmão. Fontes alegam que quando Alexandre esteve em Paris, manteve estreitas relações de amizade com o cientista José de Barros, o qual por sua vez era amigo pessoal dos Montgolfier e lhes teria passado essas informações.\n[…]\nBalão\n[…]\nBalão de ar quente\n[…]\n\"Balloons and the Montgolfier brothers\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Balão de ar quente",
+      "descricao": "Aeronave mais leve que o ar que voa graças ao ar aquecido dentro de um grande envelope de tecido."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Sem motor nem hélice, por que um balão de ar quente consegue subir?",
+    "resposta": "O ar quente é menos denso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hot_air_balloon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+        "situacao": "ok",
+        "texto": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker basket (in some long-distance or high-altitude balloons, a capsule), which carries passengers and a source of heat, in most cases an open flame caused by burning liquid propane. The heated air inside the envelope makes it buoyant, since it ha\n[…]\nThe hot air balloon is the first successful human-carrying flight technology. The first untethered manned hot air balloon flight in the world was performed in Paris, France, by Jean-François Pilâtre de Rozier and François Laurent d'Arlandes on November 21, 1783, in a balloon created by the Montgolfier brothers. Hot air balloons that can be propelled through the air rather than simply drifting with the wind are known as thermal airships.\n[…]\nThe French brothers Joseph-Michel and Jacques-Étienne Montgolfier developed a hot-air balloon in Annonay, Ardèche, France, and demonstrated it publicly on September 19, 1783, making an unmanned flight lasting 10 minutes.\n[…]\nStandard hot air balloons are known as Montgolfier balloons and rely solely on the buoyancy of hot air provided by the burner and contained by the envelope. This style of balloon was developed by the Montgolfier brothers and had its first public demonstration on 4 June 1783 with an unmanned flight lasting 10 minutes, followed later that year with manned flights.\n[…]\nThe most effective way of landing a hot air balloon is to reduce the energy in the envelope, either by turning down the flame in Montgolfier and hybrid balloons, or more directly by opening a flap in the envelope that will release the air/gas inside.\n[…]\n2025 Santa Catarina hot air balloon crash: On 21 June 2025, a hot air balloon crashed after catching fire in Praia Grande, Santa Catarina, Brazil, killing 8 of the 21 people on board.\n[…]\nHot Air Balloon Web Links"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bal%C3%A3o_de_ar_quente",
+        "situacao": "ok",
+        "texto": "O balão de ar quente é o mais velho veículo aéreo da história da humanidade. O primeiro voo controlado de um balão de ar quente foi levado a cabo pelos franceses Jean-François Pilâtre de Rozier e François Laurent d'Arlandes no dia 21 de novembro de 1783, em Paris, num balão criado pelos irmãos Montgolfier.\n[…]\nOs irmãos Joseph-Ralf e Jacques-Étienne Montgolfier descobriram que o fumo de uma fogueira fazia insuflar um saco de seda. Então, a 5 de Julho de 1783, desenvolveram um balão de ar quente em Annonay, Ardeche, em França, realizando um voo não tripulado que durou 10 minutos.\n[…]\nO aventureiro russo Fedor Konyoukhov bateu em 23 de julho de 2016 o recorde da volta ao mundo em balão de ar quente ou em solitário. A sua viagem demorou 11 dias, menos dois do que o recorde anterior, de Steve Fosset.\n[…]\nAumentar a temperatura do ar dentro do envelope faz com que o mesmo fique menos denso que o ar no exterior do envelope. Devido a este efeito, o balão \"flutua\". Esta força é exactamente a mesma que é exercida aos objectos quando se encontram na água, e pode-se descrever como impulsão. A quantidade de impulsão resulta da diferença entre a temperatura interior e exterior. Para a maior parte dos envelopes de nylon, a temperatura máxima do ar seu interior é de 120 graus Celsius.\n[…]\nAlém disso, por cada 1 000 metros de altitude, o balão perde 3% do seu poder de impulsão.\n[…]\nOs balões de ar quente mais comuns são os balões Montgolfier, cujo único sistema de elevação advém exclusivamente ao aquecer o ar dentro do envelope através do queimador. Este estilo de balão foi desenvolvido pelos irmãos Montgolfier, tendo ocorrido a primeira demonstração deste tipo no dia 4 de Junho de 1783, com um voo não tripulado de 10 minutos. Mais tarde naquele mesmo ano, os irmãos efectuaram vários voos tripulados.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Fissão nuclear",
+      "descricao": "Divisão do núcleo de um átomo pesado em núcleos menores, com liberação de energia, descoberta em 1938."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1938, que químico alemão descobriu a fissão nuclear com Fritz Strassmann e depois recebeu sozinho o Nobel de Química?",
+    "resposta": "Otto Hahn",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Otto_Hahn",
+      "https://en.wikipedia.org/wiki/Nuclear_fission"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Otto_Hahn",
+        "situacao": "ok",
+        "texto": "Otto Hahn (German: [ˈɔtoː ˈhaːn] ; 8 March 1879 – 28 July 1968) was a German chemist who was a pioneer in the field of radiochemistry. He is referred to as the father of nuclear chemistry and discoverer of nuclear fission, the science behind nuclear reactors and nuclear weapons. Hahn and Lise Meitner discovered isotopes of the radioactive elements radium, thorium, protactinium and uranium.\n[…]\nHe also discovered the phenomena of atomic recoil and nuclear isomerism, and pioneered rubidium–strontium dating. In 1938, Hahn, Meitner and Fritz Strassmann discovered nuclear fission, for which Hahn alone was awarded the 1944 Nobel Prize in Chemistry.\n[…]\nHahn is considered the father of radiochemistry and nuclear chemistry. He is chiefly remembered for the discovery of nuclear fission, the basis of nuclear power and nuclear weapons. Glenn Seaborg wrote that \"it has been given to very few men to make contributions to science and to humanity of the magnitude of those made by Otto Hahn\". His award of the 1944 Nobel Prize for Chemistry was in recognition for this discovery.\n[…]\nObjects named after Hahn include:\n[…]\nNS Otto Hahn, the only European nuclear-powered civilian ship (1964);\n[…]\nOtto Hahn on Nobelprize.org  including the Nobel Lecture on 13 December 1946 From the Natural Transmutations of Uranium to Its Artificial Fission\n[…]\nOtto Hahn and the Discovery of Nuclear Fission Archived 1 February 2014 at the Wayback Machine BR, 2008\n[…]\nOtto Hahn – Discoverer of Nuclear Fission Author: Dr. Anne Hardy (Pro-Physik, 2004)\n[…]\nOtto Hahn (1879–1968) – The discovery of fission Visit Berlin, 2011.\n[…]\nOtto Hahn – Discoverer of nuclear fission\n[…]\nOtto Hahn Award\n[…]\nOtto Hahn Medal\n[…]\nBiography Otto Hahn 1879–1968\n[…]\nOtto Hahn – Discoverer of nuclear fission, grandfather of the Atombomb GMX, Switzerland, 17 December 2013. Author: Marinus Brandl.\n[…]\nNewspaper clippings about Otto Hahn in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nuclear_fission",
+        "situacao": "ok",
+        "texto": "Nuclear fission is a reaction in which the nucleus of an atom splits into two or more smaller nuclei. The fission process often produces neutrons and gamma rays, and releases a very large amount of energy even by the energetic standards of radioactive decay. The free energy released by the fission of one uranium-235 atom is about 100 million times the energy released by burning one carbon atom in \n[…]\nNuclear fission was discovered by chemists Otto Hahn and Fritz Strassmann and physicists Lise Meitner and Otto Robert Frisch. Hahn and Strassmann proved that a fission reaction had taken place on 19 December 1938, and Meitner and her nephew Frisch explained it theoretically in January 1939. Frisch named the process \"fission\" by analogy with biological fission of living cells.\n[…]\nAfter the Fermi publication, Otto Hahn, Lise Meitner, and Fritz Strassmann began performing similar experiments in Berlin. Meitner, an Austrian Jew, lost her Austrian citizenship with the Anschluss, the union of Austria with Germany in March 1938, but she fled in July 1938 to Sweden and started a correspondence by mail with Hahn in Berlin.\n[…]\nBy coincidence, her nephew Otto Robert Frisch, also a refugee, was also in Sweden when Meitner received a letter from Hahn dated 19 December describing his chemical proof that some of the product of the bombardment of uranium with neutrons was barium. Hahn suggested a bursting of the nucleus, but he was unsure of what the physical basis for the results were.\n[…]\nThe 6 January 1939 Hahn and Strassman paper announced the discovery of fission. In their second publication on nuclear fission in February 1939, Hahn and Strassmann used the term Uranspaltung (uranium fission) for the first time, and predicted the existence and liberation of additional neutrons during the fission process, opening up the possibility of a nuclear chain reaction.\n[…]\nNuclear fusion\n[…]\nNuclear Fission Animation"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Otto_Hahn",
+        "situacao": "ok",
+        "texto": "Otto Hahn (Frankfurt am Main, 8 de março de 1879 — Göttingen, 28 de julho de 1968) foi um químico alemão, estudioso da radiação. Lise Meitner, sua colega, e Otto Frisch, sobrinho de Lise, publicaram a descoberta do que chamaram de \"Fissão Nuclear \", mas Otto Hahn era pressionado pelo regime nazista para tirar Lise Meitner, sua amiga judia de longa data de estudos científicos relacionados à radiaçã\n[…]\nEm seu discurso, mal mencionou o papel fundamental de Lise e estranhamente, mesmo depois da Segunda Guerra Mundial, Otto Hahn continuava a afirmar que foi ele, e não Meitner, que descobriu a fissão nuclear, processo radioativo responsável para a fabricação de bombas atômicas e usinas nucleares para a geração de energia termoelétrica.\n[…]\nEm 1918, juntamente com Meitner, descobriu o elemento químico protactínio. Quando Meitner fugiu da Alemanha Nazista em 1938, continuou seu trabalho com Fritz Straßmann na elucidação dos produtos resultantes do bombardeamento do urânio com neutrons térmicos. Comunicou os resultados obtidos a Meitner que, com a colaboração do seu sobrinho Otto Frisch, interpretou corretamente as evidências para o desenvolvimento da fissão nuclear.\n[…]\nDurante a Segunda Guerra Mundial Hahn foi um participante do projeto de energia nuclear alemão para o desenvolvimento de uma arma nuclear sob a liderança de Werner Heisenberg. Durante a guerra, Hahn foi laureado com o Nobel de Química de 1944, porém no momento da entrega do prêmio o apresentador anunciou: \"Professor Hahn nos informou que lamentavelmente está incapacitado para comparecer a esta cerimônia\". No final da Guerra foi capturado pelas Forças Aliadas e levado para a Inglaterra.\n[…]\nO primeiro cargueiro de propulsão nuclear recebeu o nome de NS Otto Hahn em sua homenagem.\n[…]\nDeutsche Welle - 1938: Otto Hahn descobre a fissão nuclear do urânio\n[…]\nOtto Hahn - winner of the Enrico Fermi Award U.S. Government, Department of Energy",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Termômetro de mercúrio",
+      "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata com o calor, criado no início do século dezoito."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No início do século dezoito, que fabricante de instrumentos inventou o termômetro de mercúrio e criou a escala de temperatura usada nos Estados Unidos?",
+    "resposta": "Daniel Gabriel Fahrenheit",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+      "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+        "situacao": "ok",
+        "texto": "The mercury-in-glass or mercury thermometer is a thermometer that uses the thermal expansion and contraction of liquid mercury to indicate the temperature.\n[…]\nIn 1713, Daniel Gabriel Fahrenheit began experimenting with mercury thermometers. By 1717, he was making them commercially. The superiority of his mercury thermometers over alcohol-based thermometers made them very popular, leading to the widespread adoption of his Fahrenheit scale, the measurement system he developed and used for his thermometers.\n[…]\nMercury thermometers cover a wide temperature range from −37 to 356 °C (−35 to 673 °F); the instrument's upper temperature range may be extended through the introduction of an inert gas such as nitrogen. This introduction of an inert gas increases the pressure on the liquid mercury and therefore its boiling point is increased, this in combination with replacing the Pyrex glass with fused quartz allows the upper temperature range to be extended to 800 °C (1,470 °F).\n[…]\nMercury cannot be used below the temperature at which it becomes solid, −38.83 °C (−37.89 °F). If the thermometer contains nitrogen, the gas may flow down into the column when the mercury solidifies and be trapped there when the temperature rises, making the thermometer unusable until returned to the factory for reconditioning. To avoid this, some weather services require that all mercury-in-glass thermometers be brought indoors when the temperature falls to −37 °C (−35 °F).\n[…]\nDespite the phasing-out of mercury thermometers in the United Kingdom, British media continues to refer to temperature measurements, especially for weather forecasts, as \"the mercury\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+        "situacao": "ok",
+        "texto": "Daniel Gabriel Fahrenheit FRS (24 May 1686 – 16 September 1736) was a physicist, inventor, and scientific instrument maker. He was born in Poland to a family of German origin, although he spent much of his life in the Dutch Republic. Fahrenheit significantly improved the design and manufacture of thermometers; his were accurate and consistent enough that different observers, each with their own Fa\n[…]\nFahrenheit is also credited with producing the first successful mercury-in-glass thermometers, which were more accurate than the spirit-filled thermometers of his time and of a generally superior design. The popularity of his thermometers also led to the widespread adoption of his Fahrenheit scale, with which they were provided.\n[…]\nFahrenheit was born in Danzig (Gdańsk), then in the Polish–Lithuanian Commonwealth. The Fahrenheits were a German Hanse merchant family who had lived in several Hanseatic cities. Fahrenheit's great-grandfather had lived in Rostock, and research suggests that the Fahrenheit family originated in Hildesheim. Daniel's grandfather Reinhold Fahrenheit moved from Kneiphof in Königsberg (then in the Duchy of Prussia) to Danzig and settled there as a merchant in 1650.\n[…]\nHis son, Daniel Fahrenheit (the father of Daniel Gabriel), married Concordia Schumann, the daughter of a well-known Danzig business family. Daniel was the eldest of the five Fahrenheit children (two sons, three daughters) who survived childhood. His sister, Virginia Elisabeth Fahrenheit, married Benjamin Krüger and was the mother of Benjamin Ephraim Krüger, a clergyman and playwright.\n[…]\nFahrenheit began experimenting with mercury thermometers in 1713. Also by this time, Fahrenheit was using a modified version of Rømer's scale for his thermometers which would later evolve into his own Fahrenheit scale. In 1714, Fahrenheit left Danzig for Berlin and Dresden to work closely with the glass-blowers there."
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Experimento de Cavendish",
+      "descricao": "Experimento de 1798 com uma balança de torção que mediu a atração gravitacional entre esferas e permitiu calcular a densidade da Terra."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Usando uma balança de torção, que cientista inglês ficou conhecido por ter, em 1798, pesado a Terra?",
+    "resposta": "Henry Cavendish",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cavendish_experiment"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cavendish_experiment",
+        "situacao": "ok",
+        "texto": "The Cavendish experiment, performed in 1797–1798 by English scientist Henry Cavendish, was the first experiment to measure the force of gravity between masses in the laboratory and the first to yield accurate values for the gravitational constant. Because of the unit conventions then in use, the gravitational constant does not appear explicitly in Cavendish's work. Instead, the result was original\n[…]\nThe experiment was devised sometime before 1783 by the English geologist John Michell, who constructed a torsion balance apparatus for it. However, Michell died in 1793 without completing the work. After his death the apparatus passed to Francis John Hyde Wollaston and then to Cavendish, who rebuilt it, but kept close to Michell's original plan.\n[…]\nTo find the wire's torsion coefficient, the torque exerted by the wire for a given angle of twist, Cavendish timed the natural oscillation period of the balance rod as it rotated slowly clockwise and counterclockwise against the twisting of the wire. For the first 3 experiments the period was about 15 minutes and for the next 14 experiments the period was half of that, about 7.5 minutes. The period changed because after the third experiment Cavendish put in a stiffer wire.\n[…]\nThe accuracy of Cavendish's result was not exceeded until C. V. Boys' experiment in 1895. In time, Michell's torsion balance became the dominant technique for measuring the gravitational constant (G) and most contemporary measurements still use variations of it.\n[…]\nof the balance. The torque is\n[…]\nCavendish’s experiment in the Feynman Lectures on Physics\n[…]\n\"Big 'G'\", Physics Central, retrieved Dec. 8, 2013. Experiment at Univ. of Washington to measure the gravitational constant using variation of Cavendish method.\n[…]\nModel of Henry Cavendish's Torsion Balance Gravitational Apparatus, 1798, retrieved 10 February 2026, Science Museum Group."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Experimento_de_Cavendish",
+        "situacao": "ok",
+        "texto": "O experimento de Cavendish, realizado originalmente entre 1797 e 1798 por Henry Cavendish, baseado no trabalho de seu amigo John Michell, teve como objetivo determinar o valor da densidade da Terra, usando medições da força de atração entre massas. Os resultados de seu experimento foram publicados na Philosophical Transactions of the Royal Society, em 1798.\n[…]\nO experimento foi projetado um pouco antes de 1783 por John Michell, que construiu uma balança de torção para isso. Porém, Michell morreu em 1793 sem completar seu trabalho. Após sua morte, o aparelho foi passado para Francis John Hyde Wollaston e, então, para Henry Cavendish que reconstruiu o aparelho mas o manteve próximo do plano original de Michell.\n[…]\nÉ comum encontrar livros que, erroneamente, descrevem o trabalho de Cavendish como uma medição da constante gravitacional (G) ou da massa da Terra. Esse erro foi apontado por vários autores. Na realidade, o objetivo de Cavendish era medir a densidade da Terra. Mais tarde, outras pessoas usaram seus resultados para calcular G. A primeira vez que essa constante foi usada foi em 1873, quase 100 anos depois do experimento de Cavendish.\n[…]\nOs resultados de Cavendish também possibilitaram calcular a massa da Terra e ajudaram a confirmar a teoria da gravitação universal.\n[…]\nO dispositivo construído por Cavendish era uma balança de torção feita de um bastão de madeira, com 6 pés (1,83 m) de comprimento, suspenso por um fio, e em cada extremidade foi colocada uma esfera de chumbo com um diâmetro de 2 polegadas (51 mm) e peso de 1,61 libras (0,73 kg). Próximo a cada esfera foram posicionadas duas bolas de chumbo de 12 polegadas (300 mm) e 348 libras (158 kg), a uma distância cerca de 9 polegadas (230 mm), prendidas no lugar com um sistema de suspensão independente.\n[…]\nBalança de torção",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Modelo atômico de Thomson",
+      "descricao": "Modelo de átomo de 1904, apelidado de pudim de passas, com elétrons espalhados numa esfera de carga positiva."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O modelo atômico apelidado de pudim de passas, em que os elétrons ficam espalhados numa bola de carga positiva, foi proposto por qual físico britânico?",
+    "resposta": "J. J. Thomson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plum_pudding_model"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Plum_pudding_model",
+        "situacao": "ok",
+        "texto": "The plum pudding model is an obsolete scientific model of the atom. It was first proposed by J. J. Thomson in 1904 following his discovery of the electron in 1897, and was rendered obsolete by Ernest Rutherford's discovery of the atomic nucleus in 1911. The model tried to account for two properties of atoms then known: that there are electrons, and that atoms have no net electric charge.\n[…]\nThomson's model is popularly referred to as the \"plum pudding model\" with the notion that the electrons are distributed uniformly like raisins in a plum pudding. Neither Thomson nor his colleagues ever used this analogy. It seems to have been coined by popular science writers to make the model easier to understand for the layman. The analogy is perhaps misleading because Thomson likened the positive sphere to a liquid rather than a solid since he thought the electrons moved around in it.\n[…]\nPrimarily focused on the electrons, Thomson adopted the positive sphere from Kelvin's atom model  proposed a year earlier.\n[…]\nIn his 1910 paper, Thomson proposed an alternative model in which the positive charge exists in discrete units separated by empty space, with those units being evenly distributed throughout the atom's volume.\n[…]\nThe Thomson problem in mathematics seeks the optimal distribution of equal point charges on the surface of a sphere. Unlike the original Thomson atomic model, the sphere in this purely mathematical model does not have a charge, and this causes all the point charges to move to the surface of the sphere by their mutual repulsion. There is still no general solution to Thomson's original problem of how electrons arrange themselves within a sphere of positive charge.\n[…]\nThe first known writer to compare Thomson's model to a plum pudding was an anonymous reporter in an article for the British pharmaceutical magazine The Chemist and Druggist in August 1906."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Modelo_at%C3%B4mico_de_Thomson",
+        "situacao": "ok",
+        "texto": "Modelo atômico de Thomson é a teoria sobre a estrutura atômica proposta por Joseph John Thomson, descobridor do elétron e da relação entre a carga e a massa do elétron, antes do descobrimento do próton ou do nêutron.\n[…]\nContinuando o experimento, colocou-se um imã de polo  negativo e os raios catódicos repeliu, através dessa experimentação descobriu que existia partículas chamadas elétrons e o átomo era divisível por cargas positivas (prótons) e negativas (elétrons).\n[…]\nAcreditava-se que os elétrons distribuíam-se uniformemente no átomo. Em outras oportunidades, postulava-se que no lugar de uma sopa de carga positiva seria uma nuvem de carga negativa.\n[…]\nO modelo atômico de Joseph John Thomson teve experimentos, por volta de 1897, na qual foram estudadas descargas elétricas em tubos semelhantes a tubos de lâmpadas fluorescentes, chamados de tubos de raios catódicos (o mesmo tipo de raio usado em monitores e televisões antigas), dentro dos quais, havia gases rarefeitos (em baixa pressão).\n[…]\nAlém disso, como qualquer partícula com carga elétrica em movimento acelerado emite radiação eletromagnética, o modelo tinha como outra hipótese que os modos normais das oscilações dos elétrons deveriam ter as mesmas frequências que aquelas que se observavam associadas às raias dos espectros atômicos.\n[…]\nMas não foi encontrada qualquer configuração para os elétrons de qualquer átomo cujos modos normais tivessem qualquer uma das frequências, mas, o modelo de Thomson foi abandonado principalmente devido aos resultados do experimento de Rutherford.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Deus não joga dados",
+      "descricao": "Frase atribuída a Albert Einstein, numa carta a Max Born de 1926, expressando sua desconfiança do acaso na mecânica quântica."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Desconfiado do papel do acaso na mecânica quântica, que físico escreveu numa carta a Max Born que Deus não joga dados?",
+    "resposta": "Albert Einstein",
+    "fonte": [
+      "https://en.wikiquote.org/wiki/Albert_Einstein",
+      "https://en.wikipedia.org/wiki/Bohr–Einstein_debates"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikiquote.org/wiki/Albert_Einstein",
+        "situacao": "ok",
+        "texto": "From Wikiquote, the free quote compendium\n[…]\nThis quote does not actually appear in Albert Einstein: The Human Side as is sometimes claimed.\n[…]\nA Google Books search with the date range restricted to 1900-1990 shows only a handful in the 1980s and 1970s, and several of them attribute it to The Metaphoric Mind by Bob Samples (1976), which also seems to be the earliest published variant. Samples does not provide an exact quote, but writes on p. 26: \"Albert Einstein called the intuitive or metaphoric mind a sacred gift. He added that the rational mind was a faithful servant.\n[…]\nSome people have reported that Einstein was quite a good musician, but others weren't so enthusiastic. A professional violinist claimed he \"fiddled like a lumberjack\"; a famous pianist playing with him demanded, \"For heaven's sake Albert, can't you count?\"; and a music critic in Berlin, thinking Einstein was famous for his violin playing rather than physics, judged that \"Einstein's playing is excellent, but he does not deserve world fame; there are many others just as good.\"\n[…]\nWe all love life it is like a car with Humans inside it and at every stop we unload a passenger to the grave, and as Albert Einstein said life is like riding a bicycle to maintain your balance you must keep moving, and the response to this saying is that as lon as death comes, movement does not come from the human being.~~ June 20, 2025\n[…]\nAlbert Einstein Archive at the University of Jerusalem\n[…]\nRetrieved from \" https://en.wikiquote.org/w/index.php?title=Albert_Einstein&oldid=4028289 \""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bohr–Einstein_debates",
+        "situacao": "ok",
+        "texto": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics.\n[…]\nBoth Einstein and Schrödinger rejected Born's interpretation, with its renunciation of causality which had been a key feature of science still present in general relativity. In a 1926 letter to Max Born, Einstein wrote:\n[…]\nThe second phase of Einstein's \"debate\" with Bohr and the orthodox interpretation is characterized by an acceptance of the fact that it is, as a practical matter, impossible to simultaneously determine the values of certain incompatible quantities, but the rejection that this implies that these quantities do not actually have precise values. Einstein rejects the probabilistic interpretation of Born and insists that quantum probabilities are epistemic and not ontological in nature.\n[…]\nBohr's response to this argument was published, five months later than the original publication of EPR, in the same magazine Physical Review and with exactly the same title as the original. The crucial point of Bohr's answer is distilled in a passage which he later had republished in Paul Arthur Schilpp's book Albert Einstein, scientist-philosopher in honor of the seventieth birthday of Einstein. Bohr attacks assumption (R) of EPR by stating:\n[…]\nBolles, Edmund Blair (2004) Einstein Defiant, Joseph Henry Press, Washington, D.C.\n[…]\nBorn, M. (1973) The Born Einstein Letters, Walker and Company, New York, 1971.\n[…]\nSchilpp, P.A., (1958) Albert Einstein: Philosopher-Scientist, Northwestern University and Southern Illinois University, Open Court, 1951."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Debates_Bohr%E2%80%93Einstein",
+        "situacao": "ok",
+        "texto": "Os debates Bohr-Einstein foram uma série de disputas públicas sobre mecânica quântica entre Albert Einstein e Niels Bohr. Seus debates são lembrados por sua importância para a filosofia da ciência, uma vez que as divergências e o resultado da versão da mecânica quântica de Bohr, que se tornou a visão predominante, formam a raiz da compreensão moderna da física.\n[…]\nA maior parte da versão de Bohr dos eventos ocorridos em Solvay em 1927 e em outros lugares foi escrita pela primeira vez por Bohr décadas depois em um artigo intitulado \"Discussões com Einstein sobre Problemas Epistemológicos na Física Atômica\". Com base no artigo, a questão filosófica do debate era se a Interpretação de Copenhague da mecânica quântica de Bohr, centrada em sua crença de complementaridade, era válida para explicar a natureza.\n[…]\nApesar de suas diferenças de opinião e das sucessivas descobertas que ajudaram a solidificar a mecânica quântica, Bohr e Einstein mantinham uma admiração mútua que duraria o resto de suas vidas.\n[…]\nOs debates representam um dos pontos mais altos da pesquisa científica na primeira metade do século XX porque chamaram a atenção para um elemento da teoria quântica, a não-localidade quântica, que é central para nossa compreensão moderna do mundo físico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Sobre ombros de gigantes",
+      "descricao": "Metáfora sobre o progresso do conhecimento, imortalizada numa carta de Isaac Newton a Robert Hooke."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Numa carta ao rival Robert Hooke, que cientista escreveu que, se viu mais longe, foi por estar sobre ombros de gigantes?",
+    "resposta": "Isaac Newton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants",
+        "situacao": "ok",
+        "texto": "The phrase \"standing on the shoulders of giants\" is a metaphor which means \"using the understanding gained by major thinkers who have gone before in order to make intellectual progress\".\n[…]\nIt is a metaphor of a person who wants to reach higher, standing on the shoulders of giants (Latin: nani gigantum humeris insidentes) and expresses the meaning of \"discovering truth by building on previous discoveries\". This concept has been dated to the 12th century and, according to John of Salisbury, is attributed to Bernard of Chartres.\n[…]\nIts most familiar and popular expression occurs in a 1675 letter by Isaac Newton: \"if I have seen further [than others], it is by standing on the shoulders of giants.\"\n[…]\nIsaac Newton remarked in a letter to his rival Robert Hooke written in 5 February 1675 and published in 1855:\n[…]\nRobert King Merton, one of the 'founding fathers' of sociology, titled a book On the Shoulders of Giants: A Shandean Postscript. In it, he traces the history of Newton's famous comment \"If I have seen farther, it is by standing on the shoulders of giants\" back to centuries earlier, in the rambling style of Laurence Sterne's The Life and Opinions of Tristram Shandy, Gentleman.\n[…]\nThe British two pound coin bears the inscription STANDING ON THE SHOULDERS OF GIANTS on its edge.\n[…]\nStephen Hawking stated: \"Each generation stands on the shoulders of those who have gone before them, just as I did as a young PhD student in Cambridge, inspired by the work of Isaac Newton, James Clerk Maxwell and Albert Einstein.\" Additionally, Hawking wrote a book called On the Shoulders of Giants, which explores the major works of physics and astronomy that inspired him."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sobre_os_ombros_de_gigantes",
+        "situacao": "ok",
+        "texto": "A metáfora dos anões estarem sobre ombros de gigantes (em latim: nanos gigantum humeris insidentes) expressa o significado de \"descobrir a verdade a partir das descobertas anteriores\". Esse conceito tem origem no século XII, e é atribuído a Bernardo de Chartres. Seu uso mais conhecido procede de Isaac Newton, que escreveu em 1675: \"Se eu vi mais longe, foi por estar sobre ombros de gigantes.\"\n[…]\nMais tarde, no século XVII, George Herbert, em seu Jacula Prudentum (1651), escreveu: \"Um anão sobre os ombros de um gigante vê mais longe entre os dois.\"\n[…]\nIsaac Newton comentou em uma carta a seu rival Robert Hooke, datada de 5 de fevereiro de 1676:O que Des-Cartes  [sic] fez foi um bom passo. Você contribuiu muito de várias formas, especialmente tomando as cores de placas finas em consideração filosófica. Se eu vi mais longe foi por estar sobre ombros [sic] (\"sholders\" [sic]) de gigantes.Isso foi recentemente interpretado por alguns autores como um comentário sarcástico dirigido à aparência de Hooke.\n[…]\nA moeda britânica de duas libras traz a inscrição STANDING ON THE SHOULDERS OF GIANTS em sua borda, como uma citação de Isaac Newton.\n[…]\nNos ombros de gigantes, é o nome de uma compilação editada por Stephen Hawking das obras de Nicolau Copérnico, Galileu Galilei, Johannes Kepler, Isaac Newton e Albert Einstein. Em 2017, Hawking declarou: \"Cada geração está sobre os ombros daqueles que vieram antes, assim como eu fiz quando era estudante de doutorado em Cambridge, inspirado pela obra de Isaac Newton, James Clerk Maxwell e Albert Einstein.\"\n[…]\nA banda de rock americana R.E.M. usa a frase \"Estar sobre os ombros de gigantes me deixa com frio\" (\"Standing on the shoulders of giants leaves me cold\") na letra da música \"King of Birds\", do seu quinto álbum de estúdio, Document.\n[…]\nCASINI, Paolo. Newton e a consciência europeia. São Paulo: UNESP, 1995. 253p. ((Biblioteca basica))",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Dê-me um ponto de apoio e moverei o mundo",
+      "descricao": "Frase atribuída pela tradição a Arquimedes, sobre o poder da alavanca."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, que sábio grego, falando sobre o poder da alavanca, disse: dê-me um ponto de apoio e moverei o mundo?",
+    "resposta": "Arquimedes",
+    "fonte": [
+      "https://en.wikiquote.org/wiki/Archimedes",
+      "https://en.wikipedia.org/wiki/Lever"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikiquote.org/wiki/Archimedes",
+        "situacao": "ok",
+        "texto": "From Wikiquote, the free quote compendium"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lever",
+        "situacao": "ok",
+        "texto": "A lever is a simple machine consisting of a beam or rigid rod pivoted at a fixed hinge or fulcrum. A lever is a rigid body capable of rotating on a point on itself. On the basis of the locations of fulcrum, load, and effort, the lever is divided into three types. It is one of the six simple machines identified by Renaissance scientists."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alavanca",
+        "situacao": "ok",
+        "texto": "Na física, a alavanca é um objeto rígido que é usado com um ponto fixo apropriado (fulcro) para multiplicar a força mecânica que pode ser aplicada a um outro objeto (resistência). Isto é denominado também vantagem mecânica, e é um exemplo do princípio dos momentos. O princípio da força de alavanca pode também ser analisado usando as leis de Newton. A alavanca é uma das seis máquinas simples.\n[…]\nO princípio da  alavanca foi descoberto por Arquimedes no século III a.C., estudando as máquinas \"arquimedianas\": alavanca, roldana, e parafuso.\n[…]\nA força aplicada em pontos de extremidade da alavanca é proporcional à relação do comprimento do braço de alavanca medido entre o fulcro e o ponto da aplicação da força aplicada em cada extremidade da alavanca.\n[…]\nA equação fundamental das alavancas é:\n[…]\nFr é a força potente do centro de apoio\n[…]\nBR é a distância da força resistente do centro de apoio\n[…]\nA balança de dois pratos é uma alavanca interfixa, pois seu ponto fixo fica\n[…]\nPara que, em uma alavanca, ocorra equilíbrio entre os lados, o produto do braço pela força resultante deve ser igual em ambas as extremidades.\n[…]\nO peso P representa a resistência aplicada no ponto B, o ponto O é o ponto de apoio (fulcro) e a força representa a potência aplicada no ponto A.\n[…]\ncom relação ao ponto O é tal que faz girar o sistema no sentido horário e depende do módulo da força peso e da distância\n[…]\ncom relação ao ponto O é tal que faz girar o sistema no sentido anti-horário e depende do módulo da força peso e da distância\n[…]\nonde o ponto fixo fica entre a força resistente (\n[…]\ninter-resistente ou de segunda classe\n[…]\n) e o ponto fixo:\n[…]\nQuando o ponto de apoio está situado entre os pontos de aplicação de força e o objeto a ser movimentado, onde a força potente (\n[…]\n) e o ponto fixo:\n[…]\nMomento de alavanca",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Relógio de pêndulo",
+      "descricao": "Relógio que usa um pêndulo para marcar o tempo, inventado em 1656."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1656, que cientista construiu o primeiro relógio de pêndulo, muito mais preciso que os relógios anteriores?",
+    "resposta": "Christiaan Huygens",
+    "distratores": [
+      "Galileu Galilei",
+      "Robert Hooke",
+      "Isaac Newton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pendulum_clock",
+      "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pendulum_clock",
+        "situacao": "ok",
+        "texto": "A pendulum clock is a clock that uses a swinging weight known as a pendulum as its timekeeping element. The pendulum is an approximate harmonic oscillator that swings in a time interval that depends on its length, and that resists swinging at other rates. From its invention in 1656 by Christiaan Huygens, inspired by Galileo Galilei, until the 1930s, the pendulum clock was the world's most precise \n[…]\nThe pendulum clock was invented on 25 December 1656 by Dutch scientist and inventor Christiaan Huygens. The invention was patented the following year. Huygens described it in his manuscript Horologium (1658). Huygens contracted the construction of his clock to Salomon Coster.\n[…]\nIn this Huygens concluded that it was best to create a clock with a cycloid shape rather than a circular shape, so the clock would oscillate in the same time regardless of amplitude. Clockmakers' realization that only pendulums with small swings of a few degrees are isochronous motivated the invention of the anchor escapement by Robert Hooke around 1658, which reduced the pendulum's swing to 4–6°. The anchor became the standard escapement used in pendulum clocks.\n[…]\nIn addition to increased accuracy, the anchor's narrow pendulum swing allowed the clock's case to accommodate longer, slower pendulums, which needed less power and caused less wear on the movement.The seconds pendulum (also called the Royal pendulum), 0.994 m (39.1 in) long, in which the time period is two seconds, became widely used in quality clocks. Huygens took this the creation of the pendulum clock a step further and in 1675 added the spiral balance spring.\n[…]\nIn the 1920s the Shortt-Synchronome briefly became the highest standard for timekeeping in observatories before quartz clocks superseded pendulum clocks as precision time standards.\n[…]\nFlying pendulum clock\n[…]\nSteam clock\n[…]\nComputer-Aided Design and Kinematic Simulation of Huygens's Pendulum Clock"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
+        "situacao": "ok",
+        "texto": "Christiaan Huygens, Lord of Zeelhem (14 April 1629 – 8 July 1695) was a Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution. In physics, Huygens made seminal contributions to optics and mechanics, while as an astronomer he studied the rings of Saturn and discovered its largest moon, Titan.\n[…]\nHuygens never married.\n[…]\nHuygens had worked out the laws of collision from 1652 to 1656 in a manuscript entitled De Motu Corporum ex Percussione, though his results took many years to be circulated. In 1661, he passed them on in person to William Brouncker and Christopher Wren in London. What Spinoza wrote to Henry Oldenburg about them in 1666, during the Second Anglo-Dutch War, was guarded. The war ended in 1667, and Huygens announced his results to the Royal Society in 1668.\n[…]\nHuygens's principle\n[…]\nHuygens's lemniscate\n[…]\nWorks by Christiaan Huygens at Project Gutenberg:\n[…]\nWorks by or about Christiaan Huygens at the Internet Archive\n[…]\nWorks by Christiaan Huygens at LibriVox (public domain audiobooks)\n[…]\nClerke, Agnes Mary (1911). \"Huygens, Christiaan\" . Encyclopædia Britannica. Vol. 14 (11th ed.). pp. 21–22.\n[…]\nCorrespondence of Christiaan Huygens at Early Modern Letters Online\n[…]\nDe Ratiociniis in Ludo Aleae or The Value of all Chances in Games of Fortune, 1657 Christiaan Huygens's book on probability theory. An English translation published in 1714. Text pdf file.\n[…]\nThe Correspondence of Christiaan Huygens in EMLO\n[…]\nChristiaan Huygens biography and achievements\n[…]\nPortraits of Christiaan Huygens\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Christiaan Huygens\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nChristiaan Huygens on the 25 Dutch Guilder banknote of the 1950s. Archived 13 December 2011 at the Wayback Machine\n[…]\nChristiaan Huygens at the Mathematics Genealogy Project\n[…]\nHow to pronounce \"Huygens\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rel%C3%B3gio_de_p%C3%AAndulo",
+        "situacao": "ok",
+        "texto": "Relógio de pêndulo é um mecanismo para medida do tempo baseado na regularidade da oscilação (isocronismo) de um pêndulo.\n[…]\nA regularidade no movimento de um pêndulo foi estudada por Galileu Galilei no século XVI, mas a invenção do relógio de pêndulo é atribuída a Christiaan Huygens em 1656, na cidade de Haia, Holanda. A fabricação começou em 1657 por obra de artesãos holandeses e teve rápida difusão.\n[…]\nA partir do século XX, este instrumento foi superado em precisão pelo relógio a quartzo e depois pelo relógio atômico, mas continua a ter certo emprego pelo seu valor estético e artístico.\n[…]\nPara um relógio de pêndulo ser um medidor de tempo preciso, a amplitude do movimento deve ser mantida constante apesar de as perdas por atrito afetarem todo o sistema mecânico. Variações na amplitude, tão pequenas quanto 4° ou 5°, fazem um relógio adiantar cerca de 15 segundos por dia, o que não é tolerável mesmo num relógio caseiro.\n[…]\nEm 1665, Christiaan Huygens observou, quando estava doente em casa, que o movimento dos pêndulos de dois relógios, pendurados numa trave, era sincronizado. Qualquer que fosse a posição de partida, os pêndulos mantinham-se em 'oposição de fase': um pêndulo ia para a esquerda enquanto o outro ia para a direita.\n[…]\nA explicação para o fenómeno surgiu em 2015, pela mão de uma equipa de investigadores portugueses: a troca de impulsos sonoros faz com que o movimento de dois pêndulos de relógios, colocados lado a lado, esteja automaticamente sincronizado.\n[…]\nUm pêndulo de um relógio, \"num dado ponto do ciclo\", transfere energia a outro através de impulsos sonoros.\n[…]\nRelógio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Hemisférios de Magdeburgo",
+      "descricao": "Par de hemisférios de cobre usado por Otto von Guericke para demonstrar a força da pressão atmosférica sobre o vácuo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Otto von Guericke mostrou a força do vácuo com dois hemisférios de metal que parelhas de cavalos não conseguiam separar. Eles levam o nome de que cidade alemã?",
+    "resposta": "Magdeburgo",
+    "distratores": [
+      "Berlim",
+      "Hamburgo",
+      "Colônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magdeburg_hemispheres"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magdeburg_hemispheres",
+        "situacao": "ok",
+        "texto": "The Magdeburg hemispheres are a pair of large copper hemispheres with mating rims that were used in a famous 1654 experiment to demonstrate the power of atmospheric pressure. When the rims were sealed with grease and the air was pumped out, the sphere contained a vacuum and could not be pulled apart by teams of horses. Once the valve was opened, air rushed in and the hemispheres were easily separa\n[…]\nThe Magdeburg hemispheres were invented by German scientist and mayor of Magdeburg, Otto von Guericke, to demonstrate the air pump that he had invented and the concept of atmospheric pressure.\n[…]\nThe Magdeburg hemispheres, around 50 cm (20 inches) in diameter, were designed to demonstrate the vacuum pump that Guericke had invented. One of them had a tube connection to attach the pump, with a valve to close it off. When the air was sucked out from inside the hemispheres, and the valve was closed, the hose from the pump could be detached, and they were held firmly together by the air pressure of the surrounding atmosphere.\n[…]\nGuericke's demonstration was performed on 8 May 1654 in front of the Imperial Diet, and the Emperor Ferdinand III in Regensburg. Thirty horses, in two teams of fifteen, could not separate the hemispheres until the valve was opened to equalize the air pressure. In 1656 he repeated the demonstration with sixteen horses (two teams of eight) in his hometown of Magdeburg, where he was mayor. He also took the two spheres, hung the two hemispheres with a support, and removed the air from within.\n[…]\nMagdeburg Hemispheres Archived 2021-02-27 at the Wayback Machine\n[…]\nMagdeburg Notgeld (emergency banknote) depicting two teams of horses attempting to separate the halves of a Magdeburg Hemisphere. http://webgerman.com/Notgeld/Directory/M/Magdeburg3.htm"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hemisf%C3%A9rios_de_Magdeburgo",
+        "situacao": "ok",
+        "texto": "Os \"hemisférios de Magdeburgo\" são um par de grandes hemisférios metálicos projetados no século XVII para demonstrar de forma dramática o efeito da pressão atmosférica a objetos com vácuo em seu interior. O experimento foi concebido por Otto Von Guericke, físico alemão e burgomestre da cidade de Magdeburgo, que também foi o inventor de uma das primeiras bombas de vácuo moderna, também conhecida co\n[…]\nNo experimento clássico, duas metades esféricas de cobre ou bronze eram unidas de forma hermética com um aro de vedação e o ar era evacuado com uma bomba de vácuo, gerando pressão interna significativamente menor do que a pressão atmosférica externa. Quando equipes de cavalos foram atreladas para tentar separar os dois hemisférios, nem mesmo esses animais de tamanha força foram capazes de realizar a separação.\n[…]\nO vácuo se mantinha, evidenciando a força da pressão do ar sobre a superfície externa dos corpos.\n[…]\nA demonstração tornou-se um marco histórico na física experimental, sendo usada como ilustração didática dos efeitos da pressão atmosférica e dos princípios dos vácuos. Originalmente realizada em público, com grande espetáculo, a experiência ajudou a consolidar a compreensão dos conceitos de vácuo e pressão na ciência do século.\n[…]\nPares de hemisférios originais podem ser encontrados em acervos museológicos, como no Deutsches Museum em Munique, na Alemanha, e réplicas modernas são frequentemente utilizadas em aulas de física como ferramenta de demonstração experimental.\n[…]\nHemisfério de Magdeburgo - www.cienciamao.if.usp.br ; uma prática de reprodução em pequena escala da experiência dos hemisférios de Magdeburgo de Otto von Guericke.\n[…]\nHemisférios de Magdeburgo - museu.fis.uc.pt\n[…]\nHemisférios de Magdeburgo - www.cbpf.br\n[…]\nGrandes descobertas - Otto von Gericke e o vácuo - Observatório Nacional - www.on.br",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Bóson",
+      "descricao": "Classe de partículas, como o fóton e o bóson de Higgs, cujo nome homenageia o físico indiano Satyendra Nath Bose."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As partículas chamadas bósons, como o famoso bóson de Higgs, devem seu nome a um físico nascido em que país?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boson",
+      "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boson",
+        "situacao": "ok",
+        "texto": "In particle physics, a boson ( ) is a subatomic particle whose spin quantum number has an integer value (0, 1, 2, ...). The class of bosons is one of the two fundamental classes of subatomic particle, the other being fermions, which have half odd-integer spin (1/2, 3/2, 5/2, ...). Every observed subatomic particle is either a boson or a fermion.\n[…]\nPaul Dirac coined the term boson to classify the fundamental particles that obey Bose–Einstein statistics, the quantum framework pioneered by Satyendra Nath Bose.\n[…]\nSome bosons are elementary particles occupying a special role in particle physics, distinct from the role of fermions (which are sometimes described as the constituents of \"ordinary matter\"). Certain elementary bosons (e.g. gluons) act as force carriers, which give rise to forces between other particles, while one (the Higgs boson) contributes to the phenomenon of mass. Other bosons, such as mesons, are composite particles made up of smaller constituents.\n[…]\nAccording to the Standard Model of Particle Physics there are five elementary bosons:\n[…]\nH0 Higgs boson – the particle that contributes to the phenomenon of mass via the Higgs mechanism\n[…]\nComposite particles (such as hadrons, nuclei, and atoms) can be bosons or fermions depending on their constituents. Since bosons have integer spin and fermions half odd-integer spin, any composite particle made up of an even number of fermions is a boson (e.g., 1/2 + 1/2 + 1/2 + 1/2 = 2 for the three quarks and an electron in a hydrogen atom).\n[…]\nAs quantum particles, the behaviour of multiple indistinguishable bosons at high densities is described by Bose–Einstein statistics. One characteristic which becomes important in superfluidity and other applications of Bose–Einstein condensates is that there is no restriction on the number of bosons that may occupy the same quantum state."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose",
+        "situacao": "ok",
+        "texto": "Satyendra Nath Bose (; 1 January 1894 – 4 February 1974) was an Indian theoretical physicist and mathematician. He is best known for his work on quantum mechanics in the early 1920s, in developing the foundation for Bose–Einstein statistics, and the theory of the Bose–Einstein condensate. A Fellow of the Royal Society, he was awarded India's second highest civilian award, the Padma Vibhushan, in 1\n[…]\nThe eponymous particles class described by Bose's statistics, bosons, were named by Paul Dirac.\n[…]\nBose was born in Calcutta (now Kolkata), the eldest of seven children in a Bengali Kayastha family. Bose's father was Surendra Nath. Bose's mother was (Smt.) Amodini Debi. Surendra was an accountant and worked in East India Railways. Bose was the only son, with six sisters after him. His ancestral home was in the village Bara Jagulia, in the district of Nadia, in the Bengal Presidency. His schooling began at the age of five, near his home.\n[…]\nWhen the partition of India became imminent (1947), he returned to Calcutta (now known as Kolkata) and taught there until 1956. He insisted every student design their own equipment using local materials and local technicians. He was made professor emeritus on his retirement. He then became Vice-Chancellor of Visva-Bharati University in Santiniketan. He returned to the University of Calcutta to continue research in nuclear physics and complete earlier works in organic chemistry.\n[…]\nIn 1937, Rabindranath Tagore dedicated his only book on science, Visva–Parichay, to Satyendra Nath Bose. Bose was honoured with the title Padma Vibhushan by the Indian Government in 1954. In 1959, he was appointed as the National Professor, the highest honour in the country for a scholar, a position he held for 15 years. In 1986, the S.N. Bose National Centre for Basic Sciences was established by an act of Parliament, Government of India, in Salt Lake, Calcutta."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/B%C3%B3son",
+        "situacao": "ok",
+        "texto": "O bóson (português brasileiro) ou bosão (português europeu) é uma partícula que possui spin inteiro (em unidades de\n[…]\n) e obedece à estatística de Bose-Einstein. Ele tem este nome em homenagem ao físico indiano Satyendra Nath Bose. Entre os exemplos de bósons estão as partículas elementares, como o fóton, o glúon, o bóson de Higgs, e partículas compostas, como mésons e núcleos atômicos estáveis, como o hélio-4.\n[…]\nAssim sendo, não se podem distinguir partículas cujas características sejam idênticas se se aproximam muito uma da outra, porque então não se pode identificá-las pela trajetória, já que para pontos muitos próximos, dependendo da velocidade, os pontos já não são discerníveis. A relação matemática que rege essa indeterminação fundamental é a relação da incerteza de Heisenberg:\n[…]\nDentro desse entendimento, a distribuição de Boltzmann não é mais válida, senão como aproximação. Verificou-se que as distribuições válidas para partículas com carácter manifestamente quântico, são as seguintes:\n[…]\nA primeira é válida para partículas de spin semi-inteiro ( 1/2, 3/2, 5/2...),em unidades de\n[…]\n, ou seja, para os férmions, ao passo que a segunda é a distribuição válida para partículas de spin inteiro (0,1,2,3...), ou seja, para os bósons, assunto deste artigo.\n[…]\nPode-se explicar qualitativa e sucintamente, de forma simplificada, que os bósons podem ter as suas funções de onda explicitadas separadamente em coordenadas espaciais e nas coordenadas de spin. A função de onda para os bósons são funções simétricas perante a inversão simultânea das coordenadas espaciais e das coordenadas de spin.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Decibel",
+      "descricao": "Unidade logarítmica usada para medir o nível de intensidade sonora, décima parte do bel."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O decibel, unidade usada para medir o volume dos sons, tem esse nome em homenagem a que inventor?",
+    "resposta": "Alexander Graham Bell",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Decibel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Decibel",
+        "situacao": "ok",
+        "texto": "The decibel (symbol: dB) is a relative unit of measurement equal to one tenth of a bel (B). It expresses the ratio of two values of a power or root-power quantity on a logarithmic scale. Two signals whose levels differ by one decibel have a power ratio of 101/10 (approximately 1.26) or root-power ratio of 101/20 (approximately 1.12).\n[…]\nThe definition of the decibel originated in the measurement of transmission loss and power in telephony of the early 20th century in the Bell System in the United States. The bel was named in honor of Alexander Graham Bell, but the bel is seldom used. Instead, the decibel is used for a wide variety of measurements in science and engineering, most prominently for sound power in acoustics, in electronics and control theory.\n[…]\nIn 1924, Bell Telephone Laboratories received a favorable response to a new unit definition among members of the International Advisory Committee on Long Distance Telephony in Europe and replaced the MSC with the Transmission Unit (TU). 1 TU was defined such that the number of TUs was ten times the base-10 logarithm of the ratio of measured power to a reference power. The definition was conveniently chosen such that 1 TU approximated 1 MSC; specifically, 1.056 MSC was 1 TU.\n[…]\nIn 1928, the Bell system renamed the TU as the decibel, being one tenth of a newly defined unit for the base-10 logarithm of the power ratio. It was named the bel, in honor of the telecommunications pioneer Alexander Graham Bell. The bel is seldom used, as the decibel was the proposed working unit.\n[…]\nmB(mW) – power relative to 1 milliwatt, in millibels (one hundredth of a decibel). 100 mBm = 1 dBm. This unit is in the Wi-Fi drivers of the Linux kernel and the regulatory domain sections.\n[…]\nWhat is a decibel? With sound files and animations\n[…]\nWorking with Decibels (RF signal and field strengths)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Decibel",
+        "situacao": "ok",
+        "texto": "O decibel (símbolo: dB) é uma unidade de medida relativa, adimensional, correspondente à décima parte de um bel (símbolo: B), que expressa o rácio de uma grandeza física (geralmente energia ou intensidade) em relação a um nível de referência especificado ou implícito, expressa numa escala logarítmica de base 10 (log10). Um valor em dB expressa a relação entre dois valores de um nível de potência o\n[…]\nO bel (símbolo: B) é uma unidade de medida adimensional, que compara a intensidade de um sinal a um nível de referência. Recebe este nome em homenagem ao físico Alexander Graham Bell. O cálculo é mais frequente em decibel.\n[…]\nA definição do decibel originou-se na medição da perda de transmissão e potência na telefonia do início do século XX no Bell System dos Estados Unidos. O bel foi assim designado em homenagem a Alexander Graham Bell, mas o bel raramente é usado. Em vez disso, o decibel é usado para uma ampla variedade de medições em ciência e engenharia, mais frequentemente em acústica, eletrónica e teoria de controlo.\n[…]\nO nome da nova unidade é uma homenagem ao pioneiro das telecomunicações Alexander Graham Bell. Dada a sua maior adequação aos valores geralmente medidos, o decibel foi a unidade de trabalho proposta, sendo por isso o bel raramente usado.\n[…]\nO bel (símbolo B) é uma unidade de medida de razões. Ele é principalmente usado nas telecomunicações, eletrônica, e acústica. Foi inventado por engenheiros do Bell Labs para quantificar a redução no nível acústico sobre um cabo telefônico padrão com 1 milha de comprimento. Originalmente era chamado de unidade de transmissão ou TU, mas foi renomeado entre 1923 e 1924 em homenagem ao fundador do laboratório Alexander Graham Bell.\n[…]\nEntretanto, no Brasil, o Decreto Federal No. 81.621 de 3 de maio de 1978 (Anexo 3.2), sobre o Quadro Geral de Unidades de Medidas, estabelece que a forma legal do plural de decibel é decibels.\n[…]\nVolume (som)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Luigi Galvani",
+      "descricao": "Médico e físico italiano do século dezoito que estudou a eletricidade nos músculos de rãs."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que verbo, usado tanto para o ferro revestido de zinco quanto para entusiasmar uma plateia, vem do sobrenome de um cientista italiano do século dezoito?",
+    "resposta": "Galvanizar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galvanization",
+      "https://en.wikipedia.org/wiki/Luigi_Galvani"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Galvanization",
+        "situacao": "ok",
+        "texto": "Galvanization (also spelled galvanisation) is the process of applying a protective zinc coating to steel or iron, to prevent rusting. The most common method is hot-dip galvanizing, in which the parts are coated by submerging them in a bath of hot, molten zinc.\n[…]\nThe process is named after the Italian physician, physicist, biologist and philosopher Luigi Galvani (9 September 1737 – 4 December 1798). The earliest known example of galvanized iron was discovered on an Indian armour in the Royal Armouries Museum collection in the United Kingdom, known from inscriptions to be earlier than the 1680s\n[…]\nHot dip galvanized steel is also used for making steel frames as a basic construction material for steel frame buildings.\n[…]\nIn the early 20th century, galvanized piping swiftly took the place of previously used cast iron and lead in cold-water plumbing. Galvanized piping rusts from the inside out, building up layers of plaque on the inside of the piping, causing both water pressure problems and eventual pipe failure. These plaques can flake off, leading to visible impurities in water and a slight metallic taste.\n[…]\nThe life expectancy of galvanized piping is about 40–50 years, but it may vary on how well the pipes were built and installed. Pipe longevity also depends on the thickness of zinc in the original galvanizing, which ranges on a scale from G01 to G360.\n[…]\nIn the case of automobile bodies, where additional decorative coatings of paint will be applied, a thinner form of galvanizing is applied by electrogalvanizing. Electrogalvanized sheet steel is often used in automotive manufacturing to enhance the corrosion performance of exterior body panels; this tends to achieve lower coating thicknesses of zinc compared to hot-dip galvanization."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Luigi_Galvani",
+        "situacao": "ok",
+        "texto": "Luigi Galvani ( gal-VAH-nee, US also  gahl-; Italian: [luˈiːdʒi ɡalˈvaːni]; Latin: Aloysius Galvanus; 9 September 1737 – 4 December 1798) was an Italian physician, physicist, biologist and philosopher who studied animal electricity. In 1780, using a frog, he discovered that the muscles of dead frogs' legs twitched when struck by an electrical spark. This was an early study of bioelectricity, follo\n[…]\nLuigi Galvani was born to goldsmith Domenico Galvani and Barbara Caterina Foschi, in Bologna, then part of the Papal States. A portion of his childhood home still stands in the Giardino Salvatore Pincherle. As a teenager, he regularly attended the Oratory of Saint Philip Neri of Bologna, where he developed a strong religious sentiment that later prompted him to join the Third Order of Saint Francis.\n[…]\nThe asteroid 10184 Galvani in the main asteroid belt, discovered in 1996 by Eric Walter Elst at the La Silla Observatory, was also named in his honour.\n[…]\nBrown, Theodore M. (1972). \"Galvani, Luigi\". In Charles Coulston Gillispie (ed.). Dictionary of Scientific Biography. Vol. 5. New York: Charles Scribner's Sons. pp. 267–9. Retrieved 1 July 2025.\n[…]\nFarinella, Calogero (1998). \"GALVANI, Luigi\". Dizionario Biografico degli Italiani (in Italian). Vol. 51: Gabbiani–Gamba. Rome: Istituto dell'Enciclopedia Italiana. ISBN 978-88-12-00032-6.\n[…]\nPiccolino, Marco (1998). \"Animal electricity and the birth of electrophysiology: The legacy of Luigi Galvani\". Brain Research Bulletin. 46 (5): 381–407. doi:10.1016/s0361-9230(98)00026-4. PMID 9739001.\n[…]\nThe dictionary definition of galvanize at Wiktionary\n[…]\nChisholm, Hugh, ed. (1911). \"Galvani, Luigi\" . Encyclopædia Britannica (11th ed.). Cambridge University Press.\n[…]\nBresadola, Marco (2013). \"Galvani, Luigi\". Il Contributo italiano alla storia del Pensiero: Scienze. Rome: Istituto dell'Enciclopedia Italiana. Retrieved 1 July 2025."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Galvaniza%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "A Galvanização é o processo de aplicação de uma camada protectora de zinco ou ligas de zinco a uma superfície de aço ou ferro de modo a evitar a corrosão destes. O método mais comum é a galvanização por imersão a quente (hot-dip galvanizing ou HDG) no qual as peças ou estruturas são mergulhadas num banho de zinco fundido.\n[…]\nO primeiro registro histórico científico de galvanização ocorreu em 1742 quando um químico francês, Paul Jacques Malouin apresentou à Royal Society várias experiências envolvendo o revestimento de zinco fundido de peças de ferro. No entanto teria que se esperar quase 100 anos até que a primeira patente de galvanização ser depositada por Stanislaus Modeste Sorel em 1837. O processo de Sorel era bastante parecido ao usado hoje em dia.\n[…]\nO termo galvanização provém da língua francesa e tem origem no nome do cientista italiano Luigi Galvani que descobriu o efeito Galvânico em metais e foi usado por Sorel para descrever o mecanismo de protecção do aço por revestimento de zinco. O termo galvanização generalizou-se de modo a que hoje em dia significa o revestimento de peças com zinco ou ligas de zinco, com a exclusão de outros metais.\n[…]\nEm 1850, o Reino Unido consumia cerca de 10 mil toneladas de zinco em ferro galvanizado.\n[…]\nÉ um processo de galvanização que é utilizado para o revestimento de chapas de aço e apesar de ser um processo contínuo pode ser subdividido e  e possui as seguintes etapas conforme ABM :\n[…]\nÀ gama de valores da percentagem de silício e fósforo que influenciam negativamente a galvanização chama-se a Gama de Sandelin e situa-se entre 0.03% e 0.14% em peso. Aços com estas características não devem ser galvanizados, porque neste níveis a reacção entre o zinco e o ferro é muito forte, resultando num revestimento muito espesso, irregular e com uma aderência muito baixa.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Projeto Manhattan",
+      "descricao": "Programa dos Estados Unidos, com apoio britânico e canadense, que desenvolveu as primeiras bombas atômicas na Segunda Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que o projeto americano que criou a bomba atômica na Segunda Guerra recebeu o nome de Manhattan?",
+    "resposta": "Sua sede inicial ficava em Manhattan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manhattan_Project"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Manhattan_Project",
+        "situacao": "ok",
+        "texto": "The Manhattan Project was a research and development program undertaken during World War II to produce the first nuclear weapons. It was led by the United States in collaboration with the United Kingdom and Canada. The Manhattan Project employed nearly 130,000 people at its peak and cost nearly US$2 billion (equivalent to about $28 billion in 2024).\n[…]\nIn the immediate postwar years, the Manhattan Project conducted weapons testing at Bikini Atoll as part of Operation Crossroads, developed new weapons, promoted the development of the network of national laboratories, supported medical research into radiology, and laid the foundations for the nuclear navy. It maintained control over American atomic weapons research and production until the formation of the United States Atomic Energy Commission (AEC) in January 1947.\n[…]\nGroves later said that the British scientists' direct contributions to the Manhattan Project were \"helpful but not vital,\" but \"there probably would have been no atomic bomb to drop on Hiroshima\" without Britain's (particularly Churchill's) impetus. The British wartime participation was crucial to the success of their independent nuclear weapons program when the McMahon Act of 1946 temporarily ended American nuclear cooperation.\n[…]\nVoluntary censorship of atomic information began before the Manhattan Project. After the start of the European war in 1939 American scientists began avoiding publishing military-related research, and in 1940 scientific journals began asking the National Academy of Sciences to clear articles. William L.\n[…]\n\"Voices of the Manhattan Project\". Atomic Heritage Foundation. Retrieved 10 February 2015. — Features hundreds of audio/visual interviews with Manhattan Project veterans.\n[…]\nManhattan Project and Allied Scientists Collections at the University of Chicago Special Collections Research Center"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Projeto_Manhattan",
+        "situacao": "ok",
+        "texto": "Projeto Manhattan foi um programa de pesquisa e desenvolvimento que produziu as primeiras bombas atômicas durante a Segunda Guerra Mundial. Foi liderado pelos Estados Unidos, com o apoio do Reino Unido e Canadá. De 1940 a 1946, o projeto esteve sob a direção do major-general Leslie Groves do Corpo de Engenharia do Exército dos Estados Unidos.\n[…]\nA presença do exército em Oak Ridge aumentou em agosto de 1943, quando Nichols substituiu Marshall como chefe do Distrito de Engenharia de Manhattan. Uma de suas primeiras tarefas foi transferir a sede do Distrito para Oak Ridge, embora o nome do Distrito não se tenha alterado.\n[…]\nA censura voluntária de informações atômicas começou antes do Projeto Manhattan. Após o início da guerra na Europa em 1939, cientistas norte-americanos começaram a evitar a publicação de pesquisas militares e, em 1940, jornais científicos começaram a pedir à Academia Nacional de Ciências que aprovasse os artigos. William L.\n[…]\nAlém de desenvolver a bomba atômica, o Projeto Manhattan foi encarregado de obter informações sobre o projeto de energia nuclear alemão. Acreditava-se que o programa japonês de armas nucleares não era muito avançado, porque o Japão tinha pouco acesso a minério de urânio, mas inicialmente se temia que a Alemanha estivesse muito perto de desenvolver suas próprias armas.\n[…]\nPor iniciativa do Projeto Manhattan, uma campanha de bombardeio e sabotagem foi realizada contra usinas de água pesada na Noruega ocupada pelos alemães. Uma pequena missão foi criada, composta em conjunto pelo Gabinete de Inteligência Naval, OSRD, o Projeto Manhattan e a Inteligência do Exército (G-2), para investigar os avanços científicos inimigos, mas não era algo restrito àqueles envolvendo armas nucleares. O Chefe da Inteligência do Exército, major-general George V.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Espalhamento de Rayleigh",
+      "descricao": "Espalhamento da luz por partículas muito menores que seu comprimento de onda, que explica o azul do céu."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o céu de um dia limpo é azul?",
+    "resposta": "O ar espalha mais a luz azul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+      "https://en.wikipedia.org/wiki/Diffuse_sky_radiation"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+        "situacao": "ok",
+        "texto": "Rayleigh scattering ( RAY-lee) is the scattering or deflection of light, or other electromagnetic radiation, by particles with a size much smaller than the wavelength of the radiation. For light frequencies well below the resonance frequency of the scattering medium (normal dispersion regime), the amount of scattering is inversely proportional to the fourth power of the wavelength (e.g., a blue co\n[…]\nwhere R is the observer's distance to the particle and θ is the scattering angle. Averaging this over all angles gives the Rayleigh scattering cross-section of the  particles in air:\n[…]\nRayleigh scattering of that light off oxygen and nitrogen molecules, and\n[…]\nRayleigh scattering is also an important mechanism of wave scattering in amorphous solids such as glass, and is responsible for acoustic wave damping and phonon damping in glasses and granular matter at low or not too high temperatures. This is because in glasses at higher temperatures the Rayleigh-type scattering regime is obscured by the anharmonic damping (typically with a ~λ−2 dependence on wavelength), which becomes increasingly more important as the temperature rises.\n[…]\nRayleigh scattering is an important component of the scattering of optical signals in optical fibers. Silica fibers are glasses,  disordered materials with microscopic variations of density and refractive index. These give rise to energy losses due to the scattered light, with the following coefficient:\n[…]\nRayleigh-type λ−4 scattering can also be exhibited by porous materials. An example is the strong optical scattering by nanoporous materials. The strong contrast in refractive index between pores and solid parts of sintered alumina results in very strong scattering, with light completely changing direction each five micrometers on average.\n[…]\nRayleigh–Gans approximation\n[…]\nBragg's law – Scattering from arrays of atoms\n[…]\nHyperPhysics description of Rayleigh scattering"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Diffuse_sky_radiation",
+        "situacao": "ok",
+        "texto": "Diffuse sky radiation, is solar radiation reaching the Earth's surface after having been scattered from the direct solar beam by molecules or particulates in the atmosphere. It is also called sky radiation,  the determinative process for changing the colors of the sky. It is normally measured on a horizontal surface, thus frequently termed diffuse horizontal irradiance (DHI), often in the unit of \n[…]\nThe dominant radiative scattering processes in the atmosphere are Rayleigh scattering and Mie scattering; they are elastic, meaning that a photon of light can be deviated from its path without being absorbed and without changing wavelength.\n[…]\nScattering and absorption are major causes of the attenuation of sunlight radiation by the atmosphere. Scattering varies as a function of the ratio of particle diameters (of particulates in the atmosphere) to the wavelength of the incident radiation. When this ratio is less than about one-tenth, Rayleigh scattering occurs. (In this case, the scattering coefficient varies inversely with the fourth power of the wavelength.\n[…]\nFor the example of the Sun at zenith, in broad daylight, the sky is blue due to Rayleigh scattering, which also involves the diatomic gases N2 and O2. Near sunset and especially during twilight, absorption by ozone (O3) significantly contributes to maintaining blue color in the evening sky.\n[…]\nThere is essentially no direct sunlight under an overcast sky, so all light is then diffuse sky radiation. The flux of light is not very wavelength-dependent because the cloud droplets are larger than the light's wavelength and scatter all colors approximately equally. The light passes through the translucent clouds in a manner similar to frosted glass.\n[…]\nBlue Sky and Rayleigh Scattering"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dispers%C3%A3o_de_Rayleigh",
+        "situacao": "ok",
+        "texto": "A dispersão de Rayleigh (em homenagem a Lord Rayleigh) é a dispersão da luz ou qualquer outra radiação eletromagnética por partículas muito menores que o comprimento de onda dos fótons dispersados. Ocorre quando a luz viaja por sólidos e líquidos transparentes, mas se observa com maior frequência nos gases. A dispersão de Rayleigh da luz solar na atmosfera é a principal razão pela qual o céu é azu\n[…]\nA dispersão de luz por partículas maiores a um décimo do comprimento de onda se explica com a teoria de Mie, que é uma explicação mais geral da difusão de radiação electromagnética.\n[…]\nComo as cores que enxergamos fazem parte de uma pequena parcela do espectro eletromagnético, a qual compreende os tamanhos de, aproximadamente, 380 a 720 nm de comprimento de onda (violeta a vermelho, respectivamente), existem algumas que são mais espalhadas do que outras, o que podemos concluir apenas observando a equação mostrada anteriormente: a intensidade da luz varia com λ−4, ou seja, para comprimentos de onda pequenos, como é o caso do violeta (~400 nm) e azul (~450 nm), há um maior espalhamento em relação ao resto da luz visível, ainda sendo o do violeta maior que o do azul.\n[…]\nNesse momento, surge a dúvida \"mas por que enxergarmos o céu com coloração azul se há, de fato, um maior espalhamento de ondas de cor violeta?\". Isso se explica pelos outros dois fatores salientados anteriormente: a fisiologia do olho humano e a nossa percepção às cores.\n[…]\nO conjunto olho humano-cérebro é o responsável por enxergarmos a coloração azulada, pois no olho existem células chamadas \"cones\", que nos dão a possibilidade de percepção das diferentes cores, e são muito mais sensíveis ao vermelho, verde e, principalmente, ao azul. Por causa dessa característica, é possível entender o porquê de enxergarmos o céu com a coloração azulada, ao invés da roxa.\n[…]\nEspalhamento dinâmico de luz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Gelo",
+      "descricao": "Água no estado sólido, menos densa que a água líquida."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário da maioria das substâncias, a água sólida não afunda na água líquida. Por que o gelo flutua?",
+    "resposta": "É menos denso que a água líquida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ice",
+        "situacao": "ok",
+        "texto": "Ice is water that is frozen into a solid state, typically forming at or below temperatures of 0 °C, 32 °F, or 273.15 K. It occurs naturally on Earth, on other planets, in Oort cloud objects, and as interstellar ice. As a naturally occurring crystalline inorganic solid with an ordered structure, ice is considered to be a mineral. Depending on the presence of impurities such as particles of soil or \n[…]\nHail forms in strong thunderstorm clouds, particularly those with intense updrafts, high liquid water content, great vertical extent, large water droplets, and where a good portion of the cloud layer is below freezing 0 °C (32 °F). Hail-producing clouds are often identifiable by their green coloration. The growth rate is maximized at about −13 °C (9 °F), and becomes vanishingly small much below −30 °C (−22 °F) as supercooled water droplets become rare.\n[…]\nThe melting of ice entails the breaking of hydrogen bonds between the water molecules. The ordering of the molecules in the solid breaks down to a less ordered state and the solid melts to become a liquid. This is achieved by increasing the internal energy of the ice beyond the melting point. When ice melts it absorbs as much energy as would be required to heat an equivalent amount of water by 80 °C. While melting, the temperature of the ice surface remains constant at 0 °C.\n[…]\nIn salty ambient conditions, dissolution rather than melting often causes the ablation of ice. For example, the temperature of the Arctic Ocean is generally below the melting point of ablating sea ice. The phase transition from solid to liquid is achieved by mixing salt and water molecules, similar to the dissolution of sugar in water, even though the water temperature is far below the melting point of the sugar."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gelo",
+        "situacao": "ok",
+        "texto": "Gelo (do latim gelus) é o estado sólido de líquidos e gases cristalizada no sistema cristalino hexagonal. Seu aspecto é vítreo e semitransparente. A sua densidade é inferior à da água, ficando em 0,9178 grama por centímetro cúbico. O seu ponto de fusão é de zero ou menos Graus Celsius a uma atmosfera de pressão.\n[…]\nA mesma massa de matéria em estado líquido ou em estado sólido tem volumes diferentes, pois, ao passar de um estado para o outro, o volume aumenta cerca de 9 por cento: ao contrário da maioria dos outros sólidos, o gelo, no seu ponto de fusão, apresenta-se mais dilatado do que a sua forma líquida até atingir os quatro graus Celsius.\n[…]\nA estrutura extremamente aberta das moléculas do gelo faz com que ocupe maior volume — e, por isso, seja menos denso — do que a água.\n[…]\nSua densidade é inferior que a da água.[carece de fontes]?\n[…]\nEmbora a regra prática seja que a água congela a 0 graus Celsius, a água pode, na verdade, permanecer líquida em uma faixa de temperaturas mais frias desde que atenda certas condições específicas. Até 2021, acreditava-se que esse intervalo parava em menos 38 C; qualquer mais baixo do que isso, e a água deve congelar. Mas pesquisadores conseguiram manter as gotas de água em estado líquido em temperaturas tão baixas quanto -44 °C.\n[…]\nSegundo a pesquisa, quanto menor a gota de água, menor será a temperatura de congelamento.\n[…]\nO gelo é importante para resfriamento do planeta e ele só se sustenta se não há excesso de gases do efeito estufa na atmosfera.[carece de fontes]? Além disso, o congelamento parcial e superficial que se dá nos lagos. Isso ocorre porque a densidade da água é maior aos 4 °C (dilatação anômala da água) e, à medida que a água se aproxima dessa temperatura, ela se desloca para o fundo do oceano ou lago em questão, impedindo que esse congele por inteiro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Refração",
+      "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Um canudo dentro de um copo de água parece quebrado na altura da superfície. Que fenômeno da luz causa essa ilusão?",
+    "resposta": "Refração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Refraction",
+      "https://pt.wikipedia.org/wiki/Refração"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Refraction",
+        "situacao": "ok",
+        "texto": "In physics, refraction is the redirection of a wave as it passes from one medium to another. The redirection can be caused by the wave's change in speed or by a change in the medium. Refraction of light is the most commonly observed phenomenon, but other waves such as sound waves and water waves also experience refraction. How much a wave is refracted is determined by the change in wave speed and \n[…]\nin the two media, or equivalently, to the refractive indices\n[…]\nRefraction is also responsible for rainbows and for the splitting of white light into a rainbow-spectrum as it passes through a glass prism. Glass and water have higher refractive indices than air.\n[…]\nRefractive surgery is a medical procedure to treat common vision disorders.\n[…]\nIn underwater acoustics, refraction is the bending or curving of a sound ray that results when the ray passes through a sound speed gradient from a region of one sound speed to a region of a different speed. The amount of ray bending is dependent on the amount of difference between sound speeds, that is, the variation in temperature, salinity, and pressure of the water.\n[…]\nSimilar acoustics effects are also found in the Earth's atmosphere. The phenomenon of refraction of sound in the atmosphere has been known for centuries. Beginning in the early 1970s, widespread analysis of this effect came into vogue through the designing of urban highways and noise barriers to address the meteorological effects of bending of sound rays in the lower atmosphere.\n[…]\nBirefringence (double refraction)\n[…]\nList of indices of refraction\n[…]\nNegative refraction\n[…]\nSeismic refraction\n[…]\nSuper refraction\n[…]\nReflections and Refractions in Ray Tracing, a simple but thorough discussion of the mathematics behind refraction and reflection.\n[…]\nFlash refraction simulation- includes source, Explains refraction and Snell's Law.\n[…]\n\"Refraction\" . Encyclopædia Britannica. Vol. 23 (11th ed.). 1911. pp. 25–29."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Refração",
+        "situacao": "ok",
+        "texto": "Para metais e materiais resistentes a altas temperaturas, veja Metais refratários e Materiais refratários.\n[…]\ne o ângulo de refração\n[…]\nA refração ocorre quando a luz atravessa a superfície da água, pois, para a luz visível, a água tem índice de refração de aproximadamente 1,33 e o ar, de aproximadamente 1. Ao observar um objeto reto, como o lápis mostrado na figura, colocado obliquamente e parcialmente submerso, ele parece dobrar na superfície da água. Isso ocorre porque os raios luminosos mudam de direção ao passar da água para o ar. Quando chegam ao olho, são percebidos como se tivessem seguido linhas retas.\n[…]\nUm peixe-arqueiro precisa compensar o deslocamento causado pela refração ao dirigir seu jato de água a uma presa situada no ar.\n[…]\nágua\n[…]\nVariações de temperatura do ar próximas da superfície podem produzir outros fenômenos ópticos, como miragens e a Fata Morgana. Em uma situação comum, o ar aquecido por uma estrada sob o Sol desvia a luz que se aproxima do observador em um ângulo rasante. A estrada parece refletir o céu, criando a ilusão de uma camada de água sobre sua superfície.\n[…]\nA velocidade das ondas de gravidade na superfície da água depende da profundidade quando esta deixa de ser grande em comparação com o comprimento de onda. Ao passar para águas suficientemente rasas, as ondas se propagam mais lentamente. Esse comportamento pode ser usado para demonstrar a refração em tanques de ondas e ajuda a explicar por que as ondas junto a uma costa tendem a atingir a praia em uma direção próxima da perpendicular.\n[…]\n\"Refraction\", na Encyclopædia Britannica, 11.ª edição, de 1911."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Imponderabilidade",
+      "descricao": "Sensação de ausência de peso vivida por quem está em queda livre, como os astronautas em órbita."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na altura da Estação Espacial Internacional, a gravidade da Terra ainda é quase tão forte quanto aqui embaixo. Então por que os astronautas flutuam?",
+    "resposta": "Estão em queda livre contínua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Weightlessness"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Weightlessness",
+        "situacao": "ok",
+        "texto": "Weightlessness is the complete or near-complete absence of the sensation of weight, i.e., zero apparent weight. It is also termed zero g-force, or zero-g (named after the g-force) or, misleadingly, zero gravity.\n[…]\nAirplanes have been used since 1959 to provide a nearly weightless environment in which to train astronauts, conduct research, and film motion pictures. Such aircraft are commonly referred by the nickname \"Vomit Comet\".\n[…]\nOn the International Space Station (ISS), there are small g-forces that come from tidal effects, gravity from objects other than the Earth, such as astronauts, the spacecraft, and the Sun, air resistance, and astronaut movements that impart momentum to the space station. The symbol for microgravity, μg, was used on the insignias of Space Shuttle flights STS-87 and STS-107, because these flights were devoted to microgravity research in low Earth orbit.\n[…]\nThough extremely thin, there is some air at orbital altitudes of 185 to 1,000 km. This atmosphere causes minuscule deceleration due to friction. This could be compensated by a small continuous thrust, but in practice the deceleration is only compensated from time to time, so the tiny g-force of this effect is not eliminated.\n[…]\nSMS was first described in 1961 during the second orbit of the fourth crewed spaceflight when the cosmonaut Gherman Titov aboard the Vostok 2, described feeling disoriented with physical complaints mostly consistent with motion sickness. It is one of the most studied physiological problems of spaceflight but continues to pose a significant difficulty for many astronauts.\n[…]\nHow Weightlessness Works at HowStuffWorks\n[…]\n\"Why are astronauts weightless?\" Video explanation of the fallacy of \"zero gravity\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imponderabilidade",
+        "situacao": "ok",
+        "texto": "Imponderabilidade é a ausência completa ou quase completa da sensação de peso, isto é, um peso aparente nulo ou muito pequeno. Também é denominada força g zero ou zero-g, em referência à força g, ou, de maneira enganosa, gravidade zero.\n[…]\nDo ponto de vista de um observador em um referencial inercial, a força gravitacional sobre um objeto em queda livre continua atuando normalmente. Um exemplo clássico é o de uma cabine de elevador cujo cabo foi cortado e que cai em direção à Terra com aceleração de aproximadamente 9,81 m/s². Nessa situação, a percepção do peso por uma pessoa dentro do elevador diminui quase completamente, embora a força gravitacional não seja nula.\n[…]\nNa piscina, pesos e flutuadores são ajustados para que o empuxo equilibre o peso do conjunto formado pelo astronauta e seu equipamento. A gravidade continua atuando. A água também oferece resistência aos movimentos, facilitando a parada do corpo e dificultando seu deslocamento. Por isso, a flutuabilidade neutra permite ensaiar tarefas e posições de trabalho, mas não reproduz integralmente o movimento de um astronauta em queda livre.\n[…]\nO movimento orbital é uma forma de queda livre. Os objetos em órbita não estão em imponderabilidade perfeita devido a diversos efeitos:\n[…]\nNas órbitas próximas da Terra, a gravidade continua atraindo os objetos em direção ao planeta. Em uma órbita circular, a combinação da velocidade tangencial com a aceleração gravitacional mantém constante a distância ao centro da Terra. Um observador e os objetos próximos parecem flutuar uns em relação aos outros porque estão em queda livre com acelerações muito semelhantes, e não porque tenham alcançado um local sem gravidade.\n[…]\nPeso aparente, força de apoio que se anula na queda livre ideal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Grande Colisor de Hádrons",
+      "descricao": "Acelerador de partículas do CERN, instalado num túnel circular subterrâneo perto de Genebra."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O Grande Colisor de Hádrons acelera partículas num túnel circular subterrâneo com cerca de quantos quilômetros de extensão?",
+    "resposta": "Vinte e sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Large_Hadron_Collider"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
+        "situacao": "ok",
+        "texto": "The Large Hadron Collider (LHC) is the world's largest and highest-energy particle accelerator. It was built by the European Organization for Nuclear Research (CERN) between 1998 and 2008, in collaboration with over 10,000 scientists, and hundreds of universities and laboratories across more than 100 countries. It lies in a tunnel 27 kilometres (17 mi) in circumference and as deep as 175 metres (5\n[…]\nMany physicists hope that the Large Hadron Collider will help answer some of the fundamental open questions in physics, which concern the basic laws governing the interactions and forces among elementary particles and the deep structure of space and time, particularly the interrelation between quantum mechanics and general relativity.\n[…]\nThe experiments at the Large Hadron Collider sparked fears that the particle collisions might produce doomsday phenomena, involving the production of stable microscopic black holes or the creation of hypothetical particles called strangelets. Two CERN-commissioned safety reviews examined these concerns and concluded that the experiments at the LHC present no danger and that there is no reason for concern, a conclusion endorsed by the American Physical Society.\n[…]\nThe song \"Munich\" on the 2012 studio album Scars & Stories by The Fray is inspired by the Large Hadron Collider. Lead singer Isaac Slade said in an interview, \"There's this large particle collider out in Switzerland that is kind of helping scientists peel back the curtain on what creates gravity and mass. Some very big questions are being raised, even some things that Einstein proposed, that have just been accepted for decades are starting to be challenged.\n[…]\nThe Large Hadron Collider was the focus of the 2012 student film Decay, with the movie being filmed on location in CERN's maintenance tunnels.\n[…]\nVery Large Hadron Collider\n[…]\nEight Things To Know As The Large Hadron Collider Breaks Energy Records"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Colisor_de_H%C3%A1drons",
+        "situacao": "ok",
+        "texto": "O Grande Colisor de Hádrons (português brasileiro) ou Grande Colisor de Hadrões (português europeu) (em inglês:  Large Hadron Collider) - LHC da Organização Europeia para a Pesquisa Nuclear, é o maior acelerador de partículas e o de maior energia existente do mundo. Seu principal objetivo é obter dados sobre colisões de feixes de partículas, tanto de prótons a uma energia de 7 TeV (1,12 microjoule\n[…]\nNos próximos anos, o maior acelerador de partículas do mundo será superalimentado, aumentando o número de colisões de prótons por segundo em um fator de dois e meio. Quando o trabalho estiver concluído em 2026, os pesquisadores esperam desbloquear algumas das questões mais fundamentais do universo. Quando foi desativado em dezembro de 2018, o LHC gerava cerca de 300 gigabytes de dados a cada segundo, totalizando 25 petabytes (PB) por ano.\n[…]\nMuitos físicos esperam que o Grande Colisor de Hádrons (LHC) ajude a responder a algumas das questões fundamentais em aberto da física, que concernem às leis básicas que governam as interações e forças entre as partículas elementares e a estrutura profunda do espaço e do tempo, particularmente a inter-relação entre a mecânica quântica e a relatividade geral.\n[…]\nA ideia do Grande Colisor de Hadrões (LHC) surgiu no princípio dos anos 80 do século XX quando o LEP Grande Colisor de Elétrons e Pósitrons, o precedente grande acelerador de CERN, ainda estava em … construção, mas os cientistas já tinham começado a pensar no 'após LEP' reutilizando o seu túnel de 27 km para aí instalar uma máquina muito mais potente.\n[…]\nas partículas circulam pela primeira vez no LHC;\n[…]\ndois pacotes de partículas aceleradas na cadeia de dos aceleradores do CERN são enviados nos dois sentidos de circulação do LHC - em sentidos contrários;\n[…]\nPrimeira imagem gerada no Grande Colisor de Hádrons - TechZine\n[…]\nDivulgação: «Aventura das Partículas»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Zero absoluto",
+      "descricao": "Temperatura mais baixa teoricamente possível, zero na escala Kelvin."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O zero absoluto, a temperatura mais baixa possível, corresponde a cerca de quantos graus Celsius negativos?",
+    "resposta": "Duzentos e setenta e três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Absolute_zero",
+      "https://pt.wikipedia.org/wiki/Zero_absoluto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Absolute_zero",
+        "situacao": "ok",
+        "texto": "Absolute zero is the theoretically coldest temperature, a state at which a system's internal energy, and in ideal cases entropy, reach their minimum values. The Kelvin scale is defined so that absolute zero is 0 K, equivalent to −273.15 °C on the Celsius scale, and −459.67 °F on the Fahrenheit scale. The Kelvin and Rankine temperature scales set their zero points at absolute zero by definition.\n[…]\nTo resolve this, the concept of absolute temperature is introduced, with 0 kelvins defined as the point at which pressure or volume would vanish in an ideal gas. This temperature corresponds to −273.15 °C, and is referred to as absolute zero. The ideal gas law is therefore formulated in terms of absolute temperature to remain consistent with observed gas behavior and physical limits.\n[…]\nTemperatures below zero on the Celsius or Fahrenheit scales are simply colder than the zero points of those scales. In contrast, certain isolated systems can achieve negative thermodynamic temperatures (in kelvins), which are not colder than absolute zero, but paradoxically hotter than any positive temperature. If a negative-temperature system and a positive-temperature system come in contact, heat flows from the negative to the positive-temperature system.\n[…]\nIn January 2013, physicist Ulrich Schneider of LMU Munich in Germany reported to have achieved temperatures formally below absolute zero (\"negative temperature\") in gases. The gas is artificially forced out of equilibrium into a high potential energy state, which is, however, cold. When it then emits radiation it approaches the equilibrium, and can continue emitting despite reaching formal absolute zero; thus, the temperature is formally negative.\n[…]\nBIPM Mise en pratique - Kelvin - Appendix 2 - SI Brochure.\n[…]\n\"Absolute zero\": a two part NOVA episode originally aired January 2008\n[…]\n\"What is absolute zero?\" Lansing State Journal"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zero_absoluto",
+        "situacao": "ok",
+        "texto": "Numa escala progressiva, o zero absoluto seria a temperatura de menor energia possível. Teoricamente, seria a temperatura na qual a entropia atingiria seu valor mínimo que, segundo a interpretação clássica, a energia cinética e térmica mutuamente equivalem a zero. As leis da termodinâmica afirmam que o zero absoluto não pode ser alcançado utilizando-se apenas métodos termodinâmicos.\n[…]\nSendo assim, o zero absoluto Kelvin ficou localizado a -273,15 °C da escala Celsius, que tem como referencial o ponto de congelamento da água. Isso equivale a -459,67 °F na escala Fahrenheit e 0 Ra na escala Rankine. Cientistas já atingiram temperaturas muito próximas do zero absoluto, onde a matéria exibe efeitos quânticos como, por exemplo, a supercondutividade e a superfluidez.\n[…]\nPara concluir a definição dessa escala termométrica definimos a diferença entre Tf e Tg como sendo 100 K (100 graus Kelvin) correspondendo com a diferença adotada para a escala Celsius.\n[…]\nO zero absoluto não pode ser atingido, porém é possível chegar a temperaturas muito próximas dele através do uso de refrigeradores criogênicos e desmagnetização adiabática nuclear. O uso de resfriamento a laser já produziu temperaturas na ordem de bilionésimos de Kelvin.\n[…]\nAssim, quando os campos magnéticos foram rapidamente ajustados, os átomos passaram de um estado de baixa energia para um estado com o mais alto nível de energia possível. Essa transição, aliada ao fato de que os átomos continuaram em ordem graças ao feixe laser, fez com que a temperatura do gás ultrapassasse alguns bilionésimos de graus abaixo da temperatura de zero absoluto (-273,15 °C).\n[…]\nDevido à definição formal de temperatura em termodinâmica, temperaturas abaixo do zero absoluto são possíveis, mas correspondem a temperaturas mais quentes do que temperaturas positivas.\n[…]\nTemperatura mais baixa registada na Terra"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Prata",
+      "descricao": "Elemento químico metálico de símbolo Ag, o melhor condutor de eletricidade entre os elementos."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+    "resposta": "Prata",
+    "distratores": [
+      "Cobre",
+      "Ouro",
+      "Alumínio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silver",
+      "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Silver",
+        "situacao": "ok",
+        "texto": "Silver is a chemical element; it has symbol Ag (from Latin  argentum) and atomic number 47. A soft, white, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity and reflectivity of any metal. Silver is found in the Earth's crust in the pure, free elemental form (\"native silver\"), as an alloy with gold (electrum) and other metals, and in minerals such as a\n[…]\nThe Texas Legislature designated silver the official precious metal of Texas in 2007.\n[…]\nThe National Center for Complementary and Integrative Health states that evidence supporting health-related claims for colloidal silver is lacking and that it can cause serious side effects, including usually permanent argyria.\n[…]\nSome silver compounds are very explosive, such as the nitrogen compounds silver azide, silver amide, and silver fulminate, as well as silver acetylide, silver oxalate, and silver(II) oxide. They can explode on heating, force, drying, illumination, or sometimes spontaneously. To avoid the formation of such compounds, ammonia and acetylene should be kept away from silver equipment.\n[…]\nSalts of silver with strongly oxidising acids such as silver chlorate and silver nitrate can explode on contact with materials that can be readily oxidised, such as organic compounds, sulfur and soot.\n[…]\nSilver coin\n[…]\nSilver medal\n[…]\nFree silver\n[…]\nList of countries by silver production\n[…]\nList of silver compounds\n[…]\nSilver as an investment\n[…]\nSilverpoint drawing\n[…]\nSilver at The Periodic Table of Videos (University of Nottingham)\n[…]\nThe Silver Institute, industry association website\n[…]\nCollection of silver items and samples from Theodore Gray\n[…]\nSilver entry in the NIOSH Pocket Guide to Chemical Hazards published by the U.S. Centers for Disease Control and Prevention's National Institute for Occupational Safety and Health\n[…]\nSilver prices – current spot prices on the global commodities markets, from Bloomberg L.P."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity",
+        "situacao": "ok",
+        "texto": "In physics, electrical resistivity and electrical conductivity are two intrinsic properties of materials that measure a material's local, intrinsic ability to conduct electric current. They are reciprocals of each other, so each can be deduced from the other. They are usually numbers or scalar fields, but can be generalized to tensor quantities when the material is non-isotropic, or to complex qua\n[…]\nThe electrical resistivity of a metallic conductor decreases gradually as temperature is lowered. In normal (that is, non-superconducting) conductors, such as copper or silver, this decrease is limited by impurities and other defects. Even near absolute zero, a real sample of a normal conductor shows some resistance. In a superconductor, the resistance drops abruptly to zero when the material is cooled below its critical temperature.\n[…]\nThe extremely low resistivity (high conductivity) of silver is characteristic of metals. George Gamow tidily summed up the nature of the metals' dealings with electrons in his popular science book One, Two, Three...Infinity (1947):\n[…]\nSilver, although it is the least resistive metal known, has a high density and performs similarly to copper by this measure, but is much more expensive. Calcium and the alkali metals have the best resistivity-density products, but are rarely used for conductors due to their high reactivity with water and oxygen, and lack of physical strength. Aluminium is far more stable. Toxicity excludes the choice of beryllium; pure beryllium is also brittle."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prata",
+        "situacao": "ok",
+        "texto": "A prata ou argento (do latim vulgar platta*, argentum) é um elemento químico de símbolo Ag e de número atómico igual a 47 (47 prótons e 47 elétrons). Sua massa atómica é 107,87u. À temperatura ambiente, a prata encontra-se no estado sólido. No teste de chama, assume a cor lilás.\n[…]\nA maior parte da prata é um subproduto da mineração de chumbo e está frequentemente associada ao cobre. Dentre os metais, é a que mais conduz corrente elétrica, superando o cobre. Em 2019, os cientistas descobriram um mecanismo, em nanoescala, que tornou a prata 42% mais forte do que qualquer coisa já feita antes, sem perder a condutividade elétrica.\n[…]\nPor causa disso e do fato de que ela é muito maleável para ser usada em joalheria na sua forma pura, a prata é frequentemente ligada a outros metais, ou recebe uma camada de cobertura de ouro.\n[…]\nAs principais áreas de mineração de prata do mundo se encontram na América do Sul, nos Estados Unidos, na Austrália e na antiga União Soviética. O maior produtor individual de prata é provavelmente o México, onde a prata tem sido minerada desde aproximadamente 1500 d.C. até hoje. A melhor prata natural, que ocorre na forma de arame torcido, é a de Kongsberg, na Noruega.\n[…]\nA pureza da prata é normalmente medida em permilagem (base por mil), assim uma liga 95% pura é descrita como \"0,950 fina\". Logo, \"Prata 950\" quer dizer: 95% da joia é de prata legítima; os outros 5% são de outros metais, normalmente cobre.\n[…]\nA prata de lei tem esse nome graças a uma lei portuguesa, do século XV, que estabelecia que a prata deveria ter pelo menos 80% de pureza, a fim de prevenir excesso da mistura de outros metais na liga, diminuindo o valor.\n[…]\nLista de países por produção de prata\n[…]\nMedalha de prata\n[…]\nMoeda de prata\n[…]\nBala de prata\n[…]\n«Uma coleção com itens de prata» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Espectro visível",
+      "descricao": "Faixa do espectro eletromagnético que o olho humano enxerga, do violeta ao vermelho."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre as cores do arco-íris, qual tem o maior comprimento de onda?",
+    "resposta": "Vermelho",
+    "distratores": [
+      "Violeta",
+      "Verde",
+      "Amarelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Visible_spectrum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Visible_spectrum",
+        "situacao": "ok",
+        "texto": "The visible spectrum is the band of the electromagnetic spectrum that is visible to the human eye. Electromagnetic radiation in this range of wavelengths is called visible light (or simply light).\n[…]\nThe spectrum appears only when these edges are close enough to overlap.\n[…]\nWhile allowing UV light to reach the retina can lead to retinal damage, the short lifespan of mice compared with other mammals may minimize this disadvantage relative to the advantage of UV vision. Dogs have two cone opsins at 429 nm and 555 nm, so see almost the entire visible spectrum of humans, despite being dichromatic. Horses have two cone opsins at 428 nm and 539 nm, yielding a slightly more truncated red vision.\n[…]\nMost other vertebrates (birds, lizards, fish, etc.) have retained their tetrachromacy, including UVS opsins that extend further into the ultraviolet than humans' VS opsin. The sensitivity of avian UVS opsins vary greatly, from 355 to 425 nm, and LWS opsins from 560 to 570 nm. This translates to some birds with a visible spectrum on par with humans, and other birds with greatly expanded sensitivity to UV light.\n[…]\nSpectroscopy is the study of objects based on the spectrum of color they emit, absorb or reflect. Visible-light spectroscopy is an important tool in astronomy (as is spectroscopy at other wavelengths), where scientists use it to analyze the properties of distant objects. Chemical elements and small molecules can be detected in astronomical objects by observing emission lines and absorption lines. For example, helium was first detected by analysis of the spectrum of the Sun.\n[…]\nBlue light spectrum\n[…]\nHigh-energy visible light\n[…]\nTwo-photon absorption - a method for seeing outside the visible spectrum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Espectro_vis%C3%ADvel",
+        "situacao": "ok",
+        "texto": "Para o álbum musical, veja The Color Spectrum.\n[…]\nA luz de comprimentos de onda visíveis atravessa a atmosfera terrestre com pouca atenuação, na região do espectro eletromagnético chamada \"janela óptica\" ou \"janela visível\". O ar limpo espalha mais a luz azul do que a vermelha, fazendo com que o céu durante o dia pareça azul. A atmosfera também tem janelas de transmissão no infravermelho próximo e em comprimentos de onda mais longos, fora da faixa visível habitual.\n[…]\nNo vácuo, o comprimento de onda\n[…]\n, o comprimento de onda é\n[…]\nEm condições de laboratório, é possível perceber luz infravermelha com comprimentos de onda de pelo menos 1.064 nm. Uma fonte contínua nesse comprimento de onda pode produzir a sensação de vermelho. Lasers pulsados no infravermelho próximo também podem produzir a sensação de verde. Nesse caso, a absorção de dois fótons pode desencadear a isomerização do cromóforo do pigmento visual, permitindo a percepção de comprimentos de onda fora da faixa visível habitual.\n[…]\nA espectroscopia estuda objetos a partir do espectro de cores que eles emitem, absorvem ou refletem. Na astronomia, a espectroscopia da luz visível, assim como a de outros comprimentos de onda, permite analisar as propriedades de objetos distantes. É possível detectar elementos químicos e moléculas pequenas em objetos astronômicos pela observação de linhas de emissão e de absorção. O hélio, por exemplo, foi detectado pela primeira vez na análise do espectro do Sol.\n[…]\nEspectro da luz azul, porção do espectro visível que abrange a luz azul de maior energia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Experimento de Rutherford",
+      "descricao": "Experimentos de Geiger e Marsden, orientados por Ernest Rutherford a partir de 1909, que levaram à descoberta do núcleo atômico."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No famoso experimento de 1909 que levou à descoberta do núcleo atômico, partículas alfa foram disparadas contra uma folha finíssima de que metal?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geiger–Marsden_experiments"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Geiger–Marsden_experiments",
+        "situacao": "ok",
+        "texto": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned  that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil.\n[…]\nIn a 1909 experiment, Geiger and Marsden discovered that the metal foils could scatter some alpha particles in all directions, sometimes more than 90°. This should have been impossible according to Thomson's model. According to Thomson's model, all the alpha particles should have gone straight through.\n[…]\nThese results were published in a 1909 paper, On a Diffuse Reflection of the α-Particles, where Geiger and Marsden described the experiment by which they proved that alpha particles can indeed be scattered by more than 90°. In their experiment, they prepared a small conical glass tube (AB) containing \"radium emanation\" (radon), \"radium A\" (actual radium), and \"radium C\" (bismuth-214); its open end was sealed with mica. This was their alpha particle emitter.\n[…]\nIn a 1913 paper, The Laws of Deflexion of α Particles through Large Angles, Geiger and Marsden describe a series of experiments by which they sought to experimentally verify Rutherford's equation. Rutherford's equation predicted that the number of scintillations per minute s that will be observed at a given angle Φ should be proportional to:\n[…]\nWhile in Thomson's plum pudding model it is mathematically possible that an alpha particle could be deflected by more than 90° after 10,000 collisions, the probability of such an event is so low as to be undetectable. Geiger and Marsden should not have detected any alpha particles coming back in the experiment they performed in 1909, and yet they did.\n[…]\nList of scattering experiments"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Experimento_de_Geiger-Marsden",
+        "situacao": "ok",
+        "texto": "Os experimentos de espalhamento de Rutherford foram uma série marcante de experimentos pelos quais os cientistas descobriram que cada átomo possui um núcleo onde toda a sua carga positiva e a maior parte de sua massa estão concentradas. Eles deduziram isso após medir como um feixe de partículas alfa é espalhado ao atingir uma fina folha metálica.\n[…]\nPara a folha metálica, eles testaram vários metais, mas preferiram o ouro porque podiam tornar a folha muito fina, já que o ouro é o metal mais maleável. Como fonte de partículas alfa, a substância de escolha de Rutherford foi o rádio, que é milhares de vezes mais radioativo que o urânio.\n[…]\nPara verificar seu modelo, Rutherford desenvolveu um modelo científico para prever a intensidade das partículas alfa nos diferentes ângulos em que eram espalhadas ao sair da folha de ouro, supondo que toda a carga positiva estivesse concentrada no centro do átomo. Este modelo foi validado em um experimento realizado em 1913. Seu modelo explicava tanto os resultados de espalhamento beta de Thomson quanto os resultados de espalhamento alfa de Geiger e Marsden.\n[…]\nGeiger então bombeou o ar e colocou uma ou duas folhas de ouro sobre a fenda em AA. Isso também fez com que a mancha de luz na tela se espalhasse mais, com maior dispersão para duas camadas. Este experimento demonstrou que tanto o ar quanto a matéria sólida podem espalhar marcadamente as partículas alfa.\n[…]\nRutherford assumiu que o raio dos átomos em geral era da ordem de 10−10 m e que a carga positiva de um átomo de ouro era cerca de 100 vezes a do hidrogênio (100 qe). O peso atômico do ouro era conhecido por ser por volta de 197 desde o início do século XIX. A partir de um experimento em 1906, Rutherford mediu partículas alfa com uma carga de 2 qe e um peso atômico de 4, e partículas alfa emitidas pelo radônio com velocidade de 1,70×107 m/s.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Experimento de Oersted",
+      "descricao": "Experimento de 1820 em que Hans Christian Ørsted mostrou que uma corrente elétrica produz efeitos magnéticos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1820, o dinamarquês Hans Christian Oersted ligou eletricidade e magnetismo ao ver um fio com corrente desviar a agulha de que objeto?",
+    "resposta": "Uma bússola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted",
+        "situacao": "ok",
+        "texto": "Hans Christian Ørsted (Danish: [ˈɶɐ̯steð] ; 14 August 1777 – 9 March 1851), sometimes transliterated as Oersted ( UR-sted), was a Danish chemist and physicist who discovered that electric currents create magnetic fields. This phenomenon is known as Oersted's law. He also discovered aluminium, a chemical element.\n[…]\nA statue of Hans Christian Ørsted was installed in the Ørsted Park in 1880. A commemorative plaque is located above the gate on the building in Studiestræde where he lived and worked.\n[…]\n—— (1820). \"Experiments on the Effect of a Current of Electricity on the Magnetic Needle\". In Thomson, T. (ed.). Annals of Philosophy; or, Magazine of Chemistry, Mineralogy, Mechanics, Natural History, Agriculture, and the Arts. Vol. XVI. London: Baldwin, Cradock, and Joy. pp. 273–276. hdl:2027/osu.32435051156651. OCLC 9529852.\n[…]\nØrsted, H. C. (1998). Jelved, K.; Jackson, A. D.; Knudsen, O. (eds.). Selected Scientific Works of Hans Christian Ørsted. Princeton University Press. ISBN 978-0-69104-334-0. JSTOR j.ctt7zvhx2. OCLC 36393437.\n[…]\nHansen, H. M.; Rasmussen, S. V. (1944). \"Ørsted, Hans Christian, 1777–1851, Fysiker\". In Bricka, C. F.; Engelstoft, P.; Dahl, S. (eds.). Dansk biografisk Leksikon (PDF) (in Danish). Vol. XXVI. København: J. H. Schultz Forlag. pp. 575–586. OCLC 2697123.\n[…]\nWilliams, L. P. (1974). \"Oersted, Hans Christian\". In Gillispie, C. C. (ed.). Dictionary of Scientific Biography. Vol. X. New York: Charles Scribner’s Sons. pp. 182–186. ISBN 978-0-68410-121-7. OCLC 89822. OL 23035060M.\n[…]\nWorks by or about Hans Christian Ørsted at the Internet Archive\n[…]\nPhysics Tree: Hans Christian Ørsted Details\n[…]\nInteractive Java Tutorial on Oersted's Compass Experiment National High Magnetic Field Laboratory\n[…]\n\"Oersted, Hans Christian\" . Encyclopedia Americana. 1920."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hans_Christian_%C3%98rsted",
+        "situacao": "ok",
+        "texto": "Hans Christian Ørsted (da; 14 de agosto de 1777 – 9 de março de 1851), por vezes transliterado como Oersted ([ˈɜːrstɛd] UR-sted), foi um químico e físico dinamarquês que descobriu que correntes elétricas criam campos magnéticos. Esse fenômeno é conhecido como lei de Oersted. Ele também descobriu o alumínio, um elemento químico.\n[…]\nLíder da Era de Ouro dinamarquesa, Ørsted foi um amigo próximo de Hans Christian Andersen e irmão do político e jurista Anders Sandøe Ørsted, que serviu como Primeiro-ministro da Dinamarca de 1853 a 1854.\n[…]\nEm 1820, Ørsted publicou sua descoberta de que uma agulha de bússola era defletida do norte magnético por uma corrente elétrica próxima, confirmando uma relação direta entre eletricidade e magnetismo. A história frequentemente relatada de que Ørsted fez essa descoberta incidentalmente durante uma palestra é um mito. Ele, de fato, vinha procurando uma conexão entre eletricidade e magnetismo desde 1818, mas estava bastante confuso com os resultados que obtinha.\n[…]\nPor sua descoberta, a Royal Society de Londres concedeu a Ørsted a Medalha Copley em 1820 e a Academia Francesa concedeu-lhe 3 000 francos. As descobertas de Ørsted estimularam muitas pesquisas sobre eletrodinâmica na comunidade científica, influenciando os desenvolvimentos do físico francês André-Marie Ampère de uma única fórmula matemática para representar as forças magnéticas entre condutores transportando corrente.\n[…]\nGian Domenico Romagnosi, que também observou uma atração eletrostática de uma agulha de bússola.\n[…]\nHansen, H. M.; Rasmussen, S. V. (1944). «Ørsted, Hans Christian, 1777–1851, Fysiker». In:  Bricka, C. F.; Engelstoft, P.; Dahl, S. Dansk biografisk Leksikon (PDF) (em dinamarquês). XXVI. København: J. H. Schultz Forlag. pp. 575–586. OCLC 2697123\n[…]\n«Oersted, Hans Christian». Encyclopedia Americana. 1920",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Miragem",
+      "descricao": "Fenômeno óptico em que o ar aquecido desvia a luz e cria imagens deslocadas, como falsas poças no asfalto."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Num dia quente, a falsa poça de água que aparece no asfalto da estrada é, na verdade, uma imagem de quê, desviada pelo ar quente?",
+    "resposta": "Do céu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mirage",
+      "https://pt.wikipedia.org/wiki/Miragem"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mirage",
+        "situacao": "ok",
+        "texto": "A mirage is a naturally occurring optical phenomenon in which light rays bend via refraction to produce a displaced image of distant objects or the sky. The word comes to English via the French (se) mirer, from the Latin mirari, meaning \"to look at, to wonder at\".\n[…]\nFata Morgana mirages are most common in polar regions, especially over large sheets of ice with a uniform low temperature, but they can be observed almost anywhere. In polar regions, a Fata Morgana may be observed on cold days; in desert areas and over oceans and lakes, a Fata Morgana may be observed on hot days. For a Fata Morgana, temperature inversion has to be strong enough that light rays' curvatures within the inversion are stronger than the curvature of Earth.\n[…]\nFata Morgana mirages may be observed from any altitude within Earth's atmosphere, including from mountaintops or airplanes.\n[…]\nThe conditions for producing a mirage can occur at night as well as during the day. Under some circumstances mirages of astronomical objects and mirages of lights from moving vehicles, aircraft, ships, buildings, etc. can be observed at night.\n[…]\nA mirage of an astronomical object is a naturally occurring optical phenomenon in which light rays are bent to produce distorted or multiple images of an astronomical object. Mirages can be observed for such astronomical objects as the Sun, the Moon, the planets, bright stars, and very bright comets. The most commonly observed are sunset and sunrise mirages.\n[…]\nAll kind of mirages explained\n[…]\nChina daily, rare mirage in Penglai\n[…]\nThe superior mirage\n[…]\nThe inferior mirage\n[…]\nThe highway mirage\n[…]\nFata Morgana Mirage from the Continental Divide Trail\n[…]\nBowley, Roger (2009). \"Mirages\". Sixty Symbols. Brady Haran for the University of Nottingham."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Miragem",
+        "situacao": "ok",
+        "texto": "Uma miragem é um fenômeno óptico natural no qual os raios de luz se curvam por refração, formando uma imagem deslocada de objetos distantes ou do céu. O termo inglês mirage chegou ao inglês pelo francês (se) mirer, derivado do latim mirari, que significa \"olhar para, admirar-se\".\n[…]\nA tremulação térmica, também chamada de ondulação térmica, é a miragem inferior observada quando se veem objetos através de uma massa de ar aquecido. Ela ocorre com frequência em imagens vistas sobre asfalto, estradas e telhados de alvenaria em dias quentes, acima e atrás de fogo, como em velas, aquecedores externos e fogueiras, e através dos gás de escape de motores a jato. Quando surge em estradas por causa do asfalto quente, costuma ser chamada de \"miragem de estrada\".\n[…]\nA luz do céu que chega em ângulo raso em relação à estrada é refratada pelo gradiente do índice, fazendo parecer que o céu está refletido na superfície da pista. Isso pode se parecer com uma poça de líquido, geralmente água, mas também óleo ou outro líquido que reflita o céu. À medida que o observador se aproxima do objeto que produz a miragem, a ilusão se afasta, criando um efeito semelhante ao de se aproximar de um arco-íris.\n[…]\nUma miragem superior ocorre quando a imagem da miragem parece ficar acima do objeto real. Ela se forma quando o ar abaixo da linha de visada está mais frio do que o ar acima. Esse arranjo incomum é chamado de inversão térmica. Durante o dia, o gradiente normal de temperatura da atmosfera tem ar frio acima de ar quente. Ao atravessar a inversão, os raios de luz se curvam para baixo e a imagem aparece acima da posição real do objeto, daí o nome \"superior\".\n[…]\nMiragem de estrada (em inglês)\n[…]\nBowley, Roger (2009). «Mirages». Sixty Symbols (em inglês). Brady Haran para a Universidade de Nottingham"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Harald Bohr",
+      "descricao": "Matemático dinamarquês (1887–1951), irmão do físico Niels Bohr e medalhista olímpico em 1908."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O matemático Harald Bohr, irmão do físico Niels Bohr, ganhou a medalha de prata nos Jogos Olímpicos de 1908 em que esporte?",
+    "resposta": "Futebol",
+    "distratores": [
+      "Remo",
+      "Esgrima",
+      "Atletismo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harald_Bohr"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harald_Bohr",
+        "situacao": "ok",
+        "texto": "Harald August Bohr (22 April 1887 – 22 January 1951) was a Danish mathematician and footballer. After receiving his doctorate in 1910, Bohr became an eminent mathematician, founding the field of almost periodic functions. His brother was the Nobel Prize-winning physicist Niels Bohr. He was on the Denmark national team for the 1908 Summer Olympics, where he won a silver medal.\n[…]\nBohr was known as a good teacher, and the annual award for outstanding teaching at the University of Copenhagen is called the Harald, in honour of Harald Bohr. With Johannes Mollerup, Bohr wrote an influential four-volume textbook Lærebog i Matematisk Analyse (Textbook in mathematical analysis).\n[…]\nBohr was also an excellent football player. He had a long playing career with Akademisk Boldklub, making his debut as a 16-year-old in 1903. During the 1905 season he played alongside his brother Niels, who was a goalkeeper. Harald was selected to play for the Denmark national team in the 1908 Summer Olympics, where football was an official event for the first time.\n[…]\nThough a Danish side had played at the 1906 Intercalated Games, the opening match of the 1908 Olympic tournament was Denmark's first official international football match. Bohr scored two goals as Denmark beat the French \"B\" team 9–0. In the next match, the semi-final, Bohr played in a 17–1 win against France, which remains an Olympic record. Denmark faced hosts Great Britain in the final, but lost 2–0, and Bohr won a silver medal.\n[…]\nBohr–Mollerup theorem\n[…]\nBohr compactification\n[…]\nBohr–Favard inequality\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Harald Bohr\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nHarald Bohr national team profile at the Danish Football Association (in Danish)\n[…]\nSome photos of Harald Bohr\n[…]\nMedia related to Harald Bohr (mathematician) at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Harald_Bohr",
+        "situacao": "ok",
+        "texto": "Harald August Bohr (22 de abril de 1887 — 22 de janeiro de 1951) foi um matemático e futebolista dinamarquês, medalhista olímpico.\n[…]\nFilho de Christian Bohr, irmão do físico Niels Bohr. Harold competiu nos Jogos Olímpicos de Verão de 1908 em Londres. Ele ganhou a medalha de prata.\n[…]\nBohr nasceu em 1887, filho de Christian Bohr, professor de fisiologia, de formação luterana, e Ellen Adler Bohr, mulher de uma rica família judia de renome local. Harald tinha uma estreita relação com seu irmão mais velho, que The Times comparado àquele entre o capitão Cuttle e Capitão Bunsby em Charles Dickens' Dombey and Son.\n[…]\nComo seu pai e irmão antes dele, em 1904 Bohr matriculou-se na Universidade de Copenhagen, onde estudou matemática, obtendo seu mestrado em 1909 e seu doutorado um ano depois. Entre seus tutores estavam Hieronymus Georg Zeuthen e Thorvald N. Thiele. Bohr trabalhou em análise matemática; muito de seu trabalho inicial foi dedicado à série de Dirichlet, incluindo seu doutorado, que foi intitulado Bidrag til de Dirichletske Rækkers Theori (Contribuições para a Teoria da Série de Dirichlet).\n[…]\nBohr era conhecido como um professor acadêmico extremamente capaz e o prêmio anual para o ensino de destaque na Universidade de Copenhagen é chamado de Harald, em homenagem a Harald Bohr. Com Johannes Mollerup, Bohr escreveu um livro-texto influente em quatro volumes, Lærebog i Matematisk Analyze.\n[…]\nErling Følner, Børge Jessen (eds.): Collected Mathematical Works of Harald Bohr, 3 Bände, Kopenhagen: Dansk Matematisk Forening, 1950–1952.\n[…]\nSome photos of Harald Bohr",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Roberto Landell de Moura",
+      "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro da transmissão de voz por ondas de rádio."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que padre gaúcho, pioneiro das transmissões de voz sem fio, obteve patentes de seus aparelhos nos Estados Unidos em 1904?",
+    "resposta": "Roberto Landell de Moura",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+      "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "situacao": "ok",
+        "texto": "Roberto Landell de Moura (Porto Alegre, 21 de janeiro de 1861 – Porto Alegre, 30 de junho de 1928) foi um padre católico, cientista e inventor escoto-brasileiro.\n[…]\nNem a invenção do sistema de transmitir a palavra a distâncias é recente nem foi um inglês o primeiro sábio que resolveu satisfatoriamente esse árduo problema, que envolveu os mais intricados princípios físico-químicos que podem oferecer-se a ciência humana. O que primeiro penetrou e descobriu os grandes segredos da telúrica etérea com glória e proveito, faz pouco mais ou menos um ano foi um brasileiro, foi o nobre sábio o padre Roberto Landell de Moura.\n[…]\nPorque acompanhei passo a passo o estudo de seus inventos sobre telegrafia e telefonia, com e sem fios; porque fui testemunha presencial de várias experiências, todas prodigiosas; e porque tive a honra de me ocupar do sábio e de suas eminentes obras em dois artigos publicados em El Diário Español, de São Paulo, artigos que mereceram a honra de ser reproduzidos no Rio de Janeiro, no Jornal do Comércio, por tudo isto, julgo-me obrigado, agora a sair em defesa do direito de prioridade que assiste ao benemérito brasileiro o padre Roberto Landell de Moura, no que tange à transmissão da palavra falada sem necessidade de fios.\n[…]\nCom os bons resultados obtidos, em 9 de março de 1901 Landell de Moura conseguiu obter a primeira patente brasileira para um “aparelho destinado à transmissão fonética à distância, com fio ou sem fio, através do espaço, da terra e do elemento aquoso”. Diante disso, a Igreja reconheceu o seu mérito e autorizou que iniciasse em 14 de junho uma excursão científica, que passou pela Itália, França e Estados Unidos."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "situacao": "ok",
+        "texto": "Father Roberto Landell de Moura (January 21, 1861 – June 30, 1928), commonly known as Roberto Landell, was a Brazilian Roman Catholic priest and inventor. He is best known for his attempts in the 1880s to develop long-distance audio transmissions device that combined an improved megaphone device and a photophone (using light beams).\n[…]\nLandell received patents in Brazil and the United States during the first decade of the 1900s in which he also included designs that he claimed could transmit voice using radio waves.\n[…]\nRoberto Landell de Moura was born in Porto Alegre, Brazil in 1861. His father was Ignacio de Moura, and he had five brothers: João, Edmundo and Ricardo (all apothecaries), Dr. Ignacio Landell, a physician, and Pedro Landell de Moura, a São Paulo merchant. He was ordained to the Catholic priesthood in 1886 in Rome, and also conducted studies in the physical sciences.\n[…]\nUltimately, Landell was issued three U.S. patents covering his work:\n[…]\nthe existing evidence points, therefore, to the success of Landell de Moura in the transmission and reception of voice even though the quality did not allow the immediate practical application of the devices created by the Brazilian. The improvement of these in the national territory would depend on a significant contribution of resources based on an awareness of the strategic importance of such technology. Consciousness that did not exist in Brazil then.\n[…]\nMedia related to Roberto Landell de Moura at Wikimedia Commons\n[…]\nWorks by or about Landell de Moura at Wikisource\n[…]\n\"Inventário do Acervo Padre Roberto Landell de Moura: Série Produção Intelectual. Subsérie Estudos\" (Collection of Landell papers). Instituto Histórico e Geográfico do Rio Grande do Sul. (ihgrgs.org.br)\n[…]\nSelected articles about Roberto Landell  (landelldemoura.com.br)"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Andrei Sakharov",
+      "descricao": "Físico nuclear soviético (1921–1989), um dos criadores da bomba de hidrogênio soviética e Nobel da Paz de 1975."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que físico soviético, um dos criadores da bomba de hidrogênio do seu país, virou defensor dos direitos humanos e ganhou o Nobel da Paz em 1975?",
+    "resposta": "Andrei Sakharov",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andrei_Sakharov",
+      "https://pt.wikipedia.org/wiki/Andrei_Sakharov"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Andrei_Sakharov",
+        "situacao": "ok",
+        "texto": "Andrei Dmitrievich Sakharov (Russian: Андрей Дмитриевич Сахаров; 21 May 1921 – 14 December 1989) was a Soviet physicist and a Nobel Peace Prize laureate, which he was awarded in 1975 for emphasizing human rights around the world.\n[…]\nSakharov Prize\n[…]\nDornan, Peter (1975). \"Andrei Sakharov: the conscience of a liberal scientist\". In Tökés, Rudolf (ed.). Dissent in the USSR: politics, ideology, and people. Johns Hopkins University Press. pp. 354–417. ISBN 978-0-8018-1661-1.\n[…]\nDrell, Sidney; Okun, Lev (August 1990). \"Andrei Dmitrievich Sakharov\". Physics Today. 43 (8): 26. Bibcode:1990PhT....43h..26D. doi:10.1063/1.881252.\n[…]\nGorelik, Gennady (July 2002). \"The metamorphosis of Andrei Sakharov: the inventor of the Soviet hydrogen bomb became an advocate of peace and human rights. What led him to his fateful decision?\" (PDF). Scientific American: 27–30. Archived from the original (PDF) on April 5, 2016. Retrieved April 5, 2016.\n[…]\nKuptz, Kirsten (2004). Dissent in the Soviet Union: the role of Andrei Sakharov in the human rights movement. GRIN Verlag. ISBN 978-3638278348.\n[…]\nRhéaume, Charles (February 2008). \"Western scientists' reactions to Andrei Sakharov's human rights struggle in the Soviet Union, 1968–1989\". Human Rights Quarterly. 30 (1): 1–20. doi:10.1353/hrq.2008.0004. JSTOR 20486694. S2CID 144447151.\n[…]\nWeeks, Albert (1975). Andrei Sakharov and the Soviet dissidents: a critical commentary. Monarch Press. ISBN 978-0671009632.\n[…]\nAndrei Sakharov: Soviet Physics, Nuclear Weapons, and Human Rights Archived June 26, 2015, at the Wayback Machine. Web exhibit at the American Institute of Physics.\n[…]\nAndrei Sakharov on Nobelprize.org\n[…]\nVáclav Havel and Soviet Dissidents, 8 min, watch Andrei Sakharov's interview since 2:05 on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Andrei_Sakharov",
+        "situacao": "ok",
+        "texto": "Andrei Dmitrievich Sakharov (em russo:  Андре́й Дми́триевич Са́харов; Moscou, 21 de maio de 1921 – Moscou, 14 de dezembro de 1989) foi um físico nuclear soviético.\n[…]\nEle ganhou fama como designer da terceira ideia da União Soviética, um codinome para o desenvolvimento soviético de armas termonucleares. Sakharov era um defensor das liberdades civis e reformas civis na União Soviética. Foi agraciado com o Prêmio Nobel da Paz em 1975 pela sua luta pelos direitos humanos. O Prémio Sakharov, atribuído anualmente pelo Parlamento Europeu para as pessoas e organizações dedicadas aos direitos humanos e liberdades, é nomeado em sua honra.\n[…]\nSakharov, Andrei (1975). My country and the world. [S.l.]: Knopf. ISBN 978-0-394-40226-0\n[…]\nSakharov, Andrei (1978). Alarm and hope. The world-renowned Nobel laureate and political dissident speaks out on human rights, disarmament, and détente. [S.l.]: Knopf. ISBN 978-0-394-50369-1\n[…]\nSakharov, Andrei (1974). О письме Александра Солженицына \"Вождям Советского Союза\" [On Alexander Solzhenitsyn's \"A Letter to the Soviet Leaders\"] (em russo). New York: Khronika. OCLC 2326203\n[…]\nSakharov, Andrei (novembro de 1975). «The need for an open world: Andrei Sakharov calls on scientists to intensify the campaign for a nuclear weapons ban and full disarmament». Bulletin of the Atomic Scientists: 8–9. doi:10.1080/00963402.1975.11458291\n[…]\nSakharov, Andrei (1975). «Sakharov's statement on Jackson amendment». Index on Censorship. 4 (1): 73–74. doi:10.1080/03064227508532405\n[…]\nPrêmio Sakharov\n[…]\nSakharov, Andrei, Facets of a Life, Frontieres, 1991. ISBN 978-2-86332-096-9\n[…]\nDeutsche Welle - 1986: Reabilitação de Andrei Sakharov"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "William Lawrence Bragg",
+      "descricao": "Físico australiano-britânico (1890–1971) que dividiu o Nobel de Física de 1915 pela análise de cristais com raios X."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que parentesco havia entre William Henry Bragg e William Lawrence Bragg, que dividiram o Nobel de Física de 1915?",
+    "resposta": "Pai e filho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lawrence_Bragg",
+      "https://en.wikipedia.org/wiki/William_Henry_Bragg"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lawrence_Bragg",
+        "situacao": "ok",
+        "texto": "Sir William Lawrence Bragg (31 March 1890 – 1 July 1971) was an Australian-born British X-ray crystallographer who uniquely shared a Nobel Prize with his father William Henry Bragg – the 1915 Nobel Prize in Physics \"for their services in the analysis of crystal structure by means of X-rays\", an important step in the development of X-ray crystallography.\n[…]\nWilliam Lawrence Bragg was born on 31 March 1890 in Adelaide, South Australia, the son of William Henry Bragg (1862–1942), who was appointed Elder Professor of Mathematics and Physics at the University of Adelaide in 1885, and Gwendoline Todd (1869–1929), daughter of Charles Todd, government astronomer of South Australia.\n[…]\nThey had four children, the engineer Stephen Lawrence (1923–2014), David William (1926–2005), Margaret Alice (1931–2022) (who married the diplomat Mark Heath), and Patience Mary (1935–2020) (who married David, the son of George Paget Thomson the Nobel prize winning physicist). Alice was on the staff at Withington Girls' School until Bragg was appointed director of the National Physical Laboratory in 1937.\n[…]\nJenkin, John (2008). William and Lawrence Bragg, Father and Son: The Most Extraordinary Collaboration in Science. Oxford: Oxford University Press.\n[…]\nMedia related to William Lawrence Bragg at Wikimedia Commons\n[…]\nLawrence Bragg on Nobelprize.org  including the Nobel Lecture, September 6, 1922 The Diffraction of X-Rays by Crystals\n[…]\nKey Participants: Sir William Lawrence Bragg – Linus Pauling and the Race for DNA: A Documentary History\n[…]\nOral History interview transcript with William Lawrence Bragg on 20 June 1969, American Institute of Physics, Niels Bohr Library and Archives\n[…]\nBragg, Lawrence (Sir) (1890–1971) National Library of Australia, Trove, People and Organisation record for William Lawrence Bragg\n[…]\nPortraits of Lawrence Bragg at the National Portrait Gallery, London"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/William_Henry_Bragg",
+        "situacao": "ok",
+        "texto": "Sir William Henry Bragg (2 July 1862 – 12 March 1942) was a British X-ray crystallographer who uniquely shared a Nobel Prize with his son Lawrence Bragg – the 1915 Nobel Prize in Physics \"for their services in the analysis of crystal structure by means of X-rays,\" an important step in the development of X-ray crystallography.\n[…]\nBoth of his sons, Lawrence and Robert, were called into the army after the First World War broke out in 1914 . The following year, Bragg was appointed Quain Professor of Physics at University College London. He had to wait for almost a year to contribute to the war effort; in July 1915, he was appointed to the Board of Invention and Research set up by the Admiralty. In September, his younger son Robert died of wounds at Gallipoli. In November, he shared the Nobel Prize in Physics with Lawrence.\n[…]\nthesis by a student at an Australian university. The two sides of the medal contain the images of Sir William Henry and his son Sir Lawrence Bragg.\n[…]\nWilliam Henry Bragg, William Lawrence Bragg, \"X Rays and Crystal Structure\", G. Bell & Son, London, 1915.\n[…]\nWilliam Henry Bragg, Old Trades and New Knowledge (1926)\n[…]\nWilliam Henry Bragg, An Introduction to Crystal Analysis (1928)\n[…]\nWilliam Henry Bragg, The Universe of Light (1933)\n[…]\n\"William and Lawrence Bragg, Father and Son: The Most Extraordinary Collaboration in Science\", John Jenkin, Oxford University Press 2008.\n[…]\nWorks by William Henry Bragg at Project Gutenberg\n[…]\nWorks by William Henry Bragg at LibriVox (public domain audiobooks)\n[…]\nWilliam Henry Bragg on Nobelprize.org\n[…]\n\"Cambridge Physicists: William Lawrence Bragg (biography)\". Archived from the original on 21 October 2012. Retrieved 2 July 2024.\n[…]\n\"Annotated Bibliography for William Henry Bragg from the Alsos Digital Library for Nuclear Issues\". 4 August 2010. Archived from the original on 4 August 2010."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/William_Lawrence_Bragg",
+        "situacao": "ok",
+        "texto": "William Lawrence Bragg, CH OBE MC FRS (Adelaide, 31 de março de 1890 — Ipswich, 1 de julho de 1971) foi um físico australiano.\n[…]\nBragg nasceu em North Adelaide, sul da Austrália. Ele demonstrou um interesse precoce em ciências e matemática. Seu pai, William Henry Bragg, era Professor de Matemática e Física na Universidade de Adelaide. Pouco depois de começar a escola aos 5 anos, William Lawrence Bragg caiu de seu triciclo e quebrou o braço.\n[…]\nRecebeu em 1915, juntamente com seu pai William Henry Bragg, o Nobel de Física, por trabalhos na análise da estrutura cristalina através da difração de raios-X. É, até a data, a pessoa mais jovem a ter sido contemplada com um prêmio Nobel de Física: tinha, na época, apenas 25 anos de idade.\n[…]\nFoi Professor Cavendish de Física, de 1938 a 1953. Recebeu o Doutoramento Honoris Causa da Universidade de Lisboa em 1945.\n[…]\nWilliam Lawrence Bragg em Nobelprize.org\n[…]\n«Perfil no sítio oficial do Nobel de Física 1915» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Albert Einstein",
+      "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1952, Albert Einstein recebeu e recusou o convite para ser presidente de que país?",
+    "resposta": "Israel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "situacao": "ok",
+        "texto": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services t\n[…]\nAfterward, Einstein adopted a practical attitude, understanding that \"there is no going back\", and the new state must be supported. Upon the death of Israeli president Weizmann in November 1952, Prime Minister David Ben-Gurion offered Einstein the largely ceremonial position of President of Israel at the urging of Ezriel Carlebach.\n[…]\nThe offer was presented by Israel's ambassador in Washington, Abba Eban, who explained that the offer \"embodies the deepest respect which the Jewish people can repose in any of its sons\". Einstein wrote that he was \"deeply moved\", but \"at once saddened and ashamed\" that he could not accept it. Einstein did not want the office, and the Israeli government did not want him to accept, but felt obliged to make the offer.\n[…]\nEinstein was working with Israeli diplomats and preparing a major address supporting Israel to be timed for the state's seventh anniversary in 1955, but died shortly before he could give it.\n[…]\nOn 17 April 1955, Einstein experienced internal bleeding caused by the rupture of an abdominal aortic aneurysm, which had previously been reinforced surgically by Rudolph Nissen in 1948. He took the draft of a speech he was preparing for a television appearance commemorating the state of Israel's seventh anniversary with him to the hospital, but he did not live to complete it.\n[…]\nEinstein bequeathed his personal archives, library, and intellectual assets to the Hebrew University of Jerusalem in Israel.\n[…]\nAlbert Einstein in FBI Records: The Vault"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Albert_Einstein",
+        "situacao": "ok",
+        "texto": "Albert Einstein (Ulm, 14 de março de 1879 – Princeton, 18 de abril de 1955) foi um físico teórico alemão que desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica.\n[…]\nEm outubro do mesmo ano recebeu os membros da mesma universidade para uma confraternização em sua casa em Princeton. Depois da morte do primeiro presidente de Israel, Chaim Weizmann, em novembro de 1952, o primeiro-ministro David Ben-Gurion lhe ofereceu a posição, um cargo principalmente cerimonial em um sistema que investia mais poder no primeiro-ministro e o gabinete.\n[…]\nSchrödinger a aplicou para derivar as propriedades termodinâmicas de um gás ideal semiclássico. Schrödinger pediu que adicionasse seu nome como coautor, mas Einstein recusou o convite.\n[…]\nEinstein não era nacionalista e opunha-se à criação de um Estado judaico independente. Ele acreditava que os judeus que chegavam por meio da Aliá poderiam conviver com a população árabe já existente na Palestina. O Estado de Israel foi estabelecido em 1948 sem a sua participação; Einstein desempenhou apenas um papel marginal no movimento sionista. Posteriormente, ele adotou uma postura pragmática, compreendendo que \"não havia como voltar atrás\" e que o novo Estado deveria ser apoiado.\n[…]\nEm dezembro de 1952, Albert Ghiorso, trabalhando na Universidade da Califórnia em Berkeley, descobriu um novo elemento ao analisar resíduos da detonação da primeira bomba H. Para homenagear Einstein, este novo elemento, o de número 99 na tabela periódica, recebeu o nome Einstênio. No cinema foi interpretado pelos atores Walter Matthau em I.Q. (1994)  e por Tom Conti em Oppenheimer (2023).\n[…]\n«Arquivos Online» (em inglês). de Albert Einstein",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Alessandro Volta",
+      "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica)."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que governante francês, admirador da pilha elétrica, concedeu a Alessandro Volta o título de conde?",
+    "resposta": "Napoleão Bonaparte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alessandro_Volta"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+        "situacao": "ok",
+        "texto": "Alessandro Giuseppe Antonio Anastasio Volta (18 February 1745 – 5 March 1827) was an Italian chemist and physicist who was a pioneer of electricity and power, and is credited as the inventor of the electric battery and the discoverer of methane. He invented the voltaic pile in 1799, and reported the results of his experiments in a two-part letter to the president of the Royal Society in London, wh\n[…]\nVolta drew admiration from Napoleon Bonaparte for his invention, and was invited to the Institute of France to demonstrate his invention to the members of the institute. Throughout his life, Volta enjoyed a certain amount of closeness with the emperor who conferred upon him numerous honours. Volta held the chair of experimental physics at the University of Pavia for nearly 40 years and was widely idolised by his students.\n[…]\nAt the University History Museum of the University of Pavia there are 150 of them, used by Alessandro Volta.\n[…]\nIn 1809, Volta became an associated member of the Royal Institute of the Netherlands. In honour of his work, Volta was made a count by Napoleon Bonaparte in 1810.\n[…]\nIn the Old Campus of the University of Pavia, there is the classroom (Aula Volta) commissioned by Emperor Joseph II to Leopoldo Pollack in 1787 for the lectures of Alessandro Volta, while in the University History Museum there are many scientific instruments that belonged to Volta.\n[…]\nVolta (lunar crater)\n[…]\nVolta Prize\n[…]\nHerbermann, Charles, ed. (1913). \"Alessandro Volta\" . Catholic Encyclopedia. New York: Robert Appleton Company.\n[…]\nVolta and the \"Pile\"\n[…]\nAlessandro Volta Archived 2 January 2010 at the Wayback Machine\n[…]\nCount Alessandro Volta\n[…]\nChisholm, Hugh, ed. (1911). \"Volta, Alessandro\" . Encyclopædia Britannica. Vol. 28 (11th ed.). Cambridge University Press. p. 198.\n[…]\nLife of Alessandro Volta: Biography; Inventions; Facts\n[…]\nAlessandro Volta | Biography, Facts, Battery, & Invention | Britannica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alessandro_Volta",
+        "situacao": "ok",
+        "texto": "Alessandro Giuseppe Antonio Anastasio Volta (18 de fevereiro de 1745 – 5 de março de 1827) foi um químico, físico e pioneiro da eletricidade e da potência, creditado como o inventor da pilha voltaica e o descobridor do metano. Ele inventou a pilha voltaica em 1799 e relatou os resultados de suas experiências em 1800 em uma carta de duas partes para o presidente da Royal Society.\n[…]\nAlessandro Volta atraiu admiração de Napoleão Bonaparte por sua invenção e foi convidado para o Institut de France para demonstrar sua invenção aos seus membros. Volta desfrutou de certa dose de proximidade com o imperador durante toda a sua vida e foi conferido numerosas honrarias por ele. Alessandro Volta ocupou a cadeira de física experimental na Universidade de Pavia por quase 40 anos e foi amplamente idolatrado por seus alunos.\n[…]\nEm setembro de 1801, Volta viajou a Paris aceitando um convite do imperador Napoleão Bonaparte, para mostrar as características de seu invento (a pilha de Volta) no Institut de France. Em honra ao seu trabalho no campo de electricidade, Napoleão Bonaparte o nomeou conde em 1810.\n[…]\nPosteriormente, na tentativa de produzir efeitos elétricos mais fortes, a partir de pares metálicos, nasceu o que chamaremos de pilha.\n[…]\nVolta descobriu então que uma força eletromotriz seria gerada quando dois metais heterogêneos eram colocados em contato. Em 1800 Volta idealizou a pilha voltaica, predecessora da bateria elétrica, onde ele dispôs diversos discos metálicos empilhados em série, separados por discos de feltro encharcados de solução condutora.\n[…]\nA pilha voltaica foi ainda utilizada por outros cientistas, como o médico e fisiologista Luigi Rolando (1773-1831), que estimulou o cérebro humano, concluindo que partes do órgão eram eletricamente estimuláveis, dando inicio e abrindo caminho para a área da neurociência.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

@@ -1,0 +1,1226 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "CERN",
+        "descricao": "Organização Europeia para a Pesquisa Nuclear, laboratório de física de partículas fundado em 1954 na fronteira franco-suíça.",
+        "variantes": [
+          "Organização Europeia para a Pesquisa Nuclear",
+          "European Organization for Nuclear Research"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/CERN"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O CERN, laboratório europeu de física de partículas, fica na fronteira entre a França e a Suíça, nos arredores de que cidade?",
+      "resposta": "Genebra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/CERN"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Teste Trinity",
+        "descricao": "Primeira detonação de uma bomba atômica, realizada pelos Estados Unidos em 16 de julho de 1945.",
+        "variantes": [
+          "Trinity",
+          "Experiência Trinity"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em julho de 1945, a primeira bomba atômica da história foi detonada num teste no deserto de que estado americano?",
+      "resposta": "Novo México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Chicago Pile-1",
+        "descricao": "Primeiro reator nuclear artificial, construído pela equipe de Enrico Fermi e posto em funcionamento em dezembro de 1942.",
+        "variantes": [
+          "CP-1",
+          "Pilha de Chicago"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1942, o primeiro reator nuclear artificial, montado pela equipe de Enrico Fermi, ficava sob as arquibancadas de um estádio de que universidade americana?",
+      "resposta": "Universidade de Chicago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "pendulo_de_foucault",
+        "nome": "Pêndulo de Foucault",
+        "descricao": "Experimento com um longo pêndulo cujo plano de oscilação gira, demonstrando a rotação da Terra.",
+        "variantes": [
+          "Foucault pendulum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Foucault_pendulum"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1851, numa demonstração pública famosa, Léon Foucault pendurou seu pêndulo sob a cúpula de que monumento de Paris?",
+      "resposta": "Panteão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Foucault_pendulum",
+        "https://pt.wikipedia.org/wiki/Pêndulo_de_Foucault"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Sirius (acelerador de partículas)",
+        "descricao": "Fonte brasileira de luz síncrotron, acelerador de partículas do Laboratório Nacional de Luz Síncrotron, inaugurado em 2018.",
+        "variantes": [
+          "Sirius",
+          "Projeto Sirius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_Synchrotron_Light_Laboratory"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Sirius, acelerador de partículas brasileiro que produz luz síncrotron para pesquisas, foi construído em que cidade do interior paulista?",
+      "resposta": "Campinas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazilian_Synchrotron_Light_Laboratory",
+        "https://pt.wikipedia.org/wiki/Laboratório_Nacional_de_Luz_Síncrotron"
+      ],
+      "distratores": [
+        "São Carlos",
+        "São José dos Campos",
+        "Ribeirão Preto"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "alessandro_volta",
+        "nome": "Alessandro Volta",
+        "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica).",
+        "variantes": [
+          "Volta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alessandro_Volta"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Alessandro Volta, inventor da pilha elétrica, nasceu em 1745 em que cidade do norte da Itália?",
+      "resposta": "Como",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alessandro_Volta",
+        "https://pt.wikipedia.org/wiki/Alessandro_Volta"
+      ],
+      "distratores": [
+        "Pavia",
+        "Milão",
+        "Bérgamo"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "stephen_hawking",
+        "nome": "Stephen Hawking",
+        "descricao": "Físico teórico e cosmólogo inglês, professor lucasiano em Cambridge, conhecido por estudos sobre buracos negros.",
+        "variantes": [
+          "Stephen William Hawking"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, as cinzas de Stephen Hawking foram depositadas perto dos túmulos de Isaac Newton e Charles Darwin, em que igreja de Londres?",
+      "resposta": "Abadia de Westminster",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stephen_Hawking"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Christian Doppler",
+        "descricao": "Físico austríaco (1803–1853) que descreveu o efeito Doppler.",
+        "variantes": [
+          "Christian Andreas Doppler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christian_Doppler"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O físico Christian Doppler, que explicou por que a sirene da ambulância muda de tom ao passar, nasceu em 1803 em que cidade da Áustria?",
+      "resposta": "Salzburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Christian_Doppler",
+        "https://pt.wikipedia.org/wiki/Christian_Doppler"
+      ],
+      "distratores": [
+        "Viena",
+        "Innsbruck",
+        "Graz"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Protótipo Internacional do Quilograma",
+        "descricao": "Cilindro de platina e irídio que serviu de padrão do quilograma de 1889 até a redefinição da unidade em 2019.",
+        "variantes": [
+          "Grand K",
+          "Le Grand K",
+          "International Prototype of the Kilogram"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Até 2019, o quilograma era definido por um pequeno cilindro de metal guardado num cofre nos arredores de que cidade?",
+      "resposta": "Paris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Conferência de Solvay de 1927",
+        "descricao": "Quinta Conferência de Solvay, encontro de físicos sobre mecânica quântica famoso pela foto que reúne Einstein, Marie Curie e Bohr.",
+        "variantes": [
+          "Quinta Conferência de Solvay",
+          "Solvay Conference 1927"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Solvay_Conference"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A célebre foto de 1927 que reúne Einstein, Marie Curie e Niels Bohr foi tirada numa conferência de física em que capital europeia?",
+      "resposta": "Bruxelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solvay_Conference"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Relatividade geral",
+        "descricao": "Teoria da gravitação de Albert Einstein, apresentada em 1915, que descreve a gravidade como curvatura do espaço-tempo.",
+        "variantes": [
+          "Teoria da relatividade geral",
+          "General relativity"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/General_relativity"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Albert Einstein apresentou a teoria da relatividade geral em Berlim, em novembro de 1915, em meio a que conflito?",
+      "resposta": "Primeira Guerra Mundial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/General_relativity",
+        "https://en.wikipedia.org/wiki/History_of_general_relativity"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Laser",
+        "descricao": "Dispositivo que emite luz concentrada e coerente por emissão estimulada de radiação.",
+        "variantes": [
+          "LASER"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laser"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o americano Theodore Maiman fez funcionar o primeiro laser?",
+      "resposta": "1960",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laser",
+        "https://en.wikipedia.org/wiki/Theodore_Maiman"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Metro",
+        "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+        "variantes": [
+          "Metro (unidade)",
+          "Metre",
+          "Meter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Metre"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O metro, unidade de comprimento usada no Brasil, foi criado na França durante que grande acontecimento político?",
+      "resposta": "Revolução Francesa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Metre",
+        "https://en.wikipedia.org/wiki/History_of_the_metre"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Caso Galileu",
+        "descricao": "Conflito entre Galileu Galilei e a Igreja Católica, que levou à sua condenação pela Inquisição em 1633.",
+        "variantes": [
+          "Processo de Galileu",
+          "Julgamento de Galileu",
+          "Galileo affair"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_affair"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o papa João Paulo Segundo reconheceu publicamente que teólogos da Igreja erraram ao condenar Galileu?",
+      "resposta": "1992",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galileo_affair"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "telescopio",
+        "nome": "Telescópio",
+        "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+        "variantes": [
+          "Telescope"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Telescope"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano um fabricante de lentes holandês fez o pedido de patente mais antigo que se conhece de um telescópio?",
+      "resposta": "1608",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Telescope",
+        "https://en.wikipedia.org/wiki/Hans_Lipperhey"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Bell X-1",
+        "descricao": "Avião-foguete americano com o qual Chuck Yeager superou a velocidade do som em voo nivelado em 1947.",
+        "variantes": [
+          "X-1",
+          "Glamorous Glennis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bell_X-1"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano o piloto Chuck Yeager, a bordo do avião-foguete Bell X-1, voou oficialmente mais rápido que o som pela primeira vez?",
+      "resposta": "1947",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bell_X-1",
+        "https://en.wikipedia.org/wiki/Chuck_Yeager"
+      ],
+      "distratores": [
+        "1939",
+        "1953",
+        "1961"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "eletron",
+        "nome": "Elétron",
+        "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897.",
+        "variantes": [
+          "Electron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Electron"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Qual destas partículas subatômicas foi descoberta primeiro?",
+      "resposta": "Elétron",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Electron",
+        "https://en.wikipedia.org/wiki/Proton",
+        "https://en.wikipedia.org/wiki/Neutron"
+      ],
+      "distratores": [
+        "Próton",
+        "Nêutron",
+        "Pósitron"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Uma Breve História do Tempo",
+        "descricao": "Livro de divulgação científica de Stephen Hawking sobre cosmologia, publicado em 1988.",
+        "variantes": [
+          "A Brief History of Time"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/A_Brief_History_of_Time"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi lançado o best-seller Uma Breve História do Tempo, de Stephen Hawking?",
+      "resposta": "1988",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/A_Brief_History_of_Time"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar que voa graças ao ar aquecido dentro de um grande envelope de tecido.",
+        "variantes": [
+          "Hot air balloon",
+          "Montgolfière"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hot_air_balloon"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano um balão de ar quente dos irmãos Montgolfier levou pessoas ao céu pela primeira vez, em Paris?",
+      "resposta": "1783",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "https://en.wikipedia.org/wiki/Hot_air_balloon"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "",
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar que voa graças ao ar aquecido dentro de um grande envelope de tecido.",
+        "variantes": [
+          "Hot air balloon",
+          "Montgolfière"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hot_air_balloon"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Sem motor nem hélice, por que um balão de ar quente consegue subir?",
+      "resposta": "O ar quente é menos denso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hot_air_balloon"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Fissão nuclear",
+        "descricao": "Divisão do núcleo de um átomo pesado em núcleos menores, com liberação de energia, descoberta em 1938.",
+        "variantes": [
+          "Fissão",
+          "Nuclear fission"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nuclear_fission"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1938, que químico alemão descobriu a fissão nuclear com Fritz Strassmann e depois recebeu sozinho o Nobel de Química?",
+      "resposta": "Otto Hahn",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Otto_Hahn",
+        "https://en.wikipedia.org/wiki/Nuclear_fission"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Termômetro de mercúrio",
+        "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata com o calor, criado no início do século dezoito.",
+        "variantes": [
+          "Termômetro de vidro com mercúrio",
+          "Mercury-in-glass thermometer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que fabricante de instrumentos, autor dos primeiros termômetros de mercúrio bem-sucedidos, criou a escala de temperatura usada nos Estados Unidos?",
+      "resposta": "Daniel Gabriel Fahrenheit",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+        "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Experimento de Cavendish",
+        "descricao": "Experimento de 1798 com uma balança de torção que mediu a atração gravitacional entre esferas e permitiu calcular a densidade da Terra.",
+        "variantes": [
+          "Experiência de Cavendish",
+          "Cavendish experiment"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cavendish_experiment"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Usando uma balança de torção, que cientista inglês ficou conhecido por ter, em 1798, pesado a Terra?",
+      "resposta": "Henry Cavendish",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cavendish_experiment"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Modelo atômico de Thomson",
+        "descricao": "Modelo de átomo de 1904, apelidado de pudim de passas, com elétrons espalhados numa esfera de carga positiva.",
+        "variantes": [
+          "Pudim de passas",
+          "Plum pudding model"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plum_pudding_model"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O modelo atômico apelidado de pudim de passas, em que os elétrons ficam espalhados numa bola de carga positiva, foi proposto por qual físico britânico?",
+      "resposta": "J. J. Thomson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plum_pudding_model"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Deus não joga dados",
+        "descricao": "Frase atribuída a Albert Einstein, numa carta a Max Born de 1926, expressando sua desconfiança do acaso na mecânica quântica.",
+        "variantes": [
+          "God does not play dice"
+        ],
+        "fontes": [
+          "https://en.wikiquote.org/wiki/Albert_Einstein"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Desconfiado do papel do acaso na mecânica quântica, que físico escreveu numa carta a Max Born que Deus não joga dados?",
+      "resposta": "Albert Einstein",
+      "fonte": [
+        "https://en.wikiquote.org/wiki/Albert_Einstein",
+        "https://en.wikipedia.org/wiki/Bohr–Einstein_debates"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Sobre ombros de gigantes",
+        "descricao": "Metáfora sobre o progresso do conhecimento, imortalizada numa carta de Isaac Newton a Robert Hooke.",
+        "variantes": [
+          "Standing on the shoulders of giants",
+          "Ombros de gigantes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Numa carta ao rival Robert Hooke, que cientista escreveu que, se viu mais longe, foi por estar sobre ombros de gigantes?",
+      "resposta": "Isaac Newton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Dê-me um ponto de apoio e moverei o mundo",
+        "descricao": "Frase atribuída pela tradição a Arquimedes, sobre o poder da alavanca.",
+        "variantes": [
+          "Dai-me uma alavanca e um ponto de apoio e moverei o mundo"
+        ],
+        "fontes": [
+          "https://en.wikiquote.org/wiki/Archimedes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, que sábio grego, falando sobre o poder da alavanca, disse: dê-me um ponto de apoio e moverei o mundo?",
+      "resposta": "Arquimedes",
+      "fonte": [
+        "https://en.wikiquote.org/wiki/Archimedes",
+        "https://en.wikipedia.org/wiki/Lever"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Relógio de pêndulo",
+        "descricao": "Relógio que usa um pêndulo para marcar o tempo, inventado em 1656.",
+        "variantes": [
+          "Pendulum clock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pendulum_clock"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1656, que cientista construiu o primeiro relógio de pêndulo, muito mais preciso que os relógios anteriores?",
+      "resposta": "Christiaan Huygens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pendulum_clock",
+        "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+      ],
+      "distratores": [
+        "Galileu Galilei",
+        "Robert Hooke",
+        "Isaac Newton"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Hemisférios de Magdeburgo",
+        "descricao": "Par de hemisférios de cobre usado por Otto von Guericke para demonstrar a força da pressão atmosférica sobre o vácuo.",
+        "variantes": [
+          "Magdeburg hemispheres"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magdeburg_hemispheres"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Otto von Guericke mostrou a força do vácuo com dois hemisférios de metal que parelhas de cavalos não conseguiam separar. Eles levam o nome de que cidade alemã?",
+      "resposta": "Magdeburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Magdeburg_hemispheres"
+      ],
+      "distratores": [
+        "Berlim",
+        "Hamburgo",
+        "Colônia"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Bóson",
+        "descricao": "Classe de partículas, como o fóton e o bóson de Higgs, cujo nome homenageia o físico indiano Satyendra Nath Bose.",
+        "variantes": [
+          "Boson",
+          "Bósons"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boson"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "As partículas chamadas bósons, como o famoso bóson de Higgs, devem seu nome a um físico nascido em que país?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boson",
+        "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Decibel",
+        "descricao": "Unidade logarítmica usada para medir o nível de intensidade sonora, décima parte do bel.",
+        "variantes": [
+          "dB",
+          "Decibel (unidade)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Decibel"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O decibel, unidade usada para medir o volume dos sons, tem esse nome em homenagem a que inventor?",
+      "resposta": "Alexander Graham Bell",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Decibel"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Luigi Galvani",
+        "descricao": "Médico e físico italiano do século dezoito que estudou a eletricidade nos músculos de rãs.",
+        "variantes": [
+          "Galvani"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luigi_Galvani"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que verbo, usado tanto para o ferro revestido de zinco quanto para entusiasmar uma plateia, vem do sobrenome de um cientista italiano do século dezoito?",
+      "resposta": "Galvanizar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galvanization",
+        "https://en.wikipedia.org/wiki/Luigi_Galvani"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Projeto Manhattan",
+        "descricao": "Programa dos Estados Unidos, com apoio britânico e canadense, que desenvolveu as primeiras bombas atômicas na Segunda Guerra Mundial.",
+        "variantes": [
+          "Manhattan Project"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manhattan_Project"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por que o projeto americano que criou a bomba atômica na Segunda Guerra recebeu o nome de Manhattan?",
+      "resposta": "Sua sede inicial ficava em Manhattan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manhattan_Project"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Espalhamento de Rayleigh",
+        "descricao": "Espalhamento da luz por partículas muito menores que seu comprimento de onda, que explica o azul do céu.",
+        "variantes": [
+          "Dispersão de Rayleigh",
+          "Rayleigh scattering"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que o céu de um dia limpo é azul?",
+      "resposta": "O ar espalha mais a luz azul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+        "https://en.wikipedia.org/wiki/Diffuse_sky_radiation"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Gelo",
+        "descricao": "Água no estado sólido, menos densa que a água líquida.",
+        "variantes": [
+          "Ice",
+          "Água congelada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ice"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário da maioria das substâncias, a água sólida não afunda na água líquida. Por que o gelo flutua?",
+      "resposta": "É menos denso que a água líquida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ice"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Refração",
+        "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+        "variantes": [
+          "Refração da luz",
+          "Refraction"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Refraction"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Um canudo dentro de um copo de água parece quebrado na altura da superfície. Que fenômeno da luz causa essa ilusão?",
+      "resposta": "Refração",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Refraction",
+        "https://pt.wikipedia.org/wiki/Refração"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Imponderabilidade",
+        "descricao": "Sensação de ausência de peso vivida por quem está em queda livre, como os astronautas em órbita.",
+        "variantes": [
+          "Ausência de peso",
+          "Microgravidade",
+          "Weightlessness"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Weightlessness"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na altura da Estação Espacial Internacional, a gravidade da Terra ainda é quase tão forte quanto aqui embaixo. Então por que os astronautas flutuam?",
+      "resposta": "Estão em queda livre contínua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Weightlessness"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Grande Colisor de Hádrons",
+        "descricao": "Acelerador de partículas do CERN, instalado num túnel circular subterrâneo perto de Genebra.",
+        "variantes": [
+          "LHC",
+          "Large Hadron Collider"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Large_Hadron_Collider"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O Grande Colisor de Hádrons acelera partículas num túnel circular subterrâneo com cerca de quantos quilômetros de extensão?",
+      "resposta": "Vinte e sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Large_Hadron_Collider"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Zero absoluto",
+        "descricao": "Temperatura mais baixa teoricamente possível, zero na escala Kelvin.",
+        "variantes": [
+          "Absolute zero",
+          "Zero kelvin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Absolute_zero"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O zero absoluto, a temperatura mais baixa possível, corresponde a cerca de quantos graus Celsius negativos?",
+      "resposta": "Duzentos e setenta e três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Absolute_zero",
+        "https://pt.wikipedia.org/wiki/Zero_absoluto"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Prata",
+        "descricao": "Elemento químico metálico de símbolo Ag, o melhor condutor de eletricidade entre os elementos.",
+        "variantes": [
+          "Silver",
+          "Ag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Silver"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+      "resposta": "Prata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Silver",
+        "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity"
+      ],
+      "distratores": [
+        "Cobre",
+        "Ouro",
+        "Alumínio"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Espectro visível",
+        "descricao": "Faixa do espectro eletromagnético que o olho humano enxerga, do violeta ao vermelho.",
+        "variantes": [
+          "Luz visível",
+          "Visible spectrum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Visible_spectrum"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as cores do arco-íris, qual tem o maior comprimento de onda?",
+      "resposta": "Vermelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Visible_spectrum"
+      ],
+      "distratores": [
+        "Violeta",
+        "Verde",
+        "Amarelo"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Experimento de Rutherford",
+        "descricao": "Experimentos de Geiger e Marsden, orientados por Ernest Rutherford a partir de 1909, que levaram à descoberta do núcleo atômico.",
+        "variantes": [
+          "Experimento da folha de ouro",
+          "Experimento de Geiger-Marsden",
+          "Geiger–Marsden experiments"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Geiger–Marsden_experiments"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No famoso experimento de 1909 que levou à descoberta do núcleo atômico, partículas alfa foram disparadas contra uma folha finíssima de que metal?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Geiger–Marsden_experiments"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Experimento de Oersted",
+        "descricao": "Experimento de 1820 em que Hans Christian Ørsted mostrou que uma corrente elétrica produz efeitos magnéticos.",
+        "variantes": [
+          "Experiência de Ørsted",
+          "Experimento de Ørsted"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1820, o dinamarquês Hans Christian Oersted ligou eletricidade e magnetismo ao ver um fio com corrente desviar a agulha de que objeto?",
+      "resposta": "Uma bússola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Miragem",
+        "descricao": "Fenômeno óptico em que o ar aquecido desvia a luz e cria imagens deslocadas, como falsas poças no asfalto.",
+        "variantes": [
+          "Mirage"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mirage"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Num dia quente, a falsa poça de água que aparece no asfalto da estrada é, na verdade, uma imagem de quê, desviada pelo ar quente?",
+      "resposta": "Do céu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mirage",
+        "https://pt.wikipedia.org/wiki/Miragem"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Harald Bohr",
+        "descricao": "Matemático dinamarquês (1887–1951), irmão do físico Niels Bohr e medalhista olímpico em 1908.",
+        "variantes": [
+          "Harald August Bohr"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harald_Bohr"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O matemático Harald Bohr, irmão do físico Niels Bohr, ganhou a medalha de prata nos Jogos Olímpicos de 1908 em que esporte?",
+      "resposta": "Futebol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harald_Bohr"
+      ],
+      "distratores": [
+        "Remo",
+        "Esgrima",
+        "Atletismo"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Roberto Landell de Moura",
+        "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro da transmissão de voz por ondas de rádio.",
+        "variantes": [
+          "Padre Landell de Moura",
+          "Landell de Moura"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que padre gaúcho, pioneiro das transmissões de voz sem fio, obteve patentes de seus aparelhos nos Estados Unidos em 1904?",
+      "resposta": "Roberto Landell de Moura",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Andrei Sakharov",
+        "descricao": "Físico nuclear soviético (1921–1989), um dos criadores da bomba de hidrogênio soviética e Nobel da Paz de 1975.",
+        "variantes": [
+          "Andrei Sakharov",
+          "Andrei Dmitrievich Sakharov"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andrei_Sakharov"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que físico soviético, um dos criadores da bomba de hidrogênio do seu país, virou defensor dos direitos humanos e ganhou o Nobel da Paz em 1975?",
+      "resposta": "Andrei Sakharov",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andrei_Sakharov",
+        "https://pt.wikipedia.org/wiki/Andrei_Sakharov"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "William Lawrence Bragg",
+        "descricao": "Físico australiano-britânico (1890–1971) que dividiu o Nobel de Física de 1915 pela análise de cristais com raios X.",
+        "variantes": [
+          "Lawrence Bragg",
+          "W. L. Bragg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lawrence_Bragg"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que parentesco havia entre William Henry Bragg e William Lawrence Bragg, que dividiram o Nobel de Física de 1915?",
+      "resposta": "Pai e filho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lawrence_Bragg",
+        "https://en.wikipedia.org/wiki/William_Henry_Bragg"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "albert_einstein",
+        "nome": "Albert Einstein",
+        "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+        "variantes": [
+          "Einstein"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Albert_Einstein"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1952, Albert Einstein recebeu e recusou o convite para ser presidente de que país?",
+      "resposta": "Israel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Albert_Einstein"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "alessandro_volta",
+        "nome": "Alessandro Volta",
+        "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica).",
+        "variantes": [
+          "Volta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alessandro_Volta"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Física",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que governante francês, admirador da pilha elétrica, concedeu a Alessandro Volta o título de conde?",
+      "resposta": "Napoleão Bonaparte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alessandro_Volta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e sustentado; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e bem formulado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pela fonte; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Panteão confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Campinas confirmada; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Volta nasceu em Como; fato bem conhecido, distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salzburgo confirmada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cofre do BIPM nos arredores de Paris, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conferência de 1927 em Bruxelas, correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apresentação em novembro de 1915 durante a guerra; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir a década é vago; o ano 1960 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o americano Theodore Maiman fez funcionar o primeiro laser?",
+        "resposta": "1960",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Laser",
+          "https://en.wikipedia.org/wiki/Theodore_Maiman"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Metro surgiu na Revolução Francesa; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o discurso de 1992 foi vago; afirmar erro da Igreja é impreciso. Reformulado para admissão de erros de teólogos.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o papa João Paulo Segundo reconheceu publicamente que teólogos da Igreja erraram ao condenar Galileu?",
+        "resposta": "1992",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Galileo_affair"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir o século é vago; o ano da patente (1608) é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano um fabricante de lentes holandês fez o pedido de patente mais antigo que se conhece de um telescópio?",
+        "resposta": "1608",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Telescope",
+          "https://en.wikipedia.org/wiki/Hans_Lipperhey"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1947 confirmado; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Elétron (1897) precede próton, nêutron e pósitron; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Década é vago; o ano 1988 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano foi lançado o best-seller Uma Breve História do Tempo, de Stephen Hawking?",
+        "resposta": "1988",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/A_Brief_History_of_Time"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Século é vago; o ano 1783 é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano um balão de ar quente dos irmãos Montgolfier levou pessoas ao céu pela primeira vez, em Paris?",
+        "resposta": "1783",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+          "https://en.wikipedia.org/wiki/Hot_air_balloon"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação correta e simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hahn, Nobel de Química de 1944 sozinho; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fahrenheit não inventou o termômetro de mercúrio; fez os primeiros bem-sucedidos.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que fabricante de instrumentos, autor dos primeiros termômetros de mercúrio bem-sucedidos, criou a escala de temperatura usada nos Estados Unidos?",
+        "resposta": "Daniel Gabriel Fahrenheit",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer",
+          "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cavendish, balança de torção, 1798; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thomson propôs o modelo em 1904.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Carta de Einstein a Born em 1926; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Newton a Hooke, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Atribuição tradicional a Arquimedes, com ressalva 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huygens, 1656; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto; Magdeburgo não vaza no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bose, indiano; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bel homenageia Bell; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galvanização vem de Galvani; pergunta curiosa e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nome vem do Distrito de Engenharia de Manhattan, sediado inicialmente em Nova York.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espalhamento de Rayleigh; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Menor densidade do gelo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Refração confirmada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Órbita é queda livre; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "27 km confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "-273,15 °C confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prata é o melhor condutor; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Vermelho tem o maior comprimento de onda visível.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Folha de ouro confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bússola confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Miragem de estrada reflete o céu.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prata em 1908 no futebol; curiosidade interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Landell de Moura teve patentes americanas em 1904.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sakharov confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pai e filho confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Convite de 1952 recusado, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Napoleão nomeou Volta conde em 1810.",
+      "reescrita": null
+    }
+  ]
+}

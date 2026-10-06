@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1942, o primeiro reator nuclear artificial, montado pela equipe de Enrico Fermi, ficava sob as arquibancadas de um estádio de que universidade americana?",
+        "resposta": "Universidade de Chicago"
+      },
+      "existentes": [
+        {
+          "id": "q05464",
+          "pergunta": "Em 1942, sob as arquibancadas de um estádio da Universidade de Chicago, que físico italiano comandou o primeiro reator nuclear construído pelo homem?",
+          "resposta": "Enrico Fermi"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1851, numa demonstração pública famosa, Léon Foucault pendurou seu pêndulo sob a cúpula de que monumento de Paris?",
+        "resposta": "Panteão"
+      },
+      "existentes": [
+        {
+          "id": "q01679",
+          "pergunta": "Que físico francês concebeu o experimento mostrado nesta figura para demonstrar a rotação da Terra, em 1851?",
+          "resposta": "Léon Foucault"
+        },
+        {
+          "id": "q04599",
+          "pergunta": "Em 1851, Léon Foucault mostrou ao público a rotação da Terra com um enorme pêndulo pendurado na cúpula de que monumento de Paris?",
+          "resposta": "Panteão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Alessandro Volta, inventor da pilha elétrica, nasceu em 1745 em que cidade do norte da Itália?",
+        "resposta": "Como"
+      },
+      "existentes": [
+        {
+          "id": "q04524",
+          "pergunta": "Quem é este físico italiano?",
+          "resposta": "Alessandro Volta"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 2018, as cinzas de Stephen Hawking foram depositadas perto dos túmulos de Isaac Newton e Charles Darwin, em que igreja de Londres?",
+        "resposta": "Abadia de Westminster"
+      },
+      "existentes": [
+        {
+          "id": "q01422",
+          "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
+          "resposta": "Stephen Hawking"
+        },
+        {
+          "id": "q03006",
+          "pergunta": "O físico Stephen Hawking nasceu em oito de janeiro de 1942, exatamente trezentos anos após a morte de que cientista italiano?",
+          "resposta": "Galileu Galilei"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O físico Christian Doppler, que explicou por que a sirene da ambulância muda de tom ao passar, nasceu em 1803 em que cidade da Áustria?",
+        "resposta": "Salzburgo"
+      },
+      "existentes": [
+        {
+          "id": "q03845",
+          "pergunta": "Antes das experiências com ervilhas, Gregor Mendel estudou física em Viena com qual professor famoso?",
+          "resposta": "Christian Doppler"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que ano o americano Theodore Maiman fez funcionar o primeiro laser?",
+        "resposta": "1960"
+      },
+      "existentes": [
+        {
+          "id": "q04612",
+          "pergunta": "Em que ano o físico americano Theodore Maiman fez funcionar o primeiro laser?",
+          "resposta": "1960"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ano um fabricante de lentes holandês fez o pedido de patente mais antigo que se conhece de um telescópio?",
+        "resposta": "1608"
+      },
+      "existentes": [
+        {
+          "id": "q01678",
+          "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
+          "resposta": "Telescópio"
+        },
+        {
+          "id": "q04598",
+          "pergunta": "O registro mais antigo de um telescópio é um pedido de patente feito em 1608 por um fabricante de óculos. Em que país?",
+          "resposta": "Holanda (Países Baixos)"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Qual destas partículas subatômicas foi descoberta primeiro?",
+        "resposta": "Elétron"
+      },
+      "existentes": [
+        {
+          "id": "q02983",
+          "pergunta": "A palavra elétron vem do nome grego de um material que, quando esfregado, atrai pedacinhos de palha. Que material é esse?",
+          "resposta": "Âmbar"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que fabricante de instrumentos, autor dos primeiros termômetros de mercúrio bem-sucedidos, criou a escala de temperatura usada nos Estados Unidos?",
+        "resposta": "Daniel Gabriel Fahrenheit"
+      },
+      "existentes": [
+        {
+          "id": "q04508",
+          "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, deu seu nome a uma escala de temperatura?",
+          "resposta": "Daniel Fahrenheit"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1656, que cientista construiu o primeiro relógio de pêndulo, muito mais preciso que os relógios anteriores?",
+        "resposta": "Christiaan Huygens"
+      },
+      "existentes": [
+        {
+          "id": "q04607",
+          "pergunta": "Em 1656, inspirado em estudos de Galileu sobre o pêndulo, que cientista holandês construiu o relógio de pêndulo?",
+          "resposta": "Christiaan Huygens"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Por que o projeto americano que criou a bomba atômica na Segunda Guerra recebeu o nome de Manhattan?",
+        "resposta": "Sua sede inicial ficava em Manhattan"
+      },
+      "existentes": [
+        {
+          "id": "q05784",
+          "pergunta": "Que físico americano dirigiu o laboratório de Los Alamos, onde o Projeto Manhattan desenvolveu a bomba atômica?",
+          "resposta": "J. Robert Oppenheimer"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+        "resposta": "Prata"
+      },
+      "existentes": [
+        {
+          "id": "q05901",
+          "pergunta": "Na alquimia, cada um dos sete metais da Antiguidade era ligado a um astro, e o ouro era o Sol. Que metal correspondia à Lua?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que padre gaúcho, pioneiro das transmissões de voz sem fio, obteve patentes de seus aparelhos nos Estados Unidos em 1904?",
+        "resposta": "Roberto Landell de Moura"
+      },
+      "existentes": [
+        {
+          "id": "q03470",
+          "pergunta": "Que padre gaúcho fez, na década de 1890, experiências pioneiras de transmissão da voz humana sem fio?",
+          "resposta": "Roberto Landell de Moura"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1952, Albert Einstein recebeu e recusou o convite para ser presidente de que país?",
+        "resposta": "Israel"
+      },
+      "existentes": [
+        {
+          "id": "q00860",
+          "pergunta": "Que físico é este?",
+          "resposta": "Albert Einstein"
+        },
+        {
+          "id": "q02992",
+          "pergunta": "O Nobel de Física de 1921 não premiou Einstein pela relatividade. Que fenômeno ele explicou para ganhar o prêmio?",
+          "resposta": "Efeito fotoelétrico"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que governante francês, admirador da pilha elétrica, concedeu a Alessandro Volta o título de conde?",
+        "resposta": "Napoleão Bonaparte"
+      },
+      "existentes": [
+        {
+          "id": "q04524",
+          "pergunta": "Quem é este físico italiano?",
+          "resposta": "Alessandro Volta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a universidade, não o físico que comandou o reator."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o pêndulo de Foucault no Panteão (q04599)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Local de nascimento de Volta é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Local do sepultamento das cinzas é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade natal de Doppler difere do fato de ele ter sido professor de Mendel."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano do primeiro laser de Maiman."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O ano 1608 é dado na existente, mas a pergunta nova é sobre o ano e a existente sobre o país; fatos diferentes, e acertar uma não leva à outra."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Descoberta do elétron é diferente da etimologia do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Ambas têm Fahrenheit como resposta, pelo termômetro de mercúrio e a escala."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Huygens construiu o relógio de pêndulo em 1656."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Origem do nome do projeto é diferente de quem dirigiu Los Alamos."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Condutividade elétrica é diferente da correspondência alquímica."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Patentes nos EUA em 1904 e experiências nos anos 1890 são fatos diferentes, embora a resposta seja a mesma."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Convite para presidir Israel é um fato novo."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Título de conde concedido por Napoleão é um fato novo."
+    }
+  ]
+}
