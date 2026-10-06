@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que planta de bulbo é esta?",
+        "resposta": "Alho"
+      },
+      "existentes": [
+        {
+          "id": "q02763",
+          "pergunta": "Que tempero é este?",
+          "resposta": "Alho"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que árvore é esta?",
+        "resposta": "Árvore-de-sangue-de-dragão"
+      },
+      "existentes": [
+        {
+          "id": "q04806",
+          "pergunta": "A árvore-sangue-de-dragão, de copa em forma de guarda-chuva e seiva vermelha, é símbolo de que ilha do Oceano Índico?",
+          "resposta": "Socotorá"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Perguntas baseadas em imagem; a existente pede o tempero e a nova a planta de bulbo. Mesma resposta, mas o enunciado identifica de outro modo e a dúvida favorece nova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a ilha associada à árvore (Socotorá); a nova pede o nome da árvore em imagem. Fatos diferentes."
+    }
+  ]
+}

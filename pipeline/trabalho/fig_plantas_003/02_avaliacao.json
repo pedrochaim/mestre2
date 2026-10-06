@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Flor de hibisco nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta flor tropical de grandes pétalas pertence a que família de plantas, a mesma do algodão e do quiabo?",
+      "resposta": "Malvaceae (malváceas)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hibisco",
+        "descricao": "Gênero de plantas da família Malvaceae, com grandes flores vistosas, cultivado como ornamental.",
+        "variantes": [
+          "Hibiscus",
+          "Graxa-de-estudante"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Flor e folhas de Mimosa pudica reconhecíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta é esta?",
+      "resposta": "Dormideira",
+      "distratores": [
+        "Esponjinha",
+        "Acácia-mimosa",
+        "Ingá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dormideira",
+        "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+        "variantes": [
+          "Sensitiva",
+          "Mimosa pudica",
+          "Malícia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lithops com flores, inconfundível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Para escapar de herbívoros, esta planta suculenta do sul da África se disfarça de quê?",
+      "resposta": "Pedras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedra-viva",
+        "descricao": "Lithops, gênero de suculentas sul-africanas que imitam pequenas pedras.",
+        "variantes": [
+          "Lithops",
+          "Planta-pedra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de mercado com pessoas comuns em primeiro plano, inclusive um bebê dormindo."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Palmeiras distantes na chuva; sem fruto ou detalhe, não dá para distinguir o açaí de outras palmeiras."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ipê-roxo florido isolado, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que árvore brasileira de floração rosa é esta?",
+      "resposta": "Ipê-roxo (ipê-rosa)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ipê-roxo",
+        "descricao": "Handroanthus impetiginosus, árvore da família Bignoniaceae de flores rosadas.",
+        "variantes": [
+          "Ipê-rosa",
+          "Pau-d'arco-roxo",
+          "Handroanthus impetiginosus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Abóboras de várias cores, assunto único, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruto é este?",
+      "resposta": "Abóbora",
+      "distratores": [
+        "Melancia",
+        "Melão-cantalupo",
+        "Chuchu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abóbora",
+        "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+        "variantes": [
+          "Jerimum",
+          "Pumpkin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Salgueiro-chorão com ramos pendentes, claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore é esta?",
+      "resposta": "Salgueiro-chorão",
+      "distratores": [
+        "Bétula-chorona",
+        "Casuarina",
+        "Cipreste-calvo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Salgueiro-chorão",
+        "descricao": "Salix babylonica, árvore de origem chinesa com ramos pendentes.",
+        "variantes": [
+          "Salgueiro-babilônico",
+          "Salix babylonica"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sequoia-gigante de grande porte, reconhecível; pessoas minúsculas ao fundo e placa ilegível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que árvore é esta?",
+      "resposta": "Sequoia-gigante",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sequoia-gigante",
+        "descricao": "Sequoiadendron giganteum, conífera da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+        "variantes": [
+          "Sequoiadendron giganteum",
+          "Sequoia-da-sierra",
+          "Wellingtonia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cabeça e dentes de alho em fundo neutro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta de bulbo é esta?",
+      "resposta": "Alho",
+      "distratores": [
+        "Cebola roxa",
+        "Chalota",
+        "Alho-poró"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alho",
+        "descricao": "Allium sativum, planta bulbosa cujo bulbo em dentes é usado como tempero.",
+        "variantes": [
+          "Allium sativum"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Papoulas vermelhas de campo nítidas, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que flor vermelha de campo é esta?",
+      "resposta": "Papoula (papoila)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Papoula",
+        "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+        "variantes": [
+          "Papoila",
+          "Papaver rhoeas",
+          "Papoula-comum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Árvore de copa em guarda-chuva, inconfundível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore é esta?",
+      "resposta": "Árvore-de-sangue-de-dragão",
+      "distratores": [
+        "Acácia-guarda-chuva",
+        "Baobá",
+        "Palmeira-leque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Árvore-de-sangue-de-dragão",
+        "descricao": "Dracaena cinnabari, árvore de copa em guarda-chuva nativa de Socotra, no Iêmen, de seiva vermelha.",
+        "variantes": [
+          "Dracaena cinnabari",
+          "Dragoeiro-de-socotra"
+        ]
+      }
+    }
+  ]
+}

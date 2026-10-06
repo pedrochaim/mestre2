@@ -26,7 +26,7 @@
       "titulo": "en:Coconut",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Milho",
@@ -103,7 +103,7 @@
       "titulo": "en:Euterpe oleracea",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pitaya",
@@ -201,7 +201,7 @@
       "titulo": "en:Dracaena cinnabari",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cogumelo-véu-de-noiva",
@@ -257,7 +257,7 @@
       "titulo": "en:Sequoiadendron giganteum",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mão-de-buda",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Palmeira-imperial",
+      "titulo": "en:Roystonea oleracea",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Samambaia",
+      "titulo": "en:Fern",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alface",
+      "titulo": "en:Lettuce",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cebola",
+      "titulo": "en:Onion",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alho",
+      "titulo": "en:Garlic",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cenoura",
+      "titulo": "en:Carrot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abóbora",
+      "titulo": "en:Pumpkin",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Limão",
+      "titulo": "en:Lemon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maçã",
+      "titulo": "en:Apple",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pimenta",
+      "titulo": "en:Chili pepper",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hibisco",
+      "titulo": "en:Hibiscus",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Trevo-de-quatro-folhas",
+      "titulo": "en:Four-leaf clover",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Algodão",
+      "titulo": "en:Cotton",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arroz",
+      "titulo": "en:Rice",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Costela-de-adão",
+      "titulo": "en:Monstera deliciosa",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bromélia",
+      "titulo": "en:Bromeliaceae",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rosa-do-deserto",
+      "titulo": "en:Adenium obesum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Papoula",
+      "titulo": "en:Papaver rhoeas",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Camomila",
+      "titulo": "en:Matricaria chamomilla",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manjericão",
+      "titulo": "en:Basil",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Romã",
+      "titulo": "en:Pomegranate",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gengibre",
+      "titulo": "en:Ginger",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oliveira",
+      "titulo": "en:Olive",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salgueiro-chorão",
+      "titulo": "en:Salix babylonica",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Flamboyant",
+      "titulo": "en:Delonix regia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dormideira",
+      "titulo": "en:Mimosa pudica",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Shiitake",
+      "titulo": "en:Shiitake",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sarracênia",
+      "titulo": "en:Sarracenia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavalinha",
+      "titulo": "en:Equisetum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cogumelo-gaiola",
+      "titulo": "en:Clathrus ruber",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra-viva",
+      "titulo": "en:Lithops",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Barba-de-velho",
+      "titulo": "en:Spanish moss",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cica",
+      "titulo": "en:Cycas revoluta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quaresmeira",
+      "titulo": "en:Pleroma granulosum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paineira",
+      "titulo": "en:Ceiba speciosa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cauda-de-peru",
+      "titulo": "en:Trametes versicolor",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chifre-de-veado",
+      "titulo": "en:Platycerium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hydnora africana",
+      "titulo": "en:Hydnora africana",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ipê-roxo",
+      "titulo": "en:Handroanthus impetiginosus",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Helicônia",
+      "titulo": "en:Heliconia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
