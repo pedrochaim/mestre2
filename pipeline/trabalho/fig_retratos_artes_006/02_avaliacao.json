@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido em preto e branco, sem texto; figura pública.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este pensador e educador brasileiro?",
+      "resposta": "Paulo Freire",
+      "distratores": [],
+      "ancora": {
+        "nome": "Paulo Freire",
+        "descricao": "Educador e filósofo brasileiro (1921–1997), autor de Pedagogia do Oprimido.",
+        "variantes": [
+          "Paulo Reglus Neves Freire"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este escritor latino-americano?",
+      "resposta": "Mario Vargas Llosa",
+      "distratores": [
+        "Gabriel García Márquez",
+        "Julio Cortázar",
+        "Octavio Paz"
+      ],
+      "ancora": {
+        "nome": "Mario Vargas Llosa",
+        "descricao": "Romancista peruano (1936–2025), Nobel de Literatura de 2010.",
+        "variantes": [
+          "Jorge Mario Pedro Vargas Llosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; pergunta de nível 3 sustentada pelo trecho (Les Six).",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que grupo de jovens compositores franceses se reuniu em torno deste músico a partir de mil novecentos e dez?",
+      "resposta": "Les Six (Os Seis)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Erik Satie",
+        "descricao": "Compositor e pianista francês (1866–1925), autor das Gymnopédies.",
+        "variantes": [
+          "Eric Alfred Leslie Satie"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto livre nítida, sem texto; figura pública.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este cantor de ópera?",
+      "resposta": "Plácido Domingo",
+      "distratores": [
+        "Luciano Pavarotti",
+        "José Carreras",
+        "Andrea Bocelli"
+      ],
+      "ancora": {
+        "nome": "Plácido Domingo",
+        "descricao": "Cantor de ópera, regente e administrador espanhol nascido em 1941.",
+        "variantes": [
+          "José Plácido Domingo Embil"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto antiga de pouca nitidez, rosto pouco reconhecível pelo público; não dá resposta única confiável pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este compositor russo do século vinte?",
+      "resposta": "Dmitri Shostakovich",
+      "distratores": [],
+      "ancora": {
+        "nome": "Dmitri Shostakovich",
+        "descricao": "Compositor soviético russo (1906–1975), autor de quinze sinfonias.",
+        "variantes": [
+          "Dmitri Shostakovitch",
+          "Chostakovitch"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pintura mural antiga em baixa resolução, perfil ambíguo; não é reconhecível como Confúcio pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este escritor europeu do século dezenove?",
+      "resposta": "Hans Christian Andersen",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hans Christian Andersen",
+        "descricao": "Escritor dinamarquês (1805–1875), célebre por seus contos de fadas.",
+        "variantes": [
+          "H. C. Andersen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; reconhecível.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta por este músico?",
+      "resposta": "Dança macabra",
+      "distratores": [
+        "Pavana para uma infanta defunta",
+        "Noite no Monte Calvo",
+        "Sinfonia fantástica"
+      ],
+      "ancora": {
+        "nome": "Camille Saint-Saëns",
+        "descricao": "Compositor, organista e pianista francês romântico (1835–1921), autor de O Carnaval dos Animais.",
+        "variantes": [
+          "Charles-Camille Saint-Saëns",
+          "Saint-Saens"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Escultura de bronze com duas figuras, uma sobre banco; mais de um assunto e resposta não única, além de foto que existe como retrato."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; muito reconhecível.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este pianista virtuose do século dezenove?",
+      "resposta": "Franz Liszt",
+      "distratores": [],
+      "ancora": {
+        "nome": "Franz Liszt",
+        "descricao": "Compositor e pianista virtuose húngaro do Romantismo (1811–1886).",
+        "variantes": [
+          "Ferenc Liszt"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto traz autógrafo manuscrito com o nome e a data, que entrega a resposta; imagem de baixa nitidez."
+    }
+  ]
+}
