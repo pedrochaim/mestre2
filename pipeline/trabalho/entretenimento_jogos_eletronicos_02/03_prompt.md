@@ -1,0 +1,1802 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Jogos Eletrônicos** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Ubisoft",
+      "descricao": "Empresa francesa de jogos eletrônicos fundada em 1986 pelos irmãos Guillemot, criadora de Assassin's Creed e Rayman."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Criadora de Assassin's Creed e do herói Rayman, a Ubisoft foi fundada em 1986 por cinco irmãos em qual país?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ubisoft"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ubisoft",
+        "situacao": "ok",
+        "texto": "Ubisoft Entertainment SA (; French: [ybisɔft]; formerly Ubi Soft Entertainment SA) is a French video game publisher headquartered in Saint-Mandé with development studios across the world. Its video game franchises include Anno, Assassin's Creed, Driver, Far Cry, Just Dance, Prince of Persia, Rabbids, Rayman, Tom Clancy's, and Watch Dogs.\n[…]\nUbisoft has been partnering with various museums to help bring the research and modeling that has been done for games in the Assassins Creed and Far Cry series as part of museum exhibits. This extends from the addition of Discovery Tours in the Assassins Creed games, which allowed players to explore the games' world without other gameplay aspects.\n[…]\nIn April 2012, Ubisoft was sued by John L. Beiswenger, the author of the book Link who alleged copyright infringement for using his ideas in the Assassin's Creed franchise. He demanded $5.25 million in damages and a halt to the release of Assassin's Creed III which was set to be released in October 2012, along with any future games that allegedly contain his ideas. On 30 May 2012, Beiswenger dropped the lawsuit.\n[…]\nIn December 2014, Ubisoft offered a free game from its catalogue of recently released titles to compensate the season pass owners of Assassin's Creed Unity due to its buggy launch. The terms offered with the free game revoked the user's right to sue Ubisoft for the buggy launch of the game.\n[…]\nHe claimed he was replaced and that he learned in the summer of 2025 it was looking for a new boss for the Assassin's Creed franchise, he was told the role was not to be based in Canada and instead in France, the lawsuit allegedly claimed that he was offered a \"Head of Production\" role, Ubisoft told him not to go to work on 13 October, a day before he was departed, his lawsuit also asks for 75K$ CAD in damages and severance pay"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ubisoft",
+        "situacao": "ok",
+        "texto": "Ubisoft Entertainment (pronúncia em francês: ​[ybisɔft]) é uma publicadora de jogos eletrônicos francesa com sede em Saint-Mandé. Suas franquias de jogos eletrônicos incluem Anno, Assassin's Creed, Driver, Far Cry, Just Dance, Prince of Persia, Rabbids, Rayman, Tom Clancy's e Watch Dogs.\n[…]\nNa década de 1980, a família Guillemot estabeleceu-se como uma empresa de apoio a agricultores na província da Bretanha, na França, e em outras regiões, incluindo o Reino Unido. Os cinco filhos da família – Christian, Claude, Gérard, Michel e Yves – ajudavam nas vendas, distribuição, contabilidade e gestão da empresa com seus pais antes da universidade.\n[…]\nA Ubi Soft Entertainment S.A. foi fundada pelos irmãos em 28 de março de 1986. O nome \"Ubi Soft\" foi selecionado para representar o software \"ubíquo\".\n[…]\nDesde 2018, os estúdios da Ubisoft continuaram a focar em algumas franquias, incluindo Assassin's Creed, Tom Clancy's, Far Cry e Watch Dogs.\n[…]\nO Ubisoft Connect, anteriormente Uplay, é um serviço de distribuição digital, gestão de direitos digitais, multijogador e comunicações para PC criado pela Ubisoft. Lançado inicialmente junto com Assassin's Creed II como um programa de recompensas para ganhar pontos destinados a conteúdos dentro do jogo ao completar conquistas dentro da Ubisoft, ele se expandiu para um cliente de desktop e loja para máquinas Windows, além de outros recursos.\n[…]\nEm janeiro de 2026, um ex-funcionário da Ubisoft, Marc-Alexis Côté, declarou que processará a empresa em 1,3 milhão de dólares canadenses por uma saída forçada da companhia. Ele alegou que foi substituído e que soube no verão de 2025 que estavam procurando um novo chefe para a franquia Assassin's Creed; foi-lhe dito que o cargo não seria baseado no Canadá, mas sim na França.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Ezio Auditore",
+      "descricao": "Nobre italiano renascentista, protagonista de Assassin's Creed II e de suas continuações, da Ubisoft."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Ezio Auditore, o assassino renascentista de Assassin's Creed 2, nasceu em qual cidade italiana?",
+    "resposta": "Florença",
+    "distratores": [
+      "Veneza",
+      "Roma",
+      "Milão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ezio_Auditore_da_Firenze"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ezio_Auditore_da_Firenze",
+        "situacao": "ok",
+        "texto": "Ezio Auditore da Firenze (Italian pronunciation: [ˈɛtt͡sjo audiˈtoːre da (f)fiˈrɛnt͡se]) is a fictional character in the video game series Assassin's Creed, serving as the principal protagonist of the series' games set during the Italian Renaissance.\n[…]\nEzio is an ancestor of Desmond Miles, the protagonist of most of the early series' modern-day sequences, who experiences Ezio's life through the Animus, a device unlocking hidden memories inside his DNA. As shown in the beginning of Assassin's Creed II, Ezio was born into the House of Auditore, a dynasty from the Italian city of Florence, in 1459.\n[…]\nTutored by the banker Giovanni Tornabuoni until the age of 17, Ezio led an affluent, care-free lifestyle until his father Giovanni discovered a plot to assassinate the leaders of Florence. Giovanni accused Francesco de' Pazzi as a conspirator, but when he presented the evidence to the gonfaloniere of Florence, Uberto Alberti, the latter is revealed to also be a conspirator and orders for the Auditore family's arrest.\n[…]\nDespite this, in Assassin's Creed Unity, Abstergo has produced a fictional video game starring Ezio, titled Fear and Loathing in Florence, which can be seen at the start.\n[…]\nIn July 2022, Ezio was added as a playable character to the fighting game Brawlhalla. In August 2025, Ezio was added as a playable character to the gacha game Reverse: 1999, alongside an original story campaign set in Renaissance Florence. In August 2026, Ezio appears in the mobile game Watcher of Realms as one of the unlockable characters introduced during its collaboration event with the Assassin’s Creed franchise.\n[…]\nMedia related to Ezio Auditore da Firenze at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ezio_Auditore_da_Firenze",
+        "situacao": "ok",
+        "texto": "Ezio Auditore da Firenze é um personagem da série de jogos Assassin’s Creed. Ele é o ancestral de Desmond Miles e Clay Kaczmarek.\n[…]\nEzio Auditore da Firenze (nascido em 24 de junho de 1459) é um personagem e nobre da série Assassin's Creed nascido na cidade de Firenze (Florença) durante o Renascimento italiano e, sem a maioria dos historiadores e filósofos saber, um influente membro da Ordem dos Assassinos. Ele não sabia sobre sua herança assassina até seus 17 anos, quando, após o assassinato de seu pai Giovanni e dos dois irmãos, Federico e Petruccio, Ezio fugiu de Firenze (Florença) com sua mãe Maria e sua irmã Claudia.\n[…]\nDurante sua busca por vingança, Ezio conseguiu não só unir todas as Páginas do Códice, pela primeira vez desde Domenico Auditore, salvou também as cidades de Florença e Veneza dos Templários que iriam garantir o futuro à viagem de Cristovão Colombo ao \"Novo Mundo\", e trazer os ideais renascentistas e para a ordem assassina à cidade de Roma e recuperou a Maçã de Eden, um artefato poderoso criado por uma civilização que precede os seres humanos atuais que estava em poder de Rodrigo Borgia.\n[…]\nPara abrir a biblioteca, Ezio precisou de cinco chaves que foram escondidas em Constantinopla e foi lá que ele conheceu sua futura esposa, Sofia Sartor. Ezio aposentou-se da ordem após abrir a biblioteca de Altair em 1512. Ezio casou com Sofia e teve dois filhos, Marchello e Flavia. Com a saúde já debilitada, Ezio morreu pacificamente sentado em um banco numa praça em Florença (no ano de 1524) aos 65 anos devido a um infarto.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Resident Evil 4",
+      "descricao": "Jogo de ação e terror da Capcom lançado em 2005, estrelado pelo agente Leon S. Kennedy."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Resident Evil 4, de 2005, o agente Leon Kennedy tenta resgatar a filha do presidente americano numa região rural de qual país?",
+    "resposta": "Espanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Resident_Evil_4"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+        "situacao": "ok",
+        "texto": "Resident Evil 4 is a 2005 survival horror game developed and published by Capcom for the GameCube. Players control the special agent Leon S. Kennedy on a mission to rescue the president of the United States's daughter, Ashley Graham, who has been abducted by a religious cult in rural Spain. Leon fights hordes of enemies infected by a mind-controlling parasite and reunites with the  female spy and \n[…]\nIn Japan, Resident Evil 4 and Resident Evil – Code: Veronica were released on a single disc as Biohazard Revival Selection on September 8, 2011. In North America and Europe, the games were only released as downloads on Xbox Live Games on Demand and PlayStation Network. On February 27, 2014, Capcom released Resident Evil 4 Ultimate HD Edition for Windows. The port features improved graphics and enhancements included in Resident Evil 4 HD.\n[…]\nBiohazard 4 Original Soundtrack was released in Japan on December 22, 2005. It contains 62 compositions from the game and the 48-page Visual Booklet with liner notes from composers Shusaku Uchiyama and Misao Senbongi. Other merchandise included figures by McFarlane Toys, NECA and Hot Toys. Agatsuma Entertainment has also created various miniature collectibles based on several main characters and enemies from Resident Evil 4.\n[…]\nThe GameCube version sold over 320,000 copies in North America during the first twenty days. The European release sold its entire 200,000 copies during the first month. By December 2005, 3 million copies of the GameCube and PlayStation 2 versions had been shipped worldwide. According to January 17, 2007, sales figures provided by Capcom, the GameCube version of Resident Evil 4 had sold a total of 1.6 million copies worldwide, while the PS2 version had sold over 2 million copies.\n[…]\nUncharted director Bruce Straley called the Resident Evil 4 village sequence the best opening fight in a video game."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Resident_Evil_4",
+        "situacao": "ok",
+        "texto": "Resident Evil 4 é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom para o GameCube em 2005. É o sexto jogo principal da franquia Resident Evil. Os jogadores controlam o agente especial Leon S. Kennedy em uma missão para resgatar Ashley Graham, filha do presidente dos Estados Unidos, que foi sequestrada por um culto religioso na zona rural da Espanha.\n[…]\nSeis anos após os acontecimentos de Resident Evil 2, o ex-policial Leon Scott Kennedy é enviado em uma missão para resgatar Ashley Graham, filha do presidente dos Estados Unidos, que foi raptada por uma seita misteriosa. Ele viaja para uma aldeia rural na Espanha, onde encontra um grupo de moradores violentos que dedicam suas vidas para os Los Illuminados (\"os iluminados\" em espanhol), o culto que sequestrou Ashley.\n[…]\nO primeiro anúncio oficial do jogo foi feito em novembro de 2002, como um dos cinco jogos exclusivamente desenvolvidos pela Capcom Production Studio 4 para o Nintendo GameCube. Esta versão, comumente chamado de \"versão da névoa\", foi dirigida por Hiroshi Shibata e o projeto já estava com quarenta por cento concluído naquele momento. Desta vez, o jogo contava com Leon S. Kennedy se infiltrando na sede da Umbrella na Europa e com os tradicionais monstros de Resident Evil, como os zumbis.\n[…]\nResident Evil 4 foi portado para o PlayStation 2 após a Capcom afirmar que tinha quebrado o acordo de exclusividade com a Nintendo. Ele foi lançado na América do Norte em 25 de outubro de 2005. Mais tarde, o jogo foi incluído com Resident Evil CODE: Veronica X e Resident Evil Outbreak como parte da compilação Resident Evil: The Essentials. A versão de PlayStation 2 contou com dois pacotes padrões e de colecionador de pré-encomendas.\n[…]\nJonti Davies do Hyper elogiou Resident Evil 4 por suas \"melhorias visuais\", mas criticou-o por não ter \"nenhum novo conteúdo\".\n[…]\n«Resident Evil 4». no REVIL",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Zangief",
+      "descricao": "Lutador de luta livre da série Street Fighter, da Capcom, estreante em Street Fighter II."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Zangief, o lutador de luta livre de Street Fighter 2, de 1991, representava qual país no jogo?",
+    "resposta": "União Soviética",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zangief"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zangief",
+        "situacao": "ok",
+        "texto": "Zangief ( ; Japanese: ザンギエフ) is a fictional character in Capcom's Street Fighter series. The character was introduced as one of the eight playable characters in the video game Street Fighter II: The World Warrior (1991). In the game, Zangief primarily fights using grappling moves and is considered to be the first grappler-type fighting game character.\n[…]\nThe character was initially planned to be a strong but slow fighter placeholder named Vodka Golbalsky before eventually becoming a grappler after their name change, which derives from that of a Soviet wrestler. In the Street Fighter series, Zangief is a professional wrestler, nicknamed the Red Cyclone (赤きサイクロン), who hails from Russia and fights to prove the country's superiority by triumphing over other nations fighters in combat.\n[…]\nDesigned by Akira Yasuda, Zangief was initially planned for Street Fighter II to be a very strong but extremely slow character to play as. Zangief was named \"Vodka Gobalsky\" as a placeholder; his name was later changed to Zangief after a wrestler from the Soviet Union. Early designs of the character closely resembled the character's finalized appearance, but with the addition of a black tanktop and anchor tattoo on his upper arms.\n[…]\nThis interpretation was built upon up through Street Fighter V, with producer Takayuki Nakayama wanting the character to be portrayed as a positive and charismatic influence on his younger colleagues.\n[…]\nIn print media, Zangief appeared in Masaomi Kanzaki's Street Fighter manga, which was released in the early 1990s. In his depiction in the comic, he was depicted very much like his video game self. One of Zangief's main motivations was to defeat Guile, who as an American, represented the rival country of Zangief's homeland; however, the Soviet wrestler found himself coming up short in their battles."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zangief",
+        "situacao": "ok",
+        "texto": "Esta é uma lista de personagens da série Street Fighter.\n[…]\nEl Fuerte (エル・フォルテ, Eru Forute) é um lutador Mexicano que passa seu tempo aperfeiçoando suas técnicas de Luta-Livre e desenvolvendo suas questionáveis habilidades culinárias. Ele viaja o mundo para aprender as melhores receitas do planeta e teve sua estreia no Street Fighter IV. É conhecido de T. Hawk. Nos gibis publicados pela UDON Entertainment, El Fuerte é também um fã ardoroso de Rainbow Mika.\n[…]\nSua primeira aparição foi em Final Fight 2, lançado exclusivamente para o Super Nintendo. É uma das muitas personagens japonesas sem nenhum traço oriental. Nas versões portáteis do game Street Fighter Alpha 3, a bela ninja carrega uma tonfa, arma previamente usada por ela no jogo Final Fight 2.\n[…]\nRolento F. Schugerg (ロレント・F・シュゲルグ, Rorento F Shugerugu), ou simplesmente Rolento, é um personagem original das séries Final Fight com aparições em Street Fighter Alpha. Ele é o terceiro personagem de Final Fight na série Street Fighter Alpha, após Guy e Sodom, introduzidos no primeiro jogo da trilogia. Ele aparece pela primeira vez em Street Fighter Alpha 2, após inclusão de Guy e Sodom. Ele luta usando muitas das mesmas técnicas que ele usa no Final Fight.\n[…]\nHugo (ヒューゴー, Hyūgō) é um gigantesco profissional de luta livre da Alemanha. É chamado Andore na série Final Fight e é baseado no famoso wrestler Andre The Giant. Sua agente Poison, que aparece antes e depois da luta, também foi uma personagem inimiga do mesmo jogo. Em Street Fighter III, Hugo desenvolve uma rivalidade com Alex.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Tetris",
+      "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+    "resposta": "Moscou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tetris",
+        "situacao": "ok",
+        "texto": "Tetris (Russian: Тетрис) is a puzzle video game created by Alexey Pajitnov, a Soviet software engineer, in the mid-1980s. In Tetris, falling pieces consisting of four connected blocks, known as tetrominoes, must be sorted into a pile. Once a horizontal line of the playfield is filled with blocks, the line disappears, granting points and preventing the pile from reaching the top. This gameplay has \n[…]\nNonetheless, Pajitnov's manager Victor Brjabrin liked Tetris and sought opportunities for success beyond the Soviet Union. In early 1986, Brjabrin sent a copy of Tetris to the SZKI Institute of Computer Studies in Budapest. Robert Stein, founder of Andromeda Software who profited by licensing software from Hungary to UK companies, encountered Tetris during a visit to the SZKI Institute and found its gameplay compelling.\n[…]\nThe Dorodnitsyn Computing Center's rights to Tetris expired at the end of 1995, reverting back to Pajitnov. Worried that Elorg, which had become a private company under Belikov during the 1991 collapse of the Soviet Union, would try to claim the rights, Pajitnov recruited Rogers to secure them.\n[…]\nThe Tetris game has frequently been featured in academic research, including in psychology, computer science, and game studies. By 2014, John K. Lindstedt and Wayne D. Gray, cognitive scientists of the Rensselaer Polytechnic Institute, had traced 133 scholarly papers across a variety of academic fields that used Tetris in their research. Soviet clinical psychologist Vladimir Pokhilko was the first to use Tetris in clinical experiments, conducting them around 1985 at the Moscow Medical Center.\n[…]\nPajitnov, Alexey; Rogers, Henk (April 26, 2023). Unsolved Tetris Mysteries With Creator Alexy Pajitnov & Designer Henk Rogers. Ars Technica. Retrieved December 7, 2024 – via YouTube.\n[…]\nThe Creation of Tetris. BBC World Service. BBC. December 29, 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tetris",
+        "situacao": "ok",
+        "texto": "Tetris (em russo:  Тетрис) é um jogo eletrônico do gênero de quebra-cabeça criado pelo engenheiro de software soviético Alexey Pajitnov e lançado no ano de 1984. A primeira versão foi criada para o computador Electronika 60, enquanto Pajitnov trabalhava no Centro de Computação da Academia de Ciências da União Soviética.\n[…]\nAo contrário do mercado de tecnologia ocidental, a legislação da União Soviética durante a Guerra Fria inviabilizava a propriedade intelectual privada para desenvolvedores de software. Como Alexey Pajitnov desenvolveu Tetris utilizando o hardware e as instalações do Centro de Computação da Academia de Ciências da União Soviética, considerado um órgão estatal, os direitos de comercialização do jogo e do seu código pertenciam integralmente ao Estado soviético.\n[…]\nConsequentemente, qualquer empresa estrangeira que desejasse distribuir o jogo em consoles ou computadores precisava negociar contratos de licenciamento diretamente com essa agência, em Moscou.\n[…]\nParalelamente, a Nintendo buscava garantir os direitos do título para o lançamento de seu novo console portátil, o Game Boy. A empresa enviou o executivo Henk Rogers diretamente a Moscou, onde houve intensas negociações com a ELORG. A agência soviética esclareceu formalmente que consoles de videogame dedicados não se enquadravam na definição técnica e legal de \"computadores pessoais\" presente nos contratos originais de Stein.\n[…]\nFoi apenas no ano de 1996, com a expiração do prazo estipulado no contrato inicial, que os direitos de propriedade intelectual foram revertidos legalmente para Pajitnov. Com a autoria e os direitos comerciais recuperados, ele se mudou para os Estados Unidos e uniu forças com Henk Rogers, o executivo que havia conhecido durante as tensas negociações em Moscou.\n[…]\nSite oficial do Campeonato Mundial de Tetris Clássico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Princesa Peach",
+      "descricao": "Princesa dos jogos da série Super Mario, da Nintendo, frequentemente sequestrada por Bowser."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Nos jogos do Mario, a princesa Peach, sempre sequestrada por Bowser, governa qual reino?",
+    "resposta": "Reino Cogumelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Princess_Peach"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Princess_Peach",
+        "situacao": "ok",
+        "texto": "Princess Peach (Japanese: ピーチ姫, Hepburn: Pīchi-hime; pronounced [piːtɕi̥ çime]) is a character in Nintendo's Mario franchise. She was created by Shigeru Miyamoto and introduced in the 1985 original Super Mario Bros. game as Princess Toadstool. She is the princess regnant and head of state of the Mushroom Kingdom, where she resides in her castle along with Toads. Since her debut, she has appeared i\n[…]\nThe game begins with Mario receiving a letter from \"Princess Toadstool, Peach\", asking him to come to her castle as she has baked a cake for him. Peach's Castle acts as a hub world and contains paintings that Mario can use to enter various worlds to complete challenges in order to win stars. At the end of the game, he must finally face Bowser and save the princess.\n[…]\nWonder (2023), Princess Peach is one of several playable characters alongside Mario, Luigi, and others. The game centers on their visit to the Flower Kingdom, which is disrupted when Bowser steals the Wonder Flower and transforms into a flying castle.\n[…]\nThroughout 1992, Peach (named Princess Toadstool) appeared in a comic titled Super Mario Adventures, which was serialized in Nintendo Power. The plot involves Bowser proposing marriage to her and threatening to turn her subjects to stone if she refuses. After Mario is turned to stone, she and her troops pursue Bowser down a pipe, but she is eventually captured by Bowser.\n[…]\nTaylor-Joy said that she was concerned before taking the role but that her portrayal of Peach as a strong, capable leader was \"the way she was supposed to be.\" A song from the film, which was titled \"Peaches\" and written and performed by Bowser voice actor Jack Black, was released in April 2023. In The Super Mario Galaxy Movie, Peach is revealed as the younger sister of Princess Rosalina, who sent her to the Mushroom Kingdom when she was an infant to protect her from danger."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Princesa_Peach",
+        "situacao": "ok",
+        "texto": "A Princesa Peach Cogumelo (ピーチ姫, Pīchi-hime) é uma personagem fictícia da série de videogames Super Mario Bros., produzido pela Nintendo. Ela é a princesa do também fictício Reino dos Cogumelos e por diversas vezes faz o papel de donzela em apuros da série, sendo constantemente salva por Mario, por quem ela é apaixonada.\n[…]\nSeus acessórios são saltos altos vermelhos, luvas longas de ópera brancas, um broche de safira, brincos de safira, e uma coroa dourada adornada com safiras e rubis. Seu cabelo é muitas vezes puxado para trás em um rabo de cavalo, primeiro em Super Mario Sunshine e mais tarde nos jogos Mario Kart e Mario Sports começando com Mario Kart: Double Dash!! e Mario Golf: Toadstool Tour respectivamente.\n[…]\nApenas com o lançamento de Super Mario 64 o nome Peach passou a ser conhecido fora do Japão. No Brasil, durante a exibição do desenho animado As Aventuras dos Irmãos Super Mário, ela ficou conhecida como Princesa Cogumelo. É revelado que Toadstool é só seu sobrenome e que Peach é seu primeiro nome.\n[…]\nBowser, o Rei Koopa, também é perdidamente apaixonado por ela também, porque ele quer seu reino (Bowser alimenta um desejo megalomaníaco de dominar o mundo) e porque sentiu amor á primeira vista. Este sentimento é tão forte que ele se enfurece até mesmo com outros vilões que a capturam, sendo até mesmo capaz de ajudar o Mario para salvá-la, como em Mario & Luigi: Superstar Saga, quando ele imediatamente se alia a Mario para conseguir sua voz de volta ao ser roubada por Cackletta.\n[…]\nPeach e Daisy se consideram melhores amigas. Na série de mangás exclusiva do Japão Super Mario-Kun, Rosalina e Peach são velhas amigas também. Não se sabem quem sejam seus pais, embora nos jogos Toadsworth apareça como uma espécie de ama-seca, substituindo a figura obscura do Rei Cogumelo, que tinha a mesma função.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Pokémon Sword e Shield",
+      "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A região de Galar, cenário de Pokémon Sword e Shield, de 2019, é inspirada em qual país europeu?",
+    "resposta": "Reino Unido",
+    "distratores": [
+      "França",
+      "Espanha",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield",
+        "situacao": "ok",
+        "texto": "Pokémon Sword and Pokémon Shield are 2019 role-playing video games developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo Switch console. They are the first instalments in the 8th generation of the Pokémon video game series. First teased at E3 2017 and announced in February 2019, the games were released on 15 November 2019.\n[…]\nSword and Shield received generally positive reviews from critics, who praised the games' gameplay, exploration, and mechanics, although the lack of innovation and mediocre visuals received some criticism. As of December 2025, the games had sold more than 27 million copies worldwide, making them the third best-selling titles in the Pokémon video game series. The games won awards at the SXSW Gaming Awards and Famitsu Dengeki Game Awards 2019.\n[…]\nPokémon Sword and Shield are set in the Galar Region, inspired by the United Kingdom. Galar consists of numerous cities and towns, with a route system separating major settlements. Random encounters with wild Pokémon typically occur in tall grass or bodies of water along routes and they might chase or run away from the player depending on their disposition.\n[…]\nSword and Shield are set in Galar, a fictional region inspired by the United Kingdom, with several of its landmarks resembling places such as Bath, Somerset and York. Within the Galar Region lie countryside towns featuring cottages and Victorian architecture to the south. There are also Industrial Revolution and steampunk references. Many of the region's towns and cities feature Pokémon Gyms stylised like football stadiums, showcasing the games' Dynamax and Gigantamax mechanic.\n[…]\nUnlike previous core series games, many pre-existing Pokémon are not available in Sword and Shield, and only Pokémon that appear in the Galar region can be transferred from previous titles via Pokémon Home."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Sword_e_Shield",
+        "situacao": "ok",
+        "texto": "Pokémon Sword e Pokémon Shield (ポケットモンスター ソード・シールド, Poketto Monsutā Sōdo・Shīrudo; Monstros de Bolso Sword・Shield, que traduzidos do inglês para o português significa Espada e Escudo, Espada e Escudo em japonês é respectivamente 剣 Ken e 盾 Tate) são dois jogos eletrônicos de RPG, desenvolvidos pela Game Freak e publicados pela The Pokémon Company e Nintendo. Fazem parte da oitava geração da série Po\n[…]\nO planejamento do conceito de Sword e Shield começou imediatamente após a conclusão de Pokémon Sun e Moon em 2016, enquanto a produção total começou um ano depois, em setembro de 2017. Como nos títulos anteriores, eles narram a jornada de um jovem treinador Pokémon com o objetivo de se tornar o Pokémon Campeão, desta vez na nova região de Galar, que fica no Reino Unido.\n[…]\nSword e Shield ocorre na região de Galar, que fica no Reino Unido. Tal como acontece com todas as regiões, Galar consiste em várias cidades e vilas ligadas por \"Rotas\"; no entanto, há também uma área de mundo aberto no centro da região conhecida como \"Área Selvagem\", um conceito novo para a série. Encontros aleatórios com Pokémon selvagens pode ocorrer em grama alta ou em corpos d'água ao longo de rotas ou na área selvagem.\n[…]\nPokemon Sword e Pokémon Shield acontece na região de Galar (ガラル地方, Galar-chihō), uma grande e estreita extensão de terra e uma das muitas regiões do mundo Pokémon. O diretor do jogo Shigeru Ohmori descreveu-o como um cenário mais moderno. A região em si é inspirada na Grã-Bretanha, com seus muitos marcos que se assemelham a lugares como as Casas do Parlamento e o gigante de Cerne Abbas. Na região de Galar encontram-se cidades rurais com casas de campo e arquitetura vitoriana ao sul.\n[…]\nAo contrário de outros jogos Pokémon básicos, nem todas as espécies Pokémon existentes aparecem ou podem ser usadas no Sword e Shield.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Ghost of Tsushima",
+      "descricao": "Jogo de ação da Sucker Punch lançado em 2020, protagonizado pelo samurai Jin Sakai."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Lançado em 2020, o jogo do samurai Jin Sakai se passa durante a invasão mongol de 1274 a qual ilha japonesa?",
+    "resposta": "Tsushima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ghost_of_Tsushima"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ghost_of_Tsushima",
+        "situacao": "ok",
+        "texto": "Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan. Jin must choose between following the warrior code to fight honorably, or by using practical but dishonorable methods of repelling the Mongol\n[…]\nIn 1274, a Mongol fleet led by Khotun Khan invades the Japanese island of Tsushima. The  jitō, Lord Shimura, and his nephew, Jin Sakai, lead an effort by the five ruling clans of the island - Shimura, Sakai, Adachi, Nagao, and Kikuchi - to repel the invaders as they land at Komoda Beach. However, the battle ends in disaster, with the samurai forces decimated by the superior weapons of the Mongols, Shimura captured, and Jin severely wounded and left for dead.\n[…]\nBecause of this new threat to Tsushima, Jin sails to Iki Island to stop the Eagle and face his past.\n[…]\nBefore deciding on the setting as feudal Japan, Sucker Punch considered various other settings and themes such as pirates, Scottish outlaw Rob Roy MacGregor, and The Three Musketeers. They later found a historical account of the Mongol invasion of Tsushima in 1274 and \"the entire vision clicked into place.\" In 2020, a prototype for one of Sucker Punch's cancelled projects, Prophecy, was leaked.\n[…]\nWorldwide, Ghost of Tsushima sold over 2.4 million units in its first 3 days of sales, making it the PlayStation 4's fastest-selling first-party original IP debut. In November 2020, It was reported that the game had sold over 5 million units. By July 2022, it had sold 9.73 million units. In September 2024, Sucker Punch announced that it had sold over 13 million units. According to court documents filed by Sony in the Microsoft/Activision merger, the game was highly profitable."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ghost_of_Tsushima",
+        "situacao": "ok",
+        "texto": "Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão. Ele se vê dividido entre escolher seguir o código do guerreiro para lutar honradamente ou usar métodos práticos e desonrosos \n[…]\nUma frota Mongol liderada por Khotun Khan, primo de Kublai Khan e neto de Gengis Khan, invade a ilha japonesa de Tsushima em 1274. O samurai local lorde Jin Sakai e seu tio, lorde Shimura, lideram os samurais da ilha em uma tentativa de repelir os invasores. Entretanto, a batalha termina em desastre com todos os samurais mortos, Shimura capturado e Jin seriamente ferido e deixado para morrer. Ele é encontrado e revivido por Yuna, uma ladra, que lhe informa que a ilha sucumbiu aos invasores.\n[…]\nUma expansão multijogador chamada Ghost of Tsushima: Legends foi lançada em 16 de outubro de 2020, junto com um modo \"Novo Jogo+\" para o jogo original. Diferentemente do jogo base, Legends possui elementos sobrenaturais inspirados na mitologia japonesa. Apesar de Legends ter sido adicionado pós-lançamento, a Sucker Punch tinha decidido cedo que Ghost of Tsushima teria alguma forma de jogabilidade cooperativa.\n[…]\nNo Japão, Ghost of Tsushima foi o jogo eletrônico mais vendido durante sua semana de estreia, com 212 915 unidades vendidas. O título chegou a ficar fora de estoque em algumas lojas japonesas no decorrer de seu primeiro mês. Ele permaneceu entre os trinta jogos mais vendidos no Japão por mais de quinze semanas consecutivas, totalizando 412 mil cópias vendidas. Foi o segundo jogo exclusivo da Sony mais vendido no Japão na história, atrás apenas de Spider-Man.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Max Payne 3",
+      "descricao": "Jogo de tiro da Rockstar Games lançado em 2012, terceiro da série do policial Max Payne."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Max Payne 3, de 2012, o ex-policial nova-iorquino vira segurança de uma família rica em qual cidade brasileira?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Max_Payne_3"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Max_Payne_3",
+        "situacao": "ok",
+        "texto": "Max Payne 3 is a 2012 third-person shooter game developed and published by Rockstar Games. It is the sequel to Max Payne 2: The Fall of Max Payne (2003) and the third entry in the Max Payne series. In the single-player mode, the player controls Max Payne, a former NYPD detective. Nine years after the events of the second game, Max finds work as a private security contractor in São Paulo, Brazil, b\n[…]\nAs part of their research for Max Payne 3's setting, the developers conducted field research around São Paulo throughout development and captured footage for the design team. Development duties were shared between Rockstar's studios worldwide. The game was first released for PlayStation 3 and Xbox 360 on May 15, 2012; a Windows port was released on May 29, followed by an OS X port on June 20, 2013. It is also backwards compatible on Xbox One and Xbox Series X/S.\n[…]\nMax Payne 3 received positive reviews from critics, who praised its direction, acting, gameplay, narrative, and soundtrack, though some criticism was aimed at the change in style from its predecessors, its linear design, and depiction of São Paulo. The game had shipped 4 million units by May 2013. It was nominated for multiple year-end accolades from several gaming publications, winning a variety of them.\n[…]\nRockstar also ran another competition to win a trip from New York City to São Paulo to attend at Sonar São Paulo, get a one-off Max Payne 3 Xbox 360 console, and play the game a week before its official release.\n[…]\nHe also commented that Rockstar's poetical depiction of São Paulo is compensated by the game's \"great plot\" and that \"even the ones who live in São Paulo will believe there is a slum called Nova Esperança - and keep away from there, of course\".\n[…]\nMax Payne 3 received Best Animation at the 2012 Inside Gaming Awards."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Max_Payne_3",
+        "situacao": "ok",
+        "texto": "Max Payne 3 é um jogo eletrônico de tiro em terceira pessoa de 2012 desenvolvido e publicado pela Rockstar Games. O jogo foi inicialmente lançado para PlayStation 3 e Xbox 360 em 15 de maio de 2012; um porte para Windows foi lançado em 29 de maio, seguido de um porte para OS X em 20 de junho de 2013. É a sequência de Max Payne 2: The Fall of Max Payne e o terceiro jogo da série Max Payne. Também e\n[…]\nMax Payne 3 é jogado numa perspectiva de terceira pessoa. Ao longo do modo single-player, os jogadores controlam Max Payne, um ex-detetive da NYPD. Nove anos após os acontecimentos do segundo jogo, Max encontra trabalho como segurança privado em São Paulo, Brasil, mas se envolve em uma situação cheia de morte e traição.\n[…]\nO jogo decorre em São Paulo, Brasil, onde Payne está trabalhando na sector da segurança privada para uma rica família local, oito anos após os eventos do segundo jogo.\n[…]\nMax Payne sai dos Estados Unidos devido a uma série de acontecimentos, nos quais reencontrou Raul Passos. Junto com Passos, Max Payne foi para São Paulo, e passou a trabalhar como guarda-costas pessoal da Família Branco. Raul Passos é um detetive da polícia de Nova Iorque, que passou a trabalhar com segurança privada em São Paulo. Raul é um velho amigo de Max Payne, e recruta-o para trabalhar em um setor de segurança privada em São Paulo. Victor Branco é irmão de Rodrigo, sendo o filho do meio.\n[…]\nLogo em seguida, a história regressa alguns dias para uma festa numa cobertura luxuosa em São Paulo, onde Max e seu amigo Raul Passos trabalham como guarda-costas da família Branco, composta por Rodrigo Branco (um empresário), sua mulher Fabiana (uma socialite) e seus irmãos Victor (um político candidato à prefeitura da cidade) e Marcelo (um baladeiro). Durante a festa, uma gangue chamada Comando Sombra invade o apartamento e tenta sequestrar Rodrigo e Fabiana, mas o plano é frustrado por Max.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Lara Croft",
+      "descricao": "Arqueóloga aventureira, protagonista da série de jogos Tomb Raider, criada em 1996 pela Core Design."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Lara Croft, a arqueóloga aventureira da série Tomb Raider, é uma aristocrata de qual país?",
+    "resposta": "Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lara_Croft"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lara_Croft",
+        "situacao": "ok",
+        "texto": "Lara Croft is a character and the main protagonist of the video game franchise Tomb Raider. She is presented as a highly intelligent and athletic English adventurer and archaeologist who ventures into ancient tombs and hazardous ruins around the world. Created by a team at British developer Core Design that included Toby Gard, the character first appeared in the video game Tomb Raider in 1996.\n[…]\nLara's backstory has changed dramatically over the course of the series. During the first era, beginning in Tomb Raider (1996), game manuals describe the character as the Wimbledon, London-born daughter of Lord Henshingly Croft (Lord Richard Croft in Legend and Survivor timelines). She was raised as a British aristocrat and betrothed to the fictitious Earl of Faringdon. Lara attended the Scottish boarding school Gordonstoun and a Swiss finishing school.\n[…]\nIn 2026, Derby residents began a fundraiser to install a larger-than-life statue of Lara Croft in Derby Market Hall. Luke Earle, the host of an annual Tomb Raider Day celebration in Derby, stated, \"Just as Nottingham has Robin Hood, Derby has Lara Croft.\" The fundraiser successfully reached its goal for the statue to be installed.\n[…]\nIGN's Jesse Schedeen described Croft as one of few characters to receive a decent videogame-to-movie adaptation. By 2008, the first Tomb Raider film was the highest-grossing video game film and the largest opening ever for a movie headlined by a woman. It became the second highest-grossing video game movie in 2010, after the release of Prince of Persia: The Sands of Time, with Lara Croft Tomb Raider: The Cradle of Life as the fourth.\n[…]\nCoupland, Douglas; Ward, Kip (1998). Lara's Book: Lara Croft and the Tomb Raider Phenomenon. Roseville, California: Prima Games. ISBN 0-7615-1580-1.\n[…]\nMedia related to Lara Croft at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lara_Croft",
+        "situacao": "ok",
+        "texto": "Lara Anne Croft é uma personagem fictícia e a protagonista da série de videojogos Tomb Raider da Square Enix (antes Eidos Interactive). Lara é apresentada como uma mulher bonita, inteligente e atlética, uma arqueóloga britânica que se aventura em antigas tumbas e ruínas perigosas ao redor do mundo à procura de artefatos valiosos. Criada por uma equipa do estúdio Core Design que incluía Toby Gard, \n[…]\nShelley Blond em Tomb Raider\n[…]\nHá três diferentes continuidades dentro dos games Tomb Raider. A primeira continuidade foi criada pela Core Design, e engloba os seis primeiros jogos de Tomb Raider. A segunda e atual continuidade foi introduzida pela Crystal Dynamics pela reinvenção em série em Tomb Raider: Legend. Por fim, a terceira continuidade refere-se ao reboot da série, ainda sob os cuidados da Crystal Dynamics. Além disso, os filmes e os quadrinhos de Lara Croft apresentam numerosas diferenças das continuidades do game.\n[…]\nNa primeira continuidade, o manual do game Tomb Raider contava sobre o nascimento de Lara para o Lord Henshingly Croft e como ela foi criada como uma aristocrata cercada de riqueza e luxo. Também explica-se como, aos 21 anos de idade, ela foi a única sobrevivente de um naufrágio próximo à costa do Japão e foi obrigada a confiar no seu juízo para permanecer viva. O incidente a mudou e a inspirou a abandonar sua vida de conforto e segurança em favor de viajar ao redor do mundo sozinha.\n[…]\nNo jogo mais recente da série da personagem, Tomb Raider, dá-se a explicação de que Lara nunca tivera formação militar, mas atribui a sua perícia à um treinamento pessoal dado a ela por Conrad Roth, um colega de seu pai, militar e aventureiro que treinara para usar armas e arcos, sem nunca, porém, pensar que isso seria necessário ser usado em humanos. Durante o decorrer do jogo, nota-se sua evolução e que mortes de pessoas queridas a afetaram e ela melhorou sua perícia militar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "BioShock",
+      "descricao": "Jogo de tiro em primeira pessoa lançado em 2007, ambientado na cidade fictícia de Rapture."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em BioShock, de 2007, o jogador explora Rapture, uma cidade utópica em ruínas construída em que lugar inusitado?",
+    "resposta": "No fundo do oceano Atlântico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/BioShock"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/BioShock",
+        "situacao": "ok",
+        "texto": "BioShock is a 2007 first-person shooter video game developed by 2K Boston (later Irrational Games) and 2K Australia, and published by 2K. The first game in the BioShock series, it was released for Microsoft Windows and Xbox 360 platforms in August 2007; a PlayStation 3 port by Irrational, 2K Marin, 2K Australia and Digital Extremes was released in October 2008.\n[…]\nIn 1960, the protagonist, Jack, is a passenger on a plane that crashes in the Atlantic Ocean. The only survivor, Jack makes his way to a nearby lighthouse; inside is a bathysphere that takes him to Rapture. Jack is contacted via radio by Atlas, who helps guide him through the ruined city. Atlas requests Jack's help in saving his family, who he says are in a docked bathysphere. When Jack first encounters the Little Sisters, Atlas urges him to kill them to harvest their ADAM. Dr.\n[…]\nA sequel, BioShock 2, was announced in 2008, with its development led by 2K Marin. BioShock 2 was released for Windows PC, Mac, Xbox 360, and the PlayStation 3 worldwide on February 9, 2010. Irrational Games developed BioShock Infinite, taking place aboard the collapsing air-city of Columbia in the year 1912. Infinite involves the possibilities of multiple universes. In one scene, the game take place at the lighthouse and bathysphere terminus of Rapture as part of this exploration.\n[…]\nHe consequently viewed BioShock not simply as denying agency, but as demonstrating how a player's sense of choice and subjectivity can be constructed through the process of playing.\n[…]\nShe argued that even choices constrained by a designed system can produce meaningful experiences of responsibility, investment, and interpretation, and used the extensive debate surrounding BioShock to argue for a more contingent understanding of agency in games.\n[…]\nBioShock: Rapture, by John Shirley (2011), ISBN 0-7653-2484-9,\n[…]\nBioShock at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/BioShock",
+        "situacao": "ok",
+        "texto": "BioShock é um jogo eletrônico de tiro em primeira pessoa produzido pela Irrational Games (na altura, com o nome 2K Boston) e distribuído pela 2K Games. Foi lançado para as plataformas Microsoft Windows e Xbox 360 em Agosto de 2007; a versão para PlayStation 3, criada pela Irrational, 2K Marin, 2K Australia e Digital Extremes, foi lançada em Outubro de 2008 e a versão para Mac OS X, produzida pela \n[…]\nA história de BioShock decorre em 1960, no qual o jogador controla Jack, depois do seu avião cair no oceano, junto a um terminal batisférico que leva à cidade subaquática de Rapture. Construída pelo magnata Andrew Ryan, a cidade tinha como objectivo inicial ser uma utopia isolada, mas a descoberta do ADAM, um plasmídeo que dá poderes sobre-humanos, fez com que a cidade entrasse em declínio turbulento.\n[…]\nNo início do jogo, Jack o personagem do jogador, é um passageiro num avião que se despenha algures no Oceano Atlântico em 1960. Como único sobrevivente, Jack consegue chegar a um farol que hospeda um terminal batisférico que o leva até à cidade de Rapture.\n[…]\nBioShock contém música licenciada e original. Existe um total de trinta músicas licenciadas que o jogador pode ouvir através dos vários fonógrafos que tocam música das décadas de 1940 e 1950, como áudio de fundo. A banda sonora original foi composta por Garry Schyman.\n[…]\nBioShock Infinite, produzido pela Irrational Games, foi editado em Março de 2013 e partilha o nome bem como outros aspectos e conceitos da jogabilidade com BioShock. BioShock Infinite não é nem sequela ou prequela da história, em vez disso a ação tem lugar na cidade aérea de Columbia no ano de 1912, em que o jogador assume o papel do ex-agente da Pinkerton, Booker DeWitt, na sua tentativa de salvar uma mulher, Elizabeth, da distopia em que a cidade se tornou.\n[…]\nBioShock: Rapture, por John Shirley (2011) ISBN 0-7653-2484-9\n[…]\nBioShock no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Pac-Man",
+      "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que designer japonês da Namco criou o Pac-Man, a bola amarela que come pastilhas num labirinto?",
+    "resposta": "Toru Iwatani",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pac-Man",
+      "https://en.wikipedia.org/wiki/Toru_Iwatani"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pac-Man",
+        "situacao": "ok",
+        "texto": "Pac-Man, originally titled Puck Man in Japan, is a 1980 maze video game developed and published by Namco for arcades. It was released in Japan on May 22, 1980 and by Midway Manufacturing in North America in October 1980. The player controls Pac-Man, who must eat all the dots inside an enclosed maze while avoiding four colored ghosts. Eating large flashing dots called \"Power Pellets\" causes the gho\n[…]\nPac-Man was designed by Toru Iwatani, who led a nine-man team; the game's development began in early 1979. Iwatani wanted to create a game that could appeal to women as well as men, because most video games of the time had themes that appealed to traditionally masculine interests, such as war or sports. Although the inspiration for the Pac-Man character was the image of a pizza with a slice removed, Iwatani has said he rounded out the Japanese character for mouth, kuchi (Japanese: 口).\n[…]\nAfter acquiring the struggling Japanese division of Atari in 1974, Namco began producing its own video games in-house rather than licensing them from other developers to distribute in Japan. Company president Masaya Nakamura created a small video-game development group within the company that studied several NEC-produced microcomputers for their potential for creating games. Among the first people assigned to the division was 24-year-old employee Toru Iwatani.\n[…]\nThe Pac-Man character appears in the film Pixels (2015), with Denis Akiyama playing series creator Toru Iwatani. Iwatani makes a cameo at the beginning of the film as an arcade technician. Pac-Man is referenced and makes an appearance in the 2017 film Guardians of the Galaxy Vol. 2 and the video game, Marvel's Guardians of the Galaxy. The game, the character, and the ghosts all appear in the film Wreck-It Ralph, as well as the sequel Ralph Breaks the Internet."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Toru_Iwatani",
+        "situacao": "ok",
+        "texto": "Tōru Iwatani (岩谷 徹, Iwatani Tōru; born January 25, 1955) is a Japanese video game designer who spent much of his career working for Namco. He is best known and commemorated for being the creator of the arcade game Pac-Man (1980). In 2009, he was chosen by IGN as one of the top 100 game creators of all time.\n[…]\nIwatani was self-taught in computers without any formal training in programming or graphic design. He often filled his school textbooks with scattered manga, which he claims had a major influence on the character designs of his games.\n[…]\nWhile not as successful as the company hoped, Gee Bee helped Namco get a foothold in the gradually expanding video game market. Two sequels were released in 1979, Bomb Bee and Cutie Q, which Iwatani worked on as a designer.\n[…]\nIwatani went on to design Libble Rabble in 1983, a twin-stick puzzler based on a game he had played in his childhood. Iwatani claims Libble Rabble to be his favorite game. He also worked as a producer for many of Namco's arcade games, including Rally-X, Galaga, Pole Position, Ridge Racer and Time Crisis. From April 2005, he taught the subject of Character Design Studies at Osaka University of Arts as visiting professor.\n[…]\nIwatani left Namco in March 2007 to become a full-time lecturer at Tokyo Polytechnic University. Iwatani returned to his Pac-Man roots in 2007 when he developed Pac-Man Championship Edition for the Xbox 360, which he stated is the final game he will develop.\n[…]\nIwatani, Toru (2005-09-17). Pakkuman no Gēmu Gaku Nyūmon [Pacman's Methods [sic]]. Enter Brain. ISBN 978-4757717527.\n[…]\nIwatani, Toru (2012-06-21). Gēmu no Ryūgi [The style of game [sic]]. Ohta Books. ISBN 978-4778313265.\n[…]\nTōru Iwatani at IMDb\n[…]\nDetailed Toru Iwatani biography at PAC-MAN Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pac-Man",
+        "situacao": "ok",
+        "texto": "Pac-Man (conhecido em japonês com o nome de Puckman ou パックマン) é um jogo eletrônico criado por Tōru Iwatani para a empresa Namco, e sendo distribuído para o mercado americano pela Midway Games. Produzido originalmente para Arcade no início dos anos 1980, tornou-se um dos jogos mais jogados e populares no momento, tendo versões modernas para diversos consoles e continuações para tantos outros, inclu\n[…]\nEm 1980, Toru Iwatani, um designer da Namco, queria inventar um jogo de vídeo diferente dos \"Shoot 'em ups\" (tiro-neles), que se assemelhasse a um desenho-animado.\n[…]\nNo jogo os jogadores controlam Pac-Man, com o objectivo de comer todas as bolas (ou pastilhas) que se encontram espalhadas num labirinto, enquanto evitam quatro fantasmas (os Galaxians), 'blinky', 'pinky', 'inky' e 'clyde', que escapam de uma prisão. Em cada canto da área de jogo, estão pastilhas maiores que permitem ao pac-man caçar os fantasmas, em vez de ser caçado, durante um curto período de tempo.\n[…]\nOs fantasmas Blinky, Pinky, Inky e Clyde são os inimigos/vilões do jogo. Apesar da natureza aparentemente aleatória, seus movimentos são estritamente determinísticos, que os players usaram para sua vantagem. Em uma entrevista, o criador Toru Iwatani afirmou que ele havia projetado cada inimigo com sua própria personalidade distinta, a fim de impedir que o jogo se tornasse impossivelmente difícil ou chato de jogar.\n[…]\nMais recentemente, Iwatani descreveu o comportamento do inimigo com mais detalhes na 2011 Game Developers Conference. Ele afirmou que o inimigo vermelho persegue Pac-Man, e os inimigos rosa e azul tentam se posicionar na frente da boca de Pac-Man.\n[…]\nEm 1981 é lançado Ms. Pac-Man, a primeira sequência de Pac-Man, que é um jogo semelhante ao original, no entanto a personagem é feminina (com a boca pintada com batom vermelho), e em vez de um labirinto, existem quatro labirintos diferentes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "The Legend of Zelda (jogo de 1986)",
+      "descricao": "Primeiro jogo da série Zelda, da Nintendo, lançado em 1986, estrelado pelo herói Link."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que designer japonês, inspirado nas explorações que fazia quando criança pelos campos perto de Quioto, criou The Legend of Zelda?",
+    "resposta": "Shigeru Miyamoto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+      "https://en.wikipedia.org/wiki/Shigeru_Miyamoto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+        "situacao": "ok",
+        "texto": "The Legend of Zelda is a 1986 action-adventure game developed and published by Nintendo for the Family Computer Disk System. It is the first game in the Legend of Zelda series. It is set in the fantasy land of Hyrule and centers on an elf-like boy named Link, who aims to collect the eight fragments of the Triforce of Wisdom to rescue Princess Zelda from Ganon.\n[…]\nThe player controls Link from a top-down perspective and navigates the overworld and dungeons, collecting weapons, defeating enemies and uncovering secrets. It was designed and directed by Shigeru Miyamoto and Takashi Tezuka, being in development alongside Super Mario Bros., which was released on September 13, 1985.\n[…]\nThe Legend of Zelda was directed and designed by Shigeru Miyamoto and Takashi Tezuka (credited as S. Miyahon and Ten Ten, respectively, in the closing credits). Miyamoto produced the game, and Tezuka wrote the story and script. Much of the programming was done by Toshihiko Nakago of Nintendo's partner SRD. Keiji Terui, a screenwriter who worked on anime shows such as Dr. Slump and Dragon Ball, wrote the backstory for the manual, drawing inspiration from conflicts in medieval Europe.\n[…]\nWith The Legend of Zelda, Miyamoto wanted to flesh out the idea of a game \"world\" even further, giving players a \"miniature garden that they can put inside their drawer\". He drew his inspiration from his experiences as a boy around Kyoto, where he explored nearby fields, woods, and caves, always trying through Zelda games to impart players some sense of that limitless wonder he felt through unknown exploration. According to Miyamoto: \"When I was a child, I went hiking and found a lake.\n[…]\nThe Legend of Zelda Encyclopedia. Dark Horse Comics. 2018. p. 218. ISBN 978-1-5067-0638-2.\n[…]\nThe Legend of Zelda at MobyGames\n[…]\nThe Legend of Zelda on the Famicom 40th Anniversary page (in Japanese)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Shigeru_Miyamoto",
+        "situacao": "ok",
+        "texto": "Shigeru Miyamoto (Japanese: 宮本 茂, Hepburn: Miyamoto Shigeru; born November 16, 1952) is a Japanese video game designer, producer, game director and filmmaker at Nintendo, where he has served as one of its representative directors as an executive since 2002.\n[…]\nFrom an early age, Miyamoto explored the natural areas around his home. He discovered a cave, and, after days of hesitation, went inside. His expeditions into the Kyoto countryside inspired his later work, particularly The Legend of Zelda, a seminal video game.\n[…]\nBy contrast, Miyamoto employed nonlinear gameplay in The Legend of Zelda, forcing the player to think their way through riddles and puzzles.\n[…]\nThe world was expansive and seemingly endless, offering \"an array of choice and depth never seen before in a video game.\" With The Legend of Zelda, Miyamoto sought to make an in-game world that players would identify with, a \"miniature garden that they can put inside their drawer.\" He drew his inspiration from his experiences as a boy around Kyoto, where he explored nearby fields, woods, and caves; each Zelda game embodies this sense of exploration.\n[…]\nThe name of the main character of the PC game Daikatana, Hiro Miyamoto, is a homage to Miyamoto. The character Gary Oak from the Pokémon anime series is named Shigeru in Japan and is the rival of Ash Ketchum (called Satoshi in Japan). Pokémon creator Satoshi Tajiri was mentored by Miyamoto.\n[…]\ndeWinter, Jennifer (2015). Shigeru Miyamoto: Super Mario Bros., Donkey Kong, The Legend of Zelda. Bloomsbury Publishing. ISBN 9781628923865.\n[…]\nShigeru Miyamoto at IMDb\n[…]\nShigeru Miyamoto on Nintendo Miiverse\n[…]\nVideo profile of Shigeru Miyamoto at the Wayback Machine (archived July 15, 2011) from the digital TV series Play Value"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Legend_of_Zelda_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "The Legend of Zelda, conhecido no Japão como The Legend of Zelda: The Hyrule Fantasy (ゼルダの伝説 THE HYRULE FANTASY, Zeruda no Densetsu Za Hairaru Fantajī), lançado oficialmente no Brasil como A Lenda de Zelda, é um jogo eletrônico criado por Shigeru Miyamoto em 1986 para o Nintendo Entertainment System.\n[…]\nO primeiro jogo da série The Legend of Zelda , foi originalmente lançado no Japão como um jogo de lançamento para o Family Computer Disk System em fevereiro de 1986. Mais de um ano depois, a América do Norte e a Europa receberam lançamentos no Nintendo Entertainment System em formato de cartucho, sendo o primeiro jogo de console a incluir uma bateria interna para salvar dados.\n[…]\nThe Legend Of Zelda é muitas vezes caracterizado nas listas de jogos considerados maiores ou mais influentes.\n[…]\nThe Legend Of Zelda foi introduzido no Hall da Fama do GameSpy, em agosto de 2000  e votado pelos editores do GameSpy como o décimo melhor jogo de todos os tempos.\n[…]\nThe Legend of Zelda foi re-lançado em várias plataformas, desde suas versões originais nacionais e internacionais. O jogo foi re-lançado em formato de cartucho para o Famicom em 1994, a versão de cartucho tem a tela-título ligeiramente modificada da versão de cartão do disco do jogo, tal que é exibido o número '1' no final do título.\n[…]\nUm re-lançamento oficial foi incluído em The Legend of Zelda: Collector's Edition, lançado em 2003 para o GameCube. O jogo novamente foi re-lançado para o Game Boy Advance em 2004, juntamente com sua continuação, Zelda II: The Adventure of Link, como parte da coletânea Famicom Mini/Classic NES Series.\n[…]\nUma demo chamada \"Classic Games\"  foi mostrada para o Nintendo 3DS na E3 de 2010, exibindo mais de uma dúzia de jogos clássicos utilizando efeitos 3D, incluindo The Legend of Zelda .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Final Fantasy",
+      "descricao": "Série japonesa de jogos de RPG iniciada em 1987 pela Square."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que designer japonês da Square criou Final Fantasy, cujo primeiro jogo saiu em 1987?",
+    "resposta": "Hironobu Sakaguchi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Final_Fantasy_(video_game)",
+      "https://en.wikipedia.org/wiki/Hironobu_Sakaguchi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Final_Fantasy_(video_game)",
+        "situacao": "ok",
+        "texto": "Final Fantasy is a 1987 role-playing video game developed and published by Square for the Nintendo Entertainment System. It is the first game in Square's Final Fantasy series, created by Hironobu Sakaguchi. The story follows four youths called the Warriors of Light, who each carry one of their world's four elemental crystals which have been darkened by the four Elemental Fiends. Together, they que\n[…]\nHironobu Sakaguchi had intended to make a role-playing game (RPG) for a long time, but his employer Square refused to give him permission as it expected low sales of such a product. However, when the RPG Dragon Quest was released and proved to be a hit in Japan, the company reconsidered its stance on the genre and approved Sakaguchi's vision of an RPG inspired by Ultima and Wizardry.\n[…]\nOnly three of his colleagues volunteered to join this project headed by him because he was thought of as a \"rough boss\" in spite of his unsuccessful creations. Eventually, Final Fantasy was developed by a team of seven core staff members within Square referred to as the \"A-Team\". Sakaguchi convinced fellow game designers Koichi Ishii and Akitoshi Kawazu to join the project.\n[…]\nThe reason for choosing the word \"final\" to form the eventual title of Final Fantasy was explained as twofold by Uematsu: for one thing, it stemmed from Sakaguchi's personal situation, as he would have quit the game industry and gone back to university had the game not sold well, and for another, Square was under the threat of bankruptcy at the time, which meant the game could have been the company's last.\n[…]\nAlthough Sakaguchi confirmed some of the theories, he later downplayed the rationale for choosing the word \"final\", saying that \"it was definitely a back-to-the-wall type situation back then, but any word that starts with an 'F' would have been fine\".\n[…]\nList of Square Enix video game franchises\n[…]\nFinal Fantasy at MobyGames"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hironobu_Sakaguchi",
+        "situacao": "ok",
+        "texto": "Hironobu Sakaguchi (坂口 博信, Sakaguchi Hironobu; born November 25, 1962) is a Japanese game designer, director, producer, and writer. Originally working for Square (later Square Enix) from 1983 to 2003, he departed the company and founded independent studio Mistwalker in 2004. He is known as the creator of the Final Fantasy franchise, in addition to other titles during his time at Square.\n[…]\nHe eventually found the motivation to make a return to game production after talking with Toriyama and fellow artist Takehiko Inoue. Sakaguchi officially left Square in 2003, with his last major credited role being on Final Fantasy X-2.\n[…]\nHis favorite non-RPG title is Ogre Battle: The March of the Black Queen, which shocked him at the time due to its narrative achievements while being graphically unimpressive compared to Final Fantasy. Speaking about his design approach in 1994, Sakaguchi said he preferred to break away from established conventions rather than working to a pre-existing plan. He also stated a wish to have games surpass the visual and narrative impact of films, citing their interactive elements as an advantage.\n[…]\nFollowing his departure and the merger with Enix, the upper management of Square Enix apparently instructed its staff not to communicate with Sakaguchi (according to a Japanese game reporter), severing ties with him and ostracising staff within the company who were identified as protegees including Matsuno. Sakaguchi disliked the creative direction Final Fantasy took under its new management, particularly citing Final Fantasy XIII as indicative of this change.\n[…]\nHironobu Sakaguchi Archived April 14, 2012, at the Wayback Machine profile, interviews, and photo gallery at the Square Haven People Database\n[…]\nHironobu Sakaguchi on Twitter\n[…]\nHironobu Sakaguchi at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_Fantasy_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "Final Fantasy é um jogo eletrônico de RPG de 1987 desenvolvido e publicado pela Square para o Nintendo Entertainment System. É o primeiro jogo da série Final Fantasy da Square, criada por Hironobu Sakaguchi. A história acompanha quatro jovens chamados Guerreiros da Luz, cada um portando um dos quatro cristais elementais de seu mundo, que foram obscurecidos pelos quatro Demônios Elementais.\n[…]\nOriginalmente, Final Fantasy foi concebido com o título provisório de Fighting Fantasy, mas problemas com a marca registrada e circunstâncias difíceis envolvendo a Square e o próprio Sakaguchi levaram à mudança do nome. O jogo foi um grande sucesso comercial, recebeu críticas geralmente positivas e deu origem a muitas sequências e títulos complementares de sucesso, formando a série Final Fantasy.\n[…]\nMas ainda com recursos para uma última tentativa, o diretor de planejamento e de desenvolvimento da Square, Hironobu Sakaguchi recebeu a missão de criar um jogo que salvasse o incerto futuro da Square na indústria.Quando perguntado sobre que tipo de jogo ele gostaria de fazer ele respondeu: \"Eu não acho que seria capaz de fazer um bom jogo de ação. Acho que sou melhor em contar histórias.\"\n[…]\nInspirando-se em outros jogos eletrônicos de RPG de sucesso na época como Dragon Quest, Legend of Zelda e Ultima, Sakaguchi criou um jogo com um imenso terreno a ser explorado e uma grande história a ser contada.\n[…]\nConvencido que este jogo no Famicom seria sua última cartada ele ironicamente deu-lhe o nome de Final Fantasy (fantasia final).\n[…]\nLançado para o Famicom em 18 de dezembro de 1987, dois dias antes do jogo Phantasy Star da Sega. Final Fantasy (FF) teve a direção do próprio Sakaguchi, o desenhista de mangá Yoshitaka Amano fez o design de personagens e um reconhecido compositor de músicas para jogos Nobuo Uematsu cuidou da trilha musical.\n[…]\nPágina oficial da franquia Final Fantasy (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Doom (jogo de 1993)",
+      "descricao": "Jogo de tiro em primeira pessoa lançado em 1993, em que um soldado enfrenta demônios em bases em Marte."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Doom, de 1993, marco dos jogos de tiro em primeira pessoa, foi criado por qual estúdio do Texas?",
+    "resposta": "id Software",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Doom_(1993_video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+        "situacao": "ok",
+        "texto": "Doom  is a 1993 first-person shooter game developed and published by id Software for MS-DOS. It is the first installment in the Doom franchise. The player assumes the role of a space marine, later unofficially referred to as Doomguy, fighting through hordes of undead humans and invading demons. The game begins on the moons of Mars and finishes in hell, with the player traversing each level to find\n[…]\nAfter completing Doom, id Software began working on a sequel using the same engine, Doom II, which was released to retail on October 10, 1994, ten months after the first game. GT Interactive had approached id before the release of Doom with plans to release a retail version of Doom and Doom II. Id chose to create the sequel as a set of episodes rather than a new game, allowing John Carmack and the other programmers to begin work on id's next game, Quake.\n[…]\nDoom II was the United States' highest-selling software product of 1994 and sold more than 1.2 million copies within a year.\n[…]\nDoom was notorious for its high levels of graphic violence and satanic imagery, which generated controversy from a broad range of groups. Doom for the 32X was one of the first video games to be given a Mature 17+ rating from the Entertainment Software Rating Board due to its violent gore and nature, while Doom II was the first.\n[…]\nDoom mods were widely popular, earning favorable comparisons to the official level additions seen in The Ultimate Doom. Thousands of user-created levels were released in the first few years after the release; over 3000 such levels for Doom and Doom II were included in the official retail release Master Levels for Doom II (1995). WizardWorks released multiple collections of mods of Doom and Doom II under the name D!Zone. At least one mod creator, Tim Willits, was later hired at id Software.\n[…]\nDoom at MobyGames\n[…]\nThe \"Official\" Doom FAQ\n[…]\nSource code for Doom on GitHub"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Doom_%28jogo_eletr%C3%B4nico_de_1993%29",
+        "situacao": "ok",
+        "texto": "Doom (comercializado como DooM ou DOOM) é um jogo de computador lançado em 1993 pela id Software e um dos títulos que geraram o gênero de tiro em primeira pessoa. Combinando gráficos 3D com violência gráfica e personagens 2D, ele tornou-se tão controverso quanto imensamente popular, com um lançamento em versão shareware que estima-se ter sido jogada por 15 milhões de pessoas.\n[…]\nAlém de definir muitos elementos dos games de tiro em primeira pessoa, Doom estabeleceu uma sub-cultura por popularizar os jogos em rede e permitir expansões criadas pelos jogadores (arquivos WADs). O sucesso do jogo influenciou o boom de jogos nos anos 90 até chegar ao ponto desses jogos serem algumas vezes chamados de \"clones do Doom\".\n[…]\nSendo um jogo de tiro em primeira pessoa, Doom é jogado através do ponto de vista do personagem principal. O objetivo de cada fase é simplesmente encontrar a saída que leva ao próximo nível, um botão com um sinal \"EXIT\" em vermelho, enquanto que o objetivo é sobreviver a todos os perigos ao longo do caminho. Entre os obstáculos estão monstros, barris com lixo tóxico, tetos que vêm abaixo e esmagam o jogador e portas trancadas que podem ser abertas quando se tranca um cartão, chave ou interruptor.\n[…]\nDoom é notável pelo arsenal disponível, que se tornou uma espécie de protótipo para os jogos de tiro em primeira pessoa.\n[…]\nA principal característica que distinguiu Doom, em seu lançamento, foi a qualidade de seu mecanismo gráfico, sem nenhum paralelo com outros jogos da época. O avanço em relação ao jogo anterior da id Software, Wolfenstein 3D, foi conseguido graças a um novo mecanismo gráfico criado por John Carmack. Após o sucesso do jogo, a sua tecnologia ainda serviu como \"exemplo\" para outros jogos do mesmo gênero como Heretic e HeXen. Suas principais características são:\n[…]\nDoom no site da id Software\n[…]\nDoom no site da Activison\n[…]\nDoom Builder\n[…]\nDoom no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Half-Life",
+      "descricao": "Jogo de tiro em primeira pessoa lançado em 1998, protagonizado pelo cientista Gordon Freeman."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que empresa americana criou o jogo de tiro Half-Life, em 1998, e depois a loja digital de jogos Steam?",
+    "resposta": "Valve",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Half-Life_(video_game)",
+      "https://en.wikipedia.org/wiki/Valve_Corporation"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Half-Life_(video_game)",
+        "situacao": "ok",
+        "texto": "Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and published by Sierra Studios for Windows. It was Valve's debut product and the first game in the Half-Life series. The player controls Gordon Freeman, a theoretical physicist who must escape from the Black Mesa Research Facility after it is overrun by aliens following a disastrous scientific experiment. Its gamep\n[…]\nMuch of the detail of Half-Life's development has been lost. According to Valve employee Erik Johnson, two or three months before release, their Visual SourceSafe source control system \"exploded\". Logs of technical changes from before the final month of development were lost, and code had to be recovered from individual computers. The revised version of Half-Life shown at E3 1998 received the Game Critics Awards for \"Best PC Game\" and \"Best Action Game\".\n[…]\nTo promote Half-Life, Valve's chief marketing officer, Monica Harrington, promoted Valve's reputation in the industry, with conference talks about their advances in game development, leading to coverage in the Wall Street Journal. Half-Life was released on November 19, 1998.\n[…]\nBlack Mesa, a third-party remake of Half-Life developed by Crowbar Collective on the Source engine, was published as a free mod in September 2012 and later approved by Valve for a commercial standalone release.\n[…]\nIn November 2023, for the 25th anniversary of Half-Life, Valve updated the Steam version to revert content to its original 1998 state, fix long-standing bugs, and add content including the Half-Life: Uplink demo, four new multiplayer maps, Steam Deck support, rendering improvements, and support for 4K resolution monitors. Valve also released an hour-long documentary on the creation of Half-Life, featuring commentary from the original developers, designers and artists."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Valve_Corporation",
+        "situacao": "ok",
+        "texto": "Valve Corporation, also known as Valve Software, is an American video game developer, publisher, hardware, and digital distribution company headquartered in Bellevue, Washington. It is the developer of game franchises including Half-Life, Counter-Strike, Portal, Team Fortress, Left 4 Dead and Dota, the software service Steam, and hardware including the Steam Frame, Steam Machine, Steam Deck and Va\n[…]\nMost of Valve's revenue comes from Steam, which controlled over half of the digital PC games market in 2011 and generated an estimated $3.4 billion in 2017.\n[…]\nIn 2002, Valve launched Steam, a digital storefront and delivery platform. Steam initially offered only Valve games, and was mandatory to install Half-Life 2, but it later became a publisher of third-party games. As Valve became its own publisher via Steam, it transitioned to a flat organization. Outside of executive management, Valve does not have bosses and uses an open allocation system, allowing employees to move between departments at will.\n[…]\nIn November 2025, Valve announced the Steam Frame, a standalone VR headset.\n[…]\nAfter Valve began development of Half-Life 2, it agreed a new contract with Sierra in 2001, removing these rights from Sierra and giving Valve some rights for digital distribution. Internally, Valve started work on Steam as a means to digitally distribute these games, and first revealed this project at the March 2002 Game Developers Conference.\n[…]\nVivendi and Sierra countersued, stating that Valve had misrepresented their position in the revised 2001 contract since they had been working on Steam at that point as a means to circumvent the publishing agreement. Vivendi sought intellectual property rights to Half-Life and a ruling preventing Valve from using Steam to distribute Half-Life 2. The countersuits, if successful, likely would have bankrupted Valve, according to COO Scott Lynch."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Half-Life",
+        "situacao": "ok",
+        "texto": "Half-Life (estilizado como HλLF-LIFE) é um jogo eletrônico de tiro em primeira pessoa e ficção científica de 1998, desenvolvido pela Valve Corporation e publicado pela Sierra Studios para Microsoft Windows. É o produto de estreia da empresa e o primeiro na série Half-Life. Nele, o jogador assume o papel de Gordon Freeman, um físico teórico que precisa escapar do Black Mesa Research Facility após e\n[…]\nA Valve portou Half-Life para seu próprio motor de jogo, Source, como Half-Life: Source em 2004. Em 2020, Black Mesa foi lançado, um remake não oficial de Half-Life feito por fãs e desenvolvido pela Crowbar Collective usando o motor Source.\n[…]\nAs primeiras aparições públicas de Half-Life vieram no início de 1997, durante a Electronic Entertainment Expo daquele ano, onde foram demonstrados principalmente o sistema de animação e a inteligência artificial. A Valve Software contratou o autor de ficção científica Marc Laidlaw em agosto de 1997 para trabalhar nos personagens e level design do jogo. A trilha sonora de Half-Life foi composta por Kelly Bailey.\n[…]\nHalf-Life estava originalmente planejado para ser lançado no final de 1997, para competir com Quake II, mas foi adiado quando a Valve decidiu que o jogo precisava de uma revisão significativa.\n[…]\nEm 24 de janeiro de 2013, a Valve lançou oficialmente sua conversão para o Linux, disponibilizando-a no Steam. Em 25 de janeiro de 2013, uma versão do jogo para Mac OS X foi lançada no Steam, mas não oficialmente anunciada ou mesmo mencionada na sua loja de jogos.\n[…]\nEm 10 de junho de 2005, a Valve anunciou, através de seu serviço de notícias de atualização do Steam, uma conversão próxima de Half-Life Deathmatch, a porção multijogador do jogo original, similar à conversão de Half-Life: Source. Nenhuma data de lançamento exata foi dada, simplesmente as palavras \"nas próximas semanas...\" Em 2 de julho de 2005, Half-Life Deathmatch: Source foi lançado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "The Sims",
+      "descricao": "Jogo de simulação de vida lançado em 2000 pela Maxis, em que o jogador controla pessoas virtuais."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que designer americano, criador de SimCity, também idealizou o jogo The Sims, lançado em 2000?",
+    "resposta": "Will Wright",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+      "https://en.wikipedia.org/wiki/Will_Wright_(game_designer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+        "situacao": "ok",
+        "texto": "The Sims is a 2000 social simulation video game developed by Maxis and published by Electronic Arts. Designed by Will Wright, the game allows players to create and control virtual people called Sims, build and furnish homes, and manage the Sims' needs, relationships, careers, and household finances. Its open-ended gameplay has no fixed win condition.\n[…]\nThe original inspiration for The Sims was Christopher Alexander's 1977 book on architecture and urban design, A Pattern Language. Game designer Will Wright was inspired by the book's focus on functionality in architecture, as Alexander based his design principles on structural usability rather than aesthetic values. Wright wanted to create a simulation game about enabling human behavior and interaction through design.\n[…]\nWill Wright started working on The Sims after releasing SimAnt in 1991. It was during that same year that he lost his home during the Oakland firestorm of 1991, and he incorporated his experience of rebuilding his life into the game; however, the game's concept was very poorly received by a focus group, so Wright had difficulty getting the project off the ground.\n[…]\nWill Wright, the game's designer, said the game has been a success in many ways—attracting casual gamers and female gamers (the latter making up almost 60% of players). In 2012, the game was one of 14 video games selected by the Museum of Modern Art as the basis for an intended collection of 40 games. The PlayStation 2, Xbox, and GameCube ports received scores ranging from 81.05% to 85.80% on GameRankings.\n[…]\nWhen completing the game, Will Wright dedicated The Sims to the late Danielle Bunten Berry, an influential trans game designer known for her innovation and contributions to multiplayer gaming.\n[…]\nThe Sims at MobyGames"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Will_Wright_(game_designer)",
+        "situacao": "ok",
+        "texto": "William Ralph Wright (born January 20, 1960) is an American video game designer and co-founder of the game development company Maxis, which later became part of Electronic Arts. In April 2009, he left EA to run Stupid Fun Club Camp, an entertainment think tank in which Wright and EA are principal shareholders.\n[…]\nIn October 2010, Current TV announced that Will Wright and his team from Stupid Fun Club will produce a new show for the network. The program, entitled Bar Karma, began airing in February 2011, and featured scenes and twists pitched by an online community, using an online story creator tool designed by Wright. Stupid Fun Club ran for four years before closing down, with much of the team following Wright to found the social media app and graphic novel builder Thred.\n[…]\nAt the Game Developers Conference in March 2018, Will Wright announced a new project, aimed at  PC, PlayStation 5 and Xbox Series X/S called Proxi.\n[…]\nAt GalaVerse on December 11, 2021, Wright announced a new project, in partnership with Gala Games, called VoxVerse. Wright said VoxVerse will be a blockchain game, where players will be able to create areas to explore and interact with and share these with other players of the game, incentivizing creators through the ability to trade or sell their works as non-fungible tokens (NFTs) using cryptocurrency.\n[…]\nHuck, James; Remo, Chris (June 9, 2008). \"Will Wright – Video Games Close To 'Cambrian Explosion' Of Possibilities\". Gamasutra. Archived from the original on June 10, 2008. Retrieved June 9, 2008.\n[…]\nRemo, Chris (November 16, 2005). \"Will Wright Feature Interview\". Shacknews. Archived from the original on October 17, 2006. Retrieved May 26, 2007.\n[…]\nWright, Will (April 2006). \"Dream Machines\". Wired. Retrieved May 26, 2007.\n[…]\nWill Wright at MobyGames"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Sims_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "The Sims é um jogo de simulação de vida desenvolvido pela Maxis e publicado pela Electronic Arts em 2000. O jogo permite aos jogadores criar e controlar pessoas virtuais, chamadas “Sims”, e gerenciar suas vidas diárias em um ambiente suburbano. O jogo apresenta uma jogabilidade aberta, onde os jogadores podem escolher suas próprias metas e objetivos e personalizar a aparência, personalidade, habil\n[…]\nO desenvolvimento do jogo foi liderado por Will Wright, e o jogo foi uma continuação da série anterior SimCity de Wright. Wright foi inspirado para criar o jogo pelo livro de Christopher Alexander de 1977 Uma Linguagem de Padrões, e pelo livro de Scott McCloud de 1993 Understanding Comics que mais tarde desempenhou um papel no design do jogo. Sete pacotes de expansão foram lançados de 2000 a 2003, cada um adicionando novos itens, personagens, skins e recursos.\n[…]\nA inspiração original para The Sims foi o livro de Christopher Alexander sobre arquitetura e design urbano, Uma Linguagem de Padrões. O designer de jogos Will Wright foi inspirado pelo foco do livro na funcionalidade da arquitetura, já que Alexander baseou seus princípios de design na usabilidade estrutural, em vez de em valores estéticos. Wright queria criar um jogo de simulação que permitisse o comportamento humano e a interação por meio do design.\n[…]\nThe Sims é creditado por abrir a modificação para um novo grupo demográfico, tornando mais fácil para “modificadores casuais” modificar o jogo. The Sims foi projetado de forma que fosse fácil adicionar conteúdo criado pelo usuário (também conhecido como conteúdo personalizado ou “CC”) ao jogo, com Will Wright afirmando em uma entrevista que queria colocar o jogador no papel de designer.\n[…]\nWill Wright, o designer do jogo, disse que o jogo tem sido um sucesso em vários aspectos - atraindo jogadores casuais e mulheres (estas últimas representando quase 60% dos jogadores).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Kirby",
+      "descricao": "Personagem rosa e redondo da Nintendo, que engole inimigos, estreante em 1992 num jogo da HAL Laboratory."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que designer japonês criou Kirby, a bolinha rosa da Nintendo, e depois a série de luta Super Smash Bros.?",
+    "resposta": "Masahiro Sakurai",
+    "distratores": [
+      "Shigeru Miyamoto",
+      "Gunpei Yokoi",
+      "Hideo Kojima"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kirby_(character)",
+      "https://en.wikipedia.org/wiki/Masahiro_Sakurai"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kirby_(character)",
+        "situacao": "ok",
+        "texto": "Kirby (Japanese: カービィ, Hepburn: Kābī; Japanese pronunciation: [kaːbiː]) is the titular character and protagonist of the Kirby series by HAL Laboratory. He first appeared in Kirby's Dream Land (1992), a platform game for the Game Boy. Since then, Kirby has appeared in over 50 games, ranging from action platformers to puzzle, racing, and pinball, and has been featured as a playable character in ever\n[…]\nKirby was created by Masahiro Sakurai as the player character of the 1992 video game Kirby's Dream Land. Sakurai conceived the idea around May 1990 at the age of 19 while he was working at HAL Laboratory. The character's design was intended to serve as a placeholder graphic for the game's original protagonist in early development and thus was given a simplistic ball-like appearance. Sakurai switched to the placeholder design after deciding that it served the character better.\n[…]\nKirby appears in every game in the Super Smash Bros. series, also created by Sakurai, as a playable character. As in the main series, Kirby is able to use copy-based transitions to copy the abilities and appearance of opponents, such as Mario, Donkey Kong, Link, and Samus. In Ultimate, he plays a starring role in the \"World of Light\" story mode, in which he is the only survivor of Galeem's massacre out of all of the other fighters.\n[…]\nSakurai stated that, after a process of elimination, Kirby was the obvious choice due to his Warp Star providing a reasonable explanation for his escape. In Super Smash Bros. Brawl (2008), Kirby's Final Smash is his Cook ability, which cooks opponents in a pot. In Super Smash Bros. for Nintendo 3DS and Wii U (2014) and Super Smash Bros. Ultimate (2018), Kirby's Final Smash is an Ultra Sword attack.\n[…]\nCharacters of the Kirby series\n[…]\nKirby's official U.S. homepage\n[…]\nKirby on play.nintendo.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Masahiro_Sakurai",
+        "situacao": "ok",
+        "texto": "Masahiro Sakurai (桜井 政博, Sakurai Masahiro; born August 3, 1970) is a Japanese video game director and game designer best known as the creator of the Kirby and Super Smash Bros. series. Apart from his work on those series, he also led the design of Meteos in 2005 and directed Kid Icarus: Uprising in 2012.\n[…]\nOn the final day of updates, it was revealed that Sakurai provided the voice for King Dedede in Kirby 64: The Crystal Shards as well as Dedede in Super Smash Bros. Brawl. He and his company, Sora Ltd. alongside Nintendo, started a first-party studio, Project Sora, which was 72% owned by Nintendo and 28% owned by Sora Ltd. It was revealed at E3 2010 that Sakurai and Project Sora were working on Kid Icarus: Uprising for the Nintendo 3DS.\n[…]\nSakurai launched Masahiro Sakurai on Creating Games, a YouTube channel in both English and Japanese in August 2022. The channel hosts educational content focused on game development and design, as well as Sakurai's career. Sakurai stated that he created the channel out of a desire to reach more people with his lessons, as he had previously been asked to give lectures on game design at schools.\n[…]\nSakurai began work on the channel immediately after the release of Sora in Super Smash Bros. Ultimate in October 2021. Sakurai wrote and recorded all 256 of the channel's videos himself before beginning work on Kirby Air Riders in April 2022, and contracted Hike Inc. for editing and 8-4 for English localization. The opening and ending jingles for the channel were composed by Yuzo Koshiro.\n[…]\nSakurai is married to Michiko Sakurai. She has worked on the graphical user interface for many of his games, including Kirby Air Ride, Meteos, and the Super Smash Bros. series.\n[…]\nMasahiro Sakurai's channel on YouTube\n[…]\nMasahiro Sakurai on X"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kirby_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Kirby (カービィ, Kābī) é o protagonista titular da série de jogos eletrônicos Kirby desenvolvidos pela Nintendo e pela HAL Laboratory. Kirby já apareceu em mais de vinte jogos desde 1992 e estrelou em sua própria série animada(Anime Kirby: Right Back at Ya!). A série Kirby já vendeu mais de 33 milhões de unidades em todo o mundo. Os jogos principais da série são jogos de plataforma. Ele apareceu pela \n[…]\nOriginalmente um personagem de espaço reservado, criado por Masahiro Sakurai, aos 19 anos, para o desenvolvimento inicial do jogo, desde então ele estrelou em mais de 20 jogos, variando de ação jogos de plataforma para quebra-cabeça, corrida e até pinball, e tem sido apresentado como um lutador jogável em todos os jogos Super Smash Bros.\n[…]\nMasahiro Sakurai, designer da empresa Nintendo, propôs no início dos anos 1990 o design do POPOPO e de seu inimigo jurado DeDeDe para um jogo de plataforma para iniciantes. Antes de considerar qualquer projeto, Masahiro Sakurai começou criando uma bola redonda com braços e pernas para facilitar o trabalho dos animadores. No entanto, com o tempo, a equipe de produção se apegou a esse personagem fofo e optou por mantê-lo.\n[…]\nLuta Livre,\n[…]\nSmash Bros.,\n[…]\nEm 1999, a Nintendo e a HAL Laboratory lançaram um jogo de luta multijogador chamado Super Smash Bros. no Nintendo 64. O jogo contém 12 mascotes da Nintendo, incluindo Kirby. Super Smash Bros. Melee, a sequência para o GameCube, foi lançada logo após o console, em 2001. Em 2008, Kirby reapareceu em Super Smash Bros. Brawl para o Wii, como um dos 8 veteranos da série. Em 2014, Kirby retornou em Super Smash Bros. for Nintendo 3DS e Wii U no Nintendo 3DS e no Wii U.\n[…]\nSuper Smash Bros. (Nintendo 64, 1999)\n[…]\nSuper Smash Bros. Melee (GameCube, 2001)\n[…]\nSuper Smash Bros. Brawl (Wii, 2008)\n[…]\nSuper Smash Bros. for Nintendo 3DS e Wii U (Nintendo 3DS e Wii U, 2014)\n[…]\nSuper Smash Bros. Ultimate (Nintendo Switch, 2018)\n[…]\nKirby (série)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Crash Bandicoot",
+      "descricao": "Série de jogos de plataforma iniciada em 1996 no primeiro PlayStation, estrelada por um marsupial laranja."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Crash Bandicoot, estrela do primeiro PlayStation, foi criado pelo mesmo estúdio de The Last of Us. Que estúdio é esse?",
+    "resposta": "Naughty Dog",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)",
+      "https://en.wikipedia.org/wiki/Naughty_Dog"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)",
+        "situacao": "ok",
+        "texto": "Crash Bandicoot is a 1996 platform game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation. The player controls Crash, a genetically enhanced bandicoot created by the mad scientist Doctor Neo Cortex. The story follows Crash as he aims to foil Cortex's plans for world domination and rescue his girlfriend Tawna, a female bandicoot also created by Cortex.\n[…]\nAfter signing a developer agreement with Sony, Naughty Dog paid $35,000 for a PlayStation development unit and received the unit in September 1994. A development budget of $1.7 million was set for the game, and production began in October 1994. Rubin and Gavin were the 44th and 45th individual developers to sign onto development for the PlayStation, and according to Rubin's approximation, Crash Bandicoot was the 30th game to begin development for the PlayStation.\n[…]\nThe music for Crash Bandicoot was a last-minute aspect added to the game before its showing at E3. Siller proposed that rather than conventional music, Gavin could create an \"urban chaotic symphony\" where random sound effects, such as bird vocalizations, vehicle horns, grunts, and flatulence, would be combined. After Naughty Dog rejected this proposal, Siller introduced them to the music production company Mutato Muzika and its founder Mark Mothersbaugh.\n[…]\nThe Crash Bandicoot series established Naughty Dog's reputation in the video game industry, and they found further success with the Jak and Daxter, Uncharted and The Last of Us series; Naughty Dog later recreated a level of Crash Bandicoot within its 2016 title Uncharted 4: A Thief's End. After the publishing deal between Universal Interactive and Sony ended in 2000, several more games were developed for the Crash Bandicoot series by different developers, which received mixed reviews.\n[…]\nCrash Bandicoot at MobyGames"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Naughty_Dog",
+        "situacao": "ok",
+        "texto": "Naughty Dog, LLC (formerly JAM Software, Inc.) is an American first-party video game developer based in Santa Monica, California. Founded by Andy Gavin and Jason Rubin in 1984, the studio was acquired by Sony Computer Entertainment in 2001. Gavin and Rubin produced a sequence of progressively more successful games, including Rings of Power and Way of the Warrior in the early 1990s.\n[…]\nAfter designer and producer Mark Cerny convinced Naughty Dog to create a character-based platform game that would use the 3D capabilities of the new systems, Naughty Dog created Crash Bandicoot for the PlayStation in 1996. Naughty Dog developed three Crash Bandicoot games over the next several years. After developing Crash Team Racing, the company began working on Jak and Daxter: The Precursor Legacy for the PlayStation 2.\n[…]\nNaughty Dog continued to develop two more Crash Bandicoot games, with a spin-off Crash Team Racing kart racing game.\n[…]\nIn 2012 and 2013, Naughty Dog teamed with Mass Media Inc. to release the Jak and Daxter Collection. It contains high-definition ports of the original PlayStation 2 trilogy and was released for PlayStation 3 and PlayStation Vita respectively. In May 2013, Naughty Dog confirmed it will keep its existing in-house engine used in Uncharted and The Last of Us for the PlayStation 4.\n[…]\nAs a subsidiary of Sony Computer Entertainment, Naughty Dog is best known for developing games for the PlayStation consoles, including the Crash Bandicoot series for the original PlayStation, Jak and Daxter on PlayStation 2, and Uncharted and The Last of Us on PlayStation 3, PlayStation 4, and PlayStation 5. Before this, it also developed games including Dream Zone, Keef the Thief, Rings of Power and Way of the Warrior.\n[…]\nNaughty Dog won the Studio of the Year award at the 2013 VGX, the 2013 Golden Joystick Awards, and the 2020 Golden Joystick Awards."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Crash_Bandicoot_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "Crash Bandicoot é um jogo eletrônico de plataforma de 1996, desenvolvido pela Naughty Dog e publicado pela Sony Computer Entertainment para o PlayStation. O jogador controla Crash, um bandicoot geneticamente aprimorado criado pelo cientista louco Doutor Neo Cortex. A história segue Crash enquanto ele pretende frustrar os planos de Cortex para dominar o mundo e resgatar sua namorada Tawna, uma band\n[…]\nPara o lançamento do jogo no Japão, a jogabilidade e a estética passaram por uma extensa reformulação para tornar o jogo mais palatável para o público japonês e, como resultado, alcançou sucesso comercial no Japão. Crash Bandicoot tornou-se o primeiro título da franquia de jogos homônima que eventualmente alcançaria sucesso crítico e comercial, bem como estabeleceria a reputação da Naughty Dog na indústria de jogos eletrônicos. Uma versão remasterizada foi lançada como parte de Crash Bandicoot N.\n[…]\nApesar de Uka Uka não aparecer ainda e sua primeira aparição ser apenas em Crash Bandicoot 3, sua voz é ouvida na fase Temple Ruins e nas cenas antes dos créditos reclamando raivosamente da derrota de Neo Cortex e de seus planos terem ido por água abaixo, sendo dublado por Clancy Brown.\n[…]\nCrash Bandicoot foi criado pelos fundadores da Naughty Dog: Andrew Gavin e Jason Rubin. O desenvolvimento do jogo começou em agosto de 1994, quando Gavin e Rubin contrataram Charles Zembillas e Joe Pearson para ajudar a criar a aparência do personagem principal.\n[…]\nCrash Bandicoot recebeu duas sequências diretas: Crash Bandicoot 2: Cortex Strikes Back e Crash Bandicoot 3: Warped, e depois um jogo de corrida de karts, Crash Team Racing, sendo que todos foram desenvolvidos pela Naughty Dog e lançados para PlayStation, sendo que Team Racing foi o último jogo da série criado pela companhia antes dela começar a desenvolver a série Jak and Daxter.\n[…]\n«Crash Bandicoot» (em inglês). na PlayStation.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Magnavox Odyssey",
+      "descricao": "Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que engenheiro, chamado de pai dos videogames, criou o Magnavox Odyssey, primeiro console doméstico, lançado em 1972?",
+    "resposta": "Ralph Baer",
+    "distratores": [
+      "Nolan Bushnell",
+      "Gunpei Yokoi",
+      "Steve Wozniak"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+      "https://en.wikipedia.org/wiki/Ralph_H._Baer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+        "situacao": "ok",
+        "texto": "The Magnavox Odyssey is the first commercial home video game console. The hardware was designed by a small team led by Ralph H. Baer at Sanders Associates, while Magnavox completed development and released it in the United States in September 1972 and overseas the following year. The Odyssey consists of a white, black, and brown box that connects to a television set, and two rectangular controller\n[…]\nThere are conflicting reports between Baer and Magnavox employees as to whether Magnavox produced 120,000 or 140,000 consoles in 1972. Magnavox only sold 69,000 units. Baer believed that the low initial sales were due to the high price, and because Magnavox restricted sales to its dealerships and implied that the device only worked with Magnavox televisions.\n[…]\nIn 1974, Odyssey appeared in the Sears Wish Book. Magnavox sold 89,000 consoles in total in 1973, 129,000 Odyssey units in 1974, and 80,000 units in 1975. According to Baer the company sold 350,000 Odysseys in total worldwide, though Fritsche stated it reached 367,000. The light gun peripheral sold 20,000 units.\n[…]\nMoMA's Paul Galloway described the console as \"a masterpiece of engineering and industrial design\" and stated that it was \"hard to overstate the importance of [Ralph Baer's] place in the birth of the industry\". The Brown Box prototype and the TV Game #1 prototype are located in Washington, D.C. at the Smithsonian Institution's National Museum of American History.\n[…]\nAlcorn soon developed Pong (1972), which Bushnell recognized as a potential hit, and it became the company's first game. Pong was very successful, and in turn helped drive sales of the Odyssey; Baer noted that customers bought the console because of Table Tennis, in turn because of Pong, and joked that they may as well have stopped designing games after that game card.\n[…]\nMedia related to Magnavox Odyssey at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ralph_H._Baer",
+        "situacao": "ok",
+        "texto": "Ralph Henry Baer (born Rudolf Heinrich Baer; March 8, 1922 – December 6, 2014) was a German-born American inventor, game developer, and engineer.\n[…]\nBaer, Ralph (2005). Videogames: In The Beginning. Rolenta Press. ISBN 0-9643848-1-7.\n[…]\nWolverton, Mark (Fall 2009). \"The Father of Video Games: From a few notes scribbled on a notepad, Ralph Baer invented a new industry\". American Heritage of Invention & Technology. Archived from the original on December 5, 2009.\n[…]\nBedi, Joyce (2019). \"Ralph Baer: An interactive life\". Human Behavior and Emerging Technologies. 1: 18–29. doi:10.1002/hbe2.119.\n[…]\nRalph Baer Consultants\n[…]\nRalph Baer's US patents\n[…]\nInformation about Ralph Baer's book Videogames: In The Beginning\n[…]\nRalph H. Baer Papers, 1943–1953, 1966–1972, 2006 – Ralph Baer's prototypes and documentation housed at the Smithsonian Lemelson Center.\n[…]\nThe Dot Eaters entry on Baer and the history of the Odyssey console (\"Odyssey - Ralph Baer's Strange Odyssey\")\n[…]\nRalph H. Baer profile Archived December 2, 2008, at the Wayback Machine at The Escapist magazine.\n[…]\n\"The Right to Baer Games – An Interview with Ralph Baer, the Father of Video Games\" – From GamaSutra and the March 2007 edition of \"Game Developer\" magazine.\n[…]\npongmuseum.com – Information about Ralph Baer and his invention \"Video Ping-Pong\"'\n[…]\nPodcast Interview Ralph Baer on \"We Talk Games.\" [Timecode, 01:05:58]\n[…]\n1 Hour Skype Video Interview Ralph Baer Interview for Scene World Magazine\n[…]\nRalph Baer's workshop, icon of American innovation blog post from National Museum of American History\n[…]\nRalph Baer: The inventor I knew from National Museum of American History blog"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Magnavox_Odyssey",
+        "situacao": "ok",
+        "texto": "O Magnavox Odyssey é o primeiro console de jogos eletrônicos doméstico comercial da história. Foi apresentado pela primeira vez em abril de 1972 e lançado em setembro do mesmo ano, antecipando o jogo Pong do Atari. É um console digital, embora muitas vezes seja erroneamente definido como analógico, devido à incompreensão de seu projeto de hardware.\n[…]\nOdyssey foi desenvolvido por Ralph Baer, que começou a trabalhar em um protótipo em 1966 e o terminou por volta de 1968. Este protótipo, conhecido como Brown Box, está agora no Museu Nacional de História Americana do Smithsonian Institution em Washington. Apenas em maio de 1983 chega ao Brasil com o Odyssey 2, concorrente do Atari 2600.\n[…]\nO primeiro console Odyssey nunca foi lançado oficialmente no Brasil, e a Philips optou por vender a versão 2 apenas como \"Odyssey\", sem o número; gerando certa confusão,\n[…]\nO Odyssey é um console digital. No entanto, como todos os consoles até a oitava geração, utilizava um circuito analógico de saída de vídeo, devido ao fato dos televisores da época serem analógicos. Além disso, assim como a Nintendo 64 e posteriores, contava com um joystick analógico. Devido a estes dois fatores, muitos colecionadores erroneamente consideram o Odyssey como analógico, o que levou Baer a esclarecer que realmente era digital.\n[…]\nQuarta consola da série. Também foi lançada em 1976 e foi a primeira a ter um placar digital (graças a um chip da Texas Instruments).\n[…]\nLançado somente na Europa em 1977, e o equivalente ao Odyssey 4000 americano. Essa consola tinha três jogos coloridos (Tennis, Hockey e Squash), graças ao chip National Semiconductor MM-57105-N. O som e a pontuação são controlados pela TV.\n[…]\nA última consola oficial. Nunca foi lançada. O mais moderno da categoria Odyssey.\n[…]\nSomando com todas as atualizações do Odyssey, a consola possuía ao todo 33 jogos.\n[…]\nMagnavox Odyssey²",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Assassin's Creed (jogo de 2007)",
+      "descricao": "Primeiro jogo da série Assassin's Creed, da Ubisoft, lançado em 2007 e protagonizado por Altaïr."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O primeiro Assassin's Creed, de 2007, leva o jogador à Terra Santa durante qual cruzada?",
+    "resposta": "Terceira Cruzada",
+    "distratores": [
+      "Primeira Cruzada",
+      "Segunda Cruzada",
+      "Quarta Cruzada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)",
+        "situacao": "ok",
+        "texto": "Assassin's Creed is a 2007 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It is the first installment in the Assassin's Creed series. The game was released for PlayStation 3 and Xbox 360 in November 2007. A Microsoft Windows version titled Assassin's Creed: Director's Cut Edition containing additional content was released in April 2008.\n[…]\nThe game was released for PlayStation 3 and Xbox 360 on November 13, 2007, in North America, November 16 in Europe, and November 21 in Australia and New Zealand.\n[…]\nJade Raymond, the producer of Assassin's Creed, said: \"For Assassin's Creed we wanted the score to capture the gruesome atmosphere of medieval warfare but also be edgy and contemporary.\" The musical score was composed by Jesper Kyd in 2007. Six tracks were made available online to those who have purchased the game; a password was given to people to insert at the soundtrack section of the Ubisoft website. The soundtrack is available from various online music stores.\n[…]\nThe Xbox 360 and PlayStation 3 releases of Assassin's Creed each received a platinum sales award from the Entertainment and Leisure Software Publishers Association, indicating sales of at least 300,000 copies per version in the United Kingdom. On April 16, 2009, Ubisoft revealed that the game had sold 8 million copies.\n[…]\nA prequel for the game, titled Assassin's Creed: Altaïr's Chronicles, developed by Gameloft, was released on February 5, 2008, for the Nintendo DS. A port of Assassin's Creed: Altaïr's Chronicles has also been released for the iPhone and the iPod Touch and Java ME on April 23, 2009, as well as for the Palm Pre.\n[…]\nAssassin's Creed II was released in the United States and Canada on November 17, 2009, and in Europe on November 20, 2009.\n[…]\nAssassin's Creed UK website\n[…]\nAssassin's Creed U.S. website\n[…]\nAssassin's Creed at IMDb\n[…]\nAssassin's Creed on MobyGames"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Assassin%27s_Creed_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "Assassin's Creed é um jogo eletrônico de ação-aventura de 2007 desenvolvido pela Ubisoft Montreal e publicado pela Ubisoft. É o primeiro título da série Assassin's Creed. O jogo foi lançado para PlayStation 3 e Xbox 360 em novembro de 2007. Uma versão para Microsoft Windows intitulada Assassin's Creed: Director's Cut Edition contendo conteúdo adicional foi lançada em abril de 2008.\n[…]\nO enredo se passa em uma história fictícia de eventos do mundo real, ocorrendo principalmente durante a Terceira Cruzada na Terra Santa em 1191. O personagem do jogador é um homem moderno chamado Desmond Miles que, por meio de uma máquina chamada \"Animus\", revive as memórias genéticas de seu ancestral, Altaïr Ibn-La'Ahad.\n[…]\nAssassin's Creed é um jogo de ação-aventura ambientado em um ambiente de mundo aberto e jogado a partir de uma perspectiva em terceira pessoa em que o jogador assume principalmente o papel de Altaïr, vivido pelo protagonista Desmond Miles. O objetivo principal do jogo é realizar uma série de assassinatos ordenados por Al Mualim, o líder dos Assassinos.\n[…]\nVidic o instrui a reviver os primeiros anos de Altaïr Ibn-La'Ahad (Philip Shahbaz), um membro sênior da Irmandade dos Assassinos durante o tempo da Terceira Cruzada. Sua investigação revela que Altaïr, cego pela arrogância, fracassou em uma tentativa dos Assassinos de recuperar um artefato de seus inimigos jurados, os Cavaleiros Templários, levando à morte de um Assassino e ferindo gravemente outro no processo.\n[…]\nRobert de Sablé, que tem aproveitado a Cruzada para promover os próprios objetivos ideológicos dos Templários.\n[…]\nEle foi listado pela Game Informer como o 143º em sua lista dos 200 melhores jogos de todos os tempos. Também recebeu o prêmio de escolha do editor da GameSpot. Em dezembro de 2015, a Game Informer classificou-o como o terceiro melhor jogo da série Assassin's Creed até aquela data.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Mega Drive",
+      "descricao": "Console de videogame de dezesseis bits da Sega, lançado no Japão no fim dos anos oitenta."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Mega Drive, console de dezesseis bits da Sega, chegou às lojas japonesas em que ano?",
+    "resposta": "1988",
+    "distratores": [
+      "1986",
+      "1990",
+      "1991"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sega_Genesis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sega_Genesis",
+        "situacao": "ok",
+        "texto": "The Sega Genesis, known as the Mega Drive outside North America, is a 16-bit fourth generation home video game console developed and sold by Sega. It was Sega's third console and the successor to the Master System. Sega released it in October 1988 in Japan as the Mega Drive, and in August 1989 in North America as the Genesis. In 1990, it was distributed as the Mega Drive by Virgin Mastertronic in \n[…]\nSega announced the console as the Mark V in the June 1988 issue of the Japanese gaming magazine Beep!, but Sega management wanted a stronger name. After reviewing more than 300 proposals, they settled on \"Mega Drive\". In North America, the name was changed to \"Genesis\". Rosen said he insisted on the name as he disliked \"Mega Drive\" and wanted to represent \"a new beginning\" for Sega. Sato said some design elements changed, such as the gold \"16-bit\" wording, in case it was mistaken for yellow.\n[…]\nSega released the Mega Drive in Japan on October 29, 1988, though the launch was overshadowed by Nintendo's release of Super Mario Bros. 3 a week earlier. Positive coverage from magazines Famitsu and Beep! helped to establish a following. Within two days of release, the console's initial production run sold out. However, Sega only managed to ship 400,000 units in the first year.\n[…]\nIn 2013, independent programmer Future Driver, inspired by the Disney film Wreck-It Ralph, developed Fix-It Felix Jr. for the Genesis. In 2017, American company Mega Cat Games released Coffee Crisis, a Beat 'em up, for the Sega Genesis.\n[…]\nIn 2018, Sega announced a dedicated console, the Genesis/Mega Drive Mini. The console includes 40 games, including Gunstar Heroes and Castlevania: Bloodlines, with different games for different regions and a save-anywhere function. Streets of Rage composer Yuzo Koshiro provided the menu music. The console was released worldwide on September 19, 2019."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mega_Drive",
+        "situacao": "ok",
+        "texto": "O Sega Genesis, conhecido como Mega Drive (メガドライブ, Mega Doraibu) fora da América do Norte, é um console de videogame de 16 bits desenvolvido e comercializado pela Sega, sendo um sucessor do Master System. O console foi lançado em 1988 no Japão como Mega Drive e em 1989 na América do Norte como Genesis. No ano de 1990, foi distribuído na Europa pela Virgin Mastertronic, na Nova Zelândia e Austrália\n[…]\nReferido no seu desenvolvimento como Sega Mark V, o console foi anunciado como Mega Drive em 29 de setembro de 1988, com o designer Mitsushige Shiraiwa dizendo que o nome tinha sido escolhido para \"simbolizar poder e velocidade\". O projeto usou um design circular para representar a ideia de expansão no mundo do entretenimento, e evocando equipamentos de som incorporou um controlador de volume e saída para fone de ouvido.\n[…]\nEm 29 de outubro, o Mega Drive saiu no Japão, com apenas dois jogos disponíveis, Space Harrier II e Super Thunder Blade, e sofrendo com a concorrência do PC-Engine e também do lançamento do aguardado jogo de NES Super Mario Bros. 3. Só mais dois jogos sairiam para o Mega Drive até o fim de 1988,  com um deles, uma conversão do arcade Altered Beast, sendo escolhido pela Sega para acompanhar o Mega Drive no lançamento internacional por seu sucesso nos fliperamas ocidentais.\n[…]\nEm Portugal também foram lançados diversos periféricos da consola - em Setembro de 1993, o Sega Mega-CD 2 e em Janeiro de 1995, o 32X. Posteriormente, foi ainda introduzido no mercado português Dragon Ball Z: Buyū Retsuden (1996), título originalmente lançado no Japão para a Mega Drive. O jogo exigia a utilização de um adaptador regional para funcionar nas consolas europeias.\n[…]\nEm 1996 foi anunciado que a consola Sega Mega Drive tinha vendido mais de 160 mil unidades em Portugal.\n[…]\nJá o PlayStation 2 emula jogos de Mega Drive/Genesis através do software PGEN, sendo que este suporta USB.\n[…]\nSega Nomad",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Atari 2600",
+      "descricao": "Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Atari 2600, console de cartuchos que levou os videogames para dentro de casa, foi lançado nos Estados Unidos em que ano?",
+    "resposta": "1977",
+    "distratores": [
+      "1972",
+      "1980",
+      "1983"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atari_2600"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Atari_2600",
+        "situacao": "ok",
+        "texto": "The Atari 2600 is a home video game console developed and produced by Atari, Inc. Released c. September 1977 as the Atari Video Computer System (Atari VCS), it popularized microprocessor-based hardware and games stored on swappable ROM cartridges, a format first used with the Fairchild Channel F in 1976. The VCS was bundled with two joystick controllers, a conjoined pair of paddle controllers, and\n[…]\nBy October 1976, Warner and Atari agreed to the purchase of Atari for $28 million. Warner provided an estimated $120 million, which was enough to fast-track Stella. By 1977, development had advanced enough to brand it the Atari Video Computer System (VCS) and start developing games.\n[…]\nAtari sold between 350,000 and 400,000 Atari VCS units during 1977, which was attributed to the delay in shipping the units and consumers' unfamiliarity with a swappable-cartridge console not dedicated to only one game.\n[…]\nAtari continued its OEM relationship with Sears under the latter's Tele-Games brand, which started in 1975 with the original Pong. This is unrelated to the company Telegames, which later produced 2600 cartridges. Sears released several models of the VCS as the Sears Video Arcade series starting in 1977. The final Sears-specific model was the Video Arcade II, released during the fall of 1982.\n[…]\nDecuir estimated that six to eight cartridges were sold per console, double Atari's initial estimate. In 1977, nine games were released on cartridge to accompany the launch of the console: Air-Sea Battle, Basic Math, Blackjack, Combat, Indy 500, Star Ship, Street Racer, Surround, and Video Olympics. Indy 500 shipped with special \"driving controllers\", which are like paddles but rotate freely. Street Racer and Video Olympics use the standard paddle controllers. Atari, Inc.\n[…]\nPerry, Tekla; Wallich, Paul (March 1983). \"Design case history: The Atari Video Computer System\". IEEE Spectrum."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atari_2600",
+        "situacao": "ok",
+        "texto": "Atari 2600, originalmente vendido como Atari Video Computer System ou Atari VCS até novembro de 1982, é um videogame projetado por Jay Miner e lançado em 11 de setembro de 1977 nos Estados Unidos e em 1983 no Brasil, sendo descontinuado oficialmente em 1992.\n[…]\nEnquanto isso, várias tentativas de criar novos consoles falharam por uma razão ou outra, embora seu modelo de computador pessoal, a família Atari de 8 bits, tenha obtido vendas razoáveis, se não espetaculares. A Warner estava mais feliz que nunca, as vendas do 2600 pareciam não ter fim e o Atari era responsável por metade dos lucros da companhia.\n[…]\nEle congelou todo o desenvolvimento de jogos de console, incluindo o jogo Garfield para o Atari 2600 e o port Super Pac-Man para o Atari 5200. Em 1986, uma nova versão do 2600 foi lançada. A nova versão redesenhada do 2600, chamada não oficialmente de 2600 Jr., apresentava uma forma reduzida e mais barata, com uma cara mais moderna muito parecida com o Atari 7800.\n[…]\nO Atari 2600 continuou a ser vendido nos EUA e Europa até 1990, e na Ásia até o começo de da década de 1990. A última versão licenciada do 2600 a ser lançada foi o KLAX em 1990. O console também foi muito popular no Brasil.\n[…]\nO Atari 2600 foi oficialmente aposentado no dia 1º de janeiro de 1992, tornando-se o videogame de maior vida na história de jogos dos EUA. Ele teve uma vida útil de 14 anos e 2 meses - aproximadamente três vezes mais que a vida 'normal' de um console.\n[…]\nO console e seus velhos e novos jogos são muito populares entre colecionadores por causa de seu importante impacto na história dos video games e eletrônicos e também por seu valor nostálgico em muitas pessoas. Por isso, muitos clones modernos do Atari 2600 ainda estão no mercado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Sonic",
+      "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O ouriço azul Sonic estreou em seu primeiro jogo, no Mega Drive, em que ano?",
+    "resposta": "1991",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog is a 1991 platform game developed by Sonic Team and published by Sega for the Sega Genesis. It was released in North America and PAL regions in June and in Japan the following month. The player controls Sonic, a hedgehog who can run at supersonic speeds. The story follows Sonic as he aims to foil the mad scientist Doctor Robotnik's plans to seek the powerful Chaos Emeralds.\n[…]\nSonic the Hedgehog was a commercial success. It became America's best-selling video game for several months in 1991, outselling Super Mario. By Christmas 1991, Sonic the Hedgehog had sold nearly 1 million game cartridges in the United States. It was also Blockbuster Video's highest-renting game of the year. In the United Kingdom, it was the top-selling Mega Drive game for two months following its release.\n[…]\nAt the 1991 Golden Joystick Awards, Sonic the Hedgehog won Overall Game of the Year. In the 1991 Electronic Gaming Monthly awards, Sonic the Hedgehog won Game of the Year. At the European Computer Trade Show (ECTS) awards, it won the awards for Best Video Game and Going Live Viewers Award. In 1992, Mega ranked Sonic as their third-favorite Genesis game. In 1995, Flux rated the game fourth in its \"Top 100 Video Games\". In 1996, GamesMaster ranked the game 78th on their \"Top 100 Games of All Time\".\n[…]\nPrimarily because of its Genesis bundling, Sonic the Hedgehog was a factor in popularising the console in North America, thus solidifying Sega as a competitor to Nintendo and their Super Nintendo Entertainment System. During October–December 1991, with the game's success, the Genesis outsold the SNES by two to one; at its January 1992 peak it gained a foothold in the industry and had 65 percent of the market for 16-bit consoles.\n[…]\nSonic the Hedgehog 1 & 2: Sega's Official Player's Guide. Hayward, CA: Sega. 1993. ISBN 1-55958-335-5.\n[…]\nSonic the Hedgehog at MobyGames"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sonic_the_Hedgehog_%28jogo_eletr%C3%B4nico_de_1991%29",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog (japonês: ソニック・ザ・ヘッジホッグ, Hepburn: Sonikku za Hejjihoggu) é um jogo eletrônico de plataforma produzido pela Sonic Team e publicado pela Sega para o Sega Genesis/Mega Drive. Foi lançado originalmente na América do Norte em 23 de junho de 1991 e na região PAL no mês seguinte. O jogo segue a história do ouriço antropomórfico chamado Sonic em sua missão de derrotar o Doutor Eggman, u\n[…]\nA jogabilidade de Sonic the Hedgehog envolve coletar anéis como forma de ganhar vidas e um esquema de controle simples, com saltos e ataques controlados por um único botão.\n[…]\nO desenvolvimento começou em 1990, quando a Sega ordenou a sua equipe de produção AM8 a criação de um jogo com um mascote para a empresa. Depois de considerarem várias sugestões, eles escolheram um ouriço azul com espinhos ao longo de sua cabeça e espinha e se renomearam \"Sonic Team\" para combinar com a personagem. Sonic the Hedgehog, projetado para ter uma jogabilidade rápida, foi influenciado pelos jogos da série Super Mario, criada por Shigeru Miyamoto.\n[…]\nO jogo foi bem recebido pela crítica, sendo considerado um dos melhores da história, com elogios dados aos seus efeitos visuais, áudio e jogabilidade. Além disso, foi comercialmente bem sucedido, estabelecendo o Genesis/Mega Drive como um dos consoles-chave da era de 16 bits, permitindo-lhe competir com o Super Nintendo Entertainment System da Nintendo.\n[…]\nSonic the Hedgehog é um jogo de plataformas em deslocação lateral (side-scrolling) 2D, cuja jogabilidade centra-se na capacidade de Sonic correr a alta velocidade através de níveis que incorporam molas, encostas, quedas altas, e loops verticais. Os níveis também têm perigos na forma de robots (\"Badniks\" nos manuais ocidentais), dentro dos quais o Dr. Eggman aprisionou animais. Destruir um robô liberta o animal dentro dele, mas tal não é necessário para completar o jogo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "The Legend of Zelda (jogo de 1986)",
+      "descricao": "Primeiro jogo da série Zelda, da Nintendo, lançado em 1986, estrelado pelo herói Link."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A primeira aventura de Link, The Legend of Zelda, chegou aos consoles japoneses em qual ano da década de oitenta?",
+    "resposta": "1986",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+        "situacao": "ok",
+        "texto": "The Legend of Zelda is a 1986 action-adventure game developed and published by Nintendo for the Family Computer Disk System. It is the first game in the Legend of Zelda series. It is set in the fantasy land of Hyrule and centers on an elf-like boy named Link, who aims to collect the eight fragments of the Triforce of Wisdom to rescue Princess Zelda from Ganon.\n[…]\nThe Legend of Zelda was released in Japan as a launch game for the Family Computer Disk System on February 21, 1986. More than a year later, in late 1987, it was released in North America and Europe on the Nintendo Entertainment System in cartridge format by which time a sequel had already been released in Japan. The US version was one of the first games to include an internal battery for saving data. This version was released in Japan on February 19, 1994 as Zelda no Densetsu 1.\n[…]\nIn February 1986, Nintendo released The Legend of Zelda as the launch game for the Family Computer's new Disk System peripheral, joined by re-releases of Super Mario Bros., Tennis, Baseball, Golf, Soccer, and Mah-Jong as part of the system's introduction. It made full use of Disk Card media's advantages over traditional ROM cartridges, with an increased size of 128 kilobytes which would be expensive to produce on cartridge format.\n[…]\nThere have also been a few substantially altered versions of the game that have been released as pseudo-sequels, and ura- or gaiden-versions. As part of a promotional advertisement campaign for their charumera (チャルメラ) noodles, Myojo Foods released a version of the original The Legend of Zelda in 1986, Zelda no Densetsu: Teikyō Charumera (ゼルダの伝説　提供　チャルメラ).\n[…]\nThe Legend of Zelda Encyclopedia. Dark Horse Comics. 2018. p. 218. ISBN 978-1-5067-0638-2.\n[…]\nThe Legend of Zelda at MobyGames\n[…]\nThe Legend of Zelda on the Famicom 40th Anniversary page (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Legend_of_Zelda_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "The Legend of Zelda, conhecido no Japão como The Legend of Zelda: The Hyrule Fantasy (ゼルダの伝説 THE HYRULE FANTASY, Zeruda no Densetsu Za Hairaru Fantajī), lançado oficialmente no Brasil como A Lenda de Zelda, é um jogo eletrônico criado por Shigeru Miyamoto em 1986 para o Nintendo Entertainment System.\n[…]\nO primeiro jogo da série The Legend of Zelda , foi originalmente lançado no Japão como um jogo de lançamento para o Family Computer Disk System em fevereiro de 1986. Mais de um ano depois, a América do Norte e a Europa receberam lançamentos no Nintendo Entertainment System em formato de cartucho, sendo o primeiro jogo de console a incluir uma bateria interna para salvar dados.\n[…]\nThe Legend of Zelda foi um sucesso de crítica e comercial para a Nintendo. O jogo vendeu mais de 6,5 milhões de cópias e introduziu uma grande franquia de sucesso que tem sido regularmente destaque em listas dos maiores jogos de todos os tempos. Uma sequência, Zelda II: The Adventure of Link, foi lançada pela primeira vez no Japão para o Famicom Disk System menos de um ano após seu antecessor, e inúmeros sucessores adicionais e spin-offs foram lançados posteriomente desde sua estreia.\n[…]\nEm 1988, a Computer Gaming World nomeou The Legend Of Zelda como o melhor game de aventura do ano da Nintendo, afirmando que Zelda tinha sido um sucesso \"sensacional\" na transição do RPG do computadores para os consoles. Em 1990. The Legend Of Zelda foi revisto em 1992 pela Total! onde ele recebeu uma classificação de 78% em grande parte devido às medíocres subtotais para música e gráficos. Uma revisão de 1993 do jogo foi impresso em Dragon #198 por Sandy Petersen, na coluna \"Eye Of The Monitor\".\n[…]\nThe Legend Of Zelda é muitas vezes caracterizado nas listas de jogos considerados maiores ou mais influentes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Pokémon Go",
+      "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o lançamento de Pokémon Go levou multidões às ruas para caçar pokémon com o celular?",
+    "resposta": "2016",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+        "situacao": "ok",
+        "texto": "Pokémon Go (stylized as Pokémon GO) is a 2016 augmented reality (AR) mobile game originally developed and published by Niantic and since 2025 by Scopely Explore, in partnership with Nintendo and the Pokémon Company, for iOS and Android devices. The game uses GPS to locate, capture, train, and battle Pokémon. It is free-to-play, featuring a freemium model that includes in-app purchases for addition\n[…]\nJapan's National Police Agency said it was the 79th Pokémon Go-related accident in the country. On August 11, 2016, a young girl in Cambodia was reportedly killed after being hit by a car while trying to capture a Pokémon on a road. The case was the first death related to Pokémon Go among Southeast Asian countries. In January 2017, a Chinese-American civilian, Jiansheng Chen, was shot dead while playing Pokémon Go.\n[…]\nDuring Thailand's 2016 constitutional referendum polling, Pokémon Go players were told not to enter polling stations. Thus, the Thai National Broadcasting and Communications Commission intends to ask Niantic to remove Pokémon characters and PokéStops from locations such as government facilities, historic and religious sites, private property, and dangerous spots such as narrow footpaths and rivers. Cambodia has banned the game in a former genocide site after Pokémon players showed up there.\n[…]\nLaunched on July 22, 2016, \"Pokévision\" enabled players to find exactly where Pokémon spawned and how much time remained before they despawned; the site used data hacked directly from the game. In the five days following the website's launch, 27 million unique visitors used the site. On July 31, multiple search apps and sites, including Pokévision, were disabled as they violated Niantic's terms of service.\n[…]\nList of Pokémon, the list of all of the original Pokémon by order\n[…]\nMedia related to Pokémon Go at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_GO",
+        "situacao": "ok",
+        "texto": "Pokémon GO é um jogo eletrônico free-to-play de realidade aumentada voltado para smartphones. O jogo é desenvolvido e publicado pela Niantic, Inc., em colaboração com a Nintendo e a The Pokémon Company para as plataformas iOS e Android. O jogo foi inicialmente lançado em julho de 2016 para alguns países, eventualmente foi expandindo para o resto do mundo.\n[…]\nPokémon GO foi lançado com críticas equilibradas. Alguns analistas elogiaram o conceito do jogo e o estímulo para que os jogadores se tornassem mais ativos no mundo real, embora houvessem alguns problemas técnicos que se evidenciaram no lançamento. Ainda assim, o jogo tornou-se um fenômeno global e um dos aplicativos móveis mais utilizados em 2016, baixado mais de 500 milhões de vezes em todo o mundo.\n[…]\nEm 4 de março de 2016, começou a fase de testes de Pokémon GO no Japão, e em 7 de abril do mesmo ano começaram os testes na Nova Zelândia e Austrália. Mais tarde, em 16 de maio, a Niantic anunciou em seu blog que o jogo entraria em fase de testes também nos Estados Unidos. O teste chegou ao fim em 30 de junho.\n[…]\nFoi lançado no Reino Unido e na América do Norte em 16 de setembro de 2016.\n[…]\nNo final de julho de 2016, durante um discurso público, o presidente da república italiana Sergio Mattarella comparou uma questão política sobre a data do início de um referendo como tão absurdo quanto a caça de Pokémon.\n[…]\nEm 20 de julho de 2016, relatou-se que um garoto de 18 anos de idade em Chiquimula, Guatemala foi baleado e morto enquanto jogava tarde da noite. Esta foi a primeira morte relatada em conexão com o aplicativo. O primo do rapaz de 17 anos de idade, que acompanhava a vítima, levou um tiro no pé. A polícia especula que os atiradores utilizaram recurso GPS do jogo para encontrar os dois. No Japão, o primeiro acidente ocorreu poucas horas depois do lançamento do jogo.\n[…]\nPokémon\n[…]\nPokémon GO no X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Battlefield 1",
+      "descricao": "Jogo de tiro da EA DICE lançado em 2016, da série Battlefield."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Lançado em 2016, o jogo Battlefield 1 trocou as guerras modernas da série por qual conflito histórico?",
+    "resposta": "Primeira Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battlefield_1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battlefield_1",
+        "situacao": "ok",
+        "texto": "Battlefield 1 is a 2016 first-person shooter game developed by DICE and published by Electronic Arts. It is the fifteenth installment in the Battlefield series. It was released for PlayStation 4, Microsoft Windows, and Xbox One in October 2016.\n[…]\nPre-order bonuses include early access to a DLC map named Giant's Shadow which takes place in the Battle of the Selle, and the Harlem Hellfighter Pack. The Heroes Bundle includes the pre-order bonuses, as well as three days early access to the game, the Red Baron Pack, the Lawrence of Arabia Pack, and five Battlepacks. Battlefield 1 was released worldwide on October 21, 2016, for PlayStation 4, Microsoft Windows, and Xbox One.\n[…]\nBattlefield 1's open beta became available on August 31, 2016, for PlayStation 4, Microsoft Windows, and Xbox One. It ended on September 8, 2016. The open beta allowed the team to ensure that major technical bugs, glitches, and crashes can be patched prior to the game's official launch. 13.2 million players participated in the beta.\n[…]\nIn December 2016, DICE announced the first major expansion for Battlefield 1, They Shall Not Pass, which was released on March 14, 2017, with a two-week exclusivity period for Premium holders. It focuses on the new playable faction, the French Army; the expansion features four new maps set in the Battle of Verdun and the Second Battle of the Marne; Fort de Vaux, Soissons, Rupture, and Verdun Heights.\n[…]\nThe game received positive response from the community after its official announcement. As of May 9, 2016, the Battlefield 1 reveal trailer had become the most liked trailer on YouTube, with over 2 million likes. Electronic Arts expected the game to sell at least 14 million units in its first year of release."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Battlefield_1",
+        "situacao": "ok",
+        "texto": "Battlefield 1 é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela DICE e publicado pela Electronic Arts. É o décimo quarto título da franquia Battlefield. Foi lançado em outubro de 2016 para PlayStation 4, Xbox One e Microsoft Windows.\n[…]\nBattlefield 1 recebeu críticas positivas, sendo considerado uma melhoria em relação aos jogos anteriores da série, Battlefield 4 e Battlefield Hardline. A maior parte dos elogios foi direcionada ao seu cenário da Primeira Guerra Mundial, às campanhas para um jogador e aos modos multijogador. O jogo foi um sucesso comercial, com vendas estimadas em mais de 15 milhões de cópias. Foi seguido por Battlefield V em 2018.\n[…]\nSemelhante aos jogos anteriores da série, Battlefield 1 é um jogo de tiro em primeira pessoa. Ele ocorre no período da Primeira Guerra Mundial, um tema pouco explorado por jogos do gênero. A campanha single-player é inspirada em fatos reais e batalhas históricas.\n[…]\nO jogo recebeu resposta positiva da comunidade após seu anúncio oficial. Desde 2 de julho de 2016, o trailer de revelação do Battlefield 1 está no YouTube, com mais de 2 milhões de curtidas. A Electronic Arts deverá vender 14 milhões de unidades em seu primeiro ano de lançamento. Escrevendo para a Wired, Jake Muncy, não conseguiu refletir sobre as situações complexas da Primeira Guerra Mundial, e achou que esse não era o cenário ideal para um jogo.\n[…]\nEm contraste, Robert Rath, da Zam, refletiu sobre os mesmos tópicos, e observou que a Primeira Guerra Mundial foi amplamente esquecida na cultura popular devido à sua incapacidade de inspirar paixão ou interesse; Rath sugeriu que Battlefield 1 poderia rejuvenescer o interesse popular na guerra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Xbox",
+      "descricao": "Primeiro console de videogame da Microsoft, lançado no início dos anos dois mil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Microsoft entrou no mercado de consoles com o primeiro Xbox, lançado nos Estados Unidos em que ano?",
+    "resposta": "2001",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xbox_(console)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
+        "situacao": "ok",
+        "texto": "The Xbox is a home video game console developed and marketed by Microsoft. It was released on November 15, 2001, in North America, followed by Australia, Europe, and Japan in 2002. It was the first major American-produced console since the Atari Jaguar in 1993, and as a sixth-generation console, competed with Sony's PlayStation 2 and Nintendo's GameCube.\n[…]\nThroughout the console's prototyping, Microsoft was working with AMD for the CPU on the system. According to Blackley, just prior to the system's reveal in January 2001, the Microsoft engineers opted to switch to an Intel CPU, a fact that had not yet been communicated to AMD prior to the reveal.\n[…]\nThe Xbox was officially unveiled to the public by Gates and guest professional wrestler Dwayne \"The Rock\" Johnson at CES 2001 in Las Vegas on January 3, 2001. Microsoft announced Xbox's release dates and prices at E3 2001 in May. Most Xbox launch titles were unveiled at E3, most notably Halo and Dead or Alive 3.\n[…]\nThe Xbox was the first video game console to feature a built-in hard disk drive, used primarily for storing game saves and content downloaded from Xbox Live. This eliminated the need for separate memory cards (although some older consoles, such as the Amiga CD32, used internal flash memory, and others, such as the TurboGrafx-CD, Sega CD, and Sega Saturn, had featured built-in battery backup memory prior to 2001).\n[…]\nIn 2008, the original Xbox was still Popular and the most played, compared to Sony's PlayStation 3, despite the PlayStation 2 being the most played and sold console In 2008. For almost all of 2008, the original Xbox was still Microsoft's best-selling console compared to its successor; it was only at the end of November 2008 that the Xbox 360 surpassed the original Xbox's sales for the first time since its launch in 2001.\n[…]\nXbox Live Marketplace\n[…]\nOfficial website at xbox.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xbox_%28console%29",
+        "situacao": "ok",
+        "texto": "O Xbox é um console de videogame doméstico e o primeiro título da série Xbox de consoles fabricados pela Microsoft. Foi lançado em 15 de novembro de 2001 na América do Norte, seguido pelo Japão em 22 de fevereiro de 2002, Austrália e Europa em 14 de março de 2002. O público ficou impressionado com a tecnologia do console. No momento do anúncio de Gates, as vendas do Dreamcast estavam diminuindo e \n[…]\nAté 2008, o Xbox Original ainda era o console mais jogado e vendido de todos, em comparação com o PlayStation 3 da Sony, apesar de o PlayStation 2, ser o mais jogado de todos os consoles até aquele ano. Durante quase todo o ano de 2008, o Xbox Original ainda era o console mais vendido da Microsoft em relação ao seu sucessor, foi somente no final de novembro de 2008 quando o Xbox 360 ultrapassou as vendas do Xbox Original pela primeira vez desde seu lançamento em 2001.\n[…]\nA fabricação e venda do Xbox foi interrompida primeiro no Japão em 2005, pois era o mercado de pior desempenho da Microsoft. Outras regiões seguiram o mesmo exemplo em 2006. O último jogo do Xbox na Europa foi Xiaolin Showdown lançado em junho de 2007 e o último jogo na América do Norte foi Madden NFL 09 lançado em agosto de 2008. O suporte para consoles fora de garantia foi interrompido em 2 de março de 2009. O sistema Xbox Live do console foi desativado no dia 15 de abril de 2010.\n[…]\nO Xbox foi o primeiro console a usar um disco rígido interno de PC, usado principalmente para armazenar jogos e arquivos baixados da Xbox Live e o progresso de jogos. Isso eliminou a necessidade de cartões de memória separados (embora alguns consoles lançados antes, como o Amiga CD32, que usava memória flash interna e outros como o TurboGrafx-CD, o Sega CD e o Sega Saturn, usavam memória interna antes de 2001).\n[…]\n«Site oficial do Xbox»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Call of Duty (jogo de 2003)",
+      "descricao": "Primeiro jogo da série de tiro Call of Duty, desenvolvido pela Infinity Ward e lançado em 2003."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Antes de investir nas guerras modernas, a série Call of Duty estreou em 2003 com um jogo sobre qual conflito?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Call_of_Duty_(video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Call_of_Duty_(video_game)",
+        "situacao": "ok",
+        "texto": "Call of Duty is a 2003 first-person shooter game developed by Infinity Ward and published by Activision. It is the first installment in the Call of Duty franchise, released on October 29, 2003, for Microsoft Windows. The game simulates infantry and combined arms warfare of World War II using a modified version of the id Tech 3 engine.\n[…]\nComputer Games Magazine named Call of Duty the sixth-best computer game of 2003, and the editors wrote, \"This game ups the ante in the WWII shooter arena, and makes everything that has come before it seem as outdated as France's army.\" The editors of Computer Gaming World presented Call of Duty with their 2003 \"Shooter of the Year\" award.\n[…]\nThe NPD Group named Call of Duty the eighth-best-selling computer game of 2003. It maintained this position on NPD's computer game sales rankings for the following year. In the United States alone, Call of Duty sold 790,000 copies and earned $29.6 million (~$44.2 million in 2024) by August 2006. At the time, this led Edge to declare it the country's 13th-best-selling computer game released since January 2000.\n[…]\nIn the United Kingdom, Call of Duty sold 95,000 copies by the end of 2003, which made it 88th-biggest seller across all platforms that year. Discussing this performance, Kristan Reed of GamesIndustry.biz wrote that \"Activision will be pleased that it managed to interrupt the Sims party\" with the game's release.\n[…]\nCall of Duty ultimately sold 4.5 million copies worldwide by 2013.\n[…]\nCall of Duty Classic is a downloadable version of Call of Duty for PlayStation 3 and Xbox 360 featuring HD resolutions. Tokens to download the game ahead of its release were sold along with special \"Hardened\" and \"Prestige\" editions of Call of Duty: Modern Warfare 2, and the game was publicly released on December 2, 2009.\n[…]\nCall of Duty at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Call_of_Duty_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "Call of Duty é um jogo eletrônico de tiro em primeira pessoa de 2003 desenvolvido pela Infinity Ward e publicado pela Activision. É o primeiro jogo da franquia Call of Duty, lançado em 29 de outubro de 2003 para Microsoft Windows. O jogo simula a guerra de infantaria e de armas combinadas da Segunda Guerra Mundial usando uma versão modificada do motor gráfico id Tech 3.\n[…]\nGrande parte de seu tema e jogabilidade é semelhante à série Medal of Honor; no entanto, Call of Duty apresenta múltiplos pontos de vista ambientados nas campanhas americanas, britânicas e soviéticas da Segunda Guerra Mundial na Europa.\n[…]\nComo um jogo de tiro em primeira pessoa, Call of Duty coloca o jogador no controle de um soldado de infantaria que faz uso de várias armas de fogo autênticas da Segunda Guerra Mundial em combate. Cada missão apresenta uma série de objetivos que estão marcados na bússola da tela; o jogador deve completar todos os objetivos para avançar para a próxima missão.\n[…]\nNa segunda missão, logo após o meio dia, a unidade de Evans consegue resistir à tentativa de um batalhão alemão, apoiado por tanques, de retomar a ponte. Eventualmente, reforços do 7º Batalhão de Paraquedistas chegam e os alemães recuam.\n[…]\nA equipe também pesquisou extensivamente armas, artilharia e veículos da Segunda Guerra Mundial para melhorar a autenticidade das animações e sons usados ​​ao longo do jogo.\n[…]\nA Computer Games Magazine nomeou Call of Duty como o sexto melhor jogo de computador de 2003, e os editores escreveram: \"Este jogo aumenta a aposta na arena de tiro da Segunda Guerra Mundial e faz com que tudo o que veio antes pareça tão desatualizado quanto o exército da França\". Os editores da Computer Gaming World entregaram Call of Duty com o prêmio \"Shooter do ano de 2003\". Eles comentaram: \"Call of Duty venceu esta categoria sem disparar um tiro - simplesmente não houve debate\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Grand Theft Auto: San Andreas",
+      "descricao": "Jogo de mundo aberto da Rockstar Games lançado em 2004, protagonizado por Carl Johnson, o CJ."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "GTA San Andreas, de 2004, conta a volta de CJ à sua cidade natal em qual década do século vinte?",
+    "resposta": "Década de 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+        "situacao": "ok",
+        "texto": "Grand Theft Auto: San Andreas is a 2004 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fifth main game in the Grand Theft Auto series and the seventh overall entry, following 2002's Grand Theft Auto: Vice City. Set within the fictional U.S. state of San Andreas (based on California and Nevada) in 1992, the game follows Carl \"CJ\" Johnson, a former gangs\n[…]\nIn October 2003, Rockstar's parent company Take-Two Interactive announced the next Grand Theft Auto game would be released in 2004's third quarter, and it prompted speculation after registering GTA: San Andreas with the U.S. Patent and Trademark Office in December 2003. Rockstar announced the game in March 2004, along with a scheduled release date of 19 and 22 October in North America and Europe, respectively.\n[…]\nGrand Theft Auto: San Andreas sold 4.5 million copies in its first week, outselling Vice City by 45%. In the United States, it sold 2.06 million units within six days of release and generated US$235 million in revenue in its first week; it sold 1.5 million units in November, totalling 3.6 million sales overall. Analysts noted San Andreas and Halo 2 led the industry to an 11% annual increase instead of a 21% decrease, and collectively accounted for almost 8% of all video game revenue in 2004.\n[…]\nSan Andreas was bundled with predecessors Grand Theft Auto III and Vice City in a compilation titled Grand Theft Auto: The Trilogy, released in North America for the Xbox on 8 October 2005, PlayStation 2 on 4 December 2006, and Mac OS X on 12 November 2010. A remastered version of The Trilogy subtitled The Definitive Edition was released for the Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on 11 November 2021, and for Android and iOS on 14 December 2023."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+        "situacao": "ok",
+        "texto": "Grand Theft Auto: San Andreas é um jogo eletrônico de ação-aventura de 2004 desenvolvido pela Rockstar North e publicado pela Rockstar Games. É o quinto jogo principal da série Grand Theft Auto e o sétimo no geral, após Grand Theft Auto: Vice City (2002). Ambientado no estado fictício estadunidense de San Andreas (baseado na Califórnia e Nevada) em 1992, o jogo acompanha Carl \"CJ\" Johnson, um ex-g\n[…]\nO mundo de San Andreas faz parte do cânone \"Universo 3D\" da série Grand Theft Auto, embora, ao contrário de seus antecessores que estão definidos nesta continuidade, o jogo incorpore versões fictícias de marcos e ambientes da vida real das cidades e estados dos Estados Unidos. Seu mapa permaneceu por quase uma década como o maior da série, até ser superado pela representação de Los Santos de Grand Theft Auto V.\n[…]\nOs eventos narrativos do jogo acontecem no início da década de 1990 no estado fictício de San Andreas, inspirado nos estados da Califórnia e Nevada, dos Estados Unidos. Ao contrário dos dois jogos anteriores, que eram inspirações de apenas uma única cidade, este título é composto por três metrópoles: Los Santos, San Fierro e Las Venturas, baseadas em Los Angeles, São Francisco e Las Vegas, respectivamente, e seu mapa é substancialmente mais do triplo do tamanho daquele visto em Vice City.\n[…]\nAo desenvolver o enredo de San Andreas, a Rockstar se inspirou em diversos eventos reais que ocorreram no final da década de 1980 e no início da década de 1990. A rivalidade entre as gangues de rua Bloods e Crips serviram de inspirações para a rivalidade entre a Grove Street Families e os Ballas — as principais gangues do jogo —, respectivamente.\n[…]\nApós o sucesso de San Andreas, a Rockstar lançou dois jogos portáteis da Rockstar Leeds — Grand Theft Auto: Liberty City Stories, ambientado no final dos anos 1990, e Grand Theft Auto: Vice City Stories no início dos anos 1980.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Kirby",
+      "descricao": "Personagem rosa e redondo da Nintendo, que engole inimigos, estreante em 1992 num jogo da HAL Laboratory."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Kirby deve seu nome ao advogado John Kirby, que defendeu a Nintendo quando a Universal acusou qual jogo de plagiar King Kong?",
+    "resposta": "Donkey Kong",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kirby_(character)",
+      "https://en.wikipedia.org/wiki/Universal_City_Studios,_Inc._v._Nintendo_Co.,_Ltd."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kirby_(character)",
+        "situacao": "ok",
+        "texto": "Kirby (Japanese: カービィ, Hepburn: Kābī; Japanese pronunciation: [kaːbiː]) is the titular character and protagonist of the Kirby series by HAL Laboratory. He first appeared in Kirby's Dream Land (1992), a platform game for the Game Boy. Since then, Kirby has appeared in over 50 games, ranging from action platformers to puzzle, racing, and pinball, and has been featured as a playable character in ever\n[…]\nOn these adventures, he often crosses paths with his rivals, King Dedede and Meta Knight. In virtually all of his appearances, Kirby is depicted as a cheerful, innocent, and food-loving character.\n[…]\nShigeru Miyamoto stated that \"Kirby\" was chosen partly in honor of American lawyer John Kirby, who defended Nintendo in the Universal City Studios, Inc. v. Nintendo Co., Ltd. case, and partly because the harsh-sounding name contrasted amusingly with the character's cute appearance.\n[…]\nIn the extended finale, Kirby battles a boss called Dark Matter, an entity that transforms into a one-eyed black orb. In 1996, Kirby Super Star was released on the Super Nintendo Entertainment System, a compilation of eight mini-games, such as Gourmet Race, where Kirby races against King Dedede in a food collecting competition. It was the first game to introduce helpers controlled by the game or by another player and also gave Kirby various hats to illustrate his various copy abilities.\n[…]\nKirby appears in every game in the Super Smash Bros. series, also created by Sakurai, as a playable character. As in the main series, Kirby is able to use copy-based transitions to copy the abilities and appearance of opponents, such as Mario, Donkey Kong, Link, and Samus. In Ultimate, he plays a starring role in the \"World of Light\" story mode, in which he is the only survivor of Galeem's massacre out of all of the other fighters.\n[…]\nCharacters of the Kirby series\n[…]\nKirby's official U.S. homepage\n[…]\nKirby on play.nintendo.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Universal_City_Studios,_Inc._v._Nintendo_Co.,_Ltd.",
+        "situacao": "ok",
+        "texto": "Universal City Studios, Inc. v. Nintendo Co., Ltd. was a 1983 legal case heard by the United States District Court for the Southern District of New York by Judge Robert W. Sweet. In their complaint, Universal Studios alleged that Nintendo's video game Donkey Kong was a trademark infringement of King Kong, the plot and characters of which Universal claimed as their own.\n[…]\nOn June 29, 1982, Universal officially sued Nintendo. The company also announced that it had agreed to license the rights to King Kong to Coleco. On January 3, 1983, Universal then sent cease-and-desist letters to Nintendo's licensees offering three options: stop using Donkey Kong characters, obtain a license from Universal, or be sued. Six licensees caved, but Milton Bradley refused to do so.\n[…]\nUniversal City Studios, Inc. v. Nintendo, Co., Ltd. was heard at the United States District Court for the Southern District of New York by Judge Robert W. Sweet. The trial lasted seven days, during which Universal, represented by the New York firm Townley & Updike, argued that the name Donkey Kong could be confused with King Kong and that the plot of the game was an infringement on that of the film. Kirby showed key differences between Donkey Kong and King Kong.\n[…]\nAnother example was Craig Kubey's 1982 The Winner's Book of Video Games, which states that \"Donkey Kong [is] a video version of the film classic King Kong\".\n[…]\nNintendo thanked John Kirby with a $30,000 sailboat christened the Donkey Kong along with \"exclusive worldwide rights to use the name for sailboats\". The title character in Nintendo's Kirby series of video games was named after John Kirby, in honor of his services in the Donkey Kong case. It is rumored that a copy of the first game in the franchise, Kirby's Dream Land, was eventually sent to John Kirby who was amused and flattered."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kirby_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Kirby (カービィ, Kābī) é o protagonista titular da série de jogos eletrônicos Kirby desenvolvidos pela Nintendo e pela HAL Laboratory. Kirby já apareceu em mais de vinte jogos desde 1992 e estrelou em sua própria série animada(Anime Kirby: Right Back at Ya!). A série Kirby já vendeu mais de 33 milhões de unidades em todo o mundo. Os jogos principais da série são jogos de plataforma. Ele apareceu pela \n[…]\nO personagem então sendo validado, foi uma oportunidade para Nintendo agradecer novamente seu advogado, John Kirby, que defendeu Nintendo em uma mídia própria de 1982 a 1986 se opondo ele para a Universal (caso Donkey Kong). Assim nasceu o personagem Kirby.\n[…]\nNa terceira parte, quatro outros se juntarão a eles: um polvo (Chuchu), um pássaro (Pitch), um gato (Nago), bem como um antigo Dark Matter (inimigos do jogo) reconvertido que se juntou ao grupo de Kirby (Gooey).\n[…]\nEm 1999, a Nintendo e a HAL Laboratory lançaram um jogo de luta multijogador chamado Super Smash Bros. no Nintendo 64. O jogo contém 12 mascotes da Nintendo, incluindo Kirby. Super Smash Bros. Melee, a sequência para o GameCube, foi lançada logo após o console, em 2001. Em 2008, Kirby reapareceu em Super Smash Bros. Brawl para o Wii, como um dos 8 veteranos da série. Em 2014, Kirby retornou em Super Smash Bros. for Nintendo 3DS e Wii U no Nintendo 3DS e no Wii U.\n[…]\nKirby 64: The Crystal Shards (Nintendo 64, 2000)\n[…]\nKirby Star Allies (Nintendo Switch, 2018)\n[…]\nKirby and the Forgotten Land (Nintendo Switch, 2022)\n[…]\nKirby and the Forgotten Land + Star-Crossed World (Nintendo Switch 2, 2025)\n[…]\nKirby's Dream Course (Super Famicom, 1994/Super Nintendo, 1995)\n[…]\nKirby's Avalanche (Super Nintendo, 1995)\n[…]\nSuper Kirby Clash (Nintendo Switch, 2019)\n[…]\nKirby Fighters 2 (Nintendo Switch, 2020)\n[…]\nKirby's Dream Buffet (Nintendo Switch, 2022)\n[…]\nKirby Air Riders (Nintendo Switch 2, 2025)\n[…]\nKirby's Return to Dream Land Deluxe (Nintendo Switch, 2023)\n[…]\nKirby (série)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Mega Drive",
+      "descricao": "Console de videogame de dezesseis bits da Sega, lançado no Japão no fim dos anos oitenta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa de uma disputa de marca, o Mega Drive da Sega foi vendido nos Estados Unidos com qual nome?",
+    "resposta": "Genesis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sega_Genesis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sega_Genesis",
+        "situacao": "ok",
+        "texto": "The Sega Genesis, known as the Mega Drive outside North America, is a 16-bit fourth generation home video game console developed and sold by Sega. It was Sega's third console and the successor to the Master System. Sega released it in October 1988 in Japan as the Mega Drive, and in August 1989 in North America as the Genesis. In 1990, it was distributed as the Mega Drive by Virgin Mastertronic in \n[…]\nLate in the 16-bit era, Sega released a handheld version of the Genesis, the Genesis Nomad. Its design was based on the Mega Jet, a Mega Drive portable unit featured on airplane flights in Japan. As the only successor to the Game Gear, the Nomad operates on 6 AA batteries, displaying its graphics on a 3.25-inch (8.25-mm) LCD screen.\n[…]\nCompilations of Genesis games have been released for other consoles. These include Sonic Mega Collection and Sonic Gems Collection for PS2, Xbox, and GameCube; Sega Genesis Collection for PS2 and PSP; and Sonic's Ultimate Genesis Collection (known as the Sega Mega Drive Ultimate Collection in PAL territories) for PlayStation 3 and Xbox 360.\n[…]\nDuring his keynote speech at the 2006 Game Developers Conference, Nintendo president Satoru Iwata announced that Sega would make a number of Genesis/Mega Drive games available to download on the Wii's Virtual Console. There are select Genesis games available on the Xbox 360 through Xbox Live Arcade, such as Sonic the Hedgehog and Sonic 2, as well as games available via the PlayStation Network and Steam.\n[…]\nIn 2018, Sega announced a dedicated console, the Genesis/Mega Drive Mini. The console includes 40 games, including Gunstar Heroes and Castlevania: Bloodlines, with different games for different regions and a save-anywhere function. Streets of Rage composer Yuzo Koshiro provided the menu music. The console was released worldwide on September 19, 2019.\n[…]\nList of best-selling Sega Genesis games"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mega_Drive",
+        "situacao": "ok",
+        "texto": "O Sega Genesis, conhecido como Mega Drive (メガドライブ, Mega Doraibu) fora da América do Norte, é um console de videogame de 16 bits desenvolvido e comercializado pela Sega, sendo um sucessor do Master System. O console foi lançado em 1988 no Japão como Mega Drive e em 1989 na América do Norte como Genesis. No ano de 1990, foi distribuído na Europa pela Virgin Mastertronic, na Nova Zelândia e Austrália\n[…]\nO Mega Drive vendeu 30,75 milhões de unidades em todo mundo. A empresa Tec Toy afirmou que 3 milhões unidades foram vendidas no Brasil. Diversos títulos de sua biblioteca foram relançados em forma de coletâneas ou em serviços online de outras empresas de videogame. O Genesis/Mega Drive foi sucedido pelo Sega Saturn em 1994.\n[…]\nO nome Sega Genesis para o mercado dos Estados Unidos ocorreu devido ao nome Mega Drive já ter registro legal de outra empresa. Então a Atari organizou um concurso interno com sugestões para um novo nome, e apesar de vários opções terem surgido, foi o \"Genesis\", bolado por Steve Ryno, o escolhido.\n[…]\nEm 2019, a Sega lançou o Mega Drive Mini, uma reprodução do Mega Drive original com metade do tamanho e 42 jogos na memória. As vendas foram boas, com 300 mil unidades vendidas até março de 2020, levaram a uma nova versão, Sega Genesis Mini 2, em 2022, com 53 novos jogos que também incluíam títulos do Sega CD.\n[…]\nEm 1995, num contexto em que o apoio internacional à Mega Drive começava a diminuir devido ao lançamento da Sega Saturn, foram igualmente importados para o mercado português vários títulos originalmente editados para a Sega Genesis (designação norte-americana da Mega Drive), incluindo Batman Forever (1995), Judge Dredd (1995), Demolition Man (1995) e Spider-Man: Separation Anxiety (1995).\n[…]\nJá o PlayStation 2 emula jogos de Mega Drive/Genesis através do software PGEN, sendo que este suporta USB.\n[…]\nSega 32X\n[…]\nSega CD\n[…]\nSega Nomad\n[…]\nSítio oficial da Sega",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Lara Croft",
+      "descricao": "Arqueóloga aventureira, protagonista da série de jogos Tomb Raider, criada em 1996 pela Core Design."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na criação de Tomb Raider, a heroína tinha um nome de sonoridade latina, depois trocado por um mais britânico. Qual era o nome original?",
+    "resposta": "Laura Cruz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lara_Croft"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lara_Croft",
+        "situacao": "ok",
+        "texto": "Lara Croft is a character and the main protagonist of the video game franchise Tomb Raider. She is presented as a highly intelligent and athletic English adventurer and archaeologist who ventures into ancient tombs and hazardous ruins around the world. Created by a team at British developer Core Design that included Toby Gard, the character first appeared in the video game Tomb Raider in 1996.\n[…]\nSmith was sceptical of a female lead at first because few contemporary games featured them. He came to regard a female lead as a great hook and put faith in Gard's idea. Inspired by pop artist Neneh Cherry and comic book character Tank Girl, Gard experimented with different designs, including \"sociopathic blonds, muscle women, flat topped hip-hopsters and a Nazi-like militant in a baseball cap\". He settled on a tough South American Latina woman with a braid named Laura Cruz.\n[…]\nTomb Raider co-creator Paul Douglas changed her given name after consulting a baby names book, \"Lara had a more interesting derivation than Laura so we chose that. Lara is from the same derivation as Larisa. Which is derived from Larissa in Greece. Which means “citadel”. I thought that would be apt for her personality—enigmatic and guarded.\"  Her surname was changed by scriptwriter Vicky Arnold later in development, \"Cruz was changed to Croft quite a bit later in the project by Vicky.\n[…]\nThat came out of the Derby phonebook. Cruz was Spanish/Portuguese for Cross and it wasn’t too far from Cross to Croft. We must have stuck with the Cruz surname for a while as we got into the rut of referring to her as just Lara.\n[…]\nIn the first game design doc, dated December 1994, Laura is already changed to Lara but even in the final game design documents there are still places where Cruz hadn't yet changed to Croft.\" Along with the name change, the character's backstory was altered to incorporate a British origin."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lara_Croft",
+        "situacao": "ok",
+        "texto": "Lara Anne Croft é uma personagem fictícia e a protagonista da série de videojogos Tomb Raider da Square Enix (antes Eidos Interactive). Lara é apresentada como uma mulher bonita, inteligente e atlética, uma arqueóloga britânica que se aventura em antigas tumbas e ruínas perigosas ao redor do mundo à procura de artefatos valiosos. Criada por uma equipa do estúdio Core Design que incluía Toby Gard, \n[…]\nInicialmente, o designer Toby Gard focou na criação da personagem principal que era essencialmente um clone de Indiana Jones. Quando este personagem foi considerado inaceitável, voltou sua atenção para um novo. Um fator que influenciou Gard a usar uma personagem do sexo feminino foi que ele percebeu que seus co-trabalhadores muitas vezes preferiam utilizar personagens femininas em Virtua Fighter. A personagem redesenhada foi inicialmente uma sul-americana chama Laura Cruz.\n[…]\nLara foi trazida à vida pela atriz Angelina Jolie nos filmes Lara Croft: Tomb Raider (2001) e Lara Croft: Tomb Raider – The Cradle of Life (2003).\n[…]\nThor's Hammer - Martelo de Thor (Tomb Raider: Underworld)\n[…]\nEm resposta a isso, afirmou-se que ela seria submetida a um redesenho e tornaria-se mais \"reservada\" em Tomb Raider: Legend por uma questão de se tornar mais atrativa para gamers do sexo feminino. Entretanto, algumas das roupas que ela veste nesse jogo são muito mais reveladoras que em qualquer coisa já vista em jogos anteriores, com muitas delas mostrando espaço entre os seios de Lara e/ou o diafragma dela (embora algumas das roupas disponíveis sejam muito modestas).\n[…]\nAlguns fãs haviam criticado a série por retratar Lara em uma forma cada vez mais sanguinária, e ocasionalmente não dando aos jogadores a opção de evitar a força letal contra os humanos. Tomb Raider III foi fortemente criticado por alguns por mostrar Lara cometendo assassinatos contra guardas seguranças, oficiais da polícia e homens de uma tribo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Pikachu",
+      "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Pikachu junta duas onomatopeias japonesas: pika, o estalo de uma faísca, e chu, que imita o som de qual animal?",
+    "resposta": "Rato",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pikachu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pikachu",
+        "situacao": "ok",
+        "texto": "Pikachu ( ; Japanese: ピカチュウ, Hepburn: Pikachū) is a Pokémon species in Nintendo and Game Freak's Pokémon media franchise, and the franchise's mascot. First introduced in the video games Pokémon Red and Blue, it was created by Atsuko Nishida at the request of lead designer Ken Sugimori, with the design finalized by Sugimori. Since Pikachu's debut, it has appeared in multiple games including Pokémon\n[…]\nSeries director Junichi Masuda stated that Pikachu's name was one of the most difficult to create, due to an effort of wanting to make it appealing to both Japanese and American audiences. The name is derived from a combination of two Japanese onomatopoeia: ピカ (pika), a sparkling sound, and チュー (chū), a sound a mouse makes. When localizing the games for the United States, Nintendo of America's staff initially proposed to redesign \"cute\" Pokémon in order to appeal to an American audience.\n[…]\nPikachu's visual appearance in the film was built as if the character was an actual animal, with the visual effects team creating detailed skeletal and muscular systems for the Pokémon. They visited zoos and consulted animal experts in order to ensure Pikachu's movements were accurate to real world animals. Pikachu initially started with rabbit-like movement, but eventually evolved movement-wise to have characteristics of multiple species, namely those of marsupials and marmosets.\n[…]\nPikachu's voice has been analyzed for its ability to convey emotion despite only speaking one word, with children being able to determine the emotion of the character based on how the character sounds. The book Anime Impact: The Movies and Shows that Changed the World of Japanese Animation additionally analyzed how Pikachu's voice and inflections on a specific word allowed an animalistic character to be seen as a separate character and entity by the audience.\n[…]\nPikachu  at Bulbapedia, a Pokémon wiki\n[…]\nPikachu on Serebii"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pikachu",
+        "situacao": "ok",
+        "texto": "Pikachu (ピカチュウ, Pikachū) é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red e Pokémon Green, sendo lançados fora do Japão em 1998 como Pokémon Red and Blue, e foi criado por Atsuko Nishida a pedidos do designer principal  Ken Sugimori.\n[…]\nGeralmente descrito como um rato elétrico, Pikachu foi criado pelo estúdio Game Freak e desenhado por Atsuko Nishida. Ele foi criado juntamente com a sua evolução, Raichu; a partir da segunda geração, ele também passou a ter uma pré-evolução, o Pichu. Pikachu é do tipo elétrico e ocupa a 25ª posição na Pokédex nacional, a enciclopédia que lista as diferentes espécies de Pokémon.\n[…]\nPikachu é mundialmente famoso sendo considerado um ícone kawaii, e como um equivalente japonês do Mickey Mouse, sendo parodiado e aparecido em outras séries de animação ocidentais como Os Simpsons e Drawn Together.\n[…]\nQuanto ao nome Pikachu (ピカチュウ, Pikachū; em japonês), Satoshi Tajiri, criador de Pokémon, explicou em uma entrevista que ele foi criado a partir das onomatopeias japonesas de faísca (ピカピカ, pikapika) e do guincho de um rato (チュウチュウ, chūchū), assim apresentando-o como um rato elétrico; porém, alguns sites de fãs presumiram que viram este nome como uma referência para o pika.\n[…]\nDescrito como um rato, os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, e pernas curtas e uma longa cauda, possui duas listras marrom nas costas e a ponta de suas orelhas pretas, eles também têm dois discos vermelhos em cada bochecha e sua cauda quando macho tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta. Geralmente são bípedes facultativos.\n[…]\n«Pikachu». no site oficial",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Princesa Peach",
+      "descricao": "Princesa dos jogos da série Super Mario, da Nintendo, frequentemente sequestrada por Bowser."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Antes de adotar o nome Peach, a princesa dos jogos do Mario era chamada no Ocidente por qual nome?",
+    "resposta": "Princesa Toadstool",
+    "distratores": [
+      "Princesa Daisy",
+      "Pauline",
+      "Rosalina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Princess_Peach"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Princess_Peach",
+        "situacao": "ok",
+        "texto": "Princess Peach (Japanese: ピーチ姫, Hepburn: Pīchi-hime; pronounced [piːtɕi̥ çime]) is a character in Nintendo's Mario franchise. She was created by Shigeru Miyamoto and introduced in the 1985 original Super Mario Bros. game as Princess Toadstool. She is the princess regnant and head of state of the Mushroom Kingdom, where she resides in her castle along with Toads. Since her debut, she has appeared i\n[…]\nPeach made her debut as Princess Toadstool in the 1985 platform game Super Mario Bros. on the Nintendo Entertainment System (NES). The story involves King Koopa kidnapping her and hiding her in one of eight dungeons, necessitating Mario and Luigi to find and rescue her. After navigating his way through eight worlds and defeating King Koopa over a pit of lava, Mario receives a \"Thank you, Mario!\" from the princess as a hero's reward.\n[…]\nThe game begins with Mario receiving a letter from \"Princess Toadstool, Peach\", asking him to come to her castle as she has baked a cake for him. Peach's Castle acts as a hub world and contains paintings that Mario can use to enter various worlds to complete challenges in order to win stars. At the end of the game, he must finally face Bowser and save the princess.\n[…]\nAlthough she was named Princess Toadstool in the original game, she was renamed Princess Peach in the 2023 remake released on the Nintendo Switch.\n[…]\nThroughout 1992, Peach (named Princess Toadstool) appeared in a comic titled Super Mario Adventures, which was serialized in Nintendo Power. The plot involves Bowser proposing marriage to her and threatening to turn her subjects to stone if she refuses. After Mario is turned to stone, she and her troops pursue Bowser down a pipe, but she is eventually captured by Bowser.\n[…]\nPrincess Peach  on Play Nintendo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Princesa_Peach",
+        "situacao": "ok",
+        "texto": "A Princesa Peach Cogumelo (ピーチ姫, Pīchi-hime) é uma personagem fictícia da série de videogames Super Mario Bros., produzido pela Nintendo. Ela é a princesa do também fictício Reino dos Cogumelos e por diversas vezes faz o papel de donzela em apuros da série, sendo constantemente salva por Mario, por quem ela é apaixonada.\n[…]\nWii porque isso exigiria uma programação especial sobre a forma como o jogo lida com seu vestido, no entanto, ela é a principal protagonista em Super Princess Peach, é uma das protagonistas em Super Mario Bros. 2 e mais recentemente em Super Mario 3D World, e também é uma personagem jogável em mais spin-offs, como Mario Party, Mario Kart, Super Mario RPG, a série Paper Mario, entre outros jogos da franquia Mario.\n[…]\nNo Japão, o nome da princesa sempre foi Peach (ピーチ姫, Pīchi Hime; Princesa Peach). Originalmente conhecida como Princesa Toadstool nos Estados Unidos e outros países ocidentais, ela foi chamada de Peach pela primeira vez fora do Japão na versão americana de Yoshi's Safari, em 1993. Porém, o nome não se tornou conhecido pois o jogo não foi muito popular. Em Super Mario RPG: Legend of the Seven Stars, ela foi novamente chamada de Princesa Toadstool.\n[…]\nApenas com o lançamento de Super Mario 64 o nome Peach passou a ser conhecido fora do Japão. No Brasil, durante a exibição do desenho animado As Aventuras dos Irmãos Super Mário, ela ficou conhecida como Princesa Cogumelo. É revelado que Toadstool é só seu sobrenome e que Peach é seu primeiro nome.\n[…]\nAlém disso, no modo história do Emissário do Subespaço, a Princesa Peach é um personagem muito importante, estando presente na maior parte da história. Peach retornou em Super Smash Bros. para Nintendo 3DS e Wii U, bem como em Super Smash Bros. Ultimate.\n[…]\nLista de personagens da série Mario\n[…]\nPrincesa Peach em Play Nintendo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Tamagotchi",
+      "descricao": "Bichinho de estimação virtual em forma de chaveiro, lançado pela Bandai em 1996."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do bichinho virtual Tamagotchi junta watch, relógio em inglês, com tamago, palavra japonesa que significa o quê?",
+    "resposta": "Ovo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tamagotchi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (Japanese: たまごっち; IPA: [tamaɡotꜜtɕi], \"Egg Watch\") is a brand of handheld digital pets marketed since 1996 by Japanese toymaker Bandai, a division of Bandai Namco Holdings. Most Tamagotchi are housed in a small egg-shaped handheld video game with an interface consisting of three buttons, with the goal of raising the pet as it goes through different life stages.\n[…]\nTamagotchi was created in Japan by Akihiro Yokoi of WiZ and Aki Maita of Bandai. They both won the tongue-in-cheek 1997 Ig Nobel Prize for economics, dubbing them the father and mother of Tamagotchi. The first Tamagotchi was released by Bandai on November 23, 1996 (several months after the release of the unsuccessful Apple Pippin console) in Japan. It would then release in the United States on May 1, 1997. Tamagotchi is a keychain-sized virtual pet simulation game.\n[…]\nThe characters were first drawn in heta-uma, which was a popular style found in teen magazines, and were then converted to pixel art. They were worn like a wristwatch in the initial concept, hence the portmanteau name. The egg shape might have been chosen as it was meant to resemble a pocket watch. The characters are colorful creatures with simple designs based on animals, objects, or people. When releasing the Tamagotchi in Japan, Bandai initially marketed them exclusively to teenage girls.\n[…]\nThe Tamagotchi was extremely popular globally in 1997-1998 having been referred to as becoming a \"pop culture phenomenon\". The success of the Tamagotchi led to the electronic pet being appointed the Christmas Gift of the Year by the Swedish Retail Institute in November 1997. The toy was especially popular among the high school girls and young women demographics. It also spawned the virtual pet genre and led to many knock-off products or imitators at the time, such as Tiger/Hasbro's Giga Pet.\n[…]\nPou – 2012 Virtual pet game"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (たまごっち, tamagocchi) é uma franquia de mídia japonesa que consiste em animais de estimação virtual, jogos eletrônicos, animações ​​e outras mídias relacionadas. A franquia se passa em um universo compartilhado no qual humanos coexistem com criaturas alienígenas, denominadas Tamagotchi, vindas de um planeta de mesmo nome. O público-alvo principal da franquia é o infantojuvenil, mas ficou \n[…]\nNo ano de 1997, Akihiro Yokoi e Aki Maita, receberam o Prêmio Ig Nobel de Economia por \"divertir milhões de pessoas com horas de trabalho na criação de bichinhos virtuais\".\n[…]\nO Tamagotchi Connection V3 foi lançado em 2005 no Japão e só agora está se espalhando pela Europa. É o novo \"Tamagotchi Connection\", que, além do sensor infravermelho e de jogos e funções adicionais àquelas conhecidas, tem interação com o computador, em um site \"Tamagotchi Town\", onde pode-se adquirir produtos virtuais através dos pontos ganhos em jogos. Não paga nada para entrar e se divertir. Nem para adquirir os produtos virtuais. Estes são armazenados em seu Tamagochi V2.\n[…]\nDurante o final da década de 1990, as crianças frequentemente levavam os bichinhos digitais Tamagotchi para a escola porque nos dois primeiros lançamentos (Geração 1 e Geração 2), um personagem poderia morrer em menos de meio dia se não recebesse os cuidados adequados. Os professores expressaram preocupação com a interrupção das aulas, bem como a distração geral dos trabalhos escolares e isso acabou levando muitas escolas a banir o produto.\n[…]\nAs crianças se emocionaram com a morte de seus Tamagotchi, levando os adolescentes a enviá-los para cemitérios para enterro e lendas urbanas de suicídio de adolescentes, como um suposto caso de uma adolescente se enforcando pela morte de seu Tamagotchi depois que seus pais o levaram embora. uma punição.\n[…]\nForam lançados os seguintes jogos eletrônicos de Tamagotchi:\n[…]\nAnimal de estimação virtual",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Sonic",
+      "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a Sega escolheu o azul como a cor do seu mascote, o ouriço Sonic?",
+    "resposta": "Para combinar com o logotipo da Sega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog is a title character created by the Japanese game designers Yuji Naka and Naoto Ohshima. He is the protagonist of the Sonic the Hedgehog franchise and the mascot of the Japanese video game company Sega. Sonic is an anthropomorphic blue hedgehog who runs at supersonic speed. He races through levels, collecting rings and avoiding obstacles, as he seeks to defeat his archenemy, Doc\n[…]\nSonic made a cameo in the arcade game Rad Mobile (1990) before officially debuting in Sonic the Hedgehog, a platform game for the Sega Genesis, in 1991. Sega sought a mascot to compete with Nintendo's Mario, and Ohshima designed Sonic based on a prototype programmed by Naka. Sonic's design was influenced by a variety of sources, including Felix the Cat, Mickey Mouse, Michael Jackson, and Santa Claus; his pigmentation was chosen to match Sega's cobalt blue logo.\n[…]\nIn April 2013, Sega announced that Sonic Lost World would launch in October 2013 for the Wii U and Nintendo 3DS.\n[…]\nThe character's popularity declined in the mid-1990s, and Sonic failed to place in Electronic Gaming Monthly's Coolest Mascot of 1996 in either the editors' or readers' picks, being beaten out by not only competitors Mario and Crash Bandicoot, but Sega's own Nights; however, in a 2008 poll of 500 people, Sonic was voted the most popular video game character in the UK with a 24% vote while his old rival Mario came second with 21% of the vote.\n[…]\nA Japanese team developing the Radio & Plasma Wave Investigation (RPWI) instrumentation for the Jupiter Icy Moons Explorer spacecraft, launched by ESA and Airbus in 2022, was able to gain Sega's approval to use Sonic as the mascot for the device. Specifically, Sonic appears on the logo of the RPWI in his classic design, the rendition being a redraw of how Sonic appears on the Japanese and PAL box art for Sonic the Hedgehog.\n[…]\nSonic the Hedgehog on IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sonic_the_Hedgehog_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog (em português: Sonic, o Ouriço) é um personagem fictício e um dos protagonistas da série de jogos Sonic the Hedgehog, bem como desenhos animados, quadrinhos e outras mídias feitas pela empresa Sega, da Sega Sammy Holdings, criado em substituição ao personagem Alex Kidd.\n[…]\nSonic é um ouriço azul antropomórfico (embora era referido pela Tec Toy, representante da Sega no Brasil, como porco-espinho), capaz de correr em velocidade imensurável e se enrolar como uma bola, primariamente para atacar inimigos. É considerado um dos personagens mais rápidos da ficção e é o Arqui-inimigo do vilão Dr. Eggman (também chamado de Dr. Robotnik em algumas adaptações ocidentais), e vários outros.\n[…]\nA cor azul foi escolhida para combinar com a logomarca cobalto da Sega, e seus tênis vermelhos e brancos evocam as botas de Michael Jackson e as cores que Jackson vestia no disco Bad. Jackson chegaria a trabalhar com Sonic compondo a trilha de Sonic the Hedgehog 3. A supervelocidade veio para aproveitar uma demo feita por Yuji Naka que demonstrava um personagem se movendo velozmente em curva ao se transformar em bola.\n[…]\nPor muito tempo Sonic foi exclusivo de consoles Sega, com exceção de conversões de seus jogos para PC e de um jogo criado para o Neo Geo Pocket numa parceria com a SNK (Sonic The Hedgehog: Pocket Adventure). Em 2001, a Sega se retirou do mercado de consoles, e no ano seguinte Sonic já aparecia no GameCube e no Game Boy Advance da Nintendo.\n[…]\nHá um gene no DNA dos mamíferos que foi designado Sonic hedgehog, em sua homenagem. A equipe japonesa que desenvolveu o equipamento Radio & Plasma Wave Investigation (RPWI) para a missão JUICE da ESA, a lançar em 2022, conseguiu a aprovação da Sega para usar Sonic como mascote do utensílio.\n[…]\nSonic: jogos para jogar online",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Pokémon",
+      "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que passatempo de infância de Satoshi Tajiri, criador de Pokémon, inspirou a ideia de capturar e colecionar monstrinhos?",
+    "resposta": "Colecionar insetos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Satoshi_Tajiri",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Satoshi_Tajiri",
+        "situacao": "ok",
+        "texto": "Satoshi Tajiri (Japanese: 田尻 智, Hepburn: Tajiri Satoshi; born August 28, 1965) is a Japanese video game designer and director who is the creator of the Pokémon franchise and the co-founder and president of video game developer Game Freak.\n[…]\nSatoshi Tajiri was born on August 28, 1965, in Setagaya, Tokyo. Tajiri grew up in Machida, Tokyo, which at the time still maintained a rural atmosphere and was rapidly growing. Tajiri enjoyed insect collecting as a child. He and his friends would exchange insects, which later became the inspiration for his video game development. Other children called him \"Dr. Bug\", and he wanted to become an entomologist.\n[…]\nTajiri wrote and edited a fanzine called Game Freak from 1981 to 1986, focusing on the arcade game scene. It was handwritten and stapled together. Satoshi created the Game Freak fanzine to help gamers with winning strategies and lists of easter eggs. The highest selling issue, at more than 10,000 copies, details how to get a high score in Xevious. Ken Sugimori, who later illustrated the first 151 Pokémon, saw the magazine at a dōjinshi shop, and became its illustrator.\n[…]\nTajiri cites Shigeru Miyamoto as a major influence, thinking of him as a sort of mentor. For this reason, his developmental style closely matches that of Miyamoto. In the Japanese version of the Pokémon anime, the main character is named Satoshi (Ash Ketchum in the English version), and his rival is Shigeru (Gary Oak in the English version).\n[…]\nTajiri, Satoshi (1996). 新ゲームデザイン [New Game Design] (in Japanese). Enix. ISBN 4-87025-858-7.\n[…]\nMiya, Shotaro (2004). 田尻智ポケモンを創った男 [Satoshi Tajiri: The Man Who Created Pokémon] (in Japanese). Ohta Publishing. ISBN 4-87233-833-2.\n[…]\nPokémon\n[…]\nSatoshi Tajiri at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon",
+        "situacao": "ok",
+        "texto": "Pokémon is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with the eponymous creatures, a large variety of species endowed with special powers. The franchise's primary target audience is children aged 5 to 12, but it is known to attract people of a\n[…]\nThe budget that Nintendo granted to Game Freak was low; thus, Pocket Monsters was initially planned as a small, compact game, based primarily around Tajiri's core idea of exchanging. However, as development progressed, Game Freak's ideas and ambitions for Pokemon grew. They soon realized that the game they were beginning to envision would not be easy to make. Pocket Monsters was suspended indefinitely, and Game Freak turned their focus on other titles (see Game Freak § Games).\n[…]\nAt the time of Pokemon's release, the main CoroCoro magazine was read by one in four elementary school students. CoroCoro's deputy editor-in-chief was Masakazu Kubo. On Ishihara's suggestion, Kubo commissioned the creation of a manga adaptation, written and illustrated by Kosaku Anakubo. Shogakukan, which frequently surveys their target groups, determined that the Pocket Monsters manga was well received.\n[…]\nThe film, titled Pocket Monsters the Movie: Mewtwo Strikes Back (Pokémon: The First Movie), premiered on 18 July 1998, becoming the fourth highest grossing film of the year in Japan.\n[…]\nThe success of Pokémon encouraged companies to look for other popular Japanese properties that might be localized for Western markets. The importing of at least three similar franchises was confirmed by business executives to have been (partly) inspired by Pokémon: Yu-Gi-Oh!, Digimon, and Monster Rancher. The import of Cardcaptor Sakura (as Cardcaptors) might also have been prompted by Pokémon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Satoshi_Tajiri",
+        "situacao": "ok",
+        "texto": "Satoshi Tajiri (田尻 智, Tajiri Satoshi), (Setagaya, 28 de agosto de 1965) é um designer de jogos eletrônicos mais conhecido como criador de Pokémon e fundador da Game Freak.\n[…]\nQuando Satoshi Tajiri era pequeno a sua mãe não lhe deixava ter animais de estimação, por isso ele andava em florestas e vales à procura de insetos, para colecionar e para trocá-los.\n[…]\nEle se tornou uma celebridade dos videogames, escrevendo dois livros. No final dos anos 80, a Game Freak estava em desenvolvimento de jogos e se mudaria para um escritório dentro do prédio da Nintendo no Japão. Lá publicou alguns jogos que fizeram muito sucesso. Satoshi Tajiri imaginou jogar um jogo onde poderia se capturar monstros e batalhar.\n[…]\nSe inspirando na sua coleção de insetos da sua adolescência ele aumentou sua ideia. Ele adorava coletar informações, as estatísticas de vários heróis e suas características. Juntando suas ideias de criança criou no videogame a sua coleção de insetos, ficando claro para ele que resultaria na grande satisfação do imenso público infantil.\n[…]\nA ideia veio mesmo quando ele viu duas pessoas jogando Game Boy in Flax. Um inseto estava envenenado em um dos Game Boy, quando estava conectado a outro Game Boy pelo Cable Link. A ideia do Cable Link seria ótima para que Pokémon desse certo, por poder passar informações de dois Game Boy(s) assim ampliando a coleção de \"insetos\" que cada um possuía.\n[…]\nDaí se pensou na ideia de se criar um anime com o nome de Pokémon, pois se o jogo deu tão certo, o anime também daria. A ideia foi esplêndida, e hoje Satoshi Tajiri é um homem milionário, e ainda tem lucro com as empresas Game Freak e Nintendo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Flappy Bird",
+      "descricao": "Jogo para celular de 2013, criado pelo vietnamita Dong Nguyen, em que um passarinho voa entre canos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2014, no auge do sucesso, por que o vietnamita Dong Nguyen tirou o jogo Flappy Bird das lojas de aplicativos?",
+    "resposta": "Culpa pelo vício dos jogadores",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flappy_Bird"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
+        "situacao": "ok",
+        "texto": "Flappy Bird is a 2013 casual mobile game developed by Vietnamese video game artist and programmer Dong Nguyen (Vietnamese: Nguyễn Hà Đông), under his game development company .Gears. The game is a side-scroller where the player controls a bird, Faby, attempting to fly between columns of green pipes without hitting them. The player's score is determined by the number of pipes they fly through. Nguy\n[…]\nOn January 12, 2024, the trademark for Flappy Bird was terminated and subsequently handed over to Gametech Holdings after Dong Nguyen had failed to reclaim it. Gametech announced an unofficial reboot to the game on September 12, more than ten years after its discontinuation, under the name \"The Flappy Bird Foundation\", with additional features and characters. The game was released at the end of October 2024 with the mobile version being released in 2025.\n[…]\nWhen questioned at the time by Chocolate Lab Apps, a website for app developers, Nguyen claimed to have used no promotional methods in the marketing of Flappy Bird. He credited the sudden rise in the game's popularity in early 2014 to possibly be \"luck\". However, online marketer Carter Thomas suspected that the developer had used bots to cause its success.\n[…]\nThanh Niên found the similarities between Piou Piou vs. Cactus and Flappy Bird to be astonishing.\n[…]\nIn February 2014, the non-profit computer science education organization Code.org unveiled a set of lessons that would allow the student to make their own Flappy Bird clone.\n[…]\nNguyen's other games Super Ball Juggling and Shuriken Block ranked at 6th and 18th respectively on the App Store during early February 2014 on the back of Flappy Bird's success. He revealed in March 2014 that he was developing three other games at the time, in similar formats to his previous releases. One of those games was released in 2014 as Swing Copters and uses similar gameplay as Flappy Bird."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Flappy_Bird",
+        "situacao": "ok",
+        "texto": "Flappy Bird é um jogo eletrônico móvel casual de 2013 desenvolvido pelo artista e programador de jogos vietnamita Dong Nguyen (vietnamita: Nguyễn Hà Đông), sob sua empresa de desenvolvimento de jogos .Gears. O jogo é um side-scroller no qual o jogador controla um pássaro, Faby, tentando voar entre colunas de canos verdes sem colidir com eles. A pontuação do jogador é determinada pelo número de can\n[…]\nO jogo foi lançado em maio de 2013, mas teve um pico repentino de popularidade no início de 2014, tornando-se um sucesso inesperado. Flappy Bird recebeu avaliações negativas de alguns críticos, que criticaram seu alto nível de dificuldade e um suposto plágio nos gráficos e nas mecânicas de jogo, enquanto outros analistas o consideraram viciante. No final de janeiro de 2014, era o jogo gratuito mais baixado na App Store para iOS.\n[…]\nFlappy Bird foi removido tanto da App Store quanto do Google Play em 10 de fevereiro de 2014, com Nguyen alegando que se sentia culpado pelo que considerava ser a natureza viciante e o uso excessivo do jogo. Sua popularidade e remoção repentina fizeram com que celulares com o jogo instalado antes de sua exclusão fossem colocados à venda por preços elevados na internet.\n[…]\nFlappy Bird foi criado e desenvolvido por Dong Nguyen. O personagem foi criado originalmente para um jogo de plataforma em 2012, o qual foi cancelado. Flappy Bird foi criado em menos de 3 dias. Nguyen afirma que nenhuma parte de seu jogo foi feita para ser impossível de se passar.\n[…]\nNo início de fevereiro de 2014, Dong Nguyen avisou através do Twitter que iria remover seu jogo da iTunes Store e do Google Play por causa de toda a atenção negativa que recebeu por causa do jogo: \"Não é relacionado a assuntos legais. Eu simplesmente não aguento mais.\" No dia 9 de fevereiro, o jogo foi removido de ambas as lojas digitais.\n[…]\nFlappy Bird(em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "E.T. (jogo da Atari)",
+      "descricao": "Jogo de 1982 da Atari para o Atari 2600, baseado no filme E.T., o Extraterrestre, famoso pelo fracasso."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O jogo E.T., lançado pela Atari no Natal de 1982, virou sinônimo de fracasso. Que condição de produção explica sua má qualidade?",
+    "resposta": "Foi feito em cerca de cinco semanas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)",
+        "situacao": "ok",
+        "texto": "E.T. the Extra-Terrestrial is a 1982 adventure video game developed and published by Atari, Inc. for the Atari 2600, based on the film of the same name. The game's objective is to guide the eponymous character through various screens to collect three pieces of an interplanetary telephone that will allow him to contact his home planet.\n[…]\nThe game was designed by Howard Scott Warshaw, who intended it to be an innovative adaptation, but Atari held unrealistic expectations for sales based on the international box-office success of the film. Negotiations for the game rights ended in late July 1982, giving Warshaw just over five weeks to develop the game in time to meet the production schedule for the 1982 Christmas season.\n[…]\nFollowing the commercial success of E.T. the Extra-Terrestrial in June 1982, Steve Ross, CEO of Atari's parent company Warner Communications, began negotiations with the film's director Steven Spielberg and its distributor Universal Pictures to acquire a license to produce a video game based on the film. Later that month, Warner announced its exclusive worldwide rights to market coin-operated and console games based on E.T.\n[…]\nBy the end of 1982, Atari had begun to lose dominance as more competitors entered the market. GameSpy's Classic Gaming called E.T. Atari's biggest mistake, as well as the largest financial failure in the industry. Reiley commented that the game's poor quality was responsible for ending the product life of the Atari 2600.\n[…]\nHe stated that the large amount of unsold merchandise was a financial burden to Atari, which pushed the company into debt.\n[…]\nList of Atari 2600 games\n[…]\nMedia related to E.T. the Extra-Terrestrial (video game) at Wikimedia Commons\n[…]\nE.T. the Extra-Terrestrial manual at archive.org\n[…]\nE.T. the Extra-Terrestrial can be played for free in the browser at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_%28jogo_eletr%C3%B4nico%29",
+        "situacao": "ok",
+        "texto": "E.T. the Extra-Terrestrial é um jogo eletrônico de aventura desenvolvido e publicado pela Atari, Inc. Foi lançado em 1982 para o Atari 2600. É baseado no filme de mesmo nome e foi projetado por Howard Scott Warshaw. O objetivo é guiar o personagem homônimo através de várias telas para coletar três peças de um telefone interplanetário que lhe permitirá entrar em contato com seu planeta natal.\n[…]\nWarshaw pretendia que o jogo fosse uma adaptação inovadora e a Atari achou que venderia bem com base no sucesso de bilheteria internacional do filme. As negociações pelos direitos do jogo terminaram no final de julho de 1982, dando a Warshaw pouco mais de cinco semanas para desenvolvê-lo a tempo para a temporada natalina de 1982. O lançamento final recebeu avaliações negativas, com gráficos de baixa qualidade e jogabilidade confusa enfrentando críticas significativas. E.T.\n[…]\npara observação e um agente do FBI que persegue o alienígena para confiscar uma das peças de telefone coletadas, ou doces. O jogo oferece diversos níveis de dificuldade que afetam o número e a velocidade dos humanos presentes, além das condições necessárias para atingir o objetivo.\n[…]\nPor causa das prolongadas negociações para assegurar a concessão da forma para realizar o videogame só restavam cinco semanas para o dia 1 de setembro, a data de entrega necessária para poder vender na campanha de Natal. Como comparação Raiders of the Lost Ark demorou sete meses de desenvolvimento. A ideia era fazer de E.T. um jogo no estilo de Pac-Man, mas Warshaw a rejeitou para tentar algo mais original.\n[…]\nO jogo teve um impacto bastante negativo nas vendas da Atari, por conta de uma falha presente no jogo, que resultou na devolução do mesmo por parte de muitas consumidores. O fracasso do jogo é frequentemente apontado como uma das causas da crise dos jogos eletrônicos de 1983, e do enterro de jogos eletrônicos da Atari.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Luigi",
+      "descricao": "Irmão gêmeo de Mario nos jogos da Nintendo, de roupa verde."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a Nintendo criou Luigi, que estreou ao lado do irmão no fliperama Mario Bros., de 1983?",
+    "resposta": "Para ser o segundo jogador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luigi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Luigi",
+        "situacao": "desambiguacao",
+        "texto": "Luigi most commonly refers to:\n\nLuigi (given name), an Italian masculine name (includes a list of people with the name)\nLuigi (character), a video game character in the Mario franchise\nLuigi may also refer to:\n\n\n== People ==\nLuigi (jazz dancer), stage name of Eugene Louis Faccuito (1925–2015), American jazz dancer, choreographer, and teacher\nLuigi Verderame (born 1950), Belgian singer often known "
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Atari",
+      "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de fundar a Apple, o jovem Steve Jobs foi contratado como técnico, em 1974, por qual empresa de videogames?",
+    "resposta": "Atari",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steve_Jobs",
+      "https://en.wikipedia.org/wiki/Atari,_Inc."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "situacao": "ok",
+        "texto": "Steven Paul Jobs  (February 24, 1955 – October 5, 2011) was an American businessman and investor. A pioneer of the personal computer revolution of the 1970s and 1980s, Jobs co-founded Apple Inc. with his early business partner Steve Wozniak as Apple Computer Company in 1976. After the company's board of directors fired him in 1985, he founded NeXT the same year and purchased Pixar in 1986, becomin\n[…]\nIn February 1974, Jobs returned to his parents' home in Los Altos and began looking for a job. He was soon hired by Atari, Inc. in Los Gatos, California, as a computer technician. Back in 1973, Steve Wozniak designed his own version of the classic video game Pong and gave its electronics board to Jobs. According to Wozniak, Atari only hired Jobs because he brought the board to the company, and they thought he had built it himself.\n[…]\nAccording to Wozniak, Jobs told him that Atari paid them only $750 (instead of the actual $5,000), and that Wozniak's share was thus $375. Wozniak did not learn about the actual bonus until ten years later but said that if Jobs had told him about it and explained that he needed the money, Wozniak would have given it to him.\n[…]\nHis \"thin, almost gaunt\" appearance and unusually \"listless\" delivery, together with his choice to delegate significant portions of his keynote to other presenters, inspired a flurry of media and internet speculation about the state of his health. In contrast, according to an Ars Technica journal report, Worldwide Developers Conference (WWDC) attendees who saw Jobs in person said he \"looked fine.\" Following the keynote, an Apple spokesperson said that \"Steve's health is robust.\"\n[…]\n2017: Steve Jobs Theater opens at Apple Park\n[…]\nBrennan, Chrisann (2013). The Bite in the Apple: A Memoir of My Life with Steve Jobs. New York: St. Martin's Press. ISBN 978-1-250-03876-0.\n[…]\nSteve Jobs official memorial page at Apple\n[…]\nSteve Jobs profile at Forbes"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atari,_Inc.",
+        "situacao": "ok",
+        "texto": "Atari, Inc. was an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney. Atari was a key player in the formation of the video arcade and video game industry.\n[…]\nIn mid-1973, Atari acquired Cyan Engineering, a computer engineering firm founded by Steve Mayer and Larry Emmons, following a consulting contract with Atari. Bushnell established Atari's internal Grass Valley Think Tank at Cyan to promote research and development of new games and products.\n[…]\nIt was engineered by future Apple Computer co-founder Steve Wozniak, based on Bushnell's concept of a single-player Pong, and used as few TTL chips as possible from an informal challenge given to Wozniak by then-Atari employee and future Apple co-founder Steve Jobs. Breakout was successful and sold around 11,000 units, but Atari still struggled to meet demand.\n[…]\nMorgan implemented processes to reduce operating costs at Atari, including laying off about 3,000 jobs and moving 4,000 more manufacturing positions to Asia.\n[…]\nDespite its financial issues, Atari continued to innovate. In March 1983, it established the Ataritel division to develop telephones with screens and computer features with consumer-ready products to reach market by 1984. In October 1983, Atari created its Atarisoft division, which produced software from its own library for its rival systems, including for computers from Commodore, Apple, Texas Instruments, and IBM, as well as console games for ColecoVision.\n[…]\nAtari entry at MobyGames\n[…]\nThe Dot Eaters - Comprehensive history of videogames, extensive info on Atari offerings and history\n[…]\nHistory of Atari from 1978 to 1981\n[…]\nA History of Syzygy / Atari / Atari Games / Atari Holdings"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Steve_Jobs",
+        "situacao": "ok",
+        "texto": "Steven Paul Jobs (São Francisco, 24 de fevereiro de 1955 – Palo Alto, 5 de outubro de 2011) foi um inventor, empresário e magnata norte-americano do setor da informática. Notabilizou-se como cofundador, presidente e diretor-executivo da Apple Inc. e por revolucionar seis indústrias: computadores pessoais, filmes de animação, música, telefones, tablets e publicações digitais.\n[…]\nEm 1974, Jobs conseguiu um emprego na Atari. A empresa serviria de trampolim para que ele alcançasse a Europa e depois a Índia, onde faria uma jornada espiritual. No início de 1975, Jobs estava de volta a Palo Alto e ao seu emprego na Atari, onde seria responsável, junto com Wozniak, por criar uma versão de Pong para um jogador.\n[…]\nFascinado pela funcionalidade do aparelho, Jobs convenceu Wozniak a comercializar o equipamento. Para tanto, decidiram abrir uma empresa, juntando um elemento mais velho e experiente chamado Ronald Wayne, colega de Wosniak na Atari. Entre as primeiras sugestões para nome estavam termos da computação como Matrix, neologismos como Executek e nomes \"desinteressantes\" como Personal Computer Inc. Por fim, Jobs propõe Apple Computers. \"Eu estava numa das minhas dietas frugívoras.\n[…]\nEm 3 de abril de 1977 a nova empresa — Apple Computer Co. — foi oficialmente criada e comprou a antiga sociedade que havia sido formada por Jobs e Wozniak nove meses antes.\n[…]\nSteve Jobs morreu no dia 5 de outubro de 2011, na sequência de um câncer pancreático raro que afeta as funções exócrinas do órgão, contra o qual lutava desde 2004. O anúncio foi dado pela família dele, que disse: \"morreu em paz hoje\". A causa final da morte foi uma parada cardíaca. A empresa da qual ele foi fundador e CEO, a Apple Inc., divulgou um comunicado separadamente anunciando a morte de Steve Jobs:\n[…]\n«Apple - Remembering Steve Jobs» (em inglês). Memorial dedicado a Steve Jobs\n[…]\nObras de Steve Jobs na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Dragon Quest",
+      "descricao": "Série japonesa de jogos de RPG iniciada em 1986 pela Enix, criada por Yuji Horii."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a série de jogos Dragon Quest e o mangá Dragon Ball têm em comum, além do dragão no nome?",
+    "resposta": "Os desenhos de Akira Toriyama",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Quest",
+      "https://en.wikipedia.org/wiki/Akira_Toriyama"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dragon_Quest",
+        "situacao": "ok",
+        "texto": "Dragon Quest, previously published as Dragon Warrior in North America until 2005, is a series of role-playing video games created by Japanese game designer Yuji Horii (Armor Project), character designer Akira Toriyama (Bird Studio), and composer Koichi Sugiyama (Sugiyama Kobo) and published by Square Enix (formerly Enix).\n[…]\nDragon Quest XII will be the first mainline title released after the deaths of series music composer Koichi Sugiyama and character designer Akira Toriyama who had been involved with the series since its inception.\n[…]\nIt focuses on the creation of the series and features series creator Yuji Horii, programmer Koichi Nakamura, composer Koichi Sugiyama, artist Akira Toriyama, and producer Yukinobu Chida. Hiro Mashima drew the one-shot Dragon Quest XI S Tōzoku-tachi no Banka (ドラゴンクエストXI S 盗賊たちの挽歌), based on Dragon Quest XI, for the October issue of V Jump, which was released on August 21, 2019.\n[…]\nThe Dragon Quest series features several recurring monsters, including Slimes, Drackies, Skeletons, Shadows, Mummies, Bags o' Laughs, and Dragons. Many monsters in the series were designed by Akira Toriyama.\n[…]\nDragon Ball creator and manga artist Akira Toriyama, who knew of Horii through the manga magazine Weekly Shōnen Jump, was commissioned to illustrate the characters and monsters to separate the game from other role-playing games of the time. The primary game designs were conceived by Horii before being handed to Toriyama to re-draw under Horii's supervision.\n[…]\nWhile Toriyama would later become more widely known with the success of Dragon Ball Z in North America, when Dragon Quest was released he was relatively unknown outside Japan. While the Dragon Quest hero was drawn in a super deformed manga style, the Dragon Warrior localization had him drawn in the \"West's template of a medieval hero\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Akira_Toriyama",
+        "situacao": "ok",
+        "texto": "Akira Toriyama (Japanese: 鳥山明, Hepburn: Toriyama Akira; April 5, 1955 – March 1, 2024) was a Japanese manga artist and character designer. He is regarded as one of the greatest and most influential authors in the history of manga and created numerous highly influential and popular series, with his most famous and successful project being the Dragon Ball franchise.\n[…]\nOn March 27, 2013, the \"Akira Toriyama: The World of Dragon Ball\" exhibit opened at the Takashimaya department store in Nihonbashi, garnering 72,000 visitors in its first nineteen days. The exhibit was separated into seven areas.\n[…]\nToriyama himself said he went against the normal convention that the strongest characters should be the largest in terms of physical size, designing many of the series' most powerful characters with small statures. Thompson concluded his analysis by saying that only Akira Toriyama drew like this at the time and that Dragon Ball is \"an action manga drawn by a gag manga artist.\" James S.\n[…]\nBesides Dr. Slump (1980–1984) and Dragon Ball (1984–1995), Toriyama predominantly drew one-shot manga and short (100–200-page) pieces, including Pink (1982), Go! Go! Ackman (1993–1994), Cowa! (1997–1998), Kajika (1998), Sand Land (2000), and Jaco the Galactic Patrolman (2013). Many of his one-shots were collected in his three-volume anthology series, Akira Toriyama's Manga Theater (1983–1997).\n[…]\nToriyama also created many character designs for various video games such as the Dragon Quest series (1986–2023), Chrono Trigger (1995), Blue Dragon (2006), and some Dragon Ball video games. He also designed several characters and mascots for various manga magazines property of Shueisha, his career-long employer and Japan's largest publishing company.\n[…]\nRichard, Olivier (2011). Akira Toriyama: le maître du manga (in French). Paris: 12bis. ISBN 978-2-35648-332-4. OCLC 1020953674."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dragon_Quest",
+        "situacao": "ok",
+        "texto": "Dragon Quest (ドラゴンクエスト, Doragon Kuesuto), conhecido no ocidente como Dragon Warrior, é uma série de jogos eletrônicos de RPG produzido pela Square Enix, antes Enix, sendo um dos jogos de RPG mais famosos e vendidos no Japão. A série teve character design por Akira Toriyama (o criador da série Dragon Ball), música de Koichi Sugiyama e game design de Yuji Horii, a série possui onze jogos.\n[…]\nO primeiro jogo da série, lançado em 1986, conta a história do descendente do herói lendário Roto, contra o malvado Ryuou (rei dragão) e dura até a Terceira saga, onde começa a saga Tenkuu (Celeste), que dura até a sexta saga e a sétima e oitava saga com histórias totalmente novas.\n[…]\nA série Dragon Quest também tem \"sub-séries\" como o Tornekko's ou Yangar's Dungeon, ou a Dragon Quest Monster, um tipo de Pokémon com os monstros do Dragon Quest.\n[…]\nDragon Quest Monsters\n[…]\nDragon Quest Monsters 2\n[…]\nDragon Quest Monsters 3\n[…]\nDragon Quest Monsters: Caravan Heart\n[…]\nDragon Quest Monsters: Joker\n[…]\nDragon Quest Monsters: Joker 2\n[…]\nDragon Quest Monsters: Joker 3\n[…]\nSlime MoriMori Dragon Quest: Shōgeki no Shippo Dan\n[…]\nDragon Quest Heroes: Rocket Slime\n[…]\nDragon Quest: Young Yangus and the Mysterious Dungeon\n[…]\nDragon Quest I & II\n[…]\nSwordmaster Dragon Quest: Resurrection of the Legendary Sword\n[…]\nDragon Quest Swords: The Masked Queen and the Tower of Mirrors\n[…]\nDragon Quest: Monster Battle Road\n[…]\nA série gerou quatro mangás, animes e um longa na plataforma Netflix:\n[…]\nDragon Warrior: Legend of the Hero Abel\n[…]\nDragon Quest: Dai No Daibouken\n[…]\nDragon Quest Retsuden: Roto no Monshō\n[…]\nDragon Quest: Your Story\n[…]\nDragon Quest",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Final Fantasy",
+      "descricao": "Série japonesa de jogos de RPG iniciada em 1987 pela Square."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As séries rivais Final Fantasy e Dragon Quest passaram a pertencer à mesma empresa depois de uma fusão em 2003. Que empresa é essa?",
+    "resposta": "Square Enix",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Square_Enix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Square_Enix",
+        "situacao": "ok",
+        "texto": "Square Enix Holdings Co., Ltd. is a Japanese multinational holding company, video game publisher and entertainment conglomerate. It releases role-playing game franchises, such as Final Fantasy, Dragon Quest, and Kingdom Hearts, among numerous others. Outside of video game publishing and development, it is also in the business of merchandise, arcade facilities, and manga publication under its Ganga\n[…]\nIn September 1986, the division was spun off into an independent company led by Miyamoto, officially named Square Co., Ltd. After releasing several unsuccessful games for the Famicom, Square relocated to Ueno, Tokyo in 1987 and developed Final Fantasy, a role-playing video game inspired by Enix's success in the genre with the 1986 Dragon Quest.\n[…]\nSquare Enix's primary concentration is on video gaming, and it is primarily known for its role-playing video game franchises. Of its properties, the Final Fantasy franchise, begun in 1987, is the best-selling, with worldwide sales exceeding 173 million units as of March 2022. The Dragon Quest franchise, whose first title was introduced in 1986, is also a best-seller; it is considered one of the most popular game series in Japan and has sold over 85 million units globally.\n[…]\nSquare and Enix initially targeted Nintendo home consoles with its games, but Square Enix currently develops games for a wide variety of systems. In the seventh generation of video game consoles, Square Enix released new installments from its major series across all three major systems, including Final Fantasy XIII on both the PlayStation 3 and Xbox 360 and Dragon Quest X on the Wii.\n[…]\nIn addition, Square Enix uses commercial engines, including Epic Games' Unreal Engine 3 (such as The Last Remnant), Unreal Engine 4 (such as Dragon Quest XI, Kingdom Hearts III, Final Fantasy VII Remake) and Unity (such as I Am Setsuna, Lost Sphear, SaGa: Scarlet Grace)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Square_Enix",
+        "situacao": "ok",
+        "texto": "A Square Enix Holdings Co., Ltd. (株式会社スクウェア・エニックス・ホールディングス, Kabushiki-gaisha Sukuwea Enikkusu Hōrudingusu) é uma desenvolvedora e publicadora japonesa de jogos eletrônicos sediada em Tóquio. Ela é mais conhecida por suas franquias de RPGs eletrônicos, que incluem Final Fantasy, Dragon Quest e Kingdom Hearts. Sua sede fica no distrito Shinjuku de Tóquio, com a companhia possuindo mais de 3900 funci\n[…]\nEla lançou vários jogos mal sucedidos no Family Computer e se mudou para Ueno, Tóquio, em 1987, desenvolvendo um RPG eletrônico chamado Final Fantasy inspirado pelo sucesso que a Enix tinha alcançado no gênero com Dragon Quest. O jogo foi um sucesso comercial e gerou várias sequências pelas décadas seguintes, tornando-se a principal franquia da Square.\n[…]\nA companhia é mais famosa por ter publicado os títulos da série Dragon Quest que fora desenvolvida pela Chunsoft. O primeiro jogo foi lançado em 1986, eventualmente vendendo 1,5 milhões de cópias apenas no Japão e estabelecendo a franquia como a mais rentável da empresa. Diferentemente da Square que passou a desenvolver jogos exclusivamente para o PlayStation, a Enix anunciou em janeiro de 1997 que passaria a desenvolver e publicar jogos tanto para a Nintendo quanto para a Sony.\n[…]\nUma fusão entre a Square e a Enix já estava em consideração desde pelo menos 2000. Entretanto, o fracasso financeiro do filme Final Fantasy: The Spirits Within em 2001 fez com que a Enix ficasse relutante em se unir com a Square enquanto esta estava perdendo dinheiro. A empresa estava enfrentando seu segundo ano consecutivo com perdas financeiras e pediu para que a Sony Computer Entertainment injetasse capital na companhia, com ela comprando 18,6% da Square em 8 de outubro de 2001.\n[…]\nA sede da Square Enix foi transferida para Tóquio em julho do mesmo ano como parte do contínuo processo de combinação das duas companhias.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Detetive Pikachu (filme)",
+      "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ator, astro dos filmes de Deadpool, deu voz e expressões ao Pikachu no filme Detetive Pikachu, de 2019?",
+    "resposta": "Ryan Reynolds",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Detective_Pikachu_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Detective_Pikachu_(film)",
+        "situacao": "ok",
+        "texto": "Pokémon Detective Pikachu is a 2019 urban fantasy mystery film and the first live-action film based on the Pokémon franchise. It is loosely based on the 2016 video game Detective Pikachu. Directed by Rob Letterman, who co-wrote it with Dan Hernandez, Benji Samit, and Derek Connolly, the film stars Ryan Reynolds as the voice and motion capture of Pikachu, with Justice Smith, Kathryn Newton, Suki Wa\n[…]\nRyan Reynolds as:\n[…]\nIn November 2017, Justice Smith was cast in the lead human role, with Kathryn Newton added to costar after an intense session of reading and testing actresses opposite Smith. Newton beat out Natalia Dyer, Haley Lu Richardson, and Katherine Langford for the role. In December 2017, Ryan Reynolds was cast in the title role, portrayed via motion-capture and voice over. Other actors considered for the role of Pikachu were Danny DeVito, Dwayne Johnson, Mark Wahlberg and Hugh Jackman.\n[…]\nSome additional temporary vocals for Pikachu were filled in by Jon Bailey. However, all of this temporary dialogue was dubbed over by Ryan Reynolds. Principal photography concluded on May 1, 2018. Some filming took place at Shepperton Studios, Warner Bros. Studios, Leavesden, and Minley Woods in Hampshire, rural areas of Colorado, just outside Denver and Colorado Springs; and Scotland. Filming also took place on Anchor Wharf at the Chatham Historic Dockyard in Kent.\n[…]\nOn May 7, 2019, a Warner Bros. YouTube channel named \"Inspector Pikachu\" uploaded a video purporting to be a bootleg recording of the film. Spanning nearly 1.75 hours in length, the opening minute shows the production logo sequences followed by a scene from the film featuring Tim Goodman, before spending the remainder of its runtime depicting Pikachu performing aerobics to an upbeat, 1980s-inspired synthwave tune. Reynolds aided in the prank, posting on Twitter as if he was alerting Warner Bros.\n[…]\nList of Pokémon films"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Detetive_Pikachu",
+        "situacao": "ok",
+        "texto": "Pokémon Detective Pikachu (no Brasil e em Portugal, Pokémon: Detetive Pikachu) é um filme nipo-americano de fantasia produzido pela Legendary Entertainment​, The Pokémon Company, Tōhō​ e Warner Bros. Pictures, baseado na franquia “Pokémon” de Satoshi Tajiri, Ken Sugimori, Game Freak e Nintendo. O filme é dirigido por Rob Letterman e estrelado por Ryan Reynolds, Justice Smith, Kathryn Newton, Ken W\n[…]\nRyan Reynolds como:\n[…]\nDetetive Pikachu, um Pikachu excepcionalmente inteligente e um detetive de nível internacional que só Tim consegue entender. Reynolds faz tanto a voz quando a captura de movimentos faciais do personagem.\n[…]\nEm novembro de 2017, Justice Smith foi escalado para o papel de protagonista humano, com Kathryn Newton escalada para atuar depois de uma intensa sessão de leitura e teste de atrizes que apareceria ao lado de Smith. Newton disputou e ganhou o papel de Natalia Dyer, Haley Lu Richardson e Katherine Langford. Em dezembro de 2017, Ryan Reynolds foi escalado para o papel de protagonista Pokémon para ser retratado via captura de movimento.\n[…]\nGrande parte da interação no set e referência vocal para Pikachu foi preenchida por Jon Bailey. No entanto, todo o seu diálogo foi dublado por Ryan Reynolds. A filmagem principal foi concluída em 1 de maio de 2018. Algumas filmagens foram feitas no Shepperton Studios, no Warner Bros. Studios, no Leavesden, no Minley Woods em Hampshire, nas áreas rurais do Colorado; nos arredores de Denver, Colorado Springs e Escócia.\n[…]\nUma gravação de áudio adicional de uma suposta luta entre o Detetive Pikachu e Charizard foi gravada no Campeonato Mundial de Pokémon de 2018.\n[…]\nAntes do lançamento do trailer, Ryan Reynolds postou um vídeo em seu canal no YouTube que apresenta uma entrevista dele e de sua esposa, Blake Lively, com o título \"Becoming Pikachu\" (Tornando-se Pikachu).\n[…]\nPokémon: Detetive Pikachu no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Wonder Boy in Monster Land",
+      "descricao": "Jogo de ação e aventura da Sega e Westone, adaptado no Brasil pela Tectoy como Mônica no Castelo do Dragão."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1991, a Tectoy lançou no Master System uma versão brasileira de Wonder Boy in Monster Land estrelada por qual personagem de Mauricio de Sousa?",
+    "resposta": "Mônica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wonder_Boy_in_Monster_Land"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wonder_Boy_in_Monster_Land",
+        "situacao": "ok",
+        "texto": "Wonder Boy in Monster Land, known by its original arcade release as Wonder Boy: Monster Land, is a platform video game developed by Westone and released by Sega in Japanese arcades in 1987 and for the Master System in 1988, with a number of other home computer and console ports following. The game is the sequel to the 1986 game Wonder Boy and takes place eleven years after the events in the previo\n[…]\nThe arcade version of Wonder Boy in Monster Land amassed moderate sales, the Master System version received overall positive reviews in all aspects and has been highly regarded as one of the better titles in the Master System library. Reviews praised the game for its colorful graphics, smooth controls, gameplay, and replay value. Other ports received mixed reception: criticisms included very slow multi-load times on the home computer versions, sub-quality sound, and smaller play areas.\n[…]\nThe reviewer called Wonder Boy in Monster Land \"a souped-up version of Wonderboy, which improves much on the original theory but at a slight cost to gameplay\". Reviewers from UK-based magazine The Games Machine called it \"probably the best conversion you could expect on the Spectrum\". Crash magazine praised the ZX Spectrum version of the game for its detailed sprites and smooth movements, playability, and combat system.\n[…]\nIGN called Wonder Boy in Monster Land one of the best games on the Master System, mainly because of its unique balance of platforming and RPG elements, which the reviewer calls \"a winning formula\". It said that the game is an improvement over its Adventure Island-like predecessor, replacing the \"fruit gauge\" with an hourglass timer while retaining other elements such as finding invisible items and discovering secret areas.\n[…]\nWonder Boy in Monster Land at MobyGames\n[…]\nThe Sega Master System version of Wonder Boy in Monster Land can be played for free in the browser at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wonder_Boy_in_Monster_Land",
+        "situacao": "ok",
+        "texto": "Wonder Boy in Monster Land é um jogo de arcade produzido pela Westone e publicado pela Sega. É a sequência do jogo Wonder Boy, embora a jogabilidade seja diferente do jogo original. Wonder Boy in Monster Land foi convertido para diversas plataformas, dentre elas o Sega Master System.\n[…]\nO reino conhecido como Wonder Land está sendo invadido por monstros, e aí quando o lugar foi invadido, Wonder Land virou Monster Land, e os monstros foram liderados pelo dragão Meka. Assim, cabe ao herói Bock Shonen derrotar o dragão e salvar monster land. O herói deve adquirir equipamentos necessários para auxiliá-lo em sua aventura, conversar com os habitantes da monster land e enfrentar diversos monstros até alcançar o castelo do Dragão.\n[…]\nWonder Boy in Monster Land introduziu uma dinâmica de jogo diferente do original, sendo assim um sucesso. Dessa forma as continuações utilizaram desse mesmo mecanismo, porém sem o limite de tempo e tendo uma jogabilidade menos voltada para o Arcade. O jogo possui até os dias atuais uma legião de fãs e é considerado um dos melhores jogos da Sega por muitos, sendo relançado para o console Playstation 2 como parte de uma coleção de jogos da série (Monster World Complete Collection).\n[…]\nO jogo foi comercializado no Brasil pela Tec Toy. Contudo, o personagem principal foi alterado, sendo substituído pela personagem de histórias em quadrinhos Mônica. O jogo foi então intitulado Mônica no Castelo do Dragão e tornou-se um dos jogos de maior sucesso para o Sega Master System, o que contribuiu para o aumento da popularidade deste console no Brasil.\n[…]\nAlém do jogo Mônica no Castelo do Dragão, Wonder Boy in Monster Land foi a base para diversos outros clones, como Bikkuriman World para o console PC-Engine e Saiyuki World para o Famicom.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Pokémon Red e Blue",
+      "descricao": "Primeiros jogos Pokémon lançados no Ocidente, para o Game Boy, versões internacionais de Red e Green."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Pokémon Red e Blue, o jogador escolhe seu primeiro pokémon entre Bulbasaur, Charmander e qual outro?",
+    "resposta": "Squirtle",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue",
+        "situacao": "ok",
+        "texto": "Pokémon Red Version and Pokémon Blue Version are popular 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.\n[…]\nHe takes the player to his laboratory where the player meets Oak's grandson, a rival aspiring Pokémon Trainer. The player and the rival are both instructed to select a starter Pokémon for their travels out of Bulbasaur, Squirtle and Charmander. Oak's grandson will always choose the Pokémon which is stronger against the player's starting Pokémon. He will then challenge the player to a Pokémon battle with their newly obtained Pokémon and will continue to battle the player at certain points.\n[…]\nAtsuko Nishida created the designs for Pikachu, Bulbasaur, Charmander, Squirtle, and many others. Sugimori, in turn, finalized each design, drawing the Pokémon from various angles in order to assist Game Freak's graphics department in properly rendering the creature.\n[…]\nPokémon FireRed Version and Pokémon LeafGreen Version are enhanced remakes of Pokémon Red and Blue. The new games were developed by Game Freak and published by Nintendo for the Game Boy Advance and have compatibility with the Game Boy Advance Wireless Adapter, which originally came bundled with the games.\n[…]\nA Nintendo 64 game, Pocket Monsters Stadium, was released by Nintendo in 1998 exclusively in Japan. It revolves around a 3D turn-based battle system with 40 of the 151 Pokémon featured in Red, Blue, and Yellow. A sequel was released in 1999 both in Japan and the West that includes all 151 Pokémon.\n[…]\nOfficial website for Pokémon Blue (in Japanese)\n[…]\nOfficial website for Pokémon Yellow (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Red_%26_Blue",
+        "situacao": "ok",
+        "texto": "Pokémon Red Version e Pokémon Blue Version, lançados no Brasil oficialmente como Pokémon Versão Vermelho e Pokémon Versão Azul, são dois jogos eletrônicos de RPG de 1996, desenvolvidos pela Game Freak e publicados pela Nintendo para o console portátil Game Boy. São os primeiros jogos eletrônicos da série Pokémon.\n[…]\nPokémon Red & Blue permitem que os jogadores troquem Pokémon entre dois cartuchos por meio do acessório Cabo Game Link. Este método de troca deve ser feito para completar totalmente o Pokédex do jogo, já que certos Pokémon só irão evoluir ao serem trocados e cada um dos dois jogos tem uma versão exclusiva de Pokémon. O Cabo Link também torna possível lutar contra o time Pokémon de outro jogador.\n[…]\nO jogador e o rival são instruídos a selecionar um Pokémon inicial: Bulbasaur, Squirtle ou Charmander. O neto de Carvalho sempre escolherá o Pokémon mais forte contra o Pokémon inicial do jogador. Logo em seguida, ele desafiará o jogador para uma batalha Pokémon com o Pokémon recém obtido e continuará a lutar contra o jogador em determinados pontos ao longo dos jogos.\n[…]\nKen Sugimori, um artista e amigo de longa data de Tajiri, chefiou o desenvolvimento de desenhos e designs do Pokémon, trabalhando com uma equipe de menos de dez pessoas que conceberam os vários designs para todos os 151 Pokémon, incluindo Rhydon, o primeiro Pokémon produzido, assim como os posteriores Lapras e Clefairy. Atsuko Nishida criou os designs para Pikachu, Bulbasaur, Charmander, Squirtle e muitos outros.\n[…]\nO lançamento do Pokémon Pinball dá início a uma linha de novas e excelentes aventuras Pokémon que será introduzido nos próximos meses\". A série já vendeu mais de 300 milhões de jogos, todos credenciados ao enorme sucesso das versões originais Red e Blue.\n[…]\nPocket Monsters Blue - Nintendo Japão (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Esmeraldas do Caos",
+      "descricao": "Joias mágicas da série Sonic, da Sega, que dão poderes a quem as reúne."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nos jogos da Sega, quantas Esmeraldas do Caos Sonic precisa reunir para se transformar em Super Sonic?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog 2 is a 1992 platform game developed by Sega Technical Institute (STI) for the Sega Genesis. Players control Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg. Like the first Sonic the Hedgehog (1991), players traverse side-scrolling levels at high speeds while collecting rings, defeating enemies, and fighting \n[…]\nSonic the Hedgehog 2 is a side-scrolling platform game. It features a story similar to the first Sonic the Hedgehog: Doctor Robotnik, a mad scientist, seeks the Chaos Emeralds to power his space station, the Death Egg, and traps the animal inhabitants of West Side Island in aggressive robots. As Sonic the Hedgehog, the player embarks on a journey to collect the Chaos Emeralds and stop Robotnik. The player character can run, jump, crouch, and attack by curling into a ball.\n[…]\nAfter finishing, the player is transported back to the star post they used to enter, with their ring count reset. When all the Chaos Emeralds have been collected, Sonic can transform into Super Sonic by collecting 50 rings. Super Sonic is nearly invincible, runs faster, and jumps farther, but loses one ring per second and reverts to normal when his rings are depleted.\n[…]\nIt was planned as a secret stage accessed by collecting Chaos Emeralds; according to Naka, it would explain the origin of the Chaos Emeralds and grant Sonic his Super Sonic powers. Stitt created the Hidden Palace art and considered its foreground among his favorite work. Though Hidden Palace was one of the first levels implemented, work on it stopped in mid-1992, and it was removed shortly before completion for a lack of time and cartridge space.\n[…]\nThe Death Egg Robot and Super Sonic appear in the film, while one of its posters recreates Martin's Sonic 2 box art illustration.\n[…]\nOfficial Sega webpage (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+        "situacao": "ok",
+        "texto": "Sonic the Hedgehog 2 (ソニック・ザ・ヘッジホッグ2（ツー）, Sonikku za Hejjihoggu Tsū) é um jogo eletrônico de plataforma desenvolvido pela Sega Technical Institute e publicado pela Sega para o Mega Drive. É o segundo jogo da série Sonic the Hedgehog para o referido console. Introduziu o amigo do protagonista, Miles \"Tails\" Prower, controlável por um segundo jogador. Na história, Sonic e Tails devem parar o antagon\n[…]\nAs fases aumentam em dificuldade, e o jogador não pode entrar em nenhuma fase sem passar pela anterior. Depois de terminar, o jogador é transportado de volta para o posto de estrela que usou para entrar no estágio especial, com sua contagem de toques zerada. Quando todas as esmeraldas forem coletadas, Sonic pode se transformar em Super Sonic, depois de coletar 50 anéis e saltar.\n[…]\nHidden Palace Zone foi planejado como um estágio secreto acessado pela coleta de Esmeraldas do Caos. De acordo com Naka, a fase explicaria de onde as Esmeraldas do Caos vieram e concederia a Sonic seus poderes de Super Sonic. Porém, foi removida por falta de tempo e espaço no cartucho, e uma versão diferente foi usada em Sonic & Knuckles. O porte remasterizado para iOS de 2013 inclui uma Hidden Palace Zone redesenhada como um estágio opcional.\n[…]\nO sucesso de Sonic 2 foi um fator importante para a Sega alcançar a Nintendo nas guerras de consoles no início da década de 1990. Ele aumentou sua participação no mercado para quarenta por cento em seis meses de seu lançamento.\n[…]\nPara o vigésimo aniversário de Sonic, a Sega lançou Sonic Generations, que refez aspectos de vários jogos anteriores da franquia. As versões para PlayStation 3, Xbox 360 e PC continham um nível refeito de \"Chemical Plant\". Ele também contém um remake do chefe final, o Death Egg Robot. Separadamente, a versão de Nintendo 3DS do jogo continha um remake do estágio \"Casino Night\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Street Fighter II",
+      "descricao": "Jogo de luta da Capcom lançado nos fliperamas em 1991, que popularizou o gênero."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No fliperama Street Fighter 2 original, de 1991, quantos lutadores o jogador podia escolher?",
+    "resposta": "Oito",
+    "distratores": [
+      "Seis",
+      "Dez",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Street_Fighter_II"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+        "situacao": "ok",
+        "texto": "Street Fighter II: The World Warrior is a 1991 fighting game developed and published by Capcom for arcades. It is the second installment in the Street Fighter series and the sequel to 1987's Street Fighter. Designed by Yoshiki Okamoto and Akira Yasuda, who had previously worked on the game Final Fight, it is the fourteenth game to use Capcom's CP System arcade system board.\n[…]\nSagat, a Muay Thai kickboxer from Thailand and former World Warrior champion from the original Street Fighter. He was once known as The King of Street Fighters until he got demoted toThe King of Muai Thai in his own tournament due to a narrow defeat at the hands of Ryu's shoryuken (rising dragon punch) which left a deep gash across his chest.\n[…]\nStreet Fighter II Turbo became the highest-grossing arcade game of 1993, with Street Fighter II Dash (Champion Edition) at number four and The World Warrior at number nine.\n[…]\nIn the United Kingdom, Street Fighter II replaced Super Mario World as the bundled game for the SNES, and the SNES and Amiga versions made it the second best-selling home video game of 1992, below Sonic the Hedgehog 2 for the Mega Drive. Worldwide, four million Street Fighter II cartridges had been sold by September 1992, 5 million units by the end of 1992, and over 6 million by 1993.\n[…]\nThe original arcade version of Street Fighter II was awarded Best Game of 1991 in Gamest's Fifth Annual Grand Prize, which also won in the genre of Best Action Game (the award for fighting games was not established yet). Street Fighter II placed No. 1 in Best VGM, Best Direction, and Best Album, and was second place in Best Graphics below the 3D Namco System 21 game Starblade. All the characters except M. Bison (known internationally as Balrog) are on the list of Best Characters of 1991.\n[…]\nStreet Fighter II at MobyGames\n[…]\nStreet Fighter II entry at Arcade-History"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Street_Fighter_II",
+        "situacao": "ok",
+        "texto": "Street Fighter II: The World Warrior (ストリートファイターⅡ -The World Warrior-, Sutorīto Faitā Tsū - The World Warrior), também conhecido simplesmente por Street Fighter II, é um jogo competitivo de videogame desenvolvido pela Capcom e originalmente lançado para os sistemas de Arcade em 1991. É o segundo jogo da série Street Fighter e a sequência de Street Fighter, jogo lançado em 1987. Trata-se do décimo \n[…]\nO Street Fighter II original dá a possibilidade ao jogador de escolher oito personagens; a lista inclui Ryu e Ken (os protagonistas do jogo original), mais seis novos personagens de várias nacionalidades. O jogador luta contra sete dos personagens principais, antes de enfrentar os quatro adversários finais controlados pelo CPU, conhecidos como os \"Quatro Grandes Mestres\". Street Fighter II decorre vários anos depois do primeiro torneio, quando Ryu derrotou Sagat na final. M.\n[…]\nO mais interessante de tudo é que essa característica acabou por ser a base para os futuros títulos da série. Mais tarde conseguimos uma afinação mais confortável, e os combos como uma verdadeira característica. Em Street Fighter II penso que, com um tempo perfeito, o jogador pode criar vários golpes até quatro parece-me. Depois conseguimos até oito! Um erro? Talvez.\"\n[…]\nO analista Julian Rignall, criticou o Street Fighter original mas elogiou a sequela por \"absolutamente carregada de novas ideias e de movimentos especiais.\" Fez notar que os \"seis botões combinados com as oito direções do joystick, dão mais movimentos que qualquer jogo de beat 'em up\" e elogiou as \"animações massivas, e brilhantemente desenhadas, montes de vozes e o mais excitante conflito frente-a-frente visto num jogo arcade\" concluindo que é \"um dos melhores jogos de luta de arcade\" e \"um brilhante ‘jogo de moedas’\", recomendando os jogadores a terem os bolsos cheios de dinheiro antes de começarem a jogar.\n[…]\nStreet Fighter II no Arcade-Museum",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Knuckles",
+      "descricao": "Personagem vermelho da série Sonic, da Sega, guardião da Esmeralda Mestra, rival e depois aliado de Sonic."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Knuckles, o rival de punhos fortes que acaba virando parceiro de Sonic, é que tipo de animal?",
+    "resposta": "Equidna",
+    "distratores": [
+      "Tamanduá",
+      "Porco-espinho",
+      "Toupeira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Knuckles_the_Echidna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Knuckles_the_Echidna",
+        "situacao": "ok",
+        "texto": "Knuckles the Echidna is a character from Sega's Sonic the Hedgehog series. He is an anthropomorphic red short-beaked echidna who is Sonic's secondary best friend and former rival. Determined and serious, but sometimes gullible, he fights his enemies using brute force and strength. His role is established as the guardian of the Master Emerald, a large gemstone which controls the series' integral Ch\n[…]\nDuring conception of Sonic the Hedgehog 3, the development team wanted to create a new rival for Sonic. The final design of Knuckles was the result of dozens of possible designs inspired by numerous different animals. In collaboration between the Sonic Team and Sega of America's product marketing manager, Pamela Kelly, the final character of \"Knuckles\" was chosen. The emphasis of the character was to break walls, with the original idea being a 'whirlwind' ability, rather than punching.\n[…]\nKnuckles is supported in his efforts by the Chaotix, and often works together with Sonic the Hedgehog and the Freedom Fighters.\n[…]\nKnuckles appears alongside Sonic and Tails in the second film, voiced by Idris Elba. In the film, it is revealed he is the last of the Echidna Tribe, as the rest of his kind became critically endangered and are in terminal decline due to a war between them and the giant owls, and has a grudge against Sonic for being Longclaw's apprentice. After being informed of Sonic's location by Dr.\n[…]\nWatson praises his debut in Sonic the Hedgehog 3, and adds \"Knuckles could have never been Sega's mascot; the echidna lacks the sociability of Sonic and his Nintendo counterpart, Mario. And yet this defining characteristic is what makes him so appealing. He is Sega's anti-hero: the dreadlocked brawler who is surprisingly selfless and has a soft spot for grapes and adorable animals.\"\n[…]\nList of Sonic the Hedgehog characters\n[…]\nKnuckles at Sonic-City (archived)\n[…]\nKnuckles at Sonic Channel (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Knuckles_the_Echidna",
+        "situacao": "ok",
+        "texto": "A série de jogos Sonic the Hedgehog começou originalmente em 1991 com dois personagens principais: o protagonista, Sonic the Hedgehog, e o antagonista, Dr. Eggman, também conhecido como Dr. Robotnik. Mais de três décadas depois, entretanto, a Sega ampliou o número de personagens significativamente. Este anexo lista quaisquer personagens notáveis que apareceram em mais de um jogo, na ordem de sua i\n[…]\nEm 2006, ele ganhou uma nova rival, Wave The Swallow.\n[…]\nEle retorna em Knuckles' Chaotix, onde tenta obter Anéis caos, mas ele é interrompido pelo Chaotix. Ele era um lutador jogável em Sonic the Fighters, e principalmente o principal antagonista em Sonic Heroes. Em Sonic Generations, ele aparece em sua forma clássica como um chefe rival e ele é destruído quando Sonic Clássico\n[…]\nKnuckles, o Equidna é o amigo e rival de Sonic. Ele tem 16 anos, e aparece pela primeira vez em Sonic the Hedgehog 3, e vive em Angel Island, uma ilha que paira no céu devido o poder da grande Esmeralda Mestre. Como o último membro sobrevivente do povo Equidna que habitou a ilha, seu dever é proteger a Esmeralda Mestre. Criado para ser um rival de Sonic, o design de Knuckles foi o resultado de diversas ideias baseados em diferentes animais.\n[…]\nNormalmente ele é sério, durão e introvertido, mas quando está ao redor de seus amigos, consegue libertar seu bom humor e ser bastante amigável. Quando está em lutas, o equidna também fica com uma tremenda raiva. Seu segundo rival é a morcega Rouge the Bat.\n[…]\nEla e experiente em armamento e também é hábil na utilização de vários tipos de bombas para combate e demolição; ela pode lançar chuvas de bombas em inimigos ou atirar em inimigos com bombas com precisão pontiaguda. Seu oposto, primeiro rival é o equidna Knuckles the Echidna.\n[…]\nUm chacal mercenário de 19 anos, que foi apresentado pela primeira vez num evento da Sega, mas oficialmente ele estreou em Sonic Forces.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

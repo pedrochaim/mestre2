@@ -1,0 +1,395 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ubisoft é francesa e foi fundada pelos irmãos Guillemot; a fonte confirma a nacionalidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ezio nasceu em Florença, como mostram os trechos; os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a zona rural da Espanha.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz Rússia e União Soviética; a resposta precisa cobrir as duas formas.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Zangief, o lutador de luta livre de Street Fighter 2, de 1991, representava qual país no jogo?",
+        "resposta": "União Soviética (hoje Rússia)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Zangief"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Centro de Computação da Academia de Ciências ficava em Moscou, e a fonte em português cita Moscou.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sempre sequestrada' é impreciso; o nome correto é Reino dos Cogumelos.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Nos jogos do Mario, a princesa Peach, frequentemente sequestrada por Bowser, governa qual reino?",
+        "resposta": "Reino dos Cogumelos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Princess_Peach"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galar é inspirada no Reino Unido, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tsushima e a invasão mongol de 1274 estão confirmadas, sem vazar o título.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Max trabalha como segurança em São Paulo para a família Branco.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Inglaterra, Reino Unido e Grã-Bretanha geram ambiguidade; é melhor perguntar a nacionalidade.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Lara Croft, a arqueóloga aventureira da série Tomb Raider, foi criada como aristocrata de qual nacionalidade?",
+        "resposta": "Britânica (inglesa)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lara_Croft"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rapture fica no fundo do Atlântico, segundo as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toru Iwatani, da Namco, projetou o Pac-Man.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista da infância em Quioto aponta só para Miyamoto, e a fonte a confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sakaguchi é o criador de Final Fantasy.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A id Software, sediada no Texas, desenvolveu Doom.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Valve, empresa americana, fez Half-Life e a Steam.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Will Wright projetou The Sims e criou SimCity.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sakurai criou Kirby e Smash Bros.; os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naughty Dog fez Crash Bandicoot e The Last of Us.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ralph Baer liderou o projeto do Odyssey e é chamado de pai dos videogames.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma a Terceira Cruzada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Mega Drive saiu no Japão em outubro de 1988.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Atari VCS foi lançado em 1977.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sonic the Hedgehog é de 1991.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Zelda saiu no Japão em fevereiro de 1986.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pokémon Go foi lançado em 2016.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Guerras modernas da série' é impreciso, já que a série teve jogos da Segunda Guerra, e o '1' do título quase entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Xbox saiu em 2001 na América do Norte.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Call of Duty 2003 simula a Segunda Guerra Mundial.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O jogo se passa em 1992, ou seja, na década de 1990.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Universal alegou violação de marca, não plágio, e Kirby foi nomeado em parte em honra ao advogado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Kirby foi nomeado em parte em homenagem ao advogado John Kirby, que defendeu a Nintendo quando a Universal alegou que qual jogo infringia direitos de King Kong?",
+        "resposta": "Donkey Kong",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kirby_(character)",
+          "https://en.wikipedia.org/wiki/Universal_City_Studios,_Inc._v._Nintendo_Co.,_Ltd."
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português explica que o nome Mega Drive já tinha registro de outra empresa.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome original era Laura Cruz, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que chu é o som de um rato.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No Ocidente ela se chamava Princesa Toadstool, e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tamagotchi significa 'Egg Watch'; tamago quer dizer ovo.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o azul foi escolhido para combinar com o logotipo cobalto da Sega.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tajiri colecionava insetos na infância, o que inspirou o jogo.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nguyen alegou culpa pela natureza viciante do jogo.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O jogo foi desenvolvido em pouco mais de cinco semanas.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte caiu em desambiguação; o fato é conhecido (Luigi foi criado como segundo jogador em Mario Bros.), então basta trocar a fonte.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que a Nintendo criou Luigi, que estreou ao lado do irmão no fliperama Mario Bros., de 1983?",
+        "resposta": "Para ser o segundo jogador",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mario_Bros."
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jobs foi contratado como técnico pela Atari em 1974.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toriyama criou Dragon Ball e desenhou os personagens de Dragon Quest.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Square Enix nasceu da fusão entre Square e Enix em 2003.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ryan Reynolds deu voz e captura de movimentos ao Pikachu.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Tectoy trocou o herói pela Mônica no Brasil; o ano de 1991 é conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os iniciais são Bulbasaur, Squirtle e Charmander.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "São sete Esmeraldas do Caos, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O jogo original tinha oito lutadores selecionáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Knuckles é um equidna, e os distratores são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

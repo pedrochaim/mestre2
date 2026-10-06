@@ -1,0 +1,169 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que designer japonês da Namco criou o Pac-Man, a bola amarela que come pastilhas num labirinto?",
+        "resposta": "Toru Iwatani"
+      },
+      "existentes": [
+        {
+          "id": "q01317",
+          "pergunta": "No Japão, o jogo se chamava Puck-Man. Por que o nome mudou para Pac-Man ao chegar aos fliperamas americanos?",
+          "resposta": "Medo de vândalos trocarem o P por F"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome Pikachu junta duas onomatopeias japonesas: pika, o estalo de uma faísca, e chu, que imita o som de qual animal?",
+        "resposta": "Rato"
+      },
+      "existentes": [
+        {
+          "id": "q01740",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Pikachu"
+        },
+        {
+          "id": "q02251",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Raichu"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome do bichinho virtual Tamagotchi junta watch, relógio em inglês, com tamago, palavra japonesa que significa o quê?",
+        "resposta": "Ovo"
+      },
+      "existentes": [
+        {
+          "id": "q04504",
+          "pergunta": "O Tamagotchi, bichinho virtual em forma de ovo que precisava ser alimentado e limpo, foi lançado no Japão em que década?",
+          "resposta": "Anos noventa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que passatempo de infância de Satoshi Tajiri, criador de Pokémon, inspirou a ideia de capturar e colecionar monstrinhos?",
+        "resposta": "Colecionar insetos"
+      },
+      "existentes": [
+        {
+          "id": "q01306",
+          "pergunta": "A palavra Pokémon é a contração de qual expressão em inglês?",
+          "resposta": "Pocket Monsters"
+        },
+        {
+          "id": "q01307",
+          "pergunta": "Os jogos Pokémon Red e Green, que deram início à franquia, chegaram às lojas japonesas em que ano?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Por que a Nintendo criou Luigi, que estreou ao lado do irmão no fliperama Mario Bros., de 1983?",
+        "resposta": "Para ser o segundo jogador"
+      },
+      "existentes": [
+        {
+          "id": "q01311",
+          "pergunta": "O nome Luigi faz um trocadilho com a palavra japonesa ruiji. O que ela significa?",
+          "resposta": "Semelhante"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Antes de fundar a Apple, o jovem Steve Jobs foi contratado como técnico, em 1974, por qual empresa de videogames?",
+        "resposta": "Atari"
+      },
+      "existentes": [
+        {
+          "id": "q01309",
+          "pergunta": "O nome Atari, escolhido para a empresa americana de videogames, vem de um termo de qual jogo de tabuleiro asiático?",
+          "resposta": "Go"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O que a série de jogos Dragon Quest e o mangá Dragon Ball têm em comum, além do dragão no nome?",
+        "resposta": "Os desenhos de Akira Toriyama"
+      },
+      "existentes": [
+        {
+          "id": "q05942",
+          "pergunta": "O que o mangá Dragon Ball e a série de videogames Dragon Quest têm em comum?",
+          "resposta": "Os desenhos de Akira Toriyama"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade de criação vs. número de formatos de peça."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Criador do Pac-Man vs. motivo da mudança de nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Origem de 'chu' é fato diferente de identificar o Pikachu ou sua evolução."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de tamago vs. década de lançamento."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Passatempo de infância do criador é fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motivo da criação do Luigi vs. significado do nome."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Emprego de Jobs na Atari vs. origem do nome Atari."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q05942",
+      "motivo": "Mesma pergunta e mesma resposta: desenhos de Akira Toriyama."
+    }
+  ]
+}
