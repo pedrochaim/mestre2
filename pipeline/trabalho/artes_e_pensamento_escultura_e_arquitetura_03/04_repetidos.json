@@ -1,0 +1,558 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na antiga cidade de Teotihuacan, perto da Cidade do México, qual é a maior de todas as construções?",
+        "resposta": "Pirâmide do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q01921",
+          "pergunta": "Que pirâmide mesoamericana é esta?",
+          "resposta": "Pirâmide do Sol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Inaugurado em Nova York em 1931, que arranha-céu foi o prédio mais alto do mundo por mais de quarenta anos?",
+        "resposta": "Empire State Building"
+      },
+      "existentes": [
+        {
+          "id": "q07442",
+          "pergunta": "Em que ano foi concluído este arranha-céu?",
+          "resposta": "1931"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O concreto armado do Cristo Redentor, no Rio, é revestido por milhares de pequenos triângulos de que pedra?",
+        "resposta": "Pedra-sabão"
+      },
+      "existentes": [
+        {
+          "id": "q02025",
+          "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+          "resposta": "Paul Landowski"
+        },
+        {
+          "id": "q02026",
+          "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nas catedrais góticas, que arcos externos escoram as paredes e permitiram abrir janelas enormes com vitrais?",
+        "resposta": "Arcobotantes"
+      },
+      "existentes": [
+        {
+          "id": "q00098",
+          "pergunta": "O estilo das catedrais de Notre-Dame e de Chartres ganhou, séculos depois, um nome pejorativo que o ligava a que povo germânico?",
+          "resposta": "Godos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na mão esquerda, a Estátua da Liberdade segura uma tábua com uma data gravada em algarismos romanos. Que data é essa?",
+        "resposta": "4 de julho de 1776"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na Fontana di Trevi, em Roma, a grande figura central, sobre um carro em forma de concha puxado por cavalos-marinhos, representa que divindade?",
+        "resposta": "Oceano"
+      },
+      "existentes": [
+        {
+          "id": "q01923",
+          "pergunta": "Em que século foi concluída esta fonte barroca?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q04696",
+          "pergunta": "Que arquiteto projetou esta fonte barroca?",
+          "resposta": "Nicola Salvi"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na Ilha de Páscoa, a grande maioria dos moais foi esculpida em que rocha, tirada da pedreira de Rano Raraku?",
+        "resposta": "Tufo vulcânico"
+      },
+      "existentes": [
+        {
+          "id": "q01918",
+          "pergunta": "Que estátuas de pedra são estas?",
+          "resposta": "Moais"
+        },
+        {
+          "id": "q02522",
+          "pergunta": "Em que país ficam estas estátuas de pedra?",
+          "resposta": "Chile"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Sob a cúpula da Basílica de São Pedro, que grande estrutura de bronze com colunas torcidas, obra de Bernini, cobre o altar-mor?",
+        "resposta": "Baldaquino"
+      },
+      "existentes": [
+        {
+          "id": "q03969",
+          "pergunta": "Já com mais de setenta anos, que artista renascentista foi nomeado arquiteto da Basílica de São Pedro e projetou sua enorme cúpula?",
+          "resposta": "Michelangelo"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na entrada da Catedral de Brasília, quatro grandes estátuas de bronze de Alfredo Ceschiatti representam que personagens bíblicos?",
+        "resposta": "Os quatro evangelistas"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1806, Napoleão levou para Paris o carro de bronze puxado por quatro cavalos que coroa o Portão de Brandemburgo. Como se chama esse conjunto?",
+        "resposta": "Quadriga"
+      },
+      "existentes": [
+        {
+          "id": "q02023",
+          "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+          "resposta": "Os Propileus"
+        },
+        {
+          "id": "q03946",
+          "pergunta": "Que arquiteto projetou este portão neoclássico, construído no fim do século dezoito?",
+          "resposta": "Carl Gotthard Langhans"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Segundo a tradição, quando a doença deformou seus dedos, de que jeito Aleijadinho passou a segurar o martelo e o cinzel?",
+        "resposta": "Amarrados às mãos"
+      },
+      "existentes": [
+        {
+          "id": "q03168",
+          "pergunta": "Antônio Francisco Lisboa, mestre do barroco mineiro, ganhou um apelido por causa da doença que deformou seu corpo. Que apelido?",
+          "resposta": "Aleijadinho"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na Inglaterra, o eixo principal do círculo de pedras de Stonehenge está alinhado com o nascer do sol em que data especial do ano?",
+        "resposta": "Solstício de verão"
+      },
+      "existentes": [
+        {
+          "id": "q00381",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Stonehenge"
+        },
+        {
+          "id": "q03114",
+          "pergunta": "As chamadas pedras azuis de Stonehenge, as menores do monumento, foram trazidas de colinas de que região do Reino Unido?",
+          "resposta": "País de Gales"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O casal da escultura O Beijo, de Rodin, representa que dois amantes trágicos da Divina Comédia, de Dante?",
+        "resposta": "Paolo e Francesca"
+      },
+      "existentes": [
+        {
+          "id": "q04693",
+          "pergunta": "Que escultor francês criou esta obra?",
+          "resposta": "Auguste Rodin"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Diferentemente de outras versões renascentistas, que mostram o herói vitorioso sobre Golias, em que momento da história Michelangelo representou Davi?",
+        "resposta": "Antes da luta com Golias"
+      },
+      "existentes": [
+        {
+          "id": "q00462",
+          "pergunta": "Qual é o nome desta estátua?",
+          "resposta": "Davi"
+        },
+        {
+          "id": "q03190",
+          "pergunta": "Desde 1873, o Davi original de Michelangelo fica protegido num museu, e uma cópia ocupa seu antigo lugar na praça. Em que cidade?",
+          "resposta": "Florença"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Hoje cartão-postal de Lisboa, a Torre de Belém foi erguida no início do século dezesseis com que função principal?",
+        "resposta": "Defender a entrada do Tejo"
+      },
+      "existentes": [
+        {
+          "id": "q02022",
+          "pergunta": "A Torre de Belém e o vizinho Mosteiro dos Jerônimos, em Lisboa, compartilham qual estilo arquitetônico, batizado em homenagem a um rei?",
+          "resposta": "Manuelino"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Inaugurado em 1896, no auge da borracha, o Teatro Amazonas, em Manaus, tem a cúpula coberta de telhas pintadas com as cores de quê?",
+        "resposta": "Da bandeira do Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+        "resposta": "Azulejos de Iznik"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Segundo a explicação mais comum, a palavra barroco designava originalmente, na joalheria, que objeto imperfeito?",
+        "resposta": "Pérola irregular"
+      },
+      "existentes": [
+        {
+          "id": "q03653",
+          "pergunta": "O nome do estilo barroco vem de uma palavra portuguesa que designava o quê?",
+          "resposta": "Pérola irregular"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Os renascentistas deram ao estilo das catedrais medievais um nome pejorativo, que lembrava um povo considerado bárbaro. Que povo era esse?",
+        "resposta": "Godos"
+      },
+      "existentes": [
+        {
+          "id": "q00098",
+          "pergunta": "O estilo das catedrais de Notre-Dame e de Chartres ganhou, séculos depois, um nome pejorativo que o ligava a que povo germânico?",
+          "resposta": "Godos"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+        "resposta": "O Corcunda de Notre-Dame"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Os trechos mais conhecidos da Muralha da China, visitados hoje pelos turistas, foram construídos durante que dinastia?",
+        "resposta": "Dinastia Ming"
+      },
+      "existentes": [
+        {
+          "id": "q01926",
+          "pergunta": "Em que país fica esta construção?",
+          "resposta": "China"
+        },
+        {
+          "id": "q03355",
+          "pergunta": "Em chinês, a Grande Muralha é chamada de muralha longa de dez mil unidades de uma antiga medida de distância. Que medida é essa?",
+          "resposta": "Li"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "No Egito antigo, que arquiteto, mais tarde venerado como deus da medicina, projetou a pirâmide em degraus do faraó Djoser?",
+        "resposta": "Imhotep"
+      },
+      "existentes": [
+        {
+          "id": "q00074",
+          "pergunta": "A Pirâmide de Degraus de Djoser, em Sacará, considerada a primeira pirâmide do Egito, é atribuída a qual arquiteto, mais tarde venerado como deus?",
+          "resposta": "Imhotep"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Com seu telhado de cascas brancas que lembram velas de barco, a Ópera de Sydney foi projetada por que arquiteto dinamarquês?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Erguida nos anos oitenta como nova entrada do museu, a pirâmide de vidro do Louvre, em Paris, foi projetada por que arquiteto sino-americano?",
+        "resposta": "I. M. Pei"
+      },
+      "existentes": [
+        {
+          "id": "q02029",
+          "pergunta": "Qual arquiteto sino-americano projetou a pirâmide de vidro que serve de entrada ao Museu do Louvre?",
+          "resposta": "I. M. Pei"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Erguida no início do século dezessete em Istambul, a Mesquita Azul chama atenção pelo número incomum de minaretes. Quantos são?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "A Catedral de Brasília, de Niemeyer, lembra mãos erguidas ao céu. Quantas colunas curvas de concreto formam sua estrutura?",
+        "resposta": "Dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "A existente pergunta qual é a pirâmide (resposta Pirâmide do Sol); a nova tem a mesma resposta e o mesmo fato.",
+      "id_existente": "q01921"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o ano de conclusão; a nova pergunta qual é o prédio. Fatos diferentes, embora a nova cite 1931."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: pedra-sabão que reveste o concreto.",
+      "id_existente": "q02026"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arcobotantes são um fato diferente do nome pejorativo ligado aos godos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A data na tábua não é nenhum dos fatos existentes (oxidação, engenheiro)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A divindade da figura central é outro fato (século, arquiteto)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A rocha dos moais é outro fato (nome das estátuas, país)."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O baldaquino de Bernini é outro fato; a existente é sobre Michelangelo e a cúpula."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "As estátuas na entrada são outro fato, não o arquiteto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O nome do conjunto da quadriga é outro fato (inspiração, arquiteto)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Como segurava as ferramentas é outro fato, não o apelido."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "O alinhamento solar é outro fato (nome do monumento, origem das pedras azuis)."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Os amantes representados são outro fato; a existente é o escultor."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "O momento representado é outro fato (nome, cidade)."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "A função da torre é outro fato; a existente é o estilo manuelino."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "As cores da cúpula são outro fato (nome do teatro, borracha)."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "O revestimento azul é outro fato; a existente é o número de minaretes."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesma origem da palavra barroco: pérola irregular.",
+      "id_existente": "q03653"
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: povo do nome pejorativo do gótico (godos).",
+      "id_existente": "q00098"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "O romance de Victor Hugo é outro fato (nome da catedral, século de início)."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "A dinastia dos trechos mais conhecidos é outro fato (país, medida li)."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Imhotep projetou a pirâmide de Djoser.",
+      "id_existente": "q00074"
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Jørn Utzon projetou a Ópera de Sydney.",
+      "id_existente": "q02028"
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: I. M. Pei projetou a pirâmide do Louvre.",
+      "id_existente": "q02029"
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: número de minaretes da Mesquita Azul.",
+      "id_existente": "q05585"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "O número de colunas é outro fato; a existente é o arquiteto."
+    }
+  ]
+}

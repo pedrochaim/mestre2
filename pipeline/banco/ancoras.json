@@ -5627,7 +5627,10 @@
       "wikidata": "Q676203",
       "pt": 5840,
       "en": 103693
-    }
+    },
+    "variantes": [
+      "Machu Pichu"
+    ]
   },
   {
     "id": "chichen_itza",
@@ -29412,7 +29415,8 @@
     "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
     "variantes": [
       "Moai",
-      "Estátuas da Ilha de Páscoa"
+      "Estátuas da Ilha de Páscoa",
+      "Moais"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Moai",
@@ -29450,7 +29454,8 @@
     "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
     "variantes": [
       "Notre-Dame",
-      "Notre Dame de Paris"
+      "Notre Dame de Paris",
+      "Nossa Senhora de Paris"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
@@ -50511,7 +50516,8 @@
     "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
     "variantes": [
       "Guerreiros de Terracota",
-      "Terracotta Army"
+      "Terracotta Army",
+      "Guerreiros de Xian"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Terracotta_Army",
@@ -54707,7 +54713,8 @@
     "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
     "variantes": [
       "Baroque",
-      "Arte barroca"
+      "Arte barroca",
+      "Estilo barroco"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Barroco",
@@ -59188,7 +59195,8 @@
     "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
     "variantes": [
       "St. Peter's Basilica",
-      "Basílica de São Pedro do Vaticano"
+      "Basílica de São Pedro do Vaticano",
+      "São Pedro do Vaticano"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_S%C3%A3o_Pedro",
@@ -69719,7 +69727,8 @@
     "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
     "variantes": [
       "Catedral Metropolitana de Brasília",
-      "Catedral Metropolitana Nossa Senhora Aparecida"
+      "Catedral Metropolitana Nossa Senhora Aparecida",
+      "Catedral Metropolitana de Nossa Senhora Aparecida"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
@@ -82215,7 +82224,9 @@
     "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
     "variantes": [
       "Mesquita do Sultão Ahmed",
-      "Sultanahmet Camii"
+      "Sultanahmet Camii",
+      "Sultan Ahmed Mosque",
+      "Blue Mosque"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
@@ -107122,7 +107133,10 @@
       "wikidata": "Q9188",
       "pt": 1859,
       "en": 93869
-    }
+    },
+    "variantes": [
+      "Empire State"
+    ]
   },
   {
     "id": "casa_rosada",
@@ -107725,5 +107739,98 @@
       "pt": 9074,
       "en": 5655
     }
+  },
+  {
+    "id": "sete_maravilhas_do_mundo_antigo",
+    "nome": "Sete Maravilhas do Mundo Antigo",
+    "descricao": "Lista clássica de sete monumentos notáveis da Antiguidade mediterrânea, compilada por autores gregos.",
+    "variantes": [
+      "Sete Maravilhas do Mundo",
+      "Seven Wonders of the Ancient World"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World"
+    ]
+  },
+  {
+    "id": "ordem_dorica",
+    "nome": "Ordem dórica",
+    "descricao": "Ordem arquitetônica clássica grega de colunas sem base e capitel liso, usada no Partenon.",
+    "variantes": [
+      "Dórico",
+      "Doric order"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Doric_order"
+    ]
+  },
+  {
+    "id": "atena_partenos",
+    "nome": "Atena Pártenos",
+    "descricao": "Estátua colossal de Atena feita por Fídias para o interior do Partenon, em Atenas, hoje perdida.",
+    "variantes": [
+      "Athena Parthenos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Athena_Parthenos"
+    ]
+  },
+  {
+    "id": "palacio_da_alvorada",
+    "nome": "Palácio da Alvorada",
+    "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+    "variantes": [
+      "Alvorada"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada",
+      "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada"
+    ]
+  },
+  {
+    "id": "casa_batllo",
+    "nome": "Casa Batlló",
+    "descricao": "Edifício residencial remodelado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, entre 1904 e 1906.",
+    "variantes": [
+      "Casa dels ossos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3"
+    ]
+  },
+  {
+    "id": "edificio_chrysler",
+    "nome": "Edifício Chrysler",
+    "descricao": "Arranha-céu de Manhattan, em Nova York, concluído em 1930, com coroa de arcos de aço inoxidável.",
+    "variantes": [
+      "Chrysler Building"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chrysler_Building"
+    ]
+  },
+  {
+    "id": "sesc_pompeia",
+    "nome": "Sesc Pompeia",
+    "descricao": "Centro cultural e esportivo instalado numa antiga fábrica no bairro da Pompeia, em São Paulo, projetado por Lina Bo Bardi.",
+    "variantes": [
+      "Sesc Fábrica da Pompeia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lina_Bo_Bardi",
+      "https://pt.wikipedia.org/wiki/Lina_Bo_Bardi"
+    ]
+  },
+  {
+    "id": "parque_do_flamengo",
+    "nome": "Parque do Flamengo",
+    "descricao": "Grande parque construído sobre aterro à beira da baía de Guanabara, no Rio de Janeiro, inaugurado nos anos 1960.",
+    "variantes": [
+      "Aterro do Flamengo",
+      "Flamengo Park"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flamengo_Park"
+    ]
   }
 ]

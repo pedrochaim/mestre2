@@ -1,0 +1,430 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela Wikipédia em português e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Compósita não é ordem grega, então 'arquitetura grega' torna o distrator descartável; generalizar para ordens clássicas.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Das ordens clássicas da arquitetura, qual é a mais simples, com colunas sem base e capitel liso, usada no Partenon?",
+        "resposta": "Dórica",
+        "distratores": [
+          "Jônica",
+          "Coríntia",
+          "Compósita"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Doric_order"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angkor Wat é considerado o maior monumento religioso pelo Guinness; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pirâmide do Sol é a maior construção de Teotihuacan, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior anfiteatro já construído, concluído em 80; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Santa Sofia foi a maior catedral por cerca de mil anos, até Sevilha; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Foram 41 anos como o mais alto, então 'quase quarenta' é impreciso.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Inaugurado em Nova York em 1931, que arranha-céu foi o prédio mais alto do mundo por mais de quarenta anos?",
+        "resposta": "Empire State Building",
+        "distratores": [
+          "Edifício Chrysler",
+          "Edifício Woolworth",
+          "Rockefeller Center"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Empire_State_Building"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Uma fonte é inexistente e a outra não mostra o fato; manter só a Sagrada Família (Natividade foi a fachada de Gaudí).",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Das três grandes fachadas da Sagrada Família, em Barcelona, qual foi erguida em grande parte sob a direção do próprio Gaudí?",
+        "resposta": "Fachada da Natividade",
+        "distratores": [
+          "Fachada da Paixão",
+          "Fachada da Glória",
+          "Fachada da Ressurreição"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Revestimento de pedra-sabão em pequenos triângulos é bem documentado; trecho confirma pedra-sabão.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arcobotantes permitiram janelas maiores; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua criselefantina de ouro e marfim, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tabula ansata com JULY IV MDCCLXXVI na mão esquerda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templo menor dedicado a Nefertari, esposa principal; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua central é de Oceano, por Pietro Bracci; Netuno é distrator instrutivo.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quase todos os moai foram esculpidos em tufo de Rano Raraku.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baldaquino de Bernini sob a cúpula, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro esculturas de bronze dos evangelistas por Ceschiatti, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Napoleão levou a quadriga a Paris em 1806, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alvenaria encaixada sem argamassa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tradição de ferramentas amarradas às mãos, bem documentada e ressalvada por 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Residência oficial do presidente, confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alinhamento com o nascer do sol do solstício de verão, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paolo e Francesca, de Dante, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Costuma ser visto' é vago; pedir o momento escolhido por Michelangelo, com fonte que sustenta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Diferentemente de outras versões renascentistas, que mostram o herói vitorioso sobre Golias, em que momento da história Michelangelo representou Davi?",
+        "resposta": "Antes da luta com Golias",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/David_%28Michelangelo%29"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os guerreiros eram pintados com cores vivas; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fortificação de defesa da barra do Tejo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cúpula nas cores da bandeira brasileira, confirmado na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome derivado do colosso de Nero, confirmado com ressalva 'provavelmente'.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Farol de Alexandria' contém a palavra que o enunciado descreve, o que vaza a resposta, e a etimologia é incerta.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Azulejos' é quase derivado de 'azul' e vaza; especificar Iznik.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+        "resposta": "Azulejos de Iznik",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casa dels ossos é o nome local, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que a palavra 'vem do português' é impreciso, pois as fontes divergem; reformular sem a origem.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo a explicação mais comum, a palavra barroco designava originalmente, na joalheria, que objeto imperfeito?",
+        "resposta": "Pérola irregular",
+        "distratores": [
+          "Concha quebrada",
+          "Vaso trincado",
+          "Moeda torta"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Baroque"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vasari e a associação aos godos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Autor de uma famosa torre de Paris' entrega Eiffel; remover a pista.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que engenheiro francês projetou a armadura de ferro da Estátua da Liberdade, presente da França aos Estados Unidos?",
+        "resposta": "Gustave Eiffel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos são ícones do art déco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lina Bo Bardi projetou Sesc Pompeia e MASP, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Burle Marx fez o paisagismo do Aterro e o calçadão de Copacabana (1970).",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação mal construída em solo fraco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mumtaz Mahal, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Romance de Hugo impulsionou a restauração, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Transferência por causa da represa de Assuã e do Lago Nasser, bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos mais conhecidos são da dinastia Ming, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descoberta em março de 1974, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Imhotep é creditado com o projeto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Landowski esculpiu o Cristo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jørn Utzon projetou a Ópera de Sydney, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "I. M. Pei, concluída em 1989, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taj Mahal em Agra, confirmado; fato simples, mas válido.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis minaretes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "16 colunas de concreto, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

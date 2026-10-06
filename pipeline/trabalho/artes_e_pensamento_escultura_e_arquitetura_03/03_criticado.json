@@ -1,0 +1,1197 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Sete Maravilhas do Mundo Antigo",
+        "descricao": "Lista clássica de sete monumentos notáveis da Antiguidade mediterrânea, compilada por autores gregos.",
+        "variantes": [
+          "Sete Maravilhas do Mundo",
+          "Seven Wonders of the Ancient World"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das sete maravilhas do mundo antigo, listadas por autores gregos, qual é a única que ainda está de pé?",
+      "resposta": "Grande Pirâmide de Gizé",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Ordem dórica",
+        "descricao": "Ordem arquitetônica clássica grega de colunas sem base e capitel liso, usada no Partenon.",
+        "variantes": [
+          "Dórico",
+          "Doric order"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Doric_order"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das ordens clássicas da arquitetura, qual é a mais simples, com colunas sem base e capitel liso, usada no Partenon?",
+      "resposta": "Dórica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Doric_order"
+      ],
+      "distratores": [
+        "Jônica",
+        "Coríntia",
+        "Compósita"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "angkor_wat",
+        "nome": "Angkor Wat",
+        "descricao": "Templo do Império Khmer do século doze, no Camboja.",
+        "variantes": [
+          "Angkor Vat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angkor_Wat"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Erguido pelo Império Khmer no século doze, que templo do Camboja é considerado o maior monumento religioso do mundo?",
+      "resposta": "Angkor Wat",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angkor_Wat"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Grande pirâmide da antiga cidade de Teotihuacan, perto da Cidade do México.",
+        "variantes": [
+          "Pyramid of the Sun"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na antiga cidade de Teotihuacan, perto da Cidade do México, qual é a maior de todas as construções?",
+      "resposta": "Pirâmide do Sol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+      ],
+      "distratores": [
+        "Pirâmide da Lua",
+        "Templo de Quetzalcóatl",
+        "Pirâmide de Kukulcán"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "coliseu",
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colosseum"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurado no ano oitenta, que edifício de Roma é o maior anfiteatro já construído na Antiguidade?",
+      "resposta": "Coliseu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colosseum"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "hagia_sophia",
+        "nome": "Hagia Sophia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+        "variantes": [
+          "Santa Sofia",
+          "Ayasofya"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hagia_Sophia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Concluída no século seis, que igreja foi a maior catedral do mundo por quase mil anos?",
+      "resposta": "Hagia Sophia (Santa Sofia)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hagia_Sophia"
+      ],
+      "distratores": [
+        "Basílica de São Pedro",
+        "Catedral de Colônia",
+        "Notre-Dame de Paris"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Empire State Building",
+        "descricao": "Arranha-céu art déco em Manhattan, Nova York, inaugurado em 1931.",
+        "variantes": [
+          "Empire State"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Empire_State_Building"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Inaugurado em Nova York em 1931, que arranha-céu foi o prédio mais alto do mundo por mais de quarenta anos?",
+      "resposta": "Empire State Building",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Empire_State_Building"
+      ],
+      "distratores": [
+        "Edifício Chrysler",
+        "Edifício Woolworth",
+        "Rockefeller Center"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "sagrada_familia",
+        "nome": "Sagrada Família",
+        "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Sagrada Família"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das três grandes fachadas da Sagrada Família, em Barcelona, qual foi erguida em grande parte sob a direção do próprio Gaudí?",
+      "resposta": "Fachada da Natividade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+      ],
+      "distratores": [
+        "Fachada da Paixão",
+        "Fachada da Glória",
+        "Fachada da Ressurreição"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus Cristo de braços abertos no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+        "variantes": [
+          "Christ the Redeemer",
+          "Cristo do Corcovado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+          "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O concreto armado do Cristo Redentor, no Rio, é revestido por milhares de pequenos triângulos de que pedra?",
+      "resposta": "Pedra-sabão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Arquitetura gótica",
+        "descricao": "Estilo arquitetônico europeu da Baixa Idade Média, das catedrais com arcos ogivais, vitrais e arcobotantes.",
+        "variantes": [
+          "Gótico",
+          "Gothic architecture"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gothic_architecture"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas catedrais góticas, que arcos externos escoram as paredes e permitiram abrir janelas enormes com vitrais?",
+      "resposta": "Arcobotantes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flying_buttress",
+        "https://en.wikipedia.org/wiki/Gothic_architecture"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Atena Pártenos",
+        "descricao": "Estátua colossal de Atena feita por Fídias para o interior do Partenon, em Atenas, hoje perdida.",
+        "variantes": [
+          "Athena Parthenos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Athena_Parthenos"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A estátua colossal de Atena que Fídias fez para o interior do Partenon era revestida de que dois materiais preciosos?",
+      "resposta": "Ouro e marfim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Athena_Parthenos"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua colossal de cobre na ilha da Liberdade, em Nova York, presente da França aos Estados Unidos, inaugurada em 1886.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na mão esquerda, a Estátua da Liberdade segura uma tábua com uma data gravada em algarismos romanos. Que data é essa?",
+      "resposta": "4 de julho de 1776",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "abu_simbel",
+        "nome": "Abu Simbel",
+        "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+        "variantes": [
+          "Templos de Abu Simbel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abu_Simbel"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Abu Simbel, ao lado do grande templo de Ramsés Segundo, o templo menor homenageia que rainha, sua esposa principal?",
+      "resposta": "Nefertari",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abu_Simbel"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "fontana_di_trevi",
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trevi_Fountain"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Fontana di Trevi, em Roma, a grande figura central, sobre um carro em forma de concha puxado por cavalos-marinhos, representa que divindade?",
+      "resposta": "Oceano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trevi_Fountain"
+      ],
+      "distratores": [
+        "Netuno",
+        "Júpiter",
+        "Apolo"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "moais_da_ilha_de_pascoa",
+        "nome": "Moais da Ilha de Páscoa",
+        "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+        "variantes": [
+          "Moai",
+          "Moais"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moai"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Ilha de Páscoa, a grande maioria dos moais foi esculpida em que rocha, tirada da pedreira de Rano Raraku?",
+      "resposta": "Tufo vulcânico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moai"
+      ],
+      "distratores": [
+        "Mármore",
+        "Granito",
+        "Arenito"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "basilica_de_sao_pedro",
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+        "variantes": [
+          "São Pedro do Vaticano",
+          "St. Peter's Basilica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Sob a cúpula da Basílica de São Pedro, que grande estrutura de bronze com colunas torcidas, obra de Bernini, cobre o altar-mor?",
+      "resposta": "Baldaquino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "catedral_de_brasilia",
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+        "variantes": [
+          "Catedral Metropolitana de Nossa Senhora Aparecida"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na entrada da Catedral de Brasília, quatro grandes estátuas de bronze de Alfredo Ceschiatti representam que personagens bíblicos?",
+      "resposta": "Os quatro evangelistas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "portao_de_brandemburgo",
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1806, Napoleão levou para Paris o carro de bronze puxado por quatro cavalos que coroa o Portão de Brandemburgo. Como se chama esse conjunto?",
+      "resposta": "Quadriga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze no alto dos Andes, no Peru.",
+        "variantes": [
+          "Machu Pichu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Machu_Picchu"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Os incas ergueram muitos muros de Machu Picchu com pedras cortadas com tanta precisão que elas se encaixam sem usar o quê?",
+      "resposta": "Argamassa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Machu_Picchu"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "aleijadinho",
+        "nome": "Aleijadinho",
+        "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+        "variantes": [
+          "Antônio Francisco Lisboa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aleijadinho",
+          "https://pt.wikipedia.org/wiki/Aleijadinho"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, quando a doença deformou seus dedos, de que jeito Aleijadinho passou a segurar o martelo e o cinzel?",
+      "resposta": "Amarrados às mãos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aleijadinho",
+        "https://pt.wikipedia.org/wiki/Aleijadinho"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Palácio da Alvorada",
+        "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+        "variantes": [
+          "Alvorada"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada",
+          "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Projetado por Oscar Niemeyer à beira do lago Paranoá, que função tem o Palácio da Alvorada, em Brasília?",
+      "resposta": "Residência oficial do presidente",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada",
+        "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada"
+      ],
+      "distratores": [
+        "Gabinete de trabalho presidencial",
+        "Residência do vice-presidente",
+        "Sede do Itamaraty"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento pré-histórico de grandes pedras dispostas em círculo na planície de Salisbury, na Inglaterra.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stonehenge"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Inglaterra, o eixo principal do círculo de pedras de Stonehenge está alinhado com o nascer do sol em que data especial do ano?",
+      "resposta": "Solstício de verão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stonehenge"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "o_beijo_rodin",
+        "nome": "O Beijo (Rodin)",
+        "descricao": "Escultura de um casal nu abraçado, feita por Auguste Rodin em 1882.",
+        "variantes": [
+          "Le Baiser",
+          "The Kiss"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O casal da escultura O Beijo, de Rodin, representa que dois amantes trágicos da Divina Comédia, de Dante?",
+      "resposta": "Paolo e Francesca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "davi_michelangelo",
+        "nome": "Davi (Michelangelo)",
+        "descricao": "Estátua de mármore de Michelangelo, de 1504.",
+        "variantes": [
+          "David"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/David_(Michelangelo)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Diferentemente de outras versões renascentistas, que mostram o herói vitorioso sobre Golias, em que momento da história Michelangelo representou Davi?",
+      "resposta": "Antes da luta com Golias",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/David_%28Michelangelo%29"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "exercito_de_terracota",
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+        "variantes": [
+          "Guerreiros de Xian",
+          "Terracotta Army"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Terracotta_Army"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Hoje com a cor do barro, os guerreiros de terracota de Xian tinham que aparência quando foram feitos?",
+      "resposta": "Eram pintados com cores vivas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Terracotta_Army"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Torre de Belém",
+        "descricao": "Torre fortificada manuelina do início do século dezesseis, na margem do rio Tejo, em Lisboa.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Hoje cartão-postal de Lisboa, a Torre de Belém foi erguida no início do século dezesseis com que função principal?",
+      "resposta": "Defender a entrada do Tejo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Teatro Amazonas",
+        "descricao": "Teatro de ópera de Manaus, inaugurado em 1896, no auge do ciclo da borracha.",
+        "variantes": [
+          "Amazon Theatre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amazon_Theatre"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Inaugurado em 1896, no auge da borracha, o Teatro Amazonas, em Manaus, tem a cúpula coberta de telhas pintadas com as cores de quê?",
+      "resposta": "Da bandeira do Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazon_Theatre"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "coliseu",
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colosseum"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O anfiteatro romano chamado oficialmente de Anfiteatro Flávio ganhou o nome popular de Coliseu provavelmente por causa de que obra que ficava ao lado?",
+      "resposta": "Estátua gigante de Nero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colosseum"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita do Sultão Ahmed, construída no início do século dezessete em Istambul, na Turquia.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultan Ahmed Mosque",
+          "Blue Mosque"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+      "resposta": "Azulejos de Iznik",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Casa Batlló",
+        "descricao": "Edifício residencial remodelado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, entre 1904 e 1906.",
+        "variantes": [
+          "Casa dels ossos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Pelas formas de suas varandas e colunas, a Casa Batlló, de Gaudí, em Barcelona, ganhou que apelido popular?",
+      "resposta": "Casa dos Ossos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Barroco",
+        "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo movimento, contraste e ornamentação.",
+        "variantes": [
+          "Baroque",
+          "Estilo barroco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Baroque"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a explicação mais comum, a palavra barroco designava originalmente, na joalheria, que objeto imperfeito?",
+      "resposta": "Pérola irregular",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baroque"
+      ],
+      "distratores": [
+        "Concha quebrada",
+        "Vaso trincado",
+        "Moeda torta"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Arquitetura gótica",
+        "descricao": "Estilo arquitetônico europeu da Baixa Idade Média, das catedrais com arcos ogivais, vitrais e arcobotantes.",
+        "variantes": [
+          "Gótico",
+          "Gothic architecture"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gothic_architecture"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os renascentistas deram ao estilo das catedrais medievais um nome pejorativo, que lembrava um povo considerado bárbaro. Que povo era esse?",
+      "resposta": "Godos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gothic_architecture"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua colossal de cobre na ilha da Liberdade, em Nova York, presente da França aos Estados Unidos, inaugurada em 1886.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro francês projetou a armadura de ferro da Estátua da Liberdade, presente da França aos Estados Unidos?",
+      "resposta": "Gustave Eiffel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Edifício Chrysler",
+        "descricao": "Arranha-céu de Manhattan, em Nova York, concluído em 1930, com coroa de arcos de aço inoxidável.",
+        "variantes": [
+          "Chrysler Building"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chrysler_Building"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Edifício Chrysler, em Nova York, e o Cristo Redentor, no Rio, ambos do início dos anos trinta, são ícones de que estilo?",
+      "resposta": "Art déco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chrysler_Building",
+        "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Sesc Pompeia",
+        "descricao": "Centro cultural e esportivo instalado numa antiga fábrica no bairro da Pompeia, em São Paulo, projetado por Lina Bo Bardi.",
+        "variantes": [
+          "SESC Pompéia",
+          "Sesc Fábrica da Pompeia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lina_Bo_Bardi",
+          "https://pt.wikipedia.org/wiki/Lina_Bo_Bardi"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Sesc Pompeia, centro cultural numa antiga fábrica paulistana, e o MASP, na Avenida Paulista, foram projetados por que arquiteta?",
+      "resposta": "Lina Bo Bardi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lina_Bo_Bardi",
+        "https://pt.wikipedia.org/wiki/Lina_Bo_Bardi"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Parque do Flamengo",
+        "descricao": "Grande parque construído sobre aterro à beira da baía de Guanabara, no Rio de Janeiro, inaugurado nos anos 1960.",
+        "variantes": [
+          "Aterro do Flamengo",
+          "Flamengo Park"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flamengo_Park"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O paisagismo do Aterro do Flamengo e os mosaicos do calçadão de Copacabana, nos anos setenta, têm a assinatura de que paisagista?",
+      "resposta": "Roberto Burle Marx",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roberto_Burle_Marx",
+        "https://en.wikipedia.org/wiki/Flamengo_Park"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "torre_de_pisa",
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre Inclinada de Pisa",
+          "Leaning Tower of Pisa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Torre de Pisa começou a inclinar ainda durante a construção, no século doze. Qual foi a causa?",
+      "resposta": "Solo mole e instável",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco do século dezessete às margens do rio Yamuna, em Agra, na Índia.",
+        "variantes": [
+          "Tadj Mahal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taj_Mahal"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século dezessete, o imperador mogol Shah Jahan mandou erguer o mais famoso mausoléu da Índia em memória de quem?",
+      "resposta": "Sua esposa Mumtaz Mahal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taj_Mahal"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "catedral_de_notre_dame_de_paris",
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame",
+          "Nossa Senhora de Paris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+      "resposta": "O Corcunda de Notre-Dame",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "abu_simbel",
+        "nome": "Abu Simbel",
+        "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+        "variantes": [
+          "Templos de Abu Simbel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abu_Simbel"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram serrados em blocos e remontados num ponto mais alto. Por quê?",
+      "resposta": "Inundação pela represa de Assuã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abu_Simbel"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Grande Muralha da China",
+        "descricao": "Conjunto de muralhas e fortificações erguidas ao longo de séculos no norte da China.",
+        "variantes": [
+          "Muralha da China",
+          "Great Wall of China"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os trechos mais conhecidos da Muralha da China, visitados hoje pelos turistas, foram construídos durante que dinastia?",
+      "resposta": "Dinastia Ming",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+      ],
+      "distratores": [
+        "Dinastia Qin",
+        "Dinastia Han",
+        "Dinastia Tang"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "exercito_de_terracota",
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+        "variantes": [
+          "Guerreiros de Xian",
+          "Terracotta Army"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Terracotta_Army"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que década camponeses chineses, cavando um poço perto de Xian, encontraram os primeiros guerreiros do Exército de Terracota?",
+      "resposta": "Década de 1970",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Terracotta_Army"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Pirâmide de Djoser",
+        "descricao": "Pirâmide em degraus construída para o faraó Djoser na necrópole de Sacara, no Egito, no século vinte e sete antes de Cristo.",
+        "variantes": [
+          "Pirâmide de Degraus",
+          "Pirâmide de Zoser",
+          "Pyramid of Djoser"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_Djoser"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No Egito antigo, que arquiteto, mais tarde venerado como deus da medicina, projetou a pirâmide em degraus do faraó Djoser?",
+      "resposta": "Imhotep",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+        "https://en.wikipedia.org/wiki/Imhotep"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus Cristo de braços abertos no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+        "variantes": [
+          "Christ the Redeemer",
+          "Cristo do Corcovado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+          "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Inaugurado em 1931 no alto do Corcovado, o Cristo Redentor foi esculpido por que artista francês?",
+      "resposta": "Paul Landowski",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Casa de espetáculos com cobertura em forma de cascas brancas, no porto de Sydney, na Austrália, inaugurada em 1973.",
+        "variantes": [
+          "Sydney Opera House"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Com seu telhado de cascas brancas que lembram velas de barco, a Ópera de Sydney foi projetada por que arquiteto dinamarquês?",
+      "resposta": "Jørn Utzon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Pirâmide do Louvre",
+        "descricao": "Pirâmide de vidro e metal que serve de entrada principal do Museu do Louvre, em Paris, concluída nos anos 1980.",
+        "variantes": [
+          "Pyramide du Louvre",
+          "Louvre Pyramid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Erguida nos anos oitenta como nova entrada do museu, a pirâmide de vidro do Louvre, em Paris, foi projetada por que arquiteto sino-americano?",
+      "resposta": "I. M. Pei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco do século dezessete às margens do rio Yamuna, em Agra, na Índia.",
+        "variantes": [
+          "Tadj Mahal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taj_Mahal"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Às margens do rio Yamuna, o Taj Mahal fica em que cidade indiana?",
+      "resposta": "Agra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taj_Mahal"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita do Sultão Ahmed, construída no início do século dezessete em Istambul, na Turquia.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultan Ahmed Mosque",
+          "Blue Mosque"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Erguida no início do século dezessete em Istambul, a Mesquita Azul chama atenção pelo número incomum de minaretes. Quantos são?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "catedral_de_brasilia",
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+        "variantes": [
+          "Catedral Metropolitana de Nossa Senhora Aparecida"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A Catedral de Brasília, de Niemeyer, lembra mãos erguidas ao céu. Quantas colunas curvas de concreto formam sua estrutura?",
+      "resposta": "Dezesseis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia"
+      ]
+    }
+  ]
+}
