@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1896, numa demonstração em Springfield, quem sugeriu trocar o nome Mintonette por volleyball?",
+        "resposta": "Alfred Halstead"
+      },
+      "existentes": [
+        {
+          "id": "q01682",
+          "pergunta": "Em 1895, o vôlei nasceu com o nome Mintonette, inspirado em outro esporte jogado com rede. Qual?",
+          "resposta": "Badminton"
+        },
+        {
+          "id": "q01683",
+          "pergunta": "Em 1895, William Morgan criou o vôlei como opção menos cansativa para sócios mais velhos da Associação Cristã de Moços. Opção a que outro esporte?",
+          "resposta": "Basquete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Depois de uma demonstração em 1976, em que ano o vôlei sentado masculino passou a dar medalhas nos Jogos Paralímpicos?",
+        "resposta": "1980"
+      },
+      "existentes": [
+        {
+          "id": "q01724",
+          "pergunta": "O vôlei sentado, jogado por atletas com deficiência e hoje paralímpico, surgiu em 1956 em que país europeu?",
+          "resposta": "Holanda"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Antes dos ouros de Pequim e Londres, a seleção feminina brasileira de vôlei de quadra subiu ao pódio olímpico pela primeira vez em que edição dos Jogos?",
+        "resposta": "Atlanta 1996"
+      },
+      "existentes": [
+        {
+          "id": "q01698",
+          "pergunta": "Pequim 2008 e Londres 2012 repetiram a mesma final olímpica do vôlei feminino: o Brasil campeão diante de que adversário?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Já como técnico, Karch Kiraly levou a seleção feminina de vôlei dos Estados Unidos ao seu primeiro ouro olímpico. Em que edição dos Jogos?",
+        "resposta": "Tóquio 2020"
+      },
+      "existentes": [
+        {
+          "id": "q01728",
+          "pergunta": "O americano Karch Kiraly foi campeão olímpico de vôlei de quadra em 1984 e 1988. Em 1996, voltou a ser campeão olímpico em que modalidade?",
+          "resposta": "Vôlei de praia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A sigla da federação internacional de vôlei, efe i vê bê, abrevia um nome escrito em que língua?",
+        "resposta": "Francês"
+      },
+      "existentes": [
+        {
+          "id": "q01725",
+          "pergunta": "A Federação Internacional de Vôlei foi fundada em 1947 em que capital europeia?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Londres 2012 e no Rio 2016, duplas brasileiras perderam finais olímpicas de vôlei de praia para duplas do mesmo país. Qual?",
+        "resposta": "Alemanha"
+      },
+      "existentes": [
+        {
+          "id": "q01719",
+          "pergunta": "Na Olimpíada do Rio, em 2016, em que praia carioca foi montada a arena do vôlei de praia?",
+          "resposta": "Copacabana"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Hoje símbolo do vôlei, o Maracanãzinho foi inaugurado em 1954 para receber o campeonato mundial de que outro esporte?",
+        "resposta": "Basquete"
+      },
+      "existentes": [
+        {
+          "id": "q01716",
+          "pergunta": "O ginásio carioca apelidado de Maracanãzinho, palco histórico do vôlei, tem que nome oficial?",
+          "resposta": "Ginásio Gilberto Cardoso"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Antes da pontuação por rali, adotada em 1999, um set comum de vôlei terminava quando um time chegava a quantos pontos?",
+        "resposta": "Quinze"
+      },
+      "existentes": [
+        {
+          "id": "q01688",
+          "pergunta": "Até 1999, no vôlei, só pontuava quem estava sacando. Por que se passou a dar ponto em todo rali?",
+          "resposta": "Partidas com duração previsível para a TV"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No vôlei de praia, os dois primeiros sets de uma partida terminam quando uma dupla alcança quantos pontos?",
+        "resposta": "Vinte e um"
+      },
+      "existentes": [
+        {
+          "id": "q01690",
+          "pergunta": "No vôlei de praia, as duplas trocam de lado da quadra várias vezes durante cada set. Por quê?",
+          "resposta": "Equilibrar o efeito do vento e do sol"
+        },
+        {
+          "id": "q01691",
+          "pergunta": "No vôlei de praia, ao contrário do vôlei de quadra, que fundamento passa a contar como um dos três toques da equipe?",
+          "resposta": "Bloqueio"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Antes de assumir a seleção masculina, Bernardinho conquistou duas medalhas de bronze olímpicas como técnico de que equipe?",
+        "resposta": "Seleção feminina brasileira"
+      },
+      "existentes": [
+        {
+          "id": "q01701",
+          "pergunta": "Antes de ser campeão olímpico como técnico, Bernardinho subiu ao pódio olímpico como levantador. Em que edição dos Jogos?",
+          "resposta": "Los Angeles 1984"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta quem sugeriu o nome volleyball, fato diferente da inspiração do nome ou da opção ao basquete."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano da medalha paralímpica, diferente do país de origem do vôlei sentado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Primeiro pódio olímpico da seleção feminina, diferente do adversário nas finais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ouro como técnico em Tóquio, diferente da modalidade do ouro de 1996 como jogador."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Língua do nome da sigla, diferente da cidade de fundação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "País das duplas vencedoras, diferente da praia da arena."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Evento da inauguração do Maracanãzinho, diferente do nome oficial."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pontos do set antigo, diferente do motivo da mudança para ponto em todo rali."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pontuação dos sets, diferente de troca de lado e do toque do bloqueio."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Técnico da seleção feminina com bronzes, diferente do pódio como levantador."
+    }
+  ]
+}
