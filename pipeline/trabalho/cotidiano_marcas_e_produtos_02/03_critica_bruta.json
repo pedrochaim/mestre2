@@ -1,0 +1,395 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado na fonte; enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A autoria do projeto é disputada (Barényi) e o contrato veio de uma associação industrial, então 'a pedido do governo' e 'projetou' são imprecisos.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1934, qual engenheiro recebeu o contrato para desenvolver o Volkswagen, o carro do povo que no Brasil ganhou o apelido de Fusca?",
+        "resposta": "Ferdinand Porsche",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Enunciado ambíguo sobre montar e fabricar em São Bernardo; fato fraco e já há outra pergunta sobre o Fusca.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Burberry introduziu a gabardina em 1879; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wayne vendeu sua parte doze dias depois; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "As fontes divergem: a inglesa atribui o nome à essência de pepsina, a portuguesa à dispepsia; a fonte citada não sustenta a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kroc vendia multimixers de milk-shake e comprou a rede em 1961; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Post-it é da 3M, de Minnesota, que também faz fitas adesivas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte citada não mostra o hinário, só a portuguesa; 'químico' é impreciso e a fonte precisa ser trocada.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O funcionário da 3M Art Fry pensou no Post-it porque queria um marcador que não caísse de qual livro de cânticos da igreja?",
+        "resposta": "Hinário",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Post-it",
+          "https://en.wikipedia.org/wiki/Art_Fry"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nearest Green ensinou Jack Daniel, reconhecido pela própria destilaria; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A Garoto foi fundada em Vitória e hoje fica sediada em Vila Velha; a fonte só mostra a sede atual.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tramontina nasceu em Carlos Barbosa, no Rio Grande do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Toddy foi criado em Porto Rico por Pedro Santiago; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Harkson tinha a Hazelwood em Xangai e saiu da China por causa da guerra.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rolex fundada em Londres em 1905.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bacardi fundada em Cuba em 1862.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Speedo fundada em Sydney em 1914.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato só aparece na versão em português; a fonte citada (inglesa) não o mostra, então a fonte deve ser incluída.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "As botas Dr. Martens, símbolo do punk britânico, nasceram de uma sola acolchoada criada por um médico de qual país?",
+        "resposta": "Alemanha",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Dr._Martens",
+          "https://en.wikipedia.org/wiki/Dr._Martens"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fanta nasceu na Alemanha nazista.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Coca-Cola foi licenciada no Brasil durante a Segunda Guerra.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dean se inspirou na vagem de cacau por engano; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Walkman lançado em 1979.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada em 1889, século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oreo lançado em 1912.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançado em 1921.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente do tijolo moderno pedida em 1958.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nutella lançada em 1964, década de 1960.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'K' vaza pela própria palavra Kodak e o fato só aparece na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem do cavalo favorito da família Mars.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Asics vem de anima sana in corpore sano; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Danon vem do apelido do filho Daniel.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mabel mais vaselina, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frisbie Pie Company, formas de torta.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dickson criou para a esposa Josephine.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta da filha de Land motivou a câmera.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guia criado para promover viagens de carro.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bibendum é feito de pneus empilhados.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A receita original levava lítio; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente de 1873 de calças reforçadas com rebites.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Puma e Adidas foram fundadas pelos irmãos Dassler.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pancho Villa nunca foi presidente, então o distrator é eliminável pelo enunciado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que ex-presidente do México, exilado nos Estados Unidos, apresentou a Thomas Adams o chicle que acabou virando goma de mascar?",
+        "resposta": "Antonio López de Santa Anna",
+        "distratores": [
+          "Benito Juárez",
+          "Porfirio Díaz",
+          "Venustiano Carranza"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Chewing_gum",
+          "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goodyear fundada em 1898, homenagem ao inventor da vulcanização.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O número 40 está no próprio nome, então a resposta vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Googol é um seguido de cem zeros.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dr Pepper (1885) precede Coca-Cola (1886), Pepsi e 7 Up.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Aldrin usou o Speedmaster na Lua; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lamborghini fabricava tratores antes dos carros.",
+      "reescrita": null
+    }
+  ]
+}

@@ -12774,7 +12774,8 @@
     "nome": "Frisbee",
     "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
     "variantes": [
-      "Disco voador"
+      "Disco voador",
+      "Frisbi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Frisbee"
@@ -12964,7 +12965,8 @@
     "variantes": [
       "Post-it note",
       "Nota adesiva",
-      "Bloco autoadesivo"
+      "Bloco autoadesivo",
+      "Post-its"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Post-it_note"
@@ -20268,7 +20270,8 @@
     "nome": "Nintendo",
     "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
     "variantes": [
-      "Nintendo Co., Ltd."
+      "Nintendo Co., Ltd.",
+      "Nintendo Koppai"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Nintendo",
@@ -67170,7 +67173,8 @@
     "descricao": "Câmera fotográfica instantânea que revela a foto logo após o clique, criada por Edwin Land.",
     "variantes": [
       "Câmera Polaroid",
-      "Câmera instantânea"
+      "Câmera instantânea",
+      "Polaroid Corporation"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Instant_camera"
@@ -82461,7 +82465,9 @@
       "Fusca",
       "Volkswagen Beetle",
       "Volkswagen Käfer",
-      "Volkswagen Tipo 1"
+      "Volkswagen Tipo 1",
+      "Fusquinha",
+      "Käfer"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
@@ -101554,6 +101560,252 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Senegal",
       "https://pt.wikipedia.org/wiki/Senegal"
+    ]
+  },
+  {
+    "id": "chupa_chups",
+    "nome": "Chupa Chups",
+    "descricao": "Marca espanhola de pirulitos fundada por Enric Bernat em 1958, com logotipo em forma de margarida.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chupa_Chups"
+    ]
+  },
+  {
+    "id": "macarrao_instantaneo",
+    "nome": "Macarrão instantâneo",
+    "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen.",
+    "variantes": [
+      "Miojo",
+      "Lámen instantâneo",
+      "Instant noodles",
+      "Chicken Ramen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Instant_noodle",
+      "https://en.wikipedia.org/wiki/Momofuku_Ando"
+    ]
+  },
+  {
+    "id": "pepsi",
+    "nome": "Pepsi",
+    "descricao": "Refrigerante de cola criado em New Bern, na Carolina do Norte, no fim do século dezenove.",
+    "variantes": [
+      "Pepsi-Cola"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pepsi"
+    ]
+  },
+  {
+    "id": "mcdonald_s",
+    "nome": "McDonald's",
+    "descricao": "Rede americana de lanchonetes de hambúrguer criada pelos irmãos Richard e Maurice McDonald na Califórnia, em 1940.",
+    "variantes": [
+      "McDonalds",
+      "Méqui"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/McDonald%27s"
+    ]
+  },
+  {
+    "id": "jack_daniel_s",
+    "nome": "Jack Daniel's",
+    "descricao": "Marca de uísque americano produzida em Lynchburg, no Tennessee, desde o século dezenove.",
+    "variantes": [
+      "Jack Daniels"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jack_Daniel%27s"
+    ]
+  },
+  {
+    "id": "guarana_jesus",
+    "nome": "Guaraná Jesus",
+    "descricao": "Refrigerante de guaraná cor-de-rosa criado em 1920 pelo farmacêutico Jesus Norberto Gomes, em São Luís.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Jesus"
+    ]
+  },
+  {
+    "id": "tramontina",
+    "nome": "Tramontina",
+    "descricao": "Fabricante brasileira de facas, panelas e utensílios, surgida em 1911 como uma pequena ferraria de Valentin Tramontina.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Tramontina"
+    ]
+  },
+  {
+    "id": "toddy",
+    "nome": "Toddy",
+    "descricao": "Marca de achocolatado em pó criada em 1916 e vendida no Brasil desde os anos 1930.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Toddy"
+    ]
+  },
+  {
+    "id": "kibon",
+    "nome": "Kibon",
+    "descricao": "Marca de sorvetes fundada no Brasil nos anos 1940 pelo empresário americano Ulysses Harkson.",
+    "variantes": [
+      "U.S. Harkson do Brasil"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Kibon"
+    ]
+  },
+  {
+    "id": "rolex",
+    "nome": "Rolex",
+    "descricao": "Fabricante de relógios de luxo fundada em 1905 por Hans Wilsdorf e Alfred Davis, hoje sediada em Genebra.",
+    "variantes": [
+      "Wilsdorf and Davis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rolex"
+    ]
+  },
+  {
+    "id": "bacardi",
+    "nome": "Bacardi",
+    "descricao": "Marca de rum fundada em 1862 por Facundo Bacardí Massó, cujo símbolo é um morcego.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bacardi"
+    ]
+  },
+  {
+    "id": "oreo",
+    "nome": "Oreo",
+    "descricao": "Biscoito de chocolate recheado com creme branco, lançado pela americana Nabisco em Nova York.",
+    "variantes": [
+      "Biscoito Oreo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oreo"
+    ]
+  },
+  {
+    "id": "guarana_antarctica",
+    "nome": "Guaraná Antarctica",
+    "descricao": "Refrigerante de guaraná lançado pela Companhia Antarctica Paulista, hoje da Ambev.",
+    "variantes": [
+      "Guaraná Champagne Antarctica"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Antarctica"
+    ]
+  },
+  {
+    "id": "snickers",
+    "nome": "Snickers",
+    "descricao": "Barra de chocolate com amendoim, caramelo e nougat lançada pela americana Mars em 1930.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Snickers"
+    ]
+  },
+  {
+    "id": "asics",
+    "nome": "Asics",
+    "descricao": "Fabricante japonesa de tênis e artigos esportivos sediada em Kobe.",
+    "variantes": [
+      "Onitsuka Tiger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Asics"
+    ]
+  },
+  {
+    "id": "maybelline",
+    "nome": "Maybelline",
+    "descricao": "Marca americana de maquiagem fundada em 1915 por Tom Lyle Williams, conhecida pelas máscaras de cílios.",
+    "variantes": [
+      "Maybelline New York"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maybelline"
+    ]
+  },
+  {
+    "id": "bibendum",
+    "nome": "Bibendum",
+    "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+    "variantes": [
+      "Boneco da Michelin",
+      "Michelin Man"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Michelin_Man"
+    ]
+  },
+  {
+    "id": "7_up",
+    "nome": "7 Up",
+    "descricao": "Refrigerante americano de limão e lima lançado em 1929.",
+    "variantes": [
+      "Seven Up",
+      "7UP"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/7_Up"
+    ]
+  },
+  {
+    "id": "levi_s",
+    "nome": "Levi's",
+    "descricao": "Fabricante americana de calças jeans fundada em São Francisco por Levi Strauss no século dezenove.",
+    "variantes": [
+      "Levi Strauss & Co.",
+      "Levi Strauss"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+    ]
+  },
+  {
+    "id": "chiclete_de_thomas_adams",
+    "nome": "Chiclete de Thomas Adams",
+    "descricao": "Goma de mascar feita de chicle, produzida em Nova York por Thomas Adams a partir de 1871.",
+    "variantes": [
+      "Adams New York Chewing Gum",
+      "Chiclete Adams"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chewing_gum",
+      "https://en.wikipedia.org/wiki/Thomas_Adams_(inventor)"
+    ]
+  },
+  {
+    "id": "goodyear",
+    "nome": "Goodyear",
+    "descricao": "Fabricante americana de pneus fundada em 1898 em Akron, Ohio, por Frank Seiberling.",
+    "variantes": [
+      "Goodyear Tire and Rubber Company"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Goodyear_Tire_and_Rubber_Company"
+    ]
+  },
+  {
+    "id": "dr_pepper",
+    "nome": "Dr Pepper",
+    "descricao": "Refrigerante americano criado em 1885 numa farmácia de Waco, no Texas.",
+    "variantes": [
+      "Doctor Pepper"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dr_Pepper"
+    ]
+  },
+  {
+    "id": "omega_speedmaster",
+    "nome": "Omega Speedmaster",
+    "descricao": "Modelo de relógio cronógrafo da marca suíça Omega, certificado pela NASA para as missões espaciais.",
+    "variantes": [
+      "Speedmaster",
+      "Moonwatch"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Omega_Speedmaster"
     ]
   }
 ]

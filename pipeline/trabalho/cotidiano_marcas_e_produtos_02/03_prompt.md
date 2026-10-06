@@ -1,0 +1,1784 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Marcas e Produtos** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Chupa Chups",
+      "descricao": "Marca espanhola de pirulitos fundada por Enric Bernat em 1958, com logotipo em forma de margarida."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1969, qual pintor surrealista espanhol desenhou o logotipo em forma de margarida dos pirulitos Chupa Chups?",
+    "resposta": "Salvador Dalí",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chupa_Chups"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chupa_Chups",
+        "situacao": "ok",
+        "texto": "Chupa Chups (Spanish pronunciation: [ˈtʃupa ˈtʃups]) is a Spanish brand of confectionery found in over 150 countries. It was founded in 1958 by Enric Bernat and is owned by the Italian-Dutch company Perfetti Van Melle. The name comes from the Spanish verb chupar, meaning \"to suck\". Similar confections are known as lollipops or suckers in English.\n[…]\nThe Chupa Chups logo was designed in 1969 by the surrealist artist Salvador Dalí. Its first marketing campaign was the logo with the slogan \"Es redondo y dura mucho, Chupa Chups\", which translates from Spanish as \"It's round and long-lasting\". Later, celebrities like Madonna were hired to advertise the product.\n[…]\nIn 1995, Chupa Chups became the first candy sent to the Mir space station.\n[…]\nBetween 2000 and 2003, Chupa Chups was the main shirt sponsor of English football team Sheffield Wednesday.\n[…]\nSince 2007, Chupa Chups was the signature sweet of the Marriott brand hotel Springhill Suites. Chupa Chups were available at the front desk of any Springhill Suites property for free to any guest, child or adult. As of August 2021, Marriott has begun stepping away from Chupa Chups as a signature item for Springhill Suites.\n[…]\nMesser Chups is a surf rock band from Saint Petersburg, Russia. In the group's name, \"Messer\" is taken from the German word for \"knife\" and \"Chups\" from Chupa Chups lollipops.\n[…]\nIn 2025, Chupa Chups launched an Australian advertising campaign with the slogan \"Suck Yeah\"; this is the company's first major campaign in the country in more than a decade.\n[…]\nChupa Chups has a large product range, with their flagship lollipop being the most popular.\n[…]\nChupa Chups has more than 100 flavours available worldwide, including sugar-free varieties. They are individually heat-sealed in the factory, and are best opened by twisting the base of the wrapper.\n[…]\nChupa Chups World (official site) (Flash)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chupa_Chups",
+        "situacao": "ok",
+        "texto": "Chupa Chups (pronúncia espanhola: Espanhol: [ˈtʃupa ˈtʃups]) é uma empresa espanhola de chupa-chupas ou pirulitos criada no ano de 1958 pelo catalão Enric Bernat, e atualmente parte da multinacional Perfetti Van Melle. Seus produtos são vendidos em mais de 150 países ao redor do mundo.\n[…]\nNo início da década de 50, Enric Bernat trabalhava em uma fábrica de geleia de maçãs chamada \"Granja Asturias\" quando teve a ideia de produzir chupa-chupas e renomeou o nome da companhia para Chupa Chups. A ideia das sobremesas veio da sensação de que os doces e confeitos da época não eram devidamente desenhados para o consumo por crianças, um potencial público-alvo.\n[…]\nA companhia obteve grande sucesso de vendas e, em 5 anos, os doces já eram vendidos em mais de 300 mil lojas. Na década de 70, espalharam-se pelo mundo, chegando ao Japão e ao Sudeste Asiático. Em 2003, 4 bilhões de chupa-chupas foram vendidos em mais de 150 países.\n[…]\nO logotipo da Chupa Chups foi desenhado em 1969 por Salvador Dalí. As campanhas de marketing da companhia utilizaram grandes celebridades, como Madonna, em seus comerciais. A campanha publicitária de 1997/1998 contou com a banda pop Spice Girls e, em 2001/2002, com o desenho animado mundialmente conhecido Simpsons.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Fusca",
+      "descricao": "Automóvel popular da Volkswagen projetado na Alemanha nos anos 1930, conhecido no mundo como Beetle ou Käfer."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos trinta, a pedido do governo de Hitler, qual engenheiro projetou o carro que no Brasil ganhou o apelido de Fusca?",
+    "resposta": "Ferdinand Porsche",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+      "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "situacao": "ok",
+        "texto": "The Volkswagen Beetle, officially the Volkswagen Type 1, is a small family car produced by the German company Volkswagen from 1938 to 2003. A global cultural icon known for its bug-like design, the Beetle is widely regarded as one of the most influential cars of the 20th century. Its production period of 65 years is the longest for any single generation of automobile.\n[…]\nThe Beetle was conceived in the early 1930s, when the leader of Nazi Germany, Adolf Hitler, decided there was a need for a people's car—an inexpensive, simple, mass-produced car—to serve Germany's new road network, the Reichsautobahn. Engineer Ferdinand Porsche and his design team began developing and designing the car in the early 1930s, but the fundamental design concept can be attributed to Béla Barényi in 1925, predating Porsche's claims by almost ten years.\n[…]\nOn 22 June 1934, Ferdinand Porsche received a development contract from the Verband der Automobilindustrie (German Association of the Automotive Industry) for the prototype of an inexpensive and economical passenger car after Hitler decided there was a need for a people's car (in German, \"volkswagen\")—a car affordable and practical enough for lower-class people to own—to serve the country's new road network, the Reichsautobahn.\n[…]\nAlthough the Volkswagen car was primarily the conception of Porsche and Hitler, the idea of a \"people's car\" is much older than Nazism, and has existed since the introduction of automotive mass production.\n[…]\nGerman-Bohemian engineer Ferdinand Porsche and his team were generally known as the original designers of the Volkswagen. However, there has been debate over whether he was the original designer. Rumours circulated suggesting that other designers, such as Béla Barényi, Paul Jaray, Josef Ganz and Hans Ledwinka, may have influenced its design.\n[…]\nThe In-Depth History of the Volkswagen Super Beetle"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+        "situacao": "ok",
+        "texto": "O Volkswagen Typ 1, popularmente conhecido como Fusca (no Brasil) ou Carocha (em Portugal), foi o primeiro modelo de automóvel fabricado pela companhia alemã Volkswagen, sendo produzido entre 1938 e 2003. Foi o carro mais vendido no mundo, ultrapassando em 1972 o recorde que pertencia até então ao Ford Modelo T, de origem estadunidense. Foi produzido até 2003, no México, onde era chamado de VW Sed\n[…]\nA história do Fusca é uma das mais complexas e longas da história do automóvel. Em 22 junho de 1934, a União das Indústrias Automotivas (Verband der Automobilindustrie) firmou um contrato com o projetista Ferdinand Porsche para o desenvolvimento de um Volkswagen (\"carro do povo\"). Diferente da maioria dos outros carros, o projeto do Fusca envolveu várias empresas e até mesmo o governo de seu país, e levaria à fundação de uma fábrica inteira de automóveis no processo.\n[…]\nEm 2010 a Volkswagen anunciou que 2011 seria o último ano de fabricação do New Beetle, e que uma nova geração estava a caminho. Um dos objetivos estabelecidos pela fábrica era tornar o carro mais \"masculino\", e para tanto o carro seria mais baixo, largo e com formas menos arredondadas, mais próximas ao modelo original.\n[…]\nAinda dentro do objetivo de melhor identificar o carro com o original, a matriz alemã deu carta branca para que as filiais lançassem o carro nos seus mercados com o apelido que o primeiro modelo ganhou em cada um desses locais. Dessa forma, o carro foi lançado em setembro de 2012 como Fusca no Brasil, embora tenha mantido o nome Beetle em Portugal.\n[…]\nUm Buggy Baja ou Fusca Baja é um tipo de carro fora de estrada muito popular. É feito á partir de um fusca comum com peças de carros diferentes. É comum no nordeste brasileiro por causa de sua versatilidade em terrenos ruins como em areia ou estrada de terra.\n[…]\nQuatro Rodas. Grandes Brasileiros: VW Fusca\n[…]\nQuatro Rodas. Grandes Brasileiros: VW Fusca 1500"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Fusca",
+      "descricao": "Automóvel popular da Volkswagen projetado na Alemanha nos anos 1930, conhecido no mundo como Beetle ou Käfer."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Volkswagen começou a montar e depois a fabricar o Fusca em São Bernardo do Campo em que década?",
+    "resposta": "Década de 1950",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+      "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+        "situacao": "ok",
+        "texto": "O Volkswagen Typ 1, popularmente conhecido como Fusca (no Brasil) ou Carocha (em Portugal), foi o primeiro modelo de automóvel fabricado pela companhia alemã Volkswagen, sendo produzido entre 1938 e 2003. Foi o carro mais vendido no mundo, ultrapassando em 1972 o recorde que pertencia até então ao Ford Modelo T, de origem estadunidense. Foi produzido até 2003, no México, onde era chamado de VW Sed\n[…]\nLogo em seguida viria o icônico Karmann Ghia, que permitiria a Volkswagen entrar timidamente no mercado de carros luxuosos. Já no final da década de 1950 o Fusca se mostrava uma aposta certeira para a Volkswagen, que se expandia rapidamente para além-mar (chegaria no Brasil, por exemplo, já em 1957).\n[…]\nA questão foi resolvida fora dos tribunais em 1961, com uma cifra que acabou prejudicando os investimentos na renovação do Fusca durante a década seguinte.\n[…]\nTais fatores impediriam a Volks de realizar qualquer mudança radical no carro — não que ela não tenha tentado. Vários protótipos chegaram a ser testados como o EA 97/1, uma clara tentativa de atualizar o carro nos anos 1950. Outros protótipos visando substituir o carro foram criados, e alguns ganharam as ruas como modelos de produção paralelos ao Fusca — caso da Brasília brasileira, por exemplo.\n[…]\nEm 2010 a Volkswagen anunciou que 2011 seria o último ano de fabricação do New Beetle, e que uma nova geração estava a caminho. Um dos objetivos estabelecidos pela fábrica era tornar o carro mais \"masculino\", e para tanto o carro seria mais baixo, largo e com formas menos arredondadas, mais próximas ao modelo original.\n[…]\nSegundo o especialista Alexander Gromow, \"Desde que começaram a circular os primeiros Volkswagens, em 1950, também apareceu a corruptela da palavra Volkswagen passando pela influência da colônia alemã. (...)\n[…]\nVolkswagen New Beetle\n[…]\nVolkswagen Fusca (A5)\n[…]\n«Deutsche Welle – 1955: Fabricado o milionésimo Fusca». www.dw-world.de"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "situacao": "ok",
+        "texto": "The Volkswagen Beetle, officially the Volkswagen Type 1, is a small family car produced by the German company Volkswagen from 1938 to 2003. A global cultural icon known for its bug-like design, the Beetle is widely regarded as one of the most influential cars of the 20th century. Its production period of 65 years is the longest for any single generation of automobile.\n[…]\nWhen including Audis produced at Ingolstadt, the combined output from Volkswagen and its Auto-Union company constituted 50.4% of all West German cars produced that year. In 1968, the Type 1 was officially given the name \"Beetle\" (from \"der Käfer\", German for beetle).\n[…]\nStarting in 1950, an optional sunroof with a textile cover could be added at an extra cost. By March of that year, the export model began to be equipped with a hydraulic brake system, which became a standard feature from April 1950 onwards. In 1952, the equipment was enhanced with the addition of vent windows in the doors, and the wheels were reduced to a diameter of 15 inches (380 mm) from the previous 16 inches (410 mm).\n[…]\nOfficial exportation of the Beetle to the Brazilian market began on 23 March 1953, with its parts imported from Germany. For the local market, the Type 1 was officially known \"Volkswagen Fusca\". In January 1959, Volkswagen shifted assembly to the new São Bernardo do Campo plant, initially maintaining 60 per cent of its German parts. However, by the mid-1960s, the cars had about 99.93 per cent Brazilian-made components.\n[…]\nVolkswagen New Beetle\n[…]\nVolkswagen Beetle (A5)\n[…]\nVolkswagen Type 18A\n[…]\nVolkswagen Type 14A (Hebmüller Cabriolet)\n[…]\nBeetle – A brief history of a well-loved icon, published by Volkswagen Group, archived from the original on 14 January 2024.\n[…]\nThe In-Depth History of the Volkswagen Super Beetle\n[…]\nAn Ode to the Bug, published by Volkswagen Group, archived from the original on 3 March 2024."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Macarrão instantâneo",
+      "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1958, no Japão, qual empresário, fundador da Nissin, inventou o macarrão instantâneo?",
+    "resposta": "Momofuku Ando",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Momofuku_Ando",
+      "https://en.wikipedia.org/wiki/Instant_noodle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Momofuku_Ando",
+        "situacao": "ok",
+        "texto": "Momofuku Ando (Japanese: 安藤 百福, Hepburn: Andō Momofuku; March 5, 1910 – January 5, 2007), born Go Pek-Hok (Chinese: 吳百福; Pe̍h-ōe-jī: Gô͘ Pek-hok; Tâi-lô: Gôo Pik-hok), was a Taiwanese-born, ethnic Chinese, Japanese inventor and businessman who founded Nissin Food Products Co., Ltd. He is known as the inventor of Nissin Chikin Ramen, the first brand of commercially available prepackaged instant noo\n[…]\nOn August 25, 1958, at the age of 48, and after months of trial and error experimentation to perfect his flash-frying method, Ando marketed the first package of precooked instant noodles. The original chicken flavor is called Chikin Ramen. It was originally considered a luxury item, with its price of ¥35 around six times that of traditional udon and soba noodles at the time.\n[…]\nAndo was survived by his wife Masako, two sons and a daughter. Ando claimed that the secret of his long life was playing golf and eating chicken ramen almost every day. He was said to have eaten instant ramen until the day he died.\n[…]\nOn April 8, 2008, a ramen summit was held in Osaka and a bronze statue of Ando was unveiled at the Momofuku Ando Instant Ramen Museum in Ikeda, Osaka Prefecture The statue depicts Ando standing atop a base resembling a noodle container while holding a packet of instant noodles in his right hand. Yasuhiro Nakasone (former Prime Minister of Japan) and Masako Ando (Ando's wife) attended the unveiling ceremony.\n[…]\nThe name of the Momofuku restaurants in the United States alludes to Momofuku Ando.\n[…]\nBeech, Hannah (2006). \"Momofuku Ando: A late bloomer invented the instant noodles that fueled the Asian Miracle\". Time. Archived from the original on March 7, 2008.\n[…]\nWallace, Bruce (January 7, 2007). \"Momofuku Ando, 96; inventor's Cup Noodle became an instant hit\". Los Angeles Times.\n[…]\nNoodles Museum, Nissin Instant Ramen Noodles Museum, January 14, 2007\n[…]\nA Tribute To Momofuku Ando and His Life"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Instant_noodle",
+        "situacao": "ok",
+        "texto": "Instant noodles, or instant ramen, is a type of food consisting of noodles sold in a precooked and dried block with flavoring powder and/or seasoning oil. The dried noodle block was originally created by flash-frying cooked noodles, which is still the dominant method used in Asian countries; air-dried noodle blocks are favored in Western countries. Dried noodle blocks are designed to be cooked or \n[…]\nInstant noodles were invented by Momofuku Ando of Nissin Foods in Japan. They were launched in 1958 under the brand name Chikin Ramen. In the 1960s, they became popular in the United States, and a subsidiary of Nissin Foods was established there. In 1971, Nissin introduced Cup Noodles, the first cup noodle product. Instant noodles are marketed worldwide under many brand names.\n[…]\nModern instant noodles were created by Momofuku Ando in Japan. They were first marketed on 25 August 1958 by Ando's company, Nissin, under the brand name Chikin Ramen.\n[…]\nA separate claim of origin for instant noodles comes from Pingtung County in Taiwan. Chang Kuo-wen, a Pingtung local, filed a patent for instant noodles in 1956. On 16 August 1961, Zhang supposedly transferred the patent to Momofuku Ando for ¥23 million.\n[…]\nIn 1966, when Ando was in the United States promoting Chikin Ramen, he observed how Americans would divide up a ramen block, put it in a paper cup, and pour boiling water over it, inspiring him with the idea for his new product. In 1971, Nissin introduced Nissin Cup Noodles, a cup noodle to which boiling water is added to cook the noodles. Dried vegetables began to be included in the cup, creating a complete instant soup dish.\n[…]\nFor making fresh noodles, the amount of salt added is 1–3% of flour weight, but instant noodles require higher salt content due to their longer shelf life. One pack of ramen contains well over half the daily recommended amount of sodium.\n[…]\nPot Noodle\n[…]\nShirataki noodles"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Momofuku_Ando",
+        "situacao": "ok",
+        "texto": "Momofuku Ando (安藤 百福), nasceu como Gô Peh-hok (Kagi, 5 de março de 1910 — Ikeda, 5 de janeiro de 2007), foi o fundador e presidente da Nissin Food Products Co., Ltd., e o inventor do moderno macarrão instantâneo, popularmente conhecido no Brasil como \"miojo\".\n[…]\nAndo nasceu em Kagi (atualmente Chiayi), Taiwan e cresceu na cidade de Tainan. Em 1948, Momofuku Ando fundou o que viria a ser a Nissin em Ikeda, Osaka, Japão. Era uma pequena companhia de família, ainda.\n[…]\nEm 25 de Agosto de 1958, quando tinha 48 anos, depois de meses de tentativa e erro, Ando anunciou que, finalmente, aperfeiçoou o seu método de \"fritura-relâmpago\" que levou à invenção do macarrão instantâneo.\n[…]\nMomofuku morreu aos 96 anos, em 5 de Janeiro de 2007, em Osaka em consequência de um ataque cardíaco.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Gabardine",
+      "descricao": "Tecido resistente e impermeável de trama diagonal, criado na Inglaterra no fim do século dezenove e usado em capas e sobretudos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1879, qual marca britânica, famosa pelos sobretudos, criou o tecido impermeável chamado gabardine?",
+    "resposta": "Burberry",
+    "distratores": [
+      "Barbour",
+      "Aquascutum",
+      "Mackintosh"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gabardine",
+      "https://en.wikipedia.org/wiki/Burberry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gabardine",
+        "situacao": "ok",
+        "texto": "Gabardine is a durable twill worsted wool. It is a tightly woven waterproof fabric and is used to make outerwear and various other garments, such as suits, topcoats, trousers, uniforms, and windbreakers. Thomas Burberry created the fabric in the late 1870s and patented it in 1888. The name gabardine comes from \"gaberdine\", a type of long, cape-like dress worn during the Middle Ages.\n[…]\nThe modern use to describe a fabric rather than a garment dates to Thomas Burberry, founder of the Burberry fashion house in Basingstoke, Hampshire, England, who invented the fabric and revived the name gabardine in 1879. It was introduced by Burberry and patented in 1888.\n[…]\nPrior to Burberry's development of gabardine, rubberised cotton (as in the Mackintosh coat) was the most common fabric used for waterproofing, and the material's lack of breathability and heaviness frequently made waterproof clothes uncomfortable. Gabardine, by contrast, was a lightweight, durable, breathable material. Its ability to shed water and break the wind while preserving comfortable wearability helped revolutionise outerwear.\n[…]\nGabardine was quickly recognised for its military applications in the United Kingdom. In 1902, the British War Office commissioned Burberry to use the material in designing new coats for its soldiers that would better withstand demanding battlefield conditions. The original coat model produced by that commission was later updated, in 1914, in response to the harsh conditions of trench warfare during World War I.\n[…]\nBurberry clothing of gabardine was also worn by many polar explorers. The fabric's first arctic field test was performed by Fridtjof Nansen, a Norwegian scientist, explorer, diplomat, and eventual Nobel Peace Prize recipient who wore gabardine on his 1893 Fram expedition toward the North Pole."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Burberry",
+        "situacao": "ok",
+        "texto": "Burberry Group plc is a British luxury fashion house established in 1856 by Thomas Burberry and headquartered in London, England. It designs and distributes ready to wear, including trench coats, leather accessories, and footwear. It is listed on the London Stock Exchange and is a constituent of the FTSE 100 Index.\n[…]\nBurberry was founded in 1856 when 21-year-old Thomas Burberry, a former draper's apprentice, opened his own store in Basingstoke, Hampshire, England. By 1870, the business had established itself by focusing on the development of outdoors attire. In 1879, Burberry introduced gabardine to his brand, a hardwearing, water-resistant yet breathable fabric, in which the yarn is waterproofed before weaving. In 1891, Burberry opened a shop in the Haymarket, London.\n[…]\nIn 1901, the Burberry Equestrian Knight logo was developed containing the Latin word \"Prorsum\", meaning \"forwards\", and it was registered as a trademark in 1909. In 1911, the company became the outfitters for Roald Amundsen, the first man to reach the South Pole, and Ernest Shackleton, who led a 1914 expedition to cross Antarctica. A Burberry gabardine jacket was worn by George Mallory on his attempt on Mount Everest in 1924.\n[…]\nShe wore a reversible coat with waterproof gabardine outside for flying and with a tweed inner side which could be turned outside to create a smart look for disembarking under the glare of the publicity her exploits attracted. In 1937, A. E. Clouston and Betty Kirby-Green broke the world record for the fastest return flight from London to Cape Town in The Burberry airplane that was sponsored by the brand.\n[…]\nOfficial Burberry Group plc corporate website\n[…]\nOfficial Burberry consumer website\n[…]\nDocuments and clippings about Burberry in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gabardina",
+        "situacao": "ok",
+        "texto": "Gabardina é um tecido têxtil robusto com o seu fio muito junto, utilizado para o fabrico de fatos, sobretudos, calças, uniformes, quebra-ventos e outro vestuário.\n[…]\nA fibra utilizada para fazer o tecido é, tradicionalmente, fio têxtil de lã, mas também pode ser de algodão, polyester ou uma mistura. A gabardina é tecida em urdume, com uma pequena barra proeminente na face e uma superfície no reverso. A garbardina tem sempre mais fio de urdume do que fio de trama.\n[…]\nAs roupas feitas com gabardina estão, geralmente, indicadas para limpeza a seco.\n[…]\nO termo gabardina é também utilizado para designar uma peça de roupa impermeável, semelhante a um sobretudo.\n[…]\nA gabardina foi inventada em 1879 por Thomas Burberry, criador da casa de moda Burberry, em Basingstoke, e registou a sua patente em 1888. O tecido original era impermeabilizado antes de passar à fase de tecelagem e era feito de lã, ou lã e algodão, e fortemente confeccionado, mas era mais confortável que os tecidos de à base de borracha.\n[…]\nAs roupas de gabardina da Burberry eram usadas pelos exploradores polares como Roald Amundsen, o primeiro homem a chegar ao Polo Sul, em 1911, e Ernest Shackleton, que liderou uma expedição em 1914 para atravessar a Antártida. George Mallory também usou um casaco deste material na sua tentativa de subir o Monte Everest, em 1924.\n[…]\nA gabardina foi muito utilizada na década de 1950 para produzir casacos com padrões mais coloridos, assim como calças e fatos. Empresas como a Penneys, Sport Chief, Campus, Four Star e  California Trends produziam casacos curtos, algumas vezes reversíveis, chamados de \"casacos de fim-de-semana\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Apple",
+      "descricao": "Empresa americana de tecnologia fundada em 1976 na Califórnia, fabricante do Macintosh e do iPhone."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Além de Steve Jobs e Steve Wozniak, quem foi o terceiro fundador da Apple, que vendeu sua parte poucos dias depois?",
+    "resposta": "Ronald Wayne",
+    "distratores": [
+      "Mike Markkula",
+      "John Sculley",
+      "Bill Fernandez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ronald_Wayne",
+      "https://en.wikipedia.org/wiki/Apple_Inc."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ronald_Wayne",
+        "situacao": "ok",
+        "texto": "Ronald Gerald Wayne (born May 17, 1934) is an American retired electronics industry business executive. He co-founded Apple Computer Company—which later became Apple Inc.—as a partnership with Steve Wozniak and Steve Jobs on April 1, 1976, providing administrative oversight and documentation for the new venture. He has been often referred to by media as the 'forgotten founder' of Apple.\n[…]\nRonald Wayne was born in Cleveland, Ohio, on May 17, 1934. He trained as a technical draftsman at the School of Industrial Art High School in New York City.\n[…]\nIn 1976, Wayne was well respected for his sophisticated and comprehensive internal corporate documentation systems at the three-year-old Atari. There, he met coworkers Steve Jobs and Steve Wozniak. To assist in mediation of one of their typically intense discussions about the design of computers and the future of the industry, Wayne invited the pair to his home to facilitate and advise them.\n[…]\nIn the ensuing two-hour conversation about technology and business, Jobs proposed the founding of a computer company led by Wozniak and himself. The two would each hold a 45% stake so that Wayne could receive a 10% stake to act as a tie-breaker in their decisions. As the venture's self-described \"adult in the room\" at age 41, Wayne drafted the original partnership agreement, and the three founded Apple Computer on April 1, 1976.\n[…]\nWayne appeared in the documentary Welcome to Macintosh in 2008, where he describes some of his early experiences with Jobs and Wozniak.\n[…]\nWayne lives in Pahrump, Nevada.\n[…]\nRon Wayne interview by OMT\n[…]\nNPR report \"Lost\" Apple Founder Has No Regrets – June 13, 2010\n[…]\nRon Wayne, Apple Co-Founder, Shares Steve Jobs' \"Richest Man in the Cemetery\" Sentiment Almost Verbatim Archived December 7, 2014, at the Wayback Machine, Village Voice, October 8, 2011\n[…]\nRonald G. Wayne interviewed on the TV show Triangulation on the TWiT.tv network"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "situacao": "ok",
+        "texto": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 20\n[…]\nApple Computer Company was founded as a partnership on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company's first product was the Apple I, designed by Wozniak and hand-built. To finance production, Jobs sold his Volkswagen Bus and Wozniak sold his HP-65 calculator. Although neither received the full selling price, together they raised $1,300 (equivalent to $7,400 in 2025).\n[…]\nApple Computer, Inc. was incorporated in Cupertino, California, on January 3, 1977, without Wayne, who had left and sold his share of the company back to Jobs and Wozniak for $800 (equivalent to $4,530 in 2025) twelve days after its founding. Multimillionaire Mike Markkula provided business expertise and invested $250,000 (equivalent to $1,328,000 in 2025) during the company's incorporation. During its first five years, revenue grew rapidly, doubling approximately every four months.\n[…]\nAccording to Steve Jobs, the company's name was inspired by his visit to an apple farm while on a fruitarian diet. Apple's first logo, designed by Ron Wayne, depicts Sir Isaac Newton sitting under an apple tree. It was replaced in 1977 by a rainbow-colored silhouette of an apple with a bite taken out of it, designed by Rob Janoff.\n[…]\nRonald Sugar\n[…]\nThe Apple Fellows program awards employees for extraordinary technical or leadership contributions to personal computing. Recipients include Bill Atkinson, Steve Capps, Rod Holt, Alan Kay, Guy Kawasaki, Al Alcorn, Don Norman, Rich Page, Steve Wozniak, and Phil Schiller."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ronald_Wayne",
+        "situacao": "ok",
+        "texto": "Ronald Gerald Tito Wayne (Cleveland, Ohio, Estados Unidos; 17 de maio de 1934) é um empresário americano aposentado da indústria eletrônica. Ele co-fundou a Apple Computer (atual Apple Inc.), juntamente com Steve Jobs e Steve Wozniak, em 1º de abril de 1976, proporcionando supervisão administrativa fundamental para o novo empreendimento.\n[…]\nDoze dias depois, ele vendeu sua participação de 10% na nova empresa de volta para Jobs e Wozniak por US$ 800 (equivalente a US$ 3.810 em 2021), e um ano depois aceitou um final de US$ 1.500 (equivalente a US$ 7.143 em 2021) para perder qualquer potenciais reivindicações futuras contra a recém-incorporada Apple.\n[…]\nRon Wayne – Official Website\n[…]\nRon Wayne on Facebook\n[…]\nRon Wayne on Twitter\n[…]\nRon Wayne interview by OMT\n[…]\nNPR report \"Lost\" Apple Founder Has No Regrets – June 13, 2010\n[…]\nRon Wayne, Apple Co-Founder, Shares Steve Jobs' \"Richest Man in the Cemetery\" Sentiment Almost Verbatim, Village Voice, October 8, 2011",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Pepsi",
+      "descricao": "Refrigerante de cola criado em New Bern, na Carolina do Norte, no fim do século dezenove."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem era o farmacêutico de New Bern, na Carolina do Norte, que inventou a Pepsi no fim do século dezenove?",
+    "resposta": "Caleb Bradham",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caleb_Bradham",
+      "https://en.wikipedia.org/wiki/Pepsi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Caleb_Bradham",
+        "situacao": "ok",
+        "texto": "Caleb Davis Bradham (May 27, 1867 – February 19, 1934) was an American pharmacist who invented the soft drink Pepsi.\n[…]\nBradham was born Caleb Davis Bradham on May 27, 1867, in Chinquapin, North Carolina, to George Washington Bradham and Julia McCann Bradham. Bradham was of English and Scots-Irish descent.\n[…]\nCirca 1890, he dropped out of the University of Maryland School of Medicine, owing to his father's business going bankrupt. After returning to North Carolina, he was a public school teacher for about a year and soon thereafter opened a drug store in New Bern named the \"Bradham Drug Company\" that, like many other drug stores of the time,  also housed a soda fountain.\n[…]\nMiddle Street and Pollock Street in downtown New Bern is where Bradham, in 1893, invented the recipe—a blend of kola nut extract, vanilla, and \"rare oils\"—for what was initially known as \"Brad's Drink,\" but on August 28, 1898, was renamed Pepsi-Cola.\n[…]\nOn December 24, 1902, the Pepsi-Cola Company was incorporated in North Carolina, with Bradham as the president, and on June 16, 1903, the first Pepsi-Cola trademark was registered. Also in 1903, he moved his Pepsi-Cola production out of his drug store and into a rented building nearby. In 1905, Bradham began selling Pepsi-Cola in six-ounce bottles (up until this time he sold Pepsi-Cola as a syrup only) and awarded two franchises to North Carolina bottlers.\n[…]\nOn January 4, 1901, Bradham married Charity Credle in New Bern, North Carolina. He owned the Slover-Bradham House from 1908 to 1934. The house was listed on the National Register of Historic Places in 1973.\n[…]\nCaleb Bradham at Find a Grave"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pepsi",
+        "situacao": "ok",
+        "texto": "Pepsi is a carbonated soft drink with a cola flavor, the flagship product of PepsiCo. In 2023, Pepsi was the second most valuable soft drink brand worldwide behind Coca-Cola; the two share a long-standing rivalry in what has been called the \"cola wars\".\n[…]\nPepsi, originally created in 1893 by Caleb Bradham and named \"Brad's Drink,\" was first sold in his drugstore in New Bern, North Carolina. Renamed \"Pepsi-Cola\" in 1898 due to its supposed digestive benefits, its name was shortened in marketing to \"Pepsi\" as early as 1951. Early on, Pepsi struggled with financial stability, going bankrupt in 1923 but was subsequently purchased and revived by Charles Guth, who reformulated the syrup.\n[…]\nPepsi was first invented in 1893 as \"Brad's Drink\" by Caleb Bradham, who sold the drink at his drugstore in New Bern, North Carolina. Bradham sought to create a fountain drink that was appealing and would aid in digestion and boost energy.\n[…]\nBradham would incorporate the Pepsi-Cola Company on December 24, 1902, and moved the bottling of Pepsi from his drugstore to a rented warehouse in 1903. That year, Bradham would sell 7,968 gallons of syrup. The next year, Pepsi would be introduced in six-ounce bottles, and sales increased to 19,848 gallons.\n[…]\nIn 1985, The Coca-Cola Company, amid much publicity, changed its formula. The theory has been advanced that New Coke, as the reformulated drink came to be known, was invented specifically in response to the Pepsi Challenge. However, a consumer backlash led to Coca-Cola quickly reintroducing the original formula as \"Coca-Cola Classic\".\n[…]\nStoddard, Bob. Pepsi-Cola – 100 Years (1997), General Publishing Group, Los Angeles, California\n[…]\n\"History & Milestones\" (1996), Pepsi packet"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caleb_Bradham",
+        "situacao": "ok",
+        "texto": "Caleb Davis Bradham (Chinquapin, Condado de Duplin, 27 de maio de 1867 — New Bern, 19 de fevereiro de 1934) foi um inventor e farmacêutico norte-americano e criador do refrigerante Pepsi-Cola.\n[…]\nEm 1890, ele saiu da Universidade de Maryland de Medicina, devido aos negócios do seu pai terem ido à falência. Depois de regressar à Carolina do Norte, ele foi professor de escola pública durante um ano, e logo depois abriu uma drogaria em \"New Bern\" chamado de \"Bradham Drug Company\", que como muitas outras drogarias do tempo, também abrigava uma fonte de soda.\n[…]\nEsta drogaria localizava-se na esquina da rua do Middle e Rua Pollock, no centro de New Bern, e foi onde Bradham, em 28 de agosto de 1898, inventou uma mistura de extrato de noz de cola, baunilha e óleos raros — para o que era inicialmente conhecido como \"Brad's Drink\", mas que logo foi rebatizado de Pepsi-Cola.\n[…]\nEm 24 de dezembro de 1902, a Pepsi-Cola Company foi incorporada na Carolina do Norte, com Bradham como presidente, e em 16 de junho de 1903 a Pepsi primeira marca Cola foi registada. Também em 1903, ele mudou a produção de sua Pepsi-Cola de sua drogaria para um prédio alugado próximo. Em 1905, Bradham começou a vender a Pepsi-Cola com seis garrafas de onça (até este tempo, ele vendera a Pepsi-Cola como um xarope apenas), e concedeu duas franquias de engarrafamento na Carolina do Norte.\n[…]\nEm 1 de Janeiro de 1901, casou-se com Sarah Charity em \"New Bern\". Em 1903, Bradham e Charity tiveram uma filha, Mary, seguida pelos filhos Caleb, Jr., em 1905, e George em 1907.\n[…]\nDepois de declarar falência, Bradham voltou a operar sua loja de droga.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Pepsi",
+      "descricao": "Refrigerante de cola criado em New Bern, na Carolina do Norte, no fim do século dezenove."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Pepsi vem de qual problema de saúde que a bebida, vendida em farmácia, prometia aliviar?",
+    "resposta": "Dispepsia (má digestão)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pepsi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pepsi",
+        "situacao": "ok",
+        "texto": "Pepsi is a carbonated soft drink with a cola flavor, the flagship product of PepsiCo. In 2023, Pepsi was the second most valuable soft drink brand worldwide behind Coca-Cola; the two share a long-standing rivalry in what has been called the \"cola wars\".\n[…]\nPepsi, originally created in 1893 by Caleb Bradham and named \"Brad's Drink,\" was first sold in his drugstore in New Bern, North Carolina. Renamed \"Pepsi-Cola\" in 1898 due to its supposed digestive benefits, its name was shortened in marketing to \"Pepsi\" as early as 1951. Early on, Pepsi struggled with financial stability, going bankrupt in 1923 but was subsequently purchased and revived by Charles Guth, who reformulated the syrup.\n[…]\nPepsi was first invented in 1893 as \"Brad's Drink\" by Caleb Bradham, who sold the drink at his drugstore in New Bern, North Carolina. Bradham sought to create a fountain drink that was appealing and would aid in digestion and boost energy.\n[…]\nIt was renamed \"Pepsi-Cola\" in 1898 due to its formula's inclusion of essence of pepsin. This was a then-common medicinal preparation made from the digestive enzyme pepsin, with glycerin and a mild alcohol added. It was often used as an additive to make bitter medicines palatable, as well as for curdling milk.\n[…]\nAccording to Beverage Digest's 2008 report on carbonated soft drinks, PepsiCo's U.S. market share is 30.8 percent, while The Coca-Cola Company's is 42.7 percent (this includes all their respective brands). Coca-Cola outsells Pepsi in most parts of the U.S., notable exceptions being central Appalachia, Montana, North Dakota, and Utah. In the city of Buffalo, New York, Pepsi outsells Coca-Cola by a two-to-one margin.\n[…]\nStoddard, Bob. Pepsi-Cola – 100 Years (1997), General Publishing Group, Los Angeles, California"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pepsi",
+        "situacao": "ok",
+        "texto": "Pepsi é um refrigerante gaseificado com sabor de cola, fabricado pela PepsiCo. Foi originalmente criado e desenvolvido em 1893 por Caleb Bradham nos Estados Unidos e tornou-se conhecido como Pepsi-Cola em 1898, antes de ser abreviado para Pepsi em 1961. Em 2023, era a segunda marca de refrigerantes mais valiosa do mundo, atrás apenas da Coca-Cola; ambas compartilham uma rivalidade de longa data no\n[…]\nFoi renomeada como \"Pepsi-Cola\" em 1898, \"Pepsi\" porque era anunciada para aliviar a dispepsia (indigestão) e \"Cola\" referindo-se ao sabor de cola. Alguns também sugeriram que o termo \"Pepsi\" pode ter sido uma referência à bebida que auxilia na digestão, como a enzima digestiva pepsina, mas a própria pepsina nunca foi usada como ingrediente da Pepsi-Cola. A receita original também incluía açúcar e baunilha.\n[…]\nBradham procurou criar uma bebida fonte que fosse atraente e ajudasse na digestão e aumentasse a energia.\n[…]\nEm 1903, Bradham transferiu o engarrafamento da Pepsi de sua drogaria para um armazém alugado. Naquele ano, Bradham vendeu 7.968 galões de xarope. No ano seguinte, a Pepsi foi vendida em garrafas de 180 mililitros e as vendas aumentaram para 19.848 galões. Em 1909, o pioneiro das corridas automobilísticas Barney Oldfield foi a primeira celebridade a endossar a Pepsi, descrevendo-a como \"uma bebida agressiva, refrescante e revigorante\".\n[…]\nEm 1923, a Pepsi-Cola Company entrou em falência - em grande parte devido às perdas financeiras incorridas pela especulação sobre as grandes flutuações dos preços do açúcar como resultado da Primeira Guerra Mundial. Os ativos foram vendidos e Roy C. Megargel comprou a marca Pepsi. Megargel não teve sucesso em encontrar financiamento para reviver a marca e logo os ativos da Pepsi-Cola foram comprados por Charles Guth, o presidente da Loft, Inc.\n[…]\nPepsi on Stage\n[…]\nIce Cola\n[…]\nCoca-Cola\n[…]\nBebida de cola",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "McDonald's",
+      "descricao": "Rede americana de lanchonetes de hambúrguer criada pelos irmãos Richard e Maurice McDonald na Califórnia, em 1940."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que vendedor de máquinas de milk-shake comprou o negócio dos irmãos McDonald e o transformou numa rede mundial?",
+    "resposta": "Ray Kroc",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ray_Kroc",
+      "https://en.wikipedia.org/wiki/McDonald%27s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ray_Kroc",
+        "situacao": "ok",
+        "texto": "Raymond Albert Kroc (October 5, 1902 – January 14, 1984) was an American businessman who was instrumental in turning McDonald's into the most successful global fast food corporation by revenue. He purchased the brand from the McDonald brothers in 1961, after several years as their franchising agent, and served as the leader of the company until his death.\n[…]\nAt the closing, Kroc became annoyed that the brothers would not transfer to him the real estate and rights to the original San Bernardino location. The brothers had told Kroc they were giving the operation, property and all, to the founding employees. In his anger, Kroc later opened a new McDonald's restaurant near the original McDonald's, which had been renamed the Big M because the brothers had neglected to retain rights to the name.\n[…]\nKroc felt that no one would want to eat at a restaurant chain called \"Kroc's\" and therefore was adamant about obtaining the rights to \"McDonald's\".\n[…]\nKroc's acquisition of the McDonald's franchise as well as his \"Kroc-style\" business tactics are the subject of Mark Knopfler's 2004 song \"Boom, Like That\".\n[…]\nHe co-authored the book Grinding It Out, first published in 1977 and reissued in 2016; it served as the basis for The Founder, a biographical movie about Kroc directed by John Lee Hancock and starring Michael Keaton as Kroc. The film's depiction of Kroc's franchise development, nationwide expansion, and ultimate acquisition of McDonald's offered a critical view of his treatment of the founding McDonald brothers.\n[…]\nHistory of McDonald's\n[…]\nKroc, Ray; Anderson, Robert (1977). Grinding It Out: The Making of McDonald's. Chicago: Henry Regnery Company. ISBN 978-0-8092-8259-3.\n[…]\nMattern, Joanne (2011). Ray Kroc: McDonald's Restaurants Builder. ABDO. ISBN 978-1-61613-559-1. Retrieved June 12, 2011.\n[…]\nQuotations related to Ray Kroc at Wikiquote\n[…]\nRay Kroc at Find a Grave"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+        "situacao": "ok",
+        "texto": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were ope\n[…]\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international expansion.\n[…]\nThe present corporation credits its founding to franchised businessman Ray Kroc on April 15, 1955. This was the ninth opened McDonald's restaurant overall, although this location was demolished in 1984. Kroc was recorded as being an aggressive business partner, driving the McDonald brothers out of the industry.\n[…]\nKroc and the McDonald brothers fought for control of the business, as documented in Kroc's autobiography. In 1961, he purchased the McDonald brothers' equity in the company and began the company's worldwide reach. The sale cost Kroc $2.7 million (worth almost $29,089,644 in the current day). The San Bernardino restaurant was eventually torn down in 1971, and the site was sold to the Juan Pollo chain in 1998.\n[…]\nThe Founder, a 2016 biopic of Ray Kroc and the business history of McDonald's\n[…]\nMcDonaldization – Sociological concept\n[…]\nKroc, Ray. Grinding It Out: The Making of McDonald's, 1977 ISBN 0809282593 a primary source\n[…]\nWatson, James L., ed. Golden Arches East: McDonald's in East Asia (Stanford University Press, 2006) excerpt\n[…]\nBusiness data for McDonald's Corporation:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ray_Kroc",
+        "situacao": "ok",
+        "texto": "Raymond Alexander \"Ray\" Kroc (Oak Park, Illinois, 5 de outubro de 1902 — San Diego, 14 de janeiro de 1984) foi um empresário norte-americano e comprador da rede de fast-food McDonald's em 1955.\n[…]\nTiravam pouco dinheiro do negócio e tinham obtido resultados pífios em duas experiências com franquias. De tanto insistir, Kroc conseguiu um acordo. Venderia franquias da marca a US$ 950 cada. Ficaria com 1,4% dos resultados e 0,5% iria para a conta dos irmãos.\n[…]\nA rede imaginada por Kroc nasceu com uma lanchonete nas imediações de Chicago, em 1955. A loja, uma cópia perfeita da máquina de fazer sanduíches de San Bernardino, vendeu US$ 366 no primeiro dia de funcionamento e logo tornou-se lucrativa. O McDonald’s não era a única cadeia de restaurantes desse tipo que começava a surgir nos Estados Unidos. Com a concorrência apertando, Kroc tornou-se obsessivo com o controle de qualidade, a limpeza e o serviço nas lojas.\n[…]\nCada hambúrguer deveria ter exatamente a mesma quantidade de carne e as mesmas duas rodelas de picles. Num esquema que até hoje é posto em prática, a rede começou a comprar terrenos e alugá-los para os franqueados. Para aumentar a rentabilidade do negócio, Kroc comprou o terreno onde situava-se a sede dos fundadores da rede, os irmãos McDonald, obtendo controle sobre o estabelecimento, o que acabou praticamente deixando-os sem saída e forçando-os a vender a marca a Kroc.\n[…]\nEm 1972, suas 2,2 mil lojas vendiam mais de US$ 1 bilhão e Kroc achou que era hora de expandir os negócios no exterior. Em menos de uma década, a rede McDonald’s já tinha se tornado uma marca reconhecida no mundo inteiro, que hoje lhe garante um faturamento anual de quase US$ 40 bilhões.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Post-it",
+      "descricao": "Bloco de papeizinhos com adesivo removível, lançado nos Estados Unidos em 1980."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+    "resposta": "3M",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Post-it_Note"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "situacao": "ok",
+        "texto": "A Post-it note (or sticky note) is a small piece of paper with a re-adherable strip of glue on its back, made for temporarily attaching notes to documents and other surfaces. A low-tack pressure-sensitive adhesive allows the notes to be easily attached, removed, and even re-posted elsewhere without leaving residue. The Post-it's signature adhesive was discovered accidentally by a scientist at 3M.\n[…]\nIn 2010, the creators of the Post-it note joined the National Inventors Hall of Fame as a result of the widespread success of the Post-it note.\n[…]\nIn 2000, the 20th anniversary of Post-it notes was celebrated by having artists create artworks on the notes. One such work, by the artist R. B. Kitaj, sold for £640 in an auction, making it the most valuable Post-it note on record.\n[…]\nSidewalks Labs, a Google-owned company that focuses on urban innovation, opened a public workspace in Quayside, Toronto, that supports public engagement in the city-planning process. Plans are presented here and the public can freely share their ideas, opinions, and feedback on potential projects, often in the form of Post-it note annotations.\n[…]\nPost-it notes have also been used in museums to allow for more public interactivity and participation. In 2016, at the Minnesota History Center in St. Paul, Minnesota, the public wrote their reflections on the life of Prince on Post-it notes and posted them near the exhibit. Some Post-it notes were archived by the museum to preserve the public sentiment expressed at the time.\n[…]\nPost-it homepage\n[…]\n\"Sticking around – the Post-it note is 20\". BBC News. 2000-04-06.\n[…]\nBeato, Greg (2005-03-24). \"Twenty-Five Years of Post-it Notes\". The Rake. Archived from the original on 2008-04-15.\n[…]\nPost-it Note History by 3M\n[…]\nStavroula Karapapa, (2019). Post-it note. In Claudy Op den Kamp and Dan Hunter (eds.), A History of Intellectual Property in 50 Objects, Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Post-it",
+        "situacao": "ok",
+        "texto": "Um post-it (ou nota adesiva) é um pequeno pedaço de papel com uma tira de cola re-adesiva no verso, feito para anexar notas temporariamente a documentos e outras superfícies. Um adesivo sensível à pressão de baixa aderência permite que as notas sejam facilmente anexadas, removidas e até recolocadas em outro lugar sem deixar resíduos. Originalmente pequenos quadrados amarelos, os post-its e produto\n[…]\nEmbora a patente da 3M tenha expirado em 1997, \"Post-it\" e a cor amarela característica das notas originais continuam sendo marcas registradas da empresa, com termos como \"notas reposicionáveis\" usadas para ofertas semelhantes fabricadas por concorrentes. Embora o uso da marca registrada 'Post-it' em um sentido representativo se refira a qualquer nota adesiva, nenhuma autoridade legal jamais considerou a marca registrada como genérica.\n[…]\nEm 2003, a empresa lançou o \"Post-it Brand Super Sticky Notes\", com uma cola mais forte que adere melhor a superfícies verticais e não lisas.\n[…]\nAté a patente da 3M expirar na década de 1990, as notas tipo Post-it eram produzidas apenas na fábrica da empresa em Cynthiana, Kentucky.\n[…]\nEm 2018, a 3M lançou o \"Post-It Extreme Notes\", que são mais duráveis ​​e resistentes à água e que aderem à madeira e outros materiais em ambientes industriais.\n[…]\nAlan Amron afirmou ter sido o inventor real em 1973 que divulgou a tecnologia Post-it para a 3M em 1974. Seu processo de 1997 contra a 3M foi resolvido com um pagamento da 3M para Amron. Como parte do acordo, a Amron concordou em não fazer reclamações futuras contra a empresa, a menos que o acordo fosse violado. No entanto, em 2016, ele abriu um novo processo contra a 3M, afirmando que a 3M estava alegando erroneamente ser a inventora e pedindo quatrocentos milhões de dólares em danos.\n[…]\nPost-it homepage\n[…]\nThe Rake magazine article on 25th anniversary of Post-it notes\n[…]\nPost-it Note History by 3M",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Post-it",
+      "descricao": "Bloco de papeizinhos com adesivo removível, lançado nos Estados Unidos em 1980."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O químico Art Fry pensou no Post-it porque queria um marcador que não caísse de qual livro, usado no coral da igreja?",
+    "resposta": "Hinário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Post-it_Note",
+      "https://en.wikipedia.org/wiki/Art_Fry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "situacao": "ok",
+        "texto": "A Post-it note (or sticky note) is a small piece of paper with a re-adherable strip of glue on its back, made for temporarily attaching notes to documents and other surfaces. A low-tack pressure-sensitive adhesive allows the notes to be easily attached, removed, and even re-posted elsewhere without leaving residue. The Post-it's signature adhesive was discovered accidentally by a scientist at 3M.\n[…]\nIn 2019, the Post-it App was relaunched.\n[…]\nIn 2010, the creators of the Post-it note joined the National Inventors Hall of Fame as a result of the widespread success of the Post-it note.\n[…]\nPost-it notes may have a positive effect on how people interact with information presented to them. This is backed up by research that aimed to determine how attaching a blank Post-it note to a survey affected participation in the survey. The research found that the surveys with affixed Post-it notes were more likely to be completed and returned, and that the participants were more likely to write higher quality responses to the questions.\n[…]\nIn 2000, the 20th anniversary of Post-it notes was celebrated by having artists create artworks on the notes. One such work, by the artist R. B. Kitaj, sold for £640 in an auction, making it the most valuable Post-it note on record.\n[…]\nSidewalks Labs, a Google-owned company that focuses on urban innovation, opened a public workspace in Quayside, Toronto, that supports public engagement in the city-planning process. Plans are presented here and the public can freely share their ideas, opinions, and feedback on potential projects, often in the form of Post-it note annotations.\n[…]\nPost-it homepage\n[…]\n\"Sticking around – the Post-it note is 20\". BBC News. 2000-04-06.\n[…]\nPost-it Note History by 3M\n[…]\nStavroula Karapapa, (2019). Post-it note. In Claudy Op den Kamp and Dan Hunter (eds.), A History of Intellectual Property in 50 Objects, Cambridge University Press."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Art_Fry",
+        "situacao": "ok",
+        "texto": "Arthur \"Art\" Fry (born August 19, 1931) is an American inventor and scientist. He is credited as the co-creator of the Post-it Note (though this is disputed by some), an item of office stationery manufactured by 3M. As of 2006, Post-it products are sold in more than 100 countries.\n[…]\nFry currently resides in Saint Paul, Minnesota. He was mentioned in the 1997 film Romy and Michele's High School Reunion as the true inventor of Post-its.\n[…]\nIn 2003 the Post-it Note played a central role in a new play titled Inside a Bigger Box that premiered in New York at the 78th Street Theatre Lab (written by Trish Harnetiaux and directed by Jude Domski). In conjunction with the show Harnetiaux, Domski and the artist non-profit NurtureART curated an International Post-it Note Art exhibit and a panel discussion took place with various artists.\n[…]\nPost-it Note inventor Arthur Fry participated in the panel which was curated by Museum of Modern Art (MoMA) head of design Paola Antonelli.\n[…]\nIn 2025, the Post-it Note was included in Pirouette: Turning Points in Design, an exhibition at the MoMA featuring \"widely recognized design icons [...] highlighting pivotal moments in design history.\"\n[…]\nInventor Alan Amron claimed to have disclosed the technology used in the Post-it Note to 3M in 1974. His 1997 suit against 3M was settled and 3M paid Amron. As part of the settlement, Amron undertook not to make future claims against the company except if ever a breach of the settlement agreement should occur. In 2016, he launched a further suit against 3M, asserting that 3M were wrongly claiming to be the inventors, and seeking $400 million in damages. In September 2016, the case was dismissed.\n[…]\nArt Fry and the Invention of Post-it Notes - From the 3M United States website."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Post-it",
+        "situacao": "ok",
+        "texto": "Um post-it (ou nota adesiva) é um pequeno pedaço de papel com uma tira de cola re-adesiva no verso, feito para anexar notas temporariamente a documentos e outras superfícies. Um adesivo sensível à pressão de baixa aderência permite que as notas sejam facilmente anexadas, removidas e até recolocadas em outro lugar sem deixar resíduos. Originalmente pequenos quadrados amarelos, os post-its e produto\n[…]\nEm 1974, um colega que havia participado de um de seus seminários, Art Fry, teve a ideia de usar o adesivo para ancorar seu marcador em seu hinário. Fry então utilizou a política de \"bootlegging permitido\" da 3M para desenvolver a ideia. A cor amarelo-pálido das notas originais foi escolhida por acaso, a partir da cor do papel de rascunho usado pelo laboratório ao lado da equipe do Post-It.\n[…]\nEm 2003, a empresa lançou o \"Post-it Brand Super Sticky Notes\", com uma cola mais forte que adere melhor a superfícies verticais e não lisas.\n[…]\nAté a patente da 3M expirar na década de 1990, as notas tipo Post-it eram produzidas apenas na fábrica da empresa em Cynthiana, Kentucky.\n[…]\nEm 2018, a 3M lançou o \"Post-It Extreme Notes\", que são mais duráveis ​​e resistentes à água e que aderem à madeira e outros materiais em ambientes industriais.\n[…]\nAlan Amron afirmou ter sido o inventor real em 1973 que divulgou a tecnologia Post-it para a 3M em 1974. Seu processo de 1997 contra a 3M foi resolvido com um pagamento da 3M para Amron. Como parte do acordo, a Amron concordou em não fazer reclamações futuras contra a empresa, a menos que o acordo fosse violado. No entanto, em 2016, ele abriu um novo processo contra a 3M, afirmando que a 3M estava alegando erroneamente ser a inventora e pedindo quatrocentos milhões de dólares em danos.\n[…]\nPost-it homepage\n[…]\nBBC news article on 20th anniversary of Post-it Notes\n[…]\nThe Rake magazine article on 25th anniversary of Post-it notes\n[…]\nPost-it Note History by 3M",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Jack Daniel's",
+      "descricao": "Marca de uísque americano produzida em Lynchburg, no Tennessee, desde o século dezenove."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Segundo a própria destilaria, quem ensinou o jovem Jack Daniel a fazer uísque no Tennessee, no século dezenove?",
+    "resposta": "Nearest Green",
+    "distratores": [
+      "Jim Beam",
+      "Elijah Craig",
+      "Evan Williams"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nearest_Green",
+      "https://en.wikipedia.org/wiki/Jack_Daniel%27s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nearest_Green",
+        "situacao": "ok",
+        "texto": "Nathan \"Nearest\" Green (c. 1820 – after 1880), incorrectly spelled \"Nearis\" in an 1880 census, was an American head stiller,  more commonly referred to as a master distiller. Born into slavery and emancipated after the American Civil War, he taught his distilling techniques to Jack Daniel, founder of the Jack Daniel's Tennessee whiskey distillery.\n[…]\nA USA Today article published in July 2017 corrected the Nearis spelling of his name and confirmed that Jack Daniel said his correct name was Nathan \"Nearest\" Green. Another article published by The Tennessee Tribune in March 2019 confirmed through the story of Fawn Weaver, an African American real estate investor and author, that Green's story continues to be passed down orally through the generations.\n[…]\nGreen served as master distiller. According to one biographer, \"Only a few years older than Jack, [Green] taught him all about the still.\"\n[…]\nIn all, seven straight generations of Nearest Green's descendants have worked for Jack Daniel Distillery, with three direct descendants continuing to work there as of November 2017.\n[…]\nIn July 2017, Uncle Nearest, Inc., created a whiskey honoring the legacy of Nearest Green. Debuting as \"Uncle Nearest 1856 Premium Whiskey\", it was created by working with two Tennessee distilleries, but not Jack Daniel Distillery.\n[…]\nIn September 2017, the Nearest Green Foundation announced the inaugural class of descendants receiving full scholarships to college and grad school to continue their ancestor's legacy of excellence. The foundation is funded by the sales of Uncle Nearest Premium Whiskey and the sales of Jack Daniel's official biography, Jack Daniel's Legacy.\n[…]\nUncle Nearest's Master distiller, Victoria Eady Butler, is Green's great-great-granddaughter, and the first known African-American female whiskey master distiller.\n[…]\nNearest Green Foundation"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jack_Daniel%27s",
+        "situacao": "ok",
+        "texto": "Jack Daniel's is a brand of Tennessee whiskey produced at Jack Daniel Distillery in Lynchburg, Tennessee, which has been owned by Brown-Forman since 1956.\n[…]\nAs a teenager, Daniel was taken in by Dan Call, a local lay preacher and moonshine distiller. He began learning the distilling trade from Call and his Master Distiller, Nathan \"Nearest\" Green, an enslaved African-American man. Green was known to specialize in the Lincoln County Process, a distilling process that filters the whiskey through sugar maple charcoal. This process created the distinction between bourbon and the Tennessee whiskey known today.\n[…]\nWhile under Green as an apprentice, Daniel was taught the Lincoln County Process. Green continued to work with Call after emancipation.\n[…]\nUntil 1987, Jack Daniel's black label was historically produced at 90 U.S. proof (45% alcohol by volume). The lower-end green label product was 80 proof. However, starting in 1987, the other label variations also were reduced in proof. This began with black label being initially reduced to 86 proof.\n[…]\nBoth the black and green label expressions are made from the same ingredients; the difference is determined by professional tasters, who decide which of the batches would be sold under the \"premium\" black label, with the rest being sold as \"standard\" green label.\n[…]\nFormer Master Distillers include Nathan \"Nearest\" Green (1875–81), Jess Motlow (1911–41), Lem Tolley (1941–64), Jess Gamble (1964–66), and Frank Bobo (1966–92).\n[…]\nGreen Label: A lighter-bodied bottling of Old No. 7 (80 proof/40% ABV)\n[…]\nJack Daniel's is a common choice for the Tennessee Whiskey component of the \"three wise men\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nathan_Green",
+        "situacao": "ok",
+        "texto": "Nathan \"Nearest\" Green (Lynchburg, c. 1820) foi um destilador estadunidense. Green foi o primeiro destilador afro-americano conhecido, que ensinou suas técnicas de destilação a Jack Daniel, fundador da destilaria de uísque Jack Daniel's Tennessee. Foi contratado como o primeiro mestre destilador da Jack Daniel Distillery.\n[…]\nUm artigo do USA Today publicado em julho de 2017 corrigiu a grafia Nearis de seu nome e confirmou que Jack Daniel disse que seu nome correto era Nathan \"Nearest\" Green.\n[…]\nA documentação mostra que Green era de propriedade de uma empresa conhecida como Landis & Green, que provavelmente o contratou para a Call por uma taxa. Green foi uma das poucas pessoas escravizadas que ficaram trabalhando para Call após a Proclamação de Emancipação. Ao apresentar Green a Jack Daniel quando tinha 8 anos, Call é citado dizendo: \"O tio Nearest é o melhor fabricante de uísque que eu conheço\".\n[…]\nA escravidão terminou com a ratificação da Décima Terceira Emenda à Constituição dos Estados Unidos, em 1865. Daniel abriu sua destilaria um ano depois e imediatamente empregou dois dos filhos de Green, George e Eli Green. Ao todo, pelo menos três dos filhos de Green faziam parte da equipe da Jack Daniel Distillery: George Green, Edde Green e Eli Green. Pelo menos quatro dos netos de Nearest se juntaram à equipe de Jack Daniel, Ott, Charlie, Otis e Jesse Green.\n[…]\nAo todo, sete gerações consecutivas de descendentes de Nearest Green trabalharam para a Jack Daniel Distillery, com três descendentes diretos continuando a trabalhar lá em novembro de 2017.\n[…]\nEm julho de 2017, a Uncle Nearest Inc., criou um uísque em homenagem ao legado de Nearest Green. Chamado \"Uncle Nearest 1856 Premium Whiskey\", foi criado trabalhando com duas destilarias do Tennessee, mas não com a Jack Daniel Distillery.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Guaraná Jesus",
+      "descricao": "Refrigerante de guaraná cor-de-rosa criado em 1920 pelo farmacêutico Jesus Norberto Gomes, em São Luís."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Guaraná Jesus, refrigerante cor-de-rosa criado por um farmacêutico em 1920, é tradicional de qual estado brasileiro?",
+    "resposta": "Maranhão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Jesus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Jesus",
+        "situacao": "ok",
+        "texto": "Guaraná Jesus é uma marca de refrigerante pertencente à The Coca-Cola Company que é fabricado e distribuído principalmente no estado do Maranhão, no Brasil, local em que suas vendas ultrapassam as das demais marcas de refrigerante.\n[…]\nGuaraná Jesus é um refrigerante de cor rosa com sabor adocicado, lembrando vagamente tutti-frutti, devido a estes serem alegadamente dois de seus 17 ingredientes, e muito popular no estado do Maranhão.\n[…]\nObstinado para criar um refrigerante de agradasse um público maior, Jesus continuou com suas pesquisas e experiências, até que chegou criou a fórmula da Kola Guaraná Jesus, que agradou os consumidores, tanto pelo seu sabor quanto pela coloração começou a ser fabricado e vendido de fato em 1920.A cor rosa e o sabor adocicado que lembrava vagamente os sabores de cravo e canela, ingredientes muito consumidos no Estado do Maranhão, se tornou muito popular, segundo a lenda a fórmula secreta da bebida tinha 17 ingredientes.\n[…]\nO Guaraná Jesus se tornou praticamente um símbolo cultural maranhense.\n[…]\nTrês anos depois, em 1963 o criador da marca acabou falecendo e o negócio permaneceu nas mãos de sua família até 1980, quando a marca Guaraná Jesus foi vendida para a Companhia Maranhense de Refrigerantes, quando eles também passaram a engarrafar os produtos.\n[…]\nEm 2001 a The Coca-Cola Company comprou os direitos da marca Guaraná Jesus e cinco anos mais tarde uma franquia da Coca Cola chamada Renosa comprou a Companhia Maranhense de Refrigerantes, fazendo com que o Guaraná Jesus continuasse a ser comercializado somente no Estado do Maranhão.\n[…]\nRefrigerantes"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Chocolates Garoto",
+      "descricao": "Fabricante brasileira de chocolates fundada em 1929 pelo imigrante alemão Heinrich Meyerfreund."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A fábrica de chocolates Garoto foi fundada em 1929 por um imigrante alemão em qual cidade do Espírito Santo?",
+    "resposta": "Vila Velha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chocolates_Garoto"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chocolates_Garoto",
+        "situacao": "ok",
+        "texto": "Garoto é uma indústria brasileira do ramo alimentício, sediada no município de Vila Velha, estado do Espírito Santo. É uma das dez maiores fabricantes de chocolates do mundo, sendo a maior da América Latina.\n[…]\nDentre os produtos que fabrica estão: caixas de bombons, tabletes, ovos de Páscoa e chocolate para uso culinário como coberturas e pó solúvel, que podem ser encontrados em mais de 50 países. Seus maiores sucessos são a Caixa Amarela e os tabletes familiares com a marca Garoto; as variedades dos chocolates Baton e Talento, além do clássico bombom Serenata de Amor.\n[…]\nDentre suas atividades de comunicação destacam-se as Dez Milhas Garoto. É a mais tradicional e importante corrida do Espírito Santo entre os corredores profissionais e amadores.\n[…]\nA empresa possui diversas marcas usadas em chocolates e sorvetes entre elas estão:\n[…]\nGaroto, usada para chocolate e pastilhas de hortelã;\n[…]\nTalento, usada para chocolate e sorvetes;\n[…]\nCrocante, usada para chocolate;\n[…]\nBaton, usada para chocolate e sorvete;\n[…]\nSerenata de Amor, usada para chocolate, sorvete e confeitos;\n[…]\nPaçoca, usada para chocolate;\n[…]\nSurreal, usada para chocolate;\n[…]\nCaribe, usada para chocolate;\n[…]\nOpereta, usada para chocolate e sorvetes;\n[…]\nIt Coco, usada para chocolate;\n[…]\nAero, usada para chocolate (Aero é uma marca mundial da Nestlé para chocolate aerado mas que no Brasil foi lançada pela Garoto, em 2014).\n[…]\nA Chocolates Garoto vem praticando de forma contínua a chamada maquiagem de produtos, que é a redução do volume de suas mercadorias. Como exemplo temos o chocolate em barra, que foi perdendo volume de forma paulatina, passando dos 200 gramas originais para até 90 gramas (-55%). A tradicional caixa de bombons passou de 500 gramas para 250 gramas (-50%)."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Tramontina",
+      "descricao": "Fabricante brasileira de facas, panelas e utensílios, surgida em 1911 como uma pequena ferraria de Valentin Tramontina."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que estado brasileiro nasceu, em 1911, a pequena ferraria que deu origem às facas e panelas Tramontina?",
+    "resposta": "Rio Grande do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tramontina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tramontina",
+        "situacao": "ok",
+        "texto": "A Tramontina é uma empresa metalúrgica brasileira, fundada em 1911 e sediada no município de Carlos Barbosa, Rio Grande do Sul. Trabalha com um mix de mais de 22 mil itens, entre eles utensílios e equipamentos para cozinha, eletrodomésticos, porcelanas, ferramentas para agricultura, jardinagem, manutenção industrial e automotiva, construção civil, materiais elétricos, móveis de madeira e plástico,\n[…]\nA empresa foi fundada pelo artesão Valentin Tramontina, filho de imigrantes italianos que mudou-se para Carlos Barbosa, Rio Grande do Sul, em 1911, ao saber da chegada de uma linha férrea na cidade. O negócio iniciou a partir de uma pequena ferraria, onde executava reparos para indústrias da região, além de ferrar cavalos.\n[…]\nFundada em 1911, localizada na cidade de Carlos Barbosa (Rio Grande do Sul), produz facas de cozinha, profissionais e esportivas, utensílios de cozinha, talheres para uso diário, panelas, frigideiras, formas e assadeiras, tesouras, potes plásticos, itens de linha infantil, além de ampla linha de produtos e acessórios para churrasco. Em 2026, inaugurou uma filial no México para produção de frigideiras.\n[…]\nFundada em 1971, localizada na cidade de Farroupilha (Rio Grande do Sul), produz panelas, talheres e uma linha para servir de aço inoxidável, cozinhas profissionais, térmicos e eletroportáteis.\n[…]\nFundada em 1982, localizada na cidade de Carlos Barbosa (Rio Grande do Sul), produz equipamentos dirigíveis, ferramentas e equipamentos para jardinagem, agricultura e construção civil.\n[…]\nNo mercado brasileiro, a empresa conta com cinco Centros de Distribuição – Barueri (São Paulo), Belém (Pará), Carlos Barbosa (Rio Grande do Sul), Goiânia (Goiás) e Simões Filho (Bahia) – e cinco Escritórios Regionais de Vendas – em Belo Horizonte (Minas Gerais), Curitiba (Paraná), Porto Alegre (Rio Grande do Sul), Recife (Pernambuco) e Rio de Janeiro (Rio de Janeiro).\n[…]\nTramontina Store"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Toddy",
+      "descricao": "Marca de achocolatado em pó criada em 1916 e vendida no Brasil desde os anos 1930."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O achocolatado Toddy, que chegou ao Brasil nos anos trinta, foi criado em 1916 em qual ilha do Caribe?",
+    "resposta": "Porto Rico",
+    "distratores": [
+      "Cuba",
+      "Jamaica",
+      "República Dominicana"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Toddy"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Toddy",
+        "situacao": "ok",
+        "texto": "Toddy é uma linha de achocolatados em pó fabricada pela PepsiCo, principalmente comercializada e vendida na Argentina, no Brasil, na Venezuela e, com menor quota de mercado, nos Estados Unidos.\n[…]\nNa Venezuela e em algumas regiões do Brasil, o termo Toddy se refere a qualquer tipo de bebida feita de chocolate em pó (independentemente de sua marca) devido a sua grande popularização.\n[…]\nA Toddy foi fundada em 1916 pelo porto-riquenho Pedro Santiago.\n[…]\nEm 15 de março de 1933, Pedro Santiago obteve licença do governo provisório de Getúlio Vargas para comercializar o produto no Brasil. Santiago inovou em campanhas publicitárias contratando até mesmo aviões para escrever o nome do produto com fumaça nos céus do Rio de Janeiro.\n[…]\nEm 1981 a Toddy foi vendida para a Quaker Oats, que introduziu no ano seguinte o Toddynho, leite achocolatado preparado para o consumo que tem público alvo infantil.\n[…]\nNos últimos anos a marca vem se modernizando, principalmente após a compra da Quaker Oats pela PepsiCo, em 2001. Atualmente as campanhas publicitárias são estreladas por vacas com espírito jovem, \"doidas\" por música e também pelo achocolatado. A música aliás tem sido um ponto forte nos projetos de Toddy.\n[…]\nToddy começou apresentando vacas em comerciais de TV. Ora em versões de pessoas fantasiadas, ora em animações, as vacas logo foram parar também nas embalagens do achocolatado.\n[…]\nCom o sucesso das comunidades virtuais como o Orkut, a vaca ganhou dezenas de representantes na web, o que inclusive fugiu do controle da própria empresa. Atualmente a vaca continua sendo a estrela da comunicação de Toddy, além de aparições virtuais e reais em eventos patrocinados pelo achocolatado.\n[…]\n«Site oficial Brasil»"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Kibon",
+      "descricao": "Marca de sorvetes fundada no Brasil nos anos 1940 pelo empresário americano Ulysses Harkson."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O americano que fundou a Kibon no Brasil já fabricava sorvetes em qual país asiático, que deixou por causa da guerra?",
+    "resposta": "China",
+    "distratores": [
+      "Japão",
+      "Filipinas",
+      "Índia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Kibon"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kibon",
+        "situacao": "ok",
+        "texto": "Kibon é uma marca de sorvetes mais famosa do Brasil pertencente ao The Magnum Ice Cream Company, resultado da cisão dos negócios de sorvetes da Unilever. Além do Brasil, a Kibon também está presente na Argentina, Uruguai, Suriname e também nas Ilhas Malvinas.\n[…]\nEm 1938, a Segunda Guerra Sino-Japonesa inspirou o norte-americano Ulysses Severin Harkson, dono da Hazelwood Ice Cream Company, de Xangai, a sair da China. O gerente comercial John Kent Lutey foi incumbido de procurar um outro país para implantar a empresa, planejando inicialmente na Argentina, mas optando por ficar no Brasil quando parou no Rio de Janeiro.\n[…]\nComprou uma pequena fábrica falida de sorvetes, Gato Preto, e abriu após reformas com o nome de US Harkson do Brasil no dia 24 de julho de 1941. No começo, foi difícil, já que ocorria a Segunda Guerra Mundial, que obrigava o país a racionar açúcar e leite, além de impossibilitar melhores recursos, como a importação de máquinas adequadas para a produção de sorvete. Mas mesmo assim, a produção continuou, e vendeu 3 milhões de picolés em apenas um fim de semana.\n[…]\nFoi a segunda incursão da Gessy Lever no mercado de sorvetes brasileiro: em 1972 a empresa comprou a Alnasa, fundada dois anos antes por ex-funcionários da Kibon, vendendo sob o nome Gelato, que manteve-se no mercado até sair em 1993, cedendo algumas de suas marcas à Yopa, atualmente conhecida como Sorvetes Nestlé.\n[…]\nUma investigação de 2013 foi aberta globalmente para investigar se a Unilever e a Nestlé praticaram monopólio no mercado mundial de sorvetes, dificultando a entrada de novos concorrentes em padarias, restaurantes e lanchonetes. O caso envolveu a Heartbrand e suas subsidiárias nos países onde atuam, incluindo a Kibon e a Wall's.\n[…]\n«Site oficial da Kibon»"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Rolex",
+      "descricao": "Fabricante de relógios de luxo fundada em 1905 por Hans Wilsdorf e Alfred Davis, hoje sediada em Genebra."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Antes de se mudar para Genebra, a fabricante de relógios Rolex foi fundada em 1905 em qual cidade?",
+    "resposta": "Londres",
+    "distratores": [
+      "Paris",
+      "Zurique",
+      "Berlim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rolex"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rolex",
+        "situacao": "ok",
+        "texto": "Rolex ( ) is a Swiss luxury watchmaker and manufacturer based in Geneva, Switzerland. Founded in 1905 in London as Wilsdorf and Davis by German businessman Hans Wilsdorf and British investor and watch dealer Alfred Davis, who were importing watches from Switzerland to England. The company registered Rolex as the brand name of its watches in 1908 and became Rolex Watch Co. Ltd. in 1915.\n[…]\nAlfred Davis and his brother-in-law Hans Wilsdorf founded Wilsdorf and Davis, the company that would eventually become Rolex SA, in London in 1905. Wilsdorf and Davis's main commercial activity at the time involved importing Hermann Aegler's Swiss movements to England and placing them in watch cases made by Dennison and others. These early wristwatches were sold to many jewellers, who then put their own names on the dial.\n[…]\nIn 1908, Wilsdorf registered the trademark \"Rolex\", which became the brand name of watches from Wilsdorf and Davis. He opened an office in La Chaux-de-Fonds, Switzerland. Wilsdorf wanted the brand name to be easily pronounceable in any language, and short enough to fit on the face of a watch. He also thought that the name \"Rolex\" was onomatopoeic, sounding like a watch being wound.\n[…]\nOn 10 March 1943, while still a prisoner of war, Corporal Clive James Nutting, one of the organizers of the Great Escape, ordered a stainless steel Rolex Oyster 3525 Chronograph (valued at a current equivalent of £1,200) by mail directly from Hans Wilsdorf in Geneva, intending to pay for it with money he saved working as a shoemaker at the camp. The watch (Rolex watch no.\n[…]\nWilsdorf is reported to have been impressed with Nutting because, although not an officer, he had ordered the expensive Rolex 3525 Oyster chronograph while most other prisoners ordered the much cheaper Rolex Speed King model which was popular because of its small size.\n[…]\nRolex Tower\n[…]\nRolex v EUIPO"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rolex",
+        "situacao": "ok",
+        "texto": "Rolex SA é uma empresa suíça fabricante de relógios de pulso de luxo, fundada em Londres no ano de 1905 sob o nome de Wilsdorf & Davis pelo relojoeiro alemão Hans Wilsdorf e Alfred Davis. Fabrica anualmente cerca de 2 milhões de relógios e tem sede em Genebra. Sendo amplamente conhecida como a maior e mais famosa marca de relógios do mundo, é detida pela Fundação Hans Wilsdorf, também detentora da\n[…]\nMas o mais conhecido relojoeiro suíço foi sempre considerado como um intruso em Genebra. Talvez porque a empresa não começou na Suíça. Como foi mencionado, a Rolex foi fundada em Londres, em 1905, por Wilsdorf, então com 24 anos, um alemão que tornou-se cidadão inglês após casar-se com uma inglesa. Era um tempo em que as fronteiras nacionais tendiam a definir as ambições de um homem, mas Wilsdorf pensou grande desde o início.\n[…]\nEm 1908, antes que ninguém tivesse proferido o termo multinacional, Wilsdorf registrou com marca a palavra Rolex, um nome facilmente pronunciável em diferentes idiomas e curto o suficiente para se adequar a um mostrador de relógio. Diz-se que Wilsdorf sonhou com a palavra ao andar em um ônibus em Londres, tendo sido inspirado pelo som de um relógio ao ser dada a corda.\n[…]\nA companhia em sua primeira década foi guiada pela obsessão implacável de seu fundador pela precisão. Wilsdorf ainda não estava contente . Ele queria inventar o primeiro relógio de pulso verdadeiramente preciso, um com o qual você realmente pudesse governar sua vida. A validação veio em 1914, quando o Observatório Kew de Londres certificou um relógio de pulso Rolex com sendo tão preciso quanto um cronômetro marítimo.\n[…]\nEste apelo atemporal sempre se traduz em um excelente investimento. No final dos anos 1990, na casa de leilões Christie's, de Londres, a excitação causada pela venda de uma coleção privada de 360 Rolex, datados dos anos 1910 a 1990, surpreendeu até os maiores conhecedores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Bacardi",
+      "descricao": "Marca de rum fundada em 1862 por Facundo Bacardí Massó, cujo símbolo é um morcego."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O rum Bacardi, que tem um morcego como símbolo, foi fundado em 1862 em qual país?",
+    "resposta": "Cuba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacardi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bacardi",
+        "situacao": "ok",
+        "texto": "Bacardi Limited ( bə-KAR-dee, Spanish: [bakaɾˈði], Catalan: [bəkəɾˈði]) is the largest privately held, family-owned spirits company in the world. Originally known for its Bacardí brand of white rum, it now has a portfolio of more than 200 brands and labels. Founded in Cuba in 1862 by Facundo Bacardí i Massó, a Spanish businessman born in Sitges, Bacardi Limited has been family-owned for seven gene\n[…]\nMoving from the experimental stage to a more commercial endeavour as local sales began to grow, Facundo and his brother José purchased a Santiago de Cuba distillery on February 4, 1862, which housed a still made of copper and cast iron. In the rafters of this building lived fruit bats– the inspiration for the Bacardi bat logo.\n[…]\nIn 1965, over 100 years after the company was established in Cuba, Bacardi established new roots and found a new home with global headquarters in Hamilton, Bermuda. In February 2019, Bacardi's CEO, Mahesh Madhavan, stated that Bacardí's global headquarters would remain in Bermuda for the next \"500 years\" and that \"Bermuda is our home now.\"\n[…]\nBacardi drinks are not easily found in Cuba today. The main brand of rum in Cuba is Havana Club, produced by a company that was confiscated and nationalized by the government following the revolution. Bacardi later bought the brand from the original owners, the Arechabala family. In partnership with the French company Pernod Ricard, the Cuban government sells its Havana Club products internationally, except in the United States and its territories.\n[…]\nBacardi Lemon\n[…]\nBacardi Carta Blanca\n[…]\nErnest Hemingway lived in Cuba from 1939 until shortly after the Cuban Revolution. He lived at Finca Vigía, in the small town of San Francisco de Paula, located very close to Bacardi's Modelo Brewery for Hatuey Beer in Cotorro, Havana.\n[…]\nOn August 10, 2023, Ukrainian authorities added Bacardi to their list of International Sponsors of War."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bacardi",
+        "situacao": "ok",
+        "texto": "Bacardi Limited é uma fabricante de bebida alcoólica. Fundada em 1862, é a maior fabricante de destilados do mundo. Originalmente conhecida por sua marca Bacardí de rum branco, ela agora tem um portfólio de mais de 200 marcas e rótulos.\n[…]\nFundada em 4 de fevereiro de 1862 por Facundo Bacardí Massó (em catalão:  Facund Bacardí i Massó), um imigrante catalão em Santiago de Cuba.\n[…]\nPouco depois da ascensão de Fidel ao poder, em 1960, teve suas operações confiscadas pelo governo e sua família decidiu mudar-se de Cuba e exilar-se em Porto Rico, visto que não concordava com a reforma agrária e nacionalização de empresas promovidas pelo governo cubano.\n[…]\nDon Facundo Bacardí Massó e sua esposa, Amalia Moreau, iniciaram um novo negócio em 1862 com a compra de uma destilaria em Santiago de Cuba. Após extensa experimentação, Don Facundo desenvolveu um rum leve e elegante, com sabor que contrastava com o popular conhaque. Quando se mudaram,  Amalia notou uma colônia de morcegos frugívoros fazendo ninhos nos beirais da destilaria com telhado de zinco e sugeriu ao marido que o morcego se tornasse o símbolo do rum Bacardi.\n[…]\nA seleção do morcego também tem raízes no folclore, já que os morcegos simbolizam boa sorte tanto na Catalunha terra natal dos Bacardís, quanto entre as populações indígenas cubanas locais\n[…]\nBacardi Gold (Gold) - o mais tradicional, muito usado no drink cuba libre.\n[…]\nBacardi Mojito\n[…]\nOs produtos da marca foram concedidos a diversas ocasiões, incluindo organizações de prestígio. Bacardi 8, Bacardi Gold, Bacardi Reserva Limitada  receberam um prêmio de 'International High Quality Trophy' aos seleções mundial de qualidade, organizado pela Monde Selection. Bacardi 8 também foi premiado com uma medalha de ouro em 2011.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Speedo",
+      "descricao": "Marca de roupas e acessórios de natação surgida em 1914 como a malharia MacRae Knitting Mills."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Speedo, marca famosa pelas sungas e maiôs de natação, nasceu em 1914 em qual país?",
+    "resposta": "Austrália",
+    "distratores": [
+      "Estados Unidos",
+      "Inglaterra",
+      "Nova Zelândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Speedo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Speedo",
+        "situacao": "ok",
+        "texto": "Speedo International Limited is an Australian-British distributor of swimwear and swim-related accessories based in Nottingham, England.\n[…]\nFounded in Sydney, Australia in 1914 by Alexander MacRae, a Scottish emigrant, the company is now a subsidiary of the British Pentland Group. Today, the Speedo brand can be found on products ranging from swimsuits and goggles to wristwatches. The Speedo brand was previously manufactured for and marketed in North America as Speedo USA by PVH, under an exclusive perpetual licence, which had acquired prior licensee Warnaco Group in 2013.\n[…]\nAdditionally, Speedo International offers a line of men's underwear and Speedo Australia features a line of underwear called Speedo Underbody for men and women, sold only in select David Jones retail stores.\n[…]\nClare Dennis was nearly disqualified from her record-breaking Olympic meet because her suit showed too much skin; early Speedo bikinis were banned from some Australian beaches; more recently, the NASA technology in the LZR Racer suit Michael Phelps wore at the Beijing Olympics was the subject of great media scrutiny.\n[…]\nGoggles may be worn\". Early in 2000, Speedo hand-delivered their new Fastskin suits to 150 Olympic hopefuls and promised 6,000 more would be made available for Olympic trials. Fearing the possibility of Speedo-clad race winners being stripped of medals due to challenges, the Australian Olympic Committee (AOC) asked the Court of Arbitration for Sport to examine the legality of the FINA-sanctioned suits.\n[…]\nWarnaco Group – Speedo's exclusive North American licensee\n[…]\nSpeedo International Limited"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Speedo",
+        "situacao": "ok",
+        "texto": "Speedo é uma empresa produtora de acessórios para a prática de natação fundada em 1914 por Alexander MacRae em Sydney na Austrália. Produziu material utilizado por medalhistas em várias Olimpíadas e também atua como patrocinadora de atletas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Dr. Martens",
+      "descricao": "Marca de botas com sola de amortecimento de ar, criada pelo médico Klaus Märtens e popularizada no Reino Unido."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As botas Dr. Martens, símbolo do punk britânico, nasceram de uma sola acolchoada criada por um médico de qual país?",
+    "resposta": "Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dr._Martens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dr._Martens",
+        "situacao": "ok",
+        "texto": "Dr. Martens, also known as Doc Martens, Docs, or DMs, is a British footwear and clothing brand. Although most known for its durable footwear, it also makes a range of accessories, including clothing and bags. The footwear is distinguished by its air-cushioned sole, upper shape, welted construction, and yellow stitching. The company's global head office and design studio is located in Camden Town, \n[…]\nMartens the former brand president of Vans was hired as CEO.\n[…]\nIn January 2022, the Dr. Martens factory in Wollaston, Northamptonshire featured on the BBC programme Inside the Factory; Series 6, Leather boots.\n[…]\nDr. Martens was listed on the London Stock Exchange at a value of £3.7 billion in January 2021.\n[…]\nDescribed by Lauren Cochrane of The Guardian as \"fashion's subversive smash hit\", Dr. Martens have garnered significant following and ownership within various subcultures since the brand was established in England in 1960, including skinhead, punk, goth, Gen X, LGBT, grunge, Britpop, nu-metal and early emo.\n[…]\nAccording to the BBC, Pete Townshend of the Who \"became the first high-profile person to wear [Dr. Martens], as a symbol of his own working-class pride and rebellious attitude\". Other notable customers of the brand have included the Sex Pistols, the Clash, the Cure, Madness, Pope John Paul II, Miley Cyrus, Rihanna, Madonna, Spice Girls, Avril Lavigne, Gwen Stefani and the 14th Dalai Lama. Under John Paul II, the Swiss Guard were provided with Dr. Martens boots.\n[…]\nIn the 1975 British rock musical fantasy film Tommy, Elton John wore 4 ft 6 in (137 cm) DMs. On 30 September 2020, British heavy-metal pioneers Black Sabbath announced a Dr. Martens shoe collection to mark the 50th anniversaries of the band's Black Sabbath (1970) and Paranoid (1970) albums, with the boots depicting artwork from the band's eponymous debut album."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dr._Martens",
+        "situacao": "ok",
+        "texto": "Dr. Martens (frequentemente referidas como Doc Martens) é uma marca inglesa, criada na Alemanha em 1946, que inclui calçados, vestuários e acessórios, e que foi adotada nos anos 1960 e 1980 pela contra cultura, principalmente pelo movimento punk rock.\n[…]\nOs calçados, frequentemente conhecidos como Doc Martens, Docs ou DMS, é diferente por causa do seu solado por amortecimento aerado (dublado Bouncing Soles), desenvolvido pelo Dr. Klaus Märtens da Alemanha. As botas e sapatos foram especialmente popular entre os skinheads, punks, grungers e membros de algumas subculturas juvenis.\n[…]\nKlaus Märtens era médico no exército alemão durante a II Guerra Mundial. Enquanto estava de licença em 1945, machucou o tornozelo quando esquiava nos Alpes da Baviera. Ele descobriu que o padrão das botas militares era muito desconfortável e o deixava com os pés machucados. Enquanto se recuperava, ele projetou melhorias para as botas, como o couro macio, e solas por amortecimento aerado.\n[…]\nMartens não teve muita sorte vendendo seus sapatos, até que ele se encontrou com um velho amigo seu da universidade, Dr. Herbert Funck, em Munique, em 1947. Funck ficou intrigado com o design dos novos modelos de sapatos e os dois entraram em negócio em Seeshaupt no mesmo ano, na Alemanha, usando borracha descartada de aeroportos da Luftwaffe (força aérea alemã).\n[…]\nNo final dos anos 1960, os skinheads começaram a usar as botas Dr. Martens. No final de 1970, as botas Dr. Martens eram populares entre os integrantes do movimento punk rock britânico e músicos de New Wave, e logo, muitos fãs de punk rock vestiam-os. As botas e sapatos, em seguida, se tornaram populares entre outras subculturas juvenis.\n[…]\nDr Martens",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Fanta",
+      "descricao": "Refrigerante de frutas criado em 1940 por Max Keith, hoje pertencente à Coca-Cola."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Durante a Segunda Guerra, sem poder importar o xarope da Coca-Cola, em qual país foi criada a Fanta?",
+    "resposta": "Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fanta"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fanta",
+        "situacao": "ok",
+        "texto": "Fanta () is a German-founded, American-owned brand of carbonated, fruit-flavored soft drinks created by Coca-Cola Deutschland under the leadership of German businessman Max Keith. Today, the brand features over 200 flavors worldwide.\n[…]\nIn South Africa, Coca-Cola South Africa sells Fanta Orange, Fanta Orange No Sugar, Fanta Grape, and Fanta Pineapple. Fanta Exotic and Fanta Lemon are also available at certain retailers.\n[…]\nCoca-Cola Bottlers Philippines, Inc. (CCBPI) introduced Fanta in the early 1990s. During its production in the Philippines, Fanta and Royal coexisted together in the market.\n[…]\nIn Israel the Fanta flavors were marketed as Kinley because a small beverage company from Tiberias owned the Fenta brand, using the same spelling as Fanta in Hebrew. After that company ceased to exist, Coca Cola rebranded its fruity flavored sodas Fanta.\n[…]\nIn early February 2024, The Coca-Cola Company announced that Lilt (a pineapple and grapefruit soft drink sold in countries such as the UK and Ireland) would be rebranded as Fanta Pineapple and Grapefruit flavour on 14 February 2023.\n[…]\nIn February 2015, a 75th-anniversary version of Fanta was released in Germany. Packaged in glass bottles evoking the original design and with an authentic original wartime flavor including 30% whey and pomace, it is described on the packaging as \"less sweet\" and a German original. An associated television ad referenced the history of the drink and said the Coca-Cola company wanted to bring back \"the feeling of the Good Old Times\" which was interpreted by many to mean Nazi rule.\n[…]\n\"Why Coca-Cola Invented Fanta In Nazi Germany\". Business Insider. November 8, 2019. Archived from the original on December 21, 2021.\n[…]\n\"Coca Cola and the war\". Digger History."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fanta",
+        "situacao": "ok",
+        "texto": "Fanta é uma marca de refrigerantes que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha durante a Segunda Guerra Mundial,  atualmente é comercializada em 188 países.\n[…]\nNessa ocasião, Max Keith, chefe de operações da Coca-Cola alemã, permitiu a criação de um novo produto, na tentativa de evitar a suspensão das atividades da fábrica, nascendo assim uma bebida que foi comercializada exclusivamente no mercado alemão durante a Segunda Guerra Mundial.\n[…]\nA Coca-Cola criou novas filiais em áreas ocupadas por nazistas. A Fanta usou trabalho escravo na Alemanha Nazi, limitou a rotatividade de emprego e pagava abaixo da inflação.. Apesar de todos estes fatos, a Coca-cola afirma que \"nem Max Keith nem a empresa engarrafadora estavam ligados ao regime\".\n[…]\nOs principais concorrentes da Fanta incluem Tango, Mirinda, Fatia, Sumol, Crush e Tropicana Twister. Fanta é a segunda bebida a ser produzida pela Coca-Cola. A Fanta foi recentemente relançada em Singapura depois de estar ausente por um período de tempo.\n[…]\nFanta Uva\n[…]\nFanta Laranja - Lançada no mercado brasileiro em 1964. Segundo a Coca Cola, o país corresponde ao maior mercado de Fanta Laranja no mundo.\n[…]\nAconteceu também a retirada por sobreposição de produtos, isto é, a mesma empresa (Coca-Cola) comercializando itens similares, foi o que ocorreu com a Fanta Limão (lançada em 1978 e descontinuada em 1984, ano de lançamento do Sprite limão), e com a Fanta Guaraná (lançada no final da década de 70 e substituída pelo Guaraná Taí no início da década de 80, e este, por sua vez, substituído em boa parte do país pela marca Kuat, e relançada em 2017).\n[…]\nFanta Mundo Brasil Limetto – Limão –  Alemanha - Lançada em 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Coca-Cola",
+      "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Coca-Cola começou a ser produzida no Brasil durante qual guerra?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Coca-Cola"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coca-Cola",
+        "situacao": "ok",
+        "texto": "Coca-Cola é um refrigerante carbonatado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).\n[…]\nQuando os Estados Unidos entraram na Primeira Guerra Mundial, a Coca-Cola já tinha se tornado a maior consumidora de açúcar do mundo para a fabricação de seus produtos. Com a guerra, começou a ter racionamento, colocando em perigo os negócios da companhia.\n[…]\nEm 1923, com o final da Primeira Guerra Mundial, houve a recessão que quase faliu com a companhia . Este fato fez o conselho que comandava a The Coca-Cola Company escolhesse um novo presidente, sendo eleito Robert Woodruff, o mesmo dirigiria a companhia pelos próximos 60 anos.\n[…]\nQuando os Estados Unidos entraram na Segunda Guerra Mundial, a Coca-Cola desenvolveu \"fábricas\" móveis que foram enviadas para as frentes de batalha junto com técnicos da empresa, que garantiam a produção e a distribuição da bebida para os soldados, fato este aprovado pelo então general Dwight D. Eisenhower das Forças Armadas dos Estados Unidos. A empresa conseguiu na época uma autorização excepcional de Washington.\n[…]\nEste fato ajudou a abrir caminho para a internacionalização da Coca-Cola, que, durante e após a guerra acabou sendo licenciada nos diversos países em que acompanhou o exército americano, incluindo o Brasil. Tendo em vista a sua associação com os produtos americanos, o refrigerante acabou exercendo o papel de um símbolo patriótico. A popularidade da bebida aumentou bastante no pós-guerra, quando os soldados voltaram fazendo propaganda do refrigerante.\n[…]\nSite da Coca-Cola Brasil\n[…]\nSite da Coca-Cola Portugal\n[…]\n«Twitter oficial da Coca-Cola» (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Coca-Cola",
+      "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os projetistas da garrafa curvilínea da Coca-Cola, em 1915, se inspiraram no fruto de qual planta, por engano?",
+    "resposta": "Cacau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coca-Cola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coca-Cola",
+        "situacao": "ok",
+        "texto": "Coca-Cola, or Coke, is a cola soft drink manufactured by the Coca-Cola Company. In 2013, Coke products were sold in over 200 countries and territories worldwide, with consumers drinking more than 1.8 billion company beverage servings each day. Coca-Cola ranked No. 94 in the 2024 Fortune 500 list of the largest United States corporations by revenue. Based on Interbrand's \"best global brand\" study o\n[…]\nFearing another company might claim the trademark, Coca-Cola officially adopted \"Coke\" in 1941 and registered it in 1945.\n[…]\nFGBA-1 flew on STS-63 in 1995 and dispensed pre-mixed beverages, followed by FGBA-2 on STS-77 the next year. The latter mixed CO2, water, and syrup to make beverages. It supplied 1.65 liters each of Coca-Cola and Diet Coke.\n[…]\nCriticism of Coca-Cola has arisen from various groups around the world, concerning a variety of issues, including health effects, environmental issues, and business practices. The drink's coca flavoring, and the nickname \"Coke\", remain a common theme of criticism due to the relationship with the illegal drug cocaine.\n[…]\nBeginning in the 1940s, PepsiCo started marketing their drinks to African Americans, a niche market that was largely ignored by white-owned manufacturers in the US, and was able to use its anti-racism stance as a selling point, attacking Coke's reluctance to hire blacks and support by the chairman of the Coca-Cola Company for segregationist Governor of Georgia Herman Talmadge.\n[…]\nAs a result of this campaign, PepsiCo's market share as compared to Coca-Cola's shot up dramatically in the 1950s with African American soft-drink consumers three times more likely to purchase Pepsi over Coke.\n[…]\nElmore, Bartow J. \"Citizen Coke: An Environmental and Political History of the Coca-Cola Company,\" Enterprise & Society (2013) 14#4 pp 717–731 online.\n[…]\nElmore, Bartow J. (2017). Citizen Coke: The Making of Coca-Cola Capitalism. W. W. Norton & Company."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coca-Cola",
+        "situacao": "ok",
+        "texto": "Coca-Cola é um refrigerante carbonatado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).\n[…]\nEm 1915, com tantas cidades engarrafando e distribuindo o produto, começaram a surgir as primeiras falsificações. Comerciantes começaram a engarrafar outros produtos com o rótulo parecido com o da Coca-Cola, naquela época, não existia diferenciação dos produtos, somente o rótulo, que era facilmente removível. No mesmo ano é realizado um concurso para escolher um novo design para a garrafa da Coca-Cola. O projeto vencedor foi do projetista Earl R. Dean.\n[…]\nA fórmula exata da Coca-Cola é um segredo industrial, e nem sequer são conhecidas quais as matérias-primas usadas. Segundo a revista Veja \"a Coca-Cola mantém equipes de degustadores que retiram de quinze em quinze minutos garrafas de refrigerante da linha de produção para beber um gole e checar se o sabor está de acordo com as especificações da bebida\".\n[…]\nOutros brindes e artigos de coleção lançados no Brasil: ioiôs (1985); coleção Turma da Mônica Coca-Cola, que consistia em cinco revistas com os personagens de Maurício de Sousa (1990); abridor de garrafa com formato de uma garrafa de Coca-Cola (anos 1980); série Retro Histórica 120 Anos: seis garrafas retratando a evolução no design (2006); bola de futebol Coca-Cola (Copa de 1998); engradado de minigarrafas (1983); coleção Mini-Craques da Copa do Mundo (1998); garrafa prateada Coca-Cola (1998); minigarrafinhas da copa do mundo (2013).\n[…]\nA história da Coca-Cola no mundo Arquivado em 24 de junho de  2010, no Wayback Machine.\n[…]\n«Twitter oficial da Coca-Cola» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Walkman",
+      "descricao": "Linha de toca-fitas portáteis com fones de ouvido lançada pela japonesa Sony."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano a Sony lançou o Walkman, o toca-fitas portátil para ouvir música com fones?",
+    "resposta": "1979",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walkman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman (Japanese: ウォークマン, Hepburn: Wōkuman) is a brand of portable audio players manufactured by Sony since 1979. It was originally introduced as a portable cassette player and later expanded to include a range of portable audio products. Since 2011, the brand has referred exclusively to digital flash memory players.\n[…]\nIn March 1979, at the request of Masaru Ibuka, the audio department modified the small \"Pressman\" recorder used by journalists, into a smaller cassette player. After many people praised the good sound quality, Sony, under the leadership of Akio Morita, launched the Walkman in July 1979. Morita positioned Walkman in the youth market, emphasized youth, vitality, and fashion, and created a headset culture.\n[…]\nSony co-founder Masaru Ibuka used the company's bulky TC-D5 cassette recorder to listen to music while traveling for business. He asked the executive deputy president Norio Ohga to design a playback-only stereo version optimized for walking. The metal-cased blue-and-silver Walkman TPS-L2, the world's first low-cost personal stereo, went on sale in Japan on 1 July 1979, and was sold for around ¥33,000 (or $150.00).\n[…]\nSony also hired actors to pose with the Walkman around the streets of Tokyo as an additional form of promotion.\n[…]\nIn the early 2000s, Sony debuted Plato, a blue alien, as its mascot for the Walkman.\n[…]\nIn 2025, a cassette Walkman from 1979 (model TPS-L2 ) was included in Pirouette: Turning Points in Design, an exhibition at the Museum of Modern Art featuring \"widely recognized design icons [...] highlighting pivotal moments in design history.\"\n[…]\nSince 2017, Sony provided the Music Center for PC software on Microsoft Windows, designed for both content transfer and also playback for Walkman and other audio products.\n[…]\nList of Sony Walkman products\n[…]\nSony Watchman\n[…]\nWalkman effect\n[…]\nSony"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman® é uma marca popular de uma série de tocadores ou leitores de áudio portáteis pertencente à Sony. O termo Walkman também é utilizado para se referir a aparelhos portáteis similares de reprodução de áudio estéreo de outros fabricantes. Com sua chegada, costuma-se dizer que mudaram os hábitos musicais, uma vez que cada pessoa pode carregar e ouvir seus sons preferidos e, principalmente, sem \n[…]\nO Walkman original foi criado em 1979 no Japão e levava o nome de Soundabout, no exterior. Foi criado pelo coordenador do setor de áudio da Sony Nobutoshi Kihara para um dos sócios da empresa, Akio Morita, que queria escutar ópera durante seu trabalho desgastante. Morita odiou o nome Walkman e pediu para ser alterado. Mas uma campanha de divulgação com o nome Walkman já tinha sido iniciada e alterá-lo sairia demasiado caro.\n[…]\nQuando o primeiro aparelho ficou pronto, em abril de 1979, os vendedores não ficaram muito entusiasmados com a ideia e afirmaram que o Walkman venderia pouco. Akio Morita que acreditava no novo produto, então, propôs um desafio: se o Walkman não vendesse pelo menos 100 mil unidades em seus dois primeiros anos de mercado, ele renunciaria à presidência da Sony. Akio ganhou a aposta e naquele período cerca de 1,5 milhões de tocadores de áudio Walkman foram vendidos entre 1979 e 1981.\n[…]\nO Walkman original azul e prateado, modelo TPS-L2, foi colocado à venda no Japão em 1 de julho de 1979. No Reino Unido recebeu estereofonia (estéreo) e duas entradas para minifones, permitindo a duas pessoas ouvirem o mesmo aparelho ao mesmo tempo (embora fosse vendido com apenas um par de fones de ouvido). Também recebeu um botão chamado pressman, que ativava um microfone interno e cancelava parcialmente o som da fita cassete e permitindo o usuário falar sobre a música reproduzida.\n[…]\nSony Watchman\n[…]\nSony Walkman Portugal\n[…]\nSony Walkman Oficial Brasil\n[…]\nSony Walkman Shop Amazon Walkman opslaan",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Nintendo",
+      "descricao": "Empresa japonesa de videogames sediada em Kyoto, criadora de Mario e Zelda."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Nintendo, hoje famosa pelos videogames, foi fundada em Kyoto, fabricando cartas de baralho, em que século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nintendo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "situacao": "ok",
+        "texto": "Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles.\n[…]\nNintendo was founded as Nintendo Koppai on 23 September 1889 by craftsman Fusajiro Yamauchi in Shimogyō-ku, Kyoto, Japan, as an unincorporated establishment, to produce and distribute Japanese playing cards, or karuta (かるた; from Portuguese carta, 'card'), most notably hanafuda (花札, 'flower cards').\n[…]\nAlthough these studios are all subsidiaries of Nintendo, they are often referred to as external resources when being involved in joint development processes with Nintendo's internal developers by the Nintendo Entertainment Planning & Development (EPD) division. 1-Up Studio and Nintendo Cube are located in Tokyo, Japan, and Monolith Soft has one studio located in Tokyo and another in Kyoto.\n[…]\nThe founding General Managers of NAL were Graham Kerry (formerly the Managing Director of Mattel Australia) and Susumu Tanaka (then-transferred from Nintendo UK and currently a Senior Executive Officer at Nintendo's global HQ in Kyoto). Former Managing Directors include current Nintendo of America CEO Satoru Shibata and Rose Lappin, who previously worked on Nintendo products for Mattel Australia prior to joining NAL in 1993.\n[…]\nSince Nintendo Tokyo's opening, two additional Nintendo stores have opened in Japan. Nintendo Osaka opened on 11 November 2022, located on the thirteenth floor of the Daimaru Umeda department store in Kita-ku, as a store-within-a-store. Nintendo Kyoto, located within the Takashimaya Department Store building in Kyoto, opened on 17 October 2023.\n[…]\nSuper Nintendo World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nintendo",
+        "situacao": "ok",
+        "texto": "Nintendo Co., Ltd. (任天堂株式会社, Nintendō Kabushiki Gaisha) é uma desenvolvedora e publicadora japonesa de jogos eletrônicos e consoles sediada em Quioto, no Japão. Foi fundada em setembro de 1889 pelo artesão e empresário Fusajiro Yamauchi, e originalmente era uma fabricante de cartas de baralho tradicionais japonesas.\n[…]\nA Nintendo foi fundada no dia 23 de setembro de 1889 em Quioto, Japão, pelo artesão Fusajiro Yamauchi, originalmente sob o nome de Nintendo Koppai.\n[…]\nA Nintendo na época também produzia e vendia outros tipos jogos de cartas, como um conjunto dedicado a poesias Hyakunin Isshu e outros no estilo ocidental, os primeiros de seu tipo produzidos no Japão. A empresa teve um início bem-sucedido, porém logo começou a passar por dificuldades financeiras, pois o processo de fabricação era lento e custoso, conduzindo a preços altos.\n[…]\nA saúde de Kaneda estava se deteriorando e assim Hiroshi Yamauchi assumiu a presidência da Nintendo em 1950. Suas primeiras ações envolveram uma série de mudanças importantes no funcionamento da empresa: ele a renomeou em 1951 para Nintendo Playing Card Co. e no mesmo ano a Marufuku assumiu o nome de Nintendo Karuta Co., Ltd., enquanto no ano seguinte toda a produção de cartas foi centralizada nas fábricas de Quioto, o que levou à expansão dos escritórios.\n[…]\nA reestruturação interna preservou algumas das áreas de fabricação de baralhos japoneses.\n[…]\nO principal negócio da Nintendo é a pesquisa, desenvolvimento, produção e distribuição de produtos de entretenimento, principalmente jogos eletrônicos, consoles e baralhos de cartas, com seus principais mercados sendo o Japão, América do Norte e Europa, embora mais de 70% de suas vendas globais provenham destes dois últimos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Oreo",
+      "descricao": "Biscoito de chocolate recheado com creme branco, lançado pela americana Nabisco em Nova York."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O biscoito recheado Oreo foi lançado pela empresa americana Nabisco em que década?",
+    "resposta": "Década de 1910",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oreo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oreo",
+        "situacao": "ok",
+        "texto": "Oreo ( ; stylized in all caps) is an American brand of sandwich cookie consisting of two cocoa biscuits with a sweet fondant filling. Oreos were introduced in 1912 by Nabisco, and the brand has been owned by Mondelez International since its acquisition of Nabisco in 2012. Oreo cookies are available in more than 100 countries. Many varieties of Oreo cookies have been produced, and limited-edition r\n[…]\nChocolate Oreo – An Oreo cookie with chocolate crème filling.\n[…]\nOreo cookies, due to their almost-black cookies and white filling, have often been used in popular culture as a metaphor for relations between African Americans and White Americans.\n[…]\nThe term \"Oreo\" has occasionally been used as a racial slur aimed at a person of mixed-race or African-American heritage who is accused of trying to act white. The insult may be levied as an accusation that the person perpetuates the \"un-level playing field for blacks\", and is based on the implication that the person is like the cookie, \"black on the outside and white on the inside\".\n[…]\nFor example, the protagonist of the 1974 novel, Oreo, was nicknamed Oreo because of a mixed Jewish-American and African-American heritage. Former American president Barack Obama, due to his biracial heritage, has been compared to an Oreo by political pundits and television personalities such as John McLaughlin and Rush Limbaugh.\n[…]\nIn 2021, the chair of the Lamar County Democrats, Gary O'Connor, compared South Carolina Senator Tim Scott, the only African-American Republican in the United States Senate, to an Oreo after Scott gave the Republican response to Joe Biden's joint address to Congress. Amid fierce criticism, O'Connor apologized for his remarks and offered his resignation. However, the Lamar County Democrats chose not to accept his resignation and O'Connor wrote a public letter of apology for his remarks.\n[…]\nAdditional history notes on Oreo cookies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oreo",
+        "situacao": "ok",
+        "texto": "Oreo é uma marca de biscoito recheado da Nabisco, uma divisão do grupo empresarial estadunidense Mondelēz International. Consiste em dois biscoitos redondos de chocolate e um recheio doce sabor baunilha.\n[…]\nOreo foi criado na Nabisco em 1912, em Nova Iorque, com o objetivo de atingir o mercado britânico. Originalmente, o recheio do biscoito era fabricado com gordura de porco; atualmente, é feito de óleos vegetais.\n[…]\nA origem do nome Oreo não foi divulgada pela Nabisco ou pela Kraft Foods. A especulação mais plausível, no entanto, é que o nome seja derivado do francês Or, que significa ouro. Ele se refere à embalagem do produto que, no início do século XX, era dourada.[carece de fontes]?\n[…]\nFoi lançado no Brasil em 1995, porém, teve sua fabricação interrompida no início dos anos 2000 pois a Kraft Foods considerou que as vendas não eram satisfatórias, decidindo retirá-lo do mercado. Em 5 de Novembro de 2013, a página de Oreo no Facebook anunciou a volta da comercialização no Brasil.\n[…]\nPágina oficial da Nabisco sobre o biscoito Oreo (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Guaraná Antarctica",
+      "descricao": "Refrigerante de guaraná lançado pela Companhia Antarctica Paulista, hoje da Ambev."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano a Companhia Antarctica Paulista lançou o seu refrigerante de guaraná?",
+    "resposta": "1921",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Antarctica"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Antarctica",
+        "situacao": "ok",
+        "texto": "Guaraná Antarctica é um refrigerante gaseificado de guaraná, lançado em 18 de agosto de 1921, pela então Companhia Antarctica Paulista, com o nome de Guaraná Champagne Antarctica, passando a ser a primeira marca a comercializar este tipo de refrigerante. Com o sucesso e popularidade da bebida, a Coca-Cola acabou lançando uma marca também com sabor de guaraná.[carece de fontes]? Atualmente, a marca\n[…]\nCriado para a Antarctica, pelo químico industrial e professor de farmácia Pedro Baptista de Andrade e com laudo do Laboratório de Análises Químicas do Estado e aprovada pela Diretoria de Serviço Sanitário, o “Guaraná Champagne Antarctica” foi lançado em 18 de agosto de 1921. Podemos ver o lançamento na página do jornal Correio Paulistano.\n[…]\nA antiga companhia da Brahma fabricava os refrigerantes com sabor Guaraná nas marcas Guaraná Brahma, Guaraná Brahma Light, Kas Guaraná, Kas Guaraná Acerola, Kas Guaraná Maracujá e Kas Guaraná Pêssego, enquanto a Antarctica produzia as marcas Guaraná Champagne Antarctica, Guaraná Champagne Antarctica Diet, Guará-Suco, Guaraná Baré, Guaraná Frizante Polar e Guaraná Polar Light, uma verdadeira sobreposição de marcas com produtos similares, isto é, todos com a matéria-prima guaraná, o que causava gastos expressivos em relação à publicidade para que cada uma das marcas de refrigerantes pudessem fixar seu espaço no mercado.\n[…]\nInicialmente, a Companhia Antarctica Paulista comprava o fruto de guaraná diretamente de fornecedores da região Amazônica para produzir o Guaraná Champagne Antarctica. Os frutos eram então transportados para a cidade de São Paulo para a confecção do extrato de guaraná que, posteriormente, era distribuído às engarrafadoras. Em 1962, a empresa decidiu instalar uma fábrica na região de Maués, que realizava a extração do fruto.\n[…]\n1995 – O único que conseguiu imitar o sabor do Guaraná Antarctica (Guaraná Champagne Antarctica Diet)."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Lego",
+      "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+    "resposta": "1958",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lego"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ( , LEG-oh; Danish: [ˈle̝ːko]) is a brand of plastic construction toys manufactured by the Lego Group, a privately held company based in Billund, Denmark. Lego consists of variously coloured interlocking plastic bricks made of acrylonitrile butadiene styrene (ABS) that accompany an array of gears, figurines called minifigures, and various other parts. Its pieces can be assembled and connected\n[…]\nThe Lego Group began in the workshop of Ole Kirk Christiansen (1891–1958), a carpenter from Billund, Denmark, who began making wooden toys in 1932. In 1934, his company came to be called \"Lego\", derived from the Danish phrase leg godt [lɑjˀ ˈkʌt], which means 'play well'. In 1947, Lego expanded to begin producing plastic toys. In 1949, the business began producing an early version of the now familiar interlocking bricks, calling them \"Automatic Binding Bricks\".\n[…]\nIn 1958, the modern brick design was developed; ABS subsequently replaced cellulose acetate as the manufacturing material five years later. A patent application for the modern Lego brick design was filed in Denmark on 28 January 1958 and in various other countries in the subsequent few years.\n[…]\nLego pieces of all varieties constitute a universal system. Despite variations in the design and the purposes of individual pieces over the years, each remains compatible in some way with existing pieces. Lego bricks from 1958 still interlock with those made presently, and Lego sets for young children are compatible with those made for teenagers. Six bricks of 2 × 4 studs can be combined in 915,103,765 ways.\n[…]\nLego factories recycle all but about 1 percent of their plastic waste from the manufacturing process. If the plastic cannot be re-used in Lego bricks, it is processed and sold on to industries that can make use of it. Lego, in 2018, set a self-imposed 2030 deadline to find a more eco-friendly alternative to ABS plastic."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ([ˈlɛɡu], Dinamarquês: [ˈle̝ːko]; estilizado como LEGO) é uma linha de brinquedos de construção de plástico fabricados pelo The Lego Group, uma empresa privada com sede em Billund, Dinamarca. Lego consiste em blocos de plástico interligados de várias cores, feitos de acrilonitrila butadieno estireno (ABS), que acompanham uma série de engrenagens, bonecos chamados minifiguras e diversas outras\n[…]\nO The Lego Group iniciou a fabricação dos blocos de brinquedo com encaixe em 1949. A moldagem é feita na Dinamarca, Hungria, México e China. A decoração e a embalagem dos blocos são feitas em fábricas nos três primeiros países e na República Tcheca. A produção anual média desses blocos é de aproximadamente 36 bilhões, ou cerca de 1.140 peças por segundo. Uma das maiores empresas da Europa, Lego é a maior fabricante de brinquedos do mundo em vendas.\n[…]\nOs produtos LEGO encontram-se hoje em massa nos grandes institutos de educação nos países desenvolvidos, desde a pré-escola, onde as linhas tradicionais do grupo divertem as crianças e estimulam a sua concentração e criatividade, até à universidade, onde linhas tecnológicas como a LEGO Technic e a LEGO Mindstorms permitem aos estudantes aperfeiçoarem-se em design, robótica e mecatrônica.\n[…]\nA LEGO está presente no mercado português desde os finais dos anos 40, início dos 50 e, entre 1957 e 1974, os seus produtos foram oficialmente distribuídos por António Joaquim da Rocha Jr.\n[…]\nA 15 de dezembro de 1975, foi constituída a LEGO Portugal, com sede em Lisboa, por Lothar Bader (então diretor-geral da LEGO Espanha). A empresa passou a ser gerida pela LEGO Espanha a partir de 1 de janeiro de 1980.\n[…]\nFIRST LEGO League Campeonato da LEGO de Robótica\n[…]\nViolência e Lego\n[…]\nHistória do Lego\n[…]\nPatente estadunidense do Lego\n[…]\n(em inglês) LEGO\n[…]\n(em inglês) LEGO BIONICLE\n[…]\n(em inglês) LEGO CLICKITS\n[…]\n(em inglês) LEGO EXO-FORCE\n[…]\n(em inglês) LEGO MINDSTORMS",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Nutella",
+      "descricao": "Creme de avelã com cacau da empresa italiana Ferrero, lançado em 1964."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década a italiana Ferrero passou a vender seu creme de avelã com o nome Nutella?",
+    "resposta": "Década de 1960",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nutella"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nutella",
+        "situacao": "ok",
+        "texto": "Nutella (UK:  nuh-TEL-ə, US:   noo-TEL-ə, Italian: [nuˈtɛlla]; stylized in all lowercase) is an Italian brand of sweetened hazelnut cocoa spread. Nutella is manufactured by the Italian company Ferrero and was introduced in 1964, although its first iteration dates to 1963.\n[…]\nIn 1963, Ferrero's son Michele, alongside Francesco Rivella, revamped Supercrema gianduja with the intention of marketing it throughout Europe. Its composition was modified, and it was renamed \"Nutella\". The first jar of Nutella left the factory in Alba on 20 April 1964. The product was an instant success. Nutella's global proliferation took place during Italy's post-war economic boom (the Italian economic miracle).\n[…]\nOn 14 May 2014, Poste Italiane issued a 50th anniversary Nutella commemorative stamp. The 70 Euro cent stamp was designed by Istituto Poligrafico e Zecca dello Stato and features a jar of Nutella on a golden background. Ferrero held a Nutella Day on 17 and 18 May to celebrate the anniversary.\n[…]\nFerrero uses 25 percent of the global supply of hazelnuts, though not all of this is used exclusively in Nutella.\n[…]\nIn Italy, one of the most common ways to consume it is by spreading it on slices of filone (a typical Italian loaf bread) or between two or more slices of sandwich bread (pancarrè e Nutella). These two uses are very typical among Italian children as an afternoon snack or during school recess. It is also traditionally used as a filling in cornetti, bomboloni, and crepes, or in recipes such as sbriciolona alla Nutella and nutellotti, soft cookies with a warm Nutella centre.\n[…]\nFerrero Rocher\n[…]\nPadovani, Gigi (2014). Mondo Nutella. 50 Anni di Innovazione [Nutella World: 50 Years of Innovation] (in Italian). Milan: Rizzoli Etas. ISBN 978-88-17-07167-3."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nutella",
+        "situacao": "ok",
+        "texto": "Nutella (nuˈtɛla) é uma marca de um creme de avelã com cacau e leite  que está presente em quase todo o mundo. Nutella foi criado pela empresa italiana Ferrero no ano de 1963. A receita foi desenvolvida a partir de um outro produto lançado pela Ferrero em 1944. Nutella é atualmente vendido em mais 75 países. No Brasil, é vendida desde 2005.\n[…]\nPara a Austrália e Nova Zelândia, a Nutella é fabricada em Lithgow, Nova Gales do Sul, desde o final da década de 1970.\n[…]\nA Nutella é descrita como um creme de cacau e avelã, embora seja composta principalmente de açúcar e óleo de palma. O processo de fabricação deste alimento é muito semelhante à produção genérica de creme de chocolate. A Nutella é feita de açúcar, óleo de palma modificado, avelãs, cacau em pó, leite magro em pó, soro de leite em pó, lecitina de soja e vanilina.\n[…]\nA Autoridade Europeia para a Segurança dos Alimentos (EFSA) realizou uma análise de vários produtos alimentares e concluiu que a Nutella, creme de avelã da Ferrero, possui contaminantes que podem causar câncer. Os especialistas alegaram que o óleo de palma, principal ingrediente para a produção do creme, possui um alto teor de poluentes em sua versão comestível. O óleo de palma é conhecido no Brasil como azeite de dendê e é usado na produção de diversos alimentos.\n[…]\nAlguns supermercados da Itália decidiram retirar o produto de circulação, de acordo com o resultado do relatório da AESA. Segundo as autoridades, o óleo de palma é prejudicial à saúde quando é submetido a temperaturas maiores que 200° C, pois libera ácidos graxos que podem causar câncer. A Ferrero, empresa responsável pelo produto, negou que a Nutella cause qualquer tipo de risco. De acordo com a Ferrero, na produção do alimento, a temperatura não chega a 200° C.\n[…]\nCulinária da Itália\n[…]\nPágina oficial na Itália (em italiano)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Kodak",
+      "descricao": "Empresa americana de fotografia fundada por George Eastman em Rochester, Nova York."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "George Eastman inventou do zero a palavra Kodak por gostar muito de qual letra, que achava forte e marcante?",
+    "resposta": "K",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kodak",
+      "https://en.wikipedia.org/wiki/George_Eastman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kodak",
+        "situacao": "ok",
+        "texto": "The Eastman Kodak Company, referred to simply as Kodak ( ), is an American public company that produces various products related to its historic roots in film photography. The company is headquartered in Rochester, New York, and is incorporated in New Jersey. It is best known for photographic film products, which it brought to a mass market for the first time.\n[…]\nKodak was hard-hit by the Great Depression, although Rochester was spared from its worst effects as banks were able to remain solvent. Seventeen percent of the company's employees were laid off between 1929 and 1933. Company founder George Eastman committed suicide at his home on March 14, 1932, due to his declining health. From 1931 to 1936, Kodak participated in the Rochester Plan, a privately funded unemployment insurance program to assist the jobless and boost consumer spending.\n[…]\nKodak's involvement in document imaging technology began when George Eastman partnered with banks to image checks in the 1920s. Kodak subsidiary Recordak was founded in 1928 to manufacture some of the first microfilm. Kodak acquired the Bowe Bell & Howell scanner division in 2009. The Document Imaging division was transferred to Kodak Alaris in 2013.\n[…]\nKodak encountered several challenges from rival patents for film and cameras. These began while Eastman was still developing his first camera, when he was forced to pay inventor David Houston for a license to his pre-existing patents. A major lawsuit for patent infringement would come from rival film producer Ansco. Inventor Hannibal Goodwin had filed his own patent for nitrocellulose film in 1887, before the one owned by Kodak, but his was initially denied by the patent office.\n[…]\nBrayer, Elizabeth (1996). George Eastman : a biography. Baltimore: Johns Hopkins University Press. ISBN 978-1580464246.\n[…]\nEastman Kodak. Story of the Kodak Camera (1948)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/George_Eastman",
+        "situacao": "ok",
+        "texto": "George Eastman  (July 12, 1854 – March 14, 1932) was an American innovator and entrepreneur who founded the Eastman Kodak Company and helped to bring the photographic use of roll film into the mainstream. After a decade of experiments in photography, he patented and sold a roll film camera, making amateur photography accessible to the general public for the first time. Working as the treasurer and\n[…]\nSeveral patent infringement lawsuits would preoccupy Eastman and his lawyers in subsequent years, including one from Reichenbach after he was fired in 1892. The largest lawsuit would come from rival film producer Ansco. Inventor Hannibal Goodwin had filed a patent for nitrocellulose film in 1887, before Eastman and Reichenbach's, but it was not granted until 1898. Ansco purchased the patent in 1900 and sued Kodak for infringement.\n[…]\nIn 1934, the George Eastman Monument at Kodak Park (now Eastman Business Park) was unveiled.\n[…]\nIn 1966, the George Eastman House was designated a National Historic Landmark.\n[…]\nPBS American Experience produced an episode entitled The Wizard of Photography: The Story of George Eastman and How He Transformed Photography. It first aired on May 22, 2000.\n[…]\nSeveral short documentary films about his life have been made and shown at the George Eastman Museum in Rochester.\n[…]\nAckerman, Carl W. (1930). George Eastman: Founder of Kodak and the Photography Business. Boston and New York: Houghton Mifflin Company. ISBN 1-893-12299-9 (reprint)\n[…]\nBrayer, Elizabeth (1996). George Eastman: A Biography. Baltimore: Johns Hopkins University Press. ISBN 0801852633.\n[…]\nGeorge Eastman at IMDb\n[…]\nGeorge Eastman archive at the University of Rochester\n[…]\nGeorge Eastman House Archived December 2, 2021, at the Wayback Machine\n[…]\nGeorge Eastman: His Life, Legacy, and Estate, George Eastman House\n[…]\nNewspaper clippings about George Eastman in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kodak",
+        "situacao": "ok",
+        "texto": "A Eastman Kodak Company (referida simplesmente como Kodak) é uma companhia americana que produz vários produtos relacionados com a sua base histórica no analógico fotografia. A empresa está sediada em Rochester, Nova Iorque. A Kodak fornece embalagens, impressão funcional, comunicações gráficas e serviços profissionais para empresas em todo o mundo. Seus principais segmentos de negócios são Sistem\n[…]\nA Kodak foi fundada por George Eastman e Henry A. Strong em 4 de setembro de 1888. O nome foi inventado, a partir de um jogo de palavras cruzadas, ele e sua esposa usaram a letra \"K\", que o parecia ser uma letra forte. Compilaram as outras letras e formaram a palavra que foi patenteada. Durante a maioria do século XX a Kodak manteve uma posição dominante no cinema fotográfico.\n[…]\nPor se tratar da líder mundial no setor de fotografia, a empresa confiou demais no seu potencial e acreditou que nunca entraria em uma crise, desconsiderando o risco da expansão da concorrência no mercado. Desta forma, não foi reativa a ascensão de grandes corporações japonesas, incluindo a Canon, Sony e Fuji, as quais posteriormente ultrapassaram a Kodak em relação à abrangência no setor.\n[…]\nEmbora a Kodak tenha sido a criadora da primeira câmera fotográfica digital, em 1975, a empresa preferiu continuar a apostar no mercado de fotografia analógica. Apenas em 2003 decidiu entrar com mais força no setor digital, contudo, nesse momento as empresas japonesas já dominavam totalmente o mercado.\n[…]\nEssa demora para ingressar no setor digital praticamente levou a companhia, outrora bilionária, à falência. Como grande parte das receitas da Kodak era proveniente da fabricação de filmes fotográficos, a expansão das câmeras digitais, que ela mesmo havia inventado em 1975, causou súbita redução na demanda por tais filmes, afetando significativamente a economia da empresa.\n[…]\n«Kodak Brasil»\n[…]\n«Kodak Portugal»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Snickers",
+      "descricao": "Barra de chocolate com amendoim, caramelo e nougat lançada pela americana Mars em 1930."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A barra de chocolate Snickers, lançada em 1930, ganhou o nome do animal favorito da família Mars. Que animal era?",
+    "resposta": "Um cavalo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snickers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Snickers",
+        "situacao": "ok",
+        "texto": "Snickers (stylized in all caps) Formerly Marathon, is a chocolate bar consisting of nougat topped with caramel and peanuts, all encased in milk chocolate. The bars are made by the American company Mars Inc. The annual global sales of Snickers is over $380 million, and it is widely considered the bestselling candy bar in the world.\n[…]\nSnickers was introduced by Mars in 1930 and named after the Mars family's favorite horse. Snickers has expanded its product line to include variations such as mini, dark chocolate, white chocolate, ice cream bars, and several nut, flavor, and protein-enhanced versions. Ingredients have evolved from its original formulation to adapt to changing consumer preferences and nutritional guidelines.\n[…]\nIn 1930, the Mars Candy Factory in Chicago introduced Snickers, named after the favorite horse of the Mars family. The Snickers chocolate bar consists of nougat, peanuts, and caramel with a chocolate coating.\n[…]\nDeep fried chocolate bars (including Snickers and Mars bars) became a specialty in fish-and-chip shops in Scotland in 1995, it also became popular at American state fairs in the early 2000s. The cooked product contains approximately 450 calories (1,900 kJ) per bar.\n[…]\nIn December 2000, tens of thousands of Snickers and Mars Bars were removed from New South Wales store shelves due to a series of threatening letters which resulted in fears that the chocolate bars had been poisoned. Mars received letters from an unidentified individual indicating that they planned to plant poisoned chocolate bars on store shelves. The last letter sent included a Snickers bar contaminated with a substance which was later identified as rat poison.\n[…]\nSnickers Milk Chocolate\n[…]\nSnickers White Chocolate\n[…]\nSnickers Almond Brownie Dark Chocolate\n[…]\nSnickers 100 Calories Chocolate\n[…]\nSnickers salad\n[…]\nList of chocolate bar brands"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Snickers",
+        "situacao": "ok",
+        "texto": "Snickers é uma barra de chocolate feita pela Mars, Incorporated. A versão tradicional do doce consiste em torrone (nougat) de manteiga de amendoim coberto com amendoins e caramelo com chocolate ao leite. Snickers é o chocolate mais vendido de todos os tempos e possui vendas globais na marca de US$2 bilhões. O produto é vendido em mais de 35 países ao redor do mundo e consumido todo mês, em média, \n[…]\nEm 1923, a Mars, Incorporated introduziu sua segunda marca, Snickers, nomeado a partir de um cavalo de propriedade da família Mars. Nessa época, o produto ainda não possuía sua cobertura de chocolate ao leite, que foi somente adicionada no ano de 1930. A barra de chocolate começou a ser vendida por um níquel (cinco centavos de dólar).\n[…]\nNo começo dos anos 2000, barras de chocolate fritas (incluindo Snickers e barras Mars) se tornaram bem populares nas feiras dos Estados Unidos e pubs no Reino Unido e Austrália, apesar de serem uma especialidade local nas lojas de fish and chips no norte da Inglaterra e Escócia desde pelo menos metade da década de 1990. A marca ganhou o slogan \"Not Going Anywhere For While? Grab a Snickers\".\n[…]\n1989 Snickers barra de sorvete\n[…]\n2007 Snickers Dark (chocolate preto)\n[…]\nA última carta mandada incluía uma barra Snickers contaminada com uma substância que não foi identificada. As cartas diziam que havia sete barras de chocolate adicionais que haviam sido contaminadas e estavam à venda para o público. Como medida de precaução, Mars fez um enorme recall. Mars disse que nunca houve uma exigência por dinheiro, apenas reclamações dirigidas a uma terceira pessoa desconhecida.\n[…]\nAs barras Snickers e Mars estiveram disponíveis em qualquer outro estado, exceto os dois referidos, e durante esta época Twix se tornou o chocolate mais vendido da Mars. A polícia nunca descobriu qualquer evidência de contaminação nas barras que foram recolhidas.\n[…]\n«Página oficial do Snickers»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Asics",
+      "descricao": "Fabricante japonesa de tênis e artigos esportivos sediada em Kobe."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da marca japonesa de tênis Asics é a sigla de uma frase em latim. O que ela significa?",
+    "resposta": "Alma sã num corpo são",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Asics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Asics",
+        "situacao": "ok",
+        "texto": "ASICS Corporation (Japanese: 株式会社アシックス, Hepburn: Kabushiki gaisha Ashikkusu), commonly known as Asics (,  or ), is a Japanese multinational sportswear company headquartered in Kobe, Hyōgo Prefecture. It manufactures athletic and lifestyle footwear, apparel and sports equipment, and is particularly known for its running shoes. Performance Running is its largest product category; its other businesse\n[…]\nIn 2002, Asics revived the Onitsuka Tiger brand, reissuing models such as the Mexico 66, Ultimate 81 and Nippon 60 as lifestyle products and expanding the brand internationally. The first directly managed Onitsuka Tiger store opened in Tokyo in 2003, followed by stores in European cities including Paris, London, Berlin and Amsterdam. In 2007, the first ASICS-branded specialty running store, ASICS Store Tokyo, opened, followed by stores in London and New York.\n[…]\nIn March 2018, Yasuhito Hirota became president, COO and representative director, while Oyama continued as chairman, CEO and a representative director. During Hirota's presidency, Asics introduced a category-based business management structure and established the China Division and Onitsuka Tiger Company.\n[…]\nIn June 2026, Asics announced a planned reorganization of its Onitsuka Tiger business under the newly established, wholly owned OT GROUP Corporation. Under the plan, the Onitsuka Tiger business directly operated by ASICS Corporation is scheduled to be succeeded by OT GROUP through an absorption-type company split effective January 1, 2027; the company also adopted a policy to reorganize Onitsuka Tiger operations held by regional subsidiaries under OT GROUP.\n[…]\nReuters reported that the reorganization was intended to speed decision-making at a brand that had become a major profit driver for Asics; Onitsuka Tiger's sales had risen 43% in 2025 to ¥136.5 billion."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Asics",
+        "situacao": "ok",
+        "texto": "Asics (アシックス, Ashikkusu; estilizado como ASICS) é uma empresa multinacional de artigos desportivos localizada em Kōbe, Japão. O nome é um acrônimo da frase em latim anima sana in corpore sano (traduzido pela Asics como \"alma sã em corpo são\"). A Asics é mais conhecida por seus tênis, mas também produz outros calçados, como sandálias, além de roupas (camisetas, jaquetas, moletons, roupas de banho, \n[…]\nA Asics começou como Onitsuka Co., Ltd em 1.º de setembro de 1949. O fundador Kihachiro Onitsuka começou a fabricar tênis de basquetebol em sua cidade natal de Kōbe, na Prefeitura de Hyōgo, Japão. A gama de atividades esportivas atendidas pela empresa se expandiu para uma variedade de estilos olímpicos usados desde a década de 1950 por atletas em todo o mundo.\n[…]\nApesar da mudança de nome, uma linha vintage de tênis Asics ainda é produzida e vendida internacionalmente sob a etiqueta Onitsuka Tiger. Em 2015, a Asics lançou sua marca de estilo de vida \"Asics Tiger\" para comercializar roupas esportivas inspiradas nos designs da empresa das décadas de 1970 a 1990.\n[…]\nA Asics gerou 484,6 bilhões de ienes em vendas líquidas e 19,9 bilhões de ienes em lucro líquido no ano fiscal de 2022. 53% da receita da empresa veio da venda de tênis de corrida de performance, 20% de outros calçados, 7% de vestuário e equipamentos, e 9% da Onitsuka Tiger. 25% das vendas da empresa foram no Japão, 22% na América do Norte, 27% na Europa, 13% na China e 19% em outras regiões.\n[…]\nA Nike, Inc. (originalmente conhecida como Blue Ribbon Sports) foi fundada para vender os calçados da Onitsuka Tiger nos Estados Unidos. Quando Phil Knight visitou o Japão em 1963, logo após se formar na Universidade de Stanford, ele ficou impressionado com os calçados Onitsuka Tiger e imediatamente visitou o escritório da marca e pediu para ser o representante de vendas deles nos Estados Unidos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Danone",
+      "descricao": "Empresa de alimentos e laticínios fundada por Isaac Carasso em 1919, hoje sediada na França."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A fabricante de iogurtes Danone tirou o nome do apelido carinhoso de qual pessoa da família do fundador, Isaac Carasso?",
+    "resposta": "O filho dele, Daniel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Danone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Danone",
+        "situacao": "ok",
+        "texto": "Danone (French pronunciation: [danɔn]) is a French multinational food-products corporation based in Paris. It was founded in 1919 in Barcelona, Spain. It is listed on Euronext Paris, where it is a component of the CAC 40 stock market index. In 2020, Danone became the first listed company to adopt the status of société à mission, as introduced by France's PACTE law of 2019.\n[…]\nIsaac Carasso was already familiar with the virtues of : in Thessaloniki, where he was from, the product was widely available and sold in the streets by the kilogram. He decided to introduce it in Spain, incorporating lactic cultures on the advice of doctors. The Pasteur Institute supplied the cultures.\n[…]\nIn 1919 in a small workshop in Barcelona, Isaac Carasso launched yoghurt production. The yoghurts were made with fresh milk and delivered the following day. The brand was initially called \"Danon\", after the Catalan nickname of his son \"petit Daniel\". However, a proper name could not serve as a trade name under Spanish law. The founder added an \"e\" to register the brand, which became \"Danone\". In 1923, the Barcelona College of Physicians officially recognized the properties of yoghurt.\n[…]\nIn 1942 the occupation of France forced Daniel Carasso to take refuge in the United States. He continued developing the brand, acquired a yoghurt manufacturer, and launched Dannon Milk Products. On the advice of French publicist Raymond Loewy, the brand's spelling was Americanized to avoid mispronunciation. Dannon Inc. was incorporated in the United States.\n[…]\nBack in France, Daniel Carasso sold his American company to Beatrice Foods (it would be repurchased by Danone France in 1981) and sought to strengthen Danone. The company merged in 1967 with Fromageries Gervais to form Gervais-Danone.\n[…]\nDaniel Carasso, then honorary chairman of the company, died on 17 May 2009 at the age of 103.\n[…]\nDanone Nations Cup"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Danone",
+        "situacao": "ok",
+        "texto": "Danone é uma empresa multinacional de capital aberto de produtos alimentícios, com sede em Paris, França. Está listada na Euronext Paris, fazendo parte do índice CAC 40. Fundada em 1919, a marca está presente em 120 países (dados de 2018). Chegou ao Brasil em 1970 e está em Portugal desde 1990.\n[…]\nA empresa foi fundada em 1919 pelo médico Isaac Carasso em Barcelona, Espanha como uma pequena fábrica de produção de iogurte. A fábrica foi nomeada \"Danone\", em catalão, em homenagem ao apelido \"Danon\" do nome de seu primeiro filho, Daniel Carasso.\n[…]\nIsaac Carasso mudou a empresa para a França em 1929, abrindo uma fábrica em Paris. Já administrada por Daniel Carasso, a empresa mudou-se mais uma vez em 1942 durante a Segunda Guerra Mundial, agora para os Estados Unidos. Durante o tempo no país norte-americano, Daniel Carasso e seu sócio Juan Metzger criaram a marca Dannon, para soar mais estadunidense.\n[…]\nEm 1951, Daniel voltou a Paris para administrar os negócios da família na França e na Espanha, e vendeu a operação nos Estados Unidos para a Beatrice Foods em 1959. Em 1967, a Danone se fundiu com a Gervais, então a principal produtora de queijo fresco da França, tornando-se a Gervais Danone. Em 1973, a empresa fundiu-se com a fabricante de garrafas BSN.\n[…]\nA Danone iniciou suas atividades no Brasil em Poços de Caldas (MG) no ano de 1970, com uma parceria com a Latícinios Poços de Caldas para o lançamento do primeiro iogurte com polpa de frutas, até então inédito no mercado brasileiro.\n[…]\nNas origens da Danone Portugal, encontra-se a empresa, Iophil — Produtora de Iogurtes S.A., fundada em Castelo Branco no ano de 1979. Dez anos mais tarde, o Grupo Danone compra 70% do capital da Iophil e lança em Portugal a marca Danone, em junho de 1990.\n[…]\n«Site da Danone Brasil»\n[…]\n«Site da Danone Portugal»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Maybelline",
+      "descricao": "Marca americana de maquiagem fundada em 1915 por Tom Lyle Williams, conhecida pelas máscaras de cílios."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A Maybelline juntou o nome de Mabel, irmã do fundador, com o de qual produto que ela passava nos cílios?",
+    "resposta": "Vaselina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maybelline"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maybelline",
+        "situacao": "ok",
+        "texto": "Maybelline New York (formerly The Maybelline Company and Mabelline and Co.), trading as and commonly known as simply Maybelline (  MAY-bil-een), is an American multinational cosmetics, skin care, perfume, and personal care company, based in New York City. Founded in Chicago in 1915, it has been a subsidiary of French cosmetics company L'Oréal since 1996.\n[…]\nThe Maybelline Company was founded in Chicago by pharmacist Thomas Lyle Williams in 1915. Williams noticed his older sister Mabel applying a mixture of Vaseline and coal dust to her eyelashes to give them a darker, fuller look. He adapted it with a chemistry set and produced a product sold locally called Lash-Brow-Ine.\n[…]\nIn 1967, the company was sold by Williams to Plough Inc. (later Schering-Plough) in Memphis, Tennessee. The cosmetic production facility was moved from Chicago to Memphis over one weekend. In 1975, the company moved to Little Rock, Arkansas. In 1990, Schering-Plough sold Maybelline to a New York investment firm, Wasserstein Perella & Co. Maybelline's headquarters remained in Memphis until its acquisition by L'Oréal in 1996.\n[…]\nOn March 17, 2025,  it was announced that Hey! Say! JUMP's Ryosuke Yamada would be brand ambassador for Maybelline Japan's Super Stay Cream Pact Foundation. On February 10, 2026, Yamada was announced as Maybelline New York Japan's ambassador. At the event, he revealed images of a new campaign and CM for \"Maybelline Super Stay Lumi Matte Liquid Foundation\".\n[…]\nIn May 2021, Maybelline collaborated with Marvel to create a limited edition that connects Marvel's most iconic characters with the brand's top-selling hero products.\n[…]\nIn July 2025, Maybelline was announced as WWE's first official cosmetics partner as well as the presenting partner of WWE's all-female premium live event Evolution held on July 13."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maybelline",
+        "situacao": "ok",
+        "texto": "Maybelline é uma empresa estadunidense e uma marca de cosméticos que pertence desde 1996 à empresa multinacional francesa L'Oréal.\n[…]\nEm 1915, a \"Maybelline Company\" foi fundada por T.L. Williams. Era um negócio de família. A irmã de Williams, Maybel, foi quem o inspirou a dar este nome à empresa, já que foi dela que teve a ideia de produzir e vender produtos de maquiagem que fossem práticos de utilizar. De facto, Thomas pretendia ajudar a irmã a reconquistar o marido, após este a ter-se apaixonado por outra mulher. Em 1917, a Maybelline lançou a \"Maybelline Cake Mascara\", o primeiro cosmético para os olhos para uso diário.\n[…]\nEra composto por vaselina e pó de carvão. Assim, nasceu o nome Maybelline: Mabel (nome da sua irmã) + vaselina. O cosmético era, inicialmente, apenas vendido por correio. No entanto, o produto fez tanto sucesso que começou a ser pedido pelas senhoras nas drogarias e mercearias.\n[…]\nNesta década apenas merece destaque o facto de a Maybelline ter começado a produzir sombras para os olhos.\n[…]\nAssim, a sede da empresa foi redireccionada para Nova Iorque. Esta nova parceria estimulou a Maybelline, para que criasse produtos com a mais avançada tecnologia.\n[…]\nEm 2000, a Maybelline tornou-se na empresa de cosméticos número 1 dos Estados Unidos. Em 2001, foi lançado o \"Wet Shine Wet Look Lipcolor\", que dava um brilho nos lábios, como se estivessem molhados. O produto teve óptimas vendas por todo o mundo. No ano seguinte, a Maybelline tornou-se na empresa de cosméticos número 1 no mundo. Em 2004, a empresa muda o nome para \"Maybelline New York\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Frisbee",
+      "descricao": "Disco de plástico arremessável lançado pela fabricante americana de brinquedos Wham-O."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O disco Frisbee deve o nome a uma fábrica de quê, cujas formas de lata os estudantes americanos arremessavam?",
+    "resposta": "Tortas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frisbee"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Frisbee",
+        "situacao": "ok",
+        "texto": "A  frisbee (pronounced  FRIZ-bee), also called a flying disc or simply a disc, is a gliding toy or sporting item generally made of injection-molded plastic and roughly 20 to 25 centimetres (8 to 10 in) in diameter with a pronounced lip. It is used recreationally and competitively for throwing and catching, as in flying disc games.\n[…]\nIn June 1957, Wham-O co-founders Richard Knerr and Arthur \"Spud\" Melin gave the disc the brand name \"Frisbee\" after learning college students were calling the Pluto Platter by that term, which was derived from the Connecticut-based pie manufacturer Frisbie Pie Company, a supplier of pies to Yale University, where students started a campus craze tossing empty pie tins stamped with the company's logo—the way Morrison and his wife had in 1937.\n[…]\nHeadrick became known as the father of Frisbee sports; he founded the International Frisbee Association and recruited Harvey J. Kukuk from Eagle Harbor to serve as Executive Director. In 1975 he appointed Dan Roddick as its head. Roddick began establishing North American Series (NAS) tournament standards for various Frisbee sports, such as Freestyle, Guts, Double Disc Court, and overall events.\n[…]\nThe IFT guts competitions in Northern Michigan, the Canadian Open Frisbee Championships (1972), Toronto, Ontario, the Vancouver Open Frisbee Championships (1974), Vancouver, British Columbia, the Octad (1974), New Jersey, the American Flying Disc Open (1974), Rochester, New York, and the World Frisbee Championships (1974), Pasadena, California, are the earliest Frisbee competitions that presented the Frisbee as a new disc sport.\n[…]\nBefore these tournaments, the Frisbee was considered a toy and used for recreation.\n[…]\nHistory of Frisbee and Disc Sports\n[…]\nAll Frisbee Throw and catch techniques"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Frisbee",
+        "situacao": "ok",
+        "texto": "Frisbee ou disco voador é um objeto em forma de disco, geralmente feito de plástico com diâmetro entre 20 a 25 centímetros. Seu formato permite o voo quando são lançados em rotação. Frysbiees são jogados como parte de diferentes jogos, nos quais diversas pessoas e cães podem participar. Estes jogos em geral consistem de lançar o disco e pegá-lo ainda nos ares.\n[…]\nNa forma como hoje é conhecido, o Frisbee surgiu em 1957, sendo produzido pela empresa Wham-O toy company. Porém, a história do Frysbeie começou antes, em Bridgeport, Connecticut, onde William Frisbie abriu a Frisbie Pie Company em 1871. Estudantes de universidades próximas jogavam as latas de torta vazias entre si, gritando \"Frisbie!\".\n[…]\nEm 1948, Walter Frederick Morrison e seu parceiro Warren Franscyony inventaram uma versão plástica do disco chamada \"Disco Voador\" que podia voar mais longe e com mais precisão do que as placas de torta de estanho.\n[…]\nDepois de se separar de Franscioni, Morrison fez um modelo melhorado em 1955 e o vendeu para a empresa de brinquedos Wham-O como \"Pluto Platter\" - uma tentativa de lucrar com o sucesso relacionado a temáticas como o espaço sideral e OVNI. Em 1958, um ano após o primeiro lançamento do brinquedo, a Whoam-O mudou seu nome para o disco Frisbee.\n[…]\nAmerican Ultimate Disc League\n[…]\nFederação Paulista de Disco",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Band-Aid",
+      "descricao": "Marca de curativos adesivos da Johnson & Johnson, criada em 1920."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1920, um funcionário da Johnson e Johnson inventou o curativo adesivo Band-Aid pensando em ajudar quem?",
+    "resposta": "A esposa dele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Band-Aid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Band-Aid",
+        "situacao": "ok",
+        "texto": "Band-Aid is a brand of adhesive bandages distributed by the consumer health company Kenvue, spun off from Johnson & Johnson in 2023. Invented in 1920, the brand has become a generic term for adhesive bandages in countries such as the United States, Canada, Australia, and others.\n[…]\nThe Band-Aid was invented in 1920 by a Johnson & Johnson employee, Earle Dickson, in Highland Park, New Jersey, for his wife Josephine, who frequently injured, cut and burned herself while cooking. The prototype was a strip of gauze down the middle of a long piece of surgical tape that allowed her to dress her wounds without assistance. Dickson passed the idea on to his employer, which went on to produce and market the product as the Band-Aid.\n[…]\nDuring World War II, millions were shipped internationally, helping popularize the product. Since then, Johnson & Johnson has estimated a sale of over 100 billion Band-Aids worldwide.\n[…]\nJohnson & Johnson introduced its famous \"I am stuck on BAND-AID Brand ’cuz BAND-AID’s stuck on me\" jingle in 1975. The jingle was written by Barry Manilow.\n[…]\nIn 2022, Band-Aid was named the most trusted brand in the United States, beating the second place brand, Lysol, by more than two points.\n[…]\nOver time, Band-Aid has become a well-known example of a genericized trademark in the United States, Canada and South America. Johnson & Johnson has registered Band-Aid as a trademark on the Principal Register of the United States Patent and Trademark Office and has tried to prevent its genericization in its marketing.\n[…]\nBand-Aid Brand History\n[…]\nJohnson & Johnson First Aid Website Archived 2011-07-30 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Band-Aid",
+        "situacao": "ok",
+        "texto": "Bandeide (português brasileiro) ou penso rápido (português europeu) (em inglês:  Band-Aid) é uma marca de bandagens adesivas distribuídas pela empresa americana farmacêutica e de dispositivos médicos da Kenvue desde 2022, devido a cisão da Johnson & Johnson. Inventada em 1920, a marca tornou-se um termo genérico para bandagens adesivas em países como Estados Unidos, Canadá, Austrália, Filipinas e \n[…]\nO Band-Aid foi inventado em 1920 por um funcionário da Johnson & Johnson, Earle Dickson, em Highland Park, Nova Jérsia, para sua esposa Josephine, que frequentemente se cortava e se queimava enquanto cozinhava. O protótipo permitiu que ela curasse suas feridas sem assistência. Dickson passou a ideia para seu empregador, que passou a produzir e comercializar o produto como Band-Aid.\n[…]\nDickson teve uma carreira de sucesso na Johnson & Johnson, chegando a vice-presidente antes de sua aposentadoria em 1957.\n[…]\nOs Band-Aids originais eram feitos à mão e não eram muito populares. Em 1924, a Johnson & Johnson introduziu band-aids feitos à máquina e começou a venda de band-aids esterilizados em 1939.\n[…]\nNa Segunda Guerra Mundial, milhões foram enviados para o exterior, ajudando a popularizar o produto. Desde então, a Johnson & Johnson estimou uma venda de mais de cem bilhões de band-aids em todo o mundo.\n[…]\nBand-Aid tornou-se, com o tempo, um exemplo bem conhecido de marca genérica nos Estados Unidos, Canadá e América do Sul, mas a Johnson & Johnson registrou Band-Aid como marca registrada no Registro Principal no Escritório de Patentes e Marcas Registradas dos Estados Unidos e o registro é válido e legal. A Johnson & Johnson continua a defender a marca Band-Aid contra a sua generalização.\n[…]\nBand-Aid Brand Official Website\n[…]\nBand-Aid Brand History\n[…]\n«Johnson & Johnson First Aid Website». Arquivado em 2011-07-30 no Wayback Machine",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Polaroid",
+      "descricao": "Marca americana de câmeras de fotografia instantânea fundada pelo cientista Edwin Land."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Edwin Land teve a ideia da câmera instantânea Polaroid depois que alguém lhe perguntou por que não podia ver a foto na hora. Quem?",
+    "resposta": "A filha dele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edwin_H._Land",
+      "https://en.wikipedia.org/wiki/Instant_camera"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edwin_H._Land",
+        "situacao": "ok",
+        "texto": "Edwin Herbert Land, ForMemRS, FRPS, Hon.MRI (May 7, 1909 – March 1, 1991) was an American scientist and inventor, best known as the co-founder of the Polaroid Corporation. He invented inexpensive filters for polarizing light, a practical system of in-camera instant photography, and the retinex theory of color vision. His Polaroid instant camera went on sale in 1948 and made it possible for a pictu\n[…]\nA little more than three years later, on February 21, 1947, Land demonstrated an instant camera and associated film to the Optical Society of America. Called the Land Camera, it was in commercial sale less than two years later. Polaroid originally manufactured sixty units of this first camera. Fifty-seven were put up for sale at the Jordan Marsh department store in Boston before the 1948 Christmas holiday.\n[…]\nElkan Blout, a close colleague of Edwin Land at Polaroid, wrote: \"What was Land like? Knowing him was a unique experience. He was a true visionary; he saw things differently from other people, which is what led him to the idea of instant photography. He was a brilliant, driven man who did not spare himself and who enjoyed working with equally driven people.\"\n[…]\nDespite the tremendous success of his instant cameras, Land's Polavision instant movie system was a financial disaster, and he resigned as Chairman of Polaroid on July 27, 1982. When he retired, he had 535 patents to his name, only surpassed by Thomas Edison and Elihu Thomson. While he was set for retirement years, this did not mean the end of his passion in research and decided to continue with his interest in color vision.\n[…]\nLand was:\n[…]\nLand is referenced in the Lego set based on the Polaroid OneStep SX-70 Camera.\n[…]\nLand, Edwin H., \"Generation of Greatness: The Idea of a University in an Age of Science\", Ninth Annual Arthur Dehon Little Memorial Lecture at the Massachusetts Institute of Technology. May 22, 1957"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Instant_camera",
+        "situacao": "ok",
+        "texto": "An instant camera is a camera which uses self-developing film to create a chemically developed print shortly after taking the picture. Polaroid Corporation pioneered (and patented) consumer-friendly instant cameras and film, and were followed by various other manufacturers.\n[…]\nModels which used SX-70 film were introduced in a folding version, with later versions being solid plastic bodied. Third generation Polaroids, like the once popular SX-70, used a square format integral film, in which all components of the film (negative, developer, fixer, etc.) were contained. The SX-70 instant camera used the print technology that Edwin Land had most desired.\n[…]\nInstant cameras have found many uses throughout their history. The original purpose of instant cameras was motivated by Jennifer Land's question to her father (Edwin Land): \"Why can't I see them now?\" Many people have enjoyed seeing their photos shortly after taking them, allowing them to recompose or retake the photo if they didn't get it right.\n[…]\nInstant Cameras and Society\n[…]\nIntegral film cameras, such as the SX-70, 600 series, Spectra, and Captiva cameras went a long way in accomplishing Edwin Land's goal of creating a seamless process in producing instant photos. The photographer simply pointed the camera at the subject, framed it and took the photo.\n[…]\nThe name and app icon of the social photo sharing platform Instagram, founded in 2010, originated from the instant camera, with the 2010 icon directly resembling a Polaroid Land Camera 1000.\n[…]\n\"The Polaroid genius who re-imagined the way we take photos\" (video). Instant: The Story of Polaroid, author Christopher Bonanos compares the company's dynamic founder, Edwin Land, with Apple's iconic inventor, Steve Jobs. BBC News Online. 2013-01-23. Retrieved 2013-01-26."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Edwin_Land",
+        "situacao": "ok",
+        "texto": "Edwin Herbert Land (Bridgeport, 7 de maio de 1909 — Cambridge, 1 de março de 1991) foi um físico, industrial e inventor estadunidense.\n[…]\nPouco mais de três anos depois, em 21 de fevereiro de 1947, Land demonstrou uma câmera instantânea e um filme associado à Optical Society of America. Chamada de Land Camera, ela estava à venda comercial menos de dois anos depois. A Polaroid fabricou originalmente sessenta unidades desta primeira câmera. Cinquenta e sete foram colocados à venda na loja de departamentos Jordan Marsh em Boston antes do feriado de Natal de 1948.\n[…]\nElkan Blout, um colega próximo de Edwin Land na Polaroid, escreveu: \"Como era Land? Conhecê-lo foi uma experiência única. Ele foi um verdadeiro visionário; viu as coisas de maneira diferente das outras pessoas, e foi o que o levou à ideia de fotografia instantânea. Ele era um homem brilhante e motivado, que não se poupava a si mesmo e que gostava de trabalhar com pessoas igualmente motivadas\".\n[…]\nEmbora liderasse a Polaroid Corporation como executivo-chefe, Land era antes de tudo um cientista e, como tal, fazia questão de realizar \"um experimento a cada dia\". Apesar de ele não ter nenhum diploma formal, funcionários, amigos e a imprensa respeitaram suas realizações científicas chamando-o de Dr. Land. A única exceção foi o Wall Street Journal, que se recusou a usar esse título honorífico durante toda a sua vida.\n[…]\nApesar do tremendo sucesso de suas câmaras instantâneas, o fracassado sistema de filme instantâneo Polavision de Land foi um desastre financeiro, e ele renunciou ao cargo de presidente da Polaroid em 27 de julho de 1982.\n[…]\nCâmera Polaroid Land",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Guia Michelin",
+      "descricao": "Guia de hotéis e restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso pelas estrelas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que os irmãos Michelin, fabricantes de pneus, lançaram em 1900 um guia de hotéis e restaurantes?",
+    "resposta": "Para incentivar viagens de carro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michelin_Guide"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Michelin_Guide",
+        "situacao": "ok",
+        "texto": "The Michelin Guide ( MISH-əl-in, MITCH-əl-in; French: Guide Michelin [ɡid miʃlɛ̃]) is a restaurant and hotel guide that has been published by the French tyre company Michelin since 1900. Originally created as a guide for French motorists, it later developed into an international reference for dining and travel. It awards up to three Michelin stars for excellence to a select few restaurants in cert\n[…]\nThe Michelin Guide also awards \"Rising Stars\", an indication that a restaurant has the potential to qualify for a star, or an additional star.\n[…]\nThe Michelin Guide New York 2007 included 526 restaurants, compared to 2,014 in Zagat New York 2007; after The Four Seasons Restaurant received no stars in that edition, co-owner Julian Niccolini said Michelin \"should stay in France, and they should keep their guide there\".\n[…]\nIn 2007, Tokyo's restaurants were awarded the most stars and in 2010 other Japanese cities like Kyoto and Osaka also received many stars. At the time this sparked questions from some over whether these high ratings were merited for Japanese restaurants, or whether the Michelin Guide was too generous in giving out stars to gain an acceptance with Japanese customers and to enable the tyre-selling parent company to market itself in Japan.\n[…]\n't Huis van Lede (Belgium). After receiving a star in 2014, chef Frederick Dhooge said he did not want his Michelin star or his points in the Gault-Millau restaurant guide, stating: \"We noticed that this is not always understood by a group of customers that expect a spectacle of stars and points kitchen\" from a Michelin-starred restaurant rather than simple food.\n[…]\nMichelin Guide to the British Isles, London: Michelin Tyre Company, 1913, OL 14022740M (+ List of excursions)\n[…]\nMichelin Guide to the Battlefields of the World War, Milltown, N.J.: Michelin, 1919, OL 24432211M\n[…]\n1900 Michelin Guide Archived 23 May 2025 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guia_Michelin",
+        "situacao": "ok",
+        "texto": "Guia Michelin é um guia turístico publicado pela primeira vez em 1900 por André Michelin, um industrial francês fundador da Compagnie Générale des Établissements Michelin, fabricante de pneus mais conhecida como Michelin. O objetivo de André era o de promover o turismo para o crescente mercado automobilístico.\n[…]\nOs Guias Michelin vermelhos são cada vez mais numerosos e diversos. Em 2006, 12 guias vermelhos citavam mais de 45.000 hotéis e restaurantes em toda a Europa e em Nova Iorque (desde 2006). O guia vermelho é publicado para a França, o Benelux, a Itália, a Alemanha, a Espanha e Portugal, a Suíça, o Reino Unido e a Irlanda e as principais cidades da Europa como Paris, Roma e Londres.\n[…]\nDesde 1929, data de introdução das estrelas no Guia Michelin, que Portugal tem restaurantes premiados com Estrelas Michelin. A lista dos restaurantes premiados com estrelas no Guia Michelin 2024 inclui 39 restaurantes, 8 com duas estrelas (1 novo) e 31 com uma estrela (4 novos).\n[…]\nDesde 1997 foi introduzida a distinção de Bib Gourmand. Esta categoria, inferior às estrelas, inclui restaurantes com a melhor relação qualidade-preço. A lista dos restaurantes distinguidos como Bib Gourmand no Guia Michelin 2024 inclui 30 restaurantes em Portugal (7 novos).\n[…]\nO Guia Michelin classifica os hotéis recomendados em 5 categorias de conforto, de um a cinco pavilhões, além de uma categoria especial para turismo rural ou de habitação, atribuindo a cor vermelha aos estabelecimentos que considera especialmente agradáveis. No Guia Michelin 2019 são distinguidos com pavilhões vermelhos 32 estabelecimentos em Portugal.\n[…]\nO primeiro Guia Michelin começou a ser publicado no Brasil em 2015. Ele foi dividido entre restaurantes de São Paulo e Rio de Janeiro.\n[…]\nLista dos restaurantes estrelados do Guia Michelin\n[…]\nGuia Quatro Rodas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Bibendum",
+      "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Bibendum, mascote branco e gorducho da fabricante francesa Michelin, tem o corpo formado por pilhas de quê?",
+    "resposta": "Pneus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michelin_Man"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Michelin_Man",
+        "situacao": "ok",
+        "texto": "Bibendum (French pronunciation: [bibɛ̃dɔm]), commonly referred to in English as the Michelin Man or Michelin Tire Man, is the official mascot of the Michelin tire company. A humanoid figure consisting of stacked white tires, it was introduced at the Lyon Exhibition of 1894 where the Michelin brothers had a stand. He is one of the world's oldest trademarks still in active use. The slogan Nunc est b\n[…]\nThe \"Bibendum chair\" was designed by Eileen Gray in 1925.\n[…]\nBibendum made a brief guest appearance in the Asterix series, as the chariot-wheel dealer in certain translations, including the English one, of Asterix in Switzerland. (The original French version used the Gaulish warrior mascot of French service-station company Antar.)\n[…]\nThe mascot appears in a BBC Not the Nine O'Clock News comedy sketch, in which a restaurant waiter and chef suspect a diner, dressed as Bibendum, might be a food critic for the Michelin Guide.\n[…]\nMichelin sued the performance artist Momus in 1991 for releasing a song about the trademarked Michelin Man. The song, simply titled \"Michelin Man\", was released the same year as the third track on his album Hippopotamomus (which also had a hippopotamus-headed version of the Michelin Man on its cover) used the mascot as a metaphor for hypersexual rubber fetishism.\n[…]\nThe use of the Michelin Man in such explicit lyrics were not authorized by the Michelin company, and Momus was sued by the company for depicting their mascot in scenarios of a pornographic nature. As a result, all remaining copies of the album were destroyed, the song was removed from subsequent pressings of the album, and the hippo Michelin Man removed from the cover.\n[…]\nIn the French dubbed version of Ghostbusters, the giant Stay Puft Marshmallow Man is named \"Bibendum Chamallow\". (\"Chamallow\" was originally a confectionery marketed in France under this name, which vaguely resembles the American marshmallow.)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bibendum",
+        "situacao": "ok",
+        "texto": "Bibendum, popularmente conhecido como boneco da Michelin ou homem da Michelin, é o mascote da empresa francesa de pneus  Michelin.\n[…]\nÉ um dos mais antigos mascotes do mundo, criado pelo artista e cartunista francês O'Galop em 1898 para a Exposição Internacional e Colonial em Lyon. O nome tem origem na frase latina \" nunc est bibendum\" (Bebamos agora). Com o passar dos anos fica mais fino.\n[…]\nFoi protagonista no filme de curta-metragem de animação Logorama, onde uma série de Bibendums interpretam detetives de polícia, um xerife e um esquadrão da SWAT que trabalham juntos para tentar derrubar um criminoso psicótico e ultraviolento interpretado por Ronald McDonald.\n[…]\nImages publicitaires du Bibendum Michelin (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "7 Up",
+      "descricao": "Refrigerante americano de limão e lima lançado em 1929."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Até o fim dos anos quarenta, o refrigerante Seven Up levava qual substância, hoje usada como estabilizador de humor?",
+    "resposta": "Lítio",
+    "distratores": [
+      "Cocaína",
+      "Quinino",
+      "Cafeína"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/7_Up"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/7_Up",
+        "situacao": "ok",
+        "texto": "7 Up (stylized as 7Up) or Seven Up, is an American brand of lime-lemon non-caffeinated soft drink released in 1928. The brand and formula are owned by Keurig Dr Pepper in the US, and PepsiCo in international regions. Although also distributed by PepsiCo in most regions, the beverage is distributed in the UK by Britvic, PepsiCo's designated UK distributor. The brand competed primarily with The Coca\n[…]\n7 Up was created by Charles Leiper Grigg, who launched his St. Louis–based company The Howdy Corporation in 1920. Grigg came up with the formula for a lemon-lime soft drink in 1928, and the product was launched a year before the Wall Street crash of 1929. The trademark \"SEVEN-UP\" was granted in 1928, and a 1929 taste test advertisement featured a flying \"7up\" logo.\n[…]\nThe origin of the name 7 Up is unclear. Britvic claims that the name comes from the seven main ingredients in the drink, while others have claimed that the number was a reference to the lithium contained in the original recipe, which has an atomic mass of approximately 7. Britvic also claims that the name alluded to 7 Up being packaged in seven-ounce bottles when Coca-Cola and most other soft drinks were bottled in six-ounce bottles.\n[…]\nThe 7 Up company was privately owned by its founding families until it was sold in 1978 to Philip Morris, which sold it in 1986 in two parts: the international division to PepsiCo and the US business to a group led by the investment firm Hicks & Haas. In the US, 7 Up merged with Dr Pepper in 1988 to form Dr Pepper/Seven Up; Cadbury Schweppes bought the combined company in 1995. In 2008 the Dr Pepper Snapple Group was spun off from Cadbury Schweppes.\n[…]\nSeven-Up Headquarters\n[…]\n7 Up (undetermined source of product name from Snopes.com)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/7_Up",
+        "situacao": "ok",
+        "texto": "O 7 Up ou Seven Up é uma marca de refrigerante pertencente à PepsiCo e a “Dr Pepper/Seven Up, Inc”. (somente nos Estados Unidos).\n[…]\nO refrigerante 7 Up nasceu em St. Louis, nos Estados Unidos em 1929. Criado por Charles Leiper Grigg, após ter passado dois anos testando fórmulas diferentes na busca por uma bebida refrescante.\n[…]\nOriginalmente chamada de \"Bib-Label Lithiated Lemon-Lime Soda\", a marca de refrigerante “7 Up” nasceu em 1929 pelas mãos de Charles Leiper Grigg, que comercializava como um medicamento para “curar ressaca”.\n[…]\nEm 1933, passou a ser chamada de “7 Up”.\n[…]\nAté o final da década de 1940, o refrigerante tornou-se a terceira marca mais consumida no mundo.\n[…]\nEm 1988, a empresa foi vendida para a Cadbury Schweppes, que fabrica o refrigerante Dr Pepper.\n[…]\nNo Brasil, o refrigerante foi lançado em 1995, com uma divulgação realizada através de campanhas publicitárias e patrocínio ao esporte, como o realizado com o time Botafogo de Futebol e Regatas.\n[…]\nEm 2003, a “Seven Up” (7 Up), também pertencente ao catálogo da PepsiCo, estava em processo de reestruturação da formula para a produção de um novo produto em virtude da expressiva queda nas vendas registradas na Argentina.\n[…]\nFoi então que, surgiu a partir de pesquisas com base na fórmula original do refrigerante “Seven Up” uma nova bebida que utilizava quantidades menores de gás, comparando-se aos refrigerantes tradicionais, sem adição de açúcar e corantes em sua composição, mas, com o sabor de limão do refrigerante “Seven Up”, também em doses menores, sendo chamado posteriormente de H2OH!.\n[…]\nEm 2004 é lançado em Portugal o 7 Up Ice, com sabor de menta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Levi's",
+      "descricao": "Fabricante americana de calças jeans fundada em São Francisco por Levi Strauss no século dezenove."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1873, Levi Strauss e o alfaiate Jacob Davis patentearam calças de trabalho reforçadas com o quê?",
+    "resposta": "Rebites de metal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+      "https://en.wikipedia.org/wiki/Jacob_W._Davis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+        "situacao": "ok",
+        "texto": "Levi Strauss & Co. is an American clothing company known worldwide for its Levi's brand of denim jeans. It was founded in May 1853 when German-Jewish immigrant Levi Strauss moved from New York City, New York, to San Francisco, California, to open a West Coast branch of his brothers' New York dry goods business. The corporation is registered in Delaware and its headquarters is located in Levi's Pla\n[…]\nJacob Davis, a Latvian-Jewish immigrant, was a Reno, Nevada tailor who frequently purchased bolts of denim cloth from Levi Strauss & Co.'s wholesale house. After one of Davis's customers kept purchasing cloth to reinforce torn pants, he thought of using copper rivets to reinforce points of strain, such as on pocket corners and the base of the button fly. Davis lacked sufficient funds to obtain a patent, so he wrote to Strauss proposing a business partnership.\n[…]\nAfter Strauss accepted Davis's offer, the two men received U.S. patent 139,121 from the United States Patent and Trademark Office on May 20, 1873. The copper rivet was incorporated into the company's jean design and advertisements. In 1890, the rivet patent entered the public domain; the same year, lot numbers were assigned to company products, and \"501\" was used to designate the famous copper-riveted waist overalls.\n[…]\nAlthough popular lore (abetted by company marketing) holds that the original design remains unaltered, the crotch rivet, watch pocket rivets, and waist cinch were removed during World War II to conform with War Production Board metal conservation rules and only the watch pocket rivets restored after.\n[…]\nFord, Carin T. (2004). Levi Strauss: The Man Behind Blue Jeans (Famous Inventors). Enslow Publishers. ISBN 0-7660-2249-8.\n[…]\nVan Steenwyk, Elizabeth (1988). Levi Strauss: The Blue Jeans Man. Walker. ISBN 0-8027-6795-8.\n[…]\nMedia related to Levi Strauss & Co. at Wikimedia Commons\n[…]\nBusiness data for Levi Strauss & Co.:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jacob_W._Davis",
+        "situacao": "ok",
+        "texto": "Jacob William Davis (Russian: Якоб Яковлевич Юфес , May 14, 1831 – January 20, 1908) was a Russian-American tailor who is credited with inventing modern jeans. Growing up in Russian Empire, he emigrated to the United States as a young man and spent some time in Canada as well. He invented jeans by using sturdy cloth and rivets to strengthen weak points in the seams, and partnered with Levi Strauss\n[…]\nIn his tailor shop, Davis made functional items such as tents, horse blankets and wagon covers for the railway workers on the Central Pacific Railroad. The fabric Davis worked with was heavy-duty cotton duck cloth and cotton denim which he bought from Levi Strauss & Co., a dry goods company in San Francisco. To strengthen the stress points of the sewn items he was making, Davis used copper rivets to reinforce the stitching.\n[…]\nDavis had previously applied for patents for other inventions. Realizing the potential value in his reinforced jeans concept, in 1872, he approached Levi Strauss, who was still his supplier of fabric, and asked for his financial backing in the filing of a patent application. Strauss agreed, and on May 20, 1873, US Patent No. 139,121 for \"Improvements in fastening pocket openings\" was issued in the name of Jacob W. Davis and Levi Strauss and Company.\n[…]\nThat same year, Davis started sewing a double orange threaded stitched design onto the back pocket of the jeans to distinguish them from those made by his competitors. This trademark feature became Registered U.S. Trade Mark No. 1,139,254. By this time, Strauss had set up a sizeable tailor shop in San Francisco for the production of Davis' working pants and Jacob and his family had moved back to San Francisco for Davis to run this shop.\n[…]\nBen Davis (clothing)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+        "situacao": "ok",
+        "texto": "Levi Strauss & Co., também conhecida como (LS&CO), é uma empresa norte-americana fundada em 1853 pelo industrial alemão Levi Strauss, é detentora da marca Levi's de jeans de renome mundial.\n[…]\nLevi Strauss & Co. é uma empresa multinacional organizada em três divisões geográficas: Levi Strauss Americas (LSA), com sede em São Francisco; Levi Strauss Europe, com sede no Meio Oeste e na Africa (LSEMA), com sede em  Bruxelas; também possuem escritórios na Ásia (APD), sediada em Singapura. A companhia emprega aproximadamente 10.000 pessoas no mundo, e produz desde calças jeans, camisas, boné, cintos a blusas e roupas sociais.\n[…]\nLevi Strauss Signature (em inglês)\n[…]\nLevi's Mobile Phone official site (em inglês)\n[…]\nLevi's Project 501 Design Challenge (em inglês)[ligação inativa]\n[…]\nLevi's Sponsorship of Project Runway (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Puma",
+      "descricao": "Fabricante alemã de artigos esportivos fundada por Rudolf Dassler em Herzogenaurach, em 1948."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que as marcas esportivas alemãs Puma e Adidas têm em comum na sua origem?",
+    "resposta": "Foram fundadas por dois irmãos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Puma_(brand)",
+      "https://en.wikipedia.org/wiki/Adidas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Puma_(brand)",
+        "situacao": "ok",
+        "texto": "Puma SE is a German athletic apparel and footwear corporation headquartered in Herzogenaurach, Bavaria, Germany. Puma is the third largest sportswear manufacturer in the world.\n[…]\nA few months before the 1970 FIFA World Cup, Armin Dassler (Rudolf's son) of Puma and his cousin Horst Dassler (Adi's son) of Adidas signed \"the Pelé Pact\", an agreement that neither company would contract with Pelé, the world's most famous athlete. The companies reasoned that a bidding war for Pelé would be too expensive. Puma soon broke the pact and signed him.\n[…]\nIn April 2025, Puma announced that CEO Arne Freundt would step down due to differing views on strategy with the supervisory board. He is to be succeeded by Arthur Hoeld, a former Adidas executive, effective 1 July 2025.\n[…]\nPuma ranks as one of the top shoe brands with Adidas and Nike, and employs more than 18,000 people worldwide. The company has corporate offices around the world, including four defined as \"central hubs\": Assembly Row, Somerville, Massachusetts; Hong Kong; Ho Chi Minh City, Vietnam; and global headquarters in Herzogenaurach, Germany.\n[…]\nAccording to a joint report from Labour Behind the Label and Community Legal Education Centre, 30 workers fainted in November 2012 while producing clothing for Puma in China. The faintings were caused by excessive heat and alleged forced overtime. In 2014, almost 120 workers fainted in two Cambodian clothing factories where sportswear was being produced for Puma and Adidas, due to temperatures above 100 degrees Fahrenheit (38 °C).\n[…]\nIn March 2017, 150 workers assembling Puma products in Cambodia fainted due to thick smoke.\n[…]\nSabel v Puma, a CJEU case on trade marks"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Adidas",
+        "situacao": "ok",
+        "texto": "Adidas AG (German pronunciation: [ˈadiˌdas] ; styled as adidas since 1949) is a German multinational athletic apparel and footwear corporation headquartered in Herzogenaurach, Germany. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike. It is the holding company for the Adidas Group, which also owns an 8.33% stake in the football club Bayern Munich\n[…]\nsprinter Jesse Owens to use his handmade spikes at the 1936 Summer Olympics. In 1949, following a breakdown in the relationship between the brothers, Adolf created Adidas and Rudolf established Puma, which became Adidas's business rival.\n[…]\nAt the 1960 Summer Olympics, Puma paid German sprinter Armin Hary to wear Pumas in the 100 meter sprint final. Hary had worn Adidas before and asked Adolf for payment, but Adidas rejected this request. The German won gold in Pumas, but then laced up Adidas for the medals ceremony, to the shock of the two Dassler brothers. Hary hoped to cash in from both, but Adi was so enraged he banned the Olympic champion.\n[…]\nThe \"Pelé Pact\" was the most notable event in the Dassler brothers feud, when both owners of Adidas and Puma agreed not to sign a sponsorship deal with Pelé for the 1970 FIFA World Cup, feeling that a bidding war for the most famous athlete in the world would become too expensive, only for Puma to break the pact and sign him. Many business experts credit the brothers' rivalry and competition for transforming sports apparel into a multi-billion pound industry.\n[…]\nIn July 2019, Adidas and Arsenal agreed to a five-year kit deal, beginning with the 2019–20 Premier League season. This kit deal has a guaranteed minimum value of £300 million (US$406.41 million) and replaces rival Puma as the club's global equipment partner.\n[…]\nAdidas Originals\n[…]\nPuma (brand), formed by Rudolf Dassler, brother of Adolf Dassler\n[…]\nAdidas Group, corporate site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Puma_SE",
+        "situacao": "ok",
+        "texto": "PUMA é uma empresa alemã de equipamentos desportivos, fundada em 1948 pelo empresário alemão Rudolf Dassler, com sede em Herzogenaurach, Alemanha.\n[…]\nA empresa surgiu através da separação da Gebrüder Dassler Schuhfabrik, uma antiga fábrica de calçados de pano criada por Rudolf e seu irmão Adolf Dassler (fundador da também alemã Adidas) em 1924. No ano de 1924 dois irmãos, Adolf (apelido Adi) e Rudolf (apelido Rudi) Dassler, criaram uma pequena empresa de calçados de pano, a Gebrüder Dassler Schuhfabrik. Aos poucos a produção começou a crescer e fornecer sapatos para atletas olímpicos.\n[…]\nO atleta Jesse Owens, nas Olimpíadas de Berlim, 1936, começou a mostrar o trabalho dos irmãos alemães ao mundo.\n[…]\nA empresa mostrava um desenvolvimento rápido, numa velocidade que fez com que os irmãos buscassem seus próprios lucros, ou seja, se separaram. No ano de 1948, Adi Dassler fundou a Adidas enquanto Rudolf criou a Puma Fábrica de Sapatos Rudolf Dassler. Um ano após a divisão da empresa, Rudolf mudou a sede da empresa para Herzogenaurach, cidade próxima do grande centro Nuremberg.\n[…]\nDessa forma a Puma atingia a América e conseguindo o direito da National Football League, NFL, passou a distribuir o uniforme para 13 equipes do esporte mais popular dos Estados Unidos, o Futebol Americano. Não demorou muito para conseguir a liberação da NBA, e fornece uniformes para nove equipes de outro desporto conhecido na terra norte-americana, o basquete.\n[…]\nEm 18 de fevereiro de 2022, a Puma foi anunciada como patrocinadora das ligas de Free Fire da América Latina. O anúncio foi feito pela Garena, desenvolvedora do jogo virtual.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Chiclete de Thomas Adams",
+      "descricao": "Goma de mascar feita de chicle, produzida em Nova York por Thomas Adams a partir de 1871."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ex-presidente do México, exilado nos Estados Unidos, apresentou a Thomas Adams o chicle que acabou virando goma de mascar?",
+    "resposta": "Antonio López de Santa Anna",
+    "distratores": [
+      "Benito Juárez",
+      "Porfirio Díaz",
+      "Pancho Villa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chewing_gum",
+      "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chewing_gum",
+        "situacao": "ok",
+        "texto": "Chewing gum is a soft, cohesive substance designed to be chewed without being swallowed. Modern chewing gum is composed of gum base, sweeteners, softeners/plasticizers, flavors, colors, and, typically, a hard or powdered polyol coating. Its texture is reminiscent of rubber because of the physical-chemical properties of its polymer, plasticizer, and resin components, which contribute to its elastic\n[…]\nModern chewing gum was first developed in the 1860s when chicle was brought from Mexico by the former president, General Antonio Lopez de Santa Anna, to New York, where he gave it to Thomas Adams for use as a rubber substitute. Chicle did not succeed as a replacement for rubber, but as a gum cut into strips and marketed as Adams New York Chewing Gum in 1871.\n[…]\nBlack Jack (1884), which is flavored with licorice, Chiclets (1899), and Wrigley's Spearmint Gum were early popular gums that quickly dominated the market and are all still around today. Chewing gum gained worldwide popularity through American GIs in WWII, who were supplied chewing gum as a ration and traded it with locals. Synthetic gums were first introduced to the U.S. after chicle no longer satisfied the needs of making good chewing gum.\n[…]\nChewing gum has been shown to be effective in relieving the symptom of thirst in patients living with heart failure.\n[…]\nIn 2018, the BBC published a news article on British designer Anna Bullus, who created a method of collecting and recycling chewing gum into plastic, noting that litter from chewing gum is the second most common form of litter, second only to cigarette litter. She uses a Worcester recycling plant to make old chewing gum into plastic. She then uses that plastic at a plastic moulding specialist, Amber Valley, in Leicester to make plastic objects.\n[…]\nList of chewing gum brands\n[…]\n\"Chewing-Gum\" . New International Encyclopedia. 1905."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna",
+        "situacao": "ok",
+        "texto": "Antonio de Padua María Severino López de Santa Anna y Pérez de Lebrón (21 February 1794 – 21 June 1876), often known as Santa Anna, was a Mexican general, politician, and caudillo who served as the eighth president of Mexico on multiple occasions between 1833 and 1855.\n[…]\nSanta Anna's family prospered in Veracruz, where the merchant class dominated politics. His paternal uncle, Ángel López de Santa Anna, was a public clerk (escribano) and became aggrieved when the town council of Veracruz prevented him from moving to Mexico City to advance his career.\n[…]\nCole, David A. \"The Early Career of Antonio López de Santa Anna,\" PhD dissertation. Christ Church, University of Oxford 1977.\n[…]\nDíaz Díaz, Fernando. Caudillos y caciques: Antonio López de Santa Anna y Juan Álvarez. Mexico City: El Colegio de México 1972.\n[…]\nFlores Mena, Carmen. El general don Antonio López de Santa Anna (1810–1833). Mexico City: UNAM 1950.\n[…]\nFowler, Will. \"All the President's Women: The Wives of General Antonio López de Santa Anna in 19th century Mexico\", Feminist Review, No. 79, Latin America: History, war, and independence (2005),\n[…]\nMabry, Donald J., \"Antonio Lopez de Santa Anna\", 2 November 2008; essay by scholar\n[…]\nPaquel, Leonardo. Antonio López de Santa Anna. Mexico City: Instituto de Mexicología 1990.\n[…]\nVázquez, Josefina Zoraida. Don Antonio López de Santa Anna: Mito y enigma. Mexico City: Condumex 1987.\n[…]\nAntonio López de Santa Anna[link removed] in A Continent Divided: The U.S. – Mexico War, Center for Greater Southwestern Studies, the University of Texas at Arlington\n[…]\nThe Handbook of Texas Online: Antonio Lopez de Santa Anna\n[…]\nBenson Latin American Collection – Antonio López de Santa Anna Collection\n[…]\nArchontology.org, Home » Nations » Mexico » Heads of State » LÓPEZ de SANTA ANNA, Antonio"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chiclete",
+        "situacao": "ok",
+        "texto": "Chiclete (do náuatle: tziktli, AFI: [ˈtsiktɬi], literalmente «seiva do sapotizeiro; coisa pegajosa»), também conhecida como goma de mascar, chicle de goma, chicla, pastilha elástica ou simplesmente pastilha (Portugal), ou chuinga (Moçambique e Angola), é um tipo de confeito que é produzido para ser mastigado e não engolido.\n[…]\nA origem do hábito de mascar chiclete é controversa. Alguns autores afirmam que o hábito de mascar gomas surgiu entre os índios da Guatemala, que mascavam uma resina extraída de uma árvore denominada chicle com a finalidade de estimular a salivação. Outros, que o hábito surgiu entre os Maias, no México, que mascavam uma goma obtida de um látex que escorria de cortes de uma árvore conhecida como Sapota zapotilla, hábito que os Astecas posteriormente assimilaram.\n[…]\nNa década de 1860, Antonio López de Santa Anna (presidente e general mexicano exilado nos Estados Unidos) levou, para a América do Norte, uma resina cremosa (látex) a que chamavam chicle. Apresentou-a a Thomas Adams Jr, um fotógrafo e inventor nova-iorquino, que tentou, sem sucesso, vulcanizá-la, utilizando-a depois para o fabrico de pastilhas elásticas que se tornaram um sucesso. Mais tarde, melhorou-lhes o sabor, acrescentando um pouco de licor, o que agradou aos seus clientes.\n[…]\nIndustrialmente, a produção do chiclete iniciou-se em 1872 quando o norte-americano Thomas Adams, Jr. iniciou a venda de pedaços de cera parafinada com alcaçuz.\n[…]\nEm Singapura, é proibida a venda de chiclete de todas as formas. Quem violar essa lei, pode ser detido. A cidade é tão limpa que, no chão, não há nenhuma sujeira. Como o chiclete (goma de mascar), quando jogado ao chão, gruda e é muito difícil retirá-lo, foi criada esta lei. O turista que for pego com chicletes pode levar uma multa e ser detido, ou não poderá entrar no país (cidade).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Goodyear",
+      "descricao": "Fabricante americana de pneus fundada em 1898 em Akron, Ohio, por Frank Seiberling."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A fabricante de pneus Goodyear homenageia Charles Goodyear, que nunca trabalhou nela. Que processo ele inventou?",
+    "resposta": "Vulcanização da borracha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goodyear_Tire_and_Rubber_Company",
+      "https://en.wikipedia.org/wiki/Charles_Goodyear"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Goodyear_Tire_and_Rubber_Company",
+        "situacao": "ok",
+        "texto": "The Goodyear Tire & Rubber Company, commonly known as Goodyear, is an American multinational tire manufacturer headquartered in Akron, Ohio. It develops tires for automobiles, motorcycles, trucks, recreational vehicles, heavy off-road machinery, aviation and military. It also licenses the Goodyear brand to bicycle tire manufacturers, returning from a break in production between 1976 and 2015.\n[…]\nFounded in 1898 by Frank Seiberling, the company was named after American Charles Goodyear (1800–1860), inventor of vulcanized rubber. The first Goodyear tires became popular because they were easily detachable and required little maintenance. Goodyear was a component of the Dow Jones Industrial Average between 1930 and 1999. Since 2021, the company has been the world's third-largest tire manufacturer by annual revenue.\n[…]\nIn late 1919, the United States, influenced by the Goodyear Tire and Rubber Company, organised the creation of a \"coal and steel state\" under international protection which included the Upper Silesian Industrial Circle and the Ostrava–Karviná basin in the former Austrian Silesia. Because of opposition from France, the United States withdrew from supporting a Silesian state. This period was marked by tensions leading up to the 1921 Upper Silesia plebiscite.\n[…]\nIn February 2021, Goodyear announced that it would acquire the Cooper Tire & Rubber Company for $2.5 billion. The transaction closed in the second half of 2021.\n[…]\nIn July 2024, Goodyear announced the sale of its off-the-road tire business to Yokohama Rubber Company for $905 million.\n[…]\n2009: Goodyear Assurance Fuel Max tire introduced in North America\n[…]\nCooper Tire & Rubber Co.\n[…]\nThe Kelly Springfield Tire Company (United States)\n[…]\nRaben Tire\n[…]\nList of tire companies\n[…]\nRichard Korman. The Goodyear Story: An Inventor's Obsession and the Struggle for a Rubber Monopoly (2002)\n[…]\nBusiness data for Goodyear Tire and Rubber Company:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+        "situacao": "ok",
+        "texto": "Charles Goodyear (December 29, 1800 – July 1, 1860) was an American self-taught chemist and manufacturing engineer who developed vulcanized rubber, for which he received patent number 3633 from the United States Patent Office on June 15, 1844.\n[…]\nGoodyear's discovery of the vulcanization process followed five years of searching for a more stable rubber and stumbling upon the effectiveness of heating after Thomas Hancock. His discovery initiated decades of successful rubber manufacturing in the Lower Naugatuck Valley in Connecticut, as rubber was adopted to multiple applications, including footwear and tires. The Goodyear Tire and Rubber Company is named after (though not founded by) him.\n[…]\nFrom 1834 through 1839, Goodyear worked anywhere he could find investors, and often moved locations, mostly within New York, Massachusetts, Philadelphia, and Connecticut. In 1839, Goodyear was at the Eagle India Rubber Company in Woburn, Massachusetts, where he discovered that combining rubber and sulfur over a hot stove caused the rubber to become rigid, a process which he called vulcanization because of the heat involved.\n[…]\nIn 1852, Goodyear went to Europe, a trip that he had long planned, and saw Thomas Hancock, then in the employ of Charles Macintosh & Company. Hancock claimed to have invented vulcanization independently, and received a British patent, initiated in 1843, but finalized in 1844. In 1855, in the last of three patent disputes with fellow British rubber pioneer, Stephen Moulton, Hancock's patent was challenged with the claim that Hancock had copied Goodyear. Goodyear attended the trial.\n[…]\nLeverett Candee, first person to manufacture rubber footwear under the Goodyear vulcanization process.\n[…]\nGoodyear Tire and Rubber Company"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Goodyear",
+        "situacao": "ok",
+        "texto": "Goodyear Tire & Rubber Company é uma empresa que fabrica pneus para automóveis, camiões comerciais, camiões leves, utilitários esportivos, carros de corrida, aviões, equipamentos agrícolas e máquinas terra-motor pesado. Foi fundada em 1898 por Frank Seiberling em Akron, Ohio.\n[…]\nEm 2005, Titan Tire comprou o negócio de pneus da Goodyear fazenda, e continua a fabricação Goodyear pneus agrícolas sob licença. Esta aquisição incluiu a planta em Freeport, Illinois.\n[…]\nEm 10 de julho de 2008, a Goodyear Tire & Rubber Company foi reconhecida como uma das empresas mais respeitadas da América pelo Reputation Institute (RI) e a revista Forbes. Goodyear em 16o lugar na terceira listagem da revista anual das empresas com melhor reputação nos Estados Unidos.\n[…]\nGoodyear também foi classificada entre as 100 melhores empresas cidadãs, selecionados pelo CRO revista.\n[…]\nA empresa anunciou no Verão de 2009 que vai fechar sua fábrica de pneus no Filipinas, como parte de uma estratégia para abordar a capacidade de produção não competitivo globalmente até o final do terceiro trimestre.\n[…]\nGoodyear anunciou que vai vender os ativos de sua latino-americana negócio de pneus off-road para Titan pneu para EUA 98,6 milhões dólares. Isso inclui a fábrica em São Paulo, Brasil, e um acordo de licenciamento que permite Titan para continuar fabricação sob a Goodyear.\n[…]\nEm 2011, mais de 70 anos após a dissolução da Corporação Goodyear-Zeppelin, é anunciado que a Goodyear fará parceria com a Zeppelin novamente (o legado da empresa Zeppelin Luftschifftechnik) para construir mais zepelins juntos.\n[…]\nA Goodyear fornece pneus para a NASCAR desde 1954, sendo fornecedora exclusiva desde 1997.\n[…]\nDe 1964 até ao fim da época de 1998, a Goodyear forneceu pneus à F1.\n[…]\nGoodyear Brasil\n[…]\nGoodyear Stockcar",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "WD-40",
+      "descricao": "Lubrificante e desengripante em spray criado em San Diego, nos Estados Unidos, em 1953."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O nome do lubrificante WD-40 lembra que a fórmula só deu certo depois de várias tentativas. Em qual delas?",
+    "resposta": "Na quadragésima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/WD-40"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/WD-40",
+        "situacao": "ok",
+        "texto": "WD-40 is a multi-purpose water-displacing product with penetrating and lubricating properties, manufactured by the WD-40 Company based in San Diego, California. Its formula was invented for the Rocket Chemical Company in 1953, and it became available as a commercial product in 1958. It acts as a lubricant, rust preventive, penetrant and moisture displacer. In 2014, it was inducted into the Interna\n[…]\nSources credit different people with inventing the WD-40 formula in 1953 as part of the Rocket Chemical Company (later renamed to the WD-40 Company), in San Diego, California; the formula was kept as a trade secret and was never patented to avoid public disclosure of the ingredients.\n[…]\nAccording to Iris Engstrand, a historian of San Diego and California history at the University of San Diego, Iver Norman Lawson invented the formula, while the WD-40 company website and other books and newspapers credit Norman B. Larsen. According to Engstrand, \"(Iver Norman) Lawson was acknowledged at the time, but his name later became confused with company president Norman B.\n[…]\nLarsen.\" \"WD-40\" is abbreviated from the term \"Water Displacement, 40th formula\", suggesting it was the result of the 40th attempt to create the product. The spray, composed of various hydrocarbons, was originally designed to be used by Convair to protect the outer skin of the Atlas missile from rust and corrosion. This outer skin also functioned as the outer wall of the missile's delicate balloon tanks.\n[…]\nWD-40's formula is a trade secret. The original copy of the formula was moved to a secure bank vault in San Diego in 2018. To avoid disclosing its composition, the product was not patented in 1953, and the window of opportunity for patenting it has long since closed.\n[…]\nThe European formulation is stated according to the REACH regulations:\n[…]\nThe Australian formulation is stated:\n[…]\nWD-40 Safety Data Sheets\n[…]\nWD-40 uses, by Snopes.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/WD-40",
+        "situacao": "ok",
+        "texto": "WD-40 (abreviação de Water Displacement, 40th formula) é uma marca americana e a marca registrada de um óleo penetrante fabricado pela WD-40 Company, com sede em San Diego, Califórnia. Sua fórmula foi inventada para a Rocket Chemical Company em 1953, antes de a empresa se tornar a WD-40 Company. O WD-40 tornou-se disponível como produto comercial em 1961. Atua como lubrificante, preventivo de ferr\n[…]\nFontes atribuem a diferentes pessoas a invenção da fórmula do WD-40 em 1953, como parte da Rocket Chemical Company (posteriormente renomeada para WD-40 Company), em San Diego, Califórnia; a fórmula foi mantida como um segredo comercial e nunca foi patenteada.\n[…]\nSegundo com Iris Engstrand, historiadora de San Diego e da história da Califórnia na Universidade de San Diego, Iver Norman Lawson inventou a fórmula, enquanto o site da WD-40 Company e outros livros e jornais atribuem a invenção a Norman B. Larsen. Segundo Engstrand, \"(Iver Norman) Lawson foi reconhecido na época, mas seu nome mais tarde foi confundido com o do presidente da empresa, Norman B. Larsen\".\n[…]\n\"WD-40\" é a abreviação do termo \"Water Displacement, 40th formula\", sugerindo que foi o resultado da 40ª tentativa de criar o produto. O spray, composto de vários hidrocarbonetos, foi originalmente projetado para ser usado pela Convair para proteger a camada externa do míssil Atlas contra ferrugem e corrosão. Essa camada externa também funcionava como a parede externa dos delicados tanques de balão do míssil.\n[…]\nA fórmula do WD-40 é um segredo comercial. A cópia original da fórmula foi transferida para um cofre bancário seguro em San Diego em 2018. Para evitar a divulgação de sua composição, o produto não foi patenteado em 1953, e a oportunidade para patenteá-lo já se encerrou há muito tempo.\n[…]\nA formulação australiana é declarada:\n[…]\nWD-40 uses, por Snopes.com (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Google",
+      "descricao": "Empresa americana de tecnologia fundada em 1998 por Larry Page e Sergey Brin, dona do buscador de mesmo nome."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O nome Google vem de googol, termo matemático para o número um seguido de quantos zeros?",
+    "resposta": "Cem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Google",
+      "https://en.wikipedia.org/wiki/History_of_Google"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "situacao": "ok",
+        "texto": "Google LLC ( , GOO-gəl) is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI). It has been referred to as \"the most powerful company in the world\" by the BBC, and is one of the world's most valuable br\n[…]\nEventually, they changed the name to Google; the name of the search engine was a misspelling of the word googol, a very large number written 10100 (1 followed by 100 zeros), picked to signify that the search engine was intended to search a large number of websites.\n[…]\nIn 2003, after outgrowing two other locations, the company leased an office complex from Silicon Graphics, at 1600 Amphitheatre Parkway in Mountain View, California. The complex became known as the Googleplex, a play on the word googolplex. Three years later, Google bought the property from SGI for $319 million.\n[…]\nGoogle ranked second in corporate lobbying expenditures in 2012 and fifth in 2013.\n[…]\nIn February 2019, a privacy incident involving the Google Nest Guard system went public. The controversy stemmed from the fact that Nest Guard, a security device that was part of the Nest Secure system, contained a hidden microphone that was not disclosed in any product specifications. It resulted in a public relations failure.\n[…]\nGoogle ATAP – Skunkworks team and in-house technology incubator\n[…]\nOutline of Google – American multinational tech corporation\n[…]\nGoogle Blogger – American online content management system\n[…]\nMarcum, Deanna, and Roger C. Schonfeld. Along Came Google: A History of Library Digitization (Princeton University Press, 2023) online book review\n[…]\nYeo, ShinJoung (2023). Behind the Search Box: Google and the Global Internet Industry. U of Illinois Press. ISBN 0252087127. JSTOR 10.5406/jj.4116455.\n[…]\nBusiness data for Google, Inc.:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Google",
+        "situacao": "ok",
+        "texto": "Google was officially launched in 1998 by Larry Page and Sergey Brin to market Google Search, which has become the most used web-based search engine. Larry Page and Sergey Brin, students at Stanford University in California, developed a search algorithm first (1996) known as \"BackRub\", with the help of Scott Hassan and Alan Steremberg. The search engine soon proved successful, and the expanding co\n[…]\nThe name Google is a misspelling of Googol, the number 1 followed by 100 zeros, which was picked to signify that the search engine was intended to provide large quantities of information.\n[…]\nThe name \"Google\" originated from a misspelling of \"googol\", which refers to the number represented by a 1 followed by one-hundred zeros. Page and Brin write in their first paper on PageRank: \"We chose our systems name, Google, because it is a common spelling of googol, or 10100 and fits well with our goal of building very large-scale search engines.\"\n[…]\nIn January 2009, Google announced a partnership with the Pontifical Council for Social Communications, allowing the Pope to have his own channel on YouTube.\n[…]\nIn January 2013, Google announced a partnership with Kia Motors and Hyundai. The partnership integrates Google Maps and Place into new car models to be released later in 2013.\n[…]\nGoogle will help to decrease Internet access prices so they fall below the UN Broadband Commission's worldwide target of 5% of monthly income.\n[…]\nOn September 21, 2017, HTC announced a \"cooperation agreement\" in which it would sell non-exclusive rights to certain intellectual property, as well as smartphone talent, to Google for $1.1 billion.\n[…]\nTimeline of Google Search\n[…]\nCriticism of Google\n[…]\nGoogle logo\n[…]\nList of Google Easter eggs\n[…]\nTimeline of Mountain View, California, headquarters of Google since 1999\n[…]\nGoogle Corporate History (official)\n[…]\nDavid Hart: On the Origins of Google National Science Foundation, August 17, 2004"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Google",
+        "situacao": "ok",
+        "texto": "Google ([ˈɡuːɡəl] GOO-ghəl) é uma empresa multinacional de softwares e serviços online (baseado na nuvem) fundada em 1998 na cidade norte-americana de Menlo Park (estado da Califórnia), que lucra principalmente através da publicidade pelo AdWords. A Google é a principal subsidiária da Alphabet Inc.\n[…]\nMeses depois, eles mudaram o nome para o Google, proveniente de um erro ortográfico da palavra \"googol\", o número um seguido por cem zeros, que foi criado para indicar a quantidade de informação que o motor de busca podia processar, o nome também reflete a missão de organizar uma quantidade aparentemente infinita de informações na web.\n[…]\nO complexo tem sido, desde então, conhecido como o Googleplex, uma brincadeira com a palavra googolplex, o número um seguido de um googol zeros. Três anos depois, o Google iria comprar a propriedade da SGI por 319 milhões de dólares.\n[…]\nA sede do Google em Mountain View, Califórnia, é conhecida como \"Googleplex\", um jogo de palavras com o número googolplex e do fato da sede ser um complexo de edifícios. A entrada está decorada com um piano, lâmpadas de lava, aglomerados de servidores antigos e uma projeção de consultas de pesquisa na parede. Os corredores estão cheios de bolas de exercício e bicicletas. Cada funcionário tem acesso ao centro de recreação da empresa.\n[…]\nEric Schmidt, chefe-executivo do Google, disse em 2007, em uma entrevista ao Financial Times: \"O objetivo é permitir que usuários do Google sejam capazes de fazer perguntas como \"O que vou fazer amanhã? e \"Em qual trabalho devo me ocupar?\". Schmidt reafirmou isso em 2010, em uma entrevista ao Wall Street Journal:\".. Eu realmente acho que a maioria das pessoas não querem o Google para responder suas perguntas, elas querem Google para dizer-lhes o que deve fazer em seguida.\"\n[…]\n«Google»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Dr Pepper",
+      "descricao": "Refrigerante americano criado em 1885 numa farmácia de Waco, no Texas."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes refrigerantes americanos é o mais antigo?",
+    "resposta": "Dr Pepper",
+    "distratores": [
+      "Coca-Cola",
+      "Pepsi",
+      "Seven Up"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dr_Pepper",
+      "https://en.wikipedia.org/wiki/Coca-Cola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dr_Pepper",
+        "situacao": "ok",
+        "texto": "Dr Pepper is a carbonated soft drink created in the 1880s by American pharmacist Charles Alderton in Waco, Texas. It was first marketed nationally in the United States in 1904. The beverage is manufactured and distributed by different companies depending on the country: Keurig Dr Pepper produces it in the United States, Canada, and Mexico; The Coca-Cola Company in the United Kingdom, Ireland, and \n[…]\nIn 1995, Cadbury Schweppes acquired Dr Pepper/Seven Up. In May 2008, Cadbury Schweppes spun off Cadbury Schweppes Americas Beverages into an independent company called the Dr Pepper Snapple Group, and renamed itself to Cadbury plc. On July 9, 2018, Keurig acquired the Dr Pepper Snapple Group in an $18.7 billion deal. The combined company was renamed \"Keurig Dr Pepper\".\n[…]\nI'm a doctor\", followed by the new slogan appearing onscreen with a glass of Dr Pepper.\n[…]\nLoren's role as Dr Pepper spokesperson led to her first appearance in the American International Pictures' Beach Party film Muscle Beach Party. Loren later explained: \"Dr Pepper was involved in that [the Beach Party movies] and actually placed me as product placement. And because I could sing, they gave me a duet with Dick Dale, and then it just went on from there.\" From this, she went on to appear in three more Beach Party films.\n[…]\nFrom 1961 until 1981, Dr Pepper was also the sponsor of the Miss Teenage America beauty pageant.\n[…]\nOn March 26, 2008, various media outlets reported that Dr Pepper would offer \"a free can of Dr Pepper to everyone in America\" – excluding former Guns N' Roses guitarists Buckethead and Slash – if the band released the long-awaited Chinese Democracy in 2008. Later in the day, lead vocalist Axl Rose replied to Dr Pepper on Guns N' Roses' official website and spoke of his surprise at Dr Pepper's support.\n[…]\nCaffeine Content for Dr Pepper flavors compared to some other beverages, Good Housekeeping"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Coca-Cola",
+        "situacao": "ok",
+        "texto": "Coca-Cola, or Coke, is a cola soft drink manufactured by the Coca-Cola Company. In 2013, Coke products were sold in over 200 countries and territories worldwide, with consumers drinking more than 1.8 billion company beverage servings each day. Coca-Cola ranked No. 94 in the 2024 Fortune 500 list of the largest United States corporations by revenue. Based on Interbrand's \"best global brand\" study o\n[…]\nAt the time, a prohibition on the drink was in place and The Coca-Cola Company was permitted to sell only to people working for American agencies, such as the United States Armed Forces. The ban was formally lifted in 1966, and Coca-Cola became legally and readily available to Taiwanese consumers in 1968.\n[…]\nPepsi, the flagship product of PepsiCo, the Coca-Cola Company's main rival in the soft drink industry, is usually second to Coke in sales, and outsells Coca-Cola in some markets. RC Cola, now owned by the Dr Pepper Snapple Group, the third-largest soft drink manufacturer, is also widely available.\n[…]\nAs a result of this campaign, PepsiCo's market share as compared to Coca-Cola's shot up dramatically in the 1950s with African American soft-drink consumers three times more likely to purchase Pepsi over Coke.\n[…]\nThe company, along with PepsiCo and other American conglomerates, has faced criticism and an ongoing boycott by the pro-Palestine movement, especially amidst the Gaza war. Critics pointed to the company's ties with Israel, including its donations to far-right Zionist organization Im Tirtzu, to justify the boycott. In June 2024, Coca-Cola's Bangladesh distributor ran an ad in Bangladesh—where it faced a heavy boycott—attempting to distance the company from Israel.\n[…]\nPendergrast, Mark (2024). For God, Country, and Coca-Cola: The Unauthorized History of the Great American Soft Drink And the Company That Makes It (Updated ed.). New York: Basic Books."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dr_Pepper",
+        "situacao": "ok",
+        "texto": "Dr Pepper é uma marca de refrigerante gaseificado, com corante de caramelo, comercializado nos Estados Unidos pela Keurig Dr Pepper. Os direitos da marca registrada variam de país para país, sendo detidos na maior parte dos casos fora dos EUA pela Coca-Cola e PepsiCo. Existe uma versão dietética de baixas calorias, conhecida por Diet Dr Pepper, assim como muitos outros sabores.\n[…]\nPensa-se que a bebida recebeu o nome de um antigo patrão de Morrison, mas a própria empresa da Dr Pepper contesta esta afirmação. Afirmam que antes de se mudar para o Texas, Morrison vivia em Wythe, na Virgínia, junto de um Dr. Charles T. Pepper, podendo ter sido amigo próximo da sua filha.\n[…]\nAo contrário da Coca-Cola e da Pepsi, o Dr Pepper não é comercializado como uma cola. O seu sabor é alegadamente derivado de sabores populares na altura em que foi concebido. Uma lista parcial destes sabores pode ser vista na fábrica onde o Dr Pepper é engarrafado, em Dublin (Texas), apesar da fórmula (com os seus 23 ingredientes) ser um segredo bem guardado.\n[…]\nNa década de 1980, o Dr Pepper esteve para se tornar uma marca da Coca-Cola, mas tornou-se insolvente no início dessa década, o que levou a companhia a ser vendida a entidades privadas. Alguns anos mais tarde, a Coca-Cola tentou comprá-la, mas a comissão norte-americana para o comércio vetou essa aquisição. A companhia acabaria por ser fundir com a Seven Up, ficando a Coca-Cola, mais tarde, com os direitos da marca em muitos outros países.\n[…]\nDr Pepper Red Fusion: disponível entre 2002 e 2004, nos Estados Unidos;\n[…]\nDr Pepper Berries & Cream: lançado em 2006, com sabor a frutos silvestres e natas;\n[…]\nDr Pepper Zero: lançado em 2007, no Reino Unido, sem açúcar e com um sabor mais semelhante ao Dr Pepper normal que a versão dietética;\n[…]\nSite oficial do Dr Pepper - Portugal\n[…]\nSítio oficial do Dr Pepper - Estados Unidos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Omega Speedmaster",
+      "descricao": "Modelo de relógio cronógrafo da marca suíça Omega, certificado pela NASA para as missões espaciais."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modelo de relógio suíço Buzz Aldrin levava no pulso ao caminhar na Lua, em 1969?",
+    "resposta": "Omega Speedmaster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Omega_Speedmaster"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Omega_Speedmaster",
+        "situacao": "ok",
+        "texto": "Omega Speedmaster is a line of luxury chronograph wristwatches produced by Omega SA. While chronographs have existed since the late 1800s,  Omega first introduced this line of chronographs in 1957. Since then, many different chronograph movements have been marketed under the Speedmaster name. Astronaut Walter Schirra was the first person to wear one in space in 1962 during his Mercury-Atlas 8 miss\n[…]\nOver the years, Omega has also sought to improve functional aspects of the basic Speedmaster Professional. In 1969, it produced the Speedmaster Professional Mk II, with shrouded lugs and a flat, anti-reflective mineral glass crystal. In 1970, Omega launched the Alaska Project under Pierre Chopard, which changed the dial of the original Speedmaster Professional from black to white and created a removable anodized aluminum housing to shield the watch from a wider range of temperatures.\n[…]\nRichon, Marco (2007), A Journey Through Time, Omega, ISBN 978-2-9700562-2-5.\n[…]\nGrégoire Rossier and Anthony Marquié (2014), Moonwatch Only, 60 years of Omega Speedmasters\n[…]\nHistory of the Omega Speedmaster, Chrono Maddox, a detailed table of Speedmaster models\n[…]\nIconic Watches: The Omega Speedmaster History, Time & Watches.\n[…]\nOmega Speedmaster Professional Chronographs, NASA History page.\n[…]\nspeedmaster-mission.net, by Jean-Michel\n[…]\nThe Right Stuff: Inside the Omega Speedmaster Professional - Part 1, by Jack Forster\n[…]\nThe Right Stuff: Inside the Omega Speedmaster Professional - Part 2, by Jack Forster\n[…]\nLegendary Watches: The Omega Speedmaster Archived 2014-02-01 at the Wayback Machine, by Matthew Boston\n[…]\nLegend of The Moon Watch: Omega Speedmaster Archived 2014-12-29 at the Wayback Machine\n[…]\nThe truth about the real Armstrong's and Aldrin's Speedmaster references and how the Omega Speedmaster became the Moonwatch by Monochrome-Watches\n[…]\nThe history of the Omega Speedmaster - Part 1, the early Pre-Moons by Monochrome-Watches"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Lamborghini",
+      "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de criar carros esportivos, o italiano Ferruccio Lamborghini ficou rico fabricando que tipo de veículo?",
+    "resposta": "Tratores",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini",
+      "https://en.wikipedia.org/wiki/Lamborghini"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini",
+        "situacao": "ok",
+        "texto": "Ferruccio Lamborghini  ( LAM-bər-GHEE-nee, Italian: [ferˈruttʃo lamborˈɡiːni]; 28 April 1916 – 20 February 1993) was an Italian automobile designer and industrialist who created Lamborghini Trattori in 1948 and Automobili Lamborghini in 1964, a maker of high-end sports cars in Sant'Agata Bolognese.\n[…]\nTrattori's unionised employees could not be laid off, putting immense strain on the company. In 1972, Lamborghini sold his entire holding in the company to rival tractor builder SAME. Soon, the entire Lamborghini group found itself in financial trouble. Development at the automaker slowed as costs were cut. Ferruccio Lamborghini began courting buyers for Automobili and Trattori, entering negotiations with Georges-Henri Rossetti, a wealthy Swiss businessman and friend.\n[…]\nLamborghini fathered a child, Patrizia, at age 58.\n[…]\nAll of Ferruccio Lamborghini's companies continue to operate today in one form or another. His son, Tonino, designs a collection of clothing and accessories under the Tonino Lamborghini brand, as well as designing the Town Life, an electric microcar which was revealed at the Bologna Motor Show in 1999. Ferruccio's daughter, Patrizia Lamborghini, runs the Lamborghini winery on his Umbria estate.\n[…]\nIn 1995 son Tonino opened a museum that honors Lamborghini's legacy, the Centro Studi e Ricerche Ferruccio Lamborghini in Dosso (Ferrara), which was moved to Argelato (Bologna) in 2014 with the new name Museo Lamborghini.\n[…]\nCowell, Alan (22 February 1993). \"Ferruccio Lamborghini, 76, Dies; A Top Maker of Stylish Sports Cars\". New York Times. New York City, New York. ISSN 0362-4331. Archived from the original on 20 April 2013. Retrieved 11 August 2012.\n[…]\nPatrizia Lamborghini discussing Lamborghini winery\n[…]\nAutomobili Lamborghini S.p.A. Automobiles; now a subsidiary of AUDI AG"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lamborghini",
+        "situacao": "ok",
+        "texto": "Automobili Lamborghini S.p.A. (colloquially Lambo) is an Italian manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.\n[…]\nFerruccio Lamborghini (1916–1993), an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with Ferrari. The company was noted for using a rear mid-engine, rear-wheel drive layout. Lamborghini grew rapidly during its first decade, but sales plunged in the wake of the 1973 worldwide financial downturn and the oil crisis. The firm's ownership changed three times after 1973, including a bankruptcy in 1978.\n[…]\nFerruccio Lamborghini, already an established industrialist who manufactured tractors, boilers, and air conditioners, founded Lamborghini Automobili on 7 May 1963.\n[…]\nAs of 2011, Lamborghini is structured as a wholly owned subsidiary of Audi AG named Automobili Lamborghini S.p.A.\n[…]\nAutomobili Lamborghini S.p.A. controls five principal subsidiaries: Ducati Motor Holding S.p.A., a manufacturer of motorcycles; Italdesign Giugiaro S.p.A., a design and prototyping firm that provides services to the entire Volkswagen Group; MML S.p.A. (Motori Marini Lamborghini), a manufacturer of marine engine blocks; and Volkswagen Group Italia S.p.A. (formerly Autogerma S.p.A.), which sells Audi and other Volkswagen Group vehicles in Italy.\n[…]\nFerrucio Lamborghini (1963–1972)\n[…]\n\"Principales cláusulas de los contratos con USA e Italia\" [Main Contract Terms between USA and Italy]. lamborghini-latinoamerica.com (in Spanish). Automóviles Lamborghini Latinoamérica S.A. de C.V. 5 August 1995. Archived from the original (JPG) on 2 October 2013. Retrieved 2 August 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ferruccio_Lamborghini",
+        "situacao": "ok",
+        "texto": "Ferruccio Elio Arturo Lamborghini (Renazzo di Cento, 28 de abril de 1916 — Perugia, 20 de fevereiro de 1993) foi um industrial italiano, conhecido principalmente por ter fundado uma marca de automóveis de grande luxo que carrega o seu nome. Filho de fazendeiros, fundou em 1948 a Lamborghini Trattori, que rapidamente se tornou uma importante fabricante de equipamentos agrícolas em meio da reforma e\n[…]\nPara além do empenho que desde sempre dedicou ao setor de veículos agrícolas, a paixão por automóveis levou Ferruccio a construir, com o mesmo nome da marca dos seus tratores, o automóvel que se celebrizou com a designação de \"Miúra\", símbolo dos touros do mais conceituado criador de gado bravo espanhol Eduardo Miúra (1917) — lançando no mercado do setor de automóveis de luxo o primeiro Lamborghini, modelo \"GTV 350\" (apresentado no Salão de Turim de 1963).\n[…]\nUm problema mecânico surgiu na Ferrari de Ferruccio, relacionado à um mau funcionamento da sua embreagem, e Ferrucio Lamborghini teve a oportunidade de reclamar pessoalmente ao engenheiro Enzo Ferrari na sua fábrica de Maranello. Lamborghini obteve como resposta: \"Você não sabe nada sobre carros, o melhor que pode fazer é deslocar-se em seus tratores…\".\n[…]\nEm 1970, desmotivado com o atrás sucedido, numa altura onde na Itália as greves de trabalho e as conflitualidades sindicais eram uma constante, Ferruccio Lamborghini resolve descansar e viver dos muitos rendimentos de que já usufruía, vendendo seu projeto de automóveis a um grupo suíço, e os tratores, ao fabricante da Same. A marca de automóveis passou depois por diversos proprietários, incluindo a Chrysler, pertencendo atualmente ao grupo Volkswagen através da sua subsidiária Audi.\n[…]\nOs tratores Lamborghini foram comprados nesse ano por Francesco Cassani.\n[…]\nFerrucio Lamborghini faleceu de parada cardíaca em 20 de fevereiro de 1993, aos 76 anos.\n[…]\n«Lamborghini SpA»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
