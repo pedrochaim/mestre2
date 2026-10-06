@@ -1,0 +1,349 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O Parque Nacional da Serra da Capivara, com milhares de pinturas rupestres e sítios importantes sobre a chegada humana à América, fica em que estado brasileiro?",
+        "resposta": "Piauí"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        },
+        {
+          "id": "q03083",
+          "pergunta": "Que arqueóloga brasileira liderou as pesquisas e a luta pela criação do Parque Nacional da Serra da Capivara?",
+          "resposta": "Niède Guidon"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O esqueleto original de Lucy, achado em 1974, fica guardado no Museu Nacional de que capital africana?",
+        "resposta": "Adis Abeba"
+      },
+      "existentes": [
+        {
+          "id": "q02781",
+          "pergunta": "O apelido do fóssil Lucy, achado em 1974, veio de uma música que tocava no acampamento dos pesquisadores. De que banda era essa música?",
+          "resposta": "The Beatles"
+        },
+        {
+          "id": "q02782",
+          "pergunta": "Em 1974, na Etiópia, que paleoantropólogo americano encontrou o esqueleto de Lucy?",
+          "resposta": "Donald Johanson"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1858, as ideias de Darwin e Wallace sobre seleção natural foram lidas pela primeira vez em público numa reunião de que sociedade científica de Londres?",
+        "resposta": "Sociedade Lineana"
+      },
+      "existentes": [
+        {
+          "id": "q02814",
+          "pergunta": "O britânico Alfred Russel Wallace, que explorou a Amazônia e a Malásia, chegou por conta própria a que ideia também proposta por Darwin?",
+          "resposta": "Seleção natural"
+        },
+        {
+          "id": "q06217",
+          "pergunta": "Que naturalista inglês do século dezenove é este?",
+          "resposta": "Alfred Russel Wallace"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os Neandertais, que conviveram com o Homo sapiens na Europa, desapareceram há cerca de quanto tempo?",
+        "resposta": "40 mil anos"
+      },
+      "existentes": [
+        {
+          "id": "q02807",
+          "pergunta": "O que a maioria das pessoas com ancestrais de fora da África tem em comum com os Neandertais?",
+          "resposta": "Uma pequena parte do DNA"
+        },
+        {
+          "id": "q02808",
+          "pergunta": "Entre estes hominídeos, qual tinha, em média, o maior cérebro?",
+          "resposta": "Neandertal"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Apesar do cérebro pequeno, parecido com o de hominídeos bem antigos, o Homo naledi viveu há quanto tempo, aproximadamente?",
+        "resposta": "300 mil anos"
+      },
+      "existentes": [
+        {
+          "id": "q02786",
+          "pergunta": "Na língua sesoto, o que significa naledi, palavra que batiza uma espécie humana descoberta em 2013 numa caverna sul-africana?",
+          "resposta": "Estrela"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Quantos anos depois de A Origem das Espécies Darwin publicou A Descendência do Homem, livro em que trata diretamente da evolução humana?",
+        "resposta": "Doze anos"
+      },
+      "existentes": [
+        {
+          "id": "q02828",
+          "pergunta": "No livro A Descendência do Homem, de 1871, Darwin considerou provável que os primeiros ancestrais humanos tivessem vivido em que continente?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo a genética, as linhagens que levaram aos humanos e aos chimpanzés se separaram há cerca de quanto tempo?",
+        "resposta": "6 milhões de anos"
+      },
+      "existentes": [
+        {
+          "id": "q01227",
+          "pergunta": "Em que continente vive este primata na natureza?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A primeira edição de A Origem das Espécies, de 1859, foi toda vendida às livrarias logo no lançamento. Quantos exemplares ela tinha?",
+        "resposta": "1 250 exemplares"
+      },
+      "existentes": [
+        {
+          "id": "q03839",
+          "pergunta": "Darwin passou cerca de vinte anos sem publicar sua teoria. Em 1858, o que o fez finalmente se apressar a divulgá-la?",
+          "resposta": "Wallace chegou à mesma ideia"
+        },
+        {
+          "id": "q03859",
+          "pergunta": "Em que ano Charles Darwin publicou A Origem das Espécies?",
+          "resposta": "1859"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Qual destes fósseis de hominídeos é o mais antigo?",
+        "resposta": "Toumaï"
+      },
+      "existentes": [
+        {
+          "id": "q02825",
+          "pergunta": "O crânio apelidado de Toumaï, com cerca de sete milhões de anos e candidato a ancestral humano, foi encontrado em que país africano?",
+          "resposta": "Chade"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Toumaï, apelido do crânio de sete milhões de anos achado no Chade, vem de uma língua local. O que significa?",
+        "resposta": "Esperança de vida"
+      },
+      "existentes": [
+        {
+          "id": "q02825",
+          "pergunta": "O crânio apelidado de Toumaï, com cerca de sete milhões de anos e candidato a ancestral humano, foi encontrado em que país africano?",
+          "resposta": "Chade"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O esqueleto de Luzia foi achado nos anos 1970 em Minas Gerais por uma missão franco-brasileira liderada por que arqueóloga francesa?",
+        "resposta": "Annette Laming-Emperaire"
+      },
+      "existentes": [
+        {
+          "id": "q02787",
+          "pergunta": "O antropólogo Walter Neves batizou o fóssil brasileiro Luzia em homenagem a que outro fóssil famoso?",
+          "resposta": "Lucy"
+        },
+        {
+          "id": "q02788",
+          "pergunta": "Em 2018, o crânio de Luzia ficou semanas soterrado sob escombros por causa de que tragédia no Rio de Janeiro?",
+          "resposta": "Incêndio do Museu Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A expressão sobrevivência do mais apto, que Darwin adotou em edições posteriores de A Origem das Espécies, foi criada por que pensador inglês?",
+        "resposta": "Herbert Spencer"
+      },
+      "existentes": [
+        {
+          "id": "q05013",
+          "pergunta": "Que filósofo inglês criou a expressão sobrevivência do mais apto, que Darwin depois adotou em A Origem das Espécies?",
+          "resposta": "Herbert Spencer"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que parentesco ligava Charles Darwin a Josiah Wedgwood, fundador da famosa fábrica inglesa de cerâmica?",
+        "resposta": "Era seu avô materno"
+      },
+      "existentes": [
+        {
+          "id": "q05032",
+          "pergunta": "Josiah Wedgwood, fundador de uma famosa fábrica inglesa de louças, era o que de Charles Darwin?",
+          "resposta": "Avô materno"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que parentesco ligava Charles Darwin a Francis Galton, o cientista inglês que criou o termo eugenia?",
+        "resposta": "Meios-primos"
+      },
+      "existentes": [
+        {
+          "id": "q03846",
+          "pergunta": "Que parentesco unia Charles Darwin a Francis Galton, o criador da palavra eugenia?",
+          "resposta": "Meios-primos"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+        "resposta": "Era seu avô"
+      },
+      "existentes": [
+        {
+          "id": "q02792",
+          "pergunta": "Por defender com unhas e dentes a teoria da evolução no século dezenove, o biólogo inglês Thomas Huxley ganhou que apelido?",
+          "resposta": "Buldogue de Darwin"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Que famoso escritor britânico, que morava perto do local da descoberta, já foi apontado como suspeito da fraude do Homem de Piltdown?",
+        "resposta": "Arthur Conan Doyle"
+      },
+      "existentes": [
+        {
+          "id": "q02820",
+          "pergunta": "Na fraude do Homem de Piltdown, um crânio humano foi combinado com a mandíbula de que animal?",
+          "resposta": "Orangotango"
+        },
+        {
+          "id": "q02821",
+          "pergunta": "A fraude do Homem de Piltdown foi desmascarada no mesmo ano em que Watson e Crick descreveram a dupla hélice do DNA. Que ano foi esse?",
+          "resposta": "1953"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02430",
+      "motivo": "Mesmo fato: estado do Parque (Piauí)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local do esqueleto é fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sociedade Lineana é fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Época do desaparecimento é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Idade difere do significado do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Intervalo de anos difere do continente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Separação genética é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tiragem é fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Comparação de antiguidade, fato diferente do país."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Significado do nome é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Líder da missão é fato novo."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q05013",
+      "motivo": "Mesmo fato: criador da expressão."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q05032",
+      "motivo": "Mesmo parentesco Wedgwood-Darwin."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q03846",
+      "motivo": "Mesmo parentesco Darwin-Galton."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Parentesco Huxley difere do apelido."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Suspeito da fraude é fato diferente."
+    }
+  ]
+}

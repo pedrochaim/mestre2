@@ -1,0 +1,1688 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Evolução Humana** (tema **Natureza**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Menino de Turkana",
+      "descricao": "Esqueleto quase completo de um jovem Homo erectus achado em 1984 perto do lago Turkana, no Quênia."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1984, um esqueleto quase completo de Homo erectus, apelidado de Menino de Turkana, foi achado às margens de um lago em que país africano?",
+    "resposta": "Quênia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turkana_Boy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Turkana_Boy",
+        "situacao": "ok",
+        "texto": "Turkana Boy, also called Nariokotome Boy, is the name given to fossil KNM-WT 15000, a nearly complete skeleton of a Homo erectus youth who lived 1.5 to 1.6 million years ago. This specimen is the most complete Homo erectus skeleton ever found. Some authorities designate it as Homo ergaster.\n[…]\nIt was discovered in 1984 by Kamoya Kimeu on the bank of the Nariokotome River near Lake Turkana in Kenya.\n[…]\nThe specimen comprises 108 bones, making it the most complete early human skeleton discovered. A 2018 study estimates that he was 154 cm (5 ft 1 in) tall and weighed 51–54 kg (112–119 lb) when he died. In adulthood, Turkana Boy might have reached 160–178 cm (5 ft 3 in – 5 ft 10 in) tall and massed 60–83 kg (132–183 lb). The pelvis is narrower than in Homo sapiens, which is most likely for more efficient upright walking.\n[…]\nThe fossil skeleton and other fossil evidence, such as Acheulean stone tools, prompt the majority of scientists to conclude that Homo erectus – unlike their more primitive ancestors – became efficient hunters. The social structure would probably have become more complex with a larger brain volume; the Broca's area of the brain allows speech and is noted by a slight slant on the cranium. Turkana Boy's thoracic vertebrae are narrower than in Homo sapiens.\n[…]\nAlan Walker; Richard Leakey, eds. (1993). Nariokotome Homo erectus Skeleton. ISBN 0-674-60075-4. – Technical papers\n[…]\nWheeler, P.E. (1984). \"The Evolution of Bipedality and Loss of Functional Body Hair in Hominids\". Journal of Human Evolution. 13 (1): 91–98. Bibcode:1984JHumE..13...91W. doi:10.1016/S0047-2484(84)80079-2.\n[…]\nMedia related to Turkana Boy at Wikimedia Commons\n[…]\nCelebrating the Turkana Human - Google Doodles"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Menino de Turkana",
+      "descricao": "Esqueleto quase completo de um jovem Homo erectus achado em 1984 perto do lago Turkana, no Quênia."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Menino de Turkana, um adolescente da espécie Homo erectus cujo esqueleto foi achado no Quênia, viveu há cerca de quanto tempo?",
+    "resposta": "1,5 milhão de anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turkana_Boy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Turkana_Boy",
+        "situacao": "ok",
+        "texto": "Turkana Boy, also called Nariokotome Boy, is the name given to fossil KNM-WT 15000, a nearly complete skeleton of a Homo erectus youth who lived 1.5 to 1.6 million years ago. This specimen is the most complete Homo erectus skeleton ever found. Some authorities designate it as Homo ergaster.\n[…]\nThe specimen comprises 108 bones, making it the most complete early human skeleton discovered. A 2018 study estimates that he was 154 cm (5 ft 1 in) tall and weighed 51–54 kg (112–119 lb) when he died. In adulthood, Turkana Boy might have reached 160–178 cm (5 ft 3 in – 5 ft 10 in) tall and massed 60–83 kg (132–183 lb). The pelvis is narrower than in Homo sapiens, which is most likely for more efficient upright walking.\n[…]\nThe fossil skeleton and other fossil evidence, such as Acheulean stone tools, prompt the majority of scientists to conclude that Homo erectus – unlike their more primitive ancestors – became efficient hunters. The social structure would probably have become more complex with a larger brain volume; the Broca's area of the brain allows speech and is noted by a slight slant on the cranium. Turkana Boy's thoracic vertebrae are narrower than in Homo sapiens.\n[…]\nBarraclough, G. (1989). Stone, N. (ed.). Atlas of World History (3rd ed.). Times Books Limited. ISBN 0-7230-0304-1.\n[…]\nAlan Walker; Richard Leakey, eds. (1993). Nariokotome Homo erectus Skeleton. ISBN 0-674-60075-4. – Technical papers\n[…]\nMckie, Robin (2000). Dawn of Man. BBC. ISBN 0-7894-6262-1.\n[…]\nWheeler, P.E. (1984). \"The Evolution of Bipedality and Loss of Functional Body Hair in Hominids\". Journal of Human Evolution. 13 (1): 91–98. Bibcode:1984JHumE..13...91W. doi:10.1016/S0047-2484(84)80079-2.\n[…]\nLewin, Roger (2004). Human Evolution: An Illustrated Introduction 5th Edition. Wiley. ISBN 978-1-4051-0378-7."
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Sima de los Huesos",
+      "descricao": "Caverna da serra de Atapuerca, na Espanha, com fósseis de cerca de trinta hominídeos de uns 430 mil anos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Poço dos Ossos, caverna com fósseis de quase trinta hominídeos de mais de quatrocentos mil anos, fica em que país europeu?",
+    "resposta": "Espanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sima_de_los_Huesos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sima_de_los_Huesos",
+        "situacao": "ok",
+        "texto": "The Sima de los Huesos hominins are a 430,000-year-old population of pre-Neanderthals from the archeological site of Atapuerca, Spain. They are in the \"Neanderthal clade\", but fall outside Homo neanderthalensis. When first reported in 1993, these 29 individuals were about 80 percent of the human fossil record of the Middle Pleistocene.\n[…]\nEvery bone in the human skeleton is represented by the Sima de los Huesos material, and postcranial remains are about half of the material.\n[…]\nThe Sima de los Huesos hominins probably lived during one of the coldest glacial phases of the last million years which aridified Iberia. Present winter temperatures in the Atapuerca Mountains can drop to −10 °C (14 °F), and it could have been colder during glacial periods. The mammal assemblage indicates a savannah-like, open woodland environment. Humans and lions seem to have followed Europe's expanding open-woodland corridors, and the pollen record indicates the spread of grass at this time.\n[…]\nThe Sima de los Huesos hominins were probably not using fire, withstanding the cold climate with their large body size and (presumed) high activity levels and metabolic heat. Quality evidence of fire use in Europe appears after an interglacial during Marine Isotope Stage 9 (about 340,000 years ago). A 400,000-year-old site in Barnham, Suffolk, has evidence of burned tools and iron pyrite which in recent history has been used as a fire striker.\n[…]\nThe middle-ear bones are comparable to Neanderthals and modern humans, suggesting that they could distinguish the higher frequencies necessary to discern speech (2–4 kHz). However, their ear anatomy suggests that the Sima de los Huesos hominins had different hearing capacities than Neanderthals and modern humans. Like chimpanzees, the ear canal is long; the eardrum and oval window are small and at a low angle."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Sima de los Huesos",
+      "descricao": "Caverna da serra de Atapuerca, na Espanha, com fósseis de cerca de trinta hominídeos de uns 430 mil anos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Entre milhares de ossos humanos do Poço dos Ossos, em Atapuerca, apareceu um único machado de pedra. Que apelido lendário ele ganhou?",
+    "resposta": "Excalibur",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sima_de_los_Huesos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sima_de_los_Huesos",
+        "situacao": "ok",
+        "texto": "The Sima de los Huesos hominins are a 430,000-year-old population of pre-Neanderthals from the archeological site of Atapuerca, Spain. They are in the \"Neanderthal clade\", but fall outside Homo neanderthalensis. When first reported in 1993, these 29 individuals were about 80 percent of the human fossil record of the Middle Pleistocene.\n[…]\nEvery bone in the human skeleton is represented by the Sima de los Huesos material, and postcranial remains are about half of the material.\n[…]\nThe Sima de los Huesos hominins probably lived during one of the coldest glacial phases of the last million years which aridified Iberia. Present winter temperatures in the Atapuerca Mountains can drop to −10 °C (14 °F), and it could have been colder during glacial periods. The mammal assemblage indicates a savannah-like, open woodland environment. Humans and lions seem to have followed Europe's expanding open-woodland corridors, and the pollen record indicates the spread of grass at this time.\n[…]\nAn Acheulean handaxe (nicknamed \"Excalibur\") was deposited with the bodies, the only stone artifact found at the site. It is made of high-quality veined quartzite (rarely used in the region), and was large: 155 mm × 97 mm × 58 mm (6.1 in × 3.8 in × 2.3 in) and 685 g (1.5 lb). The axe lacks any indication of wearing or use, unless it was scrubbed away by sand over time.\n[…]\nThe middle-ear bones are comparable to Neanderthals and modern humans, suggesting that they could distinguish the higher frequencies necessary to discern speech (2–4 kHz). However, their ear anatomy suggests that the Sima de los Huesos hominins had different hearing capacities than Neanderthals and modern humans. Like chimpanzees, the ear canal is long; the eardrum and oval window are small and at a low angle."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Berço da Humanidade",
+      "descricao": "Patrimônio Mundial na África do Sul que reúne cavernas com muitos fósseis de hominídeos, como Sterkfontein."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Berço da Humanidade, Patrimônio Mundial com cavernas cheias de fósseis de hominídeos na África do Sul, fica perto de que grande cidade?",
+    "resposta": "Joanesburgo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cradle_of_Humankind"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cradle_of_Humankind",
+        "situacao": "ok",
+        "texto": "The Cradle of Humankind is a paleoanthropological site that is located about 50 km (31 mi) northwest of Johannesburg, South Africa, in the Gauteng province. Declared a World Heritage Site by UNESCO in 1999, the site is home to the largest known concentration of human ancestral remains anywhere in the world. The site currently occupies 47,000 hectares (120,000 acres) and contains a complex system o\n[…]\nThe registered name of the site in the list of World Heritage Sites is Fossil Hominid Sites of South Africa.\n[…]\nThe name Cradle of Humankind reflects the fact that the site has produced a substantially large number of hominin fossils, some of the oldest yet found, dating as far back as 3.5 million years ago.\n[…]\nIn October 2013, Berger commissioned geologist Pedro Boshoff to investigate cave systems in the Cradle of Humankind for the express purpose of discovering more fossil hominin sites. Cavers Rick Hunter and Steven Tucker discovered hominid fossils in a previously unexplored area of the Rising Star-Westminster Cave System that is assigned site designation UW-101.\n[…]\nThe hominin remains that fossilised over time at the Cradle of Humankind are found in dolomitic caves, and are often encased in a mixture of limestone and other sediments called breccia. Early hominids may have lived throughout Africa, but their remains are found only at sites where conditions allowed for the formation and preservation of fossils.\n[…]\nCradle of civilization\n[…]\nBrett Hilton-Barber and Lee R. Berger (2002). The Official Field Guide to the Cradle of Humankind: Sterkfontein, Swartkrans, Kromdraai & Environs World Heritage Site. Cape Town, South Africa: Struik Publisher. ISBN 9781868727391. OCLC 50215942.\n[…]\nMaropeng – The Cradle of Humankind Official Website\n[…]\nUNESCO – Fossil Hominid Sites of Sterkfontein, Swartkrans, Kromdraai, and Environs, last updated 2025\n[…]\nCradle of Humankind World Heritage Site Map, © 1999-2026."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%ADtios_com_f%C3%B3sseis_de_homin%C3%ADdeos_de_Sterkfontein%2C_Swartkrans%2C_Kromdraai_e_arredores",
+        "situacao": "ok",
+        "texto": "O Berço da Humanidade são os sítios com fósseis de hominídeos de Sterkfontein, Swartkrans, Kromdraai e arredores são um conjunto de sítios arqueológicos da África do Sul.\n[…]\nEstá localizado a cerca de 50 km (31 milhas) a noroeste de Joanesburgo, na província de Gauteng. Declarado Patrimônio da Humanidade pela UNESCO em 1999, o local abriga a maior concentração conhecida de restos ancestrais humanos em qualquer lugar do mundo. O local ocupa atualmente 47 000 hectares (180 sq mi) e contém um complexo sistema de cavernas de calcário. O nome registrado do local na lista de Patrimônios Mundiais é Fossil Hominid Sites of South Africa.\n[…]\nPerto dali, mas não no local, o sistema de cavernas da estrela nascente contém a Câmara Dinaledi (câmara de estrelas), na qual foram descobertos quinze esqueletos fósseis de uma espécie extinta de hominídeo, provisoriamente chamada de Homo naledi.\n[…]\nO nome Berço da Humanidade reflete o fato de que o local produziu um número substancialmente grande de fósseis de hominídeos, alguns dos mais antigos já encontrados, datando de 3,5 milhões de anos atrás.\n[…]\nOs restos de hominídeos que fossilizaram ao longo do tempo no Berço da Humanidade são encontrados em cavernas dolomíticas, e muitas vezes estão envoltos em uma mistura de calcário e outros sedimentos chamados breccia. Os primeiros hominídeos podem ter vivido em toda a África, mas seus restos mortais são encontrados apenas em locais onde as condições permitiram a formação e preservação de fósseis.\n[…]\nMaropeng – The Cradle of Humankind Site Oficial\n[…]\nCradle of Humankind Map\n[…]\nPalaeo Tours – Scientist-led tours to the \"Cradle\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Monte Verde",
+      "descricao": "Sítio arqueológico no sul do Chile com sinais de presença humana de cerca de 14,5 mil anos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O sítio de Monte Verde, que mostrou humanos na América há mais de catorze mil anos, antes da cultura Clovis, fica em que país?",
+    "resposta": "Chile",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monte_Verde"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Verde",
+        "situacao": "ok",
+        "texto": "Monte Verde is a Paleolithic archaeological site in the Llanquihue Province in southern Chile, located near Puerto Montt, Los Lagos Region. The site is primarily known for Monte Verde II, generally suggested to date to 14,500 years ago, which has been largely accepted (though not without dissent) as showing that the human settlement of the Americas predates the Clovis culture by at least 1,000 yea\n[…]\nThe bone later proved to be from Notiomastodon, a gomphothere related to modern elephants. Tom Dillehay, an American anthropologist and professor at the Universidad Austral de Chile at the time, started excavating Monte Verde in 1977.\n[…]\nIn 2026, a new study by researchers from the U.S. and Chile challenged the timeline of Monte Verde II occupation, suggesting the campsite was much younger than previously proposed and was not occupied until the Middle Holocene, after 8,200 years ago. This was the first independent analysis and dating of stratigraphy near the archaeological site (which was destroyed by flooding decades ago), as Dillehay and colleagues maintained exclusive permits.\n[…]\nIn March 2026, the Fundación Monte Verde, of which Dillehay is the president, filed complaints with Chile's Consejo de Monumentos Nacionales (CMN). The complaint alleged irregularities in archaeological sampling activities conducted by archaeologist César Méndez, one of the coauthors of the study, and requested the invalidation of permits and retraction of associated publications in Science magazine.\n[…]\nThe only other archaeological site in Southern Chile comparable in age to Monte Verde is Pilauco Bajo, dated to 12,500–11,000 BP. Researchers postulated that the two sites were complementary – Monte Verde would be a habitation site, and Pilauco Bajo would be a hunting and scavenging site. Further south lies the Pali Aike Crater lava tube, dated to 14,000–10,000  BP.\n[…]\nPrehispanic history of Chile"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Verde_%28Chile%29",
+        "situacao": "ok",
+        "texto": "Monte Verde é um sítio arqueológico localizado perto de Puerto Montt, na área sul-central do Chile. O local está localizado às margens do ribeiro Chinchihuapi, tributário do rio Maullín, a 36 milhas do Oceano Pacífico.\n[…]\nEm 1975, un estudante viu um osso coletado por camponeses perto do riacho Chinchihuapi. Posteriormente, se provou que o era de um Gomphotherium. Mario Pino, um geólogo chileno da Universidade Austral do Chile, e Tom Dillehay começaram a escavar em Monte Verde em 1977. Dillehay e sua equipe voltaram para realizar outra escavação em Monte Verde I, que foi datado para cerca de 18.500 a 14.500 BP.\n[…]\nFora da estrutura em forma de tenda, duas grandes lareiras foram construídas para uso da comunidade, provavelmente para fabricação de ferramentas e artesanato. Foram achados restos batata silvestre e de quarenta e cinco espécies diferentes de plantas comestíveis, mais de um quinto delas originando-se de até 150 milhas (240 km) de distância. Isso sugeria que a população de Monte Verde ou tinha rotas comerciais ou viajava regularmente nesta rede estendida.\n[…]\nMonte Verde é anterior à chamada Cultura Clóvis, em Clovis. Isso contradiz o modelo anteriormente aceito de \"primeiro Clovis\", que afirma que a colonização das Américas começou após 13.500 cal BP. As descobertas de Monte Verde foram inicialmente rejeitadas pela maioria da comunidade científica, mas posteriormente as evidências se tornaram muito aceitas nos círculos arqueológicos.\n[…]\nProjeto Monte Verde\n[…]\nMonte Verde no site na UNESCO\n[…]\nhttp://www.unl.edu/rhames/monte_verde/monte_verde1.htm",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Monte Verde",
+      "descricao": "Sítio arqueológico no sul do Chile com sinais de presença humana de cerca de 14,5 mil anos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No sítio pré-histórico de Monte Verde, restos de madeira, de plantas e até de carne duraram milhares de anos. O que os conservou?",
+    "resposta": "A turfa de um pântano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monte_Verde"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Verde",
+        "situacao": "ok",
+        "texto": "Monte Verde is a Paleolithic archaeological site in the Llanquihue Province in southern Chile, located near Puerto Montt, Los Lagos Region. The site is primarily known for Monte Verde II, generally suggested to date to 14,500 years ago, which has been largely accepted (though not without dissent) as showing that the human settlement of the Americas predates the Clovis culture by at least 1,000 yea\n[…]\nIn 2026, a new study by researchers from the U.S. and Chile challenged the timeline of Monte Verde II occupation, suggesting the campsite was much younger than previously proposed and was not occupied until the Middle Holocene, after 8,200 years ago. This was the first independent analysis and dating of stratigraphy near the archaeological site (which was destroyed by flooding decades ago), as Dillehay and colleagues maintained exclusive permits.\n[…]\nIn March 2026, the Fundación Monte Verde, of which Dillehay is the president, filed complaints with Chile's Consejo de Monumentos Nacionales (CMN). The complaint alleged irregularities in archaeological sampling activities conducted by archaeologist César Méndez, one of the coauthors of the study, and requested the invalidation of permits and retraction of associated publications in Science magazine.\n[…]\nThe only other archaeological site in Southern Chile comparable in age to Monte Verde is Pilauco Bajo, dated to 12,500–11,000 BP. Researchers postulated that the two sites were complementary – Monte Verde would be a habitation site, and Pilauco Bajo would be a hunting and scavenging site. Further south lies the Pali Aike Crater lava tube, dated to 14,000–10,000  BP.\n[…]\nPrehispanic history of Chile\n[…]\nDillehay, T. D.; et al. (January 2000). \"On Monte Verde: Fiedel's Confusion and Misrepresentations\". University of Kentucky. Archived from the original on 20 November 2010. Retrieved 30 October 2016.\n[…]\nMonte Verde at UNESCO World Heritage"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Verde_%28Chile%29",
+        "situacao": "ok",
+        "texto": "Monte Verde é um sítio arqueológico localizado perto de Puerto Montt, na área sul-central do Chile. O local está localizado às margens do ribeiro Chinchihuapi, tributário do rio Maullín, a 36 milhas do Oceano Pacífico.\n[…]\nMonte Verde II foi ocupado em torno de 14.800 - 13.800 BP por cerca de vinte a trinta pessoas. Uma estrutura semelhante a uma tenda de seis metros de comprimento, feita de madeira e peles de animais, foi erguida nas margens do riacho e emoldurada com troncos e pranchas cravadas no solo, formando paredes de postes cobertos com peles de animais. Usando cordas feitas de junco local, as peles foram amarradas aos postes criando aposentos separados dentro da estrutura principal.\n[…]\nFora da estrutura em forma de tenda, duas grandes lareiras foram construídas para uso da comunidade, provavelmente para fabricação de ferramentas e artesanato. Foram achados restos batata silvestre e de quarenta e cinco espécies diferentes de plantas comestíveis, mais de um quinto delas originando-se de até 150 milhas (240 km) de distância. Isso sugeria que a população de Monte Verde ou tinha rotas comerciais ou viajava regularmente nesta rede estendida.\n[…]\nMonte Verde é anterior à chamada Cultura Clóvis, em Clovis. Isso contradiz o modelo anteriormente aceito de \"primeiro Clovis\", que afirma que a colonização das Américas começou após 13.500 cal BP. As descobertas de Monte Verde foram inicialmente rejeitadas pela maioria da comunidade científica, mas posteriormente as evidências se tornaram muito aceitas nos círculos arqueológicos.\n[…]\nPré-História\n[…]\nPré-História do Brasil\n[…]\nProjeto Monte Verde\n[…]\nMonte Verde no site na UNESCO\n[…]\nhttp://www.unl.edu/rhames/monte_verde/monte_verde1.htm",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Cultura Clovis",
+      "descricao": "Cultura pré-histórica de caçadores da América do Norte, conhecida por suas pontas de lança de pedra."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A cultura Clovis, de caçadores pré-históricos da América do Norte, leva o nome de uma cidade perto da qual suas pontas de lança foram achadas. Em que estado americano?",
+    "resposta": "Novo México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Clovis_culture"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clovis_culture",
+        "situacao": "ok",
+        "texto": "The Clovis culture is an archaeological culture from the Paleoindian period of North America, spanning around 13,050 to 12,750 years Before Present (BP). The type site is Blackwater Draw locality No. 1 near Clovis, New Mexico, where stone tools were found alongside the remains of Columbian mammoths in 1929. Clovis sites have been found across North America. The most distinctive part of the Clovis \n[…]\nThe end of the Clovis culture is generally thought to be the result of normal cultural change over time.\n[…]\n~15,500- to 13,500 years BP) in Texas, are suggested to be considerably older than the oldest Clovis sites. The White Sands footprints in New Mexico may be even older, dating to the Last Glacial Maximum, around 23,000 years ago.\n[…]\nHistorically, it was suggested that the ancestors of the people who produced the Clovis culture migrated into North America along the \"ice-free corridor\" (the boundary region between the Laurentide and Cordilleran ice sheets that is suggested to have melted and become ice-free prior to the melting of the rest of the ice sheets, providing a passageway between Eastern Beringia and central North America), but many later scholars have suggested that a migration along the Pacific coast is more likely.\n[…]\nThe Clovis culture is known from localities across North America, from southern Canada to northern Mexico and across the east and west of the continent. The area of its origin remains unclear, though the development of fluted Clovis points appears to have occurred in North America south of the Laurentide Ice Sheet and not in Beringia. The Clovis culture may have originated from the Dyuktai lithic style widespread in Beringia.\n[…]\nAlternatives to the Clovis First theory\n[…]\nDixon, E. James (1999). Bones, Boats and Bison: Archeology and the First Colonization of Western North America. Albuquerque: University of New Mexico Press. ISBN 978-0-8263-2057-5. OCLC 42022335."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cultura_Cl%C3%B3vis",
+        "situacao": "ok",
+        "texto": "A Cultura Clóvis é uma cultura pré-histórica da América que surgiu há cerca de 13 200-12 900 anos, no final da última Idade do Gelo. Chama-se assim por causa dos artefatos encontrados perto da cidade americana de Clovis, nos Estados Unidos. Esses artefatos passaram a ser chamados de “pontas de Clóvis”. O povo de Clóvis era considerado o mais antigo habitante do Novo Mundo. Contudo, essa visão tem \n[…]\nEm 1929, Ridgely Whiteman descobriu o sítio Clovis perto do Blackwater Draw no leste do Novo México. A primeira evidência da presença de Clovis foi descoberta perto de Folsom, Novo México. Neste local eles encontraram a primeira ponta Folsom junto a ossos extintos de Bison antiquus, um parente extinto do bisão americano, e com a confirmação de presença humana no Pleistoceno, as buscas por evidências se intensificaram na região.\n[…]\nA hipótese afirma que não havia humanos nas Américas antes da civilização Clóvis, que data de há 13 000 anos, e que a indústria lítica Clóvis é a tecnologia “mãe” de todos os demais artefatos encontrados no Novo Mundo.\n[…]\nEssa hipótese foi predominante desde que as primeiras evidências de presença humana nas Américas foram encontradas. Em 1926, Jesse Higgins, do Museu de História Nacional do Colorado, nos EUA, encontrou um artefato de pedra lascada em um sítio próximo de Folsom, Novo México, colhido junto de um esqueleto de bisão.\n[…]\nNa época, isso não foi considerado uma evidência de ocupação humana, sendo confirmado apenas quando foram encontrados artefatos no sítio de Blackwater Draw, próximo a cidade de Clóvis, no Novo México, em 1932. O projeto foi coordenado por Edgar B. Howard, contando com o apoio institucional da Academia de Ciências Naturais da Philadelphia e do Museu da Universidade da Pennsylvania, bem como o apoio financeiro do Carnagie Institution de Washington DC.\n[…]\nAs pontas encontradas são hoje conhecidas como “pontas Clóvis”.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Restos do lago Mungo",
+      "descricao": "Esqueletos humanos de cerca de 40 mil anos, como o Homem de Mungo, achados no lago seco de Mungo, na Austrália."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os esqueletos chamados Homem de Mungo e Mulher de Mungo, sepultados há cerca de quarenta mil anos à beira de um lago hoje seco, foram achados em que país?",
+    "resposta": "Austrália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Mungo_remains"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lake_Mungo_remains",
+        "situacao": "ok",
+        "texto": "The Lake Mungo remains are three prominent sets of human remains that are Aboriginal Australian: Lake Mungo 1 (also called Mungo Woman, LM1, and ANU-618), Lake Mungo 2 (LM2), and Lake Mungo 3 (also called Mungo Man, Lake Mungo III, and LM3). Lake Mungo is in New South Wales, Australia, specifically the World Heritage listed Willandra Lakes Region.\n[…]\nThe remains designated Mungo man (LM3) were discovered in 1974, and are dated to around 40,000 years old, the Pleistocene epoch, and are the oldest Homo sapiens (human) remains found on the Australian continent.\n[…]\nThe Mungo layer, which was deposited during the last glacial period, is archaeologically the richest. Although this layer corresponds with a time of low rainfall and cooler weather, more rainwater ran off the western side of the Great Dividing Range during that period, keeping the lake full and teeming with fish and waterbirds. It supported a significant human population and had abundant resources, as well as many varieties of Australian megafauna.\n[…]\nThe first estimate of LM3's age was made in 1976 when the team of paleoanthropologists from the Australian National University (ANU) who excavated LM3 published their findings. They estimated that LM3 was between 28,000 and 32,000 years old. They did not test LM3's remains directly, but rather established an estimate by stratigraphic comparison with LM1, an earlier set of partially cremated remains also found at Lake Mungo.\n[…]\n\"Mungo Mania\". The Lab – Australian Broadcasting Corporation. January 2001. Retrieved 11 September 2005.\n[…]\nThorne A, Grün R, Mortimer G, et al. (June 1999). \"Australia's oldest human remains: age of the Lake Mungo 3 skeleton\". Journal of Human Evolution. 36 (6): 591–612. Bibcode:1999JHumE..36..591T. doi:10.1006/jhev.1999.0305. PMID 10330330."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Parque Nacional da Serra da Capivara",
+      "descricao": "Parque nacional brasileiro com milhares de pinturas rupestres e sítios arqueológicos pré-históricos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Parque Nacional da Serra da Capivara, com milhares de pinturas rupestres e sítios importantes sobre a chegada humana à América, fica em que estado brasileiro?",
+    "resposta": "Piauí",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara",
+        "situacao": "ok",
+        "texto": "O Parque Nacional Serra da Capivara é uma unidade de conservação brasileira de proteção integral à natureza que ocupa parte dos municípios de São Raimundo Nonato, João Costa, Brejo do Piauí e Coronel José Dias, todos localizados no estado do Piauí. Esta área tem a maior e mais antiga concentração de sítios pré-históricos da América. Estudos científicos confirmam que a cadeia montanhosa de Capivara\n[…]\nÁrea de maior concentração de sítios pré-históricos do continente americano e Patrimônio Cultural da Humanidade - UNESCO, além de contar com os mais antigos exemplares de arte rupestre do continente. Contém a maior quantidade de pinturas rupestres do mundo. Estudos científicos confirmam que a Serra da Capivara foi densamente povoada em períodos pré–históricos. Os artefatos encontrados apresentam vestígios do homem que podem ter 50 000 anos, os mais antigos registros na América.\n[…]\nO Parque Nacional Serra da Capivara se localiza no Estado do Piauí, ao Sudeste do Estado. Existem atualmente cerca de 400 sítios arqueológicos catalogados onde foram encontrados artefatos líticos, esqueletos humanos e  pinturas rupestres. No sítio Toca do Boqueirão da Pedra Furada, 63 datações por carbono-14 (C-14) permitiram o estabelecimento de uma coluna cronoestratigráfica que vai de 59 000 até 5 000 anos AP. Numerosas pinturas rupestres se encontram na área.\n[…]\nNo início de 2017 o Museu do Homem Americano passou a ser de responsabilidade do comitê permanente de acompanhamento e gestão do Parque Nacional da Serra da Capivara, um modelo de gerenciamento compartilhado instituído pelo governo do estado do Piauí e pelo Ministério da Cultura.\n[…]\nSerra da Capivara (Território do Piauí)\n[…]\nParque Nacional Serra da Capivara - Fundação Museu do Homem Americano\n[…]\nParque Nacional Serra da Capivara - PI - Portal Brasil\n[…]\nParque Nacional da Serra da Capivara - Fotorreportagem Olhar sobre o Mundo"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Parque Nacional da Serra da Capivara",
+      "descricao": "Parque nacional brasileiro com milhares de pinturas rupestres e sítios arqueológicos pré-históricos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que arqueóloga, nascida no interior paulista e formada na França, liderou as pesquisas que levaram à criação do Parque Nacional da Serra da Capivara?",
+    "resposta": "Niède Guidon",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Niède_Guidon",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Niède_Guidon",
+        "situacao": "ok",
+        "texto": "Niède Guidon (Jaú, 12 de março de 1933 — São Raimundo Nonato, 4 de junho de 2025) foi uma arqueóloga, pesquisadora e professora universitária brasileira.\n[…]\nVoltando ao Brasil, integrando a Missão Arqueológica Franco-Brasileira, uma iniciativa do Museu de História Natural de Paris para desenvolvimento de projetos de arqueologia. Até sua aposentadoria como docente, Niède Guidon seria a líder da missão, composta por pesquisadores brasileiros, franceses e de outros países, assim como assistentes de campo locais. Depois disso, a seu convite, Eric Boëda, pesquisador do CNRS e professor da Universidade de Paris, sucedeu-a na liderança.\n[…]\nPor quase cinco décadas, Niède Guidon protagonizou as pesquisas arqueológicas na área de São Raimundo Nonato e lutou pela conservação do Parque, até que, em 2020, aos 87 anos, as sequelas da chikungunya lhe causaram problemas nas articulações, obrigando-a a usar uma bengala para andar, e impossibilitando-a a fazer suas longas caminhadas pelo parque - ela decidiu que estava na hora de parar.\n[…]\nMorreu, em 4 de junho de 2025, vítima de um infarto. Após a divulgação da morte, o governo do Piauí alegou que o legado de Guidon para a ciência e arqueologia é \"inestimável\" e decretou luto oficial de três dias. O Ministério da Ciência, Tecnologia e Inovação (MCTI) emitiu uma nota onde declara “com coragem, rigor científico e compromisso com a educação, Niède construiu um legado que transcende a ciência”.\n[…]\n«O casamento de Niède». no Museu da Pessoa\n[…]\nNiède Guidon e as Origens do Homem Americano -Globo Ciência (1990)\n[…]\n«Algumas premiações da arqueóloga Niède Guidon». www.portalaz.com.br"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara",
+        "situacao": "ok",
+        "texto": "O Parque Nacional Serra da Capivara é uma unidade de conservação brasileira de proteção integral à natureza que ocupa parte dos municípios de São Raimundo Nonato, João Costa, Brejo do Piauí e Coronel José Dias, todos localizados no estado do Piauí. Esta área tem a maior e mais antiga concentração de sítios pré-históricos da América. Estudos científicos confirmam que a cadeia montanhosa de Capivara\n[…]\nÉ um local com vários atrativos, monumental museu a céu aberto, entre belíssimas formações rochosas, onde encontram sítios arqueológicos e paleontológicos espetaculares, que testemunham a presença de humanos e animais pré-históricos. O parque nacional foi criado graças, em grande parte, ao trabalho da arqueóloga Niède Guidon, que, até seu falecimento em junho de 2025, atuava como Presidente Emérita da Fundação Museu do Homem Americano, instituição responsável pelo manejo do parque.\n[…]\nO Parque Nacional Serra da Capivara situa-se no domínio morfoclimático da Caatinga, mas possui muitas matas de transição de Cerrado no seu limite norte. A vegetação é formada por arbustos fracos, mas extremamente ramificados, com galhos curtos e duros, com aspectos de espinhos. O tronco das árvores é liso, as folhas pequenas e a folhagem é leve e deixa passar luz. A vegetação herbácea geralmente desaparece fora da estação das chuvas.\n[…]\nEm 18 de dezembro de 2018 foi inaugurado, dentro do parque, o Museu da Natureza, uma moderna estrutura com apoio do Banco Nacional de Desenvolvimento Econômico e Social e do Ministério da Cultura, sob idealização de Niède Guidon em 2002, que doou uma premiação pessoal para ajudar no custeio das obras.\n[…]\nSerra da Capivara (Território do Piauí)\n[…]\nParque Nacional Serra da Capivara - PI - Portal Brasil\n[…]\nParque Nacional Serra da Capivara - Instituto do Patrimônio Artístico e Histórico Nacional\n[…]\nParque Nacional da Serra da Capivara - Fotorreportagem Olhar sobre o Mundo"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Segunda viagem do HMS Beagle",
+      "descricao": "Expedição de volta ao mundo do navio britânico Beagle, de 1831 a 1836, que levou Charles Darwin como naturalista."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em fevereiro de 1832, durante a viagem do Beagle, Darwin se encantou com a Mata Atlântica ao desembarcar em que cidade brasileira?",
+    "resposta": "Salvador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+        "situacao": "ok",
+        "texto": "The second survey expedition of HMS Beagle took place from 27 December 1831 to 2 October 1836. Robert FitzRoy, the newest commander of Beagle, had thought of the advantages of having someone onboard who could investigate geology, and sought a naturalist to accompany them as a supernumerary. At the age of 22, the graduate Charles Darwin hoped to see the tropics before becoming a parson, and accepte\n[…]\nBeagle sailed across the Atlantic Ocean, and then carried out detailed hydrographic surveys around the coasts of southern South America, returning via Tahiti and Australia, after having circumnavigated the Earth. The initial offer to Darwin told him the voyage would last two years; it lasted almost five.\n[…]\nDue to heavy surf, they only stayed at Fernando de Noronha for a day to make the required observations, then FitzRoy pressed on to Bahia de Todos Santos, Brazil, to rate the chronometers and take on water. They reached the continent and arrived at the port on 28 February. Darwin was thrilled at the magnificent sight of \"the town of Bahia or St Salvador\", with large ships at harbour scattered across the bay.\n[…]\nThey rejoined Beagle at Montevideo.\n[…]\nArriving at Mauritius on 29 April 1836, Darwin was impressed by the civilised prosperity of the French colony, which had come under British rule. He toured the island, examining its volcanic mountains and fringing coral reefs. The Surveyor-general Captain Lloyd took him on the only elephant on the island to see an elevated coral plain. By then, FitzRoy was writing the official Narrative of the Beagle voyages, and after reading Darwin's diary he proposed a joint publication.\n[…]\nRookmaaker, Kees (2009), Darwin's itinerary on the voyage of the Beagle, Darwin Online, retrieved 18 August 2009\n[…]\n\"Darwin and the Beagle voyage\". Darwin Correspondence Project. 11 February 2021. Retrieved 20 December 2021.\n[…]\nDarwin in Galapagos: Footsteps to a New World"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Segunda viagem do HMS Beagle",
+      "descricao": "Expedição de volta ao mundo do navio britânico Beagle, de 1831 a 1836, que levou Charles Darwin como naturalista."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A viagem do navio Beagle, que levou Darwin ao redor do mundo, foi planejada para durar dois anos. Acabou durando quase quantos?",
+    "resposta": "Cinco anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+        "situacao": "ok",
+        "texto": "The second survey expedition of HMS Beagle took place from 27 December 1831 to 2 October 1836. Robert FitzRoy, the newest commander of Beagle, had thought of the advantages of having someone onboard who could investigate geology, and sought a naturalist to accompany them as a supernumerary. At the age of 22, the graduate Charles Darwin hoped to see the tropics before becoming a parson, and accepte\n[…]\nBeaufort initially thought specimens ought to go to the British Museum, but Darwin had heard of many left waiting to be described, including botanical specimens from the first Beagle voyage. Beaufort assured him that he \"should have no difficulty\" as long as he \"presented them to some public body\" such as the Zoological or Geological societies.\n[…]\nBeagle's surgeon Robert McCormick sought fame and fortune as an explorer. When they first met at the start of the voyage, Darwin had commented that \"My friend [McCormick] is an ass, but we jog on very amicably\". They walked into the countryside of St. Jago together, and Darwin, influenced by Lyell, found the surgeon's approach old-fashioned. They found a remarkable baobab tree, which FitzRoy measured and sketched.\n[…]\nThey rejoined Beagle at Montevideo.\n[…]\nArriving at Mauritius on 29 April 1836, Darwin was impressed by the civilised prosperity of the French colony, which had come under British rule. He toured the island, examining its volcanic mountains and fringing coral reefs. The Surveyor-general Captain Lloyd took him on the only elephant on the island to see an elevated coral plain. By then, FitzRoy was writing the official Narrative of the Beagle voyages, and after reading Darwin's diary he proposed a joint publication.\n[…]\nRookmaaker, Kees (2009), Darwin's itinerary on the voyage of the Beagle, Darwin Online, retrieved 18 August 2009\n[…]\n\"Darwin and the Beagle voyage\". Darwin Correspondence Project. 11 February 2021. Retrieved 20 December 2021."
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Charles Darwin",
+      "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar das polêmicas religiosas em torno da sua teoria, Darwin foi sepultado em 1882 em que famosa igreja de Londres?",
+    "resposta": "Abadia de Westminster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin ( DAR-win; 12 February 1809 – 19 April 1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental scientific concept.\n[…]\nIn a joint presentation with Alfred Russel Wallace, he introduced his scientific theory that this branching pattern of evolution resulted from a process he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding. Darwin has been described as one of the most influential figures in human history and was honoured by burial in Westminster Abbey.\n[…]\nHe had expected to be buried in St Mary's churchyard at Downe, but at the request of Darwin's colleagues, after public and parliamentary petitioning, William Spottiswoode (President of the Royal Society) arranged for Darwin to be honoured by burial in Westminster Abbey, close to John Herschel and Isaac Newton. The funeral, held on Wednesday, 26 April, was attended by thousands of people, including family, friends, scientists, philosophers, and dignitaries.\n[…]\n\"Archival material relating to Charles Darwin\". UK National Archives.\n[…]\nWorks by Charles Darwin at the Biodiversity Heritage Library\n[…]\nPortraits of Charles Darwin at the National Portrait Gallery, London\n[…]\nNewspaper clippings about Charles Darwin in the 20th Century Press Archives of the ZBW\n[…]\nCharles Darwin in the British horticultural press – Occasional Papers from RHS Lindley Library, volume 3 July 2010\n[…]\nScientific American, 29 April 1882, pp. 256, Obituary of Charles Darwin\n[…]\nFieser, James; Dowden, Bradley (eds.). \"Charles Darwin\". Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin FRS FGRS FLS FLZ (pronúncia em inglês: ['dɑːrwɪn]; ocasionalmente aportuguesado em Carlos Darwin. Shrewsbury, 12 de fevereiro de 1809 – Downe, 19 de abril de 1882) foi um naturalista, geólogo e biólogo britânico, célebre por seus avanços sobre evolução nas ciências biológicas.\n[…]\nSua dedicação pelas plantas resultou em várias publicações de livros, e seu último seria A formação do molde vegetal através da ação de vermes em 1881, meses antes de sua morte no ano seguinte. Em reconhecimento à importância do seu trabalho, Darwin foi enterrado na Abadia de Westminster, próximo a Charles Lyell, William Herschel e Isaac Newton. Foi uma das cinco pessoas não ligadas à família real inglesa a ter um funeral de Estado no século XIX.\n[…]\nEle esperava ser enterrado na Igreja de St Mary em Downe, mas por um pedido de seus colegas, após uma petição pública no parlamento, William Spottiswoode (presidente da Royal Society) conseguiu que Darwin fosse enterrado com honras na Abadia de Westminster, perto de John Herschel e Isaac Newton. O funeral aconteceu em 26 de abril, uma quarta-feira, e foi visitado por milhares de pessoas, incluindo a família, amigos, cientistas, filósofos e dignitários.\n[…]\nDarwin permaneceu amigo próximo dos clérigos de Downe e continuou a ter um papel de liderança no trabalho paroquial da igreja, mas por volta de 1849 começou a preferir caminhar aos domingos, enquanto sua família ia na igreja. Ele considerava um \"absurdo duvidar que um homem poderia ser um ardente teísta e evolucionista\" e, embora reticente sobre suas visões religiosas, em 1879 ele escreveu: \"Eu nunca fui um ateísta no sentido de negar a existência de Deus.\n[…]\n«Todas as correspondências de Charles Darwin» (em inglês)\n[…]\n«Fotos do naturalista Charles Darwin»\n[…]\n«Textos de Charles Darwin» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Lucy",
+      "descricao": "Esqueleto fóssil de Australopithecus afarensis com cerca de 3,2 milhões de anos, achado em Hadar, na Etiópia, em 1974."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O esqueleto original de Lucy, achado em 1974, fica guardado no Museu Nacional de que capital africana?",
+    "resposta": "Adis Abeba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+        "situacao": "ok",
+        "texto": "AL 288-1, commonly known as Lucy or Dinkʼinesh (Amharic: ድንቅ ነሽ, romanized: dənqə näš, lit. 'you are marvellous'), is a collection of several hundred pieces of fossilized bone comprising 40% of the skeleton of a female of the hominin species Australopithecus afarensis. It was discovered in 1974 in Ethiopia, at Hadar, a site in the Awash Valley of the Afar Triangle by Donald Johanson, a paleoanthro\n[…]\nThe Lucy skeleton is preserved at the National Museum of Ethiopia in Addis Ababa. A plaster replica is publicly displayed there instead of the original skeleton. A cast of the original skeleton in its reconstructed form is displayed at the Cleveland Museum of Natural History.\n[…]\n\"Institute of Human Origins\". asu.edu. Arizona State University. June 15, 2016.\n[…]\n\"Lucy: American Museum of Natural History\". AMNH / Rod Mickens. Retrieved February 19, 2014.\n[…]\n\"Research\". How Lucy walked. Primate Evolution & Morphology Group (PREMOG), the Department of Human Anatomy and Cell Biology, the School of Biomedical Sciences at the University of Liverpool. May 18, 2007. Archived from the original on October 25, 2007. Retrieved November 1, 2007.\n[…]\nBased on computer simulations of the mechanics of motion in fossil human ancestors such as the famous 'Lucy' skeleton, our research group has long argued that early human ancestors would have walked upright, rather than semi-crouched, as the old 'up from the apes' view has suggested But we have not been able to say where such upright walking originated.\n[…]\nUniversity of Texas's eLucy.org website Enables visitors to view bones and bone casts, and learn more about human origins and evolution. Activities and lessons are provided to encourage additional study.\n[…]\nNational Public Radio \"Science Friday\" interview with Dr. Donald Johanson titled \"Lucy's Legacy\" originally aired on March 6, 2009.\n[…]\nIsraeli researchers: 'Lucy' is not direct ancestor of humans"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lucy_%28f%C3%B3ssil%29",
+        "situacao": "ok",
+        "texto": "Lucy é um fóssil de Australopithecus afarensis de 3,2 milhões de anos, descoberto em 1974 pelo professor Donald Johanson, um norte-americano antropólogo e curador do museu de Cleveland de História Natural e pelo estudante Tom Gray em Hadar, no deserto de Afar, na Etiópia quando uma equipe de arqueólogos fazia escavações. Chama-se Lucy por causa da canção \"Lucy in the Sky with Diamonds\" da banda br\n[…]\nLucy deixou de ser o esqueleto de hominídeo mais antigo após a descoberta de um novo fóssil da espécie \"Ardipithecus ramidus\", que viveu há 4,4 milhões de anos.\n[…]\nO esqueleto de Lucy encontra-se preservado no Museu Nacional da Etiópia em Addis Abeba. Uma réplica está exposta no lugar do esqueleto original.\n[…]\nOutra réplica do esqueleto original permanece em exposição no Museu de História Natural de Cleveland. Também existe uma réplica em exposição no Field Museum em Chicago.\n[…]\nA turnê foi aprovada pelo governo etíope e organizado com a colaboração do Museu de Ciência Natural de Houston, onde esteve em exposição de 31 de agosto de 2007 até 1 de setembro de 2008, junto com um filme Digital em um \"dome theater\" (planetário) sobre as origens de \"Lucy\" chamado Lucy’s Cradle, the Birth of Wonder, com música de Shai Fishman Uma das propostas da tournê era a de levantar fundos para a modernização dos museus da Etiópia. O Departamento de Estado dos EUA também aprovou a turnê.\n[…]\nO descobridor do fóssil Donald Johanson declarou que apesar de se sentir incomodado com a possibilidade de danos ao fóssil, ele não se oporia à exibição de \"Lucy\" já que isso ajudaria nos estudos da origem humana. O museu providenciou para que as exposições fossem vistas em outros dez museus. A exposição ocorreu no Centro de Ciência do Pacífico em Seattle, Washington de 4 de outubro de 2008 a 8 de março de 2009.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Alfred Russel Wallace",
+      "descricao": "Naturalista britânico do século dezenove que explorou a Amazônia e o arquipélago Malaio."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1858, as ideias de Darwin e Wallace sobre seleção natural foram lidas pela primeira vez em público numa reunião de que sociedade científica de Londres?",
+    "resposta": "Sociedade Lineana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Linnean_Society_of_London",
+      "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Linnean_Society_of_London",
+        "situacao": "ok",
+        "texto": "The Linnean Society of London is a learned society dedicated to the study and dissemination of information concerning natural history, evolution, and taxonomy. It possesses several important biological specimen, manuscript and literature collections, and publishes academic journals and books on plant and animal biology. The society also awards a number of prestigious medals and prizes.\n[…]\nA product of the 18th-century enlightenment, the society is the oldest extant biological society in the world and is historically important as the venue for the first public presentation of the theory of evolution by natural selection on 1 July 1858.\n[…]\nThe first public exposition of the 'Theory of Evolution by Natural Selection', arguably the greatest single leap of progress made in biology, was presented to a meeting of the Linnean Society on 1 July 1858. At this meeting a joint presentation of papers by Charles Darwin and Alfred Russel Wallace was made, sponsored by Joseph Hooker and Charles Lyell, as neither author could be present.\n[…]\nFellowship is open to both professional scientists and to amateur naturalists who have shown active interest in natural history and allied disciplines. Having authored relevant publications is an advantage, but not a necessity, for election. Prior to November 2024, fellowship required nomination by at least one fellow, and election by a minimum of two-thirds of those electors voting.\n[…]\nDarwin-Wallace Medal, first awarded in 1908, for major advances in evolutionary biology.\n[…]\nOther notable holdings of the society include the notebooks and journals of Alfred Russel Wallace and the paintings of plants and animals made by Francis Buchanan-Hamilton (1762-1829) in Nepal.\n[…]\nPreviously, an electronic magazine for Fellows, Pulse, was produced quarterly. This ceased publication in 2021."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+        "situacao": "ok",
+        "texto": "Alfred Russel Wallace (8 January 1823 – 7 November 1913) was an English naturalist, explorer, geographer, anthropologist and illustrator. He independently conceived the theory of evolution through natural selection; his 1858 paper on the subject was published that year alongside extracts from Charles Darwin's writings on the topic. It spurred Darwin to set aside the \"big species book\" he was draft\n[…]\nWhile exploring the archipelago, Wallace refined his thoughts about evolution, and had his famous insight on natural selection. In 1858 he sent an article outlining his theory to Darwin; it was published, along with a description of Darwin's theory, that same year.\n[…]\nAlthough Wallace had sent several articles for journal publication during his travels through the Malay archipelago, the Ternate essay was in a private letter. Darwin received the essay on 18 June 1858. Although the essay did not use Darwin's term \"natural selection\", it did outline the mechanics of an evolutionary divergence of species from similar ones due to environmental pressures. In this sense, it was very similar to the theory that Darwin had worked on for 20 years, but had yet to publish.\n[…]\nBy the 1880s, evolution was widely accepted in scientific circles, but natural selection less so. Wallace's 1889 Darwinism was a response to the scientific critics of natural selection. Of all Wallace's books, it is the most cited by scholarly publications.\n[…]\nIn 1872, at the urging of many of his friends, including Darwin, Philip Sclater, and Alfred Newton, Wallace began research for a general review of the geographic distribution of animals. Initial progress was slow, in part because classification systems for many types of animals were in flux. He resumed the work in earnest in 1874 after the publication of a number of new works on classification.\n[…]\nWorks by Alfred Russel Wallace at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Linnean_Society_of_London",
+        "situacao": "ok",
+        "texto": "A Sociedade Linneana de Londres ( em inglês Linnean Society of London) é uma sociedade científica dedicada ao estudo e a divulgação da história natural, evolução e taxonomia. Foi fundada em 1788, e deve seu nome ao naturalista sueco Carl von Linné (1707-1778).\n[…]\nSua sede está situada em Burlington House, Piccadilly Circus, Londres. Todas as pessoas de acordo com os objetivos da Sociedade podem tornar-se membros. Também edita a revista \"The Linnean\", dedicada à história desta sociedade e a taxonomia em geral.\n[…]\nAs coleções botânicas e zoológicas de Linné, que seu filho Carlos Linneo Júnior herdou, foram adquiridas em 1783 por Sir James Edward Smith, primeiro Presidente da Sociedade, atualmente conservadas nesta instituição. As coleções incluem 14 000 plantas, 158 peças, 1 564 conchas, 3 198 insetos, 1 600 livros e 3 000 cartas e documentos.\n[…]\nA Sociedade conserva também a coleção pessoal de Sir J.E. Smith. No inventário feito no \"Smith Herbarium Project\" do Museu Nacional de Liverpool foram limpas e reparadas 6 000 espécimes.\n[…]\nAs seguintes medalhas e prêmios são concedidos pela Sociedade Linneana:\n[…]\nSociedade Linneana de Nova Gales do Sul\n[…]\nSociedade Linneana de Quebeque\n[…]\nSociedade Linneana de Sena Marítimo\n[…]\nSociedade Linneana de Lyon\n[…]\nSociedade Linneana de Provença\n[…]\nSociedade Linneana de Bordeaux\n[…]\nSociedade Linneana de Normandia\n[…]\nSociedade Linneana Sueca\n[…]\nSociedade Linneana de Londres\n[…]\nSociedade Linneana de Lago Superior.\n[…]\nSociedade Linneana de Nova Iorque\n[…]\nPágina oficial da Sociedade Linneana de Londres\n[…]\nMedalhas e prêmios da Sociedade Linneana\n[…]\nSociedades Linneanas pelo mundo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Gibraltar 1",
+      "descricao": "Crânio de Neandertal achado em 1848 na pedreira Forbes, em Gibraltar, antes do fóssil do vale de Neander."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Oito anos antes da descoberta no vale de Neander, um crânio de Neandertal já tinha sido achado numa pedreira em que território britânico?",
+    "resposta": "Gibraltar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gibraltar_1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gibraltar_1",
+        "situacao": "ok",
+        "texto": "Gibraltar 1 is the name given to a Neanderthal skull, also known as the Gibraltar Skull, which was discovered at Forbes' Quarry in Gibraltar. The skull was presented to the Gibraltar Scientific Society by its secretary, Lieutenant Edmund Henry Réné Flint, on 3 March 1848. This discovery predates the finding of the Neanderthal type specimen.\n[…]\nA cast of the skull can be viewed at the Gibraltar Museum – the original is on display in the Human Evolution gallery of the Natural History Museum in London.\n[…]\nThe original find was done in a time when the palaeontological dating was still in its infancy, and no stratigraphic information was supplied with the skull, making dating at best guesswork. Another specimen from a different locale on Gibraltar (Gibraltar 2) has however been dated to between 30 thousand to 50 thousand years old. The skull is that of an adult woman, also with typical Neanderthal features.\n[…]\nWhile the skull was one of the first to be found, it was also possibly from one of the last surviving Neanderthal populations.\n[…]\nUntil the late twentieth century, it was believed that the last Neanderthals disappeared about 35,000 years ago. However, studies have suggested that Neanderthals survived in southern Iberia and Gibraltar to less than 30,000 years before the present. Radiocarbon dating performed on charcoal in Gorham's Cave in Gibraltar in 2006 suggests that Neanderthals lived there 24,000 to 28,000 years ago, well after the arrival of Homo sapiens in Europe 40,000 years ago.\n[…]\nVanguard Cave and Gorham's Cave are still the sites of active archaeological excavation in 2012. These caves may have represented the refugium of Gibraltar's Neanderthals.\n[…]\nGibraltar 2\n[…]\nNeanderthal\n[…]\nNeanderthal 1\n[…]\nHistory of Gibraltar"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Homem de Neandertal",
+      "descricao": "Espécie humana extinta que viveu na Europa e na Ásia Ocidental até cerca de 40 mil anos atrás."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os Neandertais, que conviveram com o Homo sapiens na Europa, desapareceram há cerca de quanto tempo?",
+    "resposta": "40 mil anos",
+    "distratores": [
+      "4 mil anos",
+      "400 mil anos",
+      "4 milhões de anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neanderthal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neanderthal",
+        "situacao": "ok",
+        "texto": "Neanderthals ( nee-AN-də(r)-TAHL, nay-, -⁠THAHL; Homo neanderthalensis or sometimes Homo sapiens neanderthalensis) are an extinct group of archaic humans who inhabited Europe and Western and Central Asia during the Middle to Late Pleistocene. Neanderthal extinction occurred roughly 40,000 years ago with the immigration of modern humans (Cro-Magnons), but Neanderthals in Gibraltar may have persiste\n[…]\nCompared to Cro-Magnons, Neanderthals may have been at a demographic disadvantage due to a lower fertility rate, a higher infant mortality rate, or a combination of the two. In a sample of 206 Neanderthals, based on the abundance of young and mature adults in comparison to other age demographics, about 80% of them above the age of 20 died before reaching 40. This high mortality rate was probably due to their high-stress environment.\n[…]\nThe first Neanderthal genome sequence was published in 2010, and strongly indicated interbreeding between Neanderthals and early modern humans. Neanderthal-derived genes descend from at least 2 interbreeding episodes outside of Africa: one about 250,000 years ago and another 40,000 to 54,000 years ago. Interbreeding also occurred in other populations which are not ancestral to any living person. An individual whose ancestry lies beyond sub-Saharan Africa may carry about 2% of Neanderthal DNA.\n[…]\nWhen sapiens began to expand and spread, he eliminated the other contemporary races [including Neanderthals] just as the white man drove out the Australian aborigines and the North American Indians.\n[…]\nHomo naledi – South African archaic human species\n[…]\n\"Homo neanderthalensis\". The Smithsonian Institution. February 14, 2010.\n[…]\nAlex, Bridget (February 21, 2024). \"What's Behind the Evolution of Neanderthal Portraits\". SAPIENS.\n[…]\nThe Climate Chronicles, explores the impact of Pleistocene climate change on Neanderthals and other hominins."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homem_de_Neandertal",
+        "situacao": "ok",
+        "texto": "Homem de Neandertal (Homo neanderthalensis) é uma espécie irmã de Homo sapiens, com a qual o homem moderno conviveu. Surgiu durante o Pleistoceno Médio na Europa e no Médio Oriente há cerca de 400 mil anos e extinguiu-se há 28 mil anos, na Península Ibérica. As razões para a extinção dos neandertais ainda são debatidas, com diversas possíveis causas levantadas para este fenômeno.\n[…]\nA expressão \"homem de Neandertal\" foi cunhada em 1863 pelo anatomista irlandês William King. Durante vários anos, houve um intenso debate científico quanto à denominação mais adequada, Homo neanderthalensis ou Homo sapiens neanderthalensis. Enquanto a primeira coloca os neandertais como uma espécie separada de H. sapiens dentro do gênero Homo, a segunda designação implicava os neandertais como uma subespécie do Homo sapiens (junto com Homo sapiens sapiens) ambos pertencendo à linhagem humana.\n[…]\nQuanto ao uso de pigmentos, existem registros do uso de ocre vermelho, um pigmento vermelho composto principalmente por hematita, anteriores à chegada de Homo sapiens na Europa. Os primeiros registros do uso desse pigmentos por Neandertais são da região de Maastricht-Belvédère, Países Baixos, e datam entre 200 a 250 mil anos, mesmo período dos primeiros registros do uso do pigmento por Homo sapiens, evidenciando que o uso deste material provavelmente teve origens independentes em Neandertais e H.\n[…]\nNo Paleolítico Superior teriam desenvolvido uma cultura material mais complexa na tecnologia de talhe da pedra, designada chatelperronense e caracterizada pelo desdobramento do núcleo lítico em peças menores e mais manuseáveis. Um estudo mostra que os neandertais que vivem na Europa há cerca de 55 mil a 40 mil anos viajaram para longe de suas cavernas para coletar resina de pinheiros. Eles então utilizaram esse adesivo para colar instrumentos de pedra em alças feitas de madeira ou osso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Ardi",
+      "descricao": "Esqueleto fóssil parcial de Ardipithecus ramidus, com cerca de 4,4 milhões de anos, achado na Etiópia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Ardi, esqueleto de Ardipithecus ramidus achado na Etiópia, é bem mais antigo que Lucy. Ela viveu há cerca de quanto tempo?",
+    "resposta": "4,4 milhões de anos",
+    "distratores": [
+      "44 mil anos",
+      "440 mil anos",
+      "44 milhões de anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ardi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ardi",
+        "situacao": "ok",
+        "texto": "Ardi (ARA-VP-6/500) is the designation of the fossilized skeletal remains of an Ardipithecus ramidus, thought to be an early human-like female anthropoid around 4.4 million years old. Before Little Foot was fully excavated, it was considered the most complete early hominin specimen with 125 pieces, including most of the skull, teeth, pelvis, hands, and feet.\n[…]\nArdi was not the first fossil of Ardipithecus ramidus to come to light. The first ones were found in Ethiopia in 1992, but it took 17 years to assess their significance.\n[…]\nThis mixture of characteristics indicates Ardi's bipedality was an earlier version of bipedalism compared to later hominids like Lucy. Regardless of how ancestral Ardi's bipedality was, these characteristics found in Ardi's pelvis show bipedalism was well underway by around 4.4 million years ago, even with the ability for arboreal locomotion still present in the hands and limbs.\n[…]\nArdi's foot is a special area of interest when examining the evolution of bipedalism in early Hominids, and the bipedality of Ardipithecus ramidus, because all five toes do not line up. The remains of the foot from Ardi and other Ardipithecus ramidus specimens that can be studied includes \"a talus, medial and intermediate cuneiforms, cuboid, first, second, third, and fifth metatarsals, and several phalanges.\" The foot of Ardi contains an opposable hallux (big toe) that is similar to chimpanzees.\n[…]\nThe combination of features found in Ardi's and other Ardipithecus ramidus foot bones captures a moment in time where these primitive primates were beginning to leave the trees and spending longer periods of time on the ground.\n[…]\nHuman Origins and the Fossil Skeleton Ardi Radio interview of Stanley Ambrose, Professor of Anthropology, University of Illinois\n[…]\nArdipithecus ramidus – Science Journal Article\n[…]\nDiscovering Ardi – Discovery Channel"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ardi",
+        "situacao": "ok",
+        "texto": "Ardi é o nome ou alcunha, em forma de diminutivo, de um fóssil fêmea de Ardipithecus ramidus, encontrado na Etiópia em 1992. Foi anunciada a confirmação de sua autenticidade histórica em uma edição de 11 artigos da revista Nature, no dia 1 de outubro de 2009.\n[…]\nO fóssil foi analisado principalmente por uma equipe do Centro de Evolução Humana da Universidade da Califórnia, durante mais de uma década. A sua datação, estimada em 4,4 milhões de anos de idade, coloca-o como o mais antigo hominídeo, superando a fêmea Australopithecus Lucy.\n[…]\nA origem de seu nome deriva de duas palavras da língua afar, sendo Ardi o equivalente para \"Chão de terra\", e Ramidus de Ramid, \"Raiz\" ou \"Origem\". A palavra pithecus é grega, traduzindo-se \"macaco\". Assim, Ardipithecus ramidus significa \"Raiz dos macacos terrestres\".\n[…]\nO esqueleto, descoberto em 1992, demorou três anos para ser escavado pela equipe do Projeto Médio Awash, em Aramis, na Fenda de Afar, Etiópia. Sua reconstrução foi realizada por dezenas de cientistas de todo o mundo, sendo que atualmente a liderança dos estudos está em mãos de Tim White, membro da equipe original que analisou e batizou Lucy.\n[…]\nArdi caminhava por volta de 4,4 milhões de anos atrás\n[…]\nEle poderá representar um ramo mais próximo do ancestral comum entre seres humanos e chimpanzés, que se separaram há 7 milhões de anos. Apesar desta proximidade com o ancestral comum, Tim White afirma que o fóssil não é tão parecido aos chimpanzés como era esperado. O fato de aparentemente Ardi se deslocar de pé, e não apoiada nos nós dos dedos, fazem-na mais similar aos humanos, enquanto a presença de um polegar opositor nos pés, por exemplo, mostra as suas semelhanças com gorilas e chimpanzés.\n[…]\nArdipithecus\n[…]\nLucy\n[…]\n«Descobrindo Ardi, Discovery Channel»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Ardi",
+      "descricao": "Esqueleto fóssil parcial de Ardipithecus ramidus, com cerca de 4,4 milhões de anos, achado na Etiópia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua afar, falada na Etiópia, o que significa ardi, palavra que batiza o hominídeo Ardipithecus?",
+    "resposta": "Chão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ardipithecus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ardipithecus",
+        "situacao": "ok",
+        "texto": "Ardipithecus is a genus of extinct hominine that lived during the Late Miocene and Early Pliocene epochs in the Afar Depression, Ethiopia. Originally described as one of the earliest ancestors of humans after they diverged from the last common ancestor shared with chimpanzees, the relation of this genus to human ancestors and whether it is a hominin is now a matter of debate. Two fossil species ar\n[…]\nA. ramidus was named in September 1994. The first fossil found was dated to 4.4 million years ago on the basis of its stratigraphic position between two volcanic strata: the basal Gaala Tuff Complex (G.A.T.C.) and the Daam Aatu Basaltic Tuff (D.A.B.T.). The name Ardipithecus ramidus stems mostly from the Afar language, in which Ardi means \"ground/floor\" and ramid means \"root\". The pithecus portion of the name is from the Greek word for \"ape\".\n[…]\nLike most hominids, but unlike all previously recognized hominins, it had a grasping hallux or big toe adapted for locomotion in the trees. It is not confirmed how many other features of its skeleton reflect adaptation to bipedalism on the ground as well. Like later hominins, Ardipithecus had reduced canine teeth and reduced canine sexual dimorphism.\n[…]\nArdipithecus kadabba is \"known only from teeth and bits and pieces of skeletal bones\", and is dated to approximately 5.6 million years ago. It has been described as a \"probable chronospecies\" (i.e. ancestor) of A. ramidus. Although originally considered a subspecies of A. ramidus, in 2004 anthropologists Yohannes Haile-Selassie, Gen Suwa, and Tim D. White published an article elevating A. kadabba to species level on the basis of newly discovered teeth from Ethiopia.\n[…]\nPlio-Plestiocene hominins before the divergence of Homo erectus and reaching back to Ardipithecus ramidus averaged 30-52 kg in mass and thus, making them comparably susceptible to giant snake predation.\n[…]\nArdipithecus ramidus"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ardipithecus",
+        "situacao": "ok",
+        "texto": "O gênero Ardipithecus compreende um conjunto de primatas hominóides fósseis encontrados no noroeste da África que são considerados descendentes dos Orrorin tugenensis e ancestrais diretos dos australopitecíneos. As semelhanças com os Australopithecus são grandes, ainda que apresentem traços mais simiescos e — entre os fósseis encontrados — menos corpulência que estes.\n[…]\nEm um estudo que assume o status hominínico do Ardipithecus ramidus, argumenta-se que a espécie representa uma alteração heterocrônica do plano geral do corpo dos grandes primatas. Neste estudo, a semelhança da morfologia craniofacial da espécie com a dos chimpanzés subadultos é atribuída à dissociação do crescimento craniofacial do crescimento cerebral e das trajetórias associadas à história de vida, como a erupção do primeiro molar e a idade do primeiro nascimento.\n[…]\nA estrutura do hálux do A. ramidus sugere que a criatura andava ereto, e isto apresenta problemas para as teorias atuais das origens do bipedalismo dos hominídeos: acredita-se que os Ardipithecus viviam mais em florestas fechadas do que na savana, onde uma locomoção mais eficiente no consumo de energia permitida pelo bipedalismo seria uma vantagem.\n[…]\nAlguns pesquisadores inferem que a forma da pelve e membros e a presença de seu hálux seqüível, que a espécie era um bípede facultativo: bípede ao se mover no chão, mas quadrúpede quando se movia em galhos de árvores. A. ramidus tinha uma habilidade de andar mais primitiva do que os hominídeos posteriores, e não podia andar ou correr por longas distâncias. Os dentes sugerem onívoria e são mais generalizados que os dos macacos modernos.\n[…]\n«BBC News: Amazing hominid haul in Ethiopia» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Homo naledi",
+      "descricao": "Espécie humana extinta descoberta em 2013 no sistema de cavernas Rising Star, na África do Sul."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Apesar do cérebro pequeno, parecido com o de hominídeos bem antigos, o Homo naledi viveu há quanto tempo, aproximadamente?",
+    "resposta": "300 mil anos",
+    "distratores": [
+      "30 mil anos",
+      "3 milhões de anos",
+      "30 milhões de anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Homo_naledi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Homo_naledi",
+        "situacao": "ok",
+        "texto": "Homo naledi is an extinct species of archaic human discovered in 2013 in the Rising Star Cave system, Gauteng province, South Africa, part of the Cradle of Humankind, dating back to the Middle Pleistocene 335,000–236,000 years ago. The excavation comprises 1,550 specimens of bone, representing 737 different skeletal elements, and at least 15 different individuals. Despite this exceptionally high n\n[…]\nH. naledi occupied a seemingly unique ecological niche from previous South African hominins, including Australopithecus and Paranthropus. The teeth of all three species indicate that they needed to exert high shearing force to chew through perhaps plant or muscle fibres. The teeth of other Homo cannot produce such high forces perhaps due to the use of some food processing techniques, such as cooking.\n[…]\nIn 2017, Dirks, Berger, and colleagues reaffirmed that there is no evidence of water flow into the cave and that it is more likely that the bodies were deliberately deposited into the chamber. They theorized that as it is possible that the H. naledi bones were deposited by contemporary Homo, such as the ancestors of modern humans, rather than other H. naledi, but that the cultural behavior of burial practices is not impossible for H. naledi.\n[…]\nIn 2025, the paleoanthropologists Kimberly K. Foecke, Alain Queffelec and Robyn Pickering found the data analysis of \"Evidence for deliberate burial of the dead by Homo naledi\" to be \"heavily influenced by a presupposed narrative\" and published a paper to criticize the preprint's faulty statistical methods.\n[…]\nBerger, L. R.; Hawks, J. D. (2017). Almost Human: The astonishing tale of Homo naledi and the discovery that changed our human story. Washington, DC: National Geographic Society. ISBN 978-1-4262-1811-8.\n[…]\n\"Three-dimensional scans of Homo naledi fossils\". MorphoSource. Archived from the original on 16 July 2016. Retrieved 8 October 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homo_naledi",
+        "situacao": "ok",
+        "texto": "Homo naledi é uma espécie extinta da tribo Hominini, uma nova espécie de hominídeo, anunciada em 2015, que tem características do pré-humano Australopithecus e poderia ser a espécie mais antiga do gênero Homo. A espécie é caracterizada por ter estatura e massa corporal semelhantes a populações humanas de pequena estatura mas com um pequeno volume endocranial semelhante aos australopithecus.\n[…]\nAs características físicas de H. naledi apresentam semelhanças ao gênero Australopithecus, e ainda traços mais característicos do gênero Homo, bem como características não conhecidas em outras espécies hominíneas. H. naledi media cerca de 150 centímetros de altura, sua estatura é próxima dos pequenos seres humanos modernos. Os machos adultos mediam cerca de 150 centímetros de altura e pesavam em média 45 quilos, enquanto as fêmeas eram um pouco menores e pesavam um pouco menos.\n[…]\nEm 2021, após a análise dos fragmentos ósseos de um indivíduo imaturo, Juliet Brophy e Berger afirmaram mais uma vez que os restos mortais de H. naledi foram enterrados propositalmente por algumas espécies humanas. Isso tornaria o Homo naledi a evidência mais antiga de sepultamento por hominídeos. Estas conclusões são contestadas.\n[…]\nnaledi.\n[…]\nAinda não está claro como H. naledi foi extinto. Porém, segundo o paleontropólogo Lee Berger se os fósseis apresentam uma datação que varia entre 335 mil e 236 mil anos, existe a possibilidade de que a espécie H. sapiens possa ter contribuído para esse cenário, visto que tal provavelmente evoluiu entre 300 mil e 200 mil anos atrás, e consequentemente, podem ter tido contato direto com H. naledi.\n[…]\nReconstruído crânio de Homo naledi, o elo que não se encaixa na evolução humana, por EFE, zap.aeiou.pt, 26 Abril, 2018\n[…]\n«Prominent hominid fossils». Talk Origins\n[…]\n«Exploring the hominid fossil record». Bradshaw Foundation\n[…]\n«Three-dimensional scans of Homo naledi fossils». MorphoSource",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "A Descendência do Homem",
+      "descricao": "Livro de Charles Darwin publicado em 1871 que aplica a teoria da evolução aos seres humanos e trata da seleção sexual."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Quantos anos depois de A Origem das Espécies Darwin publicou A Descendência do Homem, livro em que trata diretamente da evolução humana?",
+    "resposta": "Doze anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Descent_of_Man,_and_Selection_in_Relation_to_Sex",
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Descent_of_Man,_and_Selection_in_Relation_to_Sex",
+        "situacao": "ok",
+        "texto": "The Descent of Man, and Selection in Relation to Sex is a book by English naturalist Charles Darwin, first published in 1871, which applies evolutionary theory to human evolution, and details his theory of sexual selection, a form of biological adaptation distinct from, yet interconnected with, natural selection. Darwin used the word \"descent\" to mean lineal descendant of ancestors.\n[…]\nIn Galton's view, social institutions such as welfare and insane asylums were allowing \"inferior\" humans to survive and reproduce at levels faster than the more \"superior\" humans in respectable society, and if corrections were not soon taken, society would be awash with \"inferiors.\" Darwin read his cousin's work with interest, and devoted sections of Descent of Man to discussion of Galton's theories.\n[…]\nIn January 1871, Thomas Huxley's former disciple, the anatomist St. George Mivart, had published On the Genesis of Species as a critique of natural selection. In an anonymous Quarterly Review article, he claimed that the Descent of Man would unsettle \"our half educated classes\" and talked of people doing as they pleased, breaking laws and customs. An infuriated Darwin guessed that Mivart was the author and, thinking \"I shall soon be viewed as the most despicable of men\", looked for an ally.\n[…]\nIn September, Huxley wrote a cutting review of Mivart's book and article and a relieved Darwin told him \"How you do smash Mivart's theology... He may write his worst & he will never mortify me again\". As 1872 began, Mivart politely inflamed the argument again, writing \"wishing you very sincerely a happy new year\" while wanting a disclaimer of the \"fundamental intellectual errors\" in the Descent of Man. This time, Darwin ended the correspondence.\n[…]\nThe Descent of Man (Volume 1) and (Volume 2) (from The Complete Work of Charles Darwin Online)\n[…]\nThe Descent of Man public domain audiobook at LibriVox"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "situacao": "ok",
+        "texto": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life is a work of scientific literature by the English naturalist Charles Darwin that is considered to be the foundation of evolutionary biology. It was published on 24 November 1859.\n[…]\nBut it proposed a linear progression rather than the branching common descent theory behind Darwin's work in progress, and it ignored adaptation. Darwin read it soon after publication, and scorned its amateurish geology and zoology, but he carefully reviewed his own arguments after leading scientists, including Adam Sedgwick, attacked its morality and scientific errors.\n[…]\nIts proponents made full use of a surge in the publication of review journals, and it was given more popular attention than almost any other scientific work, though it failed to match the continuing sales of Vestiges. Darwin's book legitimised scientific discussion of evolutionary mechanisms, and the newly coined term 'Darwinism' was used to cover the whole range of evolutionism, not just his own ideas. By the mid-1870s, evolutionism was triumphant.\n[…]\nDarwin published his own explanation in the Descent of Man (1871).\n[…]\nModern evolutionary theory continues to develop. Darwin's theory of evolution by natural selection, with its tree-like model of branching common descent, has become the unifying theory of the life sciences. The theory explains the diversity of living organisms and their adaptation to the environment.\n[…]\nWorldwide commemorations of the 150th anniversary of the publication of On the Origin of Species and the bicentenary of Darwin's birth were scheduled for 2009. They celebrated the ideas which \"over the last 150 years have revolutionised our understanding of nature and our place within it\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Descend%C3%AAncia_do_Homem_e_Sele%C3%A7%C3%A3o_em_Rela%C3%A7%C3%A3o_ao_Sexo",
+        "situacao": "ok",
+        "texto": "“A Descendência do Homem e Seleção em Relação ao Sexo”, é um livro do naturalista inglês Charles Darwin, que teve sua primeira edição publicada por John Murray, em 24 de fevereiro de 1871 no Reino Unido. A obra disserta sobre a teoria evolutiva, aplicando teorias importantes de Darwin como a seleção sexual e seleção natural.\n[…]\nPublicada inicialmente em dois volumes em 1871, a \"Descendência do Homem\" trata de dois tópicos: a descendência ou origem do homem a partir de outras espécies, não sendo ele, portanto, uma criação especial; e o processo de seleção sexual, que ocorre, para Darwin, paralelamente ao processo de seleção natural.\n[…]\nBoa parte de \"A Descendência do Homem\", coloca Carlos, é dedicada a provar que não existem diferentes espécies humanas (uma negra, outra branca), e que características delineadas como unicamente humanas podem ser encontradas em outras espécies em graus de complexidade inferiores - o que demonstra que existe um ancestral comum. Essa defesa é fundamental na obra, mas significava propor uma igualdade fundamental entre os seres humanos, sem distinção de origem entre um grupo étnico e outro.\n[…]\nApesar de as referências diretas de Sigmund Freud a Charles Darwin totalizarem apenas dezesseis, o pensamento e o método do naturalista inglês para investigar o passado originário da espécie humana foi decisivo para a construção de conhecimento na psicanálise.\n[…]\nIsso porque ele, juntamente com Josef Breuer, detém-se para uma perspectiva dinâmica e econômica para o funcionamento afetivo da espécie humana, ideias desenvolvidas principalmente em “A Expressão das Emoções no Homem e nos Animais”, livro no qual Darwin fará conjecturas acerca dos padrões de comportamento da espécie e suas alterações ao longo da história.\n[…]\nA origem do homem e a seleção sexual. PR, Hemus, 2002 Google Livros Jul. 2011",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Lei Butler",
+      "descricao": "Lei do Tennessee, de 1925, que proibia ensinar nas escolas públicas que o ser humano descende de animais."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A lei do Tennessee que proibia ensinar a evolução humana, usada contra o professor Scopes em 1925, só foi revogada em que década?",
+    "resposta": "Década de 1960",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Butler_Act"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Butler_Act",
+        "situacao": "ok",
+        "texto": "The Butler Act was a 1925 Tennessee law prohibiting public school teachers from denying the Genesis account of humankind's origin. The law also prevented the teaching of the evolution of humans from what it referred to as lower orders of animals in place of the Biblical account. The law was introduced by Tennessee House of Representatives member John Washington Butler, for whom the law was named.\n[…]\nIt did not even require that the Book of Genesis be taught, but prohibited solely the teaching of any content denying that humanity was created by God as recorded in Genesis. However the author of the law, a Tennessee farmer and member of the Tennessee House of Representatives John Washington Butler, specifically intended that it would prohibit the teaching of evolution. He later was reported to have said \"No, I didn't know anything about evolution when I introduced it.\n[…]\nThe law was challenged by the ACLU in the famed Scopes Trial, in which John Scopes, a high school science teacher who agreed to be paid on a charge of having taught evolution, was nominally served a warrant on May 5, 1925. Scopes was indicted on May 25 and ultimately convicted; on appeal the Tennessee Supreme Court found the law to be constitutional under the Tennessee State Constitution, because:\n[…]\nDespite this decision, the Tennessee Supreme Court reversed the conviction on a technicality (that the jury should have fixed the amount of the fine), and the case was not retried. During the trial, Butler told reporters: \"I never had any idea my bill would make a fuss. I just thought it would become a law, and that everybody would abide by it and that we wouldn't hear any more of evolution in Tennessee.\"\n[…]\nWithin three days of his filing suit, a bill for repeal of the Butler Act had passed both houses of the Tennessee legislature and was signed into law May 18 by Governor Buford Ellington."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lei_Butler",
+        "situacao": "ok",
+        "texto": "Lei Butler (em inglês, Butler Act) foi uma lei polêmica do estado norte-americano do Tennessee que foi assinada pelo governador Austin Peay e entrou em vigor em 13 de março de 1925, proibindo professores de escolas públicas de negar o relato bíblico da origem da humanidade e ensinar evolucionismo nas escolas públicas do Estado, sob pena de multas entre US$ 100 e US$ 500. A lei recebeu esse nome em\n[…]\nA lei foi contestada mais tarde naquele ano em um famoso julgamento na cidade de Dayton, no Tennessee, chamado de Julgamento de Scopes (conhecido também como o Julgamento do Macaco). Durante o julgamento, Butler afirmou à imprensa: \"Nunca imaginei que meu projeto de lei faria barulho. Só pensei que se tornaria uma lei que todos iriam cumpri-la e que não ouviríamos mais nada sobre evolução no Tennessee\".\n[…]\nA Lei Butler não foi mudada até 1967, quando o professor Gary L. Scott, da cidade de Jacksboro, que havia sido demitido por violação da lei, entrou com uma ação judicial pedindo por reintegração, citando seu direito da Primeira Emenda à liberdade de expressão. Embora sua demissão tenha sido revogada, Scott continuou sua luta com uma ação coletiva no Tribunal Federal Distrital de Nashville, buscando um mandado de segurança permanente contra a aplicação dessa lei.\n[…]\nTrês dias depois, um projeto de lei para revogar a Lei Butler foi aprovado pelo legislativo do Tennessee e sancionado em 18 de maio pelo governador Buford Ellington, entrando em vigor em 1 de setembro de 1967. Um ano depois, no caso Epperson v.\n[…]\nArkansas, a Suprema Corte dos Estados Unidos considerou todas as leis proibindo o ensino da evolução como inconstitucionais por considerar que elas possuem a intenção de proteger uma visão religiosa específica, violando a cláusula de estabelecimento da Primeira Emenda à Constituição dos Estados Unidos.\n[…]\nJulgamento de Scopes\n[…]\nEvolucionismo\n[…]\nJohn Washington Butler",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Eva mitocondrial",
+      "descricao": "Ancestral comum mais recente, pela linhagem materna, de todos os seres humanos vivos, identificada pelo DNA mitocondrial."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Segundo estimativas genéticas, a Eva mitocondrial, ancestral materna comum de todos os humanos vivos, viveu há cerca de quanto tempo?",
+    "resposta": "150 a 200 mil anos",
+    "distratores": [
+      "15 a 20 mil anos",
+      "1,5 a 2 milhões",
+      "15 a 20 milhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitochondrial_Eve"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitochondrial_Eve",
+        "situacao": "ok",
+        "texto": "In human genetics, the Mitochondrial Eve (more technically known as the Mitochondrial-Most Recent Common Ancestor, shortened to mt-Eve or mt-MRCA) is the matrilineal most recent common ancestor (MRCA) of all living humans. In other words, she is defined as the most recent woman from whom all living humans descend in an unbroken line purely through their mothers and through the mothers of those mot\n[…]\nThe male analog to the \"Mitochondrial Eve\" is the \"Y-chromosomal Adam\" (or Y-MRCA), the individual from whom all living humans are patrilineally descended. As the identity of both matrilineal and patrilineal MRCAs is dependent on genealogical history (pedigree collapse), they need not have lived at the same time. As of 2015, estimates of the age of the Y-MRCA range around 200,000 to 300,000 years ago, roughly consistent with the emergence of anatomically modern humans.\n[…]\nAlthough the original research did have analytical limitations, the estimate on the age of the mt-MRCA has proven robust. More recent age estimates have remained consistent with the 140–200 kya estimate published in 1987: A 2013 estimate dated Mitochondrial Eve to about 160 kya (within the reserved estimate of the original research) and Out of Africa II to about 95 kya.\n[…]\nWithout a DNA sample, it is not possible to reconstruct the complete genetic makeup (genome) of any individual who died very long ago. By analysing descendants' DNA, however, parts of ancestral genomes are estimated by scientists. Mitochondrial DNA (mtDNA, the DNA located in mitochondria, different from the DNA in the nucleus of a cell) and Y-chromosome DNA are commonly used to trace ancestry in this manner.\n[…]\nMitochondrial Eve, the most recent female-line common ancestor of all living people.\n[…]\n\"Y-chromosomal Adam\", the most recent male-line common ancestor of all living people."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eva_mitocondrial",
+        "situacao": "ok",
+        "texto": "A Eva Mitocondrial se baseia no conceito do Ancestral Comum Mais Recente (MRCA, do inglês Most Recent Common Ancestor). Nos humanos, durante a fecundação, a única parte do espermatozóide que entra no ovócito é o núcleo. Portanto, em um zigoto, a contribuição genética paterna é exclusivamente nuclear, enquanto a materna não se restringe somente ao núcleo e também é extranuclear.\n[…]\nPesquisadores da Universidade da Califórnia concluíram que todos os humanos eram descendentes de um grupo relativamente pequeno de mulheres que viveram na África há cerca de 200 mil anos, que denominaram de Eva Mitocondrial. Eles se basearam na análise do DNA retirado das mitocôndrias, que difere do DNA do núcleo da célula e é transmitido apenas pela linhagem feminina. Ele sofre mutações em taxas mais rápidas do que o DNA nuclear.\n[…]\nComparando o DNA mitocondrial de mulheres de vários grupos étnicos, eles puderam estimar quanto tempo se passou para que cada grupo assumisse características distintas a partir de um ancestral comum. De fato, eles  construíram uma árvore genealógica para o gênero humano, na base da qual estavam a Eva Mitocondrial, a grande avó de todos os humanos.\n[…]\nEmbora a pesquisa original tenha limitações analíticas, a estimativa de idade da Eva mitocondrial se provou robustas, essa estimativa indicava 140 e 200 mil anos atrás, publicadas originalmente em 1987. Em 2013, outro trabalho reavaliou essa estimativa em aproximadamente 160 mil anos atrás. Outro estudo do mesmo ano, baseando se em um sequenciamento do genoma humano de 69 pessoas de 9 populações reportaram a idade da Eva mitocondrial entre 99 e 148 mil anos atrás.\n[…]\n«O CASO DA 'EVA' MITOCONDRIAL; Frank R. Zindler - str.com.br»  [ligação inativa]\n[…]\n«A Eva mitocondrial - Colunista prova matematicamente que temos uma ancestral comum e somos todos parentes - cienciahoje.uol.com.br»  [ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Chimpanzé",
+      "descricao": "Grande primata africano da espécie Pan troglodytes, um dos parentes vivos mais próximos do ser humano."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Segundo a genética, as linhagens que levaram aos humanos e aos chimpanzés se separaram há cerca de quanto tempo?",
+    "resposta": "6 milhões de anos",
+    "distratores": [
+      "60 mil anos",
+      "600 mil anos",
+      "60 milhões de anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor",
+        "situacao": "ok",
+        "texto": "The chimpanzee–human last common ancestor (CHLCA) is the last common ancestor shared by the extant Homo (human) and Pan (chimpanzee and bonobo) genera of Hominini. Estimates of the divergence date vary widely from thirteen to five million years ago.\n[…]\nThe taxon tribe Hominini was proposed to separate humans (genus Homo) from chimpanzees (Pan) and gorillas (genus Gorilla) on the notion that the least similar species should be separated from the other two. However, later evidence revealed that Pan and Homo are closer genetically than are Pan and Gorilla; thus, Pan was referred to the tribe Hominini with Homo. Gorilla now became the separated genus and was referred to the new taxon tribe Gorillini.\n[…]\nOrrorin, which lived roughly 6 million years ago, seems, based on the fossils that were recovered, to share no derived features of hominoid great-ape relatives.\n[…]\nAn estimate of 10 to 13 million years for the CHLCA was proposed in 1998, and a range of 7 to 10 million years ago is assumed by White and colleagues in 2009. A 2016 study analyzed transitions at CpG sites in genome sequences, which exhibit a more clocklike behavior than other substitutions, arriving at an estimate for human and chimpanzee divergence time of between 9.3 and 6.5 million years ago.\n[…]\nStudies in the 2020s suggest a more recent divergence time, such as between 6.6 and 4.7 million years ago in a 2022 article. In a 2025 paper in comparative genomics, the complete telomere-to-telomere sequences of six hominoid genomes were used to estimate the CHLCA split as between 6.3 and 5.5 million years  ago.\n[…]\nThis extended divergence included significant gene flow between the two emerging lineages as recently as 6.3 to 5.4 million years ago, according to Patterson et al. (2006)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ancestral_comum_entre_humano_e_chimpanz%C3%A9",
+        "situacao": "ok",
+        "texto": "O ancestral comum entre humano e chimpanzé é a última espécie que humanos, chimpanzés e bonobos compartilharam como ancestral comum.\n[…]\nEm estudos de genética humana, esse ancestral é útil como ponto inicial para calcular taxas de Polimorfismo de nucleotídeo único em que chimpanzés são usados como grupo externo. Ele também é frequentemente citado como parâmetro para determinação molecular do Ancestral comum mais recente visto que o gênero Pan é o táxon mais similar geneticamente ao Homo sapiens.\n[…]\nA idade do último ancestral comum entre humanos e chimpanzés é uma estimativa. Os fósseis de Ardipithecus kadabba, Sahelanthropus tchadensis, e Orrorin tugenensis são os mais próximos em idade e morfologia esperada ao ancestral comum entre chimpanzés e humanos e sugerem que ele pode ser mais antigo do que 7 milhões de anos.\n[…]\nOs primeiros estudos com hominoides sugeriram que terá vivido há 25 milhões de anos; entretanto, estudos com sequenciamento de proteínas na década de 1970 sugeriram que ele teria menos de 8 milhões de anos. Métodos genéticos usados para estimar o tempo de divergência entre humanos, orangotangos e gibões, mostraram que a divergência entre humanos e chimpanzés ocorreu há entre 5 e 5,5 milhões de anos.\n[…]\nComo chimpanzés e humanos compartilham o mesmo ancestral, estabelecida a idade geológica, é possível estimar a taxa de mutação. Fósseis do último ancestral comum não foram encontrados.\n[…]\nRichard Wrangham acredita que esse ancestral seja similar ao chimpanzé-comum (Pan troglodytes), e sugeriu classificá-lo no gênero Pan, como Pan prior.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Chimpanzé",
+      "descricao": "Grande primata africano da espécie Pan troglodytes, um dos parentes vivos mais próximos do ser humano."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Comparando os trechos equivalentes do genoma, humanos e chimpanzés têm o DNA idêntico em cerca de quanto?",
+    "resposta": "99 por cento",
+    "distratores": [
+      "75 por cento",
+      "60 por cento",
+      "50 por cento"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chimpanzee_genome_project"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chimpanzee_genome_project",
+        "situacao": "ok",
+        "texto": "The Chimpanzee Genome Project was an effort to determine the DNA sequence of the chimpanzee genome. Sequencing began in 2005 and by 2013 twenty-four individual chimpanzees had been sequenced. This project was folded into the Great Ape Genome Project.\n[…]\nTypical human and chimpanzee homologs of proteins differ in only an average of two amino acids. About 30 percent of all human proteins are identical in sequence to the corresponding chimpanzee protein.\n[…]\nAs mentioned above, gene duplications are a major source of differences between human and chimpanzee genetic material, with about 2.7 percent of the genome now representing differences having been produced by gene duplications or deletions during approximately 6 million years  since humans and chimpanzees diverged from their common evolutionary ancestor. The comparable variation within human populations is 0.5 percent.\n[…]\nAbout 600 genes were identified that may have been undergoing strong positive selection in the human and chimpanzee lineages; many of these genes are involved in immune system defense against microbial disease (example: granulysin is protective against Mycobacterium tuberculosis ) or are targeted receptors of pathogenic microorganisms (example: Glycophorin C and Plasmodium falciparum).\n[…]\nBy comparing human and chimpanzee genes to the genes of other mammals, it has been found that genes coding for transcription factors. Forkhead box protein P2, the so-called 'language' gene FOXP2, was found to be functionally different in humans compared to chimpanzees. Since FOXP2 was also found to have an effect on other genes, its effects on other genes is also being studied."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "A Origem das Espécies",
+      "descricao": "Livro de Charles Darwin publicado em 1859 que apresenta a teoria da evolução por seleção natural."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A primeira edição de A Origem das Espécies, de 1859, foi toda vendida às livrarias logo no lançamento. Quantos exemplares ela tinha?",
+    "resposta": "1 250 exemplares",
+    "distratores": [
+      "125 exemplares",
+      "12 500 exemplares",
+      "125 mil exemplares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "situacao": "ok",
+        "texto": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life is a work of scientific literature by the English naturalist Charles Darwin that is considered to be the foundation of evolutionary biology. It was published on 24 November 1859.\n[…]\nLyell and Hooker agreed that a joint publication putting together Wallace's pages with extracts from Darwin's 1844 Essay and his 1857 letter to Gray should be presented at the Linnean Society, and on 1 July 1858, the papers entitled \"On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection\", by Wallace and Darwin respectively, were read out but drew little reaction.\n[…]\nOn the Origin of Species was first published on Thursday 24 November 1859, priced at fifteen shillings with a first printing of 1250 copies. The book had been offered to booksellers at Murray's autumn sale on Tuesday 22 November, and all available copies had been taken up immediately. In total, 1,250 copies were printed but after deducting presentation and review copies, and five for Stationers' Hall copyright, around 1,170 copies were available for sale.\n[…]\nThe sixth edition was published by Murray on 19 February 1872 as The Origin of Species, with \"On\" dropped from the title. Darwin had told Murray of working men in Lancashire clubbing together to buy the fifth edition at 15 shillings and wanted it made more widely available; the price was halved to 7s 6d by printing in a smaller font. It includes a glossary compiled by W. S. Dallas. Book sales increased from 60 to 250 per month.\n[…]\nHuxley, Thomas Henry (1859), \"Time and Life: Mr Darwin's Origin of Species\", Macmillan's Magazine, 1: 142–148.\n[…]\nOn the Origin of Species, full text with embedded audio"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Origem_das_Esp%C3%A9cies",
+        "situacao": "ok",
+        "texto": "A Origem das Espécies (ou, mais completamente, A Origem das Espécies por Meio da Seleção Natural, ou Preservação das Raças Favorecidas na Luta pela Vida) é uma obra de literatura científica escrita por Charles Darwin, que é considerada a base da biologia evolutiva. Publicado em 24 de novembro de 1859, ele introduziu a teoria científica de que as formas de vida evoluem ao longo das gerações por mei\n[…]\nOn the Origin of Species foi publicado pela primeira vez na quinta-feira, 24 de novembro de 1859, ao preço de quinze xelins, com uma primeira impressão de 1 250 cópias. O livro foi oferecido a livreiros na liquidação de outono de Murray na terça-feira, 22 de novembro, e todas as cópias disponíveis foram compradas imediatamente.\n[…]\nNo total, 1 250 cópias foram impressas, mas após deduzir as cópias de apresentação e revisão, e cinco delas para os direitos autorais do Stationers 'Hall, cerca de 1 170 cópias estavam disponíveis para venda. Significativamente, 500 exemplares foram levados pela biblioteca de Charles Edward Mudie, garantindo que o livro alcançasse prontamente um grande número de frequentadores do local.\n[…]\nO capítulo então trata se a seleção natural poderia produzir estruturas especializadas complexas e os comportamentos para usá-las, quando seria difícil imaginar como as formas intermediárias poderiam ser funcionais. Darwin disse:Em segundo lugar, é possível que um animal tendo, por exemplo, a estrutura e os hábitos de um morcego, pudesse ter sido formado pela modificação de algum animal com hábitos totalmente diferentes?\n[…]\nPareceu-me suficiente indicar, na primeira edição de minha 'Origem das Espécies', que por meio dessa obra 'luz seria lançada sobre a origem do homem e sua história'; e isso implica que o homem deve ser incluído com outros seres orgânicos em qualquer conclusão geral a respeito de sua maneira de aparecer nesta terra.\n[…]\nOn the Origin of Species",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Toumaï",
+      "descricao": "Crânio fóssil de Sahelanthropus tchadensis, com cerca de 7 milhões de anos, achado no deserto de Djurab em 2001."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes fósseis de hominídeos é o mais antigo?",
+    "resposta": "Toumaï",
+    "distratores": [
+      "Lucy",
+      "Menino de Turkana",
+      "Homem de Java"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sahelanthropus",
+      "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sahelanthropus",
+        "situacao": "ok",
+        "texto": "Sahelanthropus is an extinct genus of hominid dated to about 7 million years ago during the Late Miocene. The type species, Sahelanthropus tchadensis, was first announced in 2002, based mainly on a partial cranium, nicknamed Toumaï, discovered in northern Chad.\n[…]\nIn 2009, Alain Beauvilain and Jean-Pierre Watté argued that Toumaï was purposefully buried in a \"grave\", because the skull was also found with two parallel rows of large mammal fossils, seemingly forming a 100 cm × 40 cm (3.3 ft × 1.3 ft) box.\n[…]\nA recent phylogenetic analysis classified Orrorin as a hominin, but placed Sahelanthropus as a stem-hominid outside hominins, though dental metric analysis supports its position as a hominin.\n[…]\nA further possibility is that Toumaï is not ancestral to either humans or chimpanzees at all, but rather an early representative of the Gorillini lineage. Brigitte Senut and Martin Pickford, the discoverers of Orrorin tugenensis, suggested that the features of S. tchadensis are consistent with a female proto-gorilla. Even if this claim is upheld the find would lose none of its significance, because at present very few chimpanzee or gorilla ancestors have been found anywhere in Africa. Thus, if S.\n[…]\nBeauvilain, Alain (2003). Toumaï: l'aventure humaine (in French). Table ronde. ISBN 2-7103-2592-6.\n[…]\nBrunet, Michel (2006). D'Abel à Toumaï: Nomade, chercheur d'os (in French). Odile Jacob. ISBN 978-2-7381-1738-0.\n[…]\nFossil Hominids: Toumai\n[…]\nSahelanthropus tchadensis, Toumaï, Detailed composition of the Franco-Chadian palaeoanthropological Mission, the sahara scientific missions, the discovery's context, controversy about the misplacement of a molar, the minimum number of individuals, the geology of the site, was Toumaï buried ? and research to date the skull,..."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+        "situacao": "ok",
+        "texto": "AL 288-1, commonly known as Lucy or Dinkʼinesh (Amharic: ድንቅ ነሽ, romanized: dənqə näš, lit. 'you are marvellous'), is a collection of several hundred pieces of fossilized bone comprising 40% of the skeleton of a female of the hominin species Australopithecus afarensis. It was discovered in 1974 in Ethiopia, at Hadar, a site in the Awash Valley of the Afar Triangle by Donald Johanson, a paleoanthro\n[…]\nLucy was 1.1 m (3 ft 7 in) tall, weighed 29 kg (64 lb), and (after reconstruction) looked somewhat like a chimpanzee. She had a small brain like a chimpanzee, but the pelvis and leg bones were almost identical in function to those of modern humans, showing with certainty that Lucy's species were hominins that had stood upright and erect in their walking gait.\n[…]\nAdditional finds of A. afarensis were made during the 1970s and forward, gaining for anthropologists a better understanding of the ranges of morphic variability and sexual dimorphism within the species. A more complete skeleton of a related hominid, Ardipithecus, was found in the same Awash Valley in 1992. \"Ardi\", like \"Lucy\", was a hominid-becoming-hominin species, but, lived around 4.4 million years ago, it had evolved much earlier than the afarensis species.\n[…]\nA study of the mandible across a number of specimens of A. afarensis indicated that Lucy's jaw was rather unlike other hominins, having a more gorilla-like appearance. Rak et al. concluded that this morphology arose \"independently in gorillas and hominins\", and that A. afarensis is \"too derived to occupy a position as a common ancestor of both the Homo and robust australopith clades\".\n[…]\nIn August 2025, Lucy, along with another hominid fossil, Selam (Australopithecus), were transported to the Czech Republic for a two-month exhibition at the Czech National Museum in Prague."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Toumaï",
+      "descricao": "Crânio fóssil de Sahelanthropus tchadensis, com cerca de 7 milhões de anos, achado no deserto de Djurab em 2001."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Toumaï, apelido do crânio de sete milhões de anos achado no Chade, vem de uma língua local. O que significa?",
+    "resposta": "Esperança de vida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sahelanthropus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sahelanthropus",
+        "situacao": "ok",
+        "texto": "Sahelanthropus is an extinct genus of hominid dated to about 7 million years ago during the Late Miocene. The type species, Sahelanthropus tchadensis, was first announced in 2002, based mainly on a partial cranium, nicknamed Toumaï, discovered in northern Chad.\n[…]\nThe skull was nicknamed Toumaï by the then-president of the Republic of Chad, Idriss Déby, not only because it designates in the local Daza language the meaning \"hope of life\", given to infants born just before the dry season and who, therefore, have fairly limited chances of survival, but also to celebrate the memory of one of his comrades-in-arms, living in the north of the country where the fossil was discovered, and killed fighting to overthrow President Hissène Habré supported by France.\n[…]\nA further possibility is that Toumaï is not ancestral to either humans or chimpanzees at all, but rather an early representative of the Gorillini lineage. Brigitte Senut and Martin Pickford, the discoverers of Orrorin tugenensis, suggested that the features of S. tchadensis are consistent with a female proto-gorilla. Even if this claim is upheld the find would lose none of its significance, because at present very few chimpanzee or gorilla ancestors have been found anywhere in Africa. Thus, if S.\n[…]\nBrunet, Michel (2006). D'Abel à Toumaï: Nomade, chercheur d'os (in French). Odile Jacob. ISBN 978-2-7381-1738-0.\n[…]\nFossil Hominids: Toumai\n[…]\nSahelanthropus tchadensis, Toumaï, Detailed composition of the Franco-Chadian palaeoanthropological Mission, the sahara scientific missions, the discovery's context, controversy about the misplacement of a molar, the minimum number of individuals, the geology of the site, was Toumaï buried ? and research to date the skull,..."
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Pithecanthropus",
+      "descricao": "Nome de gênero criado no século dezenove para o elo perdido entre macacos e humanos, depois usado para o Homem de Java."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Antes de qualquer fóssil ser achado, que biólogo alemão, defensor de Darwin, inventou o nome Pithecanthropus para o suposto elo perdido?",
+    "resposta": "Ernst Haeckel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Java_Man",
+      "https://en.wikipedia.org/wiki/Ernst_Haeckel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Java_Man",
+        "situacao": "ok",
+        "texto": "Java Man (Homo erectus erectus, formerly also Anthropopithecus erectus or Pithecanthropus erectus) is an early human fossil discovered in 1891 and 1892 on the island of Java (Indonesia). Estimated to be between 700,000 and 1,490,000 years old, it was, at the time of its discovery, the oldest hominid fossil ever found, and it remains the type specimen for Homo erectus.\n[…]\nEventually, similarities between Java Man and Sinanthropus pekinensis (Peking Man) led Ernst Mayr to rename both Homo erectus in 1950, placing them directly in the human evolutionary tree.\n[…]\nOnly in late 1892, when he determined that the cranium measured about 900 cubic centimetres (55 cu in), did Dubois consider that his specimen was a transitional form between apes and humans. In 1894, he thus renamed it Pithecanthropus erectus (\"upright ape-man\"), borrowing the genus name Pithecanthropus from Ernst Haeckel, who had coined it a few years earlier to refer to a supposed \"missing link\" between apes and humans. This specimen has also been known as Pithecanthropus 1.\n[…]\nMore than 50 years after Dubois's find, Ralph von Koenigswald recollected that, \"No other paleontological discovery has created such a sensation and led to such a variety of conflicting scientific opinions.\" The Pithecanthropus fossils were so immediately controversial that by the end of the 1890s, almost 80 publications had already discussed them.\n[…]\nBased on Weidenreich's work and on his suggestion that Pithecanthropus erectus and Sinanthropus pekinensis were connected through a series of interbreeding populations, German biologist Ernst Mayr reclassified them both as being part of the same species: Homo erectus. Mayr presented his conclusion at the Cold Spring Harbor Symposium in 1950, and this resulted in Dubois's erectus species being reclassified under the genus Homo.\n[…]\nList of fossil sites (with link directory)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ernst_Haeckel",
+        "situacao": "ok",
+        "texto": "Ernst Heinrich Philipp August Haeckel (; German: [ɛʁnst ˈhɛkl̩]; 16 February 1834 – 9 August 1919) was a German zoologist, naturalist, eugenicist, philosopher, physician, professor, marine biologist and artist. He discovered, described and named thousands of new species, mapped a genealogical tree relating all life forms and coined many terms in biology, including ecology, phylum, phylogeny, ontog\n[…]\nThe Jena Declaration, published by the German Zoological Society, rejects the idea of human \"races\" and distances itself from the racial theories of Ernst Haeckel and other 20th century scientists. It claims that genetic variation between human populations is smaller than within them, demonstrating that the biological concept of \"races\" is invalid. The statement highlights that there are no specific genes or genetic markers that match with conventional racial categorizations.\n[…]\nIn 2013, Ernstia, a genus of calcareous sponges in the family Clathrinidae. The genus was erected to contain five species previously assigned to Clathrina. The genus name honors Ernst Haeckel for his contributions towards sponge taxonomy and phylogeny.\n[…]\nErnst Haeckel's popularization of palingenesis made an impact on politicians from both end of the spectrum—from Friedrich Engels's 1876 essay (Gould, 1977, p. 136) and Marxism to palingenetic ultranationalism.\n[…]\nHaeckel's Tale\n[…]\nErnst Haeckel – Evolution's controversial artist. A slide-show essay\n[…]\nErnst Haeckel Haus and Museum in Jena\n[…]\nSchmidt, H. (1934). Ernst Haeckel: Denkmal eines grossen Lebens (PDF) (in German). Jena: Walter Biedermann.\n[…]\nWorks by Ernst Haeckel at Project Gutenberg\n[…]\nWorks by or about Ernst Haeckel at the Internet Archive\n[…]\nWorks by Ernst Haeckel at LibriVox (public domain audiobooks)\n[…]\nNewspaper clippings about Ernst Haeckel in the 20th Century Press Archives of the ZBW\n[…]\nErnst Haeckel's Radiolarians and Medusa – article on Haeckel in Villefranche-sur-Mer"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homem_de_Java",
+        "situacao": "ok",
+        "texto": "Homem de Java (Homo erectus erectus, Javanese: Manungsa Jawa, indonésio: Manusia Jawa) foi o primeiro espécime de Homo erectus a ser descoberto. Fósseis desse hominídeo foram descobertos na ilha de Java (Indonésia) entre 1891 e 1892. Dirigida por Eugène Dubois, a equipe de escavação descobriu um dente, uma calota craniana e um fêmur em Trinil, nas margens do Rio Solo, em Java Oriental.\n[…]\nAlegando  que os fósseis representavam o \"elo perdido\" entre macacos e seres humanos, Dubois deu à espécie o nome científico Anthropopithecus erectus, depois renomeado para Pithecanthropus erectus.\n[…]\nAdemais, o fóssil é semelhante ao Sangiran 17 e muitos outros fósseis de Homo erectus que foram encontrados.\n[…]\nEventualmente, as semelhanças entre Pithecanthropus erectus (Homem de Java) e Sinanthropus pekinensis (Homem de Pequim) levaram Ernst Mayr a renomear como Homo erectus em 1950, colocando-os diretamente na árvore evolutiva humana. Posteriormente, para distinguir o Homem de Java de outras populações de Homo erectus, alguns cientistas começaram a considerá-lo como uma subespécie, o Homo erectus erectus, na década de 1970.\n[…]\nEm 1894, ele renomeou então Pithecanthropus erectus (\"homem-homem ereto\"), emprestando o nome do gênero Pithecanthropus de Ernst Haeckel, que o cunhou alguns anos antes para se referir a um suposto \"elo perdido\" entre macacos e humanos.\n[…]\nCom base no trabalho de Weidenreich e em sua sugestão de que Pithecanthropus erectus e Sinanthropus pekinensis estavam conectados através de uma série de populações entrecruzadas, o biólogo alemão Ernst Mayr reclassificou ambos como sendo parte da mesma espécie: Homo erectus . Mayr apresentou sua conclusão no Cold Spring Harbor Symposium em 1950 , e isso resultou em espécies de erectus de Dubois sendo reclassificadas sob o gênero Homo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Luzia",
+      "descricao": "Esqueleto humano pré-histórico de mulher, com cerca de 11 mil anos, achado na Lapa Vermelha, em Lagoa Santa, Minas Gerais."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O esqueleto de Luzia foi achado nos anos 1970 em Minas Gerais por uma missão franco-brasileira liderada por que arqueóloga francesa?",
+    "resposta": "Annette Laming-Emperaire",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Luzia_(fóssil)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Luzia_(fóssil)",
+        "situacao": "ok",
+        "texto": "Luzia é o fóssil humano mais antigo encontrado na América do Sul, com cerca de 12 500 a 13 000 anos que reacendeu questionamentos acerca das teorias da origem do homem americano. O fóssil pertenceu a uma mulher que morreu entre seus 20 a 24 anos de idade e foi considerado como parte da primeira população humana que entrou no continente americano.\n[…]\nFormalmente, o esqueleto se chama \"Lapa Vermelha IV Hominídeo 1\". \"Luzia\" é um apelido dado pelo biólogo Walter Alves Neves, do Instituto de Biociências da Universidade de São Paulo. Ele se inspirou em Lucy, o célebre fóssil de Australopithecus afarensis de 3,5 milhões de anos achado na Etiópia no ano de 1974.[carece de fontes]?\n[…]\nO esqueleto foi encontrado no início dos anos 1970, pela missão arqueológica franco-brasileira chefiada pela arqueóloga francesa Annette Laming-Emperaire (1917–1977), em escavações na Lapa Vermelha, uma gruta no município de Pedro Leopoldo (MG).\n[…]\nInicialmente, Emperaire, acreditava que havia na verdade dois esqueletos diferentes no local do sítio arqueológico: um mais recente, datado em 11 mil anos, e outro localizado um metro abaixo, datado em 12 mil anos, o qual seria da cultura Clóvis e ao qual pertenceria o crânio de Luzia.\n[…]\nEntretanto, análises posteriores pelo arqueólogo francês André Prous revelaram que ambos os restos encontrados pertenciam a um mesmo indivíduo, datado em 11 mil anos – como o crânio havia rolado para longe do resto do esqueleto, Emperaire fizera uma interpretação errônea dos achados.\n[…]\nO trabalho foi feito em conjunto pela USP, pela Universidade Harvard e pelo Instituto Max Planck, da Alemanha. Os cientistas estudaram nove ossadas humanas da região de Lagoa Santa, em Minas Gerais. Dos mesmos sítios arqueológicos de Luzia, a ossada de uma mulher que teria vivido há mais de 11 mil anos e é considerada a primeira brasileira."
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Australopithecus sediba",
+      "descricao": "Espécie de hominídeo de cerca de 2 milhões de anos descrita a partir de fósseis da caverna Malapa, na África do Sul."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 2008, o primeiro fóssil de Australopithecus sediba foi achado na África do Sul por um menino de nove anos. Ele era filho de que paleoantropólogo?",
+    "resposta": "Lee Berger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Australopithecus_sediba"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Australopithecus_sediba",
+        "situacao": "ok",
+        "texto": "Australopithecus sediba is an extinct species of australopithecine recovered from Malapa Cave, Cradle of Humankind, South Africa. It is known from a partial juvenile skeleton, the holotype MH1, and a partial adult female skeleton, the paratype MH2. They date to about 1.98 million years ago in the Early Pleistocene, and coexisted with Paranthropus robustus and Homo ergaster / Homo erectus.\n[…]\nThe first fossil find was a right clavicle, MH1 (UW88-1), in Malapa Cave, Cradle of Humankind, South Africa, discovered by 9-year-old Matthew Berger on 15 August 2008 while exploring the digsite headed by his father, South African palaeoanthropologist Lee Rogers Berger. Further excavation yielded a partial skeleton for MH1, additionally including a partial skull and jawbone fragments, as well as aspects of the arms, fingers, shoulders, ribcage, spine, pelvis, legs, and feet.\n[…]\nAlternatively, A. sediba could also represent a late-surviving morph or sister species of A. africanus unrelated to Homo, which would mean Homo-like traits evolved independently in A. sediba and Homo (homoplasy). The fossil record of early Homo is poorly known and based largely on fragmentary remains, making convincing anatomical comparisons difficult and sometimes unfeasible. A. africanus, A. afarensis, and A.\n[…]\nWilliams, S. A.; Meyer, M. R.; Nalla, S.; et al. (2018). \"The Vertebrae, Ribs, and Sternum of Australopithecus sediba\". PaleoAnthropology: 156–233. doi:10.4207/PA.2018.ART113 (inactive 11 July 2025).{{cite journal}}:  CS1 maint: DOI inactive as of July 2025 (link)\n[…]\nde Ruiter, D. J.; Churchill, S. E.; Berger, L. R. (2013). Reed, K. E.; Fleagle, J. G.; Leakey, R. E. (eds.). Australopithecus sediba from Malapa, South Africa. Vertebrate Paleobiology and Paleoanthropology. Springer Netherlands. pp. 147–160. doi:10.1007/978-94-007-5919-0_9. ISBN 978-94-007-5919-0. {{cite book}}: |work= ignored (help)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Australopithecus_sediba",
+        "situacao": "ok",
+        "texto": "Australopithecus sediba é uma espécie de hominídeo cujos restos conhecidos têm cerca de 1,977 milhão de anos de idade, com margem de erro de dois mil anos. A descrição da espécie foi baseada em dois esqueletos parciais encontrados em Malapa, na África do Sul; o holótipo consiste num macho jovem com cerca de 13 anos de idade, cujo espécime foi dado o nome de (MH-1), e o parátipo de uma fêmea adulta\n[…]\nOs primeiros vestígios ósseos de Australopithecus sediba apareceram em 2008, quando o filho do pesquisador Lee Berger encontrou uma clavícula. Posteriormente, Berger fez pós-doutorado para melhorar seus conhecimentos sobre clavículas e percebeu que se tratava de uma descoberta de importância para a paleoantropologia.\n[…]\nMais de 220 fragmentos da espécie foram descobertos até o momento. Os esqueletos parciais foram inicialmente descritos em dois artigos para a revista Science pelo paleoantropólogo americano e sul-africano Lee R. Berger da Universidade de Witwatersrand, em Joanesburgo, e colaboradores como uma nova espécie de australopiteco chamada \"Australopithecus sediba'\" (\"sediba\" significa \"fonte natural\" ou \"bem\" na linguagem Sotho).\n[…]\nO primeiro espécime de Australopithecus sediba foi encontrado por Matthew Berger, à época com 9 anos de idade, filho de Lee Berger, em 15 de agosto de 2008. Enquanto explorava as proximidades do sítio de escavação de seu pai em colinas dolomíticas perto de Joanesburgo, Matthew encontrou por acaso um osso fossilizado. O garoto alertou o pai do achado que não acreditou no que viu - a clavícula de um hominídeo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Mrs. Ples",
+      "descricao": "Crânio fóssil de Australopithecus africanus achado em 1947 nas cavernas de Sterkfontein, na África do Sul."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1947, nas cavernas de Sterkfontein, na África do Sul, que paleontólogo achou o crânio de hominídeo apelidado de Mrs. Ples?",
+    "resposta": "Robert Broom",
+    "distratores": [
+      "Raymond Dart",
+      "Louis Leakey",
+      "Eugène Dubois"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mrs._Ples"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mrs._Ples",
+        "situacao": "ok",
+        "texto": "Mrs. Ples is the popular nickname for the most complete skull of an Australopithecus africanus ever found in South Africa. Many Australopithecus fossils have been found near Sterkfontein, about 40 kilometres (25 mi) northwest of Johannesburg, in a region of Gauteng (part of the old Transvaal) now designated as the Cradle of Humankind World Heritage Site. Mrs. Ples was discovered by Robert Broom an\n[…]\nBecause of Broom's use of dynamite and pickaxe while excavating, Mrs. Ples's skull was blown into pieces and some fragments are missing. Nonetheless, Mrs./Mr. Ples is one of the most \"perfect\" pre-human skulls ever found. The skull is currently held at the Ditsong National Museum of Natural History in Pretoria.\n[…]\nThe nickname \"Mrs. Ples\" was coined by Broom's young co-workers. It derives from the scientific name Plesianthropus transvaalensis (near-man from the Transvaal), that Broom initially gave the skull, later subsumed (synonymized) into the species Australopithecus africanus. In scientific publications, the specimen is referred to by its catalogue number, STS 5.\n[…]\nThe paleoanthropologist Prof. Frederick E. Grine has studied the dental morphology of Mrs./Mr. Ples with a view to finally establishing Mrs./Ms. Ples's sex. Using the Computed Tomography (CT) scans of STS 5 from the experiments of Weber et al., (2012) they compared them to CT scans of more recently discovered A. africanus skulls from Sterkfontein. These scans allowed Grine to reconstruct the roots of the teeth, in order to see how the molar and canine teeth developed.\n[…]\nIn 2004, Mrs. Ples was voted 95th in the SABC 3's and e.tv's Great South Africans Top 100 list.\n[…]\nUNESCO - Fossil Hominid Sites of Sterkfontein, Swartkrans, Kromdraai, and Environs\n[…]\nMetadata of STS 5 on NESPOS"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mrs._Ples",
+        "situacao": "ok",
+        "texto": "Mrs. Ples é o nome popular do mais completo e mais antigo esqueleto da espécie Australopithecus africanus encontrado na África do Sul. Muitos fósseis dessa espécie, que é considerada o parente mais distante do homo sapiens foram localizados no sítio arqueológico de Sterkfontein, por isso é considerado como berço da humanidade e patrimônio mundial. Ples foi descoberta pelo Dr. Robert Broom e John T\n[…]\nO número catalogada para defnição é STS 5. Este esqueleto possuía uma idade estimada entre 2,6 e 2,8 milhões de anos, mas um novo estudo com um novo metodo de datação efetuado em 2022, dá uma estimativa de 3.4 à 3.7 milhões de anos, tornando-se assim mais antigo que lucy.\n[…]\nO apelido Mrs. Ples foi derivado da expressão científica Plesianthropus transvaalensis, inicialmente batizado pelo Dr. Broom.\n[…]\nO sexo do esqueleto, não esta 100% definido, então Mrs. Ples (Senhora Ples) pode de fato ser Mr. Ples (Senhor Ples). Após análises de raio-x das raízes dos dentes de Mrs. Ples sugeriu que trata-se de um adolescente, deixando portanto sombras para que seja denominada como Miss Ples ou Master Ples.\n[…]\n(em inglês) UNESCO - Fossil Hominid Sites of Sterkfontein, Swartkrans, Kromdraai, and Environs",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "O Macaco Nu",
+      "descricao": "Livro de 1967 do zoólogo Desmond Morris que analisa o comportamento humano como o de um primata."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que zoólogo inglês escreveu O Macaco Nu, best-seller de 1967 que analisa o comportamento humano como o de mais um primata?",
+    "resposta": "Desmond Morris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Naked_Ape"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Naked_Ape",
+        "situacao": "ok",
+        "texto": "The Naked Ape: A Zoologist's Study of the Human Animal is a 1967 book by English zoologist and ethologist Desmond Morris that looks at humans as a species and compares them to other animals. The Human Zoo, a follow-up book by Morris that examined the behaviour of people in cities, was published in 1969.\n[…]\nDesmond Morris, the author, who had been the curator of mammals at London Zoo, said his book was intended to popularise and demystify science.\n[…]\nMorris said that Homo sapiens not only have the largest brains of all higher primates, but that sexual selection in human evolution has caused humans to have the highest ratio of penis size to body mass. Morris conjectured that human ear-lobes developed as an additional erogenous zone to facilitate the extended sexuality necessary in the evolution of human monogamous pair bonding.\n[…]\nMorris further stated that the more rounded shape of human female breasts means they are mainly a sexual signalling device rather than simply for providing milk for infants.\n[…]\nThe Naked Ape: A Zoologist's Study of the Human Animal (hardback: ISBN 0070431744; reprint: ISBN 0385334303); Jonathan Cape Publishing, 1967\n[…]\nCorgi Books paperback editions, 1967, 1968, 1969\n[…]\nJohn Lewis, B. Towers, Naked Ape or Homo sapiens?: Reply to Desmond Morris. Teilhard Study Library, 1969; ISBN 0900391219\n[…]\nThe book is mentioned in the Italian entry for the 2017 Eurovision Song Contest \"Occidentali's Karma\" by Francesco Gabbani, in which most of the lyrics contain philosophical references. The lyricist had read The Naked Ape himself. Morris, \"fascinated by the culture, beauty and richness\" of the references to his theories, sent Gabbani a signed copy of the Italian translation of the book as a sign of gratitude and support for the latter.\n[…]\nThe Naked Ape 1973 at IMDb , and review"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Macaco_Nu",
+        "situacao": "ok",
+        "texto": "O Macaco Nu (no original, The Naked Ape) é o título de um livro de Desmond Morris publicado em 1967 que descreve a espécie humana através de uma perspectiva etologista, ou seja, como a que é geralmente adoptada à descrição do comportamento das outras espécies animais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Sapiens: Uma Breve História da Humanidade",
+      "descricao": "Livro de divulgação lançado em 2011 sobre a história da espécie humana, da Idade da Pedra aos dias de hoje."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que historiador israelense escreveu Sapiens, best-seller que conta a trajetória da nossa espécie desde a Idade da Pedra?",
+    "resposta": "Yuval Noah Harari",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind",
+        "situacao": "ok",
+        "texto": "Sapiens: A Brief History of Humankind (Hebrew: קיצור תולדות האנושות, Qitzur Toldot ha-Enoshut) is a 2011 book by the Israeli military historian Yuval Noah Harari, based on a series of lectures he gave at the Hebrew University of Jerusalem. It was first published in Hebrew in Israel in 2011, and in English in 2014. The book surveys the history of humankind, beginning in the Stone Age and ending in \n[…]\nHarari surveys the history of humankind from the Stone Age up to the 21st century, focusing on Homo sapiens. He divides the history of H. sapiens into four major parts:\n[…]\nIn discussing the unification of humankind, Harari argues that over its history, the trend for H. sapiens has increasingly been towards political and economic interdependence. For centuries, the majority of humans lived in empires, and capitalist globalization is effectively producing one, global empire. Harari argues that money, empires, and universal religions are the principal drivers of this process.\n[…]\nQuoting Harari's academic advisor Steven Gunn, \"Nobody's an expert on the meaning of everything, or the history of everybody, over a long period.\" In a 2022 article titled \"The Dangerous Populist Science of Yuval Noah Harari\" for Current Affairs, neuroscientist Darshana Narayanan expanded on The New Yorker's comments: \"I tried my hand at fact-checking Sapiens ...\n[…]\nIn 2020 the first volume of the graphic novel version of the book was published simultaneously in several languages, with the title Sapiens: A Graphic History, Volume 1: The Birth of Humankind. It is credited as coauthored by Harari and David Vandermeulen, with adaptation and illustrations by Daniel Casanave. The second volume Sapiens: A Graphic History, Volume 2: The Pillars of Civilization was published in October 2021.\n[…]\nYuval Harari interviewed by Alan Philps about his book, The World Today, September 2015, Volume 71, Number 5.\n[…]\nSapiens: Summary in Brief"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sapiens%3A_Uma_Breve_Hist%C3%B3ria_da_Humanidade",
+        "situacao": "ok",
+        "texto": "Sapiens: Uma Breve História da Humanidade  (em hebreu: קיצור תולדות האנושות‎, [Ḳitsur toldot ha-enoshut]) é um livro de Yuval Harari publicado primeiramente em 2014, embora tenha sido lançado originalmente em Israel em 2011, com o título Uma Breve História do Gênero Humano. Harari cita o livro Armas, Germes e Aço, do autor Jared Diamond como uma das maiores inspirações para o livro, mostrando que \n[…]\nO livro aborda a História da Humanidade desde a evolução arcaica da espécie humana na idade da pedra, até o século XXI. Seu principal argumento é que o Homo sapiens domina o mundo porque é o único animal capaz de cooperar de forma flexível em largo número e o faz por ser a única espécie capaz de acreditar em coisas que não existem na natureza e são produtos puramente de sua imaginação, tais como deuses, nações, dinheiro e direitos humanos.\n[…]\nHarari designa por união da humanidade o processo pelo qual culturas individuais absorvem outras culturas, total ou parcialmente. Harari também vê aí uma revolução. As bases desse processo são, conforme suas palavras, a ordem do dinheiro, a dos impérios e a das grandes religiões. O dinheiro tornou a troca muito mais eficiente, opondo-a ao escambo; ele facilitou o armazenamento de riquezas e possibilitou o transporte de valores materiais.\n[…]\nHarari designa o dinheiro como um produto da fantasia: «A confiança é a matéria-prima com a qual as moedas são cunhadas.» Impérios unificaram diferentes civilizações e criam, assim, uma cultura dominante, a qual continua a se desenvolver, mesmo após o ocaso do império. A religião foi a terceira grande força que contribuiu para a união da humanidade; ela trata da ordem sobre-humana e lhe dá um fundamento estável na forma de normas e valores unitários.\n[…]\nSapiens: História Breve da Humanidade, tradução de Rita Carvalho e Guerra. Elsinore, 1a. edição, novembro de 2013. ISBN 978-989-8864-08-6",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Sobrevivência do mais apto",
+      "descricao": "Expressão criada no século dezenove para resumir a ideia de seleção natural."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A expressão sobrevivência do mais apto, que Darwin adotou em edições posteriores de A Origem das Espécies, foi criada por que pensador inglês?",
+    "resposta": "Herbert Spencer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Survival_of_the_fittest"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Survival_of_the_fittest",
+        "situacao": "ok",
+        "texto": "\"Survival of the fittest\" is a phrase that originated from Darwinian evolutionary theory as a way of describing the mechanism of natural selection. The biological concept of fitness is defined as reproductive success. In Darwinian terms, the phrase is best understood as \"survival of the form that in successive generations will leave most copies of itself.\"\n[…]\nHerbert Spencer first used the phrase, after reading Charles Darwin's On the Origin of Species, in his Principles of Biology (1864), in which he drew parallels between his own economic theories and Darwin's biological ones: \"This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called 'natural selection', or the preservation of favoured races in the struggle for life.\"\n[…]\nBy his own account, Herbert Spencer described a concept similar to \"survival of the fittest\" in his 1852 \"A Theory of Population\". He first used the phrase – after reading Charles Darwin's 1859 book On the Origin of Species – in his Principles of Biology of 1864 in which he drew parallels between his economic theories and Darwin's biological, evolutionary ones, writing, \"This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr.\n[…]\nDarwin wrote on page six of The Variation of Animals and Plants Under Domestication published in 1868, \"This preservation, during the battle for life, of varieties which possess any advantage in structure, constitution, or instinct, I have called Natural Selection; and Mr. Herbert Spencer has well expressed the same idea by the Survival of the Fittest.\n[…]\nThough Spencer's conception of organic evolution is commonly interpreted as a form of Lamarckism, Herbert Spencer is sometimes credited with inaugurating Social Darwinism.\n[…]\nCA002: Survival of the fittest implies that \"might makes right\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sobreviv%C3%AAncia_do_mais_apto",
+        "situacao": "ok",
+        "texto": "Sobrevivência do mais apto é uma frase que resume um conceito relativo à competição pela sobrevivência ou predominância. Originalmente aplicada por Herbert Spencer no seu livro Principles of Biology (Princípios da Biologia) de 1864, Spencer traçou paralelos entre as suas ideias de economia com as teorias de Charles Darwin sobre evolução por aquilo que Darwin chamava de seleção natural.\n[…]\nEmbora Darwin tenha usado a frase \"sobrevivência do mais apto\" como sinónimo de \"seleção natural\", os biólogos atuais preferem a última expressão. A frase é uma metáfora, e não uma descrição científica.\n[…]\nSão muito obscuras as causas que impedem à multiplicação natural das espécies. Darwin, em seu livro “A Origem das Espécies”, descreve alguns pontos importantes que podem ser considerados como barreiras à restrição da multiplicação dos indivíduos e determinar a sobrevivência do mais apto:\n[…]\nDarwin, em suas observações durante a viagem no Beagle, percebeu que as espécies diminuem nas regiões setentrionais e, consequentemente, os seus concorrentes. Isto se deve diretamente pela ação do clima. Nestas regiões, somente as espécies mais aptas podem sobreviver a essas condições, o que são bem restritas.\n[…]\nApós ressaltarmos sobre a luta pela sobrevivência dos seres vivos, podemos fazer a mesma pergunta que Darwin levantou: Qual é a influência que esta luta pela sobrevivência possui sobre a transformação?\n[…]\nUm último ponto em que podemos levantar não é a disputa entre indivíduos de espécies diferentes, mas sim entre indivíduos de um mesmo sexo, principalmente machos, os quais asseguram a posse do sexo oposto. Este é um tipo de mecanismo promovido nas espécies que Darwin denominou de seleção sexual. Em geral, esta seleção é menos rigorosa que a seleção natural, pois não requer a morte do outro concorrente, mas favorece os machos que conseguem deixar mais descendentes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Homo heidelbergensis",
+      "descricao": "Espécie humana extinta descrita a partir de uma mandíbula achada em 1907 em Mauer, na Alemanha."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Uma mandíbula achada em 1907 na vila de Mauer, na Alemanha, deu origem a uma espécie humana extinta. Ela leva o nome de que cidade vizinha?",
+    "resposta": "Heidelberg",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mauer_1",
+      "https://en.wikipedia.org/wiki/Homo_heidelbergensis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mauer_1",
+        "situacao": "ok",
+        "texto": "The Mauer 1 mandible is the oldest-known specimen of the genus Homo in Germany. It was found in 1907 in a sand quarry in the community of Mauer, around 10 km (6.2 mi) south-east of Heidelberg. The Mauer 1 mandible is the type specimen of the species Homo heidelbergensis. Some European researchers have classified the find as Homo erectus heidelbergensis, regarding it as a subspecies of Homo erectus\n[…]\nThe contractor at the sand mine immediately reported the discovery to Schoetensack, who examined and documented the site and the fossil. He presented the results of his studies in autumn the following year in a monograph titled: \"The lower jaw of Homo heidelbergensis from the sands of Mauer near Heidelberg\". On November 19, 1907, Schoetensack stated in a legal document that mine contractor Josef Rösch had given the specimen to the Heidelberg University as a gift.\n[…]\nReluctantly he wrote in his study that \"it seems possible that Homo heidelbergensis belongs in the ancestral series of the European man\" and—after meticulous and detailed comparison with other European fossils he stated equally vaguely: \"We must therefore denote the mandible of Homo heidelbergensis as pre-neandertaloid.\" The classification of the lower jaw of Mauer in the time before the Neanderthals proved to be accurate.\n[…]\nSchoetensack—like many of his colleagues around the beginning of the 20th century—was wrong with his assessment of kinship proximity of the lower jaw of Mauer with the apes (hominids): \"The mandible of Homo heidelbergensis reveals the original state that defines mankind's and the ape's common ancestor.\" In 1924, the hitherto oldest fossil of the big pool of hominid variants—the Taung Child was discovered in what is now South Africa.\n[…]\nThe Mauer mandible is the type specimen of the species Homo heidelbergensis.\n[…]\nMedia related to Mauer 1 at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Homo_heidelbergensis",
+        "situacao": "ok",
+        "texto": "Homo heidelbergensis () is a controversial and somewhat poorly defined species of archaic human from the Middle Pleistocene of Europe and Africa, as well as potentially Asia depending on the taxonomic convention used. The species-level classification of Homo during the Middle Pleistocene is controversial, called the \"muddle in the middle\", owing to the wide anatomical range of variation that popul\n[…]\nOn 21 October 1907, miners recovered a large human mandible (lower jaw) about 24.1 m (79 ft) down the Grafenrain sand pit near the village of Mauer — 10 km (6.2 mi) southeast of Heidelberg. German geologists Ernst Wilhelm Benecke and Adolf Sauer had earlier characterised the site as diluvial deposits dating to the Tertiary. Mauer 1 was the oldest European human fossil at the time.\n[…]\nheidelbergensis to encompass Middle Pleistocene specimens all across the Old World, including the Chinese Dali Man and Jinniushan — characterising H. heidelbergensis as an extremely polytypic species and the last common ancestor of modern humans and Neanderthals. They used the 400,000 year old Italian Ceprano Man skull as the \"counterpart\" of the Mauer 1 mandible to better diagnose the species.\n[…]\nA subsequent version of this analysis found a different topology, with Homo heidelbergensis as a monophyletic group:\n[…]\nWhen Schoetensack described H. heidelbergensis in 1908 with the jaw Mauer 1, he distinguished it from any other human jaw known at the time by its thickened mandibular body, anteroposteriorly (front to back) widened ramus (where the jaw goes up to connect with the skull), and the lack of a chin. Kabwe 1, Petralona 1, Bodo, and Arago are normally presented altogether as representatives of H. heidelbergensis. The former three lack any jawbone material, but the Arago jawbones share with Mauer 1:\n[…]\nHomo heidelbergensis – The Smithsonian Institution's Human Origins Program"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Indústria acheulense",
+      "descricao": "Tradição pré-histórica de ferramentas de pedra marcada por grandes machados de mão bifaciais, ligada ao Homo erectus."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os machados de pedra em forma de gota típicos do Homo erectus formam a indústria acheulense. O nome vem de um bairro de que cidade francesa?",
+    "resposta": "Amiens",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acheulean"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Acheulean",
+        "situacao": "ok",
+        "texto": "Acheulean (; also Acheulian and Mode II), from the French acheuléen after the type site of Saint-Acheul, is an archaeological industry of stone tool manufacture characterized by the distinctive oval and pear-shaped \"hand axes\" associated with Homo erectus and derived species such as Homo heidelbergensis.\n[…]\nAcheulean tools were produced during the Lower Palaeolithic era across Africa and much of West Asia, South Asia, East Asia and Europe, and are typically found with Homo erectus remains. It is thought that Acheulean technologies first developed about 2 million years ago, derived from the more primitive Oldowan technology associated with Homo habilis.\n[…]\nThe type site for the Acheulean is Saint-Acheul, a suburb of Amiens, the capital of the Somme department in Picardy, where artifacts were found in 1859.\n[…]\nThe earliest user of Acheulean tools may have been Homo ergaster, who first appeared about 1.8 million years ago (not all researchers use this formal name, and instead prefer to call these users early Homo erectus). However, it is impossible to know for sure whether Homo ergaster was the only maker of early Acheulean tools, since other hominin species, such as Homo habilis, also lived in East Africa at this time.\n[…]\nMost notably, however, it is Homo ergaster (sometimes called early Homo erectus), whose assemblages are almost exclusively Acheulean, who used the technique. Later, the related species Homo heidelbergensis (the common ancestor of both Neanderthals and Homo sapiens) used it extensively.\n[…]\nLate Acheulean tools were still used by species derived from H. erectus, including  Homo sapiens idaltu  and early Neanderthals.\n[…]\nMedia related to Acheulean at Wikimedia Commons\n[…]\nThe dictionary definition of Acheulean at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cultura_acheuliana",
+        "situacao": "ok",
+        "texto": "Acheuliana, Acheliana, Acheulense ou Achelense (de Saint-Acheul, Amiens, França), ou ainda Indústria de Modo 2, é uma indústria lítica situada na época do segundo interglacial caracterizada pelos distintos bifaces ovais e em formato de pera associados ao Homo erectus e espécies derivadas, tais como Homo heidelbergensis. Os bifaces acheulenses são caracterizados por ter um perfil muito regular.\n[…]\nO sítio epônimo para o Acheulense é Saint-Acheul, um subúrbio de Amiens, a capital do departamento de Somme, na Picardia, França, onde artefatos foram encontrados em 1859.\n[…]\nOs fabricantes de ferramentas acheulenses de Modo 2 também usaram o método de ferramentas de lascas de Modo 1, mas o complementaram usando ossos, chifres ou madeira para moldar ferramentas de pedra. Este tipo de percussão, em comparação com a pedra, proporciona mais controle sobre a forma da ferramenta acabada. Ao contrário das indústrias anteriores de Modo 1, era o núcleo que era prezado sobre as lascas que vinham dele.\n[…]\nA maior variedade de tipos de ferramentas em comparação com as indústrias anteriores e sua forma estética e funcional agradável poderia indicar um nível intelectual mais alto nos usuários de ferramentas acheulenses do que em hominínios anteriores. Outros argumentam que não há correlação entre habilidades espaciais na fabricação de ferramentas e comportamento linguístico, e que a linguagem não é aprendida ou concebida da mesma forma que a fabricação de artefatos.\n[…]\nApenas poucas evidências de artefatos sobrevivem dos usuários de ferramentas acheulenses que não as próprias ferramentas de pedra. As cavernas foram exploradas para habitação, mas os caçadores-coletores do Paleolítico também possivelmente construíram abrigos como os identificados em conexão com as ferramentas acheulenses em Grotte du Lazaret e Terra Amata, perto de Nice, na França.\n[…]\nIdade da Pedra\n[…]\nFerramenta de pedra",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Homo habilis",
+      "descricao": "Espécie humana extinta da África Oriental, descrita em 1964 a partir de fósseis da Garganta de Olduvai."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Homo habilis, descrito em 1964, ganhou o nome de homem habilidoso porque seus fósseis foram achados junto a quê?",
+    "resposta": "Ferramentas de pedra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Homo_habilis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Homo_habilis",
+        "situacao": "ok",
+        "texto": "Homo habilis (lit. 'handy man') is an extinct species of archaic human from the Early Pleistocene of East and South Africa about 2.4 million years ago to 1.65 million years ago (mya). It is among the oldest species of archaic humans. Suggestions for pushing back the age to 2.8 Mya were made in 2015 based on the discovery of a jawbone. Upon species description in 1964, H.\n[…]\nAfter description, it was hotly debated if H. habilis should be reclassified into Australopithecus africanus (the only other early hominin known at the time), in part because the remains were so old and at the time Homo was presumed to have evolved in Asia (with the australopithecines having no living descendants). Also, the brain size was smaller than what Wilfrid Le Gros Clark proposed in 1955 when considering Homo. The classification H.\n[…]\nhabilis could indicate early Homo were still arboreal to a degree. Also, organised hunting and gathering is thought to have emerged in H. ergaster. Nonetheless, the proposed food-gathering models to explain large brain growth necessitate increased daily travel distance. It has also been argued that H. habilis instead had long, modern humanlike legs and was fully capable of effective long distance travel, while still remaining at least partially arboreal.\n[…]\nLarge incisor size in H. habilis compared to Australopithecus predecessors implies this species relied on incisors more. The bodies of the mandibles of H. habilis and other early Homo are thicker than those of modern humans and all living apes, more comparable to Australopithecus. The mandibular body resists torsion from the bite force or chewing, meaning their jaws could produce unusually powerful stresses while eating. The greater molar cusp relief in H.\n[…]\nReconstructions of H. habilis by John Gurche\n[…]\nHomo habilis – The Smithsonian Institution's Human Origins Program"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homo_habilis",
+        "situacao": "ok",
+        "texto": "Homo habilis é uma espécie de hominídeo que viveu no princípio do Pleistoceno inferior (há 2,2 milhões a 780 mil anos). Os primeiros fósseis de H. habilis foram descobertos em 1964 por Louis Leakey e seus colegas, no desfiladeiro de Olduvai, Tanzânia, que faz parte do Grande Vale do Rift, na África oriental.\n[…]\nPoucos fósseis de H. habilis foram encontrados, o que dificulta descrever detalhes precisos da espécie. Porém estes fósseis foram encontrados associados a ferramentas de pedra lascada e por isso essa espécie foi chamada de Homo habilis - homem fabril (ou homem com capacidade de fabricar). Entretanto, hoje sabe-se que essas ferramentas já eram utilizadas anteriormente por outras espécies de hominínios. Além disso, o H. habilis apesar de bípede, apresentava uma bipedia facultativa.\n[…]\nEntretanto, alguns fosseis de Australopithecus garhi, que datam de há aproximadamente 2,6 milhões de anos, foram encontrados ao lado de ferramentas de pedra que seriam entre 100,000 a 200,000 anos mais antigas que os H. habilis. O H. habilis normalmente faziam suas ferramentas de ossos, madeira, e principalmente de pedra lascada.\n[…]\nSeguindo a recomendação do antropólogo Raymond Dart, escolheram o termo \"habilis\" para a espécie, que em latim significa \"capaz, habilidoso, mentalmente hábil, vigoroso\". Isso porque os ossos das mãos encontrados sugeriram uma habilidade de manusear objetos com precisão, além do fato de terem sido encontradas ferramentas simples feitas de pedra junto aos fósseis.\n[…]\nerectus e dos humanos posteriores, foram usadas como justificativa para designar a nova descoberta como Homo – somadas, claro, ao fato de ferramentas de pedra simples terem sido encontradas junto com os fósseis.\n[…]\nLista de fósseis da evolução humana\n[…]\n«Fósseis revelam que Homo erectus e o Homo habilis coabitaram»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Australopithecus",
+      "descricao": "Gênero de hominídeos africanos extintos que viveram há cerca de 4 a 2 milhões de anos, como Lucy."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Australopithecus, dado a vários hominídeos africanos como Lucy, significa macaco de onde?",
+    "resposta": "Do sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Australopithecus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Australopithecus",
+        "situacao": "ok",
+        "texto": "Australopithecus (, OS-trə-lə-PITH-i-kəs, -⁠loh-; or , os-TRA-lə-pi-THEE-kəs, from Latin  australis 'southern' and Ancient Greek  πίθηκος (píthēkos) 'ape') is an extinct genus of early hominins that existed in Africa during the Pliocene and Early Pleistocene. The genera Homo (which includes modern humans), Paranthropus, and Kenyanthropus evolved from some Australopithecus species.\n[…]\nAustralopiths shared several traits with modern apes and humans, and were widespread throughout Eastern and Northern Africa by 3.5 million years ago (mya). The earliest evidence of fundamentally bipedal hominins is a (3.6 mya) fossil trackway in Laetoli, Tanzania, which bears a remarkable similarity to those of modern humans. The footprints have generally been classified as australopith, as they are the only form of prehuman hominins known to have existed in that region at that time.\n[…]\nAustralopithecus species are thought to have eaten mainly fruit, vegetables, and tubers, and perhaps easy-to-catch animals such as small lizards. Much research has focused on a comparison between the South African species A. africanus and Paranthropus robustus. Early analyses of dental microwear in these two species showed, compared to P. robustus, A. africanus had fewer microwear features and more scratches as opposed to pits on its molar wear facets. Microwear patterns on the cheek teeth of A.\n[…]\nIn 1992, trace-element studies of the strontium/calcium ratios in robust australopith fossils suggested the possibility of animal consumption, as they did in 1994 using stable carbon isotopic analysis. In 2005, fossil animal bones with butchery marks dating to 2.6 million years old were found at the site of Gona, Ethiopia. This implies meat consumption by at least one of three species of hominins occurring around that time: A. africanus, A. garhi, and/or P. aethiopicus."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Australopithecus",
+        "situacao": "ok",
+        "texto": "Australopithecus ([ˌɒstrələˈpɪθᵻkəs], OS-trə-lə-PITH-i-kəs; do Latim Australis, 'do sul', e do Grego πίθηκος (transl. pithekos), 'macaco')) é um género de hominídeos primitivos que existiram na África durante o Plioceno e o Pleistoceno Inferior. Os generos Homo (que inclui os humanos modernos), Paranthropus, e Kenyanthropus evoluíram a partir de algumas espécies de Australopithecus.\n[…]\nUtilizando esse método, descobriu-se que os primeiros hominídeos, como Australopithecus, Paranthropus e os primeiros Homo, consumiam quantidades variáveis de alimentos C4, mas que essas quantidades eram, no geral, maiores do que as ingeridas por chimpanzés modernos, os quais consomem significativamente mais plantas C3 do que C4, mesmo quando estas estavam presentes em abundância.\n[…]\nIsso indica que nesse quesito, provavelmente, esses hominídeos exploravam o ambiente de maneiras diferentes em comparação aos grandes símios viventes.\n[…]\nAo pensar em uso de ferramentas por hominíneos, é muito comum pensar em pedra lascada, porém existe uma série de outros materiais que podem ser utilizados como ferramentas. Como exemplos atuais, os macacos-prego utilizam pedras não lascadas para quebrar cocos e nozes, e os chimpanzés e orangotangos utilizam gravetos para retirar insetos de dentro do ninho.\n[…]\nAlgumas espécies de Australopithecus têm sido recentemente creditadas como responsáveis pela confecção de ferramentas líticas, especialmente as mais antigas. O registro mais antigo de uso de ferramentas ocorreu em Dikika, Etiópia, onde foram encontrados ossos de ungulados, datando cerca de 3,4 milhões de anos, que foram considerados evidência para o uso de ferramentas por A. afarensis, a única espécie de hominíneo que viveu no local nesse período.\n[…]\n«Michigan State University Steven Heslip's Hominid pages» (em inglês)\n[…]\nFóssil de \"filha\" da australopiteco Lucy é achado na Etiópia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Selam",
+      "descricao": "Esqueleto fóssil de uma criança de Australopithecus afarensis, com cerca de 3,3 milhões de anos, achado em Dikika, na Etiópia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Selam, esqueleto de uma criança da mesma espécie de Lucy achado na Etiópia, tem um nome que significa o quê em amárico?",
+    "resposta": "Paz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Selam_(Australopithecus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Selam_(Australopithecus)",
+        "situacao": "ok",
+        "texto": "Selam (DIK-1/1) is the fossilized skull and other skeletal remains of a three-year-old Australopithecus afarensis female hominin, whose bones were first found in Dikika, in the Afar Region of northeastern Ethiopia in 2000 and recovered over the following years. Although she has often been nicknamed Lucy's baby, the specimen has been dated at 3.3 million years ago, approximately 100,000 years older\n[…]\nThe word \"Selam\" means \"peace\" in Amharic.\n[…]\nThe fossils were discovered by Zeresenay Alemseged, and are remarkable for their age and condition. On 20 September 2006, the journal Nature presented the findings of a dig in Dikika, Ethiopia, a few miles south of Hadar, the well-known site where the fossil hominin known as Lucy was found. The recovered skeleton comprises almost the entire skull and torso and many parts of the limbs.\n[…]\n\"Lucy's Baby\" has officially been named \"Selam\" (ሰላም, meaning \"peace\"). The name was published at the announcement of the discovery at the National Museum of Ethiopia in Addis Ababa. As part of Ethiopia's Millennium celebration a commemorative gold coin was minted and given to visiting government officials during the celebration year.\n[…]\nA lifelike image of Selam was published on the cover of the November 2006 issue of National Geographic.\n[…]\nIn August 2025, Selam, along with Lucy, was transported to the Czech Republic for a two-month exhibition at the Czech National Museum in Prague.\n[…]\nMany paleoanthropologists propose that the Homo line derives from A. africanus; in this view it might be better to place Selam in the A. africanus line, since it has more human traits than most A. afarensis (see Homininae).\n[…]\nBBC News: \"Lucy's Baby\" Found in Ethiopia\n[…]\nCosmos Magazine: 'Lucy's baby' rattles human evolution\n[…]\n[1], Smithsonian Institution's Human Origins program"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Josiah Wedgwood",
+      "descricao": "Ceramista inglês do século dezoito, fundador da fábrica de porcelanas Wedgwood."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que parentesco ligava Charles Darwin a Josiah Wedgwood, fundador da famosa fábrica inglesa de porcelanas?",
+    "resposta": "Era seu avô materno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Josiah_Wedgwood",
+      "https://en.wikipedia.org/wiki/Charles_Darwin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Josiah_Wedgwood",
+        "situacao": "ok",
+        "texto": "Josiah Wedgwood (12 July 1730 – 3 January 1795) was an English potter, entrepreneur and abolitionist. Founding the Wedgwood company in 1759, he developed improved pottery bodies by systematic experimentation, and was the leader in the industrialisation of the manufacture of European pottery.\n[…]\nWedgwood was a member of the Darwin–Wedgwood family, and he was the grandfather of Charles and Emma Darwin.\n[…]\nSusannah Wedgwood (3 January 1765 – 1817), known to the family as \"Sukey\", married Robert Darwin and became the mother of the English naturalist Charles Darwin. Charles married Emma Wedgwood, his first cousin.\n[…]\nJosiah Wedgwood II (1769–1843) (father of Emma Wedgwood Darwin, first cousin to and wife of Charles Darwin)\n[…]\nNot long after the new works opened, continuing trouble with his smallpox-afflicted knee made necessary the amputation of his right leg. In 1780, his long-time business partner Thomas Bentley died, and Wedgwood turned to Darwin for help in running the business. As a result of the close association that grew up between the Wedgwood and Darwin families, Josiah's eldest daughter would later marry Erasmus' son.\n[…]\nMcKendrick, Neil. \"Josiah Wedgwood and Factory Discipline.\" Historical Journal 4.1 (1961): 30–55. online\n[…]\nMcKendrick, Neil. \"Josiah Wedgwood and cost accounting in the Industrial Revolution.\" Economic History Review 23.1 (1970): 45–67. online\n[…]\nMcKendrick, Neil. \"Josiah Wedgwood: an eighteenth-century entrepreneur in salesmanship and marketing techniques.\" Economic History Review 12.3 (1960): 408–433. online\n[…]\nReilly, Robin, Josiah Wedgwood 1730–1795 (1992), scholarly biography\n[…]\nWedgwood, Julia, and Charles Harold Herford. The Personal Life of Josiah Wedgwood, the Potter (1915) online\n[…]\nJosiah Wedgwood Correspondence (transcripts), John Rylands Library, Manchester."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin ( DAR-win; 12 February 1809 – 19 April 1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental scientific concept.\n[…]\nCharles Robert Darwin was born on 12 February 1809 at his family's home, The Mount, in Shrewsbury, Shropshire. He was the fifth of six children of wealthy society doctor and financier Robert Darwin and Susannah Darwin (née Wedgwood). His grandfathers Erasmus Darwin and Josiah Wedgwood were both prominent abolitionists.\n[…]\nRobert Darwin objected to his son's planned two-year voyage, regarding it as a waste of time, but was persuaded by his brother-in-law, Josiah Wedgwood II, to agree to (and fund) his son's participation. Darwin took care to remain in a private capacity to retain control over his collection, intending it for a major scientific institution.\n[…]\nThe Darwins had ten children: two died in infancy, and Annie's death at the age of ten had a devastating effect on her parents. Charles was a devoted father and uncommonly attentive to his children. Whenever they fell ill, he feared that they might have inherited weaknesses from inbreeding due to the close family ties he shared with his wife and cousin, Emma Wedgwood. He examined inbreeding in his writings, contrasting it with the advantages of outcrossing in many species.\n[…]\nDarwin's views on social and political issues reflected his time and social position. He grew up in a family of Whig reformers who, like his uncle Josiah Wedgwood, supported electoral reform and the emancipation of slaves. Darwin was passionately opposed to slavery.\n[…]\nDarwin Manuscript Project\n[…]\nScientific American, 29 April 1882, pp. 256, Obituary of Charles Darwin"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Josiah_Wedgwood",
+        "situacao": "ok",
+        "texto": "Josiah Wedgwood (Burslem, 12 de julho de 1730 – 3 de janeiro de 1795) foi um ceramista, empresário e abolicionista inglês.\n[…]\nFundando a empresa Wedgwood em 1759, ele desenvolveu corpos de cerâmica aprimorados por meio de experimentação sistemática e foi o líder na industrialização da fabricação de cerâmica europeia.\n[…]\nA empresa de Wedgwood nunca fez porcelana durante a sua vida, mas especializado em finas louça de barro e grés que tinham muitas das mesmas qualidades, mas foram consideravelmente mais baratas. Ele fez um grande esforço para manter os designs de seus produtos em sintonia com a moda atual. Ele foi um dos primeiros a adotar a impressão por transferência, que deu efeitos semelhantes à pintura à mão por um custo muito mais baixo.\n[…]\nAtendendo às demandas da revolução do consumidor que ajudou a impulsionar a Revolução Industrial na Grã-Bretanha, Wedgwood é considerado um pioneiro do marketing moderno. Ele foi o pioneiro da mala direta, garantias de devolução do dinheiro, autoatendimento, entrega gratuita, compre um leve outro e catálogos ilustrados.Um proeminente abolicionista que lutou contra a escravidão, Wedgwood também é lembrado por seu livro Am I Not a Man And a Brother? medalhão anti-escravidão.\n[…]\nEle era um membro da família Darwin-Wedgwood e era o avô de Charles e Emma Darwin.\n[…]\nEle foi um membro ativo da Sociedade Lunar de Birmingham, frequentemente realizada na Casa Erasmus Darwin.\n[…]\nWedgwood website\n[…]\nWedgwood collection - Lady Lever Art Gallery\n[…]\nWedgwood Museum\n[…]\nThe Story of Wedgwood\n[…]\nJosiah Wedgwood Correspondence (transcripts), John Rylands Library, Manchester.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Francis Galton",
+      "descricao": "Cientista inglês do século dezenove, criador do termo eugenia e pioneiro da estatística."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que ligava Charles Darwin a Francis Galton, o cientista inglês que criou o termo eugenia?",
+    "resposta": "Eram primos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francis_Galton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Francis_Galton",
+        "situacao": "ok",
+        "texto": "Sir Francis Galton (; 16 February 1822 – 17 January 1911) was an English polymath and the originator of eugenics during the Victorian era; his ideas later became the basis of behavioural genetics.\n[…]\nA nervous breakdown frustrated Galton's plan to try for honours. He elected instead to take a \"poll\" (pass) B.A. degree, like his half-cousin Charles Darwin. (Following the Cambridge custom, he was awarded an M.A. without further study, in 1847.) He briefly resumed his medical studies but the death of his father in 1844 left him emotionally destitute, though financially independent, and he terminated his medical studies entirely, turning to foreign travel, sport and technical invention.\n[…]\nThe publication by his cousin Charles Darwin of The Origin of Species in 1859 changed Galton's life. He came to be gripped by the work, especially the first chapter on \"Variation under Domestication\", concerning animal breeding.\n[…]\nGalton conducted wide-ranging inquiries into heredity which led him to challenge Charles Darwin's hypothesis of pangenesis. Darwin had proposed as part of this model that certain particles, which he called \"gemmules\" moved throughout the body and were also responsible for the inheritance of acquired characteristics. Galton, in consultation with Darwin, set out to see if they were transported in the blood.\n[…]\nGalton was introduced to the field by his half-cousin Charles Darwin, who was a friend of Faulds, and he went on to create the first scientific footing for the study (which assisted its acceptance by the courts) although Galton did not ever give credit that the original idea was not his.\n[…]\nEugenics\n[…]\nWorks by Francis Galton at Project Gutenberg\n[…]\n\"Biography of Francis Galton\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Francis_Galton",
+        "situacao": "ok",
+        "texto": "Francis Galton  (16 de fevereiro de 1822 – 17 de janeiro de 1911) foi um polímata inglês e o originador da eugenia durante a Era Vitoriana; suas ideias posteriormente tornaram-se a base da genética do comportamento.\n[…]\nIniciou a meteorologia científica, criando o primeiro mapa meteorológico, propôs a teoria de anticiclones e foi o primeiro a estabelecer um registro completo de fenômenos climáticos de curto prazo em escala europeia. Também inventou o assobio de Galton (Dog whistle), empregado para testar variações de acuidade auditiva. Foi agraciado com o título de cavaleiro em 1909 por suas contribuições à ciência. Era meio-primo de Charles Darwin.\n[…]\nA publicação de seu meio-primo Charles Darwin, A Origem das Espécies, em 1859, transformou a vida de Galton. Ele se interessou profundamente, em especial pelo primeiro capítulo, “Variação em Estado Doméstico”, sobre criação de animais.\n[…]\nA identificação de criminosos por impressões digitais foi introduzida na década de 1860 por William James Herschel na Índia, e sua aplicação forense foi proposta primeiro por Henry Faulds em 1880. Galton, estimulado por Darwin (que era amigo de Faulds), deu sustentação científica à técnica (ajudando-a a ser aceita nos tribunais), mas não atribuiu crédito aos pioneiros.\n[…]\nEm junho de 2020, a UCL anunciou que renomearia um teatro batizado em sua honra, devido à ligação de Galton com a eugenia.\n[…]\nObras de Francis Galton (em inglês) no Projeto Gutenberg\n[…]\nObras de ou sobre Francis Galton no Internet Archive\n[…]\nObras de Francis Galton (em inglês) no LibriVox (livros falados em domínio público)\n[…]\nO'Connor, John J.; Robertson, Edmund F., «Francis Galton», MacTutor History of Mathematics archive (em inglês), Universidade de St. Andrews",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Thomas Henry Huxley",
+      "descricao": "Biólogo inglês do século dezenove, grande defensor público da teoria da evolução de Darwin."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+    "resposta": "Era seu avô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aldous_Huxley",
+      "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
+        "situacao": "ok",
+        "texto": "Aldous Leonard Huxley (  AWL-dəs; 26 July 1894 – 22 November 1963) was an English writer and philosopher. His bibliography spans nearly 50 books, including non-fiction works, as well as essays, narratives and poems.\n[…]\nAldous was the grandson of Thomas Henry Huxley, the zoologist, agnostic and controversialist who had often been called \"Darwin's Bulldog\". His brother Julian Huxley and half-brother Andrew Huxley also became outstanding biologists. Aldous had another brother, Noel Trevenen Huxley (1889–1914), who took his own life after a period of clinical depression.\n[…]\nFor much of his life Huxley described himself as agnostic, a word coined by his grandfather Thomas Henry Huxley, a scientist who championed the scientific method and was a major supporter of Darwin's theories.\n[…]\nAldous Huxley full interview 1958: The Problems of Survival and Freedom in America\n[…]\n\"Aldous Huxley: The Gravity of Light\", a film essay by Oliver Hockenhull\n[…]\nCentre for Huxley Research at the University of Münster\n[…]\nAldous Huxley Papers[link removed] at University of California, Los Angeles Library Special Collections\n[…]\nAldous Huxley Collection at the Harry Ransom Center, University of Texas at Austin\n[…]\nAldous Huxley Centre Zurich - World's largest exhibition of Huxley's works.\n[…]\n\"Synopsis\". Official Site of Huxley on Huxley. 2010. Archived from the original on 8 November 2014.\n[…]\nWorks by Aldous Huxley in eBook form at Standard Ebooks\n[…]\nWorks by Aldous Huxley at Project Gutenberg\n[…]\nWorks by Aldous Huxley at Open Library\n[…]\nWorks by or about Aldous Huxley at the Internet Archive\n[…]\nWorks by Aldous Leonard Huxley at Faded Page (Canada)\n[…]\nWorks by Aldous Huxley at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley",
+        "situacao": "ok",
+        "texto": "Thomas Henry Huxley (4 May 1825 – 29 June 1895) was an English biologist and anthropologist who specialised in comparative anatomy. He has become known as \"Darwin's Bulldog\" for his advocacy of Charles Darwin's theory of evolution.\n[…]\nThomas Henry Huxley was born in Ealing, then a village in Middlesex. He was the second youngest of eight children of George Huxley and Rachel Withers. His parents were members of the Church of England, but he sympathized with nonconformists. Like some other British scientists of the nineteenth century such as Alfred Russel Wallace, Huxley was brought up in a literate middle-class family which had fallen on hard times.\n[…]\nThis largely morphological program of comparative anatomy remained at the core of most biological education for a hundred years until the advent of cell and molecular biology and interest in evolutionary ecology forced a fundamental rethink. It is an interesting fact that the methods of the field naturalists who led the way in developing the theory of evolution (Darwin, Alfred Russel Wallace, Fritz Müller, Henry Bates) were scarcely represented at all in Huxley's program.\n[…]\nIrvine, William. Thomas Henry Huxley. Longmans, London 1960.\n[…]\nHuxley, Thomas Henry. Autobiography and Selected Essays. The Riverside Press Houghton Mifflin Company, Cambridge 1909.\n[…]\nStephen, Leslie (1898). \"Thomas Henry Huxley\" . Studies of a Biographer. Vol. 3. London: Duckworth & Co. pp. 188–219.\n[…]\nHuxley, Thomas Henry (1825–1895) National Library of Australia, Trove, People and Organisation record for Thomas Huxley\n[…]\nWorks by Thomas Henry Huxley at Project Gutenberg\n[…]\nWorks by or about Thomas Henry Huxley at the Internet Archive\n[…]\nWorks by Thomas Henry Huxley at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aldous_Huxley",
+        "situacao": "ok",
+        "texto": "Aldous Leonard Huxley (Godalming, 26 de julho de 1894 – Los Angeles, 22 de novembro de 1963) foi um escritor inglês e um dos mais proeminentes membros da família Huxley. Mais conhecido pelos seus romances, como Admirável Mundo Novo e diversos ensaios, Huxley também editou a revista Oxford Poetry e publicou contos, poesias, literatura de viagem e guiões de filmes. Passou a última parte de sua vida \n[…]\nHuxley era humanista e pacifista. Ele cresceu interessado no misticismo filosófico e universalismo, abordando esses temas com obras como A Filosofia Perene (1945) - que ilustra semelhanças entre misticismo ocidental e oriental - e As Portas da Percepção (1954) - que interpreta sua própria experiência psicodélica com mescalina. Em seu romance mais famoso Admirável Mundo Novo (1932) e seu último romance A Ilha (1962), ele apresentou sua visão de distopia e utopia, respectivamente.\n[…]\nFaziam parte da sua família os mais distintos membros da classe dominante inglesa; uma vasta elite intelectual. O seu avô era Thomas Henry Huxley, um grande biólogo defensor da teoria evolucionista de Charles Darwin, tendo desenvolvido o conceito agnóstico. A sua mãe era irmã da romancista Humphrey Ward; a sobrinha de Matthew Arnold, o poeta; e a neta de Thomas Arnold, um famoso professor e diretor da Rugby School que acabou por se tornar numa personagem do romance \"Tom Brown's Schooldays\".\n[…]\nA obra-prima de Huxley, Admirável Mundo Novo (Brave New World), foi escrita durante quatro meses no ano de 1931. Os temas nela abordados remontam grande parte de suas preocupações ideológicas como a liberdade individual em detrimento ao autoritarismo do Estado.\n[…]\n1959 American Academy of Arts and Letters Award of Merit (por Admirável Mundo Novo).\n[…]\n1980 Admirável Mundo Novo (adaptação na TV americana)\n[…]\n1998 Admirável Mundo Novo (adaptação na TV americana)\n[…]\nObras de Aldous Huxley na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Homem de Piltdown",
+      "descricao": "Fraude paleontológica apresentada em 1912 na Inglaterra como um elo perdido entre macacos e humanos."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que famoso escritor britânico, que morava perto do local da descoberta, já foi apontado como suspeito da fraude do Homem de Piltdown?",
+    "resposta": "Arthur Conan Doyle",
+    "distratores": [
+      "H. G. Wells",
+      "Rudyard Kipling",
+      "G. K. Chesterton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piltdown_Man"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Piltdown_Man",
+        "situacao": "ok",
+        "texto": "The Piltdown Man was a paleoanthropological fraud in which bone fragments were presented as the fossilised remains of a previously unknown early human. Although doubts about Piltdown Man's authenticity began to be expressed almost immediately after its announcement in 1912, it was still broadly accepted for many years, and the hoax was only definitively exposed in 1953.\n[…]\nThe identity of the Piltdown forger remains unknown, but suspects have included Dawson, Pierre Teilhard de Chardin, Arthur Keith, Martin A. C. Hinton, Horace de Vere Cole and Arthur Conan Doyle.\n[…]\nRichard Milner, an American historian of science, argued that Arthur Conan Doyle may have been the perpetrator of the Piltdown Man hoax. Milner noted that Doyle had a plausible motive—namely, revenge on the scientific establishment for debunking one of his favourite psychics—and said that The Lost World appeared to contain several clues referring cryptically to his having been involved in the hoax.\n[…]\nChris Stringer, an anthropologist from the Natural History Museum, was quoted as saying: \"Conan Doyle was known to play golf at the Piltdown site and had even given Dawson a lift in his car to the area, but he was a public man and very busy[,] and it is very unlikely that he would have had the time [to create the hoax]. So there are some coincidences, but I think they are just coincidences.\n[…]\nDawson, Charles; Woodward, Arthur Smith (March 1913). \"On the Discovery of a Palæolithic Human Skull and Mandible in a Flint-bearing Gravel overlying the Wealden (Hastings Beds) at Piltdown, Fletching (Sussex) (Read December 18th, 1912)\". Quarterly Journal of the Geological Society. 69 (1–4): 117–122. doi:10.1144/GSL.JGS.1913.069.01-04.10. S2CID 129320256.\n[…]\nWeb pages about the Piltdown forgery hosted by the British Geological Survey\n[…]\nAn annotated select bibliography of the Piltdown forgery by David G Bate"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homem_de_Piltdown",
+        "situacao": "ok",
+        "texto": "O assim chamado Homem de Piltdown foi uma fraude científica formada por fragmentos de um crânio e de uma mandíbula, recuperados nos primeiros anos do século XX de uma mina de cascalho em Piltdown, vila perto de Uckfield, no condado inglês de Sussex. Especialistas da época afirmaram que os fragmentos eram restos fossilizados de uma até ali desconhecida espécie de homem primitivo.\n[…]\nEm 1912, Charles Dawson afirmou que operários da pedreira de Piltdown lhe havia dado um fragmento do crânio quatro anos antes. Segundo seu relato, os operários do local descobriram o crânio pouco antes de sua visita, mas o quebraram por acreditar que se tratava de um coco fossilizado. Dawson afirmou ter encontrado esses fragmentos do crânio em uma camada de cascalho próxima a Piltdown e entrou em contato com Arthur Smith Woodward, curador de geologia do Museu de História Natural de Londres.\n[…]\nFoi sugerido que a fraude havia sido obra da pessoa tida como sua descobridora, Charles Dawson (1864-1916). Este ponto de vista tem sido questionado e muitos outros candidatos têm sido propostos como os verdadeiros criadores da contrafação. O homem de Piltdown representava um organismo que não correspondia à realidade.\n[…]\nO cientista Arthur Keith atacou a descoberta. Keith apontou que os dentes molares humanos são o resultado de movimentos laterais ao mastigar. O canino do maxilar do fóssil de Piltdown impedia o movimento lateral. Não dava para explicar o desgaste dos dentes molares caso os dentes caninos tivessem sido mais altos do que estes.\n[…]\nAlém disso, a interpretação recebeu o respaldo de pesquisadores reconhecidos, especialmente Arthur Smith Woodward, do Museu de História Natural de Londres. A reputação dos envolvidos contribuiu para que a descoberta fosse inicialmente recebida de boa-fé pela comunidade científica.\n[…]\n«PBS NOVA: (sobre o caso do Homem de Piltdown)» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Alfred Russel Wallace",
+      "descricao": "Naturalista britânico do século dezenove que explorou a Amazônia e o arquipélago Malaio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1852, voltando de quatro anos na Amazônia, Wallace perdeu quase toda a sua coleção no caminho para a Inglaterra. O que aconteceu?",
+    "resposta": "O navio pegou fogo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+        "situacao": "ok",
+        "texto": "Alfred Russel Wallace (8 January 1823 – 7 November 1913) was an English naturalist, explorer, geographer, anthropologist and illustrator. He independently conceived the theory of evolution through natural selection; his 1858 paper on the subject was published that year alongside extracts from Charles Darwin's writings on the topic. It spurred Darwin to set aside the \"big species book\" he was draft\n[…]\nWallace describes how he discovered natural selection as follows:\n[…]\nMount Wallace in California's Sierra Nevada mountain range was named in his honour in 1895. In 1928, a house at Richard Hale School (then called Hertford Grammar School, where he had been a pupil) was named after Wallace. The Alfred Russel Wallace building is a prominent feature of the Glyntaff campus at the University of South Wales, by Pontypridd, with several teaching spaces and laboratories for science courses.\n[…]\nA group of Indonesian islands is known as the Wallacea biogeographical region in his honour, and Operation Wallacea, named after the region, awards \"Alfred Russel Wallace Grants\" to undergraduate ecology students. Several hundred species of plants and animals, both living and fossil, have been named after Wallace, such as the gecko Cyrtodactylus wallacei, and the freshwater stingray Potamotrygon wallacei.\n[…]\nThere is an extensive literature on Wallace. Recent books on him include:\n[…]\nThe Alfred Russel Wallace Website by George Beccaloni\n[…]\nThe Alfred Russel Wallace Page at Western Kentucky University\n[…]\nThe Alfred Russel Wallace Correspondence Project\n[…]\nWallace Online, ed. John van Wyhe – The first complete online edition of the writings of Alfred Russel Wallace\n[…]\nGreat Lives – Bill Bailey on his hero Alfred Russel Wallace on BBC Radio 4\n[…]\nWorks by Alfred Russel Wallace at Project Gutenberg\n[…]\nWorks by or about Alfred Russel Wallace at the Internet Archive\n[…]\nWorks by Alfred Russel Wallace at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alfred_Russel_Wallace",
+        "situacao": "ok",
+        "texto": "Alfred Russel Wallace, OM, FRS (Usk, País de Gales, 8 de janeiro de 1823 — Broadstone, Dorset, Inglaterra, 7 de novembro de 1913) foi um naturalista, geógrafo, antropólogo e biólogo britânico.\n[…]\nWallace continuou cartografando o Rio Negro por quatro anos, coletando espécimes e tomando notas acerca dos povos e línguas que encontrou bem como a geografia, flora e fauna. Em 12 de julho de 1852, Wallace embarcou rumo ao Reino Unido no brigue Helen. Após vinte e oito dias ao mar, o bálsamo na carga do navio pegou fogo e a tripulação foi forçada a abandona-lo. A coleção inteira que Wallace levava foi perdida. Pode apenas salvar parte de seu diário e uns poucos esboços.\n[…]\nPorém uma pequena parte de seu material ficou retida no porto de Manaus, esta se salvou. Wallace e sua tripulação passaram dez dias num barco aberto antes de serem resgatados pelo brigue Jordeson, que estava viajando de Cuba para Londres. As condições no Jordeson' foram tensas por causa dos passageiros inesperados, mas após uma viagem difícil com uma alimentação deficiente o navio finalmente chegou ao seu destino em 1 de outubro de 1852.\n[…]\nWallace, Alfred Russel (1853). Palm trees of the Amazon and their uses. (Biodiversity Heritage Library). [S.l.]: London. Consultado em 20 de agosto de 2009\n[…]\nWallace, Alfred Russel (1889). Travels on the Amazon and Rio Negro (Google Books) 1889 ed. [S.l.]: Ward, Lock. Consultado em 9 de dezembro de 2008\n[…]\n«Página de Alfred Russel Wallace» (em inglês)\n[…]\nAlfred Russel Wallace, The Malay Archipelago (O Arquipélago Malaio)\n[…]\nObras de Alfred Russel Wallace (em inglês) no Projeto Gutenberg\n[…]\nWallace, Alfred Russel, Viagens pelo Amazonas e rio Negro, descarga do livro (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Dente do siso",
+      "descricao": "Terceiro molar humano, o último a nascer, muitas vezes sem espaço na arcada dentária."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os dentes do siso muitas vezes não cabem na boca humana. Que mudança ao longo da evolução da nossa linhagem explica isso?",
+    "resposta": "A mandíbula ficou menor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wisdom_tooth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wisdom_tooth",
+        "situacao": "ok",
+        "texto": "The third molar, commonly called wisdom tooth, is the most posterior of the three molars in each quadrant of the human dentition. The age at which wisdom teeth come through (erupt) is variable, but this generally occurs between late teens and early twenties. Most adults have four wisdom teeth, one in each of the four quadrants, but it is possible to have none, fewer, or more, in which case the ext\n[…]\nThere are several notation systems used in dentistry to identify teeth. Under the Palmer/Zsigmondy system, the right and left maxillary wisdom teeth are represented by 8⏌ and ⎿8, while 8⏋ and ⎾8 represent the right and left mandibular wisdom teeth. Under the FDI notational system, the right and left maxillary third molars are numbered 18 and 28, respectively, and the right and left mandibular third molars are numbered 48 and 38.\n[…]\nTo date, there is no clear correlation between the use of PRF after a mandibular third molar removal surgery and the recovery of jaw spasms, bone restoration, and soft tissue healing. Further studies with larger study samples are needed to validate current theories.\n[…]\nTemporary and permanent inferior alveolar nerve (IAN) damage is a known complication of the surgical removal of impacted lower third molars, happening in 1 in 85 patients and 1 in 300 extractions, respectively. Studies have shown that certain risk factors may increase the likelihood of IAN damage. Proximity of the impacted third molar root to the mandibular canal, which can be seen in radiographs, has been shown to be a high-risk factor for IAN damage.\n[…]\nThis includes dental factors, such as tooth crown size and primary tooth loss, and skeletal factors, which include growth of the maxilla and mandible and the presence of malocclusions. General factors include the age and sex of the patient. Overall, recent research has suggested that wisdom teeth alone do not cause crowding of teeth."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dente_do_siso",
+        "situacao": "ok",
+        "texto": "Os terceiros molares (conhecidos popularmente como dentes do siso ou dentes do juízo) são os últimos dentes a se desenvolver no ser humano. Em sua maior parte cada pessoa tem quatro sisos, um em cada canto da boca. Normalmente desenvolvem-se entre os 17 e os 20 anos. Em alguns lugares do Brasil, especialmente na Região Nordeste, é comum chamá-lo dente queiro. Por fim, também pode ser denominados d\n[…]\nOs dentes do siso são terceiros molares vestigiais que ajudaram os ancestrais humanos a moer tecidos vegetais. Pensa-se que os crânios de ancestrais humanos tenham mandíbulas maiores com mais dentes, o que possivelmente ajudou a mastigar folhagem para compensar a falta de capacidade de digerir eficientemente a celulose que compõe a parede celular da planta.\n[…]\nApós o advento da agricultura, há mais de 10 mil anos, dietas humanas macias e pastosas se tornaram a norma, incluindo carboidratos e alimentos de alta energia. Tais dietas geralmente resultam em mandíbulas com crescimento menos avantajado em relação as mandíbulas dos ancestrais humanos paleolíticos e não há espaço suficiente para os dentes do siso.\n[…]\nA função do dente do siso era ajudar na mastigação de raízes, nozes e carnes cruas. Porém devido ao menor desenvolvimento dos maxilares devido a uma dieta contemporânea cada vez mais pastosa, os terceiros molares acabam não encontrando espaço na arcada dentária para crescerem normalmente, ocasionando um apinhamento dos demais dentes, sendo então, muitas vezes, recomendada a sua extração.\n[…]\nEm 1926, Winter classificou os terceiros molares incluso, baseando-se na angulação do longo eixo do dente incluso em relação ao longo eixo do segundo molar, desta forma, temos:\n[…]\nEm 1933, Pell e Gregory classificaram os terceiros molares inferiores de acordo com a relação do dente incluso com a borda anterior do ramo ascendente mandibular e com o plano oclusal em:\n[…]\nDor de dente do siso",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Neandertal 1",
+      "descricao": "Fóssil-tipo do homem de Neandertal, achado em 1856 na gruta de Feldhofer, no vale de Neander, Alemanha."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao examinar o fóssil achado no vale de Neander, o patologista alemão Rudolf Virchow disse que era um humano moderno deformado por que doença?",
+    "resposta": "Raquitismo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neanderthal_1",
+      "https://en.wikipedia.org/wiki/Neanderthal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neanderthal_1",
+        "situacao": "ok",
+        "texto": "Feldhofer 1 or Neanderthal 1 is the scientific name of the 40,000-year-old type specimen fossil of the species Homo neanderthalensis. The fossil was discovered in August 1856 in the Kleine Feldhofer Grotte cave in the Neander Valley (Neandertal), located 13 km (8.1 mi) east of Düsseldorf, Germany.\n[…]\nHowever, this first scientifically described Neanderthal fossil was misunderstood by his contemporaries as \"modern.\" It lacked the criteria to clearly differentiate fossil species of the genus Homo from Homo sapiens. Furthermore, many of Schmerling's colleagues referenced the Bible (Genesis 1), arguing that fossils of such antiquity could not be reliably identified.\n[…]\nLike Huxley, anthropologists of the late 19th and early 20th centuries often classified the increasingly numerous hominid fossils as representatives of early \"races\" of modern humans.\n[…]\nMayer's interpretations, published in 1864 in the Archive of Anatomy, dismissed the signs of rickets (weakened bones) despite the Neanderthal's remarkably strong bone structure. Nevertheless, Virchow largely agreed with Mayer's anatomical findings, describing the bones as a \"remarkable individual phenomenon\" and a \"plausible individual formation.\" Consequently, for years in German-speaking countries, the Neanderthal fossils were regarded as pathological variations of modern human skeletons.\n[…]\nThe frontal bone of Neanderthal 1 exhibits a healed injury attributed to a fall onto a sharp stone. Additionally, evidence suggests that Neanderthal 1 experienced a traumatic event leading to a healed bleeding in a circulatory brain vessel. Extensive inflammation of the paranasal sinuses was also observed, with both frontal sinuses showing deformities, hump-like features, and small vascular traces consistent with chronic inflammation."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Neanderthal",
+        "situacao": "ok",
+        "texto": "Neanderthals ( nee-AN-də(r)-TAHL, nay-, -⁠THAHL; Homo neanderthalensis or sometimes Homo sapiens neanderthalensis) are an extinct group of archaic humans who inhabited Europe and Western and Central Asia during the Middle to Late Pleistocene. Neanderthal extinction occurred roughly 40,000 years ago with the immigration of modern humans (Cro-Magnons), but Neanderthals in Gibraltar may have persiste\n[…]\nTypical Neanderthal skull traits appear in the European fossil record near the beginning of the Middle Pleistocene, in specimens usually classified as H. heidelbergensis. These \"pre-Neanderthals\" seem to have gradually accreted these traits (\"Neanderthalization\") as populations adapted to the cold environment, evolving a \"hyper-arctic\" physique. Circumpolar peoples (namely Inuit groups) are often used as modern Neanderthal analogues to study \"hyper-arctic\" adaptations.\n[…]\nThe first Neanderthal genome sequence was published in 2010, and strongly indicated interbreeding between Neanderthals and early modern humans. This was based on three specimens in Vindija Cave, Croatia, which contained almost 4% archaic DNA (allowing for near complete sequencing of the genome). However, there was approximately 1 error for every 200 letters (base pairs) based on the implausibly high mutation rate, probably due to the preservation of the sample.\n[…]\nExamination of dentition shows that the rate of incisor crown formation in Neanderthals is also indicative of an accelerated pattern of life history relative to modern humans.\n[…]\nIn a sample of 45 Neanderthal long bones from 14 men and 7 women, the average height was 164 to 168 cm (5 ft 5 in to 5 ft 6 in) for males and 152 to 156 cm (5 ft 0 in to 5 ft 1 in) for females. The fossil record shows that adult Neanderthals varied from about 147.5 to 177 cm (4 ft 10 in to 5 ft 10 in) in height. The average male body mass index was 26.9–28.3."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Hominídeos",
+      "descricao": "Família de primatas, Hominidae, que reúne os grandes primatas e os seres humanos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Além de humanos, chimpanzés, bonobos e gorilas, a família dos hominídeos inclui que grande primata da Ásia?",
+    "resposta": "Orangotango",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hominidae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hominidae",
+        "situacao": "ok",
+        "texto": "The Hominidae (; hominids ), whose members are known as the great apes, are a taxonomic family of primates that includes eight extant species in four genera: Pongo (the Bornean, Sumatran and Tapanuli orangutan); Gorilla (the eastern and western gorilla); Pan (the chimpanzee and the bonobo); and Homo, of which only modern humans (Homo sapiens) remain.\n[…]\nA homininan, following a suggestion by Wood and Richmond (2000), would be a member of the subtribe Hominina of the tribe Hominini: that is, modern humans and their closest relatives, including Australopithecina, but excluding chimpanzees.\n[…]\nThe theory of mind concept—including such faculties as empathy, attribution of mental state, and even empathetic deception—is a controversial criterion; it distinguishes the adult human alone among the hominids. Humans acquire this capacity after about four years of age, whereas it has not been proven (nor has it been disproven) that gorillas or chimpanzees ever develop a theory of mind.\n[…]\nHowever, even without the ability to test whether early members of the Hominini (such as Homo erectus, Homo neanderthalensis, or even the australopithecines) had a theory of mind, it is difficult to ignore similarities seen in their living cousins. Orangutans have shown the development of culture comparable to that of chimpanzees, and some say the orangutan may also satisfy those criteria for the theory of mind concept.\n[…]\nThe great apes are tailless primates, with the smallest living species being the bonobo at 30 to 40 kilograms (66 to 88 lb) in weight, and the largest being the eastern gorillas, with males weighing 140 to 180 kilograms (310 to 400 lb). In all great apes, the males are, on average, larger and stronger than the females, although the degree of sexual dimorphism varies greatly among species.\n[…]\nSubtribe Hominina\n[…]\nHominid Species at TalkOrigins Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homin%C3%ADdeos",
+        "situacao": "ok",
+        "texto": "Os Hominídeos formam uma família taxonômica dos grandes primatas, incluindo os quatro gêneros existentes:\n[…]\nAté recentemente, considerava-se que a família Hominidae incluía apenas o género Homo; os orangotangos, gorilas, bonobos, e chimpanzés eram classificados na família Pongidae, que também incluía os gibões que atualmente se encontram classificados na família Hylobatidae – esta família é por vezes considerada a família-irmã dos hominídeos na super-família Hominoidea, dentro da ordem dos primatas.\n[…]\nEstudos genéticos recentes sugerem que a separação entre os Hominidae e outras famílias de primatas ocorreu há cerca de 15 a 20 milhões de anos, durante o período Mioceno. É bastante provável que esse ancestral comum fosse um primata de pequeno porte, com características semelhantes às dos gibões atuais.(família Hylobatidae). Os gibões diferem dos Hominidae (chimpanzés, gorilas, orangotangos e humanos) por serem menores, exibirem baixo dimorfismo sexual e não fazerem ninhos.\n[…]\nOs grandes símios usam muitas formas de ferramentas, não apenas usando materiais existentes, mas também trabalhando deliberadamente com galhos, por exemplo. Nas espécies individuais na natureza, no entanto, as ferramentas são usadas em uma extensão muito diferente. As mais diversas formas são encontradas em humanos, muito menos em chimpanzés comuns, e muito menos em gorilas e orangotangos. Somente os estudos mais recentes conseguiram demonstrar o uso de ferramentas em bonobos.\n[…]\nPongo pygmaeus wurmbii - Orangotango-do-bornéu-meridional\n[…]\nPongo abelii - Orangotango-de-Sumatra\n[…]\nPongo tapanuliensis - Orangotango-de-tapanuli",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Robert FitzRoy",
+      "descricao": "Oficial da Marinha britânica, capitão do HMS Beagle na viagem de Charles Darwin."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Anos depois da viagem com Darwin, Robert FitzRoy, capitão do Beagle, virou pioneiro de que ciência, chegando a criar a expressão previsão do tempo?",
+    "resposta": "Meteorologia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robert_FitzRoy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Robert_FitzRoy",
+        "situacao": "ok",
+        "texto": "Vice-Admiral Robert FitzRoy  (5 July 1805 – 30 April 1865) was an English officer of the Royal Navy, politician and scientist who served as the second governor of New Zealand between 1843 and 1845.\n[…]\nFitzRoy was a pioneering meteorologist who made accurate daily weather predictions, which he called by a new name of his own invention: \"forecasts\". In 1854 he established what would later be called the Met Office, and created systems to get weather information to sailors and fishermen for their safety.\n[…]\nFitzRoy had been promoted to rear-admiral on the reserved list in 1857 and was advanced to vice-admiral in 1863. In his later years, internal and external troubles at the Meteorological Office, financial concerns as well as failing health, and his struggle with depression took their toll.\n[…]\nHis memorial was restored by the Meteorological Office in 1981 with the same inscription.\n[…]\nOn 4 February 2002, when the shipping forecast sea area Finisterre was renamed to avoid confusion with the (smaller) French and Spanish forecast area of the same name, the new name chosen by the UK's Meteorological Office was \"FitzRoy\", in honour of their founder.\n[…]\nThe BBC made a BAFTA award-winning television series in 1978 titled The Voyage of Charles Darwin where Captain Robert Fitzroy was played by actor Andrew Burt with Malcolm Stoddard as Darwin with a storyline that followed the historic interaction between Darwin and FitzRoy before and after their time together on HMS Beagle.\n[…]\nHMS Beagle\n[…]\nFitzRoy, Robert (1859). Notes on Meteorology. Board of Trade.\n[…]\nFitzRoy, Robert (1863). The Weather Book: A Manual of Practical Meteorology. London: Longman, Green, Longman, Roberts, & Green.\n[…]\nBBC – h2g2 – Robert FitzRoy"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Robert_FitzRoy",
+        "situacao": "ok",
+        "texto": "Robert FitzRoy (5 de julho de 1805 — 30 de abril de 1865) foi o capitão do navio HMS Beagle, durante a famosa viagem de Charles Darwin. Foi um pioneiro na área da meteorologia, tendo desenvolvido métodos precisos para a previsão do tempo. Foi explorador e hidrógrafo. Também exerceu tarefas desenhando diversos mapas e aquarelas.\n[…]\nFitzRoy equipara o HMS Beagle com tamanha quantidade de barômetros, cronômetros e outros aparelhos, que o Beagle se tornara o navio mais exato da época. Isso era devido ao grande interesse de FitzRoy em meteorologia, ciência pouco conhecida e de muitas controvérsias na época em que tais equipamentos lhe ajudariam muito. Tal investimento não era problema para Robert FitzRoy, que vinha de uma família rica e de alta nobreza.\n[…]\nPor fim, o jovem naturalista Charles Darwin foi escolhido; cientista que posteriormente ganhou notoriedade por sua Teoria da Evolução, da qual começara a elaborar e adquirir provas a partir desta viagem. A tripulação do Beagle era composta ainda de muitos oficiais de confiança de FitzRoy desde a primeira viagem, como o tenente John Clements Wickham (que comandaria o Beagle durante a terceira viagem).\n[…]\nO Beagle desembarcaria em Valparaíso em 1834, onde Darwin exploraria os Andes. FitzRoy navegaria ainda para as Ilhas Galápagos, ao Tahiti, Nova Zelândia, Austrália, e África do Sul.\n[…]\nFitzRoy vira poucas vezes Darwin após a viagem, Darwin ficara conhecido, mas FitzRoy apesar de todo talento, não foi chamado novamente para a terceira viagem do HMS Beagle. Robert FitzRoy casou-se com sua noiva de longa data Mary Henrietta O'Brien, filha do Marechal Edward O'Brien e foi morar em Londres, Rua Chester, 31 - para a surpresa de Darwin, a quem FitzRoy jamais mencionou ser noivo durante os cinco anos em que viajaram juntos.\n[…]\n«Fitzroy na Enciclopédia Britannica»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
