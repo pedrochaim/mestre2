@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Quadro brasileiro\" é impreciso (pintor espanhol/galego) e \"família de três gerações\" descreve a obra e ajuda a responder sem a figura. Troca por um contexto neutro, com o local de produção.",
+      "reescrita": {
+        "pergunta": "Quem pintou, em 1895, no Rio de Janeiro, este quadro que lhe rendeu medalha de ouro no Salão Nacional?",
+        "resposta": "Modesto Brocos",
+        "distratores": [
+          "Pedro Américo",
+          "Almeida Júnior",
+          "Victor Meirelles"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, pistas de época e país não entregam; distratores venezianos do mesmo século, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintor russo do século dezenove, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o local; fato sustentado pelo trecho; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: reconhecer o quadro e saber que fica na Ambrosiana, em Milão. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Retrato de Rodolfo II feito de frutas, legumes e flores\" entrega a resposta sem olhar a figura, que vira enfeite. Remove a descrição da composição.",
+      "reescrita": {
+        "pergunta": "Que nome tem este retrato do imperador Rodolfo Segundo, pintado em 1591 por um artista italiano?",
+        "resposta": "Vertumno"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintor simbolista suíço ajuda sem entregar; fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escândalo no Salão de 1884 e a alça reposicionada são sustentados; o enunciado não nomeia a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Caravaggio sustentada; \"rapaz que se assusta\" não entrega; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A obra fica na Galleria Nazionale d'Arte Antica, em Roma; a pergunta exige reconhecer o quadro; distratores são cidades erradas.",
+      "reescrita": null
+    }
+  ]
+}

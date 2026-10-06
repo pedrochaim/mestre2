@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cena clara; assinatura minúscula quase ilegível e a pergunta é de múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou, em 1895, este quadro brasileiro sobre uma família de três gerações?",
+      "resposta": "Modesto Brocos",
+      "distratores": [
+        "Pedro Américo",
+        "Almeida Júnior",
+        "Victor Meirelles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Redenção de Cam",
+        "descricao": "Pintura a óleo de 1895 de Modesto Brocos sobre o branqueamento da população brasileira.",
+        "variantes": [
+          "Ham's Redemption",
+          "A Redenção de Can"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano do século dezesseis fez este quadro?",
+      "resposta": "Ticiano",
+      "distratores": [
+        "Veronese",
+        "Tintoretto",
+        "Giorgione"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baco e Ariadne",
+        "descricao": "Pintura a óleo de Ticiano (1520–1523) para o Camerino d'Alabastro de Alfonso d'Este, hoje na National Gallery de Londres.",
+        "variantes": [
+          "Bacchus and Ariadne"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Marinha famosa, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor russo do século dezenove pintou este quadro?",
+      "resposta": "Ivan Aivazovsky",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Nona Onda",
+        "descricao": "Pintura de 1850 de Ivan Aivazovsky que mostra náufragos agarrados a destroços após uma tempestade.",
+        "variantes": [
+          "The Ninth Wave",
+          "Девятый вал"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto visível; resposta única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que casa noturna de Paris se passa esta cena pintada no fim do século dezenove?",
+      "resposta": "Moulin Rouge",
+      "distratores": [
+        "Folies Bergère",
+        "Lido",
+        "Le Chat Noir"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "No Moulin Rouge",
+        "descricao": "Pintura a óleo de Toulouse-Lautrec (1892–1895) que retrata clientes do cabaré parisiense.",
+        "variantes": [
+          "At the Moulin Rouge",
+          "Au Moulin Rouge"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Natureza-morta famosa, sem texto; pergunta de museu sustentada pelo trecho.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana fica a biblioteca que guarda este quadro?",
+      "resposta": "Milão",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cesta de Frutas",
+        "descricao": "Natureza-morta de Caravaggio, c. 1599, na Biblioteca Ambrosiana.",
+        "variantes": [
+          "Canestra di frutta",
+          "Basket of Fruit"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome tem este retrato do imperador Rodolfo Segundo, feito de frutas, legumes e flores?",
+      "resposta": "Vertumno",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vertumno",
+        "descricao": "Retrato de Rodolfo II composto de frutas, legumes e flores, pintado por Arcimboldo em 1591.",
+        "variantes": [
+          "Vertumnus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A inscrição 'Van Eyck 1432' na moldura entrega o autor; é também um políptico com muitos painéis."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; pergunta pelo autor vale para todas as versões.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor simbolista suíço fez este quadro?",
+      "resposta": "Arnold Böcklin",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ilha dos Mortos",
+        "descricao": "Pintura simbolista de Arnold Böcklin, em várias versões entre 1880 e 1901.",
+        "variantes": [
+          "Die Toteninsel",
+          "Island of the Dead"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pôster com texto visível (Moulin Rouge, La Goulue, assinatura) que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato famoso; assinatura mínima, e a resposta é outro fato.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quando este retrato de 1884 foi exibido no Salão de Paris, houve escândalo. Que detalhe do vestido o pintor depois repintou?",
+      "resposta": "A alça caída no ombro",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato de Madame X",
+        "descricao": "Retrato de 1884 de Virginie Gautreau, pintado por John Singer Sargent.",
+        "variantes": [
+          "Madame X",
+          "Portrait of Madame X"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; as duas versões são do mesmo autor.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro de um rapaz que se assusta?",
+      "resposta": "Caravaggio",
+      "distratores": [
+        "Ribera",
+        "Georges de La Tour",
+        "Guido Reni"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Menino Mordido por um Lagarto",
+        "descricao": "Pintura barroca de Caravaggio em duas versões, em Florença e Londres.",
+        "variantes": [
+          "Rapaz Mordido por um Lagarto",
+          "Boy Bitten by a Lizard"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; é a versão de Roma, distinta da outra versão de composição diferente.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica o museu que guarda este quadro?",
+      "resposta": "Roma",
+      "distratores": [
+        "Florença",
+        "Milão",
+        "Nápoles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Judite Decapitando Holofernes",
+        "descricao": "Pintura de Caravaggio, c. 1599–1602, na Galleria Nazionale d'Arte Antica de Roma.",
+        "variantes": [
+          "Judite e Holofernes",
+          "Judith Beheading Holofernes"
+        ]
+      }
+    }
+  ]
+}

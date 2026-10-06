@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "A Redenção de Cam",
+        "descricao": "Pintura a óleo de 1895 de Modesto Brocos sobre o branqueamento da população brasileira.",
+        "variantes": [
+          "Ham's Redemption",
+          "A Redenção de Can"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "doenca_de_chagas",
+          "nome": "Doença de Chagas",
+          "descricao": "Doença parasitária causada pelo Trypanosoma cruzi, descrita por Carlos Chagas em 1909.",
+          "variantes": [
+            "Tripanossomíase americana",
+            "Chagas disease"
+          ]
+        },
+        {
+          "id": "paisagem_com_a_queda_de_icaro",
+          "nome": "Paisagem com a Queda de Ícaro",
+          "descricao": "Pintura flamenga do século dezesseis, atribuída a Bruegel ou a cópia de sua composição, em Bruxelas, com um lavrador, um navio e as pernas de Ícaro caindo no mar.",
+          "variantes": [
+            "Landscape with the Fall of Icarus",
+            "A Queda de Ícaro"
+          ]
+        },
+        {
+          "id": "dentes_de_leite",
+          "nome": "Dentes de leite",
+          "descricao": "Primeira dentição humana, que cai na infância e é substituída pelos dentes permanentes.",
+          "variantes": [
+            "Dentição decídua",
+            "Dentes decíduos",
+            "Deciduous teeth"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Baco e Ariadne",
+        "descricao": "Pintura a óleo de Ticiano (1520–1523) para o Camerino d'Alabastro de Alfonso d'Este, hoje na National Gallery de Londres.",
+        "variantes": [
+          "Baco e Ariadne (Ticiano)",
+          "Bacchus and Ariadne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bloco_de_partida",
+          "nome": "Bloco de partida",
+          "descricao": "Equipamento em que corredores de velocidade apoiam os pés na largada de uma prova.",
+          "variantes": [
+            "Blocos de partida",
+            "Starting blocks"
+          ]
+        },
+        {
+          "id": "mario_de_andrade",
+          "nome": "Mário de Andrade",
+          "descricao": "Escritor e musicólogo paulista (1893–1945), líder do Modernismo e autor de Macunaíma.",
+          "variantes": [
+            "Mário Raul de Morais Andrade"
+          ]
+        },
+        {
+          "id": "muay_thai",
+          "nome": "Muay thai",
+          "descricao": "Arte marcial e esporte de combate tradicional da Tailândia, também chamado de boxe tailandês.",
+          "variantes": [
+            "Boxe tailandês"
+          ]
+        },
+        {
+          "id": "bacteria",
+          "nome": "Bactéria",
+          "descricao": "Microrganismo unicelular procarionte, sem núcleo delimitado.",
+          "variantes": []
+        },
+        {
+          "id": "bateria_de_ion_litio",
+          "nome": "Bateria de íon-lítio",
+          "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
+          "variantes": [
+            "Bateria de lítio",
+            "Bateria de íons de lítio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "A Nona Onda",
+        "descricao": "Pintura de 1850 de Ivan Aivazovsky que mostra náufragos agarrados a destroços após uma tempestade.",
+        "variantes": [
+          "The Ninth Wave",
+          "Девятый вал"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_cafe_noturno",
+          "nome": "O Café Noturno",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+          "variantes": [
+            "O Café à Noite",
+            "The Night Café",
+            "Le Café de nuit"
+          ]
+        },
+        {
+          "id": "a_ronda_noturna",
+          "nome": "A Ronda Noturna",
+          "descricao": "Quadro de Rembrandt no Rijksmuseum.",
+          "variantes": [
+            "The Night Watch",
+            "De Nachtwacht"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda"
+          ]
+        },
+        {
+          "id": "o_pesadelo_fussli",
+          "nome": "O Pesadelo (Füssli)",
+          "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+          "variantes": [
+            "The Nightmare",
+            "Der Nachtmahr",
+            "O Pesadelo"
+          ]
+        },
+        {
+          "id": "dona_florinda",
+          "nome": "Dona Florinda",
+          "descricao": "Personagem do seriado Chaves, mãe da Chiquinha, de bobes no cabelo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "No Moulin Rouge",
+        "descricao": "Pintura a óleo de Toulouse-Lautrec (1892–1895) que retrata clientes do cabaré parisiense.",
+        "variantes": [
+          "At the Moulin Rouge",
+          "Au Moulin Rouge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saltos_vermelhos_de_luis_xiv",
+          "nome": "Saltos vermelhos de Luís XIV",
+          "descricao": "Sapatos de salto vermelho que, na corte de Luís XIV, eram privilégio dos nobres",
+          "variantes": [
+            "Talons rouges"
+          ]
+        },
+        {
+          "id": "um_bar_no_folies_bergere",
+          "nome": "Um Bar no Folies-Bergère",
+          "descricao": "Última grande pintura de Édouard Manet, de 1882, que mostra uma garçonete diante de um espelho num cabaré de Paris; está na Courtauld Gallery, em Londres.",
+          "variantes": [
+            "A Bar at the Folies-Bergère",
+            "Un bar aux Folies Bergère",
+            "O Bar do Folies-Bergère"
+          ]
+        },
+        {
+          "id": "lanterna_vermelha",
+          "nome": "Lanterna vermelha",
+          "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+          "variantes": [
+            "Lanterne rouge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cesta de Frutas",
+        "descricao": "Natureza-morta de Caravaggio, c. 1599, na Biblioteca Ambrosiana.",
+        "variantes": [
+          "Cesta de Frutas (Caravaggio)",
+          "Canestra di frutta",
+          "Basket of Fruit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "drosophila_melanogaster",
+          "nome": "Drosophila melanogaster",
+          "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
+          "variantes": [
+            "Mosca-da-fruta",
+            "Drosófila",
+            "Mosca-das-frutas"
+          ]
+        },
+        {
+          "id": "bebeto_de_freitas",
+          "nome": "Bebeto de Freitas",
+          "descricao": "Técnico brasileiro de vôlei que comandou a seleção masculina prata em Los Angeles 1984 e depois foi dirigente de futebol.",
+          "variantes": [
+            "Paulo Roberto de Freitas"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        },
+        {
+          "id": "estrada_de_ferro_maua",
+          "nome": "Estrada de Ferro Mauá",
+          "descricao": "Primeira ferrovia do Brasil, construída por Irineu Evangelista de Sousa entre o porto de Mauá e Fragoso, no Rio de Janeiro.",
+          "variantes": [
+            "Imperial Companhia de Navegação a Vapor e Estrada de Ferro Petrópolis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Vertumno",
+        "descricao": "Retrato de Rodolfo II composto de frutas, legumes e flores, pintado por Arcimboldo em 1591.",
+        "variantes": [
+          "Vertumno (Arcimboldo)",
+          "Vertumnus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "netuno",
+          "nome": "Netuno",
+          "descricao": "Oitavo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Neptune"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human"
+          ]
+        },
+        {
+          "id": "veto",
+          "nome": "Veto",
+          "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+          "variantes": []
+        },
+        {
+          "id": "articuno",
+          "nome": "Articuno",
+          "descricao": "Pokémon dos tipos Gelo e Voador, número 144 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Ilha dos Mortos",
+        "descricao": "Pintura simbolista de Arnold Böcklin, em várias versões entre 1880 e 1901.",
+        "variantes": [
+          "Die Toteninsel",
+          "Island of the Dead"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "acores",
+          "nome": "Açores",
+          "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+          "variantes": [
+            "Arquipélago dos Açores",
+            "Ilhas dos Açores"
+          ]
+        },
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        },
+        {
+          "id": "dia_dos_namorados_no_brasil",
+          "nome": "Dia dos Namorados no Brasil",
+          "descricao": "Data comemorativa brasileira dos casais, celebrada em 12 de junho.",
+          "variantes": [
+            "Dia dos Namorados"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Retrato de Madame X",
+        "descricao": "Retrato de 1884 de Virginie Gautreau, pintado por John Singer Sargent.",
+        "variantes": [
+          "Madame X",
+          "Portrait of Madame X"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_do_papa_inocencio_x",
+          "nome": "Retrato do Papa Inocêncio X",
+          "descricao": "Retrato a óleo de Diego Velázquez, de cerca de 1650, do papa Inocêncio X, na Galleria Doria Pamphilj, em Roma.",
+          "variantes": [
+            "Portrait of Innocent X",
+            "Retrato de Inocêncio X"
+          ]
+        },
+        {
+          "id": "marie_curie",
+          "nome": "Marie Curie",
+          "descricao": "Física e química polonesa naturalizada francesa, duas vezes Nobel, descobridora do rádio e do polônio.",
+          "variantes": [
+            "Maria Skłodowska Curie",
+            "Madame Curie"
+          ]
+        },
+        {
+          "id": "retratos_de_faium",
+          "nome": "Retratos de Faium",
+          "descricao": "Retratos realistas pintados sobre tábuas de madeira e colocados sobre o rosto de múmias no Egito",
+          "variantes": [
+            "Retratos de múmias de Faium",
+            "Fayum mummy portraits"
+          ]
+        },
+        {
+          "id": "retrato_do_dr_gachet",
+          "nome": "Retrato do Dr. Gachet",
+          "descricao": "Retrato do médico Paul Gachet pintado por Vincent van Gogh em 1890, em duas versões.",
+          "variantes": [
+            "Portrait of Dr. Gachet",
+            "Retrato do Doutor Gachet"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Judite Decapitando Holofernes",
+        "descricao": "Pintura de Caravaggio, c. 1599–1602, na Galleria Nazionale d'Arte Antica de Roma.",
+        "variantes": [
+          "Judite Decapitando Holofernes (Caravaggio)",
+          "Judite e Holofernes",
+          "Judith Beheading Holofernes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "judite_decapitando_holofernes_artemisia_gentileschi",
+          "nome": "Judite Decapitando Holofernes (Artemisia Gentileschi)",
+          "descricao": "Pintura barroca de Artemisia Gentileschi, do início do século dezessete, que mostra Judite e sua serva cortando a cabeça do general Holofernes.",
+          "variantes": [
+            "Judith Slaying Holofernes"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Brocos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Ticiano."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Aivazovsky."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Candidatas são outras obras/entidades; nenhuma é a pintura de Toulouse-Lautrec."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a natureza-morta de Caravaggio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Arcimboldo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Böcklin."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o retrato de Sargent."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A candidata é a obra de Artemisia Gentileschi, pintura diferente da de Caravaggio."
+    }
+  ]
+}
