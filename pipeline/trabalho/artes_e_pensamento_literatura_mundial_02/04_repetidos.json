@@ -1,0 +1,149 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "García Márquez escreveu Cem Anos de Solidão na Cidade do México, mas o livro saiu em 1967 por uma editora de que cidade?",
+        "resposta": "Buenos Aires"
+      },
+      "existentes": [
+        {
+          "id": "q02976",
+          "pergunta": "Em Cem Anos de Solidão, de García Márquez, qual é o sobrenome da família acompanhada ao longo de sete gerações?",
+          "resposta": "Buendía"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1575, voltando para a Espanha, Cervantes foi capturado por piratas e passou cinco anos cativo em que cidade do norte da África?",
+        "resposta": "Argel"
+      },
+      "existentes": [
+        {
+          "id": "q03658",
+          "pergunta": "Ferido na mão esquerda numa batalha naval contra os turcos, em 1571, Miguel de Cervantes ganhou que apelido?",
+          "resposta": "Manco de Lepanto"
+        },
+        {
+          "id": "q03667",
+          "pergunta": "O que Miguel de Cervantes, autor de Dom Quixote, e o dramaturgo inglês William Shakespeare têm em comum quanto à morte?",
+          "resposta": "Morreram no mesmo ano, 1616"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Exilado de Florença, Dante Alighieri morreu em 1321 e está sepultado em que cidade italiana?",
+        "resposta": "Ravena"
+      },
+      "existentes": [
+        {
+          "id": "q05497",
+          "pergunta": "Que poeta italiano é este?",
+          "resposta": "Dante Alighieri"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que adjetivo, usado como sinônimo de minúsculo, vem do reino de homenzinhos visitado por Gulliver no livro de Swift?",
+        "resposta": "Liliputiano"
+      },
+      "existentes": [
+        {
+          "id": "q05847",
+          "pergunta": "Liliput, ilha imaginária habitada por gente minúscula, aparece num romance de qual escritor anglo-irlandês do século dezoito?",
+          "resposta": "Jonathan Swift"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O médico Gregory House, genial e ranzinza protagonista da série House, foi inspirado em que detetive da literatura?",
+        "resposta": "Sherlock Holmes"
+      },
+      "existentes": [
+        {
+          "id": "q02971",
+          "pergunta": "Sherlock Holmes morava no número duzentos e vinte e um B de que rua de Londres?",
+          "resposta": "Baker Street"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1837, aos trinta e sete anos, o poeta Alexandre Pushkin morreu em São Petersburgo. O que provocou sua morte?",
+        "resposta": "Um ferimento num duelo"
+      },
+      "existentes": [
+        {
+          "id": "q05504",
+          "pergunta": "Qual destas obras foi escrita pelo homem deste retrato?",
+          "resposta": "Eugênio Onêguin"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1926, Agatha Christie sumiu sem deixar rastro e acabou achada num hotel, hospedada com nome falso. Quantos dias durou o sumiço?",
+        "resposta": "Onze"
+      },
+      "existentes": [
+        {
+          "id": "q04377",
+          "pergunta": "Trabalhando na farmácia de um hospital durante a Primeira Guerra, Agatha Christie aprendeu muito sobre o quê, arma frequente em seus crimes?",
+          "resposta": "Venenos"
+        },
+        {
+          "id": "q06408",
+          "pergunta": "Qual destes detetives foi criado por esta escritora?",
+          "resposta": "Hercule Poirot"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade da editora é fato diferente do sobrenome da família."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cativeiro em Argel difere do apelido de Lepanto e da morte em 1616."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Local de sepultamento diferente de identificar o retrato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Adjetivo derivado versus autor do livro; fatos distintos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Inspiração de House difere do endereço de Holmes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Causa da morte difere da obra escrita."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Duração do desaparecimento é fato distinto dos existentes."
+    }
+  ]
+}

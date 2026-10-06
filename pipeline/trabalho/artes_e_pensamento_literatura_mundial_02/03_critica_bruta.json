@@ -1,0 +1,389 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto (Swift, deão de St Patrick's, Dublin) e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria clara e sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta, distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pseudônimo e matemática de Oxford conferem; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Romance de estreia de Eco, mosteiro medieval, semiótica: tudo sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta e sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta; distratores são escritores portugueses do século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro não europeu no Nobel de Literatura, Gitanjali: sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro laureado confirmado; distratores críveis (injustiçados históricos).",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Único romance de Emily Brontë, 1847; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aracataca sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira edição em Buenos Aires, pela Sudamericana, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Verona, correto e único.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é sobre a localização de Kronborg, não sobre Hamlet; âncora errada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Captura em 1575 e cativeiro em Argel confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anexo secreto em Amsterdã, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enterrado em Zurique (Fluntern), confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sepultado em Isla Negra com Matilde Urrutia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambientada em Cuba, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dante morreu e está sepultado em Ravena.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar só o século é trivial e fraco; o ano é mais específico.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano foi publicada a primeira parte de Dom Quixote, de Cervantes?",
+        "resposta": "1605",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Dom_Quixote",
+          "https://en.wikipedia.org/wiki/Don_Quixote"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nobel de 1998, primeiro em língua portuguesa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado em junho de 1949, meses antes da morte de Orwell.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato (ano da invasão) é sobre a invasão napoleônica, não sobre o livro; âncora inadequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em português é página de desambiguação; trocar por fontes válidas.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O Grande Gatsby, de Scott Fitzgerald, retrata as festas luxuosas de um milionário em Long Island. Em que década se passa a história?",
+        "resposta": "Década de 1920",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+          "https://pt.wikipedia.org/wiki/O_Grande_Gatsby_(romance)"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escrito entre 1387 e 1400, século quatorze; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado nos anos 1950 (1954-55), confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Efeito Werther vem do romance de Goethe de 1774; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do adjetivo liliputiano, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Horizonte Perdido, 1933, confirmado; distratores de obras do mesmo período.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mocha Dick e a Ilha Mocha confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto e curioso, mas só a fonte em português o sustenta; ajustar a fonte.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No espanhol da época de Cervantes, a palavra quijote designava uma peça de armadura. Que parte do corpo ela protegia?",
+        "resposta": "A coxa",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Dom_Quixote"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nemo significa ninguém em latim; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ada Lovelace era filha de Lord Byron; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Scrooge McDuck leva o nome do personagem de Um Conto de Natal.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Nautilus também aparece em A Ilha Misteriosa; falta precisar o romance de 1870.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O primeiro submarino nuclear em operação, lançado pelos americanos em 1954, tinha o nome do submarino do Capitão Nemo. Em que romance de Júlio Verne, de 1870, ele aparece?",
+        "resposta": "Vinte Mil Léguas Submarinas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)",
+          "https://en.wikipedia.org/wiki/Nautilus_(Verne)"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "House é parcialmente baseado em Sherlock Holmes; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mefistófeles, correto e único.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Xerazade conta histórias para escapar da execução; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Julieta é Capuleto; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pushkin morreu em 1837 de ferimento em duelo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dia escolhido pelo aniversário de Andersen, 2 de abril.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Esconderijo descoberto em agosto de 1944; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fatwa de 1989 por Os Versos Satânicos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sumiço de onze dias em 1926 confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os Lusíadas têm dez cantos; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta longa e vaga; Oliver Twist já saía em livro enquanto o folhetim corria; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conrad escreveu em inglês, aprendido na juventude adulta; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Famosa frase de abertura de Anna Kariênina; amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição do enredo correta e resposta única.",
+      "reescrita": null
+    }
+  ]
+}
