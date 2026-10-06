@@ -122924,5 +122924,135 @@
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q07206",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "orelha",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que órgão do corpo humano é este?",
+    "resposta": "Orelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ear",
+      "https://pt.wikipedia.org/wiki/Orelha"
+    ],
+    "imagem": {
+      "arquivo": "q07206.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Closeup_of_a_human_ear.jpg",
+      "autor": "צולם על ידי he:משתמש:אנדר-ויק",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07207",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "opala",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que pedra é esta, em estado bruto, com reflexos coloridos que mudam conforme a luz?",
+    "resposta": "Opala",
+    "distratores": [
+      "Turquesa",
+      "Lápis-lazúli",
+      "Fluorita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opal",
+      "https://pt.wikipedia.org/wiki/Opala"
+    ],
+    "imagem": {
+      "arquivo": "q07207.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Opal_banded.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07208",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "agua_viva",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A que filo de animais pertence este ser marinho?",
+    "resposta": "Cnidários",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jellyfish",
+      "https://pt.wikipedia.org/wiki/%C3%81gua-viva_%28animal%29"
+    ],
+    "imagem": {
+      "arquivo": "q07208.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jelly_cc11.jpg",
+      "autor": "Dan90266",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q07209",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "bequer",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que vidraria de laboratório é esta?",
+    "resposta": "Béquer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaker_%28laboratory_equipment%29",
+      "https://pt.wikipedia.org/wiki/B%C3%A9quer"
+    ],
+    "imagem": {
+      "arquivo": "q07209.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Beakers.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q07210",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "ambar",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que material é este, em fragmentos brutos?",
+    "resposta": "Âmbar",
+    "distratores": [
+      "Cornalina",
+      "Citrino",
+      "Topázio imperial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amber",
+      "https://pt.wikipedia.org/wiki/%C3%82mbar"
+    ],
+    "imagem": {
+      "arquivo": "q07210.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Amber_Bernstein_many_stones.jpg",
+      "autor": "uploaded with permission from User Lanzi by Ra'ike on de.wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07211",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "coronavirus_sars_cov_2",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a proteína que forma estas projeções vermelhas na superfície deste vírus?",
+    "resposta": "Proteína spike",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SARS-CoV-2",
+      "https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_aguda_grave_2"
+    ],
+    "imagem": {
+      "arquivo": "q07211.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png",
+      "autor": "Alissa Eckert, MS; Dan Higgins, MAM",
+      "licenca": "Public domain"
+    }
   }
 ]

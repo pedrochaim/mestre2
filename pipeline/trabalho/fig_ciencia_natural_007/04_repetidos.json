@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A que filo de animais pertence este ser marinho?",
+        "resposta": "Cnidários"
+      },
+      "existentes": [
+        {
+          "id": "q02528",
+          "pergunta": "A fase nadadora das águas-vivas leva o nome de uma górgona da mitologia grega, que tinha serpentes no lugar dos cabelos. Que nome é esse?",
+          "resposta": "Medusa"
+        },
+        {
+          "id": "q04115",
+          "pergunta": "Que animal marinho é este?",
+          "resposta": "Água-viva"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que material é este, em fragmentos brutos?",
+        "resposta": "Âmbar"
+      },
+      "existentes": [
+        {
+          "id": "q02759",
+          "pergunta": "O âmbar, que às vezes aprisiona insetos por milhões de anos, é a forma fossilizada de que substância?",
+          "resposta": "Resina de árvore"
+        },
+        {
+          "id": "q05210",
+          "pergunta": "Os gregos notaram que o âmbar, depois de esfregado, atraía fiapos de palha. O nome grego dessa resina fóssil deu origem ao nome de qual fenômeno físico?",
+          "resposta": "Eletricidade"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o filo (Cnidários) é fato distinto de identificar o animal como água-viva ou o nome da fase medusa; embora seja imagem, a resposta exige outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o material pela imagem (âmbar) é diferente de saber que é resina fóssil ou a origem do termo eletricidade."
+    }
+  ]
+}

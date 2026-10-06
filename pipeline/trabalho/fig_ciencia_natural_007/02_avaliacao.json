@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Close da orelha humana, nítido, sem texto e sem identificar a pessoa; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que órgão do corpo humano é este?",
+      "resposta": "Orelha",
+      "ancora": {
+        "nome": "Orelha",
+        "descricao": "Órgão da audição e do equilíbrio dos vertebrados, aqui a orelha humana externa.",
+        "variantes": [
+          "Ouvido",
+          "Pavilhão auricular"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Opala boulder com jogo de cores azul e verde, característico; distinguível de outras gemas azuis com distratores.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que mineral é este, em uma pedra bruta com reflexos azuis e esverdeados?",
+      "resposta": "Opala",
+      "distratores": [
+        "Turquesa",
+        "Lápis-lazúli",
+        "Fluorita"
+      ],
+      "ancora": {
+        "nome": "Opala",
+        "descricao": "Mineraloide de sílica hidratada amorfa, aqui opala boulder com jogo de cores.",
+        "variantes": [
+          "Opala preciosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra o número atômico 17 e o símbolo Cl, que entregam a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Água-viva nítida, de forma inconfundível; boa para pergunta de nível 3 sobre o grupo zoológico.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "A que filo de animais pertence este ser marinho?",
+      "resposta": "Cnidários",
+      "ancora": {
+        "nome": "Água-viva",
+        "descricao": "Animal marinho gelatinoso, fase de medusa dos cnidários, com sino e tentáculos.",
+        "variantes": [
+          "Medusa",
+          "Alforreca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Béquers de laboratório claros; o texto visível (ml, marca) não entrega o nome do objeto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que vidraria de laboratório é esta?",
+      "resposta": "Béquer",
+      "ancora": {
+        "nome": "Béquer",
+        "descricao": "Recipiente cilíndrico de laboratório, de fundo plano e pequeno bico para despejar líquidos.",
+        "variantes": [
+          "Becker",
+          "Copo de Becker"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem de laparoscopia pouco nítida; o baço não é reconhecível com segurança e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fragmentos brutos de âmbar de cores alaranjadas típicas; reconhecível com distratores de gemas parecidas.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que material é este, em fragmentos brutos?",
+      "resposta": "Âmbar",
+      "distratores": [
+        "Cornalina",
+        "Citrino",
+        "Topázio imperial"
+      ],
+      "ancora": {
+        "nome": "Âmbar",
+        "descricao": "Resina fóssil de árvores, usada como gema, aqui em fragmentos brutos.",
+        "variantes": [
+          "Âmbar báltico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Cristais metálicos acinzentados que podem ser confundidos com outros metais; não há resposta única reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilustração icônica do coronavírus, sem texto; permite pergunta sobre a parte destacada (as pontas vermelhas).",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "Como se chama a proteína que forma estas projeções vermelhas na superfície deste vírus?",
+      "resposta": "Proteína spike",
+      "ancora": {
+        "nome": "Coronavírus SARS-CoV-2",
+        "descricao": "Vírus de RNA causador da COVID-19, representado em ilustração com as proteínas spike em vermelho.",
+        "variantes": [
+          "SARS-CoV-2",
+          "Novo coronavírus",
+          "Coronavírus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Cristais metálicos prateados que podem ser confundidos com outros metais (prata, ródio); resposta não única pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, ilegível no celular; turmalina negra em quartzo pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pedaço de metal prateado sem traço distintivo; confundível com outros metais, resposta não única."
+    }
+  ]
+}

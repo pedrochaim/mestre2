@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1, sem vazamento. A resposta 'orelha' é sustentada pelos trechos, e 'ouvido' é um sinônimo aceitável.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A opala é um mineraloide, não um mineral (os trechos dizem isso), então 'que mineral' é impreciso. 'Reflexos azuis e esverdeados' também deixa a turquesa defensável. Troquei por 'pedra' e usei o jogo de cores, que é típico da opala preciosa, sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que pedra é esta, em estado bruto, com reflexos coloridos que mudam conforme a luz?",
+        "resposta": "Opala",
+        "distratores": [
+          "Turquesa",
+          "Lápis-lazúli",
+          "Fluorita"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a água-viva pertence ao filo Cnidaria. O enunciado não nomeia o animal nem o filo, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. A resposta 'béquer' é única para a vidraria mostrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é curta e sem vazamento, e o âmbar é resina fóssil usada como gema. Os distratores são gemas amarelo-alaranjadas, do mesmo tipo e críveis, e nenhum descreve a imagem. Todos têm no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a proteína spike (S) como a que forma as projeções do vírus. O enunciado não a nomeia e exige reconhecer a figura, e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
