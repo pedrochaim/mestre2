@@ -1,0 +1,95 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zlatan chegou ao Ajax em 2001, único clube holandês dele. Sem a figura não dá para saber de quem se fala.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são atacantes franceses críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento puro, sem pista. Os distratores são ginastas brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os fatos são verdadeiros, mas o enunciado descreve o feito único de McGregor. Quem conhece o nocaute em treze segundos responde sem olhar a figura. Convém pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Quem é este lutador irlandês de artes marciais mistas?",
+        "resposta": "Conor McGregor",
+        "distratores": [
+          "Michael Bisping",
+          "Dustin Poirier",
+          "Tony Ferguson"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que começou a carreira em 2003 é ambíguo. Em 2003 ele foi emprestado ao Zrinjski Mostar e só estreou pelo Dinamo em 2005. Convém usar o fato da contratação em 2001, que está no trecho.",
+      "reescrita": {
+        "pergunta": "Que clube croata contratou este jogador aos dezesseis anos, no fim de 2001, depois de ele ser rejeitado pelo Hajduk Split?",
+        "resposta": "Dinamo Zagreb"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é correta e precisa, e a figura é necessária para identificar a atleta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são corredores brasileiros críveis e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas o enunciado se responde sem a figura. Quem sabe que a final de 1998 foi França contra Brasil deduz o Brasil, e a figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-meio-campista francês, campeão mundial em 1998?",
+        "resposta": "Zinédine Zidane"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Os distratores são atletas olímpicas de outras provas e nenhuma é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onze temporadas no Real Madrid, de 1996 a 2007, estão nos trechos. O enunciado não identifica o jogador sem a figura, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com pista de nacionalidade que não entrega a resposta. Os distratores são pilotos finlandeses críveis.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que clube holandês este jogador defendeu a partir de 2001?",
+      "resposta": "Ajax",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zlatan Ibrahimović",
+        "descricao": "Ex-atacante sueco, que jogou em Ajax, Juventus, Inter, Barcelona, Milan e Manchester United.",
+        "variantes": [
+          "Zlatan"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, camisa da França com número 10 mas sem nome; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este jogador da seleção francesa?",
+      "resposta": "Kylian Mbappé",
+      "distratores": [
+        "Antoine Griezmann",
+        "Ousmane Dembélé",
+        "Karim Benzema"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kylian Mbappé",
+        "descricao": "Atacante francês, jogador do Real Madrid e capitão da seleção da França.",
+        "variantes": [
+          "Mbappé",
+          "Kylian Mbappé Lottin"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Close nítido, sem texto, figura pública; uniforme verde e amarelo ajuda.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta ginasta brasileira?",
+      "resposta": "Flávia Saraiva",
+      "distratores": [
+        "Rebeca Andrade",
+        "Jade Barbosa",
+        "Daiane dos Santos"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Flávia Saraiva",
+        "descricao": "Ginasta artística brasileira, medalhista de bronze por equipes nas Olimpíadas de Paris 2024.",
+        "variantes": [
+          "Flávia Lopes Saraiva"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido; textos de fundo parciais não revelam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lutador brasileiro este homem nocauteou em treze segundos, numa luta pelo cinturão peso-pena do UFC?",
+      "resposta": "José Aldo",
+      "distratores": [
+        "Anderson Silva",
+        "Vitor Belfort",
+        "Lyoto Machida"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Conor McGregor",
+        "descricao": "Lutador irlandês de MMA, ex-campeão do UFC em duas categorias.",
+        "variantes": [
+          "McGregor"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido; camisa da Croácia com número 10, sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que clube este jogador começou a carreira profissional, em 2003?",
+      "resposta": "Dinamo Zagreb",
+      "destino": 0,
+      "ancora": {
+        "nome": "Luka Modrić",
+        "descricao": "Meio-campista croata, capitão da seleção da Croácia, ex-Real Madrid.",
+        "variantes": [
+          "Modric"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, agasalho do Brasil e medalha de Londres 2012, sem o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que modalidade esta atleta conquistou a medalha de bronze em Londres 2012?",
+      "resposta": "Pentatlo moderno",
+      "destino": 5,
+      "ancora": {
+        "nome": "Yane Marques",
+        "descricao": "Atleta brasileira de pentatlo moderno, bronze nas Olimpíadas de Londres 2012.",
+        "variantes": [
+          "Yane Márcia Campos da Fonseca Marques"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Figura pública com agasalho do Brasil; imagem pequena mas legível, sem texto que revele o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este maratonista brasileiro?",
+      "resposta": "Vanderlei Cordeiro de Lima",
+      "distratores": [
+        "Ronaldo da Costa",
+        "Marílson Gomes dos Santos",
+        "Joaquim Cruz"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, bronze nas Olimpíadas de 2004 e último condutor da pira em 2016.",
+        "variantes": [
+          "Vanderlei de Lima"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Contra que seleção este jogador marcou dois gols de cabeça na final da Copa do Mundo de 1998?",
+      "resposta": "Brasil",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zinédine Zidane",
+        "descricao": "Ex-meio-campista francês, campeão mundial em 1998, depois treinador do Real Madrid.",
+        "variantes": [
+          "Zidane",
+          "Zizou"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, figura pública em primeiro plano; pessoas ao fundo desfocadas, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta atleta olímpica?",
+      "resposta": "Yelena Isinbayeva",
+      "distratores": [
+        "Jessica Ennis-Hill",
+        "Blanka Vlašić",
+        "Allyson Felix"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Yelena Isinbayeva",
+        "descricao": "Atleta russa do salto com vara, bicampeã olímpica em 2004 e 2008.",
+        "variantes": [
+          "Elena Isinbaeva",
+          "Yelena Gadzhievna Isinbayeva"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido; textos de fundo e na camisa não revelam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que clube europeu este ex-lateral jogou onze temporadas, de 1996 a 2007?",
+      "resposta": "Real Madrid",
+      "destino": 0,
+      "ancora": {
+        "nome": "Roberto Carlos",
+        "descricao": "Ex-lateral esquerdo brasileiro, pentacampeão mundial em 2002 e ídolo do Real Madrid.",
+        "variantes": [
+          "Roberto Carlos da Silva Rocha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto legível, boné da Alfa Romeo sem nome; múltipla escolha com finlandeses.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que piloto finlandês de Fórmula 1 é este?",
+      "resposta": "Kimi Räikkönen",
+      "distratores": [
+        "Mika Häkkinen",
+        "Valtteri Bottas",
+        "Heikki Kovalainen"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Kimi Räikkönen",
+        "descricao": "Piloto finlandês, campeão mundial de Fórmula 1 em 2007 pela Ferrari.",
+        "variantes": [
+          "Kimi Raikkonen",
+          "Iceman"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto casual e pequena, pouco reconhecível pelo rosto, com marca 'Outerknown' na camisa que sugere a resposta."
+    }
+  ]
+}

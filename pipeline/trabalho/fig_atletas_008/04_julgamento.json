@@ -1,0 +1,615 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Zlatan Ibrahimović",
+        "descricao": "Ex-atacante sueco, que jogou em Ajax, Juventus, Inter, Barcelona, Milan e Manchester United.",
+        "variantes": [
+          "Zlatan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "batman",
+          "nome": "Batman",
+          "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+          "variantes": [
+            "Homem-Morcego",
+            "Bruce Wayne"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kylian Mbappé",
+        "descricao": "Atacante francês, jogador do Real Madrid e capitão da seleção da França.",
+        "variantes": [
+          "Mbappé",
+          "Kylian Mbappé Lottin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "apple",
+          "nome": "Apple",
+          "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone.",
+          "variantes": [
+            "Apple Inc.",
+            "Apple Computer"
+          ]
+        },
+        {
+          "id": "piaggio_ape",
+          "nome": "Piaggio Ape",
+          "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+          "variantes": [
+            "Ape",
+            "Ape 50",
+            "Vespacar"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Flávia Saraiva",
+        "descricao": "Ginasta artística brasileira, medalhista de bronze por equipes nas Olimpíadas de Paris 2024.",
+        "variantes": [
+          "Flávia Lopes Saraiva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rafaela_silva",
+          "nome": "Rafaela Silva",
+          "descricao": "Judoca brasileira nascida em 1992, campeã mundial em 2013 e olímpica em 2016 na categoria até 57 kg.",
+          "variantes": [
+            "Rafaela Lopes Silva"
+          ]
+        },
+        {
+          "id": "via_sacra",
+          "nome": "Via-Sacra",
+          "descricao": "Devoção cristã que percorre as etapas do caminho de Jesus até a crucificação",
+          "variantes": [
+            "Via Crucis",
+            "Estações da Cruz"
+          ]
+        },
+        {
+          "id": "lavoura_arcaica",
+          "nome": "Lavoura Arcaica",
+          "descricao": "Romance de 1975 de Raduan Nassar, sobre o filho que foge de uma família rural de imigrantes libaneses.",
+          "variantes": []
+        },
+        {
+          "id": "tomate_flavr_savr",
+          "nome": "Tomate Flavr Savr",
+          "descricao": "Tomate geneticamente modificado para amolecer mais devagar, vendido nos Estados Unidos a partir de 1994.",
+          "variantes": [
+            "Flavr Savr"
+          ]
+        },
+        {
+          "id": "bandeira_da_arabia_saudita",
+          "nome": "Bandeira da Arábia Saudita",
+          "descricao": "Bandeira nacional da Arábia Saudita, verde com uma inscrição árabe e uma espada brancas.",
+          "variantes": [
+            "Flag of Saudi Arabia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Conor McGregor",
+        "descricao": "Lutador irlandês de MMA, ex-campeão do UFC em duas categorias.",
+        "variantes": [
+          "McGregor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        },
+        {
+          "id": "prendedor_de_roupa",
+          "nome": "Prendedor de roupa",
+          "descricao": "Pinça de madeira ou plástico, com mola, usada para prender roupas no varal.",
+          "variantes": [
+            "Pregador",
+            "Pregador de roupa",
+            "Pregador de varal"
+          ]
+        },
+        {
+          "id": "macaco_prego",
+          "nome": "Macaco-prego",
+          "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+          "variantes": [
+            "Sapajus apella",
+            "Macaco-prego-das-guianas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Luka Modrić",
+        "descricao": "Meio-campista croata, capitão da seleção da Croácia, ex-Real Madrid.",
+        "variantes": [
+          "Modric"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madri",
+          "nome": "Madri",
+          "descricao": "Capital e maior cidade da Espanha, no centro da Península Ibérica.",
+          "variantes": [
+            "Madrid"
+          ]
+        },
+        {
+          "id": "jose_mojica_marins",
+          "nome": "José Mojica Marins",
+          "descricao": "Cineasta e ator paulista, pioneiro do cinema de terror no Brasil.",
+          "variantes": [
+            "Mojica"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "moby_dick",
+          "nome": "Moby Dick",
+          "descricao": "Romance de Herman Melville, de 1851, sobre a caça do capitão Ahab a uma baleia branca.",
+          "variantes": [
+            "Moby Dick ou a Baleia"
+          ]
+        },
+        {
+          "id": "monica",
+          "nome": "Mônica",
+          "descricao": "Protagonista da Turma da Mônica, de Mauricio de Sousa, menina de vestido vermelho e dentuça.",
+          "variantes": [
+            "Mônica de Sousa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Yane Marques",
+        "descricao": "Atleta brasileira de pentatlo moderno, bronze nas Olimpíadas de Londres 2012.",
+        "variantes": [
+          "Yane Márcia Campos da Fonseca Marques"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wlamir_marques",
+          "nome": "Wlamir Marques",
+          "descricao": "Ala brasileiro de basquete, bicampeão mundial com a seleção em 1959 e 1963.",
+          "variantes": [
+            "Wlamir"
+          ]
+        },
+        {
+          "id": "bandeira_da_dinamarca",
+          "nome": "Bandeira da Dinamarca",
+          "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog.",
+          "variantes": [
+            "Dinamarca",
+            "Dannebrog",
+            "Bandeira dinamarquesa"
+          ]
+        },
+        {
+          "id": "lamarckismo",
+          "nome": "Lamarckismo",
+          "descricao": "Teoria evolutiva de Jean-Baptiste de Lamarck, baseada no uso e desuso e na herança de características adquiridas.",
+          "variantes": [
+            "Lamarquismo",
+            "Lamarckism"
+          ]
+        },
+        {
+          "id": "jane_austen",
+          "nome": "Jane Austen",
+          "descricao": "Romancista inglesa, autora de Orgulho e Preconceito e Emma.",
+          "variantes": []
+        },
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, bronze nas Olimpíadas de 2004 e último condutor da pira em 2016.",
+        "variantes": [
+          "Vanderlei de Lima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vanderlei_cordeiro_de_lima",
+          "nome": "Vanderlei Cordeiro de Lima",
+          "descricao": "Maratonista brasileiro, medalha de bronze na maratona dos Jogos de Atenas 2004.",
+          "variantes": [
+            "Vanderlei de Lima"
+          ]
+        },
+        {
+          "id": "roberto_landell_de_moura",
+          "nome": "Roberto Landell de Moura",
+          "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro na transmissão da voz por ondas de rádio.",
+          "variantes": [
+            "Padre Landell de Moura",
+            "Landell de Moura"
+          ]
+        },
+        {
+          "id": "lixa",
+          "nome": "Lixa",
+          "descricao": "Papel ou tecido coberto de grãos abrasivos usado para desbastar e alisar superfícies.",
+          "variantes": [
+            "Lixa d'água",
+            "Papel de lixa"
+          ]
+        },
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "wadi_rum",
+          "nome": "Wadi Rum",
+          "descricao": "Vale desértico de areia vermelha e montanhas de arenito no sul da Jordânia.",
+          "variantes": [
+            "Vale da Lua"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zinédine Zidane",
+        "descricao": "Ex-meio-campista francês, campeão mundial em 1998, depois treinador do Real Madrid.",
+        "variantes": [
+          "Zidane",
+          "Zizou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dante_alighieri",
+          "nome": "Dante Alighieri",
+          "descricao": "Poeta florentino, autor da Divina Comédia.",
+          "variantes": [
+            "Dante"
+          ]
+        },
+        {
+          "id": "danae_klimt",
+          "nome": "Dânae (Klimt)",
+          "descricao": "Pintura simbolista de 1907 de Gustav Klimt que retrata Dânae adormecida sob a chuva de ouro.",
+          "variantes": [
+            "Danaë",
+            "Danae"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "danone",
+          "nome": "Danone",
+          "descricao": "Empresa de alimentos e laticínios fundada por Isaac Carasso em 1919, hoje sediada na França.",
+          "variantes": [
+            "Groupe Danone",
+            "Dannon"
+          ]
+        },
+        {
+          "id": "zico",
+          "nome": "Zico",
+          "descricao": "Arthur Antunes Coimbra, meia brasileiro ídolo do Flamengo e da seleção nos anos 1970 e 1980.",
+          "variantes": [
+            "Arthur Antunes Coimbra",
+            "Galinho de Quintino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Roberto Carlos",
+        "descricao": "Ex-lateral esquerdo brasileiro, pentacampeão mundial em 2002 e ídolo do Real Madrid.",
+        "variantes": [
+          "Roberto Carlos da Silva Rocha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roberto_carlos",
+          "nome": "Roberto Carlos",
+          "descricao": "Cantor e compositor capixaba, chamado de Rei da música brasileira.",
+          "variantes": [
+            "Roberto Carlos Braga"
+          ]
+        },
+        {
+          "id": "paulo_roberto_falcao",
+          "nome": "Paulo Roberto Falcão",
+          "descricao": "Ex-meia brasileiro do Internacional e da Roma, ídolo dos anos 1980.",
+          "variantes": [
+            "Falcão"
+          ]
+        },
+        {
+          "id": "alberto_ascari",
+          "nome": "Alberto Ascari",
+          "descricao": "Piloto italiano bicampeão mundial de Fórmula 1 pela Ferrari, em 1952 e 1953, morto em 1955.",
+          "variantes": []
+        },
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        },
+        {
+          "id": "maracanazinho",
+          "nome": "Maracanãzinho",
+          "descricao": "Ginásio poliesportivo vizinho ao estádio do Maracanã, no Rio de Janeiro, palco tradicional do vôlei.",
+          "variantes": [
+            "Ginásio Gilberto Cardoso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kimi Räikkönen",
+        "descricao": "Piloto finlandês, campeão mundial de Fórmula 1 em 2007 pela Ferrari.",
+        "variantes": [
+          "Iceman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun"
+          ]
+        },
+        {
+          "id": "kimi_raikkonen",
+          "nome": "Kimi Räikkönen",
+          "descricao": "Piloto finlandês de Fórmula 1, campeão mundial em 2007 pela Ferrari.",
+          "variantes": [
+            "Iceman"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "iracema",
+          "nome": "Iracema",
+          "descricao": "Romance indianista de José de Alencar publicado em 1865.",
+          "variantes": [
+            "Iracema, Lenda do Ceará"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Zlatan."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Mbappé."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Flávia Saraiva."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Conor McGregor."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Modrić."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Yane Marques."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "vanderlei_cordeiro_de_lima",
+      "motivo": "Mesmo maratonista, mesmo nome e bronze em Atenas 2004."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Zidane."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O candidato Roberto Carlos é o cantor, o proposto é o lateral; são pessoas diferentes."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "kimi_raikkonen",
+      "motivo": "Mesmo piloto finlandês, campeão em 2007 pela Ferrari."
+    }
+  ]
+}

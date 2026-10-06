@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este maratonista brasileiro?",
+        "resposta": "Vanderlei Cordeiro de Lima"
+      },
+      "existentes": [
+        {
+          "id": "q04676",
+          "pergunta": "Atacado por um espectador quando liderava a maratona de Atenas 2004, Vanderlei Cordeiro de Lima terminou em terceiro e recebeu depois que homenagem especial?",
+          "resposta": "Medalha Pierre de Coubertin"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que piloto finlandês de Fórmula 1 é este?",
+        "resposta": "Kimi Räikkönen"
+      },
+      "existentes": [
+        {
+          "id": "q06175",
+          "pergunta": "Famoso pelo jeito frio e por falar pouco, o finlandês Kimi Räikkönen, campeão de 2007, ganhou qual apelido em inglês?",
+          "resposta": "Iceman, o Homem de Gelo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do maratonista (provavelmente por imagem). A existente pergunta a homenagem recebida. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do piloto. A existente pergunta o apelido dele. São fatos diferentes."
+    }
+  ]
+}
