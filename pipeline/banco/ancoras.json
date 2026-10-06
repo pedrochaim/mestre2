@@ -39950,7 +39950,9 @@
       "Armadillidium vulgare",
       "isópode terrestre",
       "woodlouse",
-      "pill bug"
+      "pill bug",
+      "Tatu-bola",
+      "Bicho-de-conta"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Woodlouse"
@@ -40045,7 +40047,9 @@
     "variantes": [
       "carmine",
       "corante de cochonilha",
-      "E120"
+      "E120",
+      "Cochonilha",
+      "Ácido carmínico"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Carmine"
@@ -57339,7 +57343,8 @@
     "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
     "variantes": [
       "Mosca-da-fruta",
-      "Drosófila"
+      "Drosófila",
+      "Mosca-das-frutas"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
@@ -57428,7 +57433,8 @@
     "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
     "variantes": [
       "Biston betularia",
-      "Peppered moth"
+      "Peppered moth",
+      "Mariposa-sarapintada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Peppered_moth_evolution"
@@ -75184,7 +75190,8 @@
     "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
     "variantes": [
       "Caelifera",
-      "Grasshopper"
+      "Grasshopper",
+      "Locusta"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Grasshopper"
@@ -75203,7 +75210,8 @@
     "variantes": [
       "Pernilongo",
       "Muriçoca",
-      "Culicidae"
+      "Culicidae",
+      "Carapanã"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mosquito",
@@ -100110,6 +100118,345 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Brogue_shoe"
+    ]
+  },
+  {
+    "id": "a_metamorfose",
+    "nome": "A Metamorfose",
+    "descricao": "Novela de Franz Kafka, publicada em 1915, em que Gregor Samsa acorda transformado num inseto monstruoso.",
+    "variantes": [
+      "Die Verwandlung",
+      "The Metamorphosis"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/A_Metamorfose",
+      "https://en.wikipedia.org/wiki/The_Metamorphosis"
+    ]
+  },
+  {
+    "id": "a_cigarra_e_a_formiga",
+    "nome": "A Cigarra e a Formiga",
+    "descricao": "Fábula atribuída a Esopo sobre uma cigarra que canta no verão e uma formiga que trabalha, recontada em versos por La Fontaine.",
+    "variantes": [
+      "La Cigale et la Fourmi",
+      "The Ant and the Grasshopper"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Ant_and_the_Grasshopper"
+    ]
+  },
+  {
+    "id": "o_voo_do_besouro",
+    "nome": "O Voo do Besouro",
+    "descricao": "Interlúdio orquestral da ópera O Conto do Czar Saltan, que imita o zumbido frenético de uma mamangava.",
+    "variantes": [
+      "Flight of the Bumblebee",
+      "O Voo do Moscardo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flight_of_the_Bumblebee"
+    ]
+  },
+  {
+    "id": "recordacoes_entomologicas",
+    "nome": "Recordações Entomológicas",
+    "descricao": "Série de livros do naturalista francês Jean-Henri Fabre sobre o comportamento dos insetos, publicada entre 1879 e 1907.",
+    "variantes": [
+      "Souvenirs entomologiques"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jean-Henri_Fabre"
+    ]
+  },
+  {
+    "id": "anopheles",
+    "nome": "Anopheles",
+    "descricao": "Gênero de mosquitos cujas fêmeas transmitem os parasitas da malária.",
+    "variantes": [
+      "Mosquito-prego",
+      "Anófele"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Anopheles"
+    ]
+  },
+  {
+    "id": "caranguejo_vermelho_da_ilha_christmas",
+    "nome": "Caranguejo-vermelho-da-ilha-christmas",
+    "descricao": "Caranguejo terrestre (Gecarcoidea natalis) da Ilha Christmas, famoso pela migração anual em massa até o mar para desovar.",
+    "variantes": [
+      "Gecarcoidea natalis",
+      "Christmas Island red crab"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christmas_Island_red_crab"
+    ]
+  },
+  {
+    "id": "cueva_de_la_arana",
+    "nome": "Cueva de la Araña",
+    "descricao": "Cavernas em Bicorp, na Espanha, com uma pintura rupestre de cerca de oito mil anos que mostra a coleta de mel.",
+    "variantes": [
+      "Cuevas de la Araña",
+      "Caverna da Aranha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cuevas_de_la_Araña"
+    ]
+  },
+  {
+    "id": "vespa_asiatica",
+    "nome": "Vespa-asiática",
+    "descricao": "Vespa (Vespa velutina) nativa do Sudeste Asiático, predadora de abelhas e invasora na Europa.",
+    "variantes": [
+      "Vespa velutina",
+      "Vespa-de-patas-amarelas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Asian_hornet"
+    ]
+  },
+  {
+    "id": "barata_sibilante_de_madagascar",
+    "nome": "Barata-sibilante-de-madagascar",
+    "descricao": "Grande barata (Gromphadorhina portentosa) que produz um chiado ao expelir ar pelos espiráculos.",
+    "variantes": [
+      "Gromphadorhina portentosa",
+      "Madagascar hissing cockroach"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Madagascar_hissing_cockroach"
+    ]
+  },
+  {
+    "id": "photinus_carolinus",
+    "nome": "Photinus carolinus",
+    "descricao": "Espécie de vaga-lume norte-americano cujos machos piscam em sincronia no início do verão.",
+    "variantes": [
+      "Vaga-lume sincronizado",
+      "Synchronous firefly"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Photinus_carolinus"
+    ]
+  },
+  {
+    "id": "meganeura",
+    "nome": "Meganeura",
+    "descricao": "Gênero extinto de insetos gigantes aparentados às libélulas, com mais de sessenta centímetros de envergadura.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Meganeura"
+    ]
+  },
+  {
+    "id": "gafanhoto_das_montanhas_rochosas",
+    "nome": "Gafanhoto-das-montanhas-rochosas",
+    "descricao": "Gafanhoto norte-americano extinto (Melanoplus spretus) que formava nuvens gigantescas nas pradarias no século dezenove.",
+    "variantes": [
+      "Melanoplus spretus",
+      "Rocky Mountain locust"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rocky_Mountain_locust"
+    ]
+  },
+  {
+    "id": "dia_mundial_das_abelhas",
+    "nome": "Dia Mundial das Abelhas",
+    "descricao": "Data comemorativa instituída pela ONU, celebrada em 20 de maio em homenagem ao apicultor esloveno Anton Janša.",
+    "variantes": [
+      "World Bee Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_Bee_Day"
+    ]
+  },
+  {
+    "id": "micrographia",
+    "nome": "Micrographia",
+    "descricao": "Livro de Robert Hooke com ilustrações de observações ao microscópio, incluindo uma pulga gigante.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Micrographia"
+    ]
+  },
+  {
+    "id": "bicho_geografico",
+    "nome": "Bicho-geográfico",
+    "descricao": "Larva migrans cutânea, infecção da pele por larvas de vermes de cães e gatos que deixam um rastro sinuoso.",
+    "variantes": [
+      "Larva migrans cutânea",
+      "Cutaneous larva migrans"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cutaneous_larva_migrans"
+    ]
+  },
+  {
+    "id": "helix_pomatia",
+    "nome": "Helix pomatia",
+    "descricao": "Caracol terrestre europeu grande, o tradicional escargot da culinária francesa.",
+    "variantes": [
+      "Caracol-de-borgonha",
+      "Escargot de Bourgogne",
+      "Caracol-romano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Helix_pomatia"
+    ]
+  },
+  {
+    "id": "libelula",
+    "nome": "Libélula",
+    "descricao": "Insetos voadores da ordem Odonata, de corpo longo, quatro asas e larvas aquáticas.",
+    "variantes": [
+      "Lavadeira",
+      "Odonata",
+      "Jacinta"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Odonata"
+    ]
+  },
+  {
+    "id": "aranha_marrom",
+    "nome": "Aranha-marrom",
+    "descricao": "Aranhas do gênero Loxosceles, de veneno que causa necrose na pele, com uma mancha escura no dorso.",
+    "variantes": [
+      "Loxosceles",
+      "Aranha-reclusa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Recluse_spider"
+    ]
+  },
+  {
+    "id": "efemera",
+    "nome": "Efêmera",
+    "descricao": "Insetos da ordem Ephemeroptera, de larvas aquáticas e adultos que vivem muito pouco tempo.",
+    "variantes": [
+      "Efemeróptero",
+      "Ephemeroptera",
+      "Siriruia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mayfly"
+    ]
+  },
+  {
+    "id": "eastgate_centre",
+    "nome": "Eastgate Centre",
+    "descricao": "Centro comercial e de escritórios em Harare, no Zimbábue, com ventilação inspirada nos cupinzeiros.",
+    "variantes": [
+      "Eastgate Centre, Harare"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eastgate_Centre,_Harare"
+    ]
+  },
+  {
+    "id": "pulga_do_rato_oriental",
+    "nome": "Pulga-do-rato-oriental",
+    "descricao": "Pulga parasita de ratos (Xenopsylla cheopis), principal transmissora da bactéria da peste.",
+    "variantes": [
+      "Xenopsylla cheopis",
+      "Oriental rat flea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oriental_rat_flea"
+    ]
+  },
+  {
+    "id": "gerrideo",
+    "nome": "Gerrídeo",
+    "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+    "variantes": [
+      "Gerridae",
+      "Alfaiate",
+      "Patinador"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gerridae"
+    ]
+  },
+  {
+    "id": "pragas_do_egito",
+    "nome": "Pragas do Egito",
+    "descricao": "As dez calamidades que, segundo o livro bíblico do Êxodo, Deus enviou ao Egito para libertar os hebreus.",
+    "variantes": [
+      "Dez pragas do Egito",
+      "Plagues of Egypt"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pragas_do_Egito"
+    ]
+  },
+  {
+    "id": "aranha",
+    "nome": "Aranha",
+    "descricao": "Aracnídeos da ordem Araneae, predadores de oito patas que produzem seda.",
+    "variantes": [
+      "Araneae"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Spider"
+    ]
+  },
+  {
+    "id": "propolis",
+    "nome": "Própolis",
+    "descricao": "Substância pegajosa produzida pelas abelhas para vedar e proteger a colmeia.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Propolis"
+    ]
+  },
+  {
+    "id": "goma_laca",
+    "nome": "Goma-laca",
+    "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+    "variantes": [
+      "Shellac",
+      "Laca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shellac"
+    ]
+  },
+  {
+    "id": "abelha_rainha",
+    "nome": "Abelha-rainha",
+    "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+    "variantes": [
+      "Rainha",
+      "Queen bee"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Queen_bee"
+    ]
+  },
+  {
+    "id": "aranha_mergulhadora",
+    "nome": "Aranha-mergulhadora",
+    "descricao": "Aranha europeia e asiática (Argyroneta aquatica) que vive quase toda a vida debaixo d'água.",
+    "variantes": [
+      "Argyroneta aquatica",
+      "Diving bell spider",
+      "Aranha-de-sino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diving_bell_spider"
+    ]
+  },
+  {
+    "id": "formiga_leao",
+    "nome": "Formiga-leão",
+    "descricao": "Larva de insetos da família Myrmeleontidae, que cava funis na areia para capturar presas.",
+    "variantes": [
+      "Myrmeleontidae",
+      "Antlion",
+      "Cachorrinho-da-areia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Antlion"
     ]
   }
 ]

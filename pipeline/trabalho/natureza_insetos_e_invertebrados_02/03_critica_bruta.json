@@ -1,0 +1,433 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte em inglês é inexistente e o trecho em português não cobre 1705 nem o Suriname; mantive só a fonte em português.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1705, depois de uma viagem ao Suriname, que naturalista e ilustradora alemã publicou um livro famoso sobre a metamorfose dos insetos tropicais?",
+        "resposta": "Maria Sibylla Merian",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Maria_Sibylla_Merian"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato preciso e sustentado; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro e fonte sustenta La Fontaine.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado; distratores russos críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, mas a fonte em português é inexistente; mantive só a fonte em inglês.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que naturalista francês passou décadas observando vespas, besouros e outros insetos e reuniu tudo na obra Recordações Entomológicas?",
+        "resposta": "Jean-Henri Fabre",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Jean-Henri_Fabre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nobel de 1902 e papel do mosquito sustentados pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A doença que hoje leva seu nome' praticamente entrega a resposta (Chagas); reformulei sem o vazamento.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1909, que médico brasileiro identificou o Trypanosoma cruzi, parasita transmitido pelo inseto barbeiro, e descreveu a doença que ele causa?",
+        "resposta": "Carlos Chagas",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carlos_Chagas",
+          "https://pt.wikipedia.org/wiki/Doença_de_Chagas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nobel de 1933 sustentado; o uso de moscas-das-frutas é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Migração anual dos caranguejos na Ilha Christmas é bem sustentada e resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco e óbvio demais: a associação da tsé-tsé com a África é trivial.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Bahia como distrator é defensável, pois há populações naturais lá; troquei por estado sem a espécie original.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O escorpião-amarelo, hoje espalhado por cidades de várias regiões do país, é originário de qual estado brasileiro?",
+        "resposta": "Minas Gerais",
+        "distratores": [
+          "São Paulo",
+          "Goiás",
+          "Paraná"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Tityus_serrulatus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cuevas de la Araña, na Espanha, é fato conhecido; fonte confirma local e pintura rupestre.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês diz cerâmica, mas a em português diz bonsai; a origem do carregamento é incerta, então removi esse detalhe.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A vespa-asiática, predadora de abelhas, chegou à Europa por volta de 2004, num carregamento vindo da China. Em que país desembarcou?",
+        "resposta": "França",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Asian_hornet"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Introdução em Angola em 1873 a partir de navio vindo do Brasil confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte sustenta o Great Smoky Mountains; distratores são parques conhecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carbonífero sustentado; envergadura maior que sessenta centímetros é verdadeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moscas-das-frutas em V-2 em 1947 sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte prevê a próxima emergência em 2038, coerente com o ciclo de dezessete anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Contrabando de ovos em 553-554 (século seis) sustentado; bengalas ocas é o relato tradicional.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Último espécime vivo registrado em 1902, no século vinte; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês diz que 20 de maio é a data do batismo de Janša, não do nascimento; reformulei sem essa afirmação.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O Dia Mundial das Abelhas, criado pela ONU em homenagem ao apicultor esloveno Anton Janša, é celebrado em que mês?",
+        "resposta": "Maio",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/World_Bee_Day"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado em 1665, século dezessete; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ângulo errado, pergunta circular e 'mapa' vaza 'geográfico'; refeita pedindo o nome popular da condição.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Andar descalço na areia pode causar infecção por larvas de vermes de cães e gatos, que traçam linhas sinuosas sob a pele. Que nome popular tem essa condição?",
+        "resposta": "Bicho-geográfico",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Larva_migrans_cut%C3%A2nea"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Helix pomatia é chamado caracol-de-borgonha; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia 'mosca pequena' sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte lista 'lavadeira' mas não a causa do apelido, e a segunda fonte é desambiguação; removi a causa e a fonte ruim.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No Brasil, a libélula é conhecida popularmente pelo nome de qual ofício, tradicionalmente feminino e exercido à beira dos rios?",
+        "resposta": "Lavadeira",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Odonata"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em inglês o nome comum é recluse; 'violino' vale como nome em Portugal, conforme a fonte; ajustei o enunciado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em Portugal, a aranha-marrom é chamada de aranha de qual instrumento musical, por causa de uma mancha escura no dorso?",
+        "resposta": "Violino",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Loxosceles",
+          "https://en.wikipedia.org/wiki/Recluse_spider"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma o nome bicho-de-conta; resposta única pela pista do colar.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia grega 'duração de um dia' sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Caracóis e polvos são moluscos; fato bem documentado e conexão surpreendente.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A ventilação do Eastgate Centre é inspirada em cupinzeiros; fato muito documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "João Batista se alimentava de gafanhotos e mel silvestre nos Evangelhos; fato certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A genealogia do zangão segue Fibonacci; fato conhecido e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte sustenta a analogia com o Sol e Khepri.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Campari usou carmim de cochonilha de 1860 até 2006; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A fuligem escurecendo os troncos é o exemplo clássico de melanismo industrial.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma a pulga como vetor principal da peste.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma o gás carbônico como atrativo.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A tensão superficial sustenta os gerrídeos; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei de Dolbear relaciona o canto dos grilos à temperatura.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gafanhotos são a oitava praga, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que normalmente têm oito olhos; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma cinco pares de corações laterais em Lumbricus terrestris.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Própolis é feita sobretudo de resinas vegetais.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goma-laca é secreção de inseto; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A rainha vive anos, as operárias semanas ou meses e os zangões menos; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bolha de ar presa à teia sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Larva que cava funis na areia confirmada; sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}
