@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Durante a Segunda Guerra, em que propriedade inglesa Alan Turing e outros especialistas trabalhavam para decifrar as mensagens da máquina Enigma?",
+        "resposta": "Bletchley Park"
+      },
+      "existentes": [
+        {
+          "id": "q02121",
+          "pergunta": "Que engenheiro alemão inventou esta máquina, no início do século vinte?",
+          "resposta": "Arthur Scherbius"
+        },
+        {
+          "id": "q03622",
+          "pergunta": "Que máquina alemã da Segunda Guerra Mundial é esta?",
+          "resposta": "Enigma"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade do Novo México?",
+        "resposta": "Albuquerque"
+      },
+      "existentes": [
+        {
+          "id": "q03450",
+          "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+          "resposta": "Altair 8800"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1972, a primeira transmissão de televisão em cores no Brasil mostrou a Festa da Uva. Em qual cidade gaúcha?",
+        "resposta": "Caxias do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q04867",
+          "pergunta": "Em 1972, a primeira transmissão em cores da TV brasileira mostrou a Festa da Uva, em que cidade gaúcha?",
+          "resposta": "Caxias do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A urna eletrônica estreou nas eleições brasileiras em qual ano?",
+        "resposta": "1996"
+      },
+      "existentes": [
+        {
+          "id": "q00904",
+          "pergunta": "Os brasileiros trocaram a cédula de papel pela urna eletrônica aos poucos. Em que ano ela estreou nas eleições do país?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Walkman, toca-fitas portátil da Sony que mudou o jeito de ouvir música, foi lançado em que ano?",
+        "resposta": "1979"
+      },
+      "existentes": [
+        {
+          "id": "q04501",
+          "pergunta": "Muita gente associa o Walkman aos anos oitenta, mas a Sony lançou o tocador de fitas portátil antes. Em que ano?",
+          "resposta": "1979"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+        "resposta": "1974"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome da tecnologia sem fio Bluetooth homenageia qual rei viquingue do século dez?",
+        "resposta": "Haroldo Dente-Azul"
+      },
+      "existentes": [
+        {
+          "id": "q00871",
+          "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+          "resposta": "Dinamarca"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O famoso toque dos celulares Nokia foi tirado de uma valsa para violão de qual compositor espanhol?",
+        "resposta": "Francisco Tárrega"
+      },
+      "existentes": [
+        {
+          "id": "q03468",
+          "pergunta": "Antes de fabricar celulares, a finlandesa Nokia nasceu em 1865 como uma fábrica de quê?",
+          "resposta": "Celulose"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O engenheiro Joseph Woodland teve a ideia do código de barras ao esticar na areia de uma praia os pontos e traços de qual sistema?",
+        "resposta": "Código Morse"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+        "resposta": "Nintendo"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o local (Bletchley Park), fato diferente do inventor ou do nome da máquina."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de fundação é fato distinto do primeiro produto."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato e mesma resposta: Festa da Uva em Caxias do Sul."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano de estreia da urna eletrônica."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano de lançamento do Walkman."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Primeira compra com código de barras (ano) difere da ideia de Woodland."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nome do rei e país que ele uniu são fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Origem do toque difere da origem da empresa."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: código Morse na areia da praia inspirou o código de barras."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Comparação de qual foi fundada primeiro difere de cidade ou produto original."
+    }
+  ]
+}

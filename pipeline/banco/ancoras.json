@@ -13132,7 +13132,8 @@
     "nome": "Código de barras",
     "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
     "variantes": [
-      "Barcode"
+      "Barcode",
+      "Código de barras UPC"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Barcode"
@@ -72051,7 +72052,9 @@
     "nome": "Primeira transmissão em cores da TV brasileira",
     "descricao": "Transmissão oficial inaugural da televisão em cores no Brasil, feita em fevereiro de 1972, mostrando a Festa da Uva.",
     "variantes": [
-      "Estreia da TV em cores no Brasil"
+      "Estreia da TV em cores no Brasil",
+      "Televisão em cores no Brasil",
+      "TV em cores no Brasil"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Televis%C3%A3o_no_Brasil"
@@ -97553,6 +97556,361 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Padr%C3%A3o",
       "https://pt.wikipedia.org/wiki/Padr%C3%A3o_%28descobrimentos%29"
+    ]
+  },
+  {
+    "id": "cd",
+    "nome": "CD",
+    "descricao": "Disco óptico digital para gravar áudio e dados, lançado comercialmente em 1982.",
+    "variantes": [
+      "Compact disc",
+      "Disco compacto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Compact_disc"
+    ]
+  },
+  {
+    "id": "e_mail",
+    "nome": "E-mail",
+    "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede.",
+    "variantes": [
+      "Correio eletrônico",
+      "Email"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Email"
+    ]
+  },
+  {
+    "id": "computador_de_orientacao_da_apollo",
+    "nome": "Computador de orientação da Apollo",
+    "descricao": "Computador de bordo usado nas naves do programa Apollo, da NASA, para navegação e controle.",
+    "variantes": [
+      "Apollo Guidance Computer",
+      "AGC"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+    ]
+  },
+  {
+    "id": "1984_comercial_da_apple",
+    "nome": "1984 (comercial da Apple)",
+    "descricao": "Comercial de televisão que apresentou o computador Macintosh, exibido no Super Bowl de 1984.",
+    "variantes": [
+      "1984 advertisement"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1984_(advertisement)"
+    ]
+  },
+  {
+    "id": "windows_95",
+    "nome": "Windows 95",
+    "descricao": "Sistema operacional da Microsoft lançado em agosto de 1995, que introduziu o menu Iniciar.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Windows_95"
+    ]
+  },
+  {
+    "id": "instagram",
+    "nome": "Instagram",
+    "descricao": "Rede social de compartilhamento de fotos e vídeos lançada em 2010.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Instagram"
+    ]
+  },
+  {
+    "id": "bitcoin",
+    "nome": "Bitcoin",
+    "descricao": "Criptomoeda descentralizada descrita num artigo de 2008 e lançada em 2009.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bitcoin"
+    ]
+  },
+  {
+    "id": "circuito_integrado",
+    "nome": "Circuito integrado",
+    "descricao": "Conjunto de componentes eletrônicos miniaturizados num único pedaço de material semicondutor, o chip.",
+    "variantes": [
+      "Chip",
+      "Microchip"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Integrated_circuit"
+    ]
+  },
+  {
+    "id": "java_linguagem_de_programacao",
+    "nome": "Java (linguagem de programação)",
+    "descricao": "Linguagem de programação orientada a objetos lançada em 1995.",
+    "variantes": [
+      "Java"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ]
+  },
+  {
+    "id": "hewlett_packard",
+    "nome": "Hewlett-Packard",
+    "descricao": "Empresa americana de tecnologia fundada em 1939 por Bill Hewlett e David Packard.",
+    "variantes": [
+      "HP"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hewlett-Packard"
+    ]
+  },
+  {
+    "id": "skype",
+    "nome": "Skype",
+    "descricao": "Programa de chamadas de voz e vídeo pela internet lançado em 2003.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Skype"
+    ]
+  },
+  {
+    "id": "mp3",
+    "nome": "MP3",
+    "descricao": "Formato de compressão de áudio digital que popularizou a música em arquivos de computador.",
+    "variantes": [
+      "MPEG-1 Audio Layer III"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/MP3"
+    ]
+  },
+  {
+    "id": "cafeteira_da_trojan_room",
+    "nome": "Cafeteira da Trojan Room",
+    "descricao": "Cafeteira de um laboratório de informática da Universidade de Cambridge, filmada a partir de 1991 e famosa como a primeira webcam.",
+    "variantes": [
+      "Trojan Room coffee pot"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+    ]
+  },
+  {
+    "id": "me_at_the_zoo",
+    "nome": "Me at the zoo",
+    "descricao": "Primeiro vídeo publicado no YouTube, em abril de 2005, por um dos fundadores do site, Jawed Karim.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Me_at_the_zoo"
+    ]
+  },
+  {
+    "id": "iloveyou",
+    "nome": "ILOVEYOU",
+    "descricao": "Vírus de computador que se espalhou por e-mail em maio de 2000 e infectou milhões de máquinas.",
+    "variantes": [
+      "I Love You",
+      "Love Bug",
+      "Love Letter"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/ILOVEYOU"
+    ]
+  },
+  {
+    "id": "tv",
+    "nome": ".tv",
+    "descricao": "Domínio de internet de primeiro nível atribuído a um país do Pacífico e muito usado por serviços de vídeo.",
+    "variantes": [
+      "Ponto tv"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/.tv"
+    ]
+  },
+  {
+    "id": "ibm_pc",
+    "nome": "IBM PC",
+    "descricao": "Computador pessoal lançado pela IBM que se tornou o padrão da indústria de microcomputadores.",
+    "variantes": [
+      "IBM Personal Computer",
+      "IBM 5150"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+    ]
+  },
+  {
+    "id": "orkut",
+    "nome": "Orkut",
+    "descricao": "Rede social do Google lançada em 2004, extremamente popular no Brasil.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Orkut"
+    ]
+  },
+  {
+    "id": "internet_no_brasil",
+    "nome": "Internet no Brasil",
+    "descricao": "História e desenvolvimento da rede mundial de computadores no Brasil.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Internet_no_Brasil"
+    ]
+  },
+  {
+    "id": "maquina_diferencial",
+    "nome": "Máquina diferencial",
+    "descricao": "Calculadora mecânica projetada por Charles Babbage no século dezenove para calcular tabelas de polinômios.",
+    "variantes": [
+      "Difference engine",
+      "Máquina diferencial número 2"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Difference_engine"
+    ]
+  },
+  {
+    "id": "tempo_unix",
+    "nome": "Tempo Unix",
+    "descricao": "Sistema de contagem do tempo em segundos a partir de uma data de referência, usado em muitos computadores.",
+    "variantes": [
+      "Época Unix",
+      "Unix time"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Unix_time"
+    ]
+  },
+  {
+    "id": "sony",
+    "nome": "Sony",
+    "descricao": "Empresa japonesa de eletrônicos e entretenimento fundada em Tóquio em 1946.",
+    "variantes": [
+      "Sony Corporation"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sony"
+    ]
+  },
+  {
+    "id": "amazon",
+    "nome": "Amazon",
+    "descricao": "Empresa americana de comércio eletrônico fundada por Jeff Bezos em 1994.",
+    "variantes": [
+      "Amazon.com"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amazon_(company)"
+    ]
+  },
+  {
+    "id": "samsung",
+    "nome": "Samsung",
+    "descricao": "Conglomerado sul-coreano fundado em 1938, grande fabricante de eletrônicos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Samsung"
+    ]
+  },
+  {
+    "id": "teste_de_turing",
+    "nome": "Teste de Turing",
+    "descricao": "Teste proposto por Alan Turing em 1950 para avaliar se uma máquina consegue se passar por humana numa conversa.",
+    "variantes": [
+      "Turing test"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Turing_test"
+    ]
+  },
+  {
+    "id": "sistema_binario",
+    "nome": "Sistema binário",
+    "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
+    "variantes": [
+      "Numeração binária",
+      "Base dois"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Binary_number"
+    ]
+  },
+  {
+    "id": "qr_code",
+    "nome": "QR Code",
+    "descricao": "Código de barras bidimensional, em forma de quadrado, criado em 1994 pela japonesa Denso Wave.",
+    "variantes": [
+      "Código QR"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/QR_code"
+    ]
+  },
+  {
+    "id": "z3",
+    "nome": "Z3",
+    "descricao": "Computador eletromecânico programável concluído pelo engenheiro alemão Konrad Zuse em 1941.",
+    "variantes": [
+      "Zuse Z3"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Z3_(computer)"
+    ]
+  },
+  {
+    "id": "intel_4004",
+    "nome": "Intel 4004",
+    "descricao": "Microprocessador de quatro bits lançado pela Intel em 1971.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Intel_4004"
+    ]
+  },
+  {
+    "id": "apple_i",
+    "nome": "Apple I",
+    "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+    "variantes": [
+      "Apple-1"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Apple_I"
+    ]
+  },
+  {
+    "id": "ibm_350",
+    "nome": "IBM 350",
+    "descricao": "Primeira unidade comercial de disco rígido, lançada pela IBM em 1956 como parte do sistema RAMAC.",
+    "variantes": [
+      "IBM 350 Disk Storage Unit",
+      "RAMAC"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/IBM_305_RAMAC"
+    ]
+  },
+  {
+    "id": "logo_linguagem_de_programacao",
+    "nome": "Logo (linguagem de programação)",
+    "descricao": "Linguagem de programação educacional criada em 1967, usada para ensinar programação a crianças.",
+    "variantes": [
+      "Logo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Logo_(programming_language)"
+    ]
+  },
+  {
+    "id": "next",
+    "nome": "NeXT",
+    "descricao": "Empresa americana de computadores fundada por Steve Jobs em 1985, depois de deixar a Apple.",
+    "variantes": [
+      "NeXT Computer"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/NeXT"
+    ]
+  },
+  {
+    "id": "katherine_johnson",
+    "nome": "Katherine Johnson",
+    "descricao": "Matemática americana (1918–2020) da NASA, que calculou trajetórias de voos espaciais.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Katherine_Johnson"
     ]
   }
 ]

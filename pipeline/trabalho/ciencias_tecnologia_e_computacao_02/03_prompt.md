@@ -1,0 +1,1785 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Tecnologia e Computação** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "CD",
+      "descricao": "Disco óptico digital para gravar áudio e dados, lançado comercialmente em 1982."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Lançado comercialmente em 1982, o CD foi desenvolvido pela japonesa Sony em parceria com qual empresa holandesa?",
+    "resposta": "Philips",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Compact_disc"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Compact_disc",
+        "situacao": "ok",
+        "texto": "The compact disc (CD) is a digital optical disc data storage format co-developed by Philips and Sony to store and play digital audio recordings. It employs the Compact Disc Digital Audio (CD-DA) standard and is capable of holding uncompressed stereo audio. First released in Japan in October 1982, the CD was the second optical disc format to reach the market, following the larger LaserDisc (LD).\n[…]\nThe logical format of an audio CD (officially Compact Disc Digital Audio or CD-DA) is described in a document produced in 1980 by the format's joint creators, Sony and Philips. The document is known colloquially as the Red Book CD-DA after the color of its cover. The format is a two-channel 16-bit PCM encoding at a 44.1 kHz sampling rate per channel. Four-channel sound was to be an allowable option within the Red Book format, but has never been implemented.\n[…]\nVideo CD (VCD, View CD, and Compact Disc digital video) is a standard digital format for storing video media on a CD. VCDs are playable in dedicated VCD players, most modern DVD-Video players, personal computers, and some video game consoles. The VCD standard was created in 1993 by Sony, Philips, Matsushita, and JVC and is referred to as the White Book standard.\n[…]\nOne major drawback to these copy-protected discs is that most will not play on either computer CD-ROM drives or some standalone CD players that use CD-ROM mechanisms. Philips has stated that such discs are not permitted to bear the trademarked Compact Disc Digital Audio logo because they violate the Red Book specifications.\n[…]\nSPARS code – Classification system for commercial compact disc releases\n[…]\nA Media History of the Compact Disc (1-hour podcast interview)\n[…]\nSorin, Stan (2009), \"Compact Disc Standards and Formats\", Origins and Successors of the Compact Disc, Philips Research, vol. 11, Philips Research, pp. 137–176, doi:10.1007/978-1-4020-9553-5_4, ISBN 978-1-4020-9552-8"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Compact_disc",
+        "situacao": "ok",
+        "texto": "O compact disc (CD ou \"Disco Compacto\") é um disco óptico digital de armazenamento de dados. O formato foi originalmente desenvolvido com o propósito de armazenar e tocar apenas músicas, mas posteriormente foi adaptado para o armazenamento de dados, o CD-ROM.\n[…]\nDerivações de formatos foram criadas, assim como: mídias regraváveis (CD-RW), CD de áudio e dados (CD-R), Video Compact Disc (VCD), Super Video Compact Disc (SVCD), Enhanced Music Compact Disc (EMCD), Photo CD, Picture CD, CD-i, dentre outros.\n[…]\nA idealização do CD teve seu início em 1975 onde, Sony, com a Philips vindo logo atrás em 1977, começaram a estudar com protótipos uma possibilidade de um novo disco óptico digital de áudio.\n[…]\nA Philips e a Sony criaram uma força-tarefa conjunta de engenheiros, para desenvolver um novo disco digital de áudio. A força-tarefa, liderada por membros proeminentes da Philips, Kees Schouhamer Immink, e Sony, Toshitada Doi, progrediram na pesquisa em tecnologia laser e discos ópticos.\n[…]\nA Philips anunciou publicamente um protótipo de CD-ROM de áudio em uma conferência de imprensa, intitulada \"Philips Introduce Compact Disc\", em 8 de março de 1979, em Eindhoven, Países Baixos.\n[…]\nSeu lançamento se deu a partir de 1º de outubro de 1982 no mercado mundial, começando com o Japão e a Europa. Em fevereiro de 1983, o sistema apareceu na América do Norte. No Brasil, o então novo sistema digital só foi lançado em julho de 1987. As datas de lançamento do CD em diversos países foram graduais e consecutivas, pois a Philips e a Sony tiveram, por motivos financeiros e de custos na fabricação dos discos, atrasos no cumprimento do lançamento.\n[…]\nDisco blu-ray",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "E-mail",
+      "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1971, que programador americano enviou o primeiro e-mail entre computadores em rede e escolheu o símbolo arroba para os endereços?",
+    "resposta": "Ray Tomlinson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+        "situacao": "ok",
+        "texto": "Raymond Samuel Tomlinson (April 23, 1941 – March 5, 2016) was an American computer programmer who invented the first email program on the ARPANET system, the precursor to the Internet, in 1971; it was the first system able to send mail between users on different hosts connected to ARPANET. Previously, mail could be sent only to others who used the same computer.\n[…]\nTomlinson also developed CPYNET, a file transfer program designed to transmit files between computers connected to the ARPANET. In 1971, he was asked to adapt an existing program called SNDMSG—which allowed users to leave messages for others on the same time-sharing computer—so that it could run on TENEX. He incorporated source code from CPYNET into SNDMSG, enabling users to send messages to others on different computers over the network.\n[…]\nThis innovation marked the creation of the first networked email system.\n[…]\nThe first email Tomlinson sent was a test message between two computers placed side by side. The content of the message was not preserved, and Tomlinson later described it as insignificant, likely consisting of a random string such as \"QWERTYUIOP.\" This is often misquoted as \"The first e-mail was QWERTYUIOP.\" He later stated, \"The test messages were entirely forgettable and I have, therefore, forgotten them.\"\n[…]\nTo distinguish destination addresses from local usernames, Tomlinson selected the @ symbol to indicate the recipient's location (user@host), a format that remains standard in email addressing. The symbol was chosen because it was not used in usernames or in TENEX programming, and it intuitively conveyed the intended meaning.\n[…]\nTomlinson said he preferred \"email\" over \"e-mail,\" joking in a 2010 interview that \"I'm simply trying to conserve the world's supply of hyphens\" and that \"the term has been in use long enough to drop the hyphen.\"\n[…]\nTomlinsons' e-mail webpage"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ray_Tomlinson",
+        "situacao": "ok",
+        "texto": "Ray Tomlinson (Amsterdam, Nova Iorque, 23 de abril de 1941 — Lincoln, Massachusetts, 5 de março de 2016) foi um programador dos Estados Unidos que implementou um sistema de correio eletrônico na ARPANET, em 1971. Ray era um funcionário da Bolt Beranek and Newman (BBN), empresa contratada pelo Departamento de Defesa dos Estados Unidos em 1968 para implantar a ARPANET.\n[…]\nEm 1971, Tomlinson começou a enviar mensagens para si mesmo e para seus colegas como brincadeira. Ele somou as funcionalidades dos aplicativos SNDMSG (uma contração da expressão em inglês \"send message\", ou seja, \"enviar mensagem\") e o Readmail, para leitura de correio. Mas esse sistema permitia apenas o compartilhamento de textos. O engenheiro também trabalhava em um protocolo chamado CPYNET, para transferência de arquivos entre computadores conectados em rede.\n[…]\nO conceito de correio eletrônico já existia e estava implementado em sistemas como o AUTODIN. Entretanto, esse foi o primeiro sistema capaz de enviar mensagens entre diferentes nós conectados à ARPANET. Tomlinson também inovou na medida em que escolheu o símbolo @ para distinguir as mensagens destinadas às caixas de correio na máquina local das que se dirigiam à rede, por ser o símbolo que significa \"at\", ou seja, estar em algum lugar. Logo enviou a si próprio uma mensagem de e-mail.\n[…]\nA BBN tinha dois computadores PDP-10 ligados entre si através da ARPANET, e a mensagem viajou através da rede entre as duas máquinas na mesma sala, em Cambridge. Depois de se ter assegurado que o SNDMSG funcionava na rede, enviou uma mensagem aos seus colegas os avisando da nova funcionalidade, com instruções para colocar um @ entre o nome do utilizador e o do seu computador. O primeiro endereço de e-mail criado foi o tomlinson@bbn-tenexa.\n[…]\nTomlinson morreu em 5 de março de 2016, supostamente de ataque cardíaco.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Computador de orientação da Apollo",
+      "descricao": "Computador de bordo usado nas naves do programa Apollo, da NASA, para navegação e controle."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que engenheira americana liderou, no MIT, a equipe que escreveu o programa de bordo das naves Apollo, que levaram astronautas à Lua?",
+    "resposta": "Margaret Hamilton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+      "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+        "situacao": "ok",
+        "texto": "Margaret Elaine Hamilton (née Heafield; born August 17, 1936) is an American computer scientist. She directed the Software Engineering Division at the MIT Instrumentation Laboratory, where she led the development of the on-board flight software for NASA's Apollo Guidance Computer for the Apollo program. She later founded two software companies, Higher Order Software in 1976 and Hamilton Technologi\n[…]\nHamilton learned of the Apollo project in 1965 and wanted to get involved due to it being \"very exciting\" as a Moon program. She joined the MIT Instrumentation Laboratory, which developed the Apollo Guidance Computer for the Apollo lunar exploration program. Hamilton was not the first programmer hired for the Apollo project at MIT (despite ), because she joined several years after the project started in 1961.\n[…]\nHamilton, Margaret H.; Hackler, William R. (2008). \"Universal Systems Language: Lessons Learned from Apollo\". Computer. 41 (12). Institute of Electrical and Electronics Engineers (IEEE): 34–43. doi:10.1109/mc.2008.541. ISSN 0018-9162.\n[…]\nShe met her first husband, James Cox Hamilton, in the mid-1950s while attending college. They were married on June 15, 1958, the summer after she graduated from Earlham. She briefly taught high school mathematics and French at a public school in Boston, Indiana. The couple then moved to Boston, Massachusetts, where they had a daughter, Lauren, born on November 10, 1959. They divorced in 1967 and Margaret married Dan Lickly two years later.\n[…]\nHamilton Technologies, Inc.\n[…]\nNASA's Apollo moon missions relied on Margaret Hamilton and differential equations, Scientific American, May 12, 2026\n[…]\nMargaret Hamilton Archived September 5, 2017, at the Wayback Machine Video produced by Makers: Women Who Make America\n[…]\nMargaret Hamilton '58 – Presidential Medal of Freedom Recipient Archived July 30, 2019, at the Wayback Machine: Earlham College profile"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer",
+        "situacao": "ok",
+        "texto": "The Apollo Guidance Computer (AGC) is a digital computer produced for the Apollo program that was installed on board each Apollo command module (CM) and Apollo Lunar Module (LM). The AGC provided computation and electronic interfaces for guidance, navigation, and control of the spacecraft. The AGC was the first computer based on silicon integrated circuits (ICs).\n[…]\nIn the earlier Project Gemini program, the astronauts flew manually with control sticks. In the Apollo program however, the flight was controlled by the computer. The astronauts flew manually briefly during lunar landings.\n[…]\nMany of the trajectory and guidance algorithms used were based on earlier work by Richard Battin. The first command module flight was controlled by a software package called CORONA whose development was led by Alex Kosmala. Software for lunar missions consisted of COLOSSUS for the command module, whose development was led by Frederic Martin, and LUMINARY on the lunar module led by George Cherry. Details of these programs were implemented by a team under the direction of Margaret Hamilton.\n[…]\nHamilton was very interested in how the astronauts would interact with the software and predicted the types of errors that could occur due to human error. In total, software development on the project comprised 1400 person-years of effort, with a peak workforce of 350 people. In 2016, Hamilton received the Presidential Medal of Freedom for her role in creating the flight software.\n[…]\nThe Apollo Guidance computer has been called \"The fourth astronaut\" for its role in helping the three astronauts who relied on it: Neil Armstrong, Buzz Aldrin and Michael Collins.\n[…]\nThe Apollo Guidance Computer - A Users View (PDF) – By David Scott, Apollo mission astronaut\n[…]\nGitHub Complete Source Code Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Margaret_Hamilton_%28cientista_da_computa%C3%A7%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Margaret Elaine Hamilton (nascida Heafield; nascida em 17 de agosto de 1936) é uma cientista da computação americana. Ela dirigiu a Divisão de Engenharia de Software no Laboratório de Instrumentação do MIT, onde liderou o desenvolvimento do software de voo a bordo do computador de bordo da NASA para o Programa Apollo. Mais tarde, ela fundou duas empresas de software, a Higher Order Software em 197\n[…]\nHamilton soube do projeto Apollo em 1965 e quis se envolver por ser \"muito emocionante\" como um programa espacial para a Lua. Ela ingressou no Laboratório de Instrumentação do MIT, que desenvolveu o Apollo Guidance Computer para o programa de exploração lunar Apollo. Hamilton foi a primeira programadora contratada para o projeto Apollo no MIT e a primeira mulher programadora no projeto, e mais tarde tornou-se Diretora da Divisão de Engenharia de Software.\n[…]\nOs alarmes do programa indicavam \"estouro do executivo\", o que significava que o computador de orientação não conseguia concluir todas as suas tarefas em tempo real e teve que adiar algumas delas. O executivo assíncrono projetado por J. Halcombe Laning foi usado pela equipe de Hamilton para desenvolver o software de voo assíncrono:\n[…]\nEm 1986, Hamilton recebeu o Prêmio Ada Lovelace da Association for Women in Computing.\n[…]\nHamilton, Margaret H.; Hackler, William R. (2008). «Universal Systems Language: Lessons Learned from Apollo». Institute of Electrical and Electronics Engineers (IEEE). Computer. 41 (12): 34–43. ISSN 0018-9162. doi:10.1109/mc.2008.541\n[…]\nNASA’s Apollo moon missions relied on Margaret Hamilton and differential equations, Scientific American, 12 de maio de 2026\n[…]\nMargaret Hamilton Arquivado em 2017-09-05 no Wayback Machine Vídeo produzido por Makers: Women Who Make America\n[…]\nMargaret Hamilton ’58 – Presidential Medal of Freedom Recipient Arquivado em 2019-07-30 no Wayback Machine: Perfil do Earlham College",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "1984 (comercial da Apple)",
+      "descricao": "Comercial de televisão que apresentou o computador Macintosh, exibido no Super Bowl de 1984."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cineasta, diretor de Alien e Blade Runner, dirigiu o famoso comercial de lançamento do Macintosh exibido no Super Bowl de 1984?",
+    "resposta": "Ridley Scott",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1984_(advertisement)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1984_(advertisement)",
+        "situacao": "ok",
+        "texto": "\"1984\" is an American television commercial that introduced the Apple Macintosh personal computer. It was conceived by Steve Hayden, Brent Thomas, and Lee Clow at Chiat/Day, produced by New York production company Fairbanks Films, and directed by Ridley Scott. The ad was a reference to George Orwell's noted 1949 novel, Nineteen Eighty-Four, which described a dystopian future ruled by a televised \"\n[…]\nRidley Scott – whose dystopian sci-fi film Blade Runner had been released one and a half years prior – was hired by agency producer Richard O'Neill to direct it. Less than two months after the Super Bowl airing, The New York Times reported that Scott \"filmed it in England for about $370,000\". In 2005 writer Ted Friedman said the commercial had a then-\"unheard-of production budget of $900,000.\"\n[…]\n1984: Clio Awards\n[…]\nSuper Bowl viewers were overwhelmed by the startling ad. The ad garnered millions of dollars worth of free publicity, as news programs rebroadcast it that night. It was quickly hailed by many in the advertising industry as a masterwork. Advertising Age named it the 1980s Commercial of the Decade, and it continues to rank high on lists of the most influential commercials of all time [...] '1984' was never broadcast again, adding to its mystique.\n[…]\nThe ad has also been cited as the turning point for Super Bowl commercials, which had been important and popular before (especially Coca-Cola's \"Hey Kid, Catch!\" featuring \"Mean\" Joe Greene during Super Bowl XIV) but after \"1984\" those ads became the most expensive, creative and influential advertising set for all television coverage.\n[…]\nMedia archivist and early Apple supporter Marion Stokes recorded the Super Bowl broadcast featuring the legendary ad, which was then featured in the 2019 documentary film Recorder: The Marion Stokes Project.\n[…]\nThink Different, an Apple advertising slogan\n[…]\nList of Super Bowl commercials\n[…]\n1984 at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Windows 95",
+      "descricao": "Sistema operacional da Microsoft lançado em agosto de 1995, que introduziu o menu Iniciar."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que músico britânico, pioneiro da música ambiente, compôs o som de inicialização do Windows 95?",
+    "resposta": "Brian Eno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Microsoft_Sound"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Sound",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Instagram",
+      "descricao": "Rede social de compartilhamento de fotos e vídeos lançada em 2010."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que engenheiro nascido em São Paulo fundou o Instagram em 2010, ao lado do americano Kevin Systrom?",
+    "resposta": "Mike Krieger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mike_Krieger",
+      "https://en.wikipedia.org/wiki/Instagram"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mike_Krieger",
+        "situacao": "ok",
+        "texto": "Michel Krieger (born March 4, 1986) is a Brazilian entrepreneur and software engineer who co-founded Instagram in 2010 with Kevin Systrom, and served as its chief technology officer (CTO) until 2018. During Krieger's tenure as CTO, Instagram's user base expanded from a few million to 1 billion monthly active users. After that, he co-launched two more products, \"Rt.live\" and Artifact, with Systrom.\n[…]\nKrieger was born in São Paulo, Brazil, and moved to California in 2004 to attend Stanford University. While at Stanford, where he majored in symbolic systems, he crossed paths with Kevin Systrom, and together they co-founded Instagram in 2010. Krieger and Systrom had the idea of building a check-in app, before they made it exclusive to pictures. During the early days, most of the engineering and user experiences were developed solely by Krieger.\n[…]\nThat’s how much we were struggling in those days.After Instagram was acquired by Facebook, Krieger was committed to building and growing Instagram independently. On September 24, 2018, it was announced that Krieger resigned from Instagram and would be leaving in a few weeks.\n[…]\nOn April 18, 2020, Krieger teamed up with Systrom again to launch Rt.live, their first collaborative product since leaving Facebook. Rt.live served as an up-to-date tracker of how fast COVID-19 was spreading in each US state.\n[…]\nOn January 31, 2023, Krieger and Systrom launched Artifact, an AI-powered news app, on the App Store and Google Play. They announced the shutdown of their app in January 2024.\n[…]\nIn January 2026, Krieger joined Anthropic's \"Labs\" team.\n[…]\nIn 2021, the Kriegers helped fund the opening of the Institute of Contemporary Art San Francisco (ICA SF) in Dogpatch, alongside funds from Pamela and David Hornik; and Deborah and Andy Rappaport.\n[…]\nKrieger married Kaitlyn Trigger in 2015.\n[…]\nCEO Secrets: Instagram boss on how to avoid 'burnout', BBC News 2015"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Instagram",
+        "situacao": "ok",
+        "texto": "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms. It allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location via geographical tagging. Posts can be shared publicly or with preapproved followers. Users can browse other users' content by tags and locations, view trending con\n[…]\nInstagram was launched for iOS in October 2010 by Kevin Systrom and the Brazilian software engineer Mike Krieger. It rapidly gained popularity, reaching 1 million registered users in two months, 10 million in a year, and 1 billion in June 2018. In April 2012, Facebook acquired the service for approximately US$1 billion in cash and stock.\n[…]\nInstagram began development in San Francisco as Burbn, a mobile check-in app created by Kevin Systrom and Mike Krieger. On March 5, 2010, Systrom closed a $500,000 (equivalent to $700,000 in 2024) seed funding round with Baseline Ventures and Andreessen Horowitz while working on Burbn. Realizing that it was too similar to Foursquare, they refocused their app on photo-sharing, which had become a popular feature among its users.\n[…]\nThe first Instagram post was a photo of South Beach Harbor at Pier 38, posted by Mike Krieger at 5:26 p.m. on July 16, 2010. On October 6, 2010, the Instagram iOS app was officially released through the App Store. In February 2011, it was reported that Instagram had raised $7 million (equivalent to $9,601,662 in 2024) in Series A funding from a variety of investors, including Benchmark Capital, Jack Dorsey, Chris Sacca (through Capital fund), and Adam D'Angelo.\n[…]\nRose, Kevin (May 30, 2013). \"A #Nofilter Conversation with the founders of Instagram\" (podcast). Commonwealth Club.\n[…]\n\"Instagram: Kevin Systrom and Mike Krieger\" (podcast). How I Built This. NPR. September 19, 2016."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mike_Krieger",
+        "situacao": "ok",
+        "texto": "Michel \"Mike\" Krieger (São Paulo, 4 de março de 1986) é um engenheiro de software e empresário brasileiro, mais conhecido como o co-fundador do Instagram.\n[…]\nNascido em São Paulo, Brasil, Krieger em 2004 mudou-se para Palo Alto, na Califórnia para frequentar a Universidade Stanford, onde ele estudou ciências da computação, ele conheceu Kevin Systrom. Os dois fundaram o Instagram em 2010. Ele é um graduado do programa de sistemas simbólico de Stanford, onde escreveu dissertação de seu mestrado em colaboração em comunidades médias na Wikipédia. Antes de fundar a Instagram, Mike trabalhou no Meebo como engenheiro de visualização.\n[…]\nDepois que Mike se mudou para Califórnia, trabalhou um período em algumas empresas voltadas para internet, até ser convidado pelo amigo norte-americano Kevin Systrom (o outro criador do “Instagram”), para fazer parte de um projeto que estava sendo desenvolvido por ele. Inicialmente, a ideia dos dois era criar um aplicativo chamado “Burbn”, com o qual os usuários poderiam compartilhar sua localização, imagens e vídeos.[carece de fontes]?\n[…]\nTodavia, o produto foi considerado complicado e Mike e Kevin Systrom o simplificaram. No segundo semestre de 2010, eles colocaram na loja da Apple o aplicativo Instagram (junção das palavras ‘instant’ e ‘telegram’) após um árduo trabalho de concepção e programação. Dois anos depois, a empresa dos dois foi comprada pelo criador do Facebook, Mark Zuckerberg, por US$ 1 bilhão de dólares.\n[…]\nMike Krieger no Instagram\n[…]\nMike Krieger no X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Bitcoin",
+      "descricao": "Criptomoeda descentralizada descrita num artigo de 2008 e lançada em 2009."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual pseudônimo assina o artigo de 2008 que descreveu a criptomoeda Bitcoin?",
+    "resposta": "Satoshi Nakamoto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+      "https://en.wikipedia.org/wiki/Bitcoin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "situacao": "ok",
+        "texto": "Satoshi Nakamoto  (fl. 31 October 2008 – 26 April 2011) is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain database. Nakamoto was active in the development of bitcoin until December 2010\n[…]\nIn December 2013, blogger Skye Grey linked Nick Szabo to the bitcoin white paper using stylometric analysis. Szabo is a decentralized-currency enthusiast and published a paper on \"bit gold\", one of bitcoin's precursors. He is known to have been interested in using pseudonyms in the 1990s. In May 2009, he wrote a blogpost about bitcoin and Satoshi Nakamoto.\n[…]\nThe same day, Gizmodo published a story with evidence supposedly obtained by a hacker who broke into Wright's email accounts, claiming that Satoshi Nakamoto was a joint pseudonym for Wright and computer forensics analyst Dave Kleiman, who died in 2013. Wright's claim was supported by Andresen and former Bitcoin Foundation director Jon Matonis.\n[…]\nFirst, that Dr. Wright is not the author of the Bitcoin white paper. Second, Dr. Wright is not the person who adopted or operated under the pseudonym Satoshi Nakamoto in the period 2008 to 2011. Third, Dr. Wright is not the person who created the Bitcoin system. And, fourth, he is not the author of the initial versions of the Bitcoin software.\n[…]\nA bust dedicated to Satoshi Nakamoto was installed in Budapest, Hungary, in 2021.\n[…]\nNakamoto, Satoshi (31 October 2008). \"Bitcoin: A Peer-to-Peer Electronic Cash System\" (PDF). Archived from the original (PDF) on 4 July 2010. Retrieved 20 December 2012.\n[…]\nEmails between Hal Finney and Satoshi Nakamoto\n[…]\nTidy, Joe (3 November 2024). \"Hunt for Bitcoin's elusive creator Satoshi Nakamoto hits another dead-end\". BBC News Online.\n[…]\nThe Complete Satoshi"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bitcoin",
+        "situacao": "ok",
+        "texto": "Bitcoin (abbreviation: BTC; sign: ₿) is the first decentralized cryptocurrency. Based on a free-market ideology, bitcoin was invented in 2008 when an unknown person published a white paper under the pseudonym of Satoshi Nakamoto. Use of bitcoin as a currency began in 2009, with the release of its open-source implementation. From 2021 to 2025, El Salvador adopted it as legal tender currency before \n[…]\nThe domain name bitcoin.org was registered on 18 August 2008. On 31 October 2008, a link to a white paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list. Nakamoto's identity remains unknown. According to computer scientist Arvind Narayanan, all individual components of bitcoin originated in earlier academic literature.\n[…]\nAfterward, miners will only earn from transaction fees. These fees are determined by the transaction's size and the amount of data stored, measured in satoshis per byte.\n[…]\nBitcoin wallets were the first cryptocurrency wallets, enabling users to store the information necessary to transact bitcoins. The first wallet program, simply named Bitcoin, and sometimes referred to as the Satoshi client, was released in 2009 by Nakamoto as open-source software. Bitcoin Core is among the best known clients. Forks of Bitcoin Core exist such as Bitcoin Unlimited.\n[…]\nNakamoto limited the block size to one megabyte. The limited block size and frequency can lead to delayed processing of transactions, increased fees and a bitcoin scalability problem. The Lightning Network, a second-layer routing network, is a potential scaling solution.\n[…]\nAs of 2023, the US government owned more than $5 billion worth of seized bitcoin.\n[…]\nNakamoto, Satoshi (31 October 2008). \"Bitcoin: A Peer-to-Peer Electronic Cash System\" (PDF). bitcoin.org. Archived from the original (PDF) on 20 March 2014. Retrieved 28 April 2014."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "situacao": "ok",
+        "texto": "Satoshi Nakamoto (fl. 31 de outubro de 2008 – 26 de abril de 2011) é o pseudônimo utilizado pela pessoa ou pessoas que criaram a moeda virtual Bitcoin. Como parte da implementação, Nakamoto também desenvolveu o primeiro banco de dados de blockchain. No processo, Nakamoto foi o primeiro a resolver o problema do duplo gasto com criptomoeda usando uma rede em ponto a ponto. Nakamoto foi ativo no dese\n[…]\nEstima-se que Nakamoto tem uma fortuna de aproximadamente um milhão de bitcoins. A verdadeira identidade de Nakamoto permanece desconhecida, e tem sido objeto de muita especulação. Não se sabe se o nome \"Satoshi Nakamoto\" é real ou um pseudónimo, ou se o nome representa uma pessoa ou um grupo de pessoas.\n[…]\nEssa especulação iniciou em 6 de março de 2014, após um artigo da revista Newsweek, quando o jornalista Leah McGrath Goodman identificou Dorian Prentice, um homem nipo-americano vivendo na Califórnia, cujo nome de batismo é Satoshi Nakamoto, como o Nakamoto em questão. Além de seu nome, Goodman apontou para uma série de fatos que sugeriam que ele foi o inventor do Bitcoin.\n[…]\nHal Finney (4 de maio de 1956 – 28 de agosto de 2014) foi um dos pioneiros de criptografia pré-Bitcoin e a primeira pessoa (que não seja o próprio Satoshi) para usar o software, relatórios de erros de arquivo e fazer melhorias.[carece de fontes]? Ele também morava a poucos quarteirões da casa da família de Dorian Nakamoto, de acordo com o jornalista da Forbes Andy Greenberg.\n[…]\nEm maio de 2016, Craig Steven Wright admitiu a vários órgãos de imprensa ser ele a verdadeira identidade de Satoshi Nakamoto, o criador do Bitcoin. Wright alegou que foi obrigado a revelar sua identidade secreta a fim de evitar especulações e proteger pessoas próximas.\n[…]\nDesde 2018, a Internet alega que o artista Vincent van Volkmer é Satoshi Nakamoto. Ele mesmo contradiz essa afirmação.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Circuito integrado",
+      "descricao": "Conjunto de componentes eletrônicos miniaturizados num único pedaço de material semicondutor, o chip."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1958, na Texas Instruments, que engenheiro americano demonstrou o primeiro circuito integrado, feito que lhe rendeu o Nobel de Física?",
+    "resposta": "Jack Kilby",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack_Kilby",
+      "https://en.wikipedia.org/wiki/Integrated_circuit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jack_Kilby",
+        "situacao": "ok",
+        "texto": "Jack St. Clair Kilby (November 8, 1923 – June 20, 2005) was an American electrical engineer who took part, along with Robert Noyce of Fairchild Semiconductor, in the realization of the first integrated circuit while working at Texas Instruments in 1958. For this invention, Kilby shared the 2000 Nobel Prize in Physics.\n[…]\nKilby was vital to the invention of the integrated circuit. In mid-1958, as a newly employed engineer at Texas Instruments (TI), he did not yet have the right to a summer vacation. Kilby spent the summer working on the problem in circuit design that was commonly called the \"tyranny of numbers,\" and he finally came to the conclusion that the manufacturing of circuit components en masse in a single piece of semiconductor material could provide a solution.\n[…]\nKilby retired from Texas Instruments in 1983.\n[…]\nOn December 14, 2005, Texas Instruments created the Historic TI Archives. The Jack Kilby family donated his personal manuscripts and his personal photograph collection to Southern Methodist University (SMU). The collection will be cataloged and stored at DeGolyer Library, SMU.\n[…]\nA statue of Jack Kilby stands in Texas Instruments Plaza on the campus of The University of Texas at Dallas.\n[…]\nBarton Community College in Great Bend, Kansas, holds an annual Jack Kilby STEM Day.\n[…]\nNobel lectures, World Scientific Publishing Co., Singapore, 2000.\n[…]\nMedia related to Jack Kilby at Wikimedia Commons\n[…]\n\"Jack St. Clair Kilby: A Man of Few Words\", biography by Ed Millis.\n[…]\n\"From concept to cosmos: How Jack Kilby's integrated circuit transformed the electronics industry\" Archived May 22, 2021, at the Wayback Machine, biography by Texas Instruments.\n[…]\n\"Jack Kilby, Touching Lives on Micro and Macro Scales\" by T.R. Reid, The Washington Post (June 2005).\n[…]\nJack S. Kilby Patents\n[…]\n\"Tribute to Jack Kilby\", Dream 2047, November 2005"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+        "situacao": "ok",
+        "texto": "An integrated circuit (IC), also known as a microchip or simply chip, is a compact assembly of electronic circuits formed from various electronic components, such as transistors, resistors, and capacitors, and their interconnections. These components are fabricated onto a thin, flat piece (\"chip\") of semiconductor material, most commonly silicon.\n[…]\nA precursor to the integrated circuit was small ceramic substrates known as micromodules, each containing a single miniaturized electronic component. These modules could be assembled and interconnected into a two- or three-dimensional compact grid. The idea, considered highly promising in 1957, was proposed to the U.S. Army by Jack Kilby, leading to the short-lived Micromodule Program (similar in spirit to 1951's Project Tinkertoy).\n[…]\nNewly employed by Texas Instruments, Kilby recorded his initial ideas concerning the integrated circuit in July 1958, successfully demonstrating the first working example of an integrated circuit on 12 September 1958. In his patent application of 6 February 1959, Kilby described his new device as \"a body of semiconductor material ... wherein all the components of the electronic circuit are completely integrated\". The first customer for the new invention was the US Air Force.\n[…]\nKilby won the 2000 Nobel Prize in physics for his part in the invention of the integrated circuit.\n[…]\nHowever, Kilby's invention was not a true monolithic integrated circuit chip, as it relied on external gold-wire connections, making large-scale production impractical. About six months later, Robert Noyce at Fairchild Semiconductor developed the first practical monolithic IC chip. The monolithic integrated circuit chip was enabled by the inventions of the planar process by Jean Hoerni and of p–n junction isolation by Kurt Lehovec.\n[…]\nSound chip\n[…]\nThe History of the Integrated Circuit"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jack_Kilby",
+        "situacao": "ok",
+        "texto": "Jack St. Claire Kilby (Jefferson City, 8 de novembro de 1923 — Dallas, 20 de junho de 2005) foi um físico e engenheiro eletricista estadunidense.\n[…]\nKilby foi vital para a invenção do circuito integrado. Em meados de 1958, como engenheiro recém-contratado na Texas Instruments (TI), ele ainda não tinha direito a férias de verão. Kilby passou o verão trabalhando no problema no projeto de circuitos que era comumente chamado de \"tirania dos números\", e ele finalmente chegou à conclusão de que a fabricação de componentes de circuito em massa em uma única peça de material semicondutor poderia fornecer uma solução.\n[…]\nJack Kilby foi pioneiro em aplicações militares, industriais e comerciais da tecnologia de microchips. Ele liderou equipes que criaram o primeiro sistema militar e o primeiro computador incorporando circuitos integrados. Ele inventou a calculadora portátil (juntamente com Jerry Merryman e James Van Tassel).\n[…]\nEm 14 de dezembro de 2005, a Texas Instruments criou o Historic TI Archives. A família Jack Kilby doou seus manuscritos pessoais e sua coleção pessoal de fotografias para a Southern Methodist University (SMU). O acervo será catalogado e armazenado na Biblioteca DeGolyer, SMU.\n[…]\nMedia relacionados com Jack Kilby no Wikimedia Commons\n[…]\n«Jack St. Clair Kilby: A Man of Few Words» (em inglês) , biografia por Ed Millis\n[…]\n\"From concept to cosmos: How Jack Kilby's integrated circuit transformed the electronics industry\", biografia da Texas Instruments.\n[…]\n\"Jack Kilby, Touching Lives on Micro and Macro Scales\" - T.R. Reid, The Washington Post (Jun. 2005).\n[…]\nJack S. Kilby Patents\n[…]\n\"Tribute to Jack Kilby\", Dream 2047, novembro de 2005",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Java (linguagem de programação)",
+      "descricao": "Linguagem de programação orientada a objetos lançada em 1995."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A linguagem de programação Java foi lançada em 1995 por qual empresa americana, mais tarde comprada pela Oracle?",
+    "resposta": "Sun Microsystems",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+        "situacao": "ok",
+        "texto": "Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are usually compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer a\n[…]\nJava was designed by James Gosling at Sun Microsystems. It was released in May 1995 as a core component of Sun's Java platform. The original and reference implementation Java compilers, virtual machines (VMs), and class libraries were released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GPL-2.0-only license.\n[…]\nSun's vice-president Rich Green said that Sun's ideal role with regard to Java was as an evangelist. Following Oracle Corporation's acquisition of Sun Microsystems in 2009–10, Oracle has described itself as the steward of Java technology with a relentless commitment to fostering a community of participation and transparency. This did not prevent Oracle from filing a lawsuit against Google shortly after that for using Java inside the Android SDK (see the Android section).\n[…]\nOracle Corporation owns the official implementation of the Java SE platform, due to its acquisition of Sun Microsystems on January 27, 2010. This implementation is based on the original implementation of Java by Sun. The Oracle implementation is available for Windows, macOS, Linux, and Solaris. Because Java lacks any formal standardization recognized by Ecma International, ISO/IEC, ANSI, or other third-party standards organizations, the Oracle implementation is the de facto standard.\n[…]\nJava Software, Oracle\n[…]\nOpenJDK, Oracle\n[…]\nNews and views from members of the Java team at Oracle"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Java_%28linguagem_de_programa%C3%A7%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation. Diferente das linguagens de programação modernas, que são compiladas para código nativo, Java é compilada para um bytecode que é interpretado por uma máquina virtual (\n[…]\nEm 1991, na Sun Microsystems, foi iniciado o Green Project, o berço do Java, uma linguagem de programação orientada a objetos. Os mentores do projeto eram Patrick Naughton, Mike Sheridan, e James Gosling. Eles acreditavam que, eventualmente, haveria uma convergência dos computadores com os equipamentos e eletrodomésticos frequentemente usados pelas pessoas no seu dia-a-dia.\n[…]\nDesde seu lançamento, em maio de 1995, a plataforma Java foi adotada mais rapidamente do que qualquer outra linguagem de programação na história da computação. Em 2004 Java atingiu a marca de 3 milhões de desenvolvedores em todo mundo. Java continuou crescendo e hoje é uma referência no mercado de desenvolvimento de software.\n[…]\nEm 1997 a Sun Microsystems tentou submeter a linguagem a padronização pelos órgãos ISO/IEC e ECMA, mas acabou desistindo. Java ainda é um padrão de fato, que é controlada através da JCP (Java Community Process).\n[…]\nEm 2008 a Oracle Corporation adquire a empresa responsável pela linguagem Java, a Sun Microsystems, por US$ 7,4 bilhões, com o objetivo de levar o Java e outros produtos da Sun ao dispor dos consumidores.\n[…]\nNetBeans (software livre) — uma IDE desenvolvida pela Sun Microsystems\n[…]\nJava Studio Creator/Enterprise (gratuito SDN) um ambiente criado pela empresa Sun Microsystems\n[…]\nOracle Certified Java Programmer (OCJP)\n[…]\nOracle Certified Java Associate (OCJA)\n[…]\nScala (linguagem de programação)\n[…]\nNaughton, Patrick (1997). Dominando o Java, Guia Autorizado da Sun Microsystems. [S.l.]: Editora Makron Books",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Hewlett-Packard",
+      "descricao": "Empresa americana de tecnologia fundada em 1939 por Bill Hewlett e David Packard."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1939, Bill Hewlett e David Packard fundaram a HP numa garagem que hoje é considerada o berço do Vale do Silício. Em qual cidade californiana?",
+    "resposta": "Palo Alto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/HP_Garage"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/HP_Garage",
+        "situacao": "ok",
+        "texto": "The HP Garage is a private museum where the company Hewlett-Packard (HP) was founded. It is located at 367 Addison Avenue in Palo Alto, California. It is considered to be the \"Birthplace of Silicon Valley\". In the 1930s, Stanford University and its Dean of Engineering Frederick Terman began encouraging faculty and graduates to stay in the area instead of leaving California, and develop a high-tech\n[…]\nHP founders Bill Hewlett and David Packard are considered the first Stanford students who took Terman's advice.\n[…]\nThe home, originally designated as 367 Addison Avenue, was first occupied in 1905 by John Spencer, his wife Ione, and their two adult daughters. John Spencer became Palo Alto's first mayor in 1909. In 1918, the house was divided into two separate apartments, numbered 367 and 369.\n[…]\nIn 1937, David \"Dave\" Packard, then 25 years old, visited William \"Bill\" Hewlett in Palo Alto and the pair had their first business meeting. Both men attended Stanford University, where its Dean of Engineering Frederick Terman encouraged his students to establish their own electronics companies in the area instead of leaving California.\n[…]\nIn 1938, newly married Dave and Lucile Packard moved into 367 Addison Ave, the first-floor three-room apartment, with Bill Hewlett sleeping in the shed. Mrs. Spencer, now widowed, moved into the second-floor apartment, 369 Addison. Hewlett and Packard began to use the one-car garage, with $538 (equivalent to $12,305 in 2025) in capital.\n[…]\nIn 1939, Packard and Hewlett formed their partnership with a coin toss, creating the name Hewlett-Packard.\n[…]\nHewlett-Packard's first product, built in the garage, was an audio oscillator, the HP 200A. One of Hewlett-Packard's first customers was Walt Disney Studios, which purchased eight oscillators to test and certify the sound systems in theaters that were going to run the first major film released in stereophonic sound, Fantasia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Garagem_da_HP",
+        "situacao": "ok",
+        "texto": "A Garagem da HP (HP Garage em inglês) é um museu privado onde foi fundada a empresa Hewlett-Packard (HP). Ele está localizado na Avenida Addison 367 em Palo Alto, Califórnia. O local é considerado o berço do Vale do Silício. Na década de 1930, a Universidade Stanford e seu Reitor de Engenharia Frederick Terman começaram a encorajar professores e graduados a permanecer na área em vez de deixar a Ca\n[…]\nOs fundadores da HP, Bill Hewlett e David Packard, são considerados os primeiros alunos de Stanford a seguir o conselho de Terman.\n[…]\nA casa, originalmente designada como Avenida Addison 367, foi ocupada pela primeira vez em 1905 pelo Dr. John Spencer, sua esposa Ione e suas duas filhas adultas. O Dr. Spencer se tornou o primeiro prefeito de Palo Alto em 1909. Em 1918, a casa foi dividida em dois apartamentos separados, numerados 367 e 369.\n[…]\nEm 1937, David \"Dave\" Packard, então com 25 anos, visitou William \"Bill\" Hewlett em Palo Alto e os dois tiveram sua primeira reunião de negócios. Ambos estudaram na Universidade Stanford, onde seu Reitor de Engenharia Frederick Terman encorajou seus alunos a estabelecer suas próprias empresas de eletrônicos na área em vez de deixar a Califórnia.\n[…]\nEm 1938, Dave e Lucile Packard recém-casados ​​se mudaram para a 367 Addison Ave, o apartamento de três cômodos do primeiro andar, com Bill Hewlett dormindo no galpão. A Sra. Spencer, agora viúva, mudou-se para o apartamento do segundo andar, 369 Addison. Hewlett e Packard começaram a usar a garagem para um carro, com $ 538 (equivalente a $ 9.772 em 2019) de capital.\n[…]\nEm 1939, Packard e Hewlett formaram uma parceria, criando o nome Hewlett-Packard.\n[…]\nCalifornia registered landmark, 1987\n[…]\nHewlett-Packard\n[…]\nVale do Silício\n[…]\nRebuilding HP's Garage\n[…]\nConheça a famosa garagem onde começou a HP (e o Vale do Silício), Techtudo\n[…]\nConheça a garagem onde nasceu o Vale do Silício, Exame",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Máquina Enigma",
+      "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Durante a Segunda Guerra, em que propriedade inglesa Alan Turing e outros especialistas trabalhavam para decifrar as mensagens da máquina Enigma?",
+    "resposta": "Bletchley Park",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bletchley_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bletchley_Park",
+        "situacao": "ok",
+        "texto": "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers –  most importantly the German Enigma and Lorenz cipher\n[…]\nIn October 2005, American billionaire Sidney Frank donated £500,000 to Bletchley Park Trust to fund a new Science Centre dedicated to Alan Turing. Simon Greenish joined as Director in 2006 to lead the fund-raising effort in a post he held until 2012 when Iain Standen took over the leadership role. In July 2008, a letter to The Times from more than a hundred academics condemned the neglect of the site.\n[…]\nBletchley Park featured heavily in Robert Harris' novel Enigma (1995).\n[…]\nThe film Enigma (2001), which was based upon Robert Harris's book and starred Kate Winslet, Saffron Burrows and Dougray Scott, is set in part in Bletchley Park.\n[…]\nThe film The Imitation Game (2014), starring Benedict Cumberbatch as Alan Turing, is set in Bletchley Park, and was partially filmed there.\n[…]\nA 2012 London Science Museum exhibit, \"Code Breaker: Alan Turing's Life and Legacy\", marking the centenary of his birth, included a short film of statements by half a dozen participants and historians of the World War II Bletchley Park Ultra operations.\n[…]\nBletchley Park: It's No Secret, Just an Enigma, The Telegraph, 29 August 2009\n[…]\n19-minute Video interview on YouTube with Sue Black by Robert Llewellyn about Bletchley Park\n[…]\nThe Bletchley Park Podcast on Audioboom\n[…]\nBletchley Park Paperwork at The ICL Computer Museum\n[…]\nMap of Bletchley Park site, as used during World War II\n[…]\nMap of Bletchley Park site, as used 1939-1945\n[…]\nBletchley Park - Interactive Map\n[…]\nMap of Bletchley Park site, as used in 2024\n[…]\nView of Bletchley Park site, in 2024"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bletchley_Park",
+        "situacao": "ok",
+        "texto": "Bletchley Park, também conhecido como Station X, é uma antiga instalação militar secreta localizada em Bletchley (perto de Milton Keynes, Buckinghamshire, na Inglaterra, a mais ou menos 80 km ao norte de Londres), onde funcionou a Government Code and Cypher School (GC&CS), na qual se realizaram os trabalhos de decifração de códigos alemães durante a Segunda Guerra Mundial, sendo o mais conhecido a\n[…]\nEm Bletchley Park o matemático inglês Alan Turing desenvolveu a sua atividade de criptoanalista. Alan Turing desenvolveu o computador conhecido como bombe. Tudo isso foi retratado no filme \"O Jogo da Imitação\" (The Imitation Game), de 2014.\n[…]\nDurante o apogeu da Segunda Guerra Mundial, aproximadamente 10 mil pessoas trabalhavam em Bletchley Park, sendo que 75% delas eram mulheres, muitas delas vindas de famílias de classe média e com formação nas áreas de matemática, física, engenharia e línguas. Em setembro de 2017, no dia do aniversário de 78 anos que a Inglaterra declarou guerra à Alemanha, muitos desses trabalhadores (a maior parte com mais de 90 anos) se reencontrou no local.\n[…]\nUm fato curioso é que nem todos que estavam em Bletchley sabiam que estavam decodificando códigos dos nazistas. Já os que tinham conhecimento sobre o que estava acontecendo, não podiam falar sobre seu trabalho ali. Durante muitos anos foi mantido em segredo todo o trabalho realizado em Bletchley Park, por isso somente em 2009 o governo reconheceu oficialmente as contribuições feitas pelas pessoas que passaram pelo local.\n[…]\nO Bletchley Park era conhecido como \"B.P.\" pelas pessoas que trabalhavam lá. \"Estação X\" (X = número romano dez), \"London Signals Intelligence Center\" e “Government Communications Headquarters\" eram nomes secretos usados durante a guerra.\n[…]\nF. H. Hinsley e Alan Stripp, eds. Codebreakers: The Inside Story of Bletchley Park, Oxford University Press, 1993.\n[…]\nMuseu de Bletchley Park",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Skype",
+      "descricao": "Programa de chamadas de voz e vídeo pela internet lançado em 2003."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Skype, lançado em 2003 para chamadas pela internet, teve seu programa desenvolvido por engenheiros de qual país?",
+    "resposta": "Estônia",
+    "distratores": [
+      "Letônia",
+      "Lituânia",
+      "Finlândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Skype"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Skype",
+        "situacao": "ok",
+        "texto": "Skype ( ) was a proprietary telecommunications application operated by Skype Technologies, an acquired division of Microsoft, best known for IP-based videotelephony, videoconferencing and voice calls. It also had instant messaging, file transfer, debit-based calls to landline and mobile telephones (over traditional telephone networks), and other features. It was available on various desktop, mobil\n[…]\nSkype was created by Niklas Zennström, Janus Friis, and four Estonian developers, and first released on August 29, 2003. In September 2005, eBay acquired it for $2.6 billion. In September 2009, Silver Lake, Andreessen Horowitz, and the Canada Pension Plan Investment Board bought 65% of Skype for $1.9 billion from eBay, valuing the business at $2.92 billion. In May 2011, Microsoft bought Skype for $8.5 billion and used it to replace its own Windows Live Messenger.\n[…]\nAs of 2011, most of the development team and 44% of all the division's employees were in Tallinn and Tartu, Estonia.\n[…]\nSkype was founded in 2003 by Niklas Zennström, from Sweden, and Janus Friis, from Denmark. The software was created by Estonians Ahti Heinla, Priit Kasesalu, Jaan Tallinn, and Toivo Annus. Friis and Annus are credited with the idea of reducing the cost of voice calls by using a P2P protocol like that of Kazaa. An early alpha version was created and tested in spring 2003, and the first public beta version was released on 29 August 2003.\n[…]\nSkype came bundled with the following locales and languages: Arabic, Bulgarian, Catalan, Chinese (Traditional and Simplified), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Nepali, Norwegian, Polish, Portuguese (Brazilian and European), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Skype",
+        "situacao": "ok",
+        "texto": "Skype ([ˈskaɪp]) foi um software proprietário de mensagens e videoconferência, criado por Janus Friis e Niklas Zennstrom. O Skype estava disponível em várias plataformas incluindo computadores, smartphones, tablets e consoles de videogame, e era operado pela Skype Technologies, uma divisão da Microsoft. A ferramenta era conhecida por realizar chamadas telefônicas baseadas em VoIP, videoconferência\n[…]\nO software foi lançado no ano de 2003 por Niklas Zennström e Janus Friis, em cooperação com quatro outros desenvolvedores estonianos. Em setembro de 2005, o eBay adquiriu o Skype por 2,6 bilhões de dólares. Em 2009, Silver Lake, Andreessen Horowitz e a Canada Pension Plan Investment Board anunciaram a aquisição de 65% do Skype por 1,9 bilhões de dólares do eBay, o que atribuiu à empresa um valor de mercado de 2,92 bilhões.\n[…]\nSkype Technologies, a empresa por trás do software, foi fundada em 2003 pelo suíço Niklas Zennström e pelo dinamarquês Janus Friis.\n[…]\nNo fim de 2012, a Microsoft anunciou o encerramento do serviço Windows Live Messenger, para dedicar-se 100% ao Skype.\n[…]\nEm 2015, a Microsoft fechou um acordo com fabricantes de tablets Android, que viriam com o Skype já pré-instalado nos seus dispositivos. Em agosto do mesmo ano, a versão para Android do aplicativo recebeu uma atualização, tendo como novidades a personalização de toques e o encaminhamento de fotos de uma conversa para a outra. Além disso, é possível fazer chamadas em vídeo com várias pessoas ao mesmo tempo, dentro do aplicativo (para PC ou plataformas Android, IOS ou Windows Phone).\n[…]\nO Skype não substitui telefones fixos e telemóveis e não pode ser usado para ligações de emergência no Brasil. Há suporte limitado para chamadas de emergência no Reino Unido, Austrália, Dinamarca e Finlândia.\n[…]\nO Skype foi lançado para o PSP em 2008 e para o PSVita em 2012.\n[…]\nSkype for Business",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Patinho Feio (computador)",
+      "descricao": "Computador projetado e construído na Escola Politécnica da USP, concluído em 1972."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em qual universidade foi construído, em 1972, o Patinho Feio, um dos primeiros computadores projetados no Brasil?",
+    "resposta": "USP",
+    "distratores": [
+      "Unicamp",
+      "UFRJ",
+      "UFMG"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "MP3",
+      "descricao": "Formato de compressão de áudio digital que popularizou a música em arquivos de computador."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O formato de áudio MP3, que revolucionou a música digital, foi desenvolvido principalmente em qual país europeu?",
+    "resposta": "Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/MP3"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/MP3",
+        "situacao": "ok",
+        "texto": "MP3 (formally MPEG-1 Audio Layer III or MPEG-2 Audio Layer III) is an audio coding format developed largely by the Fraunhofer Society in Germany under the lead of Karlheinz Brandenburg.\n[…]\nAnother predecessor of the MP3 format and technology was the perceptual codec MUSICAM based on an integer arithmetic 32-sub-band filter bank, driven by a psychoacoustic model. It was primarily designed for Digital Audio Broadcasting (digital radio) and digital TV, and its basic principles were disclosed to the scientific community by CCETT (France) and IRT (Germany) in Atlanta during an IEEE-ICASSP conference in 1991, after having worked on MUSICAM with Matsushita and Philips since 1989.\n[…]\nThe MUSICAM format, based on sub-band coding, became the basis for the MPEG Audio compression format, incorporating, for example, its frame structure, header format, sample rates, etc.\n[…]\nWhile much of MUSICAM technology and ideas were incorporated into the definition of MPEG Audio Layer I and Layer II, the filter bank alone and the data structure based on 1152 samples framing (file format and byte-oriented stream) of MUSICAM remained in the Layer III (MP3) format, as part of the computationally inefficient hybrid filter bank.\n[…]\n14 selected bit rates are allowed in MPEG-1 Audio Layer III standard: 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256 and 320 kbit/s, along with the 3 highest available sampling rates of 32, 44.1 and 48 kHz.\n[…]\nMPEG-2 Audio Layer III also allows 14 globally lower bit rates of 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160 kbit/s with sampling rates of 16, 22.05 and 24 kHz which are exactly half that of MPEG-1.\n[…]\nComparison of audio coding formats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/MP3",
+        "situacao": "ok",
+        "texto": "O MP3 (MPEG-1/2 Audio Layer 3) é um dos primeiros tipos de compressão de áudio com perdas quase imperceptíveis ao ouvido humano. O seu bitrate (taxa de bits) é da ordem de kbps (quilobits por segundo), sendo 128 kbps a taxa-padrão, na qual a redução do tamanho do arquivo é de cerca de 90%, ou seja, o tamanho do arquivo passa a ser 1/10 do tamanho original.\n[…]\n2006: Na Alemanha, MP3 gera mais de 10.000 postos de trabalho e aproximadamente 300 milhões de euros de impostos. Os alemães gastam em média 1,5 bilhões de euros em MP3 players e produtos relacionados.[carece de fontes]?\n[…]\nApós a grandiosa fama na Internet, o MP3 causou grande revolução no mundo do entretenimento. Assim como o LP de vinil, o cassete de áudio e o CD, o MP4 se fortaleceu como um popular meio de distribuição de canções. A questão-chave para entender todo o sucesso do MP4 se baseia no fato de que, antes dele ser desenvolvido, uma música no computador era armazenada no formato WAV, que é o formato-padrão para arquivo de som em PCs, chegando a ocupar dezenas de megabytes em disco.\n[…]\nNa média, um minuto de música corresponde a 10 MB, para uma gravação de som de 16 bits estéreo com 44,1 KHz, o que resulta numa grande complicação a distribuição de músicas por computadores, principalmente pela Internet. Com o surgimento do MP3, essa história mudou, pois o formato permite armazenar músicas no computador sem ocupar muito espaço e sem tirar a qualidade sonora das canções. Geralmente, um minuto de música corresponde a cerca de 1 MB em MP3.\n[…]\nO MP3 (MPEG-1/2 Audio Layer 3) foi um dos primeiros tipos de arquivos a comprimir áudio com perda de dados, eficientemente, de forma quase imperceptível ao ouvido humano.\n[…]\nPara produzir, vender e/ou distribuir produtos que se utilizem do padrão MPEG-1/2 Audio Layer 3 e, portanto, de suas respectivas patentes, é necessário obter uma licença.\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Cafeteira da Trojan Room",
+      "descricao": "Cafeteira de um laboratório de informática da Universidade de Cambridge, filmada a partir de 1991 e famosa como a primeira webcam."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Uma cafeteira filmada a partir de 1991, e depois exibida na web, ficou famosa como a primeira webcam. Em qual universidade britânica ela ficava?",
+    "resposta": "Universidade de Cambridge",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot",
+        "situacao": "ok",
+        "texto": "The Trojan Room coffee pot was a coffee machine located in the Computer Laboratory of the University of Cambridge, England. It was the subject of the world's first webcam, created by Quentin Stafford-Fraser and Paul Jardetzky in 1991.\n[…]\nTo save people working in the building the disappointment of finding the coffee machine empty after making the trip to the room, a camera was set up providing a live picture of the coffee pot to all desktop computers on the office network. After the camera was connected to the Internet a few years later, the coffee pot gained international renown as a feature of the fledgling World Wide Web, until being retired in 2001.\n[…]\nThe last of the four or five coffee machines seen online, a Krups, was auctioned on eBay for £3,350 according to the German news website Der Spiegel. The pot was later refurbished pro bono by Krups employees, and was switched on again in the magazine's editorial office. Since the summer of 2016, the coffee maker is on permanent loan to the Heinz Nixdorf MuseumsForum in Paderborn.\n[…]\nSpoofs of the Trojan Room coffee machine ranged from the Hyper Text Coffee Pot Control Protocol,  a 1998 April Fools' Day specification for a communication protocol, to the 2002 video game Hitman 2: Silent Assassin, in which the player can destroy a \"coffee camera\" in a kitchen as a distraction. The coffee pot was also mentioned in the BBC Radio 4 drama The Archers on 24 February 2005.\n[…]\nTrojan Room Coffee Machine original website\n[…]\nHeinz Nixdorf Museum Paderborn - CoffeeCam Live View"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cafeteira_da_Sala_Trojan",
+        "situacao": "ok",
+        "texto": "A cafeteira da Sala Trojan (1991-2001), na Universidade de Cambridge, foi a primeira transmissão ao vivo via webcam na Internet, exibindo na taxa de três imagens por minuto quadros em escala de cinza de resolução 128x128.\n[…]\nUma dupla de cientistas da computação da universidade, Quentin Stafford-Fraser e Paul Jardetzky, acoplou uma câmera de vídeo reciclada a um computador velho e a um capturador de frames, e apontou na direção do pote de café. Eles escreveram um programa simples cliente-servidor para capturar a imagem da câmera a cada poucos minutos e distribuir a uma rede local, permitindo que as pessoas checassem se havia café sem ter de fazer uma longa viagem pelas escadarias.\n[…]\nEm 1993 uma nova webcam foi providenciada, e então conectada à Internet.\n[…]\nA cafeteira branca e não mais funcional, Krups ProAroma, foi leiloado no eBay com o valor inicial de 50 dólares, e arrematado por 5 mil dólares.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Microsoft",
+      "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade do Novo México?",
+    "resposta": "Albuquerque",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Microsoft"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Microsoft",
+        "situacao": "ok",
+        "texto": "Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence, video gaming, and more. A Big Tech company, Microsoft is the largest software company by reven\n[…]\nAllen worked on a simulator for the Altair while Gates developed the interpreter, and it worked flawlessly when they demonstrated it to MITS in March 1975 in Albuquerque, New Mexico. MITS agreed to distribute it, marketing it as Altair BASIC. Gates and Allen established Microsoft on April 4, 1975, with Gates as CEO, and Allen suggested the name \"Micro-Soft\", short for micro-computer software.\n[…]\nDuring the COVID-19 pandemic, Microsoft's president, Brad Smith, announced that it had donated an initial batch of supplies, including 15,000 protection goggles, infrared thermometers, medical caps, and protective suits, to healthcare workers in Seattle, with further aid to come.\n[…]\nHistorically, Microsoft has also been accused of overworking employees, in many cases, leading to burnout within just a few years of joining the company. The company is often referred to as a \"Velvet Sweatshop\", a term which originated in a 1989 Seattle Times article, and later became used to describe the company by some of Microsoft's own employees.\n[…]\nOn March 20, 2025, before an event at Seattle's Great Hall with Brad Smith and Steve Ballmer, protestors projected \"Microsoft powers genocide\" on the wall. Subsequently, two employees, software engineers Ibtihal Aboussad and Vaniya Agrawal, interrupted AI executive Mustafa Suleyman at a speaking event on April 4, 2025, in protest at the company's support of Israel.\n[…]\nMicrosoft engineering groups\n[…]\nMicrosoft Enterprise Agreement\n[…]\nBusiness data for Microsoft Corporation:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Microsoft",
+        "situacao": "ok",
+        "texto": "Microsoft Corporation (ou simplesmente Microsoft)(NASDAQ: MSFT) é uma empresa transnacional de tecnologia dos Estados Unidos com sede em Redmond, Washington, que desenvolve, fabrica, licencia, apoia e vende softwares de computador, produtos eletrônicos, computadores e serviços pessoais. Entre seus produtos de software mais conhecidos estão as linhas de sistemas operacionais Windows e a rede social\n[…]\nA Microsoft foi fundada por Bill Gates e Paul Allen em 4 de abril de 1975 para desenvolver e vender interpretadores BASIC para o Altair 8800. A empresa posteriormente iria dominar o mercado de sistemas operacionais de computadores pessoais com o MS-DOS, em meados da década de 1980, seguido pelo Microsoft Windows. A oferta pública inicial da empresa, em 1986, e o subsequente aumento no preço de suas ações, tornou bilionários e milionários cerca de um terço dos 12 mil funcionários da Microsoft.\n[…]\nA Microsoft foi fundada em 1975 por Bill Gates e Paul Allen. O primeiro produto desenvolvido pela empresa foi uma versão do interpretador BASIC, para o computador Altair 8800 da MITS. Em 1976 é lançado o Microsoft FORTRAN, para computadores baseados em CP/M.\n[…]\nEm setembro de 2013, foi anunciado na imprensa que a área de tele móveis da Nokia foi vendida para a Microsoft por 5,44 bilhões de euros. Em 4 de fevereiro de 2014, a Microsoft nomeou o indiano Satya Nadella como seu novo CEO, sucedendo Steve Ballmer.\n[…]\nBill Gates, com o passar do tempo, percebe que o seu sistema desenvolvido em Fortran para o Altair era inútil para o novo conceito de PCs, então compra o sistema da Companhia Seattle e o denomina de DOS, este novo sistema fazia a comunicação entre usuário e máquina via linha de comando e era distribuído na nova linha de computadores da IBM.\n[…]\nLista de ferramentas e serviços da Microsoft\n[…]\nMicrosoft Most Valuable Professional",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Me at the zoo",
+      "descricao": "Primeiro vídeo publicado no YouTube, em abril de 2005, por um dos fundadores do site, Jawed Karim."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O primeiro vídeo do YouTube, publicado em 2005 por um dos fundadores do site, foi gravado em que lugar de San Diego?",
+    "resposta": "No zoológico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Me_at_the_zoo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Me_at_the_zoo",
+        "situacao": "ok",
+        "texto": "\"Me at the zoo\" is a YouTube video uploaded on April 23, 2005, recognized as the first video uploaded to the platform. The 19-second video features Jawed Karim, one of the co-founders of YouTube, being recorded by his high school friend, Yakov Lapitsky. In the video, Karim is seen standing in front of two elephants at the San Diego Zoo in California, where he briefly comments on the length of thei\n[…]\nMultiple publications agreed that the video embodies YouTube as a whole. Business Insider ranked it the most important YouTube video of all time, stating that it is emblematic of YouTube's user-generated nature. The New York Observer also ranked it as the most important video in YouTube history, noting its historical significance. BuzzFeed News listed it among the 20 most important online videos of all time. As the first video on YouTube, it has also been described as the first YouTube vlog.\n[…]\nThe official San Diego Zoo YouTube account left a now-pinned comment on the video in 2020, stating \"We're so honored that the first ever YouTube video was filmed here!\" As of September 9, 2026, it is the most-liked comment on the platform, with 4.7 million likes. In February 2026, the Victoria and Albert Museum in London acquired a reconstructed early webpage and the \"Me at the zoo\" video, built by the museum's digital conservation team over 18 months.\n[…]\nKarim has repeatedly used the video's description to criticize YouTube's business actions.\n[…]\nIn response to Google requiring YouTube users to use Google+ accounts to comment on videos, he updated the description in November 2013 to say, \"why the fuck do i need a google+ account to comment on a video?\" He changed the video's description again in November 2021 in response to YouTube's decision to remove video dislikes from public view, stating, \"When every YouTuber agrees that removing dislikes is a stupid idea, it probably is."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Me_at_the_zoo",
+        "situacao": "ok",
+        "texto": "Me at the zoo é o primeiro vídeo publicado na plataforma YouTube. Foi postado em 23 de abril de 2005 às 20h27min (PDT) pelo cofundador do site Jawed Karim, com o nome de usuário \"jawed\" e gravado por seu amigo do ensino médio Yakov Lapitsky.\n[…]\nEle criou sua conta no mesmo dia. O vídeo de 19 segundos foi filmado por Yakov no Zoológico de San Diego, com Karim na frente dos elefantes em sua exposição em Elephant Mesa, detalhando suas longas trombas.\n[…]\nGreg Jarboe descreve a representação do vídeo de um \"momento comum\" como \"extraordinário\" para a época, demonstrando a visão do co-fundador do YouTube sobre o que o site se tornaria. De acordo com Jarboe, Me at the zoo mostrou que o YouTube não era apenas sobre \"capturar momentos especiais em vídeo\", mas também tentar capacitar os usuários \"a se tornarem os transmissores do amanhã\". Isso abriu caminho para o site se tornar a comunidade de vídeos online mais popular do mundo.\n[…]\nAaron Duplantier disse que a \"vida cotidiana\" comum e a \"estética seca\" de Me at the zoo definem o tipo de conteúdo amador original que se tornaria típico do YouTube, especialmente entre os youtubers e vloggers. Além de ser o primeiro vídeo, ele também foi descrito como o primeiro vlog do YouTube.\n[…]\nO Business Insider o classificou como o vídeo do YouTube mais importante de todos, afirmando que ele \"representa o YouTube — não precisa ser essa produção sofisticada; pode ser acessível. O primeiro vídeo do YouTube é algo que qualquer um pode criar por conta própria\". O New York Observer também classificou o vídeo como o mais importante na história do YouTube, afirmando ser \"praticamente um artefato histórico\". O BuzzFeed o listou entre os 20 vídeos online mais importantes de todos os tempos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "ILOVEYOU",
+      "descricao": "Vírus de computador que se espalhou por e-mail em maio de 2000 e infectou milhões de máquinas."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O vírus de computador I Love You, que se espalhou por e-mail em 2000 e infectou milhões de máquinas, foi criado em qual país?",
+    "resposta": "Filipinas",
+    "distratores": [
+      "Indonésia",
+      "Malásia",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ILOVEYOU"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ILOVEYOU",
+        "situacao": "ok",
+        "texto": "ILOVEYOU, sometimes referred to as the Love Bug or Loveletter, was a computer worm that infected tens of millions of Windows computers following its release on 4 May 2000. The worm was mainly distributed through email attachments sent to contacts on an infected system's address book, and is an example of malware using social engineering to aid its spread. Once run, the worm overwrites files with i\n[…]\nLocal internet service provider Sky Internet took down web pages delivering the WIN-BUGSFIX.exe trojan. ISPs also linked ILOVEYOU to a phone line registered to an apartment associated with de Guzman. De Guzman's mother warned him of the worm's public attention and hid his computer, but left behind floppy disks that unintentionally implicated other students from AMA Computer College. A police raid on 8 May 2000 led to the seizure of these disks and the arrest of de Guzman's sister's boyfriend.\n[…]\nILOVEYOU has repeatedly been named as one of the most destructive and virulent pieces of malware in history. Within ten days of the first reported cases, tens of millions of infections had been reported, and it is estimated that 10% of Internet-connected computers in the world were eventually affected. The damage caused by ILOVEYOU is difficult to quantify, but estimates in the 2020s place it at approximately US$10 billion.\n[…]\nILOVEYOU has led to the creation of several creative works. It inspired the song \"E-mail\" by the English pop duo Pet Shop Boys, included in their top-ten album Release. The 2011 movie Subject: I Love You, starring Jericho Rosales and Briana Evigan, was also based off the worm. Multiple art installations reference the worm, including the 2006 exhibition \"I love you [rev.eng]\" and a 2019 email exhibition entitled \"How to Prevent Hair Loss\".\n[…]\nComputer virus\n[…]\n\"No 'sorry' from Love Bug author\" at The Register\n[…]\nCERT Advisory CA-2000-04 Love Letter Worm (archive)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/ILOVEYOU",
+        "situacao": "ok",
+        "texto": "ILOVEYOU, às vezes nomeado Love Letter, foi um vírus de computador que afetou mais de 50 milhões de computadores Windows em 5 de maio de 2000. Seu nome oficial é \"LOVE-LETTER-FOR-YOU.txt.vbs\" (sendo essa última extensão .vbs escondida por padrão pelo Windows) e sua abreviação é ILOVEYOU. O vírus teve origem nas Filipinas, e espalhou-se via e-mail. O worm danificava a máquina local e mandava uma có\n[…]\nAo executar o arquivo, que tratava-se de um script em Visual Basic disfarçado de uma carta de amor vinda de um conhecido, o programa sobrescrevia arquivos no computador do usuário, como arquivos do pacote Microsoft Office, arquivos de áudio, imagens, entre outros.\n[…]\nO malware teve origem nos arredores de Manila, espalhando-se primeiramente para Hong Kong, depois para a Europa, e finalmente aos Estados Unidos, ao passo em que trabalhadores abriam seus emails em uma sexta-feira de manhã. O dano causado pelo software é estimado em US$5.5–8.7 bilhões, e sua remoção dos sistemas de computadores ao redor do mundo custou cerca de US$15 bilhões.\n[…]\nDentro de dez dias, mais de 50 milhões de computadores foram infectados, e estima-se que o vírus tenha afetado 10% dos dispositivos conectados à rede mundial de computadores. O Pentágono, a CIA, o Parlamento Britânico e grandes empresas decidiram suspender completamente seus serviços de email em reação à ameaça.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": ".tv",
+      "descricao": "Domínio de internet de primeiro nível atribuído a um país do Pacífico e muito usado por serviços de vídeo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O domínio de internet ponto tv, muito usado por canais e serviços de vídeo, é na verdade o código de qual país do Pacífico?",
+    "resposta": "Tuvalu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/.tv"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/.tv",
+        "situacao": "ok",
+        "texto": ".tv is the Internet country code top-level domain (ccTLD) for Tuvalu. The domain name is popular, and thus economically valuable, because TV also happens to be an abbreviation of the word television.\n[…]\nIn 1998, the government of Tuvalu sought to capitalise on the .tv suffix, later signing with the International Telecommunication Union, Information.CA, Idealab, Verisign, and currently GoDaddy to expand the domain. Except for reserved names like com.tv, net.tv, org.tv and others, anyone may register second-level domains under .tv. By 2019, 8.4% of the revenue of the government of Tuvalu came from .tv royalties, with hundreds of thousands of websites registered under the domain.\n[…]\nAs a small island-nation, Tuvalu used to have a low yearly income, which would eventually change with the local government's creation of the .tv domain.\n[…]\nThe domain was implemented and issued in the 1980s, after which the government of Tuvalu cooperated with the International Telecommunication Union to find a marketing partner for the domain. In 1998, the .tv Corporation was established as the exclusive .tv domain registrar under the management of Information.CA of Toronto, which agreed to pay US$50 million upfront to manage and market .tv registrations until 2048.\n[…]\nTuvalu's long-term habitability is threatened by climate change, with the island being barely above sea level. In response to the question of what would happen if a nation-state would cease to exist, the ICANN board stated: \"If the code element is removed, the ccTLD would be eligible for retirement."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/.tv",
+        "situacao": "ok",
+        "texto": ".tv (Tuvalu) é um domínio de topo (ccTLD) do Tuvalu. É relativamente popular (portanto, valioso), já que lembra a palavra \"televisão\".\n[…]\nNão é necessário viver ou estar registrado em Tuvalu para adquirir o domínio .tv, com exceção dos domínios reservados de terceiro nível (.com.tv, .net.tv, etc), os subdomínios de .tv podem registrar-se livremente. As receitas adquiridas por esse domínio são uma fonte importante de receita para o governo de Tuvalu. A administração do domínio está a encargo da Godaddy Registry, que ganhou o direito de operação, após o fim do contrato com a Verisign.\n[…]\nEm 1999, a start-up DotTV pagou a Tuvalu 50 milhões de dólares em 12 anos pelo direito de vender .tv para outras empresas.\n[…]\nAs enormes receitas obtidas por Tuvalu a partir da comercialização do domínio .tv geram controvérsias na pequena ilha do Pacífico Sul, principalmente porque, além de sites relacionados com a televisão, registram-se muitos sites de caráter pornográfico. Muitos habitantes de Tuvalu, em sua maioria cristãos, sentem-se conflitantes por beneficiarem-se diretamente dessa indústria.\n[…]\nPor outro lado, graças ao dinheiro obtido da comercialização do domínio .tv, Tuvalu pôde pagar a entrada nas Nações Unidas em 2000. Ali, a representação de Tuvalu tem sido ativa, sobretudo por mostrar seu apoio a Taiwan, seu aliado econômico.\n[…]\nLista de domínios de Internet\n[…]\nEconomia de Tuvalu",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Televisão em cores no Brasil",
+      "descricao": "Início das transmissões oficiais de televisão em cores no Brasil, em fevereiro de 1972."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1972, a primeira transmissão oficial de televisão em cores no Brasil mostrou a Festa da Uva. Em qual cidade gaúcha?",
+    "resposta": "Caxias do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_da_Uva",
+      "https://pt.wikipedia.org/wiki/Televis%C3%A3o_no_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festa_da_Uva",
+        "situacao": "ok",
+        "texto": "A Festa da Uva, oficialmente Festa Nacional da Uva, é uma feira e uma festa comunitária brasileira realizada atualmente a cada dois anos em Caxias do Sul, no estado do Rio Grande do Sul, comemorando a história, a cultura e a produção agroindustrial da cidade e da região. A Festa da Uva, como hoje é conhecida, evoluiu a partir de uma série de feiras agroindustriais realizadas entre 1881 e 1931, que\n[…]\nHoje a Festa da Uva é o maior e mais dinâmico símbolo de Caxias do Sul e o principal sustentáculo da sua identidade coletiva, tem uma sede permanente num grande parque de exposições e é um dos maiores eventos temáticos do Brasil, atraindo em cada edição quase um milhão de visitantes, desempenhando um papel fundamental para a divulgação da cidade, para a dinamização do turismo regional, e para o resgate e conhecimento da história e das tradições, sendo ainda uma plataforma importante para o aquecimento da economia caxiense, estabelecendo-se muitos negócios através da Feira Agroindustrial, que é parte essencial de sua estrutura desde o início.\n[…]\nAs edições desta fase se sucederam sem grandes novidades em relação à proposta que havia sido inaugurada em 1950, mas ganham um certo destaque as edições de 1965, quando foi realizado um concurso nacional para a confecção do cartaz oficial, e a de 1972, pela cobertura televisiva do evento, sendo a primeira transmissão a cores da televisão no Brasil.\n[…]\nEm 2016 a cidade recebeu 941 mil visitantes. Também é inconteste sua posição de maior símbolo de Caxias e de principal ponto de apoio de sua identidade coletiva, bem como é clara a sua importante função de resgatadora da memória e da história. Na apreciação de Espeiorin & Pozenato, \"a memória coletiva se infla em época de Festa da Uva e é ela quem sustenta a identidade da cidade. A imprensa regional incendeia esse imaginário social, ao buscar nos fatos históricos as marcas da comunidade local."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Televis%C3%A3o_no_Brasil",
+        "situacao": "ok",
+        "texto": "A televisão no Brasil tem início comercialmente em 18 de setembro de 1950, quando foi inaugurada a TV Tupi em São Paulo, com equipamentos trazidos por Assis Chateaubriand, fundando assim o primeiro canal de televisão no país. Cinco meses depois, em 20 de janeiro de 1951, entrou no ar a TV Tupi Rio de Janeiro. Desde então, a televisão cresceu no país e hoje representa um fator importante na cultura\n[…]\nO início da transmissão em cores de forma contínua aconteceria em 1972, por uma imposição do governo militar, que não via razão para o Brasil não se equiparar aos países que já possuíam o sistema implantado. A primeira transmissão foi da Festa da Uva de Caxias do Sul em 10 de fevereiro de 1972, pela TV Difusora de Porto Alegre, com apoio técnico da TV Rio, TV Gaúcha e TV Piratini.\n[…]\nCom a aquisição em 1970 do jornal Zero Hora pelo grupo formado pela Rádio Gaúcha e a TV Gaúcha e também a inauguração da TV Caxias em Caxias do Sul, inicia-se a RBS - Rede Brasil Sul de Comunicação, continuando as emissoras de televisão associadas à TV Globo.\n[…]\nEm 19 de fevereiro de 1972, é feita a primeira transmissão em cores da televisão brasileira com o sistema oficial adotado no Brasil, sistema PAL-M, a Festa da Uva direto de Caxias do Sul no Rio Grande do Sul, transmissão ainda para testes.\n[…]\nEm 10 de agosto de 1972, é inaugurada oficialmente a Rede Amazônica, em Manaus, com seu sinal transmitido em cores.\n[…]\nEssa novidade só chegou ao Brasil em 1990, através do Canal+, primeira televisão por assinatura do país, instalada por uma empresa francesa, nas cidades de São Paulo e Rio de Janeiro, usando o sistema MMDS, transmissão aérea, através de micro-ondas, também adotado em várias capitais europeias que não tinham uma grande rede de galerias telefônicas, como existem na maioria das grandes cidades americanas.\n[…]\nQuebra contratos de transmissão\n[…]\nHistória da Internet no Brasil\n[…]\nLista de redes de televisão do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Urna eletrônica brasileira",
+      "descricao": "Equipamento de votação eletrônica usado nas eleições do Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A urna eletrônica estreou nas eleições brasileiras em qual ano?",
+    "resposta": "1996",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica",
+      "https://en.wikipedia.org/wiki/Electronic_voting_in_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica",
+        "situacao": "ok",
+        "texto": "Urna eletrônica (português brasileiro) ou eletrónica (português europeu) ou máquina de votação é a combinação de equipamentos mecânicos, eletromecânicos ou eletrônico (incluindo software, firmware e documentação necessária para controle do programa e apoiar equipamento), que é usado para definir escrutínios; expressos e contagem de votos; para relatar ou exibir resultados eleitorais; e para manter\n[…]\nEm 2006, a invenção da urna eletrônica foi escolhida como um dos 40 fatos ligados à software e hardware que mudaram rumos nos últimos 40 anos pela \"SUCESU 40 ANOS\", promovido pela SUCESU — Associação de Usuários de Informática e Telecomunicações — por ter tornado as eleições \"mais ágeis, rápidas\" e a apuração \"transparente e segura\".\n[…]\nMáquinas DRE de 1.ª geração começaram a ser usadas em experiências na Índia em 1990, nos Países Baixos em 1991 e no Brasil em 1996, onde passaram a receber a denominação de \"urnas eletrônicas\". E foi no Brasil que pela primeira vez, em 2000, todos os eleitores votaram em urnas eletrônicas. Ainda existe uma controvérsia sobre o voto pelo celular no Brasil por não ter garantia de segurança, sigilo do voto e eficiência.\n[…]\nNa Venezuela, em 2004, foi adotado o \"modelo DRE com voto impresso\", de 2.ª geração. No Paraguai foram feitas experiências com as urnas eletrônicas brasileiras entre 2003 a 2006, mas em 2008 o seu uso foi proibido por falta de confiança no equipamento pelos partidos de oposição.\n[…]\nEm 2014, a Índia passou a usar urnas com voto impresso que atendem ao princípio da independência do software em sistemas eleitorais. O Equador implementará o voto eletrônico em suas eleições em 2017, fazendo um teste em 2014 em algumas províncias, usando as tecnologias desenvolvidas na Argentina, Venezuela e Rússia.\n[…]\nMedia relacionados com Urna eletrônica no Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Electronic_voting_in_Brazil",
+        "situacao": "ok",
+        "texto": "Electronic voting in Brazil was first deployed in 1996, in pilot use in dozens of municipalities including in the state of Santa Catarina, and was progressively expanded nationwide.\n[…]\nThe electronic voting machine used at polling places (urna eletrônica) is just one component of this broader infrastructure. Its design emphasizes operational simplicity for voters — often compared to the usability of a public phone booth, and it functions as a dedicated terminal that records each ballot locally, encrypts and stores the vote, and produces a digital tally at the end of the day.\n[…]\nThe first Brazilian voting machines were developed in 1996 by a Brazilian partnership of three companies Omnitech (previously known as TDA), Microbase and Unisys do Brasil attending the Superior Electoral Court (TSE) RFP for the Brazilian Elections in 1996. This machine was a modified IBM PC 80386 compatible clone, known as UE96. In 1998, Diebold-Procomp, Microbase and Samurai (formerly known as Omnitech) partnered to produce UE98.\n[…]\nThe original operating system was VirtuOS, similar to MS-DOS and includes multitasking support, was developed by Microbase. It was used in the 1996, 1998 and 2000 elections. In 2002, Unisys was unable to renew their partnership with Microbase, and were unable to reuse the VirtuOS based code. Microsoft stepped in, and provided licenses for the Windows CE operating system free of charge."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "IBM PC",
+      "descricao": "Computador pessoal lançado pela IBM que se tornou o padrão da indústria de microcomputadores."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano a IBM lançou seu computador pessoal, o IBM PC, que virou padrão da indústria?",
+    "resposta": "1981",
+    "distratores": [
+      "1975",
+      "1978",
+      "1985"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "situacao": "ok",
+        "texto": "The IBM Personal Computer (model 5150), often referred to as the IBM PC, is the first microcomputer released in the IBM PC model line and the basis for the IBM PC compatible de facto standard. Released on August 12, 1981, it was created by a team of engineers and designers at International Business Machines (IBM), directed by William C. Lowe and Philip Don Estridge in Boca Raton, Florida.\n[…]\nThe 8088 motherboard was designed in 40 days, with a working prototype created in four months, demonstrated in January 1981. The design was essentially complete by April 1981, when it was handed off to the manufacturing team. PCs were assembled in an IBM plant in Boca Raton, with components made at various IBM and third party factories. The monitor was an existing design from IBM Japan; the printer was manufactured by Epson.\n[…]\nThe IBM PC debuted on August 12, 1981, after development for one year. Pricing started at $1,565 for a configuration with 16 KB RAM, Color Graphics Adapter, keyboard, and no disk drives. The price was designed to compete with comparable machines in the market. For comparison, the Datamaster, announced two weeks earlier as IBM's least expensive computer, cost $10,000.\n[…]\nConnection to proprietary industrial or scientific equipment\n[…]\nIBM sold a number of computers under the \"Personal Computer\" or \"PC\" name throughout the 1980s. The name was not used for several years before being reused for the IBM PC Series in the 1990s and early 2000s. The PC line was replaced by the next generation IBM PS/2 in 1987 which introduced new hardware standards incompatible with those previously established by IBM and adopted in the IBM PC compatible industry.\n[…]\nIBM 5150 information at www.minuszerodegrees.net\n[…]\nIBM PC 5150 System Disks and ROMs\n[…]\nIBM-5150 and collection of old digital and analog computers at oldcomputermuseum.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/IBM_PC",
+        "situacao": "ok",
+        "texto": "Na tecnologia, o IBM 5150, popularmente chamado IBM Personal Computer, abreviado IBM PC (do inglês literalmente: Computador Pessoal IBM) é um computador do tipo pessoal ou doméstico lançado em 1981, utilizando o sistema operacional MS-DOS.\n[…]\nO PC original foi uma tentativa da empresa IBM de entrar no mercado de computadores domésticos, então dominado pelo computador pessoal Apple II da empresa Apple Inc em 1977, e por uma legião de máquinas com o sistema operacional CP/M. O PC original foi lançado em 12 de Agosto de 1981 com a denominação comercial IBM 5150.\n[…]\nPara azar da IBM, outros fabricantes rapidamente desenvolveram suas próprias versões do BIOS através de engenharia reversa — e com isso não precisavam pagar mais \"royalties\" à companhia. Em junho de 1982, a Columbia Data Products lançou o primeiro IBM PC compatível, o MPC (Multi Personal Computer), cuja configuração básica, por US$ 1 500 a menos, ostentava itens que eram opcionais no IBM PC padrão (o MPC básico oferecia 128 KiB de RAM, duas portas seriais e uma paralela).\n[…]\nOficialmente, o meio padrão de armazenamento do modelo IBM PC original era um gravador de cassetes. Tecnologicamente obsoleto, mesmo pelos padrões de 1981, foi raramente usado e poucos (se algum) IBM PC saíram da fábrica sem um acionador de disquetes instalado. O PC de 1981 tinha um ou dois \"drives\" de disquetes de 5\" 1/4 com 180 Kb, face simples e dupla densidade; os XT geralmente tinham um drive com 360 Kb de face dupla, ao lado do disco rígido.\n[…]\nIBM Corporation, (12 de agosto de 1981). Personal Computer Anunciado pela IBM (formato PDF). \"Press Release\" dos arquivos históricos da IBM.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Walkman",
+      "descricao": "Toca-fitas portátil com fones de ouvido lançado pela Sony."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Walkman, toca-fitas portátil da Sony que mudou o jeito de ouvir música, foi lançado em que ano?",
+    "resposta": "1979",
+    "distratores": [
+      "1972",
+      "1984",
+      "1989"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walkman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman (Japanese: ウォークマン, Hepburn: Wōkuman) is a brand of portable audio players manufactured by Sony since 1979. It was originally introduced as a portable cassette player and later expanded to include a range of portable audio products. Since 2011, the brand has referred exclusively to digital flash memory players.\n[…]\nIn March 1979, at the request of Masaru Ibuka, the audio department modified the small \"Pressman\" recorder used by journalists, into a smaller cassette player. After many people praised the good sound quality, Sony, under the leadership of Akio Morita, launched the Walkman in July 1979. Morita positioned Walkman in the youth market, emphasized youth, vitality, and fashion, and created a headset culture.\n[…]\nSony co-founder Masaru Ibuka used the company's bulky TC-D5 cassette recorder to listen to music while traveling for business. He asked the executive deputy president Norio Ohga to design a playback-only stereo version optimized for walking. The metal-cased blue-and-silver Walkman TPS-L2, the world's first low-cost personal stereo, went on sale in Japan on 1 July 1979, and was sold for around ¥33,000 (or $150.00).\n[…]\nSony also hired actors to pose with the Walkman around the streets of Tokyo as an additional form of promotion.\n[…]\nIn the early 2000s, Sony debuted Plato, a blue alien, as its mascot for the Walkman.\n[…]\nIn 2025, a cassette Walkman from 1979 (model TPS-L2 ) was included in Pirouette: Turning Points in Design, an exhibition at the Museum of Modern Art featuring \"widely recognized design icons [...] highlighting pivotal moments in design history.\"\n[…]\nSince 2017, Sony provided the Music Center for PC software on Microsoft Windows, designed for both content transfer and also playback for Walkman and other audio products.\n[…]\nList of Sony Walkman products\n[…]\nSony Watchman\n[…]\nWalkman effect\n[…]\nSony"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman® é uma marca popular de uma série de tocadores ou leitores de áudio portáteis pertencente à Sony. O termo Walkman também é utilizado para se referir a aparelhos portáteis similares de reprodução de áudio estéreo de outros fabricantes. Com sua chegada, costuma-se dizer que mudaram os hábitos musicais, uma vez que cada pessoa pode carregar e ouvir seus sons preferidos e, principalmente, sem \n[…]\nO Walkman original foi criado em 1979 no Japão e levava o nome de Soundabout, no exterior. Foi criado pelo coordenador do setor de áudio da Sony Nobutoshi Kihara para um dos sócios da empresa, Akio Morita, que queria escutar ópera durante seu trabalho desgastante. Morita odiou o nome Walkman e pediu para ser alterado. Mas uma campanha de divulgação com o nome Walkman já tinha sido iniciada e alterá-lo sairia demasiado caro.\n[…]\nQuando o primeiro aparelho ficou pronto, em abril de 1979, os vendedores não ficaram muito entusiasmados com a ideia e afirmaram que o Walkman venderia pouco. Akio Morita que acreditava no novo produto, então, propôs um desafio: se o Walkman não vendesse pelo menos 100 mil unidades em seus dois primeiros anos de mercado, ele renunciaria à presidência da Sony. Akio ganhou a aposta e naquele período cerca de 1,5 milhões de tocadores de áudio Walkman foram vendidos entre 1979 e 1981.\n[…]\nO Walkman original azul e prateado, modelo TPS-L2, foi colocado à venda no Japão em 1 de julho de 1979. No Reino Unido recebeu estereofonia (estéreo) e duas entradas para minifones, permitindo a duas pessoas ouvirem o mesmo aparelho ao mesmo tempo (embora fosse vendido com apenas um par de fones de ouvido). Também recebeu um botão chamado pressman, que ativava um microfone interno e cancelava parcialmente o som da fita cassete e permitindo o usuário falar sobre a música reproduzida.\n[…]\nSony Watchman\n[…]\nSony Walkman Portugal\n[…]\nSony Walkman Oficial Brasil\n[…]\nSony Walkman Shop Amazon Walkman opslaan",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Orkut",
+      "descricao": "Rede social do Google lançada em 2004, extremamente popular no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A rede social Orkut, que foi febre entre os brasileiros nos anos dois mil, foi desativada pelo Google em que ano?",
+    "resposta": "2014",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orkut",
+      "https://pt.wikipedia.org/wiki/Orkut"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orkut",
+        "situacao": "ok",
+        "texto": "Orkut was a social networking service owned and operated by Google. The service was designed to help users meet new and old friends and maintain existing relationships. The website was named after its creator, Google employee Orkut Büyükkökten.\n[…]\nOn June 30, 2014, Google announced it would be closing Orkut on September 30, 2014. No new accounts could be created starting from July 2014. Users could download their profile archive by Google Takeout.\n[…]\nThemes were only available in Brazil and India. Orkut was arguably 'the only thriving social networking site' in India during 2005–2008. Orkut was the first Google customer to have OpenSocial support.\n[…]\nMany other sites have been published in Iran since Orkut's blockage, using the same social-networking model – examples include MyPardis, Cloob and Bahaneh.\n[…]\nOn June 30, 2014, Google announced that Orkut would be shutting down completely on September 30, 2014. Users could export their photo albums before the final shutdown date. Orkut profiles, scraps, testimonials, and community posts could be exported until September 2016. Google engineering director Paulo Golgher said in a blog post: \"Over the past decade, Facebook, YouTube, Blogger and Google+ have taken off, with communities springing up in every corner of the world.\n[…]\nHowever, the public contents of all public communities were archived by Google, and are available permanently for consulting online in the Orkut Community Archive Orkut - Community archive (although editing is no longer possible).\n[…]\nSocial software\n[…]\nde Sa, Vanessa Mendes Moreira. \"Piracy & Social Change| From Orkut to Facebook: How Brazilian Pirate Audiences Utilize Social Media to Create Sharing Subcultures.\" International Journal of Communication 9 (2015): 18+ online."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orkut",
+        "situacao": "ok",
+        "texto": "Orkut foi uma rede social filiada ao Google, criada em 24 de janeiro de 2004 e desativada em 30 de setembro de 2014. Seu nome é originado no projetista chefe, Orkut Büyükkökten, engenheiro turco do Google.\n[…]\nO alvo inicial do Orkut era os Estados Unidos, mas a maioria dos usuários foram do Brasil e da Índia. No Brasil a rede social teve mais de 30 milhões de usuários, mas foi ultrapassada pelo líder mundial, o Facebook. Na Índia também foi a segunda rede social mais visitada.\n[…]\nO Google anunciou em 19 de novembro de 2008 que disponibilizaria gradualmente aos usuários brasileiros uma ferramenta para bate-papo integrada ao Orkut. A rede social já funcionava com o Google Talk, mas a novidade simplifica o acesso e uso do chat.\n[…]\nNo início de 2012 o Orkut foi ultrapassado pelo Facebook que se tornou a maior rede social no Brasil, durante o mês de dezembro de 2011, segundo dados da Comscore divulgados em janeiro. Pesquisa da companhia mostrou que a rede fundada por Mark Zuckerberg atraiu 36,1 milhões de visitantes durante o período, superando os 34,4 milhões registrados pela rede social do Google.\n[…]\nEm um comunicado publicado em 30 de junho de 2014, o Google anunciou que iria descontinuar a rede social a partir do dia 30 de setembro do mesmo ano. Nessa data, novas inscrições para o site foram encerradas, sendo que o site continuou funcionando normalmente até o dia de seu encerramento. O Google também anunciou que as comunidades públicas da rede social seriam mantidas em um arquivo público. Segundo o jornal Folha de S.\n[…]\nApós seu encerramento, surgiram clones da rede social na internet, como o orkut.li, orkuti, orkutando, orkutbr.com e o orkut.br.com.\n[…]\nwww.orkut.com"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Internet no Brasil",
+      "descricao": "História e desenvolvimento da rede mundial de computadores no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o governo liberou a exploração comercial da internet no Brasil, antes restrita a universidades e centros de pesquisa?",
+    "resposta": "1995",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Internet_no_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Internet_no_Brasil",
+        "situacao": "ok",
+        "texto": "A Internet no Brasil chega em 1988 por decisão inicial da sociedade de estudantes e professores universitários paulistanos (Fundação de Amparo à Pesquisa do Estado de São Paulo, liderada por Oscar Sala) e fluminenses (Universidade Federal do Rio de Janeiro e Laboratório Nacional de Computação Científica).\n[…]\nEm 1989, a Universidade Federal do Rio de Janeiro também se conectou à Bitnet através de uma universidade americana, tornando-se a terceira instituição a ter acesso a essa tecnologia. Nesse ano, com o apoio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), foi criada a Rede Nacional de Pesquisa (RNP), organização que veio a ser conhecida como a criadora da Internet no Brasil.\n[…]\nNos anos seguintes, seguiu-se o processo de divulgação dos benefícios da internet entre os estudantes e empresas privadas. Em 1994, alunos da USP criaram inúmeras páginas na Web. Somente em 1995 (com os sistemas implantados a partir de 1992) foi realizada a primeira transmissão a longa distância entre os estados, realizada por São Paulo e Rio Grande do Sul, e finalmente neste mesmo ano foi liberada a operação comercial no Brasil.\n[…]\nEm 1995, foi lançado o primeiro motor de pesquisa brasileiro: o Cadê?. O buscador fez bastante sucesso nos seus primeiros anos de lançamento, mas perdeu a força durante o tempo com a ascensão de outros competidores no ramo de buscadores de internet como o Google Busca. Com isso, em 2002, foi comprado pelo Yahoo!.\n[…]\n1995 — Criação do Comitê Gestor da Internet no Brasil (CGI.br); site do Jornal do Brasil;\n[…]\nCarvalho, Marcelo de (2006). A Trajetória da Internet no Brasil: do surgimento das redes de computadores à instituição dos mecanismos de governança (pdf) (Dissertação de mestrado). Cópia arquivada (PDF) em 28 de setembro de 2021"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados por barras paralelas de larguras variadas, lida por scanners ópticos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete. Em que década isso aconteceu?",
+    "resposta": "Década de 1970",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Universal_Product_Code"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+        "situacao": "ok",
+        "texto": "The Universal Product Code (UPC or UPC code) is a barcode symbology that is used worldwide for tracking trade items in stores.\n[…]\nThe first UPC-marked item ever to be scanned at a retail checkout was a 10-pack (50 sticks) of Wrigley's Juicy Fruit chewing gum, purchased at the Marsh supermarket in Troy, Ohio, at 8:01 a.m. on 26 June 1974. The NCR cash register rang up 67 cents.\n[…]\nThe shopping cart also contained other barcoded items but the gum was the first one picked up at the checkout. A facsimile of the gum packet went on display at the Smithsonian Institution's American history museum in Washington, D.C.\n[…]\nAround late 1969, IBM at Research Triangle Park (RTP) in North Carolina assigned George Laurer to determine how to make a supermarket scanner and label. In late 1970, Heard Baumeister provided equations to calculate characters-per-inch achievable by two IBM bar codes, Delta A and Delta B. In February 1971, Baumeister joined Laurer."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_Universal_de_Produtos",
+        "situacao": "ok",
+        "texto": "O Código Universal de Produto (UPC ou código UPC) é uma simbologia de código de barras amplamente utilizada mundialmente para rastreamento de itens comerciais em lojas.\n[…]\nNa década de 1960 e início da década de 1970, as ferrovias da América do Norte experimentaram códigos de barras multicoloridos para rastrear vagões, mas esse sistema acabou sendo abandonado e substituído por um sistema baseado em rádio chamado Identificação Automática de Equipamento (AEI).\n[…]\nO primeiro item com a marca UPC a ser escaneado em um caixa de varejo foi um pacote de 50 chicletes Wrigley's Juicy Fruit, comprado no supermercado Marsh em Troy, Ohio, às 8h01 em 26 de junho de 1974. A caixa registradora NCR registrou 67 centavos. O carrinho de compras também continha outros itens com código de barras, mas o chiclete foi o primeiro retirado no caixa. Um fac-símile do pacote de chicletes foi exibido no museu de história americana do Smithsonian Institution em Washington, DC.\n[…]\nPor volta do final de 1969, a IBM, do Research Triangle Park (RTP), na Carolina do Norte, designou George Laurer para determinar como fazer um scanner e uma etiqueta de supermercado. No final de 1970, Heard Baumeister forneceu equações para calcular caracteres por polegada alcançáveis por dois códigos de barras IBM, Delta A e Delta B. Em fevereiro de 1971, Baumeister juntou-se à Laurer.\n[…]\nCada código de barras UPC-A consiste em uma faixa digitalizável de barras pretas e espaços brancos acima de uma sequência de 12 dígitos numéricos. Nenhuma letra, caractere ou outro conteúdo de qualquer tipo pode aparecer em um código de barras UPC-A.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Máquina diferencial",
+      "descricao": "Calculadora mecânica projetada por Charles Babbage no século dezenove para calcular tabelas de polinômios."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Projetada por Charles Babbage no século dezenove, a máquina diferencial número dois só foi construída de fato, pelo Museu de Ciência de Londres, em que década?",
+    "resposta": "Década de 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Difference_engine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Difference_engine",
+        "situacao": "ok",
+        "texto": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was created by Charles Babbage. The name difference engine is derived from the method of finite differences, a way to interpolate or tabulate functions by using a small set of polynomial co-efficients.\n[…]\nCharles Babbage began to construct a small difference engine in c. 1819 and had completed it by 1822 (Difference Engine 0). He announced his invention on 14 June 1822, in a paper to the Royal Astronomical Society, entitled \"Note on the application of machinery to the computation of astronomical and mathematical tables\". This machine used the decimal number system and was powered by cranking a handle.\n[…]\nAmerican George B. Grant started working on his calculating machine in 1869, unaware of the works of Babbage and Scheutz (Schentz). One year later (1870) he learned about difference engines and proceeded to design one himself, describing his construction in 1871. In 1874 the Boston Thursday Club raised a subscription for the construction of a large-scale model, which was built in 1876. It could be expanded to enhance precision and weighed about 2,000 pounds (910 kg).\n[…]\nDuring the 1980s, Allan G. Bromley, an associate professor at the University of Sydney, Australia, studied Babbage's original drawings for the Difference and Analytical Engines at the Science Museum library in London. This work led the Science Museum to construct a working calculating section of difference engine No. 2 from 1985 to 1991, under Doron Swade, the then Curator of Computing. This was to celebrate the 200th anniversary of Babbage's birth in 1991.\n[…]\n2\n[…]\n2\n[…]\n2\n[…]\n2\n[…]\n2\n[…]\n2\n[…]\n2\n[…]\nMeccano Difference Engine #2\n[…]\nBabbage's First Difference Engine – How it was intended to work\n[…]\nAnalysis of Expenditure on Babbage's Difference Engine No. 1"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_diferencial",
+        "situacao": "ok",
+        "texto": "A máquina diferencial foi um invento de Charles Babbage, para cálculos com polinômios.\n[…]\nAlgumas pessoas tentavam conceber máquinas que executassem este tipo de cálculo, tendo sido construídos vários modelos. A máquina mais avançada, entretanto, jamais entrou em produção: a chamada máquina diferencial de Babbage.\n[…]\nUm modelo foi apresentado por Babbage, na Inglaterra, em 1822, capaz de resolver equações polinômicas através de diferenças entre números, e assim, de efetuar os cálculos necessários para construir tabelas de logaritmos.\n[…]\nA máquina tinha a capacidade de receber dados, processá-los, armazená-los e exibi-los. Graças a ela Babbage ficou conhecido como o pai do computador e conseguiu apoio governamental para criar um modelo mais complexo, a \"Maquina Analítica\".\n[…]\nDevido a problemas de engenharia e a conflitos pessoais e políticos de Babbage, o projeto do Engenho Analítico jamais foi concluído.\n[…]\nQuais os benefícios que a máquina diferencial trouxe?\n[…]\nFoi a primeira tentativa de se construir uma máquina de computação que fosse automática e adaptável;\n[…]\nFoi um dos pontos de partida para a indústria de máquinas.\n[…]\nEm 1991, o Science Museum em Londres construiu a máquina diferencial de Babbage n° 2 para uma exposição sobre a história da computação.\n[…]\nMáquina analítica\n[…]\n(em inglês) Máquina diferencial construída com blocos LEGO.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Tempo Unix",
+      "descricao": "Sistema de contagem do tempo em segundos a partir de uma data de referência, usado em muitos computadores."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Muitos sistemas de computador medem o tempo contando os segundos a partir de qual data, chamada de época Unix?",
+    "resposta": "Primeiro de janeiro de 1970",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Unix_time"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Unix_time",
+        "situacao": "ok",
+        "texto": "Unix time is a date and time representation widely used in computing. It measures time by the number of non-leap seconds that have elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch. For example, at midnight on 1 January 2010, Unix time was 1262304000.\n[…]\nThe Unix time_t data type that represents a point in time is, on many platforms, a signed integer, traditionally of 32 bits (but see below), directly encoding the Unix time number as described in the preceding section. A signed 32-bit value covers about 68 years before and after the 1970-01-01 epoch. The minimum representable date is Friday 1901-12-13, and the maximum representable date is Tuesday 2038-01-19.\n[…]\nThe precise definition of Unix time as an encoding of UTC is only uncontroversial when applied to the present form of UTC. The Unix epoch predating the start of this form of UTC does not affect its use in this era: the number of days from 1 January 1970 (the Unix epoch) to 1 January 1972 (the start of UTC) is not in question, and the number of days is all that is significant to Unix time.\n[…]\nDate range cutoffs are not an issue with 64-bit representations of Unix time, as the effective range of dates representable with Unix time stored in a signed 64-bit integer is over 584 billion years, or 292 billion years in either direction of the 1970 epoch.\n[…]\nUnix time is not the only standard for time that counts away from an epoch. The C# programming language's DateTime structure, the FILETIME type in Windows, and Azure Cosmos DB's GetCurrentTicksStatic function store time as a count of 100-nanosecond intervals that have elapsed since 0:00 GMT on 1 January 1 AD, 1 January 1601, and 1 January 1970, which will not overflow until the years 29228, 30828, and 31197, respectively.\n[…]\nSystem time"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Era_Unix",
+        "situacao": "ok",
+        "texto": "A Era UNIX ou Posix Time ou Unix epoch ou Unix Timestamp teve início no dia a 1 de janeiro de 1970. O nome se deve ao fato de esta data, dia 1 de janeiro de 1970 às 00:00:00 do Tempo Universal Coordenado (UTC) no calendário gregoriano proléptico, ser o marco zero do sistema de calendário usado pelo sistema operacional UNIX. Também pode ser chamada de era POSIX.\n[…]\nPor exemplo, para nós, saber o que aconteceu primeiro, se foi algo em 10/04/1977 12:45:15 ou algo em 10/03/1976 13:09:12 é algo quase automático mas para resolver isso em um computador todos os 6 campos teriam que ser analisados independentemente, apesar disso ser realizado quase que instantâneamente não deixa de ser um trabalho extra que o processador poderia evitar se fizesse uso de outro formato de data.\n[…]\nPara resolver problemas do tipo dos citados acima e para unificar um formato de data foi criada a marca temporal UNIX, que é uma forma de calendário amplamente utilizada em sistemas computacionais principalmente os baseados no sistema operacional UNIX.\n[…]\nEla é simplesmente um contador que teve seu valor zero associado com a data 01/01/1970 00:00:00UTC, e que é incrementado a cada segundo, assim:\n[…]\n01/01/1970 00:00:00 UTC → 0\n[…]\n01/01/1970 00:00:25 UTC → 25\n[…]\n01/01/1970 00:01:00 UTC → 60\n[…]\n01/01/1970 01:00:00 UTC → 3 600\n[…]\n02/01/1970 00:00:00 UTC → 86 400\n[…]\nA solução mais simples seria redefinir o tipo time_t para ser uma unsigned int32, mas isso tem o efeito colateral de complicar os cálculos e comparações com as datas, e de criar um novo problema semelhante no ano 2106, quando então o contador atingiria o valor máximo de 4294967296 passando em seguida para 0 o que retornaria para o ano de 1970 (um regresso de 136 anos).\n[…]\nPrimeira edição do manual de programação Unix\n[…]\nConversor de Unix Timestamp para Data e vice-versa\n[…]\nConversor UNIX timestamp\n[…]\nUnixtime online: Converte data UNIX para texto (inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Bluetooth",
+      "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da tecnologia sem fio Bluetooth homenageia qual rei viquingue do século dez?",
+    "resposta": "Haroldo Dente-Azul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bluetooth",
+      "https://en.wikipedia.org/wiki/Harald_Bluetooth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth is a short-range Wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs). In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres (33 ft). It employs UHF radio waves in the ISM bands, from 2.402 GHz to 2.48 GHz.\n[…]\nBluetooth Channel Sounding\n[…]\nWhile the previous KNOB and BIAS attacks allowed an attacker to decrypt and spoof Bluetooth packets within a session, BLUFFS extends this capability to all sessions generated by a device (including past, present, and future). All devices running Bluetooth versions 4.2 up to and including 5.4 are affected.\n[…]\nBluetooth uses the radio frequency spectrum in the 2.402 GHz to 2.480 GHz range, which is non-ionizing radiation, of similar bandwidth to that used by wireless and mobile phones. No specific harm has been demonstrated, even though wireless transmission has been included by IARC in the possible carcinogen list. Maximum power output from a Bluetooth radio is 100 mW for Class 1, 2.5 mW for Class 2, and 1 mW for Class 3 devices.\n[…]\nThe Bluetooth Innovation World Cup, a marketing initiative of the Bluetooth Special Interest Group (SIG), was an international competition that encouraged the development of innovations for applications leveraging Bluetooth technology in sports, fitness and health care products. The competition aimed to stimulate new markets.\n[…]\nThe Bluetooth Innovation World Cup morphed into the Bluetooth Breakthrough Awards in 2013. Bluetooth SIG subsequently launched the Imagine Blue Award in 2016 at Bluetooth World. The Bluetooth Breakthrough Awards program highlights the most innovative products and applications available today, prototypes coming soon, and student-led projects in the making.\n[…]\nSpecifications at Bluetooth SIG"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+        "situacao": "ok",
+        "texto": "Harald \"Bluetooth\" Gormsson (Old Norse: Haraldr Blátǫnn Gormsson; Danish: Harald Blåtand Gormsen, died c. 985/86) was a king of Denmark and Norway.\n[…]\nThe first documented appearance of Harald's nickname \"Bluetooth\" (as blatan; Old Norse *blátǫnn) is in the Chronicon Roskildense (written c. 1140), alongside the alternative nickname Clac Harald. Clac Harald appears to be a conflation of Harald Bluetooth with the legendary or semi-legendary Harald Klak, son of Halfdan.\n[…]\nAfter his conversion, around the 960s, Harald had his father's body reburied in the church next to the now empty mound. He had the Jelling stones erected to honour his parents. The biography of Harald Bluetooth is summed up by this runic inscription from the Jelling stones:\n[…]\nThe Bluetooth wireless specification design was named after the king in 1997, based on an analogy that the technology would unite devices the way Harald Bluetooth united the tribes of Denmark into a single kingdom. The Bluetooth logo consists of a Younger Futhark bind rune for his initials, H (ᚼ) and B (ᛒ).\n[…]\nHagrold, a 10th-century Danish Viking in Normandy, mentioned as a Danish king, who became conflated with Harald Bluetooth in a later historical account.\n[…]\nThis article incorporates text from the 1913 Catholic Encyclopedia article \"Harold Bluetooth\" by Pius Wittmann, a publication now in the public domain.\n[…]\nLund, Niels (2002). \"Harald Bluetooth - A Saint Very Nearly Made by Adam of Bremen\". In Jesch, Judith (ed.). The Scandinavians from the Vendel Period to the Tenth Century. Woodbridge, UK: Boydell Press. pp. 303–320. ISBN 9781 84383 728 2.\n[…]\nHarold 2 at Prosopography of Anglo-Saxon England"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth é um padrão de tecnologia sem fio de curto alcance usado para troca de dados entre dispositivos fixos e móveis em distâncias curtas e construção de redes de área pessoal (PANs). No modo mais utilizado, a potência de transmissão é limitada a 2,5 miliwatts, proporcionando um alcance muito curto de até 10 metros (33 pés). Emprega ondas de rádio UHF nas bandas ISM, de 2,402 GHz a 2,48 GHz.\n[…]\nDe acordo com o site oficial do Bluetooth,\n[…]\nBluejacking é o envio de uma imagem ou mensagem de um usuário para um usuário desavisado por meio da tecnologia sem fio Bluetooth. Aplicações comuns incluem mensagens curtas, por exemplo, \"Você acabou de ser roubado!\". Bluejacking não envolve a remoção ou alteração de quaisquer dados do dispositivo. Bluejacking também pode envolver assumir o controle de um dispositivo móvel sem fio e telefonar para uma linha de tarifa premium, de propriedade do bluejacker.\n[…]\nO vírus foi descrito pela primeira vez pela Kaspersky Lab e exige que os usuários confirmem a instalação de software desconhecido antes que ele possa se propagar. O vírus foi escrito como uma prova de conceito por um grupo de criadores de vírus conhecido como \"29A\" e enviado para grupos de antivírus. Portanto, deve ser considerado como uma ameaça de segurança potencial (mas não real) à tecnologia Bluetooth ou Symbian OS, pois o vírus nunca se espalhou fora desse sistema.\n[…]\nA Bluetooth Innovation World Cup, uma iniciativa de marketing do Bluetooth Special Interest Group (SIG), foi uma competição internacional que incentivou o desenvolvimento de inovações para aplicações que utilizam a tecnologia Bluetooth em produtos esportivos, fitness e de saúde. A competição visava estimular novos mercados.\n[…]\nLista de perfis Bluetooth - recursos usados ​​na pilha Bluetooth\n[…]\nhttps://rz1.com.br/  Bluetooth: A Tecnologia Sem Fios Que Conectou o Mundo«Página oficial»\n[…]\nWNews: Bluetooth? O que é isso, afinal?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Sony",
+      "descricao": "Empresa japonesa de eletrônicos e entretenimento fundada em Tóquio em 1946."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da japonesa Sony vem em parte da palavra latina sonus. O que ela significa?",
+    "resposta": "Som",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sony"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sony",
+        "situacao": "ok",
+        "texto": "Sony Group Corporation is a Japanese multinational conglomerate headquartered at the Sony City building in Minato, Tokyo. The Sony Group is a highly diversified global conglomerate with businesses spanning video games, music, film and television, consumer electronics, imaging and sensing, semiconductors, financial services and others.\n[…]\nThe joint venture came to an end in October 2008 when Sony acquired Bertelsmann's remaining 50% stake for $1.2 billion, gaining full ownership of the joint catalog and reverting the enterprise name back to Sony Music Entertainment. Following the buyout, former BMG imprints like RCA, Arista, and Jive were fully integrated into Sony's corporate hierarchy.\n[…]\nSony Group operates under a corporate governance structure that separates the oversight functions of the Board of Directors from the execution of business operations by the management team. Sony operates as a \"Company with Three Committees\" under Japan's Companies Act, with separate Nominating, Audit and Compensation Committees.\n[…]\nThe Group's management structure combines centralized corporate oversight with substantial autonomy at the business level. The President and CEO, who is responsible for the overall management of Sony Group, delegates authority to senior executives according to their respective responsibilities.\n[…]\nSony's executive management consists of senior executives responsible for Group-wide strategy, financial management, digital transformation, human resources and other corporate functions.\n[…]\nSony Group Corporation and its corporate divisions have been subjected to significant public backlash, multi-national regulatory scrutiny and legal proceedings related to their business practices, technological choices and corporate policies.\n[…]\nSony Corporation\n[…]\nSony PlayStation\n[…]\nSony Music\n[…]\nSony Music Publishing\n[…]\nSony Financial Group"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sony",
+        "situacao": "ok",
+        "texto": "Sony Group Corporation (Sonī Gurūpu Kabushiki gaisha, conhecida simplesmente como Sony, estilizado como 𝐒𝐎𝐍𝐘) é um conglomerado multimídia japonês e a 140° maior empresa do planeta.\n[…]\nO nome \"Sony\" foi escolhido como uma mistura de duas palavras. Um deles foi, do latim, a palavra \"Sonus\", que significa a origem do som, e o outro era \"Sonny\", um termo familiar utilizado em 1950 na América para chamar um menino. O primeiro produto da marca Sony, o TR-55 rádio transistor, surgiu em 1955, mas o nome da empresa não mudou até janeiro de 1958, ano em que se tornou a Sony, pois foi apenas neste ano que a empresa entrou oficialmente na Bolsa de Valores de Nova York.\n[…]\nA SONY comprou os 50% restantes da parte de Michael Jackson em 2016 e, portanto, passou a ser a companhia de publicação de músicas número 1 do mundo, recebendo até mesmo o ofício de publicar músicas que a Universal Music não dava conta de publicar tão rapidamente, no âmbito de distribuição de mídias físicas (SONY CD, SONY DVD e SONY Blu-ray) mundialmente.\n[…]\nA conclusão da venda da EMI culminou no dia 28 de setembro de 2012. Porém, como a Universal Music deu continuidade à EMI, todos os artistas da EMI acabaram permanecendo na gravadora, que esta sendo revivida pela Universal Music e, com isso, agora todos esses artistas fazem parte da Universal Music. No entanto, todas as músicas de todos esses artistas publicadas até 28 de setembro de 2012 pertencem à SONY Music em direitos autorais.\n[…]\nA SONY planejava implementar esta tecnologia em sistemas de trem na Indonésia até o fim de 2016.\n[…]\nSony Interactive Entertainment\n[…]\nSony Mobile\n[…]\nSony Pictures\n[…]\nSony Brasil\n[…]\nSony Portugal\n[…]\nSony Pictures Brasil\n[…]\nSony Pictures Portugal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Java (linguagem de programação)",
+      "descricao": "Linguagem de programação orientada a objetos lançada em 1995."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A linguagem de programação Java recebeu esse nome em referência a qual bebida?",
+    "resposta": "Café",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+        "situacao": "ok",
+        "texto": "Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are usually compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer a\n[…]\nJava uses an automatic garbage collector to manage memory in the object lifecycle. The programmer determines when objects are created, and the Java runtime is responsible for recovering the memory once objects are no longer in use. Once no references to an object remain, the unreachable memory becomes eligible to be freed automatically by the garbage collector.\n[…]\nThe following is an example of a \"Hello, World!\" program in the traditional Java syntax:\n[…]\nJava applets were programs embedded in other applications, mainly in web pages displayed in web browsers. The Java applet API was deprecated with the release of Java 9 in 2017.\n[…]\nThe Oracle implementation is packaged into two different distributions: The Java Runtime Environment (JRE) which contains the parts of the Java SE platform required to run Java programs and is intended for end users, and the Java Development Kit (JDK), which is intended for software developers and includes development tools such as the Java compiler, Javadoc, Jar, and a debugger. Oracle has also released GraalVM, a high performance Java dynamic compiler and interpreter.\n[…]\nOpenJDK is another Java SE implementation that is licensed under the GNU GPL. The implementation started when Sun began releasing the Java source code under the GPL. As of Java SE 7, OpenJDK is the official Java reference implementation.\n[…]\nThe Java programming language requires the presence of a software platform in order for compiled programs to be executed.\n[…]\nJava Community Process"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Java_%28linguagem_de_programa%C3%A7%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation. Diferente das linguagens de programação modernas, que são compiladas para código nativo, Java é compilada para um bytecode que é interpretado por uma máquina virtual (\n[…]\nA linguagem de programação Java é a linguagem convencional da Plataforma Java, mas não é a sua única linguagem. A J2ME é utilizada em jogos de computador, celular, calculadoras, ou até mesmo o rádio do carro.\n[…]\nEm 1991, na Sun Microsystems, foi iniciado o Green Project, o berço do Java, uma linguagem de programação orientada a objetos. Os mentores do projeto eram Patrick Naughton, Mike Sheridan, e James Gosling. Eles acreditavam que, eventualmente, haveria uma convergência dos computadores com os equipamentos e eletrodomésticos frequentemente usados pelas pessoas no seu dia-a-dia.\n[…]\nGosling foi incumbido de adaptar o Oak para a internet e em janeiro 1995 foi lançada uma nova versão do Oak que foi rebatizada para Java — diz-se que inspirado no café que o time de desenvolvimento consumia, oriundo da ilha de Java, e que também está presente na logomarca Java. A tecnologia Java tinha sido projetada para se mover por meio das redes de dispositivos heterogêneos, redes como a internet.\n[…]\nDesde seu lançamento, em maio de 1995, a plataforma Java foi adotada mais rapidamente do que qualquer outra linguagem de programação na história da computação. Em 2004 Java atingiu a marca de 3 milhões de desenvolvedores em todo mundo. Java continuou crescendo e hoje é uma referência no mercado de desenvolvimento de software.\n[…]\nScala (linguagem de programação)\n[…]\nJepson, Brian (1997). Java Database Programming Master Next Generation Web Database Techniques. [S.l.]: Wiley Computer Publishing. ISBN 0-471-16518-2",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Amazon",
+      "descricao": "Empresa americana de comércio eletrônico fundada por Jeff Bezos em 1994."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Jeff Bezos trocou o nome original de sua loja virtual, Cadabra, por Amazon, inspirado em quê?",
+    "resposta": "No rio Amazonas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amazon_(company)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+        "situacao": "ok",
+        "texto": "Amazon.com, Inc. (doing business as Amazon) is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as \n[…]\nOn July 5, 1994, Amazon was founded as \"Cadabra\" by Jeff Bezos, after he relocated from New York City to Bellevue, Washington, to operate an online bookstore. Bezos chose Seattle for its abundance of technical talent from Microsoft and the University of Washington, as well as its smaller population and the proximity to a major book distribution warehouse in Roseburg, Oregon. Seattle beat out Portland, Oregon and Boulder, Colorado.\n[…]\nOn July 5, 2021, Bezos moved from CEO to executive board chair. Former AWS CEO Andy Jassy replaced him as CEO. In January 2023, Amazon cut over 18,000 jobs, primarily in consumer retail and its human resources division in an attempt to cut costs.\n[…]\nWhen publishers asked Bezos why Amazon would publish negative reviews, he defended the practice by claiming that Amazon.com was \"taking a different approach...we want to make every book available—the good, the bad and the ugly...to let truth loose\".\n[…]\nJeff Bezos, executive chairman, Amazon.com, Inc.\n[…]\nJeff Bezos became renowned for his annual shareholder letters. These letters expressed Bezos's perspectives and strategic focus. A common theme was his desire to instill customer-centricity (in his words, \"customer obsession\") at all levels of Amazon, notably by making all senior executives field customer support queries for a time at Amazon call centers. He read many emails addressed by customers to his public email address.\n[…]\nAmazon (company) companies grouped at OpenCorporates\n[…]\nBusiness data for Amazon.com, Inc.:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amazon",
+        "situacao": "ok",
+        "texto": "Amazon é uma empresa multinacional de tecnologia norte-americana com sede em Seattle, Washington. A companhia se concentra no e-commerce, computação em nuvem, streaming e inteligência artificial. É considerada uma das cinco grandes empresas de tecnologia, juntamente com Google, Apple, Microsoft e Meta. Foi referida como \"uma das forças econômicas e culturais mais influentes do mundo\" e a marca mai\n[…]\nFoi fundada por Jeff Bezos em Bellevue, Washington, em 5 de julho de 1994. A empresa começou como um mercado online de livros, mas expandiu-se para vender eletrônicos, software, videogames, vestuário, móveis, alimentos, brinquedos e joias. Em 2015, a Amazon superou o Walmart como o varejista mais valioso dos Estados Unidos por capitalização de mercado. Em 2017, a Amazon adquiriu o Whole Foods Market por US$13,4 bilhões, aumentando substancialmente sua presença como varejista física.\n[…]\nJeff Bezos fundou a Amazon em 5 de julho de 1994. Ele escolheu Seattle por causa do talento técnico, já que a Microsoft está localizada lá. Em maio de 1997, a organização tornou-se pública. A empresa começou a vender músicas e vídeos em 1998, quando começou a operar internacionalmente, adquirindo vendedores online de livros no Reino Unido e na Alemanha. No ano seguinte, a organização também vendeu videogames, eletrônicos de consumo, itens de limpeza, software, jogos, brinquedos e, muitos outros.\n[…]\nEmbora qualquer produto comprado numa loja da Amazon com sede na União Europeia pode ser enviado para Portugal sem taxas alfandegárias, a empresa ainda não tem uma loja no país. Em janeiro de 2018, o Jornal de Negócios avançou que a Amazon estava a negociar a entrada no mercado português. Desde esse mesmo ano a empresa abriu um escritório no Parque das Nações, em Lisboa e o domínio «amazon.pt» efetua o redirecionamento para a loja espanhola.\n[…]\n«Contatos da Amazon.com.br»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Samsung",
+      "descricao": "Conglomerado sul-coreano fundado em 1938, grande fabricante de eletrônicos."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em coreano, o que significa o nome Samsung?",
+    "resposta": "Três estrelas",
+    "distratores": [
+      "Grande montanha",
+      "Rio dourado",
+      "Céu azul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samsung"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Samsung",
+        "situacao": "ok",
+        "texto": "Samsung Group  (Korean: 삼성; pronounced [sʰamsɔŋ]; stylised as SΛMSUNG) is a South Korean multinational manufacturing conglomerate headquartered in the Samsung Town office complex in Seoul. The group consists of numerous affiliated businesses, most of which operate under the Samsung brand, and is the largest chaebol (family-controlled conglomerates in South Korea). As of 2024, Samsung has the world\n[…]\nOther significant subsidiaries are Samsung Life Insurance, the 14th-largest life insurance company globally, and Cheil Worldwide, the world's 15th-largest advertising agency by 2012 revenues.\n[…]\nCompared to other major Korean companies, Samsung survived the 1997 Asian financial crisis relatively unharmed. However, Samsung Motor was sold to Renault at a significant loss. As of 2010, Renault Samsung is 80.1 per cent owned by Renault and 19.9 per cent owned by Samsung. Additionally, Samsung manufactured a range of aircraft from the 1980s to the 1990s.\n[…]\nIn the period from 2018 to 2022, Samsung contributed over US$306 billion in export revenue to Vietnam. In 2022 alone, despite the impact of the COVID-19 pandemic, the figure reached US$65 billion, contributing significantly to Vietnam's total export value, which for the first time exceeded the US$700 billion threshold, reaching over US$732 billion.\n[…]\nIn addition, Samsung has also brought Vietnamese businesses deeper into the global value chain and contributed significantly to the development of the electronics industry in Vietnam. Currently, the number of Vietnamese first- and second-tier suppliers in Samsung's global supply chain has increased tenfold, from 25 businesses in 2014 to 257 businesses by the end of 2022.\n[…]\nIn 2020, the Australian Strategic Policy Institute accused at least 82 major brands, including Samsung, of being connected to alleged forced Uyghur labor in Xinjiang.\n[…]\nSamsung Global Official YouTube channel"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samsung",
+        "situacao": "ok",
+        "texto": "O Grupo Samsung (ou simplesmente Samsung, estilizado como SΛMSUNG) (em coreano, 삼성 - samsʌŋ) é um conglomerado multinacional com sede na Samsung Town em Seul, Coreia do Sul. Compreende várias empresas afiliadas, a maioria unida sob a marca Samsung, e é o maior chaebol (conglomerado comercial) do país.\n[…]\nA Samsung foi fundada por Lee Byung-chul em 1938 como uma trading company. Nas três décadas seguintes, o grupo se diversificou em áreas como processamento de alimentos, têxtil, seguros, valores mobiliários e varejo. A Samsung entrou no setor de eletrônicos no final dos anos 1960 e nos setores de construção e construção naval em meados dos anos 1970; essas áreas impulsionariam seu crescimento subsequente.\n[…]\nA Samsung Fire & Marine Insurance tinha uma receita primária de $11,7 bilhões em 2011 e recursos totais de $28,81 bilhões em 31 de março de 2011. É a maior provedora de seguros gerais da Coreia do Sul. A Samsung Fire está listada na bolsa Korea Exchange desde 1975 (nº 000810).\n[…]\nA Samsung Heavy Industries está listada na bolsa Korea Exchange (nº 010140).\n[…]\nA Samsung Life Insurance Co., Ltd. é uma empresa multinacional de seguros de vida sediada em Seoul. Foi fundada em 1957 como Dongbang Life Insurance e se tornou subsidiária do Grupo Samsung em julho de 1963.A principal atividade da Samsung Life é o fornecimento de seguros de vida e produtos e serviços de anuidade. Em dezembro de 2011 ela operava em 7 países, tinha 8,08 milhões de clientes e 5.975 de funcionários.\n[…]\nO total de vendas da Samsung Life foi 22.717 bilhões de won em 2011 e recursos totais de 161.072 bilhões de won em 31 de dezembro de 2011. É a maior fornecedora de seguros de vida da Coreia do Sul.\n[…]\nA Samsung Life Insurance está listada na bolsa Korea Exchange (nº 032830).\n[…]\nSamsung Group (em Coreano)\n[…]\nSamsung Group (em Chinês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Teste de Turing",
+      "descricao": "Teste proposto por Alan Turing em 1950 para avaliar se uma máquina consegue se passar por humana numa conversa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em seu artigo de 1950, como Alan Turing chamou o teste que hoje leva o seu nome?",
+    "resposta": "Jogo da imitação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turing_test"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Turing_test",
+        "situacao": "ok",
+        "texto": "The Turing test was designed by Alan Turing to assess a machine's ability to exhibit intelligent behaviour equivalent to that of a human by imitating interactive dialogue. In the modern version, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reli\n[…]\nThe test was introduced as the imitation game by Turing in his 1950 paper \"Computing Machinery and Intelligence\" while working at the University of Manchester. It opens with the words: \"I propose to consider the question, 'Can machines think?'.\" Because \"thinking\" is difficult to define, Turing chooses to \"replace the question by another, which is closely related to it and is expressed in relatively unambiguous words\".\n[…]\nThe second version appeared later in Turing's 1950 paper. Similar to the original imitation game test, the role of player A is performed by a computer. However, the role of player B is performed by a man rather than a woman.\n[…]\nControversy has arisen over which of the alternative formulations of the test Turing intended. Sterrett argues that two distinct tests can be extracted from his 1950 paper and that, despite Turing's remark, they are not equivalent.\n[…]\nIt is not possible to test humans this way.\n[…]\nBlay Whitby lists four major turning points in the history of the Turing test – the publication of \"Computing Machinery and Intelligence\" in 1950, the announcement of Joseph Weizenbaum's ELIZA in 1966, Kenneth Colby's creation of PARRY, which was first described in 1972, and the Turing Colloquium in 1990.\n[…]\nZalta, Edward N. (ed.). \"The Turing test\". Stanford Encyclopedia of Philosophy. ISSN 1095-5054. OCLC 429049174.\n[…]\nThe Turing Test – an Opera by Julian Wagstaff\n[…]\nTuring Test: 50 Years Later reviews a half-century of work on the Turing Test, from the vantage point of 2000."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teste_de_Turing",
+        "situacao": "ok",
+        "texto": "O Teste de Turing testa a capacidade de um computador de ter comportamento inteligente semelhante ao do humano, ou até indistinguível deste. No exemplo ilustrativo original, um jogador humano entra em uma conversa, em linguagem natural, com outro humano e uma máquina projetada para produzir respostas indistinguíveis de outro ser humano. Todos os participantes estão separados um dos outros.\n[…]\nO teste foi introduzido por Alan Turing em seu artigo de 1950 \"Computing Machinery and Intelligence\", que começa com as palavras: \"Eu proponho considerar a questão 'As máquinas podem pensar?'\". Já que \"pensar\" é difícil de definir, Turing preferiu \"trocar a pergunta por outra, a qual está relacionada à anterior, e é expressa em palavras menos ambíguas\". A nova pergunta de Turing é: \"Há como imaginar um computador digital que faria bem o 'jogo da imitação?\"'.\n[…]\nA segunda versão apareceu em um artigo posterior de Turing, em 1950. Similarmente ao Teste do Jogo de Imitação Original, o papel do jogador A é feito por um computador. Entretanto, o papel do jogador B é feito por um homem, ao invés de uma mulher.\n[…]\nO teste que emprega o jogo e compara frequências de sucesso é referenciado como o \"Teste do Jogo de Imitação Original\", enquanto o teste que consiste de um juíz humano conversando com um humano e uma máquina é referenciado como \"Teste de Turing Padrão\", notando que Sterrett equivale este com a \"interpretação padrão\", em vez da segunda versão do jogo de imitação.\n[…]\nAinda há outros autores que interpretaram que Turing propôs o jogo da imitação como um teste em si, sem especificar como levar em consideração a declaração de Turing que o teste que eles propôs usa a versão da festa do jogo de imitação é baseada em um critério de comparação de frequência de sucesso naquele jogo de imitação, ao invés de uma capacidade de sucesso em uma rodada do jogo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "MP3",
+      "descricao": "Formato de compressão de áudio digital que popularizou a música em arquivos de computador."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A canção Tom's Diner foi tão usada para testar o formato MP3 que sua intérprete ficou conhecida como a mãe do MP3. Quem é ela?",
+    "resposta": "Suzanne Vega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tom%27s_Diner",
+      "https://en.wikipedia.org/wiki/MP3"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tom%27s_Diner",
+        "situacao": "ok",
+        "texto": "\"Tom's Diner\" is a song by American singer-songwriter Suzanne Vega. Written in 1981 or 1982, it was first included as a track on the January 1984 issue of Fast Folk Musical Magazine. Originally featured on her second studio album, Solitude Standing (1987), it was released as a single in Europe only in 1987 following the success of her single \"Luka\". It was later used as the basis for a remix by th\n[…]\nThe \"Tom's Diner\" of the song is Tom's Restaurant in Manhattan, New York City, a mid-20th-century diner on the northeast corner of Broadway and West 112th Street. Singer-songwriter Suzanne Vega was reputedly a frequent patron during the early 1980s when she was a student at nearby Barnard College. The diner later became famous as the location used for the exterior scenes of Monk's Café in the popular 1990s television sitcom Seinfeld.\n[…]\nAn article on Suzanne Vega's official website uses clues in the song to determine the exact date that Vega wrote it.\n[…]\nLarry Flick from Billboard magazine commented, \"Don't miss the exceptional 'Tom's Diner', by DNA featuring Suzanne Vega.\" He noted that the English outfit had placed \"a slammin' Soul II Soul-flavored swing instrumental\" underneath Vega's song, and also described the track as \"indelibly infectious.\" Student newspaper Columbia Daily Spectator named it a \"surprise hit\". Marisa Fox from Entertainment Weekly complimented its dance beat as \"mesmerizing\".\n[…]\nA music video was produced to promote the song, directed by Gareth Roberts. It does not feature Vega.\n[…]\n\"Tom's Diner\" by Suzanne Vega – 2:39\n[…]\n\"Tom's Diner\" (a cappella) by Suzanne Vega – 2:08\n[…]\n\"Tom's Diner\" (a cappella) by Suzanne Vega – 2:08\n[…]\n\"Tom's Diner\" by Suzanne Vega\n[…]\n\"Tom's Diner\" (a cappella) by Suzanne Vega\n[…]\n\"Tom's Diner\" 7-inch version by Suzanne Vega (side 1)\n[…]\n\"Tom's Diner\" 12-inch version by Suzanne Vega (side 2)\n[…]\n\"Tom's Diner\" (Hibell Remix) – 3:17\n[…]\n\"Tom's Diner\" at Discogs (list of releases)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/MP3",
+        "situacao": "ok",
+        "texto": "MP3 (formally MPEG-1 Audio Layer III or MPEG-2 Audio Layer III) is an audio coding format developed largely by the Fraunhofer Society in Germany under the lead of Karlheinz Brandenburg.\n[…]\nIn 1993, he joined the staff of Fraunhofer IIS in Erlangen. An acapella version of the song \"Tom's Diner\" by Suzanne Vega was the first song used by Brandenburg to develop the MP3 format. It was used as a benchmark to see how well MP3's compression algorithm handled the human voice. Brandenburg adopted the song for testing purposes, listening to it again and again each time he refined the compression algorithm, making sure it did not adversely affect the reproduction of Vega's voice.\n[…]\nAccordingly, he dubbed Vega the \"Mother of MP3\".\n[…]\nBrandenburg used a CD recording of Suzanne Vega's song \"Tom's Diner\" to assess and refine the MP3 compression algorithm. This song was chosen because of its nearly monophonic nature and wide spectral content, making it easier to hear imperfections in the compression format during playbacks.\n[…]\n14 selected bit rates are allowed in MPEG-1 Audio Layer III standard: 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256 and 320 kbit/s, along with the 3 highest available sampling rates of 32, 44.1 and 48 kHz.\n[…]\nMPEG-2 Audio Layer III also allows 14 globally lower bit rates of 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160 kbit/s with sampling rates of 16, 22.05 and 24 kHz which are exactly half that of MPEG-1.\n[…]\nMPEG-2.5 Audio Layer III frames are limited to only 8 bit rates of 8, 16, 24, 32, 40, 48, 56 and 64 kbit/s with 3 even lower sampling rates of 8, 11.025, and 12 kHz..\n[…]\nWindows Media Audio (WMA)\n[…]\nComparison of audio coding formats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tom%27s_Diner",
+        "situacao": "ok",
+        "texto": "\"Tom's Diner\" é uma canção escrita em 1981 pela cantora e compositora americana Suzanne Vega. Foi lançada pela primeira vez como uma faixa na edição de janeiro de 1984 da revista Fast Folk Musical. Estreou em um de seus próprios álbuns de estúdio como a primeira faixa de seu álbum Solitude Standing em 1987. Mais tarde, foi usada como base para um remix pelo grupo britânico DNA, em 1988. Este remix\n[…]\nO \"Tom's Diner\" da música é o Tom's Restaurant em Nova York ,  um restaurante na esquina da Broadway  com a 112th Street. A cantora e compositora Suzanne Vega era supostamente uma cliente habitual do restaurante durante o início dos anos 80, quando estudante no vizinho Barnard College. A lanchonete de meados do século XX se tornaria mais tarde famosa como o local usado para as cenas externas do Monk's Café na popular série televisiva dos anos 1990, Seinfeld .\n[…]\nEm um documentário de 2009 sobre a história da música pela emissora sueca SVT, Brandenburg disse: \"Eu estava terminando minha tese de doutorado, e então eu estava lendo uma revista de alta fidelidade e descobri que eles usaram essa música para testar alto-falantes. Eu disse 'OK, vamos testar o que essa música faz no meu sistema de som, no MP3'. E o resultado foi que, em taxas de bits, onde tudo o mais soava muito bem, a voz de Suzanne Vega soava horrível. \"\n[…]\nBrandenburg adotou a música para fins de teste, ouvindo-a de novo e de novo a cada vez que refinava o esquema, certificando-se de que isso não afetasse negativamente a sutileza da voz de Vega. Embora o formato de compressão MP3 não seja especificamente ajustado para tocar a música \"Tom's Diner\" (uma variedade de material analisado criticamente esteve envolvido no design do codec ao longo de muitos anos), entre engenheiros de áudio esta anedota rendeu a Vega o título informal de \"Mãe do MP3 \".\n[…]\n\"Tom's Diner\"\n[…]\n\"Tom's Diner\" (live)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Windows 95",
+      "descricao": "Sistema operacional da Microsoft lançado em agosto de 1995, que introduziu o menu Iniciar."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que banda britânica cedeu a canção Start Me Up para a campanha de lançamento do Windows 95?",
+    "resposta": "Rolling Stones",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Windows_95",
+      "https://en.wikipedia.org/wiki/Start_Me_Up"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Windows_95",
+        "situacao": "ok",
+        "texto": "Windows 95  is a consumer-oriented operating system developed by Microsoft, released to manufacturing on July 14, 1995, and to retail on August 24, 1995.\n[…]\nIn 1994, Microsoft designers Mark Malamud and Erik Gavriluk approached Brian Eno to compose music for the Windows 95 project. The result was a six-second start-up music-sound of the Windows 95 operating system, The Microsoft Sound, which first appeared in May 1995 with Windows 95 May Test Release build 468. In 2025, The Microsoft Sound was selected for preservation in the National Recording Registry by the Library of Congress for being \"culturally, historically and/or aesthetically significant\".\n[…]\nWindows 95 also has built-in support for Advanced Power Management.\n[…]\nSales were projected as high as $720 million on release day. The marketing campaign for Windows 95 was estimated at $1 billion and spanned the entire industry. The Windows 95 release included a commercial featuring The Rolling Stones' 1981 single \"Start Me Up\" (a reference to the Start button). It was widely reported that Microsoft paid the Rolling Stones between US$8 and US$14 million for the use of the song in the Windows 95 advertising campaign.\n[…]\nMany features that have since become key components of the Microsoft Windows series, such as the Start menu and the taskbar, originated in Windows 95. Neil MacDonald, a Gartner analyst, said that Windows 95 \"was a quantum leap in difference in technological capability and stability\". Ina Fried of CNET said that \"by the time Windows 95 was finally ushered off the market in 2001, it had become a fixture on computer desktops around the world.\"\n[…]\nWindows 9x"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Start_Me_Up",
+        "situacao": "ok",
+        "texto": "\"Start Me Up\" is a song by the English rock band the Rolling Stones from their sixteenth studio album Tattoo You (1981). The song is a crowd pleaser, often performed by the band at the beginning of their concerts. It has also become a sports anthem.\n[…]\n\"Start Me Up\" was originally a reggae song recorded in March 1975 during sessions for the Rolling Stones' album Black and Blue before it was re-worked during the January and March 1978 sessions for the Some Girls album. The song began as a reggae rock track named \"Never Stop\", but after dozens of takes it was abandoned. \"Start Me Up\" was not chosen for the album and was saved for later use. Keith Richards commented:\n[…]\n\"Start Me Up\" peaked at number 7 on the UK Singles Charts in September 1981 and remains the last Rolling Stones song to appear in the UK Top 10. In Australia and Spain, the song reached number 1 in November 1981. In the US, \"Start Me Up\" spent three weeks at number 2 on the Billboard Hot 100 chart in October–November 1981, becoming the Stones' biggest hit of the 1980s in the United States.\n[…]\n\"Start Me Up\" is often used to open the Rolling Stones' live shows and has been featured on the live albums Still Life (recorded 1981, released 1982), Flashpoint (recorded 1989, released 1991), Live Licks (recorded 2003, released 2004), Shine a Light (recorded 2006, released 2008), and Hyde Park Live (2013).\n[…]\nThe Rolling Stones\n[…]\nMicrosoft paid about US$3 million to use this song in their Windows 95 marketing campaign. Due to their well-known unwillingness to using their music for advertising, contemporary reporting has suggested that this was the first time that the Rolling Stones licensed their music for commercials."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Windows_95",
+        "situacao": "ok",
+        "texto": "O Windows 95 (codinome Chicago) foi um versão de 16/32 bits do Microsoft Windows, a série dos sistemas operativos comercializados pela Microsoft. Lançado em 24 de agosto de 1995, o Windows 95 revolucionou o mercado de sistemas operacionais e passou a vir instalado por padrão com o MS-DOS 7.0 (e não mais separado, como era antes), sendo o principal lançamento da empresa na década de 1990. Entre out\n[…]\nAs versões de pré-visualização expiraram em novembro de 1995, após o que o usuário tinha que comprar sua cópia da versão final do Windows 95.\n[…]\nO lançamento do Windows 95 foi acompanhado por uma extensa campanha de marketing multimilionária, alcançando enorme sucesso de vendas e se tornando um dos sistemas operacionais de desktop mais populares.\n[…]\nO Windows 95 era vendido em disquetes e CD-ROM. A versão em disquete incluía 13 discos e usava um formato não padrão conhecido como DMF, que permitia armazenar uma capacidade maior do que os 1440 KiB normais. A versão em CD-ROM oferecia uma seleção de acessórios e complementos multimídia, bem como alguns drivers de dispositivos, jogos e versões demo de alguns softwares oferecidos pela empresa.\n[…]\nO suporte principal para o Windows 95 terminou em 31 de dezembro de 2000, e o suporte estendido para o Windows 95 terminou em 31 de dezembro de 2001.\n[…]\nEm agosto de 2025,o lançamento do Windows 95 completou 30 anos,representando um marco na computação pessoal,renovando a interface,com o Menu Iniciar e a barra de tarefas.\n[…]\nA ideia era escrever um sistema operacional de modo protegido, que não utilizasse o modo real ou o MS-DOS como base. A Microsoft dizia que era assim que seria o Windows 95.\n[…]\nWindows 3.0\n[…]\nWindows 9x\n[…]\nWindows 98\n[…]\n«Como o Windows 95 Funciona»\n[…]\n«Tornando o Windows 95 mais estável»\n[…]\n«Página sobre a limitação da quantidade de memória ram que pode ser instalada no Windows 95 e 98» (em inglês)\n[…]\n«Página sobre o fim do suporte ao Windows 95» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Nokia",
+      "descricao": "Empresa finlandesa de telecomunicações, fundada em 1865, famosa pelos seus telefones celulares."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O famoso toque dos celulares Nokia foi tirado de uma valsa para violão de qual compositor espanhol?",
+    "resposta": "Francisco Tárrega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nokia_tune"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nokia_tune",
+        "situacao": "ok",
+        "texto": "The Nokia tune is a phrase from a composition for solo guitar, Gran Vals, composed in 1902 by the Spanish classical guitarist and composer Francisco Tárrega. It has been associated with Finnish corporation Nokia since the 1990s, becoming the first identifiable musical ringtone on a mobile phone; Nokia selected an excerpt to be used as its default ringtone.\n[…]\nIn 1992, Nokia used a 1989 rendition of Francisco Tárrega's Gran Vals by Czech guitarist Lubomír Brabec as the background music in a commercial for the Nokia 1011. The excerpt of Gran Vals used includes the phrase that would later be used for the Nokia tune ringtone. In 1993 Anssi Vanjoki, then-executive vice president of Nokia, showed the entirety of Gran Vals to Lauri Kivinen (then-head of corporate communications) and together they selected the excerpt that became \"Nokia tune\".\n[…]\nThe Nokia N9 in late 2011 introduced a new version, which was created by in-house composer Henry Daw. This version uses a marimba for its melody, and was intended to be genre-neutral. The same year, a contest titled Nokia Tune Remake was held on the crowdsourcing website Audiodraft. The winning entry was a dubstep \"Nokia tune remix\" version, which was shipped on many Nokia phones from 2011 to 2013 alongside the regular Nokia tune.\n[…]\nDutch cabaret duo Van der Laan & Woe had a 2017 comedy show Pesetas, revolving around Francisco Tárrega and how an excerpt of his Gran Vals became known as the Nokia Tune.\n[…]\nCanadian pianist Marc-André Hamelin wrote a short composition entitled Valse Irritation d'après Nokia based on the tune.\n[…]\nFrancisco Tárrega: \"Gran Vals\": Scores at the International Music Score Library Project\n[…]\nAnimated Nokia commercial depicting the evolution of the Nokia tune from 1994 to 2011 and tie-in with competition to compose its next variant on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nokia_tune",
+        "situacao": "ok",
+        "texto": "Nokia tune (também denominado por Grande Valse nos modelos de telemóvel antigos da Nokia) é uma frase de uma composição musical do solo de um violão, Gran Vals, pelo violonista e compositor espanhol de música erudita Francisco Tárrega, escrita em 1902.\n[…]\nEm 1993 Anssi Vanjoki, vice-presidente executivo Nokia, mostrou Gran Vals a Lauri Kivinen, atual chefe de Assuntos Corporativos, e juntos selecionaram um excerto para se tornar no toque \"Nokia tune\".\n[…]\nA canção, que a Nokia afirma como marca sonora registrada, foi o primeiro toque identificável num telemóvel. Estima-se que a música é ouvida em todo o mundo aproximadamente 1,8 bilhões de vezes por dia, cerca de 20.000 vezes por segundo.\n[…]\nFrancisco Tárrega: Gran Vals: partituras livres no International Music Score Library Project.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados por barras paralelas de larguras variadas, lida por scanners ópticos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O engenheiro Joseph Woodland teve a ideia do código de barras ao esticar na areia de uma praia os pontos e traços de qual sistema?",
+    "resposta": "Código Morse",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Norman_Joseph_Woodland",
+      "https://en.wikipedia.org/wiki/Barcode"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Norman_Joseph_Woodland",
+        "situacao": "ok",
+        "texto": "Norman Joseph Woodland (September 6, 1921 – December 9, 2012) was an American Jewish inventor and engineer, best known as one of the inventors of the barcode, for which he received a patent in October 1952. Later, employed by IBM, he developed the format which became the ubiquitous Universal Product Code (UPC) of product labeling and check-out stands.\n[…]\nWoodland was born in Atlantic City, New Jersey, on September 6, 1921, the elder of two boys in his family.\n[…]\nWoodland took some stock market earnings, quit his teaching job and moved to his grandfather's Florida apartment. While at the beach, Woodland again considered the problem, recalling, from his Boy Scout training, how Morse code dots and dashes are used to send information electronically. He drew dots and dashes in the sand similar to the shapes used in Morse code.\n[…]\nAfter pulling them downward with his fingers, producing thin lines resulting from the dots and thick lines from the dashes, he came up with the concept of a two-dimensional, linear Morse code, and after sharing it with Silver and adapting optical sound film technology, they applied for a patent on October 20, 1949, receiving U.S. patent 2,612,994 Classifying Apparatus and Method on October 7, 1952, covering both linear barcode and circular bulls-eye printing designs.\n[…]\nWoodland died from the effects of Alzheimer's disease on December 9, 2012, in Edgewater, New Jersey.\n[…]\nIn 1973, IBM presented Woodland with their Outstanding Contribution Award.\n[…]\nIn 1992, Woodland was awarded the National Medal of Technology from President George H. W. Bush for his contribution to barcode technology.\n[…]\nIn 1998, Woodland received an honorary degree from his alma mater, Drexel University.\n[…]\nIn 2011, Woodland was inducted into the National Inventors Hall of Fame."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Barcode",
+        "situacao": "ok",
+        "texto": "A barcode or bar code is a method of representing data in a visual, machine-readable symbolic form. Initially, barcodes represented data by varying the widths, spacings and sizes of parallel lines. These barcodes, commonly referred to as linear or one-dimensional (1D), can be scanned by optical scanners known as barcode readers. Later, two-dimensional (2D) variants were developed, using rectangles\n[…]\nThe barcode was invented by Norman Joseph Woodland and Bernard Silver and patented in the US in 1952. The invention was based on Morse code that was extended to thin and thick bars. However, it took over twenty years before this invention became commercially successful. UK magazine Modern Railways December 1962 pages 387–389 record how British Railways had already perfected a barcode-reading system capable of correctly reading rolling stock travelling at 100 mph (160 km/h) with no mistakes.\n[…]\nIn 1948, Bernard Silver, a graduate student at Drexel Institute of Technology in Philadelphia, Pennsylvania, US overheard the president of the local food chain, Food Fair, asking one of the deans to research a system to automatically read product information during checkout. Silver told his friend Norman Joseph Woodland about the request, and they started working on a variety of systems. Their first working system used ultraviolet ink, but the ink faded too easily and was expensive.\n[…]\nConvinced that the system was workable with further development, Woodland left Drexel, moved into his father's apartment in Florida, and continued working on the system. His next inspiration came from Morse code, and he formed his first barcode from sand on the beach."
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Sistema binário",
+      "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O filósofo alemão Leibniz viu no sistema binário, de zeros e uns, um paralelo com os hexagramas de qual antigo livro chinês?",
+    "resposta": "I Ching",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Binary_number",
+      "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Binary_number",
+        "situacao": "ok",
+        "texto": "A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method for representing numbers that uses only two symbols for the natural numbers: typically 0 (zero) and 1 (one). A binary number may also refer to a rational number that has a finite representation in the binary numeral system, that is, the quotient of an integer by a power of two.\n[…]\nSets of binary combinations similar to the I Ching have also been used in traditional African divination systems, such as Ifá among others, as well as in medieval Western geomancy. The majority of Indigenous Australian languages use a base-2 system.\n[…]\nThe full title of Leibniz's article is translated into English as the \"Explanation of Binary Arithmetic, which uses only the characters 1 and 0, with some remarks on its usefulness, and on the light it throws on the ancient Chinese figures of Fu Xi\". Leibniz's system uses 0 and 1, like the modern binary numeral system. An example of Leibniz's binary numeral system is as follows:\n[…]\nWhile corresponding with the Jesuit priest Joachim Bouvet in 1700, who had made himself an expert on the I Ching while a missionary in China, Leibniz explained his binary notation, and Bouvet demonstrated in his 1701 letters that the I Ching was an independent, parallel invention of binary notation.\n[…]\nLeibniz was first introduced to the I Ching through his contact with the French Jesuit Joachim Bouvet, who visited China in 1685 as a missionary. Leibniz saw the I Ching hexagrams as an affirmation of the universality of his own religious beliefs as a Christian. Binary numerals were central to Leibniz's theology. He believed that binary numbers were symbolic of the Christian idea of creatio ex nihilo or creation out of nothing.\n[…]\nBinary numerals that neither terminate nor recur represent irrational numbers. For instance,\n[…]\nAn analysis of binary as an efficient base"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+        "situacao": "ok",
+        "texto": "Gottfried Wilhelm Leibniz (or Leibnitz; 1 July 1646 [O.S. 21 June] – 14 November 1716) was a German polymath active as a mathematician, philosopher, scientist, and diplomat. Alongside Isaac Newton, he is widely credited with the invention of calculus. He is also credited with making foundational contributions to other areas of mathematics, such as binary arithmetic and statistics.\n[…]\nLeibniz may have been the first computer scientist and information theorist. Early in life, he documented the binary numeral system (base 2), then revisited that system throughout his career. While Leibniz was examining other cultures to compare his metaphysical views, he encountered an ancient Chinese book I Ching. Leibniz interpreted a diagram which showed yin and yang and corresponded it to a zero and one. More information can be found in the Sinophilia section.\n[…]\nHe also refuted the argument, advanced by Swedish scholars in his day, that a form of proto-Swedish was the ancestor of the Germanic languages. He puzzled over the origins of the Slavic languages and was fascinated by classical Chinese. Leibniz was also an expert in the Sanskrit language.\n[…]\nHe mulled over the possibility that the Chinese characters were an unwitting form of his universal characteristic. He noted how the I Ching hexagrams correspond to the binary numbers from 000000 to 111111, and concluded that this mapping was evidence of major Chinese accomplishments in the sort of philosophical mathematics he admired. Leibniz communicated his ideas of the binary system representing Christianity to the Emperor of China, hoping it would convert him.\n[…]\nLeibniz Association, Berlin\n[…]\nLeibniz's (1768, 6-volume) Opera omnia – digital facsimile\n[…]\nLeibniz's binary numeral system, 'De progressione dyadica', 1679, online and analyzed on BibNum Archived 24 July 2017 at the Wayback Machine [click 'à télécharger' for English analysis]"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_de_numera%C3%A7%C3%A3o_bin%C3%A1rio",
+        "situacao": "ok",
+        "texto": "O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, ou seja, zero e um (0 e 1).\n[…]\nO sistema numérico binário moderno foi estudado na Europa nos séculos 16 e 17 por Thomas Harriot, Juan Caramuel Lobkowitz e Gottfried Leibniz. No entanto, sistemas envolvendo números binários já apareceram em várias culturas, incluindo o antigo Egito, China e Índia. Leibniz foi especificamente inspirado pelo I Ching chinês.\n[…]\nOs antigos escribas egípcios usavam dois sistemas diferentes para suas frações, as frações egípcias (não relacionadas ao sistema de numeração binária) e as frações do Olho de Hórus (assim chamadas porque muitos historiadores da matemática acreditam que os símbolos usados para esse sistema poderiam ser arranjados para formar o olho de Horus, embora isso tenha sido contestado).\n[…]\nNa China antiga, no texto clássico do I Ching, uma série completa de 8 trigramas e 64 hexagramas (análogo a 3 bits) e números binários de 6 bits.\n[…]\nO estudioso e filósofo chinês Shao Yong no século XI desenvolveu um arranjo binário ordenado dos hexagramas do I Ching, representando a sequência decimal de 0 a 63, e um método para gerá-lo.\n[…]\nO sistema binário moderno foi totalmente documentado por Leibniz, no século XVIII, em seu artigo \"Explication de l'Arithmétique Binaire\". Ele menciona os símbolos binários usados pelos matemáticos chineses. Leibniz utilizou um sistema matemático de duas variáveis — 0/1 — para transformar termos linguísticos e, dessa forma, distribuir informações, assim como o sistema binário atual.\n[…]\nSistema decimal\n[…]\nSistema hexadecimal\n[…]\nPrefixos binários\n[…]\nAlgarismos na base b",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "QR Code",
+      "descricao": "Código de barras bidimensional, em forma de quadrado, criado em 1994 pela japonesa Denso Wave."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O QR Code foi criado em 1994 por uma empresa japonesa com qual objetivo inicial?",
+    "resposta": "Rastrear peças de automóveis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/QR_code"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/QR_code",
+        "situacao": "ok",
+        "texto": "A QR code, short for quick-response code, is a type of two-dimensional matrix barcode invented in 1994 by Masahiro Hara of the Japanese company Denso Wave for labelling automobile parts. It features white (\"0\") and black (\"1\") squares within a square grid featuring fiducial markers on the corners, readable by imaging devices like cameras, and processed using Reed–Solomon error correction until the\n[…]\nCompared to standard UPC barcodes, the QR labeling system was applied beyond the automobile industry because of faster reading of the optical image and greater data-storage capacity in applications such as product tracking, item identification, time tracking, document management, and general marketing.\n[…]\nThe QR code system was invented in 1994, at the Denso Wave automotive products company in Japan. The initial alternating-square design presented by the team of researchers, headed by Masahiro Hara, was influenced by the black counters and the white counters played on a Go board; the pattern of the position detection markers was determined by finding the least-used sequence of alternating black-white areas on printed matter, which was found to be (1:1:3:1:1).\n[…]\nThe functional purpose of the QR code system was to facilitate keeping track of the types and numbers of automobile parts, by replacing individually-scanned bar-code labels on each box of auto parts with a single label that contained the data of each label. The quadrangular configuration of the QR code system consolidated the data of the various bar-code labels with kanji, kana, and alphanumeric codes printed onto a single label.\n[…]\nAztec Code\n[…]\nISO/IEC 18004:2024. Information technology. Automatic identification and data capture techniques. QR code bar code symbology specification.\n[…]\nReed Solomon Codes for Coders – an elaborate tutorial on Wikiversity, covering both QR code structure and the Reed Solomon codes used to encode the data."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_QR",
+        "situacao": "ok",
+        "texto": "[[File:Rickrolling QR code.png\n[…]\nInicialmente empregado para catalogar peças na produção de veículos, hoje o QR Code é usado no gerenciamento de inventário e controle de estoque em indústrias e comércio. Desde 2003, foram desenvolvidas aplicações que ajudam usuários a inserir dados em telefone celular (telefone móvel) usando a câmera do aparelho. Os códigos QR são comuns também em revistas e propagandas, para registrar endereços e URLs, bem como informações pessoais detalhadas.\n[…]\nO sistema de código QR foi inventado no ano de 1994, na empresa de produtos automotivos Denso Wave, no Japão. O design inicial consistia de quadriláterosalternados entre preto e branco.\n[…]\nO objetivo funcional do sistema de código QR era facilitar o rastreamento dos tipos e quantidades de peças automotivas, substituindo as etiquetas de código de barras individuais em cada caixa de peças por uma única etiqueta contendo os dados de todas as outras. A configuração quadrangular do sistema de código QR consolidou os dados de várias etiquetas de código de barras com kanji, kana e códigos alfanuméricos impressos em uma única etiqueta.\n[…]\nDesde 2024, os códigos QR são utilizados num contexto muito mais amplo, incluindo tanto aplicações de rastreio comercial como aplicações orientadas para a conveniência destinadas a utilizadores de telemóveis (designadas por mobile tagging).\n[…]\nEm novembro de 2008, durante o Salão do Automóvel de São Paulo, a Volkswagen utilizou o código para uma pequena ação em seu stand.[carece de fontes]?\n[…]\nRastreabilidade",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Z3",
+      "descricao": "Computador eletromecânico programável concluído pelo engenheiro alemão Konrad Zuse em 1941."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O Z3, computador programável concluído pelo alemão Konrad Zuse em 1941, teve qual destino em 1943?",
+    "resposta": "Foi destruído num bombardeio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Z3_(computer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Z3_(computer)",
+        "situacao": "ok",
+        "texto": "The Z3 was a German electromechanical computer designed by Konrad Zuse in 1938, and completed in 1941. It was the world's first working programmable, fully automatic digital computer. The Z3 was built with 2,600 relays, implementing a 22-bit word length that operated at a clock frequency of about 5–10 Hz. Program code was stored on punched film. Initial values were entered manually.\n[…]\nThe original Z3 was destroyed on 21 December 1943 during an Allied bombardment of Berlin. That Z3 was originally called V3 (Versuchsmodell 3 or Experimental Model 3) but was renamed so that it would not be confused with Germany's V-weapons. A fully functioning replica was built in 1961 by Zuse's company, Zuse KG, which is now on permanent display at Deutsches Museum in Munich.\n[…]\nThanks to this machine and its predecessors, Konrad Zuse has often been suggested as the inventor of the computer.\n[…]\nThe Colossus (1943), built by  Tommy Flowers, and the Atanasoff–Berry computer (1942) used thermionic valves (vacuum tubes) and binary representation of numbers. Programming was by means of re-plugging patch panels and setting switches.\n[…]\nVon Neumann is said to have given due credit to Alan Turing, and the concept had actually been mentioned earlier by Konrad Zuse himself, in a 1936 patent application (that was rejected). Konrad Zuse himself remembered in his memoirs: \"During the war it would have barely been possible to build efficient stored program devices anyway.\"  Friedrich L.\n[…]\nIn 2008, Horst Zuse started a reconstruction of the Z3 by himself. It was presented in 2010 in the Konrad Zuse Museum in Hünfeld.\n[…]\nRojas, Raúl; Darius, Frank; Göktekin, Cüneyt; Heyne, Georg (2005-08-22). \"The reconstruction of Konrad Zuse's Z3\". IEEE Annals of the History of Computing. 27 (3): 23–32. doi:10.1109/mahc.2005.48. eISSN 1934-1547. ISSN 1058-6180. S2CID 16288658.\n[…]\nThe Life and Work of Konrad Zuse"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Z3",
+        "situacao": "ok",
+        "texto": "O computador Z3 foi a primeira máquina de computação totalmente automática e programável do mundo, criado em 1941 pelo alemão Konrad Zuse. Foi utilizado pelo Instituto de pesquisa aeronáutica alemão a fim de realizar análises estatísticas em projetos de asas de novas aeronaves.\n[…]\nFoi destruído, junto com a casa de Zuse, em Berlim, por um bombardeio.\n[…]\n«A evolução do computador»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Intel 4004",
+      "descricao": "Microprocessador de quatro bits lançado pela Intel em 1971."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Intel 4004, de 1971, primeiro microprocessador comercial, foi encomendado por uma empresa japonesa para equipar qual tipo de aparelho?",
+    "resposta": "Calculadoras",
+    "distratores": [
+      "Relógios digitais",
+      "Televisores",
+      "Videogames"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Intel_4004"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Intel_4004",
+        "situacao": "ok",
+        "texto": "The Intel 4004, released by the Intel Corporation on November 15, 1971, was the first in a long line of Intel central processing units (CPUs). Priced at US$60 (equivalent to $477 in 2025), the chip marked both a technological and economic milestone in computing.\n[…]\nHoff's approach was agreed by Busicom management over their own team's development work, led by Masatoshi Shima and Shima pivoted to the new architecture, working on the architectural design. With Hoff reassigned by Intel to another project, design work, led by new Intel hire Federico Faggin and supported by Shima, began in April 1970. The first fully operational 4004 was delivered in March 1971 for Busicom's 141-PF printing calculator prototype, now housed at the Computer History Museum.\n[…]\nShima led the first commercial implementation of the 4004 chipset, developing the Busicom 141-PF calculator, and Busicom went on to make 4004-based calculators, billing machines, teller machines and cash registers, mostly on an OEM basis with NCR, which would sell 100,000 units.\n[…]\nFaggin was sending samples of these chips to Shima as they arrived in February 1971. In April of that year, they learned the calculator prototype was operational. Later that month Shima sent Intel the final masks for the 4001 ROMs, the design was now complete. It consisted of one 4004, two 4002, three 4003, and four 4001 chips. An additional 4001 supplied the optional square root function.\n[…]\nFor the purpose of testing the produced chips, Faggin developed a tester for silicon wafers of MCS-4 family that was itself driven by 4004 chip. The tester also served as a proof for the management that Intel 4004 microprocessor could be used not only in calculator-like products, but also for control applications.\n[…]\nDatasheet Intel 4004"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Intel_4004",
+        "situacao": "ok",
+        "texto": "Intel 4004 é uma Unidade Central de Processamento com 4-bits. Fabricado pela Intel Corporation em 1971, foi o primeiro microprocessador comercialmente disponível pela Intel em um chip simples, assim como o primeiro disponível comercialmente. O design dos chips começou em abril de 1970, quando Federico Faggin se juntou à Intel, e foi concluído sob sua liderança em janeiro de 1971.\n[…]\nA primeira venda comercial do 4004 totalmente operacional ocorreu em março de 1971 para a Busicom do Japão, para o qual foi originalmente projetado e construído como um chip personalizado. Em meados de novembro do mesmo ano, com o anúncio profético anunciando uma nova era na eletrônica integrada, o 4004 foi comercializado no mercado geral. O 4004, a primeira CPU monolítica comercialmente disponível, totalmente integrada em um pequeno chip.\n[…]\nEmbora projetado originalmente para ser um componente de calculadoras, o 4004 logo encontrou muitos usos. A Intel iniciou um processo que logo fez alguns outros fabricantes de chips a embarcar em projetos para desenvolverem firmemente os microprocessadores mais capazes, o que gerou a tendência que criou as indústrias multibilionárias dos microprocessadores e dos microcomputadores atuais.\n[…]\nFaggin foi o primeiro projetista de chips que obteve sucesso integrando uma CPU em um único chip (o Intel 4004, o primeiro microprocessador do mundo), em 1970-1971. A Intel contratou o Faggin da Fairchild onde ele tinha desenvolvido a original tecnologia de porta de silício (silicon gate technology: SGT) com portas auto-alinhadas (self-aligned gates) em 1968 e também tinha criado o primeiro circuito integrado comercial do mundo usando a tecnologia de porta de silício: o Fairchild 3708.\n[…]\n«Intel 4004, the first CPU, is 40 years old today» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Apple I",
+      "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1976, o Apple I, primeiro computador da Apple, era vendido por qual preço?",
+    "resposta": "666,66 dólares",
+    "distratores": [
+      "100 dólares",
+      "1.298 dólares",
+      "2.495 dólares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apple_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Apple_I",
+        "situacao": "ok",
+        "texto": "The Apple Computer 1 (Apple-1), often referred to as the Apple I(written with a Roman numeral), is an 8-bit personal computer designed by Steve Wozniak and introduced by the Apple Computer Company (now Apple Inc.) in 1976. It was the company's first product and laid the foundation for what would become one of the world's largest technology companies. The idea of founding the company and marketing \n[…]\nBy March 1, 1976, Wozniak had completed the basic design of the computer. He first offered it to his employer, Hewlett-Packard (HP), but the company rejected the design on five occasions. Wozniak's intention remained to freely distribute the computer's schematics to fellow hobbyists rather than manufacture or sell it commercially.\n[…]\nApple Computer was founded as a partnership on April 1, 1976, by Wozniak, Jobs, and Ronald Wayne. To finance production of the first circuit boards, Wozniak sold his HP-65 calculator while Jobs sold his Volkswagen Type 2 microbus. Together, they raised about $1,300.\n[…]\nWozniak and Jobs demonstrated the fully assembled \"Apple Computer A\" prototype at the Homebrew Computer Club in July 1976. Paul Terrell, who was starting a new computer shop in Mountain View, California, called the Byte Shop, saw the presentation and was impressed by the machine. Terrell told Jobs that he would order 50 units of the Apple I and pay $500 each on delivery, but only if they came fully assembled – he was not interested in buying bare printed circuit boards with no components.\n[…]\nThe Apple I went on sale in July 1976 at a price of US$666.66. Wozniak later said he had no idea about the relation between the number and the number of the beast, and that he came up with the price because he liked \"repeating digits\" and because it was a one-third markup on the $500 wholesale price.\n[…]\nApple 1 Computer Registry\n[…]\nShirriff, Ken (March 2022). \"Inside the Apple-1's unusual MOS clock driver chip\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Apple_I",
+        "situacao": "ok",
+        "texto": "Na tecnologia, o Apple I ou Apple-1, foi um computador pessoal primitivo formado por uma placa única de circuito integrado, inventado e fabricado manualmente pelo engenheiro norte-americano Steve Wozniak para uso pessoal ou doméstico, em sociedade com o empresário norte-americano Steve Jobs que teve a então ideia de vender-lo comercialmente em 1976, lançado pela empresa Apple, como seu primeiro pr\n[…]\nO computador Apple I foi o primeiro produto da empresa Apple, exibido em abril de 1976 no Homebrew Computer Club em Palo Alto (Califórnia). Foi posto à venda em julho de 1976 ao preço de US$ 666,66 (devido Wozniak gostar de repetir números) era vendido a uma loja da região por US$ 500, acrescentando-se 1/3 como markup.\n[…]\nO Apple I é por vezes creditado como o primeiro computador pessoal a ser vendido totalmente montado; todavia, outros argumentam que a honra pertence a outras máquinas, tais como o MOS Technology KIM-1, o Datapoint 2200 ou, mais geralmente, ao Altair 8800 (o qual podia ser adquirido sob forma de kit ou, por um valor extra, montado).\n[…]\nEm 2005 estimava-se que ainda existiam cerca de 30 ou 50 Apple I, o que o torna um item de colecionador. Conta-se que um Apple I teria sido vendido por US$ 50 mil num leilão em 1999; todavia, um preço mais típico gira em torno de US$ 14 mil–US$ 16 mil. Um clone compatível a nível de software com o Apple I (o Replica 1), produzido com peças modernas, foi lançado em 2003 por cerca de US$ 200.\n[…]\nPRICE, Rob. So Far:the First Ten Years of a Vision. Apple Computer, Cupertino, CA, 1987. ISBN 1-55693-974-4\n[…]\nApple Lisa, um dos primeiros com interface gráfica.\n[…]\nKenbak-1, o primeiro microcomputador\n[…]\n«The Replica-1 The original Apple 1 clone» (em inglês)\n[…]\n«A-ONE a new Apple 1 clone» (em inglês)\n[…]\n«Manual Operacional do Apple I» (PDF) (em inglês)\n[…]\nApple I - em «Guia do Hardware» .\n[…]\n«Leilão do computador Apple I» , vendido por quase R$ 2 milhões - em TechTudo 2019.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "IBM 350",
+      "descricao": "Primeira unidade comercial de disco rígido, lançada pela IBM em 1956 como parte do sistema RAMAC."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O primeiro disco rígido comercial, lançado pela IBM em 1956, guardava cerca de quantos caracteres?",
+    "resposta": "Cinco milhões",
+    "distratores": [
+      "Cinquenta mil",
+      "Quinhentos milhões",
+      "Cinco bilhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/IBM_305_RAMAC"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/IBM_305_RAMAC",
+        "situacao": "ok",
+        "texto": "The IBM 305 RAMAC was the first commercial computer that used a moving-head hard disk drive (magnetic disk storage) for secondary storage. The system was publicly announced on September 14, 1956, with test units already installed at the U.S. Navy and at private corporations. RAMAC stood for \"Random Access Method of Accounting and Control\", as its design was motivated by the need for real-time acco\n[…]\nMore than 1,000 systems were built. Production ended in 1961; the RAMAC computer lost front-runner status in 1962 when the IBM 1405 Disk Storage Unit for the IBM 1401 was introduced, and the 305 was withdrawn in 1969.\n[…]\nThe first hard disk unit was shipped September 13, 1956. The additional components of the computer were a card punch, a central processing unit, a power supply unit, an operator's console/card reader unit, and a printer. There was also a manual inquiry station that allowed direct access to stored records. IBM  touted the system as being able to store the equivalent of 64,000 punched cards.\n[…]\nThe IBM RAMAC 305 system with 350 disk storage leased for US$3,200 (equivalent to $36,700 in 2025) per month.\n[…]\nThe original 305 RAMAC computer system could be housed in a room of about 9 m (30 ft) by 15 m (50 ft); the 350 disk storage unit measured around 1.5 square meters (16 sq ft). Currie Munce, research vice president for Hitachi Global Storage Technologies (which has acquired IBM's hard disk drive business), stated in a Wall Street Journal interview that the RAMAC unit weighed over a ton, had to be moved around with forklifts, and was delivered via large cargo airplanes.\n[…]\nYellow – Storage\n[…]\nIBM 350 – Disk storage unit\n[…]\nHistory of hard disk drives\n[…]\nIBM 305 RAMAC Data Processing System\n[…]\nIBM 350 RAMAC site originally prepared under the supervision of the Storage Special Interest Group of the Computer History Museum\n[…]\nIBM 305 RAMAC at the Computer History Archives Project on Youtube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/IBM_305_RAMAC",
+        "situacao": "ok",
+        "texto": "IBM 305 RAMAC foi um computador comercial desenvolvido pela IBM em 1956 e foi o primeiro que utilizou uma unidade de disco magnético com uma cabeça de leitura móvel. RAMAC é uma sigla que significa Random Access Method of Accounting and Control ou método de acesso aleatório para contabilidade e controle. Servia para as empresas registrarem as transações e simultaneamente refletir cada entrada nas \n[…]\nA unidade de disco poderia armazenar até por volta de 4,4 megabytes de dados e era composto por 50 discos magnéticos de 24 polegadas pesando uma tonelada.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Bitcoin",
+      "descricao": "Criptomoeda descentralizada descrita num artigo de 2008 e lançada em 2009."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em 2010, numa das primeiras compras conhecidas com a moeda, um programador americano pagou duas pizzas com quantos bitcoins?",
+    "resposta": "Dez mil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_bitcoin",
+      "https://en.wikipedia.org/wiki/Bitcoin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+        "situacao": "ok",
+        "texto": "Bitcoin is a cryptocurrency, a digital asset that uses cryptography to control its creation and management rather than relying on central authorities. Originally designed as a medium of exchange, Bitcoin is now primarily regarded as a store of value. The history of bitcoin started with its invention and implementation by Satoshi Nakamoto, who integrated many existing ideas from the cryptography co\n[…]\nThe first notable retail transaction involving physical goods took place on 22 May 2010. Laszlo Hanyecz, a programmer in Jacksonville, Florida, posted on the Bitcointalk forum offering 10,000 of his mined bitcoins in exchange for two pizzas. A 19-year-old in California named Jeremy Sturdivant accepted the offer and ordered two Papa John's pizzas for delivery to Hanyecz's home, receiving the 10,000 BTC in exchange. At the time, the bitcoins were worth around $41.\n[…]\nOn 6 August 2010, a major vulnerability in the bitcoin protocol was spotted. While the protocol did verify that a transaction's outputs never exceeded its inputs, a transaction whose outputs summed to more than\n[…]\nIn 2014, several light-hearted songs celebrating bitcoin such as the \"Ode to Satoshi\" were released. A documentary film, The Rise and Rise of Bitcoin, was released in 2014, featuring interviews with bitcoin users such as a computer programmer and a drug dealer. On 13 March 2014, Warren Buffett called bitcoin a \"mirage\".\n[…]\nBy 2019, multiple trading companies were offering services around bitcoin futures.\n[…]\nA bitcoin faucet was a website or software app that dispensed rewards in the form of bitcoin for visitors to claim in exchange for completing a captcha or task as described by the website. There have also been faucets that dispense other cryptocurrencies. The first example was called \"The Bitcoin Faucet\" and was developed by Gavin Andresen in 2010. It originally gave out five bitcoins per person."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bitcoin",
+        "situacao": "ok",
+        "texto": "Bitcoin (abbreviation: BTC; sign: ₿) is the first decentralized cryptocurrency. Based on a free-market ideology, bitcoin was invented in 2008 when an unknown person published a white paper under the pseudonym of Satoshi Nakamoto. Use of bitcoin as a currency began in 2009, with the release of its open-source implementation. From 2021 to 2025, El Salvador adopted it as legal tender currency before \n[…]\nWei Dai and Nick Szabo were also early supporters. On 22 May 2010, the first known commercial transaction using bitcoin occurred when programmer Laszlo Hanyecz bought two Papa John's pizzas for ₿10,000, in what would later be celebrated as \"Bitcoin Pizza Day\". Satoshi tasked Finnish developer and early Bitcoin contributor Martti Malmi with creating content for the bitcoin.org website.\n[…]\nThe unit of account of the bitcoin system is the bitcoin. It is most commonly represented with the symbol ₿ designed in 2010 and the currency code BTC. However, the BTC code does not conform to ISO 4217 as BT is the country code of Bhutan, and ISO 4217 requires the first letter used in global commodities to be 'X'. XBT, a code that conforms to ISO 4217 though not officially part of it, is used by Bloomberg L.P.\n[…]\nBitcoin wallets were the first cryptocurrency wallets, enabling users to store the information necessary to transact bitcoins. The first wallet program, simply named Bitcoin, and sometimes referred to as the Satoshi client, was released in 2009 by Nakamoto as open-source software. Bitcoin Core is among the best known clients. Forks of Bitcoin Core exist such as Bitcoin Unlimited.\n[…]\nThe term hodl was created in December 2013 for holding bitcoin rather than selling it during periods of volatility.\n[…]\nNakamoto, Satoshi (31 October 2008). \"Bitcoin: A Peer-to-Peer Electronic Cash System\" (PDF). bitcoin.org. Archived from the original (PDF) on 20 March 2014. Retrieved 28 April 2014."
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Logo (linguagem de programação)",
+      "descricao": "Linguagem de programação educacional criada em 1967, usada para ensinar programação a crianças."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na linguagem Logo, usada para ensinar programação a crianças, que animal se movimenta pela tela desenhando figuras?",
+    "resposta": "Tartaruga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Logo_(programming_language)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
+        "situacao": "ok",
+        "texto": "Logo is an educational programming language, designed in 1967 by Wally Feurzeig, Seymour Papert, and Cynthia Solomon. The name was coined by Feurzeig while he was at Bolt, Beranek and Newman, and derives from the Greek logos, meaning 'word' or 'thought'.\n[…]\nTI Logo (for the TI-99/4A computer) was used in primary schools, emphasizing Logo's usefulness in teaching computing fundamentals to novice programmers.\n[…]\nPOOL is a dialect of Logo with object-oriented extensions, implemented in 2014. POOL programs are compiled and run in the graphical IDE on Microsoft Windows. A simplified, cross-platform environment is available for systems supporting .NET Framework.\n[…]\nLbyM is an open-source online Logo interpreter based on JavaScript, created and actively developed (as of 2021) for Sonoma State University's Learning by Making program. It features traditional Logo programming, connectivity with a customized microcontroller, and integration with a modern code editor.\n[…]\nVarious Visual Studio Code extensions for the Logo programming language are available on the VS Code Marketplace with varying support (syntax highlighter, code completion, integrated interpreter, debugger with live turtle graphics preview).\n[…]\nLogo was a primary influence on the Smalltalk programming language. It is also the main influence on the Etoys educational programming environment and language, which is essentially a Logo variant written in Squeak (itself a variant of Smalltalk). Logo influenced the procedure/method model in AgentSheets and AgentCubes to program agents similar to the notion of a turtle in Logo. Logo provided the underlying language for Boxer.\n[…]\nMedia related to Logo (programming language) at Wikimedia Commons\n[…]\nLogo Programming at Wikibooks"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Logo",
+        "situacao": "ok",
+        "texto": "Em informática, Logo é uma linguagem de programação interpretada, voltada para crianças, jovens e até adultos. Ela foi a primeira linguagem de programação desenvolvida com o objetivo de ser utilizada por crianças e foi inventada por Seymour Papert, Wallace Feurzeig, Daniel Bobrow e Cynthia Solomon em 1966 na Bolt, Beranek and Newman, Inc.\n[…]\nO ambiente Logo tradicional envolve uma tartaruga gráfica, um robô pronto para responder aos comandos do usuário. Uma vez que a linguagem é interpretada e interativa, o resultado é mostrado imediatamente após digitar-se o comando – incentivando o aprendizado. Nela, o aluno aprende com seus erros. Aprende vivenciando e tendo que repassar este conhecimento para o LOGO.\n[…]\nO seguinte programa faz a tartaruga gráfica desenhar um quadrado:\n[…]\nO seguinte programa gera um circulo utilizando a tartaruga gráfica:\n[…]\nO seguinte programa faz a tartaruga gráfica desenhar um triângulo equilátero:\n[…]\nO seguinte programa faz a tartaruga gráfica desenhar uma estrela:\n[…]\nA linguagem Logo facilita a geração de fractais, por ser voltada para desenho e interpretar códigos recursivos.\n[…]\nPor ser uma linguagem de programação criada para o ambiente escolar com o objetivo de ensinar programação na educação básica, o Logo permite uma fácil compreensão por parte dos alunos. Além disso, o uso do software não exige o domínio da matemática, o que facilita o acesso de principiantes.\n[…]\nAinda, o software dispõe de inúmeras possibilidades para o trabalho de Geometria com a chamada \"Geometria da Tartaruga\". Ao trabalhar com a Geometria da Tartaruga o estudante deve movimentar uma tartaruga gráfica pela tela, por meio de comandos de programação, explorando conceitos como ponto, reta, direção, rotação, ângulos, entre outros.\n[…]\nAcademia da Tat (aprenda Logo gratuitamente)\n[…]\nLinguagem LOGO, Perspectiva Construtivista (computador como ferramenta)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "NeXT",
+      "descricao": "Empresa americana de computadores fundada por Steve Jobs em 1985, depois de deixar a Apple."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "O primeiro servidor da web funcionou no CERN num computador de qual empresa, fundada por Steve Jobs depois de sair da Apple?",
+    "resposta": "NeXT",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/NeXT",
+      "https://en.wikipedia.org/wiki/CERN_httpd"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/NeXT",
+        "situacao": "ok",
+        "texto": "NeXT, Inc. (later NeXT Computer, Inc. and NeXT Software, Inc.) was an American technology company headquartered in Redwood City, California. It was founded in 1985 by Steve Jobs, the Apple Computer co-founder who had been ousted from Apple earlier that year. The company initially developed workstation computers for higher education and business markets before shifting its focus to software.\n[…]\nNeXT was founded by Steve Jobs and several former Apple employees, including Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare, and Dan'l Lewin. After consulting with major educational buyers from around the country, including a follow-up meeting with Paul Berg, a tentative specification for a workstation computer was drawn up. It was designed to be powerful enough to run wet lab simulations and affordable enough for dormitory rooms.\n[…]\nOn December 20, 1996, Apple Computer announced its intention to acquire NeXT. Apple paid $427 million in cash, shares, stock options, and debt. Steve Jobs preferred to only receive cash, but Gil Amelio insisted that Steve Jobs take 1.5 million Apple shares to give the deal credibility. The main purpose of the acquisition was to use NeXTSTEP as a foundation to replace the dated classic Mac OS. Steve Jobs also returned to Apple as a consultant.\n[…]\nSteve Jobs created a unique corporate culture at NeXT in terms of facilities, salaries, and benefits. Jobs had experimented with some structural changes at Apple, but at NeXT he abandoned conventional corporate structures, instead making a \"community\" with \"members\" instead of employees. There were only two different salaries at NeXT until the early 1990s.\n[…]\nNeXT character set\n[…]\nPanzarino, Matthew (November 20, 2011). \"Steve Jobs brainstorms with the NeXT team\". TNW. Archived from the original on April 16, 2021. Retrieved January 4, 2022.\n[…]\n\"NeXTcomputers.org – Welcome to the NeXT world!\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/CERN_httpd",
+        "situacao": "ok",
+        "texto": "CERN httpd (later also known as W3C httpd) is an early, now discontinued, web server (HTTP) daemon originally developed at CERN from 1990 onwards by Tim Berners-Lee, Ari Luotonen and Henrik Frystyk Nielsen. Implemented in C, it was the first web server software.\n[…]\nCERN httpd was originally developed on a NeXT Computer running NeXTSTEP, and was later ported to other Unix-like operating systems, OpenVMS and systems with unix emulation layers, e.g. OS/2 with emx+gcc. It could also be configured as a web proxy server.\n[…]\nIn August 1991, Berners-Lee announced in the Usenet newsgroup alt.hypertext the availability of the source code of the server daemon (named WWWDaemon) and other World Wide Web software from the CERN FTP site.\n[…]\nThe server was presented on the Hypertext 91 conference in San Antonio and was part of the CERN Program Library (CERNLIB).\n[…]\nLater versions of the server are based on the libwww library. The development of CERN httpd was later taken over by World Wide Web Consortium (W3C), with the last release being version 3.0A of 15 July 1996. From 1996 onwards, W3C focused on the development of the Java-based Jigsaw server.\n[…]\nJigsaw is a web server software written in Java. It is the successor to CERN httpd, the first web server software ever, and was developed by the World Wide Web Consortium.\n[…]\nCERN\n[…]\nCERN republished her first website.\n[…]\nHomepage of CERN httpd"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/NeXT",
+        "situacao": "ok",
+        "texto": "NeXT, Inc. (posteriormente NeXT Computer, Inc. e NeXT Software, Inc.) foi uma empresa norte-americana de tecnologia, sediada em Redwood City, Califórnia, especializada em workstations para os mercados de educação superior e de negócios, passando depois a desenvolver software para a web. Foi fundada em 1985 pelo CEO Steve Jobs, o cofundador da Apple Computer, que havia sido forçado a deixar a Apple\n[…]\nEm 1997, a Apple fundiu-se com a NeXT, em um negócio de US$ 427 milhões que incluía 1,5 milhão de ações da Apple. O acordo convidava Steve Jobs (até então chairman e CEO da NeXT) a assumir um papel consultivo na Apple, e o OPENSTEP for Mach foi integrado ao Mac OS clássico, dando origem ao Rhapsody e Mac OS X.\n[…]\nO NeXT Computer foi lançado em 1990 por US$ 9 999. Em junho de 1991, Perot deixou o conselho para focar-se em sua empresa, Perot Systems.\n[…]\nVários executivos da NeXT substituíram pares da Apple, após Jobs reestruturar o conselho da empresa. Nos cinco anos seguintes, o sistema NeXTSTEP foi portado para a arquitetura PowerPC dos Mac, junto com versões Intel e ARM. Esse sistema, codinomeado Rhapsody, viria a se tornar o Mac OS X Server 1.0 (1999) e depois o Mac OS X 10.0 (2001). A biblioteca de desenvolvimento do NeXTSTEP, “OpenStep for Mach”, foi renomeada para Cocoa.\n[…]\nVários desenvolvedores escolheram o ambiente NeXT para inovações. Em 1990, o cientista Tim Berners-Lee criou o primeiro navegador e servidor web num NeXT Computer. Os jogos Doom e Quake foram criados pela id Software usando computadores NeXT. Houve outros softwares comerciais, como Altsys Virtuoso (vetor com recursos de paginação) — posteriormente portado para Mac/Windows como Aldus FreeHand v4 — e a planilha Lotus Improv.\n[…]\nPanzarino, Matthew (2011). «Steve Jobs brainstorms with the NeXT team». TNW. Consultado em 4 de janeiro de 2022. Cópia arquivada em 16 de abril de 2021",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Katherine Johnson",
+      "descricao": "Matemática americana (1918–2020) da NASA, que calculou trajetórias de voos espaciais."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que matemática afro-americana da NASA, retratada no filme Estrelas Além do Tempo, verificou os cálculos da trajetória do voo orbital de John Glenn?",
+    "resposta": "Katherine Johnson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Katherine_Johnson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Katherine_Johnson",
+        "situacao": "ok",
+        "texto": "Creola Katherine Johnson (née Coleman, previously Goble; August 26, 1918 – February 24, 2020) was an American mathematician and human computer whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.\n[…]\nWhen NASA used electronic computers for the first time to calculate John Glenn's orbit around earth, officials asked Johnson to verify the computer's numbers; Glenn had asked for her specifically and had refused to fly unless Johnson verified the calculations.\n[…]\nAt the ceremony, deputy director Lewin said: \"Millions of people around the world watched Shepard's flight, but what they didn't know at the time was that the calculations that got him into space and safely home were done by today's guest of honor, Katherine Johnson\". During the event, Johnson also received a Silver Snoopy award, often called the astronaut's award. NASA said it is given to those \"who have made outstanding contributions to flight safety and mission success\".\n[…]\nOn February 22, 2019, NASA renamed the Independent Verification and Validation Facility in Fairmont, West Virginia, the Katherine Johnson Independent Verification and Validation Facility.\n[…]\nIn 2020 Bethel School District, Washington, named its newest school Katherine G. Johnson Elementary.\n[…]\nJohnson, Katherine (September 1960). \"Determination of Azimuth Angle at Burnout for Placing a Satellite Over a Selected Earth Position\". NTRS-NASA Technical Reports Server. NASA. Retrieved October 23, 2020.\n[…]\nKatherine G. Johnson – Video produced by Makers: Women Who Make America\n[…]\nWhat Matters; Katherine Johnson: NASA Pioneer and \"Computer\" – WHRO, American Archive of Public Broadcasting (GBH and the Library of Congress), Boston, MA and Washington, DC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Katherine_Johnson",
+        "situacao": "ok",
+        "texto": "Katherine Coleman Goble Johnson (White Sulphur Springs, 26 de agosto de 1918 – Newport News, 24 de fevereiro de 2020) foi uma matemática, física e cientista espacial norte-americana.\n[…]\nKatherine ainda trabalhou para a seção de Controles aeroespaciais, onde calculou a trajetória de voo de Alan Shepard, o primeiro norte-americano no espaço, em 1959. Calculou também a janela de lançamento do Projeto Mercury, em 1961. Katherine plotou cartas de navegação, orientando naves pelas estrelas em caso de falha eletrônica e, em 1962, verificou os primeiros cálculos de computador da órbita de John Glenn ao redor da Terra.\n[…]\nEm março de 2016, começaram as finalizações do filme Hidden Figures, que foi lançado em 2017, sobre três cientistas negras da NASA que calcularam as trajetórias de voo do Projeto Mercury e do Apollo 11 nos anos 1960. O filme é baseado no livro de Margot Lee Shetterly que documentou as carreiras e as contribuições de Katherine Johnson, Dorothy Vaughan e Mary Jackson. Katherine é interpretada pela atriz indicada ao Oscar Taraji P. Henson.\n[…]\nHidden Figures, um filme sobre sua figura e seus colegas afro-americanos da NASA, foi baseado no livro de não ficção de mesmo nome de Margot Lee Shetterly, lançado em janeiro de 2017. O filme conta a história de Johnson e outras matemáticas afro-americanos (Mary Jackson e Dorothy Vaughan) que trabalharam na NASA. A atriz Taraji P. Henson interpreta Johnson no filme. Ela esteve presente na cerimônia do Oscar de 2017 ao lado das atrizes do filme e foi aplaudida de pé pelo público.\n[…]\nDorothy Vaughan, matemática;\n[…]\nMary Jackson, matemática;\n[…]\nKatherine G. Johnson Vídeo produzido por Makers: Women Who Make America",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Circuito integrado",
+      "descricao": "Conjunto de componentes eletrônicos miniaturizados num único pedaço de material semicondutor, o chip."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os chips de computador são feitos principalmente de qual elemento químico, que dá nome a um famoso vale da Califórnia?",
+    "resposta": "Silício",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Integrated_circuit",
+      "https://en.wikipedia.org/wiki/Silicon_Valley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+        "situacao": "ok",
+        "texto": "An integrated circuit (IC), also known as a microchip or simply chip, is a compact assembly of electronic circuits formed from various electronic components, such as transistors, resistors, and capacitors, and their interconnections. These components are fabricated onto a thin, flat piece (\"chip\") of semiconductor material, most commonly silicon.\n[…]\nThe application of MOS LSI chips to computing was the basis for the first microprocessors, as engineers began recognizing that a complete computer processor could be contained on a single MOS LSI chip. This led to the inventions of the microprocessor and the microcontroller by the early 1970s. During the early 1970s, MOS integrated circuit technology enabled the very large-scale integration (VLSI) of more than 10,000 transistors on a single chip.\n[…]\nAmong the most advanced integrated circuits are the microprocessors or \"cores\", used in personal computers, cell-phones, etc. Several cores may be integrated together in a single IC or chip. Digital memory chips and application-specific integrated circuits (ASICs) are examples of other families of integrated circuits.\n[…]\nTo reflect the continuing increase in complexity, the term ULSI (\"ultra-large-scale integration\") was introduced for chips containing more than one million transistors. Wafer-scale integration (WSI) is a technique for creating very large integrated circuits by using an entire silicon wafer to fabricate a single \"super-chip\".\n[…]\nA system-on-a-chip (SoC or SOC) is an integrated circuit in which all the components needed for a computer or other system are included on a single chip. The design of such a device can be complex and costly, and whilst performance benefits can be had from integrating all needed components on one die, the cost of licensing and developing a one-die machine still outweigh having separate devices."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Silicon_Valley",
+        "situacao": "ok",
+        "texto": "Silicon Valley is a region in Northern California that is known as a global center for high technology and innovation. Located in the southern part of the San Francisco Bay Area, it corresponds roughly to the geographical area of the Santa Clara Valley.\n[…]\nIt was in Silicon Valley that the silicon-based integrated circuit, the microprocessor, and the microcomputer, among other technologies, were developed. As of 2021, Santa Clara and San Mateo Counties employed about a half million information technology workers.\n[…]\n\"Silicon\" refers to the chemical element used in silicon-based transistors and integrated circuit chips, which is the focus of a large number of computer hardware and software innovators and manufacturers in the region.\n[…]\nFollowing the 1959 inventions of the monolithic integrated circuit (IC) chip by Robert Noyce at Fairchild, the first commercial MOS IC was introduced by General Microelectronics in 1964. The first single-chip microprocessor was the Intel 4004, designed and realized by Federico Faggin along with Ted Hoff, Masatoshi Shima and Stanley Mazor at Intel in 1971. In April 1974, Intel released the Intel 8080, the second 8-bit microprocessor designed and manufactured by Intel.\n[…]\nThe first meeting was held as of March 1975 at French's garage in Menlo Park, San Mateo County, California; which was on occasion of the arrival of the MITS Altair microcomputer, the first unit sent to the area for review by People's Computer Company. Steve Wozniak and Steve Jobs credit that first meeting with inspiring them to design the original Apple I and (successor) Apple II computers. As a result, the first preview of the Apple I was given at the Homebrew Computer Club.\n[…]\nComputer History Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_integrado",
+        "situacao": "ok",
+        "texto": "Em eletrônica, um circuito integrado (CI), também chamado chipe, microchipe ou nanochipe (do inglês chip, microchip e nanochip, respectivamente), é um circuito eletrônico miniaturizado (composto principalmente por dispositivos semicondutores) sobre um substrato fino de material semicondutor.\n[…]\nHá duas principais vantagens de circuitos integrados sobre circuitos discretos: custo e desempenho. O custo é baixo porque os chips, com todos os seus componentes, são impressos como uma unidade por fotolitografia: um puro cristal de silício, chamada de substrato, que são colocados em uma câmara. Uma fina camada de dióxido de silício é depositada sobre o substrato, seguida por outra camada química, chamada de fotorresiste.\n[…]\nChips feitos de nanotubos de carbono, em vez de silício, podem dar origem a uma nova geração de dispositivos eletrônicos mais rápidos e com maior eficiência energética.\n[…]\nKilby ganhou em 2000 o Prêmio Nobel de Física por sua parte na invenção do circuito integrado. Robert Noyce também veio com sua própria ideia de circuito integrado, meio ano depois de Kilby. O chip de Noyce tinha resolvido muitos problemas práticos que o microchip, desenvolvido por Kilby, não tinha. O chip de Noyce, feito em Fairchild, era feito de silício, enquanto o chip de Kilby era feito de germânio.\n[…]\nApós sucessivas interconexões, por boro e fósforo, os componentes formados ainda são interconectados externamente por uma camada extremamente fina de alumínio, depositada sobre a superfície e isolada por uma camada de dióxido de silício.\n[…]\nDesde que os circuitos integrados foram criados, alguns designers de chips têm usado a superfície de silício para códigos, imagens e palavras não funcionais. Eles são algumas vezes referenciados como chip art, silicon art, silicon graffiti ou silicon doodling.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Nintendo",
+      "descricao": "Empresa japonesa de videogames fundada em Quioto em 1889, originalmente fabricante de cartas de baralho."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+    "resposta": "Nintendo",
+    "distratores": [
+      "Sony",
+      "Samsung",
+      "Panasonic"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nintendo",
+      "https://en.wikipedia.org/wiki/Panasonic",
+      "https://en.wikipedia.org/wiki/Samsung",
+      "https://en.wikipedia.org/wiki/Sony"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "situacao": "ok",
+        "texto": "Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles.\n[…]\nNintendo Pictures\n[…]\nNintendo Systems\n[…]\nIt is considered that Hiroshi Yamauchi's strategic decisions, mainly to take Nintendo into the world of electronic games, ensured not only the success of his company but the survival of the industry as a whole, as it \"restored public confidence in electronic games after the gloomy collapse of the U.S. market in the early 1980s\".\n[…]\nSuper Nintendo World\n[…]\nLewis Galoob Toys, Inc. v. Nintendo of America, Inc.\n[…]\nUniversal City Studios, Inc. v. Nintendo Co., Ltd.\n[…]\nGorges, Florent (2015a). La historia de Nintendo Volumen I (in Spanish). Héroes de papel. ISBN 978-84-942881-3-5.\n[…]\n— (2015b). La historia de Nintendo Volumen II (in Spanish). Héroes de papel. ISBN 978-84-942881-8-0.\n[…]\n— (2015c). La historia de Nintendo Volumen III (in Spanish). Héroes de papel. ISBN 978-84-176491-0-4.\n[…]\nSheff, David (1994). Game Over: How Nintendo Conquered the World (1st ed.). New York: Vintage Books. ISBN 9780307800749. OCLC 780180879.\n[…]\n— (1999). Game Over: How Nintendo Conquered the World (1st GamePress ed.). Wilton, CT: GamePress. ISBN 978-0-966-9617-0-6. OCLC 1131659026. Retrieved 27 July 2019.\n[…]\n— (2011) [1999]. Game Over: How Nintendo Conquered The World. Knopf Doubleday Publishing Group. ISBN 9781299040625. OCLC 1237159707.\n[…]\nSloan, Daniel (2011). Playing to Wiin: Nintendo and the Video Game Industry's Greatest Comeback. Wiley. ISBN 978-0-470-82512-9. OCLC 707935885.\n[…]\n\"Nintendo: Company History\". Nintendo.com. Nintendo of America. 1996. Archived from the original on 5 February 1998."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Panasonic",
+        "situacao": "ok",
+        "texto": "Panasonic Holdings Corporation, colloquially known as Panasonic, is a Japanese multinational electronics manufacturer, headquartered in Kadoma, Osaka, Japan. It produces a wide range of products and services, including consumer electronics, rechargeable batteries, automotive and avionic systems, industrial equipment, as well as home renovation and construction."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Samsung",
+        "situacao": "ok",
+        "texto": "Samsung Group  (Korean: 삼성; pronounced [sʰamsɔŋ]; stylised as SΛMSUNG) is a South Korean multinational manufacturing conglomerate headquartered in the Samsung Town office complex in Seoul. The group consists of numerous affiliated businesses, most of which operate under the Samsung brand, and is the largest chaebol (family-controlled conglomerates in South Korea). As of 2024, Samsung has the world"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nintendo",
+        "situacao": "ok",
+        "texto": "Nintendo Co., Ltd. (任天堂株式会社, Nintendō Kabushiki Gaisha) é uma desenvolvedora e publicadora japonesa de jogos eletrônicos e consoles sediada em Quioto, no Japão. Foi fundada em setembro de 1889 pelo artesão e empresário Fusajiro Yamauchi, e originalmente era uma fabricante de cartas de baralho tradicionais japonesas.\n[…]\nA ascensão dos arcades se acentuou em 1981 quando a Nintendo lançou Donkey Kong. O título foi desenvolvido por Miyamoto e foi um enorme sucesso mundial, com a Nintendo vendendo mais de sessenta mil máquinas de arcade do jogo em apenas um ano. Foi também um dos primeiros jogos eletrônicos de plataforma que permitia que o personagem jogável pulasse, no caso o Jumpman; este mais tarde seria renomeado para Mario e tornaria-se o mascote oficial da empresa.\n[…]\nOs primeiros jogos eletrônicos desenvolvidos pela Nintendo eram destinados aos arcades, porém em sua maioria eram títulos de pistola de luz que envolviam projetores e imagens pré-gravadas sendo exibidas em telas. Uma das exceções foi EVR Race de 1975, um dos primeiros jogos eletromecânicos produzidos pela empresa. Computer Othello e Block Fever estavam entre os primeiros jogos verdadeiramente interativos, tendo sido desenvolvidos e disponibilizados no catálogo do Color TV-Game.\n[…]\nPor exemplo, ele procurou recrutar \"artistas de jogos eletrônicos\" que \"pudessem desenvolver excelentes jogos que todos quisessem jogar\" e \"investir todos os recursos para a produção de um ou dois grandes jogos por ano, em vez de vários sucessos menores [consecutivos]\". Considera-se que boa parte do sucesso dos primeiros consoles da Nintendo se deu pelos títulos desenvolvidos por empresas externas com as quais acordos foram firmados, incluindo Capcom, Square, Konami e Enix.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
