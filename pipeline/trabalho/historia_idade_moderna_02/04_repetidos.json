@@ -1,0 +1,317 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1517, em que cidade alemã Martinho Lutero divulgou suas noventa e cinco teses contra a venda de indulgências?",
+        "resposta": "Wittenberg"
+      },
+      "existentes": [
+        {
+          "id": "q03538",
+          "pergunta": "Em 1517, as noventa e cinco teses de Martinho Lutero atacavam sobretudo que prática da Igreja Católica?",
+          "resposta": "Venda de indulgências"
+        },
+        {
+          "id": "q05547",
+          "pergunta": "Segundo a tradição, em 1517 Martinho Lutero pregou suas Noventa e Cinco Teses na porta da igreja de que cidade alemã?",
+          "resposta": "Wittenberg"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Pintado por Botticelli no século quinze, O Nascimento de Vênus está exposto em que museu de Florença?",
+        "resposta": "Galeria Uffizi"
+      },
+      "existentes": [
+        {
+          "id": "q00406",
+          "pergunta": "Qual é o nome deste quadro?",
+          "resposta": "O Nascimento de Vênus"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano Portugal e Castela assinaram o Tratado de Tordesilhas, dividindo as terras descobertas e por descobrir fora da Europa?",
+        "resposta": "1494"
+      },
+      "existentes": [
+        {
+          "id": "q00174",
+          "pergunta": "O Tratado de Tordesilhas, que dividiu entre Portugal e Espanha as terras a descobrir, foi assinado em que ano?",
+          "resposta": "1494"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ano o papa Paulo Terceiro aprovou oficialmente a Companhia de Jesus, ordem fundada por Inácio de Loyola?",
+        "resposta": "1540"
+      },
+      "existentes": [
+        {
+          "id": "q03561",
+          "pergunta": "Quem fundou a Companhia de Jesus, a ordem dos jesuítas aprovada pelo papa em 1540?",
+          "resposta": "Inácio de Loyola"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que pensador florentino escreveu, em 1513, O Príncipe, um manual sobre como conquistar e manter o poder?",
+        "resposta": "Nicolau Maquiavel"
+      },
+      "existentes": [
+        {
+          "id": "q03750",
+          "pergunta": "Em O Príncipe, Maquiavel aponta como exemplo de governante astuto e decidido que filho do papa Alexandre sexto?",
+          "resposta": "César Bórgia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1516, que pensador inglês publicou Utopia, livro que descreve uma ilha imaginária com uma sociedade ideal?",
+        "resposta": "Thomas More"
+      },
+      "existentes": [
+        {
+          "id": "q02930",
+          "pergunta": "O título do livro Utopia, de Thomas More, junta duas palavras gregas. O que ele significa literalmente?",
+          "resposta": "Lugar nenhum"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que humanista holandês satirizou a Igreja e os costumes da época no livro Elogio da Loucura, publicado em 1511?",
+        "resposta": "Erasmo de Roterdã"
+      },
+      "existentes": [
+        {
+          "id": "q03734",
+          "pergunta": "O título latino de Elogio da Loucura, de Erasmo de Roterdã, faz um trocadilho com o sobrenome de que amigo inglês do autor?",
+          "resposta": "Thomas More"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que pensador francês defendeu a separação entre Executivo, Legislativo e Judiciário no livro O Espírito das Leis, de 1748?",
+        "resposta": "Montesquieu"
+      },
+      "existentes": [
+        {
+          "id": "q03760",
+          "pergunta": "Que pensador francês defendeu a separação entre Executivo, Legislativo e Judiciário no livro O Espírito das Leis, de 1748?",
+          "resposta": "Montesquieu"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que pintor neerlandês criou O Jardim das Delícias Terrenas, tríptico cheio de criaturas fantásticas pintado por volta de 1500?",
+        "resposta": "Hieronymus Bosch"
+      },
+      "existentes": [
+        {
+          "id": "q00417",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Hieronymus Bosch"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome Canadá vem de uma palavra indígena que o explorador Jacques Cartier ouviu em 1535. O que ela significava?",
+        "resposta": "Aldeia"
+      },
+      "existentes": [
+        {
+          "id": "q00005",
+          "pergunta": "Registrado por Jacques Cartier no século dezesseis, o nome Canadá vem de uma palavra iroquesa que significa o quê?",
+          "resposta": "Aldeia"
+        },
+        {
+          "id": "q00924",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Ottawa"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O navio de guerra sueco Vasa afundou em 1628, minutos depois de zarpar. Que falha de projeto causou o naufrágio?",
+        "resposta": "Era instável, pesado demais em cima"
+      },
+      "existentes": [
+        {
+          "id": "q04284",
+          "pergunta": "Em que cidade fica hoje o museu que abriga este navio de guerra do século dezessete?",
+          "resposta": "Estocolmo"
+        },
+        {
+          "id": "q05516",
+          "pergunta": "Que rei da Suécia encomendou a construção deste navio de guerra do século dezessete?",
+          "resposta": "Gustavo II Adolfo"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O que o pensador Thomas More e a rainha Ana Bolena têm em comum quanto à morte?",
+        "resposta": "Foram decapitados por ordem de Henrique Oitavo"
+      },
+      "existentes": [
+        {
+          "id": "q04742",
+          "pergunta": "Thomas More foi decapitado em 1535 por se recusar a reconhecer que rei como chefe da Igreja da Inglaterra?",
+          "resposta": "Henrique oitavo"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Publicado em 1572, o poema épico Os Lusíadas, de Luís de Camões, é dividido em quantos cantos?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q02937",
+          "pergunta": "O título do poema épico Os Lusíadas, de Camões, se refere a que povo?",
+          "resposta": "Os portugueses"
+        },
+        {
+          "id": "q02967",
+          "pergunta": "Segundo a tradição, Camões salvou o manuscrito de Os Lusíadas a nado, num naufrágio na foz de que rio asiático?",
+          "resposta": "Rio Mekong"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1582, para corrigir o calendário, o papa Gregório Treze mandou suprimir quantos dias do mês de outubro?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q00913",
+          "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Na década de 1630, os Países Baixos viveram uma bolha especulativa em que os bulbos de que flor chegaram a valer fortunas?",
+        "resposta": "Tulipa"
+      },
+      "existentes": [
+        {
+          "id": "q02691",
+          "pergunta": "A febre especulativa das tulipas na Holanda, lembrada como uma das primeiras bolhas financeiras da história, aconteceu em que século?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05547",
+      "motivo": "Mesma resposta: Wittenberg, cidade das teses."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o museu, não o nome do quadro."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00174",
+      "motivo": "Mesmo fato: ano do Tratado de Tordesilhas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ano de aprovação versus fundador; o enunciado existente dá o ano, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Autor de O Príncipe versus exemplo de governante citado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Autor de Utopia versus significado do título."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Autor do Elogio da Loucura versus trocadilho com More."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q03760",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q00417",
+      "motivo": "Ambas perguntam o pintor, com a mesma resposta."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q00005",
+      "motivo": "Mesmo fato: significado de Canadá como aldeia."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Causa do naufrágio é um fato diferente de cidade do museu ou rei."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Fato comparativo sobre More e Ana Bolena; a existente pergunta o rei que o mandou decapitar, mas o foco é outro. Na dúvida, nova."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Número de cantos é fato diferente."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q00913",
+      "motivo": "Mesmo fato: dez dias suprimidos em 1582."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Flor versus século da bolha."
+    }
+  ]
+}
