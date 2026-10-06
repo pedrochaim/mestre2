@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que artrópode marinho é este, mais aparentado das aranhas que dos caranguejos?",
+        "resposta": "Límulo (caranguejo-ferradura)"
+      },
+      "existentes": [
+        {
+          "id": "q02605",
+          "pergunta": "O sangue azul do caranguejo-ferradura é coletado pela indústria farmacêutica. Para que ele é usado?",
+          "resposta": "Detectar bactérias em remédios"
+        },
+        {
+          "id": "q02612",
+          "pergunta": "Embora pareça um crustáceo, o caranguejo-ferradura pertence ao mesmo grande grupo de artrópodes de qual destes animais?",
+          "resposta": "Escorpião"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que espécie de tartaruga marinha é esta?",
+        "resposta": "Tartaruga-de-pente"
+      },
+      "existentes": [
+        {
+          "id": "q02314",
+          "pergunta": "Que tartaruga marinha é esta?",
+          "resposta": "Tartaruga-de-pente"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que animal marinho é este, parente da estrela-do-mar?",
+        "resposta": "Ouriço-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q02536",
+          "pergunta": "O aparelho mastigador do ouriço-do-mar, com cinco dentes, é conhecido como lanterna de que filósofo grego?",
+          "resposta": "Aristóteles"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o animal a partir da descrição; a existente q02612 pergunta o grupo (aracnídeos) e dá o animal no enunciado. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação (imagem) com a mesma resposta: tartaruga-de-pente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o ouriço-do-mar; a existente trata da lanterna de Aristóteles. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mexilhão",
+        "descricao": "Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso.",
+        "variantes": [
+          "Mexilhões",
+          "Mytilidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "sri_lanka",
+          "nome": "Sri Lanka",
+          "descricao": "País insular do sul da Ásia, antigo Ceilão, ao sul da Índia.",
+          "variantes": [
+            "Ceilão",
+            "República Socialista Democrática do Sri Lanka"
+          ]
+        },
+        {
+          "id": "mexico",
+          "nome": "México",
+          "descricao": "País da América do Norte, o mais ao norte da América Latina, cuja capital é a Cidade do México.",
+          "variantes": [
+            "Estados Unidos Mexicanos"
+          ]
+        },
+        {
+          "id": "cedilha",
+          "nome": "Cedilha",
+          "descricao": "Sinal gráfico colocado sob a letra c, formando o ç",
+          "variantes": [
+            "Cedilla",
+            "Zedilla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Barracuda",
+        "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+        "variantes": [
+          "Sphyraena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barreado",
+          "nome": "Barreado",
+          "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "jararaca",
+          "nome": "Jararaca",
+          "descricao": "Serpente peçonhenta (Bothrops jararaca) do Sudeste e Sul do Brasil e de países vizinhos.",
+          "variantes": [
+            "Bothrops jararaca"
+          ]
+        },
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Límulo",
+        "descricao": "Artrópode marinho quelicerado de carapaça em forma de ferradura e cauda em espinho, também chamado caranguejo-ferradura.",
+        "variantes": [
+          "Caranguejo-ferradura",
+          "Limulus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        },
+        {
+          "id": "horseshoe_bend",
+          "nome": "Horseshoe Bend",
+          "descricao": "Meandro em forma de ferradura do rio Colorado, perto de Page, no Arizona, EUA.",
+          "variantes": [
+            "Curva da Ferradura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Foca",
+        "descricao": "Mamífero marinho pinípede da família Phocidae, sem orelhas externas; na imagem, um filhote de pelagem branca.",
+        "variantes": [
+          "Focas",
+          "Foca verdadeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico"
+          ]
+        },
+        {
+          "id": "oculos_bifocais",
+          "nome": "Óculos bifocais",
+          "descricao": "Óculos com lentes divididas em duas partes, uma para enxergar de longe e outra de perto, atribuídos a Benjamin Franklin.",
+          "variantes": [
+            "Lentes bifocais",
+            "Bifocais"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca",
+            "Killer whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha Eretmochelys imbricata, de bico fino e recurvado e carapaça com bordas serrilhadas.",
+        "variantes": [
+          "Tartaruga-de-escama",
+          "Eretmochelys imbricata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_cabecuda",
+          "nome": "Tartaruga-cabeçuda",
+          "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+          "variantes": [
+            "Caretta caretta",
+            "Loggerhead"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Peixe-diabo-negro",
+        "descricao": "Peixe-pescador abissal Melanocetus johnsonii, de boca enorme com dentes longos e isca luminosa na cabeça.",
+        "variantes": [
+          "Melanocetus johnsonii",
+          "Humpback anglerfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_pescador_abissal",
+          "nome": "Peixe-pescador abissal",
+          "descricao": "Peixe das profundezas da subordem Ceratioidei, cuja fêmea tem uma isca luminosa na cabeça.",
+          "variantes": [
+            "Peixe-diabo",
+            "Ceratioidei",
+            "Deep-sea anglerfish"
+          ]
+        },
+        {
+          "id": "baleia_jubarte",
+          "nome": "Baleia-jubarte",
+          "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae.",
+          "variantes": [
+            "Jubarte",
+            "Megaptera novaeangliae",
+            "Humpback whale"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        },
+        {
+          "id": "magic_johnson",
+          "nome": "Magic Johnson",
+          "descricao": "Armador americano do Los Angeles Lakers, cinco vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Earvin Johnson",
+            "Earvin Magic Johnson"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Boto-cinza",
+        "descricao": "Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central.",
+        "variantes": [
+          "Boto",
+          "Golfinho-da-guiana",
+          "Sotalia guianensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "bonito",
+          "nome": "Bonito",
+          "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+          "variantes": [
+            "Bonito (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "bobo_de_camarao",
+          "nome": "Bobó de camarão",
+          "descricao": "Prato baiano cremoso de camarão com purê de aipim, leite de coco e dendê.",
+          "variantes": [
+            "Bobó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Dragão-azul",
+        "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+        "variantes": [
+          "Glaucus atlanticus",
+          "Dragão-azul-do-mar",
+          "Anjo-azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "arara_azul_grande",
+          "nome": "Arara-azul-grande",
+          "descricao": "Maior arara e maior papagaio voador (Anodorhynchus hyacinthinus), de plumagem azul-cobalto com detalhes amarelos no rosto.",
+          "variantes": [
+            "Arara-azul",
+            "Hyacinth macaw",
+            "Anodorhynchus hyacinthinus"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "proverbios_neerlandeses",
+          "nome": "Provérbios Neerlandeses",
+          "descricao": "Pintura a óleo sobre madeira de Pieter Bruegel, o Velho, de 1559, que ilustra literalmente provérbios e expressões neerlandesas.",
+          "variantes": [
+            "Provérbios Flamengos",
+            "O Manto Azul",
+            "O Mundo de Cabeça para Baixo",
+            "Netherlandish Proverbs",
+            "Nederlandse Spreekwoorden"
+          ]
+        },
+        {
+          "id": "danubio_azul",
+          "nome": "Danúbio Azul",
+          "descricao": "Valsa de Johann Strauss Filho, de 1867, cujo título original é An der schönen blauen Donau.",
+          "variantes": [
+            "O Belo Danúbio Azul",
+            "An der schönen blauen Donau",
+            "The Blue Danube"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ostra",
+        "descricao": "Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea.",
+        "variantes": [
+          "Ostras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coelho_da_pascoa",
+          "nome": "Coelho da Páscoa",
+          "descricao": "Figura folclórica de um coelho que traz ou esconde ovos para as crianças na Páscoa.",
+          "variantes": [
+            "Easter Bunny",
+            "Osterhase"
+          ]
+        },
+        {
+          "id": "ostracismo",
+          "nome": "Ostracismo",
+          "descricao": "Procedimento da democracia ateniense em que os cidadãos votavam para exilar alguém por dez anos.",
+          "variantes": [
+            "Ostrakismos"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "cartao_postal",
+          "nome": "Cartão-postal",
+          "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+          "variantes": [
+            "Postal",
+            "Postcard"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ouriço-do-mar",
+        "descricao": "Equinoderma da classe Echinoidea, de corpo globular coberto de espinhos.",
+        "variantes": [
+          "Ouriço",
+          "Echinoidea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "equinodermos",
+          "nome": "Equinodermos",
+          "descricao": "Filo de animais marinhos de simetria pentarradial que reúne estrelas-do-mar, ouriços-do-mar e pepinos-do-mar.",
+          "variantes": [
+            "Echinodermata"
+          ]
+        },
+        {
+          "id": "narval",
+          "nome": "Narval",
+          "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros.",
+          "variantes": [
+            "Monodon monoceros",
+            "Narwhal",
+            "Unicórnio-do-mar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mexilhão não consta entre as candidatas; nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Barracuda é um peixe; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "limulo",
+      "motivo": "Mesmo artrópode, caranguejo-ferradura (Limulus)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Foca não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "tartaruga_de_pente",
+      "motivo": "Mesma espécie Eretmochelys imbricata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Espécie específica Melanocetus johnsonii, distinta do grupo mais amplo Ceratioidei e de Lophiiformes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Boto-cinza (Sotalia guianensis) é espécie diferente do boto-cor-de-rosa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Lesma-do-mar Glaucus atlanticus; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ostra não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "ourico_do_mar",
+      "motivo": "Mesmo equinoderma da classe Echinoidea."
+    }
+  ]
+}

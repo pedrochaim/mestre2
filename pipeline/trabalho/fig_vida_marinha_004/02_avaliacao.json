@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Aglomerado de mexilhões em rocha, claro e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco bivalve, preso às rochas da costa, é este?",
+      "resposta": "Mexilhão",
+      "ancora": {
+        "nome": "Mexilhão",
+        "descricao": "Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso.",
+        "variantes": [
+          "Mexilhões",
+          "Mytilidae"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Barracuda de perfil, nítida e inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe predador é este?",
+      "resposta": "Barracuda",
+      "ancora": {
+        "nome": "Barracuda",
+        "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+        "variantes": [
+          "Sphyraena"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Límulo visto por cima, forma muito característica. Pergunta de reconhecimento em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal marinho de carapaça em ferradura é este?",
+      "resposta": "Límulo",
+      "distratores": [
+        "Tatuíra",
+        "Caranguejo-eremita",
+        "Lagosta-de-pedra"
+      ],
+      "ancora": {
+        "nome": "Límulo",
+        "descricao": "Artrópode marinho quelicerado de carapaça em forma de ferradura e cauda em espinho, também chamado caranguejo-ferradura.",
+        "variantes": [
+          "Caranguejo-ferradura",
+          "Limulus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Filhote de foca na neve, nítido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que mamífero marinho é este filhote?",
+      "resposta": "Foca",
+      "ancora": {
+        "nome": "Foca",
+        "descricao": "Mamífero marinho pinípede da família Phocidae, sem orelhas externas; na imagem, um filhote de pelagem branca.",
+        "variantes": [
+          "Focas",
+          "Foca verdadeira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tartaruga-de-pente nadando em recife, bico recurvado visível; múltipla com outras tartarugas marinhas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de tartaruga marinha é esta?",
+      "resposta": "Tartaruga-de-pente",
+      "distratores": [
+        "Tartaruga-verde",
+        "Tartaruga-cabeçuda",
+        "Tartaruga-de-couro"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha Eretmochelys imbricata, de bico fino e recurvado e carapaça com bordas serrilhadas.",
+        "variantes": [
+          "Tartaruga-de-escama",
+          "Eretmochelys imbricata"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração nítida de peixe abissal com isca; aceitável por ser animal de águas profundas. Múltipla escolha resolve a ambiguidade entre peixes abissais.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de águas profundas é este?",
+      "resposta": "Peixe-diabo-negro",
+      "distratores": [
+        "Peixe-víbora",
+        "Peixe-machado",
+        "Peixe-lanterna"
+      ],
+      "ancora": {
+        "nome": "Peixe-diabo-negro",
+        "descricao": "Peixe-pescador abissal Melanocetus johnsonii, de boca enorme com dentes longos e isca luminosa na cabeça.",
+        "variantes": [
+          "Melanocetus johnsonii",
+          "Humpback anglerfish"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montagem com cinco espécies diferentes de atum; vários assuntos na mesma imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Golfinho cinzento saltando, perfil e bico reconhecíveis; múltipla para evitar ambiguidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que golfinho costeiro da América do Sul é este?",
+      "resposta": "Boto-cinza",
+      "distratores": [
+        "Golfinho-nariz-de-garrafa",
+        "Golfinho-pintado",
+        "Toninha"
+      ],
+      "ancora": {
+        "nome": "Boto-cinza",
+        "descricao": "Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central.",
+        "variantes": [
+          "Boto",
+          "Golfinho-da-guiana",
+          "Sotalia guianensis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível do dragão-azul.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de animal é este, que flutua na superfície do mar?",
+      "resposta": "Lesma-do-mar",
+      "distratores": [
+        "Água-viva",
+        "Anêmona-do-mar",
+        "Verme marinho"
+      ],
+      "ancora": {
+        "nome": "Dragão-azul",
+        "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+        "variantes": [
+          "Glaucus atlanticus",
+          "Dragão-azul-do-mar",
+          "Anjo-azul"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ostra aberta mostrando o interior; reconhecível em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que molusco bivalve é este, aberto?",
+      "resposta": "Ostra",
+      "distratores": [
+        "Mexilhão",
+        "Vieira",
+        "Marisco"
+      ],
+      "ancora": {
+        "nome": "Ostra",
+        "descricao": "Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea.",
+        "variantes": [
+          "Ostras"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ouriços-do-mar nítidos em recife, claramente reconhecíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal marinho de espinhos é este?",
+      "resposta": "Ouriço-do-mar",
+      "ancora": {
+        "nome": "Ouriço-do-mar",
+        "descricao": "Equinoderma da classe Echinoidea, de corpo globular coberto de espinhos.",
+        "variantes": [
+          "Ouriço",
+          "Echinoidea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Ilustração antiga e rudimentar, sem traços que permitam reconhecer a espécie; pode ser qualquer tubarão."
+    }
+  ]
+}

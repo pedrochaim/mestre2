@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mexilhão: bivalve preso ao substrato pelo bisso. A figura distingue de outros bivalves. Enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem pista que entregue a resposta. A barracuda é predadora segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Carapaça em ferradura' vaza o apelido caranguejo-ferradura, que entrega a resposta sem olhar a figura. Retirei a pista e aceitei o apelido na resposta.",
+      "reescrita": {
+        "pergunta": "Que artrópode marinho é este, mais aparentado das aranhas que dos caranguejos?",
+        "resposta": "Límulo (caranguejo-ferradura)",
+        "distratores": [
+          "Tatuíra",
+          "Caranguejo-eremita",
+          "Lagosta-de-pedra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filhote branco de foca; a pergunta é direta e sem vazamento. Única resposta defensável: foca.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tartaruga-de-pente é espécie de tartaruga marinha. Distratores são espécies do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peixe-diabo-negro é peixe abissal. Os distratores são outros peixes de profundidade, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boto-cinza é golfinho costeiro da América do Sul e Central, segundo os trechos. O nível 2 exige distinguir pela imagem, e os distratores são parecidos. Não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dragão-azul é uma lesma-do-mar pelágica que flutua na superfície (trecho). Sem a figura não dá para responder, e os distratores são do mesmo nível.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Marisco' é termo genérico e também descreve a ostra, então o distrator é defensável como correto. 'Aberto' depende de detalhe da foto não confirmado em 'mostra'.",
+      "reescrita": {
+        "pergunta": "Que molusco bivalve comestível é este?",
+        "resposta": "Ostra",
+        "distratores": [
+          "Mexilhão",
+          "Vieira",
+          "Berbigão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Animal marinho de espinhos' quase entrega 'ouriço-do-mar'; cobrindo a imagem, dá para responder. Troquei por pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que animal marinho é este, parente da estrela-do-mar?",
+        "resposta": "Ouriço-do-mar",
+        "distratores": []
+      }
+    }
+  ]
+}
