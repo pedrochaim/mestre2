@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que detetive da ficção é muito associado a este objeto?",
+        "resposta": "Sherlock Holmes"
+      },
+      "existentes": [
+        {
+          "id": "q06733",
+          "pergunta": "Que instrumento óptico é este?",
+          "resposta": "Lupa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome do objeto (lupa); a nova pergunta o detetive associado (Sherlock Holmes). São fatos diferentes."
+    }
+  ]
+}

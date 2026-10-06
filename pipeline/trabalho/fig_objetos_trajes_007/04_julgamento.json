@@ -1,0 +1,566 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lupa",
+        "descricao": "Lente convexa com cabo, usada para ampliar imagens de objetos.",
+        "variantes": [
+          "Lente de aumento",
+          "Lupa de mão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lupa",
+          "nome": "Lupa",
+          "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+          "variantes": [
+            "Lente de aumento",
+            "Vidro de aumento"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "luas_de_urano",
+          "nome": "Luas de Urano",
+          "descricao": "Satélites naturais do planeta Urano, batizados com nomes de personagens literários.",
+          "variantes": [
+            "Satélites de Urano",
+            "Moons of Uranus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tajine",
+        "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+        "variantes": [
+          "Tagine",
+          "Tagin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "tatooine",
+          "nome": "Tatooine",
+          "descricao": "Planeta desértico fictício da franquia Star Wars, terra natal de Luke Skywalker.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ralador",
+        "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        },
+        {
+          "id": "grampeador",
+          "nome": "Grampeador",
+          "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+          "variantes": [
+            "Agrafador",
+            "Stapler"
+          ]
+        },
+        {
+          "id": "ronaldo_fenomeno",
+          "nome": "Ronaldo Fenômeno",
+          "descricao": "Ex-atacante brasileiro, nascido em 1976, bicampeão mundial com a seleção e três vezes melhor jogador do mundo pela FIFA.",
+          "variantes": [
+            "Ronaldo Nazário",
+            "Ronaldo Luís Nazário de Lima",
+            "R9",
+            "O Fenômeno",
+            "Ronaldo"
+          ]
+        },
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mantilha",
+        "descricao": "Véu ou xale de renda usado sobre a cabeça e os ombros, tradicional na Espanha.",
+        "variantes": [
+          "Mantilla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baunilha",
+          "nome": "Baunilha",
+          "descricao": "Especiaria aromática obtida das vagens curadas de plantas do gênero Vanilla",
+          "variantes": [
+            "Vanilla",
+            "Vanilla planifolia"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        },
+        {
+          "id": "marill",
+          "nome": "Marill",
+          "descricao": "Pokémon rato aquático do tipo Água/Fada da segunda geração, número 183 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Alicate",
+        "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+        "variantes": [
+          "Alicate de pressão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        },
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Suspensório",
+        "descricao": "Tiras de tecido ou couro que passam pelos ombros para segurar calças ou saias.",
+        "variantes": [
+          "Suspenders",
+          "Braces"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "muriqui",
+          "nome": "Muriqui",
+          "descricao": "Primata do gênero Brachyteles, endêmico da Mata Atlântica brasileira.",
+          "variantes": [
+            "Brachyteles",
+            "Mono-carvoeiro",
+            "Woolly spider monkey"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "brasil",
+          "nome": "Brasil",
+          "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+          "variantes": [
+            "República Federativa do Brasil"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chave de fenda",
+        "descricao": "Ferramenta manual de ponta plana usada para girar parafusos de fenda.",
+        "variantes": [
+          "Chave de parafuso",
+          "Screwdriver"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "aves_do_paraiso",
+          "nome": "Aves-do-paraíso",
+          "descricao": "Família de aves (Paradisaeidae) de plumagens exuberantes e danças de corte, sobretudo da Nova Guiné.",
+          "variantes": [
+            "Paradisaeidae",
+            "Ave-do-paraíso",
+            "Birds-of-paradise"
+          ]
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "erwin_schrodinger",
+          "nome": "Erwin Schrödinger",
+          "descricao": "Físico teórico austríaco (1887–1961), autor da equação de Schrödinger e Nobel de Física de 1933.",
+          "variantes": [
+            "Schroedinger"
+          ]
+        },
+        {
+          "id": "rio_doce",
+          "nome": "Rio Doce",
+          "descricao": "Rio do Sudeste brasileiro que nasce em Minas Gerais e deságua no Atlântico, no Espírito Santo.",
+          "variantes": [
+            "Doce River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Quipá",
+        "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+        "variantes": [
+          "Kippah",
+          "Yarmulke",
+          "Kipá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sapato brogue",
+        "descricao": "Sapato de couro com furinhos decorativos e bordas serrilhadas, aqui na versão Oxford com bico asa de pássaro.",
+        "variantes": [
+          "Brogue",
+          "Wingtip"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "vogue",
+          "nome": "Vogue",
+          "descricao": "Revista de moda e estilo fundada em 1892, publicada pela Condé Nast",
+          "variantes": [
+            "Revista Vogue"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "broqueis",
+          "nome": "Broquéis",
+          "descricao": "Livro de poemas de Cruz e Sousa publicado em 1893, considerado o marco inicial do Simbolismo no Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lupa",
+      "motivo": "Mesma lente convexa com cabo para ampliar imagens; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tajine/panela marroquina."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ralador é utensílio de cozinha; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mantilha (véu espanhol) não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Alicate é ferramenta; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Suspensório não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Chave de fenda não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Quipá (chapéu judaico) difere de quipu, qipao e demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sapato brogue não corresponde a nenhuma candidata."
+    }
+  ]
+}

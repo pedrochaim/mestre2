@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a lupa é um ícone da ficção de detetive, em especial de Sherlock Holmes. O enunciado não revela o objeto, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Protege o dedo' em atividade manual descreve o dedal. A resposta 'costura' sai da função sem a imagem, então a figura virou enfeite. Bordado e alfaiataria também seriam defensáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o objeto ('barro com tampa cônica'), e isso permite responder sem a figura. O trecho confirma Marrocos como origem. Basta tirar a descrição.",
+      "reescrita": {
+        "pergunta": "Este recipiente e o prato preparado nele são típicos de que país?",
+        "resposta": "Marrocos",
+        "distratores": [
+          "Turquia",
+          "Irã",
+          "Índia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É reconhecimento direto da figura. Os distratores são utensílios de cozinha parecidos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a mantilha é tradicional na Espanha. 'Véu de renda' não identifica a peça sozinho, e a figura ajuda a distinguir. Os distratores são países europeus.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, direta, sem vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto da peça. Os distratores são acessórios do mesmo tipo, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ferramenta mostrada tem ponta plana, e os distratores (Phillips, formão, Allen) são ferramentas parecidas mas distintas. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a quipá é um chapéu judaico sem aba. Os distratores são outras peças de cabeça, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o brogue é o sapato com furos decorativos e bordas serrilhadas, incluindo o wingtip. Os distratores não descrevem a imagem, que é um Oxford, e não um monk.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lupa isolada, nítida e reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que detetive da ficção é muito associado a este objeto?",
+      "resposta": "Sherlock Holmes",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lupa",
+        "descricao": "Lente convexa com cabo, usada para ampliar imagens de objetos.",
+        "variantes": [
+          "Lente de aumento",
+          "Lupa de mão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dedal isolado, nítido e reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este objeto protege o dedo em que atividade manual?",
+      "resposta": "Costura",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dedal",
+        "descricao": "Pequeno copinho de metal com pontinhos, usado no dedo para proteger da agulha ao costurar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tajine com tampa cônica e prato, claros e sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Este recipiente de barro com tampa cônica e o prato cozido nele são típicos de que país?",
+      "resposta": "Marrocos",
+      "distratores": [
+        "Turquia",
+        "Irã",
+        "Índia"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Tajine",
+        "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+        "variantes": [
+          "Tagine",
+          "Tagin"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ralador em uso, claro; só mãos anônimas e marca pequena que não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Ralador",
+      "distratores": [
+        "Descascador",
+        "Mandolina",
+        "Espremedor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ralador",
+        "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mulher comum em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Véu de renda preta num manequim, sem pessoa nem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Este véu de renda para cobrir a cabeça é tradicional de que país europeu?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Itália",
+        "França",
+        "Grécia"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Mantilha",
+        "descricao": "Véu ou xale de renda usado sobre a cabeça e os ombros, tradicional na Espanha.",
+        "variantes": [
+          "Mantilla"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Alicate isolado, nítido, fundo branco.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Alicate",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alicate",
+        "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+        "variantes": [
+          "Alicate de pressão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Suspensório isolado, nítido, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Suspensório",
+      "distratores": [
+        "Cinto",
+        "Cartucheira",
+        "Cinta-liga"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Suspensório",
+        "descricao": "Tiras de tecido ou couro que passam pelos ombros para segurar calças ou saias.",
+        "variantes": [
+          "Suspenders",
+          "Braces"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mulher em primeiro plano, pessoa comum fora de festa pública."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chave de fenda isolada e nítida; o texto 6x100 não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Chave de fenda",
+      "distratores": [
+        "Chave Phillips",
+        "Formão",
+        "Chave Allen"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chave de fenda",
+        "descricao": "Ferramenta manual de ponta plana usada para girar parafusos de fenda.",
+        "variantes": [
+          "Chave de parafuso",
+          "Screwdriver"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quipá isolado e nítido; os símbolos não escrevem o nome.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Como se chama este tipo de chapéu sem aba?",
+      "resposta": "Quipá",
+      "distratores": [
+        "Fez",
+        "Barrete frígio",
+        "Turbante"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Quipá",
+        "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+        "variantes": [
+          "Kippah",
+          "Yarmulke",
+          "Kipá"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Par de sapatos brogue nítido; texto de fundo irrelevante.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que estilo de sapato é este?",
+      "resposta": "Brogue",
+      "distratores": [
+        "Mocassim",
+        "Chelsea boot",
+        "Sapato monk"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sapato brogue",
+        "descricao": "Sapato de couro com furinhos decorativos e bordas serrilhadas, aqui na versão Oxford com bico asa de pássaro.",
+        "variantes": [
+          "Brogue",
+          "Wingtip"
+        ]
+      }
+    }
+  ]
+}
