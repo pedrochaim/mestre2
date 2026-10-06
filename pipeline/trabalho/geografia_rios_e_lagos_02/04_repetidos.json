@@ -1,0 +1,528 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O delta do rio Okavango nunca chega ao mar: suas águas se espalham e evaporam no deserto do Kalahari. Em que país fica esse delta?",
+        "resposta": "Botsuana"
+      },
+      "existentes": [
+        {
+          "id": "q04807",
+          "pergunta": "O rio Okavango nunca chega ao mar: ele se espalha num enorme delta verde no meio do deserto do Kalahari. Esse delta fica em que país?",
+          "resposta": "Botsuana"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A gigantesca hidrelétrica das Três Gargantas, na China, foi construída em qual rio?",
+        "resposta": "Rio Yangtzé"
+      },
+      "existentes": [
+        {
+          "id": "q04153",
+          "pergunta": "A gigantesca usina hidrelétrica chinesa de Três Gargantas represa as águas de que rio?",
+          "resposta": "Yangtzé"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Florença, a medieval Ponte Vecchio, tomada por lojas de joias, atravessa qual rio?",
+        "resposta": "Rio Arno"
+      },
+      "existentes": [
+        {
+          "id": "q05293",
+          "pergunta": "Em que século foi erguida a versão atual desta ponte medieval, depois de uma enchente destruir a anterior?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No Tocantins, a ilha do Bananal, uma das maiores ilhas fluviais do mundo, é cercada pelos braços de qual rio?",
+        "resposta": "Rio Araguaia"
+      },
+      "existentes": [
+        {
+          "id": "q02429",
+          "pergunta": "A Ilha do Bananal, enorme ilha fluvial do Tocantins, fica no meio de qual grande rio?",
+          "resposta": "Araguaia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Nilo Branco e o Nilo Azul se encontram para formar o Nilo propriamente dito em qual capital africana?",
+        "resposta": "Cartum"
+      },
+      "existentes": [
+        {
+          "id": "q02164",
+          "pergunta": "Que historiador grego da Antiguidade escreveu que o Egito é uma dádiva do Nilo?",
+          "resposta": "Heródoto"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que ano a barragem da Vale em Brumadinho, Minas Gerais, se rompeu e despejou lama no rio Paraopeba?",
+        "resposta": "2019"
+      },
+      "existentes": [
+        {
+          "id": "q05476",
+          "pergunta": "O rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais, aconteceu em que ano?",
+          "resposta": "2019"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A fama mundial do monstro do lago Ness começou depois que abriram uma estrada à margem do lago. Em que década do século vinte?",
+        "resposta": "Anos 1930"
+      },
+      "existentes": [
+        {
+          "id": "q04406",
+          "pergunta": "Em que país da Europa fica este lago?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O encouraçado alemão Graf Spee foi afundado pela própria tripulação no estuário do rio da Prata, diante de Montevidéu, durante qual guerra?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q00133",
+          "pergunta": "Em dezembro de 1939, o navio de guerra alemão Graf Spee foi afundado pela própria tripulação diante de qual capital sul-americana?",
+          "resposta": "Montevidéu"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Depois de cerca de um século de proibição de nadar no rio Sena, Paris usou suas águas para provas olímpicas de triatlo. Em que ano?",
+        "resposta": "2024"
+      },
+      "existentes": [
+        {
+          "id": "q02168",
+          "pergunta": "Em Paris, em qual ilha do rio Sena fica a catedral de Notre-Dame?",
+          "resposta": "Île de la Cité"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1541, que conquistador espanhol alcançou o rio Mississippi e o chamou de Rio do Espírito Santo?",
+        "resposta": "Hernando de Soto"
+      },
+      "existentes": [
+        {
+          "id": "q02125",
+          "pergunta": "Dizer rio Mississippi é quase redundante, porque na língua indígena ojibwe o nome já significa o quê?",
+          "resposta": "Grande rio"
+        },
+        {
+          "id": "q02126",
+          "pergunta": "O pseudônimo Mark Twain vem de um grito que media a profundidade nos barcos a vapor de qual rio americano?",
+          "resposta": "Mississippi"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1800, que naturalista alemão explorou o canal Casiquiare, ligação natural entre as bacias do Orinoco e do Amazonas?",
+        "resposta": "Alexander von Humboldt"
+      },
+      "existentes": [
+        {
+          "id": "q02155",
+          "pergunta": "O canal Casiquiare, na Venezuela, liga naturalmente a bacia do Amazonas à de qual outro grande rio?",
+          "resposta": "Orinoco"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que trio de sertanistas paulistas, todos da mesma família, foi o principal idealizador do Parque Indígena do Xingu, criado em 1961?",
+        "resposta": "Villas-Bôas"
+      },
+      "existentes": [
+        {
+          "id": "q04536",
+          "pergunta": "Que família de irmãos sertanistas idealizou o Parque Indígena do Xingu, criado em 1961 em Mato Grosso?",
+          "resposta": "Villas-Bôas"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em 1859, diante de milhares de espectadores, que equilibrista francês atravessou a garganta do rio Niágara andando sobre uma corda bamba?",
+        "resposta": "Charles Blondin"
+      },
+      "existentes": [
+        {
+          "id": "q02152",
+          "pergunta": "As Cataratas do Niágara ficam no rio que liga o lago Erie a qual outro dos Grandes Lagos?",
+          "resposta": "Lago Ontário"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em plena Guerra Fria, que potência financiou e ajudou o Egito a construir a represa alta de Assuã, no rio Nilo?",
+        "resposta": "União Soviética"
+      },
+      "existentes": [
+        {
+          "id": "q05478",
+          "pergunta": "Nos anos 1960, o lago formado pela represa de Assuã, no Egito, obrigou a desmontar e transferir que famosos templos de Ramsés Segundo?",
+          "resposta": "Abu Simbel"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que explorador, famoso por ter encontrado Livingstone na África, concluiu em 1877 uma expedição que seguiu o rio Congo até o Atlântico?",
+        "resposta": "Henry Morton Stanley"
+      },
+      "existentes": [
+        {
+          "id": "q02170",
+          "pergunta": "O rio Congo, na África Central, faz um grande arco e cruza duas vezes qual linha imaginária?",
+          "resposta": "Linha do Equador"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O enorme lago artificial formado pela represa de Assuã, no Nilo, homenageia qual presidente egípcio?",
+        "resposta": "Gamal Abdel Nasser"
+      },
+      "existentes": [
+        {
+          "id": "q02147",
+          "pergunta": "Nos anos 1960, os templos egípcios de Abu Simbel foram cortados em blocos e remontados num ponto mais alto. O que os ameaçava?",
+          "resposta": "Inundação pela represa de Assuã"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A represa no rio Colorado que forma o lago Mead, na divisa de Nevada com o Arizona, leva o nome de qual presidente americano?",
+        "resposta": "Herbert Hoover"
+      },
+      "existentes": [
+        {
+          "id": "q05480",
+          "pergunta": "Entre 1933 e 1947, a represa Hoover, no rio Colorado, foi chamada por outro nome, tirado de um cânion vizinho. Qual?",
+          "resposta": "Boulder"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em janeiro de 1502, navegadores portugueses chegaram à baía de Guanabara e deram ao lugar um nome que hoje é de cidade e de estado. Qual?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q04404",
+          "pergunta": "Que baía brasileira é esta?",
+          "resposta": "Baía de Guanabara"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em tupi, o nome Ipiranga, do riacho da Independência, quer dizer rio de que cor?",
+        "resposta": "Vermelho"
+      },
+      "existentes": [
+        {
+          "id": "q00146",
+          "pergunta": "O riacho às margens do qual Dom Pedro proclamou a Independência tem um nome tupi que significa rio de qual cor?",
+          "resposta": "Vermelho"
+        },
+        {
+          "id": "q02151",
+          "pergunta": "Que riacho paulista, cenário do grito da Independência, aparece logo no primeiro verso do Hino Nacional Brasileiro?",
+          "resposta": "Ipiranga"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O Salto Ángel, cachoeira altíssima da Venezuela, não deve seu nome a um anjo. Ele homenageia quem?",
+        "resposta": "Jimmie Angel, aviador americano"
+      },
+      "existentes": [
+        {
+          "id": "q02070",
+          "pergunta": "O nome do Salto Ángel, na Venezuela, não tem nada de religioso. Ele homenageia quem?",
+          "resposta": "Jimmie Angel, aviador americano"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O nome de qual estado brasileiro vem do canal que liga a Lagoa dos Patos ao oceano Atlântico?",
+        "resposta": "Rio Grande do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q04570",
+          "pergunta": "No Rio Grande do Sul, uma grande laguna chega ao mar pela barra da cidade de Rio Grande. Qual é a maior laguna costeira do Brasil?",
+          "resposta": "Lagoa dos Patos"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Segundo a lenda inca, que herói, filho do deus Sol, surgiu das águas do lago Titicaca e depois fundou Cusco?",
+        "resposta": "Manco Cápac"
+      },
+      "existentes": [
+        {
+          "id": "q02158",
+          "pergunta": "Nos Andes, o lago Titicaca é dividido entre a Bolívia e qual outro país?",
+          "resposta": "Peru"
+        },
+        {
+          "id": "q02159",
+          "pergunta": "No lago Titicaca, o povo uro vive em ilhas flutuantes feitas de qual planta?",
+          "resposta": "Totora"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Desde 1829, uma famosa regata de remo no rio Tâmisa opõe as equipes de quais duas universidades inglesas?",
+        "resposta": "Oxford e Cambridge"
+      },
+      "existentes": [
+        {
+          "id": "q02133",
+          "pergunta": "Ao passar pela cidade universitária de Oxford, o rio Tâmisa é tradicionalmente chamado pelo nome de qual deusa egípcia?",
+          "resposta": "Ísis"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "O rio Negro, na Amazônia, tem águas escuras, cor de chá forte. O que dá essa cor a elas?",
+        "resposta": "Matéria orgânica de plantas decompostas"
+      },
+      "existentes": [
+        {
+          "id": "q02413",
+          "pergunta": "Por que as águas do rio Negro, na Amazônia, têm a cor escura de chá que dá nome ao rio?",
+          "resposta": "Matéria orgânica em decomposição"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Das três quedas que formam as Cataratas do Niágara, qual é a maior, situada quase toda do lado canadense?",
+        "resposta": "Queda da Ferradura (Horseshoe Falls)"
+      },
+      "existentes": [
+        {
+          "id": "q03873",
+          "pergunta": "Que dois países dividem estas cataratas?",
+          "resposta": "Estados Unidos e Canadá"
+        },
+        {
+          "id": "q06711",
+          "pergunta": "Em 1901, quem foi a primeira pessoa a despencar das Cataratas do Niágara dentro de um barril e sobreviver?",
+          "resposta": "Annie Edson Taylor"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "De águas muito alcalinas e avermelhadas, o lago Natron, na Tanzânia, é o principal local de reprodução de qual ave?",
+        "resposta": "Flamingo-pequeno"
+      },
+      "existentes": [
+        {
+          "id": "q02863",
+          "pergunta": "O lago Natron, na Tanzânia, tem o nome de um mineral que os antigos egípcios usavam em que prática funerária?",
+          "resposta": "Mumificação"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04807",
+      "motivo": "Mesmo fato: país do delta do Okavango."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q04153",
+      "motivo": "Mesmo fato: rio da hidrelétrica de Três Gargantas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Rio da Ponte Vecchio é fato diferente do século de construção."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q02429",
+      "motivo": "Mesmo fato: rio da Ilha do Bananal."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Confluência em Cartum difere de Heródoto."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q05476",
+      "motivo": "Mesmo fato: ano do rompimento em Brumadinho."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Década da fama difere do país do lago."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Guerra em que ocorreu difere da capital diante da qual foi afundado; a resposta não decorre da outra."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ano do triatlo difere da ilha de Notre-Dame."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Hernando de Soto é fato distinto."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Explorador do Casiquiare difere do rio ligado."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q04536",
+      "motivo": "Mesmo fato: Villas-Bôas idealizaram o Parque do Xingu."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Blondin difere do lago ligado ao Niágara."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Financiador da represa difere dos templos transferidos."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Stanley difere da linha do Equador."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Homenageado no lago Nasser difere da ameaça a Abu Simbel."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nome Hoover difere do antigo nome Boulder; a pergunta existente já cita Hoover, mas pergunta outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Nome dado ao lugar difere de identificar a baía."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q00146",
+      "motivo": "Mesmo fato: significado de Ipiranga, vermelho."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q02070",
+      "motivo": "Mesmo fato: homenageado do Salto Ángel."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Estado cujo nome vem do canal difere da maior laguna."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Lenda de Manco Cápac é fato distinto."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Regata difere de Ísis em Oxford."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "id_existente": "q02413",
+      "motivo": "Mesmo fato: causa da cor escura do rio Negro."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Maior queda difere dos países e da primeira pessoa no barril."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Ave que se reproduz difere do uso do natron."
+    }
+  ]
+}

@@ -2578,7 +2578,8 @@
     "variantes": [
       "Ribeirão do Ipiranga",
       "Rio Ipiranga",
-      "Ipiranga"
+      "Ipiranga",
+      "Córrego do Ipiranga"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Riacho_do_Ipiranga"
@@ -32610,7 +32611,8 @@
     "descricao": "Principal rio dos Estados Unidos, que deságua no golfo do México perto de Nova Orleans.",
     "variantes": [
       "Mississipi",
-      "Mississippi River"
+      "Mississippi River",
+      "Mississippi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mississippi_River"
@@ -33053,7 +33055,8 @@
     "variantes": [
       "Casiquiare",
       "Casiquiare canal",
-      "Brazo Casiquiare"
+      "Brazo Casiquiare",
+      "Cassiquiare"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Casiquiare_canal"
@@ -37293,7 +37296,9 @@
     "nome": "Rio Negro",
     "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
     "variantes": [
-      "Rio Negro (Amazonas)"
+      "Rio Negro (Amazonas)",
+      "Rio Negro do Amazonas",
+      "Guainía"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
@@ -37469,7 +37474,8 @@
     "nome": "Ilha do Bananal",
     "descricao": "Grande ilha fluvial no estado do Tocantins, formada pela bifurcação do rio Araguaia com o braço do Javaés.",
     "variantes": [
-      "Bananal Island"
+      "Bananal Island",
+      "Bananal"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Ilha_do_Bananal"
@@ -61829,7 +61835,8 @@
     "descricao": "Grande usina hidrelétrica e barragem na província de Hubei, na China.",
     "variantes": [
       "Three Gorges Dam",
-      "Barragem das Três Gargantas"
+      "Barragem das Três Gargantas",
+      "Três Gargantas"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Three_Gorges_Dam"
@@ -65546,7 +65553,8 @@
     "nome": "Baía de Guanabara",
     "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
     "variantes": [
-      "Guanabara Bay"
+      "Guanabara Bay",
+      "Guanabara"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Guanabara_Bay",
@@ -71237,7 +71245,8 @@
     "nome": "Delta do Okavango",
     "descricao": "Grande delta interior formado pelo rio Okavango, que se espalha no deserto do Kalahari sem chegar ao mar.",
     "variantes": [
-      "Okavango Delta"
+      "Okavango Delta",
+      "Delta do Cubango"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Okavango_Delta"
@@ -80506,7 +80515,8 @@
     "descricao": "Rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais.",
     "variantes": [
       "Desastre de Brumadinho",
-      "Tragédia de Brumadinho"
+      "Tragédia de Brumadinho",
+      "Rompimento de barragem em Brumadinho"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho",
@@ -80543,7 +80553,8 @@
     "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser.",
     "variantes": [
       "Represa Alta de Assuã",
-      "Barragem de Assuã"
+      "Barragem de Assuã",
+      "Aswan High Dam"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Aswan_Dam"
@@ -102842,6 +102853,279 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/John_J._Pershing",
       "https://pt.wikipedia.org/wiki/John_J._Pershing"
+    ]
+  },
+  {
+    "id": "rio_mekong",
+    "nome": "Rio Mekong",
+    "descricao": "Grande rio do Sudeste Asiático que nasce no planalto do Tibete e deságua no mar da China Meridional.",
+    "variantes": [
+      "Mekong",
+      "Mecongue"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Mekong",
+      "https://en.wikipedia.org/wiki/Mekong"
+    ]
+  },
+  {
+    "id": "rio_capibaribe",
+    "nome": "Rio Capibaribe",
+    "descricao": "Rio de Pernambuco que atravessa a cidade do Recife até o oceano Atlântico.",
+    "variantes": [
+      "Capibaribe"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Capibaribe"
+    ]
+  },
+  {
+    "id": "lago_guaiba",
+    "nome": "Lago Guaíba",
+    "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+    "variantes": [
+      "Guaíba",
+      "Rio Guaíba"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Lago_Gua%C3%ADba"
+    ]
+  },
+  {
+    "id": "voo_us_airways_1549",
+    "nome": "Voo US Airways 1549",
+    "descricao": "Voo comercial que, em janeiro de 2009, fez um pouso de emergência na água em Nova York após perder os dois motores, sem nenhuma morte.",
+    "variantes": [
+      "Milagre do Hudson",
+      "US Airways Flight 1549"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Voo_US_Airways_1549",
+      "https://en.wikipedia.org/wiki/US_Airways_Flight_1549"
+    ]
+  },
+  {
+    "id": "rio_kwai",
+    "nome": "Rio Kwai",
+    "descricao": "Rio do oeste da Tailândia cruzado pela Ferrovia da Morte, construída por prisioneiros dos japoneses na Segunda Guerra Mundial.",
+    "variantes": [
+      "Khwae Yai",
+      "Rio Kwai Yai"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Khwae_Yai_River"
+    ]
+  },
+  {
+    "id": "dia_do_elba",
+    "nome": "Dia do Elba",
+    "descricao": "Encontro de tropas americanas e soviéticas em Torgau, na Alemanha, em 25 de abril de 1945, no fim da Segunda Guerra Mundial.",
+    "variantes": [
+      "Elbe Day",
+      "Encontro no Elba"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elbe_Day"
+    ]
+  },
+  {
+    "id": "travessia_do_rio_delaware",
+    "nome": "Travessia do rio Delaware",
+    "descricao": "Operação militar em que George Washington cruzou o rio Delaware com o Exército Continental para atacar Trenton, na Guerra de Independência dos Estados Unidos.",
+    "variantes": [
+      "Washington cruzando o Delaware",
+      "Washington's crossing of the Delaware River"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/George_Washington%27s_crossing_of_the_Delaware_River"
+    ]
+  },
+  {
+    "id": "batalha_naval_do_riachuelo",
+    "nome": "Batalha Naval do Riachuelo",
+    "descricao": "Combate naval de 11 de junho de 1865, no rio Paraná, perto de Corrientes, vencido pela Marinha do Brasil.",
+    "variantes": [
+      "Batalha do Riachuelo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo"
+    ]
+  },
+  {
+    "id": "enchentes_no_rio_grande_do_sul_em_2024",
+    "nome": "Enchentes no Rio Grande do Sul em 2024",
+    "descricao": "Grandes inundações que atingiram a maior parte do Rio Grande do Sul e o centro de Porto Alegre, com cheia recorde do Guaíba.",
+    "variantes": [
+      "Enchente de 2024 no Rio Grande do Sul",
+      "2024 Rio Grande do Sul floods"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024"
+    ]
+  },
+  {
+    "id": "rio_zambeze",
+    "nome": "Rio Zambeze",
+    "descricao": "Grande rio do sul da África que forma as Cataratas Vitória e deságua no oceano Índico, em Moçambique.",
+    "variantes": [
+      "Zambeze",
+      "Zambezi"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Zambeze",
+      "https://en.wikipedia.org/wiki/Zambezi"
+    ]
+  },
+  {
+    "id": "rio_hudson",
+    "nome": "Rio Hudson",
+    "descricao": "Rio do estado de Nova York que deságua no Atlântico junto à ilha de Manhattan.",
+    "variantes": [
+      "Hudson",
+      "Hudson River"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hudson_River"
+    ]
+  },
+  {
+    "id": "rio_parana",
+    "nome": "Rio Paraná",
+    "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+    "variantes": [
+      "Paraná"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1",
+      "https://en.wikipedia.org/wiki/Paran%C3%A1_River"
+    ]
+  },
+  {
+    "id": "rio_piracicaba",
+    "nome": "Rio Piracicaba",
+    "descricao": "Rio do interior paulista, afluente do Tietê, que atravessa a cidade de Piracicaba.",
+    "variantes": [
+      "Piracicaba"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Piracicaba"
+    ]
+  },
+  {
+    "id": "delta_do_nilo",
+    "nome": "Delta do Nilo",
+    "descricao": "Grande planície em forma de leque no norte do Egito, onde o rio Nilo se divide antes de chegar ao Mediterrâneo.",
+    "variantes": [
+      "Nile Delta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nile_Delta"
+    ]
+  },
+  {
+    "id": "rio_moldava",
+    "nome": "Rio Moldava",
+    "descricao": "Rio mais longo da República Tcheca, que atravessa a cidade de Praga.",
+    "variantes": [
+      "Vltava",
+      "Moldau"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vltava"
+    ]
+  },
+  {
+    "id": "lago_de_genebra",
+    "nome": "Lago de Genebra",
+    "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+    "variantes": [
+      "Lago Léman",
+      "Lago Lemano",
+      "Lake Geneva"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lake_Geneva"
+    ]
+  },
+  {
+    "id": "rio_douro",
+    "nome": "Rio Douro",
+    "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+    "variantes": [
+      "Douro",
+      "Duero"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Douro"
+    ]
+  },
+  {
+    "id": "tonle_sap",
+    "nome": "Tonlé Sap",
+    "descricao": "Sistema de lago e rio no Camboja ligado ao rio Mekong, cuja correnteza muda de sentido conforme a estação.",
+    "variantes": [
+      "Lago Tonlé Sap"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tonl%C3%A9_Sap"
+    ]
+  },
+  {
+    "id": "grande_fedor",
+    "nome": "Grande Fedor",
+    "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+    "variantes": [
+      "Great Stink",
+      "Grande Mau Cheiro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Stink"
+    ]
+  },
+  {
+    "id": "rio_pinheiros",
+    "nome": "Rio Pinheiros",
+    "descricao": "Rio da cidade de São Paulo, afluente do Tietê, que teve o curso retificado e invertido no século vinte.",
+    "variantes": [
+      "Pinheiros"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rio_Pinheiros"
+    ]
+  },
+  {
+    "id": "delta_do_ganges",
+    "nome": "Delta do Ganges",
+    "descricao": "Imenso delta na Índia e em Bangladesh, formado pelos rios Ganges e Brahmaputra antes do golfo de Bengala.",
+    "variantes": [
+      "Delta do Ganges-Brahmaputra",
+      "Delta de Bengala",
+      "Ganges Delta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ganges_Delta"
+    ]
+  },
+  {
+    "id": "lago_michigan",
+    "nome": "Lago Michigan",
+    "descricao": "Um dos cinco Grandes Lagos da América do Norte, às margens do qual fica Chicago.",
+    "variantes": [
+      "Lake Michigan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lake_Michigan"
+    ]
+  },
+  {
+    "id": "rio_missouri",
+    "nome": "Rio Missouri",
+    "descricao": "Grande rio dos Estados Unidos que nasce nas Montanhas Rochosas e deságua no Mississippi perto de Saint Louis.",
+    "variantes": [
+      "Missouri"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Missouri_River"
     ]
   }
 ]

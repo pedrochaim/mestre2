@@ -121681,5 +121681,616 @@
       "autor": "Attributed to John Taylor",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q07138",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_mekong",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Depois de nascer no Tibete e passar por Laos e Camboja, o rio Mekong forma seu grande delta em qual país?",
+    "resposta": "Vietnã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mekong",
+      "https://en.wikipedia.org/wiki/Mekong_Delta"
+    ]
+  },
+  {
+    "id": "q07139",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_capibaribe",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Chamada de Veneza brasileira, que capital nordestina é cortada pelos rios Capibaribe e Beberibe?",
+    "resposta": "Recife",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Capibaribe",
+      "https://pt.wikipedia.org/wiki/Recife"
+    ]
+  },
+  {
+    "id": "q07140",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_guaiba",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Famoso pelo pôr do sol, o Guaíba banha qual capital brasileira?",
+    "resposta": "Porto Alegre",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lago_Gua%C3%ADba",
+      "https://pt.wikipedia.org/wiki/Porto_Alegre"
+    ]
+  },
+  {
+    "id": "q07141",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "voo_us_airways_1549",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2009, o comandante Sully pousou um avião de passageiros sem motores num rio de Nova York, sem nenhuma morte. Que rio era esse?",
+    "resposta": "Rio Hudson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/US_Airways_Flight_1549"
+    ]
+  },
+  {
+    "id": "q07142",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "ponte_vecchio",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Florença, a medieval Ponte Vecchio, tomada por lojas de joias, atravessa qual rio?",
+    "resposta": "Rio Arno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+    ]
+  },
+  {
+    "id": "q07143",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_kwai",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Na Segunda Guerra, prisioneiros dos japoneses construíram a ponte sobre o rio Kwai, que inspirou um filme famoso. Em que país fica esse rio?",
+    "resposta": "Tailândia",
+    "distratores": [
+      "Mianmar",
+      "Vietnã",
+      "Malásia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Khwae_Yai_River",
+      "https://en.wikipedia.org/wiki/Burma_Railway"
+    ]
+  },
+  {
+    "id": "q07144",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "dia_do_elba",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em abril de 1945, soldados americanos e soviéticos se encontraram pela primeira vez na Alemanha, às margens de qual rio?",
+    "resposta": "Rio Elba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elbe_Day"
+    ]
+  },
+  {
+    "id": "q07145",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_nilo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Nilo Branco e o Nilo Azul se encontram para formar o Nilo propriamente dito em qual capital africana?",
+    "resposta": "Cartum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Khartoum",
+      "https://pt.wikipedia.org/wiki/Rio_Nilo"
+    ]
+  },
+  {
+    "id": "q07146",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "travessia_do_rio_delaware",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na noite de Natal de que ano George Washington atravessou com suas tropas o rio Delaware, cheio de gelo, para um ataque surpresa?",
+    "resposta": "1776",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Washington%27s_crossing_of_the_Delaware_River"
+    ]
+  },
+  {
+    "id": "q07147",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_ness",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A fama mundial do monstro do lago Ness começou depois que abriram uma estrada à margem do lago. Em que década do século vinte?",
+    "resposta": "Anos 1930",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+    ]
+  },
+  {
+    "id": "q07148",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "batalha_naval_do_riachuelo",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Batalha do Riachuelo, vencida pela Marinha brasileira nas águas do rio Paraná em 1865, aconteceu durante qual guerra?",
+    "resposta": "Guerra do Paraguai",
+    "distratores": [
+      "Guerra da Cisplatina",
+      "Guerra dos Farrapos",
+      "Guerra do Prata"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo"
+    ]
+  },
+  {
+    "id": "q07149",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "enchentes_no_rio_grande_do_sul_em_2024",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "As enchentes que inundaram o centro de Porto Alegre e superaram a histórica cheia do Guaíba de 1941 aconteceram em que ano?",
+    "resposta": "2024",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024",
+      "https://en.wikipedia.org/wiki/2024_Rio_Grande_do_Sul_floods"
+    ]
+  },
+  {
+    "id": "q07150",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "admiral_graf_spee",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O encouraçado alemão Graf Spee foi afundado pela própria tripulação no estuário do rio da Prata, diante de Montevidéu, durante qual guerra?",
+    "resposta": "Segunda Guerra Mundial",
+    "distratores": [
+      "Primeira Guerra Mundial",
+      "Guerra do Chaco",
+      "Guerra das Malvinas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Graf_Spee",
+      "https://en.wikipedia.org/wiki/Battle_of_the_River_Plate"
+    ]
+  },
+  {
+    "id": "q07151",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_sena",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Depois de cerca de um século de proibição de nadar no rio Sena, Paris usou suas águas para provas olímpicas de triatlo. Em que ano?",
+    "resposta": "2024",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triathlon_at_the_2024_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Seine"
+    ]
+  },
+  {
+    "id": "q07152",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_mississippi",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1541, que conquistador espanhol alcançou o rio Mississippi e o chamou de Rio do Espírito Santo?",
+    "resposta": "Hernando de Soto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mississippi_River",
+      "https://en.wikipedia.org/wiki/Hernando_de_Soto"
+    ]
+  },
+  {
+    "id": "q07153",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_zambeze",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1850, que missionário e explorador escocês desceu o rio Zambeze e deu às cataratas o nome de Vitória, em homenagem à rainha britânica?",
+    "resposta": "David Livingstone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/David_Livingstone",
+      "https://en.wikipedia.org/wiki/Zambezi"
+    ]
+  },
+  {
+    "id": "q07154",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "canal_casiquiare",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1800, que naturalista alemão explorou o canal Casiquiare, ligação natural entre as bacias do Orinoco e do Amazonas?",
+    "resposta": "Alexander von Humboldt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Casiquiare_canal",
+      "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+    ]
+  },
+  {
+    "id": "q07155",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_niagara",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1859, diante de milhares de espectadores, que equilibrista francês atravessou a garganta do rio Niágara andando sobre uma corda bamba?",
+    "resposta": "Charles Blondin",
+    "distratores": [
+      "Harry Houdini",
+      "Philippe Petit",
+      "Jules Léotard"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Blondin"
+    ]
+  },
+  {
+    "id": "q07156",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "represa_de_assua",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em plena Guerra Fria, que potência financiou e ajudou o Egito a construir a represa alta de Assuã, no rio Nilo?",
+    "resposta": "União Soviética",
+    "distratores": [
+      "Estados Unidos",
+      "Reino Unido",
+      "França"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aswan_Dam"
+    ]
+  },
+  {
+    "id": "q07157",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_congo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que explorador, famoso por ter encontrado Livingstone na África, concluiu em 1877 uma expedição que seguiu o rio Congo até o Atlântico?",
+    "resposta": "Henry Morton Stanley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Morton_Stanley",
+      "https://en.wikipedia.org/wiki/Congo_River"
+    ]
+  },
+  {
+    "id": "q07158",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_hudson",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1609, a serviço de uma companhia holandesa, que navegador inglês subiu o grande rio de Nova York que hoje leva o seu nome?",
+    "resposta": "Henry Hudson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Hudson",
+      "https://en.wikipedia.org/wiki/Hudson_River"
+    ]
+  },
+  {
+    "id": "q07159",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_nasser",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O enorme lago artificial formado pela represa de Assuã, no Nilo, homenageia qual presidente egípcio?",
+    "resposta": "Gamal Abdel Nasser",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Nasser"
+    ]
+  },
+  {
+    "id": "q07160",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "represa_hoover",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A represa no rio Colorado que forma o lago Mead, na divisa de Nevada com o Arizona, leva o nome de qual presidente americano?",
+    "resposta": "Herbert Hoover",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hoover_Dam"
+    ]
+  },
+  {
+    "id": "q07161",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "baia_de_guanabara",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em janeiro de 1502, navegadores portugueses chegaram à baía de Guanabara e deram ao lugar um nome que hoje é de cidade e de estado. Qual?",
+    "resposta": "Rio de Janeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_Guanabara",
+      "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "q07162",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_parana",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua tupi, o nome do rio Paraná quer dizer que ele é semelhante a quê?",
+    "resposta": "Ao mar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1"
+    ]
+  },
+  {
+    "id": "q07163",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_piracicaba",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Piracicaba, de origem tupi, é de um rio e de uma cidade paulistas e significa lugar de chegada de qual animal?",
+    "resposta": "O peixe",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Piracicaba"
+    ]
+  },
+  {
+    "id": "q07164",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "delta_do_nilo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra delta, usada para certas fozes, nasceu porque os gregos acharam a foz de qual rio parecida com essa letra?",
+    "resposta": "Nilo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/River_delta",
+      "https://en.wikipedia.org/wiki/Nile_Delta"
+    ]
+  },
+  {
+    "id": "q07165",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_moldava",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O rio que atravessa Praga dá título ao trecho mais famoso de um ciclo de poemas sinfônicos. Que compositor tcheco o escreveu?",
+    "resposta": "Bedřich Smetana",
+    "distratores": [
+      "Antonín Dvořák",
+      "Leoš Janáček",
+      "Bohuslav Martinů"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/M%C3%A1_vlast",
+      "https://en.wikipedia.org/wiki/Vltava"
+    ]
+  },
+  {
+    "id": "q07166",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_de_genebra",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Numa casa às margens do lago de Genebra, no sombrio verão de 1816, que escritora inglesa concebeu o romance Frankenstein?",
+    "resposta": "Mary Shelley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Villa_Diodati",
+      "https://en.wikipedia.org/wiki/Frankenstein"
+    ]
+  },
+  {
+    "id": "q07167",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lagoa_dos_patos",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome de qual estado brasileiro vem do canal que liga a Lagoa dos Patos ao oceano Atlântico?",
+    "resposta": "Rio Grande do Sul",
+    "distratores": [
+      "Rio Grande do Norte",
+      "Santa Catarina",
+      "Paraná"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul"
+    ]
+  },
+  {
+    "id": "q07168",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_titicaca",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda inca, que herói, filho do deus Sol, surgiu das águas do lago Titicaca e depois fundou Cusco?",
+    "resposta": "Manco Cápac",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac"
+    ]
+  },
+  {
+    "id": "q07169",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_tamisa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Desde 1829, uma famosa regata de remo no rio Tâmisa opõe as equipes de quais duas universidades inglesas?",
+    "resposta": "Oxford e Cambridge",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Boat_Race"
+    ]
+  },
+  {
+    "id": "q07170",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_douro",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que famoso vinho licoroso português é produzido nos vales do rio Douro e leva o nome da cidade junto à sua foz?",
+    "resposta": "Vinho do Porto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vinho_do_Porto",
+      "https://pt.wikipedia.org/wiki/Rio_Douro"
+    ]
+  },
+  {
+    "id": "q07171",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "tonle_sap",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na estação das chuvas, o rio Tonlé Sap, no Camboja, inverte o sentido da correnteza e enche um enorme lago. O que provoca essa inversão?",
+    "resposta": "A cheia do rio Mekong",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tonl%C3%A9_Sap"
+    ]
+  },
+  {
+    "id": "q07172",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "grande_fedor",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1858, o insuportável mau cheiro do Tâmisa, apelidado de Grande Fedor, levou Londres a construir o quê?",
+    "resposta": "Uma rede de esgotos moderna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Stink"
+    ]
+  },
+  {
+    "id": "q07173",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_pinheiros",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Para gerar energia, a água do rio Pinheiros, em São Paulo, teve o sentido invertido e foi levada à serra do Mar. Que usina de Cubatão a recebe?",
+    "resposta": "Usina Henry Borden",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Pinheiros",
+      "https://pt.wikipedia.org/wiki/Usina_Henry_Borden"
+    ]
+  },
+  {
+    "id": "q07174",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_parana",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na divisa entre Minas Gerais, São Paulo e Mato Grosso do Sul, o rio Paraná nasce do encontro de quais dois rios?",
+    "resposta": "Grande e Paranaíba",
+    "distratores": [
+      "Tietê e Paranapanema",
+      "Iguaçu e Paraguai",
+      "Grande e Tietê"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1"
+    ]
+  },
+  {
+    "id": "q07175",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "delta_do_ganges",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Bangladesh, o Ganges une suas águas às de qual grande rio vindo do Tibete, formando um imenso delta?",
+    "resposta": "Brahmaputra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ganges_Delta"
+    ]
+  },
+  {
+    "id": "q07176",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "cataratas_do_niagara",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Das três quedas que formam as Cataratas do Niágara, qual é a maior, situada quase toda do lado canadense?",
+    "resposta": "Queda da Ferradura (Horseshoe Falls)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Horseshoe_Falls",
+      "https://en.wikipedia.org/wiki/Niagara_Falls"
+    ]
+  },
+  {
+    "id": "q07177",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_natron",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "De águas muito alcalinas e avermelhadas, o lago Natron, na Tanzânia, é o principal local de reprodução de qual ave?",
+    "resposta": "Flamingo-pequeno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Natron"
+    ]
+  },
+  {
+    "id": "q07178",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_michigan",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Dos cinco Grandes Lagos da América do Norte, qual é o único que fica inteiramente em território dos Estados Unidos?",
+    "resposta": "Lago Michigan",
+    "distratores": [
+      "Lago Superior",
+      "Lago Huron",
+      "Lago Erie"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Michigan"
+    ]
+  },
+  {
+    "id": "q07179",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_missouri",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é o rio mais longo dos Estados Unidos, um afluente que nasce nas Montanhas Rochosas e deságua no Mississippi perto de Saint Louis?",
+    "resposta": "Rio Missouri",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Missouri_River"
+    ]
   }
 ]

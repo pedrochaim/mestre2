@@ -1,0 +1,1081 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Rio Mekong",
+        "descricao": "Grande rio do Sudeste Asiático que nasce no planalto do Tibete e deságua no mar da China Meridional.",
+        "variantes": [
+          "Mekong",
+          "Mecongue"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Mekong",
+          "https://en.wikipedia.org/wiki/Mekong"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Depois de nascer no Tibete e passar por Laos e Camboja, o rio Mekong forma seu grande delta em qual país?",
+      "resposta": "Vietnã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mekong",
+        "https://en.wikipedia.org/wiki/Mekong_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Capibaribe",
+        "descricao": "Rio de Pernambuco que atravessa a cidade do Recife até o oceano Atlântico.",
+        "variantes": [
+          "Capibaribe"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Capibaribe"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Chamada de Veneza brasileira, que capital nordestina é cortada pelos rios Capibaribe e Beberibe?",
+      "resposta": "Recife",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Capibaribe",
+        "https://pt.wikipedia.org/wiki/Recife"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Guaíba",
+        "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+        "variantes": [
+          "Guaíba",
+          "Rio Guaíba"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lago_Gua%C3%ADba"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Famoso pelo pôr do sol, o Guaíba banha qual capital brasileira?",
+      "resposta": "Porto Alegre",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lago_Gua%C3%ADba",
+        "https://pt.wikipedia.org/wiki/Porto_Alegre"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Voo US Airways 1549",
+        "descricao": "Voo comercial que, em janeiro de 2009, fez um pouso de emergência na água em Nova York após perder os dois motores, sem nenhuma morte.",
+        "variantes": [
+          "Milagre do Hudson",
+          "US Airways Flight 1549"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Voo_US_Airways_1549",
+          "https://en.wikipedia.org/wiki/US_Airways_Flight_1549"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2009, o comandante Sully pousou um avião de passageiros sem motores num rio de Nova York, sem nenhuma morte. Que rio era esse?",
+      "resposta": "Rio Hudson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/US_Airways_Flight_1549"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Okavango",
+        "descricao": "Grande delta interior do rio Okavango, que se espalha e evapora no deserto do Kalahari, no sul da África.",
+        "variantes": [
+          "Okavango Delta",
+          "Delta do Cubango"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Delta_do_Okavango",
+          "https://en.wikipedia.org/wiki/Okavango_Delta"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O delta do rio Okavango nunca chega ao mar: suas águas se espalham e evaporam no deserto do Kalahari. Em que país fica esse delta?",
+      "resposta": "Botsuana",
+      "distratores": [
+        "Namíbia",
+        "Zâmbia",
+        "Angola"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Okavango_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Barragem das Três Gargantas",
+        "descricao": "Grande usina hidrelétrica da província de Hubei, na China, concluída no início do século vinte e um.",
+        "variantes": [
+          "Três Gargantas",
+          "Three Gorges Dam"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Barragem_das_Tr%C3%AAs_Gargantas",
+          "https://en.wikipedia.org/wiki/Three_Gorges_Dam"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A gigantesca hidrelétrica das Três Gargantas, na China, foi construída em qual rio?",
+      "resposta": "Rio Yangtzé",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three_Gorges_Dam"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de Florença, na Itália, coberta de lojas, sobretudo joalherias.",
+        "variantes": [
+          "Ponte Velha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ponte_Vecchio",
+          "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Florença, a medieval Ponte Vecchio, tomada por lojas de joias, atravessa qual rio?",
+      "resposta": "Rio Arno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Kwai",
+        "descricao": "Rio do oeste da Tailândia cruzado pela Ferrovia da Morte, construída por prisioneiros dos japoneses na Segunda Guerra Mundial.",
+        "variantes": [
+          "Khwae Yai",
+          "Rio Kwai Yai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Khwae_Yai_River"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Na Segunda Guerra, prisioneiros dos japoneses construíram a ponte sobre o rio Kwai, que inspirou um filme famoso. Em que país fica esse rio?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Mianmar",
+        "Vietnã",
+        "Malásia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Khwae_Yai_River",
+        "https://en.wikipedia.org/wiki/Burma_Railway"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia do Elba",
+        "descricao": "Encontro de tropas americanas e soviéticas em Torgau, na Alemanha, em 25 de abril de 1945, no fim da Segunda Guerra Mundial.",
+        "variantes": [
+          "Elbe Day",
+          "Encontro no Elba"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elbe_Day"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em abril de 1945, soldados americanos e soviéticos se encontraram pela primeira vez na Alemanha, às margens de qual rio?",
+      "resposta": "Rio Elba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elbe_Day"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha do Bananal",
+        "descricao": "Grande ilha fluvial no estado do Tocantins, cercada por braços de um rio do Centro-Oeste brasileiro.",
+        "variantes": [
+          "Bananal"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ilha_do_Bananal"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No Tocantins, a ilha do Bananal, uma das maiores ilhas fluviais do mundo, é cercada pelos braços de qual rio?",
+      "resposta": "Rio Araguaia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ilha_do_Bananal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_nilo",
+        "nome": "Rio Nilo",
+        "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+        "variantes": [
+          "Nilo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Nilo"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Nilo Branco e o Nilo Azul se encontram para formar o Nilo propriamente dito em qual capital africana?",
+      "resposta": "Cartum",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Khartoum",
+        "https://pt.wikipedia.org/wiki/Rio_Nilo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Travessia do rio Delaware",
+        "descricao": "Operação militar em que George Washington cruzou o rio Delaware com o Exército Continental para atacar Trenton, na Guerra de Independência dos Estados Unidos.",
+        "variantes": [
+          "Washington cruzando o Delaware",
+          "Washington's crossing of the Delaware River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/George_Washington%27s_crossing_of_the_Delaware_River"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Na noite de Natal de que ano George Washington atravessou com suas tropas o rio Delaware, cheio de gelo, para um ataque surpresa?",
+      "resposta": "1776",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/George_Washington%27s_crossing_of_the_Delaware_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rompimento de barragem em Brumadinho",
+        "descricao": "Desastre em que uma barragem de rejeitos da mineradora Vale se rompeu em Brumadinho, Minas Gerais, matando centenas de pessoas.",
+        "variantes": [
+          "Tragédia de Brumadinho",
+          "Desastre de Brumadinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a barragem da Vale em Brumadinho, Minas Gerais, se rompeu e despejou lama no rio Paraopeba?",
+      "resposta": "2019",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_ness",
+        "nome": "Lago Ness",
+        "descricao": "Grande lago de água doce nas Terras Altas da Escócia, famoso pela lenda do monstro de Nessie.",
+        "variantes": [
+          "Loch Ness"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lago_Ness"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A fama mundial do monstro do lago Ness começou depois que abriram uma estrada à margem do lago. Em que década do século vinte?",
+      "resposta": "Anos 1930",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha Naval do Riachuelo",
+        "descricao": "Combate naval de 11 de junho de 1865, no rio Paraná, perto de Corrientes, vencido pela Marinha do Brasil.",
+        "variantes": [
+          "Batalha do Riachuelo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A Batalha do Riachuelo, vencida pela Marinha brasileira nas águas do rio Paraná em 1865, aconteceu durante qual guerra?",
+      "resposta": "Guerra do Paraguai",
+      "distratores": [
+        "Guerra da Cisplatina",
+        "Guerra dos Farrapos",
+        "Guerra do Prata"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Enchentes no Rio Grande do Sul em 2024",
+        "descricao": "Grandes inundações que atingiram a maior parte do Rio Grande do Sul e o centro de Porto Alegre, com cheia recorde do Guaíba.",
+        "variantes": [
+          "Enchente de 2024 no Rio Grande do Sul",
+          "2024 Rio Grande do Sul floods"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "As enchentes que inundaram o centro de Porto Alegre e superaram a histórica cheia do Guaíba de 1941 aconteceram em que ano?",
+      "resposta": "2024",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024",
+        "https://en.wikipedia.org/wiki/2024_Rio_Grande_do_Sul_floods"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Admiral Graf Spee",
+        "descricao": "Encouraçado de bolso da Marinha alemã afundado pela própria tripulação diante de Montevidéu, em dezembro de 1939.",
+        "variantes": [
+          "Graf Spee"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Graf_Spee"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O encouraçado alemão Graf Spee foi afundado pela própria tripulação no estuário do rio da Prata, diante de Montevidéu, durante qual guerra?",
+      "resposta": "Segunda Guerra Mundial",
+      "distratores": [
+        "Primeira Guerra Mundial",
+        "Guerra do Chaco",
+        "Guerra das Malvinas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Graf_Spee",
+        "https://en.wikipedia.org/wiki/Battle_of_the_River_Plate"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_sena",
+        "nome": "Rio Sena",
+        "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+        "variantes": [
+          "Sena",
+          "Seine"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Sena"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de cerca de um século de proibição de nadar no rio Sena, Paris usou suas águas para provas olímpicas de triatlo. Em que ano?",
+      "resposta": "2024",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triathlon_at_the_2024_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Seine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_mississippi",
+        "nome": "Rio Mississippi",
+        "descricao": "Principal rio dos Estados Unidos, que deságua no golfo do México perto de Nova Orleans.",
+        "variantes": [
+          "Mississippi",
+          "Mississipi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mississippi_River"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1541, que conquistador espanhol se tornou o primeiro europeu registrado a alcançar o rio Mississippi?",
+      "resposta": "Hernando de Soto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mississippi_River",
+        "https://en.wikipedia.org/wiki/Hernando_de_Soto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Zambeze",
+        "descricao": "Grande rio do sul da África que forma as Cataratas Vitória e deságua no oceano Índico, em Moçambique.",
+        "variantes": [
+          "Zambeze",
+          "Zambezi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Zambeze",
+          "https://en.wikipedia.org/wiki/Zambezi"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1850, que missionário escocês explorou o rio Zambeze e foi o primeiro europeu a ver as cataratas que batizou de Vitória?",
+      "resposta": "David Livingstone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/David_Livingstone",
+        "https://en.wikipedia.org/wiki/Zambezi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "canal_casiquiare",
+        "nome": "Canal Casiquiare",
+        "descricao": "Canal natural no sul da Venezuela que liga o rio Orinoco ao rio Negro, da bacia amazônica.",
+        "variantes": [
+          "Casiquiare",
+          "Cassiquiare"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Casiquiare_canal"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1800, que naturalista alemão navegou pelo canal Casiquiare e confirmou que ele liga as bacias do Orinoco e do Amazonas?",
+      "resposta": "Alexander von Humboldt",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Casiquiare_canal",
+        "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Parque Indígena do Xingu",
+        "descricao": "Terra indígena criada em 1961 no norte de Mato Grosso, às margens do rio Xingu e seus formadores.",
+        "variantes": [
+          "Parque Nacional do Xingu",
+          "Território Indígena do Xingu"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Ind%C3%ADgena_do_Xingu"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que trio de irmãos sertanistas paulistas liderou a campanha que levou à criação do Parque Indígena do Xingu, em 1961?",
+      "resposta": "Irmãos Villas-Bôas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parque_Ind%C3%ADgena_do_Xingu",
+        "https://pt.wikipedia.org/wiki/Irm%C3%A3os_Villas-B%C3%B4as"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_niagara",
+        "nome": "Rio Niágara",
+        "descricao": "Rio curto da fronteira entre Estados Unidos e Canadá, onde ficam as Cataratas do Niágara.",
+        "variantes": [
+          "Niágara",
+          "Niagara River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Niagara_River"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1859, diante de milhares de espectadores, que equilibrista francês atravessou a garganta do rio Niágara andando sobre uma corda bamba?",
+      "resposta": "Charles Blondin",
+      "distratores": [
+        "Harry Houdini",
+        "Philippe Petit",
+        "Jules Léotard"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Blondin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Represa Alta de Assuã",
+        "descricao": "Grande barragem no rio Nilo, no sul do Egito, concluída em 1970, que formou o lago Nasser.",
+        "variantes": [
+          "Barragem de Assuã",
+          "Aswan High Dam",
+          "Represa de Assuã"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aswan_Dam"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em plena Guerra Fria, que potência financiou e ajudou o Egito a construir a represa alta de Assuã, no rio Nilo?",
+      "resposta": "União Soviética",
+      "distratores": [
+        "Estados Unidos",
+        "Reino Unido",
+        "França"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aswan_Dam"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_congo",
+        "nome": "Rio Congo",
+        "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+        "variantes": [
+          "Congo",
+          "Rio Zaire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Congo_River"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que explorador, famoso por ter encontrado Livingstone na África, concluiu em 1877 uma expedição que seguiu o rio Congo até o Atlântico?",
+      "resposta": "Henry Morton Stanley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_Morton_Stanley",
+        "https://en.wikipedia.org/wiki/Congo_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Hudson",
+        "descricao": "Rio do estado de Nova York que deságua no Atlântico junto à ilha de Manhattan.",
+        "variantes": [
+          "Hudson",
+          "Hudson River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hudson_River"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1609, a serviço de uma companhia holandesa, que navegador inglês subiu o grande rio de Nova York que hoje leva o seu nome?",
+      "resposta": "Henry Hudson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_Hudson",
+        "https://en.wikipedia.org/wiki/Hudson_River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_nasser",
+        "nome": "Lago Nasser",
+        "descricao": "Lago artificial no rio Nilo, entre o Egito e o Sudão, formado pela represa alta de Assuã.",
+        "variantes": [
+          "Lake Nasser"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Nasser"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O enorme lago artificial formado pela represa de Assuã, no Nilo, homenageia qual presidente egípcio?",
+      "resposta": "Gamal Abdel Nasser",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Nasser"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Represa Hoover",
+        "descricao": "Grande barragem no rio Colorado, na divisa entre Nevada e Arizona, que forma o lago Mead.",
+        "variantes": [
+          "Hoover Dam",
+          "Boulder Dam",
+          "Barragem Hoover"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hoover_Dam"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A represa no rio Colorado que forma o lago Mead, na divisa de Nevada com o Arizona, leva o nome de qual presidente americano?",
+      "resposta": "Herbert Hoover",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hoover_Dam"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Baía de Guanabara",
+        "descricao": "Baía do litoral fluminense, às margens da qual ficam as cidades do Rio de Janeiro e de Niterói.",
+        "variantes": [
+          "Guanabara"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_Guanabara"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em janeiro de 1502, navegadores portugueses entraram numa baía que tomaram pela foz de um rio. Que nome deram ao lugar?",
+      "resposta": "Rio de Janeiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_Guanabara",
+        "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Paraná",
+        "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+        "variantes": [
+          "Paraná"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1",
+          "https://en.wikipedia.org/wiki/Paran%C3%A1_River"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na língua tupi, o nome do rio Paraná quer dizer que ele é semelhante a quê?",
+      "resposta": "Ao mar",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "riacho_do_ipiranga",
+        "nome": "Riacho do Ipiranga",
+        "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+        "variantes": [
+          "Ipiranga",
+          "Córrego do Ipiranga"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Riacho_do_Ipiranga"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em tupi, o nome Ipiranga, do riacho da Independência, quer dizer rio de que cor?",
+      "resposta": "Vermelho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Riacho_do_Ipiranga"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Piracicaba",
+        "descricao": "Rio do interior paulista, afluente do Tietê, que atravessa a cidade de Piracicaba.",
+        "variantes": [
+          "Piracicaba"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Piracicaba"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome tupi de Piracicaba, rio e cidade do interior paulista, descreve o lugar onde o quê para?",
+      "resposta": "O peixe",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Piracicaba",
+        "https://pt.wikipedia.org/wiki/Rio_Piracicaba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Nilo",
+        "descricao": "Grande planície em forma de leque no norte do Egito, onde o rio Nilo se divide antes de chegar ao Mediterrâneo.",
+        "variantes": [
+          "Nile Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nile_Delta"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra delta, usada para certas fozes, nasceu porque os gregos acharam a foz de qual rio parecida com essa letra?",
+      "resposta": "Nilo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/River_delta",
+        "https://en.wikipedia.org/wiki/Nile_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto Ángel",
+        "descricao": "Queda d'água no Parque Nacional Canaima, na Venezuela, considerada a mais alta queda ininterrupta do mundo.",
+        "variantes": [
+          "Angel Falls",
+          "Kerepakupai Merú",
+          "Salto Angel"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Salto_%C3%81ngel",
+          "https://en.wikipedia.org/wiki/Angel_Falls"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Salto Ángel, cachoeira altíssima da Venezuela, não deve seu nome a um anjo. Ele homenageia quem?",
+      "resposta": "Jimmie Angel, aviador americano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angel_Falls"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Moldava",
+        "descricao": "Rio mais longo da República Tcheca, que atravessa a cidade de Praga.",
+        "variantes": [
+          "Vltava",
+          "Moldau"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vltava"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O rio que atravessa Praga dá título ao trecho mais famoso de um ciclo de poemas sinfônicos. Que compositor tcheco o escreveu?",
+      "resposta": "Bedřich Smetana",
+      "distratores": [
+        "Antonín Dvořák",
+        "Leoš Janáček",
+        "Bohuslav Martinů"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/M%C3%A1_vlast",
+        "https://en.wikipedia.org/wiki/Vltava"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago de Genebra",
+        "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+        "variantes": [
+          "Lago Léman",
+          "Lago Lemano",
+          "Lake Geneva"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Geneva"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Numa casa às margens do lago de Genebra, no sombrio verão de 1816, que escritora inglesa concebeu o romance Frankenstein?",
+      "resposta": "Mary Shelley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Villa_Diodati",
+        "https://en.wikipedia.org/wiki/Frankenstein"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lagoa dos Patos",
+        "descricao": "Grande laguna do litoral do Rio Grande do Sul, ligada ao oceano Atlântico por um canal junto à cidade de Rio Grande.",
+        "variantes": [
+          "Laguna dos Patos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lagoa_dos_Patos"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Navegadores portugueses tomaram por rio o canal que liga a Lagoa dos Patos ao oceano. Esse engano acabou dando nome a qual estado?",
+      "resposta": "Rio Grande do Sul",
+      "distratores": [
+        "Rio Grande do Norte",
+        "Santa Catarina",
+        "Paraná"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_titicaca",
+        "nome": "Lago Titicaca",
+        "descricao": "Grande lago de altitude nos Andes, na fronteira entre o Peru e a Bolívia.",
+        "variantes": [
+          "Titicaca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Titicaca"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda inca, que herói, filho do deus Sol, surgiu das águas do lago Titicaca e depois fundou Cusco?",
+      "resposta": "Manco Cápac",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_tamisa",
+        "nome": "Rio Tâmisa",
+        "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+        "variantes": [
+          "Tâmisa",
+          "Thames"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/River_Thames"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Desde 1829, uma famosa regata de remo no rio Tâmisa opõe as equipes de quais duas universidades inglesas?",
+      "resposta": "Oxford e Cambridge",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Boat_Race"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Douro",
+        "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+        "variantes": [
+          "Douro",
+          "Duero"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Douro"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que famoso vinho licoroso português é produzido nos vales do rio Douro e leva o nome da cidade junto à sua foz?",
+      "resposta": "Vinho do Porto",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vinho_do_Porto",
+        "https://pt.wikipedia.org/wiki/Rio_Douro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tonlé Sap",
+        "descricao": "Sistema de lago e rio no Camboja ligado ao rio Mekong, cuja correnteza muda de sentido conforme a estação.",
+        "variantes": [
+          "Lago Tonlé Sap",
+          "Tonle Sap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tonl%C3%A9_Sap"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na estação das chuvas, o rio Tonlé Sap, no Camboja, inverte o sentido da correnteza e enche um enorme lago. O que provoca essa inversão?",
+      "resposta": "A cheia do rio Mekong",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tonl%C3%A9_Sap"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Fedor",
+        "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+        "variantes": [
+          "Great Stink",
+          "Grande Mau Cheiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Stink"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1858, o insuportável mau cheiro do Tâmisa, apelidado de Grande Fedor, levou Londres a construir o quê?",
+      "resposta": "Uma rede de esgotos moderna",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Stink"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Pinheiros",
+        "descricao": "Rio da cidade de São Paulo, afluente do Tietê, que teve o curso retificado e invertido no século vinte.",
+        "variantes": [
+          "Pinheiros"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Pinheiros"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na primeira metade do século vinte, o rio Pinheiros, em São Paulo, teve o sentido da correnteza invertido. Com que objetivo principal?",
+      "resposta": "Gerar energia elétrica",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Pinheiros",
+        "https://pt.wikipedia.org/wiki/Usina_Henry_Borden"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Negro",
+        "descricao": "Grande rio de águas escuras da Amazônia, que nasce na Colômbia e se junta ao Solimões perto de Manaus.",
+        "variantes": [
+          "Rio Negro do Amazonas",
+          "Guainía"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O rio Negro, na Amazônia, tem águas escuras, cor de chá forte. O que dá essa cor a elas?",
+      "resposta": "Matéria orgânica de plantas decompostas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Paraná",
+        "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+        "variantes": [
+          "Paraná"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na divisa entre Minas Gerais, São Paulo e Mato Grosso do Sul, o rio Paraná nasce do encontro de quais dois rios?",
+      "resposta": "Grande e Paranaíba",
+      "distratores": [
+        "Tietê e Paranapanema",
+        "Iguaçu e Paraguai",
+        "Grande e Tietê"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rio_Paran%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Ganges",
+        "descricao": "Imenso delta na Índia e em Bangladesh, formado pelos rios Ganges e Brahmaputra antes do golfo de Bengala.",
+        "variantes": [
+          "Delta do Ganges-Brahmaputra",
+          "Delta de Bengala",
+          "Ganges Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ganges_Delta"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Bangladesh, o Ganges une suas águas às de qual grande rio vindo do Tibete, formando um imenso delta?",
+      "resposta": "Brahmaputra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ganges_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cataratas_do_niagara",
+        "nome": "Cataratas do Niágara",
+        "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+        "variantes": [
+          "Niagara Falls"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Niagara_Falls"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Das três quedas que formam as Cataratas do Niágara, qual é a maior, situada quase toda do lado canadense?",
+      "resposta": "Horseshoe, a Queda da Ferradura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Horseshoe_Falls",
+        "https://en.wikipedia.org/wiki/Niagara_Falls"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Natron",
+        "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, perto da fronteira com o Quênia.",
+        "variantes": [
+          "Lake Natron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Natron"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "De águas muito alcalinas e avermelhadas, o lago Natron, na Tanzânia, é o principal local de reprodução de qual ave?",
+      "resposta": "Flamingo-pequeno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Natron"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Michigan",
+        "descricao": "Um dos cinco Grandes Lagos da América do Norte, às margens do qual fica Chicago.",
+        "variantes": [
+          "Lake Michigan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Michigan"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dos cinco Grandes Lagos da América do Norte, qual é o único que fica inteiramente em território dos Estados Unidos?",
+      "resposta": "Lago Michigan",
+      "distratores": [
+        "Lago Superior",
+        "Lago Huron",
+        "Lago Erie"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Michigan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Missouri",
+        "descricao": "Grande rio dos Estados Unidos que nasce nas Montanhas Rochosas e deságua no Mississippi perto de Saint Louis.",
+        "variantes": [
+          "Missouri"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Missouri_River"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o rio mais longo dos Estados Unidos, um afluente que nasce nas Montanhas Rochosas e deságua no Mississippi perto de Saint Louis?",
+      "resposta": "Rio Missouri",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Missouri_River"
+      ]
+    }
+  ]
+}
