@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única e confirmada pelos trechos; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o lago; resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duna fica em Natal, confirmado; distratores são capitais nordestinas críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Colorado confirmado; enunciado não vaza; distratores são rios americanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; distratores são lagoas brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Vista do espaço' não está confirmado por 'mostra' e pode ser falso para esta foto. Tirar a afirmação e manter só a pista de continente.",
+      "reescrita": {
+        "pergunta": "Que cadeia de montanhas da Europa é esta?",
+        "resposta": "Alpes",
+        "distratores": [
+          "Pireneus",
+          "Cárpatos",
+          "Montes Urais"
+        ]
+      }
+    }
+  ]
+}

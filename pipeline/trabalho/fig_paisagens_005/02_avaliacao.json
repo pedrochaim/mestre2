@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Só água, névoa e sol nascente; nada permite reconhecer o Lago Paranoá."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Praia com morro, sem elemento que a distinga de outras praias do litoral sul; resposta não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cachoeira em dois níveis num cânion verde, com arco-íris; reconhecível. Sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta cachoeira?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Noruega",
+        "Irlanda",
+        "Escócia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gullfoss",
+        "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+        "variantes": [
+          "Cataratas Douradas",
+          "Golden Falls"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Close da superfície laranja com vapor; sem a vista característica, não é reconhecível e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lago azul profundo numa caldeira com a Ilha do Mago; a placa é ilegível e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lago dos Estados Unidos é este?",
+      "resposta": "Lago Crater (Crater Lake)",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Crater",
+        "descricao": "Lago vulcânico numa caldeira no Oregon, EUA, o mais profundo do país, com a Ilha do Mago.",
+        "variantes": [
+          "Crater Lake"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Duna branca em morro verde sobre a praia de Ponta Negra; reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta duna?",
+      "resposta": "Natal",
+      "distratores": [
+        "Fortaleza",
+        "Maceió",
+        "João Pessoa"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Morro do Careca",
+        "descricao": "Duna de cerca de 107 metros na Praia de Ponta Negra, em Natal, Rio Grande do Norte.",
+        "variantes": [
+          "Morro do Careca de Ponta Negra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Meandro em ferradura com rio verde e cânion vermelho; muito característico e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que rio corre no fundo desta curva em cânion?",
+      "resposta": "Rio Colorado",
+      "distratores": [
+        "Rio Missouri",
+        "Rio Columbia",
+        "Rio Snake"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Horseshoe Bend",
+        "descricao": "Meandro em forma de ferradura do rio Colorado, perto de Page, no Arizona, EUA.",
+        "variantes": [
+          "Curva da Ferradura"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O barco mostra o endereço www.jokulsarlon.is, que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea característica, com a lagoa, o Atlântico e as ilhas ao fundo. Resolução baixa, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagoa é esta?",
+      "resposta": "Lagoa Rodrigo de Freitas",
+      "distratores": [
+        "Lagoa dos Patos",
+        "Lagoa da Conceição",
+        "Lagoa Santa"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Lagoa Rodrigo de Freitas",
+        "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+        "variantes": [
+          "Lagoa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Lago entre montanhas em contraluz e neblina; não há elemento que permita reconhecer o Lago de Como."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rochas de arenito sem contexto; podem ser confundidas com outras formações, como Vila Velha."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o arco nevado dos Alpes, reconhecível pela forma e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cadeia de montanhas é esta, vista do espaço?",
+      "resposta": "Alpes",
+      "distratores": [
+        "Pireneus",
+        "Cárpatos",
+        "Montes Urais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alpes",
+        "descricao": "Cadeia de montanhas da Europa Central e Ocidental, de Nice a Viena, com picos como o Mont Blanc.",
+        "variantes": [
+          "Alpes europeus"
+        ]
+      }
+    }
+  ]
+}
