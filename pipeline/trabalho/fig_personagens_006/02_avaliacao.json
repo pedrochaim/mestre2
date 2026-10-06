@@ -1,0 +1,255 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro e reconhecível; a silhueta é uma mancha sem forma característica, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que cineasta criou este personagem?",
+      "resposta": "George Lucas",
+      "ancora": {
+        "nome": "Chewbacca",
+        "descricao": "Guerreiro wookiee, copiloto de Han Solo na saga Star Wars.",
+        "variantes": [
+          "Chewie"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte clara do vilão dos Smurfs, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que desenhista belga criou este vilão?",
+      "resposta": "Peyo",
+      "distratores": [
+        "Hergé",
+        "Morris",
+        "André Franquin"
+      ],
+      "ancora": {
+        "nome": "Gargamel",
+        "descricao": "Mago vilão que persegue os Smurfs nos quadrinhos e desenhos de Peyo.",
+        "variantes": [
+          "Gargamel dos Smurfs"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Spike claramente reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o anime em que aparece este personagem?",
+      "resposta": "Shinichirō Watanabe",
+      "ancora": {
+        "nome": "Spike Spiegel",
+        "descricao": "Caçador de recompensas protagonista do anime Cowboy Bebop.",
+        "variantes": [
+          "Spike"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sininho em cena do filme de 1953, reconhecível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que menino é o melhor amigo desta personagem?",
+      "resposta": "Peter Pan",
+      "ancora": {
+        "nome": "Sininho",
+        "descricao": "Fada ajudante de Peter Pan no filme da Disney de 1953.",
+        "variantes": [
+          "Tinker Bell",
+          "Tink"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sr. Burns em cena de Os Simpsons, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este personagem de Os Simpsons?",
+      "resposta": "Sr. Burns",
+      "distratores": [
+        "Smithers",
+        "Diretor Skinner",
+        "Vovô Simpson"
+      ],
+      "ancora": {
+        "nome": "Sr. Burns",
+        "descricao": "Idoso bilionário dono da usina nuclear de Springfield em Os Simpsons.",
+        "variantes": [
+          "Charles Montgomery Burns",
+          "Mr. Burns",
+          "Monty Burns"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro de Shikamaru, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mangaká criou este personagem?",
+      "resposta": "Masashi Kishimoto",
+      "ancora": {
+        "nome": "Shikamaru Nara",
+        "descricao": "Ninja estrategista do clã Nara, da Vila da Folha, em Naruto.",
+        "variantes": [
+          "Shikamaru"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta com chapéu de pluma, capa e espada é característica; personagem sozinho.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que franquia de animação este personagem estreou?",
+      "resposta": "Shrek",
+      "distratores": [
+        "Madagascar",
+        "Kung Fu Panda",
+        "Os Croods"
+      ],
+      "ancora": {
+        "nome": "Gato de Botas",
+        "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+        "variantes": [
+          "Puss in Boots",
+          "Gato de Botas de Shrek"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta com cabeça abaulada, ombreiras e cauda enrolada é reconhecível; personagem sozinho.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Qual é o nome do irmão mais velho deste vilão?",
+      "resposta": "Cooler",
+      "ancora": {
+        "nome": "Freeza",
+        "descricao": "Imperador alienígena, principal vilão da saga de Namek em Dragon Ball Z.",
+        "variantes": [
+          "Frieza",
+          "Freezer"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do personagem da Turma da Mônica, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que cartunista brasileiro criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "ancora": {
+        "nome": "Zé Lelé",
+        "descricao": "Primo desleixado de Chico Bento na Turma da Mônica.",
+        "variantes": [
+          "José Leocádio Eleutério"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Woody claro, fundo de nuvens sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Qual é o nome do menino que era o dono original deste brinquedo?",
+      "resposta": "Andy",
+      "distratores": [
+        "Sid",
+        "Bonnie",
+        "Al"
+      ],
+      "ancora": {
+        "nome": "Woody",
+        "descricao": "Boneco de vaqueiro de corda, protagonista da franquia Toy Story.",
+        "variantes": [
+          "Woody Pride"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Máscara de metal e capuz verde são característicos, mesmo com o recorte parcial; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é este vilão dos quadrinhos?",
+      "resposta": "Doutor Destino",
+      "ancora": {
+        "nome": "Doutor Destino",
+        "descricao": "Vilão da Marvel, Victor von Doom, inimigo do Quarteto Fantástico.",
+        "variantes": [
+          "Doctor Doom",
+          "Victor von Doom"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Itachi criança com bandana da Folha; a silhueta não distingue o personagem (poderia ser outro jovem ninja), então usa a colorida em múltipla escolha.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este personagem de Naruto?",
+      "resposta": "Itachi Uchiha",
+      "distratores": [
+        "Sasuke Uchiha",
+        "Obito Uchiha",
+        "Neji Hyuga"
+      ],
+      "ancora": {
+        "nome": "Itachi Uchiha",
+        "descricao": "Ninja do clã Uchiha, irmão mais velho de Sasuke e membro da Akatsuki em Naruto.",
+        "variantes": [
+          "Itachi"
+        ]
+      }
+    }
+  ]
+}

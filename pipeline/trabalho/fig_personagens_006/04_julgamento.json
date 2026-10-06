@@ -1,0 +1,735 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chewbacca",
+        "descricao": "Guerreiro wookiee, copiloto de Han Solo na saga Star Wars.",
+        "variantes": [
+          "Chewie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gargamel",
+        "descricao": "Mago vilão que persegue os Smurfs nos quadrinhos e desenhos de Peyo.",
+        "variantes": [
+          "Gargamel dos Smurfs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "lars_grael",
+          "nome": "Lars Grael",
+          "descricao": "Velejador brasileiro, duas vezes medalhista olímpico na classe Tornado.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Spike Spiegel",
+        "descricao": "Caçador de recompensas protagonista do anime Cowboy Bebop.",
+        "variantes": [
+          "Spike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "anderson_silva",
+          "nome": "Anderson Silva",
+          "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+          "variantes": [
+            "Anderson da Silva",
+            "Spider"
+          ]
+        },
+        {
+          "id": "sputnik_1",
+          "nome": "Sputnik 1",
+          "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+          "variantes": [
+            "Sputnik"
+          ]
+        },
+        {
+          "id": "seda",
+          "nome": "Seda",
+          "descricao": "Fibra natural produzida a partir do casulo do bicho-da-seda, originária da China",
+          "variantes": [
+            "Silk"
+          ]
+        },
+        {
+          "id": "pipeline",
+          "nome": "Pipeline",
+          "descricao": "Onda de recife no litoral norte da ilha de Oahu, no Havaí, uma das mais famosas do surfe.",
+          "variantes": [
+            "Banzai Pipeline",
+            "Pipe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sininho",
+        "descricao": "Fada ajudante de Peter Pan no filme da Disney de 1953.",
+        "variantes": [
+          "Tinker Bell",
+          "Tink"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fernando_meligeni",
+          "nome": "Fernando Meligeni",
+          "descricao": "Tenista brasileiro nascido em 1971, o Fininho, semifinalista de Roland Garros em 1999.",
+          "variantes": [
+            "Fininho"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sr. Burns",
+        "descricao": "Idoso bilionário dono da usina nuclear de Springfield em Os Simpsons.",
+        "variantes": [
+          "Charles Montgomery Burns",
+          "Mr. Burns",
+          "Monty Burns"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "maria_esther_bueno",
+          "nome": "Maria Esther Bueno",
+          "descricao": "Tenista brasileira (1939-2018), sete vezes campeã de simples em Grand Slams e número um do mundo em 1959 e 1960.",
+          "variantes": [
+            "Maria Bueno"
+          ]
+        },
+        {
+          "id": "queima_de_sutias",
+          "nome": "Queima de sutiãs",
+          "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+          "variantes": [
+            "Bra-burning",
+            "Queima dos sutiãs"
+          ]
+        },
+        {
+          "id": "murmansk",
+          "nome": "Murmansk",
+          "descricao": "Cidade portuária do noroeste da Rússia, acima do Círculo Polar Ártico",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Shikamaru Nara",
+        "descricao": "Ninja estrategista do clã Nara, da Vila da Folha, em Naruto.",
+        "variantes": [
+          "Shikamaru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "dejima",
+          "nome": "Dejima",
+          "descricao": "Ilha artificial construída em 1634 no Japão, onde comerciantes holandeses ficaram confinados durante o isolamento do país.",
+          "variantes": [
+            "Deshima"
+          ]
+        },
+        {
+          "id": "hikaru_no_go",
+          "nome": "Hikaru no Go",
+          "descricao": "Mangá e anime sobre um garoto que aprende o jogo de tabuleiro go com o espírito de um antigo mestre.",
+          "variantes": [
+            "ヒカルの碁"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gato de Botas",
+        "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+        "variantes": [
+          "Puss in Boots",
+          "Gato de Botas de Shrek"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gas_liquefeito_de_petroleo",
+          "nome": "Gás liquefeito de petróleo",
+          "descricao": "Mistura de gases derivados do petróleo, sobretudo propano e butano, vendida em botijões como gás de cozinha.",
+          "variantes": [
+            "GLP",
+            "Gás de cozinha",
+            "Gás de botijão"
+          ]
+        },
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "usain_bolt",
+          "nome": "Usain Bolt",
+          "descricao": "Velocista jamaicano, recordista mundial dos 100 e 200 metros.",
+          "variantes": []
+        },
+        {
+          "id": "cartao_perfurado",
+          "nome": "Cartão perfurado",
+          "descricao": "Cartão de papel rígido que guarda informações pela presença ou ausência de furos, usado em teares e computadores.",
+          "variantes": [
+            "Cartão de pontos",
+            "Punched card"
+          ]
+        },
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Freeza",
+        "descricao": "Imperador alienígena, principal vilão da saga de Namek em Dragon Ball Z.",
+        "variantes": [
+          "Frieza",
+          "Freezer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        },
+        {
+          "id": "florenca",
+          "nome": "Florença",
+          "descricao": "Capital da Toscana, Itália, berço do Renascimento, cortada pelo rio Arno.",
+          "variantes": [
+            "Firenze",
+            "Florence"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "veneza",
+          "nome": "Veneza",
+          "descricao": "Cidade do nordeste da Itália construída sobre ilhas de uma laguna, cortada por canais.",
+          "variantes": [
+            "Venice",
+            "Venezia"
+          ]
+        },
+        {
+          "id": "rebeca",
+          "nome": "Rebeca",
+          "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+          "variantes": [
+            "Rabeca",
+            "Rebec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Zé Lelé",
+        "descricao": "Primo desleixado de Chico Bento na Turma da Mônica.",
+        "variantes": [
+          "José Leocádio Eleutério"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ukulele",
+          "nome": "Ukulele",
+          "descricao": "Pequeno instrumento de cordas popularizado no Havaí no século dezenove",
+          "variantes": [
+            "Ukelele",
+            "Cavaquinho havaiano"
+          ]
+        },
+        {
+          "id": "lei_pele",
+          "nome": "Lei Pelé",
+          "descricao": "Lei brasileira do esporte, sancionada em 1998, que previu o fim do passe dos jogadores de futebol.",
+          "variantes": [
+            "Lei 9.615"
+          ]
+        },
+        {
+          "id": "bruce_lee",
+          "nome": "Bruce Lee",
+          "descricao": "Ator e artista marcial sino-americano, astro do cinema de ação de Hong Kong nos anos 1970.",
+          "variantes": [
+            "Lee Jun-fan"
+          ]
+        },
+        {
+          "id": "joao_candido",
+          "nome": "João Cândido",
+          "descricao": "Marinheiro gaúcho que liderou a Revolta da Chibata no Rio de Janeiro em 1910.",
+          "variantes": [
+            "João Cândido Felisberto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Woody",
+        "descricao": "Boneco de vaqueiro de corda, protagonista da franquia Toy Story.",
+        "variantes": [
+          "Woody Pride"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pride_fighting_championships",
+          "nome": "Pride Fighting Championships",
+          "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+          "variantes": [
+            "Pride FC",
+            "Pride"
+          ]
+        },
+        {
+          "id": "josiah_wedgwood",
+          "nome": "Josiah Wedgwood",
+          "descricao": "Industrial inglês do século dezoito, fundador da fábrica de louças Wedgwood.",
+          "variantes": [
+            "Wedgwood"
+          ]
+        },
+        {
+          "id": "goodyear",
+          "nome": "Goodyear",
+          "descricao": "Fabricante americana de pneus fundada em 1898 em Akron, Ohio, por Frank Seiberling.",
+          "variantes": [
+            "Goodyear Tire and Rubber Company"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        },
+        {
+          "id": "ra_da_madeira",
+          "nome": "Rã-da-madeira",
+          "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+          "variantes": [
+            "Lithobates sylvaticus",
+            "Rana sylvatica",
+            "Wood frog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Doutor Destino",
+        "descricao": "Vilão da Marvel, Victor von Doom, inimigo do Quarteto Fantástico.",
+        "variantes": [
+          "Doctor Doom",
+          "Victor von Doom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doctor_who",
+          "nome": "Doctor Who",
+          "descricao": "Série britânica de ficção científica da BBC, sobre um alienígena viajante do tempo chamado Doutor.",
+          "variantes": []
+        },
+        {
+          "id": "doutor_eggman",
+          "nome": "Doutor Eggman",
+          "descricao": "Cientista vilão da série Sonic, da Sega, também chamado Doutor Robotnik.",
+          "variantes": [
+            "Doctor Eggman",
+            "Doutor Robotnik",
+            "Dr. Ivo Robotnik"
+          ]
+        },
+        {
+          "id": "motor_stirling",
+          "nome": "Motor Stirling",
+          "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+          "variantes": [
+            "Stirling engine",
+            "Motor a ar quente"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "sanfona",
+          "nome": "Sanfona",
+          "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+          "variantes": [
+            "Acordeão",
+            "Acordeom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Itachi Uchiha",
+        "descricao": "Ninja do clã Uchiha, irmão mais velho de Sasuke e membro da Akatsuki em Naruto.",
+        "variantes": [
+          "Itachi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "pistache",
+          "nome": "Pistache",
+          "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+          "variantes": [
+            "Pistácio"
+          ]
+        },
+        {
+          "id": "kimchi",
+          "nome": "Kimchi",
+          "descricao": "Acompanhamento coreano de legumes salgados e fermentados, geralmente repolho chinês com pimenta.",
+          "variantes": [
+            "Gimchi",
+            "Kimchee"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Chewbacca."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Gargamel."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Spike Spiegel é personagem; 'Cortada' tem variante Spike, mas é o ataque do vôlei."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fada Sininho."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Sr. Burns."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Shikamaru Nara."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Gato de Botas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Freeza."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Zé Lelé."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Woody."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Doutor Destino é diferente de Doctor Who e Doutor Eggman."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Itachi Uchiha."
+    }
+  ]
+}
