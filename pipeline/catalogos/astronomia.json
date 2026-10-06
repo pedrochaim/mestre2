@@ -40,7 +40,7 @@
       "titulo": "en:James Webb Space Telescope",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ônibus espacial",
@@ -159,7 +159,7 @@
       "titulo": "en:Comet Hale–Bopp",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Carl Sagan",
@@ -243,7 +243,7 @@
       "titulo": "en:Miranda (moon)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mimas",
@@ -369,7 +369,7 @@
       "titulo": "en:Buzz Aldrin",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Órion (constelação)",
@@ -397,7 +397,7 @@
       "titulo": "en:Charon (moon)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Calisto",
@@ -556,6 +556,286 @@
     {
       "nome": "ALMA (Atacama Large Millimeter Array)",
       "titulo": "en:Atacama Large Millimeter Array",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Isaac Newton",
+      "titulo": "en:Isaac Newton",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Albert Einstein",
+      "titulo": "en:Albert Einstein",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sistema Solar",
+      "titulo": "en:Solar System",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Superlua",
+      "titulo": "en:Supermoon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Traje espacial",
+      "titulo": "en:Space suit",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Planetário",
+      "titulo": "en:Planetarium",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Constelação",
+      "titulo": "en:Constellation",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Desastre do Challenger",
+      "titulo": "en:Space Shuttle Challenger disaster",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Valentina Tereshkova",
+      "titulo": "en:Valentina Tereshkova",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mancha solar",
+      "titulo": "en:Sunspot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ursa Maior",
+      "titulo": "en:Ursa Major",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Observatório astronômico",
+      "titulo": "en:Observatory",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrela",
+      "titulo": "en:Star",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hubble Deep Field",
+      "titulo": "en:Hubble Deep Field",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jipe lunar (Lunar Roving Vehicle)",
+      "titulo": "en:Lunar Roving Vehicle",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Centro Espacial Kennedy",
+      "titulo": "en:Kennedy Space Center",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Starlink",
+      "titulo": "en:Starlink",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escorpião (constelação)",
+      "titulo": "en:Scorpius",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Erupção solar",
+      "titulo": "en:Solar flare",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cassini-Huygens",
+      "titulo": "en:Cassini–Huygens",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "New Horizons",
+      "titulo": "en:New Horizons",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Placa da Pioneer",
+      "titulo": "en:Pioneer plaque",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco de Ouro da Voyager",
+      "titulo": "en:Voyager Golden Record",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tycho Brahe",
+      "titulo": "en:Tycho Brahe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Michael Collins",
+      "titulo": "en:Michael Collins (astronaut)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinturão de asteroides",
+      "titulo": "en:Asteroid belt",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cometa Shoemaker-Levy 9",
+      "titulo": "en:Comet Shoemaker–Levy 9",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa da Lagoa",
+      "titulo": "en:Lagoon Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nebulosa Trífida",
+      "titulo": "en:Trifid Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia do Charuto",
+      "titulo": "en:Messier 82",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia Roda de Carro",
+      "titulo": "en:Cartwheel Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ômega Centauri",
+      "titulo": "en:Omega Centauri",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eta Carinae",
+      "titulo": "en:Eta Carinae",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Vesta",
+      "titulo": "en:4 Vesta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jápeto",
+      "titulo": "en:Iapetus (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bennu",
+      "titulo": "en:101955 Bennu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa Roseta",
+      "titulo": "en:Rosette Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa do Véu",
+      "titulo": "en:Veil Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lunokhod 1",
+      "titulo": "en:Lunokhod 1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Observatório Keck",
+      "titulo": "en:W. M. Keck Observatory",
       "camada": 3,
       "destino": 0,
       "status": "nova"

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que programa espacial americano usou este veículo?",
+        "resposta": "Programa Apollo"
+      },
+      "existentes": [
+        {
+          "id": "q03651",
+          "pergunta": "Em que ano este veículo foi usado pela primeira vez na Lua?",
+          "resposta": "1971"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o programa espacial que usou o veículo. A existente é sobre o ano do primeiro uso na Lua. São fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}

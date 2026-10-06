@@ -114716,5 +114716,180 @@
       "autor": "Dmitry Makeev",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q06739",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_james_webb",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que telescópio espacial é este?",
+    "resposta": "Telescópio Espacial James Webb",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_Espacial_James_Webb"
+    ],
+    "imagem": {
+      "arquivo": "q06739.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_2.png",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06740",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa_hale_bopp",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de astro é este?",
+    "resposta": "Cometa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp",
+      "https://pt.wikipedia.org/wiki/Hale-Bopp"
+    ],
+    "imagem": {
+      "arquivo": "q06740.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Comet_Hale-Bopp_1995O1.jpg",
+      "autor": "E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria (https://sternwarte.at)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06741",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "miranda",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lua é esta?",
+    "resposta": "Miranda",
+    "distratores": [
+      "Ariel",
+      "Titânia",
+      "Oberon"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miranda_%28moon%29",
+      "https://pt.wikipedia.org/wiki/Miranda_%28sat%C3%A9lite%29"
+    ],
+    "imagem": {
+      "arquivo": "q06741.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Miranda_mosaic_in_color_-_Voyager_2.png",
+      "autor": "zelario12",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q06742",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "jipe_lunar",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que programa espacial americano usou este veículo?",
+    "resposta": "Programa Apollo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lunar_Roving_Vehicle",
+      "https://pt.wikipedia.org/wiki/Lunar_Roving_Vehicle"
+    ],
+    "imagem": {
+      "arquivo": "q06742.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Apollo15LunarRover.jpg",
+      "autor": "NASA/Dave Scott; cropped by User:Bubba73",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06743",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eta_carinae",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estrela é esta?",
+    "resposta": "Eta Carinae",
+    "distratores": [
+      "WR 124",
+      "Betelgeuse",
+      "Antares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eta_Carinae",
+      "https://pt.wikipedia.org/wiki/Eta_Carinae"
+    ],
+    "imagem": {
+      "arquivo": "q06743.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EtaCarinae.jpg",
+      "autor": "Nathan Smith (University of California, Berkeley), and NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06744",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "caronte",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em torno de que astro orbita esta lua?",
+    "resposta": "Plutão",
+    "distratores": [
+      "Éris",
+      "Haumea",
+      "Makemake"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charon_%28moon%29",
+      "https://pt.wikipedia.org/wiki/Caronte_%28sat%C3%A9lite%29"
+    ],
+    "imagem": {
+      "arquivo": "q06744.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.jpg",
+      "autor": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06745",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "hubble_deep_field",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que telescópio espacial produziu esta imagem?",
+    "resposta": "Telescópio Espacial Hubble",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "https://pt.wikipedia.org/wiki/Campo_Profundo_do_Hubble"
+    ],
+    "imagem": {
+      "arquivo": "q06745.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:HubbleDeepField.800px.jpg",
+      "autor": "Robert Williams (NASA, ESA, STScI)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06746",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_roseta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que nebulosa é esta?",
+    "resposta": "Nebulosa Roseta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosette_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_Roseta"
+    ],
+    "imagem": {
+      "arquivo": "q06746.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NGC_2244_Erroseta_nebulosa.jpg",
+      "autor": "Urtzi Odriozola",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

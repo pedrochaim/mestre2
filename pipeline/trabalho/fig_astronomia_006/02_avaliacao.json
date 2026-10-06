@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração nítida, sem texto, com espelho dourado hexagonal e escudo térmico característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que telescópio espacial é este?",
+      "resposta": "Telescópio Espacial James Webb",
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio Espacial James Webb",
+        "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+        "variantes": [
+          "James Webb",
+          "JWST",
+          "Webb"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clássica de cometa com cauda de poeira e cauda de íons azul, sem texto; a pergunta de tipo tem resposta única.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de astro é este?",
+      "resposta": "Cometa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa Hale-Bopp",
+        "descricao": "Cometa de longo período descoberto em 1995, um dos mais brilhantes do século vinte, visível a olho nu por cerca de 18 meses.",
+        "variantes": [
+          "Hale-Bopp",
+          "C/1995 O1"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem da Voyager 2 com relevo único de Miranda (cânions e coroas); em múltipla escolha com luas de Urano a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua é esta?",
+      "resposta": "Miranda",
+      "distratores": [
+        "Ariel",
+        "Titânia",
+        "Oberon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Miranda",
+        "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+        "variantes": [
+          "Miranda (satélite)",
+          "Uranus V"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de uma mulher idosa numa sessão parlamentar, com bandeira russa ao fundo. Não é reconhecível pela imagem e não traz o contexto espacial; resposta não é sustentada visualmente."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida do jipe lunar com antena, sem texto, na superfície da Lua; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que programa espacial americano usou este veículo?",
+      "resposta": "Programa Apollo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jipe lunar (Lunar Roving Vehicle)",
+        "descricao": "Veículo elétrico de quatro rodas usado pelos astronautas nas missões Apollo 15, 16 e 17 na Lua.",
+        "variantes": [
+          "Lunar Roving Vehicle",
+          "LRV",
+          "Moon buggy"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble da Nebulosa Homúnculo em torno de Eta Carinae, sem texto; forma inconfundível. Múltipla com estrelas cercadas de nebulosidade.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estrela é esta?",
+      "resposta": "Eta Carinae",
+      "distratores": [
+        "WR 124",
+        "Betelgeuse",
+        "Antares"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eta Carinae",
+        "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+        "variantes": [
+          "η Carinae",
+          "Eta Argus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há a palavra 'PLANETARIUM' legível no vidro da fachada, que entrega a resposta; o prédio também pode ser confundido com um observatório."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem colorida da New Horizons com o polo avermelhado característico de Caronte; sem texto. Em múltipla escolha a resposta é única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em torno de que astro orbita esta lua?",
+      "resposta": "Plutão",
+      "distratores": [
+        "Éris",
+        "Haumea",
+        "Makemake"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caronte",
+        "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+        "variantes": [
+          "Charon",
+          "Plutão I"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, nebulosa vermelha difusa que pode ser confundida com outras nebulosas de emissão; não é reconhecível com segurança num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Astronauta de visor refletivo sem rosto visível numa foto lunar; muitos astronautas Apollo parecem iguais, a resposta não é única pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mosaico característico do Campo Profundo do Hubble, sem texto, com formato em degraus inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que telescópio espacial produziu esta imagem?",
+      "resposta": "Telescópio Espacial Hubble",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hubble Deep Field",
+        "descricao": "Imagem de uma pequena região da constelação da Ursa Maior, feita pelo Hubble em 1995, mostrando cerca de três mil galáxias.",
+        "variantes": [
+          "Campo Profundo do Hubble",
+          "HDF"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e reconhecível da Nebulosa Roseta com o aglomerado central, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nebulosa é esta?",
+      "resposta": "Nebulosa Roseta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Roseta",
+        "descricao": "Região H II na constelação do Unicórnio, associada ao aglomerado aberto NGC 2244, com formato de rosa.",
+        "variantes": [
+          "Rosette Nebula",
+          "Caldwell 49",
+          "NGC 2237"
+        ]
+      }
+    }
+  ]
+}
