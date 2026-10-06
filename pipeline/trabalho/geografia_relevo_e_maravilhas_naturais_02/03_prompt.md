@@ -1,0 +1,1748 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Relevo e Maravilhas Naturais** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Cachoeira da Fumaça",
+      "descricao": "Queda d'água da Chapada Diamantina, na Bahia, cuja água se dispersa em névoa antes de chegar ao chão."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na Bahia, a Cachoeira da Fumaça despenca de tão alto que a água vira névoa antes de tocar o chão. Em que chapada ela fica?",
+    "resposta": "Chapada Diamantina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cachoeira_da_Fuma%C3%A7a",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Chapada_Diamantina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cachoeira_da_Fuma%C3%A7a",
+        "situacao": "desambiguacao",
+        "texto": "Cachoeira da Fumaça pode referir-se a:\n\nGeografia do Brasil\nCachoeira da Fumaça (Bahia) — cachoeira localizada entre os municípios de Lençóis e Palmeiras, no estado da Bahia\nCachoeira da Fumaça (Carrancas) — cachoeira do município de Carrancas, no estado de Minas Gerais\nCachoeira da Fumaça (Espírito Santo) — cachoeira localizada entre os municípios de Alegre e Ibitirama, no estado da Bahia\nCachoei"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Chapada_Diamantina",
+        "situacao": "ok",
+        "texto": "Parque Nacional da Chapada Diamantina (abreviado como PARNA-CD, no registro oficial) é um parque nacional brasileiro criado em 17 de setembro de 1985 através do decreto federal 91.655, com uma área de 152 mil hectares na região central da Chapada Diamantina, distribuído pelos municípios de Lençóis, Mucugê, Ibicoara, Andaraí e Palmeiras, no estado da Bahia. É administrado pelo Instituto Chico Mende\n[…]\nO parque fica no bioma caatinga e abrange 152 142 hectares (375 950 acres), e é administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade. O parque fica em parte da Chapada Diamantina, em um planalto delimitado por falésias de 41 751 quilômetros quadrados no centro da Bahia. As altitudes no planalto geralmente variam de 500 a 1 000 metros. Nas partes mais montanhosas existem vários picos de 1 600 a 1 800 metros e alguns com mais de 2 000 metros.\n[…]\nAs queimadas são frequentes na área do PARNA-CD. O uso do fogo indiscriminadamente é, historicamente, algo comum e anualmente sua área sofre com a incidência de incêndios, que ali ocorrem especialmente no período entre agosto a março, e o fogo está presente nas atividades tradicionais da região da Chapada, até mesmo no interior do Parque.\n[…]\n«Chapada Diamantina National Park», Bahia Guide, consultado em 9 de fevereiro de 2023, cópia arquivada em 17 de maio de 2016\n[…]\n«Chapada Diamantina National Park», ichapada, consultado em 9 de fevereiro de 2023, cópia arquivada em 14 de agosto de 2017\n[…]\nParna da Chapada da Diamantina, Instituto Chico Mendes de Conservação da Biodiversidade, consultado em 9 de fevereiro de 2023, cópia arquivada em 16 de setembro de 2016\n[…]\nUnidade de Conservação: Parque Nacional da Chapada Diamantina, MMA: Ministério do Meio Ambiente, consultado em 4 de maio de 2016\n[…]\nParque Nacional da Chapada Diamantina no ICMBio"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Monte Etna",
+      "descricao": "Estratovulcão ativo na costa leste da Sicília, na Itália, o mais alto vulcão ativo da Europa."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que ilha italiana fica o Etna, um dos vulcões mais ativos da Europa?",
+    "resposta": "Sicília",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Etna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Etna",
+        "situacao": "ok",
+        "texto": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy, in the Metropolitan City of Catania, between the cities of Messina and Catania. It is located above the convergent plate margin between the African Plate and the Eurasian Plate. It is one of the tallest active volcanoes in Europe, and the tallest peak in Italy south of the Alps with a current height (Septemb\n[…]\nThe volcano is also known as Muncibbeḍḍu in Sicilian and Mongibello in Italian, generally regarded as deriving from the Romance word monte/munti plus the Arabic word jabal (جبل), both meaning 'mountain'. According to another hypothesis, the term comes from the Latin Mulciber (qui ignem mulcet, 'he who placates the fire'), one of the Latin names of the god Vulcan.\n[…]\nCaesarius employs in his account the Latin phrase in monte Gyber ('within Etna') to describe the location of Arthur's kingdom.\n[…]\nAnother Sicilian conception of the fairy realm or castle of Morgan le Fay is the Fata Morgana, an optical phenomenon common in the Strait of Messina.\n[…]\nIn 396 BCE, an eruption of Etna reportedly thwarted the Carthaginians in their attempt to advance on Syracuse during the Second Sicilian War.\n[…]\nBeginning in February 2021, Mount Etna began a series of explosive eruptions, which have had an impact on nearby villages and cities, with volcanic ash and rock falling as far away as Catania. As of 12 March 2021, the volcano has erupted 11 times in three weeks. The eruptions have consistently sent ash clouds over 10 km (33,000 ft) into the air, closing Sicilian airports. There have been no reports of injuries.\n[…]\nThe borders of ten municipalities (Adrano, Biancavilla, Belpasso, Bronte (from two sides), Castiglione di Sicilia, Maletto, Nicolosi, Randazzo, Sant'Alfio, Zafferana Etnea) meet on the summit of Mount Etna, making this a multipoint of elevenfold complexity.\n[…]\nMount Etna Regional Park"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Etna",
+        "situacao": "ok",
+        "texto": "O Etna é um vulcão ativo situado na parte oriental da Sicília (Itália), entre as províncias de Messina e Catânia. É o mais alto vulcão da Europa fora da região do Cáucaso, e um dos mais altos do mundo, atingindo aproximadamente 3.403 metros de altitude, podendo  aumentar, gradualmente devido às frequentes erupções.\n[…]\nÉ um dos vulcões mais ativos do mundo e está praticamente em constante erupção. Ocasionalmente, o Etna pode ser bastante destrutivo, mas, normalmente, as erupções não oferecem grande risco à população que vive nas localidades próximas. Os solos vulcânicos em redor propiciam bons campos para a agricultura, com vinhedos e hortas espalhados nas faldas da montanha e em toda planície de Catânia, a sul.\n[…]\nO Etna era conhecido na Roma Antiga como ÆTNA, um nome derivado provavelmente do grego antigo aitho (\"queimar violentamente\") ou do fenício attano. Os árabes chamavam a montanha Gibel Utlamat (\"a montanha de fogo\"), que mais tarde gerou a corruptela Mons Gibel (traduzindo ambos elementos, árabe e romano, tem-se \"montanha montanha\", dado que a repetição em língua siciliana denota grandeza). De facto, o nome do vulcão em siciliano é Mongibeddu.\n[…]\nA atividade vulcânica do Etna começou há aproximadamente 500 000 anos, com erupções sob a superfície marinha, ao largo da costa da Sicília. O vulcanismo começou a ocorrer há cerca de 300 000 anos a sudoeste do cume que hoje o vulcão apresenta, para o qual se moveu há uns 170 000 anos. As erupções de então começaram a construir o cone vulcânico principal, formando um estratovulcão em erupções efusivas e eruptivas alternadas.\n[…]\nVulcão Etna - página oficial\n[…]\nEtna Webcam ao vivo\n[…]\nhttps://cnnportugal.iol.pt/monte-etna/vulcao-etna-entra-em-erupcao-e-as-imagens-sao-impressionantes/20440228/620688670cf21a10a41eb2af",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Monte Santa Helena",
+      "descricao": "Estratovulcão ativo da Cordilheira das Cascatas, nos Estados Unidos, cuja erupção de 1980 arrancou o seu topo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1980, uma erupção arrancou o topo do Monte Santa Helena e devastou florestas inteiras. Em que estado americano fica esse vulcão?",
+    "resposta": "Washington",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_St._Helens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_St._Helens",
+        "situacao": "ok",
+        "texto": "Mount St. Helens (known as Lawetlat'la to the local Cowlitz people, and Loowit or Louwala-Clough to the Klickitat) is an active stratovolcano located in Skamania County, Washington, in the Pacific Northwest region of the United States. It lies 52 miles (83 km) northeast of Portland, Oregon, and 98 miles (158 km) south of Seattle. Mount St.\n[…]\nPrior to the 1980 eruption, Mount St. Helens was the fifth-highest peak in Washington. It stood out prominently from surrounding hills because of the symmetry and extensive snow and ice cover of the pre-1980 summit cone, earning it the nickname, by some, \"Fujiyama of America\". Its ice cover just prior to the 1980 eruption included eleven named glaciers: Wishbone, Loowit, Leschi, Forsyth, Nelson, Ape,\n[…]\nMullineaux, D. R.; Crandell, D. R. (1981). \"The 1980 eruptions of Mount St. Helens, Washington\". The 1980 eruptions of Mount St. Helens, Washington. Professional Paper. United States Geological Survey. doi:10.3133/pp1250. Professional Paper 1250. Archived from the original on January 1, 2007. Retrieved October 28, 2006.\n[…]\n\"Description: Mount St. Helens Volcano, Washington\". Cascades Volcano Observatory. Vancouver, Washington: USGS. Retrieved October 28, 2006.\n[…]\nUniversity of Washington Libraries: Digital Collections:\n[…]\n\"Mount St. Helens post-eruption chemistry database\". U.W. Libraries Digital Collections. University of Washington. This collection contains photographs of Mount St. Helens, post-eruption, taken over the span of three years to provide a look at both the human and the scientific sides of studying the eruption of a volcano.\n[…]\n\"Mount St. Helens succession collection\". U.W. Libraries Digital Collections. University of Washington. This collection consists of 235 photographs in a study of plant habitats following the May 18, 1980 eruption of Mount St. Helens."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Santa_Helena",
+        "situacao": "ok",
+        "texto": "Monte Santa Helena (em inglês:  Mount St. Helens) ou Louwala-Clough (conhecido como Lawetlat'la pelos povos indígenas cowlitz e como Loowit pelos klickitats) é um vulcão ativo localizado no condado de Skamania, Washington, na região do Noroeste Pacífico dos Estados Unidos. Situa-se a 154 km ao sul da cidade de Seattle e 80 km a nordeste de Portland, no Oregon.\n[…]\nO Monte Santa Helena recebeu esse nome por conta do diplomata britânico Lord St Helens, um amigo do explorador George Vancouver, que fez um levantamento da região no final do século XVIII. O vulcão está localizado na Cordilheira das Cascatas e é parte do Arco Vulcânico das Cascatas, um segmento do Anel de Fogo do Pacífico, que inclui mais de 160 vulcões ativos. Este vulcão é bem conhecido por suas explosões de cinzas e fluxos piroclásticos.\n[…]\nA maciça avalancha de detritos foi desencadeada por um terremoto de magnitude de 5,1 na escala Richter que causou uma erupção vulcânica, que reduziu a elevação do cume da montanha de 2 950 m para 2 549 m e o substituiu por uma cratera de 1,6 km de largura em forma de ferradura. A avalancha de detritos moveu até 2,9 km³ em volume. O Monumento Nacional Vulcânico do Monte Santa Helena foi criado para preservar o vulcão e permitir estudos científicos.\n[…]\nTal como acontece com a maioria dos outros vulcões na Cordilheira das Cascatas, o Monte Santa Helena é um grande cone eruptivo que consiste em rocha de lava com intercalações de cinzas, pedra-pomes e outros depósitos. A montanha inclui camadas de basalto e andesito através das quais várias cúpulas de lava de dacito já entraram em erupção. A maior das cúpulas de dacito formou o cume anterior, que foi destruído na erupção de 1980.\n[…]\nErupção do Krakatoa em 1883\n[…]\nMedia relacionados com Monte Santa Helena no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Fiorde de Geiranger",
+      "descricao": "Fiorde estreito e cercado de cachoeiras na região de Møre og Romsdal, Patrimônio Mundial da Unesco."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Cercado de paredões e cachoeiras, o fiorde de Geiranger, tombado pela Unesco, é cartão-postal de que país escandinavo?",
+    "resposta": "Noruega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geirangerfjord"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Geirangerfjord",
+        "situacao": "ok",
+        "texto": "Geirangerfjorden (Norwegian) or Geiranger Fjord (English) is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in Stranda Municipality. It is a 15-kilometre-long (9+1⁄2 mi) branch off the Sunnylvsfjorden, which itself is a branch off the Storfjorden (lit. 'Great Fjord'). The small village of Geiranger is located at the end of the fjord where the Geirangelva r\n[…]\nThe Geiranger–Hellesylt Ferry, a car ferry which doubles as a sightseeing trip, is operated by Fjord1 Nordvestlandske. It runs lengthwise along the fjord between the small towns of Geiranger and Hellesylt. The fjord is scheduled to require zero-emissions ships in 2026.\n[…]\nAlong the fjord's sides there lie a number of now-abandoned farms. Some restoration has been made by the Storfjordens venner association. The most commonly visited among these are Skageflå, Knivsflå, and Blomberg. Skageflå may also be reached on foot from Geiranger, while the others require a boat excursion. The fjord is also host to several waterfalls such as Seven Sisters Falls.\n[…]\nThe fjord is under constant threat from the mountain Åkerneset which is about to erode into the fjord. A collapse would produce a megatsunami, hitting several nearby towns including Geiranger and Hellesylt in about ten minutes.\n[…]\nThe 2015 movie The Wave (Bølgen) is based on the premise of a rock slide from the mountain Åkerneset inundating the town of Geiranger.\n[…]\nFrozen used the landscapes of the Geirangerfjord and Nærøyfjord as basis for the landscapes of Arendelle.\n[…]\nGeirangerfjord travel guide from Wikivoyage\n[…]\nGeiranger Tourist-Info\n[…]\nDestination Geirangerfjord – Ålesund & Sunnmøre Archived 2011-03-24 at the Wayback Machine\n[…]\nGeirangerfjord – the official travel guide to Norway"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fiorde_de_Geiranger",
+        "situacao": "ok",
+        "texto": "O fiorde de Geiranger (em Norueguês, Geirangerfjorden) situa-se em Sunnmøre, na região de Møre og Romsdal. É um fiorde com 15 km de comprimento e uma profundidade máxima de 258 m, sendo, na realidade, um braço do Fiorde grande (Storfjorden). Na parte mais interior do fiorde, encontra-se a povoação de Geiranger.\n[…]\nAo longo da extensão do fiorde, encontram-se algumas quintas abandonadas, acessíveis por barco. Algumas delas foram restauradas pela associação dos amigos do fiorde grande.\n[…]\nÉ um dos locais turísticos mais visitados da Noruega. A 14 de Julho de 2005 passou a fazer parte da lista do património da humanidade, da Unesco, em conjunto com o fiorde de Nærøy, que dele dista 120 quilómetros.\n[…]\n«Sítio oficial de Geiranger»\n[…]\n«Câmara em directo de Geiranger»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Salar de Uyuni",
+      "descricao": "Imensa planície de sal no altiplano andino do sudoeste da Bolívia."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na estação chuvosa, uma fina camada de água transforma o Salar de Uyuni num espelho gigante que reflete o céu. Esse salar fica em qual país andino?",
+    "resposta": "Bolívia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Salar_de_Uyuni"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+        "situacao": "ok",
+        "texto": "Salar de Uyuni is the largest salt flat in the world, with an area of approximately 10,582 square kilometres (4,086 mi2). It is situated in southwestern Bolivia, within the Daniel Campos Province of the Potosí Department, near the crest of the Andes Mountains, at an elevation of 3,656 m (11,995 ft) above sea level.\n[…]\nThe Salar serves as the major transport route across the Bolivian Altiplano and is a prime breeding ground for several species of flamingos. Salar de Uyuni is also a climatological transitional zone since the towering tropical cumulus congestus and cumulonimbus incus clouds that form in the eastern part of the salt flat during the summer cannot permeate beyond its drier western edges, near the Chilean border and the Atacama Desert.\n[…]\nThe Salar de Uyuni is part of the Altiplano of Bolivia in South America. The Altiplano is a high plateau, which was formed during the uplift of the Andes mountains. The plateau includes fresh and saltwater lakes as well as salt flats and is endorheic.\n[…]\nLocated in the Lithium Triangle, the Salar contains a large amount of sodium, potassium, lithium and magnesium (all in the chloride forms of NaCl, KCl, LiCl and MgCl2, respectively), as well as borax. As of 2024, with an estimated 23 mln. t, Bolivia holds about 22% of the world's known lithium resources (105 mln. tons); most of those are in the Salar de Uyuni.\n[…]\nSalar de Uyuni is estimated to contain 10 billion tonnes (9.8 billion long tons; 11 billion short tons) of salt, of which less than 25,000 t is extracted annually. All miners working in the Salar belong to Colchani's cooperative. Because of its location, large area, and flatness, the Salar is a major car transport route across the Bolivian Altiplano, except when seasonally covered with water.\n[…]\nSalar de Uyuni official website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salar_de_Uyuni",
+        "situacao": "ok",
+        "texto": "Salar de Uyuni (ou Salar de Tunupa) é o maior e mais alto deserto de sal do mundo, com 10 582 quilômetros quadrados e a 3 656 metros acima do nível médio do mar. Ele está localizado nos departamentos de Potosí e Oruro, no sudoeste da Bolívia, perto da borda da Cordilheira dos Andes. O salar é também o único ponto natural brilhante que pode ser visto do espaço. Ele serviu de guia para os astronauta\n[…]\nO Salar serve como a principal via de transporte em todo o Altiplano boliviano e é um importante terreno fértil para várias espécies de flamingos cor de rosa. A região também uma zona de transição climatológica entre as imponentes nuvens tropicais congestus cumulus e cumulus bigorna que se formam na parte oriental na planície de sal durante o verão e não pode permear além de suas bordas ocidentais mais secas, perto da fronteira com o Chile e o deserto de Atacama.\n[…]\nHá cerca de 40 mil anos a área do atual deserto de sal fazia parte do Lago Michin, um gigantesco lago pré-histórico. Quando o lago secou, deixou como remanescentes os atuais lagos Poopó e Uru Uru, e dois grandes desertos salgados, Coipasa (o menor) e o extenso Uyuni. O Salar de Uyuni tem aproximadamente 10 582 km² de área, ou seja, é maior que o lago Titicaca, situado na fronteira Bolívia-Peru e que apresenta aproximadamente 8 300 km².\n[…]\nAlém da extração de sal, o Salar de Uyuni é também um importante destino turístico. No período de chuvas, o Salar se assemelha a um enorme espelho que se confunde no horizonte com o céu. Assim os passeios ficam restritos a algumas áreas. Entretanto, entre abril e novembro todo o deserto de sal fica acessível, pois torna-se um imenso deserto seco com uma paisagem ainda mais exótica.[carece de fontes]?\n[…]\nPor conta dessa lenda, a população local considera Tunupa uma importante divindade e argumentam que a região deveria se chamar Salar de Tunupa, em vez de Salar de Uyuni.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Salar de Uyuni",
+      "descricao": "Imensa planície de sal no altiplano andino do sudoeste da Bolívia."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Além do sal, o Salar de Uyuni guarda uma das maiores reservas do planeta de qual metal, usado em baterias de celular?",
+    "resposta": "Lítio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Salar_de_Uyuni"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+        "situacao": "ok",
+        "texto": "Salar de Uyuni is the largest salt flat in the world, with an area of approximately 10,582 square kilometres (4,086 mi2). It is situated in southwestern Bolivia, within the Daniel Campos Province of the Potosí Department, near the crest of the Andes Mountains, at an elevation of 3,656 m (11,995 ft) above sea level.\n[…]\nAymara legend tells that the mountains Tunupa, Kusku, and Kusina, which surround the Salar, were giants. Tunupa married Kusku, but Kusku ran away from her with Kusina. Grieving Tunupa started to cry while breastfeeding her son. Her tears mixed with milk and formed the Salar. Many locals consider the Tunupa an important deity and say that the place should be called Salar de Tunupa rather than Salar de Uyuni.\n[…]\nAcross its 10,582-square-kilometer (4,086 sq mi) surface, the elevation variation is less than 1 meter (3 ft 3 in) relative to the Earth's circumference. Collectively, these features make the Salar de Uyuni approximately five times more effective for satellite calibration than the surface of the open ocean.\n[…]\nSimilar missions have been conducted over the Salar de Uyuni for radiometric calibration, where the Landsat-5 satellite's Thematic Mapper (TM) was calibrated “in-flight” by using the salar as a radiometrically stable target, particularly in the visible and near-infrared bands.\n[…]\nEvery November, Salar de Uyuni is the breeding ground for three South American species of flamingo feeding on local brine shrimps: the Chilean, Andean, and rare James's flamingos. About 80 other bird species are present, including the horned coot, Andean goose, and Andean hillstar. The Andean fox, or culpeo, is also present, and islands in the Salar (in particular Incahuasi Island) host colonies of rabbit-like viscachas.\n[…]\nSalar de Uyuni travel guide from Wikivoyage\n[…]\nSalar de Uyuni official website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salar_de_Uyuni",
+        "situacao": "ok",
+        "texto": "Salar de Uyuni (ou Salar de Tunupa) é o maior e mais alto deserto de sal do mundo, com 10 582 quilômetros quadrados e a 3 656 metros acima do nível médio do mar. Ele está localizado nos departamentos de Potosí e Oruro, no sudoeste da Bolívia, perto da borda da Cordilheira dos Andes. O salar é também o único ponto natural brilhante que pode ser visto do espaço. Ele serviu de guia para os astronauta\n[…]\nO salar foi formado como resultado de transformações entre diversos lagos pré-históricos. Ele é coberto por alguns metros de uma crosta de sal, que tem um nivelamento extraordinário com as variações de altitude média de menos de um metro ao longo de toda a área do Salar. A crosta serve como uma fonte de sal de cobre e de uma piscina de salmoura, que é extremamente rica em lítio. Ele contém de 50 a 70% das reservas mundiais de lítio, recurso que está no processo de ser extraído.\n[…]\nA área grande, o céu claro e o nivelamento excepcional da superfície fazem do Salar um objeto ideal para calibrar os sensores de satélites de observação da Terra.\n[…]\nO deserto de sal é também uma das maiores reservas de lítio do mundo, além de conter importantes quantidades de potássio, boro e magnésio. A origem do sal provavelmente está relacionada com a imensa quantidade de vulcões na envolvente do Salar de Uyuni já que situa-se sobre uma região de altiplano, 3 650 m acima do nível do mar. A concentração do sal é também facilitada pelo fato de ser uma região muito árida.[carece de fontes]?\n[…]\nPor conta dessa lenda, a população local considera Tunupa uma importante divindade e argumentam que a região deveria se chamar Salar de Tunupa, em vez de Salar de Uyuni.[carece de fontes]?\n[…]\n«Site oficial do Salar de Uyuni, Viagem Uyuni direto»\n[…]\n«Roteiro de Viagem ao Salar de Uyuni»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Wadi Rum",
+      "descricao": "Vale desértico de areia vermelha e montanhas de arenito no sul da Jordânia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Cenário de Lawrence da Arábia e de Perdido em Marte, o deserto de areias vermelhas de Wadi Rum fica em qual país?",
+    "resposta": "Jordânia",
+    "distratores": [
+      "Egito",
+      "Arábia Saudita",
+      "Marrocos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wadi_Rum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wadi_Rum",
+        "situacao": "ok",
+        "texto": "Wadi Rum (Arabic: وادي رم Wādī Ramm, also Wādī al-Ramm, known also as the Valley of the Moon or Red mountains (Arabic: وادي القمر, romanized: Wādī al-Qamar), is a valley cut into the sandstone and granite rock in southern Jordan, near the border with Saudi Arabia and about 60 km (37 mi) to the east of the city of Aqaba. With an area of 720 km2 (280 mi2) it is the largest wadi (river valley) in Jor\n[…]\nIn April 2025, in a landmark archaeological discovery, the Jordanian Ministry of Tourism and Antiquities announced the finding of the first royal hieroglyphic inscription in Wadi Rum. The inscription features two royal cartouches of King Ramesses III, one of the greatest warrior kings of Egypt, displaying his birth and throne names. During the official press conference, the Jordanian scientific team emphasized that this discovery provides tangible evidence of a military or commercial campaign.\n[…]\nDesert scenes of Wadi Rum in Lawrence of Arabia from 1962 kick-started Jordan's tourism industry.\n[…]\nWadi Rum is one of Jordan's most popular tourist sites, attracting 162,000 tourists in 2017. Wadi Rum is home to the Zalabieh tribe, who developed eco-adventure tourism and services throughout the protected area. Using local guides and services brings many benefits to the protected area. In particular, it enables people to continue earning a living from the land and helps to ensure that the protected area remains protected.\n[…]\nThe Location Managers Guild recognized the Jordanian Royal Film Commission with its LMGI Award for Outstanding Film Commission in 2017 for its work on Rogue One, which was filmed at Wadi Rum. The RFC was previously nominated for its work with The Martian.\n[…]\nLawrence of Arabia – David Lean filmed much of this 1962 film on location in Wadi Rum.\n[…]\nList of World Heritage Sites in Jordan\n[…]\nNature reserves in Jordan\n[…]\nPhotos of Wadi Rum from the Manar al-Athar photo archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/U%C3%A1di_de_Rum",
+        "situacao": "ok",
+        "texto": "Uádi de Rum (árabe: وادي رم ), também conhecido como O Vale da Lua (em árabe: وادي القمر) é um vale cortado no arenito e rocha de granito, no sul da Jordânia de 60 km (37 milhas) ao leste de Ácaba. É o maior uádi da Jordânia. O nome Rum mais provável vem do aramaico  que significa 'alto' ou 'elevado'. Para refletir a pronúncia árabe adequada, os arqueólogos transcrevê-lo como Wadi Ramm.\n[…]\nA área é agora também um dos importantes destinos turísticos da Jordânia, e atrai um número crescente de turistas estrangeiros, especialmente trekkers e alpinistas, mas também para camelo e safári a cavalo ou simplesmente excursionistas de Aqaba ou Petra. Em contraste, quase não há turistas locais ou árabe. As actividades mais populares no ambiente do deserto incluem acampar sob as estrelas, montar cavalos árabes, caminhadas e escalada, entre as formações rochosas.\n[…]\nJabal Rum (1.734 metros (5.689 pés) acima do nível do mar) é o segundo pico mais alto na Jordânia e no pico mais alto do Rum central. Em um dia claro, é possível ver o Mar Vermelho e a fronteira da Arábia a partir do topo. O pico mais alto na Jordânia está ao sul de Rum perto da fronteira da Arábia Saudita é denominado Jebel hum Adaami com 1.840 m (6.040 pés) de altura.\n[…]\nLawrence da Arábia - David Lean filmou muito deste filme de 1962 no Uádi de Rum.\n[…]\nPlaneta Vermelho - Uádi de Rum foi usado como a superfície de Marte neste filme de 2000.\n[…]\nPerdido em Marte - Usado como o planeta marte\n[…]\nGravação do álbum Deserto de Revelação do ministério de louvor brasileiro Diante do Trono em 2017.\n[…]\nWadi Rum Rock page\n[…]\nFotos de Wadi Rum\n[…]\nWadi Rum Gallery Por do sol em Wadi Rum\n[…]\nWadi Rum fotos\n[…]\nGaleria de fotos do Wadi Rum\n[…]\nWadi Rum fotos, montanhas e scenarios\n[…]\nFotos Wadi Rum at Pasaporteblog.com (em castelhano)\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em inglês cujo título é «Wadi Rum».",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Cânion do Itaimbezinho",
+      "descricao": "Cânion de paredões basálticos na borda do planalto sul-brasileiro, entre Cambará do Sul e Praia Grande."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na divisa entre o Rio Grande do Sul e Santa Catarina, em que parque nacional fica o cânion do Itaimbezinho?",
+    "resposta": "Aparados da Serra",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Aparados_da_Serra",
+      "https://en.wikipedia.org/wiki/Aparados_da_Serra_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Aparados_da_Serra",
+        "situacao": "ok",
+        "texto": "O Parque Nacional de Aparados da Serra é uma unidade de conservação brasileira de proteção integral da natureza localizada na serra Geral, encampando os desfiladeiros na divisa natural entre os estados do Rio Grande do Sul e de Santa Catarina.\n[…]\nInserido na região natural denominada comumente de Aparados da Serra, o parque tem 13 141,05 ha de área e perímetro de 63,00 km, fazendo fronteira tanto ao sul quanto ao norte ao Parque Nacional da Serra Geral, que também é administrado pelo ICMBio. Juntos, os dois parques abrangem uma área de aproximadamente 30 443,01 ha.\n[…]\nA geologia do Parque Nacional de Aparados da Serra é dominada pela presença de rochas vulcânicas da Grande Província Ígnea Paraná-Etendeka, que são localmente agrupadas no Grupo Serra Geral, uma unidade geológica anteriormente conhecida como Formação Serra Geral. Este grupo geológico é dividido em quatro formações de lava, nomeadamente Torres, Vale do Sol, Palmas e Esmeralda.\n[…]\nDo ponto de vista geomorfológico, o Parque Nacional de Aparados da Serra pode ser classificado como uma escarpa continental, apresentando um planalto elevado e a presença de vales fluviais profundamente incisados. Devido à elevada resistência mecânica dessas rochas, que incluem lavas de aspecto maciço e vesicular, as taxas de erosão no Parque Nacional de Aparados da Serra são extremamente baixas, variando entre 6 m/miilhões de anos no planalto até 50 m/miilhões de anos na escarpa.\n[…]\nO geoparque Caminhos dos Cânions do Sul fica em grande parte no Parque Nacional de Aparados da Serra. É um geoparque reconhecido pela Unesco, cujos principais geossítios são:\n[…]\nCânion Itaimbezinho - Cambará do Sul (RS) e Praia Grande (SC)\n[…]\nParque Nacional da Serra Geral\n[…]\nParque Nacional de São Joaquim\n[…]\nPraia Grande"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Aparados_da_Serra_National_Park",
+        "situacao": "ok",
+        "texto": "The Aparados da Serra National Park (Portuguese: Parque Nacional de Aparados da Serra) is a national park located in the Serra Geral range of Rio Grande do Sul and Santa Catarina states in the south of Brazil, between 29º07'—29º15' S and 50º01'—50º10' W. It was created in 1959 as one of Brazil's first national parks, to protect the Itaimbezinho canyon. It extends over an area of 10,250 hectares an\n[…]\nThe geology of the Aparados da Serra da Serra National Park is dominated by the presence of volcanic rocks of the Paraná-Etendeka Large Igneous Province, which are locally grouped in the Serra Geral Group. This geological group is further divided into four lava formations, namely Torres, Vale do Sol, Palmas, and Esmeralda. Additional rock formations in the area include sedimentary rocks of the Paraná Basin, including the eolian sandstones of the Botucatu Formation.\n[…]\nGeomorphologically, the Aparados da Serra National Park can be classified as a continental escarpment, featuring an elevated plateau and the presence of deeply incised fluvial valleys. Because of the strong mechanical resistance of these rocks, erosion rates in the Aparados Serra da Serra National Park are extremely low, ranging from 6 m/million years on the plateau and up to 50 m/million years in the escarpment.\n[…]\nHowever, according to the Duke University's Center for Tropical Conservation, the current park area, even after the extension with Serra Geral National Park, is still too small to be effective for the protection of representative samples of each distinct environment.\n[…]\nMedia related to Aparados da Serra National Park at Wikimedia Commons\n[…]\nDuke University ParksWatch: profile of Aparados da Serra NP Archived 2017-10-18 at the Wayback Machine"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Caverna Son Doong",
+      "descricao": "Caverna de calcário gigantesca no Parque Nacional Phong Nha-Ke Bang, no centro do Vietnã, explorada em 2009."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Com uma floresta e até nuvens próprias lá dentro, a caverna Son Doong é um tesouro de que país do Sudeste Asiático?",
+    "resposta": "Vietnã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
+        "situacao": "ok",
+        "texto": "Sơn Đoòng Cave (Vietnamese: hang Sơn Đoòng, IPA: [haŋ˧ ɕɤn˧ ɗɔŋ˨˩]), in Phong Nha–Kẻ Bàng National Park, Quảng Trị province, Vietnam, is the world's largest natural cave.\n[…]\nLocated near the Laos–Vietnam border, Hang Sơn Đoòng has an internal, fast-flowing subterranean river and the largest cross-section of any cave, worldwide, believed to be twice that of the next-largest passage. It is the largest known cave passage in the world by volume.\n[…]\nIts name, Hang Sơn Đoòng, is translated from Vietnamese as \"cave of the mountain behind Đoòng\". Đoòng is the name of a Vân Kiều village.\n[…]\nThe cave contains some of the tallest known stalagmites in the world, which are up to 80 m (260 ft) tall. Behind the Great Wall of Vietnam were found cave pearls the size of baseballs, an abnormally large size. The cave's interior is so large that it could fit an entire New York block inside, including skyscrapers, or could have a Boeing 747 fly through it without its wings touching either side.\n[…]\n\"Vietnam's Mammoth Cavern\". Archived from the original on December 18, 2010. Retrieved December 21, 2010. National Geographic pictorial of Hang Sơn Đoòng\n[…]\nStrutner, Suzy (September 7, 2013). \"World's Largest Cave, Son Doong, Prepping For First Public Tours\" (includes video). The Huffington Post. Retrieved September 11, 2013.\n[…]\nChùm ảnh khám phá hang động đẹp và lớn nhất thế giới(includes images) Quảng Bình Province (in Vietnamese)\n[…]\n\"In pictures: Inside Hang Son Doong, the world's largest caves in Vietnam\". June 20, 2014. Retrieved June 20, 2014. The Telegraph Online\n[…]\n\"Hang Son Doong\" (video on Vimeo). March 9, 2015. Retrieved March 17, 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C6%A1n_%C4%90o%C3%B2ng",
+        "situacao": "ok",
+        "texto": "Sơn Đoòng é uma caverna localizada na província de Quảng Bình, no Vietnã, a 500 km ao sul de Hanói, perto da fronteira Laos-Vietname. Atualmente é considerada a maior caverna do planeta e situa-se no Parque Nacional de Phong Nha-Kẻ Bàng, declarado Patrimônio da Humanidade pela UNESCO em 2003.\n[…]\nEm abril de 2009, a existência de uma grande caverna de 6,5 km, com uma largura preliminar de 150 m, foi revelada ao público no Parque Nacional Vietnamita Phong Nha-Ke Bang.\n[…]\nA gruta de Sơn Đoòng foi encontrada em fevereiro de 2009 quando um grupo de cientistas britânicos da Associação Britânica de Investigação de Grutas, dirigida pelo casal Howard e Limbert Deb, organizava uma visita em Phong Nha-Ke Bang marcada para de 10 a 14 de abril de 2009. Um homem local tinha descoberto a caverna em 1991, mas não se recordava da maneira de chegar ao local.\n[…]\nEm 1991, um pastor da zona encontrou-a, mas, receoso do estranho silvo que provinha do interior, manteve em segredo a sua localização. Foi usada como refúgio dos bombardeamentos na Guerra do Vietname. A primeira expedição para descobrir os segredos da gruta foi feita em 2009 por Howard e Deb Limbert que, no entanto, encontraram uma enorme parede de calcite que os impediu de continuar. Segundo os espeleólogos, a gruta é difícil de encontrar por estar completamente coberta de vegetação.\n[…]\nCom estas dimensões enormes, Sơn Đoòng supera a caverna Deer do parque nacional de Gunung Mulu na Malásia, tomando o título de \"maior caverna do mundo\". O rio subterrâneo que flui na caverna desanimou os exploradores de ir mais além, pois puderam apenas considerar o comprimento da caverna utilizando a luz de lanternas. Estão previstas mais explorações num futuro próximo, reservadas a cientistas. A gruta não é visitável a turistas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Delicate Arch",
+      "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Delicate Arch, arco de arenito que já estampou as placas de carro do seu estado, fica em que estado americano?",
+    "resposta": "Utah",
+    "distratores": [
+      "Arizona",
+      "Nevada",
+      "Colorado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Delicate_Arch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Delicate_Arch",
+        "situacao": "ok",
+        "texto": "Delicate Arch is a 52-foot-tall (16 m) freestanding natural arch located in Arches National Park, near Moab in Grand County, Utah, United States. The arch is the most widely recognized landmark in Arches National Park and is depicted on Utah license plates and a postage stamp commemorating Utah's centennial anniversary of admission to the Union in 1896. The Olympic torch relay for the 2002 Winter \n[…]\nIn 2017, the United Utah Party was founded, and chose Delicate Arch as its official party logo.\n[…]\nDelicate Arch is formed of Entrada Sandstone. The original sandstone fin was gradually worn away by weathering and erosion, leaving the arch. Other arches in the park were formed the same way but, due to placement and less dramatic shape, are not as famous.\n[…]\nIn May 2006, climber Dean Potter performed as many as six free solo ascents of the arch. Climbing Delicate Arch was not explicitly forbidden under the rules in force at the time, which only stated that routes \"may be closed\" on any named arch; however, most climbers accepted that the named arch formations should not be climbed. The NPS has since closed the loophole by disallowing climbs on any named arch within the park year-round.\n[…]\nDelicate Arch is one of the main tourist draws in Arches National Park. The parking lot at the Delicate Arch Trailhead, although large, fills up quickly on most days. The trail to Delicate Arch is 3 miles (4.8 kilometers) round trip with an elevation change of 480 feet (146 meters). The trail is well defined for the first 1/2 mile, then does a steep incline over open rock. There is a narrow ledge for the last 200 yards (183 meter) before reaching the arch.\n[…]\nUtah portal\n[…]\nArches National Park Delicate Arch page\n[…]\nPanorama Under Arch (archived 9 June 2009)\n[…]\nBeautiful Places episode of Delicate Arch (archived 28 June 2010)\n[…]\nPanoramic View of Delicate Arch at Sunset Archived March 15, 2016, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arco_Delicado",
+        "situacao": "ok",
+        "texto": "O Arco Delicado (em inglês:  Delicate Arch) é um arco natural localizado no Utah, Estados Unidos. O arco não é só um dos símbolos mais conhecidos do Parque Nacional dos Arcos, onde está situado, mas também de todo o estado do Utah. A sua imagem pode encontrar-se nas matrículas do Estado e nos selos postais emitidos em comemoração do centenário da fundação do estado em 1996. A tocha olímpica dos Jo\n[…]\nO Arco Delicado é de arenito e sofre um contínuo processo de erosão. Tem altura de 16 metros e no ponto mais estreito tem uma espessura de 2 metros. Ao contemplar o arco pode-se observar as Montanhas La Sal através dele.\n[…]\nPara aceder ao arco há um caminho de mais de 4 km de comprimento, que começa no Wolfe Ranch. O desnível do percurso é de cerca de 150 m. Para o trajeto de ida e volta deve-se contar com 2 a 3 horas. Os primeiros troços do caminho são planos, mas o caminho depois desaparece e passa a estar indicado por rochas acumuladas. O arco não pode ser visto durante o caminho, só ao chegar muito perto. Esta é considerada uma das rotas de caminhada mais bonitas do mundo.\n[…]\nO arco é especialmente belo quando visto ao pôr do Sol.\n[…]\nPanorama Under Arch",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Dedo de Deus",
+      "descricao": "Pico rochoso em forma de mão com o indicador apontado para o céu, em Teresópolis, no estado do Rio de Janeiro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Dedo de Deus, pico que lembra uma mão apontando para o céu, fica em que serra do estado do Rio de Janeiro?",
+    "resposta": "Serra dos Órgãos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dedo_de_Deus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dedo_de_Deus",
+        "situacao": "ok",
+        "texto": "Dedo de Deus é um pico com 1 692 metros de altitude cujo contorno se assemelha a uma mão apontando o dedo indicador para o céu. É um dos vários monumentos geológicos da Serra dos Órgãos, que fica localizada na Serra do Mar, entre as cidades de Petrópolis, Guapimirim e Teresópolis, no estado do Rio de Janeiro, no Brasil.\n[…]\nO pico encontra-se nos limites do Parque Nacional da Serra dos Órgãos, na área territorial de Guapimirim, sendo melhor avistado a partir do Mirante do Soberbo, localizado na BR-116, próximo à entrada do município de Teresópolis.\n[…]\nEm 9 de abril de 1912, José Guimarães Teixeira, Raul Carneiro e os irmãos Américo, Alexandre e Acácio de Oliveira, todos de Teresópolis, foram os primeiros a pisar no topo da formação rochosa.O montanhismo no Brasil está intimamente ligado a esta conquista. O pico é um símbolo do estado do Rio de Janeiro, figurando na bandeira e no brasão do mesmo.\n[…]\nOs brasões e bandeiras do estado do Rio de Janeiro e dos municípios de Magé, Teresópolis e Guapimirim fazem referência a montanha. Quanto ao brasão e a bandeira estaduais, a primeira seção, ocupando a metade superior, é azul, representando o céu e simbolizando a justiça, a verdade e a lealdade, com a silhueta da Serra dos Órgãos, destacando-se o pico Dedo de Deus.\n[…]\nPico das Agulhas Negras\n[…]\nMedia relacionados com Dedo de Deus no Wikimedia Commons\n[…]\nDedo de Deus no TripAdvisor"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Monte Pelée",
+      "descricao": "Vulcão ativo no norte da Martinica, cuja erupção de 1902 destruiu a cidade de Saint-Pierre."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1902, o vulcão Pelée arrasou a cidade de Saint-Pierre, e um dos raros sobreviventes estava preso numa cela. Em que ilha caribenha isso aconteceu?",
+    "resposta": "Martinica",
+    "distratores": [
+      "Guadalupe",
+      "Santa Lúcia",
+      "Montserrat"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Pel%C3%A9e",
+      "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Pel%C3%A9e",
+        "situacao": "ok",
+        "texto": "Mount Pelée or Mont Pelée ( pə-LAY; French: la montagne Pelée [la mɔ̃taɲ pəle], lit. 'bald mountain' or 'peeled mountain'; Antillean Creole: Montann Pèlé) is an active stratovolcano at the northern end of Martinique, an island and French overseas department in the Lesser Antilles Volcanic Arc of the Caribbean. Its volcanic cone is composed of stratified layers of hardened ash and solidified lava. \n[…]\nThe volcano is currently active. A few volcano tectonic earthquakes occur on Martinique every year, and Mount Pelée is under continuous watch by geophysicists and volcanologists (IPGP). Before the 1902 eruption—as early as the summer of 1900—signs of increased fumarole activity were present in the Étang Sec crater. Relatively minor phreatic (steam) eruptions that occurred in 1792 and 1851 were evidence that the volcano was active.\n[…]\nOn September 16, 2023, the volcanoes and forests of Mount Pelée and the pitons of northern Martinique were listed as UNESCO World Heritage Site. The volcanic mountain range represents 12% of Martinique's territory. It is the 7th natural site in France to be listed as a UNESCO World Heritage site. World Heritage status could also have a positive impact on tourism and the economy, increasing visitor numbers by 30 to 40%, according to the Martinique Nature Park.\n[…]\nTi-Coyo and his shark (by Clément Richer. Trans. Gerard Hopkins) (Rupert Hart-Davis 1 January 1951) (First published 1 January 1941 as Ti-Coyo et son requin). In this humorous fable, wickedness triumphs because it is charming. Set on the exotic Caribbean island of Martinique before, during, and after the infamous eruption of Mont Pelée in 1902.\n[…]\nMount Vesuvius\n[…]\nEruption of Mt. Pelée (1902)\n[…]\nLa montagne Pelée\n[…]\nPhotos of Mount Pelée volcanic rocks (with text in French) retrieved 2009-05-17\n[…]\nMt. Pelee volcano, St. Pierre, Martinique 61 digitized photographs of the Mount Pelée volcano eruption, May 1902."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e",
+        "situacao": "ok",
+        "texto": "The 1902 eruption of Mount Pelée was a volcanic eruption on the island of Martinique in the Lesser Antilles Volcanic Arc of the eastern Caribbean, which was one of the deadliest eruptions in recorded history. Eruptive activity began on 23 April as a series of phreatic eruptions from the summit of Mount Pelée. Within days, the vigor of these eruptions exceeded anything witnessed since the island wa\n[…]\nIn reality, there were a number of survivors who made their way out of the fringes of the blast zone. Many of these survivors—whose names and stories were never recorded—were badly burned, and some died later from their injuries. A number made their way to Le Carbet, just south of Saint-Pierre behind a ridge that protected that town from the worst of the pyroclastic flow; survivors were rescued on the beach there by Martinique officials.\n[…]\nAmong the May 8 fatalities were the American consul at Martinique, West Indies, Thomas T. Prentis, and his wife.\n[…]\nThe United States quickly offered help to Martinique's authorities. On 12 May, U.S. President Theodore Roosevelt instructed the secretaries of war, navy, and treasury to start relief measures at once. Multiple U.S. ships were dispatched to the island with haste, namely the cruiser Cincinnati, lying at Santo Domingo; the Dixie, a converted freighter which carried Army rations, medical supplies and doctors; and the Navy tug Potomac at San Juan, Puerto Rico.\n[…]\nPresident Roosevelt asked Congress for an immediate appropriation of $500,000 for emergency assistance to the victims of the calamity. Roosevelt said: \"One of the greatest calamities in history has befallen our neighboring island of Martinique ... The city of St. Pierre has ceased to exist ... The government of France ... informs us that Fort-de-France and the entire island of Martinique are still threatened.\n[…]\nThe Eruption of Mount Pelee – 1902 French film by Georges Méliès"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Pel%C3%A9e",
+        "situacao": "ok",
+        "texto": "Monte Pelée (em francês, La Pelée ou montaigne Pelée: \"montanha pelada\") é um vulcão situado no norte da  Martinica, integrado no arco vulcânico das Pequenas Antilhas. É mais conhecido pela erupção de 1902, uma das mais devastadoras de que se tem conhecimento, tendo causado a morte de entre 30 000 a 40 000 pessoas e a destruição total da cidade de Saint-Pierre, situada no sopé da montanha. Pratica\n[…]\nHistoricamente, a primeira erupção vulcânica registrada na montanha Pelée ocorreu por volta do ano 300 e provocou a interrupção do povoamento pré-colombiano da Martinica. O evento de 1902 foi um marco nos estudos vulcânicos. Tratava-se de um novo tipo de erupção, designada desde então como \"peleana\". Pela idade geológica do Monte Pelée, é possível que ainda ocorram outras erupções de iguais proporções.[carece de fontes]?\n[…]\nO relatório afirmava que \"não há nada na atividade do Monte Pelée\" que pudesse levar a população a deixar a cidade e concluía que \"a segurança de Saint-Pierre está completamente garantida\". O relatório aliviou os temores e deu esperança aos funcionários municipais que estavam particularmente preocupados que os eleitores permanecem na cidade para votar durante a eleição que seria realizada em 11 de maio.\n[…]\nA última erupção do Pelée aconteceu entre 1929 e 1932.\n[…]\nAtualmente, Saint-Pierre, conta com apenas 5 000 habitantes. Antes da erupção, era a capital comercial da Martinica. O famoso monte é monitorado regularmente. No museu da cidade ainda pode-se encontrar vários objetos que foram completamente deformados pela erupção. Em março de 2010, quando a Martinica foi atingida por uma grande seca, um incêndio irrompeu na face sudoeste da montanha Pelée e consumiu, durante mais de cinco dias, o cume do vulcão.\n[…]\nA rã-do-vulcão-da-martinica, Allobates chalcopis, é endémica do Monte Pelée, e a única espécie da sua família (Aromobatidae) que é endémica de uma ilha oceânica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Salto do Yucumã",
+      "descricao": "Queda d'água longitudinal do rio Uruguai, na fronteira entre o Brasil e a província argentina de Misiones."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Salto do Yucumã, cujas quedas correm ao longo do rio Uruguai por cerca de dois quilômetros, fica na fronteira da Argentina com qual estado brasileiro?",
+    "resposta": "Rio Grande do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salto_do_Yucum%C3%A3",
+      "https://en.wikipedia.org/wiki/Mocon%C3%A1_Falls"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salto_do_Yucum%C3%A3",
+        "situacao": "ok",
+        "texto": "O Salto do Yucumã ou Iucumã ou Tucumã ou Grande Salto Yocoma' ou ainda Saltos del Moconá é um importante conjunto de quedas d'água entre o noroeste do município de Derrubadas, no estado brasileiro do Rio Grande do Sul, e ao sudeste do departamento de San Pedro , no município de El Soberbio, na província argentina de Misiones . É a maior queda da água longitudinal do mundo.\n[…]\nEm língua guarani, moconá significa \"que tudo engole\". Os saltos se dão ao longo de 1.800 metros e atingem uma altura de até 20 metros.\n[…]\nDe relevo acidentado, sulcada por numerosos cursos de rios e arroios  e coberta por uma importante massa arborizada, somente no Salto Yucumã (lado Brasileiro) é possível observar a queda d'água. Já os Saltos do Moconá (lado Argentino) oferecem mais de cem alternativas para viver a natureza.\n[…]\nNa década de 1970 foram feitos estudos para a construção de usinas e o aproveitamento do potencial hidrelétrico da região. Mas o projeto foi abandonado por causa dos altos custos ecológicos e ambientais uma vez que a própria lei de conservação da região impede que se submerja as quedas d'água do Iucumã. Existe um projeto de construir uma represa menor, logo após as quedas d'água: a represa Panambi.\n[…]\nMacuco Yucumã\n[…]\nRota do Yucumã\n[…]\nTurismo no Rio Grande do Sul"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mocon%C3%A1_Falls",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Parque Nacional de Yellowstone",
+      "descricao": "Parque nacional dos Estados Unidos, sobretudo no Wyoming, famoso por gêiseres e fontes termais."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Parque Nacional de Yellowstone, nos Estados Unidos, costuma ser considerado o primeiro parque nacional do mundo. Em que século ele foi criado?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellowstone_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+        "situacao": "ok",
+        "texto": "Yellowstone National Park is a national park of the United States located mainly in the northwest corner of the state of Wyoming, with small portions extending into Montana and Idaho. The park is known for its wildlife and its many geothermal features, especially the Old Faithful geyser, one of its most popular. While it represents many types of biomes, subalpine forest is the most abundant. It is\n[…]\nYellowstone National Park spans an area of 3,468.4 sq mi (8,983 km2), with a large variety of lakes and ponds, canyons, rivers, and mountain ranges. Yellowstone Lake is one of the largest high-elevation lakes in North America and covers part of the Yellowstone Caldera, the largest super volcano on the continent. The caldera is considered a dormant volcano. It has erupted with tremendous force twice in the last two million years.\n[…]\nYellowstone National Park is the centerpiece of the 20 million acres (80,940 km2; 31,250 mi2) Greater Yellowstone Ecosystem, a region that includes Grand Teton National Park, adjacent National Forests and expansive wilderness areas in those forests. The ecosystem is the largest remaining continuous stretch of mostly undeveloped pristine land in the contiguous United States, considered the world's largest intact ecosystem in the northern temperate zone.\n[…]\nJackson, W. Turrentine (1942). \"The Creation of Yellowstone National Park\". The Mississippi Valley Historical Review. 29 (2): 187–206. doi:10.2307/1896270. JSTOR 1896270.\n[…]\nAct Establishing Yellowstone National Park from the Library of Congress\n[…]\nGannett, Henry (1888). \"Yellowstone National Park\" . Encyclopædia Britannica. Vol. XXIV (9th ed.). p. 736–738.\n[…]\n\"Yellowstone National Park\" . Encyclopædia Britannica. Vol. 28 (11th ed.). 1911. pp. 912–913.\n[…]\nThe short film A Visit to Yellowstone National Park (c. 1932) is available for free viewing and download at the Internet Archive."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Yellowstone",
+        "situacao": "ok",
+        "texto": "O Parque Nacional de Yellowstone é um parque nacional norte-americano localizado nos estados de Wyoming, Montana e Idaho. É o mais antigo parque nacional no mundo, e um marco na história das áreas protegidas. Foi inaugurado a 1 de março de 1872 e cobre uma área de 8 980 km², estando a maior parte dele no condado de Park, no noroeste do Wyoming.\n[…]\n\"National Park\" Langford, membro das expedições efectuadas em 1870 e 1871, foi designado como o primeiro superintendente do parque, em 1872. Serviu durante cinco anos, embora sem salário, fundos ou pessoal auxiliar. Faltavam-lhe meios para melhorar as condições dos terrenos e para implementar medidas de protecção do parque.\n[…]\nLangford usou então estes fundos para expandir os acessos ao parque, construindo 30 novas estradas, assim como para explorar em maior profundidade o parque. Foi contratado um ajudante (Harry Yount) para controlar os saques e vandalismos que ocorriam no parque. Hoje em dia, Harry Yount é considerado como o primeiro guarda de parque (national park ranger). Estas medidas mostraram-se no entanto insuficientes no que diz respeito à protecção do parque.\n[…]\nYellowstone é considerado o habitat selvagem dos Estados Unidos com maior variedade de megafauna. Alguns dos animais que podem ser encontrados são:\n[…]\nYellowstone é um dos mais populares parques nacionais dos Estados Unidos. O parque é único no que diz respeito à conjugação de múltiplas características naturais.\n[…]\nO próprio parque está rodeado de outras áreas protegidas, tais como o Grand Teton National Park e a Custer National Forest. Algumas das populações mais próximas são West Yellowstone (Montana), Cody (Wyoming), Red Lodge (Montana), Ashton (Idaho) e Gardiner (Montana). Segundo o censo demográfico efectuado em 2000, existem 600 pessoas a viver em permanência dentro dos limites do parque.\n[…]\n(em inglês) Yellowstone Net",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Erupção do Eyjafjallajökull em 2010",
+      "descricao": "Erupção de um vulcão sob geleira no sul da Islândia, cujas cinzas paralisaram o tráfego aéreo europeu."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano as cinzas de um vulcão da Islândia fecharam o espaço aéreo de boa parte da Europa por vários dias?",
+    "resposta": "2010",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
+      "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
+        "situacao": "ok",
+        "texto": "Between March and June 2010 a series of volcanic events at Eyjafjallajökull in Iceland caused enormous disruption to air travel across Western Europe.\n[…]\nBy 26 March 2010, the global positioning system (GPS) equipment used by the Iceland Meteorological Office at Þorvaldseyri farm in the Eyjafjöll area (around 15 km or 9.3 mi southeast of the location of the recent eruption) had shown 3 cm (1.2 in) of displacement of the local crust in a southward direction, of which a 1 cm (0.39 in) displacement had taken place within four days.\n[…]\nThe first phase of the 2010 eruption began late on the evening of 20 March at the Eyjafjallajökull.\n[…]\nThe Institute of Earth Sciences made a preliminary estimate of erupted material in the first three days of the eruption on 14 April 2010 at Eyjafjallajökull. The erupted products were fragmented material, the majority fine-grained airborne tephra. Eruptive products can be split into three categories along with preliminary estimated erupted volumes:\n[…]\nNo human fatalities were reported from the 2010 eruption of Eyjafjallajökull. Those who lived near the volcano had high levels of irritation symptoms, though their lung function was not lower than expected. Six months later, the population living in the area had more respiratory symptoms than a control group from North Iceland, with no ashfall. In Scotland, the number of phone calls to health services for respiratory and eye irritation did not rise significantly.\n[…]\nAir travel disruption after the 2010 Eyjafjallajökull eruption\n[…]\nEffects of the April 2010 Eyjafjallajökull eruption\n[…]\nDescription of beginning of current eruption, (March 2010), Icelandic Met Office"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption",
+        "situacao": "ok",
+        "texto": "In response to concerns that volcanic ash ejected during the 2010 eruptions of Eyjafjallajökull in Iceland would damage aircraft engines, the controlled airspace of many European countries was closed to instrument flight rules traffic, resulting in what at the time was the largest air-traffic shut-down since World War II. The closures caused millions of passengers to be stranded not only in Europe\n[…]\nOn 16 April 2010, 16,000 of Europe's usual 28,000 daily scheduled passenger flights were cancelled and on the following day 16,000 of the usual 22,000 flights were cancelled. By 21 April 95,000 flights had been cancelled.\n[…]\nOn 17 April 2010, the president of German airline Air Berlin, in an interview with the newspaper Bild am Sonntag, stated that the risks for flights due to this volcanic haze were nonexistent, because the assessment was based only on a computer simulation produced by the VAAC. He went on to claim that the Luftfahrt-Bundesamt closed German airspace without checking the accuracy of these simulations.\n[…]\nOn 18 April 2010, UK Government ministers announced a plan for flights to land and take off in Spain, and to transport passengers by sea back to the United Kingdom. On 19 April, the cabinet crisis response committee (COBRA) decided that Royal Navy ships should be utilised to repatriate stranded British travellers, in Operation Cunningham. HMS Ark Royal, HMS Ocean, and HMS Albion were deployed, but only Albion was directly involved in repatriation.\n[…]\nThe ash indirectly affected many scheduled cultural and sporting events because key participants were unable to attend, including the funeral of Polish president Lech Kaczyński in Kraków on 18 April 2010. The funeral was to have been attended by 69 presidents, prime ministers, and other heads of states.\n[…]\n2011 eruption of Grímsvötn\n[…]\n\"Tracking the Cancellations\" The New York Times, 15 April 2010, updated 20 April 2010"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%B5es_do_Eyjafjallaj%C3%B6kull_em_2010",
+        "situacao": "ok",
+        "texto": "As erupções ocorridas em 2010 na geleira Eyjafjallajökull (pronúncia: eia-fiatla-iocutl) foram uma série de grandes eventos vulcânicos que ocorreram em Eyjafjallajökull na Islândia. A atividade sísmica, que se iniciou no final de 2009, deu lugar a uma erupção vulcânica que começou a 20 de março de 2010, colocando seu Índice de Explosividade Vulcânica em 1.\n[…]\nUma fase da erupção, a 14 de abril de 2010, causou uma paralisação generalizada do transporte aéreo europeu, afetando milhares de voos e causando uma espécie de efeito dominó em todo o mundo.\n[…]\nEm Outubro de 2010 as erupções cessaram, segundo declarações de Ármann Höskuldsson, cientista do Instituto de Ciências Terrestres da Islândia, embora a área ainda esteja geotermicamente ativa e ainda haja uma possibilidade de uma nova erupção no futuro.\n[…]\nEyjafjallajökull (pronúncia:[ˈɛɪjaˌfjatlaˌjœkʏtl̥], ) é uma das menores geleiras da Islândia. Ela está situada ao norte de Skógar e ao oeste da grande geleira Mýrdalsjökull. A bacia da geleira cobre um vulcão (1 666 m de altura) cuja atividade eruptiva começou a ser mais frequente a partir da última idade do gelo. A cratera do vulcão tem um diâmetro de 3 a 4 km. Houve três grandes erupções precedentes em tempos históricos: em 920, 1612 e 1821-1823.\n[…]\nNormalmente erupções no vulcão de Eyjafjallajökull despertam seu vizinho maior, o Katla, o que causaria danos bem maiores, porém até agora não existe esse risco.\n[…]\nAs cinzas vulcânicas trazidas pelos ventos são um grande perigo para as aeronaves. Por esse motivo, a segunda fase da erupção causou um grande distúrbio no tráfego aéreo europeu e mundial. Enquanto algumas cinzas foram para áreas desabitadas na Islândia, a maioria foi levada por ventos do oeste, indo parar à Europa. Os gases e cinzas reduzem a visibilidade e quando entram nas turbinas podem paralisar os motores do avião.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Uluru",
+      "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para o povo aborígene Anangu."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Por respeito ao povo Anangu, para quem a rocha é sagrada, a escalada do Uluru foi proibida em que ano?",
+    "resposta": "2019",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uluru"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Uluru",
+        "situacao": "ok",
+        "texto": "Uluru (; Pitjantjatjara: Uluṟu [ˈʊlʊɻʊ]), also known as Ayers Rock ( AIRS) and officially gazetted as Uluru / Ayers Rock, is a large sandstone monolith. It crops out near the centre of Australia in the southern part of the Northern Territory, 335 km (208 mi) south-west of Alice Springs.\n[…]\nThe local Aṉangu do not climb Uluru because of its great spiritual significance. They have in the past requested that visitors not climb the rock, partly due to the path crossing a sacred traditional Dreamtime track, and also due to a sense of responsibility for the safety of visitors. Until October 2019, the visitors' guide said \"the climb is not prohibited, but we prefer that, as a guest on Aṉangu land, you will choose to respect our law and culture by not climbing\".\n[…]\nSeveral controversial incidents on top of Uluru in 2010, including a striptease, golfing and nudity, led to renewed calls for banning the climb. On 1 November 2017, the Uluṟu-Kata Tjuṯa National Park board voted unanimously to prohibit climbing Uluru. As a result, there was a surge in climbers and visitors after the ban was announced. The ban took effect on 26 October 2019, and the guide chains that aided climbers were removed.\n[…]\nThere are a number of differing accounts given, by outsiders, of Aboriginal ancestral stories for the origins of Uluru and its many cracks and fissures. One such account, taken from Robert Layton's (1989) Uluru: An Aboriginal history of Ayers Rock, reads as follows:\n[…]\nThe mulgara is mostly restricted to the transitional sand plain area, a narrow band of country that stretches from the vicinity of Uluru to the northern boundary of the park and into Ayers Rock Resort. This area also contains the marsupial mole, woma python and great desert skink.\n[…]\nUluru Statement from the Heart"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Uluru",
+        "situacao": "ok",
+        "texto": "Uluru (também conhecido como Ayers Rock ou The Rock - \"a rocha\") é um monólito situado no norte da área central da Austrália, no Parque Nacional de Uluru-Kata Tjuta perto da pequena cidade de Yulara, 400 km a sudoeste de Alice Springs (25° 20′ 41″ S, 131° 02′ 07″ L).\n[…]\nÉ sagrada aos aborígenes e tem inúmeras fendas, cisternas (poços com água), cavernas rochosas e pinturas antigas. Ayers Rock era o nome dado a ela por colonos europeus, em homenagem ao primeiro-ministro da Austrália Meridional Henry Ayers. Uluru é o nome aborígene, e desde a década de 1980 foi o nome oficialmente escolhido, embora muitas pessoas, especialmente os não-australianos, ainda chamem de Ayers Rock.\n[…]\nEm 1985 o governo australiano devolveu a propriedade de Uluru aos aborígenes locais, os Anangu (aborígenes) arrendaram então de volta ao Governo Australiano pelo período de 99 anos como Parque Nacional.Escalar a pedra é uma atração popular para uma grande fração dos muitos turistas que visitam Ayers Rock a cada ano. Uma corda com alça torna a subida mais fácil, mas ainda é uma subida realmente longa e íngreme e muitos escaladores experientes desistem.\n[…]\nHá várias mortes por ano como resultado direto de escalar a pedra, principalmente, por motivo de parada cardíaca. Os Anangu consideram a pedra sagrada e prefeririam que visitas não a escalassem. Eles não tentam proibir a escalada, mas tentam persuadir os visitantes a respeitar seus desejos de não o fazerem. Também a fotografia de algumas partes da pedra, inclusive a formação chamada o “Cérebro” não é autorizada.\n[…]\nMedia relacionados com Uluru no Wikimedia Commons\n[…]\nParque Nacional Uluṟu - Kata Tjuṯa - Departamento Australiano de Ambiente e Recursos Hídricos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Mont Blanc",
+      "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A primeira escalada do Mont Blanc, o ponto mais alto dos Alpes, foi feita por dois moradores de Chamonix. Em que século?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mont_Blanc"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mont_Blanc",
+        "situacao": "ok",
+        "texto": "Mont Blanc (UK: ; US: ) is a mountain in the Alps, rising 4,807.3 m (15,771.9 ft) above sea level, located right at the Franco-Italian border. It is the highest mountain in Europe outside the Caucasus Mountains, the second-most prominent mountain in Europe (after Mount Elbrus in Russia), and the 11th most prominent mountain in the world.\n[…]\nThere is, however, significant variation in precipitation with altitude. For example, the village of Chamonix below Mont Blanc is at an elevation of approximately 1,030 m (3,380 ft). It receives around 1,020 mm (40 in) of annual precipitation, whilst the Col du Midi, which is at 3,500 m (11,500 ft) above sea level, receives significantly more, totalling 3,100 mm (122 in).\n[…]\nPierre Martel's 1744 map and sketch of the Chamonix valley contains what is considered the first printed appearance of the name \"Mont Blanc\".\n[…]\nIn 1760, Swiss naturalist Horace-Bénédict de Saussure began to go to Chamonix to observe Mont Blanc. He tried to summit it with the Courmayeur mountain guide Jean-Laurent Jordaney, a native of Pré-Saint-Didier, who accompanied De Saussure since 1774 on the Miage Glacier and Mont Crammont.\n[…]\nIn 1946, a drilling project was initiated to carve a tunnel through the mountain. The Mont Blanc tunnel would connect Chamonix, France, and Courmayeur, Italy, and become one of the major transalpine transport routes between the two countries. In 1965, the tunnel opened to vehicle traffic with a length of 11,611 metres (7.215 mi).\n[…]\nLa Voie des 3 Monts is also known as La Traversée. Starting from Chamonix, the Téléphérique de l'Aiguille du Midi is taken towards the Col du Midi. The Cosmiques Hut is used to spend the night. The next day the ascent continues over Mont Blanc du Tacul and Mont Maudit.\n[…]\nChamonix-Mont-Blanc Map\n[…]\nThe scientific observatories on Mont Blanc.\n[…]\nMont Blanc on Peakclimber"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Branco",
+        "situacao": "ok",
+        "texto": "O Monte Branco (em francês: Mont Blanc; em italiano: Monte Bianco) é a mais alta montanha dos Alpes e da União Europeia, atingindo uma altitude de 4 808,73 metros, embora possa variar um pouco de ano para ano, em função das condições atmosféricas, é o primeiro dos cumes dos Alpes com mais de 4 000 m.\n[…]\nAs duas mais conhecidas localidades junto ao Monte Branco são Chamonix (França) e Courmayeur (Itália).\n[…]\nDe notar que o Monte Branco é o mais alto pico da Europa Ocidental. Se se considerar que a Europa se estende até ao Cáucaso, conforme a visão geopolítica do Conselho da Europa e as definições das fronteiras dos continentes, aí se encontram oito picos de altitude superior, sendo o Monte Elbrus, na Rússia, com os seus 5642 m, o mais alto de todos.\n[…]\nNo artigo 4 é dito que: \"A fronteira entre o Reino da Sardenha e os departamentos da República Francesa será estabelecida pela linha determinada pelos mais avançados pontos do lado do Piemonte, pelos cumes ou picos das montanhas e outros locais subsequentemente mencionados, tal como pelos picos intermédios, observando que partem do ponto onde as fronteiras de Faucigny, do Ducado de Aosta e do cantão de Valais se encontram até à extremidade dos glaciares ou Montes Malditos: primeiro os picos ou planaltos dos Alpes, até ao tergo de Col Mayor\".\n[…]\nA única certeza é que o ponto mais elevado da Itália totalmente em seu território é o Monte Branco de Courmayeur.\n[…]\nO monte Branco foi escalado pela primeira vez em 1786 por Michel Paccard e Jacques Balmat, na época da idade de ouro do alpinismo.\n[…]\nO monte Branco constitui um popular destino turístico, sendo Chamonix uma das mais famosas estâncias de desportos de inverno do mundo, com excecionais condições para a prática de montanhismo e esqui.\n[…]\n«Monte Branco». www.montebianco.com\n[…]\n«Monte Branco». na Peakware",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Nevado del Ruiz",
+      "descricao": "Estratovulcão nevado nos Andes da Colômbia, cuja erupção causou a tragédia de Armero."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A tragédia de Armero, cidade colombiana soterrada pelas avalanches de lama do vulcão Nevado del Ruiz, aconteceu em que ano?",
+    "resposta": "1985",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Armero_tragedy",
+      "https://en.wikipedia.org/wiki/Nevado_del_Ruiz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Armero_tragedy",
+        "situacao": "ok",
+        "texto": "The Armero tragedy (Spanish: Tragedia de Armero [tɾaˈxeðja ðe aɾˈmeɾo]) occurred following the eruption of the Nevado del Ruiz stratovolcano in Tolima, Colombia, on November 13, 1985. The volcano's eruption after 69 years of dormancy caught nearby towns unprepared, even though volcanological organizations had warned the government to evacuate the area after they had detected volcanic activity two \n[…]\nAt 9:09 p.m., on November 13, 1985, Nevado del Ruiz ejected dacitic tephra more than 30 km (20 mi) into the atmosphere. The total mass of the erupted material (including magma) was 35 million metric tons, only three percent of the amount that erupted from Mount St. Helens in 1980. The eruption reached 3 on the Volcanic Explosivity Index.\n[…]\nThe Nevado del Ruiz eruption occurred two months after the 1985 Mexico City earthquake, limiting the amount of supplies that could be sent to each of the disasters. Efforts were organized in Ibagué and Bogotá for Armero and in Cali for Chinchiná, where medical teams gathered. Makeshift triage stations were established in Lerida, Guayabal, and Mariquita, and soon were overwhelmed with the sheer number of victims.\n[…]\nRafael Ruiz, a National Army major who briefly served as Armero's provisional mayor after the disaster, stated that there were survivors who, due to the trauma of the event, were \"jittery\", experienced \"nightmares\", and suffered from \"emotional problems\". He added that the progress made by Christmas of 1985 was considerable, but that there was \"still a long way to go\".\n[…]\nThe volcano erupted several more times between 1985 and 1994.\n[…]\nMileti, Dennis S.; Bolton, Patricia A.; Fernandez, Gabriel; Updike, Randall G. (1991). The Eruption of Nevado Del Ruiz Volcano Colombia, South America, November 13, 1985. Washington, D.C.: Commission on Engineering and Technical Systems (National Academy Press). ISBN 978-0-309-04477-6."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nevado_del_Ruiz",
+        "situacao": "ok",
+        "texto": "Nevado del Ruiz (Spanish pronunciation: [neˈβaðo ðel ˈrwis]), also known as La Mesa de Herveo (English: Mesa of Herveo, the name of the nearby town) is a volcano on the border of the departments of Caldas and Tolima in Colombia, being the highest point of both. It is located about 130 km (81 mi) west of the capital city Bogotá. It is a stratovolcano composed of many layers of lava alternating with\n[…]\nThe eruption caused lahars, which traveled down the valleys of the nearby Gualí and Lagunillas rivers, clogging up the water, killing fish and destroying vegetation. More than 600 people died as a result of the lahar. The 1595 eruption was the last major eruption of Nevado del Ruiz before 1985. The 1595 and 1985 eruptions were similar in many respects, including in the chemical composition of the erupted material.\n[…]\nIn November 1985, volcanic activity once again increased as magma neared the surface. The volcano began releasing increasing quantities of gases rich in sulfur dioxide and elementary sulfur. The water content of the fumaroles' gases decreased, and water springs in the vicinity of Nevado del Ruiz became enriched in magnesium, calcium and potassium, which were leached from the magma.\n[…]\nAt 3:06 pm, on November 13, 1985, Nevado del Ruiz began to erupt, ejecting dacitic tephra more than 30 km (19 mi) into the atmosphere. The total mass of the erupted material (including magma) was 35 million tonnes—only 3% of the amount that erupted from Mount St. Helens in 1980. The eruption reached a value of 3 on the Volcanic Explosivity Index.\n[…]\nAbout 2,300 people living along five nearby rivers were evacuated when Nevado del Ruiz erupted again in 1989. When another Colombian volcano, the Nevado del Huila, erupted in April 2008, thousands of people were evacuated because volcanologists worried that the eruption could be another \"Nevado del Ruiz\".\n[…]\nList of mountains in Colombia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trag%C3%A9dia_de_Armero",
+        "situacao": "ok",
+        "texto": "Tragédia de Armero ([tɾaˈxeðja ðe aɾˈmeɾo]; em castelhano: Tragedia de Armero) foi um desastre natural que ocorreu após a erupção do estratovulcão Nevado del Ruiz em Tolima, Colômbia, em 13 de novembro de 1985. Após 69 anos de dormência, a erupção do vulcão pegou as cidades próximas sem aviso, embora o governo tenha recebido alertas.\n[…]\nO Nevado del Ruiz entrou em erupção várias vezes desde o desastre e continua a ameaçar até 500 mil pessoas que vivem ao longo dos vales dos rios Combeima, Chinchiná, Coello-Toche e Guali. Um lahar (ou grupo de lahars) semelhante em tamanho ao evento de 1985 pode viajar até 100 km do vulcão e pode ser desencadeado por uma pequena erupção. Para conter essa ameaça, o governo colombiano criou um escritório especializado que promove a conscientização sobre ameaças naturais.\n[…]\nA atividade vulcânica aumentou novamente em novembro de 1985, conforme o magma se aproximava da superfície. Quantidades crescentes de gases ricos em dióxido de enxofre e enxofre elementar começaram a aparecer no vulcão. O conteúdo de água dos gases das fumarolas diminuiu e as nascentes de água nas proximidades de Nevado del Ruiz ficaram enriquecidas com magnésio, cálcio e potássio, que vazaram do magma.\n[…]\nEm setembro de 1985, quando terremotos e erupções freáticas sacudiram a área, as autoridades locais começaram a planejar uma evacuação. Em outubro, um mapa de risco foi finalizado para a área ao redor do Nevado del Ruiz. Este mapa destacou o perigo da queda de material - incluindo cinzas e rochas vulcânicas - perto de Murillo, Santa Isabel e Líbano, bem como a ameaça de lahars em Mariquita, Guayabal, Chinchiná e Armero.\n[…]\nEm 21 de setembro de 2017 foi lançado Armero, um filme sobre a tragédia. Dirigido por Christian Mantilla, o filme conta a história dos acontecimentos ocorridos em novembro de 1985.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Monte Vesúvio",
+      "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Uma erupção do Vesúvio destruiu dezenas de bombardeiros aliados estacionados perto de Nápoles. Durante qual guerra isso aconteceu?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Vesuvius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+        "situacao": "ok",
+        "texto": "Mount Vesuvius ( və-SOO-vee-əs) is a somma–stratovolcano located on the Gulf of Naples in Campania, Italy, about 9 km (5.6 mi) east of Naples and a short distance from the shore. It is one of several volcanoes forming the Campanian volcanic arc. Vesuvius consists of a large cone partially encircled by the steep rim of a summit caldera, resulting from the collapse of an earlier, much higher structu\n[…]\nThe cliffs forming the northern ridge of Monte Somma's caldera rim reach a maximum height of 1,132 m (3,714 ft) at Punta Nasone. The summit of the main cone of Vesuvius is 1,281 m (4,203 ft) above sea level and more than 400 m (1,300 ft) above the 5 km (3.1 mi) long valley of Atrio di Cavallo (the northern floor of Monte Somma's caldera).\n[…]\nThe AD 79 eruption was preceded by a powerful earthquake in 62, which caused widespread destruction around the Bay of Naples, and particularly to Pompeii. Some of the damage had still not been repaired when the volcano erupted. The deaths of 600 sheep from \"tainted air\" in the vicinity of Pompeii indicates that the earthquake of AD 62 may have been related to new activity by Vesuvius.\n[…]\n\"Funiculì, Funiculà\", a Neapolitan language song, was written to commemorate the opening of the first funicular on Mount Vesuvius.\n[…]\nBattle of Mount Vesuvius\n[…]\nPurcell, N.; Talbert, R.; Gillies, S.; Elliott, T.; Becker, J. (20 March 2015). \"Places: 433189 (Vesuvius M.)\". Pleiades. Retrieved 8 March 2012.\n[…]\nFraser, Christian (10 January 2007). \"Vesuvius escape plan 'insufficient'\". Naples: BBC News. Retrieved 11 May 2010.\n[…]\nGarrett, Roger A.; Klenk, Hans-Peter (April 2005). \"Vesuvius' next eruption\". Geotimes. Archived from the original on 12 May 2007. Retrieved 8 December 2006.\n[…]\n\"Vesuvius: The making of a catastrophe: Il problema ignorato\". Global Volcanic and Environmental Systems Simulation (GVES). 1996–2003."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ves%C3%BAvio",
+        "situacao": "ok",
+        "texto": "Vesúvio (em italiano:  Vesuvio) é um estratovulcão localizado na cidade de Nápoles, Itália, a cerca de nove quilômetros a leste de Nápoles e a curta distância do litoral. É o único vulcão na Europa continental a ter entrado em erupção nos últimos cem anos, embora atualmente esteja adormecido. Dos dois outros principais vulcões ativos da Itália, o Etna está localizado na ilha da Sicília e o Strombo\n[…]\nSegundo Lacroix, é designado Vulcano-estromboliano porque existem explosões com grande produção de cinzas e lava espessa e outras explosões expelem com magma fluido, poucas cinzas, mas muitos gases explosivos, projetando materiais sólidos (do tipo estromboliano). Segundo Scarth é Pliniano, porque a sua lava é muito fragmentada e espalha-se por uma grande área, atingindo grande espessura (pode exceder os 100 km³ de volume). A coluna de gases e cinzas pode ter alguns quilômetros de altura.\n[…]\nSegundo outros autores o vulcão é considerado explosivo, mas tendo em conta que, ao longo do seu período de atividade, ocorreram erupções alternadas, é mais correto designá-lo por misto.\n[…]\nO Vesúvio entrou em erupção diversas vezes. A mais famosa, em 79, foi precedida por inúmeras outras na pré-história, incluindo pelo menos três de significante impacto, a mais célebre delas sendo a erupção de Avelino por volta de 1800 a.C., que engolfou diversos povoados da Idade do Bronze.\n[…]\nNo século XVIII a cidade de Pompeia e Herculano foram redescobertas embaixo da terra perto do Vulcão Vesúvio. Um homem estava escavando perto de lá e começa a ver pedaços de 'telhas'. Curioso, escavou tudo e descobriu cidades (Pompeia e Herculano) embaixo da terra, com casas destruídas e muito mais. Dentro das casas destruídas ainda havia resíduos de pessoas inteiras (cascas de pele petrificadas). Foi uma das maiores descobertas do mundo.\n[…]\nA próxima erupção do Vesúvio (em inglês)\n[…]\nVesúvio: a formação de uma tragédia (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Paricutín",
+      "descricao": "Vulcão no estado de Michoacán, no México, que surgiu em 1943 num campo de milho."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O vulcão Paricutín nasceu num milharal mexicano em 1943 e passou anos expelindo lava. Em que ano a erupção terminou?",
+    "resposta": "1952",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Par%C3%ADcutin",
+      "https://pt.wikipedia.org/wiki/Paricut%C3%ADn"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Par%C3%ADcutin",
+        "situacao": "ok",
+        "texto": "Parícutin (or Volcán de Parícutin, also accented Paricutín) is a cinder cone volcano located in the Mexican state of Michoacán, near the city of Uruapan and about 322 kilometers (200 mi) west of Mexico City. The volcano surged suddenly from the cornfield of local farmer Dionisio Pulido in 1943, attracting both popular and scientific attention.\n[…]\nParícutin presented the first occasion for modern science to document the full life cycle of an eruption of this type. During the volcano's nine years of activity, scientists sketched and mapped it and took thousands of samples and photographs. By 1952, the eruption had left a 424-meter-high (1,391 ft) cone and significantly damaged an area of more than 233 square kilometers (90 mi2) with the ejection of stone, volcanic ash and lava.\n[…]\nParícutin erupted from 1943 to 1952, unusually long for this type of volcano, and with several eruptive phases. For weeks prior, residents of the area reported hearing noises similar to thunder but without clouds in the sky. This sound is consistent with deep earthquakes caused by the movement of magma. A later study indicated that the eruption was preceded by 21 earthquakes over 3.2 in magnitude starting five weeks before the eruption.\n[…]\nThe eruptions ended in 1952, leaving a final scoria cone with a height of 424 meters from the valley floor. The eruption destroyed or heavily damaged a 233 km2 area, and almost all of the vegetation within several kilometers of the crater was destroyed. The volcano spread lava over 26 km2, with 52 km2 covered in volcanic sand.\n[…]\nThe town of Parícutin, which once had a population of 733, is now completely gone, and all that remains of the town of San Juan Parangaricutiro, with a former population of 1,895, are parts of its main church which stand out among the hardened lava flow.\n[…]\n1943–1952 The eruption of Parícutin"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paricut%C3%ADn",
+        "situacao": "ok",
+        "texto": "O Paricutín é um vulcão muito recente situado no estado de Michoacán, no México (19°29'35.70\"N, 102°15'3.93\"O), entre as povoações de San Juan Parangaricutiro (El Nuevo) e Angahuan. Está incluído em algumas listas das sete maravilhas naturais do mundo. A cidade mais próxima deste vulcão é Uruapan.\n[…]\nMuito do crescimento do vulcão ocorreu durante o primeiro ano, quando se encontrava ainda na fase piroclástica explosiva. No fim desta fase, após aproximadamente um ano, o vulcão tinha crescido até aos 336 metros de altura. Nos oito anos seguintes o vulcão continuaria em erupção, embora este período fosse dominado por erupções relativamente ligeiras de lava, que chamuscariam os 25 quilômetros quadrados em torno.\n[…]\nA atividade do vulcão declinaria lentamente durante este período até os últimos seis meses da erupção, durante a qual a atividade violenta e explosiva foi frequente. Em 1952, a erupção terminou, e o Paricutín parou de crescer, alcançando uma altura final de 424 metros acima do terreno em que \"nasceu\" (elevação 3170 metros acima do nível do mar, uma vez que se situa em um platô vulcânico elevado).\n[…]\nComo a maioria dos cones de cinza, o Paricutín é um vulcão monogenético, o que significa que nunca voltará a ocorrer sua erupção.\n[…]\nO vulcanismo é um aspecto comum na paisagem mexicana. O Paricutín é meramente o mais novo dos mais de 1.400 respiradouros vulcânicos que existem na cadeia vulcânica Trans-Mexicana, que se estende pela região que inclui Michoacán e Guanajuato. Este vulcão é original pelo fato de que sua formação foi testemunhada desde o início. Surpreendentemente, nenhuma morte foi causada pela erupção, embora três pessoas tenham morrido em conseqüência dos relâmpagos associados a ela."
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Monte Pinatubo",
+      "descricao": "Estratovulcão na ilha de Luzon, nas Filipinas, cuja erupção de 1991 esfriou o clima global."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A erupção do Pinatubo, nas Filipinas, lançou tanto gás na atmosfera que esfriou o planeta por cerca de dois anos. Em que década ela aconteceu?",
+    "resposta": "Anos 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo",
+      "https://en.wikipedia.org/wiki/Mount_Pinatubo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo",
+        "situacao": "ok",
+        "texto": "The 1991 eruption of Mount Pinatubo in the Philippines' Luzon Volcanic Arc was the second-largest volcanic eruption of the 20th century, behind only the 1912 eruption of Novarupta in Alaska. Eruptive activity began on April 2 as a series of phreatic explosions from a fissure that opened on the north side of Mount Pinatubo. Seismographs were set up and began monitoring the volcano for earthquakes. \n[…]\nOn July 16, 1990, a magnitude 7.8 earthquake struck northern Central Luzon and the Cordilleras. This was the largest earthquake recorded in 1990. Its epicenter was in the municipality of Rizal, Nueva Ecija, about 100 km (62 mi) northeast of Pinatubo, and faulted northwest–southeast through three provinces.\n[…]\nThe eruption of Pinatubo severely hampered the economic development of the surrounding areas. The gross regional domestic product of the Pinatubo area accounted for about 10% of the total Philippine gross domestic product. The GRDP had been growing at 5% annually before the eruption but fell by more than 3% from 1990 to 1991.\n[…]\nADB-funded Mt. Pinatubo Damage Rehabilitation Project\n[…]\nIBRD-funded technical assistance for Mt. Pinatubo and Rehabilitation Works\n[…]\nSwiss Disaster Relief-funded technical assistance for Mt. Pinatubo Rehabilitation\n[…]\nJBIC Yen Loan Package-funded Pinatubo hazard Urgent Mitigation Project\n[…]\nSurviving the Eruption at Pinatubo (National Geographic Channel, 2006)\n[…]\nPinatubo: Pagbangon Mula sa Abo (ABS-CBN, 2011)\n[…]\nPinatubo Tragedy (Journeyman Pictures/ABC Australia, 2000)\n[…]\nIn the novel Termination Shock, Pinatubo is a somewhat prominent plot point due to the long-term environmental impact of releasing sulfur dioxide inspiring the geoengineering project in the novel.\n[…]\nGaillard, Jean-Christophe (December 2006). \"Was it a cultural disaster? Aeta resilience following the 1991 Mt Pinatubo eruption\". Philippine Quarterly of Culture and Society. 34 (4): 376–399. JSTOR 29792602."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Pinatubo",
+        "situacao": "ok",
+        "texto": "Mount Pinatubo is an active stratovolcano in the Zambales Mountains in Luzon in the Philippines. Located on the tripoint of Zambales, Tarlac and Pampanga provinces, most people were unaware of its eruptive history before the pre-eruption volcanic activity in early 1991. Dense forests, which supported a population of several thousand indigenous Aetas, heavily eroded and obscured Pinatubo.\n[…]\nThe most recent study of Mount Pinatubo before the activities of 1991 was the overall geological study in 1983 and 1984 made by F. G. Delfin for the Philippine National Oil Company as part of the surface investigations of the area before exploratory drilling and well testing for geothermal energy sources in 1988 to 1990. He recognized two life histories of the mountain, which he classified as \"ancestral\" and \"modern\" Pinatubo.\n[…]\nAccording to the native elders, Apo Namalyari induced the June 1991 eruption because of displeasure toward illegal loggers and Philippine National Oil Company executives who performed deep exploratory drilling and well testing on the volcano looking for geothermal heat from 1988 to 1990. Discouraging results from the wells forced the abandonment of the prospect 13 months before the April 2, 1991, explosions.\n[…]\nSince June 15, 1991, the recent caldera and Lake Pinatubo have become a tourist attraction. The preferred route is through Barangay Santa Juliana in Capas, Tarlac.\n[…]\nThe Long-nosed forest mouse (Apomys sacobianus) is a species of rodent endemic to Mount Pinatubo, Philippines.\n[…]\nFire and Mud: Eruptions and Lahars of Mount Pinatubo, Philippines, United States Geological Survey site\n[…]\n\"The Cataclysmic 1991 Eruption of Mount Pinatubo, Philippines\". United States Geological Survey site\n[…]\nPinatubo, Philippines (volcanic images)\n[…]\nEntry for Pinatubo in the Smithsonian Institution's Global Volcanism Program (GVP)"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Matterhorn",
+      "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1865, que alpinista inglês liderou a primeira escalada do Matterhorn, que terminou com quatro mortes na descida?",
+    "resposta": "Edward Whymper",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/First_ascent_of_the_Matterhorn",
+      "https://en.wikipedia.org/wiki/Edward_Whymper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/First_ascent_of_the_Matterhorn",
+        "situacao": "ok",
+        "texto": "The first ascent of the Matterhorn was a mountaineering expedition of the Matterhorn made by Edward Whymper, Lord Francis Douglas, Charles Hudson, Douglas Hadow, Michel Croz, and two Zermatt guides, Peter Taugwalder and his son of the same name, on 14 July 1865. Douglas, Hudson, Hadow and Croz were killed on the descent when Hadow slipped and pulled the other three with him down the north face.\n[…]\nThe ascent followed a long series of usually separate attempts by Edward Whymper and Jean-Antoine Carrel to reach the summit. Carrel's group had been 200 m below the summit on the Italian side when Croz and Whymper summited. The climbers from Valtournenche withdrew deflated, but three days later Carrel and Jean-Baptiste Bich reached the summit without incident. The Matterhorn was the last great Alpine peak to be climbed and its first ascent marked the end of the golden age of alpinism.\n[…]\nIn the summer of 1860, Edward Whymper, an athletic, twenty-year-old British artist, visited the Alps for the first time. He had been hired by a London publisher to make sketches and engravings of the scenic mountains along the border of Switzerland and Italy. He soon became interested in mountaineering and decided to attempt the yet unconquered Matterhorn.\n[…]\nWhymper soon found that Jean-Antoine Carrel, an Italian guide from the Valtournanche, had attempted to be the first to reach the summit of the Matterhorn since 1857. Between 1861 and 1865, both made several attempts by the south-west ridge together but became progressively rivals, according to Whymper because Carrel patriotically believed that a native Italian like himself and not an Englishman like Whymper should be the first to set foot on the summit.\n[…]\nIn a letter to The Times, Whymper wrote:\n[…]\nWhymper wrote at the time to the Secretary of the I.A.C. His letter ends thus:\n[…]\nSecond ascent of the Matterhorn"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Edward_Whymper",
+        "situacao": "ok",
+        "texto": "Edward Whymper FRSE (27 April 1840 – 16 September 1911) was an English mountaineer, explorer, illustrator, and author best known for his 1865 first ascent of the Matterhorn. Four members of his climbing party were killed during the descent. Whymper also made important first ascents on the Mont Blanc massif and in the Pennine Alps, Chimborazo in South America, and the Canadian Rockies. His explorat\n[…]\nWhymper wrote several books on mountaineering, including Scrambles Amongst the Alps.\n[…]\nOn 25 April 1906, aged 65, Whymper married Edith Mary Lewin aged 23 (born 1883) at Emmanuel Church in Forest Gate, Essex (now London). The service was presided over by Canon J. M'Cormick, who had assisted the mountaineer after the Matterhorn accident. The marriage produced one daughter, Ethel, who was also a mountain climber and member of the Ladies' Alpine Club; she married fellow climber Edward Blandy. Whymper and Edith separated in 1910.\n[…]\nThe Apprenticeship of a Mountaineer: Edward Whymper's London Diary, 1855–1859. Ed. Ian Smith. London: London Record Society, 2008. ISBN 978-0900952432.\n[…]\nWorks by Edward Whymper in eBook form at Standard Ebooks\n[…]\nWorks by Edward Whymper at Project Gutenberg\n[…]\nWorks by or about Edward Whymper at the Internet Archive\n[…]\nWorks by Edward Whymper at LibriVox (public domain audiobooks)\n[…]\n\"Edward Whymper\". cdnrockiesdatabases.ca.\n[…]\nPeter H. Hansen, 'Whymper, Edward (1840–1911)', Oxford Dictionary of National Biography, Oxford University Press, 2004\n[…]\nEdward Whymper (1892). Travels Amongst the Great Andes of the Equator. J. Murray. editions:0zxuHccFK-hE6Z02OBomfy.\n[…]\nEdward Whymper (1871). \"Scrambles Amongst the Alps in the Years 1860–69 (1871)\". Standard Ebooks. Archived from the original on 29 April 2026.\n[…]\nKris Annapurna (27 April 2026). \"The Matterhorn, 1865: Whymper Makes the First Ascent, Then Hurls Rocks at His Rivals Below\". ExplorersWeb. Archived from the original on 29 April 2026."
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Grand Canyon",
+      "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+    "resposta": "Theodore Roosevelt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grand_Canyon_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grand_Canyon_National_Park",
+        "situacao": "ok",
+        "texto": "Grand Canyon National Park is a national park of the United States located in northwestern Arizona, the 15th site to have been named as a national park. The park's central feature is the Grand Canyon, a gorge of the Colorado River, which is often considered one of the Wonders of the World. The park, which covers 1,217,262 acres (1,901.972 sq mi; 4,926.08 km2) of unincorporated area in Coconino and\n[…]\nThe Grand Canyon became well known to Americans in the 1880s after railroads were built and pioneers developed infrastructure and early tourism. In 1903, President Theodore Roosevelt visited the site and said, The Grand Canyon fills me with awe. It is beyond comparison—beyond description; absolutely unparalleled throughout the wide world .... Let this great wonder of nature remain as it now is. Do nothing to mar its grandeur, sublimity and loveliness. You cannot improve on it.\n[…]\nDespite Roosevelt's enthusiasm and strong interest in preserving land for public use, the Grand Canyon was not immediately designated as a national park. The first bill to establish Grand Canyon National Park was introduced in 1882 by then-Senator Benjamin Harrison, which would have established Grand Canyon as the third national park in the United States, after Yellowstone and Mackinac.\n[…]\nHarrison unsuccessfully reintroduced his bill in 1883 and 1886; after his election to the presidency, he established the Grand Canyon Forest Reserve in 1893. Theodore Roosevelt created the Grand Canyon Game Preserve by proclamation on November 28, 1906, and the Grand Canyon National Monument on January 11, 1908. Further Senate bills to establish the site as a national park were introduced and defeated in 1910 and 1911, before the Grand Canyon National Park Act (Pub. L.\n[…]\n1908 Established as Grand Canyon National Monument by President Theodore Roosevelt (Presidential Proclamation #794)\n[…]\nGrand Canyon National Park Lodge"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Grand_Canyon",
+        "situacao": "ok",
+        "texto": "Ver também: Grand Canyon\n[…]\nParque Nacional do Grand Canyon é um dos primeiros parques nacionais dos Estados Unidos e está localizado na região do Grand Canyon, no Arizona.\n[…]\nO Grand Canyon foi designado oficialmente um parque nacional em 1919, mas o local já era bem conhecido entre os estadunidenses havia mais de trinta anos.\n[…]\nEm 1903, o presidente Theodore Roosevelt visitou o local e disse: \"O Grand Canyon me enche com admiração, está além de comparação, além da descrição, absolutamente sem paralelo no vasto mundo ... Deixe este grande maravilha da natureza permanecer como agora é e não faça nada para estragar a sua grandeza, sublimidade e beleza. Você não pode melhorá-la.. .\n[…]\nMas o que você pode fazer é mantê-la para os seus filhos, filhos de seus filhos e todos os que virão depois de você, como a grande visão que cada americano deve ver\".\n[…]\nLista de parques nacionais dos Estados Unidos\n[…]\n«Unesco - Parque Nacional do Grand Canyon» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Pão de Açúcar",
+      "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1817, quem fez a primeira escalada registrada do Pão de Açúcar, no Rio de Janeiro?",
+    "resposta": "Uma mulher inglesa",
+    "distratores": [
+      "Um padre jesuíta",
+      "Um soldado português",
+      "Um naturalista alemão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain",
+        "situacao": "ok",
+        "texto": "Sugarloaf Mountain (Portuguese: Pão de Açúcar, pronounced [ˈpɐ̃w d(ʒi) aˈsukaʁ]) is a peak situated in Rio de Janeiro, Brazil, on a peninsula at the mouth of Guanabara Bay. Rising 396 m (1,299 ft) above the harbor, the peak is named for its resemblance to the traditional shape of concentrated refined sugarloaf. It is known worldwide for its  cable car and panoramic views of the city and beyond.\n[…]\nThe mountain is one of several monolithic granite and quartz mountains that rise straight from the water's edge around Rio de Janeiro. Geologically, it is considered part of a family of steep-sided rock outcroppings known as bornhardts.\n[…]\nThe mountain is protected by the Sugarloaf Mountain and Urca Hill Natural Monument, created in 2006.\n[…]\nTo reach the summit, passengers take two cable cars. The first ascends to the shorter Morro da Urca, 220 m (722 ft) high. The second car ascends to Pão de Açúcar. The Swiss-made bubble-shaped cars offer passengers 360° views of the surrounding city. The ascent takes three minutes.\n[…]\n1910 – The same engineer founded the Society of Sugar Loaf, and in the same year, the works were started. The project was commissioned in Germany and built by Brazilian workers. All parts were taken by climbing mountains or lifted by steel cables.\n[…]\nThere are rock climbing routes on Sugarloaf that are mostly multipitch and are a mixture of sport and trad. There are also two other mountains in the area with technical rock climbing, Morro da Babilônia and Morro da Urca. Together, they form one of the largest urban climbing areas in the world, with more than 270 routes, between 1 and 10 pitches long.\n[…]\nMedia related to Sugarloaf Mountain at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monumento_Natural_dos_Morros_do_P%C3%A3o_de_A%C3%A7%C3%BAcar_e_da_Urca",
+        "situacao": "ok",
+        "texto": "Monumento Natural dos Morros do Pão de Açúcar e da Urca é um complexo de morros localizado no bairro da Urca, na cidade do Rio de Janeiro, no Brasil. É composto pelo Morro do Pão de Açúcar (que dá nome ao complexo) e pelo Morro da Urca. Junto com a estátua do Cristo Redentor, é o maior cartão-postal da cidade do Rio de Janeiro e um dos mais famosos do Brasil.\n[…]\nAlgumas visitas notáveis foram registradas, como a do histórico escalador Wolfgang Güllich na segunda metade dos anos 1980, que abriu a primeira via de décimo grau no Brasil (graduação brasileira), batizada por Southern Comfort, ou Via do Alemão, na Pedra do Urubu, situada junto ao mar e a pista de lazer Cláudio Coutinho, pista esta de 1 250 metros de extensão, que margeia as faces sul dos morros da Urca e do Pão de Açúcar.\n[…]\nAlém disso, o Pão de Açúcar tem também relevância histórica para o montanhismo no Brasil. Consta que a sua primeira ascensão teria sido realizada em 1817 pela inglesa Enrieta Carstiers, pela sua Face leste, voltada para o Oceano Atlântico e de menor inclinação. Seria assim uma das primeiras manifestações diretas de cunho montanhístico no Brasil, onde a própria ascensão da montanha traduziu-se no objetivo maior.\n[…]\nFiguras ilustres como o cientista Albert Einstein, o ex-presidente dos Estados Unidos John Kennedy, e o cantor inglês Elton John já passaram pelo bondinho do Pão de Açúcar, além dos muitos artistas que se apresentaram no Morro da Urca, principalmente na década de 1980.\n[…]\nEm 1990, uma homenagem ao piloto Ayrton Senna expôs no Morro da Urca um carro de Fórmula 1. E, mais recentemente, em 2004, a Tocha Olímpica dos Jogos Olímpicos de Atenas e, em 2007, a Tocha Olímpica dos Jogos Pan-Americanos do Rio de Janeiro visitaram o Pão de Açúcar.\n[…]\nBondinho do Pão de Açúcar\n[…]\n«Página da Riotur sobre o Pão de Açúcar»\n[…]\n«As mulheres no Pão de Açúcar»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Cataratas do Niágara",
+      "descricao": "Conjunto de três quedas d'água do rio Niágara, na fronteira entre Canadá e Estados Unidos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1901, quem foi a primeira pessoa a despencar das Cataratas do Niágara dentro de um barril e sobreviver?",
+    "resposta": "Annie Edson Taylor",
+    "distratores": [
+      "Charles Blondin",
+      "Harry Houdini",
+      "Bobby Leach"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Annie_Edson_Taylor"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Annie_Edson_Taylor",
+        "situacao": "ok",
+        "texto": "Annie Edson Taylor (October 24, 1838 – April 29, 1921) was an American schoolteacher who, on her 63rd birthday, October 24, 1901, became the first person to survive a trip over Niagara Falls in a barrel.\n[…]\nAnnie was born on October 24, 1838, in Auburn, New York. She was one of eight children born to Merrick Edson (1804–1850) and Lucretia Waring; her father owned a flour mill and died when she was 12 years old, leaving enough money to provide a comfortable living for the family. She became a schoolteacher (she received an honors degree in a four-year training course). During her studies, she met David Taylor. They were married and had a son who died in infancy. Her husband died soon after.\n[…]\nAnnie Taylor's character appears in the IMAX film Niagara: Miracles, Myths and Magic.\n[…]\nEmma Donoghue has written a short story featuring Taylor's descent.\n[…]\nLindsey Lauren Visser wrote \"Annie Edson Taylor's Barrel v. Niagara Falls\" for The Buffalo History Museum Podcast.\n[…]\nWisconsin-based Americana singer-songwriter Trapper Schoepp tells Annie Edson Taylor’s story in the song “Queen of the Mist” on his 2023 album, Siren Songs, which was recorded at Johnny Cash’s cabin.\n[…]\nLyons, Chuck (September/October 2024). \"Annie Edson Taylor: (1838-1921).\" Michigan History. p. 12. Lansing, Michigan: Historical Society of Michigan. ISSN 0026-2196. Retrieved via Gale OneFile\n[…]\nAnnie Taylor biodata\n[…]\nAnnie Edson Taylor images from the Niagara Falls, Ontario Public Library\n[…]\n\"Annie Edson Taylor Bio from Oakwood Cemetery website\"\n[…]\n\"Not the usual carnival show-off\": Annie Edson Taylor at Niagara Falls – ABC Radio National program describing the background and circumstances of Taylor's stunt broadcast September 2011"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Annie_Edson_Taylor",
+        "situacao": "ok",
+        "texto": "Annie Edson Taylor (24 de outubro de 1838 — 29 de abril de 1921) foi uma professora e aventureira estadunidense.\n[…]\nEla entrou para a história quando, em 24 de outubro de 1901 (dia do seu 63º aniversário), tornou-se a primeira pessoa a sobreviver à descida das cataratas do Niágara dentro de um barril.\n[…]\nAnnie imaginou que descer as cataratas do Niágara seria uma forma de ganhar fama e dinheiro.\n[…]\nEla projetou um barril de salmora modificado e impermeável, e contratou um agente para tornar o evento público. Ela comprimiu o ar no barril para 30 psi com uma bomba de bicicleta, amarrou-se entre travesseiros e usou uma bigorna para se equilibrar. Ela entrou no barril com seu gato e desceu as cataratas com vários repórteres e turistas assistindo a tudo.\n[…]\nEla foi retirada de seu barril 17 minutos após ter descido as cataratas, com apenas um corte na cabeça. Este fato lhe rendeu a alcunha de \"Heroína das Cataratas do Niágara\".\n[…]\nLista de pessoas que desceram as cataratas do Niágara",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Cratera do Meteoro",
+      "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que engenheiro de minas americano defendeu que a Cratera do Meteoro, no Arizona, foi aberta por um impacto vindo do espaço, e hoje lhe empresta o sobrenome?",
+    "resposta": "Daniel Barringer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meteor_Crater",
+      "https://en.wikipedia.org/wiki/Daniel_Barringer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Meteor_Crater",
+        "situacao": "ok",
+        "texto": "Meteor Crater, or Barringer Crater, is an impact crater about 37 mi (60 km)  east of Flagstaff and 18 mi (29 km) west of Winslow in the desert of northern Arizona,  United States. The site had several earlier names, and fragments of the meteorite are officially called the Canyon Diablo Meteorite, after the adjacent Canyon Diablo.\n[…]\nMeteor Crater came to the attention of scientists after American settlers encountered it in the 19th century. The crater was given several early names, including \"Coon Mountain\", \"Coon Butte\", \"Crater Mountain\", \"Meteor Mountain,\" and \"Meteor Crater.\" Daniel M. Barringer was one of the first people to suggest that the crater was produced by a meteorite impact, with the Barringer family filing mining claims and purchasing it and its surroundings in the early 20th century.\n[…]\nMining engineer and businessman Daniel M. Barringer suspected that the crater had been produced by the impact of a large iron meteorite. The theory that the crater was of meteoric origin had been met with skepticism. At the time, the craters visible on the Moon were thought to be volcanic, and no one had conclusively proved that impact craters existed.\n[…]\nBarringer had amassed a small fortune as an investor in the successful Commonwealth Mine in Pearce, Cochise County, Arizona. Barringer believed that the bulk of the Meteor Crater impactor could still be found under the crater floor. Impact physics was poorly understood at the time, and Barringer was unaware that most of the meteorite had vaporized on impact.\n[…]\nBarringer Medal\n[…]\nBarringer Crater official site\n[…]\nAerial Exploration of the Barringer Structure\n[…]\n3 Dimensional stereoscopic image pair of the Barringer Crater by Volkan Yuksel (arranged for crossed-eye viewing technique)\n[…]\nGuidebook to the Geology of Barringer Meteorite Crater, Arizona (a.k.a. Meteor Crater)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Daniel_Barringer",
+        "situacao": "desambiguacao",
+        "texto": "Daniel Barringer may refer to:\n\nDaniel Laurens Barringer (1788–1852), U.S. Congressman from North Carolina, 1825–1834\nDaniel Moreau Barringer (1806–1873), U.S. Congressman from North Carolina, 1843–1849\nDaniel Barringer (geologist) (1860–1929), American geologist, best known for proving Meteor Crater (Arizona) is an impact crater"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cratera_do_Meteoro",
+        "situacao": "ok",
+        "texto": "A Cratera de Barringer, também conhecida como Cratera do Meteoro, está localizada perto de Winslow, no Arizona, Estados Unidos.\n[…]\nSupõe-se que foi formada há aproximadamente 50 mil anos por um meteorito de aproximadamente 50 metros a 40 mil km/h com a força de uma bomba de hidrogênio, deixando uma cratera de pouco mais de um quilômetro de diâmetro e 200 metros de profundidade.\n[…]\n«Foto da Cratera de Barringer»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Cataratas do Iguaçu",
+      "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1541, que explorador espanhol se tornou o primeiro europeu a ver as Cataratas do Iguaçu?",
+    "resposta": "Cabeza de Vaca",
+    "distratores": [
+      "Francisco de Orellana",
+      "Pedro de Mendoza",
+      "Hernando de Soto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iguazu_Falls",
+      "https://en.wikipedia.org/wiki/%C3%81lvar_N%C3%BA%C3%B1ez_Cabeza_de_Vaca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iguazu_Falls",
+        "situacao": "ok",
+        "texto": "Iguazú Falls or Iguaçu Falls are waterfalls of the Iguazu River on the border of the Argentine province of Misiones and the Brazilian state of Paraná. Together, they make up the largest waterfall system in the world. The falls divide the river into the upper and lower Iguazu. The Iguazu River rises near the heart of the city of Curitiba. For most of its course, the river flows through Brazil; howe\n[…]\nThe name Iguazú comes from the Guarani or Tupi words y [ɨ], meaning 'water', and ûasú [waˈsu], meaning 'big'. Legend has it that a deity planned to marry a beautiful woman named Naipí, who fled with her mortal lover Tarobá in a canoe. In a rage, the deity sliced the river, creating the waterfalls and condemning the lovers to an eternal fall. The first European to record the existence of the falls was the Spanish Conquistador Álvar Núñez Cabeza de Vaca in 1541.\n[…]\nThe falls are protected within Iguazú National Park in Argentina and Iguaçu National Park in Brazil, inscribed on the UNESCO World Heritage List in 1984 and 1986 respectively.\n[…]\nThe falls may be reached from two main towns, with one on either side of the falls: Foz do Iguaçu in Brazil and Puerto Iguazú in Argentina, as well as from Ciudad del Este, Paraguay, on the other side of the Paraná River from Foz do Iguaçu, each of those three cities having commercial airports. The falls are shared by the Iguazú National Park (Argentina) and Iguaçu National Park (Brazil). The two parks were designated UNESCO World Heritage Sites in 1984 and 1986, respectively.\n[…]\nIguazu Falls has been featured in several TV shows and films, including:\n[…]\nCopel Monitoramento Hydrológico (Iguazu River flow rate measurements; leftmost green dot gives flow rate at Hotel Cataratas)\n[…]\nIguazu Falls at UNESCO World Heritage Centre\n[…]\nIguazu Falls facts at BeautifulWorld.com\n[…]\n\"Iguazu Falls\". World Waterfall Database."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/%C3%81lvar_N%C3%BA%C3%B1ez_Cabeza_de_Vaca",
+        "situacao": "ok",
+        "texto": "Álvar Núñez Cabeza de Vaca (Spanish pronunciation: [ˈalβaɾ ˈnuɲeθ kaˈβeθa ðe ˈβaka] ; c. 1488/90/92 –  after 19 May 1559) was a Spanish explorer of the New World, and one of four survivors of the 1527 Narváez expedition. During eight years of travelling across what is today the Southwestern United States, he became a trader, evangelist, and faith healer to various Native American tribes before rec\n[…]\nEn route, he disembarked from his fleet at Santa Catarina Island in modern Brazil. With an indigenous force, plus 250 musketeers and 26 horses, he followed native trails discovered by Aleixo Garcia overland to the district's Spanish capital, Asunción, far inland on the great Paraguay River. Cabeza de Vaca is thought to have been the first European to see the Iguaçu Falls.\n[…]\nCabeza de Vaca reported on the customs and ways of American Indian life, aware of his status as an early European explorer. He spent eight years with various peoples, including the Capoque, Han, Avavare, and Arbadao. He describes details of the culture of the Malhado people, the Capoque, and Han American Indians, such as their treatment of offspring, their wedding rites, and their main sources of food.\n[…]\nLaila Lalami's novel, The Moor's Account (2014), is a fictional memoir of Estevanico, the Moroccan slave who survived the journey and accompanied Cabeza de Vaca through the Southwest. He is considered to be the first black explorer of North America.\n[…]\nHoffman, Paul E. (1994). \"Narvaez and Cabeza de Vaca in Florida\". In Hudson, Charles; Tesser, Carmen Chavez (eds.). The Forgotten Centuries, Indians and Europeans in the American South, 1521-1704. Athens & London: University of Georgia Press. pp. 50–73. ISBN 9780820316543.\n[…]\nAlvar Nuñez Cabeza de Vaca at American Journeys\n[…]\n\"Álvar Núñez Cabeza de Vaca\"[link removed], The West, a documentary by Ken Burns for PBS (Episode 1)\n[…]\nÁlvar Núñez Cabeza de Vaca at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cataratas_do_Igua%C3%A7u",
+        "situacao": "ok",
+        "texto": "Cataratas do Iguaçu (em castelhano: Cataratas del Iguazú) é um conjunto de cerca de 275 quedas de água no rio Iguaçu (na Bacia hidrográfica do rio Paraná), localizada entre o Parque Nacional do Iguaçu, Paraná, no Brasil, e o Parque Nacional Iguazú em Misiones, na Argentina, na fronteira entre os dois países. A área total de ambos os parques nacionais corresponde a 250 mil hectares de floresta subt\n[…]\nHistoricamente, o primeiro europeu a achar as Cataratas do Iguaçu foi o espanhol Álvar Núñez Cabeza de Vaca, no ano de 1541. Atualmente, é o segundo local mais visitado por estrangeiros no Brasil. Em época de chuva, as Cataratas do Iguaçu chegam a ser a 3ª maior do mundo em volume de água. Sua vazão chega a aumentar 10 vezes, chegando a 11,3 mil metros cúbicos por segundo, quando o normal é 1,5 mil.\n[…]\nSeu nome vem das palavras Tupi ou Guarani y ɨ (água) e ûasú waˈsu (grande). Reza a lenda que um deus planejava se casar com uma bela mulher chamada Naipi, que fugiu com seu amante mortal Tarobá em uma canoa. Com raiva, o deus cortou o rio, criando as cachoeiras e condenando os amantes a uma queda eterna. O primeiro europeu a descobrir e descrever as cataratas foi o conquistador espanhol Álvar Núñez Cabeza de Vaca, em 31 de janeiro de 1542, e uma das quedas no lado argentino recebeu seu nome.\n[…]\nO primeiro europeu conhecido a registrar a existência das Cataratas do Iguaçu foi o explorador espanhol Álvar Núñez Cabeza de Vaca, durante uma expedição rumo a Assunção, em 1541 ou 1542.\n[…]\nA primeira descrição conhecida das cataratas por um europeu foi publicada posteriormente na obra La relación y comentarios del gobernador Álvar Núñez Cabeza de Vaca, editada em 1555. Após a passagem de Cabeza de Vaca, a região permaneceu pouco explorada pelos colonizadores durante séculos devido à densa floresta e à distância dos principais centros coloniais.\n[…]\nCataratas do Iguaçu no Google Maps",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Gruta de Maquiné",
+      "descricao": "Caverna calcária no município de Cordisburgo, em Minas Gerais, aberta à visitação turística."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século dezenove, que naturalista europeu, considerado o pai da paleontologia brasileira, explorou cientificamente a Gruta de Maquiné, em Minas Gerais?",
+    "resposta": "Peter Lund",
+    "distratores": [
+      "Fritz Müller",
+      "Emílio Goeldi",
+      "Saint-Hilaire"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gruta_de_Maquin%C3%A9",
+      "https://pt.wikipedia.org/wiki/Peter_Wilhelm_Lund"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gruta_de_Maquin%C3%A9",
+        "situacao": "ok",
+        "texto": "A Gruta de Maquiné localiza-se em Cordisburgo em Minas Gerais, no Brasil.\n[…]\nFigurando como um dos atrativos turísticos do município, a gruta foi descoberta em 1825 pelo fazendeiro Joaquim Maria Maquiné. A partir de 1834 a gruta foi explorada cientificamente por Peter Wilhelm Lund, um naturalista dinamarquês."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Peter_Wilhelm_Lund",
+        "situacao": "ok",
+        "texto": "Peter Wilhelm Lund (Copenhague, 14 de junho de 1801 – Lagoa Santa, 25 de maio de 1880) foi um dos naturalistas dinamarqueses mais notáveis do século XIX, e é considerado o pai da paleontologia e arqueologia no Brasil.\n[…]\nLund era primo do filósofo Søren Kierkegaard e do bispo Peter Kierkegaard.\n[…]\nO resultado dos estudos botânicos promovidos nesta expedição foram publicados em Observações a respeito da vegetação dos campos no interior do Brasil, especialmente fito-históricas, de 1835. Em Curvelo, Minas Gerais, encontrou outro dinamarquês, Peter Claussen, que o apresentou às grutas da região cárstica do vale do Rio das Velhas. Decidiu estabelecer residência em Lagoa Santa e estudou uma enormidade de fósseis encontrados nas centenas de cavernas entre Sabará e Curvelo.\n[…]\nPeter Lund tem vários táxons nomeados em sua homenagem, dentre eles o gênero de roedor semi-aquático Lundomys e a espécie de rato-de-espinho arborícola Phyllomys lundi.\n[…]\nPeter Lund também possui uma rua, situada no bairro da Liberdade, em São Paulo, denomidada \"Rua Doutor Lund\", batizada em sua homenagem.\n[…]\nEm 2012, o príncipe Frederik André Henrik Christian e a princesa Mary Elizabeth da Dinamarca visitaram Belo Horizonte e Lagoa Santa e inauguraram do Museu Peter Lund, próximo à entrada da Gruta da Lapinha, dentro do Parque Estadual do Sumidouro.\n[…]\nEntre seus trabalhos, Lund escreveu a história do Pleistoceno brasileiro. Entre sua vasta obra, pode-se destacar:\n[…]\nLanggaard, Theodoro Johanis Henrique (1883). O naturalista Dr. Lund (Peter Wilhelm): sua vida e seus trabalhos. Rio de Janeiro: H. Laemmert .\n[…]\nlagoasanta.com.br - historia Lund, Raquel Aguiar\n[…]\ng1.globo.com - museu-peter-lund-reune-acervo-de-82-fosseis-cedidos-pela-dinamarca"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Parque Nacional de Yosemite",
+      "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que naturalista nascido na Escócia, fundador do Sierra Club, liderou a campanha que levou à criação do Parque Nacional de Yosemite?",
+    "resposta": "John Muir",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Muir",
+      "https://en.wikipedia.org/wiki/Yosemite_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Muir",
+        "situacao": "ok",
+        "texto": "John Muir ( MURE; April 21, 1838 – December 24, 1914), also known as \"John of the Mountains\" and \"Father of the National Parks\", was a Scottish-born American naturalist, author, environmental philosopher, botanist, zoologist, glaciologist, and early advocate for the preservation of wilderness in the United States.\n[…]\nIn early 1892, Professor Henry Senger, a philologist at the University of California, Berkeley, contacted Muir with the idea of forming a local 'alpine club' for mountain lovers. Senger and San Francisco attorney Warren Olney sent out invitations \"for the purpose of forming a 'Sierra Club'. Mr. John Muir will preside\". On May 28, 1892, the first meeting of the Sierra Club was held to write articles of incorporation.\n[…]\nThe Sierra Club immediately opposed efforts to reduce Yosemite National Park by half, and began holding educational and scientific meetings. At one meeting in the fall of 1895 that included Muir, Joseph LeConte, and William R. Dudley, the Sierra Club discussed the idea of establishing 'national forest reservations', which were later called National Forests. The Sierra Club was active in the successful campaign to transfer Yosemite National Park from state to federal control in 1906.\n[…]\nDuring his lifetime John Muir published over 300 articles and 12 books. He co-founded the Sierra Club, which helped establish a number of national parks after he died. Today the club has over 2.4 million members.\n[…]\nEhrlich, Gretel (2000). John Muir: Nature's Visionary. National Geographic. ISBN 978-0-7922-7954-9.\n[…]\nKing, Dean. Guardians of the Valley: John Muir and the Friendship That Saved Yosemite. New York: Scribner, 2023.\n[…]\nTurner, Frederick. John Muir: From Scotland to the Sierra: A Biography (Canongate Books, 2014)\n[…]\nJohn Muir at Find a Grave\n[…]\nJohn Muir exhibit hosted by the Sierra Club"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yosemite_National_Park",
+        "situacao": "ok",
+        "texto": "Yosemite National Park ( yoh-SEM-ih-tee) is a national park of the United States in California. It is bordered on the southeast by the Sierra National Forest and on the northwest by Stanislaus National Forest. The park is managed by the National Park Service and covers 1,187 mi2 (3,070 km2) in four counties – centered in Tuolumne and Mariposa, extending north and east to Mono and south to Madera.\n[…]\nYosemite was critical to the development of the concept of national parks. Galen Clark and others lobbied to protect Yosemite Valley from development, ultimately leading to President Abraham Lincoln's signing of the Yosemite Grant of 1864 that declared Yosemite as federally preserved land. In 1890, environmentalist John Muir led a successful movement to motivate Congress to establish Yosemite Valley and its surrounding areas as a National Park.\n[…]\nJohn Muir was a Scottish-born American naturalist and explorer. Muir's leadership ensured that many National Parks were left untouched, including Yosemite.\n[…]\nMuir and his Sierra Club continued to lobby the government and influential people for the creation of a unified Yosemite National Park. In May 1903, President Theodore Roosevelt camped with Muir near Glacier Point for three days. On that trip, Muir convinced Roosevelt to take control of Yosemite Valley and Mariposa Grove away from California and return it to the federal government. In 1906, Roosevelt signed a bill that shifted control.\n[…]\nYosemite National Park is located in the central Sierra Nevada. Three wilderness areas are adjacent to Yosemite: the Ansel Adams Wilderness to the southeast, the Hoover Wilderness to the northeast, and the Emigrant Wilderness to the north.\n[…]\nOfficial website of the National Park Service\n[…]\nMuir, John (1911). My first summer in the Sierra. Boston, Mass: Houghton Mifflin. doi:10.5962/bhl.title.19229. \"Audio recording\". LibriVox.org. June 3, 2009."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/John_Muir",
+        "situacao": "ok",
+        "texto": "John Muir (Dunbar, Escócia, 21 de abril de 1838 — Noël, Los Angeles, 24 de dezembro de 1914), foi um preservacionista, proprietário rural, explorador e escritor escocês-americano, teve papel fundamental na criação das primeiras áreas protegidas americanas e que é considerado um dos fundadores do movimento conservacionista moderno.\n[…]\nMuir escreveu cerca de três centenas de artigos e dez livros, em que narrava suas viagens e expunham suas ideias naturais, inspirando seus leitores - desde políticos ao público comum, no amor pela natureza e incitando-os em apoiarem seus objetivos preservacionistas - pois também denunciava a degradação que encontrava, especialmente na revista Century e, graças aos seus esforços, o Congresso dos Estados Unidos declarou Yosemite um Parque Nacional, no ano de 1890 - e ainda lutou para a criação dos parques da Sequoia, Mount Ranier, da Floresta Petrificada e do Grand Canyon.\n[…]\nRobert Underwood Johnson, seu parceiro nas publicações, e outros interessados propuseram que criasse uma instituição para a proteção do Parque Nacional de Yosemite contra o assédio de fazendeiros que tentavam reduzir os seus limites. Em 1892 foi criado o Sierra Club por Muir e seus parceiros, com  o objetivo de \"fazer algo pelas terras selvagens e alegrar às montanhas\" - sendo seu primeiro presidente, cargo que ocupou até sua morte.\n[…]\nNa Califórnia 21 de abril  é o   \"dia de John Muir\",  quando o  naturalista  é homenageado: os professores  das escolas são convidados a falar aos alunos  sobre as contribuições  dele para a  preservação das reservas ecológicas norte-americanas.\n[…]\nThe Yosemite (1912)\n[…]\nThe Life and Letters of John Muir, por William Frederic Badè (1924)\n[…]\nJohn of the Mountains (1938 - cartas reunidas por Linnie Marsh Wolfe)\n[…]\n«Página dedicada a John Muir»\n[…]\n«John Muir National Historic Site»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Stromboli",
+      "descricao": "Ilha vulcânica do arquipélago das Eólias, ao norte da Sicília, com erupções quase contínuas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por suas erupções quase contínuas, que à noite serviam de guia aos navegantes, o vulcão italiano Stromboli ganhou que apelido?",
+    "resposta": "Farol do Mediterrâneo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stromboli"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stromboli",
+        "situacao": "ok",
+        "texto": "Stromboli ( STROM-bə-lee, Italian: [ˈstromboli]; Sicilian: Struògnuli [ˈʂː(ɽ)wɔɲɲʊlɪ]) is an island in the Tyrrhenian Sea, off the north coast of Sicily, containing Mount Stromboli, one of the four active volcanoes in Italy. It is one of the seven Aeolian Islands, a volcanic arc north of Sicily, and the mythological home of Aeolus.\n[…]\nThe island, with an area of 12.6 square kilometres (4.9 sq mi), represents the upper third of the volcano. Its population was about 500 as of 2016. The volcano has erupted many times and is constantly active with minor eruptions, often visible from many points on the island and from the surrounding sea, giving rise to the island's nickname \"Lighthouse of the Mediterranean\".\n[…]\nThe area of Stromboli island is 12.6 square kilometres (4.9 sq mi).\n[…]\nMount Stromboli has been in almost continuous eruption for the past 2,000–5,000 years; its last serious one occurred on 11 September, 1930 when 6 people were killed. In a typical eruption, explosions occur at the summit craters, with mild to moderate eruptions of incandescent volcanic bombs, a type of tephra, at intervals ranging from minutes to hours. This pattern of Strombolian eruption is also observed at other volcanoes worldwide.\n[…]\nOn 4 July 2024, Stromboli erupted together with Mount Etna, and the Italian Civil Protection Department (Protezione Civile) issued the highest alert level.\n[…]\nStromboli (1950), also known as Stromboli, Land of God, is an Italian-American film set on Stromboli, directed by Roberto Rossellini and starring Ingrid Bergman.\n[…]\nAn Italian-American savory pastry is named stromboli after the island.\n[…]\nCzech rock band Stromboli, featuring the singer Bára Basiková and the guitar player Michal Pavlíček, was named after the volcano\n[…]\n2002 Stromboli tsunami\n[…]\nInformation about Stromboli and on its seismic monitoring network (italian)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stromboli",
+        "situacao": "ok",
+        "texto": "Stromboli ou, na sua forma portuguesa, Estrômboli (em grego: Στρογγύλη Strongulē) é uma pequena ilha ao norte da costa da Sicília e nela se localiza um dos três vulcões em atividade da Itália. É uma das sete ilhas do arquipélago das ilhas Eólias, no mar Tirreno. A ilha possui uma área de cerca de 12,6 km².\n[…]\nA situação econômica piorou nos anos trinta, depois de repetidas séries de erupções e de terramotos e, por fim, pela peronospora, fungo que atacou as plantações de videiras da casta malvasia, eliminando seu cultivo mais rentável, o que fez com que os estrombolianos deixassem a ilha emigrando, principalmente, para os Estados Unidos e Austrália, ameaçando, assim, Stromboli de abandono.\n[…]\nA população de Stromboli no inverno é estimada em cem habitantes, mas no verão chega a até quatro mil habitantes.\n[…]\nDe Nápoles, Lípara e Messina a ilha de Stromboli é acessível por conexões regulares de navios.\n[…]\nRoberto Rossellini dirigiu, em 1949, o filme \"Stromboli terra di Dio\" (Stromboli terra de Deus), protagonizado pela atriz Ingrid Bergman, sueca, que levou a todo o público a ilha e a artista, com quem acabou por casar.\n[…]\nO Stromboli é o mais ativo vulcão europeu. Suas erupções ocorrem com um intervalo médio de uma hora.\n[…]\nOs habitantes de Stromboli o chamam de \"Struògnoli\". Quando está mais ativo e lhes provoca medo, contudo, chamam-no também de \"iddu\" (em siciliano \"ele\"), como se reflorescessem a memória da natureza divina que um dia era reconhecida por fenômenos naturais incontroláveis.\n[…]\nA atividade \"ordinária\" do Stromboli consiste em explosões de média energia, que duram de poucos segundos a dez a vinte minutos.\n[…]\nStrombolicchio - pequena agulha vulcânica a 2 km a nordeste de Stromboli",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Anak Krakatau",
+      "descricao": "Ilha vulcânica que emergiu em 1927 na caldeira deixada pela erupção do Krakatoa, no estreito de Sunda, na Indonésia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1927, um novo vulcão surgiu do mar onde antes ficava o Krakatoa. Em indonésio, o que quer dizer anak, a primeira palavra do seu nome?",
+    "resposta": "Filho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anak_Krakatoa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anak_Krakatoa",
+        "situacao": "ok",
+        "texto": "Anak Krakatoa, or Anak Krakatau (Indonesian for 'child of Krakatoa'), is a volcanic island and an active volcano in Indonesia. On 29 December 1927, Anak Krakatoa first emerged from the caldera formed by the explosive volcanic 1883 eruption of Krakatoa that destroyed the island of Krakatoa (Krakatau). Sporadic eruptive activity has occurred at the site since the late 20th century.\n[…]\nAnak Krakatoa is located in the Sunda Strait—between the islands of Java and Sumatra—in the Indonesian province of Lampung. The volcano is contained within the Ujung Kulon National Park, and is part of the Pacific Ring of Fire. The island is surrounded by three other nearby islands: Sertung Island (Verlaten Island) to the west, Krakatau Kecil Island (Lang Island, Panjang Island, or Rakata Kecil) to the east, and Rakata Island to the south; they are all in what is now the Krakatoa archipelago.\n[…]\nThe volcano's most recent eruptive episode began in 1994. Quiet periods lasting a few days have alternated with almost continuous Strombolian eruptions since then. Hot gases, rocks, and lava were released in an eruption in April 2008. Scientists monitoring the volcano warned people to stay out of a 3 km (1.9 mi) zone around the island. On 6 May 2009, the Volcanological Survey of Indonesia raised the eruption alert status of Anak Krakatoa to Level III (Siaga; 'alert').\n[…]\nAnak Krakatoa began erupting again on the morning of 10 April 2020. The first eruption could be heard in the Indonesian capital of Jakarta, over 150 kilometres (93 mi) away; it was spewing out a 200 metres (660 ft) high column of ash and smoke according to the Center for Volcanology and Geological Disaster Mitigation's (PVMBG) magma volcanic activity report. The report also said that the first eruption lasted one minute and 12 seconds, starting at 9:58 p.m.\n[…]\nMedia related to Anak Krakatoa at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Anak_Krakatoa",
+        "situacao": "ok",
+        "texto": "Anak Krakatoa, ou Anak Krakatau (em português:  \"Filho de Krakatoa\") é uma ilha em uma caldeira no estreito de Sunda entre as ilhas de Java e Sumatra na província indonésia de Lampungue. Em 29 de dezembro de 1927, Anak Krakatoa emergiu da caldeira formada em 1883 pela explosiva erupção vulcânica que destruiu a ilha de Krakatoa.\n[…]\nCientistas que monitoram o vulcão alertaram as pessoas para ficarem fora de um 3 km (1,9 mi) zona ao redor da ilha. Em 6 de maio de 2009, o Levantamento Vulcanológico da Indonésia elevou o status de alerta de erupção do Anak Krakatoa para o Nível III. Uma expedição ao vulcão revelou que 100 m (330 ft) ampla cúpula de lava estava crescendo em sua cratera.\n[…]\nEm janeiro de 2012, vulcanologistas da Universidade de Oregon alertaram que um tsunami causado pelo colapso do flanco do Anak Krakatoa era provável, pois se formou em uma encosta íngreme na borda da grande caldeira formada em 1883. Uma nova fase eruptiva foi observada a partir de junho de 2018 e, em 15 de outubro de 2018, Anak Krakatau teve uma forte erupção estromboliana a vulcaniana fraca que enviou bombas de lava para a água, com uma quase atingindo um barco próximo.\n[…]\nEm maio de 2019, a atividade freatomagmática foi observada em torno da cratera recém-reconstruída, à medida que o vulcão continuou a aumentar de altura e remodelar as áreas destruídas em 2018.\n[…]\nDe acordo com a Agência Geológica da Indonésia, Anak Krakatoa entrou em erupção em 4 de fevereiro de 2022 e 5 de fevereiro de 2022. Em março 28 de março de 2023, o vulcão entrou em erupção expelindo cinzas com mais de 2 500 metros de altura.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Doze Apóstolos",
+      "descricao": "Conjunto de torres de calcário no mar, junto à Great Ocean Road, no estado de Victoria, na Austrália."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Antes de ganharem o nome de Doze Apóstolos, as torres de calcário do litoral sul da Austrália eram conhecidas por qual nome?",
+    "resposta": "Porca e Leitões",
+    "distratores": [
+      "Sete Irmãs",
+      "Dedos do Diabo",
+      "Velhas Senhoras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)",
+        "situacao": "ok",
+        "texto": "The Twelve Apostles are a collection of limestone stacks off the shore of Port Campbell National Park, by the Great Ocean Road in Victoria, Australia.\n[…]\nThe stacks were originally known as the Pinnacles; the Sow and Pigs (or Sow and Piglets, with Muttonbird Island being the Sow and the smaller rock stacks being the Piglets); and the Twelve Apostles. The formation's name was made official as the Twelve Apostles, after the Apostles of Jesus, to attract more tourists, despite only ever having had nine stacks.\n[…]\nThe limestone unit that forms The Twelve Apostles is referred to as the Port Campbell Limestone, which was deposited in the Mid-Late Miocene, around 15 to 5 million years ago.\n[…]\nThe Twelve Apostles were formed by erosion. The harsh and extreme weather conditions from the Southern Ocean gradually eroded the soft limestone to form caves in the cliffs, which then became arches that eventually collapsed, leaving rock stacks up to 50 m (160 ft) high. The stacks are susceptible to further erosion from waves.\n[…]\nIn 2002, the Port Campbell Professional Fishermen's Association attempted to block the creation of the Twelve Apostles Marine National Park at the Twelve Apostles site. The association approved of a later decision by the Victorian government to prohibit seismic exploration at the site by Benaris Energy, believing such exploration would harm marine life.\n[…]\nIn March 2023, the Federal Court of Australia ruled in favour (under the Native Title Act of 1993) of formally recognising the Eastern Maar people as traditional owners of 8,578 km2 of land located in south-west Victoria, including the Twelve Apostles."
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Deserto do Atacama",
+      "descricao": "Deserto costeiro no norte do Chile, entre o Oceano Pacífico e os Andes, um dos lugares mais secos do planeta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em anos de chuva incomum, o Atacama, no Chile, se cobre de flores coloridas. Que nome os chilenos dão a esse fenômeno?",
+    "resposta": "Deserto florido",
+    "fonte": [
+      "https://es.wikipedia.org/wiki/Desierto_florido",
+      "https://en.wikipedia.org/wiki/Atacama_Desert"
+    ],
+    "trechos": [
+      {
+        "url": "https://es.wikipedia.org/wiki/Desierto_florido",
+        "situacao": "ok",
+        "texto": "El desierto florido es un fenómeno que se produce en el desierto de Atacama (Chile), el más árido del planeta,​​​​​​ y consiste en la aparición de una gran diversidad de flores en aquellos años en que las precipitaciones son inusuales y superan el rango normal para el desierto. Es similar al fenómeno de Lomas costeras, el cual se da a lo largo de la costa desértica de Chile y Perú.\n[…]\nEntre septiembre y octubre de 1887, durante la exploración llamada «Viaje a la Costa de Atacama» de Federico Philippi, comisionada por el gobierno para estudiar la flora de la provincia de Atacama, se realizó un levantamiento en pleno fenómeno del desierto florido.​\n[…]\nPosteriormente, el botánico alemán Karl Friedrich Reiche realizó una serie de publicaciones sobre ejemplares de plantas de Atacama que se reflejó en su trabajo Estudios críticos de la Flora de Chile.​ Después de varios años siguiendo el fenómeno de floración, el botánico chileno Carlos Muñoz Pizarro publicó El desierto florido (1965).​\n[…]\nLa primera medida de este tipo de protección del desierto florido tuvo lugar cuando el Gobierno Regional de la Región de Atacama estableció, mediante un acto administrativo, la «Comisión del Desierto Florido» a través de la resolución exenta 634 del 29 de agosto de 1997, que estableció medidas de protección para este fenómeno a través de la nominación de «zona de protección» y «zona de interés turístico».\n[…]\nEl Parque Nacional Desierto Florido es una reserva natural situada en el norte de Chile, destinada a proteger más de 200 especies de flores y plantas. Fue anunciado en octubre de 2022 por el presidente Gabriel Boric y oficialmente creado en julio de 2023.​ Este parque, que abarca un área de 57.107 hectáreas, surge como la respuesta a la necesidad de conservar el área territorial donde ocurre el fenómeno del desierto florido.​\n[…]\nDesierto florido – Fotos del desierto florido"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atacama_Desert",
+        "situacao": "ok",
+        "texto": "The Atacama Desert (Spanish: Desierto de Atacama [ataˈkama]) is a desert plateau on the Pacific coast of South America, stretching along a 1,600-kilometre-long (1,000-mile) strip of land in northern Chile, west of the Andes. It covers an area of 105,000 km2 (41,000 mi2), rising to 128,000 km2 (49,000 mi2) if the barren lower slopes of the Andes are included.\n[…]\nThe Atacama Desert flowering (Spanish: desierto florido) can be seen from September to November in years with sufficient precipitation, as happened in 2015.\n[…]\nThe desert has rich deposits of copper and other minerals and the world's largest natural supply of sodium nitrate, which was mined on a large scale until the early 1940s. The Atacama border dispute over these resources between Chile and Bolivia began in the 19th century and resulted in the War of the Pacific.\n[…]\nThe Atacama Desert is popular with all-terrain sports enthusiasts. Various championships have taken place here, including the Lower Atacama Rally, Lower Chile Rally, Patagonia-Atacama Rally, and the latter Dakar Rally's editions. The rally was organized by the Amaury Sport Organisation and held in 2009, 2010, 2011, and 2012. The dunes of the desert are ideal rally races located in the outskirts of the city of Copiapó.\n[…]\nThe 2013 Dakar 15-Day Rally started on 5 January in Lima, Peru, through Chile, Argentina and back to Chile finishing in Santiago. Visitors also use the Atacama Desert sand dunes for sandboarding (Spanish: duna).\n[…]\nMost people who go to tour the sites in the desert stay in the town of San Pedro de Atacama. The Atacama Desert is in the top three tourist locations in Chile. The specially commissioned ESO hotel is reserved for astronomers and scientists.\n[…]\n\"Mars-like Soils in the Atacama Desert, Chile, and the Dry Limit of Microbial Life\", NASA press release\n[…]\n\"Roving robot finds desert life\", article in Nature"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deserto_de_Atacama",
+        "situacao": "ok",
+        "texto": "Deserto de Atacama está localizado na região norte do Chile até a fronteira com o Peru. Com cerca de 1 000 km de extensão, é considerado o deserto mais alto do mundo. É o deserto não polar mais seco do mundo, pois chove raramente na região, em consequência de as correntes marítimas do Oceano Pacífico não conseguirem passar para o deserto, por causa de sua altitude.\n[…]\nA região foi primeiramente habitada pelos atacamenhos, povo da região juntamente com a civilização dos nativos aymaras, ambos deixaram um legado inestimável em termos arqueológicos, daí o seu nome deserto de Atacama.\n[…]\nÉ formada basicamente por árvores de pequeno porte, como a Pimienta e o Algarrobo, arbustos como o Chanhar e plantas como a Anhanhuca e a Brea que crescem na sua maioria ao longo dos vales e na região da precordilheira e cactos que crescem principalmente nas serras próximas à costa mais ao sul. Deve-se ressaltar as plantas que crescem, eventualmente apenas, na região em que ocorre o fenômeno do Inverno Florido entre as cidades de Copiapó e Vallenar.\n[…]\nO deserto de Atacama em geral apresenta um terreno rochoso muito seco e pouco propicio a brotar algumas plantas. Em alguns lugares próximos à região de Antofagasta existem grandes áreas de deserto absoluto, onde o solo é completamente desprovido de vegetação.\n[…]\nO deserto do Atacama é muito visado por turistas, para prática do trekking, montanhismo, montaria, off-road, mountain bike, e arqueólogos, devido ao fato da região possuir interessantes artefatos arqueológicos e históricos, além de salinas, gêiseres, vulcões, lagoas coloridas, vales verdejantes e cânions de água cristalina. Também há múmias com mais de 1 000 anos deixadas pelos Chinchorros (antigos habitantes da área).\n[…]\nJorge Durán filmou Romance Policial no Deserto do Atacama.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Tepui",
+      "descricao": "Tipo de montanha de topo plano e paredes verticais do Planalto das Guianas, como o Monte Roraima e o Auyantepui."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua do povo pemon, da Venezuela, o que significa tepui, nome dos planaltos de paredes verticais como o Monte Roraima?",
+    "resposta": "Casa dos deuses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tepui"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tepui",
+        "situacao": "ok",
+        "texto": "A tepui (), or tepuy (Spanish: [teˈpuj]), is a member of a family of table-top mountains or mesas found in northern South America, especially in Venezuela, western Guyana, and northern Brazil. The word tepui means \"house of the gods\" in the native tongue of the Pemon, the indigenous people who inhabit the Gran Sabana.\n[…]\nthe Eastern Pantepui District is located east of the Caroni River in eastern Venezuela, western Guyana, and Roraima state of northern Brazil. It includes Mount Roraima, Auyan-tepui, and the Pacaraima Mountains. They are drained by the Caroni River, the Mazaruni and Essequibo rivers of Guyana, and the Rio Branco of Brazil.\n[…]\nSome tepui sinkholes contain species that have evolved in these \"islands within islands\" that are unique to that sinkhole. The tepuis are considered a distinct biogeographic region known as Pantepui.\n[…]\nMany tepuis are in the Canaima National Park in Venezuela, which has been classified as a World Heritage Site by UNESCO.\n[…]\nMount Roraima, also known as Roraima Tepui. A report by South American researcher Robert Schomburgk inspired the Scottish author Arthur Conan Doyle to write his novel The Lost World about the discovery of a living prehistoric world full of dinosaurs and other primordial creatures. The borders of Venezuela, Brazil, and Guyana meet on the top.\n[…]\nMatawi Tepui, also known as Kukenán, because it is the source of the Kukenán River, is considered the \"place of the dead\" by the local Pemon peoples. It is located next to Mount Roraima in Venezuela.\n[…]\nIlú-Tramen Massif is the most northerly mountain in the chain that stretches along the Venezuelan-Guyana border from Roraima in the south.\n[…]\nThe Making of the Tepuis Film : \"The Living Edens : The Lost World\" Archived 2008-06-25 at the Wayback Machine\n[…]\nMongabay.com – pictures from Tepuis in Venezuela."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tepui",
+        "situacao": "ok",
+        "texto": "O tepui é um tipo de meseta especialmente abrupta, com paredes verticais e cimo geralmente plano, composta de quartzito e arenito, com leitos de ardósia, datados do período Proterozóico. Essas rochas são características do chamado Escudo das Guianas, principalmente na zona da Gran Sabana venezuelana.\n[…]\nO nome \"tepui\" provém de uma palavra que significa montanha ou, segundo outras fontes, morada dos deuses, no idioma indígena pemon.\n[…]\nIsolados por muitos quilômetros de florestas, os tepuis apresentam uma vegetação que já havia sido investigada e publicada na Flora da Guiana Venezuelana — estudo que mapeou porção significativa da vida botânica daquele país, mas poucas vezes tinha sido registrada no Brasil.\n[…]\nEntre 2011 e 2014 foi realizada uma expedição científica para os tepuis brasileiros mais conhecidos em altitudes: Serra do Aracá, Serra da Neblina, Monte Caburaí e Serra da Mocidade.\n[…]\nAlém disso, é o único tepui do Escudo das Guianas totalmente localizado em território brasileiro e possui uma área que corresponde a 2.474.000 campos de futebol. A Serra do Aracá, como outros tepuis, abriga representantes de linhagens ancestrais de plantas vasculares da América do Sul, mostrando a importância dos tepuis como berços de linhagens.\n[…]\nSerra do Caburaí: A Serra do Caburaí está localizada no Parque Nacional Monte Roraima, em Uiramutã, o município mais setentrional do país, que forma tríplice fronteira entre Brasil, Venezuela e República Cooperativista da Guiana. O Monte Caburaí, com 1.456 metros de altitude possui vários gêneros de plantas típicos da flora dos tepuis, raros no resto da Amazônia, como Drosera, Bonnetia, Comanthera, Syngonanthus, Eriocaulon, Diacidia.\n[…]\n«Mongabay.com Fotos de tepuis venezuelanos» (em espanhol)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Monte Pascoal",
+      "descricao": "Monte no sul da Bahia, primeira terra avistada pela frota de Pedro Álvares Cabral em 1500."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em abril de 1500, a frota de Cabral avistou um monte no litoral baiano e o batizou com o nome de qual festa cristã?",
+    "resposta": "Páscoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Pascoal"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Pascoal",
+        "situacao": "ok",
+        "texto": "O Monte Pascoal é uma elevação de 586 metros situada no extremo sul da Bahia, reconhecida pela historiografia como um dos principais marcos associados à chegada da armada de Pedro Álvares Cabral ao litoral brasileiro em 22 de abril de 1500, segundo o calendário juliano.\n[…]\nDe acordo com a carta de Pero Vaz de Caminha, Pedro Álvares Cabral, o capitão da esquadra, nomeou a montanha avistada como \"Monte Pascoal\" como consequência da proximidade da data do avistamento a data da Páscoa daquele ano.\n[…]\nMuito antes da chegada europeia, a região do Monte Pascoal era habitada por grupos indígenas de tronco tupi e, posteriormente, pelos pataxó, que mantêm até hoje vínculos espirituais, territoriais e culturais com o local.\n[…]\nNa carta de Caminha, descreve-se uma elevação “mui alta e redonda”, usualmente interpretada como o Monte Pascoal.\n[…]\nEsse debate não invalida o peso simbólico do Monte Pascoal na formação de narrativas sobre o descobrimento, mas insere o episódio em contexto mais amplo das navegações atlânticas.\n[…]\nO Monte Pascoal destaca-se como elevação isolada no litoral sul baiano, com ampla visibilidade a partir do mar e recobrimento de floresta ombrófila densa. A formação situa-se a cerca de 62 km de Porto Seguro, compondo a transição entre ambientes costeiros, tabuleiros arenosos, restingas e remanescentes da Mata Atlântica.\n[…]\nNa cartografia e iconografia colonial, o Monte Pascoal aparece com frequência como símbolo do início da presença portuguesa no território brasileiro.\n[…]\nO Parque Nacional e Histórico do Monte Pascoal foi criado pelo Decreto nº 242, de 29 de novembro de 1961, abrangendo cerca de 22 500 hectares.\n[…]\nParque Nacional e Histórico do Monte Pascoal\n[…]\nMatéria da WWF sobre o Parque Nacional do Monte Pascoal"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Serra da Mantiqueira",
+      "descricao": "Cadeia montanhosa do Sudeste do Brasil, entre São Paulo, Minas Gerais e Rio de Janeiro."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em tupi, o nome da Serra da Mantiqueira, rica em nascentes, costuma ser traduzido como serra que faz o quê?",
+    "resposta": "Que chora",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serra_da_Mantiqueira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Serra_da_Mantiqueira",
+        "situacao": "ok",
+        "texto": "Serra da Mantiqueira é uma cadeia montanhosa que se estende por três estados do Brasil: São Paulo, Minas Gerais e Rio de Janeiro.\n[…]\n\"Mantiqueira\" é um termo de origem tupi que significa \"gota de chuva\", através da junção dos termos amana (chuva) e tykyra (gota).\n[…]\nNa serra da Mantiqueira foi encontrado ouro, durante o período colonial na região onde hoje se encontra a cidade de Conceição dos Ouros.\n[…]\nA região da serra da Mantiqueira tem altitudes médias de 1200 a 2800 metros. A serra é popular pela prática de alpinismo, por ter picos elevados, e pelo rally. Durante o inverno, por ser uma estação seca, aumenta a procura desse esporte na serra.\n[…]\nDevido à altitude, o inverno na serra da Mantiqueira tem temperaturas baixas, com a ocorrência da névoa no começo da manhã e geada frequentes, dando à paisagem a aparência das regiões de clima frio. É comum os termômetros registrarem temperaturas que chegam perto de 0 °C ou menos, sendo que a menor temperatura registrada numa cidade da serra foi de -8,4 °C em Maria da Fé no estado de Minas Gerais, em 21 de julho de 1981. Ocorrem geadas nas cidades da região.\n[…]\nA serra da Mantiqueira integra o ecossistema da mata Atlântica e mata de Araucárias, apresentando manchas remanescentes dessas matas bem como campos de altitude em seus picos mais elevados. Aliado a isso, uma vasta fauna nativa ainda pode ser encontrada nela, da qual podemos citar: veado campeiro, lobo-guará, onça parda, cachorro-vinagre, jaguatirica, paca, bugio, macaco-sauá, macaco-prego, tucano, esquilo, ouriço-caixeiro,onça-pintada e também nela se formou a raça canina pastor-da-mantiqueira.\n[…]\nCircuito Mantiqueira"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "K2",
+      "descricao": "Segunda montanha mais alta do mundo, na cordilheira do Caracórum, na fronteira entre Paquistão e China."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O K2, segunda montanha mais alta do mundo, ganhou esse nome num levantamento britânico. A letra K vem do nome de qual cordilheira?",
+    "resposta": "Caracórum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/K2"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/K2",
+        "situacao": "ok",
+        "texto": "K2, also known as Mount Godwin-Austen, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft). It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in the China-administered Trans-Karakoram Tract in the Taxkorgan Tajik Autonomous County of Xinjiang.\n[…]\nK2 is only fleetingly glimpsed from the end of the Baltoro Glacier, beyond which few local people would have ventured. The name Chogori, derived from two Balti words, chhogo ཆོ་གྷའོ་ (\"big\") and ri རི (\"mountain\") (چھوغوری) has been suggested as a local name, but evidence for its widespread use is scant.\n[…]\nWith the mountain lacking a local name, the name Mount Godwin-Austen was suggested in honour of Henry Godwin-Austen, an early explorer of the area. While the name was rejected by the Royal Geographical Society, it was used on several maps and continues to be used occasionally.\n[…]\nThe standard route of ascent, used by 75% of all climbers, is the Abruzzi Spur, located on the Pakistani side, first attempted by Prince Luigi Amedeo, Duke of the Abruzzi in 1909. This is the peak's southeast ridge, rising above the Godwin-Austen Glacier. The spur proper begins at an altitude of 5,400 metres (17,700 ft), where Advanced Base Camp is usually placed."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/K2",
+        "situacao": "ok",
+        "texto": "O K2 (também conhecida como monte Godwin-Austen, Chogori, Dapsang ou Qogir Feng) é a segunda montanha mais alta do mundo, depois do Monte Everest, a 8614 metros de altitude. Tem proeminência de 4020 metros, e isolamento topográfico de 1315,59 km. Está localizado na fronteira China-Paquistão entre Baltistão, na região de Guilguite-Baltistão do norte do Paquistão, e o Condado Autônomo Tashkurgan em \n[…]\nO K2 é o ponto mais alto da cordilheira de Caracórum, o ponto mais alto no Paquistão e Sinquião, e a montanha mais alta fora dos Himalaias.\n[…]\nA ascensão do K2 é considerada pela maior parte dos alpinistas como sendo mais difícil que a do monte Everest. Até setembro de 2013, 344 pessoas tinham conseguido atingir o topo, enquanto aproximadamente 4000 já haviam escalado o Everest.\n[…]\nFoi explorado pela primeira vez em 1856 por um europeu, Thomas George Montgomerie, na expedição liderada por Henry Haversham Godwin-Austen, que o nomeou como K2 (Karakoram 2).\n[…]\nMas os dois montanhistas deslocaram, contrariamente do que foi concordado, a barraca para um lugar um pouco mais alto, impedindo assim que Bonatti e Madhi pudessem aproveitar do abrigo e talvez juntar -se a Achille e Lino na tentativa de atingir o topo.\n[…]\nApesar de o Everest ser mais alto, K2 é muito mais letal. A taxa de fatalidade - percentual de mortos para cada pessoa que atinge o cume - do K2 é superior a do Everest. Até 2009, o K2 registrava uma taxa de 25,75% (299 pessoas que chegaram ao cume contra 77 mortes) enquanto que a taxa do Everest era de 7% (2972 chegadas e 208 mortes). Em outras palavras, de cada quatro pessoas que chegaram ao topo do K2 uma morreu.\n[…]\nJoão Garcia participou do projeto À conquista dos Picos do Mundo, onde escalou, sem recurso a oxigênio, entre 2006 e 2010, oito das catorze montanhas com mais de oito mil metros de altitude, totalizando assim em 2010 os catorze cumes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Monte Kilimanjaro",
+      "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que escritor americano, vencedor do Nobel de Literatura, publicou em 1936 o conto As Neves do Kilimanjaro?",
+    "resposta": "Ernest Hemingway",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Snows_of_Kilimanjaro_(short_story)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Snows_of_Kilimanjaro_(short_story)",
+        "situacao": "ok",
+        "texto": "\"The Snows of Kilimanjaro\" is a short story by American author Ernest Hemingway first published in August 1936, in Esquire magazine. It was republished in The Fifth Column and the First Forty-Nine Stories in 1938, The Snows of Kilimanjaro and Other Stories in 1961, and is included in The Complete Short Stories of Ernest Hemingway: The Finca Vigía Edition (1987).\n[…]\nThe story opens with a paragraph about Mount Kilimanjaro, the highest mountain in Africa, whose Western summit is called in Masai the \"House of God.\" There, we are told, lies the frozen carcass of a leopard near the summit. No one knows why it is there at such an altitude.\n[…]\nHarry then begins to ruminate on his life experiences, which have been many and varied, and on the fact that he feels he has never reached his potential as a writer because he has chosen to make his living by marrying wealthy women. In italicized portions of the text that are scattered throughout the story, Hemingway narrates some of Harry's experiences in a stream-of-consciousness style.\n[…]\nHe is lifted onto the plane (which has space only for him and the pilot) and watches the landscape go by beneath him. Suddenly, he sees the snow-covered top of Mt. Kilimanjaro, and knows that is where he is bound. Helen wakes up in the middle of the night to a strange hyena cry, and finds Harry unresponsive on his cot. It is not specified whether or not Harry is already dead.\n[…]\n\"The Snows of Kilimanjaro\" at the Internet Archive"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Monte Kilimanjaro",
+      "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O Kilimanjaro, ponto mais alto da África, é formado por quantos cones vulcânicos?",
+    "resposta": "Três",
+    "distratores": [
+      "Dois",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Kilimanjaro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+        "situacao": "ok",
+        "texto": "Mount Kilimanjaro () is a large dormant stratovolcano in Tanzania. It is the highest mountain in Africa and the highest free-standing mountain above sea level in the world, at 5,895 m (19,341 ft) above sea level and 4,900 m (16,100 ft) above its plateau base. It is also the highest volcano in the Eastern Hemisphere and the fourth most prominent peak on Earth.\n[…]\nIn respect of it being 'the highest stratovolcano of the East African Rift that maintains a glacier on its summit', the International Union of Geological Sciences (IUGS) included 'The Pleistocene Kilimanjaro volcano' in its assemblage of 100 'geological heritage sites' around the world in a listing published in October 2022.\n[…]\nThe mountain may have been known to non-Africans since antiquity. Sailors' reports recorded by Ptolemy mention a \"moon mountain\" and a spring lake of the Nile, which may indicate Kilimanjaro, although available historical information does not allow differentiation among others in East Africa like Mount Kenya, the mountains of Ethiopia, the Virunga Mountains, the Rwenzori Mountains, and Kilimanjaro.\n[…]\nSeveral climbs by disabled people have drawn attention. Wheelchair user Bernard Goosen from South Africa scaled Kilimanjaro in 6 days in 2007. In 2012, Kyle Maynard who has no forearms or lower legs, crawled unassisted to the summit of Mount Kilimanjaro. In 2020, a team featuring two double above-knee amputees, Hari Budha Magar and Justin Oliver Davis, summited Kilimanjaro. It took them 6 days to cover the 56 km (35 mi) distance to the summit.\n[…]\nKilimanjaro was featured in Toto's 1982 song \"Africa\". An IMAX film documenting an ascent—Kilimanjaro: To The Roof Of Africa—was released in 2002. Kilimanjaro is also prominently featured in the Lion King franchise.\n[…]\nMount Kilimanjaro live webcam\n[…]\nKilimanjaro flora picture gallery\n[…]\nAerial photographs of Mount Kilimanjaro, 1937–38"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quilimanjaro",
+        "situacao": "ok",
+        "texto": "O Quilimanjaro ou Kilimanjaro (Oldoinyo Oibor, que significa montanha branca em massai, ou Kilima Njaro, montanha brilhante em suaíli) é um monte localizado no norte da Tanzânia, junto à fronteira com o Quénia. O Quilimanjaro é o ponto mais alto da África, com uma altura de 5 895 m no Pico Uhuru. É a montanha mais alta da África e a montanha independente mais alta do mundo acima do nível do mar (5\n[…]\nÉ composta por três vulcões: o Shira a oeste, culminando a 3962 metros de altitude, o Mawenzi a leste, elevando-se a 5149 metros de altitude, e o Kibo, o mais recente geologicamente, situado entre os outros dois e cujo pico Uhuru, a 5891.8 metros de altitude, constitui o ponto culminante de África.\n[…]\nO vulcanismo do Kilimanjaro inicia-se no decurso do Plioceno; a construção do seu edifício ter-se-ia desenrolado em quatro grandes fases, durante as quais foram emitidos 5000 km³ de rochas vulcânicas. As três últimas formaram os estratovulcões imbricados que constituem o Shira, o Kibo e o Mawenzi. O rift orientado oeste-noroeste—este-sudeste que os atravessa deu igualmente origem a numerosos cones satélites, repartidos em aproximadamente oito zonas.\n[…]\nApenas as três últimas glaciações são visíveis no Mawenzi e apenas a terceira no Shira, embora existam indícios de glaciações mais antigas.\n[…]\nO kichagga está, na realidade, dividido em três línguas: o chaga ocidental, o chaga central e o chaga oriental ou rombo, que compreendem, elas próprias, vários dialetos. São mais ou menos homogéneos entre si, a tal ponto que falantes de dois dialetos diferentes do chaga ocidental terão dificuldades em comunicar e enfrentarão uma incompreensão quase total perante falantes do chaga oriental.\n[…]\nCitação: Dentro de uma década, não haverá mais neves no Kilimanjaro.\n[…]\nCameron M. Burns (2006). Kilimanjaro & East Africa: a climbing and trekking guide (em inglês). [S.l.]: The Mountaineers Books. ISBN 0898866049",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Morros cársticos de Guilin",
+      "descricao": "Paisagem de morros isolados de calcário às margens do rio Li, na região de Guilin, no sul da China."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A paisagem de morros de calcário à beira do rio Li, em Guilin, aparece no verso de qual cédula chinesa?",
+    "resposta": "Vinte yuans",
+    "distratores": [
+      "Cinco yuans",
+      "Dez yuans",
+      "Cem yuans"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Li_River",
+      "https://en.wikipedia.org/wiki/Fifth_series_of_the_renminbi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Li_River",
+        "situacao": "ok",
+        "texto": "The Li River or Li Jiang (simplified Chinese: 漓江; traditional Chinese: 灕江; pinyin: Lí Jiāng) is the name for the upper reaches of the Gui River in northeastern Guangxi, China. It is part of the Xijiang River system in the Pearl River basin, flowing 164 kilometres (102 mi) from Xing'an County to Pingle County.\n[…]\nThe Li River originates in the Mao'er Mountains in Xing'an County and flows in the general southern direction through Guilin, Yangshuo and Pingle. In Pingle, the Li merges with the Lipu and Gongcheng, becoming the Gui, and in turn falls into the Xijiang, the western tributary of the Pearl River.\n[…]\nThe Li and its tributaries drain the area from Guilin to Yangshuo, descending from 141-metre (463 ft) at Guilin to 103-metre (338 ft) at Yangshuo. Mean flow past Guilin is 215 cubic meters per second, and alluvium sediments consisting of well-sorted gravels covered by silty sand, forming floodplains and terraces along its route. Yet, it is the 2,600-metre (8,500 ft) of Devonian and Carboniferous limestones and karst terrain within the Guilin basin, that gives the area a dramatic landscape.\n[…]\nFenglin dominates the area around Yangshuo and south of Guilin and is defined as isolated limestone hills separated by a flat limestone surface generally covered by loose sediments, and sometimes described as a peak forest plain. The best-known fenglin is the tower karst around Yangshuo. These towers consist of strong and massive limestone forming near vertical sides with base diameters less than 1.5 times their height.\n[…]\nFamous show caves in the Guilin area include the Qixing Dong and the Luti Dong.\n[…]\nSeven-Star Park: the largest park in Guilin.\n[…]\nElephant-Trunk Hill: a hill that looks like a giant elephant drinking water with its trunk. It is a symbol of the city of Guilin."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fifth_series_of_the_renminbi",
+        "situacao": "ok",
+        "texto": "The fifth series of the renminbi is the current coin and banknote series of the Chinese currency, the renminbi. They were progressively introduced since 1999 and consist of ¥0.1, ¥0.5, and ¥1 coins, and ¥1, ¥5, ¥10, ¥20, ¥50, ¥100 notes. The ¥20 banknote is a new denomination, and was added in this series. All banknotes in this series feature a portrait of Chinese Communist Party chairman Mao Zedo\n[…]\nTherefore, this series of banknotes is also known as \"Grandpa Mao\" (Chinese: 毛爷爷) among the people.\n[…]\nThe portrayals of different leaders on the ¥100 banknote, and of different nationalities of China, represented by two people in ethnic dress on the front of previous banknotes, have also been uniformly replaced with the image of Chinese Communist Party chairman Mao Zedong.\n[…]\nThe currency number at the bottom of the reverse is added with “YUAN” indicating the pinyin of the unit (圓) in the Chinese language.\n[…]\nChinese pinyin: Zhonghua Renmin Yinhang\n[…]\nThe new design is similar to the banknotes of the 1999 and 2005 edition, with some changes made to the printing patterns of both bills and coins. Officials at the People's Bank of China also told the press that the latest issuance does not include a new 5-yuan note, which is being tested for new printing technologies in a bid to reduce counterfeiting of the Chinese currency."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Li",
+        "situacao": "ok",
+        "texto": "O Rio Li (em chinês: 漓江 ; pinyin : lí jiāng) é um rio da República Popular da China, na região autónoma de Quancim. É afluente do rio Xi, que por sua vez é afluente do rio das Pérolas. é um rio muito visitado por turistas, dadas as características e espetaculares paisagens das suas margens.\n[…]\nO rio Li atravessa as cidades de Guilin e Yangshuo antes de encontrar o rio Xi em Wuzhou.\n[…]\nO rio atravessa, a sul de Guilin, florestas de karst. A paisagem inspirou o desenho da nota chinesa de 20 yuans.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Monte Ngauruhoe",
+      "descricao": "Cone vulcânico ativo no Parque Nacional de Tongariro, na Ilha Norte da Nova Zelândia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Nos filmes de O Senhor dos Anéis, de Peter Jackson, o vulcão neozelandês Ngauruhoe fez as vezes de qual montanha?",
+    "resposta": "Montanha da Perdição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Ngauruhoe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Ngauruhoe",
+        "situacao": "ok",
+        "texto": "Mount Ngauruhoe (Māori: Ngāuruhoe) is a volcanic cone in New Zealand. It is the youngest vent in the Tongariro stratovolcano  complex on the Central Plateau of the North Island and first erupted about 2,500 years ago. Although often regarded as a separate mountain, geologically, it is a secondary cone of Mount Tongariro.\n[…]\nNgauruhoe was New Zealand's most active volcano in the 20th century with 45 eruptions, the most recent in 1977. Fumaroles exist inside the inner crater and on the rim of the eastern, outer crater. Climbers who suffer from asthma may be affected by the strong sulphurous gases emitted from the crater.\n[…]\nAfter mid-2008, the number of volcanic earthquakes close to Ngauruhoe declined to the background level. Regular measurements of volcanic gas levels and the temperature of a summit gas vent failed to record any significant changes over the subsequent two and a half years.\n[…]\nGNS Science accordingly reduced the alert level for Ngauruhoe to Level 0 on 2 December 2008. “The reduction in earthquake activity means that an eruption in the near future is unlikely without further earthquakes or other changes and the appropriate alert level is therefore zero”, said GNS Science Volcano Section Manager Gill Jolly.\n[…]\nDuring the closure of the central part of the Mt. Tongariro one day walk, due to volcanic activity, climbing Mt. Ngauruhoe became a popular alternative. At Easter 2013 four climbers were injured in separate incidents. Two of the accidents were due to congestion on the normal eastern route to the crater when a climber caused loose rock to hit another climber below. All the injured had to be rescued by helicopter.\n[…]\nMount Ngauruhoe was used as a stand-in for the fictional Mount Doom in Peter Jackson's The Lord of the Rings film trilogy, achieving worldwide exposure."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Torre do Diabo",
+      "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Torre do Diabo, rochedo do Wyoming, é o ponto de encontro com alienígenas em qual filme de Steven Spielberg, de 1977?",
+    "resposta": "Contatos Imediatos do Terceiro Grau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Devils_Tower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Devils_Tower",
+        "situacao": "ok",
+        "texto": "Devils Tower (also known as Matȟó Thípila or Bear Lodge) is a laccolithic butte, composed of igneous rock in the Bear Lodge Ranger District of the Black Hills, near Hulett and Sundance in Crook County, northeastern Wyoming, above the Belle Fourche River. It rises 1,267 feet (386 m) above the Belle Fourche River, standing 867 ft (264 m) from summit to base. The summit is 5,112 ft (1,558 m) above se\n[…]\nIn 1941, George Hopkins parachuted onto Devils Tower, without permission, as a publicity stunt resulting from a bet. He had intended to descend by a 1,000-foot (300 m) rope dropped to him after successfully landing on the butte, but the package containing the rope, a sledgehammer, and a car axle to be driven into the rock as an anchor point, slid over the edge.\n[…]\nToday, hundreds of climbers scale the sheer rock walls of Devils Tower each summer. The most common route is the Durrance Route, which was the second free-climbing route, established in 1938. Many established and documented climbing routes cover every side of the tower, ascending the various vertical cracks and columns of the rock. The difficulty of these routes ranges from relatively easy to some of the most challenging in the world.\n[…]\nSeven people have died climbing Devils Tower in the park's 119-year history. Rescues of stranded and underequipped climbers on the formation are common. The most recent fatality was in September 2024, when a climber fell to his death while descending, leaving his climbing partner stranded without a rope on the face of the tower until help arrived.\n[…]\nDevils Tower National Monument protects many species of wildlife, such as white-tailed deer, prairie dogs, and bald eagles.\n[…]\nFour areas of Devils Tower National Monument are on the National Register of Historic Places:\n[…]\nTower Ladder\n[…]\nDevils Tower National Monument – National Park Service\n[…]\n450 megapixel high-resolution photo of Devils Tower"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_do_Diabo",
+        "situacao": "ok",
+        "texto": "A Devils Tower (em português Torre do Diabo) é um lacólito colunar, com topo relativamente plano, que possui 275 metros de altura. Localiza-se na região nordeste do estado de Wyoming, nos Estados Unidos e se destaca do relevo ao seu redor. É composicionalmente similar à rocha fonólito.\n[…]\nNa cultura popular, o monólito é famoso por ter aparecido no filme de ficção científica Contatos Imediatos do Terceiro Grau (1977), de Steven Spielberg.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Monte Fitz Roy",
+      "descricao": "Montanha de granito na Patagônia, na fronteira entre Argentina e Chile, perto de El Chaltén."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Monte Fitz Roy, na Patagônia, homenageia o capitão do navio que levou qual naturalista em sua famosa viagem ao redor do mundo?",
+    "resposta": "Charles Darwin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monte_Fitz_Roy",
+      "https://en.wikipedia.org/wiki/Robert_FitzRoy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Fitz_Roy",
+        "situacao": "ok",
+        "texto": "Monte Fitz Roy (also known as Cerro Chaltén, Cerro Fitz Roy, or simply Mount Fitz Roy) is a mountain in Patagonia, on the border between Argentina and Chile.\n[…]\nIt is located in the Southern Patagonian Ice Field, near El Chaltén village and Viedma Lake. It was first climbed in 1952 by French alpinists Lionel Terray and Guido Magnone.\n[…]\nCerro is a Spanish word meaning ridge or hill, while Chaltén comes from a Tehuelche (Aonikenk) word meaning \"smoking mountain\", because a cloud usually forms around the mountain's peak. Fitz Roy is one of several peaks the Tehuelche called Chaltén.\n[…]\nOn February 27, 2014, Chile's National Forestry Corporation created the Chaltén Mountain Range Natural Site by Resolution No. 74, which covers the Chilean side of Mount Fitz Roy and the surrounding mountain range.\n[…]\nIn 1998, the \"Agreement between the Republic of Chile and the Republic of Argentina to determine the boundary line from Mount Fitz Roy to Cerro Daudet\" was signed, defining section A and a small part of section B, with the area between Fitz Roy and the Murallón still pending.\n[…]\nFitz Roy is a popular tourist destination for hikers, as a viewpoint between the Laguna de Los Tres and the Laguna Sucia can be reached by foot from the town of El Chaltén. The total trek is around 20 kilometers for the round trip, making it possible to do the out-and-back hike within a single day, while also passing by the Poincenot campground that is run by a local association, for people who want to take more time.\n[…]\nChaltén Mountain Range Natural Site\n[…]\n\"Monte Fitz Roy in History\" (in Spanish). Patagonia.com.ar. Retrieved 11 February 2026."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robert_FitzRoy",
+        "situacao": "ok",
+        "texto": "Vice-Admiral Robert FitzRoy  (5 July 1805 – 30 April 1865) was an English officer of the Royal Navy, politician and scientist who served as the second governor of New Zealand between 1843 and 1845.\n[…]\nSuch a companion should share his scientific tastes, make good use of the expedition's opportunities for researching natural history, dine with him as an equal, and provide a semblance of normal human friendship. While those Beaufort first approached (including Professor J. S. Henslow of the University of Cambridge) turned the opportunity down, FitzRoy eventually approved Charles Darwin for the position.\n[…]\nWhen this came to light, in order to prevent Fitzroy's widow and daughter living in destitution, his friend and colleague Bartholomew Sulivan began an Admiral FitzRoy Testimonial Fund, which succeeded in getting the government to pay £3,000 of this sum (Charles Darwin contributed £100). Queen Victoria gave the special favour of allowing his widow and daughter the use of grace and favour apartments at Hampton Court Palace.\n[…]\nThe BBC made a BAFTA award-winning television series in 1978 titled The Voyage of Charles Darwin where Captain Robert Fitzroy was played by actor Andrew Burt with Malcolm Stoddard as Darwin with a storyline that followed the historic interaction between Darwin and FitzRoy before and after their time together on HMS Beagle.\n[…]\nNichols, Peter (2003). Evolution's Captain: The Dark Fate of the Man Who Sailed Charles Darwin Around the World. HarperCollins. ISBN 978-0060-08877-4. UK edition: Evolution's Captain: The Tragic Fate of Robert FitzRoy, the Man Who Sailed Charles Darwin Around the World (Profile Books, 2003) ISBN 978-1-8619-7451-8"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Fitz_Roy",
+        "situacao": "ok",
+        "texto": "O Monte Fitz Roy ou Cerro Chaltén[carece de fontes]? é uma montanha localizada na fronteira do Chile com a Argentina na região da Patagônia.\n[…]\nNo lado chileno, está localizado no Sítio Natural Cordilheira do Chaltén do Parque Nacional Bernardo O'Higgins em a Região de Magalhães e Antártica Chilena, e no lado argentino, no Parque Nacional Los Glaciares, bem como no Monumento Natural Provincial Cerro Chaltén, em seu lado norte, tanto na Província de Santa Cruz.\n[…]\nA localidade de El Chaltén , na província de Santa Cruz, é o melhor ponto para começar os trekkings até os mirantes no Monte.\n[…]\nO seu nome é uma homenagem a Robert FitzRoy, capitão do HMS Beagle, navio que levou Charles Darwin em sua viagem ao redor do mundo. Na região também é conhecido por El Chaltén, nome idêntico ao de um povoado.\n[…]\nApesar de sua altitude relativamente modesta de 3375 metros, o Fitz Roy é considerado por muitos alpinistas profissionais como o maior de todos os desafios do seu esporte, porque suas paredes verticais requerem técnica impecável para serem conquistadas. Ademais, o clima da região é excecionalmente ruim e traiçoeiro — o que já custou a muitos suas vidas.\n[…]\nEm janeiro de 2011, o montanhista brasileiro Bernardo Collares morreu ao tentar escalar o monte Fitz Roy.\n[…]\nEm janeiro de 2019, os escaladores brasileiros Fabrício Amaral de Souza (Espírito Santo) e Leandro Iannotta (Minas Gerais) morreram escalando o monte Fitz Roy.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Salto de Sete Quedas",
+      "descricao": "Conjunto de cachoeiras do rio Paraná, em Guaíra, na divisa entre Brasil e Paraguai, que deixou de existir em 1982."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1982, o Salto de Sete Quedas, no rio Paraná, desapareceu para sempre. O que encobriu as cachoeiras?",
+    "resposta": "O lago da usina de Itaipu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+        "situacao": "ok",
+        "texto": "The Guairá Falls (Spanish: Saltos del Guairá) or Guaíra Falls (Portuguese: Salto das Sete Quedas do Guaíra) were a series of immense waterfalls on the Paraná River along the border between Paraguay and Brazil. The falls ceased to exist in 1982 when they were inundated by the impoundment of the Itaipu Dam reservoir.\n[…]\nThe falls comprised 18 cataracts clustered in seven groups—hence their Portuguese name, Sete Quedas (Seven Falls)—near the Brazilian municipality of Guaíra, Paraná and Salto del Guairá, the easternmost city in Paraguay. The falls were located at a point where the Paraná River was forced through a narrow gorge. At the head of the falls, the river narrowed sharply from a width of about 380 m (1,250 ft) to 60 m (200 ft).\n[…]\nA tourist attraction and a favorite of locals, the falls were completely submerged under the artificial lake created by the Itaipu Dam upon its completion in 1982. The building of the dam, authorized by a 1973 bilateral agreement between the Paraguayan and Brazilian regimes of the time, marked a new era of cooperation between the countries, both of which had claimed ownership of Guaíra Falls.\n[…]\nAs construction of the Itaipu Dam progressed, thousands of visitors flocked to the area to see the falls before they disappeared forever. Disaster struck on January 17, 1982, when a suspended footbridge affording access to a particularly spectacular view of the falls collapsed, killing dozens of tourists.\n[…]\nThe director of the company that built the dam was quoted as saying, \"We're not destroying Seven Falls. We're just going to transfer it to Itaipu Dam, whose spillway will be a substitute for [the falls'] beauty\".\n[…]\nItaipu Lake\n[…]\nSalto de Sete Quedas - Brasil, December 1978 by Mario Cesar Mendonça Gomes\n[…]\nSalto de Sete Quedas - Brasil, December 1978 by Mario Cesar Mendonça Gomes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas",
+        "situacao": "ok",
+        "texto": "O Salto de Sete Quedas, também chamado Sete Quedas do Rio Paraná (em castelhano:  Saltos del Guairá), foram as maiores cachoeiras do mundo em volume de água com 13,3 mil m³/segundo, sendo o dobro de volume d'água das Cataratas do Niágara, na divisa EUA/Canadá, e treze vezes mais caudalosas que as Victoria Falls na Zâmbia. Seu som poderia ser ouvido a 30 km de distância, seu canal principal possuía\n[…]\nEm 1966 foi decretada a submersão do Salto das Sete Quedas através da Ata do Iguaçu, onde ocorreria o seu desaparecimento com a formação do lago da Usina hidrelétrica de Itaipu. O governo havia decretado que a construção da Usina de Itaipu iria alagar as Setes Quedas, uma área em litígio entre Brasil e Paraguai devido a uma demarcação territorial sob a serra de Maracaju.\n[…]\nQuando da construção da Usina Hidrelétrica de Itaipu (a qual, no início das sondagens sobre o potencial hidrelétrico do Rio Paraná, era referida como Usina de Sete Quedas), ocorreu uma super visitação ao Parque Nacional das Sete Quedas. Milhares de pessoas, de todas as partes do Brasil e do mundo, iam a Guaíra para presenciar os últimos dias das Sete Quedas.\n[…]\nA investigação apontou duas causas para o acidente: primeiro, a falta de cuidado com a manutenção das pontes, sob o pretexto de que em breve as Sete Quedas seriam inundadas; segundo, o aumento descontrolado da visitação, pois todos queriam ver os Saltos antes de seu desaparecimento para a formação do lago de Itaipu.\n[…]\nEm 13 de outubro de 1982, o fechamento das comportas do Canal de Desvio de Itaipu começou a sepultar, com as águas barrentas do lago artificial, um dos maiores espetáculos da face da Terra: as Sete Quedas do Rio Paraná ou \"Saltos del Guaíra\". Durante a inundação, os moradores de Guaíra iam até a beira do rio para se despedirem das Sete Quedas.\n[…]\nSalto de Sete Quedas\n[…]\n«Conselho de Desenvolvimento dos Municípios Lindeiros ao Lago de Itaipu»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Grand Prismatic Spring",
+      "descricao": "Grande fonte termal colorida do Parque Nacional de Yellowstone, nos Estados Unidos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Yellowstone, as faixas laranja e amarelas em volta da grande fonte termal chamada Grand Prismatic Spring são produzidas por quê?",
+    "resposta": "Bactérias e outros micróbios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring",
+        "situacao": "ok",
+        "texto": "The Grand Prismatic Spring is the largest hot spring in the Yellowstone National Park, and the third largest in the world, after Frying Pan Lake in New Zealand and Boiling Lake in Dominica. It is located in the Midway Geyser Basin.\n[…]\nGrand Prismatic Spring was noted by geologists working in the Hayden Geological Survey of 1871, and named by them for its striking coloration. Its colors match most of those seen in the rainbow: red, orange, yellow, green, and blue.\n[…]\nThe first records of the spring are from early European explorers and surveyors. In 1839, a group of four trappers from the American Fur Company crossed the Midway Geyser Basin and made note of a \"boiling lake\", most likely the Grand Prismatic Spring, with a diameter of 300 feet (90 m). In 1870 the Washburn–Langford–Doane Expedition visited the spring, noting a 50-foot (15 m) geyser nearby (later named Excelsior).\n[…]\nThe bright, vivid colors in the spring are the result of microbial mats of thermophilic bacteria and archaea around the edges of the mineral-rich water. The mats produce colors ranging from green to red; the amount of color in the microbial mats depends on the ratio of chlorophyll to carotenoids and on the temperature gradient in the runoff. In the summer, the mats tend to be orange and red, whereas in the winter the mats are usually dark green.\n[…]\nThe deep blue color of the water in the center of the pool results from the intrinsic blue color of water. The effect is strongest in the center of the spring, because of its sterility and depth.\n[…]\nThe spring is approximately 370 feet (110 m) in diameter and is 160 feet (50 m) deep. The spring discharges an estimated 560 US gallons (2,100 L) of 160 °F (70 °C) water per minute."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Fonte_Prism%C3%A1tica",
+        "situacao": "ok",
+        "texto": "A Grande Fonte Prismática no Parque Nacional de Yellowstone é a maior fonte termal dos Estados Unidos e a terceira maior do mundo.\n[…]\nA Grande Fonte Prismática foi descoberta por geólogos que trabalharam no Hayden Geological Survey de 1871, e recebeu esse nome devido à sua coloração impressionante. Suas cores equivalem à maioria das vistas na dispersão do arco-íris de luz branca por um prisma óptico: vermelho, laranja, amarelo, verde e azul.\n[…]\nOs primeiros registros da fonte são dos primeiros exploradores e topógrafos europeus. Em 1839, um time de quatro caçadores da American Fur Company atravessou a Midway Geyser Basin e viu um \"lago fervente\", seguramente a Grande Fonte Prismática, com um diâmetro de 300 ft (90 m). Em 1870, a Expedição Washburn-Langford-Doane visitou a fonte, observando um gêiser de 15 metros nas proximidades (depois nomeado Excelsior).\n[…]\nAs cores brilhantes e vívidas na primavera são o resultado de tapetes microbianos ao redor das bordas da água rica em minerais. Os tapetes produzem cores que vão do verde ao vermelho; a quantidade de cor nos tapetes microbianos depende da razão de clorofila para carotenoides e do gradiente de temperatura no escoamento. No verão, os tapetes tendem a ser laranja e vermelho, enquanto no inverno os tapetes são geralmente verde escuro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Grutas de Waitomo",
+      "descricao": "Cavernas de calcário na Ilha Norte da Nova Zelândia, famosas pelos tetos iluminados por larvas luminosas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nas grutas de Waitomo, na Nova Zelândia, o teto brilha no escuro como um céu estrelado. Que seres produzem essa luz?",
+    "resposta": "Larvas luminosas de mosquito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves",
+      "https://en.wikipedia.org/wiki/Arachnocampa_luminosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves",
+        "situacao": "ok",
+        "texto": "The Waitomo Glowworm Cave (officially, Waitomo Cave) is a cave with several large chambers at Waitomo in the North Island of New Zealand. The cave is a tourist attraction known for its population of Arachnocampa luminosa, a glowworm species found only in New Zealand. In 2013 it was stated that the Waitomo Glowworm Cave was \"the most visited glowworm display in the world\". The attraction has a mode\n[…]\nGeological and volcanic activity has created around 300 known limestone caves in the Waitomo region over the last 30 million years. The Waitomo Glowworm Cave is situated in a ridge of Oligocene limestone formed when the region was still under the ocean about 30 million years ago. The limestone is composed of fossilized corals, seashells, fish skeletons, and many small marine organisms on the sea beds.\n[…]\nThe most common animals in the cave are insects, including the renowned glowworm Arachnocampa luminosa, a species of fungus gnat endemic to New Zealand. The glowworms eat midges, and harvestmen prey on the glowworms.\n[…]\nGlowworms live in caves and on sheltered banks in native bush where humidity is high, as moisture helps to maintain their silk structures that capture prey. At the Waitomo Glowworm Cave, glowworms are found in the Demonstration Chamber and on the ceiling of the Glowworm Grotto, a large chamber on the lower level of the cave. The Waikato Stream runs through these chambers, providing aquatic prey insects for the glowworms as well as the humidity they require.\n[…]\nAdult gnats are around the size of an average mosquito. The larval stage and the imago produce a blue-green bioluminescence. Glowworm larvae build a mucous tube that hangs horizontally from the rock and is attached by a network of threads. Long threads hang down from the attachment threads. These have evenly-spaced sticky droplets on them, with the multiple hanging threads forming a curtain effect."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Arachnocampa_luminosa",
+        "situacao": "ok",
+        "texto": "Arachnocampa luminosa (Skuse, 1891), commonly known as New Zealand glowworm or simply glowworm, is a species of fungus gnat solely endemic to New Zealand. The larval stage and the imago produce a blue-green bioluminescence. The species is known to dwell in caves and on sheltered banks in the native bush where humidity is high, as moisture helps to maintain their silk structures that capture prey.\n[…]\nThe blue-green glow that the larvae of Arachnocampa luminosa demonstrate, reaches a maximum wavelength of 487 nm and is produced through a biochemical reaction involving a distinct luciferase enzyme and a specific luciferin molecule. Notably, the luciferase enzyme in glowworms differs from that found in fireflies, despite some similarities.\n[…]\nArachnocampa luminosa have a few natural predators; the most notable being the cave harvestmen (including the short-legged harvestmen, Hendea myersi cavernicola, and the long-legged harvestmen, Megalopsalis tumida). Recordings of the harvestmen's predation in Waitomo caves observed successful captures of separate adult glowworm within just 133 seconds after pair separation.\n[…]\nThe total population of glowworms (Arachnocampa luminosa) in New Zealand is currently unknown; however, they are not considered endangered, and their population has not shown signs of decline over recent years. That being said, with the ongoing pressures of the recent climate crisis, many glow worm sites such as Te Ananui Cave are being managed by local conservation groups to preserve these spots for future generations.\n[…]\nBroadley, R. A. and Stringer, I.A.N. (2009) Larval behaviour of the New Zealand glowworm, Arachnocampa luminosa (Diptera: Keroplatidae), in bush and caves. In: V.B. Meyer-Rochow (Ed.), Bioluminescence in Focus - A Collection of Illuminating Essays (pp. 325–355). Research Signpost. Kerala.\n[…]\nMedia related to Arachnocampa luminosa at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Rifte da África Oriental",
+      "descricao": "Sistema de vales de afundamento no leste da África, onde a crosta terrestre está se partindo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Geólogos dizem que o Grande Vale do Rift, no leste da África, pode um dia partir o continente em dois. Que processo está abrindo esse vale?",
+    "resposta": "O afastamento de placas tectônicas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/East_African_Rift"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/East_African_Rift",
+        "situacao": "ok",
+        "texto": "The East African Rift (EAR) or East African Rift System (EARS) is an active continental rift zone in East Africa. The EAR began developing around the onset of the Miocene, 22–25 million years ago. It is considered to be part of a larger system, formerly known as the Great Rift Valley, that extends north to Asia Minor, also known as Anatolia.\n[…]\nA narrow zone, the rift is a developing divergent tectonic plate boundary where the African plate is in the process of splitting into two tectonic plates, called the Somali plate and the Nubian plate, at a rate of 8–9 mm (0.31–0.35 in) per year. The rift system consists of three microplates, the Victoria microplate to the north, and the Rovuma and Lwandle microplates to the south. The Victoria microplate is rotating anti-clockwise with respect to the African plate.\n[…]\nOver time, many theories have tried to clarify the evolution of the East African Rift. In 1972 it was proposed that the EAR was not caused by tectonic activity, but rather by differences in crustal density. Since the 1990s, evidence has been found in favor of mantle plumes beneath the EAR. Others proposed an African superplume causing mantle deformation.\n[…]\nAccording to marine geologist Kathleen Crane, the rift could eventually cause eastern Africa to separate from the mainland, although this potential event could take tens of millions of years.\n[…]\nToday, the narrow rift segments of the East African Rift system form zones of localized strain. These rifts are the result of the actions of numerous normal faults which are typical of all tectonic rift zones. As aforementioned, voluminous magmatism and continental flood basalts characterize some of the rift segments, while other segments, such as the Western branch, have only very small volumes of volcanic rock.\n[…]\nWest Antarctic Rift System\n[…]\nWest and Central African Rift System"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rifte_da_%C3%81frica_Oriental",
+        "situacao": "ok",
+        "texto": "O Rifte Africano Oriental é um rifte na África Oriental, desenvolvendo-se desde o Miocénico há 22-25 milhões de anos. Antigamente era considerado como fazendo parte do maior Vale do Rifte que se estende até à Ásia Menor.\n[…]\nO rifte é uma estreita zona de divergência de placas tectónicas, na qual a placa africana está em processo de divisão em duas, designadas placa somali e placa núbia, a um ritmo de cerca de 6–7 mm por ano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Falésias Brancas de Dover",
+      "descricao": "Penhascos brancos sobre o Canal da Mancha, no litoral de Kent, no sudeste da Inglaterra."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As falésias brancas de Dover, no sul da Inglaterra, devem a sua cor a que rocha macia?",
+    "resposta": "Giz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover",
+        "situacao": "ok",
+        "texto": "The White Cliffs of Dover are the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint, deposited during the Late Cretaceous. The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). The White Cliffs of\n[…]\nOne of the most famous references in English literature to the White Cliffs is in Shakespeare's King Lear. In Act IV, Scene VI, Edgar persuades the blinded Earl of Gloucester that he is at the edge of a cliff at Dover.\n[…]\nThe verse novel The White Cliffs by Alice Duer Miller encouraged U.S. entry into World War II. The poem was extremely successful on both sides of the Atlantic, selling nearly one million copies – an unusual number for a book of verse. It was broadcast and recorded by British-American actress Lynn Fontanne (with a symphonic accompaniment), and the story was made into the 1944 film The White Cliffs of Dover.\n[…]\nJimmy Cliff wrote and recorded the song \"Many Rivers to Cross\" in 1969. The song included the line \"Wandering I am lost, as I travel along the White Cliffs of Dover.\"\n[…]\nThe 1941 song \"(There'll Be Bluebirds Over) The White Cliffs of Dover\" is a popular World War II song composed by Walter Kent to lyrics by Nat Burton. It was made famous by Vera Lynn's 1942 version.\n[…]\nThe song \"Calais to Dover\" by Bright Eyes from the 2020 album Down In The Weeds Where The World Once Was refers to the cliffs most likely via Shakespeare or Matthew Arnold: \"Threw up on the ferry ride from Calais back to Dover/As pale as the white cliffs that we faced/Wasn't afraid, eventualities, just knew that it was over/No brushes with death could keep us sober.\"\n[…]\nAerial view of the cliffs and surrounding area on YouTube\n[…]\nDover Museum information on the cliffs\n[…]\nWhite Cliffs of Dover website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Penhascos_brancos_de_Dover",
+        "situacao": "ok",
+        "texto": "Os penhascos brancos de Dover, ou, na sua forma portuguesa, de Dôver, são falésias que formam parte da costa inglesa em frente ao Estreito de Dover e a França. As falésias são parte da formação North Downs. A face do penhasco, que atinge até 110 m, deve a sua impressionante fachada a sua composição de giz, acentuada por listras de sílex preto. As falésias se propagam a leste e a oeste da cidade de\n[…]\nAs falésias têm grande valor simbólico na Grã-Bretanha porque se situam em frente à Europa Continental, através da parte mais estreita do Canal da Mancha, onde invasões têm historicamente ameaçado o país, e contra as quais as falésias formam uma guarda simbólica. Dover foi a principal rota para o continente antes do advento das viagens aéreas, a linha branca de falésias também formou a primeira ou a última visão da Inglaterra para os viajantes.\n[…]\nAs falésias estão localizadas ao longo da costa da Inglaterra entre as coordenadas 51° 06′ N, 1° 14′ L e 51° 12′ N, 1° 24′ L. Os penhascos brancos estão em uma extremidade do Kent Downs sendo designados como uma Area of Outstanding Natural Beauty.\n[…]\nDurante o verão de 1940, os jornalistas se reuniam no Shakespeare Cliff para assistir os  combates aéreos  entre aviões alemães e britânicos durante a Batalha da Inglaterra. Em um dia claro, as falésias são facilmente visíveis a partir da costa francesa.\n[…]\nDover Museum information on the cliffs",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Caverna dos Cristais",
+      "descricao": "Caverna dentro da mina de Naica, no estado de Chihuahua, no México, com cristais gigantes."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os cristais gigantes da Caverna dos Cristais, achada numa mina de Naica, no México, são feitos de qual mineral?",
+    "resposta": "Gipsita (selenita)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cave_of_the_Crystals"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cave_of_the_Crystals",
+        "situacao": "ok",
+        "texto": "Cave of the Crystals (Spanish: Cueva de los cristales), also known as Naica Cave (Spanish: Cueva de Naica) or the Giant Crystal Cave, is a cave connected to the Naica Mine at a depth of 300 metres (980 ft), in Naica, Chihuahua, Mexico. It takes the form of a chamber within the limestone host rock of the mine, and is about 109 metres (358 ft) long with a volume of 5,000 to 6,000 cubic metres (180,0\n[…]\nThe chamber contains giant selenite crystals (gypsum, CaSO4 · 2 H2O), some of the largest natural crystals ever found. The largest is 11.4 metres (37 ft), with a volume of about 5 cubic metres (180 ft3), and an estimated mass of 12 tonnes. When not flooded, the cave is extremely hot, with air temperatures reaching up to 58 °C (136 °F) with 90 to 99 percent humidity.\n[…]\nThe cave was discovered in April 2000 by brothers Juan and Pedro Sánchez while drilling in the mine. As of October 2015, the mine had reflooded and the cavern filled once more with the water rich in minerals required for the crystals to grow.\n[…]\nIn 1910, miners discovered a cavern beneath the Naica Mine workings, the Cave of Swords (Spanish: Cueva de las espadas). It is located at a depth of 120 metres (390 ft), above the Cave of the Crystals, and contains spectacular, smaller (1-metre (3 ft 3 in) long) crystals. It is speculated that at this level, transition temperatures may have fallen much more rapidly, leading to an end in the growth of the crystals.\n[…]\nGiant Crystal Cave was discovered in April 2000 by miners excavating a new tunnel for the Industrias Peñoles mining company located in Naica, Mexico, while drilling through the Naica fault, which they were concerned would flood the mine. The mining complex in Naica contains substantial deposits of silver, zinc and lead.\n[…]\nWikijunior:Let's Talk about Crystallization in the Naica Mine at Wikibooks\n[…]\nCrystal Cave of Giants, account of a 2009 visit by George Kourounis"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_dos_Cristais",
+        "situacao": "ok",
+        "texto": "Caverna dos Cristais (em castelhano Cueva de los Cristales) é uma caverna situada na mina de Naica no estado mexicano de Chihuahua. Esta caverna, com dimensões aproximadas de 10 por 30 metros, contém no seu interior cristais gigantes de selenite, alguns dos maiores cristais naturais já encontrados no mundo. O maior cristal tem 11 metros de comprimento(algumas fontes alegam ter 12 metros), 4 metros\n[…]\nA mina de Naica se encontra numa falha por cima de uma câmara de magma, o que gera as condições necessárias para  formação dos cristais. O enorme calor gerado pelo magma aqueceu a água que se encontrava retida nas câmaras, que ficou saturada/impregnada de diversos minerais, nomeadamente Gipsita.\n[…]\nEstas câmaras encontraram-se submersas e saturadas de minerais, durante 500.000 anos aproximadamente, durante os quais a água manteve uma temperatura estabilizada de 50 °C, o que permitiu aos cristais crescerem e tomarem dimensões bastante elevadas.\n[…]\nEm 1910 os trabalhadores descobriram uma câmara abaixo dos trabalhos da mina de Naica, a gruta/caverna das Espadas (es. cueva de las Espadas). Encontra-se a 120 m de profundidade acima da Caverna dos Cristais e contem espetaculares, embora pequenos em dimensão (1 m comprimento), cristais em forma de espada. Crê-se que nesta zona as temperaturas de transição tenham diminuído mais rápido, o que interrompeu o crescimento dos cristais.\n[…]\nA câmara com os cristais gigantes foi descoberta em 2000, por trabalhadores que escavam um túnel de ligação. A Caverna dos Cristais tem a forma de U e encontra-se em solo calcário. O seu chão está coberto de incríveis cristais tendo o maior aproximadamente 11 m de comprimento e 4 m diâmetro. As grutas encontram-se acessíveis hoje pois os trabalhadores da mina extraem a água com bombas de água. Se a extração fosse interrompida, as câmaras encheriam-se novamente de água.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Pico da Bandeira",
+      "descricao": "Montanha da Serra do Caparaó, na divisa entre Minas Gerais e Espírito Santo, terceiro ponto mais alto do Brasil."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na divisa entre Minas Gerais e o Espírito Santo, qual é o pico mais alto do Brasil fora da região amazônica?",
+    "resposta": "Pico da Bandeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_da_Bandeira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pico_da_Bandeira",
+        "situacao": "ok",
+        "texto": "O pico da Bandeira é o ponto mais alto dos estados do Espírito Santo e de Minas Gerais, e também de toda a Região Sudeste do Brasil. É também o terceiro ponto mais alto do país, com 2891,32 metros de altitude (medição feita por GPS pelo Projeto Pontos Culminantes do Brasil, do IBGE e do Instituto Militar de Engenharia, em 2004, e revista pelo IBGE em 2016 após novo mapeamento do geoide no territór\n[…]\nO pico está localizado no Parque Nacional do Caparaó, na serra do Caparaó, na divisa entre os municípios de Ibitirama (Espírito Santo) e Alto Caparaó (Minas Gerais). A carta topográfica do IBGE para a região, publicada em 1977, mostra o cume propriamente dito inteiramente dentro do Espírito Santo, a poucos metros da divisa mineira.\n[…]\nO pico possui esse nome porque, por volta de 1859, o imperador Pedro II determinou que fosse colocada uma bandeira do Império naquele que, na época, era tido como o ponto mais alto e imponente do Brasil.\n[…]\nMesmo sendo o terceiro ponto mais alto do Brasil, o pico da Bandeira é o mais acessível dos picos mais altos do país pois existem trilhas muito bem sinalizadas pelo lado do Espírito Santo (portaria capixaba na comunidade de Pedra Menina, em Dores do Rio Preto) e também pelo lado de Minas Gerais (portaria mineira em Alto Caparaó). Porém, à noite há que se ter muita atenção para não se perder.\n[…]\nO pico da Bandeira é um dos pontos mais frios da região Sudeste. Não há nenhum registro da ocorrência de neve, devido à baixa latitude do local e aos invernos secos, embora geadas sejam comuns no inverno. Ocorrências de sincelo são raras, mas já foram registradas. As temperaturas mínimas no pico podem ficar abaixo de 0 °C nos meses mais frios. O recorde negativo de -14 °C foi registrado no dia 4 de julho de 2017.\n[…]\nPico do Calçado\n[…]\nPico do Cristal"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

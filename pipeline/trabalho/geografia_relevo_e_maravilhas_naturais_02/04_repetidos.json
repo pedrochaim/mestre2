@@ -1,0 +1,534 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ilha italiana fica o Etna, um dos vulcões mais ativos da Europa?",
+        "resposta": "Sicília"
+      },
+      "existentes": [
+        {
+          "id": "q02219",
+          "pergunta": "O Etna, um dos vulcões mais ativos da Europa, fica em qual ilha do Mediterrâneo?",
+          "resposta": "Sicília"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Cercado de paredões e cachoeiras, o fiorde de Geiranger, tombado pela Unesco, é cartão-postal de que país escandinavo?",
+        "resposta": "Noruega"
+      },
+      "existentes": [
+        {
+          "id": "q03868",
+          "pergunta": "Que fiorde norueguês é este?",
+          "resposta": "Geirangerfjord"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na divisa entre o Rio Grande do Sul e Santa Catarina, em que parque nacional fica o cânion do Itaimbezinho?",
+        "resposta": "Aparados da Serra"
+      },
+      "existentes": [
+        {
+          "id": "q04403",
+          "pergunta": "Que cânion do sul do Brasil é este?",
+          "resposta": "Itaimbezinho"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Com uma floresta e até nuvens próprias lá dentro, a caverna Son Doong é um tesouro de que país do Sudeste Asiático?",
+        "resposta": "Vietnã"
+      },
+      "existentes": [
+        {
+          "id": "q02869",
+          "pergunta": "A caverna Son Doong, tão grande que tem floresta e até nuvens próprias lá dentro, fica em que país?",
+          "resposta": "Vietnã"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Dedo de Deus, pico que lembra uma mão apontando para o céu, fica em que serra do estado do Rio de Janeiro?",
+        "resposta": "Serra dos Órgãos"
+      },
+      "existentes": [
+        {
+          "id": "q05313",
+          "pergunta": "Em que estado brasileiro fica este pico de granito?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O Parque Nacional de Yellowstone, nos Estados Unidos, costuma ser considerado o primeiro parque nacional do mundo. Em que século ele foi criado?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q04818",
+          "pergunta": "Com seus gêiseres e fontes termais, Yellowstone é considerado o primeiro parque nacional do mundo. Em que década ele foi criado?",
+          "resposta": "Década de 1870"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Por respeito ao povo Anangu, para quem a rocha é sagrada, a escalada do Uluru foi proibida em que ano?",
+        "resposta": "2019"
+      },
+      "existentes": [
+        {
+          "id": "q02068",
+          "pergunta": "Antes de adotar oficialmente o nome aborígene Uluru, o grande monólito australiano era conhecido por qual nome inglês?",
+          "resposta": "Ayers Rock"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Uma erupção do Vesúvio destruiu dezenas de bombardeiros aliados estacionados perto de Nápoles. Durante qual guerra isso aconteceu?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q02077",
+          "pergunta": "Além de Pompeia, que cidade romana, famosa por uma vila cheia de papiros, foi soterrada pelo Vesúvio no ano setenta e nove?",
+          "resposta": "Herculano"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O vulcão Paricutín nasceu num milharal mexicano em 1943 e passou anos expelindo lava. Em que ano a erupção terminou?",
+        "resposta": "1952"
+      },
+      "existentes": [
+        {
+          "id": "q02103",
+          "pergunta": "Em 1943, um vulcão nasceu de repente no milharal de um agricultor e cresceu centenas de metros. Em que país?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1865, que alpinista inglês liderou a primeira escalada do Matterhorn, que terminou com quatro mortes na descida?",
+        "resposta": "Edward Whymper"
+      },
+      "existentes": [
+        {
+          "id": "q03871",
+          "pergunta": "Que montanha dos Alpes é esta?",
+          "resposta": "Matterhorn"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+        "resposta": "Theodore Roosevelt"
+      },
+      "existentes": [
+        {
+          "id": "q02076",
+          "pergunta": "Ao longo de milhões de anos, que rio escavou o Grand Canyon, no Arizona?",
+          "resposta": "Rio Colorado"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1901, quem foi a primeira pessoa a despencar das Cataratas do Niágara dentro de um barril e sobreviver?",
+        "resposta": "Annie Edson Taylor"
+      },
+      "existentes": [
+        {
+          "id": "q03873",
+          "pergunta": "Que dois países dividem estas cataratas?",
+          "resposta": "Estados Unidos e Canadá"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que engenheiro de minas americano defendeu que a Cratera do Meteoro, no Arizona, foi aberta por um impacto vindo do espaço, e hoje lhe empresta o sobrenome?",
+        "resposta": "Daniel Barringer"
+      },
+      "existentes": [
+        {
+          "id": "q04405",
+          "pergunta": "Em que estado americano fica esta cratera de impacto?",
+          "resposta": "Arizona"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que explorador espanhol é considerado o primeiro europeu a ver as Cataratas do Iguaçu, no século dezesseis?",
+        "resposta": "Cabeza de Vaca"
+      },
+      "existentes": [
+        {
+          "id": "q02064",
+          "pergunta": "Em tupi-guarani, o que significa o nome Iguaçu?",
+          "resposta": "Água grande"
+        },
+        {
+          "id": "q02065",
+          "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+          "resposta": "Garganta do Diabo"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Por suas erupções quase contínuas, que à noite serviam de guia aos navegantes, o vulcão italiano Stromboli ganhou que apelido?",
+        "resposta": "Farol do Mediterrâneo"
+      },
+      "existentes": [
+        {
+          "id": "q03870",
+          "pergunta": "Em que país fica esta ilha vulcânica?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Antes de ganharem o nome de Doze Apóstolos, as torres de calcário do litoral sul da Austrália foram conhecidas, entre outros, por qual nome?",
+        "resposta": "Porca e Leitões"
+      },
+      "existentes": [
+        {
+          "id": "q02337",
+          "pergunta": "Que formações rochosas no mar, na costa da Austrália, são estas?",
+          "resposta": "Doze Apóstolos"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em anos de chuva incomum, o Atacama, no Chile, se cobre de flores coloridas. Que nome os chilenos dão a esse fenômeno?",
+        "resposta": "Deserto florido"
+      },
+      "existentes": [
+        {
+          "id": "q02082",
+          "pergunta": "Que corrente oceânica fria ajuda a manter o Deserto do Atacama entre os lugares mais secos do planeta?",
+          "resposta": "Corrente de Humboldt"
+        },
+        {
+          "id": "q02083",
+          "pergunta": "Por sua aridez extrema, o Deserto do Atacama é usado pela NASA para testar equipamentos destinados a qual planeta?",
+          "resposta": "Marte"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em abril de 1500, a frota de Cabral avistou um monte no litoral baiano e o batizou com o nome de qual festa cristã?",
+        "resposta": "Páscoa"
+      },
+      "existentes": [
+        {
+          "id": "q02446",
+          "pergunta": "Que monte do sul da Bahia foi a primeira terra avistada pela esquadra de Pedro Álvares Cabral, em abril de 1500?",
+          "resposta": "Monte Pascoal"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O Kilimanjaro, ponto mais alto da África, é formado por quantos cones vulcânicos?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q02105",
+          "pergunta": "O Kilimanjaro, ponto mais alto da África, não pertence a nenhuma cordilheira. Que tipo de montanha ele é?",
+          "resposta": "Um vulcão"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O Monte Fitz Roy, na Patagônia, homenageia o capitão do navio que levou qual naturalista em sua famosa viagem ao redor do mundo?",
+        "resposta": "Charles Darwin"
+      },
+      "existentes": [
+        {
+          "id": "q05311",
+          "pergunta": "Que montanha da Patagônia é esta?",
+          "resposta": "Monte Fitz Roy"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Em 1982, o Salto de Sete Quedas, no rio Paraná, desapareceu para sempre. O que encobriu as cachoeiras?",
+        "resposta": "O lago da usina de Itaipu"
+      },
+      "existentes": [
+        {
+          "id": "q04135",
+          "pergunta": "Em 1982, as cachoeiras de Sete Quedas, na fronteira com o Paraguai, desapareceram sob as águas do reservatório de que obra?",
+          "resposta": "Usina de Itaipu"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em Yellowstone, as faixas laranja e amarelas em volta da grande fonte termal chamada Grand Prismatic Spring são produzidas por quê?",
+        "resposta": "Bactérias e outros micróbios"
+      },
+      "existentes": [
+        {
+          "id": "q02855",
+          "pergunta": "Em Yellowstone, a Grande Fonte Prismática tem anéis laranja e amarelos ao redor da água azul. O que produz essas cores?",
+          "resposta": "Tapetes de microrganismos"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Nas grutas de Waitomo, na Nova Zelândia, o teto brilha no escuro como um céu estrelado. Que seres produzem essa luz?",
+        "resposta": "Larvas luminosas de insetos"
+      },
+      "existentes": [
+        {
+          "id": "q02870",
+          "pergunta": "As grutas de Waitomo, cujo teto brilha com milhares de larvas luminosas, ficam em que país?",
+          "resposta": "Nova Zelândia"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Geólogos dizem que o Grande Vale do Rift, no leste da África, pode um dia partir o continente em dois. Que processo está abrindo esse vale?",
+        "resposta": "O afastamento de placas tectônicas"
+      },
+      "existentes": [
+        {
+          "id": "q04317",
+          "pergunta": "Do ponto de vista das placas tectônicas, o que o Grande Vale do Rift, na África, e a Islândia têm em comum?",
+          "resposta": "Ali as placas se afastam"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "As falésias brancas de Dover, no sul da Inglaterra, devem a sua cor a que rocha macia?",
+        "resposta": "Giz"
+      },
+      "existentes": [
+        {
+          "id": "q04322",
+          "pergunta": "O giz das falésias brancas de Dover, na Inglaterra, é formado principalmente pelos restos de quê?",
+          "resposta": "Algas microscópicas"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Os cristais gigantes da Caverna dos Cristais, achada numa mina de Naica, no México, são feitos de qual mineral?",
+        "resposta": "Gipsita (selenita)"
+      },
+      "existentes": [
+        {
+          "id": "q04802",
+          "pergunta": "Descoberta por mineiros em 2000, a Caverna dos Cristais guarda colunas de gipsita com mais de dez metros, num calor sufocante. Em que país ela está?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Na divisa entre Minas Gerais e o Espírito Santo, qual é o pico mais alto do Brasil fora da região amazônica?",
+        "resposta": "Pico da Bandeira"
+      },
+      "existentes": [
+        {
+          "id": "q02431",
+          "pergunta": "Até a década de 1960, que pico na divisa de Minas Gerais com o Espírito Santo era considerado o ponto mais alto do Brasil?",
+          "resposta": "Pico da Bandeira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Etna fica na Sicília.",
+      "id_existente": "q02219"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente pede o nome do fiorde (imagem); a nova pede o país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Parque nacional é fato diferente do nome do cânion."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o país da Son Doong.",
+      "id_existente": "q02869"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pede a serra; a existente pede o estado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Século e década de criação são perguntas próximas, mas a existente exige a década; saber a década implicaria o século, porém não o contrário. Na dúvida, nova."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Proibição da escalada versus nome antigo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fatos diferentes: bombardeiros na guerra versus Herculano."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ano do fim da erupção versus país."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Primeiro alpinista versus nome da montanha."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Presidente que declarou monumento versus rio que escavou."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Pessoa no barril versus países."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Engenheiro versus estado."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Primeiro europeu a ver as cataratas é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Apelido versus país."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nome antigo versus nome atual."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Fenômeno das flores é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Ambas giram em torno do Monte Pascoal, nomeado pela Páscoa; saber um leva ao outro.",
+      "id_existente": "q02446"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Número de cones versus tipo de montanha."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Homenageado do nome versus identificar a montanha."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Sete Quedas encobertas por Itaipu.",
+      "id_existente": "q04135"
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: cores produzidas por microrganismos.",
+      "id_existente": "q02855"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "A nova pede o que produz a luz; a existente pede o país e já informa as larvas."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o processo; a existente pergunta o que têm em comum, sendo próximos mas enunciados distintos. Na dúvida, nova."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Rocha versus composição do giz."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Mineral versus país."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "A nova pede o pico mais alto fora da Amazônia; a existente trata de antigo ponto mais alto do Brasil. Fatos diferentes, mesma resposta."
+    }
+  ]
+}
