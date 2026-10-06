@@ -112356,5 +112356,619 @@
       "https://pt.wikipedia.org/wiki/Alfredo_Volpi",
       "https://en.wikipedia.org/wiki/Alfredo_Volpi"
     ]
+  },
+  {
+    "id": "q06594",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "songkran",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Songkran, ano-novo celebrado em abril com uma gigantesca guerra de água nas ruas, é a festa mais famosa de qual país asiático?",
+    "resposta": "Tailândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Songkran_(Thailand)"
+    ]
+  },
+  {
+    "id": "q06595",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "hongi",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Encostar o nariz e a testa no rosto do outro, numa saudação chamada hongi, é um costume tradicional de qual país da Oceania?",
+    "resposta": "Nova Zelândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hongi"
+    ]
+  },
+  {
+    "id": "q06596",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "festa_de_sao_firmino",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Todo mês de julho, na festa de São Firmino, multidões correm pelas ruas à frente de touros bravos. Em que cidade espanhola?",
+    "resposta": "Pamplona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Running_of_the_bulls"
+    ]
+  },
+  {
+    "id": "q06597",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "maneki_neko",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O gatinho que acena com a pata levantada, comum na entrada de lojas e restaurantes asiáticos, é um amuleto nascido em qual país?",
+    "resposta": "Japão",
+    "distratores": [
+      "China",
+      "Coreia do Sul",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maneki-neko"
+    ]
+  },
+  {
+    "id": "q06598",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "coelho_da_pascoa",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A figura do coelho que esconde ovos coloridos para as crianças na Páscoa surgiu entre protestantes de qual país?",
+    "resposta": "Alemanha",
+    "distratores": [
+      "Holanda",
+      "Inglaterra",
+      "Suíça"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Easter_Bunny"
+    ]
+  },
+  {
+    "id": "q06599",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "corrida_de_carregar_a_esposa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na corrida de carregar a esposa, os maridos levam a mulher nas costas por uma pista de obstáculos. Em que país nasceu essa competição?",
+    "resposta": "Finlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wife-carrying"
+    ]
+  },
+  {
+    "id": "q06600",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "famadihana",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país africano, no ritual chamado famadihana, as famílias retiram os mortos dos túmulos, trocam suas mortalhas e dançam com eles?",
+    "resposta": "Madagascar",
+    "distratores": [
+      "Gana",
+      "Moçambique",
+      "Quênia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Famadihana"
+    ]
+  },
+  {
+    "id": "q06601",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "castells",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As torres humanas chamadas castells, com vários andares de pessoas de pé sobre os ombros umas das outras, são tradição de qual região da Espanha?",
+    "resposta": "Catalunha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castell"
+    ]
+  },
+  {
+    "id": "q06602",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "sechselauten",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade suíça, na primavera, se queima um boneco de neve chamado Böögg, cuja cabeça, ao explodir, prevê como será o verão?",
+    "resposta": "Zurique",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sechsel%C3%A4uten"
+    ]
+  },
+  {
+    "id": "q06603",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "dia_de_acao_de_gracas_no_canada",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os canadenses também comemoram o Dia de Ação de Graças, mas não em novembro, como os americanos. Em que mês?",
+    "resposta": "Outubro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thanksgiving_(Canada)"
+    ]
+  },
+  {
+    "id": "q06604",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "hinamatsuri",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Japão, o Dia das Meninas, ou Hinamatsuri, é festejado com bonecas da corte expostas em degraus. Em que data?",
+    "resposta": "Três de março",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hinamatsuri"
+    ]
+  },
+  {
+    "id": "q06605",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "dia_dos_santos_inocentes",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Espanha e na América hispânica, o dia das pegadinhas, parecido com o nosso primeiro de abril, cai em que data?",
+    "resposta": "Vinte e oito de dezembro",
+    "fonte": [
+      "https://es.wikipedia.org/wiki/D%C3%ADa_de_los_Santos_Inocentes",
+      "https://en.wikipedia.org/wiki/April_Fools%27_Day"
+    ]
+  },
+  {
+    "id": "q06606",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "dia_da_panqueca",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Reino Unido, existe o Dia da Panqueca, com corridas em que se vira a panqueca na frigideira. Ele é a véspera de qual data religiosa?",
+    "resposta": "Quarta-feira de Cinzas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shrove_Tuesday"
+    ]
+  },
+  {
+    "id": "q06607",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "midsommar",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Suécia, o Midsommar, com danças em volta de um mastro enfeitado com flores, é festejado em que mês?",
+    "resposta": "Junho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Midsummer"
+    ]
+  },
+  {
+    "id": "q06608",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "juneteenth",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Juneteenth, feriado americano que celebra o fim da escravidão, tem um nome que junta um mês e um dia. Que data é essa?",
+    "resposta": "Dezenove de junho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juneteenth"
+    ]
+  },
+  {
+    "id": "q06609",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "dia_de_acao_de_gracas_nos_estados_unidos",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1863, em plena Guerra Civil, que presidente americano começou a proclamar, a cada ano, um Dia de Ação de Graças nacional?",
+    "resposta": "Abraham Lincoln",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+    ]
+  },
+  {
+    "id": "q06610",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "papai_noel",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cartunista americano, nascido na Alemanha, ajudou a definir a imagem moderna do Papai Noel em desenhos publicados no século dezenove?",
+    "resposta": "Thomas Nast",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santa_Claus",
+      "https://en.wikipedia.org/wiki/Thomas_Nast"
+    ]
+  },
+  {
+    "id": "q06611",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "auld_lang_syne",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que poeta escocês do século dezoito escreveu os versos de Auld Lang Syne, cantada na virada do ano nos países de língua inglesa?",
+    "resposta": "Robert Burns",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Auld_Lang_Syne"
+    ]
+  },
+  {
+    "id": "q06612",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "ovo_faberge",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Os luxuosos ovos de Páscoa cravejados de joias que os czares russos davam às esposas e à mãe foram criados pela casa de qual joalheiro?",
+    "resposta": "Peter Carl Fabergé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Faberg%C3%A9_egg"
+    ]
+  },
+  {
+    "id": "q06613",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "dia_das_maes_nos_estados_unidos",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O Dia das Mães no segundo domingo de maio, adotado também no Brasil, nasceu nos Estados Unidos da campanha de qual mulher?",
+    "resposta": "Anna Jarvis",
+    "distratores": [
+      "Eleanor Roosevelt",
+      "Clara Barton",
+      "Susan B. Anthony"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)",
+      "https://en.wikipedia.org/wiki/Anna_Jarvis"
+    ]
+  },
+  {
+    "id": "q06614",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "parabens_a_voce",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, atribuída a quais irmãs?",
+    "resposta": "Irmãs Hill",
+    "distratores": [
+      "Irmãs Brontë",
+      "Irmãs Andrews",
+      "Irmãs Gabor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+      "https://en.wikipedia.org/wiki/Patty_Hill"
+    ]
+  },
+  {
+    "id": "q06615",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "sauna",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A sauna, banho de vapor muitas vezes seguido de um mergulho em água gelada, tem um nome vindo de qual idioma?",
+    "resposta": "Finlandês",
+    "distratores": [
+      "Sueco",
+      "Russo",
+      "Norueguês"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sauna"
+    ]
+  },
+  {
+    "id": "q06616",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "boxing_day",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Boxing Day, feriado britânico do dia seguinte ao Natal, nada tem a ver com o boxe. Segundo a explicação tradicional, as caixas de presentes davam nome ao dia e eram dadas a quem?",
+    "resposta": "Empregados e comerciantes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxing_Day"
+    ]
+  },
+  {
+    "id": "q06617",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "shichi_go_san",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Japão, crianças pequenas vestem trajes tradicionais e visitam santuários na festa Shichi-Go-San. O que significa esse nome?",
+    "resposta": "Sete, cinco, três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shichi-Go-San"
+    ]
+  },
+  {
+    "id": "q06618",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "ded_moroz",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Rússia, quem traz presentes às crianças no Ano-Novo é o Ded Moroz. O que significa esse nome?",
+    "resposta": "Avô Gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ded_Moroz"
+    ]
+  },
+  {
+    "id": "q06619",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "hamsa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O amuleto em forma de mão aberta, o hamsa, é chamado por muitos muçulmanos de mão de qual mulher, filha do profeta Maomé?",
+    "resposta": "Fátima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hamsa"
+    ]
+  },
+  {
+    "id": "q06620",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "kwanzaa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Kwanzaa, festa afro-americana de fim de ano, vem de uma expressão em suaíli. O que ela significa?",
+    "resposta": "Primeiros frutos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kwanzaa"
+    ]
+  },
+  {
+    "id": "q06621",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "onsen",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Muitos banhos termais japoneses, os onsen, barram quem tem tatuagem. Isso acontece porque as tatuagens lembram qual grupo?",
+    "resposta": "Yakuza, a máfia japonesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Onsen",
+      "https://en.wikipedia.org/wiki/Irezumi"
+    ]
+  },
+  {
+    "id": "q06622",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "cinco_de_maio",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Cinco de Maio, data muito festejada por mexicanos nos Estados Unidos, lembra a vitória na Batalha de Puebla sobre o exército de qual país?",
+    "resposta": "França",
+    "distratores": [
+      "Espanha",
+      "Estados Unidos",
+      "Inglaterra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cinco_de_Mayo",
+      "https://en.wikipedia.org/wiki/Battle_of_Puebla"
+    ]
+  },
+  {
+    "id": "q06623",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "festival_do_barco_dragao",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição, o Festival do Barco-Dragão, na China, homenageia qual poeta antigo, que se afogou num rio?",
+    "resposta": "Qu Yuan",
+    "distratores": [
+      "Confúcio",
+      "Du Fu",
+      "Lao-Tsé"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Boat_Festival",
+      "https://en.wikipedia.org/wiki/Qu_Yuan"
+    ]
+  },
+  {
+    "id": "q06624",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "morte_por_ventilador",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Coreia do Sul, uma crença popular diz que dormir num quarto fechado com qual aparelho ligado pode matar?",
+    "resposta": "Ventilador elétrico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fan_death"
+    ]
+  },
+  {
+    "id": "q06625",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "ramada",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A cada ano, o Ramadã começa cerca de onze dias mais cedo no nosso calendário. Por quê?",
+    "resposta": "Segue o calendário lunar islâmico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ramadan"
+    ]
+  },
+  {
+    "id": "q06626",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "quimono",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que faixa larga de tecido, amarrada na cintura, prende e completa o quimono japonês?",
+    "resposta": "Obi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obi_(sash)",
+      "https://en.wikipedia.org/wiki/Kimono"
+    ]
+  },
+  {
+    "id": "q06627",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "maslenitsa",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Maslenitsa, festa russa de despedida do inverno, come-se em grande quantidade que panqueca fina, redonda como o sol?",
+    "resposta": "Blini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maslenitsa"
+    ]
+  },
+  {
+    "id": "q06628",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "mehndi",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Antes do casamento, as noivas indianas têm mãos e pés decorados com desenhos feitos com que tinta vegetal?",
+    "resposta": "Hena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mehndi"
+    ]
+  },
+  {
+    "id": "q06629",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "christmas_cracker",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na ceia de Natal britânica, puxa-se um tubo de papel que estoura, o cracker. Que chapéu de papel sai de dentro dele?",
+    "resposta": "Uma coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_cracker"
+    ]
+  },
+  {
+    "id": "q06630",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "nowruz",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na mesa do Nowruz, o ano-novo persa, arrumam-se objetos cujos nomes começam com a letra s. Quantos são esses objetos?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haft-sin"
+    ]
+  },
+  {
+    "id": "q06631",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "rapazes_do_natal",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na Islândia, nas noites antes do Natal, as crianças recebem a visita de duendes travessos, os Rapazes do Natal. Quantos são eles?",
+    "resposta": "Treze",
+    "distratores": [
+      "Sete",
+      "Onze",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yule_Lads"
+    ]
+  },
+  {
+    "id": "q06632",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "senbazuru",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma tradição japonesa, quem dobrar quantos tsurus de papel terá um desejo realizado?",
+    "resposta": "Mil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senbazuru"
+    ]
+  },
+  {
+    "id": "q06633",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "arvore_de_natal",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que príncipe alemão, marido da rainha Vitória, ajudou a popularizar a árvore de Natal na Inglaterra do século dezenove?",
+    "resposta": "Príncipe Albert",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_tree"
+    ]
+  },
+  {
+    "id": "q06634",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "halloween",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Muitos costumes do Halloween são ligados a qual antigo festival gaélico, que marcava o fim da colheita e o início da metade escura do ano?",
+    "resposta": "Samhain",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samhain",
+      "https://en.wikipedia.org/wiki/Halloween"
+    ]
+  },
+  {
+    "id": "q06635",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "mascara_de_medico_da_peste",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Carnaval de Veneza, uma das máscaras mais conhecidas tem um longo bico curvo. Ela imita o traje de qual profissional do século dezessete?",
+    "resposta": "Médico da peste",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plague_doctor_costume",
+      "https://en.wikipedia.org/wiki/Carnival_of_Venice"
+    ]
+  },
+  {
+    "id": "q06636",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "gato_preto",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário do que muita gente pensa por aqui, na Grã-Bretanha cruzar com um gato preto costuma ser sinal de quê?",
+    "resposta": "Boa sorte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_cat"
+    ]
   }
 ]

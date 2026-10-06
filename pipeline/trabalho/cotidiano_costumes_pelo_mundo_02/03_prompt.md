@@ -1,0 +1,1736 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Costumes pelo Mundo** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Songkran",
+      "descricao": "Ano-novo tradicional tailandês, celebrado em abril com uma grande guerra de água nas ruas."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Songkran, ano-novo celebrado em abril com uma gigantesca guerra de água nas ruas, é a festa mais famosa de qual país asiático?",
+    "resposta": "Tailândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Songkran_(Thailand)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Songkran_(Thailand)",
+        "situacao": "ok",
+        "texto": "Thai New Year, also known as Songkran (Thai: สงกรานต์, pronounced [sǒŋ.krāːn]), or the Songkran Festival (Songkran Splendours), is the Thai New Year's national holiday. It is celebrated annually on 13 April, with the holiday period extending from 14 to 15 April.\n[…]\nSongkran in Eastern region is known as \"Wan Lai\" (วันไหล, [/wan lǎj]), which literally means \"flowing day.\" This term refers to the distinctive way the traditional New Year is celebrated here, with festivities continuing after the official national Songkran holiday (April 13–15). The celebration begins in Bang Saen (April 16–17), moves to Pattaya–Na Kluea (April 18–19), and continues on to Sattahip, Rayong, Ban Chang, and other areas, sometimes lasting until the end of April.\n[…]\nFor example, similar post-Songkran water festivities are held at Bang Boet Beach in Pathio District, Chumphon Province, as well as in Pathum Thani Province in the Bangkok metropolitan area. Within Bangkok itself, Wan Lai-style celebrations also take place in areas such as Phahurat–Wat Liap on Rattanakosin Island, reflecting the broader nationwide adaptation of extended Songkran traditions.\n[…]\nIn 2014, \"Celebrate Singapore,\" a large two-day Songkran-style water festival, was planned for Singapore and the event was promoted as the \"largest water festival party in Singapore.\" However, controversy emerged when the Tourism Authority of Thailand (TAT) Deputy Governor for Tourism Products, Vilaiwan Twichasri, claimed that Thailand holds exclusive rights to celebrate Songkran and planned to consult with officials at the Department of Intellectual Property, Ministry of Commerce and Ministry of Culture to discuss a potential lawsuit.\n[…]\nMedia related to Songkran in Thailand at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Songkran",
+        "situacao": "ok",
+        "texto": "O Songkran (em tailandês: สงกรานต์ Songkran, o sânscrito \"passar ou mover-se para\"), também chamado de Ano-Novo Tailandês começa oficialmente a ser celebrado no primeiro dia da quinta lua crescente e dura três dias, geralmente de 13 a 15 de abril.\n[…]\nA contagem dos anos também funciona de modo diferente no calendário tailandês. Nos países de calendário gregoriano, enquanto se estava no ano de 2008, os tailandeses celebravam o ano 2551, isto é, o calendário tailandês (que segue o calendário budista) está a 543 anos a frente do ocidental.\n[…]\nAtualmente, enquanto que no Ocidente é o ano de 2025, na Tailândia é o ano de 2568.\n[…]\nNa Tailândia, nos três dias do Songkran, as pessoas costumam vestir seus melhores trajes tomam as ruas para jogar água umas nas outras e observar os monges enquanto estes abençoam casas e imagens de Buda banhadas com águas e essências. Os tailandeses, também jogam água nas estátuas dos Budas como forma de respeito. Se você participar de um momento como esse, nunca deve jogar água na cabeça do Buda, apenas dos ombros para baixo para mostrar sinal de respeito.\n[…]\no Songkran pode ter desde tributos aos mais velhos da família até a guerra de água com os elefantes. Há um preparação para a comemoração baseada na decoração dos elefantes que iram desfilar e fazer parte da celebração da guerra de água. A crença desse tipo de celebração está baseada no ritual do banho, lavando a alma das coisas ruins e começo de uma fase nova.\n[…]\nNo Brasil, o Songkran ainda é muito pouco conhecido, mas a cada ano vem sendo mais festejado com incensos, flores, cardápios especiais e pequenos rituais nos restaurantes tailandeses paulistanos.\n[…]\nhttps://phiphibrazuca.com/como-e-o-ano-novo-tailandes-songkran-2023-e-2024/\n[…]\nCultura da Tailândia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Hongi",
+      "descricao": "Saudação tradicional maori em que duas pessoas encostam o nariz e a testa."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Encostar o nariz e a testa no rosto do outro, numa saudação chamada hongi, é um costume tradicional de qual país da Oceania?",
+    "resposta": "Nova Zelândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hongi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hongi",
+        "situacao": "ok",
+        "texto": "The hongi (Māori pronunciation: [ˈhɔŋi]) is a traditional Māori greeting performed by two people pressing their noses together, often including the touching of the foreheads. The greeting is used at traditional meetings among Māori people, and at major ceremonies, such as a pōwhiri. It may be followed by a handshake. It is a unisexual gesture, although women may be greeted by the post-colonial pra\n[…]\nIn the hongi, the ha (breath of life) is exchanged in a symbolic show of unity. Through the exchange of this greeting, manuhiri, visitors, blend with tangata whenua, the people of the land, and establish a connection.\n[…]\nA rāhui (temporary ban) was placed on the use of the hongi by some iwi and rūnanga (tribes and tribal councils) because of the COVID-19 pandemic.\n[…]\nThe hongi may be performed by Māori and non-Māori, and between New Zealanders and foreign visitors. Several British royals have been greeted with the hongi during visits to New Zealand, including: Charles III; Diana, Princess of Wales; Queen Camilla; Prince William and Catherine, Princess of Wales; and Prince Harry and Meghan Markle. U.S. Secretary of State Hillary Clinton was greeted with a hongi in November 2010 during her visit to Wellington. Former U.S.\n[…]\nPresident Barack Obama exchanged a hongi during a visit to the country in March 2018.\n[…]\nThe hongi is used in some churches as a way to share the sign of peace.\n[…]\nIn Native Hawaiian culture, the Honi is a practice similar to the Māori Hongi, involving touching noses."
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Festa de São Firmino",
+      "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Todo mês de julho, na festa de São Firmino, multidões correm pelas ruas à frente de touros bravos. Em que cidade espanhola?",
+    "resposta": "Pamplona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/San_Ferm%C3%ADn",
+      "https://en.wikipedia.org/wiki/Running_of_the_bulls"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/San_Ferm%C3%ADn",
+        "situacao": "desambiguacao",
+        "texto": "San Fermín or San Fermin may refer to:\n\nFestival of San Fermín, historically rooted celebration held annually in the city of Pamplona, Navarre\nSan Fermín de los Navarros, church located in Madrid, Spain\nSan Fermín earthquake, struck the island of Puerto Rico in 1918\nSan Fermín-Orcasur, station of the Madrid Metro\nSan Fermín (Madrid), ward of Madrid belonging to the district of Usera\nSan Fermin (al"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Running_of_the_bulls",
+        "situacao": "ok",
+        "texto": "A running of the bulls (Spanish: encierro, from the verb encerrar, 'to corral, to enclose'; Occitan: abrivado, literally 'haste, momentum'; Catalan: bous al carrer 'bulls in the street', or correbous 'bull-runner') is an event that involves running in front of a small group of bulls, typically six but sometimes ten or more, that have been let loose on sectioned-off streets in a town, usually as pa\n[…]\nThe most famous bull-run is the encierro held in Pamplona during the nine-day festival of Sanfermines in honor of Saint Fermin. It has become a major global tourism event, today very different from the traditional, local festival. More traditional summer bull-runs are held in other places such as towns and villages across Spain and Portugal, in some cities in Mexico, and in the Occitan (Camargue) region of southern France.\n[…]\nThe Pamplona encierro is the most popular in Spain and has been broadcast live by Televisión Española, the public Spanish national television service, for over 30 years. It is the highest-profile event of the San Fermín festival, which is held every year from 6–14 July. The first bull running is on 7 July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m.\n[…]\nIn 2014, Pamplona inaugurated a series of running events in June, the San Fermín Marathon, of a full marathon (42.195 km), half-marathon (21.097 km), or 10 km road race that concludes with the final 900m of each race using the encierro route, runners crossing the finish line inside the bullring.\n[…]\nFiske-Harrison, Alexander, ed. (2018). The Bulls Of Pamplona (1 ed.). Mephisto Press. ISBN 978-1986500272.\n[…]\nDefinitive Guide to Running with Bulls, Pamplona's Running of the Bulls, How To\n[…]\nA blog about Pamplona's annual bull-running festival\n[…]\nHow to attend or view the Pamplona festival"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Maneki-neko",
+      "descricao": "Estatueta de gato com a pata levantada, usada como amuleto de sorte em lojas e restaurantes."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O gatinho que acena com a pata levantada, comum na entrada de lojas e restaurantes asiáticos, é um amuleto nascido em qual país?",
+    "resposta": "Japão",
+    "distratores": [
+      "China",
+      "Coreia do Sul",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maneki-neko"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maneki-neko",
+        "situacao": "ok",
+        "texto": "The maneki-neko (招き猫, lit. 'beckoning cat') is a common Japanese figurine which is often believed to bring good luck to the owner. In modern times, they are usually made of ceramic or plastic. The figurine depicts a cat, traditionally a calico Japanese Bobtail, with a paw raised in a beckoning gesture.\n[…]\nThe figurines are often displayed in shops, restaurants, pachinko parlors, dry cleaners, laundromats, bars, casinos, hotels, nightclubs, and other businesses, generally near the entrance, as well as households. Some maneki-neko are equipped with a mechanical paw that slowly moves back and forth.\n[…]\nSuperstitions about the maneki-neko include it being able to \"beckon...customers into shops\" and \"bring good fortune and prosperity into households\", and it being an embodiment of \"fertile, life-enhancing feline energies.\"\n[…]\nHikone City's mascot, Hikonyan, a famous mascot in Japan, was created based on the folklore of Ii Naotaka and the maneki-neko of Gōtoku-ji Temple. Hikone City is home to Hikone Castle, a National Treasure that was the base of the Ii clan for generations.\n[…]\nFor the 2015 Trinidad and Tobago general election, won by the then opposition People's National Movement (PNM), a maneki-neko was utilized by the PNM in its campaign advertising days before election day, featuring a maneki-neko waving goodbye to then Prime Minister Kamla Persad-Bissessar alongside headlines of scandals linked to her People's Partnership administration taken from the front page of local newspapers.\n[…]\nThe maneki-neko has appeared or been used as an inspiration in Japanese and international media, such as the Pokémon Meowth, Dandadan character Turbo Granny, and as a Joker in the roguelike deck-building game Balatro.\n[…]\nNeko-dera\n[…]\nMedia related to Maneki neko at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maneki-neko",
+        "situacao": "ok",
+        "texto": "Maneki-neko (招き猫, literalmente conhecido como gato que convida), também conhecido como Gato da Sorte, Gato do Dinheiro ou da Boa Sorte é uma escultura asiática comum, na maior parte das vezes feita em cerâmica, que se crê trazer boa sorte ao seu dono. A escultura mostra um gato (tradicionalmente um Bobtail Japonês) a acenar com uma pata levantada, e é muitas vezes colocado em lojas, restaurantes, \n[…]\nPara os ocidentais pode parecer que o Maneki-neko está a acenar e não a sinalizar para chamar a atenção. Isto se deve à diferença entre gestos e linguagem corporal reconhecida pelos ocidentais e pelos japoneses, sendo que os japoneses utilizam o gesto de mão levantada com a palma para fora, dobrando os dedos para cima e para baixo para chamar a atenção de alguém; daí o aspecto do gato.\n[…]\n• Maneki-neko Branco: Traz Sorte e Felicidade\n[…]\n• Pata Direita Levantada: Traz Sorte e Fortuna\n[…]\n• Com as Duas Patas Levantadas: Traz Sorte em Dobro\n[…]\n• Passar A Mão na Orelha do Gato Trás Sorte\n[…]\nAlgumas pessoas sugerem que o Maneki-neko com a pata direita levantada é mais utilizada para residências, lojas e empresas, enquanto que o Maneki-neko com a pata esquerda levantada, é mais utilizado por estabelecimentos noturnos como bares, casas de gueixas, casas de shows e restaurantes.\n[…]\nUm amigo espadachim, pensando que o gato estava enfeitiçado, cortou sua cabeça. A cabeça do gatinho voou em direção ao teto e matou uma serpente que estava pronta para dar o bote em Usugumo. Ela ficou arrasada com a morte de seu companheiro e para animá-la, um cliente fez uma estátua em forma de gato para presenteá-la, dando origem ao primeiro Maneki-neko.\n[…]\nNo anime “Yu-Gi-Oh!” tem o “Neko Mane King”, uma estátua do Maneki-neko com estilo egípcio. Outra curiosidade interessante é que, segundo dizem, a gatinha mais famosa do Japão, a Hello Kitty, foi inspirada no Maneki-neko.\n[…]\nAliança Cultural Brasil-Japão",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Coelho da Páscoa",
+      "descricao": "Figura folclórica de um coelho que traz ou esconde ovos para as crianças na Páscoa."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A figura do coelho que esconde ovos coloridos para as crianças na Páscoa surgiu entre protestantes de qual país?",
+    "resposta": "Alemanha",
+    "distratores": [
+      "Holanda",
+      "Inglaterra",
+      "Suíça"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Easter_Bunny"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Easter_Bunny",
+        "situacao": "ok",
+        "texto": "The Easter Bunny (also called the Easter Rabbit or Easter Hare) is a folkloric figure and symbol of Easter, depicted as a rabbit—sometimes dressed with clothes—bringing Easter eggs to people. Originating among German Lutherans, the \"Easter Hare\" originally played the role of a judge, evaluating whether children were good or disobedient in behavior at the start of the season of Eastertide, similar \n[…]\nThe idea of an egg-giving hare went to the U.S. in the 18th century. Protestant German immigrants in the Pennsylvania Dutch area told their children about the \"Osterhase\" (sometimes spelled \"Oschter Haws\"). Hase means \"hare\", not rabbit, and in Northwest European folklore the \"Easter Bunny\" indeed is a hare. According to the legend, only good children received gifts of colored eggs in the nests that they made in their caps and bonnets before Easter.\n[…]\nThe earliest attested reference to the Easter Hare (Osterhase) appears in 1678, recorded in De ovis paschalibus ('About Easter Eggs') by the physician Georg Franck von Franckenau in south-west Germany. The tradition, however, remained largely unknown in other German regions until the 18th century. According to scholar Richard Sermon, hares were a common sight in gardens during the spring and may have provided a convenient explanation for the coloured eggs that were hidden there for children.\n[…]\nGerman immigrants subsequently carried the custom to Britain and America, where it developed into the Easter Bunny.\n[…]\nIn 1961 Christina Hole wrote, \"The [hare] is the true Easter beast, for he was once sacred to the European Spring-Goddess whom we have already met under her Anglo-Saxon name of Ēostre.\" The belief that Ēostre had a hare companion who became the Easter Bunny was popularized when it was presented as fact in the BBC documentary Shadow of the Hare (1993).\n[…]\nBott, Adrian (23 April 2011). The Modern Myth of the Easter Bunny. The Guardian."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coelhinho_da_P%C3%A1scoa",
+        "situacao": "ok",
+        "texto": "O Coelhinho da Páscoa, também chamado de Coelho da Páscoa ou Lebre da Páscoa, é uma figura folclórica e símbolo da Páscoa, representado por um coelho - às vezes vestido com roupas - trazendo ovos de Páscoa.\n[…]\nA tradição do Coelhinho da Páscoa foi transportada para a América pelos imigrantes alemães, entre o final do século XVII e o início do século XVIII. No sul do Brasil, nas regiões bilíngues, o Coelhinho da Páscoa também é chamado de Osterhoos no dialeto Riograndenser Hunsrückisch, e Osterhase no Alemão padrão.\n[…]\nNo Antigo Egito, o coelho simbolizava o nascimento e a nova vida.[carece de fontes]? Alguns povos da Antiguidade consideravam o coelho como o símbolo da Lua, portanto, é possível que ele tornou-se símbolo pascal devido ao fato da Lua determinar a data da Páscoa. O certo é que os coelhos são notáveis por sua capacidade de reprodução, e geram grandes ninhadas, e a Páscoa marca a ressurreição, vida nova, tanto entre os judeus quanto entre os cristãos.[carece de fontes]?\n[…]\nExiste também a lenda de que uma mulher pobre coloriu alguns ovos de galinha e os escondeu, para dá-los a seus filhos como presente de Páscoa. Quando as crianças descobriram os ovos, um coelho passou correndo. Espalhou-se, então, a história de que o coelho é que havia trazido os ovos. Desde então as crianças sempre acreditaram no coelhinho da páscoa, a história que seus pais lhes contavam. O Coelhinho da Páscoa é a principal atração entre as crianças.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Corrida de carregar a esposa",
+      "descricao": "Competição em que homens carregam a esposa nas costas por uma pista com obstáculos, com campeonato mundial em Sonkajärvi."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na corrida de carregar a esposa, os maridos levam a mulher nas costas por uma pista de obstáculos. Em que país nasceu essa competição?",
+    "resposta": "Finlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wife-carrying"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wife-carrying",
+        "situacao": "ok",
+        "texto": "Wife carrying (Finnish: eukonkanto or akankanto, Swedish: kärringkånk or kärringbärning) is a contest in which competitors race while each carrying a partner. While most teams consist of a man carrying a woman, there are generally no rules about gender or marital status. The objective is for the runner to carry their team‑mate through a route in the fastest time. The sport was first introduced in \n[…]\nEukonkanto originated in Finland. Tales have been passed down of a man named Herkko Rosvo‑Ronkainen (also known as Ronkainen the Robber). This man was thought to be a robber in the late 1800s who lived in a forest. He supposedly ran around with his gang of thieves causing harm to villagers. From what has been found, there are three ideas as to why and how this sport was invented.\n[…]\nWife‑carrying contests have taken place in Australia, the United States, Hong Kong, India, Germany, the UK, and other parts of the world besides Finland and nearby Sweden, Estonia, and Latvia, and the sport has a category in the Guinness Book of Records.\n[…]\n2013 – Mike Witko carrying Lindsey Finn (Witko went on to take third place carrying Hattie Archer in the World Championships in Finland)\n[…]\n2025 – Stuart Johnson carrying Hattie Cronin\n[…]\nThe US final takes place on the second weekend of July in Menahga Minnesota (MN-St. Urho Wife Carry for Charity Challenge). Wife-carrying competitions are also held in Monona, Wisconsin, Minocqua, Wisconsin and Marquette, Michigan.\n[…]\nThe North American Wife Carrying Championships takes place every year since 1999 on Indigenous People's Day Weekend in October at Sunday River Ski Resort in Newry, Maine.\n[…]\nBBC Presenters Mike Bushell and Steph McGovern reversed the roles when they took part in the UK annual wife-carrying competition in 2013, she carried him. Bushell said this was a first.\n[…]\nWife-carrying World Championship in Sonkajärvi\n[…]\nWife carrying competition in the UK"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_Carregamento_de_Mulheres",
+        "situacao": "ok",
+        "texto": "Campeonato Mundial de Carregamento de Mulheres ou ainda Campeonato Mundial de Carregamento de Esposas ((em inglês):Wife Carrying World Championships) é uma competição na qual o homem deve carregar uma mulher num percurso de 253,5 metros com obstáculos. Ganha quem fizer o percurso em menos tempo.\n[…]\nEste esporte é realizado anualmente na Finlândia desde 1997. O \"casal\" vencedor recebe como prêmio o peso da mulher em cerveja.\n[…]\nNo ano de 2012, 35 casais de vários países participaram da competição, realizada no pequeno vilarejo de Sonkajarvi, na Finlândia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Famadihana",
+      "descricao": "Ritual funerário malgaxe em que as famílias retiram os restos dos antepassados dos túmulos, trocam suas mortalhas e dançam com eles."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país africano, no ritual chamado famadihana, as famílias retiram os mortos dos túmulos, trocam suas mortalhas e dançam com eles?",
+    "resposta": "Madagascar",
+    "distratores": [
+      "Gana",
+      "Moçambique",
+      "Quênia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Famadihana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Famadihana",
+        "situacao": "ok",
+        "texto": "Famadihana is a funerary tradition of the Malagasy peoples of Madagascar. During this ceremony, known as the turning of the bones, people bring forth the bodies of their ancestors from the family crypts, rewrap the corpses in fresh cloth, and rewrite their names on the cloth so they will always be remembered. Then they dance to live music while carrying the corpses over their heads and go around t\n[…]\nFamadihana appears to be a custom of somewhat recent origin, perhaps only since the 17th century in its present form, although it may be an adaptation of premodern double funeral customs from Southeast Asia and Oceania. The custom is based upon a belief that the spirits of the dead finally join the world of the ancestors after the body's complete decomposition and appropriate ceremonies, which may take many years.\n[…]\nIn Madagascar, this became a regular ritual usually once every five to seven years, and the custom brings together extended families in celebrations of kinship, sometimes even those with troubled relations.\n[…]\nThe practice of Famadihana is on the decline due to the expense of silk shrouds and belief by some Malagasy that the practice is outdated. Early missionaries discouraged the practice, and Evangelical Christian Malagasy have abandoned the practice in increasing numbers. The Catholic Church, however, no longer objects to the practice, because it regards Famadihana as purely cultural rather than religious.\n[…]\nAdditionally, the practice of Famadihana is thought to be connected to pneumonic plague transmission in the region. The Malagasy government has issued rulings forbidding the practice for individuals who died of plague, but there have been reports of people ignoring this decree."
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Castells",
+      "descricao": "Torres humanas tradicionais, formadas por várias camadas de pessoas em pé sobre os ombros umas das outras."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As torres humanas chamadas castells, com vários andares de pessoas de pé sobre os ombros umas das outras, são tradição de qual região da Espanha?",
+    "resposta": "Catalunha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castell"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Castell",
+        "situacao": "ok",
+        "texto": "A castell (Catalan: [kəsˈteʎ]; lit. 'castle') is a human pyramid built traditionally at festivals in southern Catalonia (Spain), now also found in the rest of Catalonia, and in the Balearic Islands.\n[…]\nIn 2015 the Coordinadora de Colles Castelleres de Catalunya hosted 99 groups, including Castellers de Vilafranca and Minyons de Terrassa, who were able to construct the tallest human tower to date, the \"4 de 10\" (10 levels of people with four in each level).\n[…]\nenxaneta (\"rider\") : The topmost casteller, a child. When the enxaneta raises his or her hand in a four-finger gesture called the aleta, this indicates that the construction of the castell is complete.\n[…]\nThe Món Casteller Human Tower Museum of Catalonia, in the town of Valls, opened in 2023. The project is designed as a place of reference for the human tower universe where experiences can be lived out.\n[…]\nGrillats del CBL (Castelldefels)\n[…]\nCastellers de Sydney, (Sydney, Australia)\n[…]\nCastellers de Berlin, (Berlin, Germany)\n[…]\nCastellers de París (Paris, France)\n[…]\nCastellers of London (London, England)\n[…]\nColla Castellera d'Edinburgh, (Edinburgh, Scotland)\n[…]\nCastellers d'Irlanda (Dublin, Ireland)\n[…]\nCastellers de Montréal (Montréal, Québec, Canada)\n[…]\nCastellers de Lo Prado, (Santiago, Chile)\n[…]\nEnciclopèdia Castellera - A complete reference work, made available online by the Coordinadora de Colles Castelleres de Catalunya (in Catalan)\n[…]\nCatalan-English vocabulary for castells\n[…]\nSom Castells Archived 2013-04-21 at the Wayback Machine Documentary short film.\n[…]\nCoordinadora de Colles Castelleres de Catalunya (Official Association of Casteller Teams) (in Catalan)\n[…]\nlapinya.cat, a Castells forum (in Catalan)\n[…]\nThe site of the biannual castells competition held in Tarragona"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Castells",
+        "situacao": "ok",
+        "texto": "Castells é uma prática cultural tradicional da Catalunha que consiste em fazer construções humanas que se assemelham a castelos (em catalão, castells). \"Castellers\" é o nome dado aos seus executantes e embora não haja uma tradução para português desta palavra, poderíamos traduzir como \"castelheiros\" ou tendo como significado \"aqueles que fazem castelos humanos\".\n[…]\nOs Castells provavelmente surgiram do antigo \"Baile dos Valencianos\", uma dança realizada em procissões religiosas, que terminava com o alçamento de construções humanas. Com o tempo as construções foram ganhando altura e importância, até chegar ao ponto de se independizar das procissões e do baile. O mais parecido a estes bailes é a Muixeranga de Algemesí, de Valencia. No século XVIII a prática de alçar \"castells\" se populariza na região sul da Catalunha, principalmente em Tarragona e Valls.\n[…]\nDe acordo com o número de pessoas por andar, o castell pode ser:\n[…]\nQuatre de… amb l’agulla: quatro pessoas por andar com pilar de vários andares no meio do castell principal.\n[…]\nDos de set: duas pessoas por andar num castell de sete andares.\n[…]\nQuatre de vuit amb l’agulla: quatro pessoas por andar num castell de oito andares, com pilar de seis andares no interior (agulla).\n[…]\nTres de deu amb folre i manilles: três pessoas por andar num castell de dez andares com a segunda (folre) e terceira (manilles) bases.\n[…]\nUm castelo formado por apenas uma pessoa por andar é chamado de pilar (ex: pilar de seis), enquanto um castell formador de duas pessoas por andar também é chamado de torre (ex: torre de sete ou dois de sete). Mesmo assim, existem alguns nomes particulares para alguns castells: \"Catedral\" se refere a um 5 de 8, \"Carro gros\" (\"carruagem grande\") é um 4 de 8 e um \"Vano de pilars\" (\"leque de pilares\") trata-se de um pilar de 5 ou 6 central com dois inferiores ao lado.\n[…]\nCastellers de Vilafranca",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Sechseläuten",
+      "descricao": "Festa de primavera suíça em que se queima o Böögg, um boneco de neve cheio de explosivos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade suíça, na primavera, se queima um boneco de neve chamado Böögg, cuja cabeça, ao explodir, prevê como será o verão?",
+    "resposta": "Zurique",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sechsel%C3%A4uten"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sechsel%C3%A4uten",
+        "situacao": "ok",
+        "texto": "The Sechseläuten (Zurich German: Sächsilüüte, \"The six o'clock ringing of the bells\") is a traditional spring holiday in the Swiss city of Zurich celebrated in its current form, usually on the 3rd Monday of April, since the early 20th century.\n[…]\nIn 2008, heavy rains soaked the Böögg and the wood pyre materials so much that firemen had to spray the pyre with kerosene or fuel oil after initial ignition in addition to 15 liters of fire accelerant which was initially thrown on the pyre. It took 26 minutes  and 1 second for the Böögg's head head to explode which indicates a poor weather summer. The fact that the head, instead of traditionally exploding, burnt down very quietly caused a lot of confusion.\n[…]\nIn 2012, it took 12 minutes and 7 seconds, and in this year there was some confusion if both firecrackers in the neck of the Böögg had exploded. It was determined that 12 minutes, 7 secs was the mark.\n[…]\nIn 2021, the head exploded after 12 minutes and 57 seconds. Sechseläuten was again cancelled but the Böögg was still burned. To avoid crowds that could spread COVID-19 the Böögg was relocated to Schöllenen Gorge in the canton of Uri and burned outside Zurich for the first time in its history.\n[…]\nIn 2023 the head exploded in 57 minutes exactly, setting a new record. This year the Böögg also bore a halberd in memory of Canton Schwyz which was the guest.\n[…]\nIn 2026, the head exploded in 12 minutes and 48 seconds.\n[…]\nA very colorful afternoon parade of the 26 guilds in their historic dress costumes, each with its own band, most with a sizable mounted 'Reitergruppe', and horse drawn floats, to the 'Sechseläutenplatz' at the lakeshore where the Böögg is burnt.\n[…]\nMedia related to Sechseläuten at Wikimedia Commons\n[…]\n(in German) http://sechselaeuten.ch/"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Dia de Ação de Graças no Canadá",
+      "descricao": "Feriado canadense de agradecimento pela colheita, celebrado na segunda segunda-feira de outubro."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os canadenses também comemoram o Dia de Ação de Graças, mas não em novembro, como os americanos. Em que mês?",
+    "resposta": "Outubro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thanksgiving_(Canada)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thanksgiving_(Canada)",
+        "situacao": "ok",
+        "texto": "Thanksgiving or Thanksgiving Day, is an annual Canadian holiday held on the second Monday in October. Outside the country, it may be referred to as Canadian Thanksgiving to distinguish it from the American holiday of the same name and related celebrations in other regions.\n[…]\nThanksgiving has been officially celebrated as an annual holiday in Canada since November 6, 1879. While the date varied by year and was not fixed, it was commonly the second Monday in October.\n[…]\nYears later, French settlers, having crossed the ocean and arrived in Canada with explorer Samuel de Champlain, from 1604, also held feasts of thanks. They formed the Order of Good Cheer and held feasts, possibly with participation of some local indigenous groups or individuals with whom they had some contact, though this is apocryphal and may be derived from some conflation with the prominent American legend about their similar holiday.\n[…]\nMany of the members of the Old Colony Club, which consisted of descendants of the Pilgrims who partook in the traditional \"first Thanksgiving\" of 1621, were Loyalists; when they were exiled, they brought the customs and practices of the American Thanksgiving to Canada, such as the turkey, pumpkin, and squash.\n[…]\nFor many years before it was declared a national holiday in 1879, Thanksgiving was celebrated in either late October or early November. From 1879 onward, Thanksgiving Day has been observed every year, the date initially being a Thursday in November. After World War I, an amendment to the Armistice Day Act established that Armistice Day and Thanksgiving would, starting in 1921, both be celebrated on the Monday of the week in which November 11 occurred.\n[…]\nThanksgiving\n[…]\nPublic holidays in Canada"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_de_A%C3%A7%C3%A3o_de_Gra%C3%A7as_%28Canad%C3%A1%29",
+        "situacao": "ok",
+        "texto": "O Dia de Ação de Graças no Canadá (Action de grâce em Francês e Thanksgiving em Inglês) é comemorado na segunda-feira da segunda semana do mês de outubro, diferente dos Estados Unidos, que comemora a data na quinta-feira da quarta semana de novembro. Essa diferença se deve ao fato de que a colheita começa antes no Canadá, que tem o clima mais frio.\n[…]\nApós a Revolução Americana, os refugiados norte-americanos foram exilados nos Estados Unidos e se estabeleceram no Canadá. Eles trouxeram consigo costumes e tradições do Dia de Ação de Graças americano, embora, como uma festa litúrgica de Ação de Graças no Canadá também é o festival da colheita Europeia.\n[…]\nA primeira Ação de Graças no Canadá, após a Confederação se realizou em 5 de abril de 1872 para comemorar a recuperação do Príncipe de Gales (posteriormente Rei Eduardo VII), após uma doença grave. Antes dessa data, dia de Ação de Graças foi observado a partir de 1799, mas não realizava anualmente.\n[…]\nEm 31 de janeiro de 1957, o Parlamento do Canadá definiu a data definitiva do feriado: a segunda-feira da segunda semana de outubro.\n[…]\nEmbora o feriado de Ação de Graças ocorre em uma segunda-feira, os canadenses comem suas refeições de Ação de Graças em qualquer dia da semana. Ação de Graças é comemorada com a família, muitas vezes, também, é um tempo para passeios de fim de semana para observar as folhas do outono, ir a uma casa de campo, ou participar de diversas atividades ao ar livre, como caminhadas, pesca e caça.\n[…]\nMuito parecido com a festa norte-americana, a Liga de Futebol Profissional Canadense (Canadian Football League), televisiona nacionalmente o \"Thanksgiving Day Classic\" (Clássico de Ação de Graças). É uma das duas vezes em que partidas do campeonato acontecem nas tardes de segunda-feira, sendo a outra vez, no Dia do Trabalhador.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Shabat",
+      "descricao": "Dia semanal de descanso do judaísmo, que vai do pôr do sol de sexta-feira ao anoitecer de sábado."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O shabat, o dia semanal de descanso dos judeus, começa em que momento?",
+    "resposta": "Ao pôr do sol de sexta-feira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shabbat"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shabbat",
+        "situacao": "ok",
+        "texto": "Shabbat (UK: , US: , or ; Hebrew: שַׁבָּת, [ʃa'bat], lit. 'rest' or 'cessation') or the Sabbath (), also called Shabbos (UK: , US: ) by Ashkenazim, is Judaism's day of rest on the seventh day of the week—i.e., Saturday. On this day, religious Jews remember the biblical stories describing the creation of the heaven and earth in six days and the redemption from slavery and the Exodus from Egypt.\n[…]\nAll Jewish denominations encourage the following activities on Shabbat:\n[…]\nSpecial Shabbatot are the Shabbatot that precede important Jewish holidays: e.g., Shabbat HaGadol (Shabbat preceding Pesach), Shabbat Zachor (Shabbat preceding Purim), and Shabbat Shuvah (Shabbat between Rosh Hashanah and Yom Kippur).\n[…]\nSamaritans observe Shabbat, during which time all electricity, with the exception of minimal lighting (kept on the entire day), in the home is disconnected, no work is done, and neither cooking nor driving is allowed. The Kitab at-Tabbah prohibits swearing on Shabbat, and other medieval manuscripts indicate that breaking such prohibitions was once an offense punishable by death.\n[…]\nKaraite observe Shabbat on Saturday, but interpret Sabbath law differently from Rabbinic Judaism. For example, traditional Karaite practice has often been stricter about fire and electricity than mainstream Rabbinic practice.\n[…]\nSome hold the biblical sabbath was not connected to a seven-day week like the Gregorian calendar. Instead the New Moon marks the starting point for counting and the shabbat falls consistently on the 8th, 15th, 22nd, 29th of each month. Biblical text to support using the moon, a light in the heavens, to determine days include Genesis 1:14, Psalm 104:19, and Sirach 43:6–8  See references:\n[…]\nList of Shabbat topics\n[…]\nJewish prayer § Prayer on Shabbat\n[…]\nTechum shabbat or techum, physical area in which a Jew is permitted to walk on Shabbat and Jewish holidays\n[…]\nChabad.org What is Shabbat?"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shabat",
+        "situacao": "ok",
+        "texto": "Shabat (do hebraico שבת, shabāt; shabos ou shabes na pronúncia asquenazita, \"descanso/inatividade\"), também grafado como sabat ou sabá, é o dia de descanso semanal no judaísmo, simbolizando o sétimo dia no Gênesis, após os seis dias da Criação. É observado a partir do pôr-do-sol da sexta-feira até ao pôr-do-sol do sábado. O exato momento de início e final do shabat varia de semana para semana e de\n[…]\nO shabat atualmente é observado tanto por mandamentos positivos, como as três refeições festivas (jantar de sexta-feira, almoço de sábado e refeição de final de tarde no sábado), e restrições. As atividades proibidas no Shabat derivam de 39 ações básicas (melachot, livremente traduzido como \"trabalhos\") que são descritas pelo Talmud a partir de fontes bíblicas.\n[…]\nShabat é a fonte para o termo em português Sábado e para a palavra que denomina esse dia da semana em algumas outras línguas. A palavra \"sabático\" – referindo-se ao ano sabático na Bíblia ou ao ano que uma pessoa tira sem trabalhar, especialmente no mundo acadêmico –  também vem dessa raiz.\n[…]\nO Tanakh e o Sidur (livro judaico de orações) descrevem o Shabat como tendo três propósitos:\n[…]\nA tradição judaica acredita que um dia inicia com o pôr-do-sol e termina com o pôr-do-sol seguinte, pelo que o shabat se inicia com o pôr-do-sol da sexta-feira comum e termina com o pôr-do-sol do sábado comum.\n[…]\nEm algumas ocasiões a palavra Shabat refere-se à lei de Shemitá, a feriados judaicos ou a uma semana de dias, dependendo do contexto mas sempre associado a um período de cessação de trabalho.\n[…]\nUm não-judeu que “descansar” no Shabat é passível de pena capital, a não ser que seja peregrino entre os filhos de Israel       (Talmude Babilônico - Sanhedrin 58 b - 59 a). Isso destinava-se a não impedir que os gentios, que servissem os judeus, pudessem executar as tarefas que estavam vedadas aos seus patrões nesse dia feriado.\n[…]\nOnline Shabbat Guide",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Hinamatsuri",
+      "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Japão, o Dia das Meninas, ou Hinamatsuri, é festejado com bonecas da corte expostas em degraus. Em que data?",
+    "resposta": "Três de março",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hinamatsuri"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hinamatsuri",
+        "situacao": "ok",
+        "texto": "Hinamatsuri (Japanese: 雛祭り), also called Doll's Day or Girls' Day, is an annual festival in Japan (but not a national holiday), celebrated on 3 March of each year. Platforms covered with a red carpet material are used to display a set of ornamental dolls (雛人形, hina-ningyō) representing the emperor, empress, attendants, and musicians in traditional court dress of the Heian period.\n[…]\nDuring Hinamatsuri and the preceding days, girls hold parties with their friends. Typical foods include hina-arare (雛あられ, multi-colored rice crackers), chirashizushi (ちらし寿司, raw fish and vegetables on rice in a bowl or bento box), hishi mochi (菱餅, multi-colored rice cakes), ichigo daifuku (いちご大福, strawberries wrapped in adzuki bean paste), Sakuramochi (桜餅) and ushiojiru (うしお汁, clam soup, as clam shells represent a joined pair). The customary drink is shirozake (白酒, lit.\n[…]\nIt is said that the first time hina dolls were shown in the manner they are now as part of the Peach Festival was when the young princess Meisho succeeded to the throne of her abdicating father, Emperor Go-Mizunoo, in 1629. Because empresses regnant in Japan at the time were not allowed to get married, Meisho's mother, Tokugawa Masako, created a doll arrangement showing Meisho blissfully wedded. Hinamatsuri then officially became the name of the festival in 1687.\n[…]\nJapanese festivals\n[…]\nYurihonjo hinakaido – an annual trail of hina doll displays in Yurihonjo City\n[…]\nMurguia, Salvador Jimenez (2011). \"Hinamatsuri and the Japanese Female: A Critical Interpretation of the Japanese Doll Festival\". Journal of Asia Pacific Studies 2.2: 231–247.\n[…]\nHinamatsuri (Doll's Festival) (Archived 10 October 2009 at the Wayback Machine)\n[…]\nHinamatsuri in Sado, Niigata, Japan (Doll's Festival)\n[…]\nVideo on Hinamatsuri  (Hinamatsuri Girls' Day | Doll's Festival)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hinamatsuri",
+        "situacao": "ok",
+        "texto": "O Festival de Dia Das Meninas (雛祭り, Hinamatsuri), ou \"Dia das Meninas\" é uma festa típica japonesa, que ocorre no dia 3 de março - terceiro dia do terceiro mês. Plataformas com panos (緋毛氈, hi-mōsen) vermelhos em degraus são dispostas para expor bonecas (雛人形, hina-ningyō), que representam o Imperador, a Imperatriz, serviçais, músicos com as vestimentas tradicionais do período Heian. O certo e a qua\n[…]\nA fileira superior apresenta duas bonecas que representam o Imperador O-Dairi-sama (お内裏さま) e a Imperatriz O-Hina-sama (お雛さま). (Dairi significa Palácio Imperial, Hina é menina ou princesa). As bonecas são usualmente dispostas diante de uma tela dourada com dobradiças.\n[…]\nO segundo degrau traz três meninas San-nin kanjo (三人官女). Entre elas há um recipiente.\n[…]\nNo terceiro degrau estão cinco músicos Go-nin bayashi (五人囃し). Cada segura um instrumento musical, menos o cantor, que segura um leque.\n[…]\nO Hinamatsuri traz vestígios de um antigo costume japonês chamado Hina-nagashi (雛流し; lit. balsa da boneca) no qual bonecas feitas de papel eram colocadas num rio, que dirige-se ao mar, levando junto consigo os males ou os maus espíritos para proteger seus donos\n[…]\nDocinhos feitos com arroz glutinoso (mochigome) crocante e açucarado. A camada externa de açúcar tem as cores branca que representa a neve do final do inverno, verde que representa a grama nova e rosa, as flores de pessegueiro. Uma superstição popular diz que se a exposição inteira não for desmontada após o período do festival, a meninas de tal família não conseguem se casar futuramente.\n[…]\nO hishimochi também é um doce colorido com as cores verde, branca e rosa, como o hina-arare, mas é feito com a massa do arroz glutinoso. A massa é disposta em três ou cinco camadas. O doce geralmente é colocado nos altares decorativos da festa.\n[…]\nTango no Sekku (O festival equivalente, para meninos)\n[…]\nHina Matsuri Festival\n[…]\nHina Matsuri",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Dia dos Santos Inocentes",
+      "descricao": "Data cristã de 28 de dezembro que, na Espanha e na América hispânica, é o dia tradicional das pegadinhas."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Espanha e na América hispânica, o dia das pegadinhas, parecido com o nosso primeiro de abril, cai em que data?",
+    "resposta": "Vinte e oito de dezembro",
+    "fonte": [
+      "https://es.wikipedia.org/wiki/D%C3%ADa_de_los_Santos_Inocentes",
+      "https://en.wikipedia.org/wiki/April_Fools%27_Day"
+    ],
+    "trechos": [
+      {
+        "url": "https://es.wikipedia.org/wiki/D%C3%ADa_de_los_Santos_Inocentes",
+        "situacao": "ok",
+        "texto": "El Día de los Santos Inocentes es la conmemoración de un episodio hagiográfico del cristianismo: la matanza de los niños menores de dos años nacidos en Belén (Judea), ordenada por el rey Herodes I el Grande con el fin de deshacerse del recién nacido Jesús de Nazaret.\n[…]\nTambién se puede vivir el Día de Los Santos Inocentes de una forma especial en la población valenciana de Jalance. En este municipio del Valle de Ayora-Cofrentes, el 28 de diciembre se celebra la Fiesta de los Locos. Es una fiesta que data de principios del siglo XVII con una marcada simbología pagana. Los más jóvenes, vestidos con ropas estrafalarias y con maquillajes llamativos, tendrán el poder durante unas horas, mientras participan en las divertidas charangas.\n[…]\nLa capitana es la persona que tiene la responsabilidad de custodiar el cuadro o imagen de los santos inocentes, inscribe a las personas que se van a disfrazar, les cobra su contribución y prepara el café para los participantes en el rompimiento o inicio de la fiesta.[cita requerida]\n[…]\nEl capitán menor tiene la responsabilidad de ayudar en la coordinación y demás actividades que realiza el capitán mayor. Además este personaje dirige la recaudación de los fondos o dádivas necesarias entre los devotos, y en su cargo está el portar la imagen de los Santos Inocentes o cuadro simbólico.[cita requerida]\n[…]\nEsta costumbre popular de recordar el día de los Santos Inocentes se efectúa de igual manera y con otros nombres como Fiestas de los Santos Inocentes o Fiesta de los Locos o Locainas en varias ciudades y pueblos de Venezuela, como en Los Andes, Los Llanos y el Oriente.[cita requerida]\n[…]\nDía de las bromas de abril\n[…]\nWikimedia Commons alberga una categoría multimedia sobre Día de los Santos Inocentes."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/April_Fools%27_Day",
+        "situacao": "ok",
+        "texto": "April Fools' Day or April Fool's Day (rarely called All Fools' Day) is an annual custom in many Western countries on 1 April consisting of practical jokes, hoaxes, and pranks. Jokesters often expose their actions by shouting \"April Fool[s]!\" at the recipient. Mass media can be involved with these pranks, which may be revealed as such the following day. The custom of setting aside a day for playing\n[…]\nIn many Spanish-speaking countries (and the Philippines), \"Día de los Santos Inocentes\" (Holy Innocents Day) is a festivity that is very similar to April Fools' Day, but is celebrated in late December (27, 28 or 29 December depending on the location). Despite this, in Galicia April Fools' Day is also traditional, as accounted by Ramón Otero Pedrayo, as \"Día dos enganos\", and the tradition is embedded in a traditional saying about this day being the day when donkeys go where they must not go.\n[…]\n28 December, the equivalent day in Spain and Hispanic America, is also the Christian day of celebration of the Day of the Holy Innocents. The Christian celebration is a religious holiday in its own right, but the tradition of pranks is not, though the latter is observed yearly.\n[…]\nIn some regions of Hispanic America, after a prank is played, the cry is made, \"Inocente palomita que te dejaste engañar\" (\"You innocent little dove that let yourself be fooled!\"; not to be confused with another meaning of palomita, which means \"popcorn\" in some dialects).\n[…]\nIn Colombia, the phrase used is \"Pásala por Inocentes\", which means: \"Let it go, today is the Day of the Innocent.\"\n[…]\nAnother custom in Britain and North America is to say \"rabbit rabbit\" upon waking on the first day of a month, for good luck.\n[…]\n1 April 2025: the National Football League announced that records and statistics from the All-America Football Conference would be recognized in its official records."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_da_Mentira",
+        "situacao": "ok",
+        "texto": "O Dia da Mentira, também conhecido como Dia das Mentiras, dia das petas, dia dos tolos (de abril), dia da gafe ou dia dos bobos, é uma celebração anual em alguns países europeus e ocidentais, comemorada em 1 de abril, pregando partidas e espalhando boatos como formas de assinalar a data. Uma delas diz que a brincadeira surgiu na França. Desde o começo do século XVI, o Ano Novo era festejado no dia\n[…]\nEntre a população teutófona do sul do Brasil, onde a vasta maioria fala o dialeto alemão-riograndense (Riograndenser Hunsrückisch), o primeiro de abril se chama der Aprilscherz (a pegadinha de abril), sendo a vítima chamada de der Narr no masculino e die Narrin no feminino, aplicando-se frequentemente os vulgos termos der Dappes e der Dummkopp (o bobão).\n[…]\nNa Alemanha o primeiro de abril como Aprilschertz primeiramente foi registrado na Baviera em 1618, sendo que essa popular tradição germânica certamente foi introduzida pelas primeiras levas de imigrantes alemães que se assentaram permanentemente no Rio Grande do Sul a partir de 1824. Segundo a tradição, além de contar mentiras, existe o costume de se enviar uma pessoa desavisada a cumprir tarefas sem fundamento ou levar informações sem nexo para outrem.\n[…]\nPkislópodos - O 1º de abril da Wikipédia lusófona.\n[…]\nO jornal espanhol Mundo Desportivo anunciou que o Real Madrid entrou em briga pelo jogador Neymar e que o clube estaria oferecendo o jogador Kaká na negociação.\n[…]\nO programa Globo Esporte, antes dos créditos finais, exibiu um vídeo comemorando \"o primeiro título do Corinthians como campeão da Copa Libertadores da América\", título que o time é conhecido por nunca ter conseguido na época. O ato causou revolta entre alguns torcedores.\n[…]\nDia dos Santos Inocentes\n[…]\nPrimeiro de Abril: O Dia da Mentira da série FOLCLORE, editada pelo Departamento de Antropologia da FJN - nº 255\n[…]\n(em inglês) As 100 maiores mentiras de 1 de Abril de todos os tempos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Dia da Panqueca",
+      "descricao": "Nome popular, no Reino Unido, da Shrove Tuesday, dia em que se comem panquecas antes da Quaresma."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Reino Unido, existe o Dia da Panqueca, com corridas em que se vira a panqueca na frigideira. Ele é a véspera de qual data religiosa?",
+    "resposta": "Quarta-feira de Cinzas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shrove_Tuesday"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shrove_Tuesday",
+        "situacao": "ok",
+        "texto": "Shrove Tuesday (also known as Mardi Gras, Pancake Tuesday, or Pancake Day) is the final day of Shrovetide, which marks the end of the pre-Lenten season. Lent begins the following day with Ash Wednesday. Shrove Tuesday is observed in many Christian countries through participating in confession, the ritual burning of the previous year's Holy Week palms, finalizing one's Lenten sacrifice, as well as \n[…]\nOn the Portuguese island of Madeira, malasadas are eaten on Terça-feira Gorda (Fat Tuesday in English), which is also the last day of the Carnival of Madeira. Malasadas were cooked in order to use up all the lard and sugar in the house, in preparation for Lenten restrictions. This tradition was taken to Hawaii, where Shrove Tuesday is known as Malasada Day, which dates back to the days of the sugar plantations of the 1800s.\n[…]\nIn Ireland, the observance of fasting at Lent continued up to the 20th century, with Shrove Tuesday (Irish: Máirt na hInide, \"Tuesday of the initium\") marking the last day of the consumption of meat for the Lenten period. This was later relaxed, but with three days of fasting observed, Ash Wednesday, Spy Wednesday, and Good Friday. It was a tradition that the eldest unmarried daughter would toss the first pancake.\n[…]\nIf the pancake fell on the floor, she would remain unmarried for the next 12 months. As marriages were not traditionally permitted during the Lenten period, as decreed by the Council of Trent, weddings on Shrove Tuesday were popular. In some parts of Ireland the holly from Christmas was saved and burnt in the fire for the pancakes. The night was also known as \"Skellig Night\" in Counties Cork and Kerry, during the celebrations, those who were unmarried were taunted with jeers and singing.\n[…]\nShrove Tuesday occurs on these dates:\n[…]\nWorldwide Pancake Recipes: Archived 11 March 2014 at the Wayback Machine A collection of recipes from different countries"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ter%C3%A7a-feira_gorda",
+        "situacao": "ok",
+        "texto": "A terça-feira gorda (em francês: Mardi Gras), ou terça-feira de carnaval, é o dia de fevereiro ou março que precede a quarta-feira de cinzas. Portanto, é o último dia que antecede a Quaresma, e é comemorado em alguns países com o consumo de panquecas. Este feriado móvel é determinado pela Páscoa.\n[…]\nQuarta-feira de cinzas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Oktoberfest",
+      "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, em que mês começa a Oktoberfest de Munique?",
+    "resposta": "Setembro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oktoberfest"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst] ; Bavarian: Oktobafest/d'Wiesn) is the world's largest Volksfest. It combines a beer festival with a fun fair and is held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October.\n[…]\nAs of 2025, Oktoberfest includes 14 large and 20 small tents. They are temporary wooden structures built for use during the festival.\n[…]\nOktoberfest organizers implement strict waste management and restroom policies to maintain hygiene and safety on the festival grounds.\n[…]\nSeveral large folk festivals worldwide follow the model of Munich's Oktoberfest:\n[…]\nKitchener–Waterloo Oktoberfest (Kitchener, Canada) – around 700,000 visitors annually\n[…]\nBlumenau Oktoberfest (Blumenau, Brazil) – about 600,000 visitors annually\n[…]\nOktoberfest Zinzinnati (Cincinnati, United States) – held since 1976 in honour of the city's German heritage; over 500,000 visitors, the largest in the United States.\n[…]\nFestivals inspired by Oktoberfest are also held in Australia, Russia, Namibia and Japan.\n[…]\nIn Germany itself, many cities host their own Oktoberfest-style events:\n[…]\nOktoberfest Hannover – approximately 500,000 visitors, the second-largest Oktoberfest in Germany\n[…]\nA German historical drama called Oktoberfest: Beer and Blood was released in 2020. Set in 1900, it focuses on the showman brewer Curt Prank as he transforms the festival into a global tourist attraction by replacing the local brewery stands with one large pavilion. Critics have compared the show's graphic violence and German new wave music soundtrack to Peaky Blinders. A second season was announced by head writer Ronny Schalk in 2021.\n[…]\nBeer and Oktoberfest Museum\n[…]\nVirtual exhibition: Oktoberfest – History, Background, Highlights, in the culture portal bavarikon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oktoberfest",
+        "situacao": "ok",
+        "texto": "A Oktoberfest (também conhecida como \"Wiesn\" em Munique[carece de fontes]?) é um festival de cerveja originado em Munique, Alemanha. Foi criado pelo rei bávaro Luís I para celebrar o seu casamento em 1810. A Oktoberfest é também uma feira de produtos e diversões celebrada em Munique (München), no estado da Baviera (Bayern), no sul da Alemanha, e disseminada por vários lugares do mundo.\n[…]\nA Oktoberfest é frequentado anualmente por seis milhões de visitantes de todo o mundo e se inicia desde 1872 sempre no sábado depois do 15 de Setembro as 12h00 horas com a tradicional cerimonia de abertura \"O'zapft is\". Termina duas semanas mais tarde, no primeiro domingo de Outubro - daí o nome Oktoberfest (em alemão, \"Oktober\" significa outubro, \"Fest\", festa ou festival, literalmente \"Festa de Outubro\").\n[…]\nA Oktoberfest de Blumenau atrai turistas do Brasil e do exterior, especialmente da Alemanha. mas também de países vizinhos da América do Sul e da América do Norte, sendo considerada a maior festa alemã das Américas e a segunda maior do mundo - atrás apenas da Oktoberfest original, em Munique. Segundo o site oficial do evento, em 2009 a Oktoberfest de Blumenau, atraiu 731 934 visitantes que consumiram pouco mais de 450 mil litros de chope e 19 821 garrafas de cervejas importadas.\n[…]\nA Oktoberfest entrou para o calendário oficial de eventos da cidade apenas em 2017. Na ocasião, o evento foi realizado na Arena Anhembi, voltando a acontecer no mesmo local no ano seguinte. Em 2019, o festival ocorreu no Jockey Club.\n[…]\nVeja mais fotos da Oktoberfest.\n[…]\nOktoberfest de Igrejinha\n[…]\nOktoberfest de Santa Cruz do Sul\n[…]\nFotos de Oktoberfest\n[…]\n(em alemão) Oktoberfest Munique",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Midsommar",
+      "descricao": "Festa sueca do solstício de verão, com danças em volta de um mastro enfeitado com folhas e flores."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Suécia, o Midsommar, com danças em volta de um mastro enfeitado com flores, é festejado em que mês?",
+    "resposta": "Junho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Midsummer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Midsummer",
+        "situacao": "ok",
+        "texto": "Midsummer or Midsommar (Swedish: [ˈmɪ̌ˌsɔmːar] or [ˈmǐːdˌsɔmːar]) is a celebration of the season of summer, taking place on or near the date of the summer solstice in the Northern Hemisphere, the longest day of the year. The name midsummer mainly refers to summer solstice festivals of European origin. These cultures traditionally regard it as the middle of summer, with the season beginning on May \n[…]\nIn 1885, Holger Drachmann wrote a midsommervise (Midsummer hymn) called \"Vi elsker vort land...\" (\"We Love Our Country\") with a melody composed by P.E. Lange-Müller that is sung at most bonfires on this evening.\n[…]\nIn the Finnish midsummer celebration, bonfires (Finnish kokko) are very common and are burned at lakesides and by the sea. Often branches from birch trees (koivu) are placed on both side of the front door to welcome visitors. Swedish-speaking Finns often celebrate by erecting a midsummer or maypole (Swedish midsommarstång, majstång).\n[…]\nThe Swedish Midsummer tradition has also been the subject of film adaptations, such as the American horror movie Midsommar (2019).\n[…]\nSwedish Midsummer is also celebrated in other places with large Swedish and Scandinavian populations, such as Rockford, Illinois, Chicago, Minneapolis, Minnesota, and Lindsborg, Kansas. The Swedish \"language village\" (summer camp) Sjölunden, run by Concordia College in Minnesota, also celebrates Midsummer.\n[…]\nThe Seattle neighborhood of Fremont puts on a large Summer Solstice Parade and Pageant, which for many years has controversially included painted naked cyclists. In St. Edwards Park in Kenmore, the Skandia Folkdance Society hosts Midsommarfest, which includes a Scandinavian solstice pole.\n[…]\nThe Nativity of John the Baptist: The Midsummer Nativity\n[…]\nMidsummer's Festival on Hill of Tara, Ireland\n[…]\nMidsummer – 'WIANKI' in Krakow, Poland\n[…]\nCelebrating Kupallie, a pagan midsummer holiday – Belarus photo digest Belarus Digest"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festa_junina",
+        "situacao": "ok",
+        "texto": "Festas juninas, festas dos santos populares ou celebração do meio do verão são uma celebração da estação do verão do hemisfério norte, geralmente realizada em uma data próxima ao solstício de verão. Tem raízes pagãs pré-cristãs na Europa.\n[…]\nNo final do século VI, a Natividade de João Batista (24 de junho) tornou-se uma festa importante, contrabalançando no meio do verão a festa do Natal no meio do inverno.\n[…]\nPor volta do século VI, várias igrejas foram dedicadas em homenagem a São João Batista e uma vigília, Véspera de São João, foi acrescentada à festa de São João Batista e os padres cristãos celebraram três missas nas igrejas para a celebração.\n[…]\nNa Estônia, Letônia, Lituânia e Quebec (Canadá), o tradicional solstício de verão, 24 de junho, é feriado. Assim era antigamente também na Suécia e na Finlândia, mas nesses países o feriado foi, na década de 1950, transferido para a sexta e o sábado entre 19 e 26 de junho, respectivamente.\n[…]\nA festa de Ivan Kupala (João Batista) é conhecida como a mais importante de todas as festas dos povos eslavos orientais de origem pagã, e vai desde 23 de junho até 6 de julho. Há a lenda de que na noite de Ivan Kupala, aparece a flor da samambaia e quem a encontrar será rico e feliz para sempre (essa flor não existe). É um rito de celebração pelo verão, que foi absorvido pela Igreja Ortodoxa.\n[…]\nRealizam-se entre 20 e 26 de junho, sendo a sexta-feira (Midsommarafton) o dia mais tradicional, com as suas características  danças em círculo ao redor do majstången (mastro de maio), um mastro colocado no centro da aldeia e decorado por flores e ramos com folhas. O dia seguinte – sábado (Midsommardag) – é um dia feriado dedicado pela igreja à memória do nascimento de João Batista.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Juneteenth",
+      "descricao": "Feriado dos Estados Unidos que comemora a emancipação dos afro-americanos escravizados."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Juneteenth, feriado americano que celebra o fim da escravidão, tem um nome que junta um mês e um dia. Que data é essa?",
+    "resposta": "Dezenove de junho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juneteenth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Juneteenth",
+        "situacao": "ok",
+        "texto": "Juneteenth, officially Juneteenth National Independence Day, is a federal holiday in the United States. It is celebrated annually on June 19 to commemorate the end of slavery in the United States. The holiday's name, first used in the 1890s, is a portmanteau of June and nineteenth, referring to June 19, 1865, the day when Major General Gordon Granger ordered the final enforcement of the Emancipati\n[…]\nThe holiday is also a celebration of soul food and other cuisine with African-American influences. In Tourism Review International, Anne Donovan and Karen DeBres write that \"Barbecue is the centerpiece of most Juneteenth celebrations.\" Major news networks host specials and marathons on national outlets featuring prominent Black voices.\n[…]\nThat year, Black leaders in Texas raised $1,000 for the purchase of 10 acres (4 ha) of land, today known as Houston's Emancipation Park, to celebrate Juneteenth.\n[…]\nJuneteenth is a federal holiday in the United States. For decades, activists and congress members (led by many African Americans) proposed legislation, advocated for, and built support for state and national observances. During his campaign for president in June 2020, Joe Biden publicly celebrated the holiday. President Donald Trump, during his 2020 campaign for reelection, added making the day a national holiday part of his \"Platinum Plan for Black America\".\n[…]\nNational Freedom Day\n[…]\nCromartie, J. Vern. \"Freedom Came at Different Times: A Comparative Analysis of Emancipation Day and Juneteenth Celebrations.\" NAAAS Conference Proceedings. National Association of African American Studies, (2014) online.\n[…]\nTurner, E. H. \"Juneteenth: The Evolution of an Emancipation Celebration.\" European Contributions to American Studies. 65 (2006): 69–81.\n[…]\nCelebrating Freedom: Juneteenth and Emancipation Day Commemorations, Richmond, Va., Social Welfare History Project, Virginia Commonwealth University Libraries"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Juneteenth",
+        "situacao": "ok",
+        "texto": "Juneteenth (oficialmente chamado de Juneteenth National Independence Day ou historicamente como Jubilee Day, Emancipation Day [\"Dia da Emancipação\"], Freedom Day [\"Dia da Liberdade\"] ou Black Independence Day [\"Dia da Independência dos Negros\"]) é um feriado nacional nos Estados Unidos que comemora a emancipação dos afro-americanos escravizados. É normalmente visto como uma celebração a cultura af\n[…]\nOriginário da região de Galveston, Texas, tem sido celebrado anualmente em 19 de junho em várias partes dos Estados Unidos desde 1866. O Juneteenth foi oficialmente reconhecido como um feriado federal em 17 de junho de 2021, quando o Presidente Joe Biden assinou a respectiva lei.\n[…]\nA data faz referência a 19 de junho de 1865, o dia que o general Gordon Granger emitiu a \"Ordem Nº3\", proclamando e fazendo cumprir a liberdade das pessoas escravizadas no Texas, que foi o último estado da Confederação que ainda mantinha a instituição da escravidão bem ativa.\n[…]\nDurante o movimento dos direitos civis na década de 1960, essas celebrações foram eclipsadas pelos protestos por igualdade, mas a partir da década de 70, o Juneteenth voltou a ganhar popularidade na comunidade afro-americana. Começando no Texas por proclamação em 1938 e força de legislação em 1979, cerca de 49 estados e o Distrito de Colúmbia já haviam reconhecido o Juneteenth formalmente como uma data especial.\n[…]\nO Juneteenth era reconhecido como um feriado estadual ou data especial observada em muitos estados nos Estados Unidos, porém, em 2021, foi oficialmente reconhecido pelo Congresso como um feriado nacional a ser observado por todas as entidades federativas da União.\n[…]\nA 19 de junho de 2024, durante uma celebração do Juneteenth junto ao Lago Merritt, em Oakland, nos Estados Unidos, ocorreu um tiroteio e várias pessoas foram baleadas. Felizmente não existiram vítimas mortais, mas algumas pessoas foram hospitalizadas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Dia de Ação de Graças nos Estados Unidos",
+      "descricao": "Feriado americano de agradecimento, celebrado na quarta quinta-feira de novembro."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1863, em plena Guerra Civil, que presidente americano fixou o Dia de Ação de Graças como data nacional?",
+    "resposta": "Abraham Lincoln",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+        "situacao": "ok",
+        "texto": "Thanksgiving is a federal holiday in the United States celebrated on the fourth Thursday of November (which became the uniform date country-wide in 1941). The earliest Thanksgiving can occur is November 22; the latest is November 28. Outside the United States, it is called American Thanksgiving to distinguish it from the Canadian holiday of the same name and related celebrations in other regions.\n[…]\nHer efforts sought to expand the holiday from a regional celebration to a national one not only through advocacy in her magazine but also in direct appeals to several U.S. presidents, including Abraham Lincoln, who began annual national proclamations of autumn Thanksgivings in 1863.\n[…]\nIn the middle of the American Civil War, President Abraham Lincoln, prompted by a series of editorials written by Sarah Josepha Hale, began the regular practice of proclaiming a national Thanksgiving.\n[…]\nProclamation of President Abraham Lincoln, October 3, 1863.\n[…]\nAbraham Lincoln's successors as president followed his example of annually declaring the final Thursday in November to be Thanksgiving. But in 1939, President Franklin D. Roosevelt broke with this tradition. November had five Thursdays that year (instead of the more-common four), Roosevelt declared the fourth Thursday as Thanksgiving rather than the fifth one.\n[…]\nSome legends date the origins of pardoning turkey to the Truman administration or even to Abraham Lincoln pardoning his son's Christmas turkey; both stories have been quoted in more recent presidential speeches, but neither has any evidence in the Presidential record.\n[…]\n\"Thanksgiving Day Parade\", a song by Dan Bern on his album New American Language (2001).\n[…]\n\"Thanksgiving proclamations\". FreeAudio.org. Archived from the original on November 22, 2010. Retrieved November 26, 2010. Free audio readings of Thanksgiving proclamations by William Bradford, George Washington, and Abraham Lincoln"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Papai Noel",
+      "descricao": "Personagem natalino que traz presentes às crianças, derivado de São Nicolau."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O Papai Noel gordo, barbudo e morador do Polo Norte ganhou sua imagem moderna nos desenhos de qual cartunista americano do século dezenove?",
+    "resposta": "Thomas Nast",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Nast",
+      "https://en.wikipedia.org/wiki/Santa_Claus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Nast",
+        "situacao": "ok",
+        "texto": "Thomas Nast (; German: [nast]; September 26, 1840 – December 7, 1902) was a German-born American caricaturist and editorial cartoonist often considered to be the \"Father of the American Cartoon\".\n[…]\nAdler, John (2022). America's Most Influential Journalist and Premier Political Cartoonist: The Life, Times and Legacy of Thomas Nast. Harp Week Press.\n[…]\nBoime, Albert (1972). \"Thomas Nast and French Art\". American Art Journal. 4 (1): 43–65.\n[…]\nHuntzicker, William E. (2017). \"Thomas Nast, Harper's Weekly, and the Election of 1876\". In Sachsman, David B. (ed.). After the War: The Press in a Changing America, 1865–1900. Routledge. pp. 53–68.\n[…]\nJarman, Baird (2010). \"The Graphic Art of Thomas Nast: Politics and Propriety in Postbellum Publishing\". American Periodicals. 20 (2): 156–189.\n[…]\nOrr, Brooke Speer (2014). \"Crusading Cartoonist: Thomas Nast\". Reviews in American History. 42 (2): 292–295. — review of Halloran (2012)\n[…]\nPflueger, Lynda (2000). Thomas Nast: Political Cartoonist. Historical American Biographies. Berkeley Heights, NJ: Enslow Publishers, Inc. — for middle schools\n[…]\nHalloran, Fiona Deans (2012). Thomas Nast: The Father of Modern Political Cartoons. Chapel Hill, NC: The University of North Carolina Press. ISBN 9780807835876.\n[…]\nThomas Nast Caricatures of the Civil War, Reconstruction, Santa Claus, Napoleon, Catholicism, Boss Tweed, Tammany Hall and more.\n[…]\n\"Nast, Thomas\" . Appletons' Cyclopædia of American Biography. 1900.\n[…]\nThomas Nast on History Buff.\n[…]\nThomas Nast takes down Tammany: A cartoonist's crusade against a political boss from the Museum of the City of New York Collections blog\n[…]\nWorks by Thomas Nast at Project Gutenberg\n[…]\nWorks by or about Thomas Nast at the Internet Archive"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Santa_Claus",
+        "situacao": "ok",
+        "texto": "Santa Claus is a legendary figure originating in Western Christian culture who is said to bring gifts during the late evening and overnight hours on Christmas Eve. Christmas elves are said to make the gifts in Santa's workshop, while flying reindeer pull his sleigh through the air.\n[…]\nOdin's role during the Yuletide period has been theorised as having influenced concepts of Saint Nicholas and Santa Claus in a variety of facets, including his long white beard and his grey horse for nightly rides (compare Odin's horse Sleipnir) or his reindeer in North American tradition.\n[…]\nAs the years passed, Santa Claus evolved into a large, heavyset person. One of the first artists to define the modern image of Santa Claus was Thomas Nast, a German-born American cartoonist of the 19th century who immortalised Santa Claus with an illustration for the 3 January 1863 issue of Harper's Weekly in which Santa was dressed in an American flag, and had a puppet with the name \"Jeff\" written on it, reflecting its American Civil War context.\n[…]\nNast was inspired by the Belsnickel, part of the folklore in southwestern Germany, where he was born. In this drawing, Santa is also in a sleigh pulled by reindeer.\n[…]\nSanta is generally depicted as a portly, jolly, white-bearded man, often with glasses, wearing a red outfit consisting of jacket, trousers and hat all trimmed with white fur, accessorised with black leather belt and boots, and carrying a bag full of gifts for children. The 1823 poem \"A Visit from St. Nicholas\" popularised this image in North America during the 19th century. The caricaturist and political cartoonist Thomas Nast also played a role in the creation of Santa's image.\n[…]\nResearch guides for Thomas Nast and Santa Claus at The Morristown & Morris Township Public Library, NJ"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Thomas_Nast",
+        "situacao": "ok",
+        "texto": "Thomas Nast ([næst]; de; 26 de setembro de 1840 – 7 de dezembro de 1902) foi um caricaturista e cartunista editorial americano nascido na Alemanha, frequentemente considerado o \"Pai do Cartum Americano\".\n[…]\nEm 1890, Nast publicou Thomas Nast's Christmas Drawings for the Human Race. Ele contribuiu com cartuns em várias publicações, notavelmente o Illustrated American, mas não conseguiu recuperar sua popularidade anterior. Seu modo de fazer cartuns passou a ser visto como ultrapassado, e um estilo mais relaxado exemplificado pelo trabalho de Joseph Keppler estava em voga. Problemas de saúde, que incluíam dores nas mãos que o incomodavam desde a década de 1870, afetavam sua capacidade de trabalhar.\n[…]\nO Prêmio Thomas Nast de cartum editorial tem sido concedido pela Fundação Thomas Nast (localizada no local de nascimento de Nast, Landau, Alemanha) desde 1978, quando foi concedido pela primeira vez a Jeff MacNelly. O prêmio é concedido periodicamente a um cartunista alemão e a um cartunista norte-americano. Os vencedores recebem 1.300 euros, uma viagem a Landau e a medalha Thomas Nast. O comitê consultivo americano inclui o descendente de Nast, Thomas Nast III, de Fort Worth, Texas.\n[…]\nHalloran, Fiona Deans (2012). Thomas Nast: The Father of Modern Political Cartoons. Chapel Hill, NC: The University of North Carolina Press. ISBN 9780807835876\n[…]\nThomas Nast collection at Princeton University Library; 600 dos desenhos originais de Nast e xilogravuras publicadas\n[…]\nThomas Nast Caricatures of the Civil War, Reconstruction, Santa Claus, Napoleon, Catholicism, Boss Tweed, Tammany Hall and more.\n[…]\nObras de Thomas Nast (em inglês) no Projeto Gutenberg\n[…]\nObras de ou sobre Thomas Nast no Internet Archive",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Chá da tarde",
+      "descricao": "Refeição leve britânica de chá com bolos e sanduíches servida no meio da tarde."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 1840, para matar a fome antes do jantar, que aristocrata inglesa teria criado o costume do chá da tarde?",
+    "resposta": "Anna Russell, duquesa de Bedford",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tea_(meal)",
+      "https://en.wikipedia.org/wiki/Anna_Russell,_Duchess_of_Bedford"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tea_(meal)",
+        "situacao": "ok",
+        "texto": "Tea is an umbrella term for several different meals consisting of food sometimes accompanied by tea to drink. The English writer Isabella Beeton, whose books on home economics were widely read in the 19th century, describes meals of various kinds and provides menus for the \"old-fashioned tea\", the \"at-home tea\", the \"family tea\", and the \"high tea\".\n[…]\nWhile the custom of drinking tea in the afternoon may have existed from the late 17th century, tea as a meal is a later invention, dating to the late 18th or early 19th centuries. An early French reference to \"afternoon tea\" was made by Madame de Sévigné (1626–1696), who used the term thé de cinq heures (\"five o’clock tea\") in her letters.\n[…]\nAnna Russell, the Duchess of Bedford, is commonly cited as the originator of the meal of afternoon tea. Accordingly to the story, at some time in the 1830s or 1840s, the duchess requested a collation of tea and snacks be sent up to her room between the mid-day and evening meals. During this period, it was the custom for the aristocracy to take their evening meal no earlier than 19:30, or 20:00.\n[…]\nThe custom of afternoon tea first spread among the aristocracy. It was later adopted by others in emulation, and by the 1860s–1870s, it had spread to the middle class. While afternoon tea, also known as \"low tea\" became popular among the upper and middle classes, the working class adopted a different meal called \"high tea\", which was taken around the same time, but much heartier. This separate custom emerged due to a change in working habits.\n[…]\nIn Russia, the term \"five o'clock tea\" became a symbol of refined lifestyle and entered the vocabulary of the Russian intelligentsia in the late 19th century. Among lower social strata, afternoon tea with a samovar also became a habit.\n[…]\nPost, Emily (1922). \"Chapter XIII: Teas and Other Afternoon Parties\". Etiquette."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Anna_Russell,_Duchess_of_Bedford",
+        "situacao": "ok",
+        "texto": "Anna Maria Russell, Duchess of Bedford (née Stanhope; 3 September 1783 – 3 July 1857) was a lifelong friend of Queen Victoria, whom she served as a Lady of the Bedchamber between 1837 and 1841.\n[…]\nAnna was the daughter of Charles Stanhope, 3rd Earl of Harrington, and Jane Fleming. She was the wife of Francis Russell, 7th Duke of Bedford (married in 1808), and sister-in-law to the prime minister John Russell. She was also the mother of William Russell, 8th Duke of Bedford. She became Duchess of Bedford in 1839, when her husband acceded to the dukedom.\n[…]\nAccording to the British Museum, the Duchess invented the custom of taking afternoon tea, in around 1840. Due to increasing urbanisation and industrialisation, wealthy English people were having their evening meal later and later, but still eating lunch at midday. The Duchess became despondent at the void between the two meals, and its consequent 'sinking feeling'.\n[…]\nThe Duchess and her husband entertained the Queen at their country house Woburn Abbey in 1841. The Duchess was also the chief mourner at the funeral of Princess Augusta Sophia in 1840.\n[…]\nAfter inventing the afternoon tea ritual, the Duchess started inviting her friends to join in. As those friends were also royal courtiers, the Queen became aware of the nascent custom, and immediately approved. By the 1880s, the Queen had adopted the ritual herself, and was holding official tea receptions at her palaces.\n[…]\nThe Duchess died in 1857 and is buried in the Bedford chapel at Chenies in Buckinghamshire."
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Auld Lang Syne",
+      "descricao": "Canção escocesa cantada na virada do ano em países de língua inglesa, conhecida no Brasil pela melodia da Valsa da Despedida."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que poeta escocês do século dezoito escreveu os versos de Auld Lang Syne, cantada na virada do ano nos países de língua inglesa?",
+    "resposta": "Robert Burns",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Auld_Lang_Syne"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Auld_Lang_Syne",
+        "situacao": "ok",
+        "texto": "\"Auld Lang Syne\" (Scots: [ˈɔːl(d) lɑŋ ˈsəi̯n]) is a Scottish song. In the English-speaking world it is traditionally sung to bid farewell to the old year at the stroke of midnight on Hogmanay, or New Year's Eve. It is also often heard at funerals and graduations and as a farewell or ending to other occasions; for instance, many branches of the Scouting movement use it to close jamborees and other \n[…]\nThe text is a Scots-language poem written  by Robert Burns in 1788, but it is based on an older Scottish folk song. In 1799 it was set to a traditional pentatonic tune, which has since become standard. \"Auld Lang Syne\" is listed as numbers 6294 and 13892 in the Roud Folk Song Index.\n[…]\nIts Scots title may be translated into standard English as \"old long since\" or, less literally, \"long long ago\", \"days gone by\", \"times long past\" or \"old times\". Consequently, \"For auld lang syne\", as it appears in the first line of the chorus, might be loosely translated as \"for the sake of old times\". The phrase auld lang syne is also used in similar poems by Robert Ayton (1570–1638), Allan Ramsay (1686–1757) and James Watson (1711), as well as older folk songs predating Burns.\n[…]\nIn Denmark the song was translated in 1927 by the Danish poet Jeppe Aakjær. Much like Robert Burns' use of dialect, Aakjær translated the song into Sallingbomål, a form of the Jutlandic dialect. The song \"Skuld gammel venskab rejn forgo\" is an integral part of the Danish Højskole tradition, and often associated with more rural areas and old traditions.\n[…]\nImage of Robert Burns' autograph manuscript\n[…]\nAuld Lang Syne score Archived 15 April 2021 at the Wayback Machine from the Robert Burns website at National Library of Scotland\n[…]\nAn Early American \"Auld Lang Syne\"\n[…]\n\"History of Auld Lang Syne\". National Geographic. 31 December 2017 – via YouTube.\n[…]\nAuld Lang Syne public domain audiobook at LibriVox (multiple versions)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auld_Lang_Syne",
+        "situacao": "ok",
+        "texto": "Auld Lang Syne é uma tradicional canção em escocesa (scots). Normalmente, é cantado para dizer adeus ao ano velho ao bater da meia-noite do Ano Novo/Hogmanay. Por extensão, também é frequentemente ouvido em funerais, formaturas e como despedida ou encerramento de outras ocasiões; por exemplo, muitos ramos do movimento escoteiro usam-no para encerrar jamborees e outras funções.\n[…]\nTrata-se de um poema escocês escrito por Robert Burns em 1788. Foi adaptada para uma tradicional melodia popular, bem conhecida em países de língua inglesa e é muitas vezes cantada para comemorar o início do ano novo.\n[…]\nRobert Burns enviou uma cópia da canção original para Museu musical escocês com a observação: “a canção seguinte, uma velha canção, dos tempos velhos, e que nunca esteve na impressão, nem até no manuscrito até que eu o derrubasse de um velho homem\". Alguns versos líricos de fato foram \"reunidos\" e não compostos pelo poeta; o verso \"Old Long Syne” impresso em 1711 por James Watson mostra uma semelhança considerável como primeiro verso do poema de Burns.\n[…]\nvéspera de Ano Novo em Londres\" (Londres, Inglaterra) (1910)–Costumes usuais observados por Pessoa de todas as classes… A passagem do ano velho foi comemorada em Londres muito como de costume.Os residentes escoceses recolheram fora da igreja St. Paul' e cantou “Lang Auld Syne” no o último curso soados do grande sino.\n[…]\nComo dito acima, Auld Lang Syne significa literalmente \"muito tempo desde que\", mas uma tradução mais detalhada ficaria algo como \"muito tempo atrás\" \"dias de muito tempo atrás\", ou \"velhos tempos\". \"Pelos velhos tempos\" ou \"para os (bons) velhos tempos\"; e pode ser expressões dos nossos dias como o uso comum em brindes que fortalece o espírito de Auld Lang Syne. a confusão sobre a significação exata das palavras levou a um uso comum de \"For the sake of\" ou \"For the days of\" no último verso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Ovo Fabergé",
+      "descricao": "Ovo de Páscoa de joalheria produzido para os czares da Rússia no fim do século dezenove e início do vinte."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Os luxuosos ovos de Páscoa cravejados de joias que os czares russos davam às esposas e à mãe foram criados pela casa de qual joalheiro?",
+    "resposta": "Peter Carl Fabergé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Faberg%C3%A9_egg"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Faberg%C3%A9_egg",
+        "situacao": "ok",
+        "texto": "A Fabergé egg (Russian: яйцо Фаберже, romanized: yaytso Faberzhe) is a jewelled egg first created by the jewellery firm House of Fabergé, in Saint Petersburg, Russia. As many as 69 eggs were created during the Tsarist era, of which 61 are known to have survived.\n[…]\nThe most famous of the house creations are the 50 Imperial Easter eggs manufactured under the supervision of Peter Carl Fabergé, between 1885 and 1917, of which 44 are known to be in complete or partial physical existence, leaving the fate of those remaining unknown. The eggs are very highly sought-after collectors' items.\n[…]\nTwo more Fabergé Easter Imperial eggs (bringing the total to 52) were designed but were not delivered. One egg, known as the Karelian Birch Egg, has sketches but is not confirmed to have actually been made, and the other, the Blue Tsesarevich Constellation Egg, was only partially completed, due to the Russian Revolution of 1917. In 2011, Theo Fabergé, grandson of Peter Carl Fabergé, created a series of eggs as part of the St. Petersburg Collection.\n[…]\nTechniques such as guilloché enamelling were introduced by Fabergé, and quality was overseen and approved by Peter Carl himself, or in his absence, by his eldest son Eugène, before it was placed into stock. The smallest of faults would result in rejection.\n[…]\nAfter the Russian Revolution, the Bolsheviks nationalised the House of Fabergé, and the Fabergé family fled to Switzerland, where Peter Carl Fabergé died in 1920. The imperial family's palaces were ransacked and their treasures moved to the Kremlin Armoury on order of Vladimir Lenin.\n[…]\nTatiana Fabergé\n[…]\nFabergé Imperial Egg Chronology at Fabergé Research website by Christel Ludewig McCanless\n[…]\n\"Fabergé: The iconic maker of bespoke jewellery\" at the BBC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ovo_Faberg%C3%A9",
+        "situacao": "ok",
+        "texto": "Os ovos Fabergé são obras-primas da joalharia produzidas por Peter Carl Fabergé e seus assistentes no período de 1885 a 1917 para os czares da Rússia. Os ovos, cuidadosamente elaborados com uma combinação de esmalte, metais e pedras preciosas, escondiam surpresas e miniaturas. Encomendados a Peter Carl Fabergé, eram oferecidos na Páscoa entre os membros da família imperial.\n[…]\nFabergé e seus ourives desenharam e construíram o primeiro ovo em 1885. Ele foi encomendado pelo czar Alexandre III como um presente de Páscoa para sua esposa Maria Feodorovna. Exteriormente ele parecia um simples ovo de ouro esmaltado, mas ao abri-lo, revelava-se uma gema de ouro, que dentro de si possuía uma galinha, que por sua vez continha um pingente de rubi e uma réplica em diamante da coroa imperial. Tais características lembram os bonecos matrioska.\n[…]\nFaberge também foi contratado para fazer ovos para Alexander Ferdinandovich Kelch, um industrial de minas de ouro da Sibéria, como presentes para sua esposa Barbara (Varvara) Kelch-Bazanova. Embora ainda fossem \"ovos Fabergé\" por terem sido produzidos em sua oficina, esses ovos não eram tão elaborados quanto os ovos imperiais e não eram únicos em design. A maioria são cópias de outros ovos.\n[…]\nDos 65 conhecidos ovos Fabergé grandes, apenas 57 existem até hoje. Dez dos Ovos Imperiais de Páscoa estão expostos no Palácio do Arsenal do Kremlin, Moscou, Rússia. Dos 50 Ovos Imperiais, só 43 sobrevivem.\n[…]\nApós a Revolução Russa de 1917, a \"Casa Fabergé\" foi nacionalizada pelos bolcheviques e a família Fabergé fugiu para a Suíça, onde Peter Carl Fabergé faleceu em 1920. Todos os palácios da Dinastia Romanov foram saqueados e os seus tesouros foram removidos por ordem de Vladimir Lenin e levadas para o Palácio do Arsenal do Kremlin.\n[…]\nMieks Fabergé Eggs\n[…]\nDetalhes sobre cada um dos Ovos Fabergé\n[…]\nArtigo BYU sobre os Ovos Fabergé",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Dia das Mães nos Estados Unidos",
+      "descricao": "Data americana de homenagem às mães, celebrada no segundo domingo de maio desde o início do século vinte."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O Dia das Mães no segundo domingo de maio, adotado também no Brasil, nasceu nos Estados Unidos da campanha de qual mulher?",
+    "resposta": "Anna Jarvis",
+    "distratores": [
+      "Eleanor Roosevelt",
+      "Clara Barton",
+      "Susan B. Anthony"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)",
+      "https://en.wikipedia.org/wiki/Anna_Jarvis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)",
+        "situacao": "ok",
+        "texto": "Mother's Day is an annual holiday celebrated in the United States and, since 1914, in Canada on the second Sunday in May. Mother's Day recognizes mothers, motherhood and maternal bonds in general, as well as their positive contributions to their families and society. It was established by Anna Jarvis, with the first Mother's Day celebrated through a service of worship at St. Andrew's Methodist Chu\n[…]\nIn 1912 Anna Jarvis trademarked the phrases \"Second Sunday in May\" and \"Mother's Day\", and created the Mother's Day International Association.\n[…]\nCarnations are often worn on special occasions, especially Mother's Day and weddings. In 1907, Anna Jarvis chose a carnation as the emblem of Mother's Day because it was her mother's favourite flower. This tradition is now observed in the United States and Canada on the second Sunday in May. Jarvis chose the white carnation because she wanted to represent the purity of a mother's love.\n[…]\nCarnations have come to represent Mother's Day since Anna Jarvis delivered 500 at the first celebration in 1908. Many religious services held later adopted the custom of giving away carnations. This also started the custom of wearing a carnation on Mother's Day. The founder, Anna Jarvis, chose the carnation because it was her mother's favorite flower.\n[…]\nThe commercialization of U.S. holidays began very early. Only nine years after the first official Mother's Day, it had become so rampant that Anna Jarvis herself became a prominent opponent of what the holiday had become, spending all her inheritance and the rest of her life fighting what she saw as an abuse of the celebration. She decried the practice of purchasing greeting cards, which she saw as a sign of being too lazy to write a personal letter.\n[…]\nProfessional sports players often wear pink clothing accessories on Mother's Day weekend.\n[…]\nHistory of formation and celebration of Mother's Day"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Anna_Jarvis",
+        "situacao": "ok",
+        "texto": "Anna Maria Jarvis (May 1, 1864 – November 24, 1948) was the founder of Mother's Day in the United States. Her mother had frequently expressed a desire to establish such a holiday, and after her mother's death, Jarvis led the movement for the commemoration. However, as the years passed, Jarvis grew disenchanted with the growing commercialization of the observation and even attempted to have Mother'\n[…]\nIn the ensuing years, Anna Jarvis embarked upon a campaign to make \"Mother's Day\" a recognized holiday. She spent a significant amount of time writing to countless business executives, church groups, and politicians at the state and national level to promote the commemorative day.\n[…]\nBy the 1920s, as the floral industry continued increasing prices of white carnations and then introduced red carnations to meet the demand for the flower, Anna Jarvis's original symbols began to become re-appropriated, such as the red carnation representing living mothers and the white carnation honoring deceased mothers. She attempted to counter these commercial forces, creating a badge with a Mother's Day emblem as a less ephemeral alternative to the white carnation.\n[…]\nJarvis died on November 24, 1948, and was buried next to her mother, sister, and brother at West Laurel Hill Cemetery in Bala Cynwyd, Pennsylvania. Although the Anna M.\n[…]\nAnatolini, Katherine Lane (2009). Memorializing Motherhood: Anna Jarvis and the Struggle for Control of Mother's Day (PhD Diss). West Virginia University. ISBN 978-1-124-17972-8. OCLC 610042090. ProQuest 748312352.\n[…]\nAnna Jarvis and Mother's Day\n[…]\nAnna Jarvis, the Germanna Descendant who Founded Mother's Day\n[…]\nAnna Jarvis and International Mother's Day Archived November 27, 2019, at the Wayback Machine\n[…]\nAnna Prior Jarvis diary and autobiography, MSS SC 2697, transcription here; L. Tom Perry Special Collections, Harold B. Lee Library, Brigham Young University"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Cartão de Natal",
+      "descricao": "Cartão ilustrado enviado com votos de boas festas na época do Natal."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1843, em Londres, quem encomendou os primeiros cartões de Natal vendidos ao público?",
+    "resposta": "Henry Cole",
+    "distratores": [
+      "Charles Dickens",
+      "Rowland Hill",
+      "Lewis Carroll"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_card",
+      "https://en.wikipedia.org/wiki/Henry_Cole"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christmas_card",
+        "situacao": "ok",
+        "texto": "A Christmas card is a greeting card sent as part of the traditional celebration of Christmas in order to convey between people a range of sentiments related to Christmastide and the holiday season. Christmas cards are usually exchanged during the weeks preceding Christmas Day by many people (including some non-Christians) in Western society and in Asia. The traditional greeting reads \"wishing you \n[…]\nThere are innumerable variations on this greeting, many cards expressing more religious sentiment, or containing a poem, prayer, Christmas song lyrics or Biblical verse; others focus on the general holiday season with an all-inclusive \"Season's greetings\". The first modern Christmas card was commissioned by Sir Henry Cole in 1843 and designed by John Calcott Horsley.\n[…]\nThe first known Christmas card was sent by Michael Maier to James I of England and his son Henry Frederick, Prince of Wales in 1611. It was discovered in 1979 by Adam McLean in the Scottish Record Office.\n[…]\nThe first commercially produced card was commissioned by Sir Henry Cole and designed by John Callcott Horsley in London 1843. The central picture showed three generations of a family raising a toast to the card's recipient, with the message: A Merry Christmas and A Happy New Year; on either side were scenes of charity, with food and clothing being given to the poor.\n[…]\nSpecimens from the \"golden age\" of printing (1840s–1890s) are especially prized and bring in large sums at auctions. In December 2005, one of Horsley's original cards sold for nearly £9,000. Collectors may focus on particular images like Santa Claus, poets, or printing techniques. The Christmas card that holds the world record as the most expensive ever sold was a card produced in 1843 by J. C. Horsley and commissioned by civil servant Sir Henry Cole.\n[…]\nBBC 3 December 2005: First Christmas card sold for £8,469. Retrieved 2 January 2006."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_Cole",
+        "situacao": "desambiguacao",
+        "texto": "Henry Cole may refer to:\n\nSir Henry Cole (inventor) (1808–1882), English civil servant and inventor\nHenry Cole (priest) (c. 1500–1579/80), English Roman Catholic churchman and academic\nHenry Cole (minister) (1792–1858), Anglican curate\nHenry Cole (Conservative politician) (1809–1890), British politician, cricketer and army officer\nHenry A. Cole (1838–1909), American cavalry colonel of the American"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cart%C3%A3o_de_Natal",
+        "situacao": "ok",
+        "texto": "Natal é uma festa anual que comemora o nascimento de Jesus Cristo, celebrada principalmente em 25 de dezembro como uma celebração religiosa e cultural por bilhões de pessoas em todo o mundo. Festa litúrgica central para o cristianismo, a preparação para o Natal começa no primeiro domingo do Advento e é seguida pelo período natalino, que historicamente no Ocidente dura doze dias e culmina na Noite \n[…]\nEmbora a celebração do Natal ainda não fosse costumeira em algumas regiões dos EUA, Henry Wadsworth Longfellow detectou \"um estado de transição em relação ao Natal aqui na Nova Inglaterra\" em 1856. \"O antigo sentimento puritano impede que seja um feriado alegre e caloroso; embora a cada ano o torne mais assim\".\n[…]\nA Primeira Igreja Congregacional de Rockford, Illinois, \"embora de genuína linhagem puritana\", estava 'se preparando para um grande jubileu de Natal', relatou um correspondente em 1864. Em 1860, quatorze estados, incluindo vários da Nova Inglaterra, haviam adotado o Natal como feriado oficial. Em 1875, Louis Prang apresentou o cartão de Natal aos americanos. Ele foi chamado de \"pai do cartão de Natal americano\".\n[…]\nmilhões de pessoas nos cultos de Natal em 2015.\n[…]\nOs cartões de Natal são mensagens ilustradas de felicitações trocadas entre amigos e familiares durante as semanas que antecedem o Natal. A saudação tradicional diz \"Desejando-lhe um Feliz Natal e um Próspero Ano Novo\", muito semelhante à do primeiro cartão de Natal comercial, produzido por Sir Henry Cole em Londres em 1843. O costume de os enviar tornou-se popular entre uma vasta gama de pessoas com o surgimento da tendência moderna de troca de cartões eletrónicos.\n[…]\nIndústrias completamente dependentes do natal incluí os fabricantes de cartões de natal, os quais 1,9 bilhões são enviados nos Estados Unidos a cada ano, e árvores de natal vivas, das quais 20,8 milhões foram cortadas nos Estados Unidos em 2002.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Parabéns a Você",
+      "descricao": "Canção de aniversário cantada no mundo todo, com melodia vinda da americana Happy Birthday to You."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, atribuída a quais irmãs?",
+    "resposta": "Irmãs Hill",
+    "distratores": [
+      "Irmãs Brontë",
+      "Irmãs Andrews",
+      "Irmãs Gabor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+      "https://en.wikipedia.org/wiki/Patty_Hill"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+        "situacao": "ok",
+        "texto": "\"Happy Birthday to You\", or simply \"Happy Birthday\", is an American song traditionally sung to celebrate a person's birthday. According to the 1998 Guinness World Records, it is the most recognized song in the English language, followed by \"For He's a Jolly Good Fellow\". The song's base lyrics have been translated into at least 18 languages.\n[…]\nThe melody of \"Happy Birthday to You\" comes from the song \"Good Morning to All\", which has traditionally been attributed to American sisters Patty and Mildred J. Hill in 1893, although the claim that the sisters composed the tune is disputed.\n[…]\nPatty Hill was a kindergarten principal in Louisville, Kentucky, developing teaching methods at the Little Loomhouse; her sister Mildred was a pianist and composer. The sisters used \"Good Morning to All\" as a song that young children would find easy to sing. The combination of melody and lyrics in \"Happy Birthday to You\" first appeared in print in 1912. None of the early appearances of the \"Happy Birthday to You\" lyrics included credits or copyright notices.\n[…]\n\"Happy Birthday to You\" dates from the late 19th century, when sisters Patty and Mildred J. Hill introduced the song \"Good Morning to All\" to Patty's kindergarten class in Kentucky. They published the tune in their 1893 songbook Song Stories for the Kindergarten with Chicago publisher Clayton F. Summy.\n[…]\nKembrew McLeod stated that the Hill sisters likely copied the tune and lyrical idea from other popular and similar nineteenth-century songs, including Horace Waters' \"Happy Greetings to All\" from 1858, \"Good Night to You All\", also from 1858, \"A Happy New Year to All\" from 1875, and \"A Happy Greeting to All\", published 1885. However, U.S. law professor Robert Brauneis disputes this, noting that these earlier songs had quite different melodies.\n[…]\nList of birthday songs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Patty_Hill",
+        "situacao": "ok",
+        "texto": "Patty Smith Hill (March 27, 1868 – May 25, 1946) was an American composer and teacher who is perhaps best known for co-writing, with her sister Mildred Hill, the tune that later became popular as \"Happy Birthday to You\". She was an American nursery school, kindergarten teacher, and key founder of the National Association for Nursery Education (NANE) which now exists as the National Association For\n[…]\nHill's parents were committed to their children's education; her father is reported to have told his daughters to understand the value of a good education, and that it was \"a tragedy for women to marry for a home. Don't live with law kin! Don't even if you have to live in a hollow tree!\" Empowered by her parents' encouragement, Patty graduated valedictorian of her class from the Louisville Collegiate Institute in 1887.\n[…]\nHill is perhaps best known as the sister of Mildred J. Hill, with whom she is credited as co-writing the tune to the song \"Good Morning to All\". The tune became even more popular as \"Happy Birthday to You\" during the 20th century. Hill and her sister Mildred wrote the song (Mildred wrote the tune; Patty wrote the original lyrics) while Mildred was a composer of songs and Patty was principal at the Louisville Experimental Kindergarten School.\n[…]\nThis kindergarten was an early experiment in modern educational methods, and was honored, along with the Hill sisters, at the Chicago World's Fair in 1893.\n[…]\nPatty Smith Hill, who never married, was awarded an honorary doctorate degree by Columbia University in 1929. Hill died at her home in New York City, and is buried in Cave Hill Cemetery, Louisville, Kentucky. She and Mildred J. Hill were posthumously inducted into the Songwriters Hall of Fame on June 12, 1996.\n[…]\nKenwood Hill – Louisville neighborhood where Patty and sister Mildred occasionally resided\n[…]\nPatty Hill at IMDb\n[…]\nPatty Hill discography at Discogs"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parab%C3%A9ns_a_Voc%C3%AA",
+        "situacao": "ok",
+        "texto": "\"Parabéns a Você\" (no Brasil, popularmente alterado para \"Parabéns para Você\" ou mais habitualmente \"Parabéns pra Você\") é o título em português para a canção tradicional de origem estadunidense \"Happy Birthday to You\", cantada nas comemorações de aniversários das pessoas, e que em 1942 teve uma letra adaptando-a no Brasil por Bertha Celeste, a qual também é utilizada em Portugal.\n[…]\nA melodia de \"Parabéns a Você\" tem origem na canção \"Good Morning to All\" (\"Bom dia a todos\"), das irmãs e professoras norte-americanas Mildred J. Hill e Patty Hill em 1893, que resolveram compor uma canção para as crianças cantarem na entrada da escola. A melodia era acompanhada pela repetição do título quatro vezes. Isto ocorreu no ano de 1875.\n[…]\nAs duas registraram a composição em 1893, até que em 1924, a composição foi publicada num livro de Robert Coleman, que trazia partituras intitulado \"Celebrations Songs\", tendo conservado a melodia e alterado o verso para Happy Birthday to You\" (\"Feliz Aniversário a Você\").\n[…]\nEm 1933, um musical intitulado justamente de Happy Birthday to You estreou na Broadway, trazendo em seu repertório a versão publicada no livro - o que levou à popularização. Jessica Hill, irmã das verdadeiras autoras, ingressou neste mesmo ano na justiça reivindicando os direitos autorais, saindo vitoriosa.\n[…]\nA Warner exigira que a cineasta Jennifer Nelson, que realizava um documentário sobre as irmãs Hill, pagasse uma taxa de 1.500 dólares pelo uso da canção na trilha sonora; inconformada com esta cobrança, Nelson então processou a empresa, a fim de demonstrar que ela não tinha direito algum de realizar tal cobrança. A empresa tencionava continuar as cobranças de todos que fizessem uso comercial da canção até 2030, com um lucro estimado até lá de 14 milhões de dólares.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Sauna",
+      "descricao": "Pequeno cômodo ou construção para banhos de vapor seco, tradição nacional da Finlândia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A sauna, banho de vapor muitas vezes seguido de um mergulho em água gelada, tem um nome vindo de qual idioma?",
+    "resposta": "Finlandês",
+    "distratores": [
+      "Sueco",
+      "Russo",
+      "Norueguês"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sauna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sauna",
+        "situacao": "ok",
+        "texto": "A sauna (, Finnish: [ˈsɑu̯nɑ]) is a room or building designed as a place to experience dry or wet heat sessions or an establishment with one or more of these facilities. The steam and high heat make the bathers perspire. A thermometer in a sauna is used to measure temperature; a hygrometer can be used to measure levels of humidity or steam.\n[…]\nSauna culture has been registered in the Representative List of the Intangible Cultural Heritage of Humanity under two entries: \"Smoke sauna tradition in Võromaa\" in 2014 and \"Sauna culture in Finland\" in 2020.\n[…]\nthe length of one's stay in the sauna\n[…]\nIn Finland and Estonia, the sauna is an important part of daily life, and families bathe together in the home sauna. There are at least 2 million saunas in Finland according to official registers. The Finnish Sauna Society believes the number can be as high as 3.2 million saunas (population 5.5 million). Many Finns take at least one a week, and much more when they visit their summer cottage in the countryside.\n[…]\nSauna traditions in Estonia are almost identical to Finland as saunas have traditionally held a central role in the life of an individual. Ancient Estonians believed saunas were inhabited by spirits. In folk tradition, the sauna was not only the place where one washed but also used as the place where brides were ceremoniously washed, where women gave birth, and the place where the dying made their final bed.\n[…]\nIndeed, among Finnish farms in Great Lakes \"sauna country\", the cultural geographer Matti Kaups, found that 90% had sauna structures - more even than the farms in Finland. Elsewhere, sauna facilities are normally provided at health clubs and hotels, but there is no tradition or ritual to their use. To avoid liability, many saunas operate at only moderate temperatures and do not allow pouring water on the rocks."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sauna",
+        "situacao": "ok",
+        "texto": "Sauna, chamada ainda de banho finlandês, cheia de água térmica, consiste em uma sala ou casa com um ambiente muito aquecido, a fim de propiciar relaxamento e promover o convívio social entre os frequentadores do recinto. Há basicamente dois tipo de saunas: a \"sauna a vapor\" (sauna húmida ou banho turco) e a \"sauna seca\", que utiliza pedras ou outro material que é aquecido, sem libertar vapor.\n[…]\nAs saunas são classificadas sobretudo pela combinação entre a temperatura do ar e a umidade relativa do recinto. Dessa relação resultam dois tipos difundidos: a sauna seca, de calor forte e ar pouco úmido, herdeira da tradição finlandesa, e a sauna úmida (ou sauna a vapor), de temperatura mais amena e ar carregado de vapor de água, aparentada ao banho turco.\n[…]\nHá ainda variantes menos comuns, como a sauna de infravermelho, em que lâmpadas aquecem diretamente o corpo, a temperaturas inferiores às dos modelos tradicionais. Em sentido estrito, parte da literatura reserva o nome sauna ao modelo finlandês de calor seco e trata o banho de vapor como ambiente distinto; no uso corrente em língua portuguesa, contudo, os dois recintos são chamados de sauna e diferenciados pelos qualificativos seca e úmida.\n[…]\nÉ comum lançar água sobre as pedras quentes para produzir um jato breve de vapor, gesto que os finlandeses chamam de löyly, o que eleva por instantes a umidade e a sensação de calor. Como o ar é seco, o suor evapora com rapidez e resfria a pele, mecanismo que permite ao corpo tolerar temperaturas altas por mais tempo.\n[…]\nA sauna úmida, também chamada de sauna a vapor, corresponde ao banho turco (ou hammam). O vapor é produzido por um gerador que injeta água aquecida no interior de um recinto vedado, mantendo a umidade próxima da saturação. A temperatura fica mais baixa que a da sauna seca, em torno de 40 °C a 55 °C, com umidade que se aproxima de 100 %.\n[…]\nSauna de fumo\n[…]\nSauna residencial portátil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Boxing Day",
+      "descricao": "Feriado de 26 de dezembro no Reino Unido e em outros países da Comunidade Britânica."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Boxing Day, feriado britânico do dia seguinte ao Natal, nada tem a ver com o boxe. A que se refere o nome?",
+    "resposta": "Caixas de presentes para empregados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxing_Day"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boxing_Day",
+        "situacao": "ok",
+        "texto": "Boxing Day, also known as Offering Day, is a holiday celebrated on 26 December, the day after Christmas Day. Boxing Day was once a day to donate gifts to those in need, but it has evolved to become a part of Christmas festivities. It originated in the United Kingdom and is celebrated in several Commonwealth nations. The attached bank holiday or public holiday may take place on 27 or 28 December if\n[…]\nThe Oxford English Dictionary gives the earliest attestation from Britain in 1743, defining it as \"the day after Christmas day\", and saying \"traditionally on this day tradespeople, employees, etc., would receive presents or gratuities (a 'Christmas box') from their customers or employers.\"\n[…]\nA present or gratuity given at Christmas: In Great Britain, usually confined to gratuities given to those who are supposed to have a vague claim upon the donor for services rendered to him as one of the general public by whom they are employed and paid, or as a customer of their legal employer; the undefined theory being that as they have done offices for this person, for which he has not directly paid them, some direct acknowledgement is becoming at Christmas.\n[…]\nIn Britain, it was a custom for tradesmen to collect \"Christmas boxes\" of money or presents on the first weekday after Christmas as thanks for good service throughout the year. This is mentioned in Samuel Pepys' diary entry for 19 December 1663. This custom is linked to an older British tradition in which the servants of the wealthy were allowed the next day to visit their families since they would have had to serve their masters on Christmas Day.\n[…]\nIn Trinidad and Tobago, Boxing Day is a public holiday.\n[…]\nIn the UK it is common to eat leftovers from the previous day's Christmas dinner, with turkey often being used in a Boxing Day sandwich or curry.\n[…]\nMedia related to Boxing Day at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boxing_Day",
+        "situacao": "ok",
+        "texto": "Boxing Day é o termo utilizado em numerosos países anglófonos para designar um feriado secular comemorado no dia seguinte ao dia de Natal, ou seja, em 26 de dezembro.\n[…]\nAtualmente o dia é uma ocasião de liquidações, sendo um dos dias mais movimentados do comércio nos países onde é comemorado, nomeadamente o Canadá. Normalmente é o primeiro dia após o Natal, para que as pessoas possam trocar os presentes indesejados e resgatar vales-presente.\n[…]\nNo Reino Unido, o Boxing Day, além de ser um feriado bancário e religioso (sendo este o dia de Santo Estêvão, santo muito popular entre os católicos), é também uma data comemorativa em relação ao futebol, sendo que ocorre uma rodada completa de todas as divisões do futebol britânico neste dia.\n[…]\nNo Brasil, o Boxing Day começou a ganhar espaço a partir de 2011, a partir do trabalho do site Busca Descontos. Para se ter ideia, a data movimentou R$ 81,6 milhões no e-commerce em 2012 – alta de 39% em relação ao ano anterior –, conforme estudo do Ebit. Ao todo, foram realizados mais de 200 mil pedidos, e grandes sites participaram da promoção, como Shoptime e Saraiva.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Shichi-Go-San",
+      "descricao": "Festa japonesa de novembro em que crianças de três, cinco e sete anos vestem roupas tradicionais e visitam santuários."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Japão, crianças pequenas vestem trajes tradicionais e visitam santuários na festa Shichi-Go-San. O que significa esse nome?",
+    "resposta": "Sete, cinco, três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shichi-Go-San"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shichi-Go-San",
+        "situacao": "ok",
+        "texto": "Shichi-Go-San (七五三, lit. 'seven-five-three') is a traditional Japanese rite of passage and festival day for three- and seven-year-old girls, and five-year-old and sometimes three-year-old boys. It is held annually on November 15 and celebrates the growth and well-being of young children. As it is not a national holiday, it is generally observed on the nearest weekend.\n[…]\nIn Crayon Shin-chan episode 26–3, \"My Shichi-Go-San\", the Nohara family celebrates Shichi-Go-San.\n[…]\nIn the OVA Mega Man: Upon a Star, Roll makes a promise with Akane at a Japanese festival that she will wear a kimono on Shichi-Go-San.\n[…]\nIn Mama Loves the Poyopoyo-Saurus episode 11–2, \"Shobo-san who came in slobbing mama double\", the Poyota family celebrates Shichi-Go-San.\n[…]\nIn Katte ni Kaizō episode 3, \"To Celebrate This Child's 7th Birthday\", it is said that Kaizo is scared of Shichi-Go-San because of a childhood memory.\n[…]\nIn episode 17 of Osomatsu-san, a picture of Jyushimatsu wearing kimono for Shichi-Go-San is shown in the photo album.\n[…]\nIn episode 38 of the anime Dragon Ball Z, Kuririn asks Gohan if he is going to keep wearing that \"Shichigosan suit\".\n[…]\nIn the second OVA of My Teen Romantic Comedy SNAFU, when Iroha is taking the group photo of the service club members, Hachiman remarks that their pose resembles the kind used for Shichi-Go-San.\n[…]\nIn chapter 19 of the manga Honey and Clover, Hagu has coming-of-age photos taken as she turns 20, but Morita edits the photo to make it look like a Shichi-Go-San photograph, because she looks so young. In the edited photo, Hagu is holding a bag of chitose ame.\n[…]\nIn episode 81 of the anime Toriko, main character Toriko and Komatsu distribute chitose-ame to children at Gourmet shrine on Shichi-Go-San as shoku-otoko.\n[…]\nIn episode 854-1 of the anime Chibi Maruko Chan, Maruko's cousins arrive to celebrate Shichi-Go-San.\n[…]\nShichi-Go-San | Japan Experience"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shichi-Go-San",
+        "situacao": "ok",
+        "texto": "Shichi-Go-San (七五三,; literalmente \"sete-cinco-três\") é um tradicional festival e ritual de passagem do Japão para meninas de três e sete anos e meninos de três e cinco anos de idade, que acontece todos os anos no dia 15 de novembro. Como a data não é um feriado nacional, as cerimônias costumam ser observadas no fim de semana mais próximo da data.\n[…]\nShichi-Go-San possivelmente se originou no período Heian, entre nobres que celebravam a passagem das crianças para o meio da infância. As idades 3, 5 e 7 são consistentes com crenças da numerologia do leste Asiático, que acredita que os números ímpares são de sorte. Durante o período Kamakura, foi decidido que os ritos se realizariam no décimo quinto dia do mês.\n[…]\nAo longo do tempo, essa tradição passou para a classe dos samurai, que acrescentaram mais rituais. Crianças, que até os três anos de idade tinham cabelos raspados, passavam a poder deixar os cabelos crescerem. Meninos de cinco anos vestiriam o hakama pela primeira vez, e as meninas de sete anos substituiriam as cordas simples para amarrar os quimonos pelo tradicional obi (faixa de quimonos).\n[…]\nJá no começo do período Meiji a prática já era adotada entre plebeus, e incluíam o rito de visitar um santuário para afastar os maus espíritos e desejar uma vida longa e saudável, que é praticado até hoje.\n[…]\nChitose ame (千歳飴,; literalmente \"doce de mil anos\") é dado a crianças no Shichi-Go-San. Chitose ame é um doce fino, de forma alongada, nas cores branca e vermelha. É distribuído em um saco decorado com um grou e uma tartaruga, que representam longa vida no Japão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Ded Moroz",
+      "descricao": "Personagem do folclore russo e eslavo que traz presentes às crianças no Ano-Novo, equivalente ao Papai Noel."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Rússia, quem traz presentes às crianças no Ano-Novo é o Ded Moroz. O que significa esse nome?",
+    "resposta": "Avô Gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ded_Moroz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ded_Moroz",
+        "situacao": "ok",
+        "texto": "Ded Moroz, or Morozko (Russian: Морозко, romanized: Morozko), is a legendary figure similar to Father Christmas and Santa Claus, who has his roots in Slavic mythology. The tradition of Ded Moroz is mostly spread in East Slavic countries and is a significant part of Russian culture. At the beginning of the Soviet era, communist authorities banned Ded Moroz. However, the ban was lifted and he soon b\n[…]\nThe literal translation of Ded Moroz is Grandfather Frost or Old Man Frost, but traditionally the name is translated as Father Frost.\n[…]\nThe Bulgarian name of Santa Claus is Дядо Коледа, Dyado Koleda (Grandfather Koleda), with Дядо Мраз, Dyado Mraz (\"Grandfather Frost\") being a similar Russian-imported character lacking the Christian connotations and thus popular during Communist rule. However, he has been largely forgotten since 1989, when Dyado Koleda again returned as the more popular figure.\n[…]\nIn Slovenia, the name Ded Moroz was translated from Russian as Dedek Mraz (literally, \"Grandpa Frost\"). Dedek Mraz is depicted as a slim man wearing a grey leather coat, which has fur inside and is decorated outside, and a round dormouse fur cap. This version of the character is based on traditional imagery, especially as depicted by Maksim Gaspari in images commissioned in 1952.\n[…]\nSince the introduction and familiarization of Russian culture during the socialist era, Mongolia has been celebrating the New Year's festivities as a formal holiday. Өвлийн өвгөн, Övliin Övgön (Grandfather Winter) is the Mongolian equivalent of Ded Moroz, who brings children and adults alike gifts on New Year's Eve.\n[…]\n\"Father Frost, the Red Nose\" on Russia Info-Centre\n[…]\nReveling in Russian Santa’s fairytale home Archived 12 July 2012 at the Wayback Machine\n[…]\nHome page all of the Ded's Moroz (in Russian)\n[…]\nGLONASS Tracks Ded Moroz (in Russian)\n[…]\nCoat of arms of Ded Moroz (in Russian)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ded_Moroz",
+        "situacao": "ok",
+        "texto": "Ded Moroz (em Russo Дед Мороз, que significa \"Avô Gelo\" ou \"Velho Gelo\") ou Morozko (Russo: Морозко), é uma figura lendária semelhante a São Nicolau e ao Papai Noel com raízes na mitologia eslava. A tradição do Ded Moroz é amplamente difundida nos países eslavos orientais e é uma parte significativa da cultura russa. No início da era soviética, as autoridades comunistas baniram o Ded Moroz.\n[…]\nO povo indígena Yakut tem o seu próprio equivalente de Ded Moroz, chamado Chys Khaan (\"Mestre do Frio\").\n[…]\nDepois de 1999, os nomes de Djed Mraz e Djed Božićnjak tornaram-se mais ou menos sinónimos, inclusive no uso na televisão pública. Em algumas famílias ainda se diz que o Djed Mraz traz presentes no Ano Novo. Na Croácia, as crianças também ganham presentes no dia 6 de dezembro.\n[…]\nNa Eslovénia, o nome Ded Moroz foi traduzido do russo como Dedek Mraz (literalmente, \"Vovô Gelo\"). O Dedek Mraz é retratado como um homem magro vestindo um casaco de couro cinza, que tem pele por dentro e é decorado por fora, e um gorro redondo de pele de arganaz. Esta versão da personagem é baseada em imagens tradicionais, especialmente conforme retratadas por Maksim Gaspari em imagens encomendadas em 1952.\n[…]\nA cultura popular eslovena retrata o Vovô Gelo, São Nicolau e o Pai Natal como amigos e também começou a misturar atributos das personagens, por exemplo, a menção às renas do Pai Natal às vezes é misturada à narrativa do Vovô Gelo em aparições públicas. Devido ao seu caráter não religioso e forte institucionalização, o Vovô Gelo continua a manter uma presença pública.\n[…]\nDesde a introdução e familiarização da cultura russa durante a era socialista, a Mongólia tem celebrado as festividades de Ano Novo como um feriado formal. ڨвлийн کвген, Övliin Övgön (\"Avô Inverno\") é o equivalente mongol do Ded Moroz, que traz presentes para crianças e adultos na véspera de Ano Novo.\n[…]\nJack Frost",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Hamsa",
+      "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O amuleto em forma de mão aberta, o hamsa, é chamado por muitos muçulmanos de mão de qual mulher, filha do profeta Maomé?",
+    "resposta": "Fátima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hamsa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hamsa",
+        "situacao": "ok",
+        "texto": "The hamsa (Arabic خمسة khamsa), also romanized khamsa, and known as the hand of Fatima, is a palm-shaped amulet popular throughout North Africa and in the Middle East and commonly used in jewellery and wall hangings. Depicting the open hand, an image recognized and used as a sign of protection in many times throughout history, the hamsa is believed to provide defense against the evil eye.\n[…]\nIn French colonial North Africa, Europeans popularized the label \"Hand of Fatima\" (French: \"Main de Fatma\") - a colonial nickname rather than an indigenous Arabic term; in colonial-era French, \"fatma\" referred to a Muslim or Arab woman.\n[…]\nThe khamsa holds recognition as a bearer of good fortune among Christians in the region as well. Levantine Christians call it the hand of Mary (Arabic: Kef Miryam, or the \"Virgin Mary's Hand\"). Thirty-four years after the end of Islamic presence in Spain, its use was significant enough to prompt an episcopal committee convened by Emperor Charles V to decree a ban on the Hand of Fatima and all open right-hand amulets in 1526.\n[…]\nThe hand is identified variously as the hand of Fatimah, the hand of Ali ibn Abi Talib, or the hand of Abbas ibn Ali, whose hands were severed at the Battle of Karbala; the open palm became an emblem in Muharram processions and on ʿalams. In Twelver theology, which avoids anthropomorphism, the Imams may be described as the \"hand of God\". Hand-topped standards, stoles and amulets are widely used in Iran, Iraq and South Asia.\n[…]\nAccording to Eva-Maria von Kemnitz (citing Bruno Barbatti), the hamsa is regarded as the most important apotropaic sign in the Islamic world; Barbatti also argued that many modern depictions reflect an origin in sex symbolism. However, salafi authorities reject the khamsa as an amulet: a fatwa states it is impermissible to hang the \"Khamsa\" and another lists \"hands of Fatima\" among prohibited amulets."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hams%C3%A1",
+        "situacao": "ok",
+        "texto": "A hamsá ou chamsá (hebraico: חמסה, em árabe: خمسة, chamsa), trata-se de um símbolo da fé judaica e islâmica, é um objeto com a aparência da palma da mão com cinco dedos estendidos, usado popularmente não só como um amuleto contra o mau olhado, mas também para afastar as energias negativas e trazer felicidade, sorte e fortuna.\n[…]\nA hamsá é usada como amuleto contra o mau-olhado. É muito popular no Oriente Médio, especialmente no Egito. A mão pode ser encontrada em diversas formas, desde joias até azulejos e chaveiros.\n[…]\nEmbora o Alcorão vete o uso de amuletos, a hamsá é facilmente encontrada entre os muçulmanos. Os muçulmanos a associam aos cinco pilares do Islã, e também a chamam de mão de Fátima, sendo Fátima a filha preferida de Maomé. Notadamente, a hamsá aparece, junto com outros símbolos islâmicos, o emblema da Argélia.\n[…]\nA hamsá também é popular entre os judeus, especialmente os sefarditas. Os judeus inscrevem textos em hebraico, como a Shemá Israel, nas chamsás e também as chamam de mão de Miriam. Miriam, no caso, foi a irmã de Moisés e Aarão. O símbolo também é associado à Torá, que é composta por cinco livros.\n[…]\nPosteriormente, o símbolo foi adotado pela cultura judaica, que o passou para os árabes. A chamsá também aparece no Budismo; é chamada de Abhaya Mudra e possui conotação semelhante à descrita, significando a dissipação do medo. Uma alusão cristã a chamsá é encontrada na tradição mexicana é a imagem de La Mano Poderosa (A Mão Poderosa).\n[…]\n«Hand of Fatima Meaning - Necklace of Hand of Miriam Handcrafted Jewelry» (em inglês)\n[…]\n«The Hamsa Hand» (em inglês). Artigo no The 'Lucky W' Amulet Archive, com imagens",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Kwanzaa",
+      "descricao": "Celebração afro-americana de sete dias, de 26 de dezembro a 1º de janeiro, criada em 1966."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Kwanzaa, festa afro-americana de fim de ano, vem de uma expressão em suaíli. O que ela significa?",
+    "resposta": "Primeiros frutos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kwanzaa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kwanzaa",
+        "situacao": "ok",
+        "texto": "Kwanzaa () is an annual celebration of African-American culture from December 26 to January 1, culminating in a communal feast called Karamu, usually on the sixth day. It was created by activist Maulana Karenga based on Karenga's research of African harvest festival traditions from various parts of West, East, and Southeast Africa. Kwanzaa was first celebrated in 1966. A 2009 estimate placed the n\n[…]\nNon-African Americans also celebrate Kwanzaa, including celebrities like Angelina Jolie. \"Joyous Kwanzaa\" may be used as a greeting during the holiday.\n[…]\nAt first, observers of Kwanzaa avoided the mixing of the holiday or its symbols, values, and practice with other holidays, as doing so would violate the principle of kujichagulia (self-determination) and thus violate the integrity of the holiday, which is partially intended as a reclamation of important African values. Today, some African American families celebrate Kwanzaa along with Christmas and the New Year.\n[…]\nThe popularity of the celebration of Kwanzaa has declined since the 1990s. Kwanzaa observation has declined in both community and commercial contexts. University of Minnesota scholar Keith Mayes did not report exact figures, noting that it is also difficult to determine these for the three other main African-American holidays, which he names as Martin Luther King Jr. Day, Malcolm X Day, and Juneteenth. Mayes added that white institutions now also celebrate it.\n[…]\nCertain communities of the Nation of Islam, an African American new religious movement, celebrate Kwanzaa.\n[…]\nIn a 2019 National Retail Federation poll, 2.6 percent of people who planned to celebrate a winter holiday said they would celebrate Kwanzaa. Roughly 14% of the United States population is African American.\n[…]\nGamble-Gumbs, Ida (1998), How to Plan a Kwanzaa Celebration, Cultural Expressions, Inc., ISBN 0-9629827-1-7\n[…]\nThe History Channel: Kwanzaa"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kwanzaa",
+        "situacao": "ok",
+        "texto": "O Kwanzaa é uma celebração afro-estadunidense que tem início no dia 26 de Dezembro e fim em 1 de Janeiro de cada ano. É comemorada principalmente pela população afrodescendente dos Estados Unidos.\n[…]\nO Kwanzaa envolve a reflexão sobre sete princípios básicos: a valorização da comunidade, das crianças e da Vida. Esta celebração está a espalhar-se lentamente pelos Estados Unidos, Canadá, Inglaterra e Caraíbas e já se podem enviar postais a desejar “Feliz Kwanzaa”. Esta palavra significa \"o primeiro, no início\" ou, ainda, \"os primeiros frutos\", e pertence a tradições muito antigas das celebrações das colheitas na África.\n[…]\nToda a celebração e os rituais da Kwanzaa foram concebidos após as famosas e terríveis revoltas de Watts, em 1966. Ele buscou em remotas tradições africanas valores que fossem cultivados pelos afro-americanos naqueles terríveis dias de lutas pelos direitos civis, de assassinatos de seus principais líderes e que, não sendo religiosos, pudessem atrair - como atraíram - todas as igrejas de todas as comunidades negras em todo o país e, no futuro, pelo mundo fora.\n[…]\nKarenga organizou a Kwanzaa em torno de 5 actividades fundamentais, comuns às celebrações africanas da colheita das primeiras frutas:\n[…]\nKarenga diz que \"a Kwanzaa é celebrada através de rituais, diálogos, narrativas, poesia, dança, canto, batucada e outras festividades\". Estas actividades devem demonstrar os sete princípios, Nguzo Saba em suaíli:\n[…]\nPalavra africana derivada da frase kiswahili \"matunda ya kwanza\". Na África tradicional Kwanzaa representa as primeiras colheitas; na América do Norte e Caraíbas os participantes dessa festa são afrodescendentes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Holi",
+      "descricao": "Festa hindu das cores, celebrada na Índia e no Nepal com pós e água coloridos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Índia, o Holi, festa em que as pessoas se cobrem de pós coloridos, celebra a chegada de qual estação do ano?",
+    "resposta": "Primavera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Holi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Holi",
+        "situacao": "ok",
+        "texto": "Holi (IPA: ['hoːli:, hoːɭiː]) is a major Hindu festival of colours, love and spring. It celebrates the love between the deities Radha and Krishna.\n[…]\nRati performs her own meditative asceticism for forty days, upon which Shiva understands, forgives out of compassion and restores the god of love. This return of the god of love, is celebrated on the 40th day after the Vasant Panchami festival as Holi. The Kama legend and its significance to Holi has many variant forms, particularly in South India.\n[…]\nIt is a 10-day festival in Telangana, of which last two days are of great importance. As in other parts of India, in rural Telangana, the 9 days preceding Holi, children celebrate kamuda by playing Kolata sticks along with singing folk songs called jajiri and collect money, rice, corn and wood. For this reason Holi is well known for \"Jajiri Paatalu Kamudi aatalu\", which means festival of \"Jajiri songs and Kamudi games\" and on 9th night i.e.\n[…]\nIn Sirsi, Karnataka, Holi is celebrated with a unique folk dance called \"Bedara Vesha\", which is performed during the nights beginning five days before the actual festival day. The festival is celebrated every alternate year in the town, which attracts a large number of tourists from different parts of India.\n[…]\nThese reports have galvanised a number of groups into promoting more natural celebrations of Holi. Development Alternatives, Delhi's CLEAN India campaign, Kalpavriksh Environment Action Group, Pune, Society for Child Development through its Avacayam Cooperative Campaign have launched campaigns to help children learn to make their own colours for Holi from safer, natural ingredients."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Holi",
+        "situacao": "ok",
+        "texto": "Holi ou Festival das Cores é um festival realizado na Índia e em alguns outros lugares todos os anos entre fevereiro e março, que comemora a chegada da Primavera. Neste dia, as pessoas atiram tintas das mais diversas cores umas às outras, com muita bebida, comida e música.\n[…]\nHoli, também chamado de Festival das Cores, é um popular festival  Primavera observado na Índia, Suriname, Guiana, Trindade, Reino Unido, Ilhas Fiji e no Nepal. Em Bengala Ocidental da Índia e do Bangladesh, é conhecido como Dolyatra (Doljatra) ou Boshonto Utsav ( \"Festa da Primavera\").\n[…]\nO principal dia, Holi, também conhecido como Dhulheti, Dhulandi ou Dhulendi, é celebrado por pessoas que atiram água e pó colorido uns aos outros. As pessoas cumprimentam-se dizendo “Holi Hai”.\n[…]\nHiaranyakashyap combinou com a sua terrível irmã Holika, que tinha o poder de não se queimar, que ela entraria numa fogueira com Prahlad em seus braços para matá-lo. Mas foi Holika quem morreu carbonizada por não saber que o seu poder de enfrentar o fogo seria anulado quando entrasse na fogueira acompanhada de outra pessoa. O deus Vishnu reconheceu a bondade e devoção de Prahlad e salvou-o. O festival, portanto, celebra a vitória de um deus contra o outro e o triunfo da devoção.\n[…]\nApesar de esta ser uma festa colorida, existem vários aspectos de Holi, o que o torna tão importante para a cultura da Índia. Embora possa não ser tão evidente, um olhar mais atento e um pouco de pensamento revelará o significado do Holi em mais formas do que aquilo que simplesmente se vê.\n[…]\nHoli celebra também a lenda de Radha e Krishna, que descreve o extremo prazer que Krishna teve na aplicação de cor sobre Radha e Gopis. Esta brincadeira de Krishna mais tarde, tornou-se uma tendência e uma parte das festividades do Holi.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Onsen",
+      "descricao": "Fonte termal japonesa e as casas de banho construídas em torno dela."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Muitos banhos termais japoneses, os onsen, barram quem tem tatuagem. Isso acontece porque as tatuagens lembram qual grupo?",
+    "resposta": "Yakuza, a máfia japonesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Onsen",
+      "https://en.wikipedia.org/wiki/Irezumi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Onsen",
+        "situacao": "ok",
+        "texto": "In Japan, onsen (温泉; pronounced [oɰ̃seɴ]) are hot springs and the bathing facilities and traditional inns around them. There are approximately 25,000 hot spring sources throughout Japan, and approximately 3,000 onsen establishments use naturally hot water from these geothermally heated springs.\n[…]\nBy 2015, around half (56%) of onsen operators had banned bathers with tattoos from using their facilities. The original reason for the tattoo ban was to keep out yakuza and members of other crime gangs who traditionally have elaborate full-body decoration. In 2016, the Japan Tourism Agency urged onsen operators to allow foreign customers with tattoos to use the onsen on a conditional basis in order to accommodate the increasing number of foreign tourists.\n[…]\nOn the other hand, onsen operators wanted foreign customers to enjoy the onsen, but were concerned that allowing foreign customers with tattoos to use the onsen would prevent them from keeping yakuza out of the onsen.\n[…]\nSakunami Onsen, Miyagi\n[…]\nYamashiro Onsen, Kaga, Ishikawa\n[…]\nYudanaka Onsen, Nagano Prefecture\n[…]\nYufuin Onsen, Ōita Prefecture\n[…]\nYumura Onsen, (Shin'onsen, Hyōgo)\n[…]\nYunogo Onsen, Okayama Prefecture\n[…]\nYunokawa Onsen, Hokkaido\n[…]\nYunomine Onsen, Tanabe, Wakayama, site of the UNESCO World Heritage Tsuboyu bath\n[…]\nZaō Onsen, Yamagata Prefecture\n[…]\nOnsen portal at the Japanese Wikipedia (in Japanese)\n[…]\nSeki, Akihiko, and Elizabeth Heilman Brooke. The Japanese Spa: A Guide to Japan's Finest Ryokan and Onsen. Boston: Tuttle Publishing, 2005. ISBN 0-8048-3671-X. Reprinted as Ryokan: Japan's Finest Spas and Inns, 2007. ISBN 0-8048-3839-9.\n[…]\nOnsen Tipster—A database of genuine onsen in Japan\n[…]\nSecret Onsen—A database with more than 125 onsen all around Japan\n[…]\nJapan Onsen—A mountain onsen guide of the Japan Alps\n[…]\nJapanbased Onsen guide—A guide on how to onsen in Japan"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Irezumi",
+        "situacao": "ok",
+        "texto": "Irezumi (入れ墨, lit. 'inserting ink') (also spelled 入墨 or sometimes 刺青) is the Japanese word for tattoo, and is used in English to refer to a distinctive style of Japanese tattooing, though it is also used as a blanket term to describe a number of tattoo styles originating in Japan, including tattooing traditions from both the Ainu people and the Ryukyuan Kingdom.\n[…]\nTattooing was legalized by the occupation forces in 1948, but has retained its image of criminality. For many years, traditional Japanese tattoos were associated with the yakuza, Japan's notorious mafia, and many businesses in Japan (such as public baths, fitness centers and hot springs) still ban customers with tattoos.\n[…]\nWearers of traditional tattoos frequently keep their art secret, as tattoos are still seen as a sign of criminality in Japan, particularly by older people and in the work place. Many yakuza and other criminals themselves now avoid tattoos for this very reason.\n[…]\nYakuza Tattoos Explained"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Onsen",
+        "situacao": "ok",
+        "texto": "Onsen (温泉) é o termo japonês para Águas termais, além das casas de banho e hospedarias típicas que as circundam. Devido ao Japão ser um país com atividade vulcânica ativa ele possui diversos onsens. Diferente do Ocidente, onde são classificadas como termais as águas com temperatura superior a 21 °C, no Japão essa classificação é atribuída apenas a partir dos 25 °C.\n[…]\nNum onsen, tal como num sento, os visitantes devem lavar o corpo e secar-se antes de entrar na água quente. Os banhos interiores disponibilizam pequenos bancos para os visitantes aí se sentarem e tomarem uma ducha.\n[…]\nMuitos onsen tradicionais no Japão rural têm regras que proíbem o uso de vestes no banho, argumentando que tornam a limpeza mais difícil. Nas cidades, alguns onsen encorajam o uso de fatos de banho (como yukata), em especial nos banhos mistos.\n[…]\nOs visitantes usam geralmente uma pequena toalha-avental. Alguns permitem a imersão da toalha, outros proíbem-na. É frequente ver os japoneses com as toalhas dobradas sobre a cabeça.\n[…]\nOs onsen são geralmente considerados um refúgio da conturbada vida estressante que os japoneses levam, de modo que o ambiente é calmo e relaxante. É frequente a representação do monte Fuji nas paredes, o que, segundo a tradição, encoraja a calma e a meditação.\n[…]\nBanho turco",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Cinco de Maio",
+      "descricao": "Comemoração mexicana da vitória na Batalha de Puebla, em 1862, muito festejada nos Estados Unidos."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O Cinco de Maio, data muito festejada por mexicanos nos Estados Unidos, lembra a vitória na Batalha de Puebla sobre o exército de qual país?",
+    "resposta": "França",
+    "distratores": [
+      "Espanha",
+      "Estados Unidos",
+      "Inglaterra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cinco_de_Mayo",
+      "https://en.wikipedia.org/wiki/Battle_of_Puebla"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cinco_de_Mayo",
+        "situacao": "ok",
+        "texto": "Cinco de Mayo (Mexican Spanish: [ˈsiŋko ðe ˈmaʝo]; Spanish for 'Fifth of May') is an annual celebration held on May 5 to celebrate Mexico's victory over the Second French Empire at the Battle of Puebla in 1862, led by General Ignacio Zaragoza. Zaragoza died months after the battle from an illness, however, and a larger French force ultimately defeated the Mexican army at the Second Battle of Puebl\n[…]\nOn May 9, 1862, President Juárez declared that the anniversary of the Battle of Puebla would be a national holiday regarded as \"Battle of Puebla Day\" or \"Battle of Cinco de Mayo\".\n[…]\n), which translates to Ladies' Patriotic Assembly of Sonora, and they would hold Cinco de Mayo celebrations each year for a time to commemorate the Mexican Army's victory over occupying French forces at the first Battle of Puebla on May 5, 1862.\n[…]\nEvents tied to Cinco de Mayo also occur outside Mexico and the United States. As in the United States, celebrations elsewhere also emphasize Mexican cuisine, culture and music. For example, some Canadian pubs play Mexican music and serve Mexican food and drink, and a sky-diving club near Vancouver holds a Cinco de Mayo skydiving event.\n[…]\nIn the Cayman Islands, in the Caribbean, there is an annual Cinco de Mayo air guitar competition, and at Montego Bay, Jamaica, there is a Cinco de Mayo celebration. The city of Brisbane, Queensland, Australia, holds an annual Mexican Festival to honor the day, and celebrations are held in London and New Zealand. Other celebrations of the day can also be found in Cape Town, South Africa, Lagos, Nigeria, and in Paris, France.\n[…]\nCinco de Mayo is NOT Mexican Independence Day? on The Law Library of Congress blog\n[…]\n\"Origin of the Cinco De Mayo celebration\" – Mexican American News – a subsidiary of Xcano Media\n[…]\nRenteria, Joanna (May 5, 2018). \"The Real Meaning Behind Cinco de Mayo — and Why Mexicans Don't Really Celebrate the Date\". PopSugar."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Puebla",
+        "situacao": "ok",
+        "texto": "The Battle of Puebla (Spanish: Batalla de Puebla; French: Bataille de Puebla), also known as the Battle of the Fifth of May (Spanish: Batalla del Cinco de Mayo) took place on 5 May 1862, near Puebla de los Ángeles, during the second French intervention in Mexico.\n[…]\nThe anniversary of the victory is primarily celebrated in the Mexican state of Puebla, where the holiday is celebrated as El Día de la Batalla de Puebla (English: The Day of the Battle of Puebla). There is some limited recognition of the holiday in other parts of the country. In the United States, Cinco de Mayo has evolved into a holiday celebration of Mexican heritage.\n[…]\nThe French defeated a small Mexican force at Escamela, and then captured Orizaba. Mexican Generals Porfirio Diaz and Ignacio Zaragoza retreated to El Ingenio, and then headed towards Puebla.\n[…]\nOn 9 May 1862, President Juárez declared that the anniversary of the Battle of Puebla would be a national holiday, regarded as \"Battle of Puebla Day\" or \"Battle of Cinco de Mayo\".\n[…]\nCinco de Mayo is a day of celebration for the Hispanics and is a tradition that takes place on May 5 to mark the date that Mexico defeated the Second French Empire in the Battle of Puebla in 1862, under the command of General Ignacio Zaragoza, a Texas native. The Mexicans' morale was boosted by their win over the bigger and better armed French army with a smaller, less well-equipped Mexican force, which included 500 other Tejanos.\n[…]\nContrarily, Cinco de Mayo became popular in the United States in the 1960s when Chicano activists started seeking for a means to celebrate their heritage. The largest Cinco de Mayo festivities currently take place in American cities with sizable Hispanic populations, such Los Angeles, Houston, and San Antonio."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cinco_de_Mayo",
+        "situacao": "ok",
+        "texto": "O Cinco de Mayo (espanhol para \"cinco de maio\") refere-se à data da Batalha de Puebla, 5 de maio de 1862, quando, pela primeira vez, o exército mexicano, sob a liderança do general Ignacio Zaragoza Seguin, derrotou uma potência ocupante bem mais preparada — neste caso, a França.\n[…]\nA data não é feriado nacional nem é muito comemorada no México, exceto no estado de Puebla. É, no entanto, muito festejada pelos mexicanos expatriados, especialmente os residentes nos Estados Unidos,\n[…]\nSegundo alguns historiadores, o real objetivo da França era ajudar a quebrar a União Americana, que, naquele momento, estavam em guerra civil, assim ajudando a Confederação do Sul: \"Os mexicanos haviam conquistado uma grande vitória que manteve Napoleão III de abastecimento dos rebeldes confederados por mais um ano, permitindo que os Estados Unidos para construir o maior exército do mundo já tinha visto.\n[…]\nSegundo escreve o historiador Justo Sierra, em seu livro Political Evolution of the Mexican People, se o México não tivesse derrotado os franceses em Puebla a 5 de maio de 1862, a França teria ido em auxílio do Sul (Estados Confederados) na Guerra Civil dos EUA, e o destino dos Estados Unidos poderia ter sido muito diferente.\n[…]\nCinco de Mayo é um feriado regional limitado principalmente ao estado de Puebla. Há algum reconhecimento do feriado em outras partes do país.\n[…]\nEventos ligados a Cinco de Mayo também ocorrem fora do México e dos Estados Unidos. Por exemplo, um clube de paraquedismo perto de Vancouver, no Canadá, tem o evento Paraquedismo Cinco de Mayo. Nas Ilhas Cayman, nas Caraíbas, há uma competição anual de air guitar no Cinco de Mayo. Até em lugares muito distantes, como na ilha de Malta, no Mar Mediterrâneo, os foliões são incentivados a beber cerveja mexicana no 5 de maio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Festival do Barco-Dragão",
+      "descricao": "Festa tradicional chinesa do quinto dia do quinto mês lunar, com corridas de barcos em forma de dragão."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição, o Festival do Barco-Dragão, na China, homenageia qual poeta antigo, que se afogou num rio?",
+    "resposta": "Qu Yuan",
+    "distratores": [
+      "Confúcio",
+      "Du Fu",
+      "Lao-Tsé"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Boat_Festival",
+      "https://en.wikipedia.org/wiki/Qu_Yuan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dragon_Boat_Festival",
+        "situacao": "ok",
+        "texto": "The Dragon Boat Festival (traditional Chinese: 端午節; simplified Chinese: 端午节; pinyin: Duānwǔ jié; Cantonese Yale: Dyūnńgh jit), also known as the Duanwu Festival or Tuen Ng Festival, is a traditional Chinese holiday that occurs on the fifth day of the fifth month of the Chinese calendar, which corresponds to late May or early June in the Gregorian calendar.\n[…]\nAlthough Wu Zixu is commemorated in southeast Jiangsu and Qu Yuan elsewhere in China, much of Northeastern Zhejiang, including the cities of Shaoxing, Ningbo and Zhoushan, celebrates the memory of the young girl Cao E (130–144 AD) instead. Cao E's father Cao Xu (曹盱) was a shaman who presided over local ceremonies at Shangyu. In 143, while presiding over a ceremony commemorating Wu Zixu during the Dragon Boat Festival, Cao Xu accidentally fell into the Shun River.\n[…]\nSome modern research suggests that the stories of Qu Yuan or Wu Zixu were possibly superimposed onto pre-existing holiday traditions. The promotion of these stories might have been encouraged by Confucian scholars, seeking to legitimize and strengthen their influence in China. The relationship between zongzi, Qu Yuan and the Dragon Boat Festival first appeared during the early Han dynasty.\n[…]\nIn 2005, the Chinese Communist Party called for the revival of the Dragon Boat Festival. In 2008, the Dragon Boat Festival was made a national public holiday in China.\n[…]\nDragon boat racing has a rich history of ancient ceremonial and ritualistic traditions, which originated in southern central China more than 2500 years ago. The legend starts with the story of Qu Yuan, who was a minister in one of the Warring State governments, Chu. He was slandered by jealous government officials and banished by the king. Out of disappointment in the Chu monarch, he drowned himself in the Miluo River."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Qu_Yuan",
+        "situacao": "ok",
+        "texto": "Qu Yuan (c. 340 BC – 278 BC) was a Chinese poet and political figure of the State of Chu during the Warring States period.\n[…]\nQu Yuan is the central figure associated with the Chu Ci anthology. \"The Lament\" is generally accepted as his work, while the attribution of many other poems has been disputed. Later tradition associates his death by drowning in the Miluo River with customs of the Dragon Boat Festival.\n[…]\nFor example, one high-school Chinese textbook from 1957 began with the sentence \"Qu Yuan was the first great patriotic poet in the history of our country's literature\". This cult status increased Qu Yuan's position within China's literary canon, seeing him placed on postage stamps and the Dragon Boat Festival elevated to a national public holiday in 2008.\n[…]\nThese packages became a traditional food known as zongzi, although the lumps of rice are now wrapped in leaves instead of silk. The act of racing to search for his body in boats gradually became the cultural tradition of dragon boat racing, held on the anniversary of his death every year. Today, people still eat zongzi and participate in dragon boat races to commemorate Qu Yuan's sacrifice on the fifth day of the fifth month of the traditional lunisolar Chinese calendar.\n[…]\nDragon Boat Festival\n[…]\nShun Li and the Poet (Qu Yuan serves as Shun Li's inspiration)\n[…]\n\"Qu Yuan (Chu Yuan), the great poet\"\n[…]\n\"This article has photos of Qu Yuan's hometown before it was submerged by the dams project\"\n[…]\n\"The Dragon Boat Festival\" (article reproduced from Volume 1, number 2 of the newsletter of Families with Children from China of the San Francisco Bay Area)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festival_do_Barco-drag%C3%A3o",
+        "situacao": "ok",
+        "texto": "O Festival do Barco do Dragão (chinês simplificado: 端午节; chinês tradicional: 端午節; pinyin: Duānwǔ Jié), também chamado de Duanwu, é um feriado tradicional chinês que ocorre no quinto dia do quinto mês do calendário chinês, correspondendo ao final de maio ou junho no calendário gregoriano.\n[…]\nDaí Duanwu, o \"festival no quinto dia do quinto mês\".\n[…]\nA história mais conhecida na China moderna afirma que o festival comemora a morte do poeta e ministro Qu Yuan (c. 340 –278 aC) do antigo estado de Chu durante o período dos Reinos Combatentes da dinastia Zhou. Um membro cadete da casa real de Chu, Qu serviu em altos cargos. No entanto, quando o rei decidiu se aliar ao estado cada vez mais poderoso de Qin, Qu foi banido por se opor à aliança e até acusado de traição. Durante seu exílio, Qu Yuan escreveu muita poesia.\n[…]\nEmbora Wu Zixu seja comemorado no sudeste de Jiangsu e Qu Yuan em outras partes da China, grande parte do nordeste de Zhejiang, incluindo as cidades de Shaoxing, Ningbo e Zhoushan, celebra a memória da jovem Cao E (曹娥; DC 130-144) em vez disso. O pai de Cao E, Cao Xu (曹盱) era um xamã que presidia as cerimônias locais em Shangyu. Em 143, enquanto presidia uma cerimônia em comemoração a Wu Zixu durante o Festival do Barco do Dragão, Cao Xu caiu acidentalmente no rio Shun.\n[…]\nA corrida de barcos-dragão tem uma rica história de antigas tradições cerimoniais e ritualísticas, que se originaram no centro-sul da China há mais de 2.500 anos. A lenda começa com a história de Qu Yuan, que era ministro de um dos governos dos Estados Combatentes, Chu. Ele foi caluniado por funcionários do governo invejosos e banido pelo rei. Por decepção com o monarca Chu, ele se afogou no rio Miluo. As pessoas comuns correram para a água e tentaram recuperar seu corpo, mas falharam.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Morte por ventilador",
+      "descricao": "Crença popular sul-coreana de que dormir num quarto fechado com ventilador ligado pode matar."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Coreia do Sul, uma crença popular diz que dormir num quarto fechado com qual aparelho ligado pode matar?",
+    "resposta": "Ventilador elétrico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fan_death"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fan_death",
+        "situacao": "ok",
+        "texto": "Fan death is the misconception that people have died as a result of running an electric fan in a closed room with no open windows. While the supposed mechanics of fan death are impossible given how electric fans operate, large belief in fan death persisted until the mid-2000s in South Korea and, to a lesser extent, Japan.\n[…]\nHowever, that gradual reduction of O2 and buildup of CO2 occurs in any room without ventilation due to respiration, and a running fan will not meaningfully worsen or improve the problem, except in zero-G environments where exhaled air tends to form a bubble around astronauts' heads instead of dispersing normally.\n[…]\nHowever, the article noted that there was \"no evidence\" the fan caused the death. University of Miami researcher Larry Kalkstein says a misunderstanding in translation resulted in his accidental endorsement of the fan death theory, which he denies is a real phenomenon.\n[…]\nPhilip Hiscock, when interviewed by The Star, suggested that fan death's prevalence in Korean beliefs and its potential as a euphemism contributed to the idea's continuation: \"Traditional fairy legends (or) contemporary UFO abductions are used for things that are either inadmissible or untellable in present company. The fact that fan death is well known in Korea (and) can be used to postpone explanations or cover up the truth is very interesting and a very traditional way of going about things.\"\n[…]\nIf bodies are exposed to electric fans or air conditioners for too long, it causes [the] bodies to lose water and [causes] hypothermia. If directly in contact with [air current from] a fan, this could lead to death from [an] increase of carbon dioxide saturation concentration and decrease of oxygen concentration. The risks are higher for the elderly and patients with respiratory problems."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Morte_por_ventilador",
+        "situacao": "ok",
+        "texto": "Morte por ventilador é a concepção errônea de que pessoas morreram como resultado de deixar um ventilador elétrico ligado em um quarto fechado sem janelas abertas. Embora os supostos mecanismos da morte por ventilador sejam impossíveis, dado o funcionamento dos ventiladores elétricos, uma grande crença nessa teoria persistiu até meados dos anos 2000 na Coreia do Sul e, em menor grau, no Japão.\n[…]\nUm homem supostamente morreu na manhã de segunda-feira depois de dormir com um ventilador elétrico ligado. A vítima, de 59 anos, conhecida apenas pelo sobrenome Min, foi encontrada morta com o ventilador apontado diretamente para ele.\n[…]\nA Korea Consumer Protection Board (KCPB), uma agência pública sul-coreana financiada pelo governo, emitiu um alerta de segurança ao consumidor em 2006, advertindo que a \"asfixia por ventiladores elétricos e condicionadores de ar\" estava entre os cinco acidentes ou lesões de verão mais comuns na Coreia do Sul, de acordo com os dados que coletaram. A KCPB publicou o seguinte:\n[…]\nSe os corpos forem expostos a ventiladores elétricos ou condicionadores de ar por muito tempo, isso faz com que [os] corpos percam água e [causa] hipotermia. Se em contato direto com [a corrente de ar de] um ventilador, isso pode levar à morte por [um] aumento da concentração de saturação de dióxido de carbono e diminuição da concentração de oxigênio. Os riscos são maiores para idosos e pacientes com problemas respiratórios.\n[…]\nDe 2003 [a] 2005, um total de 20 casos foram relatados através do CISS [Sistema de Vigilância de Lesões do Consumidor] envolvendo asfixias causadas por deixar ventiladores elétricos e condicionadores de ar ligados durante o sono. Para evitar asfixia, temporizadores devem ser configurados, a direção do vento deve ser rotacionada e as portas devem ser deixadas abertas.\n[…]\nCultura da Coreia do Sul",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Ramadã",
+      "descricao": "Nono mês do calendário islâmico, em que os muçulmanos jejuam do amanhecer ao pôr do sol."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A cada ano, o Ramadã começa cerca de onze dias mais cedo no nosso calendário. Por quê?",
+    "resposta": "Segue o calendário lunar islâmico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ramadan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ramadan",
+        "situacao": "ok",
+        "texto": "Ramadan is the ninth month of the Islamic calendar. It is observed by Muslims worldwide as a month of fasting (sawm), communal prayer (salah), reflection, study of the Quran, charity, and strengthening community ties. It is also the month in which the Quran is believed to have been revealed to the Islamic prophet Muhammad, known as Laylat al-Qadr.\n[…]\nThe Islamic calendar is lunar; each month begins when the first crescent of a new moon is sighted. The Islamic year consists of 12 lunar cycles and is 10 to 11 days shorter than the solar year. As the Islamic calendar does not use intercalation, Ramadan migrates throughout the seasons. The Islamic day starts after sunset. The estimated start and end dates for Ramadan, based on the Umm al-Qura calendar of Saudi Arabia, are:\n[…]\nThe holiday of Eid al-Fitr (Arabic: عيد الفطر), which marks the end of Ramadan and the beginning of Shawwal, the next lunar month, is declared after a crescent new moon has been sighted or after 30 days of fasting if no sighting of the moon is possible. Eid celebrates the return to a more natural disposition (fitra) of eating, drinking, and marital intimacy.\n[…]\nIn some Islamic countries, lights (fanous) are strung up in public squares and across city streets, a tradition believed to have originated during the Fatimid Caliphate, where the rule of Caliph al-Mu'izz li-Din Allah was acclaimed by people holding lanterns.\n[…]\nThere are various health effects of fasting. Ramadan fasting is considered safe for healthy people; it may pose risks for those with certain preexisting conditions. Most Islamic scholars hold that fasting is not required for those who are ill. The elderly, pre-pubertal children, and pregnant or lactating women are exempt. Pregnant women who fast face health risks, including the potential of induced labour and gestational diabetes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ramad%C3%A3o",
+        "situacao": "ok",
+        "texto": "Esta página contém alguns caracteres especiais e é possível que a impressão não corresponda ao artigo original.\n[…]\nO Ramadão (português europeu) ou Ramadã (português brasileiro), também grafado Ramadan (em árabe: رَمَضَان, translit. Ramaḍān), é o nono mês do calendário islâmico, no qual a maioria dos muçulmanos pratica o seu jejum ritual (saum; em árabe: صوم, translit. sawm), o quarto dos cinco pilares do Islão (arkan al-Islam).\n[…]\nÉ o nono mês do calendário islâmico. Uma vez que o calendário islâmico é lunar, o Ramadão não é celebrado todos os anos na mesma data, podendo passar por todos os meses e estações do ano, conforme a progressão dos anos, porém sua duração é entre 29 e 30 dias.\n[…]\nO mês inicia-se com a aparição da lua no final do mês de Shaban (oitavo mês no calendário lunar islâmico).\n[…]\nO período correspondente ao início e fim deste mês no calendário gregoriano para o atual ano islâmico é:\n[…]\nAtualmente, com a ampliação do diálogo inter-religioso, algumas pessoas de outras religiões são convidadas a partilhar este momento de convívio e é cada vez mais frequente que cristãos ofereçam e celebrem um iftar para os seus amigos muçulmanos, bem como muçulmanos ofereçam a cristãos.\n[…]\nLaylat al Kadr (\"noite do decreto\") é a noite mais sagrada para os fiéis no Ramadã. Os muçulmanos acreditam que o Alcorão foi enviado pela primeira vez ao mundo e Maomé recebeu sua primeira revelação corânica nessa noite. Acredita-se que tenha ocorrido em uma noite ímpar durante os últimos dez dias do Ramadã.\n[…]\nEm muitas cidades islâmicas grandes celebrações são realizadas para celebrar o Eid al Fitr.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Quimono",
+      "descricao": "Traje tradicional japonês em forma de T, com mangas largas, preso por uma faixa na cintura."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que faixa larga de tecido, amarrada na cintura, prende e completa o quimono japonês?",
+    "resposta": "Obi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obi_(sash)",
+      "https://en.wikipedia.org/wiki/Kimono"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Obi_(sash)",
+        "situacao": "ok",
+        "texto": "An obi (帯) is a sash of varying size and shape worn with both traditional Japanese clothing and uniforms for Japanese martial arts styles. Originating as a simple thin sash in Heian period Japan, the obi developed over time into a sash with a number of different varieties, with a number of different sizes and proportions, lengths, and methods of tying.\n[…]\nNowadays, inro are rarely worn as kimono accessories, but there are collectors all over the world.\n[…]\nThere are hundreds of decorative knots, particularly for women, often named for their resemblance to flowers, animals and birds. Obi knots follow the same rough conventions of style and suitability as kimono do, with the more complex and fanciful knots reserved for younger women on festive occasions, and knots with a plainer appearance being mostly worn by older women; however, some knots, such as the taiko musubi, have become the standard knot for women of all ages, excluding young girls.\n[…]\nAyame musubi (菖蒲結び/あやめむすび, \"iris knot\") is a very complex and decorative knot resembling an iris blossom. It is considered suitable for young women in informal situations and parties. Because of the complexity and conspicuousness of the knot, it should be worn with more subdued, preferably monochrome kimono and obi.\n[…]\nBara musubi (薔薇結び/バラむすび, \"rose knot\") is a contemporary knot suitable for young women, often worn to formal occasions at the lowest end of \"formal\". Because of the complexity of the knot, a multi-coloured or strongly patterned obi should not be used, and the patterns of the kimono should generally match the knot.\n[…]\nKimono – Traditional Japanese garment\n[…]\nDalby, Liza (2001). Kimono, Fashioning Culture. Vintage. ISBN 0-09-942899-7.\n[…]\nYamanaka, Norio (1986). The Book of Kimono. Kondansha International. ISBN 0-87011-785-8."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kimono",
+        "situacao": "ok",
+        "texto": "The kimono (着物; Japanese pronunciation: [kʲi.mo.no], lit. 'thing to wear') is a traditional Japanese garment and the national dress of Japan. The kimono is a wrapped-front garment with square sleeves and a rectangular body, and is worn left side wrapped over right, unless the wearer is deceased. The kimono is traditionally worn with a broad sash, called an obi, and is commonly worn with accessorie\n[…]\nOutside of being re-woven into new fabrics, worn-out kimono have historically been recycled in a variety of ways, depending on the type of kimono and its original use. When the cloth is worn out, it may be used as fabric for smaller items or to create boroboro (patchwork) kimonos (which were also sometimes made for the sake of fashion). The fact that the pattern pieces of a kimono consist of rectangles, and not complex shapes, make reuse in garments or other items easier.\n[…]\nA completely black mourning ensemble for women – a plain black obi, black obijime and black obiage – is usually reserved for those closest to the deceased. Those further away will wear kimono in dark and subdued colours, rather than a plain black kimono with a reduced number of crests.\n[…]\nUchikake are designed to be worn over the top of a complete kimono outfit with obi, and thus are not designed to be worn belted. Unlike their 16th century counterparts, modern uchikake generally could not double as a regular kimono, as they often feature heavy, highly-formal decoration and may be padded throughout, if not solely on the hem. They are designed to trail along the floor, and the heavily padded hem helps to achieve this.\n[…]\nArchived link to the Immortal Geisha Forums; comprehensive resource on kimono knowledge and culture\n[…]\nArticles on kimono from the V&A Collection\n[…]\nArticles on kimono\n[…]\nKimono: A Modern History 2014 exhibition at the Metropolitan Museum of Art; exhibition catalog by Terry Satsuki Milhaupt ISBN 978-1-780-23317-8"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Jack-o'-lantern",
+      "descricao": "Lanterna feita de um vegetal escavado com um rosto esculpido, símbolo do Halloween."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Irlanda e na Escócia, antes das abóboras, as lanternas de Halloween com rostos esculpidos eram feitas com que legume?",
+    "resposta": "Nabo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack-o%27-lantern"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jack-o%27-lantern",
+        "situacao": "ok",
+        "texto": "A jack-o'-lantern (or jack o'lantern) is a carved lantern, most commonly made from a pumpkin, or formerly a root vegetable such as a mangelwurzel, rutabaga or turnip. Jack-o'-lanterns are associated with the Halloween holiday. Its name comes from the phenomenon of strange lights flickering over peat bogs, called jack-o'-lanterns (also known as will-o'-the-wisps).\n[…]\nIn the United States and Canada, the carved pumpkin was first associated with the harvest season in general before it became a symbol of Halloween. In 1895, an article on Thanksgiving entertaining recommended giving a lit jack-o'-lantern as a child's prize in Thanksgiving games. The poet John Greenleaf Whittier, who was born in Massachusetts in 1807, wrote the poem \"The Pumpkin\" (1850), which mentions Thanksgiving but not Halloween:Oh!—fruit loved of boyhood!—the old days recalling,\n[…]\nAn 1885 article \"Halloween Sports and Customs\" contrasts the American jack-o'-lantern custom with the British bonfire custom:\n[…]\nIt is an ancient British custom to light great bonfires (Bone-fire to clear before Winter froze the ground) on Hallowe'en, and carry blazing fagots about on long poles; but in place of this, American boys delight in the funny grinning jack-o'-lanterns made of huge yellow pumpkins with a candle inside.\n[…]\nAdaptations of Washington Irving's short story \"The Legend of Sleepy Hollow\" (1820) often show the Headless Horseman with a jack-o'-lantern in place of his severed head. In the original story, a shattered pumpkin is discovered next to the missing Ichabod Crane's abandoned hat on the morning after Crane's supposed encounter with the Horseman. The Horseman chased Crane and possibly threw his severed head at him, but the story does not reference jack-o'-lanterns or Halloween.\n[…]\nThe History of The Jack-O-Lantern (& How It All Began With a Turnip)\n[…]\nWhat’s the Origin of Jack-O’-Lanterns?"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jack-o%27-lantern",
+        "situacao": "ok",
+        "texto": "A jack-o'-lantern (do inglês Jack da Lanterna) é o apelido em língua inglesa dado a uma abóbora iluminada feita como enfeite para o Dia das Bruxas (ou Halloween, em inglês). Em Portugal, esse enfeite é chamado de coca.\n[…]\nO termo jack-o'-lantern foi originalmente usado para descrever o fenômeno ignis fatuus (lit., \"fogo fátuo\"). Usado principalmente no Leste da Inglaterra, os primeiros registros do termo datam da década de 1660.\n[…]\nAdaptações de conto The Legend of Sleepy Hollow (1820), de Washington Irving, muitas vezes retratam o Cavaleiro Sem Cabeça com uma abóbora ou jack-o'-lantern no lugar de sua cabeça decepada.\n[…]\nA aplicação do termo para abóboras esculpidas no inglês estadunidense é atestada pela primeira vez em 1834. A associação da lanterna de abóbora esculpida com o Dia das Bruxas foi registrada na edição de 1 de novembro de 1866 edição do Daily News (Kingston, Ontário).\n[…]\nNos Estados Unidos, a abóbora esculpida foi primeiramente associada com a estação da colheita, muito antes que se transformasse um emblema do Halloween. Em 1900, um artigo sobre o Dia de Ação de Graças recomendava lanternas de abóbora como parte das festividades.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Maslenitsa",
+      "descricao": "Festa eslava oriental de despedida do inverno, na semana anterior à Quaresma ortodoxa."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Maslenitsa, festa russa de despedida do inverno, come-se em grande quantidade que panqueca fina, redonda como o sol?",
+    "resposta": "Blini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maslenitsa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maslenitsa",
+        "situacao": "ok",
+        "texto": "Maslenitsa (Belarusian: Масленіца; Russian: Мaсленица [ˈmas⁽ʲ⁾lʲɪnʲɪt͡sə]; Rusyn: Пущаня; Ukrainian: Масниця), also known as Butter Lady, Butter Week, Crepe week, or Cheesefare Week, is an Eastern Slavic religious and folk holiday which has retained a number of elements of Slavic mythology in its ritual. It is celebrated during the last week before Great Lent; that is, the eighth week before Easte\n[…]\nThe traditional attributes of the Maslenitsa celebration are the Maslenitsa effigy, sleigh rides, and festivities. Russians bake blini and flatbread, while Belarusians and Ukrainians cook pierogi and syrniki.\n[…]\nIn the Christian tradition, Maslenitsa is the last week before the onset of Great Lent.\n[…]\nAfter the start of perestroika and fall of the Soviet Union in the 1980s and 1990s, large outdoor celebrations started up again, and much of the older Maslenitsa traditions began to be revived in a modern context. Since 2002, Moscow has staged a yearly Maslenitsa festival next to the Red Square, with that and other celebrations attracting around 300,000 visitors in 2011.\n[…]\nWith increasing secularization, many Russians do not abstain from meat and Maslenitsa celebrations can be accompanied by shashlik vendors. Nevertheless, \"meat still does not play a major role in the festivities\". Many countries with a significant number of Russian immigrants consider Maslenitsa a suitable occasion to celebrate Russian culture, although the celebrations are usually reduced to one day and may not coincide with the date of the religious celebrations.\n[…]\nin 2012, Russian-Canadian composer Airat Ichmouratov composed an Overture Maslenitsa. It was premiered in Chicoutimi, Canada, on 24 February 2013 by L'Orchestre Symphonique du Saguenay–Lac-Saint-Jean under the baton of French-Canadian conductor Jacques Clément."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maslenitsa",
+        "situacao": "ok",
+        "texto": "Maslenitsa é um festival religioso e folclórico de vários povos do Leste Europeu, incorporando tradições da mitologia eslávica. É celebrado durante a última semana antes da \"Grande Quaresma\", isto é, a oitava semana antes da Páscoa.\n[…]\nO elemento essencial da celebração Maslenitsa são os blini, panquecas ou crepes feitos com massa lêveda, que popularmente simbolizam o regresso do sol. Redondas e douradas, são feitos a partir de alimentos ricos ainda permitidos durante essa semana pelas tradições: manteiga, ovos e leite (na tradição da Igreja Ortodoxa, o consumo de carne termina uma semana antes do consumo de leite e ovos). Na Ucrânia, também são preparados syrniki e pierogi para a data.\n[…]\nA Maslenitsa também inclui máscaras, lutas de neve, trenós, balançando, balanços e abundância de passeios de trenó. A mascote da festa é geralmente um boneco de palha brilhantemente vestido, chamado de \"Senhora Maslenitsa\", boneco anteriormente conhecido como Kostroma. Como o auge da celebração, na noite de domingo, a Senhora Maslenitsa é despojada da sua elegância, e queimada nas chamas de uma fogueira.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Mehndi",
+      "descricao": "Arte de pintar desenhos temporários na pele, tradicional em casamentos na Índia e no sul da Ásia."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Antes do casamento, as noivas indianas têm mãos e pés decorados com desenhos feitos com que tinta vegetal?",
+    "resposta": "Hena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mehndi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mehndi",
+        "situacao": "ok",
+        "texto": "Mehndi or mehendi is a form of temporary skin decoration using a paste created with henna. It is a popular form of body art in the Indian Subcontinent and resembles similar traditions of henna as body art found in North Africa, East Africa and the Middle East. In the West, mehndi is commonly known as henna tattoo. The standard color of mehndi is brown, but other design colors such as white, red, b\n[…]\n\"Mehndi\" is a term used amongst the Indian Subcontinent, whereas 'henna\" is used more commonly in the Middle East. Designs and patterns are distinct from region to region. For example, South Asian designs are characterized by small, intricate patterns and lines, while Middle Eastern designs typically consist of floral patterns. Mehndi also has been a part of African cultures as well, and designs there consist of more simple, geometric patterns.\n[…]\nThe term \"mehndi\" derives from the Sanskrit word mendhikā, which refers to the henna plant (Lawsonia inermis), whose leaves produce a reddish-brown dye used for body decoration and other purposes. The word entered various South Asian languages, including Hindi, Urdu, Punjabi, Gujarati, and Bengali, where it came to denote both the henna paste and the art of applying decorative designs with it.\n[…]\nFor Hindus, it is a beloved tradition during weddings and is deeply rooted in culture and beliefs. The art form symbolizes prosperity and good fortune. Many families hold a dedicated wedding ceremony known as Mehndi or Mehendi Night, where mehndi is applied on the bride and groom. Family and friends also apply mehndi to their hands and forearms in this ceremony. The ceremony also involves traditional foods being given to the guests and usually some form of traditional dancing and music.\n[…]\nIn Indian culture, it is a cultural joke that the darker the colour of the mehndi, the more a person's partner (or future partner) loves them."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Christmas cracker",
+      "descricao": "Tubo de papel enfeitado, típico da ceia de Natal britânica, que estoura quando duas pessoas o puxam e revela pequenos brindes."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na ceia de Natal britânica, puxa-se um tubo de papel que estoura, o cracker. Que chapéu de papel sai de dentro dele?",
+    "resposta": "Uma coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_cracker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christmas_cracker",
+        "situacao": "ok",
+        "texto": "Christmas crackers are festive table decorations that make a snapping sound when pulled open, and typically contain a small gift, paper hat and a joke. They are part of Christmas celebrations in the United Kingdom, Ireland and Commonwealth countries such as Australia, Canada, New Zealand and South Africa.\n[…]\nChristmas crackers are also associated with Knut's parties, held in Sweden at the end of the Christmas season.\n[…]\nThe Oxford English Dictionary records the pulling of crackers from 1847.\n[…]\nTom Smith & Company merged with Caley Crackers in 1953.\n[…]\nA Christmas cracker is the subject of The Party Favor, an oil painting by American artist Norman Rockwell.\n[…]\nThe World's Largest Christmas Cracker was measured at 63.1 m (207 ft) long and 4 m (13 ft) in diameter and was made by the parents of children at Ley Hill School and Pre-School, Chesham, Buckinghamshire, UK on 20 December 2001.\n[…]\nThe longest Christmas cracker pulling chain consisted of 1081 people and was achieved by The Harrodian School in London on 10 December 2015.\n[…]\nOn 17 August 2020, while filming a Christmas episode of the television series QI, British comedian Alan Davies set a Guinness World Record for the most crackers pulled by an individual in 30 seconds. He achieved 35 successful cracks, outscoring fellow panelist Justin Moorhouse by five in a head-to-head competition. Davies' record stood until Joel Corry achieved 41 successful cracks at Capital's Jingle Bell Ball on 12 December 2021.\n[…]\nRules on transporting Christmas crackers in luggage vary by airline and airport. Passengers on commercial flights in and to the United States are explicitly prohibited from carrying Christmas crackers on board or in checked baggage.\n[…]\nMedia related to Christmas crackers at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Bar mitzvá",
+      "descricao": "Cerimônia judaica que marca a maioridade religiosa do menino."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Entre os judeus, o menino celebra o bar mitzvá, sua maioridade religiosa, ao completar qual idade?",
+    "resposta": "Treze anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah",
+        "situacao": "ok",
+        "texto": "A bar mitzvah (masculine) or bat mitzvah (feminine) is a coming of age ritual in Judaism. According to Jewish law, before children reach a certain age, the parents are responsible for their child's actions. Once Jewish children reach that age, they are said to \"become\" b'nai mitzvah, at which point they begin to be held accountable for their own actions. Traditionally, the father of a bar or bat m\n[…]\nIn 1979, the Responsa Committee of the Central Conference of American Rabbis addressed the Reform attitude toward bat/bar mitzvah: \"Every effort should be exerted to maintain the family festivities in the religious mood at the bar/bat mitzvah. Some of the efforts of early Reform in favor of confirmation [and] against bar mitzvah were prompted by the extravagant celebration of bar mitzvah, which had removed its primary religious significance.\n[…]\nThe kibbutz movement in Israel also encouraged the celebration of the bar mitzvah. All those coming of age in the community for that year would take on a project and research in a topic of Jewish or Zionist interest. Today many kibbutz children are opting for a more traditional bar mitzvah celebration.\n[…]\nBar or bat mitzvah celebrations have become an occasion to give the celebrant a commemorative gift. Traditionally, common gifts include books with religious or educational value, religious items, writing implements, savings bonds (to be used for the child's college education), gift certificates, or money. Gifts of cash have become commonplace in recent times.\n[…]\nJewelry is a common gift for girls at a bat mitzvah celebration. Among jewelry gifts, a Star of David (Magen David) necklace is a classic choice, combining a lasting keepsake with one of the most widely recognized symbols of Jewish identity and Judaism. Another gift for the bat mitzvah girl is Shabbat candlesticks because it is the duty and honor of the woman to light the candles."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bar_Mitzv%C3%A1",
+        "situacao": "ok",
+        "texto": "Bar Mitzvá (“filho do mandamento” ou “filho da lei”) é a cerimônia que insere o jovem judeu como um membro maduro na comunidade judaica. Iniciado como uma cerimônia folclórica, agora é parte universal do judaísmo oficial, tendo acabado como parte da lei escrita.\n[…]\nQuando um judeu atinge a sua maturidade (aos 12 anos de idade para as meninas, 13 anos de idade para os meninos), passa a se tornar responsável pelos seus atos, de acordo com a lei judaica. Nessa altura, diz-se que o menino passa a ser Bar Mitzvah ( בר מצוה , \"filho do mandamento\"); e a menina passa a ser Bat Mitzvá (בת מצוה, \"filha do mandamento\") que comemora a cerimônia ao completar 12 anos e 2 dias.\n[…]\nO Bar Mitzváh não é só uma comemoração comum de aniversário, mas normalmente, o menino passa por um ritual de mazal-tov que seria como um boa sorte ou parabéns (dependendo da situação), normalmente o mazal-tov é feito com o(a) menino(a) sobre uma cadeira e ele(a) é levantado várias vezes, e assim fazem com toda a família do Barmitzvano.\n[…]\nA ocasião mais importante na vida de um judeu chega quando ele atinge a idade para entrar na aliança com Deus e no compromisso de manter, estudar e praticar todos os mandamentos da Torá, aos treze anos de idade.\n[…]\nA prática mais comum é que no primeiro Sábado ao fazer treze anos, o menino é chamado para ler a porção semanal da Lei (cinco livros de Moisés), bem como a Haftará (seleção do livro dos Profetas). Se por algum motivo, ele não for capaz de ler, pelo menos realizar as bênçãos ditas antes e depois de cada leitura. É muito comum realizar o serviço durante um dia da semana antes do Sábado para que o menino coloque o Tefilin pela primeira vez.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Nowruz",
+      "descricao": "Ano-novo persa, celebrado no Irã, na Ásia Central e em outras regiões de influência persa."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na mesa do Nowruz, o ano-novo persa, arrumam-se objetos cujos nomes começam com a letra s. Quantos são esses objetos?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haft-sin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Haft-sin",
+        "situacao": "ok",
+        "texto": "Haft Seen or Haft sin (Persian: هفت‌سین, lit. 'Seven S's') is an arrangement of seven symbolic items whose names start with the letter \"س\" (pronounced as \"seen\"), the 15th letter in the Persian alphabet; \"haft\" (هفت) is Persian for \"seven\". It is traditionally displayed at Nowruz, the Iranian New Year, which is celebrated on the day of the vernal equinox, marking the beginning of spring in the Nor\n[…]\nNowruz, the Iranian New Year, is a celebration of the beginning of spring and the start of a new year celebrated in more than 20 countries. With its special customs and traditions, such as the Haft sin table, this celebration symbolizes renewal and harmony with nature.\n[…]\nRegarding the Nowruz table, according to the narration of Iranian researcher Zana Salehrad, they spread a white tablecloth, placed a mirror on top of the table, which symbolizes the endless world, placed one or more candles or a lamp around the mirror that they did not extinguish, and placed an egg on the mirror, which symbolizes the seed, race, and creation of man, and sprinkled a handful of wheat in front of the mirror as a symbol of sustenance.\n[…]\nWhen Haft Shin first gained popularity among Iranians during the Sassanid era, Shamshad was set out on the table alongside the other Shins on Nowruz as a representation of longevity and greenness."
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Rapazes do Natal",
+      "descricao": "Duendes travessos do folclore islandês que visitam as crianças, um por noite, antes do Natal."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na Islândia, nas noites antes do Natal, as crianças recebem a visita de duendes travessos, os Rapazes do Natal. Quantos são eles?",
+    "resposta": "Treze",
+    "distratores": [
+      "Sete",
+      "Nove",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yule_Lads"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yule_Lads",
+        "situacao": "ok",
+        "texto": "Icelandic Christmas folklore depicts mountain-dwelling characters and monsters who come to town during Christmas. The stories are directed at children and are used to scare them into good behavior. The folklore includes mischievous pranksters who leave gifts at night and monsters who eat disobedient children.\n[…]\nIn modern times, the Yule Lads have also been depicted in a more benevolent role comparable to Santa Claus and other related figures. They are generally portrayed wearing late-medieval Icelandic clothing, but are sometimes shown in the costume traditionally worn by Santa Claus, especially at children's events.\n[…]\nPrior to the popularization of the 13 Yule Lads, regional lore offered variations on their mythos. Some were said to be sons of Grýla; others were her brothers. While each of them is still associated with a characteristic prank, some stories describe only nine Yule Lads. Most of the obscure Yule Lads fall into three groups: those who steal food, those who like to play tricks or harass, and those who seem to be a delusion from nature (for example, Gully Gawk, who just hides in gullies).\n[…]\nA folk tale particular to eastern Iceland described the Yule Lads originating from the ocean rather than the mountains. One rare nursery rhyme mentions two female Yule pranksters who steal melted fat by stuffing it up their noses or putting it in socks.\n[…]\n\"The Yule Lads\". Jo's Icelandic Recipes. Archived from the original on 2 April 2015.\n[…]\n\"Jólasveinarnir (Yuletide Lads)\". Yule in Iceland. Archived from the original on 24 July 2011.\n[…]\n\"Christmas in Iceland\". jol.ismennt.is. Archived from the original on 11 November 2006. A comprehensive site on Christmas in Iceland with much information about Yule Lads and Grýla."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/J%C3%B3lasveinarnir",
+        "situacao": "ok",
+        "texto": "Os Jólasveinarnir (pronúncia em islandês: ​[ˈjouːlaˌsveiːna(r)tnɪr̥]; lit. \"os rapazes do Natal\") são personagens e monstros do folclore islandês que supostamente vivem nas montanhas e vêm para a cidade durante a época de Natal. As histórias foram criadas para crianças e são utilizadas para encorajar bom comportamento. O folclore inclui criaturas travessas que deixam presentes durante a noite e mo\n[…]\ne os Yule Lads, filhos de Grýla e Leppalúði, um grupo de treze trolls travessos que roubam ou incomodam a população e têm nomes que descrevem sua forma favorita de perturbação. Eles vêm para a cidade um por um durante as últimas treze noites anteriores ao Yule. Eles deixam pequenos presentes em sapatos que as crianças põem na janela. Se a criança tiver sido desobediente, todavia, eles deixam uma batata podre em seu lugar.\n[…]\nOs Yule Lads (em islandês, Jólasveinarnir; IPA: [ˈjouːlaˌsveiːna(r)tnɪr̥]), às vezes chamados de Yuletide-lads ou Yulemen, são os filhos de Grýla e Leppalúði. Eles são um grupo de treze trolls travessos que roubam ou incomodam a população. Todos eles têm nomes descritivos que geralmente comunicam sua forma favorita de causar perturbação. Um por um, eles chegam nas treze últimas noites anteriores ao Natal.\n[…]\nOs Yule Lads chegam na cidade durante as treze noites anteriores ao dia de Natal, começando em 12 de dezembro. Depois disso, começando em 25 de dezembro, eles vão embora um por um na mesma ordem em que chegaram; sendo assim, cada um deles fica por treze dias. Abaixo estão por treze Yule Lads canônicos na ordem em que chegam (e vão embora):\n[…]\nAntes dos treze Yule Lads canônicos se tornarem os mais conhecidos, suas descrições variavam dependendo da locação. Alguns eram filhos de Grýla, enquanto outros eram seus irmãos. Algumas histórias descreviam apenas nove Yule Lads, mas cada um tinha sua própria travessura característica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Senbazuru",
+      "descricao": "Conjunto de mil tsurus de origami unidos por fios, tradição japonesa ligada a desejos e à paz."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma tradição japonesa, quem dobrar quantos tsurus de papel terá um desejo realizado?",
+    "resposta": "Mil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senbazuru"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Senbazuru",
+        "situacao": "ok",
+        "texto": "The folding of one thousand origami cranes (千羽鶴, senbazuru; lit. 'one thousand cranes') is a Japanese precatory tradition derived from ancient folklore. In Japan, the crane is considered mystical or holy, and historically, paper cranes were offered to shrines and temples by those who sought blessings.\n[…]\nIn the modern era, the tradition was revived and subsequently popularized by Sadako Sasaki, a child survivor of the atomic bombing of Hiroshima who attempted the senbazuru before dying of leukemia.\n[…]\nThe one thousand origami cranes were globally popularized through the story of Sadako Sasaki, a Japanese girl who was two years old when she was exposed to radiation from the atomic bombing of Hiroshima during World War II. Sasaki soon developed leukemia and, at age 12 after spending a significant amount of time in a hospital, began making origami cranes with the goal of making one thousand, inspired by the senbazuru legend.\n[…]\nSets of origami paper are sold widely in Japan, with senbazuru sets including about one thousand sheets of paper, string, and beads to place at the end of each string to stop the cranes from slipping off. Commonly, the cranes are assembled as 25 strings of 40 cranes each.\n[…]\nThe size of the origami paper does not matter when assembling a thousand paper cranes, but smaller sheets consequently yield smaller and lighter strings of cranes. The most popular size for senbazuru is 7.5 by 7.5 centimetres (3.0 in × 3.0 in). Some people cut their own squares of paper from anything available, such as magazines, newspapers, notebooks, and printer paper.\n[…]\nOrigami paper used for senbazuru is usually of a solid color, though patterned designs are available. Larger size origami paper, usually 6×6 inches, often has traditional Japanese or flower designs, reminiscent of kimono patterns."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Árvore de Natal",
+      "descricao": "Árvore, geralmente um pinheiro, enfeitada com luzes e adornos na época do Natal, costume de origem alemã."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que príncipe alemão, marido da rainha Vitória, ajudou a popularizar a árvore de Natal na Inglaterra do século dezenove?",
+    "resposta": "Príncipe Albert",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_tree"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree",
+        "situacao": "ok",
+        "texto": "A Christmas tree is a decorated tree, usually an evergreen conifer such as a spruce, pine or fir, associated with the celebration of Christmas. It may also be an artificial tree of similar appearance.\n[…]\nIn the year following Victoria's marriage to her German cousin Prince Albert, in 1841, the custom became even more widespread as wealthier middle-class families followed the fashion. In 1842, a newspaper advertisement for Christmas trees makes clear their smart cachet, German origins and association with children and gift-giving. An illustrated book, The Christmas Tree, describing their use and origins in detail, was on sale in December 1844.\n[…]\nIn 1847, Prince Albert wrote: \"I must now seek in the children an echo of what Ernest [his brother] and I were in the old time, of what we felt and thought; and their delight in the Christmas trees is not less than ours used to be\".\n[…]\nGodey's copied it exactly, except for the removal of the Queen's tiara and Prince Albert's moustache, to remake the engraving into an American scene. The republished Godey's image became the first widely circulated picture of a decorated evergreen Christmas tree in America. Art historian Karal Ann Marling called Queen Victoria and Prince Albert \"the first influential American Christmas tree\".\n[…]\nArtificial trees became increasingly popular during the late 20th century. Users of artificial Christmas trees assert that they are more convenient, and, because they are reusable, much cheaper than their natural alternative. They are also considered much safer, as natural trees can be a significant fire hazard. Between 2001 and 2007, artificial Christmas tree sales in the U.S. jumped from 7.3 million to 17.4 million."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81rvore_de_Natal",
+        "situacao": "ok",
+        "texto": "Uma árvore de Natal é uma árvore decorada, geralmente uma conífera perene, como um abeto, pinheiro ou pinheiro-do-canadá, associada à celebração do Natal. Também pode consistir numa árvore artificial de aparência semelhante.\n[…]\nAs tendências desenvolvidas no início dos anos 2000 incluíram árvores de Natal de fibra óptica, que vêm em duas variedades principais; uma semelhante a uma árvore de Natal tradicional. Uma empresa sediada em Dallas oferece árvores de \"mylar holográfico\" em muitas cores. Objetos em forma de árvore feitos de materiais como papelão, vidro, cerâmica ou outros materiais podem ser encontrados sendo usados como decorações de mesa.\n[…]\nAs árvores artificiais tornaram-se cada vez mais populares no final do século XX. Seus utilizadores afirmam que estas são mais convenientes e, por serem reutilizáveis, muito mais baratas do que as árvores naturais. São também consideradas muito mais seguras, uma vez que as árvores naturais podem representar um risco significativo de incêndio. Entre 2001 e 2007, as vendas de árvores de Natal artificiais nos EUA saltaram de 7,3 milhões para 17,4 milhões.\n[…]\nO debate sobre o impacto ambiental das árvores artificiais continua. Geralmente, os produtores de árvores naturais argumentam que as árvores artificiais são mais prejudiciais ao meio ambiente do que as suas contrapartes naturais. No entanto, grupos comerciais como a American Christmas Tree Association afirmam que o PVC usado nas árvores de Natal é quimicamente e mecanicamente estável, não afeta a saúde humana e tem excelentes propriedades de reciclagem.\n[…]\nÁrvore de Natal da Trafalgar Square\n[…]\nMaior Árvore de Natal da Europa\n[…]\nMadeiros (ou fogueiras do Natal)\n[…]\nMedia relacionados com Árvore de Natal no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Halloween",
+      "descricao": "Festa celebrada em 31 de outubro, de origem celta e cristã, conhecida pelas fantasias e pelas abóboras esculpidas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Halloween herdou costumes de qual antigo festival celta, que marcava o fim da colheita e o início da metade escura do ano?",
+    "resposta": "Samhain",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samhain",
+      "https://en.wikipedia.org/wiki/Halloween"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Samhain",
+        "situacao": "ok",
+        "texto": "Samhain ( SAH-win,  SOW-in; Irish: [ˈsˠəunʲ]; Scottish Gaelic: [ˈs̪ãũ.ɪɲ]) or Sauin (Manx: [ˈsoːɪnʲ]) is a Gaelic festival on 1 November marking the end of the harvest season in autumn and beginning of winter or the \"darker half\" of the year. It is also the Irish and Scottish Gaelic name for November. Celebrations began on the evening of 31 October, since the Celtic day began and ended at sunset.\n[…]\nIt was fixed over the doorway to ward-off bad luck, sickness, and witchcraft and would be replaced each Samhain.\n[…]\nHutton writes: \"When imitating malignant spirits, it was a very short step from guising to playing pranks\". Playing pranks at Samhain is recorded in the Scottish Highlands as far back as 1736 and was also common in Ireland, which led to Samhain being nicknamed \"Mischief Night\" in some parts. Wearing costumes at Halloween spread to England in the 20th century, as did the custom of playing pranks, though there had been mumming at other festivals.\n[…]\nDuring the late 19th and early 20th century Celtic Revival, there was an upswell of interest in Samhain and the other Celtic festivals. Sir John Rhys put forth that it had been the \"Celtic New Year\". He inferred it from contemporary folklore in Ireland and Wales, which he felt was \"full of Hallowe'en customs associated with new beginnings\". He visited Mann and found that the Manx sometimes called 31 October \"New Year's Night\" or Hog-unnaa.\n[…]\nIt is suggested that many of the modern secular customs of All Hallows' Eve (Halloween) were influenced by the festival of Samhain. Other scholars argue that Samhain's influence has been exaggerated and that All Hallows' also influenced Samhain itself.\n[…]\nFolklorist Jenny Butler describes how Irish pagans pick some elements of historic Samhain celebrations and meld them with references to the Celtic past, making a new festival of Samhain that is uniquely part of neopagan culture."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Halloween",
+        "situacao": "ok",
+        "texto": "Halloween, also known as All Hallows' Eve, or All Saints' Eve,  is a celebration observed in many countries  on 31 October, the eve of the Western Christian feast of All Hallows' Day. It is at the beginning of the observance of Allhallowtide, the time in the Christian liturgical year dedicated to remembering the dead, including saints (hallows), martyrs, and all the faithful departed.\n[…]\nOne theory holds that many Halloween traditions were influenced by Celtic harvest festivals, particularly the Gaelic festival Samhain, which are believed to have pagan roots. Some theories go further and suggest that Samhain may have been Christianized as All Hallows' Day, along with its eve, by the Church. Other academics say Halloween began independently as a Christian holiday, being the vigil  of All Hallows' Day.\n[…]\nToday's Halloween customs are thought to have been influenced by folk customs and beliefs from the Celtic-speaking countries, some of which are believed to have pagan roots. Jack Santino, a folklorist, writes that \"there was throughout Ireland an uneasy truce existing between customs and beliefs associated with Christianity and those associated with religions that were Irish before Christianity arrived\". The origins of Halloween customs are typically linked to the Gaelic festival Samhain.\n[…]\nSamhain is mentioned in some of the earliest Irish literature. The names have been used by historians to refer to Celtic Halloween customs up until the 19th century, and are still the Gaelic and Welsh names for Halloween.\n[…]\nThere is no consistent rule or view on Halloween amongst those who describe themselves as Neopagans or Wiccans. Some Neopagans do not observe Halloween, but instead observe Samhain on 1 November, some neopagans do enjoy Halloween festivities, stating that one can observe both \"the solemnity of Samhain in addition to the fun of Halloween\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samhain",
+        "situacao": "ok",
+        "texto": "Samhaim ou Samaim (em irlandês Samhain, gaélico escocês Samhuinn, manês Sauin, gaulês Samonios e em galaico Samanos) era o festival em que se comemora a passagem do ano dos celtas. Marca o fim do ano velho e o começo do ano novo. O Samhain inicia o inverno, uma das duas estações do ano dos celtas. O início da outra estação, o verão, é celebrado no festival de Beltane. Este festival, Samhain, é cha\n[…]\nSegundo alguns autores, grande parte da tradição do Halloween, do Dia de Todos-os-Santos e do Dia dos Fiéis Defuntos pode ser associada ao Samhaim. O Samhaim é a época em que acredita-se que as almas dos mortos retornam a suas casas para visitar os familiares, para buscar alimento e se aquecerem no fogo da lareira. Alguns autores acham que não existe nenhuma evidência que relacione o Samhain com o culto dos mortos e que esta crença se popularizou no século XIX.\n[…]\nO fé-fiada, o nevoeiro mágico que deixava as pessoas invisíveis, dispersava no Samhain e os elfos podiam ser vistos pelos humanos. A fronteira entre o Outro Mundo e o mundo real desaparecia. Uma das datas do calendário lunar celta de Coligny pode ser associada ao Samhain. No 17.º dia do mês lunar Samon, a referência *trinox Samoni sindiu é interpretada como a data da celebração do Samhain ou do solstício de Verão entre os Gauleses.\n[…]\nA palavra Samhain significa fim de verão e deriva de duas palavras \"samh\",verão, e \"fuin\", fim. O mês de Novembro é chamado em Irlandês de \"Mí na Samhain\".\n[…]\nProvavelmente o Magusto é o herdeiro direto no território da velha Galécia do antigo Samhain, conservado ainda hoje com o seu ritual culinário específico no qual as castanhas são essenciais.\n[…]\nO Samhain é referenciado no livro A Árvore do Halloween do escritor norte-americano Ray Bradbury.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Máscara de médico da peste",
+      "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Carnaval de Veneza, uma das máscaras mais conhecidas tem um longo bico curvo. Ela imita o traje de qual profissional do século dezessete?",
+    "resposta": "Médico da peste",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plague_doctor_costume",
+      "https://en.wikipedia.org/wiki/Carnival_of_Venice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Plague_doctor_costume",
+        "situacao": "ok",
+        "texto": "The clothing worn by plague doctors was intended to protect them from airborne diseases during outbreaks of bubonic plague in Europe. It is often seen as a symbol of death and disease. Contrary to popular belief, no evidence suggests that the beak mask costume was worn during the Black Death or the Middle Ages. The costume started to appear in the 17th century when physicians studied and treated p\n[…]\nIn his work Tractatus de Peste, published at Toulouse in May 1629, Irish physician Niall Ó Glacáin references the protective clothing worn by plague doctors, which included leather coats, gauntlets and long beak-like masks filled with fumigants.\n[…]\nThe costume is also associated with a commedia dell'arte character called Il Medico della Peste ('The Plague Doctor'), who wears a distinctive plague doctor's mask. The Venetian mask was normally white, consisting of a hollow beak and round eye-holes covered with clear glass, and is one of the distinctive masks worn during the Carnival of Venice."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carnival_of_Venice",
+        "situacao": "ok",
+        "texto": "The Carnival of Venice (Italian: Carnevale di Venezia; Venetian: Carnaval de Venessia) is an annual festival held in Venice, Italy, famous for its elaborate costumes and masks. The Carnival ends on Shrove Tuesday (Martedì Grasso or Mardi Gras), which is the day before the start of Lent on Ash Wednesday.\n[…]\n2015: Le stelle dell'amore by Horst Raack, best costume for the official theme La regina della cucina veneziana by Tanja Schulz-Hess, most creative costume Monsieur Sofa et Madame Coco by Lorenzo Marconi.\n[…]\n2019: I bambini della luce by Horst Raack, best traditional costume matrimonio all'italiana by Borboni si Nasce, most original costume Paguri by Nicola Pignoli and Ilaria Cavalli.\n[…]\nThe Medico della Peste (\"The Plague Doctor\" in English), with its long beak, is one of the most bizarre and recognizable of the Venetian masks, although it did not start as a Carnival mask at all but as a method of preventing the spread of disease. The striking design originates from 17th century French physician Charles de Lorme who adopted the mask together with other sanitary precautions while treating plague victims.\n[…]\nThe mask was originally beaked with a purpose in congruence with the miasmatic theory of disease practiced at that time: the hollow beak allowed for the containment of flowers and other sweet-smelling substances designed to keep away the foul odours that were thought to spread infection. Those who wear the plague doctor mask often also wear the associated clothing of the plague doctor. The popularity of the Medico della peste among carnival celebrants can be seen as a memento mori."
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Gato preto",
+      "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário do que muita gente pensa por aqui, na Grã-Bretanha cruzar com um gato preto costuma ser sinal de quê?",
+    "resposta": "Boa sorte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_cat"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_cat",
+        "situacao": "ok",
+        "texto": "A black cat is a domestic cat with black fur. They may be a specific breed, or a common domestic cat of no particular breed. Most black cats have golden irises due to their high melanin pigment content. Black cats are the subject of mythology, legend, and superstition. They are often associated with witches and good or bad luck in European folklore.\n[…]\nIn 2014, the RSPCA reported that 70% of the abandoned cats in its care were black, saying that though black cats symbolise good luck in UK folklore, one reason for the high percentage of black cats in its care was that black cats tend not to photograph as well.\n[…]\nIn the United States, August 17 is \"Black Cat Appreciation Day\". Wayne H. Morris created the day in honor of his late sister, June, who had a black cat, Sinbad. The day was chosen in memorial of June's passing.\n[…]\nIn 2014 Toronto, Canada's largest city, held an event on Black Friday during which people could adopt a black cat without paying the usual $75 adoption fee, in order to encourage the adoption of black cats. This trend has now spread across the United States, with many shelters offering free adoption of black cats on Black Friday.\n[…]\nWith the success of the 2018 African-themed superhero film, Black Panther, there was a fad of adopting black domestic cats as pets and naming them after various characters of the film, such as T'Challa and Shuri. It has been observed that usually people were not going out of their way to follow this fad, but visited animal shelters to simply adopt a pet under normal circumstances and were inspired by the Black Panther to adopt a black cat when they see one.\n[…]\nBlack dog syndrome\n[…]\nBlack panther\n[…]\nBlack squirrel\n[…]\nBlack tiger\n[…]\nKellas cat, a medium-size black hybrid cat resulting from interbreeding between domestic cats and the Scottish wildcat"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gato_preto",
+        "situacao": "ok",
+        "texto": "Um gato preto ou gato negro, é um gato doméstico com melanismo, o que lhe confere a coloração escura de sua pelagem. Em diversas outras culturas os gatos pretos são reverenciados, sendo associados a presença de boa sorte.\n[…]\nInstituições internacionais de proteção aos animais instituiram que no dia 27 de outubro comemora-se o dia do gato preto, data criada com o objetivo de divulgar suas qualidades e estimular a adoção desses felinos, uma vez que estes animais costumam ser menos adotados que os exemplares de outras cores.\n[…]\nUma característica interessante dos gatos pretos é que, em muitas culturas, eles são considerados símbolos de boa sorte e proteção. Por exemplo, no Japão, ter um gato preto pode trazer felicidade e prosperidade para a família.\n[…]\nNão obstante, em muitas culturas o gato preto é visto como símbolo de boa sorte e prosperidade. Os egípcios veneravam a deusa Bastet, representada por uma mulher portadora de cabeça de gato, geralmente pintada em uma coloração escura. Na Irlanda e na Inglaterra eles também são vistos de maneira positiva. Há inclusive uma superstição que diz que presentear os recém-casados com um gato preto pode trazer boa sorte ao casamento.\n[…]\nNa época das navegações, as embarcações inglesas levavam gatos pretos com o objetivo de eliminar os ratos de seus porões, pois os gatos de pelagem escura são caçadores muito eficientes. Com isso surgiu a crença de que os gatos pretos atraiam boa sorte os marinheiros e proteção em alto-mar.\n[…]\nEventualmente os operários em greve conseguiram ter suas reivindicações atendidas e então adotaram o gato preto como mascote.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
