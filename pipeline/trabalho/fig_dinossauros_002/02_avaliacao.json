@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida e inconfundível, com a crista tubular curva.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que período geológico viveu este dinossauro?",
+      "resposta": "Cretáceo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Parassaurolofo",
+        "descricao": "Gênero de dinossauro hadrossaurídeo de bico de pato, com crista tubular no crânio, do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Parasaurolophus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Reconstrução clara com apêndices frontais espinhosos e olhos pedunculados; a assinatura do artista não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que predador marinho extinto do Cambriano é este?",
+      "resposta": "Anomalocaris",
+      "destino": 0,
+      "ancora": {
+        "nome": "Anomalocaris",
+        "descricao": "Gênero extinto de radiodonte, artrópode marinho predador do Cambriano, com um par de apêndices frontais para agarrar presas.",
+        "variantes": [
+          "Anomalocaride"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida, com cinco olhos e probóscide característica; assinatura do artista não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que período geológico viveu este animal marinho extinto?",
+      "resposta": "Cambriano",
+      "destino": 0,
+      "ancora": {
+        "nome": "Opabinia",
+        "descricao": "Artrópode marinho extinto do Cambriano Médio do Folhelho de Burgess, com cinco olhos e uma probóscide com garra.",
+        "variantes": [
+          "Opabinia regalis"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida com duas cristas no crânio; distratores de dinossauros carnívoros parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dinossauro carnívoro do Jurássico é este?",
+      "resposta": "Dilofossauro",
+      "distratores": [
+        "Criolofossauro",
+        "Celofisis",
+        "Monolofossauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dilofossauro",
+        "descricao": "Gênero de dinossauro terópode do Jurássico Inferior da América do Norte, com duas cristas no crânio.",
+        "variantes": [
+          "Dilophosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de ossos montados em suporte de museu (pélvis e membros), sem garras visíveis; não é reconhecível pela imagem e há placas de saída ao fundo."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de crocodilomorfo de focinho longo com bulbo na ponta, típico do Sarcosuchus; logotipo do artista pequeno e sem nome da resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que período geológico viveu este crocodilomorfo gigante?",
+      "resposta": "Cretáceo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sarcosuchus",
+        "descricao": "Gênero extinto de crocodilomorfo gigante do Cretáceo Inferior, da África do Norte e do Brasil, com bulbo na ponta do focinho.",
+        "variantes": [
+          "Sarcosuco",
+          "Supercroc"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida e clássica, com crista longa para trás e bico sem dentes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que réptil voador do Cretáceo é este?",
+      "resposta": "Pteranodonte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pteranodonte",
+        "descricao": "Gênero de pterossauro sem dentes e de crista longa, do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Pteranodon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Saurópode genérico de pescoço longo; sem traços que o distingam de outros titanossauros gigantes, a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Reconstrução clara do peixe de nadadeiras lobadas saindo da água; a cabeça achatada e as nadadeiras o distinguem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que período geológico viveu este animal extinto?",
+      "resposta": "Devoniano",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tiktaalik",
+        "descricao": "Gênero extinto de peixe de nadadeiras lobadas do Devoniano Superior, forma de transição para os tetrápodes, encontrado no Ártico canadense.",
+        "variantes": [
+          "Tiktaalik roseae"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida de saurópode com membros anteriores mais longos e pescoço alto; distratores de saurópodes do mesmo período, visualmente distintos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dinossauro saurópode do Jurássico é este?",
+      "resposta": "Braquiossauro",
+      "distratores": [
+        "Diplodoco",
+        "Apatossauro",
+        "Camarassauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Braquiossauro",
+        "descricao": "Gênero de dinossauro saurópode do Jurássico Superior da América do Norte, de pescoço longo e patas dianteiras mais longas que as traseiras.",
+        "variantes": [
+          "Brachiosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A ilustração não mostra o grande chifre do Elasmotério, só um pequeno calombo na testa; fica parecida com outros rinocerontes extintos e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica com dois tigres-da-tasmânia, listras nas costas bem visíveis; o número no canto da chapa não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano morreu o último indivíduo conhecido desta espécie?",
+      "resposta": "1936",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tigre-da-tasmânia",
+        "descricao": "Marsupial carnívoro extinto, de listras nas costas, nativo da Tasmânia, da Austrália continental e da Nova Guiné.",
+        "variantes": [
+          "Tilacino",
+          "Lobo-da-tasmânia",
+          "Thylacinus cynocephalus"
+        ]
+      }
+    }
+  ]
+}
