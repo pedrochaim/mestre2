@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Arquibancada vazia e sem traço distintivo; o estádio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A vista aérea mostra três ginásios colados (Arenas Cariocas); a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto dominada por torcedores comuns em primeiro plano, com faixa e placas parciais; estádio não reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Traçado com as cores da bandeira dos EUA, distintivo; múltipla com circuitos parecidos.",
+      "pergunta": "Que circuito de corridas é este?",
+      "tipo": "multipla",
+      "resposta": "Circuito das Américas",
+      "distratores": [
+        "Indianapolis Motor Speedway",
+        "Daytona International Speedway",
+        "Laguna Seca"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Circuito das Américas",
+        "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+        "variantes": [
+          "Circuit of the Americas",
+          "COTA"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placa na entrada traz 'YOYOGI NATIONAL STADIUM' em inglês e japonês, entregando a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "As arquibancadas trazem 'IDRD BOGOTA' escrito, entregando a cidade e o estádio."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estádio nítido à esquerda, junto ao mar, sem texto; pergunta de ligação com a Copa do Mundo.",
+      "pergunta": "Que Copa do Mundo masculina motivou a construção do estádio redondo e branco, à esquerda, junto ao mar, nesta imagem?",
+      "tipo": "aberta",
+      "resposta": "Copa do Mundo de 2010",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio da Cidade do Cabo",
+        "descricao": "Estádio de futebol e rúgbi na Cidade do Cabo, África do Sul, construído para a Copa do Mundo de 2010.",
+        "variantes": [
+          "Cape Town Stadium",
+          "Green Point Stadium",
+          "DHL Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea com pista vermelha e estrutura de pedra vulcânica; pergunta de ligação sem nomear o estádio.",
+      "pergunta": "Que edição dos Jogos Olímpicos teve este estádio como palco principal?",
+      "tipo": "aberta",
+      "resposta": "Olimpíadas de 1968 (Cidade do México)",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Olímpico Universitário (Cidade do México)",
+        "descricao": "Estádio multiuso da UNAM, na Cidade do México, palco principal dos Jogos Olímpicos de 1968.",
+        "variantes": [
+          "Estadio Olímpico Universitario",
+          "Estádio Olímpico Universitário"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do hipódromo com a orla do Rio ao fundo; pergunta de lugar sem nomear.",
+      "pergunta": "Ao lado de que lagoa fica este hipódromo, visto aqui do alto?",
+      "tipo": "aberta",
+      "resposta": "Lagoa Rodrigo de Freitas",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 2,
+      "ancora": {
+        "nome": "Hipódromo da Gávea",
+        "descricao": "Hipódromo do Jockey Club Brasileiro, no bairro da Lagoa, Rio de Janeiro.",
+        "variantes": [
+          "Jockey Club Brasileiro",
+          "Jockey Club do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arena de silhueta inconfundível, vista aérea sem texto; pergunta sobre o clube mandante.",
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "tipo": "aberta",
+      "resposta": "Zenit São Petersburgo",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Krestovsky",
+        "descricao": "Estádio de teto retrátil na ilha Krestovsky, em São Petersburgo, Rússia, casa do Zenit e sede da Copa de 2018.",
+        "variantes": [
+          "Krestovsky Stadium",
+          "Gazprom Arena",
+          "Estádio de São Petersburgo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ginásio de teto piramidal em primeiro plano, sem texto legível; pergunta pelo esporte disputado, em múltipla.",
+      "pergunta": "Que esporte tradicional japonês tem seus grandes torneios neste ginásio?",
+      "tipo": "multipla",
+      "resposta": "Sumô",
+      "distratores": [
+        "Judô",
+        "Kendô",
+        "Caratê"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Ryōgoku Kokugikan",
+        "descricao": "Ginásio coberto de Tóquio, no bairro de Ryōgoku, sede dos grandes torneios de sumô.",
+        "variantes": [
+          "Ryogoku Kokugikan",
+          "Ryōgoku Sumo Hall",
+          "Kokugikan"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Reta dos boxes com textos em alemão e marcas (Mercedes-Benz, 'Freude am Fahren') que entregam o país; circuito pouco reconhecível pela imagem."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista; distratores de mesmo tipo e curtos; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrição visual (redondo, branco, à esquerda, junto ao mar) não é confirmada por 'mostra'; o enunciado deve apontar só para a figura. O fato (Copa de 2010) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que Copa do Mundo masculina motivou a construção deste estádio?",
+        "resposta": "Copa do Mundo de 2010"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas o enunciado repete 'Jogos Olímpicos' e a resposta traz parênteses desnecessários. Simplificar pedindo o ano.",
+      "reescrita": {
+        "pergunta": "Em que ano este estádio foi o palco principal dos Jogos Olímpicos de Verão?",
+        "resposta": "1968"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto aqui do alto' não é confirmado por 'mostra' e pode ser falso para esta foto. Fato confirmado: fica ao lado da lagoa Rodrigo de Freitas.",
+      "reescrita": {
+        "pergunta": "Ao lado de que lagoa fica este hipódromo?",
+        "resposta": "Lagoa Rodrigo de Freitas"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o estádio é a casa do Zenit; sem pista que entregue a resposta e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'esporte tradicional japonês' com grandes torneios em ginásio de Tóquio leva a sumô sem olhar a figura. Passa a pedir o reconhecimento do ginásio, com distratores de ginásios japoneses.",
+      "reescrita": {
+        "pergunta": "Que ginásio coberto de Tóquio é este?",
+        "resposta": "Ryōgoku Kokugikan",
+        "distratores": [
+          "Nippon Budokan",
+          "Yoyogi National Gymnasium",
+          "Tokyo Metropolitan Gymnasium"
+        ]
+      }
+    }
+  ]
+}

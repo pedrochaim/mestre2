@@ -516,7 +516,7 @@
       "titulo": "en:Estadio Olímpico Universitario",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Holmenkollbakken",
@@ -530,7 +530,7 @@
       "titulo": "en:Ryōgoku Kokugikan",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estádio de Twickenham",
@@ -670,7 +670,7 @@
       "titulo": "en:Estádio Independência",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Estádio Serra Dourada",
@@ -838,6 +838,286 @@
       "titulo": "en:San Mamés Stadium (2013)",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hipódromo da Gávea",
+      "titulo": "pt:Hipódromo da Gávea",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio do Arruda",
+      "titulo": "pt:Estádio José do Rego Maciel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Condá",
+      "titulo": "pt:Arena Condá",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Internacional Khalifa",
+      "titulo": "en:Khalifa International Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito das Américas",
+      "titulo": "en:Circuit of the Americas",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Circuito de Marina Bay",
+      "titulo": "en:Marina Bay Street Circuit",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hard Rock Stadium",
+      "titulo": "en:Hard Rock Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mercedes-Benz Stadium",
+      "titulo": "en:Mercedes-Benz Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Moses Mabhida",
+      "titulo": "en:Moses Mabhida Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio da Cidade do Cabo",
+      "titulo": "en:Cape Town Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nürburgring",
+      "titulo": "en:Nürburgring",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Allegiant Stadium",
+      "titulo": "en:Allegiant Stadium",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "De Kuip (Estádio Feijenoord)",
+      "titulo": "en:De Kuip",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Moisés Lucarelli",
+      "titulo": "pt:Estádio Moisés Lucarelli",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Canindé",
+      "titulo": "pt:Estádio Oswaldo Teixeira Duarte",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Barradão",
+      "titulo": "pt:Estádio Manoel Barradas",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ginásio Nacional de Yoyogi",
+      "titulo": "en:Yoyogi National Gymnasium",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Palau Sant Jordi",
+      "titulo": "en:Palau Sant Jordi",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nippon Budokan",
+      "titulo": "en:Nippon Budokan",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Narendra Modi",
+      "titulo": "en:Narendra Modi Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Koshien",
+      "titulo": "en:Koshien Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Churchill Downs",
+      "titulo": "en:Churchill Downs",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Krestovsky",
+      "titulo": "en:Krestovsky Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio Al Thumama",
+      "titulo": "en:Al Thumama Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Murrayfield",
+      "titulo": "en:Murrayfield Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito de Yas Marina",
+      "titulo": "en:Yas Marina Circuit",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Carioca 1",
+      "titulo": "en:Carioca Arena 1",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Orlando Scarpelli",
+      "titulo": "pt:Estádio Orlando Scarpelli",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ressacada",
+      "titulo": "pt:Estádio Aderbal Ramos da Silva",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rua Javari",
+      "titulo": "pt:Estádio Conde Rodolfo Crespi",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Alfredo Jaconi",
+      "titulo": "pt:Estádio Alfredo Jaconi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Velódromo Olímpico do Rio",
+      "titulo": "en:Rio Olympic Velodrome",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio El Campín",
+      "titulo": "en:Estadio El Campín",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "El Cilindro (Estádio Presidente Perón)",
+      "titulo": "en:Estadio Presidente Perón",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Mario Alberto Kempes",
+      "titulo": "en:Estadio Mario Alberto Kempes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aviva Stadium",
+      "titulo": "en:Aviva Stadium",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolshoy Ice Dome",
+      "titulo": "en:Bolshoy Ice Dome",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Circuito Gilles Villeneuve",
+      "titulo": "en:Circuit Gilles Villeneuve",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Autódromo Hermanos Rodríguez",
+      "titulo": "en:Autódromo Hermanos Rodríguez",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hungaroring",
+      "titulo": "en:Hungaroring",
+      "camada": 3,
+      "destino": 2,
       "status": "nova"
     }
   ]

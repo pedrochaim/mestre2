@@ -1,0 +1,347 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Circuito das Américas",
+        "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+        "variantes": [
+          "Circuit of the Americas",
+          "COTA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cometa",
+          "nome": "Cometa",
+          "descricao": "Pequeno corpo gelado do Sistema Solar que libera gás e poeira ao se aproximar do Sol, formando coma e cauda.",
+          "variantes": []
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        },
+        {
+          "id": "delta_do_parnaiba",
+          "nome": "Delta do Parnaíba",
+          "descricao": "Delta do rio Parnaíba, com dezenas de ilhas, na foz do rio no oceano Atlântico.",
+          "variantes": [
+            "Delta das Américas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio da Cidade do Cabo",
+        "descricao": "Estádio de futebol e rúgbi na Cidade do Cabo, África do Sul, construído para a Copa do Mundo de 2010.",
+        "variantes": [
+          "Cape Town Stadium",
+          "Green Point Stadium",
+          "DHL Stadium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cidade_do_vaticano",
+          "nome": "Cidade do Vaticano",
+          "descricao": "Estado soberano encravado em Roma, sede da Santa Sé e da Igreja Católica.",
+          "variantes": [
+            "Vaticano",
+            "Estado da Cidade do Vaticano"
+          ]
+        },
+        {
+          "id": "etihad_stadium",
+          "nome": "Etihad Stadium",
+          "descricao": "Estádio do Manchester City, na Inglaterra, construído para os Jogos da Comunidade Britânica de 2002.",
+          "variantes": [
+            "City of Manchester Stadium",
+            "Estádio da Cidade de Manchester"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        },
+        {
+          "id": "cidade_do_cabo",
+          "nome": "Cidade do Cabo",
+          "descricao": "Cidade portuária da África do Sul, ao pé da Montanha da Mesa.",
+          "variantes": [
+            "Cape Town"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estádio Olímpico Universitário (Cidade do México)",
+        "descricao": "Estádio multiuso da UNAM, na Cidade do México, palco principal dos Jogos Olímpicos de 1968.",
+        "variantes": [
+          "Estadio Olímpico Universitario",
+          "Estádio Olímpico Universitário"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_fisht",
+          "nome": "Estádio Olímpico Fisht",
+          "descricao": "Estádio de Sochi, Rússia, construído para os Jogos de Inverno de 2014 e usado na Copa do Mundo de 2018.",
+          "variantes": [
+            "Fisht Olympic Stadium",
+            "Estádio Fisht"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_ataturk",
+          "nome": "Estádio Olímpico Atatürk",
+          "descricao": "Estádio de Istambul, Turquia, o maior do país, sede da final da Liga dos Campeões de 2005.",
+          "variantes": [
+            "Atatürk Olimpiyat Stadyumu",
+            "Atatürk Olympic Stadium"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_munique",
+          "nome": "Estádio Olímpico de Munique",
+          "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+          "variantes": [
+            "Olympiastadion München",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Hipódromo da Gávea",
+        "descricao": "Hipódromo do Jockey Club Brasileiro, no bairro da Lagoa, Rio de Janeiro.",
+        "variantes": [
+          "Jockey Club Brasileiro",
+          "Jockey Club do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_da_gavea",
+          "nome": "Pedra da Gávea",
+          "descricao": "Montanha monolítica de granito e gnaisse, de 844 metros, na Floresta da Tijuca, no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "sao_jorge_no_rio_de_janeiro",
+          "nome": "São Jorge no Rio de Janeiro",
+          "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+          "variantes": [
+            "Festa de São Jorge"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estádio Krestovsky",
+        "descricao": "Estádio de teto retrátil na ilha Krestovsky, em São Petersburgo, Rússia, casa do Zenit e sede da Copa de 2018.",
+        "variantes": [
+          "Krestovsky Stadium",
+          "Gazprom Arena",
+          "Estádio de São Petersburgo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_petersburgo",
+          "nome": "São Petersburgo",
+          "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital do Império Russo por cerca de dois séculos.",
+          "variantes": [
+            "Saint Petersburg",
+            "Petrogrado",
+            "Leningrado"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "mulher_com_sombrinha_monet",
+          "nome": "Mulher com Sombrinha (Monet)",
+          "descricao": "Pintura impressionista de Claude Monet, de 1875, que mostra Camille Monet e o filho Jean passeando num campo.",
+          "variantes": [
+            "Mulher com Sombrinha - Madame Monet e Seu Filho",
+            "A Promenade",
+            "La Promenade",
+            "Woman with a Parasol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ryōgoku Kokugikan",
+        "descricao": "Ginásio coberto de Tóquio, no bairro de Ryōgoku, sede dos grandes torneios de sumô.",
+        "variantes": [
+          "Ryōgoku Sumo Hall",
+          "Kokugikan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kukulcan",
+          "nome": "Kukulcán",
+          "descricao": "Divindade maia da serpente emplumada, cultuada especialmente em Chichén Itzá.",
+          "variantes": [
+            "Kukulkan",
+            "K'uk'ulkan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Autódromo de Austin; nenhuma candidata é a mesma entidade (Delta das Américas é outro lugar)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estádio na Cidade do Cabo; a candidata Cidade do Cabo é a cidade, não o estádio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estádio da Cidade do México; as candidatas são outros estádios olímpicos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Hipódromo é distinto das candidatas (Pedra da Gávea, cidade, estado etc.)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estádio Krestovsky é distinto da cidade de São Petersburgo e dos demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ginásio de sumô em Tóquio; a única candidata é uma divindade maia."
+    }
+  ]
+}
