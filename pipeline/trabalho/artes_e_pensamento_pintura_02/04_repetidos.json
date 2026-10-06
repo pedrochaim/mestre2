@@ -1,0 +1,336 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A Moça com Brinco de Pérola, de Vermeer, está num museu de que cidade holandesa, sede do governo do país?",
+        "resposta": "Haia"
+      },
+      "existentes": [
+        {
+          "id": "q00405",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Johannes Vermeer"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Desde 1992, o painel Guernica, de Picasso, fica em que museu de Madri?",
+        "resposta": "Museu Reina Sofía"
+      },
+      "existentes": [
+        {
+          "id": "q03041",
+          "pergunta": "Por vontade de Picasso, Guernica ficou décadas fora da Espanha. Que condição o país precisava cumprir para receber o quadro?",
+          "resposta": "Voltar a ser uma democracia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O Abaporu, de Tarsila do Amaral, foi comprado em 1995 por Eduardo Costantini e está hoje em que museu, criado por ele?",
+        "resposta": "MALBA (Museu de Arte Latino-Americana de Buenos Aires)"
+      },
+      "existentes": [
+        {
+          "id": "q03035",
+          "pergunta": "O nome do quadro Abaporu, pintado por Tarsila do Amaral em 1928, vem do tupi. O que ele significa?",
+          "resposta": "Homem que come gente"
+        },
+        {
+          "id": "q03036",
+          "pergunta": "Tarsila do Amaral pintou o Abaporu como presente de aniversário para quem?",
+          "resposta": "Oswald de Andrade"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A caverna de Altamira, cujos bisões pintados na pré-história foram revelados ao mundo no século dezenove, fica em que país?",
+        "resposta": "Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q03076",
+          "pergunta": "Segundo o relato tradicional, em 1879, quem foi a primeira pessoa a reparar nos bisões pintados no teto da caverna espanhola de Altamira?",
+          "resposta": "María, filha de Sautuola"
+        },
+        {
+          "id": "q03077",
+          "pergunta": "No fim do século dezenove, muitos especialistas rejeitaram as pinturas da caverna de Altamira. Do que eles as acusavam?",
+          "resposta": "De ser uma falsificação"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Victor Meirelles pintou A Primeira Missa no Brasil quando estudava na Europa como bolsista da Academia. Em que cidade ele fez o quadro?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q00451",
+          "pergunta": "Que acontecimento este quadro de Victor Meirelles retrata?",
+          "resposta": "A primeira missa no Brasil, em 1500"
+        },
+        {
+          "id": "q06197",
+          "pergunta": "A carta de quem ao rei de Portugal inspirou este quadro?",
+          "resposta": "Pero Vaz de Caminha"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O Parque Nacional da Serra da Capivara, com milhares de pinturas rupestres, fica em que estado brasileiro?",
+        "resposta": "Piauí"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        },
+        {
+          "id": "q03083",
+          "pergunta": "Que arqueóloga brasileira liderou as pesquisas e a luta pela criação do Parque Nacional da Serra da Capivara?",
+          "resposta": "Niède Guidon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Leonardo da Vinci não morreu na Itália. Em que país ele passou seus últimos anos e morreu, em 1519?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q03034",
+          "pergunta": "No nome Leonardo da Vinci, a palavra Vinci não é um sobrenome de família. O que ela indica?",
+          "resposta": "A cidade toscana de onde ele vinha"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        },
+        {
+          "id": "q03045",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+          "resposta": "Foi pintada na parede seca, e não em afresco"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1994, uma versão de O Grito foi roubada em Oslo no dia da abertura de que grande evento esportivo, sediado na Noruega?",
+        "resposta": "Olimpíadas de Inverno de Lillehammer"
+      },
+      "existentes": [
+        {
+          "id": "q00404",
+          "pergunta": "Qual é o nome deste quadro?",
+          "resposta": "O Grito"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Enquanto Rafael pintava A Escola de Atenas no Vaticano, entre 1509 e 1511, que obra famosa Michelangelo pintava ali perto?",
+        "resposta": "O teto da Capela Sistina"
+      },
+      "existentes": [
+        {
+          "id": "q00433",
+          "pergunta": "Quem pintou este afresco?",
+          "resposta": "Rafael"
+        },
+        {
+          "id": "q03057",
+          "pergunta": "No afresco A Escola de Atenas, Rafael teria dado ao filósofo Platão o rosto de que outro artista?",
+          "resposta": "Leonardo da Vinci"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1715, A Ronda Noturna, de Rembrandt, teve faixas cortadas nas bordas. Qual foi o motivo?",
+        "resposta": "Caber numa parede da prefeitura de Amsterdã"
+      },
+      "existentes": [
+        {
+          "id": "q00416",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Rembrandt"
+        },
+        {
+          "id": "q03033",
+          "pergunta": "A Ronda Noturna, de Rembrandt, mostra na verdade uma cena de dia. O que a fez parecer noturna e lhe rendeu esse nome?",
+          "resposta": "O verniz escurecido com o tempo"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que cantor americano gravou, em 1971, a canção Vincent, que começa evocando A Noite Estrelada de Van Gogh?",
+        "resposta": "Don McLean"
+      },
+      "existentes": [
+        {
+          "id": "q00403",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Vincent van Gogh"
+        },
+        {
+          "id": "q03062",
+          "pergunta": "Van Gogh pintou A Noite Estrelada a partir da vista da janela do lugar onde estava internado. Que lugar era esse?",
+          "resposta": "Um asilo psiquiátrico em Saint-Rémy"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A Grande Onda de Kanagawa, de Hokusai, ilustrou a capa da partitura original de que obra orquestral de Claude Debussy?",
+        "resposta": "O Mar"
+      },
+      "existentes": [
+        {
+          "id": "q00407",
+          "pergunta": "Que artista japonês criou esta gravura?",
+          "resposta": "Hokusai"
+        },
+        {
+          "id": "q03067",
+          "pergunta": "A Grande Onda de Kanagawa, de Hokusai, faz parte de uma série cujo título fala em quantas vistas do Monte Fuji?",
+          "resposta": "Trinta e seis"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que atriz americana interpretou a criada que posa para Vermeer no filme Moça com Brinco de Pérola, de 2003?",
+        "resposta": "Scarlett Johansson"
+      },
+      "existentes": [
+        {
+          "id": "q00405",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Johannes Vermeer"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Na Parábola dos Cegos, de Bruegel, uma fila de cegos guiados uns pelos outros vai caindo numa vala. Quantos cegos são?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q05956",
+          "pergunta": "Que pintor flamengo do século dezesseis fez este quadro?",
+          "resposta": "Pieter Bruegel, o Velho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Localização do museu, não o autor."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Museu atual, não a condição democrática."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Museu atual, fato distinto de significado e presente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País da caverna, fato distinto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade onde foi pintado, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre o estado do parque (q02430)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "País da morte, não origem do nome."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Século da pintura, fato distinto."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Roubo de 1994, fato distinto do nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Obra de Michelangelo, fato distinto."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Motivo do corte, distinto do motivo do nome."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Canção de Don McLean, fato distinto."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Obra de Debussy, fato distinto."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Atriz do filme, não o pintor."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Número de cegos, não o autor."
+    }
+  ]
+}

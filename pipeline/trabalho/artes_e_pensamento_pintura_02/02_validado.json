@@ -1,0 +1,1192 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "moca_com_brinco_de_perola",
+        "nome": "Moça com Brinco de Pérola",
+        "descricao": "Quadro de Johannes Vermeer, de cerca de 1665.",
+        "variantes": [
+          "Girl with a Pearl Earring",
+          "Rapariga com Brinco de Pérola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Moça com Brinco de Pérola, de Vermeer, está num museu de que cidade holandesa, sede do governo do país?",
+      "resposta": "Haia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "guernica",
+        "nome": "Guernica",
+        "descricao": "Grande painel de Pablo Picasso, de 1937, sobre o bombardeio da cidade basca de Guernica na Guerra Civil Espanhola.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Desde 1992, o painel Guernica, de Picasso, fica em que museu de Madri?",
+      "resposta": "Museu Reina Sofía",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "abaporu",
+        "nome": "Abaporu",
+        "descricao": "Quadro de Tarsila do Amaral, de 1928, que mostra uma figura de pés e mãos enormes ao lado de um cacto e de um sol.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abaporu"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Vendido em 1995 a um colecionador argentino, o Abaporu, de Tarsila do Amaral, fica exposto num museu de que cidade?",
+      "resposta": "Buenos Aires",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abaporu",
+        "https://pt.wikipedia.org/wiki/Abaporu"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Capela dos Scrovegni",
+        "descricao": "Capela italiana do início do século quatorze inteiramente decorada com afrescos de Giotto sobre a vida da Virgem e de Cristo.",
+        "variantes": [
+          "Capela da Arena",
+          "Scrovegni Chapel",
+          "Cappella degli Scrovegni"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scrovegni_Chapel"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Capela dos Scrovegni, coberta de afrescos pintados por Giotto no começo do século quatorze, fica em que cidade italiana?",
+      "resposta": "Pádua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scrovegni_Chapel"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Caverna de Altamira",
+        "descricao": "Caverna pré-histórica na Cantábria, na Espanha, famosa pelos bisões pintados no teto.",
+        "variantes": [
+          "Cueva de Altamira",
+          "Cave of Altamira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A caverna de Altamira, cujos bisões pintados na pré-história foram revelados ao mundo no século dezenove, fica em que país?",
+      "resposta": "Espanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+      ],
+      "distratores": [
+        "França",
+        "Portugal",
+        "Itália"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Paul Gauguin",
+        "descricao": "Pintor pós-impressionista francês, que viveu de 1848 a 1903 e passou seus últimos anos na Polinésia Francesa.",
+        "variantes": [
+          "Eugène Henri Paul Gauguin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paul_Gauguin"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Depois de anos no Taiti, Paul Gauguin morreu em 1903 numa ilha de que arquipélago da Polinésia Francesa?",
+      "resposta": "Ilhas Marquesas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paul_Gauguin"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Vincent van Gogh",
+        "descricao": "Pintor pós-impressionista holandês, autor de A Noite Estrelada e Os Girassóis, que viveu de 1853 a 1890.",
+        "variantes": [
+          "Van Gogh"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em julho de 1890, Van Gogh morreu num vilarejo perto de Paris, onde está enterrado ao lado do irmão Theo. Que vilarejo é esse?",
+      "resposta": "Auvers-sur-Oise",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+        "https://en.wikipedia.org/wiki/Death_of_Vincent_van_Gogh"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Mestre Ataíde",
+        "descricao": "Manuel da Costa Ataíde, pintor do barroco mineiro, que viveu de 1762 a 1830.",
+        "variantes": [
+          "Manuel da Costa Ataíde"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manuel_da_Costa_Ataíde"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Mestre Ataíde pintou o célebre forro da Igreja de São Francisco de Assis, de fachada projetada por Aleijadinho, em que cidade mineira?",
+      "resposta": "Ouro Preto",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manuel_da_Costa_Ataíde"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "primeira_missa_no_brasil",
+        "nome": "Primeira Missa no Brasil",
+        "descricao": "Quadro de Victor Meirelles de 1860.",
+        "variantes": [
+          "A Primeira Missa no Brasil"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Primeira_Missa_no_Brasil"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Victor Meirelles pintou A Primeira Missa no Brasil quando estudava na Europa como bolsista da Academia. Em que cidade ele fez o quadro?",
+      "resposta": "Paris",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Primeira_Missa_no_Brasil"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Parque Nacional da Serra da Capivara",
+        "descricao": "Parque nacional brasileiro com milhares de pinturas rupestres pré-históricas, Patrimônio Mundial da Unesco.",
+        "variantes": [
+          "Serra da Capivara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Parque Nacional da Serra da Capivara, com milhares de pinturas rupestres, fica em que estado brasileiro?",
+      "resposta": "Piauí",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "leonardo_da_vinci",
+        "nome": "Leonardo da Vinci",
+        "descricao": "Pintor, inventor e cientista renascentista italiano, autor da Mona Lisa e de A Última Ceia, que viveu de 1452 a 1519.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Leonardo da Vinci não morreu na Itália. Em que país ele passou seus últimos anos e morreu, em 1519?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "a_ultima_ceia",
+        "nome": "A Última Ceia",
+        "descricao": "Pintura mural de Leonardo da Vinci em Milão.",
+        "variantes": [
+          "The Last Supper",
+          "Il Cenacolo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+      "resposta": "Século quinze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Teto da Capela Sistina",
+        "descricao": "Conjunto de afrescos pintados por Michelangelo no teto da Capela Sistina, no Vaticano, com cenas do Gênesis.",
+        "variantes": [
+          "Sistine Chapel ceiling"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Michelangelo começou a pintar o teto da Capela Sistina em 1508. Em que ano terminou o trabalho?",
+      "resposta": "1512",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Exposição Arte Degenerada",
+        "descricao": "Mostra organizada pelos nazistas em Munique para ridicularizar a arte moderna.",
+        "variantes": [
+          "Entartete Kunst",
+          "Degenerate Art Exhibition"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Degenerate_Art_Exhibition"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano os nazistas abriram em Munique a exposição Arte Degenerada, para ridicularizar a arte moderna?",
+      "resposta": "1937",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Degenerate_Art_Exhibition"
+      ],
+      "distratores": [
+        "1933",
+        "1939",
+        "1941"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Salão dos Recusados",
+        "descricao": "Exposição em Paris das obras rejeitadas pelo júri do Salão oficial, autorizada por Napoleão Terceiro.",
+        "variantes": [
+          "Salon des Refusés"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Salon_des_Refusés"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano Napoleão Terceiro autorizou o Salão dos Recusados, onde o Almoço na Relva de Manet causou escândalo?",
+      "resposta": "1863",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Salon_des_Refusés"
+      ],
+      "distratores": [
+        "1848",
+        "1874",
+        "1889"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Bienal de São Paulo",
+        "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+        "variantes": [
+          "Bienal Internacional de Arte de São Paulo",
+          "São Paulo Art Biennial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/São_Paulo_Art_Biennial"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano aconteceu a primeira Bienal de São Paulo, organizada pelo Museu de Arte Moderna da cidade?",
+      "resposta": "1951",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/São_Paulo_Art_Biennial",
+        "https://pt.wikipedia.org/wiki/Bienal_Internacional_de_Arte_de_São_Paulo"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "o_grito",
+        "nome": "O Grito",
+        "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+        "variantes": [
+          "The Scream",
+          "Skrik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Scream"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em 1994, uma versão de O Grito foi roubada em Oslo no dia da abertura de que grande evento esportivo, sediado na Noruega?",
+      "resposta": "Olimpíadas de Inverno de Lillehammer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Scream"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Armory Show",
+        "descricao": "Exposição internacional de arte moderna realizada em Nova York em 1913.",
+        "variantes": [
+          "International Exhibition of Modern Art"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Armory_Show"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o Armory Show, em Nova York, chocou o público americano ao exibir o Nu Descendo uma Escada, de Duchamp?",
+      "resposta": "1913",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Armory_Show"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Afrescos de Pompeia",
+        "descricao": "Pinturas murais romanas da cidade de Pompeia, preservadas sob as cinzas do Vesúvio.",
+        "variantes": [
+          "Pinturas de Pompeia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pompeii"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a erupção do Vesúvio soterrou Pompeia e, sem querer, preservou seus afrescos romanos?",
+      "resposta": "79 depois de Cristo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pompeii"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "a_escola_de_atenas",
+        "nome": "A Escola de Atenas",
+        "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+        "variantes": [
+          "The School of Athens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_School_of_Athens"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Enquanto Rafael pintava A Escola de Atenas no Vaticano, entre 1509 e 1511, que obra famosa Michelangelo pintava ali perto?",
+      "resposta": "O teto da Capela Sistina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_School_of_Athens",
+        "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Academia Imperial de Belas Artes",
+        "descricao": "Escola oficial de arte do Rio de Janeiro, criada a partir da Missão Artística Francesa e inaugurada em 1826.",
+        "variantes": [
+          "Imperial Academia de Belas Artes",
+          "Imperial Academy of Fine Arts"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Academia_Imperial_de_Belas_Artes"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Academia Imperial de Belas Artes, nascida da Missão Artística Francesa, foi inaugurada no Rio em 1826, no reinado de quem?",
+      "resposta": "Dom Pedro Primeiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Academia_Imperial_de_Belas_Artes",
+        "https://en.wikipedia.org/wiki/Imperial_Academy_of_Fine_Arts"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "O Lavrador de Café",
+        "descricao": "Quadro de Candido Portinari, de 1934, que mostra um trabalhador rural diante de um cafezal, no acervo do MASP.",
+        "variantes": [
+          "Lavrador de Café"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Lavrador_de_Café"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor brasileiro retratou, em 1934, um trabalhador descalço diante de um cafezal no quadro O Lavrador de Café?",
+      "resposta": "Candido Portinari",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Lavrador_de_Café",
+        "https://pt.wikipedia.org/wiki/Candido_Portinari"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "A Negra",
+        "descricao": "Quadro modernista de Tarsila do Amaral, de 1923, que mostra uma mulher negra de lábios e seio volumosos.",
+        "variantes": [
+          "A Negra (Tarsila do Amaral)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A_Negra"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintora modernista paulista pintou A Negra em 1923, durante uma temporada em Paris?",
+      "resposta": "Tarsila do Amaral",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/A_Negra",
+        "https://en.wikipedia.org/wiki/Tarsila_do_Amaral"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "O Homem Amarelo",
+        "descricao": "Quadro expressionista de Anita Malfatti, de 1915 e 1916, exibido na exposição de 1917 em São Paulo.",
+        "variantes": [
+          "Homem Amarelo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Homem_Amarelo"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que pintora exibiu O Homem Amarelo na polêmica exposição de 1917, em São Paulo?",
+      "resposta": "Anita Malfatti",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Homem_Amarelo",
+        "https://pt.wikipedia.org/wiki/Anita_Malfatti"
+      ],
+      "distratores": [
+        "Tarsila do Amaral",
+        "Djanira",
+        "Georgina de Albuquerque"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Navio de Emigrantes",
+        "descricao": "Grande tela de Lasar Segall, pintada entre 1939 e 1941, com refugiados amontoados no convés de um navio.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lasar_Segall"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor nascido em Vilnius, que fez carreira em São Paulo, pintou Navio de Emigrantes, sobre refugiados que deixavam a Europa?",
+      "resposta": "Lasar Segall",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lasar_Segall",
+        "https://en.wikipedia.org/wiki/Lasar_Segall"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Ivan, o Terrível, e seu Filho Ivan",
+        "descricao": "Pintura russa de 1885 que mostra o czar Ivan, o Terrível, abraçando o filho que acabara de ferir mortalmente.",
+        "variantes": [
+          "Ivan the Terrible and His Son Ivan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ivan_the_Terrible_and_His_Son_Ivan"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor russo do século dezenove retratou o czar Ivan, o Terrível, abraçando o filho que ele acabara de ferir de morte?",
+      "resposta": "Ilya Repin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ivan_the_Terrible_and_His_Son_Ivan"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "O Filho do Homem",
+        "descricao": "Pintura surrealista de 1964 com um homem de sobretudo e chapéu-coco cujo rosto é encoberto por uma maçã verde.",
+        "variantes": [
+          "The Son of Man",
+          "Le fils de l'homme"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Son_of_Man"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor surrealista belga retratou um homem de chapéu-coco com uma maçã verde flutuando diante do rosto?",
+      "resposta": "René Magritte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Son_of_Man"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Falcões da Noite",
+        "descricao": "Pintura americana de 1942 que mostra fregueses numa lanchonete iluminada de esquina, de madrugada.",
+        "variantes": [
+          "Nighthawks",
+          "Notívagos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor americano retratou, em 1942, fregueses solitários numa lanchonete iluminada de madrugada, no quadro Falcões da Noite?",
+      "resposta": "Edward Hopper",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "L.H.O.O.Q.",
+        "descricao": "Obra dadaísta de 1919 feita sobre um cartão-postal da Mona Lisa, à qual foram acrescentados bigode e cavanhaque.",
+        "variantes": [
+          "LHOOQ"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/L.H.O.O.Q."
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1919, que artista francês desenhou bigode e cavanhaque num cartão-postal barato da Mona Lisa?",
+      "resposta": "Marcel Duchamp",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/L.H.O.O.Q."
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Eu Vi o Mundo... Ele Começava no Recife",
+        "descricao": "Grande painel modernista de Cícero Dias, pintado entre 1926 e 1929 e exposto no Salão de 1931, no Rio de Janeiro.",
+        "variantes": [
+          "Eu Vi o Mundo, Ele Começava no Recife"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cícero_Dias"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintor pernambucano fez o enorme painel Eu Vi o Mundo, Ele Começava no Recife, exposto em 1931?",
+      "resposta": "Cícero Dias",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cícero_Dias"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Judite Decapitando Holofernes (Artemisia Gentileschi)",
+        "descricao": "Pintura barroca de Artemisia Gentileschi, do início do século dezessete, que mostra Judite e sua serva cortando a cabeça do general Holofernes.",
+        "variantes": [
+          "Judith Slaying Holofernes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Artemisia_Gentileschi"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que pintora barroca italiana, filha do pintor Orazio, retratou com violência Judite decapitando o general Holofernes?",
+      "resposta": "Artemisia Gentileschi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Artemisia_Gentileschi"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Cubismo",
+        "descricao": "Movimento artístico do início do século vinte, criado por Picasso e Braque, que decompõe as formas em planos geométricos.",
+        "variantes": [
+          "Cubism"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cubism"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O crítico Louis Vauxcelles originou o nome do cubismo ao comentar, em 1908, os quadros de que pintor francês?",
+      "resposta": "Georges Braque",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cubism"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Nabis",
+        "descricao": "Grupo de pintores pós-impressionistas franceses do fim do século dezenove, que incluía Pierre Bonnard e Édouard Vuillard.",
+        "variantes": [
+          "Les Nabis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Les_Nabis"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O grupo francês dos Nabis, de Bonnard e Vuillard, tirou seu nome de uma palavra hebraica. O que ela significa?",
+      "resposta": "Profetas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Les_Nabis"
+      ],
+      "distratores": [
+        "Irmãos",
+        "Rebeldes",
+        "Discípulos"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Dadaísmo",
+        "descricao": "Movimento artístico de vanguarda surgido em Zurique em 1916, marcado pela provocação e pelo absurdo.",
+        "variantes": [
+          "Dada",
+          "Dadá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dada"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No francês infantil, a palavra dada, que deu nome ao dadaísmo, significa que brinquedo?",
+      "resposta": "Cavalinho de pau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dada"
+      ],
+      "distratores": [
+        "Pião",
+        "Chocalho",
+        "Boneca de pano"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Tintoretto",
+        "descricao": "Pintor veneziano do Renascimento, nascido Jacopo Robusti, que viveu de cerca de 1518 a 1594.",
+        "variantes": [
+          "Jacopo Robusti",
+          "Jacopo Tintoretto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tintoretto"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O apelido do pintor veneziano Tintoretto vem da profissão do pai dele. Qual era essa profissão?",
+      "resposta": "Tintureiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tintoretto"
+      ],
+      "distratores": [
+        "Sapateiro",
+        "Ferreiro",
+        "Alfaiate"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Sfumato",
+        "descricao": "Técnica de pintura, associada a Leonardo da Vinci, que suaviza as transições entre cores e contornos.",
+        "variantes": [
+          "Esfumato"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sfumato"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A técnica sfumato, que Leonardo usava para borrar suavemente os contornos, tem nome derivado da palavra italiana para quê?",
+      "resposta": "Fumaça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sfumato"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Período Azul de Picasso",
+        "descricao": "Fase de Pablo Picasso, entre 1901 e 1904, de quadros melancólicos pintados em tons de azul.",
+        "variantes": [
+          "Fase Azul",
+          "Picasso's Blue Period"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Picasso's_Blue_Period"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Período Azul de Picasso, de quadros tristes em tons frios, começou depois de que acontecimento trágico de 1901?",
+      "resposta": "O suicídio do amigo Carlos Casagemas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Picasso's_Blue_Period"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Díptico de Marilyn",
+        "descricao": "Obra de Andy Warhol, de 1962, com cinquenta imagens serigrafadas de Marilyn Monroe, na Tate, em Londres.",
+        "variantes": [
+          "Marilyn Diptych"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marilyn_Diptych"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Andy Warhol começou suas famosas telas com o rosto de Marilyn Monroe em 1962, logo depois de que acontecimento?",
+      "resposta": "A morte da atriz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marilyn_Diptych"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "a_ronda_noturna",
+        "nome": "A Ronda Noturna",
+        "descricao": "Quadro de Rembrandt no Rijksmuseum.",
+        "variantes": [
+          "The Night Watch",
+          "De Nachtwacht"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Night_Watch"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1715, A Ronda Noturna, de Rembrandt, teve faixas cortadas nas bordas. Qual foi o motivo?",
+      "resposta": "Caber numa parede da prefeitura de Amsterdã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Night_Watch"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Vênus ao Espelho",
+        "descricao": "Pintura de Diego Velázquez, de cerca de 1647 a 1651, com Vênus nua de costas olhando-se num espelho segurado por Cupido, na National Gallery de Londres.",
+        "variantes": [
+          "Rokeby Venus",
+          "Vênus de Rokeby",
+          "A Toilette de Vênus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rokeby_Venus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1914, em Londres, a Vênus ao Espelho, de Velázquez, foi atacada a golpes de cutelo por uma militante de que causa?",
+      "resposta": "O voto feminino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rokeby_Venus"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "caverna_de_lascaux",
+        "nome": "Caverna de Lascaux",
+        "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+        "variantes": [
+          "Lascaux"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lascaux"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Aberta à visitação depois da guerra, a caverna de Lascaux foi fechada ao público em 1963. Por quê?",
+      "resposta": "Os visitantes danificavam as pinturas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lascaux"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "a_noite_estrelada",
+        "nome": "A Noite Estrelada",
+        "descricao": "Quadro de Vincent van Gogh, de 1889, com um céu noturno em espirais.",
+        "variantes": [
+          "The Starry Night"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vincent_(Don_McLean_song)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que cantor americano gravou, em 1971, a canção Vincent, que começa evocando A Noite Estrelada de Van Gogh?",
+      "resposta": "Don McLean",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vincent_(Don_McLean_song)"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "a_grande_onda_de_kanagawa",
+        "nome": "A Grande Onda de Kanagawa",
+        "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+        "variantes": [
+          "The Great Wave off Kanagawa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A Grande Onda de Kanagawa, de Hokusai, ilustrou a capa da partitura original de que obra orquestral de Claude Debussy?",
+      "resposta": "O Mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_mer_(Debussy)",
+        "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "moca_com_brinco_de_perola",
+        "nome": "Moça com Brinco de Pérola",
+        "descricao": "Quadro de Johannes Vermeer, de cerca de 1665.",
+        "variantes": [
+          "Girl with a Pearl Earring"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que atriz americana interpretou a criada que posa para Vermeer no filme Moça com Brinco de Pérola, de 2003?",
+      "resposta": "Scarlett Johansson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring_(film)"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Friso de Beethoven",
+        "descricao": "Pintura mural de Gustav Klimt, de 1902, feita para uma exposição no Pavilhão da Secessão, em Viena.",
+        "variantes": [
+          "Beethovenfries",
+          "Beethoven Frieze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beethoven_Frieze"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Friso de Beethoven, que Klimt pintou em 1902 para o Pavilhão da Secessão, em Viena, se inspira em que obra do compositor?",
+      "resposta": "A Nona Sinfonia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beethoven_Frieze"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Azul ultramarino",
+        "descricao": "Pigmento azul intenso, caríssimo na pintura medieval e renascentista, obtido originalmente de uma pedra do Afeganistão.",
+        "variantes": [
+          "Ultramarino",
+          "Ultramarine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ultramarine"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Renascença, o azul ultramarino chegava a custar mais que o ouro. Que pedra, trazida do Afeganistão, era moída para fabricá-lo?",
+      "resposta": "Lápis-lazúli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ultramarine"
+      ],
+      "distratores": [
+        "Turquesa",
+        "Safira",
+        "Azurita"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Têmpera",
+        "descricao": "Técnica de pintura de secagem rápida, dominante na Europa antes da pintura a óleo, usada em ícones e retábulos.",
+        "variantes": [
+          "Têmpera a ovo",
+          "Tempera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tempera"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na têmpera clássica, usada em ícones e retábulos antes da pintura a óleo, os pigmentos eram misturados com que ingrediente de cozinha?",
+      "resposta": "Gema de ovo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tempera"
+      ],
+      "distratores": [
+        "Leite",
+        "Mel",
+        "Azeite"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "a_parabola_dos_cegos",
+        "nome": "A Parábola dos Cegos",
+        "descricao": "Pintura de Pieter Bruegel, o Velho, de 1568, que mostra cegos caindo em sequência, guardada no Museu de Capodimonte, em Nápoles.",
+        "variantes": [
+          "The Blind Leading the Blind"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Blind_Leading_the_Blind"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na Parábola dos Cegos, de Bruegel, uma fila de cegos guiados uns pelos outros vai caindo numa vala. Quantos cegos são?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Blind_Leading_the_Blind"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Teto da Capela Sistina",
+        "descricao": "Conjunto de afrescos pintados por Michelangelo no teto da Capela Sistina, no Vaticano, com cenas do Gênesis.",
+        "variantes": [
+          "Sistine Chapel ceiling"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No centro do teto da Capela Sistina, Michelangelo pintou quantas cenas do livro do Gênesis?",
+      "resposta": "Nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+      ],
+      "distratores": [
+        "Sete",
+        "Doze",
+        "Cinco"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Alfredo Volpi",
+        "descricao": "Pintor modernista nascido em Lucca, na Itália, em 1896, e radicado em São Paulo, onde morreu em 1988.",
+        "variantes": [
+          "Volpi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Alfredo_Volpi",
+          "https://en.wikipedia.org/wiki/Alfredo_Volpi"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Pintura",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que pintor nascido na Itália e criado em São Paulo ficou famoso por suas telas de bandeirinhas de festa junina?",
+      "resposta": "Alfredo Volpi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Alfredo_Volpi",
+        "https://en.wikipedia.org/wiki/Alfredo_Volpi"
+      ]
+    }
+  ]
+}
