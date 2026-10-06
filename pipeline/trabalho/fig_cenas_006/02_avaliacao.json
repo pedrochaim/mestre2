@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cena animada nítida de dois peixes-palhaço no recife, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Procurando Nemo",
+      "ancora": {
+        "nome": "Procurando Nemo",
+        "descricao": "Animação da Pixar de 2003 sobre o peixe-palhaço Marlin que busca seu filho Nemo.",
+        "variantes": [
+          "Finding Nemo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Montagem do elenco de uma única obra, sem texto; pergunta sobre direção vai além do reconhecimento.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Selton Mello",
+      "distratores": [
+        "Wagner Moura",
+        "Matheus Nachtergaele",
+        "Lázaro Ramos"
+      ],
+      "ancora": {
+        "nome": "O Palhaço",
+        "descricao": "Filme brasileiro de 2011, dirigido por Selton Mello, sobre a dupla de palhaços Pangaré e Puro Sangue no Circo Esperança.",
+        "variantes": [
+          "O Palhaço (2011)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena sem texto, meninos no reformatório com bola; filme brasileiro marcante e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme brasileiro é esta cena?",
+      "resposta": "Pixote, a Lei do Mais Fraco",
+      "ancora": {
+        "nome": "Pixote, a Lei do Mais Fraco",
+        "descricao": "Filme brasileiro de 1980 dirigido por Hector Babenco sobre um menino abandonado que foge do reformatório.",
+        "variantes": [
+          "Pixote"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem título nem texto identificador; jogadores de agasalho verde, guardas rosa e dinheiro, reconhecíveis. Uma única obra.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano estreou a primeira temporada da série desta imagem?",
+      "resposta": "2021",
+      "ancora": {
+        "nome": "Round 6",
+        "descricao": "Série sul-coreana da Netflix sobre centenas de pessoas endividadas que disputam jogos mortais por um prêmio milionário.",
+        "variantes": [
+          "Squid Game",
+          "오징어 게임"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Close da protagonista com cabelo curto e fundo verde, sem texto; muito reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "O Fabuloso Destino de Amélie Poulain",
+      "ancora": {
+        "nome": "O Fabuloso Destino de Amélie Poulain",
+        "descricao": "Comédia romântica francesa de 2001, dirigida por Jean-Pierre Jeunet, sobre uma garçonete de Montmartre.",
+        "variantes": [
+          "Amélie",
+          "Le Fabuleux Destin d'Amélie Poulain"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com olho de vidro nas mãos do dono da loja; marcante.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi lançado o filme desta cena?",
+      "resposta": "Anos 2000",
+      "distratores": [
+        "Anos 1980",
+        "Anos 1990",
+        "Anos 2010"
+      ],
+      "ancora": {
+        "nome": "O Cheiro do Ralo",
+        "descricao": "Filme brasileiro de 2006, com Selton Mello, sobre o dono de uma loja de objetos usados incomodado com o cheiro do ralo.",
+        "variantes": [
+          "O Cheiro do Ralo (2006)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com os dois protagonistas e a sombra trocada; reconhecível e de uma única obra.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme brasileiro é esta imagem?",
+      "resposta": "Se Eu Fosse Você",
+      "ancora": {
+        "nome": "Se Eu Fosse Você",
+        "descricao": "Comédia brasileira de 2006 com Glória Pires e Tony Ramos, sobre um casal que troca de corpo.",
+        "variantes": [
+          "Se Eu Fosse Você (2006)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Arte de divulgação sem elementos específicos: casal em perfil no deserto com camelos. Não permite reconhecer a novela, e o elenco parece não ser o da exibição de 2001. Resposta não única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, com a família Roy em volta da mesa; sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano estreou a primeira temporada da série desta imagem?",
+      "resposta": "2018",
+      "ancora": {
+        "nome": "Succession",
+        "descricao": "Série dramática da HBO sobre a família Roy, dona de um conglomerado de mídia.",
+        "variantes": [
+          "Succession (série)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de divulgação do elenco, sem texto; série britânica menos conhecida no Brasil, então melhor em múltipla escolha.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que série de comédia britânica é esta imagem?",
+      "resposta": "Fawlty Towers",
+      "distratores": [
+        "Blackadder",
+        "Mr. Bean",
+        "Absolutely Fabulous"
+      ],
+      "ancora": {
+        "nome": "Fawlty Towers",
+        "descricao": "Série de comédia britânica de 1975 sobre o hoteleiro Basil Fawlty e seu hotel em Torquay.",
+        "variantes": [
+          "Fawlty Towers (1975)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Elenco de uma única obra, sem texto que entregue a resposta (o quadro-negro traz só 'Pedro e o lobo'); novela brasileira reconhecível pelos uniformes.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta novela brasileira é um remake de uma produção de que país?",
+      "resposta": "México",
+      "ancora": {
+        "nome": "Carrossel (2012)",
+        "descricao": "Telenovela infantil brasileira do SBT, exibida a partir de 2012, ambientada na Escola Mundial.",
+        "variantes": [
+          "Carrossel",
+          "Carrossel 2012"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Placa com a palavra 'BINGO' visível no cenário entrega o nome da obra."
+    }
+  ]
+}

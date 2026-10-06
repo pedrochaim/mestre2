@@ -1,0 +1,538 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Procurando Nemo",
+        "descricao": "Animação da Pixar de 2003 sobre o peixe-palhaço Marlin que busca seu filho Nemo.",
+        "variantes": [
+          "Finding Nemo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        },
+        {
+          "id": "fernando_meligeni",
+          "nome": "Fernando Meligeni",
+          "descricao": "Tenista brasileiro nascido em 1971, o Fininho, semifinalista de Roland Garros em 1999.",
+          "variantes": [
+            "Fininho"
+          ]
+        },
+        {
+          "id": "quadrado_negro",
+          "nome": "Quadrado Negro",
+          "descricao": "Quadro suprematista de Kazimir Malevich de 1915.",
+          "variantes": [
+            "Black Square"
+          ]
+        },
+        {
+          "id": "grou_coroado_cinzento",
+          "nome": "Grou-coroado-cinzento",
+          "descricao": "Grou africano (Balearica regulorum) com crista dourada, ave nacional de Uganda.",
+          "variantes": [
+            "Grou-coroado",
+            "Balearica regulorum"
+          ]
+        },
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Palhaço",
+        "descricao": "Filme brasileiro de 2011, dirigido por Selton Mello, sobre a dupla de palhaços Pangaré e Puro Sangue no Circo Esperança.",
+        "variantes": [
+          "O Palhaço (2011)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "jotalhao",
+          "nome": "Jotalhão",
+          "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+          "variantes": []
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pixote, a Lei do Mais Fraco",
+        "descricao": "Filme brasileiro de 1980 dirigido por Hector Babenco sobre um menino abandonado que foge do reformatório.",
+        "variantes": [
+          "Pixote"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "carrapato",
+          "nome": "Carrapato",
+          "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+          "variantes": [
+            "Ixodida",
+            "Ixodes"
+          ]
+        },
+        {
+          "id": "hercule_poirot",
+          "nome": "Hercule Poirot",
+          "descricao": "Detetive belga, personagem de dezenas de romances policiais de Agatha Christie.",
+          "variantes": [
+            "Poirot"
+          ]
+        },
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        },
+        {
+          "id": "piteco",
+          "nome": "Piteco",
+          "descricao": "Homem das cavernas protagonista da Turma do Piteco, de Mauricio de Sousa.",
+          "variantes": [
+            "Pithecanthropus Erectus da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Round 6",
+        "descricao": "Série sul-coreana da Netflix sobre centenas de pessoas endividadas que disputam jogos mortais por um prêmio milionário.",
+        "variantes": [
+          "Squid Game",
+          "오징어 게임"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "assalto_boxe",
+          "nome": "Assalto (boxe)",
+          "descricao": "Cada um dos períodos de luta em que se divide um combate de boxe, separados por intervalos.",
+          "variantes": [
+            "Round"
+          ]
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "suriname",
+          "nome": "Suriname",
+          "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+          "variantes": [
+            "Surinam",
+            "República do Suriname"
+          ]
+        },
+        {
+          "id": "sequoia_gigante",
+          "nome": "Sequoia-gigante",
+          "descricao": "Sequoiadendron giganteum, conífera da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+          "variantes": [
+            "Sequoiadendron giganteum",
+            "Sequoia-da-sierra",
+            "Wellingtonia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "O Fabuloso Destino de Amélie Poulain",
+        "descricao": "Comédia romântica francesa de 2001, dirigida por Jean-Pierre Jeunet, sobre uma garçonete de Montmartre.",
+        "variantes": [
+          "Amélie",
+          "Le Fabuleux Destin d'Amélie Poulain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "adele",
+          "nome": "Adele",
+          "descricao": "Cantora e compositora britânica, autora dos álbuns 19, 21 e 25.",
+          "variantes": [
+            "Adele Laurie Blue Adkins"
+          ]
+        },
+        {
+          "id": "alien_o_oitavo_passageiro",
+          "nome": "Alien, o Oitavo Passageiro",
+          "descricao": "Filme de terror e ficção científica de 1979 dirigido por Ridley Scott, sobre uma criatura que caça a tripulação de uma nave.",
+          "variantes": [
+            "Alien"
+          ]
+        },
+        {
+          "id": "ameba",
+          "nome": "Ameba",
+          "descricao": "Organismo unicelular que muda de forma ao emitir pseudópodes, representado em desenho de microscopia.",
+          "variantes": [
+            "Amoeba",
+            "Ameboide"
+          ]
+        },
+        {
+          "id": "baquelite",
+          "nome": "Baquelite",
+          "descricao": "Um dos primeiros plásticos totalmente sintéticos, criado em 1907 pelo químico belga-americano Leo Baekeland.",
+          "variantes": [
+            "Bakelite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "O Cheiro do Ralo",
+        "descricao": "Filme brasileiro de 2006, com Selton Mello, sobre o dono de uma loja de objetos usados incomodado com o cheiro do ralo.",
+        "variantes": [
+          "O Cheiro do Ralo (2006)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cheia_do_nilo",
+          "nome": "Cheia do Nilo",
+          "descricao": "Inundação anual do rio Nilo que depositava lodo fértil nas margens do Egito até a construção da represa de Assuã",
+          "variantes": [
+            "Flooding of the Nile",
+            "Inundação do Nilo"
+          ]
+        },
+        {
+          "id": "o_rei_do_gado",
+          "nome": "O Rei do Gado",
+          "descricao": "Telenovela da Rede Globo exibida em 1996 e 1997, sobre disputas entre famílias de fazendeiros.",
+          "variantes": []
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        },
+        {
+          "id": "mosteiro_do_escorial",
+          "nome": "Mosteiro do Escorial",
+          "descricao": "Complexo de mosteiro e palácio real mandado erguer por Filipe II da Espanha no século dezesseis.",
+          "variantes": [
+            "El Escorial",
+            "Real Sitio de San Lorenzo de El Escorial"
+          ]
+        },
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Succession",
+        "descricao": "Série dramática da HBO sobre a família Roy, dona de um conglomerado de mídia.",
+        "variantes": [
+          "Succession (série)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesio",
+          "nome": "Césio",
+          "descricao": "Elemento químico de símbolo Cs e número atômico 55, metal alcalino dourado que derrete perto da temperatura ambiente.",
+          "variantes": [
+            "Cs",
+            "Cesium",
+            "Caesium"
+          ]
+        },
+        {
+          "id": "confissoes_santo_agostinho",
+          "nome": "Confissões (Santo Agostinho)",
+          "descricao": "Obra autobiográfica de Santo Agostinho, escrita por volta do ano 400, que narra sua conversão ao cristianismo.",
+          "variantes": [
+            "Confessiones",
+            "Confissões"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        },
+        {
+          "id": "cite_de_carcassonne",
+          "nome": "Cité de Carcassonne",
+          "descricao": "Cidadela medieval fortificada de Carcassona, no sul da França, restaurada por Viollet-le-Duc no século dezenove.",
+          "variantes": [
+            "Carcassonne",
+            "Carcassona"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Fawlty Towers",
+        "descricao": "Série de comédia britânica de 1975 sobre o hoteleiro Basil Fawlty e seu hotel em Torquay.",
+        "variantes": [
+          "Fawlty Towers (1975)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_toquio",
+          "nome": "Torre de Tóquio",
+          "descricao": "Torre de transmissão de treliça de aço, pintada de branco e laranja, inaugurada em 1958 em Tóquio.",
+          "variantes": [
+            "Tokyo Tower"
+          ]
+        },
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "invasao_da_polonia",
+          "nome": "Invasão da Polônia",
+          "descricao": "Ataque da Alemanha nazista à Polônia em setembro de 1939, seguido pela invasão soviética, que deu início à Segunda Guerra Mundial na Europa.",
+          "variantes": [
+            "Campanha de Setembro",
+            "Fall Weiss"
+          ]
+        },
+        {
+          "id": "falcoes",
+          "nome": "Falcões",
+          "descricao": "Família de aves de rapina (Falconidae) que inclui falcões e caracarás.",
+          "variantes": [
+            "Falconidae",
+            "Falcão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Carrossel (2012)",
+        "descricao": "Telenovela infantil brasileira do SBT, exibida a partir de 2012, ambientada na Escola Mundial.",
+        "variantes": [
+          "Carrossel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lacrosse",
+          "nome": "Lacrosse",
+          "descricao": "Esporte de origem indígena norte-americana, jogado com bastões de rede.",
+          "variantes": []
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        },
+        {
+          "id": "efeito_solo",
+          "nome": "Efeito solo",
+          "descricao": "Princípio aerodinâmico em que o formato do assoalho do carro cria uma sucção que o prende ao chão, explorado na Fórmula 1 a partir do fim dos anos setenta.",
+          "variantes": [
+            "Ground effect",
+            "Carro-asa"
+          ]
+        },
+        {
+          "id": "carro_flex",
+          "nome": "Carro flex",
+          "descricao": "Automóvel com motor capaz de funcionar com etanol, gasolina ou qualquer mistura dos dois, lançado no Brasil em 2003.",
+          "variantes": [
+            "Veículo flex",
+            "Flex fuel",
+            "Carro bicombustível"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filme da Pixar."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filme de 2011."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filme Pixote."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A série é distinta de lula, boxe ou outras candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filme Amélie Poulain."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filme O Cheiro do Ralo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a série Succession."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a série Fawlty Towers."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A novela não é o Carrossel Holandês nem outra candidata."
+    }
+  ]
+}
