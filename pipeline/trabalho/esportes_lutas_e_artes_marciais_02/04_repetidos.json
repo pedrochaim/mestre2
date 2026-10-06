@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+        "resposta": "Roma"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No filme O Voo do Dragão, de 1972, Bruce Lee enfrenta Chuck Norris num duelo travado dentro de que monumento?",
+        "resposta": "Coliseu de Roma"
+      },
+      "existentes": [
+        {
+          "id": "q01086",
+          "pergunta": "No filme O Voo do Dragão, de 1972, Bruce Lee trava a luta final contra Chuck Norris dentro de qual monumento de Roma?",
+          "resposta": "Coliseu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano a UNESCO declarou a roda de capoeira patrimônio cultural imaterial da humanidade?",
+        "resposta": "2014"
+      },
+      "existentes": [
+        {
+          "id": "q01975",
+          "pergunta": "Na roda de capoeira, que instrumento de arco e cabaça comanda o ritmo e o tipo de jogo?",
+          "resposta": "Berimbau"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Salvador, que mestre criou a capoeira regional, chamada de início de Luta Regional Baiana?",
+        "resposta": "Mestre Bimba"
+      },
+      "existentes": [
+        {
+          "id": "q00336",
+          "pergunta": "Nos anos de 1930, em Salvador, que mestre criou a capoeira regional, de método de ensino próprio?",
+          "resposta": "Mestre Bimba"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que arte marcial o cantor Elvis Presley começou a praticar a sério quando servia o exército na Alemanha, chegando à faixa preta?",
+        "resposta": "Caratê"
+      },
+      "existentes": [
+        {
+          "id": "q01822",
+          "pergunta": "Em 1954, este cantor lançou seu primeiro disco por uma pequena gravadora de Memphis. Qual?",
+          "resposta": "Sun Records"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Nas lutas oficiais de sumô, como se chama a faixa de tecido amarrada na cintura do lutador?",
+        "resposta": "Mawashi"
+      },
+      "existentes": [
+        {
+          "id": "q00517",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Sumô"
+        },
+        {
+          "id": "q01954",
+          "pergunta": "Antes de cada combate de sumô, por que os lutadores atiram sal sobre a arena?",
+          "resposta": "Para purificá-la"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade dos Jogos de 1960 é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: local do duelo final é o Coliseu."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano do reconhecimento pela UNESCO difere do instrumento."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: Mestre Bimba criou a capoeira regional."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Arte marcial praticada difere da gravadora do primeiro disco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nome da faixa difere dos outros fatos."
+    }
+  ]
+}

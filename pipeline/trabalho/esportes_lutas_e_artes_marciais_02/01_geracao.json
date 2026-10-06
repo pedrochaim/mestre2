@@ -1,0 +1,1027 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Luta greco-romana",
+        "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
+        "variantes": [
+          "Greco-Roman wrestling",
+          "Luta francesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greco-Roman_wrestling",
+          "https://pt.wikipedia.org/wiki/Luta_greco-romana"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, a luta greco-romana, que proíbe agarrar abaixo da cintura, foi organizada no século dezenove em que país?",
+      "resposta": "França",
+      "distratores": [
+        "Itália",
+        "Grécia",
+        "Inglaterra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Greco-Roman_wrestling"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pride Fighting Championships",
+        "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+        "variantes": [
+          "Pride FC",
+          "Pride"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pride_Fighting_Championships"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Palco de brasileiros como Wanderlei Silva e Rodrigo Minotauro, o Pride, evento de MMA de sucesso nos anos dois mil, era sediado em que país?",
+      "resposta": "Japão",
+      "distratores": [
+        "Estados Unidos",
+        "Coreia do Sul",
+        "Brasil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pride_Fighting_Championships"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+      "resposta": "Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali",
+        "https://en.wikipedia.org/wiki/Boxing_at_the_1960_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jack Johnson",
+        "descricao": "Boxeador americano, primeiro campeão mundial negro dos pesos-pesados, em 1908.",
+        "variantes": [
+          "John Arthur Johnson",
+          "Gigante de Galveston"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jack_Johnson_(boxer)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1908, ao vencer Tommy Burns, Jack Johnson tornou-se o primeiro campeão negro dos pesos-pesados. Essa luta aconteceu em que país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jack_Johnson_(boxer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escadaria do Rocky",
+        "descricao": "Escadaria de entrada do Museu de Arte da Filadélfia, famosa pela cena de treino do filme Rocky.",
+        "variantes": [
+          "Rocky Steps"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky_Steps"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No filme Rocky, de 1976, o boxeador termina sua corrida de treino subindo a escadaria de que museu?",
+      "resposta": "Museu de Arte da Filadélfia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_Steps"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Huka-huka",
+        "descricao": "Luta corporal tradicional de povos indígenas do Alto Xingu, disputada no ritual do Kuarup.",
+        "variantes": [
+          "Uka-uka"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Huka-huka",
+          "https://pt.wikipedia.org/wiki/Kuarup"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O huka-huka, luta corporal disputada no ritual do Kuarup, é tradição dos povos indígenas de que região brasileira?",
+      "resposta": "Alto Xingu",
+      "distratores": [
+        "Pantanal",
+        "Vale do Javari",
+        "Chapada Diamantina"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Huka-huka",
+        "https://pt.wikipedia.org/wiki/Kuarup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Akebono",
+        "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+        "variantes": [
+          "Akebono Tarō",
+          "Chad Rowan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Akebono_Tar%C5%8D"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1993, Akebono tornou-se o primeiro lutador nascido fora do Japão a chegar a yokozuna no sumô. Ele nasceu em que estado americano?",
+      "resposta": "Havaí",
+      "distratores": [
+        "Califórnia",
+        "Alasca",
+        "Texas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Akebono_Tar%C5%8D"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Voo do Dragão",
+        "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee, com Chuck Norris como antagonista.",
+        "variantes": [
+          "The Way of the Dragon",
+          "A Fúria do Dragão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Way_of_the_Dragon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No filme O Voo do Dragão, de 1972, Bruce Lee enfrenta Chuck Norris num duelo travado dentro de que monumento?",
+      "resposta": "Coliseu de Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Way_of_the_Dragon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mike Tyson contra Buster Douglas",
+        "descricao": "Luta de 1990 pelo título dos pesos-pesados em que Buster Douglas impôs a Mike Tyson sua primeira derrota profissional.",
+        "variantes": [
+          "Tyson vs. Douglas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mike_Tyson_vs._Buster_Douglas"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1990, Mike Tyson perdeu pela primeira vez como profissional, nocauteado por Buster Douglas, numa luta disputada em que cidade?",
+      "resposta": "Tóquio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mike_Tyson_vs._Buster_Douglas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Antonio Inoki",
+        "descricao": "Lutador profissional japonês que enfrentou Muhammad Ali numa luta mista em 1976.",
+        "variantes": [
+          "Kanji Inoki"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antonio_Inoki"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Rival de Muhammad Ali numa luta mista em 1976, o lutador japonês Antonio Inoki emigrou com a família, ainda adolescente, para que país?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antonio_Inoki"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Taekwondo nos Jogos Olímpicos de 2000",
+        "descricao": "Estreia do taekwondo como modalidade olímpica oficial, nos Jogos de Sydney, em 2000.",
+        "variantes": [
+          "Taekwondo em Sydney 2000"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taekwondo_at_the_2000_Summer_Olympics"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de aparecer como esporte de demonstração, o taekwondo virou modalidade olímpica oficial nos Jogos de que ano?",
+      "resposta": "2000, em Sydney",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taekwondo_at_the_2000_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Taekwondo_at_the_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caratê nos Jogos Olímpicos de 2020",
+        "descricao": "Estreia do caratê no programa olímpico, nos Jogos de Tóquio, realizados em 2021.",
+        "variantes": [
+          "Karate at the 2020 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karate_at_the_2020_Summer_Olympics"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O caratê estreou no programa olímpico nos Jogos que foram adiados por causa da pandemia. Que edição foi essa?",
+      "resposta": "Tóquio 2020",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karate_at_the_2020_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "roda_de_capoeira",
+        "nome": "Roda de capoeira",
+        "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+        "variantes": [
+          "Capoeira circle"
+        ],
+        "fontes": [
+          "https://ich.unesco.org/en/RL/capoeira-circle-00892"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a UNESCO declarou a roda de capoeira patrimônio cultural imaterial da humanidade?",
+      "resposta": "2014",
+      "fonte": [
+        "https://ich.unesco.org/en/RL/capoeira-circle-00892",
+        "https://en.wikipedia.org/wiki/Capoeira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sarah Menezes",
+        "descricao": "Judoca piauiense, campeã olímpica na categoria até 48 kg nos Jogos de Londres.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sarah_Menezes",
+          "https://pt.wikipedia.org/wiki/Sarah_Menezes"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A piauiense Sarah Menezes tornou-se a primeira brasileira campeã olímpica de judô em que edição dos Jogos?",
+      "resposta": "Londres 2012",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sarah_Menezes",
+        "https://pt.wikipedia.org/wiki/Sarah_Menezes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chiaki Ishii",
+        "descricao": "Judoca nascido no Japão e naturalizado brasileiro, primeiro medalhista olímpico do judô do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chiaki_Ishii"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano o judoca Chiaki Ishii, nascido no Japão, ganhou o bronze que foi a primeira medalha olímpica do judô brasileiro?",
+      "resposta": "1972",
+      "distratores": [
+        "1964",
+        "1976",
+        "1980"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chiaki_Ishii"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Operação Dragão",
+        "descricao": "Filme de artes marciais de 1973 estrelado por Bruce Lee, coprodução de Hong Kong e Hollywood.",
+        "variantes": [
+          "Enter the Dragon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Enter_the_Dragon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O filme Operação Dragão, de 1973, chegou aos cinemas poucos dias depois de que acontecimento inesperado?",
+      "resposta": "A morte de Bruce Lee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Enter_the_Dragon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boxe nos Jogos Olímpicos de 1904",
+        "descricao": "Estreia do boxe nos Jogos Olímpicos modernos, em Saint Louis, disputada só por americanos.",
+        "variantes": [
+          "Boxing at the 1904 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing_at_the_1904_Summer_Olympics"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O boxe estreou nos Jogos Olímpicos modernos numa edição em que só americanos subiram ao ringue. Que edição foi essa?",
+      "resposta": "Saint Louis 1904",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing_at_the_1904_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Judô nos Jogos Olímpicos de 1992",
+        "descricao": "Torneio de judô dos Jogos de Barcelona, primeiro com provas femininas valendo medalha.",
+        "variantes": [
+          "Judo at the 1992 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Judo_at_the_1992_Summer_Olympics"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que edição dos Jogos Olímpicos as mulheres passaram a disputar medalhas oficiais no judô?",
+      "resposta": "Barcelona 1992",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Judo_at_the_1992_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "UFC 157",
+        "descricao": "Evento do UFC de fevereiro de 2013 que teve a primeira luta feminina da organização, entre Ronda Rousey e Liz Carmouche.",
+        "variantes": [
+          "UFC 157: Rousey vs. Carmouche"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/UFC_157"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o UFC promoveu sua primeira luta feminina, vencida por Ronda Rousey contra Liz Carmouche?",
+      "resposta": "2013",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_157"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aikidô",
+        "descricao": "Arte marcial japonesa do século vinte baseada em projeções e imobilizações que aproveitam a força do adversário.",
+        "variantes": [
+          "Aikido"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aikido"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que mestre japonês criou o aikidô, arte marcial que usa a força do próprio adversário contra ele?",
+      "resposta": "Morihei Ueshiba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aikido",
+        "https://en.wikipedia.org/wiki/Morihei_Ueshiba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jeet Kune Do",
+        "descricao": "Filosofia e sistema de luta criados nos anos 1960 por Bruce Lee.",
+        "variantes": [
+          "Jeet Kune Do",
+          "Caminho do punho que intercepta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jeet_Kune_Do"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que astro do cinema criou o jeet kune do, filosofia de luta sem estilo fixo que pregava ser como a água?",
+      "resposta": "Bruce Lee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jeet_Kune_Do"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Capoeira regional",
+        "descricao": "Vertente da capoeira criada em Salvador no século vinte, de início chamada Luta Regional Baiana.",
+        "variantes": [
+          "Luta Regional Baiana"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mestre_Bimba",
+          "https://en.wikipedia.org/wiki/Mestre_Bimba"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Salvador, que mestre criou a capoeira regional, chamada de início de Luta Regional Baiana?",
+      "resposta": "Mestre Bimba",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mestre_Bimba",
+        "https://en.wikipedia.org/wiki/Mestre_Bimba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Shotokan",
+        "descricao": "Um dos estilos de caratê mais difundidos no mundo, desenvolvido no Japão a partir dos anos 1920.",
+        "variantes": [
+          "Shotokan-ryu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shotokan"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que mestre de Okinawa levou o caratê para Tóquio nos anos mil novecentos e vinte e deu origem ao estilo Shotokan?",
+      "resposta": "Gichin Funakoshi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shotokan",
+        "https://en.wikipedia.org/wiki/Gichin_Funakoshi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kung fu Shaolin",
+        "descricao": "Conjunto de estilos de artes marciais chinesas ligados ao Templo Shaolin, na província de Henan.",
+        "variantes": [
+          "Shaolin kung fu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shaolin_kung_fu"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda, o kung fu do Templo Shaolin, na China, teria nascido dos ensinamentos de que monge vindo da Índia?",
+      "resposta": "Bodhidharma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shaolin_kung_fu",
+        "https://en.wikipedia.org/wiki/Bodhidharma"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Touro Indomável",
+        "descricao": "Filme americano de 1980 sobre o boxeador Jake LaMotta, estrelado por Robert De Niro.",
+        "variantes": [
+          "Raging Bull"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raging_Bull"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu Touro Indomável, filme de 1980 sobre o boxeador Jake LaMotta?",
+      "resposta": "Martin Scorsese",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raging_Bull"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Tigre e o Dragão",
+        "descricao": "Filme de artes marciais de 2000, falado em mandarim, vencedor do Oscar de filme estrangeiro.",
+        "variantes": [
+          "Crouching Tiger, Hidden Dragon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O filme de artes marciais O Tigre e o Dragão, que levou o Oscar de filme estrangeiro em 2001, foi dirigido por quem?",
+      "resposta": "Ang Lee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Luta do Século",
+        "descricao": "Luta de 1971 no Madison Square Garden entre Muhammad Ali e Joe Frazier pelo título dos pesos-pesados.",
+        "variantes": [
+          "Fight of the Century",
+          "Ali contra Frazier I"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fight_of_the_Century"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1971, no Madison Square Garden, quem impôs a Muhammad Ali a primeira derrota profissional, na chamada Luta do Século?",
+      "resposta": "Joe Frazier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fight_of_the_Century"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eye of the Tiger",
+        "descricao": "Canção de 1982 da banda Survivor, tema do filme Rocky III.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que banda americana gravou Eye of the Tiger, a canção-tema de Rocky III, de 1982?",
+      "resposta": "Survivor",
+      "distratores": [
+        "Journey",
+        "Foreigner",
+        "Boston"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sambo",
+        "descricao": "Arte marcial e esporte de combate criado na União Soviética nos anos 1920 e 1930.",
+        "variantes": [
+          "Sambo soviético"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome sambo, luta criada na União Soviética, é uma abreviação russa que quer dizer o quê?",
+      "resposta": "Autodefesa sem armas",
+      "distratores": [
+        "Combate do povo",
+        "Luta dos soldados",
+        "Força sem medo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Taekwondo",
+        "descricao": "Arte marcial coreana conhecida pelos chutes altos e giratórios.",
+        "variantes": [
+          "Tae kwon do"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taekwondo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que três ideias se juntam no nome coreano da arte marcial taekwondo?",
+      "resposta": "Pé, punho e caminho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taekwondo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ippon",
+        "descricao": "Pontuação máxima do judô, que encerra a luta imediatamente.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ippon"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No judô, a pontuação máxima, que encerra a luta na hora, se chama ippon. O que essa palavra significa em japonês?",
+      "resposta": "Um ponto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ippon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manny Pacquiao",
+        "descricao": "Boxeador filipino campeão mundial em oito categorias de peso.",
+        "variantes": [
+          "Emmanuel Dapidran Pacquiao"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manny_Pacquiao"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O boxeador filipino Manny Pacquiao ganhou que apelido, emprestado de um clássico personagem de videogame?",
+      "resposta": "Pac-Man",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manny_Pacquiao"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sugar Ray Robinson",
+        "descricao": "Boxeador americano, campeão mundial dos meio-médios e dos médios, nascido Walker Smith Jr.",
+        "variantes": [
+          "Walker Smith Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sugar_Ray_Robinson"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nascido Walker Smith Júnior, como o lendário Sugar Ray Robinson acabou ficando com o nome Ray Robinson?",
+      "resposta": "Usou o documento de outro boxeador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sugar_Ray_Robinson"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jean-Claude Van Damme",
+        "descricao": "Ator e artista marcial belga, astro de filmes de ação como O Grande Dragão Branco.",
+        "variantes": [
+          "Van Damme",
+          "JCVD"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa da sua cidade natal, o astro de filmes de luta Jean-Claude Van Damme ganhou que apelido?",
+      "resposta": "Músculos de Bruxelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Judogi",
+        "descricao": "Uniforme de treino e competição do judô, em branco ou azul.",
+        "variantes": [
+          "Quimono de judô",
+          "Judogi azul"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Judogi"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nas grandes competições de judô, um atleta usa quimono branco e o outro, azul. Para que serve essa diferença?",
+      "resposta": "Distinguir os dois lutadores",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Judogi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rodrigo Minotauro",
+        "descricao": "Lutador baiano de MMA, ex-campeão dos pesos-pesados do Pride e do UFC.",
+        "variantes": [
+          "Antônio Rodrigo Nogueira",
+          "Minotauro",
+          "Big Nog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Rodrigo_Nogueira"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Ainda criança, o futuro lutador Rodrigo Minotauro ficou com uma grande cicatriz nas costas por causa de que acidente?",
+      "resposta": "Atropelamento por um caminhão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Rodrigo_Nogueira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Wai khru ram muay",
+        "descricao": "Dança ritual feita pelos lutadores antes das lutas de muay thai.",
+        "variantes": [
+          "Wai kru",
+          "Ram muay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wai_khru_ram_muay"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Antes de cada luta de muay thai, o lutador faz uma dança ritual chamada wai khru. Qual é o principal objetivo dela?",
+      "resposta": "Homenagear seus mestres",
+      "distratores": [
+        "Pedir boa colheita",
+        "Sortear os cantos",
+        "Celebrar vitórias passadas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wai_khru_ram_muay"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Orelha de couve-flor",
+        "descricao": "Deformação da orelha comum em lutadores, causada por traumas repetidos.",
+        "variantes": [
+          "Cauliflower ear",
+          "Orelha de lutador"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cauliflower_ear"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Comum em lutadores de jiu-jítsu e de luta olímpica, a chamada orelha de couve-flor é causada por quê?",
+      "resposta": "Pancadas e atritos repetidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cauliflower_ear"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bartitsu",
+        "descricao": "Método de defesa pessoal criado na Inglaterra por volta de 1900, citado como baritsu nas histórias de Sherlock Holmes.",
+        "variantes": [
+          "Baritsu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bartitsu"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que famoso detetive da ficção diz ter usado o baritsu, uma luta japonesa, para escapar da morte nas Cataratas de Reichenbach?",
+      "resposta": "Sherlock Holmes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bartitsu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jigoro Kano",
+        "descricao": "Educador japonês que fundou o judô em 1882.",
+        "variantes": [
+          "Kanō Jigorō"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Além de criar o judô, Jigoro Kano foi o primeiro asiático a integrar que entidade esportiva internacional?",
+      "resposta": "Comitê Olímpico Internacional",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Elvis Presley",
+        "descricao": "Cantor e ator americano, conhecido como o Rei do Rock.",
+        "variantes": [
+          "Elvis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elvis_Presley"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que arte marcial o cantor Elvis Presley começou a praticar a sério quando servia o exército na Alemanha, chegando à faixa preta?",
+      "resposta": "Caratê",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elvis_Presley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Yamashita Yoshitsugu",
+        "descricao": "Mestre japonês de judô que ensinou a luta nos Estados Unidos no começo do século vinte.",
+        "variantes": [
+          "Yamashita Yoshiaki"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No começo do século vinte, o mestre de judô Yamashita Yoshitsugu deu aulas na Casa Branca para que presidente americano?",
+      "resposta": "Theodore Roosevelt",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capoeira",
+        "nome": "Capoeira",
+        "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na capoeira, como se chama o balanço constante do corpo, de onde partem os ataques e as esquivas?",
+      "resposta": "Ginga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ginga_(capoeira)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sumo",
+        "nome": "Sumô",
+        "descricao": "Luta tradicional japonesa em que se tenta tirar o adversário do círculo.",
+        "variantes": [
+          "Sumo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sumo"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas lutas oficiais de sumô, como se chama a faixa de tecido amarrada na cintura do lutador?",
+      "resposta": "Mawashi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mawashi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rocky Marciano",
+        "descricao": "Boxeador americano, campeão dos pesos-pesados que se aposentou invicto em 1956.",
+        "variantes": [
+          "Rocco Francis Marchegiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky_Marciano"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Rocky Marciano aposentou-se invicto como campeão dos pesos-pesados, com quantas vitórias na carreira profissional?",
+      "resposta": "49",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_Marciano"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Assalto (boxe)",
+        "descricao": "Cada um dos períodos de luta em que se divide um combate de boxe, separados por intervalos.",
+        "variantes": [
+          "Round"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "No boxe profissional masculino, quantos minutos dura cada assalto?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing",
+        "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peso-mosca",
+        "descricao": "Categoria de peso leve do boxe, abaixo dos pesos-galo e pena.",
+        "variantes": [
+          "Flyweight"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flyweight"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas categorias do boxe, qual reúne os lutadores mais leves?",
+      "resposta": "Peso-mosca",
+      "distratores": [
+        "Peso-galo",
+        "Peso-pena",
+        "Peso-leve"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flyweight",
+        "https://en.wikipedia.org/wiki/Weight_class_(boxing)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Faixa vermelha do jiu-jítsu",
+        "descricao": "Faixa mais alta do sistema de graduação do jiu-jítsu brasileiro, reservada aos grandes mestres.",
+        "variantes": [
+          "Faixa vermelha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu_ranking_system"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No jiu-jítsu brasileiro, qual é a cor da faixa mais alta, acima até da preta, reservada aos grandes mestres?",
+      "resposta": "Vermelha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu_ranking_system"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "El Santo",
+        "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+        "variantes": [
+          "Santo",
+          "Rodolfo Guzmán Huerta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Santo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Lenda da luta livre mexicana e astro de dezenas de filmes, o lutador El Santo foi enterrado, em 1984, usando o quê?",
+      "resposta": "Sua máscara prateada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Santo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mestre Shifu",
+        "descricao": "Personagem da animação Kung Fu Panda, mestre de kung fu que treina o panda Po.",
+        "variantes": [
+          "Shifu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kung_Fu_Panda_(film)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na animação Kung Fu Panda, o mestre Shifu, que treina o panda Po, é que animal?",
+      "resposta": "Panda-vermelho",
+      "distratores": [
+        "Tigre",
+        "Garça",
+        "Macaco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kung_Fu_Panda_(film)"
+      ]
+    }
+  ]
+}
