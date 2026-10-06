@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cena noturna de multidão com igreja e fogueira; nada na imagem permite reconhecer que é Campina Grande. Resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Carrinho de corrida de descida bem visível; o texto na carroceria não entrega o nome. Boa para distinguir entre brinquedos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo, feito para corridas ladeira abaixo, é este?",
+      "resposta": "Carrinho de rolimã",
+      "distratores": [
+        "Carrinho de pedal",
+        "Kart a motor",
+        "Trenó de rodas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carrinho de rolimã",
+        "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+        "variantes": [
+          "Carrinho de rolamentos",
+          "Carrinho de lomba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cabaça com rede de contas, imagem nítida e característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este instrumento de percussão feito de cabaça vem da África Ocidental. De que povo ele é originário?",
+      "resposta": "Iorubá",
+      "destino": 0,
+      "ancora": {
+        "nome": "Xequerê",
+        "descricao": "Instrumento de percussão feito de cabaça coberta por uma rede de contas ou búzios.",
+        "variantes": [
+          "Shekere",
+          "Axatse",
+          "Agbê"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ilustração clássica de criatura lupina em cemitério sob a lua; assinatura do artista não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura das lendas é esta?",
+      "resposta": "Lobisomem",
+      "distratores": [
+        "Mula sem cabeça",
+        "Corpo-seco",
+        "Curupira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura do folclore que se transforma em lobo ou híbrido de lobo e homem.",
+        "variantes": [
+          "Licantropo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de Zé Pilintra com terno branco e chapéu, iconografia característica; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que entidade das religiões afro-brasileiras é representada nesta imagem?",
+      "resposta": "Zé Pilintra",
+      "distratores": [
+        "Preto-Velho",
+        "Seu Tranca-Rua",
+        "Caboclo Sete Flechas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Zé Pilintra",
+        "descricao": "Entidade do Catimbó e da Umbanda, malandro de terno branco e chapéu.",
+        "variantes": [
+          "Zé Pelintra",
+          "Seu Zé Pilintra"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Brincante com chapéu florido e pandeiro; o traje é parecido com o de outras danças e folguedos (congada, folia de reis), então a imagem não identifica o Ticumbi com unicidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Filtro de barro claro; o selo pequeno não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este utensílio doméstico de cerâmica foi criado no início do século vinte em que estado brasileiro?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Minas Gerais",
+        "Bahia",
+        "Pernambuco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Filtro de barro",
+        "descricao": "Utensílio doméstico de cerâmica com velas filtrantes para purificar a água.",
+        "variantes": [
+          "Filtro de cerâmica",
+          "Filtro São João"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Gravura de Goya (O Coco) pode ser lida como bicho-papão, homem do saco ou fantasma; resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Brinquedo de madeira com bola, copo e cordão, razoavelmente nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo tradicional de madeira, com cordão, é este?",
+      "resposta": "Bilboquê",
+      "distratores": [
+        "Pião",
+        "Ioiô",
+        "Maraca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bilboquê",
+        "descricao": "Brinquedo tradicional de madeira com um cabo, uma bola presa por cordão e um copo ou espeto para encaixá-la.",
+        "variantes": [
+          "Bilboquet",
+          "Cup-and-ball"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ritual com troncos pintados e participantes indígenas do Xingu, reconhecível; participantes de ritual público.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ritual funerário indígena é celebrado por povos de que região do Brasil, que leva o nome de um rio?",
+      "resposta": "Xingu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kuarup",
+        "descricao": "Principal ritual funerário dos povos indígenas do Alto Xingu, com troncos pintados que representam os mortos.",
+        "variantes": [
+          "Quarup"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pião de madeira com ponteira e cordão, imagem limpa e clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que brinquedo tradicional é este?",
+      "resposta": "Pião",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pião",
+        "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+        "variantes": [
+          "Carrapeta",
+          "Peão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma rua da cidade de Kibungo, em Ruanda, e não o Quibungo do folclore; assunto errado, e a placa visível não ajuda."
+    }
+  ]
+}

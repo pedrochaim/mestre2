@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que criatura das lendas é esta?",
+        "resposta": "Lobisomem"
+      },
+      "existentes": [
+        {
+          "id": "q05244",
+          "pergunta": "Segundo uma versão da crença popular brasileira, vira lobisomem o menino que nasce depois de quantas irmãs mulheres seguidas?",
+          "resposta": "Sete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar a criatura (Lobisomem); a existente pergunta quantas irmãs seguidas (sete) levam a virar lobisomem. Fatos diferentes."
+    }
+  ]
+}

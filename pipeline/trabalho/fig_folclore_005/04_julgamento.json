@@ -1,0 +1,504 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carrinho de rolimã",
+        "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+        "variantes": [
+          "Carrinho de rolamentos",
+          "Carrinho de lomba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carrinho_de_supermercado",
+          "nome": "Carrinho de supermercado",
+          "descricao": "Cesto de metal ou plástico sobre rodas usado pelos clientes para carregar compras no mercado.",
+          "variantes": [
+            "Carrinho de compras",
+            "Shopping cart"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "caipirinha",
+          "nome": "Caipirinha",
+          "descricao": "Coquetel brasileiro feito com cachaça, açúcar, limão e gelo.",
+          "variantes": [
+            "Caipirinha de limão"
+          ]
+        },
+        {
+          "id": "taxi",
+          "nome": "Táxi",
+          "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+          "variantes": [
+            "Carro de praça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Xequerê",
+        "descricao": "Instrumento de percussão feito de cabaça coberta por uma rede de contas ou búzios.",
+        "variantes": [
+          "Shekere",
+          "Axatse",
+          "Agbê"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xeque_xadrez",
+          "nome": "Xeque (xadrez)",
+          "descricao": "Situação do xadrez em que o rei está ameaçado de captura por uma peça adversária.",
+          "variantes": [
+            "Check"
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura do folclore que se transforma em lobo ou híbrido de lobo e homem.",
+        "variantes": [
+          "Licantropo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lobisomem",
+          "nome": "Lobisomem",
+          "descricao": "Criatura lendária, homem que se transforma em lobo ou bicho peludo, presente no folclore brasileiro de origem europeia.",
+          "variantes": [
+            "Lobishomem"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "pelicano",
+          "nome": "Pelicano",
+          "descricao": "Grande ave aquática da família Pelecanidae, com bolsa de pele sob o bico.",
+          "variantes": [
+            "Pelecanidae",
+            "Pelicanos"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "celacanto",
+          "nome": "Celacanto",
+          "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+          "variantes": [
+            "Latimeria",
+            "Coelacanth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Zé Pilintra",
+        "descricao": "Entidade do Catimbó e da Umbanda, malandro de terno branco e chapéu.",
+        "variantes": [
+          "Zé Pelintra",
+          "Seu Zé Pilintra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zepelim",
+          "nome": "Zepelim",
+          "descricao": "Tipo de dirigível rígido desenvolvido na Alemanha a partir do fim do século dezenove.",
+          "variantes": [
+            "Zeppelin"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "ave_lira_soberba",
+          "nome": "Ave-lira-soberba",
+          "descricao": "Menura novaehollandiae, ave canora australiana famosa pela cauda elaborada e pela imitação de sons.",
+          "variantes": [
+            "Ave-lira",
+            "Superb lyrebird",
+            "Menura novaehollandiae"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_de_alcantara",
+          "nome": "Centro de Lançamento de Alcântara",
+          "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+          "variantes": [
+            "CLA",
+            "Base de Alcântara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Filtro de barro",
+        "descricao": "Utensílio doméstico de cerâmica com velas filtrantes para purificar a água.",
+        "variantes": [
+          "Filtro de cerâmica",
+          "Filtro São João"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "filtro_de_papel_para_cafe",
+          "nome": "Filtro de papel para café",
+          "descricao": "Filtro descartável de papel para coar café, patenteado pela alemã Melitta Bentz em 1908.",
+          "variantes": [
+            "Filtro Melitta",
+            "Coffee filter"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina"
+          ]
+        },
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria"
+          ]
+        },
+        {
+          "id": "edito_de_caracala",
+          "nome": "Édito de Caracala",
+          "descricao": "Decreto de 212 que concedeu a cidadania romana a quase todos os homens livres do Império.",
+          "variantes": [
+            "Constituição Antonina",
+            "Constitutio Antoniniana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bilboquê",
+        "descricao": "Brinquedo tradicional de madeira com um cabo, uma bola presa por cordão e um copo ou espeto para encaixá-la.",
+        "variantes": [
+          "Bilboquet",
+          "Cup-and-ball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nelson_piquet",
+          "nome": "Nelson Piquet",
+          "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1, em 1981, 1983 e 1987.",
+          "variantes": [
+            "Nelson Piquet Souto Maior",
+            "Nelson Souto Maior",
+            "Piquet"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "oiapoque",
+          "nome": "Oiapoque",
+          "descricao": "Município do Amapá no extremo norte do litoral brasileiro, na fronteira com a Guiana Francesa.",
+          "variantes": []
+        },
+        {
+          "id": "david_hilbert",
+          "nome": "David Hilbert",
+          "descricao": "Matemático alemão que apresentou em 1900 uma lista de problemas que orientou a matemática do século vinte.",
+          "variantes": [
+            "Hilbert"
+          ]
+        },
+        {
+          "id": "broqueis",
+          "nome": "Broquéis",
+          "descricao": "Livro de poemas de Cruz e Sousa publicado em 1893, considerado o marco inicial do Simbolismo no Brasil.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Kuarup",
+        "descricao": "Principal ritual funerário dos povos indígenas do Alto Xingu, com troncos pintados que representam os mortos.",
+        "variantes": [
+          "Quarup"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quark",
+          "nome": "Quark",
+          "descricao": "Partícula elementar que compõe prótons e nêutrons, proposta por Murray Gell-Mann e George Zweig em 1964.",
+          "variantes": [
+            "Quarks"
+          ]
+        },
+        {
+          "id": "pleiades",
+          "nome": "Plêiades",
+          "descricao": "Aglomerado aberto de estrelas na constelação de Touro, conhecido no Brasil como Sete-Estrelo.",
+          "variantes": [
+            "Sete-Estrelo",
+            "M45",
+            "Subaru"
+          ]
+        },
+        {
+          "id": "quartzo",
+          "nome": "Quartzo",
+          "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartz"
+          ]
+        },
+        {
+          "id": "subaru",
+          "nome": "Subaru",
+          "descricao": "Montadora japonesa de automóveis cujo logotipo mostra um grupo de estrelas.",
+          "variantes": [
+            "Subaru Corporation"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pião",
+        "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+        "variantes": [
+          "Carrapeta",
+          "Peão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        },
+        {
+          "id": "carrapato",
+          "nome": "Carrapato",
+          "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+          "variantes": [
+            "Ixodida",
+            "Ixodes"
+          ]
+        },
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Carrinho de rolimã não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Instrumento xequerê sem candidata equivalente."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lobisomem",
+      "motivo": "Mesma criatura folclórica, descrições compatíveis."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Entidade Zé Pilintra sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Filtro de barro é utensílio distinto das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Brinquedo bilboquê sem candidata equivalente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ritual Kuarup não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pião (brinquedo) difere de todas as candidatas."
+    }
+  ]
+}
