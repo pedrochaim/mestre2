@@ -1,0 +1,364 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lupa",
+        "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+        "variantes": [
+          "Lente de aumento",
+          "Vidro de aumento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        },
+        {
+          "id": "vidro_de_murano",
+          "nome": "Vidro de Murano",
+          "descricao": "Vidro artesanal produzido na ilha de Murano, em Veneza, desde a Idade Média.",
+          "variantes": [
+            "Cristal de Murano"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "garganta_de_olduvai",
+          "nome": "Garganta de Olduvai",
+          "descricao": "Desfiladeiro na Tanzânia, um dos sítios paleoantropológicos mais importantes do mundo, estudado pela família Leakey.",
+          "variantes": [
+            "Olduvai Gorge",
+            "Oldupai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Zootrópio",
+        "descricao": "Aparelho cilíndrico pré-cinema que cria ilusão de movimento com uma sequência de desenhos vista através de fendas.",
+        "variantes": [
+          "Zoetrope",
+          "Zootropo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roronoa_zoro",
+          "nome": "Roronoa Zoro",
+          "descricao": "Espadachim da tripulação de Luffy no mangá e anime One Piece.",
+          "variantes": [
+            "Zoro",
+            "Zolo"
+          ]
+        },
+        {
+          "id": "zero",
+          "nome": "Zero",
+          "descricao": "O número zero e o algarismo que o representa.",
+          "variantes": [
+            "0",
+            "Número zero"
+          ]
+        },
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro",
+            "トトロ"
+          ]
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "zoroastrismo",
+          "nome": "Zoroastrismo",
+          "descricao": "Religião antiga da Pérsia baseada nos ensinamentos do profeta Zoroastro",
+          "variantes": [
+            "Masdeísmo",
+            "Zoroastrianism"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Telefone",
+        "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+        "variantes": [
+          "Telefone de disco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pelo_telefone",
+          "nome": "Pelo Telefone",
+          "descricao": "Samba registrado em 1916 e gravado em 1917, considerado o primeiro samba gravado.",
+          "variantes": []
+        },
+        {
+          "id": "teflon",
+          "nome": "Teflon",
+          "descricao": "Nome comercial do politetrafluoretileno, plástico antiaderente descoberto por Roy Plunkett na DuPont em 1938.",
+          "variantes": [
+            "Politetrafluoretileno",
+            "PTFE"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "toblerone",
+          "nome": "Toblerone",
+          "descricao": "Barra de chocolate suíça em formato de prismas triangulares, criada por Theodor Tobler em 1908.",
+          "variantes": []
+        },
+        {
+          "id": "telefone_celular",
+          "nome": "Telefone celular",
+          "descricao": "Telefone portátil sem fio que se conecta a uma rede de antenas, cuja primeira ligação foi feita em 1973.",
+          "variantes": [
+            "Celular",
+            "Telemóvel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Contador Geiger",
+        "descricao": "Instrumento eletrônico que detecta e mede radiação ionizante usando um tubo Geiger-Müller.",
+        "variantes": [
+          "Contador Geiger-Müller",
+          "Detector Geiger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "rio_congo",
+          "nome": "Rio Congo",
+          "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+          "variantes": [
+            "Congo",
+            "Rio Zaire",
+            "Congo River"
+          ]
+        },
+        {
+          "id": "apontador",
+          "nome": "Apontador",
+          "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+          "variantes": [
+            "Apontador de lápis",
+            "Apara-lápis"
+          ]
+        },
+        {
+          "id": "ponta_do_seixas",
+          "nome": "Ponta do Seixas",
+          "descricao": "Cabo no litoral de João Pessoa, na Paraíba, ponto mais oriental das Américas continentais.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lanterna mágica",
+        "descricao": "Antigo projetor de imagens pintadas em placas de vidro, com lentes e fonte de luz.",
+        "variantes": [
+          "Lanterna mágica antiga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_flauta_magica",
+          "nome": "A Flauta Mágica",
+          "descricao": "Ópera de Mozart, com libreto de Emanuel Schikaneder, estreada em Viena em 1791.",
+          "variantes": [
+            "Die Zauberflöte",
+            "The Magic Flute"
+          ]
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "lanterna_vermelha",
+          "nome": "Lanterna vermelha",
+          "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+          "variantes": [
+            "Lanterne rouge"
+          ]
+        },
+        {
+          "id": "lanterna_de_abobora",
+          "nome": "Lanterna de abóbora",
+          "descricao": "Lanterna esculpida com rosto assustador, típica do Halloween.",
+          "variantes": [
+            "Jack-o'-lantern"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pen drive",
+        "descricao": "Dispositivo de armazenamento removível com memória flash e conector USB.",
+        "variantes": [
+          "Pendrive",
+          "Unidade flash USB",
+          "USB flash drive"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "rio_doce",
+          "nome": "Rio Doce",
+          "descricao": "Rio do Sudeste brasileiro que nasce em Minas Gerais e deságua no Atlântico, no Espírito Santo.",
+          "variantes": [
+            "Doce River"
+          ]
+        },
+        {
+          "id": "pericles",
+          "nome": "Péricles",
+          "descricao": "Estadista e general ateniense do século cinco a.C., líder de Atenas no auge da democracia.",
+          "variantes": []
+        },
+        {
+          "id": "o_sonho_henri_rousseau",
+          "nome": "O Sonho (Henri Rousseau)",
+          "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+          "variantes": [
+            "Le Rêve",
+            "The Dream",
+            "O Sonho"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma lupa; nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Zootrópio não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Telefone de disco é diferente do telefone celular, do samba e das demais; na dúvida, nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o contador Geiger."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Lanterna mágica (projetor antigo) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um pen drive."
+    }
+  ]
+}

@@ -97335,5 +97335,82 @@
       "pt": 264,
       "en": 31405
     }
+  },
+  {
+    "id": "lupa",
+    "nome": "Lupa",
+    "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+    "variantes": [
+      "Lente de aumento",
+      "Vidro de aumento"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Magnifying_glass",
+      "https://pt.wikipedia.org/wiki/Lupa"
+    ]
+  },
+  {
+    "id": "zootropio",
+    "nome": "Zootrópio",
+    "descricao": "Aparelho cilíndrico pré-cinema que cria ilusão de movimento com uma sequência de desenhos vista através de fendas.",
+    "variantes": [
+      "Zoetrope",
+      "Zootropo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zoetrope",
+      "https://pt.wikipedia.org/wiki/Zootropo"
+    ]
+  },
+  {
+    "id": "telefone",
+    "nome": "Telefone",
+    "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+    "variantes": [
+      "Telefone de disco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Telephone",
+      "https://pt.wikipedia.org/wiki/Telefone"
+    ]
+  },
+  {
+    "id": "contador_geiger",
+    "nome": "Contador Geiger",
+    "descricao": "Instrumento eletrônico que detecta e mede radiação ionizante usando um tubo Geiger-Müller.",
+    "variantes": [
+      "Contador Geiger-Müller",
+      "Detector Geiger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Geiger_counter",
+      "https://pt.wikipedia.org/wiki/Contador_Geiger"
+    ]
+  },
+  {
+    "id": "lanterna_magica",
+    "nome": "Lanterna mágica",
+    "descricao": "Antigo projetor de imagens pintadas em placas de vidro, com lentes e fonte de luz.",
+    "variantes": [
+      "Lanterna mágica antiga"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Magic_lantern",
+      "https://pt.wikipedia.org/wiki/Lanterna_m%C3%A1gica"
+    ]
+  },
+  {
+    "id": "pen_drive",
+    "nome": "Pen drive",
+    "descricao": "Dispositivo de armazenamento removível com memória flash e conector USB.",
+    "variantes": [
+      "Pendrive",
+      "Unidade flash USB",
+      "USB flash drive"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/USB_flash_drive",
+      "https://pt.wikipedia.org/wiki/USB_flash_drive"
+    ]
   }
 ]

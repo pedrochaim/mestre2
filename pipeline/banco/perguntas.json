@@ -114586,5 +114586,135 @@
       "https://pt.wikipedia.org/wiki/Pico_da_Bandeira"
     ],
     "dificuldade": 5
+  },
+  {
+    "id": "q06733",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "lupa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento óptico é este?",
+    "resposta": "Lupa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magnifying_glass",
+      "https://pt.wikipedia.org/wiki/Lupa"
+    ],
+    "imagem": {
+      "arquivo": "q06733.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Magnifying_glass.jpg",
+      "autor": "Tomomarusan",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q06734",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "zootropio",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho de animação do século dezenove é este?",
+    "resposta": "Zootrópio",
+    "distratores": [
+      "Praxinoscópio",
+      "Fenacistoscópio",
+      "Taumatrópio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zoetrope",
+      "https://pt.wikipedia.org/wiki/Zootropo"
+    ],
+    "imagem": {
+      "arquivo": "q06734.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Zoetrope_(AM_2001.6.1-2).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q06735",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "telefone",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho é este?",
+    "resposta": "Telefone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Telephone",
+      "https://pt.wikipedia.org/wiki/Telefone"
+    ],
+    "imagem": {
+      "arquivo": "q06735.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Telefon_BW_2012-02-18_13-44-32.JPG",
+      "autor": "Berthold Werner",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06736",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "contador_geiger",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de medição é este?",
+    "resposta": "Contador Geiger",
+    "distratores": [
+      "Eletroscópio",
+      "Espectrômetro de massa",
+      "Sismógrafo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geiger_counter",
+      "https://pt.wikipedia.org/wiki/Contador_Geiger"
+    ],
+    "imagem": {
+      "arquivo": "q06736.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Geiger_counter_2.jpg",
+      "autor": "TimVickers",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06737",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "lanterna_magica",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi inventado este aparelho?",
+    "resposta": "Século dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magic_lantern",
+      "https://pt.wikipedia.org/wiki/Lanterna_m%C3%A1gica"
+    ],
+    "imagem": {
+      "arquivo": "q06737.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Laterna_magica_Aulendorf.jpg",
+      "autor": "Photo: Andreas Praefcke",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q06738",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "pen_drive",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que dispositivo de armazenamento é este?",
+    "resposta": "Pen drive",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/USB_flash_drive",
+      "https://pt.wikipedia.org/wiki/USB_flash_drive"
+    ],
+    "imagem": {
+      "arquivo": "q06738.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kingston_Technology_USB_flash_drives._USB_3.0.jpg",
+      "autor": "Dmitry Makeev",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

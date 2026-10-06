@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lupa isolada, clara e sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento óptico é este?",
+      "resposta": "Lupa",
+      "ancora": {
+        "nome": "Lupa",
+        "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+        "variantes": [
+          "Lente de aumento",
+          "Vidro de aumento"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa na câmera traz escrito 'Le Daguerréotype', o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Zootrópio com cilindro de fendas e tiras de desenhos, reconhecível; múltipla com aparelhos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de animação do século dezenove é este?",
+      "resposta": "Zootrópio",
+      "distratores": [
+        "Praxinoscópio",
+        "Fenacistoscópio",
+        "Taumatrópio"
+      ],
+      "ancora": {
+        "nome": "Zootrópio",
+        "descricao": "Aparelho cilíndrico pré-cinema que cria ilusão de movimento com uma sequência de desenhos vista através de fendas.",
+        "variantes": [
+          "Zoetrope",
+          "Zootropo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Telefone antigo de disco, claro e sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Telefone",
+      "ancora": {
+        "nome": "Telefone",
+        "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+        "variantes": [
+          "Telefone de disco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Medidor de radiação com sonda de tipo panqueca, reconhecível; o texto visível (Model 3 Survey Meter) não entrega o nome.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de medição é este?",
+      "resposta": "Contador Geiger",
+      "distratores": [
+        "Eletroscópio",
+        "Espectrômetro de massa",
+        "Sismógrafo"
+      ],
+      "ancora": {
+        "nome": "Contador Geiger",
+        "descricao": "Instrumento eletrônico que detecta e mede radiação ionizante usando um tubo Geiger-Müller.",
+        "variantes": [
+          "Contador Geiger-Müller",
+          "Detector Geiger"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lanterna mágica antiga com lâmina de vidro, sem texto.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este aparelho foi desenvolvido principalmente em que século?",
+      "resposta": "Século dezessete",
+      "ancora": {
+        "nome": "Lanterna mágica",
+        "descricao": "Antigo projetor de imagens pintadas em placas de vidro, com lentes e fonte de luz.",
+        "variantes": [
+          "Lanterna magica",
+          "Lanterna mágica antiga"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pen drive isolado e claro; a marca visível não entrega o nome do dispositivo.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dispositivo de armazenamento é este?",
+      "resposta": "Pen drive",
+      "ancora": {
+        "nome": "Pen drive",
+        "descricao": "Dispositivo de armazenamento removível com memória flash e conector USB.",
+        "variantes": [
+          "Pendrive",
+          "Unidade flash USB",
+          "USB flash drive"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista frontal de tela apagada, muito parecida com o iPhone 3G e outros; resposta não única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem com legendas em alemão (Spiegel, Schirm, Laser etc.), montagem rotulada e não legível como figura limpa."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Várias coisas diferentes na imagem (vários celulares e placas PC card), com textos visíveis."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama com texto 'MIRROR' e rosto de pessoa desenhado; não é foto clara do objeto."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O logotipo 'commodore 64' está visível no gabinete e entrega a resposta."
+    }
+  ]
+}

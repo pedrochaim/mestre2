@@ -1,0 +1,49 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; 'instrumento óptico' só delimita a categoria e não entrega a resposta. Trechos confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Século dezenove é verdadeiro (fenacistoscópio de 1833, zootropo definitivo na década de 1860). A categoria não entrega a resposta, e os distratores são aparelhos parecidos, mas diferentes do que aparece na figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples de um telefone de disco. O enunciado não vaza a resposta e ela é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um instrumento de medição de radiação. Os distratores são instrumentos científicos críveis e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Desenvolvido principalmente' é impreciso: a lanterna mágica foi muito usada e aperfeiçoada nos séculos dezoito e dezenove. Os trechos sustentam 'inventada no século XVII', então a pergunta deve usar 'inventado'.",
+      "reescrita": {
+        "pergunta": "Em que século foi inventado este aparelho?",
+        "resposta": "Século dezessete"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'dispositivo de armazenamento' só indica a categoria. Resposta 'Pen drive' é única e confirmada pelos trechos.",
+      "reescrita": null
+    }
+  ]
+}
