@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto brasileiro projetou esta catedral?",
+        "resposta": "Oscar Niemeyer"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país ficam estas pirâmides?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q03200",
+          "pergunta": "Das três grandes pirâmides de Gizé, a maior foi construída para que faraó?",
+          "resposta": "Quéops"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta catedral?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q03471",
+          "pergunta": "Em que século foi construída esta catedral?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q03967",
+          "pergunta": "Que czar mandou erguer a Catedral de São Basílio, na Praça Vermelha, para celebrar a conquista da cidade de Kazan?",
+          "resposta": "Ivan, o Terrível"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o arquiteto da catedral é Oscar Niemeyer.",
+      "id_existente": "q04694"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País das pirâmides é um fato diferente do faraó para quem a maior foi construída."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A cidade da catedral é um fato distinto do século de construção e do czar que a mandou erguer."
+    }
+  ]
+}

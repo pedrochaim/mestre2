@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Catedral inconfundível, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto brasileiro projetou esta catedral?",
+      "resposta": "Oscar Niemeyer",
+      "destino": 1,
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, de colunas curvas de concreto, projetada por Oscar Niemeyer e inaugurada em 1970.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Skyline com a Golden Gate em primeiro plano, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade americana aparece ao fundo desta ponte?",
+      "resposta": "São Francisco",
+      "destino": 0,
+      "ancora": {
+        "nome": "São Francisco",
+        "descricao": "Cidade da Califórnia, nos Estados Unidos, ligada à ponte Golden Gate.",
+        "variantes": [
+          "San Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Silhueta distante ao pôr do sol; os minaretes não bastam para distinguir a mesquita de outras. Resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pirâmides de Gizé em vista clássica, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país ficam estas pirâmides?",
+      "resposta": "Egito",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pirâmides de Gizé",
+        "descricao": "Conjunto de pirâmides da Quarta Dinastia no planalto de Gizé, perto do Cairo, no Egito.",
+        "variantes": [
+          "Complexo piramidal de Gizé",
+          "Necrópole de Gizé"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Catedral inconfundível; placas na base são minúsculas e ilegíveis no celular.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta catedral?",
+      "resposta": "Moscou",
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Igreja ortodoxa russa de cúpulas coloridas na Praça Vermelha, em Moscou, construída no século dezesseis.",
+        "variantes": [
+          "Catedral de Vasily, o Bem-Aventurado",
+          "Catedral da Intercessão",
+          "Catedral de Pokrovsky"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome 'Theatro da Paz' está escrito no friso da fachada, e há uma pessoa em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista de Paris com Torre Eiffel e o Sena, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rio atravessa esta cidade?",
+      "resposta": "Rio Sena",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paris",
+        "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista de Cartagena com a baía e os arranha-céus de Bocagrande; sem texto; múltipla ajuda.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade litorânea do Caribe é esta?",
+      "resposta": "Cartagena",
+      "distratores": [
+        "Barranquilla",
+        "Santa Marta",
+        "Cancún"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cartagena",
+        "descricao": "Cidade portuária do litoral caribenho da Colômbia, também chamada Cartagena das Índias.",
+        "variantes": [
+          "Cartagena de Indias",
+          "Cartagena das Índias"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea da ponte de arcos sobre o Lago Paranoá, característica e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que presidente dá nome a esta ponte?",
+      "resposta": "Juscelino Kubitschek",
+      "destino": 1,
+      "ancora": {
+        "nome": "Ponte JK",
+        "descricao": "Ponte de três arcos de aço sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+        "variantes": [
+          "Ponte Juscelino Kubitschek"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do museu no Píer Mauá, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que museu é este?",
+      "resposta": "Museu do Amanhã",
+      "distratores": [
+        "Museu de Arte do Rio",
+        "Museu Oscar Niemeyer",
+        "MAC de Niterói"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu do Amanhã",
+        "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+        "variantes": [
+          "Museu do Amanha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Complexo inconfundível, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este complexo de três torres?",
+      "resposta": "Singapura",
+      "destino": 0,
+      "ancora": {
+        "nome": "Marina Bay Sands",
+        "descricao": "Complexo de resort com três torres unidas por um deque no topo, na baía da Marina, em Singapura.",
+        "variantes": [
+          "MBS"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista genérica de casario colonial mineiro, sem monumento distintivo; pode ser confundida com Mariana, Ouro Preto ou Tiradentes."
+    }
+  ]
+}

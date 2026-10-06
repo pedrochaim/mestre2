@@ -1,0 +1,572 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, de colunas curvas de concreto, projetada por Oscar Niemeyer e inaugurada em 1970.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "São Francisco",
+        "descricao": "Cidade da Califórnia, nos Estados Unidos, ligada à ponte Golden Gate.",
+        "variantes": [
+          "San Francisco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sao_francisco",
+          "nome": "Rio São Francisco",
+          "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+          "variantes": [
+            "Velho Chico",
+            "São Francisco River"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "francis_bacon",
+          "nome": "Francis Bacon",
+          "descricao": "Filósofo e estadista inglês (1561–1626), defensor do método científico empírico.",
+          "variantes": [
+            "Sir Francis Bacon"
+          ]
+        },
+        {
+          "id": "galo_gaules",
+          "nome": "Galo gaulês",
+          "descricao": "Galo usado como símbolo nacional da França.",
+          "variantes": [
+            "Coq gaulois",
+            "Galo francês"
+          ]
+        },
+        {
+          "id": "missao_artistica_francesa",
+          "nome": "Missão Artística Francesa",
+          "descricao": "Grupo de artistas franceses, entre eles Jean-Baptiste Debret e Nicolas-Antoine Taunay, que chegou ao Rio de Janeiro no reinado de Dom João.",
+          "variantes": [
+            "Missão Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pirâmides de Gizé",
+        "descricao": "Conjunto de pirâmides da Quarta Dinastia no planalto de Gizé, perto do Cairo, no Egito.",
+        "variantes": [
+          "Complexo piramidal de Gizé",
+          "Necrópole de Gizé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Igreja ortodoxa russa de cúpulas coloridas na Praça Vermelha, em Moscou, construída no século dezesseis.",
+        "variantes": [
+          "Catedral de Vasily, o Bem-Aventurado",
+          "Catedral da Intercessão",
+          "Catedral de Pokrovsky"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Paris",
+        "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "toyota_prius",
+          "nome": "Toyota Prius",
+          "descricao": "Automóvel híbrido da Toyota lançado no Japão em 1997.",
+          "variantes": [
+            "Prius"
+          ]
+        },
+        {
+          "id": "persepolis_2",
+          "nome": "Persépolis",
+          "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+          "variantes": [
+            "Takht-e Jamshid",
+            "Parseh"
+          ]
+        },
+        {
+          "id": "prisma",
+          "nome": "Prisma",
+          "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+          "variantes": [
+            "Prisma óptico",
+            "Prisma triangular"
+          ]
+        },
+        {
+          "id": "paraty",
+          "nome": "Paraty",
+          "descricao": "Município histórico do litoral sul do estado do Rio de Janeiro, visto da baía com a igreja de Santa Rita.",
+          "variantes": [
+            "Parati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cartagena",
+        "descricao": "Cidade portuária do litoral caribenho da Colômbia, também chamada Cartagena das Índias.",
+        "variantes": [
+          "Cartagena de Indias",
+          "Cartagena das Índias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartago",
+          "nome": "Cartago",
+          "descricao": "Antiga cidade fenícia do norte da África, rival de Roma nas Guerras Púnicas e destruída pelos romanos em 146 antes de Cristo.",
+          "variantes": [
+            "Carthago",
+            "Carthage"
+          ]
+        },
+        {
+          "id": "arena_das_dunas",
+          "nome": "Arena das Dunas",
+          "descricao": "Estádio de Natal, Rio Grande do Norte, sede de jogos da Copa do Mundo de 2014.",
+          "variantes": [
+            "Dunes Arena"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ponte JK",
+        "descricao": "Ponte de três arcos de aço sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+        "variantes": [
+          "Ponte Juscelino Kubitschek"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "juscelino_kubitschek",
+          "nome": "Juscelino Kubitschek",
+          "descricao": "Político brasileiro, 21º presidente do Brasil (1956 a 1961), conhecido pela construção de Brasília.",
+          "variantes": [
+            "JK",
+            "Juscelino Kubitschek de Oliveira"
+          ]
+        },
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Museu do Amanhã",
+        "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        },
+        {
+          "id": "cidade_proibida",
+          "nome": "Cidade Proibida",
+          "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+          "variantes": [
+            "Palácio Imperial de Pequim",
+            "Forbidden City",
+            "Museu do Palácio"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "sao_luis",
+          "nome": "São Luís",
+          "descricao": "Capital do estado do Maranhão, situada na ilha de Upaon-Açu e fundada em 1612.",
+          "variantes": [
+            "São Luís do Maranhão"
+          ]
+        },
+        {
+          "id": "mansa_musa",
+          "nome": "Mansa Musa",
+          "descricao": "Governante do Império do Mali no século quatorze, famoso pela riqueza em ouro e pela peregrinação a Meca.",
+          "variantes": [
+            "Musa I do Mali",
+            "Kanku Musa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Marina Bay Sands",
+        "descricao": "Complexo de resort com três torres unidas por um deque no topo, na baía da Marina, em Singapura.",
+        "variantes": [
+          "MBS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bts",
+          "nome": "BTS",
+          "descricao": "Grupo sul-coreano de K-pop formado em Seul em 2013",
+          "variantes": [
+            "Bangtan Boys",
+            "Bangtan Sonyeondan"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        },
+        {
+          "id": "curiosity",
+          "nome": "Curiosity",
+          "descricao": "Rover da NASA da missão Mars Science Laboratory, lançado em 2011 e pousado em Marte em 2012.",
+          "variantes": [
+            "Mars Science Laboratory",
+            "MSL"
+          ]
+        },
+        {
+          "id": "trio_msn",
+          "nome": "Trio MSN",
+          "descricao": "Trio de ataque do Barcelona formado por Messi, Suárez e Neymar entre 2014 e 2017.",
+          "variantes": [
+            "MSN"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_brasilia",
+      "motivo": "Mesma catedral de Brasília, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de San Francisco; nenhuma candidata é a cidade (o rio é outra entidade)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "piramides_de_gize",
+      "motivo": "Mesmo conjunto de pirâmides no planalto de Gizé."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_sao_basilio",
+      "motivo": "Mesma catedral na Praça Vermelha, mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Paris, capital da França, não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cartagena da Colômbia é diferente de Cartago e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ponte JK é uma ponte, diferente da pessoa Juscelino Kubitschek."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Museu do Amanhã não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Marina Bay Sands não corresponde a nenhuma candidata."
+    }
+  ]
+}
