@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Violoncelo bem visível, de frente e de lado, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Violoncelo",
+      "ancora": {
+        "nome": "Violoncelo",
+        "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+        "variantes": [
+          "Cello"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trombone de vara claramente reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Trombone",
+      "ancora": {
+        "nome": "Trombone",
+        "descricao": "Instrumento de metal que muda a nota com uma vara deslizante.",
+        "variantes": [
+          "Trombone de vara"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Atabaque em primeiro plano; pessoas e letreiro ao fundo não entregam a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tambor alto, usado em rodas de capoeira e em religiões afro-brasileiras, é este?",
+      "resposta": "Atabaque",
+      "ancora": {
+        "nome": "Atabaque",
+        "descricao": "Tambor alto e cônico afro-brasileiro, de madeira, afinado por cordas e cunhas.",
+        "variantes": [
+          "Atabaque de corda"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Agogô nítido sobre fundo liso, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Agogô",
+      "distratores": [
+        "Triângulo",
+        "Cencerro",
+        "Ganzá"
+      ],
+      "ancora": {
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão formado por duas campânulas de metal cônicas, de sons diferentes, unidas por uma haste.",
+        "variantes": [
+          "Agogo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O console e o controle trazem 'Dreamcast' e 'SEGA' escritos, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Roda de roleta com bolinha, só números, sem texto que entregue a resposta.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogo de cassino usa esta roda?",
+      "resposta": "Roleta",
+      "ancora": {
+        "nome": "Roleta",
+        "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+        "variantes": [
+          "Roleta de cassino"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O console e o controle trazem 'Genesis' e 'SEGA' escritos, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Balalaica triangular de três cordas, inconfundível e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de cordas, de corpo triangular, é este?",
+      "resposta": "Balalaica",
+      "ancora": {
+        "nome": "Balalaica",
+        "descricao": "Instrumento de cordas russo, de corpo triangular e três cordas.",
+        "variantes": [
+          "Balalaika"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Peça de cavalo de xadrez, nítida e inconfundível, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de xadrez é esta?",
+      "resposta": "Cavalo",
+      "distratores": [
+        "Bispo",
+        "Torre",
+        "Dama"
+      ],
+      "ancora": {
+        "nome": "Cavalo (xadrez)",
+        "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+        "variantes": [
+          "Cavalo",
+          "Knight"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre de xadrez nítida, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça de xadrez é esta?",
+      "resposta": "Torre",
+      "ancora": {
+        "nome": "Torre (xadrez)",
+        "descricao": "Peça de xadrez em forma de torre com ameias, que se move em linha reta na horizontal e na vertical.",
+        "variantes": [
+          "Torre",
+          "Castelo",
+          "Rook"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Trompa dupla reconhecível, fundo branco, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de metal é este?",
+      "resposta": "Trompa",
+      "distratores": [
+        "Trombone",
+        "Tuba",
+        "Eufônio"
+      ],
+      "ancora": {
+        "nome": "Trompa",
+        "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+        "variantes": [
+          "Trompa francesa",
+          "French horn"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O console e o controle trazem 'Super Nintendo' e 'Nintendo' escritos, o que entrega a resposta."
+    }
+  ]
+}

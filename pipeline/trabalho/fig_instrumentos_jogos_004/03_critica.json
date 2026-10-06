@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os usos em capoeira e religiões afro-brasileiras, somados a 'tambor alto', identificam o atabaque sem olhar a figura. Mantém só uma pista de grupo.",
+      "reescrita": {
+        "pergunta": "Que tambor afro-brasileiro é este?",
+        "resposta": "Atabaque",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; distratores do mesmo tipo (idiofones de percussão), curtos, e nenhum descreve a imagem de duas campânulas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Jogo de cassino que usa roda' leva à roleta sem ver a figura, e a figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Que jogo de azar é este?",
+        "resposta": "Roleta",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Corpo triangular' é a característica mais famosa da balalaica e entrega a resposta sem a figura.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas é este?",
+        "resposta": "Balalaica",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única; distratores são peças de xadrez críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; distratores são metais graves parecidos, com até uma palavra, e nenhum descreve a imagem da trompa.",
+      "reescrita": null
+    }
+  ]
+}

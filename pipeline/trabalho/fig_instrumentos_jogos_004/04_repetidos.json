@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tambor afro-brasileiro é este?",
+        "resposta": "Atabaque"
+      },
+      "existentes": [
+        {
+          "id": "q05180",
+          "pergunta": "Que instrumento de percussão brasileiro é este?",
+          "resposta": "Atabaque"
+        },
+        {
+          "id": "q05255",
+          "pergunta": "No candomblé, os três atabaques se chamam rum, rumpi e lé. Qual deles é o maior e de som mais grave?",
+          "resposta": "Rum"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de percussão é este?",
+        "resposta": "Agogô"
+      },
+      "existentes": [
+        {
+          "id": "q02638",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Agogô"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que peça de xadrez é esta?",
+        "resposta": "Torre"
+      },
+      "existentes": [
+        {
+          "id": "q06425",
+          "pergunta": "A torre do xadrez descende da peça persa chamada rukh. Que veículo essa peça representava originalmente?",
+          "resposta": "Carro de guerra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05180",
+      "motivo": "Ambas pedem identificar o atabaque a partir da imagem; mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q02638",
+      "motivo": "Pergunta e resposta idênticas: identificar o agogô."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a peça (torre) na imagem; a existente pergunta qual veículo o rukh representava, fato diferente."
+    }
+  ]
+}

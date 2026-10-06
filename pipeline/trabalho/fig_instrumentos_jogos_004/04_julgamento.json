@@ -1,0 +1,560 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Violoncelo",
+        "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+        "variantes": [
+          "Cello"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celula",
+          "nome": "Célula",
+          "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+          "variantes": [
+            "Cell"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "sri_lanka",
+          "nome": "Sri Lanka",
+          "descricao": "País insular do sul da Ásia, antigo Ceilão, ao sul da Índia.",
+          "variantes": [
+            "Ceilão",
+            "República Socialista Democrática do Sri Lanka"
+          ]
+        },
+        {
+          "id": "coelho",
+          "nome": "Coelho",
+          "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+          "variantes": [
+            "Coelho-europeu",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "id": "celuloide",
+          "nome": "Celuloide",
+          "descricao": "Um dos primeiros plásticos, feito de nitrocelulose e cânfora no século dezenove, usado depois em filmes de cinema.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trombone",
+        "descricao": "Instrumento de metal que muda a nota com uma vara deslizante.",
+        "variantes": [
+          "Trombone de vara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "stromboli",
+          "nome": "Stromboli",
+          "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+          "variantes": [
+            "Ilha de Stromboli",
+            "Monte Stromboli",
+            "Vulcão Stromboli"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "stromboli_2",
+          "nome": "Stromboli",
+          "descricao": "Vulcão ativo numa ilha do mar Tirreno, ao norte da Sicília, na Itália, conhecido por erupções explosivas pequenas e frequentes.",
+          "variantes": [
+            "Vulcão Stromboli"
+          ]
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Atabaque",
+        "descricao": "Tambor alto e cônico afro-brasileiro, de madeira, afinado por cordas e cunhas.",
+        "variantes": [
+          "Atabaque de corda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atabaque",
+          "nome": "Atabaque",
+          "descricao": "Tambor alto e de madeira, de origem afro-brasileira, afinado por cordas e cunhas.",
+          "variantes": [
+            "Atabaque de corda"
+          ]
+        },
+        {
+          "id": "quarteto_de_cordas",
+          "nome": "Quarteto de cordas",
+          "descricao": "Formação de música de câmara com quatro instrumentos de cordas, consagrada por Haydn no período clássico.",
+          "variantes": [
+            "Quarteto de cordas clássico"
+          ]
+        },
+        {
+          "id": "samba_de_roda",
+          "nome": "Samba de roda",
+          "descricao": "Manifestação de música, dança e poesia afro-brasileira da Bahia, proclamada patrimônio da humanidade pela Unesco.",
+          "variantes": [
+            "Samba de roda do Recôncavo Baiano"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão formado por duas campânulas de metal cônicas, de sons diferentes, unidas por uma haste.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "agogo",
+          "nome": "Agogô",
+          "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+          "variantes": []
+        },
+        {
+          "id": "pomo_de_adao",
+          "nome": "Pomo de adão",
+          "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+          "variantes": [
+            "Gogó",
+            "Proeminência laríngea",
+            "Adam's apple"
+          ]
+        },
+        {
+          "id": "googol",
+          "nome": "Googol",
+          "descricao": "Nome do número formado pelo algarismo um seguido de cem zeros.",
+          "variantes": [
+            "Gugol"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Roleta",
+        "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+        "variantes": [
+          "Roleta de cassino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rowlet",
+          "nome": "Rowlet",
+          "descricao": "Pokémon dos tipos Planta e Voador, número 722 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "alessandro_volta",
+          "nome": "Alessandro Volta",
+          "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica).",
+          "variantes": [
+            "Volta"
+          ]
+        },
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        },
+        {
+          "id": "carta_de_pero_vaz_de_caminha",
+          "nome": "Carta de Pero Vaz de Caminha",
+          "descricao": "Carta enviada ao rei Dom Manuel I em 1500, relatando a chegada da frota de Cabral ao Brasil.",
+          "variantes": [
+            "Carta do Achamento do Brasil",
+            "Carta de Caminha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Balalaica",
+        "descricao": "Instrumento de cordas russo, de corpo triangular e três cordas.",
+        "variantes": [
+          "Balalaika"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balaclava",
+          "nome": "Balaclava",
+          "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+          "variantes": [
+            "Balaclava (gorro)",
+            "Touca ninja"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        },
+        {
+          "id": "blanka",
+          "nome": "Blanka",
+          "descricao": "Lutador de pele verde da série Street Fighter, da Capcom, que solta descargas elétricas.",
+          "variantes": [
+            "Jimmy"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "malaca",
+          "nome": "Malaca",
+          "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511.",
+          "variantes": [
+            "Malacca",
+            "Melaka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cavalo (xadrez)",
+        "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+        "variantes": [
+          "Cavalo",
+          "Knight"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Torre (xadrez)",
+        "descricao": "Peça de xadrez em forma de torre com ameias, que se move em linha reta na horizontal e na vertical.",
+        "variantes": [
+          "Torre",
+          "Castelo",
+          "Rook"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_xadrez",
+          "nome": "Torre (xadrez)",
+          "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa.",
+          "variantes": [
+            "Rook"
+          ]
+        },
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "castells",
+          "nome": "Castells",
+          "descricao": "Torres humanas tradicionais, formadas por várias camadas de pessoas em pé sobre os ombros umas das outras.",
+          "variantes": [
+            "Castell",
+            "Torres humanas"
+          ]
+        },
+        {
+          "id": "kasutera",
+          "nome": "Kasutera",
+          "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses.",
+          "variantes": [
+            "Castella"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Trompa",
+        "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+        "variantes": [
+          "Trompa francesa",
+          "French horn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roma_2",
+          "nome": "Roma",
+          "descricao": "Capital da Itália, às margens do rio Tibre.",
+          "variantes": [
+            "Rome"
+          ]
+        },
+        {
+          "id": "luta_greco_romana",
+          "nome": "Luta greco-romana",
+          "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
+          "variantes": [
+            "Greco-Roman wrestling",
+            "Luta francesa"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o violoncelo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o trombone; Teremim é outro instrumento."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "atabaque",
+      "motivo": "Mesmo tambor afro-brasileiro afinado por cordas e cunhas, mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "agogo",
+      "motivo": "Mesmo instrumento de dois sinos cônicos de alturas diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a roleta de cassino."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a balalaica."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Candidatas não incluem o cavalo do xadrez; a dama é outra peça."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "torre_xadrez",
+      "motivo": "Mesma peça de xadrez (torre/rook), movimento na horizontal e vertical."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a trompa."
+    }
+  ]
+}
