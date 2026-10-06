@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que guerra do século dezenove esta mulher ficou famosa por cuidar de soldados feridos?",
+      "resposta": "Guerra da Crimeia",
+      "destino": 5,
+      "ancora": {
+        "nome": "Florence Nightingale",
+        "descricao": "Enfermeira e estatística inglesa do século dezenove, fundadora da enfermagem moderna.",
+        "variantes": [
+          "A Dama da Lâmpada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de rosto pouco característico, sem elementos que permitam reconhecer Ulysses Guimarães com segurança; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico icônico, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século nasceu este médico?",
+      "resposta": "Século dezenove",
+      "destino": 5,
+      "ancora": {
+        "nome": "Sigmund Freud",
+        "descricao": "Neurologista austríaco, fundador da psicanálise.",
+        "variantes": [
+          "Freud"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de militar com insígnias; a assinatura do fotógrafo no canto é pequena e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro leva o nome deste marechal?",
+      "resposta": "Rondônia",
+      "destino": 8,
+      "ancora": {
+        "nome": "Marechal Rondon",
+        "descricao": "Militar e sertanista brasileiro, explorador do Mato Grosso e da Amazônia e defensor dos povos indígenas.",
+        "variantes": [
+          "Cândido Rondon",
+          "Cândido Mariano da Silva Rondon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pintura de retrato pouco conhecida; a figura não é reconhecível pela imagem e qualquer pista de enunciado entregaria ou deixaria a resposta duvidosa."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pintura com texto visível '14 BIS' e assinatura do pintor, que entregam a resposta, e com várias outras pessoas em cena."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, com óculos grossos e bigode característicos; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de limpeza este político usou como símbolo de campanha para prometer varrer a corrupção?",
+      "resposta": "Vassoura",
+      "destino": 8,
+      "ancora": {
+        "nome": "Jânio Quadros",
+        "descricao": "Político brasileiro, presidente do Brasil em 1961, que renunciou após poucos meses.",
+        "variantes": [
+          "Jânio da Silva Quadros"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de militar em uniforme, sem texto; distratores de líderes militares árabes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este líder militar do século vinte?",
+      "resposta": "Gamal Abdel Nasser",
+      "distratores": [
+        "Anwar Sadat",
+        "Muammar Gaddafi",
+        "Mohamed Naguib"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Gamal Abdel Nasser",
+        "descricao": "Oficial e estadista egípcio, segundo presidente do Egito, de 1954 a 1970.",
+        "variantes": [
+          "Nasser",
+          "Gamal Abdel Nasser Hussein"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública conhecida, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este líder foi derrubado do poder?",
+      "resposta": "2003",
+      "destino": 5,
+      "ancora": {
+        "nome": "Saddam Hussein",
+        "descricao": "Político iraquiano, presidente do Iraque de 1979 a 2003.",
+        "variantes": [
+          "Saddam"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato colorido nítido de general americano; insígnias 'U.S.' genéricas, sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que exército americano este general comandou na França e na Alemanha depois do Dia D?",
+      "resposta": "Terceiro Exército",
+      "destino": 7,
+      "ancora": {
+        "nome": "George S. Patton",
+        "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+        "variantes": [
+          "George Smith Patton Jr.",
+          "Patton"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico histórico claro, sem texto, com uniforme da época; distratores de generais americanos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este general americano da Primeira Guerra Mundial?",
+      "resposta": "John J. Pershing",
+      "distratores": [
+        "Douglas MacArthur",
+        "Leonard Wood",
+        "Peyton March"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "John J. Pershing",
+        "descricao": "General americano que comandou a Força Expedicionária Americana na Primeira Guerra Mundial.",
+        "variantes": [
+          "John Joseph Pershing",
+          "Black Jack Pershing"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura de retrato icônica (retrato Chandos), sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século nasceu este dramaturgo inglês?",
+      "resposta": "Século dezesseis",
+      "destino": 4,
+      "ancora": {
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo, poeta e ator inglês, autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare",
+          "O Bardo de Avon"
+        ]
+      }
+    }
+  ]
+}

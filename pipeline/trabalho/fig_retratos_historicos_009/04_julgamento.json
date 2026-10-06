@@ -1,0 +1,531 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Florence Nightingale",
+        "descricao": "Enfermeira e estatística inglesa do século dezenove, fundadora da enfermagem moderna.",
+        "variantes": [
+          "A Dama da Lâmpada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florence_nightingale",
+          "nome": "Florence Nightingale",
+          "descricao": "Inglesa fundadora da enfermagem moderna e pioneira da estatística, famosa na Guerra da Crimeia.",
+          "variantes": [
+            "A Dama da Lâmpada"
+          ]
+        },
+        {
+          "id": "a_dama_das_camelias",
+          "nome": "A Dama das Camélias",
+          "descricao": "Romance de Alexandre Dumas Filho, publicado em 1848, sobre a cortesã Marguerite Gautier.",
+          "variantes": [
+            "La Dame aux Camélias"
+          ]
+        },
+        {
+          "id": "retrato_de_adele_bloch_bauer_i",
+          "nome": "Retrato de Adele Bloch-Bauer I",
+          "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+          "variantes": [
+            "Portrait of Adele Bloch-Bauer I",
+            "A Dama Dourada"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        },
+        {
+          "id": "maquina_diferencial",
+          "nome": "Máquina diferencial",
+          "descricao": "Calculadora mecânica projetada por Charles Babbage no século dezenove para calcular tabelas de polinômios.",
+          "variantes": [
+            "Difference engine",
+            "Máquina diferencial número 2"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sigmund Freud",
+        "descricao": "Neurologista austríaco, fundador da psicanálise.",
+        "variantes": [
+          "Freud"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sigmund_freud",
+          "nome": "Sigmund Freud",
+          "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+          "variantes": [
+            "Freud"
+          ]
+        },
+        {
+          "id": "friends",
+          "nome": "Friends",
+          "descricao": "Sitcom americana sobre seis amigos que vivem em Nova York, exibida de 1994 a 2004.",
+          "variantes": []
+        },
+        {
+          "id": "frevo",
+          "nome": "Frevo",
+          "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+          "variantes": []
+        },
+        {
+          "id": "clorofluorcarboneto",
+          "nome": "Clorofluorcarboneto",
+          "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+          "variantes": [
+            "CFC",
+            "Freon"
+          ]
+        },
+        {
+          "id": "assalto_boxe",
+          "nome": "Assalto (boxe)",
+          "descricao": "Cada um dos períodos de luta em que se divide um combate de boxe, separados por intervalos.",
+          "variantes": [
+            "Round"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Marechal Rondon",
+        "descricao": "Militar e sertanista brasileiro, explorador do Mato Grosso e da Amazônia e defensor dos povos indígenas.",
+        "variantes": [
+          "Cândido Rondon",
+          "Cândido Mariano da Silva Rondon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferdinand_foch",
+          "nome": "Ferdinand Foch",
+          "descricao": "Marechal da França, comandante supremo aliado na Frente Ocidental em 1918.",
+          "variantes": [
+            "Marechal Foch"
+          ]
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "antonio_jose_de_sucre",
+          "nome": "Antonio José de Sucre",
+          "descricao": "General venezuelano das guerras de independência sul-americanas, vencedor de Ayacucho e presidente da Bolívia.",
+          "variantes": [
+            "Sucre",
+            "Marechal Sucre"
+          ]
+        },
+        {
+          "id": "floriano_peixoto",
+          "nome": "Floriano Peixoto",
+          "descricao": "Marechal que foi o segundo presidente do Brasil, entre 1891 e 1894.",
+          "variantes": [
+            "Marechal de Ferro"
+          ]
+        },
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jânio Quadros",
+        "descricao": "Político brasileiro, presidente do Brasil em 1961, que renunciou após poucos meses.",
+        "variantes": [
+          "Jânio da Silva Quadros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taxa_de_quadros",
+          "nome": "Taxa de quadros",
+          "descricao": "Número de imagens exibidas por segundo num filme ou vídeo.",
+          "variantes": [
+            "Frame rate",
+            "Quadros por segundo"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "bandeira_do_equador",
+          "nome": "Bandeira do Equador",
+          "descricao": "Bandeira nacional do Equador, tricolor horizontal amarela, azul e vermelha com o brasão no centro.",
+          "variantes": [
+            "Bandeira equatoriana"
+          ]
+        },
+        {
+          "id": "anderson_silva",
+          "nome": "Anderson Silva",
+          "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+          "variantes": [
+            "Anderson da Silva",
+            "Spider"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gamal Abdel Nasser",
+        "descricao": "Oficial e estadista egípcio, segundo presidente do Egito, de 1954 a 1970.",
+        "variantes": [
+          "Nasser",
+          "Gamal Abdel Nasser Hussein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "napster",
+          "nome": "Napster",
+          "descricao": "Serviço pioneiro de compartilhamento de músicas pela internet, lançado em 1999 por Shawn Fanning.",
+          "variantes": []
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser"
+          ]
+        },
+        {
+          "id": "pessach",
+          "nome": "Pessach",
+          "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+          "variantes": [
+            "Páscoa judaica",
+            "Passover",
+            "Pesach"
+          ]
+        },
+        {
+          "id": "lago_nasser",
+          "nome": "Lago Nasser",
+          "descricao": "Lago artificial no rio Nilo, entre o Egito e o Sudão, formado pela represa alta de Assuã.",
+          "variantes": [
+            "Lake Nasser",
+            "Lago Nasser-Núbia"
+          ]
+        },
+        {
+          "id": "nascar",
+          "nome": "NASCAR",
+          "descricao": "Principal entidade de corridas de stock car dos Estados Unidos, fundada em 1948.",
+          "variantes": [
+            "National Association for Stock Car Auto Racing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Saddam Hussein",
+        "descricao": "Político iraquiano, presidente do Iraque de 1979 a 2003.",
+        "variantes": [
+          "Saddam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        },
+        {
+          "id": "adidas",
+          "nome": "Adidas",
+          "descricao": "Empresa alemã de calçados e artigos esportivos fundada por Adolf Dassler em 1949.",
+          "variantes": [
+            "adidas AG"
+          ]
+        },
+        {
+          "id": "capitao_marvel_shazam",
+          "nome": "Capitão Marvel (Shazam)",
+          "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+          "variantes": [
+            "Shazam",
+            "Captain Marvel"
+          ]
+        },
+        {
+          "id": "sandman",
+          "nome": "Sandman",
+          "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+          "variantes": [
+            "The Sandman"
+          ]
+        },
+        {
+          "id": "saudade",
+          "nome": "Saudade",
+          "descricao": "Palavra portuguesa para o sentimento de falta de alguém ou de algo distante",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "George S. Patton",
+        "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+        "variantes": [
+          "George Smith Patton Jr.",
+          "Patton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "panetone",
+          "nome": "Panetone",
+          "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+          "variantes": [
+            "Panettone"
+          ]
+        },
+        {
+          "id": "george_paget_thomson",
+          "nome": "George Paget Thomson",
+          "descricao": "Físico britânico (1892–1975), filho de J. J. Thomson, Nobel de Física de 1937 pela difração de elétrons.",
+          "variantes": [
+            "G. P. Thomson"
+          ]
+        },
+        {
+          "id": "pitons",
+          "nome": "Pítons",
+          "descricao": "Família de grandes serpentes constritoras e não venenosas (Pythonidae) da África, Ásia e Oceania.",
+          "variantes": [
+            "Pythonidae",
+            "Píton",
+            "Python"
+          ]
+        },
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "John J. Pershing",
+        "descricao": "General americano que comandou a Força Expedicionária Americana na Primeira Guerra Mundial.",
+        "variantes": [
+          "John Joseph Pershing",
+          "Black Jack Pershing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "black_jack",
+          "nome": "Black Jack",
+          "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença.",
+          "variantes": [
+            "Black Jack (mangá)"
+          ]
+        },
+        {
+          "id": "blackjack",
+          "nome": "Blackjack",
+          "descricao": "Jogo de cartas de cassino, também chamado vinte e um, em que se tenta somar vinte e um pontos sem passar.",
+          "variantes": [
+            "Vinte e um",
+            "21"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo, poeta e ator inglês, autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare",
+          "O Bardo de Avon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        },
+        {
+          "id": "teatro_globe",
+          "nome": "Teatro Globe",
+          "descricao": "Teatro elisabetano de Londres, construído em 1599, onde a companhia de Shakespeare se apresentava.",
+          "variantes": [
+            "Globe Theatre",
+            "The Globe",
+            "Shakespeare's Globe"
+          ]
+        },
+        {
+          "id": "papado_de_avignon",
+          "nome": "Papado de Avignon",
+          "descricao": "Período em que os papas residiram em Avignon, no sul da França, em vez de Roma",
+          "variantes": [
+            "Papado de Avinhão",
+            "Cativeiro de Avignon"
+          ]
+        },
+        {
+          "id": "o_lavrador_de_cafe",
+          "nome": "O Lavrador de Café",
+          "descricao": "Quadro de Candido Portinari, de 1934, que mostra um trabalhador rural diante de um cafezal, no acervo do MASP.",
+          "variantes": [
+            "Lavrador de Café"
+          ]
+        },
+        {
+          "id": "xequere",
+          "nome": "Xequerê",
+          "descricao": "Instrumento de percussão feito de cabaça coberta por uma rede de contas ou búzios.",
+          "variantes": [
+            "Shekere",
+            "Axatse",
+            "Agbê"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "florence_nightingale",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "sigmund_freud",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Rondon."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jânio Quadros."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Lago Nasser é um lago, não a pessoa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Saddam Hussein."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Patton."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pershing."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "william_shakespeare",
+      "motivo": "Mesma pessoa."
+    }
+  ]
+}

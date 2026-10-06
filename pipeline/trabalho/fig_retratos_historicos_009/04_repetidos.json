@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esta mulher inglesa do século dezenove?",
+        "resposta": "Florence Nightingale"
+      },
+      "existentes": [
+        {
+          "id": "q06216",
+          "pergunta": "Em que hospital de Londres funciona um museu dedicado a esta inglesa?",
+          "resposta": "Hospital St Thomas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século nasceu este médico?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q01036",
+          "pergunta": "Que método de tratamento, baseado na conversa com o paciente, foi fundado por este médico austríaco?",
+          "resposta": "Psicanálise"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século nasceu este dramaturgo inglês?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q03627",
+          "pergunta": "Qual destas peças foi escrita pelo autor retratado nesta figura?",
+          "resposta": "Macbeth"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a pessoa é diferente de saber o hospital do museu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Século de nascimento é fato diferente do método de tratamento fundado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século de nascimento difere de qual peça ele escreveu."
+    }
+  ]
+}
