@@ -1,0 +1,1563 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "O Senhor dos Anéis (trilogia de filmes)",
+        "descricao": "Trilogia de filmes de fantasia dirigida por Peter Jackson, lançada entre 2001 e 2003, baseada na obra de J. R. R. Tolkien.",
+        "variantes": [
+          "The Lord of the Rings"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Para filmar a trilogia O Senhor dos Anéis, o diretor Peter Jackson transformou em Terra-média as paisagens de qual país?",
+      "resposta": "Nova Zelândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"
+      ],
+      "ancora": "o_senhor_dos_aneis_trilogia_de_filmes"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Tatooine",
+        "descricao": "Planeta desértico fictício da franquia Star Wars, terra natal de Luke Skywalker.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tatooine"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No primeiro filme de Star Wars, as cenas do planeta desértico Tatooine foram gravadas em qual país do norte da África?",
+      "resposta": "Tunísia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tatooine"
+      ],
+      "ancora": "tatooine"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "a_novica_rebelde",
+        "nome": "A Noviça Rebelde",
+        "descricao": "Filme musical americano de 1965 sobre a família Von Trapp, na Áustria.",
+        "variantes": [
+          "The Sound of Music"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O musical A Noviça Rebelde, com Julie Andrews, se passa em qual cidade austríaca, terra natal de Mozart?",
+      "resposta": "Salzburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)"
+      ],
+      "ancora": "a_novica_rebelde"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "rocky_um_lutador",
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky_Steps"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na cena de treino mais famosa de Rocky, o lutador sobe correndo a escadaria de qual museu americano?",
+      "resposta": "Museu de Arte da Filadélfia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_Steps"
+      ],
+      "ancora": "rocky_um_lutador"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Companhia Cinematográfica Vera Cruz",
+        "descricao": "Estúdio de cinema paulista fundado em 1949, produtor de O Cangaceiro.",
+        "variantes": [
+          "Vera Cruz"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Companhia_Cinematográfica_Vera_Cruz"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Companhia Cinematográfica Vera Cruz, fundada em 1949 para fazer um cinema brasileiro de padrão industrial, tinha seus estúdios em qual cidade paulista?",
+      "resposta": "São Bernardo do Campo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Companhia_Cinematográfica_Vera_Cruz"
+      ],
+      "distratores": [
+        "Campinas",
+        "Santos",
+        "Sorocaba"
+      ],
+      "ancora": "companhia_cinematografica_vera_cruz"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Bacurau",
+        "descricao": "Filme brasileiro de 2019 dirigido por Kleber Mendonça Filho e Juliano Dornelles, premiado em Cannes.",
+        "variantes": [
+          "Bacurau (filme)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bacurau_(filme)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O filme Bacurau, de 2019, foi rodado num pequeno povoado do sertão de qual estado nordestino?",
+      "resposta": "Rio Grande do Norte",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bacurau_(filme)"
+      ],
+      "distratores": [
+        "Pernambuco",
+        "Paraíba",
+        "Ceará"
+      ],
+      "ancora": "bacurau"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Indiana Jones e a Última Cruzada",
+        "descricao": "Filme de aventura de 1989 dirigido por Steven Spielberg, em que Indiana Jones e o pai buscam o Santo Graal.",
+        "variantes": [
+          "Indiana Jones and the Last Crusade"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Indiana Jones e a Última Cruzada, o templo do Santo Graal tem a fachada de um monumento de Petra, em qual país?",
+      "resposta": "Jordânia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade",
+        "https://en.wikipedia.org/wiki/Al-Khazneh"
+      ],
+      "ancora": "indiana_jones_e_a_ultima_cruzada"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Plataforma nove e três quartos",
+        "descricao": "Plataforma mágica de onde parte o Expresso de Hogwarts na saga Harry Potter.",
+        "variantes": [
+          "Plataforma 9¾",
+          "Platform 9¾"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/King's_Cross_railway_station"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nos filmes de Harry Potter, o Expresso de Hogwarts parte da plataforma nove e três quartos, escondida em qual estação de trem de Londres?",
+      "resposta": "King's Cross",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/London_King%27s_Cross_railway_station"
+      ],
+      "ancora": "plataforma_nove_e_tres_quartos"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Amácio Mazzaropi",
+        "descricao": "Ator, produtor e cineasta paulista, famoso pelos filmes de caipira entre as décadas de 1950 e 1980.",
+        "variantes": [
+          "Mazzaropi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Amácio_Mazzaropi"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O comediante Mazzaropi montou seu próprio estúdio de cinema numa fazenda de qual cidade do Vale do Paraíba?",
+      "resposta": "Taubaté",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Amácio_Mazzaropi"
+      ],
+      "distratores": [
+        "São José dos Campos",
+        "Guaratinguetá",
+        "Pindamonhangaba"
+      ],
+      "ancora": "amacio_mazzaropi"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Branca de Neve e os Sete Anões (filme)",
+        "descricao": "Primeiro longa-metragem de animação dos estúdios Disney, lançado em 1937.",
+        "variantes": [
+          "Snow White and the Seven Dwarfs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Branca de Neve e os Sete Anões, o primeiro longa-metragem de animação da Disney, estreou em que ano?",
+      "resposta": "1937",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+      ],
+      "ancora": "branca_de_neve_e_os_sete_anoes_filme"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Star Wars: Uma Nova Esperança",
+        "descricao": "Primeiro filme lançado da saga Star Wars, escrito e dirigido por George Lucas.",
+        "variantes": [
+          "Guerra nas Estrelas",
+          "Star Wars Episódio IV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O primeiro filme de Star Wars, que depois ganhou o subtítulo Uma Nova Esperança, chegou aos cinemas em que ano?",
+      "resposta": "1977",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+      ],
+      "ancora": "star_wars_uma_nova_esperanca"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "De Volta para o Futuro",
+        "descricao": "Filme de ficção científica de 1985 dirigido por Robert Zemeckis, com Marty McFly e o DeLorean.",
+        "variantes": [
+          "Back to the Future"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Back_to_the_Future"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em De Volta para o Futuro, Marty McFly sai de 1985 num DeLorean e vai parar em qual ano do passado?",
+      "resposta": "1955",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Back_to_the_Future"
+      ],
+      "ancora": "de_volta_para_o_futuro"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "O Grande Ditador",
+        "descricao": "Filme de Charlie Chaplin que satiriza Adolf Hitler e o nazismo.",
+        "variantes": [
+          "The Great Dictator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Great_Dictator"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Charlie Chaplin ridicularizou Hitler no filme O Grande Ditador, lançado em que ano?",
+      "resposta": "1940",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      ],
+      "ancora": "o_grande_ditador"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Atlântida Cinematográfica",
+        "descricao": "Estúdio de cinema carioca famoso pelas chanchadas com Oscarito e Grande Otelo.",
+        "variantes": [
+          "Atlântida"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Atlântida_Cinematográfica"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que década foi fundada no Rio de Janeiro a Atlântida Cinematográfica, o estúdio das chanchadas?",
+      "resposta": "Anos 1940",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Atlântida_Cinematográfica"
+      ],
+      "distratores": [
+        "Anos 1920",
+        "Anos 1930",
+        "Anos 1950"
+      ],
+      "ancora": "atlantida_cinematografica"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Forrest Gump",
+        "descricao": "Filme americano dirigido por Robert Zemeckis, com Tom Hanks como um homem simples que atravessa décadas da história dos Estados Unidos.",
+        "variantes": [
+          "Forrest Gump: O Contador de Histórias"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Forrest_Gump"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Forrest Gump, Pulp Fiction e O Rei Leão chegaram aos cinemas no mesmo ano. Qual?",
+      "resposta": "1994",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Forrest_Gump",
+        "https://en.wikipedia.org/wiki/Pulp_Fiction",
+        "https://en.wikipedia.org/wiki/The_Lion_King"
+      ],
+      "ancora": "forrest_gump"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "toy_story",
+        "nome": "Toy Story",
+        "descricao": "Primeiro longa de animação da Pixar, de 1995, sobre os brinquedos Woody e Buzz Lightyear.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toy_Story"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Toy Story, primeiro longa-metragem feito inteiramente em computação gráfica, estreou em que ano?",
+      "resposta": "1995",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toy_Story"
+      ],
+      "ancora": "toy_story"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Gladiador (filme de 2000)",
+        "descricao": "Filme épico de Ridley Scott, com Russell Crowe como o general romano Máximo.",
+        "variantes": [
+          "Gladiator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Gladiador, de Ridley Scott, começa no fim do reinado do imperador Marco Aurélio. Em que século depois de Cristo?",
+      "resposta": "Século dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+      ],
+      "distratores": [
+        "Século um",
+        "Século quatro",
+        "Século cinco"
+      ],
+      "ancora": "gladiador_filme_de_2000"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Alien, o Oitavo Passageiro",
+        "descricao": "Filme de terror e ficção científica de 1979 dirigido por Ridley Scott, sobre uma criatura que caça a tripulação de uma nave.",
+        "variantes": [
+          "Alien"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alien_(film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em Alien, o Oitavo Passageiro, de 1979, quem desenhou a assustadora criatura alienígena?",
+      "resposta": "H. R. Giger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alien_(film)",
+        "https://en.wikipedia.org/wiki/H._R._Giger"
+      ],
+      "distratores": [
+        "Ralph McQuarrie",
+        "Syd Mead",
+        "Rick Baker"
+      ],
+      "ancora": "alien_o_oitavo_passageiro"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Carlota Joaquina, Princesa do Brazil",
+        "descricao": "Comédia histórica brasileira de 1995 sobre a esposa de Dom João seis, marco da Retomada do cinema nacional.",
+        "variantes": [
+          "Carlota Joaquina"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carlota_Joaquina,_Princesa_do_Brazil"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que atriz brasileira dirigiu Carlota Joaquina, Princesa do Brazil, comédia de 1995 tida como marco da Retomada do cinema nacional?",
+      "resposta": "Carla Camurati",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carlota_Joaquina,_Princesa_do_Brazil"
+      ],
+      "ancora": "carlota_joaquina_princesa_do_brazil"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "O Bandido da Luz Vermelha",
+        "descricao": "Filme brasileiro de 1968, marco do cinema marginal, inspirado num criminoso real de São Paulo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Bandido_da_Luz_Vermelha"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu O Bandido da Luz Vermelha, filme de 1968 inspirado num criminoso real que assustou São Paulo?",
+      "resposta": "Rogério Sganzerla",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Bandido_da_Luz_Vermelha"
+      ],
+      "distratores": [
+        "Júlio Bressane",
+        "Glauber Rocha",
+        "Ruy Guerra"
+      ],
+      "ancora": "o_bandido_da_luz_vermelha"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "tubarao",
+        "nome": "Tubarão",
+        "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+        "variantes": [
+          "Jaws"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jaws_(film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "As duas notas graves que anunciam o ataque em Tubarão, de 1975, saíram da trilha de qual compositor?",
+      "resposta": "John Williams",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jaws_(film)",
+        "https://en.wikipedia.org/wiki/John_Williams"
+      ],
+      "ancora": "tubarao"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "O Poderoso Chefão (filme)",
+        "descricao": "Filme de máfia de 1972 dirigido por Francis Ford Coppola, sobre a família Corleone.",
+        "variantes": [
+          "The Godfather"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Godfather"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Poderoso Chefão, de Francis Ford Coppola, é a adaptação do romance de qual escritor ítalo-americano?",
+      "resposta": "Mario Puzo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Godfather"
+      ],
+      "ancora": "o_poderoso_chefao_filme"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Blade Runner",
+        "descricao": "Filme de ficção científica de 1982 dirigido por Ridley Scott, sobre caçadores de androides numa Los Angeles futurista.",
+        "variantes": [
+          "Blade Runner, o Caçador de Androides"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blade_Runner"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Blade Runner, com Harrison Ford caçando androides, foi baseado num romance de qual escritor americano de ficção científica?",
+      "resposta": "Philip K. Dick",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blade_Runner"
+      ],
+      "ancora": "blade_runner"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "O Iluminado (filme)",
+        "descricao": "Filme de terror de 1980 dirigido por Stanley Kubrick, com Jack Nicholson como zelador de um hotel isolado.",
+        "variantes": [
+          "The Shining"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Shining_(film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Iluminado, de Stanley Kubrick, com Jack Nicholson enlouquecendo num hotel isolado, adapta o livro de qual escritor de terror?",
+      "resposta": "Stephen King",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Shining_(film)"
+      ],
+      "ancora": "o_iluminado_filme"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Tropa de Elite (filme)",
+        "descricao": "Filme policial brasileiro de 2007 sobre o BOPE do Rio de Janeiro, com Wagner Moura como Capitão Nascimento.",
+        "variantes": [
+          "Tropa de Elite",
+          "Elite Squad"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tropa_de_Elite_(filme)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Capitão Nascimento chegou às telas em Tropa de Elite, de 2007, sob a direção de qual cineasta?",
+      "resposta": "José Padilha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tropa_de_Elite_(filme)",
+        "https://en.wikipedia.org/wiki/Elite_Squad"
+      ],
+      "ancora": "tropa_de_elite_filme"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Vidas Secas (filme)",
+        "descricao": "Filme brasileiro de 1963 do Cinema Novo, adaptado do romance de Graciliano Ramos sobre uma família de retirantes.",
+        "variantes": [
+          "Vidas Secas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vidas_Secas_(filme)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1963, que cineasta levou às telas Vidas Secas, o romance de Graciliano Ramos sobre uma família de retirantes?",
+      "resposta": "Nelson Pereira dos Santos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vidas_Secas_(filme)",
+        "https://en.wikipedia.org/wiki/Nelson_Pereira_dos_Santos"
+      ],
+      "ancora": "vidas_secas_filme"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "MacGuffin",
+        "descricao": "Recurso narrativo: objeto ou objetivo que move a trama, mas pouco importa em si mesmo.",
+        "variantes": [
+          "McGuffin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/MacGuffin"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que diretor popularizou o termo MacGuffin, o objeto que move a trama mas pouco importa em si?",
+      "resposta": "Alfred Hitchcock",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/MacGuffin"
+      ],
+      "ancora": "macguffin"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Blockbuster (cinema)",
+        "descricao": "Termo usado para filmes de grande orçamento e enorme sucesso de público.",
+        "variantes": [
+          "Arrasa-quarteirão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blockbuster_(entertainment)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O termo blockbuster, usado para os grandes sucessos do cinema, vem do apelido de quê na Segunda Guerra Mundial?",
+      "resposta": "Bombas que destruíam quarteirões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blockbuster_(entertainment)"
+      ],
+      "ancora": "blockbuster_cinema"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Luxo Jr.",
+        "descricao": "Luminária animada da Pixar, protagonista de um curta de 1986 e mascote do logotipo do estúdio.",
+        "variantes": [
+          "Luxo Junior"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luxo_Jr."
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "A luminária saltitante que aparece na abertura dos filmes da Pixar estrelou um curta de 1986. Como ela se chama?",
+      "resposta": "Luxo Jr.",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luxo_Jr."
+      ],
+      "ancora": "luxo_jr"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Paparazzi",
+        "descricao": "Termo para fotógrafos que perseguem celebridades, derivado de um personagem de cinema italiano.",
+        "variantes": [
+          "Paparazzo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paparazzi"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra paparazzi vem do sobrenome de um fotógrafo personagem de qual filme de Federico Fellini?",
+      "resposta": "A Doce Vida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paparazzi"
+      ],
+      "ancora": "paparazzi"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "WALL-E",
+        "descricao": "Robô protagonista do filme de animação da Pixar de 2008, deixado sozinho numa Terra abandonada.",
+        "variantes": [
+          "Wall-E"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/WALL-E"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do robozinho WALL-E, da Pixar, é uma sigla em inglês que indica sua função. Ele foi feito para recolher o quê?",
+      "resposta": "Lixo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/WALL-E"
+      ],
+      "ancora": "wall_e"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Simba",
+        "descricao": "Leão protagonista da animação O Rei Leão, da Disney, filho de Mufasa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Simba"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No idioma suaíli, falado no leste da África, o que significa Simba, nome do filhote protagonista de uma animação da Disney de 1994?",
+      "resposta": "Leão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Simba"
+      ],
+      "ancora": "simba"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Vito Corleone",
+        "descricao": "Patriarca mafioso da família Corleone em O Poderoso Chefão, vivido por Marlon Brando e Robert De Niro.",
+        "variantes": [
+          "Don Corleone",
+          "Vito Andolini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vito_Corleone"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na história de O Poderoso Chefão, de onde vem o sobrenome Corleone, adotado por Vito ao chegar aos Estados Unidos?",
+      "resposta": "Sua cidade natal, na Sicília",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vito_Corleone"
+      ],
+      "ancora": "vito_corleone"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Urso de Ouro",
+        "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+        "variantes": [
+          "Golden Bear",
+          "Goldener Bär"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golden_Bear"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que prêmio máximo de um festival europeu foi conquistado por Central do Brasil, em 1998, e por Tropa de Elite, em 2008?",
+      "resposta": "Urso de Ouro, do Festival de Berlim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golden_Bear",
+        "https://en.wikipedia.org/wiki/Central_Station_(film)",
+        "https://en.wikipedia.org/wiki/Elite_Squad"
+      ],
+      "ancora": "urso_de_ouro"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Joaquin Phoenix",
+        "descricao": "Ator americano vencedor do Oscar de melhor ator por Coringa, de 2019.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joaquin_Phoenix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Heath Ledger e Joaquin Phoenix ganharam, cada um, um Oscar interpretando o mesmo personagem. Qual?",
+      "resposta": "Coringa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joaquin_Phoenix",
+        "https://en.wikipedia.org/wiki/Heath_Ledger"
+      ],
+      "ancora": "joaquin_phoenix"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Gandalf",
+        "descricao": "Mago da obra de Tolkien, personagem central de O Senhor dos Anéis e O Hobbit.",
+        "variantes": [
+          "Gandalf, o Cinzento"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gandalf"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No cinema, o mago Gandalf e o mutante Magneto, inimigo dos X-Men, ganharam vida com o mesmo ator britânico. Quem?",
+      "resposta": "Ian McKellen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ian_McKellen"
+      ],
+      "ancora": "gandalf"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Gênio (Aladdin)",
+        "descricao": "Gênio da lâmpada da animação Aladdin, da Disney, de 1992.",
+        "variantes": [
+          "Genie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Genie_(Aladdin)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que comediante dublou o Gênio da lâmpada no Aladdin original de 1992 e se disfarçou de babá em Uma Babá Quase Perfeita?",
+      "resposta": "Robin Williams",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Genie_(Aladdin)",
+        "https://en.wikipedia.org/wiki/Robin_Williams"
+      ],
+      "ancora": "genio_aladdin"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Han Solo",
+        "descricao": "Contrabandista e piloto da nave Millennium Falcon na saga Star Wars.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Han_Solo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O piloto Han Solo, de Star Wars, e o arqueólogo Indiana Jones foram vividos por qual astro de Hollywood?",
+      "resposta": "Harrison Ford",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Han_Solo",
+        "https://en.wikipedia.org/wiki/Harrison_Ford"
+      ],
+      "ancora": "han_solo"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Festival de Cannes",
+        "descricao": "Festival internacional de cinema realizado anualmente em Cannes, na França, que entrega a Palma de Ouro.",
+        "variantes": [
+          "Cannes Film Festival"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cannes_Film_Festival"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A primeira edição do Festival de Cannes estava marcada para setembro de 1939, mas foi cancelada. Por quê?",
+      "resposta": "Começou a Segunda Guerra Mundial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cannes_Film_Festival"
+      ],
+      "ancora": "festival_de_cannes"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Tropa de Elite (filme)",
+        "descricao": "Filme policial brasileiro de 2007 sobre o BOPE do Rio de Janeiro, com Wagner Moura como Capitão Nascimento.",
+        "variantes": [
+          "Tropa de Elite",
+          "Elite Squad"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tropa_de_Elite_(filme)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Antes da estreia nos cinemas, em 2007, Tropa de Elite já tinha sido visto por muitos brasileiros. Por quê?",
+      "resposta": "Cópias piratas vazaram",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tropa_de_Elite_(filme)",
+        "https://en.wikipedia.org/wiki/Elite_Squad"
+      ],
+      "ancora": "tropa_de_elite_filme"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Charlie Chaplin",
+        "descricao": "Ator, diretor e compositor britânico, criador do vagabundo Carlitos no cinema mudo.",
+        "variantes": [
+          "Charles Chaplin",
+          "Carlitos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1952, os Estados Unidos barraram a volta de Charlie Chaplin, que viajara a Londres. Ele era suspeito de simpatizar com qual ideologia?",
+      "resposta": "Comunismo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Charlie_Chaplin"
+      ],
+      "ancora": "charlie_chaplin"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Fuga para a Vitória",
+        "descricao": "Filme de 1981 dirigido por John Huston, sobre prisioneiros aliados que enfrentam uma seleção nazista no futebol.",
+        "variantes": [
+          "Escape to Victory",
+          "Victory"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Escape_to_Victory"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que craque brasileiro atuou ao lado de Sylvester Stallone e Michael Caine no filme Fuga para a Vitória, de 1981?",
+      "resposta": "Pelé",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Escape_to_Victory"
+      ],
+      "ancora": "fuga_para_a_vitoria"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Branca de Neve e os Sete Anões (filme)",
+        "descricao": "Primeiro longa-metragem de animação dos estúdios Disney, lançado em 1937.",
+        "variantes": [
+          "Snow White and the Seven Dwarfs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na animação Branca de Neve e os Sete Anões, da Disney, qual dos anões é mudo?",
+      "resposta": "Dunga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seven_Dwarfs",
+        "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+      ],
+      "ancora": "branca_de_neve_e_os_sete_anoes_filme"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "oscar",
+        "nome": "Oscar",
+        "descricao": "Prêmio anual da Academia de Artes e Ciências Cinematográficas dos Estados Unidos.",
+        "variantes": [
+          "Academy Awards"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Academy_Awards"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A estatueta do Oscar mostra um cavaleiro sobre um rolo de filme. Quantos raios tem esse rolo, um para cada ramo original da Academia?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Academy_Awards"
+      ],
+      "ancora": "oscar"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Ben-Hur (filme de 1959)",
+        "descricao": "Épico americano dirigido por William Wyler, com Charlton Heston e a famosa corrida de bigas.",
+        "variantes": [
+          "Ben-Hur"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ben-Hur, o épico de 1959 com Charlton Heston e a famosa corrida de bigas, ganhou quantos Oscars?",
+      "resposta": "Onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)"
+      ],
+      "distratores": [
+        "Oito",
+        "Nove",
+        "Treze"
+      ],
+      "ancora": "ben_hur_filme_de_1959"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Pinóquio (filme de 1940)",
+        "descricao": "Segundo longa-metragem de animação da Disney, sobre o boneco de madeira cujo nariz cresce quando mente.",
+        "variantes": [
+          "Pinocchio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Cinema",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas animações clássicas da Disney estreou primeiro nos cinemas?",
+      "resposta": "Pinóquio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+        "https://en.wikipedia.org/wiki/Dumbo",
+        "https://en.wikipedia.org/wiki/Bambi",
+        "https://en.wikipedia.org/wiki/Cinderella_(1950_film)"
+      ],
+      "distratores": [
+        "Dumbo",
+        "Bambi",
+        "Cinderela"
+      ],
+      "ancora": "pinoquio_filme_de_1940"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "o_senhor_dos_aneis_trilogia_de_filmes",
+      "nome": "O Senhor dos Anéis (trilogia de filmes)",
+      "descricao": "Trilogia de filmes de fantasia dirigida por Peter Jackson, lançada entre 2001 e 2003, baseada na obra de J. R. R. Tolkien.",
+      "variantes": [
+        "The Lord of the Rings"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"
+      ]
+    },
+    {
+      "id": "tatooine",
+      "nome": "Tatooine",
+      "descricao": "Planeta desértico fictício da franquia Star Wars, terra natal de Luke Skywalker.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tatooine"
+      ]
+    },
+    {
+      "id": "companhia_cinematografica_vera_cruz",
+      "nome": "Companhia Cinematográfica Vera Cruz",
+      "descricao": "Estúdio de cinema paulista fundado em 1949, produtor de O Cangaceiro.",
+      "variantes": [
+        "Vera Cruz"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Companhia_Cinematográfica_Vera_Cruz"
+      ]
+    },
+    {
+      "id": "bacurau",
+      "nome": "Bacurau",
+      "descricao": "Filme brasileiro de 2019 dirigido por Kleber Mendonça Filho e Juliano Dornelles, premiado em Cannes.",
+      "variantes": [
+        "Bacurau (filme)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Bacurau_(filme)"
+      ]
+    },
+    {
+      "id": "indiana_jones_e_a_ultima_cruzada",
+      "nome": "Indiana Jones e a Última Cruzada",
+      "descricao": "Filme de aventura de 1989 dirigido por Steven Spielberg, em que Indiana Jones e o pai buscam o Santo Graal.",
+      "variantes": [
+        "Indiana Jones and the Last Crusade"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade"
+      ]
+    },
+    {
+      "id": "plataforma_nove_e_tres_quartos",
+      "nome": "Plataforma nove e três quartos",
+      "descricao": "Plataforma mágica de onde parte o Expresso de Hogwarts na saga Harry Potter.",
+      "variantes": [
+        "Plataforma 9¾",
+        "Platform 9¾"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/King's_Cross_railway_station"
+      ]
+    },
+    {
+      "id": "amacio_mazzaropi",
+      "nome": "Amácio Mazzaropi",
+      "descricao": "Ator, produtor e cineasta paulista, famoso pelos filmes de caipira entre as décadas de 1950 e 1980.",
+      "variantes": [
+        "Mazzaropi"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Amácio_Mazzaropi"
+      ]
+    },
+    {
+      "id": "branca_de_neve_e_os_sete_anoes_filme",
+      "nome": "Branca de Neve e os Sete Anões (filme)",
+      "descricao": "Primeiro longa-metragem de animação dos estúdios Disney, lançado em 1937.",
+      "variantes": [
+        "Snow White and the Seven Dwarfs"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+      ]
+    },
+    {
+      "id": "star_wars_uma_nova_esperanca",
+      "nome": "Star Wars: Uma Nova Esperança",
+      "descricao": "Primeiro filme lançado da saga Star Wars, escrito e dirigido por George Lucas.",
+      "variantes": [
+        "Guerra nas Estrelas",
+        "Star Wars Episódio IV"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+      ]
+    },
+    {
+      "id": "de_volta_para_o_futuro",
+      "nome": "De Volta para o Futuro",
+      "descricao": "Filme de ficção científica de 1985 dirigido por Robert Zemeckis, com Marty McFly e o DeLorean.",
+      "variantes": [
+        "Back to the Future"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Back_to_the_Future"
+      ]
+    },
+    {
+      "id": "atlantida_cinematografica",
+      "nome": "Atlântida Cinematográfica",
+      "descricao": "Estúdio de cinema carioca famoso pelas chanchadas com Oscarito e Grande Otelo.",
+      "variantes": [
+        "Atlântida"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Atlântida_Cinematográfica"
+      ]
+    },
+    {
+      "id": "forrest_gump",
+      "nome": "Forrest Gump",
+      "descricao": "Filme americano dirigido por Robert Zemeckis, com Tom Hanks como um homem simples que atravessa décadas da história dos Estados Unidos.",
+      "variantes": [
+        "Forrest Gump: O Contador de Histórias"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Forrest_Gump"
+      ]
+    },
+    {
+      "id": "gladiador_filme_de_2000",
+      "nome": "Gladiador (filme de 2000)",
+      "descricao": "Filme épico de Ridley Scott, com Russell Crowe como o general romano Máximo.",
+      "variantes": [
+        "Gladiator"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+      ]
+    },
+    {
+      "id": "alien_o_oitavo_passageiro",
+      "nome": "Alien, o Oitavo Passageiro",
+      "descricao": "Filme de terror e ficção científica de 1979 dirigido por Ridley Scott, sobre uma criatura que caça a tripulação de uma nave.",
+      "variantes": [
+        "Alien"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Alien_(film)"
+      ]
+    },
+    {
+      "id": "carlota_joaquina_princesa_do_brazil",
+      "nome": "Carlota Joaquina, Princesa do Brazil",
+      "descricao": "Comédia histórica brasileira de 1995 sobre a esposa de Dom João seis, marco da Retomada do cinema nacional.",
+      "variantes": [
+        "Carlota Joaquina"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Carlota_Joaquina,_Princesa_do_Brazil"
+      ]
+    },
+    {
+      "id": "o_bandido_da_luz_vermelha",
+      "nome": "O Bandido da Luz Vermelha",
+      "descricao": "Filme brasileiro de 1968, marco do cinema marginal, inspirado num criminoso real de São Paulo.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/O_Bandido_da_Luz_Vermelha"
+      ]
+    },
+    {
+      "id": "o_poderoso_chefao_filme",
+      "nome": "O Poderoso Chefão (filme)",
+      "descricao": "Filme de máfia de 1972 dirigido por Francis Ford Coppola, sobre a família Corleone.",
+      "variantes": [
+        "The Godfather"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Godfather"
+      ]
+    },
+    {
+      "id": "blade_runner",
+      "nome": "Blade Runner",
+      "descricao": "Filme de ficção científica de 1982 dirigido por Ridley Scott, sobre caçadores de androides numa Los Angeles futurista.",
+      "variantes": [
+        "Blade Runner, o Caçador de Androides"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Blade_Runner"
+      ]
+    },
+    {
+      "id": "o_iluminado_filme",
+      "nome": "O Iluminado (filme)",
+      "descricao": "Filme de terror de 1980 dirigido por Stanley Kubrick, com Jack Nicholson como zelador de um hotel isolado.",
+      "variantes": [
+        "The Shining"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Shining_(film)"
+      ]
+    },
+    {
+      "id": "tropa_de_elite_filme",
+      "nome": "Tropa de Elite (filme)",
+      "descricao": "Filme policial brasileiro de 2007 sobre o BOPE do Rio de Janeiro, com Wagner Moura como Capitão Nascimento.",
+      "variantes": [
+        "Tropa de Elite",
+        "Elite Squad"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Tropa_de_Elite_(filme)"
+      ]
+    },
+    {
+      "id": "vidas_secas_filme",
+      "nome": "Vidas Secas (filme)",
+      "descricao": "Filme brasileiro de 1963 do Cinema Novo, adaptado do romance de Graciliano Ramos sobre uma família de retirantes.",
+      "variantes": [
+        "Vidas Secas"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Vidas_Secas_(filme)"
+      ]
+    },
+    {
+      "id": "macguffin",
+      "nome": "MacGuffin",
+      "descricao": "Recurso narrativo: objeto ou objetivo que move a trama, mas pouco importa em si mesmo.",
+      "variantes": [
+        "McGuffin"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/MacGuffin"
+      ]
+    },
+    {
+      "id": "blockbuster_cinema",
+      "nome": "Blockbuster (cinema)",
+      "descricao": "Termo usado para filmes de grande orçamento e enorme sucesso de público.",
+      "variantes": [
+        "Arrasa-quarteirão"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Blockbuster_(entertainment)"
+      ]
+    },
+    {
+      "id": "luxo_jr",
+      "nome": "Luxo Jr.",
+      "descricao": "Luminária animada da Pixar, protagonista de um curta de 1986 e mascote do logotipo do estúdio.",
+      "variantes": [
+        "Luxo Junior"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Luxo_Jr."
+      ]
+    },
+    {
+      "id": "paparazzi",
+      "nome": "Paparazzi",
+      "descricao": "Termo para fotógrafos que perseguem celebridades, derivado de um personagem de cinema italiano.",
+      "variantes": [
+        "Paparazzo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Paparazzi"
+      ]
+    },
+    {
+      "id": "wall_e",
+      "nome": "WALL-E",
+      "descricao": "Robô protagonista do filme de animação da Pixar de 2008, deixado sozinho numa Terra abandonada.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/WALL-E"
+      ]
+    },
+    {
+      "id": "simba",
+      "nome": "Simba",
+      "descricao": "Leão protagonista da animação O Rei Leão, da Disney, filho de Mufasa.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Simba"
+      ]
+    },
+    {
+      "id": "vito_corleone",
+      "nome": "Vito Corleone",
+      "descricao": "Patriarca mafioso da família Corleone em O Poderoso Chefão, vivido por Marlon Brando e Robert De Niro.",
+      "variantes": [
+        "Don Corleone",
+        "Vito Andolini"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Vito_Corleone"
+      ]
+    },
+    {
+      "id": "urso_de_ouro",
+      "nome": "Urso de Ouro",
+      "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+      "variantes": [
+        "Golden Bear",
+        "Goldener Bär"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Golden_Bear"
+      ]
+    },
+    {
+      "id": "joaquin_phoenix",
+      "nome": "Joaquin Phoenix",
+      "descricao": "Ator americano vencedor do Oscar de melhor ator por Coringa, de 2019.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Joaquin_Phoenix"
+      ]
+    },
+    {
+      "id": "gandalf",
+      "nome": "Gandalf",
+      "descricao": "Mago da obra de Tolkien, personagem central de O Senhor dos Anéis e O Hobbit.",
+      "variantes": [
+        "Gandalf, o Cinzento"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gandalf"
+      ]
+    },
+    {
+      "id": "genio_aladdin",
+      "nome": "Gênio (Aladdin)",
+      "descricao": "Gênio da lâmpada da animação Aladdin, da Disney, de 1992.",
+      "variantes": [
+        "Genie"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Genie_(Aladdin)"
+      ]
+    },
+    {
+      "id": "han_solo",
+      "nome": "Han Solo",
+      "descricao": "Contrabandista e piloto da nave Millennium Falcon na saga Star Wars.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Han_Solo"
+      ]
+    },
+    {
+      "id": "festival_de_cannes",
+      "nome": "Festival de Cannes",
+      "descricao": "Festival internacional de cinema realizado anualmente em Cannes, na França, que entrega a Palma de Ouro.",
+      "variantes": [
+        "Cannes Film Festival"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cannes_Film_Festival"
+      ]
+    },
+    {
+      "id": "charlie_chaplin",
+      "nome": "Charlie Chaplin",
+      "descricao": "Ator, diretor e compositor britânico, criador do vagabundo Carlitos no cinema mudo.",
+      "variantes": [
+        "Charles Chaplin",
+        "Carlitos"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+      ]
+    },
+    {
+      "id": "fuga_para_a_vitoria",
+      "nome": "Fuga para a Vitória",
+      "descricao": "Filme de 1981 dirigido por John Huston, sobre prisioneiros aliados que enfrentam uma seleção nazista no futebol.",
+      "variantes": [
+        "Escape to Victory",
+        "Victory"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Escape_to_Victory"
+      ]
+    },
+    {
+      "id": "ben_hur_filme_de_1959",
+      "nome": "Ben-Hur (filme de 1959)",
+      "descricao": "Épico americano dirigido por William Wyler, com Charlton Heston e a famosa corrida de bigas.",
+      "variantes": [
+        "Ben-Hur"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)"
+      ]
+    },
+    {
+      "id": "pinoquio_filme_de_1940",
+      "nome": "Pinóquio (filme de 1940)",
+      "descricao": "Segundo longa-metragem de animação da Disney, sobre o boneco de madeira cujo nariz cresce quando mente.",
+      "variantes": [
+        "Pinocchio"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)"
+      ]
+    }
+  ],
+  "variantes": {
+    "a_novica_rebelde": [
+      "A Noviça Rebelde",
+      "The Sound of Music"
+    ],
+    "rocky_um_lutador": [
+      "Rocky, um Lutador",
+      "Rocky"
+    ],
+    "toy_story": [
+      "Toy Story"
+    ],
+    "tubarao": [
+      "Tubarão",
+      "Jaws"
+    ],
+    "oscar": [
+      "Oscar",
+      "Academy Awards"
+    ],
+    "o_grande_ditador": [
+      "O Grande Ditador",
+      "The Great Dictator"
+    ],
+    "ze_carioca": [
+      "Zé Carioca",
+      "José Carioca"
+    ]
+  }
+}

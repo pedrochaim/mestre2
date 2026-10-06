@@ -1,0 +1,399 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, atemporal e bem formulado; a Nova Zelândia é sustentada pelo artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que as cenas de Tatooine foram filmadas na Tunísia.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme se passa em Salzburgo, e a pista de Mozart não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A escadaria do Museu de Arte da Filadélfia é a cena de treino de Rocky, confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Vera Cruz foi fundada em 1949 em São Bernardo do Campo, e os distratores são paulistas e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está certo, mas a fonte em inglês é inexistente e foi removida.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O filme Bacurau, de 2019, foi rodado num pequeno povoado do sertão de qual estado nordestino?",
+        "resposta": "Rio Grande do Norte",
+        "distratores": [
+          "Pernambuco",
+          "Paraíba",
+          "Ceará"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bacurau_(filme)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a fachada do Tesouro, em Petra, na Jordânia, é a do templo do Graal.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é fraco e a resposta se deduz do próprio nome, que é a junção de Nigéria com Hollywood.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte caiu numa página de desambiguação e foi trocada pela da estação de Londres.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Nos filmes de Harry Potter, o Expresso de Hogwarts parte da plataforma nove e três quartos, escondida em qual estação de trem de Londres?",
+        "resposta": "King's Cross",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/London_King%27s_Cross_railway_station"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mazzaropi montou seus estúdios numa fazenda em Taubaté, confirmado no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia correto e sustentado: 1937.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Star Wars é de 1977, e o enunciado é preciso ao dizer que o subtítulo veio depois.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marty volta a 1955, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Grande Ditador é de 1940 e satiriza Hitler, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta é trivial, dado que o filme é de 1933, e o 'pela primeira vez' é estranho e desnecessário.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Atlântida foi fundada em 1941, ou seja, nos anos 1940, e os distratores são de décadas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco e quase óbvio, e 'romance' soa ambíguo, como se fosse o livro.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três filmes são de 1994, como confirmam os trechos, e a pergunta é interessante e sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toy Story estreou em 1995 e é o primeiro longa totalmente em computação gráfica, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marco Aurélio morreu em 180 d.C., no século dois, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giger criou o design do alienígena, e os distratores são designers de cinema críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carla Camurati dirigiu o filme de 1995, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sganzerla dirigiu o filme de 1968, e os distratores são cineastas brasileiros plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O tema de duas notas é de John Williams, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme adapta o romance de Mario Puzo, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme adapta o romance de Philip K. Dick, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é baseado no romance de Stephen King, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "José Padilha dirigiu Tropa de Elite, com o Capitão Nascimento de Wagner Moura, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nelson Pereira dos Santos dirigiu Vidas Secas em 1963, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hitchcock popularizou o termo MacGuffin, e o enunciado diz 'popularizou', não 'criou', o que é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem do termo, em bombas que destruíam quarteirões, está no artigo em português; é uma boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar o nome de um personagem a partir de uma descrição é identidade, não nome (origem ou significado).",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "A luminária saltitante que aparece na abertura dos filmes da Pixar estrelou um curta de 1986. Como ela se chama?",
+        "resposta": "Luxo Jr.",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Luxo_Jr."
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fotógrafo Paparazzo é um personagem de A Doce Vida, de Fellini, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "WALL-E significa Waste Allocation Load Lifter Earth-class, e o robô foi feito para recolher lixo.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Simba significa 'leão' em suaíli, confirmado no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A resposta está longa demais; encurtada, mantendo o fato de que o sobrenome vem da cidade natal.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Na história de O Poderoso Chefão, de onde vem o sobrenome Corleone, adotado por Vito ao chegar aos Estados Unidos?",
+        "resposta": "Sua cidade natal, na Sicília",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Vito_Corleone"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Central do Brasil (1998) e Tropa de Elite (2008) ganharam o Urso de Ouro, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ledger e Phoenix ganharam Oscars pelo Coringa, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ian McKellen interpretou Gandalf e Magneto, como confirma o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Robin Williams dublou o Gênio, e os trechos o associam a uma babá; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Harrison Ford viveu Han Solo e Indiana Jones, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O artigo em português confirma que a guerra, em setembro de 1939, pôs fim à primeira edição planejada.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme vazou para o mercado pirata meses antes da estreia, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zé Carioca nasceu como parte da Política da Boa Vizinhança, em Saludos Amigos (1942), segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Qual era a acusação' é ambíguo, pois houve também alegações morais; foi reformulada em torno da suspeita de simpatia política.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1952, os Estados Unidos barraram a volta de Charlie Chaplin, que viajara a Londres. Ele era suspeito de simpatizar com qual ideologia?",
+        "resposta": "Comunismo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Charlie_Chaplin"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelé está no elenco de Fuga para a Vitória, ao lado de Stallone e Caine, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dunga é o único anão sem fala na versão da Disney, segundo o artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O rolo da estatueta tem cinco raios, um para cada ramo original da Academia, como mostra o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ben-Hur ganhou onze Oscars, confirmado no artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pinóquio (1940) antecede Dumbo (1941), Bambi (1942) e Cinderela (1950), como mostram os trechos.",
+      "reescrita": null
+    }
+  ]
+}

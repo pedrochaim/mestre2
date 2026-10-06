@@ -1,0 +1,145 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O musical A Noviça Rebelde, com Julie Andrews, se passa em qual cidade austríaca, terra natal de Mozart?",
+        "resposta": "Salzburgo"
+      },
+      "existentes": [
+        {
+          "id": "q01072",
+          "pergunta": "Que atriz estrelou Mary Poppins e A Noviça Rebelde, dois musicais lançados com apenas um ano de diferença?",
+          "resposta": "Julie Andrews"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na cena de treino mais famosa de Rocky, o lutador sobe correndo a escadaria de qual museu americano?",
+        "resposta": "Museu de Arte da Filadélfia"
+      },
+      "existentes": [
+        {
+          "id": "q01927",
+          "pergunta": "Que ator interpreta o boxeador desta imagem?",
+          "resposta": "Sylvester Stallone"
+        },
+        {
+          "id": "q01962",
+          "pergunta": "Sylvester Stallone escreveu o roteiro de Rocky em poucos dias, logo depois de assistir a que luta de 1975 pelo título dos pesos-pesados?",
+          "resposta": "Muhammad Ali contra Chuck Wepner"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Charlie Chaplin ridicularizou Hitler no filme O Grande Ditador, lançado em que ano?",
+        "resposta": "1940"
+      },
+      "existentes": [
+        {
+          "id": "q05788",
+          "pergunta": "Que cineasta escreveu, dirigiu e estrelou O Grande Ditador, a sátira de Hitler lançada em 1940?",
+          "resposta": "Charles Chaplin"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Toy Story, primeiro longa-metragem feito inteiramente em computação gráfica, estreou em que ano?",
+        "resposta": "1995"
+      },
+      "existentes": [
+        {
+          "id": "q04054",
+          "pergunta": "De que filme é esta cena?",
+          "resposta": "Toy Story"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "As duas notas graves que anunciam o ataque em Tubarão, de 1975, saíram da trilha de qual compositor?",
+        "resposta": "John Williams"
+      },
+      "existentes": [
+        {
+          "id": "q01055",
+          "pergunta": "No filme Tubarão, de 1975, por que Spielberg acabou mostrando tão pouco o animal na tela?",
+          "resposta": "O tubarão mecânico vivia quebrando"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O papagaio Zé Carioca nasceu num filme da Disney de 1942, feito para apoiar qual política americana de aproximação com a América Latina?",
+        "resposta": "Política da Boa Vizinhança"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A estatueta do Oscar mostra um cavaleiro sobre um rolo de filme. Quantos raios tem esse rolo, um para cada ramo original da Academia?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q01081",
+          "pergunta": "Num hotel de Hollywood, a primeira cerimônia de entrega do Oscar foi realizada em que ano?",
+          "resposta": "1929"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade de ambientação é fato diferente da atriz."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Escadaria do museu é fato distinto do ator e da inspiração do roteiro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento já aparece no enunciado da existente, mas a resposta pedida (ano) difere da pergunta sobre o cineasta; quem acerta uma não responde a outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ano de estreia difere da identificação do filme por imagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Compositor da trilha é outro fato que o tubarão mecânico."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q00131",
+      "motivo": "Mesma pergunta e mesma resposta: Política da Boa Vizinhança."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Raios do rolo de filme é outro fato que o ano da primeira cerimônia."
+    }
+  ]
+}
