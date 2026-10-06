@@ -1,0 +1,417 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes, resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Negociação secreta na Noruega é bem documentada; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Waterloo fica na atual Bélgica, como dizem os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trótski foi assassinado no México por Mercader, como dizem as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dezoito dos vinte e sete anos na Ilha Robben é fato bem conhecido; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foi enviado preso à França e morreu no Fort de Joux em 1803.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cúpula em Reykjavík confirmada; distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A sede também esteve em Londres antes de Paris; 'antes de se mudar' fica ambíguo e pede o recorte 'até 1967'.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Até 1967, quando se mudou para Bruxelas, a sede da aliança militar OTAN ficava em que cidade?",
+        "resposta": "Paris",
+        "distratores": [
+          "Washington",
+          "Genebra",
+          "Haia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/NATO_headquarters",
+          "https://en.wikipedia.org/wiki/NATO"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta quase repete a âncora e é ambígua (quadra de tênis ou jogo da péla); pergunta fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Proclamação na Galeria dos Espelhos confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Publicado em Londres em 1848, escrito em alemão, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Batista caiu em 1º de janeiro de 1959, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o quadro é confundido com 1789 e retrata a Revolução de Julho de 1830.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guerra de 1954 a 1962 e independência em 1962; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primavera de Praga em 1968, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franco governou de 1939 a 1975; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guerra das Malvinas em 1982 sob a ditadura argentina.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guerra dos Seis Dias em 1967; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Charlotte Corday matou Marat na banheira em 1793.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comodoro Matthew Perry comandou a expedição; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Khomeini voltou do exílio na França em 1979 para liderar a revolução.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Wałęsa, eletricista do estaleiro de Gdańsk, liderou o Solidariedade.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Havel, dramaturgo dissidente, foi eleito presidente em 29/12/1989.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que a armação de ferro foi projetada por Eiffel.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lesseps promoveu o canal de Suez, mas não o construiu pessoalmente; 'construir' é impreciso.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Depois de promover a construção do Canal de Suez, que diplomata francês fracassou ao tentar abrir um canal no Panamá?",
+        "resposta": "Ferdinand de Lesseps",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ferdinand_de_Lesseps",
+          "https://en.wikipedia.org/wiki/Ferdinand_de_Lesseps"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta boa, mas a primeira fonte é inexistente e precisa ser trocada.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Em 1945, num ensaio sobre a bomba atômica, que escritor britânico usou a expressão guerra fria?",
+        "resposta": "George Orwell",
+        "distratores": [
+          "Aldous Huxley",
+          "H. G. Wells",
+          "Bertrand Russell"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cold_War",
+          "https://pt.wikipedia.org/wiki/Guerra_Fria"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kennedy, discurso de 1963 em Berlim Ocidental, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "San Martín liderou a travessia dos Andes em 1817.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "9 Termidor deu nome à reação que derrubou Robespierre.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem dos voluntários de Marselha; enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Segundo a fonte, o imperador só se instalou na cidade em 1869; em 1868 ela apenas foi renomeada.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em 1868, com a Restauração Meiji, a cidade de Edo, futura sede do imperador, ganhou qual novo nome?",
+        "resposta": "Tóquio",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tokyo",
+          "https://en.wikipedia.org/wiki/Meiji_Restoration"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os membros foram chamados de Boxers por praticarem artes marciais chinesas.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte dá 'reconstrução' ou 'reestruturação' como significado literal; a resposta deve aceitar ambos.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Nos anos oitenta, Gorbachev lançou na União Soviética a perestroika. O que significa essa palavra russa?",
+        "resposta": "Reestruturação (ou reconstrução)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Perestroika",
+          "https://en.wikipedia.org/wiki/Perestroika"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tet é o Ano-Novo lunar vietnamita; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O nome vem da faixa laranja nos barris, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O X simboliza o sobrenome africano ancestral perdido; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apartheid significa separação em africâner.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é só a letra C do alfabeto fonético e quase repete 'Checkpoint C'; fraco demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Rússia usava o calendário juliano, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Exposição de 1889 celebrou o centenário da Revolução Francesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "USS Maine, Havana, 1898; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motim causado por borsch de carne podre com larvas.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A coalizão respondeu à invasão do Kuwait.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelo Tratado de Nanquim a China cedeu Hong Kong; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português afirma que não há parentesco; pergunta curiosa e de resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Maximiliano e Pedro II eram primos-irmãos, netos de Francisco II.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos ocorreram em 11 de setembro; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fronteira atual segue a linha do armistício, e só a divisão original seguiu o paralelo 38; 'acompanha' é impreciso.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "Em 1945, a divisão da Coreia entre as zonas soviética e americana seguiu qual paralelo?",
+        "resposta": "Paralelo 38 norte",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/38th_parallel_north"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze meses de trinta dias, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rede secreta de rotas e esconderijos para fuga de escravizados.",
+      "reescrita": null
+    }
+  ]
+}

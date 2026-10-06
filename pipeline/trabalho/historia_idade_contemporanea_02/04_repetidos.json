@@ -1,0 +1,192 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Expulso da União Soviética por Stálin, Leon Trótski foi assassinado em 1940 por um agente soviético em que país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q06227",
+          "pergunta": "Que revolucionário russo é este?",
+          "resposta": "Leon Trótski"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Líder da revolta de escravizados no Haiti, Toussaint Louverture foi capturado pelas tropas de Napoleão e morreu preso em 1803 em que país?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q04850",
+          "pergunta": "Que revolução foi liderada por este general?",
+          "resposta": "Revolução Haitiana"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Escrito em alemão por Marx e Engels, o Manifesto Comunista foi publicado pela primeira vez em 1848 em que cidade?",
+        "resposta": "Londres"
+      },
+      "existentes": [
+        {
+          "id": "q03766",
+          "pergunta": "O Manifesto Comunista, de Marx e Engels, foi publicado em que ano, marcado por revoluções em vários países da Europa?",
+          "resposta": "1848"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O quadro A Liberdade Guiando o Povo, de Delacroix, costuma ser associado a 1789, mas retrata qual revolução francesa?",
+        "resposta": "Revolução de Julho de 1830"
+      },
+      "existentes": [
+        {
+          "id": "q00411",
+          "pergunta": "Que revolução este quadro celebra?",
+          "resposta": "Revolução de Julho, de 1830"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Depois de uma guerra de quase oito anos, a Argélia conquistou a independência da França em que ano?",
+        "resposta": "1962"
+      },
+      "existentes": [
+        {
+          "id": "q04946",
+          "pergunta": "Depois de cerca de oito anos de guerra, em que ano a Argélia conquistou a independência da França?",
+          "resposta": "1962"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Além do escultor Bartholdi, que engenheiro francês projetou a estrutura interna de ferro da Estátua da Liberdade?",
+        "resposta": "Gustave Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Depois de promover a construção do Canal de Suez, que diplomata francês fracassou ao tentar abrir um canal no Panamá?",
+        "resposta": "Ferdinand de Lesseps"
+      },
+      "existentes": [
+        {
+          "id": "q02222",
+          "pergunta": "Em que século foi inaugurado o canal de Suez, que liga o Mediterrâneo ao mar Vermelho?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05602",
+          "pergunta": "Que diplomata francês liderou a construção do canal que, em 1869, ligou o Mediterrâneo ao Mar Vermelho, no Egito?",
+          "resposta": "Ferdinand de Lesseps"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Composto em Estrasburgo em 1792, o hino nacional francês ganhou seu nome por ter sido cantado por voluntários vindos de que cidade?",
+        "resposta": "Marselha"
+      },
+      "existentes": [
+        {
+          "id": "q02361",
+          "pergunta": "Composto em Estrasburgo, o hino francês acabou batizado com o nome de outra cidade. Por quê?",
+          "resposta": "Foi cantado por voluntários de Marselha"
+        },
+        {
+          "id": "q04961",
+          "pergunta": "Em 1792, que capitão do exército francês compôs a letra e a música da Marselhesa?",
+          "resposta": "Rouget de Lisle"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1868, com a Restauração Meiji, a cidade de Edo, futura sede do imperador, ganhou qual novo nome?",
+        "resposta": "Tóquio"
+      },
+      "existentes": [
+        {
+          "id": "q04857",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Tóquio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pergunta a identidade; a nova, o país do assassinato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente trata do nome da revolução; a nova, do país onde Louverture morreu."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano da publicação versus cidade da publicação."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual revolução o quadro retrata, com a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: ano da independência da Argélia."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "A q02018 já dá a Eiffel como engenheiro da estrutura; saber a resposta de uma permite responder a outra."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "A q05602 já tem Lesseps como resposta ao diplomata francês do canal de Suez; o fato é a identidade de Lesseps."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "A q02361 pergunta por que o hino se chama Marselhesa, com resposta sobre voluntários de Marselha."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Existente pede identificar a cidade em uma imagem; a nova pergunta o novo nome de Edo, outro fato."
+    }
+  ]
+}

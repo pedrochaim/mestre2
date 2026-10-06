@@ -123054,5 +123054,625 @@
       "autor": "Alissa Eckert, MS; Dan Higgins, MAM",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q07212",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "conferencia_de_bandung",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1955, líderes de vinte e nove países da Ásia e da África se reuniram numa conferência que inspirou o Movimento dos Não Alinhados. Em que país?",
+    "resposta": "Indonésia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bandung_Conference",
+      "https://pt.wikipedia.org/wiki/Confer%C3%AAncia_de_Bandung"
+    ]
+  },
+  {
+    "id": "q07213",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "acordos_de_oslo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os acordos de paz de 1993 entre Israel e os palestinos, selados com um aperto de mão na Casa Branca, foram negociados em segredo em que país?",
+    "resposta": "Noruega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oslo_Accords",
+      "https://pt.wikipedia.org/wiki/Acordos_de_Oslo"
+    ]
+  },
+  {
+    "id": "q07214",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "batalha_de_waterloo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A batalha de Waterloo, em 1815, que marcou a derrota final de Napoleão, foi travada em qual atual país?",
+    "resposta": "Bélgica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Batalha_de_Waterloo",
+      "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    ]
+  },
+  {
+    "id": "q07215",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "leon_trotski",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Expulso da União Soviética por Stálin, Leon Trótski foi assassinado em 1940 por um agente soviético em que país?",
+    "resposta": "México",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Leon_Tr%C3%B3tski",
+      "https://en.wikipedia.org/wiki/Leon_Trotsky"
+    ]
+  },
+  {
+    "id": "q07216",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "toussaint_louverture",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Líder da revolta de escravizados no Haiti, Toussaint Louverture foi capturado pelas tropas de Napoleão e morreu preso em 1803 em que país?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toussaint_Louverture",
+      "https://pt.wikipedia.org/wiki/Toussaint_Louverture"
+    ]
+  },
+  {
+    "id": "q07217",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "cupula_de_reykjavik",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1986, Ronald Reagan e Mikhail Gorbachev se reuniram para discutir armas nucleares na capital de qual país?",
+    "resposta": "Islândia",
+    "distratores": [
+      "Suíça",
+      "Finlândia",
+      "Áustria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit"
+    ]
+  },
+  {
+    "id": "q07218",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "sede_da_otan",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Até 1967, quando se mudou para Bruxelas, a sede da aliança militar OTAN ficava em que cidade?",
+    "resposta": "Paris",
+    "distratores": [
+      "Washington",
+      "Genebra",
+      "Haia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/NATO_headquarters",
+      "https://en.wikipedia.org/wiki/NATO"
+    ]
+  },
+  {
+    "id": "q07219",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "proclamacao_do_imperio_alemao",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1871, depois de vencer a França, o rei da Prússia foi proclamado imperador da Alemanha em qual salão do Palácio de Versalhes?",
+    "resposta": "Galeria dos Espelhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire",
+      "https://en.wikipedia.org/wiki/Hall_of_Mirrors"
+    ]
+  },
+  {
+    "id": "q07220",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "manifesto_comunista",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Escrito em alemão por Marx e Engels, o Manifesto Comunista foi publicado pela primeira vez em 1848 em que cidade?",
+    "resposta": "Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Communist_Manifesto",
+      "https://pt.wikipedia.org/wiki/Manifesto_Comunista"
+    ]
+  },
+  {
+    "id": "q07221",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "revolucao_cubana",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Revolução Cubana triunfou com a fuga do ditador Fulgencio Batista. Em que dia e mês de 1959 isso aconteceu?",
+    "resposta": "1º de janeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cubana",
+      "https://en.wikipedia.org/wiki/Cuban_Revolution"
+    ]
+  },
+  {
+    "id": "q07222",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "primavera_de_praga",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Primavera de Praga, período de reformas na Tchecoslováquia esmagado pelos tanques do Pacto de Varsóvia, aconteceu em que ano?",
+    "resposta": "1968",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Primavera_de_Praga"
+    ]
+  },
+  {
+    "id": "q07223",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "francisco_franco",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O general Francisco Franco governou a Espanha desde o fim da guerra civil até a sua morte. Em que ano ele morreu?",
+    "resposta": "1975",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Francisco_Franco",
+      "https://en.wikipedia.org/wiki/Francisco_Franco"
+    ]
+  },
+  {
+    "id": "q07224",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "guerra_das_malvinas",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A ditadura militar argentina invadiu as Ilhas Malvinas e provocou uma guerra com o Reino Unido. Em que ano isso aconteceu?",
+    "resposta": "1982",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guerra_das_Malvinas"
+    ]
+  },
+  {
+    "id": "q07225",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "guerra_dos_seis_dias",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano Israel enfrentou Egito, Síria e Jordânia na chamada Guerra dos Seis Dias?",
+    "resposta": "1967",
+    "distratores": [
+      "1948",
+      "1956",
+      "1973"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guerra_dos_Seis_Dias"
+    ]
+  },
+  {
+    "id": "q07226",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "assassinato_de_jean_paul_marat",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1793, o jornalista revolucionário Jean-Paul Marat foi esfaqueado dentro da banheira por qual jovem mulher?",
+    "resposta": "Charlotte Corday",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Charlotte_Corday",
+      "https://en.wikipedia.org/wiki/Jean-Paul_Marat"
+    ]
+  },
+  {
+    "id": "q07227",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "expedicao_de_perry",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1853, que comodoro americano chegou à baía de Edo com seus navios negros e pressionou o Japão a abrir os portos?",
+    "resposta": "Matthew Perry",
+    "distratores": [
+      "George Dewey",
+      "David Farragut",
+      "John Paul Jones"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Perry_Expedition",
+      "https://en.wikipedia.org/wiki/Matthew_C._Perry"
+    ]
+  },
+  {
+    "id": "q07228",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "revolucao_iraniana",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1979, que líder religioso voltou do exílio na França para comandar a Revolução Iraniana?",
+    "resposta": "Aiatolá Khomeini",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ruhollah_Khomeini",
+      "https://en.wikipedia.org/wiki/Iranian_Revolution"
+    ]
+  },
+  {
+    "id": "q07229",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "solidariedade",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1980, que eletricista dos estaleiros de Gdansk liderou a criação do sindicato polonês Solidariedade?",
+    "resposta": "Lech Walesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solidarity_(Polish_trade_union)",
+      "https://en.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa"
+    ]
+  },
+  {
+    "id": "q07230",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "revolucao_de_veludo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1989, após a Revolução de Veludo, que dramaturgo dissidente foi eleito presidente da Tchecoslováquia?",
+    "resposta": "Václav Havel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Velvet_Revolution",
+      "https://pt.wikipedia.org/wiki/V%C3%A1clav_Havel"
+    ]
+  },
+  {
+    "id": "q07231",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "guerra_fria",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1945, num ensaio sobre a bomba atômica, que escritor britânico usou a expressão guerra fria?",
+    "resposta": "George Orwell",
+    "distratores": [
+      "Aldous Huxley",
+      "H. G. Wells",
+      "Bertrand Russell"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cold_War",
+      "https://pt.wikipedia.org/wiki/Guerra_Fria"
+    ]
+  },
+  {
+    "id": "q07232",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "ich_bin_ein_berliner",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1963, numa visita a Berlim Ocidental, que presidente americano declarou em alemão que era um berlinense?",
+    "resposta": "John F. Kennedy",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner"
+    ]
+  },
+  {
+    "id": "q07233",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "travessia_dos_andes",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1817, que general argentino atravessou a Cordilheira dos Andes com seu exército para libertar o Chile dos espanhóis?",
+    "resposta": "José de San Martín",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crossing_of_the_Andes",
+      "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn"
+    ]
+  },
+  {
+    "id": "q07234",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "reacao_termidoriana",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A derrubada de Robespierre, em 1794, ficou conhecida pelo nome de qual mês do calendário revolucionário francês?",
+    "resposta": "Termidor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thermidorian_Reaction"
+    ]
+  },
+  {
+    "id": "q07235",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "toquio",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1868, com a Restauração Meiji, a cidade de Edo, futura sede do imperador, ganhou qual novo nome?",
+    "resposta": "Tóquio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tokyo",
+      "https://en.wikipedia.org/wiki/Meiji_Restoration"
+    ]
+  },
+  {
+    "id": "q07236",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "rebeliao_dos_boxers",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A revolta chinesa de 1900 contra os estrangeiros recebeu no Ocidente o nome de qual esporte, por causa das artes marciais praticadas por seus membros?",
+    "resposta": "Boxe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxer_Rebellion",
+      "https://www.britannica.com/event/Boxer-Rebellion"
+    ]
+  },
+  {
+    "id": "q07237",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "perestroika",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nos anos oitenta, Gorbachev lançou na União Soviética a perestroika. O que significa essa palavra russa?",
+    "resposta": "Reestruturação (ou reconstrução)",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Perestroika",
+      "https://en.wikipedia.org/wiki/Perestroika"
+    ]
+  },
+  {
+    "id": "q07238",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "ofensiva_do_tet",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A grande ofensiva norte-vietnamita de 1968 recebeu o nome da festa vietnamita em que foi lançada. Que festa é essa?",
+    "resposta": "Ano-Novo lunar",
+    "distratores": [
+      "Festival da Lua",
+      "Dia da Independência",
+      "Aniversário de Buda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tet_Offensive",
+      "https://pt.wikipedia.org/wiki/Ofensiva_do_Tet"
+    ]
+  },
+  {
+    "id": "q07239",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "agente_laranja",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Agente Laranja, herbicida jogado pelos Estados Unidos sobre as florestas do Vietnã, ganhou esse nome por causa de quê?",
+    "resposta": "Faixa laranja nos barris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agent_Orange"
+    ]
+  },
+  {
+    "id": "q07240",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "malcolm_x",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que o ativista americano Malcolm Little trocou o seu sobrenome pela letra X?",
+    "resposta": "Representar o sobrenome africano perdido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Malcolm_X",
+      "https://pt.wikipedia.org/wiki/Malcolm_X"
+    ]
+  },
+  {
+    "id": "q07241",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "apartheid",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua africâner, o que significa a palavra apartheid, nome do regime racista que vigorou na África do Sul?",
+    "resposta": "Separação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apartheid",
+      "https://pt.wikipedia.org/wiki/Apartheid"
+    ]
+  },
+  {
+    "id": "q07242",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "revolucao_de_outubro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Revolução de Outubro, de 1917, aconteceu em novembro pelo calendário ocidental. Que calendário a Rússia usava na época?",
+    "resposta": "Calendário juliano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/October_Revolution",
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Outubro"
+    ]
+  },
+  {
+    "id": "q07243",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "exposicao_universal_de_1889",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Torre Eiffel foi erguida para a Exposição Universal de 1889, em Paris, que celebrava o centenário de qual acontecimento?",
+    "resposta": "Revolução Francesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Exposition_Universelle_(1889)"
+    ]
+  },
+  {
+    "id": "q07244",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "guerra_hispano_americana",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1898, a explosão de qual navio americano no porto de Havana ajudou a provocar a guerra entre Estados Unidos e Espanha?",
+    "resposta": "USS Maine",
+    "distratores": [
+      "USS Arizona",
+      "USS Constitution",
+      "USS Monitor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/USS_Maine_(1889)",
+      "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War"
+    ]
+  },
+  {
+    "id": "q07245",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "motim_do_encouracado_potemkin",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1905, o motim dos marinheiros do encouraçado russo Potemkin começou por causa de qual problema na comida?",
+    "resposta": "Carne podre com larvas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Russian_battleship_Potemkin"
+    ]
+  },
+  {
+    "id": "q07246",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "guerra_do_golfo",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Guerra do Golfo, de 1991, foi a resposta de uma coalizão liderada pelos Estados Unidos à invasão de qual país pelo Iraque?",
+    "resposta": "Kuwait",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guerra_do_Golfo",
+      "https://en.wikipedia.org/wiki/Gulf_War"
+    ]
+  },
+  {
+    "id": "q07247",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "primeira_guerra_do_opio",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Ao perder a Primeira Guerra do Ópio, em 1842, a China teve de ceder aos britânicos qual ilha?",
+    "resposta": "Hong Kong",
+    "distratores": [
+      "Macau",
+      "Taiwan",
+      "Singapura"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/First_Opium_War",
+      "https://pt.wikipedia.org/wiki/Primeira_Guerra_do_%C3%93pio"
+    ]
+  },
+  {
+    "id": "q07248",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "indira_gandhi",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que parentesco havia entre a primeira-ministra indiana Indira Gandhi e Mahatma Gandhi?",
+    "resposta": "Nenhum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indira_Gandhi"
+    ]
+  },
+  {
+    "id": "q07249",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "maximiliano_i_do_mexico",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que parentesco ligava Maximiliano, imperador do México fuzilado em 1867, ao imperador brasileiro Dom Pedro Segundo?",
+    "resposta": "Primos-irmãos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maximilian_I_of_Mexico",
+      "https://pt.wikipedia.org/wiki/Maria_Leopoldina_de_%C3%81ustria"
+    ]
+  },
+  {
+    "id": "q07250",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "golpe_de_estado_no_chile_em_1973",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o golpe militar que derrubou Salvador Allende, no Chile, e os atentados às Torres Gêmeas de Nova York têm em comum?",
+    "resposta": "A data, 11 de setembro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat",
+      "https://en.wikipedia.org/wiki/September_11_attacks"
+    ]
+  },
+  {
+    "id": "q07251",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "paralelo_38_norte",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em 1945, a divisão da Coreia entre as zonas soviética e americana seguiu qual paralelo?",
+    "resposta": "Paralelo 38 norte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/38th_parallel_north"
+    ]
+  },
+  {
+    "id": "q07252",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "calendario_revolucionario_frances",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No calendário criado durante a Revolução Francesa, quantos dias tinha cada um dos doze meses?",
+    "resposta": "Trinta",
+    "distratores": [
+      "Vinte",
+      "Vinte e oito",
+      "Trinta e seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_Republican_calendar"
+    ]
+  },
+  {
+    "id": "q07253",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "ferrovia_subterranea",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, nos Estados Unidos, a chamada Ferrovia Subterrânea não tinha trilhos. O que ela era, na verdade?",
+    "resposta": "Rede de fuga de escravizados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Underground_Railroad"
+    ]
   }
 ]
