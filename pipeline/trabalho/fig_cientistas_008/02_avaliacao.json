@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato limpo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de motor leva o nome deste inventor alemão?",
+      "resposta": "Motor a diesel",
+      "destino": 5,
+      "ancora": {
+        "nome": "Rudolf Diesel",
+        "descricao": "Engenheiro e inventor alemão (1858–1913), criador do motor a diesel.",
+        "variantes": [
+          "Rudolf Christian Karl Diesel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que elemento químico leva o nome deste físico ítalo-americano?",
+      "resposta": "Férmio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Enrico Fermi",
+        "descricao": "Físico italiano naturalizado americano, Nobel de Física de 1938, criador do primeiro reator nuclear artificial.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que teoria matemática este matemático alemão ajudou a criar?",
+      "resposta": "Teoria dos conjuntos",
+      "destino": 2,
+      "ancora": {
+        "nome": "Georg Cantor",
+        "descricao": "Matemático alemão (1845–1918), criador da teoria dos conjuntos.",
+        "variantes": [
+          "Georg Ferdinand Ludwig Philipp Cantor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que laboratório este físico americano dirigiu durante a Segunda Guerra Mundial?",
+      "resposta": "Los Alamos",
+      "destino": 0,
+      "ancora": {
+        "nome": "J. Robert Oppenheimer",
+        "descricao": "Físico teórico americano (1904–1967), diretor do Laboratório de Los Alamos no Projeto Manhattan.",
+        "variantes": [
+          "Robert Oppenheimer",
+          "Julius Robert Oppenheimer"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A pintura traz a legenda 'EUCLIDI MEGAREN' visível na base, que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro; só uma assinatura minúscula do fotógrafo, que não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que unidade de frequência leva o nome deste físico alemão?",
+      "resposta": "Hertz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Heinrich Hertz",
+        "descricao": "Físico alemão (1857–1894) que provou a existência das ondas eletromagnéticas.",
+        "variantes": [
+          "Heinrich Rudolf Hertz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro; carimbo do fotógrafo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em vários idiomas, que raios levam o nome deste físico alemão?",
+      "resposta": "Raios X",
+      "distratores": [
+        "Raios gama",
+        "Raios cósmicos",
+        "Raios ultravioleta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wilhelm Röntgen",
+        "descricao": "Físico alemão (1845–1923), descobridor dos raios X e primeiro Nobel de Física.",
+        "variantes": [
+          "Wilhelm Conrad Röntgen",
+          "Roentgen"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'JOHN DALTON F.R.S' na base, que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planeta este astrônomo germano-britânico descobriu?",
+      "resposta": "Urano",
+      "destino": 7,
+      "ancora": {
+        "nome": "William Herschel",
+        "descricao": "Astrônomo e compositor germano-britânico (1738–1822), descobridor de Urano.",
+        "variantes": [
+          "Frederick William Herschel",
+          "Friedrich Wilhelm Herschel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida; fragmento de letras ao fundo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Contra que doença este virologista americano desenvolveu uma das primeiras vacinas de sucesso?",
+      "resposta": "Poliomielite",
+      "distratores": [
+        "Sarampo",
+        "Varíola",
+        "Tuberculose"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Jonas Salk",
+        "descricao": "Virologista americano (1914–1995) que desenvolveu uma das primeiras vacinas eficazes contra a poliomielite.",
+        "variantes": [
+          "Jonas Edward Salk"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto pequena, mas legível e sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sistema operacional de código aberto foi criado por este engenheiro de software?",
+      "resposta": "Linux",
+      "destino": 4,
+      "ancora": {
+        "nome": "Linus Torvalds",
+        "descricao": "Engenheiro de software finlandês-americano, criador do núcleo Linux e do Git.",
+        "variantes": [
+          "Linus Benedict Torvalds"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro; as condecorações não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico foi descoberto por este cientista dinamarquês?",
+      "resposta": "Alumínio",
+      "distratores": [
+        "Magnésio",
+        "Titânio",
+        "Sódio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hans Christian Ørsted",
+        "descricao": "Físico e químico dinamarquês (1777–1851), descobridor do efeito magnético da corrente elétrica e do alumínio.",
+        "variantes": [
+          "Hans Christian Oersted",
+          "H. C. Ørsted"
+        ]
+      }
+    }
+  ]
+}

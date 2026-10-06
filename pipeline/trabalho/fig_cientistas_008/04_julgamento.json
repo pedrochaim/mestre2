@@ -1,0 +1,455 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rudolf Diesel",
+        "descricao": "Engenheiro e inventor alemão (1858–1913), criador do motor a diesel.",
+        "variantes": [
+          "Rudolf Christian Karl Diesel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motor_a_diesel",
+          "nome": "Motor a diesel",
+          "descricao": "Motor de combustão interna em que o combustível se inflama pela compressão do ar, sem vela de ignição.",
+          "variantes": [
+            "Motor diesel",
+            "Diesel engine"
+          ]
+        },
+        {
+          "id": "aves_do_paraiso",
+          "nome": "Aves-do-paraíso",
+          "descricao": "Família de aves (Paradisaeidae) de plumagens exuberantes e danças de corte, sobretudo da Nova Guiné.",
+          "variantes": [
+            "Paradisaeidae",
+            "Ave-do-paraíso",
+            "Birds-of-paradise"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Enrico Fermi",
+        "descricao": "Físico italiano naturalizado americano, Nobel de Física de 1938, criador do primeiro reator nuclear artificial.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "enzo_ferrari",
+          "nome": "Enzo Ferrari",
+          "descricao": "Piloto e empresário italiano, fundador da Scuderia Ferrari e da fabricante Ferrari.",
+          "variantes": [
+            "Il Commendatore"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "festa_de_sao_firmino",
+          "nome": "Festa de São Firmino",
+          "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas.",
+          "variantes": [
+            "San Fermín",
+            "Sanfermines",
+            "Festas de São Firmino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Georg Cantor",
+        "descricao": "Matemático alemão (1845–1918), criador da teoria dos conjuntos.",
+        "variantes": [
+          "Georg Ferdinand Ludwig Philipp Cantor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "george_washington",
+          "nome": "George Washington",
+          "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+          "variantes": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "george_s_patton",
+          "nome": "George S. Patton",
+          "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+          "variantes": [
+            "George Smith Patton Jr.",
+            "Patton"
+          ]
+        },
+        {
+          "id": "george_orwell",
+          "nome": "George Orwell",
+          "descricao": "Escritor britânico (1903–1950), autor de 1984 e A Revolução dos Bichos.",
+          "variantes": [
+            "Eric Arthur Blair"
+          ]
+        },
+        {
+          "id": "cratera_de_impacto",
+          "nome": "Cratera de impacto",
+          "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Cratera do Meteoro"
+          ]
+        },
+        {
+          "id": "cratera_do_meteoro",
+          "nome": "Cratera do Meteoro",
+          "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Barringer Crater"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "J. Robert Oppenheimer",
+        "descricao": "Físico teórico americano (1904–1967), diretor do Laboratório de Los Alamos no Projeto Manhattan.",
+        "variantes": [
+          "Robert Oppenheimer",
+          "Julius Robert Oppenheimer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "robert_oppenheimer",
+          "nome": "Robert Oppenheimer",
+          "descricao": "Físico americano (1904–1967) que dirigiu o laboratório de Los Alamos no Projeto Manhattan.",
+          "variantes": [
+            "J. Robert Oppenheimer",
+            "Julius Robert Oppenheimer"
+          ]
+        },
+        {
+          "id": "bob_dylan",
+          "nome": "Bob Dylan",
+          "descricao": "Cantor e compositor americano de folk e rock, nascido Robert Zimmerman",
+          "variantes": [
+            "Robert Zimmerman"
+          ]
+        },
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        },
+        {
+          "id": "robert_hooke",
+          "nome": "Robert Hooke",
+          "descricao": "Cientista inglês do século dezessete, autor do livro Micrographia, sobre observações ao microscópio.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Heinrich Hertz",
+        "descricao": "Físico alemão (1857–1894) que provou a existência das ondas eletromagnéticas.",
+        "variantes": [
+          "Heinrich Rudolf Hertz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "karl_marx",
+          "nome": "Karl Marx",
+          "descricao": "Filósofo, economista e teórico político alemão (1818–1883), autor de O Capital e co-autor do Manifesto Comunista.",
+          "variantes": [
+            "Karl Heinrich Marx",
+            "Marx"
+          ]
+        },
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Wilhelm Röntgen",
+        "descricao": "Físico alemão (1845–1923), descobridor dos raios X e primeiro Nobel de Física.",
+        "variantes": [
+          "Wilhelm Conrad Röntgen",
+          "Roentgen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "daimler_reitwagen",
+          "nome": "Daimler Reitwagen",
+          "descricao": "Veículo de duas rodas com motor a gasolina construído por Gottlieb Daimler e Wilhelm Maybach em 1885, considerado a primeira motocicleta a gasolina.",
+          "variantes": [
+            "Reitwagen"
+          ]
+        },
+        {
+          "id": "raio_x",
+          "nome": "Raio X",
+          "descricao": "Radiação eletromagnética de alta energia usada em radiografias.",
+          "variantes": [
+            "Raios X",
+            "Raios Röntgen",
+            "X-ray"
+          ]
+        },
+        {
+          "id": "rent_musical",
+          "nome": "Rent (musical)",
+          "descricao": "Musical da Broadway de Jonathan Larson, de 1996, sobre jovens artistas em Nova York na época da epidemia de aids.",
+          "variantes": [
+            "Rent"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "guilherme_ii",
+          "nome": "Guilherme II",
+          "descricao": "Último imperador da Alemanha e rei da Prússia, de 1888 até sua abdicação em 1918.",
+          "variantes": [
+            "Kaiser Guilherme II",
+            "Wilhelm II",
+            "Kaiser Wilhelm"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "William Herschel",
+        "descricao": "Astrônomo e compositor germano-britânico (1738–1822), descobridor de Urano.",
+        "variantes": [
+          "Frederick William Herschel",
+          "Friedrich Wilhelm Herschel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "william_whewell",
+          "nome": "William Whewell",
+          "descricao": "Filósofo e historiador da ciência inglês do século dezenove, professor em Cambridge.",
+          "variantes": []
+        },
+        {
+          "id": "friedrich_nietzsche",
+          "nome": "Friedrich Nietzsche",
+          "descricao": "Filósofo alemão (1844–1900), autor de Assim Falou Zaratustra.",
+          "variantes": [
+            "Nietzsche"
+          ]
+        },
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "willem_dafoe",
+          "nome": "Willem Dafoe",
+          "descricao": "Ator americano indicado quatro vezes ao Oscar, nascido em Appleton, Wisconsin.",
+          "variantes": [
+            "William James Dafoe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jonas Salk",
+        "descricao": "Virologista americano (1914–1995) que desenvolveu uma das primeiras vacinas eficazes contra a poliomielite.",
+        "variantes": [
+          "Jonas Edward Salk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nick_cave",
+          "nome": "Nick Cave",
+          "descricao": "Cantor, músico e escritor australiano, vocalista do Nick Cave and the Bad Seeds.",
+          "variantes": [
+            "Nicholas Edward Cave"
+          ]
+        },
+        {
+          "id": "carl_sagan",
+          "nome": "Carl Sagan",
+          "descricao": "Astrônomo e divulgador científico americano (1934–1996), autor e apresentador da série Cosmos.",
+          "variantes": [
+            "Carl Edward Sagan"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda"
+          ]
+        },
+        {
+          "id": "jose_aldo",
+          "nome": "José Aldo",
+          "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
+          "variantes": [
+            "José Aldo da Silva Oliveira Júnior"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hans Christian Ørsted",
+        "descricao": "Físico e químico dinamarquês (1777–1851), descobridor do efeito magnético da corrente elétrica e do alumínio.",
+        "variantes": [
+          "Hans Christian Oersted",
+          "H. C. Ørsted"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "christian_doppler",
+          "nome": "Christian Doppler",
+          "descricao": "Físico austríaco do século dezenove que descreveu o efeito Doppler.",
+          "variantes": [
+            "Doppler"
+          ]
+        },
+        {
+          "id": "christiaan_barnard",
+          "nome": "Christiaan Barnard",
+          "descricao": "Cirurgião cardíaco sul-africano que realizou o primeiro transplante de coração entre humanos, em 1967.",
+          "variantes": [
+            "Chris Barnard"
+          ]
+        },
+        {
+          "id": "agatha_christie",
+          "nome": "Agatha Christie",
+          "descricao": "Escritora inglesa de romances policiais, criadora dos detetives Hercule Poirot e Miss Marple.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rudolf Diesel é a pessoa; o motor a diesel é a invenção, outra entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Enrico Fermi é um físico; nenhuma candidata é ele."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Georg Cantor é um matemático; as candidatas são outras pessoas ou crateras."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "robert_oppenheimer",
+      "motivo": "Mesma pessoa: físico americano (1904–1967), diretor de Los Alamos, com as mesmas variantes de nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Heinrich Hertz é um físico distinto de Karl Marx e Robert Koch."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Röntgen é a pessoa; o raio X é o fenômeno que ele descobriu, outra entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "William Herschel é um astrônomo; nenhuma candidata é ele."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Jonas Salk é um virologista; nenhuma candidata corresponde a ele."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ørsted é um físico dinamarquês distinto das candidatas."
+    }
+  ]
+}

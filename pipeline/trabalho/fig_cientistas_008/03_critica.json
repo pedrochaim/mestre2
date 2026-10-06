@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pelos trechos. O enunciado não nomeia o inventor, e a pista (inventor alemão) não basta para responder sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O férmio foi nomeado em homenagem a Fermi (trechos). O enunciado não traz o nome nem a resposta, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cantor teve papel central na criação da teoria dos conjuntos (trechos). 'Ajudou a criar' é fiel, e a figura é necessária para saber quem é o matemático.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oppenheimer foi diretor do Laboratório de Los Alamos na Segunda Guerra (trechos). O enunciado não nomeia a pessoa, e a resposta é única para ele.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento por definição: 'unidade de frequência' já é hertz, então dá para responder com a imagem coberta. A pergunta é reescrita para um feito que exige reconhecer a pessoa.",
+      "reescrita": {
+        "pergunta": "Em 1888, este físico alemão demonstrou a existência de que tipo de ondas, previstas por Maxwell?",
+        "resposta": "Ondas eletromagnéticas"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que, em vários idiomas, os raios levam o nome de Röntgen. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herschel descobriu Urano (trechos). O enunciado não o nomeia e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salk desenvolveu uma das primeiras vacinas eficazes contra a poliomielite (trechos). Os distratores são doenças plausíveis e nenhum se aplica a Salk.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Imprecisa: Torvalds criou o núcleo Linux, não o sistema operacional inteiro (trechos). Além disso, 'sistema operacional de código aberto' entrega 'Linux' sem a imagem. Qualquer variante sobre o que ele criou também vaza pela definição.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Ørsted descobriu o alumínio. Os distratores são metais plausíveis e nenhum foi descoberto por ele.",
+      "reescrita": null
+    }
+  ]
+}

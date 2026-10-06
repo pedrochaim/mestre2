@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que laboratório este físico americano dirigiu durante a Segunda Guerra Mundial?",
+        "resposta": "Los Alamos"
+      },
+      "existentes": [
+        {
+          "id": "q03008",
+          "pergunta": "Ao lembrar o primeiro teste da bomba atômica, Robert Oppenheimer citou o verso agora me tornei a morte, destruidora de mundos. De que livro sagrado ele vem?",
+          "resposta": "Bhagavad Gita"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o laboratório que Oppenheimer dirigiu (Los Alamos). A existente é sobre a origem de uma citação (Bhagavad Gita). Os fatos são diferentes."
+    }
+  ]
+}
