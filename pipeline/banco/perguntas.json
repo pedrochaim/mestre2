@@ -124780,5 +124780,595 @@
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q07314",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "fosforo_de_seguranca",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a produzir a chama não fica na cabeça do palito. Onde ele fica?",
+    "resposta": "Na lixa da caixa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Match"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07315",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pyrex",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O vidro original das travessas Pyrex aguentava o calor do forno graças à adição de qual elemento químico?",
+    "resposta": "Boro",
+    "distratores": [
+      "Chumbo",
+      "Lítio",
+      "Cálcio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyrex",
+      "https://en.wikipedia.org/wiki/Borosilicate_glass"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07316",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pyrex",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A empresa americana Corning, que lançou o vidro Pyrex em 1915, também desenvolveu qual vidro resistente usado em telas de celular?",
+    "resposta": "Gorilla Glass",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corning_Inc.",
+      "https://en.wikipedia.org/wiki/Gorilla_Glass"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07317",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "teflon",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O teflon das panelas antiaderentes é um plástico formado por carbono e por qual outro elemento químico?",
+    "resposta": "Flúor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07318",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "isopor",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Leve e bom isolante térmico, o isopor é formado quase todo, cerca de noventa e oito por cento, por qual componente?",
+    "resposta": "Ar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Poliestireno_expandido"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07319",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "lampada_incandescente",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+    "resposta": "Tungstênio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07320",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "espelho",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1835, o químico alemão Justus von Liebig criou um método de cobrir o vidro dos espelhos com uma fina camada de qual metal precioso?",
+    "resposta": "Prata",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silvering",
+      "https://en.wikipedia.org/wiki/Mirror"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07321",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pilha_alcalina",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A pilha alcalina comum gera energia a partir do zinco e de um composto de qual outro metal?",
+    "resposta": "Manganês",
+    "distratores": [
+      "Lítio",
+      "Níquel",
+      "Chumbo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alkaline_battery"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07322",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "fio_dental",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Antes do náilon, o fio dental recomendado pelos dentistas do século dezenove era feito de qual material?",
+    "resposta": "Seda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dental_floss"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07323",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "agulheta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que nome tem a pequena ponteira de plástico ou metal que fica na ponta do cadarço e impede que ele desfie?",
+    "resposta": "Agulheta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aglet"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07324",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "escala_de_dureza_do_grafite",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na escala usada nos lápis, qual destas graduações tem o grafite mais macio, que deixa o traço mais escuro?",
+    "resposta": "2B",
+    "distratores": [
+      "HB",
+      "2H",
+      "4H"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pencil"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07325",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "lixa",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "As lixas são numeradas pelo tamanho do grão. Qual destas é a mais grossa?",
+    "resposta": "Lixa 80",
+    "distratores": [
+      "Lixa 150",
+      "Lixa 220",
+      "Lixa 400"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sandpaper"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07326",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pilha_aaa",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes tamanhos padronizados de pilha, qual é o menor, chamado no Brasil de pilha palito?",
+    "resposta": "AAA",
+    "distratores": [
+      "AA",
+      "C",
+      "D"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AAA_battery",
+      "https://en.wikipedia.org/wiki/List_of_battery_sizes"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07327",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "papel_carta",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A folha carta é o papel padrão dos Estados Unidos. Comparada com a folha A4, como ela é em largura e em altura?",
+    "resposta": "Mais larga e mais curta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Letter_(paper_size)",
+      "https://en.wikipedia.org/wiki/ISO_216"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07328",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "panela_de_cobre",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes materiais comuns de panelas, qual conduz melhor o calor?",
+    "resposta": "Cobre",
+    "distratores": [
+      "Alumínio",
+      "Ferro fundido",
+      "Aço inox"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cookware_and_bakeware",
+      "https://en.wikipedia.org/wiki/List_of_thermal_conductivities"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07329",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "codigo_de_identificacao_de_resinas",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em muitas embalagens plásticas, há um triângulo de setas com um número de um a sete dentro. O que esse número indica?",
+    "resposta": "O tipo de plástico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Resin_identification_code"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07330",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "cubo_magico",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+    "resposta": "Amarelo",
+    "distratores": [
+      "Vermelho",
+      "Azul",
+      "Verde"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q07331",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "mostrador_de_relogio",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em muitos relógios com algarismos romanos, o quatro não aparece como I e V. Como ele costuma ser escrito?",
+    "resposta": "Com quatro letras I",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Clock_face"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07332",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "teclado_qwerty",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nos teclados de computador, as teclas F e J têm um pequeno relevo. Para que ele serve?",
+    "resposta": "Posicionar os dedos sem olhar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Touch_typing"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07333",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "kleenex",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Lançado em 1924, o lenço de papel Kleenex não era vendido para assoar o nariz. Para que ele era anunciado?",
+    "resposta": "Remover creme facial (cold cream)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kleenex"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07334",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "xicara",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra xícara chegou ao português pelo espanhol e vem de um termo para tigela de cabaça. De que língua indígena?",
+    "resposta": "Náuatle",
+    "distratores": [
+      "Tupi",
+      "Quíchua",
+      "Guarani"
+    ],
+    "fonte": [
+      "https://pt.wiktionary.org/wiki/x%C3%ADcara",
+      "https://en.wiktionary.org/wiki/j%C3%ADcara"
+    ]
+  },
+  {
+    "id": "q07335",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "tupperware",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os famosos potes plásticos Tupperware, lançados nos Estados Unidos em 1946, levam o sobrenome de quem?",
+    "resposta": "Earl Tupper",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tupperware_Brands"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07336",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "escada_rolante",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra inglesa escalator, para escada rolante, foi marca registrada até 1950. De qual empresa?",
+    "resposta": "Otis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escalator"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07337",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "celofane",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do papel celofane junta a palavra celulose com uma palavra francesa de origem grega. O que ela significa?",
+    "resposta": "Transparente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cellophane"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07338",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "fita_scotch",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A fita adesiva Scotch, que significa escocês, ganhou esse nome por causa da reclamação de um pintor de carros. Do que ele acusava a empresa?",
+    "resposta": "De ser pão-dura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scotch_Tape"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07339",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "fosforo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O elemento químico que dá nome ao palito de fósforo tem um nome grego que também designava qual astro, visto brilhando ao amanhecer?",
+    "resposta": "Vênus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phosphorus"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07340",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "henry_david_thoreau",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que escritor americano, autor do livro Walden, trabalhou na fábrica de lápis da família e ajudou a melhorar a qualidade do grafite?",
+    "resposta": "Henry David Thoreau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q07341",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "privada_de_john_harington",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O inglês John Harington descreveu em 1596 um vaso sanitário com descarga e instalou um no palácio de Richmond para qual rainha, sua madrinha?",
+    "resposta": "Elizabeth primeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Harington_(writer)",
+      "https://en.wikipedia.org/wiki/Flush_toilet"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07342",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "lapis",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pencil"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07343",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "serrilha_das_moedas",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Quando as moedas eram de ouro e prata, elas passaram a ter a borda serrilhada. Que fraude isso ajudava a impedir?",
+    "resposta": "Raspar metal das bordas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reeding"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07344",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "plastico_bolha",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1957, dois engenheiros americanos criaram o plástico-bolha por acaso. O que eles tentavam fabricar?",
+    "resposta": "Papel de parede texturizado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bubble_wrap"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07345",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "supercola",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Durante a Segunda Guerra, o químico Harry Coover descobriu a supercola, mas a descartou porque grudava em tudo. O que ele tentava fabricar?",
+    "resposta": "Miras de plástico transparente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyanoacrylate"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q07346",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "mola_maluca",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A mola maluca nasceu quando um engenheiro naval americano viu uma mola cair e continuar se mexendo. Para que ele testava essas molas?",
+    "resposta": "Estabilizar instrumentos de navios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slinky"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07347",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "isqueiro",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O isqueiro criado em 1823 pelo químico alemão Döbereiner surgiu três anos antes de qual outro objeto de acender fogo?",
+    "resposta": "Fósforo de fricção",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/D%C3%B6bereiner%27s_lamp",
+      "https://en.wikipedia.org/wiki/Match"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07348",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "controle_remoto_de_televisao",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A americana Zenith lançou o primeiro controle remoto sem fio para televisão, que funcionava com um feixe de luz. Em que década?",
+    "resposta": "Anos cinquenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Remote_control"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07349",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "garfo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No começo do século onze, uma princesa causou escândalo em Veneza ao comer com um garfo de ouro. De que império ela vinha?",
+    "resposta": "Império Bizantino",
+    "distratores": [
+      "Império Otomano",
+      "Império Persa",
+      "Sacro Império"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fork"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07350",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "geladeira_de_einstein",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1930, que físico nascido na Alemanha patenteou, com o ex-aluno Leó Szilárd, uma geladeira sem partes móveis?",
+    "resposta": "Albert Einstein",
+    "distratores": [
+      "Max Planck",
+      "Werner Heisenberg",
+      "Niels Bohr"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Einstein_refrigerator"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q07351",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "oculos_de_neve",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Muito antes dos óculos escuros, que povos do Ártico esculpiam óculos de osso com fendas estreitas para se proteger do brilho da neve?",
+    "resposta": "Inuítes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snow_goggles"
+    ],
+    "dificuldade": 5
   }
 ]

@@ -1,0 +1,404 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelo pt.wikipedia: o fósforo vermelho está na lixa da caixa.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A criação nos anos quarenta contradiz as fontes (introdução nos anos 1850); reescrito sem essa imprecisão.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em qual país europeu os irmãos Lundström desenvolveram, em meados do século dezenove, a indústria do fósforo de segurança?",
+        "resposta": "Suécia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Match",
+          "https://pt.wikipedia.org/wiki/Palito_de_f%C3%B3sforo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pyrex é vidro borossilicato; resposta única e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corning desenvolve o Gorilla Glass, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "PTFE é carbono e flúor; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uso em válvulas e vedações no Projeto Manhattan confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "98% de ar confirmado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filamento de tungstênio confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Liebig, 1835, prata sobre vidro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zinco e dióxido de manganês confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fio de seda recomendado por Parmly em 1819; nylon veio depois.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o nome da coisa a partir de uma descrição, ou seja, ângulo identidade e não composição.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Que nome tem a pequena ponteira de plástico ou metal que fica na ponta do cadarço e impede que ele desfie?",
+        "resposta": "Agulheta",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aglet"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente e detalhe arbitrário, confuso de ouvir (exclui a de um real, jargão de família).",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Premissa falsa: a nota de duzentos reais é a maior, e não tem o tamanho da de vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (garoupa na nota de cem), mas a fonte é inexistente; troca de URL.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Cada cédula da segunda família do real traz um animal da fauna brasileira. Que peixe aparece na nota de cem reais?",
+        "resposta": "Garoupa",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Real_(moeda)"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Escala de grafite bem conhecida; 2B é o mais macio entre as opções.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quanto menor o número, mais grossa a lixa; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "AAA é a menor das opções e é a pilha palito.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carta é 6 mm mais larga e 18 mm mais curta que A4.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cobre conduz melhor o calor que as demais opções.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Play-Doh nasceu como limpador de papel de parede.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O número indica o tipo de resina; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Branco oposto ao amarelo no esquema padrão.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "IIII nos relógios é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relevo nas teclas F e J orienta os dedos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome QWERTY confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz removedor de cold cream, não de maquiagem; resposta ajustada.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Lançado em 1924, o lenço de papel Kleenex não era vendido para assoar o nariz. Para que ele era anunciado?",
+        "resposta": "Remover creme facial (cold cream)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kleenex"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Xícara vem do náuatle xīcalli; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta com aposto desnecessário; simplificar.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Os famosos potes plásticos Tupperware, lançados nos Estados Unidos em 1946, levam o sobrenome de quem?",
+        "resposta": "Earl Tupper",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tupperware_Brands"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caso Haughton v. Seeberger em 1950 encerrou a marca da Otis.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Velcro vem de velours e crochet; etimologia bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cellophane = cellulose + diaphane (transparente).",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Origem do nome Scotch (acusação de mão-fechada) é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta ambígua: a Peugeot também fazia moedores de café, e a empresa de moedores é hoje separada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Phosphoros, deus da estrela da manhã, é Vênus; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Thoreau trabalhou na fábrica de lápis da família e aprimorou o grafite; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Harington publicou em 1596; dizer que projetou nesse ano é impreciso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O inglês John Harington descreveu em 1596 um vaso sanitário com descarga e instalou um no palácio de Richmond para qual rainha, sua madrinha?",
+        "resposta": "Elizabeth primeira",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/John_Harington_(writer)",
+          "https://en.wikipedia.org/wiki/Flush_toilet"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Amarelo ligado à realeza chinesa e ao grafite chinês; explicação conhecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serrilha contra raspagem do metal precioso; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Papel de parede texturizado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Miras de plástico transparente confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "James testava molas para sustentar instrumentos sensíveis em navios; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fósforo de fricção de Walker é de 1826, três anos depois de 1823.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "É só uma subtração de datas, com resposta vaga (cerca de); fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flash-Matic de 1955 da Zenith, com feixe de luz.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maria Argyropoulina, bizantina, em Veneza em 1004.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin é geralmente creditado; enunciado cauteloso.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Einstein e Szilárd, patente de 1930; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inuítes usavam óculos de neve; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Faces opostas somam sete; confirmado.",
+      "reescrita": null
+    }
+  ]
+}

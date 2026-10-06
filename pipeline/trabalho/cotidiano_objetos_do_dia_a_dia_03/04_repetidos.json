@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a produzir a chama não fica na cabeça do palito. Onde ele fica?",
+        "resposta": "Na lixa da caixa"
+      },
+      "existentes": [
+        {
+          "id": "q03155",
+          "pergunta": "O fósforo de segurança, que só acende riscado na lixa da caixa, foi desenvolvido no século dezenove em que país?",
+          "resposta": "Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em qual país europeu os irmãos Lundström desenvolveram, em meados do século dezenove, a indústria do fósforo de segurança?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q03155",
+          "pergunta": "O fósforo de segurança, que só acende riscado na lixa da caixa, foi desenvolvido no século dezenove em que país?",
+          "resposta": "Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O teflon das panelas antiaderentes é um plástico formado por carbono e por qual outro elemento químico?",
+        "resposta": "Flúor"
+      },
+      "existentes": [
+        {
+          "id": "q03593",
+          "pergunta": "Em 1938, o químico Roy Plunkett descobriu o teflon por acaso, enquanto pesquisava novos gases para que tipo de aparelho?",
+          "resposta": "Geladeiras"
+        },
+        {
+          "id": "q05892",
+          "pergunta": "O Teflon, que reveste as frigideiras antiaderentes, foi descoberto por acaso durante pesquisas com gases de geladeira em que década?",
+          "resposta": "Década de 1930"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+        "resposta": "Tungstênio"
+      },
+      "existentes": [
+        {
+          "id": "q03730",
+          "pergunta": "Que tipo de lâmpada é esta?",
+          "resposta": "Incandescente"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1835, o químico alemão Justus von Liebig criou um método de cobrir o vidro dos espelhos com uma fina camada de qual metal precioso?",
+        "resposta": "Prata"
+      },
+      "existentes": [
+        {
+          "id": "q04497",
+          "pergunta": "Na Europa do século dezesseis, os melhores espelhos de vidro saíam das oficinas de qual ilha veneziana, famosa pelos seus vidreiros?",
+          "resposta": "Murano"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Antes de virar brinquedo, a massinha de modelar Play-Doh era vendida nos Estados Unidos para limpar o quê?",
+        "resposta": "Papel de parede"
+      },
+      "existentes": [
+        {
+          "id": "q03797",
+          "pergunta": "O que a massinha de modelar Play-Doh e o plástico-bolha têm em comum na sua origem?",
+          "resposta": "Nasceram ligados ao papel de parede"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+        "resposta": "Amarelo"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q06444",
+          "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+          "resposta": "Ernő Rubik"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Nos teclados de computador, as teclas F e J têm um pequeno relevo. Para que ele serve?",
+        "resposta": "Posicionar os dedos sem olhar"
+      },
+      "existentes": [
+        {
+          "id": "q03587",
+          "pergunta": "De onde vem o nome do teclado QWERTY, herdado das antigas máquinas de escrever?",
+          "resposta": "Das seis primeiras letras da fileira de cima"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O padrão de teclado mais comum do mundo leva o nome das seis primeiras letras da fileira de cima. Que nome é esse?",
+        "resposta": "QWERTY"
+      },
+      "existentes": [
+        {
+          "id": "q03587",
+          "pergunta": "De onde vem o nome do teclado QWERTY, herdado das antigas máquinas de escrever?",
+          "resposta": "Das seis primeiras letras da fileira de cima"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome velcro junta o começo de duas palavras francesas que descrevem as duas faces do fecho. Quais são elas?",
+        "resposta": "Veludo e gancho"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O elemento químico que dá nome ao palito de fósforo tem um nome grego que também designava qual astro, visto brilhando ao amanhecer?",
+        "resposta": "Vênus"
+      },
+      "existentes": [
+        {
+          "id": "q03129",
+          "pergunta": "Numa referência ao brilho que emite no escuro, o nome do elemento fósforo quer dizer, em grego, portador de quê?",
+          "resposta": "Luz"
+        },
+        {
+          "id": "q03160",
+          "pergunta": "Em 1669, o alquimista alemão Hennig Brand descobriu o fósforo ao ferver grandes quantidades de quê?",
+          "resposta": "Urina"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O isqueiro criado em 1823 pelo químico alemão Döbereiner surgiu três anos antes de qual outro objeto de acender fogo?",
+        "resposta": "Fósforo de fricção"
+      },
+      "existentes": [
+        {
+          "id": "q05074",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Isqueiro"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que cientista e político americano do século dezoito, um dos fundadores dos Estados Unidos, costuma receber o crédito pela invenção das lentes bifocais?",
+        "resposta": "Benjamin Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q03595",
+          "pergunta": "O para-raios e as lentes bifocais, que ajudam a enxergar de perto e de longe, são atribuídos ao mesmo inventor. Quem?",
+          "resposta": "Benjamin Franklin"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Num dado comum de seis faces, os números de faces opostas sempre dão a mesma soma. Qual é ela?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q01531",
+          "pergunta": "Num dado comum de seis faces, quanto dá a soma dos pontos de duas faces opostas?",
+          "resposta": "Sete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta onde fica o fósforo vermelho, não o país de desenvolvimento."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: país (Suécia) onde o fósforo de segurança foi desenvolvido."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Composição do teflon, fato distinto da descoberta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Metal do filamento; a existente é identificação de imagem do tipo de lâmpada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Liebig e prata, diferente de Murano."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas tratam da origem da massinha Play-Doh ligada ao papel de parede; saber uma responde a outra."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cor oposta à branca, fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Relevo em F e J, diferente da origem do nome QWERTY."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: relação entre o nome QWERTY e as seis primeiras letras."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato da existente q00933: etimologia veludo e gancho."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Astro associado ao nome grego; fato distinto de 'portador de luz' e da urina."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Cor amarela dos lápis e China, não o material do miolo."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre cronologia em relação ao fósforo de fricção, não identificação do isqueiro."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Benjamin Franklin como inventor das lentes bifocais."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: soma das faces opostas do dado é sete."
+    }
+  ]
+}
