@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. A resposta é única e os trechos sustentam que cereja é o fruto do gênero Prunus.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator Sálvia também é defensável. Os trechos dizem que o alecrim foi reclassificado no gênero Salvia (Salvia rosmarinus), então a alternativa pode ser considerada correta. Troquei por Orégano, uma erva de tempero de outro gênero.",
+      "reescrita": {
+        "pergunta": "Que erva aromática, usada como tempero, é esta?",
+        "resposta": "Alecrim",
+        "distratores": [
+          "Lavanda",
+          "Tomilho",
+          "Orégano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve só o aspecto da foto e não entrega a resposta. Os distratores são visualmente parecidos e de outras substâncias, e nenhum é correto. Os trechos sustentam que mel é uma substância viscosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só a categoria (fruta tropical), sem entregar a resposta. A figura com polpa alaranjada e sementes pretas distingue o mamão dos distratores, todos do mesmo tipo e com até 4 palavras.",
+      "reescrita": null
+    }
+  ]
+}

@@ -124313,5 +124313,100 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Alessandro_Volta"
     ]
+  },
+  {
+    "id": "q07298",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cereja",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta é esta?",
+    "resposta": "Cereja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cherry",
+      "https://pt.wikipedia.org/wiki/Cereja"
+    ],
+    "imagem": {
+      "arquivo": "q07298.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cherry_Stella444.jpg",
+      "autor": "Benjamint444, edited by Fir0002",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07299",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "alecrim",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que erva aromática, usada como tempero, é esta?",
+    "resposta": "Alecrim",
+    "distratores": [
+      "Lavanda",
+      "Tomilho",
+      "Orégano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosemary",
+      "https://pt.wikipedia.org/wiki/Alecrim"
+    ],
+    "imagem": {
+      "arquivo": "q07299.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:P1090247(4x3)-Rosmarinus_officinalis_(41960388224).jpg",
+      "autor": "Miguel Angel Masegosa Martínez",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q07300",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mel",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que alimento é este, no pote e escorrendo da colher?",
+    "resposta": "Mel",
+    "distratores": [
+      "Melado",
+      "Xarope de bordo",
+      "Geleia de damasco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Honey",
+      "https://pt.wikipedia.org/wiki/Mel"
+    ],
+    "imagem": {
+      "arquivo": "q07300.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg",
+      "autor": "Scott Bauer, USDA ARS",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07301",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mamao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta tropical é esta?",
+    "resposta": "Mamão",
+    "distratores": [
+      "Manga",
+      "Maracujá",
+      "Melão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Papaya",
+      "https://pt.wikipedia.org/wiki/Carica_papaya"
+    ],
+    "imagem": {
+      "arquivo": "q07301.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carica_papaya_-_Köhler–s_Medizinal-Pflanzen-029.jpg",
+      "autor": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "licenca": "Public domain"
+    }
   }
 ]

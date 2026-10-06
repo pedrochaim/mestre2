@@ -1,0 +1,134 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Duas cerejas sobre fundo branco, nítidas e inconfundíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Cereja",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cereja",
+        "descricao": "Fruta vermelha do gênero Prunus, uma drupe de caroço, como a Prunus avium.",
+        "variantes": [
+          "Cereja-doce",
+          "Prunus avium"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Folhas de coentro em close, sem flor nem semente; facilmente confundíveis com salsa, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Aquarela antiga com legenda manuscrita ('Arvore Bacori') e carimbo da biblioteca; o texto entrega a resposta, e a planta é pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A base do objeto traz 'ポテト' (potato) em katakana, que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ramo florido de alecrim, com folhas em agulha e flores azul-claras; reconhecível, mas pede múltipla escolha com ervas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que erva aromática, usada como tempero, é esta?",
+      "resposta": "Alecrim",
+      "distratores": [
+        "Lavanda",
+        "Tomilho",
+        "Sálvia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alecrim",
+        "descricao": "Arbusto aromático mediterrâneo de folhas finas em forma de agulha (Salvia rosmarinus), usado como tempero.",
+        "variantes": [
+          "Rosmarinus officinalis",
+          "Salvia rosmarinus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem estreita e de baixíssima resolução; a palmeira num pântano não fica legível no celular nem é reconhecível como buriti."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pote de vidro e colher dosadora de mel escorrendo sobre biscoitos; mel claramente reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alimento é este, no pote e escorrendo da colher?",
+      "resposta": "Mel",
+      "distratores": [
+        "Melado",
+        "Xarope de bordo",
+        "Geleia de damasco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mel",
+        "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+        "variantes": [
+          "Mel de abelha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A planta de aspargo adulta, em forma de arbusto feltroso, não é reconhecida pelo público como o alimento; resposta difícil e ambígua."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Inflorescência de cúrcuma na mata, escura e pouco conhecida; não é reconhecível pelo público e pode ser confundida com outras zingiberáceas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Prancha botânica de uma única espécie (árvore, flor, fruto cortado com sementes pretas), sem texto, com o mamão claramente identificável.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta tropical é esta?",
+      "resposta": "Mamão",
+      "distratores": [
+        "Manga",
+        "Maracujá",
+        "Melão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mamão",
+        "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+        "variantes": [
+          "Papaia",
+          "Carica papaya"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, só com folhas e flores; a castanha-do-pará não é reconhecível e a figura não é legível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Prancha botânica de uma planta da família da salsa, sem traços que a distingam de outras apiáceas; o cominho não é reconhecível por essa imagem."
+    }
+  ]
+}

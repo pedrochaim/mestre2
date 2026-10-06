@@ -1,0 +1,257 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cereja",
+        "descricao": "Fruta vermelha do gênero Prunus, uma drupe de caroço, como a Prunus avium.",
+        "variantes": [
+          "Cereja-doce",
+          "Prunus avium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "ceara",
+          "nome": "Ceará",
+          "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza.",
+          "variantes": []
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Alecrim",
+        "descricao": "Arbusto aromático mediterrâneo de folhas finas em forma de agulha (Salvia rosmarinus), usado como tempero.",
+        "variantes": [
+          "Rosmarinus officinalis",
+          "Salvia rosmarinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "taler",
+          "nome": "Táler",
+          "descricao": "Grande moeda de prata cunhada na Europa a partir do século dezesseis, originalmente com prata das minas de Joachimsthal, na Boêmia.",
+          "variantes": [
+            "Thaler",
+            "Joachimsthaler"
+          ]
+        },
+        {
+          "id": "camisa_rosa_do_giro_d_italia",
+          "nome": "Camisa rosa do Giro d'Italia",
+          "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+          "variantes": [
+            "Maglia rosa"
+          ]
+        },
+        {
+          "id": "al_khwarizmi",
+          "nome": "Al-Khwarizmi",
+          "descricao": "Matemático e astrônomo persa do século nove que trabalhou na Casa da Sabedoria, em Bagdá.",
+          "variantes": [
+            "Muhammad ibn Musa al-Khwarizmi",
+            "Al-Khuarizmi",
+            "Algoritmi"
+          ]
+        },
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mel",
+        "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+        "variantes": [
+          "Mel de abelha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "requeima_da_batata",
+          "nome": "Requeima da batata",
+          "descricao": "Doença da batata e do tomate causada pelo oomiceto Phytophthora infestans",
+          "variantes": [
+            "Phytophthora infestans",
+            "mela",
+            "late blight"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mamão",
+        "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+        "variantes": [
+          "Papaia",
+          "Carica papaya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "gamao",
+          "nome": "Gamão",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+          "variantes": [
+            "Backgammon"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cereja; laranja é outra fruta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o alecrim."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mel; melão e outras são entidades distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mamão."
+    }
+  ]
+}
