@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Diagrama com texto (Bull, Double ring, Triple ring, números); não é imagem limpa e há legendas."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cinturão segurado por pessoa; não é identificável qual cinturão é (logos e '2020'), e a pergunta não teria resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Atleta no ar sobre piso verde, com o trampolim só parcialmente visível; pode ser confundido com tumbling ou outro aparelho."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Grupo grande de pessoas comuns praticando; em baixa resolução e sem figuras públicas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Jogador em plena execução de saque, com bola lançada ao alto; patrocinadores não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que golpe do tênis o jogador em primeiro plano está executando nesta foto?",
+      "resposta": "Saque",
+      "destino": 4,
+      "ancora": {
+        "nome": "Saque (tênis)",
+        "descricao": "Golpe que inicia cada ponto no tênis, executado lançando a bola ao ar e golpeando-a com a raquete.",
+        "variantes": [
+          "Serviço",
+          "Serve"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A palavra 'Rugby' aparece escrita no piso, entregando parte da resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Corrida de karts em pista, clara e legível; números não entregam nada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de veículo de corrida estes pilotos conduzem?",
+      "resposta": "Kart",
+      "destino": 1,
+      "ancora": {
+        "nome": "Kart",
+        "descricao": "Pequeno veículo de corrida de quatro rodas, aberto e sem carroceria, usado no automobilismo de base.",
+        "variantes": [
+          "Go-kart",
+          "Carro de kart",
+          "Karting"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "São barras de academia de rua em um parque, à noite e mal iluminadas; não são claramente o aparelho olímpico e podem ser confundidas com outros equipamentos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Par de tonfas em madeira sobre piso, bem nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma tradicional de artes marciais é esta, usada em pares?",
+      "resposta": "Tonfa",
+      "distratores": [
+        "Nunchaku",
+        "Sai",
+        "Kama"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Tonfa",
+        "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+        "variantes": [
+          "Tunkua",
+          "Tui-fa",
+          "Senkon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Combate olímpico com chute alto e proteções; figuras públicas em competição, sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arte marcial olímpica está sendo praticada neste combate?",
+      "resposta": "Taekwondo",
+      "destino": 2,
+      "ancora": {
+        "nome": "Taekwondo",
+        "descricao": "Arte marcial e esporte de combate coreano baseado em chutes, presente nas Olimpíadas.",
+        "variantes": [
+          "Tae kwon do"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Caiaque entre balizas listradas em corredeira artificial; reconhecível como slalom, ainda que de baixa resolução.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade olímpica da canoagem é esta, em que o atleta passa por balizas penduradas?",
+      "resposta": "Canoagem slalom",
+      "distratores": [
+        "Canoagem de velocidade",
+        "Canoagem polo",
+        "Canoagem de descida"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Canoagem slalom",
+        "descricao": "Modalidade de canoagem em que o atleta percorre um trecho de corredeira passando por balizas no menor tempo.",
+        "variantes": [
+          "Slalom de canoagem",
+          "Canoe slalom"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma competição de bombeiros com mangueiras, não um pódio; não corresponde ao item."
+    }
+  ]
+}

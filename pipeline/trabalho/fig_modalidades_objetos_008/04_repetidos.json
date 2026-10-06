@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de veículo de corrida estes pilotos conduzem?",
+        "resposta": "Kart"
+      },
+      "existentes": [
+        {
+          "id": "q06164",
+          "pergunta": "O kart nasceu na Califórnia, quando um construtor de carros de corrida montou o primeiro com tubos e um motor pequeno. Em que década?",
+          "resposta": "Anos cinquenta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que arte marcial olímpica está sendo praticada neste combate?",
+        "resposta": "Taekwondo"
+      },
+      "existentes": [
+        {
+          "id": "q06663",
+          "pergunta": "Que três ideias se juntam no nome coreano da arte marcial taekwondo?",
+          "resposta": "Pé, punho e caminho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do veículo (kart), enquanto a existente pede a década em que o kart surgiu. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da arte marcial a partir de uma imagem. A existente pede o significado do nome coreano. Saber uma não leva a saber a outra."
+    }
+  ]
+}

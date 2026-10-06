@@ -1,0 +1,325 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Saque (tênis)",
+        "descricao": "Golpe que inicia cada ponto no tênis, executado lançando a bola ao ar e golpeando-a com a raquete.",
+        "variantes": [
+          "Serviço",
+          "Serve"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jerico",
+          "nome": "Jericó",
+          "descricao": "Cidade na Cisjordânia habitada desde o Neolítico, famosa por suas antigas muralhas.",
+          "variantes": [
+            "Jericho"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "raquete_de_tenis_de_mesa",
+          "nome": "Raquete de tênis de mesa",
+          "descricao": "Raquete de madeira com revestimento de borracha usada para bater na bolinha no tênis de mesa.",
+          "variantes": [
+            "Raquete de tênis",
+            "Raquete de pingue-pongue",
+            "Raquete de ping-pong"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "bagel_tenis",
+          "nome": "Bagel (tênis)",
+          "descricao": "Gíria do tênis em inglês para um set vencido por seis games a zero.",
+          "variantes": [
+            "Bagel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kart",
+        "descricao": "Pequeno veículo de corrida de quatro rodas, aberto e sem carroceria, usado no automobilismo de base.",
+        "variantes": [
+          "Go-kart",
+          "Carro de kart",
+          "Karting"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kart",
+          "nome": "Kart",
+          "descricao": "Pequeno veículo de competição de chassi tubular e motor simples, usado no kartismo.",
+          "variantes": [
+            "Go-kart",
+            "Kartismo"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "immanuel_kant",
+          "nome": "Immanuel Kant",
+          "descricao": "Filósofo alemão (1724–1804), nascido em Königsberg, autor da Crítica da Razão Pura.",
+          "variantes": [
+            "Kant"
+          ]
+        },
+        {
+          "id": "taxi",
+          "nome": "Táxi",
+          "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+          "variantes": [
+            "Carro de praça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tonfa",
+        "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+        "variantes": [
+          "Tunkua",
+          "Tui-fa",
+          "Senkon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        },
+        {
+          "id": "invasoes_mongois_do_japao",
+          "nome": "Invasões mongóis do Japão",
+          "descricao": "Duas tentativas de invasão do Japão pela dinastia Yuan de Kublai Khan, em 1274 e 1281.",
+          "variantes": [
+            "Invasões mongóis ao Japão",
+            "Mongol invasions of Japan",
+            "Genkō"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "trufa",
+          "nome": "Trufa",
+          "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+          "variantes": [
+            "Tuber",
+            "truffle",
+            "túbera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Taekwondo",
+        "descricao": "Arte marcial e esporte de combate coreano baseado em chutes, presente nas Olimpíadas.",
+        "variantes": [
+          "Tae kwon do"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taekwondo",
+          "nome": "Taekwondo",
+          "descricao": "Arte marcial coreana conhecida pelos chutes altos e giratórios.",
+          "variantes": [
+            "Tae kwon do"
+          ]
+        },
+        {
+          "id": "ventos_alisios",
+          "nome": "Ventos alísios",
+          "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+          "variantes": [
+            "Alísios",
+            "Trade winds"
+          ]
+        },
+        {
+          "id": "akebono",
+          "nome": "Akebono",
+          "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+          "variantes": [
+            "Akebono Tarō",
+            "Chad Rowan"
+          ]
+        },
+        {
+          "id": "jeet_kune_do",
+          "nome": "Jeet Kune Do",
+          "descricao": "Filosofia e sistema de luta criados nos anos 1960 por Bruce Lee.",
+          "variantes": [
+            "Caminho do punho que intercepta"
+          ]
+        },
+        {
+          "id": "esperanca",
+          "nome": "Esperança",
+          "descricao": "Nome popular no Brasil dos insetos ortópteros da família Tettigoniidae, geralmente verdes e parecidos com gafanhotos de antenas longas.",
+          "variantes": [
+            "Tettigoniidae",
+            "tetigonídeo",
+            "katydid"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Canoagem slalom",
+        "descricao": "Modalidade de canoagem em que o atleta percorre um trecho de corredeira passando por balizas no menor tempo.",
+        "variantes": [
+          "Slalom de canoagem",
+          "Canoe slalom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "dinastia_salomonica",
+          "nome": "Dinastia salomônica",
+          "descricao": "Casa imperial da Etiópia, que reinou de 1270 a 1974 e se dizia descendente do rei Salomão.",
+          "variantes": [
+            "Solomonic dynasty",
+            "Casa de Salomão"
+          ]
+        },
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "cem_anos_de_solidao",
+          "nome": "Cem Anos de Solidão",
+          "descricao": "Romance de Gabriel García Márquez, publicado em 1967, ambientado na cidade fictícia de Macondo.",
+          "variantes": [
+            "Cien años de soledad"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o saque do tênis; raquete de tênis de mesa e bagel são entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "kart",
+      "motivo": "Mesmo veículo de competição (kart/go-kart), descrições equivalentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tonfa é uma arma de artes marciais; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "taekwondo",
+      "motivo": "Mesma arte marcial coreana, com as mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Canoagem slalom é uma modalidade esportiva; nenhuma candidata corresponde."
+    }
+  ]
+}

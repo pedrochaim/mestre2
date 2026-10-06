@@ -118061,5 +118061,113 @@
       "autor": "MusikAnimal",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q06926",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "saque_tenis",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que golpe do tênis o jogador em primeiro plano está executando nesta foto?",
+    "resposta": "Saque",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Serve_%28tennis%29",
+      "https://pt.wikipedia.org/wiki/Servi%C3%A7o_%28t%C3%AAnis%29"
+    ],
+    "imagem": {
+      "arquivo": "q06926.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2013_Australian_Open_-_Guillaume_Rufin.jpg",
+      "autor": "Brendan Dennis",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06927",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "kart",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de veículo de corrida estes pilotos conduzem?",
+    "resposta": "Kart",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kart_racing",
+      "https://pt.wikipedia.org/wiki/Karting"
+    ],
+    "imagem": {
+      "arquivo": "q06927.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Largada_Stock125_Foto_Claudio_Reis.jpg",
+      "autor": "Claudio PlanetKart",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q06928",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "tonfa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que arma tradicional de artes marciais é esta, usada em pares?",
+    "resposta": "Tonfa",
+    "distratores": [
+      "Nunchaku",
+      "Sai",
+      "Kama"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tonfa"
+    ],
+    "imagem": {
+      "arquivo": "q06928.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paire_de_tonfas.jpg",
+      "autor": "The original uploader was Ukulele at French Wikipedia.",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06929",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "taekwondo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que arte marcial olímpica está sendo praticada neste combate?",
+    "resposta": "Taekwondo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taekwondo",
+      "https://pt.wikipedia.org/wiki/Taekwondo"
+    ],
+    "imagem": {
+      "arquivo": "q06929.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:COOK_(GBR)_VS_ZHU_(CHN)_BM_-80KGM12.JPG",
+      "autor": "Luketkd",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q06930",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "canoagem_slalom",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade de canoagem é esta?",
+    "resposta": "Canoagem slalom",
+    "distratores": [
+      "Canoagem de velocidade",
+      "Canoagem polo",
+      "Canoagem de descida"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Canoe_slalom"
+    ],
+    "imagem": {
+      "arquivo": "q06930.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kanuslalom.jpg",
+      "autor": "The original uploader was Spielkind at German Wikipedia. (Original text: de:Benutzer:Spielkind)",
+      "licenca": "Public domain"
+    }
   }
 ]
