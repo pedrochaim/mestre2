@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista noturna nítida da catedral com a cúpula, reconhecível, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+      "resposta": "Século quinze",
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, Itália, com a cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore",
+          "Duomo di Firenze"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aparecem textos que entregam a resposta ('Museu da Cidade', 'Fundação Casa de Jorge Amado') e pessoas comuns em primeiro plano; o enquadramento mostra casarões, não o pelourinho."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo romano bem enquadrado, inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que templo romano é este?",
+      "resposta": "Maison Carrée",
+      "destino": 3,
+      "ancora": {
+        "nome": "Maison Carrée",
+        "descricao": "Templo romano augustano muito bem conservado em Nîmes, no sul da França.",
+        "variantes": [
+          "Maison Carrée de Nîmes"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Torre do elevador bem visível, com a baía ao fundo; sem texto legível e sem pessoas em destaque. Troquei para nível 3 sem nomear o assunto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi construída esta estrutura?",
+      "resposta": "Século dezenove",
+      "destino": 8,
+      "ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, Bahia, que liga a Cidade Baixa à Cidade Alta, construído entre 1869 e 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pavilhão dourado refletido no lago, inconfundível e sem texto. O trecho não traz o construtor, então troquei para a família onde.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade do Japão fica este templo?",
+      "resposta": "Quioto",
+      "destino": 4,
+      "ancora": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+        "variantes": [
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Kinkakuji"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Panorama com muralha vermelha, torres e palácio do Kremlin, reconhecível. Nível 3 não rende em o_que_e, então pergunto a cidade.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este complexo fortificado?",
+      "resposta": "Moscou",
+      "destino": 6,
+      "ancora": {
+        "nome": "Kremlin de Moscou",
+        "descricao": "Complexo fortificado no centro de Moscou, Rússia, com palácios, catedrais e muralha de torres.",
+        "variantes": [
+          "Kremlin",
+          "Kremlin de Moscovo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista das ruínas com a torre do Palácio, característica de Palenque; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país ficam estas ruínas maias?",
+      "resposta": "México",
+      "destino": 5,
+      "ancora": {
+        "nome": "Palenque",
+        "descricao": "Antiga cidade-estado maia em Chiapas, no sul do México, com o Palácio e sua torre.",
+        "variantes": [
+          "Sítio arqueológico de Palenque",
+          "Lakamha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do templo megalítico, sem texto. Não é muito famoso, então uso múltipla escolha com distratores de pedra antiga.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo neolítico é este?",
+      "resposta": "Ġgantija",
+      "distratores": [
+        "Hagar Qim",
+        "Stonehenge",
+        "Newgrange"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ġgantija",
+        "descricao": "Complexo de templos megalíticos neolíticos na ilha de Gozo, em Malta.",
+        "variantes": [
+          "Ggantija",
+          "Templos de Ġgantija"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Palácio no morro, inconfundível; as placas de rua e as pessoas ao fundo são pequenas e não entregam a resposta. Nível 3 pelo fato de quem residia nele.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que líder religioso residiu neste palácio até 1959?",
+      "resposta": "O Dalai Lama",
+      "destino": 4,
+      "ancora": {
+        "nome": "Palácio de Potala",
+        "descricao": "Complexo palaciano em Lhasa, no Tibete, antiga residência dos Dalai Lamas.",
+        "variantes": [
+          "Potala",
+          "Palácio Potala"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada do Palácio Ducal vista do canal, com gôndolas, inconfundível; as pessoas ao fundo são multidão pequena.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este palácio?",
+      "resposta": "Veneza",
+      "destino": 6,
+      "ancora": {
+        "nome": "Palácio Ducal de Veneza",
+        "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+        "variantes": [
+          "Palazzo Ducale",
+          "Palácio dos Doges"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pilone do templo, nítido e sem texto. Pergunta de nível 3 sobre a época de construção, sustentada pelo trecho (237 a 57 a.C.).",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que período da história do Egito foi construído este templo?",
+      "resposta": "Período ptolomaico",
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Edfu",
+        "descricao": "Templo egípcio dedicado a Hórus, na margem oeste do Nilo, em Edfu, no Alto Egito.",
+        "variantes": [
+          "Templo de Hórus em Edfu",
+          "Templo de Edfu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua em foto nítida, inconfundível; as pessoas na base são pequenas e anônimas.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultor criou o projeto desta estátua?",
+      "resposta": "Paul Landowski",
+      "destino": 8,
+      "ancora": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus no alto do Corcovado, no Rio de Janeiro, concluída em 1931.",
+        "variantes": [
+          "Cristo Redentor do Rio de Janeiro",
+          "Christ the Redeemer"
+        ]
+      }
+    }
+  ]
+}

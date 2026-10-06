@@ -1,0 +1,697 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, Itália, com a cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore",
+          "Duomo di Firenze"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        },
+        {
+          "id": "cupula_da_catedral_de_florenca",
+          "nome": "Cúpula da Catedral de Florença",
+          "descricao": "Grande cúpula de alvenaria da Catedral de Santa Maria del Fiore, em Florença, concluída em 1436.",
+          "variantes": [
+            "Cúpula de Brunelleschi",
+            "Duomo de Florença",
+            "Santa Maria del Fiore"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Maison Carrée",
+        "descricao": "Templo romano augustano muito bem conservado em Nîmes, no sul da França.",
+        "variantes": [
+          "Maison Carrée de Nîmes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "massacre_de_munique",
+          "nome": "Massacre de Munique",
+          "descricao": "Ataque a atletas israelenses durante os Jogos Olímpicos de Munique 1972.",
+          "variantes": [
+            "Munich massacre"
+          ]
+        },
+        {
+          "id": "memorias_do_carcere",
+          "nome": "Memórias do Cárcere",
+          "descricao": "Livro de memórias de Graciliano Ramos sobre sua prisão política a partir de 1936, durante o governo Vargas.",
+          "variantes": []
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "draisiana",
+          "nome": "Draisiana",
+          "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+          "variantes": [
+            "Dandy horse",
+            "Laufmaschine",
+            "Máquina de correr"
+          ]
+        },
+        {
+          "id": "brabham_bt46b",
+          "nome": "Brabham BT46B",
+          "descricao": "Carro de Fórmula 1 da Brabham, de 1978, projetado por Gordon Murray, conhecido como carro-ventilador.",
+          "variantes": [
+            "Fan car",
+            "Carro-ventilador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, Bahia, que liga a Cidade Baixa à Cidade Alta, construído entre 1869 e 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "via_lactea",
+          "nome": "Via Láctea",
+          "descricao": "A galáxia espiral onde fica o Sistema Solar.",
+          "variantes": [
+            "Milky Way"
+          ]
+        },
+        {
+          "id": "selecao_neerlandesa_de_futebol",
+          "nome": "Seleção Neerlandesa de Futebol",
+          "descricao": "Seleção nacional de futebol dos Países Baixos, vice-campeã mundial em 1974, 1978 e 2010.",
+          "variantes": [
+            "Seleção da Holanda",
+            "Seleção Holandesa",
+            "Laranja Mecânica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+        "variantes": [
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Kinkakuji"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "mico_leao_dourado",
+          "nome": "Mico-leão-dourado",
+          "descricao": "Pequeno primata alaranjado da Mata Atlântica brasileira, espécie Leontopithecus rosalia.",
+          "variantes": [
+            "Leontopithecus rosalia",
+            "Golden lion tamarin"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kremlin de Moscou",
+        "descricao": "Complexo fortificado no centro de Moscou, Rússia, com palácios, catedrais e muralha de torres.",
+        "variantes": [
+          "Kremlin",
+          "Kremlin de Moscovo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kremlin_de_moscou",
+          "nome": "Kremlin de Moscou",
+          "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+          "variantes": [
+            "Kremlin",
+            "Moscow Kremlin"
+          ]
+        },
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+          "variantes": [
+            "Reino de Marrocos",
+            "Morocco"
+          ]
+        },
+        {
+          "id": "linux",
+          "nome": "Linux",
+          "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991.",
+          "variantes": [
+            "Kernel Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Palenque",
+        "descricao": "Antiga cidade-estado maia em Chiapas, no sul do México, com o Palácio e sua torre.",
+        "variantes": [
+          "Sítio arqueológico de Palenque",
+          "Lakamha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lasanha",
+          "nome": "Lasanha",
+          "descricao": "Prato italiano de massa em folhas largas, montado em camadas com recheios e molho e assado.",
+          "variantes": [
+            "Lasagna",
+            "Lasagne"
+          ]
+        },
+        {
+          "id": "ruinas_de_sao_miguel_das_missoes",
+          "nome": "Ruínas de São Miguel das Missões",
+          "descricao": "Ruínas da redução jesuítica de São Miguel Arcanjo, no Rio Grande do Sul, uma das Sete Povos das Missões.",
+          "variantes": [
+            "Sítio Arqueológico de São Miguel Arcanjo",
+            "São Miguel Arcanjo"
+          ]
+        },
+        {
+          "id": "alakazam",
+          "nome": "Alakazam",
+          "descricao": "Pokémon do tipo Psíquico, número 65 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ġgantija",
+        "descricao": "Complexo de templos megalíticos neolíticos na ilha de Gozo, em Malta.",
+        "variantes": [
+          "Templos de Ġgantija"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio de Potala",
+        "descricao": "Complexo palaciano em Lhasa, no Tibete, antiga residência dos Dalai Lamas.",
+        "variantes": [
+          "Potala",
+          "Palácio Potala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "cartao_postal",
+          "nome": "Cartão-postal",
+          "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+          "variantes": [
+            "Postal",
+            "Postcard"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "ottawa",
+          "nome": "Ottawa",
+          "descricao": "Capital do Canadá, na província de Ontário.",
+          "variantes": [
+            "Otava"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Palácio Ducal de Veneza",
+        "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+        "variantes": [
+          "Palazzo Ducale",
+          "Palácio dos Doges"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        },
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate"
+          ]
+        },
+        {
+          "id": "salao_dos_recusados",
+          "nome": "Salão dos Recusados",
+          "descricao": "Exposição em Paris das obras rejeitadas pelo júri do Salão oficial, autorizada por Napoleão Terceiro.",
+          "variantes": [
+            "Salon des Refusés"
+          ]
+        },
+        {
+          "id": "palacio_do_congresso_nacional",
+          "nome": "Palácio do Congresso Nacional",
+          "descricao": "Sede do Poder Legislativo brasileiro em Brasília, projetada por Oscar Niemeyer, com duas cúpulas e duas torres.",
+          "variantes": [
+            "Congresso Nacional",
+            "Edifício do Congresso Nacional"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo de Edfu",
+        "descricao": "Templo egípcio dedicado a Hórus, na margem oeste do Nilo, em Edfu, no Alto Egito.",
+        "variantes": [
+          "Templo de Hórus em Edfu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus no alto do Corcovado, no Rio de Janeiro, concluída em 1931.",
+        "variantes": [
+          "Cristo Redentor do Rio de Janeiro",
+          "Christ the Redeemer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "sao_jorge_no_rio_de_janeiro",
+          "nome": "São Jorge no Rio de Janeiro",
+          "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+          "variantes": [
+            "Festa de São Jorge"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "princesa_isabel",
+          "nome": "Princesa Isabel",
+          "descricao": "Princesa Imperial do Brasil, filha de Pedro Segundo, que assinou a Lei Áurea em 1888.",
+          "variantes": [
+            "Isabel de Bragança",
+            "A Redentora"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_florenca",
+      "motivo": "Mesma catedral; a cúpula é uma parte distinta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Maison Carrée."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "elevador_lacerda",
+      "motivo": "Mesmo elevador de Salvador."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Templo Dourado candidato é o Harmandir Sahib sikh, outra entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "kremlin_de_moscou",
+      "motivo": "Mesmo complexo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Palenque."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ġgantija; dólmen é conceito genérico."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_potala",
+      "motivo": "Mesmo palácio no Tibete."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio Ducal de Veneza."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "templo_de_edfu",
+      "motivo": "Mesmo templo de Hórus em Edfu."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "cristo_redentor",
+      "motivo": "Mesma estátua no Corcovado."
+    }
+  ]
+}

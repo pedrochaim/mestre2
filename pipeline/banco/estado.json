@@ -313,9 +313,10 @@
     "fig_paisagens_005",
     "fig_retratos_historicos_009",
     "geografia_rios_e_lagos_02",
-    "fig_cientistas_008"
+    "fig_cientistas_008",
+    "fig_monumentos_historicos_008"
   ],
-  "maior_id": 7188,
+  "maior_id": 7195,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -561,17 +562,18 @@
     },
     "monumentos_historicos": {
       "familias": {
-        "o_que_e": 18,
-        "quando": 17,
+        "o_que_e": 20,
+        "quando": 18,
         "quem_fez": 17,
-        "onde": 20
+        "onde": 23,
+        "com_o_que_se_liga": 1
       },
       "niveis": {
-        "1": 25,
-        "3": 12,
-        "2": 35
+        "1": 30,
+        "3": 13,
+        "2": 36
       },
-      "registradas": 72
+      "registradas": 79
     },
     "pinturas": {
       "familias": {

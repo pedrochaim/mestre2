@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cúpula concluída em 1434-1436 (lanterna em 1461), tudo no século quinze. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado só diz templo romano, sem nomear nem dar pista que entregue.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A estrutura atual é de 1930 (trecho em português), então 'esta estrutura' construída no século dezenove é ambíguo. Restringir à primeira versão, inaugurada em 1873.",
+      "reescrita": {
+        "pergunta": "Em que século foi inaugurada a primeira versão deste elevador?",
+        "resposta": "Século dezenove",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quioto confirmada nos trechos; pergunta sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Complexo fortificado em Moscou; o enunciado não nomeia o Kremlin.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palenque fica no sul do México, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ġgantija é templo megalítico neolítico; distratores do mesmo tipo, curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'líder religioso' que residiu até 1959 num palácio do Tibete responde-se sem a figura (Dalai Lama). Trocada por pergunta de tempo que exige reconhecer o palácio.",
+      "reescrita": {
+        "pergunta": "Em que século começou a construção do atual edifício deste palácio?",
+        "resposta": "Século dezessete",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de lugar sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído sob os Ptolomeus (237 a.C. a 57 a.C.), confirmado; enunciado não nomeia o templo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Criou o projeto' é ambíguo: os trechos dizem que Heitor da Silva Costa projetou e Landowski esculpiu. Pedir o escultor francês que criou a estátua.",
+      "reescrita": {
+        "pergunta": "Que escultor francês criou esta estátua, concluída em 1931?",
+        "resposta": "Paul Landowski",
+        "distratores": []
+      }
+    }
+  ]
+}

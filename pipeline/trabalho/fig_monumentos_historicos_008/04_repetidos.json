@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século foi inaugurada a primeira versão deste elevador?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05437",
+          "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+          "resposta": "Dom Pedro II"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este complexo fortificado?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q02001",
+          "pergunta": "Em russo, o que significa a palavra kremlin, que batiza a sede do governo em Moscou?",
+          "resposta": "Fortaleza"
+        },
+        {
+          "id": "q06921",
+          "pergunta": "Em que cidade fica este conjunto de muralhas, torres e palácios?",
+          "resposta": "Moscou"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que século começou a construção do atual edifício deste palácio?",
+        "resposta": "Século dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q05553",
+          "pergunta": "Construído no alto de uma colina, o Palácio de Potala, antiga residência dos dalai-lamas, fica em que cidade?",
+          "resposta": "Lhasa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que período da história do Egito foi construído este templo?",
+        "resposta": "Período ptolomaico"
+      },
+      "existentes": [
+        {
+          "id": "q06357",
+          "pergunta": "O templo de Hórus em Edfu, um dos mais bem conservados do Egito, foi construído na época de qual dinastia?",
+          "resposta": "Dinastia ptolemaica"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que escultor francês criou esta estátua, concluída em 1931?",
+        "resposta": "Paul Landowski"
+      },
+      "existentes": [
+        {
+          "id": "q02025",
+          "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+          "resposta": "Paul Landowski"
+        },
+        {
+          "id": "q02026",
+          "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século da conclusão da cúpula é diferente do arquiteto; embora o enunciado existente cite o século, a resposta pedida é outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q04541",
+      "motivo": "Mesmo fato: século da inauguração do Elevador Lacerda, mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q06921",
+      "motivo": "Mesma pergunta: cidade onde fica o Kremlin, mesma resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Século da construção é fato diferente da cidade onde fica o palácio."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q06357",
+      "motivo": "Período ptolomaico e dinastia ptolemaica são o mesmo fato sobre a construção do templo."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02025",
+      "motivo": "Mesma pergunta: escultor da estátua, mesma resposta."
+    }
+  ]
+}
