@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira clara e inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Coreia do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Coreia do Norte",
+        "descricao": "Bandeira nacional da Coreia do Norte, com faixas azuis, vermelha e um disco branco com estrela vermelha.",
+        "variantes": [
+          "Bandeira norte-coreana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; pergunta de segundo passo sem pista.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país europeu colonizou o país desta bandeira?",
+      "resposta": "Portugal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Cabo Verde",
+        "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+        "variantes": [
+          "Bandeira cabo-verdiana"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira distintiva, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Trinidad e Tobago",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Trinidad e Tobago",
+        "descricao": "Bandeira nacional de Trinidad e Tobago, vermelha com faixa diagonal preta bordada de branco.",
+        "variantes": [
+          "Bandeira de Trindade e Tobago"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bandeira vermelha e branca em duas faixas é praticamente idêntica à de Mônaco; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira clara, com crescente e estrela, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Malásia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Malásia",
+        "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+        "variantes": [
+          "Jalur Gemilang",
+          "Bandeira malaia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tricolor azul, preto e branco clara, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Tallinn",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Estônia",
+        "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+        "variantes": [
+          "Bandeira da Estónia",
+          "Bandeira estoniana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal vermelho, branco e verde, sem texto; reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Hungria",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Hungria",
+        "descricao": "Bandeira nacional da Hungria, tricolor horizontal vermelha, branca e verde.",
+        "variantes": [
+          "Bandeira húngara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com emblema característico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Adis Abeba",
+      "distratores": [
+        "Nairóbi",
+        "Cartum",
+        "Mogadíscio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Etiópia",
+        "descricao": "Bandeira nacional da Etiópia, tricolor verde, amarela e vermelha com disco azul e estrela amarela.",
+        "variantes": [
+          "Bandeira etíope"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira clara com triângulo amarelo e estrelas, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Bósnia e Herzegovina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Bósnia e Herzegovina",
+        "descricao": "Bandeira nacional da Bósnia e Herzegovina, azul com triângulo amarelo e fileira de estrelas brancas.",
+        "variantes": [
+          "Bandeira da Bósnia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tricolor vertical com estrela verde, sem texto; distinguível das parecidas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país fica quase totalmente cercado pelo país desta bandeira?",
+      "resposta": "Gâmbia",
+      "distratores": [
+        "Guiné-Bissau",
+        "Serra Leoa",
+        "Togo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Senegal",
+        "descricao": "Bandeira nacional do Senegal, tricolor vertical verde, amarela e vermelha com estrela verde central.",
+        "variantes": [
+          "Bandeira senegalesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O brasão central traz texto legível em fita (REPUBLICA DOMINICANA), que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Águia negra de duas cabeças sobre vermelho, inconfundível e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Albânia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Albânia",
+        "descricao": "Bandeira nacional da Albânia, vermelha com águia negra de duas cabeças.",
+        "variantes": [
+          "Bandeira albanesa"
+        ]
+      }
+    }
+  ]
+}

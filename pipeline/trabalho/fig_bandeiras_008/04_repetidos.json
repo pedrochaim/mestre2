@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Albânia"
+      },
+      "existentes": [
+        {
+          "id": "q04973",
+          "pergunta": "Uma águia negra de duas cabeças sobre fundo vermelho forma a bandeira de qual país dos Bálcãs?",
+          "resposta": "Albânia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04973",
+      "motivo": "Ambas perguntam qual país tem essa bandeira (Albânia); quem sabe a bandeira com a águia negra de duas cabeças responderia a outra."
+    }
+  ]
+}
