@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade nasceu este diplomata brasileiro do século dezenove?",
+        "resposta": "Recife"
+      },
+      "existentes": [
+        {
+          "id": "q05732",
+          "pergunta": "Este político e diplomata brasileiro do século dezenove morreu em que cidade?",
+          "resposta": "Washington"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é este cartunista brasileiro?",
+        "resposta": "Mauricio de Sousa"
+      },
+      "existentes": [
+        {
+          "id": "q04455",
+          "pergunta": "Antes de viver dos quadrinhos, Mauricio de Sousa foi repórter do jornal Folha da Manhã. Que tipo de notícia ele cobria?",
+          "resposta": "Notícias policiais"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que compositor é este, retratado em pintura?",
+        "resposta": "Ludwig van Beethoven"
+      },
+      "existentes": [
+        {
+          "id": "q03269",
+          "pergunta": "Na estreia da Nona Sinfonia, em 1824, uma cantora virou Beethoven de frente para a plateia. Por quê?",
+          "resposta": "Ele não ouvia os aplausos"
+        },
+        {
+          "id": "q05152",
+          "pergunta": "Beethoven passou quase toda a vida adulta em Viena, mas nasceu em qual cidade alemã às margens do Reno?",
+          "resposta": "Bonn"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que poeta romântico britânico é este?",
+        "resposta": "Lord Byron"
+      },
+      "existentes": [
+        {
+          "id": "q07014",
+          "pergunta": "A matemática inglesa Ada Lovelace, pioneira da programação de computadores, era filha de que poeta romântico?",
+          "resposta": "Lord Byron"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Local de nascimento vs. local de morte: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o cartunista (imagem) é diferente de saber que tipo de notícia ele cobria."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar Beethoven em pintura não equivale aos fatos sobre a Nona ou a cidade natal."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar Byron pela imagem difere de saber que ele era pai de Ada Lovelace."
+    }
+  ]
+}

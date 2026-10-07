@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto que entregue o nome (o microfone traz só a TV). Múltipla com cartunistas brasileiros.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este escritor e cartunista brasileiro?",
+      "resposta": "Ziraldo",
+      "distratores": [
+        "Mauricio de Sousa",
+        "Henfil",
+        "Millôr Fernandes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ziraldo",
+        "descricao": "Cartunista, escritor e jornalista brasileiro, criador do Menino Maluquinho (1932–2024).",
+        "variantes": [
+          "Ziraldo Alves Pinto"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro e característico (barba, gravata), com domínio público provável.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor do século dezenove é este?",
+      "resposta": "Johannes Brahms",
+      "distratores": [
+        "Richard Wagner",
+        "Anton Bruckner",
+        "Antonín Dvořák"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Johannes Brahms",
+        "descricao": "Compositor, pianista e regente alemão do Romantismo (1833–1897).",
+        "variantes": [
+          "Brahms"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro com o fardão acadêmico, sem texto. Pergunta de nível 3 sobre sua obra de memórias.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é o livro de memórias, publicado em 1900, deste escritor e diplomata brasileiro?",
+      "resposta": "Minha Formação",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Joaquim Nabuco",
+        "descricao": "Diplomata, historiador, escritor e abolicionista pernambucano, fundador da Academia Brasileira de Letras (1849–1910).",
+        "variantes": [
+          "Joaquim Aurélio Barreto Nabuco de Araújo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto. Múltipla com escritores franceses.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor francês do século vinte é este?",
+      "resposta": "Antoine de Saint-Exupéry",
+      "distratores": [
+        "Albert Camus",
+        "André Malraux",
+        "Jean Cocteau"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Antoine de Saint-Exupéry",
+        "descricao": "Escritor e aviador francês, autor de O Pequeno Príncipe (1900–1944).",
+        "variantes": [
+          "Saint-Exupéry",
+          "Antoine de Saint Exupéry"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato histórico em domínio público, pequeno mas legível e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor americano é este?",
+      "resposta": "George Gershwin",
+      "distratores": [
+        "Irving Berlin",
+        "Aaron Copland",
+        "Cole Porter"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "George Gershwin",
+        "descricao": "Compositor e pianista americano de Rhapsody in Blue e Porgy and Bess (1898–1937).",
+        "variantes": [
+          "Gershwin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; o fundo tem texto borrado e ilegível. Pergunta de nível 3 que não nomeia nem entrega pelo enunciado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pensador ficou famoso por aplicar que adjetivo à modernidade?",
+      "resposta": "Líquida",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Zygmunt Bauman",
+        "descricao": "Sociólogo e filósofo polonês-britânico, autor do conceito de modernidade líquida (1925–2017).",
+        "variantes": [
+          "Bauman"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto. Há pessoas ao fundo, mas desfocadas e secundárias.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este cartunista brasileiro?",
+      "resposta": "Mauricio de Sousa",
+      "distratores": [
+        "Ziraldo",
+        "Henfil",
+        "Angeli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mauricio de Sousa",
+        "descricao": "Cartunista brasileiro, criador da Turma da Mônica (nascido em 1935).",
+        "variantes": [
+          "Maurício de Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto. Múltipla com tenores da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tenor italiano é este?",
+      "resposta": "Enrico Caruso",
+      "distratores": [
+        "Beniamino Gigli",
+        "Tito Schipa",
+        "Giovanni Martinelli"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Enrico Caruso",
+        "descricao": "Tenor italiano de ópera, primeira grande estrela das gravações (1873–1921).",
+        "variantes": [
+          "Caruso"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução, tirada no meio de uma plateia com pessoas comuns em volta. A escritora é pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura famosa de Stieler em domínio público. O texto da partitura não nomeia o compositor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor é este, retratado em pintura?",
+      "resposta": "Ludwig van Beethoven",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Ludwig van Beethoven",
+        "descricao": "Compositor, pianista e regente alemão da transição do Classicismo ao Romantismo (1770–1827).",
+        "variantes": [
+          "Beethoven"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato a óleo bem conhecido, sem texto. Múltipla com poetas românticos britânicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta romântico britânico é este?",
+      "resposta": "Lord Byron",
+      "distratores": [
+        "Percy Shelley",
+        "John Keats",
+        "William Wordsworth"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lord Byron",
+        "descricao": "Poeta romântico britânico, autor de Don Juan e Childe Harold (1788–1824).",
+        "variantes": [
+          "George Gordon Byron",
+          "Lorde Byron"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, em tons de cinza. Não fica legível num celular e o retrato é pouco reconhecível."
+    }
+  ]
+}
