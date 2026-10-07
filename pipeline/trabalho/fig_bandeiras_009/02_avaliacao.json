@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Disco vermelho levemente deslocado sobre fundo verde, bandeira nítida e única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Bangladesh",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira de Bangladesh",
+        "descricao": "Bandeira atual de Bangladesh, país do sul da Ásia: disco vermelho sobre campo verde.",
+        "variantes": [
+          "Bandeira de Bangladesh"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tricolor com brasão xadrez inconfundível; a pergunta pede a capital, um passo além.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Zagreb",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira da Croácia",
+        "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+        "variantes": [
+          "Bandeira croata"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Listras pretas, amarelas e vermelhas com grou-coroado em disco branco, única.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Kampala",
+      "distratores": [
+        "Nairóbi",
+        "Kigali",
+        "Dar es Salaam"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Uganda",
+        "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+        "variantes": [
+          "Bandeira ugandense"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cruz tricolor com papagaio sisserou em disco vermelho, única; distratores podem confundir com facilidade.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Dominica",
+      "distratores": [
+        "República Dominicana",
+        "Granada",
+        "Santa Lúcia"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Dominica",
+        "descricao": "Bandeira atual de Dominica, ilha caribenha: cruz de três cores sobre verde com disco vermelho e um papagaio sisserou.",
+        "variantes": [
+          "Bandeira da Comunidade da Dominica"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O brasão traz texto visível ('República de Costa Rica', 'América Central') que entrega a resposta, embora minúsculo."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cinco listras, com azul larga ao centro; múltipla com distratores parecidos como Costa Rica.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Costa Rica",
+        "Rússia",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Tailândia",
+        "descricao": "Bandeira atual da Tailândia: cinco listras horizontais vermelha, branca, azul larga, branca e vermelha.",
+        "variantes": [
+          "Bandeira tailandesa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e única, com triângulo, estrela e pássaro; o nível 3 explora a origem do nome do país.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ruínas históricas deram nome ao país desta bandeira?",
+      "resposta": "Grande Zimbábue",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira do Zimbábue",
+        "descricao": "Bandeira atual do Zimbábue: listras horizontais com triângulo branco, estrela vermelha e o Pássaro do Zimbábue.",
+        "variantes": [
+          "Bandeira zimbabuana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Triângulo azul com faixas branca e vermelha, nítida e única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Tchéquia (República Tcheca)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira da Tchéquia",
+        "descricao": "Bandeira atual da Tchéquia: faixas branca e vermelha com triângulo azul junto à haste.",
+        "variantes": [
+          "Bandeira da República Tcheca",
+          "Bandeira tcheca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tricolor vertical laranja, branca e verde; bandeira única pela ordem das cores. Múltipla com distratores parecidos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Costa do Marfim",
+      "distratores": [
+        "Irlanda",
+        "Níger",
+        "Índia"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Costa do Marfim",
+        "descricao": "Bandeira atual da Costa do Marfim: três faixas verticais laranja, branca e verde, com o laranja junto à haste.",
+        "variantes": [
+          "Bandeira da Côte d'Ivoire"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tricolor azul, vermelha e verde com crescente e estrela de oito pontas, nítida e única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Azerbaijão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira do Azerbaijão",
+        "descricao": "Bandeira atual do Azerbaijão: faixas azul, vermelha e verde com crescente e estrela de oito pontas brancos.",
+        "variantes": [
+          "Bandeira azerbaijana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Verde e branco com crescente e estrela vermelhos, única; a pergunta pede a capital.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Argel",
+      "distratores": [
+        "Túnis",
+        "Rabat",
+        "Trípoli"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Argélia",
+        "descricao": "Bandeira atual da Argélia: metades verde e branca com crescente e estrela vermelhos ao centro.",
+        "variantes": [
+          "Bandeira argelina"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Tricolor vertical azul, amarela e vermelha, quase idêntica à do Chade; sem brasão, a resposta não é única."
+    }
+  ]
+}
