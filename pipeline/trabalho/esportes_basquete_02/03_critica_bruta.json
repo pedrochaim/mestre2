@@ -1,0 +1,410 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro jogo oficial da liga, no Maple Leaf Gardens, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O time não herdou o nome da cidade onde foi fundado; o nome homenageia o jazz, nascido em Nova Orleans.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O Utah Jazz nasceu em 1974 em outra cidade, e o nome homenageia a música que surgiu lá. Que cidade era essa?",
+        "resposta": "Nova Orleans",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Utah_Jazz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vancouver de 1995 a 2001 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mundial de 1959 no Chile, vencido pelo Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shanghai Sharks confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Visita de Rodman à Coreia do Norte em 2013 confirmada; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hospital Biamba Marie Mutombo na RD Congo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anúncio de Miami em The Decision confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regras compradas para o Kansas, onde Naismith foi técnico.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Infância na Itália confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Raptors foram o primeiro campeão de fora dos EUA; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cavaliers venceram em sete jogos após estar 3 a 1 abaixo; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sírio campeão mundial interclubes em 1979 com Oscar.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Argentina ouro em 2004.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "EUA venceram o Brasil na final de 1996.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Troféu fabricado pela Tiffany & Co.; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Takehiko Inoue confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A banda financiou a viagem; as camisetas foram criadas por Greg Speirs, então 'pagas por' é impreciso.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Em 1992, a seleção da Lituânia subiu ao pódio olímpico com camisetas coloridas de esqueleto, após ter a viagem financiada por qual banda de rock americana?",
+        "resposta": "Grateful Dead",
+        "distratores": [
+          "The Doors",
+          "Jefferson Airplane",
+          "Aerosmith"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Other_Dream_Team",
+          "https://en.wikipedia.org/wiki/Lithuania_men%27s_national_basketball_team"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alemanha campeã em 2023 sobre a Sérvia, primeiro título.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fusão e criação da NBA em 1949 confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia olímpica do 3x3 em Tóquio 2020.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Temporada 1997–98 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "FIBA introduziu a linha de três pontos em 1984.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recorde de pontos batido em 2023.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro jogo feminino universitário em 22 de março de 1893 com Berenson.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas uma das fontes é página de desambiguação; manter só a fonte válida.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Durante décadas, a NBA proibiu a defesa por zona. A partir de qual temporada esse tipo de marcação passou a ser permitido?",
+        "resposta": "2001–02",
+        "distratores": [
+          "1979–80",
+          "1991–92",
+          "2010–11"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Zone_defense"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os Globetrotters só jogaram no Harlem em 1968; fonte indica mudança para Nova York em 1968.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O nome Bulls remete aos currais e frigoríficos de Chicago; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome Celtics homenageia a população irlandesa de Boston.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte Knickerbocker é desambiguação; usar a página dos Knicks em português que sustenta o fato.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome Knicks, do time de Nova York, vem de Knickerbockers, apelido dos descendentes dos colonos de qual país?",
+        "resposta": "Holanda",
+        "distratores": [
+          "Inglaterra",
+          "França",
+          "Suécia"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/New_York_Knicks"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Alley-oop vem do francês 'allez hop'; ponte aérea é o termo brasileiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'Mailman' (Carteiro) confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Proibição de 1967 a 1976 atribuída ao domínio de Lew Alcindor.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alargamento do garrafão por causa de Mikan confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Nenhum trecho sustenta, e a data 'fim dos anos cinquenta' é imprecisa (a bola laranja de Hinkle é de 1950).",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que 'surgiu nos EUA' é impreciso, pois surgiu também no Reino Unido; reformular.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "A partir de 1946, o basquete em cadeira de rodas começou a ser jogado nos Estados Unidos, principalmente por quem?",
+        "resposta": "Veteranos feridos da Segunda Guerra",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wheelchair_basketball"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Motivo 'teria sido' é vago e a história é mistura de marketing e política de uniforme; resposta pouco precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aro a 3,05 m desde sempre, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "FIBA exclui na quinta falta (jogo de 40 minutos).",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze segundos de posse no 3x3 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Treze regras de Naismith confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kareem Abdul-Jabbar no elenco de Game of Death confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dupla Harrelson e Snipes confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olajuwon primeira escolha em 1984; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta óbvia pelo sobrenome compartilhado e o 'Jr.' evidente; pergunta fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naismith e Morgan eram ligados à YMCA; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Spurs têm cinco títulos, contra um dos Nuggets e nenhum de Pacers e Nets.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Garrafão FIBA virou retangular em 2010.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rick Barry, campeão em 1975 e famoso pelo arremesso por baixo.",
+      "reescrita": null
+    }
+  ]
+}

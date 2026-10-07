@@ -1,0 +1,121 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de virar astro do Lakers, Kobe Bryant passou boa parte da infância em qual país europeu, onde seu pai jogava basquete?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q01764",
+          "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+          "resposta": "Kill Bill"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem criou o mangá Slam Dunk, sobre um time de basquete de colégio no Japão?",
+        "resposta": "Takehiko Inoue"
+      },
+      "existentes": [
+        {
+          "id": "q05912",
+          "pergunta": "O mangá de basquete Slam Dunk, sucesso dos anos noventa, é obra de qual desenhista, também autor de Vagabond?",
+          "resposta": "Takehiko Inoue"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Depois de surgir nas ligas americanas, a cesta de três pontos foi adotada pela FIBA, nas competições internacionais, em que ano?",
+        "resposta": "1984"
+      },
+      "existentes": [
+        {
+          "id": "q01804",
+          "pergunta": "Em qual temporada a NBA passou a usar a cesta de três pontos?",
+          "resposta": "Temporada 1979–80"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ano LeBron James ultrapassou Kareem Abdul-Jabbar e se tornou o maior cestinha da história da NBA?",
+        "resposta": "2023"
+      },
+      "existentes": [
+        {
+          "id": "q04205",
+          "pergunta": "Quem é este astro do basquete?",
+          "resposta": "LeBron James"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Criados nos anos vinte, os Harlem Globetrotters demoraram a jogar no bairro que lhes dá nome. Em que década fizeram a primeira partida no Harlem?",
+        "resposta": "Década de 1960"
+      },
+      "existentes": [
+        {
+          "id": "q01795",
+          "pergunta": "Apesar do nome, os Harlem Globetrotters não surgiram em Nova York. Em qual cidade americana o time nasceu?",
+          "resposta": "Chicago"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Dos quatro times que vieram da liga ABA para a NBA em 1976, qual conquistou mais títulos da NBA?",
+        "resposta": "San Antonio Spurs"
+      },
+      "existentes": [
+        {
+          "id": "q01800",
+          "pergunta": "Em 1976, quatro times da ABA foram incorporados à NBA: Spurs, Pacers, Nets e qual time do Colorado?",
+          "resposta": "Denver Nuggets"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Infância na Itália é fato diferente da origem do apelido Black Mamba."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o autor de Slam Dunk, Takehiko Inoue.",
+      "id_existente": "q05912"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Adoção pela FIBA em 1984 é diferente da adoção pela NBA em 1979–80."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A existente pede só identificar o astro numa imagem; a nova pede o ano do recorde de pontos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade de origem e década da primeira partida no Harlem são fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Qual time tem mais títulos é diferente de qual é o quarto time da ABA."
+    }
+  ]
+}
