@@ -1,0 +1,1047 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "hermes",
+        "nome": "Hermès",
+        "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+        "variantes": [
+          "Hermes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas grifes de luxo foi fundada primeiro, ainda na primeira metade do século dezenove?",
+      "resposta": "Hermès",
+      "distratores": [
+        "Louis Vuitton",
+        "Chanel",
+        "Gucci"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s",
+        "https://en.wikipedia.org/wiki/Louis_Vuitton",
+        "https://en.wikipedia.org/wiki/Chanel",
+        "https://en.wikipedia.org/wiki/Gucci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ovelha merino",
+        "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+        "variantes": [
+          "Merino",
+          "Merina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Merino"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Originária da Espanha, qual raça de ovelha é famosa por ter uma das lãs mais finas e macias de todas as ovelhas?",
+      "resposta": "Merino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Merino"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "seda",
+        "nome": "Seda",
+        "descricao": "Fibra natural produzida a partir do casulo do bicho-da-seda, originária da China",
+        "variantes": [
+          "Silk"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Silk"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre as fibras naturais usadas em tecidos, qual é a única que já nasce como um fio contínuo de centenas de metros?",
+      "resposta": "Seda",
+      "fonte": [
+        "https://www.britannica.com/topic/silk",
+        "https://en.wikipedia.org/wiki/Silk"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "White tie",
+        "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+        "variantes": [
+          "Traje a rigor",
+          "Casaca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_tie"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Nos convites de festa em inglês, qual código de traje é considerado o mais formal de todos, acima até do black tie, e exige casaca?",
+      "resposta": "White tie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_tie"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vicunha",
+        "descricao": "Camelídeo selvagem dos Andes, parente da lhama, cuja lã é rara e caríssima",
+        "variantes": [
+          "Vicuña",
+          "Vicunha andina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vicu%C3%B1a"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes camelídeos dos Andes, qual fornece a lã mais fina?",
+      "resposta": "Vicunha",
+      "distratores": [
+        "Alpaca",
+        "Lhama",
+        "Guanaco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
+        "https://www.britannica.com/animal/vicuna"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lã angorá",
+        "descricao": "Fibra felpuda e macia tirada do pelo do coelho angorá",
+        "variantes": [
+          "Angorá",
+          "Angora wool"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angora_wool"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A lã angorá, bem felpuda e macia, é tirada do pelo de qual animal?",
+      "resposta": "Coelho",
+      "distratores": [
+        "Cabra",
+        "Ovelha",
+        "Alpaca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angora_wool"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Púrpura de Tiro",
+        "descricao": "Corante púrpura caríssimo da Antiguidade, produzido na Fenícia e associado à realeza",
+        "variantes": [
+          "Púrpura tíria",
+          "Tyrian purple",
+          "Púrpura imperial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tyrian_purple"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Antiguidade, a púrpura de Tiro, corante caríssimo usado nas roupas de reis e imperadores, era extraída de qual animal?",
+      "resposta": "Caramujo marinho (múrex)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tyrian_purple"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rubi",
+        "descricao": "Pedra preciosa vermelha, variedade do mineral coríndon",
+        "variantes": [
+          "Ruby"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ruby"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Nas joias, o rubi vermelho e a safira azul são, na verdade, variedades do mesmo mineral. Qual?",
+      "resposta": "Coríndon",
+      "distratores": [
+        "Quartzo",
+        "Berilo",
+        "Topázio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Corundum",
+        "https://en.wikipedia.org/wiki/Ruby"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ouro branco",
+        "descricao": "Liga de ouro com metais claros usada em joalheria, de cor prateada",
+        "variantes": [
+          "White gold"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colored_gold"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Para ficar bem claro e brilhante, o ouro branco das joias costuma receber um banho de qual metal?",
+      "resposta": "Ródio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colored_gold"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mackintosh",
+        "descricao": "Capa de chuva de tecido impermeabilizado criada pelo escocês Charles Macintosh no século dezenove",
+        "variantes": [
+          "Macintosh",
+          "Mac"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mackintosh"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A capa de chuva mackintosh, criada na Escócia no século dezenove, usava um tecido impermeabilizado com qual material?",
+      "resposta": "Borracha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mackintosh"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Roupa de mergulho",
+        "descricao": "Traje justo de borracha sintética que protege surfistas e mergulhadores do frio",
+        "variantes": [
+          "Wetsuit",
+          "Roupa de neoprene"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wetsuit"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As roupas justas que protegem surfistas e mergulhadores da água fria são feitas de qual borracha sintética?",
+      "resposta": "Neoprene",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wetsuit",
+        "https://en.wikipedia.org/wiki/Neoprene"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bearskin",
+        "descricao": "Chapéu alto e peludo usado pelos guardas de infantaria da realeza britânica",
+        "variantes": [
+          "Barretina de pele de urso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bearskin"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os altos chapéus pretos dos guardas que vigiam o Palácio de Buckingham, em Londres, são feitos com a pele de qual animal?",
+      "resposta": "Urso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bearskin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto anabela",
+        "descricao": "Salto em forma de cunha que ocupa toda a parte de baixo do calçado, popularizado por Salvatore Ferragamo",
+        "variantes": [
+          "Salto plataforma em cunha",
+          "Wedge heel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Salvatore_Ferragamo"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos anos trinta, com falta de aço na Itália, o sapateiro Salvatore Ferragamo criou seus saltos anabela usando qual material?",
+      "resposta": "Cortiça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Salvatore_Ferragamo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vestido de carne de Lady Gaga",
+        "descricao": "Vestido usado pela cantora Lady Gaga na premiação de videoclipes da MTV de 2010",
+        "variantes": [
+          "Meat dress"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Meat_dress_of_Lady_Gaga"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na premiação de videoclipes da MTV de 2010, a cantora Lady Gaga causou polêmica ao subir ao palco com um vestido feito de quê?",
+      "resposta": "Carne crua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Meat_dress_of_Lady_Gaga"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chapéu de castor",
+        "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+        "variantes": [
+          "Beaver hat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beaver_hat"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Entre os séculos dezessete e dezenove, os chapéus de feltro mais cobiçados da Europa eram feitos com o pelo de qual animal?",
+      "resposta": "Castor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beaver_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fraque",
+        "descricao": "Traje masculino formal de paletó com abas longas atrás e frente cortada em curva",
+        "variantes": [
+          "Morning coat",
+          "Morning dress"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Morning_dress"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O fraque, traje masculino de gala com abas compridas atrás, é próprio para cerimônias em qual período?",
+      "resposta": "Durante o dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Morning_dress"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tartã",
+        "descricao": "Tecido de lã com padrão xadrez de faixas cruzadas, típico da Escócia e usado nos kilts",
+        "variantes": [
+          "Tartan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tartan"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Escócia, os diferentes padrões xadrez do tartã, usados nos kilts, tradicionalmente identificam o quê?",
+      "resposta": "Os clãs",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tartan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Renda de bilro",
+        "descricao": "Renda artesanal feita trançando fios presos a pequenos fusos sobre uma almofada, tradicional no litoral brasileiro",
+        "variantes": [
+          "Renda de bilros",
+          "Bobbin lace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bobbin_lace"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na renda de bilro, tradicional no litoral brasileiro, as rendeiras trançam as linhas usando bilros. O que são os bilros?",
+      "resposta": "Pequenos fusos de madeira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bobbin_lace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Converse All Star",
+        "descricao": "Tênis de lona e sola de borracha da Converse, também chamado Chuck Taylor All Star",
+        "variantes": [
+          "Chuck Taylor All Star",
+          "All Star"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O tênis de lona Converse All Star foi criado originalmente para a prática de qual esporte?",
+      "resposta": "Basquete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Poulaine",
+        "descricao": "Sapato medieval europeu de bico longo e pontudo, moda nos séculos quatorze e quinze",
+        "variantes": [
+          "Crakow",
+          "Sapato de bico de proa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Poulaine"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Europa medieval, o comprimento da ponta dos sapatos chamados poulaine chegou a ser regulado por lei, de acordo com o quê?",
+      "resposta": "A posição social",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Poulaine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sapatinhos de rubi",
+        "descricao": "Sapatos mágicos usados por Dorothy no filme O Mágico de Oz, de 1939",
+        "variantes": [
+          "Ruby slippers",
+          "Sapatos de rubi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ruby_slippers"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No livro O Mágico de Oz, de 1900, de que cor eram os sapatos mágicos de Dorothy, que ficaram vermelhos no filme de 1939?",
+      "resposta": "Prateados",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruby_slippers"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Numeração inglesa de calçados",
+        "descricao": "Sistema de tamanhos de sapato usado no Reino Unido, baseado na antiga unidade barleycorn",
+        "variantes": [
+          "UK shoe size"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shoe_size"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na numeração inglesa de calçados, a diferença entre um número e o seguinte equivale ao comprimento de qual grão?",
+      "resposta": "Grão de cevada",
+      "distratores": [
+        "Grão de trigo",
+        "Grão de arroz",
+        "Grão de milho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shoe_size"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Giorgio Armani",
+        "descricao": "Estilista italiano nascido em 1934, fundador da grife Armani em Milão",
+        "variantes": [
+          "Armani"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giorgio_Armani"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de entrar no mundo da moda, o italiano Giorgio Armani chegou a cursar qual faculdade?",
+      "resposta": "Medicina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giorgio_Armani"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gore-Tex",
+        "descricao": "Membrana têxtil impermeável usada em jaquetas, botas e roupas de montanha",
+        "variantes": [
+          "Goretex"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gore-Tex"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O tecido Gore-Tex, usado em jaquetas de montanha, ficou famoso por ser impermeável à chuva e, ao mesmo tempo, o quê?",
+      "resposta": "Respirável",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gore-Tex"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gravata",
+        "descricao": "Tira de tecido usada ao redor do pescoço, sob o colarinho, e atada com um nó na frente",
+        "variantes": [
+          "Necktie",
+          "Cravat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Necktie"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra gravata nasceu na França do século dezessete, inspirada nos lenços de pescoço de mercenários de qual povo?",
+      "resposta": "Croatas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Necktie",
+        "https://pt.wikipedia.org/wiki/Gravata"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Camurça",
+        "descricao": "Couro de acabamento aveludado, lixado no lado de dentro da pele",
+        "variantes": [
+          "Suede"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suede"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em inglês, a camurça se chama suede, de uma expressão francesa que designava luvas vindas de qual país?",
+      "resposta": "Suécia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suede"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lantejoula",
+        "descricao": "Pequeno disco brilhante costurado em roupas como enfeite",
+        "variantes": [
+          "Paetê",
+          "Sequin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sequin"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra sequin, que designa a lantejoula em inglês, vem de uma antiga moeda de ouro cunhada em qual cidade italiana?",
+      "resposta": "Veneza",
+      "distratores": [
+        "Florença",
+        "Gênova",
+        "Milão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sequin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Leotard",
+        "descricao": "Malha inteiriça e justa usada em ginástica e balé, chamada collant no Brasil",
+        "variantes": [
+          "Collant",
+          "Malha de ginástica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leotard"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O collant de ginástica e balé se chama leotard em inglês, em homenagem a um artista francês do século dezenove famoso em qual aparelho de circo?",
+      "resposta": "Trapézio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leotard",
+        "https://en.wikipedia.org/wiki/Jules_L%C3%A9otard"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pied-de-poule",
+        "descricao": "Padrão têxtil de quadradinhos recortados em duas cores, geralmente preto e branco",
+        "variantes": [
+          "Houndstooth",
+          "Pé de galinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Houndstooth"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O padrão de tecido pied-de-poule, de quadradinhos recortados, tem um nome francês que significa pé de qual animal?",
+      "resposta": "Galinha",
+      "distratores": [
+        "Pato",
+        "Pombo",
+        "Ganso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Houndstooth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Seersucker",
+        "descricao": "Tecido leve de algodão, listrado e com textura enrugada, usado em ternos de verão",
+        "variantes": [
+          "Anarruga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seersucker"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do tecido listrado e enrugado seersucker vem do persa e significa leite e o quê?",
+      "resposta": "Açúcar",
+      "distratores": [
+        "Mel",
+        "Sal",
+        "Café"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seersucker"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Twiggy",
+        "descricao": "Modelo britânica Lesley Hornby, ícone da moda londrina dos anos sessenta",
+        "variantes": [
+          "Lesley Hornby",
+          "Lesley Lawson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twiggy"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ícone da Londres dos anos sessenta, a modelo Lesley Hornby ganhou o apelido Twiggy por causa de quê?",
+      "resposta": "Da magreza, como um graveto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twiggy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Miss Dior",
+        "descricao": "Perfume lançado por Christian Dior em 1947",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Miss_Dior"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O perfume Miss Dior, de 1947, homenageia qual parente do estilista Christian Dior, que lutou na Resistência Francesa?",
+      "resposta": "Sua irmã Catherine",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Miss_Dior",
+        "https://en.wikipedia.org/wiki/Catherine_Dior"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Relógio Cartier Santos",
+        "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont",
+        "variantes": [
+          "Santos de Cartier"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que aviador brasileiro dá nome a um famoso relógio de pulso da Cartier, criado para ele em 1904?",
+      "resposta": "Alberto Santos-Dumont",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "https://en.wikipedia.org/wiki/Cartier_(jeweler)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bandana",
+        "descricao": "Lenço quadrado estampado usado na cabeça ou no pescoço",
+        "variantes": [
+          "Bandanna"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bandana"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra bandana vem do hindi e se refere a um tingimento em que, antes de ir à tinta, o tecido é o quê?",
+      "resposta": "Amarrado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bandana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salvatore Ferragamo",
+        "descricao": "Sapateiro italiano (1898–1960), fundador da grife de calçados que leva seu nome",
+        "variantes": [
+          "Ferragamo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Salvatore_Ferragamo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O sapateiro Salvatore Ferragamo e o estilista Emilio Pucci instalaram suas famosas grifes na mesma cidade italiana. Qual?",
+      "resposta": "Florença",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Salvatore_Ferragamo",
+        "https://en.wikipedia.org/wiki/Emilio_Pucci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Karl Lagerfeld",
+        "descricao": "Estilista alemão (1933–2019), diretor criativo da Chanel e da Fendi",
+        "variantes": [
+          "Lagerfeld"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1954, o jovem Karl Lagerfeld foi premiado num concurso de moda em Paris na mesma noite que qual futuro estilista francês?",
+      "resposta": "Yves Saint Laurent",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karl_Lagerfeld",
+        "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sapato Oxford",
+        "descricao": "Sapato social clássico de amarrar, com o cabedal fechado sobre a lingueta",
+        "variantes": [
+          "Oxford"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oxford_shoe"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Um sapato social clássico de amarrar e um tecido de algodão para camisas levam o nome de qual cidade universitária inglesa?",
+      "resposta": "Oxford",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oxford_shoe",
+        "https://en.wikipedia.org/wiki/Oxford_(cloth)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fred Perry",
+        "descricao": "Marca britânica de roupas com logotipo de coroa de louros, fundada pelo tenista Fred Perry",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fred_Perry"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A marca britânica de camisas polo Fred Perry, com sua coroa de louros, tem o que em comum com a francesa Lacoste?",
+      "resposta": "Foram fundadas por campeões de tênis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fred_Perry",
+        "https://en.wikipedia.org/wiki/Lacoste"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "zuzu_angel",
+        "nome": "Zuzu Angel",
+        "descricao": "Estilista brasileira nascida em Curvelo, Minas Gerais, que denunciou a ditadura militar por meio da moda",
+        "variantes": [
+          "Zuleika Angel Jones"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Zuzu_Angel"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que compositor brasileiro homenageou a estilista Zuzu Angel e seu filho desaparecido na canção Angélica?",
+      "resposta": "Chico Buarque",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Zuzu_Angel",
+        "https://en.wikipedia.org/wiki/Zuzu_Angel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pérola",
+        "descricao": "Gema orgânica formada dentro da concha de ostras e mexilhões",
+        "variantes": [
+          "Pearl"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pearl"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Dentro de ostras e mexilhões, as pérolas naturais se formam como reação a quê?",
+      "resposta": "Um irritante que invade a concha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pearl"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gibão de couro",
+        "descricao": "Casaco de couro do vaqueiro nordestino, usado com chapéu e perneiras do mesmo material",
+        "variantes": [
+          "Roupa de couro do vaqueiro",
+          "Gibão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vaqueiro"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que o vaqueiro nordestino usa tradicionalmente chapéu, gibão e perneiras de couro para tocar o gado no sertão?",
+      "resposta": "Para se proteger dos espinhos da caatinga",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vaqueiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alfinete de segurança",
+        "descricao": "Alfinete com mola e presilha que protege a ponta, patenteado pelo americano Walter Hunt em 1849",
+        "variantes": [
+          "Alfinete de fralda",
+          "Safety pin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Safety_pin"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a história, em 1849 o americano Walter Hunt criou o alfinete de segurança dobrando um arame. Qual era a motivação dele?",
+      "resposta": "Pagar uma dívida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Safety_pin",
+        "https://en.wikipedia.org/wiki/Walter_Hunt_(inventor)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Louis Vuitton",
+        "descricao": "Fabricante francês de malas (1821–1892), fundador da grife que leva seu nome",
+        "variantes": [
+          "Louis Vuitton (estilista)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, Louis Vuitton fez fama com baús de tampa plana, em vez das tampas arredondadas comuns na época. Qual era a vantagem?",
+      "resposta": "Podiam ser empilhados",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coco_chanel",
+        "nome": "Coco Chanel",
+        "descricao": "Estilista francesa Gabrielle Chanel, fundadora da grife Chanel",
+        "variantes": [
+          "Gabrielle Chanel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coco_Chanel"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos vinte, Coco Chanel ajudou a pôr na moda algo que antes era visto como marca de quem trabalhava ao ar livre. O quê?",
+      "resposta": "A pele bronzeada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sun_tanning"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha fina trançada à mão com folhas da palmeira toquilla",
+        "variantes": [
+          "Panamá",
+          "Panama hat",
+          "Sombrero de paja toquilla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_hat"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Apesar do nome, o tradicional chapéu-panamá, de palha fina trançada à mão, é originário de qual país?",
+      "resposta": "Equador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panama_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pierre Cardin",
+        "descricao": "Estilista francês (1922–2020), conhecido pela moda futurista da era espacial",
+        "variantes": [
+          "Pietro Cardin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pierre_Cardin"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O estilista Pierre Cardin, ícone da moda francesa e da estética espacial dos anos sessenta, nasceu em qual país?",
+      "resposta": "Itália",
+      "distratores": [
+        "Bélgica",
+        "Suíça",
+        "Espanha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pierre_Cardin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chita",
+        "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+        "variantes": [
+          "Chitão",
+          "Chintz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chintz"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A chita, tecido de algodão de estampas florais coloridas muito usado nas festas juninas, tem origem em qual país?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chintz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Converse All Star",
+        "descricao": "Tênis de lona e sola de borracha da Converse, também chamado Chuck Taylor All Star",
+        "variantes": [
+          "Chuck Taylor All Star",
+          "All Star"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O tênis de cano alto Converse All Star chegou ao mercado americano durante qual guerra?",
+      "resposta": "Primeira Guerra Mundial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fustanela",
+        "descricao": "Saia masculina pregueada tradicional dos Bálcãs, usada pelos evzones, a guarda presidencial grega",
+        "variantes": [
+          "Fustanella"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fustanella"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, a saia fustanela dos guardas presidenciais gregos tem uma prega para cada ano de domínio otomano. Quantas são?",
+      "resposta": "Quatrocentas",
+      "distratores": [
+        "Cem",
+        "Duzentas",
+        "Trezentas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Evzones",
+        "https://en.wikipedia.org/wiki/Fustanella"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vestido de noiva branco",
+        "descricao": "Tradição ocidental de a noiva se casar vestida de branco",
+        "variantes": [
+          "White wedding"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_wedding"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O costume de a noiva se casar de branco ganhou força no Ocidente depois do casamento de qual rainha, em 1840?",
+      "resposta": "Rainha Vitória",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_wedding"
+      ]
+    }
+  ]
+}

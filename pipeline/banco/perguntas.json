@@ -131769,5 +131769,627 @@
       "autor": "Thomas Phillips",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q07710",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "hermes",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas grifes de luxo foi fundada primeiro, ainda na primeira metade do século dezenove?",
+    "resposta": "Hermès",
+    "distratores": [
+      "Louis Vuitton",
+      "Chanel",
+      "Gucci"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herm%C3%A8s",
+      "https://en.wikipedia.org/wiki/Louis_Vuitton",
+      "https://en.wikipedia.org/wiki/Chanel",
+      "https://en.wikipedia.org/wiki/Gucci"
+    ]
+  },
+  {
+    "id": "q07711",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "ovelha_merino",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Criada na Península Ibérica e mantida por séculos como monopólio espanhol, qual raça de ovelha é famosa pela lã fina e macia?",
+    "resposta": "Merino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Merino"
+    ]
+  },
+  {
+    "id": "q07712",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "seda",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário do algodão e da lã, qual fibra natural não é fiada, pois sai do casulo de um inseto como um fio contínuo de centenas de metros?",
+    "resposta": "Seda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silk"
+    ]
+  },
+  {
+    "id": "q07713",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "white_tie",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Nos convites de festa em inglês, qual código de traje é considerado o mais formal de todos, acima até do black tie, e exige casaca?",
+    "resposta": "White tie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_tie"
+    ]
+  },
+  {
+    "id": "q07714",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "vicunha",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes camelídeos dos Andes, qual fornece a lã mais fina?",
+    "resposta": "Vicunha",
+    "distratores": [
+      "Alpaca",
+      "Lhama",
+      "Guanaco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
+      "https://www.britannica.com/animal/vicuna"
+    ]
+  },
+  {
+    "id": "q07715",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "la_angora",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A lã angorá, bem felpuda e macia, é tirada do pelo de qual animal?",
+    "resposta": "Coelho",
+    "distratores": [
+      "Cabra",
+      "Ovelha",
+      "Alpaca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angora_wool"
+    ]
+  },
+  {
+    "id": "q07716",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "purpura_de_tiro",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Antiguidade, a púrpura de Tiro, corante caríssimo usado nas roupas de reis e imperadores, era extraída de qual animal?",
+    "resposta": "Caramujo marinho (múrex)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tyrian_purple"
+    ]
+  },
+  {
+    "id": "q07717",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "rubi",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Nas joias, o rubi vermelho e a safira azul são, na verdade, variedades do mesmo mineral. Qual?",
+    "resposta": "Coríndon",
+    "distratores": [
+      "Quartzo",
+      "Berilo",
+      "Topázio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corundum",
+      "https://en.wikipedia.org/wiki/Ruby"
+    ]
+  },
+  {
+    "id": "q07718",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "ouro_branco",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Para ficar bem claro e brilhante, o ouro branco das joias costuma receber um banho de qual metal?",
+    "resposta": "Ródio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colored_gold"
+    ]
+  },
+  {
+    "id": "q07719",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "mackintosh",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A capa de chuva mackintosh, criada na Escócia no século dezenove, usava um tecido impermeabilizado com qual material?",
+    "resposta": "Borracha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mackintosh_(raincoat)"
+    ]
+  },
+  {
+    "id": "q07720",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "roupa_de_mergulho",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As roupas justas que protegem surfistas e mergulhadores da água fria são feitas de qual borracha sintética?",
+    "resposta": "Neoprene",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wetsuit",
+      "https://en.wikipedia.org/wiki/Neoprene"
+    ]
+  },
+  {
+    "id": "q07721",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "bearskin",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os altos chapéus pretos dos guardas que vigiam o Palácio de Buckingham, em Londres, são feitos com a pele de qual animal?",
+    "resposta": "Urso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bearskin"
+    ]
+  },
+  {
+    "id": "q07722",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "salto_anabela",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nos anos trinta, em resposta à escassez de materiais, o sapateiro Salvatore Ferragamo desenvolveu saltos anabela usando qual material?",
+    "resposta": "Cortiça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Salvatore_Ferragamo"
+    ]
+  },
+  {
+    "id": "q07723",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "vestido_de_carne_de_lady_gaga",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na premiação de videoclipes da MTV de 2010, a cantora Lady Gaga causou polêmica ao subir ao palco com um vestido feito de quê?",
+    "resposta": "Carne crua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meat_dress_of_Lady_Gaga"
+    ]
+  },
+  {
+    "id": "q07724",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "chapeu_de_castor",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Entre os séculos dezessete e dezenove, os chapéus de feltro mais cobiçados da Europa eram feitos com o pelo de qual animal?",
+    "resposta": "Castor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaver_hat"
+    ]
+  },
+  {
+    "id": "q07725",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "fraque",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O fraque, traje masculino de gala com abas compridas atrás, é próprio para cerimônias em qual período?",
+    "resposta": "Durante o dia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Morning_dress"
+    ]
+  },
+  {
+    "id": "q07726",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "renda_de_bilro",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na renda de bilro, tradicional no litoral brasileiro, as rendeiras trançam as linhas usando bilros. O que são os bilros?",
+    "resposta": "Pequenos fusos de madeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bobbin_lace"
+    ]
+  },
+  {
+    "id": "q07727",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "converse_all_star",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O tênis de lona Converse All Star foi criado originalmente para a prática de qual esporte?",
+    "resposta": "Basquete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+    ]
+  },
+  {
+    "id": "q07728",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "poulaine",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na Europa medieval, o comprimento da ponta dos sapatos chamados poulaine chegou a ser regulado por lei, de acordo com o quê?",
+    "resposta": "A posição social",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poulaine"
+    ]
+  },
+  {
+    "id": "q07729",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "sapatinhos_de_rubi",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No livro O Mágico de Oz, de 1900, de que cor eram os sapatos mágicos de Dorothy, que ficaram vermelhos no filme de 1939?",
+    "resposta": "Prateados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ruby_slippers"
+    ]
+  },
+  {
+    "id": "q07730",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "numeracao_inglesa_de_calcados",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na numeração inglesa de calçados, a diferença entre um número e o seguinte equivale ao comprimento de qual grão?",
+    "resposta": "Grão de cevada",
+    "distratores": [
+      "Grão de trigo",
+      "Grão de arroz",
+      "Grão de milho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shoe_size"
+    ]
+  },
+  {
+    "id": "q07731",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "giorgio_armani",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de entrar no mundo da moda, o italiano Giorgio Armani chegou a cursar qual faculdade?",
+    "resposta": "Medicina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giorgio_Armani"
+    ]
+  },
+  {
+    "id": "q07732",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "gore_tex",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O tecido Gore-Tex, usado em jaquetas de montanha, ficou famoso por ser impermeável à chuva e, ao mesmo tempo, o quê?",
+    "resposta": "Respirável",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gore-Tex"
+    ]
+  },
+  {
+    "id": "q07733",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "camurca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, a camurça se chama suede, de uma expressão francesa que designava luvas vindas de qual país?",
+    "resposta": "Suécia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suede"
+    ]
+  },
+  {
+    "id": "q07734",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "lantejoula",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra sequin, que designa a lantejoula em inglês, vem de uma antiga moeda de ouro cunhada em qual cidade italiana?",
+    "resposta": "Veneza",
+    "distratores": [
+      "Florença",
+      "Gênova",
+      "Milão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sequin"
+    ]
+  },
+  {
+    "id": "q07735",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "leotard",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O collant de ginástica e balé se chama leotard em inglês, em homenagem a um artista francês do século dezenove famoso em qual aparelho de circo?",
+    "resposta": "Trapézio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leotard",
+      "https://en.wikipedia.org/wiki/Jules_L%C3%A9otard"
+    ]
+  },
+  {
+    "id": "q07736",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "pied_de_poule",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O padrão de tecido pied-de-poule, de quadradinhos recortados, tem um nome francês que significa pé de qual animal?",
+    "resposta": "Galinha",
+    "distratores": [
+      "Pato",
+      "Pombo",
+      "Ganso"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Houndstooth"
+    ]
+  },
+  {
+    "id": "q07737",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "seersucker",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do tecido listrado e enrugado seersucker vem do persa e significa leite e o quê?",
+    "resposta": "Açúcar",
+    "distratores": [
+      "Mel",
+      "Sal",
+      "Café"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Seersucker"
+    ]
+  },
+  {
+    "id": "q07738",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "twiggy",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Ícone da Londres dos anos sessenta, a modelo Lesley Hornby ganhou o apelido Twiggy por causa de quê?",
+    "resposta": "Da magreza, como um graveto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twiggy"
+    ]
+  },
+  {
+    "id": "q07739",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "miss_dior",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O perfume Miss Dior, de 1947, homenageia qual parente do estilista Christian Dior, que lutou na Resistência Francesa?",
+    "resposta": "Sua irmã Catherine",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miss_Dior",
+      "https://en.wikipedia.org/wiki/Catherine_Dior"
+    ]
+  },
+  {
+    "id": "q07740",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "bandana",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra bandana vem do hindi e se refere a um tingimento em que, antes de ir à tinta, o tecido é o quê?",
+    "resposta": "Amarrado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bandana"
+    ]
+  },
+  {
+    "id": "q07741",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "salvatore_ferragamo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O sapateiro Salvatore Ferragamo e o estilista Emilio Pucci instalaram suas famosas grifes na mesma cidade italiana. Qual?",
+    "resposta": "Florença",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Salvatore_Ferragamo",
+      "https://en.wikipedia.org/wiki/Emilio_Pucci"
+    ]
+  },
+  {
+    "id": "q07742",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "karl_lagerfeld",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Num concurso de moda do Secretariado Internacional da Lã, nos anos cinquenta, Karl Lagerfeld venceu e fez amizade com outro vencedor, futuro estilista francês. Quem?",
+    "resposta": "Yves Saint Laurent",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+    ]
+  },
+  {
+    "id": "q07743",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "sapato_oxford",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Um sapato social clássico de amarrar e um tecido de algodão para camisas levam o nome de qual cidade universitária inglesa?",
+    "resposta": "Oxford",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oxford_shoe",
+      "https://en.wikipedia.org/wiki/Oxford_(cloth)"
+    ]
+  },
+  {
+    "id": "q07744",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "fred_perry_2",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A marca britânica de camisas polo Fred Perry e a francesa Lacoste levam o nome de campeões de qual esporte?",
+    "resposta": "Tênis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fred_Perry",
+      "https://en.wikipedia.org/wiki/Lacoste"
+    ]
+  },
+  {
+    "id": "q07745",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "zuzu_angel",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que compositor brasileiro homenageou a estilista Zuzu Angel e seu filho desaparecido na canção Angélica?",
+    "resposta": "Chico Buarque",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zuzu_Angel",
+      "https://en.wikipedia.org/wiki/Zuzu_Angel"
+    ]
+  },
+  {
+    "id": "q07746",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "perola",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Dentro de ostras e mexilhões, as pérolas naturais se formam como reação a quê?",
+    "resposta": "Um irritante que invade a concha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pearl"
+    ]
+  },
+  {
+    "id": "q07747",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "gibao_de_couro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o vaqueiro nordestino usa tradicionalmente chapéu, gibão e perneiras de couro para tocar o gado no sertão?",
+    "resposta": "Para se proteger dos espinhos da caatinga",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vaqueiro"
+    ]
+  },
+  {
+    "id": "q07748",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "louis_vuitton",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, Louis Vuitton fez fama com baús de tampa plana, em vez das tampas arredondadas comuns na época. Qual era a vantagem?",
+    "resposta": "Podiam ser empilhados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)"
+    ]
+  },
+  {
+    "id": "q07749",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "coco_chanel",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos vinte, Coco Chanel ajudou a pôr na moda algo que antes era visto como marca de quem trabalhava ao ar livre. O quê?",
+    "resposta": "A pele bronzeada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun_tanning"
+    ]
+  },
+  {
+    "id": "q07750",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "pierre_cardin",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O estilista Pierre Cardin, ícone da moda francesa e da estética espacial dos anos sessenta, nasceu em qual país?",
+    "resposta": "Itália",
+    "distratores": [
+      "Bélgica",
+      "Suíça",
+      "Espanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pierre_Cardin"
+    ]
+  },
+  {
+    "id": "q07751",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "chita",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A chita, tecido de algodão de estampas florais coloridas muito usado nas festas juninas, tem origem em qual país?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chintz"
+    ]
+  },
+  {
+    "id": "q07752",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "fustanela",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição, a saia fustanela dos guardas presidenciais gregos tem uma prega para cada ano de domínio otomano. Quantas são?",
+    "resposta": "Quatrocentas",
+    "distratores": [
+      "Cem",
+      "Duzentas",
+      "Trezentas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Evzones",
+      "https://en.wikipedia.org/wiki/Fustanella"
+    ]
   }
 ]

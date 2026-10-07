@@ -1,0 +1,403 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em 1837 confere; as outras são de 1854, 1910 e 1921.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz Península Ibérica, não só Espanha; corrigir a origem.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Criada na Península Ibérica e mantida por séculos como monopólio espanhol, qual raça de ovelha é famosa pela lã fina e macia?",
+        "resposta": "Merino",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Merino"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Única' é falso: a fonte diz 'a maioria das outras fibras'; há também a seda de aranha.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Ao contrário do algodão e da lã, qual fibra natural não é fiada, pois sai do casulo de um inseto como um fio contínuo de centenas de metros?",
+        "resposta": "Seda",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Silk"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "White tie é o código mais formal e exige casaca; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A vicunha tem a lã mais fina e valiosa entre os camelídeos andinos; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angorá vem do coelho angorá; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corante extraído de caramujos múrex; fato sólido.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rubi e safira são variedades do coríndon.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O banho de ródio no ouro branco é fato bem documentado, embora o trecho não o mostre.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte é página de desambiguação; trocar pela do casaco, fato (borracha) conhecido.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "A capa de chuva mackintosh, criada na Escócia no século dezenove, usava um tecido impermeabilizado com qual material?",
+        "resposta": "Borracha",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mackintosh_(raincoat)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roupas de mergulho são de neoprene, borracha sintética.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os chapéus dos guardas reais são de pele de urso; fato conhecido, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Falta de aço' e 'criou' não estão sustentados; a fonte diz que desenvolveu, por escassez de materiais.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Nos anos trinta, em resposta à escassez de materiais, o sapateiro Salvatore Ferragamo desenvolveu saltos anabela usando qual material?",
+        "resposta": "Cortiça",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Salvatore_Ferragamo"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vestido de carne crua no VMA 2010; fato exato.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapéus de pelo de castor, moda na Europa por séculos.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fraque é o traje de cerimônia diurno.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os tartãs simbolizam os clãs escoceses, conforme a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bilros são pequenas peças de madeira torneada; resposta correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desenvolvido como tênis de basquete.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Leis suntuárias limitavam o comprimento da ponta conforme a posição social; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "No livro de 1900 os sapatos eram de prata; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Na numeração inglesa, cada número equivale a um grão de cevada (barleycorn).",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armani cursou medicina por três anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gore-Tex é impermeável e respirável.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cravate vem dos mercenários croatas na França do século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Suede vem de 'gants de Suède', luvas da Suécia; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sequin vem do ducado veneziano (zecchino).",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jules Léotard desenvolveu a arte do trapézio.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pied-de-poule significa pé de galinha; fato certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seersucker vem do persa 'leite e açúcar'.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido veio de 'Twigs' (graveto), pela magreza.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Perfume homenageia a irmã Catherine Dior, da Resistência.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santos-Dumont inspirou o relógio Santos de Cartier, de 1904.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandana vem do hindi 'tingimento de amarrar'.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ferragamo e Pucci tinham base em Florença.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que ele venceu em 1955, e 'mesma noite em Paris' não é sustentado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Num concurso de moda do Secretariado Internacional da Lã, nos anos cinquenta, Karl Lagerfeld venceu e fez amizade com outro vencedor, futuro estilista francês. Quem?",
+        "resposta": "Yves Saint Laurent",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sapato Oxford e tecido Oxford; resposta única, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fundadas por campeões' é impreciso (Fred Perry foi cofundada); simplificar para o esporte em comum.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A marca britânica de camisas polo Fred Perry e a francesa Lacoste levam o nome de campeões de qual esporte?",
+        "resposta": "Tênis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Fred_Perry",
+          "https://en.wikipedia.org/wiki/Lacoste"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chico Buarque compôs Angélica em homenagem a Zuzu Angel.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pérolas se formam em reação a um irritante.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O couro protege dos espinhos da caatinga; fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hunt criou o alfinete para pagar uma dívida, 'segundo a história'.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Baús de tampa plana podiam ser empilhados; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chanel popularizou o bronzeado nos anos vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O chapéu-panamá é originário do Equador.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cardin nasceu na Itália; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A chita tem origem na Índia.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A data fica imprecisa: o modelo de 1917 não tinha o nome All Star, que veio por volta de 1922; o fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A tradição das 400 pregas está na fonte, e a pergunta diz 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vitória usou vestido branco em 1840 e popularizou o costume.",
+      "reescrita": null
+    }
+  ]
+}
