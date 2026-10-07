@@ -136308,5 +136308,629 @@
       "licenca": "CC BY 2.5 cn"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q07980",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "pico_da_neblina",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na Serra do Imeri, no noroeste do Amazonas, qual montanha é o ponto mais alto do Brasil?",
+    "resposta": "Pico da Neblina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_da_Neblina"
+    ]
+  },
+  {
+    "id": "q07981",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "minas_gerais",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Com mais de oitocentos municípios, qual estado brasileiro é o campeão em número de municípios?",
+    "resposta": "Minas Gerais",
+    "distratores": [
+      "São Paulo",
+      "Bahia",
+      "Rio Grande do Sul"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Minas_Gerais",
+      "https://pt.wikipedia.org/wiki/Lista_de_municípios_de_Minas_Gerais"
+    ]
+  },
+  {
+    "id": "q07982",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "porto_alegre",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital do estado mais meridional do Brasil?",
+    "resposta": "Porto Alegre",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Porto_Alegre"
+    ]
+  },
+  {
+    "id": "q07983",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "rio_branco",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Olhando o mapa do Brasil, qual capital estadual aparece mais a oeste?",
+    "resposta": "Rio Branco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Branco_(Acre)"
+    ]
+  },
+  {
+    "id": "q07984",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "para",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os sete estados da Região Norte, qual tem a maior população?",
+    "resposta": "Pará",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pará",
+      "https://pt.wikipedia.org/wiki/Região_Norte_do_Brasil"
+    ]
+  },
+  {
+    "id": "q07985",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "amazonas_estado",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Vizinho do Peru, da Colômbia e da Venezuela, qual estado brasileiro faz fronteira com o maior número de países?",
+    "resposta": "Amazonas",
+    "distratores": [
+      "Acre",
+      "Roraima",
+      "Pará"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Amazonas",
+      "https://en.wikipedia.org/wiki/Amazonas_(Brazilian_state)"
+    ]
+  },
+  {
+    "id": "q07986",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "regiao_sul_do_brasil",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual das cinco grandes regiões brasileiras tem a menor área?",
+    "resposta": "Região Sul",
+    "distratores": [
+      "Região Sudeste",
+      "Região Centro-Oeste",
+      "Região Nordeste"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Região_Sul_do_Brasil",
+      "https://pt.wikipedia.org/wiki/Regiões_do_Brasil"
+    ]
+  },
+  {
+    "id": "q07987",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "pico_das_agulhas_negras",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No Parque Nacional do Itatiaia, qual pico é o ponto mais alto do estado do Rio de Janeiro?",
+    "resposta": "Pico das Agulhas Negras",
+    "distratores": [
+      "Pedra do Sino",
+      "Dedo de Deus",
+      "Pedra da Gávea"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_das_Agulhas_Negras"
+    ]
+  },
+  {
+    "id": "q07988",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "teresina",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre as nove capitais do Nordeste, qual é a única situada no interior, longe do mar?",
+    "resposta": "Teresina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teresina"
+    ]
+  },
+  {
+    "id": "q07989",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "distrito_federal",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como não pode ter municípios, o Distrito Federal tem o território dividido em quê?",
+    "resposta": "Regiões administrativas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)",
+      "https://pt.wikipedia.org/wiki/Regiões_administrativas_do_Distrito_Federal"
+    ]
+  },
+  {
+    "id": "q07990",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "distrito_federal",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Distrito Federal fica quase todo cercado por Goiás. Que outro estado também faz divisa com ele?",
+    "resposta": "Minas Gerais",
+    "distratores": [
+      "Bahia",
+      "Tocantins",
+      "Mato Grosso"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)"
+    ]
+  },
+  {
+    "id": "q07991",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "arquipelago_de_sao_pedro_e_sao_paulo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As rochas do Arquipélago de São Pedro e São Paulo são raras porque vêm de qual camada profunda da Terra, exposta acima do mar?",
+    "resposta": "Manto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo"
+    ]
+  },
+  {
+    "id": "q07992",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilhabela",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O município paulista de Ilhabela ocupa um arquipélago inteiro. Qual é a maior ilha dele?",
+    "resposta": "Ilha de São Sebastião",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilhabela",
+      "https://pt.wikipedia.org/wiki/Ilha_de_São_Sebastião"
+    ]
+  },
+  {
+    "id": "q07993",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "baia_de_todos_os_santos",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "De frente para Salvador, qual é a maior ilha da Baía de Todos-os-Santos?",
+    "resposta": "Ilha de Itaparica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+      "https://pt.wikipedia.org/wiki/Ilha_de_Itaparica"
+    ]
+  },
+  {
+    "id": "q07994",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "baia_de_guanabara",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Qual ilha da Baía de Guanabara abriga o aeroporto internacional do Galeão?",
+    "resposta": "Ilha do Governador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Governador",
+      "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_do_Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "q07995",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "matopiba",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Matopiba, fronteira agrícola do cerrado, junta as sílabas iniciais de quatro estados. Quais são eles?",
+    "resposta": "Maranhão, Tocantins, Piauí e Bahia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Matopiba"
+    ]
+  },
+  {
+    "id": "q07996",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "mata_dos_cocais",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na Mata dos Cocais, entre o Maranhão e o Piauí, o babaçu divide a paisagem com qual palmeira, famosa pela cera?",
+    "resposta": "Carnaúba",
+    "distratores": [
+      "Buriti",
+      "Açaí",
+      "Pupunha"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mata_dos_Cocais"
+    ]
+  },
+  {
+    "id": "q07997",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "rio_tiete",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O rio Tietê nasce a poucos quilômetros do litoral paulista. Em vez de seguir para o mar, ele corre para onde?",
+    "resposta": "Para o interior",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Tietê"
+    ]
+  },
+  {
+    "id": "q07998",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "serra_da_canastra",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Famosa também pelo queijo, a Serra da Canastra, em Minas Gerais, guarda a nascente histórica de qual rio, que depois atravessa o sertão nordestino?",
+    "resposta": "Rio São Francisco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Canastra"
+    ]
+  },
+  {
+    "id": "q07999",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "salto_do_yucuma",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No rio Uruguai, o Salto do Yucumã tem quase dois quilômetros de quedas. O que há de incomum na direção delas?",
+    "resposta": "Correm paralelas ao rio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salto_do_Yucumã"
+    ]
+  },
+  {
+    "id": "q08000",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "manaus",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que regime de incentivos fiscais, criado em 1967, transformou Manaus num grande polo industrial no meio da floresta?",
+    "resposta": "Zona Franca",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zona_Franca_de_Manaus",
+      "https://pt.wikipedia.org/wiki/Manaus"
+    ]
+  },
+  {
+    "id": "q08001",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "cuiaba",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Um obelisco no centro de Cuiabá marca o ponto calculado como centro geodésico de qual região?",
+    "resposta": "América do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cuiabá"
+    ]
+  },
+  {
+    "id": "q08002",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ponte_hercilio_luz",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+    "resposta": "Ponte Hercílio Luz",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponte_Hercílio_Luz"
+    ]
+  },
+  {
+    "id": "q08003",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "estrada_real",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "No Brasil colonial, que caminho oficial levava o ouro e os diamantes de Minas Gerais até os portos de Paraty e do Rio?",
+    "resposta": "Estrada Real",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estrada_Real"
+    ]
+  },
+  {
+    "id": "q08004",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "bico_do_papagaio",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão?",
+    "resposta": "Bico do Papagaio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tocantins"
+    ]
+  },
+  {
+    "id": "q08005",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ceara",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No romance Iracema, José de Alencar explica que o nome Ceará quer dizer o canto de qual ave?",
+    "resposta": "Jandaia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ceará"
+    ]
+  },
+  {
+    "id": "q08006",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "sergipe",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Vindo do tupi, o nome do estado de Sergipe costuma ser traduzido como rio de quais animais?",
+    "resposta": "Siris",
+    "distratores": [
+      "Jacarés",
+      "Camarões",
+      "Piranhas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sergipe"
+    ]
+  },
+  {
+    "id": "q08007",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "curitiba",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "De origem tupi, o nome Curitiba faz referência à fartura de qual árvore na região?",
+    "resposta": "Araucária",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curitiba"
+    ]
+  },
+  {
+    "id": "q08008",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "pororoca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome pororoca, a grande onda que sobe a foz do Amazonas, vem do tupi. O que ele quer dizer?",
+    "resposta": "Estrondo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pororoca"
+    ]
+  },
+  {
+    "id": "q08009",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ubatuba",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que linha imaginária corta a cidade paulista de Ubatuba e também os estados do Paraná e de Mato Grosso do Sul?",
+    "resposta": "Trópico de Capricórnio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ubatuba",
+      "https://pt.wikipedia.org/wiki/Trópico_de_Capricórnio"
+    ]
+  },
+  {
+    "id": "q08010",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "diamantina",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a mineira Diamantina, a pernambucana Olinda e a antiga capital goiana, a Cidade de Goiás, têm em comum?",
+    "resposta": "São Patrimônio Mundial da UNESCO",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Diamantina",
+      "https://pt.wikipedia.org/wiki/Lista_do_Patrimônio_Mundial_no_Brasil"
+    ]
+  },
+  {
+    "id": "q08011",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "campo_grande",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Quando se fala do relógio em relação ao horário de Brasília, o que Campo Grande, Cuiabá e Manaus têm em comum?",
+    "resposta": "Uma hora atrás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Time_in_Brazil",
+      "https://pt.wikipedia.org/wiki/Campo_Grande_(Mato_Grosso_do_Sul)"
+    ]
+  },
+  {
+    "id": "q08012",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "foz_do_iguacu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a brasileira Foz do Iguaçu, a argentina Puerto Iguazú e a paraguaia Ciudad del Este têm em comum?",
+    "resposta": "Formam a Tríplice Fronteira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Foz_do_Iguaçu",
+      "https://pt.wikipedia.org/wiki/Tríplice_Fronteira"
+    ]
+  },
+  {
+    "id": "q08013",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "petropolis",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Vizinhas na serra fluminense, Petrópolis e Teresópolis homenageiam em seus nomes qual casal imperial?",
+    "resposta": "Dom Pedro II e Teresa Cristina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Petrópolis",
+      "https://pt.wikipedia.org/wiki/Teresópolis"
+    ]
+  },
+  {
+    "id": "q08014",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "cajueiro_de_pirangi",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Perto de Natal, o Cajueiro de Pirangi parece um bosque, mas é uma árvore só. O que acontece com seus galhos para ele crescer tanto?",
+    "resposta": "Criam raízes ao tocar o chão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cajueiro_de_Pirangi"
+    ]
+  },
+  {
+    "id": "q08015",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "arraial_do_cabo",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A água surpreendentemente fria das praias de Arraial do Cabo, no Rio de Janeiro, se deve a qual fenômeno oceânico?",
+    "resposta": "Ressurgência",
+    "distratores": [
+      "El Niño",
+      "Corrente do Brasil",
+      "Maré de sizígia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arraial_do_Cabo",
+      "https://pt.wikipedia.org/wiki/Ressurgência"
+    ]
+  },
+  {
+    "id": "q08016",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilheus",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No início do século vinte, Ilhéus, no sul da Bahia, enriqueceu com qual lavoura, retratada nos romances de Jorge Amado?",
+    "resposta": "Cacau",
+    "distratores": [
+      "Café",
+      "Cana-de-açúcar",
+      "Algodão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilhéus"
+    ]
+  },
+  {
+    "id": "q08017",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "lago_paranoa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O Lago Paranoá foi criado artificialmente em Brasília para amenizar qual característica do clima da região?",
+    "resposta": "Baixa umidade do ar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lago_Paranoá"
+    ]
+  },
+  {
+    "id": "q08018",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "chapada_dos_veadeiros",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Cânions, cachoeiras e rochas cheias de cristais de quartzo atraem visitantes à Chapada dos Veadeiros. Em que estado ela fica?",
+    "resposta": "Goiás",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chapada_dos_Veadeiros"
+    ]
+  },
+  {
+    "id": "q08019",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "serra_do_rio_do_rastro",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Famosa pela estrada que sobe a encosta em dezenas de curvas fechadas, a Serra do Rio do Rastro fica em que estado?",
+    "resposta": "Santa Catarina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serra_do_Rio_do_Rastro"
+    ]
+  },
+  {
+    "id": "q08020",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilha_do_maranhao",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A ilha onde fica a capital maranhense, São Luís, é dividida entre quantos municípios?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/São_Luís_Island"
+    ]
+  },
+  {
+    "id": "q08021",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "fusos_horarios_do_brasil",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Contando as ilhas oceânicas, quantos fusos horários tem o território brasileiro?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Dois",
+      "Três",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Time_in_Brazil"
+    ]
+  },
+  {
+    "id": "q08022",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "goiania",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Goiânia foi planejada para substituir a antiga Cidade de Goiás como capital do estado. Em que década ela foi fundada?",
+    "resposta": "Década de 1930",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Goiânia"
+    ]
   }
 ]

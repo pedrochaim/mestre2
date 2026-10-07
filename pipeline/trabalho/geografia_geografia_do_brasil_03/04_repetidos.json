@@ -1,0 +1,457 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na Serra do Imeri, no noroeste do Amazonas, qual montanha é o ponto mais alto do Brasil?",
+        "resposta": "Pico da Neblina"
+      },
+      "existentes": [
+        {
+          "id": "q02069",
+          "pergunta": "Perto da fronteira com a Venezuela, em que estado brasileiro fica o Pico da Neblina?",
+          "resposta": "Amazonas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Banhada ao mesmo tempo por rio e por mar, qual ilha paraense é considerada a maior ilha fluviomarítima do mundo?",
+        "resposta": "Ilha de Marajó"
+      },
+      "existentes": [
+        {
+          "id": "q02231",
+          "pergunta": "Que ilha paraense, na foz do rio Amazonas, é considerada a maior ilha fluviomarinha do mundo?",
+          "resposta": "Ilha de Marajó"
+        },
+        {
+          "id": "q02445",
+          "pergunta": "Que animal de origem asiática, criado em grandes rebanhos, virou símbolo da Ilha de Marajó, onde é usado até como montaria?",
+          "resposta": "Búfalo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é a capital do estado mais meridional do Brasil?",
+        "resposta": "Porto Alegre"
+      },
+      "existentes": [
+        {
+          "id": "q03949",
+          "pergunta": "Que capital brasileira aparece nesta vista aérea?",
+          "resposta": "Porto Alegre"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Olhando o mapa do Brasil, qual capital estadual aparece mais a oeste?",
+        "resposta": "Rio Branco"
+      },
+      "existentes": [
+        {
+          "id": "q04557",
+          "pergunta": "A capital do Acre homenageia qual diplomata, que negociou com a Bolívia a incorporação do território ao Brasil?",
+          "resposta": "Barão do Rio Branco"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Entre os sete estados da Região Norte, qual tem a maior população?",
+        "resposta": "Pará"
+      },
+      "existentes": [
+        {
+          "id": "q01845",
+          "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+          "resposta": "Belém"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Entre as nove capitais do Nordeste, qual é a única situada no interior, longe do mar?",
+        "resposta": "Teresina"
+      },
+      "existentes": [
+        {
+          "id": "q02409",
+          "pergunta": "A capital do Piauí recebeu seu nome em homenagem a qual imperatriz do Brasil?",
+          "resposta": "Teresa Cristina"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Como não pode ter municípios, o Distrito Federal tem o território dividido em quê?",
+        "resposta": "Regiões administrativas"
+      },
+      "existentes": [
+        {
+          "id": "q06200",
+          "pergunta": "Que unidade da federação brasileira está destacada neste mapa?",
+          "resposta": "Distrito Federal"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O Distrito Federal fica quase todo cercado por Goiás. Que outro estado também faz divisa com ele?",
+        "resposta": "Minas Gerais"
+      },
+      "existentes": [
+        {
+          "id": "q06200",
+          "pergunta": "Que unidade da federação brasileira está destacada neste mapa?",
+          "resposta": "Distrito Federal"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "As rochas do Arquipélago de São Pedro e São Paulo são raras porque vêm de qual camada profunda da Terra, exposta acima do mar?",
+        "resposta": "Manto"
+      },
+      "existentes": [
+        {
+          "id": "q05830",
+          "pergunta": "O arquipélago de São Pedro e São Paulo, rochedos isolados no Atlântico perto da linha do Equador, pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Isolados no meio do Atlântico, perto do Equador, os rochedos do Arquipélago de São Pedro e São Paulo pertencem a qual estado?",
+        "resposta": "Pernambuco"
+      },
+      "existentes": [
+        {
+          "id": "q05830",
+          "pergunta": "O arquipélago de São Pedro e São Paulo, rochedos isolados no Atlântico perto da linha do Equador, pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "De frente para Salvador, qual é a maior ilha da Baía de Todos-os-Santos?",
+        "resposta": "Ilha de Itaparica"
+      },
+      "existentes": [
+        {
+          "id": "q02411",
+          "pergunta": "A Baía de Todos os Santos ganhou esse nome por ter sido alcançada por navegadores portugueses em que dia de 1501?",
+          "resposta": "Primeiro de novembro"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Qual ilha da Baía de Guanabara abriga o aeroporto internacional do Galeão?",
+        "resposta": "Ilha do Governador"
+      },
+      "existentes": [
+        {
+          "id": "q04404",
+          "pergunta": "Que baía brasileira é esta?",
+          "resposta": "Baía de Guanabara"
+        },
+        {
+          "id": "q07161",
+          "pergunta": "Em janeiro de 1502, navegadores portugueses chegaram à baía de Guanabara e deram ao lugar um nome que hoje é de cidade e de estado. Qual?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Na Mata dos Cocais, entre o Maranhão e o Piauí, o babaçu divide a paisagem com qual palmeira, famosa pela cera?",
+        "resposta": "Carnaúba"
+      },
+      "existentes": [
+        {
+          "id": "q06247",
+          "pergunta": "A Mata dos Cocais, dominada pelas palmeiras babaçu e carnaúba, fica principalmente em que estados brasileiros?",
+          "resposta": "Maranhão e Piauí"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O rio Tietê nasce a poucos quilômetros do litoral paulista. Em vez de seguir para o mar, ele corre para onde?",
+        "resposta": "Para o interior"
+      },
+      "existentes": [
+        {
+          "id": "q02148",
+          "pergunta": "O rio Tietê nasce a cerca de vinte quilômetros do litoral paulista, mas corre para o interior. Que barreira natural explica isso?",
+          "resposta": "Serra do Mar"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "No rio Uruguai, o Salto do Yucumã tem quase dois quilômetros de quedas. O que há de incomum na direção delas?",
+        "resposta": "Correm paralelas ao rio"
+      },
+      "existentes": [
+        {
+          "id": "q06700",
+          "pergunta": "O Salto do Yucumã, cujas quedas correm ao longo do rio Uruguai por cerca de dois quilômetros, fica na fronteira da Argentina com qual estado brasileiro?",
+          "resposta": "Rio Grande do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Hoje um paraíso turístico, a Ilha Grande, no litoral fluminense, abrigou até os anos noventa que tipo de instituição famosa?",
+        "resposta": "Um presídio"
+      },
+      "existentes": [
+        {
+          "id": "q02207",
+          "pergunta": "Durante boa parte do século vinte, a Ilha Grande, no litoral fluminense, ficou longe do turismo porque abrigava o quê?",
+          "resposta": "Um presídio"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+        "resposta": "Ponte Hercílio Luz"
+      },
+      "existentes": [
+        {
+          "id": "q02036",
+          "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+          "resposta": "Anos 1920"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No romance Iracema, José de Alencar explica que o nome Ceará quer dizer o canto de qual ave?",
+        "resposta": "Jandaia"
+      },
+      "existentes": [
+        {
+          "id": "q04472",
+          "pergunta": "Que estado brasileiro está destacado neste mapa?",
+          "resposta": "Ceará"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Vindo do tupi, o nome do estado de Sergipe costuma ser traduzido como rio de quais animais?",
+        "resposta": "Siris"
+      },
+      "existentes": [
+        {
+          "id": "q01849",
+          "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+          "resposta": "Aracaju"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "De origem tupi, o nome Curitiba faz referência à fartura de qual árvore na região?",
+        "resposta": "Araucária"
+      },
+      "existentes": [
+        {
+          "id": "q04538",
+          "pergunta": "Que arquiteto, prefeito de Curitiba nos anos 1970, fechou a Rua das Flores para pedestres e criou as canaletas exclusivas de ônibus?",
+          "resposta": "Jaime Lerner"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O nome pororoca, a grande onda que sobe a foz do Amazonas, vem do tupi. O que ele quer dizer?",
+        "resposta": "Estrondo"
+      },
+      "existentes": [
+        {
+          "id": "q02141",
+          "pergunta": "Que encontro de forças provoca a pororoca, a onda que avança rio acima na foz do Amazonas?",
+          "resposta": "Maré oceânica contra a correnteza"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Entre as dunas brancas dos Lençóis Maranhenses surgem lagoas azuis e verdes. De onde vem a água que as enche?",
+        "resposta": "Da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Perto de Natal, o Cajueiro de Pirangi parece um bosque, mas é uma árvore só. O que acontece com seus galhos para ele crescer tanto?",
+        "resposta": "Criam raízes ao tocar o chão"
+      },
+      "existentes": [
+        {
+          "id": "q06064",
+          "pergunta": "O Cajueiro de Pirangi, cuja copa cobre cerca de oito mil metros quadrados e parece um bosque inteiro, fica em que estado brasileiro?",
+          "resposta": "Rio Grande do Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o nome do pico; existente pergunta o estado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: maior ilha fluviomarítima é Marajó.",
+      "id_existente": "q02231"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Capital do estado mais meridional vs. reconhecer imagem aérea; fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Capital mais a oeste vs. origem do nome da capital do Acre."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estado mais populoso do Norte vs. capital de estado em mapa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Capital do interior vs. homenageada no nome."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Divisão territorial vs. identificação no mapa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Divisa com Minas vs. identificação no mapa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem das rochas vs. estado a que pertence."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: estado do arquipélago.",
+      "id_existente": "q05830"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Maior ilha vs. data do nome da baía."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Ilha do aeroporto vs. outros fatos da baía."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Outra palmeira vs. estados onde fica."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nova pergunta para onde corre o rio; existente pergunta a barreira (Serra do Mar). Fatos distintos, embora relacionados."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Direção das quedas vs. estado da fronteira."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Ambas: a Ilha Grande abrigava um presídio.",
+      "id_existente": "q02207"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nome da ponte vs. década de inauguração."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. identificar estado no mapa."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. capital."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. prefeito urbanista."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. causa do fenômeno."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: água das lagoas vem da chuva.",
+      "id_existente": "q02075"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Como cresce vs. estado onde fica."
+    }
+  ]
+}

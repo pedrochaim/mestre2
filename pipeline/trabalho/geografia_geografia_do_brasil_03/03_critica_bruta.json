@@ -1,0 +1,426 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O cume fica 687 m dentro do Brasil, não exatamente na fronteira; ajustar o enunciado.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Na Serra do Imeri, no noroeste do Amazonas, qual montanha é o ponto mais alto do Brasil?",
+        "resposta": "Pico da Neblina",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pico_da_Neblina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Minas tem 853 municípios, o maior número; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte e bem redigida.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o enunciado está agramatical ('capital de estado mais meridional').",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Qual é a capital do estado mais meridional do Brasil?",
+        "resposta": "Porto Alegre",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Porto_Alegre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Branco é a capital mais ocidental.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pará é o mais populoso da Região Norte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amazonas faz fronteira com três países, mais que os distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Região Sul é a menor, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado; distratores do mesmo estado, críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teresina é a única capital nordestina fora do litoral.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Divisa com Minas Gerais confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fontes inválidas e o termo para a via das asas é ambíguo (Eixo Rodoviário/Eixão).",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte em inglês é inexistente; manter só a fonte em português.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "As rochas do Arquipélago de São Pedro e São Paulo são raras porque vêm de qual camada profunda da Terra, exposta acima do mar?",
+        "resposta": "Manto",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pertence a Pernambuco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilha de São Sebastião é a maior do arquipélago.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaparica é a maior ilha da baía.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galeão fica na Ilha do Governador.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta é sobre a origem do nome, ângulo mais específico: nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Matopiba, fronteira agrícola do cerrado, junta as sílabas iniciais de quatro estados. Quais são eles?",
+        "resposta": "Maranhão, Tocantins, Piauí e Bahia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Matopiba"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carnaúba é a palmeira da cera ao lado do babaçu.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tietê nasce a 22 km do mar e corre para o interior.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Outros rios (Grande, Paranaíba) também têm nascentes na serra; especificar a nascente histórica.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Famosa também pelo queijo, a Serra da Canastra, em Minas Gerais, guarda a nascente histórica de qual rio, que depois atravessa o sertão nordestino?",
+        "resposta": "Rio São Francisco",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Canastra"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte em inglês é inexistente; usar só a fonte em português.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No rio Uruguai, o Salto do Yucumã tem quase dois quilômetros de quedas. O que há de incomum na direção delas?",
+        "resposta": "Correm paralelas ao rio",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Salto_do_Yucumã"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zona Franca de Manaus, instituída em 1967.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Centro geodésico da América do Sul confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte em inglês não menciona o presídio; trocar pela fonte em português que menciona a desativação.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Hoje um paraíso turístico, a Ilha Grande, no litoral fluminense, abrigou até os anos noventa que tipo de instituição famosa?",
+        "resposta": "Um presídio",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ilha_Grande_(Angra_dos_Reis)"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patrimônio Mundial em 1987, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponte Hercílio Luz, inaugurada em 1926.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estrada Real era o caminho oficial do ouro e dos diamantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Formato curvo' não é sustentado; fonte principal não trata do tema.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Como se chama a região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão?",
+        "resposta": "Bico do Papagaio",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Tocantins"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ceará como o cantar da jandaia, segundo Alencar.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sergipe significa rio dos siris.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Curitiba significa pinhal/muito pinhão, ligado à araucária; pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte dá 'aquilo que é sinuoso'; o significado é contestado, sem resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pororoca significa estrondo.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trópico de Capricórnio corta Ubatuba, o Paraná e Mato Grosso do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As três cidades são Patrimônio Mundial; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As três cidades estão uma hora atrás de Brasília.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As três formam a Tríplice Fronteira.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nomes homenageiam Pedro II e Teresa Cristina.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lagoas se enchem na estação chuvosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galhos criam raízes ao tocar o solo.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ressurgência confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cacau confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lago criado para aumentar a umidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapada dos Veadeiros fica em Goiás.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serra do Rio do Rastro fica em Santa Catarina.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado em inglês, mas a fonte em português é inexistente.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "A ilha onde fica a capital maranhense, São Luís, é dividida entre quantos municípios?",
+        "resposta": "Quatro",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/São_Luís_Island"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro fusos horários, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Goiânia foi fundada em 1933, década de 1930.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,1580 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Geografia do Brasil** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Pico da Neblina",
+      "descricao": "Montanha da Serra do Imeri, no Amazonas, na fronteira com a Venezuela, ponto mais alto do Brasil."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na fronteira do Amazonas com a Venezuela, qual montanha é o ponto mais alto do Brasil?",
+    "resposta": "Pico da Neblina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_da_Neblina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pico_da_Neblina",
+        "situacao": "ok",
+        "texto": "Pico da Neblina (pronúncia em português: [ˈpiku dɐ neˈblĩnɐ]) é a montanha mais alta do Brasil, com 2995,30 m de altitude. Ergue-se no noroeste do Amazonas, na Serra da Neblina, parte da Serra do Imeri, próximo à borda sul do Planalto das Guianas. O cume fica cerca de 687 m dentro do território brasileiro. O vizinho Pico 31 de Março, segundo ponto mais alto do país, com 2974,18 m, fica diretamente\n[…]\nEm 1955, Bassett Maguire e Charles D. Reynolds já usavam Cerro de la Neblina em publicação. Neblina significa névoa ou neblina. Na Venezuela, Cerro de la Neblina e Serranía La Neblina são usados para o maciço. No Brasil, Pico da Neblina designa o cume mais alto, enquanto Serra da Neblina designa as montanhas ao redor. Pico da Neblina já era o nome federal quando o parque nacional foi criado em 1979.\n[…]\nO maciço da Neblina atravessa a fronteira entre Brasil e Venezuela, mas seu cume mais alto não. O Pico da Neblina fica cerca de 687 m dentro do Brasil.\n[…]\nO Pico da Neblina se ergue na parte ocidental do Escudo das Guianas, integrante do antigo Cráton Amazônico. O maciço da Neblina fica próximo à borda sul das terras altas do Pantepui, separado de outros blocos montanhosos elevados do Escudo das Guianas por terrenos muito mais baixos. Estende-se por cerca de 50 km de norte a sul e 20 km de leste a oeste, com a maior parte do maciço na Venezuela.\n[…]\nA partir de 2001, militares de infantaria da Força Aérea Brasileira em Manaus passaram a subir o Pico da Neblina por volta do Dia da Bandeira, em 19 de novembro, para substituir a bandeira brasileira no cume. Chegar ao topo exigia dias de viagem a pé a partir da região de Maturacá. A bandeira antiga era queimada durante a cerimônia do Dia da Bandeira e uma nova era hasteada em um mastro de quatro metros no ponto mais alto do Brasil.\n[…]\nParque Nacional do Pico da Neblina no Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Minas Gerais",
+      "descricao": "Estado da Região Sudeste do Brasil, com capital em Belo Horizonte."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Com mais de oitocentos municípios, qual estado brasileiro é o campeão em número de municípios?",
+    "resposta": "Minas Gerais",
+    "distratores": [
+      "São Paulo",
+      "Bahia",
+      "Rio Grande do Sul"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Minas_Gerais",
+      "https://pt.wikipedia.org/wiki/Lista_de_municípios_de_Minas_Gerais"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Minas_Gerais",
+        "situacao": "ok",
+        "texto": "Minas Gerais é uma das 27 unidades federativas do Brasil, sendo o quarto estado com a maior área territorial e o segundo em número de habitantes, com uma população estimada de 21 393 441 em 2025. Localizada na Região Sudeste do país, limita-se ao sul e sudoeste com São Paulo, a oeste com Mato Grosso do Sul, a noroeste com Goiás e Distrito Federal, a norte e nordeste com a Bahia, a leste com o Espí\n[…]\nO estado possui ainda mais de oitocentos quilômetros de gasodutos administrados pela Companhia de Gás de Minas Gerais.\n[…]\nMinas Gerais é o estado com o maior número de instituições federais de ensino superior do país, abrigando 20 instituições, sendo 8 Institutos Federais, 1 Centro Federal e 11 Universidades Federais. Conta ainda com duas instituições estaduais: a Universidade do Estado de Minas Gerais e a Universidade Estadual de Montes Claros, além de cerca de 350 faculdades e universidades particulares e filantrópicas presentes em mais de 240 municípios.\n[…]\nEm Minas Gerais, situam-se alguns dos maiores espaços teatrais do Brasil, tais como o Teatro Municipal de Ouro Preto, que também é o teatro mais antigo das Américas, inaugurado no século XVIII; o Cine-Theatro Central, em Juiz de Fora, cuja importância arquitetônica e histórica culminou no tombamento pelo IPHAN; o Palácio das Artes de Belo Horizonte, que é considerado como o maior centro de produção, formação e difusão cultural do estado e um dos maiores da América Latina, sendo mantido pela Fundação Clóvis Salgado, que oferece à população uma série de programações artísticas e de atividades educativas; o Centro Cultural Usiminas, em Ipatinga, considerado como um dos mais modernos do país e mantido pelo Instituto Cultural Usiminas; e o Centro Cultural Banco do Brasil, em Belo Horizonte, mantido pelo Banco do Brasil.\n[…]\nLista de municípios de Minas Gerais por área urbana\n[…]\nLista de municípios de Minas Gerais por população"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_municípios_de_Minas_Gerais",
+        "situacao": "ok",
+        "texto": "Esta é uma lista de municípios do estado de Minas Gerais em ordem alfabética, com o seu respectivo código IBGE de identificação e o mapa de localização no estado. Seu território possui 853 municípios, o maior número dentre as unidades da federação, correspondendo a 15,32% do total de municípios do país.\n[…]\nLista de municípios de Minas Gerais por área\n[…]\nLista de municípios de Minas Gerais por área urbana\n[…]\nLista de municípios de Minas Gerais por população"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Ilha de Marajó",
+      "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Banhada ao mesmo tempo por rio e por mar, qual ilha paraense é considerada a maior ilha fluviomarítima do mundo?",
+    "resposta": "Ilha de Marajó",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_de_Marajó"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_Marajó",
+        "situacao": "ok",
+        "texto": "A Ilha do Marajó (inicialmente chamada de Marinatambal) é uma ilha costeira do tipo fluviomarítima situada na Área de Proteção Ambiental do arquipélago do Marajó, no estado do Pará, na região norte do Brasil. Considerada, segundo algumas fontes, a maior ilha fluviomarítima do planeta.\n[…]\nCom uma área de 40.100 km², é a maior ilha costeira do Brasil e a maior ilha fluviomarítima do planeta (banhada ao mesmo tempo tanto por águas fluviais quanto por oceânicas), banhada pelo rio Amazonas a oeste e noroeste, pelo oceano Atlântico ao norte e nordeste, pela baía do Marajó a leste e sudeste e pelo complexo de canais distributários do rio Tocantins e do rio Pará a sul.\n[…]\nMarajós é a maior ilha fluviomarinha do mundo e possui uma rica biodiversidade devido à sua localização estratégica entre a floresta amazônica e o oceano Atlântico .\n[…]\nAinda no setor primário, uma das atividades de maior importância para a Ilha do Marajó é a pecuária extensiva de búfalos, chamada de bubalinocultura. O leite e seus derivados estão entre os principais produtos dessa atividade, seguidos da carne.[carece de fontes]?\n[…]\nA cultura marajoara, uma antiga civilização indígena que floresceu na região entre os séculos 5 e 14 d.C., deixou um rico legado arqueológico na ilha. Suas cerâmicas decoradas são mundialmente conhecidas e podem ser encontradas em museus ao redor do Brasil .\n[…]\nMarajoaras\n[…]\nArte marajoara\n[…]\nVoz do Marajó\n[…]\nIlha de Marajó, PA\n[…]\nVariação lexical e fonética na ilha do Marajó\n[…]\nArtigo \"O Ecoturismo na Ilha do Marajó\", de Indio Campos\n[…]\nArtigo \"A Ilha de Marajo: estudo economico-social\" (1956), de Manuel Nunes Pereira, Divisão de Caca e Pesca - SIA/DNPA\n[…]\nArtigo \"Uma interpretação das culturas da Ilha de Marajó\" (1954), de Betty Jane Meggers e Clifford Evans, Instituto de Antropologia e Etnologia do Pará"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Porto Alegre",
+      "descricao": "Capital do Rio Grande do Sul, na margem leste do lago Guaíba."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital de estado mais meridional do Brasil?",
+    "resposta": "Porto Alegre",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Porto_Alegre"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Porto_Alegre",
+        "situacao": "ok",
+        "texto": "Porto Alegre ([ˈpoʁtu aˈlɛɡɾi] ()) é a capital do estado brasileiro do Rio Grande do Sul. Com uma área de quase 500 km², encontra-se sobre um terreno diversificado, com morros, baixadas e um grande lago: o Guaíba. Está a 2 027 km da capital nacional, Brasília.\n[…]\nPorto Alegre é a capital do estado mais meridional do Brasil, o Rio Grande do Sul, situando-se em torno do paralelo 30º - entre 29º10'30'' sul e 30º10'00'' sul - e do meridiano 50º - entre 51º05'00'' oeste e 51º16'15'' oeste. Está a 2 027 km de Brasília.\n[…]\nOutra tendência que desde os anos 1970 vem sendo apontada, não apenas em Porto Alegre, mas em todas as capitais brasileiras, é o progressivo declínio do comércio varejista de rua para a organização em centros comerciais. Entretanto, mesmo estes centros, em anos mais recentes, vêm enfrentando a concorrência de vários, grandes e modernos shopping centers que se instalam na capital.\n[…]\nOs serviços de saneamento básico de Porto Alegre ainda têm várias deficiências mas estão em níveis muito superiores às outras capitais nacionais.\n[…]\nEntre 2021 e 2022 a violência policial aumentou 41%, em 2023 Porto Alegre foi avaliada pelo Anuário Brasileiro de Segurança Pública como a capital mais violenta das regiões Sul, Sudeste e Centro-Oeste, em 2024 foram registrados 7.714 casos de violência contra a mulher, a população negra continua sendo proporcionalmente mais afetada pela violência do que a branca, e permanece uma alta porcentagem de homicídios de adolescentes e jovens, havendo também uma relação direta entre mortalidade juvenil e desigualdade social, sendo em sua maioria jovens do sexo masculino, negros e moradores de territórios com acesso precário às políticas públicas.\n[…]\nArquidiocese de Porto Alegre\n[…]\n«Porto Alegre na WikiMapia»"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Rio Branco",
+      "descricao": "Capital do estado do Acre, às margens do rio Acre."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Olhando o mapa do Brasil, qual capital estadual aparece mais a oeste?",
+    "resposta": "Rio Branco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Branco_(Acre)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Branco_(Acre)",
+        "situacao": "ok",
+        "texto": "Rio Branco é a capital do estado brasileiro do Acre, na região Norte do país. Situada a 3 030 quilômetros de distância de Brasília, é a capital mais ocidental do Brasil e localiza-se às margens do rio Acre.\n[…]\nSendo a 4ª capital mais antiga da Região Norte do Brasil, após Belém, Manaus e Macapá, o povoamento da região de Rio Branco se deu no fim do século XIX, com a chegada de nordestinos. O desenvolvimento do município ocorreu durante um grande período dado pelo Ciclo da Borracha.\n[…]\nRio Branco é um dos municípios do Acre em que o protestantismo teve maior crescimento que o catolicismo Romano no Censo de 2010. Dentre as denominações protestantes em Rio Branco a maioria da população é pentecostal, cerca de 15% e 4% não determinaram denominação. Em 2014, constatou-se que Rio Branco seria a capital mais protestante do Brasil.\n[…]\nO coeficiente de Gini, que mede a desigualdade social, é de 0,52, sendo que 1,00 é o pior número e 0,00 é o melhor. A incidência da pobreza, medida pelo IBGE, é de 37,21% e a incidência da pobreza subjetiva é de 39,39%. Rio Branco tem melhorado todos os seus indicadores nos últimos anos, saindo de um quadro preocupante, para uma estabelecida qualidade de vida, sendo hoje, a 3ª melhor capital para se viver da Região Norte do Brasil.\n[…]\nNo que toca à criminalidade, Rio Branco é a capital mais segura da Região Norte e o Acre, o estado mais seguro da Região Norte do Brasil.\n[…]\nEm 2016, a cidade possuía uma frota de 160 784 veículos. As principais vias que ligam a cidade às rodovias são a Avenida Ceará, Via Chico Mendes e a Via Verde que funciona como anel viário. Rio Branco é a capital com maior malha cicloviária proporcional por habitante do Brasil.\n[…]\nRio Branco no WikiMapia"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Pará",
+      "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os sete estados da Região Norte, qual tem a maior população?",
+    "resposta": "Pará",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pará",
+      "https://pt.wikipedia.org/wiki/Região_Norte_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pará",
+        "situacao": "ok",
+        "texto": "Pará é uma das 27 unidades federativas do Brasil. Está situado na Região Norte e tem por limites os estados de Amapá a norte, Maranhão a nordeste, Tocantins a sudeste, Mato Grosso a sul, Amazonas a oeste e Roraima a noroeste, além das regiões guianenses de Berbice Oriental–Corentine e Alto Tacutu–Alto Essequibo e do distrito surinamense de Sipaliwini a noroeste.\n[…]\nCom 8,1 milhões de habitantes, é o estado mais populoso da Região Norte e o nono mais populoso do Brasil. Dois de seus municípios possuem população acima de 500 mil habitantes: Belém, a capital e sua maior cidade com 1,4 milhão de habitantes em 2018 e Ananindeua, com 525,5 mil habitantes.\n[…]\nAlém disso, a secretaria desempenha um papel importante na atração de investimentos para o estado, por meio da criação de um ambiente favorável à inovação e ao desenvolvimento tecnológico. Com isso, o Pará tem se consolidado como um importante polo de tecnologia e inovação na região norte do Brasil, contribuindo para o crescimento econômico e social do estado e do país todo.\n[…]\nEm outra medida, dado sua maior ligação com os estados do Nordeste e Centro-Oeste brasileiro, as partes leste e sudoeste do estado — desde a região sul, a sudeste (incluíndo a região de Carajás), passando pelo centro do estado até a zona da capital — estão mais sujeitas a opção pelos transportes rodoviários do que pelos hidroviários (embora não exclusivamente), com destaque para as rodovias Belém-Brasília, Alça Viária, BR-155, PA-150/PA-475, BR-222, BR-316, BR-163, Transamazônica e BR-158, principais vias de transporte das regiões paraenses citadas.\n[…]\nO Pará é segundo maior estado do Brasil em questão de território, talvez por isto exista uma grande diversidade tanto social quanto natural, podemos observar isso através da cultura regional que é na verdade uma mistura de ritmos e raças convivendo harmoniosamente.\n[…]\nPor população"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Região_Norte_do_Brasil",
+        "situacao": "ok",
+        "texto": "A Região Norte do Brasil é a maior em extensão territorial entre as cinco regiões do país. Apresenta 3 853 676,948 km², significando 42% da área do Brasil. Quase todo o seu território está incorporado à Região geoeconômica Amazônica do Brasil. Ao passo disso, o limite meridional de Tocantins, situado ao sul do paralelo 12 S, integra a Região geoeconômica Centro-Sul do Brasil. Abrange sete unidades\n[…]\nA RM de Manaus, instituída em 2007 pela Lei Complementar estadual nº 52/2007, reúne treze municípios no estado do Amazonas e é a de maior população da Região Norte. A RM de Belém, originalmente criada pela Lei Complementar federal nº 14/1973 e reorganizada por várias leis estaduais, abrange oito municípios no Pará e possuía cerca de 2,37 milhões de habitantes no Censo 2022 do IBGE.\n[…]\nA mais altas instâncias do poder judiciário nortista são os tribunais de justiça dos sete estados da região norte do Brasil, que são desempenhados pelos juízes, promotores, advogados e desembargadores.\n[…]\nA região norte do Brasil compreende sete unidades federativas: Tocantins, Pará, Amapá, Roraima, Amazonas, Acre e Rondônia. Somente dois estados são delimitados pelo Oceano Atlântico, entretanto, todos compartilham fronteiras secas e fluviais com unidades federadas do Nordeste e do Centro-Oeste, além de países vizinhos como a Bolívia, o Peru, a Colômbia, Venezuela, Guiana, Suriname e o departamento francês da Guiana Francesa.\n[…]\nEm 2010 o Produto Interno Bruto (PIB) da Região Norte representava 5,3% do PIB nacional. Foi a região brasileira que apresentou o maior crescimento econômico em um período de oito anos, passando de 4,7% em 2002 a 5,3% em 2010, em concentração do PIB brasileiro. Com um crescimento em volume do PIB de 14,2% e 74,2%, respectivamente, o Tocantins foi o estado que apresentou o maior crescimento em volume.\n[…]\nAeroportos da Região Norte do Brasil\n[…]\nGovernos dos estados"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Amazonas (estado)",
+      "descricao": "Estado da Região Norte do Brasil, o maior em área, com capital em Manaus."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Vizinho do Peru, da Colômbia e da Venezuela, qual estado brasileiro faz fronteira com o maior número de países?",
+    "resposta": "Amazonas",
+    "distratores": [
+      "Acre",
+      "Roraima",
+      "Pará"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Amazonas",
+      "https://en.wikipedia.org/wiki/Amazonas_(Brazilian_state)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amazonas",
+        "situacao": "ok",
+        "texto": "Amazonas é uma das 27 unidades federativas do Brasil. Está situado na Região Norte, sendo o maior estado do país em extensão territorial, com uma área de 1 559 167,878 km², constituindo-se na nona maior subdivisão mundial, sendo maior que as áreas da França, Espanha, Suécia e Grécia somadas. Seria o décimo sexto maior país do mundo em área territorial, pouco superior à Mongólia.\n[…]\nEm 1755 foi criada a então Capitania de São José do Rio Negro (subordinada ao então Estado do Grão-Pará e Maranhão). Em 1850, no dia 5 de setembro, foi criada a Província do Amazonas, desmembrada da Província do Grão-Pará. Os motivos que levaram à criação da Província do Amazonas foram muitos, em especial, a grandíssima área territorial administrada pelo Grão-Pará, com capital em Belém, e as tentativas fracassadas do Peru em ampliar suas fronteiras com o Brasil, com o apoio dos Estados Unidos.\n[…]\nQuase todos os parques estaduais são administrados pelo Instituto de Proteção Ambiental do Amazonas (IPAAM).\n[…]\nConforme dados do \"Mapa da Violência 2010\", publicado pelo Instituto Sangari e pelo Ministério da Justiça, a taxa de homicídios por 100 mil habitantes do estado do Amazonas é a décima-terceira maior do Brasil. O número de homicídios ocorridos no estado aumentou de 21,3 para 24,8 por 100 mil habitantes no período entre 1998 e 2008. Entre 2008 e 2010, a taxa de homicídios cresceu 5,8 e atingiu 30,6 por 100 mil habitantes.\n[…]\nTratando-se sobre partidos políticos, todos os 35 partidos políticos brasileiros possuem representação no estado. Conforme informações divulgadas pelo Tribunal Superior Eleitoral (TSE), com base em dados de abril de 2016, o partido político com maior número de filiados no Amazonas é o Partido Comunista do Brasil (PCdoB), com 20 687 membros, seguido do Partido Social Cristão (PSC), com 18 934 membros e do Partido dos Trabalhadores (PT), com 17 265 filiados."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazonas_(Brazilian_state)",
+        "situacao": "ok",
+        "texto": "Amazonas (, AM-ə-ZOHN-əs; pronounced [amaˈzõnɐs] ) is a state of Brazil, located in the North Region in the north-western corner of the country. It is the largest Brazilian state by area and the ninth-largest country subdivision in the world with an area of 1,570,745.7 square kilometers. It is the largest country subdivision in South America, being greater than the areas of Chile, Paraguay, and Ur\n[…]\nNeighbouring states are (from the north clockwise) Roraima, Pará, Mato Grosso, Rondônia, and Acre. It also borders the nations of Peru, Colombia and Venezuela. This includes the Departments of Amazonas, Vaupés and Guainía in Colombia, as well as the Amazonas state in Venezuela, and the Loreto Region in Peru.\n[…]\nAfter the independence of Brazil in 1822, the current borders of the Amazonas State were still undefined – at that time being with Gran Colombia. The internal conflicts within that neighbour country resulted in the emergence of Colombia, Ecuador, Venezuela and Panama. Brazil signed the Treaty Vásquez Cobo–Martins (1908) (with those countries) finally entitling those possessions in the north to Brazil.\n[…]\nBy the mid-18th century, the effective boundary between the two empires, the Spanish Viceroyalty of Peru and Portuguese Brazil, had shifted to the area of the confluence of the Rio Negro and Amazon Rivers, in upper Amazonia.\n[…]\nAmazonas State University (UEA) (Portuguese: Universidade do Estado do Amazonas);\n[…]\nRecently the Brazilian government is pursuing the development of industries whose main focus will be the exporting of consumer goods. Due to its geographical proximity to the markets in the northern hemisphere and Amazon countries, like Venezuela, they believe this move will have a great economic impact not only in the north region of Brazil but in the entire country.\n[…]\nAmazonas, Venezuela\n[…]\nAmazonas Department, in Colombia\n[…]\nAmazonas Region, in Peru\n[…]\nAmazonas's inland\n[…]\nAmazon Opera House"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Região Sul do Brasil",
+      "descricao": "Uma das cinco grandes regiões do Brasil definidas pelo IBGE, formada por Paraná, Santa Catarina e Rio Grande do Sul."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual das cinco grandes regiões brasileiras tem a menor área?",
+    "resposta": "Região Sul",
+    "distratores": [
+      "Região Sudeste",
+      "Região Centro-Oeste",
+      "Região Nordeste"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Região_Sul_do_Brasil",
+      "https://pt.wikipedia.org/wiki/Regiões_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Região_Sul_do_Brasil",
+        "situacao": "ok",
+        "texto": "Região Sul do Brasil é a menor em extensão territorial entre as cinco regiões do país. Sua superfície terrestre é de 576 774,31 km², sendo maior que a superfície da França metropolitana e menor que o estado brasileiro de Minas Gerais. Está subordinada à Região Centro-Sul do Brasil. Tem três unidades federativas: Rio Grande do Sul, Santa Catarina e Paraná. Possui como limites: ao sul, com o Uruguai\n[…]\nO Sul constitui a menor região do Brasil em área. Ele abrange as unidades federativas do Paraná, Santa Catarina e Rio Grande do Sul, os quais, reunidos, somam 576.774 km², superfície maior que a da França Metropolitana, por exemplo, o segundo maior país da Europa em área.\n[…]\nTambém diferenciada das regiões florestais e campestres constitui o norte do Paraná, mais ligado à economia da região Sudeste do Brasil. Constituindo uma área de transição entre a unidade federativa de São Paulo e a região sul do Brasil, sua colonização está relacionada com o desenvolvimento da economia paulista.\n[…]\nA região sul do Brasil é também compreendida por grandes áreas de campos limpos, denominados de campos meridionais, subdivididos em duas regiões diferentes. A primeira equivale aos campos dos planaltos, que aparecem em porções a partir do Paraná até o norte do Rio Grande do Sul. A segunda área — os campos da campanha — é a maior de todas e situa-se totalmente no Rio Grande do Sul, numa região denominada de Campanha Gaúcha, ou pampa.\n[…]\nA Grande Porto Alegre destaca-se como a maior área metropolitana da região sul do Brasil e a quarta mais populosa do país, superada apenas pelas Regiões Metropolitanas de São Paulo, Rio de Janeiro e Belo Horizonte. Esta área apresenta o quarto maior Produto Interno Bruto (PIB) do Brasil e constitui a 82.ª maior aglomeração urbana no âmbito mundial.\n[…]\na região que abrange Santa Cruz do Sul, no Rio Grande do Sul, com uma significativa plantação de tabaco;\n[…]\nImigração no Brasil"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Regiões_do_Brasil",
+        "situacao": "ok",
+        "texto": "Regiões do Brasil são os agrupamentos das unidades da federação em regiões com o propósito de ajudar interpretações estatísticas, implantar sistemas de gestão de funções públicas de interesse comum ou orientar a aplicação de políticas públicas dos governos federal e estadual. Essa divisão do Brasil foi elaborada pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 1970 e criou cinco regi\n[…]\nAssim, foram formadas cinco regiões, descritas a seguir.\n[…]\nRegião Centro-Oeste — abrange três estados (Goiás, Mato Grosso e Mato Grosso do Sul) e o Distrito Federal, ocupa 18,86% do território brasileiro (1 606 234,47 quilômetros quadrados), sua população é de cerca de 16 milhões de habitantes.\n[…]\nRegião Nordeste — abrange nove estados (Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe), possui um território de 1 554 291,10 quilômetros quadrados (18,25% do território nacional), tem o terceiro maior produto interno bruto (PIB) do Brasil entre as grandes regiões e sua população é superior a 50 milhões de habitantes.\n[…]\nRegião Norte — abrange sete estados (Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins), possui a maior área (3 853 840,88 quilômetros quadrados, ou 45,26% do território nacional) e a população é de 16,3 milhões de habitantes. É a região com a menor densidade demográfica (3,77 habitantes por quilômetro quadrado, segundo o censo de 2010 do IBGE.\n[…]\nRegião Sul — abrange três estados (Paraná, Rio Grande do Sul e Santa Catarina), possui a menor área (576 783,78 quilômetros quadrados, ou 6,77% do território nacional), sua população é de mais de 26 milhões de habitantes, é a segunda região mais rica do país (depois da Região Sudeste), e é a que possui o maior Índice de Desenvolvimento Humano (IDH), maior taxa de alfabetização e os melhores níveis de educação, saúde e bem-estar social do país."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Pico das Agulhas Negras",
+      "descricao": "Pico rochoso de cerca de 2 791 metros no Parque Nacional do Itatiaia, ponto culminante do estado do Rio de Janeiro."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No Parque Nacional do Itatiaia, qual pico é o ponto mais alto do estado do Rio de Janeiro?",
+    "resposta": "Pico das Agulhas Negras",
+    "distratores": [
+      "Pedra do Sino",
+      "Dedo de Deus",
+      "Pedra da Gávea"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_das_Agulhas_Negras"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pico_das_Agulhas_Negras",
+        "situacao": "ok",
+        "texto": "O pico das Agulhas Negras, com 2 790,94 m de altitude, é o ponto culminante do estado do Rio de Janeiro, o terceiro ponto mais alto do estado de Minas Gerais, e o quinto mais alto do Brasil.\n[…]\nO pico das Agulhas Negras está localizado na parte alta do Parque Nacional de Itatiaia, no maciço de mesmo nome, parte da serra da Mantiqueira, entre o município mineiro de Bocaina de Minas e os municípios fluminenses de Itatiaia e Resende.\n[…]\nO rio Preto, que tem 222 km de extensão e serve de divisa natural entre os estados do Rio de Janeiro e de Minas Gerais, tem sua nascente no pico das Agulhas Negras. No interior do parque, o mais antigo do Brasil, existem várias outras montanhas com altitude superior aos dois mil metros.\n[…]\nA altitude do pico das Agulhas Negras foi então corrigida oficialmente para 2790,94 m, ou 61 cm menos que a medição de 2004.\n[…]\nO acesso ao pico das Agulhas Negras é feito pela rodovia BR-354, que liga a Via Dutra no município de Resende (Rio de Janeiro) à cidade de Itamonte (Minas Gerais), através de um passo de montanha denominado Garganta do Registro. No alto do passo, do lado mineiro, poucos metros após a divisa, começa a rodovia BR-485, que leva à parte alta do Parque Nacional de Itatiaia.\n[…]\nDo cume do pico das Agulhas Negras é possível avistar vários pontos da região, como o morro do Couto, a segunda montanha mais alta do parque. Também podem ser avistadas a Represa do Funil, a serra Fina, a região de Visconde de Mauá, a vasta região do Vale do Paraíba, onde estão localizadas as cidades do eixo mais populoso do Brasil, o eixo Rio-São Paulo, e o rio Paraíba, do qual origina o nome do vale.\n[…]\nAcademia Militar das Agulhas Negras\n[…]\nParque Nacional de Itatiaia"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Teresina",
+      "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre as nove capitais do Nordeste, qual é a única situada no interior, longe do mar?",
+    "resposta": "Teresina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teresina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teresina",
+        "situacao": "ok",
+        "texto": "Teresina é um município brasileiro e capital do estado do Piauí, sendo a única capital da Região Nordeste que não se localiza no litoral, distando 343 km do Oceano Atlântico. Sua população, segundo o Censo 2022, do IBGE, era de 866 300 habitantes, o que a faz a cidade mais populosa do Piauí.\n[…]\nSituada numa zona de transição entre o Semiárido Nordestino e a Amazônia conhecida por Meio-Norte, a vegetação do município de Teresina é composta pela Floresta Estacional Semídecidual, o Cerrado e a mata de cocais, a floresta estacional semidecidual é um tipo de floresta em que grande parte dos vegetais perdem as folhas no período seco e de outras que se mantém verdes o ano todo, e é encontrada em grandes áreas associada com a mata de cocais.\n[…]\nTeresina é terceira capital de estado no Brasil que mais investe em saúde, com investimento per capita em saúde anual superior ao de grandes metrópoles do Sul e Sudeste do Brasil. Por essas características, aliadas à sua localização geográfica, para Teresina se deslocam pessoas vindas de diversos estados do Norte e Nordeste em busca de serviços de saúde, chegando a representar 40% do atendimento médico dos hospitais públicos da capital.\n[…]\nO Aeroporto de Teresina foi inaugurado em 30 de setembro de 1967. Administrado pelo então Ministério da Aeronáutica, o aeroporto foi construído ao norte da capital, numa região situada entre os rios Poty e Parnaíba. Em fevereiro de 1975, através da Portaria nº 102/GM5, de 23 de dezembro de 1974, o aeroporto, com exceção da atividade de navegação aérea, passou a ser administrado pela Empresa Brasileira de Infraestrutura Aeroportuária (Infraero).\n[…]\nA arquitetura teresinense assemelha-se à dos demais estados do Nordeste, formando um conjunto de prédios bastante coloridos, que se destacam na paisagem."
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Distrito Federal",
+      "descricao": "Menor unidade federativa do Brasil, sem municípios, onde fica Brasília."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como não pode ter municípios, o Distrito Federal tem o território dividido em quê?",
+    "resposta": "Regiões administrativas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)",
+      "https://pt.wikipedia.org/wiki/Regiões_administrativas_do_Distrito_Federal"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)",
+        "situacao": "ok",
+        "texto": "Distrito Federal é uma das 27 unidades federativas do Brasil. Situado na Região Centro-Oeste, é a menor unidade federativa brasileira e a única que não tem municípios, sendo dividida em 37 regiões administrativas, totalizando uma área de 5 760,783 km². Em seu território, está localizada a capital federal do Brasil, Brasília, que é também a sede de governo do Distrito Federal.\n[…]\nA política e a administração do Distrito Federal distinguem-se das demais unidades da federação em alguns pontos particulares, conforme definido na Constituição do Brasil de 1988:\n[…]\nO Distrito Federal acumula competências estaduais e municipais  e, portanto, não pode ser, juridicamente, dividido em municípios, de acordo com a Constituição da República. Assim, os outros núcleos, que são oficialmente regiões administrativas aparecem ora como bairros distantes da capital do país além de aparecer com a nomenclatura coloquial de \"cidades\".\n[…]\nHá quem argumente que por todo o Brasil há regiões metropolitanas, onde cidades afastadas acabam articuladas em relação às cidades principais, sem que deixem por isso de ser consideradas cidades. A diferença é que elas são sedes de município. Apesar disso, outros núcleos urbanos do Distrito Federal, hoje chamados regiões administrativas, sempre foram conhecidos por cidades-satélites.\n[…]\nA Constituição de 1988, em seu artigo 32, veda expressamente a divisão do Distrito Federal em municípios. O Distrito Federal é dividido em 35 regiões administrativas, sendo a região administrativa do Plano Piloto a principal delas; dessas apenas dezenove são reconhecidas pelo IBGE, pelo fato de os limites das regiões restantes ainda não terem passado por aprovação na Câmara Legislativa do Distrito Federal.\n[…]\nLista de regiões administrativas do Distrito Federal por população\n[…]\n«Câmara Legislativa do Distrito Federal»\n[…]\n«Tribunal de Justiça do Distrito Federal e dos Territórios»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Regiões_administrativas_do_Distrito_Federal",
+        "situacao": "ok",
+        "texto": "As regiões administrativas do Distrito Federal são uma divisão administrativa do Distrito Federal brasileiro. A subdivisão foi criada através da Lei 4.545, de 10 de dezembro de 1964, que reestruturou administrativamente o Distrito Federal, que através da constituição brasileira de 1988, está vedada a ser subdivida em municípios. Atualmente a subdivisão segue conforme a Lei Orgânica do Distrito Fed\n[…]\nEm 10 de dezembro de 1964, o presidente Humberto Castelo Branco sancionou a Lei 4.545, que estabeleceu a criação das primeiras regiões administrativas do Distrito Federal. Foram elas: Taguatinga, Planaltina, Sobradinho, Brazlândia, Gama, Jardim, Paranoá e Brasília. Apesar de anteriormente não definidas por legislação, seus núcleos urbanos já eram presentes, e com exceção de Brasília, receberam o apelido popular de cidades-satélites, por se situarem às margens da capital do país.\n[…]\nEntre os governos de Roriz e Ibaneis, apenas duas regiões administrativas foram criadas. O Setor Habitacional Vicente Pires foi desmembrado de Taguatinga em 2009, e passou a ser uma região administrativa própria. Já em 2012, foi criada a RA da Fercal, sendo separada de Sobradinho II.\n[…]\nEm 2022, duas novas regiões administrativas foram criadas, Arapoanga foi desmembrada de Planaltina, enquanto Água Quente se separou do Recanto das Emas.\n[…]\nDurante o governo de Celina Leão, foram criadas duas regiões administrativas. No dia 3 de julho de 2026, Celina Leão sancionou as leis que criaram as regiões administrativas da Ponte Alta, se separando do Gama, e de 26 de Setembro, se desmembrando de Vicente Pires.\n[…]\nEsta é uma lista das 37 regiões administrativas do Distrito Federal brasileiro por ordem numérica:\n[…]\nLista de regiões administrativas do Distrito Federal por população\n[…]\nLista de regiões administrativas do Distrito Federal por renda per capita\n[…]\nLista de regiões administrativas do Distrito Federal por IDH"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Distrito Federal",
+      "descricao": "Menor unidade federativa do Brasil, sem municípios, onde fica Brasília."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Distrito Federal fica quase todo cercado por Goiás. Que outro estado também faz divisa com ele?",
+    "resposta": "Minas Gerais",
+    "distratores": [
+      "Bahia",
+      "Tocantins",
+      "Mato Grosso"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)",
+        "situacao": "ok",
+        "texto": "Distrito Federal é uma das 27 unidades federativas do Brasil. Situado na Região Centro-Oeste, é a menor unidade federativa brasileira e a única que não tem municípios, sendo dividida em 37 regiões administrativas, totalizando uma área de 5 760,783 km². Em seu território, está localizada a capital federal do Brasil, Brasília, que é também a sede de governo do Distrito Federal.\n[…]\nO Distrito Federal é praticamente um enclave no estado de Goiás, se não fosse a pequena divisa de pouco mais de dois quilômetros de extensão com o estado de Minas Gerais, marcada pela passagem da rodovia DF-285. Por via terrestre, o Distrito Federal se conecta a Minas Gerais por uma pequena ponte de 130 metros sobre o rio Preto.\n[…]\nDurante o Império, o predecessor ao Distrito Federal atual era o Município Neutro, onde se situava a corte, na cidade do Rio de Janeiro. Depois da proclamação da república, a cidade do Rio de Janeiro tornou-se a capital federal, que, no início da década de 1960, foi transferida para Brasília, no centro do Brasil, no leste do estado de Goiás e a oeste do estado de Minas Gerais, no atual Distrito Federal.\n[…]\nA população local é formada por migrantes de todas as regiões brasileiras, sobretudo do Nordeste e do Sudeste, além de estrangeiros que trabalham nas embaixadas espalhadas pela capital. Dados de 2010 apontavam que quase metade da população não nasceu ali, sendo que 1 380 873 eram brasilienses (53,73%) e 1 189 287 (46,27%) de outros locais (incluindo 8 577 estrangeiros, ou 0,33% da população), principalmente de Goiás, Minas Gerais e Bahia.\n[…]\nPor outro lado, a lei de organização do Distrito Federal é uma lei orgânica, típica de municípios e não uma constituição, como ocorre nos estados da federação brasileira, embora esta lei orgânica regule tanto matérias típicas de leis orgânicas municipais quanto de constituições estaduais.\n[…]\n«Governo do Distrito Federal»"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Plano Piloto de Brasília",
+      "descricao": "Núcleo urbano original de Brasília, projetado por Lúcio Costa no formato de um avião."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Visto do alto, o Plano Piloto de Brasília lembra um avião. Que grande via forma as asas, onde ficam as superquadras?",
+    "resposta": "Eixo Rodoviário",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Plano_Piloto",
+      "https://en.wikipedia.org/wiki/Plano_Piloto"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Plano_Piloto",
+        "situacao": "desambiguacao",
+        "texto": "A expressão plano piloto costuma se referir a qualquer plano preliminar ou de embasamento a um empreendimento. Está, sobretudo, associada ao urbanismo moderno de matriz funcionalista do século XX e a planos urbanísticos de forma geral. Não deve ser confundida com o plano diretor.\n\nConferir\nPlanejamento\nPlanejamento urbano\nPlano diretor\nPlano urbanístico\n\n\n== Planos-piloto na história ==\nPlano Pilo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Plano_Piloto",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Arquipélago de São Pedro e São Paulo",
+      "descricao": "Pequeno conjunto de rochedos brasileiros no meio do Atlântico, perto da linha do Equador."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As rochas do Arquipélago de São Pedro e São Paulo são raras porque vêm de qual camada profunda da Terra, exposta acima do mar?",
+    "resposta": "Manto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo",
+      "https://en.wikipedia.org/wiki/St._Peter_and_St._Paul_Archipelago"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo",
+        "situacao": "ok",
+        "texto": "Arquipélago de São Pedro e São Paulo é um conjunto de pequenos ilhéus rochosos que fazem parte do estado brasileiro de Pernambuco. O conjunto de ilhéus fica situado na parte central do oceano Atlântico equatorial, distando 627 km do arquipélago de Fernando de Noronha, 986 km do ponto mais próximo do continente sul-americano e 987 km a partir de Natal, no estado do Rio Grande do Norte. Apesar de pe\n[…]\nO conjunto de ilhéus era chamado popularmente de \"Penedo de São Pedro e São Paulo\" ou \"Rochedo de São Pedro e São Paulo\". Porém, hoje em dia é chamado oficialmente de \"Arquipélago de São Pedro e São Paulo\". A rocha exposta é peridotito e peridotito serpentinizado, provavelmente originada de uma característica geológica do fundo do mar que forma uma longa cordilheira perpendicular a uma dorsal oceânica, sendo a única exposição mundial do manto abissal acima do nível do mar.\n[…]\nOs ilhéus expõem peridotito abissal serpentinizado e milonito ultramáfico contendo kaersutita no topo do megamullion mais alto do mundo e, no entanto, apenas o segundo maior (depois do megamullion Parece Vela sob Okinotorishima no Oceano Pacífico). Este agrupamento é o único local no Oceano Atlântico onde o manto abissal está exposto acima do nível do mar. Darwin observou em 1832 que, incomumente, essas pequenas ilhas não eram vulcânicas, mas foram formadas por um soerguimento geológico.\n[…]\nOs artigos científicos revelam que as rochas ultramáficas do manto abissal expostas no Arquipélago de São Pedro e São Paulo (ASPSP) são, provavelmente, originadas a partir de megamullion. Entretanto, comparando-se com outros magamullions existentes no oceano Atlântico, a cadeia peridotítica de São Pedro e São Paulo é demasiado grande. Este fato é devido ao soerguimento tectônico ativo que ocorre há 10 milhões de anos.\n[…]\nPenedos de Sâo Pedro e Sâo Paulo (espanhol)\n[…]\n«Manual do Pesquisador do Arquipélago São Pedro e São Paulo» (PDF)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/St._Peter_and_St._Paul_Archipelago",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Arquipélago de São Pedro e São Paulo",
+      "descricao": "Pequeno conjunto de rochedos brasileiros no meio do Atlântico, perto da linha do Equador."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Isolados no meio do Atlântico, perto do Equador, os rochedos do Arquipélago de São Pedro e São Paulo pertencem a qual estado?",
+    "resposta": "Pernambuco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arquipélago_de_São_Pedro_e_São_Paulo",
+        "situacao": "ok",
+        "texto": "Arquipélago de São Pedro e São Paulo é um conjunto de pequenos ilhéus rochosos que fazem parte do estado brasileiro de Pernambuco. O conjunto de ilhéus fica situado na parte central do oceano Atlântico equatorial, distando 627 km do arquipélago de Fernando de Noronha, 986 km do ponto mais próximo do continente sul-americano e 987 km a partir de Natal, no estado do Rio Grande do Norte. Apesar de pe\n[…]\nO conjunto de ilhéus era chamado popularmente de \"Penedo de São Pedro e São Paulo\" ou \"Rochedo de São Pedro e São Paulo\". Porém, hoje em dia é chamado oficialmente de \"Arquipélago de São Pedro e São Paulo\". A rocha exposta é peridotito e peridotito serpentinizado, provavelmente originada de uma característica geológica do fundo do mar que forma uma longa cordilheira perpendicular a uma dorsal oceânica, sendo a única exposição mundial do manto abissal acima do nível do mar.\n[…]\nEm 1 de junho de 2009, o voo 447 da Air France, um jato Airbus A330-200 em rota do Rio de Janeiro para Paris, caiu no Oceano Atlântico perto do Arquipélago de São Pedro e São Paulo, matando todas as 228 pessoas a bordo. Corpos e fragmentos da aeronave foram encontrados a noroeste do arquipélago.\n[…]\nOs rochedos de São Pedro e São Paulo estão localizados no Oceano Atlântico, a cerca de 100 km ao norte do Equador e são o único grupo de ilhotas oceânicas brasileiras no Hemisfério Norte. O ponto mais próximo na costa brasileira é o Cabo do Calcanhar, no Rio Grande do Norte, a cerca de 1 010 quilômetros (630 mi) . do arquipélago. A área total emersa é de aproximadamente 1,7 hectares e a elevação máxima do terreno é 18 metros, na Ilha Nordeste.\n[…]\n«Arquipélago de São Pedro e São Paulo Soerguimento tectônico de rochas infracrustais no Oceano Atlântico.» (PDF)\n[…]\nPenedos de Sâo Pedro e Sâo Paulo (espanhol)\n[…]\n«Manual do Pesquisador do Arquipélago São Pedro e São Paulo» (PDF)"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Ilhabela",
+      "descricao": "Município arquipélago do litoral norte de São Paulo, em frente à cidade de São Sebastião."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O município paulista de Ilhabela ocupa um arquipélago inteiro. Qual é a maior ilha dele?",
+    "resposta": "Ilha de São Sebastião",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilhabela",
+      "https://pt.wikipedia.org/wiki/Ilha_de_São_Sebastião"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilhabela",
+        "situacao": "ok",
+        "texto": "Ilhabela é um dos únicos municípios–arquipélagos marinhos brasileiros, estando localizado no litoral norte do estado de São Paulo. A população, segundo o Censo 2022, é de 34 934 habitantes, resultando numa densidade estimada de 100,9 hab/km²  O município é formado pela sede e pelos distritos de Cambaquara e Paranabi. O arquipélago é composto por 19 ilhas, ilhotes e lajes.\n[…]\nA Ilha de São Sebastião - onde fica a área urbana do município - está localizada defronte aos municípios de São Sebastião a noroeste e Caraguatatuba a norte. Com 337,5 km², a Ilha de São Sebastião é a segunda maior ilha marítima do Brasil, superada apenas pela de Santa Catarina, que abriga a maior parte do município de Florianópolis, a capital de Santa Catarina.\n[…]\nA Ilha de São Sebastião está separada do continente pelo Canal do Toque-Toque, que possui cerca de 18 quilômetros de extensão e largura variando em torno de dois a cinco quilômetros. É possível atingi-la através do serviço de travessia por balsas da Travessia São Sebastião-Ilhabela da Dersa. A ilha possui um relevo bem acentuado, com montanhas com mais de mil metros de altura.\n[…]\nUm levantamento de 2015 da Fundação Florestal listou 1569 espécies de flora na área do Parque Estadual.O município é lar de espécies endêmicas como o rato cururuá, as serpentes Siphonops insulanus e Liotyphlops caissara e os lagartos teiú e teiú de Búzios (Tupinambis merianae sebastiani e Tupinambis merianae buzionensis, respectivamente; esta última endêmica da Ilha de Búzios), sendo ponto de avistamento também de 66 espécies de aves distribuídas estritamente na mata atlântica, sendo cinco consideradas globalmente ameaçadas de extinção em 2015.\n[…]\nO município foi homenageado no Carnaval de São Paulo em 2016 por meio da escola de samba Unidos de Vila Maria, com o enredo \"A Vila mais famosa é a mais bela, Ilha bela da fantasia\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_São_Sebastião",
+        "situacao": "ok",
+        "texto": "Ilhabela é um dos únicos municípios–arquipélagos marinhos brasileiros, estando localizado no litoral norte do estado de São Paulo. A população, segundo o Censo 2022, é de 34 934 habitantes, resultando numa densidade estimada de 100,9 hab/km²  O município é formado pela sede e pelos distritos de Cambaquara e Paranabi. O arquipélago é composto por 19 ilhas, ilhotes e lajes.\n[…]\nA Ilha de São Sebastião - onde fica a área urbana do município - está localizada defronte aos municípios de São Sebastião a noroeste e Caraguatatuba a norte. Com 337,5 km², a Ilha de São Sebastião é a segunda maior ilha marítima do Brasil, superada apenas pela de Santa Catarina, que abriga a maior parte do município de Florianópolis, a capital de Santa Catarina.\n[…]\nA Ilha de São Sebastião está separada do continente pelo Canal do Toque-Toque, que possui cerca de 18 quilômetros de extensão e largura variando em torno de dois a cinco quilômetros. É possível atingi-la através do serviço de travessia por balsas da Travessia São Sebastião-Ilhabela da Dersa. A ilha possui um relevo bem acentuado, com montanhas com mais de mil metros de altura.\n[…]\nUm levantamento de 2015 da Fundação Florestal listou 1569 espécies de flora na área do Parque Estadual.O município é lar de espécies endêmicas como o rato cururuá, as serpentes Siphonops insulanus e Liotyphlops caissara e os lagartos teiú e teiú de Búzios (Tupinambis merianae sebastiani e Tupinambis merianae buzionensis, respectivamente; esta última endêmica da Ilha de Búzios), sendo ponto de avistamento também de 66 espécies de aves distribuídas estritamente na mata atlântica, sendo cinco consideradas globalmente ameaçadas de extinção em 2015.\n[…]\nO município foi homenageado no Carnaval de São Paulo em 2016 por meio da escola de samba Unidos de Vila Maria, com o enredo \"A Vila mais famosa é a mais bela, Ilha bela da fantasia\"."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Baía de Todos-os-Santos",
+      "descricao": "Grande baía do litoral da Bahia, às margens da qual fica Salvador."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "De frente para Salvador, qual é a maior ilha da Baía de Todos-os-Santos?",
+    "resposta": "Ilha de Itaparica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+      "https://pt.wikipedia.org/wiki/Ilha_de_Itaparica"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+        "situacao": "ok",
+        "texto": "A Baía de Todos-os-Santos (BTS) é uma reentrância da costa litorânea brasileira localizada no estado da Bahia. Estende-se por 1 233 quilômetros quadrados, com profundidade média de 9,8 metros, chegando até 70 metros, com visibilidade de mergulho entre 10 e 20 metros. Ela é a terceira maior baía do Brasil, após a Baía de São Marcos (2 568 quilômetros quadrados) e São José (1 309 quilômetros quadrad\n[…]\nA baía de Todos os Santos é um grande estuário, com circulação forçada principalmente pelas marés, gradientes fisico-químicos entre a sua entrada e seu interior, o que resulta em variados nichos ecológicos, e circulação gravitacional permanentemente estabelecida. Salinidades similares à oceânica promovem a existência de vários recifes de coral entre a Ilha dos Frades e a ponta de Mont Serrat.\n[…]\nNela estão localizadas 56 ilhas, dentre as quais a maior e mais importante é a de Itaparica. Outras ilhas importantes da baía são: ilha dos Frades, ilha de Maré, Ilha Bimbarras, ilha de Bom Jesus e a estação ecológica da Ilha do Medo.\n[…]\nA baía foi considerada alvo de medida de proteção ambiental, através do Decreto Estadual 7 595, de 5 de junho de 1999, como área de proteção ambiental — a Área de Preservação Ambiental da Baía de Todos-os-Santos. Nela estão incluídas as águas da baía e suas ilhas. Abrange os municípios de Cachoeira, Candeias, Itaparica, Jaguaripe, Madre de Deus, Maragogipe, Salinas da Margarida, Salvador, Santo Amaro, São Francisco do Conde, Saubara, Simões Filho e Vera Cruz.\n[…]\nBaía do Iguape\n[…]\nBaía do Pontal\n[…]\nHatje, Vanessa; de Andrade, Jailson B (2009). Baía de Todos os Santos: aspectos oceanográficos (PDF). Salvador: EDUFBA. pp. 306 p. ISBN 9788523205973. Consultado em 12 de Setembro de 2015\n[…]\nMaior baía do país tem ilhas, esconde naufrágios e é retrato da desigualdade, G1.\n[…]\nBaia de Todos os Santos é declarada pela Associação Comercial da Bahia como Sede Natural da Amazônia Azul"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_Itaparica",
+        "situacao": "ok",
+        "texto": "A Ilha de Itaparica é a maior ilha marítima do Brasil. Está localizada na Baía de Todos os Santos, no estado da Bahia, e seus 239 quilômetros quadrados de superfície são divididos entre os municípios de Itaparica e de Vera Cruz. Tem mais de 36 quilômetros de comprimento.\n[…]\nEla fica a 45 minutos de Salvador por balsa (Travessia Marítima Salvador/Itaparica) ou pelo sistema de transporte marítimo de Mar Grande (Travessia Salvador-Mar Grande); e está ligada ao continente, no extremo sudeste pela ponte João das Botas, trecho da BA-001 sobre o estreito do Funil.[carece de fontes]? A ilha de Itaparica está localizada a treze quilômetros, via balsa, de Salvador e é a maior das 56 ilhas da Baía de Todos os Santos.[carece de fontes]?\n[…]\nA ilha foi emancipada de Salvador e elevada à categoria de vila com a denominação de Denodada Vila de Itaparica, por decreto imperial de 25 de outubro de 1831, com sede na antiga povoação do Santíssimo Sacramento de Itaparica. A câmera da vila foi instalada no Solar Tenente João das Botas, em 4 de agosto de 1833. Foi elevada à condição de cidade, durante o governo de Virgílio Damásio com a denominação de Itaparica, por ato de 31 de outubro de 1890.\n[…]\nA ilha ganhou soneto do poeta Gregório de Matos em uma reverência a suas belezas naturais.\n[…]\nNo século XVIII, o poeta Manuel de Santa Maria (Frei Itaparica) descreveu a paisagem da ilha.\n[…]\nNa \"ilha\" — como é simplesmente chamada pelos moradores de Salvador — nasceu e morou, durante muitos anos, o escritor João Ubaldo Ribeiro. Sua principal obra, Viva o Povo Brasileiro, é ambientada em Itaparica, desde os tempos em que era habitada pelos indígenas, passando por sucessivas gerações.\n[…]\nÁrea de Proteção Ambiental da Baía de Todos-os-Santos\n[…]\nPonte Salvador–Ilha de Itaparica"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Baía de Guanabara",
+      "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Qual ilha da Baía de Guanabara abriga o aeroporto internacional do Galeão?",
+    "resposta": "Ilha do Governador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Governador",
+      "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_do_Rio_de_Janeiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_do_Governador",
+        "situacao": "ok",
+        "texto": "A Ilha do Governador é uma ilha localizada no lado ocidental do interior da Baía de Guanabara, no estado do Rio de Janeiro. Faz parte da região da Zona Norte do Rio de Janeiro e foi um bairro único no município do Rio de Janeiro entre 1960 a 1981 e posteriormente subdividida nos atuais bairros segundo o Decreto Municipal 3 157 de 23 de julho de 1981.\n[…]\nCom uma área de 40,81 quilômetros quadrados, a Ilha do Governador compreende quatorze bairros que são: Bancários, Cacuia, Cocotá, Freguesia, Galeão, Jardim Carioca, Jardim Guanabara, Moneró, Pitangueiras, Portuguesa, Praia da Bandeira, Ribeira, Tauá, Zumbi, com uma população total de 211 mil habitantes. Tradicionalmente residencial, atualmente apresenta características mistas, compreendendo ainda indústrias, comércio e serviços.\n[…]\nNo período de 1961 a 1975, o brasão de armas da Ilha do Governador teve uma estrela de prata sobre a coroa-mural de ouro, simbolizando o Estado da Guanabara. Com a fusão, em 1975, o brasão perdeu a estrela.\n[…]\nNas praias da ilha, há ligações clandestinas de esgoto que poluem a Baía de Guanabara porém diminuíram bastante depois de grandes obras do governo do Estado através do Programa Sena Limpa implantado em 2014 nas principais praias da região, que praticamente extinguiram as chamadas \"línguas negras\", muito comuns em praias da zona sul do município do Rio de Janeiro e também no município de Niterói.\n[…]\nNo Aeroporto Internacional do Galeão-Tom Jobim, há duas estações do BRT TransCarioca, situadas em seus dois terminais. São elas: Galeão 1 (no Terminal 1) e Galeão 2 (no Terminal 2), nas quais favorecem a ligação da Ilha do Governador com a Barra da Tijuca.\n[…]\nAeroporto Tom Jobim\n[…]\nIPANEMA, Cybelle de. História da Ilha do Governador. Rio de Janeiro: Livraria e Editora Marcello de Ipanema, 1991. 200 p.\n[…]\n«Mapa da Ilha do Governador no OpenStreetMap» 🔗"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "Aeroporto Internacional Antônio Carlos Jobim, anteriormente chamado Aeroporto Internacional do Rio de Janeiro e também conhecido como Aeroporto do Galeão (IATA: GIG, ICAO: SBGL), é um aeroporto internacional no município do Rio de Janeiro, no estado homônimo. É o segundo maior aeroporto do Brasil em movimento internacional. Considerando também o movimento de passageiros domésticos, é o sétimo maio\n[…]\nO Aeroporto Tom Jobim está localizado na zona norte da cidade do Rio de Janeiro, mais precisamente na Ilha do Governador, distante 20 km do Centro da cidade. Possui o maior sítio aeroportuário em área total dentre todos os aeroportos do Brasil, e é também o que tem a maior pista de pouso e decolagem comercial do país, sendo a mais importante porta de entrada aérea para todo o estado do Rio de Janeiro.\n[…]\nPara amantes de aviação e fotografia, no bairro da Tubiacanga, Ilha do Governador existe um ponto estratégico de fotografia de aviões chamado Morrinho do GIG Airport, com vista para pista 10/28.\n[…]\nO atual Aeroporto Internacional Tom Jobim tem suas origens na década de 1920 com advento das operações militares. Em 10 de maio de 1923, o Governo Federal desapropriou terrenos na Ilha do Governador para a construção do Centro de Aviação Naval do Rio de Janeiro. Já no ano seguinte a Escola de Aviação Naval, que funcionava desde 1916 no antigo Arsenal de Marinha, no Rio de Janeiro, foi transferida para a ponta do Galeão.\n[…]\nO Aeroporto Internacional do Rio de Janeiro, sendo um dos mais importantes do Brasil, entrou no terceiro lote de concessões promovido pelo Governo. Em um leilão realizado em 22 de novembro de 2013, o Aeroporto do Galeão foi arrematado pelo consórcio Aeroportos do Futuro, formado pela Odebrecht TransPort, com participação de 60%, e a Operadora do Aeroporto de Singapura Changi, com 40%.\n[…]\n«Guia Online do Aeroporto Internacional do Galeão»\n[…]\n«Ilha Carioca » Aeroporto do Galeão»"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Matopiba",
+      "descricao": "Região de expansão agrícola no cerrado, que abrange partes de quatro estados do Norte e do Nordeste."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O nome Matopiba, fronteira agrícola do cerrado, junta as sílabas iniciais de quatro estados. Quais são eles?",
+    "resposta": "Maranhão, Tocantins, Piauí e Bahia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Matopiba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Matopiba",
+        "situacao": "ok",
+        "texto": "O MATOPIBA é uma região de expansão agrícola localizada no Brasil, que abrange áreas dos estados do Maranhão, Tocantins, Piauí e Bahia. O nome é um acrônimo formado pelas iniciais desses quatro estados e foi criado para designar a principal fronteira agrícola brasileira do século XXI, situada predominantemente no bioma cerrado.\n[…]\nApós um período de inatividade institucional, o projeto foi reativado pelo governo federal em 2024 sob o programa “MATOPIBA Sustentável”, com sede em Palmas, voltado ao desenvolvimento econômico e ambientalmente responsável da fronteira agrícola e à coordenação integrada entre Maranhão, Tocantins, Piauí e Bahia.\n[…]\nMATOPIBA é um acrônimo que denomina a região que se estende por territórios de quatro estados do Brasil, formado com as primeiras sílabas dos nomes dessas unidades federativas: Maranhão, Tocantins, Piauí e Bahia.\n[…]\nA repartição territorial aproximada do MATOPIBA entre os quatro Estados é a seguinte: 33% no Maranhão (15 microrregiões, 135 municípios, 23.982.346 ha); 38% no Tocantins (8 microrregiões, 139 municípios e 27.772.052 ha); 11% no Piauí (4 microrregiões, 13 municípios e 8.204.588 ha) e 18% na Bahia (4 microrregiões, 30 municípios e 13.214.499 ha).\n[…]\nO bioma Cerrado predomina na região do MATOPIBA (91% da área), marcado pela ocorrência de pequenas áreas do bioma Amazônia e Caatinga a nordeste e a leste, respectivamente. Cerca de 60% do bioma Cerrado encontra-se nos limites definidos para a Amazônia Legal, ficando de fora os cerrados da Bahia, Piauí e de parte do Maranhão. A inserção do bioma Cerrado nos limites da Amazônia Legal traz implicações sobre as reservas legais previstas no Novo Código Florestal (Lei n° 12651 de 25 de maio de 2012).\n[…]\nTabela 3. Distribuição em áreas (ha) dos territórios legalmente atribuídos no MATOPIBA (Dados atualizados em Outubro de 2013)."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Mata dos Cocais",
+      "descricao": "Formação vegetal de transição dominada por palmeiras, sobretudo no Maranhão e no Piauí."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na Mata dos Cocais, entre o Maranhão e o Piauí, o babaçu divide a paisagem com qual palmeira, famosa pela cera?",
+    "resposta": "Carnaúba",
+    "distratores": [
+      "Buriti",
+      "Açaí",
+      "Pupunha"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mata_dos_Cocais"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mata_dos_Cocais",
+        "situacao": "ok",
+        "texto": "A Mata ou Zona dos Cocais é um interespaço transicional brasileiro, uma floresta ombrófila aberta que fica entre a Floresta amazônica, o Cerrado e a Caatinga, ocupando os estados do Maranhão e Piauí, no Meio-Norte brasileiro, e também em partes do Ceará, Pará e Tocantins. Tem esse nome pela alta quantidade de palmeiras, principalmente o babaçu e a carnaúba.\n[…]\nA Mata dos Cocais está situada entre uma zona de transição entre os biomas da Amazônia (no oeste), do Cerrado (no sul) e da Caatinga (no leste), nos estados do Maranhão, centro-norte do Piauí, pequenas porções no extremo oeste do Ceará, leste do Pará e norte do Tocantins, onde há predominância de especies que ocorrem nestas três formações, como o gênero Orbignya por exemplo.\n[…]\nNa Mata dos Cocais, prevalece uma vegetação transicional entre o Cerrado, a Floresta Amazônica e a Caatinga, rica em palmeiras, em especial o babaçu e a carnaúba.\n[…]\nIntegrou-se economicamente, assim, as regiões da Amazônia e da Mata dos Cocais.\n[…]\nCom relação à produção de alimentos, verifica-se a produção de materiais de óleos vegetais, provenientes do extrativismo vegetal das palmeiras do babaçu e da carnaúba; e a ocupação do território para a pecuária extensiva e a agricultura de pequeno e médio porte (arroz, cana-de-açúcar, mandioca, feijão e frutas) e grande porte (soja e milho, destinados à exportação, utilizando da estrutura do Porto do Itaqui).\n[…]\nO desenvolvimento sustentável é o sistema de desenvolvimento econômico onde não agrida a natureza. O projeto de desenvolvimento sustentável ocorre desde 2001, pelo projeto do Instituto Chico Mendes de Conservação da Biodiversidade. Os recursos mais usados são o babaçu, a oiticica e a carnaúba.\n[…]\nOutros produtos feitos a partir de palmeiras da Mata dos Cocais:\n[…]\nCarnaúba: Laxante, cera, componentes eletrônicos, produtos alimentícios, madeira, adubação\n[…]\nCocais"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Rio Tietê",
+      "descricao": "Rio do estado de São Paulo que nasce em Salesópolis e atravessa a capital paulista rumo ao rio Paraná."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O rio Tietê nasce a poucos quilômetros do litoral paulista. Em vez de seguir para o mar, ele corre para onde?",
+    "resposta": "Para o interior",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Tietê"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Tietê",
+        "situacao": "ok",
+        "texto": "Rio Tietê é um curso de água do estado brasileiro de São Paulo, sendo um afluente do rio Paraná. É conhecido nacionalmente por atravessar, ao longo de seus 1 100 quilômetros de extensão, praticamente todo o estado de São Paulo, de leste a oeste, além de marcar a geografia urbana da maior cidade do país, São Paulo. O Tietê nasce no município de Salesópolis, a 22 km do oceano Atlântico, e corre para\n[…]\nAo contrário da maioria dos rios do Brasil, o Tietê se volta para o interior e não para o oceano, caracterizando, dessa forma, um rio com drenagem endorreica, característica que o tornou um importante instrumento na colonização do Brasil.\n[…]\nEm diversas das barragens citadas (como por exemplo na de Barra Bonita) foram implementados sistemas de eclusas que viabilizaram a manutenção da navegação fluvial. Muitas barcaças fazem o transporte da produção da região a um custo menor do que o do transporte rodoviário. A hidrovia Tietê-Paraná permite a navegação numa extensão de 1 100 quilômetros entre Conchas, no rio Tietê, em São Paulo e São Simão, em Goiás, no rio Paranaíba, até Itaipu, atingindo 2 400 quilômetros de via navegável.\n[…]\nParque Ecológico do Tietê\n[…]\nEm 22 de setembro é celebrado o Dia do Rio Tietê, considerado o rio mais significativo do Centro-Oeste Paulista e, inclusive, também é chamado de \"o rio dos paulistas\", já que suas águas permeiam quase todo o estado. Barra Bonita (SP) é uma das várias cidades banhadas pelo rio e que devem a ele lazer e diversão, além de turismo e comércio, que geram uma grande movimentação econômica na cidade de pouco mais de 36 mil habitantes.\n[…]\nONG Rede das Águas, Página informativa sobre o rio Tietê, sua história, seus problemas ambientais e o Projeto Tietê\n[…]\nPágina do Departamento de Águas e Energia Elétrica do Estado de São Paulo - departamento do governo estadual paulista responsável pelo combate às enchentes no rio Tietê"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Serra da Canastra",
+      "descricao": "Serra do sudoeste de Minas Gerais, protegida pelo Parque Nacional da Serra da Canastra."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Famosa também pelo queijo, a Serra da Canastra, em Minas Gerais, guarda a nascente de qual grande rio brasileiro?",
+    "resposta": "Rio São Francisco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Canastra"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Canastra",
+        "situacao": "ok",
+        "texto": "O Parque Nacional da Serra da Canastra é uma unidade de conservação federal de proteção integral localizada no sudoeste do estado de Minas Gerais, no Brasil. Administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio), o parque foi criado pelo Decreto nº 70.355, de 3 de abril de 1972, com o objetivo de proteger as nascentes do rio São Francisco, do rio Araguari e de tributár\n[…]\nA Serra da Canastra constitui uma zona de recarga hídrica regional. Suas áreas elevadas favorecem a infiltração e o armazenamento de água em aquíferos fissurais e rochas quartzíticas, influenciando tanto os fluxos superficiais quanto os subterrâneos. As nascentes do parque drenam para três grandes bacias hidrográficas: a do rio São Francisco, a do rio Grande e a do rio Paranaíba. A nascente histórica do rio São Francisco está localizada na área do parque, em São Roque de Minas.\n[…]\nA visitação é uma das principais atividades associadas ao parque e ao seu entorno. O Plano de Uso Público de 2025 identificou 21 áreas de visitação, agrupadas em cinco polos: Chapadão da Canastra, Vale do São Francisco, Face Norte, Rio Grande e Mar de Minas. Entre os principais atrativos estão a cachoeira Casca d'Anta, a nascente histórica do rio São Francisco, trilhas, mirantes, cursos d'água e áreas de observação de fauna e flora.\n[…]\nA região da Serra da Canastra é reconhecida por sua tradição agropecuária e pela produção do queijo canastra, bem cultural associado aos modos de vida locais. O Plano de Manejo Integrado do Fogo registra que a produção do queijo canastra nos municípios da região foi reconhecida como patrimônio cultural imaterial brasileiro pelo Instituto do Patrimônio Histórico e Artístico Nacional.\n[…]\nRio São Francisco\n[…]\nPágina oficial do Parque Nacional da Serra da Canastra no ICMBio\n[…]\nPlano de Manejo do Parque Nacional da Serra da Canastra\n[…]\nPlano de Uso Público do Parque Nacional da Serra da Canastra"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Salto do Yucumã",
+      "descricao": "Conjunto de quedas d'água no rio Uruguai, na divisa entre o Rio Grande do Sul e a Argentina."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No rio Uruguai, o Salto do Yucumã tem quase dois quilômetros de quedas. O que há de incomum na direção delas?",
+    "resposta": "Correm paralelas ao rio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salto_do_Yucumã",
+      "https://en.wikipedia.org/wiki/Moconá_Falls"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salto_do_Yucumã",
+        "situacao": "ok",
+        "texto": "O Salto do Yucumã ou Iucumã ou Tucumã ou Grande Salto Yocoma' ou ainda Saltos del Moconá é um importante conjunto de quedas d'água entre o noroeste do município de Derrubadas, no estado brasileiro do Rio Grande do Sul, e ao sudeste do departamento de San Pedro , no município de El Soberbio, na província argentina de Misiones . É a maior queda da água longitudinal do mundo.\n[…]\nEm língua guarani, moconá significa \"que tudo engole\". Os saltos se dão ao longo de 1.800 metros e atingem uma altura de até 20 metros.\n[…]\nDe relevo acidentado, sulcada por numerosos cursos de rios e arroios  e coberta por uma importante massa arborizada, somente no Salto Yucumã (lado Brasileiro) é possível observar a queda d'água. Já os Saltos do Moconá (lado Argentino) oferecem mais de cem alternativas para viver a natureza.\n[…]\nNa década de 1970 foram feitos estudos para a construção de usinas e o aproveitamento do potencial hidrelétrico da região. Mas o projeto foi abandonado por causa dos altos custos ecológicos e ambientais uma vez que a própria lei de conservação da região impede que se submerja as quedas d'água do Iucumã. Existe um projeto de construir uma represa menor, logo após as quedas d'água: a represa Panambi.\n[…]\nMacuco Yucumã\n[…]\nRota do Yucumã"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Moconá_Falls",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Manaus",
+      "descricao": "Capital do estado do Amazonas, às margens do rio Negro."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que regime de incentivos fiscais, criado em 1967, transformou Manaus num grande polo industrial no meio da floresta?",
+    "resposta": "Zona Franca",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zona_Franca_de_Manaus",
+      "https://pt.wikipedia.org/wiki/Manaus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zona_Franca_de_Manaus",
+        "situacao": "ok",
+        "texto": "A Zona Franca de Manaus (ZFM) ou Polo Industrial de Manaus (PIM) é um parque industrial brasileiro localizado na cidade de Manaus, capital do estado do Amazonas. Sua concepção foi dada com o decreto-lei número 3.173 de 6 de junho de 1957, que criou uma zona franca para armazenamento ou depósito de mercadorias em águas tributárias do rio Amazonas. Após dez anos, foi revogado pelo decreto-lei 288 de\n[…]\nAssim foi instituída a Zona Franca de Manaus, com o propósito de criar no interior da Amazônia um centro industrial, comercial e agropecuário dotado de condições econômicas que permitam seu desenvolvimento, em face dos fatores locais e da grande distância, a que se encontram, os centros consumidores de seus produtos.\n[…]\nO Polo Industrial de Manaus é administrado pela Superintendência da Zona Franca de Manaus (SUFRAMA) e abriga na atualidade cerca de 600 indústrias, especialmente concentradas nos setores de televisão, informática e motocicletas. Nos últimos anos, o polo recebeu um novo impulso com os incentivos fiscais para a implantação da tecnologia de televisão digital no Brasil.\n[…]\nAs indústrias instaladas na Zona Franca de Manaus recebem os seguintes benefícios fiscais:\n[…]\nIsenção do Imposto sobre Produtos Industrializados (IPI);\n[…]\nA Zona Franca de Manaus é gerida e fiscalizada pela Superintendência da Zona Franca de Manaus (SUFRAMA). Para que novas empresas possam se instalar no polo é necessário apresentar projeto ao órgão.\n[…]\nSegundo a SUFRAMA, a Zona Franca de Manaus é essencial para preservação da Floresta Amazônica. A argumentação de que a ZFM promove a harmonia entre a conservação ambiental na Amazônia e ações de desenvolvimento pode ser comprovada cientificamente por estudos.\n[…]\nTurismo em Manaus\n[…]\n«Superintendência da Zona Franca de Manaus»  (Suframa)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manaus",
+        "situacao": "ok",
+        "texto": "Manaus é a capital do estado brasileiro do Amazonas. É a sétima cidade mais populosa do Brasil, a sexta maior mancha urbana do país e sua região metropolitana, com mais de 2,8 milhões de habitantes, é a 11.ª mais populosa do país. A cidade possui um forte caráter cosmopolita, atraindo imigrantes e turistas de diversas nacionalidades.\n[…]\nCom a implantação da Zona Franca de Manaus em 1967, a cidade novamente ocupou lugar de destaque entre as principais do Brasil e da América Latina. Ao lado de Cuiabá, capital de Mato Grosso, é a capital que mais cresceu economicamente nos últimos quarenta anos, fato explicado principalmente pelo processo de industrialização em Manaus, que também atraiu milhares de migrantes que ocuparam de forma desordenada a periferia da cidade.\n[…]\nA migração direcionada a Manaus dá-se principalmente entre os nordestinos, sobretudo cearenses e maranhenses. Há uma numerosa migração de pessoas naturais da própria região norte, como do Oeste do Pará e dos estados do Acre, Roraima e Rondônia. Naturais dos estados de São Paulo e Rio Grande do Sul também fazem-se bastante presentes. A migração nordestina ocorreu especialmente no auge da borracha e da instalação da Zona Franca de Manaus, entre o século XIX e a década de 1960.\n[…]\nNeste mesmo período, a zona norte registrou crescimento populacional de 183%, enquanto a zona sul obteve apenas 9,34%.\n[…]\nA Zona Franca de Manaus (ZFM) se destaca como um dos maiores centros industriais do Brasil, abrigando importantes indústrias das áreas de transportes e comunicações.\n[…]\nA Zona Franca de Manaus é uma das principais consumidoras de IA na capital nortista junto com a varejista Bemol, que possui a maior parceria comercial de IA com a OpenAI no Brasil e juntas, lançaram uns dos melhores modelos de IA do mundo para a Região Norte: Japiim.\n[…]\nTurismo em Manaus\n[…]\nZona Franca de Manaus"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Cuiabá",
+      "descricao": "Capital do estado de Mato Grosso, às margens do rio Cuiabá."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Um obelisco no centro de Cuiabá marca o ponto calculado como centro geodésico de qual região?",
+    "resposta": "América do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cuiabá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cuiabá",
+        "situacao": "ok",
+        "texto": "Cuiabá é um município brasileiro, capital do estado de Mato Grosso, Região Centro-Oeste do país. É uma das catorze cidades da Região Imediata de Cuiabá, que por sua vez é uma das três regiões imediatas que integram a Região Intermediária de Cuiabá.\n[…]\nCuiabá faz limite com os municípios de Chapada dos Guimarães, Campo Verde, Santo Antônio de Leverger, Várzea Grande, Jangada e Acorizal. É um entroncamento rodoviário-aéreo-fluvial e o centro geodésico da América do Sul, nas coordenadas -15°35'56\",80 (latitude ao sul) e -56°06'05\",55 (longitude a oeste).\n[…]\nc- no centro, o marco estereotipado na cor verde, representando o centro geográfico da América do Sul: logo abaixo, geometricamente triangulado, os vértices do marco representando um monte de ouro, símbolo da riqueza mineral de Cuiabá\".\n[…]\nO Goiabeiras é conhecido como sendo o Shopping da elite cuiabana.\n[…]\nAlém dos locais já citados, há vários outros que cresceram em popularidade em tempos recentes, como o zoológico, o Museu Rondon (com artefatos indígenas) e o Museu de Arte e Cultura Popular, no campus da Universidade Federal de Mato Grosso, o obelisco e o marco do centro geodésico da América do Sul, a atual Catedral Metropolitana, a Igreja de São Gonçalo no bairro do Porto, a Mesquita de Cuiabá, os parques Mãe Bonifácia e Massairo Okamura, com áreas para exercícios físicos e pistas de caminhada e ciclismo, o Horto Florestal, na confluência do rio Cuiabá com o Coxipó e o Estádio José Fragelli, conhecido como Verdão.\n[…]\nA cidade também é sede do Cuiabá Arsenal, clube de futebol americano duas vezes campeão do Campeonato Brasileiro de Futebol Americano (2010 e 2012) e tricampeão do Campeonato Mato-Grossense (2015, 2016 e 2019).\n[…]\nAmerican Diamond\n[…]\n«Cuiabá no Wikimapia»"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Ilha Grande",
+      "descricao": "Ilha montanhosa do litoral sul do Rio de Janeiro, no município de Angra dos Reis."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Hoje um paraíso turístico, a Ilha Grande, no litoral fluminense, abrigou até os anos noventa que tipo de instituição famosa?",
+    "resposta": "Um presídio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ilha_Grande"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ilha_Grande",
+        "situacao": "ok",
+        "texto": "Ilha Grande (Portuguese pronunciation: [ˈiʎɐ ˈɡɾɐ̃dʒi]), or \"big island\", is a 193 km2 (75 sq mi) forested island located around 12 km (7.5 mi) off of the Atlantic coast of Angra dos Reis, Rio de Janeiro, Brazil, and about 243 km (151 mi) from São Paulo. The highest point on Ilha Grande is the 1,031 m (3,383 ft) tall Pico da Pedra D'Água.\n[…]\nOn 5 July 2019, Ilha Grande and Paraty were inscribed as a UNESCO World Heritage Site.\n[…]\nIlha Grande and Paraty are contained within the 12,400 hectares (31,000 acres) of Tamoios Environmental Protection Area (APA), created in 1982.\n[…]\n62.5% of the island is covered by the Ilha Grande State Park, giving a total of 87% of the island protected status.\n[…]\nIlha Grande is one of the most pristine examples of Brazil's endangered Atlantic rainforest habitat, containing a multitude of species of plants and animals. A hotspot for biodiversity and conservation, Ilha Grande is home to at least 110 resident and migratory avian species, including Magellanic penguins and red-ruffed fruitcrows.\n[…]\nInvertebrates and arthropods number in the hundreds, with at least 400-500 species identified on Ilha Grande.\n[…]\nA popular outdoor destination, the island remains largely undeveloped as much of the area falls within Ilha Grande State Park (Parque Estadual da Ilha Grande). Thus, the remainder of the island is subject to stringent development restrictions in order to preserve the natural environment; vehicles are not permitted and roads are virtually non-existent. For visitors there are several options for reaching and staying on the island.\n[…]\nPortal Turístico da Ilha Grande (in Portuguese)\n[…]\nIlha Grande Travel Guide in English"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_Grande_%28Angra_dos_Reis%29",
+        "situacao": "ok",
+        "texto": "Ilha Grande é uma ilha localizada no litoral sul do estado do Rio de Janeiro, integrante do município de Angra dos Reis. Seu maior assentamento é a Vila do Abraão. A ilha conta com uma população aproximada de 5 000 pessoas.\n[…]\nCom a desativação do Presídio da Ilha Grande, inicia-se o desenvolvimento do turismo, que permanece até então.\n[…]\nUm fato marcante a respeito do presídio Cândido Mendes, situado em Dois Rios, foi a famosa fuga do traficante \"Escadinha\", realizada no ano de 1986 com o auxílio de um helicóptero. \"Escadinha\" cumpria pena de 30 anos por tráfico de drogas, mas em 31 de dezembro de 1985, conseguiu escapar do presídio e se isolar na Praia de Coroa Grande. De lá, \"Escadinha\" foi resgatado de helicóptero por Carlos Gregório (conhecido como \"Gordo\") que na época era ladrão de carros no Rio de Janeiro.\n[…]\nO turismo de Ilha Grande teve grandes modificações. Anos atrás o lugar ainda era muito rústico, considerado um local não tão frequentado como nos dias de hoje. Atualmente, o turismo é bem desenvolvido. Há ótimos lugares para a hospedagem dos turistas e visitantes, como hotéis, pousadas e campings. Também é possível encontrar uma diversa variedade de restaurantes e até algumas lojinhas de compras, caso queiram levar alguma lembrança da viagem.\n[…]\nA duração dos trajetos varia de acordo com a escolha. A Vila do Abraão é o principal porto de chegada na Ilha Grande, onde ficam localizadas a maioria das pousadas. É lá onde desembarcam a maior parte dos turistas. Em média, uma viagem de barco até a Ilha varia de duração entre 15 minutos e 1 hora e meia, tudo depende da rota e do tipo de barco escolhido.\n[…]\nGuia turística Ilha Grande\n[…]\nPortal turístico de Ilha Grande\n[…]\nGuia Completa Sobre Ilha Grande",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Brasília",
+      "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1987, com menos de trinta anos de existência, Brasília recebeu da UNESCO qual título?",
+    "resposta": "Patrimônio Mundial",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Brasília",
+      "https://en.wikipedia.org/wiki/Brasília"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brasília",
+        "situacao": "ok",
+        "texto": "Brasília (AFI: [bɾaˈzilja] ou AFI: [bɾaˈziʎa]) é a capital federal do Brasil e a sede de governo do Distrito Federal. A capital está localizada na região Centro-Oeste do país, ao longo da região geográfica conhecida como Planalto Central. Segundo o Censo do Instituto Brasileiro de Geografia e Estatística (IBGE)/2022, sua população é de 2 817 381 habitantes, sendo, então, a terceira cidade mais pop\n[…]\nA cidade, comumente referida como \"Capital Federal\" ou \"BSB\", é considerada um Patrimônio Mundial pela UNESCO, desde 7 de dezembro de 1987, devido ao seu conjunto arquitetônico e urbanístico e possui a maior área tombada do mundo, com 112,5 quilômetros quadrados.\n[…]\nA principal atividade econômica da capital federal resulta de sua função administrativa. Por isso seu planejamento industrial é estudado com muito cuidado pelo Governo do Distrito Federal. Por ser uma cidade tombada pelo IPHAN e que recebeu o título de Patrimônio Cultural da Humanidade pela Unesco a ocupação do território do Distrito Federal tem características diferenciadas para preservação da cidade.\n[…]\nBrasília é classificada como Patrimônio Cultural da Humanidade pela Unesco, uma agência da ONU e recebe cerca de um milhão de visitantes anualmente. Entre as suas atrações mais visitadas estão os diversos projetos arquitetônicos de Oscar Niemeyer e Joaquim Cardozo.\n[…]\nEm 2017 Brasília se tornou uma das cidades criativas do design da UNESCO.\n[…]\nSeparadas do Plano Piloto estão as suburbanas cidades-satélites, que incluem Gama, Ceilândia, Taguatinga, Samambaia, Núcleo Bandeirante, Sobradinho e Planaltina. Estas cidades, com exceção de Gama e Sobradinho, não foram planejados e desenvolveram-se naturalmente. A capital do Brasil é a única cidade do mundo construída no século XX para ser premiado (em 1987) o status de Patrimônio Histórico e Cultural da Humanidade pela UNESCO, uma agência da ONU.\n[…]\nPatrimônio da Humanidade"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brasília",
+        "situacao": "ok",
+        "texto": "Brasília ( brə-ZIL-ee-ə; Brazilian Portuguese: [bɾaˈziliɐ, bɾaˈziljɐ] ) is the capital city of Brazil and the Federal District. Located in the Brazilian Highlands in the country's Central-West region, it was founded by President Juscelino Kubitschek on 21 April 1960, to replace Rio de Janeiro as the national capital. Brasília is Brazil's third-most populous city after São Paulo and Rio de Janeiro,\n[…]\nBrasília was inscribed as a UNESCO World Heritage Site in 1987 due to its modernist architecture and uniquely artistic urban planning. It was named \"City of Design\" by UNESCO in October 2017 and has been part of the Creative Cities Network since then.\n[…]\nAt the close of the 20th century, Brasília was the largest city in the world which had not existed at the beginning of the century. Brasília has one of the highest population growth rates in Brazil, with annual growth of 2.82%, mostly due to internal migration.\n[…]\nBrasília Declarations\n[…]\nBeing a city registered by UNESCO, the government in Brasília has opted to encourage the development of non-polluting industries such as software, film, video, and gemology among others, with emphasis on environmental preservation and maintaining ecological balance, preserving the city property.\n[…]\nThe city is also home to one of Brazil's top basketball clubs, the three-time NBB champion Uniceub BRB. The club hosts some of its games at the 16,000 all-seat Nilson Nelson Gymnasium. Brasília attempted to host the 2000 Summer Olympics, but withdrew its application. In tennis, Brasília is host to the Aberto da República, and formerly hosted the Aberto de Brasília.\n[…]\nRegional Administration of Brasília website\n[…]\nGeographic data related to Brasília at OpenStreetMap\n[…]\nExplore Brasília in the UNESCO collection on Google Arts & Culture\n[…]\n\"The airport: About Inframerica\". Aeroporto de Brasíla. 2020. Archived from the original on 4 July 2019. Retrieved 20 April 2020."
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Ponte Hercílio Luz",
+      "descricao": "Ponte pênsil inaugurada em 1926 em Florianópolis, entre a Ilha de Santa Catarina e o continente."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+    "resposta": "Ponte Hercílio Luz",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponte_Hercílio_Luz"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_Hercílio_Luz",
+        "situacao": "ok",
+        "texto": "Ponte Hercílio Luz é uma ponte pênsil localizada em Florianópolis, no estado brasileiro de Santa Catarina, sendo a mais antiga das três que ligam as partes insular e continental da capital catarinense. É a maior ponte suspensa do Brasil, com 821 metros - sendo também a maior ponte pênsil sustentada por um sistema de barras de olhal ainda existente no mundo - e possui o 132º maior vão pênsil do mun\n[…]\nTeve sua construção iniciada em 14 de novembro de 1922 e foi inaugurada em 13 de maio de 1926 com o objetivo de ligar a capital do estado, que na época era apenas na ilha de Santa Catarina, à cidade vizinha de São José, visando substituir o antigo serviço de ligação por balsas e reforçando a importância da cidade como capital. Foi a única ligação rodoviária entre ilha e continente até 1975. Em 1982, o trânsito na ponte foi interditado após inspeções de segurança.\n[…]\nA ponte foi projetada e começou a ser construída durante o governo de Hercílio Luz para ser a primeira ligação terrestre entre a Ilha de Santa Catarina e o continente e consolidar Florianópolis como capital de Santa Catarina. Àquela altura, as outras cidades do estado consideravam a ilha muito distante para ser o centro administrativo e político do estado e, em consequência, havia um movimento pregando a mudança da capital para Lages.\n[…]\nA inauguração da ponte Hercílio Luz, numa tarde chuvosa, em 13 de maio de 1926, acabou com o antigo sofrimento dos então 40 mil habitantes da Ilha de Santa Catarina, que até então eram obrigados a usar as desconfortáveis balsas para atravessar da ilha ao continente ou vice-versa.\n[…]\nA Ponte Hercílio Luz é o maior símbolo de Florianópolis desde sua construção, e também é o símbolo estadual mais reconhecido pelos moradores catarinenses - em uma pesquisa realizada pelo Instituto Mapa, ela é mais citada do que a própria capital e que as praias do litoral catarinense.\n[…]\nPonte Bulcão Viana"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Estrada Real",
+      "descricao": "Conjunto de caminhos coloniais que ligavam a região das minas de Minas Gerais aos portos de Paraty e do Rio de Janeiro."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "No Brasil colonial, que caminho oficial levava o ouro e os diamantes de Minas Gerais até os portos de Paraty e do Rio?",
+    "resposta": "Estrada Real",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estrada_Real"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrada_Real",
+        "situacao": "ok",
+        "texto": "Estrada real ou caminho real eram as principais estradas e caminhos existentes em Portugal continental e no Império Português, cuja construção e manutenção estavam a cargo da Coroa Portuguesa, diretamente ou através dos seus representantes locais.\n[…]\nNo Brasil Colónia a construção dessas estradas foi especialmente intensa e relacionada com a atividade minerária. O  património histórico-cultural que representam é defendido pelo Projeto Estrada Real. O nome \"Estrada Real\" refere-se a qualquer via terrestre que, à época do Brasil Colônia, era percorrida no processo de povoamento e exploração econômica de seus recursos, em articulação com o mercado internacional.\n[…]\nNesta perspectiva, a designação \"Estrada Real\"  reflete o fato de que era esse o caminho oficial, único autorizado para a circulação de pessoas e mercadorias. A abertura ou utilização de outras vias constituía crime de lesa-majestade, encontrando-se aí a origem da expressão descaminho com o significado de contrabando.\n[…]\nO chamado Caminho do Rio de Janeiro  (depois chamado de  Caminho Velho do Rio de Janeiro; atualmente,  Estrada Real) e suas variantes, ligando a Capitania do Rio de Janeiro às Minas.\n[…]\nOs caminhos do Rio de Janeiro formavam uma rede de caminhos  popularmente conhecida como Estrada Real. As suas principais variantes foram:\n[…]\nSANTOS, Márcio. Estradas reais: introdução ao estudo dos caminhos do ouro e dos diamantes no Brasil. Belo Horizonte: Editora Estrada Real, 2001.\n[…]\nROCHA JUNIOR, Deusdedith; VIEIRA JÚNIOR, Wilson; CARDOSO, Rafael Carvalho. Viagem pela Estrada Real dos Goyazes. Brasília: Paralelo 15, 2006.\n[…]\nSítio oficial do Instituto Estrada Real\n[…]\nGuia de Cicloturismo Estrada Real Caminho Velho\n[…]\nGuia Estrada Real Caminho dos Diamantes para Ciclistas e Caminhantes"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Bico do Papagaio",
+      "descricao": "Região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a ponta norte do Tocantins, com formato curvo, onde os rios Araguaia e Tocantins se encontram?",
+    "resposta": "Bico do Papagaio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Microrregião_do_Bico_do_Papagaio",
+      "https://pt.wikipedia.org/wiki/Tocantins"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Microrregião_do_Bico_do_Papagaio",
+        "situacao": "ok",
+        "texto": "Esta é a lista de mesorregiões e microrregiões do Tocantins, estado brasileiro da Região Norte do país. O estado do Tocantins foi dividido geograficamente pelo IBGE em duas mesorregiões, que por sua vez abrangiam oito microrregiões, segundo o quadro vigente entre 1989 e 2017.\n[…]\nEm 2017, o IBGE extinguiu as mesorregiões e microrregiões, criando um novo quadro regional brasileiro, com novas divisões geográficas denominadas, respectivamente, regiões geográficas intermediárias e imediatas.\n[…]\nLista de municípios do Tocantins\n[…]\nLista de regiões geográficas intermediárias e imediatas do Tocantins"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tocantins",
+        "situacao": "ok",
+        "texto": "Tocantins é uma das 27 unidades federativas do Brasil, sendo o seu mais novo estado. Está localizado a sudeste da Região Norte e tem como limites Goiás a sul, Mato Grosso a oeste e sudoeste, Pará a oeste e noroeste, Maranhão a norte, nordeste e leste, Piauí a leste e Bahia a leste e sudeste. Sua capital é a cidade planejada de Palmas que, dentre as capitais estaduais brasileiras, é a menos populos\n[…]\nA ocorrência de intensos conflitos agrários na região conhecida como \"Bico do Papagaio\", no norte tocantinense, entre os rios Araguaia e Tocantins, nessa época, alimentou a defesa pela emancipação da região.\n[…]\nAs principais regiões geográficas do estado são a Chapada da Bahia do Meio-Norte, com altitudes variadas de 300 a 600 m e representadas pela Serra da Cangalha e Mangabeira no Município de Itacajá; Chapada da Bacia de São Francisco, um divisor das águas das Bacias São Francisco/Tocantins, com altitude média de 900 m e representada pela Serra Geral de Goiás; Planalto do Tocantins, com altitude médias de 700 m; e a Peneplanície do Araguaia, constituída por um peneplano de colinas suaves com altitudes de 300 a 400 m, ao longo dos vales dos rios Araguaia e das Mortes.\n[…]\nJá o ponto mais baixo do estado, está localizado na extremidade oeste da Ilha dos Bois em Esperantina, na tríplice divisa com os estados do Pará e do Maranhão. Este ponto possui 90 m de altitude, estando situado bem próximo à cidade paraense de São João do Araguaia. A Ilha dos Bois se encontra localizada logo após a confluência entre os rios Tocantins e Araguaia, sendo que toda a bacia hidrográfica do estado (Bacia do Tocantins-Araguaia) segue em direção à ilha.\n[…]\nA hidrografia do estado do Tocantins é delimitada a oeste pelo Rio Araguaia e ao centro pelo Rio Tocantins. Ambos correm de sul para norte e se unem no município de Esperantina, banhando boa parte do território tocantinense.\n[…]\n«Governo do Estado do Tocantins»"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Ceará",
+      "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No romance Iracema, José de Alencar explica que o nome Ceará quer dizer o canto de qual ave?",
+    "resposta": "Jandaia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ceará"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ceará",
+        "situacao": "ok",
+        "texto": "Ceará é uma das 27 unidades federativas do Brasil. Está situado no norte da Região Nordeste, faz divisa com Rio Grande do Norte e Paraíba a leste, Pernambuco ao sul e Piauí a oeste, além de ser banhado pelo Oceano Atlântico a norte e nordeste. Sua área total é de 148 894,442 km², ocupando 9,37% da área do Nordeste e 1,74% da superfície do Brasil. A população do estado em 2022 era de 8 794 957 habi\n[…]\nPor esse fato, o jornalista José do Patrocínio cunhou o título de \"a terra da luz\" ao Ceará, e todo dia 25 de março, é celebrado o dia da Data Magna, feriado instituído em homenagem ao aniversário da abolição.\n[…]\nAutores antigos atribuem historicamente ao topônimo ceará várias acepções, porém a mais conhecida e aceita diz significar \"o cantar da jandaia\". Segundo Manuel Ayres de Casal, ceará é nome composto de cemo — cantar forte, clamar — e ara — pequena arara — em língua tupi. Tal tese foi posteriormente confirmada e enriquecida pelo escritor José de Alencar.\n[…]\nEmbora o pensamento de José de Alencar acerca da origem do nome seja o mais sólido, João Mendes de Almeida Júnior o acusava de ser por demais poético em sua definição, \"(...) mais consoante com o sentir de quem tão belamente descreve a sua terra natal como um país de primores, onde canta a jandaia nos galhos da carnaúba\", e a classificava como carente de confirmação filológica.\n[…]\nAlguns dos espaços culturais importantes do estado são: Casa de José de Alencar (que abriga o Museu da Renda, o Museu da Antropologia, a Pinacoteca Floriano Teixeira e a Biblioteca Braga Montenegro), Museu da Imagem e do Som do Ceará, Museu do Ceará, Theatro José de Alencar, um dos mais importantes exemplos da arquitetura art nouveau no Brasil, Centro Dragão do Mar de Arte e Cultura, que abriga, dentre outras instalações, o Museu de Arte Contemporânea do Ceará, o Museu da Cultura Cearense, Museu Sacro São José de Ribamar e o Museu Dom José."
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Sergipe",
+      "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Vindo do tupi, o nome do estado de Sergipe costuma ser traduzido como rio de quais animais?",
+    "resposta": "Siris",
+    "distratores": [
+      "Jacarés",
+      "Camarões",
+      "Piranhas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sergipe"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sergipe",
+        "situacao": "ok",
+        "texto": "Sergipe é uma das 27 unidades federativas do Brasil. Está situado na Região Nordeste e tem por limites o oceano Atlântico a leste e os estados da Bahia, a oeste e a sul, e de Alagoas, a norte, do qual está separado pelo Rio São Francisco. Está dividido em 75 municípios e é o menor dos estados brasileiros, ocupando uma área total de 21 910 km², tornando-o pouco maior que El Salvador. Em 2021, sua p\n[…]\nO nome do estado vem da antiga língua tupi e significa \"no rio dos siris\" (referindo-se ao Rio Sergipe), por meio da junção das palavras siri (siri), îy (rio) e -pe (em) que na linguagem dos colonizadores tornou-se Sergipe. Cabe notar um caso de variação linguística na língua tupi, pois, na região que atualmente compreende o Nordeste do Brasil, a palavra rio é îy (pronuncia-se \"gi\"), enquando no resto do território nacional ela é 'y.\n[…]\nA Federação das Indústrias do Estado de Sergipe (Fies), criada em 1948, é a entidade sindical dos donos das empresas. A entidade congrega a maioria dos donos e dirigentes industriais.\n[…]\nA primeira emissora de televisão do estado foi a TV Sergipe, inaugurada em novembro de 1971 como afiliada da extinta Rede Tupi. Em 1973, passou a integrar a Rede Globo de Televisão. Em 2009, a TV Atalaia fez a primeira transmissão do sinal de televisão digital no estado. A TV Sergipe dá início à transmissão de Tv Digital em março de 2010.\n[…]\nO principal porto do estado é o Porto de Sergipe, em Barra dos Coqueiros.\n[…]\nO folclore sergipano é rico e diversificado, reunindo elementos da cultura indígena, africana e europeia. Dentre as muitas manifestações folclóricas destacam-se o Reisado, Parafusos, Jonhos, Guerreiros, Lambe-Sujos e Caboclinhos, Cacumbi, Taieira, Samba de Parelha e São Gonçalo. Anualmente é realizado o Encontro Cultural de Laranjeiras, um evento que reúne musicais, apresentações de grupos folclóricos, grupos de discussão e exposições sobre o folclore no estado."
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Curitiba",
+      "descricao": "Capital do estado do Paraná, conhecida pelo planejamento urbano e pelo transporte coletivo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "De origem tupi, o nome Curitiba faz referência à fartura de qual árvore na região?",
+    "resposta": "Araucária",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curitiba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Curitiba",
+        "situacao": "ok",
+        "texto": "Curitiba é a capital do estado brasileiro do Paraná. Localiza-se no Primeiro Planalto Paranaense, a 934 metros de altitude, a mais de 110 quilômetros do Oceano Atlântico e a 1 386 km ao sul de Brasília, capital federal. Com 1 773 718 habitantes, é o município mais populoso do Paraná e da Região Sul e o oitavo mais populoso do país, segundo o censo demográfico de 2022 realizado pelo IBGE.\n[…]\nCuritiba tem como vegetação a floresta ombrófila mista, um ecossistema da Mata Atlântica formado por campos e árvores que se entremeiam de capões de florestas com araucária, além de demais formações, como várzeas e matas ciliares. Na vegetação original ainda existem remanescentes da Araucaria angustifolia, as quais sobreviveram à civilização atual. As araucárias estão em bosques particulares e públicos, agora protegidas pela legislação ambiental que impede a sua derrubada.\n[…]\nA produção de água tratada é efetuada nas unidades de tratamento do Iguaçu, Iraí, Passaúna, rio Pequeno e Karst, com capacidade total de produção de 9,1 mil litros por segundo. O sistema integrado atende Curitiba e os municípios de São José dos Pinhais, Piraquara, Pinhais, Araucária e parte dos de Almirante Tamandaré, Campo Largo, Colombo, Campina Grande do Sul, Quatro Barras e Fazenda Rio Grande.\n[…]\nNo centro de Curitiba está localizada a Biblioteca Pública do Paraná, maior biblioteca pública do estado e da Região Sul do país. A instituição foi criada em 1857 e reformada em 1953 para as comemorações do centenário do Paraná. A biblioteca serve a população com quase 600 mil livros.\n[…]\nMuito utilizada como tempero, a semente da Araucaria angustifolia, encontrada especialmente na Região Sul do Brasil, é usada no preparo das receitas de frango com polenta e do bolinho de pinhão. Além disso, pode ser conservada e também é possível apreciar depois do cozimento na panela de pressão ou do assamento na chapa."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Niterói",
+      "descricao": "Cidade do estado do Rio de Janeiro, do outro lado da Baía de Guanabara em relação à capital."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua tupi, o nome da cidade de Niterói, vizinha do Rio de Janeiro, significa o quê?",
+    "resposta": "Água escondida",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Niterói"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Niterói",
+        "situacao": "ok",
+        "texto": "Niterói (tupi: Nheterõîa, «aquilo que é sinuoso»)? é um município brasileiro da Região Metropolitana do Rio de Janeiro, no estado do Rio de Janeiro. Foi a capital estadual, como indicado pela sua coroa mural dourada, exclusiva de capitais, entre 1834-1894 e novamente entre 1903-1975.\n[…]\nEstá entre as cidades mais alfabetizadas do Brasil, além de apresentar a menor incidência de pobreza, a população com maior renda mensal per capita e o maior índice de longevidade municipal do Estado do Rio de Janeiro. Segundo levantamento do Instituto Trata Brasil, com base no ano de 2014, a cidade encontra-se na 12ª posição nacional apresentando 100% do abastecimento de água tratada.\n[…]\nNo ano seguinte, 1835, a cidade passou a se chamar Nictheroy. A condição de capital trouxe uma série de desenvolvimentos urbanos como a barca a vapor, iluminação pública a óleo de baleia, abastecimento de água e novos meios de transporte para ligar a cidade ao interior da província. Nove anos depois, o imperador dom Pedro II concedeu à cidade de Niterói o título de Imperial Cidade. A nomeação era dada às cidades mais importantes, conferindo-lhes certa autonomia e poder regional.\n[…]\nNiterói tem as seguintes cidades-irmãs:\n[…]\nO Rio Cricket participou, também, da (possivelmente) primeira rivalidade do futebol fluminense, com o Paissandu Atlético Clube, clube da cidade do Rio de Janeiro que foi fundado por fundadores do Rio Cricket e que possui um título carioca de futebol. Niterói também conta com equipes de vários outros esportes, como o Niterói Rugby, heptacampeão brasileiro de rúgbi e pentacampeão brasileiro de handebol de praia, o Niterói Basquete e a Niterói Vôlei.\n[…]\nNiterói no WikiMapia\n[…]\n«Secretaria de Cultura de Niterói»\n[…]\n«Secretaria Municipal de Desenvolvimento, Ciência e Tecnologia de Niterói»"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Pororoca",
+      "descricao": "Fenômeno de grandes ondas formadas pelo encontro da maré oceânica com as águas de rios, como na foz do Amazonas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome pororoca, a grande onda que sobe a foz do Amazonas, vem do tupi. O que ele quer dizer?",
+    "resposta": "Estrondo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pororoca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pororoca",
+        "situacao": "ok",
+        "texto": "Pororoca ou mupororoca é a forma como são denominados os macaréus que ocorrem na Amazônia. Trata-se de um fenômeno natural produzido pelo encontro das correntes fluviais com as águas oceânicas.\n[…]\nO termo \"pororoca\" origina-se do tupi pororoka, palavra composta pelo verbo pororok (explodir, rebentar, estrondar) e o sufixo substantivador -a. Deste modo, a palavra significa estrondo, explosão, ato de rebentar.\n[…]\nO fenômeno manifesta-se, no Brasil, na foz do rio Amazonas e afluentes do litoral paraense e amapaense (rio Araguari, rio Maiacaré, rio Guamá, Rio Capim, Rio Moju) e na foz do rio Mearim, no Maranhão. Esse choque das águas derruba árvores de grande porte e modifica o leito dos rios.\n[…]\nRecentemente, o fenômeno tem atraído praticantes de surfe, transformando-se numa atração turística regional amazônica.\n[…]\nEm julho de 2015, foi declarado oficialmente que o fenômeno já não ocorre no rio Araguari. A ocupação irregular de áreas nativas para a criação de búfalos foi um dos principais fatores que provocaram o fim do fenômeno da pororoca na bacia desse rio do extremo leste do Amapá.\n[…]\nFestival da Pororoca"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Ubatuba",
+      "descricao": "Município do litoral norte do estado de São Paulo, conhecido pelas praias."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que linha imaginária corta a cidade paulista de Ubatuba e também os estados do Paraná e de Mato Grosso do Sul?",
+    "resposta": "Trópico de Capricórnio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ubatuba",
+      "https://pt.wikipedia.org/wiki/Trópico_de_Capricórnio"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ubatuba",
+        "situacao": "ok",
+        "texto": "Ubatuba, oficialmente Estância Balneária de Ubatuba, é um município brasileiro do estado de São Paulo. Localizada na Mesorregião do Vale do Paraíba Paulista e na Microrregião de Caraguatatuba, trata-se de uma estância balneária cujo território ocupa uma área de 708,105km², sendo 83% coberto pelo Parque Estadual da Serra do Mar. O Censo 2022 apontou que sua população era de 92 981 habitantes, resul\n[…]\nA cidade de Ubatuba está localizada no litoral norte do Estado de São Paulo, distante 250 quilômetros da capital estadual. Limita-se ao norte com Paraty (Rio de Janeiro), ao sul com Caraguatatuba, a oeste com Cunha, São Luiz do Paraitinga e Natividade da Serra e a leste com o Oceano Atlântico, achando-se na latitude 23°26'21,45\". A cidade é cortada pelo Trópico de Capricórnio, passando em frente à pista do aeroporto local.\n[…]\nO clima de Ubatuba é o tropical litorâneo úmido ou tropical atlântico, com chuvas abundantes ao longo do ano,  mais frequentes no verão, sem estação seca, e com mês mais frio possuindo temperatura média igual ou acima de 18 °C. Com quase 1 700 horas de sol por ano, a umidade do ar é relativamente elevada e o índice pluviométrico é de 2 520 milímetros/ano, o que é refletido pelo apelido Ubachuva que a cidade recebe, devido ao seu clima chuvoso.\n[…]\nAeroporto de Ubatuba\n[…]\nNa década de 90 o código DDD da cidade foi alterado para (012), para padronização do sistema telefônico com a telefonia celular que estava sendo implantada em todo o estado.\n[…]\nUbatuba é muito frequentada por esportistas náuticos:\n[…]\nSkate: Ubatuba possui uma pista ótima para os iniciantes e profissionais do skate, ela contém halfs, quarters, escadarias, entre outros obstáculos. Esta pista está situada na Avenida Iperoig, no Centro, em frente ao aeroporto. E também há vários outros mini-ramps espalhados pela cidade, como as do bairro do Ranário, Itamambuca e Jardim Carolina.\n[…]\n«Ubatuba no WikiMapia»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trópico_de_Capricórnio",
+        "situacao": "ok",
+        "texto": "O Trópico de Capricórnio é um dos cinco principais círculos de latitude que marcam mapas da Terra. Delimita a zona tropical sul, que corresponde a um limite do solstício, que é a declinação mais meridional da elíptica do Sol sobre o equador celeste. Em outras palavras, é o local mais ao sul do planeta aonde o Sol consegue atingir o ponto mais alto no céu (zênite) em algum momento no ano, ou seja, \n[…]\nPara que se entenda em termos práticos a definição dos trópicos de Câncer e de Capricórnio, pode-se considerar a posição o zênite do Sol.\n[…]\nNos pontos da Terra situados exatamente sobre trópicos de  Câncer  e de Capricórnio, haverá ao menos um momento, num único dia a cada ano, em que o Sol estará em seu completo zênite. Isso ocorrerá na data do solstício de verão do respectivo hemisfério. Estará totalmente \"a pino\", de modo que as sombras dos objetos ficarão exatamente sob os mesmos. Isso ocorre por volta de meio-dia, variando essa hora em função da posição relativa do local dentro do seu fuso horário.\n[…]\nEm dois dias do ano, nos pontos da  Terra  situados  entre os trópicos de Câncer e de Capricórnio,  haverá um momento  de \"sol a pino\"' (zênite). Sobre a linha do equador, essas duas datas são os equinócios (20~21 de março; 22~23 de setembro), separados entre si por cerca de 6 meses.\n[…]\nAo  norte do Trópico de Câncer e ao  sul do Trópico de Capricórnio,  o Sol jamais fica  no seu zênite.\n[…]\nTanto o Trópico de Câncer como o Trópico de Capricórnio têm sua latitude (a qual é consequência da inclinação do eixo terrestre em relação à eclíptica) de 23°26'14\" variável. O ciclo de variação tem uma equação bastante complexa. Seu período é de cerca de 41 mil anos - a inclinação variando entre 22,1° e 24,5°. Atualmente, essa inclinação se reduz em cerca de 0,47\" a cada  ano.\n[…]\nDe oeste para leste, a partir do meridiano de Greenwich, o Trópico de Capricórnio tem os seguintes cruzamentos\n[…]\nTrópico"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Diamantina",
+      "descricao": "Cidade histórica de Minas Gerais, antigo centro de mineração de diamantes no século dezoito."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a mineira Diamantina, a pernambucana Olinda e a antiga capital goiana, a Cidade de Goiás, têm em comum?",
+    "resposta": "São Patrimônio Mundial da UNESCO",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Diamantina",
+      "https://pt.wikipedia.org/wiki/Lista_do_Patrimônio_Mundial_no_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Diamantina",
+        "situacao": "ok",
+        "texto": "Diamantina é um município brasileiro no estado de Minas Gerais, Região Sudeste. Localiza-se no Vale do Jequitinhonha, na região central mineira, e ocupa uma área de 3 891,659 km², sendo que 11,98 km² estão em perímetro urbano. Tem uma população estimada de 49 493 habitantes em 2025.\n[…]\nFundada no início do século XVIII, Diamantina teve sua origem ligada à descoberta de diamantes na região, o que impulsionou seu desenvolvimento e a transformou em um importante centro de mineração. O município preserva até hoje um conjunto arquitetônico colonial, com casarões, igrejas e ruas de pedra que refletem seu passado histórico. Em reconhecimento à sua importância cultural e histórica, Diamantina foi declarada Patrimônio Mundial pela UNESCO em 1999.\n[…]\nEm 1938, Diamantina comemorou seus cem anos de elevação à categoria de cidade, recebendo do Instituto do Patrimônio Histórico e Artístico Nacional o título de \"patrimônio histórico nacional\". Com a chegada de Juscelino Kubitschek ao governo do estado e posteriormente à Presidência da República são feitas muitas melhorias em Diamantina, como a fundação da Faculdade Federal de Odontologia de Diamantina, do Hotel Tijuco, da Escola Estadual Júlia Kubitschek e da Praça de Esportes de Diamantina.\n[…]\nCentro Histórico de Diamantina – É um destacado ponto turístico que encanta visitantes com seu rico patrimônio arquitetônico e cultural. Caracterizado por suas ruas estreitas de pedra e casas coloniais preservadas, este local inclui marcos históricos como a Igreja de São Francisco de Assis e a Casa de Juscelino Kubitschek. Reconhecido como Patrimônio Cultural da Humanidade pela UNESCO, o centro histórico oferece uma imersão na história do ciclo do ouro e dos diamantes no Brasil.\n[…]\nPrefeitura de Diamantina\n[…]\nDiamantina no IBGE Cidades"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_do_Patrimônio_Mundial_no_Brasil",
+        "situacao": "ok",
+        "texto": "A Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO) propôs um plano de proteção aos bens culturais do mundo, através do Comité sobre a Proteção do Património Mundial Cultural e Natural, aprovado em 1972. Esta é uma lista do Patrimônio Mundial existente no Brasil, especificamente classificada pela UNESCO e elaborada de acordo com dez principais critérios cujos pontos são\n[…]\nIntegrante da região América Latina e Caribe, o Brasil é o país da região com a segunda maior quantidade de sítios inscritos no Patrimônio Mundial, sendo superado apenas pelo México (que totaliza 31 sítios declarados).\n[…]\nA Cidade Histórica de Ouro Preto, que demarca uma região de grande legado cultural e arquitetônico no interior do estado de Minas Gerais, foi o primeiro sítio do país inscrito na Lista do Patrimônio Mundial por ocasião da 4.ª Sessão do Comité do Patrimônio Mundial, realizada em Paris (França) em 1980. O Brasil totaliza 26 sítios declarados pela UNESCO, dos quais dezesseis são de interesse cultural, nove de interesse natural e um sítio de interesse misto.\n[…]\nTodos os sítios do Brasil na Lista do Patrimônio Mundial da UNESCO estão descritos abaixo, com base nas denominações oficiais da UNESCO, sua localidade, a divisão entre bem cultural e bem natural e um trecho adicional com as informações que a própria UNESCO publicou em seu sítio oficial.\n[…]\nO Brasil conta atualmente com os seguintes lugares declarados como Patrimônio da Humanidade pela UNESCO:\n[…]\nEm adição aos sítios inscritos na Lista do Patrimônio Mundial, os Estados-membros podem manter uma lista de sítios que pretendam nomear para a Lista de Patrimônio Mundial, sendo somente aceitas as candidaturas de locais que já constarem desta lista. Desde 2024, o Brasil possui 23 locais na sua Lista Indicativa.\n[…]\nLista de obras primas do Património Mundial\n[…]\nPágina oficial da UNESCO\n[…]\nPatrimônio Mundial da UNESCO no Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Campo Grande",
+      "descricao": "Capital do estado de Mato Grosso do Sul."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Quando se fala do relógio em relação ao horário de Brasília, o que Campo Grande, Cuiabá e Manaus têm em comum?",
+    "resposta": "Uma hora atrás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Time_in_Brazil",
+      "https://pt.wikipedia.org/wiki/Campo_Grande_(Mato_Grosso_do_Sul)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Time_in_Brazil",
+        "situacao": "ok",
+        "texto": "Time in Brazil is calculated using standard time, and the country (including its offshore islands) is divided into four standard time zones: Fernando de Noronha time (UTC−02:00), Brasília time (UTC−03:00), Amazon time (UTC−04:00), and Acre time (UTC−05:00). About 93% of the Brazilian population live in Brasília time (UTC−03:00).\n[…]\nThis time zone is used in the states of Mato Grosso, Mato Grosso do Sul, Rondônia, Roraima, and most of Amazonas. Although this time zone covers about 36% of the land area of Brazil (an area larger than Argentina), only about 6% of the country's population live there (about 12 million people, slightly more than the city of São Paulo).\n[…]\nUntil 2008, the part of the state of Pará west of the Jari and Xingu rivers was also part of this time zone; then it joined the rest of the state in observing Brasília time (UTC−03:00). Although other changes to Brazilian time zones enacted at that time have since been reverted (see below), western Pará still remains in UTC−03:00.\n[…]\nUnofficially, 32 municipalities in eastern Mato Grosso, located in the Araguaia valley, observe UTC−03:00, Brasília time.\n[…]\nUnofficially, some municipalities in eastern Mato Grosso do Sul, such as Bataguassu, Aparecida do Taboado, Cassilândia and Chapadão do Sul, also observe UTC−03:00, Brasília time.\n[…]\nThe most recent DST rule specified advancing the time by one hour during the period from 00:00 on the first Sunday in November to 00:00 on the third Sunday in February (postponed by one week if the latter fell on carnival), applicable only to the South, Southeast and Central-West regions, which comprise about 65% of the Brazilian population. During DST, Brasília time moved from UTC−03:00 to UTC−02:00; the other states that did not follow DST observed a change of the offset to Brasília time."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campo_Grande_(Mato_Grosso_do_Sul)",
+        "situacao": "ok",
+        "texto": "Campo Grande é um município brasileiro da região Centro-Oeste, capital e município mais populoso do estado de Mato Grosso do Sul. Reduto histórico de divisionistas entre o sul e o norte, Campo Grande foi fundada por mineiros, que vieram aproveitar os campos de pastagens nativas e as águas cristalinas da região dos cerrados.\n[…]\nCampo Grande é a capital do vigésimo primeiro estado mais populoso do Brasil, Mato Grosso do Sul, e está situado no sul da região Centro-Oeste do Brasil. Geograficamente, o município de Campo Grande se situa próximo da fronteira do Brasil com Paraguai e Bolívia. Localiza-se na latitude de 20º26’34” Sul e longitude de 54°38’47” Oeste. Está equidistante dos extremos norte, sul, leste e oeste da América do Sul, e se situa a 1 134 km de Brasília.\n[…]\nEstá a (-1) hora com relação a Brasília e (-4) com relação a Greenwich. Ocupa uma superfície total de 8 096,051 km², ocupando 2,26% da área total do Estado. A área urbana totaliza 154,45 km² segundo a Embrapa Monitoramento por Satélite.\n[…]\nPrevisto para inauguração em meados de fevereiro de 2015, a rede brasileira de hotéis luxo, Hotéis Deville, inaugurará um hotel cinco estrelas na Avenida Mato Grosso, 4250, na esquina do Parque das Nações Indígenas. O Hotel Deville Prime Campo Grande terá 191 apartamentos e quatro suítes, em dez andares.\n[…]\nO fato de que na cidade não existe concentração de indigentes e pedintes de rua, se comparado aos grandes centros, também pesa na hora de atrair investidores. Os programas sociais dos governos conseguiram amenizar a situação crônica enfrentada pelas famílias excluídas. A cidade é a primeira capital a eliminar todas as favelas e, além disso, os índices de violência são considerados muito baixos para os padrões brasileiros.[carece de fontes]?\n[…]\nHistória da fundação de Campo Grande\n[…]\n«Campo Grande no Wikimapia»"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Foz do Iguaçu",
+      "descricao": "Município do oeste do Paraná, junto às Cataratas do Iguaçu e às fronteiras com Argentina e Paraguai."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a brasileira Foz do Iguaçu, a argentina Puerto Iguazú e a paraguaia Ciudad del Este têm em comum?",
+    "resposta": "Formam a Tríplice Fronteira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Foz_do_Iguaçu",
+      "https://pt.wikipedia.org/wiki/Tríplice_Fronteira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Foz_do_Iguaçu",
+        "situacao": "ok",
+        "texto": "Foz do Iguaçu é um município brasileiro localizado na região oeste do estado do Paraná. Dista 643 quilômetros da capital estadual, sua área territorial é de 617,701 km², dos quais 61,200 km² estão em perímetro urbano, e sua população, conforme o censo de 2022, é de 285 415 habitantes.\n[…]\nFoz integra uma região urbana trinacional com mais de 700 mil habitantes, constituída também por Ciudad del Este, no Paraguai, e Puerto Iguazú, na Argentina, países com os quais faz fronteira. Iguaçu é topônimo indígena, podendo ser decomposto originalmente em Y (água) e guazú (grande), ocorrendo, por acréscimo de uma vogal, a atual denominação. Seus moradores são designados pelo gentílico \"iguaçuense\".\n[…]\nNo sudoeste de Foz, os rios Iguaçu e Paraná se unem formando a tríplice fronteira entre Brasil, Argentina e Paraguai.\n[…]\nFoz do Iguaçu é uma das Mercocidades brasileiras. Juntamente da cidade paraguaia de Ciudad del Este e da argentina Puerto Iguazú, formam uma área urbana conhecida na região como Tríplice Fronteira, sendo caracterizadas portanto como Tri-Cidades.\n[…]\nPuerto Iguazú, Misiones, Argentina;\n[…]\nCiudad del Este, Alto Paraná, Paraguai.\n[…]\nAs principais atrações da cidade são o conjunto de quedas denominadas Cataratas do Iguaçu, no Parque Nacional do Iguaçu (Patrimônio Mundial Natural da Humanidade tombado pela UNESCO), a Hidrelétrica Binacional de Itaipu (maior hidrelétrica do mundo em produção anual de energia), o Marco das Três Fronteiras, a foz do rio Iguaçu no rio Paraná (área onde as fronteiras da Argentina, Brasil e Paraguai se encontram), a Ponte Internacional da Amizade (divisa entre Brasil e Paraguai) e Ponte da Fraternidade (divisa entre Brasil e Argentina), o Parque das Aves (com aproximadamente 900 aves de 150 espécies), entre outras.\n[…]\nFronteira Brasil-Paraguai"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tríplice_Fronteira",
+        "situacao": "ok",
+        "texto": "Uma tríplice fronteira ou tripla fronteira é o ponto onde se encontram os limites territoriais e políticos de três países ou divisões de um estado.\n[…]\nAs tríplices fronteiras na América do Sul são muitas. Só o Brasil possui nove tríplices fronteiras; a Bolívia e o Peru cinco; a Argentina, quatro; o Paraguai e a Colômbia, três tríplices fronteiras cada um; o Chile, a Venezuela, a Guiana e o Suriname possuem duas cada um; Equador, Uruguai e Guiana Francesa têm apenas uma tríplice fronteira cada um.\n[…]\nLista das fronteiras tríplices da Ásia:\n[…]\nFronteiras tríplices Ásia / Europa (na região do Cáucaso):\n[…]\nLista das fronteiras tríplices da Europa\n[…]\nNota: As tríplices fronteiras entre países de continentes diferentes (Europa, Ásia) nos limites entre os mesmos, estão apresentadas em Tríplice fronteira#Ásia\n[…]\nO Brasil é um país de tamanho continental (mais de 8,5 milhão de km²), e possui nove municípios situados em tríplices fronteiras. Segue abaixo a relação de todas elas:\n[…]\nNo Brasil, há 25 fronteiras interestaduais tríplices:\n[…]\nO Lago Chade, comum a quatro países africanos, pode aparentar ser uma fronteira Quádrupla. Porém ali, dentro do lago, existem duas fronteiras tríplices separadas por apenas 87 quilômetros da Fronteira Chade-Nigéria; Essas tríplices fronteiras são entre os dois países citados e Níger ao norte e Camarões ao sul;\n[…]\nNo sudoeste da África há duas fronteiras tríplices muito próximas:\n[…]\nFronteira\n[…]\nPenedo dos Três Reinos, uma antiga tríplice fronteira entre o Reino de Portugal, o Reino de Leão e o Reino da Galiza.\n[…]\nMobilidade humana na tríplice fronteira Peru-Colômbia-Brasil, Márcia Maria de Oliveira, São Paulo Maio/Agosto 2006."
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Petrópolis",
+      "descricao": "Cidade da serra fluminense, antiga residência de verão da família imperial brasileira."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Vizinhas na serra fluminense, Petrópolis e Teresópolis homenageiam em seus nomes qual casal imperial?",
+    "resposta": "Dom Pedro II e Teresa Cristina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Petrópolis",
+      "https://pt.wikipedia.org/wiki/Teresópolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Petrópolis",
+        "situacao": "ok",
+        "texto": "Petrópolis é um município localizado na Região Metropolitana do Rio de Janeiro, no estado do Rio de Janeiro, no Brasil. Ocupa uma área de 795,798 km², e sua população é de 278.881 habitantes, de acordo com o censo do IBGE divulgado em 2023. Além de ser a maior e mais populosa cidade da Região Serrana Fluminense e da Região Geográfica Intermediária de Petrópolis, também detém o maior PIB e IDH da r\n[…]\nPedro do Rio - Secretário, Fagundes, Taquaril, Barra Mansa, entre outros;\n[…]\nA cidade possui um conjunto arquitetônico sem igual, como o Palácio Quitandinha, a Academia Petropolitana de Letras, o Museu Casa de Santos Dumont, o Museu Imperial de Petrópolis, o Teatro D. Pedro, o Museu Casa do Colono e a Catedral de São Pedro de Alcântara. O palácio é a principal construção do chamado \"centro histórico\", onde se destaca a Avenida Koeler, ladeada por casarões e palacetes do século XIX.\n[…]\nPetrópolis tem grande tradição como cidade imperial. Por isso, hoje possui um dos museus de história mais importantes do Brasil, o Museu Imperial. Construído entre 1845 e 1862, como Palácio de Dom Pedro II, possui acervo constituído por peças ligadas à monarquia brasileira, incluindo mobiliário, documentos, obras de arte e objetos pessoais de integrantes da família real. O Palácio virou museu em 1943 por decreto do então presidente Getúlio Vargas.\n[…]\nEm 2019, a escola de samba Unidos de Vila Isabel homenageou a cidade com o enredo \"Em nome do pai, do filho e dos santos, a Vila canta a cidade de Pedro\", ficando em 3º lugar na apuração. Em 2013, o carnaval da cidade foi cancelado, para a aplicação das verbas no valor aproximado de R$ 1 milhão, antes usadas nos desfiles, na área da saúde, tornando assim Petrópolis um refúgio de cariocas do Carnaval. A decisão foi tomada durante uma reunião entre o prefeito e a Fundação de Cultura e Turismo.\n[…]\n«Sítio oficial do Museu Imperial de Petrópolis»\n[…]\n«Vistas de Petrópolis»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teresópolis",
+        "situacao": "ok",
+        "texto": "Teresópolis é um município brasileiro localizado no interior do estado do Rio de Janeiro, a aproximadamente 94 km da capital estadual. Inserido na Serra Fluminense, integra a Região Geográfica Intermediária de Petrópolis e possui área total de pouco mais de 770 km², dos quais cerca de 54 km² correspondem à zona urbana. Com elevação de 871 metros, é o município mais alto do estado. Sua população se\n[…]\nTeresópolis também abriga o Centro de Treinamento da Seleção Brasileira de Futebol, uma tradicional feira de artesanato com mais de 700 expositores e bens de interesse histórico e arquitetônico, como a Matriz de Santa Teresa, a Igreja de Santo Antônio do Paquequer, o Palacete Granado, o Palácio Teresa Cristina, o Mirante da Granja Guarani e a Fonte Judith.\n[…]\nO nome \"Teresópolis\" é formado pela junção do antropônimo \"Teresa\" com o termo de origem grega pólis, significando, portanto, “cidade de Teresa”. Trata-se de uma homenagem à imperatriz brasileira Teresa Cristina, esposa do Imperador D. Pedro II.\n[…]\nA emancipação político-administrativa ocorreu em 6 de julho de 1891, por meio do decreto estadual nº 280, que elevou Santo Antônio do Paquequer à categoria de município, com a denominação de Teresópolis, em homenagem à imperatriz Teresa Cristina, esposa de D. Pedro II.\n[…]\nEm relação às subdivisões municipais, em 2010 o distrito-sede concentrava 135 459 habitantes, enquanto os distritos de Vale do Paquequer e Vale de Bonsucesso possuíam 11 947 e 16 340 habitantes, respectivamente. Entre os bairros mais populosos estavam São Pedro, Várzea e Barra do Imbuí.\n[…]\nA Viação Teresópolis também mantém algumas linhas dentro do limite da cidade, mas para distritos e localidades rurais ou mais distantes do Centro, como Vieira, Mottas, Serra do Capim e Água Quente. A Viação Teresópolis também faz a ligação entre Teresópolis e as cidades vizinhas ou da área de influência, como Guapimirim e Magé."
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Lençóis Maranhenses",
+      "descricao": "Parque nacional do litoral do Maranhão, com dunas brancas entremeadas de lagoas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Entre as dunas brancas dos Lençóis Maranhenses surgem lagoas azuis e verdes. De onde vem a água que as enche?",
+    "resposta": "Da chuva",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Lençóis_Maranhenses",
+      "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Lençóis_Maranhenses",
+        "situacao": "ok",
+        "texto": "O Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação brasileira de proteção integral à natureza localizada na região nordeste do estado do Maranhão. O território do parque, com uma área de 156 584 ha, está distribuído pelos municípios de Barreirinhas, Primeira Cruz e Santo Amaro do Maranhão. O parque foi criado com a finalidade precípua de \"proteger a flora, a fauna e as belezas \n[…]\nO parque localiza-se na Microrregião dos Lençóis Maranhenses, ao norte do Brasil, no litoral nordeste do estado do Maranhão. Com um perímetro de 270 km e 156 584 ha de área, o parque está inserido no bioma costeiro marinho, com ecossistemas de mangue, restinga e dunas. Lençóis Maranhenses abriga em seu interior aproximadamente 90 000 ha de dunas livres e lagoas interdunares de água doce, além de grandes áreas de restinga e de costa oceânica.\n[…]\nA faixa de dunas avança, a partir da costa, de 5 a 25 km em direção ao interior. Na região encontra-se a nascente do rio Preguiças, que corta o parque até a sua foz no oceano Atlântico. A praia dos Grandes Lençóis que inicia na foz do Rio Preguiças no Canto de Atins no Município de Barreirinhas e finaliza no outro extremo, com 72 quilômetros de extensão, do Parque Nacional na Barra da Baleia no município de Primeira Cruz.\n[…]\nNa área do Parque Nacional e na APA dos Pequenos Lençóis Maranhenses abriga espécie endêmica a tartaruga-pininga (Trachemys adiutrix).\n[…]\nO Parque Nacional dos Lençóis Maranhenses recebe mais de cem mil visitantes por ano, tendo alcançado o número de 280 878 visitas em 2021, e cerac de 408 mil turistas em 2023, segundo o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Atividades comuns dentro do parque incluem surfe, canoagem e passeios a cavalo.\n[…]\nParques nacionais do Brasil\n[…]\nParque dos Lençóis, Secretaria de Turismo do Maranhão.\n[…]\nParque Nacional dos Lençóis Maranhenses na UNESCO"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park",
+        "situacao": "ok",
+        "texto": "Lençóis Maranhenses National Park (, Parque Nacional dos Lençóis Maranhenses) is a national park in Maranhão state in northeastern Brazil, just east of the Baía de São José. Protected on June 2, 1981, the 155,000 ha (380,000-acre) park includes 70 km (43 mi) of coastline, and an interior composed of rolling sand dunes. During the rainy season, the valleys among the dunes fill with freshwater lagoo\n[…]\nThe park is located on the northeastern coast of Brazil in the state of Maranhão along the eastern coast, bordered by 70 kilometres (43 mi) of beaches along the Atlantic Ocean. Inland, it is bordered by the Parnaíba River, the São José Basin, and the rivers of Itapecuru, Munim, and Periá. The park encompasses an area of 155,000 hectares (380,000 acres), composed mainly of expansive coastal dune fields (composed of barchanoid dunes), which formed during the late Quaternary period.\n[…]\nLençóis Maranhenses National Park receives as many as 60,000 visitors a year. Common activities within the park include surfing, canoeing and horse riding.\n[…]\nFormer Lençóis Maranhenses National Park's Official site"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Cajueiro de Pirangi",
+      "descricao": "Cajueiro gigante em Parnamirim, no Rio Grande do Norte, que ocupa uma área equivalente à de um pequeno bosque."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Perto de Natal, o Cajueiro de Pirangi parece um bosque, mas é uma árvore só. O que acontece com seus galhos para ele crescer tanto?",
+    "resposta": "Criam raízes ao tocar o chão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cajueiro_de_Pirangi"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cajueiro_de_Pirangi",
+        "situacao": "ok",
+        "texto": "O cajueiro de Pirangi é uma árvore gigante localizada na praia de Pirangi do Norte no município de Parnamirim, a doze quilômetros ao sul de Natal, capital do estado brasileiro do Rio Grande do Norte.\n[…]\nO crescimento da árvore é explicado pela conjunção de duas anomalias genéticas. Primeiro, em vez de crescer para cima, os galhos da árvore crescem para os lados; com o tempo, por causa do próprio peso, os galhos tendem a se curvar para baixo, até alcançar o solo. Observa-se, então, a segunda anomalia: ao tocar o solo, os galhos começam a criar raízes, e daí passam a crescer novamente, como se fossem troncos de uma outra árvore.\n[…]\nO tronco principal divide-se em cinco galhos; quatro desses galhos sofreram a alteração genética, e criaram raízes e troncos que deram origem ao gigantismo da árvore. Apenas um dos galhos teve comportamento normal, e parou de crescer após alcançar o solo; os habitantes do local apelidaram esse galho de \"Salário Mínimo\". As raízes do cajueiro podem chegar a 10m de profundidade.\n[…]\nEm 15 de dezembro de 2012, foi inaugurado um caramanchão ao longo da Av. Dep. Márcio Marinho, que irá fazer com que os galhos da árvore fiquem suspensos por cima da avenida.\n[…]\nAtualmente o título de maior cajueiro do mundo está ameaçado pois recentemente surgiu a concorrência do Cajueiro-rei do Piauí, localizado no município de  Cajueiro da Praia, no estado do Piauí. Um estudo divulgado pela secretaria estadual de Turismo do Piauí em fevereiro de 2016 afirma que o cajueiro piauiense tem 8 800 m², enquanto o do Rio Grande do Norte tem 8 500 m², o piauiense sendo portanto 300 m² maior que o potiguar,  tornando-se possivelmente o \"maior cajueiro do mundo\".\n[…]\nCajueiro de Areias Alvas"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Arraial do Cabo",
+      "descricao": "Município da Região dos Lagos, no litoral do Rio de Janeiro, conhecido pelas águas claras e frias."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A água surpreendentemente fria das praias de Arraial do Cabo, no Rio de Janeiro, se deve a qual fenômeno oceânico?",
+    "resposta": "Ressurgência",
+    "distratores": [
+      "El Niño",
+      "Corrente do Brasil",
+      "Maré de sizígia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arraial_do_Cabo",
+      "https://pt.wikipedia.org/wiki/Ressurgência"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arraial_do_Cabo",
+        "situacao": "ok",
+        "texto": "Arraial do Cabo é um município brasileiro situado na Região dos Lagos do estado do Rio de Janeiro. Trata-se de uma cidade costeira, possuindo uma altitude média de apenas oito metros. Fundada em 1503 pelo conquistador Américo Vespúcio, foi elevada à categoria de município apenas em 1985, após sua emancipação do município vizinho de Cabo Frio. Em 2014 tinha uma população de 28 866 habitantes segund\n[…]\nAs correntes marítimas locais possuíam uma temperatura substancialmente mais fria que as temperaturas normais das águas da costa brasileira (atualmente esse fenômeno é conhecido como ressurgência).\n[…]\nO município é conhecido como a \"capital do mergulho\". As praias de águas transparentes e areia muito branca tornam sua costa num dos locais brasileiros mais propícios para a pesca submarina e mergulho. A abundante fauna marinha é decorrente da ressurgência, um fenômeno oceanográfico que consiste na subida de águas profundas e ricas em nutrientes para regiões menos profundas do oceano.\n[…]\nSegundo dados do Instituto Nacional de Meteorologia (INMET), a partir de setembro de 2006, quando foi instalada uma estação meteorológica na cidade, a menor temperatura registrada em Arraial do Cabo foi de 12,9 °C em 31 de julho de 2007, e a maior atingiu 35,1 °C no dia 4 de janeiro de 2019.\n[…]\nCasa de Piedra: atualmente propriedade particular, ocupa o lugar da feitoria que deu origem à cidade de Arraial do Cabo.\n[…]\nMergulho: Arraial do Cabo abriga uma diversificada vida marinha - são tartarugas, meros, lulas, lagostas, arraias e até golfinhos que vivem em harmonia nas ilhas do Farol e dos Porcos, nos sacos do Cherne e do Cordeiro, na praia do Forno, na Ponta d'Água e na Gruta Azul. Quem agradece são os mergulhadores, que lá encontram os melhores pontos do país para praticar o esporte além das águas transparentes.\n[…]\nBairros de Arraial do Cabo\n[…]\nFeitoria de Cabo Frio\n[…]\nCabo Frio\n[…]\nAeroporto de Cabo Frio"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ressurgência",
+        "situacao": "ok",
+        "texto": "O afloramento ou ressurgência (ou exsurgência ou surgência) é um fenômeno oceanográfico que consiste na subida de águas subsuperficiais, muitas vezes ricas em nutrientes, para camadas de água superficiais no oceano. Essas regiões têm, em geral, alta produtividade primária e importância comercial para a pesca. A ressurgência é um tipo de movimento vertical da água induzido pelo movimento horizontal\n[…]\nO fenômeno de ressurgência é uma consequência da interação entre três forçantes físicas: vento superficial, efeito de Coriolis e transporte de Ekman.\n[…]\nAlém do vento causar o deslocamento de água costeira, na costa oeste dos continentes há a presença das correntes de contorno leste oriundas de regiões polares. Essas correntes transportam água fria e rica em nutrientes, favorecendo uma ressurgência intensa já que a concentração de nutrientes na massa de água está relacionada ao seu local de formação e determinará a sua produtividade depois de aflorada.\n[…]\nIsso caracteriza a região equatorial como uma zona de divergência de massas de água superficiais que são substituídas por águas provenientes de camadas mais fundas. Este fenômeno é conhecido como ressurgência equatorial. A água trazida de camadas de água abaixo da termoclina/picnoclina são normalmente ricas em nutrientes, que é o principal fator limitante da produção primária nas regiões tropicais.[carece de fontes]?\n[…]\nNo Brasil há uma área de ressurgência costeira que estende-se desde o sul de Arraial do Cabo (Rio de Janeiro) até o limite sul do Parcel de Abrolhos (Bahia).[carece de fontes]? Na região de Arraial do Cabo a ressurgência é de maior magnitude e, portanto, mais conhecida e estudada. Nesta região, a ressurgência é observada no fim da primavera e durante o verão, época em que a Água Central do Atlântico Sul (ACAS) aproxima-se da costa e invade a plataforma continental.[carece de fontes]?"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Ilhéus",
+      "descricao": "Cidade do litoral sul da Bahia, cenário de romances de Jorge Amado."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No início do século vinte, Ilhéus, no sul da Bahia, enriqueceu com qual lavoura, retratada nos romances de Jorge Amado?",
+    "resposta": "Cacau",
+    "distratores": [
+      "Café",
+      "Cana-de-açúcar",
+      "Algodão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilhéus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilhéus",
+        "situacao": "ok",
+        "texto": "Ilhéus é um município brasileiro do litoral e sul do estado da Bahia, região Nordeste. Conta com o mais extenso litoral do estado.\n[…]\nIlhéus foi fundada em 1534 como \"Vila de São Jorge dos Ilheos\" e elevada à cidade em 1881. Considerada a \"Capital do Cacau\" e denominada por seus habitantes como a \"Princesinha do Sul\", tem sua economia baseada na agricultura, no turismo e na indústria. É conhecida por ambientar os romances de Jorge Amado, famoso escritor baiano, como Gabriela, Cravo e Canela e Terras do Sem Fim.\n[…]\nCom a importação de mudas de cacaueiros da Amazônia e sua notável adaptação às condições climáticas da região, o município se viu  diante de um novo eldorado. O cultivo do cacau passou a gerar um número sem fim de histórias, recheadas de cobiça, amores e lutas pelo poder, se transformando, posteriormente, em um terreno fértil para os romances de Adonias Filho e Jorge Amado, nos quais se narram as paixões desenfreadas dos coronéis por dinheiro, mulheres e terras.[carece de fontes]?\n[…]\nA cidade era movimentada, haviam cabarés, clubes noturnos, casinos que serviram de inspiração para o cenário dos romances de Jorge Amado. Uma época de muito dinheiro, luxo e desmandos. O grande fluxo financeiro originado pela produção e exportação do cacau, deu origem a peculiaridades no desenvolvimento da região da Costa do Cacau, região geoestratégica da Bahia.\n[…]\nAlém da produção de cacau, também tem crescido na região o cultivo da piaçava e do dendê.\n[…]\nCapital turística da Costa do Cacau, é considerada por muitos, terceiro maior ponto turístico da Bahia.\n[…]\nTeatro Municipal de Ilhéus - Quarteirão Jorge Amado\n[…]\nDados do IBGE de Ilhéus"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Lago Paranoá",
+      "descricao": "Lago artificial de Brasília, formado pelo represamento do rio Paranoá."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O Lago Paranoá foi criado artificialmente em Brasília para amenizar qual característica do clima da região?",
+    "resposta": "Baixa umidade do ar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lago_Paranoá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lago_Paranoá",
+        "situacao": "ok",
+        "texto": "Lago Paranoá (tupi: Paranãkûá, «Enseada de mar»)? é um lago artificial localizado em Brasília, capital do Brasil. Foi idealizado em 1894 pela Missão Cruls e concretizado com a construção da cidade, durante o governo do presidente Juscelino Kubitschek.\n[…]\nO lago é formado pelas águas represadas do Rio Paranoá. Tem 48 quilômetros quadrados de área, profundidade máxima de 38 metros e cerca de oitenta quilômetros de perímetro, com algumas praias artificiais, como a \"Prainha\" e o \"Piscinão do Lago Norte\". Foi criado com o objetivo de aumentar a umidade em suas proximidades. Ao redor do lago, há vários bares e restaurantes. As regiões do Lago Sul e Lago Norte derivam seus nomes do lago. Cada uma ocupa uma das duas penínsulas.\n[…]\nDiferentemente desses moradores, a Vila Amaury não havia deixado muitos indícios materiais de sua existência, apoiada nos relatos orais e na memória daqueles que a conheceram. Recentemente, o investimento de novas tecnologias de georreferenciamento na região do lago assinala a possibilidade de recuperar as ruínas da Vila, processo que começou a ser realizado por mergulhadores que as têm fotografado.[carece de fontes]?\n[…]\nNo dia 22 de maio de 2011, um barco com pouco mais de cem pessoas naufragou no Lago Paranoá. O acidente aconteceu por volta das vinte horas e trinta minutos, durante um evento que estava sendo realizado. A embarcação tinha licença para operar com noventa passageiros e dois tripulantes, mas o Corpo de Bombeiros diz que pelo menos 104 pessoas estavam a bordo. Porém não se tem certeza da quantidade exata no número de pessoas presentes no barco.\n[…]\nMedia relacionados com Lago Paranoá no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Chapada dos Veadeiros",
+      "descricao": "Planalto de cerrado com cânions e cachoeiras, protegido por um parque nacional, no nordeste de Goiás."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Cânions, cachoeiras e rochas cheias de cristais de quartzo atraem visitantes à Chapada dos Veadeiros. Em que estado ela fica?",
+    "resposta": "Goiás",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chapada_dos_Veadeiros"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chapada_dos_Veadeiros",
+        "situacao": "ok",
+        "texto": "Parque Nacional da Chapada dos Veadeiros (PNCV) pertence ao grupo de unidades de conservação de proteção integral, conforme definido pelo Sistema Nacional de Unidades de Conservação da Natureza (SNUC). Está localizada no bioma Cerrado na região nordeste do estado de Goiás. Abrangendo os municípios de Alto Paraíso de Goiás (34,40%), Cavalcante (31,43%), Nova Roma (30,25%), Teresina de Goiás (2,89%)\n[…]\nEm dezembro de 2001 o parque foi incluído na lista do Patrimônio Mundial pela UNESCO. Em 2019, através do processo de concessão do Governo Federal, a Parquetur assumiu a administração de uso público do Parque Nacional da Chapada dos Veadeiros e presta o serviço de apoio aos visitantes.\n[…]\nEm 18 de outubro de 2017, um incêndio destruiu cerca de 35 mil hectares de vegetação do cerrado no parque. O fogo teve início à margem da rodovia GO-239, que liga a cidade de Alto Paraíso de Goiás ao vilarejo São Jorge. Incêndios ocorrem naturalmente no cerrado na estação chuvosa, em consequência dos raios, e não na estação seca, quando ocorrem incêndios somente pela ação humana.\n[…]\nA hidrografia do Parque Nacional da Chapada dos Veadeiros e sua área de entorno estão inseridos na porção central da Bacia Hidrográfica do Alto Tocantins, que possui uma extensão de aproximadamente 123.800 km², e é caracterizada por relevo elevado, com topos planos limitados por escarpas abruptas, que configuram os divisores de águas e nascentes das bacias dos rios Paranã e Maranhão.\n[…]\nO acesso ao parque se dá pelo Povoado de São Jorge, Rod GO 239, Km 36, que está ligado à cidade de Alto Paraíso de Goiás por uma estrada asfaltada de 36 km. Guias para o acompanhamento dos visitantes do parque podem ser encontrados no povoado próximo à entrada do parque, no Centro de Atendimento ao Turista (CAT) de São Jorge. A visitação do parque, acompanhada por guias é, contudo, opcional.\n[…]\nLista de parques nacionais do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Serra do Rio do Rastro",
+      "descricao": "Trecho da Serra Geral cortado por uma rodovia sinuosa, entre o litoral e o planalto catarinense."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Famosa pela estrada que sobe a encosta em dezenas de curvas fechadas, a Serra do Rio do Rastro fica em que estado?",
+    "resposta": "Santa Catarina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serra_do_Rio_do_Rastro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Serra_do_Rio_do_Rastro",
+        "situacao": "ok",
+        "texto": "A serra do Rio do Rastro é uma das serras de Santa Catarina, localizada no sul do estado. É cortada pela rodovia SC-390. Com muitas matas e cachoeiras, é um dos cartões-postais do estado. Localiza-se no município de Lauro Müller, a mais de 1421 metros de altitude. Um mirante localizado em seu topo proporciona uma visão panorâmica.\n[…]\nAo N-NW, avista-se um dos três pontos mais elevados de SC, o Morro da Igreja com 1822 m de altitude. É o principal passo de montanha ligando o litoral e o planalto catarinense.\n[…]\nO percurso da rodovia SC-390 é caracterizado por subidas íngremes e curvas fechadas, bem como pelos seus quiosques. Coberta pela mata Atlântica, com uma fauna bem diversa, com vários tipos de felinos de pequeno, médio e grande portes, uma fauna de macacos (bugios, macacos-prego, saguis), quatis, pacas, mãos-peladas, tatus, tamanduás e iraras, que são animais comuns numa mata Atlântica preservada. Também há uma avifauna composta de águias chilenas, tiês-sangue, tucanos, araras, papagaios etc.\n[…]\nA serra do Rio do Rastro faz parte de uma coluna estratigráfica clássica do antigo supercontinente Gondwana no Brasil, a Coluna White, tendo sido classificada como um dos sítios geológicos brasileiros, pela Comissão Brasileira de Sítios Geológicos e Paleobiológicos.\n[…]\nA rodovia SC-390 que atravessa  a Serra do Rio do Rastro recentemente ganhou o título de \"Carretera Asombrosa\" (tradução: Estrada Espetacular) de uma enquete de uma revista espanhola."
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Ilha do Maranhão",
+      "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A ilha onde fica a capital maranhense, São Luís, é dividida entre quantos municípios?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Maranhão",
+      "https://en.wikipedia.org/wiki/São_Luís_Island"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_do_Maranhão",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/São_Luís_Island",
+        "situacao": "ok",
+        "texto": "São Luís Island also known as Upaon-Açu Island (officially) or Maranhão Island is an island in the state of Maranhão, Brazil with an area of 1,412.4 km2 (545 sq mi), located between the Baía de São Marcos and the Baía de São José. There are four cities located in the island: São Luís, after which the island is named, São José de Ribamar, Paço do Lumiar, and Raposa. The city of São Luís also covers\n[…]\nSão Luís is the capital of the state. The Island was originally named Upaon-Açu (meaning \"Big Island\" in the Tupi language) by the native inhabitants of the island. It is the most populous island in South America, and is reckoned among the 50 most populous islands in the world, with a similar population to Sardinia or Manhattan.\n[…]\nThe climate is characterized as hot, semi-humid, tropical of equatorial zone, with two distinct seasons that go from damp (January to June) the drought (July to December), with average rainfall of 2,200 mm (87 in) per year. Some of the conservation units of the island are: APA das Reentrancias Maranhenses; APA of Upaon-Açu-Miritiba-Alto Preguiças, APA of Itapiracó; APA of the Maracanã Region; and the Bacanga State Parks, the Jansen Lagoon and the Rangedor.\n[…]\nOn the Strait of Mosquitoes, there are road and railroad bridges linking the mainland to Upaon-Açu Island: the Marcelino Machado bridge, BR-135, composed of two parallel inlet and outlet bridges (456 and 454 meters in length); the metal bridge Benedito Leite, belonging to the São Luís-Teresina Railway; the duplicate bridge belonging to the Carajás Railway; the metal bridge that supports the Italuís waterway, which carries water from the river Itapecuru to the city of São Luís."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Fusos horários do Brasil",
+      "descricao": "Divisão do território brasileiro em faixas de hora oficial, do arquipélago de Fernando de Noronha ao Acre."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Contando as ilhas oceânicas, quantos fusos horários tem o território brasileiro?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Dois",
+      "Três",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Time_in_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Time_in_Brazil",
+        "situacao": "ok",
+        "texto": "Time in Brazil is calculated using standard time, and the country (including its offshore islands) is divided into four standard time zones: Fernando de Noronha time (UTC−02:00), Brasília time (UTC−03:00), Amazon time (UTC−04:00), and Acre time (UTC−05:00). About 93% of the Brazilian population live in Brasília time (UTC−03:00).\n[…]\nThese areas cover only about 4% of the Brazilian territory (although that is still about the size of Germany) and have only about 0.5% of the country's population (little more than one million people).\n[…]\nUnofficially, 32 municipalities in eastern Mato Grosso, located in the Araguaia valley, observe UTC−03:00, Brasília time.\n[…]\nUnofficially, some municipalities in eastern Mato Grosso do Sul, such as Bataguassu, Aparecida do Taboado, Cassilândia and Chapadão do Sul, also observe UTC−03:00, Brasília time.\n[…]\nBrazil observed daylight saving time (DST; Portuguese: horário de verão, \"summer time\") in the years of 1931–1933, 1949–1953, 1963–1968 and 1985–2019. Initially it applied to the whole country, but from 1988 it applied only to part of the country, usually the southern regions, where DST is more useful due to a larger seasonal variation in daylight duration. It typically lasted from October or November to February or March.\n[…]\nThe most recent DST rule specified advancing the time by one hour during the period from 00:00 on the first Sunday in November to 00:00 on the third Sunday in February (postponed by one week if the latter fell on carnival), applicable only to the South, Southeast and Central-West regions, which comprise about 65% of the Brazilian population. During DST, Brasília time moved from UTC−03:00 to UTC−02:00; the other states that did not follow DST observed a change of the offset to Brasília time."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fusos_hor%C3%A1rios_no_Brasil",
+        "situacao": "ok",
+        "texto": "O Brasil observa quatro fusos horários: o Horário de Fernando de Noronha (FNT – Fernando de Noronha Time em UTC-02:00); o Horário de Brasília (BRT – Brasília Time em UTC-03:00); o Horário do Amazonas (AMT – Amazon Time em UTC-04:00); o Horário do Acre (ACT – Acre Time em UTC-05:00). Os fusos horários são regulamentados à lei 12.876 de 30 de outubro de 2013.\n[…]\nUTC-04:00 (-1 hora de Brasília)\n[…]\nDesde 30 de outubro de 2013 seis estados usam dois fusos horários dentre suas fronteiras: Amazonas; Espírito Santo; Pernambuco; Rio Grande do Norte (e extraoficialmente Mato Grosso e Mato Grosso do Sul).\n[…]\nO Espírito Santo, Pernambuco e o Rio Grande do Norte observam o Horário de Brasília, exceto nas ilhas oceânicas – em Trindade e Martin Vaz (ES), em Fernando de Noronha e São Pedro e São Paulo (PE) e no Atol das Rocas (RN) que observam o Horário de Fernando de Noronha.\n[…]\nA padronização à observância de quatro fusos horários desde então provocam diferenças entre o horário solar aparente – quando a hora de cada município em cada estado brasileiro era sincronizada conforme a longitude que tinha como base o meridiano sobre o marco zero da cidade, havendo diferenças de minutos e ou segundos entre os horários de uma ou outra localidade, devido as diferentes coordenadas geográficas de cada lugar, sendo diferenças estas observadas nos relógios de sol que auxiliavam à padronização do horário local – e o fuso horário a ser então observado.\n[…]\nEntre 1985 e 2019 observou-se o horário de verão brasileiro. Inicialmente a observância deu-se à zero hora do sábado às temporadas 1985–1986 e 1986–1987 (quando também o horário de verão era observado em todo o país) mas passou a ser à zero hora do domingo, desde a temporada 1987–1988 até a temporada 2018–2019 (tanto ao sábado quanto ao domingo a zero hora, nos horários de cada um dos quatro fusos).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Goiânia",
+      "descricao": "Capital do estado de Goiás, cidade planejada que substituiu a Cidade de Goiás como sede do governo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Goiânia foi planejada para substituir a antiga Cidade de Goiás como capital do estado. Em que década ela foi fundada?",
+    "resposta": "Década de 1930",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Goiânia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Goiânia",
+        "situacao": "ok",
+        "texto": "Goiânia é a capital do estado brasileiro de Goiás. Dista cerca 209 km de Brasília, capital federal, possui área de aproximadamente 728,296 km² e exibe uma geografia contínua, com poucos morros e baixadas, caracterizada por ser uma região do Planalto Central do Brasil. É formada por dois núcleos urbanos: o distrito-sede e o distrito de Vila Rica.\n[…]\nEntre as décadas de 1940 e de 1950, a nova capital de Goiás já registrava um crescimento superior ao planejamento inicial, que era de 50 mil habitantes. Da população de mais de 53 mil pessoas em 1950, cerca de 40 mil (cerca de 75%) viviam em território urbano, formado basicamente pelos bairros Centro, Norte, Sul, Oeste e cidade satélite. Até 1955 Goiânia experimentou um crescimento considerado moderado para uma cidade recém-implantada.\n[…]\nNessa década, a capital goiana ganhou mais 125 bairros. Em 1960, Goiânia já contava com mais de 150 mil habitantes.\n[…]\nA década de 1960 é crucial para a definição de Goiânia como uma das maiores metrópoles brasileiras. Os novos bairros mudaram a fisionomia da cidade, que passou a requerer mais infraestrutura, transportes, energia e escolas. Surgiram ainda, nessa época, as Universidades Católica e Federal, o que fez com que os jovens que buscavam formação acadêmica permanecessem em Goiânia. A proximidade com a capital federal impulsiona o desenvolvimento da capital goiana.\n[…]\nCom dados do Censo Brasileiro, em 2010 havia 641 bairros regularizados em Goiânia, praticamente o dobro que existia em menos de dez anos. Segundo a Secretaria do Planejamento e Desenvolvimento (Seplan), os períodos com as maiores quantidades de novos bairros construídos na cidade foram as décadas de 1950 (125) e 1990 (106) e o período compreendido entre os anos de 2000 a 2005 (151).\n[…]\nLista de municípios de Goiás\n[…]\n«Prefeitura de Goiânia»\n[…]\n«Câmara de Goiânia»\n[…]\n«Governo de Goiás»"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
