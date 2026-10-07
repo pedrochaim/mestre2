@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Dois drinques com cítricos, ervas e canudos; não é reconhecível como limonada (poderia ser coquetel, gin tônica, sangria). Há também letreiros ao fundo."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Bolinhos fritos numa cesta de fritadeira; muito parecidos com croquetes e outros bolinhos fritos, a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tajine marroquino com a panela de barro e a tampa cônica, bem reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Tajine",
+      "distratores": [
+        "Cuscuz marroquino",
+        "Cassoulet",
+        "Goulash"
+      ],
+      "ancora": {
+        "nome": "Tajine",
+        "descricao": "Ensopado marroquino cozido e servido na panela de barro de tampa cônica de mesmo nome.",
+        "variantes": [
+          "Tagine",
+          "Tajin"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Coco verde aberto com canudo, claro e reconhecível; o logotipo parcial ao fundo não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bebida natural é esta?",
+      "resposta": "Água de coco",
+      "ancora": {
+        "nome": "Água de coco",
+        "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+        "variantes": [
+          "Coconut water",
+          "Água de coco verde"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Gratinado em travessa de vidro que pode ser confundido com lasanha ou berinjela à parmegiana; resposta não é única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pilha de alfajores com doce de leite e coco ralado, claros; a mão em primeiro plano é só parcial e sem rosto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que doce é este?",
+      "resposta": "Alfajor",
+      "distratores": [
+        "Macaron",
+        "Whoopie pie",
+        "Biscoito champanhe"
+      ],
+      "ancora": {
+        "nome": "Alfajor",
+        "descricao": "Doce de dois biscoitos redondos unidos por doce de leite, comum na América do Sul.",
+        "variantes": [
+          "Alfajores"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pilha de panquecas americanas com banana, vista de cima, clara e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato de café da manhã é este?",
+      "resposta": "Panqueca",
+      "ancora": {
+        "nome": "Panqueca",
+        "descricao": "Massa líquida de farinha, ovos e leite cozida em frigideira; aqui, a versão grossa e fofa em pilha.",
+        "variantes": [
+          "Pancake",
+          "Panqueca americana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Legumes refogados (abobrinha, berinjela, pimentão, tomate) numa frigideira, típicos do ratatouille; reconhecível, com distratores de pratos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de legumes é este?",
+      "resposta": "Ratatouille",
+      "distratores": [
+        "Caponata",
+        "Peperonata",
+        "Briám"
+      ],
+      "ancora": {
+        "nome": "Ratatouille",
+        "descricao": "Prato francês da Provença de legumes de verão cozidos em azeite, como abobrinha, berinjela, pimentão e tomate.",
+        "variantes": [
+          "Ratatouille niçoise"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Bolinhos fritos empanados sem recheio visível; podem ser confundidos com croquetes ou coxinhas redondas, e a pergunta de lugar entregaria a resposta pelo prato italiano."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra biscoitos de gengibre em formatos de coração, estrela e boneco, e não o pão de mel brasileiro com cobertura de chocolate; a resposta não seria única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cannolo com recheio de ricota, claro e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região da Itália é típico este doce?",
+      "resposta": "Sicília",
+      "distratores": [
+        "Toscana",
+        "Lombardia",
+        "Vêneto"
+      ],
+      "ancora": {
+        "nome": "Cannoli",
+        "descricao": "Doce siciliano de massa frita em forma de tubo recheada com creme de ricota.",
+        "variantes": [
+          "Cannolo",
+          "Cannolo siciliano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Merengue coberto com chantili, morangos, kiwi e maracujá, típico visual da pavlova.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Pavlova",
+      "ancora": {
+        "nome": "Pavlova",
+        "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com chantili e frutas, da Austrália ou Nova Zelândia.",
+        "variantes": [
+          "Merengue de frutas"
+        ]
+      }
+    }
+  ]
+}

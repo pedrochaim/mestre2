@@ -1,0 +1,436 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tajine",
+        "descricao": "Ensopado marroquino cozido e servido na panela de barro de tampa cônica de mesmo nome.",
+        "variantes": [
+          "Tagine",
+          "Tajin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tajine",
+          "nome": "Tajine",
+          "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+          "variantes": [
+            "Tagine",
+            "Tagin"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "trajano",
+          "nome": "Trajano",
+          "descricao": "Imperador romano de 98 a 117, conquistador da Dácia, nascido em Itálica, na Hispânia.",
+          "variantes": [
+            "Marco Úlpio Trajano",
+            "Trajan"
+          ]
+        },
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Água de coco",
+        "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+        "variantes": [
+          "Coconut water",
+          "Água de coco verde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aguas_de_marco",
+          "nome": "Águas de Março",
+          "descricao": "Canção brasileira de 1972 que lista imagens como pau, pedra e fim do caminho.",
+          "variantes": [
+            "Waters of March"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water",
+            "Água carbonatada"
+          ]
+        },
+        {
+          "id": "harpa_de_pedais",
+          "nome": "Harpa de pedais",
+          "descricao": "Harpa de concerto usada nas orquestras, cujos pedais alteram a afinação das cordas.",
+          "variantes": [
+            "Harpa de concerto",
+            "Pedal harp"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Alfajor",
+        "descricao": "Doce de dois biscoitos redondos unidos por doce de leite, comum na América do Sul.",
+        "variantes": [
+          "Alfajores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "ilhas_baleares",
+          "nome": "Ilhas Baleares",
+          "descricao": "Arquipélago espanhol no oeste do mar Mediterrâneo, formado por Maiorca, Menorca, Ibiza e Formentera.",
+          "variantes": [
+            "Baleares"
+          ]
+        },
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        },
+        {
+          "id": "agua_viva",
+          "nome": "Água-viva",
+          "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+          "variantes": [
+            "Medusa",
+            "Alforreca",
+            "Jellyfish"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Panqueca",
+        "descricao": "Massa líquida de farinha, ovos e leite cozida em frigideira; aqui, a versão grossa e fofa em pilha.",
+        "variantes": [
+          "Pancake",
+          "Panqueca americana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        },
+        {
+          "id": "dia_da_panqueca",
+          "nome": "Dia da Panqueca",
+          "descricao": "Costume britânico de comer panquecas no dia anterior à Quarta-feira de Cinzas.",
+          "variantes": [
+            "Pancake Day",
+            "Shrove Tuesday",
+            "Terça-feira gorda"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        },
+        {
+          "id": "placa_sul_americana",
+          "nome": "Placa Sul-Americana",
+          "descricao": "Placa tectônica que abrange a América do Sul e parte do oceano Atlântico Sul.",
+          "variantes": [
+            "South American Plate"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ratatouille",
+        "descricao": "Prato francês da Provença de legumes de verão cozidos em azeite, como abobrinha, berinjela, pimentão e tomate.",
+        "variantes": [
+          "Ratatouille niçoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "braille",
+          "nome": "Braille",
+          "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+          "variantes": [
+            "Sistema braille",
+            "Braile"
+          ]
+        },
+        {
+          "id": "brazzaville",
+          "nome": "Brazzaville",
+          "descricao": "Capital da República do Congo, na margem norte do rio Congo.",
+          "variantes": []
+        },
+        {
+          "id": "atol_das_rocas",
+          "nome": "Atol das Rocas",
+          "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+          "variantes": [
+            "Rocas Atoll",
+            "Reserva Biológica do Atol das Rocas"
+          ]
+        },
+        {
+          "id": "tatooine",
+          "nome": "Tatooine",
+          "descricao": "Planeta desértico fictício da franquia Star Wars, terra natal de Luke Skywalker.",
+          "variantes": []
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cannoli",
+        "descricao": "Doce siciliano de massa frita em forma de tubo recheada com creme de ricota.",
+        "variantes": [
+          "Cannolo",
+          "Cannolo siciliano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "apertizacao",
+          "nome": "Apertização",
+          "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+          "variantes": [
+            "Conserva",
+            "Enlatamento",
+            "Canning"
+          ]
+        },
+        {
+          "id": "pangolim",
+          "nome": "Pangolim",
+          "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+          "variantes": [
+            "Pangolin"
+          ]
+        },
+        {
+          "id": "candango",
+          "nome": "Candango",
+          "descricao": "Nome dado aos trabalhadores que construíram Brasília e, depois, aos seus moradores",
+          "variantes": []
+        },
+        {
+          "id": "chapolin_colorado",
+          "nome": "Chapolin Colorado",
+          "descricao": "Seriado humorístico mexicano de 1973 sobre um atrapalhado super-herói vestido de vermelho.",
+          "variantes": [
+            "El Chapulín Colorado",
+            "Chapolin"
+          ]
+        },
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pavlova",
+        "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com chantili e frutas, da Austrália ou Nova Zelândia.",
+        "variantes": [
+          "Merengue de frutas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pavlova",
+          "nome": "Pavlova",
+          "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com creme e frutas.",
+          "variantes": [
+            "Pavlova (sobremesa)"
+          ]
+        },
+        {
+          "id": "ivan_pavlov",
+          "nome": "Ivan Pavlov",
+          "descricao": "Fisiologista russo, descobridor do condicionamento clássico e Nobel de Fisiologia ou Medicina de 1904.",
+          "variantes": [
+            "Ivan Petrovich Pavlov",
+            "Pavlov"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tajine",
+      "motivo": "Mesmo prato/panela marroquina Tajine; descrições e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é água de coco; água com gás é outra bebida."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o alfajor; só nomes parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Panqueca americana é distinta do Dia da Panqueca, que é um costume."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o prato ratatouille."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o doce cannoli."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "pavlova",
+      "motivo": "Mesma sobremesa pavlova de merengue com creme e frutas."
+    }
+  ]
+}

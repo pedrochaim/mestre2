@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que prato é este?",
+        "resposta": "Tajine"
+      },
+      "existentes": [
+        {
+          "id": "q06932",
+          "pergunta": "Este recipiente e o prato preparado nele são típicos de que país?",
+          "resposta": "Marrocos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que sobremesa é esta?",
+        "resposta": "Pavlova"
+      },
+      "existentes": [
+        {
+          "id": "q06128",
+          "pergunta": "A pavlova, sobremesa de merengue com creme e frutas, homenageia uma artista russa famosa no início do século vinte. Qual era a arte dela?",
+          "resposta": "Balé"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do prato (tajine); a existente pede o país de origem (Marrocos). Fatos diferentes, e a existente não revela o nome do prato como resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da sobremesa (pavlova), provavelmente com imagem; a existente pede a arte da homenageada (balé). Fatos diferentes."
+    }
+  ]
+}
