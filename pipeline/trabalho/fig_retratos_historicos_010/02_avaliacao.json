@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro e reconhecível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que congregação religiosa esta freira fundou em 1950?",
+      "resposta": "Missionárias da Caridade",
+      "destino": 5,
+      "ancora": {
+        "nome": "Madre Teresa de Calcutá",
+        "descricao": "Freira católica albanesa-indiana, fundadora das Missionárias da Caridade e canonizada em 2016.",
+        "variantes": [
+          "Santa Teresa de Calcutá",
+          "Anjezë Gonxhe Bojaxhiu",
+          "Mother Teresa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alto dirigente nazista é este?",
+      "resposta": "Hermann Göring",
+      "distratores": [
+        "Heinrich Himmler",
+        "Joseph Goebbels",
+        "Rudolf Hess"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Hermann Göring",
+        "descricao": "Político e militar alemão, alto dirigente do Partido Nazista e comandante da Luftwaffe.",
+        "variantes": [
+          "Hermann Goering"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato histórico em pintura, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século viveu este governante mongol?",
+      "resposta": "Século treze",
+      "destino": 3,
+      "ancora": {
+        "nome": "Kublai Khan",
+        "descricao": "Neto de Gengis Khan e fundador da dinastia Yuan da China.",
+        "variantes": [
+          "Kublai Cã",
+          "Kublai",
+          "Qubilai"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país era este papa?",
+      "resposta": "Polônia",
+      "distratores": [
+        "Itália",
+        "Alemanha",
+        "Argentina"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Papa João Paulo II",
+        "descricao": "Karol Wojtyła, papa polonês de 1978 a 2005.",
+        "variantes": [
+          "João Paulo II",
+          "Karol Wojtyła",
+          "Pope John Paul II"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto pequena, mas legível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país este líder comunista proclamou independente em 1945?",
+      "resposta": "Vietnã",
+      "destino": 5,
+      "ancora": {
+        "nome": "Ho Chi Minh",
+        "descricao": "Revolucionário comunista vietnamita, fundador da República Democrática do Vietnã e seu primeiro presidente.",
+        "variantes": [
+          "Hồ Chí Minh",
+          "Tio Ho"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração histórica clássica de Shaka, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século reinou este rei africano?",
+      "resposta": "Século dezenove",
+      "destino": 9,
+      "ancora": {
+        "nome": "Shaka Zulu",
+        "descricao": "Rei do Reino Zulu de 1816 a 1828, que reformou o exército zulu.",
+        "variantes": [
+          "Shaka",
+          "Chaka",
+          "Shaka kaSenzangakhona"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato oficial; bandeira ao fundo não entrega a resposta de forma problemática.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estado este presidente americano governou antes de chegar à Casa Branca?",
+      "resposta": "Califórnia",
+      "distratores": [
+        "Texas",
+        "Flórida",
+        "Nova York"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ronald Reagan",
+        "descricao": "Ator e político republicano, 40º presidente dos Estados Unidos (1981–1989).",
+        "variantes": [
+          "Ronald Wilson Reagan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato pintado, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que astrônomo renascentista é este?",
+      "resposta": "Nicolau Copérnico",
+      "destino": 4,
+      "ancora": {
+        "nome": "Nicolau Copérnico",
+        "descricao": "Astrônomo renascentista que propôs o modelo heliocêntrico do universo.",
+        "variantes": [
+          "Nicolaus Copernicus",
+          "Mikołaj Kopernik"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país este imperador governou?",
+      "resposta": "Etiópia",
+      "distratores": [
+        "Egito",
+        "Sudão",
+        "Quênia"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Menelik II",
+        "descricao": "Imperador da Etiópia de 1889 a 1913, vencedor da batalha de Adwa contra a Itália.",
+        "variantes": [
+          "Menelique II"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato pintado famoso, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que obra famosa este poeta italiano escreveu?",
+      "resposta": "A Divina Comédia",
+      "destino": 3,
+      "ancora": {
+        "nome": "Dante Alighieri",
+        "descricao": "Poeta italiano medieval, autor da Divina Comédia.",
+        "variantes": [
+          "Dante"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico muito característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este russo, figura polêmica do início do século vinte?",
+      "resposta": "Rasputin",
+      "destino": 5,
+      "ancora": {
+        "nome": "Rasputin",
+        "descricao": "Místico russo que ganhou influência na corte do czar Nicolau II.",
+        "variantes": [
+          "Grigori Rasputin",
+          "Grigori Yefimovich Rasputin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Estátua sentada sem inscrição; não identifica Quéfren de forma única (pode ser outro faraó da Quarta Dinastia), resposta não é única diante da imagem."
+    }
+  ]
+}

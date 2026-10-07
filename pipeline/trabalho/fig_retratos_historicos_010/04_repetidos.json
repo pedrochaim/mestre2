@@ -1,0 +1,88 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade morreu este líder vietnamita, em 1969?",
+        "resposta": "Hanói"
+      },
+      "existentes": [
+        {
+          "id": "q03917",
+          "pergunta": "O que Lênin, Mao Tsé-tung e o vietnamita Ho Chi Minh têm em comum depois da morte?",
+          "resposta": "Corpos embalsamados e expostos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século reinou este rei africano?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q04924",
+          "pergunta": "Como se chama o período de guerras e migrações forçadas no sul da África, no início do século dezenove, tradicionalmente ligado à ascensão do Reino Zulu de Shaka?",
+          "resposta": "Mfecane"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que astrônomo renascentista é este?",
+        "resposta": "Nicolau Copérnico"
+      },
+      "existentes": [
+        {
+          "id": "q00869",
+          "pergunta": "Que astrônomo renascentista é este?",
+          "resposta": "Nicolau Copérnico"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que epopeia, considerada a obra-prima deste poeta florentino, ele escreveu na Idade Média?",
+        "resposta": "A Divina Comédia"
+      },
+      "existentes": [
+        {
+          "id": "q05497",
+          "pergunta": "Que poeta italiano é este?",
+          "resposta": "Dante Alighieri"
+        },
+        {
+          "id": "q07001",
+          "pergunta": "Exilado de Florença, Dante Alighieri morreu em 1321 e está sepultado em que cidade italiana?",
+          "resposta": "Ravena"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Local da morte de Ho Chi Minh é fato diferente do que têm em comum (corpo embalsamado)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Século de reinado de um rei africano é outro fato; a existente pergunta o nome do período Mfecane."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00869",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Obra-prima de Dante é fato distinto de identificá-lo ou do local de sepultamento."
+    }
+  ]
+}
