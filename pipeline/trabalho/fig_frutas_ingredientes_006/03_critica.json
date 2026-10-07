@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam especiaria feita de sementes de vagens pequenas. A pista descreve a imagem e não entrega o nome. Os distratores são especiarias de sementes e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A beterraba e a acelga são da mesma subespécie, Beta vulgaris subsp. vulgaris, o que é amplamente documentado. O trecho confirma a subespécie da beterraba. O enunciado não nomeia nada e a acelga é a resposta defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Raiz picante comum em saladas' é a descrição clássica do rabanete e dá para responder com a imagem coberta. O enunciado precisa de uma pista que não entregue a resposta.",
+      "reescrita": {
+        "pergunta": "Que hortaliça de raiz pequena e arredondada é esta?",
+        "resposta": "Rabanete",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pitanga é nativa do Brasil e de outras partes da América do Sul. O enunciado é curto e não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Abóbora' é um nome popular para várias espécies de Cucurbita. Moranga, jerimum e outras variedades são respostas defensáveis diante da imagem, e a pergunta não separa uma da outra.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que a erva é 'básica no molho pesto' é um ingrediente que descreve a resposta e vaza. Troco a pista pelo país, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que erva aromática de folhas verdes largas, muito usada na culinária italiana, é esta?",
+        "resposta": "Manjericão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os pontinhos do morango são aquênios, fruto seco com uma semente, o que é amplamente documentado. O trecho confirma que o receptáculo é cercado por frutos. O enunciado não nomeia a fruta e a pergunta vai além do reconhecimento.",
+      "reescrita": null
+    }
+  ]
+}

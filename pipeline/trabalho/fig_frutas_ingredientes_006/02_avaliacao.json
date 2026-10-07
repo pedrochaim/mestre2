@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Flor de ervilha em close; pouco reconhecível pela imagem e pode ser confundida com outras leguminosas."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Alho-poró florescido na horta com placa de identificação visível; planta pouco reconhecível, parecida com cebola ou alho."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vagens e sementes de cardamomo sobre fundo liso, sem texto; distratores de outras especiarias.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que especiaria é esta, feita das sementes dessas pequenas vagens?",
+      "resposta": "Cardamomo",
+      "distratores": [
+        "Cominho",
+        "Pimenta-da-jamaica",
+        "Semente de coentro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cardamomo",
+        "descricao": "Especiaria feita das sementes de plantas dos gêneros Elettaria e Amomum, da família do gengibre.",
+        "variantes": [
+          "Cardamomo-verde",
+          "Cardamona"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Beterraba em maços, bem clara; só um trecho de fita sem nome legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta raiz pertence à mesma subespécie de uma hortaliça de folhas verdes largas, muito usada em refogados e tortas. Que hortaliça é essa?",
+      "resposta": "Acelga",
+      "destino": 0,
+      "ancora": {
+        "nome": "Beterraba",
+        "descricao": "Raiz vermelho-arroxeada da planta Beta vulgaris, consumida como hortaliça.",
+        "variantes": [
+          "Beterraba-vermelha",
+          "Beterraba de mesa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rabanetes coloridos com folhas, nítidos e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que raiz de sabor picante, comum em saladas, é esta?",
+      "resposta": "Rabanete",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rabanete",
+        "descricao": "Raiz pequena e arredondada de Raphanus sativus, de sabor picante, comida crua em saladas.",
+        "variantes": [
+          "Rabanete-vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fruto vermelho e sulcado de pitangueira nos galhos, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta brasileira é esta?",
+      "resposta": "Pitanga",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pitanga",
+        "descricao": "Fruto pequeno, sulcado e vermelho-alaranjado da pitangueira (Eugenia uniflora), nativa da América do Sul.",
+        "variantes": [
+          "Cereja-do-brasil",
+          "Pitanga-vermelha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Abóboras de várias cores, sem texto; assunto único, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça é esta?",
+      "resposta": "Abóbora",
+      "destino": 0,
+      "ancora": {
+        "nome": "Abóbora",
+        "descricao": "Fruto de plantas do gênero Cucurbita, de casca grossa, usado como hortaliça.",
+        "variantes": [
+          "Moranga",
+          "Jerimum",
+          "Abóbora-d'água"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Planta de manjericão com folhas brilhantes, clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que erva aromática, básica no molho pesto, é esta?",
+      "resposta": "Manjericão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Manjericão",
+        "descricao": "Erva aromática Ocimum basilicum, de folhas verdes largas, usada na culinária.",
+        "variantes": [
+          "Basílico",
+          "Manjericão-doce"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Flor e folhas de marmeleiro em close, sem o fruto; pouco reconhecível e confundível com flores de outras rosáceas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Morangos em vários estágios na planta, nítidos e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Os pontinhos na superfície desta fruta são, na verdade, frutos pequenos, cada um com uma semente. Como se chamam?",
+      "resposta": "Aquênios",
+      "destino": 0,
+      "ancora": {
+        "nome": "Morango",
+        "descricao": "Fruta vermelha do morangueiro (Fragaria × ananassa), um fruto acessório agregado.",
+        "variantes": [
+          "Morango-de-jardim"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Prancha botânica antiga com várias partes e letras; planta pouco reconhecível como lentilha."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Gravura antiga com legenda de texto visível (Genipa), que entrega a resposta, e várias partes da planta."
+    }
+  ]
+}

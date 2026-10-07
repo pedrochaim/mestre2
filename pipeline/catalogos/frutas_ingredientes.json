@@ -33,7 +33,7 @@
       "titulo": "en:Strawberry",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Manga",
@@ -208,7 +208,7 @@
       "titulo": "en:Cardamom",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lichia",
@@ -278,7 +278,7 @@
       "titulo": "en:Eugenia uniflora",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mamão",
@@ -341,7 +341,7 @@
       "titulo": "en:Pumpkin",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Brócolis",
@@ -390,7 +390,7 @@
       "titulo": "en:Basil",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Hortelã",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Alface",
+      "titulo": "en:Lettuce",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Repolho",
+      "titulo": "en:Cabbage",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pepino",
+      "titulo": "en:Cucumber",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Beterraba",
+      "titulo": "en:Beetroot",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Batata-doce",
+      "titulo": "en:Sweet potato",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abobrinha",
+      "titulo": "en:Zucchini",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Espinafre",
+      "titulo": "en:Spinach",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Feijão",
+      "titulo": "en:Phaseolus vulgaris",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ervilha",
+      "titulo": "en:Pea",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Salsinha",
+      "titulo": "en:Parsley",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amêndoa",
+      "titulo": "en:Almond",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Noz",
+      "titulo": "en:Walnut",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caqui",
+      "titulo": "en:Diospyros kaki",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rabanete",
+      "titulo": "en:Radish",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Alho-poró",
+      "titulo": "en:Leek",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Grão-de-bico",
+      "titulo": "en:Chickpea",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lentilha",
+      "titulo": "en:Lentil",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Avelã",
+      "titulo": "en:Hazelnut",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toranja",
+      "titulo": "en:Grapefruit",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amora",
+      "titulo": "en:Blackberry",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Champignon",
+      "titulo": "en:Agaricus bisporus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Orégano",
+      "titulo": "en:Oregano",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Folha de louro",
+      "titulo": "en:Bay leaf",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Couve-de-bruxelas",
+      "titulo": "en:Brussels sprout",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aipo",
+      "titulo": "en:Celery",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rúcula",
+      "titulo": "en:Eruca vesicaria",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cacau",
+      "titulo": "en:Theobroma cacao",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sálvia",
+      "titulo": "en:Salvia officinalis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Endro",
+      "titulo": "en:Dill",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zimbro",
+      "titulo": "en:Juniper berry",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capim-santo",
+      "titulo": "en:Cymbopogon citratus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fava-tonka",
+      "titulo": "en:Tonka bean",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cambuci",
+      "titulo": "pt:Cambuci",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cajá",
+      "titulo": "en:Spondias mombin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jenipapo",
+      "titulo": "en:Genipa americana",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Marmelo",
+      "titulo": "en:Quince",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nêspera",
+      "titulo": "en:Loquat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mangaba",
+      "titulo": "en:Hancornia speciosa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Groselha",
+      "titulo": "en:Redcurrant",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinhão",
+      "titulo": "pt:Pinhão",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

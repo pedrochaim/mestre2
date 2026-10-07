@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta brasileira é esta?",
+        "resposta": "Pitanga"
+      },
+      "existentes": [
+        {
+          "id": "q06083",
+          "pergunta": "O nome da pitanga, fruta nativa do Brasil, vem da língua tupi. O que ele significa?",
+          "resposta": "Fruta avermelhada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Os pontinhos na superfície desta fruta são, na verdade, frutos pequenos, cada um com uma semente. Como se chamam?",
+        "resposta": "Aquênios"
+      },
+      "existentes": [
+        {
+          "id": "q02688",
+          "pergunta": "Botanicamente, o que são os pontinhos na superfície do morango que parecem sementes?",
+          "resposta": "Os frutos verdadeiros, chamados aquênios"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a fruta (Pitanga) a partir de imagem; a existente pergunta o significado do nome em tupi. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que os pontinhos do morango são frutos verdadeiros chamados aquênios; mesma resposta e mesmo fato."
+    }
+  ]
+}
