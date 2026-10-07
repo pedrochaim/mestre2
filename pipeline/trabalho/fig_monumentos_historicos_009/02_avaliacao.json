@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Palácio inconfundível, sem texto, boa imagem.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem mandou construir este palácio romântico no alto de uma colina, no século dezenove?",
+      "resposta": "Fernando II (rei consorte de Portugal)",
+      "destino": 7,
+      "ancora": {
+        "nome": "Palácio da Pena",
+        "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+        "variantes": [
+          "Palácio Nacional da Pena",
+          "Pena Palace"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada clara, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século começou a ser construído este castelo?",
+      "resposta": "Século dezesseis",
+      "destino": 7,
+      "ancora": {
+        "nome": "Castelo de Chambord",
+        "descricao": "Castelo renascentista no Vale do Loire, na França, construído como pavilhão de caça de Francisco I.",
+        "variantes": [
+          "Château de Chambord",
+          "Chambord"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Sítio arqueológico reconhecível; pessoas aparecem pequenas ao fundo, não em primeiro plano. Múltipla por ser menos conhecido.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que povo pré-colombiano fundou este sítio arqueológico, no atual México?",
+      "resposta": "Zapotecas",
+      "distratores": [
+        "Maias",
+        "Astecas",
+        "Toltecas"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Monte Albán",
+        "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+        "variantes": [
+          "Monte Alban"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, em grande quantidade."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Colunas coríntias de ruína grega, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que imperador romano concluiu a construção deste templo, séculos depois de iniciada?",
+      "resposta": "Adriano",
+      "destino": 3,
+      "ancora": {
+        "nome": "Templo de Zeus Olímpico",
+        "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+        "variantes": [
+          "Olimpeion",
+          "Olympieion"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pirâmide romana inconfundível; inscrição latina é pequena e não entrega a pergunta de lugar.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade europeia fica esta pirâmide de mármore?",
+      "resposta": "Roma",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pirâmide de Céstio",
+        "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+        "variantes": [
+          "Pirâmide de Caio Céstio",
+          "Piramide Cestia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O letreiro 'Theatro Municipal' está legível na fachada e entrega a identificação; há também pessoas e táxis em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estádio de mármore em ferradura reconhecível, sem texto relevante; panorama legível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem reconstruiu este estádio em mármore, no século dois?",
+      "resposta": "Herodes Ático",
+      "destino": 3,
+      "ancora": {
+        "nome": "Estádio Panatenaico",
+        "descricao": "Estádio de mármore em Atenas, sede dos primeiros Jogos Olímpicos modernos em 1896.",
+        "variantes": [
+          "Kallimarmaro",
+          "Panathenaic Stadium",
+          "Estádio Panatenaico de Atenas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Portão romano muito característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que antigo portão de cidade romano é este?",
+      "resposta": "Porta Nigra",
+      "destino": 3,
+      "ancora": {
+        "nome": "Porta Nigra",
+        "descricao": "Grande portão de cidade romano em Trier, na Alemanha.",
+        "variantes": [
+          "Porta Negra de Trier"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada clara, sem texto; pessoas pequenas ao fundo.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A casa que deu origem a este palácio foi construída em que século?",
+      "resposta": "Século dezoito",
+      "destino": 7,
+      "ancora": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial do monarca britânico, em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Forte branco sobre recife com passadiço, sem texto; múltipla por ser menos conhecido.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica este forte?",
+      "resposta": "Rio Grande do Norte",
+      "distratores": [
+        "Pernambuco",
+        "Paraíba",
+        "Ceará"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Forte dos Reis Magos",
+        "descricao": "Forte militar do fim do século dezesseis na foz do rio Potengi, em Natal, marco inicial da cidade.",
+        "variantes": [
+          "Fortaleza dos Reis Magos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pagode de sete andares claro, sem texto; múltipla por ser menos conhecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pagode chinês é este?",
+      "resposta": "Pagode do Grande Ganso Selvagem",
+      "distratores": [
+        "Pagode de Ferro",
+        "Pagode Leifeng",
+        "Pagode do Pequeno Ganso"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Pagode do Grande Ganso Selvagem",
+        "descricao": "Pagode budista de sete andares no templo Daci'en, em Xi'an, China, ligado ao monge Xuanzang.",
+        "variantes": [
+          "Grande Pagode do Ganso Selvagem",
+          "Giant Wild Goose Pagoda",
+          "Dayan Ta"
+        ]
+      }
+    }
+  ]
+}

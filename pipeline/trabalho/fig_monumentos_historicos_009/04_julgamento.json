@@ -1,0 +1,633 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio da Pena",
+        "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+        "variantes": [
+          "Palácio Nacional da Pena",
+          "Pena Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "hino_da_alemanha",
+          "nome": "Hino da Alemanha",
+          "descricao": "Hino nacional alemão, a terceira estrofe da Canção dos Alemães, com melodia de Joseph Haydn.",
+          "variantes": [
+            "Deutschlandlied",
+            "Das Lied der Deutschen",
+            "Canção dos Alemães",
+            "Hino nacional da Alemanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Castelo de Chambord",
+        "descricao": "Castelo renascentista no Vale do Loire, na França, construído como pavilhão de caça de Francisco I.",
+        "variantes": [
+          "Château de Chambord",
+          "Chambord"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_de_cauboi",
+          "nome": "Chapéu de caubói",
+          "descricao": "Chapéu de copa alta e aba larga associado aos vaqueiros do oeste americano",
+          "variantes": [
+            "Cowboy hat",
+            "Chapéu Stetson"
+          ]
+        },
+        {
+          "id": "chapeu_de_castor",
+          "nome": "Chapéu de castor",
+          "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+          "variantes": [
+            "Beaver hat"
+          ]
+        },
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        },
+        {
+          "id": "o_castelo_de_cagliostro",
+          "nome": "O Castelo de Cagliostro",
+          "descricao": "Filme de animação de 1979 estrelado pelo ladrão Lupin III.",
+          "variantes": [
+            "The Castle of Cagliostro",
+            "Lupin III: O Castelo de Cagliostro"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Monte Albán",
+        "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "monte_tambora",
+          "nome": "Monte Tambora",
+          "descricao": "Vulcão na ilha de Sumbawa, na Indonésia, cuja erupção de 1815 foi a maior da história registrada.",
+          "variantes": [
+            "Tambora",
+            "Mount Tambora"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Templo de Zeus Olímpico",
+        "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+        "variantes": [
+          "Olimpeion",
+          "Olympieion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_munique",
+          "nome": "Estádio Olímpico de Munique",
+          "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+          "variantes": [
+            "Olympiastadion München",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        },
+        {
+          "id": "olimpia_sitio_arqueologico",
+          "nome": "Olímpia (sítio arqueológico)",
+          "descricao": "Santuário de Zeus no Peloponeso, na Grécia, onde eram disputados os Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Olympia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pirâmide de Céstio",
+        "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+        "variantes": [
+          "Pirâmide de Caio Céstio",
+          "Piramide Cestia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estádio Panatenaico",
+        "descricao": "Estádio de mármore em Atenas, sede dos primeiros Jogos Olímpicos modernos em 1896.",
+        "variantes": [
+          "Kallimarmaro",
+          "Panathenaic Stadium",
+          "Estádio Panatenaico de Atenas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_panatenaico",
+          "nome": "Estádio Panatenaico",
+          "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+          "variantes": [
+            "Estádio Panathinaiko",
+            "Panathenaic Stadium",
+            "Kallimarmaro"
+          ]
+        },
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "monte_kilimanjaro",
+          "nome": "Monte Kilimanjaro",
+          "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África.",
+          "variantes": [
+            "Kilimanjaro",
+            "Kilimandjaro",
+            "Quilimanjaro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Porta Nigra",
+        "descricao": "Grande portão de cidade romano em Trier, na Alemanha.",
+        "variantes": [
+          "Porta Negra de Trier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvora",
+          "nome": "Pólvora",
+          "descricao": "Mistura explosiva de salitre, enxofre e carvão, a mais antiga conhecida.",
+          "variantes": [
+            "Pólvora negra",
+            "Gunpowder"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "porta_avioes",
+          "nome": "Porta-aviões",
+          "descricao": "Navio de guerra com convés de voo completo para lançar, recuperar e apoiar aeronaves no mar.",
+          "variantes": [
+            "Porta-aviao",
+            "Navio-aeródromo"
+          ]
+        },
+        {
+          "id": "potiguar",
+          "nome": "Potiguar",
+          "descricao": "Gentílico de quem nasce no Rio Grande do Norte, derivado do nome do povo indígena potiguara",
+          "variantes": [
+            "Potiguara"
+          ]
+        },
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial do monarca britânico, em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_buckingham",
+          "nome": "Palácio de Buckingham",
+          "descricao": "Residência oficial e sede administrativa do monarca do Reino Unido, em Londres.",
+          "variantes": [
+            "Buckingham Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Forte dos Reis Magos",
+        "descricao": "Forte militar do fim do século dezesseis na foz do rio Potengi, em Natal, marco inicial da cidade.",
+        "variantes": [
+          "Fortaleza dos Reis Magos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_dos_reis_magos",
+          "nome": "Forte dos Reis Magos",
+          "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Fortaleza dos Reis Magos"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis"
+          ]
+        },
+        {
+          "id": "noite_dos_cristais",
+          "nome": "Noite dos Cristais",
+          "descricao": "Onda de ataques organizados pelos nazistas contra judeus, suas lojas e sinagogas na Alemanha e na Áustria, em novembro de 1938.",
+          "variantes": [
+            "Kristallnacht",
+            "Pogrom de Novembro"
+          ]
+        },
+        {
+          "id": "salao_dos_recusados",
+          "nome": "Salão dos Recusados",
+          "descricao": "Exposição em Paris das obras rejeitadas pelo júri do Salão oficial, autorizada por Napoleão Terceiro.",
+          "variantes": [
+            "Salon des Refusés"
+          ]
+        },
+        {
+          "id": "vale_dos_reis",
+          "nome": "Vale dos Reis",
+          "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+          "variantes": [
+            "Valley of the Kings"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pagode do Grande Ganso Selvagem",
+        "descricao": "Pagode budista de sete andares no templo Daci'en, em Xi'an, China, ligado ao monge Xuanzang.",
+        "variantes": [
+          "Grande Pagode do Ganso Selvagem",
+          "Giant Wild Goose Pagoda",
+          "Dayan Ta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "diamantina",
+          "nome": "Diamantina",
+          "descricao": "Cidade histórica de Minas Gerais, antigo centro de mineração de diamantes no século dezoito.",
+          "variantes": [
+            "Arraial do Tijuco"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "palacio_da_pena",
+      "motivo": "Mesma descrição e variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Castelo de Chambord."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Monte Albán."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Templo de Zeus Olímpico em Atenas difere de Olímpia e dos estádios."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pirâmide de Céstio em Roma não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "estadio_panatenaico",
+      "motivo": "Mesmo estádio de mármore de Atenas, Jogos de 1896."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Porta Nigra de Trier não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_buckingham",
+      "motivo": "Mesma residência do monarca britânico em Londres."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "forte_dos_reis_magos",
+      "motivo": "Mesmo forte na foz do Potengi, em Natal."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pagode de Xi'an diferente do Shwedagon e demais candidatas."
+    }
+  ]
+}

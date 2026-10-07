@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem mandou construir este palácio romântico no alto de uma colina, no século dezenove?",
+        "resposta": "Fernando II (rei consorte de Portugal)"
+      },
+      "existentes": [
+        {
+          "id": "q07968",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Palácio da Pena"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem reconstruiu este estádio em mármore, no século dois?",
+        "resposta": "Herodes Ático"
+      },
+      "existentes": [
+        {
+          "id": "q02698",
+          "pergunta": "Que estádio histórico da Grécia é este?",
+          "resposta": "Estádio Panatenaico (Calimármaro)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A casa que deu origem a este palácio foi construída em que século?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q05980",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Palácio de Buckingham"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica este forte?",
+        "resposta": "Rio Grande do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q05443",
+          "pergunta": "Na foz do rio Potengi, em Natal, o Forte dos Reis Magos deve o nome à data festiva em que sua construção começou. Que data?",
+          "resposta": "Seis de janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta quem construiu; a existente pede o nome do palácio (que a nova não revela, mas é outro fato)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quem reconstruiu o estádio é fato distinto de identificar o estádio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século da casa original é fato distinto do nome do palácio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O estado onde fica o forte é diferente da data de início da construção; embora Natal esteja no enunciado, o fato perguntado é outro."
+    }
+  ]
+}
