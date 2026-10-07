@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que peça de um aparelho antigo é esta?",
+        "resposta": "Disco de telefone"
+      },
+      "existentes": [
+        {
+          "id": "q06735",
+          "pergunta": "Que aparelho é este?",
+          "resposta": "Telefone"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que equipamento é este?",
+        "resposta": "Escada rolante"
+      },
+      "existentes": [
+        {
+          "id": "q07336",
+          "pergunta": "A palavra inglesa escalator, para escada rolante, foi marca registrada até 1950. De qual empresa?",
+          "resposta": "Otis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a peça (disco de telefone), e a existente pede o aparelho inteiro (telefone). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da escada rolante a partir de uma imagem. A existente pede a empresa que detinha a marca registrada, o que é outro fato."
+    }
+  ]
+}

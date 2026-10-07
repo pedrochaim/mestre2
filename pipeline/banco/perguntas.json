@@ -130248,5 +130248,210 @@
       "licenca": "Public domain"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q07630",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "bicicleta",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi inventado este veículo, na Europa?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bicycle",
+      "https://pt.wikipedia.org/wiki/Bicicleta"
+    ],
+    "imagem": {
+      "arquivo": "q07630.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:00_8327_Historisches_Fahrrad.jpg",
+      "autor": "W. Bulach",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q07631",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "telefone",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peça de um aparelho antigo é esta?",
+    "resposta": "Disco de telefone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rotary_dial",
+      "https://pt.wikipedia.org/wiki/Telefone_de_disco"
+    ],
+    "imagem": {
+      "arquivo": "q07631.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kiesschijf_T-65.jpg",
+      "autor": "Quistnix at Dutch Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07632",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "camara_de_nuvens",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década foi criado este aparelho de laboratório?",
+    "resposta": "Década de 1910",
+    "distratores": [
+      "Década de 1870",
+      "Década de 1940",
+      "Década de 1970"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cloud_chamber",
+      "https://pt.wikipedia.org/wiki/C%C3%A2mara_de_Wilson"
+    ],
+    "imagem": {
+      "arquivo": "q07632.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:CTRwilsonCloudChamberCavendishLab2013-08-29-17-09-40.jpg",
+      "autor": "Rolf Kickuth",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q07633",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "paraquedas",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento é este?",
+    "resposta": "Paraquedas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parachute",
+      "https://pt.wikipedia.org/wiki/Paraquedas"
+    ],
+    "imagem": {
+      "arquivo": "q07633.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NASA's_Orion_Spacecraft_Parachutes_Tested_at_U.S._Army_Yuma_Proving_Ground.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07634",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "disco_rigido",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década a IBM lançou o primeiro modelo deste tipo de dispositivo?",
+    "resposta": "Década de 1950",
+    "distratores": [
+      "Década de 1930",
+      "Década de 1960",
+      "Década de 1980"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hard_disk_drive",
+      "https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido"
+    ],
+    "imagem": {
+      "arquivo": "q07634.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Western_Digital_WD2500BB_Hard_Disk_A.jpg",
+      "autor": "Christian Jansky",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07635",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "cronometro_maritimo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de bordo de navios é este?",
+    "resposta": "Cronômetro marítimo",
+    "distratores": [
+      "Bússola de navio",
+      "Barômetro marinho",
+      "Sextante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marine_chronometer",
+      "https://pt.wikipedia.org/wiki/Cron%C3%B4metro_mar%C3%ADtimo"
+    ],
+    "imagem": {
+      "arquivo": "q07635.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Frodsham_chronometer_mechanism.jpg",
+      "autor": "User:Ktr101",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q07636",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "maquina_de_costura",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século surgiu a primeira máquina deste tipo?",
+    "resposta": "Século dezoito",
+    "distratores": [
+      "Século dezessete",
+      "Século dezenove",
+      "Século vinte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sewing_machine",
+      "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_costura"
+    ],
+    "imagem": {
+      "arquivo": "q07636.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:730_sw_ori.jpg",
+      "autor": "BERNINA International AG, Steckborn",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07637",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "tubo_de_geissler",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tubos de vidro luminosos do século dezenove são estes?",
+    "resposta": "Tubos de Geissler",
+    "distratores": [
+      "Tubos de Crookes",
+      "Tubos de Braun",
+      "Válvulas termiônicas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geissler_tube",
+      "https://pt.wikipedia.org/wiki/Tubo_de_Geissler"
+    ],
+    "imagem": {
+      "arquivo": "q07637.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Geissler_tubes.jpg",
+      "autor": "M. Rapine",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07638",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "escada_rolante",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento é este?",
+    "resposta": "Escada rolante",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escalator",
+      "https://pt.wikipedia.org/wiki/Escada_rolante"
+    ],
+    "imagem": {
+      "arquivo": "q07638.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Copenhagen_Metro_escalators.jpg",
+      "autor": "Stig Nygaard from Copenhagen, Denmark",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

@@ -1,0 +1,563 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bicicleta",
+        "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+        "variantes": [
+          "Bike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penny_farthing",
+          "nome": "Penny-farthing",
+          "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+          "variantes": [
+            "Biciclo",
+            "High wheeler",
+            "Grand-bi"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "bismuto",
+          "nome": "Bismuto",
+          "descricao": "Elemento químico de símbolo Bi e número atômico 83, metal que forma cristais escalonados iridescentes.",
+          "variantes": [
+            "Bi"
+          ]
+        },
+        {
+          "id": "cicuta",
+          "nome": "Cicuta",
+          "descricao": "Planta venenosa Conium maculatum, da família da cenoura",
+          "variantes": [
+            "Conium maculatum",
+            "hemlock",
+            "cicuta-maior"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Telefone de disco",
+        "descricao": "Disco giratório de discagem por pulsos usado em telefones antigos.",
+        "variantes": [
+          "Disco de discagem",
+          "Telefone rotativo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telefone",
+          "nome": "Telefone",
+          "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+          "variantes": [
+            "Telefone de disco"
+          ]
+        },
+        {
+          "id": "motor_wankel",
+          "nome": "Motor Wankel",
+          "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+          "variantes": [
+            "Motor de combustão interna",
+            "Motor rotativo",
+            "Wankel engine"
+          ]
+        },
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "linha_direta_moscou_washington",
+          "nome": "Linha direta Moscou–Washington",
+          "descricao": "Canal de comunicação direta entre os governos dos Estados Unidos e da União Soviética, criado em 1963.",
+          "variantes": [
+            "Telefone vermelho",
+            "Moscow–Washington hotline"
+          ]
+        },
+        {
+          "id": "disco_de_nebra",
+          "nome": "Disco de Nebra",
+          "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes.",
+          "variantes": [
+            "Nebra sky disc",
+            "Disco celeste de Nebra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Câmara de nuvens",
+        "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+        "variantes": [
+          "Câmara de Wilson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deadpool",
+          "nome": "Deadpool",
+          "descricao": "Mercenário tagarela da Marvel, criado por Rob Liefeld e Fabian Nicieza em 1991",
+          "variantes": [
+            "Wade Wilson"
+          ]
+        },
+        {
+          "id": "casa_de_windsor",
+          "nome": "Casa de Windsor",
+          "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V.",
+          "variantes": [
+            "House of Windsor"
+          ]
+        },
+        {
+          "id": "atmosfera_de_venus",
+          "nome": "Atmosfera de Vênus",
+          "descricao": "Camada densa de gases, quase toda de gás carbônico, que envolve o planeta Vênus.",
+          "variantes": [
+            "Atmosphere of Venus"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        },
+        {
+          "id": "clara_nunes",
+          "nome": "Clara Nunes",
+          "descricao": "Cantora mineira de samba, conhecida como a Guerreira, morta em 1983.",
+          "variantes": [
+            "Clara Francisca Gonçalves"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "arqueias",
+          "nome": "Arqueias",
+          "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+          "variantes": [
+            "Archaea",
+            "Arqueobactérias",
+            "Arqueia"
+          ]
+        },
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        },
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "pasargada",
+          "nome": "Pasárgada",
+          "descricao": "Antiga capital persa fundada por Ciro, o Grande, na província de Fars, no Irã.",
+          "variantes": [
+            "Pasargadae",
+            "Pasárgadas"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Disco rígido",
+        "descricao": "Dispositivo eletromecânico de armazenamento de dados em pratos magnéticos giratórios.",
+        "variantes": [
+          "HD",
+          "Hard disk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hubble_deep_field",
+          "nome": "Hubble Deep Field",
+          "descricao": "Imagem de uma pequena região da constelação da Ursa Maior, feita pelo Hubble em 1995, mostrando cerca de três mil galáxias.",
+          "variantes": [
+            "Campo Profundo do Hubble",
+            "HDF"
+          ]
+        },
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "corindon",
+          "nome": "Coríndon",
+          "descricao": "Mineral de óxido de alumínio, muito duro, cujas variedades coloridas são o rubi e a safira.",
+          "variantes": [
+            "Corindo",
+            "Corundum"
+          ]
+        },
+        {
+          "id": "mocha_dick",
+          "nome": "Mocha Dick",
+          "descricao": "Cachalote branco real do século dezenove, famoso por atacar baleeiros no Pacífico, apontado como inspiração para Moby Dick.",
+          "variantes": []
+        },
+        {
+          "id": "dik_dik",
+          "nome": "Dik-dik",
+          "descricao": "Pequeno antílope africano do gênero Madoqua, aqui o dik-dik-de-kirk (Madoqua kirkii).",
+          "variantes": [
+            "Dik-dik-de-kirk",
+            "Madoqua kirkii",
+            "Dikdik"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cronômetro marítimo",
+        "descricao": "Relógio de precisão levado a bordo de navios para determinar a longitude.",
+        "variantes": [
+          "Cronômetro de marinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro",
+            "Termômetro de mercúrio em vidro",
+            "Termômetro de vidro com mercúrio",
+            "Mercury-in-glass thermometer"
+          ]
+        },
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Máquina de costura",
+        "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "draisiana",
+          "nome": "Draisiana",
+          "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+          "variantes": [
+            "Dandy horse",
+            "Laufmaschine",
+            "Máquina de correr"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        },
+        {
+          "id": "eolipila",
+          "nome": "Eolípila",
+          "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+          "variantes": [
+            "Máquina de Heron",
+            "Aeolipile",
+            "Eolípila de Heron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tubo de Geissler",
+        "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+        "variantes": [
+          "Tubos de Geissler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "tubo_de_crookes",
+          "nome": "Tubo de Crookes",
+          "descricao": "Tubo de descarga com vácuo parcial e dois eletrodos, em que foram descobertos os raios catódicos.",
+          "variantes": [
+            "Crookes tube",
+            "Tubo de Crookes-Hittorf"
+          ]
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "folhelho_de_burgess",
+          "nome": "Folhelho de Burgess",
+          "descricao": "Formação rochosa nas Montanhas Rochosas do Canadá, famosa por fósseis de animais de corpo mole.",
+          "variantes": [
+            "Burgess Shale",
+            "Xisto de Burgess"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Escada rolante",
+        "descricao": "Escada móvel motorizada que transporta pessoas entre andares.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "escada_rolante",
+          "nome": "Escada rolante",
+          "descricao": "Escada mecânica de degraus móveis que transporta pessoas entre andares.",
+          "variantes": [
+            "Escalator"
+          ]
+        },
+        {
+          "id": "akebono",
+          "nome": "Akebono",
+          "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+          "variantes": [
+            "Akebono Tarō",
+            "Chad Rowan"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "escala_richter",
+          "nome": "Escala Richter",
+          "descricao": "Escala logarítmica de magnitude de terremotos, apresentada em 1935.",
+          "variantes": [
+            "Escala de Richter",
+            "Richter scale"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bicicleta; penny-farthing é um tipo específico de biciclo."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "telefone",
+      "motivo": "A candidata 'Telefone' descreve um modelo antigo de disco e tem a variante 'Telefone de disco'. Mas a proposta é o disco de discagem, que é uma parte do telefone."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a câmara de nuvens."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o paraquedas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o disco rígido."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cronômetro marítimo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a máquina de costura."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O tubo de Crookes é um aparelho diferente do tubo de Geissler."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "escada_rolante",
+      "motivo": "Mesma entidade: escada mecânica de degraus móveis, com descrição equivalente."
+    }
+  ]
+}

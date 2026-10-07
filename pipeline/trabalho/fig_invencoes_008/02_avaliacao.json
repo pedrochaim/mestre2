@@ -1,0 +1,209 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bicicleta clara, a placa do museu é ilegível e não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que século foi inventado este veículo, na Europa?",
+      "resposta": "Século dezenove",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bicicleta",
+        "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+        "variantes": [
+          "Bike"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Disco de discagem claro, os números não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que peça de um aparelho antigo é esta?",
+      "resposta": "Disco de telefone",
+      "distratores": [],
+      "ancora": {
+        "nome": "Telefone de disco",
+        "descricao": "Disco giratório de discagem por pulsos usado em telefones antigos.",
+        "variantes": [
+          "Disco de discagem",
+          "Telefone rotativo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Aparelho de Wilson em museu, único assunto, etiquetas só descrevem partes.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que década foi criado este aparelho de laboratório?",
+      "resposta": "Década de 1910",
+      "distratores": [
+        "Década de 1870",
+        "Década de 1940",
+        "Década de 1970"
+      ],
+      "ancora": {
+        "nome": "Câmara de nuvens",
+        "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+        "variantes": [
+          "Câmara de Wilson"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Paraquedas em três copas com cápsula, imagem limpa e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que equipamento é este?",
+      "resposta": "Paraquedas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "HD reconhecível, só a marca aparece, que não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década a IBM lançou o primeiro modelo deste tipo de dispositivo?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Disco rígido",
+        "descricao": "Dispositivo eletromecânico de armazenamento de dados em pratos magnéticos giratórios.",
+        "variantes": [
+          "HD",
+          "Hard disk",
+          "Disco rígido"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Montagem de dois aparelhos e o texto 'OSCILLOSCOPE' visível entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Gravura da prensa de Caxton com várias pessoas, não é a prensa de Gutenberg e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cronômetro em caixa com suspensão cardânica, reconhecível; o autor seria ambíguo, então pergunta de identificação.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de bordo de navios é este?",
+      "resposta": "Cronômetro marítimo",
+      "distratores": [
+        "Bússola de navio",
+        "Barômetro marinho",
+        "Sextante"
+      ],
+      "ancora": {
+        "nome": "Cronômetro marítimo",
+        "descricao": "Relógio de precisão levado a bordo de navios para determinar a longitude.",
+        "variantes": [
+          "Cronômetro de marinha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Máquina de costura nítida, a marca Bernina não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século surgiu a primeira máquina deste tipo?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século vinte"
+      ],
+      "ancora": {
+        "nome": "Máquina de costura",
+        "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Imagem é só um padrão de contas coloridas, não reconhecível como caleidoscópio."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Prancha de tubos luminosos de uma única espécie, apenas numerados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que tubos de vidro luminosos do século dezenove são estes?",
+      "resposta": "Tubos de Geissler",
+      "distratores": [
+        "Tubos de Crookes",
+        "Tubos de Braun",
+        "Válvulas termiônicas"
+      ],
+      "ancora": {
+        "nome": "Tubo de Geissler",
+        "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+        "variantes": [
+          "Tubos de Geissler"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Escadas rolantes nítidas em estação, sem texto; autoria ambígua, então identificação.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que equipamento é este?",
+      "resposta": "Escada rolante",
+      "distratores": [],
+      "ancora": {
+        "nome": "Escada rolante",
+        "descricao": "Escada móvel motorizada que transporta pessoas entre andares.",
+        "variantes": [
+          "Escada rolante"
+        ]
+      }
+    }
+  ]
+}

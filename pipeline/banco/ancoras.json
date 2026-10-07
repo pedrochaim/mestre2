@@ -108929,5 +108929,84 @@
       "pt": 7054,
       "en": 180189
     }
+  },
+  {
+    "id": "bicicleta",
+    "nome": "Bicicleta",
+    "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+    "variantes": [
+      "Bike"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bicycle",
+      "https://pt.wikipedia.org/wiki/Bicicleta"
+    ]
+  },
+  {
+    "id": "camara_de_nuvens",
+    "nome": "Câmara de nuvens",
+    "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+    "variantes": [
+      "Câmara de Wilson"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cloud_chamber",
+      "https://pt.wikipedia.org/wiki/C%C3%A2mara_de_Wilson"
+    ]
+  },
+  {
+    "id": "paraquedas",
+    "nome": "Paraquedas",
+    "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Parachute",
+      "https://pt.wikipedia.org/wiki/Paraquedas"
+    ]
+  },
+  {
+    "id": "disco_rigido",
+    "nome": "Disco rígido",
+    "descricao": "Dispositivo eletromecânico de armazenamento de dados em pratos magnéticos giratórios.",
+    "variantes": [
+      "HD",
+      "Hard disk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hard_disk_drive",
+      "https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido"
+    ]
+  },
+  {
+    "id": "cronometro_maritimo",
+    "nome": "Cronômetro marítimo",
+    "descricao": "Relógio de precisão levado a bordo de navios para determinar a longitude.",
+    "variantes": [
+      "Cronômetro de marinha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marine_chronometer",
+      "https://pt.wikipedia.org/wiki/Cron%C3%B4metro_mar%C3%ADtimo"
+    ]
+  },
+  {
+    "id": "maquina_de_costura",
+    "nome": "Máquina de costura",
+    "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sewing_machine",
+      "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_costura"
+    ]
+  },
+  {
+    "id": "tubo_de_geissler",
+    "nome": "Tubo de Geissler",
+    "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+    "variantes": [
+      "Tubos de Geissler"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Geissler_tube",
+      "https://pt.wikipedia.org/wiki/Tubo_de_Geissler"
+    ]
   }
 ]
