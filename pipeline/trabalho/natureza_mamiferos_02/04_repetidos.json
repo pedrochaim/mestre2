@@ -1,0 +1,659 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Num arquipélago pernambucano, uma baía costuma receber pela manhã grandes grupos de golfinhos-rotadores para descansar. Que arquipélago é esse?",
+        "resposta": "Fernando de Noronha"
+      },
+      "existentes": [
+        {
+          "id": "q02558",
+          "pergunta": "A Baía dos Golfinhos, onde grupos de golfinhos-rotadores descansam quase todas as manhãs, fica em que arquipélago brasileiro?",
+          "resposta": "Fernando de Noronha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em qual cidade de Santa Catarina golfinhos encurralam cardumes de tainha e sinalizam aos pescadores artesanais a hora de lançar a rede?",
+        "resposta": "Laguna"
+      },
+      "existentes": [
+        {
+          "id": "q00259",
+          "pergunta": "Por que os golfinhos dormem com apenas metade do cérebro de cada vez?",
+          "resposta": "Para continuar respirando"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Escavações mostraram que macacos-prego quebram castanhas com pedras há pelo menos três mil anos, num parque nacional do Piauí famoso por pinturas rupestres. Qual?",
+        "resposta": "Serra da Capivara"
+      },
+      "existentes": [
+        {
+          "id": "q05545",
+          "pergunta": "Que macaco é este?",
+          "resposta": "Macaco-prego"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1936, o último tilacino conhecido, o chamado tigre-da-tasmânia, morreu num zoológico de qual cidade australiana?",
+        "resposta": "Hobart"
+      },
+      "existentes": [
+        {
+          "id": "q07360",
+          "pergunta": "Em que ano morreu o último indivíduo conhecido desta espécie?",
+          "resposta": "1936"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Primo próximo do chimpanzé, o bonobo vive na natureza em apenas um país africano, ao sul do grande rio que o separa dos chimpanzés. Qual país?",
+        "resposta": "República Democrática do Congo"
+      },
+      "existentes": [
+        {
+          "id": "q02815",
+          "pergunta": "O bonobo divide com que outro primata o posto de parente vivo mais próximo do ser humano?",
+          "resposta": "Chimpanzé"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Perto de Perth, uma ilha cheia de quokkas recebeu de um navegador holandês um nome que significa ninho de ratos. Que ilha é essa?",
+        "resposta": "Ilha Rottnest"
+      },
+      "existentes": [
+        {
+          "id": "q00856",
+          "pergunta": "Que animal australiano é este?",
+          "resposta": "Quokka"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os últimos mamutes-lanosos sobreviveram até cerca de quatro mil anos atrás, quando já havia pirâmides no Egito, em qual ilha do Ártico?",
+        "resposta": "Ilha Wrangel"
+      },
+      "existentes": [
+        {
+          "id": "q02752",
+          "pergunta": "Os últimos mamutes-lanosos sobreviveram até cerca de quatro mil anos atrás numa ilha isolada do Oceano Ártico. Que ilha era essa?",
+          "resposta": "Ilha de Wrangel"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Depois de cerca de setenta anos sem lobos, o Parque de Yellowstone voltou a recebê-los, trazidos do Canadá. Em que década isso aconteceu?",
+        "resposta": "Década de 1990 (1995)"
+      },
+      "existentes": [
+        {
+          "id": "q02882",
+          "pergunta": "Depois de cerca de setenta anos de ausência, em que década lobos-cinzentos foram reintroduzidos no Parque de Yellowstone?",
+          "resposta": "Década de 1990"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Clonada a partir de uma célula adulta na Escócia, a ovelha Dolly nasceu em que ano?",
+        "resposta": "1996"
+      },
+      "existentes": [
+        {
+          "id": "q03830",
+          "pergunta": "Clonada a partir de uma célula de glândula mamária, a ovelha Dolly recebeu o nome em homenagem a qual cantora?",
+          "resposta": "Dolly Parton"
+        },
+        {
+          "id": "q05014",
+          "pergunta": "Em que ano nasceu a ovelha Dolly, o primeiro mamífero clonado a partir de uma célula adulta?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na Venezuela, a carne de capivara é tradicional em qual período do calendário católico, quando outras carnes costumam ser evitadas?",
+        "resposta": "Quaresma"
+      },
+      "existentes": [
+        {
+          "id": "q00235",
+          "pergunta": "O nome capivara vem do tupi. O que ele significa, aproximadamente?",
+          "resposta": "Comedora de capim"
+        },
+        {
+          "id": "q00236",
+          "pergunta": "Qual é o maior roedor vivo do mundo?",
+          "resposta": "Capivara"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1842, que naturalista radicado em Lagoa Santa, Minas Gerais, deu nome ao tigre-dente-de-sabre Smilodon, a partir de fósseis encontrados em cavernas?",
+        "resposta": "Peter Wilhelm Lund"
+      },
+      "existentes": [
+        {
+          "id": "q02748",
+          "pergunta": "O gênero Smilodon, o famoso tigre-dentes-de-sabre, foi batizado no século dezenove por um naturalista europeu que estudava cavernas de Minas Gerais. Quem?",
+          "resposta": "Peter Lund"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1741, na expedição de Vitus Bering, que naturalista alemão descreveu um enorme sirênio do Pacífico Norte, caçado até a extinção poucas décadas depois?",
+        "resposta": "Georg Wilhelm Steller"
+      },
+      "existentes": [
+        {
+          "id": "q05679",
+          "pergunta": "A vaca-marinha-de-steller, parente gigante do peixe-boi, foi descrita por cientistas em 1741. Quantos anos depois ela foi extinta pela caça?",
+          "resposta": "Vinte e sete anos"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+        "resposta": "George Shaw"
+      },
+      "existentes": [
+        {
+          "id": "q00276",
+          "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+          "resposta": "Ave"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1869, que missionário francês descreveu o panda-gigante para a ciência ocidental, depois de ver a pele do animal com um caçador chinês?",
+        "resposta": "Armand David"
+      },
+      "existentes": [
+        {
+          "id": "q00260",
+          "pergunta": "Por que o panda-gigante precisa passar grande parte do dia comendo?",
+          "resposta": "O bambu é pouco nutritivo"
+        },
+        {
+          "id": "q00261",
+          "pergunta": "O falso polegar que o panda-gigante usa para segurar o bambu é, na verdade, um osso alongado de que parte do corpo?",
+          "resposta": "Pulso"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em 1960, na Tanzânia, que pesquisadora britânica viu chimpanzés usando gravetos para pescar cupins, mostrando que eles fabricam ferramentas?",
+        "resposta": "Jane Goodall"
+      },
+      "existentes": [
+        {
+          "id": "q01227",
+          "pergunta": "Em que continente vive este primata na natureza?",
+          "resposta": "África"
+        },
+        {
+          "id": "q07465",
+          "pergunta": "Segundo a genética, as linhagens que levaram aos humanos e aos chimpanzés se separaram há cerca de quanto tempo?",
+          "resposta": "6 milhões de anos"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O nome gorila vem do relato de qual navegador cartaginês, que descreveu uma tribo de selvagens peludos na costa da África?",
+        "resposta": "Hanão"
+      },
+      "existentes": [
+        {
+          "id": "q00857",
+          "pergunta": "Em que continente vive na natureza este primata?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Vinda do latim, a palavra morcego significa, literalmente, que tipo de rato?",
+        "resposta": "Rato cego"
+      },
+      "existentes": [
+        {
+          "id": "q00253",
+          "pergunta": "Ao contrário dos esquilos-voadores, que apenas planam, que grupo de mamíferos é o único capaz de voar batendo asas?",
+          "resposta": "Morcegos"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A palavra jaguar, que nomeia a onça-pintada em inglês e em várias outras línguas, tem origem em qual família de línguas indígenas sul-americanas?",
+        "resposta": "Tupi-guarani"
+      },
+      "existentes": [
+        {
+          "id": "q00237",
+          "pergunta": "Com manchas em forma de roseta, qual é o maior felino das Américas?",
+          "resposta": "Onça-pintada"
+        },
+        {
+          "id": "q00238",
+          "pergunta": "Algumas onças-pintadas nascem quase totalmente pretas, embora as manchas ainda apareçam sob certa luz. Que fenômeno causa essa cor?",
+          "resposta": "Melanismo"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Os lêmures, primatas de Madagascar, receberam de Lineu um nome inspirado em quais seres da mitologia romana?",
+        "resposta": "Espíritos dos mortos"
+      },
+      "existentes": [
+        {
+          "id": "q00271",
+          "pergunta": "Os lêmures são primatas nativos de qual ilha?",
+          "resposta": "Madagascar"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Apesar de lembrar um porco, a anta pertence ao grupo dos mamíferos de casco com dedos em número ímpar. Quais são seus parentes vivos mais próximos?",
+        "resposta": "Cavalos e rinocerontes"
+      },
+      "existentes": [
+        {
+          "id": "q00249",
+          "pergunta": "Qual é o maior mamífero terrestre nativo do Brasil?",
+          "resposta": "Anta"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Sem serem parentes próximos, o panda-vermelho e o panda-gigante têm a mesma adaptação nas patas dianteiras para segurar bambu. Qual?",
+        "resposta": "Um falso polegar"
+      },
+      "existentes": [
+        {
+          "id": "q00376",
+          "pergunta": "Que animal é este?",
+          "resposta": "Panda-vermelho"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O coala tem nos dedos algo tão parecido com o dos seres humanos que poderia confundir peritos numa cena de crime. O quê?",
+        "resposta": "Impressões digitais"
+      },
+      "existentes": [
+        {
+          "id": "q00258",
+          "pergunta": "O coala passa quase o dia inteiro dormindo ou descansando. Isso se deve principalmente a quê?",
+          "resposta": "Dieta de eucalipto pobre em energia"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O mico-leão-dourado estampa uma das cédulas do real. De qual valor?",
+        "resposta": "Vinte reais"
+      },
+      "existentes": [
+        {
+          "id": "q00243",
+          "pergunta": "O mico-leão-dourado deve a palavra leão do seu nome a qual característica do corpo?",
+          "resposta": "A juba ao redor do rosto"
+        },
+        {
+          "id": "q00244",
+          "pergunta": "Hoje, o mico-leão-dourado vive na natureza apenas na Mata Atlântica de qual estado brasileiro?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Quando bugios começam a aparecer mortos nas matas brasileiras, as autoridades de saúde ficam em alerta para a circulação de qual doença?",
+        "resposta": "Febre amarela"
+      },
+      "existentes": [
+        {
+          "id": "q00283",
+          "pergunta": "O uivo do bugio, ouvido a quilômetros de distância, é amplificado por qual osso da garganta, muito aumentado?",
+          "resposta": "Osso hioide"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "O tatu-galinha é um dos raros animais que carregam naturalmente a bactéria de qual doença humana, podendo transmiti-la a quem o manipula ou come?",
+        "resposta": "Hanseníase"
+      },
+      "existentes": [
+        {
+          "id": "q00267",
+          "pergunta": "O tatu-galinha costuma parir filhotes idênticos, todos vindos de um único óvulo. Quantos, normalmente?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "A pele do hipopótamo libera um líquido avermelhado, apelidado de suor de sangue. Para que serve essa secreção?",
+        "resposta": "Protetor solar"
+      },
+      "existentes": [
+        {
+          "id": "q00272",
+          "pergunta": "Vindo do grego, o nome hipopótamo quer dizer o quê?",
+          "resposta": "Cavalo do rio"
+        },
+        {
+          "id": "q00273",
+          "pergunta": "Segundo estudos genéticos, quais animais marinhos são os parentes vivos mais próximos do hipopótamo?",
+          "resposta": "Baleias e golfinhos"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Dona da gestação mais longa entre os mamíferos terrestres, a elefanta-africana carrega o filhote por cerca de quantos meses?",
+        "resposta": "Cerca de 22 meses"
+      },
+      "existentes": [
+        {
+          "id": "q00257",
+          "pergunta": "Em dias quentes, por que o elefante-africano abana suas enormes orelhas?",
+          "resposta": "Para resfriar o corpo"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Os chifres ramificados do cervo-do-pantanal, que caem e crescem de novo periodicamente, são feitos de qual material?",
+        "resposta": "Osso"
+      },
+      "existentes": [
+        {
+          "id": "q06915",
+          "pergunta": "Que cervo sul-americano é este?",
+          "resposta": "Cervo-do-pantanal"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Os espinhos do ouriço-cacheiro, roedor das matas brasileiras, são na verdade uma forma modificada de qual estrutura do corpo?",
+        "resposta": "Pelos"
+      },
+      "existentes": [
+        {
+          "id": "q06906",
+          "pergunta": "Que roedor sul-americano é este?",
+          "resposta": "Ouriço-cacheiro"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Na vida real, as renas que aparecem com chifres no Natal, como as do trenó do Papai Noel, costumam ser de que sexo?",
+        "resposta": "Fêmeas"
+      },
+      "existentes": [
+        {
+          "id": "q00254",
+          "pergunta": "Durante o escuro inverno ártico, os olhos da rena mudam de dourado para azul. Que vantagem isso traz?",
+          "resposta": "Enxergar melhor com pouca luz"
+        },
+        {
+          "id": "q02877",
+          "pergunta": "Entre os cervídeos, qual espécie se destaca por ter galhadas também nas fêmeas?",
+          "resposta": "Rena"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Graças às vértebras do pescoço não fundidas, o boto-cor-de-rosa faz algo impossível para a maioria dos golfinhos, útil para caçar entre raízes alagadas. O quê?",
+        "resposta": "Virar a cabeça para os lados"
+      },
+      "existentes": [
+        {
+          "id": "q00247",
+          "pergunta": "Entre todos os golfinhos de rio do planeta, qual espécie amazônica é a maior?",
+          "resposta": "Boto-cor-de-rosa"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Fuleco, o mascote da Copa do Mundo de 2014, foi inspirado em qual animal brasileiro ameaçado de extinção?",
+        "resposta": "Tatu-bola"
+      },
+      "existentes": [
+        {
+          "id": "q00379",
+          "pergunta": "Que animal é este?",
+          "resposta": "Tatu-bola"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: arquipélago da Baía dos Golfinhos.",
+      "id_existente": "q02558"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade da morte, não o ano."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País de distribuição, outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ilha, outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: ilha Wrangel.",
+      "id_existente": "q02752"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesma década da reintrodução.",
+      "id_existente": "q02882"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Ano de nascimento de Dolly.",
+      "id_existente": "q05014"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Lund nomeou Smilodon.",
+      "id_existente": "q02748"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Quem descreveu, não anos até extinção."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Etimologia, fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Etimologia, não a ilha."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Sexo das renas com chifres no Natal é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Mascote Fuleco é fato diferente de identificar a imagem."
+    }
+  ]
+}

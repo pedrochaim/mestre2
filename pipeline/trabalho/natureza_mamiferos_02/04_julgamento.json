@@ -1,0 +1,1325 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Búfalo-asiático",
+        "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+        "variantes": [
+          "Búfalo-d'água",
+          "Búfalo-doméstico",
+          "Bubalus bubalis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "pombo",
+          "nome": "Pombo",
+          "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+          "variantes": [
+            "Pombo-comum",
+            "Pombo-doméstico",
+            "Columba livia",
+            "Rock dove"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mico-leão-de-cara-preta",
+        "descricao": "Primata da Mata Atlântica do litoral sul de São Paulo e norte do Paraná, espécie Leontopithecus caissara, descrita em 1990.",
+        "variantes": [
+          "Leontopithecus caissara",
+          "Mico-leão-caiçara",
+          "Black-faced lion tamarin",
+          "Superagui lion tamarin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mico_leao_dourado",
+          "nome": "Mico-leão-dourado",
+          "descricao": "Pequeno primata alaranjado da Mata Atlântica brasileira, espécie Leontopithecus rosalia.",
+          "variantes": [
+            "Leontopithecus rosalia",
+            "Golden lion tamarin"
+          ]
+        },
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas",
+            "Viola sertaneja"
+          ]
+        },
+        {
+          "id": "gnu",
+          "nome": "Gnu",
+          "descricao": "Grande antílope africano de ombros largos, barba e listras no pescoço, o gnu-azul (Connochaetes taurinus).",
+          "variantes": [
+            "Gnu-azul",
+            "Gnu-de-cauda-preta",
+            "Connochaetes taurinus"
+          ]
+        },
+        {
+          "id": "marmore_de_carrara",
+          "nome": "Mármore de Carrara",
+          "descricao": "Mármore branco ou cinza-azulado extraído nas pedreiras dos Alpes Apuanos, na Toscana, usado em esculturas desde a Roma Antiga.",
+          "variantes": [
+            "Carrara marble"
+          ]
+        },
+        {
+          "id": "aguia_legionaria",
+          "nome": "Águia legionária",
+          "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+          "variantes": [
+            "Aquila"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Golfinho-rotador",
+        "descricao": "Golfinho oceânico (Stenella longirostris) famoso pelos saltos girando no ar, frequente em Fernando de Noronha.",
+        "variantes": [
+          "Stenella longirostris",
+          "Spinner dolphin",
+          "Golfinho-rotador-de-noronha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin"
+          ]
+        },
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin",
+            "Golfinhos"
+          ]
+        },
+        {
+          "id": "o_retorno_do_filho_prodigo_rembrandt",
+          "nome": "O Retorno do Filho Pródigo (Rembrandt)",
+          "descricao": "Pintura a óleo de Rembrandt, dos últimos anos de sua vida, que mostra o filho pródigo ajoelhado diante do pai, no Hermitage.",
+          "variantes": [
+            "The Return of the Prodigal Son",
+            "O Filho Pródigo"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tilacino",
+        "descricao": "Marsupial carnívoro listrado (Thylacinus cynocephalus), chamado de tigre ou lobo-da-tasmânia, extinto no século vinte.",
+        "variantes": [
+          "Tigre-da-tasmânia",
+          "Lobo-da-tasmânia",
+          "Thylacinus cynocephalus",
+          "Thylacine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tigre_da_tasmania",
+          "nome": "Tigre-da-tasmânia",
+          "descricao": "Marsupial carnívoro extinto, de listras nas costas, nativo da Tasmânia, da Austrália continental e da Nova Guiné.",
+          "variantes": [
+            "Tilacino",
+            "Lobo-da-tasmânia",
+            "Thylacinus cynocephalus"
+          ]
+        },
+        {
+          "id": "diabo_da_tasmania",
+          "nome": "Diabo-da-tasmânia",
+          "descricao": "Marsupial carnívoro de pelo preto (Sarcophilus harrisii), hoje restrito à ilha da Tasmânia.",
+          "variantes": [
+            "Demônio-da-tasmânia",
+            "Sarcophilus harrisii"
+          ]
+        },
+        {
+          "id": "o_beijo_hayez",
+          "nome": "O Beijo (Hayez)",
+          "descricao": "Pintura de 1859 de Francesco Hayez, do Romantismo italiano, que mostra um casal se beijando, guardada na Pinacoteca di Brera.",
+          "variantes": [
+            "Il bacio",
+            "The Kiss (Hayez)"
+          ]
+        },
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        },
+        {
+          "id": "arena_da_amazonia",
+          "nome": "Arena da Amazônia",
+          "descricao": "Estádio de futebol de Manaus, Amazonas, construído para a Copa do Mundo de 2014 no local do antigo Vivaldão.",
+          "variantes": [
+            "Estádio Vivaldo Lima",
+            "Arena Amazônia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bonobo",
+        "descricao": "Grande símio africano (Pan paniscus), parente próximo do chimpanzé, que vive ao sul do rio Congo.",
+        "variantes": [
+          "Pan paniscus",
+          "Chimpanzé-pigmeu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bonobo",
+          "nome": "Bonobo",
+          "descricao": "Grande primata africano do gênero Pan, que vive ao sul do rio Congo.",
+          "variantes": [
+            "Pan paniscus",
+            "Chimpanzé-pigmeu"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "bobo_de_camarao",
+          "nome": "Bobó de camarão",
+          "descricao": "Prato baiano cremoso de camarão com purê de aipim, leite de coco e dendê.",
+          "variantes": [
+            "Bobó"
+          ]
+        },
+        {
+          "id": "chimpanze",
+          "nome": "Chimpanzé",
+          "descricao": "Grande símio de pelagem negra, do gênero Pan, nativo das florestas e savanas da África equatorial.",
+          "variantes": [
+            "Chimpanzé-comum",
+            "Pan troglodytes"
+          ]
+        },
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Hipopótamos de Pablo Escobar",
+        "descricao": "População de hipopótamos asselvajados na Colômbia, descendente dos animais levados pelo traficante Pablo Escobar para a Fazenda Nápoles.",
+        "variantes": [
+          "Hipopótamos da cocaína",
+          "Pablo Escobar's hippos",
+          "Cocaine hippos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipopotamo_pigmeu",
+          "nome": "Hipopótamo-pigmeu",
+          "descricao": "Pequeno hipopótamo da floresta da África Ocidental, Choeropsis liberiensis.",
+          "variantes": [
+            "Choeropsis liberiensis",
+            "Hipopótamo-anão"
+          ]
+        },
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        },
+        {
+          "id": "hipodromo_da_gavea",
+          "nome": "Hipódromo da Gávea",
+          "descricao": "Hipódromo do Jockey Club Brasileiro, no bairro da Lagoa, Rio de Janeiro.",
+          "variantes": [
+            "Jockey Club Brasileiro",
+            "Jockey Club do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "hipotese_gaia",
+          "nome": "Hipótese Gaia",
+          "descricao": "Hipótese segundo a qual os seres vivos e o ambiente da Terra formam um sistema que se autorregula.",
+          "variantes": [
+            "Hipótese de Gaia",
+            "Teoria de Gaia",
+            "Gaia hypothesis"
+          ]
+        },
+        {
+          "id": "santo_agostinho",
+          "nome": "Santo Agostinho",
+          "descricao": "Filósofo e bispo cristão (354–430), autor de Confissões e A Cidade de Deus.",
+          "variantes": [
+            "Agostinho de Hipona",
+            "Augustine of Hippo",
+            "Aurélio Agostinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mamute-lanoso",
+        "descricao": "Elefantídeo extinto coberto de pelos (Mammuthus primigenius), que viveu nas estepes frias do Hemisfério Norte.",
+        "variantes": [
+          "Mammuthus primigenius",
+          "Woolly mammoth",
+          "Mamute"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamute_lanoso",
+          "nome": "Mamute-lanoso",
+          "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
+          "variantes": [
+            "Mammuthus primigenius",
+            "Woolly mammoth"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "mauveina",
+          "nome": "Mauveína",
+          "descricao": "Corante roxo sintético obtido por acaso pelo químico inglês William Perkin em 1856.",
+          "variantes": [
+            "Malva de Perkin",
+            "Mauveine",
+            "Mauve"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cavalo",
+        "descricao": "Equídeo domesticado da espécie Equus caballus, usado para montaria, tração e esporte.",
+        "variantes": [
+          "Equus caballus",
+          "Equus ferus caballus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalo_xadrez",
+          "nome": "Cavalo (xadrez)",
+          "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+          "variantes": [
+            "Cavalo",
+            "Knight"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Auroque",
+        "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+        "variantes": [
+          "Uro",
+          "Bos primigenius",
+          "Aurochs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_flutuantes_dos_uros",
+          "nome": "Ilhas flutuantes dos uros",
+          "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+          "variantes": [
+            "Islas de los Uros",
+            "Uros"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca",
+            "Estilo barroco"
+          ]
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "euro",
+          "nome": "Euro",
+          "descricao": "Moeda única adotada por diversos países da União Europeia.",
+          "variantes": [
+            "€"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Quaga",
+        "descricao": "Zebra extinta da África do Sul (Equus quagga quagga), com listras apenas na parte da frente do corpo.",
+        "variantes": [
+          "Quagga",
+          "Equus quagga quagga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zebra",
+          "nome": "Zebra",
+          "descricao": "Equídeo africano de pelagem listrada em preto e branco; na foto, a zebra-da-planície (Equus quagga).",
+          "variantes": [
+            "Zebra-da-planície",
+            "Equus quagga",
+            "Plains zebra"
+          ]
+        },
+        {
+          "id": "gustavo_kuerten",
+          "nome": "Gustavo Kuerten",
+          "descricao": "Tenista brasileiro tricampeão de Roland Garros, o Guga.",
+          "variantes": [
+            "Guga"
+          ]
+        },
+        {
+          "id": "agua_regia",
+          "nome": "Água régia",
+          "descricao": "Mistura de ácido nítrico e ácido clorídrico capaz de dissolver o ouro e a platina.",
+          "variantes": [
+            "Aqua regia"
+          ]
+        },
+        {
+          "id": "ulan_bator",
+          "nome": "Ulan Bator",
+          "descricao": "Capital e maior cidade da Mongólia.",
+          "variantes": [
+            "Ulaanbaatar",
+            "Ulã Bator",
+            "Urga"
+          ]
+        },
+        {
+          "id": "quilava",
+          "nome": "Quilava",
+          "descricao": "Pokémon do tipo Fogo da segunda geração, evolução do Cyndaquil, número 156 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Sudan (rinoceronte)",
+        "descricao": "Último macho de rinoceronte-branco-do-norte, que viveu na reserva Ol Pejeta, no Quênia.",
+        "variantes": [
+          "Sudan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rinoceronte",
+          "nome": "Rinoceronte",
+          "descricao": "Grandes mamíferos herbívoros com chifre no focinho, da família Rhinocerotidae.",
+          "variantes": [
+            "Rhinoceros",
+            "Rhinocerotidae"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "sundarbans",
+          "nome": "Sundarbans",
+          "descricao": "Grande floresta de manguezal no delta dos rios Ganges e Bramaputra",
+          "variantes": []
+        },
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water",
+            "Água carbonatada"
+          ]
+        },
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Reintrodução do lobo em Yellowstone",
+        "descricao": "Programa que levou lobos-cinzentos do Canadá de volta ao Parque Nacional de Yellowstone, nos Estados Unidos.",
+        "variantes": [
+          "Wolf reintroduction in Yellowstone",
+          "Lobos de Yellowstone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lobos_de_yellowstone",
+          "nome": "Lobos de Yellowstone",
+          "descricao": "Lobos-cinzentos reintroduzidos no Parque Nacional de Yellowstone após décadas de extinção local.",
+          "variantes": [
+            "Reintrodução dos lobos em Yellowstone"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yellowstone",
+          "nome": "Parque Nacional de Yellowstone",
+          "descricao": "Parque nacional nos Estados Unidos, sobre um grande sistema vulcânico, famoso por gêiseres e fontes termais.",
+          "variantes": [
+            "Yellowstone National Park",
+            "Yellowstone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Ovelha Dolly",
+        "descricao": "Ovelha clonada no Instituto Roslin, na Escócia, primeiro mamífero clonado a partir de uma célula adulta.",
+        "variantes": [
+          "Dolly",
+          "Dolly (ovelha)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ovelha_dolly",
+          "nome": "Ovelha Dolly",
+          "descricao": "Ovelha nascida em 1996 na Escócia, primeiro mamífero clonado a partir de uma célula adulta.",
+          "variantes": [
+            "Dolly (ovelha)",
+            "Dolly the sheep",
+            "Dolly"
+          ]
+        },
+        {
+          "id": "dolar",
+          "nome": "Dólar",
+          "descricao": "Nome de diversas moedas, como a dos Estados Unidos, derivado de uma antiga moeda de prata europeia.",
+          "variantes": [
+            "Dollar"
+          ]
+        },
+        {
+          "id": "voleio",
+          "nome": "Voleio",
+          "descricao": "Golpe em que se bate na bola no ar, antes que ela toque o chão, termo usado no tênis e no futebol.",
+          "variantes": [
+            "Volley"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Baiji",
+        "descricao": "Golfinho de água doce do rio Yangtzé, na China (Lipotes vexillifer), considerado funcionalmente extinto.",
+        "variantes": [
+          "Golfinho-do-yangtzé",
+          "Lipotes vexillifer",
+          "Golfinho-chinês-de-rio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boto_cinza",
+          "nome": "Boto-cinza",
+          "descricao": "Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central.",
+          "variantes": [
+            "Boto",
+            "Golfinho-da-guiana",
+            "Sotalia guianensis"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        },
+        {
+          "id": "baku",
+          "nome": "Baku",
+          "descricao": "Capital e maior cidade do Azerbaijão, na península de Absheron.",
+          "variantes": [
+            "Bacu",
+            "Baki"
+          ]
+        },
+        {
+          "id": "golfinho_nariz_de_garrafa",
+          "nome": "Golfinho-nariz-de-garrafa",
+          "descricao": "Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras.",
+          "variantes": [
+            "Tursiops truncatus",
+            "Boto-da-tainha",
+            "Bottlenose dolphin"
+          ]
+        },
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Rinoceronte de Dürer",
+        "descricao": "Xilogravura de 1515 do artista alemão Albrecht Dürer, que retrata um rinoceronte-indiano com placas semelhantes a uma armadura.",
+        "variantes": [
+          "Dürer's Rhinoceros",
+          "Rhinocerus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rinoceronte",
+          "nome": "Rinoceronte",
+          "descricao": "Grandes mamíferos herbívoros com chifre no focinho, da família Rhinocerotidae.",
+          "variantes": [
+            "Rhinoceros",
+            "Rhinocerotidae"
+          ]
+        },
+        {
+          "id": "rinoceronte_lanoso",
+          "nome": "Rinoceronte-lanoso",
+          "descricao": "Rinoceronte extinto (Coelodonta antiquitatis) da Eurásia setentrional durante o Pleistoceno, coberto de pelos.",
+          "variantes": [
+            "Rinoceronte-lanudo",
+            "Coelodonta antiquitatis",
+            "Coelodonta"
+          ]
+        },
+        {
+          "id": "seattle_mariners",
+          "nome": "Seattle Mariners",
+          "descricao": "Time de beisebol da cidade americana de Seattle, da liga MLB.",
+          "variantes": [
+            "Mariners"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "robinson_crusoe",
+          "nome": "Robinson Crusoé",
+          "descricao": "Romance inglês de 1719 sobre um náufrago que passa anos sozinho numa ilha.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Smilodon",
+        "descricao": "Gênero extinto de felinos dentes-de-sabre das Américas, cujos fósseis foram descritos a partir de cavernas de Lagoa Santa, em Minas Gerais.",
+        "variantes": [
+          "Tigre-dente-de-sabre",
+          "Smilodon populator",
+          "Dente-de-sabre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator"
+          ]
+        },
+        {
+          "id": "dente_de_leao",
+          "nome": "Dente-de-leão",
+          "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+          "variantes": [
+            "Taraxaco",
+            "Taraxacum",
+            "Dandelion"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        },
+        {
+          "id": "rene_descartes",
+          "nome": "René Descartes",
+          "descricao": "Filósofo e matemático francês (1596–1650), autor de Discurso do Método.",
+          "variantes": [
+            "Descartes",
+            "Renatus Cartesius",
+            "Cartesius"
+          ]
+        },
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Vaca-marinha-de-steller",
+        "descricao": "Sirênio gigante e extinto do Pacífico Norte (Hydrodamalis gigas), descrito em 1741 e caçado até a extinção no século dezoito.",
+        "variantes": [
+          "Hydrodamalis gigas",
+          "Steller's sea cow",
+          "Dugongo-de-steller"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vaca_marinha_de_steller",
+          "nome": "Vaca-marinha-de-steller",
+          "descricao": "Grande sirênio extinto (Hydrodamalis gigas) do mar de Bering, caçado até a extinção no século dezoito.",
+          "variantes": [
+            "Hydrodamalis gigas",
+            "Steller's sea cow",
+            "Dugongo-de-steller"
+          ]
+        },
+        {
+          "id": "invasao_da_polonia",
+          "nome": "Invasão da Polônia",
+          "descricao": "Ataque da Alemanha nazista à Polônia em setembro de 1939, seguido pela invasão soviética, que deu início à Segunda Guerra Mundial na Europa.",
+          "variantes": [
+            "Campanha de Setembro",
+            "Fall Weiss"
+          ]
+        },
+        {
+          "id": "vacina_contra_a_variola",
+          "nome": "Vacina contra a varíola",
+          "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas.",
+          "variantes": [
+            "Vacina antivariólica",
+            "Vacina de Jenner"
+          ]
+        },
+        {
+          "id": "a_mae_de_whistler",
+          "nome": "A Mãe de Whistler",
+          "descricao": "Quadro de James McNeill Whistler de 1871.",
+          "variantes": [
+            "Whistler's Mother",
+            "Arranjo em Cinza e Preto nº 1"
+          ]
+        },
+        {
+          "id": "rola_bosta",
+          "nome": "Rola-bosta",
+          "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+          "variantes": [
+            "besouro-rola-bosta",
+            "dung beetle",
+            "escaravelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Canguru",
+        "descricao": "Marsupiais saltadores australianos da família Macropodidae, de patas traseiras longas e cauda forte.",
+        "variantes": [
+          "Kangaroo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canguru_vermelho",
+          "nome": "Canguru-vermelho",
+          "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+          "variantes": [
+            "Osphranter rufus",
+            "Macropus rufus",
+            "Red kangaroo"
+          ]
+        },
+        {
+          "id": "goku",
+          "nome": "Goku",
+          "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama.",
+          "variantes": [
+            "Son Goku",
+            "Kakarotto",
+            "Kakaroto"
+          ]
+        },
+        {
+          "id": "zangao",
+          "nome": "Zangão",
+          "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+          "variantes": [
+            "drone",
+            "abelha macho"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        },
+        {
+          "id": "tucano_toco",
+          "nome": "Tucano-toco",
+          "descricao": "Maior espécie de tucano (Ramphastos toco), de corpo preto, papo branco e bico laranja com mancha preta na ponta, da América do Sul.",
+          "variantes": [
+            "Tucanuçu",
+            "Toco toucan",
+            "Ramphastos toco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Nas Montanhas dos Gorilas (livro)",
+        "descricao": "Livro de 1983 da primatologista Dian Fossey sobre seu estudo dos gorilas-das-montanhas em Ruanda, que inspirou o filme de 1988.",
+        "variantes": [
+          "Gorillas in the Mist"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agora_ines_e_morta",
+          "nome": "Agora Inês é morta",
+          "descricao": "Expressão para uma situação que já não tem remédio, inspirada na história de Inês de Castro",
+          "variantes": []
+        },
+        {
+          "id": "ghost_in_the_shell",
+          "nome": "Ghost in the Shell",
+          "descricao": "Filme de animação japonês de ficção científica de 1995, dirigido por Mamoru Oshii.",
+          "variantes": [
+            "O Fantasma do Futuro",
+            "Kōkaku Kidōtai"
+          ]
+        },
+        {
+          "id": "hilas_e_as_ninfas",
+          "nome": "Hilas e as Ninfas",
+          "descricao": "Pintura de 1896 de John William Waterhouse que mostra o jovem Hilas sendo atraído por ninfas da água, na Manchester Art Gallery.",
+          "variantes": [
+            "Hylas and the Nymphs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Camelo-bactriano",
+        "descricao": "Camelo de duas corcovas (Camelus bactrianus), das estepes e desertos frios da Ásia Central.",
+        "variantes": [
+          "Camelus bactrianus",
+          "Bactrian camel",
+          "Camelo-de-duas-corcovas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "humberto_de_alencar_castelo_branco",
+          "nome": "Humberto de Alencar Castelo Branco",
+          "descricao": "Militar brasileiro, oficial da FEB na Itália, que foi o primeiro presidente do regime militar, de 1964 a 1967.",
+          "variantes": [
+            "Castelo Branco",
+            "Castello Branco"
+          ]
+        },
+        {
+          "id": "periodo_cambriano",
+          "nome": "Período Cambriano",
+          "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal.",
+          "variantes": [
+            "Cambriano",
+            "Cambrian"
+          ]
+        },
+        {
+          "id": "adriana_samuel",
+          "nome": "Adriana Samuel",
+          "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata em Atlanta 1996 e de bronze em Sydney 2000.",
+          "variantes": [
+            "Adriana Ramos Samuel"
+          ]
+        },
+        {
+          "id": "vestido_de_noiva_branco",
+          "nome": "Vestido de noiva branco",
+          "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
+          "variantes": [
+            "White wedding",
+            "Casamento branco",
+            "White wedding dress"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Baleia-da-groenlândia",
+        "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+        "variantes": [
+          "Baleia-franca-da-groenlândia",
+          "Baleia-boreal",
+          "Balaena mysticetus",
+          "Bowhead whale"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_da_groenlandia",
+          "nome": "Tubarão-da-groenlândia",
+          "descricao": "Tubarão lento de águas frias do Atlântico Norte e do Ártico (Somniosus microcephalus), famoso pela longevidade.",
+          "variantes": [
+            "Somniosus microcephalus",
+            "Greenland shark"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "baleia_jubarte",
+          "nome": "Baleia-jubarte",
+          "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae.",
+          "variantes": [
+            "Jubarte",
+            "Megaptera novaeangliae",
+            "Humpback whale"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Búfalo-asiático (Bubalus bubalis) não está entre as candidatas; bisão é outra espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Leontopithecus caissara é espécie distinta do mico-leão-dourado."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "golfinho_rotador",
+      "motivo": "Mesma espécie Stenella longirostris."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "tigre_da_tasmania",
+      "motivo": "Tilacino é o mesmo Thylacinus cynocephalus."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "bonobo",
+      "motivo": "Mesma espécie Pan paniscus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "População específica de hipopótamos na Colômbia, diferente da espécie."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mamute_lanoso",
+      "motivo": "Mesma espécie Mammuthus primigenius."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cavalo animal difere da peça de xadrez."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Auroque (boi extinto) não é o povo uro nem outra candidata."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Quaga é subespécie extinta, distinta da zebra em geral."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Indivíduo específico, não a família dos rinocerontes."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "lobos_de_yellowstone",
+      "motivo": "Ambas tratam da reintrodução dos lobos-cinzentos em Yellowstone."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "ovelha_dolly",
+      "motivo": "Mesma ovelha clonada."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Baiji é espécie distinta das candidatas."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Xilogravura específica, não o animal."
+    },
+    {
+      "caso": 16,
+      "decisao": "mesma",
+      "id_existente": "smilodon",
+      "motivo": "Mesmo gênero Smilodon."
+    },
+    {
+      "caso": 17,
+      "decisao": "mesma",
+      "id_existente": "vaca_marinha_de_steller",
+      "motivo": "Mesma espécie Hydrodamalis gigas."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Canguru como grupo difere do canguru-vermelho, espécie."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é esse livro."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Espécie específica, distinta do gênero Camelo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Baleia-da-groenlândia não está entre as candidatas."
+    }
+  ]
+}

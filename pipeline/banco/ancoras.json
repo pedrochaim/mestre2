@@ -39230,7 +39230,8 @@
     "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
     "variantes": [
       "Stenella longirostris",
-      "Spinner dolphin"
+      "Spinner dolphin",
+      "Golfinho-rotador-de-noronha"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Spinner_dolphin"
@@ -41991,7 +41992,8 @@
     "variantes": [
       "Tigre-dentes-de-sabre",
       "Dente-de-sabre",
-      "Smilodon populator"
+      "Smilodon populator",
+      "Tigre-dente-de-sabre"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Smilodon"
@@ -42062,7 +42064,8 @@
     "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
     "variantes": [
       "Mammuthus primigenius",
-      "Woolly mammoth"
+      "Woolly mammoth",
+      "Mamute"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Woolly_mammoth"
@@ -44059,7 +44062,9 @@
     "nome": "Lobos de Yellowstone",
     "descricao": "Lobos-cinzentos reintroduzidos no Parque Nacional de Yellowstone após décadas de extinção local.",
     "variantes": [
-      "Reintrodução dos lobos em Yellowstone"
+      "Reintrodução dos lobos em Yellowstone",
+      "Reintrodução do lobo em Yellowstone",
+      "Wolf reintroduction in Yellowstone"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone"
@@ -106017,7 +106022,8 @@
     "variantes": [
       "Tilacino",
       "Lobo-da-tasmânia",
-      "Thylacinus cynocephalus"
+      "Thylacinus cynocephalus",
+      "Thylacine"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Thylacine",
@@ -112458,6 +112464,177 @@
     "descricao": "Canção do cantor sul-coreano Psy lançada em 2012, famosa por sua dança",
     "fontes": [
       "https://en.wikipedia.org/wiki/Gangnam_Style"
+    ]
+  },
+  {
+    "id": "bufalo_asiatico",
+    "nome": "Búfalo-asiático",
+    "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+    "variantes": [
+      "Búfalo-d'água",
+      "Búfalo-doméstico",
+      "Bubalus bubalis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Water_buffalo",
+      "https://pt.wikipedia.org/wiki/B%C3%BAfalo"
+    ]
+  },
+  {
+    "id": "mico_leao_de_cara_preta",
+    "nome": "Mico-leão-de-cara-preta",
+    "descricao": "Primata da Mata Atlântica do litoral sul de São Paulo e norte do Paraná, espécie Leontopithecus caissara, descrita em 1990.",
+    "variantes": [
+      "Leontopithecus caissara",
+      "Mico-leão-caiçara",
+      "Black-faced lion tamarin",
+      "Superagui lion tamarin"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Mico-le%C3%A3o-de-cara-preta",
+      "https://en.wikipedia.org/wiki/Superagui_lion_tamarin"
+    ]
+  },
+  {
+    "id": "hipopotamos_de_pablo_escobar",
+    "nome": "Hipopótamos de Pablo Escobar",
+    "descricao": "População de hipopótamos asselvajados na Colômbia, descendente dos animais levados pelo traficante Pablo Escobar para a Fazenda Nápoles.",
+    "variantes": [
+      "Hipopótamos da cocaína",
+      "Pablo Escobar's hippos",
+      "Cocaine hippos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pablo_Escobar%27s_hippos"
+    ]
+  },
+  {
+    "id": "cavalo",
+    "nome": "Cavalo",
+    "descricao": "Equídeo domesticado da espécie Equus caballus, usado para montaria, tração e esporte.",
+    "variantes": [
+      "Equus caballus",
+      "Equus ferus caballus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Horse",
+      "https://pt.wikipedia.org/wiki/Cavalo"
+    ]
+  },
+  {
+    "id": "auroque",
+    "nome": "Auroque",
+    "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+    "variantes": [
+      "Uro",
+      "Bos primigenius",
+      "Aurochs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aurochs",
+      "https://pt.wikipedia.org/wiki/Auroque"
+    ]
+  },
+  {
+    "id": "quaga",
+    "nome": "Quaga",
+    "descricao": "Zebra extinta da África do Sul (Equus quagga quagga), com listras apenas na parte da frente do corpo.",
+    "variantes": [
+      "Quagga",
+      "Equus quagga quagga"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quagga",
+      "https://pt.wikipedia.org/wiki/Quaga"
+    ]
+  },
+  {
+    "id": "sudan_rinoceronte",
+    "nome": "Sudan (rinoceronte)",
+    "descricao": "Último macho de rinoceronte-branco-do-norte, que viveu na reserva Ol Pejeta, no Quênia.",
+    "variantes": [
+      "Sudan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sudan_(rhinoceros)"
+    ]
+  },
+  {
+    "id": "baiji",
+    "nome": "Baiji",
+    "descricao": "Golfinho de água doce do rio Yangtzé, na China (Lipotes vexillifer), considerado funcionalmente extinto.",
+    "variantes": [
+      "Golfinho-do-yangtzé",
+      "Lipotes vexillifer",
+      "Golfinho-chinês-de-rio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baiji",
+      "https://pt.wikipedia.org/wiki/Baiji"
+    ]
+  },
+  {
+    "id": "rinoceronte_de_durer",
+    "nome": "Rinoceronte de Dürer",
+    "descricao": "Xilogravura de 1515 do artista alemão Albrecht Dürer, que retrata um rinoceronte-indiano com placas semelhantes a uma armadura.",
+    "variantes": [
+      "Dürer's Rhinoceros",
+      "Rhinocerus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/D%C3%BCrer%27s_Rhinoceros"
+    ]
+  },
+  {
+    "id": "canguru",
+    "nome": "Canguru",
+    "descricao": "Marsupiais saltadores australianos da família Macropodidae, de patas traseiras longas e cauda forte.",
+    "variantes": [
+      "Kangaroo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kangaroo",
+      "https://pt.wikipedia.org/wiki/Canguru"
+    ]
+  },
+  {
+    "id": "nas_montanhas_dos_gorilas_livro",
+    "nome": "Nas Montanhas dos Gorilas (livro)",
+    "descricao": "Livro de 1983 da primatologista Dian Fossey sobre seu estudo dos gorilas-das-montanhas em Ruanda, que inspirou o filme de 1988.",
+    "variantes": [
+      "Gorillas in the Mist"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gorillas_in_the_Mist"
+    ]
+  },
+  {
+    "id": "camelo_bactriano",
+    "nome": "Camelo-bactriano",
+    "descricao": "Camelo de duas corcovas (Camelus bactrianus), das estepes e desertos frios da Ásia Central.",
+    "variantes": [
+      "Camelus bactrianus",
+      "Bactrian camel",
+      "Camelo-de-duas-corcovas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bactrian_camel",
+      "https://pt.wikipedia.org/wiki/Camelo-bactriano"
+    ]
+  },
+  {
+    "id": "baleia_da_groenlandia",
+    "nome": "Baleia-da-groenlândia",
+    "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+    "variantes": [
+      "Baleia-franca-da-groenlândia",
+      "Baleia-boreal",
+      "Balaena mysticetus",
+      "Bowhead whale"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "https://pt.wikipedia.org/wiki/Baleia-da-groenl%C3%A2ndia"
     ]
   }
 ]

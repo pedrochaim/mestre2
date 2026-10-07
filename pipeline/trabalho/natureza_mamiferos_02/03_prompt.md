@@ -1,0 +1,1826 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Mamíferos** (tema **Natureza**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Búfalo-asiático",
+      "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No Pará, uma ilha famosa pelos enormes rebanhos de búfalos tem até policiais que patrulham montados nesses animais. Que ilha é essa?",
+    "resposta": "Ilha de Marajó",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maraj%C3%B3",
+      "https://pt.wikipedia.org/wiki/Ilha_de_Maraj%C3%B3",
+      "https://en.wikipedia.org/wiki/Water_buffalo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maraj%C3%B3",
+        "situacao": "ok",
+        "texto": "Marajó ( MARR-ə-ZHOH; Brazilian Portuguese: [maɾaˈʒɔ]) is a large coastal island in Pará, Brazil. It is the main and largest of the islands in the Marajó Archipelago. Marajó Island is separated from the mainland by Marajó Bay, Pará River, smaller rivers (especially Macacos and Tajapuru), Companhia River, Jacaré Grande River, Vieira Grande Bay and the Atlantic Ocean.\n[…]\nMarajó is almost entirely flat. The island can be divided into the eastern side with savanna plains at a slightly higher elevation of around 6 metres (20 ft), and the western side with rainforest situated around sea level. On the savannas, there are large fazendas with animal husbandry. There are large herds of domesticated water buffalo, which are technically invasive to the island; they now number about 450,000, higher than the island's human population.\n[…]\nThe island is in the Marajó várzea ecoregion, an area of seasonally and tidally flooded várzea forest.\n[…]\nMegger's hypotheses subsequently became associated with environmental determinism. Her theory has since been rejected, however, by the archaeologist Anna Curtenius Roosevelt, who re-excavated Marajó in the 1980s. According to Roosevelt, the Marajoara culture developed independently within the Amazon and featured both intensive subsistence agriculture and major public works.\n[…]\nRoosevelt estimated that Marajó may have had a population of more than 100,000 people at its peak. The population lived in homes with tamped earth floors, organized themselves into matrilineal clans, and divided tasks by sex, age, and skill level.\n[…]\nIn contrast, however, during the 1918–1919 pandemic worldwide of  Spanish influenza, Marajó was the only major populated area not to have any documented cases of the illness.\n[…]\nThe island is also the location of the Roman Catholic Territorial Prelature of Marajó.\n[…]\nMarajó Island and Pará state at V-Brazil.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_Maraj%C3%B3",
+        "situacao": "ok",
+        "texto": "A Ilha do Marajó (inicialmente chamada de Marinatambal) é uma ilha costeira do tipo fluviomarítima situada na Área de Proteção Ambiental do arquipélago do Marajó, no estado do Pará, na região norte do Brasil. Considerada, segundo algumas fontes, a maior ilha fluviomarítima do planeta.\n[…]\nAinda no setor primário, uma das atividades de maior importância para a Ilha do Marajó é a pecuária extensiva de búfalos, chamada de bubalinocultura. O leite e seus derivados estão entre os principais produtos dessa atividade, seguidos da carne.[carece de fontes]?\n[…]\nAlém disso, a Ilha de Marajó atrai turistas interessados em explorar suas belas paisagens naturais, fazer passeios de barco pelos rios e desfrutar das praias de água doce. Também é possível visitar fazendas de búfalos, experimentar a culinária local, que inclui pratos à base de peixe e búfalo, e participar de festivais culturais, como o Búfalo-Bumbá Junino de Mestre Damasceno, que tem 51 anos de tradição, o Festival de Boi-Bumbá de Mestre Damasceno, o MarajóFest e o Festival do Carimbó .\n[…]\nA luta marajoara é uma prática corporal tradicional, com origem nos povos indígenas da ilha, especialmente os Aruás, influenciada também pela presença africana e pela convivência com búfalos. Era historicamente praticada em festas religiosas e eventos sociais como demonstração de força e destreza física. Foi reconhecida como patrimônio cultural imaterial do Pará em 2022.\n[…]\nVariação lexical e fonética na ilha do Marajó\n[…]\nArtigo \"O Ecoturismo na Ilha do Marajó\", de Indio Campos\n[…]\nArtigo \"A Ilha de Marajo: estudo economico-social\" (1956), de Manuel Nunes Pereira, Divisão de Caca e Pesca - SIA/DNPA\n[…]\nArtigo \"Uma interpretação das culturas da Ilha de Marajó\" (1954), de Betty Jane Meggers e Clifford Evans, Instituto de Antropologia e Etnologia do Pará"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Water_buffalo",
+        "situacao": "ok",
+        "texto": "The water buffalo (Bubalus bubalis), also called domestic water buffalo, Asian water buffalo, and Asiatic water buffalo, is a large domesticated bovine originating in South and Southeast Asia descended from the wild water buffalo. Today, it is also kept in regions including Italy, the Balkans, Australia, the Americas, and parts of Africa.\n[…]\nIn March 2003, the International Commission on Zoological Nomenclature achieved consistency in the naming of the wild and domestic water buffaloes by ruling that the scientific name Bubalus arnee is valid for the wild form. B. bubalis continues to be valid for the domestic form and applies also to feral populations.\n[…]\nMitochondrial DNA analyses indicate that the two types were domesticated independently. Sequencing of cytochrome b (CytB) genes of Bubalus species implies that the water buffalo originated from at least two populations, and that the river-type and the swamp-type have differentiated at the full species level. The genetic distance between the two types is so large that a divergence time of about 1.7 million years has been suggested.\n[…]\nA 2008 DNA analysis of Neolithic water buffalo remains in northern China (previously used as evidence of a Chinese domestication origin) found that the remains were of the extinct Bubalus mephistopheles and are not genetically related to modern domesticated water buffaloes. Another study in 2004 also concluded that the remains were from wild specimens. Both indicate that water buffaloes were first domesticated outside of China.\n[…]\nBrazil has the largest water buffalo herd in the Western Hemisphere, totaling between 1.6 and 3 million. The region with the highest water buffalo concentration in South America encompasses the Brazilian state of Amapá and the Amazon Delta, including Marajó Island.\n[…]\nZebu – the common breed of domestic cattle from India"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Mico-leão-de-cara-preta",
+      "descricao": "Primata da Mata Atlântica do litoral sul de São Paulo e norte do Paraná, espécie Leontopithecus caissara, descrita em 1990."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Descoberto pela ciência em 1990, o mico-leão-de-cara-preta vive no litoral de quais dois estados brasileiros?",
+    "resposta": "Paraná e São Paulo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mico-le%C3%A3o-de-cara-preta",
+      "https://en.wikipedia.org/wiki/Superagui_lion_tamarin"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mico-le%C3%A3o-de-cara-preta",
+        "situacao": "ok",
+        "texto": "Leontopithecus caissara, comummente conhecido como mico-leão-da-cara-preta, é um primata brasileiro da família dos Cebídeos e da subfamília dos Calitriquídeos, e é endêmico da Mata Atlântica brasileira. Foi descoberto em 1990 na ilha de Superagüi no estado do Paraná, mas também ocorre no litoral sul de São Paulo. Acredita-se que hoje existam apenas 300 exemplares.\n[…]\nA biologia da espécie não é muito conhecida ainda e corre grave risco de extinção, devido à distribuição geográfica restrita e ao baixo número de indivíduos existentes. Não existe população do mico-leão-de-cara-preta em cativeiro.\n[…]\nO mico-leão-de-cara-preta pertence ao gênero Leontopithecus, grupo monofilético da família dos Cebídeos e à subfamília dos Calitriquídeos . Foi descrito em 1990 por Lorini & Persson, a partir da pele de uma fêmea coletada no município de Guaraqueçaba, no Paraná, sendo a última espécie de mico-leão a ser descoberta.\n[…]\nExiste a discussão de que o mico-leão-de-cara-preta é uma espécie válida, ou uma subespécie do mico-leão-preto: entretanto, estudos moleculares e morfológicos corroboram com a hipótese de que é uma espécie válida, sendo grupo-irmão de um clado contendo o mico-leão-dourado e o mico-leão-preto.\n[…]\nPor não serem conhecidos fósseis de mico-leões, o mico-leão-de-cara-preta não tem uma história evolutiva bem documentada por evidências palentológicas.\n[…]\nPossui uma distribuição geográfica restrita (estima-se que seja de cerca de 300 km²), sendo encontrado no litoral do Paraná, no Parque Nacional de Superagüi, e no litoral sul de São Paulo. Foram encontrados nos vales do rio dos Patos e do rio Branco, e os limites de sua distribuição geográfica ao norte são até a Serra do Cordeiro, mas esse limite necessita confirmação. Em Cananéia, foi confirmado a ocorrência na região do Ariri, na bacia do rio Turvo, e na região de Itapitangui."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Superagui_lion_tamarin",
+        "situacao": "ok",
+        "texto": "The black-faced lion tamarin or Superagüi lion tamarin (Leontopithecus caissara) is a small New World monkey of the family Callitrichidae. It is endangered and endemic to coastal forests in southeastern Brazil. There are several conservation projects and the total populations is unlikely to exceed 400 individuals. It is overall golden-orange with contrasting black head, legs and tail.\n[…]\nThe black-faced lion tamarin was not recognized until 1990 when two Brazilian researchers, Maria Lucia Lorini and Vanessa Persson, described it based on individuals from the island of Superagui in the Brazilian state of Paraná. Shortly after additional populations were discovered on the adjacent mainland in Paraná and in the far southern São Paulo. The specific name caissara is a reference to the caicaras, the local people of Superagui Island.\n[…]\nThe black-faced lion tamarin is an arboreal species and primarily eats small fruits and invertebrates such as insect, spiders and snails. They are also known to drink nectar, eat the young leaves of bromeliads and consume mushrooms. They are thought to supplement parts of their diet with mushrooms during the dry season.\n[…]\nThe Superagüi lion tamarin is listed as endangered by the IUCN, included on the Endangered Species Act and is listed on CITES Appendix I. Within Brazil, it is included on the national Official List of Species Threatened with Extinction and it is also on regional lists by both the Paraná and São Paulo states.\n[…]\nThe Superagüi National Park covers most of the black-faced lion tamarin home ranges including Superagui Island and adjacent mainland parts of the state of Paraná. The national park is 33,988 hectares large and the black-faced lion tamarin is one of the endemic species that is used as a conservation unit for management of the park. The population in São Paulo is protected in the Jacupiranga State Park."
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Golfinho-rotador",
+      "descricao": "Golfinho oceânico (Stenella longirostris) famoso pelos saltos girando no ar, frequente em Fernando de Noronha."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Num arquipélago pernambucano, uma baía costuma receber pela manhã grandes grupos de golfinhos-rotadores para descansar. Que arquipélago é esse?",
+    "resposta": "Fernando de Noronha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Golfinho-rotador",
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Golfinho-rotador",
+        "situacao": "ok",
+        "texto": "O golfinho-rotador (Stenella Longirostris), ou golfinho-rotador-de-bico-comprido, é um golfinho oceânico, encontrado em águas pelágicas e costeiras, especialmente em águas tropicais e subtropicais. A espécie possui um bico longo e fino, com a porção distal preta. Seu dorso é mais escuro que seu ventre. Esses animais executam saltos em forma de pirueta, girando várias vezes em torno do eixo do corp\n[…]\nA Baía dos Golfinhos é localizada num lugar estratégico: o arquipélago de Fernando de Noronha, sendo um verdadeiro oásis para estes graciosos animais. É um dos poucos lugares visitados pelos golfinhos rotineiramente, pois a maioria deles passa a vida toda longe da costa. Os grupos que vão à baía para descansar, se divertir e se reproduzir quase nunca é formado pelos mesmos indivíduos por mais de dois dias consecutivos.\n[…]\nOs golfinhos rotadores nadam até a Baía há centenas ou talvez milhares de anos.\n[…]\nOs golfinhos-rotadores vivem em uma organização social aberta e livre. Os golfinhos rotadores do Havaí vivem em grupos familiares, mas também têm associações com outras pessoas além de seus grupos. Mães e filhotes formam fortes laços sociais. Os golfinhos rotadores parecem ter um sistema de acasalamento promíscuo, com indivíduos trocando de parceiros por até algumas semanas. Uma dúzia de machos adultos podem se reunir em coalizões.\n[…]\nOs golfinhos também podem  fazer diversas outras manobras.\n[…]\nOs golfinhos rotadores no Havaí recebem várias visitas diárias aos seus locais de descanso próximos à costa, com barcos que levam as pessoas diariamente para mergulhar e interagir com a população local de golfinhos. Essas atividades estão cada vez mais sendo criticadas por causa de possíveis danos aos golfinhos, e esforços estão sendo feitos tanto para educar o público a fim de minimizar o impacto humano sobre os golfinhos, quanto para trazer regulamentações para governar essas atividades."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernando_de_Noronha",
+        "situacao": "ok",
+        "texto": "Fernando de Noronha é um arquipélago brasileiro do estado de Pernambuco. Formado por 21 ilhas, ilhotas e rochedos de origem vulcânica, ocupa uma área total de 26 km² — dos quais 17 km² são da ilha principal — e se situa no Oceano Atlântico a nordeste do Brasil continental, distando 350 km do Rio Grande do Norte e 545 km da capital pernambucana, Recife. O centro comercial da ilha é o núcleo urbano \n[…]\nEm 1990, nasceu o Projeto Golfinho Rotador pela necessidade de preservar os golfinhos-rotadores que frequentam a Baía dos Golfinhos em Fernando de Noronha, sendo coordenado pelo Centro Golfinho Rotador e patrocinado oficialmente pela Petrobras por meio do Programa Petrobras Socioambiental.\n[…]\nEntre as suas praias mais famosas, estão a Baía de Santo Antônio, a Praia da Conceição, a Praia do Boldró, a Praia da Cacimba do Padre, a Baía dos Porcos, a Baía do Sancho, a Baía dos Golfinhos, a Ponta da Sapata, entre outras. A Baía do Sancho, em Fernando de Noronha, foi eleita a melhor praia do mundo pelos usuários do TripAdvisor.\n[…]\nAté 2025, a produção de energia no arquipélago de Fernando de Noronha é realizada na usina de Tubarão, que utiliza biodiesel. Em novembro de 2025, é inaugurada a primeira usina solar flutuante do arquipélago, construída pela Neoenergia (subsidiária da Iberdrola no Brasil) e pela Companhia Pernambucana de Saneamento (Compesa). Essa usina está localizada na superfície do reservatório de Xaréu. Possui uma potência de 622 kWp e uma geração anual estimada de 1.083 MWh.\n[…]\nO Campeonato Noronhense de Futebol, mais conhecido como Campeonato Noronhense ou ainda Noronhão, é a competição amadora desse esporte no arquipélago de Fernando de Noronha, no estado de Pernambuco. Organizada pela CSANF e pela Federação Pernambucana de Futebol, para suporte técnico e desenvolvimento do futebol na ilha, é a principal e tradicional competição na região.\n[…]\nFernando de Noronha no IBGE"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Golfinho",
+      "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual cidade de Santa Catarina golfinhos encurralam cardumes de tainha e sinalizam aos pescadores artesanais a hora de lançar a rede?",
+    "resposta": "Laguna",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Laguna_(Santa_Catarina)",
+      "https://en.wikipedia.org/wiki/Laguna,_Santa_Catarina",
+      "https://en.wikipedia.org/wiki/Bottlenose_dolphin"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Laguna_(Santa_Catarina)",
+        "situacao": "ok",
+        "texto": "Laguna é um município brasileiro do estado de Santa Catarina. Localiza-se a uma latitude 28º28'57\" sul e a uma longitude 48º46'51\" oeste, estando a uma altitude de 2 metros. Sua população estimada em 2021 era de 46 424 habitantes. Possui uma área de 336,396 km². Em 1º de janeiro de 2013, perdeu 1/5 de sua população com a instalação do município de Pescaria Brava.\n[…]\nNa cidade de Laguna, está instalado o Campus Sul da Universidade do Estado de Santa Catarina - UDESC.\n[…]\nA conhecida Guerra dos Farrapos, que no município dispunha de uma série de seguidores, deu importância histórica à cidade de Laguna. Em julho de 1839, os republicanos gaúchos invadiram Laguna por terra e mar. David Canabarro e Joaquim Teixeira Nunes lideravam as tropas terrestres (cerca de 1000 homens).\n[…]\nE em 29 de julho de 1839, a Câmara Municipal de Laguna, presidida por Vicente Francisco de Oliveira, proclamava o Estado Catarinense Livre e Independente com a denominação de República Juliana, coligada à de Piratini. Foi naquele momento que apareceu a adolescente Ana Maria de Jesus Ribeiro, amplamente conhecida pela perífrase de Heroína dos Dois Mundos, que ficaria junto a Giuseppe Garibaldi, com quem se casou em seguida, tornando-se conhecida pelo apelido de Anita Garibaldi.\n[…]\nCidade histórica e praiana, o carnaval da Laguna é considerado o melhor do sul do País.\n[…]\nLaguna apresenta diversas lindas praias com destaque para a do Mar Grosso. A praia do Gi e de Itapirubá destacam-se pelas dunas e preservação da natureza. O Farol de Santa Marta, localizado no Cabo de Santa Marta, foi construído em 1891 pelos franceses e é considerado o maior das Américas e, mundialmente, o terceiro em alcance com 45 metros acima do nível do mar,. A estrutura é uma torre quadrada, em pedra, que possui lanterna e galeria. Suas paredes possuem 2 metros de espessura."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Laguna,_Santa_Catarina",
+        "situacao": "ok",
+        "texto": "Laguna is a Brazilian municipality located in the southern state of Santa Catarina, 120 kilometers south of the state's capital, Florianópolis, and north east of Porto Alegre. The population is 46,122 (2020 est.) in an area of 336.4 km2. The elevation is 2 m. The BR-101 coastal highway passes through the municipality.\n[…]\nA pod of bottlenose dolphins resident in the sea off Laguna drive fish towards fishermen who stand at the beach in shallow waters. Then one dolphin rolls over, which the fishermen take as sign to throw out their nets. The dolphins feed on the escaping fish. The dolphins were not trained for this behavior; the collaboration has been going on at least since 1847. Southern right whales also can be seen from shores during winter to spring seasons.\n[…]\nCapture of Laguna\n[…]\nRecapture of Laguna\n[…]\nMedia related to Laguna (Santa Catarina) at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bottlenose_dolphin",
+        "situacao": "ok",
+        "texto": "The bottlenose dolphin is a toothed whale in the genus Tursiops. They are common, cosmopolitan members of the family Delphinidae, the family of oceanic dolphins. Molecular studies show the genus contains three species: the common bottlenose dolphin (Tursiops truncatus), the Indo-Pacific bottlenose dolphin (Tursiops aduncus), and Tamanend's bottlenose dolphin (Tursiops erebennus).\n[…]\nSimilar cases have been observed in Laguna, Santa Catarina in Brazil since during 19th century as well.\n[…]\nHowever, dolphins in these areas can also coexist with humans. For example, in the town of Laguna in south Brazil, a pod of bottlenose dolphins resides in the estuary, and some of its members cooperate with humans. These cooperating dolphins are individually recognized by the local fishermen, who name them. The fishermen typically stand up to their knees in the shallow waters or sit in canoes, waiting for the dolphins."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Macaco-prego",
+      "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Escavações mostraram que macacos-prego quebram castanhas com pedras há pelo menos três mil anos, num parque nacional do Piauí famoso por pinturas rupestres. Qual?",
+    "resposta": "Serra da Capivara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bearded_capuchin_monkey",
+      "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bearded_capuchin_monkey",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park",
+        "situacao": "ok",
+        "texto": "Serra da Capivara National Park (Portuguese: Parque Nacional Serra da Capivara, IPA: [ˈpaʁki nasi.oˈnaw ˈsɛʁɐ da kapiˈvaɾɐ, - nasjoˈnaw -]) is a national park in the Northeastern region of Brazil. The area has many prehistoric paintings.\n[…]\nThe name of the mountain range that defines the park, Serra da Capivara, literally means \"Capybara Hills\" in Portuguese. This area has the largest and the oldest concentration of prehistoric sites in the Americas. Scientific studies confirm that the Capivara mountain range was densely populated in the pre-Cabraline Era.\n[…]\nIt is located in northeast state of Piauí, between latitudes 8° 26' 50\" and 8° 54' 23\" south and longitudes 42° 19' 47\" and 42° 45' 51\" west. It falls within the municipal areas of São Raimundo Nonato, São João do Piauí, Coronel José Dias and Canto do Buriti. It has an area of 1291.4 square kilometres (319,000 acres).\n[…]\nThe Capivara-Confusões Ecological Corridor, created in 2006, links the park to the Serra das Confusões National Park.\n[…]\nScientific studies confirm that the Capivara mountain range was densely populated in the pre-Columbian Era.\n[…]\nEric Boëda, et al. (2014), Les Industries pléistocènes du Piaui. Nouvelles données academia.edu\n[…]\nExplore Serra da Capivara National Park in the UNESCO collection on Google Arts and Culture\n[…]\nThe Rock Art of Serra da Capivara\n[…]\nPhotos of Serra da Capivara by Maria-Brazil"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Tilacino",
+      "descricao": "Marsupial carnívoro listrado (Thylacinus cynocephalus), chamado de tigre ou lobo-da-tasmânia, extinto no século vinte."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1936, o último tilacino conhecido, o chamado tigre-da-tasmânia, morreu num zoológico de qual cidade australiana?",
+    "resposta": "Hobart",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thylacine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thylacine",
+        "situacao": "ok",
+        "texto": "The thylacine ( THY-luh-seen; Thylacinus cynocephalus), also commonly known as the Tasmanian tiger, Tasmanian wolf or marsupial wolf, is an extinct species of carnivorous marsupial formerly native to the Australian mainland, Tasmania and New Guinea. It became extinct on mainland Australia and New Guinea approximately 3,600–3,200 years ago, possibly following the arrival of the dingo, which was int\n[…]\nPrior to European settlement, the species remained widespread in Tasmania, where its population was estimated to number several thousand individuals. During the 19th century, the species was increasingly persecuted because of its perceived threat to livestock, with government-sponsored bounty schemes encouraging its extermination. The last known individual died at Hobart Zoo in Tasmania on 7 September 1936.\n[…]\nThe last captive thylacine lived as an endling (the known last of its species) at Hobart Zoo (alternatively Beaumaris Zoo) until its death on the evening or night of 7 September 1936. The circumstances of the endling's capture, its life history, death and sex are debated, and conflicting information has been reported.\n[…]\nDespite being regularly debunked over the years due to Darby never working at the zoo and being unfamiliar with the species, the myth continues to circulate even in modern-day media, with Wikipedia itself formerly repeating the invention.A 45 second black-and-white motion picture showing the Hobart Zoo's presumed last thylacine in its enclosure was taken in 1933, by naturalist David Fleay.\n[…]\nSmith, Steven J. (1981). The Tasmanian Tiger – 1980. A report on an investigation of the current status of thylacine Thylacinus cynocephalus, funded by the World Wildlife Fund Australia. Wildlife Division technical report. Hobart, Tasmania: National Parks and Wildlife Service. ISBN 978-0-724-61753-1.\n[…]\nThe Thylacine at the Australian Museum\n[…]\nThe Thylacine Museum at Natural Worlds"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lobo-da-tasm%C3%A2nia",
+        "situacao": "ok",
+        "texto": "O lobo-da-tasmânia (nome científico: Thylacinus cynocephalus), conhecido em outras línguas como tigre-da-tasmânia, foi o maior marsupial carnívoro dos tempos modernos. Nativo da Austrália e Nova Guiné, acredita-se que foi extinto no século XX. Foi o último membro de seu gênero, Thylacinus (tilacino), ainda que diversas espécies relacionadas tenham sido encontradas em registros de fósseis do início\n[…]\nO último registro visual da espécie ocorreu em 1932 e o último exemplar morreu no Zoológico de Hobart em 7 de setembro de 1936. Apesar de ser oficialmente classificado como extinto, relatos de encontros ainda são reportados.\n[…]\nO último lobo-da-tasmânia em cativeiro, mais tarde chamado de \"Benjamin\" (apesar de seu sexo nunca ter sido confirmado) foi capturado em 1933 e enviado ao Zoológico de Hobart onde viveu por três anos. Frank Darby, que afirma ter sido um guarda no Zoológico de Hobart, sugeriu \"Benjamin\" como tendo sido o apelido do animal em um artigo de jornal em maio de 1968.\n[…]\nEntretanto, não há nenhuma documentação existente que sugere que o animal possuía um apelido, e Alison Reid (curadora de facto do zoológico) e Michael Sharland (agente publicitário do zoológico) negaram que Frank Darby tenha algum dia trabalhado em Hobart ou que o nome Benjamin tenha sido utilizado para o animal. Darby também parece ser a fonte para a afirmação de que o último lobo-da-tasmânia foi um macho; evidências fotográficas sugerem que era uma fêmea.\n[…]\nLowry, D. C. (1967). \"Discovery of a Thylacine (Tasmanian Tiger) Carcase In a Cave Near Eucla, Western Australia.\" Helictite.\n[…]\nPearce, R (1976). \"Thylacines in Tasmania.\" Australian Mammal Society Bulletin 3: 58.\n[…]\nSmith, S. J. (1980). \"The Tasmanian Tiger - 1980. A report on an investigation of the current status of thylacine Thylacinus cynocephalus, funded by the World Wildlife Fund Australia.\" Hobart: National Parks and Wildlife Service, Tasmania.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Bonobo",
+      "descricao": "Grande símio africano (Pan paniscus), parente próximo do chimpanzé, que vive ao sul do rio Congo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Primo próximo do chimpanzé, o bonobo vive na natureza apenas ao sul do rio Congo, em qual país?",
+    "resposta": "República Democrática do Congo",
+    "distratores": [
+      "República do Congo",
+      "Camarões",
+      "Gabão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bonobo",
+      "https://pt.wikipedia.org/wiki/Bonobo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bonobo",
+        "situacao": "ok",
+        "texto": "The bonobo (; Pan paniscus), also historically called the pygmy chimpanzee, is the smallest species of great ape and one of the two making up the genus Pan (the other being the chimpanzee, Pan troglodytes). While bonobos are today recognized as a distinct species, they were initially thought to be a subspecies of Pan troglodytes, because of the physical similarities between the two species.\n[…]\nThe bonobo is found in a 500,000 km2 (190,000 sq mi) area within the Congo Basin of the Democratic Republic of the Congo (DRC), Central Africa. It is predominantly frugivorous, compared to the often highly omnivorous diets and hunting of small monkeys, duiker and other antelope exhibited by common chimpanzees. Bonobos inhabit primary and secondary forest, including seasonally inundated swamp forest.\n[…]\nBonobos are found only south of the Congo River and north of the Kasai River (a tributary of the Congo), in the humid forests of the Democratic Republic of Congo. Ernst Schwarz's 1927 paper \"Le Chimpanzé de la Rive Gauche du Congo\", announcing his discovery, has been read as an association between the Parisian Left Bank and the left bank of the Congo River; the bohemian culture in Paris, and an unconventional ape in the Congo.\n[…]\nThe ranges of bonobos and chimpanzees are separated by the Congo River, with bonobos living to its south and chimpanzees to the north.\n[…]\nThe IUCN Red List classifies bonobos as an endangered species, with conservative population estimates ranging from 29,500 to 50,000 individuals. Major threats to bonobo populations include habitat loss and hunting for bushmeat, the latter activity having increased dramatically during the first and second Congo Wars in the Democratic Republic of Congo, due to the presence of heavily armed militias (even in remote, \"protected\" areas such as Salonga National Park).\n[…]\nSan Diego Zoo Library: Bonobo, Pan paniscus"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bonobo",
+        "situacao": "ok",
+        "texto": "O bonobo (nome científico: Pan paniscus), também chamado chimpanzé-pigmeu e, menos frequentemente, chimpanzé-anão ou grácil, é uma das duas espécies incluídas no gênero Pan. A outra espécie do gênero é Pan troglodytes, o chimpanzé-comum. Ambas as espécies são chimpanzés, embora esse termo seja usado principalmente para a maior das duas espécies, P. troglodytes.\n[…]\nO bonobo é encontrado numa área de cerca de 500 000 km² da Bacia do Congo, na República Democrática do Congo, na África central. A espécie habita as florestas primárias e secundárias, incluindo as áreas pantanosas.\n[…]\nO bonobo vive na margem sul do rio Congo, enquanto o chimpanzé comum é encontrado ao norte do mesmo rio, onde compartilham seu habitat com gorilas. Nenhum dos dois nada, o que provavelmente serviu como barreira natural. Os bonobos, pelo menos em cativeiro, são geralmente considerados mais inteligentes do que os chimpanzés.\n[…]\nAlgo parecido é praticamente impossível em grupos maiores que 150 chimpanzés.\n[…]\nO bonobo é endêmico da República Democrática do Congo (antigo Zaire) e é encontrado nas áreas em volta do Rio Congo. Em 1990, seguindo as recomendações do World Wildlife Fund, tinha sido aprovada uma reserva de 3800 km² na Reserva Florestal de Lomako, porém a instabilidade política nunca permitiu concretizar o projeto. Hoje, essa área padece do que se chama \"Síndrome da Floresta Vazia\", onde não se percebe a presença de vida animal quase nenhuma, em comparação com a exuberância do passado.\n[…]\nA Lista vermelha da IUCN classifica os bonobos como uma espécie ameaçada de extinção, com estimativas de 29 500 a 50 000 chimpanzés. As principais ameaças às populações de bonobos são a perda do habitat e a caça de carne de animais silvestres, que aumentou drasticamente durante a Primeira e a Segunda Guerra do Congo na República Democrática do Congo.\n[…]\nChimpanzé-comum\n[…]\nChimpanzé"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Quokka",
+      "descricao": "Pequeno marsupial macropodídeo do sudoeste da Austrália, do tamanho de um gato (Setonix brachyurus)."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Perto de Perth, uma ilha cheia de quokkas recebeu de um navegador holandês um nome que significa ninho de ratos. Que ilha é essa?",
+    "resposta": "Ilha Rottnest",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rottnest_Island",
+      "https://en.wikipedia.org/wiki/Quokka"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rottnest_Island",
+        "situacao": "ok",
+        "texto": "Rottnest Island (Wajuk: Wadjemup), nicknamed Rotto, is a 19-square-kilometre (7.3 sq mi) island off the coast of Western Australia, 18 kilometres (11 mi) west of Fremantle. A sandy, low-lying island formed on a base of aeolianite limestone, it is an A-class reserve, the highest level of protection afforded to public land.\n[…]\nRottnest was first documented by Willem de Vlamingh in 1696, who called it 't Eylandt 't Rottenest ('rats' nest island') after the quokka population. Following establishment of the Swan River Colony (now Perth) in 1829, the island was initially used by British settlers for agriculture, and a permanent settlement was built in Thomson Bay.\n[…]\nThe Hotel Rottnest, formerly called the Quokka Arms Hotel and prior to that the Governor's residence.\n[…]\nMost visitors arrive on one of the ferries from Fremantle, Perth and Hillarys. These are operated by Rottnest Express, Rottnest Fast Ferries and SeaLink. Rottnest Island Airport for light aircraft is located near the main settlement.\n[…]\nCatering facilities in the Thomson Bay foreshore area include a Dôme coffee shop, Thomsons Restaurant; Quokka Joes; Rottnest Lodge and the Hotel Rottnest. The main settlement has a general store, including a liquor outlet, a bakery, cafe/coffee shop, Subway restaurant and clothing store. The Red Rooster store closed in 2011. The Lodge includes several restaurants and bars also. Geordie Bay also has a general store, liquor outlet and Geordie Cafe.\n[…]\nRottnest Island is accessed by ferry services. Rottnest Express commenced operating in the 1950s, while SeaLink commenced in November 2017. Both operate services from Fremantle with a few from Barrack Street Jetty in the Perth central business district. Rottnest Fast Ferries operate services from Hillarys Boat Harbour.\n[…]\nRottnest Island Authority\n[…]\nRottnest Foundation"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Quokka",
+        "situacao": "ok",
+        "texto": "The quokka (; Setonix brachyurus) is a macropod native to Australia. It is about the size of a domestic cat. It is the only member of the genus Setonix. Like other marsupials in the macropod family (such as kangaroos and wallabies), the quokka is herbivorous and mainly nocturnal.\n[…]\nThe quokka's range is a small area of southwestern Australia. They inhabit some smaller islands off the coast of Western Australia, particularly Rottnest Island just off Perth and Bald Island near Albany. Isolated, scattered populations also exist in forest and coastal heath between Perth and Albany. A small colony inhabits a protected area of Two Peoples Bay Nature Reserve, where they coexist with the critically endangered Gilbert's potoroo.\n[…]\nQuokkas have little fear of humans and commonly approach people closely, particularly on Rottnest Island, where they are abundant. Although quokkas are approachable, a few dozen cases occur annually of quokkas biting people, especially children.\n[…]\nIn addition to restrictions on human interactions with quokkas, they have been tested to be potentially harmful to humans with their high Salmonella infection rates, especially in the summer heat. This has been proven by scientists, who have taken blood tests on wild quokkas on Rottnest Island. Quokkas can also be observed at several zoos and wildlife parks around Australia, including Perth Zoo, Taronga Zoo, Wild Life Sydney, Australia Zoo, Adelaide Zoo, and Caversham Wildlife Park.\n[…]\nMany photos of smiling quokkas have since gone viral, and the \"quokka selfie\" has become a popular social-media trend, with celebrities such as Chris Hemsworth, Shawn Mendes, Margot Robbie, Roger Federer, and Kim Donghyuk of iKON taking part in the activity. Tourist numbers to Rottnest Island have subsequently increased."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Hipopótamos de Pablo Escobar",
+      "descricao": "População de hipopótamos asselvajados na Colômbia, descendente dos animais levados pelo traficante Pablo Escobar para a Fazenda Nápoles."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Descendentes dos hipopótamos que Pablo Escobar levou para sua fazenda hoje vivem soltos na bacia de qual grande rio colombiano?",
+    "resposta": "Rio Magdalena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pablo_Escobar%27s_hippos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pablo_Escobar%27s_hippos",
+        "situacao": "ok",
+        "texto": "Hippopotamuses are an introduced species in Colombia. Four hippopotamuses were first kept by the drug lord Pablo Escobar in his private zoo in the early 1980s, and upon his death in 1993, they were allowed to wander his unattended estate. The hippos eventually broke out of the estate and, being too difficult to contain, were left to roam the area.\n[…]\nIn the early 1980s, Colombian drug lord Pablo Escobar visited a wildlife breeding center in Dallas, Texas, to strike a deal to adopt four hippopotamuses. In 1981, four hippos, three females and one male, were imported by Escobar to his private menagerie at his residence in Hacienda Nápoles, located between the cities of Medellín and Bogotá. After Escobar's 1993 death, the zoo was unofficially closed, but the hippos would later escape the residence and spread out to nearby areas.\n[…]\nBy 2007, the animals had multiplied to 16 and had taken to roaming the area for food in the nearby Magdalena River. In early 2014, there were reported to be 40 hippopotamuses in Puerto Triunfo, Antioquia.\n[…]\nBeing non-native introductions, most conservationists considered them problematic and invasive in Colombia, as they have the potential to change various ecosystems, feeding heavily on plants and displacing native species like the West Indian manatee, neotropical otter, spectacled caiman and turtles. The critically endangered Dahl's toad-headed turtle and Magdalena River turtle are largely restricted to the Magdalena River basin, as are many threatened fish.\n[…]\nIn 2013, the National Geographic Channel produced a documentary about the species in Colombia titled Cocaine Hippos.\n[…]\nList of invasive species in Colombia\n[…]\nJoshua Hammer (August 27, 2024). \"The cocaine kingpin's wildest legacy: what can be done with Pablo Escobar's marauding hippos?\". The Guardian."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Mamute-lanoso",
+      "descricao": "Elefantídeo extinto coberto de pelos (Mammuthus primigenius), que viveu nas estepes frias do Hemisfério Norte."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os últimos mamutes-lanosos sobreviveram até cerca de quatro mil anos atrás, quando já havia pirâmides no Egito, em qual ilha do Ártico?",
+    "resposta": "Ilha Wrangel",
+    "distratores": [
+      "Svalbard",
+      "Nova Zembla",
+      "Groenlândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wrangel_Island",
+      "https://en.wikipedia.org/wiki/Woolly_mammoth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wrangel_Island",
+        "situacao": "ok",
+        "texto": "Wrangel Island (Russian: О́стров Вра́нгеля, romanized: Ostrov Vrangelya, IPA: [ˈostrəf ˈvrangʲɪlʲə]; Chukot: Умӄиԓир, romanized: Umqiḷir, IPA: [umqiɬir], lit. 'island of polar bears') is an island of the Chukotka Autonomous Okrug, Russia. It is the 92nd-largest island in the world and roughly the size of Crete. Located in the Arctic Ocean between the Chukchi Sea and East Siberian Sea, the island l\n[…]\nIn 1999, the Chukotka Regional government extended the protected marine area to 24 nmi (44 km) offshore. As of 2003, there were four rangers who reside on the island year-round, while a core group of about 12 scientists conduct research during the summer months. Wrangel Island was home to the last generally accepted surviving population of woolly mammoths, with radiocarbon dating suggesting they persisted on the island until around 4,000 years ago.\n[…]\nWrangel Island is generally accepted to be the final place on Earth to support an isolated population of woolly mammoths until their extinction about 2000 BC, based on directly radiocarbon dated woolly mammoth bones found on the island.\n[…]\nInitially, it was assumed that this was a specific insular dwarf variant of the species originating from Siberia. However, after further evaluation, while their body size is relatively small, it falls within the size range known for woolly mammoths in mainland Siberia, and thus these Wrangel Island mammoths are no longer considered to have been true dwarves (though true dwarf mammoths and other dwarf elephants are known from other islands, some considerably smaller than Wrangel Island mammoths).\n[…]\nIn Jules Verne's novel César Cascabel, the protagonists float past Wrangel Island on an iceberg.\n[…]\nThe title poem of Craig Finlay's 2021  collection The Very Small Mammoths of Wrangel Island describes the last few wooly mammoths living there.\n[…]\nMedia related to Wrangel Island at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Woolly_mammoth",
+        "situacao": "ok",
+        "texto": "The woolly mammoth (Mammuthus primigenius) is an extinct species of mammoth that lived from the Middle Pleistocene until its extinction in the Holocene epoch. It was one of the last in a line of mammoth species, beginning with the African Mammuthus subplanifrons in the early Pliocene. The woolly mammoth began to diverge from the steppe mammoth about 800,000 years ago in Siberia. Its closest extant\n[…]\nThe woolly mammoth coexisted with early humans, who hunted the species for food, and used its bones and tusks for making art, tools, and dwellings. The population of woolly mammoths declined at the end of the Late Pleistocene, with the last populations on mainland Siberia persisting until around 10,000 years ago, although isolated populations survived on St. Paul Island until 5,600 years ago and on Wrangel Island until 4,000 years ago.\n[…]\nAn adult male from the Holocene Wrangel Island population was estimated to have a height of 2.8 m (9 ft 2 in) and a weight of 4.5 t (9,900 lb). The last woolly mammoth populations are claimed to have decreased in size and increased their sexual dimorphism, but this was dismissed in a 2012 study.\n[…]\nIt has been proposed that these changes are consistent with the concept of genomic meltdown, however, this has been contested by later analysis of the genomes of some of the last mammoths on Wrangel Island, which suggests that highly deleterious mutations had been significantly purged to levels lower than that in mainland populations, though the level of moderately deleterious mutations was elevated.\n[…]\nThe disappearance is relatively close in time with the first evidence of humans on the island, though other authors have suggested that woolly mammoths were almost certainly extinct for several centuries prior to the presence of humans on Wrangel Island (which dates to around 3,600 years ago).\n[…]\nData related to Mammuthus primigenius at Wikispecies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_Wrangel",
+        "situacao": "ok",
+        "texto": "A ilha de Wrangel (em russo:  Остров Врангеля, Ostrov Vrangelya, em chukoto:  Умӄиԓир) é uma ilha de grande dimensão do Oceano Árctico, entre os mares de Chukchi e da Sibéria Oriental. Pertence à Federação Russa. A ilha de Wrangel situa-se quase sobre o meridiano 180 (71° 14′ N, 179° 25′ O). Tem cerca de 7600 km² de superfície, e 125 km de comprimento. O ponto mais elevado é o monte Sovetskaya, co\n[…]\nRecebeu o seu nome em homenagem ao militar explorador germano-báltico Ferdinand von Wrangel (1797-1870) que, após ouvir histórias da existência de uma ilha contadas pelo povo Chukchi, embarcou numa expedição (1820–1824) com o intuito de a descobrir, porém sem êxito.\n[…]\nO primeiro desembarque conhecido na Ilha de Wrangel ocorreu em 12 de Agosto de 1881, por um grupo do Revenue Cutter Service Corwin, que reclamou o território para os Estados Unidos.\n[…]\nRecentemente, apelos foram feitos nós EUA para \"devolver\" a Ilha de Wrangel da Rússia no Oceano Ártico.\n[…]\nO Sistema Natural da Reserva da Ilha de Wrangel encontra-se classificado pela UNESCO como Património Mundial.\n[…]\nA ilha de Wrangel tem um clima polar. Os invernos são muito frios e os verões são frescos. Em fevereiro, o mês mais frio, a temperatura média diária aproxima-se de -30ºC. Em julho, o mês mais quente, a temperatura média diária excede ligeiramente os 0ºC. As águas frias do Oceano Ártico desempenham um papel moderador e ajudam a manter baixas temperaturas ao longo do ano. A precipitação é baixa e ocorre principalmente no verão. A neve não cobre o chão mais de 79 dias por ano, em média.\n[…]\nUm estudo de 2019 publicado na revista Quaternary Science Reviews indica que os últimos mamutes morreram há 4 mil anos na ilha de Wrangel.\n[…]\n«The Ice Master». Obras de Jennifer Niven sobre a Ilha de Wrangel\n[…]\n«Adventure Associates». viagem em quebra-gelos à Ilha de Wrangel\n[…]\n«Run For Wrangel». Informação turística\n[…]\n«Datação de Mamutes na Ilha de Wrangel»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Cavalo",
+      "descricao": "Equídeo domesticado da espécie Equus caballus, usado para montaria, tração e esporte."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A linhagem dos cavalos evoluiu por milhões de anos em qual continente, onde depois se extinguiu, voltando só com os colonizadores europeus?",
+    "resposta": "América do Norte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
+      "https://en.wikipedia.org/wiki/Horse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
+        "situacao": "ok",
+        "texto": "The evolution of the horse, a mammal of the family Equidae, occurred over a geologic time scale of 50 million years, transforming the small, dog-sized, forest-dwelling Eohippus into the large, single-toed, modern-day horse. Paleozoologists have been able to piece together a more complete outline of the evolutionary lineage of the modern horse than of any other animal.\n[…]\nWild horses have been known since prehistory from central Asia to Europe, with domestic horses and other equids being distributed more widely in the Old World, but no horses or equids of any type were found in the New World when European explorers reached the Americas. When the Spanish colonists brought domestic horses from Europe, beginning in 1493, escaped horses quickly established large feral herds.\n[…]\nAfter the expedition returned in 1836, the anatomist Richard Owen confirmed the tooth was from an extinct species, which he subsequently named Equus curvidens, and remarked, \"This evidence of the former existence of a genus, which, as regards South America, had become extinct, and has a second time been introduced into that Continent, is not one of the least interesting fruits of Mr. Darwin's palæontological discoveries.\"\n[…]\nThese results suggest all North American fossils of caballine-type horses (which also include the domesticated horse and Przewalski's horse of Europe and Asia), as well as South American fossils traditionally placed in the subgenus E. (Amerhippus) belong to the same species: E. ferus. Remains attributed to a variety of species and lumped as New World stilt-legged horses (including Haringtonhippus, E. tau, E. quinni and potentially North American Pleistocene fossils previously attributed to E. cf.\n[…]\nDigs in western Canada have unearthed clear evidence horses existed in North America until about 12,000 years ago.\n[…]\nEquus gallicus"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Horse",
+        "situacao": "ok",
+        "texto": "The horse (Equus ferus caballus) is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large single-toed animal of today, originally in North America.\n[…]\nTheir legs lengthened as their toes disappeared until they were a hooved animal capable of running at great speed. By about 5 million years ago, the modern Equus had evolved, and it spread to the Old World from North America during the Pleistocene. Equid teeth also evolved from browsing on soft, tropical plants to adapt to browsing of drier plant material, then to grazing of tougher plains grasses.\n[…]\nThus, proto-horses changed from leaf-eating forest-dwellers to grass-eating inhabitants of semi-arid regions worldwide, including the steppes of Eurasia and the Great Plains of North America.\n[…]\nBy about 15,000 years ago, Equus ferus was a widespread holarctic species. Horse bones from this time period, the late Pleistocene, are found in Europe, Eurasia, Beringia, and North America. Yet between 10,000 and 7,600 years ago, the horse became extinct in North America. The reasons for this extinction are not fully known, but one theory notes that extinction in North America paralleled human arrival.\n[…]\nWorldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes. The Food and Agriculture Organization (FAO) estimates that in 2008, there were almost 59,000,000 horses in the world, with around 33,500,000 in the Americas, 13,800,000 in Asia, and 6,300,000 in Europe and smaller portions in Africa and Oceania. There are estimated to be 9,500,000 horses in the United States alone."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o_do_cavalo",
+        "situacao": "ok",
+        "texto": "A evolução do cavalo envolve o desenvolvimento gradual do cavalo moderno, desde o Hyracotherium, animal do tamanho de uma raposa e habitante de florestas. Os paleozoólogos foram capazes de juntar as peças da linhagem evolutiva do cavalo, mais do que em qualquer outro animal.\n[…]\nO cavalo pertence à ordem conhecida como Perissodactyla, à qual pertencem os animais com cascos nas patas e um número ímpar de dedos em cada pata, assim como lábio superior móvel e estrutura dentária semelhante. Isto significa que os cavalos partilham um antepassado comum com os tapires e rinocerontes. Os perissodáctilos apareceram no Paleocénico tardio, há menos de 10 milhões de anos após da extinção K-T.\n[…]\nEste grupo de animais parece ter sido originalmente especializado para a vida nas florestas tropicais, mas enquanto os tapires e rinocerontes retiveram a sua especialização à selva, os cavalos modernos estão adaptados à vida das savanas e estepes.\n[…]\nOs ancestrais mais recentes do cavalo moderno caminhavam com vários dedos estendidos, uma acomodação à vida passada no chão macio e húmido das florestas. Quando as espécies de ervas começaram a aparecer e florescer, a dieta dos equídeos mudou da folhagem para as ervas, levando ao aparecimento de dentições maiores e mais duráveis.\n[…]\nAo mesmo tempo, quando as estepes começaram a aparecer, os predecessores do cavalo necessitaram de maiores velocidades para poderem fugir mais eficazmente dos predadores. Isto foi conseguido através de um comprimento maior dos membros e maior levantamento dos dedos do chão, de tal maneira que o peso do corpo foi  gradualmente colocado num dos dedos maiores, o terceiro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Auroque",
+      "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O auroque, boi selvagem ancestral do gado doméstico, desapareceu quando o último exemplar morreu numa floresta da Polônia. Em que século?",
+    "resposta": "Século dezessete",
+    "distratores": [
+      "Século quinze",
+      "Século dezesseis",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aurochs",
+      "https://pt.wikipedia.org/wiki/Auroque"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aurochs",
+        "situacao": "ok",
+        "texto": "The aurochs (Bos primigenius;  or ; pl.: aurochs or aurochsen; also ure or urus) is an extinct species of bovine, considered to be the wild ancestor of modern domestic cattle (Bos taurus). With a shoulder height of up to 1.8 m (5 ft 11 in) in bulls and 1.55 m (5 ft 1 in) in cows, it was one of the largest herbivores in the Holocene; it had massive elongated and broad horns that reached 80 cm (31 i\n[…]\nThe scientific name Bos primigenius was proposed for the aurochs by Ludwig Heinrich Bojanus who described the skeletal differences between the aurochs and domestic cattle in 1825, published in 1827. The name Bos namadicus was used by Hugh Falconer in 1859 for cattle fossils found in Nerbudda deposits.\n[…]\nThe Indian aurochs is thought to have been domesticated 10,000–8,000 years ago.\n[…]\nThe Indian aurochs (B. p. namadicus) became extinct sometime during the Holocene period, likely due to habitat loss caused by expanding pastoralism and interbreeding with the domestic zebu.\n[…]\nThe timing of extinction of aurochs in the Indian subcontinent is unclear, due to difficulty distinguishing aurochs remains from those of domestic cattle, with a 2021 review suggesting remains from Mehrgarh, Pakistan, dating to around 8,000 years ago \"might constitute the only dated and reliably identified evidence\" of Holocene Indian aurochs. The extinction probably predates the historical period, due to a lack of references to the aurochs in Indian texts.\n[…]\nEuropean aurochs decline can probably be mainly attributed to human factors, including hunting from the Mesolithic onwards, as well a shift to land use for livestock grazing following the invention of farming. The Eurasian aurochs (B. p. primigenius) was present in southern Sweden during the Holocene climatic optimum until at least 7,800 years BP, and perhaps as late as 6,500 BP.\n[…]\nDe-extinction, specially about Aurochs"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auroque",
+        "situacao": "ok",
+        "texto": "O auroque (Bos primigenius) também conhecido como uro, uruz, ou uroque é uma espécie de bovino selvagem extinto que habitou a Europa, Ásia e norte da África. É considerado o ancestral do gado doméstico. O auroque tornou-se extinto em 1627, quando os últimos indivíduos da espécie morreram na Polônia.\n[…]\nNão existe consenso sobre o habitat dos auroques, enquanto alguns autores consideram que a seleção de habitat desses bovinos fossem semelhantes ao do búfalo africano da floresta, outros descrevem a espécie com tendo habitado pastagens ao lados de outros grandes herbívoros da época. Os auroques eram provavelmente pastadores e tinham uma seleção de alimentos semelhante aos do gado doméstico, porém habitando áreas mais úmidas que este último.\n[…]\nJá no século V a.C., os auroques desapareceram do sul da Grécia, mas permaneceram comuns na região norte e leste do Rio Echedorus, perto da moderna Salônica. Os últimos relatórios da presença da espécie na ponta sul dos Balcãs datam do século I a.C., que relataram a presença de dois machos no sul da Sérvia e na Trácia. No século XIII, os auroques estavam restritos a Polônia, Lituânia, Moldávia, Transilvânia e Prússia Oriental.\n[…]\nDe acordo com uma pesquisa real polonesa, em 1564 existiam apenas 38 auroques. O último auroque vivo registrado, uma fêmea, morreu em 1627 na floresta de Jaktorów, na Polônia, por causas naturais. A caça excessiva, destruição e fragmentação de seu habitat, desenvolvimento da agricultura e doenças transmitidas pelo gado doméstico foram as principais causa da extinção dos auroques.\n[…]\nGado Heck\n[…]\nVuure, T. van. 2002. History, morphology and ecology of the Aurochs (Bos primigenius). Lutra 45-1. Online pdf (603 kB)"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Quaga",
+      "descricao": "Zebra extinta da África do Sul (Equus quagga quagga), com listras apenas na parte da frente do corpo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O quaga, zebra sul-africana com listras só na frente do corpo, foi extinto quando o último exemplar morreu no zoológico de Amsterdã. Em que década?",
+    "resposta": "Década de 1880 (1883)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quagga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Quagga",
+        "situacao": "ok",
+        "texto": "The quagga ( or ) (Equus quagga quagga) is an extinct subspecies of the plains zebra which was endemic to South Africa until it was hunted to extinction in the late 19th century. It was long thought to be a distinct species, but mtDNA studies have supported it being a subspecies of plains zebra. A more recent study suggested that it was the southernmost cline or ecotype of the species.\n[…]\nAfter the European settlement of South Africa began, the quagga was extensively hunted, as it competed with domesticated animals for forage. Some were taken to zoos in Europe, but breeding programmes were unsuccessful. The last wild population lived in the Orange Free State; the quagga was extinct in the wild by 1878. The last captive specimen died in Amsterdam on 12 August 1883. 23 skins and seven skeletons exist today, and only two quaggas were ever photographed alive.\n[…]\nThe quagga was originally classified as a distinct species, Equus quagga, in 1778 by Dutch naturalist Pieter Boddaert. Traditionally, the quagga and the other plains and mountain zebras were placed in the subgenus Hippotigris. Much debate has occurred over the status of the quagga in relation to the plains zebra. The British zoologist Reginald Innes Pocock in 1902 was perhaps the first to suggest that the quagga was a subspecies of the plains zebra.\n[…]\nThe quagga had disappeared from much of its range by the 1850s. The last population in the wild, in the Orange Free State, was extirpated in the late 1870s. The last known wild quagga died in 1878. The specimen in London died in 1872 and the one in Berlin in 1875. The last captive quagga, a female in Amsterdam's Natura Artis Magistra zoo, lived there from 9 May 1867 until it died on 12 August 1883, but its origin and cause of death are unclear.\n[…]\nMedia related to Quagga at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quaga",
+        "situacao": "ok",
+        "texto": "Quaga (nome científico: Equus quagga quagga) é uma subespécie extinta de zebra-da-planície. Muito numerosos no passado, os quagas viviam no sul da África e, ao contrário das outras zebras, apresentavam listras apenas na metade da frente do corpo, enquanto a traseira era de cor castanha lisa. A extinção dos quagas foi provocada pela caça excessiva por colonos bôeres, que buscavam sua carne e couro.\n[…]\nA competição com o gado doméstico por áreas de pastagens também foi um fator que levou a seu extermínio. O último animal na natureza foi caçado em 1878, e o último exemplar, uma fêmea do zoológico Natura Artis Magistra de Amsterdã, morreu em 12 de agosto de 1883.\n[…]\nHistoricamente, a taxonomia do quaga foi ainda mais difícil de ser definida porque acreditava-se que a população extinta mais austral de zebra-de-burchell (Equus quagga burchellii, antes Equus burchellii burchellii) era uma subespécie distinta (às vezes até mesmo considerada uma espécie separada, E. burchellii).\n[…]\nA população vivente de zebra-da-planície mais ao norte, a \"zebra-de-damara\", chegou a ser chamada de Equus quagga antiquorum, mas sabe-se hoje que se trata do mesmo táxon da zebra-de-burchell. Durante muito tempo pensou-se que a população extinta era muito próxima do quaga, uma vez que a pelagem também exibia poucas listras na parte traseira. Com base nisso, Shortridge classificou os dois no agora em desuso subgênero Quagga em 1934.\n[…]\nA última população na natureza, no Estado Livre de Orange, foi extirpada no final da década de 1870. E o último indivíduo selvagem conhecido morreu em 1878.\n[…]\nO espécime de Londres morreu em 1872, e o de Berlim em 1875. O último exemplar em cativeiro, uma fêmea do zoológico Natura Artis Magistra, em Amsterdã, viveu naquele local de 9 de maio de 1867 até sua morte em 12 de agosto de 1883, mas sua procedência e a causa mortis não foram registradas.\n[…]\nProjeto Quagga (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Sudan (rinoceronte)",
+      "descricao": "Último macho de rinoceronte-branco-do-norte, que viveu na reserva Ol Pejeta, no Quênia."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Numa reserva do Quênia, morreu Sudan, o último macho de rinoceronte-branco-do-norte. Em que ano?",
+    "resposta": "2018",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sudan_(rhinoceros)",
+      "https://en.wikipedia.org/wiki/Northern_white_rhinoceros"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sudan_(rhinoceros)",
+        "situacao": "ok",
+        "texto": "Sudan (c. 1973 – 19 March 2018) was a captive northern white rhinoceros (Ceratotherium simum cottoni) that lived at the Safari Park Dvůr Králové in the Czech Republic from 1975 to 2009 and the rest of his life at the Ol Pejeta Conservancy in Laikipia, Kenya. At the time of his death, he was one of only three living northern white rhinoceroses in the world, and the last known male of his subspecies\n[…]\nAt the end of 2017, Sudan suffered from an infection in his right hind leg. Although his condition improved in subsequent months, the infection returned, and, in March 2018, his state seriously deteriorated, despite intensive care. In the final years of his life, Sudan was protected by armed guards around the clock. He was euthanized on 19 March 2018, after suffering from \"age-related complications.\"\n[…]\nAfter the death of Sudan, Dvůr Králové Zoo spokesman Jan Stejskal declared that \"We must take advantage of the unique situation in which cellular technologies are utilized for conservation of critically endangered species. It may sound unbelievable, but thanks to the newly developed techniques even Sudan could still have an offspring.\"\n[…]\nAmong the celebrities who visited Sudan were actors Nargis Fakhri and Khaled Abol Naga.\n[…]\nIn 2017, Ol Pejeta Conservancy teamed up with Tinder and Ogilvy Africa to launch a fundraising campaign in order to recover the species. They created a Tinder account for Sudan, the last standing male of northern white rhinos, and the app's users could swipe right to make their donations for the development of breeding methods.\n[…]\nOn 20 December 2020, Google showed a Doodle on its homepage in remembrance of Sudan.\n[…]\nThis May Be The Last Photo Post About The Last Male Northern White Rhino. The Huffington Post. 5 March 2018.\n[…]\nLast male northern white rhino's death highlights 'huge extinction crisis'. The Guardian. 20 March 2018."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Northern_white_rhinoceros",
+        "situacao": "ok",
+        "texto": "The northern white rhinoceros or northern white rhino (Ceratotherium simum cottoni) is one of two subspecies of the white rhinoceros (the other being the southern white rhinoceros). This subspecies is a grazer in grasslands and savanna woodlands.\n[…]\nFormerly found in several countries in East and Central Africa south of the Sahara, since 19 March 2018, there are only two known rhinos of this subspecies left, named Najin and Fatu, both of which are female; barring the existence of unknown or misclassified male northern white rhinos elsewhere in Africa, this makes the subspecies functionally extinct.\n[…]\nThey both belong to the Dvůr Králové Zoo in the Czech Republic, but live in Ol Pejeta Conservancy in Kenya, Africa. They arrived at the conservancy after an air and road trip on 20 December 2009, along with two male northern white rhinos from the Dvůr Králové Zoo, Suni and Sudan. However, Suni, a male born at Dvůr Králové Zoo in 1980, died from natural causes in Ol Pejeta Conservancy in 2014. Sudan, caught from the wild in 1975, died on 19 March 2018.\n[…]\nSudan, caught from the wild in Sudan in 1975 at about 3 years of age. He was the father of Najin and Nabire. In March 2018, his state seriously deteriorated despite intensive care, due to a recurrent infection in his right hind leg, and he was euthanized on 19 March 2018. He was the last known male of the subspecies.\n[…]\nNola, a female caught from the wild in Sudan in 1975 at about 1 year of age, which was on loan since 1989 from Dvůr Králové Zoo. She died on 22 November 2015 at about age 41.\n[…]\nRookmaker, L.C. (1998). The Rhinoceros in Captivity. The Hague: SPB Academic Publishing. p. 409. ISBN 90-5103-134-3. Retrieved 22 March 2018."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sud%C3%A1n_%28rinoceronte%29",
+        "situacao": "ok",
+        "texto": "Sudán (Sudão do Sul, 1 de janeiro de 1973 - Sudão do Sul, 19 de março de 2018) foi um rinoceronte branco do norte, o último macho de sua espécie no mundo.\n[…]\nUma pequena criança atrapada no Parque Nacional de Shambe em 19 de novembro de 1973, foi enviado ao Zoológico de Dvůr Králové na República Checa como principal atração e permaneceu nele até 2009. Nesse ano Sudão era o menor dos dois únicos machos vivos no mundo, o outro era Angalifu, pelo que se assinou um tratado no qual o rinoceronte seria transladado ao OL Conservatorio de Pejeta em Kenia para tratar que se reproduzisse, o acordo sustentava que Sudão não voltaria a Europa.\n[…]\nO rinoceronte juntou-se com Nasima com quem teve duas crianças fêmeas: Nabire (nascida o 15 de novembro de 1983 e falecida em julho de 2015) e Najin (nascida em 1989), quem fez-lhe avô de sua neta Fatu (nascida em 2000).\n[…]\nOs três rinocerontes, Sudão, Najin e Fatu (os últimos no planeta de sua espécie) viveram no OL Conservatório de Pejeta do Condado de Laikipia sendo fortemente vigiados as 24 horas do dia numa zona cercada, com torres de vigilância e custodiados por soldados armados, cães guardiães e aviões não tripulados.\n[…]\nEm março de 2017 anunciou-se ao mundo que Sudán de 44 anos, era muito velho já para se reproduzir ao produzir muito pouco esperma.\n[…]\nMorreu aos 45 anos por um infecção na pata que se agravou, essa espécie foi oficialmente decretada que está totalmente extinta no planeta terra. Restam agora duas fêmeas: Najin, sua filha, e Fatu, sua neta. ==Referências==",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Reintrodução do lobo em Yellowstone",
+      "descricao": "Programa que levou lobos-cinzentos do Canadá de volta ao Parque Nacional de Yellowstone, nos Estados Unidos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Depois de cerca de setenta anos sem lobos, o Parque de Yellowstone voltou a recebê-los, trazidos do Canadá. Em que década isso aconteceu?",
+    "resposta": "Década de 1990 (1995)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone",
+        "situacao": "ok",
+        "texto": "The history of wolves in Yellowstone includes the extirpation, absence and reintroduction of wild populations of the gray wolf (Canis lupus) to Yellowstone National Park and the Greater Yellowstone Ecosystem. When the park was created in 1872, wolf populations were already in decline in Montana, Wyoming and Idaho.\n[…]\nBeginning in the 1950s, park managers, biologists, conservationists, and environmentalists began what would ultimately turn into a campaign to reintroduce the gray wolf into Yellowstone National Park. When the Endangered Species Act of 1973 was passed, the road to legal reintroduction was made clear. In 1995, gray wolves were reintroduced into Yellowstone in the Lamar Valley. The reintroduction of wolves in Yellowstone has long been contentious, as have wolf reintroductions worldwide.\n[…]\nThe Farm Bureau's of Idaho, Wyoming and Montana opposed the plan on the basis that the wrong subspecies of wolf—Canis lupus occidentalis (northwestern wolf (Canada)) instead of Canis lupus irremotus (Northern Rocky Mountains wolf) was selected for reintroduction. These objections were overcome and in January 1995, the process of physically reintroducing wolves into Yellowstone began.\n[…]\nScientists have been researching and studying the impacts on the Yellowstone ecosystem since re-introduction in 1995.\n[…]\nThe wolves became significant predators of coyotes after their reintroduction. Since then, in 1995 and 1996, the local coyote population went through a dramatic restructuring. Until the wolves returned, Yellowstone National Park had one of the densest and most stable coyote populations in America due to a lack of human impacts. Two years after the wolf reintroductions, the pre-wolf population of coyotes had been reduced to 50% through both competitive exclusion and intraguild predation."
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Ovelha Dolly",
+      "descricao": "Ovelha clonada no Instituto Roslin, na Escócia, primeiro mamífero clonado a partir de uma célula adulta."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Clonada a partir de uma célula adulta na Escócia, a ovelha Dolly nasceu em que ano?",
+    "resposta": "1996",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+      "https://pt.wikipedia.org/wiki/Dolly_(ovelha)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+        "situacao": "ok",
+        "texto": "Dolly (5 July 1996 – 14 February 2003) was a female Finn-Dorset sheep and the first mammal that was cloned from an adult somatic cell. She was cloned by associates of the Roslin Institute in Scotland, using the process of nuclear transfer from a cell taken from a mammary gland (somatic cell nuclear transfer). Her cloning proved that a cloned organism could be produced from a mature cell from a spe\n[…]\nDolly was cloned by Keith Campbell, Ian Wilmut and colleagues at the Roslin Institute, part of the University of Edinburgh, Scotland, and the biotechnology company PPL Therapeutics, based near Edinburgh. The funding for Dolly's cloning was provided by PPL Therapeutics and the Ministry of Agriculture. She was born on 5 July 1996. She has been called \"the world's most famous sheep\" by sources including BBC News and Scientific American.\n[…]\nDolly was born on 5 July 1996 and had three mothers: one provided the egg, another the DNA, and a third carried the cloned embryo to term. She was created using the technique of somatic cell nuclear transfer, where the cell nucleus from an adult cell is transferred into an unfertilised oocyte (developing egg cell) that has had its cell nucleus removed. The hybrid cell is then stimulated to divide by an electric shock, and when it develops into a blastocyst it is implanted in a surrogate mother.\n[…]\nThe reprogramming process that cells need to go through during cloning is not perfect and embryos produced by nuclear transfer often show abnormal development. Making cloned mammals was highly inefficient in 1996; Dolly was the only lamb that survived to adulthood from 277 attempts. Wilmut, who led the team that created Dolly, announced in 2007 that the nuclear transfer technique may never be sufficiently efficient for use in humans.\n[…]\nCloning Dolly the Sheep Dolly the Sheep and the importance of animal research\n[…]\nAnimal cloning and Dolly"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dolly_(ovelha)",
+        "situacao": "ok",
+        "texto": "A ovelha Dolly (Easter Bush, 5 de julho de 1996 — Easter Bush, 14 de fevereiro de 2003) foi o primeiro mamífero a ser clonado com sucesso a partir de uma célula somática adulta.\n[…]\nO nome Dolly é uma referência ao nome da atriz e cantora Dolly Parton. Dolly foi clonada a partir das células da glândula mamária de uma ovelha adulta com cerca de seis anos, através de uma técnica conhecida como transferência somática de núcleo.\n[…]\nO processo de reprogramação pelo qual as células precisam passar durante a clonagem não é perfeito e os embriões produzidos por transferência nuclear frequentemente apresentam desenvolvimento anormal. Fazer mamíferos clonados foi altamente ineficiente - em 1996, Dolly foi a única ovelha que sobreviveu à idade adulta de 277 tentativas.\n[…]\nA Scientific American concluiu em 2016 que o principal legado da ovelha Dolly não foi a clonagem de animais, mas sim os avanços na pesquisa com células-tronco. Depois de Dolly, os pesquisadores perceberam que células comuns poderiam ser reprogramadas para células-tronco pluripotentes induzidas, que podem ser cultivadas em qualquer tecido.\n[…]\nEm janeiro de 2019, cientistas na China relataram a criação de cinco macacos clonados idênticos com edição de genes, usando a mesma técnica de clonagem que foi usada com Zhong Zhong e Hua Hua - os primeiros macacos clonados - e a ovelha Dolly, e a mesma técnica gene-edição CRISPR-Cas9 supostamente usada por He Jiankui na criação dos primeiros bebês humanos modificados por genes, Lulu e Nana. Os clones de macacos foram feitos para estudar várias doenças médicas."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Ovelha Dolly",
+      "descricao": "Ovelha clonada no Instituto Roslin, na Escócia, primeiro mamífero clonado a partir de uma célula adulta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O primeiro mamífero clonado de uma célula adulta foi uma ovelha, criada a partir de uma célula de glândula mamária. Ela ganhou nome em homenagem a qual cantora americana?",
+    "resposta": "Dolly Parton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+        "situacao": "ok",
+        "texto": "Dolly (5 July 1996 – 14 February 2003) was a female Finn-Dorset sheep and the first mammal that was cloned from an adult somatic cell. She was cloned by associates of the Roslin Institute in Scotland, using the process of nuclear transfer from a cell taken from a mammary gland (somatic cell nuclear transfer). Her cloning proved that a cloned organism could be produced from a mature cell from a spe\n[…]\nDolly was cloned by Keith Campbell, Ian Wilmut and colleagues at the Roslin Institute, part of the University of Edinburgh, Scotland, and the biotechnology company PPL Therapeutics, based near Edinburgh. The funding for Dolly's cloning was provided by PPL Therapeutics and the Ministry of Agriculture. She was born on 5 July 1996. She has been called \"the world's most famous sheep\" by sources including BBC News and Scientific American.\n[…]\nThe cell used as the donor for the cloning of Dolly was taken from a mammary gland, and the production of a healthy clone, therefore, proved that a cell taken from a specific part of the body could recreate a whole individual. On Dolly's name, Wilmut stated, \"Dolly is derived from a mammary gland cell and we couldn't think of a more impressive pair of glands than Dolly Parton's.\"\n[…]\nScientific American concluded in 2016 that the main legacy of Dolly has not been cloning of animals but in advances into stem cell research. Gene targeting was added in 2000, when researchers cloned the female lamb Diana from sheep DNA altered to contain the human gene for alpha 1-antitrypsin. The human gene was specifically activated in the ewe’s mammary gland, so Diana produced milk containing human alpha 1-antitrypsin.\n[…]\nAnimal cloning and Dolly\n[…]\nAntiques Roadshow, Series 45, Brodie Castle 3, Dolly the Sheep. BBC (3' video clip). 6 April 2023. Episode where several items appertaining to Dolly, including wool from a shearing and scientific instruments, were appraised."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ovelha_Dolly",
+        "situacao": "ok",
+        "texto": "A ovelha Dolly (Easter Bush, 5 de julho de 1996 — Easter Bush, 14 de fevereiro de 2003) foi o primeiro mamífero a ser clonado com sucesso a partir de uma célula somática adulta.\n[…]\nO nome Dolly é uma referência ao nome da atriz e cantora Dolly Parton. Dolly foi clonada a partir das células da glândula mamária de uma ovelha adulta com cerca de seis anos, através de uma técnica conhecida como transferência somática de núcleo.\n[…]\nO processo de reprogramação pelo qual as células precisam passar durante a clonagem não é perfeito e os embriões produzidos por transferência nuclear frequentemente apresentam desenvolvimento anormal. Fazer mamíferos clonados foi altamente ineficiente - em 1996, Dolly foi a única ovelha que sobreviveu à idade adulta de 277 tentativas.\n[…]\nA Scientific American concluiu em 2016 que o principal legado da ovelha Dolly não foi a clonagem de animais, mas sim os avanços na pesquisa com células-tronco. Depois de Dolly, os pesquisadores perceberam que células comuns poderiam ser reprogramadas para células-tronco pluripotentes induzidas, que podem ser cultivadas em qualquer tecido.\n[…]\nEm janeiro de 2019, cientistas na China relataram a criação de cinco macacos clonados idênticos com edição de genes, usando a mesma técnica de clonagem que foi usada com Zhong Zhong e Hua Hua - os primeiros macacos clonados - e a ovelha Dolly, e a mesma técnica gene-edição CRISPR-Cas9 supostamente usada por He Jiankui na criação dos primeiros bebês humanos modificados por genes, Lulu e Nana. Os clones de macacos foram feitos para estudar várias doenças médicas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Baleia-jubarte",
+      "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que período do ano as baleias-jubarte costumam estar no litoral brasileiro para acasalar e ter filhotes?",
+    "resposta": "De julho a novembro",
+    "distratores": [
+      "De janeiro a abril",
+      "De março a junho",
+      "De novembro a fevereiro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baleia-jubarte",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_Marinho_dos_Abrolhos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baleia-jubarte",
+        "situacao": "ok",
+        "texto": "A jubarte ou baleia-jubarte (nome científico: Megaptera novaeangliae), também conhecida como baleia-corcunda, baleia-cantora, baleia-corcova, baleia-de-corcova, baleia-de-bossas, baleia-preta ou baleia-xibarte é um mamífero marinho presente na maioria dos oceanos. Ela é da ordem dos cetartiodáctilos (Cetartiodactyla), subordem dos cetáceos e infraordem dos misticetos (Mysticeti). É uma das maiores\n[…]\nMigaloo foi avistado pela última vez em 2020. Em julho de 2022, uma jovem jubarte branca foi encontrada morta numa praia na região de Mallacoota Victoria. Esse acontecimento causou pânico nos fãs de Migaloo, porém foi confirmado posteriormente que o espécime encontrado além de mais jovem também era uma fêmea.\n[…]\nNo Panamá e na Costa Rica, vêm tanto do hemisfério sul (julho a outubro com mais de 2 000 baleias) quanto do hemisfério norte (dezembro a março totalizando cerca de 300).\n[…]\nDesde novembro de 2015, as baleias se reúnem em torno de Hachijo-jima, bem ao norte das áreas de reprodução conhecidas nas ilhas Bonim. Todas as atividades de reprodução, exceto o parto, foram confirmadas em janeiro de 2016. Isso torna Hachijo-jima o local de reprodução mais ao norte do mundo, ao norte de criadouros como Amami Oxima, atol Midway, e Bermudas.\n[…]\nNo Brasil, as jubartes foram caçadas desde 1602, primeiro na região do Recôncavo baiano, com a chegada dos baleeiros bascos, e depois pelas estações costeiras de caça à baleia, chamadas Armações, que se estabeleceram entre a Bahia e Santa Catarina e mataram jubartes sistematicamente pelo menos entre a Bahia e o litoral de São Paulo.\n[…]\nNo Brasil, os locais mais populares de observação de baleias-jubarte estão no litoral da Bahia: Morro de São Paulo, Praia do Forte, Itacaré e Caravelas. Incluindo a Jubarte, o Brasil é visitado por 37 espécies diferentes de baleias.[carece de fontes]?\n[…]\n(em inglês) Baleias-jubarte de Hervey Bay, Queensland, Austrália"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_Marinho_dos_Abrolhos",
+        "situacao": "ok",
+        "texto": "O Parque Nacional Marinho de Abrolhos é um parque nacional do Brasil que está localizado no sul do litoral do estado da Bahia, no arquipélago de Abrolhos, entre as coordenadas geográficas 17º25’ a 18º09’ S e 38º33’ a 39º05’ W. Foi o primeiro parque do Brasil a receber o título de \"Parque Nacional Marinho\", através do decreto n° 88.218, de 6 de abril de 1983. É administrado pelo Instituto Chico Men\n[…]\nO parque é de importância vital no ecossistema brasileiro, já que abriga a maior biodiversidade marinha de todo o Oceano Atlântico Sul.\n[…]\nNessa região, acontece a famosa temporada das baleias jubarte, que escolhem as águas quentes do mar baiano para reprodução e amamentação dos filhotes, e propiciam a prática do whale watching ou turismo de observação de baleias, sendo um importante destino turístico do tipo no mundo. É considerado o maior berçário reprodutivo da espécie em todo o Atlântico Sul Ocidental. Um pequeno número de baleia-franca-austral também começaram a voltar para Abrolhos depois de muitos anos de perigo."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Capivara",
+      "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Venezuela, a carne de capivara é tradicional em qual período do calendário católico, quando outras carnes costumam ser evitadas?",
+    "resposta": "Quaresma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capybara"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Capybara",
+        "situacao": "ok",
+        "texto": "The capybara (  kap-ih-BAR-uh) or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent, native to all countries in South America except Chile. It is a semiaquatic herbivore that inhabits savannas and dense forests, living near and in bodies of freshwater and feeding mainly on grasses and aquatic plants.\n[…]\nIt lacks underhair, and there is no real distinction between guard hair and overhair in its fur.Adult capybaras grow to 106 to 134 cm (3.48 to 4.40 ft) in length, stand 50 to 62 cm (20 to 24 in) tall at the withers, and typically weigh 35 to 66 kg (77 to 146 lb), with an average in the Venezuelan Llanos of 48.9 kg (108 lb). Females are slightly heavier than males. The top recorded weights are 91 kg (201 lb) for a wild female from Brazil and 73.5 kg (162 lb) for a wild male from Uruguay.\n[…]\nAlloparenting has been observed in this species. Breeding peaks between April and May in Venezuela and between October and November in Mato Grosso, Brazil.\n[…]\nCapybaras are farmed for meat and skins in South America. The meat is considered unsuitable to eat in some areas, while in other areas it is considered an important source of protein. In parts of South America, especially in Venezuela, capybara meat is popular during Lent and Holy Week as the Catholic Church (according to a legend) previously issued special dispensation to allow it to be eaten while other meats are generally forbidden.\n[…]\nThere is widespread perception in Venezuela that consumption of capybaras is exclusive to rural people."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Capivara",
+        "situacao": "ok",
+        "texto": "Capivara ou carpincho (nome científico: Hydrochoerus hydrochaeris) é uma espécie de mamífero roedor da família Caviidae e subfamília Hydrochoerinae. Alguns autores consideram que deva ser classificada em uma família própria. Está incluída no mesmo grupo de roedores ao qual se classificam as pacas, cutias, os preás e o porquinho-da-índia. Ocorre por toda a América do Sul ao leste dos Andes em habit\n[…]\nAs variações sazonais nas chuvas são fatores importantes nas espécies de plantas forrageadas pela capivara. Na Venezuela, no período de chuvas, esse roedor consome plantas mais palatáveis e ricas em carboidratos, como a aquática Hymenachne amplexicaulis. Na estação seca, a capivara se torna menos seletiva e acaba optando por gramíneas menos nutritivas como Eleocharis interstincta e Paratheria prostrata.\n[…]\nAs capivaras são regularmente caçadas como fonte de carne ao longo de sua distribuição geográfica, tanto por camponeses quanto por indígenas. A caça das capivaras pode ter prioridades diferentes dependendo da região: na Argentina, são caçadas principalmente por sua pele, enquanto que na Venezuela, principalmente pela carne. Em algumas regiões há caçadores profissionais, chamados de carpincheros que praticam a caça para fins comerciais.\n[…]\nA carne da capivara não é apreciada em todos os lugares, já que pode ter cheiro forte e provocar doenças de pele. É consumida principalmente na Venezuela, onde é seca e salgada e é consumida preferencialmente em dias de jejum.\n[…]\nNas regiões ao longo do Rio Paraná no sul do Brasil e norte da Argentina, as capivaras são frequentemente capturadas e aprisionadas para criações em cativeiro ou para serem abatidas como carne de caça. Entretanto, no Brasil, esta prática tem de ser precedida de projeto e licenciada pelos órgãos de controle ambiental sob pena de configurar crime ambiental, já que a capivara é uma espécie protegida por lei.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Baiji",
+      "descricao": "Golfinho de água doce do rio Yangtzé, na China (Lipotes vexillifer), considerado funcionalmente extinto."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Uma expedição pelo rio Yangtzé concluiu que o baiji, golfinho de rio chinês, estava funcionalmente extinto. Em que década foi essa expedição?",
+    "resposta": "Década de 2000",
+    "distratores": [
+      "Década de 1970",
+      "Década de 1980",
+      "Década de 1990"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baiji"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baiji",
+        "situacao": "ok",
+        "texto": "The baiji (Lipotes vexillifer) is a possibly extinct species of river dolphin native to the Yangtze river system in China. It is thought to possibly be the first dolphin species driven to extinction due to the impact of humans. This dolphin is listed as \"critically endangered: possibly extinct\" by the IUCN, has not been definitively seen in over 20 years, and several surveys of the Yangtze have fa\n[…]\nThe species is also called the Chinese river dolphin, Yangtze river dolphin, Yangtze dolphin, and whitefin dolphin. The genus name Lipotes means \"left behind\" and the species epithet vexillifer means \"flag bearer\". It is nicknamed the \"Goddess of the Yangtze\" and was regarded as the goddess of protection by local fishermen and boatmen. It is not to be confused with the Chinese white dolphin (Sousa chinensis) or the finless porpoise (Neophocaena). This is the only species in the genus Lipotes.\n[…]\nA report of the expedition was published online in the journal Biology Letters on August 7, 2007, in which the authors conclude \"We are forced to conclude that the baiji is now likely to be extinct, probably due to unsustainable by-catch in local fisheries\".\n[…]\n\"Witness to Extinction: How We Failed To Save The Yangtze River Dolphin\", an account of the 2006 baiji survey by Samuel Turvey, the lead author of the Biology Letters paper, was published by Oxford University Press in autumn 2008.\n[…]\nIn August 2007, Zeng Yujiang reportedly videotaped a large white animal swimming in the Yangtze in Anhui Province. Wang Kexiong of the Institute of Hydrobiology of the Chinese Academy of Sciences has tentatively confirmed that the animal on the video is a baiji.\n[…]\nThe Baiji Foundation – Networking Expertise for Conservation of Freshwater Biodiversity\n[…]\n\"\"Lipotes vexillifer: Baiji or Chinese River Dolphin\" (cetacea.org)\". Archived from the original on March 5, 2005. Retrieved June 13, 2003."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lipotes_vexillifer",
+        "situacao": "ok",
+        "texto": "O Baiji (nome científico: Lipotes vexillifer), também conhecido como boto-lacustre-chinês, boto-branco ou boto-do-yang-tsé, foi um mamífero de água doce pertencente à ordem Cetacea, encontrado no rio Yang-Tsé na China. Era uma das quatro espécies de golfinhos de água doce restantes no mundo (tal como o boto-cor-de-rosa da Amazônia). Enquanto as três espécies viventes estão em sério risco de extinç\n[…]\nSua extinção apenas reflete o último estágio da progressiva deterioração ecológica da região do rio Yang-tsé. Nos anos 1970 e 1980, aproximadamente metade das mortes de golfinho-do-yang-tsé era atribuída ao aprisionamento em artefatos de pesca. No início dos anos 2000, a pesca elétrica foi considerada \"a principal ameaça à sobrevivência do golfinho-do-yang-tsé\". Embora ilegal, esta modalidade de pesca é largamente praticada no país.\n[…]\n2006: nenhum indivíduo encontrado em pesquisa, declaração de \"extinto\"\n[…]\nMás condições da água e do clima dificultaram a observação, mas os líderes da expedição declararam que a espécie estava \"funcionalmente extinta\" em 13 de dezembro de 2006, pois a quantidade de indivíduos que estariam vivos seria inferior à necessária para a perpetuação da espécie. Entretanto, foram divulgadas, em agosto de 2007, cenas presumidamente da espécie.\n[…]\nO leão-marinho-japonês e a foca-monge-das-caraíbas desapareceram na década de 1950, tendo sido os últimos mamíferos aquáticos a se extinguirem. Várias espécies e subespécies de mamíferos terrestres desapareceram desde então. Se o golfinho-do-yang-tsé estiver extinto, a vaquita se tornará a espécie mais ameaçada de mamífero marinho.\n[…]\nUm informe da expedição foi publicado online no jornal Biology Letters em 7 de agosto de 2007. No informe, os autores concluemː \"somos forçados a concluir que o golfinho-do-yang-tsé está provavelmente extinto agora, possivelmente em razão da insustentável pesca acidental\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Rinoceronte de Dürer",
+      "descricao": "Xilogravura de 1515 do artista alemão Albrecht Dürer, que retrata um rinoceronte-indiano com placas semelhantes a uma armadura."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1515, sem nunca ter visto o animal, qual artista alemão fez a famosa xilogravura de um rinoceronte coberto de placas, como uma armadura?",
+    "resposta": "Albrecht Dürer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/D%C3%BCrer%27s_Rhinoceros"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/D%C3%BCrer%27s_Rhinoceros",
+        "situacao": "ok",
+        "texto": "Dürer's Rhinoceros is the name commonly given to a woodcut executed by German artist Albrecht Dürer in 1515. Dürer never saw the actual rhinoceros, which was the first living example seen in Europe since Roman times. Instead the image is based on an anonymous written description and brief sketch of an Indian rhinoceros brought to Lisbon in 1515. Later that year, the King of Portugal, Manuel I, sen\n[…]\nIn 1790, James Bruce's travelogue Travels to discover the source of the Nile dismissed Dürer's work as \"wonderfully ill-executed in all its parts\" and \"the origin of all the monstrous forms under which that animal has been painted, ever since\". Even so, Bruce's own illustration of the African white rhinoceros, which is noticeably different in appearance to the Indian rhinoceros, still shares conspicuous inaccuracies with Dürer's work.\n[…]\nGombrich, Art and Illusion: A Study in the Psychology of Pictorial Representation, 1961) that Dürer's \"scales and imbricated plates\" became a necessary element of depicting the animal, even to those who might know better, because \"they knew that only these conventionalized graphic signs could denote «rhinoceros» to the person interpreting the iconic sign.\" He also notes that the skin of a rhinoceros is rougher than it visually appears and that such plates and scales portray this non-visual information to a degree.\n[…]\nUntil the late 1930s, Dürer's image appeared in school textbooks in Germany as a faithful image of the rhinoceros; and it remains a powerful artistic influence. It was one of the inspirations for Salvador Dalí; a reproduction of the woodcut hung in his childhood home and he used the image in several of his works.\n[…]\nList of engravings by Albrecht Dürer\n[…]\nList of woodcuts by Albrecht Dürer\n[…]\nBurzyńska, Anna. Returns of the Rhinoceros. Frankfurt am Main: Tadeusz Kantor Today, 2014"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rinoceronte_de_D%C3%BCrer",
+        "situacao": "ok",
+        "texto": "Rinoceronte de Dürer é uma xilogravura gravada pelo artista alemão Albrecht Dürer no ano de 1515. A imagem foi baseada em uma descrição escrita e em um esboço, ambos de autoria anônima, de um rinoceronte-indiano que chegou a Lisboa no início daquele ano. Este foi o primeiro exemplar vivo da espécie visto na Europa desde os tempos do Império Romano.\n[…]\nA xilogravura de Dürer não é uma representação precisa de um rinoceronte. Ela apresenta um animal com placas muito duras que cobrem o seu corpo como camadas de armadura, com uma gorjeira na garganta, um plastrão e rebites ao longo das costuras; também tem um pequeno corno na zona do dorso, pernas com escamas e a parte superior da coxa em forma de serra. Nenhuma destas características físicas estão presentes num rinoceronte verdadeiro.\n[…]\nA sua interpretação do rinoceronte é mais real e natural do que a de Dürer, e inclui as correntes que eram utilizadas para prender o animal; no entanto, a xilogravura de Dürer é mais sensacionalista e obscureceu a de Burgkmair. Apenas uma das impressões da imagem de Burgkmair sobreviveu (encontra-se na Galeria Albertina em Viena), enquanto das de Dürer existem vários exemplares.\n[…]\nAté ao final da década de 1930, a imagem de Dürer apareceu em livros escolares na Alemanha como uma representação precisa do rinoceronte; em alemão, o rinoceronte indiano é chamado de Panzernashorn, ou \"rinoceronte blindado\". Mantém-se como uma grande influência artística, e serviu de inspiração a Salvador Dalí para a elaboração da sua escultura Rinoceronte vestido con puntillas (Rinoceronte vestido com renda) de 1956, presente em Puerto Banús, Marbella, Espanha, desde 2004.\n[…]\nObras de arte de Albrecht Dürer\n[…]\nXilogravura\n[…]\nProjeto Gutenberg: Albrecht Dürer (em inglês)\n[…]\nRhinoceros\n[…]\nDescrição do Rinoceronte de Dürer na página do Instituto Camões",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Smilodon",
+      "descricao": "Gênero extinto de felinos dentes-de-sabre das Américas, cujos fósseis foram descritos a partir de cavernas de Lagoa Santa, em Minas Gerais."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1842, que naturalista radicado em Lagoa Santa, Minas Gerais, deu nome ao tigre-dente-de-sabre Smilodon, a partir de fósseis encontrados em cavernas?",
+    "resposta": "Peter Wilhelm Lund",
+    "distratores": [
+      "Fritz Müller",
+      "Emílio Goeldi",
+      "Hermann von Ihering"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Smilodon",
+      "https://pt.wikipedia.org/wiki/Peter_Wilhelm_Lund"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Smilodon",
+        "situacao": "ok",
+        "texto": "Smilodon is a genus of extinct felids. It is one of the best-known saber-toothed predators and prehistoric mammals. Although commonly known as the saber-toothed tiger, it was not closely related to the tiger or other modern cats, belonging to the extinct subfamily Machairodontinae, with an estimated date of divergence from the ancestor of living cats around 20 million years ago. Smilodon was one o\n[…]\nDuring the 1830s, Danish naturalist Peter Wilhelm Lund and his assistants collected fossils in the calcareous caves near the small town of Lagoa Santa, Minas Gerais, Brazil. Among the thousands of fossils found, he recognized a few isolated cheek teeth as belonging to a hyena, which he named Hyaena neogaea in 1839. After more material was found (including incisor teeth and foot bones), Lund concluded the fossils instead belonged to a distinct genus of felids, though transitional to the hyenas.\n[…]\nHe stated it would have matched the largest modern predators in size, and was more robust than any modern cat. Lund originally wanted to call the new genus Hyaenodon, but realizing this name had recently been applied to another prehistoric predator, he instead named it Smilodon populator in 1842. He explained the Ancient Greek meaning of Smilodon as σμίλη (smilē), 'scalpel' or 'two-edged knife', and οδόντος (odóntos), 'tooth'.\n[…]\nOne of the most famous of prehistoric mammals, Smilodon has often been featured in popular media and is the state fossil of California.\n[…]\nThe heel bone of Smilodon was fairly long, which suggests it was a good jumper.\n[…]\nThough Lund thought accumulations of Smilodon and herbivore fossils in the Lagoa Santa Caves were due to the cats using the caves as dens, these are probably the result of animals dying on the surface, and water currents subsequently dragging their bones to the floor of the cave, but some individuals may also have died after becoming lost in the caves."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Peter_Wilhelm_Lund",
+        "situacao": "ok",
+        "texto": "Peter Wilhelm Lund (Copenhague, 14 de junho de 1801 – Lagoa Santa, 25 de maio de 1880) foi um dos naturalistas dinamarqueses mais notáveis do século XIX, e é considerado o pai da paleontologia e arqueologia no Brasil.\n[…]\nO resultado dos estudos botânicos promovidos nesta expedição foram publicados em Observações a respeito da vegetação dos campos no interior do Brasil, especialmente fito-históricas, de 1835. Em Curvelo, Minas Gerais, encontrou outro dinamarquês, Peter Claussen, que o apresentou às grutas da região cárstica do vale do Rio das Velhas. Decidiu estabelecer residência em Lagoa Santa e estudou uma enormidade de fósseis encontrados nas centenas de cavernas entre Sabará e Curvelo.\n[…]\nEm 1842, segundo um relato seu, já tinha explorado mais de 200 cavernas na região e descrito 115 espécies de animais - entre os quais o célebre tigre de dentes de sabre (Smilodon populator). Em 1843 encontrou na região vestígios de homens pré-históricos, cujos estudos definiram as características daquele que ficaria conhecido posteriormente como o Homem de Lagoa Santa.[carece de fontes]?\n[…]\nPeter Lund também possui uma rua, situada no bairro da Liberdade, em São Paulo, denomidada \"Rua Doutor Lund\", batizada em sua homenagem.\n[…]\nEm 2012, o príncipe Frederik André Henrik Christian e a princesa Mary Elizabeth da Dinamarca visitaram Belo Horizonte e Lagoa Santa e inauguraram do Museu Peter Lund, próximo à entrada da Gruta da Lapinha, dentro do Parque Estadual do Sumidouro.\n[…]\nLanggaard, Theodoro Johanis Henrique (1883). O naturalista Dr. Lund (Peter Wilhelm): sua vida e seus trabalhos. Rio de Janeiro: H. Laemmert .\n[…]\ng1.globo.com - museu-peter-lund-reune-acervo-de-82-fosseis-cedidos-pela-dinamarca"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Vaca-marinha-de-steller",
+      "descricao": "Sirênio gigante e extinto do Pacífico Norte (Hydrodamalis gigas), descrito em 1741 e caçado até a extinção no século dezoito."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1741, na expedição de Vitus Bering, que naturalista alemão descreveu um enorme sirênio do Pacífico Norte, caçado até a extinção poucas décadas depois?",
+    "resposta": "Georg Wilhelm Steller",
+    "distratores": [
+      "Peter Simon Pallas",
+      "Alexander von Humboldt",
+      "Johann Reinhold Forster"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steller%27s_sea_cow",
+      "https://en.wikipedia.org/wiki/Georg_Wilhelm_Steller"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steller%27s_sea_cow",
+        "situacao": "ok",
+        "texto": "Steller's sea cow (Hydrodamalis gigas) is an extinct sirenian described by Georg Wilhelm Steller in 1741. At that time, it was found only around the Commander Islands in the Bering Sea between Alaska and Russia; its range extended across the North Pacific during the Pleistocene epoch, and likely contracted to such an extreme degree due to the glacial cycle. It is possible that indigenous populatio\n[…]\nSteller's sea cow was discovered in 1741 by Georg Wilhelm Steller, and was named after him. Steller researched the wildlife of Bering Island while he was shipwrecked there for about a year; the animals on the island included relict populations of sea cows, sea otters, Steller sea lions, and northern fur seals. As the crew hunted the animals to survive, Steller described them in detail.\n[…]\nIn 1811, naturalist Johann Karl Wilhelm Illiger reclassified Steller's sea cow into the genus Rytina, which many writers at the time adopted. The name Hydrodamalis gigas, the correct combinatio nova if a separate genus is recognised, was first used in 1895 by Theodore Sherman Palmer.\n[…]\nSteller's sea cows appear in two books of poetry: Nach der Natur (1995) by Winfried Georg Sebald, and Species Evanescens (2009) by Russian poet Andrei Bronnikov. Bronnikov's book depicts the events of the Great Northern Expedition through the eyes of Steller; Sebald's book looks at the conflict between man and nature, including the extinction of Steller's sea cow.\n[…]\nScottish poet John Glenday published the poem \"The Kelp Eaters\" in his 2003 volume, Grain, describing the beauty and loving nature of the sea cows and their harpooning by the narrator and his companions. The poem carries the epigraph \"From \"Journal of a Voyage with Bering 1741-1742\" By Georg Wilhelm Steller\".\n[…]\nHolocene extinction\n[…]\nEvolution of sirenians\n[…]\nSteller's sea cow information from the BBC\n[…]\nSummary of the research history done on Steller's sea cow"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Steller",
+        "situacao": "ok",
+        "texto": "Georg Wilhelm Steller (10 March 1709 – 14 November 1746) was a German-born naturalist and explorer who contributed to the fields of biology, zoology, and ethnography. He participated in the Great Northern Expedition (1733–1743) and his observations of the natural world helped the exploration and documentation of the flora and fauna of the North Pacific region.\n[…]\nSteller knew about Vitus Bering's Second Kamchatka Expedition, which had left Saint Petersburg in February 1733. He volunteered to join it and was accepted. He then left St Petersburg in January 1738 with his wife, who decided to stay in Moscow and go no farther. Steller met Johann Georg Gmelin in Yeniseisk in January 1739. Gmelin recommended that Steller take his place in the planned exploration of Kamchatka.\n[…]\nGeorg Steller described a number of animals and plants, some of which bear his name, either in the common name or scientific:\n[…]\nSteller's sea cow (Hydrodamalis gigas)\n[…]\nStellera L. (Thymelaeaceae)\n[…]\nT. Edward Bak's graphic novel Wild Man - vol. 1: Island of Memory: The Natural History of Georg Wilhelm Steller (Floating World Comics, Portland, OR, 2013; ISBN 978-0-9886624-4-5) tells the story of Steller's journeys north and intertwines his social connections and context.\n[…]\nStellers, Georg Wilhelm (1751). \"De Bestiis Marinis\". Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae (in Latin). 2: 289–398.\n[…]\nStellers, Georg Wilhelm (1753). Georg Wilhelm Stellers ausführliche Beschreibung von sonderbaren Meerthieren, mit Erläuterungen und Nöthigen Kupfern versehen (in German). Halle: In Verlag Carl Christian Kümmel. doi:10.5962/bhl.title.119923.\n[…]\nSteller, Georg Wilhelm (1988). Journal of a Voyage with Bering, 1741-1742. Stanford University Press.\n[…]\n(in Russian) Steller, Georg Wilhelm\n[…]\n(in Russian) Poetry on Steller\n[…]\n(in German) German National Geographic magazine about the diary of Steller"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hydrodamalis_gigas",
+        "situacao": "ok",
+        "texto": "Hydrodamalis gigas, conhecido popularmente como dugongo-de-steller ou vaca-marinha-de-steller, é uma espécie extinta de mamífero marinho da ordem Sirenia que se extinguiu no final do século XVIII. Este animal habitava o mar de Bering, mas o registo fóssil indica que sirénios do género Hydrodamalis habitaram outrora zonas mais extensas do Oceano Pacífico, chegando à costa da Califórnia e do Japão.\n[…]\nA espécie foi descrita pela primeira vez pelo naturalista alemão Georg Steller em 1741, numa altura em que já era possivelmente bastante rara.\n[…]\nAs vacas marinhas de Steller atingiam de 8 a 9 metros de comprimento quando adultas, muito maiores do que os sirênios existentes. Em 1987, um esqueleto bastante completo foi encontrado na ilha de Bering medindo 3 metros. Em 2017, outro esqueleto semelhante foi encontrado na mesma ilha medindo 5,2 m e, em vida, provavelmente cerca de 6 metros. Os relatos de Georg Steller contêm duas estimativas contraditórias de peso: 4 e 24,3 t (4,4 e 26,8 toneladas curtas).\n[…]\nComo outros sirênios, os ossos da vaca marinha de Steller eram paquiosteoscleróticos, o que significa que ambos eram volumosos (paquiostótico) e densos (osteoscleróticos). Em todos os esqueletos recolhidos da vaca marinha, o manus está ausente; uma vez que Dusisiren - o táxon irmão de Hydrodamalis - tinha falanges reduzidas (ossos dos dedos), a vaca marinha de Steller possivelmente não tinha manus.\n[…]\nA extinção do dugongo-de-steller está claramente associada à chegada ao mar de Bering de pescadores e colonos ocidentais. O animal foi de imediato identificado como fonte de alimento e caçado pela sua carne, que é descrita como tendo textura e sabor semelhantes ao bife de vaca. A gordura era aproveitada para cozinhar ou para as lâmpadas a óleo, e o leite das fêmeas era consumido diretamente ou transformado em manteiga. O couro era usado para fabricação de vestuário.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Ornitorrinco",
+      "descricao": "Mamífero monotremado semiaquático australiano, espécie Ornithorhynchus anatinus."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+    "resposta": "George Shaw",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platypus",
+      "https://en.wikipedia.org/wiki/George_Shaw"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Platypus",
+        "situacao": "ok",
+        "texto": "The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania. The platypus is the sole living representative of the family Ornithorhynchidae and genus Ornithorhynchus, though a number of related species appear in the fossil record.\n[…]\nGeorge Shaw, who produced the first description of the animal in the Naturalist's Miscellany in 1799, stated it was impossible not to entertain doubts as to its genuine nature, and Robert Knox believed—because it arrived in England via the Indian Ocean—that it might have been created by Chinese sailors. It was thought somebody had sewn a duck's beak onto the body of a beaver-like animal. Shaw used a pair of scissors to check for stitches.\n[…]\nThe common name \"platypus\" means 'flat-foot', deriving from the Greek word platúpous (πλατύπους), from platús (πλατύς 'broad, wide, flat') and poús (πούς 'foot'). Shaw initially assigned the species the Linnaean name Platypus anatinus when he described it, but the genus term was quickly discovered to already be in use as the name of a beetle genus Platypus.\n[…]\nThe ears of the platypus are adapted for hearing while out of water. As in all true mammals, it has three middle ear bones, though the cochlea lacks spirals, but is described as \"well organised\". Within the cochlea, there are rows of inner and outer hair cells. As in placental mammals, the outer hair cells of the platypus are adapted for hearing high frequencies, suggesting it is an ancestral mammalian trait. However it also possesses more rows of inner hair cells."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/George_Shaw",
+        "situacao": "desambiguacao",
+        "texto": "George Shaw may refer to:\n\nGeorge Shaw (academic dress scholar) (1928–2006), biologist and British expert on academic dress\nGeorge Shaw (architect) (1810–1876), English architect\nGeorge Shaw (artist) (born 1966), English contemporary artist\nGeorge Shaw (biologist) (1751–1813), English botanist and zoologist\nGeorge Shaw (civil servant), lieutenant governor of the British Crown Colony of Burma, 1913"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ornitorrinco",
+        "situacao": "ok",
+        "texto": "O ornitorrinco (nome científico: Ornithorhynchus anatinus, do grego: ornitho, ave + rhynchus, bico; e do latim: anati, pato + inus, semelhante a: \"com bico de ave, semelhante a pato\") é um mamífero semiaquático natural da Austrália e Tasmânia. É o único representante vivo da família Ornithorhynchidae, e a única espécie do gênero Ornithorhynchus. Juntamente com as equidnas, formam o grupo dos monot\n[…]\nA espécie foi descrita pelo zoólogo George Shaw em 1799 como Platypus anatinus. O animal tinha sido descoberto pelos colonizadores europeus na Austrália em 1798 e uma gravura e uma pelagem tinham sido enviadas de volta ao Reino Unido pelo Capitão John Hunter, o segundo governador de Nova Gales do Sul. Os cientistas britânicos primeiramente estavam convencidos que se tratava de uma fraude.\n[…]\nIndependentemente, em 1800, a partir de uma amostra dada a ele por Sir Joseph Banks, Johann Friedrich Blumenbach descreveu a espécie como Ornithorhynchus paradoxus. O gênero Platypus descrito por Shaw já se encontrava pré-ocupado pelo Platypus descrito por Johann Friedrich Wilhelm Herbst em 1793 para um besouro coleóptero. Em 1800, Christian Rudolph Wilhelm Wiedemann cunhou um novo nome genérico para ornitorrinco, Dermipus, entretanto, Blumenbach já havia descrito o Ornithorhynchus.\n[…]\nO ornitorrinco foi primeiramente mantido em cativeiro em 1831 por Lauderdale Maule que capturou uma fêmea e dois filhotes os quais viveram por duas semanas. Em 1832 e 1833 George Bennett manteve vários animais que viveram por cinco semanas. Henry Burrell foi o primeiro a exibir a espécie para o público australiano em 1910, por três meses no Zoológico de Sydney. O Zoológico de Budapeste, em 1913, foi o primeiro zoológico fora da Austrália a receber dois animais da espécie.\n[…]\n«Terra: Ornitorrinco é confirmado como ave, réptil e mamífero»\n[…]\n«BBC: Genoma explica 'estranheza' do ornitorrinco»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Panda-gigante",
+      "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1869, que missionário francês apresentou o panda-gigante à ciência ocidental, depois de receber a pele de um caçador chinês?",
+    "resposta": "Armand David",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_panda",
+      "https://en.wikipedia.org/wiki/Armand_David"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_panda",
+        "situacao": "ok",
+        "texto": "The giant panda (Ailuropoda melanoleuca), also known as the panda bear or simply panda, is a bear species endemic to China. It is characterised by its white coat with black patches around the eyes, ears, legs and shoulders. Its body is rotund; adult individuals weigh 100 to 115 kg (220 to 254 lb) and are typically 1.2 to 1.9 m (3 ft 11 in to 6 ft 3 in) long. It is sexually dimorphic, with males be\n[…]\nGiant pandas are sympatric with other large mammals and bamboo feeders, such as the takin (Budorcas taxicolor). The takin and giant panda share a similar ecological niche, and they consume the same resources. When competition for food is fierce, pandas disperse to the outskirts of takin distribution. Other possible competitors include but is not limited to, the wild boar (Sus scrofa), Chinese goral (Naemorhedus griseus) and the Asian black bear (Ursus thibetanus).\n[…]\nIn July 2009, Chinese scientists confirmed the birth of the first cub to be successfully conceived through artificial insemination using frozen sperm. The technique for freezing the sperm in liquid nitrogen was first developed in 1980 and the first birth was hailed as a solution to the dwindling availability of giant panda semen, which had led to inbreeding. Panda semen, which can be frozen for decades, could be shared between different zoos to save the species.\n[…]\nThe giant panda has been a target of poaching by locals since ancient times and by foreigners since it was introduced to the West. Starting in the 1930s, foreigners were unable to poach giant pandas in China because of the Second Sino-Japanese War and the Chinese Civil War, but pandas remained a source of soft furs for the locals. The population boom in China after 1949 created stress on the pandas' habitat and the subsequent famines led to the increased hunting of wildlife, including pandas.\n[…]\nPanda tea\n[…]\nPygmy giant panda\n[…]\nView the panda genome on Ensembl."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Armand_David",
+        "situacao": "ok",
+        "texto": "Armand David, CM (7 September 1826, Espelette – 10 November 1900, Paris) was a Lazarist missionary Catholic priest as well as a zoologist and a botanist from the French Basque Country.\n[…]\nSeveral species, such as Père David's deer, are named after him, with Père David being French for Father David.\n[…]\nDavid was born in Espelette near Bayonne, in the north of Basque Country, in Pyrénées-Atlantiques département of France; he was one of three sons born to a doctor and magistrate.\n[…]\nThe most notable of the animals 'found' by David, which were hitherto unknown to Europeans, were the giant panda in Baoxing County and Père David's deer. The latter had disappeared with the exception of a few preserved in the gardens of the emperor of China, but David succeeded in securing a specimen and sent it to Europe. David also sent back the first emerald ash borer specimen.\n[…]\nIn the midst of his work as a naturalist Father David did not neglect his missionary labours, and was noted for his careful devotion to his religious duties and for his obedience to every detail of his order's rules.\n[…]\nPère David's Rat Snake (Elaphe davidi) was named in his honour by Henri Émile Sauvage in 1884.\n[…]\nPère David's deer\n[…]\nPère David's laughingthrush\n[…]\nPère David's mole\n[…]\nPère David's owl\n[…]\nPère David's rock squirrel\n[…]\nPère David's snowfinch\n[…]\nPère David's tit\n[…]\nPère David's vole\n[…]\nClematis armandii\n[…]\nPinus armandii\n[…]\nHonours given to David include;\n[…]\nThis article incorporates text from a publication now in the public domain: Walsh, James J. (1913). \"Armand David\". In Herbermann, Charles (ed.). Catholic Encyclopedia. New York: Robert Appleton Company.\n[…]\nJesuit China missions\n[…]\nArmand David\n[…]\nPère Jean Pierre Armand David CM, a biography by Bernard Scott"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Panda-gigante",
+        "situacao": "ok",
+        "texto": "O panda-gigante (nome científico: Ailuropoda melanoleuca, do grego: ailuros, gato + poda, pés; e melano, preto + leukos, branco), ou simplesmente panda, é um mamífero onívoro da família Ursidae endêmico da República Popular da China.\n[…]\nO panda-gigante foi descrito pelo missionário francês Armand David em 1869 como Ursus melanoleucus. No ano seguinte, Alphonse Milne-Edwards ao examinar o material enviado por David, notou que os caracteres osteológicos e dentários o distinguia dos ursos e o aproximava ao panda-vermelho e aos procionídeos, descrevendo então um novo gênero para a espécie, e recombinando-a para Ailuropoda melanoleuca.\n[…]\nAiluropoda melanoleuca melanoleuca (David, 1869) - ocorre em Sichuan e Gansu, e apresenta o típico contraste preto e branco na coloração.\n[…]\nO panda-gigante é um mamífero de cor preto e branco que come bambu (folhas). A pelagem é grossa e lanosa para suportar as baixas temperaturas no ambiente subalpino em que vive. As manchas oculares, membros, orelhas e uma faixa que atravessa os ombros são negras; alguma vezes com um tom acastanhado. As restantes partes do corpo são brancas, mas podem-se tornar \"encardido\" com a idade. A população da região de Qingling apresenta a pelagem em dois tons contrastantes de castanho.\n[…]\nDa xiong mao (大熊猫), o nome em chinês para o panda, significa grande urso-gato. Pode ser chamado também de huaxiong (urso de faixa), maoxiong (urso felino) ou xiongmao (gato ursino). Registros históricos de 3000 anos (\"O Livro de História e o Livro de Canções\", a coleção mais antiga da poesia chinesa), o mencionam sob o nome de pi e pixiu. A palavra panda significa algo parecido com \"comedor de bambu\".\n[…]\nWolong Panda Conservation Centre (em chinês).\n[…]\n(em inglês) The Panda's Thumb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Canguru",
+      "descricao": "Marsupiais saltadores australianos da família Macropodidae, de patas traseiras longas e cauda forte."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1770, a expedição de qual navegador britânico registrou a palavra canguru, ouvida de aborígenes no nordeste da Austrália?",
+    "resposta": "James Cook",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kangaroo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kangaroo",
+        "situacao": "ok",
+        "texto": "Kangaroos are marsupials from the subfamily Macropodinae (macropods, meaning \"large foot\"). In common use, the term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are indigenous to Australia and New Guinea. The Australian government estimated that 42.8 million kangaroos live\n[…]\nThe word kangaroo derives from the Guugu Yimithirr word gangurru, referring to eastern grey kangaroos. The name was first recorded as \"kanguru\" on 12 July 1770 in an entry in the diary of Sir Joseph Banks; this occurred at the site of modern Cooktown, on the banks of the Endeavour River, where HMS Endeavour under the command of Lieutenant James Cook was beached for almost seven weeks to repair damage sustained on the Great Barrier Reef.\n[…]\nCook first referred to kangaroos in his diary entry of 4 August. Guugu Yimithirr is the language of the people of the area.\n[…]\nA common myth about the kangaroo's English name is that it was a Guugu Yimithirr phrase for \"I don't know\" or \"I don't understand\". According to this legend, Cook and Banks were exploring the area when they happened upon the animal. They asked a nearby local what the creatures were called. The local responded \"kangaroo\", said to mean \"I don't know/understand\", which Cook then took to be the name of the creature.\n[…]\nThe first kangaroo to be exhibited in the Western world was an example shot by John Gore, an officer on Captain Cook's ship, HMS Endeavour, in 1770. The animal was shot and its skin and skull transported back to England whereupon it was stuffed (by taxidermists who had never seen the animal before) and displayed to the general public as a curiosity. The first glimpse of a kangaroo for many 18th-century Britons was a painting by George Stubbs.\n[…]\nBoxing kangaroo – national symbol of Australia\n[…]\nVideo of Kangaroo giving Birth"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canguru",
+        "situacao": "ok",
+        "texto": "Os cangurus são quatro marsupiais da família Macropodidae (macrópodes, que significa \"pé grande\"). Em uso comum, o termo é usado para descrever as maiores espécies desta família, o canguru-vermelho, bem como o canguru-antilopino, o canguru cinza oriental e o canguru cinza ocidental. Os cangurus são nativos da Austrália e Nova Guiné. O governo australiano estima que 42,8 milhões de cangurus viviam \n[…]\nA palavra canguru deriva da palavra Guugu Yimidhirr \"gangurru\", referindo-se aos cangurus cinzentos orientais. O nome foi registrado pela primeira vez como \"kangaroo\" em 12 de julho de 1770 em uma entrada no diário de Sir Joseph Banks; isso ocorreu no local da moderna Cooktown, nas margens do rio Endeavour, onde o HMS Endeavour sob o comando do tenente James Cook foi encalhado por quase sete semanas para reparar os danos sofridos na Grande Barreira de Corais.\n[…]\nCook se referiu aos cangurus pela primeira vez em seu diário de 4 de agosto. Guugu Yimithirr é a língua do povo da região.\n[…]\nUm mito comum sobre o nome inglês do canguru é que era uma frase de Guugu Yimithirr para \"Não sei\" ou \"Não entendo\". De acordo com essa lenda, Cook e Banks estavam explorando a área quando encontraram o animal. Eles perguntaram a um local próximo como as criaturas eram chamadas. O local respondeu \"canguru\", que significa \"não sei / entendo\", que Cook então considerou ser o nome da criatura.\n[…]\nOs cangurus e seus parentes, os wallabies, só vivem na Austrália e Nova Guiné. Eles são marsupiais, mas também pertencem à família dos macropodídeos, pois possuem patas traseiras maiores que as dianteiras.\n[…]\nO canguru-vermelho vive nos desertos da Austrália e em campos abertos, vivem em grupos familiares. Australianos e Europeus caçam dezenas desses belos animais para vender sua pele e sua carne, que é um prato muito apreciado na Austrália.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Nas Montanhas dos Gorilas (livro)",
+      "descricao": "Livro de 1983 da primatologista Dian Fossey sobre seu estudo dos gorilas-das-montanhas em Ruanda, que inspirou o filme de 1988."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pesquisadora americana escreveu o livro que inspirou o filme Nas Montanhas dos Gorilas, sobre seus anos estudando gorilas em Ruanda?",
+    "resposta": "Dian Fossey",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gorillas_in_the_Mist",
+      "https://en.wikipedia.org/wiki/Dian_Fossey"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gorillas_in_the_Mist",
+        "situacao": "ok",
+        "texto": "Gorillas in the Mist is a 1988 American biographical drama film directed by Michael Apted from a screenplay by Anna Hamilton Phelan and a story by Phelan and Tab Murphy. The film is based on a book of the same name by Dian Fossey and from articles by Harold T. P. Hayes, and Alex Shoumatoff of Vanity Fair. It stars Sigourney Weaver as naturalist Dian Fossey and Bryan Brown as photographer Bob Campb\n[…]\nOccupational therapist Dian Fossey is inspired by anthropologist Louis Leakey to devote her life to the study of primates. She writes ceaselessly to Leakey for a job cataloging and studying the rare mountain gorillas of Africa. Following him to a lecture in Louisville, Kentucky in 1966, she convinces him of her conviction.\n[…]\nAn epilogue text explains that Fossey's actions helped save the gorillas from extinction, while her death remains a mystery.\n[…]\nAnd by all accounts Fossey was anything but ordinary.\" He also accused the filmmakers of toning down Fossey's unstable mental state: \"Fossey was more than merely eccentric...The movie hints at these aspects of her character but tries to soften them;...the filmmakers have done more than sanitize Fossey's life, they've deprived it of any meaning.\" Hinson concluded that \"Gorillas in the Mist isn't a terrible film, but it is a frustrating one.\"\n[…]\nHe wrote that the film \"tells us what Dian Fossey accomplished and what happened to her, but it doesn't tell us who she was, and at the end that's what we want to know.\" However, Ebert was impressed by the scenes with the gorillas and the way live footage of gorillas was seamlessly blended with gorilla costumes by Rick Baker: \"Everything looked equally real to me, and the delicacy with which director Michael Apted developed the relationships between woman and beast was deeply absorbing.\n[…]\nGorillas in the Mist at the TCM Movie Database (archived)\n[…]\nGorillas in the Mist at Box Office Mojo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dian_Fossey",
+        "situacao": "ok",
+        "texto": "Dian Fossey (January 16, 1932 – December 26, 1985) was an American primatologist and conservationist known for undertaking an extensive study of mountain gorilla groups from 1966 until her murder in 1985. She studied them daily in the mountain forests of Rwanda, initially encouraged to work there by paleoanthropologist Louis Leakey.\n[…]\nUniversal Pictures bought the film rights to Gorillas in the Mist from Fossey in 1985. Warner Bros. bought the rights to \"The Dark Romance of Dian Fossey\", a 1986 Life magazine feature story by Harold Hayes that was expanded into a 1990 book. As a result of a legal battle between the two studios, a co-production was arranged. Portions of both works were adapted for the 1988 film Gorillas in the Mist, starring Sigourney Weaver.\n[…]\nIn December 2017, a three-hour TV series titled Dian Fossey: Secrets in the Mist aired on the National Geographic Channel. The series tells the story of Fossey's life, work, murder and legacy, using archive footage and still images, interviews with people who knew and worked with her, specially shot footage, and reconstruction.\n[…]\nIn A Forest in the Clouds: My Year Among the Mountain Gorillas in the Remote Enclave of Dian Fossey (Pegasus Books, 2018) John Fowler describes Fossey's remote mountain gorilla camp, Karisoke Research Center, a few years prior to her murder, telling the story of the unraveling of Fossey's Rwandan facility as pressures mount in an effort to extricate Fossey from her domain.\n[…]\nFowler, John (2018). A Forest in the Clouds: My Year Among the Mountain Gorillas in the Remote Enclave of Dian Fossey. Pegasus Books. ISBN 9781681776330.\n[…]\nDian Fossey at IMDb\n[…]\nDian Fossey Gorilla Fund International\n[…]\nFossey's first article for National Geographic, 1970\n[…]\nDian Fossey papers at the Sophia Smith Collection, Smith College Special Collections"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gorillas_in_the_Mist",
+        "situacao": "ok",
+        "texto": "Gorillas in the Mist (br: Nas Montanhas dos Gorilas / pt: Gorilas na Bruma) é um filme norte-americano de 1988, do gênero drama biográfico, dirigido por Michael Apted .\n[…]\nRetrata o trabalho com gorilas da naturalista Dian Fossey nas montanhas de Ruanda.\n[…]\nIndicado nas categorias de melhor filme - drama.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Chimpanzé",
+      "descricao": "Grande símio de pelagem negra, do gênero Pan, nativo das florestas e savanas da África equatorial."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1960, na Tanzânia, que pesquisadora britânica viu chimpanzés usando gravetos para pescar cupins, mostrando que eles fabricam ferramentas?",
+    "resposta": "Jane Goodall",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jane_Goodall"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jane_Goodall",
+        "situacao": "ok",
+        "texto": "Dame Valerie Jane Morris-Goodall ( GUUD-awl; 3 April 1934 – 1 October 2025) was an English primatologist and anthropologist. Regarded as a pioneer in primate ethology, and described by many publications as \"the world's preeminent chimpanzee expert\", she was best known for more than six decades of field research on the social and family life of wild chimpanzees in the Kasakela chimpanzee community \n[…]\nIn 1977 Goodall established the Jane Goodall Institute (JGI), which supports the Gombe research, and she was a global leader in the effort to protect chimpanzees and their habitats. With nineteen offices around the world, the JGI is widely recognised for community-centred conservation and development programmes in Africa. Its global youth programme, Roots & Shoots, began in 1991 when a group of 12 local teenagers met with Goodall on her back porch in Dar es Salaam, Tanzania.\n[…]\nIn 1987 Gary Larson published a Far Side cartoon of two chimpanzees grooming, in which one discovers a blonde hair and says, \"Conducting a little more 'research' with that Jane Goodall tramp?\" The Jane Goodall Institute called the cartoon an \"atrocity\" in a letter drafted by its lawyers to Larson and his syndicate. Goodall, who was in Africa at the time, later found the cartoon amusing. She went on to name it her favourite depiction of herself in pop culture.\n[…]\nLarson offered profits from sales of a shirt featuring the cartoon to the Jane Goodall Institute. Goodall wrote the preface to The Far Side Gallery 5, detailing her version of the controversy. She praised Larson's creative ideas, which often compare and contrast the behaviour of humans and animals. In 1988 Larson visited Goodall's research facility in Tanzania. While there, he was attacked by a chimpanzee named Frodo.\n[…]\n2002: Jane Goodall's Wild Chimpanzees (IMAX format), in collaboration with Science North.\n[…]\nJane Goodall on Charlie Rose\n[…]\nJane Goodall at TED"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jane_Goodall",
+        "situacao": "ok",
+        "texto": "Jane Morris Goodall DBE, Ph.D. (pronúncia em inglês: [/ˈɡʊdɔːl/]); nascida Valerie Jane Morris-Goodall, (Londres, 3 de abril de 1934 – Los Angeles, 1 de outubro de 2025), anteriormente chamada Baronesa Jane van Lawick-Goodall, foi uma primatologista, etóloga e antropóloga britânica.\n[…]\nCraig Stanford, do Jane Goodall Research Institute e da Universidade do Sul da Califórnia, afirma que os pesquisadores que realizam estudos sem provisões artificiais têm dificuldade em ver qualquer comportamento social dos chimpanzés, especialmente aqueles relacionados a conflitos entre grupos.\n[…]\nGoodall já se casou duas vezes. Em 28 de março de 1964, casou-se com um nobre holandês, o fotógrafo de vida selvagem e Barão Hugo van Lawick, e ficou conhecido durante seu casamento como Baronesa Jane van Lawick-Goodall. O casal teve um filho, Hugo Eric Louis (nascido em 1967); eles se divorciaram em 1974. No ano seguinte, ela casou-se com Derek Bryceson, membro do Parlamento da Tanzânia e diretor dos parques nacionais daquele país. Bryceson morreu de câncer em outubro de 1980.\n[…]\nEm 2010, Dave Matthews e Tim Reynolds realizaram um concerto beneficente no DAR Constitution Hall em Washington DC para comemorar \"Gombe 50: uma celebração global da pesquisa pioneira de chimpanzés de Jane Goodall e visão inspiradora para nosso futuro\".\n[…]\n1989 Jane Goodall's Animal World: Chimps Nova Iorque: Macmillan\n[…]\n1990 The Life and Legend of Jane Goodall National Geographic Society.\n[…]\n2000 Jane Goodall: Reason For Hope PBS produção especial da KTCA\n[…]\n2002 Jane Goodall's Wild Chimpanzees em colaboração com Science North\n[…]\n2005 Jane Goodall's Return to Gombe da Animal Planet\n[…]\n2020 Jane Goodall: The Hope, filme biográfico, National Geographic Studios, produzido por Lucky 8\n[…]\nPágina oficial do Jane Goodall Institute",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Camelo-bactriano",
+      "descricao": "Camelo de duas corcovas (Camelus bactrianus), das estepes e desertos frios da Ásia Central."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O camelo de duas corcovas tem nome derivado de qual antiga região da Ásia Central, onde hoje fica o norte do Afeganistão?",
+    "resposta": "Báctria",
+    "distratores": [
+      "Sogdiana",
+      "Pártia",
+      "Pérsia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bactrian_camel",
+      "https://en.wikipedia.org/wiki/Bactria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bactrian_camel",
+        "situacao": "ok",
+        "texto": "The Bactrian camel (Camelus bactrianus), also known as the Mongolian camel, domestic Bactrian camel, two-humped camel or double-humped camel, is a camel native to the steppes of Central Asia. It has two humps on its back, in contrast to the single-humped dromedary. Its population of 2 million exists mainly in the domesticated form. Their name comes from the ancient historical region of Bactria.\n[…]\nThe domesticated Bactrian camel has served as pack animals in inner Asia since ancient times. With its tolerance for cold, drought, and high altitudes, it enabled the travel of caravans on the Silk Road. Bactrian camels, whether domesticated or feral, are a separate species from the wild Bactrian camel (Camelus ferus), which is the only truly wild (as opposed to feral) species of camelid in the Old World.\n[…]\nThe Bactrian camel was given its current binomial name Camelus bactrianus by Swedish zoologist Carl Linnaeus in his 1758 publication Systema Naturae.\n[…]\nGenetic evidence suggests that both Bactrian camel species are closely related to the extinct giant camel species Camelus knoblochi which became extinct around 20,000 years ago, which is equidistant from both living Bactrian camel species.\n[…]\nBactrian camels have been mostly domesticated for thousands of years and are widely bred by pastoralist and agricultural communities across Central Asia, the Middle East, and parts of China and Mongolia. Breeding practices vary by region, but most focus on traits such as hardiness, milk production, load-bearing ability, and temperament.\n[…]\nBactria\n[…]\nCamel\n[…]\n\"Camelus bactrianus\". Animal Diversity project. University of Michigan.\n[…]\nHandwerk, Brian (3 December 2002) [November 2002]. \"Wild Bactrian camels critically endangered, group says\". National Geographic. Archived from the original on 6 December 2002.\n[…]\nSneddon, Aaron. Bactrian Camels at the Highland Wildlife Park, Scotland. flickr.com (images)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bactria",
+        "situacao": "ok",
+        "texto": "Bactria (; Bactrian: βαχλο, Bakhlo), or Bactriana, was an ancient civilization in Central Asia, located in the area south of the Oxus River (modern Amu Darya) and north of the  Hindu Kush mountains, within modern-day Afghanistan, Tajikistan and Uzbekistan. Bactria was strategically located south of Sogdia and west of the Pamir Mountains.\n[…]\nThe Bactria–Margiana Archaeological Complex (BMAC, also known as the \"Oxus civilization\") is the modern archaeological designation for a Bronze Age archaeological culture of Central Asia, dated to c. 2200–1700 BC, located in present-day eastern Turkmenistan, northern Afghanistan, southern Uzbekistan and western Tajikistan, centred on the upper Amu Darya (known to the ancient Greeks as the Oxus River), an area covering ancient Bactria.\n[…]\nAccording to some writers,  Bactria was the homeland (Airyanem Vaejah) of Indo-Iranians who moved south-west into Iran and the north-west of the South Asian subcontinent around 2500–2000 BC. Later, it became the northern province of the Achaemenid Empire in Central Asia. It was in these regions, where the fertile soil of the mountainous country is surrounded by the Turan Depression, that the prophet Zoroaster was said to have been born and gained his first adherents.\n[…]\nThe Greco-Bactrians were so powerful that they were able to expand their territory as far as South Asia:\n[…]\nContemporary Tajiks are one of the descendants of ancient Eastern Iranian inhabitants of Central Asia, in particular, the Sogdians and the Bactrians, and possibly other groups, with an admixture of Western Iranian Persians and non-Iranian peoples.\n[…]\nBactrian camel\n[…]\nBactrian Gold\n[…]\nArt of the Bronze Age: Southeastern Iran, Western Central Asia, and the Indus Valley, an exhibition catalog from The Metropolitan Museum of Art (fully available online as PDF), which contains material on Bactria"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Camelo-bactriano",
+        "situacao": "ok",
+        "texto": "O camelo-bactriano, camelo-asiático ou simplesmente camelo (Camelus bactrianus) é um mamífero nativo da região das estepes da Ásia Central, mais precisamente, da região da Báctria; daí o seu nome. Quase todos os animais desta espécie vivem domesticados pelas populações locais, mas ainda existem mais de mil espécimes na Mongólia e noroeste da República Popular da China.\n[…]\nÉ muito parecido com a outra espécie da família Camelidae, que pode ser encontrado atualmente no nordeste da África e na parte ocidental da Ásia, o camelo-árabe ou dromedário (Camelus dromedarius). O camelo-bactriano distingue-se do dromedário pelo seu tamanho maior e pela presença de duas corcovas. Pensa-se que este último poderá ser um descendente do camelo-bactriano.\n[…]\nEste animal suporta condições climáticas verdadeiramente extremas, especialmente no Tibete e outras áreas montanhosas da Ásia Central, onde as temperaturas no verão podem chegar a 40 °C de dia e à noite são inferiores a 0 °C. Pode resistir grandes períodos de tempo sem comer nem beber e é muito forte, podendo caminhar 47 quilômetros por dia carregando pesos superiores a 450 kg. É encontrado em estado selvagem somente no Deserto de Gobi.\n[…]\nCamelus ferus\n[…]\nCamelo Bactriano - Vida Animal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Gorila",
+      "descricao": "Grande primata africano de pelagem escura do gênero Gorilla."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome gorila vem do relato de qual navegador cartaginês, que descreveu uma tribo de selvagens peludos na costa da África?",
+    "resposta": "Hanão",
+    "distratores": [
+      "Aníbal",
+      "Amílcar Barca",
+      "Asdrúbal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gorilla",
+      "https://en.wikipedia.org/wiki/Hanno_the_Navigator"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gorilla",
+        "situacao": "ok",
+        "texto": "Gorillas are large, primarily herbivorous, great apes that live in the tropical forests of equatorial Africa. The genus Gorilla is divided into two species: the eastern gorilla and the western gorilla, and either four or five subspecies. The DNA of gorillas is highly similar to that of humans, from 96 to 99% depending on what is included, and they are the next closest living relatives to humans af\n[…]\nThe first systematic study was not conducted until the 1920s, when Carl Akeley of the American Museum of Natural History traveled to Africa to hunt for an animal to be shot and stuffed. On his first trip, he was accompanied by his friends Mary Bradley, a mystery writer, her husband, and their young daughter Alice, who would later write science fiction under the pseudonym James Tiptree Jr. After their trip, Mary Bradley wrote On the Gorilla Trail.\n[…]\nShe later became an advocate for the conservation of gorillas, and wrote several more books (mainly for children). In the late 1920s and early 1930s, Robert Yerkes and his wife Ava helped further the study of gorillas when they sent Harold Bigham to Africa. Yerkes also wrote a book in 1929 about the great apes.\n[…]\nA 2006 study published in Science concluded more than 5,000 gorillas may have died in recent outbreaks of the Ebola virus in central Africa. The researchers indicated in conjunction with commercial hunting of these apes, the virus creates \"a recipe for rapid ecological extinction\". In captivity, it has also been observed that gorillas can also be infected with COVID-19.\n[…]\nThe Fang name for gorilla is ngi while the Bulu name is njamong; the root ngi means fire, denoting a positive energy. From the Central African Republic to Cameroon and Gabon, stories of reincarnations as gorillas, totems, and transformations similar to those recorded by Du Chaillu are still told in the 21st century."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hanno_the_Navigator",
+        "situacao": "ok",
+        "texto": "Hanno the Navigator (sometimes \"Hannon\"; Punic: 𐤇‬𐤍‬𐤀‬, Ḥnʾ; Greek: Ἄννων, romanized: Annōn ) was a Carthaginian explorer (sometimes identified as a king) who lived during the fifth century BC, known for his naval expedition along the coast of West Africa.\n[…]\nAs the work begins, \"this is the report of the periplus of Hanno, king of the Carthaginians, into the Libyan areas of the earth beyond the Pillars of Hercules which he dedicated in the sanctuary of Kronos.\" With 60 ships and 30,000 people, Hanno intends to found cities along the African coast. He first founds one city, then sails some distance and founds five others. Arriving at a river, the Carthaginians meet the Lixitae, a friendly nomadic tribe.\n[…]\nCarthage dispatched Hanno, at the head of a fleet of 60 ships, to explore and colonize the northwestern coast of Africa. He sailed west from Carthage toward the Iberian Peninsula, passing through the Strait of Gibraltar and founding or repopulating seven colonies along the coast of (what is now) Morocco.\n[…]\nThe gold trade had been a vital foundation of the Carthaginian empire from the fifth century BC, and the desire to secure the gold route to West Africa may have been the original motivation for the exploration of sub-Saharan Africa.\n[…]\nHanno's interpreters of an African tribe (Lixites or Nasamonians) called the people Gorillai (in Greek, Γόριλλαι). In 1847, the gorilla, an ape species, was scientifically described and named after the Gorillai. The authors did not affirmatively identify Hanno's Gorillai as the gorilla.\n[…]\nPliny may have recorded the time vaguely because he was ignorant of the actual date. His claim that Hanno completely circumnavigated Africa, reaching Arabia, is considered unrealistic by contemporary scholarship."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gorila",
+        "situacao": "ok",
+        "texto": "Os gorilas são mamíferos primatas pertencentes ao gênero Gorilla, endêmicos das florestas tropicais do centro da África. O fato de compartilharem entre 98 e 99% do DNA com os seres humanos faz dos gorilas um dos parentes vivos mais próximos, logo depois dos bonobos e chimpanzés. O gorila é o maior dos primatas atualmente existentes.\n[…]\nO nome deriva da palavra grega transliterada Gorillai (uma \"tribo de mulheres peludas\") descrita por Hanão, o Navegador, um navegador cartaginês e possível visitante (cerca de 480 a.C.) à área da atual Serra Leoa. Na sua viagem, Hanão encontra o que considera serem pessoas selvagens e peludas numa ilha da costa ocidental africana. Três fêmeas foram capturadas e as suas peles levadas para Cartago.\n[…]\nAmbas as espécies de gorila estão em perigo de extinção, e se sujeitaram a intensa caça furtiva. Ameaças à sobrevivência dos gorilas incluem destruição de habitat e ao mercado de carne de caça. Em 2004, uma população de algumas centenas de gorilas no Odzala National Park, na República do Congo foi essencialmente devastada pelo vírus ébola. Um estudo de 2006 publicado na revista Science concluiu que mais de 5 000 gorilas podem ter morrido devido a surtos recentes do Ébola na África Central.\n[…]\nOs gorilas vivem na zona equatorial da África, e as duas espécies estão separadas por 750 km de distância.\n[…]\nO gorila-ocidental vive numa área de cerca de 710 000 km² que compreende partes da Nigéria, Camarões, República Centro-Africana, Guiné Equatorial, Gabão, República do Congo, Angola e a extremidade ocidental da República Democrática do Congo. Enquanto o gorila-oriental habita uma zona restrita com cerca de 112 000 km² que compreende a extremidade oriental da República Democrática do Congo, da Uganda e Ruanda.\n[…]\n(em português) Ebola matou um em cada quatro gorilas das planícies africanas (2006)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Morcego",
+      "descricao": "Mamífero voador da ordem Chiroptera."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Vinda do latim, a palavra morcego significa, literalmente, que tipo de rato?",
+    "resposta": "Rato cego",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Morcego",
+      "https://pt.wiktionary.org/wiki/morcego"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Morcego",
+        "situacao": "ok",
+        "texto": "O morcego é um animal mamífero da ordem Chiroptera, cujos integrantes apresentam uma fina membrana de pele entre os dedos, a qual se estende até as patas e se conecta às laterais do corpo, formando as asas. Distinguem-se das aves, pois estas possuem penas suportadas por ossos. Os morcegos são os únicos mamíferos com voo verdadeiro. No Brasil, o morcego pode ser raramente chamado pelos seus nomes i\n[…]\nO termo \"morcego\" tem origem no nome arcaico para \"rato\", \"mur\" (do latim mure) com \"cego\", significando, portanto, \"rato cego\".\n[…]\nOs morcegos pequenos são, às vezes, presas de corujas e falcões. De maneira geral, há poucos animais capazes de caçar um morcego. Na Ásia, existe um tipo de falcão que se especializou em caçar morcegos. O gato doméstico é um predador regular em áreas urbanas: pega morcegos que estão entrando ou deixando um abrigo, ou no chão. Poucos morcegos descem ao chão para se alimentar, salvo casos observados nos gêneros Artibeus e Centurio.\n[…]\nOs principais morcegos envolvidos nesse tipo de mutualismo no Novo Mundo pertencem às subfamílias Glossophaginae, Brachyphyllinae e Lonchophyllinae (Phyllostomidae), e à subfamília Macroglossinae (Pteropodidae) no Velho Mundo. Os morcegos mais especializados em se alimentar de néctar geralmente tem poucos dentes e algumas espécies tem línguas extremamente compridas, que as ajudam a alcançar o fundo dos tubos florais de plantas muito especializadas na polinização por morcegos.\n[…]\nFlying Fur Os morcegos são úteis, precisam da nossa proteção — em inglês\n[…]\nMorcego como símbolo — em inglês\n[…]\nhttp://www.cdc.gov/ncidod/dvrd/rabies/Bats_&_Rabies/bats&.htm CDC, sobre morcegos e raiva — em inglês\n[…]\nCentro Ciência Viva do Alviela, espaço com exposição interactiva sobre morcegos\n[…]\nMorcegos na Web, transmissão de imagens de morcegos em directo.\n[…]\nPrevenção contra doenças transmitidas pelos morcegos (http://www.zoonose.com.br)."
+      },
+      {
+        "url": "https://pt.wiktionary.org/wiki/morcego",
+        "situacao": "ok",
+        "texto": "mamífero quiróptero voador , que pode ser insetívoro , frugívoro ou hematófago , que se guia pela reflexão de ondas sonoras\n[…]\nDo latim mus ( la )   (mus, muris) + caecus /caeca/caecum ( camundongo cego ).\n[…]\n“morcego” in: Aulete , Francisco Júlio de Caldas . iDicionário Aulete . Lexikon Editora Digital.\n[…]\n“morcego” in: Trevisan , R. (coord.); Weiszflog , W. (ed.). Michaelis: Moderno Dicionário da Língua Portuguesa . São Paulo: Melhoramentos , 2012 (nova ortografia). ISBN 978-85-06-06953-0\n[…]\n“morcego” in: Dicionário Priberam da Língua Portuguesa [ em linha ] .\n[…]\n“morcego” in: Infopédia [ em linha ] . Porto: Porto Editora .\n[…]\n“morcego” in: Portal da Língua Portuguesa . Instituto de Linguística Teórica e Computacional .\n[…]\n( zoologia ) Galego</span>\"}]]}'>morcego , quiróptero voador\n[…]\n(em galego) “morcego” in: Estraviz , Isaac Alonso . Dicionário Electrónico Estraviz [em linha].\n[…]\n(em galego) “morcego” in: González González, M. (dir.). Dicionario da Real Academia Galega . A Coruña: Real Academia Galega .\n[…]\nObtida de \" https://pt.wiktionary.org/w/index.php?title=morcego&oldid=3260729 \""
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Onça-pintada",
+      "descricao": "Grande felino das Américas, espécie Panthera onca."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra jaguar, que nomeia a onça-pintada em inglês e em várias outras línguas, tem origem em qual família de línguas indígenas sul-americanas?",
+    "resposta": "Tupi-guarani",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jaguar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jaguar",
+        "situacao": "ok",
+        "texto": "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. Its coat features pale yellow to tan colored fur covered with spots that transition to rosettes on the sides; some individuals have a melanistic spotted coat. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat sp\n[…]\nThe jaguar has featured prominently in the mythology of indigenous peoples of the Americas, including those of the Aztec and Maya civilizations.\n[…]\nThe word \"jaguar\" is possibly derived from the Tupi-Guarani word yaguara meaning 'wild beast that overcomes its prey at a bound'. Because jaguar also applies to other animals, indigenous peoples in Guyana call it jaguareté, with the added sufix eté, meaning \"true beast\".\n[…]\nDNA analysis of 84 jaguar samples from South America revealed that the gene flow between jaguar populations in Colombia was high in the past. Since 2017, the jaguar is considered to be a monotypic taxon, though the modern Panthera onca onca is still distinguished from two fossil subspecies, Panthera onca augusta and Panthera onca mesembrina. However, the 2024 study suggested that the validity of subspecific assignments on both P. o. augusta and P. o.\n[…]\nThe oldest fossils of modern jaguars (P. onca) have been found in North America dating between 850,000-820,000 years ago. Results of mitochondrial DNA analysis of 37 jaguars indicate that current populations evolved between 510,000 and 280,000 years ago in northern South America and subsequently recolonized North and Central America after the extinction of jaguars there during the Late Pleistocene.\n[…]\nThe Spanish conquistadors feared the jaguar. According to Charles Darwin, the indigenous peoples of South America stated that people did not need to fear the jaguar as long as capybaras were abundant."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Panthera_onca",
+        "situacao": "ok",
+        "texto": "Onça-pintada (português brasileiro) ou jaguar (português europeu) (nome científico: Panthera onca), também conhecida como onça-preta (no caso dos indivíduos melânicos), é uma espécie de mamífero carnívoro da família dos felídeos (Felidae) encontrada nas Américas. É o terceiro maior felino do mundo, após o tigre e o leão, sendo o maior do continente americano. Apesar da semelhança com o leopardo (P\n[…]\nJaguar origina-se do termo tupi îagûara, podendo ser traduzido como \"onça\" e até como \"cão\". Curiosamente foi esta palavra de origem indígena que se tornou a mais utilizada no português europeu, enquanto \"onça\" (de origem europeia) se tornou o termo mais utilizado no português brasileiro. Esta palavra indígena também foi adotada por algumas línguas europeias como o inglês, espanhol e francês.\n[…]\nCom efeito, com a colonização europeia e a chegada dos cães ao continente americano, a palavra passou a ser também usada pelos povos indígenas falantes de tupi para referir-se aos cachorros; assim, adotou-se îagûareté (\"onça verdadeira\") para fazer referência exclusivamente à onça-pintada, diferenciando-a do cão, o que originou o termo de língua portuguesa \"jaguaretê\". Yaguareté é um nome usado em países de língua espanhola em que há muitos descendentes dos guaranis, como a Argentina e Paraguai.\n[…]\nAcanguçu e canguçu originam-se do termo tupi-guarani îagûarakangusu, que significa \"onça de cabeça grande\", por meio da composição entre îagûara (\"onça\"), akanga (\"cabeça\") e usu (\"grande\"). Jaguarapinima vem do tupi îagûara (\"onça\") e pinima (\"pintada\").\n[…]\n† Panthera onca augusta\n[…]\nO ex-presidente norte-americano Theodore Roosevelt também viu na caça à onça-pintada fonte de inspiração para seus ideais sobre a caça esportiva e os estudos sobre a natureza.\n[…]\nNos Jogos Olímpicos de Verão de 1968, na Cidade do México, uma onça-pintada vermelha foi o primeiro mascote oficial.\n[…]\nInstituto Onça-Pintada",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Lêmure",
+      "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os lêmures, primatas noturnos de olhos brilhantes, receberam de Lineu um nome inspirado em quais seres da mitologia romana?",
+    "resposta": "Espíritos dos mortos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lemur"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lemur",
+        "situacao": "ok",
+        "texto": "Lemurs (  LEE-mərz; from Latin  lemurēs 'ghosts, spirits of the dead') are wet-nosed primates of the superfamily Lemuroidea ( LEM-yuu-ROY-dee-ə), divided into eight families and consisting of 15 genera and around 100 extant species. They are endemic to the island of Madagascar. Most existing lemurs are small, with a pointed snout, large eyes, and a long tail. They usually live in trees and are act\n[…]\nThe name lemur is derived from the Latin term lemures, which refers to specters or ghosts that were exorcised during the Lemuria festival of ancient Rome. Linnaeus was familiar with the works of Virgil and Ovid, both of whom mentioned lemures. Seeing an analogy that fit with his naming scheme, he adapted the term \"lemur\" for these nocturnal primates.\n[…]\nIn 2012, an assessment by the Primate Specialist Group of the International Union for Conservation of Nature (IUCN) concluded that 90% of the then 103 described species of lemur should be listed as threatened on the IUCN Red List, making lemurs the most endangered group of mammals. The IUCN reiterated its concern in 2013, noting that 90% of all lemur species could be extinct within 20 to 25 years unless a US$7 million 3-year conservation plan aimed at helping local communities can be implemented.\n[…]\nMadagascar is one of the poorest countries in the world, with a high population growth rate of 2.5% per year and nearly 70% of the population living in poverty. The country is also burdened with high levels of debt and limited resources. These socioeconomic issues have complicated conservation efforts, even though the island of Madagascar has been recognized by IUCN/SSC as a critical primate region for over 20 years.\n[…]\nBBC Nature Lemurs: from the planet's smallest primate, the mouse lemur, to ring-tailed lemurs and indris. News, sounds and video."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lemuroidea",
+        "situacao": "ok",
+        "texto": "Lemuroidea é uma super-família de primatas estrepsirrinos do grupo dos lémures. Possui mais espécies do que a super-família Cheirogaleoidea e os lemuróideos estão distribuídos em 3 famílias, 9 gêneros e 38 espécies.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Anta",
+      "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Apesar de lembrar um porco, a anta pertence ao grupo dos mamíferos de casco com dedos em número ímpar. Quais são seus parentes vivos mais próximos?",
+    "resposta": "Cavalos e rinocerontes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tapir",
+      "https://en.wikipedia.org/wiki/Odd-toed_ungulate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tapir",
+        "situacao": "ok",
+        "texto": "Tapirs ( TAY-pər) are large herbivorous mammals belonging to the family Tapiridae. They are similar in shape to a pig, with a short, prehensile nose trunk (proboscis). Tapirs inhabit jungle and forest regions of South and Central America and Southeast Asia. They are one of three extant branches of Perissodactyla (odd-toed ungulates), alongside equines and rhinoceroses. Only a single genus, Tapirus\n[…]\nHowever, geographic proximity is not an absolute predictor of genetic similarity; for instance, G-banded preparations have revealed Malayan, Baird's and South American tapirs have identical X chromosomes, while mountain tapirs are separated by a heterochromatic addition/deletion."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Odd-toed_ungulate",
+        "situacao": "ok",
+        "texto": "Perissodactyla (, from Ancient Greek  περισσός, perissós 'odd' and  δάκτυλος, dáktylos 'finger, toe'), or odd-toed ungulates, is an order of ungulates. The order includes about 17 living species divided into three families: Equidae (horses, asses, and zebras), Rhinocerotidae (rhinoceroses), and Tapiridae (tapirs). They typically have reduced the weight-bearing toes to three or one of the five orig\n[…]\nThe evolutionary development of Perissodactyla is well documented in the fossil record. Numerous finds are evidence of the adaptive radiation of this group, which was once much more varied and widely dispersed. Radinskya from the late Paleocene of East Asia is often considered to be one of the oldest close relatives of the ungulates."
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Panda-vermelho",
+      "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Sem serem parentes próximos, o panda-vermelho e o panda-gigante têm a mesma adaptação nas patas dianteiras para segurar bambu. Qual?",
+    "resposta": "Um falso polegar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_panda"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_panda",
+        "situacao": "ok",
+        "texto": "The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail. Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 \n[…]\nThe red panda is listed in CITES Appendix I and protected in all range countries; hunting is illegal. It has been listed as Endangered on the IUCN Red List since 2008 because the global population is estimated at 10,000 individuals, with a decreasing population trend. A large extent of its habitat is part of protected areas.\n[…]\nPeople in central Bhutan consider red pandas to be reincarnations of Buddhist monks. Some tribal people in northeast India and the Yi people believe that it brings good luck to wear red panda tails or hats made of its fur. In China, the fur is used for local cultural ceremonies. At weddings, the bridegroom traditionally carries the hide. Hats made of red panda tails are also used by local newlyweds as a \"good-luck charm\".\n[…]\nThe red panda was recognised as the state animal of Sikkim in the early 1990s and was the mascot of the Darjeeling Tea Festival. It has been featured on stamps and coins issued by several red panda range states.\n[…]\nAnthropomorphic red pandas feature in animated movies and TV series such as The White Snake Enchantress, The Jungle Book: The Adventures of Mowgli, Bamboo Bears, Barbie as the Island Princess, DreamWorks' Kung Fu Panda franchise, Aggretsuko and Disney/Pixar's Turning Red, and in several video games and comic books. It is the namesake of the Firefox browser and has been used as the namesake of music bands and of companies.\n[…]\nRed Panda Network – a non-profit organization committed to the conservation of wild red pandas"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Panda-vermelho",
+        "situacao": "ok",
+        "texto": "O panda-vermelho ou panda-ruivo, também conhecido como raposa-de-fogo ou gato-de-fogo (nome científico: Ailurus fulgens; do grego ailurus, gato; e do latim fulgens, brilhante), é um pequeno mamífero arborícola e a única espécie do gênero Ailurus. Pertence à família Ailuridae, mas já foi classificado nas famílias Procyonidae (guaxinins) e Ursidae (ursos).\n[…]\nUm dos poucos candidatos conhecidos para raiz da palavra panda é \"pónya\", possivelmente derivada de um termo da língua nepalesa para a protuberância arredondada da pata — talvez uma observação atenta de como este animal come bambu com um osso do pulso (sesamoide radial) adaptado para a função de polegar opositor e sexto dedo; outros autores acreditam que panda vem de \"wah\", termo nepalês para panda-vermelho, e originário do som semelhante a uma criança, que esta espécie às vezes produz.\n[…]\nTambém possui garras semi-retráteis e, como o panda-gigante, tem um \"polegar falso\" que é na verdade uma extensão do osso do pulso.\n[…]\nO panda-vermelho, apesar de ter um sistema digestivo mais adequado a uma dieta carnívora, é um animal omnívoro que se alimenta maioritariamente de bambu apesar de não poder digerir a celulose, portanto deve consumir uma grande quantidade de bambu para sobreviver.\n[…]\nOs brotos de bambu são mais facilmente digeridos do que as folhas e apresentam uma maior digestibilidade no verão e no outono, intermediária na primavera, e baixa no inverno. Essas variações tem relação com os conteúdos nutritivos do bambu. O panda-vermelho não digere completamente o bambu, especialmente a celulose e componentes da parede celular. Isto implica que a digestão microbiana desempenhe somente um pequeno papel em sua estratégia digestiva, semelhante ao panda-gigante.\n[…]\n«Perth Zoo — Panda-vermelho» (em inglês)\n[…]\n«Ecology Online Sweden — Simpatria entre Panda-gigante e Panda-vermelho»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Coala",
+      "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O coala tem nos dedos algo tão parecido com o dos seres humanos que poderia confundir peritos numa cena de crime. O quê?",
+    "resposta": "Impressões digitais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Koala",
+      "https://en.wikipedia.org/wiki/Fingerprint"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Koala",
+        "situacao": "ok",
+        "texto": "The koala (Phascolarctos cinereus), sometimes inaccurately called the koala bear, is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae. Its closest living relatives are the wombats. The koala is found in coastal areas of the continent's eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South A"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fingerprint",
+        "situacao": "ok",
+        "texto": "A fingerprint is an impression left by the friction ridges of a human finger. The recovery of partial fingerprints from a crime scene is an important method of forensic science. Moisture and grease on a finger result in fingerprints on surfaces such as glass or metal. Deliberate impressions of entire fingerprints can be obtained by ink or other substances transferred from the peaks of friction rid\n[…]\nWhile the police often describe all partial fingerprints found at a crime scene as latent prints, forensic scientists call partial fingerprints that are readily visible patent prints. Chocolate, toner, paint or ink on fingers will result in patent fingerprints. Latent fingerprints impressions that are found on soft material, such as soap, cement or plaster, are called plastic prints by forensic scientists.\n[…]\nWith both resulting in either an impression of no value to examiners or the destruction of the friction ridge impressions.\n[…]\nIn order for analysts to correctly positively identify friction ridge patterns and their features depends heavily on the clarity of the impression. Therefore, the analysis of friction ridges is limited by clarity.\n[…]\nWith the advent of silk and paper in China, parties to a legal contract impressed their handprints on the document. Sometime before 851 CE, an Arab merchant in China, Abu Zayd Hasan, witnessed Chinese merchants using fingerprints to authenticate loans.\n[…]\nA fingerprint sensor is an electronic device used to capture a digital image of the fingerprint pattern. The captured image is called a live scan. This live scan is digitally processed to create a biometric template (a collection of extracted features) which is stored and used for matching. Many technologies have been used including optical, capacitive, RF, thermal, piezoresistive, ultrasonic, piezoelectric, and MEMS.\n[…]\nOptical scanners take a visual image of the fingerprint using a digital camera."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coala",
+        "situacao": "ok",
+        "texto": "O Coala (nome científico: Phascolarctos cinereus) é um mamífero marsupial herbívoro arbóreo nativo da Austrália. É o único representante existente da família Phascolarctidae e seus parentes vivos mais próximos são os vombates, que são membros da família Vombatidae. O coala é encontrado em áreas costeiras das regiões leste e sul do continente, habitando Queensland, Nova Gales do Sul, Vitória e Aust\n[…]\nPossui um bom equilíbrio e músculos possantes nas coxas, e quando escala uma árvore, a falta de cauda é compensada pelos dedos bastante largos e pelas garras muito desenvolvidas.\n[…]\nO coala vive aos pares, subindo em árvores, com atos semelhantes ao da indolente preguiça. Isso lhe valeu o nome de \"ursinho-da-austrália\". Na língua dos indígenas locais, Koala significa \"animal que não bebe\". De fato, este marsupial, é bastante abstêmio: mata a sede com apenas o suco oleoso das folhas de eucalipto, praticamente o único vegetal que come.\n[…]\nNa Austrália existem 600 espécies de eucaliptos. Estas árvores são muito importantes para a fauna do continente australiano, e sobretudo para o coala.\n[…]\nAcredita-se que existem mais de três subespécies de coala, o Phascolarctos cinereus flindersii, o Phascolarctos cinereus adustus e o Phascolarctos cinereus victor.\n[…]\nO coala tem poucos predadores, o diabo da tasmânia e o tilacino (hoje extinto), mas o mais importante predador é o Canis lupus dingo - um cão selvagem - que mata os coalas velhos ou doentes, pois um adulto de boa saúde pode feri-lo gravemente. Os aborígenes caçam tradicionalmente o coala, que é uma presa fácil por causa dos seus hábitos sedentários e devido aos seus movimentos lentos. Quando presente um perigo vindo do solo, o animal tem o costume de se esconder em vez de fugir.\n[…]\nO coala é indispensável no regime alimentar dos aborígenes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Narval",
+      "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na Europa medieval, presas de narval eram vendidas por fortunas como se fossem os chifres de qual criatura lendária?",
+    "resposta": "Unicórnio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Narwhal",
+      "https://en.wikipedia.org/wiki/Unicorn"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Narwhal",
+        "situacao": "ok",
+        "texto": "The narwhal (Monodon monoceros) is a species of toothed whale native to the Arctic. It is the only member of the genus Monodon and one of two living representatives of the family Monodontidae. The narwhal is a stocky cetacean with a relatively blunt snout, a large melon, and a shallow ridge in place of a dorsal fin.\n[…]\nNarwhals have coexisted alongside circumpolar peoples for millennia. Their long, distinctive tusks were often held with fascination throughout human history. These tusks were prized for their supposed healing powers, and were worn on staffs and thrones. Depictions of narwhal tusks in works of art such as The Lady and the Unicorn have found a prevalent place in human arts.\n[…]\nIn Europe, narwhal tusks were highly sought after for centuries. This stems from a medieval belief that narwhal tusks were the horns of the legendary unicorn. Considered to have magical properties, narwhal tusks were used to counter poisoning, and all sorts of diseases such as measles and rubella. The rise of modern science towards the end of the 17th century led to a decreased belief in magic and alchemy.\n[…]\nAfter the unicorn notion was scientifically refuted, narwhal tusks were rarely employed for magical purposes.\n[…]\nNarwhal tusks were given as state gifts to kings and queens throughout medieval Europe, with the price of narwhal tusks said to have been a couple of hundred times greater than their weight in gold during the 18th and 19th centuries. Ivan the Terrible had a jewellery-covered narwhal tusk on his deathbed, while Elizabeth I received a narwhal tusk allegedly valued at £10,000 pounds sterling from the privateer Martin Frobisher. Both items were staples in cabinets of curiosities."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Unicorn",
+        "situacao": "ok",
+        "texto": "The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.\n[…]\nSeveral European medieval travelers claimed to have seen unicorns in their travels outside of Europe. For example Felix Fabri claimed to have seen a unicorn in Sinai.\n[…]\nThe predecessor of the medieval bestiary, compiled in Late Antiquity and known as Physiologus (Φυσιολόγος), popularized an elaborate allegory in which a unicorn, trapped by a maiden (representing the Virgin Mary), stood for the Incarnation. As soon as the unicorn sees her, it lays its head on her lap and falls asleep. This became a basic emblematic tag that underlies medieval notions of the unicorn, justifying its appearance in both secular and religious art.\n[…]\nHowever, when the unicorn appears in the medieval legend of Barlaam and Josaphat, ultimately derived from the life of the Buddha, it represents death, as the Golden Legend explains. Unicorns in religious art largely disappeared after they were condemned by Molanus after the Council of Trent.\n[…]\nThe unicorn, tamable only by a virgin woman, was well established in medieval lore by the time Marco Polo described them as \"scarcely smaller than elephants. They have the hair of a buffalo and feet like an elephant's. They have a single large black horn in the middle of the forehead ... They have a head like a wild boar's ... They spend their time by preference wallowing in mud and slime. They are very ugly brutes to look at.\n[…]\nWinged unicorn\n[…]\nAmerican Museum of Natural History, Mythic Creatures: Unicorns, West and East\n[…]\nDavid Badke, The Medieval Bestiary: Unicorn"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Narval",
+        "situacao": "ok",
+        "texto": "O narval ou unicórnio-do-mar é um cetáceo odontoceto de tamanho médio e o animal com os maiores caninos. Vive durante todo o ano no Ártico. É uma das duas espécies vivas de baleias da família Monodontidae, juntamente com a beluga e o Golfinho-do-irauádi. Os narvais machos são distinguidos por uma presa helicoidal longa e reta que, na verdade, é um canino superior esquerdo alongado. Vale ressaltar \n[…]\nO nome científico do narval, Monodon monoceros deriva grego: \"um-dente / um-chifre\" ou \"unicórnio dentado\".\n[…]\nAs fêmeas podem produzir uma segunda presa, mas só há um único caso registrado de uma fêmea com presas duplas. A presa está conectada ao resto do corpo por meio do sangue, então cada nova camada de crescimento registra aspectos da fisiologia animal durante o ano em que foi formada. Assim, é possível determinar a idade de um narval baseado na espessura de sua presa.\n[…]\nPor vezes, os narvais machos esfregam as presas, uns dos outros, em atividades chamadas \"tusking\". Pensa-se que este comportamento visa para manter as hierarquias sociais de poder ou a manutenção da presa como um órgão sensorial sensível.\n[…]\nNormalmente, os narvais podem viver uma vida bastante longa, orçando uma esperança de vida que vai pelo menos até aos 50 anos, de acordo com os casos conhecidos. Uma das causas principais de mortalidade é o sufocamento, mercê da dificuldade do espécime em conseguir sair da superfície das águas do Ártico antes destas congelarem no final do Outono. A fome também as pode ameaçar, especialmente aos unicórnios-do-mar mais jovens.\n[…]\nHá uma lenda inuíte que reza que a presa do narval foi criada, quando uma mulher com uma corda amarrada ao redor de um arpão, foi arrastada para o mar, depois do arpão ter atingido um grande narval. Transformou-se numa narval fêmea e o cabelo, que usava apanhado atrás, num nó, transformou-se na presa helicoidal, tão emblemática desta espécie.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Mico-leão-dourado",
+      "descricao": "Pequeno primata alaranjado da Mata Atlântica brasileira, espécie Leontopithecus rosalia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O mico-leão-dourado estampa uma das cédulas do real. De qual valor?",
+    "resposta": "Vinte reais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_real",
+      "https://pt.wikipedia.org/wiki/Real_(moeda)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazilian_real",
+        "situacao": "ok",
+        "texto": "The Brazilian real (pl. reais;  sign: R$; code: BRL) is the official currency of Brazil. It is subdivided into 100 centavos. The Central Bank of Brazil is the central bank and the issuing authority. The real replaced the cruzeiro real in 1994.\n[…]\nThe current real was introduced in 1994 at 1 real = 2,750 cruzeiros reais.\n[…]\nThe modern real (Portuguese plural reais or English plural reals) was introduced on 1 July 1994, during the presidency of Itamar Franco, when Rubens Ricupero was the Minister of Finance as part of a broader plan to stabilize the Brazilian economy, known as the Plano Real. The new currency replaced the short-lived cruzeiro real (CR$). The reform included the demonetisation of the cruzeiro real and required a massive banknote replacement.\n[…]\nAt its introduction, the real was defined to be equal to 1 unidade real de valor (URV, \"real value unit\") a non-circulating currency unit. At the same time, the URV was defined to be worth 2,750 cruzeiros reais, which was the average exchange rate of the U.S. dollar to the cruzeiro real on that day. As a consequence, the real was worth exactly one U.S. dollar when it was introduced; as of June 2024, that was equivalent to R$8.08 corrected for inflation.\n[…]\nIn 1997, modified banknotes of 1 real (print \"B\"), 5 and 10 reais (print \"C\") were launched, bearing the national flag as a watermark instead of the effigy of the republic in order to reduce the risk of such banknotes being used for counterfeiting banknotes at higher denominations. In 2000, the 10 reais commemorative banknote (print \"D\") was launched, and this banknote was the first polymer banknote to be issued in the country.\n[…]\nPlano Real\n[…]\nPortuguese real\n[…]\n\"The Invention of the Real\"—This American Life"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Real_(moeda)",
+        "situacao": "desambiguacao",
+        "texto": "Real pode referir-se a:\n\n\n== Economia ==\nReal (plural: \"reais ou réis\") é a denominação de várias moedas:\n\nReal (moeda brasileira) — moeda atual do Brasil\nReal (moeda portuguesa) — moeda de Portugal até 1911\nReal (antiga moeda brasileira) — antiga moeda do Brasil\nReal espanhol — antiga moeda da Espanha\n\n\n== Natureza e ciências ==\nRealidade — estado das coisas como elas existem, em vez de como elas"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Bugio",
+      "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Quando bugios começam a aparecer mortos nas matas brasileiras, as autoridades de saúde ficam em alerta para a circulação de qual doença?",
+    "resposta": "Febre amarela",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bugio",
+      "https://pt.wikipedia.org/wiki/Febre_amarela"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bugio",
+        "situacao": "ok",
+        "texto": "Bugio, guariba ou barbado (nome científico: Alouatta) é um gênero de macaco do Novo Mundo da família dos atelídeos (Atelidae) e subfamília dos aluatíneos (Alouattinae). O nome vernáculo bugio deriva indiretamente de Bugia, importante centro comercial medieval, enquanto guariba provém do tupi gwa'riwa. A taxonomia do gênero permanece debatida, sobretudo entre as espécies amazônicas e atlânticas, se\n[…]\nOs bugios apresentam a mais ampla distribuição geográfica entre os macacos do Novo Mundo, ocorrendo desde o México até a Argentina e o sul do Brasil, ocupando praticamente todos os ambientes florestais situados a leste e ao norte dos Andes, desde florestas tropicais úmidas até savanas arborizadas, manguezais e fragmentos florestais isolados.\n[…]\nO complexo A. caraya possui apenas uma espécie, o bugio-preto ou bugio-do-pantanal (Alouatta caraya), que também não possui nenhuma subespécie. Entretanto, existe a possibilidade de existirem dois táxons para esse complexo, visto que as populações do Chaco boliviano são diferentes de populações encontradas no Mato Grosso e Goiás, no Brasil.\n[…]\nOs bugios são os macacos do Novo Mundo com distribuição geográfica mais ampla: ocorrem desde Veracruz e a península de Iucatã, no México, até a província de Corrientes, na Argentina, e o Rio Grande do Sul, no Brasil. Ocupam todos os habitats florestais a leste e norte dos Andes, na América do Sul, e junto com Cebus albifrons, é o único primata a ser encontrado em Trindade.\n[…]\nAlouatta caraya possui a maior distribuição geográfica entre os bugios, e ocorre por toda a região central do Brasil até às margens do rio Paraná, no norte e nordeste da Argentina e no leste e sul do Chaco, no Paraguai, sendo encontrado também em estados do sul do Brasil, incluindo o Rio Grande do Sul. Provavelmente, ocorre no extremo noroeste do Uruguai."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Febre_amarela",
+        "situacao": "ok",
+        "texto": "Febre amarela é uma doença viral aguda causada pelo vírus da febre amarela. Na maior parte dos casos, os sintomas incluem febre, calafrios, perda de apetite, náuseas, dores de cabeça e dores musculares, principalmente nas costas. Os sintomas geralmente melhoram ao fim de cinco dias. Em algumas pessoas, no prazo de um dia após os sintomas melhorarem, a febre regressa, aparecem dores abdominais e as\n[…]\nSegundo recomendação do Ministério da Saúde do Brasil, mulheres que estão a amamentar devem adiar a vacinação contra a febre amarela até a criança completar seis meses. No Brasil, a vacina contra a febre amarela faz parte do esquema básico da infância nos Estados onde a doença é endêmica. A vacina é composta de vírus atenuado e só faz efeito dez dias após sua aplicação.\n[…]\nA primeira referência à febre amarela no Brasil data de 1685, com a ocorrência de surto em quatro urbes da Capitania de Pernambuco: Recife, Olinda, Ilha de Itamaracá e Goiana. O vírus da febre amarela e o Aedes aegypti vieram juntos de África, nos navios negreiros. Tempos depois a doença atingiu a população de Salvador, onde causou cerca de 900 mortes durante os seis anos em que ali esteve.\n[…]\nA febre amarela foi reintroduzida em 1849 (primeira grande epidemia ocorrida na capital do Império, o Rio de Janeiro), quando um navio americano chegou a Salvador procedente de Nova Orleães e Havana, infectando os portos e se espalhando por todo o litoral do Brasil.[carece de fontes]? A doença deixou 4 160 mortes em 1850 no Rio de Janeiro.\n[…]\nFranco O. História da febre amarela no Brasil. Revista Brasileira de Malariologia e Doenças Tropicais, 1969, 21:317-520.\n[…]\nVasconcelos, Pedro Fernando da Costa (2003). «Febre amarela». Revista da Sociedade Brasileira de Medicina Tropical. 36 (2): 275–293. Consultado em 14 de janeiro de 2017\n[…]\nFebre Amarela – Ficha descritiva, na Organização Mundial de Saúde"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Tatu-galinha",
+      "descricao": "Tatu das Américas, espécie Dasypus novemcinctus."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O tatu-galinha é um dos raros animais que carregam naturalmente a bactéria de qual doença humana, podendo transmiti-la a quem o manipula ou come?",
+    "resposta": "Hanseníase",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nine-banded_armadillo",
+      "https://pt.wikipedia.org/wiki/Tatu-galinha"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nine-banded_armadillo",
+        "situacao": "ok",
+        "texto": "The nine-banded armadillo (Dasypus novemcinctus), also called the nine-banded long-nosed armadillo or common armadillo, is a species of armadillo native to South America. The Mexican long-nosed armadillo of North America was formerly treated as a subspecies of the nine-banded armadillo.\n[…]\nNine-banded armadillos are solitary, largely nocturnal animals that come out to forage around dusk. They are extensive burrowers, with a single animal sometimes maintaining up to 12 burrows on its range. These burrows are roughly 20 cm (8 in) wide, 210 cm (7 ft) deep, and 760 cm (25 ft) long. Armadillos mark their territory with urine, feces, and excretions from scent glands found on the eyelids, nose, and feet.\n[…]\nPredators are rarely able to dislodge the animal once it has burrowed itself, and abandon their prey when they cannot breach the armadillo's armor or grasp its tapered tail. Due to their softer carapaces, juvenile armadillos are more likely to fall victim to natural predation and their cautious behavior generally reflects this. Young nine-banded armadillos tend to forage earlier in the day and are more wary of the approach of an unknown animal (including humans) than are adults.\n[…]\nTheir known natural predators include cougars (perhaps the leading predator), maned wolves, jaguars, and large raptors. Many thousands fall victim to roadkill caused by auto accidents every year."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tatu-galinha",
+        "situacao": "ok",
+        "texto": "Tatu-galinha (nome científico: Dasypus novemcinctus), também conhecido como tatu-verdadeiro, tatu-de-folha, tatu-veado, tatu-liso e tatuetê, é um tatu de médio porte encontrado nas Américas do Norte, Central e do Sul, tornando-o o mais comum dos tatus. Seus ancestrais se originaram na América do Sul e permaneceram lá até que a formação do istmo do Panamá permitiu que entrassem na América do Norte \n[…]\nA principal causa dessa rápida expansão é explicada simplesmente pelo fato de as espécies terem poucos predadores naturais nos Estados Unidos, pouco desejo por parte dos americanos de caçar ou comer tatu e a alta taxa reprodutiva dos animais. A expansão para o norte deve continuar até que a espécie alcance o extremo norte de Ohio, Pensilvânia, Nova Jérsei e Coneticute, e todos os pontos ao sul na costa leste dos Estados Unidos.\n[…]\nEles são tipicamente caçados por sua carne, que tem gosto de porco, mas são mortos com mais frequência devido à tendência de roubar os ovos de aves domésticas e de caça. Isso fez com que certas populações de tatus-galinha estejam ameaçadas, embora a espécie como um todo não estivesse sob ameaça imediata. Também são valiosos para uso em pesquisas médicas, já que estão entre os poucos mamíferos, além dos humanos, suscetíveis à hanseníase.\n[…]\nNo Texas, os tatus-galinha são criados para participar de corridas, um esporte de pequena escala, mas bem estabelecido, no qual os animais correm por uma trilha de 12 metros.\n[…]\n[a] ^ A literatura diverge quanto a expectativa de vida da espécie, com outros autores apontando que pode viver entre oito e doze anos. Foi relatado que uma fêmea criada em cativeiro viveu por mais de 22 anos, e um antigo registro indicou que a espécie pode viver até 22,3 anos nessas condições. Tal registro, porém, é contraditado por outros dados que apontam que o tatu-galinha em cativeiro não vive mais do que 14,8 anos."
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Gambá",
+      "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O gambá consegue atacar e comer serpentes peçonhentas, como cascavéis, sem morrer. A que se deve essa proeza?",
+    "resposta": "Resistência natural ao veneno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opossum",
+      "https://en.wikipedia.org/wiki/Didelphis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Opossum",
+        "situacao": "ok",
+        "texto": "Opossums () are members of the marsupial order Didelphimorphia () endemic to the Americas. The largest order of marsupials in the Western Hemisphere, it comprises 126 species in 18 genera. Opossums originated in South America and entered North America in the Great American Interchange following the connection of North and South America in the late Cenozoic."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Didelphis",
+        "situacao": "ok",
+        "texto": "Didelphis is a genus of New World marsupials. The six species in the genus Didelphis, commonly known as Large American opossums, are members of the opossum order, Didelphimorphia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Didelfi%C3%ADdeos",
+        "situacao": "ok",
+        "texto": "Didelfiídeos (nome científico: Didelphidae) é uma família à qual pertencem os gambás. É a única família da ordem Didelphimorphia, com mais de 60 espécies agrupadas em 15 géneros.\n[…]\nOs didelfiídeos encontram-se na maior parte dos habitats desde o nível do mar até altitudes superiores a 3000m, desde a estepe subárida até a savana e a floresta tropical. Várias espécies vivem principalmente nas árvores, muitas vivem no solo, enquanto que uma é aquática e tem as patas traseiras transformadas em nadadeiras (o gambá d'água, Chironectes minimus).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Hipopótamo",
+      "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A pele do hipopótamo libera um líquido avermelhado, apelidado de suor de sangue. Para que serve essa secreção?",
+    "resposta": "Protetor solar (e antibiótico)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hippopotamus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "situacao": "ok",
+        "texto": "The hippopotamus (Hippopotamus amphibius; ; pl.: hippopotamuses or hippopotami), often shortened to hippo (pl.: hippos), further qualified as the common hippopotamus, Nile hippopotamus and river hippopotamus, is a large semiaquatic mammal native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis o\n[…]\nHippos engage in \"muck-spreading\" which involves defecating while spinning their tails to distribute the faeces over a greater area. Muck-spreading occurs both on land and in water and its function is not well understood. It is unlikely to serve a territorial function, as the animals only establish territories in the water. They may be used as trails between the water and grazing areas. \"Yawning\" serves as a threat display."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hipop%C3%B3tamo-comum",
+        "situacao": "ok",
+        "texto": "O hipopótamo-comum (Hippopotamus amphibius) ou hipopótamo-do-nilo é um mamífero herbívoro de grande porte da África subsariana e uma das duas únicas espécies não extintas da família Hippopotamidae, sendo a outra o hipopótamo-pigmeu (Choeropsis liberiensis ou Hexaprotodon liberiensis). O seu nome provém do grego antigo, significando \"cavalo do rio\" (ἱπποπόταμος).\n[…]\nA coloração da parte superior do corpo é roxo-acinzentada a preto-ardósia, enquanto que a parte inferior e áreas em volta dos olhos e orelhas podem ser rosa-acastanhadas A sua pele segrega uma substância que funciona como filtro solar natural de cor avermelhada, o que explica que se diga vulgarmente que os hipopótamos suam sangue, ainda que esta substância nem seja sangue nem suor.\n[…]\nOs hipopótamos são, por natureza, agressivos. Hipopótamos que se envolvem em ataques a outros animais ou são machos dominantes, que tendem a ser territoriais e indiscriminadamente violentos, ou fêmeas, bastante protetoras em relação às crias. Como é natural para um animal que vive em África, os hipopótamos coexistem com uma grande variedade de poderosos predadores. Crocodilos-do-nilo, leões e hienas-malhadas são conhecidos predadores de jovens crias de hipopótamos.\n[…]\nO deus egípcio Seti era representado, entre outras formas tifónicas, por um hipopótamo vermelho, cuja coxa era a \"perna fálica de Seti\", e simbolizava a virilidade. A consorte de Seti, Tuéris era também representada, em parte, como hipopótamo, e era, enquanto deusa, protetora da gravidez e do parto, já que os antigos Egípcios reconheciam a natureza protetora das fêmeas dos hipopótamos em relação à sua progénie.\n[…]\n«Hippo Specialist Group of the World Conservation Union:  Grupo de especialistas em hipopótamos da IUCN.». International Union for Conservation of Nature. Consultado em 29 de janeiro de 2015. Cópia arquivada em 8 de março de 2015",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Elefante-africano",
+      "descricao": "Elefantes do gênero Loxodonta, nativos da África."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Dona da gestação mais longa entre os mamíferos terrestres, a elefanta-africana carrega o filhote por cerca de quantos meses?",
+    "resposta": "Cerca de 22 meses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/African_bush_elephant",
+      "https://en.wikipedia.org/wiki/Elephant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/African_bush_elephant",
+        "situacao": "ok",
+        "texto": "The African bush elephant (Loxodonta africana), also known as the African savanna elephant, is a species of elephant native to sub-Saharan Africa and the largest living terrestrial animal, with fully grown bulls reaching an average shoulder height of 3.04–3.36 m (10.0–11.0 ft) and a body mass of 5.2–6.9 t (5.7–7.6 short tons); the largest recorded specimen had a shoulder height of 3.96 m (13.0 ft)\n[…]\nDuring the mating season, males undergo musth, a period of high testosterone levels and heightened aggression. The menstrual cycle of cows lasts three to four months, and gestation around 22 months, the longest of any mammal.\n[…]\nThe third molars protrude at the age of about one year, grow to a size of 5.2 cm (2.0 in) wide by 14 cm (5.5 in) long, and are lost by the age of 8–10 years. The fourth molars show by the age of 6–7 years, grow to a size of 6.8 cm (2.7 in) wide by 17.5 cm (6.9 in) long and are lost by the age of 22–23 years. The dental alveoli of the fifth molars are visible by the age of 10–11 years. They grow to a size of 8.5 cm (3.3 in) wide by 22 cm (8.7 in) long and are worn by the age of 45–48 years.\n[…]\nA cow may move away from bulls that attempt to test her estrous condition. If pursued by several bulls, she will run away. Once she chooses a mating partner, she will stay away from other bulls, which are threatened and chased away by the favoured bull. Competition between bulls sometimes overrides the cow's choice of mating partner. After the mating period, females will undergo a gestation of 22 months. The interval between births was estimated at 3.9 to 4.7 years in Hwange National Park.\n[…]\nARKive – images and movies of the African Bush Elephant (Loxodonta africana)\n[…]\nHandwerk, B. (2006). \"African Elephants Slaughtered in Herds Near Chad Wildlife Park\". National Geographic. Archived from the original on 1 September 2006. Retrieved 1 September 2006."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Elephant",
+        "situacao": "ok",
+        "texto": "Elephants are the largest living land animals. Three living species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). They are the only surviving members of the family Elephantidae and the order Proboscidea; extinct relatives include mammoths and mastodons.\n[…]\nAfrican elephants have larger ears and concave backs, whereas Asian elephants have smaller ears and convex or level backs.\n[…]\nElephants are the largest living terrestrial animals. The skeleton is made up of 326–351 bones. The vertebrae are connected by tight joints, which limit the backbone's flexibility. African elephants have 21 pairs of ribs, while Asian elephants have 19 or 20 pairs. The skull contains air cavities (sinuses) that reduce the weight of the skull while maintaining overall strength. These cavities give the inside of the skull a honeycomb-like appearance. By contrast, the lower jaw is dense.\n[…]\nElephants have been the subject of religious beliefs. The Mbuti people of central Africa believe that the souls of their dead ancestors resided in elephants. Similar ideas existed among other African societies, who believed that their chiefs would be reincarnated as elephants. During the 10th century AD, the people of Igbo-Ukwu, in modern-day Nigeria, placed elephant tusks underneath their dead leader's feet in the grave.\n[…]\nThe animals' importance is only totemic in Africa but is much more significant in Asia. In Sumatra, elephants have been associated with lightning. Likewise, in Hinduism, they are linked with thunderstorms as Airavata, the father of all elephants, represents both lightning and rainbows. One of the most important Hindu deities, the elephant-headed Ganesha, is ranked equal with the supreme gods Shiva, Vishnu, and Brahma in some traditions."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Elefante-da-savana",
+        "situacao": "ok",
+        "texto": "O elefante-da-savana (Loxodonta africana) também conhecido como elefante-africano é a maior das duas espécies existentes de elefantes africanos e o maior animal terrestre vivo. Anteriormente tanto o elefante da savana quanto o elefante africano da floresta foram considerados como uma única espécie, com ambos sendo chamados de elefante africano, mais recentemente o elefante da floresta foi classifi\n[…]\nOs elefantes da savana fêmeas tendem a ser sociáveis, vivendo em grupos matriarcais liderados pela fêmea mais velha, os machos adultos por outro lado são geralmente solitários.\n[…]\nEles também tendem a ter uma pela acastanhada ou acinzentada que é enrugada com pelos negros, grandes orelhas e uma cauda longa e achatada. O crânio do elefante da savana é muito grande, representando 25% do peso total do corpo. O tamanho estimado da população de elefantes africanos é de cerca de 300 000, e eles geralmente vivem até 70 anos de idade, quando em estado selvagem. No entanto, em cativeiro eles tendem a viver menos, cerca de 65 anos.\n[…]\nA fêmea demostra aceitação ao vencedor esfregando seu corpo conta o dele, eles acasalam e então, após o término da cópula, cada um segue o seu caminho. Após uma gestação de 22 meses, a mais longa entre os mamíferos, a fêmea da à luz a um único filhote, que nasce pesando cerca de 90 kg e com 90 cm de altura no ombro. O filhote pode se alimentar do leite materno até os 5 anos de idade, mas já pode consumir alimentos sólidos com 6 meses de idade.\n[…]\nUm elefante da savana adulto não possui predadores naturais, além do ser humano, sobretudo devido ao seu grande tamanho, mas os filhotes, especialmente os recém-nascidos, são vulneráveis a ataques de leões, crocodilos e mais raramente de leopardos e hienas. Alguns bandos de leões podem predar tanto bebês quanto jovens, especialmente nos meses de seca.\n[…]\nRestam pelo menos 300 mil elefantes africanos atualmente no mundo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Rinoceronte-indiano",
+      "descricao": "Rinoceronte das planícies do norte da Índia e do Nepal (Rhinoceros unicornis), de pele com dobras semelhantes a placas."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Vivendo em planícies alagadas da Índia e do Nepal, o rinoceronte-indiano tem quantos chifres?",
+    "resposta": "Um",
+    "distratores": [
+      "Dois",
+      "Três",
+      "Nenhum"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indian_rhinoceros"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
+        "situacao": "ok",
+        "texto": "The Indian rhinoceros (Rhinoceros unicornis), also known as the greater one-horned rhinoceros, great Indian rhinoceros or Indian rhino, is a rhinoceros species native to the Indian subcontinent. It is the second largest living rhinoceros and the largest in Asia, with adult males weighing 2.07–2.2 t (2.04–2.17 long tons; 2.28–2.43 short tons) and adult females 1.6 t (1.6 long tons; 1.8 short tons).\n[…]\nThe Indian rhinoceros occurs in the Indo-Gangetic Plain in 12 protected areas in northern India and southern Nepal. It is a grazer, eating mainly grass, but also twigs, leaves, branches, shrubs, flowers, fruits and aquatic plants. It is a largely solitary animal, only associating in the breeding season and when rearing calves. Females give birth to a single calf after a gestation of 15.7 months. The birth interval is 34–51 months. Captive individuals can live up to 47 years.\n[…]\nThe Indian rhinoceros is a monotypic taxon. Several zoological specimens were described since the end of the 18th century under different scientific names, which are all considered synonyms of Rhinoceros unicornis today:\n[…]\nIn 2022, the total Indian rhinoceros population was estimated to be 4,014 individuals, up from 2,577 in 2006. Among them, 3,262 are in India and the remaining 752 are in Nepal and Bhutan. There is no permanent rhino population in Bhutan, but small rhino populations are occasionally known to cross from the Manas National Park or Buxa Tiger Reserve in India.\n[…]\nThe Indian rhinoceros is listed as vulnerable by the IUCN Red list, as of 2018. Globally, R. unicornis has been listed in CITES Appendix I since 1975. The Indian and Nepalese governments have taken major steps towards Indian rhinoceros conservation, especially with the help of the World Wide Fund for Nature (WWF) and other non-governmental organisations. In 1910, all rhino hunting in India became prohibited.\n[…]\nUnicorn, mythological character"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rinoceronte-indiano",
+        "situacao": "ok",
+        "texto": "O rinoceronte-indiano (Rhinocerus unicornis) é um mamífero da família dos rinocerontes encontrado no Nepal e na Índia, estando actualmente confinado a pradarias altas e florestas no sopé dos Himalaias. O nome que em português se dava a este animal era Ganda, com origem no termo sânscrito \"ganda\" ou \"khadga\".\n[…]\nO rinoceronte-indiano é um herbívoro e a sua dieta consiste em erva, folhas, plantas aquáticas e frutos. Alimentam-se preferencialmente de manhã e à tarde.\n[…]\nAs fêmeas podem ter crias aos cinco anos, enquanto que os machos só atingem a maturidade sexual aos nove. Quando entram no cio as fêmeas assobiam de modo a avisarem os machos de que estão prontas para acasalar. Combates ferozes entre machos irrompem durante esta a época de acasalamento. Contrariamente a outros rinocerontes, os indianos usam os seus dentes afiados da mandíbula inferior para lutar e os ferimentos daí resultantes mostram-se por vezes fatais.\n[…]\nAs formas fósseis, Rhinoceros sivalensis Falconer e Cautley, 1847; Rhinoceros namadicus Lydekker, 1876; Rhinoceros kagavena Deraniyagala, 1958 ; Rhinoceros palaeindicus Falconer e Cautley, 1847 ; Rhinoceros kendengindicus Dubois, 1908; e Rhinoceros barinagalensis Srivastava e Verma, 1972 são hoje consideradas sinônimos fósseis do Rhinoceros unicornis.\n[…]\nOs governos nepalês e indiano têm tomado medidas para proteger o rinoceronte-indiano com a ajuda do World Wildlife Fund (WWF).\n[…]\nRinoceronte de Dürer\n[…]\nRhinoceros\n[…]\nIndian Rhino page at International Rhino Foundation website\n[…]\nGreater Indian Rhinoceros page at TheBigZoo.com\n[…]\nIndian Rhino page at AnimalInfo.org\n[…]\nIndian Rhino page at AmericaZoo.com\n[…]\nIndian Rhinoceros page at nature.ca\n[…]\nIndian Rhinoceros page at UltimateUngulate.com\n[…]\nShort narrated video about the Indian Rhinoceros\n[…]\nImages, videos and information on the Indian Rhinoceros",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Cervo-do-pantanal",
+      "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os chifres ramificados do cervo-do-pantanal, que caem e crescem de novo periodicamente, são feitos de qual material?",
+    "resposta": "Osso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antler",
+      "https://en.wikipedia.org/wiki/Marsh_deer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Antler",
+        "situacao": "ok",
+        "texto": "Antlers are extensions of an animal's skull found in members of the Cervidae (deer) family. Antlers are a single structure composed of bone, cartilage, fibrous tissue, skin, nerves, and blood vessels. They are generally found only on males, with the exception of reindeer/caribou. Antlers are shed and regrown each year and function primarily as objects of sexual attraction and as weapons.\n[…]\nIn contrast to antlers, horns—found on pronghorns and bovids, such as sheep, goats, bison and cattle—are two-part structures that usually do not shed. A horn's interior of bone is covered by an exterior sheath made of keratin (the same material as human fingernails and toenails).\n[…]\nAntlers function as both weapons in male-male competition and as displays of sexual ornaments for females. Because mature antlers are no longer living during combat, antler fractures are incapable of being repaired following competition. A study in 2019 hypothesized that the periodic casting and regrowth of antlers might have evolved as a way to ensure the availability of complete antler sets to display each year.\n[…]\nAntler has been used through history as a material to make tools, weapons, ornaments, and toys. It was an especially important material in the European Late Paleolithic, used by the Magdalenian culture to make carvings and engraved designs on objects such as the so-called Bâton de commandements and the Bison Licking Insect Bite. In the Viking Age and medieval period, it formed an important raw material in the craft of comb-making.\n[…]\nIn later periods, antler—used as a cheap substitute for ivory—was a material especially associated with equipment for hunting, such as saddles and horse harness, guns and daggers, powder flasks, as well as buttons and the like. The decorative display of wall-mounted pairs of antlers has been popular since medieval times at least."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Marsh_deer",
+        "situacao": "ok",
+        "texto": "The marsh deer (Blastocerus dichotomus) is a species of deer native to South America. It is the largest living species of South American deer. It is the only species in the genus Blastocerus.\n[…]\nThe hoof, which is large in relation to the body, has elastic interdigital membranes which are useful for swimming and walking on marshy surfaces. Only the males possess antlers which are ramified and reach a length of 60 centimetres (24 in). The antlers are relatively heavy, irregular in shape, and amber in color.\n[…]\nThe marsh deer lives only in marsh areas, notably the Pantanal and Chaco, in which the level of water is less than 70 cm (28 in) deep. They are swift swimmers. The marshes with their high vegetation density protect them from predators and provide them with food. These deer also have a small migratory pattern, they follow the water levels between the dry season and flooding season.\n[…]\nWith the fluctuation in water levels, they are able to find new food sources that the water uncovers during the dry season. Some freshwater ponds on the Pantanal Wetland, Brazil reported low densities of individuals dictating that those ponds are not able to support large populations of marsh deer.\n[…]\nThe Yacyretá Dam altered an area in which several hundred individuals lived and the draining of marshes for farmland and cattle farming threaten hundreds of hectares every year in Argentina and Brazil. Contagious diseases from cattle are also a problem, though it has been shown that the deer is not affected by brucellosis. In October 2018, Argentina established the Ciervo de los Pantanos National Park to help protect this species."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Galhada",
+        "situacao": "ok",
+        "texto": "Esgalhos, galhadas ou hastes são extensões do crânio de um animal encontrado em 36 dos 40 membros da família dos cervos. Galhadas são ossos verdadeiros e são uma única estrutura. Geralmente, elas são encontradas apenas em machos, com exceção da rena. Galhadas caem e crescem novamente todo ano e funcionam primariamente como objetos de atração sexual e como armas em lutas entre machos para o control\n[…]\nEm contraste, chifres (ou cornos), encontrados em antilocapras e bovídeos como ovelhas, bodes, bisões e gado, são estruturas com duas partes. Uma parte interior feita de osso (também uma extensão do crânio) é coberta por um revestimento exterior desenvolvida por folículos capilares especializados, o mesmo material que unhas humanas. Chifres nunca caem e continuam a crescer durante toda a vida do animal.\n[…]\nA exceção à essa regra é a antilocapra, cujo revestimento do chifre cai e cresce novamente todo ano. Eles normalmente crescem em pares simétricos.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Ouriço-cacheiro",
+      "descricao": "Roedor arborícola sul-americano de espinhos e cauda preênsil, da espécie Coendou prehensilis."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os espinhos do ouriço-cacheiro, roedor das matas brasileiras, são na verdade uma forma modificada de qual estrutura do corpo?",
+    "resposta": "Pelos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porcupine",
+      "https://en.wikipedia.org/wiki/Brazilian_porcupine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Porcupine",
+        "situacao": "ok",
+        "texto": "Porcupines are large rodents with coats of sharp spines, or quills, that protect them against predators. The term covers two families of animals, the Old World porcupines in the family Hystricidae, and the New World porcupines in the family Erethizontidae. Both families display superficially similar coats of rigid or semirigid quills, which are modified hairs composed of keratin, and belong to the\n[…]\nPorcupines' quills, or spines, take on various forms depending on the species, but all are modified hairs coated with thick plates of keratin and are embedded in the skin musculature. Old World porcupines have quills embedded in clusters, whereas in New World porcupines, single quills are interspersed with bristles, underfur, and hair."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazilian_porcupine",
+        "situacao": "ok",
+        "texto": "The Brazilian porcupine (Coendou prehensilis) is a porcupine found in Brazil, Argentina, Uruguay, Colombia, Venezuela, Guyana, French Guiana, Peru, Paraguay, Suriname, Bolivia and Trinidad, with a single record from Ecuador. It inhabits tropical forests at elevations up to 1,500 m (4,900 ft)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Porco-espinho",
+        "situacao": "desambiguacao",
+        "texto": "A denominação porco-espinho pode identificar ou relacionar-se a um dos seguintes animais:\n\nCoendou prehensilis, chamado porco-espinho, ou porco-espinho-brasileiro.\n\nHystrix cristata, chamado porco-espinho-de-crista ou porco-espinho-africano.\nErethizon dorsatum, chamado porco-espinho-norte-americano.\nErinaceus europeus chamado ouriço-cacheiro ou ouriço-cacho.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Rena",
+      "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Renas machos costumam perder os chifres no começo do inverno, mas as fêmeas os mantêm até a primavera. Então, renas com chifres no Natal tendem a ser de que sexo?",
+    "resposta": "Fêmeas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reindeer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Reindeer",
+        "situacao": "ok",
+        "texto": "The reindeer or caribou (Rangifer tarandus) is a species of deer with circumpolar distribution, native to Arctic, subarctic, tundra, boreal, and mountainous regions of Northern Europe, Siberia, and North America. It is the only representative of the genus Rangifer. More recent studies suggest the splitting of reindeer and caribou (North American terminology). \"All caribou and reindeer throughout t"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rena",
+        "situacao": "ok",
+        "texto": "Rena (Rangifer tarandus; do nórdico antigo hreinn pelo francês renne) ou caribu (na América do Norte) é um cervídeo de grande porte que habita a tundra e florestas boreais da Groenlândia, Escandinávia, Rússia, Alasca e Canadá. Se divide em dois ecotipos (a da tundra e a da floresta); a primeira anualmente migra cerca de cinco mil quilômetros entre a tundra e floresta em grandes manadas de mais de \n[…]\nOs machos atingem 1,2 metro de altura e excedem 250 quilos, enquanto as fêmeas são um pouco menores. Seus cascos são muito fechados e permitem-lhes andar na neve e em solo macio, e são boas nadadoras. Sua pelagem é esbranquiçada no inverno e marrom no verão e seus pelos são opacos, o que aumenta suas propriedades isolantes. Seus chifres podem ter 44 pontos e crescer até 1,4 m de comprimento nos machos. É a única espécie de cervídeos em que as fêmeas também têm chifres.\n[…]\nPesquisadores recentemente elaboram uma explicação  para esse fato, as fêmeas perdem o chifre logo após o parto, e elas mastigam os chifres para obterem fonte de suplementos pós-gestacional.É um animal considerado símbolo do Natal, por ser associado ao Papai Noel.\n[…]\nRena-de-svalbard\n[…]\nRena-do-ártico\n[…]\nPor Que as Fêmeas de Caribu Crescem Com Chifres? Noticia Alternativa. https://noticiaalternativa.com.br/galhadas-caribu-femeas/",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Boto-cor-de-rosa",
+      "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Graças às vértebras do pescoço não fundidas, o boto-cor-de-rosa faz algo impossível para a maioria dos golfinhos, útil para caçar entre raízes alagadas. O quê?",
+    "resposta": "Virar a cabeça para os lados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amazon_river_dolphin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazon_river_dolphin",
+        "situacao": "ok",
+        "texto": "The Amazon river dolphin (Inia geoffrensis), also known as the boto, bufeo or pink river dolphin, is a species of toothed whale endemic to South America and is classified in the family Iniidae. Three subspecies are currently recognized: I. g. geoffrensis (Amazon river dolphin), I. g. boliviensis (Bolivian river dolphin) and I. g. humboldtiana (Orinoco river dolphin). The position of the Araguaian \n[…]\nThe texture of the body is robust and strong but flexible. Unlike in oceanic dolphins, the cervical vertebrae are not fused, allowing the head to turn 90 degrees. The flukes are broad and triangular, and the dorsal fin, which is keel-shaped, is short in height but very long, extending from the middle of the body to the caudal region. The pectoral fins are large and paddle-shaped.\n[…]\nScavenger species feed upon the carcasses, and the complexity of the river currents make it nearly impossible to locate all of the dead animals. More importantly, the local fishermen do not report these deaths out of fear that a legal course of action will be taken against them, as the Amazon river dolphin and other cetaceans are protected under a Brazilian federal law prohibiting any takes, harassments, and kills of the species.\n[…]\nAssociated with these legends is the use of various fetishes, such as dried eyeballs and genitalia. These may or may not be accompanied by the intervention of a shaman. A recent study has shown, despite the claim of the seller and the belief of the buyers, none of these fetishes is derived from the boto. They are derived from Sotalia guianensis, are most likely harvested along the coast and the Amazon River delta, and then are traded up the Amazon River."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa",
+        "situacao": "ok",
+        "texto": "Boto-cor-de-rosa, boto-vermelho, boto-rosa, boto-malhado, boto, costa-quadrada, cabeça-de-balde ou uiara são nomes comuns dados a 3 espécies de golfinhos fluviais (não confundir com golfinhos, que pertencem à família Delphinidae) do gênero Inia. As espécies se distribuem nas bacias dos rios Amazonas e Solimões (I. geoffrensis), na sub-bacia Boliviana (I. boliviensis) e na bacia do rio Araguaia (I.\n[…]\nA distribuição do boto nos rios e áreas adjacentes depende da época do ano. Na estação seca, habita os leitos dos rios, mas, na época das chuvas, quando os rios transbordam, estão espalhados por áreas alagadas tanto na floresta (igapó) como nas planícies (várzeas) inundadas. Não tolera águas salobras, sendo ausente nos estuários tanto do Amazonas quanto do Orinoco.\n[…]\nO boto-cor-de-rosa é o maior dos golfinhos fluviais, com os machos atingindo 2,55 metros de comprimento e 185 quilogramas e as fêmeas 2,15 metros e 150 quilogramas. Possui uma estrutura corpórea encorpada e robusta, mas extremamente flexível. As vértebras cervicais não fundidas permitem o movimento da cabeça em todas as direções. O rostro é longo e estreito e o melão é bem distinto, mas pequeno e flácido, podendo ser alterado no formato por controle muscular.\n[…]\nPartilha a área de ocorrência com o tucuxi (Sotalia fluvitialis), que não é um golfinho estritamente fluvial.\n[…]\nO boto-cor-de-rosa está presente em diversos aquários ao redor do mundo. A primeira captura registrada foi em fevereiro de 1956, em Leticia, na Colômbia, quando uma expedição do Silver Springs Nature Theme Park capturou quatro exemplares para expor nos Estados Unidos.\n[…]\nNo folclore brasileiro, diz-se que o boto-cor-de-rosa tem a propriedade de se transformar em um jovem galante e engravidar moças.[carece de fontes]?\n[…]\n«Boto rosa da Amazônia está perto da extinção, diz The Guardian»\n[…]\n«População de boto-vermelho diminui 10% ao ano na Amazônia, diz Inpa»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Tatu-bola",
+      "descricao": "Tatu sul-americano que se enrola em bola, gênero Tolypeutes."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Fuleco, o mascote da Copa do Mundo de 2014, foi inspirado em qual animal brasileiro ameaçado de extinção?",
+    "resposta": "Tatu-bola",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fuleco",
+      "https://en.wikipedia.org/wiki/Brazilian_three-banded_armadillo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fuleco",
+        "situacao": "ok",
+        "texto": "Fuleco é o mascote da Copa do Mundo FIFA de 2014. O mascote é inspirado no gênero dos tatus-bola, mais especificamente na espécie conhecida como tatu-bola-da-caatinga, que é natural da região de caatinga do nordeste do Brasil e encontra-se em estado de espécie ameaçada de extinção. A origem etimológica do nome \"Fuleco\" é a união das palavras \"futebol\" e \"ecologia\".\n[…]\nO diretor de marketing da Federação Internacional de Futebol (FIFA), Thierry Weil, comentou sobre Fuleco: \"Não apenas ele é conhecido e reconhecido pela grande maioria dos brasileiros, mas também parece ter construído um relacionamento com os fãs de futebol e tornou-se uma figura popular, ganhando assim um apelido carinhoso de 'tatu-bola'. Ele está rapidamente se tornando o mais bem sucedido mascote da Copa do Mundo FIFA de todos os tempos\".\n[…]\nEscolhida a opção Fuleco, elevaram-se criticas que ressaltam a semelhança do nome com as palavras fuleiro e furreca, ambas significando, segundo o Dicionário Caldas Aulete, \"que não tem valor\". Manifestações em tom crítico e humorístico no Twitter foram motivadas pela escolha do nome, incluindo considerações de se referir ao mascote apenas como tatu-bola.\n[…]\nSobre a escolha de um tatu-bola como mascote, Jaime Leitão questiona o porquê de a FIFA não escolher outra espécie brasileira em extinção, como o mico-leão-dourado, o tamanduá-bandeira, a onça-pintada e a ararinha-azul. Também afirma que Fuleco \"mais parece um ET que um tatu\" e que \"tatu lembra buraco, cemitério, esconderijo\".\n[…]\nPara seu blog no portal Yahoo!, Regis Tadeu qualificou Fuleco como \"um dos mascotes esportivos mais repulsivos de todos os tempos\" e que o personagem, ao lado do ex-jogador Ronaldo, seria um \"espetáculo de horror infantil\". Na Espanha, o jornal As descreveu Fuleco como \"feio\", \"maldito tatu\" e \"nem é típico, nem é amigável\".\n[…]\nMascotes\n[…]\nCopa do Mundo FIFA de 2014"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazilian_three-banded_armadillo",
+        "situacao": "ok",
+        "texto": "The Brazilian three-banded armadillo (Tolypeutes tricinctus) is an armadillo species endemic to eastern Brazil, where it is known as tatu-bola (Portuguese pronunciation: [tɐˈtu ˈbɔlɐ], lit. ball armadillo). It is one of only two species of armadillo that can roll into a ball (the other is the southern three-banded armadillo).\n[…]\nIt was known as kwaráu in the extinct Huamoé language of the Serra Negra in Pernambuco State, Brazil, and as ˈkʌ̨́ñíkį̀ in the extinct Kambiwá language of Barreira, Petrolândia, Pernambuco.\n[…]\nThe loose armor also creates a layer of air between the shell and the body, which insulates the animal. This higher capacity for thermoregulation allows them to survive in climates too arid for some of the other armadillo species. When the armadillo rolls into a defensive ball, the ears are tucked into the shell and the head and tail interlock to seal the shell completely. The teeth are soft and peg-like, adapted solely for smashing the exoskeletons of insects.\n[…]\nThe Caatinga Association, a Brazilian environmental NGO, launched in January 2012 a national campaign proposing the three-banded armadillo to become mascot of the 2014 FIFA World Cup hosted by Brazil. In March 2012, the Brazilian weekly, Veja, reported the three-banded armadillo would be the official mascot for the FIFA World Cup. Official announcement came in September 2012.\n[…]\nWorld Cup Mascot. [1]"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Baleia-da-groenlândia",
+      "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Com indivíduos estimados em mais de duzentos anos de idade, qual baleia do Ártico é o mamífero mais longevo conhecido?",
+    "resposta": "Baleia-da-groenlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bowhead_whale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+        "situacao": "ok",
+        "texto": "The bowhead whale (Balaena mysticetus), sometimes known as the Greenland right whale, Arctic whale, and polar whale, is a species of baleen whale belonging to the family Balaenidae and is the only living representative of the genus Balaena. It is the only baleen whale endemic to the Arctic and subarctic waters, and is named after its characteristic massive triangular skull, which it uses to break \n[…]\nThe bowhead whale's penis can reach up to 3 m (9.8 ft) in length, and its testicles usually weigh less than 150 kg (330 lb) in adults, but an individual estimated to weigh about 54 t (53 long tons; 60 short tons) had testicles weighing 211 kg (465 lb) and measuring 1.5 m (4.9 ft) in length.\n[…]\nSpurred by this discovery,  scientists measured the ages of other bowhead whales captured between 1978 and 1996; one male specimen was estimated to be 211 years old. Other bowhead whales were estimated to be between 135 and 172 years old. This discovery showed the longevity of the bowhead whale is much greater than originally thought. Researchers at CSIRO, Australia's national science agency, estimated that bowhead whales' maximum natural lifespan is 268 years based on genetic analysis.\n[…]\nThere are no reports of attacks on bowheads by sharks.\n[…]\nThe bowhead whale has been hunted for blubber, meat, oil, bones, and baleen. Like the right whale, it swims slowly, and floats after death, making it ideal for whaling. Before commercial whaling, they were estimated to number 50,000. Paleo-Eskimo sites indicate bowhead whales were eaten in sites from perhaps 4000 BC. Inuit near the Pacific developed specific hunting tools, with the whales providing food and fuel.\n[…]\n\"Bowhead Whale (Balaena mysticetus)\". Office of Protected Resources, NOAA Fisheries. October 2013.\n[…]\n\"Bowhead whale (Balaena mysticetus)\". ARKive. October 2013. Archived from the original on 22 April 2006. Retrieved 29 March 2006."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baleia-da-groenl%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "As baleias-da-groenlândia (Balaena mysticetus) também são conhecidas como baleia-da-gronelândia, baleia-franca-do-ártico, baleia-franca-da-gronelândia ou grande-polar. Em inglês são chamadas de bowheads, que ao se traduzido significa cabeças de lombada. São os únicos membros da família Balaenidae (subordem Mysticeti, ordem Cetacea). E vivem a maior parte do tempo nos oceanos com latitudes setentri\n[…]\nAs baleias-da-groenlândia são conhecidas por sua longevidade, podendo viver por mais de 200 anos. Uma fêmea capturada na costa do Alasca tinha uma idade estimada em 115 e 130 anos, outras duas baleias registradas possuíam idades 135 e 172 anos respectivamente.\n[…]\nImpulsionados pela curiosidade do quão grande poderia ser a longevidade de uma baleia-da-groenlândia, os cientistas mediram a idade de outros indivíduos e descobriram um espécime com aproximadamente 211 anos, muito além das estimativas iniciais. A baleia mergulha entre 9 e 18 min, mas também consegue permanecer submersa na água por até uma hora. No que diz respeito ao comportamento, este não é um animal social porque prefere viajar sozinho ou em grupos com, no máximo, 6 indivíduos.\n[…]\nNa primavera seguinte, o jovem as baleias, agora com 6 a 8 m de comprimento, são desmamadas de suas mães. Depois disso, o crescimento é lento em comparação com outras baleias. Com 15 anos de idade chegam a medir de 12 a 14 metros de comprimento, é quando as fêmeas tornam-se sexualmente maduras, já os machos tornam-se sexualmente ativos quando possuem de 12 a 13 metros de comprimento. As baleias-da-groenlândia podem viver mais do que outros mamíferos.\n[…]\nPontas de arpão antigas coletadas em baleias indicam que elas podem ter vivido por mais de um século.\n[…]\nEsse esforço coordenado ajuda as baleias a prenderem suas presas. Os únicos predadores de baleias-da-groenlândia, além de humanos, são orcas (Orcinus orca).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

@@ -1,0 +1,430 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rebanhos de búfalos em Marajó sustentados pelas fontes; a polícia montada é fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descoberta em 1990 e ocorrência no litoral do Paraná e de São Paulo confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baía dos Golfinhos em Fernando de Noronha, onde os rotadores descansam, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Golfinhos de Laguna conduzem peixes aos pescadores e sinalizam a hora da rede.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido (Falótico et al., 2019), mas uma fonte é inexistente e a outra não menciona macacos; trocar fontes.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Escavações mostraram que macacos-prego quebram castanhas com pedras há pelo menos três mil anos, num parque nacional do Piauí famoso por pinturas rupestres. Qual?",
+        "resposta": "Serra da Capivara",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Capuchin_monkey",
+          "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último tilacino morreu no Zoológico de Hobart em 1936.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'Congo', parte da resposta; reformular sem vazar.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Primo próximo do chimpanzé, o bonobo vive na natureza em apenas um país africano, ao sul do grande rio que o separa dos chimpanzés. Qual país?",
+        "resposta": "República Democrática do Congo",
+        "distratores": [
+          "República do Congo",
+          "Camarões",
+          "Gabão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bonobo",
+          "https://pt.wikipedia.org/wiki/Bonobo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vlamingh chamou Rottnest de ninho de ratos por causa dos quokkas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hipopótamos de Escobar circulam pela bacia do rio Magdalena.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mamutes sobreviveram na Ilha Wrangel até cerca de 4000 anos atrás.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Evolução na América do Norte, extinção local e retorno com os espanhóis confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último auroque morreu em 1627 na floresta de Jaktorów, Polônia.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último quaga morreu em Amsterdã em 1883.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sudan morreu em 19 de março de 2018 em Ol Pejeta.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lobos do Canadá reintroduzidos em Yellowstone em 1995.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dolly nasceu em 1996.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome em homenagem a Dolly Parton, confirmado por Wilmut.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Temporada das jubartes no Brasil vai de julho a novembro; trechos só confirmam a reprodução na costa.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Na Venezuela a capivara é consumida na Quaresma.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Expedição de 2006 declarou o baiji funcionalmente extinto.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dürer fez a xilogravura em 1515 sem ter visto o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lund nomeou Smilodon populator em 1842 a partir de fósseis de Lagoa Santa.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Steller descreveu a vaca-marinha em 1741 na expedição de Bering.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte George_Shaw é página de desambiguação; trocar.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+        "resposta": "George Shaw",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Platypus",
+          "https://en.wikipedia.org/wiki/George_Shaw_(biologist)"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "David viu a pele com um caçador; 'receber' é impreciso. Ajustar o verbo.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1869, que missionário francês descreveu o panda-gigante para a ciência ocidental, depois de ver a pele do animal com um caçador chinês?",
+        "resposta": "Armand David",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Giant_panda",
+          "https://en.wikipedia.org/wiki/Armand_David"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palavra registrada em 1770 durante a expedição do Endeavour sob Cook.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fossey escreveu o livro Gorillas in the Mist que inspirou o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Goodall observou em 1960 chimpanzés pescando cupins com gravetos em Gombe.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome vem da região da Báctria.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome gorila vem dos Gorillai descritos por Hanão.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morcego vem de mur + cego, 'rato cego'.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jaguar tem origem tupi-guarani.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nem todo lêmure é noturno; remover a afirmação imprecisa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Os lêmures, primatas de Madagascar, receberam de Lineu um nome inspirado em quais seres da mitologia romana?",
+        "resposta": "Espíritos dos mortos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lemur"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Antas são perissodáctilos, aparentadas a cavalos e rinocerontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos os pandas têm falso polegar, ampliado do osso do pulso.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Coalas têm impressões digitais quase idênticas às humanas; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Presas de narval eram vendidas como chifres de unicórnio.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O mico-leão-dourado está na nota de R$ 20, mas uma fonte é desambiguação; trocar fontes.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O mico-leão-dourado estampa uma das cédulas do real. De qual valor?",
+        "resposta": "Vinte reais",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mico-le%C3%A3o-dourado",
+          "https://en.wikipedia.org/wiki/Brazilian_real"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mortes de bugios são sinal de alerta para febre amarela no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tatu-galinha é suscetível à hanseníase e usado em pesquisas.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fontes não sustentam; resposta vaga e deduzível, sem especificidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta com parêntese sem sustentação nas fontes; simplificar e adicionar fonte em português.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "A pele do hipopótamo libera um líquido avermelhado, apelidado de suor de sangue. Para que serve essa secreção?",
+        "resposta": "Protetor solar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hippopotamus",
+          "https://pt.wikipedia.org/wiki/Hipop%C3%B3tamo-comum"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gestação de cerca de 22 meses, a mais longa entre mamíferos.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato trivial (nome unicornis) e distratores pouco críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galhadas são ossos que caem e rebrotam.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espinhos de porcos-espinhos são pelos modificados de queratina.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado entrega a resposta pela premissa; refazer sem a dedução.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Na vida real, as renas que aparecem com chifres no Natal, como as do trenó do Papai Noel, costumam ser de que sexo?",
+        "resposta": "Fêmeas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Reindeer",
+          "https://pt.wikipedia.org/wiki/Rena"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vértebras cervicais não fundidas permitem girar a cabeça.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fuleco foi inspirado no tatu-bola.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baleia-da-groenlândia vive mais de 200 anos, com indivíduo de 211.",
+      "reescrita": null
+    }
+  ]
+}
