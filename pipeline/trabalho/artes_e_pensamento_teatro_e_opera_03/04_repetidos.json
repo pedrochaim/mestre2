@@ -1,0 +1,220 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na ópera Turandot, de Puccini, que ária do príncipe Calaf, que termina com a palavra vincerò, virou sucesso popular na voz de Pavarotti?",
+        "resposta": "Nessun dorma"
+      },
+      "existentes": [
+        {
+          "id": "q03265",
+          "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera antes do fim. Qual foi o motivo?",
+          "resposta": "Puccini morreu sem terminá-la"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera no meio do último ato e baixou a batuta. Por quê?",
+        "resposta": "Puccini morreu antes de terminá-la"
+      },
+      "existentes": [
+        {
+          "id": "q03265",
+          "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera antes do fim. Qual foi o motivo?",
+          "resposta": "Puccini morreu sem terminá-la"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Esperando Godot, de Samuel Beckett, o vagabundo Vladimir espera à beira de uma estrada ao lado de que companheiro?",
+        "resposta": "Estragon"
+      },
+      "existentes": [
+        {
+          "id": "q02979",
+          "pergunta": "A peça Esperando Godot, do irlandês Samuel Beckett, foi escrita originalmente em que língua?",
+          "resposta": "Francês"
+        },
+        {
+          "id": "q03417",
+          "pergunta": "Esperando Godot, de Samuel Beckett, estreou em Paris em que década do século vinte?",
+          "resposta": "Anos 1950"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Inaugurado em 1909, o Theatro Municipal do Rio de Janeiro teve a arquitetura inspirada em que famoso teatro de ópera de Paris?",
+        "resposta": "Ópera Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q03180",
+          "pergunta": "O Theatro Municipal do Rio de Janeiro, inaugurado em 1909, teve como modelo que casa de ópera de Paris?",
+          "resposta": "Ópera Garnier"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1956, a peça Orfeu da Conceição, de Vinicius de Moraes, deu início à parceria do poeta com que compositor?",
+        "resposta": "Tom Jobim"
+      },
+      "existentes": [
+        {
+          "id": "q02913",
+          "pergunta": "Que filme, vencedor da Palma de Ouro em 1959, adaptou uma peça de Vinicius de Moraes que leva um mito grego a um morro carioca?",
+          "resposta": "Orfeu Negro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O mamulengo, teatro de bonecos tradicional de Pernambuco, teria ganhado seu nome de que expressão?",
+        "resposta": "Mão molenga"
+      },
+      "existentes": [
+        {
+          "id": "q05246",
+          "pergunta": "O nome do mamulengo, teatro popular de bonecos de Pernambuco, viria de qual expressão sobre o jeito de manipular os bonecos?",
+          "resposta": "Mão molenga"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo uma lenda antiga, o dramaturgo grego Ésquilo morreu quando uma águia deixou cair algo sobre sua cabeça calva. O quê?",
+        "resposta": "Uma tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q03214",
+          "pergunta": "Segundo uma lenda antiga, o dramaturgo Ésquilo morreu atingido na cabeça por um animal que uma águia deixou cair. Que animal?",
+          "resposta": "Uma tartaruga"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo Aristóteles, o dramaturgo Ésquilo inovou ao aumentar o número de atores em cena, além do coro. Para quantos?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q03214",
+          "pergunta": "Segundo uma lenda antiga, o dramaturgo Ésquilo morreu atingido na cabeça por um animal que uma águia deixou cair. Que animal?",
+          "resposta": "Uma tartaruga"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na comédia Lisístrata, de Aristófanes, as mulheres gregas fazem uma greve de sexo para obrigar os homens a quê?",
+        "resposta": "Acabar com a guerra"
+      },
+      "existentes": [
+        {
+          "id": "q03232",
+          "pergunta": "Que comediógrafo ateniense escreveu a peça em que as mulheres fazem greve de sexo para forçar o fim da guerra?",
+          "resposta": "Aristófanes"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A Ópera de Arame, teatro de estrutura tubular de aço e teto transparente cercado por um lago, é um cartão-postal de que capital?",
+        "resposta": "Curitiba"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Antígona encerra a saga de Édipo contada por Sófocles. Mas, das três peças tebanas dele, em que ordem ela foi escrita?",
+        "resposta": "A primeira"
+      },
+      "existentes": [
+        {
+          "id": "q04268",
+          "pergunta": "Na tragédia de Sófocles, Antígona é condenada à morte pelo rei Creonte por desobedecer a uma ordem dele. O que ela fez?",
+          "resposta": "Enterrou o irmão Polinices"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a ária Nessun dorma, fato diferente da interrupção na estreia."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Toscanini interrompeu a estreia porque Puccini morreu sem terminar a ópera."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Companheiro de Vladimir é fato diferente de língua original ou década da estreia."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o modelo do Theatro Municipal do Rio é a Ópera Garnier."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Parceria com Tom Jobim é fato diferente do filme Orfeu Negro."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome mamulengo, mão molenga."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: a tartaruga que matou Ésquilo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Inovação do número de atores é fato diferente da lenda da morte."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nova pergunta é o objetivo da greve; a existente pergunta o autor da peça. Fatos distintos."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a capital onde fica a Ópera de Arame: Curitiba."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Ordem de escrita da peça é fato diferente do que Antígona fez."
+    }
+  ]
+}
