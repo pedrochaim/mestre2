@@ -1,0 +1,243 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta com mandíbula grande, braços abertos e cauda em barbatana, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Totodile",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Totodile",
+        "descricao": "Pokémon crocodilo de água, inicial da segunda geração, número 158 da Pokédex Nacional.",
+        "variantes": [
+          "Waninoko"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Corpo redondo, tufos na cabeça, asas e patas: silhueta característica de coruja.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Hoothoot",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Hoothoot",
+        "descricao": "Pokémon coruja de tipo normal e voador da segunda geração, número 163 da Pokédex Nacional.",
+        "variantes": [
+          "Hoho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Silhueta é quase só um disco com protuberâncias, sem forma característica; poderia ser confundida com outros pokémon redondos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Folha na cabeça e corpo em formato de sino, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Chikorita",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Chikorita",
+        "descricao": "Pokémon de grama com uma folha grande na cabeça, inicial da segunda geração, número 152 da Pokédex Nacional.",
+        "variantes": [
+          "Chicorita"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estrela de cinco pontas, forma única; distratores de forma próxima em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Staryu",
+      "distratores": [
+        "Starmie",
+        "Corsola",
+        "Cloyster"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Staryu",
+        "descricao": "Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional.",
+        "variantes": [
+          "Hitodeman"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casco largo, pescoço e cabeça redonda, nadadeiras laterais: contorno distintivo; múltipla com silhuetas parecidas por ser de aficionado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Shuckle",
+      "distratores": [
+        "Lapras",
+        "Torkoal",
+        "Slowpoke"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Shuckle",
+        "descricao": "Pokémon inseto e pedra da segunda geração, que guarda bagas em seu casco, número 213 da Pokédex Nacional.",
+        "variantes": [
+          "Tsubotsubo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Corpo de pato com três fios de cabelo, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Psyduck",
+      "distratores": [
+        "Golduck",
+        "Piplup",
+        "Slowpoke"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Psyduck",
+        "descricao": "Pokémon pato amarelo de água da primeira geração, número 54 da Pokédex Nacional.",
+        "variantes": [
+          "Koduck"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta espinhosa com mão flutuante separada do corpo, que distingue Haunter de Gengar.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual outro?",
+      "resposta": "Gengar",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Haunter",
+        "descricao": "Pokémon fantasma gasoso com mãos flutuantes, forma intermediária entre Gastly e Gengar, número 93 da Pokédex Nacional.",
+        "variantes": [
+          "Ghost"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cabeça redonda, corpo de gota e cauda em mola: silhueta inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Spoink",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spoink",
+        "descricao": "Pokémon porco psíquico da terceira geração, que salta sobre uma mola na cauda, número 325 da Pokédex Nacional.",
+        "variantes": [
+          "Baneboo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Orelhas de pena, cauda peluda e casco; reconhecível, com distratores da mesma linha e inicial.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wartortle",
+      "distratores": [
+        "Squirtle",
+        "Blastoise",
+        "Marshtomp"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wartortle",
+        "descricao": "Pokémon tartaruga de água da primeira geração, evolução de Squirtle, número 8 da Pokédex Nacional.",
+        "variantes": [
+          "Kameil"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Barbatana na cabeça e braços erguidos, reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Marshtomp",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Marshtomp",
+        "descricao": "Pokémon anfíbio de água e terra da terceira geração, forma intermediária entre Mudkip e Swampert, número 259 da Pokédex Nacional.",
+        "variantes": [
+          "Numacraw"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Papagaio com cauda em forma de nota musical e crista; contorno característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Chatot",
+      "distratores": [
+        "Farfetch'd",
+        "Swellow",
+        "Torchic"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Chatot",
+        "descricao": "Pokémon pássaro de tipo normal e voador da quarta geração, com cauda em forma de nota musical, número 441 da Pokédex Nacional.",
+        "variantes": [
+          "Perap"
+        ]
+      }
+    }
+  ]
+}
