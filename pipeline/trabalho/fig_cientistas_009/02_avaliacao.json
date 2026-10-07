@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este cientista?",
+      "resposta": "Albert Sabin",
+      "destino": 3,
+      "ancora": {
+        "nome": "Albert Sabin",
+        "descricao": "Médico pesquisador polonês-americano que desenvolveu a vacina oral contra a poliomielite.",
+        "variantes": [
+          "Albert Bruce Sabin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; pergunta além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este escritor e professor de bioquímica é mais famoso por qual série de ficção científica?",
+      "resposta": "Fundação",
+      "destino": 5,
+      "ancora": {
+        "nome": "Isaac Asimov",
+        "descricao": "Escritor americano de ficção científica e professor de bioquímica, autor da série Fundação.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido; a assinatura é do pintor, não entrega o nome da retratada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta astrônoma retratada em pintura?",
+      "resposta": "Caroline Herschel",
+      "destino": 7,
+      "ancora": {
+        "nome": "Caroline Herschel",
+        "descricao": "Astrônoma germano-britânica do século dezoito, descobridora de cometas e irmã de William Herschel.",
+        "variantes": [
+          "Caroline Lucretia Herschel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Astronauta de viseira espelhada, sem rosto visível; não é reconhecível pela imagem e a resposta não é única (poderia ser confundido com Armstrong)."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Figura pública; o texto do telão ao fundo é ilegível e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta médica brasileira?",
+      "resposta": "Zilda Arns",
+      "destino": 3,
+      "ancora": {
+        "nome": "Zilda Arns",
+        "descricao": "Médica pediatra e sanitarista brasileira, fundadora da Pastoral da Criança.",
+        "variantes": [
+          "Zilda Arns Neumann"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; múltipla escolha para ajudar o reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que neurocientista brasileiro é este?",
+      "resposta": "Miguel Nicolelis",
+      "distratores": [
+        "Marcelo Gleiser",
+        "Drauzio Varella",
+        "Átila Iamarino"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Miguel Nicolelis",
+        "descricao": "Neurocientista e médico brasileiro, pioneiro das interfaces cérebro-máquina.",
+        "variantes": [
+          "Miguel Ângelo Laporta Nicolelis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A etiqueta ARMSTRONG no traje espacial está legível e entrega a resposta (poderia ser recortada)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; pergunta sobre a invenção.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este cientista da computação inglês propôs, em mil novecentos e oitenta e nove, qual sistema de informação?",
+      "resposta": "World Wide Web",
+      "distratores": [
+        "Correio eletrônico",
+        "Mecanismo de busca",
+        "Rede Ethernet"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Tim Berners-Lee",
+        "descricao": "Cientista da computação inglês, inventor da World Wide Web.",
+        "variantes": [
+          "Timothy John Berners-Lee",
+          "TimBL"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato histórico claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estrutura da célula recebeu o nome deste cientista italiano?",
+      "resposta": "Complexo de Golgi",
+      "destino": 6,
+      "ancora": {
+        "nome": "Camillo Golgi",
+        "descricao": "Médico e biólogo italiano, Nobel de Medicina em 1906, que deu nome ao complexo de Golgi.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; o colar em forma da África não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta cientista inglesa ficou famosa por estudar, durante décadas, qual animal?",
+      "resposta": "Chimpanzés",
+      "destino": 6,
+      "ancora": {
+        "nome": "Jane Goodall",
+        "descricao": "Primatóloga inglesa conhecida por seus estudos de chimpanzés selvagens em Gombe, na Tanzânia.",
+        "variantes": [
+          "Valerie Jane Morris-Goodall"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura em domínio público, sem texto, retrato claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista italiano é este?",
+      "resposta": "Amedeo Avogadro",
+      "distratores": [
+        "Alessandro Volta",
+        "Luigi Galvani",
+        "Stanislao Cannizzaro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Amedeo Avogadro",
+        "descricao": "Cientista italiano que deu nome à lei e à constante de Avogadro.",
+        "variantes": [
+          "Lorenzo Romano Amedeo Carlo Avogadro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto antiga de rosto, sem texto; figura pública brasileira.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este físico brasileiro foi um dos descobridores de qual partícula subatômica?",
+      "resposta": "Píon",
+      "distratores": [
+        "Múon",
+        "Pósitron",
+        "Néutron"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "César Lattes",
+        "descricao": "Físico experimental brasileiro, um dos descobridores do píon.",
+        "variantes": [
+          "Cesare Mansueto Giulio Lattes"
+        ]
+      }
+    }
+  ]
+}

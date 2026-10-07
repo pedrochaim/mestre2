@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que físico brasileiro é este?",
+        "resposta": "César Lattes"
+      },
+      "existentes": [
+        {
+          "id": "q03010",
+          "pergunta": "O sobrenome do físico paranaense que ajudou a descobrir o méson pi batiza que famosa plataforma brasileira de currículos de pesquisadores?",
+          "resposta": "Plataforma Lattes"
+        },
+        {
+          "id": "q03011",
+          "pergunta": "Em 1947, César Lattes expôs chapas fotográficas no alto de que montanha da Bolívia para detectar o méson pi nos raios cósmicos?",
+          "resposta": "Monte Chacaltaya"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação de César Lattes por imagem; as existentes tratam da Plataforma Lattes e do Monte Chacaltaya, fatos diferentes."
+    }
+  ]
+}

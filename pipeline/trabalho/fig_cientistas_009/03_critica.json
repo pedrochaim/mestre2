@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista nem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Professor de bioquímica' somado a 'ficção científica' descreve Asimov sozinho; a figura vira enfeite. Tirar a pista da bioquímica.",
+      "reescrita": {
+        "pergunta": "Este escritor americano do século vinte é mais famoso por qual série de ficção científica?",
+        "resposta": "Fundação"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retratada em pintura' não consta em mostra e pode ser falso para a foto. Remover.",
+      "reescrita": {
+        "pergunta": "Quem é esta astrônoma?",
+        "resposta": "Caroline Herschel"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento; médica brasileira confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são cientistas brasileiros críveis, curtos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Cientista inglês, 1989 e sistema de informação entregam a World Wide Web sem a figura; o feito único é a pista. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Perguntar a estrutura que leva o nome do cientista entrega a resposta sem olhar a imagem. Trocar por fato posterior ao reconhecimento (Nobel de 1906).",
+      "reescrita": {
+        "pergunta": "Este médico italiano recebeu o prêmio Nobel de Medicina. Em que ano?",
+        "resposta": "1906"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cientista inglesa famosa por estudar um animal por décadas entrega Goodall e chimpanzés sem a figura. Pedir o nome.",
+      "reescrita": {
+        "pergunta": "Quem é esta cientista inglesa?",
+        "resposta": "Jane Goodall"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores italianos da mesma área; nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Físico brasileiro que descobriu uma partícula entrega Lattes sem a figura. Pedir o nome, com distratores físicos brasileiros.",
+      "reescrita": {
+        "pergunta": "Que físico brasileiro é este?",
+        "resposta": "César Lattes",
+        "distratores": [
+          "Mário Schenberg",
+          "José Leite Lopes",
+          "Oscar Sala"
+        ]
+      }
+    }
+  ]
+}
