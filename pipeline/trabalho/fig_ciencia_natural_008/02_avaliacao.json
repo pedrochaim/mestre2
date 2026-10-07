@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close do rosto de uma pessoa comum, sem contexto; fácil demais e sem valor como pergunta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Esqueleto com a clavícula destacada em vermelho, sem texto; clara e legível.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que osso aparece destacado em vermelho neste esqueleto?",
+      "resposta": "Clavícula",
+      "distratores": [
+        "Esterno",
+        "Escápula",
+        "Costela"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Clavícula",
+        "descricao": "Osso longo, em forma de S, que liga a escápula ao esterno e forma o ombro.",
+        "variantes": [
+          "Osso da clavícula"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Impressão digital nítida, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "O que é esta marca de linhas?",
+      "resposta": "Impressão digital",
+      "destino": 1,
+      "ancora": {
+        "nome": "Impressão digital",
+        "descricao": "Marca deixada pelas cristas de fricção da pele da ponta do dedo humano.",
+        "variantes": [
+          "Digital"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cristais amarelos de enxofre nativo, característicos; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico forma estes cristais amarelos?",
+      "resposta": "Enxofre",
+      "distratores": [
+        "Fósforo",
+        "Cloro",
+        "Ouro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Enxofre",
+        "descricao": "Elemento químico de símbolo S e número atômico 16, sólido amarelo.",
+        "variantes": [
+          "Enxofre nativo",
+          "Sulfur"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem traz legenda 'Tomato leaf stomate 1' que entrega a resposta, além de escala e códigos."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Diagrama do coração com apenas números nas indicações, sem nomes; órgão reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que órgão do corpo humano é representado neste esquema?",
+      "resposta": "Coração",
+      "destino": 1,
+      "ancora": {
+        "nome": "Coração",
+        "descricao": "Órgão muscular que bombeia o sangue pelo sistema circulatório.",
+        "variantes": [
+          "Coração humano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Prancha de Haeckel com vários liquens em desenho; não é fácil reconhecer o assunto e lembra corais ou algas."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Cristal translúcido que dificilmente se reconhece como calcita; pode ser confundido com outros minerais."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cristal vermelho em matriz; pode ser confundido com espinélio ou outros minerais, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica de grãos de pólen variados, um só assunto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "O que são estas estruturas vistas ao microscópio eletrônico?",
+      "resposta": "Grãos de pólen",
+      "distratores": [
+        "Bactérias",
+        "Ovos de insetos",
+        "Cristais de sal"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pólen",
+        "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+        "variantes": [
+          "Grão de pólen",
+          "Grãos de pólen"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arranjo microscópico de frústulas de diatomáceas, sem texto, característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que organismos microscópicos, com carapaças de sílica, formam este arranjo?",
+      "resposta": "Diatomáceas",
+      "distratores": [
+        "Radiolários",
+        "Foraminíferos",
+        "Dinoflagelados"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Diatomácea",
+        "descricao": "Microalga unicelular com carapaça de sílica, abundante nos oceanos e nas águas doces.",
+        "variantes": [
+          "Diatomáceas",
+          "Diatomito"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Dois tubos de ensaio com líquidos coloridos, presos por pinças; só uma mão anônima aparece.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça de vidro de laboratório é esta?",
+      "resposta": "Tubo de ensaio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubo de ensaio",
+        "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+        "variantes": [
+          "Tubo de teste"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Clavícula",
+        "descricao": "Osso longo, em forma de S, que liga a escápula ao esterno e forma o ombro.",
+        "variantes": [
+          "Osso da clavícula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canicula",
+          "nome": "Canícula",
+          "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+          "variantes": [
+            "Dias de cão",
+            "Dog days"
+          ]
+        },
+        {
+          "id": "caligula",
+          "nome": "Calígula",
+          "descricao": "Terceiro imperador romano, que governou de 37 a 41 depois de Cristo.",
+          "variantes": [
+            "Caio César Augusto Germânico",
+            "Gaius Caesar"
+          ]
+        },
+        {
+          "id": "cicuta",
+          "nome": "Cicuta",
+          "descricao": "Planta venenosa Conium maculatum, da família da cenoura",
+          "variantes": [
+            "Conium maculatum",
+            "hemlock",
+            "cicuta-maior"
+          ]
+        },
+        {
+          "id": "celula",
+          "nome": "Célula",
+          "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+          "variantes": [
+            "Cell"
+          ]
+        },
+        {
+          "id": "vuelta_a_espana",
+          "nome": "Vuelta a España",
+          "descricao": "Volta ciclística da Espanha, uma das três grandes voltas do ciclismo de estrada.",
+          "variantes": [
+            "Volta da Espanha",
+            "La Vuelta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Impressão digital",
+        "descricao": "Marca deixada pelas cristas de fricção da pele da ponta do dedo humano.",
+        "variantes": [
+          "Digital"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "perfil_genetico",
+          "nome": "Perfil genético",
+          "descricao": "Técnica de identificação de pessoas pelo DNA, criada por Alec Jeffreys e usada em perícias e testes de paternidade.",
+          "variantes": [
+            "Impressão digital genética",
+            "DNA profiling",
+            "Exame de DNA"
+          ]
+        },
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos"
+          ]
+        },
+        {
+          "id": "bhagavad_gita",
+          "nome": "Bhagavad Gita",
+          "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata.",
+          "variantes": [
+            "Gita"
+          ]
+        },
+        {
+          "id": "rene_higuita",
+          "nome": "René Higuita",
+          "descricao": "Ex-goleiro colombiano dos anos 1980 e 1990, famoso pelo estilo ousado e pelas saídas do gol.",
+          "variantes": [
+            "Higuita",
+            "El Loco"
+          ]
+        },
+        {
+          "id": "camera_digital",
+          "nome": "Câmera digital",
+          "descricao": "Câmera fotográfica que registra imagens em formato digital, por meio de um sensor eletrônico, em vez de filme.",
+          "variantes": [
+            "Máquina fotográfica digital"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Enxofre",
+        "descricao": "Elemento químico de símbolo S e número atômico 16, sólido amarelo.",
+        "variantes": [
+          "Enxofre nativo",
+          "Sulfur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "uluru",
+          "nome": "Uluru",
+          "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para o povo aborígene Anangu.",
+          "variantes": [
+            "Ayers Rock",
+            "Uluru / Ayers Rock"
+          ]
+        },
+        {
+          "id": "sepultura",
+          "nome": "Sepultura",
+          "descricao": "Banda de heavy metal formada em Belo Horizonte pelos irmãos Max e Igor Cavalera.",
+          "variantes": []
+        },
+        {
+          "id": "sucuri_verde",
+          "nome": "Sucuri-verde",
+          "descricao": "Grande serpente constritora (Eunectes murinus) de rios e pântanos da América do Sul.",
+          "variantes": [
+            "Sucuri",
+            "Anaconda-verde",
+            "Eunectes murinus"
+          ]
+        },
+        {
+          "id": "cenote",
+          "nome": "Cenote",
+          "descricao": "Poço natural formado pelo desabamento de rocha calcária, que expõe água subterrânea, típico da península de Iucatã.",
+          "variantes": [
+            "Cenotes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Coração",
+        "descricao": "Órgão muscular que bombeia o sangue pelo sistema circulatório.",
+        "variantes": [
+          "Coração humano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coracao_humano",
+          "nome": "Coração humano",
+          "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+          "variantes": [
+            "Coração"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "krakatoa",
+          "nome": "Krakatoa",
+          "descricao": "Ilha vulcânica no estreito de Sunda, na Indonésia, cuja erupção de 1883 foi uma das mais violentas da história.",
+          "variantes": [
+            "Krakatau",
+            "Cracatoa"
+          ]
+        },
+        {
+          "id": "erupcao_do_krakatoa_de_1883",
+          "nome": "Erupção do Krakatoa de 1883",
+          "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883.",
+          "variantes": [
+            "Krakatoa",
+            "Cracatoa",
+            "Krakatau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pólen",
+        "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+        "variantes": [
+          "Grão de pólen",
+          "Grãos de pólen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "picole",
+          "nome": "Picolé",
+          "descricao": "Sorvete ou refresco congelado preso a um palito.",
+          "variantes": [
+            "Ice pop",
+            "Popsicle",
+            "Geladinho de palito"
+          ]
+        },
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Diatomácea",
+        "descricao": "Microalga unicelular com carapaça de sílica, abundante nos oceanos e nas águas doces.",
+        "variantes": [
+          "Diatomáceas",
+          "Diatomito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_dinamarca",
+          "nome": "Bandeira da Dinamarca",
+          "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog.",
+          "variantes": [
+            "Dinamarca",
+            "Dannebrog",
+            "Bandeira dinamarquesa"
+          ]
+        },
+        {
+          "id": "dinamarca",
+          "nome": "Dinamarca",
+          "descricao": "País nórdico do norte da Europa, ao norte da Alemanha, cuja capital é Copenhague.",
+          "variantes": [
+            "Denmark"
+          ]
+        },
+        {
+          "id": "dinamite",
+          "nome": "Dinamite",
+          "descricao": "Explosivo à base de nitroglicerina absorvida em material poroso, patenteado por Alfred Nobel em 1867.",
+          "variantes": [
+            "Dynamite"
+          ]
+        },
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "domino",
+          "nome": "Dominó",
+          "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis.",
+          "variantes": [
+            "Dominós"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tubo de ensaio",
+        "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+        "variantes": [
+          "Tubo de teste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubo_de_geissler",
+          "nome": "Tubo de Geissler",
+          "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+          "variantes": [
+            "Tubos de Geissler"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "tubo_de_crookes",
+          "nome": "Tubo de Crookes",
+          "descricao": "Tubo de descarga com vácuo parcial e dois eletrodos, em que foram descobertos os raios catódicos.",
+          "variantes": [
+            "Crookes tube",
+            "Tubo de Crookes-Hittorf"
+          ]
+        },
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": []
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a clavícula."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Impressão digital da pele difere do perfil genético (DNA)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Enxofre não está entre as candidatas; cobre é outro elemento."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "coracao_humano",
+      "motivo": "Mesmo órgão muscular que bombeia o sangue; variantes coincidem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é pólen."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é diatomácea."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tubo de ensaio é vidraria diferente dos tubos de Geissler e Crookes."
+    }
+  ]
+}

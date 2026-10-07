@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que órgão do corpo humano é representado neste esquema?",
+        "resposta": "Coração"
+      },
+      "existentes": [
+        {
+          "id": "q06329",
+          "pergunta": "O coração humano tem quatro cavidades. Duas são os átrios. Como se chamam as outras duas?",
+          "resposta": "Ventrículos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o órgão (coração) num esquema; a existente pede o nome das outras cavidades (ventrículos). Fatos diferentes."
+    }
+  ]
+}

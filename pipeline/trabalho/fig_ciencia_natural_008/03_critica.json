@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o osso; distratores são ossos vizinhos, curtos e errados. Clavícula liga escápula e esterno, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'cristais amarelos' é a descrição clássica do enxofre e permite responder sem ver a figura. O distrator 'Ouro' também é amarelo, o que só o confunde. Tirei a cor e troquei os distratores.",
+      "reescrita": {
+        "pergunta": "Que elemento químico forma estes cristais?",
+        "resposta": "Enxofre",
+        "distratores": [
+          "Fósforo",
+          "Iodo",
+          "Cobre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista que entregue a resposta; o coração é o órgão representado, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; distratores do mesmo tipo (microestruturas) e nenhum correto para a imagem de pólen.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Carapaças de sílica' quase entrega a resposta e também descreve os radiolários, um distrator, que têm esqueleto silicoso. Usei uma pista mais geral e distratores que não têm sílica.",
+      "reescrita": {
+        "pergunta": "Que algas microscópicas formam este arranjo visto ao microscópio?",
+        "resposta": "Diatomáceas",
+        "distratores": [
+          "Dinoflagelados",
+          "Cocolitóforos",
+          "Euglenas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples; a descrição na pergunta não entrega o nome e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
