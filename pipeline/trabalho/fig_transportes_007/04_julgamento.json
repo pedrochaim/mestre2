@@ -1,0 +1,210 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "F-14 Tomcat",
+        "descricao": "Caça embarcado americano supersônico de dois motores e asas de geometria variável, usado pela Marinha dos EUA.",
+        "variantes": [
+          "Grumman F-14 Tomcat",
+          "F-14"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fiat_147",
+          "nome": "Fiat 147",
+          "descricao": "Carro compacto produzido pela Fiat no Brasil a partir de 1976.",
+          "variantes": [
+            "Fiat 147 a álcool"
+          ]
+        },
+        {
+          "id": "formula_1",
+          "nome": "Fórmula 1",
+          "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950.",
+          "variantes": [
+            "Formula One",
+            "F1"
+          ]
+        },
+        {
+          "id": "ufc_1",
+          "nome": "UFC 1",
+          "descricao": "Primeiro evento do Ultimate Fighting Championship, realizado em Denver em novembro de 1993.",
+          "variantes": [
+            "UFC 1: The Beginning",
+            "Primeiro UFC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sinclair C5",
+        "descricao": "Triciclo elétrico reclinado de um lugar, lançado em 1985 pelo empresário britânico Clive Sinclair.",
+        "variantes": [
+          "C5"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "velocidade_da_luz",
+          "nome": "Velocidade da luz",
+          "descricao": "Velocidade de propagação da luz no vácuo, cerca de trezentos mil quilômetros por segundo.",
+          "variantes": [
+            "Speed of light",
+            "c"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ferrari F40",
+        "descricao": "Esportivo de motor central da Ferrari, criado para celebrar os quarenta anos da marca e produzido a partir de 1987.",
+        "variantes": [
+          "F40"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferrari",
+          "nome": "Ferrari",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Enzo Ferrari, com o símbolo do cavalo empinado.",
+          "variantes": [
+            "Scuderia Ferrari"
+          ]
+        },
+        {
+          "id": "enzo_ferrari",
+          "nome": "Enzo Ferrari",
+          "descricao": "Piloto e empresário italiano, fundador da Scuderia Ferrari e da fabricante Ferrari.",
+          "variantes": [
+            "Il Commendatore"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Toyota Bandeirante",
+        "descricao": "Jipe de tração nas quatro rodas da Toyota, série 40 do Land Cruiser, fabricado no Brasil com o nome Bandeirante.",
+        "variantes": [
+          "Toyota Land Cruiser série 40",
+          "Land Cruiser FJ40",
+          "Bandeirante"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_etiopia",
+          "nome": "Bandeira da Etiópia",
+          "descricao": "Bandeira nacional da Etiópia, tricolor verde, amarela e vermelha com disco azul e estrela amarela.",
+          "variantes": [
+            "Etiópia",
+            "Bandeira etíope"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha_nazista",
+          "nome": "Bandeira da Alemanha Nazista",
+          "descricao": "Bandeira vermelha com suástica negra em círculo branco, do Partido Nazista e bandeira nacional alemã de 1935 a 1945.",
+          "variantes": [
+            "Bandeira nazista",
+            "Hakenkreuzflagge"
+          ]
+        },
+        {
+          "id": "embraer_bandeirante",
+          "nome": "Embraer Bandeirante",
+          "descricao": "Avião turboélice bimotor leve de transporte EMB 110, projetado pela Embraer e lançado no fim dos anos 1960.",
+          "variantes": [
+            "EMB 110",
+            "Embraer EMB 110 Bandeirante",
+            "EMB-110"
+          ]
+        },
+        {
+          "id": "bandeira_do_libano",
+          "nome": "Bandeira do Líbano",
+          "descricao": "Bandeira nacional do Líbano, com faixas vermelhas e um cedro verde sobre a faixa branca central.",
+          "variantes": [
+            "Bandeira libanesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Navio-escola Amerigo Vespucci",
+        "descricao": "Veleiro de três mastros da Marinha Italiana, com base em La Spezia, usado como navio-escola.",
+        "variantes": [
+          "Amerigo Vespucci",
+          "Italian training ship Amerigo Vespucci"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "americo_vespucio",
+          "nome": "Américo Vespúcio",
+          "descricao": "Navegador florentino que explorou o litoral da América do Sul a serviço da Espanha e de Portugal e deu nome à América.",
+          "variantes": [
+            "Amerigo Vespucci"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o caça F-14."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Triciclo elétrico não corresponde às candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Modelo F40 é distinto da marca Ferrari e do fundador."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Jipe Toyota difere do avião Embraer Bandeirante e das bandeiras."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Navio é distinto do navegador homônimo."
+    }
+  ]
+}

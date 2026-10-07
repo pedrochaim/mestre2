@@ -1,0 +1,146 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns em primeiro plano remando; canoa escavada genérica, sem família de pergunta que renda."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "F-14 em voo, asas recuadas inconfundíveis; texto visível (NG, 101) não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que empresa americana fabricou este caça naval?",
+      "resposta": "Grumman",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "F-14 Tomcat",
+        "descricao": "Caça embarcado americano supersônico de dois motores e asas de geometria variável, usado pela Marinha dos EUA.",
+        "variantes": [
+          "Grumman F-14 Tomcat",
+          "F-14"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Sinclair C5 em foto limpa, sem texto nem pessoas; forma inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresário britânico idealizou este veículo elétrico de três rodas, lançado nos anos oitenta?",
+      "resposta": "Clive Sinclair",
+      "distratores": [
+        "Alan Sugar",
+        "Richard Branson",
+        "James Dyson"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sinclair C5",
+        "descricao": "Triciclo elétrico reclinado de um lugar, lançado em 1985 pelo empresário britânico Clive Sinclair.",
+        "variantes": [
+          "C5"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bicicleta genérica (Adler antiga) com placa informativa legível; resposta não única e sem pergunta interessante."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pintura de um veleiro do século dezessete genérico; o Mayflower não é reconhecível pela imagem, e há assinatura do pintor."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Carro em feira com público ao fundo, script do modelo na lateral e identificação difícil; versão americana difere do Aero Willys brasileiro."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ferrari F40 claramente reconhecível; sem texto que entregue o ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano começou a ser produzido este esportivo?",
+      "resposta": "1987",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ferrari F40",
+        "descricao": "Esportivo de motor central da Ferrari, criado para celebrar os quarenta anos da marca e produzido a partir de 1987.",
+        "variantes": [
+          "F40"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Muito texto visível (nome, rota, Isuzu, placa) e passageiros comuns em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Veleiro de lazer genérico, sem entidade específica reconhecível; pergunta sobre época não renderia, e há texto no pano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Jipe série 40 em foto clara; a marca visível não entrega o nome brasileiro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome este jipe japonês recebeu no Brasil?",
+      "resposta": "Bandeirante",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toyota Bandeirante",
+        "descricao": "Jipe de tração nas quatro rodas da Toyota, série 40 do Land Cruiser, fabricado no Brasil com o nome Bandeirante.",
+        "variantes": [
+          "Toyota Land Cruiser série 40",
+          "Land Cruiser FJ40",
+          "Bandeirante"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Veleiro de três mastros com casco preto e listras brancas, inconfundível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que veleiro-escola de três mastros é este?",
+      "resposta": "Amerigo Vespucci",
+      "distratores": [
+        "Gorch Fock",
+        "Sagres",
+        "Cuauhtémoc"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Navio-escola Amerigo Vespucci",
+        "descricao": "Veleiro de três mastros da Marinha Italiana, com base em La Spezia, usado como navio-escola.",
+        "variantes": [
+          "Amerigo Vespucci",
+          "Italian training ship Amerigo Vespucci"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto visível (City of Chico, Fire Department, Engine 4) entrega o assunto; veículo genérico."
+    }
+  ]
+}

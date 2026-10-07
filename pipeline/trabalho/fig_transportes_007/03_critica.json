@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Grumman F-14 Tomcat. O enunciado não nomeia a entidade e a resposta exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'veículo elétrico de três rodas, lançado nos anos oitenta' por empresário britânico já aponta o C5 e Clive Sinclair, então a figura vira enfeite. Basta tirar a descrição do veículo e manter a época.",
+      "reescrita": {
+        "pergunta": "Que empresário britânico idealizou este veículo, lançado nos anos oitenta?",
+        "resposta": "Clive Sinclair",
+        "distratores": [
+          "Alan Sugar",
+          "Richard Branson",
+          "James Dyson"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o F40 foi construído a partir de 1987. O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o modelo foi vendido no Brasil como Bandeirante. O enunciado diz apenas 'jipe japonês', sem nomear o veículo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Amerigo Vespucci como veleiro-escola da Marinha Italiana. Os distratores são veleiros-escola de outros países, do mesmo tipo e com até 4 palavras, e nenhum descreve a figura.",
+      "reescrita": null
+    }
+  ]
+}
