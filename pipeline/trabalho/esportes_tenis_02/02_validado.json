@@ -1,0 +1,1193 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "USTA Billie Jean King National Tennis Center",
+        "descricao": "Complexo de tênis em Flushing Meadows, Nova York, sede do US Open desde 1978.",
+        "variantes": [
+          "Centro Nacional de Tênis Billie Jean King",
+          "USTA National Tennis Center",
+          "Flushing Meadows"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/USTA_Billie_Jean_King_National_Tennis_Center"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Desde 1978, o US Open é disputado no complexo de Flushing Meadows. Ele fica em qual distrito de Nova York?",
+      "resposta": "Queens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/USTA_Billie_Jean_King_National_Tennis_Center"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Masters de Monte Carlo",
+        "descricao": "Torneio masculino de tênis em quadra de saibro, da série Masters 1000, disputado no Monte Carlo Country Club.",
+        "variantes": [
+          "Monte-Carlo Masters",
+          "Monte Carlo Rolex Masters"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monte-Carlo_Masters"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, o Masters de Monte Carlo é disputado num clube que fica em qual país?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monte-Carlo_Masters",
+        "https://en.wikipedia.org/wiki/Monte_Carlo_Country_Club"
+      ],
+      "distratores": [
+        "Mônaco",
+        "Itália",
+        "Espanha"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "taca_davis",
+        "nome": "Taça Davis",
+        "descricao": "Troféu da principal competição de seleções do tênis masculino.",
+        "variantes": [
+          "Copa Davis",
+          "Davis Cup"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Davis_Cup"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1900, a primeira disputa da Taça Davis, entre Estados Unidos e Grã-Bretanha, aconteceu em qual cidade americana?",
+      "resposta": "Boston",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Davis_Cup"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Hall da Fama Internacional do Tênis",
+        "descricao": "Museu e galeria de homenagem aos grandes nomes do tênis, instalado no Newport Casino, nos Estados Unidos.",
+        "variantes": [
+          "International Tennis Hall of Fame"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Tennis_Hall_of_Fame"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Hall da Fama Internacional do Tênis funciona no clube que recebeu, em 1881, o primeiro campeonato nacional americano. Em que cidade ele fica?",
+      "resposta": "Newport",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Tennis_Hall_of_Fame",
+        "https://en.wikipedia.org/wiki/Newport_Casino"
+      ],
+      "distratores": [
+        "Boston",
+        "Filadélfia",
+        "Baltimore"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Tennis Masters Cup de 2000",
+        "descricao": "Torneio de fim de temporada da ATP em 2000, vencido por Gustavo Kuerten.",
+        "variantes": [
+          "2000 Tennis Masters Cup",
+          "Masters Cup 2000"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2000_Tennis_Masters_Cup"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2000, Guga derrotou Sampras e Agassi, venceu a Masters Cup e terminou o ano como número um. Em que cidade foi esse torneio?",
+      "resposta": "Lisboa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2000_Tennis_Masters_Cup",
+        "https://en.wikipedia.org/wiki/Gustavo_Kuerten"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Maria Sharapova",
+        "descricao": "Tenista russa nascida em 1987, ex-número 1 do mundo e campeã dos quatro torneios de Grand Slam.",
+        "variantes": [
+          "Mariya Sharapova"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maria_Sharapova"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Ainda criança, em 1994, a russa Maria Sharapova se mudou com o pai para treinar tênis em qual estado americano?",
+      "resposta": "Flórida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maria_Sharapova"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Andy Murray",
+        "descricao": "Tenista escocês nascido em 1987, ex-número 1 do mundo, campeão de Wimbledon em 2013 e 2016.",
+        "variantes": [
+          "Sir Andy Murray",
+          "Andrew Murray"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andy_Murray"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Andy Murray cresceu em qual cidade escocesa, onde, aos oito anos, sobreviveu ao massacre na sua escola, em 1996?",
+      "resposta": "Dunblane",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andy_Murray",
+        "https://en.wikipedia.org/wiki/Dunblane_massacre"
+      ],
+      "distratores": [
+        "Edimburgo",
+        "Aberdeen",
+        "Inverness"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Li Na",
+        "descricao": "Tenista chinesa nascida em 1982, campeã de Roland Garros em 2011 e do Aberto da Austrália em 2014.",
+        "variantes": [
+          "Na Li"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Li_Na"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2011, a chinesa Li Na se tornou a primeira tenista de um país asiático a vencer um Grand Slam de simples. Em qual torneio?",
+      "resposta": "Roland Garros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Li_Na",
+        "https://en.wikipedia.org/wiki/2011_French_Open_%E2%80%93_Women%27s_singles"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Roger Federer",
+        "descricao": "Tenista suíço nascido em 1981, ex-número 1 do mundo e campeão de 20 torneios de Grand Slam, aposentado em 2022.",
+        "variantes": [
+          "Federer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roger_Federer"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Roger Federer foi gandula no torneio de quadra coberta da sua cidade natal, onde depois foi campeão várias vezes. Que cidade suíça é essa?",
+      "resposta": "Basileia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roger_Federer",
+        "https://en.wikipedia.org/wiki/Swiss_Indoors"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "João Fonseca",
+        "descricao": "Tenista brasileiro nascido em 2006 no Rio de Janeiro, campeão do ATP de Buenos Aires em 2025.",
+        "variantes": [
+          "João Fonseca (tenista)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Fonseca_(tenista)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2025, o carioca João Fonseca conquistou seu primeiro título no circuito principal da ATP. Em qual capital sul-americana?",
+      "resposta": "Buenos Aires",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2025_Argentina_Open",
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Fonseca_(tenista)"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "maria_esther_bueno",
+        "nome": "Maria Esther Bueno",
+        "descricao": "Tenista brasileira (1939-2018), sete vezes campeã de simples em Grand Slams e número um do mundo em 1959 e 1960.",
+        "variantes": [
+          "Maria Bueno"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maria_Esther_Bueno"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a paulistana Maria Esther Bueno venceu Wimbledon em simples pela primeira vez?",
+      "resposta": "1959",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maria_Esther_Bueno",
+        "https://en.wikipedia.org/wiki/Maria_Bueno"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Aberto da Austrália",
+        "descricao": "Torneio de Grand Slam disputado em Melbourne, o primeiro da temporada.",
+        "variantes": [
+          "Australian Open",
+          "Aberto da Austrália de Tênis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Australian_Open"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Aberto da Austrália deixou a grama e passou para a quadra dura em qual ano, ao se mudar para Melbourne Park?",
+      "resposta": "1988",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Australian_Open"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "US Open",
+        "descricao": "Torneio de Grand Slam de tênis disputado em Nova York, o último da temporada.",
+        "variantes": [
+          "Aberto dos Estados Unidos",
+          "US Open de tênis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/US_Open_(tennis)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O US Open, último Grand Slam do calendário, é disputado em quais meses do ano?",
+      "resposta": "Agosto e setembro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/US_Open_(tennis)"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Quadra Central de Wimbledon",
+        "descricao": "Principal quadra de grama do All England Club, em Londres, onde se disputam as finais de Wimbledon.",
+        "variantes": [
+          "Centre Court"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Centre_Court"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Quadra Central de Wimbledon ganhou um teto retrátil, que permite jogar mesmo com chuva, em qual ano?",
+      "resposta": "2009",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Centre_Court"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Simples feminino de Wimbledon",
+        "descricao": "Torneio de simples feminino do campeonato de Wimbledon, disputado desde 1884.",
+        "variantes": [
+          "Ladies' Singles de Wimbledon",
+          "Wimbledon Ladies' Singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_Wimbledon_ladies%27_singles_champions"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Wimbledon nasceu em 1877 só com o torneio masculino. Em que ano as mulheres passaram a disputar o título de simples?",
+      "resposta": "1884",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_Wimbledon_ladies%27_singles_champions"
+      ],
+      "distratores": [
+        "1879",
+        "1900",
+        "1919"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "hawk_eye",
+        "nome": "Hawk-Eye",
+        "descricao": "Sistema eletrônico de rastreamento da bola usado para revisar marcações de linha no tênis e em outros esportes.",
+        "variantes": [
+          "Olho de Falcão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hawk-Eye"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Hawk-Eye, que permite aos tenistas contestar marcações de linha, estreou num torneio de Grand Slam em qual ano?",
+      "resposta": "2006",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hawk-Eye"
+      ],
+      "distratores": [
+        "1999",
+        "2002",
+        "2012"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Lacoste (marca)",
+        "descricao": "Marca francesa de roupas com o símbolo de um crocodilo, fundada pelo tenista René Lacoste.",
+        "variantes": [
+          "Lacoste"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lacoste"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "René Lacoste fundou a marca de camisas com o crocodilo bordado no peito em qual década?",
+      "resposta": "Anos trinta (1933)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lacoste"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Torneio de Roland Garros",
+        "descricao": "Torneio de Grand Slam disputado em quadras de saibro em Paris, também chamado Aberto da França.",
+        "variantes": [
+          "Aberto da França",
+          "French Open",
+          "Roland-Garros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/French_Open"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Criado em 1891, o campeonato francês que deu origem a Roland Garros só passou a aceitar tenistas estrangeiros em qual década?",
+      "resposta": "Anos vinte (1925)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/French_Open"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Tênis em cadeira de rodas nos Jogos Paralímpicos",
+        "descricao": "Presença do tênis em cadeira de rodas no programa dos Jogos Paralímpicos de Verão.",
+        "variantes": [
+          "Wheelchair tennis at the Summer Paralympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wheelchair_tennis_at_the_Summer_Paralympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de ser apresentado como demonstração em Seul, o tênis em cadeira de rodas virou modalidade paralímpica oficial em qual edição dos Jogos?",
+      "resposta": "Barcelona 1992",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wheelchair_tennis_at_the_Summer_Paralympics"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "You cannot be serious",
+        "descricao": "Frase gritada por John McEnroe a um árbitro em Wimbledon 1981, depois usada como título da sua autobiografia.",
+        "variantes": [
+          "Você não pode estar falando sério"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/John_McEnroe"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Wimbledon 1981, que tenista americano gritou para o árbitro a frase you cannot be serious, que depois virou título da sua autobiografia?",
+      "resposta": "John McEnroe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_McEnroe"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Roland Garros de 1989 (simples masculino)",
+        "descricao": "Torneio de simples masculino do Aberto da França de 1989, vencido por Michael Chang.",
+        "variantes": [
+          "1989 French Open – Men's singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1989_French_Open_%E2%80%93_Men%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Roland Garros 1989, um americano de dezessete anos, com cãibras, sacou por baixo contra Ivan Lendl e acabou campeão. Quem era ele?",
+      "resposta": "Michael Chang",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Chang",
+        "https://en.wikipedia.org/wiki/1989_French_Open_%E2%80%93_Men%27s_singles"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Wimbledon de 2001 (simples masculino)",
+        "descricao": "Torneio de simples masculino de Wimbledon em 2001, vencido por um tenista convidado.",
+        "variantes": [
+          "2001 Wimbledon Championships – Men's singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2001_Wimbledon_Championships_%E2%80%93_Men%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2001, que croata, então fora dos cem primeiros do ranking, venceu Wimbledon depois de entrar no torneio por convite?",
+      "resposta": "Goran Ivanišević",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Goran_Ivani%C5%A1evi%C4%87",
+        "https://en.wikipedia.org/wiki/2001_Wimbledon_Championships_%E2%80%93_Men%27s_singles"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "US Open de 2021 (simples feminino)",
+        "descricao": "Torneio de simples feminino do US Open de 2021, vencido por uma tenista vinda do qualifying.",
+        "variantes": [
+          "2021 US Open – Women's singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2021_US_Open_%E2%80%93_Women%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2021, qual britânica de dezoito anos venceu o US Open vinda do qualifying, sem perder nenhum set?",
+      "resposta": "Emma Raducanu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emma_Raducanu",
+        "https://en.wikipedia.org/wiki/2021_US_Open_%E2%80%93_Women%27s_singles"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Ranking da ATP",
+        "descricao": "Classificação oficial dos tenistas profissionais masculinos, publicada pela ATP desde 1973.",
+        "variantes": [
+          "ATP rankings",
+          "Ranking mundial da ATP"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ATP_rankings"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1973, quando a ATP publicou seu primeiro ranking computadorizado, quem apareceu como número um?",
+      "resposta": "Ilie Năstase",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ATP_rankings",
+        "https://en.wikipedia.org/wiki/Ilie_N%C4%83stase"
+      ],
+      "distratores": [
+        "Jimmy Connors",
+        "Björn Borg",
+        "John Newcombe"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "grand_slam_tenis",
+        "nome": "Grand Slam (tênis)",
+        "descricao": "Conjunto dos quatro maiores torneios do tênis, e também o feito de vencer os quatro no mesmo ano.",
+        "variantes": [
+          "Grand Slam"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1938, quem se tornou o primeiro tenista a vencer os quatro torneios de Grand Slam no mesmo ano?",
+      "resposta": "Don Budge",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Don_Budge",
+        "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)"
+      ],
+      "distratores": [
+        "Fred Perry",
+        "Bill Tilden",
+        "Rod Laver"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "tenis_em_cadeira_de_rodas",
+        "nome": "Tênis em cadeira de rodas",
+        "descricao": "Modalidade de tênis adaptada para usuários de cadeira de rodas, em que a bola pode quicar duas vezes.",
+        "variantes": [
+          "Wheelchair tennis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wheelchair_tennis"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos setenta, que americano, paraplégico depois de um acidente de esqui, criou o tênis em cadeira de rodas?",
+      "resposta": "Brad Parks",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wheelchair_tennis",
+        "https://en.wikipedia.org/wiki/Brad_Parks"
+      ],
+      "distratores": [
+        "Ludwig Guttmann",
+        "Shingo Kunieda",
+        "Esther Vergeer"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Tênis nos Jogos Olímpicos de 1900",
+        "descricao": "Torneios de tênis disputados nos Jogos Olímpicos de Paris, em 1900, os primeiros com participação feminina.",
+        "variantes": [
+          "Tennis at the 1900 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tennis_at_the_1900_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos Jogos de Paris, em 1900, qual britânica venceu o tênis e se tornou a primeira campeã olímpica individual da história?",
+      "resposta": "Charlotte Cooper",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charlotte_Cooper_(tennis)",
+        "https://en.wikipedia.org/wiki/Tennis_at_the_1900_Summer_Olympics"
+      ],
+      "distratores": [
+        "Suzanne Lenglen",
+        "Lottie Dod",
+        "Maud Watson"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Rivais (filme)",
+        "descricao": "Filme americano de 2024 estrelado por Zendaya, sobre um triângulo amoroso entre três tenistas.",
+        "variantes": [
+          "Challengers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Challengers_(film)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que diretor italiano fez Rivais, filme de 2024 em que Zendaya vive uma ex-tenista disputada por dois jogadores?",
+      "resposta": "Luca Guadagnino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Challengers_(film)"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Martina Hingis",
+        "descricao": "Tenista suíça nascida em 1980, número 1 do mundo nos anos noventa e campeã de cinco Grand Slams em simples.",
+        "variantes": [
+          "Hingis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Martina_Hingis"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A mãe da tenista suíça Hingis, número um do mundo nos anos noventa, escolheu o prenome da filha em homenagem a qual tenista?",
+      "resposta": "Martina Navratilova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Martina_Hingis"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Quadra Suzanne-Lenglen",
+        "descricao": "Segunda maior quadra do complexo de Roland Garros, em Paris, inaugurada em 1994.",
+        "variantes": [
+          "Court Suzanne-Lenglen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Court_Suzanne_Lenglen"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A segunda maior quadra de Roland Garros homenageia qual francesa, seis vezes campeã de Wimbledon nos anos vinte?",
+      "resposta": "Suzanne Lenglen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Court_Suzanne_Lenglen",
+        "https://en.wikipedia.org/wiki/Suzanne_Lenglen"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Estádio Arthur Ashe",
+        "descricao": "Quadra principal do US Open, no complexo de Flushing Meadows, em Nova York, inaugurada em 1997.",
+        "variantes": [
+          "Arthur Ashe Stadium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arthur_Ashe_Stadium"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A quadra principal do US Open, em Nova York, leva o nome de qual tenista americano, campeão do torneio em 1968?",
+      "resposta": "Arthur Ashe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arthur_Ashe_Stadium"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Cotovelo de tenista",
+        "descricao": "Lesão por esforço repetitivo nos tendões da parte externa do cotovelo.",
+        "variantes": [
+          "Tennis elbow",
+          "Epicondilite lateral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tennis_elbow"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Cotovelo de tenista é o nome popular de qual inflamação nos tendões do braço?",
+      "resposta": "Epicondilite lateral",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tennis_elbow"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Tênis (calçado)",
+        "descricao": "Calçado esportivo de sola de borracha, chamado de tênis no Brasil.",
+        "variantes": [
+          "Sapatilha",
+          "Sneaker"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/T%C3%AAnis_(cal%C3%A7ado)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, o calçado esportivo de sola de borracha ganhou o nome de tênis por qual motivo?",
+      "resposta": "Era usado para jogar tênis",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/T%C3%AAnis_(cal%C3%A7ado)"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Jannik Sinner",
+        "descricao": "Tenista italiano nascido em 2001 no Tirol do Sul, número 1 do mundo e campeão de Grand Slams.",
+        "variantes": [
+          "Sinner"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jannik_Sinner"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de se dedicar ao tênis, o italiano Jannik Sinner foi campeão nacional infantil de qual esporte?",
+      "resposta": "Esqui",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jannik_Sinner"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Ashleigh Barty",
+        "descricao": "Tenista australiana nascida em 1996, ex-número 1 do mundo, aposentada em 2022.",
+        "variantes": [
+          "Ash Barty"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ashleigh_Barty"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Durante uma pausa no tênis, a australiana Ashleigh Barty jogou profissionalmente qual esporte, na liga feminina do seu país?",
+      "resposta": "Críquete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ashleigh_Barty"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Henrique V (peça)",
+        "descricao": "Peça histórica de William Shakespeare sobre o rei inglês Henrique V e a batalha de Agincourt.",
+        "variantes": [
+          "Henry V"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Henry_V_(play)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na peça Henrique V, de Shakespeare, o delfim da França provoca o jovem rei inglês enviando a ele qual presente?",
+      "resposta": "Bolas de tênis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_V_(play)"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Tennis for Two",
+        "descricao": "Um dos primeiros videogames da história, criado em 1958 por William Higinbotham num osciloscópio.",
+        "variantes": [
+          "Tênis para Dois"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tennis_for_Two"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1958, num laboratório americano, o físico William Higinbotham criou um dos primeiros videogames da história. Que esporte ele simulava?",
+      "resposta": "Tênis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tennis_for_Two"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Aberto da Austrália",
+        "descricao": "Torneio de Grand Slam disputado em Melbourne, o primeiro da temporada.",
+        "variantes": [
+          "Australian Open"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Australian_Open"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Aberto da Austrália foi disputado em 1985 e em 1987, mas não houve edição em 1986. Por quê?",
+      "resposta": "Mudou de dezembro para janeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Australian_Open"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "estadio_roland_garros",
+        "nome": "Estádio Roland Garros",
+        "descricao": "Complexo de tênis em Paris onde se disputa o Aberto da França, batizado em homenagem ao aviador Roland Garros.",
+        "variantes": [
+          "Stade Roland Garros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stade_Roland_Garros"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Depois que os Quatro Mosqueteiros conquistaram a Taça Davis, Paris construiu o estádio Roland Garros, em 1928. Para quê?",
+      "resposta": "Sediar a defesa da Taça Davis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stade_Roland_Garros"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Semifinal Anderson contra Isner em Wimbledon 2018",
+        "descricao": "Semifinal masculina de Wimbledon 2018 entre Kevin Anderson e John Isner, com mais de seis horas e quinto set de 26 a 24.",
+        "variantes": [
+          "Anderson x Isner 2018"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2018_Wimbledon_Championships_%E2%80%93_Men%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, uma semifinal de Wimbledon entre Kevin Anderson e John Isner durou mais de seis horas. Que mudança nas regras do torneio ela provocou?",
+      "resposta": "Tie-break no set decisivo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2018_Wimbledon_Championships_%E2%80%93_Men%27s_singles",
+        "https://en.wikipedia.org/wiki/Wimbledon_Championships"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "venus_williams",
+        "nome": "Venus Williams",
+        "descricao": "Tenista americana, número 1 do mundo e campeã de sete torneios de Grand Slam em simples.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Venus_Williams"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2006, Venus Williams publicou um artigo de jornal criticando Wimbledon. O que o torneio mudou no ano seguinte?",
+      "resposta": "Igualou os prêmios de homens e mulheres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Venus_Williams"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "gustavo_kuerten",
+        "nome": "Gustavo Kuerten",
+        "descricao": "Tenista brasileiro tricampeão de Roland Garros, o Guga.",
+        "variantes": [
+          "Guga"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gustavo_Kuerten"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quando conquistou Roland Garros pela primeira vez, em 1997, Guga ocupava qual posição no ranking mundial?",
+      "resposta": "Sexagésima sexta (66º)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gustavo_Kuerten",
+        "https://pt.wikipedia.org/wiki/Gustavo_Kuerten"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "boris_becker",
+        "nome": "Boris Becker",
+        "descricao": "Tenista alemão nascido em 1967, campeão de Wimbledon em 1985, 1986 e 1989.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boris_Becker"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1985, Boris Becker venceu Wimbledon sem ser cabeça de chave. Quantos anos ele tinha?",
+      "resposta": "Dezessete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boris_Becker"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Chris Evert",
+        "descricao": "Tenista americana nascida em 1954, ex-número 1 do mundo e campeã de 18 Grand Slams em simples.",
+        "variantes": [
+          "Chris Evert Lloyd",
+          "Chrissie Evert"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chris_Evert"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A americana Chris Evert, grande rival de Martina Navratilova, venceu Roland Garros em simples quantas vezes?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chris_Evert"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Laver Cup de 2022",
+        "descricao": "Edição de 2022 da Laver Cup, em Londres, em que Roger Federer fez a última partida da carreira.",
+        "variantes": [
+          "2022 Laver Cup"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2022_Laver_Cup"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 2022, na Laver Cup, em Londres, Roger Federer fez a última partida da carreira jogando em dupla com qual rival?",
+      "resposta": "Rafael Nadal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2022_Laver_Cup"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Roland Garros de 1997 (simples masculino)",
+        "descricao": "Torneio de simples masculino do Aberto da França de 1997, o primeiro título de Gustavo Kuerten.",
+        "variantes": [
+          "1997 French Open – Men's singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1997_French_Open_%E2%80%93_Men%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na final de Roland Garros de 1997, Guga derrotou qual tenista espanhol, que já tinha sido duas vezes campeão do torneio?",
+      "resposta": "Sergi Bruguera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1997_French_Open_%E2%80%93_Men%27s_singles"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "andre_agassi",
+        "nome": "Andre Agassi",
+        "descricao": "Ex-tenista americano, ex-número 1 do mundo e campeão de oito torneios de Grand Slam.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andre_Agassi"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na autobiografia Open, Andre Agassi contou que jogou a final de Roland Garros de 1990 com medo de perder o quê?",
+      "resposta": "A peruca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Open_(Agassi_autobiography)",
+        "https://en.wikipedia.org/wiki/Andre_Agassi"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Rufus (gavião)",
+        "descricao": "Gavião-asa-de-telha usado no complexo de Wimbledon para afastar pássaros das quadras.",
+        "variantes": [
+          "Rufus the Hawk"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rufus_(hawk)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Wimbledon, um gavião chamado Rufus sobrevoa as quadras nas manhãs do torneio. Qual é a função dele?",
+      "resposta": "Espantar os pombos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rufus_(hawk)"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Roland Garros de 2001 (simples masculino)",
+        "descricao": "Torneio de simples masculino do Aberto da França de 2001, o terceiro título de Gustavo Kuerten.",
+        "variantes": [
+          "2001 French Open – Men's singles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2001_French_Open_%E2%80%93_Men%27s_singles"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Roland Garros 2001, depois de salvar um match point contra o americano Michael Russell, o que Guga desenhou com a raquete no saibro?",
+      "resposta": "Um coração",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2001_French_Open_%E2%80%93_Men%27s_singles",
+        "https://pt.wikipedia.org/wiki/Gustavo_Kuerten"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "US Open",
+        "descricao": "Torneio de Grand Slam de tênis disputado em Nova York, o último da temporada.",
+        "variantes": [
+          "Aberto dos Estados Unidos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/US_Open_(tennis)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Tênis",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Entre 1975 e 1977, antes de se mudar para Flushing Meadows, o US Open foi disputado em qual tipo de piso?",
+      "resposta": "Saibro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/US_Open_(tennis)"
+      ],
+      "distratores": [
+        "Grama",
+        "Carpete",
+        "Quadra dura"
+      ]
+    }
+  ]
+}

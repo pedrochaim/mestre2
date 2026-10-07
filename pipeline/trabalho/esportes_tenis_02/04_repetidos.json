@@ -1,0 +1,225 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1900, a primeira disputa da Taça Davis, entre Estados Unidos e Grã-Bretanha, aconteceu em qual cidade americana?",
+        "resposta": "Boston"
+      },
+      "existentes": [
+        {
+          "id": "q00547",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Taça Davis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano a paulistana Maria Esther Bueno venceu Wimbledon em simples pela primeira vez?",
+        "resposta": "1959"
+      },
+      "existentes": [
+        {
+          "id": "q01667",
+          "pergunta": "Esta tenista brasileira é a única sul-americana a vencer o torneio de simples de qual Grand Slam?",
+          "resposta": "Wimbledon"
+        },
+        {
+          "id": "q01916",
+          "pergunta": "Em 1960, Maria Esther Bueno venceu os quatro torneios de Grand Slam do ano numa mesma modalidade. Qual?",
+          "resposta": "Duplas femininas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano um torneio de Grand Slam permitiu, pela primeira vez, que os tenistas contestassem marcações de linha com o Hawk-Eye?",
+        "resposta": "2006"
+      },
+      "existentes": [
+        {
+          "id": "q01891",
+          "pergunta": "Antes de chegar ao tênis, o sistema Hawk-Eye, que mostra se a bola tocou a linha, foi usado nas transmissões de qual esporte?",
+          "resposta": "Críquete"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ano o tenista René Lacoste e o empresário André Gillier fundaram a marca de camisas com o crocodilo bordado no peito?",
+        "resposta": "1933"
+      },
+      "existentes": [
+        {
+          "id": "q03804",
+          "pergunta": "Por que a camisa polo da marca francesa Lacoste exibe um crocodilo bordado no peito?",
+          "resposta": "Era o apelido do tenista René Lacoste"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1938, quem se tornou o primeiro tenista a vencer os quatro torneios de Grand Slam no mesmo ano?",
+        "resposta": "Don Budge"
+      },
+      "existentes": [
+        {
+          "id": "q01876",
+          "pergunta": "A expressão Grand Slam, usada para os quatro maiores torneios do tênis, foi emprestada de qual jogo de cartas?",
+          "resposta": "Bridge"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Nos anos setenta, que americano, paraplégico após um acidente de esqui, ficou conhecido como o pai do tênis competitivo em cadeira de rodas?",
+        "resposta": "Brad Parks"
+      },
+      "existentes": [
+        {
+          "id": "q02046",
+          "pergunta": "Que modalidade adaptada de tênis é esta?",
+          "resposta": "Tênis em cadeira de rodas"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Depois que os Quatro Mosqueteiros conquistaram a Taça Davis, Paris construiu o estádio Roland Garros, em 1928. Para quê?",
+        "resposta": "Sediar a defesa da Taça Davis"
+      },
+      "existentes": [
+        {
+          "id": "q01870",
+          "pergunta": "O estádio de Roland Garros, em Paris, homenageia um francês morto na Primeira Guerra Mundial. Ele foi pioneiro de qual atividade?",
+          "resposta": "Aviação"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 2006, Venus Williams publicou um artigo de jornal criticando Wimbledon. O que o torneio mudou no ano seguinte?",
+        "resposta": "Igualou os prêmios de homens e mulheres"
+      },
+      "existentes": [
+        {
+          "id": "q05967",
+          "pergunta": "Que tenista americana é esta?",
+          "resposta": "Venus Williams"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Quando conquistou Roland Garros pela primeira vez, em 1997, Guga ocupava qual posição no ranking mundial?",
+        "resposta": "Sexagésima sexta (66º)"
+      },
+      "existentes": [
+        {
+          "id": "q00536",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Gustavo Kuerten (Guga)"
+        },
+        {
+          "id": "q01886",
+          "pergunta": "Que problema físico, que exigiu cirurgias, abreviou a carreira de Gustavo Kuerten, encerrada em 2008?",
+          "resposta": "Lesão no quadril"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1985, Boris Becker venceu Wimbledon sem ser cabeça de chave. Quantos anos ele tinha?",
+        "resposta": "Dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q01879",
+          "pergunta": "Que apelido, que imita o som de uma explosão, o alemão Boris Becker ganhou por causa do seu saque potente?",
+          "resposta": "Boom Boom"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na autobiografia Open, Andre Agassi contou que jogou a final de Roland Garros de 1990 com medo de perder o quê?",
+        "resposta": "A peruca"
+      },
+      "existentes": [
+        {
+          "id": "q04206",
+          "pergunta": "Quem é este ex-tenista americano?",
+          "resposta": "Andre Agassi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade da primeira disputa é fato diferente de identificar o troféu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano da primeira vitória em Wimbledon difere de outros fatos; a existente pergunta o torneio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de adoção no Grand Slam versus esporte anterior."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ano de fundação difere do motivo do crocodilo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Primeiro a vencer o Grand Slam difere da origem da expressão."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pai do tênis em cadeira de rodas é fato diferente de identificar a modalidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Finalidade do estádio difere do homenageado."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mudança em Wimbledon difere de identificar a tenista."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ranking em 1997 é fato distinto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Idade na vitória difere do apelido."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Fato da autobiografia difere de identificar o tenista."
+    }
+  ]
+}
