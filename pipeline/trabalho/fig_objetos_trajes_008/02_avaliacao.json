@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Desenho a nanquim de um lenço xadrez amarrado, que pode ser lenço, bandana ou cachecol; a resposta não é única e a ilustração não se justifica para um objeto fotografável."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de cuia com bomba e erva, sem texto, reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "Que bebida quente, típica do Sul do Brasil, é tomada neste recipiente?",
+      "resposta": "Chimarrão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Cuia de chimarrão",
+        "descricao": "Recipiente feito do fruto da cuieira, usado com bomba para beber chimarrão.",
+        "variantes": [
+          "Cuia",
+          "Cuia de mate"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pintura clara de jovem com kokoshnik, sem texto; o adorno de cabeça é bem visível.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "Este adorno de cabeça feminino, usado com o sarafã, é tradicional de que país?",
+      "resposta": "Rússia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Kokoshnik",
+        "descricao": "Tradicional adorno de cabeça russo usado por mulheres e meninas junto com o sarafã.",
+        "variantes": [
+          "Kokoshnik russo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de cadeado aberto com chaves; a marca gravada não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Cadeado",
+      "distratores": [],
+      "ancora": {
+        "nome": "Cadeado",
+        "descricao": "Fechadura portátil com argola que passa por uma abertura para impedir o uso ou o roubo.",
+        "variantes": [
+          "Cadeado de latão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Samovar nítido e inconfundível; o texto 'Made in USSR' é minúsculo e não entrega o nome.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "pergunta": "Como se chama este recipiente de metal usado tradicionalmente para esquentar a água do chá?",
+      "resposta": "Samovar",
+      "distratores": [],
+      "ancora": {
+        "nome": "Samovar",
+        "descricao": "Recipiente de metal de origem russa, tradicionalmente usado para aquecer e ferver água para o chá.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Desenho em traço simples, genérico, que pode ser lido como vaso ou pote; a escarradeira não é reconhecível e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de martelo de unha, reconhecível; a marca na peça é ilegível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Martelo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Martelo",
+        "descricao": "Ferramenta de mão com cabeça pesada presa a um cabo, usada para bater, como o martelo de unha.",
+        "variantes": [
+          "Martelo de unha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Tecido em ikat exposto, sem ninguém vestindo; não é reconhecível como sarongue e poderia ser qualquer tecido tecido tradicional."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de brincante de festa pública com xale franjado bem visível; o letreiro ao fundo não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Este xale bordado e franjado faz parte do traje típico de qual dança espanhola?",
+      "resposta": "Flamenco",
+      "distratores": [
+        "Sardana",
+        "Jota aragonesa",
+        "Bolero"
+      ],
+      "ancora": {
+        "nome": "Xale de Manila",
+        "descricao": "Xale de seda bordado e franjado, derivado do alampay filipino, usado no traje de flamenca.",
+        "variantes": [
+          "Mantón de Manila",
+          "Manton de Manila"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vários pares de luvas, todos do mesmo assunto, sem texto legível; reconhecível no celular.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que peça de vestuário aparece nesta imagem, em vários modelos?",
+      "resposta": "Luvas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Luva",
+        "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+        "variantes": [
+          "Luvas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Jovem comum em primeiro plano, sorrindo, sem contexto de festa pública."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A etiqueta do museu, com 'Coat Djellaba', aparece na imagem e entrega a resposta."
+    }
+  ]
+}
