@@ -355,7 +355,7 @@
       "titulo": "en:Emancipation Proclamation",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Coroa Imperial do Brasil",
@@ -726,7 +726,7 @@
       "titulo": "en:Flag of São Paulo",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "O Três de Maio de 1808",
@@ -747,7 +747,7 @@
       "titulo": "en:Watt steam engine",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Leviatã, de Hobbes",
@@ -789,14 +789,14 @@
       "titulo": "en:Holy Crown of Hungary",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Theatrum Orbis Terrarum, de Ortelius",
       "titulo": "en:Theatrum Orbis Terrarum",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mapa de Ebstorf",
@@ -824,7 +824,7 @@
       "titulo": "pt:Tiradentes Esquartejado",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Bandeira de Pernambuco",
@@ -836,6 +836,286 @@
     {
       "nome": "Constituição de Cádis",
       "titulo": "en:Spanish Constitution of 1812",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estátua da Liberdade",
+      "titulo": "en:Statue of Liberty",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Torre Eiffel",
+      "titulo": "en:Eiffel Tower",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Apollo 11",
+      "titulo": "en:Apollo 11",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mona Lisa",
+      "titulo": "en:Mona Lisa",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Homem Vitruviano",
+      "titulo": "en:Vitruvian Man",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "A Última Ceia",
+      "titulo": "en:The Last Supper (Leonardo)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Proclamação da República",
+      "titulo": "pt:Proclamação da República do Brasil",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Diretas Já",
+      "titulo": "pt:Diretas Já",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre de Londres",
+      "titulo": "en:Tower of London",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Portão de Brandemburgo",
+      "titulo": "en:Brandenburg Gate",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Bandeira provisória da República",
+      "titulo": "pt:Bandeira provisória da República dos Estados Unidos do Brasil",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Constituição brasileira de 1891",
+      "titulo": "pt:Constituição brasileira de 1891",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Revolução Constitucionalista de 1932",
+      "titulo": "pt:Revolução Constitucionalista de 1932",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Revolta dos 18 do Forte de Copacabana",
+      "titulo": "pt:Revolta dos 18 do Forte de Copacabana",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pelourinho de Salvador",
+      "titulo": "en:Pelourinho",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ilha Fiscal",
+      "titulo": "en:Ilha Fiscal",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Codex Gigas (Bíblia do Diabo)",
+      "titulo": "en:Codex Gigas",
+      "camada": 2,
+      "destino": 3,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Manuscrito de Beowulf",
+      "titulo": "en:Beowulf",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Prensa de Gutenberg",
+      "titulo": "en:Printing press",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "HMS Victory",
+      "titulo": "en:HMS Victory",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Ronda Noturna",
+      "titulo": "en:The Night Watch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre de Belém",
+      "titulo": "en:Belém Tower",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Enola Gay",
+      "titulo": "en:Enola Gay",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Concorde",
+      "titulo": "en:Concorde",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Navio negreiro Brookes",
+      "titulo": "en:Brookes (ship)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Constituição brasileira de 1937 (Polaca)",
+      "titulo": "pt:Constituição brasileira de 1937",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Locomotiva Baronesa",
+      "titulo": "pt:Baronesa (locomotiva)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Marco de Touros",
+      "titulo": "pt:Marco de Touros",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mapa das Cortes",
+      "titulo": "pt:Mapa das Cortes",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bula Inter caetera",
+      "titulo": "en:Inter caetera",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mary Rose",
+      "titulo": "en:Mary Rose",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Embaixadores",
+      "titulo": "en:The Ambassadors (Holbein)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Retrato da Armada de Elizabeth I",
+      "titulo": "en:Armada Portrait",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carta Pisana",
+      "titulo": "en:Carta Pisana",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabula Peutingeriana",
+      "titulo": "en:Tabula Peutingeriana",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Evangelhos de Lindisfarne",
+      "titulo": "en:Lindisfarne Gospels",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedras de Jelling",
+      "titulo": "en:Jelling stones",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandeira do Império Russo",
+      "titulo": "en:Flag of the Russian Empire",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Vietnã do Sul",
+      "titulo": "en:Flag of South Vietnam",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Locomotiva Rocket de Stephenson",
+      "titulo": "en:Stephenson's Rocket",
       "camada": 3,
       "destino": 1,
       "status": "nova"

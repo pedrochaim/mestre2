@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século foi fundada esta fortaleza inglesa?",
+        "resposta": "Século onze"
+      },
+      "existentes": [
+        {
+          "id": "q05454",
+          "pergunta": "Segundo uma antiga lenda, o reino britânico cairá se quais aves, mantidas ali até hoje, abandonarem a Torre de Londres?",
+          "resposta": "Corvos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século foi feito este desenho?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q05059",
+          "pergunta": "Este desenho renascentista de proporções do corpo humano costuma ser datado de cerca de que ano?",
+          "resposta": "Cerca de 1490"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século foi pintado este quadro?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q00412",
+          "pergunta": "Em que museu fica este quadro?",
+          "resposta": "Museu do Louvre, em Paris"
+        },
+        {
+          "id": "q03032",
+          "pergunta": "Na Itália e na França, a Mona Lisa é chamada de Gioconda. De onde vem esse nome?",
+          "resposta": "Do sobrenome do marido da retratada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século de fundação da Torre de Londres é fato diferente da lenda dos corvos."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Quem soubesse que o desenho (Homem Vitruviano) é de cerca de 1490 saberia que é do século quinze; mesmo fato de datação.",
+      "id_existente": "q05059"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século da pintura da Mona Lisa difere do museu e da origem do nome Gioconda."
+    }
+  ]
+}

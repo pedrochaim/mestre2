@@ -1,0 +1,154 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fortaleza bem reconhecível; a placa 'Entry to the Traitors Gate' não entrega a resposta; pessoas pequenas ao fundo.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi fundada esta fortaleza inglesa?",
+      "resposta": "Século onze",
+      "ancora": {
+        "nome": "Torre de Londres",
+        "descricao": "Cidadela e castelo histórico às margens do rio Tâmisa, em Londres, fundado após a conquista normanda de 1066.",
+        "variantes": [
+          "Tower of London",
+          "Torre Branca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mapa-múndi com muitas legendas e título 'Typus Orbis Terrarum' visíveis; mapa com legendas é reprovado."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Desenho icônico e inequívoco; escrita espelhada ilegível não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi feito este desenho renascentista de proporções humanas?",
+      "resposta": "Século quinze",
+      "ancora": {
+        "nome": "Homem Vitruviano",
+        "descricao": "Desenho de Leonardo da Vinci, de cerca de 1490, que mostra um homem nu inscrito num círculo e num quadrado.",
+        "variantes": [
+          "Vitruvian Man",
+          "L'uomo vitruviano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Documento cheio de texto, com título 'Proclamation of Emancipation', nome de Lincoln e datas legíveis; entrega a resposta e não é legível no celular."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura emblemática, sem texto, nítida.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi pintado este quadro?",
+      "resposta": "Século dezesseis",
+      "ancora": {
+        "nome": "Mona Lisa",
+        "descricao": "Retrato a óleo de Leonardo da Vinci, pintado a partir de cerca de 1503, de uma mulher de expressão enigmática, exposto no Louvre.",
+        "variantes": [
+          "Monalisa",
+          "La Gioconda",
+          "A Gioconda"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Casarões coloridos com letreiros legíveis ('Museu da Cidade', 'Fundação Casa de Jorge Amado') e pessoas comuns em primeiro plano; o Pelourinho não é inequívoco pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Máquina nítida em museu; sem texto relevante (só um 'La Rueda' no mural ao fundo, que não entrega).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina é esta?",
+      "resposta": "Máquina a vapor",
+      "ancora": {
+        "nome": "Máquina a vapor de Watt",
+        "descricao": "Máquina a vapor de balancim aperfeiçoada por James Watt, motor-chave da Revolução Industrial.",
+        "variantes": [
+          "Watt steam engine",
+          "Máquina a vapor"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pintura nítida; a assinatura 'P. Americo 1893' não entrega o século da execução do retratado. Imagem forte, mas reconhecível por quem conhece a obra.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi executado o homem retratado nesta pintura brasileira?",
+      "resposta": "Século dezoito",
+      "ancora": {
+        "nome": "Tiradentes Esquartejado",
+        "descricao": "Óleo sobre tela de 1893 de Pedro Américo que retrata o corpo esquartejado de Tiradentes.",
+        "variantes": [
+          "Tiradentes Supliciado"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Coroa característica, sobre fundo preto, sem texto legível; resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 3,
+      "tipo": "multipla",
+      "pergunta": "Que reino coroava os seus reis com esta coroa, usada do século doze até 1916?",
+      "resposta": "Hungria",
+      "distratores": [
+        "Boêmia",
+        "Polônia",
+        "Romênia"
+      ],
+      "ancora": {
+        "nome": "Santa Coroa da Hungria",
+        "descricao": "Coroa de coroação usada pelos reis da Hungria a partir do século doze, também chamada Coroa de Santo Estêvão.",
+        "variantes": [
+          "Coroa de Santo Estêvão",
+          "Holy Crown of Hungary",
+          "Szent Korona"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de três astronautas com os sobrenomes (Armstrong, Collins, Aldrin) legíveis nos uniformes; entrega a resposta, e a âncora é uma missão, não o que aparece."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A gravura mostra uma cena com várias pessoas, aparentemente Caxton apresentando a prensa, e não Gutenberg; ambígua e não corresponde à âncora."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Faixa de mapa extremamente comprida e minúscula, ilegível no celular, com muitas legendas."
+    }
+  ]
+}

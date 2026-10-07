@@ -129818,5 +129818,89 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/US_Open_(tennis)"
     ]
+  },
+  {
+    "id": "q07616",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "torre_de_londres",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi fundada esta fortaleza inglesa?",
+    "resposta": "Século onze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_of_London",
+      "https://pt.wikipedia.org/wiki/Torre_de_Londres"
+    ],
+    "imagem": {
+      "arquivo": "q07616.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tower_of_London_viewed_from_the_River_Thames.jpg",
+      "autor": "Bob Collowan",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q07617",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "mona_lisa",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi pintado este quadro?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "https://pt.wikipedia.org/wiki/Mona_Lisa"
+    ],
+    "imagem": {
+      "arquivo": "q07617.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+      "autor": "Leonardo da Vinci",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07618",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "tiradentes_esquartejado",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi executado o homem retratado nesta pintura brasileira?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tiradentes_Esquartejado"
+    ],
+    "imagem": {
+      "arquivo": "q07618.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tiradentes_quartered_(Tiradentes_escuartejado)_by_Pedro_Américo_1893.jpg",
+      "autor": "Pedro Américo",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q07619",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "santa_coroa_da_hungria",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que reino coroava os seus reis com esta coroa, usada do século doze até 1916?",
+    "resposta": "Hungria",
+    "distratores": [
+      "Boêmia",
+      "Polônia",
+      "Romênia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Holy_Crown_of_Hungary",
+      "https://pt.wikipedia.org/wiki/Coroa_de_Santo_Est%C3%AAv%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q07619.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_Szent_Korona_elölről_2.jpg",
+      "autor": "hu:Szerkesztő:Tolfavi (a kép szerzője; feltöltő a magyar nyelvű Wikipédiában)",
+      "licenca": "Public domain"
+    }
   }
 ]

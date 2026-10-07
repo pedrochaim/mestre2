@@ -1,0 +1,49 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada no fim de 1066, ou seja, no século onze. O enunciado não vaza nada e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'desenho renascentista de proporções humanas' identifica o Homem Vitruviano sem olhar a figura, então a figura virou enfeite. O desenho é de cerca de 1490, século quinze.",
+      "reescrita": {
+        "pergunta": "Em que século foi feito este desenho?",
+        "resposta": "Século quinze"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O quadro foi iniciado por volta de 1503 e Leonardo pode ter continuado a trabalhar nele até 1517, tudo no século dezesseis. O enunciado é neutro e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A resposta 'máquina a vapor' é uma categoria, não a entidade específica, e vale também para a máquina de Newcomen e outras. Qualquer reescrita que peça Watt entregaria a resposta pelo enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tiradentes foi executado em 1792, século dezoito, fato amplamente documentado. O enunciado não nomeia o retratado e o reconhecimento depende da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O trecho confirma o uso desde o século doze. A última coroação com ela foi a de Carlos IV, em 1916, fato documentado. A resposta é única, os distratores são do mesmo tipo e nenhum está correto. O enunciado não nomeia a coroa.",
+      "reescrita": null
+    }
+  ]
+}
