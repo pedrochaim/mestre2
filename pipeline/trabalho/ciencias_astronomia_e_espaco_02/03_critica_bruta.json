@@ -1,0 +1,388 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte; enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Le Verrier localizou Netuno a menos de um grau; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bell Burnell descobriu o primeiro pulsar conhecido e o Nobel foi para o orientador Hewish.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eddington liderou a expedição ao Príncipe, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobral, no Ceará, é confirmada pelas fontes; ângulo lugar diferente da pergunta 4.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Halley previu o retorno do cometa de 1682 para 1758; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lemaître publicou a hipótese do átomo primordial em 1931.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A foto resultou da defesa de Sagan; enunciado fiel às fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente, e em 1827 a instituição se chamava Imperial Observatório; fato (decreto de Pedro I) é bem documentado.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1827, que imperador do Brasil criou o Imperial Observatório, hoje chamado Observatório Nacional, no Rio de Janeiro?",
+        "resposta": "Dom Pedro I",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_Nacional"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leonov fez a primeira caminhada espacial na Voskhod 2.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "CBERS é cooperação Brasil-China; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Challenger em 28 de janeiro de 1986, aos 73 segundos de voo.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estrela convidada de 1054 foi registrada por chineses, século onze.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tunguska em 1908; distratores são anos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte trata de uma enzima homônima; o fato (SCD-1 lançado em fevereiro de 1993 por foguete Pegasus) é conhecido, mas a fonte precisa ser trocada.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O SCD-1, primeiro satélite desenvolvido no Brasil, foi lançado por um foguete americano em fevereiro de que ano?",
+        "resposta": "1993",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/SCD-1"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "21 mortos, três dias antes do lançamento, em 2003.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hubble identificou cefeidas em Andrômeda em 1923-1925, anos 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apollo 17 foi a última missão lunar tripulada, em dezembro de 1972.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Expedição 1 chegou à ISS em 2 de novembro de 2000.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Julgamento em 1633, século dezessete; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Meteoro de Cheliabinsk, fevereiro de 2013, com cerca de 1.200 a 1.500 feridos.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "KSC fica na Flórida e lançou as missões Apollo.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baikonur fica no Cazaquistão; Gagarin e Pontes partiram de lá.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eagle pousou no Mar da Tranquilidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Observatório de Greenwich fica em Londres.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polaris é a estrela mais brilhante da Ursa Menor.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a resposta é longa para voz; encurtar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que a Estrela Polar, tão usada como guia no hemisfério norte, não pode ser vista da maior parte do Brasil?",
+        "resposta": "Fica abaixo do horizonte",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Polaris",
+          "https://pt.wikipedia.org/wiki/Estrela_Polar"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Betelgeuse está em Órion; distratores são constelações plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "CLBI fica em Parnamirim, Rio Grande do Norte, fundado em 1965.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sede do INPE em São José dos Campos.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bendegó achado em 1784 na Bahia e sobreviveu ao incêndio de 2018.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Antares significa rival de Ares, isto é, Marte.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Asteroide vem do grego 'semelhante a estrela', cunhado por volta de 1802; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Do grego komētēs, 'de cabelo longo'.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wheeler cunhou e popularizou o termo buraco negro; palestra de 1967 é fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naves Gemini levavam dois astronautas, daí o nome Gêmeos.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Do latim aequus + nox, 'noites iguais'; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hélio vem de helios, Sol, observado em 1868.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cério' é palavra derivada da resposta Ceres, o que vaza; remover o nome do elemento do enunciado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O elemento químico de número atômico cinquenta e oito, descoberto em 1803, foi nomeado em homenagem a um astro achado dois anos antes. Que astro é esse?",
+        "resposta": "Ceres",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cerium",
+          "https://pt.wikipedia.org/wiki/C%C3%A9rio"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Campanha de fãs de Star Trek deu nome ao Enterprise.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A tapeçaria retrata o cometa Halley.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explosão de tanque de oxigênio abortou o pouso.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espuma isolante atingiu a asa no lançamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A inclinação de cerca de cinco graus da órbita lunar explica a ausência de eclipse a cada lua nova.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinzas de Tombaugh estão a bordo da New Horizons.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Johnny B. Goode, de Chuck Berry, está no Disco de Ouro.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis missões Apollo pousaram na Lua.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distância média Terra-Lua é cerca de 384 mil km; distratores em escalas distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hidra é a maior constelação em área; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano-luz é unidade de comprimento; pegadinha interessante.",
+      "reescrita": null
+    }
+  ]
+}
