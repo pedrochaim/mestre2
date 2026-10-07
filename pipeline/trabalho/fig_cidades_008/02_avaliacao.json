@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Arranha-céus genéricos à beira de um rio; nada na imagem identifica o Cairo de forma única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea de Gamla Stan, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta cidade é a capital de que país?",
+      "resposta": "Suécia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estocolmo",
+        "descricao": "Capital da Suécia, espalhada por ilhas onde o lago Mälaren encontra o mar Báltico.",
+        "variantes": [
+          "Stockholm"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Prédio em forma de olho, inconfundível; placas pequenas e ilegíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade brasileira fica este museu?",
+      "resposta": "Curitiba",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu Oscar Niemeyer",
+        "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+        "variantes": [
+          "Museu do Olho",
+          "MON"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Telhados e prédios genéricos do centro; difícil reconhecer Copenhague sem conhecimento muito específico, e poderia ser outra cidade europeia."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Palácio colorido no alto da colina, muito característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que palácio é este?",
+      "resposta": "Palácio da Pena",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio da Pena",
+        "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+        "variantes": [
+          "Pena Palace",
+          "Palácio Nacional da Pena"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista dominada por uma torre de igreja; pode ser confundida com outras cidades italianas em colinas, e os Sassi não ficam claros."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara e inconfundível, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que basílica é esta?",
+      "resposta": "Basílica de São Pedro",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista na Cidade do Vaticano, uma das maiores igrejas do mundo.",
+        "variantes": [
+          "Basílica de São Pedro no Vaticano",
+          "St. Peter's Basilica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ponte com casas sobre o rio, reconhecível; bom para múltipla.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ponte medieval, com casas e lojas sobre ela, cruza que rio?",
+      "resposta": "Arno",
+      "distratores": [
+        "Tibre",
+        "Pó",
+        "Adige"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, com lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Detalhe recortado da fachada curva; sem o conjunto, o edifício não é reconhecível de forma única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com o pátio de laranjeiras e a torre; reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade espanhola fica este edifício, visto do alto?",
+      "resposta": "Córdoba",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga mesquita transformada em catedral, em Córdoba, na Andaluzia, Espanha.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Catedral de Córdoba"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista noturna de uma avenida entre prédios, sem marco claro; difícil reconhecer de forma única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estupa dourada com andaime de bambu, característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este pagode dourado?",
+      "resposta": "Mianmar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+        "variantes": [
+          "Shwedagon Pagoda",
+          "Pagode Dourado",
+          "Grande Pagode Dagon"
+        ]
+      }
+    }
+  ]
+}

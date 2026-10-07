@@ -1,0 +1,75 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que basílica é esta?",
+        "resposta": "Basílica de São Pedro"
+      },
+      "existentes": [
+        {
+          "id": "q03969",
+          "pergunta": "Já com mais de setenta anos, que artista renascentista foi nomeado arquiteto da Basílica de São Pedro e projetou sua enorme cúpula?",
+          "resposta": "Michelangelo"
+        },
+        {
+          "id": "q07512",
+          "pergunta": "Sob a cúpula da Basílica de São Pedro, que grande estrutura de bronze com colunas torcidas, obra de Bernini, cobre o altar-mor?",
+          "resposta": "Baldaquino"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta ponte medieval de pedra, na Itália, cruza que rio?",
+        "resposta": "Arno"
+      },
+      "existentes": [
+        {
+          "id": "q05293",
+          "pergunta": "Em que século foi erguida a versão atual desta ponte medieval, depois de uma enchente destruir a anterior?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q07142",
+          "pergunta": "Em Florença, a medieval Ponte Vecchio, tomada por lojas de joias, atravessa qual rio?",
+          "resposta": "Rio Arno"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade espanhola fica este edifício, visto do alto?",
+        "resposta": "Córdoba"
+      },
+      "existentes": [
+        {
+          "id": "q03477",
+          "pergunta": "Em que cidade espanhola fica este edifício?",
+          "resposta": "Córdoba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a basílica pela imagem é um fato diferente de quem projetou a cúpula ou do baldaquino."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual rio a Ponte Vecchio atravessa (Arno).",
+      "id_existente": "q07142"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: cidade espanhola do edifício, resposta Córdoba.",
+      "id_existente": "q03477"
+    }
+  ]
+}

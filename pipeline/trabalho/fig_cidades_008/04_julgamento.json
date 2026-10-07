@@ -1,0 +1,452 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estocolmo",
+        "descricao": "Capital da Suécia, espalhada por ilhas onde o lago Mälaren encontra o mar Báltico.",
+        "variantes": [
+          "Stockholm"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estoicismo",
+          "nome": "Estoicismo",
+          "descricao": "Escola filosófica fundada por Zenão de Cítio em Atenas, por volta de 300 a.C.",
+          "variantes": [
+            "Escola estoica",
+            "Stoicism"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_estocolmo",
+          "nome": "Estádio Olímpico de Estocolmo",
+          "descricao": "Estádio de Estocolmo, na Suécia, inaugurado em 1912 para os Jogos Olímpicos daquele ano.",
+          "variantes": [
+            "Stockholms Olympiastadion",
+            "Stockholms stadion"
+          ]
+        },
+        {
+          "id": "sherlock_holmes",
+          "nome": "Sherlock Holmes",
+          "descricao": "Detetive londrino criado pelo escritor escocês Arthur Conan Doyle em 1887.",
+          "variantes": []
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "teatro_colon",
+          "nome": "Teatro Colón",
+          "descricao": "Casa de ópera de Buenos Aires, inaugurada em 1908 e famosa pela acústica.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Museu Oscar Niemeyer",
+        "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+        "variantes": [
+          "Museu do Olho",
+          "MON"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "claude_monet",
+          "nome": "Claude Monet",
+          "descricao": "Pintor impressionista francês, autor de Impressão, Nascer do Sol e da série das Ninfeias, que viveu de 1840 a 1926.",
+          "variantes": [
+            "Oscar-Claude Monet",
+            "Monet"
+          ]
+        },
+        {
+          "id": "ceramica_jomon",
+          "nome": "Cerâmica Jōmon",
+          "descricao": "Cerâmica pré-histórica do Japão, decorada com marcas de cordas.",
+          "variantes": [
+            "Jomon",
+            "Período Jōmon"
+          ]
+        },
+        {
+          "id": "bernard_montgomery",
+          "nome": "Bernard Montgomery",
+          "descricao": "Marechal de campo britânico, comandante do Oitavo Exército em El Alamein na Segunda Guerra Mundial.",
+          "variantes": [
+            "Montgomery",
+            "Monty",
+            "Montgomery de Alamein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio da Pena",
+        "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+        "variantes": [
+          "Pena Palace",
+          "Palácio Nacional da Pena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "hino_da_alemanha",
+          "nome": "Hino da Alemanha",
+          "descricao": "Hino nacional alemão, a terceira estrofe da Canção dos Alemães, com melodia de Joseph Haydn.",
+          "variantes": [
+            "Deutschlandlied",
+            "Das Lied der Deutschen",
+            "Canção dos Alemães",
+            "Hino nacional da Alemanha"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista na Cidade do Vaticano, uma das maiores igrejas do mundo.",
+        "variantes": [
+          "Basílica de São Pedro no Vaticano",
+          "St. Peter's Basilica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "igreja_do_santo_sepulcro",
+          "nome": "Igreja do Santo Sepulcro",
+          "descricao": "Igreja de Jerusalém erguida sobre os locais tradicionais da crucificação e do túmulo de Jesus",
+          "variantes": [
+            "Basílica do Santo Sepulcro"
+          ]
+        },
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre"
+          ]
+        },
+        {
+          "id": "basilisco_verde",
+          "nome": "Basilisco-verde",
+          "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+          "variantes": [
+            "Basilisco-de-penacho",
+            "Lagarto-Jesus-Cristo",
+            "Basiliscus plumifrons"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, com lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga mesquita transformada em catedral, em Córdoba, na Andaluzia, Espanha.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Catedral de Córdoba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+        "variantes": [
+          "Shwedagon Pagoda",
+          "Pagode Dourado",
+          "Grande Pagode Dagon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "eldorado",
+          "nome": "Eldorado",
+          "descricao": "Lenda de uma terra riquíssima em ouro, nascida de um ritual dos muíscas, na atual Colômbia.",
+          "variantes": [
+            "El Dorado"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estocolmo (cidade) é diferente do Estádio Olímpico de Estocolmo e das outras candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Museu Oscar Niemeyer."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Palácio da Pena em Sintra não aparece entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_sao_pedro",
+      "motivo": "Mesma basílica renascentista no Vaticano."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "ponte_vecchio",
+      "motivo": "Mesma ponte medieval sobre o Arno, em Florença."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mesquita_catedral_de_cordoba",
+      "motivo": "Mesma mesquita-catedral de Córdoba."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pagode Shwedagon é distinto do Kinkaku-ji, do Templo Dourado sikh e das demais candidatas."
+    }
+  ]
+}

@@ -96,7 +96,7 @@
       "titulo": "en:Amsterdam",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Singapura",
@@ -320,7 +320,7 @@
       "titulo": "en:Cairo",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Washington",
@@ -418,14 +418,14 @@
       "titulo": "en:Copenhagen",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estocolmo",
       "titulo": "en:Stockholm",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Montevidéu",
@@ -481,7 +481,7 @@
       "titulo": "en:Matera",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Toledo",
@@ -579,14 +579,14 @@
       "titulo": "en:Machu Picchu",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Grande Muralha da China",
       "titulo": "en:Great Wall of China",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Burj Khalifa",
@@ -607,14 +607,14 @@
       "titulo": "en:Notre-Dame de Paris",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Fontana di Trevi",
       "titulo": "en:Trevi Fountain",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Catedral de Brasília",
@@ -635,7 +635,7 @@
       "titulo": "en:Paulista Avenue",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pelourinho",
@@ -649,7 +649,7 @@
       "titulo": "en:Selarón Steps",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Museu do Amanhã",
@@ -670,7 +670,7 @@
       "titulo": "en:St. Peter's Basilica",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Catedral de São Basílio",
@@ -684,7 +684,7 @@
       "titulo": "en:Hagia Sophia",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Castelo de Neuschwanstein",
@@ -719,14 +719,14 @@
       "titulo": "en:Mont-Saint-Michel",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Ponte Vecchio",
       "titulo": "en:Ponte Vecchio",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Museu de Arte Contemporânea de Niterói",
@@ -761,7 +761,7 @@
       "titulo": "en:Shwedagon Pagoda",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mesquita Sheikh Zayed",
@@ -775,7 +775,7 @@
       "titulo": "en:Mosque–Cathedral of Córdoba",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Wat Arun",
@@ -789,7 +789,7 @@
       "titulo": "en:Pena Palace",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Château Frontenac",
@@ -810,7 +810,7 @@
       "titulo": "en:Church of Saint Francis of Assisi (Belo Horizonte)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Ponte JK",
@@ -824,7 +824,7 @@
       "titulo": "en:Copan Building",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Theatro da Paz",
@@ -838,7 +838,7 @@
       "titulo": "en:Oscar Niemeyer Museum",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     }
   ]
 }
