@@ -1,0 +1,107 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Durante o serviço militar, no fim dos anos cinquenta, Elvis Presley conheceu a futura esposa, Priscilla, em que país?",
+        "resposta": "Alemanha Ocidental"
+      },
+      "existentes": [
+        {
+          "id": "q01822",
+          "pergunta": "Em 1954, este cantor lançou seu primeiro disco por uma pequena gravadora de Memphis. Qual?",
+          "resposta": "Sun Records"
+        },
+        {
+          "id": "q06673",
+          "pergunta": "Que arte marcial o cantor Elvis Presley começou a praticar a sério quando servia o exército na Alemanha, chegando à faixa preta?",
+          "resposta": "Caratê"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1981, ao voltar de um tratamento contra o câncer na Alemanha, Bob Marley morreu num hospital de que cidade americana?",
+        "resposta": "Miami"
+      },
+      "existentes": [
+        {
+          "id": "q01282",
+          "pergunta": "Bob Marley morreu em 1981, vítima de câncer. Com que idade?",
+          "resposta": "36 anos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Michael Jackson morreu semanas antes de estrear em Londres a série de shows This Is It. Em que ano?",
+        "resposta": "2009"
+      },
+      "existentes": [
+        {
+          "id": "q01253",
+          "pergunta": "Em 1984, durante a gravação de um comercial da Pepsi, o cabelo de Michael Jackson pegou fogo. O que causou o acidente?",
+          "resposta": "Fogos pirotécnicos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A banda Survivor compôs Eye of the Tiger em 1982 a pedido de Sylvester Stallone. Para qual filme?",
+        "resposta": "Rocky III"
+      },
+      "existentes": [
+        {
+          "id": "q06661",
+          "pergunta": "Que banda americana gravou Eye of the Tiger, a canção-tema de Rocky III, de 1982?",
+          "resposta": "Survivor"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O grupo sul-coreano BTS, que estreou em 2013, é formado por quantos integrantes?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q01245",
+          "pergunta": "O nome coreano do grupo BTS significa escoteiros à prova de quê?",
+          "resposta": "Balas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta onde conheceu Priscilla; a existente trata de caratê e a outra da gravadora."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade da morte é fato diferente da idade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano da morte difere da causa do acidente com o cabelo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas tratam da ligação entre Eye of the Tiger e Rocky III.",
+      "id_existente": "q06661"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Número de integrantes difere do significado do nome."
+    }
+  ]
+}

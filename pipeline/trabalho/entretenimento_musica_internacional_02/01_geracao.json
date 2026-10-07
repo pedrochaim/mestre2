@@ -1,0 +1,1004 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles",
+          "Os Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles",
+          "https://pt.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No início dos anos sessenta, antes da fama, os Beatles passaram longas temporadas tocando em clubes de que cidade alemã?",
+      "resposta": "Hamburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Beatles_in_Hamburg"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles",
+          "Os Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles",
+          "https://pt.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome The Beatles faz um trocadilho com a palavra beat, batida, e com o nome em inglês de que inseto?",
+      "resposta": "Besouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Beatles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elvis_presley",
+        "nome": "Elvis Presley",
+        "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+        "variantes": [
+          "Elvis",
+          "Elvis Aaron Presley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elvis_Presley"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Durante o serviço militar, no fim dos anos cinquenta, Elvis Presley conheceu a futura esposa, Priscilla, em que país?",
+      "resposta": "Alemanha Ocidental",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elvis_Presley",
+        "https://en.wikipedia.org/wiki/Priscilla_Presley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Graceland",
+        "descricao": "Mansão onde Elvis Presley viveu e está enterrado, hoje um museu",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Graceland"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidade americana os fãs visitam Graceland, a mansão onde Elvis Presley viveu e está enterrado?",
+      "resposta": "Memphis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Graceland"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bob_marley",
+        "nome": "Bob Marley",
+        "descricao": "Cantor e compositor jamaicano de reggae, líder dos Wailers",
+        "variantes": [
+          "Robert Nesta Marley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Marley"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1981, ao voltar de um tratamento contra o câncer na Alemanha, Bob Marley morreu num hospital de que cidade americana?",
+      "resposta": "Miami",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bob_Marley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jim Morrison",
+        "descricao": "Cantor e poeta americano, vocalista da banda The Doors, morto em Paris em 1971",
+        "variantes": [
+          "James Douglas Morrison"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jim_Morrison"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Jim Morrison, vocalista do The Doors, morreu em 1971 e está enterrado em que famoso cemitério de Paris?",
+      "resposta": "Père-Lachaise",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jim_Morrison",
+        "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Flamenco",
+        "descricao": "Gênero de música e dança espanhol marcado pelo canto, pelo violão e pelo sapateado",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flamenco"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O flamenco, com seu canto dramático, violão e sapateado, nasceu em que região do sul da Espanha?",
+      "resposta": "Andaluzia",
+      "distratores": [
+        "Catalunha",
+        "Galícia",
+        "País Basco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flamenco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Shakira",
+        "descricao": "Cantora e compositora colombiana de pop latino, nascida Shakira Isabel Mebarak Ripoll",
+        "variantes": [
+          "Shakira Mebarak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shakira"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A cantora Shakira nasceu em 1977 em que cidade do litoral caribenho da Colômbia?",
+      "resposta": "Barranquilla",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shakira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "AC/DC",
+        "descricao": "Banda de hard rock fundada em 1973 pelos irmãos Malcolm e Angus Young",
+        "variantes": [
+          "ACDC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AC/DC"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A banda AC/DC, dos irmãos Malcolm e Angus Young, nascidos na Escócia, foi formada em 1973 em que país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/AC/DC"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "AC/DC",
+        "descricao": "Banda de hard rock fundada em 1973 pelos irmãos Malcolm e Angus Young",
+        "variantes": [
+          "ACDC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AC/DC"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome AC/DC, que indica corrente alternada e corrente contínua, foi visto pela irmã dos fundadores na traseira de que aparelho doméstico?",
+      "resposta": "Máquina de costura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/AC/DC"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hall da Fama do Rock and Roll",
+        "descricao": "Museu e instituição que homenageia artistas do rock, com sede num prédio projetado por I. M. Pei",
+        "variantes": [
+          "Rock and Roll Hall of Fame",
+          "Rock Hall"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O museu do Hall da Fama do Rock and Roll, num prédio de vidro projetado por I. M. Pei, fica em que cidade americana?",
+      "resposta": "Cleveland",
+      "distratores": [
+        "Nova York",
+        "Nashville",
+        "Memphis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Björk",
+        "descricao": "Cantora e compositora islandesa, ex-vocalista do grupo The Sugarcubes",
+        "variantes": [
+          "Björk Guðmundsdóttir",
+          "Bjork"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bj%C3%B6rk"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A cantora Björk, que começou a carreira internacional no grupo The Sugarcubes, é natural de que país nórdico?",
+      "resposta": "Islândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bj%C3%B6rk"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "John Lennon",
+        "descricao": "Músico e compositor inglês, cofundador dos Beatles, assassinado em Nova York",
+        "variantes": [
+          "John Winston Lennon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/John_Lennon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "John Lennon foi assassinado na porta do edifício Dakota, onde morava, em Nova York. Em que ano?",
+      "resposta": "1980",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Murder_of_John_Lennon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Festival Eurovisão da Canção",
+        "descricao": "Concurso anual de canções entre países, organizado pela União Europeia de Radiodifusão",
+        "variantes": [
+          "Eurovision",
+          "Eurovision Song Contest",
+          "Eurovisão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eurovision_Song_Contest"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Festival Eurovisão da Canção teve sua primeira edição em Lugano, na Suíça, em que década?",
+      "resposta": "Anos cinquenta",
+      "distratores": [
+        "Anos quarenta",
+        "Anos sessenta",
+        "Anos setenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1956"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Black Sabbath (álbum)",
+        "descricao": "Álbum de estreia da banda britânica Black Sabbath, lançado em 1970",
+        "variantes": [
+          "Black Sabbath"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_Sabbath_(album)"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O primeiro álbum do Black Sabbath, marco do heavy metal, foi lançado no Reino Unido numa data considerada de mau agouro. Qual?",
+      "resposta": "Sexta-feira 13",
+      "distratores": [
+        "Dia das Bruxas",
+        "Dia de Finados",
+        "Primeiro de abril"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Sabbath_(album)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kurt Cobain",
+        "descricao": "Cantor, guitarrista e compositor americano, líder da banda Nirvana",
+        "variantes": [
+          "Kurt Donald Cobain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kurt_Cobain"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Três anos depois do sucesso de Nevermind, o líder do Nirvana, Kurt Cobain, foi encontrado morto em sua casa em Seattle. Em que ano?",
+      "resposta": "1994",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kurt_Cobain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hip hop",
+        "descricao": "Gênero musical e movimento cultural surgido entre jovens negros e latinos do Bronx, em Nova York",
+        "variantes": [
+          "Hip-hop",
+          "Rap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hip_hop_music"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O hip hop nasceu em festas de bairro do Bronx, em Nova York, animadas por DJs como Kool Herc. Em que década?",
+      "resposta": "Anos setenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hip_hop_music",
+        "https://en.wikipedia.org/wiki/DJ_Kool_Herc"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Whitney Houston",
+        "descricao": "Cantora e atriz americana, estrela de O Guarda-Costas, morta em 2012",
+        "variantes": [
+          "Whitney Elizabeth Houston"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Whitney_Houston"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Whitney Houston morreu em fevereiro de 2012, num hotel de Beverly Hills, na véspera de que grande premiação da música?",
+      "resposta": "Grammy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Whitney_Houston"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "The Dark Side of the Moon",
+        "descricao": "Álbum da banda britânica Pink Floyd, com um prisma na capa",
+        "variantes": [
+          "Dark Side of the Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O álbum The Dark Side of the Moon, do Pink Floyd, com o famoso prisma na capa, foi lançado em que ano?",
+      "resposta": "1973",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Amy Winehouse",
+        "descricao": "Cantora e compositora britânica de soul e jazz, autora do álbum Back to Black",
+        "variantes": [
+          "Amy Jade Winehouse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amy_Winehouse"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A britânica Amy Winehouse, do álbum Back to Black, foi encontrada morta em sua casa em Londres em julho de que ano?",
+      "resposta": "2011",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amy_Winehouse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "michael_jackson",
+        "nome": "Michael Jackson",
+        "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+        "variantes": [
+          "Michael Joseph Jackson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jackson"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Michael Jackson morreu semanas antes de estrear em Londres a série de shows This Is It. Em que ano?",
+      "resposta": "2009",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "We Are the World",
+        "descricao": "Canção beneficente gravada em 1985 pelo coletivo USA for Africa",
+        "variantes": [
+          "USA for Africa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/We_Are_the_World"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1985, a canção beneficente We Are the World foi composta por Michael Jackson e por qual cantor da balada Hello?",
+      "resposta": "Lionel Richie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/We_Are_the_World"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hurt",
+        "descricao": "Canção de Trent Reznor lançada em 1994 e regravada por Johnny Cash em 2002",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar uma das gravações mais marcantes do fim da vida de Johnny Cash, a canção Hurt foi lançada em 1994 por que banda?",
+      "resposta": "Nine Inch Nails",
+      "distratores": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Marilyn Manson"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "All Along the Watchtower",
+        "descricao": "Canção lançada em 1967 e consagrada pela versão de Jimi Hendrix em 1968",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/All_Along_the_Watchtower"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "All Along the Watchtower, uma das gravações mais famosas de Jimi Hendrix, foi composta e lançada um ano antes por quem?",
+      "resposta": "Bob Dylan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/All_Along_the_Watchtower"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Red Red Wine",
+        "descricao": "Canção lançada em 1967 e transformada em sucesso de reggae pelo UB40 em 1983",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_Red_Wine"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O reggae Red Red Wine, sucesso do UB40 nos anos oitenta, foi composto e gravado primeiro por que cantor americano?",
+      "resposta": "Neil Diamond",
+      "distratores": [
+        "Johnny Cash",
+        "Paul Simon",
+        "Bob Dylan"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_Red_Wine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Motown",
+        "descricao": "Gravadora americana de soul fundada em Detroit em 1959, lar de Stevie Wonder e das Supremes",
+        "variantes": [
+          "Motown Records",
+          "Tamla Motown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Motown"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da gravadora Motown, de Stevie Wonder e Diana Ross, vem do apelido Motor Town, dado a que cidade americana?",
+      "resposta": "Detroit",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Motown"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Motown",
+        "descricao": "Gravadora americana de soul fundada em Detroit em 1959, lar de Stevie Wonder e das Supremes",
+        "variantes": [
+          "Motown Records",
+          "Tamla Motown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Motown"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1959, com um empréstimo de oitocentos dólares da família, quem fundou a gravadora Motown?",
+      "resposta": "Berry Gordy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Motown",
+        "https://en.wikipedia.org/wiki/Berry_Gordy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Thriller (videoclipe)",
+        "descricao": "Videoclipe de cerca de catorze minutos da canção Thriller, de Michael Jackson, lançado em 1983",
+        "variantes": [
+          "Michael Jackson's Thriller"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jackson%27s_Thriller_(music_video)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O clipe de Thriller, de Michael Jackson, foi dirigido pelo cineasta do filme Um Lobisomem Americano em Londres. Quem?",
+      "resposta": "John Landis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Jackson%27s_Thriller_(music_video)",
+        "https://en.wikipedia.org/wiki/John_Landis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "La Vie en Rose",
+        "descricao": "Canção francesa composta em 1945 e eternizada por Édith Piaf",
+        "variantes": [
+          "La Vie en rose"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Vie_en_rose"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A letra da canção francesa La Vie en Rose foi escrita em 1945 pela própria cantora que a eternizou. Quem?",
+      "resposta": "Édith Piaf",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Vie_en_rose"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bésame Mucho",
+        "descricao": "Bolero mexicano composto em 1940 e regravado por artistas do mundo inteiro",
+        "variantes": [
+          "Bésame mucho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/B%C3%A9same_mucho"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O bolero Bésame Mucho, regravado por artistas do mundo inteiro, foi composto em 1940 por que pianista mexicana?",
+      "resposta": "Consuelo Velázquez",
+      "distratores": [
+        "Chavela Vargas",
+        "María Grever",
+        "Lola Beltrán"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/B%C3%A9same_mucho"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "White Christmas",
+        "descricao": "Canção natalina americana lançada em 1942 na voz de Bing Crosby",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_Christmas_(song)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "White Christmas, imortalizada por Bing Crosby, foi composta por que compositor americano nascido no Império Russo?",
+      "resposta": "Irving Berlin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_Christmas_(song)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Radiohead",
+        "descricao": "Banda britânica de rock alternativo formada em Abingdon, liderada por Thom Yorke",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Radiohead"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A banda britânica Radiohead tirou seu nome de uma canção de que banda americana?",
+      "resposta": "Talking Heads",
+      "distratores": [
+        "R.E.M.",
+        "Pixies",
+        "Sonic Youth"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Radiohead"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Karaokê",
+        "descricao": "Forma de entretenimento em que pessoas cantam sobre gravações instrumentais, criada no Japão",
+        "variantes": [
+          "Karaoke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karaoke"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra japonesa karaokê junta kara com a palavra para orquestra. O que significa kara?",
+      "resposta": "Vazio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karaoke"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "The Yardbirds",
+        "descricao": "Banda britânica de rock e blues dos anos sessenta, formada em Londres",
+        "variantes": [
+          "Yardbirds"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Yardbirds"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que banda britânica dos anos sessenta teve, em fases diferentes, três guitarristas lendários: Eric Clapton, Jeff Beck e Jimmy Page?",
+      "resposta": "The Yardbirds",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Yardbirds"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pattie Boyd",
+        "descricao": "Modelo e fotógrafa inglesa, casada primeiro com George Harrison e depois com Eric Clapton",
+        "variantes": [
+          "Patricia Anne Boyd"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pattie_Boyd"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que modelo inglesa inspirou duas canções clássicas: Something, de George Harrison, e Layla, de Eric Clapton?",
+      "resposta": "Pattie Boyd",
+      "distratores": [
+        "Jane Asher",
+        "Marianne Faithfull",
+        "Twiggy"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pattie_Boyd"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ray Charles",
+        "descricao": "Cantor e pianista americano, pioneiro da soul music",
+        "variantes": [
+          "Ray Charles Robinson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ray_Charles"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Ray Charles e Stevie Wonder, gigantes da soul americana, têm em comum uma condição física desde a infância. Qual?",
+      "resposta": "Cegueira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ray_Charles",
+        "https://en.wikipedia.org/wiki/Stevie_Wonder"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Miley Cyrus",
+        "descricao": "Cantora e atriz americana, estrela da série Hannah Montana",
+        "variantes": [
+          "Destiny Hope Cyrus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Miley_Cyrus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que estrela da música country é madrinha da cantora Miley Cyrus?",
+      "resposta": "Dolly Parton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Miley_Cyrus",
+        "https://en.wikipedia.org/wiki/Dolly_Parton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Phil Collins",
+        "descricao": "Cantor, baterista e compositor britânico, integrante do Genesis e artista solo",
+        "variantes": [
+          "Philip David Charles Collins"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phil_Collins"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que animação da Disney, de 1999, tem canções compostas e cantadas por Phil Collins?",
+      "resposta": "Tarzan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tarzan_(1999_film)",
+        "https://en.wikipedia.org/wiki/Phil_Collins"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hey Jude",
+        "descricao": "Canção dos Beatles composta por Paul McCartney e lançada em 1968",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hey_Jude"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Paul McCartney compôs Hey Jude para consolar um menino durante o divórcio dos pais. Quem era o menino?",
+      "resposta": "Julian Lennon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hey_Jude"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eye of the Tiger",
+        "descricao": "Canção da banda americana Survivor lançada em 1982",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A banda Survivor compôs Eye of the Tiger em 1982 a pedido de Sylvester Stallone. Para qual filme?",
+      "resposta": "Rocky III",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Candle in the Wind",
+        "descricao": "Canção de Elton John e Bernie Taupin lançada em 1973 e regravada em 1997",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Candle_in_the_Wind"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Antes de homenagear a princesa Diana, em 1997, a canção Candle in the Wind, de Elton John, foi escrita em memória de que atriz?",
+      "resposta": "Marilyn Monroe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Candle_in_the_Wind"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cat Stevens",
+        "descricao": "Cantor e compositor britânico de folk, que depois adotou o nome Yusuf Islam",
+        "variantes": [
+          "Yusuf Islam",
+          "Yusuf"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cat_Stevens"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No fim dos anos setenta, no auge da fama, o cantor Cat Stevens abandonou a música pop após que mudança pessoal?",
+      "resposta": "Converteu-se ao islamismo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cat_Stevens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oasis",
+        "descricao": "Banda britânica de rock formada em Manchester em 1991",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oasis_(band)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os irmãos Liam e Noel, que lideravam a banda britânica Oasis, têm que sobrenome?",
+      "resposta": "Gallagher",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oasis_(band)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Spice Girls",
+        "descricao": "Grupo pop feminino britânico formado em 1994, de Wannabe",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spice_Girls"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas Spice Girls, que integrante tinha o apelido de Posh Spice e depois se casou com um astro do futebol inglês?",
+      "resposta": "Victoria Beckham",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spice_Girls",
+        "https://en.wikipedia.org/wiki/Victoria_Beckham"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Take That",
+        "descricao": "Boy band britânica formada em Manchester em 1990",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Take_That"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que cantor deixou a boy band britânica Take That em 1995 e depois fez enorme sucesso solo com a balada Angels?",
+      "resposta": "Robbie Williams",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Take_That",
+        "https://en.wikipedia.org/wiki/Robbie_Williams"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Keith Richards",
+        "descricao": "Guitarrista e compositor inglês, cofundador dos Rolling Stones",
+        "variantes": [
+          "Keith Richard"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Keith_Richards"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em muitos riffs dos Rolling Stones, Keith Richards usa uma afinação especial numa guitarra com quantas cordas?",
+      "resposta": "Cinco",
+      "distratores": [
+        "Quatro",
+        "Sete",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Keith_Richards"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bts",
+        "nome": "BTS",
+        "descricao": "Grupo sul-coreano de K-pop formado em Seul em 2013",
+        "variantes": [
+          "Bangtan Boys",
+          "Bangtan Sonyeondan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/BTS"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O grupo sul-coreano BTS, que estreou em 2013, é formado por quantos integrantes?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/BTS"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kenny G",
+        "descricao": "Músico americano de smooth jazz, nascido Kenneth Gorelick",
+        "variantes": [
+          "Kenneth Gorelick"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kenny_G"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O americano Kenny G, um dos nomes mais populares do smooth jazz nos anos oitenta e noventa, ficou famoso tocando que instrumento?",
+      "resposta": "Saxofone soprano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kenny_G"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Louis Armstrong",
+        "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+        "variantes": [
+          "Satchmo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Armstrong"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Além da voz rouca de What a Wonderful World, Louis Armstrong era um virtuose de que instrumento de sopro?",
+      "resposta": "Trompete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Armstrong"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gangnam Style",
+        "descricao": "Canção do cantor sul-coreano Psy lançada em 2012, famosa por sua dança",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gangnam_Style"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em 2012, que canção do sul-coreano Psy, com uma dança que imita cavalgar, foi o primeiro vídeo do YouTube a passar de um bilhão de visualizações?",
+      "resposta": "Gangnam Style",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gangnam_Style"
+      ]
+    }
+  ]
+}
