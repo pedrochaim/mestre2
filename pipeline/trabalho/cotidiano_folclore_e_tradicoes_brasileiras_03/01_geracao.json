@@ -1,0 +1,1021 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "quadrilha_junina",
+        "nome": "Quadrilha junina",
+        "descricao": "Dança coletiva típica das festas juninas, derivada de uma dança de salão europeia.",
+        "variantes": [
+          "Quadrilha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Quadrilha_(dança)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na quadrilha das festas juninas, os dançarinos costumam encenar qual cerimônia, com noivos, padre e até delegado?",
+      "resposta": "Um casamento caipira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escola de samba",
+        "descricao": "Agremiação carnavalesca brasileira que desfila com enredo, alas, bateria, mestre-sala e porta-bandeira.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Escola_de_samba"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na escola de samba, ao lado do mestre-sala, quem desfila carregando o pavilhão com o símbolo da agremiação?",
+      "resposta": "A porta-bandeira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mestre-sala_e_porta-bandeira",
+        "https://pt.wikipedia.org/wiki/Escola_de_samba"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bumba_meu_boi",
+        "nome": "Bumba meu boi",
+        "descricao": "Folguedo popular brasileiro, muito forte no Maranhão, que encena a morte e a ressurreição de um boi.",
+        "variantes": [
+          "Boi-bumbá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No bumba meu boi maranhense, como se chama o brincante que fica escondido debaixo da armação do boi, fazendo-o dançar?",
+      "resposta": "Miolo do boi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festa_do_divino",
+        "nome": "Festa do Divino",
+        "descricao": "Festa católica popular em honra do Espírito Santo, trazida de Portugal, com coroação de imperador e folias.",
+        "variantes": [
+          "Festa do Divino Espírito Santo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Festa do Divino, que personagem, escolhido entre os devotos e muitas vezes uma criança, é coroado e reina durante a festa?",
+      "resposta": "O imperador do Divino",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "literatura_de_cordel",
+        "nome": "Literatura de cordel",
+        "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+        "variantes": [
+          "Cordel"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Literatura_de_cordel"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Nos folhetos de cordel, qual é o tipo de estrofe mais usado pelos poetas populares?",
+      "resposta": "Sextilha",
+      "distratores": [
+        "Quadra",
+        "Décima",
+        "Oitava"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Literatura_de_cordel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capoeira",
+        "nome": "Capoeira",
+        "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na capoeira angola, que canto solo, em tom de lamento, é puxado pelo mestre antes de o jogo começar?",
+      "resposta": "Ladainha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capoeira",
+        "https://pt.wikipedia.org/wiki/Capoeira_Angola"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pastoril",
+        "descricao": "Auto popular natalino do Nordeste brasileiro em que pastoras cantam e dançam divididas em dois cordões.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pastoril"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No pastoril, auto natalino do Nordeste, as pastoras se dividem em dois cordões rivais de quais cores?",
+      "resposta": "Azul e encarnado",
+      "distratores": [
+        "Verde e amarelo",
+        "Azul e branco",
+        "Vermelho e preto"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pastoril"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chimarrao",
+        "nome": "Chimarrão",
+        "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+        "variantes": [
+          "Mate"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chimarrão"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que canudo de metal, com um filtro na ponta, se usa para tomar o chimarrão na cuia?",
+      "resposta": "Bomba",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chimarrão"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cirio_de_nazare",
+        "nome": "Círio de Nazaré",
+        "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Círio_de_Nazaré"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Círio de Nazaré, em Belém, milhares de promesseiros se espremem para segurar qual objeto que acompanha a berlinda da santa?",
+      "resposta": "A corda",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Círio_de_Nazaré"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "filhos_de_gandhy",
+        "nome": "Filhos de Gandhy",
+        "descricao": "Afoxé do carnaval de Salvador, fundado em 1949, cujos integrantes desfilam de branco e azul com turbantes e colares.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Filhos_de_Gandhy"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Os Filhos de Gandhy desfilam no carnaval de Salvador ao som de qual ritmo, vindo do candomblé?",
+      "resposta": "Ijexá",
+      "distratores": [
+        "Samba-reggae",
+        "Maracatu",
+        "Xote"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Filhos_de_Gandhy",
+        "https://pt.wikipedia.org/wiki/Ijexá"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pilcha",
+        "descricao": "Indumentária tradicional do gaúcho, com bombacha, botas, lenço e chapéu para os homens.",
+        "variantes": [
+          "Pilcha gaúcha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pilcha"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na pilcha, a roupa tradicional do gaúcho, como se chama a calça larga presa nos tornozelos?",
+      "resposta": "Bombacha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pilcha",
+        "https://pt.wikipedia.org/wiki/Bombacha"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caipora",
+        "nome": "Caipora",
+        "descricao": "Ser do folclore brasileiro protetor dos animais e das florestas, que castiga os caçadores.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Caipora"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Curupira e Caipora são muitas vezes confundidos. Qual dos dois costuma ser descrito montado num porco-do-mato?",
+      "resposta": "Caipora",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Caipora"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Capoeira Angola",
+        "descricao": "Estilo tradicional de capoeira, de jogo mais lento e baixo, preservado por mestres como Pastinha.",
+        "variantes": [
+          "Capoeira de Angola"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira_Angola"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os dois grandes estilos de capoeira, angola e regional, qual tem o jogo mais lento e mais rente ao chão?",
+      "resposta": "Capoeira angola",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capoeira_Angola"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festa_junina",
+        "nome": "Festa junina",
+        "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+        "variantes": [
+          "Festas juninas",
+          "São João"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_junina"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Dos três santos juninos, qual dá nome às maiores festas do mês no Nordeste brasileiro?",
+      "resposta": "São João",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "surdo",
+        "nome": "Surdo",
+        "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Surdo"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na bateria de uma escola de samba, qual tambor tem o som mais grave e marca o pulso do samba?",
+      "resposta": "Surdo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Surdo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tererê",
+        "descricao": "Infusão de erva-mate tomada fria, típica do Paraguai e de Mato Grosso do Sul.",
+        "variantes": [
+          "Tereré"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Terer%C3%A9"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "O tererê é primo do chimarrão e também usa erva-mate. O que o diferencia na hora do preparo?",
+      "resposta": "É feito com água gelada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Terer%C3%A9"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oxum",
+        "descricao": "Orixá das águas doces, dos rios e cachoeiras, nas religiões afro-brasileiras.",
+        "variantes": [
+          "Oshun"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oxum"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Se Iemanjá reina sobre as águas salgadas, qual orixá é a senhora das águas doces dos rios e cachoeiras?",
+      "resposta": "Oxum",
+      "distratores": [
+        "Iansã",
+        "Nanã",
+        "Obá"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Oxum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Santo Antônio",
+        "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+        "variantes": [
+          "Santo Antônio de Pádua",
+          "Santo Antônio de Lisboa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anthony_of_Padua"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Que santo é conhecido popularmente como casamenteiro, alvo das simpatias das moças para arranjar marido?",
+      "resposta": "Santo Antônio",
+      "distratores": [
+        "São João",
+        "São Pedro",
+        "São Benedito"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina",
+        "https://en.wikipedia.org/wiki/Anthony_of_Padua"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zabumba",
+        "descricao": "Tambor grave de duas peles, tocado com maceta e vareta, base do trio de forró pé de serra.",
+        "variantes": [
+          "Bumbo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Zabumba"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No trio pé de serra do forró, que instrumento de percussão faz a marcação mais grave?",
+      "resposta": "Zabumba",
+      "distratores": [
+        "Triângulo",
+        "Pandeiro",
+        "Agogô"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Zabumba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cuíca",
+        "descricao": "Instrumento de fricção do samba, com uma vareta presa por dentro do couro, que produz um som parecido com um ronco.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cuíca"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na cuíca, o som que lembra um ronco nasce quando o músico esfrega o quê na vareta presa ao couro?",
+      "resposta": "Um pano úmido",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cuíca"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cuca",
+        "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+        "variantes": [
+          "Coca"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cuca"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nas adaptações do Sítio do Picapau Amarelo, a Cuca, bruxa que assusta crianças, ganhou a aparência de qual animal?",
+      "resposta": "Jacaré",
+      "distratores": [
+        "Coruja",
+        "Cobra",
+        "Sapo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cuca"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Matinta Perera",
+        "descricao": "Figura do folclore amazônico, velha bruxa que se transforma em pássaro e assobia à noite.",
+        "variantes": [
+          "Matinta Pereira",
+          "Matita Perê"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Matinta_Perera"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Amazônia, a Matinta Perera, velha bruxa que vira pássaro, anuncia sua presença à noite com qual som?",
+      "resposta": "Um assobio agudo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Matinta_Perera"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tambor_de_crioula",
+        "nome": "Tambor de crioula",
+        "descricao": "Dança afro-brasileira de roda, com tambores e a umbigada chamada punga, registrada como patrimônio cultural do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No tambor de crioula do Maranhão, os homens tocam os tambores. Quem dança no meio da roda?",
+      "resposta": "As mulheres",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bonecos_de_olinda",
+        "nome": "Bonecos de Olinda",
+        "descricao": "Bonecos gigantes do carnaval de Olinda, em Pernambuco.",
+        "variantes": [
+          "Bonecos gigantes de Olinda"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bonecos_de_Olinda"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pelas ladeiras de Olinda, como são carregados os bonecos gigantes, que podem passar de três metros de altura?",
+      "resposta": "Por uma pessoa dentro deles",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bonecos_de_Olinda"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abayomi",
+        "nome": "Abayomi",
+        "descricao": "Boneca de pano afro-brasileira feita sem costura e sem cola, criada por Lena Martins na década de 1980.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Abayomi"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que característica marcante tem o rosto das bonecas abayomi tradicionais, feitas só com nós de pano?",
+      "resposta": "Não tem feições desenhadas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Abayomi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mapinguari",
+        "nome": "Mapinguari",
+        "descricao": "Monstro peludo do folclore amazônico, descrito com um só olho e uma boca na barriga.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mapinguari"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda, o Mapinguari tem o couro quase invulnerável. Em que parte do corpo ele pode ser ferido?",
+      "resposta": "Umbigo",
+      "distratores": [
+        "Olho",
+        "Pescoço",
+        "Calcanhar"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mapinguari"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ex-voto",
+        "descricao": "Objeto oferecido a um santo em agradecimento a uma graça, como as peças de cera ou madeira das salas de milagres.",
+        "variantes": [
+          "Ex-votos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ex-voto"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Nas salas de milagres das igrejas, fiéis deixam cabeças, pernas e mãos de cera ou madeira para agradecer uma graça. Como se chamam essas peças?",
+      "resposta": "Ex-votos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ex-voto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chita",
+        "descricao": "Tecido de algodão barato, estampado com flores grandes e coloridas, símbolo das festas juninas.",
+        "variantes": [
+          "Chitão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chita_(tecido)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que tecido de algodão barato, estampado com flores grandes e coloridas, enfeita as festas juninas e virou símbolo do Brasil popular?",
+      "resposta": "Chita",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chita_(tecido)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rei Momo",
+        "descricao": "Personagem que reina simbolicamente sobre o carnaval e recebe a chave da cidade.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rei_Momo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Rei Momo, que recebe a chave da cidade no carnaval, tem o nome de um deus grego ligado a quê?",
+      "resposta": "Ao sarcasmo e à zombaria",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rei_Momo",
+        "https://pt.wikipedia.org/wiki/Momo_(mitologia)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chimarrao",
+        "nome": "Chimarrão",
+        "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+        "variantes": [
+          "Mate"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chimarrão"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do chimarrão vem do espanhol cimarrón, palavra usada na região do Prata para descrever que tipo de animal?",
+      "resposta": "Animal xucro, selvagem",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chimarrão"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "curupira",
+        "nome": "Curupira",
+        "descricao": "Protetor das matas do folclore brasileiro, com cabelos vermelhos e os pés virados para trás.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Curupira"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na língua tupi, o nome do Curupira, guardião das matas de cabelos vermelhos, quer dizer o quê?",
+      "resposta": "Corpo de menino",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Curupira"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "iemanja",
+        "nome": "Iemanjá",
+        "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+        "variantes": [
+          "Yemanjá",
+          "Janaína"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iemanjá"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do orixá Iemanjá vem da língua iorubá. O que ele significa?",
+      "resposta": "Mãe dos filhos peixes",
+      "distratores": [
+        "Rainha do mar",
+        "Senhora das ondas",
+        "Estrela das águas"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Iemanjá"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "boiuna",
+        "nome": "Boiuna",
+        "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+        "variantes": [
+          "Cobra Grande"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boiuna"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No nome da Boiuna, a Cobra Grande da Amazônia, a terminação una vem do tupi e indica qual cor?",
+      "resposta": "Preta",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boiuna"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cordão da Bola Preta",
+        "descricao": "Tradicional bloco de carnaval do Rio de Janeiro, fundado em 1918.",
+        "variantes": [
+          "Bola Preta"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cordão_da_Bola_Preta"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Fundado no Rio de Janeiro em 1918, o Cordão da Bola Preta tirou seu nome de quê?",
+      "resposta": "Do vestido de bolinhas de uma moça",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cordão_da_Bola_Preta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iansã",
+        "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+        "variantes": [
+          "Oyá",
+          "Oiá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iansã"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Senhora dos raios e das tempestades, a orixá Iansã é associada no sincretismo a qual santa católica?",
+      "resposta": "Santa Bárbara",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Iansã"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "frevo",
+        "nome": "Frevo",
+        "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Frevo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o frevo pernambucano, o samba de roda baiano e o Círio de Nazaré, de Belém, têm em comum?",
+      "resposta": "São patrimônio da humanidade pela Unesco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Frevo",
+        "https://pt.wikipedia.org/wiki/Samba_de_roda",
+        "https://pt.wikipedia.org/wiki/Círio_de_Nazaré"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lenda_do_guarana",
+        "nome": "Lenda do guaraná",
+        "descricao": "Lenda do povo indígena Sateré-Mawé sobre a origem do guaraná a partir dos olhos de um menino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Guaraná"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Nas lendas indígenas, o que têm em comum a origem da mandioca e a origem do guaraná?",
+      "resposta": "Brotaram da cova de uma criança",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Guaraná",
+        "https://pt.wikipedia.org/wiki/Mandioca"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maracatu_nacao",
+        "nome": "Maracatu nação",
+        "descricao": "Cortejo carnavalesco afro-brasileiro de Pernambuco, também chamado maracatu de baque virado, com rei, rainha e batuque.",
+        "variantes": [
+          "Maracatu de baque virado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maracatu"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o maracatu nação pernambucano e a congada de Minas Gerais têm em comum na sua origem?",
+      "resposta": "A coroação de reis do Congo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maracatu",
+        "https://pt.wikipedia.org/wiki/Congada"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pedro_malasartes",
+        "nome": "Pedro Malasartes",
+        "descricao": "Personagem malandro e espertalhão dos contos populares de origem portuguesa, muito difundido no Brasil.",
+        "variantes": [
+          "Pedro Malazartes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pedro_Malasartes"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que comediante, famoso por seus caipiras no cinema, viveu o espertalhão Pedro Malasartes num filme de 1960?",
+      "resposta": "Mazzaropi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pedro_Malasartes",
+        "https://pt.wikipedia.org/wiki/As_Aventuras_de_Pedro_Malasartes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fogueira de São João",
+        "descricao": "Fogueira acesa nas festas juninas em homenagem a São João Batista.",
+        "variantes": [
+          "Fogueira junina"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_junina"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição católica, as fogueiras juninas lembram o sinal que Isabel acendeu para avisar qual parente do nascimento de João?",
+      "resposta": "Maria, mãe de Jesus",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fita_do_senhor_do_bonfim",
+        "nome": "Fita do Senhor do Bonfim",
+        "descricao": "Fitinha colorida de lembrança da Igreja do Senhor do Bonfim, em Salvador, amarrada no pulso com nós de pedidos.",
+        "variantes": [
+          "Fitinha do Bonfim"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a crença, o pedido feito ao amarrar a fitinha do Senhor do Bonfim no pulso se realiza quando acontece o quê?",
+      "resposta": "Ela arrebenta sozinha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "frevo",
+        "nome": "Frevo",
+        "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Frevo"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A sombrinha colorida do frevo descende dos guarda-chuvas que os capoeiristas levavam no carnaval do Recife. Para que eles serviam?",
+      "resposta": "Como arma de defesa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Frevo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "iara",
+        "nome": "Iara",
+        "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+        "variantes": [
+          "Uiara",
+          "Mãe-d'água"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iara_(mitologia)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Numa das versões da lenda, Iara era uma guerreira indígena atirada ao rio pelo próprio pai. Que crime ela tinha cometido?",
+      "resposta": "Matou os próprios irmãos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Iara_(mitologia)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bonecas do Vale do Jequitinhonha",
+        "descricao": "Bonecas de cerâmica feitas por artesãs do Vale do Jequitinhonha, retratando mulheres sertanejas.",
+        "variantes": [
+          "Cerâmica do Jequitinhonha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vale_do_Jequitinhonha"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As famosas bonecas de cerâmica do Vale do Jequitinhonha, com rostos de mulheres sertanejas, são feitas em qual estado?",
+      "resposta": "Minas Gerais",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vale_do_Jequitinhonha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Capim-dourado",
+        "descricao": "Planta do cerrado de hastes douradas, usada num artesanato tradicional de bolsas, chapéus e bijuterias.",
+        "variantes": [
+          "Capim dourado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capim-dourado"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O artesanato de capim dourado, que brilha como ouro em bolsas e chapéus, é típico de qual região do Tocantins?",
+      "resposta": "Jalapão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capim-dourado",
+        "https://pt.wikipedia.org/wiki/Jalapão"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panelas de barro de Goiabeiras",
+        "descricao": "Panelas de barro pretas feitas artesanalmente pelas paneleiras do bairro de Goiabeiras, registradas como patrimônio imaterial.",
+        "variantes": [
+          "Paneleiras de Goiabeiras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Paneleiras_de_Goiabeiras"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As panelas de barro pretas feitas pelas paneleiras de Goiabeiras, patrimônio cultural do Brasil, são produzidas em qual capital?",
+      "resposta": "Vitória",
+      "distratores": [
+        "Salvador",
+        "Belém",
+        "São Luís"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Paneleiras_de_Goiabeiras",
+        "https://pt.wikipedia.org/wiki/Moqueca_capixaba"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festa_do_divino",
+        "nome": "Festa do Divino",
+        "descricao": "Festa católica popular em honra do Espírito Santo, trazida de Portugal, com coroação de imperador e folias.",
+        "variantes": [
+          "Festa do Divino Espírito Santo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Festa do Divino celebra o Espírito Santo na época de qual data cristã, cinquenta dias depois da Páscoa?",
+      "resposta": "Pentecostes",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_do_Divino",
+        "https://pt.wikipedia.org/wiki/Pentecostes"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bumba_meu_boi",
+        "nome": "Bumba meu boi",
+        "descricao": "Folguedo popular brasileiro, muito forte no Maranhão, que encena a morte e a ressurreição de um boi.",
+        "variantes": [
+          "Boi-bumbá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "No Maranhão, os grupos de bumba meu boi saem às ruas principalmente durante qual ciclo de festas do ano?",
+      "resposta": "As festas juninas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "viola_caipira",
+        "nome": "Viola caipira",
+        "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+        "variantes": [
+          "Viola de dez cordas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Viola_caipira"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A viola caipira, símbolo da música sertaneja de raiz, tem as cordas agrupadas em pares. Quantas cordas ela tem ao todo?",
+      "resposta": "Dez",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Viola_caipira"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tambor_de_crioula",
+        "nome": "Tambor de crioula",
+        "descricao": "Dança afro-brasileira de roda, com tambores e a umbigada chamada punga, registrada como patrimônio cultural do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na roda do tambor de crioula maranhense, quantos tambores formam a parelha que acompanha a dança?",
+      "resposta": "Três",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+      ]
+    }
+  ]
+}

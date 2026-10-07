@@ -139579,5 +139579,525 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q08164",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "quadrilha_junina",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na quadrilha das festas juninas, os dançarinos costumam encenar qual cerimônia, com noivos, padre e até delegado?",
+    "resposta": "Um casamento caipira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+      "https://pt.wikipedia.org/wiki/Festa_junina"
+    ]
+  },
+  {
+    "id": "q08165",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "escola_de_samba",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na escola de samba, ao lado do mestre-sala, quem desfila carregando o pavilhão com o símbolo da agremiação?",
+    "resposta": "A porta-bandeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mestre-sala_e_porta-bandeira",
+      "https://pt.wikipedia.org/wiki/Escola_de_samba"
+    ]
+  },
+  {
+    "id": "q08166",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "bumba_meu_boi",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No bumba meu boi maranhense, como se chama o brincante que fica escondido debaixo da armação do boi, fazendo-o dançar?",
+    "resposta": "Miolo do boi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+    ]
+  },
+  {
+    "id": "q08167",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "festa_do_divino",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Festa do Divino, que personagem, escolhido entre os devotos e muitas vezes uma criança, é coroado e reina durante a festa?",
+    "resposta": "O imperador do Divino",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+    ]
+  },
+  {
+    "id": "q08168",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "literatura_de_cordel",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Nos folhetos de cordel, qual é o tipo de estrofe mais usado pelos poetas populares?",
+    "resposta": "Sextilha",
+    "distratores": [
+      "Quadra",
+      "Décima",
+      "Oitava"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Literatura_de_cordel"
+    ]
+  },
+  {
+    "id": "q08169",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "filhos_de_gandhy",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Os Filhos de Gandhy desfilam no carnaval de Salvador ao som de qual ritmo, vindo do candomblé?",
+    "resposta": "Ijexá",
+    "distratores": [
+      "Samba-reggae",
+      "Maracatu",
+      "Xote"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Filhos_de_Gandhy",
+      "https://pt.wikipedia.org/wiki/Ijexá"
+    ]
+  },
+  {
+    "id": "q08170",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "pilcha",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na pilcha, a roupa tradicional do gaúcho, como se chama a calça larga presa nos tornozelos?",
+    "resposta": "Bombacha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pilcha",
+      "https://pt.wikipedia.org/wiki/Bombacha"
+    ]
+  },
+  {
+    "id": "q08171",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "caipora",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Curupira e Caipora são muitas vezes confundidos. Qual dos dois costuma ser descrito montado num porco-do-mato?",
+    "resposta": "Caipora",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caipora"
+    ]
+  },
+  {
+    "id": "q08172",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "festa_junina",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Dos três santos juninos, qual dá nome às maiores festas do mês no Nordeste brasileiro?",
+    "resposta": "São João",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_junina"
+    ]
+  },
+  {
+    "id": "q08173",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "terere",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "O tererê é primo do chimarrão e também usa erva-mate. O que o diferencia na hora do preparo?",
+    "resposta": "É feito com água gelada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Terer%C3%A9"
+    ]
+  },
+  {
+    "id": "q08174",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "oxum",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Se Iemanjá reina sobre as águas salgadas, qual orixá é a senhora das águas doces dos rios e cachoeiras?",
+    "resposta": "Oxum",
+    "distratores": [
+      "Iansã",
+      "Oxalá",
+      "Ogum"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Oxum"
+    ]
+  },
+  {
+    "id": "q08175",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "santo_antonio",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que santo é conhecido popularmente como casamenteiro, alvo das simpatias das moças para arranjar marido?",
+    "resposta": "Santo Antônio",
+    "distratores": [
+      "São Pedro",
+      "São Benedito",
+      "São Judas Tadeu"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_junina",
+      "https://en.wikipedia.org/wiki/Anthony_of_Padua"
+    ]
+  },
+  {
+    "id": "q08176",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "zabumba",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No trio pé de serra do forró, que instrumento de percussão faz a marcação mais grave?",
+    "resposta": "Zabumba",
+    "distratores": [
+      "Triângulo",
+      "Pandeiro",
+      "Agogô"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Zabumba"
+    ]
+  },
+  {
+    "id": "q08177",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "cuca",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Nas adaptações do Sítio do Picapau Amarelo, a Cuca, bruxa que assusta crianças, ganhou a aparência de qual animal?",
+    "resposta": "Jacaré",
+    "distratores": [
+      "Coruja",
+      "Cobra",
+      "Sapo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cuca"
+    ]
+  },
+  {
+    "id": "q08178",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "matinta_perera",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na Amazônia, a Matinta Perera, velha bruxa que vira pássaro, anuncia sua presença à noite com qual som?",
+    "resposta": "Um assobio agudo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Matinta_Perera"
+    ]
+  },
+  {
+    "id": "q08179",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "tambor_de_crioula",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No tambor de crioula do Maranhão, os homens tocam os tambores. Quem dança no meio da roda?",
+    "resposta": "As mulheres",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+    ]
+  },
+  {
+    "id": "q08180",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "bonecos_de_olinda",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pelas ladeiras de Olinda, como são carregados os bonecos gigantes, que podem passar de três metros de altura?",
+    "resposta": "Por uma pessoa dentro deles",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bonecos_de_Olinda"
+    ]
+  },
+  {
+    "id": "q08181",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "abayomi",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que característica marcante tem o rosto das bonecas abayomi tradicionais, feitas só com nós de pano?",
+    "resposta": "Não tem feições desenhadas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Abayomi"
+    ]
+  },
+  {
+    "id": "q08182",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "mapinguari",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Segundo a lenda, o Mapinguari tem o couro quase invulnerável. Em que parte do corpo ele pode ser ferido?",
+    "resposta": "Umbigo",
+    "distratores": [
+      "Olho",
+      "Pescoço",
+      "Calcanhar"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mapinguari"
+    ]
+  },
+  {
+    "id": "q08183",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "ex_voto",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Nas salas de milagres das igrejas, fiéis deixam cabeças, pernas e mãos de cera ou madeira para agradecer uma graça. Como se chamam essas peças?",
+    "resposta": "Ex-votos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ex-voto"
+    ]
+  },
+  {
+    "id": "q08184",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "chita",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tecido de algodão barato, estampado com flores grandes e coloridas, enfeita as festas juninas e virou símbolo do Brasil popular?",
+    "resposta": "Chita",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chita_(tecido)"
+    ]
+  },
+  {
+    "id": "q08185",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "rei_momo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Rei Momo, que recebe a chave da cidade no carnaval, tem o nome de um deus grego ligado a quê?",
+    "resposta": "Ao sarcasmo e à zombaria",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rei_Momo",
+      "https://pt.wikipedia.org/wiki/Momo_(mitologia)"
+    ]
+  },
+  {
+    "id": "q08186",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "iemanja",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do orixá Iemanjá vem da língua iorubá. O que ele significa?",
+    "resposta": "Mãe dos filhos peixes",
+    "distratores": [
+      "Rainha do mar",
+      "Senhora das ondas",
+      "Estrela das águas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Iemanjá"
+    ]
+  },
+  {
+    "id": "q08187",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "boiuna",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No nome da Boiuna, a Cobra Grande da Amazônia, a terminação una vem do tupi e indica qual cor?",
+    "resposta": "Preta",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Boiuna"
+    ]
+  },
+  {
+    "id": "q08188",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "cordao_da_bola_preta",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Fundado no Rio de Janeiro em 1918, o Cordão da Bola Preta tirou seu nome de quê?",
+    "resposta": "Do vestido de bolinhas de uma moça",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cordão_da_Bola_Preta"
+    ]
+  },
+  {
+    "id": "q08189",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "iansa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Senhora dos raios e das tempestades, a orixá Iansã é associada no sincretismo a qual santa católica?",
+    "resposta": "Santa Bárbara",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Iansã"
+    ]
+  },
+  {
+    "id": "q08190",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "frevo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o frevo pernambucano, o samba de roda baiano e o Círio de Nazaré, de Belém, têm em comum?",
+    "resposta": "São patrimônio da humanidade pela Unesco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Frevo",
+      "https://pt.wikipedia.org/wiki/Samba_de_roda",
+      "https://pt.wikipedia.org/wiki/Círio_de_Nazaré"
+    ]
+  },
+  {
+    "id": "q08191",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "lenda_do_guarana",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Nas lendas indígenas, o que têm em comum a origem da mandioca e a origem do guaraná?",
+    "resposta": "Brotaram da cova de uma criança",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Guaraná",
+      "https://pt.wikipedia.org/wiki/Mandioca"
+    ]
+  },
+  {
+    "id": "q08192",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "maracatu_nacao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o maracatu nação pernambucano e a congada de Minas Gerais têm em comum na sua origem?",
+    "resposta": "A coroação de reis do Congo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Maracatu",
+      "https://pt.wikipedia.org/wiki/Congada"
+    ]
+  },
+  {
+    "id": "q08193",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "pedro_malasartes",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que comediante, famoso por seus caipiras no cinema, viveu o espertalhão Pedro Malasartes num filme de 1960?",
+    "resposta": "Mazzaropi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pedro_Malasartes",
+      "https://pt.wikipedia.org/wiki/As_Aventuras_de_Pedro_Malasartes"
+    ]
+  },
+  {
+    "id": "q08194",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "fogueira_de_sao_joao",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição católica, as fogueiras juninas lembram o sinal que Isabel acendeu para avisar qual parente do nascimento de João?",
+    "resposta": "Maria, mãe de Jesus",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_junina"
+    ]
+  },
+  {
+    "id": "q08195",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "fita_do_senhor_do_bonfim",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a crença, o pedido feito ao amarrar a fitinha do Senhor do Bonfim no pulso se realiza quando acontece o quê?",
+    "resposta": "Ela arrebenta sozinha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
+    ]
+  },
+  {
+    "id": "q08196",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "frevo",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A sombrinha colorida do frevo descende dos guarda-chuvas que os capoeiristas levavam no carnaval do Recife. Para que eles serviam?",
+    "resposta": "Como arma de defesa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Frevo"
+    ]
+  },
+  {
+    "id": "q08197",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "festa_do_divino",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Festa do Divino celebra o Espírito Santo na época de qual data cristã, cinquenta dias depois da Páscoa?",
+    "resposta": "Pentecostes",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_do_Divino",
+      "https://pt.wikipedia.org/wiki/Pentecostes"
+    ]
+  },
+  {
+    "id": "q08198",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "bumba_meu_boi",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No Maranhão, os grupos de bumba meu boi saem às ruas principalmente durante qual ciclo de festas do ano?",
+    "resposta": "As festas juninas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+    ]
+  },
+  {
+    "id": "q08199",
+    "tema": "Cotidiano",
+    "subtema": "Folclore e Tradições Brasileiras",
+    "ancora": "tambor_de_crioula",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na roda do tambor de crioula maranhense, quantos tambores formam a parelha que acompanha a dança?",
+    "resposta": "Três",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+    ]
   }
 ]
