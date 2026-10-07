@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Captura de TV nítida, sem texto; apresentadora muito reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Em que área esta apresentadora se formou na faculdade, antes de seguir carreira na televisão?",
+      "resposta": "Ciências Biológicas",
+      "ancora": {
+        "nome": "Ana Maria Braga",
+        "descricao": "Apresentadora de televisão, jornalista e culinarista brasileira, comandante do Mais Você na TV Globo.",
+        "variantes": [
+          "Ana Maria Braga Maffeis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de show em preto e branco, sem texto, dreads e microfone; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este músico brasileiro atuou, em 2004, num filme de Wes Anderson sobre um oceanógrafo. Que filme é esse?",
+      "resposta": "A Vida Marinha com Steve Zissou",
+      "ancora": {
+        "nome": "Seu Jorge",
+        "descricao": "Cantor, compositor e ator brasileiro de samba pop, conhecido por Cidade de Deus.",
+        "variantes": [
+          "Jorge Mário da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato frontal nítido, sem texto; atriz famosa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é esta atriz brasileira?",
+      "resposta": "Sônia Braga",
+      "ancora": {
+        "nome": "Sônia Braga",
+        "descricao": "Atriz brasileira de Dona Flor e Seus Dois Maridos e O Beijo da Mulher Aranha.",
+        "variantes": [
+          "Sonia Braga"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de show nítida, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "De que banda britânica este cantor é vocalista e fundador?",
+      "resposta": "Rolling Stones",
+      "ancora": {
+        "nome": "Mick Jagger",
+        "descricao": "Cantor inglês, vocalista e cofundador dos Rolling Stones.",
+        "variantes": [
+          "Michael Philip Jagger"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o fundo é só um cartaz desfocado com cabelo loiro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é este ator brasileiro?",
+      "resposta": "Rodrigo Santoro",
+      "ancora": {
+        "nome": "Rodrigo Santoro",
+        "descricao": "Ator brasileiro, o Xerxes de 300 e Paulo em Lost.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato clássico em preto e branco, sem texto; reconhecível por quem conhece cinema japonês.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este ator japonês, parceiro frequente do diretor Akira Kurosawa?",
+      "resposta": "Toshiro Mifune",
+      "distratores": [
+        "Ken Watanabe",
+        "Tatsuya Nakadai",
+        "Takashi Shimura"
+      ],
+      "ancora": {
+        "nome": "Toshiro Mifune",
+        "descricao": "Ator japonês de Rashomon, Os Sete Samurais e Yojimbo.",
+        "variantes": [
+          "Mifune Toshirō"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido; fundo desfocado sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é este ator americano?",
+      "resposta": "Brad Pitt",
+      "ancora": {
+        "nome": "Brad Pitt",
+        "descricao": "Ator e produtor americano de Clube da Luta e Seven.",
+        "variantes": [
+          "William Bradley Pitt"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de show de corpo inteiro, sem texto; cantora reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta cantora brasileira?",
+      "resposta": "Maria Bethânia",
+      "distratores": [
+        "Gal Costa",
+        "Nana Caymmi",
+        "Elis Regina"
+      ],
+      "ancora": {
+        "nome": "Maria Bethânia",
+        "descricao": "Cantora brasileira baiana, irmã de Caetano Veloso.",
+        "variantes": [
+          "Maria Bethânia Viana Teles Veloso"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Close muito fechado, rosto parcialmente coberto por microfone e óculos; reconhecimento pouco confiável."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido sem texto; cantora muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é esta cantora americana?",
+      "resposta": "Taylor Swift",
+      "ancora": {
+        "nome": "Taylor Swift",
+        "descricao": "Cantora e compositora americana, autora de 1989 e Fearless.",
+        "variantes": [
+          "Taylor Alison Swift"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; atriz conhecida, com distratores plausíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é esta atriz brasileira?",
+      "resposta": "Taís Araújo",
+      "distratores": [
+        "Camila Pitanga",
+        "Sheron Menezzes",
+        "Zezé Motta"
+      ],
+      "ancora": {
+        "nome": "Taís Araújo",
+        "descricao": "Atriz e apresentadora brasileira, protagonista de Xica da Silva e Viver a Vida.",
+        "variantes": [
+          "Taís Bianca Gama de Araújo Ramos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de show nítida com guitarra laranja, sem texto legível; músico reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este músico brasileiro?",
+      "resposta": "Jorge Ben Jor",
+      "ancora": {
+        "nome": "Jorge Ben Jor",
+        "descricao": "Cantor e compositor brasileiro de samba-rock, autor de Mas Que Nada.",
+        "variantes": [
+          "Jorge Ben",
+          "Jorge Duílio Lima Menezes"
+        ]
+      }
+    }
+  ]
+}
