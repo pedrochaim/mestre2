@@ -1,0 +1,335 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Varanasi, cidade onde muitos hindus desejam morrer e ser cremados, fica às margens de que rio sagrado?",
+        "resposta": "Ganges"
+      },
+      "existentes": [
+        {
+          "id": "q03948",
+          "pergunta": "Em que cidade indiana ficam estas escadarias de pedra que descem até o rio?",
+          "resposta": "Varanasi (Benares)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Nowruz, ano-novo persa celebrado há milênios, começa no dia de que fenômeno astronômico?",
+        "resposta": "Equinócio de março"
+      },
+      "existentes": [
+        {
+          "id": "q00835",
+          "pergunta": "O Nowruz, ano-novo persa celebrado no Irã e na Ásia Central, começa no momento de qual fenômeno astronômico?",
+          "resposta": "Equinócio de março"
+        },
+        {
+          "id": "q06630",
+          "pergunta": "Na mesa do Nowruz, o ano-novo persa, arrumam-se objetos cujos nomes começam com a letra s. Quantos são esses objetos?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O rei persa Ciro, o Grande, tomou a Babilônia quase sem combate. Isso aconteceu em que século antes de Cristo?",
+        "resposta": "Século seis antes de Cristo"
+      },
+      "existentes": [
+        {
+          "id": "q03343",
+          "pergunta": "Em acadiano, o nome da cidade de Babilônia significava o quê?",
+          "resposta": "Portão dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A escrita cuneiforme, uma das mais antigas do mundo, surgiu na Mesopotâmia por volta de que milênio?",
+        "resposta": "Quarto milênio antes de Cristo"
+      },
+      "existentes": [
+        {
+          "id": "q03096",
+          "pergunta": "A escrita cuneiforme, criada na Mesopotâmia, tem esse nome por causa do formato dos seus sinais. Eles lembram o quê?",
+          "resposta": "Cunhas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Feita com estiletes de junco sobre tabuletas de argila, a escrita cuneiforme foi criada por que povo do sul da Mesopotâmia?",
+        "resposta": "Sumérios"
+      },
+      "existentes": [
+        {
+          "id": "q03096",
+          "pergunta": "A escrita cuneiforme, criada na Mesopotâmia, tem esse nome por causa do formato dos seus sinais. Eles lembram o quê?",
+          "resposta": "Cunhas"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que era da história japonesa, iniciada em 1868, os samurais perderam seus privilégios e deixaram de existir como classe?",
+        "resposta": "Era Meiji"
+      },
+      "existentes": [
+        {
+          "id": "q03353",
+          "pergunta": "A palavra samurai vem de um antigo verbo japonês. O que esse verbo significava?",
+          "resposta": "Servir"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No século sete, que matemático indiano escreveu regras para somar, subtrair e multiplicar usando o zero como número?",
+        "resposta": "Brahmagupta"
+      },
+      "existentes": [
+        {
+          "id": "q03294",
+          "pergunta": "A palavra zero vem de um termo árabe que também deu origem à palavra cifra. O que significa esse termo árabe?",
+          "resposta": "Vazio"
+        },
+        {
+          "id": "q03325",
+          "pergunta": "Que matemático indiano do século sete escreveu regras para fazer contas com o zero?",
+          "resposta": "Brahmagupta"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O Tao Te Ching, livro fundamental do taoismo, é tradicionalmente atribuído a que sábio da China antiga?",
+        "resposta": "Lao-Tsé"
+      },
+      "existentes": [
+        {
+          "id": "q03562",
+          "pergunta": "A quem a tradição chinesa atribui o Tao Te Ching, texto fundamental do taoísmo?",
+          "resposta": "Lao-Tsé"
+        },
+        {
+          "id": "q03747",
+          "pergunta": "Segundo a lenda, Lao-Tsé escreveu o Tao Te Ching quando ia deixar a China, a pedido de quem?",
+          "resposta": "Um guarda da fronteira"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Segundo a lenda chinesa, que imperatriz, esposa do Imperador Amarelo, descobriu a seda quando um casulo caiu em sua xícara de chá?",
+        "resposta": "Leizu"
+      },
+      "existentes": [
+        {
+          "id": "q04080",
+          "pergunta": "Segundo a lenda chinesa, quem descobriu a seda ao ver um casulo se desenrolar dentro de sua xícara de chá quente?",
+          "resposta": "Imperatriz Leizu"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Que diplomata chinês, enviado ao oeste por um imperador Han no século dois antes de Cristo, abriu caminho para a Rota da Seda?",
+        "resposta": "Zhang Qian"
+      },
+      "existentes": [
+        {
+          "id": "q03354",
+          "pergunta": "Em 1877, que geógrafo alemão popularizou a expressão Rota da Seda?",
+          "resposta": "Ferdinand von Richthofen"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Por volta do ano mil, que dama da corte imperial japonesa escreveu O Conto de Genji, clássico da literatura do Japão?",
+        "resposta": "Murasaki Shikibu"
+      },
+      "existentes": [
+        {
+          "id": "q02965",
+          "pergunta": "O Conto de Genji, clássico japonês do século onze, foi escrito por uma dama da corte imperial. Quem foi ela?",
+          "resposta": "Murasaki Shikibu"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A roda azul no centro da bandeira da Índia reproduz um símbolo gravado nas colunas de que imperador da Antiguidade?",
+        "resposta": "Ashoka"
+      },
+      "existentes": [
+        {
+          "id": "q03359",
+          "pergunta": "Que sangrenta guerra do século três antes de Cristo deixou o imperador Ashoka arrependido e o levou à não violência?",
+          "resposta": "Guerra de Kalinga"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Quando Nínive foi saqueada e incendiada, em 612 antes de Cristo, por que tantas tabuletas da biblioteca de Assurbanipal resistiram?",
+        "resposta": "O fogo cozeu a argila"
+      },
+      "existentes": [
+        {
+          "id": "q03378",
+          "pergunta": "Em que capital assíria ficava a biblioteca do rei Assurbanipal, onde foram achadas tabuletas da Epopeia de Gilgamesh?",
+          "resposta": "Nínive"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na China antiga, bambus estourando no fogo e depois fogos de artifício eram usados em festas como o ano-novo. Com que objetivo?",
+        "resposta": "Espantar maus espíritos"
+      },
+      "existentes": [
+        {
+          "id": "q03161",
+          "pergunta": "Nos fogos de artifício, sais de que elemento, o mesmo das lâmpadas amareladas de rua, produzem a cor amarela?",
+          "resposta": "Sódio"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O princípio do olho por olho, dente por dente, presente no Código de Hamurábi, é conhecido por que nome?",
+        "resposta": "Lei de talião"
+      },
+      "existentes": [
+        {
+          "id": "q03342",
+          "pergunta": "Levada como saque de guerra pelos elamitas, a estela do Código de Hamurábi foi encontrada em 1901 em que antiga cidade, hoje no Irã?",
+          "resposta": "Susa"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Antes de guiar navegantes, as antigas bússolas chinesas, em forma de colher de ímã, eram usadas para quê?",
+        "resposta": "Adivinhação e geomancia"
+      },
+      "existentes": [
+        {
+          "id": "q01676",
+          "pergunta": "Que instrumento de orientação, com uma agulha magnetizada, é este?",
+          "resposta": "Bússola"
+        },
+        {
+          "id": "q03610",
+          "pergunta": "A bússola magnética, que séculos depois guiaria as Grandes Navegações, foi inventada em que país?",
+          "resposta": "China"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rio vs. cidade: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q00835",
+      "motivo": "Mesmo fato: fenômeno astronômico do Nowruz."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século da tomada vs. significado do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Época de surgimento vs. origem do nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Criadores vs. formato dos sinais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Era Meiji vs. etimologia."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q03325",
+      "motivo": "Mesmo matemático, Brahmagupta."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q03562",
+      "motivo": "Mesma autoria atribuída do Tao Te Ching."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q04080",
+      "motivo": "Mesma lenda e resposta, Leizu."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Zhang Qian vs. Richthofen: fatos diferentes."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q02965",
+      "motivo": "Mesma autora de O Conto de Genji."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Origem do símbolo da bandeira vs. guerra de Kalinga."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Por que as tabuletas resistiram vs. localização da biblioteca."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Finalidade na China vs. cor amarela."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nome do princípio vs. local de descoberta."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Uso original das bússolas vs. identificação e país de invenção."
+    }
+  ]
+}
