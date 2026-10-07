@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Locomotiva a vapor preta bem visível; o texto 'Frieda' não entrega o tipo. Quem fez não rende pergunta justa para este exemplar, então a família passou para o que é.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de locomotiva é esta?",
+      "resposta": "Locomotiva a vapor (maria-fumaça)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maria-fumaça (locomotiva a vapor)",
+        "descricao": "Locomotiva que se move pela expansão do vapor gerado ao queimar combustível numa caldeira.",
+        "variantes": [
+          "Locomotiva a vapor",
+          "Maria fumaça"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trólebus com as duas hastes presas aos fios aéreos, bem reconhecível; o texto em sueco não entrega a resposta. Passou para o que é em múltipla escolha, porque quem fez não rende pergunta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que veículo urbano é este?",
+      "resposta": "Trólebus",
+      "distratores": [
+        "Bonde elétrico",
+        "VLT",
+        "Ônibus articulado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trólebus",
+        "descricao": "Ônibus elétrico que recebe energia de dois fios aéreos por hastes de contato.",
+        "variantes": [
+          "Ônibus elétrico de fios aéreos",
+          "Trolleybus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A inscrição 'BR-800' está legível na porta e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Monotrilho sobre viga única, sem texto. A pergunta sobre época não rende, então ficou em o que é, em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de transporte sobre trilhos é este?",
+      "resposta": "Monotrilho",
+      "distratores": [
+        "Bonde elétrico",
+        "Trem de levitação magnética",
+        "Teleférico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monotrilho",
+        "descricao": "Sistema de transporte urbano sobre trilhos em que os trens correm sobre uma única viga ou pendurados nela.",
+        "variantes": [
+          "Monorail",
+          "Monocarril"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A sigla 'VLT' e o nome 'João do Rio' aparecem escritos no veículo e entregam a resposta. O modelo também é genérico, sem marca da rede carioca."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O viaduto Landwasser também é usado pelo Bernina Express, que tem composição vermelha parecida. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum em primeiro plano, e o casco traz marca e número."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O Bismarck e o Tirpitz, seu navio irmão, são quase idênticos nesta foto. A resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O registro 'NX37602' aparece legível na cauda e identifica a aeronave."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Teleférico com cabines e cabos, bem reconhecível. O texto 'Banff Sulphur Mountain' não entrega o tipo de veículo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que meio de transporte é este, que sobe a montanha?",
+      "resposta": "Teleférico",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Teleférico",
+        "descricao": "Meio de transporte com cabines suspensas por cabos de aço, usado para vencer desníveis.",
+        "variantes": [
+          "Bondinho",
+          "Gôndola aérea",
+          "Cable car"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível do SR-71, sem texto legível. Múltipla escolha com aviões de formato marcante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que avião é este?",
+      "resposta": "SR-71 Blackbird",
+      "distratores": [
+        "MiG-25 Foxbat",
+        "F-117 Nighthawk",
+        "B-2 Spirit"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "SR-71 Blackbird",
+        "descricao": "Avião de reconhecimento estratégico americano da Lockheed, capaz de voar acima de Mach 3.",
+        "variantes": [
+          "Lockheed SR-71",
+          "Blackbird",
+          "SR-71"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Locomotiva articulada gigante, em foto histórica. O texto 'Union Pacific' no tênder não entrega o nome do modelo. Múltipla escolha com outras locomotivas articuladas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que locomotiva a vapor americana é esta?",
+      "resposta": "Big Boy",
+      "distratores": [
+        "Challenger",
+        "Allegheny",
+        "Pennsylvania Duplex"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Locomotiva Big Boy",
+        "descricao": "Locomotiva a vapor articulada 4-8-8-4 da Union Pacific, construída pela ALCO entre 1941 e 1944.",
+        "variantes": [
+          "Union Pacific Big Boy",
+          "Big Boy 4000"
+        ]
+      }
+    }
+  ]
+}

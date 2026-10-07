@@ -1,0 +1,66 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única e confirmada pelos trechos (locomotiva a vapor, apelidada de Maria Fumaça no Brasil).",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'Ônibus articulado' pode descrever também um trólebus articulado, então pode estar correto. Troquei por um distrator claramente errado.",
+      "reescrita": {
+        "pergunta": "Que veículo urbano é este?",
+        "resposta": "Trólebus",
+        "distratores": [
+          "Bonde elétrico",
+          "VLT",
+          "Ônibus a diesel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'sobre trilhos' no enunciado repete parte da resposta (monotrilho) e dá pista. Tirei isso do enunciado.",
+      "reescrita": {
+        "pergunta": "Que sistema de transporte urbano é este?",
+        "resposta": "Monotrilho",
+        "distratores": [
+          "Bonde elétrico",
+          "Trem de levitação magnética",
+          "Teleférico"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'que sobe a montanha' pode não ser verdadeiro para esta foto (teleféricos também são urbanos) e é pista desnecessária.",
+      "reescrita": {
+        "pergunta": "Que meio de transporte é este?",
+        "resposta": "Teleférico",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, distratores são aviões militares críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Locomotiva a vapor americana confirmada pelos trechos (ALCO, Union Pacific); distratores são outras locomotivas americanas críveis.",
+      "reescrita": null
+    }
+  ]
+}

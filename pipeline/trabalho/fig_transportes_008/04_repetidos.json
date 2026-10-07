@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de locomotiva é esta?",
+        "resposta": "Locomotiva a vapor (maria-fumaça)"
+      },
+      "existentes": [
+        {
+          "id": "q04493",
+          "pergunta": "Que tipo de locomotiva é esta?",
+          "resposta": "Locomotiva a vapor"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (locomotiva a vapor); maria-fumaça é só outro nome.",
+      "id_existente": "q04493"
+    }
+  ]
+}
