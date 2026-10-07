@@ -1,0 +1,1784 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Matemática** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Pitágoras",
+      "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Nascido na ilha grega de Samos, Pitágoras fundou sua escola filosófica em que cidade do sul da Itália?",
+    "resposta": "Crotona",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pit%C3%A1goras",
+      "https://en.wikipedia.org/wiki/Pythagoras"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pit%C3%A1goras",
+        "situacao": "ok",
+        "texto": "Pitágoras de Samos (em grego:  Πυθαγόρας ὁ Σάμιος, ou apenas Πυθαγόρας; Πυθαγόρης em grego jônico; Samos, c. 570 – Metaponto, c. 495 a.C.) foi um filósofo e matemático grego jônico creditado como fundador do movimento chamado Pitagorismo. Na sua maioria, as informações sobre Pitágoras foram escritas séculos depois da sua morte, de modo que há pouca informação confiável sobre ele. Nasceu na ilha de\n[…]\nCerca de 530 a.C., mudou-se para Crotona, na Magna Grécia.\n[…]\nNascido na ilha grega de Samos, sua mãe teria se chamado Pítais e seu pai Mnesarco, supostamente um mercador da cidade de Tiro, que além de Pitágoras teria tido outros dois ou três filhos. Pitágoras passou a infância em Samos embora tenha viajado bastante com seu pai; ele foi treinado pelos melhores professores, alguns deles filósofos. Tocava lira, aprendeu aritmética, geometria, astronomia e poesia.\n[…]\nEm 522 a.C. ambos Policrates e Cambises já haviam morrido, então Pitágoras retorna a Samos onde funda uma escola de filosofia chamada Semicírculo.\n[…]\nPor volta de 518 a.C., para evitar conflitos políticos, viaja para o sul da Itália, para a cidade de Crotona onde funda uma escola espiritual; lá ele teria se casado.\n[…]\nTanto Platão e Isócrates afirmam que, acima de tudo, Pitágoras era conhecido como o fundador de uma nova forma de vida. A organização que Pitágoras fundou em Crotona foi chamada de \"escola\", mas, de muitas maneiras, parecia um mosteiro. Os adeptos foram obrigados por um voto a Pitágoras e uns aos outros, com o propósito de buscar as observâncias religiosas e ascéticas e de estudar suas teorias religiosas e filosóficas.\n[…]\nQuando retornou a Samos, indispôs-se com o tirano Polícrates e emigrou para Crotona no sul da Itália. Aí fundou a Escola Pitagórica, a quem se concede a glória de ser a \"primeira Universidade do mundo\".\n[…]\nÁrvore de Pitágoras\n[…]\nComa pitagórica\n[…]\nCopo de Pitágoras\n[…]\nTripla pitagórica\n[…]\nPitágoras de Samos (escultor)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pythagoras",
+        "situacao": "ok",
+        "texto": "Pythagoras of Samos (Ancient Greek: Πυθαγόρας; c. 570 – c. 495 BC) was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. His political and religious teachings were well known in Magna Graecia and influenced the philosophies of Plato, Aristotle, and, through them, Western philosophy.\n[…]\nOther accounts claim that Pythagoras left Samos because he was so overburdened with public duties in Samos, because of the high estimation in which he was held by his fellow-citizens. He arrived in the Greek colony of Croton (today's Crotone, in Calabria) in what was then Magna Graecia. All sources agree that Pythagoras was charismatic and quickly acquired great political influence in his new environment. He served as an advisor to the elites in Croton and gave them frequent advice.\n[…]\nThe poet Heraclitus of Ephesus (fl. c. 500 BC), who was born a few miles across the sea from Samos and may have lived within Pythagoras's lifetime, mocked Pythagoras as a clever charlatan, remarking that \"Pythagoras, son of Mnesarchus, practiced inquiry more than any other man, and selecting from these writings he manufactured a wisdom for himself—much learning, artful knavery.\" Alcmaeon of Croton (fl. c.\n[…]\nHeinrich Cornelius Agrippa's popular and influential three-volume treatise De Occulta Philosophia cites Pythagoras as a \"religious magi\" and advances the idea that Pythagoras's mystical numerology operates on a supercelestial level, a religious term used to describe a high heavenly realm used during his time. The freemasons deliberately modeled their society on the community founded by Pythagoras at Croton."
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Al-Khwarizmi",
+      "descricao": "Matemático e astrônomo persa do século nove, cujo nome deu origem à palavra algoritmo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O persa Al-Khwarizmi trabalhou na Casa da Sabedoria, um grande centro de estudos do mundo islâmico. Em que cidade ela ficava?",
+    "resposta": "Bagdá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "https://en.wikipedia.org/wiki/House_of_Wisdom"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+        "situacao": "ok",
+        "texto": "Muhammad ibn Musa al-Khwarizmi, or simply al-Khwarizmi (c. 780 – c. 850) was a mathematician active during the Islamic Golden Age, who produced Arabic-language works in mathematics, astronomy, and geography. Around 820, he worked at the House of Wisdom in Baghdad, the contemporary capital city of the Abbasid Caliphate. One of the most prominent scholars of the period, his works were widely influen\n[…]\nAl-Tabari gives his name as Muḥammad ibn Musá al-Khwārizmī al-Majūsī al-Quṭrubbullī (محمد بن موسى الخوارزميّ المجوسـيّ القطربّـليّ). The epithet al-Qutrubbulli could indicate he might instead have come from Qutrubbul (Qatrabbul), near Baghdad. However, Roshdi Rashed denies this:\n[…]\nThere is no need to be an expert on the period or a philologist to see that al-Tabari's second citation should read \"Muhammad ibn Mūsa al-Khwārizmī and al-Majūsi al-Qutrubbulli,\" and that there are two people (al-Khwārizmī and al-Majūsi al-Qutrubbulli) between whom the letter wa [Arabic 'و' for the conjunction 'and'] has been omitted in an early copy.\n[…]\nRegarding al-Khwārizmī's religion, Toomer writes:\n[…]\nDuring the reign of al-Wathiq, he is said to have been involved in the first of two embassies to the Khazars. Douglas Morton Dunlop suggests that Muḥammad ibn Mūsā al-Khwārizmī might have been the same person as Muḥammad ibn Mūsā ibn Shākir, the eldest of the three Banū Mūsā brothers.\n[…]\nAccording to Swiss-American historian of mathematics, Florian Cajori, Al-Khwarizmi's algebra was different from the work of Indian mathematicians, for Indians had no rules like the restoration and reduction. Regarding the dissimilarity and significance of Al-Khwarizmi's algebraic work from that of Indian Mathematician Brahmagupta, Carl B. Boyer wrote: It is true that in two respects the work of al-Khowarizmi represented a retrogression from that of Diophantus.\n[…]\nMedia related to Muhammad ibn Musa al-Khwarizmi at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/House_of_Wisdom",
+        "situacao": "ok",
+        "texto": "The House of Wisdom (Arabic: بَيْت الْحِكْمَة Bayt al-Ḥikmah), also known as the Grand Library of Baghdad, was a major Abbasid-era public academy and intellectual center in Baghdad. In popular reference, it acted as one of the world's largest public libraries during the Islamic Golden Age, and was founded either as a library for the collections of the fifth Abbasid caliph Harun al-Rashid (r. 786–8\n[…]\nAbū Jaʿfar, Muḥammad ibn Mūsā ibn Shākir (before 803 – February 873), Abū al‐Qāsim, Aḥmad ibn Mūsā ibn Shākir (d. 9th century) and al-Ḥasan ibn Mūsā ibn Shākir (d. 9th century) are widely known for their Book of Ingenious Devices, which describes about one hundred devices and how to use them. Among these was \"The Instrument that Plays by Itself\", the earliest example of a programmable machine, as well as the Book on Measurement of Plane and Spherical Figures.\n[…]\nMuhammad ibn Musa al-Khwarizmi (d. 850) — Persian polymath head of the House of Wisdom, founder of Algebra, the word \"algorithm\" was named after him.\n[…]\nA major contribution from the House of Wisdom in Baghdad is the influence it had on other libraries in the Islamic world. It has been recognised as a factor that connected many different people and empires because of its educational and research components. The House of Wisdom has been accredited and respected throughout Islamic history and was the model for many libraries during and following its time of function.\n[…]\nIslamic Golden Age\n[…]\nMathematics in the medieval Islamic world\n[…]\nAstronomy in the medieval Islamic world\n[…]\nGeography and cartography in the medieval Islamic world\n[…]\nArt in the medieval Islamic world\n[…]\nMeri, Joseph; Bacharach, Jere (2006). Medieval Islamic Civilization: An Encyclopedia. Routledge. ISBN 978-0-415-96690-0.\n[…]\nSaliba, George (2007). Islamic Science and the Making of the European Renaissance. MIT Press. ISBN 978-0-262-19557-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alcuarismi",
+        "situacao": "ok",
+        "texto": "Para álgebra, palavra originário do livro de Alcuarismo, e para algoritmo e algarismo, palavras derivadas do seu nome, veja os respectivos artigos.\n[…]\nMaomé ibne Muça Alcuarismi (em árabe: محمد بن موسى الخوارزمي, translit. Muḥammad ibn Mūsā al-Khwārizmī; c. 780 – c. 850), conhecido simplesmente como Alcuarismi, foi um matemático, astrônomo e geógrafo que trabalhou em Bagdá durante o Califado Abássida, no reinado do califa Almamune. Escreveu sobre aritmética, álgebra, astronomia e geografia, reunindo e desenvolvendo conhecimentos matemáticos de origem indiana, grega e do mundo islâmico.\n[…]\nAlcuarismi escreveu ainda tabelas astronômicas, trabalhou com métodos trigonométricos e preparou uma obra geográfica com coordenadas de cidades e outros lugares. Parte de seus textos chegou apenas por cópias posteriores, revisões ou traduções, enquanto outros foram preservados em árabe. Por esses caminhos, suas obras circularam para além de Bagdá e do mundo islâmico, foram traduzidas, adaptadas e retomadas por autores de outros lugares.\n[…]\nIbne Anadim vinculou Alcuarismi à Corásmia, na Ásia Central, enquanto Atabari transmitiu a forma al-Qutrubbullī, que pode remeter a Qutrubbul, perto de Bagdá. A diferença entre os dois testemunhos deixa sua origem geográfica incerta. George Saliba o considera de ascendência persa e observa que ele viveu e trabalhou em Bagdá, sem obra científica conhecida em persa.\n[…]\nAstronomia islâmica, campo ao qual pertencem seus textos astronômicos\n[…]\nCasa da Sabedoria, biblioteca califal à qual Ibne Anadim o vinculou\n[…]\nIdade de ouro islâmica, período em que viveu e escreveu",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Leonhard Euler",
+      "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O suíço Leonhard Euler passou boa parte da vida trabalhando para a Academia de Ciências da Rússia. Em que cidade ele morreu, em 1783?",
+    "resposta": "São Petersburgo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Leonhard_Euler",
+      "https://en.wikipedia.org/wiki/Leonhard_Euler"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Leonhard_Euler",
+        "situacao": "ok",
+        "texto": "Leonhard Euler (pronúncia em alemão: [ˈleːɔnhaʁt ˈɔʏlɐ] (), 15 de abril de 1707 – 18 de setembro de 1783) foi um polímata suíço que trabalhou como matemático, físico, astrônomo, lógico, geógrafo, teórico musical e engenheiro. Seu trabalho sobre as pontes de Königsberg está na origem da teoria dos grafos e é considerado precursor da topologia. Fez descobertas em outros ramos da matemática, entre el\n[…]\nDaniel e Nicolaus, filhos de Johann Bernoulli, começaram a trabalhar na Academia Imperial de Ciências em São Petersburgo em 1725. Prometeram recomendar Euler quando surgisse uma vaga. Nicolaus morreu de apendicite em 31 de julho de 1726, menos de um ano depois de chegar à Rússia. Daniel assumiu o posto do irmão na divisão de matemática e física e indicou Euler para o cargo de fisiologia que havia deixado.\n[…]\nEuler casou-se em 7 de janeiro de 1734 com Katharina Gsell, filha de Georg Gsell, pintor do ginásio da academia em São Petersburgo. Compraram uma casa junto ao rio Neva. Dos treze filhos, cinco chegaram à idade adulta, três homens e duas mulheres. O primogênito, Johann Albrecht Euler, teve Christian Goldbach como padrinho. Johann Heinrich, irmão de Leonhard, instalou-se na cidade em 1735 e trabalhou como pintor na academia. Katharina morreu em 1773.\n[…]\nEm 18 de setembro de 1783 (7 de setembro no calendário juliano), Euler conversou em São Petersburgo com Anders Johan Lexell e Nicolaus Fuss sobre o planeta Urano, descoberto pouco antes. Mais tarde, sofreu uma hemorragia cerebral e morreu naquela noite. Jacob von Staehlin escreveu um breve obituário para a Academia Russa de Ciências. Nicolaus Fuss, discípulo de Euler, compôs um elogio mais longo e o leu numa reunião em sua memória.\n[…]\nEuler, Leonhard (1739). Tentamen novae theoriae musicae (em latim). St. Petersburg: Imperial Academy of Sciences. Consultado em 12 de junho de 2021. Cópia arquivada em 6 de agosto de 2026"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leonhard_Euler",
+        "situacao": "ok",
+        "texto": "Leonhard Euler ( OY-lər; 15 April 1707 – 18 September 1783) was a Swiss polymath who was active as a mathematician, physicist, astronomer, logician, geographer, music theorist and engineer. He founded the studies of graph theory and topology and made influential discoveries in many other branches of mathematics, such as analytic number theory, complex analysis, and infinitesimal calculus.\n[…]\nIn November 1726, Euler eagerly accepted the offer, but delayed making the trip to Saint Petersburg while he unsuccessfully applied for a physics professorship at the University of Basel.\n[…]\nThe political situation in Russia stabilized after Catherine the Great's accession to the throne, so in 1766 Euler accepted an invitation to return to the St. Petersburg Academy. His conditions were quite exorbitant—a 3000 ruble annual salary, a pension for his wife, and the promise of high-ranking appointments for his sons. At the university he was assisted by his student Anders Johan Lexell. While living in St. Petersburg, a fire in 1771 destroyed his home.\n[…]\nIn St. Petersburg on 18 September 1783, after a lunch with his family, Euler was discussing the newly discovered planet Uranus and its orbit with Anders Johan Lexell when he collapsed and died of a brain hemorrhage. Jacob von Staehlin wrote a short obituary for the Russian Academy of Sciences and Russian mathematician Nicolas Fuss, one of Euler's disciples, wrote a more detailed eulogy, which he delivered at a memorial meeting.\n[…]\nThere is a legend inspired by Euler's arguments with secular philosophers over religion, which is set during Euler's second stint at the St. Petersburg Academy. The French philosopher Denis Diderot was visiting Russia on Catherine the Great's invitation. The Empress was alarmed that Diderot's arguments for atheism were influencing members of her court, and so Euler was asked to confront him.\n[…]\nEuler Family Tree"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Congresso Internacional de Matemáticos de 2018",
+      "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2018, pela primeira vez no hemisfério sul, o Congresso Internacional de Matemáticos foi realizado em que cidade?",
+    "resposta": "Rio de Janeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians",
+        "situacao": "ok",
+        "texto": "The International Congress of Mathematicians (ICM) is the largest conference for the topic of mathematics. It meets once every four years, hosted by the International Mathematical Union (IMU).\n[…]\nThe University of Chicago, which had opened in 1892, organized an International Mathematical Congress at the Chicago World's Fair in 1893, where Felix Klein participated as the official German representative.\n[…]\nThe 1998 congress was attended by 3,346 participants. The American Mathematical Society reported that more than 4,500 participants attended the 2006 conference in Madrid, Spain. The King of Spain presided over the 2006 conference opening ceremony. The 2010 Congress took place in Hyderabad, India, on August 19–27, 2010. The ICM 2014 Archived 2014-12-29 at the Wayback Machine was held in Seoul, South Korea, on August 13–21, 2014. The  2018 Congress took place in Rio de Janeiro on August 1–9, 2018.\n[…]\nAt the 1950 ICM the participants voted to reconstitute the International Mathematical Union (IMU), which was formally established in 1951. Starting with the 1954 congress in Amsterdam, the ICMs are held under the auspices of the IMU.\n[…]\nList of International Congresses of Mathematicians Plenary and Invited Speakers\n[…]\nGuillermo Curbera. Mathematicians of the World, Unite!: The International Congress of Mathematicians: A Human Endeavor AK Peters,  2009. ISBN 1-56881-330-9\n[…]\nDonald J. Albers, Gerald L. Alexanderson, Constance Reid. International Mathematical Congresses: An Illustrated History, 1893–1986, Springer-Verlag, 1986. ISBN 0-387-96409-6\n[…]\nInternational Mathematical Congress: held in connection with the World's Columbian Exposition, Chicago\n[…]\nICM 2018 Rio de Janeiro"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Congresso_Internacional_de_Matem%C3%A1ticos",
+        "situacao": "ok",
+        "texto": "O Congresso Internacional de Matemáticos (em inglês: International Congress of Mathematicians (ICM)) é o maior congresso de matemática. É realizado quadrianualmente pela União Internacional de Matemática. O primeiro congresso foi realizado em 1897, em Zurique.\n[…]\nNo congresso de 1900 David Hilbert apresentou os famosos Problemas de Hilbert.\n[…]\nDesde 1936 a Medalha Fields é concedida durante o congresso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Osso de Ishango",
+      "descricao": "Osso pré-histórico com entalhes, de cerca de vinte mil anos, considerado um dos mais antigos indícios de contagem."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O osso de Ishango, com entalhes de cerca de vinte mil anos que podem ser marcas de contagem, foi encontrado em que país africano?",
+    "resposta": "República Democrática do Congo",
+    "distratores": [
+      "Quênia",
+      "Etiópia",
+      "África do Sul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ishango_bone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ishango_bone",
+        "situacao": "ok",
+        "texto": "The Ishango bone, discovered at the \"Fisherman Settlement\" of Ishango in the Democratic Republic of the Congo, is a bone tool and possible mathematical device that dates to the Upper Paleolithic era. The curved bone is dark brown in color, about 10 centimeters in length, and features a sharp piece of quartz affixed to one end, perhaps for engraving.\n[…]\nOther speculations include the engravings on the bone serving as a lunar calendar. Dating to 20,000 years before present, it has been described as \"the oldest mathematical tool of humankind\", although older engraved bones are also known, such as the approximately 26,000-year-old \"Wolf Bone\" from Dolni Vestonice in  the Czech Republic, and the approximately 42,000-year-old Lebombo bone from southern Africa.\n[…]\nThe Ishango bone was found in 1950 by Belgian Jean de Heinzelin de Braucourt while exploring what was then the Belgian Congo. It was discovered in the area of Ishango near the Semliki River. Lake Edward empties into the Semliki, which forms part of the headwaters of the Nile River (now on the border between modern-day Uganda and D.R. Congo). The Late Stone Age human remains from Ishango belong to Homo sapiens, although they exhibit some archaic morphological characteristics.\n[…]\nMarshack generated a diagram comparing the different sizes and phases of the Moon with the notches of the Ishango bone. There is some circumstantial evidence to support this alternate hypothesis, being that present day African societies utilize bones, strings, and other devices as calendars.\n[…]\nCritics in the field of archaeology have concluded, however, that Marshack's interpretation is flawed and describe that his analysis of the Ishango bone confines itself to a simple search for a pattern, rather than an actual test of his hypothesis.\n[…]\nLebombo bone"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Osso_de_Ishango",
+        "situacao": "ok",
+        "texto": "O osso de Ishango é uma ferramenta de osso que data do Paleolítico Superior, aproximadamente dentre 20 000 a.C. e 18 000 a.C. É um longo osso castanho (a fíbula de um babuíno) com um pedaço de quartzo afiado incrustado em uma ponta, que talvez fosse utilizado para gravar ou escrever. Cogitou-se a princípio que era utilizado para realizar contagens, porque há uma série de traços talhados, divididos\n[…]\nO osso de Ishango é exibido no Real Instituto Belga de Ciências Naturais, em Bruxelas, Bélgica.\n[…]\nO belga Jean de Heinzelin de Braucourt encontrou o osso de Ishango em 1960, quando explorava o que então era o Congo Belga. Descobriu-o na área africana de Ishango, perto da zona onde nasce o rio Nilo, no lago Eduardo (que fica entre a fronteira da Uganda e da República Democrática do Congo).\n[…]\nFoi encontrado entre os restos de uma pequena comunidade que pescava e coletava nesta área da África. O pequeno assentamento que ficou enterrado por uma erupção vulcânica.\n[…]\nAs três colunas de traços agrupados assimétricos implicam que a ferramenta era mais funcional do que decorativa. O osso de Ishango pode ter sido talhado para estabelecer um sistema numérico.\n[…]\nAlexander Marshack examinou o osso de Ishango com um microscópio e concluiu que esta antiga ferramenta pode representar um calendário lunar de seis meses. Claudia Zaslavsky sugestionou que isto pode indicar que o criador do instrumento era uma mulher, pela relação entre as fases lunares com o ciclo menstrual.\n[…]\nRegistraram-se outras descobertas de ferramentas de contagem (paus ou ossos com vários cortes), encontrados ao longo de todo o mundo. O osso dos Libombos, uma fíbula de babuíno de 35 000 anos, foi encontrado no Essuatíni. Uma tíbia de lobo de 32 000 anos que conta com 57 traços, agrupados em 5 grupos, foi encontrada na Checoslováquia em 1937.\n[…]\nIshango, 22000 and 50 years later: the cradle of mathematics?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Projeto de lei do pi de Indiana",
+      "descricao": "Projeto de lei de 1897, no estado americano de Indiana, que tentou oficializar um método errado de calcular a área do círculo, com valores incorretos para pi."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1897, os deputados de que estado americano aprovaram um projeto de lei que daria a pi um valor errado, depois barrado no Senado estadual?",
+    "resposta": "Indiana",
+    "distratores": [
+      "Ohio",
+      "Kansas",
+      "Texas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indiana_Pi_Bill"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indiana_Pi_Bill",
+        "situacao": "ok",
+        "texto": "The Indiana pi bill was bill 246 of the 1897 sitting of the Indiana General Assembly, one of the most notorious attempts to establish mathematical truth by legislative fiat. Despite its name, the main result claimed by the bill is a method to square the circle. The bill implies incorrect values of the mathematical constant π (pi), the ratio of the circumference of a circle to its diameter.\n[…]\nIn 1894, Indiana physician Edward J. Goodwin (c. 1825 – 1902), also called \"Edwin Goodwin\" by some sources, believed that he had discovered a way of squaring the circle. He proposed a bill to state representative Taylor I.\n[…]\nRecord, who introduced it in the House under the title \"A Bill for an act introducing a new mathematical truth and offered as a contribution to education to be used only by the State of Indiana free of cost by paying any royalties whatever on the same, provided it is accepted and adopted by the official action of the Legislature of 1897\".\n[…]\nWhen it reached the Indiana Senate, the bill was not treated as kindly, for Waldo had talked to the senators previously. The Committee on Temperance to which it had been assigned had reported it favorably, but the Senate on February 12, 1897, postponed the bill indefinitely. It had been nearly passed, but opinion changed when one senator observed that the General Assembly lacked the power to define mathematical truth.\n[…]\nAccording to the Indianapolis News article of February 13, 1897:\n[…]\nHallerburg, Arthur E. (1975). \"House Bill No. 246 Revisited\". Proceedings of the Indiana Academy of Science. 84: 374–399. Scan in context.\n[…]\nHallerberg, Arthur E. (1977). \"Indiana's Squared Circle\". Mathematics Magazine. 50 (3): 136–140. doi:10.1080/0025570X.1977.11976632. JSTOR 2689499. Hallerberg gives a good account of the bill.\n[…]\nOriginal Text of the House Bill No. 246, Indiana State Legislature, 1897 on Wikisource"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Projeto_de_lei_de_Indiana_sobre_Pi",
+        "situacao": "ok",
+        "texto": "O projeto de lei de Indiana sobre Pi (em inglês:  Indiana Pi Bill) é o nome popular do projeto de lei nº 246 da sessão de 1897 da Assembleia Geral de Indiana, uma das tentativas mais notórias de estabelecer a verdade matemática por decreto legislativo. Apesar de seu nome, o principal resultado reivindicado pelo projeto de lei é um método para a quadratura do círculo, em vez de estabelecer um certo\n[…]\nEm 1894, o médico e matemático amador de Indiana Edward J. Goodwin (ca. 1825-1902) acreditava ter descoberto uma forma correta de realizar a quadratura do círculo. Ele propôs um projeto de lei para o deputado estadual Taylor I.\n[…]\nRecord, que Record apresentou na Casa sob o longo título \"Um projeto de lei para um ato introduzindo uma nova verdade matemática e oferecido como uma contribuição para a educação, a ser usado apenas pelo Estado de Indiana, livre de custos, através do pagamento de royalties seja qual for o mesmo, desde que seja aceito e adotado pela ação oficial do Legislativo de 1897\".\n[…]\nDe acordo com o artigo do Indianapolis News de 13 de fevereiro, página 11, coluna 3:... o projeto de lei foi trazido à tona e ridicularizado. Os Senadores fizeram trocadilhos ruins sobre o projeto, o ridicularizaram e riram dele. A diversão durou meia hora. O senador Hubbell disse que não era apropriado para o Senado, que estava custando ao Estado $250 por dia, desperdiçar o seu tempo em tais frivolidades.\n[…]\nEle disse que, na leitura dos principais jornais de Chicago e do Oriente, ele descobriu que a Legislatura do Estado de Indiana já havia se sujeitado ao ridículo pelas ações que já haviam sido tomadas sobre o projeto de lei. Ele pensou que a consideração de tal proposição não era digna ou merecedora do Senado. Ele fez uma moção para o adiamento indefinido do projeto de lei, e a moção foi realizado.\n[…]\nAlabama Altera o Valor de Pi fake relatada no Snopes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Algarismos indo-arábicos",
+      "descricao": "Sistema de numeração posicional de base dez, com os algarismos de zero a nove, usado hoje em quase todo o mundo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os algarismos que usamos no dia a dia são chamados de arábicos, mas surgiram em outro país. Qual?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Algarismos_indo-ar%C3%A1bicos",
+      "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Algarismos_indo-ar%C3%A1bicos",
+        "situacao": "ok",
+        "texto": "Algarismos arábicos ou indo-arábicos são os dez dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9, criados com base no sistema numérico Indo-arábico, o sistema mais comum para a representação simbólica de números no mundo atual.\n[…]\nO primeiro zero verdadeiro foi desenvolvido por matemáticos antigos do subcontinente indiano. Algarismos arábicos são usados para representar números neste sistema numeral indo-arábico, em que uma sequência de dígitos, como \"975\", é lida como um único número. Este sistema foi adotado por matemáticos persas e árabes na Índia e repassado para outros povos ao longo do tempo.\n[…]\nA maioria dos historiadores coincide em afirmar que teve a sua origem na Índia (de fato, no árabe, este sistema de numeração é chamado de \"números indianos\", أرقام هندية, arqam hindiyyah), e expandiu-se pelo mundo árabe e daí, via Alandalus, pelo resto da Europa. Este sistema de numeração chegou ao Oriente Médio por volta de 670.\n[…]\nNo século X, matemáticos do Oriente Médio estenderam o sistema de numeração decimal para incluir frações, como se registra em um tratado do matemático sírio Alboácem Aluclidici em 952-953. A notação do ponto decimal foi introduzida por Sinde ibne Ali, que também escreveu o mais antigo tratado em algarismos indo-arábicos.\n[…]\nNa literatura ocidental, as primeiras menções destes algarismos encontram-se no Codex Virgilianus de 976. Por volta do século X começou a surgir, no Magrebe e no Alandalus, uma variante ocidental dos algarismos árabes, chamada ghubar (\"areia de mesa\" ou \"pó de mesa\"), que são a origem direta dos modernos algarismos arábicos ocidentais utilizados em todo o mundo.\n[…]\nAlgarismos arábicos orientais\n[…]\nNumeração romana"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+        "situacao": "ok",
+        "texto": "The Hindu–Arabic numeral system (also known as the Indo-Arabic numeral system, Hindu numeral system, and Arabic numeral system) is a base ten (decimal) positional numeral system. It is presently the most common decimal system.\n[…]\nThe Indian numerals in use with scripts of the Brahmic family in India and Southeast Asia. Each of the roughly dozen major scripts of India has its own numeral glyphs (as one will note when perusing Unicode character charts).\n[…]\nSometime around 600 CE, a change began in the writing of dates in the Brāhmī-derived scripts of India and Southeast Asia, transforming from an additive system with separate numerals for numbers of different magnitudes to a positional place-value system with a single set of glyphs for 1–9 and a dot for zero, gradually displacing additive expressions of numerals over the following several centuries.\n[…]\nThe first dated and undisputed inscription showing the use of a symbol for zero appears on a stone inscription found at the Chaturbhuja Temple at Gwalior in India, dated 876 CE.\n[…]\nLater he obtained from these places the book De multiplicatione et divisione (On Multiplication and Division). After becoming Pope Sylvester II in the year 999 CE, he introduced a new model of abacus, the so-called Abacus of Gerbert, by adopting tokens representing Hindu–Arabic numerals, from one to nine.\n[…]\nChinese and Japanese adopted the Hindu–Arabic numerals in the 19th century, abandoning counting rods.\n[…]\nO'Connor, John J.; Robertson, Edmund F. (2001). \"The Arabic numeral system\". MacTutor History of Mathematics Archive. University of St Andrews.\n[…]\nSmith, David Eugene; Karpinski, Louis Charles (1911). The Hindu–Arabic Numerals. Boston; London: Ginn and Company, Publishers. OCLC 1045941557."
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Dia do Pi",
+      "descricao": "Data comemorativa da constante pi, celebrada em catorze de março."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Dia do Pi foi celebrado pela primeira vez em 1988, num museu de ciências de que cidade americana?",
+    "resposta": "São Francisco",
+    "distratores": [
+      "Boston",
+      "Chicago",
+      "Nova York"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pi_Day"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pi_Day",
+        "situacao": "ok",
+        "texto": "Pi Day is an annual celebration of the mathematical constant\n[…]\nand was founded in 1988 by Larry Shaw, an employee of the Exploratorium, a science museum in San Francisco.\n[…]\nOther dates when people celebrate pi include Pi Approximation Day on July 22 (22/7 in the day/month format), an approximation of\n[…]\nIn 1988, the earliest known official or large-scale celebration of Pi Day was organized by Larry Shaw at the San Francisco Exploratorium, where Shaw worked as a physicist, with staff and public marching around one of its circular spaces, then consuming fruit pies. The Exploratorium continues to hold Pi Day celebrations.\n[…]\nPi Day is frequently observed on March 14 (3/14 in the month/day date format, favoured by the USA), but related celebrations have been held on alternative dates.\n[…]\nTau Day, also known as Two-Pi Day, is observed on June 28 (6/28 in the month/day format). The number 𝜏, denoted by the Greek letter tau, is the ratio of a circle's circumference to its radius; it equals 2π, a common multiple in mathematical formulae, and approximately equals 6.28. Some have argued that 𝜏 is the clearer and more fundamental constant and that Tau Day should be celebrated alongside or instead of Pi Day. Celebrants of this date jokingly suggest eating \"twice the pie\".\n[…]\nSome also celebrate π on November 10, since it is the 314th day of the year (in leap years, on November 9)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_do_Pi",
+        "situacao": "ok",
+        "texto": "O Dia do Pi e o Dia da Aproximação de Pi são duas datas comemorativas em homenagem à constante π.\n[…]\n14 de março é o dia do nascimento de Albert Einstein e também o dia da morte de Stephen Hawking, o que agrega mais fãs das ciências exatas às comemorações.\n[…]\nA primeira comemoração do Dia do Pi aconteceu no museu Exploratorium de São Francisco, em 1988, com público e funcionários marchando em torno de um dos espaços circulares do museu, e depois consumindo tortas (pie em inglês) de frutas; no ano seguinte, o museu acrescentou pizza ao menu do Dia do Pi.\n[…]\nO fundador do Dia do Pi foi Larry Shaw (1939-2017), o \"Príncipe do Pi\", que mesmo fora do Exploratorium, ainda colaborava com as celebrações. Recentemente, uma celebração do Dia do Pi foi incorporada ao Second Life.\n[…]\n21 de dezembro, às 1:13 p.m.: É o 355º dia do ano (20 de dezembro nos anos bissextos), celebrado à 1:13 para a aproximação chinesa 355/113.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Quatérnios",
+      "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1843, durante um passeio, o matemático William Rowan Hamilton gravou na pedra de uma ponte a fórmula dos quatérnios. Em que cidade fica essa ponte?",
+    "resposta": "Dublin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quaternion",
+      "https://en.wikipedia.org/wiki/Broom_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Quaternion",
+        "situacao": "ok",
+        "texto": "In mathematics, the quaternions form a number system similar to the complex numbers, with the usual arithmetical operations of addition, subtraction, multiplication, and division, but with four real-number components instead of two. Unlike with the complex numbers, quaternion multiplication is not commutative, meaning that the result of multiplying two quaternions depends on their order.\n[…]\nQuaternions were first described by the Irish mathematician and physicist William Rowan Hamilton in 1843, and in his honor the set of all quaternions is conventionally denoted by\n[…]\nThe great breakthrough in quaternions finally came on Monday 16 October 1843 in Dublin, when Hamilton was on his way to the Royal Irish Academy to preside at a council meeting. As he walked along the towpath of the Royal Canal with his wife, the concepts behind quaternions were taking shape in his mind. When the answer dawned on him, Hamilton could not resist the urge to carve the defining formula for the quaternions into the stone of Brougham Bridge with his pocket knife:\n[…]\nAfter Hamilton's death, the Scottish mathematical physicist Peter Tait became the chief proponent of quaternions. At this time, quaternions were a mandatory examination topic in Dublin. Topics in physics and geometry that would now be described using vectors, such as kinematics in space and Maxwell's equations, were described entirely in terms of quaternions.\n[…]\nA quaternion\n[…]\nAdditionally, every nonzero quaternion has an inverse with respect to the Hamilton product:\n[…]\nThe square root of the product of a quaternion with its conjugate is called its norm and is denoted ‖q‖ (Hamilton called this quantity the tensor of q, but this conflicts with the modern meaning of \"tensor\"). In formulas, this is expressed as follows:\n[…]\ncorresponds to a rotation of 180° in the plane containing σ1 and σ2. This is very similar to the corresponding quaternion formula,"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Broom_Bridge",
+        "situacao": "ok",
+        "texto": "Broom Bridge (Irish: Droichead Broome), also called Broome Bridge, and sometimes Brougham Bridge, is a bridge along Broombridge Road which crosses the Royal Canal in Cabra, Dublin, Ireland. Broome Bridge is named after William Broome, one of the directors of the Royal Canal company who lived nearby.\n[…]\nIt is famous for being the location where Sir William Rowan Hamilton first wrote down the fundamental formula for quaternions on 16 October 1843, which is to this day commemorated by a stone plaque on the northwest corner of the underside of the bridge. After being spoiled by the action of vandals and some visitors, the plaque was moved to a different place, higher, under the railing of the bridge.\n[…]\nAfter his 1843 discovery of the quaternions, Hamilton's sons William Edwin Hamilton and Archibald Henry Hamilton referred to the bridge as the Quaternion Bridge.\n[…]\nBroom Bridge, named as Brougham Bridge, along with Hamilton's eureka moment, are mentioned in the Thomas Pynchon novel Against the Day.\n[…]\nDelany, Ruth; Bath, Ian (2010). Ireland's Royal Canal 1789-2009. Dublin: Lilliput Press. ISBN 978-1-84351-162-5. OCLC 503633679."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quaterni%C3%A3o",
+        "situacao": "ok",
+        "texto": "Os quaterniões (português europeu) ou quatérnios (português brasileiro) são uma extensão\n[…]\nUma dessas formas é usar matrizes complexas 2×2 , e a outra é usar matrizes reais 4×4 . Na primeira forma, o quaternião a + b i + c j + d k é representado como\n[…]\nO quadrado do valor absoluto de um quaternião é a determinante da matriz correspondente.\n[…]\nO conjugado de um quaternião corresponde à matriz transposta conjugada da matriz.\n[…]\nRestringindo-se aos quaterniões unitários, essa representação fornece o isomorfismo entre S3  e SU (2). O último grupo é importante em mecânica quântica no que se diz respeito à rotação. (Ver também matrizes de Pauli)\n[…]\nNa segunda forma, o quaternião a + b i + c j + d k é representado como\n[…]\nNessa representação, o conjugado de um quaternião corresponde a matriz transposta da matriz. A quarta potência do valor absoluto de um quaternião é a determinante da matriz correspondente.\n[…]\nDe acordo com a construção de Cayley-Dickson, um quaternião é um par ordenado de números complexos. Seja j uma nova raiz  de −1, diferente de i e −i, e seja u e v um par de números complexos, então\n[…]\né um quaternião.\n[…]\ne também seja o produto dos quaterniões associativo.\n[…]\nCom estas regras, pode-se agora derivar a tabela da multiplicação para i, j e ij, os componentes imaginários de um quaternião:\n[…]\nSeja p um quaternião com componentes complexos w e z:\n[…]\nque é precisamente como a multiplicação de quaterniões é definida pela construção de Cayley-Dickson.\n[…]\nA rotação de vetores em 3D pode ser compactamente representada através de quaterniões.\n[…]\nem que q é o quaternião (de módulo 1):\n[…]\nQuaterniões hiperbólicos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "René Descartes",
+      "descricao": "Filósofo e matemático francês do século dezessete, autor do Discurso do Método."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "René Descartes morreu em 1650 numa capital do norte da Europa, para onde tinha ido dar aulas a uma rainha. Que cidade?",
+    "resposta": "Estocolmo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+      "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+        "situacao": "ok",
+        "texto": "René Descartes em francês, [ʁəne dekaʁt] ; La Haye en Touraine, 31 de março de 1596 – Estocolmo, 11 de fevereiro de 1650) foi um filósofo, matemático e cientista francês. Reuniu a geometria e a álgebra no desenvolvimento da geometria analítica e propôs um método sistemático de investigação que teve ampla repercussão na filosofia moderna. Seus trabalhos também trataram de epistemologia, metafísica,\n[…]\nDescartes adoeceu e morreu em 11 de fevereiro de 1650. A causa geralmente apontada é pneumonia, embora outras hipóteses tenham sido levantadas. Em estudo publicado em 2019, Theodor Ebert propôs a hipótese de envenenamento por arsênico a partir de sua interpretação de cartas sobre a doença; essa explicação permanece uma hipótese histórica. Foi sepultado no terreno da atual igreja Adolf Fredrik, em Estocolmo.\n[…]\nEm Estocolmo, a igreja Adolf Fredrik abriga um monumento em sua memória, realizado por Johan Tobias Sergel por iniciativa do rei Gustavo III da Suécia. A obra apresenta uma alegoria da Verdade, simbolizada por um globo que é libertado do véu da Falsidade. A homenagem recorda a passagem de Descartes pela corte sueca durante o reinado de Cristina.\n[…]\nCerca de 1630. De solidorum elementis. Trata da classificação dos sólidos platônicos e dos números figurados tridimensionais. Alguns pesquisadores veem nela uma antecipação da fórmula de Euler para poliedros. O manuscrito não foi publicado em vida, apareceu entre os bens de Descartes em Estocolmo em 1650, ficou três dias submerso no Sena durante o transporte para Paris, foi copiado por Leibniz em 1676 e se perdeu. A cópia de Leibniz, também perdida, foi redescoberta por volta de 1860 em Hanôver.\n[…]\nObras de René Descartes na Wikisource.\n[…]\nHomenagem a René Descartes na Fundação Editora Unesp.\n[…]\n\"René Descartes (1596–1650)\" na Encyclopedia of Rhetoric and Composition (em inglês).\n[…]\nRené Descartes no Mathematics Genealogy Project (em inglês)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+        "situacao": "ok",
+        "texto": "René Descartes ( day-KART, also  DAY-kart; French: [ʁəne dekaʁt] ; 31 March 1596 – 11 February 1650) was a French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy. He connected the previously separate fields of geometry and algebra into analytic geometry and introduced a systematic method of inquiry that became influential in early modern p\n[…]\nc. 1630. De solidorum elementis. Concerns the classification of Platonic solids and three-dimensional figurate numbers. Said by some scholars to prefigure Euler's polyhedral formula. Unpublished; discovered in Descartes's estate in Stockholm in 1650, soaked for three days in the Seine in a shipwreck while being shipped back to Paris, copied in 1676 by Leibniz, and lost. Leibniz's copy, also lost, was rediscovered circa 1860 in Hannover.\n[…]\n1648. Responsiones Renati Des Cartes... (Conversation with Burman). Notes on a Q&A session between Descartes and Frans Burman on 16 April 1648. Rediscovered in 1895 and published for the first time in 1896. An annotated bilingual edition (Latin with French translation), edited by Jean-Marie Beyssade, was published in 1981 (Paris: PUF).\n[…]\nWorks by René Descartes in eBook form at Standard Ebooks\n[…]\nWorks by René Descartes at Project Gutenberg\n[…]\nWorks by or about René Descartes at the Internet Archive\n[…]\nWorks by René Descartes at LibriVox (public domain audiobooks)\n[…]\nThe Correspondence of René Descartes in Early Modern Letters Online\n[…]\nHerbermann, Charles, ed. (1913). \"René Descartes\" . Catholic Encyclopedia. New York: Robert Appleton Company.\n[…]\nRené Descartes (1596–1650) Published in Encyclopedia of Rhetoric and Composition (1996)\n[…]\nRené Descartes at the Mathematics Genealogy Project\n[…]\nFree scores by René Descartes at the International Music Score Library Project (IMSLP)\n[…]\nVideo: Bryan Magee interviewing Bernard Williams about Descartes on Men of Ideas: Section 1, Section 2"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Fibonacci",
+      "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Ainda jovem, Fibonacci conheceu os algarismos indo-arábicos numa cidade do norte da África, onde o pai trabalhava. Em que país ela fica hoje?",
+    "resposta": "Argélia",
+    "distratores": [
+      "Marrocos",
+      "Tunísia",
+      "Egito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fibonacci"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fibonacci",
+        "situacao": "ok",
+        "texto": "Leonardo Bonacci, also Leonardo da Pisa (c. 1170 – c. 1240-50), commonly known as Fibonacci, was an Italian mathematician from the Republic of Pisa, considered to be \"the most talented Western mathematician of the Middle Ages\".\n[…]\nFibonacci popularized the Indo–Arabic numeral system in the Western world primarily through his composition in 1202 of Liber Abaci (Book of Calculation)  and also introduced Europe to the sequence of Fibonacci numbers, which he used as an example in Liber Abaci.\n[…]\nFibonacci was a guest of Emperor Frederick II, who enjoyed mathematics and science. A member of Frederick II's court, John of Palermo, posed several questions based on Arab mathematical works for Fibonacci to solve. In 1240, the Republic of Pisa honored Fibonacci (referred to as Leonardo Bigollo) by granting him a salary in a decree that recognized him for the services that he had given to the city as an advisor on matters of accounting and instruction to citizens.\n[…]\nFibonacci is thought to have died between 1240 and 1250, in Pisa.\n[…]\nIn the 19th century, a statue of Fibonacci was set in Pisa. Today it is located in the western gallery of the Camposanto, historical cemetery on the Piazza dei Miracoli.\n[…]\nFibonacci numbers in popular culture\n[…]\nRepublic of Pisa\n[…]\n\"Fibonacci, Leonardo, or Leonardo of Pisa\". Complete Dictionary of Scientific Biography. 2008. Retrieved April 20, 2015 – via Encyclopedia.com.\n[…]\nFibonacci at Convergence\n[…]\nO'Connor, John J.; Robertson, Edmund F. \"Leonardo Pisano Fibonacci\". MacTutor History of Mathematics Archive. University of St Andrews.\n[…]\nFibonacci (2 vol., 1857 & 1862) Il liber abaci and Practica Geometriae – digital facsimile from the Linda Hall Library\n[…]\nFibonacci, Liber abbaci Bibliotheca Augustana"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Leonardo_Fibonacci",
+        "situacao": "ok",
+        "texto": "Leonardo Fibonacci, também conhecido como Leonardo de Pisa, Leonardo Pisano ou ainda Leonardo Bigollo (Pisa, c. 1170 — Pisa, c. 1250), mais conhecido como Fibonacci, foi um matemático italiano nomeado como o primeiro grande matemático europeu da Idade Média. É considerado por alguns como o mais talentoso matemático ocidental da Idade Média. Ficou conhecido pela divulgação da sequência de Fibonacci\n[…]\nComo seu pai, Guglielmo dei Bonacci, abastado mercador pisano e representante dos comerciantes da República de Pisa (publicus scriba pro pisanis mercatoribus) em Bugia, na região de Cabília, Argélia, Leonardo passou alguns anos naquela cidade.\n[…]\nAinda adolescente, Leonardo Pisano(ou Leonardo de Pisa)  deixou sua casa de infância e se juntou com seu pai, Guilichmus, ou Guiliermo(Willian) Bonacci, um próspero comerciante pisano que recentemente tinha sido designado para  Bugia, na região de Cabília, Argélia,localizada no sul do Mediterrâneo, para servir como representante comercial e oficial alfandegário, pois, ali havia um importante porto exportador de velas de cera, situado a leste de Argel, no Califado Almóada.\n[…]\nAssim, ao analisar a trajetória de Fibonacci, é evidente seu papel marcante na difusão dos algarismos hindu-arábicos e de novas técnicas de cálculo, porém, isso não significa que ele tenha sido um herói isolado na história.\n[…]\nNo Liber Abaci (1202), Fibonacci apresenta o chamado modus Indorum (método dos hindus), hoje conhecido como algarismos arábicos (Sigler 2003; Grimm 1973). O livro defendia a numeração com os dígitos 0-9 e a notação posicional, esclarecendo o sistema de posição árabe dos números, incluindo o número zero. O livro mostrou a importância prática do novo sistema numeral, aplicando-o à contabilidade comercial, conversão de pesos e medidas, o cálculo de juros, taxas de câmbio e outras aplicações.\n[…]\nBiografia de Fibonacci (em inglês)\n[…]\nCarta de fluxo de Fibonacci",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "O Homem que Calculava",
+      "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Homem que Calculava, o livro mais famoso de Malba Tahan, foi publicado em que década do século vinte?",
+    "resposta": "Anos trinta",
+    "distratores": [
+      "Anos dez",
+      "Anos cinquenta",
+      "Anos setenta"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+      "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+        "situacao": "ok",
+        "texto": "O Homem que calculava: aventuras de um singular calculista persa é um livro de Matemática recreativa e um romance infanto-juvenil do fictício escritor Malba Tahan (heterônimo do professor brasileiro Julio César de Mello e Souza), que narra as aventuras e proezas matemáticas do calculista persa Beremiz Samir na Bagdá do século XIII. Foi publicado pela primeira vez em 1938 e alcançou sua 100ª edição\n[…]\nPor isso, o livro é indicado como um livro paradidático em vários países, tendo sido citado na Revista Book Report e em várias publicações do gênero.\n[…]\nViajando de Samarra a Bagdá, Hank Tade-Maiá, o narrador da história, encontra Beremiz Samir, um singular personagem que se revela ser um fabuloso calculista da Pérsia. Eles decidem viajar juntos para Bagdá e ainda no trajeto Beremiz dá mostras de sua extraordinária habilidade com os cálculos.\n[…]\nO califa fica encantado com a argúcia do calculista, elogiando-o.\n[…]\nPara testar definitivamente a capacidade de Beremiz, o califa prepara, então, uma audiência onde o calculista seria interrogado por sete sábios. Tendo respondido brilhantemente todas as provas, Beremiz, como recompensa, pede em casamento a mão de Telassim, por quem havia se apaixonado. Beremiz casa-se com Telassim e, se convertido ambos ao cristianismo, tendo três filhos, mudam-se juntamente com o amigo Tade-Maiá para Constantinopla, no então Império Bizantino.\n[…]\nBeremiz Samir: É o protagonista da história, um calculista persa conhecido em Bagdá como O Homem que Calculava.\n[…]\nMonteiro Lobato classificou este livro como: \"… obra que ficará a salvo das vassouradas do tempo como a melhor expressão do binômio ‘ciência-imaginação.’\"\n[…]\nEm 1939, no concurso literário da ABL, o livro foi agraciado com o Prêmio Academia Brasileira na categoria \"Livro de contos e novelas\".\n[…]\nEm 1972, o livro foi premiado pela Academia brasileira de Letras. Na ocasião em que era lançada sua 75ª edição."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Man_Who_Counted",
+        "situacao": "ok",
+        "texto": "The Man Who Counted (original Portuguese title: O Homem que Calculava) is a book on recreational mathematics and curious word problems by Brazilian writer Júlio César de Mello e Souza, published under the pen name Malba Tahan. Since its first publication in 1938, the book has been immensely popular in Brazil and abroad, not only among mathematics teachers but among the general public as well.\n[…]\nFirst published in Brazil in 1949, O Homem que Calculava is a series of tales in the style of the Arabian Nights, but revolving around mathematical puzzles and curiosities. The book is ostensibly a translation by Brazilian scholar Breno de Alencar Bianco of an original manuscript by Malba Tahan, a thirteenth-century Persian scholar of the Abbasid Caliphate – both equally fictitious.\n[…]\nThe translator's notes observe that the 17-animal inheritance puzzle, a mathematical puzzle whose first publication is in the works of Muhaqiqi Naraqi, is a variant of this problem, with 17 camels to be divided in the same proportions. It is found in hundreds of recreational mathematics books, such as those of E. Fourrey (1949) and G. Boucheny (1939). However, the 17-camel version leaves only one camel at the end, with no net profit for the estate's executor.\n[…]\nThe \"translator's note\" signed \"B. A. Bianco\" is dated from 1965. The preface signed \"Malba Tahan\" is dated \"Baghdad, 19 of the Moon of Ramadan of 1321\" (Islamic calendar equivalent of (Gregorian) 8 December 1903).\n[…]\nThe fifty fourth printing by Editora Record (2001; in Portuguese) contains 164 pages of Malba Tahan's text, plus 60 pages of notes and historical appendices, commented solutions to all the problems, a glossary of Arabic terms, alphabetical index, and other material."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Problemas de Hilbert",
+      "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Num congresso em Paris, o alemão David Hilbert apresentou uma lista de problemas que guiou a matemática do século vinte. Em que ano?",
+    "resposta": "1900",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+      "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+        "situacao": "ok",
+        "texto": "Os Problemas de Hilbert são uma lista de 23 problemas em matemática propostos pelo matemático alemão David Hilbert na conferência do Congresso Internacional de Matemáticos de Paris em 1900. Nenhum dos problemas havia tido solução até então, e vários deles acabaram se tornando muito influentes na matemática do século XX. Nessa conferência, ele publicou 10 dos problemas (1, 2, 6, 7, 8, 13, 16, 19, 2\n[…]\nDesde 1900, matemáticos e organizações matemáticas anunciaram várias listas de problemas, com algumas exceções, essas coleções não tiveram tanta influência nem provocaram tanto trabalho como os problemas de Hilbert.\n[…]\nPelo menos na grande mídia, o análogo do século XXI dos problemas de Hilbert é a lista de sete Millennium Prize Problems escolhido em 2000 pelo Instituto Clay de Matemática. Ao contrário dos problemas de Hilbert, onde o prêmio principal foi a admiração de Hilbert em particular e os matemáticos em geral, cada problema-prêmio inclui uma recompensa de milhões de dólares.\n[…]\nNotável por sua aparição na lista de problemas de Hilbert, a lista de Smale e a lista de Millennium Prize Problems - e até mesmo, em seu disfarce geométrico, nas Conjecturas de Weil - é a hipótese de Riemann. Apesar de alguns ataques famosos recentes de grandes matemáticos atuais, muitos especialistas acreditam que a hipótese de Riemann ainda será incluída em listas de problemas durante séculos.\n[…]\nOs 23 problemas de Hilbert são:\n[…]\nDehn, aluno de Hilbert, mostrou que não já em 1900, demonstrando que era impossível dividir um cubo e um tetraedro regular de mesmo volume em um número finito de poliedros idênticos dois a dois. Apesar de tudo, o paradoxo de Banach–Tarski constitui um resultado positivo para essa questão, porém sua demonstração depende do axioma da escolha.\n[…]\nDavid Hilbert\n[…]\nEnglish translation of Hilbert's 1900 address\n[…]\n\"On Hilbert's 24th Problem: Report on a New Source and Some Remarks.\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_problems",
+        "situacao": "ok",
+        "texto": "Hilbert's problems are 23 problems in mathematics published by German mathematician David Hilbert in 1900. He intended to rival the master of French mathematics, Henri Poincaré, and to prove that he was cut from the same cloth. They were all unsolved at the time, and several proved to be very influential for 20th-century mathematics.\n[…]\nHilbert presented ten of the problems (1, 2, 6, 7, 8, 13, 16, 19, 21, and 22) at the Paris conference of the International Congress of Mathematicians, speaking on August 8 at the Sorbonne. The complete list of 23 problems was published later, and translated into English in 1902 by Mary Frances Winston Newson in the Bulletin of the American Mathematical Society. Earlier publications (in the original German) appeared in Archiv der Mathematik und Physik.\n[…]\nHowever, the Weil conjectures were more like a single Hilbert problem in scope, and Weil never intended them as a programme for all mathematics.\n[…]\nThe Riemann hypothesis is noteworthy for its appearance on the list of Hilbert problems, Smale's list, the list of Millennium Prize Problems, and even the Weil conjectures, in its geometric guise. Although it has been attacked by major mathematicians of our day, many experts believe that it will still be part of unsolved problems lists for many centuries.\n[…]\nIn 2008, DARPA announced its own list of 23 problems that it hoped could lead to major mathematical breakthroughs, \"thereby strengthening the scientific and technological capabilities of the DoD\". The DARPA list also includes a few problems from Hilbert's list, e.g. the Riemann hypothesis.\n[…]\nSmale's problems\n[…]\nTaniyama's problems\n[…]\n\"Hilbert problems\". Encyclopedia of Mathematics. EMS Press. 2001 [1994].\n[…]\n\"David Hilbert's \"Mathematical Problems\": A lecture delivered before the International Congress of Mathematicians at Paris in 1900\" (PDF)."
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Tales de Mileto",
+      "descricao": "Filósofo e matemático grego da Jônia, considerado o primeiro filósofo da tradição ocidental."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Segundo o historiador Heródoto, Tales de Mileto previu um eclipse do Sol que interrompeu uma batalha. Em que século antes de Cristo?",
+    "resposta": "Século seis antes de Cristo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eclipse_of_Thales",
+      "https://en.wikipedia.org/wiki/Thales_of_Miletus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eclipse_of_Thales",
+        "situacao": "ok",
+        "texto": "The eclipse of Thales was a solar eclipse, which was, according to the ancient Greek historian Herodotus (writing about 150 years later), accurately predicted by the Greek philosopher Thales of Miletus. If Herodotus's account is accurate, this eclipse is the earliest recorded as being known in advance of its occurrence.\n[…]\nAccording to Herodotus, the change of day into night was interpreted as an omen, and interrupted a battle in a long-standing war between the Medes and the Lydians in Anatolia (present-day Turkey). The only solar eclipse matching the presumed place, era, and conditions of visibility necessary to explain the historical event is the eclipse of 28 May 585 BC. How exactly Thales could have predicted a solar eclipse remains uncertain, however, and modern scholars are sceptical of the story's veracity.\n[…]\nOther ancient sources after Herodotus also mention the eclipse. Diogenes Laërtius (3rd century AD) says that Xenophanes, who lived in the same century as Thales, was impressed with the prediction, and he also gives additional testimonies from the pre-Socratics Democritus and Heraclitus. Cicero (1st century BC) mentions that Thales was the first man to successfully predict a solar eclipse during the reign of Astyages, the last king of the Median empire.\n[…]\nHowever, such a reading is disputed by some historians of science. At the time of Thales' purported prediction, it was not yet known that eclipses were caused by the Moon coming between the Earth and the Sun, a fact that would not be discovered until over a century later by either Anaxagoras or Empedocles. If the account is true, it has been suggested that Thales would have had to calculate the timing of any eclipse by recognizing patterns in the periodicities of eclipses.\n[…]\nWired.com: May 28, 585 B.C.: Predicted Solar Eclipse Stops Battle"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus",
+        "situacao": "ok",
+        "texto": "Thales of Miletus ( THAY-leez; Ancient Greek: Θαλῆς; c. 626/623  – c. 548/545 BC) was a pre-Socratic Greek philosopher from Miletus in Ionia, Asia Minor. Thales was one of the Seven Sages, founding figures of Ancient Greece.\n[…]\nThe dates of Thales's life are not exactly known, but are roughly established by a few datable events mentioned in the sources. According to the historian Herodotus, writing in the 5th century BC, Thales predicted a solar eclipse in 585 BC. Assuming one's acme (or floruit) occurred at the age of 40, the chronicle of Apollodorus of Athens, written during the 2nd century BC, therefore placed Thales's birth about the year 625 BC.\n[…]\nAs mentioned above, according to Herodotus, Thales predicted a solar eclipse which occurred during a battle between the Lydians and the Medes. Among eclipses of the era, only the eclipse of 28 May 585 BC reached totality in Anatolia, where the war took place. American writer Isaac Asimov described this battle as the earliest historical event whose date is known with precision to the day, and called the prediction \"the birth of science\".\n[…]\nDicks links the story of Thales discovering the cause of a solar eclipse with Herodotus' claim that Thales discovered the cycle of the sun in relation to the solstices, and concludes, \"he could not possibly have possessed this knowledge which neither the Egyptians nor the Babylonians nor his immediate successors possessed.\" Thomas Worthen instead proposes that the battle could have been the same \"night engagement\" mentioned, disrupted by a predicted lunar eclipse.\n[…]\nWorks related to Thales of Miletus at Wikisource\n[…]\nThales of Miletus MacTutor History of Mathematics\n[…]\nThales Fragments Archived 24 April 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eclipse_de_Tales",
+        "situacao": "ok",
+        "texto": "O eclipse de Tales foi um eclipse solar que foi, de acordo com Histórias de Heródoto, previsto com precisão pelo filósofo grego Tales de Mileto. Se o relato de Heródoto estiver correto, este eclipse é o mais antigo registrado como sendo conhecido antes de sua ocorrência. Muitos historiadores acreditam que o eclipse previsto foi o eclipse solar de 28 de maio de 585 a.C. Como exatamente Tales previu\n[…]\nOutros argumentaram por datas diferentes, mas apenas o eclipse de 28 de maio de 585 a.C. corresponde às condições de visibilidade necessárias para explicar o evento histórico.\n[…]\nDe acordo com Heródoto, o aparecimento do eclipse foi interpretado como um presságio e interrompeu uma batalha em uma guerra de longa data entre os medos e os lídios. A luta parou imediatamente e eles concordaram com uma trégua. Como os astrônomos podem calcular as datas dos eclipses históricos, Isaac Asimov descreveu essa batalha como o primeiro evento histórico cuja data é conhecida com precisão até o dia e chamou a previsão de \"o nascimento da ciência\".\n[…]\nWired.com: May 28, 585 B.C.: Predicted Solar Eclipse Stops Battle (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Teorema das quatro cores",
+      "descricao": "Teorema segundo o qual quatro cores bastam para colorir qualquer mapa sem que regiões vizinhas tenham a mesma cor."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Demonstrado só em 1976, o problema de colorir mapas com apenas quatro cores tinha sido proposto em que século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teorema_das_quatro_cores",
+      "https://en.wikipedia.org/wiki/Four_color_theorem"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teorema_das_quatro_cores",
+        "situacao": "ok",
+        "texto": "Em matemática, o teorema das quatro cores, ou teorema do mapa das quatro cores, afirma que não mais do que quatro cores são necessárias para colorir as regiões de qualquer mapa, de modo que duas regiões adjacentes não tenham a mesma cor. Adjacente significa que duas regiões compartilham um segmento de curva limite comum, não apenas um canto onde três ou mais regiões se encontram. Foi o primeiro te\n[…]\nDado um mapa plano, dividido em regiões, quatro cores são suficientes para colori-lo de forma a que regiões vizinhas não partilhem a mesma cor.\n[…]\nO teorema das quatro cores foi provado em 1976 por Kenneth Appel e Wolfgang Haken após muitas provas e contra-exemplos falsos (ao contrário do teorema das cinco cores, provado na década de 1800, que afirma que cinco cores são suficientes para colorir um mapa). Para dissipar quaisquer dúvidas remanescentes sobre a prova Appel-Haken, uma prova mais simples usando as mesmas ideias e ainda contando com computadores foi publicada em 1997 por Robertson, Sanders, Seymour e Thomas.\n[…]\nAlém disso, em 2005, o teorema foi provado por Georges Gonthier com software de prova de teorema de uso geral.\n[…]\nDror Bar-Natan deu uma demonstração sobre Álgebra de Lie e Invariante de Vassiliev que é equivalente ao teorema das quatro cores.[25]\n[…]\nApesar da motivação de colorir mapas políticos de países, o teorema não é de interesse particular para os cartógrafos. De acordo com um artigo do historiador de matemática Kenneth May, \"Mapas que utilizam apenas quatro cores são raros, pois geralmente requerem apenas três. Livros sobre cartografia e história da cartografia não mencionam a propriedade de quatro cores\" (Wilson 2014, 2).\n[…]\nSwart, Edward Reinier (1980), «The philosophical implications of the four-color problem», Mathematical Association of America, American Mathematical Monthly, 87 (9), pp. 697–702, JSTOR 2321855, MR 0602826, doi:10.2307/2321855"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+        "situacao": "ok",
+        "texto": "In mathematics, the four color theorem, or the four-color map theorem, states that no more than four colors are required to color the regions of any map so that no two adjacent regions have the same color. Adjacent means that two regions share a common boundary of non-zero length (i.e., not merely a corner where three or more regions meet). It was the first major theorem to be proved by use of a c\n[…]\nThe theorem is a stronger version of the five color theorem, which can be shown using a significantly simpler argument. Although the weaker five color theorem was proven already in the 1800s, the four color theorem resisted until 1976, when it was proven by Kenneth Appel and Wolfgang Haken in a computer-aided proof. This came after many false proofs and mistaken counterexamples in the preceding decades.\n[…]\nDespite the motivation from coloring political maps of countries, the theorem is not of particular interest to cartographers. According to an article by the math historian Kenneth May, \"Maps utilizing only four colors are rare, and those that do usually require only three. Books on cartography and the history of mapmaking do not mention the four-color property\".\n[…]\nThe theorem also fails to apply if one requires that all bodies of water be given the same color that cannot be used for a country (e.g., blue). Then the map of Europe itself is not four-colorable. France, Germany and Belgium must be assigned three different colors, since they all border one another, thus using four colors in total. France and the Netherlands can be given the same color, but Luxembourg requires a fifth.\n[…]\n\"Four-colour problem\", Encyclopedia of Mathematics, EMS Press, 2001 [1994]\n[…]\nWilson, Robin (March 2026). \"The Four-Color Theorem: 1852–1976\" (PDF). Notices of the American Mathematical Society. 73 (3): 216–228. doi:10.1090/noti3305.\n[…]\nList of generalizations of the four color theorem on MathOverflow"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Conjectura de Poincaré",
+      "descricao": "Problema de topologia proposto por Henri Poincaré em 1904 e resolvido no início do século vinte e um."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Proposta pelo francês Henri Poincaré em 1904, a conjectura que leva seu nome foi finalmente demonstrada em que década?",
+    "resposta": "Anos dois mil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+      "https://pt.wikipedia.org/wiki/Conjectura_de_Poincar%C3%A9"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+        "situacao": "ok",
+        "texto": "In the mathematical field of geometric topology, the Poincaré conjecture (UK: , US: , French: [pwɛ̃kaʁe]) is a theorem about the characterization of the 3-sphere (the hypersphere that bounds the 4-ball in four-dimensional space).\n[…]\nOriginally conjectured by Henri Poincaré in 1904, the theorem concerns spaces that locally look like ordinary three-dimensional Euclidean space but which are finite in extent. Poincaré hypothesized that if such a space has the additional property that each loop in the space can be continuously tightened to a point, then it is necessarily a three-dimensional sphere. Attempts to resolve the conjecture drove much progress in the field of geometric topology during the 20th century.\n[…]\nHowever, despite its usual phrasing in the form of a conjecture, proposing that all manifolds of a certain type are homeomorphic to the sphere, Poincaré only posed an open-ended question, without venturing to conjecture one way or the other. Moreover, there is no evidence as to which way he believed his question would be answered.\n[…]\nMorgan, John W.; Tian, Gang (2007). Ricci Flow and the Poincaré Conjecture. Clay Mathematics Monographs. Vol. 3. Providence, RI: American Mathematical Society. arXiv:math/0607607. ISBN 978-0-8218-4328-4. MR 2334563.\n[…]\nO'Shea, Donal (2007). The Poincaré Conjecture: In Search of the Shape of the Universe. Walker & Company. ISBN 978-0-8027-1654-5.\n[…]\n\"The Poincaré Conjecture\" – BBC Radio 4 programme In Our Time, 2 November 2006. Contributors June Barrow-Green, Lecturer in the History of Mathematics at the Open University, Ian Stewart, Professor of Mathematics at the University of Warwick, Marcus du Sautoy, Professor of Mathematics at the University of Oxford, and presenter Melvyn Bragg."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Conjectura_de_Poincar%C3%A9",
+        "situacao": "ok",
+        "texto": "A conjectura de Poincaré afirma que qualquer variedade tridimensional fechada e com grupo fundamental trivial é homeomorfa a uma esfera tridimensional. Ou seja, a superfície tridimensional de uma esfera é o único espaço fechado de dimensão 3 onde todos os contornos ou caminhos podem ser encolhidos até chegarem a um simples ponto.\n[…]\nEsta conjectura surgiu na sequência de uma outra conjectura formulada por Henri Poincaré em 1900, que afirmava que qualquer variedade tridimensional fechada e com homologia trivial (denominada uma esfera de homologia) era homeomorfa a uma esfera. Na verdade esta conjectura foi refutada pelo próprio Poincaré em 1904, que forneceu o primeiro exemplo de uma esfera de homologia não homeomorfa a uma esfera.\n[…]\nNotícia publicada em 27 de agosto de 2006, na versão online do jornal britânico da BBC, atribui a resolução do problema da Conjectura de Poincaré ao matemático russo Grigori Perelman. O matemático recusou-se a receber a Medalha Fields. Diversos matemáticos do Massachusetts Institute of Technology (MIT) debruçam-se sobre o teorema criado por Perelman, na tentativa de verificar a precisão de seus cálculos.\n[…]\nEm 2006, Zhu Xiping e Cao Huaidong, dois matemáticos chineses, publicaram os detalhes finais da prova da Conjectura de Poincaré. O trabalho foi publicado na edição de Junho do \"Asian Journal of Mathematics\".\n[…]\nEm 18 de março de 2010, o Clay Mathematics Institute anunciou que o Dr. Grigori Perelman era o vencedor de um dos sete Problemas do Prémio Millenium no valor de um milhão de dólares, pela sua solução da Conjectura de Poincaré. Ainda em Março de 2010, ele recusou o prêmio, embora tivesse ficado pensativo nos meses seguintes. Comentou a decisão de atribuir a solução somente a ele, em referência à contribuição importante de Richard Hamilton."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Melencolia I",
+      "descricao": "Gravura de 1514 do artista alemão Albrecht Dürer, que traz um quadrado mágico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Na gravura Melencolia I, de Albrecht Dürer, um quadrado mágico mostra na linha de baixo o ano em que a obra foi feita. Que ano?",
+    "resposta": "1514",
+    "distratores": [
+      "1492",
+      "1500",
+      "1527"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Melencolia_I",
+      "https://en.wikipedia.org/wiki/Magic_square"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Melencolia_I",
+        "situacao": "ok",
+        "texto": "Melencolia I is a large 1514 engraving by the German Renaissance artist Albrecht Dürer. Its central subject is an enigmatic and gloomy winged female figure thought to be a personification of melancholia. Holding her head in her hand, she stares past the busy scene in front of her. The area is strewn with symbols and tools associated with craft and carpentry, including an hourglass, weighing scales\n[…]\nMelencolia I is one of Dürer's three Meisterstiche (\"master prints\"), along with Knight, Death and the Devil (1513) and St. Jerome in His Study (1514). The prints are considered thematically related by some art historians, depicting labours that are intellectual (Melencolia I), moral (Knight), or spiritual (St. Jerome) in nature. While Dürer sometimes distributed Melencolia I with St. Jerome in His Study, there is no evidence that he conceived of them as a thematic group.\n[…]\nIn 1513 and 1514, Dürer experienced the death of a number of friends, followed by his mother (whose portrait he drew in this period), engendering a grief that may be expressed in this engraving. Dürer mentions melancholy only once in his surviving writings. In an unfinished book for young artists, he cautions that too much exertion may lead one to \"fall under the hand of melancholy\".\n[…]\nThe square follows the traditional rules of magic squares: each of its rows, columns, and diagonals adds to the same number, 34. It is also associative, meaning that any number added to its symmetric opposite equals 17 (e.g., 15+2, 9+8). Additionally, the corners and each quadrant sum to 34, as do still more combinations. Dürer's mother died on May 17, 1514; some interpreters connect the digits of this date with the sets of two squares that sum to 5 and 17.\n[…]\nMerback, Mitchell B. (2017). Perfection's Therapy: An Essay on Albrecht Dürer's Melencolia I. New York: Zone Books. ISBN 978-1-9421-3000-0."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Magic_square",
+        "situacao": "ok",
+        "texto": "In mathematics, especially historical and recreational mathematics, a magic square is a square array of numbers, usually positive integers, where the sums of the numbers in each row, each column, and both main diagonals are the same. The order of a magic square is the number of integers along one side (n), and the constant sum is called the magic constant or magic sum. If the array includes just t\n[…]\nMagic squares also appear in art. For example, a magic square appears in Albrecht Dürer's Melencolia (see the photograph of the work). Another one appears in Wilfredo Lam's Bélial, Emperor of the Flies, a magic square is seen in the lower left quadrant of the painting.\n[…]\nThe planetary squares had disseminated into northern Europe by the end of the 15th century. For instance, the Cracow manuscript of Picatrix from Poland displays magic squares of orders 3 to 9. The same set of squares as in the Cracow manuscript later appears in the writings of Paracelsus in Archidoxa Magica (1567), although in highly garbled form. In 1514 Albrecht Dürer immortalized a 4×4 square in his famous engraving Melencolia I.\n[…]\nThe order four normal magic square Albrecht Dürer immortalized in his 1514 engraving Melencolia I, referred to above, is believed to be the first seen in European art. The square associated with Jupiter appears as a talisman used to drive away melancholy. It is very similar to Yang Hui's square, which was created in China about 250 years before Dürer's time. As with every order 4 normal magic square, the magic sum is 34. But in the Durer square this sum is also found\n[…]\nThe two numbers in the middle of the bottom row give the date of the engraving: 1514. The numbers 1 and 4 at either side of the date correspond respectively to the letters \"A\" and \"D\", the initials of the artist.\n[…]\nSimilarly to Dürer's magic square, the Sagrada Familia's magic square can also be extended to a magic cube."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Melancolia_I",
+        "situacao": "ok",
+        "texto": "Melancolia I é uma gravura de 1514 criada pelo mestre alemão renascentista Albrecht Dürer e considerada uma de suas três grandes gravuras. Trata-se de uma composição alegórica que tem sido alvo de muitas interpretações. Uma das mais famosas obras dos mestres da gravura, tem sido considerada como formando um conjunto consciente de Meisterstiche juntamente com O Cavaleiro, a Morte e o Diabo (1513) e\n[…]\nOutra também citada é a de que se trata de uma alegoria da paralisia criativa de Leonardo da Vinci, o grande modelo artístico de Dürer. Ainda assim, a análise que prevalece é a de que a gravura sugere a melancolia do próprio artista e que se trata de um auto-retrato.\n[…]\nNa gravura, um ser alado sentado está cercado de objetos comuns à ciência e às artes. A pose da figura principal, com as mãos apoiando o rosto, tornou-se uma imagem da \"alma afligida\" no final do século XVI, representado no Retrato de um Jovem, de Moretto, por exemplo.\n[…]\nHá sugestões de que seu trabalho com a melancolia artística foi influenciada pela obra De Occulta Philosophia, de Heinrich Cornelius Agrippa, um tratado popular entre os círculos considerados humanistas na época do Renascimento. Na obra, o autor classifica o que chama de \"inspirações melancólicas\" e as relaciona com o trabalho artístico.\n[…]\nGünter Grass utlizou essa gravura para refletir sobre a política moderna, em 1972, em seu livro Aus dem Tagebuch einer Schnecke (Do Diário de um Caracol).\n[…]\nObras de arte de Albrecht Dürer}",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Katherine Johnson",
+      "descricao": "Matemática americana da NASA, cujos cálculos de trajetórias apoiaram os primeiros voos tripulados dos Estados Unidos, retratada no filme Estrelas Além do Tempo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A matemática Katherine Johnson, da NASA, conferiu os cálculos do voo de John Glenn, o primeiro americano a orbitar a Terra. Em que década?",
+    "resposta": "Anos sessenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Katherine_Johnson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Katherine_Johnson",
+        "situacao": "ok",
+        "texto": "Creola Katherine Johnson (née Coleman, previously Goble; August 26, 1918 – February 24, 2020) was an American mathematician and human computer whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.\n[…]\nJohnson's work included calculating trajectories, launch windows, and emergency return paths for Project Mercury spaceflights, including those for astronauts Alan Shepard (the first American in space) and John Glenn (the first American in orbit), and rendezvous paths for the Apollo Lunar Module and command module on flights to the Moon. Her calculations were also essential to the beginning of the Space Shuttle program, and she worked on plans for a human mission to Mars.\n[…]\nWhen NASA used electronic computers for the first time to calculate John Glenn's orbit around earth, officials asked Johnson to verify the computer's numbers; Glenn had asked for her specifically and had refused to fly unless Johnson verified the calculations.\n[…]\nAt the ceremony, deputy director Lewin said: \"Millions of people around the world watched Shepard's flight, but what they didn't know at the time was that the calculations that got him into space and safely home were done by today's guest of honor, Katherine Johnson\". During the event, Johnson also received a Silver Snoopy award, often called the astronaut's award. NASA said it is given to those \"who have made outstanding contributions to flight safety and mission success\".\n[…]\nKatherine G. Johnson – Video produced by Makers: Women Who Make America\n[…]\nWhat Matters; Katherine Johnson: NASA Pioneer and \"Computer\" – WHRO, American Archive of Public Broadcasting (GBH and the Library of Congress), Boston, MA and Washington, DC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Katherine_Johnson",
+        "situacao": "ok",
+        "texto": "Katherine Coleman Goble Johnson (White Sulphur Springs, 26 de agosto de 1918 – Newport News, 24 de fevereiro de 2020) foi uma matemática, física e cientista espacial norte-americana.\n[…]\nConhecida pela precisão na navegação astronômica informatizada, seu trabalho de liderança técnica na NASA se estendeu por décadas onde ela calculava as trajetórias, janelas de lançamento e caminhos de retorno de emergência para muitos voos de Projeto Mercury, incluindo as primeiras missões da NASA de John Glenn, Alan Shepard, o voo da Apollo 11, em 1969, à Lua e trabalho contínuo por meio do programa dos ônibus espaciais e sobre os planos iniciais para a missão a Marte.\n[…]\nKatherine ainda trabalhou para a seção de Controles aeroespaciais, onde calculou a trajetória de voo de Alan Shepard, o primeiro norte-americano no espaço, em 1959. Calculou também a janela de lançamento do Projeto Mercury, em 1961. Katherine plotou cartas de navegação, orientando naves pelas estrelas em caso de falha eletrônica e, em 1962, verificou os primeiros cálculos de computador da órbita de John Glenn ao redor da Terra.\n[…]\nEle passou seus últimos anos incentivando os alunos a entrar nas áreas de ciência, tecnologia, engenharia e matemática (STEM). A família morou em Newport News, Virgínia, desde 1953, primeiro com Johan Goble até sua morte em 1956 e desde 1959 com James Johnson. Seu casamento com Johnson durou 60 anos, até sua morte em março de 2019, aos 93 anos de idade Katherine, que tinha seis netos e onze bisnetos, morava em Hampton, Virgínia.\n[…]\nDorothy Vaughan, matemática;\n[…]\nMary Jackson, matemática;\n[…]\nKatherine G. Johnson Vídeo produzido por Makers: Women Who Make America",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Cálculo",
+      "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No século dezessete, Isaac Newton disputou a criação do cálculo com um pensador alemão que o desenvolveu de forma independente. Quem?",
+    "resposta": "Gottfried Wilhelm Leibniz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "https://pt.wikipedia.org/wiki/C%C3%A1lculo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+        "situacao": "ok",
+        "texto": "In the history of calculus, the calculus controversy was a priority dispute (German: Prioritätsstreit) between mathematicians Isaac Newton and Gottfried Wilhelm Leibniz over who had first invented calculus. The question was a major intellectual controversy, beginning in 1699 and reaching its peak in 1712.\n[…]\nGottfried Leibniz began developing his own variant of calculus in 1674 and published his first paper on the subject, \"Nova Methodus pro Maximis et Minimis,\" in 1684.\n[…]\nIt was certainly Isaac Newton who first devised a new infinitesimal calculus and elaborated it into a widely extensible algorithm, whose potentialities he fully understood; of equal certainty, differential and integral calculus, the fount of great developments flowing continuously from 1684 to the present day, was created independently by Gottfried Leibniz.\n[…]\nIt was not until the 1704 publication of an anonymous review of Newton's tract on quadrature, which implied Newton had borrowed the idea of the fluxional calculus from Leibniz, that any responsible mathematician doubted Leibniz had invented calculus independently. With respect to the review of Newton's quadrature work, all admit there was no justification or authority for the statements made therein, which were rightly chess-moved to Leibniz.\n[…]\nGottfried Wilhelm Leibniz, Sämtliche Schriften und Briefe, Reihe VII: Mathematische Schriften, vol. 5: Infinitesimalmathematik 1674-1676, Berlin: Akademie Verlag, 2008, pp. 288–295 Archived 9 October 2021 at the Wayback Machine (\"Analyseos tetragonisticae pars secunda\", 29 October 1675) and 321–331 Archived 3 October 2016 at the Wayback Machine (\"Methodi tangentium inversae exempla\", 11 November 1675).\n[…]\nGottfried Wilhelm Leibniz, \"Nova Methodus pro Maximis et Minimis...\", 1684 (Latin original) (English translation)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%A1lculo",
+        "situacao": "ok",
+        "texto": "O cálculo infinitesimal, também conhecido como cálculo diferencial e integral ou simplesmente cálculo, é um ramo importante da matemática, desenvolvido a partir da Álgebra e da Geometria, que se dedica ao estudo de taxas de variação de grandezas (como a inclinação de uma reta) e a acumulação de quantidades (como a área debaixo de uma curva ou o volume de um sólido). Onde há movimento ou cresciment\n[…]\nFoi criado como uma ferramenta auxiliar em várias áreas das ciências exatas. Desenvolvido simultaneamente por Gottfried Wilhelm Leibniz (1646-1716) e por Isaac Newton (1643-1727), em trabalhos independentes.\n[…]\nCoube a Gottfried Wilhelm Leibniz e a Isaac Newton recolher essas ideias e juntá-las em um corpo teórico que viria a constituir o cálculo. A ambos é atribuída a simultânea e independente invenção do cálculo. Leibnitz foi originalmente acusado de plagiar os trabalhos não publicados de Isaac Newton; hoje, porém, é considerado o inventor do cálculo, juntamente com Newton.\n[…]\nUm exame cuidadoso dos escritos de Leibniz e Newton mostra que ambos chegaram a seus resultados independentemente, com Leibniz iniciando com integração e Newton com diferenciação. Nos dias de hoje tem-se que Newton e Leibniz descobriram o cálculo independentemente. Leibniz, porém, foi quem deu o nome cálculo à nova disciplina, Newton a chamara de \"A ciência dos fluxos\".\n[…]\nDesde o tempo de Leibniz e Newton, muitos matemáticos contribuíram para o contínuo desenvolvimento do cálculo.\n[…]\nEsta foi autora da primeira obra a unir as ideias de Isaac Newton e Gottfried Wilhelm Leibniz; escreveu também um dos primeiros livros sobre cálculo diferencial e integral. É dela também a autoria da chamada \"curva de Agnesi\".\n[…]\nCálculo estocástico\n[…]\n«CÁLCULO DIFERENCIAL E INTEGRAL NA RETA - Notas de Aula pelo prof. Plácido Z. Táboas do ICMC-USP de São Carlos»\n[…]\n«Exercícios de Cálculo Diferencial e Integral de Funções Definidas em Rn» (PDF)"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "A Geometria",
+      "descricao": "Obra de 1637 publicada como apêndice do Discurso do Método, que uniu a álgebra e a geometria."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na obra A Geometria, de 1637, que filósofo francês consagrou o uso das letras x, y e z para os valores desconhecidos?",
+    "resposta": "René Descartes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie",
+        "situacao": "ok",
+        "texto": "La Géométrie (French pronunciation: [la ʒeɔmetʁi]) was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes. In the Discourse, Descartes presents his method for obtaining clarity on any subject.\n[…]\nDescartes justifies his omissions and obscurities with the remark that much was deliberately omitted \"in order to give others the pleasure of discovering [it] for themselves\".\n[…]\nOne of these students, Johannes Hudde provided a convenient method for determining double roots of a polynomial, known as Hudde's rule, that had been a difficult procedure in Descartes's method of tangents. These editions established analytic geometry in the seventeenth century.\n[…]\nDescartes, René (2006) [1637]. A discourse on the method of correctly conducting one's reason and seeking truth in the sciences. Translated by Ian Maclean. Oxford University Press. ISBN 0-19-282514-3.\n[…]\nGrosholz, Emily (1998). \"Chapter 4: Cartesian method and the Geometry\". In Georges J. D. Moyal (ed.). René Descartes: critical assessments. Routledge. ISBN 0-415-02358-0.\n[…]\nHawking, Stephen W. (2005). \"René Descartes\". God created the integers: the mathematical breakthroughs that changed history. Running Press. pp. 285 ff. ISBN 0-7624-1922-9.\n[…]\nSerfati, M. (2005). \"Chapter 1: René Descartes, Géométrie, Latin edition (1649), French edition (1637)\". In I. Grattan-Guinness; Roger Cooke (eds.). Landmark writings in Western mathematics 1640-1940. Elsevier. ISBN 0-444-50871-6.\n[…]\nSmith, David E.; Latham, M. L. (1954) [1925]. The Geometry of René Descartes. Dover Publications. ISBN 0-486-60068-8. {{cite book}}: ISBN / Date incompatibility (help)\n[…]\nBad OCR: Cornell University Library copy of La Géométrie\n[…]\nArchive.org: The Geometry of Rene Descartes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie",
+        "situacao": "ok",
+        "texto": "La Géométrie foi publicado em 1637 como um apêndice de Discours de la méthode (Discurso sobre o método), escrito por René Descartes. No Discurso, ele apresenta seu método para obter clareza sobre qualquer assunto.\n[…]\nLa Géométrie e dois outros apêndices, também por Descartes, La Dioptrique (Óptica) e Les Météores (Meteorologia), foram publicados com o Discourse para dar exemplos dos tipos de sucesso que ele alcançou seguindo seu método (bem como, talvez, considerando o clima social europeu contemporâneo de competitividade intelectual, para mostrar um pouco a um público mais amplo).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Teorema de Pitágoras",
+      "descricao": "Teorema segundo o qual, num triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1876, que futuro presidente dos Estados Unidos publicou uma demonstração própria do teorema de Pitágoras?",
+    "resposta": "James Garfield",
+    "distratores": [
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "Ulysses Grant"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+      "https://en.wikipedia.org/wiki/James_A._Garfield"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "situacao": "ok",
+        "texto": "In mathematics, the Pythagorean theorem or Pythagoras's theorem is a fundamental relation in Euclidean geometry between the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides.\n[…]\nwhich, after simplification, demonstrates the Pythagorean theorem:\n[…]\nA related proof by U.S. president James A. Garfield was published before he was elected president; while he was a U.S. representative. Instead of a square it uses a trapezoid, which can be constructed from the square in the second of the above proofs by bisecting along a diagonal of the inner square, to give the trapezoid as shown in the diagram. The area of the trapezoid can be calculated to be half the area of the square, that is\n[…]\n⁠, and the formula reduces to the usual Pythagorean theorem.\n[…]\nFor infinitesimal triangles on the sphere (or equivalently, for finite spherical triangles on a sphere of infinite radius), the spherical relation between the sides of a right triangle reduces to the Euclidean form of the Pythagorean theorem. To see how, assume we have a spherical triangle of fixed side lengths a, b, and c on a sphere with expanding radius R.\n[…]\nto avoid loss of significance. Then the spherical Pythagorean theorem can alternately be written as\n[…]\nBy using the Maclaurin series for the hyperbolic cosine, cosh x ≈ 1 + x2/2, it can be shown that as a hyperbolic triangle becomes very small (that is, as a, b, and c all approach zero), the hyperbolic relation for a right triangle approaches the form of Pythagoras's theorem.\n[…]\nThe Pythagorean theorem applies to infinitesimal triangles seen in differential geometry. In three dimensional space, the distance between two infinitesimally separated points satisfies"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/James_A._Garfield",
+        "situacao": "ok",
+        "texto": "James Abram Garfield (November 19, 1831 – September 19, 1881) was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot in July. A preacher, lawyer, and Civil War general, Garfield served nine terms in the United States House of Representatives and is the only sitting member of the House to be elected president. Before he ran for p\n[…]\nAnother study has said of Garfield:\n[…]\nNorth, Ira Lutts. \"A rhetorical criticism of the speaking of James Abram Garfield, 1876-1880\" (PhD dissertation, Louisiana State University; ProQuest Dissertations Publishing, 1953. DP69446).\n[…]\nSkidmore, Max J. \"James A. Garfield and Chester A. Arthur.\" in Maligned Presidents: The Late 19th Century (Palgrave Macmillan, New York, 2014) pp. 63–79.\n[…]\nSutton, Thomas C. \"James A. Garfield.\" in The Presidents and the Constitution (Volume One. New York University Press, 2020) pp. 266–275.\n[…]\nJames Garfield: A Resource Guide from the Library of Congress\n[…]\nJames A. Garfield at the Database of Classical Scholars\n[…]\n[http://millercenter.org/president/garfield Brief essays on James A. Garfield and his administration from the Miller Center of Public Affairs\n[…]\n\"Life Portrait of James Garfield\", from C-SPAN's American Presidents: Life Portraits, July 26, 1999\n[…]\nWorks by or about James A. Garfield at the Internet Archive\n[…]\nWorks by James A. Garfield at LibriVox (public domain audiobooks)\n[…]\nJames A. Garfield Personal Manuscripts\n[…]\nJames A. Garfield Collection at Williams College Chapin Library\n[…]\nJames A. Garfield Collection at Williams College Archives and Special Collections\n[…]\nOfficial medical bulletins relating to the health of U.S. President James Garfield from the U.S. National Library of Medicine. Contains medical bulletins issued by attending physicians D. Hayes Agnes, J.K. Barnes, D. W. Bliss, Frank H. Hamilton, Robert Reyburn, and J.J. Woodward between July 6 – September 19, 1881."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras",
+        "situacao": "ok",
+        "texto": "Na matemática, o teorema de Pitágoras é uma relação matemática entre os comprimentos dos lados de qualquer triângulo retângulo. Na geometria euclidiana, o teorema afirma que:\n[…]\nNão se sabe ao certo qual seria a demonstração utilizada por Pitágoras. O teorema de Pitágoras já teve muitas demonstrações publicadas. O livro The Pythagorean Proposition, de Elisha Scott Loomis, por exemplo, contém 370 demonstrações diferentes. Há uma demonstração no livro Os Elementos, de Euclides. E também ofereceram demonstrações, o matemático indiano Bhaskara Akaria, o polímata italiano Leonardo da Vinci, e o vigésimo presidente dos Estados Unidos, James A. Garfield.\n[…]\nO teorema de Pitágoras foi descoberto independentemente nas antigas civilizações babilônica, indiana, chinesa e grega.\n[…]\nA história do teorema pode ser dividida em quatro partes: o conhecimento de trios pitagóricos, conhecimento da relação entre os lados de um triângulo retângulo, conhecimento das relações entre ângulos adjacentes, e demonstrações do teorema dentro de sistemas dedutivos.\n[…]\nNo entanto, quando autores como Plutarco e Cícero atribuíram o teorema a Pitágoras, fizeram-no de tal forma que sugeria que esta atribuição era amplamente conhecida e livre de qualquer dúvida. \"Se esta fórmula é corretamente atribuída ao próprio Pitágoras, [...] pode-se assumir com certeza que pertence ao período mais antigo da matemática pitagórica\".\n[…]\nSegundo Proclo, por volta do ano 400 a.C. Platão forneceu um método para encontrar trios pitagóricos que combinava álgebra e geometria. A demonstração axiomática do teorema mais antiga que se conhece aparece nos Elementos de Euclides, que data aproximadamente do ano 300 a.C.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Teoria das probabilidades",
+      "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1654, as cartas trocadas entre Blaise Pascal e que magistrado francês, matemático nas horas vagas, lançaram as bases da teoria das probabilidades?",
+    "resposta": "Pierre de Fermat",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Problem_of_points",
+      "https://en.wikipedia.org/wiki/Probability_theory"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Problem_of_points",
+        "situacao": "ok",
+        "texto": "The problem of points, also called the problem of division of the stakes, is a classical problem in probability theory. One of the famous problems that motivated the beginnings of modern probability theory in the 17th century, it led Blaise Pascal to the first explicit reasoning about what today is known as an expected value.\n[…]\nThe problem arose again around 1654 when the Chevalier de Méré, Antoine Gombaud posed it to Blaise Pascal. Pascal discussed the problem in his ongoing correspondence with Pierre de Fermat. Through this discussion, Pascal and Fermat not only provided a convincing, self-consistent solution to this problem, but also developed concepts that are still fundamental to probability theory.\n[…]\nIt is easier to convince oneself that this principle is fair than it is for Fermat's table of possible futures, which are doubly hypothetical because one must imagine that the game sometimes continues after having been won. Pascal's analysis here is one of the earliest examples of using expected values instead of odds when reasoning about probability.\n[…]\nThe direct application of Pascal's step-by-step rule is significantly quicker than Fermat's method when many rounds remain. However, Pascal was able to use it as a starting point for developing more advanced computational methods.\n[…]\nThough Pascal's derivation of this result was independent of Fermat's tabular method, it is clear that it also describes exactly the counting of different outcomes of\n[…]\nadditional rounds that Fermat suggested.\n[…]\nto prevail at each round, follow this basic line of reasoning without difficulty, but go beyond the initial treatment of Pascal and Fermat, at conception. But what if\n[…]\nKeith Devlin: The Unfinished Game: Pascal, Fermat, and the Seventeenth-Century Letter that Made the World Modern. Basic Books 2010, ISBN 978-0465018963"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Probability_theory",
+        "situacao": "ok",
+        "texto": "Probability theory or probability calculus is the branch of mathematics concerned with probability. Although there are several different probability interpretations, probability theory treats the concept in a rigorous mathematical manner by expressing it through a set of axioms. Typically these axioms formalise probability in terms of a probability space, which assigns a measure taking values betw\n[…]\nThe modern mathematical theory of probability has its roots in attempts to analyze games of chance by Gerolamo Cardano in the sixteenth century, and by Pierre de Fermat and Blaise Pascal in the seventeenth century (for example the \"problem of points\"). Christiaan Huygens published a book on the subject in 1657. In the 19th century, what is considered the classical definition of probability was completed by Pierre Laplace.\n[…]\n, as in the theory of stochastic processes. For example, to study Brownian motion, probability is defined on a space of functions.\n[…]\nConvergence in probability\n[…]\nin probability if\n[…]\nare independent Bernoulli random variables taking values 1 with probability p and 0 with probability 1-p, then\n[…]\nGlossary of probability and statistics\n[…]\nLikelihood function – Function related to statistics and probability theory\n[…]\nNotation in probability\n[…]\nProbabilistic logic – Applications of logic under uncertainty\n[…]\nProbabilistic proofs of non-probabilistic theorems\n[…]\nProbability distribution – Mathematical function for the probability a given outcome occurs in an experiment\n[…]\nProbability axioms – Foundations of probability theory\n[…]\nProbability interpretations – Philosophical interpretation of the axioms of probability\n[…]\nProbability space – Mathematical concept\n[…]\nSubjective logic – Type of probabilistic logic\n[…]\nPairwise independence§Probability of the union of pairwise independent events – Set of random variables of which any two are independent\n[…]\nCatalog of articles in probability theory\n[…]\nList of probability topics"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Torre de Hanói",
+      "descricao": "Quebra-cabeça de discos de tamanhos diferentes que devem ser movidos entre três hastes, inventado em 1883."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1883, que matemático francês inventou o quebra-cabeça Torre de Hanói, com discos que passam de uma haste para outra?",
+    "resposta": "Édouard Lucas",
+    "distratores": [
+      "Joseph Fourier",
+      "Henri Poincaré",
+      "Augustin Cauchy"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+      "https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+        "situacao": "ok",
+        "texto": "The Tower of Hanoi aka TOH (also called the problem of Benares Temple, Tower of Brahma or Lucas's Tower, and sometimes pluralized as Towers, or simply the pyramid puzzle) is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. The puzzle begins with the disks stacked on one rod in order of decreasing size, the smallest at \n[…]\nThe puzzle was invented by the French mathematician Édouard Lucas, first presented in 1883 as a game discovered by \"N. Claus (de Siam)\" (an anagram of \"Lucas d'Amiens\"), and later published as a booklet in 1889 and in a posthumously-published volume of Lucas's Récréations mathématiques.\n[…]\nThis variation of the famous Tower of Hanoi puzzle was offered to grade 3–6 students at 2ème Championnat de France des Jeux Mathématiques et Logiques held in July 1988.\n[…]\nIn 2014, scientists synthesized multilayered palladium nanosheets with a Tower of Hanoi-like structure.\n[…]\nIn 2025, Apple Inc. researchers used the Tower of Hanoi and other puzzles to test the reasoning ability of LLM Generative AI programs. The researchers found that the leading AI models, including ChatGPT, Claude, and Deepseek, struggled with solving a Tower of Hanoi at the level of 7 rings, getting less than 80% accuracy, and failing completely to solve a Tower of Hanoi with 8 rings. Even in instances in which the researchers gave the AI models the solution algorithm, they still failed.\n[…]\nIn the 1966 Doctor Who story The Celestial Toymaker, the eponymous villain forces the Doctor to play a ten-piece, 1,023-move Tower of Hanoi game entitled The Trilogic Game with the pieces forming a pyramid shape when stacked.\n[…]\nIn the 2011 film Rise of the Planet of the Apes, this puzzle, called in the film the \"Lucas Tower\", is used as a test to study the intelligence of apes.\n[…]\nWeisstein, Eric W. \"Tower of Hanoi\". MathWorld."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i",
+        "situacao": "ok",
+        "texto": "Torre de Hanói é um quebra-cabeça que consiste em uma base contendo três pinos, em um dos quais são dispostos alguns discos uns sobre os outros, em ordem crescente de diâmetro, de cima para baixo. O problema consiste em passar todos os discos de um pino para outro qualquer, usando um dos pinos como auxiliar, de maneira que um disco maior nunca fique em cima de outro menor em nenhuma situação. O nú\n[…]\nO quebra-cabeça foi inventado pelo matemático francês Édouard Lucas. Ele teve inspiração de uma lenda para construir o jogo das Torres de Hanói em 1883. Já seu nome foi inspirado na torre símbolo da cidade de Hanói, no Vietnã.\n[…]\nExistem várias lendas a respeito da origem do jogo, a mais conhecida diz respeito a um templo Hindu, situado no centro do universo. Diz-se que Brama supostamente havia criado uma torre com 64 discos de ouro e mais duas estacas equilibradas sobre uma plataforma. Brama ordenara-lhes que movessem todos os discos de uma estaca para outra segundo as suas instruções. As regras eram simples: apenas um disco poderia ser movido por vez e nunca um disco maior deveria ficar por cima de um disco menor.\n[…]\nSegundo a lenda, quando todos os discos fossem transferidos de uma estaca para a outra, o templo iria desmoronar e o mundo desapareceria. Não é claro se Lucas inventou essa lenda ou foi inspirado por ele.\n[…]\nPara solucionar um Hanói de 15 discos, são necessários 32.767 movimentos\n[…]\nA torre de Hanói consiste em passar todos os discos de uma extremidade a outra sem que um disco maior fique em cima de um menor.\n[…]\nA Torre de Hanói possui várias formas de resolução. Uma delas é a resolução recursiva a qual podemos dizer que é a mais limitada quanto ao tempo de realização, já que sua execução dependerá de alguns fatores para tornar-se mais eficaz.\n[…]\nVeja torre de Hanoi implementada em java.\n[…]\nVeja torre de Hanói implementada em C# ou C sharp.\n[…]\nVersão eletrônica do jogo A Torre de Hanoi"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Numeração maia",
+      "descricao": "Sistema de numeração de base vinte usado pela civilização maia, com um símbolo próprio para o zero."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que povo pré-colombiano da América Central escrevia o zero com um símbolo em forma de concha?",
+    "resposta": "Maias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maya_numerals"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maya_numerals",
+        "situacao": "ok",
+        "texto": "The Mayan numeral system was the system to represent numbers and calendar dates in the Maya civilization. It was a vigesimal (base-20) positional numeral system. The numerals are made up of three symbols: zero (a shell), one (a dot) and five (a bar). For example, thirteen is written as three dots in a horizontal row above two horizontal bars; sometimes it is also written as three vertical dots to \n[…]\nThe \"Long Count\" portion of the Maya calendar uses a variation on the strictly vigesimal numerals to show a Long Count date. In the second position, only the digits up to 17 are used, and the place value of the third position is not 20×20 = 400, as would otherwise be expected, but 18×20 = 360 so that one dot over two zeros signifies 360. Presumably, this is because 360 is roughly the number of days in a year.\n[…]\nSeveral Mesoamerican cultures used similar numerals and base-twenty systems and the Mesoamerican Long Count calendar requiring the use of zero as a place-holder. The earliest long count date (on Stela 2 at Chiappa de Corzo, Chiapas) is from 36 BC.\n[…]\nSince the eight earliest Long Count dates appear outside the Maya homeland, it is assumed that the use of zero and the Long Count calendar predated the Maya, and was possibly the invention of the Olmec. Indeed, many of the earliest Long Count dates were found within the Olmec heartland. However, the Olmec civilization had come to an end by the 4th century BC, several centuries before the earliest known Long Count dates—which suggests that zero was not an Olmec discovery.\n[…]\nKaktovik numerals, a similar system from another culture, created in the late 20th century.\n[…]\nMaya numerals converter - online converter from decimal numeration to Maya numeral notation.\n[…]\nAnthropomorphic Maya numbers - online story of number representations.\n[…]\nBabelStone Mayan Numerals - free font for Unicode Mayan numeral characters."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_maia",
+        "situacao": "ok",
+        "texto": "O sistema de numeração maia adotado pela civilização pré-colombiana dos Maias é um sistema de numeração vigesimal, ou seja, tem base em vinte.\n[…]\nOs numerais são representados por símbolos compostos por pontos e barras, sendo o zero a única exceção por ser representado pelo desenho de uma concha. Por exemplo, o número doze é escrito usando dois pontos na horizontal sobre duas barras também horizontais como mostra o diagrama. O símbolo \"•\" era usado até quatro vezes e o símbolo \"–\" era usado até três vezes.\n[…]\nAdicionar e subtrair números abaixo de 20 usando numerais maias é muito simples. A adição é realizada combinando os símbolos numéricos em cada nível:\n[…]\nVárias culturas mesoamericanas usaram numerais semelhantes e sistemas de base vinte e o calendário mesoamericano de contagem longa exigindo o uso de zero como um espaço reservado. A data de contagem longa mais antiga (em Estela 2 em Chiapa de Corzo, Chiapas) é de 36 a.C.\n[…]\nUma vez que as oito primeiras datas de contagem longa aparecem fora da terra natal maia, supõe-se que o uso do zero e do calendário de contagem longa antecedeu os maias, e foi possivelmente a invenção dos olmecas. De fato, muitas das primeiras datas de contagem longa foram encontradas no coração olmeca.\n[…]\nDavidson, Luis J. “The Maya Numerals.” Mathematics in School, vol. 3, no. 4, 1974, pp. 7–7\n[…]\nConversor de numerais maias - conversor - on-line de numeração decimal para notação numérica maia.\n[…]\nNúmeros maias antropomórficos - história online de representações numéricas.\n[…]\nBabelStone Mayan Numerals - fonte gratuita para caracteres numéricos maias Unicode.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Ladrilhos de Penrose",
+      "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que físico e matemático britânico, Nobel de Física de 2020, criou um padrão de ladrilhos que cobre o plano sem nunca se repetir?",
+    "resposta": "Roger Penrose",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Penrose_tiling",
+      "https://en.wikipedia.org/wiki/Roger_Penrose"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Penrose_tiling",
+        "situacao": "ok",
+        "texto": "A Penrose tiling is an example of an aperiodic tiling. Here, a tiling is a covering of the plane by non-overlapping polygons or other shapes, and a tiling is aperiodic if it does not contain arbitrarily large periodic regions or patches. However, despite their lack of translational symmetry, Penrose tilings may have both reflection symmetry and fivefold rotational symmetry. Penrose tilings are nam\n[…]\nThe first Penrose tiling (tiling P1 below) is an aperiodic set of six prototiles, introduced by Roger Penrose in a 1974 paper, based on pentagons rather than squares. Any attempt to tile the plane with regular pentagons necessarily leaves gaps, but Johannes Kepler showed, in his 1619 work Harmonices Mundi, that these gaps can be filled using pentagrams (star polygons), decagons and related shapes.\n[…]\nIn Indian Institute of Information Technology, Allahabad, since the first phase of construction in 2001, academic buildings were designed on the basis of \"Penrose Geometry\", styled on tessellations developed by Roger Penrose. In many places in those buildings, the floor has geometric patterns composed of Penrose tiling.\n[…]\nPenrose, Roger (1974). \"The role of aesthetics in pure and applied mathematical research\". Bulletin of the Institute of Mathematics and Its Applications. 10: 266ff..\n[…]\nUS 4133152, Penrose, Roger, \"Set of tiles for covering a surface\", published 9 January 1979 .\n[…]\nPenrose, Roger (1978). \"Pentaplexity\" (PDF). Eureka. Vol. 39. pp. 16–22. Archived from the original (PDF) on 9 August 2022. Retrieved 2 February 2021.. (Page numbers cited here are from the reproduction as Penrose, R. (1979–80). \"Pentaplexity: A class of non-periodic tilings of the plane\". The Mathematical Intelligencer. 2: 32–37. doi:10.1007/BF03024384. S2CID 120305260..)\n[…]\nJohn Savard. \"Penrose Tilings\". quadibloc.com. Retrieved 28 November 2009.\n[…]\nEric Hwang. \"Penrose Tiling\". intendo.net. Retrieved 28 November 2009."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Roger_Penrose",
+        "situacao": "ok",
+        "texto": "Sir Roger Penrose (born 8 August 1931) is an English mathematician, mathematical physicist, and philosopher of science. He is Emeritus Rouse Ball Professor of Mathematics at the University of Oxford, an emeritus fellow of Wadham College, Oxford, and an honorary fellow of St John's College, Cambridge, and University College London.\n[…]\nList of things named after Roger Penrose\n[…]\nBarss, Patchen (2024). The Impossible Man: Roger Penrose and the Cost of Genius. New York: Basic Books. ISBN 978-1-5416-0366-0.\n[…]\nPenrose's Nobel Lecture Nobel Foundation\n[…]\nWorks by or about Roger Penrose at the Internet Archive\n[…]\nRoger Penrose on The Forum\n[…]\nTwo theories for the formation of quasicrystals resembling Penrose tilings\n[…]\n\"Toilet Paper Plagiarism\" at the Wayback Machine (archived 12 March 2005) – D. Trull about Penrose's lawsuit concerning the use of his Penrose tilings on toilet paper\n[…]\nRoger Penrose: A Knight on the tiles Plus Magazine\n[…]\nPenrose's Gifford Lecture biography\n[…]\nAudio: Roger Penrose in conversation on the BBC World Service discussion show\n[…]\nRoger Penrose speaking about Hawking's new book on Premier Christian Radio\n[…]\n\"The Cyclic Universe – A conversation with Roger Penrose\", Ideas Roadshow, 2013\n[…]\nOxford Mathematics Interviews: \"Extra Time: Professor Sir Roger Penrose in conversation with Andrew Hodges.\" These two films explore the development ofPenrose's thought over more than 60 years, ending with his most recent theories and predictions. 51 min and 42 min. (Mathematical Institute)\n[…]\nBBC Radio 4 – The Life Scientific – Roger Penrose on Black Holes – 22 November 2016 Penrose talks to Jim Al-Khalili about his trailblazing work on black holes, the problems with quantum physics and his portrayal in films about Stephen Hawking.\n[…]\nThe Penrose Institute Website\n[…]\nRoger Penrose on Desert Island Discs. BBC Radio 4.\n[…]\nRoger Penrose on Nobelprize.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mosaico_de_Penrose",
+        "situacao": "ok",
+        "texto": "Os mosaicos de Penrose ou tesselação de Penrose é uma tesselação (em mosaico, e.g.) não periódicos que levam o nome de Roger Penrose, que os investigou na década de 1970.\n[…]\nSegundo Penrose, quando tinha 9 anos perguntou a seu pai se era possível encaixar hexágonos regulares de modo a formar uma figura redonda.\n[…]\n«Roger Penrose, seus mosaicos e a consciência»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Jogo da Vida",
+      "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1970, que matemático britânico criou o Jogo da Vida, em que células de uma grade nascem e morrem seguindo regras simples?",
+    "resposta": "John Conway",
+    "distratores": [
+      "John von Neumann",
+      "Alan Turing",
+      "Stephen Wolfram"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+        "situacao": "ok",
+        "texto": "The Game of Life, also known as Conway's Game of Life (sometimes abbreviated as CGoL) or simply Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how i\n[…]\nThe game made its first public appearance in the October 1970 issue of Scientific American, in Martin Gardner's \"Mathematical Games\" column, which was based on personal conversations with Conway. Theoretically, the Game of Life has the power of a universal Turing machine: anything that can be computed algorithmically can be computed within the Game of Life.\n[…]\nThe earliest interesting patterns in the Game of Life were discovered without the use of computers. The simplest still lifes and oscillators were discovered while tracking the fates of various small starting configurations using graph paper, blackboards, and physical game boards, such as those used in Go. During this early research, Conway discovered that the R-pentomino failed to stabilize in a small number of generations.\n[…]\nComputers have been used to follow and simulate the Game of Life since it was first publicized. When John Conway was first investigating how various starting configurations developed, he tracked them by hand using a go board with its black and white stones. This was tedious and prone to errors. The first interactive Game of Life program was written in an early version of ALGOL 68C for the PDP-7 by M. J. T. Guy and S. R. Bourne.\n[…]\nLifeWiki conwaylife.com\n[…]\nCatagolue catagolue.hatsya.com: online database of objects in Conway's Game of Life and similar cellular automata\n[…]\nCellular Automata FAQ – Conway's Game of Life cafaq.com\n[…]\nAlgebraic formula uk.mathworks.com: recurrence relation for iterating Conway's Game of Life."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogo_da_vida",
+        "situacao": "ok",
+        "texto": "O jogo da vida é um autómato celular desenvolvido pelo matemático britânico John Horton Conway em 1970. É o exemplo mais bem conhecido de autômato celular.\n[…]\nConway inventou o Jogo da Vida (ou Game of Life) ao utilizar suas descobertas anteriores relacionadas com o problema de encontrar um grupo simétrico de esferas em 24 dimensões, proposto por John Leech para simplificar a solução de von Neumann.\n[…]\n\"O jogo fez Conway famoso instantaneamente, mas ele também abriu um novo campo na pesquisa matemática, o campo dos autômatos celulares... Por causa das analogias de Life com o aumento, redução e alteração de uma sociedade de organismos vivos, isto pertence a uma classe crescente que é chamada \"jogos de simulação\" - jogos que recriam processos do mundo-real.\"\n[…]\nA ideia básica do \"jogo\" é começar com uma configuração simples de células vivas (organismos) que são colocadas em um tabuleiro 2D de vários métodos. Isto constitui a primeira geração. As \"leis genéticas\" de Conway para nascimentos, mortes e sobrevivência (as quatro regras acima) são então aplicadas e a nova geração é então colocada de acordo. Geração a geração os \"jogador(es)\" observam as várias imagens que surgem.\n[…]\n23/3 (caótica) \"Jogo da Vida de Conway\"\n[…]\n245/3 (caótica) imagens diferente para o Jogo da Vida\n[…]\nOs computadores foram usados ​​para seguir as configurações do Jogo da Vida desde o surgimento do jogo. Quando John Conway estava começando a investigar como diferentes configurações se desenvolviam, ele as rastreou à mão usando um tabuleiro de Go e suas pedras pretas e brancas. Essa simulação era tediosa e propensa a erros.\n[…]\nAutômato celular de von Neumann\n[…]\nDicionário do Jogo da Vida",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Garrafa de Klein",
+      "descricao": "Superfície fechada com um só lado, sem interior nem exterior, descrita em 1882."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que matemático alemão descreveu, em 1882, uma garrafa sem lado de dentro nem de fora, parente da faixa de Möbius?",
+    "resposta": "Felix Klein",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Klein_bottle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Klein_bottle",
+        "situacao": "ok",
+        "texto": "In mathematics, the Klein bottle () is an example of a surface with no distinct inside or outside. In other words, it is a one-sided surface which, if traveled upon, could be followed back to the point of origin while flipping the traveler upside down. More formally, it is an example of a non-orientable surface, a two-dimensional manifold on which one cannot define a consistent direction perpendic\n[…]\nThe Klein bottle was first described in 1882 by the mathematician Felix Klein.\n[…]\nUp to reversal of the orientation of a simple closed curve, if it lies within one of the two cross-caps that make up the Klein bottle, then it is in homology class (1,0) or (1,1); if it cuts the Klein bottle into two Möbius strips, then it is in homology class (2,0); if it cuts the Klein bottle into an annulus, then it is in homology class (0,1); and if bounds a disk, then it is in homology class (0,0).\n[…]\nTo make the \"figure 8\" or \"bagel\" immersion of the Klein bottle, one can start with a Möbius strip and curl it to bring the edge to the midline; since there is only one edge, it will meet itself there, passing through the midline. It has a particularly simple parametrization as a \"figure-8\" torus with a half-twist:\n[…]\nIf the traditional Klein bottle is cut in its plane of symmetry it breaks into two Möbius strips of opposite chirality. A figure-8 Klein bottle can be cut into two Möbius strips of the same chirality, and cannot be regularly deformed into its mirror image.\n[…]\nIn another order of ideas, constructing 3-manifolds, it is known that a solid Klein bottle is homeomorphic to the Cartesian product of a Möbius strip and a closed interval. The solid Klein bottle is the non-orientable version of the solid torus, equivalent to\n[…]\nKlein Bottle animation from 2010 including a car ride through the bottle and the original description by Felix Klein: produced at the Free University Berlin."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Garrafa_de_Klein",
+        "situacao": "ok",
+        "texto": "Em matemática, a garrafa de Klein é um exemplo de uma superfície não orientável; informalmente, ela é uma superfície (uma variedade bidimensional) em que as noções de direita, esquerda, cima, baixo, dentro e fora não podem ser definidas de maneira consistente. Entre as estruturas relacionadas que também não são orientáveis estão incluídos o plano projetivo real e a faixa de Möbius.\n[…]\nEnquanto uma faixa de Möbius é uma superfície com borda, uma garrafa de Klein não possui borda (a título de comparação, uma esfera é uma superfície orientável sem borda). Uma garrafa de Klein é um espaço topológico obtido pela colagem de duas fitas de Möbius. O nome se refere ao matemático Felix Klein.\n[…]\nA garrafa de Klein propriamente dita não se intercepta. Entretanto, para observar tal propriedade devemos visualizá-la como estando contida em quatro dimensões. Ao adicionar uma quarta dimensão ao espaço tridimensional, a auto-interseção pode ser eliminada. Podemos adotar o tempo como a quarta dimensão, para melhor compreensão. Observe a evolução da imagem da garrafa construída no espaço xyzt na Figura 1.\n[…]\nImagine como se estivesse empurrando um pedaço do tubo que contém a interseção ao longo da quarta dimensão, para fora do espaço tridimensional original. Uma analogia útil é considerar uma curva de auto-interseção no plano; auto-interseções podem ser eliminadas levantando uma linha do plano.\n[…]\nA garrafa de Klein é uma superfície:\n[…]\nUma possível triangulação da garrafa de Klein é dada pela figura abaixo, na qual temos uma triangulação da representação poligonal desta figura topológica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Símbolo da raiz quadrada",
+      "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O símbolo da raiz quadrada teria surgido de uma letra r estilizada, inicial de que palavra latina?",
+    "resposta": "Radix",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Radical_symbol"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Radical_symbol",
+        "situacao": "ok",
+        "texto": "In mathematics, the radical symbol, radical sign, root symbol, or surd is a symbol for the square root or higher-order root of a number. The square root of a number\n[…]\nHowever, Leonhard Euler believed it originated from the letter \"r\", the first letter of the Latin word \"radix\" (meaning \"root\"), referring to the same mathematical operation.\n[…]\nThe symbol was first seen in print without the vinculum (the horizontal \"bar\" over the numbers inside the radical symbol) in the year 1525 in Die Coss by Christoff Rudolff, a German mathematician. In 1637 Descartes was the first to unite the German radical sign √ with the vinculum to create the radical symbol in common use today.\n[…]\nThe Unicode and HTML character codes for the radical symbols are:\n[…]\nU+23B7 ⎷ RADICAL SYMBOL BOTTOM\n[…]\nHowever, these characters differ in appearance from most mathematical typesetting by omitting the overline connected to the radical symbol, which surrounds the argument of the square root function. The OpenType math table allows adding this overline following the radical symbol.\n[…]\nThe Symbol font displays the character without any vinculum whatsoever; the overline may be a separate character at 0x60. The JIS, Wansung and CNS 11643 code charts include a short overline attached to the radical symbol, whereas the GB 2312 and GB 18030 charts do not.\n[…]\nAdditionally a \"Radical Symbol Bottom\" (U+23B7, ⎷) is available in the Miscellaneous Technical block. This was used in contexts where box-drawing characters are used, such as in the technical character set of DEC terminals, to join up with box drawing characters on the line above to create the vinculum.\n[…]\nSolution in radicals"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Símbolo da integral",
+      "descricao": "Símbolo em forma de S alongado usado no cálculo para indicar a integral, introduzido por Leibniz."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O símbolo da integral, um S alongado criado por Leibniz, é a inicial de que palavra latina?",
+    "resposta": "Summa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Integral_symbol"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Integral_symbol",
+        "situacao": "ok",
+        "texto": "The integral symbol (see below) is used to denote integrals and antiderivatives in mathematics, especially in calculus.\n[…]\nThe notation was introduced by the German mathematician Gottfried Wilhelm Leibniz in 1675 in his private writings; it first appeared publicly in the article \"De Geometria Recondita et analysi indivisibilium atque infinitorum\" (On a hidden geometry and analysis of indivisibles and infinites), published in Acta Eruditorum in June 1686. The symbol was based on the ſ (long s) character and was chosen because Leibniz thought of the integral as an infinite sum of infinitesimal summands.\n[…]\nIn other languages, the shape of the integral symbol differs slightly from the shape commonly seen in English-language textbooks. While the English integral symbol leans to the right, the German symbol (used throughout Central Europe) is upright, and the Russian variant leans slightly to the left to occupy less horizontal space.\n[…]\nAnother difference is in the placement of limits for definite integrals. Generally, in English-language books, limits go to the right of the integral symbol:\n[…]\nBy contrast, in German and Russian texts, the limits are placed above and below the integral symbol, and, as a result, the notation requires larger line spacing but is more compact horizontally, especially when using longer expressions in the limits:\n[…]\nStewart, James (2003). \"Integrals\". Single Variable Calculus: Early Transcendentals (5th ed.). Belmont, CA: Brooks/Cole. p. 381. ISBN 0-534-39330-6."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%ADmbolo_de_integral",
+        "situacao": "ok",
+        "texto": "O símbolo ∫ é usado para denotar uma integral em matemática. A notação foi introduzida pelo matemático e filósofo alemão Gottfried Wilhelm Leibniz no final do século XVII.\n[…]\nO símbolo ∫ é U+222B em unicode, \\int em LaTeX. Em HTML, se escreve &#x222b; em (hexadecimal), &#8747; (decimal) e &int;.\n[…]\nStewart, James (2003). «Integrals». Single Variable Calculus: Early Transcendentals 5th edition ed. Belmont, CA: Brooks/Cole. 381 páginas. ISBN 0-534-39330-6",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Álgebra",
+      "descricao": "Ramo da matemática que usa letras e símbolos para representar números e resolver equações."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra álgebra vem de al-jabr, termo árabe do título de um livro de Al-Khwarizmi. O que esse termo significa?",
+    "resposta": "Restauração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algebra",
+      "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Algebra",
+        "situacao": "ok",
+        "texto": "Algebra is a branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems. It is a generalization of arithmetic that introduces variables and algebraic operations other than the standard arithmetic operations, such as addition and multiplication.\n[…]\nThe word algebra comes from the Arabic term الجبر (al-jabr), which originally referred to the surgical treatment of bonesetting.\n[…]\nIn the 9th century, the term received a mathematical meaning when Persian mathematician Muhammad ibn Musa al-Khwarizmi employed it to name a method for transforming equations and used it in the title of his treatise al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah [The Compendious Book on Calculation by Completion and Balancing] which was translated into Latin as Liber Algebrae et Almucabola. The word entered the English language in the 16th century from Italian, Spanish, and medieval Latin.\n[…]\nAl-Khwarizmi provided the first analytical theory for solving equations by classifying them into six standard forms and offering systematic, step-by-step procedures for their solutions. By abstracting these methods from specific geometric figures and treating unknown quantities as general algebraic objects, he established a formal operational framework. This transition from solving isolated problems to developing a universal methodology transformed algebra into a self-contained discipline.\n[…]\nThe Italian mathematician Fibonacci brought al-Khwarizmi's ideas and techniques to Europe in books including his Liber Abaci. In 1545, the Italian polymath Gerolamo Cardano published his book Ars Magna, which covered many topics in algebra, discussed imaginary numbers, and was the first to present general methods for solving cubic and quartic equations."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing",
+        "situacao": "ok",
+        "texto": "The Concise Book of Calculation by Restoration and Balancing (Arabic: الكتاب المختصر في حساب الجبر والمقابلة, al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah; or Latin: Liber Algebræ et Almucabola), commonly abbreviated Al-Jabr or Algebra (Arabic: الجبر), is an Arabic-language mathematical treatise on algebra written in Baghdad around 820 by Al-Khwarizmi.\n[…]\n... the algebra of al-Khwarizmi is thoroughly rhetorical, with none of the syncopation (see History of algebra) found in the Greek Arithmetica or in Brahmagupta's work. Even the numbers were written out in words rather than symbols!\n[…]\nAl-Jabr (\"forcing\", \"restoring\") operation is moving a deficient quantity from one side of the equation to the other side. In an al-Khwarizmi's example (in modern notation), \"x2 = 40x − 4x2\" is transformed by al-Jabr into \"5x2 = 40x\". Repeated application of this rule eliminates negative quantities from calculations.\n[…]\nAl-Jabr introduced balancing and reduction to mathematical expressions, and founded Algebra as an independent mathematical discipline, which is taught worldwide, typically as part of an elementary and high school curriculum.\n[…]\nPerhaps one of the most significant advances made by Arabic mathematics began at this time with the work of al-Khwarizmi, namely the beginnings of algebra. It is important to understand just how significant this new idea was. It was a revolutionary move away from the Greek concept of mathematics which was essentially geometry. Algebra was a unifying theory which allowed rational numbers, irrational numbers, geometrical magnitudes, etc., to all be treated as \"algebraic objects\".\n[…]\nHughes, Barnabas B. ed., Robert of Chester's Latin Translation of Al-Khwarizmi's Al-Jabr: A New Critical Edition, (in Latin) Wiesbaden: F. Steiner Verlag, 1989. ISBN 3-515-04589-9\n[…]\nAl-Khwarizmi"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81lgebra",
+        "situacao": "ok",
+        "texto": "A álgebra é um ramo da matemática que lida com sistemas abstratos, conhecidos como estruturas algébricas, e com a manipulação de expressões dentro desses sistemas. É uma generalização da aritmética que introduz variáveis e operações algébricas além das operações aritméticas padrão, como a adição e a multiplicação.\n[…]\nA palavra álgebra tem origem no termo em árabe الجبر (al-jabr), que originalmente se referia ao tratamento cirúrgico de ajuste de ossos fraturados.\n[…]\nNo século IX, o termo recebeu um significado matemático quando o matemático persa Alcuarismi o empregou para nomear um método de transformação de equações e o utilizou no título do seu tratado al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah (O Livro Compendioso sobre Cálculo por Conclusão e Balanceamento), que foi traduzido para o latim como Liber Algebrae et Almucabola. A palavra entrou na língua portuguesa (e em outros idiomas europeus) através do espanhol, do italiano e do latim medieval.\n[…]\nÁlgebra linear.\n[…]\nA ideia de uma abordagem ainda mais geral associada à álgebra universal foi concebida pelo matemático inglês Alfred North Whitehead em seu livro de 1898, A Treatise on Universal Algebra. A partir da década de 1930, o matemático norte-americano Garrett Birkhoff expandiu essas ideias e desenvolveu muitos dos conceitos fundamentais desse campo.\n[…]\nA massa de alguns objetos na balança é desconhecida e representa as variáveis. A resolução de uma equação corresponde a adicionar e remover objetos de ambos os lados de tal forma que os lados permaneçam em equilíbrio até que o único objeto restante de um lado seja o objeto de massa desconhecida. Os problemas expressos em palavras são outra ferramenta para mostrar como a álgebra é aplicada em situações da vida real.\n[…]\nMétodo Árabe de Multiplicação\n[…]\nIntrodução a História da Álgebra",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Geometria",
+      "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra geometria, de origem grega, significa originalmente medida de quê?",
+    "resposta": "Da terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geometry",
+      "https://pt.wikipedia.org/wiki/Geometria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Geometry",
+        "situacao": "ok",
+        "texto": "Geometry is a branch of mathematics concerned with properties of space such as the distance, shape, size, and relative position of figures. Geometry is, along with arithmetic, one of the oldest branches of mathematics. A mathematician who works in the field of geometry is called a geometer. Until the 19th century, geometry was almost exclusively devoted to Euclidean geometry, which includes the no\n[…]\n355 BC) developed the method of exhaustion, which allowed the calculation of areas and volumes of curvilinear figures, as well as a theory of ratios that avoided the problem of incommensurable magnitudes, which enabled subsequent geometers to make significant advances.\n[…]\nThe theme of symmetry in geometry is nearly as old as the science of geometry itself. Symmetric shapes such as the circle, regular polygons and platonic solids held deep significance for many ancient philosophers and were investigated in detail before the time of Euclid. Symmetric patterns occur in nature and were artistically rendered in a multitude of forms, including the graphics of Leonardo da Vinci, M. C. Escher, and others.\n[…]\nGroups have been understood as geometric objects since Klein's Erlangen programme. Geometric group theory studies group actions on objects that are regarded as geometric (significantly, isometric actions on metric spaces) to study finitely generated groups, often involving large-scale geometric techniques and borrowing from topology, geometry, dynamics and analysis.\n[…]\nIt had a significant impact on low-dimensional topology, a celebrated result being Agol's proof of the virtually Haken conjecture that combines Perelman geometrization with cubulation techniques.\n[…]\nMathematics and art are related in a variety of ways. For instance, the theory of perspective showed that there is more to geometry than just the metric properties of figures: perspective is the origin of projective geometry."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Geometria",
+        "situacao": "ok",
+        "texto": "A geometria (em grego clássico: γεωμετρία; geo- \"terra\", -metria \"medida\") é um ramo da matemática preocupado com questões de forma, tamanho e posição relativa de figuras e com as propriedades dos espaços. Um matemático que trabalha no campo da geometria é denominado de geômetra.\n[…]\nA matemática surgiu de necessidades básicas, em especial da necessidade econômica de contabilizar diversos tipos de objetos. De forma semelhante, a origem da geometria (do grego geo =terra + metria= medida, ou seja, \"medir terra\") está intimamente ligada à necessidade de melhorar o sistema de arrecadação de impostos de áreas rurais, e foram os antigos egípcios que deram os primeiros passos para o desenvolvimento da disciplina.\n[…]\nA dimensão desses conflitos pode ser apreciada na repercussão que se encontra no Livro dos Mortos do Egito, onde uma pessoa acabada de falecer tem de jurar aos deuses que não enganou o vizinho, roubando-lhe terra. Era um pecado punível com ter o coração comido por uma besta horrível chamada o «devorador». Roubar a terra do vizinho era considerado uma ofensa tão grave como quebrar um juramento ou assassinar alguém.\n[…]\nProjeções cartográficas são transformações que mapeiam pontos de uma superfície não plana (geralmente, por simplicidade, assume-se a forma de uma esfera ou elipsoide como o formato do planeta) para os pontos de um plano. É impossível representar a superfície da Terra em um plano sem que ocorram distorções (uma consequência do Theorema Egregium de Gauss).\n[…]\nExistem muitos problemas em aberto em geometria. Alguns dos quais podem ser entendidos por leigos, por exemplo:\n[…]\nGeometria analítica\n[…]\nGeometria com complexos\n[…]\nGeometria descritiva\n[…]\nGeometria esférica\n[…]\nGeometria euclidiana\n[…]\nGeometria fractal\n[…]\nGeometria projetiva"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Teorema de Napoleão",
+      "descricao": "Teorema de geometria segundo o qual os centros de triângulos equiláteros construídos sobre os lados de um triângulo qualquer formam outro triângulo equilátero."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Um teorema sobre triângulos equiláteros construídos nos lados de um triângulo qualquer leva o nome de que imperador francês?",
+    "resposta": "Napoleão Bonaparte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Napoleon%27s_theorem"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Napoleon%27s_theorem",
+        "situacao": "ok",
+        "texto": "In geometry, Napoleon's theorem states that if equilateral triangles are constructed on the sides of any triangle, either all outward or all inward, the lines connecting the centres of those equilateral triangles themselves form an equilateral triangle.\n[…]\nThe theorem is often attributed to Napoleon Bonaparte (1769–1821). According to Howard Eves, the theorem and a construction problem bearing Napoleon's name were discovered by his friend and adviser Lorenzo Mascheroni (1750–1800), who let the Emperor claim them for himself. Some have suggested that it may date back to W.\n[…]\na classic problem on circumscribing the greatest equilateral triangle about a given triangle that Thomas Moss had posed in the Ladies Diary in 1754, in the solution to which by William Bevil the following year we might easily recognize the germ of Napoleon's Theorem - the two results then run together, back and forth for at least the next hundred years in the problem pages of the popular almanacs:\n[…]\nGiven a hexagon ABCDEF with equilateral ∆'s ABG, DHC, IEF constructed on the alternate sides AB, CD and EF, either inwardly or outwardly. Let A1, B1, C1 be the centroids of ∆FGC, ∆BHE, and ∆DIA respectively, let A2, B2, C2 be the centroids of ∆DGE, ∆AHF, and ∆BIC respectively. Then ∆A1B1C1 and ∆A2B2C2 are equilateral triangles. (If, for example, we let points A and F coincide, as well as B and C, and D and E, then Dao Than Oai's result reduces to Napoleon's theorem).\n[…]\nNapoleon's Theorem, Two Simple Proofs\n[…]\nInfinite Regular Hexagon Sequences on a Triangle (generalization of Napoleon's Theorem) by Alvy Ray Smith.\n[…]\nThis article incorporates material from Napoleon's theorem on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teorema_de_Napole%C3%A3o",
+        "situacao": "ok",
+        "texto": "O teorema de Napoleão (geralmente atribuído a Napoleão Bonaparte, que o teria enunciado em 1787) consiste em projetar um triângulo qualquer e cada lado desse forme um triângulo equilátero, contudo marcando o ortocentro de cada triângulo e juntando os pontos sempre se obterá um triângulo equilátero. A diferença na área desses dois triângulos é igual à área do triângulo original.\n[…]\nO teorema é frequentemente atribuído a Napoleão, mas especialistas sugerem que ele pode remontar à questão levantada em 1825 por William Rutherford, publicada em The Ladies' Diary, quatro anos após a morte do imperador francês, mas o resultado está coberto em três questões colocadas em um exame para um Gold. Medalha na Universidade de Dublin em outubro de 1820, enquanto Napoleão morreu no mês de maio seguinte.\n[…]\nNa figura acima, △ABC é o triângulo original. △AZB, △BXC, △CYA são triângulos equiláteros construídos no exterior de seus lados e os pontos L, M, N são os centroides desses triângulos. O teorema dos triângulos externos indica que o triângulo △LMN (a verde) é equilátero.\n[…]\nUma maneira rápida de ver que o triângulo △LMN é equilateral é observar que:\n[…]\nO que é de maior interesse histórico em relação a Faifofer é o problema que ele vinha usando em edições anteriores: um problema clássico em circunscrever o maior triângulo equilátero, sobre um determinado triângulo que Thomas Moss havia colocado no The Ladies’ Diaries em 1754, na solução pela qual William Bevil, no ano seguinte, poderíamos facilmente reconhecer o germe do Teorema de Napoleão — os dois resultados então correm juntos, indo e voltando pelo menos nos próximos cem anos nas páginas problemáticas dos almanaques populares: quando Honsberger propôs em Matemática Gemas, em 1973, o que ele pensava ser uma novidade própria, ele estava na verdade recapitulando parte dessa literatura vasta, embora informal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Paul Erdős",
+      "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O húngaro Paul Erdős chamava as crianças pelo nome de que letra grega, usada pelos matemáticos para quantidades bem pequenas?",
+    "resposta": "Épsilon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "situacao": "ok",
+        "texto": "Paul Erdős (Hungarian: Erdős Pál [ˈɛrdøːʃ ˈpaːl]; 26 March 1913 – 20 September 1996) was a Hungarian mathematician. He was one of the most prolific mathematicians and producers of mathematical conjectures of the 20th century. Erdős pursued and proposed problems in discrete mathematics, graph theory, number theory, mathematical analysis, approximation theory, set theory, and probability theory.\n[…]\nPaul Erdős was born on 26 March 1913, in Budapest, Austria-Hungary, the only surviving child of Anna (née Wilhelm) and Lajos Erdős (né Engländer). His two sisters, aged three and five, both died of scarlet fever a few days before he was born. He was born to a well-to-do Hungarian-Jewish family, both of his parents worked as high school mathematics teachers. His fascination with mathematics developed early.\n[…]\nErdős's doctoral students included:\n[…]\nChildren were referred to as \"epsilons\", because in mathematics, particularly calculus, an arbitrarily small positive quantity is commonly denoted by the Greek letter (ε).\n[…]\nList of topics named after Paul Erdős – including conjectures, numbers, prizes, and theorems\n[…]\nSchechter, Bruce (1998). My Brain is Open: The Mathematical Journeys of Paul Erdős. New York: Simon & Schuster. ISBN 978-0-684-84635-4.\n[…]\nBollobás, Béla (December 1996). \"A Life of Mathematics – Paul Erdos, 1913-1996\" (PDF). Focus. 16 (6). Washington, D.C.: Mathematical Association of America: 4. Retrieved 6 May 2022.\n[…]\nHoffman, Paul (1998). The Man Who Loved Only Numbers: The Story of Paul Erdős and the Search for Mathematical Truth. London: Fourth Estate Ltd. ISBN 978-1-85702-811-9.\n[…]\nPaul Erdős publications indexed by Google Scholar\n[…]\nPaul Erdős at the Mathematics Genealogy Project\n[…]\nThe Man Who Loved Only Numbers, public lecture by  Paul Hoffman\n[…]\n\"Open problems of Paul Erdős in graph theory\" by Fan Chung\n[…]\nMelvyn Bragg, Colva Roney-Dougal,  Timothy Gowers, Andrew Treglown, Paul Erdős   In Our Time"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "situacao": "ok",
+        "texto": "Paul Erdős (em húngaro:  Erdős Pál; Budapeste, 26 de março de 1913 — Varsóvia, 20 de setembro de 1996) foi um matemático húngaro, considerado um gênio. Extremamente prolífico e de notável excentricidade, publicou 1475 artigos, alguns de extrema importância, o que é um número superior a qualquer outro matemático na história, trabalhando com centenas de colaboradores.\n[…]\nPaul Erdős nasceu na capital da Hungria, numa família de origem judaica, mas não praticante. Erdős era filho único. Os pais tiveram mais duas filhas, mas elas morreram de escarlatina alguns dias antes de Paul nascer. Os pais eram professores de matemática, e Erdős demonstrou desde cedo a aptidão para a atividade matemática; aos quatro anos conseguiu descobrir sozinho algumas propriedades dos números primos.\n[…]\nEm 1914, o pai, Lajos, foi capturado pelos russos num ataque às tropas do Império Austro-Húngaro, e passou seis anos na Sibéria como prisioneiro. A mãe, Anna, excessivamente protetora por causa da perda das filhas, manteve Paul longe da escola durante a maior parte dos primeiros anos e foi contratado um professor para o ensinar em casa. Em 1920 Lajos Erdős voltou do cativeiro e continuou a educação do filho em matemática e inglês.\n[…]\nErdős usava o termo \"partir\" para pessoas que tinham morrido, e o termo \"morrer\" para pessoas que tinham parado de fazer matemática. Ele chamava as crianças de \"épsilons\" e gostava delas.\n[…]\nÉpsilon: Criança\n[…]\nÉpsilon ao quadrado: Neto\n[…]\nPaul Erdős é abordado nos seguintes livros:\n[…]\nO'Connor, John J.; Robertson, Edmund F., «Paul Erdős», MacTutor History of Mathematics archive (em inglês), Universidade de St. Andrews\n[…]\nPaul Erdős (em inglês) no Mathematics Genealogy Project\n[…]\nhttp://www.untruth.org/~josh/math/Paul%20Erd%f6s%20bio-rev2.pdf%7C Paul Erdős Mathematical Genius, Human (In That Order) (artigo de 2004 sobre Erdős)\n[…]\n«Collected Papers of Paul Erdõs» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Número e",
+      "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1683, o suíço Jacob Bernoulli chegou à constante que hoje chamamos de número e ao estudar que assunto financeiro?",
+    "resposta": "Juros compostos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/E_(mathematical_constant)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
+        "situacao": "ok",
+        "texto": "The number e is a mathematical constant that is the base of the natural logarithm and exponential function. It is approximately equal to\n[…]\nThe constant is sometimes called Euler's number, after the Swiss mathematician Leonhard Euler, though this can invite confusion with other numbers named after Euler. Alternatively, e can be called Napier's constant after John Napier. The Swiss mathematician Jacob Bernoulli introduced the constant while studying compound interest.\n[…]\nThe constant itself was introduced by Jacob Bernoulli in 1683, for solving the problem of continuous compounding of interest.\n[…]\nLeonhard Euler started to use the letter e for the constant in 1727 or 1728, in an unpublished paper on explosive forces in cannons, and in a letter to Christian Goldbach on 25 November 1731. The first appearance of e in a printed publication was in Euler's Mechanica (1736). It is unknown why Euler chose the letter e. Although some researchers used the letter c in the subsequent years, the letter e was more common and eventually became standard.\n[…]\nJacob Bernoulli discovered this constant in 1683, while studying a question about compound interest:\n[…]\nAnother application of e, also discovered in part by Jacob Bernoulli along with Pierre Remond de Montmort, is in the problem of derangements, also known as the hat check problem: n guests are invited to a party and, at the door, the guests all check their hats with the butler, who in turn places the hats into n boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so puts the hats into boxes selected at random.\n[…]\nThe constant"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/E_%28constante_matem%C3%A1tica%29",
+        "situacao": "ok",
+        "texto": "O número e é uma constante matemática, aproximadamente igual a 2,71828, que é a base dos logaritmos naturais. Pode ser definido de diversas maneiras, como o limite de uma sequência, uma soma infinita, entre outras definições. O número e também é chamado de número de Euler, nomeado em homenagem ao matemático suíço Leonhard Euler, porém este nome pode levar a confusão com os números de Euler, ou a c\n[…]\nAlternativamente, e pode ser chamada de constante de Neper, em homenagem a John Napier. A constante foi descoberta pelo matemático suíço Jacob Bernoulli enquanto estudava juros compostos.\n[…]\nsendo essa expressão oriunda da análise de juros compostos.\n[…]\nA constante em si foi introduzida por Jacob Bernoulli em 1683, para resolver problemas de juros continuamente compostos. Em sua solução, a constante e ocorre como o limite\n[…]\nem que n representa o número de intervalos em um ano em que o juro composto é calculado (por exemplo, n = 12 para juros compostos mensalmente).\n[…]\nJacob Bernoulli descobriu esta constante em 1683, enquanto estudava uma questão sobre juros compostos:\n[…]\nSe os juros forem creditados duas vezes ao ano, os juros a cada seis meses serão de 50%; então o um dólar inicial será multiplicado por 1,5 duas vezes, rendendo $ 1,00 × 1,52 = $ 2,25 no fim do ano. Se forem considerados rendimentos trimestrais, renderão $ 1,00 × 1,254 = $ 2,44140625 e, mensalmente, $ 1,00 × (1 + 1/12)12 = $ 2,613035... Se há n intervalos compostos, os juros de cada intervalo serão 100%/n e o valor no fim do ano será $ 1,00 × (1 + 1/n)n.\n[…]\nDe maneira mais geral, uma conta que começa com um dólar e oferece uma taxa de juros anual de R, após t anos, resultará em eRt dólares com capitalização contínua. Aqui, R é a equivalência decimal da taxa de juros expressa em porcentagem, de modo que, para 5% de juros, R = 5/100 = 0,05.\n[…]\nPrimeiros usos de símbolos para constantes (em inglês) 13 de janeiro de 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Geometria",
+      "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo o historiador grego Heródoto, a geometria nasceu no Egito da necessidade de remarcar os terrenos depois de que fenômeno anual?",
+    "resposta": "As cheias do Nilo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_geometry",
+      "https://en.wikipedia.org/wiki/Geometry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_geometry",
+        "situacao": "ok",
+        "texto": "Geometry (from the Ancient Greek: γεωμετρία; geo- \"earth\", -metron \"measurement\") arose as the field of knowledge dealing with spatial relationships. Geometry was one of the two fields of pre-modern mathematics, the other being the study of numbers (arithmetic).\n[…]\nIn the early 17th century, there were two important developments in geometry. The first and most important was the creation of analytic geometry, or geometry with coordinates and equations, by René Descartes (1596–1650) and Pierre de Fermat (1601–1665). This was a necessary precursor to the development of calculus and a precise quantitative science of physics. The second geometric development of this period was the systematic study of projective geometry by Girard Desargues (1591–1661).\n[…]\nTimeline of geometry – Notable events in the history of geometry\n[…]\nHistory of Euclidean geometry\n[…]\nHistory of non-Euclidean geometry\n[…]\nHistory of measurement\n[…]\nHistory of space (mathematics)\n[…]\nImportant publications in geometry\n[…]\nInteractive geometry software\n[…]\nList of geometry topics\n[…]\nModern triangle geometry\n[…]\nCooke, Roger (2005), The History of Mathematics, New York: Wiley-Interscience, 632 pages, ISBN 978-0-471-44459-6\n[…]\nHayashi, Takao (2003), \"Indian Mathematics\", in Grattan-Guinness, Ivor (ed.), Companion Encyclopedia of the History and Philosophy of the Mathematical Sciences, vol. 1, Baltimore, MD: The Johns Hopkins University Press, 976 pages, pp. 118–130, ISBN 978-0-8018-7396-6\n[…]\nStaal, Frits (1999), \"Greek and Vedic Geometry\", Journal of Indian Philosophy, 27 (1–2): 105–127, doi:10.1023/A:1004364417713, S2CID 170894641\n[…]\nStillwell, John (2004), Berlin and New York: Mathematics and its History (2 ed.), Springer, 568 pages, ISBN 978-0-387-95336-6\n[…]\nGeometry in the 19th Century at the Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Geometry",
+        "situacao": "ok",
+        "texto": "Geometry is a branch of mathematics concerned with properties of space such as the distance, shape, size, and relative position of figures. Geometry is, along with arithmetic, one of the oldest branches of mathematics. A mathematician who works in the field of geometry is called a geometer. Until the 19th century, geometry was almost exclusively devoted to Euclidean geometry, which includes the no\n[…]\nIn the early 17th century, there were two important developments in geometry. The first was the creation of analytic geometry, or geometry with coordinates and equations, by René Descartes (1596–1650) and Pierre de Fermat (1601–1665). This was a necessary precursor to the development of calculus and a precise quantitative science of physics. The second geometric development of this period was the systematic study of projective geometry by Girard Desargues (1591–1661).\n[…]\nComputational geometry deals with algorithms and their implementations for manipulating geometrical objects. Important problems historically have included the travelling salesman problem, minimum spanning trees, hidden-line removal, and linear programming.\n[…]\nTilings, or tessellations, have been used in art throughout history. Islamic art makes frequent use of tessellations, as did the art of M. C. Escher. Escher's work also made use of hyperbolic geometry.\n[…]\nThe field of astronomy, especially as it relates to mapping the positions of stars and planets on the celestial sphere and describing the relationship between movements of celestial bodies, have served as an important source of geometric problems throughout history.\n[…]\nMolecular geometry\n[…]\nThe Mathematical Atlas – Geometric Areas of Mathematics\n[…]\nFinitism in Geometry at the Stanford Encyclopedia of Philosophy\n[…]\nThe Geometry Junkyard\n[…]\nInteractive geometry reference with hundreds of applets\n[…]\nDynamic Geometry Sketches (with some Student Explorations)\n[…]\nGeometry classes at Khan Academy"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_geometria",
+        "situacao": "ok",
+        "texto": "Geometria (do grego antigo: γεωμετρία; geo- \"terra\", -metron \"medição\") surgiu como o campo do conhecimento lidando com as relações espaciais. A geometria era um dos dois campos da matemática pré-modernas, o outro sendo o estudo dos números (aritmética).\n[…]\nGeometria primitiva era uma coleção de princípios empiricamente descobertos em matéria de comprimentos, ângulos, áreas e volumes, que foram desenvolvidos para satisfazer alguma necessidade prática em agrimensura, construção, astronomia e vários ofícios. Entre estes estavam alguns princípios surpreendentemente sofisticados, e a um matemático moderno pode ser difícil derivar alguns deles sem o uso de cálculo.\n[…]\nPara os antigos matemáticos gregos, a geometria era a jóia da coroa de suas ciências, atingindo uma completa e perfeita de metodologia que nenhum outro ramo do seu conhecimento tinha alcançado.\n[…]\nTales (635-543 aC), de Mileto (agora no sudoeste da Turquia), foi o primeiro a quem é atribuída a dedução na matemática. Há cinco proposições geométricas para as quais ele escreveu demonstrações dedutivas, embora suas demonstrações não tenham sobrevivido. Pitágoras (582-496 aC) da Jônia, e mais tarde, na Itália, em seguida, colonizada por gregos, pode ter sido um aluno de Tales, e viajou pela Babilônia e Egito.\n[…]\nO tratado não é um compêndio de tudo o que os matemáticos helênicos sabiam na época sobre a geometria; Euclides mesmo escreveu oito livros mais avançados sobre a geometria. Sabemos de outras referências que Euclides não foi autor do primeiro livro de geometria elementar, mas foi muito superior que os outros que caíram em desuso e foram perdidos. Ele foi trazido para a universidade em Alexandria por Ptolomeu I, rei do Egito.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Teoria das probabilidades",
+      "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A teoria das probabilidades nasceu de uma dúvida de apostador: num jogo de azar interrompido antes do fim, como dividir o quê?",
+    "resposta": "As apostas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Problem_of_points"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Problem_of_points",
+        "situacao": "ok",
+        "texto": "The problem of points, also called the problem of division of the stakes, is a classical problem in probability theory. One of the famous problems that motivated the beginnings of modern probability theory in the 17th century, it led Blaise Pascal to the first explicit reasoning about what today is known as an expected value.\n[…]\nInstead of just considering the probability of winning the entire remaining game, Pascal devised a principle of smaller steps: Suppose that the players had been able to play just one more round before being interrupted, and that we already had decided how to fairly divide the stakes after that one more round (possibly because that round lets one of the players win).\n[…]\nShortly after, this idea would become a basis for the first systematic treatise on probability De Ratiociniis in Ludo Aleae in 1657, by Christiaan Huygens. Huygens discussed a variant of the problem of points now known as the gambler's ruin problem. Later the modern concept of probability grew out of the use of expectation values by Pascal and Huygens.\n[…]\nThe problem of dividing the stakes became a major motivating example for Pascal in his 1665 Treatise on the arithmetic triangle.\n[…]\nIf one also wishes to know the time structure of playing the game to conclusion, a similar formula can be applied to determine the probability of each terminal hypothesis: that either a or b declares final victory on additional round n.\n[…]\nFurther generalizations, such as a and b having distinct and complementary probabilities of\n[…]\nAnders Hald: A history of Probability and Statistics and their Applications before 1750. Wiley 2003, ISBN 978-0-471-47129-5, p. 35, 54\n[…]\nThe Early Development of Mathematical Probability\n[…]\nA very accessible explanation of the problem of points from A Blog on Probability and Statistics."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Congresso Internacional de Matemáticos de 2018",
+      "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Congresso Internacional de Matemáticos de 2018, o curdo iraniano Caucher Birkar perdeu sua Medalha Fields minutos depois de recebê-la. O que aconteceu?",
+    "resposta": "Ela foi roubada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caucher_Birkar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Caucher_Birkar",
+        "situacao": "ok",
+        "texto": "Caucher Birkar  (Kurdish: کۆچەر بیرکار, romanized: Koçer Bîrkar, lit. 'migrant mathematician'; born Fereydoun Derakhshani (Kurdish: فەرەیدوون درەخشانی، Persian: فریدون درخشانی); July 1978) is a UK-based Iranian Kurdish and British  mathematician (born in Iran) and a professor at Tsinghua University. He is also an Honorary Professor at the University of Nottingham.\n[…]\nBirkar is an important contributor to modern birational geometry. In 2010 he received the Leverhulme Prize in mathematics and statistics for his contributions to algebraic geometry, and in 2016, shared the AMS Moore Prize for the article \"Existence of minimal models for varieties of log general type\". He was awarded the Fields Medal in 2018, \"for his proof of boundedness of Fano varieties and contributions to the minimal model program\".\n[…]\nIn more recent work, Birkar studied Fano varieties and singularities of linear systems. He has solved several fundamental problems such as Shokurov's conjecture on boundedness of complements, and the Borisov–Alexeev–Borisov conjecture on boundedness of Fano varieties. In 2018, Birkar was given the Fields Medal for his work on Fano varieties and other contributions to the minimal model problem.\n[…]\nIn a video made available by the Simons Foundation, Birkar expressed hope that his Fields Medal will put \"just a little smile on the lips\" of the world's estimated 40 million Kurds. Birkar's Fields Medal was stolen on the same day it was awarded to him. In a special ceremony at ICM 2018, Birkar was presented with a replacement medal, leading to quips he was the first person to receive the Fields Medal twice.\n[…]\nBirkar is also active in the field of birational geometry over fields of positive characteristic. His work together with work of Hacon-Xu nearly completes the minimal model program for 3-folds over fields of characteristic at least 7.\n[…]\n2018 Fields Medal"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caucher_Birkar",
+        "situacao": "ok",
+        "texto": "Caucher Birkar (em curdo:  کۆچەر بیرکار; Marivan, Curdistão, Irã, 1978) é um matemático curdo iraniano e cidadão britânico. É professor da Universidade de Cambridge. Birkar é um dos principais contribuidores para a moderna geometria birracional. Recebeu o Prêmio Philip Leverhulme de 2010 em matemática e estatística por suas contribuições à geometria algébrica.\n[…]\nRecebeu no dia 1 de agosto uma Medalha Fields de 2018, na cidade do Rio de Janeiro, Brasil. Entretanto, a medalha foi roubada depois de meia hora após a premiação. No dia 4 de agosto ele recebeu uma nova medalha.\n[…]\nEm outro trabalho, Birkar estudou variedades de Fano e singularidades de sistemas lineares. Ele provou vários problemas fundamentais, como a conjectura de Shokurov sobre a delimitação dos complementos e a conjectura de Borisov-Alexeev-Borisov sobre a delimitação das variedades Fano. Em 2018, Birkar recebeu a Medalha Fields por suas variedades Fano e suas outras contribuições para o problema do modelo mínimo.\n[…]\nEm um vídeo disponibilizado pela Fundação Simons, Birkar expressou esperança de que sua Medalha Fields coloque \"apenas um pequeno sorriso nos lábios\" dos estimados 40 milhões de curdos do mundo. A Medalha Fields de Birkar foi roubada no mesmo dia em que foi concedida a ele. Em cerimônia especial no ICM 2018, Birkar foi presenteado com uma medalha de reposição.\n[…]\nBirkar também atua no campo da geometria birracional em campos de características positivas. Seu trabalho junto com o trabalho de Hacon-Xu quase completa o programa do modelo mínimo para campos de três dobras sobre as características de pelo menos 7.\n[…]\nPrêmio Whitehead 2018\n[…]\nMedalha Fields 2018\n[…]\nBirational geometry of algebraic varieties, ICM 2018\n[…]\nCaucher Birkar (em inglês) no Mathematics Genealogy Project\n[…]\nBirkar on Journalogy",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Sequência de Fibonacci",
+      "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Liber Abaci, a sequência de Fibonacci aparece num problema sobre a reprodução de que animal?",
+    "resposta": "Coelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+      "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+        "situacao": "ok",
+        "texto": "In mathematics, the Fibonacci sequence is a sequence in which each element is the sum of the two elements that precede it. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted Fn . The initial elements of the sequence are F1 = 1 and F2 = 1, though many authors also include a zeroth element F0 = 0. Starting from F0, the sequence begins\n[…]\nThe Fibonacci numbers were first described in Indian mathematics as early as 200 BC in work by Pingala on enumerating possible patterns of Sanskrit poetry formed from syllables of two lengths. They are named after the Italian mathematician Leonardo of Pisa, also known as Fibonacci, who introduced the sequence to Western European mathematics in his 1202 book Liber Abaci.\n[…]\nThe Fibonacci sequence first appears in the book Liber Abaci (The Book of Calculation, 1202) by Fibonacci, where it is used to calculate the growth of rabbit populations.\n[…]\nBrasch et al. 2012 show how a generalized Fibonacci sequence also can be connected to the field of economics. In particular, it is shown how a generalized Fibonacci sequence enters the control function of finite-horizon dynamic optimisation problems with one state and one control variable. The procedure is illustrated in an example often referred to as the Brock–Mirman economic growth model.\n[…]\nSigler, L. E. (2002), Fibonacci's Liber Abaci: A Translation into Modern English of Leonardo Pisano's Book of Calculation, Sources and Studies in the History of Mathematics and Physical Sciences, Springer, ISBN 978-0-387-95419-6\n[…]\nFibonacci Sequence and Golden Ratio: Mathematics in the Modern World - Mathuklasan with Sir Ram on YouTube - animation of sequence, spiral, golden ratio, rabbit pair growth. Examples in art, music, architecture, nature, and astronomy\n[…]\nPeriods of Fibonacci Sequences Mod m at MathPages\n[…]\nFibonacci Sequence on In Our Time at the BBC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci",
+        "situacao": "ok",
+        "texto": "Na matemática, a sucessão de Fibonacci (ou sequência de Fibonacci), é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual cada termo subsequente  corresponde à soma dos dois anteriores. A sequência recebeu o nome do matemático italiano Leonardo de Pisa ou Leonardo Fibonacci, mais conhecido por apenas Fibonacci, que descreveu, no ano de 1202, o crescimento de uma população d\n[…]\nNo ocidente, a sequência de Fibonacci apareceu pela primeira vez no livro Liber Abaci (1202) de Leonardo Fibonacci, embora ela já tivesse sido descrita por gregos e indianos. Fibonacci considerou o crescimento de uma população idealizada (não realista biologicamente) de coelhos. Os números descrevem o número de casais na população de coelhos depois de n meses se for suposto que:\n[…]\nCom esta fórmula podemos montar a sequência de Fibonacci e descobrir, por exemplo, quantos coelhos foram gerados no sexto mês, basta aplicar a fórmula descrita acima até chegar ao ponto inicial de 1 e 1, como mostra a figura abaixo:\n[…]\nOu seja, no sexto mês foram gerados 8 coelhos.\n[…]\nPara resolver o problema inverso, ou seja, qual a posição que um dado número de Fibonacci ocupa na sequência, existe a função inversa da fórmula de Binet:\n[…]\nos números\n[…]\n\"Bougie\", que significa \"vela\" em francês), importante exportadora de cera na época de Leonardo de Pisa, sugeriu ele, fez o que realmente a abelha-produtores de Bugia e o conhecimento das linhagens de abelhas que inspirou os números da seqüência de Fibonacci, em vez de o modelo de reprodução de coelhos.\n[…]\nUm repfigit ou número de Keith é um número inteiro, superior a 9, tal que os seus dígitos, ao começar uma sequência de Fibonacci, alcançam posteriormente o referido número. Um exemplo é 47, porque a sequência de Fibonacci que começa com 4 e 7 (4, 7, 11, 18, 29, 47) alcança o 47.\n[…]\ntermos. Se o número N aparece na sequência\n[…]\n«O número de ouro e a sequência de Fibonacci». UFF"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Paradoxo do aniversário",
+      "descricao": "Resultado de probabilidade segundo o qual, num grupo pequeno de pessoas, já é provável que duas façam aniversário no mesmo dia."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantas pessoas bastam numa sala para que a chance de duas delas fazerem aniversário no mesmo dia passe de cinquenta por cento?",
+    "resposta": "Vinte e três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Birthday_problem"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Birthday_problem",
+        "situacao": "ok",
+        "texto": "In probability theory, the birthday problem asks for the probability that, in a set of n randomly chosen people, at least two will share the same birthday. The birthday paradox is the counterintuitive fact that only 23 people are needed for that probability to exceed 50%.\n[…]\nThe strong birthday problem asks for the number of people that need to be gathered together before there is a 50% chance that everyone in the gathering shares their birthday with at least one other person. For d=365 days the answer is 3,064 people.\n[…]\nThe birthday problem can be generalized as follows:\n[…]\nArthur C. Clarke's 1961 novel A Fall of Moondust contains a section where the main characters, trapped underground for an indefinite amount of time, are celebrating a birthday and find themselves discussing the validity of the birthday problem.\n[…]\nBloom, D. (1973). \"A Birthday Problem\". American Mathematical Monthly. 80 (10): 1141–1142. doi:10.2307/2318556. JSTOR 2318556.\n[…]\nMcKinney, E. H. (1966). \"Generalized Birthday Problem\". American Mathematical Monthly. 73 (5): 385–387. doi:10.2307/2315408. JSTOR 2315408.\n[…]\nMosteller, F. (1962). \"Understanding the Birthday Problem\". The Mathematics Teacher. 55 (5): 322–325. doi:10.5951/MT.55.5.0322. JSTOR 27956609. Reprinted in  Mosteller, Frederick (2006). \"Understanding the Birthday Problem\". Selected Papers of Frederick Mosteller. Springer Series in Statistics. pp. 349–353. doi:10.1007/978-0-387-44956-2_21. ISBN 978-0-387-20271-6.\n[…]\nThe Birthday Paradox accounting for leap year birthdays\n[…]\nWeisstein, Eric W. \"Birthday Problem\". MathWorld.\n[…]\nUnderstanding the Birthday Problem (Better Explained)\n[…]\nEurobirthdays 2012. A birthday problem. A practical football example of the birthday paradox.\n[…]\nComputing the probabilities of the Birthday Problem at WolframAlpha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paradoxo_do_anivers%C3%A1rio",
+        "situacao": "ok",
+        "texto": "Em teoria das probabilidades, o paradoxo do aniversário afirma que dado um grupo de 23 pessoas escolhidas aleatoriamente, a chance de que duas pessoas terão a mesma data de aniversário é de mais de 50%. Para 57 ou mais pessoas, a probabilidade é maior do que 99%, entretanto, ela não pode ser exatamente 100% exceto que se tenha pelo menos 367 pessoas. Calcular essa probabilidade (e as relacionadas \n[…]\nPara calcular aproximadamente a probabilidade de que em uma sala com n pessoas, pelo menos duas possuam o mesmo aniversário, desprezamos variações na distribuição, tais como anos bissextos, gêmeos, variações sazonais ou semanais, e assumimos que 365 possíveis aniversários são todos igualmente prováveis. Distribuições de aniversários na realidade não são uniformes uma vez que as datas não são equiprováveis.\n[…]\nporque a segunda pessoa não pode ter o mesmo aniversário do que o primeiro (364/365), o terceiro não pode ter o mesmo aniversário do que o segundo (363/365), etc.\n[…]\nO evento de pelo menos duas pessoas entre n terem o mesmo aniversário é o complementar de todos n serem diferentes. Consequentemente, sua probabilidade p(n) é\n[…]\nProblema do colecionador de cupons\n[…]\nD. Bloom: \"A birthday problem\", American Mathematical Monthly 80 (1973), pages 1141-1142. This problem solution contains a proof that the probability of two matching birthdays is least for a uniform distribution of birthdays.\n[…]\nUm experimento online demonstrando o paradoxo do aniversário do utilizadores\n[…]\nSolução completa para a para 2, 3, e uma generalização para n aniversários coincidentes\n[…]\nThe Birthday Paradox\n[…]\nhttp://planetmath.org/encyclopedia/BirthdayProblem.html\n[…]\nEric W. Weisstein, Birthday Problem no MathWorld\n[…]\nMaple vs. paradoxo do aniversário\n[…]\nProbability by Surprise Birthday Applet An animation for simulating the birthday paradox.\n[…]\nA humorous article explaining the paradox\n[…]\nThe Birthday Problem Spreadsheet",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Carl Friedrich Gauss",
+      "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Aos dezenove anos, Gauss mostrou como construir só com régua e compasso um polígono regular que os gregos não sabiam fazer. Quantos lados ele tem?",
+    "resposta": "Dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heptadecagon",
+      "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Heptadecagon",
+        "situacao": "ok",
+        "texto": "In geometry, a heptadecagon, septadecagon or 17-gon is a seventeen-sided polygon.\n[…]\nAs 17 is a Fermat prime, the regular heptadecagon is a constructible polygon (that is, one that can be constructed using a compass and unmarked straightedge): this was shown by Carl Friedrich Gauss in 1796. This proof represented the first progress in regular polygon construction in over 2000 years.\n[…]\n. Constructing a regular heptadecagon thus involves finding the cosine of\n[…]\nConstructions for the regular triangle, pentagon, pentadecagon, and polygons with 2h times as many sides had been given by Euclid, but constructions based on the Fermat primes other than 3 and 5 were unknown to the ancients. (The only known Fermat primes are Fn for n = 0, 1, 2, 3, 4. They are 3, 5, 17, 257, and 65537.)\n[…]\nThe explicit construction of a heptadecagon was given by Herbert William Richmond in 1893. The following method of construction uses Carlyle circles, as shown below. Based on the construction of the regular 17-gon, one can readily construct n-gons with n being the product of 17 with 3 or 5 (or both) and any power of 2: a regular 51-gon, 85-gon or 255-gon and any regular n-gon with 2h times as many sides.\n[…]\nAnother construction of the regular heptadecagon using straightedge and compass is the following:\n[…]\nTo construct a regular polygon of seventeen sides in a circle:\n[…]\nKlein, Felix et al. Famous Problems and Other Monographs. – Describes the algebraic aspect, by Gauss.\n[…]\nWeisstein, Eric W. \"Heptadecagon\". MathWorld. Contains a description of the construction.\n[…]\n\"Constructing the Heptadecagon\". MathPages.com."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+        "situacao": "ok",
+        "texto": "Johann Carl Friedrich Gauss ( ; German: Gauß; 30 April 1777 – 23 February 1855) was a German mathematician, astronomer, geodesist, and physicist, who contributed to many fields in mathematics and science. His mathematical contributions spanned the branches of number theory, algebra, analysis, geometry, statistics, and probability. Gauss was director of the Göttingen Observatory in Germany and prof\n[…]\nHe was likely a self-taught student in mathematics since he independently rediscovered several theorems. He solved a geometrical problem that had occupied mathematicians since the Ancient Greeks when he determined in 1796 which regular polygons can be constructed by compass and straightedge. This discovery ultimately led Gauss to choose mathematics instead of philology as a career.\n[…]\nIn the last section, Gauss gives proof for the constructibility of a regular heptadecagon (17-sided polygon) with straightedge and compass by reducing this geometrical problem to an algebraic one. This was the first progress in regular polygon construction in over 2000 years. He shows that a regular polygon is constructible if the number of its sides is either a power of 2 or the product of a power of 2 and any number of distinct Fermat primes.\n[…]\nList of things named after Carl Friedrich Gauss\n[…]\nCunningham, Clifford (2004). \"Discovery of the Missing Correspondence between Carl Friedrich Gauss and the Rev. Nevil Maskelyne (1802–05)\". Annals of Science. 61 (4): 469–481. doi:10.1080/00033790310001660164.\n[…]\nThe Göttingen Academy of Sciences and Humanities provides a complete collection of the known letters from and to Carl Friedrich Gauss that is accessible online. The literary estate is kept and provided by the Göttingen State and University Library. Written materials from Carl Friedrich Gauss and family members can also be found in the municipal archive of Brunswick."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Heptadec%C3%A1gono",
+        "situacao": "ok",
+        "texto": "Heptadecágono é um polígono de dezessete (17) lados. O heptadecágono regular é um polígono construtível, foi Gauss quem desenvolveu o processo exato com régua e compasso para a divisão da circunferência em 17 partes iguais.\n[…]\nOs heptádecágonos regulares possuem um número determinado de diagonais, ângulos internos e ângulos externos.\n[…]\nCarl Friedrich Gauss (1777-1855) demonstrou que o polígono regular de dezessete lados é construtível, isto é, pode ser desenhado, em princípio exatamente, apenas com régua e compasso. A figura abaixo demonstra o processo descrito pelo próprio Gauss para a construção do heptadecágono.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Pi",
+      "descricao": "Constante matemática igual à razão entre a circunferência e o diâmetro de um círculo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+    "resposta": "Três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Molten_Sea",
+      "https://en.wikipedia.org/wiki/Approximations_of_%CF%80"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Molten_Sea",
+        "situacao": "ok",
+        "texto": "The Molten Sea or Brazen Sea (ים מוצק yām mūṣāq \"cast metal sea\") was a large basin in the Temple in Jerusalem made by Solomon for ablution of the priests. It is described in 1 Kings 7:23–26 and 2 Chronicles 4:2–5. It stood in the south-eastern corner of the inner court. According to the Bible it was five cubits high, ten cubits in diameter from brim to brim, and thirty cubits in circumference.\n[…]\nThis platform is literally described by the Masoretic Text as a laver (Hebrew: kiyyor), and as with the Priestly Code's laver, there is only one platform, and it is placed in the centre of the outer court. The Septuagint calls it a base, and the size of the brazen platform is the same as that of each base for the ten brazen lavers.\n[…]\nIt must be remembered that all direct and plain references to baptism have been deleted from the Old Testament (1 Nephi 13) and that the word baptize is of Greek origin. Some equivalent word, such as wash, would have been used by the Hebrew peoples. In describing the molten sea the Old Testament record says, \"The sea was for the priests to wash in.\" (2 Chron 4:2–6). This is tantamount to saying that the priests performed baptisms in it.\n[…]\nThe biblical description that the bowl has a diameter of 10 cubits and a circumference of 30 cubits suggest that in the construction of the basin, π was approximated with the integer value 3. This is consistent with the practice in Babylonian mathematics at the time (6th century BC), but it has given rise to debate within rabbinical Judaism from an early period due to the concern that the biblical text might here be inaccurate.\n[…]\nTaking a cubit to be about 18 inches (46 cm) and a handbreadth to be about 4 inches (10 cm), the ratio of the described dimensions of the bowl differs from π by less than 1%."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Approximations_of_%CF%80",
+        "situacao": "ok",
+        "texto": "Approximations for the mathematical constant pi (π) in the history of mathematics reached an accuracy within 0.04% of the true value before the beginning of the Common Era. In Chinese mathematics, this was improved to approximations correct to what corresponds to about seven decimal digits by the 5th century.\n[…]\nMany reconstructions of the basin show a wider brim (or flared lip) extending outward from the bowl itself by several inches to match the description given in NRSV In the succeeding verses, the rim is described as \"a handbreadth thick; and the brim thereof was wrought like the brim of a cup, like the flower of a lily: it received and held three thousand baths\" NRSV, which suggests a shape that can be encompassed with a string shorter than the total length of the brim, e.g., a Lilium flower or a Teacup.\n[…]\nHe then shows how to calculate the perimeters of regular polygons of twice as many sides that are inscribed and circumscribed about the same circle. This is a recursive procedure which would be described today as follows: Let pk and Pk denote the perimeters of regular polygons of k sides that are inscribed and circumscribed about the same circle, respectively. Then,\n[…]\nThis is from Ramanujan, who allegedly claimed the Goddess of Namagiri appeared to him in a dream and told him the true value of π. On the other hand, he also describes a method for obtaining this approximation through a clever geometric construction."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Euclides",
+      "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, Euclides disse a um rei do Egito que não existe caminho real para aprender geometria. Que rei era esse?",
+    "resposta": "Ptolomeu I",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euclid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Euclid",
+        "situacao": "ok",
+        "texto": "Euclid (; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century.\n[…]\nThere are also numerous anecdotal stories concerning to Euclid, all of uncertain historicity, which \"picture him as a kindly and gentle old man\". The best known of these is Proclus' story about Ptolemy asking Euclid if there was a quicker path to learning geometry than reading his Elements, which Euclid replied with \"there is no royal road to geometry\". This anecdote is questionable since a very similar interaction between Menaechmus and Alexander the Great is recorded from Stobaeus.\n[…]\nThe Conics (Ancient Greek: Κωνικά) was a four-book survey on conic sections, which was later superseded by Apollonius' more comprehensive treatment of the same name. The work's existence is known primarily from Pappus, who asserts that the first four books of Apollonius' Conics are largely based on Euclid's earlier work. Doubt has been cast on this assertion by the historian Alexander Jones, owing to sparse evidence and no other corroboration of Pappus' account.\n[…]\nEuclid is generally considered with Archimedes and Apollonius of Perga as among the greatest mathematicians of antiquity. Many commentators cite him as one of the most influential figures in the history of mathematics. The geometrical system established by the Elements long dominated the field; however, today that system is often referred to as 'Euclidean geometry' to distinguish it from other non-Euclidean geometries discovered in the early 19th century.\n[…]\nScans of Johan Heiberg's edition of Euclid at wilbourhall.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Euclides",
+        "situacao": "ok",
+        "texto": "Euclides de Alexandria (em grego antigo, Εὐκλείδης, Eukleídes; ativo por volta de 300 a.C.) foi um matemático da Grécia Antiga que trabalhou como geômetra e lógico. Chamado de \"pai da geometria\", é conhecido sobretudo pelo tratado Os Elementos, que estabeleceu as bases da geometria predominantes na área até o início do século XIX.\n[…]\nDe todo modo, a obra de Euclides mostra familiaridade com a geometria de tradição platônica.\n[…]\nHá ainda muitas anedotas sobre Euclides, todas de historicidade incerta, que o retratam como um velho bondoso e gentil. Na mais conhecida, relatada por Proclo, Ptolemeu perguntou se haveria um caminho mais rápido para aprender geometria do que ler Os Elementos. Euclides teria respondido: \"Não há estrada real para a geometria\". A história é questionável, pois Estobeu conta uma conversa muito semelhante entre Menecmo e Alexandre, o Grande.\n[…]\nO livro VIII aborda progressões geométricas, enquanto o IX contém a proposição hoje chamada teorema de Euclides, segundo a qual há infinitos números primos. O livro X, muito maior e mais difícil que os demais, trata das grandezas irracionais.\n[…]\nA primeira tradução inglesa de Os Elementos foi publicada em 1570 por Henry Billingsley, com um prefácio de John Dee. Em 1847, Oliver Byrne publicou uma edição intitulada The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners. Seus diagramas coloridos buscavam facilitar o aprendizado. David Hilbert elaborou uma axiomatização moderna da geometria apresentada por Euclides. A poeta Edna St.\n[…]\nJones, Alexander (2005). «Euclid, the Elusive Geometer» (PDF). Euclid and His Heritage Meeting, Clay Mathematics Institute, Oxford, 7–8 de outubro de 2005 (em inglês). Cópia arquivada (PDF) em 11 de agosto de 2025",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Sistema binário",
+      "descricao": "Sistema de numeração de base dois, que usa apenas os algarismos zero e um, base da computação."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O alemão Leibniz, grande divulgador do sistema binário, viu os zeros e uns refletidos nos hexagramas de que antigo livro chinês?",
+    "resposta": "I Ching",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Binary_number"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Binary_number",
+        "situacao": "ok",
+        "texto": "A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method for representing numbers that uses only two symbols for the natural numbers: typically 0 (zero) and 1 (one). A binary number may also refer to a rational number that has a finite representation in the binary numeral system, that is, the quotient of an integer by a power of two.\n[…]\nThe Ifá is a West African divination system popular among the Yoruba tribe of the Old Oyo Empire. Similar to the I Ching, but has up to 256 binary signs, unlike the I Ching which has 64. The number comes from squaring 16 which also matches the total possibilities in an 8-bit sequence. In Ifá divination, this reflects the possible outcomes called Odú. These Odú are determined using an Ọpẹlẹ chain, which has 8 seeds.\n[…]\nSets of binary combinations similar to the I Ching have also been used in traditional African divination systems, such as Ifá among others, as well as in medieval Western geomancy. The majority of Indigenous Australian languages use a base-2 system.\n[…]\nWhile corresponding with the Jesuit priest Joachim Bouvet in 1700, who had made himself an expert on the I Ching while a missionary in China, Leibniz explained his binary notation, and Bouvet demonstrated in his 1701 letters that the I Ching was an independent, parallel invention of binary notation.\n[…]\nLeibniz was first introduced to the I Ching through his contact with the French Jesuit Joachim Bouvet, who visited China in 1685 as a missionary. Leibniz saw the I Ching hexagrams as an affirmation of the universality of his own religious beliefs as a Christian. Binary numerals were central to Leibniz's theology. He believed that binary numbers were symbolic of the Christian idea of creatio ex nihilo or creation out of nothing.\n[…]\nBinary numerals that neither terminate nor recur represent irrational numbers. For instance,"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_de_numera%C3%A7%C3%A3o_bin%C3%A1rio",
+        "situacao": "ok",
+        "texto": "O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, ou seja, zero e um (0 e 1).\n[…]\nO sistema numérico binário moderno foi estudado na Europa nos séculos 16 e 17 por Thomas Harriot, Juan Caramuel Lobkowitz e Gottfried Leibniz. No entanto, sistemas envolvendo números binários já apareceram em várias culturas, incluindo o antigo Egito, China e Índia. Leibniz foi especificamente inspirado pelo I Ching chinês.\n[…]\nOs antigos escribas egípcios usavam dois sistemas diferentes para suas frações, as frações egípcias (não relacionadas ao sistema de numeração binária) e as frações do Olho de Hórus (assim chamadas porque muitos historiadores da matemática acreditam que os símbolos usados para esse sistema poderiam ser arranjados para formar o olho de Horus, embora isso tenha sido contestado).\n[…]\nNa China antiga, no texto clássico do I Ching, uma série completa de 8 trigramas e 64 hexagramas (análogo a 3 bits) e números binários de 6 bits.\n[…]\nO estudioso e filósofo chinês Shao Yong no século XI desenvolveu um arranjo binário ordenado dos hexagramas do I Ching, representando a sequência decimal de 0 a 63, e um método para gerá-lo.\n[…]\nO sistema binário moderno foi totalmente documentado por Leibniz, no século XVIII, em seu artigo \"Explication de l'Arithmétique Binaire\". Ele menciona os símbolos binários usados pelos matemáticos chineses. Leibniz utilizou um sistema matemático de duas variáveis — 0/1 — para transformar termos linguísticos e, dessa forma, distribuir informações, assim como o sistema binário atual.\n[…]\nTradução de Explication de l'Arithmétique Binaire (1703), de Leibniz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Dia Internacional da Matemática",
+      "descricao": "Data proclamada pela Unesco em 2019 para celebrar a matemática, comemorada em catorze de março."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Dia Internacional da Matemática, proclamado pela Unesco, cai na mesma data de que outra comemoração matemática, mais antiga?",
+    "resposta": "Dia do Pi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Day_of_Mathematics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/International_Day_of_Mathematics",
+        "situacao": "ok",
+        "texto": "Pi Day is an annual celebration of the mathematical constant\n[…]\nCelebrations often involve eating pie or holding pi recitation competitions. In 2009, the United States House of Representatives supported the designation of Pi Day. UNESCO's 40th General Conference designated Pi Day as the International Day of Mathematics in November 2019.\n[…]\nTau Day, also known as Two-Pi Day, is observed on June 28 (6/28 in the month/day format). The number 𝜏, denoted by the Greek letter tau, is the ratio of a circle's circumference to its radius; it equals 2π, a common multiple in mathematical formulae, and approximately equals 6.28. Some have argued that 𝜏 is the clearer and more fundamental constant and that Tau Day should be celebrated alongside or instead of Pi Day. Celebrants of this date jokingly suggest eating \"twice the pie\".\n[…]\nOfficial website of the International Day of Mathematics\n[…]\nUNESCO page on the International Day of Mathematics\n[…]\n数学漫谈 (A Tour of Mathematics),  a public lecture (in Chinese) delivered by Professor Ya-xiang Yuan (President of International Council for Industrial and Applied Mathematics) on 14 March 2020, the first International Day of Mathematics (slides)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_do_Pi",
+        "situacao": "ok",
+        "texto": "O Dia do Pi e o Dia da Aproximação de Pi são duas datas comemorativas em homenagem à constante π.\n[…]\nO Dia do Pi é comemorado em 14 de março (3/14 na notação estadunidense), por 3,14 ser a aproximação mais conhecida de π. O auge das comemorações acontece à 1:59 da tarde (porque 3,14159 = π arredondado até a 5ª casa decimal) e também foi comemorado em dois jogos: Club Penguin e Animal Jam.[carece de fontes]?\n[…]\n14 de março é o dia do nascimento de Albert Einstein e também o dia da morte de Stephen Hawking, o que agrega mais fãs das ciências exatas às comemorações.\n[…]\nA primeira comemoração do Dia do Pi aconteceu no museu Exploratorium de São Francisco, em 1988, com público e funcionários marchando em torno de um dos espaços circulares do museu, e depois consumindo tortas (pie em inglês) de frutas; no ano seguinte, o museu acrescentou pizza ao menu do Dia do Pi.\n[…]\nDesde 2004, a NASA promove o Pi in the Sky, um conjunto de desafios matemáticos com temática espacial no qual os participantes devem calcular problemas reais, como por exemplo: terremotos em Marte, chuva de hélio em Júpiter, taxa de rotação do asteroide Oumuamua.\n[…]\nHá também quem comemore o Dia da Aproximação de Pi, que pode cair em diversas datas, de acordo com a convenção adotada:\n[…]\n22 de julho: 22/7 na notação mais comum de data, é uma antiga aproximação de π.\n[…]\n«Idéias para professores comemorarem o Dia do Pi» (em inglês). www.teachpi.org",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Os Elementos",
+      "descricao": "Tratado de matemática em treze livros escrito em Alexandria por volta de 300 a.C."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Desde a primeira impressão, em 1482, Os Elementos, de Euclides, teria tido mais edições do que qualquer outro livro, com exceção de qual?",
+    "resposta": "A Bíblia",
+    "distratores": [
+      "O Alcorão",
+      "Dom Quixote",
+      "A Ilíada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Euclid%27s_Elements",
+        "situacao": "ok",
+        "texto": "The Elements (Ancient Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise written c. 300 BC by the Ancient Greek mathematician Euclid.\n[…]\nPreclarissimus liber elementorum Euclidis perspicacissimi in artem geometriam incipit quam foelicissime. Venice: Erhard Ratdolt. 1482. The editio princeps (in Latin), based on the 13th century translation and commentary of Campanus.\n[…]\nBriggs, Henry, ed. (1620). Eukleidou Stoicheiōn biblia 13 / Elementorum Euclidis libri tredecim. London: William Jones. Despite the title this includes only the first six books, with parallel columns of Greek from Grynaeus 1533 and Latin corrected from Commandino 1572. The first edition in either language published in England.\n[…]\nHeiberg, Johan Ludvig, ed. (1883–1888) Euclidis Opera omnia [Euclid's complete works, in Greek]. Leibzig: Teubner. Volumes 1–5 comprise the Elements. Vol. I, Vol. II, Vol. III, Vol. IV, Vol. V. Heiberg consulted multiple Greek manuscripts for his work, taking the position that the single version not edited by Theon, MS. Vat.gr.190, was the most authentic, but following the others at points where he suspected his primary text to be faulty.\n[…]\nHeath, Thomas, ed. (1908). The Thirteen Books of Euclid's Elements. Cambridge University Press. 2nd ed., 1926. In three volumes: Vol. I, Vol. II, Vol. III. Reprints include Dover, 1956; Green Lion Press, 2002, ISBN 1-888009-18-7 (single volume, without Heath's commentary); Barnes & Noble, 2006, ISBN 0-7607-6312-7 (single volume).\n[…]\nMultilingual edition of Elementa in the Bibliotheca Polyglotta\n[…]\nDavid E. Joyce, ed. (2025). \"Euclid's Elements\". In HTML with TypeScript-based interactive figures."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Elementos",
+        "situacao": "ok",
+        "texto": "Os Elementos (em grego clássico: Στοιχεῖα Stoikheîa) é um tratado matemático escrito c. 300 a.C. pelo matemático grego antigo Euclides.\n[…]\nOs Elementos de Euclides têm sido referidos como o livro didático mais bem-sucedido já escrito. Os Elementos são frequentemente considerados, depois da Bíblia, como o livro mais frequentemente traduzido, publicado e estudado na história. Com a Metafísica de Aristóteles, os Elementos são talvez o texto grego antigo de maior sucesso, e foi o livro-texto matemático dominante no mundo islâmico medieval e na Europa Ocidental.\n[…]\nFoi um dos primeiríssimos trabalhos matemáticos a serem impressos após a invenção da prensa móvel e estima-se que seja o segundo apenas para a Bíblia no número de edições publicadas desde a primeira impressão em 1482, com o número chegando a bem mais de mil.\n[…]\nA primeira edição impressa dos Elementos foi publicada por Erhard Ratdolt em 1482, baseada na versão de Campano, e desde então foi traduzida para muitas línguas e publicada em mais de mil edições diferentes. Um manuscrito descendente da versão grega de Téon foi recuperado e uma tradução latina foi publicada em Veneza em 1505 por  de. O próprio texto grego foi publicado em 1533.\n[…]\nBriggs, Henry, ed. (1620). Eukleidou Stoicheiōn biblia 13 / Elementorum Euclidis libri tredecim. Londres: William Jones  Apesar do título, isto inclui apenas os primeiros seis livros, com colunas paralelas de grego de Grynaeus 1533 e latim corrigido de Commandino 1572. A primeira edição em qualquer língua publicada na Inglaterra.\n[…]\nDavid E. Joyce, ed. (1997). «Euclid's Elements»  Em HTML com figuras interativas baseadas em Java.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Medalha Fields",
+      "descricao": "Prêmio internacional concedido a cada quatro anos a matemáticos com menos de quarenta anos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que sábio da Grécia Antiga aparece de perfil na face da Medalha Fields?",
+    "resposta": "Arquimedes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fields_Medal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fields_Medal",
+        "situacao": "ok",
+        "texto": "The Fields Medal is a prize awarded to two, three, or four mathematicians under 40 years of age at the International Congress of Mathematicians (ICM) of the International Mathematical Union (IMU), a convention which takes place every four years. The name of the award honors the Canadian mathematician John Charles Fields. Its purpose is to give recognition and support to younger mathematical resear\n[…]\nIn 1998, at the ICM, Andrew Wiles was presented by the chair of the Fields Medal Committee, Yuri I. Manin, with the first-ever IMU silver plaque in recognition of his proof of Fermat's Last Theorem. Don Zagier referred to the plaque as a \"quantized Fields Medal\". Accounts of this award frequently make reference that at the time of the award Wiles was over the age limit for the Fields medal.\n[…]\nIn 2006, Grigori Perelman, who proved the Poincaré conjecture, refused his Fields Medal, stating \"I'm not interested in money or fame; I don't want to be on display like an animal in a zoo.\" He did not attend the congress.\n[…]\nIn 2014, Maryam Mirzakhani became the first Iranian as well as the first woman to win the Fields Medal, Artur Avila became the first South American, and Manjul Bhargava became the first person of Indian origin to do so.\n[…]\nThe Fields Medal has had three female recipients: Maryam Mirzakhani from Iran in 2014, Maryna Viazovska from Ukraine in 2022, and Hong Wang from China in 2026.\n[…]\nThe Fields Medal gained some recognition in popular culture due to references in the 1997 film Good Will Hunting. In the movie, Gerald Lambeau (Stellan Skarsgård) is an MIT professor who won the award prior to the events of the story. Throughout the film, references made to the award are meant to convey its prestige in the field. In the 2005–2010 TV series Numbers, the leading character, mathematics professor Charlie Eppes, is portrayed as a Fields nominee."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Medalha_Fields",
+        "situacao": "ok",
+        "texto": "Medalha Fields, oficialmente conhecida como Medalha Internacional de Descobrimentos Proeminentes em Matemática (em inglês:  International Medal for Outstanding Discoveries in Mathematics), é um prêmio concedido a dois, três ou quatro matemáticos com até 40 anos de idade durante cada Congresso Internacional da União Internacional de Matemática (IMU), que acontece a cada quatro anos. O prêmio é muit\n[…]\nO prêmio Nobel é anual, enquanto a Medalha Fields é quadrienal.\n[…]\nDe modo geral, a Medalha Fields representa com maior fidelidade os méritos intelectuais do matemático, enquanto o Nobel muitas vezes combina méritos com fatores políticos. Por estes motivos, alguns consideram a Medalha Fields uma distinção mais elevada que o Nobel. Como se trata de uma avaliação subjetiva, há margem para uma larga variedade de opiniões. Há também algumas controvérsias sobre o Prêmio Abel ser mais expressivo que a Medalha Fields.\n[…]\nAlém disso, a medalha Fields só é dada para jovens matemáticos (com até 40 anos), enquanto que o prêmio Nobel não tem limite de idade.\n[…]\nA medalha, desenhada pelo escultor canadense Robert Tait McKenzie, é feita de ouro 14 quilates, com diâmetro de 63,5 mm e peso de 169 g.\n[…]\nEm uma face da medalha, há uma figura de Arquimedes e uma citação atribuída ao poeta do século I Marco Manílio em latim: Transire suum pectus mundoque potiri, que seria traduzido como \"Superar a própria compreensão e dominar o mundo\".\n[…]\nA Medalha Fields ganhou conhecimento popular com o filme de 1997 Good Will Hunting. Na obra, o professor do Instituto de Tecnologia de Massachusetts Gerald Lambeau, interpretado por Stellan Skarsgård, ganhou o prêmio antes dos eventos que ocorrem na história. Ao longo do filme, há referências que enaltecem o prestígio da medalha. No programa de televisão Numbers, o protagonista, o professor Charlie Eppes, é retratado como um indicado ao prêmio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "O Homem que Calculava",
+      "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Num episódio famoso de O Homem que Calculava, Beremiz resolve a partilha de trinta e cinco animais entre três irmãos. Que animais?",
+    "resposta": "Camelos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Man_Who_Counted",
+      "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Man_Who_Counted",
+        "situacao": "ok",
+        "texto": "The Man Who Counted (original Portuguese title: O Homem que Calculava) is a book on recreational mathematics and curious word problems by Brazilian writer Júlio César de Mello e Souza, published under the pen name Malba Tahan. Since its first publication in 1938, the book has been immensely popular in Brazil and abroad, not only among mathematics teachers but among the general public as well.\n[…]\nFirst published in Brazil in 1949, O Homem que Calculava is a series of tales in the style of the Arabian Nights, but revolving around mathematical puzzles and curiosities. The book is ostensibly a translation by Brazilian scholar Breno de Alencar Bianco of an original manuscript by Malba Tahan, a thirteenth-century Persian scholar of the Abbasid Caliphate – both equally fictitious.\n[…]\nIn all those events, Beremiz Samir uses his abilities with calculation like a magic wand to amaze and entertain people, settle disputes, and find wise and just solutions to seemingly unsolvable problems.\n[…]\nThen, with 36 camels, Beremiz gives 18, 12, and 4 animals to the three heirs, making all of them profit with the new share. Of the remaining two camels, one is returned to Hanak, and the other is claimed by Beremiz as his reward.\n[…]\nAt the end of the book, Beremiz uses his abilities to win the hand of his student and secret love Telassim, the daughter of one of the Caliph's advisers. (The caliph mentioned is Al-Musta'sim, the only real character who appears fictitiously; the time period ends with the Abbasid dynasty's collapse.)\n[…]\nIn the last chapter we learn that Hanak Tade Maia and Beremiz eventually moved to Constantinople following the Siege of Baghdad (Telassim's father died in the fighting), where Beremiz had three sons and Hanak visits him often."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+        "situacao": "ok",
+        "texto": "O Homem que calculava: aventuras de um singular calculista persa é um livro de Matemática recreativa e um romance infanto-juvenil do fictício escritor Malba Tahan (heterônimo do professor brasileiro Julio César de Mello e Souza), que narra as aventuras e proezas matemáticas do calculista persa Beremiz Samir na Bagdá do século XIII. Foi publicado pela primeira vez em 1938 e alcançou sua 100ª edição\n[…]\nViajando de Samarra a Bagdá, Hank Tade-Maiá, o narrador da história, encontra Beremiz Samir, um singular personagem que se revela ser um fabuloso calculista da Pérsia. Eles decidem viajar juntos para Bagdá e ainda no trajeto Beremiz dá mostras de sua extraordinária habilidade com os cálculos.\n[…]\nEm Bagdá, Beremiz rapidamente torna-se famoso e muito requisitado tanto por pessoas comuns quanto por nobres, despertando a simpatia de uns e a inveja de outros. Emprega-se como secretário do Grão-vizir Ibrahim Maluf, enquanto que Tade-Maiá fica como escriba deste mesmo ministro. Beremiz aceita também a tarefa de ensinar a matemática à filha do poeta Iezid, travando conhecimento com Telassim, sua futura esposa. Até mesmo o califa ouve falar de Beremiz e concede-lhe uma audiência.\n[…]\nPara testar definitivamente a capacidade de Beremiz, o califa prepara, então, uma audiência onde o calculista seria interrogado por sete sábios. Tendo respondido brilhantemente todas as provas, Beremiz, como recompensa, pede em casamento a mão de Telassim, por quem havia se apaixonado. Beremiz casa-se com Telassim e, se convertido ambos ao cristianismo, tendo três filhos, mudam-se juntamente com o amigo Tade-Maiá para Constantinopla, no então Império Bizantino.\n[…]\nHank Tade-Maiá: É o narrador-personagem que conta a história acompanhando Beremiz.\n[…]\nBeremiz Samir: É o protagonista da história, um calculista persa conhecido em Bagdá como O Homem que Calculava.\n[…]\nIbrahim Maluf el Barad: Grão-vizir protetor de Beremiz."
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Algarismos romanos",
+      "descricao": "Sistema de numeração da Roma Antiga, que usa letras como I, V, X, L, C, D e M."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nos mostradores de relógio com algarismos romanos, o número quatro costuma aparecer escrito de que forma pouco usual?",
+    "resposta": "Com quatro letras I",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_numerals",
+      "https://en.wikipedia.org/wiki/Clock_face"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_numerals",
+        "situacao": "ok",
+        "texto": "Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages. Like many other ancient numeral systems, Roman numerals are based on the additive principle: a number is written by concatenating individual symbols, each representing a fixed value, and the value of the resulting numeral phrase is the \n[…]\nOther numerals that do not fit the usual patterns—such as VXL for 45, instead of the usual XLV—may be due to scribal errors, or the writer's lack of familiarity with the system, rather than being genuine variant usage.\n[…]\nMovements are often numbered using Roman numerals.\n[…]\nThe \"Number Forms\" block of the Unicode computer character set standard has a number of Roman numeral symbols in the range of code points from U+2160 to U+2188. This range includes both upper- and lowercase numerals, as well as pre-combined characters for numbers up to 12. One justification for the existence of pre-combined numbers is to facilitate the setting of multiple-letter numbers (such as VIII) on a single horizontal line in Asian vertical text.\n[…]\nThe Unicode standard, however, includes special Roman numeral code points for compatibility only, stating that \"[f]or most purposes, it is preferable to compose the Roman numerals from sequences of the appropriate Latin letters\". The block also includes some apostrophus symbols for large numbers, an old variant of \"L\" (50) similar to the Etruscan character, the Claudian letter \"reversed C\", etc.\n[…]\nGoines, David Lance. A Constructed Roman Alphabet: A Geometric Analysis of the Greek and Roman Capitals and of the Arabic Numerals. Boston: D.R. Godine, 1982.\n[…]\nTaisbak, Christian M. 1965. \"Roman numerals and the abacus.\" Classica et medievalia 26: 147–60.\n[…]\n\"Roman Numerals (Totally Epic Guide)\". Know the Romans. Archived from the original on 10 May 2019."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Clock_face",
+        "situacao": "ok",
+        "texto": "A clock face is the part of an analog clock (or watch) that displays time through the use of a flat dial with reference marks, and revolving pointers turning on concentric shafts at the center, called hands (or arms). In its most basic, globally recognized form, the periphery of the dial is numbered 1 through 12 indicating the hours in a 12-hour cycle, and a short hour hand makes two revolutions i\n[…]\nClocks can indicate the hour with Roman numerals or Hindu–Arabic numerals, or with non-numeric indicator marks. The two numbering systems have also been used in combination, with the prior indicating the hour and the latter the minute. Grandfather clocks (also known as Longcase clocks)  typically use Roman numerals for the hours. Clocks using only Arabic numerals first began to appear in the mid-18th century.\n[…]\nRoman numerals"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana",
+        "situacao": "ok",
+        "texto": "O sistema de numeração romana (algarismos romanos ou números romanos) desenvolveu-se na Roma Antiga, e foi utilizado em todo o Império Romano. É composto por sete letras maiúsculas do alfabeto latino: I, V, X, L, C, D e M.\n[…]\nAlguns valores inteiros são representados por letras romanas específicas. São eles:\n[…]\nTal variação e inconsistência continuou até o período medieval e tempos modernos, até mesmo se tornar convencional. Há mostradores de relógios que usam numerais romanos para mostrar “IIII” para quatro horas, mas “IX” para nove horas, uma prática usual em relógios mais antigos como o da Catedral de Wells. No entanto, isto está longe de ser universal: por exemplo, o relógio do Palácio de Westminster em Londres  (o \"Big Ben \").\n[…]\nAlém disso, os numerais etruscos eram escritos da direita para a esquerda. Apenas I e X eram letras do alfabeto, o restante era composto de símbolos independentes.\n[…]\nAssim, dezoito seria o oitavo entalhe depois do primeiro dez, o qual seria abreviado como X, assim sendo XΛIII. De modo similar, o número quatro numa vara era um entalhe reto antes do Λ (V), sendo escrito como IIII ou IΛ (IV). O sistema não era nem aditivo nem subtrativo nessa concepção, mas Ordinal. Com os traços sendo representados por escrita, tem-se a fácil identificação com as letras romanas I, V e X.\n[…]\nAlfred Hooper sugeriu uma alternativa para a origem da numeração romana para pequenas quantidades. Hooper defende que os dígitos têm relação com a mão e seus dedos usadas para contagem. Por exemplo, os números I, II, III, IIII correspondem aos números de dedos mostrados para alguém. V representa a mão aberta com quatro dedos juntos e o polegar separado.\n[…]\nConversão de números romanos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Problema de Monty Hall",
+      "descricao": "Problema de probabilidade inspirado num programa de auditório americano, em que o jogador escolhe uma entre três portas."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No problema de Monty Hall, depois que o apresentador abre uma porta sem prêmio, o que o jogador deve fazer para dobrar suas chances de ganhar?",
+    "resposta": "Trocar de porta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monty_Hall_problem"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monty_Hall_problem",
+        "situacao": "ok",
+        "texto": "The Monty Hall problem is a brain teaser, in the form of a probability puzzle, based nominally on the American television game show Let's Make a Deal and named after its original host, Monty Hall. The problem was originally posed in a letter by Steve Selvin to the American Statistician in 1975. It became famous as a question from reader Craig F. Whitaker's letter quoted in (and solved by) Marilyn \n[…]\nThe problem is a paradox of the veridical type, because the solution is so counterintuitive it can seem absurd but is nevertheless demonstrably true. The Monty Hall problem is mathematically related closely to the earlier three prisoners problem and to the much older Bertrand's box paradox.\n[…]\nAs in the Monty Hall problem, the intuitive answer is 1/2, but the probability is actually 2/3.\n[…]\nThe three prisoners problem, published in Martin Gardner's Mathematical Games column in Scientific American in 1959 is equivalent to the Monty Hall problem. This problem involves three condemned prisoners, a random one of whom has been secretly chosen to be pardoned. One of the prisoners begs the warden to tell him the name of one of the others to be executed, arguing that this reveals no information about his own fate but increases his chances of being pardoned from 1/3 to 1/2.\n[…]\nThe warden obliges, (secretly) flipping a coin to decide which name to provide if the prisoner who is asking is the one being pardoned. The question is whether knowing the warden's answer changes the prisoner's chances of being pardoned. This problem is equivalent to the Monty Hall problem; the prisoner asking the question still has a 1/3 chance of being pardoned but his unnamed colleague has a 2/3 chance.\n[…]\nAs Monty Hall wrote to Selvin:\n[…]\nTwo envelopes problem\n[…]\n\"Stick or switch? Probability and the Monty Hall problem\", BBC News Magazine, 11 September 2013 (video). Mathematician Marcus du Sautoy explains the Monty Hall paradox."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall",
+        "situacao": "ok",
+        "texto": "O problema de Monty Hall, também conhecido por paradoxo de Monty Hall, é um problema matemático e paradoxo que surgiu a partir de um concurso televisivo dos Estados Unidos chamado Let’s Make a Deal, exibido na década de 1970. O problema foi originalmente publicado por Steve Selvin para a revista American Statistician em 1975. Tornou-se famoso com uma pergunta do leitor Craig F. Whitaker para Maril\n[…]\nO apresentador sempre deve oferecer a possibilidade de trocar a porta que foi originalmente escolhida pela porta que continua fechada.\n[…]\nO apresentador teria ajudado o concorrente, já que as chances para acertar subiram de 33,33% para 50%, no entanto não faria diferença trocar ou não de porta, uma vez que ambas teriam as mesmas chances em 50% de possuírem o prêmio. No entanto, esta análise intuitiva é errada, pois a porta que o apresentador abre depende da porta que o concorrente escolheu inicialmente. O apresentador sabe desde o começo onde está o prêmio e assim ele nunca abrirá uma porta premiada.\n[…]\nAssim, a resposta correta, e talvez contra intuitiva: é mais vantajoso trocar. Isso porque é mais provável estatisticamente ganhar o prêmio se trocar de porta do que se não o fizer, pois a probabilidade em acertar na premiada passa para o dobro: de 33,33% para 66,66%.\n[…]\nOu seja, se o concorrente errou ao escolher uma porta - e as chances disto são de 2/3 - então ao abrir uma das outras portas não premiadas o apresentador está lhe dizendo onde está o prêmio. Toda vez que o concorrente tiver escolhido inicialmente uma porta errada, ao trocar de porta irá com mais probabilidade ganhar.\n[…]\nComo as chances de que tenha errado em sua escolha inicial são de 2/3, se trocar suas chances de ganhar serão de 2/3 - e por conseguinte a chance de que ganhe se não trocar de porta é de apenas 1/3. É assim mais vantajoso trocar sempre de porta.\n[…]\nParadoxo da Bela Adormecida\n[…]\nParadoxo de São Petersburgo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Maryam Mirzakhani",
+      "descricao": "Matemática iraniana (1977–2017), professora em Stanford e vencedora da Medalha Fields em 2014."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em 2014, que matemática iraniana se tornou a primeira mulher a receber a Medalha Fields?",
+    "resposta": "Maryam Mirzakhani",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maryam_Mirzakhani"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maryam_Mirzakhani",
+        "situacao": "ok",
+        "texto": "Maryam Mirzakhani (Persian: مریم میرزاخانی, pronounced [mæɾˈjæm miːɾzɑːxɑːˈniː]; 12 May 1977 – 14 July 2017) was an Iranian mathematician and a professor of mathematics at Stanford University. Her research focused on hyperbolic geometry, dynamical systems, complex analysis, and topology. In 2014, she was awarded the Fields Medal for her work in \"the dynamics and geometry of Riemann surfaces and th\n[…]\nMirzakhani died from breast cancer on 14 July 2017 at the age of 40. Following her death, several initiatives and awards were established in her memory, including the Maryam Mirzakhani New Frontiers Prize and the 12 May Initiative, both of which aim to promote the participation of women in mathematics.\n[…]\nIn February 2020, on International Day of Women and Girls in STEM, Mirzakhani was honored by UN Women as one of seven female scientists dead or alive who have shaped the world. Also in 2020, George Csicsery featured her in the documentary film Secrets of the Surface: The Mathematical Vision of Maryam Mirzakhani. The 12 May Initiative was created in Mirzakhani's honor to celebrate women in mathematics.\n[…]\nIn 2022, following a £2.48m donation from XTX Markets, the University of Oxford launched the Maryam Mirzakhani Scholarships, which provide support for female mathematicians pursuing doctoral studies at the university. On 8 March 2022, the Ecole Polytechnique Fédérale de Lausanne named one of its streets in honor of Mirzakhani.\n[…]\nFields Medal 2014\n[…]\nMirzakhani has an Erdős number of 3.\n[…]\nMaryam Mirzakhani at the Mathematics Genealogy Project\n[…]\nMaryam Mirzakhani publications indexed by Google Scholar\n[…]\nOfficial Website of Maryam Mirzakhani (in Persian)\n[…]\n\"Maryam Mirzakhani's work on Riemann surfaces explained in simple terms\". Matific. 14 August 2014. Retrieved 18 August 2014.\n[…]\nMcMullen, Curtis (14 August 2014). \"The work of Maryam Mirzakhani\" (PDF). Harvard University. Retrieved 18 August 2017."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maryam_Mirzakhani",
+        "situacao": "ok",
+        "texto": "Maryam Mirzakhani (em persa: مریم میرزاخانی; Teerã, Irão, 12 de maio de 1977 – Palo Alto, 14 de julho de 2017) foi uma matemática iraniana-americana e professora da Universidade Stanford. Seus tópicos de pesquisa incluíam Teoria de Teichmüller, geometria hiperbólica, teoria ergódica e geometria simplética. Tornou-se conhecida por seus trabalhos em topologia e geometria da superfície de Riemann.\n[…]\nEm 13 de agosto de 2014 Mirzakhani tornou-se a primeira pessoa nascida no Irã e a primeira mulher da história a receber a medalha Fields. O comitê do prêmio citou seu trabalho sobre \"a dinâmica e a geometria de superfícies de Riemann e seus espaços de moduli\".\n[…]\nMaryam Mirzakhani morreu no dia 14 de julho de 2017, vítima de câncer de mama.\n[…]\nMaryam Mirzakhani nasceu em 1977 em Teerã, Irã. Estudou no Liceu Farzanegan, ligado à Organização Nacional para o Desenvolvimento de Talentos Excepcionais (NODET, na sigla em inglês).\n[…]\nEm 1994, em Hong Kong, Mirzhakhani ganhou uma medalha de ouro na Olimpíada Internacional de Matemática, tornando-se a primeira mulher iraniana a receber o prêmio. Na edição da competição de 1995, sagrou-se como a primeira pessoa nascida no Irã a receber uma nota perfeita e a ganhar duas medalhas de ouro.\n[…]\nMirzakhani foi premiada com a Medalha Fields em 2014 por \"suas excepcionais contribuições à dinâmica e à geometria de superfícies de Riemann e seus espaços de moduli\". Os prêmios foram entregues em Seul, no Congresso Internacional dos Matemáticos daquele ano, a Mirzakhani e também ao brasileiro Artur Ávila, ao canadense Manjul Barghava e ao suíço Martin Hairer.\n[…]\nO Prêmio de Matemática NAS, que premeia os matemático com contribuições excepcionais, foi renomeado para homenagear Maryam Mirzakhani. Atualmente, o prêmio possui o nome de Maryam Mirzakhani Prize in Mathematics.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

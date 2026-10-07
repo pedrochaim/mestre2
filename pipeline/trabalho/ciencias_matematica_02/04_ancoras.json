@@ -1,0 +1,1580 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Al-Khwarizmi",
+        "descricao": "Matemático e astrônomo persa do século nove, cujo nome deu origem à palavra algoritmo.",
+        "variantes": [
+          "Muhammad ibn Musa al-Khwarizmi",
+          "Al-Khowarizmi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Al-Khwarizmi",
+          "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O persa Al-Khwarizmi trabalhou na Casa da Sabedoria, um grande centro de estudos do mundo islâmico. Em que cidade ela ficava?",
+      "resposta": "Bagdá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+        "https://en.wikipedia.org/wiki/House_of_Wisdom"
+      ],
+      "ancora": "al_khwarizmi"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "leonhard_euler",
+        "nome": "Leonhard Euler",
+        "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+        "variantes": [
+          "Euler"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Leonhard_Euler",
+          "https://en.wikipedia.org/wiki/Leonhard_Euler"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O suíço Leonhard Euler passou boa parte da vida trabalhando para a Academia de Ciências da Rússia. Em que cidade ele morreu, em 1783?",
+      "resposta": "São Petersburgo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Leonhard_Euler",
+        "https://en.wikipedia.org/wiki/Leonhard_Euler"
+      ],
+      "ancora": "leonhard_euler"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Congresso Internacional de Matemáticos de 2018",
+        "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano.",
+        "variantes": [
+          "ICM 2018"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, pela primeira vez no hemisfério sul, o Congresso Internacional de Matemáticos foi realizado em que cidade?",
+      "resposta": "Rio de Janeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+      ],
+      "ancora": "congresso_internacional_de_matematicos_de_2018"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Osso de Ishango",
+        "descricao": "Osso pré-histórico com entalhes, de cerca de vinte mil anos, considerado um dos mais antigos indícios de contagem.",
+        "variantes": [
+          "Ishango bone"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ishango_bone"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O osso de Ishango, com entalhes de cerca de vinte mil anos que podem ser marcas de contagem, foi encontrado em que país africano?",
+      "resposta": "República Democrática do Congo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ishango_bone"
+      ],
+      "distratores": [
+        "Quênia",
+        "Etiópia",
+        "África do Sul"
+      ],
+      "ancora": "osso_de_ishango"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Projeto de lei do pi de Indiana",
+        "descricao": "Projeto de lei de 1897, no estado americano de Indiana, que tentou oficializar um método errado de calcular a área do círculo, com valores incorretos para pi.",
+        "variantes": [
+          "Indiana Pi Bill"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Indiana_Pi_Bill"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1897, os deputados de que estado americano aprovaram um projeto de lei que daria a pi um valor errado, depois barrado no Senado estadual?",
+      "resposta": "Indiana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Indiana_Pi_Bill"
+      ],
+      "distratores": [
+        "Ohio",
+        "Kansas",
+        "Texas"
+      ],
+      "ancora": "projeto_de_lei_do_pi_de_indiana"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "dia_do_pi",
+        "nome": "Dia do Pi",
+        "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+        "variantes": [
+          "Pi Day"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_do_Pi",
+          "https://en.wikipedia.org/wiki/Pi_Day"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Dia do Pi foi celebrado pela primeira vez em 1988, num museu de ciências de que cidade americana?",
+      "resposta": "São Francisco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pi_Day"
+      ],
+      "distratores": [
+        "Boston",
+        "Chicago",
+        "Nova York"
+      ],
+      "ancora": "dia_do_pi"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Quatérnios",
+        "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843.",
+        "variantes": [
+          "Quaterniões",
+          "Quaternions"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quaternion"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1843, durante um passeio, o matemático William Rowan Hamilton gravou na pedra de uma ponte a fórmula dos quatérnios. Em que cidade fica essa ponte?",
+      "resposta": "Dublin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quaternion",
+        "https://en.wikipedia.org/wiki/Broom_Bridge"
+      ],
+      "ancora": "quaternios"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "René Descartes",
+        "descricao": "Filósofo e matemático francês do século dezessete, autor do Discurso do Método.",
+        "variantes": [
+          "Cartesius",
+          "Renatus Cartesius"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+          "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "René Descartes morreu em 1650 numa capital do norte da Europa, para onde tinha ido dar aulas a uma rainha. Que cidade?",
+      "resposta": "Estocolmo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+        "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+      ],
+      "ancora": "rene_descartes"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "fibonacci",
+        "nome": "Fibonacci",
+        "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+        "variantes": [
+          "Leonardo de Pisa",
+          "Leonardo Fibonacci"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Leonardo_Fibonacci",
+          "https://en.wikipedia.org/wiki/Fibonacci"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Ainda jovem, Fibonacci conheceu os algarismos indo-arábicos numa cidade do norte da África, onde o pai trabalhava. Em que país ela fica hoje?",
+      "resposta": "Argélia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci"
+      ],
+      "distratores": [
+        "Marrocos",
+        "Tunísia",
+        "Egito"
+      ],
+      "ancora": "fibonacci"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "O Homem que Calculava",
+        "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil.",
+        "variantes": [
+          "The Man Who Counted"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+          "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Homem que Calculava, o livro mais famoso de Malba Tahan, foi publicado em que década do século vinte?",
+      "resposta": "Anos trinta",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+        "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+      ],
+      "distratores": [
+        "Anos dez",
+        "Anos cinquenta",
+        "Anos setenta"
+      ],
+      "ancora": "o_homem_que_calculava"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Problemas de Hilbert",
+        "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris.",
+        "variantes": [
+          "Hilbert's problems"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+          "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Num congresso em Paris, o alemão David Hilbert apresentou uma lista de problemas que guiou a matemática do século vinte. Em que ano?",
+      "resposta": "1900",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+        "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+      ],
+      "ancora": "problemas_de_hilbert"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "teorema_das_quatro_cores",
+        "nome": "Teorema das quatro cores",
+        "descricao": "Teorema segundo o qual quatro cores bastam para colorir qualquer mapa sem que regiões vizinhas tenham a mesma cor.",
+        "variantes": [
+          "Four color theorem"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Teorema_das_quatro_cores",
+          "https://en.wikipedia.org/wiki/Four_color_theorem"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Demonstrado só em 1976, o problema de colorir mapas com apenas quatro cores tinha sido proposto em que século?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Teorema_das_quatro_cores",
+        "https://en.wikipedia.org/wiki/Four_color_theorem"
+      ],
+      "ancora": "teorema_das_quatro_cores"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "conjectura_de_poincare",
+        "nome": "Conjectura de Poincaré",
+        "descricao": "Problema de topologia proposto por Henri Poincaré em 1904 e resolvido no início do século vinte e um.",
+        "variantes": [
+          "Poincaré conjecture"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Conjectura_de_Poincar%C3%A9",
+          "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Proposta pelo francês Henri Poincaré em 1904, a conjectura que leva seu nome foi finalmente demonstrada em que década?",
+      "resposta": "Anos dois mil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+        "https://pt.wikipedia.org/wiki/Conjectura_de_Poincar%C3%A9"
+      ],
+      "ancora": "conjectura_de_poincare"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Melencolia I",
+        "descricao": "Gravura de 1514 do artista alemão Albrecht Dürer, que traz um quadrado mágico.",
+        "variantes": [
+          "Melancolia I"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Melencolia_I"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Na gravura Melencolia I, de Albrecht Dürer, um quadrado mágico mostra na linha de baixo o ano em que a obra foi feita. Que ano?",
+      "resposta": "1514",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Melencolia_I",
+        "https://en.wikipedia.org/wiki/Magic_square"
+      ],
+      "distratores": [
+        "1492",
+        "1500",
+        "1527"
+      ],
+      "ancora": "melencolia_i"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Katherine Johnson",
+        "descricao": "Matemática americana da NASA, cujos cálculos de trajetórias apoiaram os primeiros voos tripulados dos Estados Unidos, retratada no filme Estrelas Além do Tempo.",
+        "variantes": [
+          "Katherine Coleman Goble Johnson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Katherine_Johnson",
+          "https://pt.wikipedia.org/wiki/Katherine_Johnson"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A matemática Katherine Johnson, da NASA, conferiu os cálculos do voo de John Glenn, o primeiro americano a orbitar a Terra. Em que década?",
+      "resposta": "Anos sessenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Katherine_Johnson"
+      ],
+      "ancora": "katherine_johnson"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "calculo",
+        "nome": "Cálculo",
+        "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+        "variantes": [
+          "Cálculo diferencial e integral"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/C%C3%A1lculo",
+          "https://en.wikipedia.org/wiki/Calculus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século dezessete, Isaac Newton disputou a criação do cálculo com um pensador alemão que o desenvolveu de forma independente. Quem?",
+      "resposta": "Gottfried Wilhelm Leibniz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+        "https://pt.wikipedia.org/wiki/C%C3%A1lculo"
+      ],
+      "ancora": "calculo"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "A Geometria",
+        "descricao": "Obra de 1637 publicada como apêndice do Discurso do Método, que uniu a álgebra e a geometria.",
+        "variantes": [
+          "La Géométrie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na obra A Geometria, de 1637, que filósofo francês consagrou o uso das letras x, y e z para os valores desconhecidos?",
+      "resposta": "René Descartes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+      ],
+      "ancora": "a_geometria"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Teorema de Pitágoras",
+        "descricao": "Teorema segundo o qual, num triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.",
+        "variantes": [
+          "Pythagorean theorem"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras",
+          "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1876, que futuro presidente dos Estados Unidos publicou uma demonstração própria do teorema de Pitágoras?",
+      "resposta": "James Garfield",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "https://en.wikipedia.org/wiki/James_A._Garfield"
+      ],
+      "distratores": [
+        "Chester Arthur",
+        "Benjamin Harrison",
+        "William McKinley"
+      ],
+      "ancora": "teorema_de_pitagoras"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Teoria das probabilidades",
+        "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654.",
+        "variantes": [
+          "Probabilidade"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Teoria_das_probabilidades",
+          "https://en.wikipedia.org/wiki/Probability_theory"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1654, as cartas trocadas entre Blaise Pascal e que magistrado francês, matemático nas horas vagas, lançaram as bases da teoria das probabilidades?",
+      "resposta": "Pierre de Fermat",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Problem_of_points",
+        "https://en.wikipedia.org/wiki/Probability_theory"
+      ],
+      "ancora": "teoria_das_probabilidades"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Torre de Hanói",
+        "descricao": "Quebra-cabeça de discos de tamanhos diferentes que devem ser movidos entre três hastes, inventado em 1883.",
+        "variantes": [
+          "Torre de Hanoi",
+          "Tower of Hanoi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i",
+          "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1883, que matemático francês inventou o quebra-cabeça Torre de Hanói, com discos que passam de uma haste para outra?",
+      "resposta": "Édouard Lucas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+        "https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i"
+      ],
+      "distratores": [
+        "Joseph Fourier",
+        "Henri Poincaré",
+        "Augustin Cauchy"
+      ],
+      "ancora": "torre_de_hanoi"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Numeração maia",
+        "descricao": "Sistema de numeração de base vinte usado pela civilização maia, com um símbolo próprio para o zero.",
+        "variantes": [
+          "Maya numerals",
+          "Sistema de numeração maia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maya_numerals"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que povo pré-colombiano da América Central escrevia o zero com um símbolo em forma de concha?",
+      "resposta": "Maias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maya_numerals"
+      ],
+      "ancora": "numeracao_maia"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Ladrilhos de Penrose",
+        "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+        "variantes": [
+          "Penrose tiling",
+          "Pavimentação de Penrose"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penrose_tiling"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que físico e matemático britânico, Nobel de Física de 2020, criou um padrão de ladrilhos que cobre o plano sem nunca se repetir?",
+      "resposta": "Roger Penrose",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penrose_tiling",
+        "https://en.wikipedia.org/wiki/Roger_Penrose"
+      ],
+      "ancora": "ladrilhos_de_penrose"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Jogo da Vida",
+        "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples.",
+        "variantes": [
+          "Conway's Game of Life",
+          "Game of Life"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1970, que matemático britânico criou o Jogo da Vida, em que células de uma grade nascem e morrem seguindo regras simples?",
+      "resposta": "John Conway",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+      ],
+      "distratores": [
+        "John von Neumann",
+        "Alan Turing",
+        "Stephen Wolfram"
+      ],
+      "ancora": "jogo_da_vida_2"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Garrafa de Klein",
+        "descricao": "Superfície fechada com um só lado, sem interior nem exterior, descrita em 1882.",
+        "variantes": [
+          "Klein bottle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Klein_bottle",
+          "https://pt.wikipedia.org/wiki/Garrafa_de_Klein"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que matemático alemão descreveu, em 1882, uma garrafa sem lado de dentro nem de fora, parente da faixa de Möbius?",
+      "resposta": "Felix Klein",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Klein_bottle"
+      ],
+      "ancora": "garrafa_de_klein"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Símbolo da raiz quadrada",
+        "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+        "variantes": [
+          "Radical",
+          "Sinal de raiz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Radical_symbol"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O símbolo da raiz quadrada teria surgido de uma letra r estilizada, inicial de que palavra latina?",
+      "resposta": "Radix",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Radical_symbol"
+      ],
+      "ancora": "simbolo_da_raiz_quadrada"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Símbolo da integral",
+        "descricao": "Símbolo em forma de S alongado usado no cálculo para indicar a integral, introduzido por Leibniz.",
+        "variantes": [
+          "Sinal de integral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Integral_symbol"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O símbolo da integral, um S alongado criado por Leibniz, é a inicial de que palavra latina?",
+      "resposta": "Summa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Integral_symbol"
+      ],
+      "ancora": "simbolo_da_integral"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Álgebra",
+        "descricao": "Ramo da matemática que usa letras e símbolos para representar números e resolver equações.",
+        "variantes": [
+          "Algebra"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%81lgebra",
+          "https://en.wikipedia.org/wiki/Algebra"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra álgebra vem do árabe al-jabr, que originalmente designava um tratamento da medicina. Qual?",
+      "resposta": "Ajuste de ossos fraturados",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Algebra"
+      ],
+      "ancora": "algebra"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Geometria",
+        "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço.",
+        "variantes": [
+          "Geometry"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Geometria",
+          "https://en.wikipedia.org/wiki/Geometry"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra geometria, de origem grega, significa originalmente medida de quê?",
+      "resposta": "Da terra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Geometry",
+        "https://pt.wikipedia.org/wiki/Geometria"
+      ],
+      "ancora": "geometria"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Teorema de Napoleão",
+        "descricao": "Teorema de geometria segundo o qual os centros de triângulos equiláteros construídos sobre os lados de um triângulo qualquer formam outro triângulo equilátero.",
+        "variantes": [
+          "Napoleon's theorem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Napoleon%27s_theorem"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Um teorema sobre triângulos equiláteros construídos nos lados de um triângulo qualquer leva o nome de que imperador francês?",
+      "resposta": "Napoleão Bonaparte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Napoleon%27s_theorem"
+      ],
+      "ancora": "teorema_de_napoleao"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Paul Erdős",
+        "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores.",
+        "variantes": [
+          "Paul Erdos",
+          "Erdős Pál"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+          "https://pt.wikipedia.org/wiki/Paul_Erd%C5%91s"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O húngaro Paul Erdős chamava as crianças pelo nome de que letra grega, usada pelos matemáticos para quantidades bem pequenas?",
+      "resposta": "Épsilon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s"
+      ],
+      "ancora": "paul_erdos"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Número e",
+        "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+        "variantes": [
+          "Número de Euler",
+          "Constante de Napier",
+          "e"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
+          "https://pt.wikipedia.org/wiki/N%C3%BAmero_de_Euler"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1683, o suíço Jacob Bernoulli chegou à constante que hoje chamamos de número e ao estudar que assunto financeiro?",
+      "resposta": "Juros compostos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/E_(mathematical_constant)"
+      ],
+      "ancora": "numero_e"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Geometria",
+        "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço.",
+        "variantes": [
+          "Geometry"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Geometria",
+          "https://en.wikipedia.org/wiki/Geometry"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo o historiador grego Heródoto, a geometria nasceu no Egito da necessidade de remarcar os terrenos depois de que fenômeno anual?",
+      "resposta": "As cheias do Nilo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_geometry",
+        "https://en.wikipedia.org/wiki/Geometry"
+      ],
+      "ancora": "geometria"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Teoria das probabilidades",
+        "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654.",
+        "variantes": [
+          "Probabilidade"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Teoria_das_probabilidades",
+          "https://en.wikipedia.org/wiki/Probability_theory"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A teoria das probabilidades nasceu de uma dúvida de apostador: num jogo de azar interrompido antes do fim, como dividir o quê?",
+      "resposta": "As apostas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Problem_of_points"
+      ],
+      "ancora": "teoria_das_probabilidades"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Congresso Internacional de Matemáticos de 2018",
+        "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano.",
+        "variantes": [
+          "ICM 2018"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No Congresso Internacional de Matemáticos de 2018, o curdo iraniano Caucher Birkar perdeu sua Medalha Fields minutos depois de recebê-la. O que aconteceu?",
+      "resposta": "Ela foi roubada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caucher_Birkar"
+      ],
+      "ancora": "congresso_internacional_de_matematicos_de_2018"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Sequência de Fibonacci",
+        "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci.",
+        "variantes": [
+          "Fibonacci sequence",
+          "Números de Fibonacci"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci",
+          "https://en.wikipedia.org/wiki/Fibonacci_sequence"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No Liber Abaci, a sequência de Fibonacci aparece num problema sobre a reprodução de que animal?",
+      "resposta": "Coelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+        "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci"
+      ],
+      "ancora": "sequencia_de_fibonacci"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Paradoxo do aniversário",
+        "descricao": "Resultado de probabilidade segundo o qual, num grupo pequeno de pessoas, já é provável que duas façam aniversário no mesmo dia.",
+        "variantes": [
+          "Problema do aniversário",
+          "Birthday problem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Birthday_problem",
+          "https://pt.wikipedia.org/wiki/Paradoxo_do_anivers%C3%A1rio"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantas pessoas bastam numa sala para que a chance de duas delas fazerem aniversário no mesmo dia passe de cinquenta por cento?",
+      "resposta": "Vinte e três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Birthday_problem"
+      ],
+      "ancora": "paradoxo_do_aniversario"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "carl_friedrich_gauss",
+        "nome": "Carl Friedrich Gauss",
+        "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+        "variantes": [
+          "Gauss"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+          "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1796, Gauss mostrou como construir só com régua e compasso um polígono regular que os gregos não sabiam fazer. Quantos lados ele tem?",
+      "resposta": "Dezessete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Heptadecagon",
+        "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+      ],
+      "ancora": "carl_friedrich_gauss"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "pi",
+        "nome": "Pi",
+        "descricao": "Constante matemática igual à razão entre a circunferência e o diâmetro de um círculo.",
+        "variantes": [
+          "π"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pi",
+          "https://en.wikipedia.org/wiki/Pi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Molten_Sea",
+        "https://en.wikipedia.org/wiki/Approximations_of_%CF%80"
+      ],
+      "ancora": "pi"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Euclides",
+        "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos.",
+        "variantes": [
+          "Euclides de Alexandria",
+          "Euclid"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Euclides",
+          "https://en.wikipedia.org/wiki/Euclid"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, Euclides disse a um rei do Egito que não existe caminho real para aprender geometria. Que rei era esse?",
+      "resposta": "Ptolomeu I",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euclid"
+      ],
+      "ancora": "euclides"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Dia Internacional da Matemática",
+        "descricao": "Data proclamada pela Unesco em 2019 para celebrar a matemática, comemorada em catorze de março.",
+        "variantes": [
+          "International Day of Mathematics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Day_of_Mathematics"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Dia Internacional da Matemática, proclamado pela Unesco, cai na mesma data de que outra comemoração matemática, mais antiga?",
+      "resposta": "Dia do Pi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Day_of_Mathematics"
+      ],
+      "ancora": "dia_internacional_da_matematica"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "os_elementos",
+        "nome": "Os Elementos",
+        "descricao": "Tratado de matemática em treze livros escrito em Alexandria por volta de 300 a.C.",
+        "variantes": [
+          "Elementos de Euclides"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Os_Elementos",
+          "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Desde a primeira impressão, em 1482, Os Elementos, de Euclides, teria tido mais edições do que qualquer outro livro, com exceção de qual?",
+      "resposta": "A Bíblia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+      ],
+      "distratores": [
+        "O Alcorão",
+        "Dom Quixote",
+        "A Ilíada"
+      ],
+      "ancora": "os_elementos"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "medalha_fields",
+        "nome": "Medalha Fields",
+        "descricao": "Prêmio internacional concedido a cada quatro anos a matemáticos com menos de quarenta anos.",
+        "variantes": [
+          "Fields Medal"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Medalha_Fields",
+          "https://en.wikipedia.org/wiki/Fields_Medal"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que sábio da Grécia Antiga aparece de perfil na face da Medalha Fields?",
+      "resposta": "Arquimedes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fields_Medal"
+      ],
+      "ancora": "medalha_fields"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "O Homem que Calculava",
+        "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil.",
+        "variantes": [
+          "The Man Who Counted"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+          "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Num episódio famoso de O Homem que Calculava, Beremiz resolve a partilha de trinta e cinco animais entre três irmãos. Que animais?",
+      "resposta": "Camelos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Man_Who_Counted",
+        "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava"
+      ],
+      "ancora": "o_homem_que_calculava"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Algarismos romanos",
+        "descricao": "Sistema de numeração da Roma Antiga, que usa letras como I, V, X, L, C, D e M.",
+        "variantes": [
+          "Numeração romana",
+          "Números romanos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana",
+          "https://en.wikipedia.org/wiki/Roman_numerals"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos mostradores de relógio com algarismos romanos, o número quatro costuma aparecer escrito de que forma pouco usual?",
+      "resposta": "Com quatro letras I",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_numerals",
+        "https://en.wikipedia.org/wiki/Clock_face"
+      ],
+      "ancora": "algarismos_romanos"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Problema de Monty Hall",
+        "descricao": "Problema de probabilidade inspirado num programa de auditório americano, em que o jogador escolhe uma entre três portas.",
+        "variantes": [
+          "Monty Hall problem",
+          "Paradoxo de Monty Hall"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monty_Hall_problem",
+          "https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No problema de Monty Hall, depois que o apresentador abre uma porta sem prêmio, o que o jogador deve fazer para dobrar suas chances de ganhar?",
+      "resposta": "Trocar de porta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monty_Hall_problem"
+      ],
+      "ancora": "problema_de_monty_hall"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Maryam Mirzakhani",
+        "descricao": "Matemática iraniana (1977–2017), professora em Stanford e vencedora da Medalha Fields em 2014.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maryam_Mirzakhani",
+          "https://pt.wikipedia.org/wiki/Maryam_Mirzakhani"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em 2014, que matemática iraniana se tornou a primeira mulher a receber a Medalha Fields?",
+      "resposta": "Maryam Mirzakhani",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maryam_Mirzakhani"
+      ],
+      "ancora": "maryam_mirzakhani"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "congresso_internacional_de_matematicos_de_2018",
+      "nome": "Congresso Internacional de Matemáticos de 2018",
+      "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano.",
+      "variantes": [
+        "ICM 2018"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+      ]
+    },
+    {
+      "id": "osso_de_ishango",
+      "nome": "Osso de Ishango",
+      "descricao": "Osso pré-histórico com entalhes, de cerca de vinte mil anos, considerado um dos mais antigos indícios de contagem.",
+      "variantes": [
+        "Ishango bone"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ishango_bone"
+      ]
+    },
+    {
+      "id": "projeto_de_lei_do_pi_de_indiana",
+      "nome": "Projeto de lei do pi de Indiana",
+      "descricao": "Projeto de lei de 1897, no estado americano de Indiana, que tentou oficializar um método errado de calcular a área do círculo, com valores incorretos para pi.",
+      "variantes": [
+        "Indiana Pi Bill"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Indiana_Pi_Bill"
+      ]
+    },
+    {
+      "id": "quaternios",
+      "nome": "Quatérnios",
+      "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843.",
+      "variantes": [
+        "Quaterniões",
+        "Quaternions"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Quaternion"
+      ]
+    },
+    {
+      "id": "o_homem_que_calculava",
+      "nome": "O Homem que Calculava",
+      "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil.",
+      "variantes": [
+        "The Man Who Counted"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+        "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+      ]
+    },
+    {
+      "id": "problemas_de_hilbert",
+      "nome": "Problemas de Hilbert",
+      "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris.",
+      "variantes": [
+        "Hilbert's problems"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+        "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+      ]
+    },
+    {
+      "id": "a_geometria",
+      "nome": "A Geometria",
+      "descricao": "Obra de 1637 publicada como apêndice do Discurso do Método, que uniu a álgebra e a geometria.",
+      "variantes": [
+        "La Géométrie"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+      ]
+    },
+    {
+      "id": "teorema_de_pitagoras",
+      "nome": "Teorema de Pitágoras",
+      "descricao": "Teorema segundo o qual, num triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.",
+      "variantes": [
+        "Pythagorean theorem"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras",
+        "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+      ]
+    },
+    {
+      "id": "teoria_das_probabilidades",
+      "nome": "Teoria das probabilidades",
+      "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654.",
+      "variantes": [
+        "Probabilidade"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Teoria_das_probabilidades",
+        "https://en.wikipedia.org/wiki/Probability_theory"
+      ]
+    },
+    {
+      "id": "ladrilhos_de_penrose",
+      "nome": "Ladrilhos de Penrose",
+      "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+      "variantes": [
+        "Penrose tiling",
+        "Pavimentação de Penrose"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Penrose_tiling"
+      ]
+    },
+    {
+      "id": "jogo_da_vida_2",
+      "nome": "Jogo da Vida",
+      "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples.",
+      "variantes": [
+        "Conway's Game of Life",
+        "Game of Life"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+      ]
+    },
+    {
+      "id": "garrafa_de_klein",
+      "nome": "Garrafa de Klein",
+      "descricao": "Superfície fechada com um só lado, sem interior nem exterior, descrita em 1882.",
+      "variantes": [
+        "Klein bottle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Klein_bottle",
+        "https://pt.wikipedia.org/wiki/Garrafa_de_Klein"
+      ]
+    },
+    {
+      "id": "simbolo_da_raiz_quadrada",
+      "nome": "Símbolo da raiz quadrada",
+      "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+      "variantes": [
+        "Radical",
+        "Sinal de raiz"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Radical_symbol"
+      ]
+    },
+    {
+      "id": "simbolo_da_integral",
+      "nome": "Símbolo da integral",
+      "descricao": "Símbolo em forma de S alongado usado no cálculo para indicar a integral, introduzido por Leibniz.",
+      "variantes": [
+        "Sinal de integral"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Integral_symbol"
+      ]
+    },
+    {
+      "id": "algebra",
+      "nome": "Álgebra",
+      "descricao": "Ramo da matemática que usa letras e símbolos para representar números e resolver equações.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/%C3%81lgebra",
+        "https://en.wikipedia.org/wiki/Algebra"
+      ]
+    },
+    {
+      "id": "geometria",
+      "nome": "Geometria",
+      "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço.",
+      "variantes": [
+        "Geometry"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Geometria",
+        "https://en.wikipedia.org/wiki/Geometry"
+      ]
+    },
+    {
+      "id": "teorema_de_napoleao",
+      "nome": "Teorema de Napoleão",
+      "descricao": "Teorema de geometria segundo o qual os centros de triângulos equiláteros construídos sobre os lados de um triângulo qualquer formam outro triângulo equilátero.",
+      "variantes": [
+        "Napoleon's theorem"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Napoleon%27s_theorem"
+      ]
+    },
+    {
+      "id": "paul_erdos",
+      "nome": "Paul Erdős",
+      "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores.",
+      "variantes": [
+        "Erdős Pál"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "https://pt.wikipedia.org/wiki/Paul_Erd%C5%91s"
+      ]
+    },
+    {
+      "id": "numero_e",
+      "nome": "Número e",
+      "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+      "variantes": [
+        "Número de Euler",
+        "Constante de Napier",
+        "e"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
+        "https://pt.wikipedia.org/wiki/N%C3%BAmero_de_Euler"
+      ]
+    },
+    {
+      "id": "sequencia_de_fibonacci",
+      "nome": "Sequência de Fibonacci",
+      "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci.",
+      "variantes": [
+        "Fibonacci sequence",
+        "Números de Fibonacci"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci",
+        "https://en.wikipedia.org/wiki/Fibonacci_sequence"
+      ]
+    },
+    {
+      "id": "paradoxo_do_aniversario",
+      "nome": "Paradoxo do aniversário",
+      "descricao": "Resultado de probabilidade segundo o qual, num grupo pequeno de pessoas, já é provável que duas façam aniversário no mesmo dia.",
+      "variantes": [
+        "Problema do aniversário",
+        "Birthday problem"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Birthday_problem",
+        "https://pt.wikipedia.org/wiki/Paradoxo_do_anivers%C3%A1rio"
+      ]
+    },
+    {
+      "id": "euclides",
+      "nome": "Euclides",
+      "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos.",
+      "variantes": [
+        "Euclides de Alexandria",
+        "Euclid"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Euclides",
+        "https://en.wikipedia.org/wiki/Euclid"
+      ]
+    },
+    {
+      "id": "dia_internacional_da_matematica",
+      "nome": "Dia Internacional da Matemática",
+      "descricao": "Data proclamada pela Unesco em 2019 para celebrar a matemática, comemorada em catorze de março.",
+      "variantes": [
+        "International Day of Mathematics"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/International_Day_of_Mathematics"
+      ]
+    },
+    {
+      "id": "problema_de_monty_hall",
+      "nome": "Problema de Monty Hall",
+      "descricao": "Problema de probabilidade inspirado num programa de auditório americano, em que o jogador escolhe uma entre três portas.",
+      "variantes": [
+        "Monty Hall problem",
+        "Paradoxo de Monty Hall"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Monty_Hall_problem",
+        "https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall"
+      ]
+    },
+    {
+      "id": "maryam_mirzakhani",
+      "nome": "Maryam Mirzakhani",
+      "descricao": "Matemática iraniana (1977–2017), professora em Stanford e vencedora da Medalha Fields em 2014.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Maryam_Mirzakhani",
+        "https://pt.wikipedia.org/wiki/Maryam_Mirzakhani"
+      ]
+    }
+  ],
+  "variantes": {
+    "pitagoras": [
+      "Pitágoras",
+      "Pitágoras de Samos"
+    ],
+    "leonhard_euler": [
+      "Leonhard Euler",
+      "Euler"
+    ],
+    "dia_do_pi": [
+      "Dia do Pi",
+      "Pi Day"
+    ],
+    "fibonacci": [
+      "Fibonacci",
+      "Leonardo de Pisa",
+      "Leonardo Fibonacci"
+    ],
+    "teorema_das_quatro_cores": [
+      "Teorema das quatro cores",
+      "Four color theorem"
+    ],
+    "conjectura_de_poincare": [
+      "Conjectura de Poincaré",
+      "Poincaré conjecture"
+    ],
+    "calculo": [
+      "Cálculo",
+      "Cálculo diferencial e integral"
+    ],
+    "carl_friedrich_gauss": [
+      "Carl Friedrich Gauss",
+      "Gauss"
+    ],
+    "pi": [
+      "Pi",
+      "π"
+    ],
+    "os_elementos": [
+      "Os Elementos",
+      "Elementos de Euclides"
+    ],
+    "medalha_fields": [
+      "Medalha Fields",
+      "Fields Medal"
+    ],
+    "al_khwarizmi": [
+      "Al-Khwarizmi",
+      "Muhammad ibn Musa al-Khwarizmi",
+      "Al-Khowarizmi"
+    ],
+    "algarismos_indo_arabicos": [
+      "Algarismos indo-arábicos",
+      "Algarismos arábicos",
+      "Numeração indo-arábica"
+    ],
+    "rene_descartes": [
+      "René Descartes",
+      "Cartesius",
+      "Renatus Cartesius"
+    ],
+    "tales_de_mileto": [
+      "Tales de Mileto",
+      "Tales",
+      "Thales"
+    ],
+    "melencolia_i": [
+      "Melencolia I",
+      "Melancolia I"
+    ],
+    "katherine_johnson": [
+      "Katherine Johnson",
+      "Katherine Coleman Goble Johnson"
+    ],
+    "torre_de_hanoi": [
+      "Torre de Hanói",
+      "Torre de Hanoi",
+      "Tower of Hanoi"
+    ],
+    "numeracao_maia": [
+      "Numeração maia",
+      "Maya numerals",
+      "Sistema de numeração maia"
+    ],
+    "sistema_binario": [
+      "Sistema binário",
+      "Sistema de numeração binário",
+      "Binary number"
+    ],
+    "algarismos_romanos": [
+      "Algarismos romanos",
+      "Numeração romana",
+      "Números romanos"
+    ]
+  }
+}

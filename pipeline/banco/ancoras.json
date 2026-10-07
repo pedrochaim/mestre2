@@ -1693,7 +1693,8 @@
     "variantes": [
       "Muhammad ibn Musa al-Khwarizmi",
       "Al-Khuarizmi",
-      "Algoritmi"
+      "Algoritmi",
+      "Al-Khowarizmi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Al-Khwarizmi"
@@ -1866,7 +1867,8 @@
       "Algarismos arábicos",
       "Sistema de numeração indo-arábico",
       "Hindu-Arabic numeral system",
-      "Hindu-Arabic numerals"
+      "Hindu-Arabic numerals",
+      "Numeração indo-arábica"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
@@ -52767,7 +52769,8 @@
     "descricao": "Sistema de numeração posicional dos maias, escrito com pontos, barras e um sinal de concha para o zero.",
     "variantes": [
       "Algarismos maias",
-      "Maya numerals"
+      "Maya numerals",
+      "Sistema de numeração maia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Maya_numerals"
@@ -56112,7 +56115,8 @@
     "descricao": "Filósofo e matemático francês (1596–1650), autor de Discurso do Método.",
     "variantes": [
       "Descartes",
-      "Renatus Cartesius"
+      "Renatus Cartesius",
+      "Cartesius"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
@@ -79040,7 +79044,8 @@
     "descricao": "Sistema de numeração da Roma antiga que usa letras como I, V, X, L, C, D e M.",
     "variantes": [
       "Numeração romana",
-      "Roman numerals"
+      "Roman numerals",
+      "Números romanos"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana",
@@ -98162,7 +98167,9 @@
     "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
     "variantes": [
       "Numeração binária",
-      "Base dois"
+      "Base dois",
+      "Sistema de numeração binário",
+      "Binary number"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Binary_number"
@@ -98303,7 +98310,10 @@
       "wikidata": "Q11740",
       "pt": 5162,
       "en": 71355
-    }
+    },
+    "variantes": [
+      "Katherine Coleman Goble Johnson"
+    ]
   },
   {
     "id": "violoncelo",
@@ -110379,6 +110389,299 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chintz"
+    ]
+  },
+  {
+    "id": "congresso_internacional_de_matematicos_de_2018",
+    "nome": "Congresso Internacional de Matemáticos de 2018",
+    "descricao": "Edição de 2018 do principal congresso mundial de matemática, realizada no Brasil, em que foram entregues as Medalhas Fields daquele ano.",
+    "variantes": [
+      "ICM 2018"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians"
+    ]
+  },
+  {
+    "id": "osso_de_ishango",
+    "nome": "Osso de Ishango",
+    "descricao": "Osso pré-histórico com entalhes, de cerca de vinte mil anos, considerado um dos mais antigos indícios de contagem.",
+    "variantes": [
+      "Ishango bone"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ishango_bone"
+    ]
+  },
+  {
+    "id": "projeto_de_lei_do_pi_de_indiana",
+    "nome": "Projeto de lei do pi de Indiana",
+    "descricao": "Projeto de lei de 1897, no estado americano de Indiana, que tentou oficializar um método errado de calcular a área do círculo, com valores incorretos para pi.",
+    "variantes": [
+      "Indiana Pi Bill"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Indiana_Pi_Bill"
+    ]
+  },
+  {
+    "id": "quaternios",
+    "nome": "Quatérnios",
+    "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843.",
+    "variantes": [
+      "Quaterniões",
+      "Quaternions"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quaternion"
+    ]
+  },
+  {
+    "id": "o_homem_que_calculava",
+    "nome": "O Homem que Calculava",
+    "descricao": "Livro de Malba Tahan sobre as aventuras do calculista persa Beremiz Samir, clássico da divulgação matemática no Brasil.",
+    "variantes": [
+      "The Man Who Counted"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/O_Homem_que_Calculava",
+      "https://en.wikipedia.org/wiki/The_Man_Who_Counted"
+    ]
+  },
+  {
+    "id": "problemas_de_hilbert",
+    "nome": "Problemas de Hilbert",
+    "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris.",
+    "variantes": [
+      "Hilbert's problems"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
+      "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+    ]
+  },
+  {
+    "id": "a_geometria",
+    "nome": "A Geometria",
+    "descricao": "Obra de 1637 publicada como apêndice do Discurso do Método, que uniu a álgebra e a geometria.",
+    "variantes": [
+      "La Géométrie"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+    ]
+  },
+  {
+    "id": "teorema_de_pitagoras",
+    "nome": "Teorema de Pitágoras",
+    "descricao": "Teorema segundo o qual, num triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.",
+    "variantes": [
+      "Pythagorean theorem"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras",
+      "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+    ]
+  },
+  {
+    "id": "teoria_das_probabilidades",
+    "nome": "Teoria das probabilidades",
+    "descricao": "Ramo da matemática que estuda o acaso, cujas bases foram lançadas na correspondência entre Pascal e Fermat em 1654.",
+    "variantes": [
+      "Probabilidade"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Teoria_das_probabilidades",
+      "https://en.wikipedia.org/wiki/Probability_theory"
+    ]
+  },
+  {
+    "id": "ladrilhos_de_penrose",
+    "nome": "Ladrilhos de Penrose",
+    "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+    "variantes": [
+      "Penrose tiling",
+      "Pavimentação de Penrose"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Penrose_tiling"
+    ]
+  },
+  {
+    "id": "jogo_da_vida_2",
+    "nome": "Jogo da Vida",
+    "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples.",
+    "variantes": [
+      "Conway's Game of Life",
+      "Game of Life"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+    ]
+  },
+  {
+    "id": "garrafa_de_klein",
+    "nome": "Garrafa de Klein",
+    "descricao": "Superfície fechada com um só lado, sem interior nem exterior, descrita em 1882.",
+    "variantes": [
+      "Klein bottle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Klein_bottle",
+      "https://pt.wikipedia.org/wiki/Garrafa_de_Klein"
+    ]
+  },
+  {
+    "id": "simbolo_da_raiz_quadrada",
+    "nome": "Símbolo da raiz quadrada",
+    "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+    "variantes": [
+      "Radical",
+      "Sinal de raiz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Radical_symbol"
+    ]
+  },
+  {
+    "id": "simbolo_da_integral",
+    "nome": "Símbolo da integral",
+    "descricao": "Símbolo em forma de S alongado usado no cálculo para indicar a integral, introduzido por Leibniz.",
+    "variantes": [
+      "Sinal de integral"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Integral_symbol"
+    ]
+  },
+  {
+    "id": "algebra",
+    "nome": "Álgebra",
+    "descricao": "Ramo da matemática que usa letras e símbolos para representar números e resolver equações.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/%C3%81lgebra",
+      "https://en.wikipedia.org/wiki/Algebra"
+    ]
+  },
+  {
+    "id": "geometria",
+    "nome": "Geometria",
+    "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço.",
+    "variantes": [
+      "Geometry"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Geometria",
+      "https://en.wikipedia.org/wiki/Geometry"
+    ]
+  },
+  {
+    "id": "teorema_de_napoleao",
+    "nome": "Teorema de Napoleão",
+    "descricao": "Teorema de geometria segundo o qual os centros de triângulos equiláteros construídos sobre os lados de um triângulo qualquer formam outro triângulo equilátero.",
+    "variantes": [
+      "Napoleon's theorem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Napoleon%27s_theorem"
+    ]
+  },
+  {
+    "id": "paul_erdos",
+    "nome": "Paul Erdős",
+    "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores.",
+    "variantes": [
+      "Erdős Pál"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+      "https://pt.wikipedia.org/wiki/Paul_Erd%C5%91s"
+    ]
+  },
+  {
+    "id": "numero_e",
+    "nome": "Número e",
+    "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+    "variantes": [
+      "Número de Euler",
+      "Constante de Napier",
+      "e"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
+      "https://pt.wikipedia.org/wiki/N%C3%BAmero_de_Euler"
+    ]
+  },
+  {
+    "id": "sequencia_de_fibonacci",
+    "nome": "Sequência de Fibonacci",
+    "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci.",
+    "variantes": [
+      "Fibonacci sequence",
+      "Números de Fibonacci"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci",
+      "https://en.wikipedia.org/wiki/Fibonacci_sequence"
+    ]
+  },
+  {
+    "id": "paradoxo_do_aniversario",
+    "nome": "Paradoxo do aniversário",
+    "descricao": "Resultado de probabilidade segundo o qual, num grupo pequeno de pessoas, já é provável que duas façam aniversário no mesmo dia.",
+    "variantes": [
+      "Problema do aniversário",
+      "Birthday problem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Birthday_problem",
+      "https://pt.wikipedia.org/wiki/Paradoxo_do_anivers%C3%A1rio"
+    ]
+  },
+  {
+    "id": "euclides",
+    "nome": "Euclides",
+    "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos.",
+    "variantes": [
+      "Euclides de Alexandria",
+      "Euclid"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Euclides",
+      "https://en.wikipedia.org/wiki/Euclid"
+    ]
+  },
+  {
+    "id": "dia_internacional_da_matematica",
+    "nome": "Dia Internacional da Matemática",
+    "descricao": "Data proclamada pela Unesco em 2019 para celebrar a matemática, comemorada em catorze de março.",
+    "variantes": [
+      "International Day of Mathematics"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/International_Day_of_Mathematics"
+    ]
+  },
+  {
+    "id": "problema_de_monty_hall",
+    "nome": "Problema de Monty Hall",
+    "descricao": "Problema de probabilidade inspirado num programa de auditório americano, em que o jogador escolhe uma entre três portas.",
+    "variantes": [
+      "Monty Hall problem",
+      "Paradoxo de Monty Hall"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Monty_Hall_problem",
+      "https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall"
+    ]
+  },
+  {
+    "id": "maryam_mirzakhani",
+    "nome": "Maryam Mirzakhani",
+    "descricao": "Matemática iraniana (1977–2017), professora em Stanford e vencedora da Medalha Fields em 2014.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maryam_Mirzakhani",
+      "https://pt.wikipedia.org/wiki/Maryam_Mirzakhani"
     ]
   }
 ]

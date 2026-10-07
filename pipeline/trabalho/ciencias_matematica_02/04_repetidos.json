@@ -1,0 +1,406 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O persa Al-Khwarizmi trabalhou na Casa da Sabedoria, um grande centro de estudos do mundo islâmico. Em que cidade ela ficava?",
+        "resposta": "Bagdá"
+      },
+      "existentes": [
+        {
+          "id": "q00097",
+          "pergunta": "O nome do matemático persa al-Khwarizmi, que trabalhou em Bagdá no século nove, deu origem a que palavra essencial da computação?",
+          "resposta": "Algoritmo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O suíço Leonhard Euler passou boa parte da vida trabalhando para a Academia de Ciências da Rússia. Em que cidade ele morreu, em 1783?",
+        "resposta": "São Petersburgo"
+      },
+      "existentes": [
+        {
+          "id": "q00867",
+          "pergunta": "Que matemático suíço é este?",
+          "resposta": "Leonhard Euler"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Os algarismos que usamos no dia a dia são chamados de arábicos, mas surgiram em outro país. Qual?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q00106",
+          "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas os árabes medievais os aprenderam com matemáticos de que região?",
+          "resposta": "Índia"
+        },
+        {
+          "id": "q03360",
+          "pergunta": "Os algarismos que usamos hoje foram criados na Índia. Por que, então, costumam ser chamados de arábicos?",
+          "resposta": "Chegaram à Europa pelos árabes"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O Dia do Pi foi celebrado pela primeira vez em 1988, num museu de ciências de que cidade americana?",
+        "resposta": "São Francisco"
+      },
+      "existentes": [
+        {
+          "id": "q03308",
+          "pergunta": "O Dia do Pi, comemorado em catorze de março, coincide com o aniversário de nascimento de qual físico famoso?",
+          "resposta": "Albert Einstein"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "René Descartes morreu em 1650 numa capital do norte da Europa, para onde tinha ido dar aulas a uma rainha. Que cidade?",
+        "resposta": "Estocolmo"
+      },
+      "existentes": [
+        {
+          "id": "q03739",
+          "pergunta": "Descartes morreu em Estocolmo, em 1650. Que rainha o havia convidado a ir à Suécia para lhe dar aulas de filosofia?",
+          "resposta": "Cristina da Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Ainda jovem, Fibonacci conheceu os algarismos indo-arábicos numa cidade do norte da África, onde o pai trabalhava. Em que país ela fica hoje?",
+        "resposta": "Argélia"
+      },
+      "existentes": [
+        {
+          "id": "q03300",
+          "pergunta": "O matemático medieval Leonardo de Pisa ficou conhecido pelo apelido Fibonacci. O que esse apelido significa?",
+          "resposta": "Filho de Bonacci"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo o historiador Heródoto, Tales de Mileto previu um eclipse do Sol que interrompeu uma batalha. Em que século antes de Cristo?",
+        "resposta": "Século seis antes de Cristo"
+      },
+      "existentes": [
+        {
+          "id": "q03743",
+          "pergunta": "Segundo Platão, Tales de Mileto caiu num poço e virou motivo de riso de uma criada. O que ele estava fazendo?",
+          "resposta": "Olhando para as estrelas"
+        },
+        {
+          "id": "q04732",
+          "pergunta": "Segundo Heródoto, Tales de Mileto previu um eclipse do Sol que interrompeu uma batalha. Em que século antes de Cristo isso aconteceu?",
+          "resposta": "Século seis antes de Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Demonstrado só em 1976, o problema de colorir mapas com apenas quatro cores tinha sido proposto em que século?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q03318",
+          "pergunta": "Por que a demonstração do teorema das quatro cores, em 1976, gerou desconfiança entre muitos matemáticos?",
+          "resposta": "Dependia de um computador"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Proposta pelo francês Henri Poincaré em 1904, a conjectura que leva seu nome foi finalmente demonstrada em que década?",
+        "resposta": "Anos dois mil"
+      },
+      "existentes": [
+        {
+          "id": "q03328",
+          "pergunta": "Que matemático russo demonstrou a conjectura de Poincaré e recusou a Medalha Fields em 2006?",
+          "resposta": "Grigori Perelman"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na gravura Melencolia I, de Albrecht Dürer, um quadrado mágico mostra na linha de baixo o ano em que a obra foi feita. Que ano?",
+        "resposta": "1514"
+      },
+      "existentes": [
+        {
+          "id": "q06480",
+          "pergunta": "Que técnica de gravura Albrecht Dürer usou nesta obra de 1514?",
+          "resposta": "Gravura a buril"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A matemática Katherine Johnson, da NASA, conferiu os cálculos do voo de John Glenn, o primeiro americano a orbitar a Terra. Em que década?",
+        "resposta": "Anos sessenta"
+      },
+      "existentes": [
+        {
+          "id": "q06796",
+          "pergunta": "Que matemática afro-americana da NASA, retratada no filme Estrelas Além do Tempo, verificou os cálculos da trajetória do voo orbital de John Glenn?",
+          "resposta": "Katherine Johnson"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No século dezessete, Isaac Newton disputou a criação do cálculo com um pensador alemão que o desenvolveu de forma independente. Quem?",
+        "resposta": "Gottfried Wilhelm Leibniz"
+      },
+      "existentes": [
+        {
+          "id": "q03295",
+          "pergunta": "A palavra cálculo vem do latim e designava, na origem, um pequeno objeto usado para contar. Que objeto era esse?",
+          "resposta": "Pedrinha"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em 1883, que matemático francês inventou o quebra-cabeça Torre de Hanói, com discos que passam de uma haste para outra?",
+        "resposta": "Édouard Lucas"
+      },
+      "existentes": [
+        {
+          "id": "q06442",
+          "pergunta": "Apesar do nome asiático, o quebra-cabeça Torre de Hanói foi criado em 1883 por um matemático de qual país?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que povo pré-colombiano da América Central escrevia o zero com um símbolo em forma de concha?",
+        "resposta": "Maias"
+      },
+      "existentes": [
+        {
+          "id": "q03519",
+          "pergunta": "A numeração maia, que já usava o zero, tinha como base qual número?",
+          "resposta": "Vinte"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em 1796, Gauss mostrou como construir só com régua e compasso um polígono regular que os gregos não sabiam fazer. Quantos lados ele tem?",
+        "resposta": "Dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q00865",
+          "pergunta": "Que unidade de medida do campo magnético leva o nome deste matemático alemão?",
+          "resposta": "Gauss"
+        },
+        {
+          "id": "q03304",
+          "pergunta": "Pela grandeza de sua obra, o alemão Carl Friedrich Gauss ganhou que apelido ligado à nobreza?",
+          "resposta": "Príncipe dos matemáticos"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q03296",
+          "pergunta": "A letra grega pi foi escolhida para a razão entre a circunferência e o diâmetro por ser a inicial de que palavra grega?",
+          "resposta": "Perímetro (ou periferia)"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O alemão Leibniz, grande divulgador do sistema binário, viu os zeros e uns refletidos nos hexagramas de que antigo livro chinês?",
+        "resposta": "I Ching"
+      },
+      "existentes": [
+        {
+          "id": "q06787",
+          "pergunta": "O filósofo alemão Leibniz viu no sistema binário, de zeros e uns, um paralelo com os hexagramas de qual antigo livro chinês?",
+          "resposta": "I Ching"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Desde a primeira impressão, em 1482, Os Elementos, de Euclides, teria tido mais edições do que qualquer outro livro, com exceção de qual?",
+        "resposta": "A Bíblia"
+      },
+      "existentes": [
+        {
+          "id": "q03233",
+          "pergunta": "Que matemático de Alexandria escreveu Os Elementos, obra usada no ensino de geometria por mais de dois mil anos?",
+          "resposta": "Euclides"
+        },
+        {
+          "id": "q03338",
+          "pergunta": "Em quantos livros se divide Os Elementos, a obra de geometria escrita por Euclides?",
+          "resposta": "Treze"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que sábio da Grécia Antiga aparece de perfil na face da Medalha Fields?",
+        "resposta": "Arquimedes"
+      },
+      "existentes": [
+        {
+          "id": "q03327",
+          "pergunta": "Em 2014, que matemático carioca recebeu a Medalha Fields, um dos prêmios mais importantes da matemática?",
+          "resposta": "Artur Avila"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Nos mostradores de relógio com algarismos romanos, o número quatro costuma aparecer escrito de que forma pouco usual?",
+        "resposta": "Com quatro letras I"
+      },
+      "existentes": [
+        {
+          "id": "q05363",
+          "pergunta": "Nos algarismos romanos, que número é representado pela letra D?",
+          "resposta": "Quinhentos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade da Casa da Sabedoria vs. origem da palavra algoritmo; fatos diferentes (Bagdá só aparece como contexto)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local da morte de Euler vs. identidade do matemático."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: algarismos arábicos vêm da Índia (q00106)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade da primeira celebração vs. aniversário de Einstein."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nova pergunta a cidade (Estocolmo), a existente pergunta a rainha; a existente revela a resposta mas pergunta outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "País onde Fibonacci conheceu os algarismos vs. significado do apelido."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre o século do eclipse previsto por Tales (q04732)."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Século da proposição vs. motivo da desconfiança na demonstração."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Década da demonstração vs. quem demonstrou; fatos distintos."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ano no quadrado mágico vs. técnica de gravura."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Década do voo vs. identidade da matemática."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Rival de Newton no cálculo vs. etimologia da palavra cálculo."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nome do inventor vs. país; saber o país não leva ao nome."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Povo que escrevia zero em concha vs. base da numeração maia."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Polígono de 17 lados vs. unidade gauss e apelido."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Valor de pi na Bíblia vs. origem da letra pi."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Leibniz, binário e I Ching (q06787)."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Livro com mais edições vs. autor ou número de livros."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Figura na Medalha Fields vs. brasileiro premiado em 2014."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Escrita do IIII vs. valor da letra D."
+    }
+  ]
+}
