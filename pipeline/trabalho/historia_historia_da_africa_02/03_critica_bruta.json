@@ -1,0 +1,404 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes; a autoria é a tradicional e o enunciado é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nkrumah foi o primeiro primeiro-ministro de Gana em 1957, como as fontes mostram.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A VOC fundou o posto em 1652, o que as fontes sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Rodésia' vaza o sobrenome Rhodes; troco a pista por outra que não entrega a resposta.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que magnata britânico, mais tarde primeiro-ministro da Colônia do Cabo, fundou em 1888 a mineradora De Beers?",
+        "resposta": "Cecil Rhodes",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/De_Beers",
+          "https://en.wikipedia.org/wiki/Cecil_Rhodes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lalibela é creditado como patrono das igrejas e deu nome à cidade; a pergunta não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zulus derrotaram os britânicos em Isandlwana; fato bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lesseps, diplomata francês, promoveu o canal; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tutu presidiu a comissão; o enunciado é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mbanza Kongo fica em Angola, como a fonte mostra.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kilwa na Tanzânia é confirmado; a cunhagem de moedas em Kilwa é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dezoito anos na ilha e proximidade da Cidade do Cabo estão nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castelo de Elmina, em Gana, construído em 1482.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mau Mau no Quênia, 1952-1960; fato sólido.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "OUA criada em Adis Abeba em 1963.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gao foi a capital estabelecida por Sonni Ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascido em Granada por volta de 1494, segundo as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tombuctu fica ao norte do rio Níger.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Libertado em 1990 após 27 anos de prisão.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Quarenta anos depois de Adwa' é impreciso (1896 a 1935) e funciona como pista da resposta.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano a Itália de Mussolini invadiu a Etiópia, dando início à Segunda Guerra Ítalo-Etíope?",
+        "resposta": "1935",
+        "distratores": [
+          "1922",
+          "1939",
+          "1911"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "https://pt.wikipedia.org/wiki/Segunda_Guerra_%C3%8Dtalo-Et%C3%ADope"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diogo Cão chegou em 1483, século quinze.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A deposição foi em 1974, mas a monarquia só foi formalmente abolida em 1975; o enunciado era impreciso.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano militares do Derg depuseram o imperador etíope Hailé Selassié?",
+        "resposta": "1974",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Haile_Selassie",
+          "https://pt.wikipedia.org/wiki/Hail%C3%A9_Selassi%C3%A9"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apartheid instituído após as eleições de 1948.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Libéria independente em 1847, bem antes dos outros três.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estrutura atual data de 1907, século vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conquista iniciada em 647, século sete.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Início em 1961, com ataques em Luanda e no norte.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monróvia homenageia James Monroe.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rodésia do Norte virou Zâmbia em 1964.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Daomé renomeado Benim em 1975.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome dado por navegadores portugueses em 1462.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tanzânia vem de Tanganica e Zanzibar, unidos em 1964.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Zulu significa 'céu' ou 'povo do céu'; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos foram secretários-gerais da ONU.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bélgica administrou Ruanda-Urundi e o Congo.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira-dama de Moçambique e da África do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Influência iorubá no candomblé baiano bem sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três foram colônias italianas.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crise sucessória levou à união ibérica sob a coroa espanhola.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Invasão marroquina com armas de fogo em 1591.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O Cabo da Boa Esperança não é o ponto mais ao sul da África; troco 'extremo sul' por 'litoral sul-africano'.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Antes do Canal de Suez, os navios entre a Europa e a Ásia precisavam contornar a África passando por qual cabo, no litoral da África do Sul?",
+        "resposta": "Cabo da Boa Esperança",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Suez_Canal",
+          "https://pt.wikipedia.org/wiki/Canal_de_Suez"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado com 'descoberta de que pedras preciosas' confuso para ouvir; reformulo.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Que pedras preciosas, descobertas no fim do século dezenove, atraíram milhares de europeus à região de Kimberley, na África do Sul?",
+        "resposta": "Diamantes",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape",
+          "https://en.wikipedia.org/wiki/Big_Hole"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guerra de cerca de 40 minutos (38 a 45), fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 100 dias, segundo as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Muitas peças são de latão, não de bronze.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regimento exclusivamente feminino do Daomé.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Único país africano com espanhol oficial; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Namíbia foi colônia alemã até 1915; os demais não foram.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Banco de Ouro desceu do céu segundo a lenda axânti.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Búzios usados como moeda na África Ocidental.",
+      "reescrita": null
+    }
+  ]
+}

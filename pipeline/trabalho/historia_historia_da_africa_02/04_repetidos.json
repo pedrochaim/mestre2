@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1957, que líder conduziu a Costa do Ouro à independência e se tornou o primeiro-ministro do novo país, Gana?",
+        "resposta": "Kwame Nkrumah"
+      },
+      "existentes": [
+        {
+          "id": "q04908",
+          "pergunta": "Ao se tornar independente em 1957, a Costa do Ouro adotou o nome de qual antigo império africano, que ficava a centenas de quilômetros dali?",
+          "resposta": "Império de Gana"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1652, que empresa europeia fundou o posto de abastecimento de navios que deu origem à Cidade do Cabo?",
+        "resposta": "Companhia Holandesa das Índias Orientais"
+      },
+      "existentes": [
+        {
+          "id": "q00366",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Cidade do Cabo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que diplomata francês liderou a construção do Canal de Suez, inaugurado em 1869?",
+        "resposta": "Ferdinand de Lesseps"
+      },
+      "existentes": [
+        {
+          "id": "q02222",
+          "pergunta": "Em que século foi inaugurado o canal de Suez, que liga o Mediterrâneo ao mar Vermelho?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05602",
+          "pergunta": "Que diplomata francês liderou a construção do canal que, em 1869, ligou o Mediterrâneo ao Mar Vermelho, no Egito?",
+          "resposta": "Ferdinand de Lesseps"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nelson Mandela passou dezoito de seus anos de prisão na Ilha Robben, diante de que cidade sul-africana?",
+        "resposta": "Cidade do Cabo"
+      },
+      "existentes": [
+        {
+          "id": "q02211",
+          "pergunta": "O que liga a ilha Robben, diante da Cidade do Cabo, ao líder sul-africano Nelson Mandela?",
+          "resposta": "Ele ficou preso lá"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1482, os portugueses ergueram o Castelo de São Jorge da Mina, depois um grande entreposto de escravizados. Em que país ele está hoje?",
+        "resposta": "Gana"
+      },
+      "existentes": [
+        {
+          "id": "q03683",
+          "pergunta": "O Castelo de São Jorge da Mina, erguido pelos portugueses em 1482 no litoral africano, fica em que país atual?",
+          "resposta": "Gana"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Tombuctu, centro de comércio e de saber do Império do Mali, fica perto de que grande rio da África Ocidental?",
+        "resposta": "Rio Níger"
+      },
+      "existentes": [
+        {
+          "id": "q07566",
+          "pergunta": "Famosa como sinônimo de lugar remoto, a cidade histórica de Tombuctu fica em qual país africano?",
+          "resposta": "Mali"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ano militares do Derg depuseram o imperador etíope Hailé Selassié?",
+        "resposta": "1974"
+      },
+      "existentes": [
+        {
+          "id": "q01556",
+          "pergunta": "Que religião nascida na Jamaica considera este imperador etíope uma figura divina?",
+          "resposta": "Rastafári"
+        },
+        {
+          "id": "q04914",
+          "pergunta": "Tafari Makonnen reinou na Etiópia com seu nome de batismo, Hailé Selassié. O que esse nome significa?",
+          "resposta": "Poder da Trindade"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O Partido Nacional venceu as eleições sul-africanas e transformou o apartheid em política oficial em que ano?",
+        "resposta": "1948"
+      },
+      "existentes": [
+        {
+          "id": "q07241",
+          "pergunta": "Na língua africâner, o que significa a palavra apartheid, nome do regime racista que vigorou na África do Sul?",
+          "resposta": "Separação"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Qual destes países africanos se tornou independente primeiro?",
+        "resposta": "Libéria"
+      },
+      "existentes": [
+        {
+          "id": "q00016",
+          "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+          "resposta": "Afro-americanos libertos"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Apesar do aspecto medieval, a atual Grande Mesquita de Djenné, no Mali, foi construída em que século?",
+        "resposta": "Século vinte"
+      },
+      "existentes": [
+        {
+          "id": "q04949",
+          "pergunta": "A Grande Mesquita de Djenné, no Mali, é reformada todo ano numa festa popular. De que material ela é feita?",
+          "resposta": "Tijolos de barro"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A capital da Libéria, fundada por ex-escravizados vindos dos Estados Unidos, tem um nome que homenageia qual presidente americano?",
+        "resposta": "James Monroe"
+      },
+      "existentes": [
+        {
+          "id": "q00006",
+          "pergunta": "A capital da Libéria recebeu seu nome em homenagem a qual presidente dos Estados Unidos?",
+          "resposta": "James Monroe"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O nome Tanzânia, criado em 1964, junta os nomes de quais dois territórios que se uniram naquele ano?",
+        "resposta": "Tanganica e Zanzibar"
+      },
+      "existentes": [
+        {
+          "id": "q00007",
+          "pergunta": "O nome Tanzânia foi criado em 1964, na união de dois territórios africanos. Quais eram eles?",
+          "resposta": "Tanganica e Zanzibar"
+        },
+        {
+          "id": "q05754",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Dodoma"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Os massacres do genocídio em Ruanda, em 1994, ficaram conhecidos por terem durado cerca de quantos dias?",
+        "resposta": "Cem dias"
+      },
+      "existentes": [
+        {
+          "id": "q04922",
+          "pergunta": "Em abril de 1994, que acontecimento desencadeou o genocídio em Ruanda?",
+          "resposta": "Derrubada do avião presidencial"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Apesar do nome, de que liga metálica é feita a maior parte dos Bronzes de Benim?",
+        "resposta": "Latão"
+      },
+      "existentes": [
+        {
+          "id": "q04923",
+          "pergunta": "Em 1897, que acontecimento levou milhares de Bronzes de Benim, da atual Nigéria, para museus da Europa?",
+          "resposta": "Expedição punitiva britânica"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Qual destes países africanos tem o espanhol como língua oficial, herança de sua colonização?",
+        "resposta": "Guiné Equatorial"
+      },
+      "existentes": [
+        {
+          "id": "q00797",
+          "pergunta": "Que país africano, antiga colônia espanhola, adotou o português como uma de suas línguas oficiais no início da década de 2010?",
+          "resposta": "Guiné Equatorial"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o líder da independência, não a origem do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente é identificação de imagem; fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05602",
+      "motivo": "Mesmo fato: Lesseps construiu o canal de Suez."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q02211",
+      "motivo": "Mesma relação Mandela/Robben/Cidade do Cabo; a existente já revela a cidade e a ligação com a prisão."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q03683",
+      "motivo": "Mesma pergunta: país do Castelo de São Jorge da Mina."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rio próximo vs. país de Tombuctu; fatos diferentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ano da deposição é fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ano de adoção vs. significado da palavra."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Primeira independência vs. origem dos fundadores."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Século de construção vs. material."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q00006",
+      "motivo": "Mesmo fato: homenageado no nome Monróvia."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q00007",
+      "motivo": "Mesmo fato: origem do nome Tanzânia."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Duração vs. gatilho do genocídio."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Liga metálica vs. saque de 1897."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Existente fala do português como língua oficial, a nova do espanhol; fatos diferentes."
+    }
+  ]
+}
