@@ -1,0 +1,129 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arco inclinado e cobertura inconfundíveis, sem texto, legível no celular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio é este?",
+      "resposta": "Estádio Moses Mabhida",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Moses Mabhida",
+        "descricao": "Estádio de futebol em Durban, África do Sul, com grande arco sobre o campo, sede da Copa do Mundo de 2010.",
+        "variantes": [
+          "Moses Mabhida Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Interior genérico, sem traço distintivo, e com texto visível (FIFA World Cup Qatar, patrocinadores) que entrega o contexto."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Trampolim de esqui muito característico, sem texto legível que entregue a resposta; só a bandeira da Noruega aparece.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que trampolim de saltos de esqui é este?",
+      "resposta": "Holmenkollbakken",
+      "destino": 1,
+      "ancora": {
+        "nome": "Holmenkollbakken",
+        "descricao": "Grande trampolim de saltos de esqui em Holmenkollen, Oslo, Noruega, sede dos Jogos Olímpicos de Inverno de 1952.",
+        "variantes": [
+          "Holmenkollen",
+          "Holmenkollen Ski Jump"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O letreiro 'stadion feijenoord' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea com teto e mastros característicos, sem texto legível; para um estádio menos famoso, múltipla escolha com estádios de rúgbi parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é este?",
+      "resposta": "Millennium Stadium (hoje Principality Stadium)",
+      "distratores": [
+        "Murrayfield",
+        "Twickenham",
+        "Aviva Stadium"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Millennium Stadium",
+        "descricao": "Estádio nacional do País de Gales, em Cardiff, com teto retrátil, chamado Principality Stadium desde 2016.",
+        "variantes": [
+          "Principality Stadium",
+          "Estádio do Milênio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O barco com 'BILBOATS.COM' na imagem sugere a cidade e enfraquece a pergunta; a resposta deixa de depender só do estádio."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O logotipo da Mercedes-Benz na fachada entrega o nome do estádio."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada com estrutura metálica e colunas azuis, sem texto legível; para um estádio de aficionado, múltipla escolha com outros estádios de rúgbi.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é este?",
+      "resposta": "Murrayfield",
+      "distratores": [
+        "Twickenham",
+        "Millennium Stadium",
+        "Stade de France"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Murrayfield",
+        "descricao": "Estádio nacional de rúgbi da Escócia, em Edimburgo.",
+        "variantes": [
+          "Murrayfield Stadium",
+          "Estádio Murrayfield"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, além de patrocinadores visíveis (Shell, Casino)."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Logotipo 'Hard Rock' e texto de times visíveis entregam a resposta; panorama de baixa resolução."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O letreiro 'SoFi Stadium' é legível no telão e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O texto 'AVIVA' nas arquibancadas entrega o nome do estádio."
+    }
+  ]
+}

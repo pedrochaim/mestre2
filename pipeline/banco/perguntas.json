@@ -135777,5 +135777,95 @@
       "autor": "Original: National Liberation Front of Algeria Vector: SKopp",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q07962",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_moses_mabhida",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Estádio Moses Mabhida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moses_Mabhida_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Moses_Mabhida"
+    ],
+    "imagem": {
+      "arquivo": "q07962.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mabhida_Stadium.jpg",
+      "autor": "Blastworlddbn",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q07963",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "holmenkollbakken",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que trampolim de saltos de esqui é este?",
+    "resposta": "Holmenkollbakken",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Holmenkollbakken",
+      "https://pt.wikipedia.org/wiki/Holmenkollbakken"
+    ],
+    "imagem": {
+      "arquivo": "q07963.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:19-08-25-Oslo_Holmenkollenbakken-RalfR.jpg",
+      "autor": "Ralf Roletschek",
+      "licenca": "CC BY-SA 1.0 fi"
+    }
+  },
+  {
+    "id": "q07964",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "millennium_stadium",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Millennium Stadium (hoje Principality Stadium)",
+    "distratores": [
+      "Murrayfield",
+      "Twickenham",
+      "Aviva Stadium"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Millennium_Stadium",
+      "https://pt.wikipedia.org/wiki/Millennium_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q07964.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Principality_Stadium_May_3,_2016.jpg",
+      "autor": "Clint Budd from About 15 miles North of Swansea, Wales",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q07965",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "murrayfield",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Murrayfield",
+    "distratores": [
+      "Twickenham",
+      "Millennium Stadium",
+      "Stade de France"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Murrayfield_Stadium",
+      "https://pt.wikipedia.org/wiki/Murrayfield_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q07965.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Murrayfield_Stadium_2005-05-13.jpg",
+      "autor": "Photo taken by Vclaw",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
