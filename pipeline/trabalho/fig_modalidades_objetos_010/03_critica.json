@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta genérica, sem vazamento; resposta sustentada pelos trechos e distratores plausíveis e de outras modalidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; escalada esportiva definida nos trechos; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'Patinete' não é tipo de patins, então não é do mesmo tipo da resposta. Troca por distrator de patins.",
+      "reescrita": {
+        "pergunta": "Que tipo de patins é este?",
+        "resposta": "Patins quad",
+        "distratores": [
+          "Patins em linha",
+          "Patins de gelo",
+          "Patins de três rodas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta limpa; distratores são provas de lançamento do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta com '(wrestling)' se confunde com o distrator 'Luta olímpica', que também é wrestling. Resposta simplificada e distrator trocado.",
+      "reescrita": {
+        "pergunta": "Que modalidade de luta é esta?",
+        "resposta": "Luta livre profissional",
+        "distratores": [
+          "Boxe",
+          "MMA",
+          "Sumô"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta passa: sem a figura não se sabe qual bandeira. Os trechos confirmam que a quadriculada indica o fim da corrida.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'na areia' ajuda sem entregar a resposta; luta senegalesa sustentada pelos trechos; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta dependente da figura, sem vazamento; fita é um dos cinco aparelhos e os distratores são outros aparelhos.",
+      "reescrita": null
+    }
+  ]
+}

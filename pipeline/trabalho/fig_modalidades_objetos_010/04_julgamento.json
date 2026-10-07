@@ -1,0 +1,566 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bilhar americano",
+        "descricao": "Grupo de jogos de taco (pool) disputados em mesa com seis caçapas e bolas numeradas, como o eight-ball e o nine-ball.",
+        "variantes": [
+          "Sinuca",
+          "Pool",
+          "Bilhar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Escalada esportiva",
+        "descricao": "Modalidade de escalada em rocha em que o escalador prende a corda a ancoragens fixas pré-instaladas na parede.",
+        "variantes": [
+          "Sport climbing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estoicismo",
+          "nome": "Estoicismo",
+          "descricao": "Escola filosófica fundada por Zenão de Cítio em Atenas, por volta de 300 a.C.",
+          "variantes": [
+            "Escola estoica",
+            "Stoicism"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "natacao",
+          "nome": "Natação",
+          "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+          "variantes": [
+            "Natação esportiva",
+            "Natação competitiva"
+          ]
+        },
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        },
+        {
+          "id": "traje_espacial",
+          "nome": "Traje espacial",
+          "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+          "variantes": [
+            "Roupa espacial",
+            "Escafandro espacial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Patins",
+        "descricao": "Calçado com rodas fixadas sob a sola, usado para deslizar em superfícies duras; o modelo mostrado tem duas rodas em cada eixo (quad).",
+        "variantes": [
+          "Patins quad",
+          "Patins de quatro rodas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "paris",
+          "nome": "Paris",
+          "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Corrida de cavalos",
+        "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+        "variantes": [
+          "Turfe",
+          "Hipismo de corrida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "surfe",
+          "nome": "Surfe",
+          "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+          "variantes": [
+            "Surf"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "kitesurfe",
+          "nome": "Kitesurfe",
+          "descricao": "Esporte em que o praticante é puxado sobre a água por uma grande pipa de tração, de pé numa prancha.",
+          "variantes": [
+            "Kiteboarding",
+            "Kitesurf",
+            "Kiteboard"
+          ]
+        },
+        {
+          "id": "corrida_de_carregar_a_esposa",
+          "nome": "Corrida de carregar a esposa",
+          "descricao": "Competição em que homens carregam a esposa nas costas por uma pista com obstáculos, com campeonato mundial em Sonkajärvi.",
+          "variantes": [
+            "Wife-carrying",
+            "Eukonkanto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arremesso de peso",
+        "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+        "variantes": [
+          "Lançamento de peso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lancamento_de_martelo",
+          "nome": "Lançamento de martelo",
+          "descricao": "Prova de atletismo em que o atleta arremessa uma bola de metal presa por um cabo de aço a uma empunhadura.",
+          "variantes": [
+            "Hammer throw"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo"
+          ]
+        },
+        {
+          "id": "julgamento_de_scopes",
+          "nome": "Julgamento de Scopes",
+          "descricao": "Processo judicial de 1925, em Dayton, Tennessee, contra o professor John Scopes por ensinar a evolução humana numa escola pública.",
+          "variantes": [
+            "Scopes trial",
+            "Julgamento do Macaco",
+            "Scopes Monkey Trial"
+          ]
+        },
+        {
+          "id": "imponderabilidade",
+          "nome": "Imponderabilidade",
+          "descricao": "Sensação de ausência de peso vivida por quem está em queda livre, como os astronautas em órbita.",
+          "variantes": [
+            "Ausência de peso",
+            "Microgravidade",
+            "Weightlessness"
+          ]
+        },
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Luta livre profissional",
+        "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+        "variantes": [
+          "Wrestling",
+          "Pro wrestling",
+          "Luta profissional"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sting",
+          "nome": "Sting",
+          "descricao": "Cantor e baixista britânico, ex-vocalista do The Police, nascido Gordon Sumner",
+          "variantes": [
+            "Gordon Sumner"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "luta_greco_romana",
+          "nome": "Luta greco-romana",
+          "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
+          "variantes": [
+            "Greco-Roman wrestling",
+            "Luta francesa"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "libra_esterlina",
+          "nome": "Libra esterlina",
+          "descricao": "Moeda oficial do Reino Unido, representada por um L cortado.",
+          "variantes": [
+            "Pound sterling",
+            "Libra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira quadriculada",
+        "descricao": "Bandeira de xadrez preto e branco usada no automobilismo para indicar o fim da prova.",
+        "variantes": [
+          "Bandeira xadrez",
+          "Bandeira de chegada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "bandeira_de_gadsden",
+          "nome": "Bandeira de Gadsden",
+          "descricao": "Bandeira amarela com uma cascavel enrolada e o lema 'Dont Tread on Me', criada por Christopher Gadsden em 1775.",
+          "variantes": [
+            "Gadsden flag",
+            "Don't Tread on Me"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Luta senegalesa",
+        "descricao": "Luta tradicional do Senegal, disputada na areia, esporte nacional do país.",
+        "variantes": [
+          "Laamb",
+          "Lutte sénégalaise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_senegal",
+          "nome": "Bandeira do Senegal",
+          "descricao": "Bandeira nacional do Senegal, tricolor vertical verde, amarela e vermelha com estrela verde central.",
+          "variantes": [
+            "Senegal",
+            "Bandeira senegalesa"
+          ]
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "chorando_se_foi",
+          "nome": "Chorando se Foi",
+          "descricao": "Lambada gravada pelo grupo Kaoma em 1989, conhecida internacionalmente como Lambada.",
+          "variantes": [
+            "Lambada"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        },
+        {
+          "id": "palenque",
+          "nome": "Palenque",
+          "descricao": "Antiga cidade-estado maia em Chiapas, no sul do México, com o Palácio e sua torre.",
+          "variantes": [
+            "Sítio arqueológico de Palenque",
+            "Lakamha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Fita (ginástica rítmica)",
+        "descricao": "Aparelho da ginástica rítmica formado por uma fita de cetim presa a uma vareta, movimentada em figuras no ar.",
+        "variantes": [
+          "Ribbon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_ginastica_ritmica",
+          "nome": "Arco (ginástica rítmica)",
+          "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+          "variantes": [
+            "Ginástica rítmica",
+            "Bambolê"
+          ]
+        },
+        {
+          "id": "ginastica_ritmica",
+          "nome": "Ginástica rítmica",
+          "descricao": "Modalidade de ginástica com música em que as atletas se apresentam com aparelhos manuais.",
+          "variantes": []
+        },
+        {
+          "id": "ginastica_artistica",
+          "nome": "Ginástica artística",
+          "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+          "variantes": [
+            "Ginástica olímpica"
+          ]
+        },
+        {
+          "id": "kibon",
+          "nome": "Kibon",
+          "descricao": "Marca de sorvetes fundada no Brasil nos anos 1940 pelo empresário americano Ulysses Harkson.",
+          "variantes": [
+            "U.S. Harkson do Brasil"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bilhar/pool."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é escalada esportiva."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é patins."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é corrida de cavalos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Arremesso de peso é prova distinta de martelo, dardo etc."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Luta livre profissional difere da luta greco-romana e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bandeira quadriculada de corrida não corresponde a nenhuma bandeira nacional candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Luta senegalesa é distinta da bandeira do Senegal."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fita é um aparelho distinto do arco e da modalidade."
+    }
+  ]
+}

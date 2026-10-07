@@ -1,0 +1,226 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jogador em torneio, mesa azul e bolas numeradas identificam o bilhar americano; placa 'Sauerland' não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que modalidade de jogo de mesa com tacos é esta?",
+      "resposta": "Bilhar americano",
+      "distratores": [
+        "Sinuca inglesa",
+        "Carambola",
+        "Bilhar russo"
+      ],
+      "ancora": {
+        "nome": "Bilhar americano",
+        "descricao": "Grupo de jogos de taco (pool) disputados em mesa com seis caçapas e bolas numeradas, como o eight-ball e o nine-ball.",
+        "variantes": [
+          "Pool",
+          "Sinuca",
+          "Bilhar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Escalador em parede com fitas expressas e cordas, claramente escalada esportiva; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que modalidade de escalada é esta?",
+      "resposta": "Escalada esportiva",
+      "distratores": [
+        "Boulder",
+        "Alpinismo",
+        "Rapel"
+      ],
+      "ancora": {
+        "nome": "Escalada esportiva",
+        "descricao": "Modalidade de escalada em rocha em que o escalador prende a corda a ancoragens fixas pré-instaladas na parede.",
+        "variantes": [
+          "Sport climbing"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "As fitas e o troféu trazem 'Barclays Premier League' em texto legível, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Patins de quatro rodas em dois eixos, claros e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de patins é este?",
+      "resposta": "Patins quad",
+      "distratores": [
+        "Patins em linha",
+        "Patins de gelo",
+        "Patinete"
+      ],
+      "ancora": {
+        "nome": "Patins",
+        "descricao": "Calçado com rodas fixadas sob a sola, usado para deslizar em superfícies duras; o modelo mostrado tem duas rodas em cada eixo (quad).",
+        "variantes": [
+          "Patins quad",
+          "Patins de quatro rodas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Corrida de cavalos com jovens montados por jóqueis em pista de grama; clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que esporte é este?",
+      "resposta": "Corrida de cavalos",
+      "distratores": [],
+      "ancora": {
+        "nome": "Corrida de cavalos",
+        "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+        "variantes": [
+          "Turfe",
+          "Hipismo de corrida"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Atleta segurando a bola junto ao pescoço dentro do círculo com batedor, arremesso de peso claro; sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que prova do atletismo é esta?",
+      "resposta": "Arremesso de peso",
+      "distratores": [
+        "Lançamento de disco",
+        "Lançamento de martelo",
+        "Lançamento de dardo"
+      ],
+      "ancora": {
+        "nome": "Arremesso de peso",
+        "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+        "variantes": [
+          "Lançamento de peso"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e quadra com linhas de tênis, o que deixa o esporte ambíguo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Luta profissional em ringue, com lutador em salto e juiz; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que modalidade de luta é esta?",
+      "resposta": "Luta livre profissional (wrestling)",
+      "distratores": [
+        "Boxe",
+        "MMA",
+        "Luta olímpica"
+      ],
+      "ancora": {
+        "nome": "Luta livre profissional",
+        "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+        "variantes": [
+          "Wrestling",
+          "Pro wrestling",
+          "Luta profissional"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fiscal agitando a bandeira quadriculada num autódromo de terra, sem texto; a pergunta indica a bandeira agitada no alto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que sinal dá aos pilotos a bandeira que este homem agita no alto?",
+      "resposta": "O fim da corrida",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira quadriculada",
+        "descricao": "Bandeira de xadrez preto e branco usada no automobilismo para indicar o fim da prova.",
+        "variantes": [
+          "Bandeira xadrez",
+          "Bandeira de chegada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois lutadores na areia com cintos de búzios e tangas, típicos da luta senegalesa; patrocinador parcial no fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que luta tradicional é esta, disputada na areia?",
+      "resposta": "Luta senegalesa",
+      "distratores": [
+        "Sumô",
+        "Kushti indiano",
+        "Luta greco-romana"
+      ],
+      "ancora": {
+        "nome": "Luta senegalesa",
+        "descricao": "Luta tradicional do Senegal, disputada na areia, esporte nacional do país.",
+        "variantes": [
+          "Laamb",
+          "Lutte sénégalaise"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ginasta competindo com a fita, aparelho claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que aparelho da ginástica rítmica ela usa?",
+      "resposta": "Fita",
+      "distratores": [
+        "Arco",
+        "Maças",
+        "Corda"
+      ],
+      "ancora": {
+        "nome": "Fita (ginástica rítmica)",
+        "descricao": "Aparelho da ginástica rítmica formado por uma fita de cetim presa a uma vareta, movimentada em figuras no ar.",
+        "variantes": [
+          "Ribbon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Praticantes comuns em primeiro plano, e um salto com chute isolado não identifica o pencak silat (poderia ser outra arte marcial); o templo distrai."
+    }
+  ]
+}
