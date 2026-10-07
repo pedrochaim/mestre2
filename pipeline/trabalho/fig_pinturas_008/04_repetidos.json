@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século foi pintado este teto, obra de um mestre do Renascimento?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q06560",
+          "pergunta": "Michelangelo começou a pintar o teto da Capela Sistina em 1508. Em que ano terminou o trabalho?",
+          "resposta": "1512"
+        },
+        {
+          "id": "q06592",
+          "pergunta": "No centro do teto da Capela Sistina, Michelangelo pintou quantas cenas do livro do Gênesis?",
+          "resposta": "Nove"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pintor realista russo fez este quadro?",
+        "resposta": "Ilya Repin"
+      },
+      "existentes": [
+        {
+          "id": "q06570",
+          "pergunta": "Que pintor russo do século dezenove retratou o czar Ivan, o Terrível, abraçando o filho que ele acabara de ferir de morte?",
+          "resposta": "Ilya Repin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o século da pintura; as existentes tratam do ano de término e do número de cenas, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem o pintor (Ilya Repin) do mesmo quadro, Ivan, o Terrível e seu filho; quem sabe uma sabe a outra."
+    }
+  ]
+}

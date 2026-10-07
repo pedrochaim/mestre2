@@ -1,0 +1,128 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado entre 1508 e 1512, século dezesseis; enunciado verdadeiro e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o tema do quadro (independência dos EUA), o que permite responder sem a figura. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Que pintor americano fez este quadro histórico?",
+        "resposta": "John Trumbull",
+        "distratores": [
+          "Benjamin West",
+          "Emanuel Leutze",
+          "Gilbert Stuart"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrever 'ruínas entre carvalhos' quase repete o título da obra e entrega a resposta sem a imagem. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Que pintor romântico alemão fez este quadro?",
+        "resposta": "Caspar David Friedrich",
+        "distratores": [
+          "Philipp Otto Runge",
+          "Carl Gustav Carus",
+          "Johan Christian Dahl"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Van Gogh pintou os Campos de Trigo com Ciprestes em 1889; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado por volta de 1659–1661, século dezessete; o enunciado é correto e não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A série de Monet retrata a fachada da Catedral de Ruão; os distratores são catedrais góticas francesas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilya Repin é descrito como pintor realista russo; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Citar Van Gogh e o quadro noturno de um rio permite acertar sem a figura. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Que rio francês aparece neste quadro noturno?",
+        "resposta": "Ródano",
+        "distratores": [
+          "Sena",
+          "Loire",
+          "Garona"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'pintado na parede de sua casa', com 'pintor espanhol', identifica Goya e as Pinturas Negras sem a imagem. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Que pintor espanhol fez este quadro?",
+        "resposta": "Francisco de Goya",
+        "distratores": [
+          "Diego Velázquez",
+          "El Greco",
+          "Bartolomé Murillo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Millet é um pintor francês do século dezenove (obra de 1850); os distratores são pintores franceses da mesma época.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fogos de artifício sobre um jardim de Londres identifica o Falling Rocket e Whistler sem a imagem. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Quem pintou este quadro, de cerca de 1875?",
+        "resposta": "James McNeill Whistler",
+        "distratores": [
+          "William Turner",
+          "John Singer Sargent",
+          "Claude Monet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caravaggio é descrito como mestre do barroco italiano; os distratores são pintores italianos próximos e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

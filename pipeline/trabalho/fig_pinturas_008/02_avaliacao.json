@@ -1,0 +1,274 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Teto inteiro, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi pintado este teto, obra de um mestre do Renascimento?",
+      "resposta": "Século dezesseis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Teto da Capela Sistina",
+        "descricao": "Afresco de Michelangelo no teto da Capela Sistina, no Vaticano, pintado entre 1508 e 1512.",
+        "variantes": [
+          "Soffitto della Cappella Sistina",
+          "Sistine Chapel ceiling"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Quadro famoso, sem texto; autoria é pergunta justa em múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor americano fez este quadro sobre a independência dos Estados Unidos?",
+      "resposta": "John Trumbull",
+      "distratores": [
+        "Benjamin West",
+        "Emanuel Leutze",
+        "Gilbert Stuart"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Declaração de Independência (Trumbull)",
+        "descricao": "Pintura a óleo de John Trumbull que mostra a apresentação do rascunho da Declaração de Independência ao Congresso americano.",
+        "variantes": [
+          "Declaration of Independence"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor romântico alemão fez este quadro de ruínas entre carvalhos?",
+      "resposta": "Caspar David Friedrich",
+      "distratores": [
+        "Philipp Otto Runge",
+        "Carl Gustav Carus",
+        "Johan Christian Dahl"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abadia no Carvalhal",
+        "descricao": "Pintura a óleo de Caspar David Friedrich (1809-1810) com ruínas de uma abadia gótica entre carvalhos secos.",
+        "variantes": [
+          "Abtei im Eichwald",
+          "The Abbey in the Oakwood"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra emblemática, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem pintou esta paisagem, em 1889?",
+      "resposta": "Vincent van Gogh",
+      "destino": 0,
+      "ancora": {
+        "nome": "Campo de Trigo com Ciprestes",
+        "descricao": "Pintura a óleo de Vincent van Gogh de 1889 com um campo de trigo, ciprestes e céu turbulento.",
+        "variantes": [
+          "Wheat Field with Cypresses",
+          "A Wheatfield with Cypresses"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista de Delft é reconhecível; sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi pintado este quadro de uma cidade holandesa?",
+      "resposta": "Século dezessete",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vista de Delft",
+        "descricao": "Pintura a óleo de Johannes Vermeer (c. 1659-1661) que mostra a cidade de Delft vista do outro lado do canal.",
+        "variantes": [
+          "View of Delft",
+          "Zicht op Delft"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada característica; assinatura minúscula ilegível e a pergunta não é sobre o autor.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que catedral francesa o pintor retratou nesta fachada?",
+      "resposta": "Catedral de Ruão",
+      "distratores": [
+        "Catedral de Chartres",
+        "Catedral de Amiens",
+        "Catedral de Reims"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Rouen (Monet)",
+        "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+        "variantes": [
+          "Catedral de Ruão",
+          "Rouen Cathedral",
+          "Série Catedral de Rouen"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra famosa; assinatura cirílica minúscula, ilegível no celular.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor realista russo fez este quadro?",
+      "resposta": "Ilya Repin",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ivan, o Terrível, e Seu Filho",
+        "descricao": "Pintura de Ilya Repin (1883-1885) que mostra o tsar Ivan, o Terrível, abraçando o filho ferido.",
+        "variantes": [
+          "Ivan the Terrible and His Son Ivan",
+          "Ivan, o Terrível, e o Seu Filho Ivan em 16 de Novembro de 1581"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rio francês aparece neste quadro noturno de Van Gogh?",
+      "resposta": "Ródano",
+      "distratores": [
+        "Sena",
+        "Loire",
+        "Garona"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Noite Estrelada sobre o Ródano",
+        "descricao": "Pintura de Vincent van Gogh (1888) do céu estrelado sobre o rio Ródano, em Arles.",
+        "variantes": [
+          "Starry Night Over the Rhône",
+          "La Nuit étoilée"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, composição singular; boa em múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor espanhol fez este quadro, pintado direto na parede de sua casa?",
+      "resposta": "Francisco de Goya",
+      "distratores": [
+        "Diego Velázquez",
+        "El Greco",
+        "Bartolomé Murillo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Cão (Goya)",
+        "descricao": "Pintura negra de Francisco de Goya, no Museu do Prado, com a cabeça de um cão olhando para cima.",
+        "variantes": [
+          "El Perro",
+          "The Dog",
+          "Cão semi-submerso"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Figura única, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor francês do século dezenove fez este quadro?",
+      "resposta": "Jean-François Millet",
+      "distratores": [
+        "Gustave Courbet",
+        "Honoré Daumier",
+        "Camille Corot"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Semeador (Millet)",
+        "descricao": "Pintura a óleo de Jean-François Millet (1850) de um camponês semeando, no Museu de Belas Artes de Boston.",
+        "variantes": [
+          "The Sower",
+          "Le Semeur"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra célebre, sem texto; em múltipla escolha fica justa.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este noturno de fogos de artifício sobre um jardim de Londres?",
+      "resposta": "James McNeill Whistler",
+      "distratores": [
+        "William Turner",
+        "John Singer Sargent",
+        "Claude Monet"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Noturno em Preto e Dourado (Whistler)",
+        "descricao": "Pintura de James McNeill Whistler (c. 1875) com fogos de artifício sobre os Jardins de Cremorne, em Londres.",
+        "variantes": [
+          "Nocturne in Black and Gold – The Falling Rocket",
+          "O Foguete Caindo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor barroco italiano fez este quadro?",
+      "resposta": "Caravaggio",
+      "distratores": [
+        "Guido Reni",
+        "Annibale Carracci",
+        "Orazio Gentileschi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baco (Caravaggio)",
+        "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+        "variantes": [
+          "Bacchus",
+          "Baco",
+          "Bacco"
+        ]
+      }
+    }
+  ]
+}

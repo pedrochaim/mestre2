@@ -138970,5 +138970,261 @@
       "autor": "UnknownUnknown",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q08141",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "teto_da_capela_sistina",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi pintado este teto, obra de um mestre do Renascimento?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+      "https://pt.wikipedia.org/wiki/Teto_da_Capela_Sistina"
+    ],
+    "imagem": {
+      "arquivo": "q08141.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:CAPPELLA_SISTINA_Ceiling.jpg",
+      "autor": "Michelangelo",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08142",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "declaracao_de_independencia_trumbull",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor americano fez este quadro histórico?",
+    "resposta": "John Trumbull",
+    "distratores": [
+      "Benjamin West",
+      "Emanuel Leutze",
+      "Gilbert Stuart"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Declaration_of_Independence_%28painting%29"
+    ],
+    "imagem": {
+      "arquivo": "q08142.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+      "autor": "John Trumbull",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08143",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "abadia_no_carvalhal",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor romântico alemão fez este quadro?",
+    "resposta": "Caspar David Friedrich",
+    "distratores": [
+      "Philipp Otto Runge",
+      "Carl Gustav Carus",
+      "Johan Christian Dahl"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Abbey_in_the_Oakwood",
+      "https://pt.wikipedia.org/wiki/Abadia_no_Carvalhal"
+    ],
+    "imagem": {
+      "arquivo": "q08143.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg",
+      "autor": "Caspar David Friedrich",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08144",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "campo_de_trigo_com_ciprestes",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem pintou esta paisagem, em 1889?",
+    "resposta": "Vincent van Gogh",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wheat_Field_with_Cypresses"
+    ],
+    "imagem": {
+      "arquivo": "q08144.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wheat-Field-with-Cypresses-(1889)-Vincent-van-Gogh-Met.jpg",
+      "autor": "Vincent van Gogh",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08145",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "vista_de_delft",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi pintado este quadro de uma cidade holandesa?",
+    "resposta": "Século dezessete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/View_of_Delft",
+      "https://pt.wikipedia.org/wiki/Vista_de_Delft"
+    ],
+    "imagem": {
+      "arquivo": "q08145.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_View_of_Delft_-_92_-_Mauritshuis.jpg",
+      "autor": "Johannes Vermeer",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08146",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "catedral_de_rouen_monet",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que catedral francesa o pintor retratou nesta fachada?",
+    "resposta": "Catedral de Ruão",
+    "distratores": [
+      "Catedral de Chartres",
+      "Catedral de Amiens",
+      "Catedral de Reims"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rouen_Cathedral_%28Monet_series%29",
+      "https://pt.wikipedia.org/wiki/Catedral_de_Ru%C3%A3o_%28Monet%29"
+    ],
+    "imagem": {
+      "arquivo": "q08146.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:RouenCathedral_Monet_1894.jpg",
+      "autor": "Claude Monet",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08147",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "noite_estrelada_sobre_o_rodano",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que rio francês aparece neste quadro noturno?",
+    "resposta": "Ródano",
+    "distratores": [
+      "Sena",
+      "Loire",
+      "Garona"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Starry_Night_Over_the_Rh%C3%B4ne",
+      "https://pt.wikipedia.org/wiki/Noite_Estrelada_Sobre_o_R%C3%B3dano"
+    ],
+    "imagem": {
+      "arquivo": "q08147.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "autor": "Vincent van Gogh",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08148",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_cao_goya",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor espanhol fez este quadro?",
+    "resposta": "Francisco de Goya",
+    "distratores": [
+      "Diego Velázquez",
+      "El Greco",
+      "Bartolomé Murillo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Dog_%28Goya%29",
+      "https://pt.wikipedia.org/wiki/O_C%C3%A3o_%28Goya%29"
+    ],
+    "imagem": {
+      "arquivo": "q08148.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Goya_Dog.jpg",
+      "autor": "Francisco Goya",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08149",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_semeador_millet",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor francês do século dezenove fez este quadro?",
+    "resposta": "Jean-François Millet",
+    "distratores": [
+      "Gustave Courbet",
+      "Honoré Daumier",
+      "Camille Corot"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Sower_%28Millet%29"
+    ],
+    "imagem": {
+      "arquivo": "q08149.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jean-François_Millet_-_The_Sower_-_Google_Art_Project.jpg",
+      "autor": "Jean-François Millet",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08150",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "noturno_em_preto_e_dourado_whistler",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro, de cerca de 1875?",
+    "resposta": "James McNeill Whistler",
+    "distratores": [
+      "William Turner",
+      "John Singer Sargent",
+      "Claude Monet"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nocturne_in_Black_and_Gold_%E2%80%93_The_Falling_Rocket"
+    ],
+    "imagem": {
+      "arquivo": "q08150.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Whistler-Nocturne_in_black_and_gold.jpg",
+      "autor": "James McNeill Whistler",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08151",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "baco_caravaggio",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor barroco italiano fez este quadro?",
+    "resposta": "Caravaggio",
+    "distratores": [
+      "Guido Reni",
+      "Annibale Carracci",
+      "Orazio Gentileschi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacchus_%28Caravaggio%29",
+      "https://pt.wikipedia.org/wiki/Baco_%28Caravaggio%29"
+    ],
+    "imagem": {
+      "arquivo": "q08151.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Baco,_por_Caravaggio.jpg",
+      "autor": "Caravaggio",
+      "licenca": "Public domain"
+    }
   }
 ]

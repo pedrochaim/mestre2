@@ -1,0 +1,695 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Teto da Capela Sistina",
+        "descricao": "Afresco de Michelangelo no teto da Capela Sistina, no Vaticano, pintado entre 1508 e 1512.",
+        "variantes": [
+          "Soffitto della Cappella Sistina",
+          "Sistine Chapel ceiling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teto_da_capela_sistina",
+          "nome": "Teto da Capela Sistina",
+          "descricao": "Conjunto de afrescos pintados por Michelangelo no teto da Capela Sistina, no Vaticano, com cenas do Gênesis.",
+          "variantes": [
+            "Sistine Chapel ceiling"
+          ]
+        },
+        {
+          "id": "capela_sistina",
+          "nome": "Capela Sistina",
+          "descricao": "Capela do Palácio Apostólico, no Vaticano, mandada construir pelo papa Sisto IV e famosa pelos afrescos de Michelangelo.",
+          "variantes": [
+            "Sistine Chapel",
+            "Cappella Sistina"
+          ]
+        },
+        {
+          "id": "teatro_grego_antigo",
+          "nome": "Teatro grego antigo",
+          "descricao": "Modelo arquitetônico do teatro da Grécia Antiga, ao ar livre, com plateia em encosta, orquestra circular e skene.",
+          "variantes": [
+            "Teatro da Grécia Antiga",
+            "Teatro grego"
+          ]
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Declaração de Independência (Trumbull)",
+        "descricao": "Pintura a óleo de John Trumbull que mostra a apresentação do rascunho da Declaração de Independência ao Congresso americano.",
+        "variantes": [
+          "Declaration of Independence"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "declaracao_de_independencia_dos_estados_unidos",
+          "nome": "Declaração de Independência dos Estados Unidos",
+          "descricao": "Documento aprovado pelo Segundo Congresso Continental em 1776, que proclamou a independência das Treze Colônias.",
+          "variantes": [
+            "Declaration of Independence"
+          ]
+        },
+        {
+          "id": "restauracao_da_independencia_de_portugal",
+          "nome": "Restauração da Independência de Portugal",
+          "descricao": "Movimento que encerrou a União Ibérica e aclamou dom João IV rei de Portugal, iniciando a dinastia de Bragança.",
+          "variantes": [
+            "Restauração de 1640",
+            "Restauração Portuguesa"
+          ]
+        },
+        {
+          "id": "guerra_de_independencia_de_angola",
+          "nome": "Guerra de Independência de Angola",
+          "descricao": "Luta armada dos movimentos de libertação angolanos contra o domínio colonial português, de 1961 a 1974.",
+          "variantes": [
+            "Angolan War of Independence",
+            "Luta de Libertação de Angola"
+          ]
+        },
+        {
+          "id": "guerra_da_argelia",
+          "nome": "Guerra da Argélia",
+          "descricao": "Guerra de independência da Argélia contra a França, de 1954 a 1962.",
+          "variantes": [
+            "Guerra de Independência da Argélia",
+            "Algerian War"
+          ]
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Abadia no Carvalhal",
+        "descricao": "Pintura a óleo de Caspar David Friedrich (1809-1810) com ruínas de uma abadia gótica entre carvalhos secos.",
+        "variantes": [
+          "Abtei im Eichwald",
+          "The Abbey in the Oakwood"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_do_paraguai",
+          "nome": "Bandeira do Paraguai",
+          "descricao": "Bandeira nacional do Paraguai, tricolor horizontal vermelha, branca e azul com emblemas diferentes em cada lado.",
+          "variantes": [
+            "Flag of Paraguay"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "we_are_the_world",
+          "nome": "We Are the World",
+          "descricao": "Canção beneficente gravada em 1985 pelo coletivo USA for Africa",
+          "variantes": [
+            "USA for Africa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Campo de Trigo com Ciprestes",
+        "descricao": "Pintura a óleo de Vincent van Gogh de 1889 com um campo de trigo, ciprestes e céu turbulento.",
+        "variantes": [
+          "Wheat Field with Cypresses",
+          "A Wheatfield with Cypresses"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "campo_de_trigo_com_corvos",
+          "nome": "Campo de Trigo com Corvos",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de julho de 1890, com um campo de trigo, caminhos de terra e corvos sob céu tempestuoso.",
+          "variantes": [
+            "Wheatfield with Crows",
+            "Korenveld met kraaien",
+            "Trigal com corvos"
+          ]
+        },
+        {
+          "id": "teatro_do_oprimido",
+          "nome": "Teatro do Oprimido",
+          "descricao": "Conjunto de técnicas teatrais criado no Brasil que transforma o espectador em participante da cena.",
+          "variantes": [
+            "Theatre of the Oppressed"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vista de Delft",
+        "descricao": "Pintura a óleo de Johannes Vermeer (c. 1659-1661) que mostra a cidade de Delft vista do outro lado do canal.",
+        "variantes": [
+          "View of Delft",
+          "Zicht op Delft"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        },
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft"
+          ]
+        },
+        {
+          "id": "vespa_de_papel",
+          "nome": "Vespa-de-papel",
+          "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel.",
+          "variantes": [
+            "Polistes",
+            "paper wasp",
+            "marimbondo-de-papel"
+          ]
+        },
+        {
+          "id": "leis_de_mendel",
+          "nome": "Leis de Mendel",
+          "descricao": "Princípios da hereditariedade formulados por Gregor Mendel a partir de cruzamentos de ervilhas.",
+          "variantes": [
+            "Herança mendeliana",
+            "Mendelian inheritance"
+          ]
+        },
+        {
+          "id": "tropa_de_elite_filme",
+          "nome": "Tropa de Elite (filme)",
+          "descricao": "Filme policial brasileiro de 2007 sobre o BOPE do Rio de Janeiro, com Wagner Moura como Capitão Nascimento.",
+          "variantes": [
+            "Tropa de Elite",
+            "Elite Squad"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Catedral de Rouen (Monet)",
+        "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+        "variantes": [
+          "Catedral de Ruão",
+          "Rouen Cathedral",
+          "Série Catedral de Rouen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ivan, o Terrível, e Seu Filho",
+        "descricao": "Pintura de Ilya Repin (1883-1885) que mostra o tsar Ivan, o Terrível, abraçando o filho ferido.",
+        "variantes": [
+          "Ivan the Terrible and His Son Ivan",
+          "Ivan, o Terrível, e o Seu Filho Ivan em 16 de Novembro de 1581"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ivan_o_terrivel_e_seu_filho_ivan",
+          "nome": "Ivan, o Terrível, e seu Filho Ivan",
+          "descricao": "Pintura russa de 1885 que mostra o czar Ivan, o Terrível, abraçando o filho que acabara de ferir mortalmente.",
+          "variantes": [
+            "Ivan the Terrible and His Son Ivan"
+          ]
+        },
+        {
+          "id": "laocoonte_e_seus_filhos",
+          "nome": "Laocoonte e seus filhos",
+          "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+          "variantes": [
+            "Grupo de Laocoonte",
+            "Laocoonte"
+          ]
+        },
+        {
+          "id": "henfil",
+          "nome": "Henfil",
+          "descricao": "Cartunista mineiro, criador da Graúna e dos Fradinhos",
+          "variantes": [
+            "Henrique de Souza Filho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Noite Estrelada sobre o Ródano",
+        "descricao": "Pintura de Vincent van Gogh (1888) do céu estrelado sobre o rio Ródano, em Arles.",
+        "variantes": [
+          "Starry Night Over the Rhône",
+          "La Nuit étoilée"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_noite_estrelada",
+          "nome": "A Noite Estrelada",
+          "descricao": "Quadro de Vincent van Gogh, de 1889, com um céu noturno em espirais.",
+          "variantes": [
+            "The Starry Night"
+          ]
+        },
+        {
+          "id": "famadihana",
+          "nome": "Famadihana",
+          "descricao": "Ritual funerário malgaxe em que as famílias retiram os restos dos antepassados dos túmulos, trocam suas mortalhas e dançam com eles.",
+          "variantes": [
+            "Virada dos ossos",
+            "Turning of the bones"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "O Cão (Goya)",
+        "descricao": "Pintura negra de Francisco de Goya, no Museu do Prado, com a cabeça de um cão olhando para cima.",
+        "variantes": [
+          "El Perro",
+          "The Dog",
+          "Cão semi-submerso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jerry_west",
+          "nome": "Jerry West",
+          "descricao": "Armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, nos anos 1960 e 1970.",
+          "variantes": [
+            "The Logo",
+            "Mr. Clutch"
+          ]
+        },
+        {
+          "id": "toei_animation",
+          "nome": "Toei Animation",
+          "descricao": "Estúdio japonês de animação fundado em 1956, produtor dos animes de Dragon Ball, Sailor Moon e Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Toei Doga",
+            "東映アニメーション"
+          ]
+        },
+        {
+          "id": "cachorro_quente",
+          "nome": "Cachorro-quente",
+          "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+          "variantes": [
+            "Hot dog",
+            "Hotdog"
+          ]
+        },
+        {
+          "id": "primeira_demonstracao_publica_de_anestesia",
+          "nome": "Primeira demonstração pública de anestesia",
+          "descricao": "Cirurgia realizada em 1846 no Hospital Geral de Massachusetts, em Boston, com o paciente anestesiado por William Morton.",
+          "variantes": [
+            "Ether Day",
+            "Ether Dome"
+          ]
+        },
+        {
+          "id": "valentino_rossi",
+          "nome": "Valentino Rossi",
+          "descricao": "Piloto italiano de motovelocidade, nove vezes campeão mundial de Grand Prix.",
+          "variantes": [
+            "O Doutor",
+            "The Doctor",
+            "Vale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "O Semeador (Millet)",
+        "descricao": "Pintura a óleo de Jean-François Millet (1850) de um camponês semeando, no Museu de Belas Artes de Boston.",
+        "variantes": [
+          "The Sower",
+          "Le Semeur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_prisioneiro",
+          "nome": "O Prisioneiro",
+          "descricao": "Série britânica de 1967 estrelada por Patrick McGoohan, sobre um agente preso numa vila misteriosa.",
+          "variantes": [
+            "The Prisoner"
+          ]
+        },
+        {
+          "id": "o_pensador",
+          "nome": "O Pensador",
+          "descricao": "Escultura de bronze de Auguste Rodin.",
+          "variantes": [
+            "Le Penseur"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "dennis_rodman",
+          "nome": "Dennis Rodman",
+          "descricao": "Ala-pivô americano, especialista em rebotes, campeão da NBA com o Detroit Pistons e o Chicago Bulls.",
+          "variantes": [
+            "The Worm",
+            "Rodman"
+          ]
+        },
+        {
+          "id": "hatshepsut",
+          "nome": "Hatshepsut",
+          "descricao": "Rainha da décima oitava dinastia que governou o Egito como faraó no século quinze antes de Cristo",
+          "variantes": [
+            "Hatchepsut",
+            "Hatshepsowe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Noturno em Preto e Dourado (Whistler)",
+        "descricao": "Pintura de James McNeill Whistler (c. 1875) com fogos de artifício sobre os Jardins de Cremorne, em Londres.",
+        "variantes": [
+          "Nocturne in Black and Gold – The Falling Rocket",
+          "O Foguete Caindo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_doente_imaginario",
+          "nome": "O Doente Imaginário",
+          "descricao": "Última comédia de Molière, de 1673, sobre um hipocondríaco obcecado por médicos.",
+          "variantes": [
+            "Le Malade imaginaire",
+            "The Imaginary Invalid"
+          ]
+        },
+        {
+          "id": "saturn_v",
+          "nome": "Saturn V",
+          "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+          "variantes": [
+            "Foguete",
+            "Saturno V",
+            "Saturn 5"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        },
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "o_que_e_a_vida",
+          "nome": "O Que É a Vida?",
+          "descricao": "Livro de 1944 do físico Erwin Schrödinger sobre a base física da vida e da hereditariedade.",
+          "variantes": [
+            "What Is Life?"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Baco (Caravaggio)",
+        "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+        "variantes": [
+          "Bacchus",
+          "Baco",
+          "Bacco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "caravaggio",
+          "nome": "Caravaggio",
+          "descricao": "Pintor barroco italiano, nascido Michelangelo Merisi, mestre do claro-escuro, que viveu de 1571 a 1610.",
+          "variantes": [
+            "Michelangelo Merisi da Caravaggio",
+            "Michelangelo Merisi"
+          ]
+        },
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        },
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "johann_sebastian_bach",
+          "nome": "Johann Sebastian Bach",
+          "descricao": "Compositor e organista alemão do barroco (1685–1750).",
+          "variantes": [
+            "Bach",
+            "J. S. Bach"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "teto_da_capela_sistina",
+      "motivo": "Mesma obra: afrescos de Michelangelo no teto da Capela Sistina."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Trumbull difere do documento da Declaração de Independência."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Friedrich sem candidata correspondente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Obra diferente de Campo de Trigo com Corvos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vista de Delft é uma obra; Vermeer é o pintor e Vista de Toledo é outra obra."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Série de Monet sobre a Catedral de Rouen não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ivan_o_terrivel_e_seu_filho_ivan",
+      "motivo": "Mesma pintura de Repin de 1885 com Ivan e o filho."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Obra de 1888 sobre o Ródano, diferente de A Noite Estrelada de 1889."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Goya sem candidata correspondente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de Millet sem candidata correspondente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Pintura de Whistler sem candidata correspondente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Baco é obra distinta de Caravaggio (pintor) e de Medusa."
+    }
+  ]
+}
