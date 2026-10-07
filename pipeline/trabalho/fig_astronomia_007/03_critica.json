@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado define a função do equipamento (quem caminha fora de uma nave) e entrega a resposta sem olhar a figura. Basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que equipamento é este?",
+        "resposta": "Traje espacial",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'objeto gelado em 2019' dá para responder sem a imagem, e a figura vira enfeite. Tirei a data e a pista de gelo e fiz a pergunta depender de reconhecer o objeto. O trecho confirma o sobrevoo da New Horizons.",
+      "reescrita": {
+        "pergunta": "Que sonda espacial da NASA visitou de perto este objeto de formato peculiar?",
+        "resposta": "New Horizons",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta original não pede reconhecimento da entidade e a resposta 'colisão' é vaga (interação, fusão). A reescrita pede o nome do par, com a constelação como pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que par de galáxias em colisão, na constelação do Corvo, é este?",
+        "resposta": "Galáxias Antenas",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado pressupõe uma montagem com duas metades, esquerda e direita, que 'mostra' não confirma. Uma imagem composta também fere a regra de um único assunto. A diferença de tamanho da superlua é sutil e a resposta fica pouco confiável.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Figuras humanas' e 'destinada a extraterrestres' quase identificam a placa sem a imagem. Troquei por uma pista de época que ajuda sem entregar. Os trechos sustentam o fato.",
+      "reescrita": {
+        "pergunta": "Esta placa foi fixada em duas sondas espaciais lançadas nos anos setenta. Quais foram essas sondas?",
+        "resposta": "Pioneer 10 e Pioneer 11",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Outros telescópios (Hubble, Spitzer, Chandra) também imagearam a galáxia, e Spitzer também observa no infravermelho, então a resposta não é única. Prendi o enunciado ao ano de 2022. O trecho cita a imagem do Webb.",
+      "reescrita": {
+        "pergunta": "Em 2022, que telescópio espacial divulgou novas imagens infravermelhas desta galáxia em anel?",
+        "resposta": "James Webb",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a formação estelar de M82 foi provavelmente desencadeada pela interação com M81. O enunciado não nomeia a galáxia nem a resposta, e é preciso reconhecer a imagem para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mais frias' e 'regiões escuras' descrevem o fenômeno e entregam a resposta sem a imagem. A reescrita deixa só o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Como se chamam estas regiões escuras que aparecem nesta imagem?",
+        "resposta": "Manchas solares",
+        "distratores": []
+      }
+    }
+  ]
+}

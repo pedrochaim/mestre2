@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Astronauta com traje na Lua, nítido; o nome na etiqueta é minúsculo e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento de proteção é este, vestido por quem caminha fora de uma nave?",
+      "resposta": "Traje espacial",
+      "destino": 0,
+      "ancora": {
+        "nome": "Traje espacial",
+        "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+        "variantes": [
+          "Roupa espacial",
+          "Escafandro espacial"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A palavra 'Orion' aparece escrita na imagem e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Objeto bilobado inconfundível, imagem clara da New Horizons.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sonda da NASA passou perto deste objeto gelado em 2019 e o fotografou?",
+      "resposta": "New Horizons",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arrokoth",
+        "descricao": "Objeto do cinturão de Kuiper em forma de boneco de neve, visitado pela sonda New Horizons em 2019.",
+        "variantes": [
+          "486958 Arrokoth",
+          "2014 MU69",
+          "Ultima Thule"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montagem de muitos corpos minúsculos com o Sol cortado; pouco legível no celular e sem foco único."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra mais uma proeminência/filamento em erupção do que uma erupção solar típica; resposta ambígua."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara do Hubble, sem texto; par de galáxias em interação característico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "O que está acontecendo entre as duas galáxias desta imagem?",
+      "resposta": "Uma colisão (fusão de galáxias)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxias Antenas",
+        "descricao": "Par de galáxias em colisão, NGC 4038 e NGC 4039, na constelação do Corvo.",
+        "variantes": [
+          "NGC 4038/4039",
+          "Antennae Galaxies",
+          "Caldwell 60/61"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Comparação de uma mesma Lua cheia em dois tamanhos; as datas não entregam o nome do fenômeno.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno lunar aparece na metade direita desta imagem, em comparação com a esquerda?",
+      "resposta": "Superlua",
+      "destino": 0,
+      "ancora": {
+        "nome": "Superlua",
+        "descricao": "Lua cheia ou nova que coincide com o perigeu, parecendo um pouco maior no céu.",
+        "variantes": [
+          "Supermoon",
+          "Lua cheia no perigeu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Placa de ouro reconhecível, fixada na estrutura da sonda; sem texto legível que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que par de sondas espaciais foi fixada esta placa, com figuras humanas, destinada a possíveis extraterrestres?",
+      "resposta": "Pioneer 10 e Pioneer 11",
+      "destino": 0,
+      "ancora": {
+        "nome": "Placa da Pioneer",
+        "descricao": "Placa de alumínio anodizado a ouro com mensagem pictórica, fixada nas sondas Pioneer 10 e 11.",
+        "variantes": [
+          "Placa Pioneer",
+          "Pioneer plaque"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem nítida do Webb, galáxia em anel inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que telescópio espacial produziu esta imagem infravermelha desta galáxia em anel?",
+      "resposta": "James Webb",
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia Roda de Carro",
+        "descricao": "Galáxia lenticular em anel na constelação do Escultor, imaginada pelo telescópio James Webb em 2022.",
+        "variantes": [
+          "Cartwheel Galaxy",
+          "ESO 350-40"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato com inscrição em latim que contém o nome 'Tychonis Brahe', entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Galáxia com jatos avermelhados característica, imagem nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que galáxia vizinha provavelmente desencadeou a intensa formação de estrelas nesta galáxia, por interação gravitacional?",
+      "resposta": "Messier 81",
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia do Charuto",
+        "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+        "variantes": [
+          "Messier 82",
+          "M82",
+          "NGC 3034",
+          "Cigar Galaxy"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grupo de manchas escuras na superfície do Sol, claro e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chamam estas regiões escuras e mais frias nesta imagem?",
+      "resposta": "Manchas solares",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mancha solar",
+        "descricao": "Região temporária mais escura e fria na superfície do Sol, causada por concentrações de fluxo magnético.",
+        "variantes": [
+          "Manchas solares",
+          "Sunspot"
+        ]
+      }
+    }
+  ]
+}

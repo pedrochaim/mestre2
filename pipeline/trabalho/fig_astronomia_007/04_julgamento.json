@@ -1,0 +1,481 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Traje espacial",
+        "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+        "variantes": [
+          "Roupa espacial",
+          "Escafandro espacial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        },
+        {
+          "id": "space_needle",
+          "nome": "Space Needle",
+          "descricao": "Torre de observação de formato futurista em Seattle, nos Estados Unidos, construída para uma Feira Mundial.",
+          "variantes": [
+            "Agulha Espacial"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Arrokoth",
+        "descricao": "Objeto do cinturão de Kuiper em forma de boneco de neve, visitado pela sonda New Horizons em 2019.",
+        "variantes": [
+          "486958 Arrokoth",
+          "2014 MU69",
+          "Ultima Thule"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca",
+            "Estilo barroco"
+          ]
+        },
+        {
+          "id": "musica_barroca",
+          "nome": "Música barroca",
+          "descricao": "Período da música europeia entre cerca de 1600 e 1750, de compositores como Bach, Vivaldi e Händel.",
+          "variantes": [
+            "Barroco musical",
+            "Barroco"
+          ]
+        },
+        {
+          "id": "a_ultima_ceia",
+          "nome": "A Última Ceia",
+          "descricao": "Pintura mural de Leonardo da Vinci em Milão.",
+          "variantes": [
+            "The Last Supper",
+            "Il Cenacolo",
+            "L'Ultima Cena"
+          ]
+        },
+        {
+          "id": "thomas_henry_huxley",
+          "nome": "Thomas Henry Huxley",
+          "descricao": "Biólogo inglês do século dezenove, grande defensor público da teoria da evolução de Darwin.",
+          "variantes": [
+            "Thomas Huxley",
+            "T. H. Huxley"
+          ]
+        },
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+          "variantes": [
+            "Reino de Marrocos",
+            "Morocco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Galáxias Antenas",
+        "descricao": "Par de galáxias em colisão, NGC 4038 e NGC 4039, na constelação do Corvo.",
+        "variantes": [
+          "NGC 4038/4039",
+          "Antennae Galaxies",
+          "Caldwell 60/61"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "nebulosa_roseta",
+          "nome": "Nebulosa Roseta",
+          "descricao": "Região H II na constelação do Unicórnio, associada ao aglomerado aberto NGC 2244, com formato de rosa.",
+          "variantes": [
+            "Rosette Nebula",
+            "Caldwell 49",
+            "NGC 2237"
+          ]
+        },
+        {
+          "id": "galaxia_de_andromeda",
+          "nome": "Galáxia de Andrômeda",
+          "descricao": "Galáxia espiral do Grupo Local, a cerca de dois milhões e meio de anos-luz da Terra.",
+          "variantes": [
+            "Andrômeda",
+            "M31",
+            "Andromeda Galaxy"
+          ]
+        },
+        {
+          "id": "palmas",
+          "nome": "Palmas",
+          "descricao": "Capital do estado do Tocantins, cidade planejada às margens do rio Tocantins.",
+          "variantes": [
+            "Palmas (Tocantins)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Placa da Pioneer",
+        "descricao": "Placa de alumínio anodizado a ouro com mensagem pictórica, fixada nas sondas Pioneer 10 e 11.",
+        "variantes": [
+          "Placa Pioneer",
+          "Pioneer plaque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "placa_de_pare",
+          "nome": "Placa de pare",
+          "descricao": "Placa de trânsito vermelha e octogonal que indica parada obrigatória.",
+          "variantes": [
+            "Placa de parada obrigatória",
+            "Stop sign"
+          ]
+        },
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        },
+        {
+          "id": "macaco_japones",
+          "nome": "Macaco-japonês",
+          "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+          "variantes": [
+            "Macaca fuscata",
+            "Macaco-da-neve",
+            "Nihonzaru"
+          ]
+        },
+        {
+          "id": "copa_da_inglaterra",
+          "nome": "Copa da Inglaterra",
+          "descricao": "Torneio eliminatório de clubes de futebol da Inglaterra, disputado desde a temporada de 1871 e 1872.",
+          "variantes": [
+            "FA Cup",
+            "Taça da Inglaterra"
+          ]
+        },
+        {
+          "id": "para_ingles_ver",
+          "nome": "Para inglês ver",
+          "descricao": "Expressão brasileira para algo feito só para manter as aparências",
+          "variantes": [
+            "Lei para inglês ver"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Galáxia Roda de Carro",
+        "descricao": "Galáxia lenticular em anel na constelação do Escultor, imaginada pelo telescópio James Webb em 2022.",
+        "variantes": [
+          "Cartwheel Galaxy",
+          "ESO 350-40"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galaxia_de_andromeda",
+          "nome": "Galáxia de Andrômeda",
+          "descricao": "Galáxia espiral do Grupo Local, a cerca de dois milhões e meio de anos-luz da Terra.",
+          "variantes": [
+            "Andrômeda",
+            "M31",
+            "Andromeda Galaxy"
+          ]
+        },
+        {
+          "id": "paisagem_com_a_queda_de_icaro",
+          "nome": "Paisagem com a Queda de Ícaro",
+          "descricao": "Pintura flamenga do século dezesseis, atribuída a Bruegel ou a cópia de sua composição, em Bruxelas, com um lavrador, um navio e as pernas de Ícaro caindo no mar.",
+          "variantes": [
+            "Landscape with the Fall of Icarus",
+            "A Queda de Ícaro"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "as_bodas_de_figaro",
+          "nome": "As Bodas de Fígaro",
+          "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte.",
+          "variantes": [
+            "Le nozze di Figaro",
+            "The Marriage of Figaro"
+          ]
+        },
+        {
+          "id": "filtro_de_barro",
+          "nome": "Filtro de barro",
+          "descricao": "Utensílio doméstico de cerâmica com velas filtrantes para purificar a água.",
+          "variantes": [
+            "Filtro de cerâmica",
+            "Filtro São João"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Galáxia do Charuto",
+        "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+        "variantes": [
+          "Messier 82",
+          "M82",
+          "NGC 3034",
+          "Cigar Galaxy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "m87",
+          "nome": "M87*",
+          "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+          "variantes": [
+            "Buraco negro",
+            "Messier 87*",
+            "Buraco negro de M87",
+            "Primeira imagem de um buraco negro"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mancha solar",
+        "descricao": "Região temporária mais escura e fria na superfície do Sol, causada por concentrações de fluxo magnético.",
+        "variantes": [
+          "Manchas solares",
+          "Sunspot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        },
+        {
+          "id": "caravela_portuguesa",
+          "nome": "Caravela-portuguesa",
+          "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+          "variantes": [
+            "Physalia physalis",
+            "Fragata-portuguesa",
+            "Man o' war"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "marcha_do_sal",
+          "nome": "Marcha do Sal",
+          "descricao": "Marcha de protesto não violento liderada por Gandhi em 1930, do seu ashram até o litoral de Dandi, na Índia.",
+          "variantes": [
+            "Satyagraha do Sal",
+            "Marcha de Dandi",
+            "Salt March"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é traje espacial."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Arrokoth é um objeto do cinturão de Kuiper; candidatas não correspondem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Galáxias Antenas são distintas das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Placa da Pioneer não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Galáxia Roda de Carro é diferente das demais galáxias."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "M82 é diferente de M51 e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Mancha solar não é o painel solar nem outra candidata."
+    }
+  ]
+}
