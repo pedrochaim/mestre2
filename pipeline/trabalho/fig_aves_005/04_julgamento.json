@@ -1,0 +1,726 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Flamingo-americano",
+        "descricao": "Espécie de flamingo (Phoenicopterus ruber) das Antilhas, norte da América do Sul e Iucatã, também chamada flamingo-do-caribe.",
+        "variantes": [
+          "Flamingo-do-caribe",
+          "Phoenicopterus ruber",
+          "American flamingo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "flamingo",
+          "nome": "Flamingo",
+          "descricao": "Ave pernalta rosada da família Phoenicopteridae, que se alimenta filtrando a água com o bico curvo.",
+          "variantes": [
+            "Phoenicopteridae",
+            "Flamingos"
+          ]
+        },
+        {
+          "id": "gotico_americano",
+          "nome": "Gótico Americano",
+          "descricao": "Quadro de Grant Wood de 1930.",
+          "variantes": [
+            "American Gothic"
+          ]
+        },
+        {
+          "id": "futebol_americano",
+          "nome": "Futebol americano",
+          "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+          "variantes": [
+            "Gridiron",
+            "Football americano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Calopsita",
+        "descricao": "Pequena ave da família dos cacatuas (Nymphicus hollandicus), nativa da Austrália e muito criada como animal de estimação.",
+        "variantes": [
+          "Nymphicus hollandicus",
+          "Cockatiel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "cleopatra",
+          "nome": "Cleópatra",
+          "descricao": "Cleópatra Sétima, última soberana da dinastia ptolemaica do Egito, morta em 30 antes de Cristo",
+          "variantes": [
+            "Cleópatra VII"
+          ]
+        },
+        {
+          "id": "gal_costa",
+          "nome": "Gal Costa",
+          "descricao": "Cantora brasileira, figura central da Tropicália.",
+          "variantes": [
+            "Maria da Graça Costa Penna Burgos"
+          ]
+        },
+        {
+          "id": "lolita",
+          "nome": "Lolita",
+          "descricao": "Romance de Vladimir Nabokov, publicado em 1955.",
+          "variantes": [
+            "Lolita (romance)"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pica-pau-de-cabeça-amarela",
+        "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+        "variantes": [
+          "Celeus flavescens",
+          "Blond-crested woodpecker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vespa_asiatica",
+          "nome": "Vespa-asiática",
+          "descricao": "Vespa (Vespa velutina) nativa do Sudeste Asiático, predadora de abelhas e invasora na Europa.",
+          "variantes": [
+            "Vespa velutina",
+            "Vespa-de-patas-amarelas"
+          ]
+        },
+        {
+          "id": "pica_pau",
+          "nome": "Pica-Pau",
+          "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV.",
+          "variantes": [
+            "Woody Woodpecker",
+            "Picapau"
+          ]
+        },
+        {
+          "id": "arara_caninde",
+          "nome": "Arara-canindé",
+          "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+          "variantes": [
+            "Arara-azul-e-amarela",
+            "Arara-de-barriga-amarela",
+            "Blue-and-yellow macaw",
+            "Ara ararauna"
+          ]
+        },
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Galinha",
+        "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+        "variantes": [
+          "Galo",
+          "Gallus gallus domesticus",
+          "Frango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        },
+        {
+          "id": "juan_manuel_fangio",
+          "nome": "Juan Manuel Fangio",
+          "descricao": "Piloto argentino pentacampeão mundial de Fórmula 1 nos anos cinquenta.",
+          "variantes": [
+            "Fangio",
+            "El Chueco"
+          ]
+        },
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "evariste_galois",
+          "nome": "Évariste Galois",
+          "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+          "variantes": [
+            "Galois"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lóris-arco-íris",
+        "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+        "variantes": [
+          "Lóris-molucano",
+          "Trichoglossus moluccanus",
+          "Rainbow lorikeet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "corrida_maluca",
+          "nome": "Corrida Maluca",
+          "descricao": "Desenho animado da Hanna-Barbera de 1968, sobre uma série de corridas com carros excêntricos e o trapaceiro Dick Vigarista.",
+          "variantes": [
+            "Wacky Races"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Kakapo",
+        "descricao": "Papagaio noturno, terrícola e incapaz de voar (Strigops habroptilus), endêmico da Nova Zelândia.",
+        "variantes": [
+          "Cácapo",
+          "Strigops habroptilus",
+          "Papagaio-coruja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kakapo",
+          "nome": "Kakapo",
+          "descricao": "Papagaio noturno, pesado e incapaz de voar (Strigops habroptilus), da Nova Zelândia.",
+          "variantes": [
+            "Strigops habroptilus",
+            "Papagaio-coruja"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "cascao",
+          "nome": "Cascão",
+          "descricao": "Menino sujinho, de cabelo preto e que não gosta de banho, da Turma da Mônica.",
+          "variantes": [
+            "Cascão Araújo"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pombo",
+        "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+        "variantes": [
+          "Pombo-comum",
+          "Pombo-doméstico",
+          "Columba livia",
+          "Rock dove"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        },
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Biguá",
+        "descricao": "Cormorão neotropical (Nannopterum brasilianum), ave aquática escura das Américas.",
+        "variantes": [
+          "Nannopterum brasilianum",
+          "Neotropic cormorant",
+          "Phalacrocorax brasilianus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls"
+          ]
+        },
+        {
+          "id": "rio_iguacu",
+          "nome": "Rio Iguaçu",
+          "descricao": "Rio do Paraná que forma as Cataratas do Iguaçu e deságua no rio Paraná, na Tríplice Fronteira.",
+          "variantes": [
+            "Iguaçu",
+            "Iguazú",
+            "Iguazu River"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Papagaio-verdadeiro",
+        "descricao": "Papagaio sul-americano (Amazona aestiva) de testa azul e face amarela, muito criado como animal de estimação.",
+        "variantes": [
+          "Amazona aestiva",
+          "Blue-fronted amazon",
+          "Papagaio-de-testa-azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "rio_amazonas",
+          "nome": "Rio Amazonas",
+          "descricao": "Rio da América do Sul que atravessa o norte do Brasil e deságua no oceano Atlântico.",
+          "variantes": [
+            "Amazonas",
+            "Amazon River"
+          ]
+        },
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo",
+            "Post-its"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Anu-preto",
+        "descricao": "Ave da família dos cucos (Crotophaga ani), de plumagem preta, bico alto e cauda longa, comum no Brasil.",
+        "variantes": [
+          "Crotophaga ani",
+          "Smooth-billed ani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        },
+        {
+          "id": "emanuel_rego",
+          "nome": "Emanuel Rego",
+          "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Ricardo em Atenas 2004.",
+          "variantes": [
+            "Emanuel",
+            "Emanuel Fernando Scheffler Rego"
+          ]
+        },
+        {
+          "id": "cotopaxi",
+          "nome": "Cotopaxi",
+          "descricao": "Estratovulcão ativo e nevado nos Andes, ao sul de Quito, no Equador.",
+          "variantes": [
+            "Vulcão Cotopaxi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Jaçanã",
+        "descricao": "Ave pernalta (Jacana jacana) de corpo preto e avermelhado, crista vermelha e bico amarelo, que vive em áreas alagadas da América do Sul.",
+        "variantes": [
+          "Jacana jacana",
+          "Wattled jacana",
+          "Jaçanã-comum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jaca",
+          "nome": "Jaca",
+          "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+          "variantes": [
+            "Artocarpus heterophyllus"
+          ]
+        },
+        {
+          "id": "jacaranda_mimoso",
+          "nome": "Jacarandá-mimoso",
+          "descricao": "Árvore subtropical Jacaranda mimosifolia, nativa do sul da América do Sul, de flores violeta.",
+          "variantes": [
+            "Jacarandá",
+            "Jacaranda mimosifolia",
+            "Jacarandá azul"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "araponga",
+          "nome": "Araponga",
+          "descricao": "Cotinga macho de plumagem branca e garganta nua esverdeada (Procnias nudicollis), da Mata Atlântica, de canto metálico muito forte.",
+          "variantes": [
+            "Araponga-comum",
+            "Ferreiro",
+            "Bare-throated bellbird",
+            "Procnias nudicollis"
+          ]
+        },
+        {
+          "id": "jacarta",
+          "nome": "Jacarta",
+          "descricao": "Maior cidade da Indonésia, na costa noroeste da ilha de Java.",
+          "variantes": [
+            "Jakarta",
+            "Djakarta",
+            "Batávia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Espécie específica (Phoenicopterus ruber); 'Flamingo' é a família, mais ampla."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a calopsita."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Espécie Celeus flavescens; sem candidata equivalente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a galinha doméstica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ave específica; candidatas são fenômeno e outros."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "kakapo",
+      "motivo": "Mesmo papagaio Strigops habroptilus da Nova Zelândia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pombo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Biguá é uma ave; candidatas não correspondem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Amazona aestiva sem candidata equivalente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Anu-preto sem candidata equivalente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Jaçanã ave sem candidata equivalente."
+    }
+  ]
+}

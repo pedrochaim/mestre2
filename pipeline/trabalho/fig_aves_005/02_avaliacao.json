@@ -1,0 +1,243 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Flamingo nítido, sem texto. Pergunta de nível 3 sobre o ícone cultural da Flórida, sustentada pelo trecho.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é considerada um ícone cultural de qual estado americano?",
+      "resposta": "Flórida",
+      "ancora": {
+        "nome": "Flamingo-americano",
+        "descricao": "Espécie de flamingo (Phoenicopterus ruber) das Antilhas, norte da América do Sul e Iucatã, também chamada flamingo-do-caribe.",
+        "variantes": [
+          "Flamingo-do-caribe",
+          "Phoenicopterus ruber",
+          "American flamingo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Calopsita bem visível, com crista e bochecha laranja, sem texto. Reconhecimento direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Calopsita",
+      "ancora": {
+        "nome": "Calopsita",
+        "descricao": "Pequena ave da família dos cacatuas (Nymphicus hollandicus), nativa da Austrália e muito criada como animal de estimação.",
+        "variantes": [
+          "Nymphicus hollandicus",
+          "Cockatiel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pica-pau de crista clara e bochecha vermelha, bem visível. O trecho é pobre para nível 3, então vira nível 2 com múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pica-pau é este?",
+      "resposta": "Pica-pau-de-cabeça-amarela",
+      "distratores": [
+        "Pica-pau-louro",
+        "Pica-pau-de-coleira",
+        "Pica-pau-do-campo"
+      ],
+      "ancora": {
+        "nome": "Pica-pau-de-cabeça-amarela",
+        "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+        "variantes": [
+          "Celeus flavescens",
+          "Blond-crested woodpecker"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Galo e galinhas, todos da mesma espécie, sem texto. Reconhecimento direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave doméstica é esta?",
+      "resposta": "Galinha (ou galo)",
+      "ancora": {
+        "nome": "Galinha",
+        "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+        "variantes": [
+          "Galo",
+          "Gallus gallus domesticus",
+          "Frango"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lóris-arco-íris colorido e nítido, sem texto. Reconhecimento direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave colorida é esta?",
+      "resposta": "Lóris-arco-íris",
+      "ancora": {
+        "nome": "Lóris-arco-íris",
+        "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+        "variantes": [
+          "Lóris-molucano",
+          "Trichoglossus moluccanus",
+          "Rainbow lorikeet"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Kakapo reconhecível pelo disco facial e plumagem verde manchada. A imagem é pequena, mas legível. Múltipla escolha com papagaios verdes da Nova Zelândia.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que papagaio é este?",
+      "resposta": "Kakapo",
+      "distratores": [
+        "Kea",
+        "Kaka",
+        "Periquito-das-Antípodas"
+      ],
+      "ancora": {
+        "nome": "Kakapo",
+        "descricao": "Papagaio noturno, terrícola e incapaz de voar (Strigops habroptilus), endêmico da Nova Zelândia.",
+        "variantes": [
+          "Kākāpō",
+          "Cácapo",
+          "Strigops habroptilus",
+          "Papagaio-coruja"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pombo com plumagem típica, nítido, sem texto. A pergunta de lugar não rende para esta foto, então fica o reconhecimento.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta, comum nas cidades do mundo todo?",
+      "resposta": "Pombo",
+      "ancora": {
+        "nome": "Pombo",
+        "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+        "variantes": [
+          "Pombo-comum",
+          "Pombo-doméstico",
+          "Columba livia",
+          "Rock dove"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Biguá com bico em gancho e papo alaranjado, nítido e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave aquática é esta, que abre as asas para secá-las?",
+      "resposta": "Biguá",
+      "ancora": {
+        "nome": "Biguá",
+        "descricao": "Cormorão neotropical (Nannopterum brasilianum), ave aquática escura das Américas.",
+        "variantes": [
+          "Nannopterum brasilianum",
+          "Neotropic cormorant",
+          "Phalacrocorax brasilianus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "As penas laterais têm tom avermelhado e a foto, de um parque de aves em Bali, lembra a ave-do-paraíso-de-raggiana. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Papagaio com testa azul, face amarela e mancha vermelha na asa, nítido e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que papagaio brasileiro é este?",
+      "resposta": "Papagaio-verdadeiro",
+      "ancora": {
+        "nome": "Papagaio-verdadeiro",
+        "descricao": "Papagaio sul-americano (Amazona aestiva) de testa azul e face amarela, muito criado como animal de estimação.",
+        "variantes": [
+          "Amazona aestiva",
+          "Blue-fronted amazon",
+          "Papagaio-de-testa-azul"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Anu-preto de perfil, com bico alto e arqueado, sem texto. Múltipla escolha com aves pretas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta, de plumagem escura e cauda longa?",
+      "resposta": "Anu-preto",
+      "distratores": [
+        "Anu-coroca",
+        "Graúna",
+        "Vira-bosta"
+      ],
+      "ancora": {
+        "nome": "Anu-preto",
+        "descricao": "Ave da família dos cucos (Crotophaga ani), de plumagem preta, bico alto e cauda longa, comum no Brasil.",
+        "variantes": [
+          "Crotophaga ani",
+          "Smooth-billed ani"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jaçanã nítido, com a crista vermelha e o bico amarelo característicos, sem texto. Pergunta de nível 3 sustentada pelo trecho.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave anda sobre plantas aquáticas flutuantes sem afundar. Que parte do corpo, muito longa, permite isso?",
+      "resposta": "Os dedos (com as garras)",
+      "ancora": {
+        "nome": "Jaçanã",
+        "descricao": "Ave pernalta (Jacana jacana) de corpo preto e avermelhado, crista vermelha e bico amarelo, que vive em áreas alagadas da América do Sul.",
+        "variantes": [
+          "Jacana jacana",
+          "Wattled jacana",
+          "Jaçanã-comum"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que papagaio é este?",
+        "resposta": "Kakapo"
+      },
+      "existentes": [
+        {
+          "id": "q06497",
+          "pergunta": "Gordo, noturno e incapaz de voar, o kakapo é um papagaio raríssimo. Em que país ele vive?",
+          "resposta": "Nova Zelândia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do papagaio (kakapo); a existente já dá o nome e pergunta o país onde vive. Fatos diferentes."
+    }
+  ]
+}
