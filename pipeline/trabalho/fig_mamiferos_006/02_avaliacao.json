@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ratazana nítida, de perfil, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que animal é este?",
+      "resposta": "Ratazana",
+      "ancora": {
+        "nome": "Ratazana",
+        "descricao": "Roedor da espécie Rattus norvegicus, também chamado rato-marrom, comum em áreas urbanas do mundo todo.",
+        "variantes": [
+          "Rato-marrom",
+          "Rattus norvegicus",
+          "Rato-de-esgoto"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Chinchila clara, com cauda peluda característica, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que cordilheira da América do Sul vive naturalmente este roedor?",
+      "resposta": "Cordilheira dos Andes",
+      "ancora": {
+        "nome": "Chinchila",
+        "descricao": "Roedor do gênero Chinchilla, nativo dos Andes, conhecido pela pelagem muito densa.",
+        "variantes": [
+          "Chinchilla"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Boi-almiscarado de corpo inteiro, inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que animal do Ártico é este?",
+      "resposta": "Boi-almiscarado",
+      "ancora": {
+        "nome": "Boi-almiscarado",
+        "descricao": "Mamífero ungulado da família Bovidae, nativo do Ártico, de pelagem longa e densa (Ovibos moschatus).",
+        "variantes": [
+          "Boi almiscarado",
+          "Muskox",
+          "Ovibos moschatus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Porco-espinho de crista com espinhos bem visíveis e um filhote; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este animal pertence a que grupo de mamíferos?",
+      "resposta": "Roedores",
+      "ancora": {
+        "nome": "Porco-espinho",
+        "descricao": "Roedor da espécie Hystrix cristata, o porco-espinho-de-crista, com espinhos longos no dorso.",
+        "variantes": [
+          "Porco-espinho-de-crista",
+          "Hystrix cristata",
+          "Porco-espinho-crestado"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Elefante-asiático de frente, com orelhas pequenas e presas visíveis; distinguível do africano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que espécie de elefante é esta?",
+      "resposta": "Elefante-asiático",
+      "distratores": [
+        "Elefante-africano",
+        "Elefante-da-floresta",
+        "Mamute-lanoso"
+      ],
+      "ancora": {
+        "nome": "Elefante-asiático",
+        "descricao": "Elefante da espécie Elephas maximus, nativo do sul e sudeste da Ásia.",
+        "variantes": [
+          "Elefante asiático",
+          "Elefante-indiano",
+          "Elephas maximus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ratão-do-banhado (nutria) molhado, de perfil, sem texto; reconhecível pela cabeça arredondada e bigodes brancos.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que continente vive naturalmente este roedor semiaquático?",
+      "resposta": "América do Sul",
+      "ancora": {
+        "nome": "Ratão-do-banhado",
+        "descricao": "Roedor semiaquático sul-americano da espécie Myocastor coypus, introduzido em vários outros continentes.",
+        "variantes": [
+          "Nutria",
+          "Coipu",
+          "Myocastor coypus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Burro pastando, nítido, sem texto; distratores equinos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que animal é este?",
+      "resposta": "Burro",
+      "distratores": [
+        "Mula",
+        "Cavalo",
+        "Pônei"
+      ],
+      "ancora": {
+        "nome": "Burro",
+        "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+        "variantes": [
+          "Asno",
+          "Jumento",
+          "Equus asinus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Marmota de frente, nítida, sem texto; pergunta sobre a origem do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que cadeia de montanhas europeia dá nome a esta espécie de marmota?",
+      "resposta": "Alpes",
+      "ancora": {
+        "nome": "Marmota-alpina",
+        "descricao": "Esquilo terrestre grande da espécie Marmota marmota, que vive em montanhas da Europa central e meridional.",
+        "variantes": [
+          "Marmota alpina",
+          "Marmota marmota"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Babirussa com presas características bem visíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que país asiático vive este animal de presas curvas?",
+      "resposta": "Indonésia",
+      "ancora": {
+        "nome": "Babirussa",
+        "descricao": "Mamífero semelhante a um porco, das ilhas indonésias como Sulawesi, cujos machos têm presas caninas curvas.",
+        "variantes": [
+          "Babirusa",
+          "Babyrousa celebensis",
+          "Babirussa-de-Celebes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esquilo-vermelho nítido, com tufos nas orelhas, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que esquilo é este?",
+      "resposta": "Esquilo-vermelho",
+      "distratores": [
+        "Esquilo-cinzento",
+        "Esquilo-voador",
+        "Serelepe"
+      ],
+      "ancora": {
+        "nome": "Esquilo-vermelho",
+        "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+        "variantes": [
+          "Esquilo-vermelho-eurasiático",
+          "Sciurus vulgaris"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Canídeo ruivo quase idêntico ao cão-cantor-da-Nova-Guiné e a cães ferais; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pode ser confundido com jaguatirica ou gato-do-mato-pequeno, e há assinatura/marca d'água do fotógrafo visível no topo da imagem."
+    }
+  ]
+}

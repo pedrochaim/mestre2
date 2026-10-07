@@ -292,7 +292,7 @@
       "titulo": "en:Donkey",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ovelha",
@@ -376,7 +376,7 @@
       "titulo": "en:Asian elephant",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Raposa-do-ártico",
@@ -453,7 +453,7 @@
       "titulo": "en:Chinchilla",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cachalote",
@@ -556,6 +556,286 @@
     {
       "nome": "Gelada",
       "titulo": "en:Gelada",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Esquilo-vermelho",
+      "titulo": "en:Red squirrel",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ratazana",
+      "titulo": "en:Brown rat",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Camundongo",
+      "titulo": "en:House mouse",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Foca-comum",
+      "titulo": "en:Harbor seal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cervo-vermelho",
+      "titulo": "en:Red deer",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mula",
+      "titulo": "en:Mule",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alpaca",
+      "titulo": "en:Alpaca",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porco-espinho",
+      "titulo": "en:Crested porcupine",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Toupeira",
+      "titulo": "en:European mole",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guaxinim",
+      "titulo": "en:Raccoon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Beluga",
+      "titulo": "en:Beluga whale",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lebre-europeia",
+      "titulo": "en:European hare",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Javali-africano",
+      "titulo": "en:Common warthog",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paca",
+      "titulo": "en:Lowland paca",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cateto",
+      "titulo": "en:Collared peccary",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mico-estrela",
+      "titulo": "en:Black-tufted marmoset",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gato-mourisco",
+      "titulo": "en:Jaguarundi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lontra-neotropical",
+      "titulo": "en:Neotropical otter",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macaco-aranha",
+      "titulo": "en:Geoffroy's spider monkey",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Impala",
+      "titulo": "en:Impala",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Texugo-do-mel",
+      "titulo": "en:Honey badger",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coiote",
+      "titulo": "en:Coyote",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mabeco",
+      "titulo": "en:African wild dog",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dingo",
+      "titulo": "en:Dingo",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Serval",
+      "titulo": "en:Serval",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macaco-de-cheiro",
+      "titulo": "en:Common squirrel monkey",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Marmota-alpina",
+      "titulo": "en:Alpine marmot",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Irara",
+      "titulo": "en:Tayra",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gato-maracajá",
+      "titulo": "en:Margay",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Leopardo-nebuloso",
+      "titulo": "en:Clouded leopard",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gato-de-areia",
+      "titulo": "en:Sand cat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mão-pelada",
+      "titulo": "en:Crab-eating raccoon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lóris-lento",
+      "titulo": "en:Sunda slow loris",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macaco-dourado-de-nariz-arrebitado",
+      "titulo": "en:Golden snub-nosed monkey",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boi-almiscarado",
+      "titulo": "en:Muskox",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Porco-da-terra",
+      "titulo": "en:Aardvark",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Babirussa",
+      "titulo": "en:North Sulawesi babirusa",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Íbex-dos-alpes",
+      "titulo": "en:Alpine ibex",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tamanduaí",
+      "titulo": "en:Silky anteater",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ratão-do-banhado",
+      "titulo": "en:Coypu",
       "camada": 3,
       "destino": 0,
       "status": "usada"
