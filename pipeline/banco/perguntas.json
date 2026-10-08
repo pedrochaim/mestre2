@@ -159390,5 +159390,70 @@
       "autor": "Airwolfhound from Hertfordshire, UK",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q09305",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "esponja_do_mar",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Este animal marinho, fixo no fundo do recife, pertence a qual filo?",
+    "resposta": "Porifera (esponjas)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sponge",
+      "https://pt.wikipedia.org/wiki/Porifera"
+    ],
+    "imagem": {
+      "arquivo": "q09305.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vaasspons2.jpg",
+      "autor": "Albert Kok at Dutch Wikipedia (Original text: Albert Kok)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q09306",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "dedo",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Como se chama o dedo da mão marcado com o número três nesta imagem?",
+    "resposta": "Dedo médio",
+    "distratores": [
+      "Indicador",
+      "Anelar",
+      "Polegar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Finger",
+      "https://pt.wikipedia.org/wiki/Dedos_da_m%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q09306.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Human_fingers_both_sides_2.jpg",
+      "autor": "Sciencia58",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q09307",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "placenta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que órgão é este?",
+    "resposta": "Placenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Placenta",
+      "https://pt.wikipedia.org/wiki/Placenta"
+    ],
+    "imagem": {
+      "arquivo": "q09307.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Human_placenta_baby_side.jpg",
+      "autor": "Habj (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
   }
 ]

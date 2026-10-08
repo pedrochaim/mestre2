@@ -621,7 +621,7 @@
       "titulo": "en:Hair",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ornitorrinco",
@@ -719,7 +719,7 @@
       "titulo": "en:Placenta",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mandíbula",
@@ -796,7 +796,7 @@
       "titulo": "en:Larynx",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Escápula",
@@ -810,7 +810,7 @@
       "titulo": "en:Planarian",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Rotífero",
@@ -836,6 +836,286 @@
     {
       "nome": "Cianobactéria",
       "titulo": "en:Cyanobacteria",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mão",
+      "titulo": "en:Hand",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pé",
+      "titulo": "en:Foot",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Joelho",
+      "titulo": "en:Knee",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Boca",
+      "titulo": "en:Mouth",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sobrancelha",
+      "titulo": "en:Eyebrow",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dedo",
+      "titulo": "en:Finger",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Osso",
+      "titulo": "en:Bone",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Carvão",
+      "titulo": "en:Coal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Petróleo",
+      "titulo": "en:Petroleum",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mármore",
+      "titulo": "en:Marble",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Granito",
+      "titulo": "en:Granite",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pérola",
+      "titulo": "en:Pearl",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Açúcar",
+      "titulo": "en:Sugar",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estanho",
+      "titulo": "en:Tin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zinco",
+      "titulo": "en:Zinc",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Níquel",
+      "titulo": "en:Nickel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Silício",
+      "titulo": "en:Silicon",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cromo",
+      "titulo": "en:Chromium",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gipsita",
+      "titulo": "en:Gypsum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Topázio",
+      "titulo": "en:Topaz",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Granada",
+      "titulo": "en:Garnet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra-pomes",
+      "titulo": "en:Pumice",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Úmero",
+      "titulo": "en:Humerus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esôfago",
+      "titulo": "en:Esophagus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerebelo",
+      "titulo": "en:Cerebellum",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esponja-do-mar",
+      "titulo": "en:Sponge",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Hidra",
+      "titulo": "en:Hydra (genus)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Crisocola",
+      "titulo": "en:Chrysocolla",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rodocrosita",
+      "titulo": "en:Rhodochrosite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Labradorita",
+      "titulo": "en:Labradorite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Berilo",
+      "titulo": "en:Beryl",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cianita",
+      "titulo": "en:Kyanite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antimônio",
+      "titulo": "en:Antimony",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telúrio",
+      "titulo": "en:Tellurium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esterno",
+      "titulo": "en:Sternum",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sacro",
+      "titulo": "en:Sacrum",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula de Purkinje",
+      "titulo": "en:Purkinje cell",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vilosidade intestinal",
+      "titulo": "en:Intestinal villus",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Alvéolo pulmonar",
+      "titulo": "en:Pulmonary alveolus",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Fuso mitótico",
+      "titulo": "en:Spindle apparatus",
       "camada": 3,
       "destino": 2,
       "status": "nova"

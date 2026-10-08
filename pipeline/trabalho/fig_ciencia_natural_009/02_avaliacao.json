@@ -1,0 +1,127 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem é um emaranhado de fios secos, que parece capim ou pelagem queimada. Não se reconhece cabelo humano com clareza, e a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cristais metálicos prateados podem ser confundidos com outros metais, como bismuto ou outros elementos brilhantes. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais brancos transparentes podem ser sal, açúcar ou outro sólido cristalino. A resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esponja-barril grande, bem visível, em recife. Não há texto na imagem. A pergunta vai além do nome e pede o grupo.",
+      "pergunta": "A que grupo de animais pertence este organismo marinho?",
+      "resposta": "Poríferos (esponjas)",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 2,
+      "ancora": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+        "variantes": [
+          "Esponja",
+          "Porífero",
+          "Porifera"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lâmina histológica nítida, com vilosidades e criptas do intestino delgado. Não há texto. Múltipla escolha deixa a pergunta justa.",
+      "pergunta": "Que estruturas do revestimento do intestino delgado aparecem nesta lâmina ao microscópio?",
+      "resposta": "Vilosidades intestinais",
+      "tipo": "multipla",
+      "distratores": [
+        "Alvéolos pulmonares",
+        "Túbulos renais",
+        "Papilas gustativas"
+      ],
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Vilosidade intestinal",
+        "descricao": "Projeção em forma de dedo da mucosa do intestino delgado que aumenta a superfície de absorção.",
+        "variantes": [
+          "Vilosidades intestinais",
+          "Vilos intestinais"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mão em duas vistas, com os dedos numerados e sem identificar a pessoa. Os números não entregam o nome. A pergunta usa a numeração.",
+      "pergunta": "Como se chama o dedo da mão marcado com o número três nesta imagem?",
+      "resposta": "Dedo médio",
+      "tipo": "multipla",
+      "distratores": [
+        "Indicador",
+        "Anelar",
+        "Polegar"
+      ],
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Dedo",
+        "descricao": "Dedos da mão humana, mostrados em vista dorsal e palmar com numeração de um a cinco.",
+        "variantes": [
+          "Dedos da mão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Placenta com cordão umbilical numa bandeja, bem reconhecível. Só aparece uma mão enluvada, sem pessoa em primeiro plano. Não há texto.",
+      "pergunta": "Que órgão é este?",
+      "resposta": "Placenta",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Placenta",
+        "descricao": "Órgão temporário formado na gravidez que faz as trocas entre a circulação da mãe e a do feto, aqui após o parto com o cordão umbilical.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem borrada e de baixa resolução. Não fica legível num celular, e a planária não é reconhecível com segurança."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma gárgula de pedra com a boca aberta, e não uma boca como órgão do corpo. Não corresponde à entidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Um pedaço de metal escuro e brilhante pode ser silício, germânio ou outro semimetal. A resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A ilustração tem legendas em inglês, como Thyroid cartilage, Cricoid cartilage e Trachea, que entregam a resposta. Também é um diagrama cheio de texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A ilustração tem legendas, como Medial plantar e Quadratus plantae, e é um diagrama de nervos. O texto entrega a resposta, e a imagem não mostra o pé com clareza."
+    }
+  ]
+}

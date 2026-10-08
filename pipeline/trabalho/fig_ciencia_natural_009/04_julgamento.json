@@ -1,0 +1,189 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+        "variantes": [
+          "Esponja",
+          "Porífero",
+          "Porifera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bob_esponja_calca_quadrada",
+          "nome": "Bob Esponja Calça Quadrada",
+          "descricao": "Série animada americana estreada em 1999, sobre uma esponja-do-mar amarela que trabalha numa lanchonete no fundo do mar.",
+          "variantes": [
+            "SpongeBob SquarePants",
+            "Bob Esponja"
+          ]
+        },
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "nudibranquio",
+          "nome": "Nudibrânquio",
+          "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas.",
+          "variantes": [
+            "Lesma-do-mar",
+            "Nudibranchia"
+          ]
+        },
+        {
+          "id": "l_orfeo",
+          "nome": "L'Orfeo",
+          "descricao": "Ópera de Claudio Monteverdi sobre o mito de Orfeu, estreada em Mântua em 1607.",
+          "variantes": [
+            "Orfeo",
+            "Orfeu (Monteverdi)",
+            "L'Orfeo, favola in musica",
+            "L'Orfeo de Monteverdi"
+          ]
+        },
+        {
+          "id": "salinidade_da_agua_do_mar",
+          "nome": "Salinidade da água do mar",
+          "descricao": "Quantidade de sais dissolvidos na água dos mares e oceanos.",
+          "variantes": [
+            "Sal do mar",
+            "Salinidade oceânica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dedo",
+        "descricao": "Dedos da mão humana, mostrados em vista dorsal e palmar com numeração de um a cinco.",
+        "variantes": [
+          "Dedos da mão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toquio",
+          "nome": "Tóquio",
+          "descricao": "Capital e cidade mais populosa do Japão, vista com os arranha-céus de Shinjuku.",
+          "variantes": [
+            "Tokyo",
+            "Edo"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "cadeado",
+          "nome": "Cadeado",
+          "descricao": "Fechadura portátil com argola que passa por uma abertura para impedir o uso ou o roubo.",
+          "variantes": [
+            "Cadeado de latão"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "idos_de_marco",
+          "nome": "Idos de Março",
+          "descricao": "Data do calendário romano que caía no meio de março, famosa pelo assassinato de Júlio César.",
+          "variantes": [
+            "Ides of March"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Placenta",
+        "descricao": "Órgão temporário formado na gravidez que faz as trocas entre a circulação da mãe e a do feto, aqui após o parto com o cordão umbilical.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "escapula",
+          "nome": "Escápula",
+          "descricao": "Osso plano e triangular da cintura escapular, também chamado de omoplata, que liga o úmero à clavícula.",
+          "variantes": [
+            "Omoplata",
+            "Paleta"
+          ]
+        },
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Esponja-do-mar (filo Porifera) é distinta da série Bob Esponja e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Dedos da mão humana não correspondem a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Placenta é um órgão; nenhuma candidata é a mesma entidade."
+    }
+  ]
+}
