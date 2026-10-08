@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este estádio?",
+        "resposta": "La Paz"
+      },
+      "existentes": [
+        {
+          "id": "q05110",
+          "pergunta": "O Estádio Hernando Siles, em La Paz, onde joga a seleção boliviana, castiga os visitantes por qual característica?",
+          "resposta": "A altitude elevada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer a cidade do estádio (La Paz). A existente quer a característica que castiga os visitantes (altitude). Os fatos são diferentes, e saber um não leva ao outro."
+    }
+  ]
+}

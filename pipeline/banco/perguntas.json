@@ -152171,5 +152171,210 @@
       "autor": "Joe Mabel",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q08896",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "ginasio_nilson_nelson",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este ginásio?",
+    "resposta": "Brasília",
+    "distratores": [
+      "Goiânia",
+      "Belo Horizonte",
+      "Curitiba"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gin%C3%A1sio_Nilson_Nelson",
+      "https://en.wikipedia.org/wiki/Nilson_Nelson_Gymnasium"
+    ],
+    "imagem": {
+      "arquivo": "q08896.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ginásio_Nilson_Nelson_-_Brasilia_-_DSC00186.JPG",
+      "autor": "Daderot",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q08897",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_de_saitama",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio japonês é este?",
+    "resposta": "Estádio de Saitama",
+    "distratores": [
+      "Estádio Nacional de Tóquio",
+      "Estádio Internacional de Yokohama",
+      "Estádio de Ōsaka"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saitama_Stadium_2002",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Saitama_2002"
+    ],
+    "imagem": {
+      "arquivo": "q08897.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Saitama_stadium2002-1.jpg",
+      "autor": "Ocdp",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08898",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_hernando_siles",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "La Paz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hernando_Siles_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Hernando_Siles"
+    ],
+    "imagem": {
+      "arquivo": "q08898.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hernando_Siles_Stadium_-_La_Paz.jpg",
+      "autor": "psyberartist",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q08899",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "gigantinho",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ginásio é este?",
+    "resposta": "Gigantinho",
+    "distratores": [
+      "Maracanãzinho",
+      "Mineirinho",
+      "Ginásio do Ibirapuera"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gin%C3%A1sio_Gigantinho",
+      "https://en.wikipedia.org/wiki/Gigantinho"
+    ],
+    "imagem": {
+      "arquivo": "q08899.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gigantinho.jpg",
+      "autor": "Jorge Andrade from Rio de Janeiro, Brazil",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q08900",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_artemio_franchi",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que clube italiano manda seus jogos neste estádio?",
+    "resposta": "Fiorentina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Artemio_Franchi"
+    ],
+    "imagem": {
+      "arquivo": "q08900.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Firenze,_stadio_artemio_franchi,_campo_da_gioco,_10,0.jpg",
+      "autor": "Sailko",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q08901",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "bolshoy_ice_dome",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que arena olímpica de hóquei é esta?",
+    "resposta": "Bolshoy Ice Dome",
+    "distratores": [
+      "Iceberg Skating Palace",
+      "Arena Shayba",
+      "Gangneung Hockey Centre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bolshoy_Ice_Dome",
+      "https://pt.wikipedia.org/wiki/Domo_de_Gelo_Bolshoi"
+    ],
+    "imagem": {
+      "arquivo": "q08901.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Большая_Ледовая_Арена_-_panoramio.jpg",
+      "autor": "Максим Битюцкий",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q08902",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "lord_s",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este campo de críquete?",
+    "resposta": "Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lord%27s",
+      "https://pt.wikipedia.org/wiki/Lord%27s_Cricket_Ground"
+    ],
+    "imagem": {
+      "arquivo": "q08902.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lords-Cricket-Ground-Pavilion-06-08-2017.jpg",
+      "autor": "Yorkspotter",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q08903",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "the_o2_arena",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que nome tinha esta construção antes de virar uma arena de shows e esportes?",
+    "resposta": "Millennium Dome",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_O2_Arena",
+      "https://pt.wikipedia.org/wiki/The_O2_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q08903.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:O2_Arena.jpg",
+      "autor": "Heuschrecke",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08904",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "oriole_park_at_camden_yards",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio de beisebol?",
+    "resposta": "Baltimore",
+    "distratores": [
+      "Boston",
+      "Cleveland",
+      "Pittsburgh"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+      "https://pt.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards"
+    ],
+    "imagem": {
+      "arquivo": "q08904.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:OrioleParkAtCamdenYardsJune2013.jpg",
+      "autor": "Keith Allison",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

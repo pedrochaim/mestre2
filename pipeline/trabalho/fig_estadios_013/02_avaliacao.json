@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ginásio de formato circular, com contrafortes inclinados, reconhecível; autoescolas são só ruído, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este ginásio?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Ginásio Nilson Nelson",
+        "descricao": "Ginásio poliesportivo de Brasília, no Complexo Poliesportivo Ayrton Senna, também chamado Arena BRB Nilson Nelson.",
+        "variantes": [
+          "Arena BRB Nilson Nelson",
+          "Ginásio de Esportes Presidente Médici"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cobertura em arco característica, vista externa clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio japonês é este?",
+      "resposta": "Estádio de Saitama",
+      "distratores": [
+        "Estádio Nacional de Tóquio",
+        "Estádio Internacional de Yokohama",
+        "Estádio de Ōsaka"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio de Saitama",
+        "descricao": "Estádio de futebol em Midori-ku, Saitama, no Japão, casa do Urawa Red Diamonds e sede de semifinais da Copa de 2002.",
+        "variantes": [
+          "Saitama Stadium 2002",
+          "Saisuta"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estádio cercado pela paisagem inconfundível de La Paz, com montanhas erodidas ao fundo; sem texto que entregue.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "La Paz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Hernando Siles",
+        "descricao": "Maior estádio da Bolívia, em La Paz, a cerca de 3.600 metros de altitude.",
+        "variantes": [
+          "Estadio Hernando Siles",
+          "Estádio Olímpico de La Paz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Domo vermelho e branco característico; poucas pessoas ao fundo, sem rosto legível, e nenhum texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ginásio é este?",
+      "resposta": "Gigantinho",
+      "distratores": [
+        "Maracanãzinho",
+        "Mineirinho",
+        "Ginásio do Ibirapuera"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Gigantinho",
+        "descricao": "Ginásio poliesportivo de Porto Alegre, integrado ao complexo do Estádio Beira-Rio, do Internacional.",
+        "variantes": [
+          "Ginásio Gigantinho"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torre da Maratona e arquibancadas características, em vista interna; sem texto legível que entregue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que clube italiano manda seus jogos neste estádio?",
+      "resposta": "Fiorentina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Artemio Franchi",
+        "descricao": "Estádio de futebol de Florença, na Itália, projetado por Pier Luigi Nervi e casa da Fiorentina.",
+        "variantes": [
+          "Stadio Artemio Franchi",
+          "Comunale de Florença"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Domo prateado e arredondado, formato único, vista externa clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arena olímpica de hóquei é esta?",
+      "resposta": "Bolshoy Ice Dome",
+      "distratores": [
+        "Iceberg Skating Palace",
+        "Arena Shayba",
+        "Gangneung Hockey Centre"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bolshoy Ice Dome",
+        "descricao": "Arena coberta no Parque Olímpico de Sóchi, na Rússia, construída para o hóquei dos Jogos de Inverno de 2014.",
+        "variantes": [
+          "Grande Palácio de Gelo",
+          "Domo de Gelo Bolshoi",
+          "Большой Ледовый дворец"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, interior genérico de ginásio de basquete; não permite reconhecer a arena e traz a palavra RIO na quadra."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista interna de um estádio sem traços distintivos; o respondente não reconheceria o Jalisco, e há letreiros nas arquibancadas."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pavilhão de tijolos vermelhos característico de Lord's; só publicidade genérica ao fundo.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este campo de críquete?",
+      "resposta": "Londres",
+      "destino": 2,
+      "ancora": {
+        "nome": "Lord's",
+        "descricao": "Campo de críquete em St John's Wood, Londres, sede do Marylebone Cricket Club.",
+        "variantes": [
+          "Lord's Cricket Ground"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cúpula branca com mastros amarelos, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que nome tinha esta construção antes de virar uma arena de shows e esportes?",
+      "resposta": "Millennium Dome",
+      "destino": 2,
+      "ancora": {
+        "nome": "The O2 Arena",
+        "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+        "variantes": [
+          "The O2",
+          "O2 Arena",
+          "Millennium Dome"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Os painéis dizem EUGENE 2011, o que entrega o local; há pessoas comuns em primeiro plano e a arquibancada antiga é pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Antigo armazém de tijolos ao fundo, símbolo inconfundível do estádio; patrocinadores não entregam a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio de beisebol?",
+      "resposta": "Baltimore",
+      "distratores": [
+        "Boston",
+        "Cleveland",
+        "Pittsburgh"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Oriole Park at Camden Yards",
+        "descricao": "Estádio de beisebol de Baltimore, Maryland, casa do Baltimore Orioles, inaugurado em 1992.",
+        "variantes": [
+          "Camden Yards",
+          "Oriole Park"
+        ]
+      }
+    }
+  ]
+}
