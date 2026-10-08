@@ -143930,5 +143930,30 @@
       "licenca": "Public domain"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q08427",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_serra_dourada",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade brasileira fica este estádio?",
+    "resposta": "Goiânia",
+    "distratores": [
+      "Brasília",
+      "Cuiabá",
+      "Campo Grande"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Serra_Dourada",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Serra_Dourada"
+    ],
+    "imagem": {
+      "arquivo": "q08427.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Serra_Dourada_Lotado.jpg",
+      "autor": "Muriloreisb",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

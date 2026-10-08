@@ -1,0 +1,83 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Faixas e placas visíveis no estádio trazem 'Santa...' e 'Terror do Nordeste', que entregam o clube e a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea noturna sem texto, com formato oval e cobertura inconfundíveis. Resposta única.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira fica este estádio?",
+      "resposta": "Goiânia",
+      "distratores": [
+        "Brasília",
+        "Cuiabá",
+        "Campo Grande"
+      ],
+      "ancora": {
+        "nome": "Estádio Serra Dourada",
+        "descricao": "Estádio de futebol inaugurado em 1975 em Goiânia, Goiás, projetado por Paulo Mendes da Rocha.",
+        "variantes": [
+          "Serra Dourada",
+          "Estádio Mané Garrincha de Goiânia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano ocupam grande parte da foto, e o estádio fica pequeno ao fundo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra o prédio dos boxes e o asfalto pintado, sem nada que permita reconhecer o circuito. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Trecho de pista genérico, sem monumento ou elemento exclusivo reconhecível. Pode ser confundido com outros autódromos modernos."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "As letras VCF nas arquibancadas, 'Welcome to Valencia' e 'This is Mestalla' entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome 'Allegiant Stadium' aparece escrito na fachada."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O nome 'Rose Bowl' aparece escrito na entrada do estádio."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Estádio verde genérico, sem elemento que o torne reconhecível. Os patrocinadores visíveis não ajudam, e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A fachada traz 'Estadio Moises Lucarelli' e 'A.A. Ponte Preta' escritos, além do escudo do clube."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Arquibancada lotada de torcedores, sem elemento reconhecível do autódromo. Resposta ambígua e muitas pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Placas e faixas visíveis, com 'Churchill Downs' e 'Kentucky Derby 2017', entregam a resposta."
+    }
+  ]
+}
