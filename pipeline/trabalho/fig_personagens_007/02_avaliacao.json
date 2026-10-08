@@ -1,0 +1,265 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Donald sozinho, de corpo inteiro, fundo transparente; silhueta de pato com chapéu de marinheiro e pés espalmados é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Este personagem foi criado como contraponto ao seu melhor amigo. Que personagem é esse amigo?",
+      "resposta": "Mickey Mouse",
+      "ancora": {
+        "nome": "Pato Donald",
+        "descricao": "Personagem de desenho animado da Disney, um pato de roupa de marinheiro e voz ininteligível, criado por Walt Disney.",
+        "variantes": [
+          "Donald Duck",
+          "Donald"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte nítida do rosto de Thanos com a armadura dourada, sem texto, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Thanos",
+      "ancora": {
+        "nome": "Thanos",
+        "descricao": "Vilão titã roxo dos quadrinhos da Marvel, que apareceu pela primeira vez em Iron Man número cinquenta e cinco.",
+        "variantes": [
+          "Thanos, o Titã Louco"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Os dois detetives gêmeos de uma única obra (Tintim), sem texto, claramente reconhecíveis.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que quadrinista criou estes dois detetives trapalhões?",
+      "resposta": "Hergé",
+      "distratores": [
+        "Peyo",
+        "André Franquin",
+        "René Goscinny"
+      ],
+      "ancora": {
+        "nome": "Dupond e Dupont",
+        "descricao": "Dupla de detetives atrapalhados da polícia nos quadrinhos As Aventuras de Tintim, distinguíveis pelos bigodes.",
+        "variantes": [
+          "Thomson e Thompson",
+          "Dupond et Dupont",
+          "Os Detetives"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena nítida do Salsicha; o logotipo do canal no canto não revela o nome do personagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é o cachorro e melhor amigo deste personagem?",
+      "resposta": "Scooby-Doo",
+      "ancora": {
+        "nome": "Salsicha",
+        "descricao": "Membro da turma do Scooby-Doo, de camisa verde e cavanhaque ralo, dono do cão Scooby.",
+        "variantes": [
+          "Shaggy Rogers",
+          "Norville Rogers",
+          "Shaggy"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto de Gaara com cabelo vermelho e o caractere na testa, que é parte do desenho e não entrega o nome; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este personagem de Naruto?",
+      "resposta": "Gaara",
+      "distratores": [
+        "Sasori",
+        "Nagato",
+        "Kankuro"
+      ],
+      "ancora": {
+        "nome": "Gaara",
+        "descricao": "Ninja de Sunagakure de cabelo vermelho, jinchuuriki do Shukaku e depois Kazekage, no mangá e anime Naruto.",
+        "variantes": [
+          "Gaara do Deserto",
+          "Gaara of the Sand"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vash reconhecível pelo cabelo espetado, óculos redondos e casaco vermelho. A silhueta é um retângulo, sem contorno útil, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mangaká criou este personagem?",
+      "resposta": "Yasuhiro Nightow",
+      "ancora": {
+        "nome": "Vash, o Estouro",
+        "descricao": "Pistoleiro de casaco vermelho e cabelo espetado, protagonista do mangá e anime Trigun.",
+        "variantes": [
+          "Vash the Stampede",
+          "Vash o Estouro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Coelhinho azul de pelúcia, sozinho, sem texto, no estilo da Turma da Mônica; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é a dona deste coelhinho de pelúcia?",
+      "resposta": "Mônica",
+      "ancora": {
+        "nome": "Sansão",
+        "descricao": "Coelhinho de pelúcia azul da Mônica, na Turma da Mônica, usado por ela para dar coelhadas.",
+        "variantes": [
+          "Sansão da Mônica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mojo Jojo nítido e sem texto na imagem colorida. A silhueta é uma mancha sem o rosto, pouco reconhecível, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual é o nome deste vilão das Meninas Superpoderosas?",
+      "resposta": "Macaco Louco",
+      "distratores": [
+        "Him",
+        "Gangue Gangrena",
+        "Princesa Morbucks"
+      ],
+      "ancora": {
+        "nome": "Macaco Louco",
+        "descricao": "Macaco de cérebro grande, capa roxa e fala redundante, principal vilão de As Meninas Superpoderosas.",
+        "variantes": [
+          "Mojo Jojo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Alucard reconhecível pelo chapéu e casaco vermelhos; o texto gravado na arma é pequeno e ilegível e não entrega o nome. Há outro personagem cortado ao fundo, mas o foco é claro.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mangaká criou este personagem?",
+      "resposta": "Kouta Hirano",
+      "ancora": {
+        "nome": "Alucard (Hellsing)",
+        "descricao": "Vampiro de chapéu e casaco vermelhos, arma secreta da Organização Hellsing no mangá e anime Hellsing.",
+        "variantes": [
+          "Alucard",
+          "Arucard"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena clara de Cruella com o casaco de pele e a piteira, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filhotes esta vilã queria usar para fazer um casaco de pele?",
+      "resposta": "Dálmatas",
+      "distratores": [
+        "Poodles",
+        "Pastores-alemães",
+        "Beagles"
+      ],
+      "ancora": {
+        "nome": "Cruella de Vil",
+        "descricao": "Vilã de cabelo preto e branco e casaco de pele, antagonista de 101 Dálmatas, da Disney.",
+        "variantes": [
+          "Cruella De Vil",
+          "Cruella Cruel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Chopper de corpo inteiro, sem texto, reconhecível pelo chapéu rosa com cruz.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este personagem é uma rena que comeu uma fruta do diabo. Que fruta é essa?",
+      "resposta": "Hito Hito no Mi",
+      "distratores": [
+        "Gomu Gomu no Mi",
+        "Mera Mera no Mi",
+        "Hana Hana no Mi"
+      ],
+      "ancora": {
+        "nome": "Tony Tony Chopper",
+        "descricao": "Rena médica do bando dos Chapéus de Palha, no mangá e anime One Piece.",
+        "variantes": [
+          "Chopper",
+          "Tony Tony Chopper"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vilão encapuzado negro com olhos brancos, sem texto, reconhecível. A silhueta é um vulto genérico sem os olhos, confundível com outros fantasmas, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que quadrinista criou este vilão, inimigo do Mickey?",
+      "resposta": "Floyd Gottfredson",
+      "distratores": [
+        "Carl Barks",
+        "Don Rosa",
+        "Al Taliaferro"
+      ],
+      "ancora": {
+        "nome": "Mancha Negra",
+        "descricao": "Vilão encapuzado de capa negra, arquiinimigo do Mickey Mouse nos quadrinhos da Disney.",
+        "variantes": [
+          "Phantom Blot",
+          "Fantasma Negro"
+        ]
+      }
+    }
+  ]
+}

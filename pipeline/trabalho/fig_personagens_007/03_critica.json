@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho diz que Donald foi criado como foil (contraponto) de seu melhor amigo Mickey Mouse. Enunciado não nomeia nada e exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, sem pista no enunciado. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Hergé como criador. Enunciado só diz detetives trapalhões, que não identifica a dupla. Distratores são quadrinistas franco-belgas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Scooby-Doo como cachorro e melhor amigo de Salsicha. Enunciado não nomeia ninguém.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de Gaara. Distratores são personagens de Naruto, com no máximo 4 palavras e nenhum correto. Enunciado sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Yasuhiro Nightow como criador de Vash. Enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Mônica como dona de Sansão. Enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Mojo Jojo (Macaco Louco) como vilão principal. Distratores são vilões da série, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Kouta Hirano como criador de Alucard. Enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. Vilã que quer casaco de pele de filhotes já entrega Cruella e dálmatas sem ver a figura. Reescrita pergunta o filme, que exige reconhecer a vilã.",
+      "reescrita": {
+        "pergunta": "Em que filme de animação da Disney, lançado em mil novecentos e sessenta e um, aparece esta vilã?",
+        "resposta": "101 Dálmatas",
+        "distratores": [
+          "A Bela Adormecida",
+          "A Dama e o Vagabundo",
+          "Os Aristogatas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que é uma rena que comeu fruta do diabo identifica Chopper sem ver a figura. Reescrita remove a pista da rena e mantém o grupo e a obra.",
+      "reescrita": {
+        "pergunta": "Este personagem do bando dos Chapéus de Palha, em One Piece, comeu uma fruta do diabo. Que fruta é essa?",
+        "resposta": "Hito Hito no Mi",
+        "distratores": [
+          "Gomu Gomu no Mi",
+          "Mera Mera no Mi",
+          "Hana Hana no Mi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Floyd Gottfredson criou o Mancha Negra em 1939. Enunciado não nomeia o vilão. Distratores são quadrinistas Disney críveis.",
+      "reescrita": null
+    }
+  ]
+}
