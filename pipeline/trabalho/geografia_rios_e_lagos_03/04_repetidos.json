@@ -1,0 +1,368 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Formado na fronteira com a Bolívia, qual rio é o maior afluente do Amazonas em volume de água?",
+        "resposta": "Rio Madeira"
+      },
+      "existentes": [
+        {
+          "id": "q02136",
+          "pergunta": "O rio Madeira, que banha Porto Velho, recebeu esse nome por causa de quê, na época das cheias?",
+          "resposta": "Troncos arrastados pela correnteza"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Cercada pelos braços do rio Araguaia, no Tocantins, qual ilha é considerada a maior ilha fluvial do mundo?",
+        "resposta": "Ilha do Bananal"
+      },
+      "existentes": [
+        {
+          "id": "q02429",
+          "pergunta": "A Ilha do Bananal, enorme ilha fluvial do Tocantins, fica no meio de qual grande rio?",
+          "resposta": "Araguaia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Despencando do alto de um tepui na Venezuela, qual é a cachoeira com a maior queda ininterrupta do mundo?",
+        "resposta": "Salto Ángel"
+      },
+      "existentes": [
+        {
+          "id": "q02070",
+          "pergunta": "O nome do Salto Ángel, na Venezuela, não tem nada de religioso. Ele homenageia quem?",
+          "resposta": "Jimmie Angel, aviador americano"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Medições encontraram trechos com mais de duzentos metros de profundidade em qual grande rio africano, o mais profundo já registrado no mundo?",
+        "resposta": "Rio Congo"
+      },
+      "existentes": [
+        {
+          "id": "q02170",
+          "pergunta": "O rio Congo, na África Central, faz um grande arco e cruza duas vezes qual linha imaginária?",
+          "resposta": "Linha do Equador"
+        },
+        {
+          "id": "q07157",
+          "pergunta": "Que explorador, famoso por ter encontrado Livingstone na África, concluiu em 1877 uma expedição que seguiu o rio Congo até o Atlântico?",
+          "resposta": "Henry Morton Stanley"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Depois do Amazonas, qual é o rio mais longo da América do Sul, que corre do Brasil até a Argentina?",
+        "resposta": "Rio Paraná"
+      },
+      "existentes": [
+        {
+          "id": "q07162",
+          "pergunta": "Na língua tupi, o nome do rio Paraná quer dizer que ele é semelhante a quê?",
+          "resposta": "Ao mar"
+        },
+        {
+          "id": "q07174",
+          "pergunta": "Na divisa entre Minas Gerais, São Paulo e Mato Grosso do Sul, o rio Paraná nasce do encontro de quais dois rios?",
+          "resposta": "Grande e Paranaíba"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O delta do Nilo tem dois braços principais. Um deles passa por Damieta. Qual é o outro, que deu nome a uma pedra famosa?",
+        "resposta": "Braço de Roseta"
+      },
+      "existentes": [
+        {
+          "id": "q07164",
+          "pergunta": "A palavra delta, usada para certas fozes, nasceu porque os gregos acharam a foz de qual rio parecida com essa letra?",
+          "resposta": "Nilo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que rio, nascido numa geleira suíça, entra no lago de Genebra pelo leste e sai dele em Genebra, rumo à França?",
+        "resposta": "Rio Ródano"
+      },
+      "existentes": [
+        {
+          "id": "q07166",
+          "pergunta": "Numa casa às margens do lago de Genebra, no sombrio verão de 1816, que escritora inglesa concebeu o romance Frankenstein?",
+          "resposta": "Mary Shelley"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Qual é o principal afluente do rio Tocantins, que se junta a ele na região do Bico do Papagaio?",
+        "resposta": "Rio Araguaia"
+      },
+      "existentes": [
+        {
+          "id": "q02130",
+          "pergunta": "De origem tupi, o nome do rio Tocantins faz referência ao bico de qual ave?",
+          "resposta": "Tucano"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que rio, que banha Boa Vista, capital de Roraima, é o principal afluente do rio Negro vindo do norte?",
+        "resposta": "Rio Branco"
+      },
+      "existentes": [
+        {
+          "id": "q02413",
+          "pergunta": "Por que as águas do rio Negro, na Amazônia, têm a cor escura de chá que dá nome ao rio?",
+          "resposta": "Matéria orgânica em decomposição"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na Amazônia, o que dá às águas do rio Negro sua cor escura, parecida com a de um chá forte?",
+        "resposta": "Matéria orgânica em decomposição"
+      },
+      "existentes": [
+        {
+          "id": "q02413",
+          "pergunta": "Por que as águas do rio Negro, na Amazônia, têm a cor escura de chá que dá nome ao rio?",
+          "resposta": "Matéria orgânica em decomposição"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O Guaíba, em Porto Alegre, recebe as águas de vários rios. Qual deles responde pela maior parte de sua água?",
+        "resposta": "Rio Jacuí"
+      },
+      "existentes": [
+        {
+          "id": "q07140",
+          "pergunta": "Famoso pelo pôr do sol, o Guaíba banha qual capital brasileira?",
+          "resposta": "Porto Alegre"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na divisa entre a Bahia e Alagoas, que cachoeira do rio São Francisco deu nome a um grande complexo de usinas hidrelétricas?",
+        "resposta": "Cachoeira de Paulo Afonso"
+      },
+      "existentes": [
+        {
+          "id": "q02156",
+          "pergunta": "Que rio separa as cidades vizinhas de Petrolina, em Pernambuco, e Juazeiro, na Bahia?",
+          "resposta": "Rio São Francisco"
+        },
+        {
+          "id": "q02157",
+          "pergunta": "O rio São Francisco, o Velho Chico, nasce na Serra da Canastra, em qual estado brasileiro?",
+          "resposta": "Minas Gerais"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Nos Sundarbans, o imenso manguezal do delta do Ganges, vive uma famosa população de qual grande felino?",
+        "resposta": "Tigre-de-bengala"
+      },
+      "existentes": [
+        {
+          "id": "q02292",
+          "pergunta": "Os Sundarbans, imenso manguezal onde vive o tigre-de-bengala, ficam na Índia e em que outro país?",
+          "resposta": "Bangladesh"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em Botsuana, o rio Okavango forma um imenso delta que nunca chega ao mar. Em que deserto suas águas desaparecem?",
+        "resposta": "Deserto do Kalahari"
+      },
+      "existentes": [
+        {
+          "id": "q04807",
+          "pergunta": "O rio Okavango nunca chega ao mar: ele se espalha num enorme delta verde no meio do deserto do Kalahari. Esse delta fica em que país?",
+          "resposta": "Botsuana"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Junto à cidade de Jinja, em Uganda, sai do lago Vitória o trecho inicial de qual grande rio?",
+        "resposta": "Rio Nilo"
+      },
+      "existentes": [
+        {
+          "id": "q02129",
+          "pergunta": "Em homenagem a quem o explorador britânico John Speke batizou, em 1858, o maior lago da África?",
+          "resposta": "Rainha Vitória"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Uma das maiores mineradoras do mundo, fundada em 1873 para explorar minas na Espanha, leva o nome de qual rio de águas avermelhadas?",
+        "resposta": "Rio Tinto"
+      },
+      "existentes": [
+        {
+          "id": "q02866",
+          "pergunta": "O rio Tinto, na Espanha, de águas ácidas e avermelhadas, empresta o nome a uma empresa gigante de que setor?",
+          "resposta": "Mineração"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1982, as cachoeiras de Sete Quedas, no rio Paraná, desapareceram da paisagem. O que aconteceu com elas?",
+        "resposta": "Foram cobertas pelo lago de Itaipu"
+      },
+      "existentes": [
+        {
+          "id": "q04135",
+          "pergunta": "Em 1982, as cachoeiras de Sete Quedas, na fronteira com o Paraguai, desapareceram sob as águas do reservatório de que obra?",
+          "resposta": "Usina de Itaipu"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No parque nacional croata de Plitvice, quantos lagos principais, ligados por cachoeiras, descem em degraus pelo vale?",
+        "resposta": "Dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q02334",
+          "pergunta": "Em que país ficam estes lagos?",
+          "resposta": "Croácia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Maior afluente vs origem do nome; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a ilha (maior ilha fluvial); existente pergunta o rio; resposta diferente, embora o rio apareça no enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Maior queda vs origem do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Profundidade vs equador/Stanley."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Segundo mais longo vs significado do nome ou nascente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Braços do delta vs origem do termo delta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Rio Ródano vs Mary Shelley."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Afluente vs origem do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Rio Branco afluente vs cor do Negro."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q02413",
+      "motivo": "Mesmo fato: causa da cor escura do rio Negro."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Principal afluente vs capital banhada."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Cachoeira de Paulo Afonso é fato distinto."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q02292",
+      "motivo": "A existente já revela o tigre-de-bengala nos Sundarbans; quem sabe uma sabe a outra."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q04807",
+      "motivo": "A existente já menciona o deserto do Kalahari e o delta; fato equivalente (delta no Kalahari/Botsuana)."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nascente do Nilo vs homenagem do nome do lago."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q02866",
+      "motivo": "Mesmo fato: rio Tinto empresta nome à mineradora."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q04135",
+      "motivo": "Mesmo fato: Sete Quedas submersas pelo reservatório de Itaipu."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Número de lagos vs país."
+    }
+  ]
+}

@@ -1,0 +1,1083 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Lago Tanganica",
+        "descricao": "Grande lago de água doce do Vale do Rift africano, dividido entre Tanzânia, República Democrática do Congo, Burundi e Zâmbia.",
+        "variantes": [
+          "Lake Tanganyika",
+          "Tanganyika"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Tanganyika",
+          "https://pt.wikipedia.org/wiki/Lago_Tanganica"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre a Tanzânia e o Congo, qual lago africano é o segundo mais profundo do mundo, atrás apenas do Baikal?",
+      "resposta": "Lago Tanganica",
+      "distratores": [
+        "Lago Malawi",
+        "Lago Vitória",
+        "Lago Turkana"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Tanganyika"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_madeira",
+        "nome": "Rio Madeira",
+        "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+        "variantes": [
+          "Madeira River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Madeira_River"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Formado na fronteira com a Bolívia, qual rio é o maior afluente do Amazonas em volume de água?",
+      "resposta": "Rio Madeira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madeira_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Erie",
+        "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá, às margens do qual fica Cleveland.",
+        "variantes": [
+          "Lake Erie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Erie"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com profundidade média de cerca de dezenove metros, qual dos cinco Grandes Lagos da América do Norte é o mais raso?",
+      "resposta": "Lago Erie",
+      "distratores": [
+        "Lago Ontário",
+        "Lago Huron",
+        "Lago Michigan"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Erie",
+        "https://www.britannica.com/place/Lake-Erie"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha do Bananal",
+        "descricao": "Grande ilha formada pelos braços do rio Araguaia, no oeste do estado do Tocantins.",
+        "variantes": [
+          "Bananal Island"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
+          "https://en.wikipedia.org/wiki/Bananal_Island"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Cercada pelos braços do rio Araguaia, no Tocantins, qual ilha é considerada a maior ilha fluvial do mundo?",
+      "resposta": "Ilha do Bananal",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
+        "https://en.wikipedia.org/wiki/Bananal_Island"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto Ángel",
+        "descricao": "Cachoeira que despenca do tepui Auyán, no Parque Nacional Canaima, na Venezuela.",
+        "variantes": [
+          "Angel Falls",
+          "Kerepakupai Merú",
+          "Salto Angel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angel_Falls",
+          "https://pt.wikipedia.org/wiki/Salto_Ángel"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Despencando do alto de um tepui na Venezuela, qual é a cachoeira com a maior queda ininterrupta do mundo?",
+      "resposta": "Salto Ángel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angel_Falls"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto Ángel",
+        "descricao": "Cachoeira que despenca do tepui Auyán, no Parque Nacional Canaima, na Venezuela.",
+        "variantes": [
+          "Angel Falls",
+          "Kerepakupai Merú",
+          "Salto Angel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angel_Falls",
+          "https://pt.wikipedia.org/wiki/Salto_Ángel"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Salto Ángel, na Venezuela, leva o nome de um americano que o sobrevoou nos anos 1930. Qual era a profissão dele?",
+      "resposta": "Aviador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angel_Falls",
+        "https://en.wikipedia.org/wiki/Jimmie_Angel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Ladoga",
+        "descricao": "Grande lago de água doce no noroeste da Rússia, perto de São Petersburgo.",
+        "variantes": [
+          "Lake Ladoga",
+          "Ladoga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Ladoga"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Perto de São Petersburgo, na Rússia, fica o maior lago situado inteiramente na Europa. Como ele se chama?",
+      "resposta": "Lago Ladoga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Ladoga",
+        "https://www.britannica.com/place/Lake-Ladoga"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Yangtzé",
+        "descricao": "Grande rio da China que nasce no planalto do Tibete e deságua no mar da China Oriental, perto de Xangai.",
+        "variantes": [
+          "Yangtze",
+          "Chang Jiang",
+          "Rio Azul",
+          "Iangtsé"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yangtze"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Que rio chinês, onde foi construída a gigantesca usina de Três Gargantas, é o mais longo da Ásia?",
+      "resposta": "Rio Yangtzé (Chang Jiang)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yangtze",
+        "https://www.britannica.com/place/Yangtze-River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mar_morto",
+        "nome": "Mar Morto",
+        "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+        "variantes": [
+          "Dead Sea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dead_Sea"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "As margens de qual lago salgado, entre Israel e a Jordânia, são o ponto mais baixo em terra firme do planeta?",
+      "resposta": "Mar Morto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dead_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_congo",
+        "nome": "Rio Congo",
+        "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+        "variantes": [
+          "Congo River",
+          "Rio Zaire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Congo_River"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Medições encontraram trechos com mais de duzentos metros de profundidade em qual grande rio africano, o mais profundo já registrado no mundo?",
+      "resposta": "Rio Congo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Congo_River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_parana",
+        "nome": "Rio Paraná",
+        "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+        "variantes": [
+          "Paraná River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paraná_River"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Depois do Amazonas, qual é o rio mais longo da América do Sul, que corre do Brasil até a Argentina?",
+      "resposta": "Rio Paraná",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paraná_River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "delta_do_nilo",
+        "nome": "Delta do Nilo",
+        "descricao": "Grande planície em forma de leque no norte do Egito, onde o rio Nilo se divide antes de chegar ao Mediterrâneo.",
+        "variantes": [
+          "Nile Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nile_Delta"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O delta do Nilo tem dois braços principais. Um deles passa por Damieta. Qual é o outro, que deu nome a uma pedra famosa?",
+      "resposta": "Braço de Roseta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nile_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_de_genebra",
+        "nome": "Lago de Genebra",
+        "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+        "variantes": [
+          "Lago Léman",
+          "Lake Geneva",
+          "Lac Léman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Geneva"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que rio, nascido numa geleira suíça, entra no lago de Genebra pelo leste e sai dele em Genebra, rumo à França?",
+      "resposta": "Rio Ródano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Geneva",
+        "https://en.wikipedia.org/wiki/Rhône"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chatt al-Arab",
+        "descricao": "Rio do sul do Iraque, junto à fronteira com o Irã, que deságua no golfo Pérsico.",
+        "variantes": [
+          "Shatt al-Arab",
+          "Arvand Rud"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shatt_al-Arab"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No sul do Iraque, o rio Chatt al-Arab, que deságua no golfo Pérsico, nasce do encontro de quais dois rios?",
+      "resposta": "Tigre e Eufrates",
+      "distratores": [
+        "Tigre e Orontes",
+        "Eufrates e Jordão",
+        "Nilo e Eufrates"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shatt_al-Arab",
+        "https://www.britannica.com/place/Shatt-al-Arab"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_tocantins",
+        "nome": "Rio Tocantins",
+        "descricao": "Rio brasileiro que nasce em Goiás, atravessa o estado do Tocantins e deságua perto de Belém, no Pará.",
+        "variantes": [
+          "Tocantins River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tocantins_River"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o principal afluente do rio Tocantins, que se junta a ele na região do Bico do Papagaio?",
+      "resposta": "Rio Araguaia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Araguaia_River",
+        "https://en.wikipedia.org/wiki/Tocantins_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Negro",
+        "descricao": "Grande rio amazônico de águas escuras, afluente do Amazonas, que banha Manaus.",
+        "variantes": [
+          "Rio Negro (Amazonas)",
+          "Negro River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que rio, que banha Boa Vista, capital de Roraima, é o principal afluente do rio Negro?",
+      "resposta": "Rio Branco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Branco_River",
+        "https://pt.wikipedia.org/wiki/Rio_Branco_(Roraima)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Negro",
+        "descricao": "Grande rio amazônico de águas escuras, afluente do Amazonas, que banha Manaus.",
+        "variantes": [
+          "Rio Negro (Amazonas)",
+          "Negro River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Amazônia, o que dá às águas do rio Negro sua cor escura, parecida com a de um chá forte?",
+      "resposta": "Matéria orgânica decomposta (ácidos húmicos)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_guaiba",
+        "nome": "Lago Guaíba",
+        "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+        "variantes": [
+          "Guaíba",
+          "Rio Guaíba"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lago_Guaíba"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Guaíba, em Porto Alegre, recebe as águas de vários rios. Qual deles responde pela maior parte de sua água?",
+      "resposta": "Rio Jacuí",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lago_Guaíba",
+        "https://en.wikipedia.org/wiki/Jacuí_River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_sao_francisco",
+        "nome": "Rio São Francisco",
+        "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+        "variantes": [
+          "Velho Chico",
+          "São Francisco River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/São_Francisco_River"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na divisa entre a Bahia e Alagoas, que cachoeira do rio São Francisco deu nome a um grande complexo de usinas hidrelétricas?",
+      "resposta": "Cachoeira de Paulo Afonso",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cachoeira_de_Paulo_Afonso",
+        "https://en.wikipedia.org/wiki/Paulo_Afonso_Falls"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Vostok",
+        "descricao": "Grande lago subglacial da Antártida Oriental, sob a estação russa Vostok.",
+        "variantes": [
+          "Lake Vostok"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Vostok"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O lago Vostok, um dos maiores da Antártida, foi descoberto por radar e ninguém jamais viu sua superfície. Por quê?",
+      "resposta": "Fica sob quase 4 km de gelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Vostok"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Loire",
+        "descricao": "Rio mais longo da França, que nasce no Maciço Central e deságua no Atlântico perto de Saint-Nazaire.",
+        "variantes": [
+          "Loire",
+          "Rio Líger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Loire",
+          "https://en.wikipedia.org/wiki/Loire_Valley"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O vale do Loire, o rio mais longo da França, é patrimônio mundial e famoso por dezenas de construções como Chambord e Chenonceau. Que construções são essas?",
+      "resposta": "Castelos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Loire_Valley",
+        "https://en.wikipedia.org/wiki/Loire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Maracaibo",
+        "descricao": "Grande corpo d'água salobra no noroeste da Venezuela, ligado ao mar do Caribe.",
+        "variantes": [
+          "Lake Maracaibo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Maracaibo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sobre a foz do rio Catatumbo, no lago Maracaibo, na Venezuela, quase toda noite acontece um espetáculo natural famoso. Qual é?",
+      "resposta": "Tempestades de relâmpagos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Catatumbo_lightning",
+        "https://en.wikipedia.org/wiki/Lake_Maracaibo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Inle",
+        "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+        "variantes": [
+          "Inle Lake",
+          "Inlay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inle_Lake"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No lago Inle, em Mianmar, os pescadores ficam em pé na ponta do barco e remam de um jeito famoso. Como?",
+      "resposta": "Com uma das pernas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inle_Lake"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Nicarágua",
+        "descricao": "Grande lago de água doce no sul da Nicarágua, na América Central, ligado ao Caribe pelo rio San Juan.",
+        "variantes": [
+          "Lake Nicaragua",
+          "Cocibolca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Nicaragua"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O lago Nicarágua ficou famoso por abrigar, em água doce, qual animal que normalmente vive no mar?",
+      "resposta": "Tubarão-cabeça-chata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Nicaragua"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Eyre",
+        "descricao": "Lago salgado temporário no interior desértico da Austrália Meridional, o maior lago do país quando cheio.",
+        "variantes": [
+          "Kati Thanda",
+          "Lake Eyre",
+          "Kati Thanda–Lake Eyre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Eyre"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O lago Eyre, o maior da Austrália quando está cheio, passa a maior parte do tempo em que estado?",
+      "resposta": "Seco, como uma crosta de sal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Eyre"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pitch Lake",
+        "descricao": "Lago natural de asfalto em La Brea, na ilha de Trinidad, em Trinidad e Tobago.",
+        "variantes": [
+          "Lago de Piche",
+          "Lago de Asfalto de Trinidad"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pitch_Lake"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Trinidad e Tobago, o famoso Pitch Lake não é feito de água. Ele é um enorme depósito natural de quê?",
+      "resposta": "Asfalto",
+      "distratores": [
+        "Sal",
+        "Enxofre",
+        "Lama vulcânica"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pitch_Lake"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sundarbans",
+        "descricao": "Grande floresta de manguezal no delta dos rios Ganges e Brahmaputra, entre a Índia e Bangladesh.",
+        "variantes": [
+          "Sundarban"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sundarbans"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos Sundarbans, o imenso manguezal do delta do Ganges, vive uma famosa população de qual grande felino?",
+      "resposta": "Tigre-de-bengala",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sundarbans"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Indo",
+        "descricao": "Grande rio do sul da Ásia que nasce no Tibete e deságua no mar da Arábia, perto de Karachi.",
+        "variantes": [
+          "Indus",
+          "Sindhu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Indus_River"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Berço de uma das primeiras civilizações urbanas da história, o rio Indo corre em sua maior parte por qual país?",
+      "resposta": "Paquistão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Indus_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Indo",
+        "descricao": "Grande rio do sul da Ásia que nasce no Tibete e deságua no mar da Arábia, perto de Karachi.",
+        "variantes": [
+          "Indus",
+          "Sindhu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Indus_River"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Passando pelo persa e pelo grego, o nome do rio Indo acabou batizando um grande país asiático. Que país é esse?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_for_India",
+        "https://en.wikipedia.org/wiki/Indus_River"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Reno",
+        "descricao": "Grande rio da Europa Ocidental que nasce nos Alpes suíços e deságua no mar do Norte, nos Países Baixos.",
+        "variantes": [
+          "Rhine",
+          "Rhein",
+          "Rhin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rhine"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Antes de cruzar a Alemanha e os Países Baixos rumo ao mar do Norte, o rio Reno nasce nos Alpes de qual país?",
+      "resposta": "Suíça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rhine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Danúbio",
+        "descricao": "Grande delta formado pelo rio Danúbio ao desaguar no mar Negro, no leste da Europa.",
+        "variantes": [
+          "Danube Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Danube_Delta"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Ao chegar ao mar Negro, o rio Danúbio forma um grande delta pantanoso. Em que país fica a maior parte dele?",
+      "resposta": "Romênia",
+      "distratores": [
+        "Bulgária",
+        "Moldávia",
+        "Hungria"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Danube_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Tapajós",
+        "descricao": "Rio amazônico de águas claras que nasce em Mato Grosso e deságua no rio Amazonas, no Pará.",
+        "variantes": [
+          "Tapajós River"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tapajós"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidade paraense, vizinha da praia de Alter do Chão, as águas esverdeadas do Tapajós encontram as águas barrentas do Amazonas?",
+      "resposta": "Santarém",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tapajós",
+        "https://en.wikipedia.org/wiki/Santarém,_Pará"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Okavango",
+        "descricao": "Imenso delta interior formado pelo rio Okavango no norte de Botsuana, sem saída para o mar.",
+        "variantes": [
+          "Okavango Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Okavango_Delta"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Botsuana, o rio Okavango forma um imenso delta que nunca chega ao mar. Em que deserto suas águas desaparecem?",
+      "resposta": "Deserto do Kalahari",
+      "distratores": [
+        "Deserto do Saara",
+        "Deserto do Namibe",
+        "Deserto do Karoo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Okavango_Delta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lago_vitoria",
+        "nome": "Lago Vitória",
+        "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+        "variantes": [
+          "Lake Victoria",
+          "Nyanza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Victoria"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Junto à cidade de Jinja, em Uganda, sai do lago Vitória o trecho inicial de qual grande rio?",
+      "resposta": "Rio Nilo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Victoria",
+        "https://en.wikipedia.org/wiki/Jinja,_Uganda"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Paraíba do Sul",
+        "descricao": "Rio do Sudeste brasileiro que nasce em São Paulo, atravessa o Vale do Paraíba e deságua no Atlântico, no norte fluminense.",
+        "variantes": [
+          "Paraíba do Sul River"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Paraíba_do_Sul"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1717, três pescadores tiraram das águas do rio Paraíba do Sul a imagem de uma santa hoje padroeira do Brasil. Qual?",
+      "resposta": "Nossa Senhora Aparecida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Our_Lady_of_Aparecida",
+        "https://pt.wikipedia.org/wiki/Rio_Paraíba_do_Sul"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Huron",
+        "descricao": "Um dos cinco Grandes Lagos da América do Norte, entre o estado de Michigan e a província de Ontário.",
+        "variantes": [
+          "Lake Huron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Huron"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Ligados pelo estreito de Mackinac, o lago Michigan e qual outro dos Grandes Lagos têm o mesmo nível e formam, na prática, um só lago?",
+      "resposta": "Lago Huron",
+      "distratores": [
+        "Lago Superior",
+        "Lago Erie",
+        "Lago Ontário"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Michigan–Huron"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Tinto",
+        "descricao": "Rio da Andaluzia, na Espanha, de águas ácidas e avermelhadas, explorado por minas desde a Antiguidade.",
+        "variantes": [
+          "Río Tinto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_Tinto_(river)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Uma das maiores mineradoras do mundo, fundada em 1873 para explorar minas na Espanha, leva o nome de qual rio de águas avermelhadas?",
+      "resposta": "Rio Tinto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_Tinto_(river)",
+        "https://en.wikipedia.org/wiki/Rio_Tinto_(corporation)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Retba",
+        "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+        "variantes": [
+          "Lago Rosa",
+          "Lac Rose",
+          "Lake Retba"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Retba"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Durante anos, a chegada do famoso rali Paris-Dakar acontecia às margens de qual lago de águas cor-de-rosa, no Senegal?",
+      "resposta": "Lago Retba (Lago Rosa)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Retba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caño Cristales",
+        "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+        "variantes": [
+          "Rio de Cinco Cores",
+          "Rio Arco-Íris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caño_Cristales"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Chamado de rio de cinco cores, o Caño Cristales, na Colômbia, fica vermelho em certas épocas do ano. O que provoca essa cor?",
+      "resposta": "Uma planta aquática",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caño_Cristales"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Texcoco",
+        "descricao": "Antigo lago do vale do México, onde os astecas fundaram Tenochtitlán, quase todo drenado depois da conquista espanhola.",
+        "variantes": [
+          "Lake Texcoco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Texcoco"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Cidade do México afunda aos poucos porque grande parte dela foi construída sobre o solo mole de quê?",
+      "resposta": "Um antigo lago drenado (Texcoco)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Texcoco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto de Sete Quedas",
+        "descricao": "Conjunto de cachoeiras do rio Paraná, em Guaíra, na fronteira entre o Brasil e o Paraguai, que existiu até 1982.",
+        "variantes": [
+          "Salto de Guaíra",
+          "Guaíra Falls",
+          "Saltos del Guairá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas",
+          "https://en.wikipedia.org/wiki/Guaíra_Falls"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1982, as cachoeiras de Sete Quedas, no rio Paraná, desapareceram da paisagem. O que aconteceu com elas?",
+      "resposta": "Foram cobertas pelo lago de Itaipu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guaíra_Falls",
+        "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Itajaí-Açu",
+        "descricao": "Principal rio do Vale do Itajaí, em Santa Catarina, que atravessa Blumenau e deságua no Atlântico em Itajaí.",
+        "variantes": [
+          "Itajaí-Açu",
+          "Rio Itajaí"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rio_Itajaí-Açu"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Oktoberfest de Blumenau foi criada em 1984 para ajudar a cidade a se reerguer depois de qual desastre?",
+      "resposta": "Enchentes do rio Itajaí-Açu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Oktoberfest_de_Blumenau",
+        "https://pt.wikipedia.org/wiki/Rio_Itajaí-Açu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rio Avon",
+        "descricao": "Rio do centro da Inglaterra que passa por Stratford-upon-Avon, cidade natal de Shakespeare.",
+        "variantes": [
+          "River Avon",
+          "Avon de Warwickshire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/River_Avon,_Warwickshire"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na cidade natal de Shakespeare corre o rio Avon. Na antiga língua celta, o que significa a palavra avon?",
+      "resposta": "Rio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/River_Avon,_Warwickshire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lago Balaton",
+        "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+        "variantes": [
+          "Balaton",
+          "Lake Balaton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Balaton"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por ser o maior lago da Europa Central, num país sem litoral, o Balaton ganhou que apelido carinhoso?",
+      "resposta": "Mar Húngaro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Balaton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cachoeira da Fumaça",
+        "descricao": "Cachoeira de grande altura no Vale do Capão, na Chapada Diamantina, na Bahia.",
+        "variantes": [
+          "Cachoeira Glass"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cachoeira_da_Fumaça"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Chapada Diamantina, a Cachoeira da Fumaça ganhou esse nome porque o vento faz o quê com sua água antes de ela chegar ao chão?",
+      "resposta": "Transforma em névoa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cachoeira_da_Fumaça"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canal Erie",
+        "descricao": "Canal artificial do estado de Nova York que liga o rio Hudson, em Albany, ao lago Erie, em Buffalo.",
+        "variantes": [
+          "Erie Canal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Erie_Canal"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O canal Erie, que ligou o rio Hudson aos Grandes Lagos e transformou Nova York num grande porto, foi inaugurado em que século?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezoito",
+        "Século vinte",
+        "Século dezessete"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erie_Canal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Enchente do Arno de 1966",
+        "descricao": "Cheia do rio Arno que inundou Florença em novembro de 1966, danificando obras de arte e livros raros.",
+        "variantes": [
+          "1966 flood of the Arno",
+          "Enchente de Florença de 1966"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1966_flood_of_the_Arno"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano uma grande cheia do rio Arno inundou Florença e danificou milhares de obras de arte e livros raros?",
+      "resposta": "1966",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1966_flood_of_the_Arno"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Finlândia",
+        "descricao": "País nórdico do norte da Europa, conhecido como terra dos mil lagos, com capital em Helsinque.",
+        "variantes": [
+          "Finland",
+          "Suomi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Finland"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Finlândia é chamada de terra dos mil lagos, mas o número real é muito maior. Aproximadamente quantos lagos ela tem?",
+      "resposta": "Cerca de 188 mil",
+      "distratores": [
+        "Cerca de 5 mil",
+        "Cerca de 30 mil",
+        "Cerca de 2 milhões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_lakes_of_Finland"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lagos_de_plitvice",
+        "nome": "Lagos de Plitvice",
+        "descricao": "Série de lagos de travertino interligados por cachoeiras, em parque nacional da Croácia central.",
+        "variantes": [
+          "Plitvice Lakes",
+          "Plitvička jezera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No parque nacional croata de Plitvice, quantos lagos principais, ligados por cachoeiras, descem em degraus pelo vale?",
+      "resposta": "Dezesseis",
+      "distratores": [
+        "Sete",
+        "Doze",
+        "Vinte e cinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lagoa da Pampulha",
+        "descricao": "Lagoa artificial de Belo Horizonte, cercada pelo conjunto arquitetônico moderno da Pampulha.",
+        "variantes": [
+          "Lago da Pampulha",
+          "Pampulha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lagoa_da_Pampulha",
+          "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1940, que arquiteto projetou a igreja, o cassino e outros prédios modernos à beira da lagoa da Pampulha, em Belo Horizonte?",
+      "resposta": "Oscar Niemeyer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble",
+        "https://pt.wikipedia.org/wiki/Lagoa_da_Pampulha"
+      ]
+    }
+  ]
+}
