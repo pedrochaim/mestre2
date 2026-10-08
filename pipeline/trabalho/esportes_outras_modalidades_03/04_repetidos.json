@@ -1,0 +1,338 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Nas provas masculinas de arremesso e lançamento do atletismo, qual implemento é o mais leve?",
+        "resposta": "Dardo"
+      },
+      "existentes": [
+        {
+          "id": "q02321",
+          "pergunta": "Que prova do atletismo é esta?",
+          "resposta": "Lançamento de dardo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre estes esportes de raquete, em qual o objeto rebatido atinge as maiores velocidades?",
+        "resposta": "Badminton"
+      },
+      "existentes": [
+        {
+          "id": "q00666",
+          "pergunta": "O nome do badminton vem de Badminton House, uma mansão inglesa em Gloucestershire. Quem era o dono dessa propriedade?",
+          "resposta": "Duque de Beaufort"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No skate, como se chamam as peças de metal, presas embaixo da prancha, onde ficam os eixos das rodinhas?",
+        "resposta": "Trucks"
+      },
+      "existentes": [
+        {
+          "id": "q01633",
+          "pergunta": "Na Califórnia de meados do século vinte, o skate nasceu como passatempo de quem queria fazer o quê nos dias sem ondas?",
+          "resposta": "Surfar no asfalto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na ginástica artística feminina, os aparelhos são o salto, as barras assimétricas, a trave e qual outro?",
+        "resposta": "Solo"
+      },
+      "existentes": [
+        {
+          "id": "q05718",
+          "pergunta": "Na ginástica artística masculina, o individual geral reúne as notas de todos os aparelhos. Quantos aparelhos são?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No início do século vinte, antes do metal e da fibra de vidro, as varas do salto com vara eram feitas de qual planta?",
+        "resposta": "Bambu"
+      },
+      "existentes": [
+        {
+          "id": "q00519",
+          "pergunta": "Que prova do atletismo é esta?",
+          "resposta": "Salto com vara"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No skeleton, esporte dos Jogos de Inverno, em que posição o atleta desce a pista de gelo?",
+        "resposta": "De bruços, cabeça à frente"
+      },
+      "existentes": [
+        {
+          "id": "q05591",
+          "pergunta": "Que modalidade olímpica de inverno é esta?",
+          "resposta": "Skeleton"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No rúgbi, em que direção um jogador pode passar a bola com as mãos para um companheiro?",
+        "resposta": "Para trás ou para o lado"
+      },
+      "existentes": [
+        {
+          "id": "q00518",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Rúgbi"
+        },
+        {
+          "id": "q01650",
+          "pergunta": "Segundo a lenda, que estudante da escola de Rugby, na Inglaterra, pegou a bola com as mãos numa partida de futebol em 1823?",
+          "resposta": "William Webb Ellis"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A peteca é um jogo de origem indígena. Em tupi, o que significa a palavra peteca?",
+        "resposta": "Bater com a mão"
+      },
+      "existentes": [
+        {
+          "id": "q01495",
+          "pergunta": "De origem tupi, a palavra peteca descreve a própria ação de quem brinca com ela. Que ação é essa?",
+          "resposta": "Bater"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O nome snooker vem de uma gíria do exército britânico. A quem ela se referia?",
+        "resposta": "Cadetes novatos"
+      },
+      "existentes": [
+        {
+          "id": "q01647",
+          "pergunta": "O snooker, que deu origem à sinuca brasileira, foi criado no século dezenove por oficiais do exército britânico servindo em qual país?",
+          "resposta": "Índia"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O disco Frisbee herdou o nome de uma padaria americana. Estudantes arremessavam as formas vazias de que produto dela?",
+        "resposta": "Tortas"
+      },
+      "existentes": [
+        {
+          "id": "q00872",
+          "pergunta": "O nome Frisbee vem de uma empresa de Connecticut cujas formas de metal os estudantes arremessavam por diversão. O que essa empresa fabricava?",
+          "resposta": "Tortas"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Campeão olímpico de natação em 1912, o havaiano Duke Kahanamoku ajudou a popularizar pelo mundo qual esporte tradicional de sua terra?",
+        "resposta": "Surfe"
+      },
+      "existentes": [
+        {
+          "id": "q00688",
+          "pergunta": "O havaiano Duke Kahanamoku, campeão olímpico de natação em 1912, ficou mundialmente famoso por difundir que outro esporte?",
+          "resposta": "Surfe"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Bicampeão olímpico do salto triplo, Adhemar Ferreira da Silva atuou em qual filme, vencedor da Palma de Ouro em 1959?",
+        "resposta": "Orfeu Negro"
+      },
+      "existentes": [
+        {
+          "id": "q00681",
+          "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva também atuou num filme vencedor da Palma de Ouro e do Oscar. Qual?",
+          "resposta": "Orfeu Negro"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O salto em altura de costas, popularizado por Dick Fosbury em 1968, só se tornou seguro graças a qual mudança na área de queda?",
+        "resposta": "Colchões de espuma"
+      },
+      "existentes": [
+        {
+          "id": "q00661",
+          "pergunta": "No salto em altura, a técnica de passar de costas sobre o sarrafo leva o nome de qual campeão olímpico americano de 1968?",
+          "resposta": "Dick Fosbury"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na ginástica artística, quantos centímetros de largura tem a trave de equilíbrio?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q06486",
+          "pergunta": "Que aparelho da ginástica artística é este?",
+          "resposta": "Trave de equilíbrio"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O bobsled nasceu no fim do século dezenove numa famosa estação de inverno da Suíça. Qual?",
+        "resposta": "St. Moritz"
+      },
+      "existentes": [
+        {
+          "id": "q00520",
+          "pergunta": "Que esporte de inverno é este?",
+          "resposta": "Bobsled"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O nado borboleta começou como uma variação do nado peito. Em que década ele virou um estilo independente?",
+        "resposta": "Anos cinquenta"
+      },
+      "existentes": [
+        {
+          "id": "q07435",
+          "pergunta": "Que estilo de nado está sendo praticado nesta foto?",
+          "resposta": "Nado borboleta"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Na altitude da Cidade do México, o americano Bob Beamon saltou oito metros e noventa no salto em distância. Em que ano?",
+        "resposta": "1968"
+      },
+      "existentes": [
+        {
+          "id": "q04686",
+          "pergunta": "Na Cidade do México 1968, o salto em distância de Bob Beamon passou do alcance do aparelho óptico de medição. Que marca ele atingiu?",
+          "resposta": "Oito metros e noventa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Implemento mais leve vs identificar prova por imagem; fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Velocidade do volante vs origem do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Peças trucks vs origem do skate."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Aparelho feminino faltante vs número de aparelhos masculinos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Material das varas vs identificar prova."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Posição de descida vs identificar modalidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Direção do passe vs outros fatos."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q01495",
+      "motivo": "Ambas perguntam o significado tupi de peteca (bater)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem da gíria vs país de criação."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q00872",
+      "motivo": "Mesmo fato: a empresa fabricava tortas."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q00688",
+      "motivo": "Mesmo fato: Duke difundiu o surfe."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q00681",
+      "motivo": "Mesmo fato: filme Orfeu Negro."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Colchões de queda vs nome da técnica."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Largura da trave vs identificar aparelho."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Local de origem vs identificar esporte."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Década de independência vs identificar estilo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Ano do salto vs marca atingida; respostas diferentes."
+    }
+  ]
+}
