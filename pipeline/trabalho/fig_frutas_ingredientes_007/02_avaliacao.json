@@ -1,0 +1,186 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Flor de morning glory de perto; sem raiz nem planta inteira, não é reconhecível como batata-doce e pode ser confundida com outras Ipomoea."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Avelãs inteiras, com casca e sem casca, foto nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruto seco é este?",
+      "resposta": "Avelã",
+      "destino": 0,
+      "ancora": {
+        "nome": "Avelã",
+        "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+        "variantes": [
+          "Avelã comum",
+          "Hazelnut"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Torrões escuros e sujos sobre pano; parecem pedras ou batatas e a trufa não é reconhecível com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ilustração botânica clássica de uma única planta (ramo, flores, frutos, semente), sem texto visível; distinguível de plantas parecidas por múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que árvore é esta ilustração botânica, com flores, frutos e semente?",
+      "resposta": "Amendoeira",
+      "distratores": [
+        "Pessegueiro",
+        "Damasqueiro",
+        "Cerejeira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amendoeira",
+        "descricao": "Árvore Prunus dulcis, da família das rosáceas, cuja semente é a amêndoa.",
+        "variantes": [
+          "Amêndoa",
+          "Prunus dulcis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ramo de folhas de louro sobre fundo branco, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que folha aromática, usada como tempero, é esta?",
+      "resposta": "Louro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Folha de louro",
+        "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+        "variantes": [
+          "Louro",
+          "Folha de loureiro",
+          "Bay leaf"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pepino ainda na planta, com flor amarela, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça é esta, ainda na planta?",
+      "resposta": "Pepino",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pepino",
+        "descricao": "Fruto cilíndrico de Cucumis sativus, usado como hortaliça em saladas e conservas.",
+        "variantes": [
+          "Cucumis sativus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Maço de aipo com talos e folhas, foto clara em fundo neutro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça de talos longos e folhas recortadas é esta?",
+      "resposta": "Aipo (salsão)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Aipo",
+        "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+        "variantes": [
+          "Salsão",
+          "Celery"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Árvore inteira num quintal, com frutos minúsculos e casa ao fundo; a lichia não é reconhecível a olho nu no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Abacaxi ainda na planta, nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta tropical é esta, ainda na planta?",
+      "resposta": "Abacaxi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Abacaxi",
+        "descricao": "Fruta tropical da planta Ananas comosus, da família das bromélias.",
+        "variantes": [
+          "Ananás",
+          "Pineapple"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Close de várias framboesas, textura característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que frutinha vermelha é esta?",
+      "resposta": "Framboesa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Framboesa",
+        "descricao": "Fruto vermelho do gênero Rubus (subgênero Idaeobatus), da família das rosáceas.",
+        "variantes": [
+          "Raspberry"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois cumquates, um cortado ao meio, em foto nítida; parecido com cítricos pequenos, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno cítrico alaranjado, comido com casca, é este?",
+      "resposta": "Kumquat",
+      "distratores": [
+        "Tangerina",
+        "Laranja-pera",
+        "Limão-siciliano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kumquat",
+        "descricao": "Pequeno cítrico alaranjado e oval, do tamanho de uma azeitona grande, comido com a casca.",
+        "variantes": [
+          "Cumquat",
+          "Laranja-kinkan",
+          "Kinkan"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vagens verdes na planta; pode ser vagem ou feijão, resposta não única, e o feijão consumido (grãos secos) não aparece."
+    }
+  ]
+}

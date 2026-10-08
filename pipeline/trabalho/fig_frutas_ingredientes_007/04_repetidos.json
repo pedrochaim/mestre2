@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta tropical é esta, ainda na planta?",
+        "resposta": "Abacaxi"
+      },
+      "existentes": [
+        {
+          "id": "q02652",
+          "pergunta": "Pineapple, o nome do abacaxi em inglês, compara a fruta a que coisa?",
+          "resposta": "Pinha, o cone do pinheiro"
+        },
+        {
+          "id": "q06098",
+          "pergunta": "Que enzima do abacaxi fresco ajuda a amaciar carnes e deixa a língua ardida quando se come muito da fruta?",
+          "resposta": "Bromelina"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a fruta (abacaxi) a partir de imagem; as existentes tratam da origem do nome em inglês e da enzima bromelina, que são fatos diferentes."
+    }
+  ]
+}

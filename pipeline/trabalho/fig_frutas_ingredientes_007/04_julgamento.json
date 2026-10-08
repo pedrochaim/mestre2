@@ -1,0 +1,519 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Avelã",
+        "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+        "variantes": [
+          "Avelã comum",
+          "Hazelnut"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "ave_lira_soberba",
+          "nome": "Ave-lira-soberba",
+          "descricao": "Menura novaehollandiae, ave canora australiana famosa pela cauda elaborada e pela imitação de sons.",
+          "variantes": [
+            "Ave-lira",
+            "Superb lyrebird",
+            "Menura novaehollandiae"
+          ]
+        },
+        {
+          "id": "papoula",
+          "nome": "Papoula",
+          "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+          "variantes": [
+            "Papoila",
+            "Papaver rhoeas",
+            "Papoula-comum"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Amendoeira",
+        "descricao": "Árvore Prunus dulcis, da família das rosáceas, cuja semente é a amêndoa.",
+        "variantes": [
+          "Amêndoa",
+          "Prunus dulcis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amendoim",
+          "nome": "Amendoim",
+          "descricao": "Planta leguminosa Arachis hypogaea, cujas sementes comestíveis se formam sob o solo",
+          "variantes": [
+            "Arachis hypogaea",
+            "peanut"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "carmen_opera",
+          "nome": "Carmen (ópera)",
+          "descricao": "Ópera de Georges Bizet, estreada em Paris em 1875, sobre uma cigana sedutora.",
+          "variantes": [
+            "Carmen"
+          ]
+        },
+        {
+          "id": "andorra",
+          "nome": "Andorra",
+          "descricao": "Pequeno principado sem litoral nos Pireneus, entre a Espanha e a França, com capital em Andorra-a-Velha.",
+          "variantes": [
+            "Principado de Andorra"
+          ]
+        },
+        {
+          "id": "melindrosa",
+          "nome": "Melindrosa",
+          "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+          "variantes": [
+            "Flapper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Folha de louro",
+        "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+        "variantes": [
+          "Louro",
+          "Folha de loureiro",
+          "Bay leaf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "louco",
+          "nome": "Louco",
+          "descricao": "Personagem maluco e loiro da Turma da Mônica que atazana o Cebolinha.",
+          "variantes": [
+            "Licurgo Orival Umbelino Cafiaspirino de Oliveira"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "rio_douro",
+          "nome": "Rio Douro",
+          "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+          "variantes": [
+            "Douro",
+            "Duero"
+          ]
+        },
+        {
+          "id": "traje_de_luces",
+          "nome": "Traje de luces",
+          "descricao": "Traje bordado com fios de ouro ou prata usado pelos toureiros espanhóis na arena.",
+          "variantes": [
+            "Traje de luzes",
+            "Roupa de toureiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pepino",
+        "descricao": "Fruto cilíndrico de Cucumis sativus, usado como hortaliça em saladas e conservas.",
+        "variantes": [
+          "Cucumis sativus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "apofis",
+          "nome": "Apófis",
+          "descricao": "Serpente gigante da mitologia egípcia que encarnava o caos e atacava todas as noites a barca do deus-sol Rá",
+          "variantes": [
+            "Apep",
+            "Apepi",
+            "Apophis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Aipo",
+        "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+        "variantes": [
+          "Salsão",
+          "Celery"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        },
+        {
+          "id": "sansao",
+          "nome": "Sansão",
+          "descricao": "Coelhinho de pelúcia azul da Mônica, na Turma da Mônica, usado por ela para dar coelhadas.",
+          "variantes": [
+            "Sansão da Mônica"
+          ]
+        },
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Abacaxi",
+        "descricao": "Fruta tropical da planta Ananas comosus, da família das bromélias.",
+        "variantes": [
+          "Ananás",
+          "Pineapple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "ilha_do_bananal",
+          "nome": "Ilha do Bananal",
+          "descricao": "Grande ilha fluvial no estado do Tocantins, formada pela bifurcação do rio Araguaia com o braço do Javaés.",
+          "variantes": [
+            "Bananal Island",
+            "Bananal"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Framboesa",
+        "descricao": "Fruto vermelho do gênero Rubus (subgênero Idaeobatus), da família das rosáceas.",
+        "variantes": [
+          "Raspberry"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "ameba",
+          "nome": "Ameba",
+          "descricao": "Organismo unicelular que muda de forma ao emitir pseudópodes, representado em desenho de microscopia.",
+          "variantes": [
+            "Amoeba",
+            "Ameboide"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Kumquat",
+        "descricao": "Pequeno cítrico alaranjado e oval, do tamanho de uma azeitona grande, comido com a casca.",
+        "variantes": [
+          "Cumquat",
+          "Laranja-kinkan",
+          "Kinkan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "quati",
+          "nome": "Quati",
+          "descricao": "Mamífero procionídeo sul-americano de focinho comprido e cauda anelada (Nasua nasua).",
+          "variantes": [
+            "Quati-de-cauda-anelada",
+            "Nasua nasua"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Avelã não consta entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Amendoeira (Prunus dulcis) é diferente de amendoim e das demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Folha de louro não consta; ouro, Douro etc. são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pepino (hortaliça) é diferente do arranha-céu apelidado de 'O Pepino'."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Aipo não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "abacaxi",
+      "motivo": "Mesma fruta, Ananas comosus, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Framboesa é diferente de morango e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Kumquat não consta; laranja-de-umbigo é outra variedade."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. 'Fruto seco' é só o grupo e não entrega a resposta. O trecho confirma que a avelã é fruto da aveleira.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a árvore. Os distratores são Prunus próximos e críveis, e nenhum é a árvore da amêndoa. A ilustração botânica (gravura) é admitida.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Folha aromática usada como tempero' vale para várias ervas, então não entrega o louro sem a figura. Os trechos confirmam o louro como folha aromática culinária.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. 'Hortaliça' e 'na planta' não entregam a resposta. O trecho confirma o pepino como fruto usado como hortaliça.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Talos longos e folhas recortadas' descreve várias hortaliças e não entrega o aipo. O parêntese com 'salsão' evita uma injustiça regional e é apropriado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. 'Fruta tropical na planta' não entrega a resposta, e os trechos confirmam que é tropical.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples. 'Frutinha vermelha' é só uma pista de grupo, que serve também a morango e amora. Os trechos confirmam o fruto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pequeno cítrico alaranjado, comido com casca' é quase a definição do kumquat. Pelo teste da imagem coberta, dá para responder sem olhar a figura. Tirei a pista e deixei só 'fruta cítrica'.",
+      "reescrita": {
+        "pergunta": "Que fruta cítrica é esta?",
+        "resposta": "Kumquat",
+        "distratores": [
+          "Tangerina",
+          "Laranja-pera",
+          "Limão-siciliano"
+        ]
+      }
+    }
+  ]
+}
