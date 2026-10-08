@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; título confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A bandeira vermelha ao vento não é confirmada para esta imagem específica (filme em preto e branco); o enunciado pode ser falso para a foto. Basta tirar o detalhe.",
+      "reescrita": {
+        "pergunta": "De que filme mudo é esta cena?",
+        "resposta": "O Encouraçado Potemkin",
+        "distratores": [
+          "Metrópolis",
+          "Nosferatu",
+          "O Gabinete do Dr. Caligari"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Personagem masculino desta imagem' é ambíguo: pode ser outro homem do filme, e mostra não diz quem aparece. Usar o protagonista do filme dá resposta única, e é fato amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Que ator interpreta o protagonista do filme desta cena?",
+        "resposta": "Patrick Swayze"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; título confirmado pelo TMDB.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Reunido em torno da mesa' não é confirmado pela imagem. Há também uma versão de 1972; o enunciado deve apontar a série de 2001 sem entregar o nome.",
+      "reescrita": {
+        "pergunta": "De que série de humor da TV Globo, exibida a partir de dois mil e um, é este elenco?",
+        "resposta": "A Grande Família"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, distratores do mesmo tipo e plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: reconhecer o filme e dar o diretor, confirmado pela Wikipédia e pelo TMDB. Enunciado não nomeia o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 2003, logo anos 2000. Resposta única e enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diretor confirmado pelo TMDB (Wim Wenders). Distratores são diretores de época próxima, nenhum correto, com até 4 palavras.",
+      "reescrita": null
+    }
+  ]
+}

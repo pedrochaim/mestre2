@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O uniforme mostra o nome VENKMAN em texto legível, e a imagem é arte promocional."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com Clementine de cabelo rosa e Joel na cama, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Brilho Eterno de uma Mente sem Lembranças",
+      "ancora": {
+        "nome": "Brilho Eterno de uma Mente sem Lembranças",
+        "descricao": "Filme de 2004 dirigido por Michel Gondry, sobre um casal que apaga memórias um do outro.",
+        "variantes": [
+          "Eternal Sunshine of the Spotless Mind"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha pintada à mão sobre imagem em preto e branco, marca célebre do filme; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "De que filme mudo é esta cena, com uma bandeira vermelha ao vento?",
+      "resposta": "O Encouraçado Potemkin",
+      "distratores": [
+        "Metrópolis",
+        "Nosferatu",
+        "O Gabinete do Dr. Caligari"
+      ],
+      "ancora": {
+        "nome": "O Encouraçado Potemkin",
+        "descricao": "Filme mudo soviético de 1925 dirigido por Serguei Eisenstein, sobre o motim num navio de guerra em 1905.",
+        "variantes": [
+          "Battleship Potemkin",
+          "Bronenosets Potyomkin"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de divulgação sem texto, com o casal protagonista; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o personagem masculino desta imagem?",
+      "resposta": "Patrick Swayze",
+      "ancora": {
+        "nome": "Ghost – Do Outro Lado da Vida",
+        "descricao": "Filme de 1990 com Patrick Swayze e Demi Moore, sobre um homem morto que tenta proteger a namorada.",
+        "variantes": [
+          "Ghost",
+          "Ghost: Do Outro Lado da Vida"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, com o garoto de capa amarela diante da caverna na floresta simétrica, marca visual da série.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série é esta imagem?",
+      "resposta": "Dark",
+      "ancora": {
+        "nome": "Dark",
+        "descricao": "Série alemã de ficção científica da Netflix, lançada em 2017, sobre viagens no tempo e quatro famílias.",
+        "variantes": [
+          "Dark (série)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É arte ilustrada de divulgação, estilo pôster, e não uma cena, com letreiros em coreano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Elenco da obra numa cozinha de época, sem texto; só atores conhecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "De que obra brasileira é este elenco, reunido em torno da mesa?",
+      "resposta": "A Grande Família",
+      "ancora": {
+        "nome": "A Grande Família (2001)",
+        "descricao": "Série de humor da TV Globo, exibida de 2001 a 2014, sobre uma família do subúrbio carioca.",
+        "variantes": [
+          "A Grande Família"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena sem texto de presos sentados no pátio, marcante e reconhecível entre filmes brasileiros; múltipla escolha deixa a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "De que filme brasileiro é esta cena?",
+      "resposta": "Carandiru",
+      "distratores": [
+        "Cidade de Deus",
+        "Tropa de Elite",
+        "Central do Brasil"
+      ],
+      "ancora": {
+        "nome": "Carandiru",
+        "descricao": "Filme brasileiro de 2003 dirigido por Hector Babenco, ambientado na Casa de Detenção de São Paulo.",
+        "variantes": [
+          "Carandiru (filme)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fotograma em preto e branco, sem texto, de Antoine Doinel na sala de aula.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "François Truffaut",
+      "ancora": {
+        "nome": "Os Incompreendidos",
+        "descricao": "Filme francês de 1959 sobre o jovem Antoine Doinel, marco da Nouvelle Vague.",
+        "variantes": [
+          "Les Quatre Cents Coups",
+          "Os Quatrocentos Golpes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem do elenco de uma única obra, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi lançado o filme desta imagem?",
+      "resposta": "Anos 2000",
+      "ancora": {
+        "nome": "Piratas do Caribe: A Maldição do Pérola Negra",
+        "descricao": "Filme de aventura de 2003 com Johnny Depp como o pirata Jack Sparrow.",
+        "variantes": [
+          "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "A Maldição do Pérola Negra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é arte de divulgação com legendas legíveis (RENTON, BEGBIE, DIANE, SICK BOY, SPUD), que entregam a obra."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena sem texto revelador (só a placa 'Coffee Shop'); múltipla escolha com diretores de estilos parecidos.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Wim Wenders",
+      "distratores": [
+        "Werner Herzog",
+        "Jim Jarmusch",
+        "David Lynch"
+      ],
+      "ancora": {
+        "nome": "Paris, Texas",
+        "descricao": "Filme de 1984 dirigido por Wim Wenders, sobre um homem que reaparece do deserto sem memória.",
+        "variantes": [
+          "Paris, Texas (filme)"
+        ]
+      }
+    }
+  ]
+}
