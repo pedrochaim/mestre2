@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jogo de basquete em cadeira de rodas, claro e legível; patrocínios no fundo não entregam a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade esportiva está sendo disputada nesta foto?",
+      "resposta": "Basquete em cadeira de rodas",
+      "ancora": {
+        "nome": "Basquete em cadeira de rodas",
+        "descricao": "Modalidade paralímpica de basquete jogada com cadeiras de rodas esportivas.",
+        "variantes": [
+          "Basquetebol em cadeira de rodas",
+          "Wheelchair basketball"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ginasta em salto acrobático sobre o tablado azul; patrocínios não entregam a resposta. Aparelho reconhecível entre alternativas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que aparelho da ginástica artística este atleta se apresenta?",
+      "resposta": "Solo",
+      "distratores": [
+        "Barra fixa",
+        "Argolas",
+        "Cavalo com alças"
+      ],
+      "ancora": {
+        "nome": "Solo (ginástica artística)",
+        "descricao": "Aparelho e prova da ginástica artística realizados num tablado acolchoado com molas.",
+        "variantes": [
+          "Floor exercise",
+          "Exercícios de solo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Atleta largando sentado em trenó numa pista de gelo, com as mãos nas barras de partida; o texto 'Vancouver' não entrega a modalidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte olímpico de trenó é este?",
+      "resposta": "Luge",
+      "distratores": [
+        "Skeleton",
+        "Bobsled",
+        "Tobogã"
+      ],
+      "ancora": {
+        "nome": "Luge",
+        "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+        "variantes": [
+          "Luge de pista natural",
+          "Trenó"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Saltador pendurado pelos pés em corda elástica, preso a uma grua; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que atividade radical é esta?",
+      "resposta": "Bungee jump",
+      "ancora": {
+        "nome": "Bungee jump",
+        "descricao": "Atividade radical em que a pessoa salta de uma grande altura presa a uma corda elástica.",
+        "variantes": [
+          "Bungee jumping",
+          "Bungy jump"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esquife de dois tripulantes com trapézio e spinnaker; marca Musto não entrega a classe. Em múltipla, com distratores olímpicos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que classe olímpica de vela é esta, de dois tripulantes?",
+      "resposta": "49er",
+      "distratores": [
+        "470",
+        "Laser",
+        "Nacra 17"
+      ],
+      "ancora": {
+        "nome": "Classe 49er",
+        "descricao": "Esquife de alto desempenho para dois tripulantes com trapézio, classe olímpica de vela desde Sydney 2000.",
+        "variantes": [
+          "49er",
+          "49er (dinghy)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cobrança com bola parada, barreira à direita e batedor atrás da bola; legível.",
+      "destino": 3,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de cobrança está prestes a acontecer neste jogo de futebol?",
+      "resposta": "Tiro livre (falta)",
+      "ancora": {
+        "nome": "Tiro livre",
+        "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+        "variantes": [
+          "Falta",
+          "Free kick"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Árbitro borrifando spray no gramado ao lado da barreira; os nomes nas camisas não entregam a resposta.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que produto o árbitro está aplicando no gramado nesta cena?",
+      "resposta": "Spray de barreira",
+      "ancora": {
+        "nome": "Spray de barreira",
+        "descricao": "Espuma que o árbitro borrifa no gramado para marcar a distância da barreira e o local da falta, e que desaparece em instantes.",
+        "variantes": [
+          "Spray de espuma",
+          "Vanishing spray",
+          "Spray de falta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Piloto em arnês com barra de controle sob asa rígida; clara.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte aéreo é este?",
+      "resposta": "Asa-delta",
+      "ancora": {
+        "nome": "Asa-delta",
+        "descricao": "Esporte aéreo em que o piloto voa pendurado num arnês sob uma asa sem motor.",
+        "variantes": [
+          "Hang gliding",
+          "Voo livre de asa-delta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, treinando num lago, e a imagem não distingue claramente caiaque de velocidade de outra prática de remo; resposta pouco única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, em prática de lazer, e a modalidade (tiro ao prato) pode ser confundida entre variantes de fossa, skeet e outras."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, num contexto casual; não são figuras públicas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Jovem gandula é pessoa comum em primeiro plano, com texto de patrocinadores visíveis (BNP, FedEx, Longines); o relógio chama mais atenção que a função da gandula."
+    }
+  ]
+}

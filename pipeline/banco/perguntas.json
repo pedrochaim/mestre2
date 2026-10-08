@@ -153895,5 +153895,179 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q08999",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "basquete_em_cadeira_de_rodas",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modalidade esportiva está sendo disputada nesta foto?",
+    "resposta": "Basquete em cadeira de rodas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wheelchair_basketball",
+      "https://pt.wikipedia.org/wiki/Basquetebol_em_cadeira_de_rodas"
+    ],
+    "imagem": {
+      "arquivo": "q08999.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Euroleague_-_LE_Roma_vs_Toulouse_IC-27.jpg",
+      "autor": "Pierre-Selim",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09000",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "solo_ginastica_artistica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em que aparelho da ginástica artística este atleta se apresenta?",
+    "resposta": "Solo",
+    "distratores": [
+      "Barra fixa",
+      "Argolas",
+      "Cavalo com alças"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Floor_%28gymnastics%29",
+      "https://pt.wikipedia.org/wiki/Solo_%28gin%C3%A1stica%29"
+    ],
+    "imagem": {
+      "arquivo": "q09000.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2019-06-29_1st_FIG_Artistic_Gymnastics_JWCH_Men's_Apparatus_finals_Floor_exercise_(Martin_Rulsch)_420.jpg",
+      "autor": "Martin Rulsch, Wikimedia Commons",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q09001",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "luge",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte olímpico de trenó é este?",
+    "resposta": "Luge",
+    "distratores": [
+      "Skeleton",
+      "Bobsled",
+      "Tobogã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luge",
+      "https://pt.wikipedia.org/wiki/Luge"
+    ],
+    "imagem": {
+      "arquivo": "q09001.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Départ_d'un_lugeur.jpg",
+      "autor": "Jon Wick",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q09002",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "bungee_jump",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que atividade radical é esta?",
+    "resposta": "Bungee jump",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bungee_jumping",
+      "https://pt.wikipedia.org/wiki/Bungee_jumping"
+    ],
+    "imagem": {
+      "arquivo": "q09002.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bungeejump_begin_Scheveningen_31_mei_2004.JPG",
+      "autor": "Ellywa at Dutch Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09003",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "classe_49er",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que classe olímpica de vela é esta, de dois tripulantes?",
+    "resposta": "49er",
+    "distratores": [
+      "470",
+      "Laser",
+      "Nacra 17"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/49er_%28dinghy%29",
+      "https://pt.wikipedia.org/wiki/49er"
+    ],
+    "imagem": {
+      "arquivo": "q09003.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:49er_skiff_sailing_AUS_nationals_Geelong.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q09004",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tiro_livre",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de cobrança está prestes a acontecer neste jogo de futebol?",
+    "resposta": "Tiro livre (falta)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Free_kick_%28association_football%29",
+      "https://pt.wikipedia.org/wiki/Tiro_livre"
+    ],
+    "imagem": {
+      "arquivo": "q09004.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Freistoss-RB_Salzburg-18-09-2005.jpg",
+      "autor": "photo taken by Markus Dallarosa",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09005",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "spray_de_barreira",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que produto o árbitro está aplicando no gramado nesta cena?",
+    "resposta": "Spray de barreira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vanishing_spray",
+      "https://pt.wikipedia.org/wiki/Spray_%28futebol%29"
+    ],
+    "imagem": {
+      "arquivo": "q09005.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arbitre_utilisant_un_spray_aérosol.JPG",
+      "autor": "Liondartois",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q09006",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "asa_delta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte aéreo é este?",
+    "resposta": "Asa-delta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hang_gliding"
+    ],
+    "imagem": {
+      "arquivo": "q09006.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hanggliding03042006.JPG",
+      "autor": "Miskatonic (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

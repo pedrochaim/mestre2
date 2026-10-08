@@ -1,0 +1,473 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Basquete em cadeira de rodas",
+        "descricao": "Modalidade paralímpica de basquete jogada com cadeiras de rodas esportivas.",
+        "variantes": [
+          "Basquetebol em cadeira de rodas",
+          "Wheelchair basketball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basquete_em_cadeira_de_rodas",
+          "nome": "Basquete em cadeira de rodas",
+          "descricao": "Adaptação do basquete para atletas com deficiência física, disputada em cadeiras de rodas.",
+          "variantes": [
+            "Wheelchair basketball"
+          ]
+        },
+        {
+          "id": "tenis_em_cadeira_de_rodas",
+          "nome": "Tênis em cadeira de rodas",
+          "descricao": "Modalidade de tênis adaptada para usuários de cadeira de rodas, em que a bola pode quicar duas vezes.",
+          "variantes": [
+            "Wheelchair tennis"
+          ]
+        },
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball"
+          ]
+        },
+        {
+          "id": "basquete_3x3",
+          "nome": "Basquete 3x3",
+          "descricao": "Modalidade de basquete jogada em meia quadra, com três jogadores de cada lado e uma só cesta.",
+          "variantes": [
+            "Basquete três contra três",
+            "3x3 basketball"
+          ]
+        },
+        {
+          "id": "basquete_masculino_nos_jogos_olimpicos_de_2004",
+          "nome": "Basquete masculino nos Jogos Olímpicos de 2004",
+          "descricao": "Torneio olímpico de basquete masculino disputado em Atenas, em 2004.",
+          "variantes": [
+            "Basquete em Atenas 2004"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Solo (ginástica artística)",
+        "descricao": "Aparelho e prova da ginástica artística realizados num tablado acolchoado com molas.",
+        "variantes": [
+          "Floor exercise",
+          "Exercícios de solo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ginastica_artistica",
+          "nome": "Ginástica artística",
+          "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+          "variantes": [
+            "Ginástica olímpica"
+          ]
+        },
+        {
+          "id": "arco_ginastica_ritmica",
+          "nome": "Arco (ginástica rítmica)",
+          "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+          "variantes": [
+            "Ginástica rítmica",
+            "Bambolê"
+          ]
+        },
+        {
+          "id": "ginastica_ritmica",
+          "nome": "Ginástica rítmica",
+          "descricao": "Modalidade de ginástica com música em que as atletas se apresentam com aparelhos manuais.",
+          "variantes": []
+        },
+        {
+          "id": "patinacao_artistica",
+          "nome": "Patinação artística",
+          "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+          "variantes": [
+            "Patinação artística no gelo",
+            "Figure skating"
+          ]
+        },
+        {
+          "id": "fita_ginastica_ritmica",
+          "nome": "Fita (ginástica rítmica)",
+          "descricao": "Aparelho da ginástica rítmica formado por uma fita de cetim presa a uma vareta, movimentada em figuras no ar.",
+          "variantes": [
+            "Ribbon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Luge",
+        "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+        "variantes": [
+          "Luge de pista natural",
+          "Trenó"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "tetano",
+          "nome": "Tétano",
+          "descricao": "Doença causada pela toxina da bactéria Clostridium tetani, que provoca espasmos musculares.",
+          "variantes": [
+            "Tetanus"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bungee jump",
+        "descricao": "Atividade radical em que a pessoa salta de uma grande altura presa a uma corda elástica.",
+        "variantes": [
+          "Bungee jumping",
+          "Bungy jump"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        },
+        {
+          "id": "weekly_shonen_jump",
+          "nome": "Weekly Shōnen Jump",
+          "descricao": "Revista semanal japonesa de mangás da editora Shueisha.",
+          "variantes": [
+            "Shonen Jump",
+            "Shūkan Shōnen Janpu",
+            "Jump"
+          ]
+        },
+        {
+          "id": "salto_em_altura",
+          "nome": "Salto em altura",
+          "descricao": "Prova do atletismo em que o atleta salta sobre um sarrafo horizontal sem derrubá-lo.",
+          "variantes": [
+            "High jump"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "lang_ping",
+          "nome": "Lang Ping",
+          "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016.",
+          "variantes": [
+            "Jenny Lang Ping"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Classe 49er",
+        "descricao": "Esquife de alto desempenho para dois tripulantes com trapézio, classe olímpica de vela desde Sydney 2000.",
+        "variantes": [
+          "49er",
+          "49er (dinghy)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fita_cassete",
+          "nome": "Fita cassete",
+          "descricao": "Formato analógico de fita magnética para gravação e reprodução de áudio, lançado em 1963.",
+          "variantes": [
+            "Cassete",
+            "Compact Cassette",
+            "K7"
+          ]
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser"
+          ]
+        },
+        {
+          "id": "edimburgo",
+          "nome": "Edimburgo",
+          "descricao": "Capital da Escócia, com castelo sobre uma rocha vulcânica.",
+          "variantes": [
+            "Edinburgh"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tiro livre",
+        "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+        "variantes": [
+          "Falta",
+          "Free kick"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "valeta",
+          "nome": "Valeta",
+          "descricao": "Capital de Malta, cidade fortificada fundada em 1566.",
+          "variantes": [
+            "Valletta",
+            "La Valletta"
+          ]
+        },
+        {
+          "id": "paulo_roberto_falcao",
+          "nome": "Paulo Roberto Falcão",
+          "descricao": "Ex-meia brasileiro do Internacional e da Roma, ídolo dos anos 1980.",
+          "variantes": [
+            "Falcão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Spray de barreira",
+        "descricao": "Espuma que o árbitro borrifa no gramado para marcar a distância da barreira e o local da falta, e que desaparece em instantes.",
+        "variantes": [
+          "Spray de espuma",
+          "Vanishing spray",
+          "Spray de falta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrida_com_barreiras",
+          "nome": "Corrida com barreiras",
+          "descricao": "Prova de atletismo em que os corredores saltam barreiras posicionadas na pista.",
+          "variantes": [
+            "Provas de barreiras",
+            "Hurdles"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Asa-delta",
+        "descricao": "Esporte aéreo em que o piloto voa pendurado num arnês sob uma asa sem motor.",
+        "variantes": [
+          "Hang gliding",
+          "Voo livre de asa-delta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delta_do_ganges",
+          "nome": "Delta do Ganges",
+          "descricao": "Imenso delta na Índia e em Bangladesh, formado pelos rios Ganges e Brahmaputra antes do golfo de Bengala.",
+          "variantes": [
+            "Delta do Ganges-Brahmaputra",
+            "Delta de Bengala",
+            "Ganges Delta"
+          ]
+        },
+        {
+          "id": "delta_do_okavango",
+          "nome": "Delta do Okavango",
+          "descricao": "Grande delta interior formado pelo rio Okavango, que se espalha no deserto do Kalahari sem chegar ao mar.",
+          "variantes": [
+            "Okavango Delta",
+            "Delta do Cubango"
+          ]
+        },
+        {
+          "id": "lang_ping",
+          "nome": "Lang Ping",
+          "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016.",
+          "variantes": [
+            "Jenny Lang Ping"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "chingling",
+          "nome": "Chingling",
+          "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "basquete_em_cadeira_de_rodas",
+      "motivo": "Mesma modalidade: basquete em cadeira de rodas, mesmo nome e variante."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Solo é um aparelho/prova específico, distinto da modalidade geral Ginástica artística."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Luge é um esporte de trenó; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bungee jump é uma atividade radical diferente de todas as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Classe 49er é uma classe de barco; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tiro livre no futebol não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Spray de barreira é um objeto de arbitragem; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Asa-delta é um esporte aéreo; candidatas são deltas geográficos e outras entidades."
+    }
+  ]
+}

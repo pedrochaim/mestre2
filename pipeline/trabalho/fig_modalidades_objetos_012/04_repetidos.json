@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que modalidade esportiva está sendo disputada nesta foto?",
+        "resposta": "Basquete em cadeira de rodas"
+      },
+      "existentes": [
+        {
+          "id": "q08067",
+          "pergunta": "A partir de 1946, o basquete em cadeira de rodas começou a ser jogado nos Estados Unidos, principalmente por quem?",
+          "resposta": "Veteranos feridos da Segunda Guerra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar a modalidade numa foto; a existente pergunta quem jogava o basquete em cadeira de rodas a partir de 1946. São fatos diferentes."
+    }
+  ]
+}
