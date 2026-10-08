@@ -151167,5 +151167,159 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Lava"
     ]
+  },
+  {
+    "id": "q08842",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "chupeta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Chupeta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pacifier",
+      "https://pt.wikipedia.org/wiki/Chupeta"
+    ],
+    "imagem": {
+      "arquivo": "q08842.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pacifier_for_newborn,_2015-07-12.jpg",
+      "autor": "Crisco 1492",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q08843",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "calcadeira",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Calçadeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shoehorn",
+      "https://pt.wikipedia.org/wiki/Cal%C3%A7adeira"
+    ],
+    "imagem": {
+      "arquivo": "q08843.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Schuhlöffel.jpg",
+      "autor": "Primus von Quack at German Wikipedia (Original text: Primus von Quack)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08844",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "moletom_com_capuz",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peça de roupa é esta?",
+    "resposta": "Moletom com capuz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hoodie"
+    ],
+    "imagem": {
+      "arquivo": "q08844.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sudadera_urban.jpg",
+      "autor": "Davidcanogomez",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08845",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "fita_metrica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de medida é este?",
+    "resposta": "Fita métrica",
+    "distratores": [
+      "Paquímetro",
+      "Transferidor",
+      "Esquadro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tape_measure",
+      "https://pt.wikipedia.org/wiki/Trena"
+    ],
+    "imagem": {
+      "arquivo": "q08845.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg",
+      "autor": "Simon A. Eugster",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08846",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "haori",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peça tradicional japonesa é esta?",
+    "resposta": "Haori",
+    "distratores": [
+      "Yukata",
+      "Hakama",
+      "Jinbei"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haori",
+      "https://pt.wikipedia.org/wiki/Haori"
+    ],
+    "imagem": {
+      "arquivo": "q08846.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:黒平絹地富士図羽織_男物-Man's_Formal_Jacket_(Haori)_MET_DP330781.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q08847",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "colher",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que utensílio de mesa é este?",
+    "resposta": "Colher",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spoon",
+      "https://pt.wikipedia.org/wiki/Colher"
+    ],
+    "imagem": {
+      "arquivo": "q08847.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SpoonCollection.jpg",
+      "autor": "THOR",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q08848",
+    "tema": "Cotidiano",
+    "subtema": "Costumes pelo Mundo",
+    "ancora": "shtreimel",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que chapéu de pele é este?",
+    "resposta": "Shtreimel",
+    "distratores": [
+      "Papakha",
+      "Ushanka",
+      "Busby"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shtreimel",
+      "https://pt.wikipedia.org/wiki/Shtreimel"
+    ],
+    "imagem": {
+      "arquivo": "q08848.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Isidor_Kaufmann_Portrait_eines_Rabbis.jpg",
+      "autor": "Isidor Kaufmann",
+      "licenca": "Public domain"
+    }
   }
 ]

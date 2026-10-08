@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chupeta rosa isolada em fundo branco, nítida e inequívoca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Chupeta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chupeta",
+        "descricao": "Bico de silicone ou borracha dado a bebês para sugar e acalmá-los.",
+        "variantes": [
+          "Chupeta de bebê",
+          "Pacifier"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração vetorial de figura sem rosto; hijab pode ser fotografado, e a imagem poderia ser lida como lenço ou capuz genérico."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Duas calçadeiras longas (madeira e metal) bem visíveis; o texto na caixa ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Calçadeira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Calçadeira",
+        "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+        "variantes": [
+          "Calçador",
+          "Shoehorn"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Moletom azul-marinho com capuz, cordões e bolso canguru, bem nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça de roupa é esta?",
+      "resposta": "Moletom com capuz",
+      "destino": 1,
+      "ancora": {
+        "nome": "Moletom com capuz",
+        "descricao": "Casaco ou blusa de malha grossa com capuz, cordões e bolso frontal.",
+        "variantes": [
+          "Moletom canguru",
+          "Hoodie",
+          "Blusão de moletom"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fita métrica de costura colorida, nítida, em fundo branco; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de medida é este?",
+      "resposta": "Fita métrica",
+      "distratores": [
+        "Fita isolante",
+        "Régua de cálculo",
+        "Fita de cetim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fita métrica",
+        "descricao": "Fita flexível com marcações usada para medir comprimentos, comum na costura.",
+        "variantes": [
+          "Trena de costura",
+          "Metro de costureira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Esboço a tinta ambíguo, que pode ser lido como cachecol ou lenço; não permite reconhecer a gravata plastrom."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cinto de couro preto com fivela, nítido e inequívoco.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acessório de vestuário é este?",
+      "resposta": "Cinto",
+      "destino": 1,
+      "ancora": {
+        "nome": "Cinto",
+        "descricao": "Tira de couro com fivela usada na cintura para segurar a roupa.",
+        "variantes": [
+          "Cinturão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A etiqueta do museu traz 'Grass skirt' em inglês e japonês, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Haori preto com brasões e forro pintado, em fundo neutro; peça nítida e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça tradicional japonesa é esta?",
+      "resposta": "Haori",
+      "distratores": [
+        "Yukata",
+        "Hakama",
+        "Jinbei"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Haori",
+        "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+        "variantes": [
+          "Jaqueta japonesa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Seis colheres de materiais variados sobre fundo branco; assunto único e resposta inequívoca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que utensílio de mesa aparece repetido nesta imagem?",
+      "resposta": "Colher",
+      "destino": 0,
+      "ancora": {
+        "nome": "Colher",
+        "descricao": "Utensílio com concha oval na ponta de um cabo, usado para levar alimento à boca.",
+        "variantes": [
+          "Colher de mesa",
+          "Colherzinha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto em primeiro plano de uma mulher comum, com os olhos visíveis, em contexto não público."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público de homem com shtreimel em destaque; o texto hebraico ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que chapéu de pele o homem deste quadro usa?",
+      "resposta": "Shtreimel",
+      "distratores": [
+        "Papakha",
+        "Ushanka",
+        "Kolpak"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Shtreimel",
+        "descricao": "Chapéu redondo de pele usado por homens judeus hassídicos no Shabat e em festas.",
+        "variantes": [
+          "Streimel"
+        ]
+      }
+    }
+  ]
+}

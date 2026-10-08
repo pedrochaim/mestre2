@@ -1,0 +1,443 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chupeta",
+        "descricao": "Bico de silicone ou borracha dado a bebês para sugar e acalmá-los.",
+        "variantes": [
+          "Chupeta de bebê",
+          "Pacifier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oceano_pacifico",
+          "nome": "Oceano Pacífico",
+          "descricao": "O maior oceano da Terra, entre a Ásia, a Oceania e as Américas.",
+          "variantes": [
+            "Pacífico",
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Calçadeira",
+        "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+        "variantes": [
+          "Calçador",
+          "Shoehorn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calculadora",
+          "nome": "Calculadora",
+          "descricao": "Aparelho eletrônico portátil usado para fazer cálculos, de aritmética básica a matemática avançada; aqui, um modelo científico.",
+          "variantes": [
+            "Calculadora científica",
+            "Calculator"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "calipateira",
+          "nome": "Calipateira",
+          "descricao": "Mulher de Rodes que, segundo Pausânias, entrou disfarçada de treinador nos Jogos de Olímpia para ver o filho competir.",
+          "variantes": [
+            "Kallipateira",
+            "Ferenice de Rodes"
+          ]
+        },
+        {
+          "id": "as_bruxas_de_salem",
+          "nome": "As Bruxas de Salem",
+          "descricao": "Peça de Arthur Miller, de 1953, sobre os julgamentos de bruxaria de Salem, em Massachusetts, em 1692.",
+          "variantes": [
+            "The Crucible",
+            "O Caldeirão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Moletom com capuz",
+        "descricao": "Casaco ou blusa de malha grossa com capuz, cordões e bolso frontal.",
+        "variantes": [
+          "Moletom canguru",
+          "Hoodie",
+          "Blusão de moletom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "totodile",
+          "nome": "Totodile",
+          "descricao": "Pokémon do tipo Água, número 158 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "tales_de_mileto",
+          "nome": "Tales de Mileto",
+          "descricao": "Filósofo grego pré-socrático (c. 624–546 a.C.), considerado pela tradição um dos Sete Sábios da Grécia.",
+          "variantes": [
+            "Thales of Miletus",
+            "Tales",
+            "Thales"
+          ]
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Fita métrica",
+        "descricao": "Fita flexível com marcações usada para medir comprimentos, comum na costura.",
+        "variantes": [
+          "Trena de costura",
+          "Metro de costureira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_costura",
+          "nome": "Máquina de costura",
+          "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+          "variantes": []
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        },
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Haori",
+        "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+        "variantes": [
+          "Jaqueta japonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "rubeus_hagrid",
+          "nome": "Rubeus Hagrid",
+          "descricao": "Meio-gigante guarda-caça de Hogwarts nas obras de Harry Potter, vivido por Robbie Coltrane nos filmes.",
+          "variantes": [
+            "Hagrid"
+          ]
+        },
+        {
+          "id": "cerejeira_japonesa",
+          "nome": "Cerejeira-japonesa",
+          "descricao": "Árvores ornamentais do gênero Prunus, as sakuras, famosas pela floração na primavera",
+          "variantes": [
+            "Sakura",
+            "Cerejeira ornamental"
+          ]
+        },
+        {
+          "id": "shogi",
+          "nome": "Shogi",
+          "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+          "variantes": [
+            "Xadrez japonês"
+          ]
+        },
+        {
+          "id": "horacio",
+          "nome": "Horácio",
+          "descricao": "Filhote de tiranossauro verde, protagonista da Turma do Horácio, de Mauricio de Sousa.",
+          "variantes": [
+            "Horácio, o dinossauro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Colher",
+        "descricao": "Utensílio com concha oval na ponta de um cabo, usado para levar alimento à boca.",
+        "variantes": [
+          "Colher de mesa",
+          "Colherzinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colhereiro",
+          "nome": "Colhereiro",
+          "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+          "variantes": [
+            "Colhereiro-americano",
+            "Platalea ajaja",
+            "Roseate spoonbill"
+          ]
+        },
+        {
+          "id": "carruagem",
+          "nome": "Carruagem",
+          "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+          "variantes": [
+            "Coche"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Shtreimel",
+        "descricao": "Chapéu redondo de pele usado por homens judeus hassídicos no Shabat e em festas.",
+        "variantes": [
+          "Streimel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "stereobelt",
+          "nome": "Stereobelt",
+          "descricao": "Tocador de fitas portátil com fones de ouvido criado em 1972 pelo alemão Andreas Pavel, precursor do Walkman.",
+          "variantes": [
+            "Stereo belt"
+          ]
+        },
+        {
+          "id": "dreidel",
+          "nome": "Dreidel",
+          "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+          "variantes": [
+            "Dreydl",
+            "Sevivon",
+            "Pião de Hanucá"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "strudel_de_maca",
+          "nome": "Strudel de maçã",
+          "descricao": "Doce vienense de massa folhada fina enrolada, recheada com maçã, passas e canela.",
+          "variantes": [
+            "Apfelstrudel",
+            "Strudel",
+            "Apple strudel"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma chupeta; nomes só parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Calçadeira não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma peça de vestuário como moletom."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fita métrica é diferente da máquina de costura e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Haori é uma peça de roupa; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Colher (utensílio) é diferente do colhereiro (ave) e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Shtreimel é um chapéu; nenhuma candidata corresponde."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento, resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem pista no enunciado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; 'moletom com capuz' é a resposta natural em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores fracos: fita isolante e fita de cetim não são instrumentos de medida, então não são do mesmo tipo da resposta nem críveis. Troquei por instrumentos de medida reais e visualmente distintos.",
+      "reescrita": {
+        "pergunta": "Que instrumento de medida é este?",
+        "resposta": "Fita métrica",
+        "distratores": [
+          "Paquímetro",
+          "Transferidor",
+          "Esquadro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá o grupo (peça tradicional japonesa), o que ajuda sem entregar. Distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aparece repetido nesta imagem' afirma algo que 'mostra' não confirma (várias colheres). Simplifiquei para uma pergunta verdadeira para qualquer foto de colher.",
+      "reescrita": {
+        "pergunta": "Que utensílio de mesa é este?",
+        "resposta": "Colher"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Do homem deste quadro' presume uma pintura, e 'mostra' não diz isso. O distrator 'Kolpak' é problemático porque o kolpik também é um chapéu de pele judaico. Troquei por um chapéu de pele sem ambiguidade.",
+      "reescrita": {
+        "pergunta": "Que chapéu de pele é este?",
+        "resposta": "Shtreimel",
+        "distratores": [
+          "Papakha",
+          "Ushanka",
+          "Busby"
+        ]
+      }
+    }
+  ]
+}
