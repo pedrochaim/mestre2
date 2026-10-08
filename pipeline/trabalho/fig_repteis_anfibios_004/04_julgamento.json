@@ -1,0 +1,729 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sapo-cururu",
+        "descricao": "Sapo terrestre grande (Rhinella marina), nativo da América do Sul e Central, introduzido na Austrália.",
+        "variantes": [
+          "Rhinella marina",
+          "Sapo-boi",
+          "Cane toad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "soco_boi",
+          "nome": "Socó-boi",
+          "descricao": "Garça de pescoço ruivo e listrado (Tigrisoma lineatum), das áreas alagadas das Américas.",
+          "variantes": [
+            "Socó-boi-ruivo",
+            "Tigrisoma lineatum"
+          ]
+        },
+        {
+          "id": "pho",
+          "nome": "Phở",
+          "descricao": "Sopa vietnamita de caldo, macarrão de arroz, ervas e carne, geralmente bovina.",
+          "variantes": [
+            "Phở bò"
+          ]
+        },
+        {
+          "id": "sapo_pipa",
+          "nome": "Sapo-pipa",
+          "descricao": "Anfíbio aquático e achatado da Amazônia (Pipa pipa), cujos ovos se desenvolvem embutidos nas costas da fêmea.",
+          "variantes": [
+            "Pipa pipa",
+            "Sapo-do-suriname"
+          ]
+        },
+        {
+          "id": "iguana_marinha",
+          "nome": "Iguana-marinha",
+          "descricao": "Lagarto de Galápagos (Amblyrhynchus cristatus) que mergulha no mar para comer algas.",
+          "variantes": [
+            "Amblyrhynchus cristatus",
+            "Marine iguana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Salamandra-gigante-do-japão",
+        "descricao": "Salamandra totalmente aquática (Andrias japonicus) que chega a 1,5 metro, endêmica do Japão.",
+        "variantes": [
+          "Andrias japonicus",
+          "Ōsanshōuo",
+          "Japanese giant salamander"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        },
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        },
+        {
+          "id": "shogi",
+          "nome": "Shogi",
+          "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+          "variantes": [
+            "Xadrez japonês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mantela-dourada",
+        "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+        "variantes": [
+          "Mantella aurantiaca",
+          "Golden mantella"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "ponte_golden_gate",
+          "nome": "Ponte Golden Gate",
+          "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+          "variantes": [
+            "Golden Gate Bridge",
+            "Golden Gate"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "mata_atlantica",
+          "nome": "Mata Atlântica",
+          "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+          "variantes": [
+            "Atlantic Forest",
+            "Floresta Atlântica"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Aligátor-americano",
+        "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+        "variantes": [
+          "Alligator mississippiensis",
+          "Jacaré-americano",
+          "American alligator"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        },
+        {
+          "id": "flamingo_americano",
+          "nome": "Flamingo-americano",
+          "descricao": "Espécie de flamingo (Phoenicopterus ruber) das Antilhas, norte da América do Sul e Iucatã, também chamada flamingo-do-caribe.",
+          "variantes": [
+            "Flamingo-do-caribe",
+            "Phoenicopterus ruber",
+            "American flamingo"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tartaruga-de-couro",
+        "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de carapaça coberta por pele coriácea e sem placas ósseas.",
+        "variantes": [
+          "Dermochelys coriacea",
+          "Tartaruga-gigante",
+          "Leatherback sea turtle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        },
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        },
+        {
+          "id": "tartaruga_gigante_de_aldabra",
+          "nome": "Tartaruga-gigante-de-aldabra",
+          "descricao": "Jabuti gigante (Aldabrachelys gigantea) do atol de Aldabra, nas Seicheles.",
+          "variantes": [
+            "Aldabrachelys gigantea",
+            "Aldabra giant tortoise",
+            "Jabuti-gigante-de-aldabra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lagarto-de-chifre-texano",
+        "descricao": "Lagarto espinhoso (Phrynosoma cornutum) do centro-sul dos Estados Unidos e nordeste do México.",
+        "variantes": [
+          "Phrynosoma cornutum",
+          "Texas horned lizard",
+          "Sapo-de-chifres"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_de_chifre",
+          "nome": "Sapo-de-chifre",
+          "descricao": "Sapo sul-americano de boca enorme e projeções em forma de chifre sobre os olhos, Ceratophrys cornuta.",
+          "variantes": [
+            "Ceratophrys cornuta",
+            "Surinam horned frog",
+            "Sapo-de-chifres-amazônico"
+          ]
+        },
+        {
+          "id": "santiago_do_chile",
+          "nome": "Santiago do Chile",
+          "descricao": "Capital e maior cidade do Chile, fundada em 1541.",
+          "variantes": [
+            "Santiago",
+            "Santiago de Chile"
+          ]
+        },
+        {
+          "id": "trypanosoma_cruzi",
+          "nome": "Trypanosoma cruzi",
+          "descricao": "Protozoário causador da doença de Chagas, descrito por Carlos Chagas em 1909.",
+          "variantes": [
+            "T. cruzi"
+          ]
+        },
+        {
+          "id": "papiro_rhind",
+          "nome": "Papiro Rhind",
+          "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+          "variantes": [
+            "Papiro de Ahmes",
+            "Rhind Mathematical Papyrus"
+          ]
+        },
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Dragão-de-komodo",
+        "descricao": "Maior lagarto vivo (Varanus komodoensis), um varanídeo endêmico de ilhas da Indonésia.",
+        "variantes": [
+          "Varanus komodoensis",
+          "Komodo dragon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dragao_de_komodo",
+          "nome": "Dragão-de-komodo",
+          "descricao": "Grande lagarto (Varanus komodoensis) de algumas ilhas da Indonésia, o maior lagarto vivo.",
+          "variantes": [
+            "Varano-de-komodo",
+            "Komodo dragon",
+            "Varanus komodoensis"
+          ]
+        },
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon",
+            "A Fúria do Dragão"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "arvore_sangue_de_dragao",
+          "nome": "Árvore-sangue-de-dragão",
+          "descricao": "Árvore Dracaena cinnabari, de copa em forma de guarda-chuva e seiva vermelha, endêmica do arquipélago de Socotorá.",
+          "variantes": [
+            "Dracaena cinnabari",
+            "Dragoeiro-de-socotorá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cobra-real",
+        "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+        "variantes": [
+          "Ophiophagus hannah",
+          "King cobra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cecilia",
+          "nome": "Cecília",
+          "descricao": "Anfíbio sem patas e de vida subterrânea da ordem Gymnophiona, parecido com uma minhoca grande.",
+          "variantes": [
+            "Gymnophiona",
+            "Cobra-cega",
+            "Cecílias",
+            "Caecilian"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "naja_indiana",
+          "nome": "Naja-indiana",
+          "descricao": "Cobra venenosa de capelo do subcontinente indiano, Naja naja.",
+          "variantes": [
+            "Naja naja",
+            "Cobra-de-capelo-indiana",
+            "Indian cobra"
+          ]
+        },
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Cobra-de-duas-cabeças",
+        "descricao": "Anfisbenídeo (Amphisbaena alba) sem membros, de hábitos subterrâneos, comum na América do Sul.",
+        "variantes": [
+          "Amphisbaena alba",
+          "Anfisbena",
+          "Cobra-cega",
+          "Red worm lizard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cecilia",
+          "nome": "Cecília",
+          "descricao": "Anfíbio sem patas e de vida subterrânea da ordem Gymnophiona, parecido com uma minhoca grande.",
+          "variantes": [
+            "Gymnophiona",
+            "Cobra-cega",
+            "Cecílias",
+            "Caecilian"
+          ]
+        },
+        {
+          "id": "corsega",
+          "nome": "Córsega",
+          "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+          "variantes": [
+            "Corse",
+            "Corsica"
+          ]
+        },
+        {
+          "id": "coracao_humano",
+          "nome": "Coração humano",
+          "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+          "variantes": [
+            "Coração"
+          ]
+        },
+        {
+          "id": "camelo_bactriano",
+          "nome": "Camelo-bactriano",
+          "descricao": "Camelo de duas corcovas (Camelus bactrianus), das estepes e desertos frios da Ásia Central.",
+          "variantes": [
+            "Camelus bactrianus",
+            "Bactrian camel",
+            "Camelo-de-duas-corcovas"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Rã-de-vidro",
+        "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+        "variantes": [
+          "Centrolenidae",
+          "Rã-de-cristal",
+          "Glass frog"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "armonica_de_vidro",
+          "nome": "Armônica de vidro",
+          "descricao": "Instrumento de tigelas de vidro giratórias, tocado com os dedos molhados, criado no século dezoito.",
+          "variantes": [
+            "Harmônica de vidro",
+            "Glass harmonica",
+            "Armonica"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        },
+        {
+          "id": "a_doce_vida",
+          "nome": "A Doce Vida",
+          "descricao": "Filme italiano de 1960 dirigido por Federico Fellini, com Marcello Mastroianni, passado em Roma.",
+          "variantes": [
+            "La dolce vita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Sapo-dourado",
+        "descricao": "Sapo laranja (Incilius periglenes), endêmico da floresta nebulosa de Monteverde, na Costa Rica, extinto desde o fim da década de 1980.",
+        "variantes": [
+          "Incilius periglenes",
+          "Golden toad",
+          "Sapo-de-Monteverde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "reserva_de_monteverde",
+          "nome": "Reserva de Monteverde",
+          "descricao": "Reserva de floresta nublada nas montanhas da América Central, famosa pela biodiversidade",
+          "variantes": [
+            "Monteverde Cloud Forest Reserve",
+            "Reserva Biológica Bosque Nuboso Monteverde"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "banco_de_ouro",
+          "nome": "Banco de Ouro",
+          "descricao": "Trono sagrado do povo axânti, em Gana, símbolo da unidade e da alma da nação axânti.",
+          "variantes": [
+            "Golden Stool",
+            "Sika Dwa Kofi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "sapo_cururu",
+      "motivo": "Mesma espécie Rhinella marina."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Andrias japonicus."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mantella aurantiaca não consta nas candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A candidata é o gênero Alligator; a proposta é uma espécie específica."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "tartaruga_de_couro",
+      "motivo": "Mesma espécie Dermochelys coriacea."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Phrynosoma cornutum é um lagarto, diferente do sapo Ceratophrys cornuta."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "dragao_de_komodo",
+      "motivo": "Mesma espécie Varanus komodoensis."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ophiophagus hannah não está nas candidatas; naja-indiana é outra espécie."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Anfisbenídeo é diferente de cecília (anfíbio) e das demais candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a rã-de-vidro."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "sapo_dourado",
+      "motivo": "Mesma espécie Incilius periglenes."
+    }
+  ]
+}

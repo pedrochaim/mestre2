@@ -1,0 +1,90 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que sapo grande, nativo das Américas, é este?",
+        "resposta": "Sapo-cururu"
+      },
+      "existentes": [
+        {
+          "id": "q02480",
+          "pergunta": "Em 1935, o sapo-cururu, nativo das Américas, foi levado para a Austrália, onde virou praga. Com que objetivo ele foi levado?",
+          "resposta": "Controlar besouros da cana"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tartaruga marinha é esta?",
+        "resposta": "Tartaruga-de-couro"
+      },
+      "existentes": [
+        {
+          "id": "q02484",
+          "pergunta": "Sacolas plásticas boiando no mar são uma ameaça para a tartaruga-de-couro, porque ela as confunde com seu alimento preferido. Qual?",
+          "resposta": "Águas-vivas"
+        },
+        {
+          "id": "q02568",
+          "pergunta": "Qual é a maior de todas as tartarugas-marinhas, que pode passar de meia tonelada?",
+          "resposta": "Tartaruga-de-couro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país vive na natureza este lagarto?",
+        "resposta": "Indonésia"
+      },
+      "existentes": [
+        {
+          "id": "q06496",
+          "pergunta": "O dragão-de-komodo, maior lagarto do mundo, vive na natureza só em algumas ilhas de que país?",
+          "resposta": "Indonésia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país vivia este sapo, hoje extinto?",
+        "resposta": "Costa Rica"
+      },
+      "existentes": [
+        {
+          "id": "q06500",
+          "pergunta": "Desaparecido no fim dos anos oitenta, o sapo-dourado, de cor laranja brilhante, vivia só nas florestas nubladas de Monteverde. Em que país?",
+          "resposta": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o sapo pela imagem é um fato diferente do motivo da introdução na Austrália."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar a tartaruga-de-couro pela imagem equivale à pergunta sobre a maior tartaruga marinha, cuja resposta é a mesma.",
+      "id_existente": "q02568"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o país onde o dragão-de-komodo vive na natureza: Indonésia.",
+      "id_existente": "q06496"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o país onde vivia o sapo-dourado: Costa Rica.",
+      "id_existente": "q06500"
+    }
+  ]
+}

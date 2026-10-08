@@ -1,0 +1,252 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de sapo-cururu, reconhecível pelo porte, pela pele rugosa e pelas glândulas parotoides.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que anfíbio é este, sapo grande e rugoso da América do Sul?",
+      "resposta": "Sapo-cururu",
+      "ancora": {
+        "nome": "Sapo-cururu",
+        "descricao": "Sapo terrestre grande (Rhinella marina), nativo da América do Sul e Central, introduzido na Austrália.",
+        "variantes": [
+          "Rhinella marina",
+          "Sapo-boi",
+          "Cane toad"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Salamandra gigante aquática bem visível; distratores sem a salamandra-gigante-chinesa para evitar ambiguidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que anfíbio aquático gigante é este?",
+      "resposta": "Salamandra-gigante-do-japão",
+      "distratores": [
+        "Hellbender",
+        "Proteu",
+        "Axolote"
+      ],
+      "ancora": {
+        "nome": "Salamandra-gigante-do-japão",
+        "descricao": "Salamandra totalmente aquática (Andrias japonicus) que chega a 1,5 metro, endêmica do Japão.",
+        "variantes": [
+          "Andrias japonicus",
+          "Ōsanshōuo",
+          "Japanese giant salamander"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rãzinha amarelo-alaranjada nítida, característica da mantela-dourada; múltipla escolha com rãs coloridas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rã de Madagascar é esta?",
+      "resposta": "Mantela-dourada",
+      "distratores": [
+        "Rã-dardo-dourada",
+        "Rã-tomate",
+        "Sapo-dourado"
+      ],
+      "ancora": {
+        "nome": "Mantela-dourada",
+        "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+        "variantes": [
+          "Mantella aurantiaca",
+          "Golden mantella"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto clara de aligátor-americano em vista dorsal, com focinho largo; a pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país vive naturalmente este crocodiliano?",
+      "resposta": "Estados Unidos",
+      "ancora": {
+        "nome": "Aligátor-americano",
+        "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+        "variantes": [
+          "Alligator mississippiensis",
+          "Jacaré-americano",
+          "American alligator"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tartaruga-de-couro inconfundível, com carapaça sem placas e pontilhada; foto nítida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tartaruga marinha é esta, a maior de todas?",
+      "resposta": "Tartaruga-de-couro",
+      "ancora": {
+        "nome": "Tartaruga-de-couro",
+        "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de carapaça coberta por pele coriácea e sem placas ósseas.",
+        "variantes": [
+          "Dermochelys coriacea",
+          "Tartaruga-gigante",
+          "Leatherback sea turtle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lagarto de chifres com espinhos característicos, bem visível; múltipla escolha com répteis espinhosos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto espinhoso é este?",
+      "resposta": "Lagarto-de-chifre-texano",
+      "distratores": [
+        "Diabo-espinhoso",
+        "Basilisco-de-capacete",
+        "Dragão-barbudo"
+      ],
+      "ancora": {
+        "nome": "Lagarto-de-chifre-texano",
+        "descricao": "Lagarto espinhoso (Phrynosoma cornutum) do centro-sul dos Estados Unidos e nordeste do México.",
+        "variantes": [
+          "Phrynosoma cornutum",
+          "Texas horned lizard",
+          "Sapo-de-chifres"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto lateral nítida de dragão-de-komodo; a pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país vive na natureza este lagarto?",
+      "resposta": "Indonésia",
+      "ancora": {
+        "nome": "Dragão-de-komodo",
+        "descricao": "Maior lagarto vivo (Varanus komodoensis), um varanídeo endêmico de ilhas da Indonésia.",
+        "variantes": [
+          "Varanus komodoensis",
+          "Komodo dragon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cobra com capelo erguido, reconhecível como cobra-real; múltipla com serpentes parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que serpente venenosa asiática é esta?",
+      "resposta": "Cobra-real",
+      "distratores": [
+        "Naja-de-óculos",
+        "Naja-cuspideira",
+        "Krait-listrado"
+      ],
+      "ancora": {
+        "nome": "Cobra-real",
+        "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+        "variantes": [
+          "Ophiophagus hannah",
+          "King cobra"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Serpente preta lisa, parecida com outras cobras pretas (Boiruna, Pseudoboa etc.); não dá para reconhecer a muçurana com segurança só pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Anfisbena nítida, de corpo cilíndrico e sem membros, claramente diferente de uma cobra comum; a chave não traz texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que réptil subterrâneo é este, muitas vezes confundido com uma cobra?",
+      "resposta": "Cobra-de-duas-cabeças",
+      "ancora": {
+        "nome": "Cobra-de-duas-cabeças",
+        "descricao": "Anfisbenídeo (Amphisbaena alba) sem membros, de hábitos subterrâneos, comum na América do Sul.",
+        "variantes": [
+          "Amphisbaena alba",
+          "Anfisbena",
+          "Cobra-cega",
+          "Red worm lizard"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rã verde de barriga clara sobre folha, típica de rã-de-vidro; múltipla com pererecas verdes parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rã da floresta tropical é esta?",
+      "resposta": "Rã-de-vidro",
+      "distratores": [
+        "Perereca-verde",
+        "Perereca-de-olhos-vermelhos",
+        "Rã-verde-europeia"
+      ],
+      "ancora": {
+        "nome": "Rã-de-vidro",
+        "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+        "variantes": [
+          "Centrolenidae",
+          "Rã-de-cristal",
+          "Glass frog"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto icônica e nítida do sapo-dourado, laranja vivo e inconfundível; a pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país vivia este sapo, hoje extinto?",
+      "resposta": "Costa Rica",
+      "ancora": {
+        "nome": "Sapo-dourado",
+        "descricao": "Sapo laranja (Incilius periglenes), endêmico da floresta nebulosa de Monteverde, na Costa Rica, extinto desde o fim da década de 1980.",
+        "variantes": [
+          "Incilius periglenes",
+          "Golden toad",
+          "Sapo-de-Monteverde"
+        ]
+      }
+    }
+  ]
+}

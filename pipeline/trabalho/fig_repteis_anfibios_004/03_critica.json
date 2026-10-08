@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sapo grande e rugoso da América do Sul' é vago e cabe a outras espécies de Rhinella, como R. diptycha, também chamada de cururu. A espécie ocorre também na América Central. A repetição de 'sapo' no enunciado e na resposta é leve. Reescrita com 'nativo das Américas', que é literal e não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que sapo grande, nativo das Américas, é este?",
+        "resposta": "Sapo-cururu",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'gigante', que faz parte da resposta (vazamento por palavra derivada). Troquei por uma pista geográfica que ajuda sem entregar. Os distratores são americanos ou europeus, então nenhum descreve a figura.",
+      "reescrita": {
+        "pergunta": "Que anfíbio de rios da Ásia é este?",
+        "resposta": "Salamandra-gigante-do-japão",
+        "distratores": [
+          "Hellbender",
+          "Proteu",
+          "Axolote"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A rã é endêmica de Madagascar, segundo o trecho. A pista ajuda sem entregar e os distratores são do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a espécie é nativa apenas do sudeste dos Estados Unidos. A resposta é única e o enunciado não entrega nada.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A maior de todas' identifica a espécie sem olhar a figura (teste da imagem coberta). Retirei a pista.",
+      "reescrita": {
+        "pergunta": "Que tartaruga marinha é esta?",
+        "resposta": "Tartaruga-de-couro",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica, distratores plausíveis e curtos, resposta sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que a espécie é endêmica de ilhas da Indonésia. O enunciado não entrega a resposta e ela é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serpente peçonhenta da Ásia. A pista não entrega a resposta e os distratores são do mesmo tipo (najas e krait asiáticos).",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cobra' aparece no enunciado e na resposta (vazamento por palavra derivada), e 'confundido com cobra' entrega o nome popular. Troquei por uma pista de ausência de patas e de local, que é literal.",
+      "reescrita": {
+        "pergunta": "Que réptil subterrâneo sem patas é este, comum na América do Sul?",
+        "resposta": "Cobra-de-duas-cabeças",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rã de floresta tropical da América Central e do Sul, segundo os trechos. Os distratores são plausíveis e a pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie era endêmica de Monteverde, na Costa Rica, e está extinta. O enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
