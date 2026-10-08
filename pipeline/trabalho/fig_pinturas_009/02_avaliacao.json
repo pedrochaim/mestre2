@@ -1,0 +1,244 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'Vincent' aparece escrito na caixa de cebolas, o que entrega o pintor e enfraquece o reconhecimento."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra emblemática, legível, sem texto que entregue o museu. A assinatura é minúscula e não revela a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris fica hoje este quadro impressionista de um baile ao ar livre?",
+      "resposta": "Museu d'Orsay",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu de l'Orangerie",
+        "Museu Rodin"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baile no Moulin de la Galette",
+        "descricao": "Pintura impressionista de Pierre-Auguste Renoir, de 1876, que mostra uma tarde de domingo dançante em Montmartre.",
+        "variantes": [
+          "Bal du moulin de la Galette",
+          "Dança no Moulin de la Galette",
+          "O baile no Moulin de la Galette"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena de rua panorâmica, sem texto, reconhecível pelo estilo. A resposta é única.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor flamengo do século dezesseis pintou esta cena de uma praça cheia de gente?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "distratores": [
+        "Hieronymus Bosch",
+        "Jan van Eyck",
+        "Peter Paul Rubens"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Combate entre o Carnaval e a Quaresma",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1559, que retrata uma praça flamenga na passagem do Carnaval para a Quaresma.",
+        "variantes": [
+          "The Fight Between Carnival and Lent",
+          "A Luta entre o Carnaval e a Quaresma",
+          "De strijd tussen Vasten en Vastenavond"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma gravura com quatro figuras e muito texto em latim (títulos e inscrições). Não mostra o retrato isolado de Henrique VIII, e as legendas entregam os nomes."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obra clara, sem texto. O capacete, o sátiro e o casal reclinado a tornam reconhecível, e a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que casal de deuses romanos, o do amor e o da guerra, aparece neste quadro renascentista?",
+      "resposta": "Vênus e Marte",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vênus e Marte (Botticelli)",
+        "descricao": "Pintura em painel de Sandro Botticelli, por volta de 1485, com Vênus e Marte reclinados entre pequenos sátiros.",
+        "variantes": [
+          "Marte e Vênus",
+          "Venus and Mars"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Obra com técnica inconfundível, sem texto. A pergunta sobre a técnica depende da imagem.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que técnica de pintura, feita de pequenos pontos de cor justapostos, caracteriza este quadro?",
+      "resposta": "Pontilhismo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Le Chahut (Seurat)",
+        "descricao": "Pintura neoimpressionista de Georges Seurat, de 1889-90, que retrata uma dança de cancã num cabaré parisiense.",
+        "variantes": [
+          "Le Chahut",
+          "O Cancã",
+          "Chahut"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara dos montes de feno. A assinatura é pequena e o enunciado não pede o autor, então ela não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "A que movimento artístico francês do século dezenove pertence esta paisagem de luz vibrante?",
+      "resposta": "Impressionismo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Montes de Feno (Monet)",
+        "descricao": "Série de pinturas impressionistas de Claude Monet, iniciada em 1890, com montes de feno em Giverny sob luzes variadas.",
+        "variantes": [
+          "Les Meules",
+          "Haystacks",
+          "Meules de Feno",
+          "Pilhas de Feno"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem nítida de duas figuras numa varanda com o rio ao fundo. A pergunta sobre o rio depende de reconhecer a obra, e a assinatura não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rio francês aparece ao fundo desta cena numa varanda de restaurante, pintada por Renoir?",
+      "resposta": "Rio Sena",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "As Duas Irmãs (Renoir)",
+        "descricao": "Pintura de Pierre-Auguste Renoir, de 1881, que mostra uma jovem e sua irmã menor numa varanda sobre o Sena.",
+        "variantes": [
+          "Duas Irmãs (No Terraço)",
+          "Two Sisters (On the Terrace)",
+          "Les Deux Sœurs",
+          "Sur la terrasse"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato coletivo de seis homens, legível e sem texto que entregue a resposta. A assinatura e a data são discretas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que guilda de Amsterdã eram os homens reunidos neste retrato coletivo holandês do século dezessete?",
+      "resposta": "Guilda dos fabricantes de tecidos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Os Síndicos da Guilda dos Fabricantes de Tecidos (Rembrandt)",
+        "descricao": "Retrato coletivo de Rembrandt, de 1662, com os fiscais de qualidade da guilda de tecidos de Amsterdã, no Rijksmuseum.",
+        "variantes": [
+          "De Staalmeesters",
+          "Os Síndicos dos Drapeiros",
+          "The Syndics of the Drapers' Guild",
+          "Os Amostradores",
+          "Os Síndicos da Corporação dos Fabricantes de Tecidos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro, emblemático, sem texto. A resposta é única.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor inglês do século dezoito pintou este retrato de um menino vestido de azul?",
+      "resposta": "Thomas Gainsborough",
+      "distratores": [
+        "Joshua Reynolds",
+        "George Romney",
+        "William Hogarth"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Garoto Azul (Gainsborough)",
+        "descricao": "Retrato de corpo inteiro de um jovem em traje de cetim azul, pintado por Thomas Gainsborough por volta de 1770 e guardado na Huntington, na Califórnia.",
+        "variantes": [
+          "O Menino Azul",
+          "The Blue Boy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro. A inscrição no braço nomeia o pintor, mas a pergunta é sobre a cidade onde a obra está, então não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica hoje o museu que guarda este retrato renascentista de uma jovem com turbante?",
+      "resposta": "Roma",
+      "distratores": [
+        "Florença",
+        "Veneza",
+        "Milão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "La Fornarina (Rafael)",
+        "descricao": "Retrato de uma jovem seminua com turbante, pintado por Rafael entre 1518 e 1519 e guardado no Palazzo Barberini, em Roma.",
+        "variantes": [
+          "A Fornarina",
+          "Retrato de Jovem Mulher",
+          "La fornarina",
+          "Portrait of a Young Woman"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto. O escorço extremo é a marca da obra e sustenta uma pergunta de nível 3 baseada no trecho.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que técnica de perspectiva, que encurta o corpo deitado, torna famosa esta pintura italiana do século quinze?",
+      "resposta": "Escorço",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+        "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+        "variantes": [
+          "O Cristo Morto",
+          "Lamentation of Christ",
+          "Cristo Morto de Mantegna",
+          "Lamentação de Cristo"
+        ]
+      }
+    }
+  ]
+}

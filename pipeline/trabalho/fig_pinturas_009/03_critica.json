@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Musée d'Orsay; enunciado não nomeia a obra; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bruegel, o Velho, 1559, flamengo; enunciado sem vazamento e distratores corretos como errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'deuses do amor e da guerra' define Vênus e Marte sem olhar a figura. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que casal de deuses romanos aparece reclinado neste quadro renascentista florentino?",
+        "resposta": "Vênus e Marte",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado definia a técnica ('pequenos pontos de cor'), entregando a resposta. Também o trecho fala em divisionismo com pontos pontilhistas, então a resposta aceita os dois nomes.",
+      "reescrita": {
+        "pergunta": "Que técnica de pintura, criada na França no fim do século dezenove, caracteriza este quadro?",
+        "resposta": "Pontilhismo (divisionismo)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Impressionismo é amplamente documentado; enunciado não entrega a resposta e a série é do século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O Sena mal aparece atrás da folhagem, não se reconhece pela figura, e 'rio francês' em cena parisiense leva ao Sena sem olhar a imagem. Não é nível 3.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a guilda dos tecidos de Amsterdã; enunciado não nomeia a guilda.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Menino vestido de azul' praticamente nomeia a obra (O Garoto Azul), o que entrega o pintor sem a figura. Tirar a cor.",
+      "reescrita": {
+        "pergunta": "Que pintor inglês do século dezoito pintou este retrato de corpo inteiro de um jovem?",
+        "resposta": "Thomas Gainsborough",
+        "distratores": [
+          "Joshua Reynolds",
+          "George Romney",
+          "William Hogarth"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho: Palazzo Barberini, Roma. Pergunta sobre a cidade do museu, distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Encurta o corpo deitado' define o escorço (foreshortening) e entrega a resposta. Remover a descrição.",
+      "reescrita": {
+        "pergunta": "Esta pintura italiana do século quinze é famosa pelo modo como representa o corpo central. Que técnica de perspectiva é essa?",
+        "resposta": "Escorço",
+        "distratores": []
+      }
+    }
+  ]
+}

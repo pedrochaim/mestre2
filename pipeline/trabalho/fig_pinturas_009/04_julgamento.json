@@ -1,0 +1,450 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vênus e Marte (Botticelli)",
+        "descricao": "Pintura em painel de Sandro Botticelli, por volta de 1485, com Vênus e Marte reclinados entre pequenos sátiros.",
+        "variantes": [
+          "Marte e Vênus",
+          "Venus and Mars"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_ao_espelho",
+          "nome": "Vênus ao Espelho",
+          "descricao": "Pintura de Diego Velázquez, de cerca de 1647 a 1651, com Vênus nua de costas olhando-se num espelho segurado por Cupido, na National Gallery de Londres.",
+          "variantes": [
+            "Rokeby Venus",
+            "Vênus de Rokeby",
+            "A Toilette de Vênus"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "vinicius_e_tom",
+          "nome": "Vinicius e Tom",
+          "descricao": "Mascotes olímpico e paralímpico dos Jogos Rio 2016.",
+          "variantes": [
+            "Vinicius and Tom"
+          ]
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "atmosfera_de_venus",
+          "nome": "Atmosfera de Vênus",
+          "descricao": "Camada densa de gases, quase toda de gás carbônico, que envolve o planeta Vênus.",
+          "variantes": [
+            "Atmosphere of Venus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Le Chahut (Seurat)",
+        "descricao": "Pintura neoimpressionista de Georges Seurat, de 1889-90, que retrata uma dança de cancã num cabaré parisiense.",
+        "variantes": [
+          "Le Chahut",
+          "O Cancã",
+          "Chahut"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Montes de Feno (Monet)",
+        "descricao": "Série de pinturas impressionistas de Claude Monet, iniciada em 1890, com montes de feno em Giverny sob luzes variadas.",
+        "variantes": [
+          "Les Meules",
+          "Haystacks",
+          "Meules de Feno",
+          "Pilhas de Feno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilha_voltaica",
+          "nome": "Pilha voltaica",
+          "descricao": "Primeira bateria elétrica, feita de discos de metal empilhados e separados por tecido embebido em salmoura, apresentada em 1800.",
+          "variantes": [
+            "Pilha de Volta",
+            "Voltaic pile"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "restos_do_lago_mungo",
+          "nome": "Restos do lago Mungo",
+          "descricao": "Esqueletos humanos de cerca de 40 mil anos, como o Homem de Mungo, achados no lago seco de Mungo, na Austrália.",
+          "variantes": [
+            "Homem de Mungo",
+            "Mulher de Mungo",
+            "Lake Mungo remains"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Os Síndicos da Guilda dos Fabricantes de Tecidos (Rembrandt)",
+        "descricao": "Retrato coletivo de Rembrandt, de 1662, com os fiscais de qualidade da guilda de tecidos de Amsterdã, no Rijksmuseum.",
+        "variantes": [
+          "De Staalmeesters",
+          "Os Síndicos dos Drapeiros",
+          "The Syndics of the Drapers' Guild",
+          "Os Amostradores",
+          "Os Síndicos da Corporação dos Fabricantes de Tecidos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rios_voadores",
+          "nome": "Rios voadores",
+          "descricao": "Correntes de vapor de água que levam a umidade da Amazônia para o centro-sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "dia_dos_namorados_no_brasil",
+          "nome": "Dia dos Namorados no Brasil",
+          "descricao": "Data comemorativa brasileira dos casais, celebrada em 12 de junho.",
+          "variantes": [
+            "Dia dos Namorados"
+          ]
+        },
+        {
+          "id": "os_embaixadores",
+          "nome": "Os Embaixadores",
+          "descricao": "Quadro de Hans Holbein, o Jovem, de 1533.",
+          "variantes": [
+            "The Ambassadors"
+          ]
+        },
+        {
+          "id": "os_comedores_de_batata",
+          "nome": "Os Comedores de Batata",
+          "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+          "variantes": [
+            "The Potato Eaters",
+            "De Aardappeleters"
+          ]
+        },
+        {
+          "id": "o_senhor_dos_aneis",
+          "nome": "O Senhor dos Anéis",
+          "descricao": "Romance de fantasia de J. R. R. Tolkien sobre a jornada para destruir o Um Anel, publicado em três volumes.",
+          "variantes": [
+            "The Lord of the Rings"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "O Garoto Azul (Gainsborough)",
+        "descricao": "Retrato de corpo inteiro de um jovem em traje de cetim azul, pintado por Thomas Gainsborough por volta de 1770 e guardado na Huntington, na Califórnia.",
+        "variantes": [
+          "O Menino Azul",
+          "The Blue Boy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "proverbios_neerlandeses",
+          "nome": "Provérbios Neerlandeses",
+          "descricao": "Pintura a óleo sobre madeira de Pieter Bruegel, o Velho, de 1559, que ilustra literalmente provérbios e expressões neerlandesas.",
+          "variantes": [
+            "Provérbios Flamengos",
+            "O Manto Azul",
+            "O Mundo de Cabeça para Baixo",
+            "Netherlandish Proverbs",
+            "Nederlandse Spreekwoorden"
+          ]
+        },
+        {
+          "id": "the_blue_marble",
+          "nome": "The Blue Marble",
+          "descricao": "Fotografia da Terra tirada em 7 de dezembro de 1972 pela tripulação da Apollo 17.",
+          "variantes": [
+            "A Bolinha Azul (Blue Marble)",
+            "Bolinha Azul",
+            "Blue Marble",
+            "AS17-148-22727"
+          ]
+        },
+        {
+          "id": "danubio_azul",
+          "nome": "Danúbio Azul",
+          "descricao": "Valsa de Johann Strauss Filho, de 1867, cujo título original é An der schönen blauen Donau.",
+          "variantes": [
+            "O Belo Danúbio Azul",
+            "An der schönen blauen Donau",
+            "The Blue Danube"
+          ]
+        },
+        {
+          "id": "o_menino_maluquinho",
+          "nome": "O Menino Maluquinho",
+          "descricao": "Personagem de Ziraldo, criado em livro de 1980 e depois levado aos quadrinhos",
+          "variantes": [
+            "Menino Maluquinho"
+          ]
+        },
+        {
+          "id": "manneken_pis",
+          "nome": "Manneken Pis",
+          "descricao": "Pequena estátua de bronze de um menino urinando numa fonte, símbolo da capital belga.",
+          "variantes": [
+            "Menino Mijão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "La Fornarina (Rafael)",
+        "descricao": "Retrato de uma jovem seminua com turbante, pintado por Rafael entre 1518 e 1519 e guardado no Palazzo Barberini, em Roma.",
+        "variantes": [
+          "A Fornarina",
+          "Retrato de Jovem Mulher",
+          "La fornarina",
+          "Portrait of a Young Woman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_nina",
+          "nome": "La Niña",
+          "descricao": "Fenômeno de resfriamento anormal das águas do Oceano Pacífico equatorial",
+          "variantes": []
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "a_moreninha",
+          "nome": "A Moreninha",
+          "descricao": "Romance romântico publicado em 1844, ambientado na ilha de Paquetá.",
+          "variantes": []
+        },
+        {
+          "id": "we_are_the_world",
+          "nome": "We Are the World",
+          "descricao": "Canção beneficente gravada em 1985 pelo coletivo USA for Africa",
+          "variantes": [
+            "USA for Africa"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+        "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+        "variantes": [
+          "O Cristo Morto",
+          "Lamentation of Christ",
+          "Cristo Morto de Mantegna",
+          "Lamentação de Cristo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "libertacao_de_paris",
+          "nome": "Libertação de Paris",
+          "descricao": "Expulsão das tropas alemãs de Paris pela Resistência Francesa e pelas forças aliadas, em agosto de 1944.",
+          "variantes": [
+            "Liberation of Paris"
+          ]
+        },
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "ladrilhos_de_penrose",
+          "nome": "Ladrilhos de Penrose",
+          "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+          "variantes": [
+            "Penrose tiling",
+            "Pavimentação de Penrose"
+          ]
+        },
+        {
+          "id": "mao_do_morto",
+          "nome": "Mão do morto",
+          "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+          "variantes": [
+            "Dead man's hand"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura de Botticelli distinta das candidatas (Vênus ao Espelho é de Velázquez)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Seurat."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à série de Monet."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Rembrandt."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o quadro de Gainsborough."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o retrato de Rafael."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Mantegna."
+    }
+  ]
+}
