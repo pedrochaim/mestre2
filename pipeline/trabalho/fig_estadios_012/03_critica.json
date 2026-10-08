@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelo trecho (primeiro grupo de rock no Budokan, 1966). Mas \"banda britânica\" somada a \"ginásio de Tóquio\" deixa a resposta chutável sem a figura. Reescrita tira essas pistas.",
+      "reescrita": {
+        "pergunta": "Que banda foi o primeiro grupo de rock a se apresentar neste ginásio?",
+        "resposta": "The Beatles"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Palco principal dos Jogos Olímpicos de 1992\" entrega Barcelona sem olhar a figura, o que viola o teste da imagem coberta. A reescrita remove a pista e mantém a pergunta de lugar com distratores espanhóis.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este estádio?",
+        "resposta": "Barcelona",
+        "distratores": [
+          "Madri",
+          "Sevilha",
+          "Valência"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Koshien fica em Nishinomiya, Japão, conforme os trechos. \"Estádio de beisebol\" não entrega o país. Distratores são países plausíveis de beisebol e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tokyo Dome fica em Bunkyō, Tóquio, conforme os trechos. \"Estádio coberto\" não entrega a cidade nem o nome. Resposta única, enunciado curto.",
+      "reescrita": null
+    }
+  ]
+}

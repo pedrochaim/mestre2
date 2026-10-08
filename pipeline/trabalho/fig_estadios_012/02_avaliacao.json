@@ -1,0 +1,132 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O gramado mostra 'BEARS' escrito na end zone, o que entrega o time e o estádio."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, com o teto dourado e os pilares inclinados. O letreiro em kanji não é legível para o público do jogo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que banda britânica foi o primeiro grupo de rock a tocar neste ginásio de Tóquio?",
+      "resposta": "The Beatles",
+      "destino": 1,
+      "ancora": {
+        "nome": "Nippon Budokan",
+        "descricao": "Ginásio de Tóquio construído para o judô dos Jogos Olímpicos de 1964, também famoso por shows de música.",
+        "variantes": [
+          "Budokan",
+          "Nippon Budōkan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto é um jogo de hóquei com público, 'PARIS 2024' escrito e arquibancadas genéricas. O estádio não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto genérica de jogo de futebol, sem traço que identifique o estádio. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível: estádio com pista, Palau Sant Jordi e torre de telecomunicações ao fundo. Sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio, palco principal dos Jogos Olímpicos de 1992?",
+      "resposta": "Barcelona",
+      "distratores": [
+        "Madri",
+        "Sevilha",
+        "Valência"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Olímpico de Montjuïc",
+        "descricao": "Estádio de Barcelona, na colina de Montjuïc, sede principal dos Jogos Olímpicos de 1992.",
+        "variantes": [
+          "Estádio Olímpico Lluís Companys",
+          "Estadi Olímpic Lluís Companys",
+          "Estadi de Montjuïc"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de um estádio pequeno e genérico, sem traço distintivo. Não dá para reconhecê-lo com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estádio de beisebol com terra no campo interno e arquibancadas lotadas, reconhecível. A faixa de anúncios em japonês não entrega o nome.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este estádio de beisebol?",
+      "resposta": "Japão",
+      "distratores": [
+        "Coreia do Sul",
+        "Estados Unidos",
+        "Taiwan"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Estádio Koshien",
+        "descricao": "Estádio de beisebol em Nishinomiya, no Japão, sede do torneio nacional colegial e casa do Hanshin Tigers.",
+        "variantes": [
+          "Hanshin Koshien Stadium",
+          "Koshien Stadium",
+          "Estádio Hanshin Koshien"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O nome 'Estadio Defensores del Chaco' aparece escrito no alto da arquibancada, e as cores da bandeira do Paraguai ficam nos assentos. O texto entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa 'United Center' está visível na imagem e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Teto inflável branco e em gomos, inconfundível. O único texto é uma marca de patrocinador ao fundo, que não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este estádio coberto?",
+      "resposta": "Tóquio",
+      "destino": 2,
+      "ancora": {
+        "nome": "Tokyo Dome",
+        "descricao": "Estádio coberto de beisebol, com teto inflável, no distrito de Bunkyō, em Tóquio.",
+        "variantes": [
+          "Tōkyō Dōmu",
+          "Domo de Tóquio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A fachada traz 'Estadio BBVA' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto noturna genérica de jogo de futebol, sem traço que identifique o estádio. A resposta não é única."
+    }
+  ]
+}

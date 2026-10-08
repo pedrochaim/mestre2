@@ -432,7 +432,7 @@
       "titulo": "en:Estadi Olímpic Lluís Companys",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Centro Aquático de Londres",
@@ -733,7 +733,7 @@
       "titulo": "en:Tokyo Dome",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Circuito de Spa-Francorchamps",
@@ -971,7 +971,7 @@
       "titulo": "en:Nippon Budokan",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estádio Narendra Modi",
@@ -985,7 +985,7 @@
       "titulo": "en:Koshien Stadium",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Churchill Downs",
@@ -1041,7 +1041,7 @@
       "titulo": "pt:Estádio Aderbal Ramos da Silva",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Rua Javari",
@@ -1116,6 +1116,286 @@
     {
       "nome": "Hungaroring",
       "titulo": "en:Hungaroring",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Gigantinho",
+      "titulo": "pt:Gigantinho",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mineirinho",
+      "titulo": "pt:Mineirinho",
+      "camada": 1,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Ginásio Nilson Nelson",
+      "titulo": "pt:Ginásio Nilson Nelson",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Olímpica do Rio (Jeunesse Arena)",
+      "titulo": "en:Jeunesse Arena",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Parque São Jorge (Fazendinha)",
+      "titulo": "pt:Estádio Alfredo Schürig",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Rei Pelé (Trapichão)",
+      "titulo": "pt:Estádio Rei Pelé",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Presidente Vargas (Fortaleza)",
+      "titulo": "pt:Estádio Presidente Vargas (Fortaleza)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Arena Barueri",
+      "titulo": "pt:Arena Barueri",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Albertão",
+      "titulo": "pt:Estádio Albertão",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "United Center",
+      "titulo": "en:United Center",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "The O2 Arena",
+      "titulo": "en:The O2 Arena",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Soldier Field",
+      "titulo": "en:Soldier Field",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rogers Centre",
+      "titulo": "en:Rogers Centre",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Municipal de Braga",
+      "titulo": "en:Estádio Municipal de Braga",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Benito Villamarín",
+      "titulo": "en:Estadio Benito Villamarín",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Ramón Sánchez Pizjuán",
+      "titulo": "en:Ramón Sánchez Pizjuán Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Artemio Franchi",
+      "titulo": "en:Stadio Artemio Franchi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Luigi Ferraris",
+      "titulo": "en:Stadio Luigi Ferraris",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Veltins-Arena",
+      "titulo": "en:Veltins-Arena",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Internacional de Yokohama",
+      "titulo": "en:International Stadium Yokohama",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio de Saitama",
+      "titulo": "en:Saitama Stadium 2002",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio da Copa do Mundo de Seul",
+      "titulo": "en:Seoul World Cup Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ellis Park",
+      "titulo": "en:Ellis Park Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Jalisco",
+      "titulo": "en:Estadio Jalisco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Accor Arena (Bercy)",
+      "titulo": "en:Accor Arena",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Eden Park",
+      "titulo": "en:Eden Park",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hayward Field",
+      "titulo": "en:Hayward Field",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Defensores del Chaco",
+      "titulo": "en:Estadio Defensores del Chaco",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gran Parque Central",
+      "titulo": "en:Gran Parque Central",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Pedro Bidegain (Nuevo Gasómetro)",
+      "titulo": "en:Estadio Pedro Bidegain",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Monumental David Arellano",
+      "titulo": "en:Estadio Monumental David Arellano",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Atanasio Girardot",
+      "titulo": "en:Estadio Atanasio Girardot",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio BBVA",
+      "titulo": "en:Estadio BBVA",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Olímpico Yves-du-Manoir",
+      "titulo": "en:Stade Olympique Yves-du-Manoir",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Trampolim de Bergisel",
+      "titulo": "en:Bergisel Ski Jump",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Herb Brooks Arena",
+      "titulo": "en:Herb Brooks Arena",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lee Valley VeloPark",
+      "titulo": "en:Lee Valley VeloPark",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Atlanta (Center Parc Stadium)",
+      "titulo": "en:Center Parc Stadium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Crucible Theatre",
+      "titulo": "en:Crucible Theatre",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Oriole Park at Camden Yards",
+      "titulo": "en:Oriole Park at Camden Yards",
       "camada": 3,
       "destino": 2,
       "status": "nova"

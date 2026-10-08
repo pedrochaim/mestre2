@@ -143955,5 +143955,95 @@
       "autor": "Muriloreisb",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q08428",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "nippon_budokan",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que banda foi o primeiro grupo de rock a se apresentar neste ginásio?",
+    "resposta": "The Beatles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nippon_Budokan",
+      "https://pt.wikipedia.org/wiki/Nippon_Budokan"
+    ],
+    "imagem": {
+      "arquivo": "q08428.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_2_Kitanomaru_Chiyoda_Tokyo.jpg",
+      "autor": "Morio",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08429",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_montjuic",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "Barcelona",
+    "distratores": [
+      "Madri",
+      "Sevilha",
+      "Valência"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_Llu%C3%ADs_Companys"
+    ],
+    "imagem": {
+      "arquivo": "q08429.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:BCN-EstadiOlimpic-4860.jpg",
+      "autor": "Amadalvarez",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q08430",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "estadio_koshien",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este estádio de beisebol?",
+    "resposta": "Japão",
+    "distratores": [
+      "Coreia do Sul",
+      "Estados Unidos",
+      "Taiwan"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Koshien_Stadium",
+      "https://pt.wikipedia.org/wiki/Koshien_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q08430.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Summer_Koshien_2009_Final.jpg",
+      "autor": "百楽兎",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08431",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "tokyo_dome",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este estádio coberto?",
+    "resposta": "Tóquio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tokyo_Dome",
+      "https://pt.wikipedia.org/wiki/Tokyo_Dome"
+    ],
+    "imagem": {
+      "arquivo": "q08431.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tokyo_dome.JPG",
+      "autor": "Carpkazu at Japanese Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
