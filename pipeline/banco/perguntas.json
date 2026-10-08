@@ -145167,5 +145167,120 @@
       "autor": "Lemuel Francis Abbott",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q08490",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "bola_de_beisebol",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Numa bola regulamentar, quantas costuras duplas de fio vermelho prendem a capa desta bola?",
+    "resposta": "108",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baseball_%28ball%29",
+      "https://pt.wikipedia.org/wiki/Bola_de_beisebol"
+    ],
+    "imagem": {
+      "arquivo": "q08490.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Baseball_(crop).jpg",
+      "autor": "Tage Olsin",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q08491",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "keirin",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que país surgiu esta modalidade olímpica de ciclismo de pista?",
+    "resposta": "Japão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Keirin",
+      "https://pt.wikipedia.org/wiki/Keirin"
+    ],
+    "imagem": {
+      "arquivo": "q08491.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Derny_leading_the_keirin.jpg",
+      "autor": "...some guy",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q08492",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "barra_fixa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho da ginástica artística masculina é este?",
+    "resposta": "Barra fixa",
+    "distratores": [
+      "Barras paralelas",
+      "Cavalo com alças",
+      "Argolas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Horizontal_bar",
+      "https://pt.wikipedia.org/wiki/Barra_fixa"
+    ],
+    "imagem": {
+      "arquivo": "q08492.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_121-0192,_Berlin,_italienische_Polizeiführer,_Sport.jpg",
+      "autor": "UnknownUnknown",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q08493",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "futebol_de_botao",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de mesa é este?",
+    "resposta": "Futebol de botão",
+    "distratores": [
+      "Pebolim",
+      "Hóquei de mesa",
+      "Tênis de mesa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Futebol_de_bot%C3%A3o",
+      "https://en.wikipedia.org/wiki/Button_football"
+    ],
+    "imagem": {
+      "arquivo": "q08493.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Button_football.jpg",
+      "autor": "Silvio Tanaka",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q08494",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "salto_sobre_a_mesa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prova da ginástica artística é esta?",
+    "resposta": "Salto sobre a mesa",
+    "distratores": [
+      "Barra fixa",
+      "Cavalo com alças",
+      "Argolas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vault_%28gymnastics%29",
+      "https://pt.wikipedia.org/wiki/Mesa_%28gin%C3%A1stica%29"
+    ],
+    "imagem": {
+      "arquivo": "q08494.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2022-04-09_25th_Rheintalcup_2022_P6_Junior_competition_Subdivision_2_Vault_(Martin_Rulsch)_063.jpg",
+      "autor": "Martin Rulsch, Wikimedia Commons",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

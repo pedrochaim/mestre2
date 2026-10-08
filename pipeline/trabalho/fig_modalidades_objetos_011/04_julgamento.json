@@ -1,0 +1,318 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bola de beisebol",
+        "descricao": "Bola branca de couro com costura vermelha usada no esporte beisebol.",
+        "variantes": [
+          "Baseball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball"
+          ]
+        },
+        {
+          "id": "luva_de_beisebol",
+          "nome": "Luva de beisebol",
+          "descricao": "Luva de couro usada para apanhar a bola no beisebol.",
+          "variantes": []
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "beisebol",
+          "nome": "Beisebol",
+          "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+          "variantes": [
+            "Basebol"
+          ]
+        },
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Keirin",
+        "descricao": "Modalidade de ciclismo de pista em que os ciclistas seguem uma moto de ritmo antes de disputar o sprint.",
+        "variantes": [
+          "Keirin ciclismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "bolsa_birkin",
+          "nome": "Bolsa Birkin",
+          "descricao": "Bolsa de couro da Hermès criada para a atriz e cantora Jane Birkin",
+          "variantes": [
+            "Birkin bag",
+            "Birkin"
+          ]
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "ken",
+          "nome": "Ken",
+          "descricao": "Boneco da Mattel lançado em 1961 como namorado da boneca Barbie.",
+          "variantes": [
+            "Ken Carson",
+            "Ken (boneco)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Barra fixa",
+        "descricao": "Aparelho da ginástica artística masculina formado por uma barra de aço horizontal presa por cabos e postes.",
+        "variantes": [
+          "Barra horizontal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "argolas",
+          "nome": "Argolas",
+          "descricao": "Aparelho da ginástica artística masculina com dois anéis suspensos por cabos.",
+          "variantes": [
+            "Argolas fixas"
+          ]
+        },
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "belo_horizonte",
+          "nome": "Belo Horizonte",
+          "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897.",
+          "variantes": [
+            "BH"
+          ]
+        },
+        {
+          "id": "guerra_fria",
+          "nome": "Guerra Fria",
+          "descricao": "Conflito político, militar e ideológico entre Estados Unidos e União Soviética, de 1947 a 1991, sem guerra direta entre eles.",
+          "variantes": [
+            "Cold War"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Futebol de botão",
+        "descricao": "Jogo de mesa que simula uma partida de futebol com botões movidos por uma palheta.",
+        "variantes": [
+          "Futebol de mesa",
+          "Futmesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        },
+        {
+          "id": "futsal",
+          "nome": "Futsal",
+          "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+          "variantes": [
+            "Futebol de salão"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Salto sobre a mesa",
+        "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+        "variantes": [
+          "Salto",
+          "Mesa de salto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "basalto",
+          "nome": "Basalto",
+          "descricao": "Rocha vulcânica escura e de grão fino, formada pelo resfriamento rápido de lava pobre em sílica.",
+          "variantes": [
+            "Basalt"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "pavlova",
+          "nome": "Pavlova",
+          "descricao": "Sobremesa de merengue crocante por fora e macio por dentro, coberta com creme e frutas.",
+          "variantes": [
+            "Pavlova (sobremesa)"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bola de beisebol é um objeto distinto do esporte, da luva, do boné e de outras bolas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Keirin é uma modalidade de ciclismo de pista, diferente do ciclismo de estrada e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Barra fixa é um aparelho distinto das argolas e das outras candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Futebol de botão usa botões e palheta; pebolim usa bonecos em barras. São jogos diferentes, apesar da variante compartilhada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Salto sobre a mesa é prova da ginástica, diferente do hipismo de saltos."
+    }
+  ]
+}

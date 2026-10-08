@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bola de beisebol isolada, nítida, sem texto legível relevante.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Nas regras oficiais, quantos pontos de costura vermelha tem esta bola?",
+      "resposta": "108",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bola de beisebol",
+        "descricao": "Bola branca de couro com costura vermelha usada no esporte beisebol.",
+        "variantes": [
+          "Baseball"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Faixas de patrocínio com texto visível entregam a resposta (Federação Internacional de Futevôlei, Confederação Brasileira de Fute...)."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Corrida de keirin em velódromo com moto de ritmo (derny), distintiva; texto mínimo.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Em que país surgiu esta modalidade olímpica de ciclismo de pista?",
+      "resposta": "Japão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Keirin",
+        "descricao": "Modalidade de ciclismo de pista em que os ciclistas seguem uma moto de ritmo antes de disputar o sprint.",
+        "variantes": [
+          "Keirin ciclismo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Participantes comuns de uma prova amateur em primeiro plano, com números de peito; imagem genérica de ciclismo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica de ginasta na barra fixa, aparelho reconhecível pelos cabos e postes; sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que aparelho da ginástica artística masculina é este?",
+      "resposta": "Barra fixa",
+      "distratores": [
+        "Barras paralelas",
+        "Cavalo com alças",
+        "Argolas"
+      ],
+      "ancora": {
+        "nome": "Barra fixa",
+        "descricao": "Aparelho da ginástica artística masculina formado por uma barra de aço horizontal presa por cabos e postes.",
+        "variantes": [
+          "Barra horizontal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A cena mostra pessoas comuns em treino de kickboxing/boxe, sem elementos que identifiquem a savate; resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Close de botões, palheta e bolinha em campo de feltro; reconhecível e sem texto.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Que jogo de mesa é este?",
+      "resposta": "Futebol de botão",
+      "distratores": [
+        "Pebolim",
+        "Hóquei de mesa",
+        "Tênis de mesa"
+      ],
+      "ancora": {
+        "nome": "Futebol de botão",
+        "descricao": "Jogo de mesa que simula uma partida de futebol com botões movidos por uma palheta.",
+        "variantes": [
+          "Futebol de mesa",
+          "Futmesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ginasta em salto sobre a mesa, aparelho nítido; texto parcial irrelevante.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que prova da ginástica artística é esta?",
+      "resposta": "Salto sobre a mesa",
+      "distratores": [
+        "Barra fixa",
+        "Cavalo com alças",
+        "Argolas"
+      ],
+      "ancora": {
+        "nome": "Salto sobre a mesa",
+        "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+        "variantes": [
+          "Salto",
+          "Mesa de salto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Letreiro 'Borg-Warner Trophy' e gravação no troféu entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Texto visível (molten, FIVB, Soft Touch) entrega o esporte; imagem fácil demais."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Não dá para distinguir o estilo livre de greco-romana ou luta universitária; resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Inscrição 'The Webb Ellis Cup' e lista de campeões legíveis entregam a resposta."
+    }
+  ]
+}
