@@ -1,0 +1,315 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destes filmes foi o primeiro brasileiro indicado ao Oscar de filme em língua estrangeira?",
+        "resposta": "O Pagador de Promessas"
+      },
+      "existentes": [
+        {
+          "id": "q01077",
+          "pergunta": "O filme O Pagador de Promessas, de Anselmo Duarte, foi adaptado da peça de qual dramaturgo baiano?",
+          "resposta": "Dias Gomes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na história do Oscar, qual foi o primeiro filme falado numa língua que não o inglês a levar a estatueta de melhor filme?",
+        "resposta": "Parasita"
+      },
+      "existentes": [
+        {
+          "id": "q04060",
+          "pergunta": "Em que ano foi lançado este filme sul-coreano?",
+          "resposta": "2019"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Orfeu Negro, rodado no Rio, levou o Oscar de filme estrangeiro representando a França. Qual foi o primeiro filme do Brasil a vencer essa categoria?",
+        "resposta": "Ainda Estou Aqui"
+      },
+      "existentes": [
+        {
+          "id": "q01756",
+          "pergunta": "Que atriz ganhou o Globo de Ouro de melhor atriz em filme dramático por este filme?",
+          "resposta": "Fernanda Torres"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Jurassic Park, os cientistas preenchem as falhas no material genético dos dinossauros com o DNA de qual animal?",
+        "resposta": "Sapo"
+      },
+      "existentes": [
+        {
+          "id": "q04835",
+          "pergunta": "Que diretor dirigiu o filme desta cena?",
+          "resposta": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo a frase que a mãe de Forrest Gump repetia, a vida é como uma caixa de quê?",
+        "resposta": "Chocolates"
+      },
+      "existentes": [
+        {
+          "id": "q06857",
+          "pergunta": "Forrest Gump, Pulp Fiction e O Rei Leão chegaram aos cinemas no mesmo ano. Qual?",
+          "resposta": "1994"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em O Mágico de Oz, de 1939, as cenas da fazenda no Kansas não aparecem coloridas. Em que tonalidade elas foram exibidas?",
+        "resposta": "Sépia"
+      },
+      "existentes": [
+        {
+          "id": "q01056",
+          "pergunta": "Por que o ator Buddy Ebsen, o primeiro intérprete do Homem de Lata em O Mágico de Oz, teve de deixar o papel?",
+          "resposta": "Reação ao pó de alumínio da maquiagem"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Náufrago, de 2000, o personagem de Tom Hanks conversa na ilha deserta com Wilson. O que é Wilson?",
+        "resposta": "Uma bola de vôlei"
+      },
+      "existentes": [
+        {
+          "id": "q01717",
+          "pergunta": "No filme Náufrago, por que a bola de vôlei que vira a única companhia de Tom Hanks na ilha se chama Wilson?",
+          "resposta": "É a marca da bola"
+        },
+        {
+          "id": "q01718",
+          "pergunta": "Em Náufrago, o rosto da bola Wilson nasce de uma marca de mão deixada pelo personagem de Tom Hanks. Feita com quê?",
+          "resposta": "Sangue"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em Central do Brasil, como Dora, a personagem de Fernanda Montenegro, ganha a vida na estação de trem?",
+        "resposta": "Escrevendo cartas para analfabetos"
+      },
+      "existentes": [
+        {
+          "id": "q01755",
+          "pergunta": "Em que década foi lançado o filme desta cena?",
+          "resposta": "Anos 1990"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Cada letra de HAL, o computador de 2001: Uma Odisseia no Espaço, vem logo antes no alfabeto das letras de qual sigla de empresa?",
+        "resposta": "IBM"
+      },
+      "existentes": [
+        {
+          "id": "q03447",
+          "pergunta": "No filme 2001, Uma Odisseia no Espaço, trocando cada letra do computador HAL pela seguinte do alfabeto, obtém-se a sigla de qual empresa?",
+          "resposta": "IBM"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome do estúdio japonês Ghibli vem da palavra italiana para um vento quente que sopra de qual deserto africano?",
+        "resposta": "Saara"
+      },
+      "existentes": [
+        {
+          "id": "q01090",
+          "pergunta": "Que personagem, uma enorme criatura peluda da floresta, aparece no logotipo do estúdio japonês Ghibli?",
+          "resposta": "Totoro"
+        },
+        {
+          "id": "q01367",
+          "pergunta": "O nome do Studio Ghibli vem de uma palavra usada pelos italianos para qual fenômeno do deserto do Saara?",
+          "resposta": "Um vento quente"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que atriz brasileira viveu no cinema duas heroínas de Jorge Amado, Dona Flor e Gabriela?",
+        "resposta": "Sônia Braga"
+      },
+      "existentes": [
+        {
+          "id": "q07801",
+          "pergunta": "Quem é esta atriz brasileira?",
+          "resposta": "Sônia Braga"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que ator baiano viveu o Capitão Nascimento no cinema e o traficante colombiano Pablo Escobar na série Narcos?",
+        "resposta": "Wagner Moura"
+      },
+      "existentes": [
+        {
+          "id": "q02772",
+          "pergunta": "Quem é este ator brasileiro?",
+          "resposta": "Wagner Moura"
+        },
+        {
+          "id": "q04897",
+          "pergunta": "O Capitão Nascimento, de Tropa de Elite, e o traficante Pablo Escobar, da série Narcos, foram interpretados por qual ator brasileiro?",
+          "resposta": "Wagner Moura"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Antes de filmar Psicose, Hitchcock mandou comprar o maior número possível de exemplares do romance original. Para quê?",
+        "resposta": "Para manter o final em segredo"
+      },
+      "existentes": [
+        {
+          "id": "q01089",
+          "pergunta": "Na famosa cena do chuveiro de Psicose, filmada em preto e branco, o que Hitchcock usou como sangue?",
+          "resposta": "Calda de chocolate"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Para voltar para casa, no Kansas, quantas vezes Dorothy bate os calcanhares dos sapatinhos de rubi?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q01058",
+          "pergunta": "No livro original, os sapatos mágicos de Dorothy são prateados. Por que viraram vermelhos no filme O Mágico de Oz, de 1939?",
+          "resposta": "Para aproveitar o Technicolor"
+        },
+        {
+          "id": "q07729",
+          "pergunta": "No livro O Mágico de Oz, de 1900, de que cor eram os sapatos mágicos de Dorothy, que ficaram vermelhos no filme de 1939?",
+          "resposta": "Prateados"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "No livro O Iluminado, o quarto assombrado do hotel é o duzentos e dezessete. No filme de Kubrick, que número ele ganhou?",
+        "resposta": "237"
+      },
+      "existentes": [
+        {
+          "id": "q06866",
+          "pergunta": "O Iluminado, de Stanley Kubrick, com Jack Nicholson enlouquecendo num hotel isolado, adapta o livro de qual escritor de terror?",
+          "resposta": "Stephen King"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Indicação ao Oscar vs. autor da peça original."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Primeiro filme não anglófono a vencer vs. ano de lançamento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vencedor da categoria vs. atriz do Globo de Ouro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "DNA de sapo vs. diretor do filme."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Frase da mãe vs. ano de lançamento."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cor das cenas do Kansas vs. saída de Buddy Ebsen."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "O que é Wilson (bola de vôlei) já está contido na pergunta q01717, que menciona a bola de vôlei e a marca.",
+      "id_existente": "q01717"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Profissão de Dora vs. década de lançamento."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: HAL deslocado uma letra resulta em IBM.",
+      "id_existente": "q03447"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome Ghibli: vento quente do Saara.",
+      "id_existente": "q01367"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Identificação por imagem vs. pergunta com pistas de papéis; fatos distintos na dúvida."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Capitão Nascimento e Pablo Escobar.",
+      "id_existente": "q04897"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Compra dos livros vs. sangue na cena do chuveiro."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Número de batidas vs. cor dos sapatos."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Número do quarto vs. autor do livro."
+    }
+  ]
+}

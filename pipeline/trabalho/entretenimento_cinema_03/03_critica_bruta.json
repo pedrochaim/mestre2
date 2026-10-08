@@ -1,0 +1,402 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas duas fontes; distratores críveis e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro filme não falado em inglês a vencer melhor filme; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira sequência a vencer melhor filme, confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Retorno do Rei venceu 11 Oscars, igualando Ben-Hur e Titanic.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bigelow foi a primeira mulher a ganhar melhor direção, por Guerra ao Terror.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ângulo certo é lugar (onde nasceu), não comparacao.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Entre estes intérpretes do agente James Bond no cinema, qual nasceu na Escócia?",
+        "resposta": "Sean Connery",
+        "distratores": [
+          "Roger Moore",
+          "Pierce Brosnan",
+          "Daniel Craig"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sean_Connery"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira animação indicada a melhor filme; distratores nunca foram indicados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ainda Estou Aqui foi o primeiro filme brasileiro a vencer filme internacional.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato óbvio e fraco, com resposta acrescida de ano e ângulo mal classificado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Espantalho quer um cérebro; fato claro e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gimli é o anão da Sociedade; distratores da mesma franquia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Solidariedade é quase sinônimo de fraternidade, podendo ser aceita como correta; trocar o distrator.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Cada filme da Trilogia das Cores, de Kieślowski, liga uma cor da bandeira francesa a um ideal da Revolução. Qual ideal cabe ao vermelho?",
+        "resposta": "Fraternidade",
+        "distratores": [
+          "Liberdade",
+          "Igualdade",
+          "Justiça"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Three_Colours_trilogy",
+          "https://en.wikipedia.org/wiki/Three_Colours:_Red"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três Homens em Conflito encerra a Trilogia dos Dólares.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flecha é o filho super-veloz; fonte em português confirma os filhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nitrato de celulose, inflamável, usado até os anos 1950.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wallace e Gromit são de massinha, em claymation.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A quinta emoção é Nojinho; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O gigante é o Homem de Marshmallow; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Filme usa DNA de sapo/rã para preencher lacunas; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sopa de ervilha no vômito de O Exorcista é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Mangusto é parente próximo do suricato e pode ser defendido como resposta; trocar o distrator.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Em O Rei Leão, Timão, o amigo tagarela do javali Pumba, é que tipo de animal?",
+        "resposta": "Suricato",
+        "distratores": [
+          "Lêmure",
+          "Esquilo",
+          "Doninha"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Timon_and_Pumbaa"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frase famosa do filme, confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cenas do Kansas em sépia, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herbie é um Fusca 1963; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wilson é uma bola de vôlei; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anton Karas tocou cítara; distratores de cordas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dora escreve cartas para analfabetos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "HAL é IBM deslocado uma letra; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pistas de italianos e culinária entregam a resposta; pergunta fácil demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A âncora é o filme, mas o fato é sobre a ave; fato fraco e fonte em inglês inexistente.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ghibli vem do vento quente do Saara; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os dois zeros indicam licença para matar; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lucas reconheceu a influência em Star Wars; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambas as peças são de Tennessee Williams.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sônia Braga fez Dona Flor e Gabriela no cinema.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wagner Moura, baiano, fez Capitão Nascimento e Escobar.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A comparação com Hamlet é citada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os Oscars foram entregues aos nomes de fachada na época, então 'ganhou' é impreciso; reformular.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos anos cinquenta, o roteirista Dalton Trumbo escrevia filmes sob pseudônimos e nomes de fachada. Por que precisava esconder o próprio nome?",
+        "resposta": "Estava na lista negra de Hollywood",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Dalton_Trumbo"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pausa de um ano foi para Hanks emagrecer e mudar o visual; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A justificativa vem de trecho marcado como sem fonte e o título do filme entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hitchcock mandou comprar as cópias para guardar o final em segredo.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinecittà fica em Roma; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filmado nas ilhas gregas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nollywood designa o cinema nigeriano.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dorothy bate os calcanhares três vezes; fato famoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A aposta dos cinquenta ovos é confirmada pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarto 217 virou 237 no filme; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A história se passa em dezembro de 1941.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grace Kelly deixou o cinema para casar com Rainier em 1956.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Collor extinguiu a Embrafilme em março de 1990.",
+      "reescrita": null
+    }
+  ]
+}
