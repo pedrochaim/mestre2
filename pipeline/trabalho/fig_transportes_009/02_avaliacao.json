@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra o Santana chinês de sexta geração (hatch, placa chinesa, logo VW visível), parecido com Gol, Polo e Gran Santana. Não dá resposta única nem reconhecimento justo, e a pergunta de autoria seria entregue pelo logotipo."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, sem texto que entregue o arquiteto. A placa do museu não revela a resposta e as pessoas são incidentais e distantes.",
+      "tipo": "aberta",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "pergunta": "Que arquiteto britânico projetou esta estação ferroviária paulistana, construída entre 1895 e 1901?",
+      "resposta": "Charles Henry Driver",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+        "variantes": [
+          "Luz Station",
+          "Estação Luz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Um bonde verde cercado de mata não é reconhecível como o Peak Tram, e pode ser confundido com outros funiculares. Há também passageiros comuns visíveis nas janelas."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A imagem mostra o Volkswagen 1600 de quatro portas, o Zé do Caixão brasileiro, e não a Variant. Ancorei no que aparece. A placa brasileira não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que década este sedã Volkswagen de quatro portas começou a ser fabricado no Brasil?",
+      "resposta": "Década de 1960 (lançado em 1968)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volkswagen 1600 (Zé do Caixão)",
+        "descricao": "Sedã de quatro portas da Volkswagen com motor traseiro refrigerado a ar, lançado no Brasil em 1968 e baseado na mecânica do Fusca.",
+        "variantes": [
+          "Volkswagen 1600 sedã",
+          "Zé do Caixão",
+          "VW 1600"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A foto mostra uma skatista em primeiro plano, com a marca do shape visível. A pergunta de autoria sobre o skate não tem resposta única, e a imagem trata de uma pessoa específica."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A aeronave é um T-6 Texan pintado como Zero, com a marcação AI-115. Não é um A6M real, então a imagem não sustenta a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "O Checker é reconhecível pela grade, pelos faróis duplos e pelo emblema alado. O único texto, a placa de Maryland, não entrega o modelo. Em múltipla escolha, a pergunta fica justa para um modelo de aficionado.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que modelo de carro americano é este?",
+      "resposta": "Checker Marathon",
+      "distratores": [
+        "Ford Crown Victoria",
+        "Chevrolet Impala",
+        "Plymouth Fury"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Checker Marathon",
+        "descricao": "Automóvel produzido pela Checker Motors, de Kalamazoo, entre 1960 e 1982, famoso como táxi americano.",
+        "variantes": [
+          "Checker A11",
+          "Checker Cab",
+          "táxi amarelo de Nova York"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara do New Beetle, com a placa borrada e sem texto que entregue o ano. O modelo se distingue do Fusca original.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que ano a Volkswagen lançou este modelo, inspirado no desenho do Fusca?",
+      "resposta": "1998",
+      "distratores": [
+        "1994",
+        "2001",
+        "2004"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volkswagen New Beetle",
+        "descricao": "Carro compacto da Volkswagen de motor dianteiro, lançado em 1998 e inspirado no desenho do Fusca.",
+        "variantes": [
+          "New Beetle",
+          "VW New Beetle",
+          "Novo Fusca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mistura um bonde vermelho turístico, um elétrico moderno amarelo, o Arco da Rua Augusta e muita gente, tudo com texto visível (Carris, yellow bus). Falta um assunto único e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de dois aviões sobre a Amazônia. O texto 'Força Aérea Brasileira' não revela o modelo, e a múltipla separa o Super Tucano do Tucano e de turboélices parecidos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que avião de ataque leve é este?",
+      "resposta": "Embraer Super Tucano",
+      "distratores": [
+        "Embraer Tucano",
+        "Pilatus PC-9",
+        "Beechcraft T-6 Texan II"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Embraer Super Tucano",
+        "descricao": "Avião turboélice brasileiro de ataque leve e contrainsurgência da Embraer, também chamado A-29.",
+        "variantes": [
+          "EMB 314 Super Tucano",
+          "A-29",
+          "ALX",
+          "Embraer EMB-314"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A frente do Camaro RS, em ótima foto e sem texto que dê o nome do modelo. O emblema RS e a gravata Chevrolet não entregam o Camaro.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que modelo de carro esportivo americano é este?",
+      "resposta": "Chevrolet Camaro",
+      "distratores": [
+        "Ford Mustang",
+        "Dodge Challenger",
+        "Pontiac Firebird"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chevrolet Camaro",
+        "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+        "variantes": [
+          "Camaro",
+          "Camaro RS"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Helicóptero Huey de perfil, com silhueta característica (rotor de duas pás, patins, cabine). A foto é nítida e não há texto que entregue a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que helicóptero militar americano de dois rotores de pás, muito usado no Vietnã, é este?",
+      "resposta": "Bell UH-1 Iroquois (Huey)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bell UH-1 Iroquois",
+        "descricao": "Helicóptero militar utilitário da Bell Helicopter, apelidado Huey, primeiro helicóptero a turbina em serviço nos Estados Unidos.",
+        "variantes": [
+          "Huey",
+          "UH-1 Huey",
+          "Bell UH-1",
+          "Bell 204",
+          "Bell 205"
+        ]
+      }
+    }
+  ]
+}

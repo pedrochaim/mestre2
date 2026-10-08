@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Datas, nacionalidade e autoria confirmadas pelos trechos. O enunciado não nomeia a estação nem o arquiteto, e é preciso reconhecer qual estação paulistana aparece.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta pela década é fraca: o TL de quatro portas veio em 1970, então \"sedã de quatro portas\" deixa a época ambígua. Para o nível 1, o melhor é pedir o reconhecimento do modelo, com a época como pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que sedã da Volkswagen, de quatro portas e motor traseiro, lançado no Brasil em 1968, é este?",
+        "resposta": "Volkswagen 1600 (Zé do Caixão)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Os distratores são sedãs americanos críveis, do mesmo tipo e com no máximo 4 palavras. Nenhum deles descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O ano de lançamento é ambíguo: a Wikipédia em português diz 1997, e o trecho em inglês diz que foi lançado em 1997 para o ano-modelo 1998. Como \"1997\" também é defensável, a resposta única fica comprometida. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Beechcraft T-6 Texan II tem a versão de ataque leve AT-6, então o distrator é defensável. O Pilatus PC-9 e o Tucano são treinadores, mas o AT-6 compromete a resposta única. Troquei o distrator por um treinador turboélice parecido.",
+      "reescrita": {
+        "pergunta": "Que avião de ataque leve é este?",
+        "resposta": "Embraer Super Tucano",
+        "distratores": [
+          "Embraer Tucano",
+          "Pilatus PC-9",
+          "Pilatus PC-7"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um pony car americano. Os distratores são rivais críveis e do mesmo tipo. Nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Dois rotores de pás\" é impreciso: o UH-1 tem um rotor principal de duas pás, e a expressão sugere dois rotores. Além disso, o conjunto de pistas permite adivinhar o Huey sem a figura. Reescrevi com pistas que ajudam sem entregar (fabricante, país, Guerra do Vietnã).",
+      "reescrita": {
+        "pergunta": "Que helicóptero militar da Bell, usado pelos Estados Unidos na Guerra do Vietnã, é este?",
+        "resposta": "Bell UH-1 Iroquois (Huey)",
+        "distratores": []
+      }
+    }
+  ]
+}

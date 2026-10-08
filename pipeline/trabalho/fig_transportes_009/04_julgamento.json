@@ -1,0 +1,402 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+        "variantes": [
+          "Luz Station",
+          "Estação Luz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "refracao",
+          "nome": "Refração",
+          "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+          "variantes": [
+            "Refração da luz",
+            "Refraction"
+          ]
+        },
+        {
+          "id": "via_sacra",
+          "nome": "Via-Sacra",
+          "descricao": "Devoção cristã que percorre as etapas do caminho de Jesus até a crucificação",
+          "variantes": [
+            "Via Crucis",
+            "Estações da Cruz"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Volkswagen 1600 (Zé do Caixão)",
+        "descricao": "Sedã de quatro portas da Volkswagen com motor traseiro refrigerado a ar, lançado no Brasil em 1968 e baseado na mecânica do Fusca.",
+        "variantes": [
+          "Volkswagen Variant",
+          "Volkswagen 1600 sedã",
+          "Zé do Caixão",
+          "VW 1600"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_passat",
+          "nome": "Volkswagen Passat",
+          "descricao": "Modelo de automóvel da Volkswagen lançado em 1973",
+          "variantes": [
+            "Passat"
+          ]
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        },
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "luiz_gonzaga",
+          "nome": "Luiz Gonzaga",
+          "descricao": "Sanfoneiro, cantor e compositor pernambucano, chamado de Rei do Baião.",
+          "variantes": [
+            "Gonzagão",
+            "Rei do Baião"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Checker Marathon",
+        "descricao": "Automóvel produzido pela Checker Motors, de Kalamazoo, entre 1960 e 1982, famoso como táxi americano.",
+        "variantes": [
+          "Checker Marathon (táxi amarelo de Nova York)",
+          "Checker A11",
+          "Checker Cab",
+          "táxi amarelo de Nova York"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        },
+        {
+          "id": "xeque_xadrez",
+          "nome": "Xeque (xadrez)",
+          "descricao": "Situação do xadrez em que o rei está ameaçado de captura por uma peça adversária.",
+          "variantes": [
+            "Check"
+          ]
+        },
+        {
+          "id": "macarrao_instantaneo",
+          "nome": "Macarrão instantâneo",
+          "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen.",
+          "variantes": [
+            "Miojo",
+            "Lámen instantâneo",
+            "Instant noodles",
+            "Chicken Ramen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Embraer Super Tucano",
+        "descricao": "Avião turboélice brasileiro de ataque leve e contrainsurgência da Embraer, também chamado A-29.",
+        "variantes": [
+          "EMB 314 Super Tucano",
+          "A-29",
+          "ALX",
+          "Embraer EMB-314"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aluminio",
+          "nome": "Alumínio",
+          "descricao": "Elemento químico de número atômico 13, metal leve e prateado, o mais abundante da crosta terrestre.",
+          "variantes": [
+            "Al"
+          ]
+        },
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "fax",
+          "nome": "Fax",
+          "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+          "variantes": [
+            "Fac-símile",
+            "Telefax"
+          ]
+        },
+        {
+          "id": "academia_brasileira_de_letras",
+          "nome": "Academia Brasileira de Letras",
+          "descricao": "Instituição fundada no Rio de Janeiro em 1897 para cultivar a língua e a literatura nacionais",
+          "variantes": [
+            "ABL"
+          ]
+        },
+        {
+          "id": "saxofone",
+          "nome": "Saxofone",
+          "descricao": "Instrumento de sopro de metal com palheta simples, inventado pelo belga Adolphe Sax na década de 1840.",
+          "variantes": [
+            "Sax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Chevrolet Camaro",
+        "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+        "variantes": [
+          "Camaro",
+          "Camaro RS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camarao",
+          "nome": "Camarão",
+          "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+          "variantes": [
+            "Camarões"
+          ]
+        },
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bell UH-1 Iroquois",
+        "descricao": "Helicóptero militar utilitário da Bell Helicopter, apelidado Huey, primeiro helicóptero a turbina em serviço nos Estados Unidos.",
+        "variantes": [
+          "Helicóptero Bell UH-1 Huey",
+          "Huey",
+          "UH-1 Huey",
+          "Bell UH-1",
+          "Bell 204",
+          "Bell 205"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bell_x_1",
+          "nome": "Bell X-1",
+          "descricao": "Avião-foguete americano com o qual Chuck Yeager superou a velocidade do som em voo nivelado em 1947.",
+          "variantes": [
+            "X-1",
+            "Glamorous Glennis"
+          ]
+        },
+        {
+          "id": "cometa_67p_churyumov_gerasimenko",
+          "nome": "Cometa 67P/Churyumov-Gerasimenko",
+          "descricao": "Cometa da família de Júpiter, de núcleo bilobado, visitado pela sonda Rosetta da ESA.",
+          "variantes": [
+            "67P",
+            "Chury",
+            "67P/C-G",
+            "Churyumov-Gerasimenko"
+          ]
+        },
+        {
+          "id": "thomas_henry_huxley",
+          "nome": "Thomas Henry Huxley",
+          "descricao": "Biólogo inglês do século dezenove, grande defensor público da teoria da evolução de Darwin.",
+          "variantes": [
+            "Thomas Huxley",
+            "T. H. Huxley"
+          ]
+        },
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estação ferroviária de São Paulo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O sedã VW 1600 é um modelo distinto do Fusca, Brasília, Kombi e Passat."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o automóvel Checker Marathon."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a aeronave Super Tucano."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Chevrolet Camaro. O Opala é outro modelo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o helicóptero Bell UH-1. O Bell X-1 é outra aeronave."
+    }
+  ]
+}
