@@ -1,0 +1,623 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "O Absinto",
+        "descricao": "Pintura de Edgar Degas de 1875-1876, também chamada Num Café, que mostra uma mulher e um homem sentados num café parisiense.",
+        "variantes": [
+          "O Absinto (Degas)",
+          "L'Absinthe",
+          "Num Café",
+          "Dans un Café",
+          "The Absinthe Drinker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "comigo_ninguem_pode",
+          "nome": "Comigo-ninguém-pode",
+          "descricao": "Planta ornamental tóxica do gênero Dieffenbachia",
+          "variantes": [
+            "Dieffenbachia",
+            "dumb cane",
+            "aninga-do-pará"
+          ]
+        },
+        {
+          "id": "bico_de_bunsen",
+          "nome": "Bico de Bunsen",
+          "descricao": "Queimador a gás de laboratório, de chama aberta única, usado para aquecer, esterilizar e fazer combustão.",
+          "variantes": [
+            "Bunsen burner",
+            "Bico de gás"
+          ]
+        },
+        {
+          "id": "o_nascimento_de_venus",
+          "nome": "O Nascimento de Vênus",
+          "descricao": "Pintura de Sandro Botticelli, de cerca de 1485.",
+          "variantes": [
+            "The Birth of Venus",
+            "Nascita di Venere"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica",
+            "Café"
+          ]
+        },
+        {
+          "id": "rio_tinto",
+          "nome": "Rio Tinto",
+          "descricao": "Rio do sudoeste da Espanha, na Andaluzia, de águas ácidas e avermelhadas.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Parlamento de Londres",
+        "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+        "variantes": [
+          "O Parlamento de Londres (Monet)",
+          "Houses of Parliament",
+          "Parlamento de Londres, Efeito de Neblina",
+          "Palácio de Westminster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abadia_de_westminster",
+          "nome": "Abadia de Westminster",
+          "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+          "variantes": [
+            "Westminster Abbey"
+          ]
+        },
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube",
+            "Metropolitan Railway",
+            "Tube"
+          ]
+        },
+        {
+          "id": "mapa_do_metro_de_londres",
+          "nome": "Mapa do metrô de Londres",
+          "descricao": "Diagrama esquemático das linhas do metrô de Londres, criado por Harry Beck e publicado em 1933.",
+          "variantes": [
+            "Tube map",
+            "Mapa de Harry Beck"
+          ]
+        },
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        },
+        {
+          "id": "torre_de_londres",
+          "nome": "Torre de Londres",
+          "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa.",
+          "variantes": [
+            "Tower of London"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "A Cesta de Maçãs",
+        "descricao": "Natureza-morta a óleo de Paul Cézanne, c. 1893, com uma cesta de maçãs, uma garrafa e biscoitos sobre uma mesa, no Art Institute of Chicago.",
+        "variantes": [
+          "A Cesta de Maçãs (Cézanne)",
+          "Le panier de pommes",
+          "The Basket of Apples",
+          "A Cesta de Maçãs de Cézanne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesta_de_frutas",
+          "nome": "Cesta de Frutas",
+          "descricao": "Natureza-morta de Caravaggio, c. 1599, na Biblioteca Ambrosiana.",
+          "variantes": [
+            "Cesta de Frutas (Caravaggio)",
+            "Canestra di frutta",
+            "Basket of Fruit"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene"
+          ]
+        },
+        {
+          "id": "lacoste",
+          "nome": "Lacoste",
+          "descricao": "Marca francesa de roupas fundada em 1933 pelo tenista René Lacoste, famosa pela camisa polo.",
+          "variantes": [
+            "La Chemise Lacoste",
+            "Lacoste (marca)"
+          ]
+        },
+        {
+          "id": "festa_de_iemanja",
+          "nome": "Festa de Iemanjá",
+          "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+          "variantes": [
+            "Dois de Fevereiro",
+            "Festa do Rio Vermelho"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "A Visão Após o Sermão",
+        "descricao": "Pintura a óleo de Paul Gauguin de 1888, feita em Pont-Aven, em que mulheres bretãs veem Jacó lutar com o anjo.",
+        "variantes": [
+          "A Visão Após o Sermão (Gauguin)",
+          "Vision after the Sermon",
+          "Jacó lutando com o anjo",
+          "A Visão depois do Sermão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "extincao_do_permiano_triassico",
+          "nome": "Extinção do Permiano-Triássico",
+          "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida.",
+          "variantes": [
+            "Grande Morte",
+            "Great Dying",
+            "Extinção do fim do Permiano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "A Dança",
+        "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+        "variantes": [
+          "A Dança (Matisse)",
+          "La Danse",
+          "Dance",
+          "A Dança de Matisse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dante_alighieri",
+          "nome": "Dante Alighieri",
+          "descricao": "Poeta florentino, autor da Divina Comédia.",
+          "variantes": [
+            "Dante"
+          ]
+        },
+        {
+          "id": "danae_klimt",
+          "nome": "Dânae (Klimt)",
+          "descricao": "Pintura simbolista de 1907 de Gustav Klimt que retrata Dânae adormecida sob a chuva de ouro.",
+          "variantes": [
+            "Danaë",
+            "Danae"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "A Vinha Vermelha",
+        "descricao": "Pintura a óleo de Vincent van Gogh de novembro de 1888 que mostra trabalhadores numa vinha perto de Arles, ao pôr do sol.",
+        "variantes": [
+          "A Vinha Vermelha (Van Gogh)",
+          "A Vinha Encarnada",
+          "The Red Vineyard",
+          "Les Vignes rouges"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "faixa_vermelha_do_jiu_jitsu",
+          "nome": "Faixa vermelha do jiu-jítsu",
+          "descricao": "Faixa mais alta do sistema de graduação do jiu-jítsu brasileiro, reservada aos grandes mestres.",
+          "variantes": [
+            "Faixa vermelha"
+          ]
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "praca_vermelha",
+          "nome": "Praça Vermelha",
+          "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+          "variantes": [
+            "Krasnaya Ploshchad",
+            "Red Square"
+          ]
+        },
+        {
+          "id": "lanterna_vermelha",
+          "nome": "Lanterna vermelha",
+          "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+          "variantes": [
+            "Lanterne rouge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "O Banho Turco",
+        "descricao": "Pintura circular a óleo de Ingres, finalizada em 1862, que mostra mulheres nuas num banho de harém.",
+        "variantes": [
+          "O Banho Turco (Ingres)",
+          "Le Bain turc",
+          "The Turkish Bath",
+          "Banho Turco de Ingres"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_beijo_rodin",
+          "nome": "O Beijo (Rodin)",
+          "descricao": "Escultura de um casal nu abraçado, feita por Auguste Rodin em 1882.",
+          "variantes": [
+            "Le Baiser",
+            "The Kiss"
+          ]
+        },
+        {
+          "id": "o_turco_automato",
+          "nome": "O Turco (autômato)",
+          "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América.",
+          "variantes": [
+            "Turco Mecânico",
+            "Mechanical Turk",
+            "The Turk"
+          ]
+        },
+        {
+          "id": "o_cafe_noturno",
+          "nome": "O Café Noturno",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+          "variantes": [
+            "O Café à Noite",
+            "The Night Café",
+            "Le Café de nuit"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "largada_estilo_le_mans",
+          "nome": "Largada estilo Le Mans",
+          "descricao": "Antigo tipo de largada, usado nas 24 Horas de Le Mans até 1969, em que os carros ficavam parados de um lado da pista e os pilotos do outro.",
+          "variantes": [
+            "Le Mans start"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "A Nau dos Loucos",
+        "descricao": "Painel de Hieronymus Bosch, c. 1490-1500, fragmento de um tríptico, que mostra um barco com figuras a comer, beber e cantar, no Louvre.",
+        "variantes": [
+          "A Nau dos Loucos (Bosch)",
+          "Ship of Fools",
+          "Navio dos Loucos",
+          "A Nau dos Insensatos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mate_do_louco",
+          "nome": "Mate do louco",
+          "descricao": "Sequência de abertura que leva ao xeque-mate mais rápido possível no xadrez, aplicado pelas pretas.",
+          "variantes": [
+            "Fool's mate"
+          ]
+        },
+        {
+          "id": "lagoa_dos_patos",
+          "nome": "Lagoa dos Patos",
+          "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+          "variantes": [
+            "Laguna dos Patos"
+          ]
+        },
+        {
+          "id": "a_ilha_dos_mortos",
+          "nome": "A Ilha dos Mortos",
+          "descricao": "Pintura simbolista de Arnold Böcklin, em várias versões entre 1880 e 1901.",
+          "variantes": [
+            "Die Toteninsel",
+            "Island of the Dead"
+          ]
+        },
+        {
+          "id": "jurassic_park_romance",
+          "nome": "Jurassic Park (romance)",
+          "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+          "variantes": [
+            "Parque dos Dinossauros",
+            "Jurassic Park"
+          ]
+        },
+        {
+          "id": "pan_de_muerto",
+          "nome": "Pan de muerto",
+          "descricao": "Pão doce mexicano preparado para o Dia dos Mortos, enfeitado com tiras de massa.",
+          "variantes": [
+            "Pão dos mortos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "O Mar de Gelo",
+        "descricao": "Pintura a óleo de Caspar David Friedrich de 1823-1824 que mostra um navio naufragado entre blocos de gelo no Ártico.",
+        "variantes": [
+          "Das Eismeer",
+          "The Sea of Ice",
+          "O Naufrágio da Esperança",
+          "O Mar Glacial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        },
+        {
+          "id": "teoria_das_eras_glaciais",
+          "nome": "Teoria das eras glaciais",
+          "descricao": "Ideia, consolidada no século dezenove, de que grandes geleiras já cobriram extensas áreas da Terra no passado.",
+          "variantes": [
+            "Teoria glacial",
+            "Ice age theory"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "A Maja Vestida",
+        "descricao": "Pintura a óleo de Francisco de Goya, de 1800-1807, que mostra uma mulher vestida reclinada num divã, versão vestida da Maja nua.",
+        "variantes": [
+          "La maja vestida",
+          "The Clothed Maja",
+          "Maja Vestida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_maja_desnuda",
+          "nome": "A Maja Desnuda",
+          "descricao": "Pintura a óleo de Francisco Goya, de cerca de 1797–1800, de uma mulher nua reclinada; está no Museu do Prado, em Madri.",
+          "variantes": [
+            "La maja desnuda",
+            "A Maja Nua",
+            "The Naked Maja"
+          ]
+        },
+        {
+          "id": "o_terceiro_homem",
+          "nome": "O Terceiro Homem",
+          "descricao": "Filme britânico de 1949 dirigido por Carol Reed, ambientado na Viena do pós-guerra, com Orson Welles.",
+          "variantes": [
+            "The Third Man"
+          ]
+        },
+        {
+          "id": "papagaio_verdadeiro",
+          "nome": "Papagaio-verdadeiro",
+          "descricao": "Papagaio sul-americano (Amazona aestiva) de testa azul e face amarela, muito criado como animal de estimação.",
+          "variantes": [
+            "Amazona aestiva",
+            "Blue-fronted amazon",
+            "Papagaio-de-testa-azul"
+          ]
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica"
+          ]
+        },
+        {
+          "id": "ajax",
+          "nome": "Ajax",
+          "descricao": "AFC Ajax, clube de futebol de Amsterdã, na Holanda, fundado em 1900.",
+          "variantes": [
+            "AFC Ajax",
+            "Ajax de Amsterdã"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Degas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Série de Monet difere de qualquer candidata; Abadia de Westminster é outra entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cézanne, não Caravaggio; obras distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Matisse."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A Maja Vestida é obra distinta da Maja Desnuda."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista (italiano, Renascimento) não entrega o nome; trechos confirmam a autoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Musée d'Orsay; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A série de Monet é famosa pela névoa sobre Westminster; o enunciado não nomeia a entidade e os distratores são errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrever frutas, garrafa e pano sobre uma mesa entrega 'natureza-morta' sem olhar a figura. Tirei a descrição do conteúdo.",
+      "reescrita": {
+        "pergunta": "Este quadro de Paul Cézanne, pintado por volta de mil oitocentos e noventa e três, pertence a que gênero de pintura?",
+        "resposta": "Natureza-morta"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado reproduz o título e a cena (visão após o sermão), então a figura vira enfeite. No nível 3 o enunciado não deve descrever o assunto.",
+      "reescrita": {
+        "pergunta": "Este quadro de Paul Gauguin, pintado na Bretanha em mil oitocentos e oitenta e oito, representa que episódio bíblico?",
+        "resposta": "Jacó lutando com o anjo"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que esta versão fica no Hermitage, em São Petersburgo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Ingres e o tema do harém. O formato circular é verdadeiro (tondo).",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Bosch confirmada; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Friedrich confirmada; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Abstrato de linhas e quadrados coloridos' mais 'Nova York' descreve o estilo de Mondrian, então dá para responder com a imagem coberta. Troquei por pista de nacionalidade e época.",
+      "reescrita": {
+        "pergunta": "Que pintor holandês, radicado em Nova York desde mil novecentos e quarenta, pintou este quadro em mil novecentos e quarenta e três?",
+        "resposta": "Piet Mondrian"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Museu do Prado, em Madrid, e a autoria de Goya.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra reconhecível de Leonardo.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor italiano do Renascimento fez este quadro?",
+      "resposta": "Leonardo da Vinci",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Virgem e o Menino com Santa Ana",
+        "descricao": "Pintura a óleo inacabada de Leonardo da Vinci que mostra Santa Ana, a Virgem Maria e o Menino Jesus com um cordeiro, no Louvre.",
+        "variantes": [
+          "Santa Ana, a Virgem e o Menino",
+          "The Virgin and Child with Saint Anne"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura minúscula não entrega a resposta da pergunta sobre o museu.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris fica este quadro?",
+      "resposta": "Museu d'Orsay",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu da Orangerie",
+        "Centro Pompidou"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Absinto",
+        "descricao": "Pintura de Edgar Degas de 1875-1876, também chamada Num Café, que mostra uma mulher e um homem sentados num café parisiense.",
+        "variantes": [
+          "L'Absinthe",
+          "Num Café",
+          "Dans un Café",
+          "The Absinthe Drinker"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta gótica reconhecível; a assinatura de Monet não entrega o edifício. Múltipla pela névoa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício histórico aparece envolto em névoa nesta pintura impressionista?",
+      "resposta": "Parlamento de Londres",
+      "distratores": [
+        "Catedral de Rouen",
+        "Notre-Dame de Paris",
+        "Catedral de Milão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Parlamento de Londres",
+        "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+        "variantes": [
+          "Houses of Parliament",
+          "Parlamento de Londres, Efeito de Neblina",
+          "Palácio de Westminster"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura não entrega o gênero perguntado.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que gênero de pintura é este, com frutas, uma garrafa e um pano sobre uma mesa?",
+      "resposta": "Natureza-morta",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Cesta de Maçãs",
+        "descricao": "Natureza-morta a óleo de Paul Cézanne, c. 1893, com uma cesta de maçãs, uma garrafa e biscoitos sobre uma mesa, no Art Institute of Chicago.",
+        "variantes": [
+          "Le panier de pommes",
+          "The Basket of Apples",
+          "A Cesta de Maçãs de Cézanne"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; o enunciado não nomeia a cena.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que episódio bíblico as mulheres bretãs imaginam, em visão, depois do sermão neste quadro?",
+      "resposta": "Jacó lutando com o anjo",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Visão Após o Sermão",
+        "descricao": "Pintura a óleo de Paul Gauguin de 1888, feita em Pont-Aven, em que mulheres bretãs veem Jacó lutar com o anjo.",
+        "variantes": [
+          "Vision after the Sermon",
+          "Jacó lutando com o anjo",
+          "A Visão depois do Sermão"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem muito reconhecível; assinatura pequena não entrega a cidade perguntada.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade russa fica o museu que guarda esta pintura?",
+      "resposta": "São Petersburgo",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Dança",
+        "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+        "variantes": [
+          "La Danse",
+          "Dance",
+          "A Dança de Matisse"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; estilo de Van Gogh, com pós-impressionistas como distratores.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro de trabalhadores numa vinha ao pôr do sol?",
+      "resposta": "Vincent van Gogh",
+      "distratores": [
+        "Paul Gauguin",
+        "Paul Cézanne",
+        "Paul Signac"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Vinha Vermelha",
+        "descricao": "Pintura a óleo de Vincent van Gogh de novembro de 1888 que mostra trabalhadores numa vinha perto de Arles, ao pôr do sol.",
+        "variantes": [
+          "A Vinha Encarnada",
+          "The Red Vineyard",
+          "Les Vignes rouges"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tondo característico, sem texto; obra histórica em domínio público. Distratores orientalistas.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro circular de mulheres num banho de harém?",
+      "resposta": "Jean-Auguste-Dominique Ingres",
+      "distratores": [
+        "Eugène Delacroix",
+        "Jean-Léon Gérôme",
+        "William Bouguereau"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Banho Turco",
+        "descricao": "Pintura circular a óleo de Ingres, finalizada em 1862, que mostra mulheres nuas num banho de harém.",
+        "variantes": [
+          "Le Bain turc",
+          "The Turkish Bath",
+          "Banho Turco de Ingres"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; cena bosquiana única.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro de um barco com figuras bebendo e cantando?",
+      "resposta": "Hieronymus Bosch",
+      "distratores": [
+        "Pieter Bruegel",
+        "Jan van Eyck",
+        "Albrecht Dürer"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Nau dos Loucos",
+        "descricao": "Painel de Hieronymus Bosch, c. 1490-1500, fragmento de um tríptico, que mostra um barco com figuras a comer, beber e cantar, no Louvre.",
+        "variantes": [
+          "Ship of Fools",
+          "Navio dos Loucos",
+          "A Nau dos Insensatos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; composição única de Friedrich, com distratores paisagistas.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou esta paisagem de blocos de gelo e um navio naufragado?",
+      "resposta": "Caspar David Friedrich",
+      "distratores": [
+        "J. M. W. Turner",
+        "John Constable",
+        "Johan Christian Dahl"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Mar de Gelo",
+        "descricao": "Pintura a óleo de Caspar David Friedrich de 1823-1824 que mostra um navio naufragado entre blocos de gelo no Ártico.",
+        "variantes": [
+          "Das Eismeer",
+          "The Sea of Ice",
+          "O Naufrágio da Esperança",
+          "O Mar Glacial"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra abstrata inconfundível, sem texto legível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem pintou este quadro abstrato de linhas e quadrados coloridos, inspirado em Nova York?",
+      "resposta": "Piet Mondrian",
+      "destino": 0,
+      "ancora": {
+        "nome": "Broadway Boogie-Woogie",
+        "descricao": "Pintura abstrata de Piet Mondrian de 1943, feita em Nova York, com grade de linhas e quadrados amarelos, vermelhos, azuis e cinza.",
+        "variantes": [
+          "Broadway Boogie Woogie"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; o par com a Maja nua está no mesmo museu, então a resposta é única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu fica este quadro de Goya?",
+      "resposta": "Museu do Prado",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Maja Vestida",
+        "descricao": "Pintura a óleo de Francisco de Goya, de 1800-1807, que mostra uma mulher vestida reclinada num divã, versão vestida da Maja nua.",
+        "variantes": [
+          "La maja vestida",
+          "The Clothed Maja",
+          "Maja Vestida"
+        ]
+      }
+    }
+  ]
+}
