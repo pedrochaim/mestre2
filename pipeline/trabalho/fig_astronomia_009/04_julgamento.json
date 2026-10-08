@@ -1,0 +1,479 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caminhada espacial",
+        "descricao": "Atividade extraveicular em que um astronauta trabalha fora da nave, no espaço.",
+        "variantes": [
+          "Atividade extraveicular",
+          "EVA",
+          "Passeio espacial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banda_eva",
+          "nome": "Banda Eva",
+          "descricao": "Banda baiana de axé music surgida do bloco de carnaval Eva, em Salvador.",
+          "variantes": [
+            "Eva"
+          ]
+        },
+        {
+          "id": "eva_peron",
+          "nome": "Eva Perón",
+          "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+          "variantes": [
+            "Evita",
+            "María Eva Duarte de Perón"
+          ]
+        },
+        {
+          "id": "traje_espacial",
+          "nome": "Traje espacial",
+          "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+          "variantes": [
+            "Roupa espacial",
+            "Escafandro espacial"
+          ]
+        },
+        {
+          "id": "space_needle",
+          "nome": "Space Needle",
+          "descricao": "Torre de observação de formato futurista em Seattle, nos Estados Unidos, construída para uma Feira Mundial.",
+          "variantes": [
+            "Agulha Espacial"
+          ]
+        },
+        {
+          "id": "pre_sal",
+          "nome": "Pré-sal",
+          "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+          "variantes": [
+            "Camada pré-sal",
+            "Pre-salt layer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nebulosa da Águia",
+        "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+        "variantes": [
+          "Messier 16",
+          "M16",
+          "NGC 6611",
+          "Pilares da Criação"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilares_da_criacao",
+          "nome": "Pilares da Criação",
+          "descricao": "Colunas de gás e poeira interestelar na Nebulosa da Águia, fotografadas pelo telescópio Hubble.",
+          "variantes": [
+            "Pillars of Creation"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Observatório de Raios X Chandra",
+        "descricao": "Telescópio espacial da NASA lançado em 1999 para observar raios X.",
+        "variantes": [
+          "Chandra",
+          "Chandra X-ray Observatory",
+          "CXO",
+          "AXAF"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "tocandira",
+          "nome": "Tocandira",
+          "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+          "variantes": [
+            "Paraponera clavata",
+            "formiga-bala",
+            "bullet ant",
+            "tucandeira"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "zen",
+          "nome": "Zen",
+          "descricao": "Escola do budismo maaiana surgida na China com o nome de Chan e difundida no Japão.",
+          "variantes": [
+            "Zen-budismo",
+            "Chan",
+            "Budismo zen"
+          ]
+        },
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Radiotelescópio FAST",
+        "descricao": "Radiotelescópio chinês de 500 metros de abertura, instalado numa depressão natural em Guizhou.",
+        "variantes": [
+          "FAST",
+          "Five-hundred-meter Aperture Spherical Telescope",
+          "Tianyan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fausto_goethe",
+          "nome": "Fausto (Goethe)",
+          "descricao": "Poema dramático de Johann Wolfgang von Goethe sobre um sábio que faz um pacto com o demônio.",
+          "variantes": [
+            "Faust",
+            "Fausto de Goethe"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "radiotelescopio_de_arecibo",
+          "nome": "Radiotelescópio de Arecibo",
+          "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+          "variantes": [
+            "Telescópio de Arecibo",
+            "Arecibo Telescope",
+            "Observatório de Arecibo"
+          ]
+        },
+        {
+          "id": "faustao",
+          "nome": "Faustão",
+          "descricao": "Fausto Silva, apresentador brasileiro do Domingão do Faustão na Globo.",
+          "variantes": [
+            "Fausto Silva",
+            "Fausto Corrêa Silva"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lua cheia",
+        "descricao": "Fase da Lua em que todo o hemisfério voltado para a Terra está iluminado.",
+        "variantes": [
+          "Plenilúnio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penicillium",
+          "nome": "Penicillium",
+          "descricao": "Gênero de fungos de bolor do qual se obteve a penicilina",
+          "variantes": [
+            "Penicilium",
+            "bolor azul",
+            "Penicílio"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "vertebras_cervicais",
+          "nome": "Vértebras cervicais",
+          "descricao": "Vértebras que formam a coluna do pescoço.",
+          "variantes": [
+            "Cervical vertebrae",
+            "Coluna cervical"
+          ]
+        },
+        {
+          "id": "lenin",
+          "nome": "Lênin",
+          "descricao": "Vladimir Ilitch Ulianov, revolucionário russo e primeiro chefe de governo da Rússia soviética e da União Soviética.",
+          "variantes": [
+            "Vladimir Lenin",
+            "Vladimir Ilitch Ulianov",
+            "Vladimir Ilyich Ulyanov"
+          ]
+        },
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Telescópio newtoniano",
+        "descricao": "Telescópio refletor com espelho primário côncavo e espelho secundário plano inclinado, inventado no século dezessete.",
+        "variantes": [
+          "Telescópio de Newton",
+          "Refletor newtoniano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio_newtoniano",
+          "nome": "Telescópio newtoniano",
+          "descricao": "Telescópio refletor construído por Isaac Newton em 1668, que usa um espelho côncavo no lugar de lentes.",
+          "variantes": [
+            "Telescópio refletor de Newton"
+          ]
+        },
+        {
+          "id": "radiotelescopio_de_arecibo",
+          "nome": "Radiotelescópio de Arecibo",
+          "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+          "variantes": [
+            "Telescópio de Arecibo",
+            "Arecibo Telescope",
+            "Observatório de Arecibo"
+          ]
+        },
+        {
+          "id": "pendulo_de_newton",
+          "nome": "Pêndulo de Newton",
+          "descricao": "Aparelho com esferas metálicas suspensas em fila que demonstra a conservação do momento e da energia.",
+          "variantes": [
+            "Berço de Newton",
+            "Newton's cradle"
+          ]
+        },
+        {
+          "id": "very_large_telescope",
+          "nome": "Very Large Telescope",
+          "descricao": "Observatório do ESO em Cerro Paranal, no deserto do Atacama, com quatro telescópios de 8,2 metros.",
+          "variantes": [
+            "VLT",
+            "Telescópio Muito Grande"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nebulosa Haltere",
+        "descricao": "Nebulosa planetária na constelação da Raposa, também conhecida como Messier 27.",
+        "variantes": [
+          "Nebulosa do Haltere",
+          "Dumbbell Nebula",
+          "Messier 27",
+          "M27",
+          "NGC 6853"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "m87",
+          "nome": "M87*",
+          "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+          "variantes": [
+            "Buraco negro",
+            "Messier 87*",
+            "Buraco negro de M87",
+            "Primeira imagem de um buraco negro"
+          ]
+        },
+        {
+          "id": "galaxia_do_charuto",
+          "nome": "Galáxia do Charuto",
+          "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+          "variantes": [
+            "Messier 82",
+            "M82",
+            "NGC 3034",
+            "Cigar Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Caminhada espacial é uma atividade; nenhuma candidata corresponde (traje espacial é objeto distinto)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A Nebulosa da Águia contém os Pilares da Criação, que são parte dela e outra âncora; nenhuma candidata é a nebulosa em si."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Telescópio Chandra não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "FAST é um radiotelescópio chinês distinto do de Arecibo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fase lunar não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "telescopio_newtoniano",
+      "motivo": "Mesmo tipo de telescópio refletor newtoniano, mesmo nome e descrição compatível.\n"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nebulosa Haltere (M27) é distinta das outras nebulosas candidatas."
+    }
+  ]
+}

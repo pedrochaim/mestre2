@@ -327,7 +327,7 @@
       "titulo": "en:Meteor shower",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Meteorito",
@@ -642,7 +642,7 @@
       "titulo": "en:Observatory",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estrela",
@@ -740,7 +740,7 @@
       "titulo": "en:Asteroid belt",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Cometa Shoemaker-Levy 9",
@@ -810,7 +810,7 @@
       "titulo": "en:101955 Bennu",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nebulosa Roseta",
@@ -836,6 +836,286 @@
     {
       "nome": "Observatório Keck",
       "titulo": "en:W. M. Keck Observatory",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lua cheia",
+      "titulo": "en:Full moon",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Estrela cadente",
+      "titulo": "en:Meteoroid",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caminhada espacial",
+      "titulo": "en:Extravehicular activity",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ônibus espacial Discovery",
+      "titulo": "en:Space Shuttle Discovery",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lado oculto da Lua",
+      "titulo": "en:Far side of the Moon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Supernova",
+      "titulo": "en:Supernova",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luneta (telescópio refrator)",
+      "titulo": "en:Refracting telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Face em Marte (Cydonia)",
+      "titulo": "en:Cydonia (Mars)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Opportunity",
+      "titulo": "en:Opportunity (rover)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Skylab",
+      "titulo": "en:Skylab",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crew Dragon",
+      "titulo": "en:SpaceX Dragon 2",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Falcon Heavy",
+      "titulo": "en:Falcon Heavy",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "SLS (Space Launch System)",
+      "titulo": "en:Space Launch System",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Very Large Array",
+      "titulo": "en:Very Large Array",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiotelescópio FAST",
+      "titulo": "en:Five-hundred-meter Aperture Spherical Telescope",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Observatório Griffith",
+      "titulo": "en:Griffith Observatory",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alexei Leonov",
+      "titulo": "en:Alexei Leonov",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "John Glenn",
+      "titulo": "en:John Glenn",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sally Ride",
+      "titulo": "en:Sally Ride",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edmond Halley",
+      "titulo": "en:Edmond Halley",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa da Águia",
+      "titulo": "en:Eagle Nebula",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cratera do Meteoro (Arizona)",
+      "titulo": "en:Meteor Crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telescópio newtoniano",
+      "titulo": "en:Newtonian telescope",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Deimos",
+      "titulo": "en:Deimos (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Éris",
+      "titulo": "en:Eris (dwarf planet)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ida (asteroide)",
+      "titulo": "en:243 Ida",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ryugu",
+      "titulo": "en:162173 Ryugu",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cometa McNaught",
+      "titulo": "en:C/2006 P1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa Haltere",
+      "titulo": "en:Dumbbell Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa da Bolha",
+      "titulo": "en:Bubble Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa da Borboleta",
+      "titulo": "en:NGC 6302",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia do Olho Negro",
+      "titulo": "en:Black Eye Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aglomerado de Hércules (M13)",
+      "titulo": "en:Messier 13",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Observatório de Raios X Chandra",
+      "titulo": "en:Chandra X-ray Observatory",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Observatório do Pico dos Dias",
+      "titulo": "pt:Observatório do Pico dos Dias",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buran",
+      "titulo": "en:Buran (spacecraft)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vera Rubin",
+      "titulo": "en:Vera Rubin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Konstantin Tsiolkovsky",
+      "titulo": "en:Konstantin Tsiolkovsky",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sergei Korolev",
+      "titulo": "en:Sergei Korolev",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Primeiro Campo Profundo do Webb",
+      "titulo": "en:Webb's First Deep Field",
       "camada": 3,
       "destino": 0,
       "status": "nova"

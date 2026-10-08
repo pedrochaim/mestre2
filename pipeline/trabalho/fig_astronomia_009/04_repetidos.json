@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem inventou este tipo de telescópio, no século dezessete?",
+        "resposta": "Isaac Newton"
+      },
+      "existentes": [
+        {
+          "id": "q08732",
+          "pergunta": "Em 1668, Isaac Newton construiu um telescópio que trocava as lentes por que peça curva para captar a luz?",
+          "resposta": "Espelho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o inventor do telescópio (Newton). A existente pede a peça usada, o espelho no lugar das lentes. São fatos diferentes, e acertar uma não leva à resposta da outra."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Itokawa (distrator) e Ryugu também tiveram amostras trazidas à Terra; a pista 'sonda que trouxe amostras' deixa distrator correto e, se restringida, entrega Bennu sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a atividade (fora da nave, no vazio) e entrega a resposta sem a figura. Remover a definição.",
+      "reescrita": {
+        "pergunta": "Como se chama esta atividade de um astronauta?",
+        "resposta": "Caminhada espacial (atividade extraveicular)"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hubble fotografou a nebulosa; a pista não identifica sozinha e a figura decide. Distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; distratores são observatórios espaciais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A pergunta pede só o tipo genérico de construção, 'construção científica' já entrega 'observatório' e a esfinge não é reconhecível o bastante para outra pergunta segura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Instalado num vale' não é literal (é uma depressão) e o Arecibo, distrator, também ficava numa depressão natural. Trocar por pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que radiotelescópio chinês é este?",
+        "resposta": "FAST",
+        "distratores": [
+          "Arecibo",
+          "Parkes",
+          "Green Bank"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples da fase; 'astro' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Usa um espelho em vez de lente' entrega que é refletor e leva a Newton sem a figura. Trocar por época.",
+      "reescrita": {
+        "pergunta": "Quem inventou este tipo de telescópio, no século dezessete?",
+        "resposta": "Isaac Newton",
+        "distratores": [
+          "Galileu Galilei",
+          "Johannes Kepler",
+          "William Herschel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gás expelido por uma estrela' define a nebulosa planetária e entrega a resposta. Além disso, 'nebulosa de emissão' é defensável para uma planetária. Trocar pista e distrator.",
+      "reescrita": {
+        "pergunta": "A que tipo pertence esta nebulosa da constelação da Raposa?",
+        "resposta": "Nebulosa planetária",
+        "distratores": [
+          "Remanescente de supernova",
+          "Nebulosa de reflexão",
+          "Nebulosa escura"
+        ]
+      }
+    }
+  ]
+}

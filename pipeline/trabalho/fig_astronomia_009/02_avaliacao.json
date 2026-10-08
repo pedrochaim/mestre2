@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'Discovery' está escrito na asa, entregando a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida do asteroide, em forma de diamante, sem texto. Distratores escolhidos sem Ryugu, que é parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que asteroide é este, visitado por uma sonda que trouxe amostras à Terra?",
+      "resposta": "Bennu",
+      "distratores": [
+        "Eros",
+        "Itokawa",
+        "Ceres"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bennu",
+        "descricao": "Asteroide carbonáceo próximo da Terra, de cerca de 490 metros, alvo da missão OSIRIS-REx.",
+        "variantes": [
+          "101955 Bennu",
+          "1999 RQ36"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Astronauta de traje flutuando fora da estação, sem texto legível e com o rosto não identificável. Mostra a atividade com clareza.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama esta atividade, realizada fora da nave, no vazio do espaço?",
+      "resposta": "Caminhada espacial",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caminhada espacial",
+        "descricao": "Atividade extraveicular em que um astronauta trabalha fora da nave, no espaço.",
+        "variantes": [
+          "Atividade extraveicular",
+          "EVA",
+          "Passeio espacial"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clássica do Hubble, os Pilares da Criação, sem texto. A parte preta é do mosaico e não atrapalha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nebulosa é esta, fotografada pelo telescópio espacial Hubble?",
+      "resposta": "Nebulosa da Águia",
+      "distratores": [
+        "Nebulosa de Órion",
+        "Nebulosa da Lagoa",
+        "Nebulosa Trífida"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Águia",
+        "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+        "variantes": [
+          "Messier 16",
+          "M16",
+          "NGC 6611",
+          "Pilares da Criação"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração digital limpa e sem texto de um observatório espacial, aceitável porque ele não pode ser fotografado em órbita. A forma, com o tubo longo e os painéis, é distintiva.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que observatório espacial é este?",
+      "resposta": "Observatório Chandra",
+      "distratores": [
+        "Telescópio Hubble",
+        "Telescópio Spitzer",
+        "Telescópio Fermi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Observatório de Raios X Chandra",
+        "descricao": "Telescópio espacial da NASA lançado em 1999 para observar raios X.",
+        "variantes": [
+          "Chandra",
+          "Chandra X-ray Observatory",
+          "CXO",
+          "AXAF"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma construção com cúpula no alto de uma rocha nevada (o Observatório da Esfinge), sem texto. Os distratores são claramente de outro tipo.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de construção científica é esta, no alto de uma montanha?",
+      "resposta": "Observatório astronômico",
+      "distratores": [
+        "Farol",
+        "Mosteiro",
+        "Fortaleza"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Observatório da Esfinge",
+        "descricao": "Observatório com cúpula no alto do Jungfraujoch, nos Alpes suíços.",
+        "variantes": [
+          "Sphinx Observatory",
+          "Observatório astronômico"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida do enorme prato num vale cercado de morros verdes, sem texto. A forma é característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que radiotelescópio é este, instalado num vale?",
+      "resposta": "FAST",
+      "distratores": [
+        "Arecibo",
+        "Parkes",
+        "Green Bank"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Radiotelescópio FAST",
+        "descricao": "Radiotelescópio chinês de 500 metros de abertura, instalado numa depressão natural em Guizhou.",
+        "variantes": [
+          "FAST",
+          "Five-hundred-meter Aperture Spherical Telescope",
+          "Tianyan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem é minúscula, com baixa resolução e ruim no celular. O asteroide também é muito parecido com Bennu, o que deixa a resposta ambígua."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto amadora e um pouco borrada, mas legível, da Lua cheia, com disco completo e manchas visíveis. Sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que fase está este astro?",
+      "resposta": "Lua cheia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lua cheia",
+        "descricao": "Fase da Lua em que todo o hemisfério voltado para a Terra está iluminado.",
+        "variantes": [
+          "Plenilúnio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma réplica do telescópio de Newton. A placa embaixo está quase ilegível e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem inventou este tipo de telescópio, que usa um espelho em vez de lente?",
+      "resposta": "Isaac Newton",
+      "distratores": [
+        "Galileu Galilei",
+        "Johannes Kepler",
+        "William Herschel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio newtoniano",
+        "descricao": "Telescópio refletor com espelho primário côncavo e espelho secundário plano inclinado, inventado no século dezessete.",
+        "variantes": [
+          "Telescópio de Newton",
+          "Refletor newtoniano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem colorida nítida da nebulosa, sem texto, com o formato oval característico. A pergunta pede a classe, num passo além do nome.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que tipo pertence esta nebulosa, formada por gás expelido por uma estrela?",
+      "resposta": "Nebulosa planetária",
+      "distratores": [
+        "Nebulosa de emissão",
+        "Nebulosa de reflexão",
+        "Nebulosa escura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Haltere",
+        "descricao": "Nebulosa planetária na constelação da Raposa, também conhecida como Messier 27.",
+        "variantes": [
+          "Nebulosa do Haltere",
+          "Dumbbell Nebula",
+          "Messier 27",
+          "M27",
+          "NGC 6853"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma gravura antiga e estilizada, não uma foto, de um fenômeno que pode ser fotografado. O desenho é exagerado e não serve de reconhecimento seguro."
+    }
+  ]
+}
