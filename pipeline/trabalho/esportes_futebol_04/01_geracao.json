@@ -1,0 +1,1038 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Copa do Mundo FIFA de 2026",
+        "descricao": "Vigésima terceira Copa do Mundo, disputada nos Estados Unidos, no Canadá e no México.",
+        "variantes": [
+          "Copa de 2026",
+          "2026 FIFA World Cup"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A Copa do Mundo de 2026, disputada nos Estados Unidos, no Canadá e no México, foi a primeira com quantas seleções?",
+      "resposta": "Quarenta e oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gol (baliza)",
+        "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+        "variantes": [
+          "Baliza",
+          "Meta",
+          "Goal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Association_football_pitch"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Pelas regras do futebol, quantos metros de largura tem o gol, medidos entre as duas traves?",
+      "resposta": "Sete metros e trinta e dois centímetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Association_football_pitch"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Copa do Mundo FIFA de 1930",
+        "descricao": "Primeira Copa do Mundo, disputada no Uruguai e vencida pela seleção uruguaia.",
+        "variantes": [
+          "Copa de 1930",
+          "1930 FIFA World Cup"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A primeira Copa do Mundo, disputada em 1930 no Uruguai, reuniu quantas seleções?",
+      "resposta": "Treze",
+      "distratores": [
+        "Dez",
+        "Dezesseis",
+        "Vinte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "final_da_copa_do_mundo_de_1994",
+        "nome": "Final da Copa do Mundo de 1994",
+        "descricao": "Partida final da Copa do Mundo FIFA de 1994, entre Brasil e Itália, decidida nos pênaltis em Pasadena, nos Estados Unidos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1994, nos Estados Unidos, qual era o placar entre Brasil e Itália ao fim da prorrogação da final da Copa?",
+      "resposta": "Zero a zero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "taca_fifa",
+        "nome": "Taça FIFA",
+        "descricao": "Troféu de ouro entregue ao campeão da Copa do Mundo desde 1974, sucessor da Taça Jules Rimet.",
+        "variantes": [
+          "FIFA World Cup Trophy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Taça FIFA, entregue aos campeões mundiais desde 1974, é feita de ouro de quantos quilates?",
+      "resposta": "Dezoito",
+      "distratores": [
+        "Vinte e quatro",
+        "Quatorze",
+        "Vinte e dois"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "real_madrid",
+        "nome": "Real Madrid",
+        "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A partir da primeira edição, decidida em 1956, o Real Madrid venceu quantas Copas dos Campeões Europeus seguidas?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+        "https://en.wikipedia.org/wiki/UEFA_Champions_League"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "adidas_telstar",
+        "nome": "Adidas Telstar",
+        "descricao": "Bola oficial da Copa do Mundo de 1970, com gomos pretos e brancos.",
+        "variantes": [
+          "Telstar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adidas_Telstar"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A Telstar, bola da Copa de 1970, combinava pentágonos pretos e hexágonos brancos. Quantos gomos ela tinha ao todo?",
+      "resposta": "Trinta e dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adidas_Telstar"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arsenal",
+        "nome": "Arsenal",
+        "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich.",
+        "variantes": [
+          "Arsenal F.C."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arsenal_F.C."
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na temporada de 2003 e 2004, o Arsenal foi campeão inglês sem perder nenhuma partida. Quantos jogos ele disputou nessa liga?",
+      "resposta": "Trinta e oito",
+      "distratores": [
+        "Trinta e quatro",
+        "Quarenta e dois",
+        "Quarenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2003%E2%80%9304_Arsenal_F.C._season",
+        "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Copa do Mundo FIFA de 2014",
+        "descricao": "Vigésima Copa do Mundo, disputada no Brasil e vencida pela Alemanha.",
+        "variantes": [
+          "Copa de 2014",
+          "2014 FIFA World Cup"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantas cidades brasileiras receberam jogos da Copa do Mundo de 2014?",
+      "resposta": "Doze",
+      "distratores": [
+        "Oito",
+        "Dez",
+        "Quatorze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tiro_livre",
+        "nome": "Tiro livre",
+        "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+        "variantes": [
+          "Falta",
+          "Free kick"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Free_kick_(association_football)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Numa cobrança de falta, a barreira adversária deve ficar a pelo menos quantos metros da bola?",
+      "resposta": "Nove metros e quinze centímetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Free_kick_(association_football)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "zagallo",
+        "nome": "Zagallo",
+        "descricao": "Mário Jorge Lobo Zagallo, jogador e treinador brasileiro, campeão do mundo como jogador e como técnico.",
+        "variantes": [
+          "Mário Zagallo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Somando as funções de jogador, técnico e coordenador, Zagallo esteve em quantos títulos mundiais da seleção brasileira?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "juventus",
+        "nome": "Juventus",
+        "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+        "variantes": [
+          "Juve"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Juventus_FC"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Juventus significa juventude em latim, mas o clube de Turim tem um apelido famoso que diz o contrário. Qual?",
+      "resposta": "Velha Senhora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Juventus_FC"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Old Trafford",
+        "descricao": "Estádio do Manchester United, em Manchester, na Inglaterra, inaugurado em 1910.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Old_Trafford"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O estádio Old Trafford, casa do Manchester United, ganhou do ídolo Bobby Charlton qual apelido poético?",
+      "resposta": "Teatro dos Sonhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Old_Trafford"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Seleção Neozelandesa de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Nova Zelândia.",
+        "variantes": [
+          "New Zealand men's national football team",
+          "All Whites"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/New_Zealand_men%27s_national_football_team"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A seleção de futebol da Nova Zelândia tem um apelido que faz contraponto ao famoso time de rúgbi do país, de uniforme preto. Qual é?",
+      "resposta": "All Whites",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/New_Zealand_men%27s_national_football_team"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pele",
+        "nome": "Pelé",
+        "descricao": "Edson Arantes do Nascimento, tricampeão mundial pela seleção brasileira.",
+        "variantes": [
+          "Edson Arantes do Nascimento"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pel%C3%A9"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Edson Arantes do Nascimento, o Pelé, recebeu seu primeiro nome em homenagem a qual inventor americano?",
+      "resposta": "Thomas Edison",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pel%C3%A9"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Catenaccio",
+        "descricao": "Sistema tático defensivo associado ao futebol italiano, popularizado pela Inter de Milão nos anos 1960.",
+        "variantes": [
+          "Ferrolho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Catenaccio"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O catenaccio, sistema defensivo que marcou o futebol italiano, tem um nome que significa o quê?",
+      "resposta": "Ferrolho",
+      "distratores": [
+        "Muralha",
+        "Armadilha",
+        "Fortaleza"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Catenaccio"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ronaldinho_gaucho",
+        "nome": "Ronaldinho Gaúcho",
+        "descricao": "Ronaldo de Assis Moreira, meia-atacante brasileiro do Barcelona, campeão mundial em 2002.",
+        "variantes": [
+          "Ronaldinho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ronaldinho"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, Ronaldo de Assis Moreira ganhou o Gaúcho no apelido para não ser confundido com qual outro jogador?",
+      "resposta": "Ronaldo Fenômeno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronaldinho"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Taça da Liga dos Campeões da UEFA",
+        "descricao": "Troféu prateado de grandes alças entregue ao campeão da Liga dos Campeões da Europa.",
+        "variantes": [
+          "European Champion Clubs' Cup",
+          "Orelhuda",
+          "La Orejona"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/European_Champion_Clubs%27_Cup"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa das grandes alças laterais, a taça da Liga dos Campeões da Europa ganhou na Espanha qual apelido?",
+      "resposta": "Orelhuda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/European_Champion_Clubs%27_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fio Maravilha (canção)",
+        "descricao": "Canção de Jorge Ben de 1972 que homenageia o atacante Fio Maravilha, do Flamengo.",
+        "variantes": [
+          "Filho Maravilha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fio_Maravilha",
+          "https://en.wikipedia.org/wiki/Fio_Maravilha"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Depois de um processo do jogador homenageado, Jorge Ben mudou o título da sua canção sobre um atacante do Flamengo. Que título ela ganhou?",
+      "resposta": "Filho Maravilha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fio_Maravilha",
+        "https://en.wikipedia.org/wiki/Fio_Maravilha"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ac_milan",
+        "nome": "AC Milan",
+        "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+        "variantes": [
+          "Milan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AC_Milan"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Milan usa a grafia inglesa do nome da cidade, e não a italiana, Milano. Por que o clube adotou essa forma?",
+      "resposta": "Foi fundado por ingleses",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/AC_Milan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Prêmio Puskás",
+        "descricao": "Prêmio da FIFA, criado em 2009, para o gol mais bonito do ano.",
+        "variantes": [
+          "FIFA Puskás Award"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/FIFA_Pusk%C3%A1s_Award"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Criado pela FIFA em 2009, o prêmio para o gol mais bonito do ano leva o nome de qual craque?",
+      "resposta": "Ferenc Puskás",
+      "distratores": [
+        "Alfredo Di Stéfano",
+        "Eusébio",
+        "Bobby Charlton"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIFA_Pusk%C3%A1s_Award"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "José Altafini",
+        "descricao": "Atacante nascido em Piracicaba, campeão mundial pelo Brasil em 1958 e depois jogador da seleção italiana e do Milan.",
+        "variantes": [
+          "Mazzola",
+          "Altafini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jos%C3%A9_Altafini"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Copa de 1958, o brasileiro José Altafini usava um apelido herdado de um craque do Grande Torino, com quem se parecia. Qual era o apelido?",
+      "resposta": "Mazzola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Altafini"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vavá",
+        "descricao": "Edvaldo Izídio Neto, centroavante brasileiro bicampeão mundial em 1958 e 1962.",
+        "variantes": [
+          "Edvaldo Izídio Neto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vav%C3%A1"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na final da Copa de 1958, contra a Suécia, o que o centroavante Vavá e o jovem Pelé têm em comum no placar?",
+      "resposta": "Ambos marcaram dois gols",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_final"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Julio Iglesias",
+        "descricao": "Cantor espanhol nascido em 1943, um dos artistas latinos que mais venderam discos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Julio_Iglesias"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de virar astro da música, que ligação o cantor espanhol Julio Iglesias teve com o Real Madrid?",
+      "resposta": "Foi goleiro das categorias de base",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Julio_Iglesias"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "San Lorenzo de Almagro",
+        "descricao": "Club Atlético San Lorenzo de Almagro, clube de futebol de Buenos Aires fundado em 1908.",
+        "variantes": [
+          "San Lorenzo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/San_Lorenzo_de_Almagro"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O papa Francisco, nascido em Buenos Aires, era sócio e torcedor declarado de qual clube argentino?",
+      "resposta": "San Lorenzo",
+      "distratores": [
+        "Boca Juniors",
+        "River Plate",
+        "Racing Club"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/San_Lorenzo_de_Almagro",
+        "https://en.wikipedia.org/wiki/Pope_Francis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "PSV Eindhoven",
+        "descricao": "Clube de futebol da cidade de Eindhoven, na Holanda, fundado em 1913 pela empresa Philips.",
+        "variantes": [
+          "PSV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/PSV_Eindhoven"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes de jogarem no Barcelona, Romário e Ronaldo Fenômeno brilharam no mesmo clube holandês. Qual?",
+      "resposta": "PSV Eindhoven",
+      "distratores": [
+        "Ajax",
+        "Feyenoord",
+        "AZ Alkmaar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rom%C3%A1rio",
+        "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fuga para a Vitória",
+        "descricao": "Filme de 1981 dirigido por John Huston sobre prisioneiros de guerra que enfrentam um time nazista numa partida de futebol.",
+        "variantes": [
+          "Escape to Victory",
+          "Victory"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Escape_to_Victory"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que ligação existe entre o craque Pelé e o ator Sylvester Stallone?",
+      "resposta": "Atuaram em Fuga para a Vitória",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Escape_to_Victory"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Seleção Portuguesa de Futebol",
+        "descricao": "Seleção nacional masculina de futebol de Portugal.",
+        "variantes": [
+          "Portugal national football team"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Portugal_national_football_team"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que técnico liga o penta do Brasil, em 2002, ao vice-campeonato de Portugal na Eurocopa de 2004?",
+      "resposta": "Luiz Felipe Scolari",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+        "https://en.wikipedia.org/wiki/UEFA_Euro_2004"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "garrincha",
+        "nome": "Garrincha",
+        "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+        "variantes": [
+          "Mané Garrincha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garrincha"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que curiosidade une Garrincha e Pelé nas partidas em que os dois atuaram juntos pela seleção brasileira?",
+      "resposta": "O Brasil nunca perdeu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Garrincha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Seleção Húngara de Futebol",
+        "descricao": "Seleção nacional de futebol da Hungria, vice-campeã mundial em 1938 e 1954.",
+        "variantes": [
+          "Hungary national football team"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hungary_national_football_team"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A Hungria de 1954 e a Holanda de 1974 chegaram às suas Copas como favoritas. Que destino as duas seleções tiveram em comum?",
+      "resposta": "Perderam a final para a Alemanha Ocidental",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_final",
+        "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_final"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lamartine Babo",
+        "descricao": "Compositor carioca (1904-1963), autor de marchinhas de carnaval e dos hinos populares dos clubes de futebol do Rio.",
+        "variantes": [
+          "Lalá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lamartine_Babo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os hinos populares de Flamengo, Fluminense, Vasco e Botafogo têm em comum na sua criação?",
+      "resposta": "O compositor, Lamartine Babo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lamartine_Babo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ary Barroso",
+        "descricao": "Compositor mineiro (1903-1964), autor de Aquarela do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ary_Barroso"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que ligação o compositor Ary Barroso, autor de Aquarela do Brasil, teve com o futebol?",
+      "resposta": "Foi locutor esportivo de rádio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ary_Barroso"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "João Havelange",
+        "descricao": "Dirigente esportivo brasileiro (1916-2016), presidente da FIFA de 1974 a 1998.",
+        "variantes": [
+          "Jean-Marie Faustin Godefroid de Havelange"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jo%C3%A3o_Havelange"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de presidir a FIFA por vinte e quatro anos, o brasileiro João Havelange disputou os Jogos Olímpicos de 1936 em qual esporte?",
+      "resposta": "Natação",
+      "distratores": [
+        "Atletismo",
+        "Remo",
+        "Esgrima"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Havelange"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vasco_da_gama",
+        "nome": "Vasco da Gama",
+        "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+        "variantes": [
+          "Vasco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1924, o Vasco recusou a exigência de afastar doze jogadores para entrar numa nova liga carioca. Por que esses atletas eram rejeitados?",
+      "resposta": "Eram negros e operários",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Resposta_Hist%C3%B3rica",
+        "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Didier Drogba",
+        "descricao": "Atacante marfinense, ídolo do Chelsea e maior artilheiro da seleção da Costa do Marfim.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Didier_Drogba"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2005, após classificar a Costa do Marfim para sua primeira Copa, Didier Drogba fez um apelo emocionado na TV. Ele pedia o fim de quê?",
+      "resposta": "Da guerra civil no país",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Didier_Drogba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Inter de Milão",
+        "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+        "variantes": [
+          "Internazionale",
+          "Inter Milan",
+          "Inter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inter_Milan"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1908, um grupo de dissidentes deixou o Milan e fundou a Internazionale. Qual foi o motivo da briga?",
+      "resposta": "A aceitação de jogadores estrangeiros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inter_Milan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Seleção Uruguaia de Futebol",
+        "descricao": "Seleção nacional de futebol do Uruguai, campeã mundial em 1930 e 1950.",
+        "variantes": [
+          "Celeste Olímpica",
+          "Uruguay national football team"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uruguay_national_football_team"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A camisa do Uruguai exibe quatro estrelas, embora o país tenha conquistado duas Copas do Mundo. Por quê?",
+      "resposta": "Conta também dois ouros olímpicos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uruguay_national_football_team"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eurocopa de 1992",
+        "descricao": "Nona edição do Campeonato Europeu de futebol, disputada na Suécia e vencida pela Dinamarca.",
+        "variantes": [
+          "UEFA Euro 1992",
+          "Euro 92"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/UEFA_Euro_1992"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Dinamarca foi campeã da Eurocopa de 1992 sem ter conseguido a classificação em campo. Por que ela entrou no torneio?",
+      "resposta": "Substituiu a Iugoslávia, excluída",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UEFA_Euro_1992"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Campeonato Mundial de Clubes da FIFA de 2000",
+        "descricao": "Primeira edição do Mundial de Clubes organizado pela FIFA, disputada no Brasil e vencida pelo Corinthians.",
+        "variantes": [
+          "2000 FIFA Club World Championship",
+          "Mundial de Clubes de 2000"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2000_FIFA_Club_World_Championship"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "No Maracanã, o Corinthians venceu o Vasco nos pênaltis e conquistou o primeiro Mundial de Clubes organizado pela FIFA. Em que ano?",
+      "resposta": "2000",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2000_FIFA_Club_World_Championship"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Três pontos por vitória",
+        "descricao": "Sistema de pontuação em que a vitória vale três pontos e o empate um, criado na Inglaterra em 1981.",
+        "variantes": [
+          "Three points for a win"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Three_points_for_a_win"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A regra de três pontos por vitória, criada na Inglaterra, foi usada pela primeira vez numa Copa do Mundo em qual edição?",
+      "resposta": "1994, nos Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three_points_for_a_win"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Brasil x Exeter City de 1914",
+        "descricao": "Primeiro jogo da seleção brasileira de futebol, contra o clube inglês Exeter City, no Rio de Janeiro, em julho de 1914.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+          "https://en.wikipedia.org/wiki/Exeter_City_F.C."
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A seleção brasileira entrou em campo pela primeira vez contra o clube inglês Exeter City, no Rio de Janeiro. Em que ano?",
+      "resposta": "1914",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+        "https://en.wikipedia.org/wiki/Exeter_City_F.C."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bola de Ouro",
+        "descricao": "Prêmio anual de melhor jogador de futebol, criado em 1956 pela revista francesa France Football.",
+        "variantes": [
+          "Ballon d'Or"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Bola de Ouro, criada em 1956, passou a aceitar jogadores não europeus que atuavam em clubes da Europa a partir de qual ano?",
+      "resposta": "1995",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Desastre aéreo de Munique",
+        "descricao": "Queda do avião que levava o time do Manchester United, em 6 de fevereiro de 1958, na Alemanha.",
+        "variantes": [
+          "Munich air disaster"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Munich_air_disaster"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1958, voltando de um jogo em Belgrado, o avião do Manchester United caiu ao decolar de uma escala para reabastecer. Em que cidade?",
+      "resposta": "Munique",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Munich_air_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lionel_messi",
+        "nome": "Lionel Messi",
+        "descricao": "Atacante argentino ídolo do Barcelona, campeão mundial com a Argentina em 2022.",
+        "variantes": [
+          "Messi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lionel_Messi"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Lionel Messi nasceu na mesma cidade argentina que o revolucionário Che Guevara. Que cidade é essa?",
+      "resposta": "Rosário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lionel_Messi",
+        "https://en.wikipedia.org/wiki/Che_Guevara"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Football Association",
+        "descricao": "Federação inglesa de futebol, fundada em 1863, a mais antiga entidade nacional do esporte.",
+        "variantes": [
+          "The FA",
+          "Associação de Futebol da Inglaterra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Football_Association"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1863, a Football Association, que unificou as regras do futebol, foi fundada numa taverna de qual cidade?",
+      "resposta": "Londres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Football_Association"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Final do Mundial de Clubes de 2019",
+        "descricao": "Partida final da Copa do Mundo de Clubes da FIFA de 2019, em Doha, entre Liverpool e Flamengo.",
+        "variantes": [
+          "2019 FIFA Club World Cup final"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2019_FIFA_Club_World_Cup_final"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na final do Mundial de Clubes de 2019, no Catar, quem marcou o gol do Liverpool na vitória por um a zero sobre o Flamengo?",
+      "resposta": "Roberto Firmino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2019_FIFA_Club_World_Cup_final"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eurocopa de 1960",
+        "descricao": "Primeira edição do Campeonato Europeu de futebol, com fase final disputada na França.",
+        "variantes": [
+          "1960 European Nations' Cup",
+          "Taça das Nações Europeias de 1960"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1960_European_Nations%27_Cup"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que seleção venceu a primeira Eurocopa, disputada em 1960, com a fase final na França?",
+      "resposta": "União Soviética",
+      "distratores": [
+        "Iugoslávia",
+        "Espanha",
+        "Hungria"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1960_European_Nations%27_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Complexo de vira-lata",
+        "descricao": "Expressão que descreve a sensação de inferioridade do brasileiro diante do resto do mundo, cunhada numa crônica esportiva de 1958.",
+        "variantes": [
+          "Complexo de vira-latas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Complexo_de_vira-lata"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cronista e dramaturgo criou a expressão complexo de vira-lata, sobre o trauma do futebol brasileiro após a derrota de 1950?",
+      "resposta": "Nelson Rodrigues",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Complexo_de_vira-lata",
+        "https://en.wikipedia.org/wiki/Nelson_Rodrigues"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "corinthians",
+        "nome": "Corinthians",
+        "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+        "variantes": [
+          "Timão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além da bandeira do estado de São Paulo, que objetos náuticos aparecem no escudo do Corinthians?",
+      "resposta": "Uma âncora e remos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tragedia_do_sarria",
+        "nome": "Tragédia do Sarriá",
+        "descricao": "Derrota do Brasil para a Itália por 3 a 2 no estádio Sarriá, em Barcelona, na Copa do Mundo de 1982.",
+        "variantes": [
+          "Brasil x Itália de 1982"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Trag%C3%A9dia_do_Sarri%C3%A1"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na derrota para a Itália no Sarriá, em 1982, o meio-campo brasileiro tinha Zico, Sócrates, Falcão e quem?",
+      "resposta": "Toninho Cerezo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Trag%C3%A9dia_do_Sarri%C3%A1",
+        "https://en.wikipedia.org/wiki/Brazil_v_Italy_(1982_FIFA_World_Cup)"
+      ]
+    }
+  ]
+}

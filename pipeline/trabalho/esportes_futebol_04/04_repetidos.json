@@ -1,0 +1,336 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1994, nos Estados Unidos, qual era o placar entre Brasil e Itália ao fim da prorrogação da final da Copa?",
+        "resposta": "Zero a zero"
+      },
+      "existentes": [
+        {
+          "id": "q00705",
+          "pergunta": "Em 1994, nos Estados Unidos, Brasil e Itália decidiram a Copa nos pênaltis em qual estádio?",
+          "resposta": "Rose Bowl"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A Taça FIFA, entregue aos campeões mundiais desde 1974, é feita de ouro de quantos quilates?",
+        "resposta": "Dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q05100",
+          "pergunta": "O troféu entregue ao campeão da Copa do Mundo desde 1974 mostra duas figuras humanas sustentando o quê?",
+          "resposta": "O globo terrestre"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A partir da primeira edição, decidida em 1956, o Real Madrid venceu quantas Copas dos Campeões Europeus seguidas?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q00034",
+          "pergunta": "Em 1920, o clube Madrid ganhou o título de Real, concedido por qual rei da Espanha?",
+          "resposta": "Afonso XIII"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A Telstar, bola da Copa de 1970, combinava pentágonos pretos e hexágonos brancos. Quantos gomos ela tinha ao todo?",
+        "resposta": "Trinta e dois"
+      },
+      "existentes": [
+        {
+          "id": "q00748",
+          "pergunta": "Na Copa de 1970, a bola Telstar ganhou gomos pretos e brancos com qual objetivo?",
+          "resposta": "Aparecer bem na TV preto e branco"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na temporada de 2003 e 2004, o Arsenal foi campeão inglês sem perder nenhuma partida. Quantos jogos ele disputou nessa liga?",
+        "resposta": "Trinta e oito"
+      },
+      "existentes": [
+        {
+          "id": "q00739",
+          "pergunta": "O Arsenal, de Londres, tem esse nome porque foi fundado em 1886 por operários de que tipo de lugar?",
+          "resposta": "Uma fábrica de armamentos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Numa cobrança de falta, a barreira adversária deve ficar a pelo menos quantos metros da bola?",
+        "resposta": "Nove metros e quinze centímetros"
+      },
+      "existentes": [
+        {
+          "id": "q09004",
+          "pergunta": "Que tipo de cobrança está prestes a acontecer neste jogo de futebol?",
+          "resposta": "Tiro livre (falta)"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Somando as funções de jogador, técnico e coordenador, Zagallo esteve em quantos títulos mundiais da seleção brasileira?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q04485",
+          "pergunta": "Em que ano este brasileiro foi campeão mundial como técnico da seleção?",
+          "resposta": "1970"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome Juventus significa juventude em latim, mas o clube de Turim tem um apelido famoso que diz o contrário. Qual?",
+        "resposta": "Velha Senhora"
+      },
+      "existentes": [
+        {
+          "id": "q00044",
+          "pergunta": "No início do século vinte, a Juventus trocou o uniforme rosa pelo preto e branco ao receber camisas de qual clube inglês?",
+          "resposta": "Notts County"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Edson Arantes do Nascimento, o Pelé, recebeu seu primeiro nome em homenagem a qual inventor americano?",
+        "resposta": "Thomas Edison"
+      },
+      "existentes": [
+        {
+          "id": "q00532",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Pelé"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O Milan usa a grafia inglesa do nome da cidade, e não a italiana, Milano. Por que o clube adotou essa forma?",
+        "resposta": "Foi fundado por ingleses"
+      },
+      "existentes": [
+        {
+          "id": "q05105",
+          "pergunta": "No Milan do fim dos anos oitenta, o famoso trio holandês tinha Gullit, Van Basten e qual volante?",
+          "resposta": "Frank Rijkaard"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que ligação existe entre o craque Pelé e o ator Sylvester Stallone?",
+        "resposta": "Atuaram em Fuga para a Vitória"
+      },
+      "existentes": [
+        {
+          "id": "q06884",
+          "pergunta": "Que craque brasileiro atuou ao lado de Sylvester Stallone e Michael Caine no filme Fuga para a Vitória, de 1981?",
+          "resposta": "Pelé"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que curiosidade une Garrincha e Pelé nas partidas em que os dois atuaram juntos pela seleção brasileira?",
+        "resposta": "O Brasil nunca perdeu"
+      },
+      "existentes": [
+        {
+          "id": "q00031",
+          "pergunta": "O apelido de Garrincha, ídolo do Botafogo, é também o nome popular de que tipo de animal?",
+          "resposta": "Um pássaro"
+        },
+        {
+          "id": "q05108",
+          "pergunta": "Garrincha driblava como poucos, apesar de uma característica física que muitos médicos viam como defeito. Qual era?",
+          "resposta": "Pernas tortas"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que ligação o compositor Ary Barroso, autor de Aquarela do Brasil, teve com o futebol?",
+        "resposta": "Foi locutor esportivo de rádio"
+      },
+      "existentes": [
+        {
+          "id": "q01214",
+          "pergunta": "Quando narrava futebol no rádio, o compositor Ary Barroso anunciava os gols tocando qual instrumento?",
+          "resposta": "Gaita de boca"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1924, o Vasco recusou a exigência de afastar doze jogadores para entrar numa nova liga carioca. Por que esses atletas eram rejeitados?",
+        "resposta": "Eram negros e operários"
+      },
+      "existentes": [
+        {
+          "id": "q00035",
+          "pergunta": "O Vasco, fundado em 1898, foi batizado em homenagem aos quatrocentos anos de qual feito do navegador português?",
+          "resposta": "Chegada às Índias por mar"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Lionel Messi nasceu na mesma cidade argentina que o revolucionário Che Guevara. Que cidade é essa?",
+        "resposta": "Rosário"
+      },
+      "existentes": [
+        {
+          "id": "q00745",
+          "pergunta": "Aos treze anos, Messi deixou a Argentina rumo ao Barcelona, que se comprometeu a pagar o tratamento de qual problema de saúde?",
+          "resposta": "Deficiência do hormônio do crescimento"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Além da bandeira do estado de São Paulo e da boia que a rodeia, que objetos náuticos aparecem no escudo do Corinthians?",
+        "resposta": "Âncora e remos"
+      },
+      "existentes": [
+        {
+          "id": "q00036",
+          "pergunta": "O Corinthians, fundado em 1910, recebeu o nome de um time amador que excursionava pelo Brasil. De que país era esse time?",
+          "resposta": "Inglaterra"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Na derrota para a Itália no Sarriá, em 1982, o meio-campo brasileiro tinha Zico, Sócrates, Falcão e quem?",
+        "resposta": "Toninho Cerezo"
+      },
+      "existentes": [
+        {
+          "id": "q05134",
+          "pergunta": "Na Copa de 1982, na Espanha, quem marcou os três gols da Itália na vitória por três a dois sobre o Brasil?",
+          "resposta": "Paolo Rossi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Placar após prorrogação vs estádio da final."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quilates do ouro vs figuras do troféu."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Títulos seguidos vs título Real."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de gomos vs objetivo das cores."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Jogos da temporada vs origem do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Distância da barreira vs tipo de cobrança."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Total de títulos vs ano como técnico."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Apelido vs origem do uniforme."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs identificação."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Grafia do nome vs trio holandês."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q06884",
+      "motivo": "Mesmo fato: Pelé e Stallone em Fuga para a Vitória."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Invencibilidade da dupla é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q01214",
+      "motivo": "Ary Barroso como locutor de rádio é o mesmo fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Recusa da liga vs origem do nome."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Cidade natal vs problema de saúde."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Escudo vs origem do nome."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Meio-campo vs artilheiro do jogo."
+    }
+  ]
+}
