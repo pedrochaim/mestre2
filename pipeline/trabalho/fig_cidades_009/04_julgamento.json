@@ -1,0 +1,521 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Edifício neoclássico em Washington, D.C., sede do Congresso dos Estados Unidos.",
+        "variantes": [
+          "Capitólio",
+          "United States Capitol",
+          "Capitol Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitolio_dos_estados_unidos",
+          "nome": "Capitólio dos Estados Unidos",
+          "descricao": "Edifício neoclássico em Washington, sede do Congresso dos Estados Unidos.",
+          "variantes": [
+            "Capitólio",
+            "United States Capitol"
+          ]
+        },
+        {
+          "id": "capitolio_de_havana",
+          "nome": "Capitólio de Havana",
+          "descricao": "Edifício com grande cúpula em Havana, Cuba, inaugurado em 1929 como sede do Congresso cubano.",
+          "variantes": [
+            "El Capitolio",
+            "Capitolio Nacional de Cuba"
+          ]
+        },
+        {
+          "id": "us_open",
+          "nome": "US Open",
+          "descricao": "Torneio de Grand Slam de tênis disputado em Nova York, o último da temporada.",
+          "variantes": [
+            "Aberto dos Estados Unidos"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "bandeira_dos_estados_unidos",
+          "nome": "Bandeira dos Estados Unidos",
+          "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+          "variantes": [
+            "Stars and Stripes",
+            "Old Glory"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Museu do Ipiranga",
+        "descricao": "Museu de história da Universidade de São Paulo, na zona sul da cidade de São Paulo, perto do local da proclamação da Independência.",
+        "variantes": [
+          "Museu Paulista",
+          "Museu Paulista da USP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "museu_do_amanha",
+          "nome": "Museu do Amanhã",
+          "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+          "variantes": []
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga",
+            "Córrego do Ipiranga"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ponte Estaiada",
+        "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Octavio Frias de Oliveira",
+          "Ponte Octávio Frias de Oliveira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "joao_do_pulo",
+          "nome": "João do Pulo",
+          "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+          "variantes": [
+            "João Carlos de Oliveira"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "bebeto",
+          "nome": "Bebeto",
+          "descricao": "José Roberto Gama de Oliveira, atacante brasileiro campeão mundial em 1994, parceiro de ataque de Romário.",
+          "variantes": [
+            "José Roberto Gama de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen de Kyoto, no Japão, famoso pelo pavilhão com os dois andares superiores cobertos de folha de ouro.",
+        "variantes": [
+          "Kinkakuji",
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Templo do Pavilhão Dourado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "mico_leao_dourado",
+          "nome": "Mico-leão-dourado",
+          "descricao": "Pequeno primata alaranjado da Mata Atlântica brasileira, espécie Leontopithecus rosalia.",
+          "variantes": [
+            "Leontopithecus rosalia",
+            "Golden lion tamarin"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Museu de Arte Contemporânea de Niterói",
+        "descricao": "Museu de arte projetado por Oscar Niemeyer, com forma de disco, sobre a praia da Boa Viagem em Niterói (RJ).",
+        "variantes": [
+          "MAC Niterói",
+          "MAC de Niterói"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        },
+        {
+          "id": "hamsa",
+          "nome": "Hamsa",
+          "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado.",
+          "variantes": [
+            "Mão de Fátima",
+            "Khamsa",
+            "Mão de Miriam"
+          ]
+        },
+        {
+          "id": "floriano_peixoto",
+          "nome": "Floriano Peixoto",
+          "descricao": "Marechal que foi o segundo presidente do Brasil, entre 1891 e 1894.",
+          "variantes": [
+            "Marechal de Ferro"
+          ]
+        },
+        {
+          "id": "a_mae_de_whistler",
+          "nome": "A Mãe de Whistler",
+          "descricao": "Quadro de James McNeill Whistler de 1871.",
+          "variantes": [
+            "Whistler's Mother",
+            "Arranjo em Cinza e Preto nº 1"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+        "variantes": [
+          "Templo do Amanhecer",
+          "Templo da Aurora",
+          "Wat Arun Ratchawararam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "templo_mayor",
+          "nome": "Templo Mayor",
+          "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+          "variantes": [
+            "Huey Teocalli",
+            "Grande Templo de Tenochtitlan"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        },
+        {
+          "id": "whitney_houston",
+          "nome": "Whitney Houston",
+          "descricao": "Cantora e atriz americana, estrela de O Guarda-Costas, morta em 2012",
+          "variantes": [
+            "Whitney Elizabeth Houston"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Catedral de Colônia",
+        "descricao": "Catedral católica gótica de duas torres em Colônia, na Alemanha, Patrimônio Mundial desde 1996.",
+        "variantes": [
+          "Kölner Dom",
+          "Cologne Cathedral",
+          "Dom de Colônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "capitolio_dos_estados_unidos",
+      "motivo": "Mesmo edifício, sede do Congresso dos EUA."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "museu_do_ipiranga",
+      "motivo": "Mesmo museu (Museu Paulista da USP)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ponte estaiada de São Paulo."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "kinkaku_ji_pavilhao_dourado",
+      "motivo": "Mesmo templo de Quioto."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "museu_de_arte_contemporanea_de_niteroi",
+      "motivo": "Mesmo museu de Niemeyer em Niterói."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Wat Arun não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "casa_branca",
+      "motivo": "Mesma residência presidencial americana."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_colonia",
+      "motivo": "Mesma catedral de Colônia."
+    }
+  ]
+}

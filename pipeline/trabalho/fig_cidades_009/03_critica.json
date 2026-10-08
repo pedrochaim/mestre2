@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Capitólio é a sede do Congresso. O enunciado não vaza a resposta. Os distratores são instituições críveis e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que a obra mais famosa do acervo é Independência ou Morte, de Pedro Américo. Sem a figura não dá para identificar o museu, então o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a ponte cruza o Rio Pinheiros. O enunciado não dá nenhuma pista, então é preciso reconhecer a figura. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Kinkaku-ji fica em Kyoto. O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vizinha da capital' é uma pista que quase entrega Niterói sem olhar a figura. Também é ambíguo, porque outras cidades fluminenses são vizinhas do Rio. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade do estado do Rio de Janeiro fica este museu?",
+        "resposta": "Niterói"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é Wat Arun, confirmada pelos trechos. O enunciado não vaza o nome. Os distratores são templos tailandeses críveis, curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que John Adams foi o primeiro presidente a residir na Casa Branca, em 1800. O enunciado não nomeia o edifício e é preciso reconhecê-lo na figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é uma catedral gótica alemã. O enunciado não cita Colônia, e a resposta é única diante da figura.",
+      "reescrita": null
+    }
+  ]
+}

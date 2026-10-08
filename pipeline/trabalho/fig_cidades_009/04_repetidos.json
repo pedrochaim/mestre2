@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instituição tem a sua sede neste edifício?",
+        "resposta": "Congresso dos Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q06923",
+          "pergunta": "Que edifício neoclássico americano é este?",
+          "resposta": "Capitólio dos Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pintor é autor da obra mais famosa do acervo deste museu?",
+        "resposta": "Pedro Américo"
+      },
+      "existentes": [
+        {
+          "id": "q01924",
+          "pergunta": "Que arquiteto italiano projetou este edifício, construído no fim do século dezenove?",
+          "resposta": "Tommaso Gaudenzio Bezzi"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade japonesa fica este templo?",
+        "resposta": "Kyoto"
+      },
+      "existentes": [
+        {
+          "id": "q07191",
+          "pergunta": "Em que cidade do Japão fica este templo?",
+          "resposta": "Quioto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade do estado do Rio de Janeiro fica este museu?",
+        "resposta": "Niterói"
+      },
+      "existentes": [
+        {
+          "id": "q03958",
+          "pergunta": "Com vista para a baía de Guanabara, o museu de arte contemporânea de Niemeyer em forma de disco voador fica em que cidade?",
+          "resposta": "Niterói"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que presidente americano foi o primeiro a morar neste edifício?",
+        "resposta": "John Adams"
+      },
+      "existentes": [
+        {
+          "id": "q04691",
+          "pergunta": "Que estilo arquitetônico tem este edifício, projetado por um arquiteto irlandês?",
+          "resposta": "Neoclássico"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que catedral gótica alemã é esta?",
+        "resposta": "Catedral de Colônia"
+      },
+      "existentes": [
+        {
+          "id": "q03973",
+          "pergunta": "Iniciada em 1248, a Catedral de Colônia, na Alemanha, ficou séculos inacabada. Em que século foi finalmente concluída?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a instituição sediada, não a identificação do edifício; embora a resposta seja ligada, é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintor da obra do acervo versus arquiteto do edifício: fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: cidade do templo, Kyoto/Quioto."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade do museu, Niterói."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Primeiro presidente morador versus estilo arquitetônico: fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar a catedral é diferente de saber o século de conclusão."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada oeste nítida e inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instituição tem a sua sede neste edifício?",
+      "resposta": "Congresso dos Estados Unidos",
+      "distratores": [
+        "Suprema Corte",
+        "Reserva Federal",
+        "Presidência dos EUA"
+      ],
+      "ancora": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Edifício neoclássico em Washington, D.C., sede do Congresso dos Estados Unidos.",
+        "variantes": [
+          "Capitólio",
+          "United States Capitol",
+          "Capitol Building"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada amarela e jardins reconhecíveis, sem texto; a pergunta vai além do nome.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que pintor é autor da obra mais famosa do acervo deste museu?",
+      "resposta": "Pedro Américo",
+      "ancora": {
+        "nome": "Museu do Ipiranga",
+        "descricao": "Museu de história da Universidade de São Paulo, na zona sul da cidade de São Paulo, perto do local da proclamação da Independência.",
+        "variantes": [
+          "Museu Paulista",
+          "Museu Paulista da USP"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O letreiro da fachada diz 'Theatro José de Alencar' e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ponte em X inconfundível, mesmo à noite; só aparece um 'Hyatt' pequeno, que não entrega.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Que rio esta ponte atravessa?",
+      "resposta": "Rio Pinheiros",
+      "ancora": {
+        "nome": "Ponte Estaiada",
+        "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Octavio Frias de Oliveira",
+          "Ponte Octávio Frias de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pavilhão dourado refletido no lago, imagem clara e sem texto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que cidade japonesa fica este templo?",
+      "resposta": "Kyoto",
+      "ancora": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen de Kyoto, no Japão, famoso pelo pavilhão com os dois andares superiores cobertos de folha de ouro.",
+        "variantes": [
+          "Kinkakuji",
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Templo do Pavilhão Dourado"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de um parque verde no meio de uma cidade densa; sem um monumento nítido, não dá para reconhecer o Ibirapuera com segurança, e a imagem não rende num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arquitetura em forma de disco inconfundível; a placa pequena é ilegível.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que cidade fluminense, vizinha da capital, fica este museu?",
+      "resposta": "Niterói",
+      "ancora": {
+        "nome": "Museu de Arte Contemporânea de Niterói",
+        "descricao": "Museu de arte projetado por Oscar Niemeyer, com forma de disco, sobre a praia da Boa Viagem em Niterói (RJ).",
+        "variantes": [
+          "MAC Niterói",
+          "MAC de Niterói"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prang central e torres reconhecíveis, vistos do rio, sem texto legível que entregue a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que templo budista tailandês é este?",
+      "resposta": "Wat Arun",
+      "distratores": [
+        "Wat Pho",
+        "Wat Phra Kaew",
+        "Wat Rong Khun"
+      ],
+      "ancora": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+        "variantes": [
+          "Templo do Amanhecer",
+          "Templo da Aurora",
+          "Wat Arun Ratchawararam"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada sul da Casa Branca, reconhecível, sem texto.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que presidente americano foi o primeiro a morar neste edifício?",
+      "resposta": "John Adams",
+      "ancora": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A fachada traz a inscrição 'Real Gabinete Portuguez de Leitura', que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea distante, sem um marco nítido; a cidade não é reconhecível com segurança e pode ser confundida com outras cidades litorâneas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Duas torres góticas inconfundíveis, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que catedral gótica alemã é esta?",
+      "resposta": "Catedral de Colônia",
+      "ancora": {
+        "nome": "Catedral de Colônia",
+        "descricao": "Catedral católica gótica de duas torres em Colônia, na Alemanha, Patrimônio Mundial desde 1996.",
+        "variantes": [
+          "Kölner Dom",
+          "Cologne Cathedral",
+          "Dom de Colônia"
+        ]
+      }
+    }
+  ]
+}

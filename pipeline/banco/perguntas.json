@@ -148321,5 +148321,135 @@
       "autor": "Chico Albuquerque",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q08666",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "capitolio_dos_estados_unidos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que instituição tem a sua sede neste edifício?",
+    "resposta": "Congresso dos Estados Unidos",
+    "distratores": [
+      "Suprema Corte",
+      "Reserva Federal",
+      "Presidência dos EUA"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_States_Capitol",
+      "https://pt.wikipedia.org/wiki/Capit%C3%B3lio_dos_Estados_Unidos"
+    ],
+    "imagem": {
+      "arquivo": "q08666.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+      "autor": "United_States_Capitol_-_west_front.jpg: Architect of the Capitol derivative work: O.J.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08667",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "museu_do_ipiranga",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que pintor é autor da obra mais famosa do acervo deste museu?",
+    "resposta": "Pedro Américo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Museu_do_Ipiranga",
+      "https://pt.wikipedia.org/wiki/Museu_do_Ipiranga"
+    ],
+    "imagem": {
+      "arquivo": "q08667.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Museo_Paulista_desde_el_aire_01_(cropped).jpg",
+      "autor": "ProtoplasmaKid",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q08668",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ponte_estaiada",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que rio esta ponte atravessa?",
+    "resposta": "Rio Pinheiros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oct%C3%A1vio_Frias_de_Oliveira_Bridge",
+      "https://pt.wikipedia.org/wiki/Ponte_Oct%C3%A1vio_Frias_de_Oliveira"
+    ],
+    "imagem": {
+      "arquivo": "q08668.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg",
+      "autor": "Marcosleal",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08669",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "wat_arun",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que templo budista tailandês é este?",
+    "resposta": "Wat Arun",
+    "distratores": [
+      "Wat Pho",
+      "Wat Phra Kaew",
+      "Wat Rong Khun"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wat_Arun",
+      "https://pt.wikipedia.org/wiki/Wat_Arun"
+    ],
+    "imagem": {
+      "arquivo": "q08669.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wat_Arun_from_Chao_Phraya_River.jpg",
+      "autor": "Diliff",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q08670",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "casa_branca",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que presidente americano foi o primeiro a morar neste edifício?",
+    "resposta": "John Adams",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_House",
+      "https://pt.wikipedia.org/wiki/Casa_Branca"
+    ],
+    "imagem": {
+      "arquivo": "q08670.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:WhiteHouseSouthFacade.JPG",
+      "autor": "This image or media was taken or created by Matt H. Wade. To see his entire portfolio, click here.@thatmattwade This image is protected by copyright! If you would like to use it, please read this firs",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08671",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "catedral_de_colonia",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que catedral gótica alemã é esta?",
+    "resposta": "Catedral de Colônia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+      "https://pt.wikipedia.org/wiki/Catedral_de_Col%C3%B4nia"
+    ],
+    "imagem": {
+      "arquivo": "q08671.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kölner_Dom_von_Osten.jpg",
+      "autor": "Thomas Wolf, www.foto-tw.de",
+      "licenca": "CC BY-SA 3.0 de"
+    }
   }
 ]
